@@ -2,8 +2,7 @@ import fs from "fs";
 import path from "path";
 import yaml from "js-yaml";
 import Link from "next/link";
-import MathText from "@/components/shared/MathText";
-import SlugTag from "@/components/shared/SlugTag";
+import RichSummary from "@/components/shared/RichSummary";
 import { getPeopleMap, getConceptsMap } from "@/lib/data";
 
 interface NewsEntry {
@@ -67,6 +66,61 @@ function getConceptHover(slug: string, concepts: Map<string, any>) {
   if (c.difficulty) details.push(c.difficulty);
   if (c.year_introduced) details.push(`${c.year_introduced} 年引入`);
   return { title: name, subtitle: c.name?.en !== name ? c.name?.en : undefined, details };
+}
+
+function buildEntities(
+  entry: NewsEntry,
+  people: Map<string, any>,
+  concepts: Map<string, any>
+) {
+  const entities: {
+    slug: string;
+    type: "person" | "concept";
+    displayName: string;
+    hoverTitle?: string;
+    hoverSubtitle?: string;
+    hoverDetails?: string[];
+  }[] = [];
+
+  const text = entry.summary_zh || "";
+
+  // Check all people — match Chinese name or English name in text
+  for (const [slug, p] of people) {
+    const zh = p.name?.zh;
+    const en = p.name?.en;
+    const matchName = zh && text.includes(zh) ? zh : en && text.includes(en) ? en : null;
+    if (matchName) {
+      const hover = getPersonHover(slug, people);
+      entities.push({
+        slug,
+        type: "person",
+        displayName: matchName,
+        hoverTitle: hover?.title,
+        hoverSubtitle: hover?.subtitle,
+        hoverDetails: hover?.details,
+      });
+    }
+  }
+
+  // Check all concepts — match Chinese name or English name
+  for (const [slug, c] of concepts) {
+    const zh = c.name?.zh;
+    const en = c.name?.en;
+    const matchName = zh && text.includes(zh) ? zh : en && text.includes(en) ? en : null;
+    if (matchName) {
+      const hover = getConceptHover(slug, concepts);
+      entities.push({
+        slug,
+        type: "concept",
+        displayName: matchName,
+        hoverTitle: hover?.title,
+        hoverSubtitle: hover?.subtitle,
+        hoverDetails: hover?.details,
+      });
+    }
+  }
+
+  return entities;
 }
 
 export default function NewsPage() {
@@ -137,38 +191,12 @@ export default function NewsPage() {
                     </span>
                   </div>
 
-                  {/* Summary */}
-                  <MathText className="text-xs text-[#e8e8f0]/80 leading-relaxed mb-3">
-                    {entry.summary_zh}
-                  </MathText>
-
-                  {/* Tags with hover cards */}
-                  <div className="flex flex-wrap gap-1">
-                    {entry.matched_people?.map((p) => (
-                      <SlugTag
-                        key={p}
-                        slug={p}
-                        type="person"
-                        {...(getPersonHover(p, people) || {})}
-                        hoverTitle={getPersonHover(p, people)?.title}
-                        hoverSubtitle={getPersonHover(p, people)?.subtitle}
-                        hoverDetails={getPersonHover(p, people)?.details}
-                      />
-                    ))}
-                    {entry.matched_concepts?.map((c) => (
-                      <SlugTag
-                        key={c}
-                        slug={c}
-                        type="concept"
-                        hoverTitle={getConceptHover(c, concepts)?.title}
-                        hoverSubtitle={getConceptHover(c, concepts)?.subtitle}
-                        hoverDetails={getConceptHover(c, concepts)?.details}
-                      />
-                    ))}
-                    <span className="text-[10px] px-1.5 py-0.5 rounded bg-[#2a2a3a] text-[#8888a0]">
-                      {entry.category}
-                    </span>
-                  </div>
+                  {/* Rich summary with inline entity links */}
+                  <RichSummary
+                    className="text-xs text-[#e8e8f0]/80 leading-relaxed"
+                    text={entry.summary_zh}
+                    entities={buildEntities(entry, people, concepts)}
+                  />
                 </div>
               </div>
             ))}
