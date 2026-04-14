@@ -1,136 +1,74 @@
 fetch_date: '2026-04-14'
-period_days: 14
-total_fetched: 167
-relevant_count: 11
+period_days: 105
+note: "2026 年初至今，领域内核心人物的新论文（已读 LaTeX 源码后总结）"
+total_fetched: 5
+relevant_count: 5
 entries:
-- id: '2604.01080'
-  title: Dioperads, Frobenius monoidal functors and duality
-  date: '2026-04-01'
-  authors_raw:
-  - Valerio Melani
-  - Hugo Pourcelot
-  matched_people: []
-  matched_concepts:
-  - frobenius-manifold
-  category: math.CT
-  relevance_score: 5
-  summary_zh: Valerio Melani, Hugo Pourcelot 的新论文。涉及：frobenius-manifold。
-- id: '2604.10028'
-  title: Notes on the decomposition theorem for blowups
-  date: '2026-04-11'
-  authors_raw:
-  - Hiroshi Iritani
-  matched_people: []
-  matched_concepts:
-  - quantum-cohomology
-  category: math.AG
-  relevance_score: 3
-  summary_zh: Hiroshi Iritani 的新论文。涉及：quantum-cohomology。
-- id: '2604.08773'
-  title: Neutral representations in dimension $\leq 3$ and fields of moduli
-  date: '2026-04-09'
-  authors_raw:
-  - Giulio Bresciani
-  - Tianzhi Yang
-  matched_people: []
-  matched_concepts:
-  - moduli-spaces
-  category: math.AG
-  relevance_score: 3
-  summary_zh: Giulio Bresciani, Tianzhi Yang 的新论文。涉及：moduli-spaces。
-- id: '2604.08429'
-  title: Derived jet and arc spaces
-  date: '2026-04-09'
-  authors_raw:
-  - Roi Docampo
-  - Lance Edward Miller
-  - C. Eric Overton-Walker
-  matched_people: []
-  matched_concepts:
-  - derived-category
-  category: math.AG
-  relevance_score: 3
-  summary_zh: Roi Docampo, Lance Edward Miller, C. Eric Overton-Walker 的新论文。涉及：derived-category。
-- id: '2604.04556'
-  title: From BV-BFV Quantization to Reshetikhin-Turaev Invariants
-  date: '2026-04-06'
-  authors_raw:
-  - Nima Moshayedi
-  matched_people: []
-  matched_concepts:
-  - derived-category
-  category: math-ph
-  relevance_score: 3
-  summary_zh: Nima Moshayedi 的新论文。涉及：derived-category。
-- id: '2604.03394'
-  title: Graded Satake diagrams and super-symmetric pairs
-  date: '2026-04-03'
-  authors_raw:
-  - D. Algethami
-  - A. Mudrov
-  - V. Stukopin
-  matched_people: []
-  matched_concepts:
-  - quantum-groups
-  category: math.QA
-  relevance_score: 3
-  summary_zh: D. Algethami, A. Mudrov, V. Stukopin 的新论文。涉及：quantum-groups。
-- id: '2604.02571'
-  title: Representation Category of Free Wreath Product of Classical Groups
-  date: '2026-04-02'
-  authors_raw:
-  - Yigang Qiu
-  matched_people: []
-  matched_concepts:
-  - quantum-groups
-  category: math.QA
-  relevance_score: 3
-  summary_zh: Yigang Qiu 的新论文。涉及：quantum-groups。
-- id: '2604.01058'
-  title: 'Universal $T$-matrices for quantum Poincaré groups: contractions and quantum
-    reference frames'
-  date: '2026-04-01'
-  authors_raw:
-  - Angel Ballesteros
-  - Diego Fernandez-Silvestre
-  - Ivan Gutierrez-Sagredo
-  matched_people: []
-  matched_concepts:
-  - quantum-groups
-  category: math.QA
-  relevance_score: 3
-  summary_zh: Angel Ballesteros, Diego Fernandez-Silvestre, Ivan Gutierrez-Sagredo
-    的新论文。涉及：quantum-groups。
-- id: '2604.00103'
-  title: Heisenberg vertex algebras and abelian varieties
-  date: '2026-03-31'
-  authors_raw:
-  - Nicola Tarasca
-  matched_people: []
-  matched_concepts:
-  - moduli-spaces
-  category: math.AG
-  relevance_score: 3
-  summary_zh: Nicola Tarasca 的新论文。涉及：moduli-spaces。
-- id: '2604.08481'
-  title: The topology of Lagrangian submanifolds via open-closed string topology
-  date: '2026-04-09'
-  authors_raw:
-  - Shuhao Li
-  matched_people: []
-  matched_concepts:
-  - moduli-spaces
-  category: math.SG
-  relevance_score: 3
-  summary_zh: Shuhao Li 的新论文。涉及：moduli-spaces。
-- id: '2604.01009'
-  title: Compactness of Moduli Spaces of Gradient Flow Lines in the Uniform Topology
-  date: '2026-04-01'
-  authors_raw:
-  - Tom Stalljohann
-  matched_people: []
-  matched_concepts:
-  - moduli-spaces
-  category: math.SG
-  relevance_score: 3
-  summary_zh: Tom Stalljohann 的新论文。涉及：moduli-spaces。
+  - id: '2603.02736'
+    title: "Complexity of quantum cohomology"
+    date: '2026-03-03'
+    authors_raw: ["Xiaobo Liu", "Chongyu Wang"]
+    matched_people: [liu-xiaobo]
+    matched_concepts: [quantum-cohomology, frobenius-manifold, gromov-witten-theory]
+    category: math.AG
+    relevance_score: 15
+    summary_zh: |
+      刘小博（北大 BICMR 讲席教授、ICM 2006 invited speaker）与王重宇的新工作。
+
+      将量子计算中的线路复杂度（circuit complexity）概念引入量子上同调的 2D TQFT 框架。核心思想：量子上同调给出 Frobenius 代数结构，对应的 2D TQFT 有唯一的基本门——handle operator $\Delta = \sum g^{ij} e_i * e_j$（quantum Euler class），以此定义量子态的复杂度，即需要多少次量子乘法才能从参考态到达目标态。
+
+      主要结果：对 Fano 完全交叉和 (co)minuscule 齐性簇，估计了有限复杂度态的数目；对 $\mathrm{Gr}(2,n)$ 给出了精确描述；证明了量子 Euler class 除以点类后特征值的正性。
+
+      把量子信息/计算复杂性视角引入经典代数几何（GW 理论）的有趣尝试。
+
+  - id: '2601.07538'
+    title: "Non-commutative cluster Lagrangians"
+    date: '2026-01-12'
+    authors_raw: ["Alexander B. Goncharov", "Maxim Kontsevich"]
+    matched_people: [kontsevich]
+    matched_concepts: [mirror-symmetry, derived-category]
+    category: math.AG
+    relevance_score: 20
+    summary_zh: |
+      Kontsevich（IHÉS，Fields 1998）与 Goncharov 的大型论文。
+
+      闭曲面 $S$ 上秩 $m$ 平坦丛的模空间 $\mathrm{Loc}_m(S)$ 是 $K_2$-辛的，三维流形 $M$ 的边界给出其中的 $K_2$-Lagrangian。本文推广了这一构造：引入「$\mathcal{Q}$-图」——三维流形中共定向曲面的集合，是二部带状图的三维类比。通过 $\mathcal{Q}$-图在 $T^*M$ 中构造奇异 Lagrangian $\mathbb{L}$，研究其上容许 dg-层的栈，证明限制函子的像是 Lagrangian 的且具有 cluster 描述。
+
+      涉及 microlocal sheaf theory、cluster 代数、辛几何的深层交叉，与 HMS 和 Fukaya 范畴研究密切相关。
+
+  - id: '2601.19455'
+    title: "The kernel of formal polylogarithms"
+    date: '2026-01-27'
+    authors_raw: ["Anton Alekseev", "Florian Naef", "Muze Ren"]
+    matched_people: [alekseev]
+    matched_concepts: [quantum-groups]
+    category: math.QA
+    relevance_score: 12
+    summary_zh: |
+      Alekseev（日内瓦大学教授，徐晓濛的博士导师，Faddeev 的学生）与 Naef、Ren 的工作。
+
+      将多变量多对数函数视为球面纯辫 Lie 代数 $\mathfrak{p}_m$ 的泛包络代数的对偶元素，计算所有多对数函数的联合核确定的左理想 $J_m \subset U\mathfrak{p}_m$，引入 Lie 子代数 $\mathfrak{k}_m = \mathfrak{p}_m \cap J_m$ 并对 $m=4,5$ 给出显式计算。
+
+      与 Drinfeld 结合子和 double shuffle 关系相关——后者正是 Alekseev 2006 年证明 Kashiwara-Vergne 猜想时的核心工具。
+
+  - id: '2602.15748'
+    title: "Conjugacy classes of regular integer matrices"
+    date: '2026-02-17'
+    authors_raw: ["Claus Hertling", "Alexander Kröger"]
+    matched_people: [hertling]
+    matched_concepts: []
+    category: math.NT
+    relevance_score: 5
+    summary_zh: |
+      Hertling（Mannheim 大学教授，Brieskorn 的学生，tt* geometry / Frobenius 流形专家）与 Kröger 的工作。研究整数矩阵的共轭类分类问题。与其主要方向（Frobenius 流形、奇异点理论）关系不大，属于代数/数论方向的独立探索。
+
+  - id: '2602.14973'
+    title: "Semigroups from full lattices in commutative Q-algebras"
+    date: '2026-02-16'
+    authors_raw: ["Claus Hertling"]
+    matched_people: [hertling]
+    matched_concepts: []
+    category: math.AC
+    relevance_score: 4
+    summary_zh: |
+      Hertling 独著。研究交换 $\mathbb{Q}$-代数中完全格的半群结构。与 Frobenius 流形不直接相关。
