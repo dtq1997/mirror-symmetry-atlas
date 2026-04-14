@@ -3,6 +3,8 @@ import path from "path";
 import yaml from "js-yaml";
 import Link from "next/link";
 import MathText from "@/components/shared/MathText";
+import SlugTag from "@/components/shared/SlugTag";
+import { getPeopleMap, getConceptsMap } from "@/lib/data";
 
 interface NewsEntry {
   id: string;
@@ -45,8 +47,32 @@ function loadAllEntries(): NewsEntry[] {
   return [...byId.values()].sort((a, b) => b.date.localeCompare(a.date));
 }
 
-export default function PapersPage() {
+function getPersonHover(slug: string, people: Map<string, any>) {
+  const p = people.get(slug);
+  if (!p) return undefined;
+  const name = p.name?.zh || p.name?.en || slug;
+  const career = (p.career_timeline || []).filter((e: any) => e.type === "position").pop();
+  const details: string[] = [];
+  if (career?.role) details.push(career.role);
+  if (career?.institution) details.push(career.institution);
+  if (p.activity?.total_papers) details.push(`${p.activity.total_papers} 篇论文`);
+  return { title: name, subtitle: p.name?.en !== name ? p.name?.en : undefined, details };
+}
+
+function getConceptHover(slug: string, concepts: Map<string, any>) {
+  const c = concepts.get(slug);
+  if (!c) return undefined;
+  const name = c.name?.zh || c.name?.en || slug;
+  const details: string[] = [];
+  if (c.difficulty) details.push(c.difficulty);
+  if (c.year_introduced) details.push(`${c.year_introduced} 年引入`);
+  return { title: name, subtitle: c.name?.en !== name ? c.name?.en : undefined, details };
+}
+
+export default function NewsPage() {
   const entries = loadAllEntries();
+  const people = getPeopleMap();
+  const concepts = getConceptsMap();
 
   return (
     <div className="max-w-4xl mx-auto px-6 py-10">
@@ -116,25 +142,28 @@ export default function PapersPage() {
                     {entry.summary_zh}
                   </MathText>
 
-                  {/* Tags */}
+                  {/* Tags with hover cards */}
                   <div className="flex flex-wrap gap-1">
                     {entry.matched_people?.map((p) => (
-                      <Link
+                      <SlugTag
                         key={p}
-                        href={`/people/${p}`}
-                        className="text-[10px] px-1.5 py-0.5 rounded bg-[#f59e0b]/15 text-[#fbbf24] hover:bg-[#f59e0b]/25"
-                      >
-                        {p}
-                      </Link>
+                        slug={p}
+                        type="person"
+                        {...(getPersonHover(p, people) || {})}
+                        hoverTitle={getPersonHover(p, people)?.title}
+                        hoverSubtitle={getPersonHover(p, people)?.subtitle}
+                        hoverDetails={getPersonHover(p, people)?.details}
+                      />
                     ))}
                     {entry.matched_concepts?.map((c) => (
-                      <Link
+                      <SlugTag
                         key={c}
-                        href={`/concepts/${c}`}
-                        className="text-[10px] px-1.5 py-0.5 rounded bg-[#6366f1]/15 text-[#818cf8] hover:bg-[#6366f1]/25"
-                      >
-                        {c}
-                      </Link>
+                        slug={c}
+                        type="concept"
+                        hoverTitle={getConceptHover(c, concepts)?.title}
+                        hoverSubtitle={getConceptHover(c, concepts)?.subtitle}
+                        hoverDetails={getConceptHover(c, concepts)?.details}
+                      />
                     ))}
                     <span className="text-[10px] px-1.5 py-0.5 rounded bg-[#2a2a3a] text-[#8888a0]">
                       {entry.category}
