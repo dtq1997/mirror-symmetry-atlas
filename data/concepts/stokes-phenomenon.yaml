@@ -1,0 +1,40 @@
+slug: stokes-phenomenon
+name:
+  en: Stokes Phenomenon
+  zh: Stokes 现象
+aliases:
+  - Stokes multipliers
+  - Stokes matrices
+category: technique
+difficulty: advanced
+discipline: math
+year_introduced: 1857
+introduced_by: []
+definition: |
+  具有不规则奇点的 ODE 的解的渐近展开在复平面上穿越某些射线（Stokes 射线）时
+  发生不连续跳变的现象。转移矩阵称为 Stokes 矩阵。
+dual_to: null
+prerequisites:
+  - flat-connection
+leads_to:
+  - isomonodromy
+  - wild-character-varieties
+related:
+  - frobenius-manifold
+  - painleve-equations
+  - quantum-groups
+key_people: [xu-xiaomeng, boalch, guzzetti, cotti, sabbah]
+key_papers: []
+contributions:
+  - person: xu-xiaomeng
+    role: major
+    description: "连接 Stokes 现象与量子群"
+  - person: boalch
+    role: major
+    description: "Wild character varieties 框架"
+  - person: guzzetti
+    role: major
+    description: "Frobenius 流形的 Stokes 矩阵计算"
+tags:
+  - layer-3
+  - layer-4

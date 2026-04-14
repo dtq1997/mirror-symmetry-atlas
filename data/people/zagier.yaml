@@ -1,0 +1,44 @@
+slug: zagier
+name:
+  en: Don Zagier
+  zh: 扎吉尔
+born: 1951
+died: null
+nationality: American
+gender: male
+photo_url: null
+career_timeline:
+  - period: "1971"
+    type: award
+    title: "PhD at age 20, University of Bonn"
+  - period: "1976-2014"
+    type: position
+    institution: mpim-bonn
+    role: "Director, Max Planck Institute for Mathematics"
+  - period: "2014-present"
+    type: position
+    institution: ictp
+    role: "Distinguished Staff Associate"
+    notes: "Also affiliated with MPI Bonn"
+research_areas:
+  - number-theory
+  - modular-forms
+  - mathematical-physics
+  - integrable-hierarchy
+advisor: null
+students: []
+key_collaborators:
+  - person: yang-di
+    since: 2018
+    topic: "KdV tau-functions, arithmetic of integrable hierarchies"
+    papers_count: 5
+activity:
+  total_papers: 200
+  active_period: "1971-present"
+external_ids: {}
+links: {}
+personal_notes: |
+  20岁获博士学位。MPI Bonn 长期 Director。
+  与杨迪合作的 KdV tau-function 工作把数论方法引入可积系统。
+  代表作: "On tau-functions for the KdV hierarchy" (with Dubrovin, Yang)
+tags: []

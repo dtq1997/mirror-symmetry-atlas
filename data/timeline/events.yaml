@@ -1,0 +1,188 @@
+events:
+  - slug: witten-2dtft-1990
+    date: "1990"
+    precision: year
+    title:
+      en: "Witten's 2D topological gravity and intersection numbers"
+      zh: "Witten 提出二维拓扑引力与交叉数猜想"
+    description: |
+      Witten conjecture: the generating function of intersection numbers
+      on $\overline{M}_{g,n}$ is a tau-function of the KdV hierarchy.
+    people: []
+    concepts: [gromov-witten-theory, integrable-hierarchy]
+    papers: []
+    era: modern
+    importance: milestone
+
+  - slug: wdvv-equations-1990
+    date: "1990"
+    precision: year
+    title:
+      en: "WDVV equations discovered"
+      zh: "WDVV 方程被发现"
+    description: |
+      Witten, Dijkgraaf, Verlinde & Verlinde 发现了拓扑场论中的结合性方程。
+    people: []
+    concepts: [wdvv-equations, topological-field-theory]
+    papers: []
+    era: modern
+    importance: milestone
+
+  - slug: kontsevich-witten-1992
+    date: "1992"
+    precision: year
+    title:
+      en: "Kontsevich proves Witten conjecture"
+      zh: "Kontsevich 证明 Witten 猜想"
+    description: |
+      Kontsevich 用矩阵积分方法证明了 Witten 猜想。
+    people: [kontsevich]
+    concepts: [gromov-witten-theory, integrable-hierarchy]
+    papers: []
+    era: modern
+    importance: milestone
+
+  - slug: cecotti-vafa-tt-star-1993
+    date: "1993"
+    precision: year
+    title:
+      en: "Cecotti-Vafa classification of N=2 theories"
+      zh: "Cecotti-Vafa N=2 理论分类"
+    description: |
+      tt* geometry 的奠基工作。将拓扑-反拓扑融合与 Stokes 现象联系起来。
+    people: []
+    concepts: [tt-star-geometry, stokes-phenomenon]
+    papers: []
+    era: modern
+    importance: major
+
+  - slug: dubrovin-frobenius-1994
+    date: "1994"
+    precision: year
+    title:
+      en: "Dubrovin introduces Frobenius manifolds"
+      zh: "Dubrovin 引入 Frobenius 流形"
+    description: |
+      229 页的 "Geometry of 2D topological field theories" 奠定了
+      Frobenius 流形理论的基础，统一了 WDVV 方程、量子上同调和可积系统。
+    people: [dubrovin]
+    concepts: [frobenius-manifold, wdvv-equations, quantum-cohomology]
+    papers: ["hep-th/9407018"]
+    era: modern
+    importance: milestone
+
+  - slug: kontsevich-hms-1994
+    date: "1994-08"
+    precision: month
+    title:
+      en: "Kontsevich proposes Homological Mirror Symmetry"
+      zh: "Kontsevich 提出同调镜像对称猜想"
+    description: |
+      ICM Zurich 报告，提出 HMS：
+      $D^b\mathrm{Coh}(X) \cong D^\pi\mathrm{Fuk}(\check{X})$
+    people: [kontsevich]
+    concepts: [homological-mirror-symmetry, mirror-symmetry]
+    papers: ["alg-geom/9411018"]
+    era: modern
+    importance: milestone
+
+  - slug: dubrovin-icm-1998
+    date: "1998"
+    precision: year
+    title:
+      en: "Dubrovin's ICM talk on Frobenius manifolds"
+      zh: "Dubrovin 在 ICM 做 Frobenius 流形报告"
+    description: |
+      Berlin ICM 邀请报告，综述 Frobenius 流形与可积系统。
+    people: [dubrovin]
+    concepts: [frobenius-manifold]
+    papers: []
+    era: modern
+    importance: major
+
+  - slug: kontsevich-fields-1998
+    date: "1998"
+    precision: year
+    title:
+      en: "Kontsevich receives Fields Medal"
+      zh: "Kontsevich 获 Fields 奖"
+    description: |
+      因在代数几何、拓扑和数学物理方面的贡献获奖。
+    people: [kontsevich]
+    concepts: []
+    papers: []
+    era: modern
+    importance: milestone
+
+  - slug: xu-quantum-groups-2017
+    date: "2017"
+    precision: year
+    title:
+      en: "Xu connects Frobenius manifolds and quantum groups"
+      zh: "徐晓濛建立 Frobenius 流形与量子群的联系"
+    description: |
+      "Frobenius Manifolds and Quantum Groups" 将两个几乎不相交的领域
+      （经典 Frobenius 流形理论和量子群/Poisson 几何）桥接起来。
+    people: [xu-xiaomeng]
+    concepts: [frobenius-manifold, quantum-groups, stokes-phenomenon]
+    papers: []
+    era: contemporary
+    importance: major
+
+  - slug: cotti-coalescence-2019
+    date: "2019"
+    precision: year
+    title:
+      en: "Cotti-Dubrovin-Guzzetti: isomonodromy with coalescing eigenvalues"
+      zh: "Cotti-Dubrovin-Guzzetti：特征值合并时的等单值变形"
+    description: |
+      解决了 Frobenius 流形理论中长期悬而未决的 coalescence 问题。
+      Dubrovin 生前最后的重要合作成果之一。
+    people: [cotti, dubrovin, guzzetti]
+    concepts: [isomonodromy, frobenius-manifold, stokes-phenomenon]
+    papers: []
+    era: contemporary
+    importance: major
+
+  - slug: dubrovin-death-2019
+    date: "2019-03-19"
+    precision: day
+    title:
+      en: "Boris Dubrovin passes away"
+      zh: "Boris Dubrovin 去世"
+    description: |
+      Frobenius 流形理论的创始人因 ALS 在 SISSA 去世。
+    people: [dubrovin]
+    concepts: []
+    papers: []
+    era: contemporary
+    importance: milestone
+
+  - slug: dubrovin-medal-2020
+    date: "2020"
+    precision: year
+    title:
+      en: "First Boris Dubrovin Medal awarded"
+      zh: "首届 Boris Dubrovin Medal 颁发"
+    description: |
+      SISSA 设立，Moscow Math Society + INdAM 支持，每两年颁发，
+      表彰数学物理杰出年轻研究者。首届得主：Gaetan Borot。
+    people: [dubrovin]
+    concepts: []
+    papers: []
+    era: contemporary
+    importance: notable
+
+  - slug: novikov-death-2024
+    date: "2024-06-06"
+    precision: day
+    title:
+      en: "Sergei Novikov passes away"
+      zh: "Sergei Novikov（诺维科夫）去世"
+    description: |
+      Fields Medal 1970 得主，Dubrovin 的导师，代数拓扑和可积系统巨匠。
+    people: [novikov-sergei]
+    concepts: []
+    papers: []
+    era: contemporary
+    importance: major

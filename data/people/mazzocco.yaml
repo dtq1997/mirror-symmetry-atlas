@@ -1,0 +1,81 @@
+slug: mazzocco
+name:
+  en: Marta Mazzocco
+  zh: null
+born: null
+died: null
+nationality: Italian
+gender: female
+photo_url: null
+career_timeline:
+  - period: "~1990-1994"
+    type: education
+    institution: padova
+    role: "Theoretical Physics, University of Padova"
+  - period: "1994-1998"
+    type: education
+    institution: sissa
+    role: "博士"
+    advisor: dubrovin
+    notes: "1998年获博士学位"
+  - period: "~1998-1999"
+    type: visit
+    institution: msri
+    role: "博士后, MSRI Berkeley"
+  - period: "~2000-2005"
+    type: position
+    institution: oxford
+    role: "Postdoc"
+    notes: "under Nigel Hitchin"
+  - period: "~2005-2008"
+    type: position
+    institution: manchester
+    role: "Lecturer, Applied Mathematics"
+  - period: "2008-2014"
+    type: position
+    institution: loughborough
+    role: "Reader → Personal Chair"
+  - period: "2018-2024"
+    type: position
+    institution: birmingham
+    role: "Professor of Mathematics"
+  - period: "2024-present"
+    type: position
+    institution: upc-barcelona
+    role: "ICREA Senior Research Professor"
+research_areas:
+  - painleve-equations
+  - quantum-cluster-algebras
+  - monodromy
+  - isomonodromy
+advisor: dubrovin
+students: []
+key_collaborators:
+  - person: dubrovin
+    since: 1995
+    topic: "Painlevé equations, reflection groups"
+    papers_count: 7
+activity:
+  total_papers: 115
+  h_index: 21
+  active_period: "1998-present"
+  phd_students: 4
+external_ids:
+  openalex: "A5037371489"
+  mathgenealogy: "51294"
+  orcid: "0000-0001-9917-2547"
+links:
+  homepage: "https://sites.google.com/upc.edu/marta-mazzocco"
+personal_notes: |
+  Quantum cluster algebras + Painlevé 方向的专家。
+  与 Xu 无共著但主题高度相关——潜在合作方向。
+sources:
+  - label: "Math Genealogy"
+    url: "https://www.mathgenealogy.org/id.php?id=51294"
+  - label: "OpenAlex"
+    url: "https://openalex.org/authors/A5037371489"
+  - label: "ORCID"
+    url: "https://orcid.org/0000-0001-9917-2547"
+tags:
+  - sissa-school
+  - dubrovin-student

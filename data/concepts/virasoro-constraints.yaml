@@ -1,0 +1,25 @@
+slug: virasoro-constraints
+name:
+  en: Virasoro Constraints
+  zh: Virasoro 约束
+aliases: []
+category: equation
+difficulty: advanced
+discipline: both
+year_introduced: 1990
+introduced_by: []
+definition: |
+  拓扑场论/矩阵模型的配分函数 $Z$ 满足的一列微分方程 $L_n Z = 0$（$n \geq -1$），
+  其中 $L_n$ 构成 Virasoro 代数（的一半）的表示。
+dual_to: null
+prerequisites:
+  - gromov-witten-theory
+leads_to: []
+related:
+  - integrable-hierarchy
+  - wdvv-equations
+  - tau-function
+key_people: [zhang-youjin, dubrovin]
+key_papers: []
+tags:
+  - layer-2

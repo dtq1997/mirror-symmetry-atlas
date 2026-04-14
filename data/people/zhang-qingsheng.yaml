@@ -1,0 +1,91 @@
+slug: zhang-qingsheng
+name:
+  en: Qingsheng Zhang
+  zh: 张庆生
+born: null
+died: null
+nationality: Chinese
+gender: male
+photo_url: null
+career_timeline:
+  - period: "2011-2015"
+    type: education
+    institution: ustc
+    role: "本科, 华罗庚班 (少年班学院)"
+  - period: "2015-2020"
+    type: education
+    institution: tsinghua
+    role: "博士"
+    advisor: zhou-jian
+    notes: "[待验证] 极可能师从周坚"
+  - period: "2020-2024"
+    type: position
+    institution: pku-bicmr
+    role: "博士后"
+    notes: "北京大学"
+  - period: "2024-present"
+    type: position
+    institution: gbu
+    role: "助理教授"
+    notes: "大湾区大学, 东莞"
+research_areas:
+  - gromov-witten-theory
+  - virasoro-constraints
+  - topological-recursion
+  - integrable-hierarchy
+  - frobenius-manifold
+advisor: zhou-jian
+students: []
+key_collaborators:
+  - person: guo-shuai
+    since: 2020
+    topic: "Higher-genus GW theory, Virasoro constraints for CohFT"
+    papers_count: 3
+  - person: zhou-jian
+    since: 2019
+    topic: "Itzykson-Zuber Ansatz"
+    papers_count: 1
+  - person: yang-di
+    since: 2022
+    topic: "Hodge-BGW correspondence"
+    papers_count: 1
+  - person: yang-chenglang
+    since: 2023
+    topic: "BKP-affine coordinates, emergent geometry"
+    papers_count: 1
+  - person: wang-zhiyuan
+    since: 2023
+    topic: "BKP-affine coordinates"
+    papers_count: 1
+publications:
+  - id: "2507.20151"
+    title: "Virasoro constraints for topological recursion"
+    year: 2025
+    coauthors: [guo-shuai]
+  - id: "2309.12271"
+    title: "A generalization of the Witten conjecture through spectral curve"
+    year: 2023
+    coauthors: [guo-shuai, ji-ce]
+  - id: "2301.01131"
+    title: "BKP-Affine Coordinates and Emergent Geometry of Generalized BGW Tau-Functions"
+    year: 2023
+    coauthors: [wang-zhiyuan, yang-chenglang]
+  - id: "2112.12736"
+    title: "On the Hodge-BGW correspondence"
+    year: 2021
+    coauthors: [yang-di]
+  - id: "1909.10544"
+    title: "On Itzykson-Zuber Ansatz"
+    year: 2019
+    coauthors: [zhou-jian]
+  # [待补充] Virasoro constraints for CohFT II (2024) 和 I (2023)，arXiv ID 待验证
+activity:
+  active_period: "2019-present"
+external_ids: {}
+links: {}
+personal_notes: |
+  USTC 华罗庚班本科 → 清华博士 (周坚组 [待验证]) → PKU 博后 → 大湾区大学助理教授。
+  研究方向包含 Frobenius manifolds 和 Dubrovin-Zhang theory，与本项目核心主题直接相关。
+  Email: zhangqingsheng@gbu.edu.cn
+tags:
+  - important-person

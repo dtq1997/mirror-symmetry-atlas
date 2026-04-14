@@ -1,0 +1,63 @@
+slug: ke-huazhong
+name:
+  en: Huazhong Ke
+  zh: 柯华忠
+born: null
+died: null
+nationality: Chinese
+gender: male
+photo_url: null
+career_timeline:
+  - period: "2004-2008"
+    type: education
+    institution: sun-yat-sen
+    role: "本科, 中山大学"
+  - period: "2008-2013"
+    type: education
+    institution: tsinghua
+    role: "博士"
+    advisor: zhou-jian
+    notes: "清华大学，导师周坚"
+  - period: "2013-present"
+    type: position
+    institution: sun-yat-sen
+    role: "副研究员"
+    notes: "中山大学数学学院"
+research_areas:
+  - quantum-cohomology
+  - gamma-conjecture
+  - frobenius-manifold
+  - derived-categories
+advisor: zhou-jian
+students: []
+key_collaborators: []
+publications:
+  - id: "2502.13558"
+    title: "On the quantum cohomology of blow-ups of four-dimensional quadrics"
+    year: 2025
+    coauthors: ["Jianxun Hu", "Changzheng Li", "Lei Song"]
+  - id: "2502.13545"
+    title: "Mirror symmetry for certain blowups of Grassmannians"
+    year: 2025
+    coauthors: ["Jianxun Hu", "Changzheng Li", "Lei Song"]
+  - id: "2405.16987"
+    title: "On Galkin's Lower Bound Conjecture"
+    year: 2024
+    coauthors: ["Jianxun Hu", "Changzheng Li", "Zhitong Su"]
+  - id: "2405.16979"
+    title: "Revisiting Gamma conjecture I: counterexamples and modifications"
+    year: 2024
+    coauthors: ["Sergey Galkin", "Jianxun Hu", "Hiroshi Iritani", "Changzheng Li", "Zhitong Su"]
+activity:
+  total_papers: 4
+  active_period: "2015-present"
+external_ids: {}
+links: {}
+personal_notes: |
+  2026 HUST 会议报告: Gamma conjecture II for del Pezzo surfaces via Gamma-I
+  Joint with Jianxun Hu, Changzheng Li and Zhitong Su.
+  直接研究 Dubrovin connection 的渐近行为和 Gamma-integral structure，与本项目核心高度相关。
+sources:
+  - label: "中山大学数学学院"
+    url: "https://math.sysu.edu.cn/teacher/644"
+tags: []

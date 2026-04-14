@@ -1,0 +1,75 @@
+slug: tang-qian
+name:
+  en: Qian Tang
+  zh: 唐乾
+born: 1997
+died: null
+nationality: Chinese
+gender: male
+photo_url: null
+career_timeline:
+  - period: "2019-2023"
+    type: education
+    institution: pku-bicmr
+    role: "博士"
+    advisor: xu-xiaomeng
+  - period: "2023-present"
+    type: position
+    institution: tsinghua
+    role: "博士后"
+    notes: "同时在徐晓濛组（PKU）和张友金/刘思齐组（清华）"
+research_areas:
+  - stokes-phenomenon
+  - isomonodromy
+  - quantum-groups
+  - frobenius-manifolds
+  - q-painleve
+advisor: xu-xiaomeng
+students: []
+key_collaborators:
+  - person: xu-xiaomeng
+    since: 2023
+    topic: "Stokes phenomenon, Yangians, isomonodromy"
+    papers_count: 4
+  - person: yang-chenglang
+    since: 2024
+    met_context: "密友"
+    topic: "Schroeder paths, knot invariants"
+    papers_count: 1
+  - person: ji-ce
+    since: 2024
+    met_context: "在张友金组经常交流"
+    topic: "Schroeder paths, knot invariants"
+    papers_count: 1
+publications:
+  - id: "2501.17516"
+    title: "Stokes Phenomenon and Yangians"
+    year: 2025
+    coauthors: [xu-xiaomeng]
+  - id: "2407.20010"
+    title: "Schröder Paths, Their Generalizations and Knot Invariants"
+    year: 2024
+    coauthors: [ji-ce, yang-chenglang]
+  - id: "2402.07269"
+    title: "The Boundary Condition for Some Isomonodromy Equations"
+    year: 2024
+    coauthors: [xu-xiaomeng]
+activity:
+  total_papers: 5
+  active_period: "2023-present"
+external_ids: {}
+links: {}
+personal_notes: |
+  两个几乎不相交的 cluster 之间的桥梁节点：
+  - Cluster A（SISSA/Dubrovin 学派）：经典 Frobenius 流形、Painlevé、isomonodromy
+  - Cluster B（Xu/Alekseev 学派）：quantum groups、Poisson geometry、Stokes 量子化
+  同时在两组工作，研究方向是两个 cluster 的精确交叉点。
+
+  社交网络：
+  - 杨成浪：密友
+  - 季策：在张友金组活跃交流，和组里博士生很熟
+  - 2026-04-17 HUST 会议将与杨成浪、王知远深入交流
+tags:
+  - tsinghua
+  - pku
+  - bridge-node

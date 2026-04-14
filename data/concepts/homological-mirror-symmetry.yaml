@@ -1,0 +1,31 @@
+slug: homological-mirror-symmetry
+name:
+  en: Homological Mirror Symmetry
+  zh: 同调镜像对称
+aliases:
+  - HMS
+category: conjecture
+difficulty: research-frontier
+discipline: math
+year_introduced: 1994
+introduced_by: [kontsevich]
+definition: |
+  对镜像对 $(X, \check{X})$：
+  $D^b\mathrm{Coh}(X) \cong D^\pi\mathrm{Fuk}(\check{X})$
+  即 $X$ 上凝聚层的导出范畴等价于 $\check{X}$ 的导出 Fukaya 范畴。
+dual_to: null
+prerequisites:
+  - mirror-symmetry
+  - derived-category
+  - fukaya-category
+leads_to: []
+related:
+  - quantum-cohomology
+  - calabi-yau
+key_people: [kontsevich]
+key_papers: ["alg-geom/9411018"]
+contributions:
+  - person: kontsevich
+    role: founder
+    description: "1994 ICM 报告提出猜想"
+tags: []

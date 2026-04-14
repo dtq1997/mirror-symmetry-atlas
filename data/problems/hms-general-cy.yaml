@@ -1,0 +1,29 @@
+slug: hms-general-cy
+name:
+  en: "Homological Mirror Symmetry for general Calabi-Yau manifolds"
+  zh: "一般 Calabi-Yau 流形的同调镜像对称"
+status: open
+importance: millennium
+year_proposed: 1994
+proposed_by: [kontsevich]
+description: |
+  Kontsevich 1994 年 ICM 报告提出的猜想完整版本。
+  已在特殊情形证明（toric, abelian varieties, quartic surface），
+  一般情形仍然开放。
+prerequisites: [homological-mirror-symmetry, derived-category]
+related_problems: [gamma-conjecture-proof]
+key_people: [kontsevich]
+progress:
+  - date: "1994"
+    description: "Kontsevich 提出猜想"
+    papers: ["alg-geom/9411018"]
+  - date: "2003"
+    description: "Seidel 证明 quartic surface 情形"
+    papers: []
+  - date: "2009"
+    description: "Sheridan 证明 Fermat hypersurface"
+    papers: []
+current_approaches:
+  - "SYZ + family Floer cohomology"
+  - "Categorical formal geometry"
+notes: null

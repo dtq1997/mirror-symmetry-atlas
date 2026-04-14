@@ -1,0 +1,25 @@
+slug: ihes
+name:
+  en: "Institut des Hautes Études Scientifiques (IHÉS)"
+  zh: "法国高等科学研究所"
+type: research-institute
+country: France
+city: Bures-sur-Yvette
+location:
+  lat: 48.6974
+  lng: 2.1681
+founded: 1958
+url: "https://www.ihes.fr/"
+relevance: medium
+research_groups:
+  - name: "Mathematics"
+    topics:
+      - algebraic-geometry
+      - mathematical-physics
+      - homological-mirror-symmetry
+    current_members:
+      - kontsevich
+    past_members: []
+events: []
+notes: |
+  Kontsevich 的所在地。Homological Mirror Symmetry 的诞生地。

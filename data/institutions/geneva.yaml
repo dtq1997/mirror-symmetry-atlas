@@ -1,0 +1,27 @@
+slug: geneva
+name:
+  en: "University of Geneva"
+  zh: "日内瓦大学"
+  local: "Université de Genève"
+type: university
+country: Switzerland
+city: Geneva
+location:
+  lat: 46.1995
+  lng: 6.1424
+founded: 1559
+url: "https://www.unige.ch/"
+relevance: medium
+research_groups:
+  - name: "Mathematical Physics"
+    topics:
+      - poisson-geometry
+      - quantum-groups
+      - kashiwara-vergne
+    current_members:
+      - alekseev
+    past_members:
+      - xu-xiaomeng
+events: []
+notes: |
+  Alekseev 的基地。Xu Xiaomeng 在此获博士学位 (2016)。

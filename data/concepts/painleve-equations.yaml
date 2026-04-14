@@ -1,0 +1,35 @@
+slug: painleve-equations
+name:
+  en: Painlevé Equations
+  zh: Painlevé 方程
+aliases:
+  - Painlevé transcendents
+  - PVI
+  - Painlevé VI
+category: equation
+difficulty: advanced
+discipline: math
+year_introduced: 1900
+introduced_by: []
+definition: |
+  六族（PI–PVI）二阶非线性常微分方程，其解定义了新的超越函数（Painlevé 超越函数）。
+  它们作为等单值变形方程出现，控制低维 Frobenius 流形的 monodromy 数据。
+dual_to: null
+prerequisites:
+  - isomonodromy
+leads_to: []
+related:
+  - frobenius-manifold
+  - stokes-phenomenon
+  - quantum-cluster-algebras
+key_people: [dubrovin, mazzocco, guzzetti, tang-qian]
+key_papers: []
+contributions:
+  - person: mazzocco
+    role: major
+    description: "Painlevé 方程与 quantum cluster algebras 的联系"
+  - person: dubrovin
+    role: major
+    description: "Painlevé transcendents 在 Frobenius 流形中的角色"
+tags:
+  - supplementary

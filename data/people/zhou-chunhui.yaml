@@ -1,0 +1,98 @@
+slug: zhou-chunhui
+name:
+  en: Chunhui Zhou
+  zh: 周春辉
+born: null
+died: null
+nationality: Chinese
+gender: male
+photo_url: null
+career_timeline:
+  - period: "2008-2012"
+    type: education
+    institution: tsinghua
+    role: "本科, 数学与应用数学"
+  - period: "2012-2018"
+    type: education
+    institution: tsinghua
+    role: "博士"
+    notes: "清华大学数学系"
+  - period: "2018-2021"
+    type: position
+    institution: ustc
+    role: "博士后"
+    notes: "中国科学技术大学几何与物理研究中心"
+  - period: "2021-2024"
+    type: position
+    institution: ustc
+    role: "研究助理教授"
+  - period: "2024-present"
+    type: position
+    institution: ustc
+    role: "特任教授"
+    notes: "2024年2月晋升"
+research_areas:
+  - integrable-hierarchy
+  - tau-function
+  - frobenius-manifold
+  - gromov-witten-theory
+advisor: null
+students: []
+key_collaborators:
+  - person: yang-di
+    since: 2019
+    topic: "Loop equations, BGW tau-functions, Volterra hierarchy"
+    papers_count: 5
+  - person: liu-siqi
+    since: 2017
+    topic: "Fractional Volterra hierarchy, Hodge integrals"
+    papers_count: 4
+  - person: zhang-youjin
+    since: 2017
+    topic: "Fractional Volterra hierarchy, Hodge integrals"
+    papers_count: 4
+publications:
+  - id: "2409.12529"
+    title: "The loop equation for the Burgers-KdV hierarchy"
+    year: 2024
+    coauthors: [yang-di]
+  - id: "2303.13775"
+    title: "Gelfand-Dickey hierarchy, generalized BGW tau-function, and KdV equivariantly stable classes"
+    year: 2023
+    coauthors: [yang-di]
+  - id: "2112.14595"
+    title: "Gelfand-Dickey hierarchy and generalized BGW tau-function"
+    year: 2021
+    coauthors: [yang-di]
+  - id: "1906.06860"
+    title: "The Hodge-FVH Correspondence"
+    year: 2019
+    coauthors: [liu-siqi, yang-di, zhang-youjin]
+  - id: "1903.01139"
+    title: "Higher genus GW theory for the quintic"
+    year: 2019
+    coauthors: [yang-di]
+  - id: "1702.02840"
+    title: "Fractional Volterra Hierarchy"
+    year: 2017
+    coauthors: [liu-siqi, zhang-youjin]
+  - id: "1611.05975"
+    title: "Relative open BCOV and higher genus open-closed mirror symmetry"
+    year: 2016
+    coauthors: [liu-siqi, zhang-youjin, "Yulong Fu"]
+activity:
+  total_papers: 7
+  active_period: "2017-present"
+external_ids: {}
+links: {}
+personal_notes: |
+  清华张友金/刘思齐组的核心合作者（Liu 4 篇, Zhang 4 篇），同时与杨迪密切合作(5 篇)。
+  arXiv 13 篇中 7 篇是可积系统方向（另 6 篇是流体力学的同名者）。
+  2026 HUST 会议报告: Burgers-KdV hierarchy and tau-function，明确使用 Dubrovin-Zhang theory。
+sources:
+  - label: "USTC faculty page"
+    url: "https://faculty.ustc.edu.cn/zhouchunhui/zh_CN/index.htm"
+  - label: "arXiv (math-ph)"
+    url: "https://arxiv.org/search/?searchtype=author&query=Chunhui+Zhou"
+tags:
+  - ustc

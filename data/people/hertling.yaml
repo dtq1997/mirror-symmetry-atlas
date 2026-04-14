@@ -1,0 +1,52 @@
+slug: hertling
+name:
+  en: Claus Hertling
+  zh: null
+born: null
+died: null
+nationality: German
+gender: male
+photo_url: null
+career_timeline:
+  - period: "~1988-1992"
+    type: education
+    institution: bonn
+    role: "博士"
+    advisor: brieskorn
+    notes: "1992年获博士学位, 论文: Analytische Invarianten bei den unimodularen und bimodularen Hyperflächensingularitäten"
+  - period: "~1999-2000"
+    type: award
+    title: "Habilitation, Universität Bonn"
+  - period: "~2000-present"
+    type: position
+    institution: mannheim
+    role: "Professor (W3), Lehrstuhl für Algebraische Geometrie"
+research_areas:
+  - frobenius-manifolds
+  - singularity-theory
+  - tt-star-geometry
+  - twistor-structures
+advisor: brieskorn
+students: []
+key_collaborators: []
+activity:
+  total_papers: 129
+  h_index: 13
+  active_period: "1992-present"
+  phd_students: 4
+external_ids:
+  openalex: "A5083694613"
+  mathgenealogy: "27291"
+links:
+  homepage: "https://www.wim.uni-mannheim.de/hertling/"
+personal_notes: |
+  Brieskorn 的学生，与 K. Saito 同门。
+  Frobenius manifolds 和 singularity theory 方向。tt* geometry 的专家。
+sources:
+  - label: "Math Genealogy"
+    url: "https://www.mathgenealogy.org/id.php?id=27291"
+  - label: "OpenAlex"
+    url: "https://openalex.org/authors/A5083694613"
+tags:
+  - german-school
+  - brieskorn-student

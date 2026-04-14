@@ -1,0 +1,33 @@
+slug: virasoro-conjecture
+name:
+  en: "Virasoro Conjecture"
+  zh: "Virasoro 猜想"
+status: partially-solved
+importance: major
+year_proposed: 1997
+proposed_by: []
+description: |
+  GW 不变量的生成函数满足 Virasoro 约束 $L_n Z = 0$ ($n \geq -1$)。
+  genus 0 已证（刘小博-田刚 1998），genus 1 和 genus 2 部分结果，
+  完整猜想仍开放。
+prerequisites: [virasoro-constraints, gromov-witten-theory, quantum-cohomology]
+related_problems: []
+key_people: [liu-xiaobo, guo-shuai, zhang-qingsheng]
+progress:
+  - date: "1997"
+    description: "Eguchi-Hori-Xiong 和 S. Katz 独立提出"
+    papers: []
+  - date: "1998"
+    description: "刘小博-田刚 证明 genus 0 情形"
+    papers: []
+  - date: "~2002"
+    description: "刘小博 证明 genus 2 semisimple 情形"
+    papers: []
+  - date: "~2022"
+    description: "郭帅-张庆生: Virasoro constraints for topological recursion"
+    papers: []
+current_approaches:
+  - "Topological recursion (郭帅-张庆生)"
+  - "Matrix-resolvent method"
+  - "CohFT framework"
+notes: null

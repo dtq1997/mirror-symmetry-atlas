@@ -1,0 +1,28 @@
+slug: quantum-cohomology
+name:
+  en: Quantum Cohomology
+  zh: 量子上同调
+aliases:
+  - small quantum cohomology
+  - big quantum cohomology
+category: algebraic-structure
+difficulty: advanced
+discipline: math
+year_introduced: 1993
+introduced_by: [kontsevich, manin-yuri]
+definition: |
+  光滑射影簇 $X$ 的普通上同调环 $H^*(X)$ 的形变，其中乘积通过计数有理曲线的
+  genus-0 Gromov-Witten 不变量来修正。
+dual_to: null
+prerequisites:
+  - gromov-witten-theory
+leads_to:
+  - frobenius-manifold
+  - homological-mirror-symmetry
+related:
+  - mirror-symmetry
+  - wdvv-equations
+key_people: [kontsevich, manin-yuri, dubrovin]
+key_papers: []
+tags:
+  - layer-1

@@ -1,0 +1,53 @@
+slug: kontsevich
+name:
+  en: Maxim Kontsevich
+  zh: 孔采维奇
+born: 1964
+died: null
+nationality: Russian
+gender: male
+photo_url: null
+career_timeline:
+  - period: "1985-1992"
+    type: education
+    institution: bonn
+    role: "博士"
+    advisor: manin-yuri
+    notes: "在 Bonn 大学获博士学位"
+  - period: "1994"
+    type: award
+    title: "ICM Plenary Speaker (Zurich)"
+    notes: "提出 Homological Mirror Symmetry"
+  - period: "1995-present"
+    type: position
+    institution: ihes
+    role: "Permanent Professor"
+  - period: "1998"
+    type: award
+    title: "Fields Medal"
+    notes: "For contributions to algebraic geometry, topology, and mathematical physics"
+research_areas:
+  - homological-mirror-symmetry
+  - deformation-quantization
+  - topological-field-theory
+  - algebraic-geometry
+advisor: manin-yuri
+students: []
+key_collaborators: []
+activity:
+  total_papers: 134
+  h_index: 44
+  active_period: "1990-present"
+  peak_period: "1994-2010"
+external_ids:
+  openalex: "A5018376358"
+links: {}
+personal_notes: |
+  Fields Medal 1998. Homological Mirror Symmetry 的提出者。
+  Manin 的学生。
+sources:
+  - label: "OpenAlex"
+    url: "https://openalex.org/authors/A5018376358"
+tags:
+  - fields-medalist
+  - moscow-school

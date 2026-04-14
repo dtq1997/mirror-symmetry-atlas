@@ -1,0 +1,290 @@
+slug: yang-di
+name:
+  en: Di Yang
+  zh: 杨迪
+born: null
+died: null
+nationality: Chinese
+gender: male
+photo_url: null
+career_timeline:
+  - period: "2004-2008"
+    type: education
+    institution: tsinghua
+    role: "本科"
+  - period: "2008-2013"
+    type: education
+    institution: tsinghua
+    role: "博士"
+    advisor: zhang-youjin
+    notes: "清华大学，导师张友金。期间访问 Cambridge (2009.10-2010.10) 和 SISSA (2012.09-2012.12)"
+  - period: "2013-2016"
+    type: position
+    institution: sissa
+    role: "博士后"
+    notes: "跟随 Dubrovin，合作 11 篇"
+  - period: "2016-2018"
+    type: position
+    institution: mpim-bonn
+    role: "博士后"
+    notes: "跟随 Don Zagier，合作 5 篇"
+  - period: "2018-present"
+    type: position
+    institution: ustc
+    role: "教授"
+    notes: "2018-2023 青年人才计划教授，2023 起正教授"
+research_areas:
+  - integrable-hierarchy
+  - tau-function
+  - frobenius-manifold
+  - gromov-witten-theory
+  - painleve-equations
+  - intersection-numbers
+advisor: zhang-youjin
+students: []
+key_collaborators:
+  - person: dubrovin
+    since: 2013
+    topic: "KdV hierarchy tau-functions, integrable hierarchies, Frobenius manifolds"
+    papers_count: 11
+  - person: zhang-youjin
+    since: 2014
+    topic: "Hodge integrals, tau-symmetric integrable hierarchies"
+    papers_count: 7
+  - person: liu-siqi
+    since: 2014
+    topic: "Hodge integrals, integrable hierarchies"
+    papers_count: 6
+  - person: zhou-chunhui
+    since: 2019
+    topic: "Loop equations, BGW tau-functions, Volterra hierarchy"
+    papers_count: 5
+  - person: zhang-qingsheng
+    since: 2022
+    topic: "Hodge-BGW correspondence"
+    papers_count: 2
+publications:
+  - id: "2603.24956"
+    title: "KdV integrability in GUE correlators"
+    year: 2026
+    coauthors: []
+  - id: "2603.15233"
+    title: "On uniform large genus asymptotics of Witten's intersection numbers"
+    year: 2026
+    coauthors: ["Jindong Guo", zagier]
+  - id: "2601.13203"
+    title: "Bihamiltonian tests for integrable systems associated to rank-$1$ F-CohFTs"
+    year: 2026
+    coauthors: ["Alexandr Buryak", "Jianghao Xu"]
+  - id: "2511.06984"
+    title: "On a class of integrable deformations of the integrable hierarchy of topological type associated to a semisimple Frobenius manifold"
+    year: 2025
+    coauthors: [liu-siqi, "Paolo Rossi", zhang-youjin]
+  - id: "2504.16375"
+    title: "On Gromov--Witten invariants of $\\mathbb{P}^1$-orbifolds and topological difference equations"
+    year: 2025
+    coauthors: ["Zhengfei Huang"]
+  - id: "2412.20388"
+    title: "Combinatorics and large genus asymptotics of the Brézin--Gross--Witten numbers"
+    year: 2024
+    coauthors: ["Jindong Guo", "Paul Norbury", zagier]
+  - id: "2409.12529"
+    title: "The loop equation for the Burgers--KdV hierarchy"
+    year: 2024
+    coauthors: [zhou-chunhui]
+  - id: "2407.19170"
+    title: "GUE via Frobenius Manifolds. II. Loop Equations"
+    year: 2024
+    coauthors: []
+  - id: "2404.16458"
+    title: "On an infinite commuting ODE system associated to a simple Lie algebra"
+    year: 2024
+    coauthors: ["Cheng Zhang", "Zejun Zhou"]
+  - id: "2403.04631"
+    title: "Galilean symmetry of the KdV hierarchy"
+    year: 2024
+    coauthors: ["Jianghao Xu"]
+  - id: "2312.16575"
+    title: "Remarks on intersection numbers and integrable hierarchies. II. Tau-structure"
+    year: 2023
+    coauthors: ["Daniele Valeri"]
+  - id: "2311.06506"
+    title: "From Toda Hierarchy to KP Hierarchy"
+    year: 2023
+    coauthors: [zhou-jian]
+  - id: "2311.04200"
+    title: "Analytic theory of Legendre-type transformations for a Frobenius manifold"
+    year: 2023
+    coauthors: []
+  - id: "2308.03568"
+    title: "Mapping partition functions"
+    year: 2023
+    coauthors: [zagier]
+  - id: "2306.09115"
+    title: "The constrained KP hierarchy and the bigraded Toda hierarchy of $(M,1)$-type"
+    year: 2023
+    coauthors: ["Ang Fu", "Dafeng Zuo"]
+  - id: "2303.09243"
+    title: "On a new proof of the Okuyama--Sakai conjecture"
+    year: 2023
+    coauthors: [zhang-qingsheng]
+  - id: "2208.02095"
+    title: "Degree zero Gromov--Witten invariants for smooth curves"
+    year: 2022
+    coauthors: []
+  - id: "2205.01618"
+    title: "GUE via Frobenius Manifolds. I. From Matrix Gravity to Topological Gravity and Back"
+    year: 2022
+    coauthors: []
+  - id: "2204.11074"
+    title: "Grothendieck's Dessins d'Enfants in a Web of Dualities. III"
+    year: 2022
+    coauthors: [zhou-jian]
+  - id: "2203.16812"
+    title: "On Equivariant Gromov--Witten Invariants of Resolved Conifold with Diagonal and Anti-Diagonal Actions"
+    year: 2022
+    coauthors: [liu-siqi, zhang-youjin, zhou-chunhui]
+  - id: "2201.11020"
+    title: "The matrix-resolvent method to tau-functions for the nonlinear Schrödinger hierarchy"
+    year: 2022
+    coauthors: ["Ang Fu"]
+  - id: "2112.14595"
+    title: "Gelfand--Dickey hierarchy, generalized BGW tau-function, and $W$-constraints"
+    year: 2021
+    coauthors: [zhou-chunhui]
+  - id: "2112.14202"
+    title: "Tau-functions for the Ablowitz--Ladik hierarchy: the matrix-resolvent method"
+    year: 2021
+    coauthors: ["Mattia Cafasso"]
+  - id: "2112.12736"
+    title: "On the Hodge-BGW correspondence"
+    year: 2021
+    coauthors: [zhang-qingsheng]
+  - id: "2112.07526"
+    title: "The Virasoro-like Algebra of a Frobenius Manifold"
+    year: 2021
+    coauthors: [liu-siqi, zhang-youjin, zhou-jian]
+  - id: "2110.06774"
+    title: "On the large genus asymptotics of psi-class intersection numbers"
+    year: 2021
+    coauthors: ["Jindong Guo"]
+  - id: "2110.06655"
+    title: "Affine Kac-Moody Algebras and Tau-Functions for the Drinfeld-Sokolov Hierarchies: the Matrix-Resolvent Method"
+    year: 2021
+    coauthors: [dubrovin, "Daniele Valeri"]
+  - id: "2104.01480"
+    title: "On the spectral problem of the quantum KdV hierarchy"
+    year: 2021
+    coauthors: ["Giulio Ruzza"]
+  - id: "2101.10924"
+    title: "Geometry and arithmetic of integrable hierarchies of KdV type. I. Integrality"
+    year: 2021
+    coauthors: [dubrovin, zagier]
+  - id: "2010.00436"
+    title: "On an extension of the generalized BGW tau-function"
+    year: 2020
+    coauthors: [zhou-chunhui]
+  - id: "2005.02275"
+    title: "Masur--Veech volumes of quadratic differentials and their asymptotics"
+    year: 2020
+    coauthors: [zagier, zhang-youjin]
+  - id: "1906.06860"
+    title: "The Hodge-FVH Correspondence"
+    year: 2019
+    coauthors: [liu-siqi, zhang-youjin, zhou-chunhui]
+  - id: "1905.08140"
+    title: "On tau-functions for the Toda lattice hierarchy"
+    year: 2019
+    coauthors: []
+  - id: "1905.08106"
+    title: "Remarks on intersection numbers and integrable hierarchies. I. Quasi-triviality"
+    year: 2019
+    coauthors: [dubrovin]
+  - id: "1903.11578"
+    title: "Matrix resolvent and the discrete KdV hierarchy"
+    year: 2019
+    coauthors: [dubrovin]
+  - id: "1812.08488"
+    title: "On tau-functions for the KdV hierarchy"
+    year: 2018
+    coauthors: [dubrovin, zagier]
+  - id: "1811.10234"
+    title: "The Loop Equation for Special Cubic Hodge Integrals"
+    year: 2018
+    coauthors: [liu-siqi, zhang-youjin, zhou-chunhui]
+  - id: "1802.00711"
+    title: "Gromov--Witten invariants of the Riemann sphere"
+    year: 2018
+    coauthors: [dubrovin, zagier]
+  - id: "1709.07309"
+    title: "Drinfeld-Sokolov Hierarchies, Tau Functions, and Generalized Schur Polynomials"
+    year: 2017
+    coauthors: ["Mattia Cafasso", "Ann du Crest de Villeneuve"]
+  - id: "1702.01669"
+    title: "On Gromov--Witten invariants of $\\mathbb{P}^1$"
+    year: 2017
+    coauthors: [dubrovin]
+  - id: "1612.02333"
+    title: "Hodge-GUE correspondence and the discrete KdV equation"
+    year: 2016
+    coauthors: [dubrovin, liu-siqi, zhang-youjin]
+  - id: "1610.07534"
+    title: "Simple Lie algebras, Drinfeld--Sokolov hierarchies, and multi-point correlation functions"
+    year: 2016
+    coauthors: ["Marco Bertola", dubrovin]
+  - id: "1606.03720"
+    title: "On cubic Hodge integrals and random matrices"
+    year: 2016
+    coauthors: [dubrovin]
+  - id: "1604.07628"
+    title: "Generating series for GUE correlators"
+    year: 2016
+    coauthors: [dubrovin]
+  - id: "1508.03750"
+    title: "Simple Lie algebras and topological ODEs"
+    year: 2015
+    coauthors: ["Marco Bertola", dubrovin]
+  - id: "1504.06452"
+    title: "Correlation functions of the KdV hierarchy and applications to intersection numbers over $\\overline{\\mathcal M}_{g,n}$"
+    year: 2015
+    coauthors: ["Marco Bertola", dubrovin]
+  - id: "1412.4419"
+    title: "Geometric interpretation of Zhou's explicit formula for the Witten-Kontsevich tau function"
+    year: 2014
+    coauthors: ["Ferenc Balogh"]
+  - id: "1411.5717"
+    title: "The partition function of the extended $r$-reduced Kadomtsev-Petviashvili hierarchy"
+    year: 2014
+    coauthors: ["Marco Bertola"]
+  - id: "1409.4616"
+    title: "Hodge integrals and tau-symmetric integrable hierarchies of Hamiltonian evolutionary PDEs"
+    year: 2014
+    coauthors: [dubrovin, liu-siqi, zhang-youjin]
+  - id: "1305.2593"
+    title: "Uniqueness Theorem of W-Constraints for Simple Singularities"
+    year: 2013
+    coauthors: [liu-siqi, zhang-youjin]
+activity:
+  total_papers: 50
+  active_period: "2013-present"
+  peak_period: "2018-present"
+external_ids: {}
+links: {}
+personal_notes: |
+  张友金博士 → Dubrovin 博后 → Zagier 博后 → USTC 教授，学术轨迹横跨三大学派。
+  被低估的关键桥梁：11 篇与 Dubrovin 合作（数量仅次于 Zhang-Youjin 的 15 篇），
+  同时与张友金(7)、刘思齐(6)、周春辉(5)、Don Zagier(5) 深度合作。
+  直接连接 SISSA/Dubrovin 学派和清华张友金/刘思齐组。
+  代表作：
+  - "On tau-functions for the KdV hierarchy" (with Dubrovin, Zagier)
+  - "Geometry and arithmetic of integrable hierarchies of KdV type" (with Dubrovin, Zagier)
+  - "Hodge integrals and tau-symmetric integrable hierarchies" (with Dubrovin, Liu, Zhang)
+  2026 HUST 会议报告: Uniform large genus asymptotics for BGW and Witten numbers
+sources:
+  - label: "USTC faculty page"
+    url: "https://faculty.ustc.edu.cn/yangdi/en/index.htm"
+  - label: "arXiv author search"
+    url: "https://arxiv.org/search/?searchtype=author&query=Di+Yang"
+tags:
+  - ustc
+  - bridge-node

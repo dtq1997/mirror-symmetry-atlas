@@ -1,0 +1,28 @@
+slug: ustc
+name:
+  en: "University of Science and Technology of China"
+  zh: "中国科学技术大学"
+type: university
+country: China
+city: Hefei
+location:
+  lat: 31.8427
+  lng: 117.2658
+founded: 1958
+url: "https://www.ustc.edu.cn/"
+relevance: high
+research_groups:
+  - name: "数学科学学院"
+    topics:
+      - integrable-systems
+      - gromov-witten-theory
+      - mathematical-physics
+    current_members:
+      - yang-di
+      - zhou-chunhui
+    past_members:
+      - zhang-youjin
+events:
+  - year: 1990
+    description: "张友金在此获博士学位"
+notes: null

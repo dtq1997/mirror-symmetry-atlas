@@ -1,0 +1,29 @@
+slug: isomonodromy
+name:
+  en: Isomonodromy Deformation
+  zh: 等单值变形
+aliases:
+  - isomonodromic deformation
+category: technique
+difficulty: advanced
+discipline: math
+year_introduced: 1912
+introduced_by: []
+definition: |
+  线性 ODE 系统 $\frac{dY}{dz} = A(z,t) Y$ 的变形，使得 monodromy 数据
+  （monodromy 矩阵 + Stokes 矩阵）在参数 $t$ 变化时保持不变。由非线性方程
+  （如 Painlevé 方程、Schlesinger 系统）控制。
+dual_to: null
+prerequisites:
+  - flat-connection
+  - stokes-phenomenon
+leads_to:
+  - painleve-equations
+  - frobenius-manifold
+related:
+  - quantum-groups
+  - tt-star-geometry
+key_people: [dubrovin, xu-xiaomeng, cotti, guzzetti, sabbah, boalch, tang-qian]
+key_papers: []
+tags:
+  - layer-3

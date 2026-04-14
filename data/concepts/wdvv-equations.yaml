@@ -1,0 +1,40 @@
+slug: wdvv-equations
+name:
+  en: WDVV Equations
+  zh: WDVV 方程
+aliases:
+  - Witten-Dijkgraaf-Verlinde-Verlinde equations
+  - associativity equations
+category: equation
+difficulty: advanced
+discipline: both
+year_introduced: 1990
+introduced_by: [witten, dijkgraaf]
+definition: |
+  关于函数 $F(t)$ 的非线性偏微分方程组：
+  $\frac{\partial^3 F}{\partial t^\alpha \partial t^\beta \partial t^\mu} \eta^{\mu\nu}
+  \frac{\partial^3 F}{\partial t_\nu \partial t^\gamma \partial t^\delta}
+  = \frac{\partial^3 F}{\partial t^\delta \partial t^\beta \partial t^\mu} \eta^{\mu\nu}
+  \frac{\partial^3 F}{\partial t_\nu \partial t^\gamma \partial t^\alpha}$
+  表达量子乘积的结合律。
+dual_to: null
+prerequisites:
+  - flat-connection
+leads_to:
+  - frobenius-manifold
+  - integrable-hierarchy
+  - virasoro-constraints
+related:
+  - topological-field-theory
+  - quantum-cohomology
+key_people: [dubrovin, zhang-youjin, liu-siqi]
+key_papers: []
+contributions:
+  - person: dubrovin
+    role: major
+    description: "证明 WDVV 解空间即 Frobenius 流形"
+  - person: zhang-youjin
+    role: major
+    description: "与 Dubrovin 和 Liu 合作研究 WDVV 与可积层级的联系"
+tags:
+  - layer-2

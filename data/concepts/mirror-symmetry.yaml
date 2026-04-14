@@ -1,0 +1,28 @@
+slug: mirror-symmetry
+name:
+  en: Mirror Symmetry
+  zh: 镜像对称
+aliases:
+  - mirror duality
+category: conjecture
+difficulty: advanced
+discipline: both
+year_introduced: 1991
+introduced_by: []
+definition: |
+  Calabi-Yau 流形对 $(X, \check{X})$ 之间的对偶性，交换辛几何（A-模型）与复几何
+  （B-模型）。在 Hodge 数层面：$h^{p,q}(X) = h^{n-p,q}(\check{X})$。
+dual_to: null
+prerequisites: []
+leads_to:
+  - homological-mirror-symmetry
+  - syz-conjecture
+  - quantum-cohomology
+  - gromov-witten-theory
+related:
+  - frobenius-manifold
+  - topological-field-theory
+  - calabi-yau
+key_people: [kontsevich]
+key_papers: []
+tags: []

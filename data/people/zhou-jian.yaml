@@ -1,0 +1,79 @@
+slug: zhou-jian
+name:
+  en: Jian Zhou
+  zh: 周坚
+born: 1967
+died: null
+nationality: Chinese
+gender: male
+photo_url: null
+career_timeline:
+  - period: "1984-1989"
+    type: education
+    institution: ustc
+    role: "本科, 数学系"
+  - period: "1989-1990"
+    type: education
+    institution: ustc
+    role: "硕士研究生"
+  - period: "1990-1995"
+    type: education
+    institution: stony-brook
+    role: "PhD"
+    notes: "纽约州立大学石溪分校 (Stony Brook University)"
+  - period: "1995-1997"
+    type: position
+    institution: ucsb
+    role: "客座助理教授"
+    notes: "University of California, Santa Barbara"
+  - period: "1997-2000"
+    type: position
+    institution: texas-am
+    role: "客座助理教授"
+    notes: "Texas A&M University"
+  - period: "2000-2001"
+    type: visit
+    institution: mit
+    role: "客座助理教授"
+  - period: "2001-present"
+    type: position
+    institution: tsinghua
+    role: "教授"
+  - period: "2024-present"
+    type: position
+    institution: tsinghua
+    role: "系主任"
+    notes: "清华大学数学科学系"
+  - type: award
+    title: "国家杰出青年科学基金"
+  - type: award
+    title: "教育部长江学者特聘教授（第八批）"
+  - type: award
+    title: "百千万人才工程"
+research_areas:
+  - gromov-witten-theory
+  - mathematical-physics
+  - random-matrices
+advisor: null
+students:
+  - guo-shuai
+  - zhang-qingsheng
+  - wang-zhiyuan
+  - ke-huazhong
+key_collaborators: []
+activity:
+  active_period: "1995-present"
+external_ids:
+  mathgenealogy: "1264"
+links: {}
+personal_notes: |
+  2026 HUST 会议报告: From probability theory to Gromov-Witten theory, and back
+  Extended matrix models, GW theory of the projective line.
+  培养了郭帅、张庆生 [待验证]、王知远 [待验证] 等人，形成以 GW theory 和可积系统为核心的学术 cluster。
+sources:
+  - label: "Math Genealogy"
+    url: "https://www.mathgenealogy.org/id.php?id=1264"
+  - label: "清华大学数学系"
+    url: "https://www.math.tsinghua.edu.cn/info/1125/2623.htm"
+tags:
+  - tsinghua

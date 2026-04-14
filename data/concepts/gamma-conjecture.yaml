@@ -1,0 +1,37 @@
+slug: gamma-conjecture
+name:
+  en: Gamma Conjecture
+  zh: Gamma 猜想
+aliases:
+  - Gamma conjecture I
+  - Gamma conjecture II
+  - Dubrovin conjecture
+category: conjecture
+difficulty: research-frontier
+discipline: math
+year_introduced: 2016
+introduced_by: []
+definition: |
+  对 Fano 流形 $X$：
+  - **Gamma I**：Dubrovin 联络的主渐近类等于
+    $\hat{\Gamma}_X \cdot \mathrm{ch}(\mathcal{O})$，将平坦截面与
+    Gamma 整结构联系起来。
+  - **Gamma II**（假设半单性）：full exceptional collection 对应于渐近指数基本解。
+  精化了 Dubrovin 关于量子上同调与导出范畴关系的原始猜想。
+dual_to: null
+prerequisites:
+  - frobenius-manifold
+  - quantum-cohomology
+  - derived-category
+  - stokes-phenomenon
+leads_to: []
+related:
+  - homological-mirror-symmetry
+key_people: [dubrovin, cotti, guzzetti]
+key_papers: []
+contributions:
+  - person: cotti
+    role: major
+    description: "Refined Dubrovin Conjecture, helix structures"
+tags:
+  - layer-4.5

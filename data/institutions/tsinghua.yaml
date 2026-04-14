@@ -1,0 +1,30 @@
+slug: tsinghua
+name:
+  en: "Tsinghua University"
+  zh: "清华大学"
+type: university
+country: China
+city: Beijing
+location:
+  lat: 40.0003
+  lng: 116.3267
+founded: 1911
+url: "https://www.tsinghua.edu.cn/"
+relevance: high
+research_groups:
+  - name: "Mathematical Physics / Integrable Systems"
+    topics:
+      - frobenius-manifolds
+      - integrable-systems
+      - wdvv-equations
+    current_members:
+      - zhang-youjin
+      - liu-siqi
+      - tang-qian
+    past_members: []
+events:
+  - year: 2000
+    description: "张友金加入清华数学系"
+notes: |
+  Zhang-Liu 合作是本领域最高产的 pair (56 篇)。
+  唐乾 2023 年起在此做博后。

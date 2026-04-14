@@ -1,0 +1,178 @@
+slug: guzzetti
+name:
+  en: Davide Guzzetti
+  zh: null
+born: 1972  # [待验证] estimated from Laurea 1995
+died: null
+nationality: Italian
+gender: male
+photo_url: null
+career_timeline:
+  - period: "~1991-1995"
+    type: education
+    institution: milan
+    role: "Laurea in Physics, State University of Milan"
+  - period: "1995-2000"
+    type: education
+    institution: sissa
+    role: "博士"
+    advisor: dubrovin
+    notes: "2000年10月18日答辩，论文: Inverse Problem for Semisimple Frobenius Manifolds"
+  - period: "2001-2008"
+    type: position
+    institution: rims-kyoto
+    role: "Research Associate & Researcher"
+  - period: "2010"
+    type: visit
+    institution: kias
+    role: "Assistant Professor"
+    notes: "KIAS, Seoul"
+  - period: "2011-2017"
+    type: position
+    institution: sissa
+    role: "Assistant Professor"
+  - period: "2018-present"
+    type: position
+    institution: sissa
+    role: "Associate Professor"
+research_areas:
+  - frobenius-manifolds
+  - painleve-equations
+  - stokes-phenomenon
+  - isomonodromy
+  - monodromy-data
+advisor: dubrovin
+students:
+  - cotti
+  - almeida
+  - lopez-reyes
+key_collaborators:
+  - person: dubrovin
+    since: 1996
+    topic: "Monodromy data, Painlevé, Stokes matrices"
+    papers_count: 10
+  - person: cotti
+    since: 2015
+    met_context: "SISSA 博士生（共同指导）"
+    topic: "Isomonodromy, coalescence, helix structures"
+    papers_count: 14
+publications:
+  - id: "2505.03028"
+    title: "On the spin-orbit problem for highly elliptical orbits and recursive excitation"
+    year: 2025
+    coauthors: ["Erica Scantamburlo", "Marcello Romano"]
+  - id: "2310.19739"
+    title: "Asymptotic solutions for linear ODEs with not-necessarily meromorphic coefficients: a Levinson type theorem on complex domains, and applications"
+    year: 2023
+    coauthors: [cotti, "Davide Masoero"]
+  - id: "2111.02969"
+    title: "Isomonodromic deformations along a stratum of the coalescence locus"
+    year: 2021
+    coauthors: []
+  - id: "2108.07003"
+    title: "The sixth Painleve' equation as isomonodromy deformation of an irregular system: monodromy data, coalescing eigenvalues, locally holomorphic transcendents and Frobenius manifolds"
+    year: 2021
+    coauthors: ["Gabriele Degano"]
+  - id: "2107.05142"
+    title: "Graph neural networks for simulating crack coalescence and propagation in brittle materials"
+    year: 2021
+    coauthors: ["Roberto Perera", "Vinamra Agrawal"]
+  - id: "2101.06474"
+    title: "Optimized and autonomous machine learning framework for characterizing pores, particles, grains and grain boundaries in microstructural images"
+    year: 2021
+    coauthors: ["Roberto Perera", "Vinamra Agrawal"]
+  - id: "2101.03397"
+    title: "Isomonodromic Laplace Transform with Coalescing Eigenvalues and Confluence of Fuchsian Singularities"
+    year: 2021
+    coauthors: []
+  - id: "1901.02881"
+    title: "Multi-Revolution Low-Thrust Trajectory Optimization Using Symplectic Methods"
+    year: 2019
+    coauthors: ["Zhibo E"]
+  - id: "1811.09235"
+    title: "Helix Structures in Quantum Cohomology of Fano Varieties"
+    year: 2018
+    coauthors: [cotti, dubrovin]
+  - id: "1804.05688"
+    title: "Notes on Non-Generic Isomonodromy Deformations"
+    year: 2018
+    coauthors: []
+  - id: "1712.08575"
+    title: "Local Moduli of Semisimple Frobenius Coalescent Structures"
+    year: 2017
+    coauthors: [cotti, dubrovin]
+  - id: "1706.04808"
+    title: "Isomonodromy Deformations at an Irregular Singularity with Coalescing Eigenvalues"
+    year: 2017
+    coauthors: [cotti, dubrovin]
+  - id: "1407.1206"
+    title: "On Stokes Matrices in terms of Connection Coefficients"
+    year: 2014
+    coauthors: []
+  - id: "1210.0311"
+    title: "A Review on The Sixth Painleve' Equation"
+    year: 2012
+    coauthors: []
+  - id: "1108.3401"
+    title: "Tabulation of PVI Transcendents and Parametrization Formulas (August 17, 2011)"
+    year: 2011
+    coauthors: []
+  - id: "1106.2636"
+    title: "Solving PVI by Isomonodromy Deformations"
+    year: 2011
+    coauthors: []
+  - id: "1104.5066"
+    title: "Poles Distribution of PVI Transcendents close to a Critical Point (summer 2011)"
+    year: 2011
+    coauthors: []
+  - id: "1101.4705"
+    title: "An Asymptotic Reduction of a Painleve' VI equation to a Painleve' III (January 2011)"
+    year: 2011
+    coauthors: []
+  - id: "1010.1895"
+    title: "Solving the Sixth Painleve' Equation: Towards the Classification of all the Critical Behaviours and the Connection Formulae (October 2010)"
+    year: 2010
+    coauthors: []
+  - id: "1010.1952"
+    title: "Matching Procedure for the Sixth Painlevé Equation (May 2006)"
+    year: 2010
+    coauthors: []
+  - id: "1010.1330"
+    title: "On the Critical Behavior, the Connection problem and the Elliptic representation of a Painleve VI equation (Spring 2001)"
+    year: 2010
+    coauthors: []
+  - id: "0801.1157"
+    title: "On the Logarithmic Asymptotics of the Sixth Painleve' Equation (Summer 2007)"
+    year: 2008
+    coauthors: []
+  - id: "0301011"
+    title: "The Singularity of Kontsevich's Solution for $QH^{*}(CP^2)$"
+    year: 2003
+    coauthors: []
+  - id: "0108073"
+    title: "The Elliptic Representation of the General Painlevé 6 Equation"
+    year: 2001
+    coauthors: []
+activity:
+  total_papers: 24
+  h_index: 11
+  active_period: "1999-present"
+external_ids:
+  openalex: "A5056380416"
+  mathgenealogy: "51292"
+  orcid: "0000-0002-6103-6563"
+links:
+  homepage: "https://www.math.sissa.it/users/davide-guzzetti"
+personal_notes: null
+sources:
+  - label: "Math Genealogy"
+    url: "https://www.mathgenealogy.org/id.php?id=51292"
+  - label: "OpenAlex"
+    url: "https://openalex.org/authors/A5056380416"
+  - label: "ORCID"
+    url: "https://orcid.org/0000-0002-6103-6563"
+  - label: "SISSA homepage"
+    url: "https://www.math.sissa.it/users/davide-guzzetti"
+tags:
+  - sissa-school
+  - dubrovin-student

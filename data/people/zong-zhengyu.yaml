@@ -1,0 +1,70 @@
+slug: zong-zhengyu
+name:
+  en: Zhengyu Zong
+  zh: 宗正宇
+born: null
+died: null
+nationality: Chinese
+gender: male
+photo_url: null
+career_timeline:
+  - period: "~2012-2017"
+    type: education
+    institution: columbia
+    role: "博士"
+    advisor: liu-melissa
+    notes: "Columbia University, 导师 Chiu-Chu Melissa Liu"
+  - period: "~2018-present"
+    type: position
+    institution: tsinghua
+    role: "助理教授/副教授"
+    notes: "清华大学丘成桐数学科学中心"
+research_areas:
+  - gromov-witten-theory
+  - mirror-symmetry
+  - topological-recursion
+  - frobenius-manifold
+advisor: liu-melissa
+students: []
+key_collaborators:
+  - person: fang-bohan
+    since: 2014
+    topic: "Remodeling conjecture, toric CY, topological recursion"
+    papers_count: 7
+publications:
+  - id: "2601.17321"
+    title: "On one-leg orbifold topological vertex in refined GW theory"
+    year: 2026
+    coauthors: ["Jinghao Yu"]
+  - id: "2504.15696"
+    title: "Remodeling Conjecture with Descendants"
+    year: 2025
+    coauthors: [fang-bohan, liu-melissa, "Song Yu"]
+  - id: "2312.06160"
+    title: "Open WDVV Equations and Frobenius Structures for Toric CY 3-Folds"
+    year: 2023
+    coauthors: ["Song Yu"]
+  - id: "2211.09203"
+    title: "All genus open-closed mirror symmetry for affine toric CY 3-orbifolds"
+    year: 2022
+    coauthors: [fang-bohan, liu-melissa]
+  - id: "2010.15403"
+    title: "On the Remodeling Conjecture for Toric CY 3-Orbifolds"
+    year: 2020
+    coauthors: [fang-bohan, liu-melissa]
+  - id: "1604.07123"
+    title: "The Eynard-Orantin Recursion and Equivariant Mirror Symmetry for P^1"
+    year: 2016
+    coauthors: [fang-bohan, liu-melissa]
+activity:
+  total_papers: 22
+  active_period: "2014-present"
+external_ids: {}
+links: {}
+personal_notes: |
+  Columbia 博士 (Chiu-Chu Melissa Liu)，现清华 YMSC。
+  与方博汉(7篇)密切合作，核心方向是 remodeling conjecture 和 toric CY 的 GW 理论。
+  代表作：Open WDVV equations and Frobenius structures for toric CY 3-folds (2023)。
+  2026 HUST 会议报告: All genus Crepant Transformation Conjecture for toric CY 3-orbifolds。
+tags:
+  - tsinghua

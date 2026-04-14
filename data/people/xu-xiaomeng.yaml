@@ -1,0 +1,199 @@
+slug: xu-xiaomeng
+name:
+  en: Xiaomeng Xu
+  zh: 徐晓濛
+born: null
+died: null
+nationality: Chinese
+gender: male
+photo_url: null
+career_timeline:
+  - period: "2006-2010"
+    type: education
+    institution: henan
+    role: "本科, 基础数学"
+    notes: "河南大学"
+  - period: "2010-2013"
+    type: education
+    institution: pku-bicmr
+    role: "硕士, 基础数学"
+    notes: "北京大学"
+  - period: "2013-2016"
+    type: education
+    institution: geneva
+    role: "博士"
+    advisor: alekseev
+    notes: "论文: Stokes Phenomenon, Dynamical R-matrices and Quantum Groups"
+  - period: "2016-2016"
+    type: visit
+    institution: geneva
+    role: "博士后"
+  - period: "2016-2019"
+    type: position
+    institution: mit
+    role: "博士后"
+  - period: "2019-present"
+    type: position
+    institution: pku-bicmr
+    role: "研究员"
+    notes: "北京大学数学科学学院 & BICMR"
+  - period: "2023"
+    type: award
+    title: "黄廷方/信和青年杰出学者奖"
+    notes: "北京大学校级"
+research_areas:
+  - stokes-phenomenon
+  - isomonodromy
+  - quantum-groups
+  - poisson-geometry
+  - frobenius-manifolds
+advisor: alekseev
+students:
+  - tang-qian
+key_collaborators:
+  - person: tang-qian
+    since: 2023
+    topic: "Stokes phenomenon, Yangians, isomonodromy"
+    papers_count: 4
+  - person: alekseev
+    since: 2014
+    topic: "Kashiwara-Vergne, WKB"
+    papers_count: 3
+  - person: lin-jinghong
+    since: 2024
+    topic: "q-Stokes, quantum confluent hypergeometric"
+    papers_count: 3
+  - person: sheng-yunhe
+    since: 2012
+    topic: "Courant algebroids, homotopy Lie"
+    papers_count: 6
+  - person: lang-honglei
+    since: 2012
+    topic: "Courant algebroids, Dubrovin-Ugaglia"
+    papers_count: 5
+publications:
+  - id: "2501.17516"
+    title: "Stokes Phenomenon and Yangians"
+    year: 2025
+    coauthors: [tang-qian]
+  - id: "2403.17906"
+    title: "WKB asymptotics of Stokes matrices, spectral curves and rhombus inequalities"
+    year: 2024
+    coauthors: [alekseev, "Andrew Neitzke", "Yan Zhou"]
+  - id: "2402.07269"
+    title: "The Boundary Condition for Some Isomonodromy Equations"
+    year: 2024
+    coauthors: [tang-qian]
+  - id: "2401.13911"
+    title: "Explicit evaluation of the Stokes matrices for certain quantum confluent hypergeometric equations"
+    year: 2024
+    coauthors: ["Jinghong Lin"]
+  - id: "2401.12792"
+    title: "The Alekseev-Meinrenken diffeomorphism arising from the Stokes phenomenon"
+    year: 2024
+    coauthors: []
+  - id: "2202.08054"
+    title: "On the connection formula of a higher rank analog of Painlevé VI"
+    year: 2022
+    coauthors: []
+  - id: "2105.13149"
+    title: "WKB approximation, crystals and combinatorics of Young tableaux"
+    year: 2021
+    coauthors: []
+  - id: "2012.15673"
+    title: "Representations of quantum groups arising from the Stokes phenomenon"
+    year: 2020
+    coauthors: []
+  - id: "2006.03393"
+    title: "Stokes phenomenon and reflection equations"
+    year: 2020
+    coauthors: []
+  - id: "1912.07196"
+    title: "Regularized limits of Stokes matrices, isomonodromy deformation and crystal basis"
+    year: 2019
+    coauthors: []
+  - id: "1907.13417"
+    title: "Quasi-Invariants in Characteristic $p$ and Twisted Quasi-Invariants"
+    year: 2019
+    coauthors: ["Michael Ren"]
+  - id: "1808.07654"
+    title: "Stokes phenomenon and Yang-Baxter equations"
+    year: 2018
+    coauthors: []
+  - id: "1801.00123"
+    title: "Frobenius manifolds and quantum groups"
+    year: 2017
+    coauthors: []
+  - id: "1702.08857"
+    title: "Chern-Simons, Wess-Zumino and other cocycles from Kashiwara-Vergne and associators"
+    year: 2017
+    coauthors: [alekseev, "Florian Naef", "Chenchang Zhu"]
+  - id: "1701.08113"
+    title: "Stokes phenomenon, Gelfand-Zeitlin systems and relative Ginzburg-Weinstein linearization"
+    year: 2017
+    coauthors: []
+  - id: "1701.00959"
+    title: "String principal bundles and Courant algebroids"
+    year: 2017
+    coauthors: ["Yunhe Sheng", "Chenchang Zhu"]
+  - id: "1507.07149"
+    title: "Irregular Riemann-Hilbert correspondence, Alekseev-Meinrenken dynamical r-matrices and Drinfeld twists"
+    year: 2015
+    coauthors: []
+  - id: "1407.2071"
+    title: "Generalized classical dynamical Yang-Baxter equations and moduli spaces of flat connections on surfaces"
+    year: 2014
+    coauthors: []
+  - id: "1312.4609"
+    title: "Strong homotopy Lie algebras, homotopy Poisson manifolds and Courant algebroids"
+    year: 2013
+    coauthors: ["Honglei Lang", "Yunhe Sheng"]
+  - id: "1308.0100"
+    title: "Current algebras from QP-manifolds in general dimensions"
+    year: 2013
+    coauthors: ["Noriaki Ikeda"]
+  - id: "1301.4805"
+    title: "Canonical Functions and Differential Graded Symplectic Pairs in Supergeometry and AKSZ Sigma Models with Boundary"
+    year: 2013
+    coauthors: ["Noriaki Ikeda"]
+  - id: "1206.5466"
+    title: "Cohomology for almost Lie algebroids"
+    year: 2012
+    coauthors: ["Melchior Grützmann"]
+  - id: "1206.2282"
+    title: "Twisted Courant algebroids and coisotropic Cartan geometries"
+    year: 2012
+    coauthors: []
+  - id: "1205.5898"
+    title: "The Pontryagin Class for Pre-Courant Algebroids"
+    year: 2012
+    coauthors: ["Zhangju Liu", "Yunhe Sheng"]
+  - id: "1204.5951"
+    title: "Dirac and Generalized Complex Structures on Cartan Geometries"
+    year: 2012
+    coauthors: ["Honglei Lang"]
+activity:
+  total_papers: 52
+  h_index: 7
+  active_period: "2012-present"
+  peak_period: "2020-present"
+external_ids:
+  openalex: "A5019142880"
+  mathgenealogy: "294385"
+links:
+  homepage: "https://sites.google.com/view/xxu/home"
+personal_notes: |
+  两个 cluster 的桥梁人物：连接 quantum groups/Poisson geometry 与 classical Frobenius manifold theory。
+  2017 年的 "Frobenius Manifolds and Quantum Groups" 是两个领域交叉的关键文献。
+sources:
+  - label: "PKU faculty page"
+    url: "http://scholar.pku.edu.cn/xxu/cv"
+  - label: "个人主页"
+    url: "https://sites.google.com/view/xxu/home"
+  - label: "Math Genealogy"
+    url: "https://www.mathgenealogy.org/id.php?id=294385"
+  - label: "OpenAlex"
+    url: "https://openalex.org/authors/A5019142880"
+tags:
+  - pku
+  - xu-school

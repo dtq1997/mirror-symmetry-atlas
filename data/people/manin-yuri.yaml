@@ -1,0 +1,58 @@
+slug: manin-yuri
+name:
+  en: Yuri Manin
+  zh: 马宁
+born: 1937
+died: 2023
+nationality: Russian
+gender: male
+photo_url: null
+career_timeline:
+  - period: "1953-1961"
+    type: education
+    institution: moscow-state
+    role: "本科 → 博士"
+    advisor: shafarevich
+    notes: "1961年获博士学位，师从 Shafarevich"
+  - period: "1961-1993"
+    type: position
+    institution: moscow-state
+    role: "教授"
+  - period: "1993-2005"
+    type: position
+    institution: mpim-bonn
+    role: "Director"
+    notes: "Max Planck Institute for Mathematics, Bonn"
+  - period: "2002-2011"
+    type: position
+    institution: northwestern
+    role: "Professor"
+research_areas:
+  - algebraic-geometry
+  - number-theory
+  - quantum-cohomology
+  - frobenius-manifolds
+  - mathematical-physics
+advisor: shafarevich
+students: []
+key_collaborators: []
+activity:
+  total_papers: 204
+  h_index: 46
+  phd_students: 54
+  academic_descendants: 360
+  active_period: "1960-2023"
+external_ids:
+  openalex: "A5112460582"
+  mathgenealogy: "44134"
+links: {}
+personal_notes: |
+  54 名博士生，360 名学术后代。学生包括 Kontsevich (Fields 1998) 和 Drinfeld (Fields 1990)。
+  2023年去世。对 Frobenius 流形的推广到量子上同调框架做出重要贡献。
+sources:
+  - label: "Math Genealogy"
+    url: "https://www.mathgenealogy.org/id.php?id=44134"
+  - label: "OpenAlex"
+    url: "https://openalex.org/authors/A5112460582"
+tags:
+  - moscow-school

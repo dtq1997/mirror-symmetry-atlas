@@ -1,0 +1,88 @@
+slug: fang-bohan
+name:
+  en: Bohan Fang
+  zh: 方博汉
+born: null
+died: null
+nationality: Chinese
+gender: male
+photo_url: null
+career_timeline:
+  - period: "2010"
+    type: education
+    institution: northwestern
+    role: "PhD"
+    notes: "Northwestern University, 论文: Mirror Symmetry, Constructible Sheaves And Toric Varieties"
+  - period: "~2010-2014"
+    type: position
+    institution: columbia
+    role: "博士后"
+    notes: "Columbia University, Department of Mathematics"
+  - period: "~2015-present"
+    type: position
+    institution: pku-bicmr
+    role: "助理教授 → 长聘副教授 → 教授"
+    notes: "北京大学 BICMR。2015 年青年千人计划入选"
+  - type: award
+    title: "国家杰出青年科学基金"
+  - period: "2022"
+    type: award
+    title: "第十七届中国青年科技奖"
+  - period: "2015"
+    type: award
+    title: "中组部青年千人计划"
+research_areas:
+  - mirror-symmetry
+  - homological-mirror-symmetry
+  - gromov-witten-theory
+  - gamma-conjecture
+advisor: null
+students: []
+key_collaborators:
+  - person: liu-melissa
+    since: 2008
+    topic: "Remodeling conjecture, open GW invariants, toric CY"
+    papers_count: 11
+  - person: zong-zhengyu
+    since: 2014
+    topic: "Remodeling conjecture, toric CY, Gamma conjecture"
+    papers_count: 7
+publications:
+  - id: "2504.15696"
+    title: "Remodeling Conjecture with Descendants"
+    year: 2025
+    coauthors: [liu-melissa, "Song Yu", zong-zhengyu]
+  - id: "2211.09203"
+    title: "All genus open-closed mirror symmetry for affine toric CY 3-orbifolds"
+    year: 2022
+    coauthors: [liu-melissa, zong-zhengyu]
+  - id: "2010.15403"
+    title: "On the Remodeling Conjecture for Toric CY 3-Orbifolds"
+    year: 2020
+    coauthors: [liu-melissa, zong-zhengyu]
+  - id: "1604.07123"
+    title: "The Eynard-Orantin Recursion and Equivariant Mirror Symmetry for P^1"
+    year: 2016
+    coauthors: [liu-melissa, zong-zhengyu]
+  - id: "0901.4276"
+    title: "Coherent-Constructible Correspondence and HMS for Toric Varieties"
+    year: 2009
+    coauthors: [liu-melissa, "David Treumann", "Eric Zaslow"]
+  - id: "0804.0646"
+    title: "Homological mirror symmetry is T-duality for P^n"
+    year: 2008
+    coauthors: []
+activity:
+  total_papers: 22
+  active_period: "2010-present"
+external_ids:
+  mathgenealogy: "150849"
+links:
+  homepage: "https://bohanfang.github.io/"
+personal_notes: |
+  北大 BICMR 教授。与刘秋菊(Melissa Liu)长期合作(11篇)，
+  与宗正宇合作(7篇)，三人形成 toric CY / remodeling conjecture 核心团队。
+  2026 HUST 会议报告: Conic bundle and the mirror hypersurface for a toric CY n-fold
+  Joint with Yuze Sun and Peng Zhou. HMS, Gamma classes, microlocal sheaves.
+tags:
+  - pku

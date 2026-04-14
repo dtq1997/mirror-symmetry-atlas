@@ -1,0 +1,79 @@
+entity_types:
+  - person
+  - concept
+  - paper
+  - institution
+  - conference
+  - seminar
+  - problem
+
+career_types:
+  - education
+  - position
+  - visit
+  - award
+  - event
+
+connection_types:
+  - advisor-student
+  - coauthor
+  - institutional
+
+concept_categories:
+  - algebraic-structure
+  - geometric-structure
+  - equation
+  - conjecture
+  - technique
+
+difficulty_levels:
+  - introductory
+  - intermediate
+  - advanced
+  - research-frontier
+
+importance_levels:
+  - seminal
+  - major
+  - notable
+  - regular
+
+regions:
+  - china
+  - asia
+  - europe
+  - americas
+  - global
+
+node_colors:
+  person: "#f59e0b"
+  concept: "#6366f1"
+  paper: "#10b981"
+  institution: "#8b5cf6"
+  ghost: "rgba(255, 255, 255, 0.2)"
+
+schools:
+  - slug: sissa-school
+    label: "SISSA / Dubrovin School"
+    color: "#f59e0b"
+  - slug: moscow-school
+    label: "Moscow Mathematical School"
+    color: "#ef4444"
+  - slug: french-school
+    label: "French School (CNRS)"
+    color: "#3b82f6"
+  - slug: xu-school
+    label: "Xu / Alekseev School"
+    color: "#10b981"
+  - slug: tsinghua
+    label: "Tsinghua"
+    color: "#8b5cf6"
+  - slug: pku
+    label: "PKU / BICMR"
+    color: "#06b6d4"
+  - slug: german-school
+    label: "German School"
+    color: "#f97316"
+  - slug: japanese-school
+    label: "Japanese School"
+    color: "#ec4899"

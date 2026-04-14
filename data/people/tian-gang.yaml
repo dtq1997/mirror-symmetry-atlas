@@ -1,0 +1,43 @@
+slug: tian-gang
+name:
+  en: Gang Tian
+  zh: 田刚
+born: 1958
+died: null
+nationality: Chinese
+gender: male
+photo_url: null
+career_timeline:
+  - period: "1988"
+    type: education
+    institution: harvard
+    role: "PhD"
+    notes: "导师: S.T. Yau"
+  - period: "~2005-present"
+    type: position
+    institution: pku-bicmr
+    role: "教授, 曾任 BICMR 主任"
+    notes: "北京大学"
+  - period: "2002"
+    type: award
+    title: "ICM Plenary Speaker"
+research_areas:
+  - differential-geometry
+  - gromov-witten-theory
+  - quantum-cohomology
+advisor: null
+students: []
+key_collaborators:
+  - person: liu-xiaobo
+    topic: "Virasoro conjecture genus 0"
+    papers_count: 1
+activity:
+  total_papers: 100
+  active_period: "1988-present"
+external_ids: {}
+links: {}
+personal_notes: |
+  北京大学讲席教授，BICMR 创始主任之一。与刘小博合作证明了 genus-0 Virasoro conjecture (1998)。
+  丘成桐的学生。ICM 2002 plenary speaker。
+tags:
+  - pku

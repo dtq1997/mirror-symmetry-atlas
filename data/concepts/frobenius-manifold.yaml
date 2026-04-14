@@ -1,0 +1,44 @@
+slug: frobenius-manifold
+name:
+  en: Frobenius Manifold
+  zh: Frobenius 流形
+aliases:
+  - Dubrovin-Frobenius manifold
+category: algebraic-structure
+difficulty: advanced
+discipline: math
+year_introduced: 1994
+introduced_by: [dubrovin]
+definition: |
+  复流形 $M$ 上配备平坦度量 $\eta$、切丛上满足
+  $\eta(X \circ Y, Z) = \eta(X, Y \circ Z)$ 的交换结合乘法 $\circ$、
+  单位向量场 $e$ 和 Euler 向量场 $E$ 的结构。
+dual_to: null
+prerequisites:
+  - flat-connection
+  - wdvv-equations
+leads_to:
+  - dubrovin-connection
+  - quantum-cohomology
+  - tt-star-geometry
+  - integrable-hierarchy
+related:
+  - mirror-symmetry
+  - topological-field-theory
+key_people: [dubrovin, manin-yuri, hertling, k-saito]
+key_papers: ["hep-th/9407018"]
+contributions:
+  - person: dubrovin
+    role: founder
+    description: "1994年引入概念，229 页奠基论文"
+  - person: manin-yuri
+    role: promoter
+    description: "推广到量子上同调框架"
+  - person: hertling
+    role: major
+    description: "从奇异点理论角度发展"
+  - person: k-saito
+    role: major
+    description: "Primitive forms 和 flat structures，独立发展类似结构"
+tags:
+  - layer-1

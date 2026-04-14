@@ -1,0 +1,143 @@
+slug: cotti
+name:
+  en: Giordano Cotti
+  zh: null
+born: 1990
+died: null
+nationality: Italian
+gender: male
+photo_url: null
+career_timeline:
+  - period: "2009-2012"
+    type: education
+    institution: genova
+    role: "BSc Mathematics, Università di Genova"
+    notes: "110/110 summa cum laude"
+  - period: "2012-2017"
+    type: education
+    institution: sissa
+    role: "MSc + PhD in Geometry and Mathematical Physics"
+    advisor: dubrovin
+    notes: "2017年9月19日答辩，110/110 summa cum laude。Guzzetti 为共同指导"
+  - period: "2017-2019"
+    type: position
+    institution: mpim-bonn
+    role: "博士后"
+    notes: "Max Planck Institute for Mathematics, mentor: Yu.I. Manin"
+  - period: "2019-2020"
+    type: position
+    institution: birmingham
+    role: "Postdoctoral Research Associate"
+    notes: "mentor: Marta Mazzocco"
+  - period: "2020-2024"
+    type: position
+    institution: ist-lisboa
+    role: "FCT Researcher"
+  - period: "2025-present"
+    type: position
+    institution: ist-lisboa
+    role: "Auxiliary Researcher (FCT Tenure)"
+research_areas:
+  - frobenius-manifolds
+  - quantum-cohomology
+  - stokes-phenomenon
+  - isomonodromy
+  - derived-categories
+advisor: dubrovin
+students: []
+key_collaborators:
+  - person: guzzetti
+    since: 2015
+    topic: "Isomonodromy, coalescence, helix structures"
+    papers_count: 14
+  - person: dubrovin
+    since: 2014
+    topic: "Isomonodromy, Stokes matrices, quantum cohomology"
+    papers_count: 10
+publications:
+  - id: "2510.05500"
+    title: "Fiberwise Gromov-Witten theory, quantum spectra of flag bundles, and prime factorization of integers"
+    year: 2025
+    coauthors: []
+  - id: "2506.18033"
+    title: "Generalized Mittag-Leffler functions, Borel-Laplace multitransforms, and quantum differential equations of Fano varieties"
+    year: 2025
+    coauthors: []
+  - id: "2409.09657"
+    title: "On the Satake correspondence for the equivariant quantum differential equations and qKZ difference equations of Grassmannians"
+    year: 2024
+    coauthors: ["Alexander Varchenko"]
+  - id: "2310.19739"
+    title: "Asymptotic solutions for linear ODEs with not-necessarily meromorphic coefficients: a Levinson type theorem on complex domains, and applications"
+    year: 2023
+    coauthors: [guzzetti, "Davide Masoero"]
+  - id: "2210.05445"
+    title: "Borel $(α,β)$-multitransforms and Quantum Leray-Hirsch: integral representations of solutions of quantum differential equations for $\\mathbb P^1$-bundles"
+    year: 2022
+    coauthors: []
+  - id: "2112.14577"
+    title: "On the universality of integrable deformations of solutions of degenerate Riemann-Hilbert-Birkhoff problems"
+    year: 2021
+    coauthors: []
+  - id: "2105.06329"
+    title: "Riemann-Hilbert-Birkhoff inverse problem for semisimple flat $F$-manifolds, and convergence of oriented associativity potentials"
+    year: 2021
+    coauthors: []
+  - id: "2011.04498"
+    title: "Degenerate Riemann-Hilbert-Birkhoff problems, semisimplicity, and convergence of WDVV-potentials"
+    year: 2020
+    coauthors: []
+  - id: "2006.11753"
+    title: "The $*$-Markov equation for Laurent polynomials"
+    year: 2020
+    coauthors: ["Alexander Varchenko"]
+  - id: "2005.08262"
+    title: "Cyclic stratum of Frobenius manifolds, Borel-Laplace $(\\boldsymbol α,\\boldsymbol β)$-multitransforms, and integral representations of solutions of Quantum Differential Equations"
+    year: 2020
+    coauthors: []
+  - id: "1911.11047"
+    title: "Quantum differential equations and helices"
+    year: 2019
+    coauthors: []
+  - id: "1909.06582"
+    title: "Equivariant quantum differential equation and $qKZ$ equations for a projective space: Stokes bases as exceptional collections, Stokes matrices as Gram matrices, and B-Theorem"
+    year: 2019
+    coauthors: ["Alexander Varchenko"]
+  - id: "1811.09235"
+    title: "Helix Structures in Quantum Cohomology of Fano Varieties"
+    year: 2018
+    coauthors: [dubrovin, guzzetti]
+  - id: "1712.08575"
+    title: "Local Moduli of Semisimple Frobenius Coalescent Structures"
+    year: 2017
+    coauthors: [dubrovin, guzzetti]
+  - id: "1706.04808"
+    title: "Isomonodromy Deformations at an Irregular Singularity with Coalescing Eigenvalues"
+    year: 2017
+    coauthors: [dubrovin, guzzetti]
+  - id: "1608.06868"
+    title: "Coalescence Phenomenon of Quantum Cohomology of Grassmannians and the Distribution of Prime Numbers"
+    year: 2016
+    coauthors: []
+activity:
+  total_papers: 16
+  h_index: 7
+  active_period: "2015-present"
+  peak_period: "2018-present"
+external_ids:
+  openalex: "A5051138835"
+  mathgenealogy: "228204"
+links:
+  homepage: "https://giordanocotti.wordpress.com/"
+personal_notes: |
+  Dubrovin 最后的博士生之一。在 Refined Dubrovin Conjecture 和 coalescence 问题上做出关键工作。
+sources:
+  - label: "CV (WordPress)"
+    url: "https://giordanocotti.wordpress.com/curriculum-vitae/"
+  - label: "Math Genealogy"
+    url: "https://www.mathgenealogy.org/id.php?id=228204"
+  - label: "OpenAlex"
+    url: "https://openalex.org/authors/A5051138835"
+tags:
+  - sissa-school
+  - dubrovin-student

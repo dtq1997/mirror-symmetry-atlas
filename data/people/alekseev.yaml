@@ -1,0 +1,68 @@
+slug: alekseev
+name:
+  en: Anton Alekseev
+  zh: 阿列克谢耶夫
+born: 1967
+died: null
+nationality: Russian
+gender: male
+photo_url: null
+career_timeline:
+  - period: "~1984-1989"
+    type: education
+    institution: leningrad-state
+    role: "本科/研究生, Leningrad State University"
+  - period: "1991"
+    type: education
+    institution: steklov
+    role: "博士 (Candidate of Sciences)"
+    advisor: faddeev
+    notes: "Steklov Institute, St. Petersburg. 导师: L.D. Faddeev"
+  - period: "~1991-2001"
+    type: position
+    institution: uppsala
+    role: "博士后 → Faculty"
+    notes: "Postdocs in Paris, Uppsala, Vienna, ETH-Zürich; then faculty at Uppsala"
+  - period: "2001-present"
+    type: position
+    institution: geneva
+    role: "Professor ordinarius"
+  - period: "2006"
+    type: award
+    title: "Proof of Kashiwara-Vergne conjecture (with Meinrenken)"
+  - period: "2014"
+    type: award
+    title: "ICM invited speaker, Seoul"
+research_areas:
+  - poisson-geometry
+  - quantum-groups
+  - kashiwara-vergne
+  - lie-theory
+advisor: faddeev
+students:
+  - xu-xiaomeng
+key_collaborators:
+  - person: xu-xiaomeng
+    since: 2014
+    topic: "Kashiwara-Vergne, WKB"
+    papers_count: 3
+activity:
+  total_papers: 214  # combined from 2 OpenAlex profiles
+  h_index: 26
+  active_period: "1991-present"
+  phd_students: 20
+  academic_descendants: 26
+external_ids:
+  openalex: "A5042713027"
+  mathgenealogy: "141875"
+links: {}
+personal_notes: |
+  Xu Xiaomeng 的导师。Poisson geometry 和 quantum groups 方向。
+  Geneva 学派。
+sources:
+  - label: "Math Genealogy"
+    url: "https://www.mathgenealogy.org/id.php?id=141875"
+  - label: "OpenAlex"
+    url: "https://openalex.org/authors/A5042713027"
+tags:
+  - geneva-school

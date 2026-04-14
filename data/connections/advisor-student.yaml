@@ -1,0 +1,115 @@
+edges:
+  - source: novikov-sergei
+    target: dubrovin
+    type: advisor-student
+    year: 1976
+    institution: moscow-state
+  - source: dubrovin
+    target: guzzetti
+    type: advisor-student
+    year: 2000
+    institution: sissa
+  - source: dubrovin
+    target: cotti
+    type: advisor-student
+    year: 2017
+    institution: sissa
+  - source: dubrovin
+    target: mazzocco
+    type: advisor-student
+    year: 1998
+    institution: sissa
+  - source: guzzetti
+    target: cotti
+    type: advisor-student
+    year: 2017
+    institution: sissa
+    notes: "co-advisor"
+  - source: brieskorn
+    target: hertling
+    type: advisor-student
+    year: 1992
+    institution: bonn
+  - source: brieskorn
+    target: k-saito
+    type: advisor-student
+    year: 1971
+    institution: gottingen
+  - source: hitchin
+    target: boalch
+    type: advisor-student
+    year: 1999
+    institution: oxford
+  - source: le-dung-trang
+    target: sabbah
+    type: advisor-student
+    year: 1976
+    institution: paris-vii
+  - source: alekseev
+    target: xu-xiaomeng
+    type: advisor-student
+    year: 2016
+    institution: geneva
+  - source: xu-xiaomeng
+    target: tang-qian
+    type: advisor-student
+    year: 2023
+    institution: pku-bicmr
+  - source: shafarevich
+    target: manin-yuri
+    type: advisor-student
+    year: 1961
+    institution: moscow-state
+  - source: manin-yuri
+    target: kontsevich
+    type: advisor-student
+    year: 1992
+    institution: bonn
+  - source: liu-xiaobo
+    target: yang-chenglang
+    type: advisor-student
+    year: 2023
+    institution: pku-bicmr
+  - source: guo-shuai
+    target: ji-ce
+    type: advisor-student
+    year: 2024
+    institution: pku-bicmr
+  - source: zhou-jian
+    target: guo-shuai
+    type: advisor-student
+    year: 2011
+    institution: tsinghua
+  - source: zhou-jian
+    target: zhang-qingsheng
+    type: advisor-student
+    year: 2020
+    institution: tsinghua
+    notes: "[待验证]"
+  - source: zhou-jian
+    target: wang-zhiyuan
+    type: advisor-student
+    year: 2017
+    institution: tsinghua
+    notes: "[待验证]"
+  - source: faddeev
+    target: alekseev
+    type: advisor-student
+    year: 1991
+    institution: steklov
+  - source: liu-melissa
+    target: zong-zhengyu
+    type: advisor-student
+    year: 2017
+    institution: columbia
+    notes: "[待验证] PhD year approximate"
+  - source: zhang-youjin
+    target: yang-di
+    type: advisor-student
+    year: 2013
+    institution: tsinghua
+  - source: zhou-jian
+    target: ke-huazhong
+    type: advisor-student
+    year: 2013
+    institution: tsinghua

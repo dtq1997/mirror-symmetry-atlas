@@ -1,0 +1,30 @@
+slug: moscow-state
+name:
+  en: "Moscow State University (MSU)"
+  zh: "莫斯科国立大学"
+  local: "Московский государственный университет (МГУ)"
+type: university
+country: Russia
+city: Moscow
+location:
+  lat: 55.7039
+  lng: 37.5309
+founded: 1755
+url: "https://www.msu.ru/"
+relevance: high
+research_groups:
+  - name: "Moscow Mathematical School"
+    topics:
+      - algebraic-topology
+      - algebraic-geometry
+      - integrable-systems
+    current_members: []
+    past_members:
+      - novikov-sergei
+      - manin-yuri
+      - dubrovin
+events:
+  - year: 1976
+    description: "Dubrovin 在 Novikov 指导下获博士学位"
+notes: |
+  Moscow 数学学派的核心。Novikov, Manin, Dubrovin 都在此学习/工作。

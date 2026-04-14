@@ -1,0 +1,27 @@
+slug: flat-connection
+name:
+  en: Flat Connection
+  zh: 平坦联络
+aliases:
+  - Dubrovin connection
+  - deformed flat connection
+category: geometric-structure
+difficulty: intermediate
+discipline: math
+year_introduced: null
+introduced_by: []
+definition: |
+  向量丛上曲率为零的联络 $\nabla$，即 $\nabla^2 = 0$。Dubrovin 联络是一族依赖参数
+  $\lambda \in \mathbb{C}^*$ 的平坦联络 $\nabla_\lambda = \nabla + \lambda \mathcal{U}$，
+  编码了 Frobenius 流形的乘法结构。
+dual_to: null
+prerequisites: []
+leads_to:
+  - frobenius-manifold
+  - isomonodromy
+  - stokes-phenomenon
+related: []
+key_people: [dubrovin]
+key_papers: []
+tags:
+  - layer-1

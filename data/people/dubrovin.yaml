@@ -1,0 +1,103 @@
+slug: dubrovin
+name:
+  en: Boris Dubrovin
+  zh: 杜布罗文
+born: 1950
+died: 2019
+nationality: Russian
+gender: male
+photo_url: null
+career_timeline:
+  - period: "1968-1974"
+    type: education
+    institution: moscow-state
+    role: "本科 + 研究生"
+    advisor: novikov-sergei
+    notes: "1974年获副博士学位"
+  - period: "1976"
+    type: award
+    title: "博士学位 (Doctor of Sciences)"
+    notes: "Novikov 指导"
+  - period: "1974-1993"
+    type: position
+    institution: moscow-state
+    role: "讲师 → 教授"
+  - period: "1993-2019"
+    type: position
+    institution: sissa
+    role: 正教授
+    notes: "1993年移居意大利，在 SISSA 建立 Frobenius 流形研究中心"
+  - period: "1998"
+    type: award
+    title: "ICM invited speaker (Berlin)"
+  - period: "2019-03-19"
+    type: event
+    notes: "因 ALS 在 SISSA 去世"
+research_areas:
+  - frobenius-manifolds
+  - integrable-systems
+  - topological-field-theory
+  - painleve-equations
+  - isomonodromy
+advisor: novikov-sergei
+students:
+  - guzzetti
+  - cotti
+  - mazzocco
+  - grava
+  - bertola
+  - brini
+  - cafasso
+  - carlet
+  - lorenzoni
+key_collaborators:
+  - person: zhang-youjin
+    since: 2001
+    met_context: "可能通过 SISSA/ICTP 访问认识"
+    topic: "Frobenius manifolds & integrable hierarchies"
+    papers_count: 15
+  - person: liu-siqi
+    since: 2003
+    topic: "WDVV equations, integrable systems"
+    papers_count: 8
+  - person: cotti
+    since: 2014
+    met_context: "SISSA 博士生"
+    topic: "Isomonodromy, coalescence, Stokes matrices"
+    papers_count: 10
+  - person: guzzetti
+    since: 1996
+    met_context: "SISSA 博士生"
+    topic: "Monodromy data, Painlevé, Stokes matrices"
+    papers_count: 10
+  - person: mazzocco
+    since: 1995
+    met_context: "SISSA 博士生"
+    topic: "Painlevé equations, reflection groups"
+    papers_count: 7
+activity:
+  total_papers: 205
+  h_index: 45
+  mathscinet_citations: 5000
+  active_period: "1974-2019"
+  peak_period: "1994-2010"
+  phd_students: 19
+  academic_descendants: 52
+external_ids:
+  openalex: "A5028846662"
+  mathgenealogy: "83136"
+links:
+  homepage: null
+personal_notes: |
+  极具人格魅力的导师。晚年与 ALS 斗争期间仍坚持研究。
+  SISSA 设立 Boris Dubrovin Medal 纪念，每两年颁发。
+  Frobenius 流形理论的奠基人，229 页的 "Geometry of 2D TFT" 是该领域圣经。
+sources:
+  - label: "Math Genealogy"
+    url: "https://www.mathgenealogy.org/id.php?id=83136"
+  - label: "OpenAlex"
+    url: "https://openalex.org/authors/A5028846662"
+tags:
+  - sissa-school
+  - moscow-school
+  - fields-student

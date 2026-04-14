@@ -1,0 +1,169 @@
+edges:
+  - source: zhang-youjin
+    target: liu-siqi
+    type: coauthor
+    weight: 56
+    period: "2000-present"
+  - source: dubrovin
+    target: zhang-youjin
+    type: coauthor
+    weight: 15
+    period: "2001-2019"
+  - source: cotti
+    target: guzzetti
+    type: coauthor
+    weight: 14
+    period: "2015-present"
+  - source: dubrovin
+    target: cotti
+    type: coauthor
+    weight: 10
+    period: "2014-2019"
+  - source: dubrovin
+    target: guzzetti
+    type: coauthor
+    weight: 10
+    period: "1996-2019"
+  - source: dubrovin
+    target: liu-siqi
+    type: coauthor
+    weight: 8
+    period: "2003-2019"
+  - source: dubrovin
+    target: mazzocco
+    type: coauthor
+    weight: 7
+    period: "1995-2005"
+  - source: xu-xiaomeng
+    target: tang-qian
+    type: coauthor
+    weight: 4
+    period: "2023-2025"
+  - source: xu-xiaomeng
+    target: alekseev
+    type: coauthor
+    weight: 3
+    period: "2017-2024"
+  - source: dubrovin
+    target: boalch
+    type: coauthor
+    weight: 1
+    period: "2005"
+  - source: yang-chenglang
+    target: liu-xiaobo
+    type: coauthor
+    weight: 5
+    period: "2021-2025"
+  - source: yang-chenglang
+    target: ji-ce
+    type: coauthor
+    weight: 2
+    period: "2023-2025"
+  - source: guo-shuai
+    target: zhang-qingsheng
+    type: coauthor
+    weight: 3
+    period: "~2022-present"
+  - source: yang-chenglang
+    target: wang-zhiyuan
+    type: coauthor
+    weight: 4
+    period: "2022-present"
+  - source: guo-shuai
+    target: ji-ce
+    type: coauthor
+    weight: 1
+    period: "2025"
+  - source: guo-shuai
+    target: zhou-jian
+    type: coauthor
+    weight: 3
+    period: "2011-2019"
+  - source: zhang-qingsheng
+    target: yang-di
+    type: coauthor
+    weight: 1
+    period: "2022-2024"
+  - source: wang-zhiyuan
+    target: zhou-jian
+    type: coauthor
+    weight: 3
+    period: "2015-present"
+  # === 杨迪 — 关键桥梁 ===
+  - source: yang-di
+    target: dubrovin
+    type: coauthor
+    weight: 11
+    period: "2013-2019"
+  - source: yang-di
+    target: zhang-youjin
+    type: coauthor
+    weight: 7
+    period: "2014-present"
+  - source: yang-di
+    target: liu-siqi
+    type: coauthor
+    weight: 6
+    period: "2014-present"
+  - source: yang-di
+    target: zhou-chunhui
+    type: coauthor
+    weight: 5
+    period: "2019-present"
+  # === 周春辉 — 清华组 ===
+  - source: zhou-chunhui
+    target: liu-siqi
+    type: coauthor
+    weight: 4
+    period: "2017-present"
+  - source: zhou-chunhui
+    target: zhang-youjin
+    type: coauthor
+    weight: 4
+    period: "2017-present"
+  # === 方博汉-宗正宇 ===
+  - source: fang-bohan
+    target: zong-zhengyu
+    type: coauthor
+    weight: 7
+    period: "2014-present"
+  # === 唐乾-季策-杨成浪 三人合著 ===
+  - source: tang-qian
+    target: ji-ce
+    type: coauthor
+    weight: 1
+    period: "2024"
+  - source: tang-qian
+    target: yang-chenglang
+    type: coauthor
+    weight: 1
+    period: "2024"
+  # === 杨成浪-周坚 ===
+  - source: yang-chenglang
+    target: zhou-jian
+    type: coauthor
+    weight: 2
+    period: "2025"
+  # === 杨迪-Zagier ===
+  - source: yang-di
+    target: zagier
+    type: coauthor
+    weight: 5
+    period: "2018-present"
+  # === 方博汉-刘秋菊-宗正宇 ===
+  - source: fang-bohan
+    target: liu-melissa
+    type: coauthor
+    weight: 11
+    period: "2008-present"
+  - source: zong-zhengyu
+    target: liu-melissa
+    type: coauthor
+    weight: 6
+    period: "2014-present"
+  # === 刘小博-田刚 ===
+  - source: liu-xiaobo
+    target: tian-gang
+    type: coauthor
+    weight: 1
+    period: "1998"

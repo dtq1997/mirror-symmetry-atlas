@@ -36,6 +36,9 @@ yarn-error.log*
 # vercel
 .vercel
 
+# LaTeX sources (too large for git, download locally via script)
+data/papers/sources/
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts

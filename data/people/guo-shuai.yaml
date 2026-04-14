@@ -1,0 +1,146 @@
+slug: guo-shuai
+name:
+  en: Shuai Guo
+  zh: 郭帅
+born: null
+died: null
+nationality: Chinese
+gender: male
+photo_url: null
+career_timeline:
+  - period: "2002-2006"
+    type: education
+    institution: tsinghua
+    role: "本科"
+  - period: "2006-2011"
+    type: education
+    institution: tsinghua
+    role: "博士"
+    advisor: zhou-jian
+    notes: "论文: Orbifold Elliptic Genera, Vertex Algebra and LG/CY correspondence"
+  - period: "2011-2013"
+    type: position
+    institution: pku-bicmr
+    role: "博士后"
+  - period: "2013-2016"
+    type: position
+    institution: pku-bicmr
+    role: "讲师"
+  - period: "2016-2023"
+    type: position
+    institution: pku-bicmr
+    role: "副教授"
+  - period: "2019"
+    type: award
+    title: "求是杰出青年学者奖"
+  - period: "2023-present"
+    type: position
+    institution: pku-bicmr
+    role: "教授"
+    notes: "智华楼318"
+research_areas:
+  - gromov-witten-theory
+  - mirror-symmetry
+  - calabi-yau
+  - moduli-spaces
+  - integrable-hierarchy
+advisor: zhou-jian
+students:
+  - ji-ce
+key_collaborators:
+  - person: zhang-qingsheng
+    since: 2020
+    topic: "Higher-genus GW theory, Virasoro constraints"
+    papers_count: 3
+  - person: zhou-jian
+    since: 2011
+    topic: "KKV conjecture, elliptic genera"
+    papers_count: 3
+  - person: ji-ce
+    since: 2023
+    topic: "KP/BKP hierarchies"
+    papers_count: 1
+publications:
+  - id: "2507.20151"
+    title: "Virasoro constraints for topological recursion"
+    year: 2025
+    coauthors: [zhang-qingsheng]
+  - id: "2502.09302"
+    title: "The bilinear fermionic form for KP and BKP hierarchies"
+    year: 2025
+    coauthors: [ji-ce, yang-chenglang]
+  - id: "2309.12271"
+    title: "A generalization of the Witten conjecture through spectral curve"
+    year: 2023
+    coauthors: [ji-ce, zhang-qingsheng]
+  - id: "2308.06156"
+    title: "Genus-0 virasoro conjecture for arbitrary Calabi-Yau threefolds"
+    year: 2023
+    coauthors: []
+  - id: "2208.08553"
+    title: "Higher genus FJRW invariants of a Fermat cubic"
+    year: 2022
+    coauthors: ["Jun Li", "Rachel Webb"]
+  - id: "2112.14586"
+    title: "On some BCOV-type results"
+    year: 2021
+    coauthors: ["Felix Janda", "Yongbin Ruan"]
+  - id: "2112.09733"
+    title: "Conifold Gap Sheaf from Donaldson-Thomas theory"
+    year: 2021
+    coauthors: []
+  - id: "2104.08527"
+    title: "A mirror theorem for genus two GW invariants of quintic threefolds"
+    year: 2021
+    coauthors: ["Felix Janda", "Yongbin Ruan"]
+  - id: "2003.00348"
+    title: "Structure of Higher Genus GW Invariants of Quintic 3-folds"
+    year: 2020
+    coauthors: ["Huai-Liang Chang", "Jun Li"]
+  - id: "1903.11673"
+    title: "Structures in Higher Genus Enumerative Geometry"
+    year: 2019
+    coauthors: ["Huai-Liang Chang", "Jun Li", "Wei-Ping Li"]
+  - id: "1812.11908"
+    title: "The theory of N-Mixed-Spin-P fields"
+    year: 2018
+    coauthors: ["Huai-Liang Chang", "Jun Li", "Wei-Ping Li"]
+  - id: "1809.08806"
+    title: "Polynomial Structure of GW Potential of Quintic"
+    year: 2018
+    coauthors: ["Huai-Liang Chang", "Jun Li"]
+  - id: "1711.05118"
+    title: "BCOV axioms for CohFTs"
+    year: 2017
+    coauthors: ["Younghan Bae", "Dustin Ross"]
+  - id: "1501.06656"
+    title: "A mirror theorem for genus two GW invariants"
+    year: 2015
+    coauthors: ["Dustin Ross"]
+  - id: "1208.3270"
+    title: "Gopakumar-Vafa BPS invariants, Hilbert schemes and quasimodular forms"
+    year: 2012
+    coauthors: [zhou-jian]
+activity:
+  total_papers: 25
+  h_index: 7
+  active_period: "2011-present"
+  peak_period: "2018-present"
+external_ids:
+  openalex: "A5015466098"
+  mathgenealogy: "275155"
+links:
+  homepage: "https://sites.google.com/site/guoshuaimath/"
+personal_notes: |
+  清华本硕博 (周坚组) → PKU 博后/讲师/副教授/教授。
+  代表作：与 Chang, Li 合作证明 quintic 3-fold 的多项式结构 (Annals of Mathematics 2021)。
+  证明 KKV conjecture (与周坚, Adv. Math. 2015)。求是杰出青年学者奖。
+  2026 HUST 会议报告: higher-genus GW Theory of O(p-1)⊕O(-p-1)。
+sources:
+  - label: "Math Genealogy"
+    url: "https://www.mathgenealogy.org/id.php?id=275155"
+  - label: "OpenAlex"
+    url: "https://openalex.org/authors/A5015466098"
+tags:
+  - important-person
+  - pku

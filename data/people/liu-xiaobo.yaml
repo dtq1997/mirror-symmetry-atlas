@@ -1,0 +1,173 @@
+slug: liu-xiaobo
+name:
+  en: Xiaobo Liu
+  zh: 刘小博
+born: null
+died: null
+nationality: Chinese
+gender: male
+photo_url: null
+career_timeline:
+  - period: "~1979-1983"
+    type: education
+    institution: tsinghua
+    role: "本科, 应用数学"
+    notes: "清华大学"
+  - period: "~1988-1994"
+    type: education
+    institution: upenn
+    role: "博士, University of Pennsylvania"
+    advisor: croke
+    notes: "论文: Volume Minimizing Cycles in Compact Lie Groups"
+  - period: "~1995-2018"
+    type: position
+    institution: notre-dame
+    role: "Assistant → Associate → Full Professor"
+    notes: "University of Notre Dame"
+  - period: "2006"
+    type: award
+    title: "ICM invited speaker (Madrid)"
+  - period: "~2018-present"
+    type: position
+    institution: pku-bicmr
+    role: "讲席教授, BICMR 副主任"
+    notes: "北京大学北京国际数学研究中心"
+  - type: award
+    title: "国家千人计划"
+  - period: "2023"
+    type: award
+    title: "中科院院士候选人（几何方向）"
+research_areas:
+  - gromov-witten-theory
+  - virasoro-constraints
+  - intersection-numbers
+  - quantum-cohomology
+  - moduli-spaces
+advisor: croke
+students:
+  - yang-chenglang
+key_collaborators:
+  - person: yang-chenglang
+    since: 2021
+    topic: "Schur Q-polynomials, Witten tau-function, W-type operators"
+    papers_count: 5
+publications:
+  - id: "2603.02736"
+    title: "Complexity of quantum cohomology"
+    year: 2026
+    coauthors: ["Chongyu Wang"]
+  - id: "2402.14504"
+    title: "On A Tautological Relation Conjectured By Buryak-Shadrin"
+    year: 2024
+    coauthors: ["Chongyu Wang"]
+  - id: "2206.01066"
+    title: "Action of $W$-type operators on Schur functions and Schur Q-functions"
+    year: 2022
+    coauthors: [yang-chenglang]
+  - id: "2107.10472"
+    title: "Action of Virasoro operators on Hall-Littlewood polynomials"
+    year: 2021
+    coauthors: [yang-chenglang]
+  - id: "2104.01357"
+    title: "Q-Polynomial expansion for Brezin-Gross-Witten tau-function"
+    year: 2021
+    coauthors: [yang-chenglang]
+  - id: "2103.14318"
+    title: "Schur Q-Polynomials and Kontsevich-Witten Tau Function"
+    year: 2021
+    coauthors: [yang-chenglang]
+  - id: "1712.02331"
+    title: "Connecting Hodge integrals to Gromov-Witten invariants by Virasoro operators"
+    year: 2017
+    coauthors: ["Haijiang Yu"]
+  - id: "1503.05268"
+    title: "Connecting the Kontsevich-Witten and Hodge tau-functions by the $\\hat{GL(\\infty)}$ operators"
+    year: 2015
+    coauthors: ["Gehao Wang"]
+  - id: "1402.3854"
+    title: "Genus-2 G-function for $P^1$ orbifolds"
+    year: 2014
+    coauthors: ["Xin Wang"]
+  - id: "1106.3735"
+    title: "Genus-1 Virasoro conjecture along quantum volume direction"
+    year: 2011
+    coauthors: []
+  - id: "1104.4378"
+    title: "Topological Recursion Relations on $\\bar{\\cal M}_{3,2}$"
+    year: 2011
+    coauthors: ["Takashi Kimura"]
+  - id: "0905.0895"
+    title: "Quantum Teichmüller space and Kashaev algebra"
+    year: 2009
+    coauthors: ["Ren Guo"]
+  - id: "0805.4829"
+    title: "New topological recursion relations"
+    year: 2008
+    coauthors: ["Rahul Pandharipande"]
+  - id: "0805.0800"
+    title: "On Certain Vanishing Identities For Gromov-Witten Invariants"
+    year: 2008
+    coauthors: []
+  - id: "0707.2151"
+    title: "Local representations of the quantum Teichmuller space"
+    year: 2007
+    coauthors: ["Hua Bai", "Francis Bonahon"]
+  - id: "0603467"
+    title: "Quantum hyperbolic invariants for diffeomorphisms of small surfaces"
+    year: 2006
+    coauthors: []
+  - id: "0502457"
+    title: "A Genus-3 Topological Recursion Relation"
+    year: 2005
+    coauthors: ["Takashi Kimura"]
+  - id: "0408361"
+    title: "The quantum Teichmuller space as a noncommutative algebraic object"
+    year: 2004
+    coauthors: []
+  - id: "0407086"
+    title: "Representations of the quantum Teichmuller space, and invariants of surface diffeomorphisms"
+    year: 2004
+    coauthors: ["Francis Bonahon"]
+  - id: "0310410"
+    title: "Genus-2 Gromov-Witten invariants for manifolds with semisimple quantum cohomology"
+    year: 2003
+    coauthors: []
+  - id: "0301161"
+    title: "Relations Among Universal Equations For Gromov-Witten Invariants"
+    year: 2003
+    coauthors: []
+  - id: "0104030"
+    title: "Quantum product on the big phase space and the Virasoro conjecture"
+    year: 2001
+    coauthors: []
+  - id: "9907113"
+    title: "Elliptic Gromov-Witten Invariants And Virasoro Conjecture"
+    year: 1999
+    coauthors: []
+  - id: "9806028"
+    title: "Virasoro Constraints For Quantum Cohomology"
+    year: 1998
+    coauthors: [tian-gang]
+activity:
+  total_papers: 24
+  h_index: 12
+  active_period: "1994-present"
+  peak_period: "1998-2010"
+external_ids:
+  openalex: "A5100664480"
+  mathgenealogy: "23067"
+links:
+  homepage: "http://faculty.bicmr.pku.edu.cn/~xbliu/"
+personal_notes: |
+  PKU 讲席教授，BICMR 副主任。UPenn 博士（导师 C.B. Croke），曾长期任教 Notre Dame。
+  代表作：与田刚合作证明 genus-0 Virasoro conjecture (1998)。
+  ICM 2006 invited speaker。Sloan Research Fellowship。
+  杨成浪的博士导师。
+sources:
+  - label: "Math Genealogy"
+    url: "https://www.mathgenealogy.org/id.php?id=23067"
+  - label: "OpenAlex"
+    url: "https://openalex.org/authors/A5100664480"
+tags:
+  - important-person
+  - pku

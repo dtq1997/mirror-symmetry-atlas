@@ -1,0 +1,27 @@
+slug: gromov-witten-theory
+name:
+  en: Gromov-Witten Theory
+  zh: Gromov-Witten 理论
+aliases:
+  - GW theory
+  - GW invariants
+category: technique
+difficulty: advanced
+discipline: both
+year_introduced: 1991
+introduced_by: []
+definition: |
+  辛流形/代数簇中（伪）全纯曲线的计数不变量。通过稳定映射模空间
+  $\overline{M}_{g,n}(X,\beta)$ 上的虚拟基本类的积分来定义。
+dual_to: null
+prerequisites: []
+leads_to:
+  - quantum-cohomology
+  - virasoro-constraints
+  - mirror-symmetry
+related:
+  - integrable-hierarchy
+  - moduli-spaces
+key_people: [kontsevich, guo-shuai, liu-xiaobo, yang-chenglang]
+key_papers: []
+tags: []

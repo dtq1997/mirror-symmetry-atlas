@@ -1,0 +1,27 @@
+slug: tt-star-geometry
+name:
+  en: tt* Geometry
+  zh: tt* 几何
+aliases:
+  - topological-antitopological fusion
+  - tt*-structures
+category: geometric-structure
+difficulty: research-frontier
+discipline: both
+year_introduced: 1993
+introduced_by: []
+definition: |
+  N=2 超对称理论基态空间上的实结构，结合拓扑与反拓扑数据。数学上是 Frobenius
+  流形模空间上的 twistor 结构变分 / 调和丛。
+dual_to: null
+prerequisites:
+  - frobenius-manifold
+  - stokes-phenomenon
+leads_to: []
+related:
+  - isomonodromy
+  - twistor-structures
+key_people: [dubrovin, hertling, sabbah]
+key_papers: []
+tags:
+  - layer-3

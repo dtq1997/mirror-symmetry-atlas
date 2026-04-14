@@ -1,0 +1,28 @@
+slug: pku-bicmr
+name:
+  en: "Peking University / Beijing International Center for Mathematical Research"
+  zh: "北京大学 / 北京国际数学研究中心 (BICMR)"
+type: university
+country: China
+city: Beijing
+location:
+  lat: 39.9929
+  lng: 116.3058
+founded: 1898
+url: "https://bicmr.pku.edu.cn/"
+relevance: high
+research_groups:
+  - name: "Algebraic Geometry & Mathematical Physics"
+    topics:
+      - stokes-phenomenon
+      - quantum-groups
+      - isomonodromy
+      - poisson-geometry
+    current_members:
+      - xu-xiaomeng
+    past_members:
+      - tang-qian
+events: []
+notes: |
+  BICMR 是北大数学的国际研究中心。
+  徐晓濛在此建立了 Stokes phenomenon / quantum groups 研究方向。

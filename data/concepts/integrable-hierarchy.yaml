@@ -1,0 +1,38 @@
+slug: integrable-hierarchy
+name:
+  en: Integrable Hierarchy
+  zh: 可积层级
+aliases:
+  - integrable systems
+  - KdV hierarchy
+  - KP hierarchy
+  - Dubrovin-Zhang hierarchy
+category: algebraic-structure
+difficulty: advanced
+discipline: math
+year_introduced: null
+introduced_by: []
+definition: |
+  一族相容的演化偏微分方程，例如 KdV 层级
+  $u_t = u_{xxx} + 6uu_x, \ldots$。每个 Frobenius 流形对应一个双 Hamilton
+  可积层级（Dubrovin-Zhang 层级）。
+dual_to: null
+prerequisites:
+  - frobenius-manifold
+leads_to:
+  - virasoro-constraints
+related:
+  - wdvv-equations
+  - gromov-witten-theory
+  - tau-function
+key_people: [dubrovin, zhang-youjin, liu-siqi, novikov-sergei]
+key_papers: []
+contributions:
+  - person: zhang-youjin
+    role: major
+    description: "与 Dubrovin 建立 Frobenius 流形到可积层级的对应"
+  - person: liu-siqi
+    role: major
+    description: "WDVV 方程与 tau 函数的对称性"
+tags:
+  - layer-2

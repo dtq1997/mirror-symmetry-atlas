@@ -1,0 +1,74 @@
+slug: ji-ce
+name:
+  en: Ce Ji
+  zh: 季策
+born: null
+died: null
+nationality: Chinese
+gender: male
+photo_url: null
+career_timeline:
+  - period: "~2018-2024"
+    type: education
+    institution: pku-bicmr
+    role: "博士"
+    advisor: guo-shuai
+    notes: "2024年6月获博士学位"
+  - period: "2024-present"
+    type: position
+    institution: tsinghua
+    role: "水木学者博士后"
+    notes: "在张友金组，直接桥接到 Frobenius 流形网络"
+research_areas:
+  - integrable-hierarchy
+  - tau-function
+  - spin-hurwitz-numbers
+  - spectral-curves
+advisor: guo-shuai
+students: []
+key_collaborators:
+  - person: guo-shuai
+    since: 2023
+    topic: "KP/BKP hierarchies, bilinear fermionic form"
+    papers_count: 1
+  - person: yang-chenglang
+    since: 2023
+    topic: "Kac-Schwarz operators, spin Hurwitz numbers"
+    papers_count: 2
+  - person: wang-zhiyuan
+    since: 2023
+    topic: "Kac-Schwarz operators"
+    papers_count: 1
+  - person: zhang-qingsheng
+    topic: "spectral curves"
+publications:
+  - id: "2502.09302"
+    title: "The bilinear fermionic form for KP and BKP hierarchies"
+    year: 2025
+    coauthors: [guo-shuai, yang-chenglang]
+  - id: "2407.20010"
+    title: "Schröder Paths, Their Generalizations and Knot Invariants"
+    year: 2024
+    coauthors: [tang-qian, yang-chenglang]
+  - id: "2309.12271"
+    title: "A generalization of the Witten conjecture through spectral curve"
+    year: 2023
+    coauthors: [guo-shuai, zhang-qingsheng]
+  - id: "2211.08687"
+    title: "Kac-Schwarz Operators of Type B, Quantum Spectral Curves, and Spin Hurwitz Numbers"
+    year: 2022
+    coauthors: [wang-zhiyuan, yang-chenglang]
+activity:
+  total_papers: 4
+  active_period: "2022-present"
+external_ids: {}
+links:
+  homepage: "https://mathephor-ceji.github.io/"
+personal_notes: |
+  郭帅的博士生 (PKU 2024)，现在张友金组做水木博后。
+  这个位置使他成为 "周坚/郭帅 cluster" 和 "张友金/刘思齐 cluster" 之间的桥梁。
+  与杨成浪、王知远、张庆生形成活跃的青年合作网络。
+tags:
+  - important-person
+  - tsinghua
+  - bridge-node

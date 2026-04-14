@@ -1,0 +1,42 @@
+slug: sissa
+name:
+  en: "International School for Advanced Studies (SISSA)"
+  zh: "国际高等研究院"
+  local: "Scuola Internazionale Superiore di Studi Avanzati"
+type: research-institute
+country: Italy
+city: Trieste
+location:
+  lat: 45.6495
+  lng: 13.7768
+founded: 1978
+url: "https://www.sissa.it/"
+relevance: high
+research_groups:
+  - name: "Mathematical Physics"
+    topics:
+      - integrable-systems
+      - frobenius-manifolds
+      - random-matrices
+    current_members:
+      - guzzetti
+    past_members:
+      - dubrovin
+      - cotti
+      - mazzocco
+      - grava
+      - bertola
+      - brini
+      - cafasso
+      - carlet
+      - lorenzoni
+events:
+  - year: 1993
+    description: "Dubrovin 加入，建立 Frobenius 流形研究中心"
+  - year: 2019
+    description: "Dubrovin 去世"
+  - year: 2020
+    description: "设立 Boris Dubrovin Medal"
+notes: |
+  Dubrovin 1993-2019 年间在此培养了整个 Frobenius 流形学派。
+  Dubrovin Medal 每两年颁发一次，表彰数学物理杰出年轻研究者。

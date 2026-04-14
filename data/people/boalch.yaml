@@ -1,0 +1,183 @@
+slug: boalch
+name:
+  en: Philip Boalch
+  zh: null
+born: 1973
+died: null
+nationality: British
+gender: male
+photo_url: null
+career_timeline:
+  - period: "~1995-1999"
+    type: education
+    institution: oxford
+    role: "博士"
+    advisor: hitchin
+    notes: "1999年获博士学位, 论文: Symplectic Geometry and Isomonodromic Deformations"
+  - period: "~2000-2013"
+    type: position
+    institution: ens-paris
+    role: "CNRS, Department of Mathematics (DMA), ENS Paris"
+  - period: "2012"
+    type: award
+    title: "Habilitation (HDR), Université Paris 11-Orsay"
+  - period: "2013-present"
+    type: position
+    institution: imj-prg
+    role: "Directeur de Recherche CNRS"
+    notes: "IMJ-PRG, Université Paris Cité"
+research_areas:
+  - stokes-phenomenon
+  - isomonodromy
+  - wild-character-varieties
+  - poisson-geometry
+  - frobenius-manifolds
+advisor: hitchin
+students: []
+key_collaborators: []
+publications:
+  - id: "2410.23358"
+    title: "Counting the fission trees and nonabelian Hodge graphs (untwisted case)"
+    year: 2024
+    coauthors: []
+  - id: "2301.09067"
+    title: "Polystability of Stokes representations and differential Galois groups"
+    year: 2023
+    coauthors: ["Daisuke Yamakawa"]
+  - id: "2209.12695"
+    title: "Twisted local wild mapping class groups: configuration spaces, fission trees and complex braids"
+    year: 2022
+    coauthors: ["Jean Douçot", "Gabriele Rembado"]
+  - id: "2002.00052"
+    title: "Symplectic Manifolds and Isomonodromic Deformations"
+    year: 2020
+    coauthors: []
+  - id: "1907.11149"
+    title: "Diagrams for nonabelian Hodge spaces on the affine line"
+    year: 2019
+    coauthors: ["Daisuke Yamakawa"]
+  - id: "1903.12612"
+    title: "Topology of the Stokes phenomenon"
+    year: 2019
+    coauthors: []
+  - id: "1703.10376"
+    title: "Wild character varieties, meromorphic Hitchin systems and Dynkin diagrams"
+    year: 2017
+    coauthors: []
+  - id: "1512.08091"
+    title: "Twisted wild character varieties"
+    year: 2015
+    coauthors: ["Daisuke Yamakawa"]
+  - id: "1501.00930"
+    title: "Wild Character Varieties, points on the Riemann sphere and Calabi's examples"
+    year: 2015
+    coauthors: []
+  - id: "1309.7202"
+    title: "Poisson varieties from Riemann surfaces"
+    year: 2013
+    coauthors: []
+  - id: "1307.1033"
+    title: "Global Weyl groups and a new theory of multiplicative quiver varieties"
+    year: 2013
+    coauthors: []
+  - id: "1305.6594"
+    title: "Symmetric cubic surfaces and G_2 character varieties"
+    year: 2013
+    coauthors: ["Robert Paluba"]
+  - id: "1305.6593"
+    title: "Geometry of moduli spaces of meromorphic connections on curves, Stokes data, wild nonabelian Hodge theory, hyperkahler manifolds, isomonodromic deformations, Painleve equations, and relations to Lie theory"
+    year: 2013
+    coauthors: []
+  - id: "1305.6465"
+    title: "Through the analytic halo: Fission via irregular singularities"
+    year: 2013
+    coauthors: []
+  - id: "1305.6462"
+    title: "Painleve Equations and Complex Reflections"
+    year: 2013
+    coauthors: []
+  - id: "1203.6607"
+    title: "Hyperkahler manifolds and nonabelian Hodge theory of (irregular) curves"
+    year: 2012
+    coauthors: []
+  - id: "1107.0874"
+    title: "Simply-laced isomonodromy systems"
+    year: 2011
+    coauthors: []
+  - id: "1003.3177"
+    title: "Riemann-Hilbert for tame complex parahoric connections"
+    year: 2010
+    coauthors: []
+  - id: "0806.1050"
+    title: "Irregular connections and Kac-Moody root systems"
+    year: 2008
+    coauthors: []
+  - id: "0707.3375"
+    title: "Towards a nonlinear Schwarz's list"
+    year: 2007
+    coauthors: []
+  - id: "0706.2634"
+    title: "Quivers and difference Painleve equations"
+    year: 2007
+    coauthors: []
+  - id: "0603398"
+    title: "Regge and Okamoto symmetries"
+    year: 2006
+    coauthors: []
+  - id: "0506407"
+    title: "Higher genus icosahedral Painleve curves"
+    year: 2005
+    coauthors: []
+  - id: "0503043"
+    title: "Six results on Painleve VI"
+    year: 2005
+    coauthors: []
+  - id: "0501464"
+    title: "Some explicit solutions to the Riemann-Hilbert problem"
+    year: 2005
+    coauthors: []
+  - id: "0406281"
+    title: "The fifty-two icosahedral solutions to Painleve VI"
+    year: 2004
+    coauthors: []
+  - id: "0308221"
+    title: "From Klein to Painleve via Fourier, Laplace and Jimbo"
+    year: 2003
+    coauthors: []
+  - id: "0203161"
+    title: "Quasi-Hamiltonian Geometry of Meromorphic Connections"
+    year: 2002
+    coauthors: []
+  - id: "0111098"
+    title: "Wild nonabelian Hodge theory on curves"
+    year: 2001
+    coauthors: ["Olivier Biquard"]
+  - id: "0108152"
+    title: "G-bundles, isomonodromy and quantum Weyl groups"
+    year: 2001
+    coauthors: []
+  - id: "0011062"
+    title: "Stokes Matrices and Poisson Lie Groups"
+    year: 2000
+    coauthors: []
+activity:
+  total_papers: 31
+  h_index: 19
+  active_period: "1999-present"
+  phd_students: 4
+external_ids:
+  openalex: "A5034031530"
+  mathgenealogy: "49517"
+links:
+  homepage: "https://webusers.imj-prg.fr/~philip.boalch/"
+personal_notes: |
+  Stokes phenomenon 和 wild character varieties 方向核心人物。
+  与 Dubrovin 仅 1 篇合作论文，但主题高度相关。
+  与 Sabbah 在 Paris 但基本独立研究。
+sources:
+  - label: "Math Genealogy"
+    url: "https://www.mathgenealogy.org/id.php?id=49517"
+  - label: "OpenAlex"
+    url: "https://openalex.org/authors/A5034031530"
+tags:
+  - french-school

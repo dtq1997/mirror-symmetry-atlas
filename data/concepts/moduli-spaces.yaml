@@ -1,0 +1,24 @@
+slug: moduli-spaces
+name:
+  en: Moduli Spaces
+  zh: 模空间
+aliases:
+  - moduli of curves
+  - $\overline{M}_{g,n}$
+category: geometric-structure
+difficulty: advanced
+discipline: math
+year_introduced: null
+introduced_by: []
+definition: |
+  参数化几何对象（曲线、丛、层等）的等价类的空间。Deligne-Mumford 稳定曲线模空间
+  $\overline{M}_{g,n}$ 是 GW 理论和交叉数理论的核心。
+dual_to: null
+prerequisites: []
+leads_to:
+  - gromov-witten-theory
+related:
+  - integrable-hierarchy
+key_people: [kontsevich]
+key_papers: []
+tags: []

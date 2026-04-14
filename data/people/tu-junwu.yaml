@@ -1,0 +1,163 @@
+slug: tu-junwu
+name:
+  en: Junwu Tu
+  zh: 涂君武
+born: null
+died: null
+nationality: Chinese
+gender: male
+photo_url: null
+career_timeline:
+  - period: "2001-2005"
+    type: education
+    institution: nanjing
+    role: "本科, 南京大学"
+  - period: "2005-2011"
+    type: education
+    institution: wisconsin-madison
+    role: "PhD"
+    advisor: caldararu
+    notes: "University of Wisconsin-Madison, advisor: Andrei Caldararu"
+  - period: "2011-2014"
+    type: position
+    institution: oregon
+    role: "博士后"
+    notes: "University of Oregon"
+  - period: "2014-2018"
+    type: position
+    institution: missouri
+    role: "Assistant Professor"
+    notes: "University of Missouri"
+  - period: "2018-present"
+    type: position
+    institution: shanghaitech
+    role: "教授, 助理所长"
+    notes: "上海科技大学数学科学研究所"
+research_areas:
+  - mirror-symmetry
+  - calabi-yau
+  - derived-categories
+  - categorical-enumerative-invariants
+  - a-infinity-algebras
+  - landau-ginzburg
+advisor: caldararu
+students: []
+key_collaborators: []
+publications:
+  - id: "2511.09264"
+    title: "On a theorem of Keller over a base ring"
+    year: 2025
+    coauthors: ["Zhihang Chen"]
+  - id: "2404.13805"
+    title: "A remark on the B-model Comparison of Hodge structures"
+    year: 2024
+    coauthors: []
+  - id: "2404.01499"
+    title: "Effective Categorical Enumerative Invariants"
+    year: 2024
+    coauthors: ["Andrei Caldararu"]
+  - id: "2209.02744"
+    title: "On the Morita invariance of Categorical Enumerative Invariants"
+    year: 2022
+    coauthors: ["Lino Amorim"]
+  - id: "2103.01383"
+    title: "Categorical enumerative invariants of the ground field"
+    year: 2021
+    coauthors: []
+  - id: "2009.06673"
+    title: "Categorical Enumerative Invariants, I: String vertices"
+    year: 2020
+    coauthors: ["Andrei Caldararu", "Kevin Costello"]
+  - id: "2009.06659"
+    title: "Categorical Enumerative Invariants, II: Givental formula"
+    year: 2020
+    coauthors: ["Andrei Caldararu"]
+  - id: "2008.01747"
+    title: "The inverse function theorem for curved L-infinity spaces"
+    year: 2020
+    coauthors: ["Lino Amorim"]
+  - id: "1910.00037"
+    title: "Categorical Saito theory, II: Landau-Ginzburg orbifolds"
+    year: 2019
+    coauthors: []
+  - id: "1909.05319"
+    title: "Categorical primitive forms of Calabi-Yau $A_\\infty$-categories with semi-simple cohomology"
+    year: 2019
+    coauthors: ["Lino Amorim"]
+  - id: "1903.02107"
+    title: "The Bogomolov-Tian-Todorov Theorem Of Cyclic $A_\\infty$-Algebras"
+    year: 2019
+    coauthors: []
+  - id: "1902.04596"
+    title: "Categorical Saito theory, I: A comparison result"
+    year: 2019
+    coauthors: []
+  - id: "1810.05179"
+    title: "Categorical primitive forms and Gromov-Witten invariants of $A_n$ singularities"
+    year: 2018
+    coauthors: ["Andrei Caldararu", "Si Li"]
+  - id: "1706.09912"
+    title: "Computing a categorical Gromov-Witten invariant"
+    year: 2017
+    coauthors: ["Andrei Caldararu"]
+  - id: "1602.00150"
+    title: "Homotopy L-infinity spaces and Kuranishi manifolds, I: categorical structures"
+    year: 2016
+    coauthors: []
+  - id: "1512.02322"
+    title: "Casson invariants via virtual counting"
+    year: 2015
+    coauthors: []
+  - id: "1411.5115"
+    title: "Homotopy L-infinity spaces"
+    year: 2014
+    coauthors: []
+  - id: "1311.4073"
+    title: "Tensor product of cyclic A$_\\infty$-algebras and their Kontsevich classes"
+    year: 2013
+    coauthors: ["Lino Amorim"]
+  - id: "1308.4244"
+    title: "DG-resolutions of NC-smooth thickenings and NC-Fourier-Mukai transforms"
+    year: 2013
+    coauthors: ["Alexander Polishchuk"]
+  - id: "1306.5260"
+    title: "On the Lie algebroid of a derived self-intersection"
+    year: 2013
+    coauthors: ["Damien Calaque", "Andrei Caldararu"]
+  - id: "1208.5912"
+    title: "On the reconstruction problem in mirror symmetry"
+    year: 2012
+    coauthors: []
+  - id: "1201.6454"
+    title: "Homological mirror symmetry and Fourier-Mukai transform"
+    year: 2012
+    coauthors: []
+  - id: "1010.0985"
+    title: "PBW for an inclusion of Lie algebras"
+    year: 2010
+    coauthors: ["Damien Calaque", "Andrei Caldararu"]
+  - id: "1009.4151"
+    title: "Matrix factorizations via Koszul duality"
+    year: 2010
+    coauthors: []
+  - id: "1007.2679"
+    title: "Curved A-infinity algebras and Landau-Ginzburg models"
+    year: 2010
+    coauthors: ["Andrei Caldararu"]
+activity:
+  total_papers: 25
+  active_period: "2011-present"
+external_ids:
+  mathgenealogy: "162944"
+links: {}
+personal_notes: |
+  上海科技大学。PhD at Wisconsin-Madison under Andrei Caldararu.
+  2026 HUST 会议报告: B-model categorical enumerative invariants and the holomorphic anomaly equation
+  研究 CY threefold 上导出范畴的 enumerative invariants，BCOV holomorphic anomaly equation。
+  Categorical enumerative invariants (CEI) 是其核心方向，与 Caldararu 共同发展。
+sources:
+  - label: "Math Genealogy"
+    url: "https://www.mathgenealogy.org/id.php?id=162944"
+  - label: "ShanghaiTech IMS"
+    url: "https://ims.shanghaitech.edu.cn/2018/1110/c4741a35982/page.htm"
+tags: []

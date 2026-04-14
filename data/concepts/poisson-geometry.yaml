@@ -1,0 +1,25 @@
+slug: poisson-geometry
+name:
+  en: Poisson Geometry
+  zh: Poisson 几何
+aliases:
+  - Poisson manifolds
+  - Poisson-Lie groups
+category: geometric-structure
+difficulty: intermediate
+discipline: math
+year_introduced: null
+introduced_by: []
+definition: |
+  研究配备满足 Jacobi 恒等式的 Poisson 括号 $\{f,g\}$ 的光滑流形。
+  Poisson-Lie 群同时携带相容的群结构。
+dual_to: null
+prerequisites: []
+leads_to:
+  - quantum-groups
+related:
+  - stokes-phenomenon
+  - frobenius-manifold
+key_people: [xu-xiaomeng, alekseev, boalch]
+key_papers: []
+tags: []

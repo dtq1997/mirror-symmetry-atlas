@@ -1,0 +1,61 @@
+slug: novikov-sergei
+name:
+  en: Sergei Novikov
+  zh: 诺维科夫
+born: 1938
+died: 2024
+nationality: Russian
+gender: male
+photo_url: null
+career_timeline:
+  - period: "1955-1960"
+    type: education
+    institution: moscow-state
+    role: "本科 + 研究生"
+  - period: "1960-2024"
+    type: position
+    institution: moscow-state
+    role: "教授"
+  - period: "1970"
+    type: award
+    title: "Fields Medal"
+    notes: "For work in algebraic topology"
+  - period: "1971-2024"
+    type: position
+    institution: steklov
+    role: "部门负责人"
+  - period: "1996-2024"
+    type: position
+    institution: maryland
+    role: "Distinguished Professor"
+    notes: "University of Maryland, College Park"
+research_areas:
+  - algebraic-topology
+  - integrable-systems
+  - mathematical-physics
+advisor: null
+students:
+  - dubrovin
+key_collaborators: []
+activity:
+  total_papers: 300  # combined from 2 OpenAlex profiles, approximate
+  h_index: 28
+  phd_students: 30
+  academic_descendants: 200
+  active_period: "1960-2024"
+  peak_period: "1965-2000"
+external_ids:
+  openalex: "A5042142378"
+  mathgenealogy: "44135"
+links: {}
+personal_notes: |
+  Fields Medal 1970. 代数拓扑和可积系统的巨匠。
+  Dubrovin 的导师。2024年去世。
+sources:
+  - label: "Math Genealogy"
+    url: "https://www.mathgenealogy.org/id.php?id=44135"
+  - label: "OpenAlex"
+    url: "https://openalex.org/authors/A5042142378"
+tags:
+  - moscow-school
+  - fields-medalist

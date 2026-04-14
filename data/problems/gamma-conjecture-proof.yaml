@@ -1,0 +1,29 @@
+slug: gamma-conjecture-proof
+name:
+  en: "Gamma Conjecture II for general Fano manifolds"
+  zh: "一般 Fano 流形的 Gamma 猜想 II"
+status: open
+importance: major
+year_proposed: 2016
+proposed_by: []
+description: |
+  对一般 Fano 流形证明 Gamma 猜想 II：semisimple 量子上同调的
+  Dubrovin connection 的渐近展开与导出范畴的 full exceptional collection 对应。
+  已在 del Pezzo surface (柯华忠 2026)、Grassmannians 等特殊情形验证。
+prerequisites: [gamma-conjecture, quantum-cohomology, derived-category, stokes-phenomenon]
+related_problems: [hms-general-cy]
+key_people: [cotti, guzzetti, ke-huazhong]
+progress:
+  - date: "2016"
+    description: "Galkin-Golyshev-Iritani 提出猜想"
+    papers: ["1404.6407"]
+  - date: "2018"
+    description: "Cotti-Dubrovin-Guzzetti: helix structures, Refined Dubrovin Conjecture"
+    papers: ["1508.00719"]
+  - date: "2026"
+    description: "柯华忠: del Pezzo surface 情形 via Gamma-I"
+    papers: []
+current_approaches:
+  - "Via Gamma-I (柯华忠的方法)"
+  - "Reflection vectors (Cruz Morales-Milanov)"
+notes: "2026 HUST 会议上柯华忠有相关报告"

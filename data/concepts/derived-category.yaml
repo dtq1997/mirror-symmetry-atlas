@@ -1,0 +1,24 @@
+slug: derived-category
+name:
+  en: Derived Category
+  zh: 导出范畴
+aliases:
+  - bounded derived category
+  - $D^b(\mathrm{Coh})$
+category: algebraic-structure
+difficulty: advanced
+discipline: math
+year_introduced: 1967
+introduced_by: []
+definition: |
+  代数簇 $X$ 上凝聚层的有界导出范畴 $D^b\mathrm{Coh}(X)$。是同调镜像对称和
+  exceptional collection 研究的核心对象。
+dual_to: fukaya-category
+prerequisites: []
+leads_to:
+  - homological-mirror-symmetry
+  - gamma-conjecture
+related: []
+key_people: [kontsevich, cotti]
+key_papers: []
+tags: []

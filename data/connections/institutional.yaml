@@ -1,0 +1,119 @@
+edges:
+  - source: dubrovin
+    target: guzzetti
+    type: institutional
+    institution: sissa
+    period: "1996-2019"
+  - source: dubrovin
+    target: cotti
+    type: institutional
+    institution: sissa
+    period: "2013-2017"
+  - source: dubrovin
+    target: mazzocco
+    type: institutional
+    institution: sissa
+    period: "1994-1998"
+  - source: zhang-youjin
+    target: liu-siqi
+    type: institutional
+    institution: tsinghua
+    period: "2000-present"
+  - source: tang-qian
+    target: zhang-youjin
+    type: institutional
+    institution: tsinghua
+    period: "2023-present"
+  - source: tang-qian
+    target: liu-siqi
+    type: institutional
+    institution: tsinghua
+    period: "2023-present"
+  - source: xu-xiaomeng
+    target: tang-qian
+    type: institutional
+    institution: pku-bicmr
+    period: "2019-2023"
+  - source: xu-xiaomeng
+    target: alekseev
+    type: institutional
+    institution: geneva
+    period: "2010-2016"
+  - source: hertling
+    target: k-saito
+    type: institutional
+    institution: bonn
+    period: "~1988"
+    notes: "同门 (Brieskorn students), 不一定同时在 Bonn"
+  # === 时空共处分析发现的隐藏关系 ===
+  - source: zhang-youjin
+    target: dubrovin
+    type: institutional
+    institution: sissa
+    period: "1996-1998"
+    notes: "张友金 SISSA 博后期间与 Dubrovin 同事，合作由此开始"
+  - source: zhang-youjin
+    target: mazzocco
+    type: institutional
+    institution: sissa
+    period: "1996-1998"
+    notes: "同时在 SISSA (Mazzocco 读博, 张友金博后)"
+  - source: zhang-youjin
+    target: guzzetti
+    type: institutional
+    institution: sissa
+    period: "1996-1998"
+    notes: "同时在 SISSA"
+  - source: guzzetti
+    target: k-saito
+    type: institutional
+    institution: rims-kyoto
+    period: "2001-2008"
+    notes: "Guzzetti 做博后时与 K. Saito 在 RIMS 重叠 7 年"
+  - source: zhang-youjin
+    target: zhou-jian
+    type: institutional
+    institution: tsinghua
+    period: "2000-present"
+    notes: "同系 26 年但合著为零——平行独立运作"
+  - source: cotti
+    target: mazzocco
+    type: institutional
+    institution: birmingham
+    period: "2019-2020"
+    notes: "Cotti 在 Mazzocco 组做博后"
+  - source: cotti
+    target: manin-yuri
+    type: institutional
+    institution: mpim-bonn
+    period: "2017-2019"
+    notes: "Cotti 在 MPI Bonn 做博后，Manin 为 mentor"
+  # === PKU/BICMR 超级交汇 ===
+  - source: xu-xiaomeng
+    target: liu-xiaobo
+    type: institutional
+    institution: pku-bicmr
+    period: "2019-present"
+    notes: "同在 BICMR"
+  - source: xu-xiaomeng
+    target: guo-shuai
+    type: institutional
+    institution: pku-bicmr
+    period: "2019-present"
+  - source: xu-xiaomeng
+    target: fang-bohan
+    type: institutional
+    institution: pku-bicmr
+    period: "2020-present"
+  - source: tang-qian
+    target: ji-ce
+    type: institutional
+    institution: tsinghua
+    period: "2024-present"
+    notes: "同在清华：唐乾博后, 季策水木博后"
+  # === USTC ===
+  - source: yang-di
+    target: zhou-chunhui
+    type: institutional
+    institution: ustc
+    period: "2020-present"

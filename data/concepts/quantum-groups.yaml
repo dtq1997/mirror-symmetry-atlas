@@ -1,0 +1,32 @@
+slug: quantum-groups
+name:
+  en: Quantum Groups
+  zh: 量子群
+aliases:
+  - quantized enveloping algebras
+  - Yangians
+category: algebraic-structure
+difficulty: advanced
+discipline: math
+year_introduced: 1985
+introduced_by: []
+definition: |
+  Lie 代数的泛包络代数的 Hopf 代数形变。包括 Drinfeld-Jimbo 量子群
+  $U_q(\mathfrak{g})$ 和 Yangian $Y(\mathfrak{g})$。通过亚纯联络的
+  Stokes 矩阵与 Stokes 现象相联系。
+dual_to: null
+prerequisites: []
+leads_to:
+  - stokes-phenomenon
+related:
+  - poisson-geometry
+  - frobenius-manifold
+  - isomonodromy
+key_people: [xu-xiaomeng, alekseev, tang-qian]
+key_papers: []
+contributions:
+  - person: xu-xiaomeng
+    role: major
+    description: "2017 年建立 Frobenius 流形与量子群的联系"
+tags:
+  - layer-4

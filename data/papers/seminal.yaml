@@ -1,0 +1,179 @@
+papers:
+  # === 第一层：Frobenius 流形基础 ===
+  - arxiv_id: "hep-th/9407018"
+    title: "Geometry of 2D topological field theories"
+    authors: [dubrovin]
+    authors_raw: ["Boris Dubrovin"]
+    year: 1996
+    journal: "LNM 1620, Springer"
+    type: lecture_notes
+    discipline: math
+    categories: [hep-th, math-ph]
+    concepts: [frobenius-manifold, wdvv-equations, flat-connection, integrable-hierarchy]
+    importance: seminal
+    notes: "229 页，Frobenius 流形理论的圣经级参考"
+    source: manual
+    last_verified: "2026-04-14"
+
+  - arxiv_id: null
+    doi: null
+    title: "Geometry and Analytic Theory of Frobenius Manifolds"
+    authors: [dubrovin]
+    authors_raw: ["Boris Dubrovin"]
+    year: 1998
+    journal: "Proceedings ICM Berlin 1998"
+    type: published
+    discipline: math
+    concepts: [frobenius-manifold, quantum-cohomology]
+    importance: major
+    notes: "ICM 邀请报告，综述性"
+    source: manual
+    last_verified: "2026-04-14"
+
+  - arxiv_id: null
+    doi: null
+    title: "Isomonodromic Deformations and Frobenius Manifolds: an Introduction"
+    authors: [sabbah]
+    authors_raw: ["Claude Sabbah"]
+    year: 2007
+    type: published
+    discipline: math
+    concepts: [frobenius-manifold, isomonodromy, flat-connection]
+    importance: major
+    notes: "教科书"
+    source: manual
+    last_verified: "2026-04-14"
+
+  # === 第二层：WDVV 与可积系统 ===
+  - arxiv_id: null
+    title: "Integrable Systems in Topological Field Theory"
+    authors: [dubrovin]
+    authors_raw: ["Boris Dubrovin"]
+    year: 1992
+    type: published
+    discipline: both
+    concepts: [integrable-hierarchy, topological-field-theory]
+    importance: major
+    source: manual
+
+  - arxiv_id: "math/9905015"
+    title: "Frobenius manifolds and Virasoro constraints"
+    authors: [dubrovin, zhang-youjin]
+    authors_raw: ["Boris Dubrovin", "Youjin Zhang"]
+    year: 1999
+    type: preprint
+    discipline: math
+    concepts: [frobenius-manifold, virasoro-constraints, integrable-hierarchy]
+    importance: major
+    source: manual
+
+  # === 第三层：tt* 与 Stokes ===
+  - arxiv_id: "hep-th/9211097"
+    title: "On Classification of N=2 Supersymmetric Theories"
+    authors: []
+    authors_raw: ["Sergio Cecotti", "Cumrun Vafa"]
+    year: 1993
+    type: published
+    discipline: physics
+    concepts: [tt-star-geometry, stokes-phenomenon]
+    importance: seminal
+    notes: "tt* geometry 奠基"
+    source: manual
+
+  - arxiv_id: null
+    title: "Painlevé transcendents in two-dimensional topological field theory"
+    authors: [dubrovin]
+    authors_raw: ["Boris Dubrovin"]
+    year: 1999
+    type: lecture_notes
+    discipline: math
+    concepts: [painleve-equations, frobenius-manifold, isomonodromy]
+    importance: major
+    notes: "99 页"
+    source: manual
+
+  # === 第四层：Stokes 矩阵与量子群 ===
+  - arxiv_id: "1706.09466"
+    title: "Frobenius Manifolds and Quantum Groups"
+    authors: [xu-xiaomeng]
+    authors_raw: ["Xiaomeng Xu"]
+    year: 2017
+    type: preprint
+    discipline: math
+    concepts: [frobenius-manifold, quantum-groups, stokes-phenomenon]
+    importance: major
+    notes: "两组交叉的关键文献：连接经典 Frobenius 流形与量子群"
+    source: manual
+
+  - arxiv_id: "1706.04808"
+    title: "Isomonodromy deformations at an irregular singularity with coalescing eigenvalues"
+    authors: [cotti, dubrovin, guzzetti]
+    authors_raw: ["Giordano Cotti", "Boris Dubrovin", "Davide Guzzetti"]
+    year: 2019
+    type: published
+    discipline: math
+    concepts: [isomonodromy, stokes-phenomenon, frobenius-manifold]
+    importance: major
+    notes: "85 页，解决 coalescence 问题"
+    source: manual
+
+  # === 第 4.5 层：Gamma 猜想 ===
+  - arxiv_id: "1404.6407"
+    title: "Gamma classes and quantum cohomology of Fano manifolds: Gamma conjectures"
+    authors: []
+    authors_raw: ["Sergey Galkin", "Vasily Golyshev", "Hiroshi Iritani"]
+    year: 2016
+    type: published
+    discipline: math
+    concepts: [gamma-conjecture, quantum-cohomology, frobenius-manifold]
+    importance: seminal
+    notes: "Gamma 猜想 I & II 的原始文献"
+    source: manual
+
+  - arxiv_id: "1508.00719"
+    title: "Helix structures in quantum cohomology of Fano varieties"
+    authors: [cotti, dubrovin, guzzetti]
+    authors_raw: ["Giordano Cotti", "Boris Dubrovin", "Davide Guzzetti"]
+    year: 2018
+    type: published
+    discipline: math
+    concepts: [gamma-conjecture, quantum-cohomology, derived-category]
+    importance: major
+    notes: "Refined Dubrovin Conjecture"
+    source: manual
+
+  # === 第五层：计算与分类 ===
+  - arxiv_id: "math/9904126"
+    title: "Stokes Matrices and Monodromy of the Quantum Cohomology of Projective Spaces"
+    authors: [guzzetti]
+    authors_raw: ["Davide Guzzetti"]
+    year: 1999
+    type: published
+    discipline: math
+    concepts: [stokes-phenomenon, quantum-cohomology, frobenius-manifold]
+    importance: notable
+    source: manual
+
+  # === 镜像对称里程碑 ===
+  - arxiv_id: "alg-geom/9411018"
+    title: "Homological algebra of mirror symmetry"
+    authors: [kontsevich]
+    authors_raw: ["Maxim Kontsevich"]
+    year: 1994
+    type: published
+    discipline: math
+    concepts: [homological-mirror-symmetry, mirror-symmetry, derived-category]
+    importance: seminal
+    notes: "ICM Zurich 1994，提出 HMS 猜想"
+    source: manual
+
+  - arxiv_id: null
+    title: "Monodromy of Certain Painlevé VI Transcendents and Reflection Groups"
+    authors: [dubrovin]
+    authors_raw: ["Boris Dubrovin", "Marta Mazzocco"]
+    year: 2000
+    type: published
+    discipline: math
+    concepts: [painleve-equations, isomonodromy]
+    importance: notable
+    source: manual
