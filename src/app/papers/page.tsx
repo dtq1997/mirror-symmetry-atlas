@@ -2,6 +2,7 @@ import fs from "fs";
 import path from "path";
 import yaml from "js-yaml";
 import Link from "next/link";
+import MathText from "@/components/shared/MathText";
 
 interface NewsEntry {
   id: string;
@@ -16,123 +17,127 @@ interface NewsEntry {
 }
 
 interface NewsFile {
-  fetch_date: string;
-  period_days: number;
-  total_fetched: number;
-  relevant_count: number;
   entries: NewsEntry[];
 }
 
-function loadAllNews(): { date: string; data: NewsFile }[] {
+function loadAllEntries(): NewsEntry[] {
   const newsDir = path.join(process.cwd(), "data", "news");
   if (!fs.existsSync(newsDir)) return [];
-  return fs
-    .readdirSync(newsDir)
-    .filter((f) => f.endsWith(".yaml"))
-    .sort()
-    .reverse()
-    .map((f) => ({
-      date: f.replace(".yaml", ""),
-      data: yaml.load(fs.readFileSync(path.join(newsDir, f), "utf-8")) as NewsFile,
-    }));
+
+  const entries: NewsEntry[] = [];
+  for (const f of fs.readdirSync(newsDir).filter((f) => f.endsWith(".yaml"))) {
+    const data = yaml.load(
+      fs.readFileSync(path.join(newsDir, f), "utf-8")
+    ) as NewsFile;
+    if (data.entries) entries.push(...data.entries);
+  }
+
+  // Deduplicate by id, keep highest relevance_score
+  const byId = new Map<string, NewsEntry>();
+  for (const e of entries) {
+    const existing = byId.get(e.id);
+    if (!existing || e.relevance_score > existing.relevance_score) {
+      byId.set(e.id, e);
+    }
+  }
+
+  // Sort by paper date descending
+  return [...byId.values()].sort((a, b) => b.date.localeCompare(a.date));
 }
 
 export default function PapersPage() {
-  const allNews = loadAllNews();
-  const hasNews = allNews.length > 0 && allNews.some((n) => n.data.entries?.length > 0);
+  const entries = loadAllEntries();
 
   return (
     <div className="max-w-4xl mx-auto px-6 py-10">
       <h1 className="text-2xl font-bold text-[#e8e8f0] mb-2">论文动态</h1>
       <p className="text-[#8888a0] mb-8">
-        arXiv 最新论文，自动匹配领域内人物和概念
+        领域内核心人物的最新论文，读完源码后的中文总结
       </p>
 
-      {!hasNews ? (
+      {entries.length === 0 ? (
         <div className="bg-[#14141f] rounded-xl p-8 border border-[#2a2a3a] text-center">
-          <p className="text-[#8888a0] mb-4">暂无论文动态</p>
-          <p className="text-xs text-[#8888a0]">
-            运行 <code className="text-[#6366f1]">python3 scripts/fetch-arxiv-news.py</code> 获取最新论文
-          </p>
+          <p className="text-[#8888a0]">暂无论文动态</p>
         </div>
       ) : (
-        <div className="space-y-8">
-          {allNews.map(({ date, data }) => {
-            if (!data.entries?.length) return null;
-            return (
-              <section key={date}>
-                <div className="flex items-center justify-between mb-4">
-                  <h2 className="text-lg font-semibold text-[#e8e8f0]">
-                    {date}
-                  </h2>
-                  <span className="text-xs text-[#8888a0]">
-                    {data.relevant_count} / {data.total_fetched} 篇相关
+        <div className="relative">
+          {/* Vertical timeline line */}
+          <div className="absolute left-[59px] top-0 bottom-0 w-px bg-[#2a2a3a]" />
+
+          <div className="space-y-6">
+            {entries.map((entry) => (
+              <div key={entry.id} className="flex gap-4">
+                {/* Date column */}
+                <div className="w-[52px] shrink-0 text-right pt-1">
+                  <span className="text-xs font-mono text-[#6366f1] leading-tight">
+                    {entry.date}
                   </span>
                 </div>
-                <div className="space-y-3">
-                  {data.entries.map((entry) => (
-                    <div
-                      key={entry.id}
-                      className="bg-[#14141f] rounded-lg p-4 border border-[#2a2a3a]"
-                    >
-                      <div className="flex items-start justify-between gap-3">
-                        <div className="min-w-0">
-                          <a
-                            href={`https://arxiv.org/abs/${entry.id}`}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="text-sm text-[#e8e8f0] hover:text-[#6366f1] transition-colors leading-snug font-medium"
-                          >
-                            {entry.title}
-                          </a>
-                          <p className="text-xs text-[#8888a0] mt-1.5">
-                            {entry.summary_zh}
-                          </p>
-                          <div className="flex flex-wrap gap-1 mt-2">
-                            {entry.matched_people?.map((p) => (
-                              <Link
-                                key={p}
-                                href={`/people/${p}`}
-                                className="text-[10px] px-1.5 py-0.5 rounded bg-[#f59e0b]/15 text-[#fbbf24] hover:bg-[#f59e0b]/25"
-                              >
-                                {p}
-                              </Link>
-                            ))}
-                            {entry.matched_concepts?.map((c) => (
-                              <Link
-                                key={c}
-                                href={`/concepts/${c}`}
-                                className="text-[10px] px-1.5 py-0.5 rounded bg-[#6366f1]/15 text-[#818cf8] hover:bg-[#6366f1]/25"
-                              >
-                                {c}
-                              </Link>
-                            ))}
-                          </div>
-                        </div>
-                        <div className="flex flex-col items-end shrink-0 gap-1">
-                          <span className="text-[10px] font-mono text-[#8888a0]">
-                            {entry.id}
-                          </span>
-                          <span className="text-[10px] text-[#8888a0]">
-                            {entry.category}
-                          </span>
-                          <span
-                            className={`text-[10px] px-1.5 py-0.5 rounded ${
-                              entry.relevance_score >= 10
-                                ? "bg-[#f59e0b]/20 text-[#fbbf24]"
-                                : "bg-[#2a2a3a] text-[#8888a0]"
-                            }`}
-                          >
-                            相关度 {entry.relevance_score}
-                          </span>
-                        </div>
-                      </div>
-                    </div>
-                  ))}
+
+                {/* Dot */}
+                <div className="relative pt-2">
+                  <div
+                    className="w-3 h-3 rounded-full relative z-10"
+                    style={{
+                      backgroundColor:
+                        entry.relevance_score >= 15
+                          ? "#f59e0b"
+                          : entry.relevance_score >= 10
+                            ? "#6366f1"
+                            : "#8888a0",
+                    }}
+                  />
                 </div>
-              </section>
-            );
-          })}
+
+                {/* Content */}
+                <div className="flex-1 min-w-0 bg-[#14141f] rounded-lg p-4 border border-[#2a2a3a]">
+                  <div className="flex items-start justify-between gap-3 mb-2">
+                    <a
+                      href={`https://arxiv.org/abs/${entry.id}`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-sm text-[#e8e8f0] hover:text-[#6366f1] transition-colors leading-snug font-medium"
+                    >
+                      {entry.title}
+                    </a>
+                    <span className="text-[10px] font-mono text-[#8888a0] shrink-0">
+                      {entry.id}
+                    </span>
+                  </div>
+
+                  {/* Summary */}
+                  <MathText className="text-xs text-[#e8e8f0]/80 leading-relaxed mb-3">
+                    {entry.summary_zh}
+                  </MathText>
+
+                  {/* Tags */}
+                  <div className="flex flex-wrap gap-1">
+                    {entry.matched_people?.map((p) => (
+                      <Link
+                        key={p}
+                        href={`/people/${p}`}
+                        className="text-[10px] px-1.5 py-0.5 rounded bg-[#f59e0b]/15 text-[#fbbf24] hover:bg-[#f59e0b]/25"
+                      >
+                        {p}
+                      </Link>
+                    ))}
+                    {entry.matched_concepts?.map((c) => (
+                      <Link
+                        key={c}
+                        href={`/concepts/${c}`}
+                        className="text-[10px] px-1.5 py-0.5 rounded bg-[#6366f1]/15 text-[#818cf8] hover:bg-[#6366f1]/25"
+                      >
+                        {c}
+                      </Link>
+                    ))}
+                    <span className="text-[10px] px-1.5 py-0.5 rounded bg-[#2a2a3a] text-[#8888a0]">
+                      {entry.category}
+                    </span>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
         </div>
       )}
     </div>
