@@ -1,0 +1,45 @@
+name: Daily arXiv News
+
+on:
+  schedule:
+    - cron: '0 8 * * *'  # UTC 08:00 = 北京时间 16:00，每天下午跑
+  workflow_dispatch:  # 也支持手动触发
+
+permissions:
+  contents: write
+
+jobs:
+  fetch-news:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install PyYAML
+        run: pip install pyyaml
+
+      - name: Fetch arXiv papers
+        run: python3 scripts/fetch-arxiv-news.py --days 3
+
+      - name: Check for changes
+        id: check
+        run: |
+          if git diff --quiet data/news/; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+          else
+            echo "changed=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Commit and push
+        if: steps.check.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/news/
+          git commit -m "arXiv 动态更新 $(date +%Y-%m-%d)"
+          git push
+
+  # Push to main will automatically trigger the deploy workflow
