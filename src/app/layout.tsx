@@ -26,8 +26,8 @@ const NAV_ITEMS = [
   { href: "/concepts", label: "概念" },
   { href: "/timeline", label: "时间线" },
   { href: "/papers", label: "论文" },
+  { href: "/news", label: "新闻" },
   { href: "/conferences", label: "会议" },
-  { href: "/literature", label: "文献" },
 ];
 
 export default function RootLayout({
