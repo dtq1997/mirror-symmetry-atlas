@@ -1,0 +1,25 @@
+slug: microlocal-sheaf
+name:
+  en: Microlocal Sheaf Theory
+  zh: 微局部层理论
+aliases:
+  - microlocal sheaves
+category: technique
+difficulty: research-frontier
+discipline: math
+year_introduced: 1990
+introduced_by: []
+definition: |
+  研究层在余切丛上的微局部行为（singular support / microsupport）。
+  Kashiwara-Schapira 理论的核心。近年来被用于 HMS 的新证明方法。
+dual_to: null
+prerequisites:
+  - derived-category
+leads_to:
+  - homological-mirror-symmetry
+related:
+  - symplectic-geometry
+  - fukaya-category
+key_people: [fang-bohan]
+key_papers: []
+tags: []

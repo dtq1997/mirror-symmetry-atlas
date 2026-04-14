@@ -84,11 +84,18 @@ function buildEntities(
 
   const text = entry.summary_zh || "";
 
-  // Check all people — match Chinese name or English name in text
+  // Check all people — match zh name, en full name, or en last name
   for (const [slug, p] of people) {
     const zh = p.name?.zh;
     const en = p.name?.en;
-    const matchName = zh && text.includes(zh) ? zh : en && text.includes(en) ? en : null;
+    // Try: Chinese name, full English name, English last name (surname)
+    const enParts = en?.split(" ") || [];
+    const lastName = enParts.length > 1 ? enParts[enParts.length - 1] : null;
+    const matchName =
+      zh && text.includes(zh) ? zh
+      : en && text.includes(en) ? en
+      : lastName && lastName.length > 3 && text.includes(lastName) ? lastName
+      : null;
     if (matchName) {
       const hover = getPersonHover(slug, people);
       entities.push({
@@ -102,11 +109,15 @@ function buildEntities(
     }
   }
 
-  // Check all concepts — match Chinese name or English name
+  // Check all concepts — match zh name, en name, or aliases
   for (const [slug, c] of concepts) {
     const zh = c.name?.zh;
     const en = c.name?.en;
-    const matchName = zh && text.includes(zh) ? zh : en && text.includes(en) ? en : null;
+    const aliases: string[] = c.aliases || [];
+    const allNames = [zh, en, ...aliases].filter(Boolean) as string[];
+    // Find longest matching name in text
+    const sorted = allNames.sort((a, b) => b.length - a.length);
+    const matchName = sorted.find((n) => text.includes(n)) || null;
     if (matchName) {
       const hover = getConceptHover(slug, concepts);
       entities.push({

@@ -1,0 +1,37 @@
+slug: dubrovin-connection
+name:
+  en: Dubrovin Connection
+  zh: Dubrovin 联络
+aliases:
+  - deformed flat connection
+category: geometric-structure
+difficulty: advanced
+discipline: math
+year_introduced: 1994
+introduced_by: [dubrovin]
+definition: |
+  Frobenius 流形上的一族含参数的平坦联络
+  $\nabla_z = \nabla + z^{-1} \mathcal{U}$，其中 $\mathcal{U}$ 由 Euler 向量场和乘法结构决定。
+  其在 $z=0$ 处的不规则奇点的 Stokes 数据编码了量子上同调的渐近信息，
+  是 Gamma 猜想和 Dubrovin 猜想的核心对象。
+dual_to: null
+prerequisites:
+  - frobenius-manifold
+  - flat-connection
+leads_to:
+  - gamma-conjecture
+  - stokes-phenomenon
+related:
+  - isomonodromy
+  - tt-star-geometry
+key_people: [dubrovin, cotti, guzzetti, xu-xiaomeng]
+key_papers: ["hep-th/9407018"]
+contributions:
+  - person: dubrovin
+    role: founder
+    description: "1994 年定义，Frobenius 流形理论的核心构造"
+  - person: xu-xiaomeng
+    role: major
+    description: "连接 Dubrovin 联络的 Stokes 数据与量子群"
+tags:
+  - layer-1

@@ -1,0 +1,25 @@
+slug: tqft
+name:
+  en: Topological Quantum Field Theory
+  zh: 拓扑量子场论
+aliases:
+  - TQFT
+  - 2D TQFT
+category: algebraic-structure
+difficulty: advanced
+discipline: both
+year_introduced: 1988
+introduced_by: []
+definition: |
+  拓扑流形上的量子场论，其配分函数和关联函数只依赖流形的拓扑性质。
+  二维 TQFT 与 Frobenius 代数一一对应。
+dual_to: null
+prerequisites: []
+leads_to:
+  - frobenius-manifold
+  - gromov-witten-theory
+related:
+  - mirror-symmetry
+key_people: []
+key_papers: []
+tags: []

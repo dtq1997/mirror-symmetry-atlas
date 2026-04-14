@@ -1,0 +1,23 @@
+slug: kashiwara-vergne
+name:
+  en: Kashiwara-Vergne Conjecture
+  zh: Kashiwara-Vergne 猜想
+aliases:
+  - KV conjecture
+category: conjecture
+difficulty: research-frontier
+discipline: math
+year_introduced: 1978
+introduced_by: []
+definition: |
+  关于 Lie 群上 BCH（Baker-Campbell-Hausdorff）公式的猜想。
+  2006 年由 Alekseev 和 Meinrenken 证明，与 Drinfeld 结合子和量子群理论深度相关。
+dual_to: null
+prerequisites:
+  - quantum-groups
+leads_to: []
+related:
+  - poisson-geometry
+key_people: [alekseev]
+key_papers: []
+tags: []

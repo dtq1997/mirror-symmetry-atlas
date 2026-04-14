@@ -1,0 +1,25 @@
+slug: crepant-transformation
+name:
+  en: Crepant Transformation Conjecture
+  zh: Crepant 变换猜想
+aliases:
+  - CTC
+  - crepant resolution conjecture
+category: conjecture
+difficulty: research-frontier
+discipline: math
+year_introduced: 2002
+introduced_by: []
+definition: |
+  由 Ruan 提出。断言通过 crepant 变换（保持典范丛不变的双有理变换）相关的两个流形/orbifold
+  的 Gromov-Witten 理论之间存在等价关系。高亏格情形的精确表述是微妙的。
+dual_to: null
+prerequisites:
+  - gromov-witten-theory
+leads_to: []
+related:
+  - mirror-symmetry
+  - calabi-yau
+key_people: [zong-zhengyu, fang-bohan]
+key_papers: []
+tags: []

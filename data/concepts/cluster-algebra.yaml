@@ -1,0 +1,24 @@
+slug: cluster-algebra
+name:
+  en: Cluster Algebra
+  zh: cluster 代数
+aliases:
+  - cluster variables
+category: algebraic-structure
+difficulty: advanced
+discipline: math
+year_introduced: 2002
+introduced_by: []
+definition: |
+  由 Fomin-Zelevinsky 引入的交换代数，通过迭代的"突变"（mutation）过程生成。
+  与 Poisson 几何、Teichmüller 空间、镜像对称和量子群有深层联系。
+dual_to: null
+prerequisites: []
+leads_to: []
+related:
+  - poisson-geometry
+  - quantum-groups
+  - mirror-symmetry
+key_people: [kontsevich, mazzocco]
+key_papers: []
+tags: []

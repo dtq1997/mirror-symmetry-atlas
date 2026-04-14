@@ -1,0 +1,23 @@
+slug: fukaya-category
+name:
+  en: Fukaya Category
+  zh: Fukaya 范畴
+aliases:
+  - derived Fukaya category
+category: algebraic-structure
+difficulty: research-frontier
+discipline: math
+year_introduced: 1993
+introduced_by: []
+definition: |
+  辛流形上的 $A_\infty$ 范畴，对象是 Lagrangian 子流形，态射由 Floer 上同调给出。
+  是同调镜像对称的 A-model 一侧。
+dual_to: derived-category
+prerequisites:
+  - mirror-symmetry
+leads_to:
+  - homological-mirror-symmetry
+related: []
+key_people: [kontsevich]
+key_papers: []
+tags: []

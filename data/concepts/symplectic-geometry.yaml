@@ -1,0 +1,24 @@
+slug: symplectic-geometry
+name:
+  en: Symplectic Geometry
+  zh: 辛几何
+aliases: []
+category: geometric-structure
+difficulty: intermediate
+discipline: math
+year_introduced: null
+introduced_by: []
+definition: |
+  研究配备非退化闭 2-形式 $\omega$（辛形式）的偶数维光滑流形。
+  是经典力学的数学框架，也是镜像对称 A-model 的几何基础。
+dual_to: null
+prerequisites: []
+leads_to:
+  - fukaya-category
+  - mirror-symmetry
+  - poisson-geometry
+related:
+  - gromov-witten-theory
+key_people: []
+key_papers: []
+tags: []
