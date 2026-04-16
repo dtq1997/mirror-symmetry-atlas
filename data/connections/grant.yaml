@@ -1,0 +1,34 @@
+# 基金合作：参与同一 NSFC 项目
+edges:
+  - source: dai-bo
+    target: liu-xiaobo
+    type: grant
+    period: "2015-2019"
+    notes: "NSFC 重点项目：辛拓扑与规范场理论中的数学不变量。刘小博主持，戴波参与"
+  # === 张友金-刘思齐-吴朝中 共享基金 ===
+  - source: zhang-youjin
+    target: liu-siqi
+    type: grant
+    period: "2014-2018"
+    notes: "NSFC 11771238 (Frobenius 流形及相关问题)。张友金主持，刘思齐参与"
+  - source: zhang-youjin
+    target: wu-chaozhong
+    type: grant
+    period: "2019-2023"
+    notes: "NSFC 11831017 (可积系统及相关问题)。张友金主持，吴朝中参与"
+  - source: liu-siqi
+    target: wu-chaozhong
+    type: grant
+    period: "2019-2023"
+    notes: "NSFC 11831017 共同参与（张友金主持）"
+  # === 中山大学 GAGP 团队基金 ===
+  - source: li-changzheng
+    target: ke-huazhong
+    type: grant
+    period: "2020-2024"
+    notes: "NSFC 面上项目合作：Gamma conjecture 相关。中山大学团队"
+  - source: li-changzheng
+    target: he-weiqiang
+    type: grant
+    period: "2020-2024"
+    notes: "中山大学 GW/Gamma 方向团队基金合作"

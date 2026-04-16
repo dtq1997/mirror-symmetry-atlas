@@ -19,6 +19,8 @@ export default function PeopleNetwork({ graphData }: PeopleNetworkProps) {
     "advisor-student": true,
     coauthor: true,
     institutional: true,
+    "co-student": true,
+    grant: true,
   });
   const [showGhosts, setShowGhosts] = useState(true);
   const [timeFilter, setTimeFilter] = useState<number | null>(null);

@@ -231,7 +231,9 @@ export interface ConferenceEvent {
 export type ConnectionType =
   | "advisor-student"
   | "coauthor"
-  | "institutional";
+  | "institutional"
+  | "co-student"
+  | "grant";
 
 export interface Connection {
   source: string;

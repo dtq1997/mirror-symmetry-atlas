@@ -62,6 +62,26 @@ export default function GraphLegend() {
           />
           <span className="text-[#e8e8f0]">同机构</span>
         </div>
+        <div className="flex items-center gap-2">
+          <span
+            className="w-6 h-0.5 inline-block"
+            style={{
+              backgroundImage:
+                "repeating-linear-gradient(90deg, #10b981 0, #10b981 5px, transparent 5px, transparent 8px)",
+            }}
+          />
+          <span className="text-[#e8e8f0]">同门</span>
+        </div>
+        <div className="flex items-center gap-2">
+          <span
+            className="w-6 h-0.5 inline-block"
+            style={{
+              backgroundImage:
+                "repeating-linear-gradient(90deg, #ec4899 0, #ec4899 2px, transparent 2px, transparent 5px)",
+            }}
+          />
+          <span className="text-[#e8e8f0]">基金合作</span>
+        </div>
       </div>
 
       <div className="h-px bg-[#2a2a3a] my-2" />

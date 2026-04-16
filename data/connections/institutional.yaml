@@ -198,9 +198,9 @@ edges:
   - source: li-changzheng
     target: li-qin
     type: institutional
-    institution: cuhk
-    period: "2013-2015"
-    notes: "李勤在 CUHK 做博后时，李长征已离开 (2009)，但共享导师网络 (Naichung Conan Leung)"
+    institution: ustc
+    period: "2001-2003"
+    notes: "USTC 本科同学。李长征(1999-2003)与李勤(2001-2005)重叠2年。后两人共享 CUHK/Leung 学术网络"
   # 何伟强-清华博后
   - source: he-weiqiang
     target: "Si Li"
@@ -214,4 +214,70 @@ edges:
     type: institutional
     institution: sun-yat-sen
     period: "present"
-    notes: "同在中山大学数学学院，何伟强论文与柯华忠共同出现 (blow-up, GW invariants)"
+    notes: "同在中山大学数学学院 GAGP 团队"
+  # 何伟强-李长征-吴朝中 GAGP 团队
+  - source: he-weiqiang
+    target: li-changzheng
+    type: institutional
+    institution: sun-yat-sen
+    period: "present"
+    notes: "同在中山大学 GAGP 团队"
+  - source: he-weiqiang
+    target: wu-chaozhong
+    type: institutional
+    institution: sun-yat-sen
+    period: "present"
+    notes: "同在中山大学 GAGP 团队"
+  # === 清华博士同期重叠（非同门但同系）===
+  - source: wu-chaozhong
+    target: guo-shuai
+    type: institutional
+    institution: tsinghua
+    period: "2002-2010"
+    notes: "清华数学系同期博士生。吴朝中(张友金门下)与郭帅(周坚门下)高度重叠8年"
+  - source: wu-chaozhong
+    target: ke-huazhong
+    type: institutional
+    institution: tsinghua
+    period: "2008-2010"
+    notes: "清华数学系同期博士生。吴朝中与柯华忠重叠2年"
+  - source: yang-di
+    target: guo-shuai
+    type: institutional
+    institution: tsinghua
+    period: "2004-2011"
+    notes: "清华数学系同期。杨迪与郭帅重叠7年"
+  - source: yang-di
+    target: ke-huazhong
+    type: institutional
+    institution: tsinghua
+    period: "2008-2013"
+    notes: "清华数学系同期博士生。完全重叠5年"
+  # Cotti-杨迪 MPIM-Bonn 重叠
+  - source: cotti
+    target: yang-di
+    type: institutional
+    institution: mpim-bonn
+    period: "2017-2018"
+    notes: "两人先后从 SISSA 去 MPIM 做博后，在 Bonn 重叠1年"
+  # 戴波-郭帅 北大同事
+  - source: dai-bo
+    target: guo-shuai
+    type: institutional
+    institution: pku
+    period: "2011-present"
+    notes: "同在北大数学科学学院超过15年"
+  # 戴波-方博汉 北大同事
+  - source: dai-bo
+    target: fang-bohan
+    type: institutional
+    institution: pku
+    period: "2015-present"
+    notes: "同在北大"
+  # 戴波-徐晓濛 北大
+  - source: dai-bo
+    target: xu-xiaomeng
+    type: institutional
+    institution: pku-bicmr
+    period: "2019-present"
+    notes: "同在北大/BICMR"

@@ -1,0 +1,65 @@
+# 同门关系：同一导师的学生之间
+edges:
+  # === 张友金门下 ===
+  - source: yang-di
+    target: wu-chaozhong
+    type: co-student
+    period: "2005-2010"
+    notes: "张友金门下。杨迪(2008-2013博士)与吴朝中(2005-2010博士)在清华同门5年"
+  # === 刘小博门下 ===
+  - source: yang-chenglang
+    target: wang-xin
+    type: co-student
+    notes: "刘小博门下。杨成浪(2018-2023博士)、王新(2010-2015博士)、邬龙挺(~2012-2017博士)"
+  - source: yang-chenglang
+    target: wu-longting
+    type: co-student
+    notes: "刘小博门下"
+  - source: wang-xin
+    target: wu-longting
+    type: co-student
+    period: "2012-2015"
+    notes: "刘小博门下。在北大同时读博3年(2012-2015)"
+  # === 周坚门下 ===
+  - source: guo-shuai
+    target: ke-huazhong
+    type: co-student
+    period: "2008-2011"
+    notes: "周坚门下。郭帅(2002-2011博士)与柯华忠(2008-2013博士)在清华同门3年"
+  - source: guo-shuai
+    target: wang-zhiyuan
+    type: co-student
+    notes: "周坚门下。MGP 确认"
+  # === Naichung Conan Leung 门下 (CUHK) ===
+  - source: li-changzheng
+    target: "Kwokwai Chan"
+    type: co-student
+    period: "2005-2008"
+    notes: "梁乃聪门下。李长征(2005-2009 PhD)与陈国威(2004-2008 PhD)在CUHK同门3年。陈国威后与李勤合作8篇"
+  # === 清华同期博士生 ===
+  - source: wu-chaozhong
+    target: guo-shuai
+    type: co-student
+    period: "2002-2010"
+    notes: "清华同期。吴朝中(张友金门下)与郭帅(周坚门下)在清华读博时间高度重叠"
+  - source: yang-di
+    target: guo-shuai
+    type: co-student
+    period: "2004-2011"
+    notes: "清华同期。杨迪(张友金门下)与郭帅(周坚门下)"
+  - source: yang-di
+    target: ke-huazhong
+    type: co-student
+    period: "2008-2013"
+    notes: "清华同期博士。杨迪(张友金门下)与柯华忠(周坚门下)完全重叠5年"
+  - source: wang-zhiyuan
+    target: zhang-qingsheng
+    type: co-student
+    period: "2015-2019"
+    notes: "清华同期博士。王知远(周坚门下)与张庆生(周坚门下[待验证])重叠4年"
+  # === USTC 本科同学 ===
+  - source: li-changzheng
+    target: li-qin
+    type: co-student
+    period: "2001-2003"
+    notes: "USTC 本科同学。李长征(1999-2003)与李勤(2001-2005)重叠2年"
