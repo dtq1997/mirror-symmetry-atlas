@@ -1,0 +1,151 @@
+slug: dai-bo
+name:
+  en: Bo Dai
+  zh: 戴波
+born: null
+died: null
+nationality: Chinese
+gender: male
+photo_url: null
+career_timeline:
+  - period: "~1990-1994"
+    type: education
+    institution: nankai
+    role: "本科, 数学"
+    notes: "南开大学数学系"
+  - period: "1994-1998"
+    type: education
+    institution: nus
+    role: "硕士"
+    notes: "National University of Singapore, 数学系"
+  - period: "1998-2002"
+    type: education
+    institution: nus
+    role: "博士"
+    advisor: null
+    notes: "National University of Singapore, 数学系。导师 [待验证]"
+  - period: "2002-2004"
+    type: position
+    institution: amss-cas
+    role: "博士后"
+    notes: "中国科学院数学与系统科学研究院"
+  - period: "2004-2007"
+    type: position
+    institution: pku
+    role: "讲师"
+    notes: "北京大学数学科学学院"
+  - period: "2007-present"
+    type: position
+    institution: pku
+    role: "副教授"
+    notes: "北京大学数学科学学院数学物理教研室"
+  - period: "2021"
+    type: award
+    title: "北京大学正大教学奖"
+  - period: "2021"
+    type: award
+    title: "教学创新大赛一等奖"
+  - period: "2022"
+    type: award
+    title: "北京市教学名师奖"
+  - period: "2023"
+    type: award
+    title: "国家级教学成果奖一等奖"
+    notes: "参与获奖"
+research_areas:
+  - gauge-theory
+  - integrable-systems
+  - symplectic-geometry
+  - riemannian-geometry
+  - soliton-theory
+  - asdym-equations
+  - vafa-witten-equations
+  - minimal-genus-problem
+advisor: null
+students: []
+key_collaborators:
+  - person: "Chuu-Lian Terng"
+    since: 2004
+    topic: "ASDYM solitons, Ward solitons, Bäcklund transformations, space-time monopole equations"
+    papers_count: 3
+  - person: "Chung-I Ho"
+    since: 2016
+    topic: "最小亏格问题, 4-流形中 Lagrangian 曲面, 辛亏格"
+    papers_count: 4
+  - person: "Tian-Jun Li"
+    since: 2016
+    topic: "4-流形最小亏格, nonorientable Lagrangian 曲面"
+    papers_count: 2
+  - person: "Ren Guan"
+    since: 2022
+    topic: "Vafa-Witten 模空间的横截性"
+    papers_count: 2
+publications:
+  - id: "math/0405363"
+    title: "Bäcklund transformations, Ward solitons, and unitons"
+    year: 2004
+    coauthors: ["Chuu-Lian Terng"]
+    journal: "J. Differential Geometry 75 (2007), 57-108"
+  - id: "math/0602607"
+    title: "On the space-time monopole equation"
+    year: 2006
+    coauthors: ["Chuu-Lian Terng", "Karen Uhlenbeck"]
+    journal: "[待验证]"
+  - id: null
+    title: "A quadrangle comparison theorem and its application to soul theory for Alexandrov spaces"
+    year: 2011
+    coauthors: ["Jianguo Cao", "Jiaqiang Mei"]
+    journal: "Front. Math. China 6 (2011), 35-48"
+    notes: "arXiv ID [待补充]"
+  - id: null
+    title: "Minimal genus for 4-manifolds with b⁺=1"
+    year: 2016
+    coauthors: ["Chung-I Ho", "Tian-Jun Li"]
+    journal: "J. Topology 9 (2016), no.1, 5-26"
+    notes: "arXiv ID [待补充]"
+  - id: null
+    title: "Nonorientable Lagrangian surfaces in rational 4-manifolds"
+    year: 2019
+    coauthors: ["Chung-I Ho", "Tian-Jun Li"]
+    journal: "Algebr. Geom. Topol. 19 (2019), 2837-2854"
+    notes: "arXiv ID [待补充]"
+  - id: null
+    title: "The cohomological genus and symplectic genus for 4-manifolds of rational or ruled types"
+    year: 2021
+    coauthors: ["Chung-I Ho"]
+    journal: "Mathematics 9 (2021), 1563"
+    notes: "MDPI, arXiv ID [待补充]"
+  - id: null
+    title: "Transversality for the full rank part of Vafa-Witten moduli spaces"
+    year: 2022
+    coauthors: ["Ren Guan"]
+    journal: "Comm. Math. Phys. 389 (2022), 1047-1060"
+    notes: "arXiv ID [待补充]"
+  - id: "2505.14702"
+    title: "A simple perturbation of Vafa-Witten equations and a transversality result"
+    year: 2025
+    coauthors: ["Ren Guan"]
+activity:
+  total_papers: 8
+  active_period: "2004-present"
+external_ids: {}
+links:
+  homepage: "https://www.math.pku.edu.cn/jsdw/js_20180628175159671361/d_20180628175159671361/69895.htm"
+  email: "daibo@math.pku.edu.cn"
+personal_notes: |
+  北京大学数学科学学院副教授（非教授），数学物理教研室。
+  南开大学本科(1994) → NUS 硕士(1998) + 博士(2002) → 中科院博后(2002-2004) → 北大讲师(2004) → 北大副教授(2007-)。
+  NUS 博士导师尚未查到，Math Genealogy Project 无此人条目。
+  研究分两条线：(1) 与 Chuu-Lian Terng/Karen Uhlenbeck 合作的 ASDYM/Ward soliton/monopole 方向 (2004-2007)；
+  (2) 与 Chung-I Ho/Tian-Jun Li 合作的 4-流形最小亏格/Lagrangian 曲面方向 (2016-2021)；
+  近年转向 Vafa-Witten 方程横截性问题，与 Ren Guan 合作 (2022-2025)。
+  教学方面获多项教学奖（包括2023年国家级教学成果一等奖）。
+  2026 HUST 会议报告: Soliton solutions of ASDYM equation on R^{2,2} and its reductions.
+  办公室: 1587E。
+sources:
+  - label: "北京大学数学科学学院"
+    url: "https://www.math.pku.edu.cn/jsdw/js_20180628175159671361/d_20180628175159671361/69895.htm"
+  - label: "ResearchGate"
+    url: "https://www.researchgate.net/profile/Bo-Dai-5"
+tags:
+  - pku

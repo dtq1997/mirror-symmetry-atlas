@@ -1,0 +1,124 @@
+slug: wu-longting
+name:
+  en: Longting Wu
+  zh: 邬龙挺
+born: null
+died: null
+nationality: Chinese
+gender: male
+photo_url: null
+career_timeline:
+  - period: "~2012-2017"
+    type: education
+    institution: pku-bicmr
+    role: "博士"
+    advisor: liu-xiaobo
+    notes: "北京大学北京国际数学研究中心 (BICMR)，导师刘小博"
+  - period: "2017-2021"
+    type: position
+    institution: eth-zurich
+    role: "博士后"
+    notes: "ETH Zurich, Rahul Pandharipande 组; 后转 MPI Bonn"
+  - period: "2021.12-present"
+    type: position
+    institution: sustech
+    role: "助理教授 → 副教授"
+    notes: "南方科技大学数学系，杰曼诺夫数学中心。博士生导师"
+research_areas:
+  - gromov-witten-theory
+  - algebraic-geometry
+  - moduli-spaces
+  - enumerative-geometry
+  - bps-invariants
+  - relative-gw-theory
+advisor: liu-xiaobo
+students: []
+key_collaborators:
+  - person: guo-shuai
+    since: 2020
+    topic: "Holomorphic anomaly equation, Poincaré polynomials, sheaves/GW"
+    papers_count: 2
+  - person: "Pierrick Bousseau"
+    since: 2020
+    topic: "Holomorphic anomaly equation, WDVV recursion, BPS invariants"
+    papers_count: 2
+  - person: "Honglu Fan"
+    since: 2017
+    topic: "Relative Gromov-Witten theory, WDVV, DR cycles"
+    papers_count: 4
+  - person: "Fenglong You"
+    since: 2018
+    topic: "Relative Gromov-Witten theory"
+    papers_count: 2
+  - person: "Miguel Moreira"
+    since: 2025
+    topic: "Betti numbers, Poincaré polynomials"
+    papers_count: 1
+  - person: "Ajith Urundolil Kumaran"
+    since: 2021
+    topic: "Operator formalism for GW invariants"
+    papers_count: 1
+publications:
+  - id: "2501.05622"
+    title: "Poincaré polynomials of moduli spaces of one-dimensional sheaves on the projective plane"
+    year: 2025
+    coauthors: [guo-shuai, "Miguel Moreira"]
+  - id: "2303.00503"
+    title: "All-genus WDVV recursion, quivers, and BPS invariants"
+    year: 2023
+    coauthors: ["Pierrick Bousseau"]
+  - id: "2112.09180"
+    title: "A new approach to the operator formalism for Gromov-Witten invariants of the cap and tube"
+    year: 2021
+    coauthors: ["Ajith Urundolil Kumaran"]
+  - id: "2001.05347"
+    title: "Holomorphic anomaly equation for (P^2, E) and the Nekrasov-Shatashvili limit of local P^2"
+    year: 2020
+    coauthors: ["Pierrick Bousseau", "Honglu Fan", guo-shuai]
+  - id: "1907.07133"
+    title: "Higher genus relative Gromov-Witten theory and double ramification cycles"
+    year: 2019
+    coauthors: ["Honglu Fan", "Fenglong You"]
+  - id: "1902.05739"
+    title: "Witten-Dijkgraaf-Verlinde-Verlinde equation and its application to relative Gromov-Witten theory"
+    year: 2019
+    coauthors: ["Honglu Fan"]
+  - id: "1810.06952"
+    title: "Structures in genus-zero relative Gromov-Witten theory"
+    year: 2018
+    coauthors: ["Honglu Fan", "Fenglong You"]
+  - id: "1705.06402"
+    title: "A Remark on Gromov-Witten Invariants of Quintic Threefold"
+    year: 2017
+    coauthors: []
+  - id: "1705.06018"
+    title: "Chamber structure for some equivariant relative Gromov-Witten invariants of P^1 in genus 0"
+    year: 2017
+    coauthors: []
+activity:
+  total_papers: 9
+  active_period: "2017-present"
+external_ids:
+  orcid: "0000-0002-0210-4220"
+links:
+  homepage: "https://longtingwu.github.io/"
+personal_notes: |
+  北大 BICMR 博士（导师刘小博）→ ETH Zurich (Pandharipande 组) 博后 → MPI Bonn → 南科大副教授。
+  GW 理论和枚举几何方向的青年学者。代表作：quintic threefold GW 不变量 (Adv. Math. 2018)；holomorphic anomaly equation for (P^2,E) (Forum Math. Pi 2021)。
+  2026 HUST 会议报告: Poincaré polynomials of moduli spaces of 1-dimensional sheaves on P^2.
+  Joint with Shuai Guo and Miguel Moreira.
+  NSFC 青年基金 B类 (200万, 2026-2028); 国家重点研发 (300万, 2022-2027)。
+  Erdos number: 5.
+  Math Genealogy 上刘小博 (ID 23067) 名下暂未列出其为学生。
+  注意：姓"邬"非"邹"。
+sources:
+  - label: "SUSTech faculty page"
+    url: "https://www.sustech.edu.cn/en/faculties/wulongting.html"
+  - label: "Personal homepage"
+    url: "https://longtingwu.github.io/"
+  - label: "Shenzhen ICM"
+    url: "https://icm.sustech.edu.cn/en/people/faculty/longting-wu-en"
+  - label: "SUSTech math department"
+    url: "https://math.sustech.edu.cn/e/wulongting"
+tags:
+  - sustech

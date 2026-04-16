@@ -1,0 +1,147 @@
+slug: wang-xin
+name:
+  en: Xin Wang
+  zh: 王新
+born: null
+died: null
+nationality: Chinese
+gender: male
+photo_url: null
+career_timeline:
+  - period: "2006-2010"
+    type: education
+    institution: qufu-normal
+    role: "本科, 数学与应用数学"
+    notes: "曲阜师范大学"
+  - period: "2010-2015"
+    type: education
+    institution: pku
+    role: "博士, 基础数学"
+    advisor: liu-xiaobo
+    notes: "北京大学，导师刘小博 (Xiaobo Liu)"
+  - period: "2015-2020"
+    type: position
+    institution: shandong
+    role: "讲师 → 副教授"
+    notes: "山东大学数学学院"
+  - period: "2016-2019"
+    type: position
+    institution: columbia
+    role: "访问学者"
+    notes: "Columbia University, Department of Mathematics"
+  - period: "2020-2025"
+    type: position
+    institution: shandong
+    role: "副教授"
+    notes: "山东大学数学学院"
+  - period: "2026-present"
+    type: position
+    institution: shandong
+    role: "教授 (齐鲁青年学者)"
+    notes: "山东大学数学学院，博士生导师"
+research_areas:
+  - gromov-witten-theory
+  - moduli-spaces
+  - hodge-integrals
+  - tautological-relations
+  - virasoro-constraints
+  - topological-recursion-relations
+  - fjrw-theory
+advisor: liu-xiaobo
+students: []
+key_collaborators:
+  - person: liu-xiaobo
+    since: 2013
+    topic: "G-function, topological recursion relations, GW invariants"
+    papers_count: 3
+    notes: "博士导师"
+  - person: "Felix Janda"
+    since: 2017
+    topic: "Topological recursion relations from Pixton's formula, Hodge integrals"
+    papers_count: 2
+  - person: "Emily Clader"
+    since: 2017
+    topic: "Topological recursion relations from Pixton's formula"
+    papers_count: 1
+  - person: "Dmitry Zakharov"
+    since: 2017
+    topic: "Topological recursion relations"
+    papers_count: 1
+publications:
+  - id: "2506.10033"
+    title: "Virasoro constraints for Hodge integrals"
+    year: 2025
+    coauthors: []
+    notes: "提出 Hodge integrals 的 Virasoro conjecture，证明 genus-0 情形"
+  - id: "2412.05287"
+    title: "Hodge integrals and lambda_g conjecture with target varieties"
+    year: 2024
+    coauthors: []
+    notes: "提出带 target variety 的 lambda_g conjecture，证明 semisimple 和 algebraic curves 情形"
+  - id: "2401.00899"
+    title: "Universal equations for higher genus Gromov-Witten invariants from Hodge integrals"
+    year: 2024
+    coauthors: ["Felix Janda"]
+    notes: "通过 Hodge bundle 的 Chern character 和 Chern classes 建立新的 universal equations"
+  - id: "[待查]"
+    title: "The genus-2 G-function for cubic elliptic orbifold and modularity"
+    year: 2024
+    coauthors: []
+    notes: "[待验证] 证明 cubic elliptic orbifold descendant correlation functions 的 quasi-modularity"
+  - id: "[待查]"
+    title: "Higher genus FJRW theory for Fermat cubic singularity"
+    year: 2021
+    coauthors: []
+    notes: "Acta Math. Sinica 37, 1179-1204。用 Givental formalism 证明 finite generation 和 holomorphic anomaly equation"
+  - id: "1704.02011"
+    title: "Topological recursion relations from Pixton's formula"
+    year: 2017
+    coauthors: ["Emily Clader", "Felix Janda", "Dmitry Zakharov"]
+    notes: "证明 degree-g psi-class polynomial 可表为边界上的 tautological classes，无 kappa-classes"
+  - id: "1608.08854"
+    title: "A genus-4 topological recursion relation for Gromov-Witten invariants"
+    year: 2016
+    coauthors: []
+    notes: "通过 Pixton's relations 给出新的 genus-4 topological recursion relation"
+  - id: "1402.3854"
+    title: "Genus-2 G-function for P^1 orbifolds"
+    year: 2014
+    coauthors: ["Xiaobo Liu"]
+    notes: "与刘小博合作 [待验证: 此 arXiv ID 是否正确]"
+  - id: "1310.2101"
+    title: "Conditions for the vanishing of the genus-2 G-function"
+    year: 2013
+    coauthors: ["Xiaobo Liu"]
+    notes: "与刘小博合作。证明 ADE singularities 的 genus-2 G-function vanishing conjecture (Dubrovin-Liu-Zhang)"
+activity:
+  total_papers: 10
+  active_period: "2013-present"
+  peak_period: "2024-present"
+external_ids: {}
+links:
+  homepage: "https://faculty.sdu.edu.cn/xinwang/zh_CN/index.htm"
+personal_notes: |
+  曲阜师范大学本科 → 北大博士 (刘小博指导，2010-2015) → 山东大学。
+  2016-2019 访问 Columbia。2026 年晋升教授 (齐鲁青年学者)，博士生导师。
+  研究核心：曲线模空间上的 tautological relations 及其在 Gromov-Witten 理论中的应用。
+  主要贡献：
+  (1) Topological recursion relations：从 Pixton's formula 推导 degree-g TRR，
+      证明 genus <= 4 的 Pixton relations 蕴含已知 TRR。与 Clader, Janda, Zakharov 合作。
+  (2) Hodge integrals：建立 Hodge integrals 的 universal equations，
+      提出并部分证明带 target variety 的 Virasoro conjecture 和 lambda_g conjecture。
+  (3) G-function：与刘小博合作证明 ADE singularities 和 P^1 orbifolds of ADE type
+      的 genus-2 G-function vanishing (Dubrovin-Liu-Zhang conjecture)。
+  (4) FJRW theory：证明 Fermat cubic singularity 的 higher genus finite generation
+      和 holomorphic anomaly equation。
+  与刘小博 (导师) 的关系密切，是刘小博在 GW theory 方向的核心学生。
+  NSFC 资助: 11601279, 12071255。
+  2026 HUST 会议报告: Tautological Relations on the Moduli Space of Curves。
+sources:
+  - label: "山东大学主页"
+    url: "https://faculty.sdu.edu.cn/xinwang/zh_CN/index.htm"
+  - label: "科研之友"
+    url: "https://www.scholarmate.com/P/IJzqQb"
+  - label: "ResearchGate"
+    url: "https://www.researchgate.net/profile/Xin-Wang-28"
+tags:
+  - shandong

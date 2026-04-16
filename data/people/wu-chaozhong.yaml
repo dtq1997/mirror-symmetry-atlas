@@ -1,0 +1,194 @@
+slug: wu-chaozhong
+name:
+  en: Chaozhong Wu
+  zh: 吴朝中
+born: null
+died: null
+nationality: Chinese
+gender: male
+photo_url: null
+career_timeline:
+  - period: "2001-2005"
+    type: education
+    institution: tsinghua
+    role: "本科"
+    notes: "清华大学数学科学系"
+  - period: "2005-2010"
+    type: education
+    institution: tsinghua
+    role: "博士"
+    advisor: zhang-youjin
+    notes: "清华大学数学科学系，导师张友金"
+  - period: "2010-2014"
+    type: position
+    institution: sissa
+    role: "博士后, Marie Curie Fellow (INdAM)"
+    notes: "跟随 Dubrovin，研究 Drinfeld-Sokolov hierarchy 和 Frobenius manifold"
+  - period: "2014-present"
+    type: position
+    institution: sun-yat-sen
+    role: "副教授 → 教授"
+    notes: "中山大学数学学院，博士生导师。GAGP 团队成员"
+research_areas:
+  - integrable-hierarchy
+  - tau-function
+  - kp-hierarchy
+  - virasoro-constraints
+  - drinfeld-sokolov-hierarchy
+  - frobenius-manifold
+  - mathematical-physics
+advisor: zhang-youjin
+students: []
+key_collaborators:
+  - person: liu-siqi
+    since: 2007
+    topic: "Drinfeld-Sokolov hierarchies, Hamiltonian structures"
+    papers_count: 4
+  - person: zhang-youjin
+    since: 2007
+    topic: "Drinfeld-Sokolov hierarchies, Virasoro constraints, Painlevé"
+    papers_count: 4
+  - person: "Mattia Cafasso"
+    since: 2014
+    topic: "Tau functions, block Toeplitz determinants, Borodin-Okounkov formula"
+    papers_count: 2
+  - person: "Lumin Geng"
+    since: 2023
+    topic: "KP-mKP hierarchy, reduction properties"
+    papers_count: 3
+  - person: "Dafeng Zuo"
+    since: 2013
+    topic: "Infinite-dimensional Frobenius manifolds"
+    papers_count: 3
+  - person: "Zongyao Feng"
+    since: 2026
+    topic: "KP-mKP hierarchy"
+    papers_count: 1
+  - person: "Xu Zhou"
+    since: 2015
+    topic: "KP extension, diagram automorphisms"
+    papers_count: 2
+  - person: "Liang Chang"
+    since: 2012
+    topic: "CKP hierarchy"
+    papers_count: 1
+  - person: "Jianxun Hu"
+    since: 2023
+    topic: "KP-mKP hierarchy"
+    papers_count: 2
+publications:
+  - id: "2603.01354"
+    title: "Additional symmetries of the KP-mKP hierarchy and Virasoro constraints to the Burgers-KdV hierarchy"
+    year: 2026
+    coauthors: ["Zongyao Feng", "Lumin Geng"]
+  - id: "2501.04984"
+    title: "Reduction properties of the KP-mKP hierarchy"
+    year: 2025
+    coauthors: ["Lumin Geng", "Jianxun Hu"]
+  - id: "2408.07376"
+    title: "Integrable hierarchy for homogeneous realization of the toroidal Lie algebra"
+    year: 2024
+    coauthors: ["Yi Yang"]
+  - id: "2406.08239"
+    title: "Infinite-dimensional Frobenius Manifolds and Extensions of Genus-Zero Whitham Hierarchies"
+    year: 2024
+    coauthors: ["Shilin Ma", "Dafeng Zuo"]
+  - id: "2311.07341"
+    title: "A KP-mKP Hierarchy via Operators with Two Derivations"
+    year: 2023
+    coauthors: ["Lumin Geng", "Jianxun Hu"]
+  - id: "2005.05204"
+    title: "Infinite-dimensional Frobenius Manifolds Underlying the Universal Whitham Hierarchy"
+    year: 2020
+    coauthors: ["Shilin Ma", "Dafeng Zuo"]
+  - id: "1911.12727"
+    title: "Bilinear equation and additional symmetries for an extension of the Kadomtsev-Petviashvili hierarchy"
+    year: 2019
+    coauthors: ["Jiaping Lu"]
+  - id: "1908.06707"
+    title: "Virasoro Constraints for Drinfeld-Sokolov hierarchies and equations of Painlevé type"
+    year: 2019
+    coauthors: [liu-siqi, zhang-youjin]
+  - id: "1811.10137"
+    title: "Drinfeld-Sokolov hierarchies and diagram automorphisms of affine Kac-Moody algebras"
+    year: 2018
+    coauthors: [liu-siqi, zhang-youjin, "Xu Zhou"]
+  - id: "1505.00556"
+    title: "Borodin-Okounkov formula, string equation and topological solutions of Drinfeld-Sokolov hierarchies"
+    year: 2015
+    coauthors: ["Mattia Cafasso"]
+  - id: "1502.04787"
+    title: "An extension of the Kadomtsev-Petviashvili hierarchy and its Hamiltonian structures"
+    year: 2015
+    coauthors: ["Xu Zhou"]
+  - id: "1404.5149"
+    title: "Tau functions and the limit of block Toeplitz determinants"
+    year: 2014
+    coauthors: ["Mattia Cafasso"]
+  - id: "1305.1030"
+    title: "Infinite-dimensional Frobenius Manifolds Underlying the Toda Lattice Hierarchy"
+    year: 2013
+    coauthors: ["Dafeng Zuo"]
+  - id: "1208.1374"
+    title: "Tau function of the CKP hierarchy and non-linearizable Virasoro symmetries"
+    year: 2012
+    coauthors: ["Liang Chang"]
+  - id: "1203.5750"
+    title: "Tau Functions and Virasoro Symmetries for Drinfeld-Sokolov Hierarchies"
+    year: 2012
+    coauthors: []
+  - id: "1112.0246"
+    title: "From Additional Symmetries to Linearization of Virasoro Symmetries"
+    year: 2011
+    coauthors: []
+  - id: "1103.4048"
+    title: "A Class of Infinite-dimensional Frobenius Manifolds and Their Submanifolds"
+    year: 2011
+    coauthors: ["Dingdian Xu"]
+  - id: "1012.5245"
+    title: "R-matrices and Hamiltonian Structures for Certain Lax Equations"
+    year: 2010
+    coauthors: []
+  - id: "1001.4126"
+    title: "Bihamiltonian Structure of the Two-component Kadomtsev-Petviashvili Hierarchy of type B"
+    year: 2010
+    coauthors: ["Dingdian Xu"]
+  - id: "0912.5273"
+    title: "On the Drinfeld-Sokolov Hierarchies of D type"
+    year: 2009
+    coauthors: [liu-siqi, zhang-youjin]
+  - id: "0906.5360"
+    title: "A Remark on Kac-Wakimoto Hierarchies of D-type"
+    year: 2009
+    coauthors: []
+  - id: "0711.2599"
+    title: "On Properties of Hamiltonian Structures for a Class of Evolutionary PDEs"
+    year: 2007
+    coauthors: [liu-siqi, zhang-youjin]
+activity:
+  total_papers: 22
+  active_period: "2007-present"
+external_ids: {}
+links:
+  faculty_page: "http://math.sysu.edu.cn/teacher/565"
+personal_notes: |
+  清华本硕博（导师张友金）→ SISSA 博后（Marie Curie Fellow，跟随 Dubrovin）→ 中山大学教授。
+  与杨迪有平行的学术轨迹（同为张友金学生，同在 SISSA 做博后）。
+  核心方向是可积系统层级的 tau 函数和 Virasoro 对称性。
+  近年主攻 KP-mKP hierarchy（两个导数的伪微分算子框架），以及无穷维 Frobenius 流形。
+  2026 HUST 会议报告: Additional symmetries of the KP-mKP hierarchy and Virasoro constraints to the Burgers-KdV hierarchy，与 Zongyao Feng, Lumin Geng 合作。
+  GAGP 团队（代数几何/辛几何/数学物理）成员。
+  NSFC 青年基金、面上项目支持。
+  在 Adv. Math、IMRN、CMP、JPA、Lett. Math. Phys. 等发表论文。
+  Math Genealogy 上暂无条目。
+sources:
+  - label: "中山大学数学学院教师页"
+    url: "http://math.sysu.edu.cn/teacher/565"
+  - label: "GAGP 团队"
+    url: "https://math.sysu.edu.cn/gagp/people"
+  - label: "华南理工大学学术报告通知"
+    url: "https://www2.scut.edu.cn/math/2015/0925/c10160a242952/page.htm"
+  - label: "arXiv"
+    url: "https://arxiv.org/search/?searchtype=author&query=Chao-Zhong+Wu"
+tags:
+  - sun-yat-sen

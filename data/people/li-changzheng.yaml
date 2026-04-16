@@ -1,0 +1,312 @@
+slug: li-changzheng
+name:
+  en: Changzheng Li
+  zh: 李长征
+born: null
+died: null
+nationality: Chinese
+gender: male
+photo_url: null
+career_timeline:
+  - period: "1999-2003"
+    type: education
+    institution: ustc
+    role: "本科"
+    notes: "中国科学技术大学"
+  - period: "2003-2005"
+    type: education
+    institution: cuhk
+    role: "MPhil"
+    notes: "香港中文大学数学科学研究所"
+  - period: "2005-2009"
+    type: education
+    institution: cuhk
+    role: "PhD"
+    advisor: "Naichung Conan Leung"
+    notes: "香港中文大学，导师梁乃聪。论文: Quantum cohomology of homogeneous varieties"
+  - period: "2009-2011"
+    type: position
+    institution: kias
+    role: "博士后"
+    notes: "韩国高等研究院 (KIAS)，mentor: Bumsig Kim"
+  - period: "2011-2014"
+    type: position
+    institution: kavli-ipmu
+    role: "博士后"
+    notes: "Kavli IPMU, 东京大学"
+  - period: "2014-2016"
+    type: position
+    institution: ibs-cgp
+    role: "Tenure-track 研究员"
+    notes: "韩国基础科学研究所几何物理中心 (IBS-CGP), POSTECH campus"
+  - period: "2016-present"
+    type: position
+    institution: sun-yat-sen
+    role: "教授"
+    notes: "中山大学数学学院"
+  - period: "2018"
+    type: award
+    title: "国家优秀青年科学基金 (优青)"
+    notes: "国家自然科学基金委"
+research_areas:
+  - quantum-cohomology
+  - gromov-witten-theory
+  - mirror-symmetry
+  - gamma-conjecture
+  - schubert-calculus
+  - quantum-k-theory
+  - primitive-forms
+  - flag-varieties
+advisor: "Naichung Conan Leung"
+students: []
+key_collaborators:
+  - person: "Naichung Conan Leung"
+    since: 2008
+    topic: "Quantum cohomology of flag varieties, Pieri rules, GW invariants"
+    papers_count: 7
+  - person: "Leonardo C. Mihalcea"
+    since: 2012
+    topic: "K-theoretic GW invariants, Conjecture O, quantum K-theory"
+    papers_count: 4
+  - person: ke-huazhong
+    since: 2019
+    topic: "Gamma conjecture, quantum cohomology, mirror symmetry for blowups"
+    papers_count: 5
+  - person: "Jianxun Hu"
+    since: 2019
+    topic: "Gamma conjecture, Galkin's conjecture, quantum cohomology of blowups"
+    papers_count: 5
+  - person: "Mingzhi Yang"
+    since: 2019
+    topic: "Frobenius-Perron dimension, Seidel representation, quantum Schubert calculus"
+    papers_count: 5
+  - person: "Jiayu Song"
+    since: 2022
+    topic: "Seidel representation in quantum K-theory, quantum Pieri rule, quantum Chern character"
+    papers_count: 4
+  - person: "Konstanze Rietsch"
+    since: 2024
+    topic: "Plücker coordinate mirror, quantum Schubert calculus, G/P Schubert varieties"
+    papers_count: 3
+  - person: "Si Li"
+    since: 2013
+    topic: "Primitive forms, mirror symmetry for exceptional singularities"
+    papers_count: 2
+  - person: "Kyoji Saito"
+    since: 2013
+    topic: "Primitive forms, mirror symmetry for exceptional unimodular singularities"
+    papers_count: 2
+  - person: "Sergey Galkin"
+    since: 2024
+    topic: "Gamma conjecture, A-D-E diagrams"
+    papers_count: 2
+  - person: "Rui Xiong"
+    since: 2024
+    topic: "Quantum cohomology of Springer resolution, quantum Schubert calculus"
+    papers_count: 2
+  - person: "Frank Sottile"
+    since: 2016
+    topic: "Equivariant Pieri rules, open Richardson varieties"
+    papers_count: 2
+publications:
+  # 2025
+  - id: "2509.17857"
+    title: "Quantum Schubert calculus for smooth Schubert divisors of $Fl_n$"
+    year: 2025
+    coauthors: ["Jiayu Song", "Rui Xiong", "Mingzhi Yang"]
+  - id: "2509.01101"
+    title: "A-D-E diagrams, Hodge-Tate hyperplane sections and semisimple quantum cohomology"
+    year: 2025
+    coauthors: ["Pieter Belmans", "Sergey Galkin", "Naichung Conan Leung", "Markus Reineke", "Rui Xiong"]
+  - id: "2507.12351"
+    title: "Toward quantum Pieri rule for $Fl_n$ via Seidel representation"
+    year: 2025
+    coauthors: ["Jiayu Song"]
+  - id: "2507.12333"
+    title: "Towards small quantum Chern character"
+    year: 2025
+    coauthors: [ke-huazhong, "Jiayu Song"]
+  - id: "2506.18388"
+    title: "An anticanonical perspective on G/P Schubert varieties"
+    year: 2025
+    coauthors: ["Konstanze Rietsch", "Mingzhi Yang"]
+  - id: "2505.09950"
+    title: "Unfolding of equivariant F-bundles and application to the mirror symmetry of flag varieties"
+    year: 2025
+    coauthors: ["Thorgal Hinault", "Tony Yue Yu", "Chi Zhang", "Shaowu Zhang"]
+  - id: "2502.13558"
+    title: "On the quantum cohomology of blow-ups of four-dimensional quadrics"
+    year: 2025
+    coauthors: ["Jianxun Hu", ke-huazhong, "Lei Song"]
+  - id: "2502.13545"
+    title: "Mirror symmetry for certain blowups of Grassmannians"
+    year: 2025
+    coauthors: ["Jianxun Hu", ke-huazhong, "Lei Song"]
+  # 2024
+  - id: "2405.16987"
+    title: "On Galkin's Lower Bound Conjecture"
+    year: 2024
+    coauthors: ["Jianxun Hu", ke-huazhong, "Zhitong Su"]
+  - id: "2405.16979"
+    title: "Revisiting Gamma conjecture I: counterexamples and modifications"
+    year: 2024
+    coauthors: ["Sergey Galkin", "Jianxun Hu", "Hiroshi Iritani", ke-huazhong, "Zhitong Su"]
+  - id: "2401.15640"
+    title: "A Plücker coordinate mirror for partial flag varieties and quantum Schubert calculus"
+    year: 2024
+    coauthors: ["Konstanze Rietsch", "Mingzhi Yang", "Chi Zhang"]
+  # 2023
+  - id: "2304.07173"
+    title: "Automorphisms of the quantum cohomology of the Springer resolution and applications"
+    year: 2023
+    coauthors: ["Changjian Su", "Rui Xiong"]
+    journal: "Adv. Math. 442 (2024), 109577"
+  # 2022
+  - id: "2212.03439"
+    title: "Effective good divisibility of rational homogeneous varieties"
+    year: 2022
+    coauthors: ["Haoqiang Hu", "Zhaoyang Liu"]
+    journal: "Math. Z. (2023)"
+  - id: "2211.16902"
+    title: "On Seidel representation in quantum K-theory of Grassmannians"
+    year: 2022
+    coauthors: ["Zhaoyang Liu", "Jiayu Song", "Mingzhi Yang"]
+    journal: "Sci. China Math. (2025)"
+  - id: "2106.08716"
+    title: "W-translated Schubert divisors and transversal intersections"
+    year: 2021
+    coauthors: ["DongSeon Hwang", "Hwayoung Lee", "Jae-Hyouk Lee"]
+    journal: "Sci. China Math. (2022)"
+  # 2019
+  - id: "1911.11748"
+    title: "On the fundamental group of open Richardson varieties"
+    year: 2019
+    coauthors: ["Frank Sottile", "Chi Zhang"]
+  - id: "1909.01693"
+    title: "On Frobenius-Perron dimension"
+    year: 2019
+    coauthors: ["Ryan M. Shifler", "Mingzhi Yang", "Chi Zhang"]
+    journal: "Proc. Amer. Math. Soc. (2022)"
+  - id: "1903.02215"
+    title: "Euler characteristics in the quantum K-theory of flag varieties"
+    year: 2019
+    coauthors: ["Anders S. Buch", "Sjuvon Chung", "Leonardo C. Mihalcea"]
+    journal: "Selecta Math. 26 (2020)"
+  - id: "1901.01748"
+    title: "Gamma conjecture I for del Pezzo surfaces"
+    year: 2019
+    coauthors: ["Jianxun Hu", "Hua-Zhong Ke", "Tuo Yang"]
+    journal: "Adv. Math. (2021)"
+  - id: "1811.09774"
+    title: "Pseudotoric structures and special Lagrangian torus fibrations on certain flag varieties"
+    year: 2018
+    coauthors: ["Kwokwai Chan", "Naichung Conan Leung"]
+    journal: "J. Geom. Phys. 146 (2019)"
+  - id: "1809.04242"
+    title: "A geometric proof of an equivariant Pieri rule for flag manifolds"
+    year: 2018
+    coauthors: ["Vijay Ravikumar", "Frank Sottile", "Mingzhi Yang"]
+    journal: "Forum Math. (2016)"
+  - id: "1706.00744"
+    title: "Conjecture O holds for the odd symplectic Grassmannian"
+    year: 2017
+    coauthors: ["Leonardo C. Mihalcea", "Ryan Shifler"]
+    journal: "Bull. London Math. Soc. 51 (2019)"
+  - id: "1705.03435"
+    title: "A conjectural Peterson isomorphism in K-theory"
+    year: 2017
+    coauthors: ["Thomas Lam", "Leonardo C. Mihalcea", "Mark Shimozono"]
+    journal: "J. Algebra 513 (2018)"
+  - id: "1506.00872"
+    title: "On equivariant quantum Schubert calculus for G/P"
+    year: 2015
+    coauthors: ["Yongdong Huang"]
+    journal: "J. Algebra 441 (2015)"
+  - id: "1412.2475"
+    title: "On the Conjecture O of GGI for G/P"
+    year: 2014
+    coauthors: ["Daewoong Cheong"]
+  - id: "1407.5905"
+    title: "An update of quantum cohomology of homogeneous varieties"
+    year: 2014
+    coauthors: ["Naichung Conan Leung"]
+  - id: "1406.4680"
+    title: "Equivariant Pieri rules for isotropic Grassmannians"
+    year: 2014
+    coauthors: ["Vijay Ravikumar"]
+  - id: "1405.4530"
+    title: "Mirror symmetry for exceptional unimodular singularities"
+    year: 2014
+    coauthors: ["Si Li", "Kyoji Saito", "Yefeng Shen"]
+    journal: "J. Eur. Math. Soc. 19 (2017)"
+  - id: "1311.1660"
+    title: "Functorial relationships between quantum cohomology of complete and partial flag varieties, (II)"
+    year: 2013
+    journal: "Asian J. Math. 19 (2014)"
+  - id: "1311.1659"
+    title: "Primitive forms via polyvector fields"
+    year: 2013
+    coauthors: ["Si Li", "Kyoji Saito"]
+  - id: "1308.4298"
+    title: "Quantum Pieri rules for tautological subbundles"
+    year: 2013
+    coauthors: ["Naichung Conan Leung"]
+    journal: "Adv. Math. 248 (2013)"
+  - id: "1206.3593"
+    title: "K-theoretic Gromov-Witten invariants of lines in homogeneous spaces"
+    year: 2012
+    coauthors: ["Leonardo C. Mihalcea"]
+    journal: "IMRN (2014)"
+  - id: "1107.4744"
+    title: "Classical aspects of quantum cohomology of generalized flag varieties"
+    year: 2011
+    coauthors: ["Naichung Conan Leung"]
+    journal: "IMRN (2012)"
+  - id: "1007.1683"
+    title: "Functorial relationships between quantum cohomology of complete and partial flag varieties"
+    year: 2010
+    coauthors: ["Naichung Conan Leung"]
+    journal: "J. Differential Geom. 86 (2010)"
+  - id: "0810.4859"
+    title: "Gromov-Witten invariants for G/B and Pontryagin product for ΩK"
+    year: 2008
+    coauthors: ["Naichung Conan Leung"]
+    journal: "Trans. Amer. Math. Soc. (2012)"
+  - id: "0808.0393"
+    title: "Hard Lefschetz actions in Riemannian geometry with special holonomy"
+    year: 2008
+    coauthors: ["Naichung Conan Leung"]
+    journal: "Math. Res. Lett. (2008)"
+activity:
+  total_papers: 34
+  active_period: "2008-present"
+external_ids:
+  mathgenealogy: "155889"
+links:
+  homepage: "https://math.sysu.edu.cn/gagp/czli"
+  email: "lichangzh@mail.sysu.edu.cn"
+  faculty: "https://math.sysu.edu.cn/teacher/504"
+personal_notes: |
+  中山大学数学学院教授。2018年优青。
+  USTC 本科(2003) → 香港中文大学 MPhil(2005) + PhD(2009, 梁乃聪) → KIAS 博后(2009-2011, mentor Bumsig Kim)
+  → Kavli IPMU 博后(2011-2014) → IBS-CGP tenure-track(2014-2016) → 中山大学教授(2016-)。
+  论文 Quantum cohomology of homogeneous varieties (PhD thesis)。
+  三个核心研究方向：
+  (1) Flag varieties 的 quantum Schubert calculus (博士以来一直做)，与 Leung, Mihalcea, Rietsch 等合作；
+  (2) Gamma conjecture / Conjecture O 方向，2024 年与 Galkin, Iritani 等发现 Gamma conjecture I 反例并修正，重要进展；
+  (3) Mirror symmetry for singularities/primitive forms，与 Si Li, K. Saito 合作 (JEMS 2017)。
+  近年非常活跃（2025年已 8 篇 arXiv），团队包括 Ke Huazhong, Jiayu Song, Mingzhi Yang 等年轻合作者。
+  编辑 2 本学术著作 (Adv. Stud. Pure Math. vol.83; Springer Proc. Math. Stat. vol.332)。
+  2026 HUST 会议报告: Quantum Schubert calculus for smooth Schubert divisors in $Fl_n$。
+  办公室: 815, 中山大学新数学楼。
+sources:
+  - label: "中山大学数学学院"
+    url: "https://math.sysu.edu.cn/teacher/504"
+  - label: "GAGP homepage"
+    url: "https://math.sysu.edu.cn/gagp/czli"
+  - label: "Math Genealogy"
+    url: "https://www.mathgenealogy.org/id.php?id=155889"
+  - label: "CUHK alumni"
+    url: "https://www.math.cuhk.edu.hk/alumni/li-changzheng"
+tags:
+  - sun-yat-sen

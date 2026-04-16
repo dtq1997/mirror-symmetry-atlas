@@ -1,0 +1,118 @@
+slug: wang-luyao
+name:
+  en: Luyao Wang
+  zh: 王路瑶
+born: null
+died: null
+nationality: Chinese
+gender: female
+photo_url: null
+career_timeline:
+  - period: "[待验证]"
+    type: education
+    institution: "[待验证]"
+    role: "博士"
+    advisor: "[待验证]"
+    notes: "推测为首都师范大学，导师可能为吴可 (Ke Wu) 和/或赵伟忠 (Wei-Zhong Zhao)，基于早期论文合作关系推断"
+  - period: "present"
+    type: position
+    institution: bimsa
+    role: "博士后"
+    notes: "北京雁栖湖应用数学研究院 (BIMSA)，数学物理组。办公室 A3-3-104。同时挂靠清华丘成桐数学科学中心"
+research_areas:
+  - mathematical-physics
+  - matrix-models
+  - w-operators
+  - hurwitz-theory
+  - tensor-models
+  - hilbert-schemes
+  - integrable-hierarchies
+advisor: null
+students: []
+key_collaborators:
+  - person: "Ke Wu (吴可)"
+    since: 2021
+    topic: "W-representations, matrix and tensor models"
+    papers_count: 4
+    notes: "首都师范大学教授，可能为博士导师"
+  - person: "Wei-Zhong Zhao (赵伟忠)"
+    since: 2021
+    topic: "W-representations, fermionic matrix models"
+    papers_count: 4
+    notes: "首都师范大学教授，可能为博士导师"
+  - person: "Bei Kang (康蓓)"
+    since: 2021
+    topic: "Tensor models, multi-matrix models, rainbow tensor"
+    papers_count: 5
+    notes: "华北水利水电大学"
+  - person: "V. Mishnyakov"
+    since: 2023
+    topic: "Multi-character partition functions, beta-deformations"
+    papers_count: 1
+  - person: "A. Popolitov"
+    since: 2023
+    topic: "Multi-character partition functions"
+    papers_count: 1
+publications:
+  - id: "2602.04779"
+    title: "Geometric realization of W-operators"
+    year: 2026
+    coauthors: []
+    notes: "单独作者。用 Grojnowski-Nakajima 同构将 W-operators 映射到 Hilb^n(C^2) 的 Hecke 对应"
+  - id: "2505.08132"
+    title: "Correlators in two rainbow tensor and complex multi-matrix models"
+    year: 2025
+    coauthors: ["Bei Kang", "Ke Wu", "Wei-Zhong Zhao"]
+  - id: "2301.12763"
+    title: "W-representations for multi-character partition functions and their beta-deformations"
+    year: 2023
+    coauthors: ["V. Mishnyakov", "A. Popolitov", "F. Liu", "R. Wang"]
+  - id: "2301.06046"
+    title: "A two-tensor model with order-three"
+    year: 2023
+    coauthors: ["Bei Kang", "Ke Wu", "Wei-Zhong Zhao"]
+  - id: "2312.08761"
+    title: "Large N limit of complex multi-matrix model"
+    year: 2023
+    coauthors: ["Yu-Sen Zhu", "Shao-Kui Yao", "Bei Kang"]
+  - id: "2301.13696"
+    title: "W-representations of two-matrix models with infinite set of variables"
+    year: 2023
+    coauthors: ["Yu-Sen Zhu", "Ying Chen", "Bei Kang"]
+  - id: "2110.14269"
+    title: "W-representations of the fermionic matrix and Aristotelian tensor models"
+    year: 2021
+    coauthors: ["Rui Wang", "Ke Wu", "Wei-Zhong Zhao"]
+  - id: "2104.01332"
+    title: "W-representation of Rainbow tensor model"
+    year: 2021
+    coauthors: ["Bei Kang", "Ke Wu", "Jie Yang", "Wei-Zhong Zhao"]
+activity:
+  total_papers: 8
+  active_period: "2021-present"
+external_ids: {}
+links:
+  homepage: "https://www.bimsa.cn/detail/LuyaoWang.html"
+  email: "wangluyao@bimsa.cn"
+personal_notes: |
+  BIMSA 博士后，数学物理方向，同时挂靠清华 YMSC。
+  核心研究：矩阵模型的 W-表示 (W-representations)，张量模型，Hurwitz 理论。
+  她和吴可、赵伟忠、Liu、Zhang 等的工作被称为 "WLZZ model"，
+  由 Alexandrov (arXiv:2212.10952) 将其与 dessins d'enfant 联系起来。
+  2026 单独作者论文 (arXiv:2602.04779) 是重要突破：
+  将 W-operators 通过 Grojnowski-Nakajima 同构映射到 Hilb^n(C^2) 的等变上同调，
+  用 Hecke correspondence 实现 ladder operator E_1，
+  用 Ward identities of Gaussian beta-ensemble 解释 beta-deformed W_0。
+  统一了随机矩阵理论、枚举几何和共形场论中的 beta-deformed 可积结构。
+  2026 HUST 会议报告: Geometric realization of W-operators。
+  博士教育信息未公开，但从早期合作者 (吴可、赵伟忠，均首都师范大学)
+  以及论文署名 affiliation 模式推断，博士很可能来自首都师范大学。
+sources:
+  - label: "BIMSA profile"
+    url: "https://www.bimsa.cn/detail/LuyaoWang.html"
+  - label: "BIMSA (bimsa.net)"
+    url: "https://bimsa.net/people/LuyaoWang/"
+  - label: "arXiv:2602.04779"
+    url: "https://arxiv.org/abs/2602.04779"
+tags:
+  - bimsa

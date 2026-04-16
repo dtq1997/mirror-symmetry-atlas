@@ -30,7 +30,15 @@ research_areas:
   - derived-categories
 advisor: zhou-jian
 students: []
-key_collaborators: []
+key_collaborators:
+  - person: li-changzheng
+    since: 2024
+    topic: "Gamma conjecture, quantum cohomology, mirror symmetry for blowups"
+    papers_count: 4
+  - person: "Jianxun Hu"
+    since: 2024
+    topic: "Gamma conjecture, quantum cohomology, Galkin's conjecture"
+    papers_count: 4
 publications:
   - id: "2502.13558"
     title: "On the quantum cohomology of blow-ups of four-dimensional quadrics"

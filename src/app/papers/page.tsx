@@ -20,7 +20,7 @@ export default function PapersPage() {
     const pubs = (p as any).publications || [];
     const name = p.name.zh || p.name.en;
     for (const pub of pubs) {
-      if (!seenIds.has(pub.id)) {
+      if (pub.id && !seenIds.has(pub.id)) {
         seenIds.add(pub.id);
         allPubs.push({
           id: pub.id,

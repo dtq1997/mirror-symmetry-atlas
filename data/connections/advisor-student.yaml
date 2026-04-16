@@ -113,3 +113,28 @@ edges:
     type: advisor-student
     year: 2013
     institution: tsinghua
+  # === HUST 2026 新增 ===
+  - source: zhang-youjin
+    target: wu-chaozhong
+    type: advisor-student
+    year: 2010
+    institution: tsinghua
+    notes: "博士毕业年份 [待验证]，之后赴 SISSA 跟随 Dubrovin 做博后"
+  - source: "Naichung Conan Leung"
+    target: li-changzheng
+    type: advisor-student
+    year: 2009
+    institution: cuhk
+    notes: "香港中文大学 PhD"
+  - source: liu-xiaobo
+    target: wang-xin
+    type: advisor-student
+    year: 2015
+    institution: pku
+    notes: "北京大学基础数学博士"
+  - source: "Peter Teichner"
+    target: li-qin
+    type: advisor-student
+    year: 2011
+    institution: uc-berkeley
+    notes: "UC Berkeley PhD, 论文: Pontrjagin forms on certain string homogeneous spaces. MGP #219800"

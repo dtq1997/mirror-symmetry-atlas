@@ -117,3 +117,101 @@ edges:
     type: institutional
     institution: ustc
     period: "2020-present"
+  # === HUST 2026 新增 ===
+  # 吴朝中与 SISSA/清华的关系
+  - source: wu-chaozhong
+    target: dubrovin
+    type: institutional
+    institution: sissa
+    period: "~2010-2014"
+    notes: "吴朝中在 SISSA 做博后期间与 Dubrovin 同事"
+  - source: wu-chaozhong
+    target: yang-di
+    type: institutional
+    institution: sissa
+    period: "~2013-2014"
+    notes: "杨迪和吴朝中在 SISSA 时间重叠（同为张友金学生，先后在 Dubrovin 组）"
+  # 中山大学集群
+  - source: wu-chaozhong
+    target: ke-huazhong
+    type: institutional
+    institution: sun-yat-sen
+    period: "2014-present"
+    notes: "同在中山大学数学学院"
+  - source: wu-chaozhong
+    target: li-changzheng
+    type: institutional
+    institution: sun-yat-sen
+    period: "2014-present"
+    notes: "同在中山大学数学学院"
+  - source: wu-chaozhong
+    target: he-weiqiang
+    type: institutional
+    institution: sun-yat-sen
+    period: "2014-present"
+    notes: "同在中山大学数学学院"
+  - source: ke-huazhong
+    target: li-changzheng
+    type: institutional
+    institution: sun-yat-sen
+    period: "2014-present"
+    notes: "Gamma conjecture 团队核心"
+  - source: ke-huazhong
+    target: he-weiqiang
+    type: institutional
+    institution: sun-yat-sen
+    period: "2014-present"
+  # 南科大集群
+  - source: wu-longting
+    target: li-qin
+    type: institutional
+    institution: sustech
+    period: "2021-present"
+    notes: "同在南方科技大学数学系"
+  # PKU/BICMR 师生
+  - source: wu-longting
+    target: liu-xiaobo
+    type: institutional
+    institution: pku-bicmr
+    period: "~2012-2017"
+    notes: "邬龙挺在 BICMR 读博，导师刘小博"
+  - source: wang-xin
+    target: liu-xiaobo
+    type: institutional
+    institution: pku
+    period: "2010-2015"
+    notes: "王新在北大读博，导师刘小博"
+  - source: wu-longting
+    target: wang-xin
+    type: institutional
+    institution: pku
+    period: "~2012-2015"
+    notes: "刘小博的两位博士生，在北大时间重叠"
+  # 北大集群
+  - source: dai-bo
+    target: liu-xiaobo
+    type: institutional
+    institution: pku
+    period: "present"
+    notes: "同在北大数学科学学院 / BICMR"
+  # 李长征-CUHK 导师
+  - source: li-changzheng
+    target: li-qin
+    type: institutional
+    institution: cuhk
+    period: "2013-2015"
+    notes: "李勤在 CUHK 做博后时，李长征已离开 (2009)，但共享导师网络 (Naichung Conan Leung)"
+  # 何伟强-清华博后
+  - source: he-weiqiang
+    target: "Si Li"
+    type: institutional
+    institution: tsinghua-ymsc
+    period: "[待验证]"
+    notes: "何伟强在清华丘成桐中心做博后，与 Si Li 密切合作 (5 篇)"
+  # 何伟强-柯华忠-中山大学 GW 方向
+  - source: he-weiqiang
+    target: ke-huazhong
+    type: institutional
+    institution: sun-yat-sen
+    period: "present"
+    notes: "同在中山大学数学学院，何伟强论文与柯华忠共同出现 (blow-up, GW invariants)"

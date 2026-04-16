@@ -1,0 +1,155 @@
+slug: li-qin
+name:
+  en: Qin Li
+  zh: 李勤
+born: null
+died: null
+nationality: Chinese
+gender: male
+photo_url: null
+career_timeline:
+  - period: "2001-2005"
+    type: education
+    institution: ustc
+    role: "本科, 数学"
+    notes: "中国科学技术大学数学系"
+  - period: "2005-2011"
+    type: education
+    institution: uc-berkeley
+    role: "博士, 数学"
+    advisor: "Peter Teichner"
+    notes: "论文: Pontrjagin forms on certain string homogeneous spaces"
+  - period: "2011-2013"
+    type: position
+    institution: ustc
+    role: "特任副教授"
+    notes: "中国科学技术大学"
+  - period: "2011-2012"
+    type: position
+    institution: mpi-bonn
+    role: "访问学者 [待验证]"
+    notes: "Max Planck Institute for Mathematics, Bonn"
+  - period: "2013-2015"
+    type: position
+    institution: cuhk
+    role: "博士后研究员"
+    notes: "香港中文大学数学系"
+  - period: "2015-2021"
+    type: position
+    institution: sustech
+    role: "助理教授"
+    notes: "南方科技大学数学系"
+  - period: "2019"
+    type: award
+    title: "ICCM Best Paper Award"
+    notes: "世界华人数学家联盟最佳论文奖，丘成桐颁奖。获奖论文发表于 Advances in Mathematics (2017)"
+  - period: "2021-present"
+    type: position
+    institution: siqse
+    role: "副研究员"
+    notes: "深圳量子科学与工程研究院"
+research_areas:
+  - geometric-quantization
+  - deformation-quantization
+  - berezin-toeplitz
+  - bv-quantization
+  - mathematical-physics
+  - topological-field-theory
+  - calabi-yau-geometry
+advisor: "Peter Teichner"
+students: []
+key_collaborators:
+  - person: "Kwokwai Chan"
+    since: 2015
+    topic: "Quantization of Kähler manifolds, BT operators, Rozansky-Witten, non-formal quantization"
+    papers_count: 8
+  - person: "Naichung Conan Leung"
+    since: 2015
+    topic: "Quantization of Kähler manifolds, Bargmann-Fock sheaves"
+    papers_count: 8
+  - person: "Si Li"
+    since: 2014
+    topic: "B-twisted sigma model, BV quantization, algebraic index"
+    papers_count: 2
+  - person: "Ryan E. Grady"
+    since: 2015
+    topic: "Fedosov deformation quantization, BV quantization, algebraic index"
+    papers_count: 1
+  - person: "Yutung Yau"
+    since: 2025
+    topic: "Berezin-Toeplitz quantization"
+    papers_count: 1
+publications:
+  - id: "2604.00532"
+    title: "Formal Deformation quantization as a Fréchet algebra"
+    year: 2026
+    coauthors: []
+  - id: "2511.16889"
+    title: "Berezin-Toeplitz quantization revisited"
+    year: 2025
+    coauthors: ["Kwokwai Chan", "Naichung Conan Leung", "Yutung Yau"]
+  - id: "2410.11311"
+    title: "Symmetry in Deformation quantization and Geometric quantization"
+    year: 2024
+    coauthors: ["Naichung Conan Leung", "Ziming Nikolas Ma"]
+  - id: "2009.03690"
+    title: "Quantization of Kähler manifolds"
+    year: 2020
+    coauthors: ["Kwokwai Chan", "Naichung Conan Leung"]
+    notes: "survey paper"
+  - id: "2008.11496"
+    title: "Bargmann-Fock sheaves on Kähler manifolds"
+    year: 2020
+    coauthors: ["Kwokwai Chan", "Naichung Conan Leung"]
+  - id: "2008.07057"
+    title: "Kapranov's L-infinity structures, Fedosov's star products, and one-loop exact BV quantizations on Kähler manifolds"
+    year: 2020
+    coauthors: ["Kwokwai Chan", "Naichung Conan Leung"]
+  - id: "2001.10869"
+    title: "A geometric construction of representations of the Berezin-Toeplitz quantization"
+    year: 2020
+    coauthors: ["Kwokwai Chan", "Naichung Conan Leung"]
+  - id: "1507.01812"
+    title: "Batalin-Vilkovisky quantization and the algebraic index"
+    year: 2015
+    coauthors: ["Ryan E. Grady", "Si Li"]
+  - id: "1502.03510"
+    title: "BV quantization of the Rozansky-Witten model"
+    year: 2015
+    coauthors: ["Kwokwai Chan", "Naichung Conan Leung"]
+  - id: "1402.7000"
+    title: "On the B-twisted topological sigma model and Calabi-Yau geometry"
+    year: 2014
+    coauthors: ["Si Li"]
+activity:
+  total_papers: 10
+  active_period: "2014-present"
+external_ids:
+  mathgenealogy: "219800"
+links:
+  cv: "https://math.sustech.edu.cn/media/files/LI_Qin_CV.pdf"
+personal_notes: |
+  中科大本科 → UC Berkeley 博士（导师 Peter Teichner, 2011）→ 中科大特任副教授 → 港中文博后 → 南科大助理教授 → 深圳量子研究院副研究员。
+  与 Kwokwai Chan 和 Naichung Conan Leung (CUHK) 长期合作（2016年起），核心项目：Kähler 流形上不同量子化方案（deformation, geometric, Berezin-Toeplitz, BV）之间的关系。
+  提出"non-formal quantization"概念，成果发表于 Adv. Math.。
+  与 Si Li 合作研究 B-twisted topological sigma model (J. Differential Geom. 2016)。
+  2019 ICCM 最佳论文奖（BV quantization and algebraic index, Adv. Math. 2017）。
+  2026 HUST 会议报告: Quantization of Kähler manifolds via differential operators.
+  Joint with Kwokwai Chan, Conan Leung, and Yutung Yau.
+  NSFC 项目 (No. 12471061)。广东省自然科学基金支持。
+  注意：与 UW-Madison 的 Qin Li（应用数学/kinetic theory，导师 Shi Jin）是不同人。
+sources:
+  - label: "SUSTech faculty"
+    url: "https://sustech.edu.cn/zh/faculties/qinli.html"
+  - label: "SIQSE profile"
+    url: "https://siqse.sustech.edu.cn/Zh/Index/staff_detail/mid/58/id/1159"
+  - label: "Math Genealogy"
+    url: "https://www.mathgenealogy.org/id.php?id=219800"
+  - label: "UC Berkeley graduate page"
+    url: "https://math.berkeley.edu/people/grad/qin-li"
+  - label: "ICCM 最佳论文奖新闻"
+    url: "https://www.163.com/dy/article/E4K44D0E0524POO1.html"
+  - label: "几何与形变量子化进展报道"
+    url: "https://science-en.sustech.edu.cn/news/detail/1669.html"
+tags:
+  - sustech

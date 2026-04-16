@@ -1,0 +1,186 @@
+slug: sun-shanzhong
+name:
+  en: Shanzhong Sun
+  zh: 孙善忠
+born: null
+died: null
+nationality: Chinese
+gender: male
+photo_url: null
+career_timeline:
+  - period: "~1996-2001"
+    type: education
+    institution: nankai
+    role: "博士"
+    advisor: null
+    notes: "南开大学陈省身数学研究所。导师 [待验证]（可能为龙以明或胡锡健方向）"
+  - period: "2001-2003"
+    type: position
+    institution: pku
+    role: "博士后"
+    notes: "北京大学数学科学学院"
+  - period: "2003-present"
+    type: position
+    institution: capital-normal
+    role: "教授"
+    notes: "首都师范大学数学科学学院"
+research_areas:
+  - symplectic-geometry
+  - resurgence
+  - quantum-topology
+  - fukaya-category
+  - celestial-mechanics
+  - mould-calculus
+  - semiclassical-trace-formula
+advisor: null
+students:
+  - "Yong Li (李镛, 2019 PhD, co-supervised with David Sauzin)"
+  - "Yonghong Huang (黄永红)"
+  - "Peng You (尤鹏)"
+  - "Chenxi Wang (王晨夕)"
+  - "Yong Li (李勇)"
+  - "Yu Di (邸玥)"
+  - "Hongjie Zhou (周宏杰)"
+  - "Wen Shen (申文)"
+  - "Zixuan Ye (叶子璇)"
+  - "Jiayuan Lin (林家远)"
+key_collaborators:
+  - person: "David Sauzin"
+    since: 2018
+    topic: "Resurgence theory, mould calculus, Moyal star product, Hadamard product"
+    papers_count: 7
+  - person: "Yong Li"
+    since: 2018
+    topic: "Resurgence, BCH formula, partial theta series, topological string"
+    papers_count: 7
+  - person: "Jørgen Ellegaard Andersen"
+    since: 2025
+    topic: "WRT invariants, Witten's asymptotic expansion conjecture"
+    papers_count: 1
+  - person: "Li Han"
+    since: 2021
+    topic: "Resurgence, partial theta series, WRT invariants"
+    papers_count: 2
+  - person: "William Elbæk Mistegård"
+    since: 2025
+    topic: "WRT invariants"
+    papers_count: 1
+  - person: "Peng You"
+    since: 2022
+    topic: "Central configurations, N-body problem, Kepler problem"
+    papers_count: 3
+  - person: "Alain Chenciner"
+    since: 2021
+    topic: "Elliptic fixed points, dynamical systems"
+    papers_count: 1
+  - person: "Xiaojun Chen"
+    since: 2012
+    topic: "Fukaya categories, Poisson algebras, cyclic homology"
+    papers_count: 2
+  - person: "Xijun Hu"
+    since: 2012
+    topic: "Lagrangian solutions stability, index theory"
+    papers_count: 1
+publications:
+  - id: "2510.25649"
+    title: "Degeneracy of Planar Central Configurations in the N-Body Problem"
+    year: 2025
+    coauthors: ["Zhifu Xie", "Peng You"]
+  - id: "2510.10678"
+    title: "A proof of Witten's asymptotic expansion conjecture for WRT invariants of Seifert fibered homology spheres"
+    year: 2025
+    coauthors: ["Jørgen Ellegaard Andersen", "Li Han", "Yong Li", "William Elbæk Mistegård", "David Sauzin"]
+  - id: "2503.12815"
+    title: "Resurgence in the Universal Structures in B-model Topological String Theory"
+    year: 2025
+    coauthors: ["Yong Li", "David Sauzin"]
+  - id: "2310.17449"
+    title: "On the Hadamard inverse of a resurgent function with only one singularity"
+    year: 2023
+    coauthors: ["Yong Li", "David Sauzin"]
+  - id: "2303.00201"
+    title: "On the Uniqueness of Convex Central Configurations in the Planar 4-Body Problem"
+    year: 2023
+    coauthors: ["Zhifu Xie", "Peng You"]
+  - id: "2209.00146"
+    title: "Monodromy of Complexified Planar Kepler Problem"
+    year: 2022
+    coauthors: ["Peng You"]
+  - id: "2208.11959"
+    title: "A Weak infinity-Functor in Morse Theory"
+    year: 2022
+    coauthors: ["Chenxi Wang"]
+  - id: "2112.15223"
+    title: "Resurgence and Partial Theta Series"
+    year: 2021
+    coauthors: ["Li Han", "Yong Li", "David Sauzin"]
+  - id: "2111.07714"
+    title: "Elliptic fixed points with an invariant foliation: Some facts and more questions"
+    year: 2021
+    coauthors: ["Alain Chenciner", "David Sauzin", "Qiaoling Wei"]
+  - id: "2012.15224"
+    title: "On the Moyal Star Product of Resurgent Series"
+    year: 2020
+    coauthors: ["Yong Li", "David Sauzin"]
+  - id: "2012.14175"
+    title: "Hadamard Product and Resurgence Theory"
+    year: 2020
+    coauthors: ["Yong Li", "David Sauzin"]
+  - id: "1805.00766"
+    title: "The Baker-Campbell-Hausdorff formula via mould calculus"
+    year: 2018
+    coauthors: ["Yong Li", "David Sauzin"]
+  - id: "1801.05626"
+    title: "Non-Embedding Theorems of Nilpotent Lie groups and Sub-Riemannian Manifolds"
+    year: 2018
+    coauthors: ["Yonghong Huang"]
+  - id: "1608.08294"
+    title: "Gutzwiller's Semiclassical Trace Formula and Maslov-Type Index Theory for Symplectic Paths"
+    year: 2016
+    coauthors: []
+  - id: "1508.02115"
+    title: "A Double Poisson Algebra Structure on Fukaya Categories"
+    year: 2015
+    coauthors: ["Xiaojun Chen", "Hai-Long Her", "Xiangdong Yang"]
+  - id: "1206.6162"
+    title: "Linear stability of elliptic Lagrangian solutions of the planar three-body problem via index theory"
+    year: 2012
+    coauthors: ["Xijun Hu", "Yiming Long"]
+  - id: "1201.4907"
+    title: "Cyclic Homology of Fukaya Categories and the Linearized Contact Homology"
+    year: 2012
+    coauthors: ["Xiaojun Chen", "Hai-Long Her"]
+  - id: "1110.6803"
+    title: "Relative orbifold Gromov-Witten theory and degeneration formula"
+    year: 2011
+    coauthors: ["Bohui Chen", "An-Min Li", "Guosong Zhao"]
+  - id: "0706.1194"
+    title: "Symmetry of Planar Four-Body Convex Central Configurations"
+    year: 2007
+    coauthors: ["Alain Albouy", "Yanning Fu"]
+activity:
+  total_papers: 29
+  active_period: "2007-present"
+external_ids: {}
+links:
+  homepage: "https://shanzhong-sun.github.io/ShanzhongSUN/"
+personal_notes: |
+  南开大学陈省身数学研究所博士 (2001) → 北大博后 → 首都师范大学教授。
+  研究横跨三大领域：(1) 辛几何/拓扑 (Fukaya category, Floer homology)；
+  (2) 天体力学 (N-body central configurations, Kepler problem, Maslov index)；
+  (3) Resurgence 理论 (mould calculus, Moyal star product, topological string)。
+  与 David Sauzin (CNRS, Ecalle resurgence 核心传承者) 长期深度合作 (7 篇)。
+  博士生李镛 (Yong Li) 是 resurgence 方向的主要合作者，博士论文由 Sun 和 Sauzin 联合指导。
+  2025 年与 Andersen, Sauzin 等证明 Witten asymptotic expansion conjecture for WRT invariants
+  of Seifert fibered homology spheres，GPPV invariant 方向的重要突破。
+  2026 HUST 会议报告: Around Witten's Asymptotic Expansion Conjecture，GPPV invariant 的 quantum modularity。
+  与龙以明 (Yiming Long) 合作过一篇 (2012)，龙以明是南开辛几何方向领军人物，
+  但尚无直接证据确认龙以明是其博士导师。
+  Math Genealogy 上未查到条目。
+sources:
+  - label: "Personal homepage"
+    url: "https://shanzhong-sun.github.io/ShanzhongSUN/"
+  - label: "ResearchGate"
+    url: "https://www.researchgate.net/profile/Shanzhong-Sun"
+tags:
+  - capital-normal

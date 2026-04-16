@@ -46,11 +46,18 @@ research_areas:
 advisor: croke
 students:
   - yang-chenglang
+  - wang-xin
+  - wu-longting
 key_collaborators:
   - person: yang-chenglang
     since: 2021
     topic: "Schur Q-polynomials, Witten tau-function, W-type operators"
     papers_count: 5
+  - person: wang-xin
+    since: 2013
+    topic: "G-function, topological recursion relations, P^1 orbifolds"
+    papers_count: 3
+    notes: "博士生 (2010-2015)"
 publications:
   - id: "2603.02736"
     title: "Complexity of quantum cohomology"

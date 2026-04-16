@@ -167,3 +167,296 @@ edges:
     type: coauthor
     weight: 1
     period: "1998"
+  # === HUST 2026 新增 ===
+  - source: wu-chaozhong
+    target: liu-siqi
+    type: coauthor
+    weight: 4
+    period: "2007-2019"
+    notes: "Drinfeld-Sokolov hierarchies, Hamiltonian structures, diagram automorphisms"
+  - source: wu-chaozhong
+    target: zhang-youjin
+    type: coauthor
+    weight: 4
+    period: "2007-2019"
+    notes: "Drinfeld-Sokolov hierarchies, Virasoro constraints, Painlevé"
+  - source: li-changzheng
+    target: ke-huazhong
+    type: coauthor
+    weight: 5
+    period: "2019-present"
+    notes: "Gamma conjecture, quantum cohomology, mirror symmetry for blowups"
+  - source: guo-shuai
+    target: wu-longting
+    type: coauthor
+    weight: 1
+    period: "2025"
+    notes: "Poincaré polynomials of moduli spaces of sheaves on P^2"
+  - source: sun-shanzhong
+    target: "David Sauzin"
+    type: coauthor
+    weight: 7
+    period: "2018-present"
+    notes: "Resurgence theory, mould calculus, Moyal star product"
+  # === 王新 ===
+  - source: wang-xin
+    target: liu-xiaobo
+    type: coauthor
+    weight: 3
+    period: "2013-2016"
+    notes: "G-function, topological recursion relations, P^1 orbifolds"
+  - source: wang-xin
+    target: "Felix Janda"
+    type: coauthor
+    weight: 2
+    period: "2017-2024"
+    notes: "Topological recursion relations from Pixton's formula, Hodge integrals"
+  # === 李勤 ===
+  - source: li-qin
+    target: "Kwokwai Chan"
+    type: coauthor
+    weight: 8
+    period: "2015-present"
+    notes: "Quantization of Kähler manifolds, BT operators, Rozansky-Witten"
+  - source: li-qin
+    target: "Naichung Conan Leung"
+    type: coauthor
+    weight: 8
+    period: "2015-present"
+    notes: "Quantization of Kähler manifolds, Bargmann-Fock sheaves"
+  - source: li-qin
+    target: "Si Li"
+    type: coauthor
+    weight: 2
+    period: "2014-2015"
+    notes: "B-twisted sigma model, BV quantization, algebraic index"
+  # === 邬龙挺 ===
+  - source: wu-longting
+    target: "Honglu Fan"
+    type: coauthor
+    weight: 4
+    period: "2017-2020"
+    notes: "Relative GW theory, WDVV, DR cycles"
+  - source: wu-longting
+    target: "Pierrick Bousseau"
+    type: coauthor
+    weight: 2
+    period: "2020-2023"
+    notes: "Holomorphic anomaly equation, WDVV recursion, BPS invariants"
+  - source: wu-longting
+    target: "Fenglong You"
+    type: coauthor
+    weight: 2
+    period: "2018-2019"
+    notes: "Relative GW theory"
+  # === 吴朝中 其余合作者 ===
+  - source: wu-chaozhong
+    target: "Dafeng Zuo"
+    type: coauthor
+    weight: 3
+    period: "2013-2024"
+    notes: "Infinite-dimensional Frobenius manifolds"
+  - source: wu-chaozhong
+    target: "Lumin Geng"
+    type: coauthor
+    weight: 3
+    period: "2023-2026"
+    notes: "KP-mKP hierarchy, reduction properties"
+  - source: wu-chaozhong
+    target: "Mattia Cafasso"
+    type: coauthor
+    weight: 2
+    period: "2014-2015"
+    notes: "Tau functions, block Toeplitz determinants"
+  - source: wu-chaozhong
+    target: "Jianxun Hu"
+    type: coauthor
+    weight: 2
+    period: "2023-2025"
+    notes: "KP-mKP hierarchy"
+  - source: wu-chaozhong
+    target: "Xu Zhou"
+    type: coauthor
+    weight: 2
+    period: "2015-2018"
+    notes: "KP extension, diagram automorphisms"
+  # === 孙善忠 其余合作者 ===
+  - source: sun-shanzhong
+    target: "Yong Li"
+    type: coauthor
+    weight: 7
+    period: "2018-present"
+    notes: "Resurgence, BCH formula, partial theta series, topological string. 孙善忠的博士生"
+  - source: sun-shanzhong
+    target: "Peng You"
+    type: coauthor
+    weight: 3
+    period: "2022-2025"
+    notes: "Central configurations, N-body problem, Kepler problem"
+  - source: sun-shanzhong
+    target: "Li Han"
+    type: coauthor
+    weight: 2
+    period: "2021-2025"
+    notes: "Resurgence, partial theta series, WRT invariants"
+  - source: sun-shanzhong
+    target: "Xiaojun Chen"
+    type: coauthor
+    weight: 2
+    period: "2012-2015"
+    notes: "Fukaya categories, Poisson algebras, cyclic homology"
+  - source: sun-shanzhong
+    target: "Jørgen Ellegaard Andersen"
+    type: coauthor
+    weight: 1
+    period: "2025"
+    notes: "WRT invariants, Witten's asymptotic expansion conjecture"
+  # === 王路瑶 ===
+  - source: wang-luyao
+    target: "Bei Kang"
+    type: coauthor
+    weight: 5
+    period: "2021-2025"
+    notes: "Tensor models, multi-matrix models, rainbow tensor"
+  - source: wang-luyao
+    target: "Ke Wu"
+    type: coauthor
+    weight: 4
+    period: "2021-2025"
+    notes: "W-representations, matrix and tensor models"
+  - source: wang-luyao
+    target: "Wei-Zhong Zhao"
+    type: coauthor
+    weight: 4
+    period: "2021-2025"
+    notes: "W-representations, fermionic matrix models"
+  # === 李长征 其余合作者 ===
+  - source: li-changzheng
+    target: "Naichung Conan Leung"
+    type: coauthor
+    weight: 7
+    period: "2008-present"
+    notes: "Quantum Pieri rules, quantum cohomology of flag varieties, GW invariants for G/B"
+  - source: li-changzheng
+    target: "Jianxun Hu"
+    type: coauthor
+    weight: 5
+    period: "2019-present"
+    notes: "Gamma conjecture, Galkin's conjecture, quantum cohomology of blowups"
+  - source: li-changzheng
+    target: "Leonardo C. Mihalcea"
+    type: coauthor
+    weight: 4
+    period: "2012-present"
+    notes: "K-theoretic GW invariants, Conjecture O, quantum K-theory"
+  - source: li-changzheng
+    target: "Mingzhi Yang"
+    type: coauthor
+    weight: 5
+    period: "2019-present"
+    notes: "Frobenius-Perron dimension, Seidel representation, quantum Schubert calculus"
+  - source: li-changzheng
+    target: "Jiayu Song"
+    type: coauthor
+    weight: 4
+    period: "2022-present"
+    notes: "Seidel representation in quantum K-theory, quantum Pieri rule"
+  - source: li-changzheng
+    target: "Konstanze Rietsch"
+    type: coauthor
+    weight: 3
+    period: "2024-present"
+    notes: "Plücker coordinate mirror, quantum Schubert calculus"
+  - source: li-changzheng
+    target: k-saito
+    type: coauthor
+    weight: 2
+    period: "2013-2014"
+    notes: "Primitive forms, mirror symmetry for exceptional unimodular singularities (JEMS 2017)"
+  - source: li-changzheng
+    target: "Si Li"
+    type: coauthor
+    weight: 2
+    period: "2013-2014"
+    notes: "Primitive forms, mirror symmetry for exceptional singularities (JEMS 2017)"
+  - source: li-changzheng
+    target: "Sergey Galkin"
+    type: coauthor
+    weight: 2
+    period: "2024-2025"
+    notes: "Gamma conjecture, A-D-E diagrams"
+  - source: li-changzheng
+    target: "Rui Xiong"
+    type: coauthor
+    weight: 2
+    period: "2024-2025"
+    notes: "Quantum cohomology of Springer resolution, quantum Schubert calculus"
+  - source: li-changzheng
+    target: "Frank Sottile"
+    type: coauthor
+    weight: 2
+    period: "2016-2019"
+    notes: "Equivariant Pieri rules, open Richardson varieties"
+  # === 何伟强 ===
+  - source: he-weiqiang
+    target: "Yefeng Shen"
+    type: coauthor
+    weight: 4
+    period: "2015-2023"
+    notes: "LG mirror symmetry, FJRW theory, Virasoro constraints"
+  - source: he-weiqiang
+    target: "Si Li"
+    type: coauthor
+    weight: 5
+    period: "2015-2019"
+    notes: "LG mirror symmetry conjecture, G-twisted braces, orbifold LG B-models, Kodaira-Spencer gravity"
+  - source: he-weiqiang
+    target: "Jianxun Hu"
+    type: coauthor
+    weight: 2
+    period: "2013-2014"
+    notes: "Orbifold GW invariants, blow-up formulae"
+  - source: he-weiqiang
+    target: "Yifan Li"
+    type: coauthor
+    weight: 2
+    period: "2018-2019"
+    notes: "G-twisted braces, orbifold LG B-models"
+  - source: he-weiqiang
+    target: "Yingchun Zhang"
+    type: coauthor
+    weight: 2
+    period: "2023-2025"
+    notes: "Cluster algebras and quantum cohomology, Seiberg duality"
+  # === 刘小博 其余合作者 ===
+  - source: liu-xiaobo
+    target: "Chongyu Wang"
+    type: coauthor
+    weight: 2
+    period: "2024-2026"
+    notes: "Complexity of quantum cohomology, Buryak-Shadrin conjecture"
+  # === 戴波 ===
+  - source: dai-bo
+    target: "Chuu-Lian Terng"
+    type: coauthor
+    weight: 3
+    period: "2004-2007"
+    notes: "ASDYM solitons, Ward solitons, Bäcklund transformations"
+  - source: dai-bo
+    target: "Chung-I Ho"
+    type: coauthor
+    weight: 4
+    period: "2016-2021"
+    notes: "最小亏格问题, 4-流形中 Lagrangian 曲面"
+  - source: dai-bo
+    target: "Tian-Jun Li"
+    type: coauthor
+    weight: 2
+    period: "2016-2019"
+    notes: "4-流形最小亏格, nonorientable Lagrangian 曲面"
+  - source: dai-bo
+    target: "Ren Guan"
+    type: coauthor
+    weight: 2
+    period: "2022-2025"
+    notes: "Vafa-Witten 模空间横截性"
