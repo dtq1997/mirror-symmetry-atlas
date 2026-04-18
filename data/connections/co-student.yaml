@@ -32,7 +32,7 @@ edges:
     notes: "周坚门下。MGP 确认"
   # === Naichung Conan Leung 门下 (CUHK) ===
   - source: li-changzheng
-    target: "Kwokwai Chan"
+    target: chan-kwokwai
     type: co-student
     period: "2005-2008"
     notes: "梁乃聪门下。李长征(2005-2009 PhD)与陈国威(2004-2008 PhD)在CUHK同门3年。陈国威后与李勤合作8篇"
@@ -57,9 +57,25 @@ edges:
     type: co-student
     period: "2015-2019"
     notes: "清华同期博士。王知远(周坚门下)与张庆生(周坚门下[待验证])重叠4年"
+  - source: hu-xiaowen
+    target: ke-huazhong
+    type: co-student
+    period: "2008-2013"
+    notes: "周坚门下。胡晓文(2006-2014博士)与柯华忠(2008-2013博士)重叠5年"
+  - source: hu-xiaowen
+    target: guo-shuai
+    type: co-student
+    period: "2006-2011"
+    notes: "周坚门下。胡晓文(2006-2014博士)与郭帅(2006-2011博士)重叠5年"
   # === USTC 本科同学 ===
   - source: li-changzheng
     target: li-qin
     type: co-student
     period: "2001-2003"
     notes: "USTC 本科同学。李长征(1999-2003)与李勤(2001-2005)重叠2年"
+  # === 陈酌门下 / 清华 Lie pair 学派 ===
+  - source: ni-dadi
+    target: cheng-jiahao
+    type: co-student
+    period: "2018-2021"
+    notes: "倪大地(清华博士 2018-2023, 陈酌门下) 与 程家豪(北大博士, 方向数学物理与代数几何, 与陈酌合作)在陈酌 Lie pair/dg manifold 学派共同活跃。4 篇 dg manifold / L≤3 algebra / Hopf algebra 合作论文支持这一关系"

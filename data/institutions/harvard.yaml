@@ -1,0 +1,27 @@
+slug: harvard
+name:
+  en: "Harvard University"
+  zh: "哈佛大学"
+type: university
+country: USA
+city: Cambridge
+location:
+  lat: 42.3770
+  lng: -71.1167
+founded: 1636
+url: "https://www.harvard.edu/"
+relevance: high
+research_groups:
+  - name: "Department of Mathematics"
+    topics:
+      - differential-geometry
+      - mathematical-physics
+      - mirror-symmetry
+    current_members: []
+    past_members:
+      - yau-shingtung
+      - si-li
+      - tian-gang
+      - liu-melissa
+events: []
+notes: "Yau 的长期据点（1987-2022）。培养了李思等中国数学家。"

@@ -1,0 +1,29 @@
+slug: courant-algebroid
+name:
+  en: Courant Algebroid
+  zh: Courant 代数胚
+aliases: []
+category: algebraic-structure
+difficulty: research-frontier
+discipline: math
+year_introduced: 1997
+introduced_by:
+  - liu-zhangju
+definition: |
+  Liu-Weinstein-Xu (1997) 引入的结构：向量丛 $E \to M$ 配
+  anchor $\rho: E \to TM$、非退化对称双线性形 $\langle \cdot, \cdot \rangle$
+  和 Dorfman bracket，满足 Courant 公理。推广了 Lie bialgebroid
+  的 double。在 generalized geometry、超弦 T-duality、H-flux
+  几何中核心。
+dual_to: null
+prerequisites:
+  - lie-algebroid
+leads_to: []
+related:
+  - poisson-geometry
+key_people:
+  - liu-zhangju
+  - chen-zhuo
+key_papers: []
+tags:
+  - layer-1

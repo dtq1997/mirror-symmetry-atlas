@@ -1,0 +1,39 @@
+slug: mathematical-physics
+name:
+  en: Mathematical Physics
+  zh: 数学物理
+aliases:
+  - math-phys
+  - mathematical physics
+category: technique
+difficulty: intermediate
+discipline: both
+year_introduced: null
+introduced_by: []
+definition: |
+  运用严格数学方法研究物理现象及其结构的交叉学科。核心关注
+  量子场论、弦理论、统计力学、可积系统中的数学结构，特别是
+  代数结构（量子群、顶点代数、$W$-代数）、几何结构（模空间、
+  Hitchin 系统、sigma 模型）以及特殊函数（$\tau$-函数、theta
+  函数、模形式）。
+dual_to: null
+prerequisites: []
+leads_to:
+  - integrable-hierarchy
+  - frobenius-manifold
+  - gromov-witten-theory
+  - quantum-groups
+  - tqft
+related:
+  - mirror-symmetry
+  - topological-field-theory
+key_people:
+  - dubrovin
+  - faddeev
+  - kontsevich
+  - manin-yuri
+  - novikov-sergei
+  - zagier
+key_papers: []
+tags:
+  - layer-0

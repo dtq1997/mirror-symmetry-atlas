@@ -1,0 +1,54 @@
+slug: chan-kwokwai
+name:
+  en: Kwokwai Chan
+  zh: 陈国威
+born: null
+died: null
+nationality: Chinese
+gender: male
+photo_url: null
+career_timeline:
+  - period: "2004-2008"
+    type: education
+    institution: cuhk
+    role: "博士, 数学"
+    advisor: leung-naichung
+    notes: "[待验证] CUHK PhD, 导师 Naichung Conan Leung"
+  - period: "present"
+    type: position
+    institution: cuhk
+    role: "教授"
+    notes: "香港中文大学数学系"
+research_areas:
+  - mirror-symmetry
+  - syz-mirror-symmetry
+  - geometric-quantization
+  - calabi-yau
+advisor: leung-naichung
+students: []
+key_collaborators:
+  - person: li-qin
+    since: 2015
+    topic: "Quantization of Kähler manifolds, BT operators, Rozansky-Witten"
+    papers_count: 8
+  - person: leung-naichung
+    since: 2010
+    topic: "SYZ mirror symmetry, quantization of Kähler manifolds"
+    papers_count: 15
+publications: []
+activity:
+  total_papers: null
+  active_period: "2008-present"
+external_ids: {}
+links:
+  homepage: "https://www.math.cuhk.edu.hk/people/academic-staff/chan-kwok-wai"
+personal_notes: |
+  香港中文大学数学系教授。师从 Naichung Conan Leung (CUHK)。
+  与李长征在 CUHK 读博期间同门。与李勤、Leung 长期合作做量子化。
+  SYZ mirror symmetry 方向的重要贡献者。
+sources:
+  - label: "CUHK 数学系主页"
+    url: "https://www.math.cuhk.edu.hk/people/academic-staff/chan-kwok-wai"
+tags:
+  - cuhk
+  - stub

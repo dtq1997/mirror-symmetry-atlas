@@ -1,0 +1,23 @@
+slug: snnu
+name:
+  en: "Shaanxi Normal University"
+  zh: "陕西师范大学"
+type: university
+country: China
+city: Xi'an
+location:
+  lat: 34.1549
+  lng: 108.9069
+founded: 1944
+url: "https://www.snnu.edu.cn/"
+relevance: low
+research_groups:
+  - name: "数学与统计学院"
+    topics:
+      - noncommutative-geometry
+      - lie-algebroid
+    current_members:
+      - qiao-yu
+    past_members: []
+events: []
+notes: "乔雨在此任教，方向 Lie algebroid / 量子 groupoid。"

@@ -28,6 +28,83 @@ events:
       - zhou-chunhui
       - zhou-jian
       - zong-zhengyu
+    attendees:
+      # 北京大学
+      - liu-xiaobo
+      - fang-bohan
+      - dai-bo
+      - guo-shuai
+      - you-lei
+      - wang-chongyu
+      - gui-jun
+      # 清华大学
+      - zhou-jian
+      - zong-zhengyu
+      - chen-zhuo
+      - ji-ce
+      - tang-qian
+      # 中山大学
+      - hu-jianxun
+      - li-changzheng
+      - wu-chaozhong
+      - he-weiqiang
+      - ke-huazhong
+      - hu-chuangqiang
+      - qu-haonan
+      - zhang-xuhui
+      - song-jiayu
+      - yang-yi
+      # 南方科技大学
+      - li-qin
+      - wu-longting
+      # USTC
+      - yang-di
+      - zhou-chunhui
+      - zhao-jiayi
+      # 四川大学 / 上科大 / 首师大
+      - zhang-bin
+      - tu-junwu
+      - sun-shanzhong
+      # 山东大学 / 南开 / 大湾区 / 郑大
+      - wang-xin
+      - wen-hao
+      - hu-xiaowen
+      - ding-yanqiao
+      - liu-fangjun
+      # BIMSA / 哥本哈根 / 农大 / 陕师大
+      - ryszard-nest
+      - tang-xinxing
+      - wang-luyao
+      - lang-honglei
+      - qiao-yu
+      # 外省
+      - bi-yanhui
+      - cheng-jiahao
+      - ni-dadi
+      - li-xiaobin
+      - du-chengyong
+      # 武汉大学
+      - fan-huijun
+      - zhang-huailiang
+      - rao-sheng
+      - xu-xu
+      - hong-wei
+      - cheng-zhechi
+      - yang-chenglang
+      - wang-zhiyong
+      - chao-qian
+      # 华中科技大学
+      - xiang-maosong
+      - lu-wen
+      - huan-zhen
+      - zhang-ning
+      - jin-xiaoshang
+      - zeng-haozhi
+      - zhang-qing
+      - wang-zhiyuan
+      - li-ao
+      - tan-timing
+      - zhang-wei
     topics:
       - mirror-symmetry
       - gromov-witten-theory
@@ -36,7 +113,7 @@ events:
       - moduli-spaces
       - gamma-conjecture
     url: null
-    source: "会议手册 PDF (data/conferences/2026-hust-mathphys-geometry.pdf)"
+    source: "会议手册 PDF (data/conferences/2026-hust-mathphys-geometry.pdf) + 签到表 (2026-04-17)"
     notes: |
       主办：华中科技大学数学与统计学院 + 数学中心
       会场：逸夫科技楼南楼702
@@ -53,3 +130,5 @@ events:
       - 宗正宇: Crepant Transformation Conjecture for toric CY 3-orbifolds
       - 涂君武: B-model categorical enumerative invariants, BCOV HAE
       - 邬龙挺: joint with 郭帅
+
+      签到表记录了全体参会人员（4 页手写签到），见 attendees 字段。

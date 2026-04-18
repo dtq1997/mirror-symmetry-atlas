@@ -1,0 +1,70 @@
+slug: guo-jindong
+name:
+  en: Jindong Guo
+  zh: 郭锦东
+born: null
+died: null
+nationality: Chinese
+gender: male
+photo_url: null
+career_timeline:
+  - period: "present"
+    type: education
+    institution: ustc
+    role: "博士生 [待验证]"
+    advisor: yang-di
+    notes: "USTC 数学科学学院。合作论文 address 显示 guojindong@mail.ustc.edu.cn，学生邮箱后缀，推断为杨迪博士生。[待验证]"
+research_areas:
+  - intersection-numbers
+  - integrable-hierarchy
+  - tau-function
+  - large-genus-asymptotics
+advisor: yang-di
+students: []
+key_collaborators:
+  - person: yang-di
+    since: 2021
+    topic: "Large genus asymptotics of Witten/BGW intersection numbers, matrix resolvent method"
+    papers_count: 3
+  - person: zagier
+    since: 2024
+    topic: "Uniform large genus asymptotics for BGW and Witten numbers"
+    papers_count: 2
+publications:
+  - id: "2603.15233"
+    title: "On uniform large genus asymptotics of Witten's intersection numbers"
+    year: 2026
+    coauthors: [yang-di, zagier]
+  - id: "2412.20388"
+    title: "Combinatorics and large genus asymptotics of the Brézin--Gross--Witten numbers"
+    year: 2024
+    coauthors: [yang-di, zagier, "Paul Norbury"]
+  - id: "2110.06774"
+    title: "On the large genus asymptotics of psi-class intersection numbers"
+    year: 2021
+    coauthors: [yang-di]
+activity:
+  total_papers: 3
+  active_period: "2021-present"
+  peak_period: "2024-present"
+external_ids: {}
+links: {}
+personal_notes: |
+  杨迪的合作者 (推测为博士生 [待验证])，USTC 数学科学学院。
+  共同署名 3 篇关于 Witten 交点数 / BGW 数大亏格渐近的论文：
+  - 2110.06774 (2021, 与杨迪) — 首篇合作，psi-类交点数大亏格渐近
+  - 2412.20388 (2024, 与 Norbury, 杨迪, Zagier) — BGW 数均匀大亏格渐近
+  - 2603.15233 (2026, 与杨迪, Zagier) — Witten 交点数均匀大亏格渐近
+
+  2026 HUST 会议上杨迪的报告明确点名郭锦东为矩阵预解方法关键技术合作者。
+  代表性贡献：推导 KdV tau 函数的高阶对数导数恒等式，从中导出
+  $C(4, \dd) \ge C(0^{12}, \dd)$ 等关键不等式，突破 Aggarwal 的 $n = o(\sqrt{g})$ 限制。
+sources:
+  - label: "arXiv paper 2603.15233"
+    url: "https://arxiv.org/abs/2603.15233"
+  - label: "arXiv paper 2412.20388"
+    url: "https://arxiv.org/abs/2412.20388"
+tags:
+  - ustc
+  - student
+  - stub

@@ -1,0 +1,29 @@
+slug: twistor-structures
+name:
+  en: Twistor Structures
+  zh: Twistor 结构
+aliases:
+  - twistor structure
+category: geometric-structure
+difficulty: research-frontier
+discipline: math
+year_introduced: null
+introduced_by: []
+definition: |
+  流形 $M$ 上带整合反线性对合的 $\mathbb{P}^1$-族全纯向量丛结构。
+  Hertling 等人在 TERP (Twistor-Endomorphism-Riemann-Pairing) 结构
+  和 non-commutative Hodge 理论框架下将其发展为统一 $tt^*$-几何、
+  奇点理论、pure twistor $D$-module 的工具。
+dual_to: null
+prerequisites:
+  - tt-star-geometry
+leads_to: []
+related:
+  - singularity-theory
+  - frobenius-manifold
+key_people:
+  - hertling
+  - sabbah
+key_papers: []
+tags:
+  - layer-2

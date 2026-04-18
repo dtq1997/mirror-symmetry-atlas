@@ -1,0 +1,26 @@
+slug: copenhagen
+name:
+  en: "University of Copenhagen"
+  zh: "哥本哈根大学"
+  local: "Københavns Universitet"
+type: university
+country: Denmark
+city: Copenhagen
+location:
+  lat: 55.6804
+  lng: 12.5720
+founded: 1479
+url: "https://www.ku.dk/"
+relevance: medium
+research_groups:
+  - name: "Department of Mathematical Sciences"
+    topics:
+      - noncommutative-geometry
+      - k-theory
+      - cyclic-homology
+    current_members:
+      - ryszard-nest
+    past_members: []
+events: []
+notes: |
+  Ryszard Nest 长期在此任教，研究非交换几何、循环同调与指标理论。

@@ -1,0 +1,36 @@
+slug: landau-ginzburg
+name:
+  en: Landau-Ginzburg Model
+  zh: Landau-Ginzburg 模型
+aliases:
+  - LG model
+  - LG mirror symmetry
+category: equation
+difficulty: advanced
+discipline: both
+year_introduced: null
+introduced_by: []
+definition: |
+  由多项式势函数 $W: \mathbb{C}^n \to \mathbb{C}$ 定义的 $N=2$
+  超对称场论。在镜像对称框架中，奇点 LG 模型与 Calabi-Yau
+  的 sigma 模型对应（通过 Kyoji Saito 的 primitive forms
+  或 FJRW theory）。B-模型侧为矩阵分解范畴，A-模型侧为
+  Fan-Jarvis-Ruan-Witten 理论。
+dual_to: calabi-yau
+prerequisites:
+  - singularity-theory
+leads_to:
+  - fjrw-theory
+  - primitive-forms
+  - mirror-symmetry
+related:
+  - homological-mirror-symmetry
+  - derived-category
+key_people:
+  - si-li
+  - he-weiqiang
+  - k-saito
+  - ruan-yongbin
+key_papers: []
+tags:
+  - layer-1

@@ -1,0 +1,37 @@
+slug: intersection-numbers
+name:
+  en: Intersection Numbers on Moduli Spaces
+  zh: 模空间上的交点数
+aliases:
+  - psi-class intersection numbers
+  - Witten intersection numbers
+category: equation
+difficulty: advanced
+discipline: math
+year_introduced: 1991
+introduced_by: []
+definition: |
+  曲线模空间 $\bar{\mathcal{M}}_{g,n}$ 上 $\psi$-类的交点数
+  $\langle \tau_{d_1} \cdots \tau_{d_n} \rangle_g = \int_{\bar{\mathcal{M}}_{g,n}} \psi_1^{d_1} \cdots \psi_n^{d_n}$。
+  Witten 猜想其生成函数是 KdV hierarchy 的 $\tau$-函数，
+  由 Kontsevich 证明（1992）。是 Gromov-Witten 理论、
+  拓扑递归、矩阵模型的核心量。
+dual_to: null
+prerequisites:
+  - moduli-spaces
+leads_to:
+  - tau-function
+  - topological-recursion
+related:
+  - gromov-witten-theory
+  - virasoro-constraints
+key_people:
+  - kontsevich
+  - liu-xiaobo
+  - yang-chenglang
+  - guo-jindong
+  - yang-di
+  - zagier
+key_papers: []
+tags:
+  - layer-1

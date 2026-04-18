@@ -1,0 +1,33 @@
+slug: pku
+name:
+  en: "Peking University"
+  zh: "北京大学"
+type: university
+country: China
+city: Beijing
+location:
+  lat: 39.9929
+  lng: 116.3058
+founded: 1898
+url: "https://www.pku.edu.cn/"
+relevance: high
+research_groups:
+  - name: "数学科学学院"
+    topics:
+      - gromov-witten-theory
+      - differential-geometry
+      - mathematical-physics
+    current_members:
+      - liu-xiaobo
+      - dai-bo
+      - fang-bohan
+      - guo-shuai
+    past_members:
+      - wu-longting
+      - wang-xin
+      - yang-chenglang
+events: []
+notes: |
+  北京大学数学科学学院是国内数学研究的顶级机构之一。
+  BICMR（北京国际数学研究中心）是其国际化研究平台，单独建档 pku-bicmr。
+  刘小博的 Gromov-Witten 学派（王新、杨成浪、邬龙挺等）是本平台核心追踪对象。

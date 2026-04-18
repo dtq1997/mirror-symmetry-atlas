@@ -1,0 +1,25 @@
+slug: bonn
+name:
+  en: "University of Bonn"
+  zh: "波恩大学"
+  local: "Rheinische Friedrich-Wilhelms-Universität Bonn"
+type: university
+country: Germany
+city: Bonn
+location:
+  lat: 50.7336
+  lng: 7.1016
+founded: 1818
+url: "https://www.uni-bonn.de/"
+relevance: medium
+research_groups:
+  - name: "Hausdorff Center for Mathematics"
+    topics:
+      - algebraic-geometry
+      - mathematical-physics
+    current_members: []
+    past_members:
+      - hertling
+      - kontsevich
+events: []
+notes: "Brieskorn 在此培养了 Hertling 等奇点理论学生。"

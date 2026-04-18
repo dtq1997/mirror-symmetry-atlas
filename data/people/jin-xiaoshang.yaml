@@ -1,0 +1,157 @@
+slug: jin-xiaoshang
+name:
+  en: Xiaoshang Jin
+  zh: 靳晓尚
+born: null
+died: null
+nationality: Chinese
+gender: male
+photo_url: null
+career_timeline:
+  - period: "2009.9-2013.6"
+    type: education
+    institution: nanjing
+    role: "本科, 数学"
+    notes: "南京大学"
+  - period: "2013.9-2018.9"
+    type: education
+    institution: nanjing
+    role: "博士, 基础数学"
+    advisor: null
+    notes: "南京大学 [待验证] 导师"
+  - period: "2017.9-2018.8"
+    type: visit
+    institution: null
+    role: "访问学生"
+    notes: "美国加州大学圣克鲁兹分校 (UC Santa Cruz). 其间与 Jie Qing 合作 CCE 流形紧致性问题"
+  - period: "2018.10-2020.9"
+    type: position
+    institution: pku-bicmr
+    role: "博士后"
+    notes: "北京大学北京国际数学研究中心. 受中国博士后基金 (2019M650287) 资助"
+  - period: "2020.9-2023.12"
+    type: position
+    institution: hust
+    role: "讲师"
+    notes: "华中科技大学数学与统计学院"
+  - period: "2024.1-present"
+    type: position
+    institution: hust
+    role: "副教授, 硕士生导师"
+    notes: "华中科技大学数学与统计学院"
+research_areas:
+  - conformal-geometry
+  - geometric-analysis
+  - conformally-compact-einstein
+  - asymptotically-hyperbolic-einstein
+  - cr-geometry
+  - p-laplacian
+advisor: null
+students: []
+key_collaborators:
+  - person: "Sun-Yung A. Chang"
+    since: 2021
+    topic: "Conformally compact Einstein 流形紧致性, Graham-Lee 度量唯一性"
+    papers_count: 1
+    notes: "Princeton"
+  - person: "Jie Qing"
+    since: 2021
+    topic: "CCE 流形紧致性, Graham-Lee 度量唯一性"
+    papers_count: 1
+    notes: "UC Santa Cruz"
+  - person: "Yuxin Ge"
+    since: 2021
+    topic: "CCE 流形紧致性"
+    papers_count: 1
+    notes: "Toulouse"
+  - person: "Jie Xiao"
+    since: 2025
+    topic: "Hyperbolic capacities, capacity-volume estimates"
+    papers_count: 2
+    notes: "Memorial University"
+  - person: "Zhiwei Lü"
+    since: 2025
+    topic: "Principal p-frequency estimates, p-Laplacian"
+    papers_count: 2
+  - person: "Jiabin Yin"
+    since: 2024
+    topic: "Willmore-type inequality, asymptotic geometric quantities"
+    papers_count: 2
+publications:
+  - id: "2604.14600"
+    title: "Relations of Four Asymptotic Geometric Quantities in Riemannian Geometry"
+    year: 2026
+    coauthors: ["Jiabin Yin"]
+  - id: "2601.14018"
+    title: "Principal p-frequency estimates on non-compact manifolds with negative Ricci curvature"
+    year: 2026
+    coauthors: ["Zhiwei Lü"]
+  - id: "2504.09856"
+    title: "Estimate for the first Dirichlet eigenvalue of p-Laplacian on non-compact manifolds"
+    year: 2025
+    coauthors: ["Zhiwei Lü"]
+  - id: "2502.13666"
+    title: "Essential p-capacity-volume estimates for rotationally symmetric manifolds"
+    year: 2025
+    coauthors: ["Jie Xiao"]
+  - id: "2502.13651"
+    title: "Sharply estimating hyperbolic capacities"
+    year: 2025
+    coauthors: ["Jie Xiao"]
+  - id: "2405.02669"
+    title: "Lower bound for the first eigenvalue of p-Laplacian and applications in asymptotically hyperbolic manifolds"
+    year: 2024
+    coauthors: []
+  - id: "2402.02465"
+    title: "Willmore-type inequality for closed hypersurfaces in complete manifolds with Ricci curvature bounded below"
+    year: 2024
+    coauthors: ["Jiabin Yin"]
+  - id: "2307.16439"
+    title: "Asymptotic behavior of the first Dirichlet eigenvalue of AHE manifolds"
+    year: 2023
+    coauthors: []
+  - id: "2305.16027"
+    title: "Rigidity for inscribed radius estimate of asymptotically hyperbolic Einstein manifolds"
+    year: 2023
+    coauthors: []
+  - id: "2207.02012"
+    title: "The relative volume function and the capacity of sphere on asymptotically hyperbolic manifolds"
+    year: 2022
+    coauthors: []
+  - id: "2110.09830"
+    title: "Boundary Estimate of Asymptotically Hyperbolic Einstein Manifolds of Even Dimension"
+    year: 2021
+    coauthors: []
+  - id: "2107.03075"
+    title: "On compactness conformally compact Einstein manifolds and uniqueness of Graham-Lee metrics, III"
+    year: 2021
+    coauthors: ["Sun-Yung A. Chang", "Yuxin Ge", "Jie Qing"]
+  - id: "1911.01885"
+    title: "Finite Boundary Regularity for Conformally Compact Einstein Manifolds of Dimension 4"
+    year: 2019
+    coauthors: []
+    journal: "J. Geom. Anal. (2020)"
+  - id: "1801.04512"
+    title: "Boundary Regularity for Asymptotically Hyperbolic Metrics with Smooth Weyl Curvature"
+    year: 2018
+    coauthors: []
+activity:
+  total_papers: 14
+  active_period: "2018-present"
+external_ids: {}
+links:
+  homepage: "http://faculty.hust.edu.cn/jinxiaoshang/zh_CN/index.htm"
+personal_notes: |
+  HUST 数学与统计学院副教授（2024 年起）。
+  学术路径：南大本硕博 (2009-2018) → UCSC 访问 (2017-2018) → PKU BICMR 博后 (2018-2020)
+  → HUST 讲师 (2020-2023) → HUST 副教授 (2024-)。
+  研究方向：共形几何、几何分析，具体为 conformally compact Einstein (CCE) 流形的边界正则性、
+  紧致性与特征值估计，近年拓展到 p-Laplacian 和 Willmore 不等式。
+  UCSC 访问期与 Jie Qing 合作，并由此进入 Chang-Ge-Qing 的 CCE 紧致性研究圈
+  (2021 年 Graham-Lee 度量唯一性 Part III 是代表作)。
+  [待验证] 南大博士导师，UCSC 访问导师很可能就是 Jie Qing。
+sources:
+  - label: "HUST faculty page"
+    url: "http://faculty.hust.edu.cn/jinxiaoshang/zh_CN/index.htm"
+tags:
+  - hust

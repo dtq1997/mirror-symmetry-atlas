@@ -22,7 +22,7 @@ career_timeline:
     type: education
     institution: cuhk
     role: "PhD"
-    advisor: "Naichung Conan Leung"
+    advisor: leung-naichung
     notes: "香港中文大学，导师梁乃聪。论文: Quantum cohomology of homogeneous varieties"
   - period: "2009-2011"
     type: position
@@ -57,10 +57,10 @@ research_areas:
   - quantum-k-theory
   - primitive-forms
   - flag-varieties
-advisor: "Naichung Conan Leung"
+advisor: leung-naichung
 students: []
 key_collaborators:
-  - person: "Naichung Conan Leung"
+  - person: leung-naichung
     since: 2008
     topic: "Quantum cohomology of flag varieties, Pieri rules, GW invariants"
     papers_count: 7
@@ -72,7 +72,7 @@ key_collaborators:
     since: 2019
     topic: "Gamma conjecture, quantum cohomology, mirror symmetry for blowups"
     papers_count: 5
-  - person: "Jianxun Hu"
+  - person: hu-jianxun
     since: 2019
     topic: "Gamma conjecture, Galkin's conjecture, quantum cohomology of blowups"
     papers_count: 5
@@ -88,7 +88,7 @@ key_collaborators:
     since: 2024
     topic: "Plücker coordinate mirror, quantum Schubert calculus, G/P Schubert varieties"
     papers_count: 3
-  - person: "Si Li"
+  - person: si-li
     since: 2013
     topic: "Primitive forms, mirror symmetry for exceptional singularities"
     papers_count: 2

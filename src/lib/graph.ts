@@ -50,11 +50,23 @@ export function getForceParams(nodeCount: number) {
 // ===== Node radius by importance =====
 
 function personRadius(p: Person): number {
+  const tags = p.tags || [];
+  if (tags.includes("important-person")) return 10;
+  if (tags.includes("stub")) return 3.5;
+  if (
+    tags.includes("senior-researcher") ||
+    tags.includes("fields-medal") ||
+    tags.includes("jieqing")
+  )
+    return 9;
+
   const desc = p.activity?.academic_descendants ?? 0;
   const papers = p.activity?.total_papers ?? 0;
   if (desc > 100 || papers > 150) return 10;
   if (desc > 30 || papers > 80) return 8;
-  if (desc > 10 || papers > 40) return 6;
+  if (desc > 10 || papers > 40) return 7;
+  if (papers > 15) return 6;
+  if (papers > 5) return 5;
   return 4;
 }
 

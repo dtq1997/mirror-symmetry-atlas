@@ -1,0 +1,185 @@
+slug: chen-zhuo
+name:
+  en: Zhuo Chen
+  zh: 陈酌
+born: null
+died: null
+nationality: Chinese
+gender: male
+photo_url: null
+career_timeline:
+  - period: "~2000-2004"
+    type: education
+    institution: pku
+    role: "博士, 基础数学"
+    advisor: liu-zhangju
+    notes: "北京大学数学科学学院，导师刘张炬 (Zhang-Ju Liu)，学位论文 On transitive Lie bialgebroids and Poisson groupoids"
+  - period: "2004-2006"
+    type: position
+    institution: capital-normal
+    role: "博士后"
+    notes: "首都师范大学数学科学学院"
+  - period: "2006-2008"
+    type: position
+    institution: pku
+    role: "博士后"
+    notes: "北京大学数学科学学院"
+  - period: "2008-2009"
+    type: position
+    institution: penn-state
+    role: "讲师 (Lecturer)"
+    notes: "美国宾夕法尼亚州立大学数学系，与 Ping Xu / Mathieu Stiénon 合作"
+  - period: "2009-present"
+    type: position
+    institution: tsinghua
+    role: "讲师 → 副教授 (长聘)"
+    notes: "清华大学数学科学系，博士生导师，微分几何与几何分析团队"
+  - period: "2013"
+    type: award
+    title: "北京市科协青年优秀科技论文一等奖"
+  - period: "2014"
+    type: award
+    title: "清华大学学术新人奖"
+research_areas:
+  - poisson-geometry
+  - lie-algebroid
+  - courant-algebroid
+  - atiyah-class
+  - deformation-quantization
+  - homotopy-algebra
+advisor: liu-zhangju
+students: []
+key_collaborators:
+  - person: "Ping Xu"
+    since: 2008
+    topic: "Lie bialgebroids, Courant algebroids, Atiyah classes, dynamical twists"
+    papers_count: 10
+    notes: "Penn State 长期合作者"
+  - person: "Mathieu Stiénon"
+    since: 2008
+    topic: "Regular Courant algebroids, Atiyah classes, Lie pairs, homotopy Leibniz algebras"
+    papers_count: 8
+    notes: "Penn State 长期合作者"
+  - person: liu-zhangju
+    since: 2005
+    topic: "Transitive Lie bialgebroids, Poisson groupoids, Courant algebroids"
+    papers_count: 3
+    notes: "博士导师"
+  - person: "Ruggero Bandiera"
+    since: 2017
+    topic: "Shifted derived Poisson manifolds, Lie pairs"
+    papers_count: 2
+publications:
+  - id: "2512.03860"
+    title: "Infinitesimal deformations of Lie algebroid pairs"
+    year: 2025
+    coauthors: []
+  - id: "2512.03391"
+    title: "From n-systems to Lie and Courant algebroids"
+    year: 2025
+    coauthors: []
+  - id: "2508.02019"
+    title: "Brace $B_\\infty$ algebras associated with Hopf algebroids"
+    year: 2025
+    coauthors: []
+  - id: "2506.18360"
+    title: "Atiyah constructions for Lie algebroid connections on fiber bundles"
+    year: 2025
+    coauthors: []
+  - id: "2412.09039"
+    title: "From smooth dynamical twists to twistors of quantum groupoids"
+    year: 2024
+    coauthors: []
+  - id: "2309.04180"
+    title: "The geometric constraints on Filippov algebroids"
+    year: 2023
+    coauthors: []
+  - id: "2302.01294"
+    title: "The weak Lie 2-algebra of multiplicative forms on a quasi-Poisson groupoid"
+    year: 2023
+    coauthors: []
+  - id: "2210.01999"
+    title: "Locally finite infinity-modules and weak Loday-Pirashvili modules over differential graded Lie algebras"
+    year: 2022
+    coauthors: []
+  - id: "2206.10091"
+    title: "Dirac generating operators of split Courant algebroids"
+    year: 2022
+    coauthors: []
+  - id: "2201.13068"
+    title: "Internal symmetry of the $L_{\\leqslant 3}$ algebra arising from a Lie pair"
+    year: 2022
+    coauthors: []
+  - id: "2201.06242"
+    title: "Multiplicative forms on Poisson groupoids"
+    year: 2022
+    coauthors: []
+  - id: "2110.11623"
+    title: "Dg Loday-Pirashvili modules over Lie algebras"
+    year: 2021
+    coauthors: []
+  - id: "2105.15019"
+    title: "The standard cohomology of regular Courant algebroids"
+    year: 2021
+    coauthors: []
+  - id: "2103.08096"
+    title: "Hochschild cohomology of dg manifolds associated to integrable distributions"
+    year: 2021
+    coauthors: []
+  - id: "2003.13384"
+    title: "On the reduced space of multiplicative multivectors"
+    year: 2020
+    coauthors: []
+  - id: "1712.00665"
+    title: "Shifted derived Poisson manifolds associated with Lie pairs"
+    year: 2017
+    coauthors: ["Ruggero Bandiera", "Mathieu Stiénon", "Ping Xu"]
+  - id: "1204.1075"
+    title: "From Atiyah Classes to Homotopy Leibniz Algebras"
+    year: 2012
+    coauthors: ["Mathieu Stiénon", "Ping Xu"]
+    notes: "Comm. Math. Phys. 341 (2016), 309-349 - 代表作"
+  - id: "1202.0079"
+    title: "Poisson 2-groups"
+    year: 2012
+    coauthors: ["Mathieu Stiénon", "Ping Xu"]
+  - id: "1109.2290"
+    title: "Weak Lie 2-bialgebra"
+    year: 2011
+    coauthors: ["Mathieu Stiénon", "Ping Xu"]
+  - id: "0909.0319"
+    title: "On Regular Courant Algebroids"
+    year: 2009
+    coauthors: ["Mathieu Stiénon", "Ping Xu"]
+    notes: "J. Symplectic Geom. 11 (2013), 1-24"
+  - id: "0904.4062"
+    title: "Geometry of Maurer-Cartan Elements on Complex Manifolds"
+    year: 2009
+    coauthors: ["Mathieu Stiénon", "Ping Xu"]
+activity:
+  total_papers: 21
+  active_period: "2005-present"
+  peak_period: "2020-present"
+external_ids:
+  mathgenealogy: "176253"
+links:
+  homepage: null
+  freekaoyan: "http://school.freekaoyan.com/bj/tsinghua/daoshi/2020/04-16/15870262981089851.shtml"
+personal_notes: |
+  北大博士（2004, 导师刘张炬）→ 首师大博后 → 北大博后 → Penn State 讲师 → 清华副教授 (2009-)。
+  核心研究：Poisson 几何、Lie algebroid / Courant algebroid、Atiyah class、形变量子化。
+  与 Penn State 的 Ping Xu、Mathieu Stiénon 长期合作，代表作包括 Atiyah Classes to Homotopy
+  Leibniz Algebras (CMP 2016)、Regular Courant Algebroids (J. Symplectic Geom. 2013)、
+  Poisson 2-groups 等。
+  2013 北京市科协青年优秀科技论文一等奖；2014 清华大学学术新人奖。
+  师承路径: 刘张炬 (PKU) → 陈酌 (Tsinghua)。刘张炬是中国 Poisson 几何学派的代表人物。
+  2026 HUST 会议参会人员 (未做邀请报告)。
+sources:
+  - label: "Math Genealogy"
+    url: "https://www.mathgenealogy.org/id.php?id=176253"
+  - label: "清华数学系教师信息 (freekaoyan 转载)"
+    url: "http://school.freekaoyan.com/bj/tsinghua/daoshi/2020/04-16/15870262981089851.shtml"
+  - label: "清华数学系微分几何与几何分析团队介绍"
+    url: "https://www.math.tsinghua.edu.cn/info/1013/1639.htm"
+tags:
+  - tsinghua

@@ -1,0 +1,36 @@
+slug: topological-recursion
+name:
+  en: Topological Recursion
+  zh: 拓扑递归
+aliases:
+  - Eynard-Orantin topological recursion
+  - EO recursion
+category: technique
+difficulty: advanced
+discipline: both
+year_introduced: 2007
+introduced_by: []
+definition: |
+  Eynard-Orantin 引入的递归算法：从谱曲线 $\Sigma$（带
+  Bergman 核）出发，递归生成多微分 $\omega_{g,n}$，满足
+  $$
+  \omega_{g,n+1}(z, z_1, \ldots, z_n) = \sum_{q \in \text{branch}} \text{Res}_{z' \to q} K(z, z') \cdot [\text{split}(\omega_{g-1,n+2}, \omega_{g_i, n_i})].
+  $$
+  统一涵盖矩阵模型、Mirzakhani 体积、Weil-Petersson 体积、
+  Gromov-Witten 不变量、Hurwitz 数等枚举几何量。
+dual_to: null
+prerequisites:
+  - moduli-spaces
+leads_to:
+  - intersection-numbers
+related:
+  - mirror-symmetry
+  - tau-function
+key_people:
+  - liu-melissa
+  - zhang-qingsheng
+  - zong-zhengyu
+  - wang-luyao
+key_papers: []
+tags:
+  - layer-1

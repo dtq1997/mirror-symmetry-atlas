@@ -1,0 +1,27 @@
+slug: columbia
+name:
+  en: "Columbia University"
+  zh: "哥伦比亚大学"
+type: university
+country: USA
+city: New York
+location:
+  lat: 40.8075
+  lng: -73.9626
+founded: 1754
+url: "https://www.columbia.edu/"
+relevance: medium
+research_groups:
+  - name: "Department of Mathematics"
+    topics:
+      - gromov-witten-theory
+      - algebraic-geometry
+      - mirror-symmetry
+    current_members:
+      - liu-melissa
+    past_members:
+      - zong-zhengyu
+      - fang-bohan
+      - wang-xin
+events: []
+notes: "刘秋菊（Chiu-Chu Melissa Liu）在此培养了宗正宇等 GW 理论学生。"

@@ -1,0 +1,30 @@
+slug: enumerative-geometry
+name:
+  en: Enumerative Geometry
+  zh: 枚举几何
+aliases: []
+category: technique
+difficulty: intermediate
+discipline: math
+year_introduced: null
+introduced_by: []
+definition: |
+  经典意义：计数满足给定几何条件的几何对象的学科（如直线穿过 4 条
+  直线、二次曲线切 5 条直线等）。现代枚举几何借助 Gromov-Witten
+  不变量、Donaldson-Thomas 不变量、FJRW 不变量等量子化数值实现，
+  与镜像对称、可积 hierarchy 紧密相连。
+dual_to: null
+prerequisites: []
+leads_to:
+  - gromov-witten-theory
+  - fjrw-theory
+related:
+  - mirror-symmetry
+  - moduli-spaces
+key_people:
+  - kontsevich
+  - ding-yanqiao
+  - wu-longting
+key_papers: []
+tags:
+  - layer-0

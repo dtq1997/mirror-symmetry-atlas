@@ -1,0 +1,155 @@
+slug: zhang-qing
+name:
+  en: Qing Zhang
+  zh: 张庆
+born: null
+died: null
+nationality: Chinese
+gender: male
+photo_url: null
+career_timeline:
+  - period: "2004.9-2008.6"
+    type: education
+    institution: null
+    role: "本科, 数学"
+    notes: "浙江大学"
+  - period: "2008.9-2010.6"
+    type: education
+    institution: amss
+    role: "硕士, 数学"
+    notes: "中国科学院数学与系统科学研究院"
+  - period: "2010.8-2016.8"
+    type: education
+    institution: null
+    role: "博士, 数学"
+    advisor: null
+    notes: "美国俄亥俄州立大学 (The Ohio State University) [待验证] 导师，推测在 p-adic 群表示方向"
+  - period: "2016-[待验证]"
+    type: position
+    institution: null
+    role: "博士后"
+    notes: "[待验证] 可能在 University of Calgary (Clifton Cunningham 合作者处) 或 Texas A&M"
+  - period: "[待验证]-present"
+    type: position
+    institution: hust
+    role: "讲师/副教授 [待验证具体职称]"
+    notes: "华中科技大学数学与统计学院, 基础数学"
+research_areas:
+  - p-adic-representations
+  - automorphic-representations
+  - l-functions
+  - number-theory
+  - arthur-packets
+  - rankin-selberg
+  - local-converse-theorems
+advisor: null
+students: []
+key_collaborators:
+  - person: "Clifton Cunningham"
+    since: 2020
+    topic: "Arthur packets for G_2, perverse sheaves on cubics, ABV-packets, unipotent representations"
+    papers_count: 4
+    notes: "University of Calgary; 长期合作者"
+  - person: "Andrew Fiori"
+    since: 2020
+    topic: "Arthur packets, ABV-packets, unipotent representations"
+    papers_count: 4
+  - person: "Baiying Liu"
+    since: 2018
+    topic: "G_2 converse theorem, Arthur representations, unitary dual"
+    papers_count: 3
+    notes: "Purdue University"
+  - person: "Pan Yan"
+    since: 2023
+    topic: "Rankin-Selberg convolutions, local converse theorem for SO(4)"
+    papers_count: 2
+  - person: "Dihua Jiang"
+    since: 2024
+    topic: "Arthur representations, complementary representations, unitary dual"
+    papers_count: 2
+  - person: "Sarah Dijols"
+    since: 2024
+    topic: "ABV-packets, generic representations"
+    papers_count: 2
+publications:
+  - id: "2505.11381"
+    title: "On the complementary Arthur representations and unitary dual for p-adic classical groups"
+    year: 2025
+    coauthors: ["Alexander Hazeltine", "Dihua Jiang", "Baiying Liu", "Chi-Heng Lo"]
+  - id: "2504.04163"
+    title: "Representations of p-adic groups and orbits with smooth closure in a variety of Langlands parameters"
+    year: 2025
+    coauthors: ["Kristaps Balodis", "Clifton Cunningham", "Andrew Fiori"]
+  - id: "2412.06824"
+    title: "Whittaker normalization of p-adic ABV-packets and Vogan's conjecture for tempered"
+    year: 2024
+    coauthors: ["Clifton Cunningham", "Sarah Dijols", "Andrew Fiori"]
+  - id: "2410.11806"
+    title: "On Arthur representations and the unitary dual"
+    year: 2024
+    coauthors: ["Alexander Hazeltine", "Dihua Jiang", "Baiying Liu", "Chi-Heng Lo"]
+  - id: "2404.07463"
+    title: "Generic representations, open parameters and ABV-packets for p-adic groups"
+    year: 2024
+    coauthors: ["Clifton Cunningham", "Sarah Dijols", "Andrew Fiori"]
+  - id: "2309.10445"
+    title: "Product of Rankin-Selberg convolutions and a new proof of Jacquet's local converse conjecture"
+    year: 2023
+    coauthors: ["Pan Yan"]
+  - id: "2302.06256"
+    title: "On a refined local converse theorem for SO(4)"
+    year: 2023
+    coauthors: ["Pan Yan"]
+  - id: "2209.03816"
+    title: "The closure ordering conjecture on local Arthur packets of classical groups"
+    year: 2022
+    coauthors: ["Alexander Hazeltine", "Baiying Liu", "Chi-Heng Lo"]
+  - id: "2101.04578"
+    title: "Toward the endoscopic classification of unipotent representations of p-adic G_2"
+    year: 2021
+    coauthors: ["Clifton Cunningham", "Andrew Fiori"]
+  - id: "2009.05980"
+    title: "On a Rankin-Selberg integral of the L-function for SL_2~ × GL_2"
+    year: 2020
+    coauthors: []
+  - id: "2005.02438"
+    title: "Arthur packets for G_2 and perverse sheaves on cubics"
+    year: 2020
+    coauthors: ["Clifton Cunningham", "Andrew Fiori"]
+  - id: "1811.10472"
+    title: "On a converse theorem for G_2 over finite fields"
+    year: 2018
+    coauthors: ["Baiying Liu"]
+  - id: "1810.11901"
+    title: "Uniqueness of certain Fourier-Jacobi models over finite fields"
+    year: 2018
+    coauthors: ["Baiying Liu"]
+  - id: "1808.06285"
+    title: "Adjoint L-functions for GL(3) and U(2,1)"
+    year: 2018
+    coauthors: ["Joseph Hundley"]
+activity:
+  total_papers: 14
+  active_period: "2018-present"
+  notes: "仅数论/表示论方向。arXiv 上的 modular categories / quantum algebra 方向的 Qing Zhang (与 Eric Rowell 合作) 是另一位同名作者"
+external_ids:
+  mathscinet: "199229"
+links:
+  homepage: "http://faculty.hust.edu.cn/zhangqing1234/zh_CN/index.htm"
+personal_notes: |
+  HUST 数学与统计学院。研究方向：p-adic 群表示、自守表示、L-函数、数论。
+  学术路径：浙大本科 (2008) → AMSS/中科院数学所硕士 (2008-2010) → OSU 博士 (2010-2016)
+  → HUST。OSU 博士后阶段无公开信息，期间已与 Baiying Liu (Purdue) 合作。
+  核心合作网络：Clifton Cunningham (Calgary) 的 Arthur packets / ABV-packets 项目；
+  Baiying Liu (Purdue) 的 Arthur representations / 局部 converse theorem 项目。
+  2020 年 "Arthur packets for G_2" (joint with Cunningham, Fiori) 是代表作之一。
+  注: "张庆"与"张庆生"(zhang-qingsheng, 清华) 是不同人；arXiv 有多位 Qing Zhang，
+  本页仅收录 HUST p-adic 表示论方向的 Qing Zhang。
+sources:
+  - label: "HUST faculty page"
+    url: "http://faculty.hust.edu.cn/zhangqing1234/zh_CN/index.htm"
+  - label: "MathSciNet ID 199229"
+    url: "https://mathscinet.ams.org/mathscinet/search/author.html?mrauthid=199229"
+tags:
+  - hust
+  - name-ambiguity

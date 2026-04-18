@@ -1,0 +1,191 @@
+slug: rao-sheng
+name:
+  en: Sheng Rao
+  zh: 饶胜
+born: null
+died: null
+nationality: Chinese
+gender: male
+photo_url: null
+career_timeline:
+  - period: "[?]-2011"
+    type: education
+    institution: null
+    role: "博士"
+    advisor: null
+    notes: "博士导师 [待验证]。可能师从刘克峰(Kefeng Liu)等 (早期合作模式推断)"
+  - period: "2011-2013"
+    type: position
+    institution: zju-ims
+    role: "博士后"
+    notes: "浙江大学数学科学研究中心 (2011.7-2013.9)"
+  - period: "2013-2015"
+    type: position
+    institution: wuhan
+    role: "讲师"
+    notes: "武汉大学数学与统计学院 (2013.10-2015.11)"
+  - period: "2015-2019"
+    type: position
+    institution: wuhan
+    role: "副教授"
+    notes: "武汉大学数学与统计学院 (2015.11-2019.10)"
+  - period: "2019-present"
+    type: position
+    institution: wuhan
+    role: "教授、博士生导师"
+    notes: "武汉大学数学与统计学院，2019.10 起"
+research_areas:
+  - complex-geometry
+  - several-complex-variables
+  - hodge-theory
+  - kodaira-spencer
+  - deformation-theory
+  - moishezon-manifolds
+  - calabi-yau-deformation
+  - kahler-geometry
+  - p-kahler-structure
+  - dolbeault-cohomology
+advisor: null
+students: []
+key_collaborators:
+  - person: "Kefeng Liu"
+    since: 2011
+    topic: "Cartan formula, Torelli theorems, Calabi-Yau deformation, quasi-isometry, logarithmic forms"
+    papers_count: 4
+  - person: "Quanting Zhao"
+    since: 2012
+    topic: "Torelli theorems, complex structures, p-Kahler stability, Hodge numbers extension"
+    papers_count: 4
+  - person: "I-Hsun Tsai"
+    since: 2019
+    topic: "Moishezon manifolds deformation, plurigenera invariance, bimeromorphic types"
+    papers_count: 3
+  - person: "Mu-Lin Li"
+    since: 2024
+    topic: "Moishezon limits, nef adjoint canonical bundles, rigidity"
+    papers_count: 3
+  - person: "Xueyuan Wan"
+    since: 2016
+    topic: "Kahler and balanced local stability, logarithmic forms"
+    papers_count: 2
+  - person: "Song Yang"
+    since: 2017
+    topic: "Dolbeault cohomology of blow-ups"
+    papers_count: 3
+  - person: "Xiangdong Yang"
+    since: 2017
+    topic: "Dolbeault cohomology of blow-ups"
+    papers_count: 3
+  - person: "Jian Chen"
+    since: 2020
+    topic: "L^2 extension, bimeromorphism fiberwise"
+    papers_count: 2
+  - person: "Christopher D. Hacon"
+    since: 2026
+    topic: "Adjoint classes in Kahler families"
+    papers_count: 1
+publications:
+  - id: "2602.04158"
+    title: "On Pseudo-Effectivity and Volumes of Adjoint Classes in Kähler Families with Projective Central Fiber"
+    year: 2026
+    coauthors: ["Christopher D. Hacon", "Yi Li"]
+  - id: "2510.23967"
+    title: "Deformation of nef adjoint canonical line bundles"
+    year: 2025
+    coauthors: ["Mu-Lin Li", "Kai Wang"]
+  - id: "2509.05707"
+    title: "Rigidity for compact hyperbolic complex manifolds"
+    year: 2025
+    coauthors: ["Mu-Lin Li", "Mengjiao Wang"]
+  - id: "2506.12670"
+    title: "Characterization of fiberwise bimeromorphism and specialization of bimeromorphic types I"
+    year: 2025
+    coauthors: ["Jian Chen", "I-Hsun Tsai"]
+  - id: "2407.02022"
+    title: "Smooth deformation limit of Moishezon manifolds is Moishezon"
+    year: 2024
+    coauthors: ["Mu-Lin Li", "Kai Wang", "Meng-jiao Wang"]
+  - id: "2204.06870"
+    title: "On extension of closed complex (basic) differential forms: (basic) Hodge numbers and (transversely) p-Kähler structures"
+    year: 2022
+    coauthors: ["Runze Zhang"]
+  - id: "2011.03306"
+    title: "Invariance of plurigenera and Chow-type lemma"
+    year: 2020
+    coauthors: ["I-Hsun Tsai"]
+  - id: "2009.14101"
+    title: "L^2 extension of ∂̄-closed forms on weakly pseudoconvex Kähler manifolds"
+    year: 2020
+    coauthors: ["Jian Chen"]
+  - id: "1909.12711"
+    title: "Extension formulas and deformation invariance of Hodge numbers"
+    year: 2019
+    coauthors: ["Quanting Zhao"]
+  - id: "1907.13281"
+    title: "Hodge cohomology on blow-ups along subvarieties"
+    year: 2019
+    coauthors: ["Song Yang", "Xiangdong Yang", "Xun Yu"]
+  - id: "1903.11877"
+    title: "On Tian-Todorov lemma and its applications to deformation of CR-structures"
+    year: 2019
+    coauthors: ["Yongpan Zou"]
+  - id: "1901.10627"
+    title: "Deformation limit and bimeromorphic embedding of Moishezon manifolds"
+    year: 2019
+    coauthors: ["I-Hsun Tsai"]
+  - id: "1809.07277"
+    title: "Dolbeault cohomologies of blowing up complex manifolds II: bundle-valued case"
+    year: 2018
+    coauthors: ["Song Yang", "Xiangdong Yang"]
+  - id: "1801.01031"
+    title: "On local stabilities of p-Kähler structures"
+    year: 2018
+    coauthors: ["Xueyuan Wan", "Quanting Zhao"]
+  - id: "1712.06749"
+    title: "Dolbeault cohomologies of blowing up complex manifolds"
+    year: 2017
+    coauthors: ["Song Yang", "Xiangdong Yang"]
+  - id: "1708.00097"
+    title: "Geometry of logarithmic forms and deformations of complex structures"
+    year: 2017
+    coauthors: ["Kefeng Liu", "Xueyuan Wan"]
+  - id: "1609.05637"
+    title: "Power series proofs for local stabilities of Kähler and balanced structures"
+    year: 2016
+    coauthors: ["Xueyuan Wan", "Quanting Zhao"]
+  - id: "1604.05396"
+    title: "Several special complex structures and their deformation properties"
+    year: 2016
+    coauthors: ["Quanting Zhao"]
+  - id: "1207.5697"
+    title: "New proofs of the Torelli theorems for Riemann surfaces"
+    year: 2012
+    coauthors: ["Kefeng Liu", "Quanting Zhao"]
+  - id: "1207.1182"
+    title: "Quasi-isometry and deformations of Calabi-Yau manifolds"
+    year: 2012
+    coauthors: ["Kefeng Liu", "Xiaokui Yang"]
+  - id: "1104.1240"
+    title: "Remarks on the Cartan Formula and Its Applications"
+    year: 2011
+    coauthors: ["Kefeng Liu"]
+activity:
+  total_papers: 21
+  active_period: "2011-present"
+external_ids: {}
+links:
+  homepage: "http://jszy.whu.edu.cn/raosheng"
+personal_notes: |
+  武汉大学数学与统计学院教授(2019 起)、博士生导师。研究方向：多复变与复几何 (复几何、
+  Hodge 理论、变形理论、Moishezon 流形)。2011 年博士毕业后在浙大数学中心博士后
+  (2011.7-2013.9)，2013 年起在武大任职。
+  与 Kefeng Liu (刘克峰) 合作 4 篇，这可能指向博士师承 [待验证]。
+  近年与 Christopher D. Hacon 等国际学者合作，研究 Kahler 族中的 adjoint classes。
+  2026 年 HUST 数学物理与几何研讨会武大参会学者之一。
+sources:
+  - label: "武汉大学教师主页 (饶胜)"
+    url: "http://jszy.whu.edu.cn/raosheng"
+  - label: "武大数统学院专任教师"
+    url: "https://maths.whu.edu.cn/teacher/zrjs.htm"
+tags:
+  - wuhan

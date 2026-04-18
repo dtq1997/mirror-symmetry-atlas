@@ -1,0 +1,30 @@
+slug: hodge-theory
+name:
+  en: Hodge Theory
+  zh: Hodge 理论
+aliases:
+  - mixed Hodge structure
+category: technique
+difficulty: advanced
+discipline: math
+year_introduced: null
+introduced_by: []
+definition: |
+  研究紧 Kähler / 代数流形上 de Rham 上同调的分解及其衍生出的
+  权滤、Hodge 滤、混合 Hodge 结构。现代扩展包括 non-abelian Hodge
+  theory（Simpson）、p-adic Hodge theory（Fontaine）、Hodge 结构
+  变动 (VHS) 及 $tt^*$ 几何。镜像对称中，镜像对 $(X, \tilde{X})$
+  的 A/B 模型交换 Hodge 滤与权滤。
+dual_to: null
+prerequisites: []
+leads_to:
+  - tt-star-geometry
+related:
+  - calabi-yau
+  - mirror-symmetry
+key_people:
+  - sabbah
+  - hertling
+key_papers: []
+tags:
+  - layer-1

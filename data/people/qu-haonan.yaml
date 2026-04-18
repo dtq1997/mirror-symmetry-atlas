@@ -1,0 +1,125 @@
+slug: qu-haonan
+name:
+  en: Haonan Qu
+  zh: 曲昊男
+born: null
+died: null
+nationality: Chinese
+gender: male
+photo_url: null
+career_timeline:
+  - period: "[待验证]"
+    type: education
+    institution: tsinghua
+    role: "PhD"
+    advisor: "zhang-youjin"
+    notes: "清华大学数学科学系博士，方向 Integrable Systems and Mathematical Physics。导师张友金，亦受刘思齐指导。具体入学/毕业年份 [待验证]"
+  - period: "2018"
+    type: teaching
+    institution: tsinghua
+    role: "辅导员"
+    notes: "清华数学营 (Tsinghua Math Camp) Analysis and Topology I 辅导员"
+  - period: "[待验证]-present"
+    type: position
+    institution: pku
+    role: "博士后 / 研究员"
+    notes: "北京大学数学科学学院 — 2025 年 10 月 arXiv 论文显示 PKU affiliation"
+  - period: "present"
+    type: position
+    institution: sun-yat-sen
+    role: "博士生导师 [待验证]"
+    notes: "中山大学数学学院博导名单 (数学系)。可能是刚入职或双聘。具体起止时间 [待验证]"
+research_areas:
+  - frobenius-manifolds
+  - integrable-hierarchies
+  - wdvv-equation
+  - virasoro-symmetries
+  - tau-structure
+  - 2d-toda-hierarchy
+  - ablowitz-ladik-hierarchy
+  - bihamiltonian-structures
+advisor: zhang-youjin
+students: []
+key_collaborators:
+  - person: zhang-youjin
+    since: 2021
+    topic: "Generalized Frobenius manifolds with non-flat unity, Principal Hierarchy, Legendre transformations, Ablowitz-Ladik hierarchy"
+    papers_count: 4
+  - person: liu-siqi
+    since: 2021
+    topic: "Generalized Frobenius manifolds, loop equations, Legendre transformations, tri-Hamiltonian structure"
+    papers_count: 4
+  - person: "Shuangxing Li"
+    since: 2021
+    topic: "Tri-Hamiltonian structure of Ablowitz-Ladik hierarchy"
+    papers_count: 1
+  - person: "Yuewei Wang"
+    since: 2024
+    topic: "Loop equations of generalized Frobenius manifolds"
+    papers_count: 1
+  - person: "Qiulan Zhao"
+    since: 2025
+    topic: "Asymmetric rational reductions of 2D-Toda hierarchy, generalized Frobenius manifold"
+    papers_count: 1
+publications:
+  - id: "2510.04151"
+    title: "Asymmetric rational reductions of 2D-Toda hierarchy and a generalized Frobenius manifold"
+    year: 2025
+    coauthors: ["Qiulan Zhao"]
+  - id: "2411.15496"
+    title: "Legendre transformations of a class of generalized Frobenius manifolds and the associated integrable hierarchies"
+    year: 2024
+    coauthors: [liu-siqi, zhang-youjin]
+    journal: "Comm. Math. Phys. (2025)"
+  - id: "2402.00373"
+    title: "Solutions of the loop equations of a class of generalized Frobenius manifolds"
+    year: 2024
+    coauthors: [liu-siqi, "Yuewei Wang", zhang-youjin]
+  - id: "2209.00483"
+    title: "Generalized Frobenius Manifolds with Non-flat Unity and Integrable Hierarchies"
+    year: 2022
+    coauthors: [liu-siqi, zhang-youjin]
+    journal: "Comm. Math. Phys. (2024)"
+  - id: "2108.03447"
+    title: "Tri-Hamiltonian Structure of the Ablowitz-Ladik Hierarchy"
+    year: 2021
+    coauthors: ["Shuangxing Li", liu-siqi, zhang-youjin]
+    journal: "Physica D (2022)"
+activity:
+  total_papers: 5
+  active_period: "2021-present"
+external_ids: {}
+links:
+  personal: "https://sites.google.com/site/haonanqu/"
+personal_notes: |
+  清华大学数学科学系博士毕业，师从张友金（亦与刘思齐深度合作），方向 Integrable Systems / Mathematical Physics。
+  2025 年 10 月 arXiv 论文 affiliation 为北京大学数学科学学院，表明曾在或正在 PKU。
+  同时出现在中山大学数学学院博导名单中，可能是刚入职或双聘 [待验证]。
+  研究方向：广义 Frobenius 流形 (generalized Frobenius manifolds with non-flat unity) 及其关联的可积系统。
+  与用户唐乾是同一个学术生态：刘思齐 + 张友金组（WDVV 方程、Frobenius 流形、可积系统）。
+  核心成果：
+  (1) 2022 年与刘思齐、张友金构造 non-flat unity generalized Frobenius manifold 的 Principal Hierarchy，
+      含 Virasoro 对称、tau 结构、拓扑变形，连接 Volterra、q-deformed KdV、Ablowitz-Ladik 等可积系统 (CMP 2024)；
+  (2) 2024 年关于 loop 方程的解的存在唯一性 (与刘思齐、王跃伟、张友金)；
+  (3) 2024 年 Legendre 变换下的 hierarchies 等价性 (CMP 2025)；
+  (4) 2021 年 Ablowitz-Ladik hierarchy 的 tri-Hamiltonian 结构，支持 Brini 关于 local CP1 GW 不变量的猜想。
+  与何伟强（SYSU）师门相近：均处于 Frobenius 流形 / Landau-Ginzburg / 可积系统生态。
+  2026 年 4 月 HUST "数学物理与几何研讨会"参会人员之一。
+  [待验证] 中山大学 vs 北京大学当前主要 affiliation，以及在 SYSU 的具体职位。
+sources:
+  - label: "Haonan Qu personal site"
+    url: "https://sites.google.com/site/haonanqu/"
+  - label: "Tsinghua Math Camp 2018 (lecturer list)"
+    url: "http://www.tsinghuamathcamp.cn/2018/Lecturers_Coaches.html"
+  - label: "arXiv 2510.04151 (PKU affiliation)"
+    url: "https://arxiv.org/abs/2510.04151"
+  - label: "SYSU Math PhD advisors list"
+    url: "https://math.sysu.edu.cn/article/2971"
+  - label: "Legendre transformations paper (CMP)"
+    url: "https://link.springer.com/article/10.1007/s00220-025-05289-3"
+tags:
+  - sun-yat-sen
+  - tsinghua-alumni
+  - frobenius-manifold
+  - integrable-systems
+  - tang-qian-group

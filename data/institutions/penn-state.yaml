@@ -1,0 +1,24 @@
+slug: penn-state
+name:
+  en: "Pennsylvania State University"
+  zh: "宾夕法尼亚州立大学"
+type: university
+country: USA
+city: University Park
+location:
+  lat: 40.7982
+  lng: -77.8599
+founded: 1855
+url: "https://www.psu.edu/"
+relevance: low
+research_groups:
+  - name: "Department of Mathematics"
+    topics:
+      - poisson-geometry
+      - lie-algebroid
+    current_members: []
+    past_members:
+      - chen-zhuo
+      - xiang-maosong
+events: []
+notes: "Ping Xu 长期任教。陈酌在此做过讲师。Lie algebroid / Poisson geometry 美国重镇之一。"

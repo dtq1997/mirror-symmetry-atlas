@@ -1,0 +1,137 @@
+slug: tang-xinxing
+name:
+  en: Xinxing Tang
+  zh: 唐鑫星
+born: null
+died: null
+nationality: Chinese
+gender: male
+photo_url: null
+career_timeline:
+  - period: "2009-2013"
+    type: education
+    institution: sichuan-u
+    role: "学士, 基础数学"
+    notes: "四川大学数学学院"
+  - period: "2013-2018"
+    type: education
+    institution: pku-bicmr
+    role: "博士, 基础数学"
+    advisor: "Huijun Fan (樊慧君)"
+    notes: "北京大学北京国际数学研究中心 (BICMR)"
+  - period: "2018-2021"
+    type: position
+    institution: tsinghua-ymsc
+    role: "博士后"
+    notes: "清华大学丘成桐数学科学中心 (YMSC)。与 Si Li 合作"
+  - period: "2018"
+    type: award
+    title: "Honor Mention, New World Mathematics Award (PhD Thesis)"
+  - period: "2021-present"
+    type: position
+    institution: bimsa
+    role: "Assistant Professor (助理教授)"
+    notes: "BIMSA 数学物理组。办公室 A3-3a-301"
+research_areas:
+  - mathematical-physics
+  - integrable-systems
+  - landau-ginzburg
+  - tt-star-geometry
+  - mirror-symmetry
+  - mixed-hodge-structure
+  - isomonodromic-deformation
+  - kz-equations
+  - digraph-homology
+advisor: fan-huijun
+students: []
+key_collaborators:
+  - person: "Si Li (李思)"
+    since: 2019
+    topic: "Kodaira-Spencer gravity, dispersionless integrable hierarchy, contact term algebras, Dijkgraaf's master equation"
+    papers_count: 2
+    notes: "清华 YMSC，博士后期导师级合作者"
+  - person: he-weiqiang
+    since: 2019
+    topic: "Dispersionless integrable hierarchy via Kodaira-Spencer gravity (LG B-model)"
+    papers_count: 1
+  - person: "Philsang Yoo"
+    since: 2019
+    topic: "Kodaira-Spencer gravity"
+    papers_count: 1
+  - person: "Junrong Yan"
+    since: 2022
+    topic: "CY/LG correspondence for Weil-Petersson metrics and tt* structures"
+    papers_count: 1
+  - person: "Zhengping Gui"
+    since: 2025
+    topic: "Contact term algebras, chiral CFT on elliptic curves"
+    papers_count: 1
+  - person: "Shing-Tung Yau"
+    since: 2024
+    topic: "Path homology, cellular homology of digraphs, minimal path / acyclic model"
+    papers_count: 2
+    notes: "丘成桐，BIMSA 创始人"
+publications:
+  - id: "2506.13194"
+    title: "Contact Term Algebras and Dijkgraaf's Master Equation"
+    year: 2025
+    coauthors: ["Zhengping Gui", "Si Li"]
+    notes: "椭圆曲线上 chiral CFT 的 integrable deformation; contact algebra / Dijkgraaf master equation 严格表述"
+  - id: "2205.05791"
+    title: "Calabi-Yau/Landau-Ginzburg Correspondence for Weil-Peterson Metrics and $tt^*$ Structures"
+    year: 2022
+    coauthors: ["Junrong Yan"]
+    journal: "J. Geom. Phys. 216 (2025) 105545"
+  - id: "1910.05665"
+    title: "Dispersionless Integrable Hierarchy via Kodaira-Spencer Gravity"
+    year: 2019
+    coauthors: ["Weiqiang He", "Si Li", "Philsang Yoo"]
+    journal: "Commun. Math. Phys. 379 (2020), 327-352"
+  - id: "1710.03915"
+    title: "$tt^*$ Geometry, Singularity Torsion and Anomaly Formulas"
+    year: 2017
+    coauthors: []
+    notes: "博士期间工作"
+  - id: "2402.05682"
+    title: "The Cellular Homology of Digraphs"
+    year: 2024
+    coauthors: ["Shing-Tung Yau"]
+    notes: "[待验证] arXiv 编号，BIMSA profile 列为合作著作"
+activity:
+  total_papers: 17
+  active_period: "2017-present"
+external_ids: {}
+links:
+  homepage: "https://www.bimsa.cn/detail/xinxingtang.html"
+  email: "tangxinxing@bimsa.cn"
+personal_notes: |
+  BIMSA 助理教授，数学物理组。2013 年本科毕业于川大，2018 年博士毕业于北大
+  BICMR（导师樊慧君 Huijun Fan），博士论文获 New World Mathematics Award 荣誉提名。
+  2018-2021 在清华 YMSC 做博士后，师从李思 (Si Li)。
+  核心方向：Landau-Ginzburg B-model 中的 tt* geometry 与 BCOV 量子化理论；
+  LG B-model 与可积 hierarchy 的关系；mirror symmetry 与 LG-CY correspondence
+  via mixed Hodge structure。另有 isomonodromic deformation / KZ 方程 /
+  Riemann-Hilbert 问题的综述工作 (ICCM Notices 2024)。
+
+  近期拓展：
+  (1) 与 Si Li、Gui 合作研究椭圆曲线上 chiral CFT 的 contact term 代数和
+      Dijkgraaf master equation (2025);
+  (2) 与丘成桐 (S.-T. Yau) 合作 path homology / digraph cellular homology。
+
+  与李思、He Weiqiang 在 Kodaira-Spencer gravity 工作 (arXiv:1910.05665)
+  是他的代表性合作。与 Junrong Yan 的 CY/LG Weil-Peterson 工作 (2022/2025)
+  推进了 tt* 结构的 CY/LG 对应理解。
+
+  BIMSA 与 Tsinghua YMSC 的 Algebraic Geometry / Integrability 项目组织者之一
+  （与 Li Wang 合办 Topics in Integrability seminar）。
+
+  2026 HUST 数学物理与几何研讨会参会。
+sources:
+  - label: "BIMSA profile"
+    url: "https://www.bimsa.cn/detail/xinxingtang.html"
+  - label: "BIMSA alt page"
+    url: "https://bimsa.net/people/xinxingtang/"
+  - label: "Riemann-Hilbert survey PDF"
+    url: "https://bimsa.net/doc/publication/5374.pdf"
+tags:
+  - bimsa

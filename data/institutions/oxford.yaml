@@ -1,0 +1,24 @@
+slug: oxford
+name:
+  en: "University of Oxford"
+  zh: "牛津大学"
+type: university
+country: UK
+city: Oxford
+location:
+  lat: 51.7548
+  lng: -1.2544
+founded: 1096
+url: "https://www.ox.ac.uk/"
+relevance: medium
+research_groups:
+  - name: "Mathematical Institute"
+    topics:
+      - differential-geometry
+      - mathematical-physics
+    current_members:
+      - boalch
+    past_members:
+      - mazzocco
+events: []
+notes: "Hitchin 在此培养了 Boalch 等 moduli space / connections 方向学生。"

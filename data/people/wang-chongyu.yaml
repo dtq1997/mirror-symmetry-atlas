@@ -1,0 +1,62 @@
+slug: wang-chongyu
+name:
+  en: Chongyu Wang
+  zh: 王崇宇
+born: null
+died: null
+nationality: Chinese
+gender: male
+photo_url: null
+career_timeline:
+  - period: "~2020-present"
+    type: education
+    institution: pku
+    role: "博士研究生, 基础数学"
+    advisor: liu-xiaobo
+    notes: "北京大学数学科学学院，导师刘小博 [待验证: 入学年份]"
+research_areas:
+  - gromov-witten-theory
+  - tautological-relations
+  - moduli-spaces
+  - quantum-cohomology
+advisor: liu-xiaobo
+students: []
+key_collaborators:
+  - person: liu-xiaobo
+    since: 2024
+    topic: "Tautological relations (Buryak-Shadrin), complexity of quantum cohomology"
+    papers_count: 2
+    notes: "博士导师"
+publications:
+  - id: "2603.02736"
+    title: "Complexity of quantum cohomology"
+    year: 2026
+    coauthors: [liu-xiaobo]
+    notes: "研究 2D TQFT 量子上同调的电路复杂度，对 Fano 完全交和 (co)minuscule 齐性簇估计有限近似复杂度的状态数"
+  - id: "2402.14504"
+    title: "On A Tautological Relation Conjectured By Buryak-Shadrin"
+    year: 2024
+    coauthors: [liu-xiaobo]
+    notes: "证明 Buryak-Shadrin 猜想的 g=1 情形，并将一般情形约化为 m=2、|d|=2g+1 的有限情形"
+activity:
+  total_papers: 2
+  active_period: "2024-present"
+external_ids: {}
+links:
+  email: "wangcyu@pku.edu.cn"
+personal_notes: |
+  北京大学数学科学学院博士研究生，导师刘小博。
+  与导师合作两篇 arXiv 论文：
+  (1) 2024 年 Buryak-Shadrin 重言关系猜想 (tautological relation on moduli spaces of curves)，
+  (2) 2026 年 Complexity of quantum cohomology (2D TQFT 的电路复杂度)。
+  是刘小博在 GW theory / 量子上同调方向的现任博士生，研究主线接续王新、杨成浪等师兄的工作
+  (tautological relations on $\overline{\mathcal{M}}_{g,n}$)。
+  2026 HUST 会议参会人员 (未做邀请报告)。
+sources:
+  - label: "arXiv 2402.14504 (作者单位: 北京大学)"
+    url: "https://arxiv.org/abs/2402.14504"
+  - label: "arXiv 2603.02736 (作者单位: 北京大学数学科学学院)"
+    url: "https://arxiv.org/abs/2603.02736"
+tags:
+  - pku-bicmr
+  - student

@@ -1,0 +1,29 @@
+slug: differential-geometry
+name:
+  en: Differential Geometry
+  zh: 微分几何
+aliases: []
+category: technique
+difficulty: intermediate
+discipline: math
+year_introduced: null
+introduced_by: []
+definition: |
+  研究光滑流形上几何结构（度量、联络、丛、纤维化）的学科。
+  为数学物理、辛几何、Gromov-Witten 理论等提供基础语言。
+dual_to: null
+prerequisites: []
+leads_to:
+  - symplectic-geometry
+  - poisson-geometry
+  - flat-connection
+related:
+  - mirror-symmetry
+  - mathematical-physics
+key_people:
+  - tian-gang
+  - yau-shingtung
+  - liu-zhangju
+key_papers: []
+tags:
+  - layer-0

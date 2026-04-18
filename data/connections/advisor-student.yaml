@@ -120,7 +120,7 @@ edges:
     year: 2010
     institution: tsinghua
     notes: "博士毕业年份 [待验证]，之后赴 SISSA 跟随 Dubrovin 做博后"
-  - source: "Naichung Conan Leung"
+  - source: leung-naichung
     target: li-changzheng
     type: advisor-student
     year: 2009
@@ -138,3 +138,116 @@ edges:
     year: 2011
     institution: uc-berkeley
     notes: "UC Berkeley PhD, 论文: Pontrjagin forms on certain string homogeneous spaces. MGP #219800"
+  # === HUST 2026 会议后新增 (批次 A: 中山大学) ===
+  - source: hu-jianxun
+    target: he-weiqiang
+    type: advisor-student
+    year: null
+    institution: sun-yat-sen
+    notes: "[待验证] 师承关系推测自 2013-2014 合作 GW blow-up 论文"
+  - source: li-changzheng
+    target: song-jiayu
+    type: advisor-student
+    year: null
+    institution: sun-yat-sen
+    notes: "中山大学，方向 quantum Schubert calculus / quantum K-theory"
+  - source: zhou-jian
+    target: zhang-xuhui
+    type: advisor-student
+    year: 2019
+    institution: tsinghua
+    notes: "清华大学博士生，2019 入学，方向 BKP hierarchy"
+  - source: zhang-youjin
+    target: qu-haonan
+    type: advisor-student
+    year: null
+    institution: tsinghua
+    notes: "清华博士，导师张友金+刘思齐（唐乾同门）"
+  - source: liu-siqi
+    target: qu-haonan
+    type: advisor-student
+    year: null
+    institution: tsinghua
+    notes: "co-advisor 刘思齐"
+  # Shing-Tung Yau 的中国学生
+  - source: yau-shingtung
+    target: si-li
+    type: advisor-student
+    year: 2011
+    institution: harvard
+    notes: "Harvard PhD"
+  - source: yau-shingtung
+    target: leung-naichung
+    type: advisor-student
+    year: 1993
+    institution: mit
+    notes: "MIT PhD"
+  - source: leung-naichung
+    target: chan-kwokwai
+    type: advisor-student
+    year: 2008
+    institution: cuhk
+    notes: "[待验证] CUHK PhD"
+  # === 批次 B: PKU/清华 ===
+  - source: liu-zhangju
+    target: chen-zhuo
+    type: advisor-student
+    year: 2004
+    institution: pku
+    notes: "北大博士，导师刘张炬。MGP ID 176253"
+  - source: liu-xiaobo
+    target: wang-chongyu
+    type: advisor-student
+    year: null
+    institution: pku
+    notes: "现任博士生（2024-）方向 quantum cohomology complexity, Buryak-Shadrin conjecture"
+  # === 批次 C: USTC+川大+南开+大湾区+郑大 ===
+  - source: si-li
+    target: wen-hao
+    type: advisor-student
+    year: 2019
+    institution: tsinghua
+    notes: "清华博士 2016-2019，Si Li CV 明确列出"
+  - source: zhou-jian
+    target: hu-xiaowen
+    type: advisor-student
+    year: 2014
+    institution: tsinghua
+    notes: "清华数学系博士 2006-2014，方向 GW 理论 / 量子 McKay 对应"
+  - source: hu-jianxun
+    target: ding-yanqiao
+    type: advisor-student
+    year: 2016
+    institution: sun-yat-sen
+    notes: "中山大学博士 2013-2016，博士期间合作 Welschinger 不变量 2 篇"
+  # === 批次 D: HUST 2026 会议外省/外校 ===
+  - source: fan-huijun
+    target: tang-xinxing
+    type: advisor-student
+    year: 2018
+    institution: pku-bicmr
+    notes: "北大 BICMR 博士 2013-2018。BIMSA profile 明确"
+  - source: chen-zhuo
+    target: ni-dadi
+    type: advisor-student
+    year: 2023
+    institution: tsinghua
+    notes: "清华博士 2018-2023 [几乎确定]，所有早期论文与陈酌合著"
+  - source: elliott-george
+    target: ryszard-nest
+    type: advisor-student
+    year: 1987
+    institution: copenhagen
+    notes: "UCPH PhD 1987，论文 Cyclic Cohomology of Crossed Products with Z。MGP #43937"
+  - source: pedersen-gert
+    target: ryszard-nest
+    type: advisor-student
+    year: 1987
+    institution: copenhagen
+    notes: "co-advisor。MGP #43937"
+  - source: chen-bohui
+    target: du-chengyong
+    type: advisor-student
+    year: null
+    institution: sichuan-u
+    notes: "[待验证] 博导推测，依据 2014 至今 12+ 篇合作，几乎确定"

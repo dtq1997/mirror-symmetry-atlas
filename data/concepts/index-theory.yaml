@@ -1,0 +1,29 @@
+slug: index-theory
+name:
+  en: Index Theory
+  zh: 指标理论
+aliases:
+  - Atiyah-Singer index theorem
+  - higher index theorem
+category: technique
+difficulty: advanced
+discipline: both
+year_introduced: 1963
+introduced_by: []
+definition: |
+  研究椭圆算子解析指标（$\dim \ker - \dim \text{coker}$）与拓扑指标的
+  恒等关系。Atiyah-Singer 指标定理（1963）奠基：紧流形上椭圆算子的
+  解析指标 = 由 principal symbol 在切丛上决定的拓扑指标（经由 $K$-理论
+  同态）。Connes 的高阶指标定理将该范式推广到非交换几何框架，借助
+  cyclic cohomology 处理群胚与 foliation。
+dual_to: null
+prerequisites: []
+leads_to: []
+related:
+  - noncommutative-geometry
+  - k-theory
+key_people:
+  - ryszard-nest
+key_papers: []
+tags:
+  - layer-1

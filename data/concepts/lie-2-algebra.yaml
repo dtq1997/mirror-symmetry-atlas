@@ -1,0 +1,31 @@
+slug: lie-2-algebra
+name:
+  en: Lie 2-Algebra
+  zh: Lie 2-代数
+aliases:
+  - 2-term L-infinity algebra
+  - semistrict Lie 2-algebra
+category: algebraic-structure
+difficulty: research-frontier
+discipline: math
+year_introduced: null
+introduced_by: []
+definition: |
+  Lie 代数在范畴化框架下的自然推广：以 2-阶段 $L_\infty$-代数
+  $(V_0, V_1, d, l_2, l_3)$ 表示，其中 $l_2$ 为括号、$l_3$ 为
+  Jacobiator。与 Courant algebroid、半严格（semistrict）Lie 2-群、
+  string Lie 代数紧密相关。
+dual_to: null
+prerequisites:
+  - homotopy-algebra
+  - lie-algebroid
+leads_to: []
+related:
+  - courant-algebroid
+key_people:
+  - chen-zhuo
+  - lang-honglei
+  - xiang-maosong
+key_papers: []
+tags:
+  - layer-2

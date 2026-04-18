@@ -1,0 +1,155 @@
+slug: xiang-maosong
+name:
+  en: Maosong Xiang
+  zh: 向茂松
+born: null
+died: null
+nationality: Chinese
+gender: male
+photo_url: null
+career_timeline:
+  - period: "2005-2009"
+    type: education
+    institution: null
+    role: "本科, 数学"
+    notes: "电子科技大学 (UESTC), 成都"
+  - period: "2010-2013"
+    type: education
+    institution: capital-normal
+    role: "硕士, 数学"
+    notes: "首都师范大学"
+  - period: "2013-2017"
+    type: education
+    institution: pku-bicmr
+    role: "博士, 数学"
+    advisor: null
+    notes: "北京大学 BICMR; 2015.9-2017.5 同时作为 CSC 公派博士生在 Penn State 联合培养，与 Ping Xu 合作 [待验证: 主要博士导师是 Ping Xu 还是 BICMR 导师]"
+  - period: "2015-2017"
+    type: visit
+    institution: penn-state
+    role: "CSC 公派联合培养博士生"
+    notes: "与 Ping Xu 合作"
+  - period: "2017-present"
+    type: position
+    institution: hust
+    role: "副教授 (Associate Professor)"
+    notes: "华中科技大学数学中心 (Center for Mathematical Sciences). 2018 年起在 HUST 发表论文。Email: msxiang@hust.edu.cn"
+research_areas:
+  - lie-algebroid
+  - courant-algebroid
+  - atiyah-class
+  - homotopy-algebra
+  - poisson-geometry
+  - derived-geometry
+  - mathematical-physics
+advisor: null
+students: []
+key_collaborators:
+  - person: chen-zhuo
+    since: 2016
+    topic: "Atiyah/Todd classes, Lie pairs, Courant algebroids, Kapranov's sh Leibniz, dg manifolds"
+    papers_count: 10
+    notes: "主要长期合作者 (Tsinghua)"
+  - person: "Ping Xu"
+    since: 2017
+    topic: "Atiyah and Todd classes, Hochschild cohomology of dg manifolds"
+    papers_count: 2
+    notes: "Penn State; 博士联合培养期间建立合作"
+  - person: "Honglei Lang"
+    since: 2016
+    topic: "Atiyah classes of sh Lie pairs, Dirac operators of split Courant algebroids"
+    papers_count: 2
+    notes: "中国农业大学"
+  - person: "Yu Qiao"
+    since: 2021
+    topic: "Dg Loday-Pirashvili modules, dynamical twists of quantum groupoids"
+    papers_count: 3
+    notes: "陕西师范大学"
+  - person: "Xiongwei Cai"
+    since: 2020
+    topic: "Standard cohomology of regular Courant algebroids, hemistrict Lie 2-algebras"
+    papers_count: 2
+  - person: "Tao Zhang"
+    since: 2021
+    topic: "Dg Loday-Pirashvili modules, locally finite infinity-modules"
+    papers_count: 2
+    notes: "河南师范大学"
+publications:
+  - id: "2511.10082"
+    title: "Infinitesimal deformations of Lie algebroid pairs"
+    year: 2025
+    coauthors: ["Dadi Ni", chen-zhuo, hu-chuangqiang]
+  - id: "2412.09039"
+    title: "From smooth dynamical twists to twistors of quantum groupoids"
+    year: 2024
+    coauthors: ["Jiahao Cheng", chen-zhuo, "Yu Qiao"]
+  - id: "2309.04180"
+    title: "The geometric constraints on Filippov algebroids"
+    year: 2023
+    coauthors: ["Yanhui Bi", "Zhixiong Chen", chen-zhuo]
+  - id: "2210.01999"
+    title: "Locally finite infinity-modules and weak Loday-Pirashvili modules over differential graded Lie algebras"
+    year: 2022
+    coauthors: [chen-zhuo, "Yu Qiao", "Tao Zhang"]
+  - id: "2206.10091"
+    title: "Dirac generating operators of split Courant algebroids"
+    year: 2022
+    coauthors: ["Liqiang Cai", chen-zhuo, "Honglei Lang"]
+  - id: "2110.11623"
+    title: "Dg Loday-Pirashvili modules over Lie algebras"
+    year: 2021
+    coauthors: [chen-zhuo, "Yu Qiao", "Tao Zhang"]
+  - id: "2110.04720"
+    title: "Atiyah and Todd classes of regular Lie algebroids"
+    year: 2021
+    coauthors: []
+  - id: "2105.15019"
+    title: "The standard cohomology of regular Courant algebroids"
+    year: 2021
+    coauthors: ["Xiongwei Cai", chen-zhuo]
+  - id: "2103.08096"
+    title: "Hochschild cohomology of dg manifolds associated to integrable distributions"
+    year: 2021
+    coauthors: [chen-zhuo, "Ping Xu"]
+  - id: "2003.03553"
+    title: "Cohomology of hemistrict Lie 2-algebras"
+    year: 2020
+    coauthors: ["Xiongwei Cai", "Zhangju Liu"]
+  - id: "1808.08576"
+    title: "Kapranov's construction of sh Leibniz algebras"
+    year: 2018
+    coauthors: [chen-zhuo, "Zhangju Liu"]
+  - id: "1711.11253"
+    title: "Atiyah and Todd classes arising from integrable distributions"
+    year: 2017
+    coauthors: [chen-zhuo, "Ping Xu"]
+    journal: "J. Geom. Phys. (2018)"
+  - id: "1609.00984"
+    title: "Atiyah classes of strongly homotopy Lie pairs"
+    year: 2016
+    coauthors: [chen-zhuo, "Honglei Lang"]
+    journal: "Algebra Colloquium"
+activity:
+  total_papers: 13
+  active_period: "2016-present"
+external_ids:
+  openalex: "A5042553753"
+  orcid: "0000-0001-8804-8911"
+links:
+  homepage: "https://mathcenter.hust.edu.cn/info/1042/2360.htm"
+personal_notes: |
+  HUST 数学中心副教授（2026 年数学物理与几何研讨会组织联系人之一）。
+  UESTC 本科 → 首师大硕士 → 北大 BICMR 博士 (2013-2017) + Penn State CSC 公派 (2015-2017)。
+  核心学术伙伴是陈酌 (Tsinghua)，已合作 10+ 篇，涵盖 Lie algebroids, Courant algebroids, Atiyah classes,
+  Lie pairs, homotopy Leibniz algebras, dg manifolds。
+  与 Ping Xu (Penn State) 合作的 Atiyah/Todd classes 系列 (2017-2021) 很重要，
+  博士联培期间打下的合作基础。研究偏 higher/derived 结构在 Lie 代数几何/数学物理中的应用。
+  与王知远同为 2026 HUST 会议联系人。
+sources:
+  - label: "HUST Math Center (English)"
+    url: "https://mathcenter.hust.edu.cn/info/1042/2360.htm"
+  - label: "ResearchGate"
+    url: "https://www.researchgate.net/profile/Maosong-Xiang-2"
+tags:
+  - hust
+  - important-person

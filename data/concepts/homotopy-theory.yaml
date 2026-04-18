@@ -1,0 +1,27 @@
+slug: homotopy-theory
+name:
+  en: Homotopy Theory
+  zh: 同伦论
+aliases:
+  - stable homotopy theory
+category: technique
+difficulty: advanced
+discipline: math
+year_introduced: null
+introduced_by: []
+definition: |
+  研究 pointed 拓扑空间的同伦范畴及其稳定化的学科。基础对象：
+  $CW$-复形、纤维化、谱 (spectra)、模型范畴、$\infty$-范畴。
+  与代数拓扑、代数 $K$-理论、动机同伦论高度交织。
+dual_to: null
+prerequisites: []
+leads_to:
+  - k-theory
+  - elliptic-cohomology
+related:
+  - algebraic-topology
+key_people:
+  - huan-zhen
+key_papers: []
+tags:
+  - layer-0

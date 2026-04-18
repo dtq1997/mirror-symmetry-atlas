@@ -1,0 +1,32 @@
+slug: geometric-quantization
+name:
+  en: Geometric Quantization
+  zh: 几何量子化
+aliases:
+  - geometric quantization
+category: technique
+difficulty: advanced
+discipline: both
+year_introduced: 1970
+introduced_by: []
+definition: |
+  从辛流形 $(M, \omega)$ 构造量子 Hilbert 空间的纲领。
+  核心步骤：在 $M$ 上选取预量子化线丛 $L \to M$（其曲率 $=\omega$）、
+  极化 $P \subset TM \otimes \mathbb{C}$，并将 Hilbert 空间
+  取为沿极化 $P$ 的 $L$-截面空间。
+  Kähler 情形下与 Berezin-Toeplitz 量子化、形变量子化紧密相关；
+  镜像对称框架中与 BV 量子化、$B$-模型 sigma 模型关联。
+dual_to: null
+prerequisites:
+  - symplectic-geometry
+leads_to: []
+related:
+  - poisson-geometry
+  - mathematical-physics
+key_people:
+  - li-qin
+  - chan-kwokwai
+  - leung-naichung
+key_papers: []
+tags:
+  - layer-1

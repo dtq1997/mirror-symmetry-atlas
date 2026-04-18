@@ -21,6 +21,7 @@ interface ForceGraphProps {
   onNodeClick?: (node: GraphNode) => void;
   onNodeHover?: (node: GraphNode | null) => void;
   selectedNodeId?: string | null;
+  focusNodeId?: string | null;
 }
 
 export default function ForceGraph({
@@ -30,6 +31,7 @@ export default function ForceGraph({
   onNodeClick,
   onNodeHover,
   selectedNodeId,
+  focusNodeId,
 }: ForceGraphProps) {
   const fgRef = useRef<any>(null);
   const containerRef = useRef<HTMLDivElement>(null);
@@ -86,6 +88,17 @@ export default function ForceGraph({
     fg.d3Force("link")?.distance(params.linkDistance);
     fg.d3Force("center")?.strength(0.05);
   }, [data.nodes.length]);
+
+  // Focus on external selection (e.g. search result)
+  useEffect(() => {
+    if (!focusNodeId) return;
+    const fg = fgRef.current;
+    if (!fg) return;
+    const node = data.nodes.find((n) => n.id === focusNodeId) as any;
+    if (!node || node.x == null || node.y == null) return;
+    fg.centerAt(node.x, node.y, 600);
+    fg.zoom(2.8, 600);
+  }, [focusNodeId, data.nodes]);
 
   // Custom node rendering
   const paintNode = useCallback(

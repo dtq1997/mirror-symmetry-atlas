@@ -1,0 +1,101 @@
+slug: cheng-jiahao
+name:
+  en: Jiahao Cheng
+  zh: 程家豪
+born: null
+died: null
+nationality: Chinese
+gender: male
+photo_url: null
+career_timeline:
+  - period: "[待验证]"
+    type: education
+    institution: pku
+    role: "博士, 基础数学 (理学博士)"
+    advisor: "[待验证]"
+    notes: "北京大学基础数学理学博士。导师 [待验证]，可能与 Zhuo Chen (清华)、Ping Xu 学派相关，但具体导师未查到"
+  - period: "2021-01-present"
+    type: position
+    institution: nchu
+    role: "讲师 (副导师, 硕士生副导师)"
+    notes: "南昌航空大学数学与信息科学学院。方向: 数学物理与代数几何"
+research_areas:
+  - lie-pair
+  - lie-algebroid
+  - dg-manifold
+  - atiyah-class
+  - hopf-algebroid
+  - quantum-groupoid
+  - l-infinity-algebra
+  - mathematical-physics
+  - algebraic-geometry
+advisor: null
+students: []
+key_collaborators:
+  - person: chen-zhuo
+    since: 2019
+    topic: "Hopf algebras from dg manifolds, L∞ algebras, Hopf algebroids, quantum groupoids"
+    papers_count: 4
+    notes: "清华大学。所有 4 篇论文的核心合作者"
+  - person: ni-dadi
+    since: 2019
+    topic: "Hopf algebras arising from dg manifolds, L≤3 algebra, Lie pair"
+    papers_count: 2
+    notes: "河南大学（前清华博士生，陈酌学生）"
+  - person: "Chen He"
+    since: 2022
+    topic: "Internal symmetry of L≤3 algebra arising from a Lie pair"
+    papers_count: 1
+  - person: yu-qiao
+    since: 2024
+    topic: "Smooth dynamical twists / twistors of quantum groupoids, Brace B∞ algebras on Hopf algebroids"
+    papers_count: 2
+  - person: xiang-maosong
+    since: 2024
+    topic: "Dynamical twists, twistors of quantum groupoids"
+    papers_count: 1
+publications:
+  - id: "2508.02019"
+    title: "Brace $B_{\\infty}$ algebras associated with Hopf algebroids"
+    year: 2025
+    coauthors: ["Zhuo Chen", "Yu Qiao"]
+  - id: "2412.09039"
+    title: "From smooth dynamical twists to twistors of quantum groupoids"
+    year: 2024
+    coauthors: ["Zhuo Chen", "Yu Qiao", "Maosong Xiang"]
+  - id: "2201.13068"
+    title: "Internal symmetry of the $L_{\\leqslant 3}$ algebra arising from a Lie pair"
+    year: 2022
+    coauthors: ["Dadi Ni", "Zhuo Chen", "Chen He"]
+    journal: "Pure and Applied Mathematics Quarterly"
+  - id: "1911.01388"
+    title: "Hopf algebras arising from dg manifolds"
+    year: 2019
+    coauthors: ["Zhuo Chen", "Dadi Ni"]
+    journal: "J. Algebra 584 (2021)"
+activity:
+  total_papers: 4
+  active_period: "2019-present"
+external_ids: {}
+links:
+  homepage: "https://sx.nchu.edu.cn/szdw/sssds/content_121119"
+  email: "jiahaocheng@nchu.edu.cn"
+personal_notes: |
+  南昌航空大学数学与信息科学学院讲师 (2021.01 起)，北京大学基础数学博士。
+  研究方向：数学物理与代数几何，具体是 Lie pair、dg manifold、
+  Atiyah class、Hopf algebroid / quantum groupoid 与 brace B∞ algebras。
+
+  所有 4 篇论文均与 Zhuo Chen (陈酌, 清华) 合作——陈酌极可能是博士导师或
+  博士期间合作者 [待验证]。论文合作网络：
+  - 与陈酌、倪大地 (ni-dadi, 河南大学) 2019/2022 两篇关于 Lie pair / L≤3
+    algebra / Hopf algebra from dg manifold 的文章；
+  - 与陈酌、乔雨 (yu-qiao)、Maosong Xiang 2024/2025 两篇 quantum groupoid
+    相关工作。
+
+  博士毕业年份和确切博导 [待验证]。
+  2026 HUST 数学物理与几何研讨会参会。
+sources:
+  - label: "NCHU faculty page"
+    url: "https://sx.nchu.edu.cn/szdw/sssds/content_121119"
+tags:
+  - nchu

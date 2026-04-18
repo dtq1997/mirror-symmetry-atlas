@@ -1,0 +1,156 @@
+slug: hu-xiaowen
+name:
+  en: Xiaowen Hu
+  zh: 胡晓文
+born: null
+died: null
+nationality: Chinese
+gender: male
+photo_url: null
+career_timeline:
+  - period: "2002-2006"
+    type: education
+    institution: tsinghua
+    role: "本科"
+  - period: "2006-2014"
+    type: education
+    institution: tsinghua
+    role: "博士"
+    advisor: zhou-jian
+    notes: "清华大学数学系，导师周坚。博士论文方向为 Gromov-Witten 理论 / 量子 McKay 对应。"
+  - period: "2014-2016"
+    type: position
+    institution: pku-bicmr
+    role: "博士后"
+    notes: "北京大学北京国际数学研究中心 (BICMR)。期间获中国博士后科学基金特别资助项目（镜像对称方向，2015）。"
+  - period: "2016-2022"
+    type: position
+    institution: sun-yat-sen
+    role: "特聘副研究员"
+    notes: "中山大学数学学院。期间获 NSFC 青年基金（代数配边，2018-2020），广州市科技计划项目（代数几何应用，2022-2024）。"
+  - period: "2022.12-present"
+    type: position
+    institution: gbu
+    role: "Tenure-track 副教授"
+    notes: "大湾区大学（筹）理学院。与 USTC 梁永祺教授联合招博士后（代数几何/数论/代数拓扑）。Email: huxiaowen@gbu.edu.cn"
+research_areas:
+  - gromov-witten-theory
+  - mirror-symmetry
+  - quantum-cohomology
+  - picard-fuchs-equations
+  - frobenius-manifold
+  - algebraic-k-theory
+  - hodge-theory
+  - crepant-resolution-conjecture
+advisor: zhou-jian
+students: []
+key_collaborators:
+  - person: ke-huazhong
+    since: 2021
+    topic: "Gamma conjecture II for quadrics"
+    papers_count: 1
+publications:
+  - id: "2507.12458"
+    title: "On the algebraic $K$-theory of smooth schemes over truncated Witt vectors"
+    year: 2025
+    coauthors: []
+  - id: "2311.06793"
+    title: "Rationality of dlog $\\mathbb{A}^1$-zeta functions"
+    year: 2023
+    coauthors: []
+  - id: "2204.07858"
+    title: "Mirror symmetry for quadric hypersurfaces"
+    year: 2022
+    coauthors: []
+  - id: "2203.08091"
+    title: "On Genus 1 Gromov-Witten invariants of Fano complete intersections"
+    year: 2022
+    coauthors: []
+  - id: "2109.11469"
+    title: "Big quantum cohomology of even dimensional intersections of two quadrics"
+    year: 2021
+    coauthors: []
+  - id: "2103.15143"
+    title: "Gamma conjecture II for quadrics"
+    year: 2021
+    coauthors: [ke-huazhong]
+  - id: "2101.05236"
+    title: "On singular Hilbert schemes of points: Local structures and tautological sheaves"
+    year: 2021
+    coauthors: []
+  - id: "2101.05179"
+    title: "An inclusion-exclusion principle for tautological sheaves on Hilbert schemes of points"
+    year: 2021
+    coauthors: []
+  - id: "1902.00932"
+    title: "On Suslin homology with integral coefficients in characteristic zero"
+    year: 2019
+    coauthors: []
+  - id: "1810.03220"
+    title: "Towards a specialization map modulo semi-orthogonal decompositions"
+    year: 2018
+    coauthors: []
+  - id: "1805.04050"
+    title: "Deformation of exceptional collections"
+    year: 2018
+    coauthors: []
+  - id: "1501.03683"
+    title: "Big quantum cohomology of Fano complete intersections"
+    year: 2015
+    coauthors: []
+  - id: "1310.8195"
+    title: "Localized standard versus reduced formula and genus one local Gromov-Witten invariants"
+    year: 2013
+    coauthors: []
+  - id: "1308.0997"
+    title: "On the Crepant Resolution Conjecture for Gromov-Witten Gravitational Ancestors in All Genera for Surface Singularities"
+    year: 2013
+    coauthors: []
+  - id: "1307.7538"
+    title: "A Conjectural Formula for Genus One Gromov-Witten Invariants of a Class of Local Calabi-Yau n-folds"
+    year: 2013
+    coauthors: []
+  - id: "1207.4545"
+    title: "The Quantum McKay Correspondence for Singularities of type D"
+    year: 2012
+    coauthors: []
+activity:
+  total_papers: 16
+  active_period: "2012-present"
+  peak_period: "2021-present"
+external_ids: {}
+links: {}
+personal_notes: |
+  清华本博（周坚组，2002-2014）→ BICMR 博后（2014-2016）→ 中山大学特聘副研究员（2016-2022）
+  → 大湾区大学 tenure-track 副教授（2022.12-）。
+
+  **与张庆生同门：** 两人都是周坚的学生（张庆生 2015-2020），且 2022-2024 年前后都进入大湾区大学，
+  是本项目中的重要同门连接。
+
+  研究方向：Gromov-Witten 理论、镜像对称（特别是二次超曲面与 Fano 完全交）、量子上同调、
+  Picard-Fuchs 方程、代数 K 理论、Hodge 理论。
+
+  代表作：
+  - "Mirror symmetry for quadric hypersurfaces" (2022) — 计算二次超曲面的 Landau-Ginzburg
+    镜像模型的 Calabi-Yau compactification，推导 narrow 与 broad Picard-Fuchs 方程，
+    建立 Frobenius 流形层面的镜像对称同构。
+  - "Gamma conjecture II for quadrics" (2021, with Hua-Zhong Ke)
+  - "Big quantum cohomology of Fano complete intersections" (2015)
+  - "The Quantum McKay Correspondence for Singularities of type D" (2012)
+
+  近期有向代数 K 理论（Witt 向量上 smooth schemes）的方向扩展。
+
+  发表于 Adv. Math., IMRN, Math. Ann., Manuscripta Math., Sci. China Math. 等。
+
+  2026 HUST 会议参会者。研究方向与本项目核心（Frobenius 流形、镜像对称）高度重合，
+  是重要的桥接节点。
+sources:
+  - label: "GBU faculty page (English)"
+    url: "https://www.gbu.edu.cn/detail/article/410?lang=en"
+  - label: "东南大学丘成桐中心学术报告通知 2021"
+    url: "https://yauc.seu.edu.cn/2021/0315/c27641a364305/page.htm"
+  - label: "大湾区大学招聘"
+    url: "https://www.gbu.edu.cn/detail/article/1305"
+tags:
+  - gbu
+  - bridge-node

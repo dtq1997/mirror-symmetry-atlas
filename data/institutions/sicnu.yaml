@@ -1,0 +1,23 @@
+slug: sicnu
+name:
+  en: "Sichuan Normal University"
+  zh: "四川师范大学"
+type: university
+country: China
+city: Chengdu
+location:
+  lat: 30.6894
+  lng: 104.1381
+founded: 1946
+url: "https://www.sicnu.edu.cn/"
+relevance: low
+research_groups:
+  - name: "数学科学学院"
+    topics:
+      - gromov-witten-theory
+      - orbifold-gw-theory
+    current_members:
+      - du-chengyong
+    past_members: []
+events: []
+notes: "杜承勇在此任教，方向 orbifold GW / mirror symmetry。"

@@ -1,0 +1,93 @@
+slug: song-jiayu
+name:
+  en: Jiayu Song
+  zh: 宋家宇
+born: null
+died: null
+nationality: Chinese
+gender: null
+photo_url: null
+career_timeline:
+  - period: "[待验证]-present"
+    type: education
+    institution: sun-yat-sen
+    role: "博士生"
+    advisor: li-changzheng
+    notes: "中山大学数学学院博士生，导师李长征。入学年份 [待验证]，从合作论文时间推测约 2021-2022 年入学"
+research_areas:
+  - quantum-cohomology
+  - quantum-k-theory
+  - quantum-schubert-calculus
+  - gromov-witten-theory
+  - seidel-representation
+  - flag-varieties
+advisor: li-changzheng
+students: []
+key_collaborators:
+  - person: li-changzheng
+    since: 2022
+    topic: "Seidel representation, quantum K-theory, quantum Pieri rule, quantum Schubert calculus for flag varieties"
+    papers_count: 4
+  - person: ke-huazhong
+    since: 2025
+    topic: "Small quantum Chern character"
+    papers_count: 1
+  - person: "Mingzhi Yang"
+    since: 2022
+    topic: "Seidel representation in quantum K-theory, quantum Schubert calculus for Fln"
+    papers_count: 2
+  - person: "Zhaoyang Liu"
+    since: 2022
+    topic: "Seidel representation in quantum K-theory of Grassmannians"
+    papers_count: 1
+  - person: "Rui Xiong"
+    since: 2025
+    topic: "Quantum Schubert calculus for smooth Schubert divisors of Fln"
+    papers_count: 1
+publications:
+  - id: "2509.17857"
+    title: "Quantum Schubert calculus for smooth Schubert divisors of $Fl_n$"
+    year: 2025
+    coauthors: [li-changzheng, "Rui Xiong", "Mingzhi Yang"]
+  - id: "2507.12351"
+    title: "Toward quantum Pieri rule for $Fl_n$ via Seidel representation"
+    year: 2025
+    coauthors: [li-changzheng]
+    journal: "SCIENTIA SINICA Mathematica 54(12) (2024)"
+  - id: "2507.12333"
+    title: "Towards small quantum Chern character"
+    year: 2025
+    coauthors: [ke-huazhong, li-changzheng]
+  - id: "2211.16902"
+    title: "On Seidel representation in quantum K-theory of Grassmannians"
+    year: 2022
+    coauthors: [li-changzheng, "Zhaoyang Liu", "Mingzhi Yang"]
+    journal: "Sci. China Math. 68 (2025), no. 7, 1523-1548"
+activity:
+  total_papers: 4
+  active_period: "2022-present"
+external_ids: {}
+links: {}
+personal_notes: |
+  中山大学数学学院博士生，导师李长征，方向 quantum Schubert calculus / quantum K-theory。
+  从 2022 年起与李长征合作，累计 4 篇论文，主要方向：
+  (1) Seidel representation 在 quantum K-theory 中的研究（博士论文主线）；
+  (2) quantum Pieri rule for flag varieties via Seidel representation；
+  (3) quantum Chern character from quantum K-theory to quantum cohomology (与柯华忠、李长征合作)；
+  (4) quantum Schubert calculus for smooth Schubert divisors of complete flag varieties (与 Rui Xiong、Mingzhi Yang)。
+  2024 年在《中国科学: 数学》发表中文综述《李长征/宋家宇: Seidel 表示的量子 Pieri 公式》。
+  是李长征组活跃的年轻合作者之一，与 Mingzhi Yang 经常合作。
+  2026 年 4 月 HUST "数学物理与几何研讨会"参会人员之一。
+  [待验证] 博士入学具体年份。
+sources:
+  - label: "arXiv (all papers)"
+    url: "https://arxiv.org/a/song_j_2"
+  - label: "李长征主页 (合作者)"
+    url: "https://math.sysu.edu.cn/gagp/czli"
+  - label: "ResearchGate"
+    url: "https://www.researchgate.net/scientific-contributions/Jiayu-Song-2237371125"
+tags:
+  - sun-yat-sen
+  - student
+  - quantum-schubert
+  - li-changzheng-student

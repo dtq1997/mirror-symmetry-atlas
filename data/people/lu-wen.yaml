@@ -1,0 +1,105 @@
+slug: lu-wen
+name:
+  en: Wen Lu
+  zh: 卢文
+born: null
+died: null
+nationality: Chinese
+gender: male
+photo_url: null
+career_timeline:
+  - period: "[待验证]"
+    type: education
+    institution: null
+    role: "博士, 基础数学"
+    advisor: null
+    notes: "[待验证] 极可能于 Université Paris Diderot / IMJ-PRG 师从 Xiaonan Ma (马晓楠)，方向 Bergman 核 / Berezin-Toeplitz 量子化。Xiaonan Ma 本人是 Jean-Michel Bismut (Orsay) 的学生"
+  - period: "present"
+    type: position
+    institution: hust
+    role: "教授"
+    notes: "华中科技大学数学与统计学院，基础数学，理学博士学位"
+research_areas:
+  - bergman-kernel
+  - complex-geometry
+  - spectral-theory
+  - berezin-toeplitz-quantization
+  - symplectic-geometry
+  - kahler-geometry
+  - index-theory
+advisor: null
+students: []
+key_collaborators:
+  - person: "Xiaonan Ma"
+    since: 2017
+    topic: "Bergman 核, Donaldson Q-operators, Berezin-Toeplitz 量子化, Bergman 度量的最优收敛速度"
+    papers_count: 5
+    notes: "Université Paris Cité (IMJ-PRG)。长期合作者，疑似博士导师"
+  - person: "George Marinescu"
+    since: 2017
+    topic: "Bergman 核, 线丛等分布, Poincaré 级数"
+    papers_count: 5
+    notes: "University of Cologne"
+  - person: "Louis Ioos"
+    since: 2017
+    topic: "Berezin-Toeplitz 量子化, Bochner-Laplacian 特征态, Bergman 核与 Poincaré 级数"
+    papers_count: 2
+  - person: "Dan Coman"
+    since: 2020
+    topic: "Kähler 流形上线丛序列的 Bergman 核与等分布"
+    papers_count: 1
+    notes: "Syracuse University"
+publications:
+  - id: "2603.04842"
+    title: "Bergman kernels and Poincaré series"
+    year: 2026
+    coauthors: ["Louis Ioos", "Xiaonan Ma", "George Marinescu"]
+  - id: "2012.12019"
+    title: "Bergman kernels and equidistribution for sequences of line bundles on Kähler manifolds"
+    year: 2020
+    coauthors: ["Dan Coman", "Xiaonan Ma", "George Marinescu"]
+  - id: "1703.06420"
+    title: "Berezin-Toeplitz quantization for eigenstates of the Bochner-Laplacian on symplectic manifolds"
+    year: 2017
+    coauthors: ["Louis Ioos", "Xiaonan Ma", "George Marinescu"]
+  - id: "1703.05276"
+    title: "Donaldson's Q-operators for symplectic manifolds"
+    year: 2017
+    coauthors: ["Xiaonan Ma", "George Marinescu"]
+  - id: "1702.00974"
+    title: "Optimal convergence speed of Bergman metrics on symplectic manifolds"
+    year: 2017
+    coauthors: ["Xiaonan Ma", "George Marinescu"]
+  - id: "1212.6034"
+    title: "The second coefficient of the asymptotic expansion of the Bergman kernel of the Hodge-Dolbeault operator"
+    year: 2012
+    coauthors: []
+  - id: "1205.4665"
+    title: "A Thom-Smale-Witten theorem on manifolds with boundary"
+    year: 2012
+    coauthors: []
+  - id: "1205.3437"
+    title: "Equivariant Morse inequalities and applications"
+    year: 2012
+    coauthors: []
+activity:
+  total_papers: 8
+  active_period: "2012-present"
+  notes: "仅数学几何方向论文；arXiv 上另有一位 Wen Lu 做 SDE/BSDE，不是同一人"
+external_ids: {}
+links:
+  homepage: "http://faculty.hust.edu.cn/luwen/zh_CN/index.htm"
+personal_notes: |
+  HUST 数学与统计学院教授，研究复几何、Bergman 核、指标定理。
+  合作网络定位他为 Bismut-Ma 学派：主要合作者 Xiaonan Ma (IMJ-PRG)、George Marinescu (Cologne)、Louis Ioos。
+  早期 2012 年系列单作 (Thom-Smale-Witten on manifolds with boundary, equivariant Morse, Bergman 核二阶系数)
+  极可能是博士论文衍生工作，与 Xiaonan Ma 的合作从 2017 开始频繁。
+  [待验证] 博士学校 (Université Paris Diderot?) 与导师 (Xiaonan Ma?)。
+  HUST faculty 主页研究方向等字段尚未填写。
+sources:
+  - label: "HUST faculty page"
+    url: "http://faculty.hust.edu.cn/luwen/zh_CN/index.htm"
+  - label: "arXiv author search"
+    url: "https://arxiv.org/a/lu_w_1.html"
+tags:
+  - hust

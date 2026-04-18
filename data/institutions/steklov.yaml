@@ -1,0 +1,29 @@
+slug: steklov
+name:
+  en: "Steklov Mathematical Institute"
+  zh: "斯捷克洛夫数学研究所"
+  local: "Математический институт им. В. А. Стеклова"
+type: research-institute
+country: Russia
+city: Moscow
+location:
+  lat: 55.7118
+  lng: 37.6209
+founded: 1934
+url: "https://www.mi-ras.ru/"
+relevance: high
+research_groups:
+  - name: "Mathematical Physics"
+    topics:
+      - integrable-systems
+      - quantum-groups
+      - mathematical-physics
+    current_members: []
+    past_members:
+      - faddeev
+      - novikov-sergei
+      - alekseev
+events: []
+notes: |
+  苏联/俄罗斯数学物理学派中心。Faddeev、Novikov、Manin 等几代大师的基地。
+  Alekseev 曾在此读博（Faddeev 指导）。

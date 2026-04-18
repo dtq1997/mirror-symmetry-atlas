@@ -1,0 +1,24 @@
+slug: birmingham
+name:
+  en: "University of Birmingham"
+  zh: "伯明翰大学"
+type: university
+country: UK
+city: Birmingham
+location:
+  lat: 52.4508
+  lng: -1.9305
+founded: 1900
+url: "https://www.birmingham.ac.uk/"
+relevance: low
+research_groups:
+  - name: "School of Mathematics"
+    topics:
+      - integrable-systems
+      - painleve-equations
+    current_members: []
+    past_members:
+      - mazzocco
+      - cotti
+events: []
+notes: "Mazzocco 在此建立 integrable systems 研究组。Cotti 2019-2020 博后。"

@@ -1,0 +1,30 @@
+slug: algebraic-geometry
+name:
+  en: Algebraic Geometry
+  zh: 代数几何
+aliases:
+  - alg-geom
+category: technique
+difficulty: intermediate
+discipline: math
+year_introduced: null
+introduced_by: []
+definition: |
+  研究由多项式方程定义的几何对象（代数簇、概型、层、栈等）
+  的学科。是数学物理、镜像对称、Gromov-Witten 理论等领域的
+  基础工具。现代代数几何由 Grothendieck 的概型语言奠定。
+dual_to: null
+prerequisites: []
+leads_to:
+  - moduli-spaces
+  - derived-category
+  - gromov-witten-theory
+related:
+  - mirror-symmetry
+  - calabi-yau
+key_people:
+  - manin-yuri
+  - kontsevich
+key_papers: []
+tags:
+  - layer-0

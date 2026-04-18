@@ -1,0 +1,29 @@
+slug: noncommutative-geometry
+name:
+  en: Noncommutative Geometry
+  zh: 非交换几何
+aliases:
+  - NCG
+category: technique
+difficulty: advanced
+discipline: both
+year_introduced: 1985
+introduced_by: []
+definition: |
+  由 Alain Connes 发起，用代数手段推广几何：以算子代数（$C^*$ 代数、
+  von Neumann 代数、cyclic homology、$K$-理论）替代点集拓扑下的
+  流形语言。核心工具：cyclic cohomology、spectral triple、
+  Chern-Connes character、index theorem。与规范场论、量子场论、
+  量子群的数学物理紧密相关。
+dual_to: null
+prerequisites: []
+leads_to: []
+related:
+  - mathematical-physics
+  - k-theory
+key_people:
+  - ryszard-nest
+  - faddeev
+key_papers: []
+tags:
+  - layer-1

@@ -1,0 +1,105 @@
+slug: hong-wei
+name:
+  en: Wei Hong
+  zh: 洪伟
+born: null
+died: null
+nationality: Chinese
+gender: male
+photo_url: null
+career_timeline:
+  - period: "[?]-2013"
+    type: education
+    institution: penn-state
+    role: "博士"
+    advisor: xu-ping
+    notes: "宾夕法尼亚州立大学数学系，2013 年获博士学位，师从 Ping Xu (徐平)，学位论文 'Some problems in Poisson geometry'"
+  - period: "2013-[?]"
+    type: position
+    institution: wuhan
+    role: "博士后 → 讲师"
+    notes: "武汉大学数学与统计学院基础数学系。博士毕业即加入武大"
+  - period: "present"
+    type: position
+    institution: wuhan
+    role: "讲师"
+    notes: "武汉大学数学与统计学院基础数学系，办公室雷军科技楼 A416"
+research_areas:
+  - poisson-geometry
+  - symplectic-geometry
+  - poisson-cohomology
+  - atiyah-classes
+  - lie-bialgebras
+  - toric-poisson-manifolds
+  - holomorphic-polyvector-fields
+  - bv-algebras
+  - gerstenhaber-algebras
+  - hypercomplex-geometry
+advisor: xu-ping
+students: []
+key_collaborators:
+  - person: xu-ping
+    since: 2010
+    topic: "Poisson cohomology of Del Pezzo surfaces"
+    papers_count: 1
+  - person: "Mathieu Stiénon"
+    since: 2013
+    topic: "Hypercomplex and holomorphic symplectic structures"
+    papers_count: 1
+  - person: "Yang Deng"
+    since: 2021
+    topic: "BV operators of Gerstenhaber algebras on toric varieties"
+    papers_count: 1
+publications:
+  - id: "2104.12685"
+    title: "BV operators of the Gerstenhaber algebras of holomorphic polyvector fields on toric varieties"
+    year: 2021
+    coauthors: ["Yang Deng"]
+  - id: "2010.07053"
+    title: "Holomorphic polyvector fields on toric varieties"
+    year: 2020
+    coauthors: []
+  - id: "1911.04331"
+    title: "Poisson Cohomology of holomorphic toric Poisson manifolds. II"
+    year: 2019
+    coauthors: []
+  - id: "1802.01937"
+    title: "Atiyah classes of Lie bialgebras"
+    year: 2018
+    coauthors: []
+  - id: "1611.08485"
+    title: "Poisson Cohomology of holomorphic toric Poisson manifolds. I"
+    year: 2016
+    coauthors: []
+  - id: "1302.2857"
+    title: "From Hypercomplex to Holomorphic Symplectic Structures"
+    year: 2013
+    coauthors: ["Mathieu Stiénon"]
+  - id: "1001.1082"
+    title: "Poisson Cohomology of Del Pezzo surfaces"
+    year: 2010
+    coauthors: ["Ping Xu"]
+activity:
+  total_papers: 7
+  active_period: "2010-present"
+external_ids: {}
+links:
+  homepage: "https://maths.whu.edu.cn/info/4091/132711.htm"
+  email: "hong_w@whu.edu.cn"
+  email_alt: "hongweimath@gmail.com"
+personal_notes: |
+  武汉大学数学与统计学院基础数学系讲师。研究方向：辛几何与泊松几何。
+  Penn State 博士(2013)，导师 Ping Xu (徐平)，PhD 学位论文 'Some problems in Poisson geometry'。
+  博士毕业直接加入武大做博士后，后转讲师。
+  主要工作：(1) 与 Ping Xu 合作 del Pezzo 曲面的 Poisson cohomology；(2) toric Poisson
+  流形的 Poisson cohomology (系列两篇)；(3) Lie bialgebra 的 Atiyah class；(4) toric
+  varieties 上全纯 polyvector fields 的 BV/Gerstenhaber 代数结构。
+  与徐晓濛组(Stokes phenomenon、quantum groups) 在 Poisson/Lie 代数结构上有潜在交集。
+  2026 HUST 数学物理与几何研讨会武大参会学者之一。
+sources:
+  - label: "武汉大学数学与统计学院 - 洪伟"
+    url: "https://maths.whu.edu.cn/info/4091/132711.htm"
+  - label: "Penn State Math PhD Graduates (Wei Hong, 2013)"
+    url: "https://math.psu.edu/people/9"
+tags:
+  - wuhan

@@ -1,0 +1,67 @@
+slug: zhang-xuhui
+name:
+  en: Xuhui Zhang
+  zh: 张旭辉
+born: null
+died: null
+nationality: Chinese
+gender: null
+photo_url: null
+career_timeline:
+  - period: "2019-present"
+    type: education
+    institution: tsinghua
+    role: "博士生"
+    advisor: zhou-jian
+    notes: "清华大学数学科学系博士生（2019 年入学，学号 zhangxh19），导师周坚。方向 integrable hierarchies / mathematical physics"
+  - period: "present"
+    type: position
+    institution: sun-yat-sen
+    role: "[待验证]"
+    notes: "2026 年 4 月 HUST 会议签到表列为中山大学参会人员，但 arXiv 论文 affiliation 为清华大学。可能是访问学者/短期交流/即将入职 [待验证]"
+research_areas:
+  - bkp-hierarchy
+  - kp-hierarchy
+  - integrable-hierarchies
+  - tau-functions
+  - boson-fermion-correspondence
+  - mathematical-physics
+advisor: zhou-jian
+students: []
+key_collaborators:
+  - person: zhou-jian
+    since: 2025
+    topic: "BKP hierarchy, connected bosonic n-point functions, tau-functions"
+    papers_count: 1
+publications:
+  - id: "2506.00451"
+    title: "A Formula for Connected Bosonic n-Point Functions for the BKP Hierarchy"
+    year: 2025
+    coauthors: [zhou-jian]
+activity:
+  total_papers: 1
+  active_period: "2025-present"
+external_ids: {}
+links:
+  email: "zhangxh19@mails.tsinghua.edu.cn"
+personal_notes: |
+  清华大学数学科学系博士生，2019 年入学（邮箱 zhangxh19 表明入学年份），导师周坚 (Jian Zhou)。
+  方向 integrable hierarchies，聚焦 BKP/KP hierarchy 的 tau 函数 connected n-point 函数公式。
+  唯一 arXiv 论文 (2506.00451) 将 BKP hierarchy 嵌入到 KP hierarchy，给出 connected bosonic n-point
+  函数的新公式，并证明与 Wang-Yang 2022 年公式等价。
+  [待验证] 与中山大学的关系：可能是短期访问、合作研究或准备入职。HUST 签到表列其为 SYSU 参会人员，
+  但 arXiv 论文 (2025.6) affiliation 仍是清华。
+  研究生态与周坚一脉相承（KP 可积系统、Hodge 积分、拓扑递归），与 Frobenius 流形、Witten-Kontsevich
+  tau 函数等主题关联。
+  SYSU 博导名单中有"张旭辉"但无超链接，可能是另一位同名或刚入职但主页未建。
+sources:
+  - label: "arXiv 2506.00451"
+    url: "https://arxiv.org/abs/2506.00451"
+  - label: "SYSU Math PhD advisors list"
+    url: "https://math.sysu.edu.cn/article/2971"
+tags:
+  - sun-yat-sen
+  - tsinghua-student
+  - student
+  - integrable-systems
+  - stub

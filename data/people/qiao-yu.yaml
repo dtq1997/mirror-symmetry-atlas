@@ -1,0 +1,148 @@
+slug: qiao-yu
+name:
+  en: Yu Qiao
+  zh: 乔雨
+born: null
+died: null
+nationality: Chinese
+gender: male
+photo_url: null
+career_timeline:
+  - period: "[待验证]"
+    type: education
+    institution: null
+    role: "博士 (Ph.D.)"
+    advisor: "[待验证]"
+    notes: "博士机构和导师信息 [待验证]。疑似 Penn State（Victor Nistor / Xiang Tang / Ping Xu 圈子，合作者 Nistor/Carvalho 是 Penn State / Lisbon 的 Nistor 长期合作者），但未经证实"
+  - period: "present"
+    type: position
+    institution: snnu
+    role: "副教授"
+    notes: "陕西师范大学数学与统计学院"
+research_areas:
+  - groupoid
+  - c-star-algebras
+  - index-theory
+  - lie-algebroid
+  - lie-rinehart-algebra
+  - fredholm-groupoids
+  - pseudodifferential-operators
+advisor: null
+students: []
+key_collaborators:
+  - person: "Catarina Carvalho"
+    since: 2011
+    topic: "Layer potentials C*-algebras, Fredholm groupoids, gluing action groupoids"
+    papers_count: 4
+    notes: "Lisbon (Instituto Superior Técnico)"
+  - person: "Victor Nistor"
+    since: 2017
+    topic: "Fredholm conditions on non-compact manifolds, analysis and index theory"
+    papers_count: 3
+    notes: "Université de Lorraine / Penn State 名誉教授"
+  - person: "Bing Kwan So"
+    since: 2021
+    topic: "Renormalized index formulae, K-theoretic index formulae on boundary groupoids"
+    papers_count: 2
+  - person: "Ivan Beschastnyi"
+    since: 2023
+    topic: "Schrödinger operators with non-integer power-law potentials, Lie-Rinehart algebras"
+    papers_count: 2
+  - person: lang-honglei
+    since: 2019
+    topic: "Lie bialgebroid crossed modules"
+    papers_count: 1
+  - person: "Rémi Côme"
+    since: 2018
+    topic: "Gluing action groupoids, Fredholm conditions, layer potentials"
+    papers_count: 1
+  - person: jiahao-cheng
+    since: 2024
+    topic: "Smooth dynamical twists to twistors of quantum groupoids, Brace $B_\\infty$ algebras"
+    papers_count: 2
+    notes: "与 Zhuo Chen, Maosong Xiang 联合合作"
+publications:
+  - id: "2508.02019"
+    title: "Brace $B_{\\infty}$ algebras associated with Hopf algebroids"
+    year: 2025
+    coauthors: ["Jiahao Cheng", "Zhuo Chen"]
+  - id: "2412.19290"
+    title: "Schrödinger operators with non-integer power-law potentials and Lie-Rinehart algebras"
+    year: 2024
+    coauthors: ["Ivan Beschastnyi", "Catarina Carvalho", "Victor Nistor"]
+  - id: "2412.09039"
+    title: "From smooth dynamical twists to twistors of quantum groupoids"
+    year: 2024
+    coauthors: ["Jiahao Cheng", "Zhuo Chen", "Maosong Xiang"]
+  - id: "2308.06225"
+    title: "Analysis on noncompact manifolds and Index Theory: Fredholm conditions and Pseudodifferential operators"
+    year: 2023
+    coauthors: ["Ivan Beschastnyi", "Catarina Carvalho", "Victor Nistor"]
+  - id: "2304.13345"
+    title: "Deformation and $K$-theoretic Index Formulae on Boundary Groupoids"
+    year: 2023
+    coauthors: ["Bing Kwan So"]
+    journal: "J. Noncommut. Geom. 19 (2025)"
+  - id: "2108.04592"
+    title: "Renormalized Index Formulas for Elliptic Differential Operators on Boundary Groupoids"
+    year: 2021
+    coauthors: ["Bing Kwan So"]
+  - id: "1910.12225"
+    title: "On Lie Bialgebroid Crossed Modules"
+    year: 2019
+    coauthors: ["Honglei Lang", "Yanbin Yin"]
+  - id: "1811.07699"
+    title: "Gluing action groupoids: Fredholm conditions and layer potentials"
+    year: 2018
+    coauthors: ["Catarina Carvalho", "Rémi Côme"]
+  - id: "1807.05418"
+    title: "Fredholm Groupoids and Layer Potentials on Conical Domains"
+    year: 2018
+    coauthors: ["Catarina Carvalho"]
+  - id: "1703.07953"
+    title: "Fredholm conditions on non-compact manifolds: theory and examples"
+    year: 2017
+    coauthors: ["Catarina Carvalho", "Victor Nistor"]
+  - id: "1111.5754"
+    title: "Layer potentials C*-algebras of domains with conical points"
+    year: 2011
+    coauthors: ["Catarina Carvalho"]
+activity:
+  total_papers: 11
+  active_period: "2011-present"
+external_ids: {}
+links:
+  researchgate: "https://www.researchgate.net/profile/Yu-Qiao-19"
+personal_notes: |
+  陕西师范大学数学与统计学院副教授。
+  核心方向：groupoid C*-代数、K-理论指标公式、边界 groupoid 上的椭圆算子、
+  Fredholm groupoid、Lie-Rinehart 代数。属于 Connes-Debord-Skandalis-Nistor
+  传统中的 noncompact/singular 流形分析学派。
+
+  主要合作者：
+  - Catarina Carvalho (Lisbon) - 4 篇，最早 2011 合作；
+  - Victor Nistor (Lorraine/Penn State) - 3 篇；
+  - Bing Kwan So - 2 篇关于 boundary groupoid 指标公式；
+  - Ivan Beschastnyi (Padova) - 2 篇 2023-2024。
+
+  与 Nistor 长期合作表明其博士训练可能与 Penn State / Nistor 学派相关
+  [待验证]。2011 年最早论文即与 Carvalho 合作，时间线也与北美博士后
+  阶段吻合。
+
+  与国内 Lie algebroid 圈的连接：
+  (1) 2019 年与郎红蕾 (Honglei Lang)、Yanbin Yin 合作 "On Lie Bialgebroid
+      Crossed Modules" (1910.12225);
+  (2) 2024-2025 与陈酌 (Zhuo Chen)、程家豪 (Jiahao Cheng)、Maosong Xiang
+      合作 "smooth dynamical twists"、"Brace B∞ algebras associated
+      with Hopf algebroids"。
+
+  2026 HUST 数学物理与几何研讨会参会。
+sources:
+  - label: "ResearchGate"
+    url: "https://www.researchgate.net/profile/Yu-Qiao-19"
+  - label: "EMS JNCG paper"
+    url: "https://ems.press/journals/jncg/articles/14298118"
+  - label: "JLU seminar announcement (2024)"
+    url: "https://math.jlu.edu.cn/info/1555/15883.htm"
+tags:
+  - snnu

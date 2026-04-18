@@ -1,0 +1,78 @@
+slug: si-li
+name:
+  en: Si Li
+  zh: 李思
+born: null
+died: null
+nationality: Chinese
+gender: male
+photo_url: null
+career_timeline:
+  - period: "[待验证]"
+    type: education
+    institution: pku
+    role: "本科 [待验证]"
+  - period: "[待验证]-2011"
+    type: education
+    institution: harvard
+    role: "博士, 数学"
+    advisor: yau-shingtung
+    notes: "Harvard PhD 2011, 导师丘成桐"
+  - period: "2011-2014"
+    type: position
+    institution: boston-u
+    role: "助理教授"
+    notes: "[待验证]"
+  - period: "2014-present"
+    type: position
+    institution: tsinghua-ymsc
+    role: "教授"
+    notes: "清华大学丘成桐数学科学中心。Frontier Chair"
+research_areas:
+  - mirror-symmetry
+  - landau-ginzburg
+  - bv-quantization
+  - kodaira-spencer-gravity
+  - mathematical-physics
+  - topological-field-theory
+advisor: yau-shingtung
+students: []
+key_collaborators:
+  - person: he-weiqiang
+    since: 2015
+    topic: "LG mirror symmetry conjecture, G-twisted braces, Kodaira-Spencer gravity"
+    papers_count: 5
+  - person: li-qin
+    since: 2014
+    topic: "B-twisted sigma model, BV quantization, algebraic index"
+    papers_count: 2
+  - person: li-changzheng
+    since: 2013
+    topic: "Primitive forms, mirror symmetry for exceptional singularities (JEMS 2017)"
+    papers_count: 2
+  - person: "Kevin Costello"
+    since: 2012
+    topic: "Effective BV quantization, factorization algebras"
+    papers_count: 3
+publications: []
+activity:
+  total_papers: null
+  active_period: "2009-present"
+external_ids: {}
+links:
+  homepage: "https://ymsc.tsinghua.edu.cn/info/1104/2554.htm"
+personal_notes: |
+  清华 YMSC 教授，数学物理方向核心。师从丘成桐。
+  代表工作：
+  (1) B-twisted sigma model 与 BV 量子化的 Costello-Li 纲领，
+  (2) Landau-Ginzburg mirror symmetry conjecture 的证明（与 He, Shen, Webb 合作，JEMS 2022），
+  (3) Primitive forms / 奇点 mirror symmetry（与 K. Saito, Li Changzheng 合作，JEMS 2017），
+  (4) Kodaira-Spencer gravity 与 holomorphic Chern-Simons。
+  何伟强博后期间的主要导师之一，是中山大学/清华 LG 方向合作的关键桥梁。
+sources:
+  - label: "清华 YMSC 主页"
+    url: "https://ymsc.tsinghua.edu.cn/info/1104/2554.htm"
+tags:
+  - tsinghua
+  - important-person
+  - stub

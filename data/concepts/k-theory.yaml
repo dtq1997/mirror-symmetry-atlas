@@ -1,0 +1,31 @@
+slug: k-theory
+name:
+  en: K-Theory
+  zh: K 理论
+aliases:
+  - algebraic K-theory
+  - topological K-theory
+category: technique
+difficulty: advanced
+discipline: math
+year_introduced: 1957
+introduced_by: []
+definition: |
+  Grothendieck 引入的代数 $K$-理论、Atiyah-Hirzebruch 的拓扑
+  $K$-理论、以及 Connes 的算子 $K$-理论共同构成 $K$-理论家族，
+  研究向量丛／射影模／算子代数的 Grothendieck 群结构。
+  镜像对称中 B-模型的 Chern character 自然取值于 $K$-理论，
+  为 Gamma 猜想等提供对象。
+dual_to: null
+prerequisites: []
+leads_to: []
+related:
+  - noncommutative-geometry
+  - gamma-conjecture
+  - algebraic-geometry
+key_people:
+  - ryszard-nest
+  - manin-yuri
+key_papers: []
+tags:
+  - layer-1

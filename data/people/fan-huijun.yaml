@@ -1,0 +1,227 @@
+slug: fan-huijun
+name:
+  en: Huijun Fan
+  zh: 范辉军
+born: 1972
+died: null
+nationality: Chinese
+gender: male
+photo_url: null
+career_timeline:
+  - period: "1987-1991"
+    type: education
+    institution: hust
+    role: "本科, 物理学"
+    notes: "华中理工大学(现华中科技大学)物理系，1991 年获学士学位"
+  - period: "1991-1994"
+    type: education
+    institution: null
+    role: "硕士"
+    notes: "吉林大学，1994 年获硕士学位"
+  - period: "1995-1998"
+    type: education
+    institution: pku
+    role: "博士"
+    advisor: null
+    notes: "北京大学，1998 年获博士学位。博士导师 [待验证]"
+  - period: "2000-2002"
+    type: position
+    institution: amss
+    role: "博士后"
+    notes: "中国科学院数学与系统科学研究院"
+  - period: "2002-2004"
+    type: position
+    institution: null
+    role: "访问学者"
+    notes: "德国 Max-Planck 数学研究所(莱比锡)"
+  - period: "2003-2010"
+    type: position
+    institution: pku
+    role: "副教授"
+    notes: "北京大学数学科学学院"
+  - period: "2008"
+    type: award
+    title: "新世纪优秀人才支持计划"
+    notes: "教育部"
+  - period: "2010-present"
+    type: position
+    institution: pku
+    role: "教授、博士生导师"
+    notes: "北京大学数学科学学院"
+  - period: "2013"
+    type: award
+    title: "国家杰出青年科学基金"
+    notes: "国家自然科学基金委员会"
+  - period: "2015"
+    type: award
+    title: "长江学者"
+    notes: "教育部"
+  - period: "2015"
+    type: award
+    title: "教育部自然科学奖一等奖"
+    notes: "独立完成"
+  - period: "2017"
+    type: award
+    title: "国家自然科学奖二等奖"
+    notes: "独立完成，表彰 FJRW 理论及相关工作"
+  - period: "2021"
+    type: award
+    title: "中国数学会学术年会大会邀请报告人"
+  - period: "2022"
+    type: award
+    title: "国家级教学成果奖一等奖"
+  - period: "2024-11-present"
+    type: position
+    institution: wuhan
+    role: "弘毅讲席教授、数学与统计学院院长"
+    notes: "2024 年 11 月全职加盟武汉大学，就任数学与统计学院院长"
+research_areas:
+  - fjrw-theory
+  - mirror-symmetry
+  - landau-ginzburg
+  - gauged-linear-sigma-model
+  - singularity-theory
+  - harmonic-maps
+  - morse-theory
+  - conley-index-theory
+  - gromov-witten-theory
+advisor: null
+students: []
+key_collaborators:
+  - person: "Tyler J. Jarvis"
+    since: 2004
+    topic: "FJRW theory, Witten equation, quantum singularity theory, GLSM"
+    papers_count: 7
+  - person: "Yongbin Ruan"
+    since: 2004
+    topic: "FJRW theory, Witten equation, quantum singularity theory, GLSM"
+    papers_count: 7
+  - person: "Juergen Jost"
+    since: 2000
+    topic: "Novikov-Morse theory, Conley index"
+    papers_count: 2
+  - person: "Yefeng Shen"
+    since: 2009
+    topic: "Quantum rings of singularities"
+    papers_count: 1
+  - person: "Tian Lan"
+    since: 2020
+    topic: "LG/CY correspondence between tt* geometries"
+    papers_count: 2
+  - person: "Zongrui Yang"
+    since: 2020
+    topic: "LG/CY correspondence between tt* geometries"
+    papers_count: 2
+  - person: "Amanda Francis"
+    since: 2010
+    topic: "Witten's D_4 integrable hierarchy conjecture"
+    papers_count: 1
+  - person: "Weiyue Ding"
+    since: 2001
+    topic: "Harmonic Hopf constructions between spheres"
+    papers_count: 1
+  - person: "Jiayu Li"
+    since: 2001
+    topic: "Harmonic Hopf constructions between spheres"
+    papers_count: 1
+publications:
+  - id: "2210.16747"
+    title: "Constructing the LG/CY isomorphism between tt* geometries"
+    year: 2022
+    coauthors: ["Tian Lan", "Zongrui Yang"]
+  - id: "2011.14658"
+    title: "LG/CY correspondence between tt* geometries"
+    year: 2020
+    coauthors: ["Tian Lan", "Zongrui Yang"]
+  - id: "1812.11748"
+    title: "Fukaya category of Landau-Ginzburg model"
+    year: 2018
+    coauthors: ["Wenfeng Jiang", "Dingyu Yang"]
+  - id: "1603.06530"
+    title: "Torsion type invariants of singularities"
+    year: 2016
+    coauthors: ["Hao Fang"]
+  - id: "1603.02666"
+    title: "The Moduli Space in the Gauged Linear Sigma Model"
+    year: 2016
+    coauthors: ["Tyler Jarvis", "Yongbin Ruan"]
+  - id: "1506.02109"
+    title: "A Mathematical Theory of the Gauged Linear Sigma Model"
+    year: 2015
+    coauthors: ["Tyler Jarvis", "Yongbin Ruan"]
+    journal: "Geom. Topol. 22 (2018)"
+  - id: "1107.1290"
+    title: "Schrödinger equations, deformation theory and tt*-geometry"
+    year: 2011
+    coauthors: []
+  - id: "1012.0066"
+    title: "Quantum Singularity Theory for A_{r-1} and r-Spin Theory"
+    year: 2010
+    coauthors: ["Tyler J. Jarvis", "Yongbin Ruan"]
+  - id: "1008.0927"
+    title: "Witten's D_4 Integrable Hierarchies Conjecture"
+    year: 2010
+    coauthors: ["Amanda Francis", "Tyler J. Jarvis", "Evan Merrell", "Yongbin Ruan"]
+  - id: "0902.2327"
+    title: "Quantum ring of singularity X^p + XY^q"
+    year: 2009
+    coauthors: ["Yefeng Shen"]
+  - id: "0712.4021"
+    title: "The Witten equation, mirror symmetry and quantum singularity theory"
+    year: 2007
+    coauthors: ["Tyler J. Jarvis", "Yongbin Ruan"]
+    journal: "Ann. of Math. (2013)"
+  - id: "0712.4025"
+    title: "The Witten equation and its virtual fundamental cycle"
+    year: 2007
+    coauthors: ["Tyler J. Jarvis", "Yongbin Ruan"]
+  - id: "math/0505575"
+    title: "Martin points on open manifolds of non-positive curvature"
+    year: 2005
+    coauthors: ["Jianguo Cao", "Francois Ledrappier"]
+  - id: "math/0409434"
+    title: "Geometry and analysis of spin equations"
+    year: 2004
+    coauthors: ["Tyler J. Jarvis", "Yongbin Ruan"]
+  - id: "math/0312018"
+    title: "Conley Index Theory and Novikov-Morse Theory"
+    year: 2003
+    coauthors: ["Juergen Jost"]
+  - id: "math/0106234"
+    title: "Harmonic Hopf Constructions Between Spheres II"
+    year: 2001
+    coauthors: ["Weiyue Ding", "Jiayu Li"]
+  - id: "math/0010295"
+    title: "Novikov-Morse theory for dynamical systems"
+    year: 2000
+    coauthors: ["Juergen Jost"]
+activity:
+  total_papers: 17
+  active_period: "2000-present"
+external_ids:
+  mathgenealogy: "240326"
+links:
+  pku_page: "https://www.math.pku.edu.cn/teachers/fanhj/"
+  researchgate: "https://www.researchgate.net/profile/Huijun-Fan"
+personal_notes: |
+  武汉大学数学与统计学院院长(2024.11 起)、弘毅讲席教授。北京大学教授(仍保留)。
+  FJRW 理论的"F"——与 Tyler Jarvis、Yongbin Ruan 共同创立量子奇点理论 (Fan-Jarvis-Ruan-Witten)，
+  系列奠基性论文 0712.4021 / 0712.4025 / math/0409434 发表于 Ann. of Math. (2013)。
+  国家杰青(2013)、长江学者(2015)、国家自然科学奖二等奖(2017，独立)、教育部自然科学奖一等奖(2015，独立)。
+  2021 年中国数学会学术年会大会邀请报告人。担任 Science China: Math 等多个期刊编委。
+  研究方向：FJRW 理论、Landau-Ginzburg 模型、镜像对称、GLSM、奇点理论；早期工作涉及
+  调和映射、Novikov-Morse 理论、Conley index 理论。2024 年 11 月全职加盟武大，同时兼任华科大
+  数学与交叉学科研究所学术委员会委员。
+sources:
+  - label: "杨彤、范辉军 2 名顶尖学者全职加盟武汉大学 (ScienceNet)"
+    url: "https://news.sciencenet.cn/htmlnews/2024/11/534316.shtm"
+  - label: "Math Genealogy (advisor unknown)"
+    url: "https://www.genealogy.math.ndsu.nodak.edu/id.php?id=240326"
+  - label: "Three PKU Professors listed in the 2017 National Talents Projects"
+    url: "https://english.pku.edu.cn/news_events/news/focus/6526.html"
+  - label: "范辉军百度百科"
+    url: "https://baike.baidu.com/item/%E8%8C%83%E8%BE%89%E5%86%9B/4781323"
+tags:
+  - wuhan
+  - pku
+  - important-person

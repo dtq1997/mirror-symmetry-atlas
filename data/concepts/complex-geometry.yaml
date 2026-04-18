@@ -1,0 +1,27 @@
+slug: complex-geometry
+name:
+  en: Complex Geometry
+  zh: 复几何
+aliases: []
+category: technique
+difficulty: intermediate
+discipline: math
+year_introduced: null
+introduced_by: []
+definition: |
+  研究复流形与其上的全纯结构、Hermite/Kähler 度量、Chern 类、
+  $\bar{\partial}$-算子与 Dolbeault 上同调的学科。为镜像对称、
+  Hodge 理论、Calabi-Yau 几何、奇点形变等提供语言。
+dual_to: null
+prerequisites:
+  - differential-geometry
+leads_to:
+  - calabi-yau
+  - mirror-symmetry
+related:
+  - algebraic-geometry
+key_people:
+  - yau-shingtung
+key_papers: []
+tags:
+  - layer-0

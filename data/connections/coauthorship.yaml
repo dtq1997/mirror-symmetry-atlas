@@ -213,19 +213,19 @@ edges:
     notes: "Topological recursion relations from Pixton's formula, Hodge integrals"
   # === 李勤 ===
   - source: li-qin
-    target: "Kwokwai Chan"
+    target: chan-kwokwai
     type: coauthor
     weight: 8
     period: "2015-present"
     notes: "Quantization of Kähler manifolds, BT operators, Rozansky-Witten"
   - source: li-qin
-    target: "Naichung Conan Leung"
+    target: leung-naichung
     type: coauthor
     weight: 8
     period: "2015-present"
     notes: "Quantization of Kähler manifolds, Bargmann-Fock sheaves"
   - source: li-qin
-    target: "Si Li"
+    target: si-li
     type: coauthor
     weight: 2
     period: "2014-2015"
@@ -269,7 +269,7 @@ edges:
     period: "2014-2015"
     notes: "Tau functions, block Toeplitz determinants"
   - source: wu-chaozhong
-    target: "Jianxun Hu"
+    target: hu-jianxun
     type: coauthor
     weight: 2
     period: "2023-2025"
@@ -332,13 +332,13 @@ edges:
     notes: "W-representations, fermionic matrix models"
   # === 李长征 其余合作者 ===
   - source: li-changzheng
-    target: "Naichung Conan Leung"
+    target: leung-naichung
     type: coauthor
     weight: 7
     period: "2008-present"
     notes: "Quantum Pieri rules, quantum cohomology of flag varieties, GW invariants for G/B"
   - source: li-changzheng
-    target: "Jianxun Hu"
+    target: hu-jianxun
     type: coauthor
     weight: 5
     period: "2019-present"
@@ -374,7 +374,7 @@ edges:
     period: "2013-2014"
     notes: "Primitive forms, mirror symmetry for exceptional unimodular singularities (JEMS 2017)"
   - source: li-changzheng
-    target: "Si Li"
+    target: si-li
     type: coauthor
     weight: 2
     period: "2013-2014"
@@ -405,13 +405,13 @@ edges:
     period: "2015-2023"
     notes: "LG mirror symmetry, FJRW theory, Virasoro constraints"
   - source: he-weiqiang
-    target: "Si Li"
+    target: si-li
     type: coauthor
     weight: 5
     period: "2015-2019"
     notes: "LG mirror symmetry conjecture, G-twisted braces, orbifold LG B-models, Kodaira-Spencer gravity"
   - source: he-weiqiang
-    target: "Jianxun Hu"
+    target: hu-jianxun
     type: coauthor
     weight: 2
     period: "2013-2014"
@@ -430,7 +430,7 @@ edges:
     notes: "Cluster algebras and quantum cohomology, Seiberg duality"
   # === 刘小博 其余合作者 ===
   - source: liu-xiaobo
-    target: "Chongyu Wang"
+    target: wang-chongyu
     type: coauthor
     weight: 2
     period: "2024-2026"
@@ -460,3 +460,175 @@ edges:
     weight: 2
     period: "2022-2025"
     notes: "Vafa-Witten 模空间横截性"
+  # === HUST 2026 新人：Ryszard Nest / 唐鑫星 / 郎红蕾 / 乔雨 / 毕艳会 / 程家豪 / 倪大地 / 李晓斌 / 杜承勇 ===
+  - source: ryszard-nest
+    target: "Boris Tsygan"
+    type: coauthor
+    weight: 7
+    period: "2002-2025"
+    notes: "循环同调、formality、DGLA、Riemann-Roch via deformation quantization"
+  - source: ryszard-nest
+    target: "Paul Bressler"
+    type: coauthor
+    weight: 5
+    period: "2002-2019"
+  - source: ryszard-nest
+    target: "Alexander Gorokhovsky"
+    type: coauthor
+    weight: 5
+    period: "2009-2019"
+  - source: tang-xinxing
+    target: si-li
+    type: coauthor
+    weight: 2
+    period: "2019-2025"
+    notes: "Kodaira-Spencer gravity, contact term algebras"
+  - source: tang-xinxing
+    target: he-weiqiang
+    type: coauthor
+    weight: 1
+    period: "2019"
+    notes: "Dispersionless integrable hierarchy via K-S gravity"
+  - source: tang-xinxing
+    target: yau-shingtung
+    type: coauthor
+    weight: 2
+    period: "2024-present"
+    notes: "Path homology / cellular homology of digraphs"
+  - source: lang-honglei
+    target: chen-zhuo
+    type: coauthor
+    weight: 5
+    period: "2016-2023"
+    notes: "Atiyah classes, Lie pair, multiplicative forms, Dirac generating operators"
+  - source: lang-honglei
+    target: "Zhangju Liu"
+    type: coauthor
+    weight: 8
+    period: "2014-2025"
+    notes: "博导 [待验证]。Lie 2-algebra、Lie groupoid affine、多重乘形式"
+  - source: lang-honglei
+    target: "Yunhe Sheng"
+    type: coauthor
+    weight: 6
+    period: "2013-2025"
+    notes: "吉林大学，本科起的合作"
+  - source: lang-honglei
+    target: xu-xiaomeng
+    type: coauthor
+    weight: 2
+    period: "2012-2013"
+    notes: "Dirac/Generalized Complex on Cartan Geometries, Strong homotopy Lie algebras"
+  - source: lang-honglei
+    target: qiao-yu
+    type: coauthor
+    weight: 1
+    period: "2019"
+    notes: "On Lie Bialgebroid Crossed Modules (1910.12225)"
+  - source: qiao-yu
+    target: "Catarina Carvalho"
+    type: coauthor
+    weight: 4
+    period: "2011-2018"
+    notes: "Layer potentials, Fredholm groupoids"
+  - source: qiao-yu
+    target: "Victor Nistor"
+    type: coauthor
+    weight: 3
+    period: "2017-2024"
+    notes: "Fredholm conditions, noncompact manifolds index theory"
+  - source: qiao-yu
+    target: "Bing Kwan So"
+    type: coauthor
+    weight: 2
+    period: "2021-2023"
+    notes: "Boundary groupoids, K-theoretic index formulae"
+  - source: qiao-yu
+    target: chen-zhuo
+    type: coauthor
+    weight: 2
+    period: "2024-2025"
+    notes: "Quantum groupoid twistors, Brace B∞ algebras"
+  - source: qiao-yu
+    target: cheng-jiahao
+    type: coauthor
+    weight: 2
+    period: "2024-2025"
+    notes: "Quantum groupoid twistors, Brace B∞ algebras"
+  - source: bi-yanhui
+    target: "Tao Zhang"
+    type: coauthor
+    weight: 6
+    period: "2018-2025"
+    notes: "Higher omni-Lie algebroid, n-Lie-Rinehart, 可积 hierarchy"
+  - source: bi-yanhui
+    target: chen-zhuo
+    type: coauthor
+    weight: 2
+    period: "2023-2025"
+    notes: "Filippov algebroids, n-systems"
+  - source: cheng-jiahao
+    target: chen-zhuo
+    type: coauthor
+    weight: 4
+    period: "2019-2025"
+    notes: "所有 4 篇论文均与陈酌合作。dg manifold, Hopf algebroid, quantum groupoid"
+  - source: cheng-jiahao
+    target: ni-dadi
+    type: coauthor
+    weight: 2
+    period: "2019-2022"
+    notes: "Hopf algebras from dg manifolds, L≤3 algebra"
+  - source: ni-dadi
+    target: chen-zhuo
+    type: coauthor
+    weight: 5
+    period: "2019-2025"
+    notes: "博导。Lie pair, Atiyah class, dg manifold, Hopf algebra, deformations"
+  - source: ni-dadi
+    target: "Chen He"
+    type: coauthor
+    weight: 2
+    period: "2022-2025"
+    notes: "L≤3 algebra, Atiyah for Lie algebroid connection"
+  - source: ni-dadi
+    target: xiang-maosong
+    type: coauthor
+    weight: 1
+    period: "2025"
+    notes: "Infinitesimal deformations of Lie algebroid pairs"
+  - source: li-xiaobin
+    target: "Futoshi Yagi"
+    type: coauthor
+    weight: 4
+    period: "2021-2025"
+    notes: "SWJTU 同事，Nekrasov partition function with orientifold"
+  - source: li-xiaobin
+    target: "Sung-Soo Kim"
+    type: coauthor
+    weight: 3
+    period: "2024-2025"
+    notes: "UESTC。O-vertex, O7+-plane, symmetric matter topological vertex"
+  - source: li-xiaobin
+    target: du-chengyong
+    type: coauthor
+    weight: 1
+    period: "2016"
+    notes: "Ruan cohomologies of compactifications of resolved orbifold conifolds"
+  - source: du-chengyong
+    target: "Bohui Chen"
+    type: coauthor
+    weight: 12
+    period: "2014-2025"
+    notes: "四川大学。博导 [几乎确定]。orbifold GW, weighted blowup, groupoid morphism"
+  - source: du-chengyong
+    target: hu-jianxun
+    type: coauthor
+    weight: 1
+    period: "2017"
+    notes: "Weighted blowup correspondence, Math. Ann. 2019"
+  - source: du-chengyong
+    target: "Rui Wang"
+    type: coauthor
+    weight: 4
+    period: "2017-2020"

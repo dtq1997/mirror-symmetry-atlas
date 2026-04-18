@@ -1,0 +1,217 @@
+slug: zhang-huailiang
+name:
+  en: Huai-Liang Chang
+  zh: 張懷良
+  aka: ["Huailiang Zhang", "Chang Huai-Liang"]
+born: null
+died: null
+nationality: Taiwanese
+gender: male
+photo_url: null
+career_timeline:
+  - period: "[?]-2001"
+    type: education
+    institution: null
+    role: "本科"
+    notes: "国立成功大学 (NCKU) 数学系，2001 年获学士学位"
+  - period: "2001-2007"
+    type: education
+    institution: null
+    role: "博士"
+    advisor: li-jun
+    notes: "斯坦福大学数学系，2007 年获博士学位。导师 Jun Li (李骏，时在 Stanford) [待验证，基于合作模式]"
+  - period: "2007-2009"
+    type: position
+    institution: sissa
+    role: "数学物理博士后"
+    notes: "意大利 SISSA 国际高等研究学院"
+  - period: "2009-2015"
+    type: position
+    institution: hkust
+    role: "助理教授"
+    notes: "香港科技大学数学系"
+  - period: "2015-present"
+    type: position
+    institution: hkust
+    role: "副教授 → 教授"
+    notes: "香港科技大学数学系。2024 年获国家杰青基金后晋升教授"
+  - period: "2017"
+    type: award
+    title: "ICCM 最佳论文奖金奖"
+    notes: "首届国际华人数学家大会 (ICCM2017)，与 Wei-Ping Li、Jun Li 合作的 Inventiones 论文 'Witten's top Chern class via cosection localization'"
+  - period: "2017"
+    type: award
+    title: "ICCM 杰出论文奖"
+    notes: "与 Kiem, J. Li 合作的 Adv. Math. 论文 'Torus localization for cosection localized virtual cycles'"
+  - period: "2024"
+    type: award
+    title: "国家杰出青年科学基金"
+    notes: "国家自然科学基金委员会"
+research_areas:
+  - algebraic-geometry
+  - gromov-witten-theory
+  - fjrw-theory
+  - mirror-symmetry
+  - mixed-spin-p-fields
+  - calabi-yau
+  - bcov-conjecture
+  - virtual-cycles
+  - cosection-localization
+  - string-theory
+advisor: li-jun
+students: []
+key_collaborators:
+  - person: li-jun
+    since: 2008
+    topic: "Cosection localization, MSP fields, NMSP, quintic 3-folds, virtual cycles"
+    papers_count: 12
+  - person: "Wei-Ping Li"
+    since: 2013
+    topic: "Witten's top Chern class, MSP fields, virtual cycles"
+    papers_count: 7
+  - person: guo-shuai
+    since: 2017
+    topic: "NMSP, BCOV Feynman rule, polynomial structure of GW potential of quintic"
+    papers_count: 5
+  - person: "Chiu-Chu Melissa Liu"
+    since: 2015
+    topic: "MSP fields of Fermat quintic, effective theory of GW and FJRW"
+    papers_count: 4
+  - person: "Young-Hoon Kiem"
+    since: 2012
+    topic: "Cosection localization, wall crossing, Poincare=SW invariants"
+    papers_count: 3
+  - person: "Jie Zhou"
+    since: 2017
+    topic: "Genus one GW invariants of quintic threefolds via MSP localization"
+    papers_count: 1
+  - person: "Mu-Lin Li"
+    since: 2015
+    topic: "Virtual residue, quasimaps with fields"
+    papers_count: 2
+publications:
+  - id: "2504.09552"
+    title: "Irregular vanishing on P^2 × P^2"
+    year: 2025
+    coauthors: ["Sanghyeon Lee", "Jun Li"]
+  - id: "2312.11197"
+    title: "A boundedness theorem for principal bundles on curves"
+    year: 2023
+    coauthors: ["Shuai Guo", "Jun Li", "Wei-Ping Li", "Yang Zhou"]
+  - id: "2312.11174"
+    title: "Stability conditions in the mathematical Gauged Linear Sigma Model"
+    year: 2023
+    coauthors: ["Shuai Guo", "Jun Li", "Wei-Ping Li", "Yang Zhou"]
+  - id: "1907.06152"
+    title: "On the mathematics and physics of Mixed Spin P-Fields"
+    year: 2019
+    coauthors: ["Jun Li", "Wei-Ping Li", "Chiu-Chu Melissa Liu"]
+  - id: "1810.00394"
+    title: "BCOV's Feynman rule of quintic 3-folds"
+    year: 2018
+    coauthors: ["Shuai Guo", "Jun Li"]
+  - id: "1809.11058"
+    title: "Polynomial structure of Gromov-Witten potential of quintic 3-folds via NMSP"
+    year: 2018
+    coauthors: ["Shuai Guo", "Jun Li"]
+    journal: "Ann. of Math. 194 (2021)"
+  - id: "1809.08806"
+    title: "The theory of N-Mixed-Spin-P fields"
+    year: 2018
+    coauthors: ["Shuai Guo", "Jun Li", "Wei-Ping Li"]
+  - id: "1806.00216"
+    title: "Algebraic virtual cycles for quantum singularity theories"
+    year: 2018
+    coauthors: ["Young-Hoon Kiem", "Jun Li"]
+  - id: "1804.05310"
+    title: "Invariants of stable quasimaps with fields"
+    year: 2018
+    coauthors: ["Mu-lin Li"]
+  - id: "1711.10118"
+    title: "Genus one GW invariants of quintic threefolds via MSP localization"
+    year: 2017
+    coauthors: ["Shuai Guo", "Wei-Ping Li", "Jie Zhou"]
+  - id: "1708.02902"
+    title: "A vanishing associated with irregular MSP fields"
+    year: 2017
+    coauthors: ["Jun Li"]
+  - id: "1603.06184"
+    title: "An effective theory of GW and FJRW invariants of quintic Calabi-Yau manifolds"
+    year: 2016
+    coauthors: ["Jun Li", "Wei-Ping Li", "Chiu-Chu Melissa Liu"]
+  - id: "1603.02092"
+    title: "A survey on mixed spin P-fields"
+    year: 2016
+    coauthors: ["Jun Li", "Wei-Ping Li", "Chiu-Chu Melissa Liu"]
+  - id: "1508.02769"
+    title: "Virtual Residue and an integral formalism"
+    year: 2015
+    coauthors: ["Mu-Lin Li"]
+  - id: "1505.07532"
+    title: "Mixed-Spin-P fields of Fermat quintic polynomials"
+    year: 2015
+    coauthors: ["Jun Li", "Wei-Ping Li", "Chiu-Chu Melissa Liu"]
+    journal: "Camb. J. Math. (2019)"
+  - id: "1502.00078"
+    title: "Torus localization and wall crossing for cosection localized virtual cycles"
+    year: 2015
+    coauthors: ["Young-Hoon Kiem", "Jun Li"]
+  - id: "1303.7126"
+    title: "Witten's top Chern class via cosection localization"
+    year: 2013
+    coauthors: ["Jun Li", "Wei-Ping Li"]
+    journal: "Invent. Math. (2015)"
+  - id: "1206.5390"
+    title: "An algebraic proof of the hyperplane property of the genus one GW-invariants of quintics"
+    year: 2012
+    coauthors: ["Jun Li"]
+  - id: "1205.0848"
+    title: "Poincare invariants are Seiberg-Witten invariants"
+    year: 2012
+    coauthors: ["Young-Hoon Kiem"]
+  - id: "1105.3261"
+    title: "Semi-Perfect Obstruction theory and DT Invariants of Derived Objects"
+    year: 2011
+    coauthors: ["Jun Li"]
+  - id: "1101.0914"
+    title: "Gromov-Witten invariants of stable maps with fields"
+    year: 2011
+    coauthors: ["Jun Li"]
+  - id: "0808.0988"
+    title: "Derived Kodaira Spencer map, Cosection lemma, and semiregularity"
+    year: 2008
+    coauthors: []
+  - id: "0711.4529"
+    title: "Donaldson Thomas invariant of P^1 scroll"
+    year: 2007
+    coauthors: []
+activity:
+  total_papers: 23
+  active_period: "2007-present"
+external_ids: {}
+links:
+  homepage: "https://www.math.hkust.edu.hk/~mahlchang/"
+  hkust_profile: "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=huailiang-chang-mahlchang"
+personal_notes: |
+  香港科技大学数学系教授(2024 年杰青后晋升)。注意：中文名"张怀良"对应 Wade-Giles 拼音 "Chang"
+  (台湾传统拼法) 而非大陆"Zhang"。该姓氏混淆在中英文语境中常见。
+  Stanford 博士(2007)，导师 Jun Li (李骏)。与 Jun Li 长期深度合作 12 篇论文。
+  核心贡献：(1) Mixed-Spin-P (MSP) 理论与 N-MSP 理论，将 FJRW、GW、quasimap 理论统一；
+  (2) 证明 BCOV 猜想关于 quintic 3-fold GW 势的多项式结构 (Ann. of Math. 2021，与郭帅、李骏合作);
+  (3) Cosection localization 方法 (与 Kiem、Jun Li)。
+  2024 年获国家杰青。用户指定机构为 wuhan，但其实际工作单位为 HKUST。
+  2026 HUST 数学物理与几何研讨会中可能作为参会学者出席。
+sources:
+  - label: "HKUST Math Faculty"
+    url: "https://www.math.hkust.edu.hk/~mahlchang/"
+  - label: "HKUST Faculty Profile"
+    url: "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=huailiang-chang-mahlchang"
+  - label: "CUHK Mathematics - Prof. Huai-Liang CHANG"
+    url: "https://www.math.cuhk.edu.hk/people/academic-staff/prof-huai-liang-chang-hkust"
+  - label: "SCMS SCMS Visitor Profile"
+    url: "https://scms.fudan.edu.cn/info/3021/4670.htm"
+  - label: "Ann. of Math. 194-3: Polynomial structure of GW potential of quintic"
+    url: "https://annals.math.princeton.edu/?s=Huai-Liang+Chang&search-field=author"
+tags:
+  - hkust
+  - important-person

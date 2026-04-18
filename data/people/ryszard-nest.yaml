@@ -1,0 +1,175 @@
+slug: ryszard-nest
+name:
+  en: Ryszard Nest
+  zh: 奈斯特
+born: null
+died: null
+nationality: Polish
+gender: male
+photo_url: null
+career_timeline:
+  - period: "~1987"
+    type: education
+    institution: copenhagen
+    role: "博士 (Ph.D.)"
+    advisor: "George A. Elliott, Gert Kjærgård Pedersen"
+    notes: "Københavns Universitet, 论文 Cyclic Cohomology of Crossed Products with Z. 方向: Functional analysis"
+  - period: "present"
+    type: position
+    institution: copenhagen
+    role: "Professor"
+    notes: "Department of Mathematical Sciences"
+  - period: "present"
+    type: position
+    institution: bimsa
+    role: "兼职研究员"
+    notes: "BIMSA 兼职 [待验证]，与 BIMSA 联合活动频繁"
+research_areas:
+  - noncommutative-geometry
+  - cyclic-homology
+  - k-theory
+  - index-theory
+  - operator-algebras
+  - deformation-quantization
+advisor: null
+students:
+  - johannes-aastrup
+  - magnus-goffeng
+  - james-gabe
+  - david-kyed
+key_collaborators:
+  - person: "Boris Tsygan"
+    since: 2002
+    topic: "Riemann-Roch theorems via deformation quantization, formality for algebroid stacks, DGLA, momentum map quantization"
+    papers_count: 7
+    notes: "Northwestern 教授，循环同调、形变量子化核心合作者"
+  - person: "Paul Bressler"
+    since: 2002
+    topic: "Formality theorem for gerbes, DGLA comparison, DQ-algebroids"
+    papers_count: 5
+  - person: "Alexander Gorokhovsky"
+    since: 2009
+    topic: "Algebraic index theorem, formality, DQ-algebroids"
+    papers_count: 5
+  - person: "Jens Kaad"
+    since: 2012
+    topic: "Index of commuting operators, Tate tame symbol, Kac-Moody"
+    papers_count: 4
+    notes: "Syddansk Universitet"
+  - person: "Chiara Esposito"
+    since: 2012
+    topic: "Momentum map quantization, Hamiltonian coactions"
+    papers_count: 3
+  - person: "Siegfried Echterhoff"
+    since: 2008
+    topic: "Baum-Connes conjecture for algebraic groups, noncommutative torus bundles"
+    papers_count: 3
+publications:
+  - id: "2502.18295"
+    title: "Quantization of the Momentum Map via $\\mathfrak{g}$-adapted Formalities"
+    year: 2025
+    coauthors: ["Chiara Esposito", "Jonas Schnitzer", "Boris Tsygan"]
+  - id: "2310.13094"
+    title: "A secondary index for non-Fredholm operators associated with quantum walks"
+    year: 2023
+    coauthors: ["Toshikazu Natsume"]
+  - id: "2305.02254"
+    title: "Finiteness of metrics on state spaces"
+    year: 2023
+    coauthors: ["David Kyed"]
+  - id: "2204.00361"
+    title: "Exotic cyclic cohomology classes and Lipschitz algebras"
+    year: 2022
+    coauthors: ["Magnus Goffeng"]
+  - id: "2112.04365"
+    title: "Projective representation theory for compact quantum groups and the quantum Baum-Connes assembly map"
+    year: 2021
+    coauthors: ["Kenny De Commer", "Rubén Martos"]
+  - id: "2110.01649"
+    title: "A higher Kac-Moody extension for two-dimensional gauge groups"
+    year: 2021
+    coauthors: ["Jens Kaad", "Jesse Wolfson"]
+  - id: "1906.11977"
+    title: "Comparison of spaces associated to DGLA via higher holonomy"
+    year: 2019
+    coauthors: ["Paul Bressler", "Alexander Gorokhovsky", "Boris Tsygan"]
+  - id: "1804.06160"
+    title: "Quantization of Hamiltonian coactions via twist"
+    year: 2018
+    coauthors: ["Pierre Bieliavsky", "Chiara Esposito"]
+  - id: "1704.08548"
+    title: "The orbit method for the Baum-Connes Conjecture for algebraic groups over local function fields"
+    year: 2017
+    coauthors: ["Siegfried Echterhoff", "Kang Li"]
+  - id: "1701.04041"
+    title: "Equivariant Algebraic Index Theorem"
+    year: 2017
+    coauthors: ["Alexander Gorokhovsky", "Niek de Kleijn"]
+  - id: "1512.08816"
+    title: "The K-theory of twisted multipullback quantum odd spheres and complex projective spaces"
+    year: 2015
+    coauthors: ["Piotr M. Hajac", "David Pask", "Aidan Sims", "Bartosz Zieliński"]
+  - id: "1510.01361"
+    title: "On quasi-classical limits of DQ-algebroids"
+    year: 2015
+    coauthors: ["Paul Bressler", "Alexander Gorokhovsky", "Boris Tsygan"]
+  - id: "1408.3851"
+    title: "Tate tame symbol and the joint torsion of commuting operators"
+    year: 2014
+    coauthors: ["Jens Kaad"]
+  - id: "1403.7937"
+    title: "Canonical holomorphic sections of determinant line bundles"
+    year: 2014
+    coauthors: ["Jens Kaad"]
+  - id: "1308.3951"
+    title: "Formality theorem for gerbes"
+    year: 2013
+    coauthors: ["Paul Bressler", "Alexander Gorokhovsky", "Boris Tsygan"]
+  - id: "1211.6603"
+    title: "Deligne groupoid revisited"
+    year: 2012
+    coauthors: ["Paul Bressler", "Alexander Gorokhovsky", "Boris Tsygan"]
+  - id: "0903.1841"
+    title: "Formality for algebroid stacks"
+    year: 2009
+    coauthors: ["Paul Bressler", "Alexander Gorokhovsky", "Boris Tsygan"]
+activity:
+  total_papers: 46
+  h_index: null
+  active_period: "1987-present"
+  phd_students: 16
+  academic_descendants: 22
+external_ids:
+  mathgenealogy: "43937"
+  mr_author_id: "130350"
+  wikidata: "Q102200448"
+links:
+  homepage: "https://www.math.ku.dk/english/staff/?pure=en/persons/30308"
+  google_scholar: "https://scholar.google.com/citations?user=WX9TlFkAAAAJ"
+personal_notes: |
+  哥本哈根大学数学系教授，资深数学家（1987 年 PhD）。
+  非交换几何、循环同调、指标理论核心人物之一。
+  与 Boris Tsygan 合作最密集 (Riemann-Roch via deformation quantization, formality for
+  algebroid stacks, DGLA/formality 系列)。
+  奠基性贡献：
+  (1) 与 Bressler-Gorokhovsky-Tsygan 合作的 "Formality for algebroid stacks" (2009)
+      以及后续 Riemann-Roch 型定理;
+  (2) 与 Gorokhovsky-de Kleijn 的 Equivariant Algebraic Index Theorem (2017);
+  (3) 早期关于 crossed products 循环上同调的博士工作。
+  与 Connes、Karoubi、Cuntz、Weibel 合作主编 "K-Theory and Noncommutative Geometry"
+  (EMS, 2008)。Oberwolfach "Non-Commutative Geometry and Cyclic Homology"
+  workshop (2022) 共同组织者 (与 Alain Connes, Thomas Nikolaus, Guoliang Yu)。
+  与 BIMSA 有联系（兼职研究员 [待验证]）。2026 HUST 数学物理与几何研讨会受邀报告人。
+  波兰裔，长期在丹麦工作。
+sources:
+  - label: "Math Genealogy"
+    url: "https://www.mathgenealogy.org/id.php?id=43937"
+  - label: "Google Scholar"
+    url: "https://scholar.google.com/citations?user=WX9TlFkAAAAJ"
+  - label: "Wikidata"
+    url: "https://www.wikidata.org/wiki/Q102200448"
+  - label: "K-Theory and Noncommutative Geometry (EMS)"
+    url: "https://ems.press/books/ecr/60"
+tags:
+  - copenhagen
+  - bimsa

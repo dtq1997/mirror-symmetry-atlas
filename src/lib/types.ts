@@ -220,6 +220,7 @@ export interface ConferenceEvent {
   institution?: string;
   organizers: string[];
   invited_speakers: string[];
+  attendees?: string[];
   topics: string[];
   url?: string;
   source?: string;

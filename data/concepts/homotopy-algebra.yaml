@@ -1,0 +1,32 @@
+slug: homotopy-algebra
+name:
+  en: Homotopy Algebra
+  zh: Homotopy 代数
+aliases:
+  - L-infinity algebra
+  - A-infinity algebra
+  - higher algebra
+category: algebraic-structure
+difficulty: advanced
+discipline: math
+year_introduced: null
+introduced_by: []
+definition: |
+  放松代数结合律/雅可比恒等式到同伦意义下成立的代数结构：
+  $A_\infty$-代数、$L_\infty$-代数、$C_\infty$-代数等。
+  operad 为其系统化语言。Kontsevich formality 等深度结果揭示
+  形变量子化、镜像对称、高阶 Frobenius 流形中的 homotopy 代数本质。
+dual_to: null
+prerequisites: []
+leads_to:
+  - deformation-quantization
+related:
+  - poisson-geometry
+  - derived-category
+key_people:
+  - kontsevich
+  - chen-zhuo
+  - xiang-maosong
+key_papers: []
+tags:
+  - layer-1

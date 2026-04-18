@@ -203,7 +203,7 @@ edges:
     notes: "USTC 本科同学。李长征(1999-2003)与李勤(2001-2005)重叠2年。后两人共享 CUHK/Leung 学术网络"
   # 何伟强-清华博后
   - source: he-weiqiang
-    target: "Si Li"
+    target: si-li
     type: institutional
     institution: tsinghua-ymsc
     period: "[待验证]"
@@ -281,3 +281,86 @@ edges:
     institution: pku-bicmr
     period: "2019-present"
     notes: "同在北大/BICMR"
+  # === 批次 C: GBU 周坚同门再会 ===
+  - source: hu-xiaowen
+    target: zhang-qingsheng
+    type: institutional
+    institution: gbu
+    period: "2024-present"
+    notes: "大湾区大学同事。同为周坚门下弟子（虽博士期间不重叠），2024 年起在 GBU 再会"
+  # 郑大胡建勋学派扩展
+  - source: ding-yanqiao
+    target: hu-jianxun
+    type: institutional
+    institution: sun-yat-sen
+    period: "2013-2016"
+    notes: "丁岩峭在中山大学读博期间师从胡建勋"
+  # === HUST 2026 新人机构关系 ===
+  # BIMSA 同事
+  - source: tang-xinxing
+    target: wang-luyao
+    type: institutional
+    institution: bimsa
+    period: "2021-present"
+    notes: "BIMSA 数学物理组同事"
+  - source: tang-xinxing
+    target: ryszard-nest
+    type: institutional
+    institution: bimsa
+    period: "present"
+    notes: "BIMSA 兼职 [待验证]"
+  # 唐鑫星-李思 清华 YMSC 博后期
+  - source: tang-xinxing
+    target: si-li
+    type: institutional
+    institution: tsinghua-ymsc
+    period: "2018-2021"
+    notes: "唐鑫星清华 YMSC 博后 (2018-2021)，与 Si Li 合作"
+  - source: tang-xinxing
+    target: he-weiqiang
+    type: institutional
+    institution: tsinghua-ymsc
+    period: "~2019"
+    notes: "两人都在 YMSC 与 Si Li 工作，合作 Kodaira-Spencer gravity 论文"
+  # 唐鑫星-BICMR 博士期
+  - source: tang-xinxing
+    target: fan-huijun
+    type: institutional
+    institution: pku-bicmr
+    period: "2013-2018"
+    notes: "唐鑫星 BICMR 博士，导师樊慧君"
+  # NCHU 同事
+  - source: bi-yanhui
+    target: cheng-jiahao
+    type: institutional
+    institution: nchu
+    period: "2021-present"
+    notes: "南昌航空大学数学与信息科学学院同事"
+  # Lie pair / dg manifold 陈酌学派机构重叠
+  - source: ni-dadi
+    target: chen-zhuo
+    type: institutional
+    institution: tsinghua
+    period: "2018-2023"
+    notes: "倪大地清华博士（陈酌门下）"
+  # 杜承勇-四川大学 (博士/合作期)
+  - source: du-chengyong
+    target: "Bohui Chen"
+    type: institutional
+    institution: sichuan-u
+    period: "~2010-present"
+    notes: "与陈柏辉（川大）长期合作，博士期间在川大 [待验证]"
+  # SWJTU / SICNU 成都数学圈
+  - source: li-xiaobin
+    target: du-chengyong
+    type: institutional
+    institution: sichuan-u
+    period: "~2014-2016"
+    notes: "两人均与川大陈柏辉团队合作 orbifold GW；2016 年合作 Ruan cohomology 论文"
+  # 郎红蕾-徐晓濛 北大重叠
+  - source: lang-honglei
+    target: xu-xiaomeng
+    type: institutional
+    institution: pku
+    period: "~2011-2013"
+    notes: "郎红蕾北大博士期间（2011-2016），徐晓濛 2011 年本科毕业、2013-2015 在北大/Geneva。两人 2012/2013 合作"

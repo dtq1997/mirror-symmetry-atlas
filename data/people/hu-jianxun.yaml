@@ -1,0 +1,226 @@
+slug: hu-jianxun
+name:
+  en: Jianxun Hu
+  zh: 胡建勋
+born: null
+died: null
+nationality: Chinese
+gender: male
+photo_url: null
+career_timeline:
+  - period: "1979-1983"
+    type: education
+    institution: lanzhou-university
+    role: "本科"
+    notes: "兰州大学数学系"
+  - period: "1983-1987"
+    type: education
+    institution: lanzhou-university
+    role: "硕士"
+    notes: "兰州大学数学系"
+  - period: "1987-1993"
+    type: education
+    institution: lanzhou-university
+    role: "博士"
+    notes: "兰州大学数学系"
+  - period: "1993-1995"
+    type: position
+    institution: sun-yat-sen
+    role: "博士后"
+    notes: "中山大学物理系理论物理专业博士后"
+  - period: "1995-1995"
+    type: position
+    institution: sun-yat-sen
+    role: "讲师"
+    notes: "中山大学数学系 (1995.9-1995.11)"
+  - period: "1995-2002"
+    type: position
+    institution: sun-yat-sen
+    role: "副教授"
+    notes: "中山大学数学系"
+  - period: "1998"
+    type: visit
+    institution: uw-madison
+    role: "访问学者"
+    notes: "美国 Wisconsin 大学数学系 (1998.2-1998.10)"
+  - period: "2000"
+    type: visit
+    institution: mpim-bonn
+    role: "访问学者"
+    notes: "德国波恩 Max-Planck 数学研究所 (2000.7-2000.12)"
+  - period: "2002-present"
+    type: position
+    institution: sun-yat-sen
+    role: "教授"
+    notes: "中山大学数学学院教授、副院长；2003 年获博士生导师资格"
+  - period: "2002-2003"
+    type: visit
+    institution: hkust
+    role: "访问学者"
+    notes: "香港科技大学数学系 (2002.11-2003.4)"
+  - period: "2004"
+    type: award
+    title: "教育部新世纪优秀人才支持计划"
+    notes: "入选"
+  - period: "2007-2007"
+    type: visit
+    institution: umich
+    role: "访问学者"
+    notes: "美国密歇根大学数学系 (2007.2-2007.12)"
+  - period: "2008"
+    type: award
+    title: "国家杰出青年科学基金 (杰青)"
+    notes: "项目: 辛拓扑与数学物理 (2009-2012)"
+research_areas:
+  - gromov-witten-theory
+  - symplectic-topology
+  - mirror-symmetry
+  - quantum-cohomology
+  - donaldson-thomas-invariants
+  - gamma-conjecture
+  - birational-geometry
+advisor: null
+students:
+  - he-weiqiang  # [待验证] 师承关系
+key_collaborators:
+  - person: ke-huazhong
+    since: 2014
+    topic: "Gromov-Witten blow-up, Gamma conjecture, quantum cohomology"
+    papers_count: 5
+  - person: li-changzheng
+    since: 2019
+    topic: "Gamma conjecture, Galkin conjecture, mirror symmetry for blowups of Grassmannians"
+    papers_count: 5
+  - person: ruan-yongbin
+    since: 2008
+    topic: "Birational cobordism invariance of uniruled symplectic manifolds"
+    papers_count: 1
+  - person: "Tian-Jun Li"
+    since: 2008
+    topic: "Birational cobordism invariance of uniruled symplectic manifolds"
+    papers_count: 1
+  - person: ding-yanqiao
+    since: 2015
+    topic: "Welschinger invariants, floor diagrams, blow-up of symplectic 4-manifolds"
+    papers_count: 3
+  - person: "Bohui Chen"
+    since: 2017
+    topic: "Weighted blowup correspondence of orbifold GW invariants"
+    papers_count: 1
+  - person: "Cheng-Yong Du"
+    since: 2017
+    topic: "Orbifold GW invariants, weighted blowup"
+    papers_count: 1
+  - person: "Hiroshi Iritani"
+    since: 2024
+    topic: "Revisiting Gamma conjecture I"
+    papers_count: 1
+  - person: "Sergey Galkin"
+    since: 2024
+    topic: "Gamma conjecture I counterexamples"
+    papers_count: 1
+  - person: he-weiqiang
+    since: 2013
+    topic: "Orbifold GW invariants of weighted blow-ups, high-genus GW blow-up formulae"
+    papers_count: 2
+  - person: "Lei Song"
+    since: 2025
+    topic: "Quantum cohomology of blow-ups of quadrics, mirror symmetry for blowups of Grassmannians"
+    papers_count: 2
+publications:
+  - id: "2509.06004"
+    title: "Refined floor diagrams relative to a conic and Caporaso-Harris type formula"
+    year: 2025
+    coauthors: ["Yanqiao Ding"]
+  - id: "2502.13558"
+    title: "On the quantum cohomology of blow-ups of four-dimensional quadrics"
+    year: 2025
+    coauthors: [ke-huazhong, li-changzheng, "Lei Song"]
+    journal: "Acta Math. Sin. (Engl. Ser.) 40 (2024), no. 1, 313-328"
+  - id: "2502.13545"
+    title: "Mirror symmetry for certain blowups of Grassmannians"
+    year: 2025
+    coauthors: [ke-huazhong, li-changzheng, "Lei Song"]
+  - id: "2405.16987"
+    title: "On Galkin's Lower Bound Conjecture"
+    year: 2024
+    coauthors: [ke-huazhong, li-changzheng, "Zhitong Su"]
+  - id: "2405.16979"
+    title: "Revisiting Gamma conjecture I: counterexamples and modifications"
+    year: 2024
+    coauthors: ["Sergey Galkin", "Hiroshi Iritani", ke-huazhong, li-changzheng, "Zhitong Su"]
+  - id: "1901.01748"
+    title: "Gamma conjecture I for del Pezzo surfaces"
+    year: 2019
+    coauthors: [ke-huazhong, li-changzheng, "Tuo Yang"]
+    journal: "Adv. Math. (2021)"
+  - id: "1712.01478"
+    title: "Weighted blowup correspondence of orbifold Gromov-Witten invariants and applications"
+    year: 2017
+    coauthors: ["Bohui Chen", "Cheng-Yong Du"]
+    journal: "Math. Ann."
+  - id: "1609.05655"
+    title: "Welschinger invariants of Blow-ups of symplectic 4-manifolds"
+    year: 2016
+    coauthors: ["Yanqiao Ding"]
+  - id: "1504.07111"
+    title: "The Weinstein Conjecture in Product of Symplectic Manifolds"
+    year: 2015
+    coauthors: ["Yanqiao Ding"]
+  - id: "1406.2472"
+    title: "The Gromov-Witten invariants of the Hilbert schemes of points on surfaces with $p_g > 0$"
+    year: 2014
+    coauthors: ["Wei-Ping Li", "Zhenbo Qin"]
+  - id: "1402.4221"
+    title: "Blow-up formulae of high genus Gromov-Witten invariants in dimension six"
+    year: 2014
+    coauthors: [he-weiqiang, ke-huazhong, "Xiaoxia Qi"]
+  - id: "1308.3634"
+    title: "Orbifold Gromov-Witten invariants of weighted blow-up at smooth points"
+    year: 2013
+    coauthors: [he-weiqiang]
+  - id: "1108.5892"
+    title: "Local Donaldson-Thomas invariants of Blowups of surfaces"
+    year: 2011
+    coauthors: []
+activity:
+  total_papers: 19
+  active_period: "1995-present"
+external_ids: {}
+links:
+  homepage: "https://math.sysu.edu.cn/teacher/484"
+  email: "stsjxhu@mail.sysu.edu.cn"
+personal_notes: |
+  中山大学数学学院教授、副院长，symplectic topology 和 Gromov-Witten 理论资深专家。
+  兰州大学本硕博 (1983/1987/1993)，1993-1995 年在中山大学物理系做理论物理博士后，
+  1995 年起在中山大学数学系任教，2002 年晋升教授，2003 年获博士生导师资格。
+  2008 年获国家杰出青年科学基金（杰青）支持。
+  国际访学经历丰富：Wisconsin, MPIM Bonn, HKUST, UC Berkeley MSRI, 密歇根大学, KIAS 等。
+  主要科学贡献：
+  (1) 辛流形 Gromov-Witten 不变量在 blow-up 下的变化公式 (Compositio Math. 2001, Math. Z. 2000)；
+  (2) 与 Li Tianjun, Ruan Yongbin 合作证明 uniruledness 是辛流形 birational invariant (Invent. Math. 2008)，里程碑成果；
+  (3) Mukai flop 下 Ruan cohomology 不变性 (Math. Ann. 2004, 与 Zhang Wanchuan)；
+  (4) Donaldson-Thomas 不变量的 blow-up 公式；
+  (5) 2019 年起与柯华忠、李长征合作推进 Gamma conjecture / Conjecture O 方向，2024 年发现 Gamma conjecture I 反例并修正 (与 Galkin, Iritani, 柯华忠, 李长征, Su) — 重要进展；
+  (6) 近年与 Ding Yanqiao 合作 refined floor diagrams 和 Welschinger invariants。
+  何伟强（SYSU 副教授）可能师承 [待验证]。
+  注：柯华忠是清华周坚博士毕业后回 SYSU，非胡建勋学生，属同事关系。
+  奖项还包括：2000 年广东省"南粤优秀教师（教坛新秀）"称号、2002 年广东省"千百十工程"培养对象、
+  2003 年广东省自然科学优秀学术论文一等奖、2004 年教育部新世纪优秀人才。
+  承担过 973 课题"广义相对论和拓扑量子场论中的数学问题" (2006-2011)。
+  2026 年 4 月 HUST "数学物理与几何研讨会"参会人员之一。
+sources:
+  - label: "中山大学数学学院 (个人主页)"
+    url: "https://math.sysu.edu.cn/teacher/484"
+  - label: "ResearchGate"
+    url: "https://www.researchgate.net/profile/Jianxun-Hu"
+  - label: "SYSU Math PhD advisors list"
+    url: "https://math.sysu.edu.cn/article/2971"
+  - label: "信阳师范学院讲座 (2017)"
+    url: "http://maths.xynu.edu.cn/info/1049/2144.htm"
+tags:
+  - sun-yat-sen
+  - senior-researcher
+  - jieqing
+  - gromov-witten
+  - gamma-conjecture

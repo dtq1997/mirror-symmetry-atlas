@@ -1,0 +1,37 @@
+slug: integrable-systems
+name:
+  en: Integrable Systems
+  zh: 可积系统
+aliases:
+  - integrable system
+  - integrable hierarchy
+category: equation
+difficulty: advanced
+discipline: both
+year_introduced: null
+introduced_by: []
+definition: |
+  具有足够多守恒律的动力系统。典型代表：KdV、KP、Toda、
+  Painlevé 方程；以及更一般的 Drinfeld-Sokolov hierarchy、
+  Frobenius 流形诱导的可积 hierarchy。
+  在 Gromov-Witten 理论、矩阵模型、2D 量子引力中以 $\tau$-函数
+  形式自然出现。
+dual_to: null
+prerequisites: []
+leads_to:
+  - integrable-hierarchy
+  - frobenius-manifold
+  - painleve-equations
+related:
+  - tau-function
+  - mathematical-physics
+  - virasoro-constraints
+key_people:
+  - dubrovin
+  - zhang-youjin
+  - liu-siqi
+  - faddeev
+  - novikov-sergei
+key_papers: []
+tags:
+  - layer-0

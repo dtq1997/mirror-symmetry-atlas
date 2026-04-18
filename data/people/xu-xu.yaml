@@ -1,0 +1,143 @@
+slug: xu-xu
+name:
+  en: Xu Xu
+  zh: 徐旭
+born: null
+died: null
+nationality: Chinese
+gender: male
+photo_url: null
+career_timeline:
+  - period: "2002-2006"
+    type: education
+    institution: hust
+    role: "本科, 数学与应用数学"
+    notes: "华中科技大学，获理学学士学位"
+  - period: "2006-2011"
+    type: education
+    institution: amss
+    role: "博士, 基础数学"
+    advisor: zhang-xiao
+    notes: "中科院数学与系统科学研究院数学研究所，师从张晓研究员"
+  - period: "2011-2013"
+    type: position
+    institution: wuhan
+    role: "师资博士后"
+    notes: "武汉大学数学与统计学院 (2011.7-2013.6)"
+  - period: "2013-2016"
+    type: position
+    institution: wuhan
+    role: "讲师"
+    notes: "武汉大学数学与统计学院 (2013.7-2016.11)"
+  - period: "2014-2015"
+    type: position
+    institution: null
+    role: "访问学者"
+    notes: "德国弗莱堡大学数学研究所 (2014.9-2015.9)"
+  - period: "2016-2024"
+    type: position
+    institution: wuhan
+    role: "副教授"
+    notes: "武汉大学数学与统计学院 (2016.12-2024.11)"
+  - period: "2018-2020"
+    type: position
+    institution: null
+    role: "访问学者"
+    notes: "美国罗格斯大学数学系 (2018.10-2020.6)"
+  - period: "2019"
+    type: position
+    institution: harvard
+    role: "访问学者"
+    notes: "美国哈佛大学数学科学与应用中心 (2019.2-2019.3)"
+  - period: "2024-12-present"
+    type: position
+    institution: wuhan
+    role: "教授、博士生导师"
+    notes: "武汉大学数学与统计学院，2024 年 12 月晋升教授"
+  - period: "present"
+    type: award
+    title: "国家级青年人才计划"
+  - period: "present"
+    type: award
+    title: "湖北省高层次人才特殊支持计划"
+  - period: "present"
+    type: award
+    title: "武汉大学弘毅青年学者"
+  - period: "2025-05-present"
+    type: position
+    institution: wuhan
+    role: "本科生院教务处副处长"
+    notes: "兼职行政"
+  - period: "2025-06-present"
+    type: position
+    institution: null
+    role: "湖北省数学学会副理事长"
+    notes: "学会兼职"
+research_areas:
+  - discrete-conformal-geometry
+  - circle-packing
+  - discrete-differential-geometry
+  - combinatorial-ricci-flow
+  - combinatorial-calabi-flow
+  - general-relativity-math
+  - differential-geometry
+  - inversive-distance-circle-packing
+  - rigidity
+advisor: zhang-xiao
+students:
+  - zheng-chao
+  - bian-yuerong
+  - xiong-zhiwen
+key_collaborators:
+  - person: zheng-chao
+    since: 2019
+    topic: "Discrete conformal structures on surfaces with boundary I/II/III, circle packings"
+    papers_count: 4
+  - person: "Yanwen Luo"
+    since: 2025
+    topic: "Inversive distance circle packings in Poincare disk"
+    papers_count: 1
+publications:
+  - id: "2511.09983"
+    title: "Infinite rigidity of inversive distance circle packings in the Poincaré disk"
+    year: 2025
+    coauthors: ["Yanwen Luo", "Chao Zheng"]
+  - id: "2507.18495"
+    title: "Discrete conformal structures on surfaces with boundary (III) — Deformation"
+    year: 2025
+    coauthors: ["Chao Zheng"]
+  - id: "2407.19501"
+    title: "Discrete conformal structures on surfaces with boundary (II) — Rigidity and Existence"
+    year: 2024
+    coauthors: ["Chao Zheng"]
+  - id: "2401.05062"
+    title: "Discrete conformal structures on surfaces with boundary (I) — Classification"
+    year: 2024
+    coauthors: ["Chao Zheng"]
+activity:
+  total_papers: 4
+  active_period: "2024-present (arXiv)"
+  note: "早期论文多发表于 Peking Math. J., Trans. AMS, J. Funct. Anal., Calc. Var. PDE, IMRN, Math. Res. Lett. 等期刊，未全部上传 arXiv。实际总论文数约 20+"
+external_ids: {}
+links:
+  homepage: "http://jszy.whu.edu.cn/xuxu1/zh_CN/index.htm"
+  email: "xuxu2@whu.edu.cn"
+personal_notes: |
+  武汉大学数学与统计学院教授(2024.12 起)、博士生导师。国家级青年人才、武大弘毅青年学者、
+  湖北省数学学会副理事长、武大本科生院教务处副处长。
+  研究方向：离散共形几何、微分几何、广义相对论的数学理论。
+  代表性成果：(1) 证明三维流形上堆球度量的整体刚性，将 Koebe-Andreev-Thurston 刚性定理推广
+  到三维；(2) 证明曲面上反演距离大于 -1 时 Bowers-Stephenson 刚性猜想；(3) 解决 Glickenstein
+  猜想(一般形式离散共形结构的刚性)；(4) 证明 Bowers-Stephenson 收敛性猜想(Jordan 区域上反演
+  距离堆圆可以逼近黎曼映射)；(5) 引入 α-曲率并证明参数化离散单值化定理；(6) 给出闭曲面和带边
+  曲面上离散共形结构的分类。
+  学生：郑超(Chao Zheng，2019-2025 博士，中国博士后博新计划、北大博雅博士后，现 BICMR 博后)；
+  在读博士卞月容(2024-)、熊芷雯(2025-)，硕士多位。
+  arXiv 上仅列出近期论文；更多早期发表于 Peking Math. J., Trans. AMS, J. Funct. Anal.
+  Calc. Var. PDE, IMRN, Math. Res. Lett.。
+sources:
+  - label: "武汉大学教师主页 (徐旭)"
+    url: "http://jszy.whu.edu.cn/xuxu1/zh_CN/index.htm"
+tags:
+  - wuhan
+  - important-person

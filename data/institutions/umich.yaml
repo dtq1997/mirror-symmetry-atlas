@@ -1,0 +1,23 @@
+slug: umich
+name:
+  en: "University of Michigan"
+  zh: "密歇根大学"
+type: university
+country: USA
+city: Ann Arbor
+location:
+  lat: 42.2780
+  lng: -83.7382
+founded: 1817
+url: "https://lsa.umich.edu/math/"
+relevance: low
+research_groups:
+  - name: "Department of Mathematics"
+    topics:
+      - gromov-witten-theory
+      - mathematical-physics
+    current_members: []
+    past_members:
+      - ruan-yongbin
+events: []
+notes: "阮勇斌长期任教（至 2019 年）。"

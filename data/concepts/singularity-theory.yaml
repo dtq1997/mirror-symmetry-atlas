@@ -1,0 +1,30 @@
+slug: singularity-theory
+name:
+  en: Singularity Theory
+  zh: 奇点理论
+aliases: []
+category: technique
+difficulty: advanced
+discipline: math
+year_introduced: null
+introduced_by: []
+definition: |
+  研究映射和多项式的奇异点（临界点）的局部拓扑、代数与几何
+  结构。核心对象：孤立超曲面奇点 $W: \mathbb{C}^n \to \mathbb{C}$、
+  Milnor fiber、Milnor number、vanishing cycle、Brieskorn lattice、
+  primitive forms。连接 Landau-Ginzburg 模型、镜像对称、FJRW 理论。
+dual_to: null
+prerequisites: []
+leads_to:
+  - landau-ginzburg
+  - primitive-forms
+related:
+  - mirror-symmetry
+  - fjrw-theory
+key_people:
+  - k-saito
+  - hertling
+  - sabbah
+key_papers: []
+tags:
+  - layer-1

@@ -1,0 +1,30 @@
+slug: symplectic-topology
+name:
+  en: Symplectic Topology
+  zh: 辛拓扑
+aliases: []
+category: technique
+difficulty: advanced
+discipline: math
+year_introduced: null
+introduced_by: []
+definition: |
+  研究辛流形的整体拓扑性质（区别于辛几何的局部理论）。
+  核心工具：Gromov 的伪全纯曲线、Floer 同调、Fukaya 范畴。
+  基础成果包括 Gromov 非挤压定理、Arnold 猜想、Weinstein 猜想。
+  与 Gromov-Witten 理论、镜像对称紧密相关。
+dual_to: null
+prerequisites:
+  - symplectic-geometry
+leads_to:
+  - gromov-witten-theory
+  - fukaya-category
+related:
+  - mirror-symmetry
+key_people:
+  - hu-jianxun
+  - ding-yanqiao
+  - ruan-yongbin
+key_papers: []
+tags:
+  - layer-0

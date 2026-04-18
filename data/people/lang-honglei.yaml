@@ -1,0 +1,216 @@
+slug: lang-honglei
+name:
+  en: Honglei Lang
+  zh: 郎红蕾
+born: null
+died: null
+nationality: Chinese
+gender: female
+photo_url: null
+career_timeline:
+  - period: "~2007-2011"
+    type: education
+    institution: jilin-u
+    role: "本科, 数学"
+    notes: "吉林大学数学学院, 2011/07 毕业"
+  - period: "2011-2016"
+    type: education
+    institution: pku
+    role: "博士 (Ph.D.)"
+    advisor: "[待验证]"
+    notes: "北京大学数学科学学院, 2016/07 博士学位。导师信息 [待验证]，可能为 Zhangju Liu (刘张炬)，其与 Liu 合作论文最早见于 2014（博士在读期间）"
+  - period: "2014-09 to 2015-11"
+    type: education
+    institution: penn-state
+    role: "联培博士 (visiting student)"
+    notes: "Penn State，可能与 Ping Xu / Mathieu Stiénon 接触。期间与 Yunhe Sheng 和 Xiaomeng Xu 合作发表"
+  - period: "2016-08 to 2018-01"
+    type: position
+    institution: mpim-bonn
+    role: "博士后"
+    notes: "Max Planck Institute for Mathematics, Bonn (MPIM)"
+  - period: "2018-01-present"
+    type: position
+    institution: cau
+    role: "副教授"
+    notes: "中国农业大学理学院数学系应用数学系"
+research_areas:
+  - poisson-geometry
+  - lie-algebroid
+  - lie-groupoid
+  - lie-2-algebra
+  - courant-algebroid
+  - rota-baxter-lie-algebra
+  - quasi-poisson-groupoid
+  - mathematical-physics
+advisor: null
+students: []
+key_collaborators:
+  - person: "Zhangju Liu (刘张炬)"
+    since: 2014
+    topic: "Lie 2-algebra, affine structures on Lie groupoids, coadjoint orbits, multiplicative forms, Poisson 2-groups"
+    papers_count: 8
+    notes: "北京大学（曾）/河南大学。可能是博士导师 [待验证]"
+  - person: "Yunhe Sheng (盛云和)"
+    since: 2013
+    topic: "Strong homotopy Lie algebras, crossed modules, Courant algebroids, Rota-Baxter, integration of Lie 2-algebras"
+    papers_count: 6
+    notes: "吉林大学"
+  - person: "Zhuo Chen (陈酌)"
+    since: 2016
+    topic: "Atiyah classes, Lie pair, multiplicative forms, Dirac generating operators, weak Lie 2-algebra"
+    papers_count: 5
+    notes: "清华大学"
+  - person: xu-xiaomeng
+    since: 2012
+    topic: "Dirac and generalized complex structures on Cartan geometries, strong homotopy Lie algebras"
+    papers_count: 2
+    notes: "清华大学 YMSC，徐晓濛"
+  - person: yu-qiao
+    since: 2019
+    topic: "Lie bialgebroid crossed modules"
+    papers_count: 1
+  - person: "Li Guo"
+    since: 2020
+    topic: "Integration and geometrization of Rota-Baxter Lie algebras"
+    papers_count: 1
+    notes: "Rutgers Newark"
+  - person: "Maosong Xiang"
+    since: 2022
+    topic: "Dirac generating operators of split Courant algebroids"
+    papers_count: 1
+publications:
+  - id: "2602.02041"
+    title: "Relative Rota-Baxter operators and crossed homomorphisms on Lie 2-groups"
+    year: 2026
+    coauthors: ["Shining Wang"]
+  - id: "2506.20276"
+    title: "Reflections on Rota-Baxter Lie algebras, the classical reflection equation and Poisson homogeneous spaces"
+    year: 2025
+    coauthors: ["Yunhe Sheng"]
+  - id: "2503.05080"
+    title: "Poisson homogeneous spaces of Poisson 2-groups"
+    year: 2025
+    coauthors: ["Zhangju Liu"]
+  - id: "2302.01294"
+    title: "The weak Lie 2-algebra of multiplicative forms on a quasi-Poisson groupoid"
+    year: 2023
+    coauthors: ["Zhuo Chen", "Zhangju Liu"]
+    journal: "Comm. Math. Phys. (2024)"
+  - id: "2206.10091"
+    title: "Dirac generating operators of split Courant algebroids"
+    year: 2022
+    coauthors: ["Liqiang Cai", "Zhuo Chen", "Maosong Xiang"]
+  - id: "2201.06242"
+    title: "Multiplicative forms on Poisson groupoids"
+    year: 2022
+    coauthors: ["Zhuo Chen", "Zhangju Liu"]
+    journal: "Sci. China Math. (2025)"
+  - id: "2112.07902"
+    title: "Factorizable Lie bialgebras, quadratic Rota-Baxter Lie algebras and Rota-Baxter Lie bialgebras"
+    year: 2021
+    coauthors: ["Yunhe Sheng"]
+  - id: "2103.17073"
+    title: "A review of Lie 2-algebras"
+    year: 2021
+    coauthors: ["Zhangju Liu"]
+  - id: "2102.07177"
+    title: "The Atiyah class of generalized holomorphic vector bundles"
+    year: 2021
+    coauthors: ["Xiao Jia", "Zhangju Liu"]
+  - id: "2009.03492"
+    title: "Integration and geometrization of Rota-Baxter Lie algebras"
+    year: 2020
+    coauthors: ["Li Guo", "Yunhe Sheng"]
+  - id: "2003.13384"
+    title: "On the reduced space of multiplicative multivectors"
+    year: 2020
+    coauthors: ["Zhuo Chen", "Zhangju Liu"]
+  - id: "2002.03656"
+    title: "Linearization of the higher analogue of Courant algebroids"
+    year: 2020
+    coauthors: ["Yunhe Sheng"]
+    journal: "J. Geom. Mech. 12 (2020), 585-606"
+  - id: "1910.12225"
+    title: "On Lie Bialgebroid Crossed Modules"
+    year: 2019
+    coauthors: ["Yu Qiao", "Yanbin Yin"]
+  - id: "1904.05319"
+    title: "Affine structures on Lie groupoids"
+    year: 2019
+    coauthors: ["Zhangju Liu", "Yunhe Sheng"]
+  - id: "1802.09923"
+    title: "Coadjoint orbits of Lie groupoids"
+    year: 2018
+    coauthors: ["Zhangju Liu"]
+    journal: "J. Geom. Phys. 129 (2018), 217-232"
+  - id: "1705.10316"
+    title: "VB-Courant algebroids, E-Courant algebroids and generalized geometry"
+    year: 2017
+    coauthors: ["Yunhe Sheng", "Aissa Wade"]
+  - id: "1611.00672"
+    title: "Double Principal Bundles"
+    year: 2016
+    coauthors: ["Yanpeng Li", "Zhangju Liu"]
+  - id: "1609.00984"
+    title: "Atiyah classes of strongly homotopy Lie pairs"
+    year: 2016
+    coauthors: ["Zhuo Chen", "Maosong Xiang"]
+  - id: "1505.00403"
+    title: "Integration of derivations for Lie $2$-algebras"
+    year: 2015
+    coauthors: ["Zhangju Liu", "Yunhe Sheng"]
+  - id: "1402.7226"
+    title: "Crossed modules for Lie 2-algebras"
+    year: 2014
+    coauthors: ["Zhangju Liu"]
+  - id: "1312.4609"
+    title: "Strong homotopy Lie algebras, homotopy Poisson manifolds and Courant algebroids"
+    year: 2013
+    coauthors: ["Yunhe Sheng", "Xiaomeng Xu"]
+  - id: "1204.5951"
+    title: "Dirac and Generalized Complex Structures on Cartan Geometries"
+    year: 2012
+    coauthors: ["Xiaomeng Xu"]
+activity:
+  total_papers: 22
+  active_period: "2012-present"
+  nsfc_grants: 1
+external_ids: {}
+links:
+  homepage: "http://faculty.cau.edu.cn/lxy/lhl/list.htm"
+  email: "hllang@cau.edu.cn"
+personal_notes: |
+  中国农业大学理学院数学系副教授 (2018.01 起)。
+  本科吉林大学 (2011)，博士北京大学 (2016)，博士期间 (2014.09-2015.11)
+  在 Penn State 联培；2016-2018 在 MPIM Bonn 做博士后。
+
+  核心方向：Poisson geometry、Lie algebroid / Lie groupoid 及其高维化
+  (Lie 2-algebra, Courant algebroid, quasi-Poisson groupoid)、
+  Rota-Baxter 代数的几何化。数学物理背景。
+
+  主要合作者：
+  (1) Zhangju Liu (刘张炬) - 8 篇，很可能是博士导师 [待验证]；
+  (2) Yunhe Sheng (盛云和, 吉林大学) - 6 篇，本科起的合作；
+  (3) Zhuo Chen (陈酌, 清华) - 5 篇。
+
+  与徐晓濛 (Xiaomeng Xu) 在博士早期有两篇合作 (2012 Dirac/Generalized
+  Complex on Cartan Geometries, 2013 Strong homotopy Lie algebras)，
+  两人可能在吉林大学或北大时期相识。这是她与本项目核心人物的直接连接。
+
+  与乔雨 (Yu Qiao) 2019 年合作 "On Lie Bialgebroid Crossed Modules"
+  (1910.12225)，证实两人在 Lie bialgebroid 研究领域的联系。
+
+  主持 1 项 NSFC 项目。受 National Key Research and Development
+  Program 2021YFA1002000 资助。2026 HUST 数学物理与几何研讨会参会。
+sources:
+  - label: "CAU faculty page"
+    url: "http://faculty.cau.edu.cn/lxy/lhl/list.htm"
+  - label: "ResearchGate (MPIM)"
+    url: "https://www.researchgate.net/profile/Honglei-Lang"
+  - label: "Sci China Math paper"
+    url: "https://link.springer.com/article/10.1007/s11425-023-2231-1"
+  - label: "CMP paper"
+    url: "https://link.springer.com/article/10.1007/s00220-024-05015-5"
+tags:
+  - cau

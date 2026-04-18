@@ -1,0 +1,23 @@
+slug: cau
+name:
+  en: "China Agricultural University"
+  zh: "中国农业大学"
+type: university
+country: China
+city: Beijing
+location:
+  lat: 39.9937
+  lng: 116.3434
+founded: 1905
+url: "https://www.cau.edu.cn/"
+relevance: low
+research_groups:
+  - name: "理学院数学系"
+    topics:
+      - lie-algebroid
+      - poisson-geometry
+    current_members:
+      - lang-honglei
+    past_members: []
+events: []
+notes: "郎红蕾在此任教，Lie algebroid / Atiyah class 方向。"

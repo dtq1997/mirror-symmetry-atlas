@@ -1,0 +1,69 @@
+slug: huan-zhen
+name:
+  en: Zhen Huan
+  zh: 郇真
+born: null
+died: null
+nationality: Chinese
+gender: female
+photo_url: null
+career_timeline:
+  - period: "[待验证]-2017"
+    type: education
+    institution: uiuc
+    role: "博士, 数学"
+    advisor: null
+    notes: "美国 University of Illinois at Urbana-Champaign (UIUC) 2017 年博士毕业 [待验证: 导师，极可能是代数拓扑方向]"
+  - period: "2017-2019"
+    type: position
+    institution: sun-yat-sen
+    role: "Research Associate"
+    notes: "中山大学"
+  - period: "2019.7-present"
+    type: position
+    institution: hust
+    role: "副教授 (Associate Professor)"
+    notes: "华中科技大学数学中心 (Center for Mathematical Sciences). Email: 2019010151@hust.edu.cn"
+research_areas:
+  - algebraic-topology
+  - algebraic-geometry
+  - mathematical-physics
+  - elliptic-cohomology
+  - homotopy-theory
+advisor: null
+students: []
+key_collaborators: []
+publications:
+  - id: null
+    title: "Quasi-Elliptic Cohomology I"
+    year: 2018
+    journal: "Advances in Mathematics 337, 107-138"
+    coauthors: []
+  - id: null
+    title: "Quasi-Elliptic Cohomology and its Power Operations"
+    year: 2018
+    journal: "Journal of Homotopy and Related Structures 13(4), 715-767"
+    coauthors: []
+activity:
+  total_papers: null
+  active_period: "2018-present"
+external_ids: {}
+links:
+  homepage: "https://huanzhen84.github.io/zhenhuan/"
+  math_center: "https://mathcenter.hust.edu.cn/info/1042/2661.htm"
+personal_notes: |
+  注：签到表手写"郁真"系"郇真"误读（郇 Huán 与郁 Yù 字形相近）。
+  HUST 数学中心在册为 Zhen Huan，个人主页 huanzhen84.github.io/zhenhuan/，
+  slug 统一为 huan-zhen（姓-名拼音）。
+
+  UIUC 博士 (2017) → SYSU Research Associate (2017-2019) → HUST 数学中心副教授 (2019.7-)。
+  研究方向：代数拓扑、代数几何、数学物理；核心成果 "Quasi-Elliptic Cohomology" 系列 (Adv. Math. 2018)。
+  2026 HUST 数学物理与几何研讨会参会教师。
+sources:
+  - label: "HUST Math Center profile"
+    url: "https://mathcenter.hust.edu.cn/info/1042/2661.htm"
+  - label: "Personal homepage"
+    url: "https://huanzhen84.github.io/zhenhuan/"
+tags:
+  - hust
+  - name-correction

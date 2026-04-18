@@ -1,0 +1,33 @@
+slug: calabi-yau
+name:
+  en: Calabi-Yau Manifold
+  zh: Calabi-Yau 流形
+aliases:
+  - Calabi-Yau
+  - CY manifold
+category: geometric-structure
+difficulty: advanced
+discipline: both
+year_introduced: 1978
+introduced_by: []
+definition: |
+  复维数 $n$ 的紧 Kähler 流形 $X$，其第一陈类 $c_1(X) = 0$。
+  由 Yau 定理，$X$ 上存在唯一的 Ricci 平坦 Kähler 度量。
+  在弦论中作为时空的紧化流形出现；镜像对称即两个 Calabi-Yau
+  流形 $(X, \tilde{X})$ 之间的对偶（A-模型 $\leftrightarrow$ B-模型）。
+dual_to: null
+prerequisites:
+  - symplectic-geometry
+leads_to:
+  - mirror-symmetry
+  - homological-mirror-symmetry
+  - gromov-witten-theory
+related:
+  - moduli-spaces
+  - derived-category
+key_people:
+  - kontsevich
+  - manin-yuri
+key_papers: []
+tags:
+  - layer-0

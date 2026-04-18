@@ -8,9 +8,10 @@ import Link from "next/link";
 interface Props {
   graphData: GraphData;
   people: Person[];
+  institutionNames?: Record<string, string>;
 }
 
-export default function PeopleNetworkClient({ graphData, people }: Props) {
+export default function PeopleNetworkClient({ graphData, people, institutionNames }: Props) {
   const [viewMode, setViewMode] = useState<"graph" | "list">("graph");
 
   return (
@@ -55,7 +56,7 @@ export default function PeopleNetworkClient({ graphData, people }: Props) {
           className="relative"
           style={{ height: "calc(100vh - 56px - 52px)" }}
         >
-          <PeopleNetwork graphData={graphData} />
+          <PeopleNetwork graphData={graphData} institutionNames={institutionNames} />
         </div>
       ) : (
         <div className="flex-1 overflow-auto px-6 py-4">

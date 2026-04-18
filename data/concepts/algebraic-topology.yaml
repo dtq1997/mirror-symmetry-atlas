@@ -1,0 +1,26 @@
+slug: algebraic-topology
+name:
+  en: Algebraic Topology
+  zh: 代数拓扑
+aliases: []
+category: technique
+difficulty: intermediate
+discipline: math
+year_introduced: null
+introduced_by: []
+definition: |
+  研究拓扑空间的代数不变量：同伦群、同调群、上同调群、K 理论、
+  配边群等。为微分拓扑、代数几何、数学物理中的规范化、
+  topological field theory 提供语言。
+dual_to: null
+prerequisites: []
+leads_to:
+  - k-theory
+  - tqft
+related:
+  - mathematical-physics
+key_people:
+  - huan-zhen
+key_papers: []
+tags:
+  - layer-0

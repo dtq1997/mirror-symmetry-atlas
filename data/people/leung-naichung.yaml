@@ -1,0 +1,64 @@
+slug: leung-naichung
+name:
+  en: Naichung Conan Leung
+  zh: 梁乃聪
+born: null
+died: null
+nationality: Chinese
+gender: male
+photo_url: null
+career_timeline:
+  - period: "[待验证]-1993"
+    type: education
+    institution: mit
+    role: "博士, 数学"
+    advisor: yau-shingtung
+    notes: "MIT PhD 1993, 导师丘成桐"
+  - period: "present"
+    type: position
+    institution: cuhk
+    role: "讲座教授"
+    notes: "香港中文大学数学系 / 数学科学研究所"
+research_areas:
+  - mirror-symmetry
+  - calabi-yau
+  - special-holonomy
+  - quantum-cohomology
+  - geometric-quantization
+advisor: yau-shingtung
+students:
+  - li-changzheng
+  - chan-kwokwai
+key_collaborators:
+  - person: li-qin
+    since: 2015
+    topic: "Quantization of Kähler manifolds, Bargmann-Fock sheaves"
+    papers_count: 8
+  - person: chan-kwokwai
+    since: 2010
+    topic: "SYZ mirror symmetry, quantization"
+    papers_count: 15
+  - person: li-changzheng
+    since: 2008
+    topic: "Quantum Pieri rules, quantum cohomology of flag varieties"
+    papers_count: 7
+publications: []
+activity:
+  total_papers: null
+  active_period: "1993-present"
+external_ids: {}
+links:
+  homepage: "https://www.math.cuhk.edu.hk/people/academic-staff/leung-naichung-conan"
+personal_notes: |
+  香港中文大学讲座教授。师从丘成桐。
+  代表方向：SYZ mirror symmetry、special holonomy (G2 / Spin(7))、
+  Kähler 流形量子化（与陈国威、李勤长期合作）。
+  培养了李长征、Kwokwai Chan（陈国威）等中国数学家。
+  是中山大学 / 南科大 / 清华 GW 理论学派与港方学派的桥梁。
+sources:
+  - label: "CUHK 数学系主页"
+    url: "https://www.math.cuhk.edu.hk/people/academic-staff/leung-naichung-conan"
+tags:
+  - cuhk
+  - important-person
+  - stub

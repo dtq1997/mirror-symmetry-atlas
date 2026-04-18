@@ -1,0 +1,51 @@
+slug: zhao-jiayi
+name:
+  en: Jiayi Zhao
+  zh: 赵家艺
+born: null
+died: null
+nationality: Chinese
+gender: null
+photo_url: null
+career_timeline:
+  - period: "present"
+    type: education
+    institution: ustc
+    role: "研究生 [待验证]"
+    advisor: yang-di
+    notes: "USTC 数学科学学院。邮箱 zhaojiayi616@mail.ustc.edu.cn（学生邮箱后缀）。单独署名论文方法直接承袭 Dubrovin-Yang 矩阵预解方法与郭锦东-杨迪的 psi-类大亏格渐近技术，推断为杨迪组研究生。[待验证]"
+research_areas:
+  - gue-correlators
+  - large-genus-asymptotics
+  - matrix-resolvent-method
+  - integrable-hierarchy
+  - intersection-numbers
+advisor: yang-di
+students: []
+key_collaborators: []
+publications:
+  - id: "2510.26137"
+    title: "GUE Correlators and Large Genus Asymptotics"
+    year: 2025
+    coauthors: []
+activity:
+  total_papers: 1
+  active_period: "2025-present"
+  peak_period: null
+external_ids: {}
+links: {}
+personal_notes: |
+  USTC 数学科学学院，推测为杨迪组研究生 [待验证]。
+  唯一 arXiv 论文 2510.26137 "GUE Correlators and Large Genus Asymptotics" 单独署名，
+  使用 Dubrovin-Yang 矩阵预解方法 [8]，结合 Guo-Yang [10] 的 psi-类交点数大亏格渐近技术，
+  推导具有 1 个 face 的普通图与 ribbon 图的大亏格渐近。
+  方向完全对应杨迪近年在 GUE via Frobenius Manifolds 系列、BGW 大亏格渐近方面的工作。
+
+  2026 HUST 会议参会者。
+sources:
+  - label: "arXiv paper 2510.26137"
+    url: "https://arxiv.org/abs/2510.26137"
+tags:
+  - ustc
+  - student
+  - stub

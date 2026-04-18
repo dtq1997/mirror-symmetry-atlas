@@ -1,0 +1,28 @@
+slug: topological-field-theory
+name:
+  en: Topological Field Theory
+  zh: 拓扑场论
+aliases:
+  - TQFT
+  - topological quantum field theory
+category: technique
+difficulty: advanced
+discipline: both
+year_introduced: 1988
+introduced_by: []
+definition: |
+  场论版本，与 `tqft` (Topological Quantum Field Theory) 等同。
+  详见 [tqft](tqft)。
+dual_to: null
+prerequisites:
+  - tqft
+leads_to: []
+related:
+  - tqft
+  - mathematical-physics
+key_people:
+  - kontsevich
+  - dubrovin
+key_papers: []
+tags:
+  - alias

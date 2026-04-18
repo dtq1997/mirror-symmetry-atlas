@@ -1,0 +1,39 @@
+slug: tau-function
+name:
+  en: Tau Function
+  zh: Tau 函数
+aliases:
+  - tau function
+  - τ-function
+category: equation
+difficulty: advanced
+discipline: both
+year_introduced: 1981
+introduced_by: []
+definition: |
+  可积 hierarchy 的 $\tau$-函数是一族变量 $(t_1, t_2, \ldots)$ 的
+  函数 $\tau(t_1, t_2, \ldots)$，其对数导数生成 hierarchy 的
+  因变量。例如 KP hierarchy 的势函数 $u = 2 \partial_{t_1}^2 \ln \tau$。
+  $\tau$-函数满足 Hirota 双线性方程，并与 Sato Grassmannian、
+  Schur 函数展开、fermion Fock 空间紧密相关。
+  在 Gromov-Witten 理论、矩阵模型、拓扑递归中扮演核心角色。
+dual_to: null
+prerequisites:
+  - integrable-hierarchy
+leads_to:
+  - topological-recursion
+  - intersection-numbers
+related:
+  - virasoro-constraints
+  - mirror-symmetry
+  - gromov-witten-theory
+key_people:
+  - faddeev
+  - zhou-jian
+  - yang-chenglang
+  - wang-zhiyuan
+  - ji-ce
+  - liu-xiaobo
+key_papers: []
+tags:
+  - layer-1

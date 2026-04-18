@@ -1,0 +1,32 @@
+slug: deformation-quantization
+name:
+  en: Deformation Quantization
+  zh: 形变量子化
+aliases:
+  - Kontsevich formality
+category: technique
+difficulty: advanced
+discipline: both
+year_introduced: 1997
+introduced_by:
+  - kontsevich
+definition: |
+  Poisson 流形 $(M, \pi)$ 的结合代数形变：构造 star product
+  $f \star g = fg + \frac{i\hbar}{2}\{f, g\} + O(\hbar^2)$。
+  Kontsevich formality 定理（1997）在任意 Poisson 流形上给出
+  这样的量子化，等同于 $L_\infty$-准同构
+  $T_{\text{poly}}(M) \simeq D_{\text{poly}}(M)$。
+dual_to: null
+prerequisites:
+  - poisson-geometry
+leads_to: []
+related:
+  - geometric-quantization
+  - mathematical-physics
+key_people:
+  - kontsevich
+  - li-qin
+  - chen-zhuo
+key_papers: []
+tags:
+  - layer-1

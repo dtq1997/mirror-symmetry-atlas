@@ -1,0 +1,27 @@
+slug: nchu
+name:
+  en: "Nanchang Hangkong University"
+  zh: "南昌航空大学"
+type: university
+country: China
+city: Nanchang
+location:
+  lat: 28.6587
+  lng: 115.8240
+founded: 1952
+url: "https://www.nchu.edu.cn/"
+relevance: low
+research_groups:
+  - name: "数学与信息科学学院"
+    topics:
+      - lie-algebroid
+      - courant-algebroid
+      - homotopy-algebra
+    current_members:
+      - bi-yanhui
+      - cheng-jiahao
+    past_members: []
+events: []
+notes: |
+  毕艳会、程家豪均在此任教，与陈酌 (Tsinghua)、向茂松 (HUST)
+  合作较多，方向 Lie/Courant algebroid。

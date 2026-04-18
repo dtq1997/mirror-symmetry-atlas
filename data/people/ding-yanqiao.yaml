@@ -1,0 +1,149 @@
+slug: ding-yanqiao
+name:
+  en: Yanqiao Ding
+  zh: 丁岩峭
+born: null
+died: null
+nationality: Chinese
+gender: male
+photo_url: null
+career_timeline:
+  - period: "2006-2010"
+    type: education
+    institution: zzu
+    role: "本科"
+  - period: "2010-2013"
+    type: education
+    institution: lanzhou-u
+    role: "硕士"
+    notes: "兰州大学，获硕士学位。[机构 slug lanzhou-u 暂不存在]"
+  - period: "2013-2016"
+    type: education
+    institution: sun-yat-sen
+    role: "博士"
+    advisor: hu-jianxun
+    notes: "中山大学，2016.6 获博士学位。导师为 Jianxun Hu（博士期间合作 Welschinger 不变量方向论文 2 篇）。"
+  - period: "2016.7-2023.12"
+    type: position
+    institution: zzu
+    role: "讲师"
+  - period: "2019.9-2020.8"
+    type: position
+    institution: sorbonne
+    role: "博士后"
+    notes: "巴黎索邦大学 (国家留学基金委资助)。[机构 slug sorbonne 暂不存在]"
+  - period: "2024.1-present"
+    type: position
+    institution: zzu
+    role: "副教授"
+    notes: "郑州大学数学与统计学院。Email: yqding@zzu.edu.cn"
+research_areas:
+  - enumerative-geometry
+  - welschinger-invariants
+  - real-hurwitz-numbers
+  - tropical-geometry
+  - symplectic-topology
+  - algebraic-geometry
+  - mirror-symmetry
+advisor: hu-jianxun
+students: []
+key_collaborators:
+  - person: hu-jianxun
+    since: 2015
+    topic: "Welschinger invariants of symplectic 4-manifolds, Weinstein conjecture, refined floor diagrams"
+    papers_count: 3
+  - person: li-kui
+    since: 2023
+    topic: "Uniform asymptotics for real double Hurwitz numbers with triple ramification"
+    papers_count: 2
+  - person: liu-huan
+    since: 2023
+    topic: "Uniform asymptotics for real double Hurwitz numbers"
+    papers_count: 2
+  - person: yan-dongfeng
+    since: 2023
+    topic: "Uniform asymptotics for real double Hurwitz numbers"
+    papers_count: 2
+grants:
+  - "国家自然科学基金青年项目 (2022.01-2024.12, 主持)"
+  - "河南省自然科学基金青年项目 (2021.01-2022.12, 主持)"
+publications:
+  - id: "2602.04191"
+    title: "The uniform asymptotics for real double Hurwitz numbers with triple ramification II: lower bounds and asymptotics"
+    year: 2026
+    coauthors: [li-kui, liu-huan, yan-dongfeng]
+  - id: "2509.06004"
+    title: "Refined floor diagrams relative to a conic and Caporaso-Harris type formula"
+    year: 2025
+    coauthors: [hu-jianxun]
+  - id: "2506.16879"
+    title: "Real polynomial Hurwitz numbers"
+    year: 2025
+    coauthors: []
+  - id: "2303.03671"
+    title: "The uniform asymptotics for real double Hurwitz numbers with triple ramification I: the tropical correspondence"
+    year: 2023
+    coauthors: [li-kui, liu-huan, yan-dongfeng]
+  - id: "2210.06880"
+    title: "Asymptotics for real monotone double Hurwitz numbers"
+    year: 2022
+    coauthors: ["Qinhao He"]
+  - id: "2010.00899"
+    title: "On the lower bounds for real double Hurwitz numbers"
+    year: 2020
+    coauthors: []
+  - id: "1902.07486"
+    title: "A remark on Gromov-Witten-Welschinger invariants of $\\mathbb{C}P^3\\#\\overline{\\mathbb{C}P}^3$"
+    year: 2019
+    coauthors: []
+  - id: "1710.03603"
+    title: "Higher genus Welschinger invariants under real surgeries (Genus decreasing formula)"
+    year: 2017
+    coauthors: []
+    notes: "博士论文相关工作，Math. Z. 296 (2020) 发表"
+  - id: "1609.05655"
+    title: "Welschinger invariants of Blow-ups of symplectic 4-manifolds"
+    year: 2016
+    coauthors: [hu-jianxun]
+  - id: "1504.07111"
+    title: "The Weinstein Conjecture in Product of Symplectic Manifolds"
+    year: 2015
+    coauthors: [hu-jianxun]
+activity:
+  total_papers: 10
+  active_period: "2015-present"
+  peak_period: "2023-present"
+external_ids:
+  orcid: "0000-0003-1233-991X"
+links: {}
+personal_notes: |
+  郑大本硕毕业生（某种意义上）→ 中大博士（Jianxun Hu 组，2013-2016）→ 郑大讲师 →
+  索邦博后（2019-2020，国家公派）→ 郑大副教授（2024.1-）。
+
+  方向：**实枚举几何的严格渐近分析**，特别是：
+  - Welschinger 不变量（辛 4-流形的实 GW 不变量）
+  - 实 double Hurwitz 数的 tropical 对应与渐近分析
+  - Caporaso-Harris 型递推公式与 floor diagrams
+
+  **关键连接：** 2026 年新论文 2602.04191 直接回答 Dubrovin-Yang-Zagier 关于 simple Hurwitz 数
+  一致上界的 open question（见该论文 Abstract）——这正是本项目 ustc 杨迪组核心工作的方向。
+  与 HUST 会议核心议题高度契合。
+
+  2025 年 "Refined floor diagrams relative to a conic..." (与 Jianxun Hu) 发表在 J. London Math. Soc.，
+  献给吴可教授八十寿辰；证明在 P² blow-up 上 higher genus 相对 GW 不变量（带 Lambda class 插入）
+  的 q-refined 对应定理。
+
+  代表发表期刊：J. Combin. Theory Ser. A, J. Algebraic Combin., Math. Z., Math. Notes, J. London Math. Soc.
+
+  2026 HUST 会议参会者。
+sources:
+  - label: "郑州大学数学与统计学院 faculty page"
+    url: "https://www5.zzu.edu.cn/math/info/1088/2587.htm"
+  - label: "arXiv author listing"
+    url: "https://arxiv.org/a/ding_y_2"
+  - label: "Refined floor diagrams (J. London Math. Soc. 2026)"
+    url: "https://londmathsoc.onlinelibrary.wiley.com/doi/10.1112/jlms.70514"
+  - label: "浙大高研院 IASM 访问学者名单"
+    url: "http://www.iasm.zju.edu.cn/iasm/2021_visitors/list.htm"
+tags:
+  - zzu

@@ -1,0 +1,161 @@
+slug: hu-chuangqiang
+name:
+  en: Chuangqiang Hu
+  zh: 胡创强
+born: null
+died: null
+nationality: Chinese
+gender: male
+photo_url: null
+career_timeline:
+  - period: "[待验证]"
+    type: education
+    institution: null
+    role: "博士"
+    notes: "博士学位具体学校和导师 [待验证]。早期与曲阜师范大学、清华大学丘成桐中心 (与 Stephen S.-T. Yau, 左怀青合作) 关系密切"
+  - period: "[待验证]-2025"
+    type: position
+    institution: bimsa
+    role: "研究员"
+    notes: "燕园北京数学科学与应用研究院 (BIMSA) — [待验证] 具体起止年份"
+  - period: "2025-present"
+    type: position
+    institution: sun-yat-sen
+    role: "博士生导师"
+    notes: "中山大学数学学院；2025 年 4 月加入"
+research_areas:
+  - function-fields
+  - drinfeld-modules
+  - algebraic-geometry-codes
+  - coding-theory
+  - singularity-theory
+  - yau-algebra
+  - number-theory
+advisor: null
+students: []
+key_collaborators:
+  - person: "Stephen S.-T. Yau"
+    since: 2018
+    topic: "Quantum codes, weighted homogeneous singularities, k-th Tjurina algebra, simple elliptic singularities"
+    papers_count: 3
+  - person: "Huaiqing Zuo"
+    since: 2024
+    topic: "Simple elliptic singularities, k-th Tjurina numbers, Yau algebra"
+    papers_count: 2
+  - person: "Shudi Yang"
+    since: 2016
+    topic: "Weierstrass semigroups, Kummer extensions, multi-point AG codes"
+    papers_count: 5
+  - person: chen-zhuo
+    since: 2019
+    topic: "Drinfeld modular curves, BBGS towers, Lie algebroid pairs"
+    papers_count: 3
+  - person: "Xiao-Min Huang"
+    since: 2023
+    topic: "Drinfeld modules over Dedekind domain of class number two, Weil pairing"
+    papers_count: 1
+  - person: "Yixuan Ou-Yang"
+    since: 2026
+    topic: "Anderson generating functions, Weil pairing"
+    papers_count: 1
+  - person: "Haojie Chen"
+    since: 2026
+    topic: "Cyclotomic function fields with quadratic modulus"
+    papers_count: 1
+  - person: "Xiuwu Zhu"
+    since: 2025
+    topic: "Optimal function field towers, Drinfeld modular curves"
+    papers_count: 1
+publications:
+  - id: "2604.04124"
+    title: "Relation between Anderson Generating Functions and Weil Pairing"
+    year: 2026
+    coauthors: ["Yixuan Ou-Yang"]
+  - id: "2603.23930"
+    title: "A Note on Cyclotomic Function Fields with Quadratic Modulus"
+    year: 2026
+    coauthors: ["Haojie Chen"]
+  - id: "2512.03860"
+    title: "Infinitesimal deformations of Lie algebroid pairs"
+    year: 2025
+    coauthors: ["Dadi Ni", "Zhuo Chen", "Maosong Xiang"]
+  - id: "2510.27159"
+    title: "New optimal function field towers over finite fields of quartic power"
+    year: 2025
+    coauthors: ["Xiuwu Zhu"]
+  - id: "2410.10124"
+    title: "Groupoids derived from the simple elliptic singularities"
+    year: 2024
+    coauthors: ["Stephen S.-T. Yau", "Huaiqing Zuo"]
+  - id: "2409.09384"
+    title: "On the k-th Tjurina number of weighted homogeneous singularities"
+    year: 2024
+    coauthors: ["Stephen S.-T. Yau", "Huaiqing Zuo"]
+  - id: "2312.16919"
+    title: "Drinfeld Module and Weil pairing over Dedekind domain of class number two"
+    year: 2023
+    coauthors: ["Xiao-Min Huang"]
+  - id: "2309.00432"
+    title: "Drinfeld Modular Curves Subordinate to Conjugacy Classes of Nilpotent Upper-Triangular Matrices"
+    year: 2023
+    coauthors: ["Zhuo Chen", "Tao Zhang", "Xiaopeng Zheng"]
+  - id: "1912.02668"
+    title: "A Modular Interpretation of BBGS Towers"
+    year: 2019
+    coauthors: ["Rui Chen", "Zhuo Chen"]
+  - id: "1911.04269"
+    title: "Weierstrass Semigroups From a Tower of Function Fields Attaining the Drinfeld-Vladut Bound"
+    year: 2019
+    coauthors: ["Shudi Yang"]
+  - id: "1810.11969"
+    title: "Complete Weight Distribution and MacWilliams Identities for Asymmetric Quantum Codes"
+    year: 2018
+    coauthors: ["Shudi Yang", "Stephen S.-T. Yau"]
+  - id: "1706.00313"
+    title: "Multi-point Codes from the GGS Curves"
+    year: 2017
+    coauthors: ["Shudi Yang"]
+  - id: "1705.05213"
+    title: "Weierstrass Pure Gaps From a Quotient of the Hermitian Curve"
+    year: 2017
+    coauthors: ["Shudi Yang"]
+  - id: "1607.05887"
+    title: "Weierstrass Semigroups from Kummer Extensions"
+    year: 2016
+    coauthors: ["Shudi Yang"]
+  - id: "1607.05462"
+    title: "Multi-point Codes over Kummer Extensions"
+    year: 2016
+    coauthors: []
+activity:
+  total_papers: 17
+  active_period: "2016-present"
+external_ids: {}
+links:
+  sysu_announcement: "https://math.sysu.edu.cn/"
+personal_notes: |
+  中山大学数学学院博士生导师（2025 年 4 月加入）。此前在燕园北京数学科学与应用研究院 (BIMSA) 任研究员。
+  研究领域横跨多个方向：
+  (1) 编码理论（量子码、代数几何码、多点码）；
+  (2) 函数域和 Drinfeld 模理论（Drinfeld modular curves, BBGS towers, Weil pairing）；
+  (3) 奇点理论（K. Saito j-functions, Tjurina algebra, 与 Stephen S.-T. Yau 合作）；
+  (4) Lie 代数胚对的变形 (2025)。
+  与 Stephen S.-T. Yau (清华丘成桐中心) 长期合作，方向包括量子码 (2018) 和简单椭圆奇点分类 (2024)。
+  2025 年与 Xiuwu Zhu 在 Drinfeld 模曲线塔方向获得 Ihara quantity 的新最优结果。
+  研究成果在 IEEE IT, Finite Fields, DCC 等期刊发表。
+  博士学位及师承信息 [待验证]。
+  2026 年 4 月 HUST "数学物理与几何研讨会"参会人员之一。
+  此次会议方向与其主研究（函数域/编码理论）跨度较大，可能是代表中山大学参会或对会议主题（数学物理）有兴趣。
+sources:
+  - label: "SYSU 数学学院博导名单"
+    url: "https://math.sysu.edu.cn/article/2971"
+  - label: "武汉大学数学院介绍 (SYSU 简介)"
+    url: "https://maths.whu.edu.cn/info/1558/16830.htm"
+  - label: "AIMS Weierstrass semigroups paper (BIMSA affiliation)"
+    url: "https://www.aimsciences.org/article/doi/10.3934/amc.2022066"
+tags:
+  - sun-yat-sen
+  - number-theory
+  - coding-theory
+  - drinfeld-modules
+  - singularity-theory

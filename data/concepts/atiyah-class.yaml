@@ -1,0 +1,31 @@
+slug: atiyah-class
+name:
+  en: Atiyah Class
+  zh: Atiyah 类
+aliases:
+  - Atiyah class of a holomorphic vector bundle
+category: algebraic-structure
+difficulty: research-frontier
+discipline: math
+year_introduced: 1957
+introduced_by: []
+definition: |
+  全纯向量丛 $E \to M$ 的 Atiyah 类 $\alpha_E \in \text{Ext}^1(E, E \otimes \Omega_M)$
+  是 extension
+  $0 \to E \otimes \Omega_M \to J^1 E \to E \to 0$
+  所对应的上同调类。Kapranov 将其视为切丛的 Lie algebroid 结构对 $E$
+  的作用，指数映射后给出 Rozansky-Witten 类不变量；Kontsevich-Soibelman
+  的 Kapranov 类是这一结构的 homotopy 代数版。
+dual_to: null
+prerequisites:
+  - derived-category
+leads_to: []
+related:
+  - lie-algebroid
+  - deformation-quantization
+key_people:
+  - chen-zhuo
+  - xiang-maosong
+key_papers: []
+tags:
+  - layer-2

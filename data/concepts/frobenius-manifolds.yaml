@@ -1,0 +1,29 @@
+slug: frobenius-manifolds
+name:
+  en: Frobenius Manifolds
+  zh: Frobenius 流形
+aliases:
+  - Frobenius manifold
+  - Dubrovin-Frobenius manifold
+category: algebraic-structure
+difficulty: advanced
+discipline: math
+year_introduced: 1994
+introduced_by: [dubrovin]
+definition: |
+  复数形版本，等同于 `frobenius-manifold`。详见
+  [frobenius-manifold](frobenius-manifold)。
+dual_to: null
+prerequisites:
+  - frobenius-manifold
+leads_to: []
+related:
+  - frobenius-manifold
+key_people:
+  - dubrovin
+  - hertling
+  - manin-yuri
+  - k-saito
+key_papers: []
+tags:
+  - alias

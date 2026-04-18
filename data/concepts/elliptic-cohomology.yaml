@@ -1,0 +1,31 @@
+slug: elliptic-cohomology
+name:
+  en: Elliptic Cohomology
+  zh: 椭圆上同调
+aliases:
+  - quasi-elliptic cohomology
+category: technique
+difficulty: research-frontier
+discipline: math
+year_introduced: null
+introduced_by: []
+definition: |
+  比 $K$-理论更高级别的广义上同调理论，与椭圆曲线形式群相关。
+  期待为配边 MU 谱、$K(n)$-局部化与弦论中的椭圆亏格
+  (Ochanine-Witten genus)、moonshine 现象提供统一框架。
+  Topological modular forms ($tmf$) 是 universal elliptic
+  cohomology 的核心实例。郇真的 quasi-elliptic cohomology 系列
+  提供一种可计算的等变变体。
+dual_to: null
+prerequisites:
+  - algebraic-topology
+  - k-theory
+leads_to: []
+related:
+  - mathematical-physics
+  - number-theory
+key_people:
+  - huan-zhen
+key_papers: []
+tags:
+  - layer-2

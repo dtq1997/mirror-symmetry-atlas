@@ -1,0 +1,139 @@
+slug: ni-dadi
+name:
+  en: Dadi Ni
+  zh: 倪大地
+born: null
+died: null
+nationality: Chinese
+gender: male
+photo_url: null
+career_timeline:
+  - period: "2014-2018"
+    type: education
+    institution: henan-u
+    role: "学士, 数学与应用数学 (拔尖创新人才实验班)"
+    notes: "河南大学数学与统计学院 2014 级拔尖班。2017 年获第八届全国大学生数学竞赛专业组一等奖"
+  - period: "2018-2023"
+    type: education
+    institution: tsinghua
+    role: "博士, 数学"
+    advisor: chen-zhuo
+    notes: "清华大学数学系，导师为陈酌 (Zhuo Chen) [基于论文合作极强推断，几乎确定]"
+  - period: "2023-07-present"
+    type: position
+    institution: henan-u
+    role: "讲师"
+    notes: "河南大学数学与统计学院，办公室 501"
+research_areas:
+  - differential-geometry
+  - lie-algebroid
+  - lie-pair
+  - dg-manifold
+  - atiyah-class
+  - hyperkahler-geometry
+  - generalized-complex-geometry
+  - lie-poisson-manifold
+  - symplectic-geometry
+  - mathematical-physics
+advisor: chen-zhuo
+students: []
+key_collaborators:
+  - person: chen-zhuo
+    since: 2019
+    topic: "Hopf algebras from dg manifolds, L∞ algebras, Lie pair, Atiyah constructions, infinitesimal deformations"
+    papers_count: 5
+    notes: "清华大学。博导 [几乎确定]"
+  - person: cheng-jiahao
+    since: 2019
+    topic: "Hopf algebras from dg manifolds, L≤3 algebra arising from Lie pair"
+    papers_count: 2
+    notes: "南昌航空大学（北大博士）"
+  - person: "Chen He"
+    since: 2022
+    topic: "Internal symmetry of L≤3 algebra, Atiyah constructions for Lie algebroid connections"
+    papers_count: 2
+  - person: "Kaichuan Qi"
+    since: 2025
+    topic: "Hyperkähler structures on hyper-Lie Poisson manifolds, S¹-Gerbes over stack [G/G]"
+    papers_count: 2
+  - person: xiang-maosong
+    since: 2025
+    topic: "Infinitesimal deformations of Lie algebroid pairs"
+    papers_count: 1
+  - person: hu-chuangqiang
+    since: 2025
+    topic: "Infinitesimal deformations of Lie algebroid pairs"
+    papers_count: 1
+publications:
+  - id: "2601.05183"
+    title: "Construction of $\\mathbb{S}^1$-Gerbes over the Stack $[G/G]$"
+    year: 2026
+    coauthors: ["Kaichuan Qi"]
+  - id: "2512.03860"
+    title: "Infinitesimal deformations of Lie algebroid pairs"
+    year: 2025
+    coauthors: ["Zhuo Chen", "Chuangqiang Hu", "Maosong Xiang"]
+  - id: "2508.10723"
+    title: "Atiyah Classes in the Context of Generalized Complex Geometry"
+    year: 2025
+    coauthors: []
+    notes: "单独作者论文"
+  - id: "2506.18360"
+    title: "Atiyah constructions for Lie algebroid connections on fiber bundles"
+    year: 2025
+    coauthors: ["Chen He", "Zhuo Chen"]
+  - id: "2502.08979"
+    title: "Hyperkähler structures on leaves of hyper-Lie Poisson manifolds"
+    year: 2025
+    coauthors: ["Kaichuan Qi"]
+    notes: "2025 河南大学辛几何与数学物理研讨会报告主题 'Hyperkähler structures on the adjoint orbits of sl(2,C)' 的论文版本"
+  - id: "2201.13068"
+    title: "Internal symmetry of the $L_{\\leqslant 3}$ algebra arising from a Lie pair"
+    year: 2022
+    coauthors: ["Jiahao Cheng", "Zhuo Chen", "Chen He"]
+    journal: "Pure and Applied Mathematics Quarterly"
+  - id: "1911.01388"
+    title: "Hopf algebras arising from dg manifolds"
+    year: 2019
+    coauthors: ["Jiahao Cheng", "Zhuo Chen"]
+    journal: "J. Algebra 584 (2021)"
+activity:
+  total_papers: 7
+  active_period: "2019-present"
+external_ids: {}
+links:
+  email: "nidd@henu.edu.cn"
+  phone: "15938031969"
+personal_notes: |
+  河南大学数学与统计学院讲师 (2023.07 起)。本科河南大学 (2014-2018 拔尖班)，
+  博士清华大学 (2018-2023)，导师几乎确定为陈酌 (Zhuo Chen)——所有早期
+  论文均与陈酌合著，且博士期间频繁合作。
+
+  研究方向：differential geometry 与 nonlinear Lie theory。
+  具体工作：
+  (1) Hopf algebras / L∞ algebras arising from dg manifolds 与 Lie pairs
+      (与陈酌、程家豪 2019/2022);
+  (2) Atiyah classes 和 Atiyah constructions for Lie algebroid
+      connections (2025 年单独和 2025 年合作两篇);
+  (3) Hyperkähler structures 在 hyper-Lie Poisson manifolds (sl(2,C)
+      adjoint orbit) 上 (与 Kaichuan Qi, 2025);
+  (4) Generalized complex geometry 中的 Atiyah classes;
+  (5) 2025 还与陈酌、Chuangqiang Hu、Maosong Xiang 合作 infinitesimal
+      deformations of Lie algebroid pairs;
+  (6) 2026 最新与 Kaichuan Qi 构造 [G/G] stack 上的 S¹-gerbes。
+
+  2025 年 6 月河南大学辛几何与数学物理研讨会 (6/7-8) 担任会议联系人并
+  作报告 "Hyperkähler structures on the adjoint orbits of sl(2,C)"。
+
+  与程家豪 (cheng-jiahao, NCHU) 是并肩的博士同期合作者，两人+陈酌
+  发表了早期几篇论文。程家豪博士在北大而非清华，说明他们可能通过
+  陈酌学派（清华 Lie pair/Atiyah class 方向）建立联系。
+
+  2026 HUST 数学物理与几何研讨会参会。
+sources:
+  - label: "Henan University faculty profile"
+    url: "https://maths.henu.edu.cn/info/1205/9836.htm"
+  - label: "2025 辛几何研讨会会议手册"
+    url: "https://maths.henu.edu.cn/__local/9/59/A2/459944C54C08841704DE6D15AE2_A1122D5F_83A3A.pdf"
+tags:
+  - henan-u

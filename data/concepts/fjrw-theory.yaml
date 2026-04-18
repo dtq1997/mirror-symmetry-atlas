@@ -1,0 +1,36 @@
+slug: fjrw-theory
+name:
+  en: FJRW Theory
+  zh: FJRW 理论
+aliases:
+  - Fan-Jarvis-Ruan-Witten theory
+category: equation
+difficulty: research-frontier
+discipline: both
+year_introduced: 2007
+introduced_by:
+  - ruan-yongbin
+definition: |
+  Fan-Jarvis-Ruan-Witten 理论：Landau-Ginzburg 奇点 $(W, G)$
+  的 $A$-侧枚举理论，作为 LG mirror symmetry 的 A-model。
+  对 quasi-homogeneous 多项式 $W$ 定义 FJRW 不变量，满足
+  Virasoro 约束和 CohFT 公理。在 Witten 奇点 $W = x^r$ 情形
+  恢复 $r$-spin intersection numbers。
+dual_to: null
+prerequisites:
+  - landau-ginzburg
+  - singularity-theory
+leads_to:
+  - mirror-symmetry
+related:
+  - gromov-witten-theory
+  - virasoro-constraints
+key_people:
+  - ruan-yongbin
+  - "Huijun Fan"
+  - "Tyler Jarvis"
+  - he-weiqiang
+  - wang-xin
+key_papers: []
+tags:
+  - layer-1

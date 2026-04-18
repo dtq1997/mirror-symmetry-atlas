@@ -1,0 +1,140 @@
+slug: zhang-bin
+name:
+  en: Bin Zhang
+  zh: 张斌
+born: null
+died: null
+nationality: Chinese
+gender: male
+photo_url: null
+career_timeline:
+  - period: "[待验证]"
+    type: education
+    institution: null
+    role: "博士 [待验证]"
+    advisor: guo-li
+    notes: "博士时期与 Li Guo (Rutgers Newark) 合作重整化 MZV（2006 起），推测为 Li Guo 学生或早期合作者。[待验证]"
+  - period: "present"
+    type: position
+    institution: sichuan-u
+    role: "教授"
+    notes: "四川大学数学学院。2024 年曾应邀赴吉林大学数学学院做报告《多元 zeta 值的洗牌 Hopf 代数》。"
+research_areas:
+  - multiple-zeta-values
+  - renormalization
+  - hopf-algebras
+  - connes-kreimer
+  - rota-baxter-algebras
+  - locality-structures
+  - conical-zeta-values
+advisor: guo-li
+students: []
+key_collaborators:
+  - person: guo-li
+    since: 2006
+    topic: "Renormalization of multiple zeta values, Connes-Kreimer Hopf algebra approach, conical zeta values, locality morphisms"
+    papers_count: 10
+  - person: paycha-sylvie
+    since: 2009
+    topic: "Renormalisation of branched zeta values, locality structures, conical zeta values"
+    papers_count: 8
+publications:
+  - id: "2512.24732"
+    title: "Isomorphism between Hopf algebras for multiple zeta values"
+    year: 2025
+    coauthors: [guo-li, "Hongyu Xiang"]
+  - id: "2401.01372"
+    title: "Hopf algebras for the shuffle algebra and fractions from multiple zeta values"
+    year: 2023
+    coauthors: [guo-li, "Wenchuan Hu", "Hongyu Xiang"]
+  - id: "2301.02300"
+    title: "Locality Galois groups of meromorphic germs in several variables"
+    year: 2023
+    coauthors: [guo-li, paycha-sylvie]
+  - id: "2012.11872"
+    title: "Renormalization of quasisymmetric functions"
+    year: 2020
+    coauthors: [guo-li, "Houyi Yu"]
+  - id: "1811.01215"
+    title: "Locality and renormalisation: universal properties and integrals on trees"
+    year: 2018
+    coauthors: ["Pierre Clavier", guo-li, paycha-sylvie]
+  - id: "1810.03210"
+    title: "Renormalisation via locality morphisms"
+    year: 2018
+    coauthors: ["Pierre Clavier", guo-li, paycha-sylvie]
+  - id: "1807.07630"
+    title: "Renormalisation and locality: branched zeta values"
+    year: 2018
+    coauthors: ["Pierre Clavier", guo-li, paycha-sylvie]
+  - id: "1712.03490"
+    title: "Renormalization of Feynman amplitudes on manifolds by spectral zeta regularization and blow-ups"
+    year: 2017
+    coauthors: ["Nguyen Viet Dang"]
+  - id: "1711.00884"
+    title: "An algebraic formulation of the locality principle in renormalisation"
+    year: 2017
+    coauthors: ["Pierre Clavier", guo-li, paycha-sylvie]
+  - id: "1607.05973"
+    title: "Universal enveloping algebras and Poincaré-Birkhoff-Witt theorem for involutive Hom-Lie algebras"
+    year: 2016
+    coauthors: [guo-li, "Shanghua Zheng"]
+  - id: "1602.04190"
+    title: "Renormalised conical zeta values"
+    year: 2016
+    coauthors: [guo-li, paycha-sylvie]
+  - id: "1501.00429"
+    title: "Counting an infinite number of points: a testing ground for renormalization methods"
+    year: 2015
+    coauthors: [guo-li, paycha-sylvie]
+  - id: "1501.00426"
+    title: "A conical approach to Laurent expansions for multivariate meromorphic germs with linear poles"
+    year: 2015
+    coauthors: [guo-li, paycha-sylvie]
+  - id: "1306.3420"
+    title: "Algebraic Birkhoff Factorization and the Euler-Maclaurin Formula on Cones"
+    year: 2013
+    coauthors: [guo-li, paycha-sylvie]
+  - id: "1301.3370"
+    title: "Conical zeta values and their double subdivision relations"
+    year: 2013
+    coauthors: [guo-li, paycha-sylvie]
+  - id: "0906.0092"
+    title: "Double shuffle relations and renormalization of multiple zeta values"
+    year: 2009
+    coauthors: [guo-li, paycha-sylvie, "Bingyong Xie"]
+  - id: "0710.0432"
+    title: "Differential Birkhoff decomposition and the renormalization of multiple zeta values"
+    year: 2007
+    coauthors: [guo-li]
+  - id: "math/0606076"
+    title: "Renormalization of multiple zeta values"
+    year: 2006
+    coauthors: [guo-li]
+activity:
+  total_papers: 18
+  active_period: "2006-present"
+  peak_period: "2013-2023"
+external_ids: {}
+links: {}
+personal_notes: |
+  四川大学数学学院教授。长期方向：多元 zeta 值 (MZV) 的重整化，Connes-Kreimer Hopf 代数框架，
+  代数 Birkhoff 分解，locality morphisms, 锥形 zeta 值 (conical zeta values)。
+  最稳定的合作者是 Li Guo（Rutgers-Newark）与 Sylvie Paycha（Potsdam），三人从 2009 开始合作
+  超过 10 年，主要成果将量子场论中的重整化方法与 Connes-Kreimer Hopf 代数方法推广到
+  MZV 的发散情形、树上 branched zeta 值、以及 meromorphic germs 的 locality 结构。
+
+  2024 年在吉林大学报告题目《多元 zeta 值的洗牌 Hopf 代数》。
+
+  2026 HUST 会议参会者。与会议主流方向（Frobenius manifold / GW 理论 / 可积系统）
+  不直接重合，但 Connes-Kreimer 重整化在 BV 形式、规范场论、形式路径积分等
+  多个镜像对称相关方向都有应用，是潜在的跨组连接点。
+sources:
+  - label: "arXiv paper math/0606076 (与 Li Guo 合作首篇)"
+    url: "https://arxiv.org/abs/math/0606076"
+  - label: "ResearchGate profile (Sichuan University)"
+    url: "https://www.researchgate.net/profile/Bin-Zhang-143"
+  - label: "吉林大学数学学院报告 2024"
+    url: "https://math.jlu.edu.cn/info/1555/15616.htm"
+tags:
+  - sichuan-u

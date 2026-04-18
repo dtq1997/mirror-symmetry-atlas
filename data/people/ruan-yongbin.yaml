@@ -1,0 +1,73 @@
+slug: ruan-yongbin
+name:
+  en: Yongbin Ruan
+  zh: 阮勇斌
+born: 1963
+died: null
+nationality: Chinese
+gender: male
+photo_url: null
+career_timeline:
+  - period: "1985"
+    type: education
+    institution: sichuan-u
+    role: "本科, 数学"
+  - period: "1991"
+    type: education
+    institution: uc-berkeley
+    role: "博士, 数学"
+    advisor: "Robion Kirby"
+  - period: "[待验证]-2019"
+    type: position
+    institution: umich
+    role: "教授"
+    notes: "密歇根大学安娜堡分校"
+  - period: "2019-present"
+    type: position
+    institution: zju-ims
+    role: "永久教授 / 主任"
+    notes: "浙江大学数学高等研究院"
+research_areas:
+  - gromov-witten-theory
+  - mirror-symmetry
+  - fjrw-theory
+  - orbifold-cohomology
+  - quantum-cohomology
+  - moduli-spaces
+advisor: "Robion Kirby"
+students: []
+key_collaborators:
+  - person: "Tyler J. Jarvis"
+    since: 2007
+    topic: "FJRW theory 创立"
+    papers_count: 3
+  - person: hu-jianxun
+    since: 2008
+    topic: "Birational cobordism invariance of uniruled symplectic manifolds (Invent. Math. 2008)"
+    papers_count: 1
+  - person: "Huijun Fan"
+    since: 2007
+    topic: "FJRW theory (Fan-Jarvis-Ruan-Witten)"
+    papers_count: 3
+publications: []
+activity:
+  total_papers: null
+  active_period: "1991-present"
+external_ids: {}
+links:
+  homepage: "https://person.zju.edu.cn/yongbinruan"
+personal_notes: |
+  四川大学本科 → UC Berkeley 博士 (1991, Kirby 指导) → 密歇根大学教授 →
+  2019 起浙大数学高等研究院永久教授、主任。
+  Gromov-Witten 不变量、镜像对称、FJRW 理论的核心开创者之一。
+  FJRW theory = Fan (范辉军) + Jarvis + Ruan + Witten：Landau-Ginzburg 奇点的 GW 理论。
+  2008 年与胡建勋、Tian-Jun Li 合作证明 uniruledness 的 birational invariance (Invent. Math.)，
+  symplectic topology 里程碑成果。
+  组织了数届国内 GW 理论 workshop，是国内该方向发展的关键推动者。
+sources:
+  - label: "浙大数学高等研究院主页"
+    url: "https://person.zju.edu.cn/yongbinruan"
+tags:
+  - important-person
+  - zju
+  - stub

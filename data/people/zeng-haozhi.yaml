@@ -1,0 +1,154 @@
+slug: zeng-haozhi
+name:
+  en: Haozhi Zeng
+  zh: 曾昊智
+born: null
+died: null
+nationality: Chinese
+gender: male
+photo_url: null
+career_timeline:
+  - period: "[待验证]-2016"
+    type: education
+    institution: null
+    role: "博士, 数学"
+    advisor: null
+    notes: "Osaka City University (大阪市立大学, 现 Osaka Metropolitan University) [待验证: 2015-2016 前后博士毕业，导师极可能是 Mikiya Masuda]"
+  - period: "2014-[待验证]"
+    type: position
+    institution: null
+    role: "博士生 / 早期合作者"
+    notes: "大阪市立大学，当时邮箱 zenghaozhi@icloud.com，与 Masuda, Ayzenberg, Park 合作 toric origami manifolds"
+  - period: "[待验证]-present"
+    type: position
+    institution: hust
+    role: "副教授 [待验证具体职称]"
+    notes: "华中科技大学数学与统计学院. NSFC 11901218 (青年项目 2020-2022)"
+research_areas:
+  - toric-topology
+  - hessenberg-varieties
+  - peterson-variety
+  - torus-orbifold
+  - algebraic-geometry
+  - equivariant-cohomology
+  - gkm-theory
+advisor: null
+students: []
+key_collaborators:
+  - person: "Hiraku Abe"
+    since: 2017
+    topic: "Regular Hessenberg varieties, Peterson variety cohomology, Peterson Schubert calculus, totally nonnegative Peterson"
+    papers_count: 6
+    notes: "Okayama University of Science"
+  - person: "Mikiya Masuda"
+    since: 2014
+    topic: "Toric origami manifolds, torus orbifolds, GKM graphs"
+    papers_count: 4
+    notes: "Osaka Metropolitan University (原 Osaka City U.), 疑似博士导师"
+  - person: "Tatsuya Horiguchi"
+    since: 2021
+    topic: "Peterson Schubert calculus, partial Hessenberg varieties"
+    papers_count: 2
+  - person: "Takashi Sato"
+    since: 2024
+    topic: "GKM graphs, Hessenberg varieties"
+    papers_count: 2
+  - person: "Anton Ayzenberg"
+    since: 2014
+    topic: "Toric origami manifolds, quasitoric manifolds"
+    papers_count: 2
+  - person: "Naoki Fujita"
+    since: 2017
+    topic: "Regular Hessenberg varieties, Fano Hessenberg"
+    papers_count: 2
+  - person: "Tao Gui"
+    since: 2025
+    topic: "Totally nonnegative Peterson variety, strongly dominant weight polytope"
+    papers_count: 1
+    notes: "PKU BICMR"
+publications:
+  - id: "2512.06646"
+    title: "Totally nonnegative Peterson variety and strongly dominant weight polytope"
+    year: 2025
+    coauthors: ["Hiraku Abe", "Tao Gui"]
+  - id: "2507.23259"
+    title: "Notes on the cohomology of partial Hessenberg varieties"
+    year: 2025
+    coauthors: ["Tatsuya Horiguchi", "Mikiya Masuda", "Takashi Sato"]
+  - id: "2405.16399"
+    title: "Automorphisms of GKM graphs and regular semisimple Hessenberg varieties"
+    year: 2024
+    coauthors: ["Donghoon Jang", "Shintarô Kuroki", "Mikiya Masuda", "Takashi Sato"]
+  - id: "2310.02819"
+    title: "Totally nonnegative part of the Peterson variety in Lie type A"
+    year: 2023
+    coauthors: ["Hiraku Abe"]
+    journal: "Math. Zeit. (2025)"
+  - id: "2310.02818"
+    title: "Peterson varieties and toric orbifolds associated to Cartan matrices"
+    year: 2023
+    coauthors: ["Hiraku Abe"]
+  - id: "2305.03964"
+    title: "Equivariant cohomology ring of open torus manifolds with locally standard actions"
+    year: 2023
+    coauthors: ["Yueshan Xiong"]
+  - id: "2203.02629"
+    title: "The integral cohomology rings of Peterson varieties in type A"
+    year: 2022
+    coauthors: ["Hiraku Abe"]
+  - id: "2104.02914"
+    title: "Geometry of Peterson Schubert calculus in type A and left-right diagrams"
+    year: 2021
+    coauthors: ["Hiraku Abe", "Tatsuya Horiguchi", "Hideya Kuwata"]
+  - id: "2003.12286"
+    title: "Fano and weak Fano Hessenberg varieties"
+    year: 2020
+    coauthors: ["Hiraku Abe", "Naoki Fujita"]
+  - id: "1712.09269"
+    title: "Geometry of regular Hessenberg varieties"
+    year: 2017
+    coauthors: ["Hiraku Abe", "Naoki Fujita"]
+    journal: "Transformation Groups (2020)"
+  - id: "1604.03138"
+    title: "Torsion in the cohomology of torus orbifolds"
+    year: 2016
+    coauthors: ["Hideya Kuwata", "Mikiya Masuda"]
+  - id: "1409.6855"
+    title: "Toric origami structures on quasitoric manifolds"
+    year: 2014
+    coauthors: ["Anton Ayzenberg", "Mikiya Masuda", "Seonjeong Park"]
+    journal: "Proc. Steklov Inst. Math. (2015)"
+  - id: "1407.0764"
+    title: "Cohomology of toric origami manifolds with acyclic proper faces"
+    year: 2014
+    coauthors: ["Anton Ayzenberg", "Mikiya Masuda", "Seonjeong Park"]
+    journal: "J. Symplectic Geom."
+  - id: null
+    title: "The fundamental group of locally standard T-manifolds"
+    year: 2018
+    coauthors: []
+    journal: "Algebr. Geom. Topol. 18(5) 3031-3035"
+activity:
+  total_papers: 14
+  active_period: "2014-present"
+external_ids: {}
+links:
+  homepage: null
+  email: "zenghaozhi@icloud.com"
+personal_notes: |
+  HUST 数学与统计学院（非 HUST 数学中心）。arXiv 最新论文 2512.06646 明确显示其单位为
+  "School of Mathematics and Statistics, Huazhong University of Science and Technology"。
+  学术路径：Osaka City University 博士 (2014 年已在 Osaka 发表 toric origami 论文，约 2015-2016 毕业)
+  → HUST。博士导师 [待验证] 极可能是 Mikiya Masuda (与他合作 4 篇且是早期合作最密切的)。
+
+  研究方向：toric topology 与代数几何的交叉，核心关注 Hessenberg 流形与 Peterson 流形。
+  重要成果：与 Hiraku Abe 合作证明 A 型 Peterson 流形的 totally nonnegative part 是 CW 复形
+  (Rietsch 猜想)，近期 2025 年扩展到任意 Lie type (joint with Abe, Tao Gui)。
+  NSFC 青年基金 11901218 (2020-2022)。日本合作网络广泛 (Masuda, Abe, Horiguchi, Sato, Kuroki)。
+sources:
+  - label: "arXiv 2512.06646 (HUST affiliation)"
+    url: "https://arxiv.org/abs/2512.06646"
+  - label: "arXiv 1409.6855 (Osaka City U. affiliation)"
+    url: "https://arxiv.org/abs/1409.6855"
+tags:
+  - hust
