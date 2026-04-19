@@ -159,12 +159,23 @@ export default function ForceGraph({
 
       if (gLink.opacity <= 0) return;
 
-      ctx.globalAlpha = gLink.opacity;
+      // Weight-scaled line width (log scale so strong collabs stand out,
+      // weak ones don't disappear). Coauthor weight=papers_count.
+      const w = Math.max(1, gLink.weight);
+      const widthScaled =
+        gLink.type === "coauthor"
+          ? Math.max(0.3, Math.min(0.4 + Math.log2(w) * 0.8, 4))
+          : Math.max(0.5, Math.min(w * 0.3, 3));
+      // Dim weak coauthor edges to reduce clutter; emphasize strong ones
+      let alpha = gLink.opacity;
+      if (gLink.type === "coauthor") {
+        if (w >= 10) alpha = Math.min(1, alpha * 1.1);
+        else if (w <= 2) alpha *= 0.45;
+        else if (w <= 4) alpha *= 0.7;
+      }
+      ctx.globalAlpha = alpha;
       ctx.strokeStyle = gLink.color;
-      ctx.lineWidth = Math.max(
-        0.5,
-        Math.min(gLink.weight * 0.3, 3) / globalScale
-      );
+      ctx.lineWidth = widthScaled / globalScale;
 
       if (gLink.dash) {
         ctx.setLineDash(gLink.dash);

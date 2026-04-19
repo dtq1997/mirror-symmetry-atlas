@@ -244,6 +244,8 @@ export interface Connection {
   weight?: number;
   period?: string;
   institution?: string;
+  notes?: string;
+  derived?: boolean;
 }
 
 // ===== Institution =====

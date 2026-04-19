@@ -145,12 +145,45 @@ export function getAllConferenceEvents(): ConferenceEvent[] {
 export function getAllConnections(): Connection[] {
   const connections: Connection[] = [];
   const connDir = path.join(DATA_DIR, "connections");
-  if (!fs.existsSync(connDir)) return connections;
-
-  for (const f of fs.readdirSync(connDir).filter((f) => f.endsWith(".yaml"))) {
-    const data = readYaml<{ edges?: Connection[] }>(path.join(connDir, f));
-    if (data.edges) connections.push(...data.edges);
+  if (fs.existsSync(connDir)) {
+    for (const f of fs.readdirSync(connDir).filter((f) => f.endsWith(".yaml"))) {
+      const data = readYaml<{ edges?: Connection[] }>(path.join(connDir, f));
+      if (data.edges) connections.push(...data.edges);
+    }
   }
+
+  // Auto-derive coauthor edges from key_collaborators when both endpoints are built.
+  // Skip if pair already present in declared coauthor edges.
+  const declaredCoauthor = new Set<string>();
+  for (const c of connections) {
+    if (c.type !== "coauthor") continue;
+    const k = [c.source, c.target].sort().join("|");
+    declaredCoauthor.add(k);
+  }
+
+  const people = getAllPeople();
+  const builtSlugs = new Set(people.map((p) => p.slug));
+  const derivedSeen = new Set<string>();
+
+  for (const p of people) {
+    for (const c of p.key_collaborators || []) {
+      const other = c.person;
+      if (!other || !builtSlugs.has(other) || other === p.slug) continue;
+      const key = [p.slug, other].sort().join("|");
+      if (declaredCoauthor.has(key) || derivedSeen.has(key)) continue;
+      derivedSeen.add(key);
+      connections.push({
+        source: p.slug,
+        target: other,
+        type: "coauthor",
+        weight: c.papers_count ?? 1,
+        period: c.since ? `${c.since}-present` : undefined,
+        notes: c.topic,
+        derived: true,
+      } as Connection);
+    }
+  }
+
   return connections;
 }
 
