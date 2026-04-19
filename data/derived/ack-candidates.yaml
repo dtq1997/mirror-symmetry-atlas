@@ -1,0 +1,275 @@
+meta:
+  note: External full-name mentions in ack sections, frequency ≥3. Candidates for
+    future slug registration.
+  total: 40
+candidates:
+- name: Kevin Costello
+  count: 9
+  papers:
+  - '1311.1659'
+  - '1311.4073'
+  - '1402.7000'
+  - '1507.01812'
+  - '1706.09912'
+  - '1810.05179'
+  - '2009.06673'
+  - '2103.01383'
+  - '2404.01499'
+- name: Jim Stasheff
+  count: 7
+  papers:
+  - '0909.0319'
+  - '1202.0079'
+  - '1204.1075'
+  - '1312.4609'
+  - '1712.00665'
+  - '2008.01747'
+- name: Pavel Etingof
+  count: 7
+  papers:
+  - '1507.07149'
+  - '1701.08113'
+  - '1801.00123'
+  - '1808.07654'
+  - '1907.13417'
+  - '1912.07196'
+  - '2304.07173'
+- name: Nick Sheridan
+  count: 7
+  papers:
+  - '1706.09912'
+  - '1902.04596'
+  - '1909.05319'
+  - '1910.00037'
+  - '2009.06673'
+  - '2404.01499'
+- name: Valerio Toledano
+  count: 6
+  papers:
+  - '1507.07149'
+  - '1701.08113'
+  - '1801.00123'
+  - '1808.07654'
+  - '1912.07196'
+  - '2403.17906'
+- name: Sasha Polishchuk
+  count: 6
+  papers:
+  - '1810.05179'
+  - '1902.04596'
+  - '1910.00037'
+  - '2209.02744'
+  - '2404.13805'
+- name: Alan Weinstein
+  count: 5
+  papers:
+  - '0904.4062'
+  - '0909.0319'
+  - '1202.0079'
+  - '1204.1075'
+  - '1507.07149'
+- name: Cheol-Hyun Cho
+  count: 5
+  papers:
+  - '1006.3830'
+  - '1909.05319'
+  - '2106.08716'
+  - '2209.02744'
+- name: Bumsig Kim
+  count: 5
+  papers:
+  - '1007.1683'
+  - '1107.4744'
+  - '2211.16902'
+  - '2404.13805'
+- name: Marco Bertola
+  count: 5
+  papers:
+  - '1412.4419'
+  - '1709.07309'
+  - '1712.08575'
+  - '2101.10924'
+  - '2311.06506'
+- name: Thomas Lam
+  count: 4
+  papers:
+  - '0810.4859'
+  - '1007.1683'
+  - '1506.00872'
+- name: Camille Laurent-Gengoux
+  count: 4
+  papers:
+  - '0904.4062'
+  - '0909.0319'
+  - '1204.1075'
+  - '1712.00665'
+- name: Giovanni Felder
+  count: 4
+  papers:
+  - '0904.4062'
+  - '1507.07149'
+  - '1701.00959'
+  - '1912.07196'
+- name: Chenchang Zhu
+  count: 4
+  papers:
+  - '1003.1350'
+  - '1312.4609'
+  - '1507.07149'
+  - '1805.06305'
+- name: Damien Calaque
+  count: 4
+  papers:
+  - '1009.4151'
+  - '1010.0985'
+  - '1204.1075'
+- name: Ping Xu
+  count: 4
+  papers:
+  - '1507.07149'
+  - '1911.01388'
+  - '2105.15019'
+  - '2110.04720'
+- name: Rahul Pandharipande
+  count: 4
+  papers:
+  - '1705.06402'
+  - '1810.06952'
+  - '1902.04596'
+  - '1910.00037'
+- name: Leonardo Mihalcea
+  count: 4
+  papers:
+  - '2106.08716'
+  - '2211.16902'
+  - '2304.07173'
+  - '2502.13545'
+- name: Yassir Dinar
+  count: 3
+  papers:
+  - '0710.3115'
+  - '1508.03750'
+  - '1610.07534'
+- name: Xiaowei Wang
+  count: 3
+  papers:
+  - '0810.4859'
+  - '2405.16979'
+  - '2405.16987'
+- name: Pavol Severa
+  count: 3
+  papers:
+  - '0909.0319'
+  - '1308.0100'
+  - '1712.00665'
+- name: Tony Pantev
+  count: 3
+  papers:
+  - '1001.1082'
+  - '1007.2679'
+  - '1009.4151'
+- name: Mark Gross
+  count: 3
+  papers:
+  - '1006.3830'
+  - '1810.06952'
+- name: Leonardo Constantin
+  count: 3
+  papers:
+  - '1007.1683'
+  - '1107.4744'
+  - '1506.00872'
+- name: Ionut Ciocan-Fontanine
+  count: 3
+  papers:
+  - '1107.4744'
+  - '1506.00872'
+  - '1804.05310'
+- name: Istituto Nazionale
+  count: 3
+  papers:
+  - '1203.5750'
+  - '2111.02969'
+  - '2310.19739'
+- name: Jun Li
+  count: 3
+  papers:
+  - '1205.0848'
+  - '1705.06402'
+  - '1804.05310'
+- name: Jianghua Lu
+  count: 3
+  papers:
+  - '1301.4805'
+  - '1407.2071'
+  - '1701.08113'
+- name: Alexander Polishchuk
+  count: 3
+  papers:
+  - '1306.5260'
+  - '1411.5115'
+  - '1706.09912'
+- name: John Harnad
+  count: 3
+  papers:
+  - '1412.4419'
+  - '1709.07309'
+  - '2002.00052'
+- name: Lino Amorim
+  count: 3
+  papers:
+  - '1512.02322'
+  - '1910.00037'
+  - '2103.01383'
+- name: Motohico Mulase
+  count: 3
+  papers:
+  - '1604.07123'
+  - '2005.02275'
+  - '2008.11496'
+- name: Maxim Smirnov
+  count: 3
+  papers:
+  - '1702.01669'
+  - '1712.08575'
+  - '2101.10924'
+- name: Dima Arinkin
+  count: 3
+  papers:
+  - '1706.09912'
+  - '2009.06673'
+  - '2404.01499'
+- name: Chiu-Chu Melissa
+  count: 3
+  papers:
+  - '1809.11058'
+  - '2312.06160'
+  - '2601.17321'
+- name: Scholars No
+  count: 3
+  papers:
+  - '1811.10137'
+  - '1811.10234'
+  - '1908.06707'
+- name: Xiang Tang
+  count: 3
+  papers:
+  - '1812.05432'
+  - '1904.09426'
+  - '2304.13345'
+- name: Zhe Wang
+  count: 3
+  papers:
+  - '2402.00373'
+  - '2404.08895'
+  - '2411.15496'
+- name: Heng Xie
+  count: 3
+  papers:
+  - '2405.16979'
+  - '2502.13545'
+  - '2502.13558'
+- name: See Section
+  count: 3
+  papers:
+  - '2504.15696'

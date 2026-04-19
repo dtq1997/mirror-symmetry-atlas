@@ -34,3 +34,6 @@ data/papers/sources/
 *.tsbuildinfo
 next-env.d.ts
 scripts/__pycache__/
+
+# arXiv LaTeX sources (large, regenerable)
+/data/papers/sources/

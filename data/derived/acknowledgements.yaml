@@ -1,0 +1,1183 @@
+meta:
+  note: Auto-generated from arXiv LaTeX acknowledgements. weight = count of papers
+    where source acknowledges target. Threshold ≥2.
+  single_count: 108
+  strong_count: 58
+edges:
+- source: boalch
+  target: sabbah
+  type: acknowledgement
+  weight: 2
+  papers:
+  - '1003.3177'
+  - '2002.00052'
+- source: cotti
+  target: dubrovin
+  type: acknowledgement
+  weight: 2
+  papers:
+  - '1608.06868'
+  - '2005.08262'
+- source: cotti
+  target: guzzetti
+  type: acknowledgement
+  weight: 6
+  papers:
+  - '1608.06868'
+  - '2005.08262'
+  - '2011.04498'
+  - '2105.06329'
+  - '2112.14577'
+  - '2210.05445'
+- source: cotti
+  target: hertling
+  type: acknowledgement
+  weight: 8
+  papers:
+  - '1712.08575'
+  - '1811.09235'
+  - '2005.08262'
+  - '2011.04498'
+  - '2105.06329'
+  - '2112.14577'
+  - '2210.05445'
+  - '2506.18033'
+- source: cotti
+  target: sabbah
+  type: acknowledgement
+  weight: 8
+  papers:
+  - '1712.08575'
+  - '1811.09235'
+  - '2011.04498'
+  - '2105.06329'
+  - '2112.14577'
+  - '2210.05445'
+  - '2506.18033'
+  - '2510.05500'
+- source: ding-yanqiao
+  target: hu-jianxun
+  type: acknowledgement
+  weight: 2
+  papers:
+  - '1710.03603'
+  - '1902.07486'
+- source: fan-huijun
+  target: zhang-huailiang
+  type: acknowledgement
+  weight: 2
+  papers:
+  - '0712.4021'
+  - '1107.1290'
+- source: fang-bohan
+  target: ruan-yongbin
+  type: acknowledgement
+  weight: 2
+  papers:
+  - '1604.07123'
+  - '2504.15696'
+- source: guzzetti
+  target: boalch
+  type: acknowledgement
+  weight: 2
+  papers:
+  - '2108.07003'
+  - '2111.02969'
+- source: guzzetti
+  target: dubrovin
+  type: acknowledgement
+  weight: 2
+  papers:
+  - '1010.1330'
+  - '2101.03397'
+- source: guzzetti
+  target: hertling
+  type: acknowledgement
+  weight: 2
+  papers:
+  - '1712.08575'
+  - '1811.09235'
+- source: guzzetti
+  target: mazzocco
+  type: acknowledgement
+  weight: 4
+  papers:
+  - '1010.1330'
+  - '1010.1895'
+  - '1104.5066'
+  - '2108.07003'
+- source: guzzetti
+  target: sabbah
+  type: acknowledgement
+  weight: 3
+  papers:
+  - '1712.08575'
+  - '1811.09235'
+  - '2101.03397'
+- source: hu-jianxun
+  target: chan-kwokwai
+  type: acknowledgement
+  weight: 2
+  papers:
+  - '2405.16979'
+  - '2502.13558'
+- source: hu-jianxun
+  target: ruan-yongbin
+  type: acknowledgement
+  weight: 2
+  papers:
+  - '1108.5892'
+  - '1402.4221'
+- source: hu-jianxun
+  target: song-jiayu
+  type: acknowledgement
+  weight: 3
+  papers:
+  - '2405.16979'
+  - '2502.13545'
+  - '2502.13558'
+- source: hu-xiaowen
+  target: song-jiayu
+  type: acknowledgement
+  weight: 2
+  papers:
+  - '1805.04050'
+  - '2101.05236'
+- source: ke-huazhong
+  target: chan-kwokwai
+  type: acknowledgement
+  weight: 2
+  papers:
+  - '2405.16979'
+  - '2502.13558'
+- source: ke-huazhong
+  target: song-jiayu
+  type: acknowledgement
+  weight: 3
+  papers:
+  - '2405.16979'
+  - '2502.13545'
+  - '2502.13558'
+- source: li-changzheng
+  target: chan-kwokwai
+  type: acknowledgement
+  weight: 3
+  papers:
+  - '1311.1659'
+  - '2405.16979'
+  - '2502.13558'
+- source: li-changzheng
+  target: hong-wei
+  type: acknowledgement
+  weight: 3
+  papers:
+  - '0808.0393'
+  - '0810.4859'
+  - '1107.4744'
+- source: li-changzheng
+  target: leung-naichung
+  type: acknowledgement
+  weight: 2
+  papers:
+  - '1506.00872'
+  - '2405.16979'
+- source: li-changzheng
+  target: song-jiayu
+  type: acknowledgement
+  weight: 3
+  papers:
+  - '2405.16979'
+  - '2502.13545'
+  - '2502.13558'
+- source: liu-siqi
+  target: dubrovin
+  type: acknowledgement
+  weight: 14
+  papers:
+  - '0710.3115'
+  - '0711.2599'
+  - '0910.2085'
+  - '0912.5273'
+  - '1012.5708'
+  - '1208.5847'
+  - '1305.1008'
+  - '1305.2593'
+  - '1702.02840'
+  - '1811.10234'
+  - '1906.06860'
+  - '2009.01143'
+  - '2112.07526'
+  - '2511.06984'
+- source: liu-siqi
+  target: guo-shuai
+  type: acknowledgement
+  weight: 2
+  papers:
+  - '1811.10234'
+  - '1906.06860'
+- source: liu-siqi
+  target: ruan-yongbin
+  type: acknowledgement
+  weight: 4
+  papers:
+  - '1811.10137'
+  - '1811.10234'
+  - '1906.06860'
+  - '1908.06707'
+- source: liu-siqi
+  target: yang-di
+  type: acknowledgement
+  weight: 4
+  papers:
+  - '1702.02840'
+  - '2402.00373'
+  - '2404.08895'
+  - '2411.15496'
+- source: liu-siqi
+  target: zagier
+  type: acknowledgement
+  weight: 3
+  papers:
+  - '1612.02333'
+  - '1811.10234'
+  - '1906.06860'
+- source: liu-siqi
+  target: zhou-jian
+  type: acknowledgement
+  weight: 2
+  papers:
+  - '1409.4616'
+  - '1612.02333'
+- source: liu-xiaobo
+  target: kontsevich
+  type: acknowledgement
+  weight: 2
+  papers:
+  - '2103.14318'
+  - '2206.01066'
+- source: qu-haonan
+  target: yang-di
+  type: acknowledgement
+  weight: 2
+  papers:
+  - '2402.00373'
+  - '2411.15496'
+- source: tu-junwu
+  target: si-li
+  type: acknowledgement
+  weight: 5
+  papers:
+  - '1706.09912'
+  - '1909.05319'
+  - '1910.00037'
+  - '2009.06673'
+  - '2404.01499'
+- source: wang-zhiyuan
+  target: liu-xiaobo
+  type: acknowledgement
+  weight: 2
+  papers:
+  - '2210.08712'
+  - '2408.03212'
+- source: wang-zhiyuan
+  target: zhou-jian
+  type: acknowledgement
+  weight: 2
+  papers:
+  - '2210.08712'
+  - '2408.03212'
+- source: wu-chaozhong
+  target: dubrovin
+  type: acknowledgement
+  weight: 8
+  papers:
+  - '0711.2599'
+  - '0906.5360'
+  - '0912.5273'
+  - '1012.5245'
+  - '1103.4048'
+  - '1112.0246'
+  - '1203.5750'
+  - '1305.1030'
+- source: wu-chaozhong
+  target: ruan-yongbin
+  type: acknowledgement
+  weight: 2
+  papers:
+  - '1811.10137'
+  - '1908.06707'
+- source: wu-chaozhong
+  target: zhang-youjin
+  type: acknowledgement
+  weight: 8
+  papers:
+  - '0906.5360'
+  - '1001.4126'
+  - '1012.5245'
+  - '1103.4048'
+  - '1112.0246'
+  - '1203.5750'
+  - '1208.1374'
+  - '1305.1030'
+- source: xiang-maosong
+  target: chen-zhuo
+  type: acknowledgement
+  weight: 2
+  papers:
+  - '2003.03553'
+  - '2110.04720'
+- source: xu-xiaomeng
+  target: alekseev
+  type: acknowledgement
+  weight: 10
+  papers:
+  - '1308.0100'
+  - '1407.2071'
+  - '1507.07149'
+  - '1701.00959'
+  - '1701.08113'
+  - '1801.00123'
+  - '1808.07654'
+  - '1912.07196'
+  - '2012.15673'
+  - '2401.12792'
+- source: xu-xiaomeng
+  target: boalch
+  type: acknowledgement
+  weight: 5
+  papers:
+  - '1507.07149'
+  - '1701.08113'
+  - '1801.00123'
+  - '1808.07654'
+  - '1912.07196'
+- source: xu-xiaomeng
+  target: hong-wei
+  type: acknowledgement
+  weight: 2
+  papers:
+  - '1301.4805'
+  - '2402.07269'
+- source: xu-xiaomeng
+  target: tang-qian
+  type: acknowledgement
+  weight: 2
+  papers:
+  - '1912.07196'
+  - '2401.13911'
+- source: yang-chenglang
+  target: kontsevich
+  type: acknowledgement
+  weight: 2
+  papers:
+  - '2103.14318'
+  - '2206.01066'
+- source: yang-chenglang
+  target: liu-xiaobo
+  type: acknowledgement
+  weight: 2
+  papers:
+  - '2210.08712'
+  - '2408.03212'
+- source: yang-chenglang
+  target: zhou-jian
+  type: acknowledgement
+  weight: 2
+  papers:
+  - '2210.08712'
+  - '2408.03212'
+- source: yang-di
+  target: chao-qian
+  type: acknowledgement
+  weight: 2
+  papers:
+  - '1610.07534'
+  - '1709.07309'
+- source: yang-di
+  target: dubrovin
+  type: acknowledgement
+  weight: 17
+  papers:
+  - '1305.2593'
+  - '1411.5717'
+  - '1412.4419'
+  - '1709.07309'
+  - '1811.10234'
+  - '1905.08140'
+  - '1906.06860'
+  - '2010.00436'
+  - '2110.06655'
+  - '2112.07526'
+  - '2112.14202'
+  - '2205.01618'
+  - '2308.03568'
+  - '2311.04200'
+  - '2311.06506'
+  - '2312.16575'
+  - '2511.06984'
+- source: yang-di
+  target: guo-shuai
+  type: acknowledgement
+  weight: 3
+  papers:
+  - '1811.10234'
+  - '1906.06860'
+  - '2112.12736'
+- source: yang-di
+  target: ruan-yongbin
+  type: acknowledgement
+  weight: 2
+  papers:
+  - '1811.10234'
+  - '1906.06860'
+- source: yang-di
+  target: zagier
+  type: acknowledgement
+  weight: 11
+  papers:
+  - '1612.02333'
+  - '1811.10234'
+  - '1903.11578'
+  - '1905.08140'
+  - '1906.06860'
+  - '2010.00436'
+  - '2110.06774'
+  - '2205.01618'
+  - '2311.04200'
+  - '2311.06506'
+  - '2603.24956'
+- source: yang-di
+  target: zhang-youjin
+  type: acknowledgement
+  weight: 21
+  papers:
+  - '1411.5717'
+  - '1412.4419'
+  - '1504.06452'
+  - '1508.03750'
+  - '1606.03720'
+  - '1610.07534'
+  - '1702.01669'
+  - '1709.07309'
+  - '1802.00711'
+  - '1812.08488'
+  - '1903.11578'
+  - '1905.08106'
+  - '1905.08140'
+  - '2010.00436'
+  - '2101.10924'
+  - '2205.01618'
+  - '2306.09115'
+  - '2308.03568'
+  - '2311.04200'
+  - '2311.06506'
+  - '2409.12529'
+- source: yang-di
+  target: zhou-jian
+  type: acknowledgement
+  weight: 9
+  papers:
+  - '1409.4616'
+  - '1504.06452'
+  - '1508.03750'
+  - '1612.02333'
+  - '1709.07309'
+  - '1905.08140'
+  - '2101.10924'
+  - '2112.12736'
+  - '2205.01618'
+- source: zhang-huailiang
+  target: hong-wei
+  type: acknowledgement
+  weight: 2
+  papers:
+  - '1105.3261'
+  - '1206.5390'
+- source: zhang-huailiang
+  target: ruan-yongbin
+  type: acknowledgement
+  weight: 6
+  papers:
+  - '1101.0914'
+  - '1206.5390'
+  - '1508.02769'
+  - '1804.05310'
+  - '1809.08806'
+  - '1809.11058'
+- source: zhang-qingsheng
+  target: zhou-jian
+  type: acknowledgement
+  weight: 2
+  papers:
+  - '2112.12736'
+  - '2309.12271'
+- source: zhou-chunhui
+  target: dubrovin
+  type: acknowledgement
+  weight: 2
+  papers:
+  - '1702.02840'
+  - '1906.06860'
+- source: zong-zhengyu
+  target: fang-bohan
+  type: acknowledgement
+  weight: 2
+  papers:
+  - '2312.06160'
+  - '2601.17321'
+- source: zong-zhengyu
+  target: ruan-yongbin
+  type: acknowledgement
+  weight: 2
+  papers:
+  - '1604.07123'
+  - '2504.15696'
+single_mentions:
+- source: boalch
+  target: dubrovin
+  type: acknowledgement
+  weight: 1
+  papers:
+  - '2002.00052'
+- source: chan-kwokwai
+  target: hong-wei
+  type: acknowledgement
+  weight: 1
+  papers:
+  - '1006.3830'
+- source: chan-kwokwai
+  target: yau-shingtung
+  type: acknowledgement
+  weight: 1
+  papers:
+  - '1006.3830'
+- source: chen-zhuo
+  target: alekseev
+  type: acknowledgement
+  weight: 1
+  papers:
+  - '1202.0079'
+- source: chen-zhuo
+  target: cheng-jiahao
+  type: acknowledgement
+  weight: 1
+  papers:
+  - '2105.15019'
+- source: chen-zhuo
+  target: liu-zhangju
+  type: acknowledgement
+  weight: 1
+  papers:
+  - '0909.0319'
+- source: cotti
+  target: kontsevich
+  type: acknowledgement
+  weight: 1
+  papers:
+  - '1811.09235'
+- source: cotti
+  target: mazzocco
+  type: acknowledgement
+  weight: 1
+  papers:
+  - '2005.08262'
+- source: cotti
+  target: yang-di
+  type: acknowledgement
+  weight: 1
+  papers:
+  - '1712.08575'
+- source: cotti
+  target: zagier
+  type: acknowledgement
+  weight: 1
+  papers:
+  - '1608.06868'
+- source: du-chengyong
+  target: xiang-maosong
+  type: acknowledgement
+  weight: 1
+  papers:
+  - '1812.05432'
+- source: fan-huijun
+  target: chen-zhuo
+  type: acknowledgement
+  weight: 1
+  papers:
+  - '0712.4021'
+- source: fan-huijun
+  target: ding-yanqiao
+  type: acknowledgement
+  weight: 1
+  papers:
+  - '0712.4021'
+- source: fan-huijun
+  target: hertling
+  type: acknowledgement
+  weight: 1
+  papers:
+  - '1107.1290'
+- source: fan-huijun
+  target: k-saito
+  type: acknowledgement
+  weight: 1
+  papers:
+  - '1107.1290'
+- source: fan-huijun
+  target: ruan-yongbin
+  type: acknowledgement
+  weight: 1
+  papers:
+  - '1107.1290'
+- source: fan-huijun
+  target: si-li
+  type: acknowledgement
+  weight: 1
+  papers:
+  - '2210.16747'
+- source: fan-huijun
+  target: tian-gang
+  type: acknowledgement
+  weight: 1
+  papers:
+  - '1107.1290'
+- source: fan-huijun
+  target: yang-di
+  type: acknowledgement
+  weight: 1
+  papers:
+  - '1008.0927'
+- source: fan-huijun
+  target: zhang-youjin
+  type: acknowledgement
+  weight: 1
+  papers:
+  - '1008.0927'
+- source: fang-bohan
+  target: chen-zhuo
+  type: acknowledgement
+  weight: 1
+  papers:
+  - '2504.15696'
+- source: fang-bohan
+  target: yau-shingtung
+  type: acknowledgement
+  weight: 1
+  papers:
+  - '0901.4276'
+- source: guo-jindong
+  target: zagier
+  type: acknowledgement
+  weight: 1
+  papers:
+  - '2110.06774'
+- source: guo-shuai
+  target: ruan-yongbin
+  type: acknowledgement
+  weight: 1
+  papers:
+  - '1809.08806'
+- source: guo-shuai
+  target: yang-chenglang
+  type: acknowledgement
+  weight: 1
+  papers:
+  - '2309.12271'
+- source: guo-shuai
+  target: zhou-jian
+  type: acknowledgement
+  weight: 1
+  papers:
+  - '2309.12271'
+- source: guo-shuai
+  target: zong-zhengyu
+  type: acknowledgement
+  weight: 1
+  papers:
+  - '2309.12271'
+- source: guzzetti
+  target: cotti
+  type: acknowledgement
+  weight: 1
+  papers:
+  - '2101.03397'
+- source: guzzetti
+  target: kontsevich
+  type: acknowledgement
+  weight: 1
+  papers:
+  - '1811.09235'
+- source: guzzetti
+  target: yang-di
+  type: acknowledgement
+  weight: 1
+  papers:
+  - '1712.08575'
+- source: he-weiqiang
+  target: hu-xiaowen
+  type: acknowledgement
+  weight: 1
+  papers:
+  - '1402.4221'
+- source: he-weiqiang
+  target: ruan-yongbin
+  type: acknowledgement
+  weight: 1
+  papers:
+  - '1402.4221'
+- source: he-weiqiang
+  target: tu-junwu
+  type: acknowledgement
+  weight: 1
+  papers:
+  - '1904.09426'
+- source: he-weiqiang
+  target: xiang-maosong
+  type: acknowledgement
+  weight: 1
+  papers:
+  - '1904.09426'
+- source: he-weiqiang
+  target: zhou-jian
+  type: acknowledgement
+  weight: 1
+  papers:
+  - '1402.4221'
+- source: hu-chuangqiang
+  target: yau-shingtung
+  type: acknowledgement
+  weight: 1
+  papers:
+  - '1810.11969'
+- source: hu-jianxun
+  target: chen-zhuo
+  type: acknowledgement
+  weight: 1
+  papers:
+  - '2405.16979'
+- source: hu-jianxun
+  target: fang-bohan
+  type: acknowledgement
+  weight: 1
+  papers:
+  - '2405.16979'
+- source: hu-jianxun
+  target: hu-xiaowen
+  type: acknowledgement
+  weight: 1
+  papers:
+  - '1402.4221'
+- source: hu-jianxun
+  target: leung-naichung
+  type: acknowledgement
+  weight: 1
+  papers:
+  - '2405.16979'
+- source: hu-jianxun
+  target: zhou-jian
+  type: acknowledgement
+  weight: 1
+  papers:
+  - '1402.4221'
+- source: hu-xiaowen
+  target: chen-zhuo
+  type: acknowledgement
+  weight: 1
+  papers:
+  - '1805.04050'
+- source: hu-xiaowen
+  target: fang-bohan
+  type: acknowledgement
+  weight: 1
+  papers:
+  - '2101.05236'
+- source: hu-xiaowen
+  target: tian-gang
+  type: acknowledgement
+  weight: 1
+  papers:
+  - '1805.04050'
+- source: hu-xiaowen
+  target: zhao-jiayi
+  type: acknowledgement
+  weight: 1
+  papers:
+  - '2101.05236'
+- source: hu-xiaowen
+  target: zhou-jian
+  type: acknowledgement
+  weight: 1
+  papers:
+  - '2101.05236'
+- source: ji-ce
+  target: yang-chenglang
+  type: acknowledgement
+  weight: 1
+  papers:
+  - '2309.12271'
+- source: ji-ce
+  target: zhou-jian
+  type: acknowledgement
+  weight: 1
+  papers:
+  - '2309.12271'
+- source: ji-ce
+  target: zong-zhengyu
+  type: acknowledgement
+  weight: 1
+  papers:
+  - '2309.12271'
+- source: ke-huazhong
+  target: chen-zhuo
+  type: acknowledgement
+  weight: 1
+  papers:
+  - '2405.16979'
+- source: ke-huazhong
+  target: fang-bohan
+  type: acknowledgement
+  weight: 1
+  papers:
+  - '2405.16979'
+- source: ke-huazhong
+  target: leung-naichung
+  type: acknowledgement
+  weight: 1
+  papers:
+  - '2405.16979'
+- source: leung-naichung
+  target: hong-wei
+  type: acknowledgement
+  weight: 1
+  papers:
+  - '1006.3830'
+- source: leung-naichung
+  target: yau-shingtung
+  type: acknowledgement
+  weight: 1
+  papers:
+  - '1006.3830'
+- source: li-changzheng
+  target: chen-zhuo
+  type: acknowledgement
+  weight: 1
+  papers:
+  - '2405.16979'
+- source: li-changzheng
+  target: fang-bohan
+  type: acknowledgement
+  weight: 1
+  papers:
+  - '2405.16979'
+- source: li-changzheng
+  target: hertling
+  type: acknowledgement
+  weight: 1
+  papers:
+  - '1311.1659'
+- source: li-changzheng
+  target: k-saito
+  type: acknowledgement
+  weight: 1
+  papers:
+  - '1311.1659'
+- source: li-changzheng
+  target: ruan-yongbin
+  type: acknowledgement
+  weight: 1
+  papers:
+  - '1311.1659'
+- source: li-changzheng
+  target: zhang-huailiang
+  type: acknowledgement
+  weight: 1
+  papers:
+  - '1311.1659'
+- source: li-qin
+  target: alekseev
+  type: acknowledgement
+  weight: 1
+  papers:
+  - '1507.01812'
+- source: li-qin
+  target: chan-kwokwai
+  type: acknowledgement
+  weight: 1
+  papers:
+  - '2008.11496'
+- source: li-qin
+  target: hong-wei
+  type: acknowledgement
+  weight: 1
+  papers:
+  - '2008.11496'
+- source: li-qin
+  target: kontsevich
+  type: acknowledgement
+  weight: 1
+  papers:
+  - '1507.01812'
+- source: li-qin
+  target: leung-naichung
+  type: acknowledgement
+  weight: 1
+  papers:
+  - '2008.11496'
+- source: li-qin
+  target: si-li
+  type: acknowledgement
+  weight: 1
+  papers:
+  - '2008.11496'
+- source: liu-siqi
+  target: chao-qian
+  type: acknowledgement
+  weight: 1
+  papers:
+  - '1502.01774'
+- source: liu-siqi
+  target: zhou-chunhui
+  type: acknowledgement
+  weight: 1
+  papers:
+  - '2402.00373'
+- source: qiao-yu
+  target: xiang-maosong
+  type: acknowledgement
+  weight: 1
+  papers:
+  - '2304.13345'
+- source: qu-haonan
+  target: zhou-chunhui
+  type: acknowledgement
+  weight: 1
+  papers:
+  - '2402.00373'
+- source: rao-sheng
+  target: hong-wei
+  type: acknowledgement
+  weight: 1
+  papers:
+  - '1609.05637'
+- source: sun-shanzhong
+  target: chen-zhuo
+  type: acknowledgement
+  weight: 1
+  papers:
+  - '1206.6162'
+- source: sun-shanzhong
+  target: zhang-huailiang
+  type: acknowledgement
+  weight: 1
+  papers:
+  - '1206.6162'
+- source: tang-qian
+  target: hong-wei
+  type: acknowledgement
+  weight: 1
+  papers:
+  - '2402.07269'
+- source: tu-junwu
+  target: kontsevich
+  type: acknowledgement
+  weight: 1
+  papers:
+  - '1311.4073'
+- source: wang-xin
+  target: liu-xiaobo
+  type: acknowledgement
+  weight: 1
+  papers:
+  - '1608.08854'
+- source: wang-zhiyuan
+  target: fan-huijun
+  type: acknowledgement
+  weight: 1
+  papers:
+  - '2210.08712'
+- source: wang-zhiyuan
+  target: yang-di
+  type: acknowledgement
+  weight: 1
+  papers:
+  - '1812.10638'
+- source: wu-chaozhong
+  target: chen-zhuo
+  type: acknowledgement
+  weight: 1
+  papers:
+  - '1305.1030'
+- source: wu-longting
+  target: chen-zhuo
+  type: acknowledgement
+  weight: 1
+  papers:
+  - '1810.06952'
+- source: wu-longting
+  target: liu-xiaobo
+  type: acknowledgement
+  weight: 1
+  papers:
+  - '1705.06402'
+- source: wu-longting
+  target: zhang-huailiang
+  type: acknowledgement
+  weight: 1
+  papers:
+  - '1705.06402'
+- source: xiang-maosong
+  target: cheng-jiahao
+  type: acknowledgement
+  weight: 1
+  papers:
+  - '2105.15019'
+- source: xiang-maosong
+  target: qiao-yu
+  type: acknowledgement
+  weight: 1
+  papers:
+  - '2110.04720'
+- source: xu-xiaomeng
+  target: chen-zhuo
+  type: acknowledgement
+  weight: 1
+  papers:
+  - '1701.00959'
+- source: xu-xiaomeng
+  target: fan-huijun
+  type: acknowledgement
+  weight: 1
+  papers:
+  - '1801.00123'
+- source: xu-xiaomeng
+  target: guzzetti
+  type: acknowledgement
+  weight: 1
+  papers:
+  - '2202.08054'
+- source: xu-xiaomeng
+  target: si-li
+  type: acknowledgement
+  weight: 1
+  papers:
+  - '1801.00123'
+- source: yang-chenglang
+  target: fan-huijun
+  type: acknowledgement
+  weight: 1
+  papers:
+  - '2210.08712'
+- source: yang-di
+  target: chen-zhuo
+  type: acknowledgement
+  weight: 1
+  papers:
+  - '2005.02275'
+- source: yang-di
+  target: cotti
+  type: acknowledgement
+  weight: 1
+  papers:
+  - '2101.10924'
+- source: yang-di
+  target: guo-jindong
+  type: acknowledgement
+  weight: 1
+  papers:
+  - '1709.07309'
+- source: yang-di
+  target: manin-yuri
+  type: acknowledgement
+  weight: 1
+  papers:
+  - '2101.10924'
+- source: yang-di
+  target: zhang-huailiang
+  type: acknowledgement
+  weight: 1
+  papers:
+  - '1812.08488'
+- source: zhang-huailiang
+  target: chen-zhuo
+  type: acknowledgement
+  weight: 1
+  papers:
+  - '1508.02769'
+- source: zhang-huailiang
+  target: fan-huijun
+  type: acknowledgement
+  weight: 1
+  papers:
+  - '1508.02769'
+- source: zhang-huailiang
+  target: si-li
+  type: acknowledgement
+  weight: 1
+  papers:
+  - '1508.02769'
+- source: zhang-qingsheng
+  target: guo-shuai
+  type: acknowledgement
+  weight: 1
+  papers:
+  - '2112.12736'
+- source: zhang-qingsheng
+  target: yang-chenglang
+  type: acknowledgement
+  weight: 1
+  papers:
+  - '2309.12271'
+- source: zhang-qingsheng
+  target: zong-zhengyu
+  type: acknowledgement
+  weight: 1
+  papers:
+  - '2309.12271'
+- source: zhou-chunhui
+  target: guo-shuai
+  type: acknowledgement
+  weight: 1
+  papers:
+  - '1906.06860'
+- source: zhou-chunhui
+  target: ruan-yongbin
+  type: acknowledgement
+  weight: 1
+  papers:
+  - '1906.06860'
+- source: zhou-chunhui
+  target: yang-di
+  type: acknowledgement
+  weight: 1
+  papers:
+  - '1702.02840'
+- source: zhou-chunhui
+  target: zagier
+  type: acknowledgement
+  weight: 1
+  papers:
+  - '1906.06860'
+- source: zhou-chunhui
+  target: zhang-youjin
+  type: acknowledgement
+  weight: 1
+  papers:
+  - '2409.12529'
+- source: zong-zhengyu
+  target: chen-zhuo
+  type: acknowledgement
+  weight: 1
+  papers:
+  - '2504.15696'
+- source: zong-zhengyu
+  target: song-jiayu
+  type: acknowledgement
+  weight: 1
+  papers:
+  - '2601.17321'
+- source: zong-zhengyu
+  target: tu-junwu
+  type: acknowledgement
+  weight: 1
+  papers:
+  - '2312.06160'
