@@ -8,148 +8,196 @@ nationality: Chinese
 gender: male
 photo_url: null
 career_timeline:
-  - period: "2014-2018"
-    type: education
-    institution: bit
-    role: "本科, 应用数学"
-    notes: "北京理工大学。专业排名 3/26，校优秀学生标兵、北京市三好学生、徐特立奖学金"
-  - period: "2018-2023"
-    type: education
-    institution: pku-bicmr
-    role: "博士"
-    advisor: liu-xiaobo
-    notes: "北京大学数学科学学院，2023年获博士学位"
-  - period: "2023-2025"
-    type: position
-    institution: amss
-    role: "博士后"
-    notes: "中科院数学所 + 华罗庚数学科学中心"
-  - period: "2025"
-    type: award
-    title: "第十九届钟家庆数学奖"
-    notes: "中国数学会 2025 年学术年会颁发"
-  - period: "2025-present"
-    type: position
-    institution: wuhan
-    role: "助理教授、博士生导师"
-    notes: "武汉大学数学与统计学院 + 武汉数学与智能研究院"
+- period: 2014-2018
+  type: education
+  institution: bit
+  role: 本科, 应用数学
+  notes: 北京理工大学。专业排名 3/26，校优秀学生标兵、北京市三好学生、徐特立奖学金
+- period: 2018-2023
+  type: education
+  institution: pku-bicmr
+  role: 博士
+  advisor: liu-xiaobo
+  notes: 北京大学数学科学学院，2023年获博士学位
+- period: 2023-2025
+  type: position
+  institution: amss
+  role: 博士后
+  notes: 中科院数学所 + 华罗庚数学科学中心
+- period: '2025'
+  type: award
+  title: 第十九届钟家庆数学奖
+  notes: 中国数学会 2025 年学术年会颁发
+- period: 2025-present
+  type: position
+  institution: wuhan
+  role: 助理教授、博士生导师
+  notes: 武汉大学数学与统计学院 + 武汉数学与智能研究院
 research_areas:
-  - integrable-hierarchy
-  - intersection-numbers
-  - tau-function
-  - gromov-witten-theory
+- integrable-hierarchy
+- intersection-numbers
+- tau-function
+- gromov-witten-theory
 advisor: liu-xiaobo
 students: []
 key_collaborators:
-  - person: liu-xiaobo
-    since: 2021
-    topic: "Schur Q-polynomials, Witten tau-function, W-type operators, Virasoro"
-    papers_count: 5
-  - person: wang-zhiyuan
-    since: 2022
-    topic: "BKP hierarchy, affine coordinates, spin Hurwitz numbers"
-    papers_count: 4
-  - person: ji-ce
-    since: 2023
-    topic: "Kac-Schwarz operators, KP/BKP hierarchies"
-    papers_count: 2
-  - person: zhang-qingsheng
-    since: 2023
-    topic: "BKP-affine coordinates, emergent geometry"
-    papers_count: 1
+- person: liu-xiaobo
+  since: 2021
+  topic: Schur Q-polynomials, Witten tau-function, W-type operators, Virasoro
+  papers_count: 5
+- person: wang-zhiyuan
+  since: 2022
+  topic: BKP hierarchy, affine coordinates, spin Hurwitz numbers
+  papers_count: 4
+- person: ji-ce
+  since: 2023
+  topic: Kac-Schwarz operators, KP/BKP hierarchies
+  papers_count: 2
+- person: zhang-qingsheng
+  since: 2023
+  topic: BKP-affine coordinates, emergent geometry
+  papers_count: 1
 publications:
-  - id: "2511.10082"
-    title: "Total partition function with fermionic number fluxes of local toric CY threefold and KP integrability"
-    year: 2025
-    coauthors: [wang-zhiyuan, zhou-jian]
-  - id: "2503.01920"
-    title: "The structures of simple Hurwitz numbers and monotone Hurwitz numbers with varying genus"
-    year: 2025
-    coauthors: []
-  - id: "2502.09302"
-    title: "The bilinear fermionic form for KP and BKP hierarchies"
-    year: 2025
-    coauthors: [guo-shuai, ji-ce]
-  - id: "2409.14124"
-    title: "Correlation Function of Self-Conjugate Partitions: q-Difference Equation and Q-Schur Expansion"
-    year: 2024
-    coauthors: []
-  - id: "2408.03212"
-    title: "On N-Coefficient Binomial Polynomiality of Hurwitz Numbers and Generalized Dessin Counting"
-    year: 2024
-    coauthors: [wang-zhiyuan]
-  - id: "2407.20010"
-    title: "Schröder Paths, Their Generalizations and Knot Invariants"
-    year: 2024
-    coauthors: [ji-ce, tang-qian]
-  - id: "2404.01973"
-    title: "Hook-Lengths, Symplectic/Orthogonal Contents and Amdeberhan's Conjectures"
-    year: 2024
-    coauthors: []
-  - id: "2401.12726"
-    title: "On a Proof of the ADKMV Conjecture -- 3-KP Integrability of the Topological Vertex"
-    year: 2024
-    coauthors: [wang-zhiyuan, zhou-jian]
-  - id: "2312.08218"
-    title: "On two families of Nekrasov-Okounkov type formulas"
-    year: 2023
-    coauthors: []
-  - id: "2312.02749"
-    title: "A remark on certain restricted plane partitions and crystal melting model"
-    year: 2023
-    coauthors: []
-  - id: "2301.01131"
-    title: "BKP-Affine Coordinates and Emergent Geometry of Generalized BGW Tau-Functions"
-    year: 2023
-    coauthors: [wang-zhiyuan, zhang-qingsheng]
-  - id: "2211.08687"
-    title: "Kac-Schwarz Operators of Type B, Quantum Spectral Curves, and Spin Hurwitz Numbers"
-    year: 2022
-    coauthors: [ji-ce, wang-zhiyuan]
-  - id: "2210.09576"
-    title: "Connected (n,m)-Point Functions of Diagonal 2-BKP Tau-Functions, and Spin Double Hurwitz Numbers"
-    year: 2022
-    coauthors: [wang-zhiyuan]
-  - id: "2210.08712"
-    title: "Diagonal Tau-Functions of 2D Toda Lattice Hierarchy, Connected (n,m)-Point Functions, and Double Hurwitz Numbers"
-    year: 2022
-    coauthors: [wang-zhiyuan]
-  - id: "2206.01066"
-    title: "Action of W-type operators on Schur functions and Schur Q-functions"
-    year: 2022
-    coauthors: [liu-xiaobo]
-  - id: "2201.08178"
-    title: "BKP Hierarchy, Affine Coordinates, and a Formula for Connected Bosonic N-Point Functions"
-    year: 2022
-    coauthors: [wang-zhiyuan]
-  - id: "2107.10472"
-    title: "Action of Virasoro operators on Hall-Littlewood polynomials"
-    year: 2021
-    coauthors: [liu-xiaobo]
-  - id: "2104.01357"
-    title: "Q-Polynomial expansion for Brezin-Gross-Witten tau-function"
-    year: 2021
-    coauthors: [liu-xiaobo]
-  - id: "2103.14318"
-    title: "Schur Q-Polynomials and Kontsevich-Witten Tau Function"
-    year: 2021
-    coauthors: [liu-xiaobo]
+- id: '2511.10082'
+  title: Total partition function with fermionic number fluxes of local toric CY threefold and KP integrability
+  year: 2025
+  coauthors:
+  - wang-zhiyuan
+  - zhou-jian
+- id: '2503.01920'
+  title: The structures of simple Hurwitz numbers and monotone Hurwitz numbers with varying genus
+  year: 2025
+  coauthors: []
+- id: '2502.09302'
+  title: The bilinear fermionic form for KP and BKP hierarchies
+  year: 2025
+  coauthors:
+  - guo-shuai
+  - ji-ce
+- id: '2409.14124'
+  title: 'Correlation Function of Self-Conjugate Partitions: q-Difference Equation and Q-Schur Expansion'
+  year: 2024
+  coauthors: []
+- id: '2408.03212'
+  title: On N-Coefficient Binomial Polynomiality of Hurwitz Numbers and Generalized Dessin Counting
+  year: 2024
+  coauthors:
+  - wang-zhiyuan
+- id: '2407.20010'
+  title: Schröder Paths, Their Generalizations and Knot Invariants
+  year: 2024
+  coauthors:
+  - ji-ce
+  - tang-qian
+- id: '2404.01973'
+  title: Hook-Lengths, Symplectic/Orthogonal Contents and Amdeberhan's Conjectures
+  year: 2024
+  coauthors: []
+- id: '2401.12726'
+  title: On a Proof of the ADKMV Conjecture -- 3-KP Integrability of the Topological Vertex
+  year: 2024
+  coauthors:
+  - wang-zhiyuan
+  - zhou-jian
+- id: '2312.08218'
+  title: On two families of Nekrasov-Okounkov type formulas
+  year: 2023
+  coauthors: []
+- id: '2312.02749'
+  title: A remark on certain restricted plane partitions and crystal melting model
+  year: 2023
+  coauthors: []
+- id: '2301.01131'
+  title: BKP-Affine Coordinates and Emergent Geometry of Generalized BGW Tau-Functions
+  year: 2023
+  coauthors:
+  - wang-zhiyuan
+  - zhang-qingsheng
+- id: '2211.08687'
+  title: Kac-Schwarz Operators of Type B, Quantum Spectral Curves, and Spin Hurwitz Numbers
+  year: 2022
+  coauthors:
+  - ji-ce
+  - wang-zhiyuan
+- id: '2210.09576'
+  title: Connected (n,m)-Point Functions of Diagonal 2-BKP Tau-Functions, and Spin Double Hurwitz Numbers
+  year: 2022
+  coauthors:
+  - wang-zhiyuan
+- id: '2210.08712'
+  title: Diagonal Tau-Functions of 2D Toda Lattice Hierarchy, Connected (n,m)-Point Functions, and Double Hurwitz Numbers
+  year: 2022
+  coauthors:
+  - wang-zhiyuan
+- id: '2206.01066'
+  title: Action of W-type operators on Schur functions and Schur Q-functions
+  year: 2022
+  coauthors:
+  - liu-xiaobo
+- id: '2201.08178'
+  title: BKP Hierarchy, Affine Coordinates, and a Formula for Connected Bosonic N-Point Functions
+  year: 2022
+  coauthors:
+  - wang-zhiyuan
+- id: '2107.10472'
+  title: Action of Virasoro operators on Hall-Littlewood polynomials
+  year: 2021
+  coauthors:
+  - liu-xiaobo
+- id: '2104.01357'
+  title: Q-Polynomial expansion for Brezin-Gross-Witten tau-function
+  year: 2021
+  coauthors:
+  - liu-xiaobo
+- id: '2103.14318'
+  title: Schur Q-Polynomials and Kontsevich-Witten Tau Function
+  year: 2021
+  coauthors:
+  - liu-xiaobo
 activity:
   total_papers: 19
-  active_period: "2021-present"
+  active_period: 2021-present
+  quality_source: openalex + ruirui-2026
+  t1_papers: 0
+  t2_papers: 1
+  t3_papers: 3
+  t4_papers: 0
+  other_papers: 27
+  venue_samples:
+  - name: Proceedings of the London Mathematical Society
+    tier: T2
+    count: 1
+  - name: Advances in Mathematics
+    tier: T3
+    count: 2
+  - name: Journal of the London Mathematical Society
+    tier: T3
+    count: 1
+  - name: arXiv (Cornell University)
+    tier: '-'
+    count: 16
+  - name: ArXiv.org
+    tier: '-'
+    count: 4
+  - name: Letters in Mathematical Physics
+    tier: '-'
+    count: 2
 external_ids:
-  openalex: "A5030830237"
+  openalex: A5030830237
 links:
-  google_scholar: "https://scholar.google.com/citations?user=WXr74McAAAAJ"
-personal_notes: |
-  北理工本科 → PKU 博士(刘小博) → AMSS 博后 → 2025 起武汉大学助理教授。
+  google_scholar: https://scholar.google.com/citations?user=WXr74McAAAAJ
+personal_notes: '北理工本科 → PKU 博士(刘小博) → AMSS 博后 → 2025 起武汉大学助理教授。
+
   2025 年获钟家庆数学奖（证明辛 Schur 函数乘积公式猜想，建立开 GW 不变量的 KP 可积性）。
+
   与唐乾合作。
+
+  '
 sources:
-  - label: "北理工报道：钟家庆数学奖"
-    url: "https://math.bit.edu.cn/zhxw/dcfb2dc3de9141d5a8fd1b058c53366b.htm"
-  - label: "OpenAlex"
-    url: "https://openalex.org/authors/A5030830237"
+- label: 北理工报道：钟家庆数学奖
+  url: https://math.bit.edu.cn/zhxw/dcfb2dc3de9141d5a8fd1b058c53366b.htm
+- label: OpenAlex
+  url: https://openalex.org/authors/A5030830237
 tags:
-  - important-person
-  - wuhan
+- important-person
+- wuhan

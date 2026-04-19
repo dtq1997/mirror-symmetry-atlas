@@ -8,199 +8,247 @@ nationality: Chinese
 gender: male
 photo_url: null
 career_timeline:
-  - period: "[待验证]"
-    type: education
-    institution: sichuan-u
-    role: "博士, 数学"
-    advisor: "Bohui Chen (陈柏辉) [几乎确定]"
-    notes: "博士机构和年份 [待验证]，但所有早期论文 (2014-2020) 几乎均与陈柏辉合作，陈柏辉几乎确定为博导"
-  - period: "present"
-    type: position
-    institution: sicnu
-    role: "副教授 (Associate Professor), 硕士生导师"
-    notes: "四川师范大学数学科学学院 + 可视化计算与虚拟现实四川省重点实验室 (V. C. & V. R. Key Lab)。地址成都锦江区静安路 5 号 610068"
+- period: '[待验证]'
+  type: education
+  institution: sichuan-u
+  role: 博士, 数学
+  advisor: Bohui Chen (陈柏辉) [几乎确定]
+  notes: 博士机构和年份 [待验证]，但所有早期论文 (2014-2020) 几乎均与陈柏辉合作，陈柏辉几乎确定为博导
+- period: present
+  type: position
+  institution: sicnu
+  role: 副教授 (Associate Professor), 硕士生导师
+  notes: 四川师范大学数学科学学院 + 可视化计算与虚拟现实四川省重点实验室 (V. C. & V. R. Key Lab)。地址成都锦江区静安路 5 号 610068
 research_areas:
-  - orbifold-gromov-witten
-  - chen-ruan-cohomology
-  - stringy-orbifold-k-theory
-  - mirror-symmetry
-  - symplectic-geometry
-  - algebraic-geometry
-  - lie-groupoid
-  - groupoid-morphism
-  - weighted-blowup
-  - equivariant-cohomology
-  - differential-character
+- orbifold-gromov-witten
+- chen-ruan-cohomology
+- stringy-orbifold-k-theory
+- mirror-symmetry
+- symplectic-geometry
+- algebraic-geometry
+- lie-groupoid
+- groupoid-morphism
+- weighted-blowup
+- equivariant-cohomology
+- differential-character
 advisor: null
 students: []
 key_collaborators:
-  - person: "Bohui Chen (陈柏辉)"
-    since: 2014
-    topic: "Weighted blowup, orbifold GW theory, Ruan cohomology, relative GW, groupoid morphism, Banach orbifold, double ramification cycles"
-    papers_count: 12
-    notes: "四川大学。博导 [几乎确定]。最核心合作者"
-  - person: "Rui Wang"
-    since: 2017
-    topic: "Orbifold Gromov-Witten theory of weighted blowups, groupoid structure of groupoid morphisms, double ramification cycles"
-    papers_count: 4
-  - person: "Tiyao Li"
-    since: 2018
-    topic: "Equivariant stringy cohomology, Chen-Ruan cohomology, stringy orbifold K-theory"
-    papers_count: 3
-  - person: "Lili Shen"
-    since: 2017
-    topic: "Spark complexes on orbifold atlases, fuzzy vectors"
-    papers_count: 3
-  - person: "Jianxun Hu (胡建勋)"
-    since: 2017
-    topic: "Weighted blowup correspondence of orbifold Gromov-Witten invariants"
-    papers_count: 1
-    notes: "中山大学。与 Weiqiang He (中大) 曾是同门师兄弟"
-  - person: "A-Li Liao"
-    since: 2020
-    topic: "Morse-Smale-Witten cohomologies for orbifolds, Banach orbifold structure on groupoid morphisms"
-    papers_count: 2
-  - person: "Yu Wang"
-    since: 2018
-    topic: "Fibrations of Lie groupoids, extensions in groupoids"
-    papers_count: 2
-  - person: li-xiaobin
-    since: 2016
-    topic: "Ruan cohomologies of compactifications of resolved orbifold conifolds"
-    papers_count: 1
+- person: Bohui Chen (陈柏辉)
+  since: 2014
+  topic: Weighted blowup, orbifold GW theory, Ruan cohomology, relative GW, groupoid morphism, Banach orbifold, double ramification
+    cycles
+  papers_count: 12
+  notes: 四川大学。博导 [几乎确定]。最核心合作者
+- person: Rui Wang
+  since: 2017
+  topic: Orbifold Gromov-Witten theory of weighted blowups, groupoid structure of groupoid morphisms, double ramification
+    cycles
+  papers_count: 4
+- person: Tiyao Li
+  since: 2018
+  topic: Equivariant stringy cohomology, Chen-Ruan cohomology, stringy orbifold K-theory
+  papers_count: 3
+- person: Lili Shen
+  since: 2017
+  topic: Spark complexes on orbifold atlases, fuzzy vectors
+  papers_count: 3
+- person: Jianxun Hu (胡建勋)
+  since: 2017
+  topic: Weighted blowup correspondence of orbifold Gromov-Witten invariants
+  papers_count: 1
+  notes: 中山大学。与 Weiqiang He (中大) 曾是同门师兄弟
+- person: A-Li Liao
+  since: 2020
+  topic: Morse-Smale-Witten cohomologies for orbifolds, Banach orbifold structure on groupoid morphisms
+  papers_count: 2
+- person: Yu Wang
+  since: 2018
+  topic: Fibrations of Lie groupoids, extensions in groupoids
+  papers_count: 2
+- person: li-xiaobin
+  since: 2016
+  topic: Ruan cohomologies of compactifications of resolved orbifold conifolds
+  papers_count: 1
 publications:
-  - id: "[待补充]"
-    title: "Degree of generalized morphisms of orbifold groupoids"
-    year: 2026
-    coauthors: ["Yi Zhou"]
-  - id: "[待补充]"
-    title: "Prequantization of differential characters of Lie groupoids"
-    year: 2025
-    coauthors: []
-  - id: "[待补充]"
-    title: "On the Tautological Property of Relative Gromov-Witten Classes and Applications"
-    year: 2025
-    coauthors: ["Bohui Chen"]
-  - id: "[待补充]"
-    title: "On weighted-blowup formulae of genus zero orbifold Gromov-Witten invariants"
-    year: 2023
-    coauthors: ["Bohui Chen"]
-  - id: "[待补充]"
-    title: "Banach orbifold structure on groupoids of morphisms of orbifolds"
-    year: 2023
-    coauthors: ["Bohui Chen", "A-Li Liao"]
-  - id: "[待补充]"
-    title: "On triangulations of orbifolds and formality"
-    year: 2022
-    coauthors: ["Kaimin He", "Han Xue"]
-  - id: "[待补充]"
-    title: "Weighted blowup formulae of Gromov-Witten invariants along curves and surfaces"
-    year: 2022
-    coauthors: []
-  - id: "2009.06144"
-    title: "Orbifold Gromov-Witten theory of weighted blowups"
-    year: 2020
-    coauthors: ["Bohui Chen", "Rui Wang"]
-    journal: "Sci. China Math. (2021)"
-  - id: "2008.06484"
-    title: "Double ramification cycles with orbifold targets"
-    year: 2020
-    coauthors: ["Bohui Chen", "Rui Wang"]
-  - id: "[待补充]"
-    title: "On Morse-Smale-Witten type cohomologies for orbifolds"
-    year: 2020
-    coauthors: ["A-Li Liao"]
-  - id: "[待补充]"
-    title: "Chen-Ruan Cohomology and Stringy Orbifold K-Theory for Stable Almost Complex Orbifolds"
-    year: 2020
-    coauthors: ["Tiyao Li"]
-    journal: "Chinese Annals of Mathematics, Series B"
-  - id: "1903.01607"
-    title: "Fuzzy vectors via convex bodies"
-    year: 2019
-    coauthors: ["Lili Shen"]
-  - id: "[待补充]"
-    title: "A new equivariant cohomology ring"
-    year: 2019
-    coauthors: ["Bohui Chen", "Tiyao Li"]
-  - id: "1812.05432"
-    title: "On fibrations of Lie groupoids"
-    year: 2018
-    coauthors: ["Bohui Chen", "Yu Wang"]
-  - id: "1811.11506"
-    title: "Equivariant commutative stringy cohomology rings on almost complex manifolds"
-    year: 2018
-    coauthors: ["Bohui Chen", "Tiyao Li"]
-  - id: "1712.05094"
-    title: "The groupoid structure of groupoid morphisms"
-    year: 2017
-    coauthors: ["Bohui Chen", "Rui Wang"]
-  - id: "1712.04121"
-    title: "On relative Gromov-Witten invariants of projective completions of vector bundles"
-    year: 2017
-    coauthors: []
-  - id: "1712.01478"
-    title: "Weighted blowup correspondence of orbifold Gromov-Witten invariants and applications"
-    year: 2017
-    coauthors: ["Bohui Chen", "Jianxun Hu"]
-    journal: "Math. Ann. 374 (2019), 1459-1523"
-  - id: "1708.07551"
-    title: "Spark complexes on good effective orbifold atlases categorically"
-    year: 2017
-    coauthors: ["Lili Shen", "Xiaojuan Zhao"]
-  - id: "[待补充]"
-    title: "Lefschetz property of Chen-Ruan cohomology rings and $d\\delta$-Lemma"
-    year: 2016
-    coauthors: []
-  - id: "[待补充]"
-    title: "Ruan cohomologies of the compactifications of resolved orbifold conifolds"
-    year: 2016
-    coauthors: ["Song Du", "Bohui Chen", "Xiaobin Li"]
-    journal: "Rocky Mountain J. Math. 46:3 (2016)"
-  - id: "[待补充]"
-    title: "A quantum modification of relative cohomology"
-    year: 2014
-    coauthors: ["Dong Zhang", "Bohui Chen"]
+- id: '[待补充]'
+  title: Degree of generalized morphisms of orbifold groupoids
+  year: 2026
+  coauthors:
+  - Yi Zhou
+- id: '[待补充]'
+  title: Prequantization of differential characters of Lie groupoids
+  year: 2025
+  coauthors: []
+- id: '[待补充]'
+  title: On the Tautological Property of Relative Gromov-Witten Classes and Applications
+  year: 2025
+  coauthors:
+  - Bohui Chen
+- id: '[待补充]'
+  title: On weighted-blowup formulae of genus zero orbifold Gromov-Witten invariants
+  year: 2023
+  coauthors:
+  - Bohui Chen
+- id: '[待补充]'
+  title: Banach orbifold structure on groupoids of morphisms of orbifolds
+  year: 2023
+  coauthors:
+  - Bohui Chen
+  - A-Li Liao
+- id: '[待补充]'
+  title: On triangulations of orbifolds and formality
+  year: 2022
+  coauthors:
+  - Kaimin He
+  - Han Xue
+- id: '[待补充]'
+  title: Weighted blowup formulae of Gromov-Witten invariants along curves and surfaces
+  year: 2022
+  coauthors: []
+- id: '2009.06144'
+  title: Orbifold Gromov-Witten theory of weighted blowups
+  year: 2020
+  coauthors:
+  - Bohui Chen
+  - Rui Wang
+  journal: Sci. China Math. (2021)
+- id: '2008.06484'
+  title: Double ramification cycles with orbifold targets
+  year: 2020
+  coauthors:
+  - Bohui Chen
+  - Rui Wang
+- id: '[待补充]'
+  title: On Morse-Smale-Witten type cohomologies for orbifolds
+  year: 2020
+  coauthors:
+  - A-Li Liao
+- id: '[待补充]'
+  title: Chen-Ruan Cohomology and Stringy Orbifold K-Theory for Stable Almost Complex Orbifolds
+  year: 2020
+  coauthors:
+  - Tiyao Li
+  journal: Chinese Annals of Mathematics, Series B
+- id: '1903.01607'
+  title: Fuzzy vectors via convex bodies
+  year: 2019
+  coauthors:
+  - Lili Shen
+- id: '[待补充]'
+  title: A new equivariant cohomology ring
+  year: 2019
+  coauthors:
+  - Bohui Chen
+  - Tiyao Li
+- id: '1812.05432'
+  title: On fibrations of Lie groupoids
+  year: 2018
+  coauthors:
+  - Bohui Chen
+  - Yu Wang
+- id: '1811.11506'
+  title: Equivariant commutative stringy cohomology rings on almost complex manifolds
+  year: 2018
+  coauthors:
+  - Bohui Chen
+  - Tiyao Li
+- id: '1712.05094'
+  title: The groupoid structure of groupoid morphisms
+  year: 2017
+  coauthors:
+  - Bohui Chen
+  - Rui Wang
+- id: '1712.04121'
+  title: On relative Gromov-Witten invariants of projective completions of vector bundles
+  year: 2017
+  coauthors: []
+- id: '1712.01478'
+  title: Weighted blowup correspondence of orbifold Gromov-Witten invariants and applications
+  year: 2017
+  coauthors:
+  - Bohui Chen
+  - Jianxun Hu
+  journal: Math. Ann. 374 (2019), 1459-1523
+- id: '1708.07551'
+  title: Spark complexes on good effective orbifold atlases categorically
+  year: 2017
+  coauthors:
+  - Lili Shen
+  - Xiaojuan Zhao
+- id: '[待补充]'
+  title: Lefschetz property of Chen-Ruan cohomology rings and $d\delta$-Lemma
+  year: 2016
+  coauthors: []
+- id: '[待补充]'
+  title: Ruan cohomologies of the compactifications of resolved orbifold conifolds
+  year: 2016
+  coauthors:
+  - Song Du
+  - Bohui Chen
+  - Xiaobin Li
+  journal: Rocky Mountain J. Math. 46:3 (2016)
+- id: '[待补充]'
+  title: A quantum modification of relative cohomology
+  year: 2014
+  coauthors:
+  - Dong Zhang
+  - Bohui Chen
 activity:
   total_papers: 30
-  active_period: "2014-present"
+  active_period: 2014-present
+  quality_source: openalex + ruirui-2026
+  t1_papers: 0
+  t2_papers: 2
+  t3_papers: 1
+  t4_papers: 2
+  other_papers: 25
+  venue_samples:
+  - name: Science China Mathematics
+    tier: T2
+    count: 1
+  - name: Compositio Mathematica
+    tier: T2
+    count: 1
+  - name: Mathematische Annalen
+    tier: T3
+    count: 1
+  - name: Results in Mathematics
+    tier: T4
+    count: 1
+  - name: Theory and applications of categories
+    tier: T4
+    count: 1
+  - name: arXiv (Cornell University)
+    tier: '-'
+    count: 10
+  - name: Journal of Geometry and Physics
+    tier: '-'
+    count: 5
+  - name: Scientia Sinica Mathematica
+    tier: '-'
+    count: 2
 external_ids:
-  openalex: "A5013132093"
+  openalex: A5013132093
 links:
-  xmol: "https://www.x-mol.com/university/faculty/142917"
-  institution_url: "https://msi.sicnu.edu.cn/"
-personal_notes: |
-  四川师范大学数学科学学院副教授，硕士生导师。同时任职于可视化计算
-  与虚拟现实四川省重点实验室。地址成都锦江区静安路 5 号。
-
-  核心方向：orbifold Gromov-Witten theory, Chen-Ruan 上同调,
-  stringy orbifold K-theory, Ruan cohomology, 轨形几何, 权重吹胀
-  (weighted blowup), Banach orbifold, 相对 GW 不变量, 双 ramification
-  cycles。近年扩展到 Lie groupoid morphism、differential character。
-
-  学术谱系：几乎确定为四川大学陈柏辉 (Bohui Chen) 的学生或长期
-  合作者——从 2014 至今持续合作 12+ 篇，且早期是川大团队的重要
-  成员。陈柏辉是 Yongbin Ruan (阮勇斌) 和 Weimin Chen (陈伟民)
-  orbifold GW 学派的川大代表。
-
-  与本项目其他人物连接：
-  - 李晓斌 (li-xiaobin, SWJTU): 2016 年合作 Ruan cohomology paper，
-    两人均为川大体系外围成员；
-  - 何伟强 (he-weiqiang, 中山大学): 共同合作者 Jianxun Hu (胡建勋,
-    中山大学) 既是 Weiqiang He 的早期合作者，也是杜承勇 Math. Ann.
-    2019 的合作者——川大、中大 GW 圈有交叉。
-
-  2026 HUST 数学物理与几何研讨会参会。
+  xmol: https://www.x-mol.com/university/faculty/142917
+  institution_url: https://msi.sicnu.edu.cn/
+personal_notes: "四川师范大学数学科学学院副教授，硕士生导师。同时任职于可视化计算\n与虚拟现实四川省重点实验室。地址成都锦江区静安路 5 号。\n\n核心方向：orbifold Gromov-Witten theory, Chen-Ruan\
+  \ 上同调,\nstringy orbifold K-theory, Ruan cohomology, 轨形几何, 权重吹胀\n(weighted blowup), Banach orbifold, 相对 GW 不变量, 双 ramification\n\
+  cycles。近年扩展到 Lie groupoid morphism、differential character。\n\n学术谱系：几乎确定为四川大学陈柏辉 (Bohui Chen) 的学生或长期\n合作者——从 2014 至今持续合作\
+  \ 12+ 篇，且早期是川大团队的重要\n成员。陈柏辉是 Yongbin Ruan (阮勇斌) 和 Weimin Chen (陈伟民)\norbifold GW 学派的川大代表。\n\n与本项目其他人物连接：\n- 李晓斌 (li-xiaobin,\
+  \ SWJTU): 2016 年合作 Ruan cohomology paper，\n  两人均为川大体系外围成员；\n- 何伟强 (he-weiqiang, 中山大学): 共同合作者 Jianxun Hu (胡建勋,\n  中山大学) 既是\
+  \ Weiqiang He 的早期合作者，也是杜承勇 Math. Ann.\n  2019 的合作者——川大、中大 GW 圈有交叉。\n\n2026 HUST 数学物理与几何研讨会参会。\n"
 sources:
-  - label: "x-mol faculty page"
-    url: "https://www.x-mol.com/university/faculty/142917"
-  - label: "SICNU School of Math Sciences"
-    url: "https://msi.sicnu.edu.cn/"
-  - label: "OpenAlex profile"
-    url: "https://openalex.org/authors/A5013132093"
-  - label: "Chen-Ruan Cohomology paper (CAMB)"
-    url: "https://link.springer.com/article/10.1007/s11401-020-0231-8"
-  - label: "Math. Ann. 2019 paper"
-    url: "https://link.springer.com/content/pdf/10.1007/s00208-019-01850-3.pdf"
+- label: x-mol faculty page
+  url: https://www.x-mol.com/university/faculty/142917
+- label: SICNU School of Math Sciences
+  url: https://msi.sicnu.edu.cn/
+- label: OpenAlex profile
+  url: https://openalex.org/authors/A5013132093
+- label: Chen-Ruan Cohomology paper (CAMB)
+  url: https://link.springer.com/article/10.1007/s11401-020-0231-8
+- label: Math. Ann. 2019 paper
+  url: https://link.springer.com/content/pdf/10.1007/s00208-019-01850-3.pdf
 tags:
-  - sicnu
+- sicnu

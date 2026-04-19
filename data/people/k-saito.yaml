@@ -8,36 +8,90 @@ nationality: Japanese
 gender: male
 photo_url: null
 career_timeline:
-  - period: "~1967-1971"
-    type: education
-    institution: gottingen
-    role: "博士"
-    advisor: brieskorn
-    notes: "1971年获博士学位"
-  - period: "~1980-2010"
-    type: position
-    institution: rims-kyoto
-    role: "教授"
-    notes: "RIMS, Kyoto University"
+- period: ~1967-1971
+  type: education
+  institution: gottingen
+  role: 博士
+  advisor: brieskorn
+  notes: 1971年获博士学位
+- period: ~1980-2010
+  type: position
+  institution: rims-kyoto
+  role: 教授
+  notes: RIMS, Kyoto University
 research_areas:
-  - singularity-theory
-  - frobenius-manifolds
-  - primitive-forms
-  - flat-structures
+- singularity-theory
+- frobenius-manifolds
+- primitive-forms
+- flat-structures
 advisor: brieskorn
 students: []
 key_collaborators: []
 activity:
   total_papers: 137
   h_index: 25
-  active_period: "1971-present"
+  active_period: 1971-present
   phd_students: 7
+  quality_source: openalex + ruirui-2026
+  t1_papers: 3
+  t2_papers: 1
+  t3_papers: 3
+  t4_papers: 0
+  other_papers: 124
+  venue_samples:
+  - name: Inventiones mathematicae
+    tier: T1
+    count: 3
+  - name: Journal of the European Mathematical Society
+    tier: T2
+    count: 1
+  - name: Advances in Mathematics
+    tier: T3
+    count: 3
+  - name: arXiv (Cornell University)
+    tier: '-'
+    count: 23
+  - name: Institutional Repositories DataBase (IRDB)
+    tier: '-'
+    count: 14
+  - name: Publications of the Research Institute for Mathematical Sciences
+    tier: '-'
+    count: 12
+  - name: Kyoto University Research Information Repository (Kyoto University)
+    tier: '-'
+    count: 8
+  - name: Journal of Algebra
+    tier: '-'
+    count: 6
+  - name: Proceedings of the Japan Academy Series A Mathematical Sciences
+    tier: '-'
+    count: 5
+  - name: Geographical Review of Japan
+    tier: '-'
+    count: 4
+  - name: Geomorphology
+    tier: '-'
+    count: 3
+  - name: Advanced studies in pure mathematics
+    tier: '-'
+    count: 3
+  - name: ArXiv.org
+    tier: '-'
+    count: 3
+  - name: Medical Entomology and Zoology
+    tier: '-'
+    count: 3
+  - name: 地形
+    tier: '-'
+    count: 3
 external_ids:
-  openalex: "A5108641196"
+  openalex: A5108641196
 links: {}
-personal_notes: |
-  Primitive forms 和 flat structures 的开创者。Brieskorn 的学生，与 Hertling 同门。
+personal_notes: 'Primitive forms 和 flat structures 的开创者。Brieskorn 的学生，与 Hertling 同门。
+
   从奇异点理论角度独立发展出类似 Frobenius 流形的结构。
+
+  '
 tags:
-  - japanese-school
-  - brieskorn-student
+- japanese-school
+- brieskorn-student

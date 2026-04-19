@@ -8,31 +8,31 @@ nationality: Russian
 gender: male
 photo_url: null
 career_timeline:
-  - period: "1953-1961"
-    type: education
-    institution: moscow-state
-    role: "本科 → 博士"
-    advisor: shafarevich
-    notes: "1961年获博士学位，师从 Shafarevich"
-  - period: "1961-1993"
-    type: position
-    institution: moscow-state
-    role: "教授"
-  - period: "1993-2005"
-    type: position
-    institution: mpim-bonn
-    role: "Director"
-    notes: "Max Planck Institute for Mathematics, Bonn"
-  - period: "2002-2011"
-    type: position
-    institution: northwestern
-    role: "Professor"
+- period: 1953-1961
+  type: education
+  institution: moscow-state
+  role: 本科 → 博士
+  advisor: shafarevich
+  notes: 1961年获博士学位，师从 Shafarevich
+- period: 1961-1993
+  type: position
+  institution: moscow-state
+  role: 教授
+- period: 1993-2005
+  type: position
+  institution: mpim-bonn
+  role: Director
+  notes: Max Planck Institute for Mathematics, Bonn
+- period: 2002-2011
+  type: position
+  institution: northwestern
+  role: Professor
 research_areas:
-  - algebraic-geometry
-  - number-theory
-  - quantum-cohomology
-  - frobenius-manifolds
-  - mathematical-physics
+- algebraic-geometry
+- number-theory
+- quantum-cohomology
+- frobenius-manifolds
+- mathematical-physics
 advisor: shafarevich
 students: []
 key_collaborators: []
@@ -41,18 +41,72 @@ activity:
   h_index: 46
   phd_students: 54
   academic_descendants: 360
-  active_period: "1960-2023"
+  active_period: 1960-2023
+  quality_source: openalex + ruirui-2026
+  t1_papers: 4
+  t2_papers: 17
+  t3_papers: 10
+  t4_papers: 0
+  other_papers: 153
+  venue_samples:
+  - name: Inventiones mathematicae
+    tier: T1
+    count: 3
+  - name: Duke Mathematical Journal
+    tier: T1
+    count: 1
+  - name: Russian Mathematical Surveys
+    tier: T2
+    count: 15
+  - name: American Journal of Mathematics
+    tier: T2
+    count: 1
+  - name: Compositio Mathematica
+    tier: T2
+    count: 1
+  - name: Communications in Mathematical Physics
+    tier: T3
+    count: 6
+  - name: Physics Letters B
+    tier: T3
+    count: 2
+  - name: Mathematische Annalen
+    tier: T3
+    count: 1
+  - name: Journal für die reine und angewandte Mathematik (Crelles Journal)
+    tier: T3
+    count: 1
+  - name: Graduate texts in mathematics
+    tier: '-'
+    count: 18
+  - name: World scientific series in 20th century mathematics
+    tier: '-'
+    count: 14
+  - name: arXiv (Cornell University)
+    tier: '-'
+    count: 14
+  - name: Functional Analysis and Its Applications
+    tier: '-'
+    count: 13
+  - name: Journal of Mathematical Sciences
+    tier: '-'
+    count: 10
+  - name: ArXiv.org
+    tier: '-'
+    count: 9
 external_ids:
-  openalex: "A5112460582"
-  mathgenealogy: "44134"
+  openalex: A5112460582
+  mathgenealogy: '44134'
 links: {}
-personal_notes: |
-  54 名博士生，360 名学术后代。学生包括 Kontsevich (Fields 1998) 和 Drinfeld (Fields 1990)。
+personal_notes: '54 名博士生，360 名学术后代。学生包括 Kontsevich (Fields 1998) 和 Drinfeld (Fields 1990)。
+
   2023年去世。对 Frobenius 流形的推广到量子上同调框架做出重要贡献。
+
+  '
 sources:
-  - label: "Math Genealogy"
-    url: "https://www.mathgenealogy.org/id.php?id=44134"
-  - label: "OpenAlex"
-    url: "https://openalex.org/authors/A5112460582"
+- label: Math Genealogy
+  url: https://www.mathgenealogy.org/id.php?id=44134
+- label: OpenAlex
+  url: https://openalex.org/authors/A5112460582
 tags:
-  - moscow-school
+- moscow-school

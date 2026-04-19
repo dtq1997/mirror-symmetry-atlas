@@ -8,76 +8,128 @@ nationality: Chinese
 gender: male
 photo_url: null
 career_timeline:
-  - period: "1982-1987"
-    type: education
-    institution: ustc
-    role: "本科, 数学系"
-    notes: "1986年获郭沫若奖学金"
-  - period: "1987-1993"
-    type: education
-    institution: ustc
-    role: "博士"
-    notes: "1993年获博士学位"
-  - period: "1990-1994"
-    type: position
-    institution: ustc
-    role: "数学系教师"
-  - period: "1990-1991"
-    type: visit
-    institution: steklov
-    role: "访问学者"
-    notes: "Steklov Institute, St. Petersburg"
-  - period: "1994-1996"
-    type: visit
-    institution: ictp
-    role: "博士后"
-    notes: "ICTP, Trieste"
-  - period: "1996-1998"
-    type: visit
-    institution: sissa
-    role: "博士后"
-    notes: "SISSA, Trieste. 在此期间与 Dubrovin 开始合作"
-  - period: "1998-2000"
-    type: visit
-    institution: rims-kyoto
-    role: "JSPS Foreign Special Researcher"
-    notes: "Kyoto University"
-  - period: "2000-present"
-    type: position
-    institution: tsinghua
-    role: "教授"
-    notes: "2000年获国家杰出青年基金"
+- period: 1982-1987
+  type: education
+  institution: ustc
+  role: 本科, 数学系
+  notes: 1986年获郭沫若奖学金
+- period: 1987-1993
+  type: education
+  institution: ustc
+  role: 博士
+  notes: 1993年获博士学位
+- period: 1990-1994
+  type: position
+  institution: ustc
+  role: 数学系教师
+- period: 1990-1991
+  type: visit
+  institution: steklov
+  role: 访问学者
+  notes: Steklov Institute, St. Petersburg
+- period: 1994-1996
+  type: visit
+  institution: ictp
+  role: 博士后
+  notes: ICTP, Trieste
+- period: 1996-1998
+  type: visit
+  institution: sissa
+  role: 博士后
+  notes: SISSA, Trieste. 在此期间与 Dubrovin 开始合作
+- period: 1998-2000
+  type: visit
+  institution: rims-kyoto
+  role: JSPS Foreign Special Researcher
+  notes: Kyoto University
+- period: 2000-present
+  type: position
+  institution: tsinghua
+  role: 教授
+  notes: 2000年获国家杰出青年基金
 research_areas:
-  - frobenius-manifolds
-  - integrable-systems
-  - wdvv-equations
-  - virasoro-constraints
+- frobenius-manifolds
+- integrable-systems
+- wdvv-equations
+- virasoro-constraints
 advisor: null
 students:
-  - yang-di
-  - wu-chaozhong
+- yang-di
+- wu-chaozhong
 key_collaborators:
-  - person: liu-siqi
-    since: 2000
-    topic: "WDVV equations, integrable hierarchies, Frobenius manifolds"
-    papers_count: 56
-  - person: dubrovin
-    since: 2001
-    met_context: "可能通过 SISSA/ICTP 访问"
-    topic: "Frobenius manifolds & integrable hierarchies"
-    papers_count: 15
+- person: liu-siqi
+  since: 2000
+  topic: WDVV equations, integrable hierarchies, Frobenius manifolds
+  papers_count: 56
+- person: dubrovin
+  since: 2001
+  met_context: 可能通过 SISSA/ICTP 访问
+  topic: Frobenius manifolds & integrable hierarchies
+  papers_count: 15
 activity:
   total_papers: 162
   h_index: 30
-  active_period: "1990-present"
-  peak_period: "2000-2020"
+  active_period: 1990-present
+  peak_period: 2000-2020
+  quality_source: openalex + ruirui-2026
+  t1_papers: 1
+  t2_papers: 3
+  t3_papers: 16
+  t4_papers: 1
+  other_papers: 137
+  venue_samples:
+  - name: Inventiones mathematicae
+    tier: T1
+    count: 1
+  - name: Communications on Pure and Applied Mathematics
+    tier: T2
+    count: 1
+  - name: Compositio Mathematica
+    tier: T2
+    count: 1
+  - name: Journal of Differential Geometry
+    tier: T2
+    count: 1
+  - name: Communications in Mathematical Physics
+    tier: T3
+    count: 9
+  - name: Advances in Mathematics
+    tier: T3
+    count: 5
+  - name: Journal für die reine und angewandte Mathematik (Crelles Journal)
+    tier: T3
+    count: 1
+  - name: Journal of the London Mathematical Society
+    tier: T3
+    count: 1
+  - name: Inverse Problems
+    tier: T4
+    count: 1
+  - name: arXiv (Cornell University)
+    tier: '-'
+    count: 23
+  - name: ArXiv.org
+    tier: '-'
+    count: 9
+  - name: Journal of Geometry and Physics
+    tier: '-'
+    count: 8
+  - name: Materials Research Bulletin
+    tier: '-'
+    count: 8
+  - name: Journal of Physics A Mathematical and General
+    tier: '-'
+    count: 6
+  - name: Letters in Mathematical Physics
+    tier: '-'
+    count: 5
 external_ids:
-  openalex: "A5076963789"
+  openalex: A5076963789
 links:
-  homepage: "http://faculty.math.tsinghua.edu.cn/~yzhang/"
+  homepage: http://faculty.math.tsinghua.edu.cn/~yzhang/
 personal_notes: null
 sources:
-  - label: "OpenAlex"
-    url: "https://openalex.org/authors/A5076963789"
+- label: OpenAlex
+  url: https://openalex.org/authors/A5076963789
 tags:
-  - tsinghua
+- tsinghua

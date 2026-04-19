@@ -2,84 +2,105 @@ slug: chao-qian
 name:
   en: Qian Chao
   zh: 钞乾
-  aka: ["Chao, Qian"]
+  aka:
+  - Chao, Qian
 born: null
 died: null
 nationality: Chinese
 gender: male
 photo_url: null
 career_timeline:
-  - period: "[?]"
-    type: education
-    institution: null
-    role: "博士"
-    advisor: tseng-hsian-hua
-    notes: "Ohio State University 数学系博士，导师 Hsian-Hua Tseng (曾显华) [待验证年份]。学位论文方向为 toric stack bundles 的 derived category / crepant transformation"
-  - period: "[?]"
-    type: position
-    institution: null
-    role: "博士后"
-    notes: "Ohio State University 数学系 (以其 2024 论文 affiliation 为 OSU 推断)"
-  - period: "2024-present"
-    type: position
-    institution: wuhan
-    role: "[待验证]"
-    notes: "武汉大学数学与统计学院 (current address)。论文 2410.22670 (Adv. Geom. 2025) 标注当前地址为武大，email chao818@whu.edu.cn"
+- period: '[?]'
+  type: education
+  institution: null
+  role: 博士
+  advisor: tseng-hsian-hua
+  notes: Ohio State University 数学系博士，导师 Hsian-Hua Tseng (曾显华) [待验证年份]。学位论文方向为 toric stack bundles 的 derived category / crepant
+    transformation
+- period: '[?]'
+  type: position
+  institution: null
+  role: 博士后
+  notes: Ohio State University 数学系 (以其 2024 论文 affiliation 为 OSU 推断)
+- period: 2024-present
+  type: position
+  institution: wuhan
+  role: '[待验证]'
+  notes: 武汉大学数学与统计学院 (current address)。论文 2410.22670 (Adv. Geom. 2025) 标注当前地址为武大，email chao818@whu.edu.cn
 research_areas:
-  - gromov-witten-theory
-  - toric-geometry
-  - toric-stack-bundles
-  - crepant-transformation
-  - derived-category
-  - orbifold-cohomology
-  - mirror-symmetry
-  - fourier-mukai-transform
-  - symplectic-geometry
+- gromov-witten-theory
+- toric-geometry
+- toric-stack-bundles
+- crepant-transformation
+- derived-category
+- orbifold-cohomology
+- mirror-symmetry
+- fourier-mukai-transform
+- symplectic-geometry
 advisor: tseng-hsian-hua
 students: []
 key_collaborators:
-  - person: "Hsian-Hua Tseng"
-    since: 2024
-    topic: "Toric stack bundles, crepant transformation, derived category"
-    papers_count: 2
-  - person: "Jiun-Cheng Chen"
-    since: 2024
-    topic: "Toric stack bundles, crepant transformation, derived category"
-    papers_count: 2
+- person: Hsian-Hua Tseng
+  since: 2024
+  topic: Toric stack bundles, crepant transformation, derived category
+  papers_count: 2
+- person: Jiun-Cheng Chen
+  since: 2024
+  topic: Toric stack bundles, crepant transformation, derived category
+  papers_count: 2
 publications:
-  - id: "2410.22670"
-    title: "Crepant Transformation Correspondence For Toric Stack Bundles"
-    year: 2024
-    coauthors: ["Jiun-Cheng Chen", "Hsian-Hua Tseng"]
-    journal: "Adv. Geom. (2025)"
-  - id: "2407.21288"
-    title: "On the derived category of a toric stack bundle"
-    year: 2024
-    coauthors: ["Jiun-Cheng Chen", "Hsian-Hua Tseng"]
-    journal: "J. Pure Appl. Algebra (2025)"
+- id: '2410.22670'
+  title: Crepant Transformation Correspondence For Toric Stack Bundles
+  year: 2024
+  coauthors:
+  - Jiun-Cheng Chen
+  - Hsian-Hua Tseng
+  journal: Adv. Geom. (2025)
+- id: '2407.21288'
+  title: On the derived category of a toric stack bundle
+  year: 2024
+  coauthors:
+  - Jiun-Cheng Chen
+  - Hsian-Hua Tseng
+  journal: J. Pure Appl. Algebra (2025)
 activity:
   total_papers: 2
-  active_period: "2024-present"
+  active_period: 2024-present
+  quality_source: openalex + ruirui-2026
+  t1_papers: 0
+  t2_papers: 0
+  t3_papers: 0
+  t4_papers: 0
+  other_papers: 3
 external_ids:
-  openalex: "A5106276233"
+  openalex: A5106276233
 links:
-  email: "chao818@whu.edu.cn"
-  email_osu: "chao.191@buckeyemail.osu.edu"
-personal_notes: |
-  武汉大学数学与统计学院(2024 起)。博士毕业于 Ohio State University，导师 Hsian-Hua Tseng
+  email: chao818@whu.edu.cn
+  email_osu: chao.191@buckeyemail.osu.edu
+personal_notes: '武汉大学数学与统计学院(2024 起)。博士毕业于 Ohio State University，导师 Hsian-Hua Tseng
+
   (曾显华，OSU)。研究方向：Gromov-Witten 理论、toric stack bundles、crepant transformation
+
   correspondence、derived categories。
+
   核心工作：与导师 Tseng 和 NTHU 的 Jiun-Cheng Chen 合作，研究 toric stack bundles 的
+
   I-function、Mellin-Barnes 积分的解析延拓与 Fourier-Mukai 变换，建立了 toric stack bundles
+
   之间 genus-zero GW 理论的 crepant transformation correspondence。
+
   注意：中文名"钞乾"(姓"钞"，较罕见)与另一位名为 Chao Qian (陈志周-唐梓洲组从事 isoparametric
+
   foliations 方向，曾在 Capital Normal Univ) 不同人，不要混淆。
+
   2026 HUST 数学物理与几何研讨会武大参会学者之一。
+
+  '
 sources:
-  - label: "arXiv 2410.22670 (current address: Wuhan University)"
-    url: "https://arxiv.org/abs/2410.22670"
-  - label: "OpenAlex A5106276233"
-    url: "https://openalex.org/authors/A5106276233"
+- label: 'arXiv 2410.22670 (current address: Wuhan University)'
+  url: https://arxiv.org/abs/2410.22670
+- label: OpenAlex A5106276233
+  url: https://openalex.org/authors/A5106276233
 tags:
-  - wuhan
-  - student-or-postdoc
+- wuhan
+- student-or-postdoc

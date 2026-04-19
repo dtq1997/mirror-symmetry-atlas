@@ -8,134 +8,189 @@ nationality: Chinese
 gender: male
 photo_url: null
 career_timeline:
-  - period: "2010-2014"
-    type: education
-    institution: tsinghua
-    role: "本科, 数学与应用数学"
-  - period: "2014-2019"
-    type: education
-    institution: tsinghua
-    role: "博士, 基础数学"
-    advisor: zhou-jian
-    notes: "[待验证] 导师极可能是周坚"
-  - period: "2019.8-2019.11"
-    type: visit
-    institution: pku-bicmr
-    role: "访问学者"
-    notes: "北京大学数学科学学院"
-  - period: "2019.12-2023.5"
-    type: position
-    institution: pku-bicmr
-    role: "全职博士后"
-    notes: "北京大学数学科学学院"
-  - period: "2023.6-present"
-    type: position
-    institution: hust
-    role: "讲师"
-    notes: "华中科技大学数学与统计学院，东三十二楼211"
+- period: 2010-2014
+  type: education
+  institution: tsinghua
+  role: 本科, 数学与应用数学
+- period: 2014-2019
+  type: education
+  institution: tsinghua
+  role: 博士, 基础数学
+  advisor: zhou-jian
+  notes: '[待验证] 导师极可能是周坚'
+- period: 2019.8-2019.11
+  type: visit
+  institution: pku-bicmr
+  role: 访问学者
+  notes: 北京大学数学科学学院
+- period: 2019.12-2023.5
+  type: position
+  institution: pku-bicmr
+  role: 全职博士后
+  notes: 北京大学数学科学学院
+- period: 2023.6-present
+  type: position
+  institution: hust
+  role: 讲师
+  notes: 华中科技大学数学与统计学院，东三十二楼211
 research_areas:
-  - mathematical-physics
-  - gromov-witten-theory
-  - mirror-symmetry
-  - integrable-hierarchy
-  - tau-function
-  - combinatorics
+- mathematical-physics
+- gromov-witten-theory
+- mirror-symmetry
+- integrable-hierarchy
+- tau-function
+- combinatorics
 advisor: zhou-jian
 students: []
 key_collaborators:
-  - person: yang-chenglang
-    since: 2022
-    topic: "BKP hierarchy, affine coordinates, spin Hurwitz numbers"
-    papers_count: 4
-  - person: ji-ce
-    since: 2023
-    topic: "Kac-Schwarz operators"
-    papers_count: 1
-  - person: zhou-jian
-    since: 2015
-    topic: "tau functions, topological 1D gravity, dessin counting"
-    papers_count: 3
-  - person: zhang-qingsheng
-    since: 2023
-    topic: "BKP-affine coordinates"
-    papers_count: 1
+- person: yang-chenglang
+  since: 2022
+  topic: BKP hierarchy, affine coordinates, spin Hurwitz numbers
+  papers_count: 4
+- person: ji-ce
+  since: 2023
+  topic: Kac-Schwarz operators
+  papers_count: 1
+- person: zhou-jian
+  since: 2015
+  topic: tau functions, topological 1D gravity, dessin counting
+  papers_count: 3
+- person: zhang-qingsheng
+  since: 2023
+  topic: BKP-affine coordinates
+  papers_count: 1
 publications:
-  - id: "2511.10082"
-    title: "Total partition function with fermionic number fluxes of local toric CY threefold and KP integrability"
-    year: 2025
-    coauthors: [yang-chenglang, zhou-jian]
-  - id: "2408.03212"
-    title: "On N-Coefficient Binomial Polynomiality of Hurwitz Numbers and Generalized Dessin Counting"
-    year: 2024
-    coauthors: [yang-chenglang]
-  - id: "2401.12726"
-    title: "On a Proof of the ADKMV Conjecture -- 3-KP Integrability of the Topological Vertex"
-    year: 2024
-    coauthors: [yang-chenglang, zhou-jian]
-  - id: "2401.11717"
-    title: "Möbius Inversion and Duality for Summations of Stable Graphs"
-    year: 2024
-    coauthors: [zhou-jian]
-  - id: "2301.01131"
-    title: "BKP-Affine Coordinates and Emergent Geometry of Generalized BGW Tau-Functions"
-    year: 2023
-    coauthors: [yang-chenglang, zhang-qingsheng]
-  - id: "2211.08687"
-    title: "Kac-Schwarz Operators of Type B, Quantum Spectral Curves, and Spin Hurwitz Numbers"
-    year: 2022
-    coauthors: [ji-ce, yang-chenglang]
-  - id: "2210.09576"
-    title: "Connected (n,m)-Point Functions of Diagonal 2-BKP Tau-Functions, and Spin Double Hurwitz Numbers"
-    year: 2022
-    coauthors: [yang-chenglang]
-  - id: "2210.08712"
-    title: "Diagonal Tau-Functions of 2D Toda Lattice Hierarchy, Connected (n,m)-Point Functions, and Double Hurwitz Numbers"
-    year: 2022
-    coauthors: [yang-chenglang]
-  - id: "2201.08178"
-    title: "BKP Hierarchy, Affine Coordinates, and a Formula for Connected Bosonic N-Point Functions"
-    year: 2022
-    coauthors: [yang-chenglang]
-  - id: "2109.03394"
-    title: "Topological 1D Gravity, KP Hierarchy, and Orbifold Euler Characteristics of M_{g,n}"
-    year: 2021
-    coauthors: [zhou-jian]
-  - id: "2108.10498"
-    title: "A formalism of abstract quantum field theory of summation of fat graphs"
-    year: 2021
-    coauthors: [zhou-jian]
-  - id: "2106.00470"
-    title: "On affine coordinates of the tau-function for open intersection numbers"
-    year: 2021
-    coauthors: []
-  - id: "1905.03436"
-    title: "Fourier-Like Transforms of Stable Graphs and Holomorphic Anomaly Equations"
-    year: 2019
-    coauthors: [zhou-jian]
-  - id: "1812.10638"
-    title: "Orbifold Euler Characteristics of M_{g,n}"
-    year: 2018
-    coauthors: [zhou-jian]
-  - id: "1808.05343"
-    title: "A Unified Approach to Holomorphic Anomaly Equations and Quantum Spectral Curves"
-    year: 2018
-    coauthors: [zhou-jian]
+- id: '2511.10082'
+  title: Total partition function with fermionic number fluxes of local toric CY threefold and KP integrability
+  year: 2025
+  coauthors:
+  - yang-chenglang
+  - zhou-jian
+- id: '2408.03212'
+  title: On N-Coefficient Binomial Polynomiality of Hurwitz Numbers and Generalized Dessin Counting
+  year: 2024
+  coauthors:
+  - yang-chenglang
+- id: '2401.12726'
+  title: On a Proof of the ADKMV Conjecture -- 3-KP Integrability of the Topological Vertex
+  year: 2024
+  coauthors:
+  - yang-chenglang
+  - zhou-jian
+- id: '2401.11717'
+  title: Möbius Inversion and Duality for Summations of Stable Graphs
+  year: 2024
+  coauthors:
+  - zhou-jian
+- id: '2301.01131'
+  title: BKP-Affine Coordinates and Emergent Geometry of Generalized BGW Tau-Functions
+  year: 2023
+  coauthors:
+  - yang-chenglang
+  - zhang-qingsheng
+- id: '2211.08687'
+  title: Kac-Schwarz Operators of Type B, Quantum Spectral Curves, and Spin Hurwitz Numbers
+  year: 2022
+  coauthors:
+  - ji-ce
+  - yang-chenglang
+- id: '2210.09576'
+  title: Connected (n,m)-Point Functions of Diagonal 2-BKP Tau-Functions, and Spin Double Hurwitz Numbers
+  year: 2022
+  coauthors:
+  - yang-chenglang
+- id: '2210.08712'
+  title: Diagonal Tau-Functions of 2D Toda Lattice Hierarchy, Connected (n,m)-Point Functions, and Double Hurwitz Numbers
+  year: 2022
+  coauthors:
+  - yang-chenglang
+- id: '2201.08178'
+  title: BKP Hierarchy, Affine Coordinates, and a Formula for Connected Bosonic N-Point Functions
+  year: 2022
+  coauthors:
+  - yang-chenglang
+- id: '2109.03394'
+  title: Topological 1D Gravity, KP Hierarchy, and Orbifold Euler Characteristics of M_{g,n}
+  year: 2021
+  coauthors:
+  - zhou-jian
+- id: '2108.10498'
+  title: A formalism of abstract quantum field theory of summation of fat graphs
+  year: 2021
+  coauthors:
+  - zhou-jian
+- id: '2106.00470'
+  title: On affine coordinates of the tau-function for open intersection numbers
+  year: 2021
+  coauthors: []
+- id: '1905.03436'
+  title: Fourier-Like Transforms of Stable Graphs and Holomorphic Anomaly Equations
+  year: 2019
+  coauthors:
+  - zhou-jian
+- id: '1812.10638'
+  title: Orbifold Euler Characteristics of M_{g,n}
+  year: 2018
+  coauthors:
+  - zhou-jian
+- id: '1808.05343'
+  title: A Unified Approach to Holomorphic Anomaly Equations and Quantum Spectral Curves
+  year: 2018
+  coauthors:
+  - zhou-jian
 activity:
   total_papers: 15
-  active_period: "2018-present"
+  active_period: 2018-present
+  quality_source: openalex + ruirui-2026
+  t1_papers: 0
+  t2_papers: 1
+  t3_papers: 1
+  t4_papers: 2
+  other_papers: 74
+  venue_samples:
+  - name: Chaos Solitons & Fractals
+    tier: T2
+    count: 1
+  - name: Journal of High Energy Physics
+    tier: T3
+    count: 1
+  - name: Nuclear Physics B
+    tier: T4
+    count: 2
+  - name: arXiv (Cornell University)
+    tier: '-'
+    count: 11
+  - name: ArXiv.org
+    tier: '-'
+    count: 3
+  - name: Nuclear Instruments and Methods in Physics Research Section A Accelerators Spectrometers Detectors and Associated
+      Equipment
+    tier: '-'
+    count: 2
+  - name: Journal of Physics Conference Series
+    tier: '-'
+    count: 2
+  - name: SpringerBriefs in computer science
+    tier: '-'
+    count: 2
 external_ids:
-  openalex: "A5100462284"
+  openalex: A5100462284
 links:
-  homepage: "http://faculty.hust.edu.cn/WangZhiyuan/zh_CN/index.htm"
-personal_notes: |
-  清华本科(2010)+博士(2014-2019) → 北大博后(2019-2023) → HUST 讲师(2023-)。
+  homepage: http://faculty.hust.edu.cn/WangZhiyuan/zh_CN/index.htm
+personal_notes: '清华本科(2010)+博士(2014-2019) → 北大博后(2019-2023) → HUST 讲师(2023-)。
+
   北大博后期间与杨成浪、季策密切合作。
+
   研究方向：数学物理、GW 理论与镜像对称、可积系统。
+
   2026 数学物理与几何研讨会组织联系人。
+
   唐乾即将在会议上与他深入交流。
+
+  '
 sources:
-  - label: "HUST 教师主页"
-    url: "http://faculty.hust.edu.cn/WangZhiyuan/zh_CN/index.htm"
+- label: HUST 教师主页
+  url: http://faculty.hust.edu.cn/WangZhiyuan/zh_CN/index.htm
 tags:
-  - important-person
-  - hust
+- important-person
+- hust

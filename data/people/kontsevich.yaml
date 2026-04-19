@@ -8,46 +8,100 @@ nationality: Russian
 gender: male
 photo_url: null
 career_timeline:
-  - period: "1985-1992"
-    type: education
-    institution: bonn
-    role: "博士"
-    advisor: manin-yuri
-    notes: "在 Bonn 大学获博士学位"
-  - period: "1994"
-    type: award
-    title: "ICM Plenary Speaker (Zurich)"
-    notes: "提出 Homological Mirror Symmetry"
-  - period: "1995-present"
-    type: position
-    institution: ihes
-    role: "Permanent Professor"
-  - period: "1998"
-    type: award
-    title: "Fields Medal"
-    notes: "For contributions to algebraic geometry, topology, and mathematical physics"
+- period: 1985-1992
+  type: education
+  institution: bonn
+  role: 博士
+  advisor: manin-yuri
+  notes: 在 Bonn 大学获博士学位
+- period: '1994'
+  type: award
+  title: ICM Plenary Speaker (Zurich)
+  notes: 提出 Homological Mirror Symmetry
+- period: 1995-present
+  type: position
+  institution: ihes
+  role: Permanent Professor
+- period: '1998'
+  type: award
+  title: Fields Medal
+  notes: For contributions to algebraic geometry, topology, and mathematical physics
 research_areas:
-  - homological-mirror-symmetry
-  - deformation-quantization
-  - topological-field-theory
-  - algebraic-geometry
+- homological-mirror-symmetry
+- deformation-quantization
+- topological-field-theory
+- algebraic-geometry
 advisor: manin-yuri
 students: []
 key_collaborators: []
 activity:
   total_papers: 134
   h_index: 44
-  active_period: "1990-present"
-  peak_period: "1994-2010"
+  active_period: 1990-present
+  peak_period: 1994-2010
+  quality_source: openalex + ruirui-2026
+  t1_papers: 5
+  t2_papers: 6
+  t3_papers: 8
+  t4_papers: 4
+  other_papers: 101
+  venue_samples:
+  - name: Inventiones mathematicae
+    tier: T1
+    count: 3
+  - name: Publications mathématiques de l IHÉS
+    tier: T1
+    count: 2
+  - name: Journal of Differential Geometry
+    tier: T2
+    count: 2
+  - name: Journal of the American Mathematical Society
+    tier: T2
+    count: 1
+  - name: Compositio Mathematica
+    tier: T2
+    count: 1
+  - name: Journal of the European Mathematical Society
+    tier: T2
+    count: 1
+  - name: Russian Mathematical Surveys
+    tier: T2
+    count: 1
+  - name: Communications in Mathematical Physics
+    tier: T3
+    count: 2
+  - name: Selecta Mathematica
+    tier: T3
+    count: 2
+  - name: Physics Letters B
+    tier: T3
+    count: 1
+  - name: Advances in Mathematics
+    tier: T3
+    count: 1
+  - name: Journal of Modern Dynamics
+    tier: T3
+    count: 1
+  - name: Journal of Noncommutative Geometry
+    tier: T3
+    count: 1
+  - name: Communications in Number Theory and Physics
+    tier: T4
+    count: 1
+  - name: Japanese journal of mathematics
+    tier: T4
+    count: 1
 external_ids:
-  openalex: "A5018376358"
+  openalex: A5018376358
 links: {}
-personal_notes: |
-  Fields Medal 1998. Homological Mirror Symmetry 的提出者。
+personal_notes: 'Fields Medal 1998. Homological Mirror Symmetry 的提出者。
+
   Manin 的学生。
+
+  '
 sources:
-  - label: "OpenAlex"
-    url: "https://openalex.org/authors/A5018376358"
+- label: OpenAlex
+  url: https://openalex.org/authors/A5018376358
 tags:
-  - fields-medalist
-  - moscow-school
+- fields-medalist
+- moscow-school

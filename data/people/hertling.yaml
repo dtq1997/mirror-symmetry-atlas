@@ -8,45 +8,99 @@ nationality: German
 gender: male
 photo_url: null
 career_timeline:
-  - period: "~1988-1992"
-    type: education
-    institution: bonn
-    role: "博士"
-    advisor: brieskorn
-    notes: "1992年获博士学位, 论文: Analytische Invarianten bei den unimodularen und bimodularen Hyperflächensingularitäten"
-  - period: "~1999-2000"
-    type: award
-    title: "Habilitation, Universität Bonn"
-  - period: "~2000-present"
-    type: position
-    institution: mannheim
-    role: "Professor (W3), Lehrstuhl für Algebraische Geometrie"
+- period: ~1988-1992
+  type: education
+  institution: bonn
+  role: 博士
+  advisor: brieskorn
+  notes: '1992年获博士学位, 论文: Analytische Invarianten bei den unimodularen und bimodularen Hyperflächensingularitäten'
+- period: ~1999-2000
+  type: award
+  title: Habilitation, Universität Bonn
+- period: ~2000-present
+  type: position
+  institution: mannheim
+  role: Professor (W3), Lehrstuhl für Algebraische Geometrie
 research_areas:
-  - frobenius-manifolds
-  - singularity-theory
-  - tt-star-geometry
-  - twistor-structures
+- frobenius-manifolds
+- singularity-theory
+- tt-star-geometry
+- twistor-structures
 advisor: brieskorn
 students: []
 key_collaborators: []
 activity:
   total_papers: 129
   h_index: 13
-  active_period: "1992-present"
+  active_period: 1992-present
   phd_students: 4
+  quality_source: openalex + ruirui-2026
+  t1_papers: 0
+  t2_papers: 1
+  t3_papers: 9
+  t4_papers: 0
+  other_papers: 112
+  venue_samples:
+  - name: Compositio Mathematica
+    tier: T2
+    count: 1
+  - name: Journal für die reine und angewandte Mathematik (Crelles Journal)
+    tier: T3
+    count: 3
+  - name: Journal of Algebraic Combinatorics
+    tier: T3
+    count: 2
+  - name: Advances in Mathematics
+    tier: T3
+    count: 1
+  - name: Algebra & Number Theory
+    tier: T3
+    count: 1
+  - name: Mathematische Annalen
+    tier: T3
+    count: 1
+  - name: ANNALI SCUOLA NORMALE SUPERIORE - CLASSE DI SCIENZE
+    tier: T3
+    count: 1
+  - name: arXiv (Cornell University)
+    tier: '-'
+    count: 29
+  - name: Lecture notes in mathematics
+    tier: '-'
+    count: 18
+  - name: Cambridge University Press eBooks
+    tier: '-'
+    count: 16
+  - name: ArXiv.org
+    tier: '-'
+    count: 10
+  - name: MADOC (University of Mannheim)
+    tier: '-'
+    count: 5
+  - name: Journal of Singularities
+    tier: '-'
+    count: 4
+  - name: Birkhäuser Basel eBooks
+    tier: '-'
+    count: 2
+  - name: Journal of Geometry and Physics
+    tier: '-'
+    count: 2
 external_ids:
-  openalex: "A5083694613"
-  mathgenealogy: "27291"
+  openalex: A5083694613
+  mathgenealogy: '27291'
 links:
-  homepage: "https://www.wim.uni-mannheim.de/hertling/"
-personal_notes: |
-  Brieskorn 的学生，与 K. Saito 同门。
+  homepage: https://www.wim.uni-mannheim.de/hertling/
+personal_notes: 'Brieskorn 的学生，与 K. Saito 同门。
+
   Frobenius manifolds 和 singularity theory 方向。tt* geometry 的专家。
+
+  '
 sources:
-  - label: "Math Genealogy"
-    url: "https://www.mathgenealogy.org/id.php?id=27291"
-  - label: "OpenAlex"
-    url: "https://openalex.org/authors/A5083694613"
+- label: Math Genealogy
+  url: https://www.mathgenealogy.org/id.php?id=27291
+- label: OpenAlex
+  url: https://openalex.org/authors/A5083694613
 tags:
-  - german-school
-  - brieskorn-student
+- german-school
+- brieskorn-student

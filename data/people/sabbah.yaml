@@ -8,45 +8,100 @@ nationality: French
 gender: male
 photo_url: null
 career_timeline:
-  - period: "~1972-1976"
-    type: education
-    institution: paris-vii
-    role: "博士"
-    advisor: le-dung-trang
-    notes: "1976年获博士学位"
-  - period: "~1980-present"
-    type: position
-    institution: cmls-polytechnique
-    role: "Directeur de Recherche CNRS (emeritus)"
-    notes: "Centre de Mathématiques Laurent Schwartz, École Polytechnique"
+- period: ~1972-1976
+  type: education
+  institution: paris-vii
+  role: 博士
+  advisor: le-dung-trang
+  notes: 1976年获博士学位
+- period: ~1980-present
+  type: position
+  institution: cmls-polytechnique
+  role: Directeur de Recherche CNRS (emeritus)
+  notes: Centre de Mathématiques Laurent Schwartz, École Polytechnique
 research_areas:
-  - d-modules
-  - isomonodromy
-  - frobenius-manifolds
-  - twistor-structures
-  - stokes-phenomenon
+- d-modules
+- isomonodromy
+- frobenius-manifolds
+- twistor-structures
+- stokes-phenomenon
 advisor: le-dung-trang
 students: []
 key_collaborators: []
 activity:
   total_papers: 148
   h_index: 24
-  active_period: "1976-present"
+  active_period: 1976-present
   phd_students: 8
   academic_descendants: 11
+  quality_source: openalex + ruirui-2026
+  t1_papers: 3
+  t2_papers: 6
+  t3_papers: 7
+  t4_papers: 0
+  other_papers: 114
+  venue_samples:
+  - name: Duke Mathematical Journal
+    tier: T1
+    count: 2
+  - name: Inventiones mathematicae
+    tier: T1
+    count: 1
+  - name: Compositio Mathematica
+    tier: T2
+    count: 2
+  - name: Proceedings of the London Mathematical Society
+    tier: T2
+    count: 2
+  - name: Commentarii Mathematici Helvetici
+    tier: T2
+    count: 1
+  - name: Algebraic geometry
+    tier: T2
+    count: 1
+  - name: Mathematische Annalen
+    tier: T3
+    count: 2
+  - name: Journal für die reine und angewandte Mathematik (Crelles Journal)
+    tier: T3
+    count: 1
+  - name: Forum of Mathematics Sigma
+    tier: T3
+    count: 1
+  - name: Algebra & Number Theory
+    tier: T3
+    count: 1
+  - name: Journal of the Institute of Mathematics of Jussieu
+    tier: T3
+    count: 1
+  - name: Tunisian Journal of Mathematics
+    tier: T3
+    count: 1
+  - name: arXiv (Cornell University)
+    tier: '-'
+    count: 28
+  - name: Lecture notes in mathematics
+    tier: '-'
+    count: 15
+  - name: Journées mathématiques X-UPS
+    tier: '-'
+    count: 10
 external_ids:
-  openalex: "A5112196919"
-  mathgenealogy: "76381"
+  openalex: A5112196919
+  mathgenealogy: '76381'
 links:
-  homepage: "https://perso.pages.math.cnrs.fr/users/claude.sabbah/"
-personal_notes: |
-  D-modules 和 isomonodromy 方向的权威。
+  homepage: https://perso.pages.math.cnrs.fr/users/claude.sabbah/
+personal_notes: 'D-modules 和 isomonodromy 方向的权威。
+
   《Isomonodromic Deformations and Frobenius Manifolds: an Introduction》(2007) 教科书作者。
+
   与 Dubrovin 和 Boalch 无共著，但主题交叉密切。
+
+  '
 sources:
-  - label: "Math Genealogy"
-    url: "https://www.mathgenealogy.org/id.php?id=76381"
-  - label: "OpenAlex"
-    url: "https://openalex.org/authors/A5112196919"
+- label: Math Genealogy
+  url: https://www.mathgenealogy.org/id.php?id=76381
+- label: OpenAlex
+  url: https://openalex.org/authors/A5112196919
 tags:
-  - french-school
+- french-school

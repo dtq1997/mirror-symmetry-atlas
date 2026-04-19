@@ -57,21 +57,40 @@ export function getForceParams(nodeCount: number) {
 
 function personRadius(p: Person): number {
   const tags = p.tags || [];
-  if (tags.includes("important-person")) return 10;
+  if (tags.includes("important-person")) return 11;
   if (tags.includes("stub")) return 3.5;
-  if (
+
+  // Quality-weighted score using 新锐分区表 tiers (from enrich-venues.py).
+  // T1 = 4x, T2 = 2x, T3 = 0.5x, T4 = 0.2x (用户要求: 一二区重要, 三区只记录不重要)
+  const a = p.activity ?? {};
+  const t1 = (a as any).t1_papers ?? 0;
+  const t2 = (a as any).t2_papers ?? 0;
+  const t3 = (a as any).t3_papers ?? 0;
+  const t4 = (a as any).t4_papers ?? 0;
+  const qscore = t1 * 4 + t2 * 2 + t3 * 0.5 + t4 * 0.2;
+
+  // Senior tag boost
+  const seniorBoost =
     tags.includes("senior-researcher") ||
     tags.includes("fields-medal") ||
     tags.includes("jieqing")
-  )
-    return 9;
+      ? 1
+      : 0;
 
-  const desc = p.activity?.academic_descendants ?? 0;
-  const papers = p.activity?.total_papers ?? 0;
-  if (desc > 100 || papers > 150) return 10;
-  if (desc > 30 || papers > 80) return 8;
-  if (desc > 10 || papers > 40) return 7;
-  if (papers > 15) return 6;
+  // qscore-based radius (log scale so outliers don't blow up)
+  if (qscore > 0) {
+    // qscore 0-200+ range; log2 gives 0..7.6 roughly
+    const r = 4 + Math.log2(qscore + 1) * 1.1 + seniorBoost;
+    return Math.max(4, Math.min(r, 12));
+  }
+
+  // Fallback: descendants or paper count
+  const desc = a.academic_descendants ?? 0;
+  const papers = a.total_papers ?? 0;
+  if (desc > 100 || papers > 150) return 9 + seniorBoost;
+  if (desc > 30 || papers > 80) return 7 + seniorBoost;
+  if (desc > 10 || papers > 40) return 6 + seniorBoost;
+  if (papers > 15) return 5.5 + seniorBoost;
   if (papers > 5) return 5;
   return 4;
 }
