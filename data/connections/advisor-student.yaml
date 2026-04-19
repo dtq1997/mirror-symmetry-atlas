@@ -251,3 +251,50 @@ edges:
     year: null
     institution: sichuan-u
     notes: "[待验证] 博导推测，依据 2014 至今 12+ 篇合作，几乎确定"
+  - source: zaslow-eric
+    target: fang-bohan
+    type: advisor-student
+    year: 2010
+    institution: northwestern
+  - source: yau-shingtung
+    target: tian-gang
+    type: advisor-student
+    year: 1988
+    institution: harvard
+  - source: yau-shingtung
+    target: liu-melissa
+    type: advisor-student
+    year: 2002
+    institution: harvard
+  - source: yau-shingtung
+    target: leung-naichung
+    type: advisor-student
+    year: 1993
+    institution: mit
+    notes: "联合指导, 主导师 Singer"
+  - source: leung-naichung
+    target: chan-kwokwai
+    type: advisor-student
+    year: 2008
+    institution: cuhk
+  - source: xiang-maosong
+    target: li-ao
+    type: advisor-student
+    year: 2023
+    institution: hust
+    notes: "硕士"
+  - source: lebrun-claude
+    target: zhou-jian
+    type: advisor-student
+    year: 1995
+    institution: stony-brook
+  - source: abouzaid-mohammed
+    target: cheng-zhechi
+    type: advisor-student
+    year: 2020
+    institution: columbia
+  - source: xu-ping
+    target: hong-wei
+    type: advisor-student
+    year: 2013
+    institution: penn-state
