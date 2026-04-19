@@ -25,12 +25,17 @@ activity:
 external_ids: {}
 links: {}
 personal_notes: |
-  2026 年 4/17-19 HUST 数学物理与几何研讨会 HUST 本校参会人员（用户标注"HUST 博士生/博后"）。
-  英文 Timing Tan 拼法也可能对应"谭挺铭""谭亭明"等其他汉字组合 [待验证]。
-  公开可检索资源（arXiv、HUST 教师目录、HUST 数学中心成员页、Google Scholar）目前都未找到此人
-  的学术档案，判断为在读博士生或新入职博士后，尚无公开发表。
-  待会议开始后可从会议议程或签到册补充导师、研究方向信息。
-sources: []
+  [待核实存在性] 复查 HUST 2026 会议手册 PDF (data/conferences/2026-hust-mathphys-geometry.pdf)
+  邀请报告人 18 人名单（戴波、方博汉、郭帅、何伟强、柯华忠、李长征、李勤、Ryszard Nest、孙善忠、
+  涂君武、王路瑶、王新、邬龙挺、吴朝中、杨迪、周春辉、周坚、宗正宇）中并无"谭"姓与会者，
+  会议联系人为王知远、向茂松。原始录入来源已遗失，本条目可能是错录或现场观察到的非官方名单
+  参会者（本校旁听博士生）。
+  - 英文 Timing Tan 拼法也可能对应"谭挺铭""谭亭明"等其他汉字组合 [待验证]。
+  - arXiv、HUST 教师目录、Google Scholar 搜索均未返回匹配项。
+  - 建议：若下次用户提起此人，请他/她确认中文全名及导师；或若 4/17-19 会议后拿到签到册再补齐。
+sources:
+  - label: "HUST 2026 会议手册 (此人不在邀请名单)"
+    url: "file:../conferences/2026-hust-mathphys-geometry.pdf"
 tags:
   - hust
   - student

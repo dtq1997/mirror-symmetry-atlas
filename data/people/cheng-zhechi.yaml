@@ -12,8 +12,8 @@ career_timeline:
   type: education
   institution: columbia
   role: 博士
-  advisor: null
-  notes: 哥伦比亚大学数学系，学位论文 'Jones grading from symplectic Khovanov homology' (2020)。导师 [待验证]，可能为 Mikhail Khovanov 或 Peter Ozsváth
+  advisor: abouzaid-mohammed
+  notes: 哥伦比亚大学数学系，导师 Mohammed Abouzaid。学位论文 'Jones grading from symplectic Khovanov homology' (2020)
 - period: '[?]-present'
   type: position
   institution: wuhan
@@ -27,7 +27,7 @@ research_areas:
 - jones-polynomial
 - heegaard-floer-homology
 - braid-groups
-advisor: null
+advisor: abouzaid-mohammed
 students: []
 key_collaborators:
 - person: Matthew Hedden
@@ -76,6 +76,7 @@ activity:
   - name: arXiv (Cornell University)
     tier: '-'
     count: 2
+  oa_total_papers: 6
 external_ids:
   openalex: A5065025035
   orcid: 0009-0002-8404-4088

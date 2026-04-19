@@ -88,12 +88,14 @@ function PersonDetail({ person }: { person: Person }) {
         <div>
           <div className="text-xs text-[#8888a0] mb-2">主要合作者</div>
           <div className="space-y-1.5">
-            {person.key_collaborators.slice(0, 5).map((collab) => (
+            {person.key_collaborators.slice(0, 5).map((collab, idx) => {
+              const displayName = collab.person || (collab as { name?: string }).name || "";
+              return (
               <div
-                key={collab.person}
+                key={collab.person || `${displayName}-${idx}`}
                 className="text-xs bg-[#0a0a0f] rounded p-2 border border-[#2a2a3a]"
               >
-                <span className="text-[#f59e0b]">{collab.person}</span>
+                <span className="text-[#f59e0b]">{displayName}</span>
                 {collab.papers_count && (
                   <span className="text-[#8888a0]"> · {collab.papers_count} 篇</span>
                 )}
@@ -101,7 +103,8 @@ function PersonDetail({ person }: { person: Person }) {
                   <div className="text-[#8888a0] mt-0.5 truncate">{collab.topic}</div>
                 )}
               </div>
-            ))}
+              );
+            })}
           </div>
         </div>
       )}

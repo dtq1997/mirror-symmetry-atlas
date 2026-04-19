@@ -1,4 +1,11 @@
 {
+  "permissions": {
+    "allow": [
+      "Bash(rm -f summary_zh.aux summary_zh.log summary_zh.out summary_zh.toc)",
+      "Bash(open summary_zh.pdf)",
+      "Bash(xelatex -interaction=nonstopmode summary_zh.tex)"
+    ]
+  },
   "enabledMcpjsonServers": [
     "multi-ai",
     "pyautogui",

@@ -8,11 +8,12 @@ nationality: Taiwanese
 gender: female
 photo_url: null
 career_timeline:
-  - period: "~2002"
+  - period: "2002"
     type: education
     institution: harvard
     role: "PhD"
-    notes: "Harvard University"
+    advisor: yau-shingtung
+    notes: "Harvard University, 导师 Shing-Tung Yau。博士论文 \"Moduli of J-Holomorphic Curves with Lagrangian Boundary Conditions and Open Gromov-Witten Invariants for an S^1-Equivariant Pair\""
   - period: "~2006-present"
     type: position
     institution: columbia
@@ -23,7 +24,7 @@ research_areas:
   - mirror-symmetry
   - moduli-spaces
   - topological-recursion
-advisor: null
+advisor: yau-shingtung
 students:
   - zong-zhengyu
 key_collaborators:

@@ -2,45 +2,125 @@ slug: liu-zhangju
 name:
   en: Zhang-Ju Liu
   zh: 刘张炬
-born: null
+born: "1955-12"
 died: null
 nationality: Chinese
 gender: male
 photo_url: null
 career_timeline:
-  - period: "1987"
+  - period: "1978-1982"
+    type: education
+    institution: jilin-u
+    role: "本科"
+    notes: "吉林大学数学系学士"
+  - period: "1982-1984"
     type: education
     institution: pku
-    role: "博士, 基础数学"
-    advisor: "[待验证]"
-  - period: "present"
+    role: "硕士"
+    notes: "北京大学数学系硕士"
+  - period: "1984-1986"
+    type: education
+    institution: pku
+    role: "PhD"
+    advisor: null
+    notes: "北京大学数学系博士 (1986)。导师 [待验证]"
+  - period: "1986-1990"
+    type: position
+    institution: pku
+    role: "讲师"
+    notes: "北京大学数学系"
+  - period: "1990-1992"
+    type: position
+    institution: ucberkeley
+    role: "博士后"
+    notes: "UC Berkeley, 与 Alan Weinstein 合作"
+  - period: "1991-1993"
+    type: position
+    institution: pku
+    role: "副教授"
+  - period: "1994-2021"
     type: position
     institution: pku
     role: "教授"
-    notes: "北京大学数学科学学院"
+    notes: "北京大学数学科学学院, 2021-01 退休"
+  - period: "1994"
+    type: award
+    title: "国家教委科技进步二等奖"
+  - period: "1999"
+    type: award
+    title: "国家杰出青年科学基金"
+  - period: "2004"
+    type: award
+    title: "教育部自然科学一等奖"
+  - type: award
+    title: "教育部跨世纪优秀人才"
 research_areas:
   - poisson-geometry
+  - lie-bialgebroid
   - lie-algebroid
   - courant-algebroid
-  - differential-geometry
+  - dirac-structures
+  - mathematical-physics
 advisor: null
 students:
-  - chen-zhuo
-key_collaborators: []
-publications: []
+  - chen-zhuo  # 北大 2004
+key_collaborators:
+  - person: null
+    name: "Alan Weinstein (UC Berkeley)"
+    since: 1990
+    topic: "Lie bialgebroids, Manin triples, Courant algebroid"
+    papers_count: 3
+  - person: null
+    name: "Ping Xu (Penn State)"
+    since: 1995
+    topic: "Lie bialgebroids, Dirac structures, Poisson homogeneous spaces"
+    papers_count: 4
+  - person: chen-zhuo
+    topic: "E-Courant algebroids, higher structures"
+    papers_count: 5
+publications:
+  - title: "Manin Triples for Lie Bialgebroids"
+    year: 1997
+    journal: "J. Differential Geom. 45 (1997) 547-574"
+    coauthors: ["Alan Weinstein", "Ping Xu"]
+  - title: "Dirac structures and Poisson homogeneous spaces"
+    year: 1998
+    journal: "Comm. Math. Phys. 192 (1998) 121-144"
+    coauthors: ["Alan Weinstein", "Ping Xu"]
+  - title: "Poisson structures on double Lie groups"
+    year: 1998
+    journal: "J. Geom. Phys."
+    coauthors: []
+  - title: "E-Courant algebroids"
+    year: 2010
+    coauthors: [chen-zhuo]
 activity:
   total_papers: null
-  active_period: "1990-present"
+  active_period: "1987-present"
+  notes: "《数学进展》主编"
 external_ids: {}
 links:
-  homepage: "http://www.math.pku.edu.cn/teachers/liuzj/"
+  pku: "https://www.math.pku.edu.cn/jsdw/ltx/141184.htm"
 personal_notes: |
-  北京大学数学科学学院教授。专注 Poisson 几何、Lie / Courant algebroid 方向。
-  Courant algebroid 概念最初由 Liu-Weinstein-Xu (1997) 引入。
-  陈酌（清华副教授）的博士导师（北大 2004）。
+  北京大学数学科学学院教授 (2021-01 退休)。
+
+  教育: 吉林大学本科 (1982)→北大硕士 (1984)→北大博士 (1986)→讲师 (1986-1990)
+  →UC Berkeley 博后 (1990-1992, 与 Weinstein 合作)→北大副教授/教授 (1993 起)。
+  博士导师信息 [待验证]。
+
+  主要贡献: 与 Alan Weinstein, Ping Xu 合作于 1997 年 JDG 论文引入 Courant algebroid / Lie bialgebroid
+  概念, 并在 1998 CMP 建立 Dirac structures 与 Poisson homogeneous spaces 对应。
+  这两篇是 Poisson 几何/代数胚论领域的奠基性工作。
+  后期与陈酌合作 E-Courant algebroid 和 higher structures。
+
+  担任《数学进展》主编。培养博士陈酌 (北大 2004) 等。
 sources:
   - label: "北大数学学院"
-    url: "http://www.math.pku.edu.cn/teachers/liuzj/"
+    url: "https://www.math.pku.edu.cn/jsdw/ltx/141184.htm"
+  - label: "Dirac structures (Comm. Math. Phys. 1998)"
+    url: "https://link.springer.com/article/10.1007/s002200050293"
 tags:
   - pku
-  - stub
+  - senior-researcher
+  - jieqing
+  - poisson-geometry

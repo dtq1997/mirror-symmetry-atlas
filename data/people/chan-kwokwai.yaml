@@ -1,54 +1,129 @@
 slug: chan-kwokwai
 name:
   en: Kwokwai Chan
-  zh: 陈国威
+  zh: 陈国荣
 born: null
 died: null
 nationality: Chinese
 gender: male
 photo_url: null
 career_timeline:
+  - period: "1999-2002"
+    type: education
+    institution: cuhk
+    role: "BSc (First Class Honors)"
+    notes: "香港中文大学数学系学士"
+  - period: "2002-2004"
+    type: education
+    institution: cuhk
+    role: "MPhil"
+    advisor: zuo-kang
+    notes: "CUHK 硕士, 导师 Kang Zuo。学位论文 \"On Some Constructions of Calabi-Yau Manifolds\""
   - period: "2004-2008"
     type: education
     institution: cuhk
-    role: "博士, 数学"
+    role: "PhD"
     advisor: leung-naichung
-    notes: "[待验证] CUHK PhD, 导师 Naichung Conan Leung"
-  - period: "present"
+    notes: "CUHK PhD 2008, 导师 Naichung Conan Leung。博士论文 \"Strominger-Yau-Zaslow Transformations in Mirror Symmetry\""
+  - period: "2008-08 — 2010-07"
+    type: position
+    institution: harvard
+    role: "Croucher Postdoctoral Fellow"
+    notes: "哈佛大学, 合作导师 Shing-Tung Yau"
+  - period: "2010-08 — 2011-07"
+    type: position
+    institution: ihes
+    role: "William Hodge Fellow"
+  - period: "2011-01 — 2011-07"
+    type: position
+    institution: ipmu
+    role: "Project Researcher"
+    notes: "IPMU, University of Tokyo"
+  - period: "2011-08 — 2017-07"
     type: position
     institution: cuhk
-    role: "教授"
-    notes: "香港中文大学数学系"
+    role: "Assistant Professor"
+  - period: "2017-08 — 2023-07"
+    type: position
+    institution: cuhk
+    role: "Associate Professor"
+  - period: "2023-08 — present"
+    type: position
+    institution: cuhk
+    role: "Professor"
+  - period: "2010"
+    type: award
+    title: "New World Mathematics Awards — Silver Medal (PhD Thesis, 5th ICCM)"
+  - period: "2017"
+    type: award
+    title: "ICCM Best Paper Award (Silver) - SYZ mirror symmetry for toric CY"
+  - period: "2019"
+    type: award
+    title: "ICCM Best Paper Award - Open GW, mirror maps, Seidel representations"
+  - period: "2020"
+    type: award
+    title: "HKMS Young Scholar Award"
+  - period: "2017"
+    type: award
+    title: "CUHK Vice-Chancellor's Exemplary Teaching Award"
 research_areas:
-  - mirror-symmetry
   - syz-mirror-symmetry
-  - geometric-quantization
-  - calabi-yau
+  - open-gromov-witten-theory
+  - homological-mirror-symmetry
+  - toric-calabi-yau
+  - wall-crossing
+  - deformation-quantization
 advisor: leung-naichung
 students: []
 key_collaborators:
+  - person: leung-naichung
+    since: 2010
+    topic: "SYZ mirror symmetry, quantization of Kähler manifolds, toric CY"
+    papers_count: 15
   - person: li-qin
     since: 2015
     topic: "Quantization of Kähler manifolds, BT operators, Rozansky-Witten"
     papers_count: 8
-  - person: leung-naichung
-    since: 2010
-    topic: "SYZ mirror symmetry, quantization of Kähler manifolds"
-    papers_count: 15
-publications: []
+  - person: null
+    name: "Siu-Cheong Lau (BU)"
+    since: 2012
+    topic: "SYZ mirror symmetry for toric CY"
+    papers_count: 3
+publications:
+  - id: "1006.3830"
+    title: "SYZ mirror symmetry for toric Calabi-Yau manifolds"
+    year: 2012
+    coauthors: [leung-naichung, "Siu-Cheong Lau"]
+    journal: "J. Differential Geom. 90(2)"
 activity:
   total_papers: null
   active_period: "2008-present"
-external_ids: {}
+external_ids:
+  mathgenealogy: "[待验证]"
 links:
-  homepage: "https://www.math.cuhk.edu.hk/people/academic-staff/chan-kwok-wai"
+  homepage: "https://www.math.cuhk.edu.hk/~kwchan/"
+  cv: "https://www.math.cuhk.edu.hk/~kwchan/cv_brief.html"
+  papers: "https://www.math.cuhk.edu.hk/~kwchan/papers.html"
 personal_notes: |
-  香港中文大学数学系教授。师从 Naichung Conan Leung (CUHK)。
-  与李长征在 CUHK 读博期间同门。与李勤、Leung 长期合作做量子化。
-  SYZ mirror symmetry 方向的重要贡献者。
+  香港中文大学数学系教授 (2023 起)。
+
+  学术路径: CUHK 本科 (2002)→CUHK MPhil (2004, 导师 Kang Zuo)→CUHK PhD
+  (2008, 导师 Conan Leung, 论文 "Strominger-Yau-Zaslow Transformations in Mirror Symmetry")
+  →Harvard Croucher 博后 (合作者 Yau, 2008-2010)→IHES Hodge Fellow (2010-2011)
+  →IPMU 东京 (2011)→CUHK 助理/副/正教授。
+
+  主要贡献: toric CY 的 SYZ 镜像对称 (与 Leung, Lau, JDG 2012, 获 ICCM Silver),
+  open-closed GW 的公式及其镜像对称应用, Ooguri-Vafa 度量与全纯圆盘墙穿越,
+  local CY 的同调镜像对称, toric CY 的 quasimap SYZ。
+  与李勤在 CUHK 组内合作做 Kähler 流形 geometric quantization / deformation quantization。
+
+  注: Harvard 是博后 (2008-2010) 不是 PhD。PhD 是 CUHK 本校培养。
 sources:
   - label: "CUHK 数学系主页"
-    url: "https://www.math.cuhk.edu.hk/people/academic-staff/chan-kwok-wai"
+    url: "https://www.math.cuhk.edu.hk/~kwchan/"
+  - label: "CV (brief)"
+    url: "https://www.math.cuhk.edu.hk/~kwchan/cv_brief.html"
+  - label: "Publications"
+    url: "https://www.math.cuhk.edu.hk/~kwchan/papers.html"
 tags:
   - cuhk
-  - stub

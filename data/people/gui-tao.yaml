@@ -8,27 +8,47 @@ nationality: Chinese
 gender: null
 photo_url: null
 career_timeline:
-  - period: "~present"
-    type: education
-    institution: pku
-    role: "博士研究生 [待验证]"
-    notes: "北京大学数学科学学院 [待验证: 具体组与导师]"
-research_areas: []
+  - type: position
+    institution: amss-cas
+    role: "研究人员 [待验证]"
+    notes: "ResearchGate profile 显示中科院数学与系统科学研究院 (AMSS/CAS)。与北大 BICMR 联系密切, 担任 PACE REU (高宜波发起) 项目导师"
+research_areas:
+  - algebraic-combinatorics
+  - schubert-calculus
+  - coxeter-groups
+  - peterson-schubert-calculus
+  - equivariant-cohomology
 advisor: null
 students: []
-key_collaborators: []
-publications: []
+key_collaborators:
+  - person: null
+    name: "高宜波 (Yibo Gao, BICMR)"
+    topic: "PACE REU, Schubert calculus"
+    papers_count: "[待验证]"
+publications:
+  - id: "2408.10155"
+    title: "On Bott–Samelson rings for Coxeter groups"
+    year: 2024
+    coauthors: ["Lin Sun", "Shihao Wang", "Haoyu Zhu"]
 activity:
-  total_papers: 0
-  notes: "arXiv math 分类下未检索到该姓名对应的数学论文 (截至 2026-04)"
+  total_papers: 4
+  notes: "代数组合方向。arXiv 仅检索到 2408.10155 一篇, 其余 Peterson Schubert calculus / affine Weyl groups / toric varieties 论文待核实发表形式"
 external_ids: {}
-links: {}
+links:
+  researchgate: "https://www.researchgate.net/profile/Tao-Gui-4"
 personal_notes: |
-  2026 HUST 数学物理与几何研讨会参会人员 (签到表手写补充，北大方阵最末位)。
-  未做邀请报告，arXiv 没有查到对应的数学论文。
-  所在组、具体研究方向与身份 (硕士/博士) 均待补充 [待补充]。
-sources: []
+  研究方向为代数组合 (algebraic combinatorics): Coxeter 群 Schubert 演算、Peterson Schubert
+  calculus、等变上同调、Bott-Samelson 环、仿射 Weyl 群长度计数、主导权多胞形与 toric 簇。
+
+  与 BICMR 的高宜波长期合作, 担任 PACE REU 导师。当前机构 CAS 数学所 [待验证]。
+  2026 HUST 数学物理与几何研讨会参会人员 (签到表手写补充)。方向与会议主线有距离。
+sources:
+  - label: "ResearchGate profile"
+    url: "https://www.researchgate.net/profile/Tao-Gui-4"
+  - label: "arXiv 2408.10155"
+    url: "https://arxiv.org/abs/2408.10155"
+  - label: "PACE REU at BICMR (高宜波)"
+    url: "http://faculty.bicmr.pku.edu.cn/~gaoyibo/reu.html"
 tags:
-  - pku-bicmr
-  - student
-  - stub
+  - amss-cas
+  - algebraic-combinatorics

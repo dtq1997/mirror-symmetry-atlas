@@ -123,8 +123,17 @@ def enrich_person(slug):
         if "id" in pub and pub["id"] is not None:
             pub["id"] = str(pub["id"])
     # write back preserving key order roughly
+    dumped = yaml.dump(d, allow_unicode=True, sort_keys=False, width=120, default_flow_style=False)
+    # force quoting on pub `id:` lines that look numeric (e.g. 0510019) so js-yaml doesn't parse as number
+    lines = []
+    for ln in dumped.splitlines(keepends=True):
+        m = re.match(r"^(\s*)id:\s*([0-9][\w.\-]*)\s*$", ln.rstrip("\n"))
+        if m:
+            indent, val = m.group(1), m.group(2)
+            ln = f'{indent}id: "{val}"\n'
+        lines.append(ln)
     with open(f, "w") as fp:
-        yaml.dump(d, fp, allow_unicode=True, sort_keys=False, width=120, default_flow_style=False)
+        fp.write("".join(lines))
     return cls
 
 def main():

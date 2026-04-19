@@ -191,22 +191,30 @@ export default async function PersonPage({
             主要合作者
           </h2>
           <div className="space-y-3">
-            {person.key_collaborators.map((collab) => (
+            {person.key_collaborators.map((collab, idx) => {
+              const hasSlug = !!collab.person;
+              const displayName = collab.person || (collab as { name?: string }).name || "";
+              const searchName = (collab.person || (collab as { name?: string }).name || "").replace(/-/g, " ");
+              return (
               <div
-                key={collab.person}
+                key={collab.person || `${displayName}-${idx}`}
                 className="bg-[#14141f] rounded-lg p-4 border border-[#2a2a3a]"
               >
                 <div className="flex items-center justify-between mb-1">
-                  <Link
-                    href={`/people/${collab.person}`}
-                    className="text-sm font-medium text-[#f59e0b] hover:text-[#fbbf24] transition-colors"
-                  >
-                    {collab.person}
-                  </Link>
+                  {hasSlug ? (
+                    <Link
+                      href={`/people/${collab.person}`}
+                      className="text-sm font-medium text-[#f59e0b] hover:text-[#fbbf24] transition-colors"
+                    >
+                      {displayName}
+                    </Link>
+                  ) : (
+                    <span className="text-sm font-medium text-[#a8a8b8]">{displayName}</span>
+                  )}
                   <div className="flex items-center gap-2 text-xs text-[#8888a0]">
                     {collab.papers_count && (
                       <a
-                        href={`https://arxiv.org/search/?searchtype=author&query=${encodeURIComponent(collab.person.replace(/-/g, " "))}`}
+                        href={`https://arxiv.org/search/?searchtype=author&query=${encodeURIComponent(searchName)}`}
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-[#6366f1] hover:text-[#818cf8] transition-colors"
@@ -226,7 +234,8 @@ export default async function PersonPage({
                   </p>
                 )}
               </div>
-            ))}
+            );
+            })}
           </div>
         </section>
       )}

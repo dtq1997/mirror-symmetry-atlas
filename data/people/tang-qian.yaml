@@ -8,16 +8,17 @@ nationality: Chinese
 gender: male
 photo_url: null
 career_timeline:
-  - period: "2019-2023"
+  - period: "~2019-2023"
     type: education
-    institution: pku-bicmr
+    institution: pku
     role: "博士"
     advisor: xu-xiaomeng
+    notes: "Math Genealogy: Qian Tang, Peking University, 2023, advisor Xiaomeng Xu (唯一在录学生)"
   - period: "2023-present"
     type: position
     institution: tsinghua
     role: "博士后"
-    notes: "同时在徐晓濛组（PKU）和张友金/刘思齐组（清华）"
+    notes: "同时在徐晓濛组（清华，徐晓濛 2020 起任清华助理教授）和张友金/刘思齐组（清华）"
 research_areas:
   - stokes-phenomenon
   - isomonodromy
@@ -57,8 +58,18 @@ publications:
 activity:
   total_papers: 5
   active_period: "2023-present"
-external_ids: {}
+external_ids:
+  mathgenealogy: "[待查 id]"
 links: {}
+sources:
+  - label: "Math Genealogy (Xiaomeng Xu's advisee)"
+    url: "https://www.genealogy.math.ndsu.nodak.edu/id.php?id=294385"
+  - label: "arXiv au:Qian Tang (math categories)"
+    url: "https://arxiv.org/a/tang_q_1"
+  - label: "arXiv:2501.17516 Stokes Phenomenon and Yangians"
+    url: "https://arxiv.org/abs/2501.17516"
+  - label: "arXiv:2402.07269 Boundary condition for isomonodromy"
+    url: "https://arxiv.org/abs/2402.07269"
 personal_notes: |
   两个几乎不相交的 cluster 之间的桥梁节点：
   - Cluster A（SISSA/Dubrovin 学派）：经典 Frobenius 流形、Painlevé、isomonodromy

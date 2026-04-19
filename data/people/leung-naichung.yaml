@@ -8,57 +8,98 @@ nationality: Chinese
 gender: male
 photo_url: null
 career_timeline:
-  - period: "[待验证]-1993"
+  - period: "1988-1993"
     type: education
     institution: mit
-    role: "博士, 数学"
-    advisor: yau-shingtung
-    notes: "MIT PhD 1993, 导师丘成桐"
-  - period: "present"
+    role: "PhD"
+    advisor: singer-im
+    notes: "MIT PhD 1993, 主导师 Isadore M. Singer, 联合导师 Shing-Tung Yau。博士论文 \"Differential Geometric and Symplectic Interpretations of Stability in the Sense of Gieseker\""
+  - period: "~1993-early 1990s"
     type: position
+    institution: mit
+    role: "Moore Instructor"
+  - type: position
+    institution: minnesota
+    role: "Assistant/Associate Professor"
+    notes: "University of Minnesota"
+  - type: position
     institution: cuhk
-    role: "讲座教授"
-    notes: "香港中文大学数学系 / 数学科学研究所"
+    role: "讲座教授 / IMS 主任"
+    notes: "香港中文大学数学系教授、数学科学研究所 (IMS) 主任"
 research_areas:
   - mirror-symmetry
   - calabi-yau
+  - syz-mirror-symmetry
   - special-holonomy
-  - quantum-cohomology
-  - geometric-quantization
-advisor: yau-shingtung
+  - hyperkahler
+  - gromov-witten-theory
+  - witten-morse-theory
+advisor: singer-im
 students:
+  - chan-kwokwai  # CUHK 2008
   - li-changzheng
-  - chan-kwokwai
+  - lau-siu-cheong  # CUHK 2011
 key_collaborators:
+  - person: chan-kwokwai
+    since: 2010
+    topic: "SYZ mirror symmetry, quantization, toric CY"
+    papers_count: 15
   - person: li-qin
     since: 2015
     topic: "Quantization of Kähler manifolds, Bargmann-Fock sheaves"
     papers_count: 8
-  - person: chan-kwokwai
-    since: 2010
-    topic: "SYZ mirror symmetry, quantization"
-    papers_count: 15
   - person: li-changzheng
     since: 2008
     topic: "Quantum Pieri rules, quantum cohomology of flag varieties"
     papers_count: 7
-publications: []
+  - person: yau-shingtung
+    since: 2001
+    topic: "Special Lagrangian, Hermitian-Yang-Mills, Fourier-Mukai"
+    papers_count: 2
+publications:
+  - id: "math/0009235"
+    title: "Mirror symmetry without corrections"
+    year: 2000
+    coauthors: []
+  - id: "1006.3830"
+    title: "SYZ mirror symmetry for toric Calabi-Yau manifolds"
+    year: 2012
+    coauthors: [chan-kwokwai, "Siu-Cheong Lau"]
+    journal: "J. Differential Geom. 90(2)"
 activity:
   total_papers: null
   active_period: "1993-present"
-external_ids: {}
+  notes: "ICCM Best Paper Award 多项"
+external_ids:
+  mathgenealogy: "53342"
+  wikidata: "Q102225287"
 links:
-  homepage: "https://www.math.cuhk.edu.hk/people/academic-staff/leung-naichung-conan"
+  homepage: "http://www.ims.cuhk.edu.hk/~leung/"
+  cuhk: "https://www.math.cuhk.edu.hk/people/academic-staff/leung"
 personal_notes: |
-  香港中文大学讲座教授。师从丘成桐。
-  代表方向：SYZ mirror symmetry、special holonomy (G2 / Spin(7))、
-  Kähler 流形量子化（与陈国威、李勤长期合作）。
-  培养了李长征、Kwokwai Chan（陈国威）等中国数学家。
-  是中山大学 / 南科大 / 清华 GW 理论学派与港方学派的桥梁。
+  香港中文大学讲座教授, IMS (数学科学研究所) 主任。
+
+  MIT PhD 1993, 主导师为 Isadore Singer (Fields 奖级别, 早期与 Atiyah 合作 index theorem),
+  联合指导为 Shing-Tung Yau。博士论文 "Differential Geometric and Symplectic Interpretations
+  of Stability in the Sense of Gieseker"。早期任 MIT Moore Instructor, 后在 Minnesota 任教,
+  加入 CUHK 后建立 SYZ / mirror symmetry 研究中心。
+
+  主要贡献: SYZ 猜想的 "no corrections" 版本 (2000 Adv. Math.),
+  special Lagrangian vs. Hermitian-Yang-Mills 通过 Fourier-Mukai 变换对应 (与 Yau, Zaslow 2001),
+  toric CY 的 SYZ 镜像对称 (与 Kwokwai Chan, Siu-Cheong Lau, JDG 2012)。
+  方向还涉及 G2/Spin(7) special holonomy, hyperkähler, Rozansky-Witten, Witten-Morse theory, ADE bundles。
+
+  培养 PhD: Kwokwai Chan (2008, SYZ), Siu-Cheong Lau (2011), Li Changzheng 等,
+  成为华人几何/镜像对称圈重要节点。
 sources:
   - label: "CUHK 数学系主页"
-    url: "https://www.math.cuhk.edu.hk/people/academic-staff/leung-naichung-conan"
+    url: "https://www.math.cuhk.edu.hk/people/academic-staff/leung"
+  - label: "个人主页 (IMS)"
+    url: "http://www.ims.cuhk.edu.hk/~leung/"
+  - label: "Math Genealogy 53342"
+    url: "https://www.mathgenealogy.org/id.php?id=53342"
+  - label: "Wikidata Q102225287"
+    url: "https://www.wikidata.org/wiki/Q102225287"
 tags:
   - cuhk
   - important-person
-  - stub

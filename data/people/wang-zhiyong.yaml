@@ -1,36 +1,68 @@
 slug: wang-zhiyong
 name:
   en: Zhiyong Wang
-  zh: 王智勇
+  zh: 王志永
 born: null
 died: null
 nationality: Chinese
 gender: male
 photo_url: null
 career_timeline:
-  - period: "[待验证]"
-    type: position
-    institution: wuhan
-    role: "教师 [待验证]"
-    notes: "武汉大学数学与统计学院。具体职称、教育背景、研究方向均待核实——其个人主页在武大 faculty portal 查询未得，可能为较新入职或兼职人员"
-research_areas: []
+  - period: "[待验证, ~2022-present]"
+    type: education
+    institution: pku
+    role: "博士生 [待验证]"
+    notes: "北京大学数学科学学院 (School of Mathematical Sciences, PKU)。邮箱 zwangco@pku.edu.cn 确认于 arXiv:2409.14124。原先 YAML 中标注为武大/武汉大学属误挂——HUST 2026 会议手册邀请报告人名单中并无此人，可能为早期录入错误。具体入学年、导师待核实。"
+research_areas:
+  - bloch-okounkov-correlation
+  - self-conjugate-partitions
+  - quasimodular-forms
+  - integrable-hierarchies
 advisor: null
 students: []
-key_collaborators: []
-publications: []
+key_collaborators:
+  - person: yang-chenglang
+    since: 2024
+    topic: "self-conjugate partitions, q-difference equations, quasimodularity"
+    papers_count: 1
+publications:
+  - id: "2409.14124"
+    title: "Correlation Function of Self-Conjugate Partitions: q-Difference Equation and Quasimodularity"
+    year: 2024
+    coauthors: [yang-chenglang]
 activity:
-  total_papers: null
-  active_period: null
+  total_papers: 1
+  active_period: "2024-present"
 external_ids: {}
-links: {}
+links:
+  email: "zwangco@pku.edu.cn"
 personal_notes: |
-  [待补充] 2026 HUST 数学物理与几何研讨会武大参会名单中列出。当前公开信息极少：
-  - 武汉大学数学院 faculty 列表 (截至 2025) 未见此人
-  - arXiv 搜 "Zhiyong Wang" + math 分类结果多为同名异人 (University of Sydney、Stanford 等)
-  - OpenAlex 查 Zhiyong Wang + Wuhan 无数学方向结果
-  可能情况：(1) 2025-2026 新入职教师或博士后；(2) 与 HUST 合作方挂靠；(3) 中文名
-  对应另一拼音。需要更多上下文信息(研究方向、合作者、email 前缀)才能建档。
-sources: []
+  **重要警告 [名字歧义]**：Zhiyong Wang 拼音至少对应两位不同人物，需区分：
+
+  (A) 本条目：王志永 @ PKU 数学科学学院（email: zwangco@pku.edu.cn）
+  - 根据 arXiv:2409.14124 末尾 affiliation："Zhiyong Wang, School of Mathematical
+    Sciences, Peking University, Beijing"
+  - 与 Chenglang Yang (AMSS 华罗庚中心) 合作，做 self-conjugate partitions / Bloch-Okounkov
+    相关函数 / quasimodularity
+  - 身份推断为 PKU 数院博士生（邮箱前缀风格 + 无职称显示）
+
+  (B) 王智勇 @ 武汉大学（仅出现在 data/institutions/wuhan.yaml "2026 HUST 会议武大代表团"
+      9 人名单中，未见学术档案）。中文姓名确切用字未核实 [待核实]。
+
+  两人中文姓名一字之差（志永/智勇），当前数据库合并到同 slug 是风险点——未来若发现 (B) 有
+  arXiv 记录或个人主页，应拆分为 wang-zhiyong-pku 与 wang-zhiyong-whu 两个节点。
+  本条目暂按 (A) PKU 建档，因其有可追溯的学术产出。
+
+  与本图谱其他节点的潜在连接：
+  - 杨成浪 (Chenglang Yang) 是季策、唐乾、王智元的共同合作者，Bloch-Okounkov 方向
+    与 Hurwitz/KP-BKP tau 函数群密切相关。
+  - 需要进一步确认是否师从 PKU 数院某位组合/数论/表示论教师（[待验证]：许晨阳?
+    王子鹏? 刘毅? 候选基于 Bloch-Okounkov 方向猜测）。
+sources:
+  - label: "arXiv:2409.14124 (affiliation & email)"
+    url: "https://arxiv.org/abs/2409.14124"
+  - label: "PDF end-matter with affiliation"
+    url: "https://arxiv.org/pdf/2409.14124"
 tags:
-  - wuhan
+  - pku
   - stub
