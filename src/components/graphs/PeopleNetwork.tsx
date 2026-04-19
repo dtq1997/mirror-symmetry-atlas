@@ -45,6 +45,7 @@ export default function PeopleNetwork({ graphData, institutionNames }: PeopleNet
     institutional: false,
     "co-student": true,
     grant: true,
+    acknowledgement: false,
   });
   const [showGhosts, setShowGhosts] = useState(false);
   const [timeFilter, setTimeFilter] = useState<number | null>(null);

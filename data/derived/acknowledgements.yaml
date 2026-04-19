@@ -1,8 +1,8 @@
 meta:
   note: Auto-generated from arXiv LaTeX acknowledgements. weight = count of papers
     where source acknowledges target. Threshold ≥2.
-  single_count: 108
-  strong_count: 58
+  single_count: 125
+  strong_count: 62
 edges:
 - source: boalch
   target: sabbah
@@ -169,26 +169,43 @@ edges:
 - source: li-changzheng
   target: hong-wei
   type: acknowledgement
-  weight: 3
+  weight: 4
   papers:
   - '0808.0393'
   - '0810.4859'
   - '1107.4744'
+  - '2509.01101'
 - source: li-changzheng
   target: leung-naichung
   type: acknowledgement
-  weight: 2
+  weight: 3
   papers:
   - '1506.00872'
   - '2405.16979'
+  - '2509.01101'
 - source: li-changzheng
   target: song-jiayu
   type: acknowledgement
-  weight: 3
+  weight: 4
   papers:
   - '2405.16979'
   - '2502.13545'
   - '2502.13558'
+  - '2509.01101'
+- source: li-qin
+  target: hong-wei
+  type: acknowledgement
+  weight: 2
+  papers:
+  - '2008.11496'
+  - '2410.11311'
+- source: li-qin
+  target: leung-naichung
+  type: acknowledgement
+  weight: 2
+  papers:
+  - '2008.11496'
+  - '2410.11311'
 - source: liu-siqi
   target: dubrovin
   type: acknowledgement
@@ -486,17 +503,33 @@ edges:
   - '2101.10924'
   - '2112.12736'
   - '2205.01618'
-- source: zhang-huailiang
-  target: hong-wei
+- source: zeng-haozhi
+  target: li-changzheng
+  type: acknowledgement
+  weight: 3
+  papers:
+  - '2310.02818'
+  - '2310.02819'
+  - '2512.06646'
+- source: zeng-haozhi
+  target: zhang-bin
   type: acknowledgement
   weight: 2
   papers:
+  - '2310.02818'
+  - '2310.02819'
+- source: zhang-huailiang
+  target: hong-wei
+  type: acknowledgement
+  weight: 3
+  papers:
   - '1105.3261'
   - '1206.5390'
+  - '2312.11197'
 - source: zhang-huailiang
   target: ruan-yongbin
   type: acknowledgement
-  weight: 6
+  weight: 7
   papers:
   - '1101.0914'
   - '1206.5390'
@@ -504,6 +537,7 @@ edges:
   - '1804.05310'
   - '1809.08806'
   - '1809.11058'
+  - '2312.11197'
 - source: zhang-qingsheng
   target: zhou-jian
   type: acknowledgement
@@ -593,6 +627,24 @@ single_mentions:
   weight: 1
   papers:
   - '1608.06868'
+- source: ding-yanqiao
+  target: wang-zhiyuan
+  type: acknowledgement
+  weight: 1
+  papers:
+  - '2602.04191'
+- source: ding-yanqiao
+  target: yang-chenglang
+  type: acknowledgement
+  weight: 1
+  papers:
+  - '2602.04191'
+- source: ding-yanqiao
+  target: yang-di
+  type: acknowledgement
+  weight: 1
+  papers:
+  - '2602.04191'
 - source: du-chengyong
   target: xiang-maosong
   type: acknowledgement
@@ -827,6 +879,12 @@ single_mentions:
   weight: 1
   papers:
   - '2309.12271'
+- source: jin-xiaoshang
+  target: chen-zhuo
+  type: acknowledgement
+  weight: 1
+  papers:
+  - '2402.02465'
 - source: ke-huazhong
   target: chen-zhuo
   type: acknowledgement
@@ -876,6 +934,18 @@ single_mentions:
   papers:
   - '1311.1659'
 - source: li-changzheng
+  target: hu-jianxun
+  type: acknowledgement
+  weight: 1
+  papers:
+  - '2509.01101'
+- source: li-changzheng
+  target: hu-xiaowen
+  type: acknowledgement
+  weight: 1
+  papers:
+  - '2509.01101'
+- source: li-changzheng
   target: k-saito
   type: acknowledgement
   weight: 1
@@ -906,23 +976,11 @@ single_mentions:
   papers:
   - '2008.11496'
 - source: li-qin
-  target: hong-wei
-  type: acknowledgement
-  weight: 1
-  papers:
-  - '2008.11496'
-- source: li-qin
   target: kontsevich
   type: acknowledgement
   weight: 1
   papers:
   - '1507.01812'
-- source: li-qin
-  target: leung-naichung
-  type: acknowledgement
-  weight: 1
-  papers:
-  - '2008.11496'
 - source: li-qin
   target: si-li
   type: acknowledgement
@@ -941,6 +999,24 @@ single_mentions:
   weight: 1
   papers:
   - '2402.00373'
+- source: ni-dadi
+  target: alekseev
+  type: acknowledgement
+  weight: 1
+  papers:
+  - '2601.05183'
+- source: ni-dadi
+  target: chen-zhuo
+  type: acknowledgement
+  weight: 1
+  papers:
+  - '2601.05183'
+- source: ni-dadi
+  target: zhang-bin
+  type: acknowledgement
+  weight: 1
+  papers:
+  - '2601.05183'
 - source: qiao-yu
   target: xiang-maosong
   type: acknowledgement
@@ -983,6 +1059,18 @@ single_mentions:
   weight: 1
   papers:
   - '1311.4073'
+- source: wang-luyao
+  target: tang-xinxing
+  type: acknowledgement
+  weight: 1
+  papers:
+  - '2602.04779'
+- source: wang-luyao
+  target: zhao-jiayi
+  type: acknowledgement
+  weight: 1
+  papers:
+  - '2602.04779'
 - source: wang-xin
   target: liu-xiaobo
   type: acknowledgement
@@ -1001,6 +1089,36 @@ single_mentions:
   weight: 1
   papers:
   - '1812.10638'
+- source: wen-hao
+  target: chan-kwokwai
+  type: acknowledgement
+  weight: 1
+  papers:
+  - '2312.04239'
+- source: wen-hao
+  target: hong-wei
+  type: acknowledgement
+  weight: 1
+  papers:
+  - '2312.04239'
+- source: wen-hao
+  target: li-changzheng
+  type: acknowledgement
+  weight: 1
+  papers:
+  - '2312.04239'
+- source: wen-hao
+  target: si-li
+  type: acknowledgement
+  weight: 1
+  papers:
+  - '2312.04239'
+- source: wen-hao
+  target: tu-junwu
+  type: acknowledgement
+  weight: 1
+  papers:
+  - '2312.04239'
 - source: wu-chaozhong
   target: chen-zhuo
   type: acknowledgement
@@ -1061,6 +1179,12 @@ single_mentions:
   weight: 1
   papers:
   - '1801.00123'
+- source: xu-xu
+  target: chao-qian
+  type: acknowledgement
+  weight: 1
+  papers:
+  - '2511.09983'
 - source: yang-chenglang
   target: fan-huijun
   type: acknowledgement
@@ -1133,6 +1257,18 @@ single_mentions:
   weight: 1
   papers:
   - '2309.12271'
+- source: zhao-jiayi
+  target: guo-jindong
+  type: acknowledgement
+  weight: 1
+  papers:
+  - '2510.26137'
+- source: zhao-jiayi
+  target: yang-di
+  type: acknowledgement
+  weight: 1
+  papers:
+  - '2510.26137'
 - source: zhou-chunhui
   target: guo-shuai
   type: acknowledgement

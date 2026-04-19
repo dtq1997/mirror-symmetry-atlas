@@ -236,7 +236,8 @@ export type ConnectionType =
   | "coauthor"
   | "institutional"
   | "co-student"
-  | "grant";
+  | "grant"
+  | "acknowledgement";
 
 export interface Connection {
   source: string;
@@ -248,6 +249,14 @@ export interface Connection {
   institution?: string;
   notes?: string;
   derived?: boolean;
+  papers?: string[];  // for acknowledgement edges: list of arxiv ids
+}
+
+// Single-ack: shown in detail sidebar rather than network
+export interface AckMention {
+  source: string;  // the person who acknowledged
+  target: string;  // the person being acknowledged
+  papers: string[];
 }
 
 // ===== Institution =====

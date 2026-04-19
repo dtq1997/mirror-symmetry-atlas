@@ -13,6 +13,7 @@ import type {
   OpenProblem,
   Seminar,
   DataStore,
+  AckMention,
 } from "./types";
 
 const DATA_DIR = path.join(process.cwd(), "data");
@@ -184,7 +185,62 @@ export function getAllConnections(): Connection[] {
     }
   }
 
+  // Load acknowledgement edges (strong, ≥2) from derived/
+  const ackFile = path.join(DATA_DIR, "derived", "acknowledgements.yaml");
+  if (fs.existsSync(ackFile)) {
+    const data = readYaml<{ edges?: Connection[] }>(ackFile);
+    if (data.edges) {
+      for (const e of data.edges) {
+        connections.push({
+          source: e.source,
+          target: e.target,
+          type: "acknowledgement",
+          weight: e.weight ?? 1,
+          papers: e.papers,
+          derived: true,
+        } as Connection);
+      }
+    }
+  }
+
   return connections;
+}
+
+// ===== Acknowledgement mentions (single + strong) for detail sidebar =====
+
+let ackCache: {
+  bySource: Map<string, AckMention[]>;
+  byTarget: Map<string, AckMention[]>;
+} | null = null;
+
+export function getAckMentions(): {
+  bySource: Map<string, AckMention[]>;
+  byTarget: Map<string, AckMention[]>;
+} {
+  if (ackCache) return ackCache;
+  const bySource = new Map<string, AckMention[]>();
+  const byTarget = new Map<string, AckMention[]>();
+  const file = path.join(DATA_DIR, "derived", "acknowledgements.yaml");
+  if (!fs.existsSync(file)) {
+    ackCache = { bySource, byTarget };
+    return ackCache;
+  }
+  const data = readYaml<{
+    edges?: Array<{ source: string; target: string; papers: string[] }>;
+    single_mentions?: Array<{ source: string; target: string; papers: string[] }>;
+  }>(file);
+  const all = [...(data.edges || []), ...(data.single_mentions || [])];
+  for (const m of all) {
+    const mention: AckMention = { source: m.source, target: m.target, papers: m.papers };
+    const srcList = bySource.get(m.source) ?? [];
+    srcList.push(mention);
+    bySource.set(m.source, srcList);
+    const tgtList = byTarget.get(m.target) ?? [];
+    tgtList.push(mention);
+    byTarget.set(m.target, tgtList);
+  }
+  ackCache = { bySource, byTarget };
+  return ackCache;
 }
 
 // ===== Institutions =====

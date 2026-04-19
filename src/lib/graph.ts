@@ -27,6 +27,7 @@ const EDGE_COLORS: Record<ConnectionType, string> = {
   institutional: "#8b5cf6",
   "co-student": "#10b981",
   grant: "#ec4899",
+  acknowledgement: "#a8a29e",
 };
 
 const EDGE_DASH: Record<ConnectionType, number[] | undefined> = {
@@ -37,6 +38,7 @@ const EDGE_DASH: Record<ConnectionType, number[] | undefined> = {
   institutional: [2, 4],
   "co-student": [8, 3],
   grant: [3, 3],
+  acknowledgement: [1, 3],
 };
 
 // ===== Adaptive force parameters =====
