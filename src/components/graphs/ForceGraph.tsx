@@ -87,6 +87,14 @@ export default function ForceGraph({
     fg.d3Force("charge")?.strength(params.chargeStrength);
     fg.d3Force("link")?.distance(params.linkDistance);
     fg.d3Force("center")?.strength(0.05);
+    // Collision force: prevents node overlap, adds breathing room
+    import("d3-force").then(({ forceCollide }) => {
+      fg.d3Force(
+        "collide",
+        forceCollide((n: any) => (n.radius ?? 5) + 6).strength(0.9)
+      );
+      fg.d3ReheatSimulation();
+    });
   }, [data.nodes.length]);
 
   // Focus on external selection (e.g. search result)

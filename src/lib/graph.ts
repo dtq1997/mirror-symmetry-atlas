@@ -38,13 +38,19 @@ const EDGE_DASH: Record<ConnectionType, number[] | undefined> = {
 // ===== Adaptive force parameters =====
 
 export function getForceParams(nodeCount: number) {
+  // Stronger repulsion + larger base distance so weakly-connected nodes
+  // don't crowd into unreadable clusters. Strong collaborations still pull
+  // each other close via link strength.
   if (nodeCount < 20) {
-    return { chargeStrength: -300, linkDistance: 120 };
+    return { chargeStrength: -500, linkDistance: 160 };
   }
   if (nodeCount <= 50) {
-    return { chargeStrength: -200, linkDistance: 80 };
+    return { chargeStrength: -380, linkDistance: 120 };
   }
-  return { chargeStrength: -100, linkDistance: 60 };
+  if (nodeCount <= 100) {
+    return { chargeStrength: -260, linkDistance: 95 };
+  }
+  return { chargeStrength: -180, linkDistance: 80 };
 }
 
 // ===== Node radius by importance =====
