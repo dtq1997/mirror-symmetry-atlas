@@ -8,24 +8,59 @@ nationality: Chinese
 gender: male
 photo_url: null
 career_timeline:
-  - period: "1988"
+  - period: "1978-1982"
+    type: education
+    institution: nanjing-u
+    role: "本科"
+    notes: "南京大学数学系学士"
+  - period: "1982-1984"
+    type: education
+    institution: pku
+    role: "硕士"
+    notes: "北京大学数学系硕士"
+  - period: "1984-1988"
     type: education
     institution: harvard
     role: "PhD"
-    notes: "导师: S.T. Yau"
-  - period: "~2005-present"
-    type: position
-    institution: pku-bicmr
-    role: "教授, 曾任 BICMR 主任"
-    notes: "北京大学"
+    advisor: yau-shingtung
+    notes: "哈佛大学，导师 Shing-Tung Yau。博士论文 \"Kähler Metrics on Algebraic Manifolds\""
+  - period: "1994"
+    type: award
+    title: "Alan T. Waterman Award (NSF)"
+  - period: "1996"
+    type: award
+    title: "Oswald Veblen Prize in Geometry (AMS)"
+  - period: "2001"
+    type: award
+    title: "中国科学院院士"
   - period: "2002"
     type: award
     title: "ICM Plenary Speaker"
+  - period: "2004"
+    type: award
+    title: "American Academy of Arts and Sciences Fellow"
+  - period: "2005-present"
+    type: position
+    institution: pku-bicmr
+    role: "BICMR 主任/讲席教授"
+    notes: "北京大学国际数学研究中心主任 (2005 创建至今)"
+  - period: "2009-present"
+    type: position
+    institution: princeton
+    role: "Eugene Higgins Professor"
+    notes: "普林斯顿大学数学系"
+  - period: "2013-2017"
+    type: position
+    institution: pku
+    role: "北大数学学院院长"
 research_areas:
   - differential-geometry
+  - kahler-einstein-metrics
+  - k-stability
+  - kahler-ricci-flow
   - gromov-witten-theory
   - quantum-cohomology
-advisor: null
+advisor: yau-shingtung
 students: []
 key_collaborators:
   - person: liu-xiaobo
@@ -34,10 +69,35 @@ key_collaborators:
 activity:
   total_papers: 100
   active_period: "1988-present"
-external_ids: {}
-links: {}
+  phd_students: 69
+  notes: "Math Genealogy 记录 69 名博士生"
+external_ids:
+  mathgenealogy: "37749"
+links:
+  princeton: "https://dof.princeton.edu/people/gang-tian"
 personal_notes: |
-  北京大学讲席教授，BICMR 创始主任之一。与刘小博合作证明了 genus-0 Virasoro conjecture (1998)。
-  丘成桐的学生。ICM 2002 plenary speaker。
+  中国科学院院士 (2001)。北大 BICMR 创始主任 (2005 起), 普林斯顿 Eugene Higgins Professor。
+
+  教育: 南大本科(1982)→北大硕士(1984)→哈佛博士(1988, 导师 Yau), 论文 "Kähler Metrics on
+  Algebraic Manifolds"。
+
+  主要贡献: Kähler-Einstein 度量存在性、K-稳定性(Yau-Tian-Donaldson 猜想)、
+  Kähler-Ricci 流(与宋镇合作的 Tian-Song MMP 理论)、与 John Morgan 合作阐释
+  Perelman 的 Poincaré/几何化猜想证明。与刘小博合作证明 genus-0 Virasoro 猜想 (1998)。
+
+  重要奖项: Waterman Award (1994), Veblen Prize (1996), AAAS Fellow (2004),
+  ICM 2002 全体报告。
+sources:
+  - label: "Wikipedia: Tian Gang"
+    url: "https://en.wikipedia.org/wiki/Tian_Gang"
+  - label: "Math Genealogy (id=37749)"
+    url: "https://www.genealogy.math.ndsu.nodak.edu/id.php?id=37749"
+  - label: "Princeton DoF"
+    url: "https://dof.princeton.edu/people/gang-tian"
 tags:
   - pku
+  - pku-bicmr
+  - senior-researcher
+  - important-person
+  - cas-member
+  - icm-plenary

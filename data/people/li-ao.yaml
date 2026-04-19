@@ -8,13 +8,14 @@ nationality: Chinese
 gender: null
 photo_url: null
 career_timeline:
-  - period: "present"
+  - period: "2023-09 — present"
     type: education
     institution: hust
     role: "硕士研究生 (Master's Student)"
-    notes: "华中科技大学数学中心 (Center for Mathematical Sciences)"
+    advisor: xiang-maosong
+    notes: "华中科技大学数学中心, 导师向茂松。2023 年 9 月入学"
 research_areas: []
-advisor: null
+advisor: xiang-maosong
 students: []
 key_collaborators: []
 publications: []
@@ -26,12 +27,14 @@ external_ids: {}
 links:
   math_center: "https://mathcenter.hust.edu.cn/info/1049/3121.htm"
 personal_notes: |
-  HUST 数学中心在读硕士研究生，隶属 Maosong Xiang 等教授所在的 HUST 数学中心体系。
+  HUST 数学中心在读硕士研究生 (2023-09 入学), 导师向茂松 (Maosong Xiang)。
+  信息来源 HUST faculty 系统向茂松主页的学生信息页。
   2026 年 HUST 数学物理与几何研讨会 HUST 参会学生之一。
-  具体研究方向、导师、发表论文等信息官方页面暂未填写。
 sources:
   - label: "HUST Math Center member page"
     url: "https://mathcenter.hust.edu.cn/info/1049/3121.htm"
+  - label: "HUST faculty 向茂松学生信息页 (李澳)"
+    url: "http://faculty.hust.edu.cn/XIANGMAOSONG/zh_CN/xsxx/2193892/content/4743.htm"
 tags:
   - hust
   - student

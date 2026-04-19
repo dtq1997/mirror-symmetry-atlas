@@ -20,7 +20,8 @@ career_timeline:
     type: education
     institution: stony-brook
     role: "PhD"
-    notes: "纽约州立大学石溪分校 (Stony Brook University)"
+    advisor: lebrun-claude
+    notes: "纽约州立大学石溪分校 (Stony Brook University), 博士导师 Claude LeBrun。学位论文 \"Connected Sums of Self-Dual Orbifolds\""
   - period: "1995-1997"
     type: position
     institution: ucsb
@@ -54,7 +55,7 @@ research_areas:
   - gromov-witten-theory
   - mathematical-physics
   - random-matrices
-advisor: null
+advisor: lebrun-claude
 students:
   - guo-shuai
   - zhang-qingsheng

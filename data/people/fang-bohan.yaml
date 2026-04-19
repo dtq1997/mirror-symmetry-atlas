@@ -8,11 +8,17 @@ nationality: Chinese
 gender: male
 photo_url: null
 career_timeline:
-  - period: "2010"
+  - period: "2001-2005"
+    type: education
+    institution: pku
+    role: "本科"
+    notes: "北京大学数学系学士"
+  - period: "2005-2010"
     type: education
     institution: northwestern
     role: "PhD"
-    notes: "Northwestern University, 论文: Mirror Symmetry, Constructible Sheaves And Toric Varieties"
+    advisor: zaslow-eric
+    notes: "Northwestern University, 导师 Eric Zaslow。博士论文 \"Mirror Symmetry, Constructible Sheaves And Toric Varieties\""
   - period: "~2010-2014"
     type: position
     institution: columbia
@@ -36,7 +42,7 @@ research_areas:
   - homological-mirror-symmetry
   - gromov-witten-theory
   - gamma-conjecture
-advisor: null
+advisor: zaslow-eric
 students: []
 key_collaborators:
   - person: liu-melissa
@@ -80,9 +86,23 @@ external_ids:
 links:
   homepage: "https://bohanfang.github.io/"
 personal_notes: |
-  北大 BICMR 教授。与刘秋菊(Melissa Liu)长期合作(11篇)，
-  与宗正宇合作(7篇)，三人形成 toric CY / remodeling conjecture 核心团队。
+  北大 BICMR 教授 (2023 起)。2005 北大本科→2010 Northwestern 博士 (导师 Eric Zaslow)→
+  Columbia Ritt 助理教授 (2010-2014)→北大 BICMR (2014 起, 2015 青千)。
+
+  与刘秋菊(Melissa Liu)长期合作(11篇), 与宗正宇合作(7篇), 三人形成 toric CY / remodeling
+  conjecture 核心团队。主要贡献: coherent sheaf-constructible sheaf 对应 (HMS 重要方法),
+  Remodeling Conjecture 的证明 (拓扑递归+枚举几何), 发表于 Invent. Math. 和 JAMS。
+
   2026 HUST 会议报告: Conic bundle and the mirror hypersurface for a toric CY n-fold
-  Joint with Yuze Sun and Peng Zhou. HMS, Gamma classes, microlocal sheaves.
+  (with Yuze Sun, Peng Zhou)。HMS, Gamma classes, microlocal sheaves。
+
+  承担 NSFC 杰青项目 12125101 "镜像对称" (2021-2026)。
+sources:
+  - label: "Personal homepage"
+    url: "https://bohanfang.github.io/"
+  - label: "BICMR: 第十七届中国青年科技奖"
+    url: "https://bicmr.pku.edu.cn/content/show/3-293.html"
+  - label: "Math Genealogy (id=150849)"
+    url: "https://www.mathgenealogy.org/id.php?id=150849"
 tags:
   - pku

@@ -1,41 +1,79 @@
 slug: yang-yi
 name:
   en: Yi Yang
-  zh: 杨艺
+  zh: 杨毅
 born: null
 died: null
 nationality: Chinese
 gender: null
 photo_url: null
 career_timeline:
-  - period: "[待验证]"
+  - period: "2008-2012"
+    type: education
+    institution: sun-yat-sen
+    role: "本科"
+    notes: "中山大学地理科学与规划学院学士"
+  - period: "2012-2017"
+    type: education
+    institution: sun-yat-sen
+    role: "博士"
+    notes: "中山大学数学学院博士。2015.09-2016.09 南密西西比大学联合培养博士。导师 罗俊 (Jun Luo, 数学学院, 分形/动力系统方向; 与同名物理学家院士异人)。[待验证 具体学院名称]"
+  - period: "2018-05 — 2020-03"
+    type: position
+    institution: pku
+    role: "博士后"
+    notes: "北京大学数学科学学院博士后"
+  - period: "2020-04 — present"
     type: position
     institution: sun-yat-sen
-    role: "[待验证]"
-    notes: "中山大学数学学院，具体身份（博士生/博后/教职）[待验证]。2026 年 4 月 HUST 数学物理与几何研讨会签到表列为中山大学参会人员"
-research_areas: []
+    role: "助理教授"
+    notes: "中山大学数学学院(珠海) 助理教授"
+research_areas:
+  - dynamical-systems
+  - fractal-geometry
+  - julia-sets
+  - continua-theory
 advisor: null
 students: []
-key_collaborators: []
+key_collaborators:
+  - person: null
+    name: "罗俊 Jun Luo (SYSU)"
+    since: 2015
+    topic: "Julia 集几何拓扑、有理函数动力系统"
+    papers_count: 3
+  - person: null
+    name: "Benoît Loridant (Leoben)"
+    since: 2018
+    topic: "Julia sets, self-affine tiles"
+    papers_count: 2
 publications: []
 activity:
   total_papers: null
-  active_period: null
+  active_period: "2017-present"
+  notes: "arXiv/OpenAlex 上 Yi Yang 重名严重, 未做 profile 合并"
 external_ids: {}
-links: {}
+links:
+  homepage: "https://mathzh.sysu.edu.cn/zh-hans/teacher/131"
 personal_notes: |
-  中山大学数学学院参会人员（2026 年 4 月 HUST 数学物理与几何研讨会）。
-  信息极为有限：姓名"杨艺"在中文数学家中常见，搜索无法唯一确定。
-  arXiv 上以 Yi Yang 署名的论文极多，但无法确认哪一位对应 SYSU 的杨艺，
-  且没有与 SYSU 主要组（李长征、柯华忠、何伟强、胡建勋）的合作论文记录。
-  可能是：
-  (1) 刚入学的博士生，尚无论文发表；
-  (2) 研究方向不在当前数据库覆盖的 mirror symmetry / GW / Frobenius 生态中；
-  (3) 来自 SYSU 其他方向（如随机分析、PDE）来听讲座的参会者。
-  [待验证] 全部基本信息：导师、方向、身份、论文、教育背景。
+  中山大学数学学院(珠海)助理教授, 2020 年起任职。
+
+  本科(2008-2012)、博士(2012-2017)均在中山大学, 博士期间(2015-2016)曾赴
+  南密西西比大学联合培养。博导罗俊 (SYSU 数学学院, 分形拓扑/动力系统方向)。
+  PKU 博士后(2018-2020)后回 SYSU(珠海校区)任教。
+
+  研究方向: 动力系统与连续统理论, 有理函数 Julia 集的几何拓扑, 自相似 tiles。
+  代表作: Luo-Yang (Chaos Solitons & Fractals 2017), Loridant-Luo-Yang (Adv Math 2019)。
+
+  与当前数据库的主导方向(镜像对称/GW/Frobenius)不重叠, 是来听 HUST 2026 研讨会的
+  参会者而非领域内合作者。
+
+  **名字修正**: 原数据标"杨艺", 经 SYSU 珠海 faculty 页确认应为"杨毅" (2026-04 更正)。
 sources:
+  - label: "SYSU(珠海) 数学学院杨毅主页"
+    url: "https://mathzh.sysu.edu.cn/zh-hans/teacher/131"
   - label: "HUST 2026 会议签到表"
     url: null
 tags:
   - sun-yat-sen
-  - stub
+  - dynamical-systems
+  - external-field
