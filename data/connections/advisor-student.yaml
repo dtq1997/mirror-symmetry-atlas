@@ -319,3 +319,64 @@ edges:
     year: 2022
     institution: pku-bicmr
     notes: "王智勇北大博后 mentor (arXiv:2409.14124 acknowledgement 致谢郭帅)"
+
+  # 博后合作导师批量补全 (2026-04)
+  - source: yau-shingtung
+    target: chan-kwokwai
+    type: postdoc-mentor
+    year: 2008
+    institution: harvard
+    notes: "Croucher Postdoctoral Fellow 2008-2010 at Harvard, mentor Yau"
+  - source: manin-yuri
+    target: cotti
+    type: postdoc-mentor
+    year: 2017
+    institution: mpim-bonn
+    notes: "MPIM Bonn 博后 2017-2019, mentor Manin"
+  - source: mazzocco
+    target: cotti
+    type: postdoc-mentor
+    year: 2019
+    institution: birmingham
+    notes: "Birmingham PDRA 2019-2020, mentor Mazzocco"
+  - source: si-li
+    target: he-weiqiang
+    type: postdoc-mentor
+    institution: tsinghua-ymsc
+    notes: "清华 YMSC 博后合作导师 Si Li (Tsinghua Postdoc Grant 100410019)"
+  - source: zhang-youjin
+    target: ji-ce
+    type: postdoc-mentor
+    year: 2024
+    institution: tsinghua
+    notes: "清华水木学者博后, 在张友金组"
+  - source: si-li
+    target: tang-xinxing
+    type: postdoc-mentor
+    year: 2018
+    institution: tsinghua-ymsc
+    notes: "清华 YMSC 博后 2018-2021, mentor Si Li"
+  - source: dubrovin
+    target: wu-chaozhong
+    type: postdoc-mentor
+    year: 2010
+    institution: sissa
+    notes: "SISSA 博后 2010-2014, Marie Curie Fellow, mentor Dubrovin"
+  - source: dubrovin
+    target: yang-di
+    type: postdoc-mentor
+    year: 2013
+    institution: sissa
+    notes: "SISSA 博后 2013-2016, mentor Dubrovin (合作 11 篇)"
+  - source: zagier
+    target: yang-di
+    type: postdoc-mentor
+    year: 2016
+    institution: mpim-bonn
+    notes: "MPIM Bonn 博后 2016-2018, mentor Zagier (合作 5 篇)"
+  - source: dubrovin
+    target: zhang-youjin
+    type: postdoc-mentor
+    year: 1996
+    institution: sissa
+    notes: "SISSA 博后 1996-1998, 与 Dubrovin 开始长期合作"

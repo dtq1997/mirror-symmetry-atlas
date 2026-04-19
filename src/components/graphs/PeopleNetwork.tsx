@@ -42,7 +42,6 @@ export default function PeopleNetwork({ graphData, institutionNames }: PeopleNet
     "postdoc-mentor": true,
     "postdoc-group": true,
     coauthor: true,
-    friendship: true,
     institutional: false,
     "co-student": true,
     grant: true,

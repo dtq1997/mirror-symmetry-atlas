@@ -234,7 +234,6 @@ export type ConnectionType =
   | "postdoc-mentor"
   | "postdoc-group"
   | "coauthor"
-  | "friendship"
   | "institutional"
   | "co-student"
   | "grant";
