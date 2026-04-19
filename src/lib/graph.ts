@@ -205,6 +205,77 @@ export function buildPeopleGraph(
   return { nodes, links };
 }
 
+// ===== Acknowledgement graph: coauthor + acknowledgement only =====
+
+export function buildAckGraph(
+  people: Person[],
+  connections: Connection[]
+): GraphData {
+  // Filter relevant connections
+  const relevantLinks = connections.filter(
+    (c) => c.type === "coauthor" || c.type === "acknowledgement"
+  );
+
+  // Compute ack-weighted importance per person (in + out)
+  const ackDegree = new Map<string, { inW: number; outW: number }>();
+  for (const c of connections) {
+    if (c.type !== "acknowledgement") continue;
+    const w = c.weight ?? 1;
+    const src = ackDegree.get(c.source) ?? { inW: 0, outW: 0 };
+    src.outW += w;
+    ackDegree.set(c.source, src);
+    const tgt = ackDegree.get(c.target) ?? { inW: 0, outW: 0 };
+    tgt.inW += w;
+    ackDegree.set(c.target, tgt);
+  }
+
+  // Keep only nodes appearing in coauthor or ack edges, plus all people with any ack degree
+  const kept = new Set<string>();
+  for (const l of relevantLinks) {
+    kept.add(l.source);
+    kept.add(l.target);
+  }
+
+  const nodes: GraphNode[] = [];
+  for (const p of people) {
+    if (!kept.has(p.slug)) continue;
+    const d = ackDegree.get(p.slug) ?? { inW: 0, outW: 0 };
+    // Radius = 4 + log2(1 + inW*2 + outW) * 1.4 (被致谢权重更高,代表影响力)
+    const score = d.inW * 2 + d.outW;
+    const r = score > 0 ? Math.min(4 + Math.log2(score + 1) * 1.4, 14) : 4;
+    nodes.push({
+      id: p.slug,
+      label: p.name.zh || p.name.en,
+      type: "person",
+      radius: r,
+      color: personColor(p),
+      opacity: 1,
+      isGhost: false,
+      data: p,
+    });
+  }
+
+  const nodeIds = new Set(nodes.map((n) => n.id));
+  const links: GraphLink[] = [];
+  for (const c of relevantLinks) {
+    if (!nodeIds.has(c.source) || !nodeIds.has(c.target)) continue;
+    const w = c.weight ?? 1;
+    links.push({
+      source: c.source,
+      target: c.target,
+      type: c.type,
+      weight: w,
+      color: EDGE_COLORS[c.type],
+      dash: EDGE_DASH[c.type],
+      opacity: c.type === "acknowledgement" ? Math.min(0.3 + w * 0.15, 0.85) : 0.6,
+      label: c.type === "acknowledgement" && w > 1 ? `${w}` : undefined,
+      data: c,
+    });
+  }
+
+  return { nodes, links };
+}
+
 // ===== Time filter =====
 
 function periodContainsYear(period: string | undefined, year: number): boolean {

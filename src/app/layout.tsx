@@ -23,6 +23,7 @@ export const metadata: Metadata = {
 const NAV_ITEMS = [
   { href: "/", label: "首页" },
   { href: "/people", label: "人物" },
+  { href: "/acknowledgements", label: "致谢网" },
   { href: "/concepts", label: "概念" },
   { href: "/timeline", label: "时间线" },
   { href: "/papers", label: "论文" },
