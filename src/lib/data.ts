@@ -203,6 +203,32 @@ export function getAllConnections(): Connection[] {
     }
   }
 
+  // Load derived grant edges (去重 source/target pair)
+  const grantFile = path.join(DATA_DIR, "derived", "grant-edges.yaml");
+  if (fs.existsSync(grantFile)) {
+    const data = readYaml<{ edges?: Connection[] }>(grantFile);
+    const seen = new Set<string>();
+    for (const c of connections) {
+      if (c.type === "grant") {
+        seen.add([c.source, c.target].sort().join("|"));
+      }
+    }
+    if (data.edges) {
+      for (const e of data.edges) {
+        const key = [e.source, e.target].sort().join("|");
+        if (seen.has(key)) continue;
+        seen.add(key);
+        connections.push({
+          source: e.source,
+          target: e.target,
+          type: "grant",
+          notes: e.notes,
+          derived: true,
+        } as Connection);
+      }
+    }
+  }
+
   return connections;
 }
 

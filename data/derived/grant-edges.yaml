@@ -1,0 +1,236 @@
+# 自动推导的共享基金边 (从致谢段基金号聚合)
+# 仅包含已建档学者之间的配对,且不与 data/connections/grant.yaml 重复
+edges:
+  - source: hu-jianxun
+    target: ke-huazhong
+    type: grant
+    derived: true
+    notes: "共享基金: NSFC 11890662; NSFC 12271529; NSFC 12271532; JSPS 21H04994; NSFC 12471043; NSFC 11831017"
+
+  - source: hu-jianxun
+    target: li-changzheng
+    type: grant
+    derived: true
+    notes: "共享基金: NSFC 11890662; NSFC 12271529; NSFC 12271532; JSPS 21H04994; NSFC 12471043; NSFC 11831017"
+
+  - source: fang-bohan
+    target: zong-zhengyu
+    type: grant
+    derived: true
+    notes: "共享基金: NSF DMS-1206667; NSFC 11701315; NSFC 11831017; NSFC 12125101; NSFC 11890661"
+
+  - source: liu-siqi
+    target: yang-di
+    type: grant
+    derived: true
+    notes: "共享基金: NSFC 11071135; NSFC 11171176; NSFC 11725104"
+
+  - source: liu-xiaobo
+    target: yang-chenglang
+    type: grant
+    derived: true
+    notes: "共享基金: NSFC 11890662; NSFC 12288201"
+
+  - source: guo-jindong
+    target: yang-di
+    type: grant
+    derived: true
+    notes: "共享基金: NSFC 12061131014; NSFC 12371254"
+
+  - source: guo-jindong
+    target: zhou-chunhui
+    type: grant
+    derived: true
+    notes: "共享基金: NSFC 12061131014; NSFC 12371254"
+
+  - source: yang-di
+    target: zhou-chunhui
+    type: grant
+    derived: true
+    notes: "共享基金: NSFC 12061131014; NSFC 12371254"
+
+  - source: wang-zhiyuan
+    target: yang-chenglang
+    type: grant
+    derived: true
+    notes: "共享基金: NSFC 12288201; CPSF 2023M743717"
+
+  - source: liu-siqi
+    target: zhang-bin
+    type: grant
+    derived: true
+    notes: "共享基金: NSFC 10631050"
+
+  - source: wu-chaozhong
+    target: zhang-bin
+    type: grant
+    derived: true
+    notes: "共享基金: NSFC 10631050"
+
+  - source: li-changzheng
+    target: xu-xiaomeng
+    type: grant
+    derived: true
+    notes: "共享基金: JSPS Scientific"
+
+  - source: li-changzheng
+    target: zeng-haozhi
+    type: grant
+    derived: true
+    notes: "共享基金: JSPS Scientific"
+
+  - source: xu-xiaomeng
+    target: zeng-haozhi
+    type: grant
+    derived: true
+    notes: "共享基金: JSPS Scientific"
+
+  - source: li-changzheng
+    target: li-qin
+    type: grant
+    derived: true
+    notes: "共享基金: NSF -1309118"
+
+  - source: boalch
+    target: zeng-haozhi
+    type: grant
+    derived: true
+    notes: "共享基金: JSPS Grant"
+
+  - source: liu-siqi
+    target: zhou-chunhui
+    type: grant
+    derived: true
+    notes: "共享基金: NSFC 11371214"
+
+  - source: du-chengyong
+    target: guo-shuai
+    type: grant
+    derived: true
+    notes: "共享基金: NSFC 11431001"
+
+  - source: wang-zhiyuan
+    target: yang-di
+    type: grant
+    derived: true
+    notes: "共享基金: NSFC 11661131005"
+
+  - source: tang-qian
+    target: xu-xiaomeng
+    type: grant
+    derived: true
+    notes: "共享基金: NSFC 12171006"
+
+  - source: hu-jianxun
+    target: liu-xiaobo
+    type: grant
+    derived: true
+    notes: "共享基金: NSFC 11890662"
+
+  - source: hu-jianxun
+    target: yang-chenglang
+    type: grant
+    derived: true
+    notes: "共享基金: NSFC 11890662"
+
+  - source: ke-huazhong
+    target: liu-xiaobo
+    type: grant
+    derived: true
+    notes: "共享基金: NSFC 11890662"
+
+  - source: ke-huazhong
+    target: yang-chenglang
+    type: grant
+    derived: true
+    notes: "共享基金: NSFC 11890662"
+
+  - source: li-changzheng
+    target: liu-xiaobo
+    type: grant
+    derived: true
+    notes: "共享基金: NSFC 11890662"
+
+  - source: li-changzheng
+    target: yang-chenglang
+    type: grant
+    derived: true
+    notes: "共享基金: NSFC 11890662"
+
+  - source: liu-xiaobo
+    target: wang-zhiyuan
+    type: grant
+    derived: true
+    notes: "共享基金: NSFC 12288201"
+
+  - source: hu-jianxun
+    target: song-jiayu
+    type: grant
+    derived: true
+    notes: "共享基金: NSFC 12271529"
+
+  - source: ke-huazhong
+    target: song-jiayu
+    type: grant
+    derived: true
+    notes: "共享基金: NSFC 12271529"
+
+  - source: li-changzheng
+    target: song-jiayu
+    type: grant
+    derived: true
+    notes: "共享基金: NSFC 12271529"
+
+  - source: guo-shuai
+    target: zhang-huailiang
+    type: grant
+    derived: true
+    notes: "共享基金: NSFC 12225101"
+
+  - source: guo-shuai
+    target: zhang-qingsheng
+    type: grant
+    derived: true
+    notes: "共享基金: NSFC 12225101"
+
+  - source: zhang-huailiang
+    target: zhang-qingsheng
+    type: grant
+    derived: true
+    notes: "共享基金: NSFC 12225101"
+
+  - source: fang-bohan
+    target: hu-jianxun
+    type: grant
+    derived: true
+    notes: "共享基金: NSFC 11831017"
+
+  - source: fang-bohan
+    target: ke-huazhong
+    type: grant
+    derived: true
+    notes: "共享基金: NSFC 11831017"
+
+  - source: fang-bohan
+    target: li-changzheng
+    type: grant
+    derived: true
+    notes: "共享基金: NSFC 11831017"
+
+  - source: hu-jianxun
+    target: zong-zhengyu
+    type: grant
+    derived: true
+    notes: "共享基金: NSFC 11831017"
+
+  - source: ke-huazhong
+    target: zong-zhengyu
+    type: grant
+    derived: true
+    notes: "共享基金: NSFC 11831017"
+
+  - source: li-changzheng
+    target: zong-zhengyu
+    type: grant
+    derived: true
+    notes: "共享基金: NSFC 11831017"

@@ -1,4 +1,4 @@
-import { getAllPeople, getPerson, getAllConnections } from "@/lib/data";
+import { getAllPeople, getPerson, getAllConnections, getAckMentions } from "@/lib/data";
 import PersonTimeline from "@/components/person/PersonTimeline";
 import PersonStats from "@/components/person/PersonStats";
 import Link from "next/link";
@@ -24,6 +24,14 @@ export default async function PersonPage({
   const coauthors = connections
     .filter((c) => c.type === "coauthor")
     .sort((a, b) => (b.weight ?? 0) - (a.weight ?? 0));
+
+  const ackMentions = getAckMentions();
+  const acknowledges = (ackMentions.bySource.get(slug) ?? [])
+    .slice()
+    .sort((a, b) => b.papers.length - a.papers.length);
+  const acknowledgedBy = (ackMentions.byTarget.get(slug) ?? [])
+    .slice()
+    .sort((a, b) => b.papers.length - a.papers.length);
 
   return (
     <div className="max-w-4xl mx-auto px-6 py-10 w-full">
@@ -236,6 +244,112 @@ export default async function PersonPage({
               </div>
             );
             })}
+          </div>
+        </section>
+      )}
+
+      {/* Acknowledgement network */}
+      {(acknowledges.length > 0 || acknowledgedBy.length > 0) && (
+        <section className="mb-8">
+          <h2 className="text-lg font-semibold text-[#e8e8f0] mb-3">
+            致谢网
+            <span className="text-xs text-[#8888a0] font-normal ml-2">
+              从 arXiv 论文致谢段抽取
+            </span>
+          </h2>
+          <div className="grid md:grid-cols-2 gap-4">
+            {acknowledgedBy.length > 0 && (
+              <div className="bg-[#14141f] rounded-xl p-5 border border-[#2a2a3a]">
+                <h3 className="text-sm font-medium text-[#8888a0] mb-3">
+                  被致谢（{acknowledgedBy.length} 人）
+                </h3>
+                <div className="space-y-2">
+                  {acknowledgedBy.map((m) => (
+                    <div
+                      key={m.source}
+                      className="flex items-center justify-between gap-2"
+                    >
+                      <Link
+                        href={`/people/${m.source}`}
+                        className="text-sm text-[#f59e0b] hover:text-[#fbbf24] transition-colors truncate"
+                      >
+                        {m.source}
+                      </Link>
+                      <div className="flex items-center gap-1 shrink-0">
+                        <span className="text-xs text-[#a8a29e] font-mono">
+                          {m.papers.length}×
+                        </span>
+                        <div className="flex gap-1">
+                          {m.papers.slice(0, 3).map((p) => (
+                            <a
+                              key={p}
+                              href={`https://arxiv.org/abs/${p}`}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="text-[10px] text-[#8888a0] hover:text-[#e8e8f0] font-mono"
+                              title={p}
+                            >
+                              ↗
+                            </a>
+                          ))}
+                          {m.papers.length > 3 && (
+                            <span className="text-[10px] text-[#8888a0]">
+                              +{m.papers.length - 3}
+                            </span>
+                          )}
+                        </div>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )}
+            {acknowledges.length > 0 && (
+              <div className="bg-[#14141f] rounded-xl p-5 border border-[#2a2a3a]">
+                <h3 className="text-sm font-medium text-[#8888a0] mb-3">
+                  致谢过（{acknowledges.length} 人）
+                </h3>
+                <div className="space-y-2">
+                  {acknowledges.map((m) => (
+                    <div
+                      key={m.target}
+                      className="flex items-center justify-between gap-2"
+                    >
+                      <Link
+                        href={`/people/${m.target}`}
+                        className="text-sm text-[#f59e0b] hover:text-[#fbbf24] transition-colors truncate"
+                      >
+                        {m.target}
+                      </Link>
+                      <div className="flex items-center gap-1 shrink-0">
+                        <span className="text-xs text-[#a8a29e] font-mono">
+                          {m.papers.length}×
+                        </span>
+                        <div className="flex gap-1">
+                          {m.papers.slice(0, 3).map((p) => (
+                            <a
+                              key={p}
+                              href={`https://arxiv.org/abs/${p}`}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="text-[10px] text-[#8888a0] hover:text-[#e8e8f0] font-mono"
+                              title={p}
+                            >
+                              ↗
+                            </a>
+                          ))}
+                          {m.papers.length > 3 && (
+                            <span className="text-[10px] text-[#8888a0]">
+                              +{m.papers.length - 3}
+                            </span>
+                          )}
+                        </div>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )}
           </div>
         </section>
       )}
