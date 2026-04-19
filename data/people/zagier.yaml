@@ -8,25 +8,52 @@ nationality: American
 gender: male
 photo_url: null
 career_timeline:
-  - period: "1971"
-    type: award
-    title: "PhD at age 20, University of Bonn"
-  - period: "1976-2014"
+  - period: "[?]-1971"
+    type: education
+    institution: oxford
+    role: "DPhil"
+    advisor: "Friedrich Hirzebruch"
+    notes: "Oxford DPhil 1971 (20 岁)。导师 Hirzebruch (非 Atiyah；延续 Atiyah-Hirzebruch K-理论传统)。论文《Equivariant Pontrjagin Classes and Applications to Orbit Spaces》(Springer LNM 290, 1972)"
+  - period: "[?]-1974"
+    type: education
+    institution: bonn
+    role: "Habilitation"
+    notes: "23 岁 habilitation, 24 岁教授"
+  - period: "1976-1988"
+    type: position
+    institution: maryland
+    role: "Professor (12 年)"
+  - period: "1984-present"
     type: position
     institution: mpim-bonn
-    role: "Director, Max Planck Institute for Mathematics"
+    role: "Scientific Member → Director (1995-2019) → Emeritus Director"
+  - period: "1990-2001"
+    type: position
+    institution: utrecht
+    role: "Professor"
+  - period: "2000-2014"
+    type: position
+    institution: college-de-france
+    role: "Chaire"
   - period: "2014-present"
     type: position
     institution: ictp
     role: "Distinguished Staff Associate"
-    notes: "Also affiliated with MPI Bonn"
+    notes: "Trieste"
+  - period: "2001"
+    type: award
+    title: "Karl Georg Christian von Staudt Prize"
+  - period: "2024"
+    type: award
+    title: "Gumin Prize"
 research_areas:
   - number-theory
   - modular-forms
   - mathematical-physics
   - integrable-hierarchy
-advisor: null
-students: []
+advisor: "Friedrich Hirzebruch"
+students:
+  - kontsevich
 key_collaborators:
   - person: yang-di
     since: 2018
@@ -38,7 +65,16 @@ activity:
 external_ids: {}
 links: {}
 personal_notes: |
-  20岁获博士学位。MPI Bonn 长期 Director。
+  20岁获博士学位 (Oxford 1971, Hirzebruch 指导)。MPIM Bonn Director 1995-2019。
+  学生包括 Kontsevich (Fields 1998) 和 Viazovska (Fields 2022)。
   与杨迪合作的 KdV tau-function 工作把数论方法引入可积系统。
   代表作: "On tau-functions for the KdV hierarchy" (with Dubrovin, Yang)
-tags: []
+sources:
+  - label: "Wikipedia: Don Zagier"
+    url: "https://en.wikipedia.org/wiki/Don_Zagier"
+  - label: "MPIM page"
+    url: "https://www.mpim-bonn.mpg.de/node/97"
+  - label: "Personal homepage"
+    url: "https://people.mpim-bonn.mpg.de/zagier/"
+tags:
+  - mpim-director

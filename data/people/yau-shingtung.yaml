@@ -2,35 +2,74 @@ slug: yau-shingtung
 name:
   en: Shing-Tung Yau
   zh: 丘成桐
-born: 1949
+born: "1949-04-04"
 died: null
 nationality: Chinese
 gender: male
 photo_url: null
 career_timeline:
-  - period: "1969"
+  - period: "1966-1969"
     type: education
     institution: cuhk
     role: "本科, 数学"
-  - period: "1971"
+    notes: "港中大三年制破格毕业"
+  - period: "1969-1971"
     type: education
     institution: uc-berkeley
     role: "博士, 数学"
     advisor: "Shiing-Shen Chern"
-    notes: "UC Berkeley PhD, 导师陈省身"
+    notes: "UC Berkeley PhD 1971 (22 岁), 导师陈省身"
+  - period: "1971-1972"
+    type: position
+    institution: ias
+    role: "IAS Member"
+  - period: "1972-1974"
+    type: position
+    institution: stony-brook
+    role: "助理教授"
+  - period: "1974-1979"
+    type: position
+    institution: stanford
+    role: "副教授"
+  - period: "1980-1984"
+    type: position
+    institution: ias
+    role: "IAS Professor"
+  - period: "1984-1987"
+    type: position
+    institution: ucsd
+    role: "讲席教授"
   - period: "1987-2022"
     type: position
     institution: harvard
     role: "William Caspar Graustein Professor"
+  - period: "2022-present"
+    type: position
+    institution: tsinghua-ymsc
+    role: "讲席教授 / 主任; Harvard 荣休"
+    notes: "清华大学丘成桐数学科学中心主任; 2022.4 Harvard 退休转荣休"
+  - period: "1981"
+    type: award
+    title: "Oswald Veblen Prize (AMS)"
   - period: "1982"
     type: award
     title: "菲尔兹奖"
     notes: "因证明 Calabi 猜想、正质量猜想等获奖"
-  - period: "2022-present"
-    type: position
-    institution: tsinghua-ymsc
-    role: "讲席教授 / 主任"
-    notes: "清华大学丘成桐数学科学中心"
+  - period: "1985"
+    type: award
+    title: "MacArthur Fellowship"
+  - period: "1994"
+    type: award
+    title: "Crafoord Prize"
+  - period: "1997"
+    type: award
+    title: "US National Medal of Science"
+  - period: "2010"
+    type: award
+    title: "Wolf Prize in Mathematics"
+  - period: "2023"
+    type: award
+    title: "Shaw Prize in Mathematical Sciences"
 research_areas:
   - differential-geometry
   - calabi-yau
@@ -41,6 +80,8 @@ advisor: "Shiing-Shen Chern"
 students:
   - leung-naichung
   - si-li
+  - liu-melissa
+  - tian-gang
 key_collaborators: []
 publications: []
 activity:
@@ -51,11 +92,12 @@ external_ids:
 links:
   homepage: "https://ymsc.tsinghua.edu.cn/info/1104/1255.htm"
 personal_notes: |
-  菲尔兹奖（1982）、Wolf 数学奖（2010）。Calabi 猜想、正质量猜想的证明者。
-  Calabi-Yau 流形以他命名。
-  1987-2022 在 Harvard 任讲席教授，培养了梁乃聪（1993）、李思（2011）等数学物理方向中国学生。
-  2022 年起回国全职任清华大学丘成桐数学科学中心主任。
-  倡议建立 BIMSA（北京雁栖湖应用数学研究院）。
+  1949.4.4 出生于汕头。
+  菲尔兹奖 1982、Wolf 数学奖 2010、Shaw Prize 2023。Calabi 猜想、正质量猜想的证明者。
+  Calabi-Yau 流形以他命名。66+ PhD 学生 (MGP)。
+  1987-2022 Harvard 讲席教授；培养了梁乃聪 (1993)、刘秋菊 (2002)、李思 (2011)、田刚等学生。
+  2022 起回国全职任清华 YMSC 主任。
+  机构建设：港中大 IMS (1993)、Morningside Center (1995)、Harvard CMSA (2014)、清华 YMSC、BIMSA。
 sources:
   - label: "清华 YMSC 主页"
     url: "https://ymsc.tsinghua.edu.cn/info/1104/1255.htm"

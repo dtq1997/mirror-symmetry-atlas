@@ -8,25 +8,47 @@ nationality: Chinese
 gender: male
 photo_url: null
 career_timeline:
-  - period: "1985"
+  - period: "1978-1985"
     type: education
     institution: sichuan-u
-    role: "本科, 数学"
-  - period: "1991"
+    role: "本硕, 数学"
+    notes: "四川大学本科+硕士"
+  - period: "1985-1991"
     type: education
     institution: uc-berkeley
     role: "博士, 数学"
     advisor: "Robion Kirby"
-  - period: "[待验证]-2019"
+    notes: "UC Berkeley PhD 1991 (非 1993)。MGP 记录导师为 Robion Kirby + Tomasz Mrowka；Berkeley 系内记载含 S. Kobayashi。论文《Gauge Theory and Its Applications to Riemannian Geometry》"
+  - period: "1991-1993"
+    type: position
+    institution: michigan-state
+    role: "博士后"
+    notes: "Michigan State University"
+  - period: "1993-1996"
+    type: position
+    institution: utah
+    role: "助理教授"
+  - period: "1996-2005"
+    type: position
+    institution: wisconsin-madison
+    role: "副教授→教授→Van Vleck Chair"
+    notes: "Wisconsin-Madison: 副教授 (1996)→教授 (1999)→Van Vleck Chair (2005)"
+  - period: "2005-2020"
     type: position
     institution: umich
-    role: "教授"
-    notes: "密歇根大学安娜堡分校"
-  - period: "2019-present"
+    role: "Bill Fulton Collegiate Chair Professor"
+    notes: "密歇根大学安娜堡分校 [待验证 Wisconsin/Michigan 重叠年份]"
+  - period: "2019.7-present"
     type: position
     institution: zju-ims
-    role: "永久教授 / 主任"
-    notes: "浙江大学数学高等研究院"
+    role: "求是讲席教授 / 首批 permanent member"
+    notes: "浙江大学数学高等研究院 (IASM)，permanent member 2020.1 起"
+  - period: "1998"
+    type: award
+    title: "ICM Invited Speaker (Berlin)"
+  - period: "2021"
+    type: award
+    title: "中国科学院院士"
 research_areas:
   - gromov-witten-theory
   - mirror-symmetry
@@ -67,6 +89,12 @@ personal_notes: |
 sources:
   - label: "浙大数学高等研究院主页"
     url: "https://person.zju.edu.cn/yongbinruan"
+  - label: "Math Genealogy (id=32004)"
+    url: "https://www.mathgenealogy.org/id.php?id=32004"
+  - label: "Wikipedia: Yongbin Ruan"
+    url: "https://en.wikipedia.org/wiki/Yongbin_Ruan"
+  - label: "IASM homepage"
+    url: "http://www.iasm.zju.edu.cn/iasm/RuanYongbin/list.htm"
 tags:
   - important-person
   - zju

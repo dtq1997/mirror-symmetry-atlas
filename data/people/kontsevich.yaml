@@ -12,8 +12,8 @@ career_timeline:
   type: education
   institution: bonn
   role: 博士
-  advisor: manin-yuri
-  notes: 在 Bonn 大学获博士学位
+  advisor: zagier
+  notes: "Bonn 大学博士 (部分源作 1991)。博导 Don Zagier (MPIM Bonn)，非 Manin。论文《Intersection Theory on the Moduli Space of Curves and the Matrix Airy Function》证明 Witten 猜想"
 - period: '1994'
   type: award
   title: ICM Plenary Speaker (Zurich)
@@ -31,7 +31,7 @@ research_areas:
 - deformation-quantization
 - topological-field-theory
 - algebraic-geometry
-advisor: manin-yuri
+advisor: zagier
 students: []
 key_collaborators: []
 activity:
@@ -95,11 +95,11 @@ activity:
 external_ids:
   openalex: A5018376358
 links: {}
-personal_notes: 'Fields Medal 1998. Homological Mirror Symmetry 的提出者。
-
-  Manin 的学生。
-
-  '
+personal_notes: |
+  Fields Medal 1998. Homological Mirror Symmetry 的提出者。
+  博导是 Don Zagier (Bonn/MPIM, 1992 PhD)，非 Manin。
+  Manin 是 Moscow 时期的合作者和伯乐，1994 年共同提出 Kontsevich-Manin GW 理论公理。
+  IHES permanent professor 自 1995 起。
 sources:
 - label: OpenAlex
   url: https://openalex.org/authors/A5018376358

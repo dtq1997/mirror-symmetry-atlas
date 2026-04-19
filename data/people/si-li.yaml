@@ -2,32 +2,45 @@ slug: si-li
 name:
   en: Si Li
   zh: 李思
-born: null
+born: "1984-01"
 died: null
 nationality: Chinese
 gender: male
 photo_url: null
 career_timeline:
-  - period: "[待验证]"
+  - period: "1999-2003"
     type: education
-    institution: pku
-    role: "本科 [待验证]"
-  - period: "[待验证]-2011"
+    institution: ustc
+    role: "本科, 少年班"
+    notes: "USTC 少年班"
+  - period: "2003-2005"
+    type: education
+    institution: ustc
+    role: "硕士"
+    advisor: "Sen Hu"
+    notes: "USTC 硕士, 导师胡森"
+  - period: "2006-2011"
     type: education
     institution: harvard
     role: "博士, 数学"
     advisor: yau-shingtung
-    notes: "Harvard PhD 2011, 导师丘成桐"
+    notes: "Harvard PhD 2011, 导师丘成桐 (非 Vafa 非 Costello; Costello 为后续合作者)。论文《Calabi-Yau Geometry and Higher Genus Mirror Symmetry》"
   - period: "2011-2014"
     type: position
     institution: boston-u
     role: "助理教授"
-    notes: "[待验证]"
   - period: "2014-present"
     type: position
     institution: tsinghua-ymsc
     role: "教授"
-    notes: "清华大学丘成桐数学科学中心。Frontier Chair"
+    notes: "清华大学丘成桐数学科学中心"
+  - period: "2012"
+    type: award
+    title: "New World Mathematics Awards 博士论文金奖 (NWMA Doctoral Thesis Gold)"
+  - period: "2016"
+    type: award
+    title: "ICCM 晨兴数学金奖 (Morningside Gold Medal)"
+    notes: "同届金奖 Wei Zhang"
 research_areas:
   - mirror-symmetry
   - landau-ginzburg
@@ -72,6 +85,10 @@ personal_notes: |
 sources:
   - label: "清华 YMSC 主页"
     url: "https://ymsc.tsinghua.edu.cn/info/1104/2554.htm"
+  - label: "CV 2025"
+    url: "https://sili-math.github.io/CV.pdf"
+  - label: "BU CV 2013"
+    url: "https://www.bu.edu/math/files/2014/01/Li-Si-10-7-13.pdf"
 tags:
   - tsinghua
   - important-person

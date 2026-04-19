@@ -2,7 +2,7 @@ slug: sabbah
 name:
   en: Claude Sabbah
   zh: null
-born: 1954
+born: "1954-10-30"
 died: null
 nationality: French
 gender: male
@@ -11,9 +11,13 @@ career_timeline:
 - period: ~1972-1976
   type: education
   institution: paris-vii
-  role: 博士
+  role: 博士 (thèse de 3e cycle)
   advisor: le-dung-trang
-  notes: 1976年获博士学位
+  notes: "Paris Diderot (Paris 7) PhD 1976; Math Genealogy 标注 1984 应为 doctorat d'État"
+- period: "2024"
+  type: award
+  title: "Frontiers of Science Award (ICBS)"
+  notes: "两篇论文 — 一篇与 Fiorot-Monteiro Fernandes 合作；一篇与 Fresán-Yu 合作"
 - period: ~1980-present
   type: position
   institution: cmls-polytechnique

@@ -60,11 +60,12 @@ edges:
     type: advisor-student
     year: 1961
     institution: moscow-state
-  - source: manin-yuri
+  - source: zagier
     target: kontsevich
     type: advisor-student
     year: 1992
     institution: bonn
+    notes: "Kontsevich 的 Bonn 博士导师是 Don Zagier (MPIM)，Manin 是其 Moscow 合作者/伯乐而非博导"
   - source: liu-xiaobo
     target: yang-chenglang
     type: advisor-student

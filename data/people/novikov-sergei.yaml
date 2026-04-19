@@ -11,8 +11,14 @@ career_timeline:
 - period: 1955-1960
   type: education
   institution: moscow-state
-  role: 本科 + 研究生
-- period: 1960-2024
+  role: 本科
+- period: 1960-1964
+  type: education
+  institution: moscow-state
+  role: Candidate of Science (PhD)
+  advisor: "Mikhail Postnikov"
+  notes: "MSU PhD 1964, 导师 M. M. Postnikov"
+- period: 1964-2024
   type: position
   institution: moscow-state
   role: 教授
@@ -33,7 +39,7 @@ research_areas:
 - algebraic-topology
 - integrable-systems
 - mathematical-physics
-advisor: null
+advisor: "Mikhail Postnikov"
 students:
 - dubrovin
 key_collaborators: []
@@ -101,11 +107,11 @@ external_ids:
   openalex: A5042142378
   mathgenealogy: '44135'
 links: {}
-personal_notes: 'Fields Medal 1970. 代数拓扑和可积系统的巨匠。
-
-  Dubrovin 的导师。2024年去世。
-
-  '
+personal_notes: |
+  Fields Medal 1970 (首位苏联 Fields 得主；因政治原因未赴 Nice，1971 于 Moscow 领奖)。
+  代数拓扑和可积系统的巨匠。博导 Postnikov。
+  父 Pyotr Novikov (群论字问题)，母 Lyudmila Keldysh、舅 Mstislav Keldysh 均数学家。
+  Dubrovin 的导师。Maryland 长期兼职。2024 年去世。
 sources:
 - label: Math Genealogy
   url: https://www.mathgenealogy.org/id.php?id=44135

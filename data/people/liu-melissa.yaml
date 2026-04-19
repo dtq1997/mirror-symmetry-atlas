@@ -2,23 +2,50 @@ slug: liu-melissa
 name:
   en: Chiu-Chu Melissa Liu
   zh: 刘秋菊
-born: null
+born: "1974-12-15"
 died: null
 nationality: Taiwanese
 gender: female
 photo_url: null
 career_timeline:
-  - period: "2002"
+  - period: "[?]-1996"
+    type: education
+    institution: ntu
+    role: "本科, 台湾大学"
+  - period: "1996-2002"
     type: education
     institution: harvard
     role: "PhD"
     advisor: yau-shingtung
-    notes: "Harvard University, 导师 Shing-Tung Yau。博士论文 \"Moduli of J-Holomorphic Curves with Lagrangian Boundary Conditions and Open Gromov-Witten Invariants for an S^1-Equivariant Pair\""
-  - period: "~2006-present"
+    notes: "Harvard PhD 2002, 导师丘成桐。论文《Moduli of J-Holomorphic Curves with Lagrangian Boundary Conditions and Open Gromov-Witten Invariants for an S¹-Equivariant Pair》(arXiv:math/0210257)"
+  - period: "2002-2005"
+    type: position
+    institution: harvard
+    role: "Junior Fellow, Society of Fellows"
+  - period: "2005-2008"
+    type: position
+    institution: northwestern
+    role: "助理→副教授 (tenured)"
+  - period: "2008-2012"
     type: position
     institution: columbia
-    role: "Professor"
-    notes: "Columbia University, Department of Mathematics"
+    role: "副教授 (tenured)"
+    notes: "2008.7 起"
+  - period: "2012-present"
+    type: position
+    institution: columbia
+    role: "正教授"
+  - period: "2007"
+    type: award
+    title: "ICCM Morningside 银奖"
+  - period: "2010"
+    type: award
+    title: "ICM Invited Speaker (Hyderabad)"
+  - period: "2012"
+    type: award
+    title: "AMS Fellow (首届)"
+  - type: award
+    title: "Sloan Research Fellowship"
 research_areas:
   - gromov-witten-theory
   - mirror-symmetry
@@ -39,9 +66,21 @@ key_collaborators:
 activity:
   total_papers: 60
   active_period: "2002-present"
-external_ids: {}
-links: {}
+external_ids:
+  mathgenealogy: "69488"
+links:
+  homepage: "https://www.math.columbia.edu/~ccliu/"
 personal_notes: |
-  Columbia 教授。与方博汉(11篇)和宗正宇(6篇)形成 toric CY / remodeling conjecture 核心团队。
+  1974.12.15 出生于台湾。台大 1996 → Harvard PhD 2002 (Yau)。
+  Harvard Society of Fellows → Northwestern → Columbia (2008 tenure, 2012 full)。
+  曾任 MSRI Chern Professor。AMS Fellow 2012 首届。
+  与方博汉 (11 篇)、宗正宇 (6 篇) 形成 toric CY / remodeling conjecture 核心团队。
   Remodeling Conjecture (BKMP) 的主要推动者之一。
+sources:
+  - label: "Wikipedia"
+    url: "https://en.wikipedia.org/wiki/Chiu-Chu_Melissa_Liu"
+  - label: "Columbia homepage"
+    url: "https://www.math.columbia.edu/~ccliu/"
+  - label: "Math Genealogy (id=69488)"
+    url: "https://www.mathgenealogy.org/id.php?id=69488"
 tags: []

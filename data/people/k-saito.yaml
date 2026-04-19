@@ -13,12 +13,21 @@ career_timeline:
   institution: gottingen
   role: 博士
   advisor: brieskorn
-  notes: 1971年获博士学位
+  notes: "Göttingen PhD 1971。论文《Quasihomogene isolierte Singularitäten von Hyperflächen》"
 - period: ~1980-2010
   type: position
   institution: rims-kyoto
   role: 教授
   notes: RIMS, Kyoto University
+- period: present
+  type: position
+  institution: kavli-ipmu
+  role: Principal Investigator
+  notes: "Kavli IPMU, University of Tokyo"
+- period: '2016'
+  type: award
+  title: "Kiyoshi Oka Prize (首届)"
+  notes: "Mathematical Society of Japan / Nara Women's University Kiyoshi Oka Prize 首届获奖"
 research_areas:
 - singularity-theory
 - frobenius-manifolds
@@ -87,7 +96,15 @@ activity:
   oa_total_papers: 131
 external_ids:
   openalex: A5108641196
+  mathgenealogy: "76983"
 links: {}
+sources:
+  - label: "Wikipedia: Kyoji Saito"
+    url: "https://en.wikipedia.org/wiki/Kyoji_Saito"
+  - label: "Math Genealogy (id=76983)"
+    url: "https://www.genealogy.math.ndsu.nodak.edu/id.php?id=76983"
+  - label: "Kavli IPMU / Oka Prize"
+    url: "https://www.ipmu.jp/en/content/cb5905bd-be6f-4b53-b0e4-1db0e8afa3de"
 personal_notes: 'Primitive forms 和 flat structures 的开创者。Brieskorn 的学生，与 Hertling 同门。
 
   从奇异点理论角度独立发展出类似 Frobenius 流形的结构。

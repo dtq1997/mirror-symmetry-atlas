@@ -8,12 +8,12 @@ nationality: Chinese
 gender: female
 photo_url: null
 career_timeline:
-  - period: "[待验证]-2017"
+  - period: "[?]-2017"
     type: education
     institution: uiuc
     role: "博士, 数学"
-    advisor: null
-    notes: "美国 University of Illinois at Urbana-Champaign (UIUC) 2017 年博士毕业 [待验证: 导师，极可能是代数拓扑方向]"
+    advisor: "Charles Rezk"
+    notes: "UIUC PhD 约 2017，导师推测 Charles Rezk [待验证]。因中途换方向重读共计 7 年"
   - period: "2017-2019"
     type: position
     institution: sun-yat-sen
@@ -30,19 +30,56 @@ research_areas:
   - mathematical-physics
   - elliptic-cohomology
   - homotopy-theory
-advisor: null
+advisor: "Charles Rezk"
 students: []
-key_collaborators: []
+key_collaborators:
+  - person: null
+    name: "Matthew Spong"
+    topic: "Twisted equivariant QE cohomology & M-brane charge"
+    papers_count: 1
+  - person: null
+    name: "Matthew B. Young"
+    topic: "Twisted Real QE cohomology"
+    papers_count: 1
+  - person: null
+    name: "Nathaniel Stapleton"
+    topic: "Level structures on p-divisible groups"
+    papers_count: 1
 publications:
-  - id: null
+  - id: "1612.00930"
+    title: "Quasi-Elliptic Cohomology and Power Operations"
+    year: 2018
+    journal: "J. Homotopy Relat. Struct. 13(4), 715-767"
+    coauthors: []
+  - id: "1703.06562"
+    title: "Quasi-elliptic cohomology and its Spectrum"
+    year: 2017
+    coauthors: []
+  - id: "1805.06305"
     title: "Quasi-Elliptic Cohomology I"
     year: 2018
-    journal: "Advances in Mathematics 337, 107-138"
+    journal: "Adv. Math. 337, 107-138"
+    coauthors: []
+  - id: "2001.10075"
+    title: "Level structures on p-divisible groups"
+    year: 2020
+    coauthors: ["Nathaniel Stapleton"]
+  - id: "2006.00554"
+    title: "Twisted equivariant quasi-elliptic cohomology & M-brane charge"
+    year: 2020
+    coauthors: ["Matthew Spong"]
+  - id: "2210.07511"
+    title: "Twisted Real quasi-elliptic cohomology"
+    year: 2022
+    coauthors: ["Matthew B. Young"]
+  - id: "2408.02278"
+    title: "Quasi-elliptic cohomology of 4-spheres"
+    year: 2024
+    journal: "Axioms 2025"
     coauthors: []
   - id: null
-    title: "Quasi-Elliptic Cohomology and its Power Operations"
-    year: 2018
-    journal: "Journal of Homotopy and Related Structures 13(4), 715-767"
+    title: "Acta Math 独作 (quasi-elliptic cohomology 奠基成果, 2022)"
+    year: 2022
     coauthors: []
 activity:
   total_papers: null

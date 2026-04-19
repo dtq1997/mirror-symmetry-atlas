@@ -8,19 +8,49 @@ nationality: Russian
 gender: male
 photo_url: null
 career_timeline:
-  - period: "1958-2017"
+  - period: "1952-1956"
+    type: education
+    institution: lgu
+    role: "本科, Leningrad State University"
+  - period: "1956-1959"
+    type: education
+    institution: steklov
+    role: "博士 (Candidate of Science)"
+    advisor: "Olga Ladyzhenskaya"
+    notes: "Leningrad Steklov (LOMI) PhD 1959。Vladimir Fock 为精神导师非正式博导"
+  - period: "1959-2017"
     type: position
     institution: steklov
-    role: "Steklov Institute, St. Petersburg"
-  - period: "1986-2017"
+    role: "Steklov Institute, Leningrad/St. Petersburg branch (LOMI/PDMI)"
+  - period: "1976-2000"
     type: position
     institution: steklov
-    role: "Director, St. Petersburg branch"
+    role: "Head of LOMI/PDMI (St. Petersburg branch)"
+  - period: "1988"
+    type: position
+    institution: euler-institute
+    role: "Founding Director"
+    notes: "Euler International Mathematical Institute"
+  - period: "1974"
+    type: award
+    title: "Dannie Heineman Prize for Mathematical Physics"
+  - period: "1990"
+    type: award
+    title: "Dirac Medal (ICTP)"
+  - period: "1996"
+    type: award
+    title: "Max Planck Medal"
+  - period: "2006"
+    type: award
+    title: "Henri Poincaré Prize"
+  - period: "2008"
+    type: award
+    title: "Shaw Prize in Mathematical Sciences"
 research_areas:
   - quantum-groups
   - integrable-systems
   - mathematical-physics
-advisor: null
+advisor: "Olga Ladyzhenskaya"
 students:
   - alekseev
 key_collaborators: []
@@ -29,9 +59,19 @@ activity:
   active_period: "1958-2017"
 external_ids: {}
 links: {}
+sources:
+  - label: "Wikipedia: Ludvig Faddeev"
+    url: "https://en.wikipedia.org/wiki/Ludvig_Faddeev"
+  - label: "MacTutor"
+    url: "https://mathshistory.st-andrews.ac.uk/Biographies/Faddeev_Ludwig/"
+  - label: "Shaw Prize autobiography"
+    url: "https://www.shawprize.org/autobiography/ludwig-faddeev/"
 personal_notes: |
   量子逆散射方法（quantum inverse scattering method）的创始人之一。
   Alekseev 的导师。对量子群和可积系统的发展有奠基性贡献。
-  2017年去世。
+  博导 Olga Ladyzhenskaya，Vladimir Fock 为精神导师。
+  LOMI/PDMI 负责人 1976-2000，Euler Institute 创始人 1988。
+  旗舰大奖：Heineman 1974、Dirac 1990、Max Planck 1996、Poincaré 2006、Shaw 2008。
+  2017 年去世。
 tags:
   - steklov

@@ -8,25 +8,38 @@ nationality: Russian
 gender: male
 photo_url: null
 career_timeline:
-- period: 1953-1961
+- period: 1953-1960
   type: education
   institution: moscow-state
-  role: 本科 → 博士
+  role: 本科→博士
   advisor: shafarevich
-  notes: 1961年获博士学位，师从 Shafarevich
-- period: 1961-1993
+  notes: "Steklov Moscow PhD 1960, 导师 Igor Shafarevich"
+- period: "1963"
+  type: education
+  institution: moscow-state
+  role: Habilitation
+- period: 1965-1993
   type: position
   institution: moscow-state
-  role: 教授
+  role: Professor of Algebra
 - period: 1993-2005
   type: position
   institution: mpim-bonn
   role: Director
-  notes: Max Planck Institute for Mathematics, Bonn
+  notes: Max Planck Institute for Mathematics, Bonn (长期 member 延续至晚年)
 - period: 2002-2011
   type: position
   institution: northwestern
   role: Professor
+- period: "2002"
+  type: award
+  title: "Cantor Medal (DMV)"
+- period: "2002"
+  type: award
+  title: "King Faisal International Prize (Mathematics)"
+- period: "2010"
+  type: award
+  title: "Bolyai Prize (Hungarian Academy)"
 research_areas:
 - algebraic-geometry
 - number-theory
