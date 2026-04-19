@@ -39,7 +39,10 @@ export default function PeopleNetwork({ graphData, institutionNames }: PeopleNet
   const [hoveredNode, setHoveredNode] = useState<GraphNode | null>(null);
   const [edgeFilters, setEdgeFilters] = useState<Record<ConnectionType, boolean>>({
     "advisor-student": true,
+    "postdoc-mentor": true,
+    "postdoc-group": true,
     coauthor: true,
+    friendship: true,
     institutional: false,
     "co-student": true,
     grant: true,

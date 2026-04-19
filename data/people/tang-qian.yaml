@@ -17,8 +17,8 @@ career_timeline:
   - period: "2023-present"
     type: position
     institution: tsinghua
-    role: "博士后"
-    notes: "同时在徐晓濛组（清华，徐晓濛 2020 起任清华助理教授）和张友金/刘思齐组（清华）"
+    role: "博士后 (合作导师: 刘思齐)"
+    notes: "清华博后 — **博后合作导师 刘思齐 (Siqi Liu)**。同时延续与博导徐晓濛 (PKU BICMR) 的师徒合作。所在张友金 & 刘思齐组 (Frobenius 流形/可积系统)，日常与季策 (张友金组水木博后) 高频交流"
 research_areas:
   - stokes-phenomenon
   - isomonodromy
@@ -26,22 +26,37 @@ research_areas:
   - frobenius-manifolds
   - q-painleve
 advisor: xu-xiaomeng
+mentors:
+  - liu-siqi
 students: []
 key_collaborators:
+  - person: liu-siqi
+    since: 2023
+    role: "博后合作导师"
+    topic: "Frobenius 流形、WDVV、可积 hierarchy — 清华博后合作方向"
+  - person: zhang-youjin
+    since: 2023
+    role: "博后所在组 PI"
+    topic: "张友金 & 刘思齐联合组 — 唐乾身处此组"
   - person: xu-xiaomeng
     since: 2023
+    role: "博士导师 (延续合作)"
     topic: "Stokes phenomenon, Yangians, isomonodromy"
     papers_count: 4
   - person: yang-chenglang
     since: 2024
-    met_context: "好友"
+    met_context: "密友"
     topic: "Schroeder paths, knot invariants"
     papers_count: 1
   - person: ji-ce
     since: 2024
-    met_context: "在张友金组经常交流"
+    met_context: "清华张友金组博后同僚，日常交流"
     topic: "Schroeder paths, knot invariants"
     papers_count: 1
+  - person: wang-zhiyuan
+    since: 2026
+    met_context: "HUST 2026 会议将深入交流"
+    topic: "BKP/Hurwitz tau 函数方向"
 publications:
   - id: "2501.17516"
     title: "Stokes Phenomenon and Yangians"

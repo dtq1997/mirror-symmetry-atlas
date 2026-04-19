@@ -21,7 +21,10 @@ const COLORS = {
 
 const EDGE_COLORS: Record<ConnectionType, string> = {
   "advisor-student": "#f59e0b",
+  "postdoc-mentor": "#fbbf24",
+  "postdoc-group": "#fcd34d",
   coauthor: "#6366f1",
+  friendship: "#ef4444",
   institutional: "#8b5cf6",
   "co-student": "#10b981",
   grant: "#ec4899",
@@ -29,7 +32,10 @@ const EDGE_COLORS: Record<ConnectionType, string> = {
 
 const EDGE_DASH: Record<ConnectionType, number[] | undefined> = {
   "advisor-student": undefined,
+  "postdoc-mentor": [6, 2],
+  "postdoc-group": [2, 4],
   coauthor: [5, 5],
+  friendship: [10, 4],
   institutional: [2, 4],
   "co-student": [8, 3],
   grant: [3, 3],

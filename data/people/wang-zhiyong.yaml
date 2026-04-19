@@ -1,30 +1,45 @@
 slug: wang-zhiyong
 name:
   en: Zhiyong Wang
-  zh: 王志永
+  zh: 王智勇
 born: null
 died: null
 nationality: Chinese
 gender: male
 photo_url: null
 career_timeline:
-  - period: "[待验证, ~2022-present]"
+  - period: "[待补充]"
     type: education
-    institution: pku
-    role: "博士生 [待验证]"
-    notes: "北京大学数学科学学院 (School of Mathematical Sciences, PKU)。邮箱 zwangco@pku.edu.cn 确认于 arXiv:2409.14124。原先 YAML 中标注为武大/武汉大学属误挂——HUST 2026 会议手册邀请报告人名单中并无此人，可能为早期录入错误。具体入学年、导师待核实。"
+    institution: null
+    role: "博士 [待补充：用户口述补]"
+  - period: "[?]-2024"
+    type: position
+    institution: pku-bicmr
+    role: "博士后 (mentor: 郭帅)"
+    notes: "北京大学 (BICMR/数学科学学院)。arXiv:2409.14124 acknowledgement 感谢 Professor Shuai Guo (郭帅)。邮箱 zwangco@pku.edu.cn"
+  - period: "2024-present"
+    type: position
+    institution: null
+    role: "北大博后出站 [当前单位待补充]"
+    notes: "用户确认北大博后出站。HUST 2026 武大代表团出现 Wang Zhiyong — 疑为去武大，待确认"
 research_areas:
   - bloch-okounkov-correlation
   - self-conjugate-partitions
   - quasimodular-forms
   - integrable-hierarchies
 advisor: null
+mentors:
+  - guo-shuai
 students: []
 key_collaborators:
   - person: yang-chenglang
     since: 2024
     topic: "self-conjugate partitions, q-difference equations, quasimodularity"
     papers_count: 1
+  - person: guo-shuai
+    since: 2022
+    topic: "博后 mentor；Bloch-Okounkov / 组合—几何接口"
+    role: "博后合作导师"
 publications:
   - id: "2409.14124"
     title: "Correlation Function of Self-Conjugate Partitions: q-Difference Equation and Quasimodularity"
@@ -37,32 +52,17 @@ external_ids: {}
 links:
   email: "zwangco@pku.edu.cn"
 personal_notes: |
-  **重要警告 [名字歧义]**：Zhiyong Wang 拼音至少对应两位不同人物，需区分：
-
-  (A) 本条目：王志永 @ PKU 数学科学学院（email: zwangco@pku.edu.cn）
-  - 根据 arXiv:2409.14124 末尾 affiliation："Zhiyong Wang, School of Mathematical
-    Sciences, Peking University, Beijing"
-  - 与 Chenglang Yang (AMSS 华罗庚中心) 合作，做 self-conjugate partitions / Bloch-Okounkov
-    相关函数 / quasimodularity
-  - 身份推断为 PKU 数院博士生（邮箱前缀风格 + 无职称显示）
-
-  (B) 王智勇 @ 武汉大学（仅出现在 data/institutions/wuhan.yaml "2026 HUST 会议武大代表团"
-      9 人名单中，未见学术档案）。中文姓名确切用字未核实 [待核实]。
-
-  两人中文姓名一字之差（志永/智勇），当前数据库合并到同 slug 是风险点——未来若发现 (B) 有
-  arXiv 记录或个人主页，应拆分为 wang-zhiyong-pku 与 wang-zhiyong-whu 两个节点。
-  本条目暂按 (A) PKU 建档，因其有可追溯的学术产出。
-
-  与本图谱其他节点的潜在连接：
-  - 杨成浪 (Chenglang Yang) 是季策、唐乾、王智元的共同合作者，Bloch-Okounkov 方向
-    与 Hurwitz/KP-BKP tau 函数群密切相关。
-  - 需要进一步确认是否师从 PKU 数院某位组合/数论/表示论教师（[待验证]：许晨阳?
-    王子鹏? 刘毅? 候选基于 Bloch-Okounkov 方向猜测）。
+  用户纠正：中文名 **王智勇** (非"王志永"——之前的 YAML 拼写错误)。
+  北大博后出站 (mentor: 郭帅 @ PKU BICMR)。
+  arXiv:2409.14124 acknowledgement 明确感谢 Professor Shuai Guo (郭帅) — 即博后合作导师。
+  与杨成浪 (AMSS→武大) 合作 self-conjugate partitions / Bloch-Okounkov 方向，
+  方法论与季策 (郭帅学生→清华张友金组博后) 和王知远 (HUST) 的 BKP/Hurwitz 组群完全同脉。
+  博士阶段与当前职位待用户补充。
 sources:
-  - label: "arXiv:2409.14124 (affiliation & email)"
+  - label: "arXiv:2409.14124 (email & Shuai Guo 致谢)"
     url: "https://arxiv.org/abs/2409.14124"
-  - label: "PDF end-matter with affiliation"
+  - label: "论文 PDF (acknowledgement 含 Shuai Guo)"
     url: "https://arxiv.org/pdf/2409.14124"
 tags:
   - pku
-  - stub
+  - guo-shuai-group

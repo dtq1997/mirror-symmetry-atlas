@@ -299,3 +299,23 @@ edges:
     type: advisor-student
     year: 2013
     institution: penn-state
+
+  # ======== 清华博后 / 合作导师 mentor 关系 ========
+  - source: liu-siqi
+    target: tang-qian
+    type: postdoc-mentor
+    year: 2023
+    institution: tsinghua
+    notes: "唐乾清华博后合作导师 (张友金 & 刘思齐组)"
+  - source: zhang-youjin
+    target: tang-qian
+    type: postdoc-group
+    year: 2023
+    institution: tsinghua
+    notes: "唐乾身处张友金 & 刘思齐联合组"
+  - source: guo-shuai
+    target: wang-zhiyong
+    type: postdoc-mentor
+    year: 2022
+    institution: pku-bicmr
+    notes: "王智勇北大博后 mentor (arXiv:2409.14124 acknowledgement 致谢郭帅)"

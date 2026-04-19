@@ -231,7 +231,10 @@ export interface ConferenceEvent {
 
 export type ConnectionType =
   | "advisor-student"
+  | "postdoc-mentor"
+  | "postdoc-group"
   | "coauthor"
+  | "friendship"
   | "institutional"
   | "co-student"
   | "grant";
