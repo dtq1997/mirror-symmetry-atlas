@@ -60,14 +60,46 @@ export function getForceParams(nodeCount: number) {
 }
 
 // ===== Node radius by importance =====
+// 复合信号: publications 长度 + 奖项等级 + 分区论文 + descendants + senior tag.
+// 目标: 大佬 vs 青椒的半径差异应当显著 (例如 18 vs 4),而不是挤在 8-12 区间.
+
+const TOP_AWARD_KEYWORDS = [
+  "菲尔兹", "fields medal", "wolf prize", "abel prize",
+  "院士", "academician", "national academy",
+  "shaw prize", "crafoord", "veblen", "breakthrough prize",
+  "national medal of science", "macarthur",
+];
+const BIG_AWARD_KEYWORDS = [
+  "杰出青年", "jieqing", "长江学者", "changjiang",
+  "千人", "百千万", "national natural science award",
+  "国家自然科学奖", "chern medal", "ramanujan prize",
+  "salem prize", "sloan fellow", "packard fellow",
+];
+const MID_AWARD_KEYWORDS = [
+  "青年人才", "优青", "young scientist", "优秀青年",
+  "青年学者", "钟家庆", "iccm", "青年长江", "青年拔尖",
+  "新世纪人才", "young investigator",
+];
+
+function awardTier(p: Person): 0 | 1 | 2 | 3 {
+  const timeline = p.career_timeline || [];
+  const tags = p.tags || [];
+  const collected: string[] = [];
+  for (const e of timeline) {
+    if (e.type === "award") {
+      collected.push(((e.title || "") + " " + ((e as any).notes || "")).toLowerCase());
+    }
+  }
+  const blob = collected.join(" | ") + " " + tags.join(" ").toLowerCase();
+  if (TOP_AWARD_KEYWORDS.some((k) => blob.includes(k))) return 3;
+  if (BIG_AWARD_KEYWORDS.some((k) => blob.includes(k))) return 2;
+  if (MID_AWARD_KEYWORDS.some((k) => blob.includes(k))) return 1;
+  return 0;
+}
 
 function personRadius(p: Person): number {
   const tags = p.tags || [];
-  if (tags.includes("important-person")) return 11;
-  if (tags.includes("stub")) return 3.5;
 
-  // Quality-weighted score using 新锐分区表 tiers (from enrich-venues.py).
-  // T1 = 4x, T2 = 2x, T3 = 0.5x, T4 = 0.2x (用户要求: 一二区重要, 三区只记录不重要)
   const a = p.activity ?? {};
   const t1 = (a as any).t1_papers ?? 0;
   const t2 = (a as any).t2_papers ?? 0;
@@ -75,64 +107,79 @@ function personRadius(p: Person): number {
   const t4 = (a as any).t4_papers ?? 0;
   const qscore = t1 * 4 + t2 * 2 + t3 * 0.5 + t4 * 0.2;
 
-  // Senior tag boost
-  const seniorBoost =
-    tags.includes("senior-researcher") ||
-    tags.includes("fields-medal") ||
-    tags.includes("jieqing")
-      ? 1
-      : 0;
-
-  // qscore-based radius (log scale so outliers don't blow up)
-  if (qscore > 0) {
-    // qscore 0-200+ range; log2 gives 0..7.6 roughly
-    const r = 4 + Math.log2(qscore + 1) * 1.1 + seniorBoost;
-    return Math.max(4, Math.min(r, 12));
-  }
-
-  // Fallback: descendants or paper count
+  const pubs = p.publications?.length ?? 0;
   const desc = a.academic_descendants ?? 0;
-  const papers = a.total_papers ?? 0;
-  if (desc > 100 || papers > 150) return 9 + seniorBoost;
-  if (desc > 30 || papers > 80) return 7 + seniorBoost;
-  if (desc > 10 || papers > 40) return 6 + seniorBoost;
-  if (papers > 15) return 5.5 + seniorBoost;
-  if (papers > 5) return 5;
-  return 4;
+  const papersTotal = Math.max(a.total_papers ?? 0, pubs);
+
+  // 始终综合三路信号: 分区论文权重 + descendants + 论文总量
+  const rawScore = qscore + desc * 0.8 + papersTotal * 0.6;
+
+  const tier = awardTier(p);
+  // 奖项等级直接给基础下限 (tier 3: 院士/菲尔兹级; tier 2: 杰青/长江; tier 1: 优青)
+  const awardFloor = tier === 3 ? 15 : tier === 2 ? 11 : tier === 1 ? 8 : 0;
+
+  const scoreRadius = rawScore > 0 ? 4 + Math.sqrt(rawScore) * 0.9 : 4;
+  let r = Math.max(scoreRadius, awardFloor);
+
+  // 顶级标签视为绝对优先 (即便数据 stub)
+  if (tags.includes("fields-medal")) r = Math.max(r, 18);
+  else if (tags.includes("important-person")) r = Math.max(r, 15);
+
+  // stub 只是资料不全,不一定是小人物;仅当无任何信号时压为 3.5
+  if (tags.includes("stub") && r <= 4.5 && tier === 0) return 3.5;
+
+  return Math.max(3.5, Math.min(r, 18));
 }
 
 // ===== Person color by age/status =====
 
-function estimateBirthYear(p: Person): number | null {
-  if (p.born) return p.born;
-  // Estimate from earliest career entry
-  const timeline = p.career_timeline || [];
-  for (const entry of timeline) {
-    const match = entry.period?.replace(/~/g, "").match(/(\d{4})/);
-    if (match) {
-      const year = parseInt(match[1]);
-      if (entry.type === "education") return year - 18;
-      if (entry.type === "position") return year - 28;
-    }
-  }
+// 根据 role 文本推断该时间点的大致年龄,用于从 career_timeline 反推出生年
+function roleAgeOffset(role: string, type: string): number | null {
+  const r = (role || "").toLowerCase();
+  if (/本科|undergrad|b\.?s\.?c?\.?|学士/.test(r)) return 20;  // 本科开始约 20 岁前后的均值
+  if (/硕士|master|m\.?sc?\.?/.test(r)) return 23;
+  if (/博士后|post.?doc/.test(r)) return 29;
+  if (/博士|ph\.?d\.?|doctor/.test(r)) return 25;
+  if (/教授|professor|讲席|chair/.test(r)) return 38;
+  if (/副教授|associate/.test(r)) return 33;
+  if (/助理教授|assistant|lecturer|讲师|特聘/.test(r)) return 30;
+  if (type === "education") return 22;
+  if (type === "position") return 30;
+  if (type === "visit") return 30;
   return null;
 }
 
+function estimateBirthYear(p: Person): number | null {
+  if (p.born) return p.born;
+  const timeline = p.career_timeline || [];
+  // 取所有能推断年龄的条目,取中位数以稳健
+  const estimates: number[] = [];
+  for (const entry of timeline) {
+    const match = entry.period?.replace(/~/g, "").match(/(\d{4})/);
+    if (!match) continue;
+    const year = parseInt(match[1]);
+    const offset = roleAgeOffset(entry.role || "", entry.type || "");
+    if (offset !== null) estimates.push(year - offset);
+  }
+  if (estimates.length === 0) return null;
+  estimates.sort((a, b) => a - b);
+  return estimates[Math.floor(estimates.length / 2)];
+}
+
 function personColor(p: Person): string {
-  // Deceased → gray
   if (p.died) return "#777788";
 
   const birthYear = estimateBirthYear(p);
-  if (!birthYear) return COLORS.person; // fallback amber
+  if (!birthYear) return "#9ca3af"; // 未知年龄 → 中性灰蓝,避免误导
 
   const age = 2026 - birthYear;
 
-  // Color gradient: younger = brighter warm, older = deeper warm
-  if (age >= 80) return "#b45309"; // deep amber — 元老
-  if (age >= 60) return "#d97706"; // dark amber — 资深
-  if (age >= 45) return "#f59e0b"; // standard amber — 中坚
-  if (age >= 35) return "#fbbf24"; // bright amber — 活跃青年
-  return "#fcd34d";                // light gold — 新锐
+  if (age >= 75) return "#92400e"; // 深棕 — 元老 (75+)
+  if (age >= 60) return "#b45309"; // 深琥珀 — 资深 (60-74)
+  if (age >= 50) return "#d97706"; // 中深琥珀 — 中坚 (50-59)
+  if (age >= 40) return "#f59e0b"; // 标准琥珀 — 壮年 (40-49)
+  if (age >= 32) return "#fbbf24"; // 亮琥珀 — 青年 PI (32-39)
+  return "#fde047";                // 亮金 — 新锐 (<32)
 }
 
 // ===== Build people graph =====
