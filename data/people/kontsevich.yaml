@@ -35,9 +35,9 @@ advisor: zagier
 students: []
 key_collaborators: []
 activity:
-  total_papers: 60
-  published_count: 19
-  preprint_only_count: 41
+  total_papers: 90
+  published_count: 80
+  preprint_only_count: 10
   h_index: 44
   active_period: '1990-present'
   peak_period: '1994-2010'
@@ -62,88 +62,168 @@ publications:
     title: 'Non-commutative cluster Lagrangians'
     year: 2026
     coauthors: ['Alexander B. Goncharov']
+    doi: '10.48550/arxiv.2601.07538'
     primary_category: math.AG
+    openalex_id: W7123756292
+    sources: [arxiv, openalex]
   - id: '2509.15831'
     title: 'Atoms meet symbols'
     year: 2025
     coauthors: ['Leonardo F. Cavenaghi', 'Ludmil Katzarkov']
     primary_category: math.AG
+    sources: [arxiv]
   - id: '2508.05105'
     title: 'Birational Invariants from Hodge Structures and Quantum Multiplication'
     year: 2025
     coauthors: ['Ludmil Katzarkov', 'Tony Pantev', 'Tony Yue YU']
     primary_category: math.AG
+    sources: [arxiv]
   - id: '2505.12480'
     title: 'Explicit formulas for arithmetic support of differential and difference operators'
     year: 2025
     coauthors: ['Alexander Odesskii']
+    doi: '10.48550/arxiv.2505.12480'
     primary_category: math.AG
+    openalex_id: W4417301057
+    sources: [arxiv, openalex]
   - id: '2402.07343'
     title: 'Holomorphic Floer theory I: exponential integrals in finite and infinite dimensions'
     year: 2024
     coauthors: ['Yan Soibelman']
+    doi: '10.48550/arxiv.2402.07343'
     primary_category: math.SG
+    openalex_id: W4391801003
+    sources: [arxiv, openalex]
   - id: '2401.05291'
     title: 'The miracle of integer eigenvalues'
     year: 2024
     coauthors: ['Richard Kenyon', 'Oleg Ogievetsky', 'Cosmin Pohoata', 'Will Sawin', 'Senya Shlosman']
+    doi: '10.1134/s0016266324020072'
+    journal: 'Functional Analysis and Its Applications'
     primary_category: math.CO
+    openalex_id: W4400865287
+    sources: [arxiv, openalex]
+  - id: 'openalex:W4390899086'
+    title: 'The miracle of integer eigenvalues Dedicated to Professor A.M.Vershik, on the occasion of his 90-th birthday'
+    year: 2024
+    coauthors: ['Richard Kenyon', 'O. Ogievetsky', 'Cosmin Pohoata', 'Will Sawin', 'Senya Shlosman']
+    openalex_id: W4390899086
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.4213/faa4194'
+    title: 'Удивительная целочисленность собственных значений'
+    year: 2024
+    coauthors: ['Richard Kenyon', 'Олег Викторович Огиевецкий', 'Cosmin Pohoata', 'Will Sawin', 'Semen Bensionovich Shlosman']
+    doi: '10.4213/faa4194'
+    journal: 'Функциональный анализ и его приложения'
+    openalex_id: W4396659155
+    sources: [openalex]
+    no_arxiv: true
   - id: '2306.02178'
     title: 'When the Fourier transform is one loop exact?'
     year: 2023
     coauthors: ['Alexander Odesskii']
+    doi: '10.48550/arxiv.2306.02178'
+    journal: 'Selecta Mathematica'
     primary_category: math.AG
+    openalex_id: W4379539272
+    sources: [arxiv, openalex]
   - id: '2301.02899'
     title: 'Burnside rings and volume forms with logarithmic poles'
     year: 2023
     coauthors: ['Antoine Chambert-Loir', 'Yuri Tschinkel']
+    doi: '10.48550/arxiv.2301.02899'
+    journal: 'Pure and Applied Mathematics Quarterly'
     primary_category: math.AG
+    openalex_id: W4315588461
+    sources: [arxiv, openalex]
   - id: '2301.01567'
     title: 'Smooth Calabi-Yau structures and the noncommutative Legendre transform'
     year: 2023
     coauthors: ['Alex Takeda', 'Yiannis Vlassopoulos']
+    doi: '10.48550/arxiv.2301.01567'
+    journal: 'Journal of Noncommutative Geometry'
     primary_category: math.AT
+    openalex_id: W4313598405
+    sources: [arxiv, openalex]
   - id: '2112.14667'
     title: 'Pre-Calabi-Yau algebras and topological quantum field theories'
     year: 2021
     coauthors: ['Alex Takeda', 'Yiannis Vlassopoulos']
+    doi: '10.1007/s40879-024-00802-9'
+    journal: 'European Journal of Mathematics'
     primary_category: math.AG
+    openalex_id: W4407221471
+    sources: [arxiv, openalex]
   - id: '2108.04168'
     title: 'Spectral description of non-commutative local systems on surfaces and non-commutative cluster varieties'
     year: 2021
     coauthors: ['Alexander Goncharov']
+    doi: '10.1007/978-3-031-74134-0_5'
+    journal: 'Simons symposia'
     primary_category: math.AG
+    openalex_id: W3187521469
+    sources: [arxiv, openalex]
   - id: '2105.10161'
     title: 'Wick rotation and the positivity of energy in quantum field theory'
     year: 2021
     coauthors: ['Graeme Segal']
+    doi: '10.1093/qmath/haab027'
     primary_category: hep-th
+    openalex_id: W3165629328
+    sources: [arxiv, openalex]
   - id: '2105.04238'
     title: 'Multiplication kernels'
     year: 2021
     coauthors: ['Alexander Odesskii']
     doi: '10.1007/s11005-021-01491-1'
     primary_category: math.AG
+    openalex_id: W3163916082
+    sources: [arxiv, openalex]
+  - id: 'doi:10.1017/9781108854429.014'
+    title: 'Geometry in dg-Categories'
+    year: 2021
+    coauthors: []
+    doi: '10.1017/9781108854429.014'
+    journal: 'Cambridge University Press eBooks'
+    openalex_id: W3138997295
+    sources: [openalex]
+    no_arxiv: true
   - id: '2011.11888'
     title: 'Pre-Calabi-Yau algebras and noncommutative calculus on higher cyclic Hochschild cohomology'
     year: 2020
     coauthors: ['Natalia Iyudu']
+    doi: '10.48550/arxiv.2011.11888'
     primary_category: math.RA
+    openalex_id: W4287591390
+    sources: [arxiv, openalex]
   - id: '2009.12159'
     title: 'p-Determinants and monodromy of differential operators'
     year: 2020
     coauthors: ['Alexander Odesskii']
+    doi: '10.1007/s00029-022-00770-6'
+    journal: 'Selecta Mathematica'
     primary_category: math.AG
+    openalex_id: W3087996738
+    sources: [arxiv, openalex]
   - id: '2005.10651'
     title: 'Analyticity and resurgence in wall-crossing formulas'
     year: 2020
     coauthors: ['Yan Soibelman']
+    doi: '10.1007/s11005-022-01529-y'
+    journal: 'Letters in Mathematical Physics'
     primary_category: math.AG
+    openalex_id: W4221101120
+    sources: [arxiv, openalex]
   - id: '2003.03171'
     title: 'A Generalization of King''s Equation via Noncommutative Geometry'
     year: 2020
     coauthors: ['Gourab Bhattacharya']
+    doi: '10.4171/irma/33-1/23'
+    journal: 'IRMA lectures in mathematics and theoretical physics'
     primary_category: math-ph
+    openalex_id: W3009134756
+    sources: [arxiv, openalex]
   - id: '1906.07134'
     title: 'Pre-Calabi-Yau algebras and double Poisson brackets'
     year: 2019
@@ -151,26 +231,60 @@ publications:
     doi: '10.1016/j.jalgebra.2020.08.029'
     journal: 'J. Algebra, 2020'
     primary_category: math.RA
+    openalex_id: W2952849718
+    sources: [arxiv, openalex]
   - id: '1903.10792'
     title: 'Quantum Minimal Surfaces'
     year: 2019
     coauthors: ['Joakim Arnlind', 'Jens Hoppe']
+    doi: '10.48550/arxiv.1903.10792'
     primary_category: math-ph
+    openalex_id: W4299964411
+    sources: [arxiv, openalex]
   - id: '1902.09894'
     title: 'Equivariant birational geometry and modular symbols'
     year: 2019
     coauthors: ['Vasily Pestun', 'Yuri Tschinkel']
+    doi: '10.4171/jems/1170'
+    journal: 'Journal of the European Mathematical Society'
     primary_category: math.AG
+    openalex_id: W3213551362
+    sources: [arxiv, openalex]
+  - id: 'doi:10.24033/ast.1064'
+    title: 'Derived Grothendieck-Teichmuller group and graph complexes, (after T. Willwacher)'
+    year: 2019
+    coauthors: []
+    doi: '10.24033/ast.1064'
+    journal: 'Astérisque'
+    openalex_id: W3015359332
+    sources: [openalex]
+    no_arxiv: true
   - id: '1802.04123'
     title: 'Iterated logarithms and gradient flows'
     year: 2018
     coauthors: ['Fabian Haiden', 'Ludmil Katzarkov', 'Pranav Pandit']
+    doi: '10.48550/arxiv.1802.04123'
     primary_category: math.RT
+    openalex_id: W2786979532
+    sources: [arxiv, openalex]
+  - id: 'doi:10.1070/rm9828'
+    title: 'Vladimir Antonovich Zorich'
+    year: 2018
+    coauthors: ['А. И. Аптекарев', 'Victor Matveevich Buchstaber', si-li, 'M. Gromov', 'Yu. Ilyashenko', 'Борис Сергеевич Кашин', 'Владимир Михайлович Кесельман', 'В. В. Козлов', 'I. M. Krichever', 'N. G. Kruzhilin', 'Сергей Константинович Ландо', 'Yu. I. Manin', 'G. A. Margulis', 'Stefan Nemirovski', 'S P Novikov', 'Yu. G. Reshetnyak', 'Ya. G. Sinaǐ', 'Sergey Pavlovich Suetin', 'Dmitry Treschev', 'Dmitry Fuchs', 'Askold Khovanskiĭ', 'E. M. Chirka', 'Albert Schwarz', 'Albert N. Shiryaev']
+    doi: '10.1070/rm9828'
+    journal: 'Russian Mathematical Surveys'
+    openalex_id: W2898531677
+    sources: [openalex]
+    no_arxiv: true
   - id: '1708.05699'
     title: 'Specialization of birational types'
     year: 2017
     coauthors: ['Yuri Tschinkel']
+    doi: '10.1007/s00222-019-00870-9'
+    journal: 'Inventiones mathematicae'
     primary_category: math.AG
+    openalex_id: W2963155431
+    sources: [arxiv, openalex]
   - id: '1706.01073'
     title: 'Semistability, modular lattices, and iterated logarithms'
     year: 2017
@@ -178,11 +292,16 @@ publications:
     doi: '10.4310/jdg/1679503804'
     journal: 'J. Differential Geom. 123 (1), 21-66, (2023)'
     primary_category: math.RT
+    openalex_id: W2623042024
+    sources: [arxiv, openalex]
   - id: '1701.09137'
     title: 'Airy structures and symplectic geometry of topological recursion'
     year: 2017
     coauthors: ['Yan Soibelman']
+    doi: '10.48550/arxiv.1701.09137'
     primary_category: math.AG
+    openalex_id: W4291016952
+    sources: [arxiv, openalex]
   - id: '1609.01170'
     title: 'Lower bounds for Lyapunov exponents of flat bundles on curves'
     year: 2016
@@ -190,11 +309,16 @@ publications:
     doi: '10.2140/gt.2018.22.2299'
     journal: 'Geometry and Topology, 22:4 (2018), 2299-2338'
     primary_category: math.GT
+    sources: [arxiv]
   - id: '1411.1394'
     title: 'Canonical bases for cluster algebras'
     year: 2014
     coauthors: ['Mark Gross', 'Paul Hacking', 'Sean Keel']
+    doi: '10.1090/jams/890'
+    journal: 'Journal of the American Mathematical Society'
     primary_category: math.AG
+    openalex_id: W1523097020
+    sources: [arxiv, openalex]
   - id: '1409.8611'
     title: 'Flat surfaces and stability structures'
     year: 2014
@@ -202,16 +326,42 @@ publications:
     doi: '10.1007/s10240-017-0095-y'
     journal: 'Publ.math.IHES 126, 247--318 (2017)'
     primary_category: math.AG
+    openalex_id: W1828070070
+    sources: [arxiv, openalex]
   - id: '1409.5996'
     title: 'Bogomolov-Tian-Todorov theorems for Landau-Ginzburg models'
     year: 2014
     coauthors: ['Ludmil Katzarkov', 'Tony Pantev']
+    doi: '10.4310/jdg/1483655860'
+    journal: 'Journal of Differential Geometry'
     primary_category: math.AG
+    openalex_id: W4299786084
+    sources: [arxiv, openalex]
   - id: '1408.2673'
     title: 'Algebra of the infrared and secondary polytopes'
     year: 2014
     coauthors: ['Mikhail Kapranov', 'Yan Soibelman']
+    doi: '10.1016/j.aim.2016.03.028'
+    journal: 'Advances in Mathematics'
     primary_category: math.SG
+    openalex_id: W2962925333
+    sources: [arxiv, openalex]
+  - id: 'doi:10.1007/978-3-319-06514-4'
+    title: 'Homological Mirror Symmetry and Tropical Geometry'
+    year: 2014
+    coauthors: ['Ricardo Castaño-Bernard', 'Fabrizio Catanese', 'Tony Pantev', 'Yan Soibelman', 'Ilia Zharkov']
+    doi: '10.1007/978-3-319-06514-4'
+    journal: 'Lecture notes of the Unione Matematica Italiana'
+    openalex_id: W641748539
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'openalex:W618951639'
+    title: 'A category of kernels for equivariant factorizations and its implications for Hodge theory . Affine Mirković-Vilonen polytopes . Sum of Lyapunov exponents of the Hodge bundle with respect to the Teichmüller geodesic flow . The space of metrics of positive scalar curvature'
+    year: 2014
+    coauthors: ['Matthew R. Ballard', 'David Favero', 'Ludmil Katzarkov', 'Pierre Baumann', 'Joel Kamnitzer', 'Peter Tingley', 'Alex Eskin', 'Anton Zorich', 'Bernhard Hanke', 'Thomas Schick', 'Wolfgang Steimle']
+    openalex_id: W618951639
+    sources: [openalex]
+    no_arxiv: true
   - id: '1307.8418'
     title: 'Dynamical systems and categories'
     year: 2013
@@ -219,11 +369,17 @@ publications:
     doi: '10.1090/conm/621'
     journal: 'Con. Math. vol 621 (2014), pages 133-170'
     primary_category: math.CT
+    openalex_id: W4298041296
+    sources: [arxiv, openalex]
   - id: '1303.3253'
     title: 'Wall-crossing structures in Donaldson-Thomas invariants, integrable systems and Mirror Symmetry'
     year: 2013
     coauthors: ['Yan Soibelman']
+    doi: '10.1007/978-3-319-06514-4_6'
+    journal: 'Lecture notes of the Unione Matematica Italiana'
     primary_category: math.AG
+    openalex_id: W3046213377
+    sources: [arxiv, openalex]
   - id: '1112.5872'
     title: 'Sum of Lyapunov exponents of the Hodge bundle with respect to the Teichmuller geodesic flow'
     year: 2011
@@ -231,59 +387,126 @@ publications:
     doi: '10.1007/s10240-013-0060-3'
     journal: 'Publications de l''IHES (2014) vol. 120, issue 1, 207-333'
     primary_category: math.DS
+    openalex_id: W2112393140
+    sources: [arxiv, openalex]
   - id: '1109.2469'
     title: 'Noncommutative identities'
     year: 2011
     coauthors: []
+    doi: '10.48550/arxiv.1109.2469'
     primary_category: math.RA
+    openalex_id: W3037370586
+    sources: [arxiv, openalex]
   - id: '1010.2908'
     title: 'Holonomic D-modules and positive characteristic'
     year: 2010
     coauthors: []
+    doi: '10.48550/arxiv.1010.2908'
     journal: 'Japan. J. Math. 4, 1-25 (2009)'
     primary_category: math.RA
+    openalex_id: W2952015215
+    sources: [arxiv, openalex]
   - id: '1007.5330'
     title: 'Lyapunov spectrum of square-tiled cyclic covers'
     year: 2010
     coauthors: ['Alex Eskin', 'Anton Zorich']
+    doi: '10.3934/jmd.2011.5.319'
     journal: 'Journal of Modern Dynamics, 5:2 (2011), 319 -- 353'
     primary_category: math.DS
+    openalex_id: W2037365957
+    sources: [arxiv, openalex]
   - id: '1006.2706'
     title: 'Cohomological Hall algebra, exponential Hodge structures and motivic Donaldson-Thomas invariants'
     year: 2010
     coauthors: ['Yan Soibelman']
+    doi: '10.4310/cntp.2011.v5.n2.a1'
+    journal: 'Communications in Number Theory and Physics'
     primary_category: math.AG
+    openalex_id: W2963555098
+    sources: [arxiv, openalex]
   - id: '0910.4315'
     title: 'Motivic Donaldson-Thomas invariants: summary of results'
     year: 2009
     coauthors: ['Yan Soibelman']
+    doi: '10.48550/arxiv.0910.4315'
     primary_category: math.AG
+    openalex_id: W4297957014
+    sources: [arxiv, openalex]
+  - id: 'doi:10.1007/s11537-009-0852-x'
+    title: 'Holonomic -modules and positive characteristic'
+    year: 2009
+    coauthors: []
+    doi: '10.1007/s11537-009-0852-x'
+    journal: 'Japanese journal of mathematics'
+    openalex_id: W2147429248
+    sources: [openalex]
+    no_arxiv: true
   - id: '0811.2435'
     title: 'Stability structures, motivic Donaldson-Thomas invariants and cluster transformations'
     year: 2008
     coauthors: ['Yan Soibelman']
+    doi: '10.48550/arxiv.0811.2435'
     primary_category: math.AG
+    openalex_id: W2154483904
+    sources: [arxiv, openalex]
   - id: '0801.4760'
     title: 'XI Solomon Lefschetz Memorial Lecture Series: Hodge structures in non-commutative geometry. (Notes by Ernesto Lupercio)'
     year: 2008
     coauthors: []
+    doi: '10.48550/arxiv.0801.4760'
     primary_category: math.AG
+    openalex_id: W1596018028
+    sources: [arxiv, openalex]
+  - id: 'doi:10.1007/978-3-540-68030-7_6'
+    title: 'Notes on A∞-Algebras, A∞-Categories and Non-Commutative Geometry'
+    year: 2008
+    coauthors: ['Y. Soibelman']
+    doi: '10.1007/978-3-540-68030-7_6'
+    journal: 'Lecture notes in physics'
+    openalex_id: W1518231387
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'openalex:W2416343491'
+    title: 'Generalized Tian-Todorov theorems'
+    year: 2008
+    coauthors: []
+    openalex_id: W2416343491
+    sources: [openalex]
+    no_arxiv: true
+  - id: '0806.0107'
+    title: 'Hodge theoretic aspects of mirror symmetry'
+    year: 2008
+    coauthors: ['Ludmil Katzarkov', 'Tony Pantev']
+    doi: '10.48550/arxiv.0806.0107'
+    openalex_id: W4394671110
+    sources: [openalex]
   - id: '0702206'
     title: 'Notes on motives in finite characteristic'
     year: 2007
     coauthors: []
+    doi: '10.1007/978-0-8176-4747-6_7'
+    journal: 'Progress in mathematics'
     primary_category: math.AG
+    openalex_id: W2153266150
+    sources: [arxiv, openalex]
   - id: '0609056'
     title: 'On Malliavin measures, SLE and CFT'
     year: 2006
     coauthors: ['Yuri Suhov']
+    doi: '10.1134/s0081543807030108'
+    journal: 'Proceedings of the Steklov Institute of Mathematics'
     primary_category: math-ph
+    openalex_id: W2058642873
+    sources: [arxiv, openalex]
   - id: '0606241'
     title: 'Notes on A-infinity algebras, A-infinity categories and non-commutative geometry. I'
     year: 2006
     coauthors: ['Yan Soibelman']
+    doi: '10.48550/arxiv.math/0606241'
     journal: 'Published in the book "Homological Mirror Symmetry. New developments and perspectives", Lecture Notes in Physics 757, Springer, 2009'
     primary_category: math.RA
+    openalex_id: W2952740579
+    sources: [arxiv, openalex]
   - id: '0603106'
     title: 'Integrality of instanton numbers and p-adic B-model'
     year: 2006
@@ -291,12 +514,17 @@ publications:
     doi: '10.1016/j.physletb.2006.04.012'
     journal: 'Phys.Lett.B637:97-101,2006'
     primary_category: hep-th
+    openalex_id: W2000454299
+    sources: [arxiv, openalex]
   - id: '0512171'
     title: 'The Jacobian Conjecture is stably equivalent to the Dixmier Conjecture'
     year: 2005
     coauthors: ['Alexei Belov-Kanel']
+    doi: '10.17323/1609-4514-2007-7-2-209-218'
     journal: 'Mosc. Math. J., 7:2 (2007), 209--218'
     primary_category: math.RA
+    openalex_id: W2108657553
+    sources: [arxiv, openalex]
   - id: '0512169'
     title: 'Automorphisms of the Weyl algebra'
     year: 2005
@@ -304,6 +532,7 @@ publications:
     doi: '10.1007/s11005-005-0027-5'
     journal: 'Lett. Math. Phys., Volume 74 (2005), Number 2, 181-199'
     primary_category: math.RA
+    sources: [arxiv]
   - id: '0508221'
     title: 'Symmetries of WDVV equations'
     year: 2005
@@ -311,6 +540,8 @@ publications:
     doi: '10.1016/j.nuclphysb.2005.09.025'
     journal: 'Nucl.Phys. B730 (2005) 352-363'
     primary_category: hep-th
+    openalex_id: W2130943078
+    sources: [arxiv, openalex]
   - id: '0507021'
     title: 'Quantization on Curves'
     year: 2005
@@ -318,26 +549,97 @@ publications:
     doi: '10.1007/s11005-006-0137-8'
     journal: 'Lett.Math.Phys.79:109-129,2007'
     primary_category: math-ph
+    openalex_id: W1787805970
+    sources: [arxiv, openalex]
+  - id: 'openalex:W2991759916'
+    title: 'Automorphisms of Weil algebras'
+    year: 2005
+    coauthors: ['Alexei Kanel-Belov']
+    openalex_id: W2991759916
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1007/s11005-005-0013-y'
+    title: 'Foreword'
+    year: 2005
+    coauthors: ['Nikita Nekrasov', 'Albert Schwarz', 'Mikhail Shubin', 'Daniel Sternheimer']
+    doi: '10.1007/s11005-005-0013-y'
+    journal: 'Letters in Mathematical Physics'
+    openalex_id: W4241280001
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'openalex:W2188196121'
+    title: 'Surgery formulae for 3-manifold invariants defined via configuration space'
+    year: 2005
+    coauthors: ['Christine Lescop', 'Greg Kuperberg', 'Dylan P. Thurston']
+    openalex_id: W2188196121
+    sources: [openalex]
+    no_arxiv: true
   - id: '0406564'
     title: 'Affine structures and non-archimedean analytic spaces'
     year: 2004
     coauthors: ['Yan Soibelman']
+    doi: '10.1007/0-8176-4467-9_9'
+    journal: 'Birkhäuser Boston eBooks'
     primary_category: math.AG
+    openalex_id: W2154785235
+    sources: [arxiv, openalex]
+  - id: 'doi:10.1007/s00222-003-0303-x'
+    title: 'Connected components of the moduli spaces of Abelian differentials with prescribed singularities'
+    year: 2003
+    coauthors: ['Anton Zorich']
+    doi: '10.1007/s00222-003-0303-x'
+    journal: 'Inventiones mathematicae'
+    openalex_id: W1997620342
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'openalex:W2555127273'
+    title: 'Additional bibliography and comments'
+    year: 2002
+    coauthors: []
+    openalex_id: W2555127273
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1007/978-3-642-56478-9_39'
+    title: 'Periods'
+    year: 2001
+    coauthors: [zagier]
+    doi: '10.1007/978-3-642-56478-9_39'
+    openalex_id: W4242941774
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1023/a:1017957408559'
+    title: 'Deformation Quantization of Algebraic Varieties'
+    year: 2001
+    coauthors: []
+    doi: '10.1023/a:1017957408559'
+    journal: 'Letters in Mathematical Physics'
+    openalex_id: W1069037
+    sources: [openalex]
+    no_arxiv: true
   - id: '0011041'
     title: 'Homological mirror symmetry and torus fibrations'
     year: 2000
     coauthors: ['Yan Soibelman']
+    doi: '10.1142/9789812799821_0007'
     primary_category: math.SG
+    openalex_id: W2098960371
+    sources: [arxiv, openalex]
   - id: '0008089'
     title: 'On Poly(ana)logs I'
     year: 2000
     coauthors: ['Philippe Elbaz-Vincent', 'Herbert Gangl']
+    doi: '10.48550/arxiv.math/0008089'
     primary_category: math.KT
+    openalex_id: W2951860064
+    sources: [arxiv, openalex]
   - id: '0001151'
     title: 'Deformations of algebras over operads and Deligne''s conjecture'
     year: 2000
     coauthors: ['Yan Soibelman']
+    doi: '10.48550/arxiv.math/0001151'
     primary_category: math.QA
+    openalex_id: W2964189058
+    sources: [arxiv, openalex]
   - id: '9904055'
     title: 'Operads and Motives in Deformation Quantization'
     year: 1999
@@ -345,11 +647,26 @@ publications:
     doi: '10.1023/A:1007555725247'
     journal: 'Lett.Math.Phys.48:35-72,1999'
     primary_category: math.QA
+    openalex_id: W2145021384
+    sources: [arxiv, openalex]
+  - id: 'doi:10.1023/a:1000619911308'
+    title: 'Rozansky–Witten Invariants Via Formal Geometry'
+    year: 1999
+    coauthors: []
+    doi: '10.1023/a:1000619911308'
+    journal: 'Compositio Mathematica'
+    openalex_id: W2962730008
+    sources: [openalex]
+    no_arxiv: true
   - id: '9812158'
     title: 'Noncommutative smooth spaces'
     year: 1998
     coauthors: ['Alexander Rosenberg']
+    doi: '10.1007/978-1-4612-1340-6_5'
+    journal: 'Birkhäuser Boston eBooks'
     primary_category: math.AG
+    openalex_id: W1633862936
+    sources: [arxiv, openalex]
   - id: '9710032'
     title: 'Frobenius Manifolds and Formality of Lie Algebras of Polyvector Fields'
     year: 1997
@@ -357,6 +674,8 @@ publications:
     doi: '10.1155/S1073792898000166'
     journal: 'International Mathematics Research Notices, Volume 1998, Issue 4, Pages 201-215'
     primary_category: math.AG
+    openalex_id: W1524038673
+    sources: [arxiv, openalex]
   - id: '9709040'
     title: 'Deformation quantization of Poisson manifolds, I'
     year: 1997
@@ -364,11 +683,16 @@ publications:
     doi: '10.1023/B:MATH.0000027508.00421.bf'
     journal: 'Lett.Math.Phys.66:157-216,2003'
     primary_category: math.QA
+    openalex_id: W2071417479
+    sources: [arxiv, openalex]
   - id: '9709006'
     title: 'Product formulas for modular forms on O(2,n) (after R.Borcherds)'
     year: 1997
     coauthors: []
+    doi: '10.48550/arxiv.alg-geom/9709006'
     primary_category: math.AG
+    openalex_id: W1656514838
+    sources: [arxiv, openalex]
   - id: '9708024'
     title: 'Relations between the correlators of the topological sigma-model coupled to gravity'
     year: 1997
@@ -376,21 +700,128 @@ publications:
     doi: '10.1007/s002200050426'
     journal: 'Commun.Math.Phys. 196 (1998) 385-398'
     primary_category: math.AG
+    openalex_id: W2042210864
+    sources: [arxiv, openalex]
+  - id: 'doi:10.1142/s0217751x97001031'
+    title: 'The Geometry of the Master Equation and Topological Quantum Field Theory'
+    year: 1997
+    coauthors: ['Mikhail D. Alexandrov', 'Albert Schwarz', 'Oleg Zaboronsky']
+    doi: '10.1142/s0217751x97001031'
+    journal: 'International Journal of Modern Physics A'
+    openalex_id: W2169107602
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'openalex:W1711586376'
+    title: 'Product formulas for modular forms on $O(2,n)$'
+    year: 1997
+    coauthors: []
+    openalex_id: W1711586376
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1007/s002220050055'
+    title: 'Quantum cohomology of a product'
+    year: 1996
+    coauthors: ['Yu. I. Manin', 'Ralph M. Kaufmann']
+    doi: '10.1007/s002220050055'
+    journal: 'Inventiones mathematicae'
+    openalex_id: W2043084618
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'openalex:W2963397422'
+    title: 'Lyapunov exponents and Hodge theory'
+    year: 1996
+    coauthors: ['Anton Zorich']
+    doi: '10.48550/arxiv.hep-th/9701164'
+    openalex_id: W2963397422
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1007/978-1-4612-4264-2_12'
+    title: 'Enumeration of Rational Curves Via Torus Actions'
+    year: 1995
+    coauthors: []
+    doi: '10.1007/978-1-4612-4264-2_12'
+    journal: 'Birkhäuser Boston eBooks'
+    openalex_id: W1602673883
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'openalex:W2621818980'
+    title: 'Mirror symmetry in dimension 3'
+    year: 1995
+    coauthors: []
+    openalex_id: W2621818980
+    sources: [openalex]
+    no_arxiv: true
   - id: '9411018'
     title: 'Homological Algebra of Mirror Symmetry'
     year: 1994
     coauthors: []
+    doi: '10.1007/978-3-0348-9078-6_11'
+    journal: 'Birkhäuser Basel eBooks'
     primary_category: math.AG
+    openalex_id: W2133314243
+    sources: [arxiv, openalex]
   - id: '9406140'
     title: 'Geometry of determinants of elliptic operators'
     year: 1994
     coauthors: ['Simeon Vishik']
+    doi: '10.1007/978-1-4612-2582-9_6'
+    journal: 'Progress in mathematics'
     primary_category: hep-th
+    openalex_id: W2159697303
+    sources: [arxiv, openalex]
   - id: '9404046'
     title: 'Determinants of elliptic pseudo-differential operators'
     year: 1994
     coauthors: ['Simeon Vishik']
+    doi: '10.48550/arxiv.hep-th/9404046'
     primary_category: hep-th
+    openalex_id: W1642402075
+    sources: [arxiv, openalex]
+  - id: 'doi:10.1007/978-1-4612-0345-2_11'
+    title: 'Formal (Non)-Commutative Symplectic Geometry'
+    year: 1993
+    coauthors: []
+    doi: '10.1007/978-1-4612-0345-2_11'
+    journal: 'Birkhäuser Boston eBooks'
+    openalex_id: W2137523622
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1007/bf02099526'
+    title: 'Intersection theory on the moduli space of curves and the matrix airy function'
+    year: 1992
+    coauthors: []
+    doi: '10.1007/bf02099526'
+    journal: 'Communications in Mathematical Physics'
+    openalex_id: W1972563066
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1007/bf01079591'
+    title: 'Intersection theory on the moduli space of curves'
+    year: 1991
+    coauthors: []
+    doi: '10.1007/bf01079591'
+    journal: 'Functional Analysis and Its Applications'
+    openalex_id: W2007712174
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1137/1133055'
+    title: 'On Jackson Networks on Denumerable Graphs'
+    year: 1989
+    coauthors: ['M. Ya. Kelbert', 'Alexander Rybko']
+    doi: '10.1137/1133055'
+    journal: 'Theory of Probability and Its Applications'
+    openalex_id: W2021881826
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1007/bf01078034'
+    title: 'Virasoro algebra and Teichmüller spaces'
+    year: 1987
+    coauthors: []
+    doi: '10.1007/bf01078034'
+    journal: 'Functional Analysis and Its Applications'
+    openalex_id: W2008869503
+    sources: [openalex]
+    no_arxiv: true
 sources:
 - label: OpenAlex
   url: https://openalex.org/authors/A5018376358

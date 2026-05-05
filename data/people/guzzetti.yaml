@@ -61,11 +61,84 @@ key_collaborators:
   topic: Isomonodromy, coalescence, helix structures
   papers_count: 14
 publications:
+  - id: 'doi:10.4213/im9694'
+    title: 'Uniqueness of asymptotic solutions for linear systems of ODEs with isolated singularities of general type'
+    year: 2026
+    coauthors: []
+    doi: '10.4213/im9694'
+    journal: 'Известия Российской академии наук Серия математическая'
+    openalex_id: W7125904075
+    sources: [openalex]
+    no_arxiv: true
   - id: '2505.03028'
     title: 'On the spin-orbit problem for highly elliptical orbits and recursive excitation'
     year: 2025
     coauthors: ['Erica Scantamburlo', 'Marcello Romano']
     primary_category: astro-ph.EP
+    sources: [arxiv]
+  - id: 'doi:10.1007/978-3-031-69067-9_1'
+    title: 'Introduction'
+    year: 2024
+    coauthors: [cotti, dubrovin]
+    doi: '10.1007/978-3-031-69067-9_1'
+    journal: 'Lecture notes in mathematics'
+    openalex_id: W4403810207
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1007/978-3-031-69067-9_6'
+    title: 'Proof of the Main Conjecture for Projective Spaces'
+    year: 2024
+    coauthors: [cotti, dubrovin]
+    doi: '10.1007/978-3-031-69067-9_6'
+    journal: 'Lecture notes in mathematics'
+    openalex_id: W4403810265
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1007/978-3-031-69067-9_7'
+    title: 'Proof of the Main Conjecture for Grassmannians'
+    year: 2024
+    coauthors: [cotti, dubrovin]
+    doi: '10.1007/978-3-031-69067-9_7'
+    journal: 'Lecture notes in mathematics'
+    openalex_id: W4403810268
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1007/978-3-031-69067-9_5'
+    title: 'The Main Conjecture'
+    year: 2024
+    coauthors: [cotti, dubrovin]
+    doi: '10.1007/978-3-031-69067-9_5'
+    journal: 'Lecture notes in mathematics'
+    openalex_id: W4403810274
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1007/978-3-031-69067-9_3'
+    title: 'Helix Theory in Triangulated Categories'
+    year: 2024
+    coauthors: [cotti, dubrovin]
+    doi: '10.1007/978-3-031-69067-9_3'
+    journal: 'Lecture notes in mathematics'
+    openalex_id: W4403810295
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1007/978-3-031-69067-9_2'
+    title: 'Gromov–Witten Theory and Quantum Cohomology'
+    year: 2024
+    coauthors: [cotti, dubrovin]
+    doi: '10.1007/978-3-031-69067-9_2'
+    journal: 'Lecture notes in mathematics'
+    openalex_id: W4403810314
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1007/978-3-031-69067-9_4'
+    title: 'Non-symmetric Orthogonal Geometry of Mukai Lattices'
+    year: 2024
+    coauthors: [cotti, dubrovin]
+    doi: '10.1007/978-3-031-69067-9_4'
+    journal: 'Lecture notes in mathematics'
+    openalex_id: W4403810316
+    sources: [openalex]
+    no_arxiv: true
   - id: '2310.19739'
     title: 'Asymptotic solutions for linear ODEs with not-necessarily meromorphic coefficients: a Levinson type theorem on complex domains, and applications'
     year: 2023
@@ -73,6 +146,8 @@ publications:
     doi: '10.1016/j.jde.2025.01.085'
     journal: 'Journal of Differential Equations 428 (2025): 1-58'
     primary_category: math.CA
+    openalex_id: W4407553535
+    sources: [arxiv, openalex]
   - id: '2111.02969'
     title: 'Isomonodromic deformations along a stratum of the coalescence locus'
     year: 2021
@@ -80,11 +155,17 @@ publications:
     doi: '10.1088/1751-8121/ac9ba8'
     journal: 'J. Phys. A: Math. Theor. (2022)'
     primary_category: math-ph
+    openalex_id: W3210508431
+    sources: [arxiv, openalex]
   - id: '2108.07003'
     title: 'The sixth Painleve'' equation as isomonodromy deformation of an irregular system: monodromy data, coalescing eigenvalues, locally holomorphic transcendents and Frobenius manifolds'
     year: 2021
     coauthors: ['Gabriele Degano']
+    doi: '10.1088/1361-6544/acdc7a'
+    journal: 'Nonlinearity'
     primary_category: math.CA
+    openalex_id: W3194912906
+    sources: [arxiv, openalex]
   - id: '2101.03397'
     title: 'Isomonodromic Laplace Transform with Coalescing Eigenvalues and Confluence of Fuchsian Singularities'
     year: 2021
@@ -92,11 +173,40 @@ publications:
     doi: '10.1007/s11005-021-01423-z'
     journal: 'Letters in Mathematical Physics, 111:80, (2021)'
     primary_category: math.CA
+    openalex_id: W3119022540
+    sources: [arxiv, openalex]
+  - id: '2107.05142'
+    title: 'Graph neural networks for simulating crack coalescence and propagation in brittle materials'
+    year: 2021
+    coauthors: ['Roberto Perera', 'Vinamra Agrawal']
+    sources: [arxiv]
+  - id: '2101.06474'
+    title: 'Optimized and autonomous machine learning framework for characterizing pores, particles, grains and grain boundaries in microstructural images'
+    year: 2021
+    coauthors: ['Roberto Perera', 'Vinamra Agrawal']
+    sources: [arxiv]
+  - id: '1901.02881'
+    title: 'Multi-Revolution Low-Thrust Trajectory Optimization Using Symplectic Methods'
+    year: 2019
+    coauthors: ['Zhibo E']
+    sources: [arxiv]
+  - id: 'doi:10.1515/9783110611427-011'
+    title: 'Isomonodromy deformations with coalescing eigenvalues and applications – Będlewo 2018'
+    year: 2019
+    coauthors: []
+    doi: '10.1515/9783110611427-011'
+    openalex_id: W4213232134
+    sources: [openalex]
+    no_arxiv: true
   - id: '1811.09235'
     title: 'Helix Structures in Quantum Cohomology of Fano Varieties'
     year: 2018
     coauthors: [cotti, dubrovin]
+    doi: '10.1007/978-3-031-69067-9'
+    journal: 'Lecture notes in mathematics'
     primary_category: math.AG
+    openalex_id: W4403810192
+    sources: [arxiv, openalex]
   - id: '1804.05688'
     title: 'Notes on Non-Generic Isomonodromy Deformations'
     year: 2018
@@ -104,6 +214,25 @@ publications:
     doi: '10.3842/SIGMA.2018.087'
     journal: 'SIGMA 14 (2018), 087, 34 pages'
     primary_category: math.CA
+    sources: [arxiv]
+  - id: 'doi:10.1142/s2010326318400038'
+    title: 'Results on the extension of isomonodromy deformations to the case of a resonant irregular singularity'
+    year: 2018
+    coauthors: [cotti]
+    doi: '10.1142/s2010326318400038'
+    journal: 'Random Matrices Theory and Application'
+    openalex_id: W2792970613
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1007/978-3-319-99148-1_14'
+    title: 'Deformations with a Resonant Irregular Singularity'
+    year: 2018
+    coauthors: []
+    doi: '10.1007/978-3-319-99148-1_14'
+    journal: 'Springer proceedings in mathematics & statistics'
+    openalex_id: W2893151660
+    sources: [openalex]
+    no_arxiv: true
   - id: '1712.08575'
     title: 'Local Moduli of Semisimple Frobenius Coalescent Structures'
     year: 2017
@@ -111,6 +240,8 @@ publications:
     doi: '10.3842/SIGMA.2020.040'
     journal: 'SIGMA 16 (2020), 040, 105 pages'
     primary_category: math.DG
+    openalex_id: W2776628391
+    sources: [arxiv, openalex]
   - id: '1706.04808'
     title: 'Isomonodromy Deformations at an Irregular Singularity with Coalescing Eigenvalues'
     year: 2017
@@ -118,11 +249,32 @@ publications:
     doi: '10.1215/00127094-2018-0059'
     journal: 'Duke Math. J. 168, no. 6 (2019), 967-1108'
     primary_category: math.CA
+    sources: [arxiv]
+  - id: 'doi:10.1142/s2010326317400044'
+    title: 'Analytic geometry of semisimple coalescent Frobenius structures'
+    year: 2017
+    coauthors: [cotti]
+    doi: '10.1142/s2010326317400044'
+    journal: 'Random Matrices Theory and Application'
+    openalex_id: W2756463005
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'openalex:W3101699203'
+    title: 'Matching procedure for the sixth Painleve equation'
+    year: 2016
+    coauthors: []
+    openalex_id: W3101699203
+    sources: [openalex]
+    no_arxiv: true
   - id: '1407.1206'
     title: 'On Stokes Matrices in terms of Connection Coefficients'
     year: 2014
     coauthors: []
+    doi: '10.1619/fesi.59.383'
+    journal: 'Funkcialaj Ekvacioj'
     primary_category: math.CA
+    openalex_id: W1528879957
+    sources: [arxiv, openalex]
   - id: '1210.0311'
     title: 'A Review on The Sixth Painleve'' Equation'
     year: 2012
@@ -130,6 +282,15 @@ publications:
     doi: '10.1007/s00365-014-9250-6'
     journal: 'Constructive Approximations Vol. 41 (2015), 495-527'
     primary_category: math.CA
+    sources: [arxiv]
+  - id: 'doi:10.1515/9783110275667.101'
+    title: 'Chapter 12. Critical behavior of P6 Functions from the Isomonodromy Deformations Approach'
+    year: 2012
+    coauthors: []
+    doi: '10.1515/9783110275667.101'
+    openalex_id: W2486474694
+    sources: [openalex]
+    no_arxiv: true
   - id: '1108.3401'
     title: 'Tabulation of PVI Transcendents and Parametrization Formulas (August 17, 2011)'
     year: 2011
@@ -137,18 +298,26 @@ publications:
     doi: '10.1088/0951-7715/25/12/3235'
     journal: 'Nonlinearity 2012'
     primary_category: math.CA
+    openalex_id: W3100453864
+    sources: [arxiv, openalex]
   - id: '1106.2636'
     title: 'Solving PVI by Isomonodromy Deformations'
     year: 2011
     coauthors: []
+    doi: '10.48550/arxiv.1106.2636'
     journal: 'De Gruyter Proceedings in Mathematics 2012, ISBN 978-3-11-027567-4'
     primary_category: math.CA
+    openalex_id: W1582460719
+    sources: [arxiv, openalex]
   - id: '1104.5066'
     title: 'Poles Distribution of PVI Transcendents close to a Critical Point (summer 2011)'
     year: 2011
     coauthors: []
     doi: '10.1016/j.physd.2012.02.015'
+    journal: 'Physica D Nonlinear Phenomena'
     primary_category: math.CA
+    openalex_id: W2166617058
+    sources: [arxiv, openalex]
   - id: '1101.4705'
     title: 'An Asymptotic Reduction of a Painleve'' VI equation to a Painleve'' III (January 2011)'
     year: 2011
@@ -156,6 +325,8 @@ publications:
     doi: '10.1088/1751-8113/44/21/215203'
     journal: 'J.Phys.A: Math.Theor. 44 (2011) 215203'
     primary_category: math.CA
+    openalex_id: W2025641719
+    sources: [arxiv, openalex]
   - id: '1010.1895'
     title: 'Solving the Sixth Painleve'' Equation: Towards the Classification of all the Critical Behaviours and the Connection Formulae (October 2010)'
     year: 2010
@@ -163,6 +334,8 @@ publications:
     doi: '10.1093/imrn/rnr071'
     journal: 'International Mathematical Research Notices 2012 Vol. 2012, No. 6, pp. 1352-1413'
     primary_category: math.CA
+    openalex_id: W2795166603
+    sources: [arxiv, openalex]
   - id: '1010.1952'
     title: 'Matching Procedure for the Sixth Painlevé Equation (May 2006)'
     year: 2010
@@ -170,12 +343,17 @@ publications:
     doi: '10.1088/0305-4470/39/39/S02'
     journal: 'J. Phys A: Math.Gen. 39 (2006) 11973-12031'
     primary_category: math.CA
+    openalex_id: W2963330770
+    sources: [arxiv, openalex]
   - id: '1010.1330'
     title: 'On the Critical Behavior, the Connection problem and the Elliptic representation of a Painleve VI equation (Spring 2001)'
     year: 2010
     coauthors: []
+    doi: '10.48550/arxiv.1010.1330'
     journal: 'J.Math.Phys.Anal.Geom. 4 (2001) 293-377'
     primary_category: math.CA
+    openalex_id: W1579912351
+    sources: [arxiv, openalex]
   - id: '0801.1157'
     title: 'On the Logarithmic Asymptotics of the Sixth Painleve'' Equation (Summer 2007)'
     year: 2008
@@ -183,33 +361,127 @@ publications:
     doi: '10.1088/1751-8113/41/20/205201'
     journal: 'J.Phys.A: Math.Theor. 41,(2008), 205201-205247'
     primary_category: math-ph
+    openalex_id: W2963301392
+    sources: [arxiv, openalex]
+  - id: 'doi:10.1007/s00023-006-0309-1'
+    title: 'The Asymptotic Behaviour of the Fourier Transforms of Orthogonal Polynomials II: L.I.F.S. Measures and Quantum Mechanics'
+    year: 2007
+    coauthors: ['Giorgio Mantica']
+    doi: '10.1007/s00023-006-0309-1'
+    journal: 'Annales Henri Poincaré'
+    openalex_id: W1977721963
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'openalex:W649627614'
+    title: 'Matching Procedure for the Sixth Painleve Equation(Algebraic, Analytic and Geometric Aspects of Complex Differential Equations and their Deformations. Painleve Hierarchies)'
+    year: 2007
+    coauthors: []
+    openalex_id: W649627614
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1007/s11040-004-0936-z'
+    title: 'The Singularity of Kontsevich?s Solution for QH*(CP2)'
+    year: 2005
+    coauthors: []
+    doi: '10.1007/s11040-004-0936-z'
+    journal: 'Mathematical Physics Analysis and Geometry'
+    openalex_id: W2963152169
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.7717/peerj.2833'
+    title: 'THE ELLIPTIC REPRESENTATION OF THE SIXTH PAINLEV´ E EQUATION'
+    year: 2004
+    coauthors: []
+    doi: '10.7717/peerj.2833'
+    journal: 'PeerJ'
+    openalex_id: W145742675
+    sources: [openalex]
+    no_arxiv: true
   - id: '0301011'
     title: 'The Singularity of Kontsevich''s Solution for $QH^{*}(CP^2)$'
     year: 2003
     coauthors: []
+    doi: '10.48550/arxiv.math-ph/0301011'
     primary_category: math-ph
+    openalex_id: W1987130486
+    sources: [arxiv, openalex]
+  - id: 'doi:10.1109/iembs.2002.1134460'
+    title: 'Study of the electrical activity of heart cells by simulation with mathematical models'
+    year: 2003
+    coauthors: ['M.G. Signorini', 'S. Cerutti']
+    doi: '10.1109/iembs.2002.1134460'
+    openalex_id: W2107498919
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'openalex:W1009919968'
+    title: 'The Elliptic Representation of the Painleve 6 Equation (Deformation of differential equations and asymptotic analysis)'
+    year: 2002
+    coauthors: []
+    openalex_id: W1009919968
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'openalex:W2279732581'
+    title: 'The Elliptic Representation of the Painleve 6 Equation'
+    year: 2002
+    coauthors: []
+    openalex_id: W2279732581
+    sources: [openalex]
+    no_arxiv: true
   - id: '0108073'
     title: 'The Elliptic Representation of the General Painlevé 6 Equation'
     year: 2001
     coauthors: []
+    doi: '10.1002/cpa.10045'
     journal: 'Communications 0n Pure and Applied mathematics LV, 1280-1363 (2002)'
     primary_category: math.CV
-  - id: '2107.05142'
-    title: 'Graph neural networks for simulating crack coalescence and propagation in brittle materials'
-    year: 2021
-    coauthors: ['Roberto Perera', 'Vinamra Agrawal']
-  - id: '2101.06474'
-    title: 'Optimized and autonomous machine learning framework for characterizing pores, particles, grains and grain boundaries in microstructural images'
-    year: 2021
-    coauthors: ['Roberto Perera', 'Vinamra Agrawal']
-  - id: '1901.02881'
-    title: 'Multi-Revolution Low-Thrust Trajectory Optimization Using Symplectic Methods'
-    year: 2019
-    coauthors: ['Zhibo E']
+    openalex_id: W2008238810
+    sources: [arxiv, openalex]
+  - id: 'doi:10.1023/a:1014265919008'
+    title: 'On the Critical Behavior, the Connection Problem and the Elliptic Representation of a Painlevé VI Equation'
+    year: 2001
+    coauthors: []
+    doi: '10.1023/a:1014265919008'
+    journal: 'Mathematical Physics Analysis and Geometry'
+    openalex_id: W1561002754
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1023/a:1012933622521'
+    title: 'Inverse Problem and Monodromy Data for Three-Dimensional Frobenius Manifolds'
+    year: 2001
+    coauthors: []
+    doi: '10.1023/a:1012933622521'
+    journal: 'Mathematical Physics Analysis and Geometry'
+    openalex_id: W1588937016
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.48550/arxiv.math/0010235'
+    title: 'Inverse Problem for semisimple Frobenius Manifolds, Monodromy Data and the Painleve'' VI Equation'
+    year: 2000
+    coauthors: []
+    doi: '10.48550/arxiv.math/0010235'
+    openalex_id: W1525720806
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'openalex:W2156650557'
+    title: 'Stokes Matrices for Frobenius Manifolds and the 6 Painlevé Equation'
+    year: 2000
+    coauthors: []
+    openalex_id: W2156650557
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1007/s002200050729'
+    title: 'Stokes Matrices and Monodromy of the Quantum Cohomology of Projective Spaces'
+    year: 1999
+    coauthors: []
+    doi: '10.1007/s002200050729'
+    journal: 'Communications in Mathematical Physics'
+    openalex_id: W1992196922
+    sources: [openalex]
+    no_arxiv: true
 activity:
-  total_papers: 24
-  published_count: 16
-  preprint_only_count: 8
+  total_papers: 50
+  published_count: 41
+  preprint_only_count: 9
   h_index: 11
   active_period: '1999-present'
   quality_source: 'openalex + ruirui-2026'

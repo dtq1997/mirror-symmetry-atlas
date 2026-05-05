@@ -65,14 +65,22 @@ export interface SourceRef {
 }
 
 export interface Publication {
-  id: string; // arXiv ID e.g. "2511.10082"
+  /** Primary identifier. Prefer arXiv ID; if no arXiv preprint exists, use
+   *  the DOI as the id (prefixed with "doi:"), or an OpenAlex work id. */
+  id: string;
   title: string;
   year: number;
   coauthors: string[]; // person slugs (or raw names if not yet stubbed)
   doi?: string;
   journal?: string;
-  /** arXiv primary category (math.AG, math-ph, hep-th, ...) */
+  /** arXiv primary category (math.AG, math-ph, hep-th, ...) when available */
   primary_category?: string;
+  /** Which data source(s) reported this paper. Helps users see provenance. */
+  sources?: ("arxiv" | "openalex" | "crossref" | "manual")[];
+  /** OpenAlex work id (e.g. "W2964093293") when known */
+  openalex_id?: string;
+  /** True if this paper exists in our records but never appeared on arXiv. */
+  no_arxiv?: boolean;
 }
 
 export interface Person {
@@ -256,6 +264,11 @@ export interface Connection {
   notes?: string;
   derived?: boolean;
   papers?: string[];  // for acknowledgement edges: list of arxiv ids
+  /** For coauthor edges, papers split by publication status. */
+  coauthored_papers?: {
+    published: { id: string; title: string; year: number; doi?: string; journal?: string }[];
+    preprint: { id: string; title: string; year: number; primary_category?: string }[];
+  };
 }
 
 // Single-ack: shown in detail sidebar rather than network

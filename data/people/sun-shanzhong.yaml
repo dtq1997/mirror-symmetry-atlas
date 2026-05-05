@@ -87,78 +87,201 @@ publications:
     year: 2025
     coauthors: ['Zhifu Xie', 'Peng You']
     primary_category: math.DS
+    sources: [arxiv]
   - id: '2510.10678'
     title: 'A proof of Witten''s asymptotic expansion conjecture for WRT invariants of Seifert fibered homology spheres'
     year: 2025
     coauthors: ['Jørgen Ellegaard Andersen', 'Li Han', 'Yong Li', 'William Elbæk Mistegård', 'David Sauzin']
     primary_category: math.CV
+    sources: [arxiv]
   - id: '2503.12815'
     title: 'Resurgence in the Universal Structures in B-model Topological String Theory'
     year: 2025
     coauthors: ['Yong Li', 'David Sauzin']
     primary_category: math-ph
+    sources: [arxiv]
   - id: '2303.00201'
     title: 'On the Uniqueness of Convex Central Configurations in the Planar 4-Body Problem'
     year: 2023
     coauthors: ['Zhifu Xie', 'Peng You']
+    doi: '10.1134/s1560354723520076'
+    journal: 'Regular and Chaotic Dynamics'
     primary_category: math.DS
+    openalex_id: W4385576556
+    sources: [arxiv, openalex]
+  - id: '2310.17449'
+    title: 'On the Hadamard inverse of a resurgent function with only one singularity'
+    year: 2023
+    coauthors: ['Yong Li', 'David Sauzin']
+    sources: [arxiv]
+  - id: 'doi:10.4213/faa4031'
+    title: 'Ресургентность и частичные тета-ряды'
+    year: 2023
+    coauthors: ['Han Li', 'Yong Li', 'David Sauzin']
+    doi: '10.4213/faa4031'
+    journal: 'Функциональный анализ и его приложения'
+    openalex_id: W4385339903
+    sources: [openalex]
+    no_arxiv: true
   - id: '2209.00146'
     title: 'Monodromy of Complexified Planar Kepler Problem'
     year: 2022
     coauthors: ['Peng You']
     doi: '10.1360/SCM-2020-0373'
     primary_category: math-ph
+    sources: [arxiv]
   - id: '2208.11959'
     title: 'A Weak infinity-Functor in Morse Theory'
     year: 2022
     coauthors: ['Chenxi Wang']
+    doi: '10.48550/arxiv.2208.11959'
     primary_category: math.AT
+    openalex_id: W4293352213
+    sources: [arxiv, openalex]
+  - id: '2112.15223'
+    title: 'Resurgence and Partial Theta Series'
+    year: 2021
+    coauthors: ['Li Han', 'Yong Li', 'David Sauzin']
+    doi: '10.1134/s001626632303005x'
+    journal: 'Functional Analysis and Its Applications'
+    openalex_id: W4225562607
+    sources: [arxiv, openalex]
+  - id: '2111.07714'
+    title: 'Elliptic fixed points with an invariant foliation: Some facts and more questions'
+    year: 2021
+    coauthors: ['Alain Chenciner', 'David Sauzin', li-ao]
+    doi: '10.1134/s1560354722010063'
+    journal: 'Regular and Chaotic Dynamics'
+    openalex_id: W3214401586
+    sources: [arxiv, openalex]
   - id: '2012.15224'
     title: 'On the Moyal Star Product of Resurgent Series'
     year: 2020
     coauthors: ['Yong Li', 'David Sauzin']
     primary_category: math-ph
+    sources: [arxiv]
   - id: '2012.14175'
     title: 'Hadamard Product and Resurgence Theory'
     year: 2020
     coauthors: ['Yong Li', 'David Sauzin']
     primary_category: math.CV
+    sources: [arxiv]
   - id: '1805.00766'
     title: 'The Baker-Campbell-Hausdorff formula via mould calculus'
     year: 2018
     coauthors: ['Yong Li', 'David Sauzin']
     primary_category: math.RA
+    sources: [arxiv]
   - id: '1801.05626'
     title: 'Non-Embedding Theorems of Nilpotent Lie groups and Sub-Riemannian Manifolds'
     year: 2018
     coauthors: ['Yonghong Huang']
+    doi: '10.1007/s11464-020-0823-3'
+    journal: 'Frontiers of Mathematics in China'
     primary_category: math.DG
+    openalex_id: W3011491025
+    sources: [arxiv, openalex]
+  - id: '1801.05626.'
+    title: 'The non-existence of bi-Lipschitz embedding of sub-Riemannian manifold in Banach spaces with Radon-Nikodym property'
+    year: 2018
+    coauthors: ['Yonghong Huang']
+    openalex_id: W2783109996
+    sources: [openalex]
   - id: '1608.08294'
     title: 'Gutzwiller''s Semiclassical Trace Formula and Maslov-Type Index Theory for Symplectic Paths'
     year: 2016
     coauthors: []
+    doi: '10.1007/s11784-016-0355-3'
+    journal: 'Journal of Fixed Point Theory and Applications'
     primary_category: math.DS
+    openalex_id: W2963826032
+    sources: [arxiv, openalex]
   - id: '1508.02115'
     title: 'A Double Poisson Algebra Structure on Fukaya Categories'
     year: 2015
     coauthors: ['Xiaojun Chen', 'Hai-Long Her', 'Xiangdong Yang']
     doi: '10.1016/j.geomphys.2015.07.027'
+    journal: 'Journal of Geometry and Physics'
     primary_category: math.SG
+    openalex_id: W1915705587
+    sources: [arxiv, openalex]
+  - id: 'doi:10.1007/s11464-015-0440-8'
+    title: 'Lie bialgebra structure on cyclic cohomology of Fukaya categories'
+    year: 2015
+    coauthors: ['Xiaojun Chen', 'Hai-Long Her']
+    doi: '10.1007/s11464-015-0440-8'
+    journal: 'Frontiers of Mathematics in China'
+    openalex_id: W2030130792
+    sources: [openalex]
+    no_arxiv: true
   - id: '1206.6162'
     title: 'Linear stability of elliptic Lagrangian solutions of the planar three-body problem via index theory'
     year: 2012
     coauthors: ['Xijun Hu', 'Yiming Long']
+    doi: '10.1007/s00205-014-0749-6'
+    journal: 'Archive for Rational Mechanics and Analysis'
     primary_category: math.DS
+    openalex_id: W2962985604
+    sources: [arxiv, openalex]
   - id: '1201.4907'
     title: 'Cyclic Homology of Fukaya Categories and the Linearized Contact Homology'
     year: 2012
     coauthors: ['Xiaojun Chen', 'Hai-Long Her']
+    doi: '10.48550/arxiv.1201.4907'
     primary_category: math.SG
+    openalex_id: W1644146311
+    sources: [arxiv, openalex]
   - id: '1110.6803'
     title: 'Relative orbifold Gromov-Witten theory and degeneration formula'
     year: 2011
     coauthors: ['Bohui Chen', 'An-Min Li', 'Guosong Zhao']
     primary_category: math.SG
+    sources: [arxiv]
+  - id: 'doi:10.1007/s11425-010-0064-0'
+    title: 'Morse index and the stability of closed geodesics'
+    year: 2010
+    coauthors: ['Xijun Hu']
+    doi: '10.1007/s11425-010-0064-0'
+    journal: 'Science in China Series A Mathematics'
+    openalex_id: W2130007679
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1142/9789814327848_0004'
+    title: 'VARIATIONAL PRINCIPLE AND LINEAR STABILITY OF PERIODIC ORBITS IN CELESTIAL MECHANICS'
+    year: 2010
+    coauthors: ['Xijun Hu']
+    doi: '10.1142/9789814327848_0004'
+    journal: 'WORLD SCIENTIFIC eBooks'
+    openalex_id: W2497860439
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1007/s00220-009-0860-y'
+    title: 'Index and Stability of Symmetric Periodic Orbits in Hamiltonian Systems with Application to Figure-Eight Orbit'
+    year: 2009
+    coauthors: ['Xijun Hu']
+    doi: '10.1007/s00220-009-0860-y'
+    journal: 'Communications in Mathematical Physics'
+    openalex_id: W2008729046
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1016/j.aim.2009.07.017'
+    title: 'Morse index and stability of elliptic Lagrangian solutions in the planar three-body problem'
+    year: 2009
+    coauthors: ['Xijun Hu']
+    doi: '10.1016/j.aim.2009.07.017'
+    journal: 'Advances in Mathematics'
+    openalex_id: W2083275971
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1016/j.crma.2009.09.023'
+    title: 'Stability of relative equilibria and Morse index of central configurations'
+    year: 2009
+    coauthors: ['Xijun Hu']
+    doi: '10.1016/j.crma.2009.09.023'
+    journal: 'Comptes Rendus Mathématique'
+    openalex_id: W2138932635
+    sources: [openalex]
+    no_arxiv: true
   - id: '0706.1194'
     title: 'Symmetry of Planar Four-Body Convex Central Configurations'
     year: 2007
@@ -166,24 +289,54 @@ publications:
     doi: '10.1098/rspa.2007.0320'
     journal: 'Proceedings of the Royal Society A, 464 (2008), pp. 1355-1365'
     primary_category: math-ph
-  - id: '2310.17449'
-    title: 'On the Hadamard inverse of a resurgent function with only one singularity'
-    year: 2023
-    coauthors: ['Yong Li', 'David Sauzin']
-  - id: '2112.15223'
-    title: 'Resurgence and Partial Theta Series'
-    year: 2021
-    coauthors: ['Li Han', 'Yong Li', 'David Sauzin']
-  - id: '2111.07714'
-    title: 'Elliptic fixed points with an invariant foliation: Some facts and more questions'
-    year: 2021
-    coauthors: ['Alain Chenciner', 'David Sauzin', 'Qiaoling Wei']
+    sources: [arxiv]
+  - id: 'doi:10.1007/s00205-004-0314-9'
+    title: 'Collinear Central Configurations and Singular Surfaces in the Mass Space'
+    year: 2004
+    coauthors: ['Yiming Long']
+    doi: '10.1007/s00205-004-0314-9'
+    journal: 'Archive for Rational Mechanics and Analysis'
+    openalex_id: W1976331263
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1142/9789812704283_0017'
+    title: 'Collinear central configurations in celestial mechanics'
+    year: 2003
+    coauthors: ['Yiming Long']
+    doi: '10.1142/9789812704283_0017'
+    openalex_id: W2322500922
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1007/s002050100183'
+    title: 'Four-Body Central Configurations¶with some Equal Masses'
+    year: 2002
+    coauthors: ['Yiming Long']
+    doi: '10.1007/s002050100183'
+    journal: 'Archive for Rational Mechanics and Analysis'
+    openalex_id: W2385402266
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'openalex:W2350967149'
+    title: '4-BODY CENTRAL CONFIGURATIONS WITH SOME EQUAL EDGES'
+    year: 2002
+    coauthors: []
+    openalex_id: W2350967149
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'openalex:W2361915954'
+    title: 'NURBS TRI PARAMETRIC SOLID MODELING ANDITS APPLICATION IN CAD/CAM OF DIES'
+    year: 1997
+    coauthors: []
+    openalex_id: W2361915954
+    sources: [openalex]
+    no_arxiv: true
 activity:
-  total_papers: 19
-  published_count: 3
-  preprint_only_count: 16
+  total_papers: 32
+  published_count: 21
+  preprint_only_count: 11
   active_period: '2007-present'
-external_ids: {}
+external_ids:
+  openalex: A5102107859
 links:
   homepage: "https://shanzhong-sun.github.io/ShanzhongSUN/"
 personal_notes: |

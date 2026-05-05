@@ -67,9 +67,17 @@ function PersonDetail({ person }: { person: Person }) {
         <div>
           <div className="text-xs text-[#8888a0] mb-2">学术活跃度</div>
           <div className="grid grid-cols-2 gap-2">
-            {person.activity.total_papers != null && (
-              <Stat label="论文" value={person.activity.total_papers} />
+            {person.activity.published_count != null && (
+              <Stat label="已发表" value={person.activity.published_count} />
             )}
+            {person.activity.preprint_only_count != null && (
+              <Stat label="仅预印" value={person.activity.preprint_only_count} />
+            )}
+            {person.activity.published_count == null &&
+              person.activity.preprint_only_count == null &&
+              person.activity.total_papers != null && (
+                <Stat label="论文" value={person.activity.total_papers} />
+              )}
             {person.activity.h_index != null && (
               <Stat label="h-index" value={person.activity.h_index} />
             )}

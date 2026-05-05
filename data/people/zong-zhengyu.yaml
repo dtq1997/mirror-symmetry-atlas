@@ -30,38 +30,61 @@ key_collaborators:
   - person: fang-bohan
     since: 2014
     topic: "Remodeling conjecture, toric CY, topological recursion"
-    papers_count: 10
+    papers_count: 11
 publications:
   - id: '2601.17321'
     title: 'On one-leg orbifold topological vertex in refined GW theory'
     year: 2026
     coauthors: ['Jinghao Yu']
     primary_category: math.AG
+    openalex_id: W7125878073
+    sources: [arxiv, openalex]
+  - id: 'doi:10.48550/arxiv.2601.17321'
+    title: 'On one-leg orbifold topological vertex in refined Gromov-Witten theory'
+    year: 2026
+    coauthors: ['Jinghao Yu']
+    doi: '10.48550/arxiv.2601.17321'
+    openalex_id: W7125799564
+    sources: [openalex]
+    no_arxiv: true
   - id: '2512.15074'
     title: 'Multi-Component Open/Relative/Local Correspondence'
     year: 2025
     coauthors: ['Song Yu', 'Ke Zhang']
     primary_category: math.AG
+    sources: [arxiv]
   - id: '2509.24727'
     title: 'Mirror symmetry and open/closed correspondence for the projective line'
     year: 2025
     coauthors: ['Jinghao Yu']
+    doi: '10.48550/arxiv.2509.24727'
     primary_category: math.AG
+    openalex_id: W4415337195
+    sources: [arxiv, openalex]
   - id: '2507.15187'
     title: 'All genus open mirror symmetry for the projective line'
     year: 2025
     coauthors: ['Jinghao Yu']
+    doi: '10.48550/arxiv.2507.15187'
     primary_category: math.AG
+    openalex_id: W4417488150
+    sources: [arxiv, openalex]
   - id: '2505.11222'
     title: 'Open/closed correspondence for the projective line'
     year: 2025
     coauthors: []
+    doi: '10.48550/arxiv.2505.11222'
     primary_category: math.AG
+    openalex_id: W4417094006
+    sources: [arxiv, openalex]
   - id: '2504.15696'
     title: 'Remodeling Conjecture with Descendants'
     year: 2025
     coauthors: [fang-bohan, liu-melissa, 'Song Yu']
+    doi: '10.48550/arxiv.2504.15696'
     primary_category: math.AG
+    openalex_id: W4414632062
+    sources: [arxiv, openalex]
   - id: '2312.06160'
     title: 'Open WDVV Equations and Frobenius Structures for Toric CY 3-Folds'
     year: 2023
@@ -69,22 +92,53 @@ publications:
     doi: '10.1017/fms.2025.14'
     journal: 'Forum of Mathematics, Sigma 13 (2025) e76'
     primary_category: math.AG
+    openalex_id: W4389708173
+    sources: [arxiv, openalex]
   - id: '2309.01473'
     title: 'Twisted Equivariant Gromov-Witten Theory of the Classifying Space of a Finite Group'
     year: 2023
     coauthors: ['Zhuoming Lan']
+    doi: '10.48550/arxiv.2309.01473'
     primary_category: math.AG
+    openalex_id: W4386557040
+    sources: [arxiv, openalex]
   - id: '2306.05326'
     title: 'Torus knots in Lens spaces, open Gromov-Witten invariants, and topological recursion'
     year: 2023
     coauthors: ['Jinghao Yu']
+    doi: '10.48550/arxiv.2306.05326'
+    journal: 'Science China Mathematics'
     primary_category: math.AG
+    openalex_id: W4380136784
+    sources: [arxiv, openalex]
+  - id: '2211.09203'
+    title: 'All genus open-closed mirror symmetry for affine toric CY 3-orbifolds'
+    year: 2022
+    coauthors: [fang-bohan, liu-melissa]
+    sources: [arxiv]
+  - id: '2010.15403'
+    title: 'On the Remodeling Conjecture for Toric CY 3-Orbifolds'
+    year: 2020
+    coauthors: [fang-bohan, liu-melissa]
+    sources: [arxiv]
   - id: '1902.03697'
     title: 'Graph sums in the Remodeling Conjecture'
     year: 2019
     coauthors: [fang-bohan]
+    doi: '10.48550/arxiv.1902.03697'
     journal: 'Proceedings of Symposia in Pure Mathematics, Volume 100, 2018'
     primary_category: math.AG
+    openalex_id: W4311924489
+    sources: [arxiv, openalex]
+  - id: 'doi:10.1090/jams/934'
+    title: 'On the remodeling conjecture for toric Calabi-Yau 3-orbifolds'
+    year: 2019
+    coauthors: [fang-bohan, 'Chiu-Chu Liu']
+    doi: '10.1090/jams/934'
+    journal: 'Journal of the American Mathematical Society'
+    openalex_id: W2965670976
+    sources: [openalex]
+    no_arxiv: true
   - id: '1612.00652'
     title: 'Gromov--Witten theory of $[\mathbb{C}^2/\mathbb{Z}_{n+1}]\times \mathbb{P}^1$'
     year: 2016
@@ -92,28 +146,43 @@ publications:
     doi: '10.2140/ant.2022.16.1'
     journal: 'Alg. Number Th. 16 (2022) 1-58'
     primary_category: math.AG
+    openalex_id: W2559957311
+    sources: [arxiv, openalex]
   - id: '1607.06935'
     title: 'The SYZ mirror symmetry and the BKMP remodeling conjecture'
     year: 2016
     coauthors: [fang-bohan, liu-melissa]
+    doi: '10.4310/atmp.2016.v20.n1.a3'
     journal: 'Adv. Theor. Math. Phys. 20 (2016), no. 1, 165-192'
     primary_category: math.AG
+    openalex_id: W2963573638
+    sources: [arxiv, openalex]
   - id: '1607.01208'
     title: 'Topological recursion for the conifold transition of a torus knot'
     year: 2016
     coauthors: [fang-bohan]
+    doi: '10.1007/s00029-019-0483-x'
+    journal: 'Selecta Mathematica'
     primary_category: math.AG
+    openalex_id: W2964222327
+    sources: [arxiv, openalex]
   - id: '1604.07270'
     title: 'Equivariant Gromov-Witten Theory of GKM Orbifolds'
     year: 2016
     coauthors: []
+    doi: '10.7916/d8513wzc'
     primary_category: math.AG
+    openalex_id: W2163815173
+    sources: [arxiv, openalex]
   - id: '1604.07123'
     title: 'The Eynard-Orantin Recursion and Equivariant Mirror Symmetry for P^1'
     year: 2016
     coauthors: [fang-bohan, liu-melissa]
+    doi: '10.48550/arxiv.1604.07123'
     journal: 'J. Amer. Math. Soc. 33 (2020), no. 1, 135-222'
     primary_category: math.AG
+    openalex_id: W2344238614
+    sources: [arxiv, openalex]
   - id: '1411.3557'
     title: 'The Eynard-Orantin recursion and equivariant mirror symmetry for the projective line'
     year: 2014
@@ -121,23 +190,35 @@ publications:
     doi: '10.2140/gt.2017.21.2049'
     journal: 'Geom. Topol. 21 (2017) 2049-2092'
     primary_category: math.AG
+    openalex_id: W1525622318
+    sources: [arxiv, openalex]
   - id: '1401.2217'
     title: 'Cyclic Hodge Integrals and Loop Schur Functions'
     year: 2014
     coauthors: ['Dustin Ross']
+    doi: '10.1016/j.aim.2015.08.023'
+    journal: 'Advances in Mathematics'
     primary_category: math.AG
+    openalex_id: W2964092899
+    sources: [arxiv, openalex]
   - id: '1310.4818'
     title: 'All Genus Open-Closed Mirror Symmetry for Affine Toric Calabi-Yau 3-Orbifolds'
     year: 2013
     coauthors: [fang-bohan, liu-melissa]
+    doi: '10.48550/arxiv.1310.4818'
     journal: 'Algebr. Geo. 7 (2020), no. 2, 192-239'
     primary_category: math.AG
+    openalex_id: W1760680039
+    sources: [arxiv, openalex]
   - id: '1310.4812'
     title: 'Equivariant Gromov-Witten Theory of Affine Smooth Toric Deligne-Mumford Stacks'
     year: 2013
     coauthors: [fang-bohan, liu-melissa]
+    doi: '10.1093/imrn/rnv201'
     journal: 'IMRN 2016, no.7, 2127-2144'
     primary_category: math.AG
+    openalex_id: W1859657220
+    sources: [arxiv, openalex]
   - id: '1208.4342'
     title: 'The Gerby Gopakumar-Mariño-Vafa Formula'
     year: 2012
@@ -145,31 +226,31 @@ publications:
     doi: '10.2140/gt.2013.17.2935'
     journal: 'Geom. Topol. 17 (2013) 2935-2976'
     primary_category: math.AG
+    sources: [arxiv]
   - id: '1204.1753'
     title: 'A Formula of the One-leg Orbifold Gromov-Witten Vertex and Gromov-Witten Invariants of the Local $\cB\bZ_m$ Gerbe'
     year: 2012
     coauthors: []
+    doi: '10.48550/arxiv.1204.1753'
     primary_category: math.AG
+    openalex_id: W1585837966
+    sources: [arxiv, openalex]
   - id: '1109.4992'
     title: 'Generalized Mariño-Vafa Formula and Local Gromov-Witten Theory of Orbi-curves'
     year: 2011
     coauthors: []
+    doi: '10.4310/jdg/1427202767'
     journal: 'J. Differential Geom. 100(2015), no.1, 161-190'
     primary_category: math.AG
-  - id: '2211.09203'
-    title: 'All genus open-closed mirror symmetry for affine toric CY 3-orbifolds'
-    year: 2022
-    coauthors: [fang-bohan, liu-melissa]
-  - id: '2010.15403'
-    title: 'On the Remodeling Conjecture for Toric CY 3-Orbifolds'
-    year: 2020
-    coauthors: [fang-bohan, liu-melissa]
+    openalex_id: W2963050916
+    sources: [arxiv, openalex]
 activity:
-  total_papers: 24
-  published_count: 10
-  preprint_only_count: 14
+  total_papers: 26
+  published_count: 22
+  preprint_only_count: 4
   active_period: '2014-present'
-external_ids: {}
+external_ids:
+  openalex: A5048952159
 links: {}
 personal_notes: |
   Columbia 博士 (Chiu-Chu Melissa Liu)，现清华 YMSC。

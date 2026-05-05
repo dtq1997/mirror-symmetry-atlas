@@ -64,7 +64,7 @@ key_collaborators:
   - person: xu-xiaomeng
     since: 2012
     topic: "Dirac and generalized complex structures on Cartan geometries, strong homotopy Lie algebras"
-    papers_count: 2
+    papers_count: 4
     notes: "清华大学 YMSC，徐晓濛"
   - person: yu-qiao
     since: 2019
@@ -84,34 +84,81 @@ publications:
     title: 'Relative Rota-Baxter operators and crossed homomorphisms on Lie 2-groups'
     year: 2026
     coauthors: ['Shining Wang']
+    doi: '10.48550/arxiv.2602.02041'
     primary_category: math-ph
+    openalex_id: W7127396719
+    sources: [arxiv, openalex]
+  - id: 'doi:10.1016/j.geomphys.2026.105843'
+    title: 'Polyubles of pre-Lie bialgebras'
+    year: 2026
+    coauthors: [xu-xu]
+    doi: '10.1016/j.geomphys.2026.105843'
+    journal: 'Journal of Geometry and Physics'
+    openalex_id: W7154457927
+    sources: [openalex]
+    no_arxiv: true
   - id: '2506.20276'
     title: 'Reflections on Rota-Baxter Lie algebras, the classical reflection equation and Poisson homogeneous spaces'
     year: 2025
     coauthors: ['Yunhe Sheng']
+    doi: '10.48550/arxiv.2506.20276'
     primary_category: math-ph
+    openalex_id: W4414989011
+    sources: [arxiv, openalex]
   - id: '2503.05080'
     title: 'Poisson homogeneous spaces of Poisson 2-groups'
     year: 2025
-    coauthors: ['Zhangju Liu']
+    coauthors: [liu-zhangju]
+    doi: '10.1007/s11005-025-02003-1'
+    journal: 'Letters in Mathematical Physics'
     primary_category: math-ph
+    openalex_id: W4416302245
+    sources: [arxiv, openalex]
+  - id: 'doi:10.1142/s0219887825400389'
+    title: 'Differential operators and crossed homomorphisms of Lie 2-algebras'
+    year: 2025
+    coauthors: ['Shining Wang']
+    doi: '10.1142/s0219887825400389'
+    journal: 'International Journal of Geometric Methods in Modern Physics'
+    openalex_id: W4407818478
+    sources: [openalex]
+    no_arxiv: true
   - id: '2302.01294'
     title: 'The weak Lie 2-algebra of multiplicative forms on a quasi-Poisson groupoid'
     year: 2023
-    coauthors: ['Zhuo Chen', 'Zhangju Liu']
+    coauthors: [chen-zhuo, liu-zhangju]
+    doi: '10.48550/arxiv.2302.01294'
     journal: 'Comm. Math. Phys. (2024)'
     primary_category: math.DG
+    openalex_id: W4320233899
+    sources: [arxiv, openalex]
+  - id: 'doi:10.1016/j.geomphys.2023.104850'
+    title: 'On real forms of Dubrovin-Ugaglia Poisson brackets'
+    year: 2023
+    coauthors: ['Zheheng Xiao', xu-xiaomeng]
+    doi: '10.1016/j.geomphys.2023.104850'
+    journal: 'Journal of Geometry and Physics'
+    openalex_id: W4367692403
+    sources: [openalex]
+    no_arxiv: true
   - id: '2206.10091'
     title: 'Dirac generating operators of split Courant algebroids'
     year: 2022
-    coauthors: ['Liqiang Cai', 'Zhuo Chen', 'Maosong Xiang']
+    coauthors: ['Liqiang Cai', chen-zhuo, xiang-maosong]
+    doi: '10.48550/arxiv.2206.10091'
+    journal: 'Journal of Geometry and Physics'
     primary_category: math.DG
+    openalex_id: W4283317662
+    sources: [arxiv, openalex]
   - id: '2201.06242'
     title: 'Multiplicative forms on Poisson groupoids'
     year: 2022
-    coauthors: ['Zhuo Chen', 'Zhangju Liu']
+    coauthors: [chen-zhuo, liu-zhangju]
+    doi: '10.1007/s11425-023-2231-1'
     journal: 'Sci. China Math. (2025)'
     primary_category: math.DG
+    openalex_id: W4401551832
+    sources: [arxiv, openalex]
   - id: '2112.07902'
     title: 'Factorizable Lie bialgebras, quadratic Rota-Baxter Lie algebras and Rota-Baxter Lie bialgebras'
     year: 2021
@@ -119,18 +166,25 @@ publications:
     doi: '10.1007/s00220-022-04501-y'
     journal: 'Comm. Math. Phys. 397 (2023), 763-791'
     primary_category: math-ph
+    openalex_id: W4226146157
+    sources: [arxiv, openalex]
   - id: '2103.17073'
     title: 'A review of Lie 2-algebras'
     year: 2021
-    coauthors: ['Zhangju Liu']
+    coauthors: [liu-zhangju]
     doi: '10.11845/sxjz.2020003a.'
     journal: 'Advances in Mathematics (China), 49 (2020), no. 6, 641-674'
     primary_category: math.RA
+    sources: [arxiv]
   - id: '2102.07177'
     title: 'The Atiyah class of generalized holomorphic vector bundles'
     year: 2021
-    coauthors: ['Xiao Jia', 'Zhangju Liu']
+    coauthors: ['Xiao Jia', liu-zhangju]
+    doi: '10.1016/j.difgeo.2023.102031'
+    journal: 'Differential Geometry and its Applications'
     primary_category: math.AG
+    openalex_id: W4380086163
+    sources: [arxiv, openalex]
   - id: '2009.03492'
     title: 'Integration and geometrization of Rota-Baxter Lie algebras'
     year: 2020
@@ -138,11 +192,16 @@ publications:
     doi: '10.1016/j.aim.2021.107834'
     journal: 'Adv. Math. 387 (2021), 107834'
     primary_category: math.QA
+    openalex_id: W3083804758
+    sources: [arxiv, openalex]
   - id: '2003.13384'
     title: 'On the reduced space of multiplicative multivectors'
     year: 2020
-    coauthors: ['Zhuo Chen', 'Zhangju Liu']
+    coauthors: [chen-zhuo, liu-zhangju]
+    doi: '10.48550/arxiv.2003.13384'
     primary_category: math.AG
+    openalex_id: W3013154551
+    sources: [arxiv, openalex]
   - id: '2002.03656'
     title: 'Linearization of the higher analogue of Courant algebroids'
     year: 2020
@@ -150,24 +209,34 @@ publications:
     doi: '10.3934/jgm.2020025'
     journal: 'J. Geom. Mech. 2020, 12(4): 585-606'
     primary_category: math-ph
+    sources: [arxiv]
   - id: '1910.12225'
     title: 'On Lie Bialgebroid Crossed Modules'
     year: 2019
-    coauthors: ['Yu Qiao', 'Yanbin Yin']
+    coauthors: [qiao-yu, 'Yanbin Yin']
+    doi: '10.1142/s0129167x2150021x'
+    journal: 'International Journal of Mathematics'
     primary_category: math.QA
+    openalex_id: W3153462693
+    sources: [arxiv, openalex]
   - id: '1904.05319'
     title: 'Affine structures on Lie groupoids'
     year: 2019
-    coauthors: ['Zhangju Liu', 'Yunhe Sheng']
+    coauthors: [liu-zhangju, 'Yunhe Sheng']
+    doi: '10.2140/pjm.2020.307.353'
     journal: 'Pacific J. Math. Vol. 307 (2020), No. 2, 353-382'
     primary_category: math.DG
+    openalex_id: W3083019074
+    sources: [arxiv, openalex]
   - id: '1802.09923'
     title: 'Coadjoint orbits of Lie groupoids'
     year: 2018
-    coauthors: ['Zhangju Liu']
+    coauthors: [liu-zhangju]
     doi: '10.1016/j.geomphys.2018.03.011'
     journal: 'J. Geom. Phys. 129 (2018), 217-232'
     primary_category: math.DG
+    openalex_id: W2788368900
+    sources: [arxiv, openalex]
   - id: '1705.10316'
     title: 'VB-Courant algebroids, E-Courant algebroids and generalized geometry'
     year: 2017
@@ -175,49 +244,87 @@ publications:
     doi: '10.4153/CMB-2017-079-7'
     journal: 'Can. Math. Bull. 61 (2018) 588-607'
     primary_category: math.DG
+    openalex_id: W2617951580
+    sources: [arxiv, openalex]
   - id: '1611.00672'
     title: 'Double Principal Bundles'
     year: 2016
-    coauthors: ['Yanpeng Li', 'Zhangju Liu']
+    coauthors: ['Yanpeng Li', liu-zhangju]
     doi: '10.1016/j.geomphys.2021.104354'
     journal: 'Journal of Geometry and Physics, 170 (2021), 104354'
     primary_category: math.DG
+    openalex_id: W2549055881
+    sources: [arxiv, openalex]
   - id: '1609.00984'
     title: 'Atiyah classes of strongly homotopy Lie pairs'
     year: 2016
-    coauthors: ['Zhuo Chen', 'Maosong Xiang']
+    coauthors: [chen-zhuo, xiang-maosong]
     doi: '10.1142/S1005386719000178'
     journal: 'Algebra Colloquium 2019'
     primary_category: math.QA
+    openalex_id: W2512825295
+    sources: [arxiv, openalex]
+  - id: 'doi:10.4064/bc110-0-11'
+    title: 'Nonabelian omni-Lie algebras'
+    year: 2016
+    coauthors: ['Yunhe Sheng', xu-xiaomeng]
+    doi: '10.4064/bc110-0-11'
+    journal: 'Banach Center Publications'
+    openalex_id: W2565888240
+    sources: [openalex]
+    no_arxiv: true
   - id: '1505.00403'
     title: 'Integration of derivations for Lie $2$-algebras'
     year: 2015
-    coauthors: ['Zhangju Liu', 'Yunhe Sheng']
+    coauthors: [liu-zhangju, 'Yunhe Sheng']
+    doi: '10.1007/s00031-015-9347-4'
     journal: 'Transformation Groups, 21 (2016), 1, 129-152'
     primary_category: math.DG
+    openalex_id: W2963024104
+    sources: [arxiv, openalex]
   - id: '1402.7226'
     title: 'Crossed modules for Lie 2-algebras'
     year: 2014
-    coauthors: ['Zhangju Liu']
+    coauthors: [liu-zhangju]
+    doi: '10.1007/s10485-015-9389-8'
+    journal: 'Applied Categorical Structures'
     primary_category: math.RA
+    openalex_id: W1999625665
+    sources: [arxiv, openalex]
   - id: '1312.4609'
     title: 'Strong homotopy Lie algebras, homotopy Poisson manifolds and Courant algebroids'
     year: 2013
-    coauthors: ['Yunhe Sheng', 'Xiaomeng Xu']
+    coauthors: ['Yunhe Sheng', xu-xiaomeng]
+    doi: '10.1007/s11005-016-0925-8'
     journal: 'Lett. Math. Phys. 107 (5) (2017), 861-885'
     primary_category: math.DG
+    openalex_id: W2963618835
+    sources: [arxiv, openalex]
   - id: '1204.5951'
     title: 'Dirac and Generalized Complex Structures on Cartan Geometries'
     year: 2012
-    coauthors: ['Xiaomeng Xu']
+    coauthors: [xu-xiaomeng]
+    doi: '10.48550/arxiv.1204.5951'
     primary_category: math.DG
+    openalex_id: W1590260575
+    sources: [arxiv, openalex]
+  - id: 'doi:10.1134/s1995080211010082'
+    title: 'Some properties of solutions for an evolution p(x)-Laplacian equation'
+    year: 2011
+    coauthors: ['Changchun Liu', 'Zhenbang Li']
+    doi: '10.1134/s1995080211010082'
+    journal: 'Lobachevskii Journal of Mathematics'
+    openalex_id: W2012109196
+    sources: [openalex]
+    no_arxiv: true
 activity:
-  total_papers: 22
-  published_count: 13
-  preprint_only_count: 9
+  total_papers: 27
+  published_count: 27
+  preprint_only_count: 0
   active_period: '2012-present'
   nsfc_grants: 1
-external_ids: {}
+external_ids:
+  openalex: A5078951562
 links:
   homepage: "http://faculty.cau.edu.cn/lxy/lhl/list.htm"
   email: "hllang@cau.edu.cn"

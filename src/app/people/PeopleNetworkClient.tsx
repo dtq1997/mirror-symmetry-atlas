@@ -65,7 +65,8 @@ export default function PeopleNetworkClient({ graphData, people, institutionName
               <tr className="text-left text-[#8888a0] border-b border-[#2a2a3a]">
                 <th className="py-2 pr-4">姓名</th>
                 <th className="py-2 pr-4">国籍</th>
-                <th className="py-2 pr-4">论文</th>
+                <th className="py-2 pr-4">已发表</th>
+                <th className="py-2 pr-4">仅预印</th>
                 <th className="py-2 pr-4">学生</th>
                 <th className="py-2">状态</th>
               </tr>
@@ -94,8 +95,11 @@ export default function PeopleNetworkClient({ graphData, people, institutionName
                     <td className="py-2.5 pr-4 text-[#8888a0]">
                       {p.nationality || "—"}
                     </td>
-                    <td className="py-2.5 pr-4 text-[#e8e8f0]">
-                      {p.activity?.total_papers ?? "—"}
+                    <td className="py-2.5 pr-4 text-[#22c55e]">
+                      {p.activity?.published_count ?? "—"}
+                    </td>
+                    <td className="py-2.5 pr-4 text-[#f59e0b]">
+                      {p.activity?.preprint_only_count ?? "—"}
                     </td>
                     <td className="py-2.5 pr-4 text-[#e8e8f0]">
                       {p.students?.length || "—"}

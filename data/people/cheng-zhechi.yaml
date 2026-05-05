@@ -43,13 +43,19 @@ publications:
     title: 'Knot Floer homology of positive braids'
     year: 2025
     coauthors: []
+    doi: '10.48550/arxiv.2504.13005'
     primary_category: math.GT
+    openalex_id: W4417091683
+    sources: [arxiv, openalex]
   - id: '2202.09041'
     title: 'Murasugi sum and extremal knot Floer homology'
     year: 2022
     coauthors: ['Matthew Hedden', 'Sucharit Sarkar']
+    doi: '10.48550/arxiv.2202.09041'
     journal: 'Quantum Topol. 16 (2025), 4, 795-830'
     primary_category: math.GT
+    openalex_id: W4226356727
+    sources: [arxiv, openalex]
   - id: '2111.07792'
     title: 'Bigrading the symplectic Khovanov cohomology'
     year: 2021
@@ -57,10 +63,20 @@ publications:
     doi: '10.2140/agt.2023.23.4057'
     journal: 'Algebr. Geom. Topol. 23 (2023) 4057-4086'
     primary_category: math.SG
+    openalex_id: W3213050380
+    sources: [arxiv, openalex]
+  - id: 'doi:10.7916/d8-x9qh-w954'
+    title: 'Jones grading from symplectic Khovanov homology'
+    year: 2020
+    coauthors: []
+    doi: '10.7916/d8-x9qh-w954'
+    openalex_id: W3044951873
+    sources: [openalex]
+    no_arxiv: true
 activity:
   total_papers: 4
-  published_count: 3
-  preprint_only_count: 1
+  published_count: 4
+  preprint_only_count: 0
   active_period: '2020-present'
   quality_source: 'openalex + ruirui-2026'
   t1_papers: 0

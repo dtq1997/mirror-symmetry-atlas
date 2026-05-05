@@ -46,11 +46,16 @@ publications:
     doi: '10.1016/j.geomphys.2025.105512'
     journal: 'J. Geom. Phys. 214 (2025) 105512'
     primary_category: math.AG
+    openalex_id: W4410089897
+    sources: [arxiv, openalex]
   - id: '2301.09067'
     title: 'Polystability of Stokes representations and differential Galois groups'
     year: 2023
     coauthors: ['Daisuke Yamakawa']
+    doi: '10.48550/arxiv.2301.09067'
     primary_category: math.AG
+    openalex_id: W4317940337
+    sources: [arxiv, openalex]
   - id: '2209.12695'
     title: 'Twisted local wild mapping class groups: configuration spaces, fission trees and complex braids'
     year: 2022
@@ -58,6 +63,8 @@ publications:
     doi: '10.4171/PRIMS/61-3-4'
     journal: 'Publ. R.I.M.S. 61 (2025) no. 3, 391-445'
     primary_category: math.AG
+    openalex_id: W4297987151
+    sources: [arxiv, openalex]
   - id: '2002.00052'
     title: 'Symplectic Manifolds and Isomonodromic Deformations'
     year: 2020
@@ -65,6 +72,8 @@ publications:
     doi: '10.1006/aima.2001.1998'
     journal: 'Adv. Math. 163 (2001) 137-205'
     primary_category: math.DG
+    openalex_id: W3099105597
+    sources: [arxiv, openalex]
   - id: '1907.11149'
     title: 'Diagrams for nonabelian Hodge spaces on the affine line'
     year: 2019
@@ -72,34 +81,70 @@ publications:
     doi: '10.5802/crmath.11'
     journal: 'Comptes Rendus. Mathématique, Tome 358 (2020) no. 1, pp. 59-65'
     primary_category: math.AG
+    openalex_id: W2962974667
+    sources: [arxiv, openalex]
   - id: '1903.12612'
     title: 'Topology of the Stokes phenomenon'
     year: 2019
     coauthors: []
+    doi: '10.48550/arxiv.1903.12612'
     journal: 'Proc. Symp. Pure Math. 103 (2021) 55-100'
     primary_category: math.AG
+    openalex_id: W4287245748
+    sources: [arxiv, openalex]
   - id: '1703.10376'
     title: 'Wild character varieties, meromorphic Hitchin systems and Dynkin diagrams'
     year: 2017
     coauthors: []
+    doi: '10.1093/oso/9780198802020.003.0017'
+    journal: 'arXiv (Cornell University)'
     primary_category: math.AG
+    openalex_id: W2605082108
+    sources: [arxiv, openalex]
+  - id: 'doi:10.1090/jag/668'
+    title: 'Symmetric cubic surfaces and 𝐆₂ character varieties'
+    year: 2016
+    coauthors: ['Robert Paluba']
+    doi: '10.1090/jag/668'
+    journal: 'Journal of Algebraic Geometry'
+    openalex_id: W2338056522
+    sources: [openalex]
+    no_arxiv: true
   - id: '1512.08091'
     title: 'Twisted wild character varieties'
     year: 2015
     coauthors: ['Daisuke Yamakawa']
+    doi: '10.48550/arxiv.1512.08091'
     primary_category: math.AG
+    openalex_id: W2210343618
+    sources: [arxiv, openalex]
   - id: '1501.00930'
     title: 'Wild Character Varieties, points on the Riemann sphere and Calabi''s examples'
     year: 2015
     coauthors: []
+    doi: '10.2969/aspm/07610067'
     journal: 'Adv. Stud. Pure Math., 76, 67-94, Math. Soc. Japan, Tokyo, 2018'
     primary_category: math.AG
+    openalex_id: W2169254007
+    sources: [arxiv, openalex]
+  - id: 'doi:10.14288/1.0043284'
+    title: 'Irregular connections, Dynkin diagrams, and fission'
+    year: 2014
+    coauthors: []
+    doi: '10.14288/1.0043284'
+    journal: 'cIRcle (University of British Columbia)'
+    openalex_id: W2292938772
+    sources: [openalex]
+    no_arxiv: true
   - id: '1309.7202'
     title: 'Poisson varieties from Riemann surfaces'
     year: 2013
     coauthors: []
+    doi: '10.1016/j.indag.2014.07.004'
     journal: 'Indag. Math. 25 (2014) no. 5, 872-900'
     primary_category: math.AG
+    openalex_id: W2050095005
+    sources: [arxiv, openalex]
   - id: '1307.1033'
     title: 'Global Weyl groups and a new theory of multiplicative quiver varieties'
     year: 2013
@@ -107,60 +152,140 @@ publications:
     doi: '10.2140/gt.2015.19.3467'
     journal: 'Geom. Topol. 19 (2015) 3467-3536'
     primary_category: math.AG
+    openalex_id: W1929070500
+    sources: [arxiv, openalex]
   - id: '1305.6594'
     title: 'Symmetric cubic surfaces and G_2 character varieties'
     year: 2013
     coauthors: ['Robert Paluba']
+    doi: '10.48550/arxiv.1305.6594'
     primary_category: math.AG
+    openalex_id: W1559045575
+    sources: [arxiv, openalex]
   - id: '1305.6593'
     title: 'Geometry of moduli spaces of meromorphic connections on curves, Stokes data, wild nonabelian Hodge theory, hyperkahler manifolds, isomonodromic deformations, Painleve equations, and relations to Lie theory'
     year: 2013
     coauthors: []
+    doi: '10.48550/arxiv.1305.6593'
     primary_category: math.HO
+    openalex_id: W2164657536
+    sources: [arxiv, openalex]
   - id: '1305.6465'
     title: 'Through the analytic halo: Fission via irregular singularities'
     year: 2013
     coauthors: []
+    doi: '10.5802/aif.2503'
     journal: 'Ann. Inst. Fourier 59, 7 (2009) 2669-2684. Volume in honour of B. Malgrange'
     primary_category: math.AG
+    openalex_id: W1744686448
+    sources: [arxiv, openalex]
   - id: '1305.6462'
     title: 'Painleve Equations and Complex Reflections'
     year: 2013
     coauthors: []
+    doi: '10.5802/aif.1972'
     journal: 'Ann. Inst. Fourier, 53, 4 (2003) 1009-1022'
     primary_category: math.CA
+    openalex_id: W1493994369
+    sources: [arxiv, openalex]
+  - id: 'doi:10.4007/annals.2014.179.1.5'
+    title: 'Geometry and braiding of Stokes data; Fission and wild character varieties'
+    year: 2013
+    coauthors: []
+    doi: '10.4007/annals.2014.179.1.5'
+    journal: 'Annals of Mathematics'
+    openalex_id: W2964346812
+    sources: [openalex]
+    no_arxiv: true
   - id: '1203.6607'
     title: 'Hyperkahler manifolds and nonabelian Hodge theory of (irregular) curves'
     year: 2012
     coauthors: []
+    doi: '10.48550/arxiv.1203.6607'
     primary_category: math.AG
+    openalex_id: W1628466212
+    sources: [arxiv, openalex]
+  - id: 'openalex:W1593850510'
+    title: 'Geometric and differential Galois theories'
+    year: 2012
+    coauthors: ['Jean-Marc Couveignes', 'Pierre Dèbes', 'Daniel Bertrand']
+    openalex_id: W1593850510
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'openalex:W637433169'
+    title: 'Simply-laced isomonodromy systems . On the functions counting walks with small steps in the quarter plane . The structure of approximate groups . On stably free modules over affine algebras . Perfectoid spaces'
+    year: 2012
+    coauthors: ['Irina Kurkova', 'Kilian Raschel', 'Emmanuel Breuillard', 'Ben Green', 'Terence Tao', 'Jean Fasel', 'Ravi A. Rao', 'Richard G. Swan', 'Peter Scholze']
+    openalex_id: W637433169
+    sources: [openalex]
+    no_arxiv: true
   - id: '1107.0874'
     title: 'Simply-laced isomonodromy systems'
     year: 2011
     coauthors: []
+    doi: '10.1007/s10240-012-0044-8'
     primary_category: math.CA
+    openalex_id: W2075312621
+    sources: [arxiv, openalex]
   - id: '1003.3177'
     title: 'Riemann-Hilbert for tame complex parahoric connections'
     year: 2010
     coauthors: []
+    doi: '10.1007/s00031-011-9121-1'
     journal: 'Transform. Groups 16 (2011), no. 1, 27-50'
     primary_category: math.DG
+    openalex_id: W2041221780
+    sources: [arxiv, openalex]
+  - id: 'doi:10.1093/acprof:oso/9780199534920.003.0011'
+    title: 'Towards a Non‐Linear Schwarz''S List'
+    year: 2010
+    coauthors: []
+    doi: '10.1093/acprof:oso/9780199534920.003.0011'
+    journal: 'Oxford University Press eBooks'
+    openalex_id: W1886672125
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1090/crmp/047/04'
+    title: 'Quivers and difference Painlevé equations'
+    year: 2009
+    coauthors: []
+    doi: '10.1090/crmp/047/04'
+    journal: 'CRM proceedings & lecture notes'
+    openalex_id: W4230209347
+    sources: [openalex]
+    no_arxiv: true
   - id: '0806.1050'
     title: 'Irregular connections and Kac-Moody root systems'
     year: 2008
     coauthors: []
+    doi: '10.48550/arxiv.0806.1050'
     journal: 'The main statements (and some further results) were published in "Simply-laced isomonodromy systems, Publ. Math. IHES 116 (2012) no. 1, 1-68"'
     primary_category: math.DG
+    openalex_id: W1571797391
+    sources: [arxiv, openalex]
   - id: '0707.3375'
     title: 'Towards a nonlinear Schwarz''s list'
     year: 2007
     coauthors: []
+    doi: '10.48550/arxiv.0707.3375'
     primary_category: math.CA
+    openalex_id: W4394663341
+    sources: [arxiv, openalex]
   - id: '0706.2634'
     title: 'Quivers and difference Painleve equations'
     year: 2007
     coauthors: []
+    doi: '10.48550/arxiv.0706.2634'
     primary_category: math.AG
+    openalex_id: W1532834842
+    sources: [arxiv, openalex]
+  - id: 'openalex:W4307615951'
+    title: 'Some geometry of irregular connections on curves (slides of talk at Conference on Gauge Theory and Representation Theory, IAS Princeton, 27/11/2007)'
+    year: 2007
+    coauthors: []
+    openalex_id: W4307615951
+    sources: [openalex]
+    no_arxiv: true
   - id: '0603398'
     title: 'Regge and Okamoto symmetries'
     year: 2006
@@ -168,34 +293,75 @@ publications:
     doi: '10.1007/s00220-007-0328-x'
     journal: 'Comm. Math. Phys. 276 (2007), no. 1, 117-130'
     primary_category: math.RT
+    openalex_id: W2064610727
+    sources: [arxiv, openalex]
+  - id: 'openalex:W179137995'
+    title: 'BRIEF INTRODUCTION TO PAINLEV ´ E VI'
+    year: 2006
+    coauthors: []
+    openalex_id: W179137995
+    sources: [openalex]
+    no_arxiv: true
   - id: '0506407'
     title: 'Higher genus icosahedral Painleve curves'
     year: 2005
     coauthors: []
+    doi: '10.1619/fesi.50.19'
     journal: 'Funk. Ekvac. (Kobe), 50 (2007) 19--32'
     primary_category: math.AG
+    openalex_id: W1968204694
+    sources: [arxiv, openalex]
   - id: '0503043'
     title: 'Six results on Painleve VI'
     year: 2005
     coauthors: []
+    doi: '10.48550/arxiv.math/0503043'
     primary_category: math.AG
+    openalex_id: W1635231377
+    sources: [arxiv, openalex]
   - id: '0501464'
     title: 'Some explicit solutions to the Riemann-Hilbert problem'
     year: 2005
     coauthors: []
+    doi: '10.4171/020-1/6'
+    journal: 'IRMA lectures in mathematics and theoretical physics'
     primary_category: math.DG
+    openalex_id: W4249474899
+    sources: [arxiv, openalex]
   - id: '0406281'
     title: 'The fifty-two icosahedral solutions to Painleve VI'
     year: 2004
     coauthors: []
+    doi: '10.1515/crelle.2006.059'
     journal: 'J. Reine Angew. Math. 596 (2006) 183--214'
     primary_category: math.AG
+    openalex_id: W1977213047
+    sources: [arxiv, openalex]
   - id: '0308221'
     title: 'From Klein to Painleve via Fourier, Laplace and Jimbo'
     year: 2003
     coauthors: []
+    doi: '10.1112/s0024611504015011'
     journal: 'Proc. London Math. Soc. (3) 90 (2005) 167-208'
     primary_category: math.AG
+    openalex_id: W2070886477
+    sources: [arxiv, openalex]
+  - id: 'doi:10.1112/s0010437x03000010'
+    title: 'Wild non-abelian Hodge theory on curves'
+    year: 2003
+    coauthors: ['Olivier Biquard']
+    doi: '10.1112/s0010437x03000010'
+    journal: 'Compositio Mathematica'
+    openalex_id: W2161468011
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'openalex:W1024755797'
+    title: 'The Klein solution to Painleve''s sixth equation'
+    year: 2003
+    coauthors: []
+    openalex_id: W1024755797
+    sources: [openalex]
+    no_arxiv: true
   - id: '0203161'
     title: 'Quasi-Hamiltonian Geometry of Meromorphic Connections'
     year: 2002
@@ -203,17 +369,25 @@ publications:
     doi: '10.1215/S0012-7094-07-13924-3'
     journal: 'Duke Math. J. 139 (2007), no. 2, 369-405 (section 6 of the published version "Global moduli spaces" is not in this 2002 arxiv version)'
     primary_category: math.DG
+    openalex_id: W2023553499
+    sources: [arxiv, openalex]
   - id: '0111098'
     title: 'Wild nonabelian Hodge theory on curves'
     year: 2001
     coauthors: ['Olivier Biquard']
+    doi: '10.48550/arxiv.math/0111098'
     primary_category: math.DG
+    openalex_id: W2951034751
+    sources: [arxiv, openalex]
   - id: '0108152'
     title: 'G-bundles, isomonodromy and quantum Weyl groups'
     year: 2001
     coauthors: []
+    doi: '10.1155/s1073792802111081'
     journal: 'Int.Math.Res.Not.22:1129-1166,2002'
     primary_category: math.DG
+    openalex_id: W1907219630
+    sources: [arxiv, openalex]
   - id: '0011062'
     title: 'Stokes Matrices and Poisson Lie Groups'
     year: 2000
@@ -221,10 +395,19 @@ publications:
     doi: '10.1007/s002220100170'
     journal: 'Invent. math. 146, 479-506 (2001)'
     primary_category: math.DG
+    openalex_id: W1541394094
+    sources: [arxiv, openalex]
+  - id: 'openalex:W2185998210'
+    title: 'Symplectic Geometry and Isomonodromic Deformations'
+    year: 1999
+    coauthors: []
+    openalex_id: W2185998210
+    sources: [openalex]
+    no_arxiv: true
 activity:
-  total_papers: 31
-  published_count: 19
-  preprint_only_count: 12
+  total_papers: 43
+  published_count: 37
+  preprint_only_count: 6
   h_index: 19
   active_period: '1999-present'
   phd_students: 4

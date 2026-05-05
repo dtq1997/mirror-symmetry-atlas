@@ -55,7 +55,7 @@ key_collaborators:
   since: 2001
   met_context: 可能通过 SISSA/ICTP 访问认识
   topic: Frobenius manifolds & integrable hierarchies
-  papers_count: 14
+  papers_count: 15
 - person: liu-siqi
   since: 2003
   topic: WDVV equations, integrable systems
@@ -76,9 +76,9 @@ key_collaborators:
   topic: Painlevé equations, reflection groups
   papers_count: 7
 activity:
-  total_papers: 50
-  published_count: 21
-  preprint_only_count: 29
+  total_papers: 142
+  published_count: 121
+  preprint_only_count: 21
   h_index: 45
   mathscinet_citations: 5000
   active_period: '1974-2019'
@@ -106,6 +106,69 @@ personal_notes: '极具人格魅力的导师。晚年与 ALS 斗争期间仍坚�
 
   '
 publications:
+  - id: 'doi:10.1007/978-3-031-69067-9_1'
+    title: 'Introduction'
+    year: 2024
+    coauthors: [cotti, guzzetti]
+    doi: '10.1007/978-3-031-69067-9_1'
+    journal: 'Lecture notes in mathematics'
+    openalex_id: W4403810207
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1007/978-3-031-69067-9_6'
+    title: 'Proof of the Main Conjecture for Projective Spaces'
+    year: 2024
+    coauthors: [cotti, guzzetti]
+    doi: '10.1007/978-3-031-69067-9_6'
+    journal: 'Lecture notes in mathematics'
+    openalex_id: W4403810265
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1007/978-3-031-69067-9_7'
+    title: 'Proof of the Main Conjecture for Grassmannians'
+    year: 2024
+    coauthors: [cotti, guzzetti]
+    doi: '10.1007/978-3-031-69067-9_7'
+    journal: 'Lecture notes in mathematics'
+    openalex_id: W4403810268
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1007/978-3-031-69067-9_5'
+    title: 'The Main Conjecture'
+    year: 2024
+    coauthors: [cotti, guzzetti]
+    doi: '10.1007/978-3-031-69067-9_5'
+    journal: 'Lecture notes in mathematics'
+    openalex_id: W4403810274
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1007/978-3-031-69067-9_3'
+    title: 'Helix Theory in Triangulated Categories'
+    year: 2024
+    coauthors: [cotti, guzzetti]
+    doi: '10.1007/978-3-031-69067-9_3'
+    journal: 'Lecture notes in mathematics'
+    openalex_id: W4403810295
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1007/978-3-031-69067-9_2'
+    title: 'Gromov–Witten Theory and Quantum Cohomology'
+    year: 2024
+    coauthors: [cotti, guzzetti]
+    doi: '10.1007/978-3-031-69067-9_2'
+    journal: 'Lecture notes in mathematics'
+    openalex_id: W4403810314
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1007/978-3-031-69067-9_4'
+    title: 'Non-symmetric Orthogonal Geometry of Mukai Lattices'
+    year: 2024
+    coauthors: [cotti, guzzetti]
+    doi: '10.1007/978-3-031-69067-9_4'
+    journal: 'Lecture notes in mathematics'
+    openalex_id: W4403810316
+    sources: [openalex]
+    no_arxiv: true
   - id: '2110.06655'
     title: 'Affine Kac-Moody Algebras and Tau-Functions for the Drinfeld-Sokolov Hierarchies: the Matrix-Resolvent Method'
     year: 2021
@@ -113,32 +176,67 @@ publications:
     doi: '10.3842/SIGMA.2022.077'
     journal: 'SIGMA 18 (2022), 077, 32 pages'
     primary_category: math-ph
+    openalex_id: W3207064389
+    sources: [arxiv, openalex]
   - id: '2101.10924'
     title: 'Geometry and arithmetic of integrable hierarchies of KdV type. I. Integrality'
     year: 2021
     coauthors: [yang-di, zagier]
+    doi: '10.1016/j.aim.2023.109311'
+    journal: 'Advances in Mathematics'
     primary_category: math.AG
+    openalex_id: W4387387529
+    sources: [arxiv, openalex]
   - id: '1905.08106'
     title: 'Remarks on intersection numbers and integrable hierarchies. I. Quasi-triviality'
     year: 2019
     coauthors: [yang-di]
+    doi: '10.4310/atmp.2020.v24.n5.a1'
+    journal: 'Advances in Theoretical and Mathematical Physics'
     primary_category: math-ph
+    openalex_id: W3178998697
+    sources: [arxiv, openalex]
   - id: '1903.11578'
     title: 'Matrix resolvent and the discrete KdV hierarchy'
     year: 2019
     coauthors: [yang-di]
     doi: '10.1007/s00220-020-03770-9'
     primary_category: math-ph
+    sources: [arxiv]
+  - id: 'doi:10.1063/1.5100680'
+    title: 'Separation of variables for quadratic algebras and skew-symmetric classical <i>r</i>-matrices'
+    year: 2019
+    coauthors: ['T. Skrypnyk']
+    doi: '10.1063/1.5100680'
+    journal: 'Journal of Mathematical Physics'
+    openalex_id: W2975232095
+    sources: [openalex]
+    no_arxiv: true
+  - id: '1901.07470'
+    title: 'On a class of compact perturbations of the special pole-free joint solution of KdV and $P_I^2.$'
+    year: 2019
+    coauthors: ['Alexander Minakov']
+    doi: '10.48550/arxiv.1901.07470'
+    openalex_id: W2915000546
+    sources: [openalex]
   - id: '1812.08488'
     title: 'On tau-functions for the KdV hierarchy'
     year: 2018
     coauthors: [yang-di, zagier]
+    doi: '10.1007/s00029-021-00620-x'
+    journal: 'Selecta Mathematica'
     primary_category: math-ph
+    openalex_id: W3131960906
+    sources: [arxiv, openalex]
   - id: '1811.09235'
     title: 'Helix Structures in Quantum Cohomology of Fano Varieties'
     year: 2018
     coauthors: [cotti, guzzetti]
+    doi: '10.1007/978-3-031-69067-9'
+    journal: 'Lecture notes in mathematics'
     primary_category: math.AG
+    openalex_id: W4403810192
+    sources: [arxiv, openalex]
   - id: '1809.02311'
     title: 'A Riemann-Hilbert Approach to the Heun Equation'
     year: 2018
@@ -146,21 +244,43 @@ publications:
     doi: '10.3842/SIGMA.2018.093'
     journal: 'SIGMA 14 (2018), 093, 24 pages'
     primary_category: math.CA
+    openalex_id: W2890061625
+    sources: [arxiv, openalex]
   - id: '1807.11258'
     title: 'Algebraic spectral curves over $\mathbb Q$ and their tau-functions'
     year: 2018
     coauthors: []
+    doi: '10.1017/9781108773355.003'
+    journal: 'Cambridge University Press eBooks'
     primary_category: math.AG
+    openalex_id: W3158600926
+    sources: [arxiv, openalex]
   - id: '1807.03377'
     title: 'Approximating tau-functions by theta-functions'
     year: 2018
     coauthors: []
+    doi: '10.4310/cntp.2019.v13.n1.a7'
     primary_category: math-ph
+    openalex_id: W2812009229
+    sources: [arxiv, openalex]
   - id: '1802.00711'
     title: 'Gromov--Witten invariants of the Riemann sphere'
     year: 2018
     coauthors: [yang-di, zagier]
+    doi: '10.4310/pamq.2020.v16.n1.a4'
+    journal: 'Pure and Applied Mathematics Quarterly'
     primary_category: math.AG
+    openalex_id: W3005291266
+    sources: [arxiv, openalex]
+  - id: 'doi:10.1063/1.5031769'
+    title: 'Separation of variables for linear Lax algebras and classical <i>r</i>-matrices'
+    year: 2018
+    coauthors: ['T. Skrypnyk']
+    doi: '10.1063/1.5031769'
+    journal: 'Journal of Mathematical Physics'
+    openalex_id: W2884515883
+    sources: [openalex]
+    no_arxiv: true
   - id: '1712.08575'
     title: 'Local Moduli of Semisimple Frobenius Coalescent Structures'
     year: 2017
@@ -168,6 +288,8 @@ publications:
     doi: '10.3842/SIGMA.2020.040'
     journal: 'SIGMA 16 (2020), 040, 105 pages'
     primary_category: math.DG
+    openalex_id: W2776628391
+    sources: [arxiv, openalex]
   - id: '1706.04808'
     title: 'Isomonodromy Deformations at an Irregular Singularity with Coalescing Eigenvalues'
     year: 2017
@@ -175,27 +297,50 @@ publications:
     doi: '10.1215/00127094-2018-0059'
     journal: 'Duke Math. J. 168, no. 6 (2019), 967-1108'
     primary_category: math.CA
+    sources: [arxiv]
   - id: '1702.01669'
     title: 'On Gromov--Witten invariants of $\mathbb{P}^1$'
     year: 2017
     coauthors: [yang-di]
+    doi: '10.4310/mrl.2019.v26.n3.a4'
+    journal: 'Mathematical Research Letters'
     primary_category: math.AG
+    openalex_id: W2981424207
+    sources: [arxiv, openalex]
   - id: '1701.03222'
     title: 'Bihamiltonian Cohomologies and Integrable Hierarchies II: the Tau Structures'
     year: 2017
     coauthors: [si-li, zhang-youjin]
     doi: '10.1007/s00220-018-3176-y'
     primary_category: math.DG
+    sources: [arxiv]
+  - id: 'doi:10.17323/1609-4514-2017-17-4-601-633'
+    title: 'Classical Hurwitz Numbers and Related Combinatorics'
+    year: 2017
+    coauthors: [yang-di, zagier]
+    doi: '10.17323/1609-4514-2017-17-4-601-633'
+    journal: 'Moscow Mathematical Journal'
+    openalex_id: W4247619647
+    sources: [openalex]
+    no_arxiv: true
   - id: '1612.02333'
     title: 'Hodge-GUE correspondence and the discrete KdV equation'
     year: 2016
     coauthors: [si-li, yang-di, zhang-youjin]
+    doi: '10.1007/s00220-020-03846-6'
+    journal: 'Communications in Mathematical Physics'
     primary_category: math-ph
+    openalex_id: W3086463376
+    sources: [arxiv, openalex]
   - id: '1610.07534'
     title: 'Simple Lie algebras, Drinfeld--Sokolov hierarchies, and multi-point correlation functions'
     year: 2016
     coauthors: ['Marco Bertola', yang-di]
+    doi: '10.17323/1609-4514-2021-21-2-233-270'
+    journal: 'Moscow Mathematical Journal'
     primary_category: math-ph
+    openalex_id: W3155306032
+    sources: [arxiv, openalex]
   - id: '1609.04059'
     title: 'Integrable systems of double ramification type'
     year: 2016
@@ -203,17 +348,32 @@ publications:
     doi: '10.1093/imrn/rnz029'
     journal: 'International Mathematics Research Notices (2019), rnz029'
     primary_category: math-ph
+    sources: [arxiv]
   - id: '1606.03720'
     title: 'On cubic Hodge integrals and random matrices'
     year: 2016
     coauthors: [yang-di]
+    doi: '10.4310/cntp.2017.v11.n2.a3'
+    journal: 'Communications in Number Theory and Physics'
     primary_category: math-ph
+    openalex_id: W2963405828
+    sources: [arxiv, openalex]
   - id: '1604.07628'
     title: 'Generating series for GUE correlators'
     year: 2016
     coauthors: [yang-di]
     doi: '10.1007/s11005-017-0975-6'
     primary_category: math-ph
+    sources: [arxiv]
+  - id: 'doi:10.1070/rm9734'
+    title: 'Alexander Petrovich Veselov (on his 60th birthday)'
+    year: 2016
+    coauthors: ['V. É. Adler', 'Yu Yu Berest', 'Victor Matveevich Buchstaber', 'P. G. Grinevich', 'I. M. Krichever', 'S P Novikov', 'A. N. Sergeev', 'Misha Feigin', 'Giovanni Felder', 'E. V. Ferapontov', 'Oleg Chalykh', 'Pavel Etingof']
+    doi: '10.1070/rm9734'
+    journal: 'Russian Mathematical Surveys'
+    openalex_id: W2584514607
+    sources: [openalex]
+    no_arxiv: true
   - id: '1510.08690'
     title: 'Extended affine Weyl groups of BCD type, Frobenius manifolds and their Landau-Ginzburg superpotentials'
     year: 2015
@@ -221,6 +381,8 @@ publications:
     doi: '10.1016/j.aim.2019.05.030'
     journal: 'Advances in Mathematics Volume 351, 31 July 2019, Pages 897-946'
     primary_category: math.DG
+    openalex_id: W2238565323
+    sources: [arxiv, openalex]
   - id: '1510.01580'
     title: 'On critical behaviour in generalized Kadomtsev--Petviashvili equations'
     year: 2015
@@ -228,32 +390,49 @@ publications:
     doi: '10.1016/j.physd.2016.01.011'
     journal: 'Physica D 2016'
     primary_category: math-ph
+    openalex_id: W2189751086
+    sources: [arxiv, openalex]
   - id: '1508.03750'
     title: 'Simple Lie algebras and topological ODEs'
     year: 2015
     coauthors: ['Marco Bertola', yang-di]
+    doi: '10.1093/imrn/rnw285'
+    journal: 'International Mathematics Research Notices'
     primary_category: math-ph
+    openalex_id: W2964273978
+    sources: [arxiv, openalex]
   - id: '1504.06452'
     title: 'Correlation functions of the KdV hierarchy and applications to intersection numbers over $\overline{\mathcal M}_{g,n}$'
     year: 2015
     coauthors: ['Marco Bertola', yang-di]
     doi: '10.1016/j.physd.2016.04.008'
     primary_category: math-ph
+    sources: [arxiv]
   - id: '1409.4616'
     title: 'Hodge integrals and tau-symmetric integrable hierarchies of Hamiltonian evolutionary PDEs'
     year: 2014
     coauthors: [si-li, yang-di, zhang-youjin]
+    doi: '10.1016/j.aim.2016.01.018'
+    journal: 'Advances in Mathematics'
     primary_category: math.AG
+    openalex_id: W2138945228
+    sources: [arxiv, openalex]
   - id: '1407.5824'
     title: 'Symplectic field theory of a disk, quantum integrable systems, and Schur polynomials'
     year: 2014
     coauthors: []
+    doi: '10.1007/s00023-015-0449-2'
     primary_category: math-ph
+    openalex_id: W1731576800
+    sources: [arxiv, openalex]
   - id: '1312.0799'
     title: 'Gromov - Witten invariants and integrable hierarchies of topological type'
     year: 2013
     coauthors: []
+    doi: '10.1090/trans2/234/08'
     primary_category: math-ph
+    openalex_id: W2518359673
+    sources: [arxiv, openalex]
   - id: '1310.5659'
     title: 'Minimal Liouville Gravity correlation numbers from Douglas string equation'
     year: 2013
@@ -261,18 +440,51 @@ publications:
     doi: '10.1007/JHEP01(2014)156'
     journal: 'JHEP 1401 (2014) 156'
     primary_category: hep-th
+    openalex_id: W2017333687
+    sources: [arxiv, openalex]
   - id: '1301.7216'
     title: 'On critical behavior in nonlinear evolutionary PDEs with small viscosity'
     year: 2013
     coauthors: ['Maria Elaeva']
+    doi: '10.1134/s106192081204005x'
     journal: 'Russian Journal of Mathematical Physics, vol. 19, (2012) p. 13-22'
     primary_category: math-ph
+    openalex_id: W2031299197
+    sources: [arxiv, openalex]
   - id: '1301.7211'
     title: 'On an isomonodromy deformation equation without the Painlevé property'
     year: 2013
     coauthors: ['Andrei Kapaev']
     doi: '10.1134/S1061920814010026'
+    journal: 'Russian Journal of Mathematical Physics'
     primary_category: math.CA
+    openalex_id: W1976920057
+    sources: [arxiv, openalex]
+  - id: 'doi:10.1007/s12043-012-0497-9'
+    title: 'Symmetries and casimir of an extended classical long wave system'
+    year: 2013
+    coauthors: ['K. M. Tamizhmani', 'R. Ilangovane']
+    doi: '10.1007/s12043-012-0497-9'
+    journal: 'Pramana'
+    openalex_id: W1980477357
+    sources: [openalex]
+    no_arxiv: true
+  - id: '1311.7166'
+    title: 'On critical behaviour in systems of Hamiltonian partial differential equations'
+    year: 2013
+    coauthors: ['Тамара Грава', 'Christian Klein', 'Antonio Moro']
+    doi: '10.48550/arxiv.1311.7166'
+    openalex_id: W2951855925
+    sources: [openalex]
+  - id: 'doi:10.1070/rm2013v068n03abeh004845'
+    title: 'Viktor Matveevich Buchstaber (on his 70th birthday)'
+    year: 2013
+    coauthors: ['Анатолий Моисеевич Вершик', 'А. П. Веселов', 'А. А. Гайфуллин', 'Алексей Борисович Жижченко', 'I. M. Krichever', 'Аркадий Анатольевич Мальцев', 'Д. В. Миллионщиков', 'S P Novikov', 'Taras Panov', 'A G Sergeev', 'I. A. Taĭmanov']
+    doi: '10.1070/rm2013v068n03abeh004845'
+    journal: 'Russian Mathematical Surveys'
+    openalex_id: W2033367736
+    sources: [openalex]
+    no_arxiv: true
   - id: '1205.5990'
     title: 'On the Genus Two Free Energies for Semisimple Frobenius Manifolds'
     year: 2012
@@ -280,84 +492,323 @@ publications:
     doi: '10.1134/S1061920812030028'
     journal: 'Russ. J. Math. Phys. 19 (2012), no. 3, 273--298'
     primary_category: math-ph
+    sources: [arxiv]
+  - id: 'doi:10.1007/s11232-012-0086-6'
+    title: 'Classical double, R-operators, and negative flows of integrable hierarchies'
+    year: 2012
+    coauthors: ['T. Skrypnyk']
+    doi: '10.1007/s11232-012-0086-6'
+    journal: 'Theoretical and Mathematical Physics'
+    openalex_id: W2091665286
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'openalex:W993245410'
+    title: 'On the critical behavior in nonlinear evolutionary PDEs with small viscocity'
+    year: 2012
+    coauthors: ['Maria Elaeva']
+    openalex_id: W993245410
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1137/100819783'
+    title: 'Numerical Study of Breakup in Generalized Korteweg–de Vries and Kawahara Equations'
+    year: 2011
+    coauthors: ['Тамара Грава', 'Christian Klein']
+    doi: '10.1137/100819783'
+    journal: 'SIAM Journal on Applied Mathematics'
+    openalex_id: W2963463632
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1007/s10688-011-0030-9'
+    title: 'Linearly degenerate Hamiltonian PDEs and a new class of solutions to the WDVV associativity equations'
+    year: 2011
+    coauthors: ['M. V. Pavlov', 'S. A. Zykov']
+    doi: '10.1007/s10688-011-0030-9'
+    journal: 'Functional Analysis and Its Applications'
+    openalex_id: W1972126405
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1007/978-1-4612-1100-6'
+    title: 'Modern Geometry-Methods and Applications(Part II. The Geometry and Topology of Manifolds)'
+    year: 2010
+    coauthors: ['S. P. Novikov', 'А. Т. Фоменко']
+    doi: '10.1007/978-1-4612-1100-6'
+    openalex_id: W2530959684
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1088/1751-8113/43/43/434002'
+    title: 'Hamiltonian PDEs: deformations, integrability, solutions'
+    year: 2010
+    coauthors: []
+    doi: '10.1088/1751-8113/43/43/434002'
+    journal: 'Journal of Physics A Mathematical and Theoretical'
+    openalex_id: W2068643469
+    sources: [openalex]
+    no_arxiv: true
   - id: '0902.1245'
     title: 'Infinite-Dimensional Frobenius Manifolds for 2+1 Integrable Systems'
     year: 2009
     coauthors: ['Guido Carlet', 'Luca Philippe Mertens']
+    doi: '10.1007/s00208-010-0509-3'
     journal: 'Math. Ann. 349 (2011), no. 1, 75-115'
     primary_category: math-ph
+    openalex_id: W2156355028
+    sources: [arxiv, openalex]
+  - id: 'doi:10.1007/978-90-481-2810-5_18'
+    title: 'Hamiltonian Perturbations of Hyperbolic PDEs: from Classification Results to the Properties of Solutions'
+    year: 2009
+    coauthors: []
+    doi: '10.1007/978-90-481-2810-5_18'
+    openalex_id: W1750702576
+    sources: [openalex]
+    no_arxiv: true
   - id: '0804.3790'
     title: 'On universality of critical behaviour in Hamiltonian PDEs'
     year: 2008
     coauthors: []
+    doi: '10.48550/arxiv.0804.3790'
     primary_category: math.AP
+    openalex_id: W2963641003
+    sources: [arxiv, openalex]
+  - id: 'doi:10.1007/s00332-008-9025-y'
+    title: 'On Universality of Critical Behavior in the Focusing Nonlinear Schrödinger Equation, Elliptic Umbilic Catastrophe and the Tritronquée Solution to the Painlevé-I Equation'
+    year: 2008
+    coauthors: ['Тамара Грава', 'Christian Klein']
+    doi: '10.1007/s00332-008-9025-y'
+    journal: 'Journal of Nonlinear Science'
+    openalex_id: W2096951672
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1070/rm2008v063n06abeh004575'
+    title: 'Hamiltonian PDEs and Frobenius manifolds'
+    year: 2008
+    coauthors: []
+    doi: '10.1070/rm2008v063n06abeh004575'
+    journal: 'Russian Mathematical Surveys'
+    openalex_id: W1978588443
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'openalex:W1004461041'
+    title: 'Hamiltonian partial differential equations and Frobenius manifolds'
+    year: 2008
+    coauthors: []
+    openalex_id: W1004461041
+    sources: [openalex]
+    no_arxiv: true
   - id: '0710.3115'
     title: 'Frobenius Manifolds and Central Invariants for the Drinfeld - Sokolov Bihamiltonian Structures'
     year: 2007
     coauthors: [si-li, zhang-youjin]
+    doi: '10.1016/j.aim.2008.06.009'
+    journal: 'Advances in Mathematics'
     primary_category: math.DG
+    openalex_id: W2103255893
+    sources: [arxiv, openalex]
+  - id: 'openalex:W2128014837'
+    title: 'Monodromy of certain Painlev e-VI transcendents and reection groups'
+    year: 2006
+    coauthors: [mazzocco]
+    openalex_id: W2128014837
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.4171/020-1/8'
+    title: 'On the reductions and classical solutions of the Schlesinger equations'
+    year: 2006
+    coauthors: [mazzocco]
+    doi: '10.4171/020-1/8'
+    journal: 'IRMA lectures in mathematics and theoretical physics'
+    openalex_id: W1567549351
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1016/b0-12-512666-2/00195-4'
+    title: 'WDVV Equations and Frobenius Manifolds'
+    year: 2006
+    coauthors: []
+    doi: '10.1016/b0-12-512666-2/00195-4'
+    journal: 'Encyclopedia of Mathematical Physics'
+    openalex_id: W11153318
+    sources: [openalex]
+    no_arxiv: true
   - id: '0510032'
     title: 'On Hamiltonian perturbations of hyperbolic systems of conservation laws, II: universality of critical behaviour'
     year: 2005
     coauthors: []
     doi: '10.1007/s00220-006-0021-5'
     primary_category: math-ph
+    sources: [arxiv]
   - id: '0502365'
     title: 'Extended affine Weyl groups and Frobenius manifolds -- II'
     year: 2005
     coauthors: [zhang-youjin, 'Dafeng Zuo']
+    doi: '10.1023/a:1000258122329'
+    journal: 'Compositio Mathematica'
     primary_category: math.DG
+    openalex_id: W1829033056
+    sources: [arxiv, openalex]
+  - id: 'doi:10.1002/cpa.20111'
+    title: 'On Hamiltonian perturbations of hyperbolic systems of conservation laws I: Quasi‐Triviality of bi‐Hamiltonian perturbations'
+    year: 2005
+    coauthors: [si-li, zhang-youjin]
+    doi: '10.1002/cpa.20111'
+    journal: 'Communications on Pure and Applied Mathematics'
+    openalex_id: W2148634808
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'openalex:W2801962922'
+    title: 'Conference on Riemann-Hilbert Problems, Integrability and Asymptotics'
+    year: 2005
+    coauthors: ['Simonetta Abenda', 'Тамара Грава', 'Gregorio Falqui']
+    openalex_id: W2801962922
+    sources: [openalex]
+    no_arxiv: true
   - id: '0410027'
     title: 'On Hamiltonian perturbations of hyperbolic systems of conservation laws'
     year: 2004
     coauthors: [si-li, zhang-youjin]
+    doi: '10.48550/arxiv.math/0410027'
     primary_category: math.DG
+    openalex_id: W1626671567
+    sources: [arxiv, openalex]
+  - id: 'openalex:W2267687421'
+    title: 'On analytic families of invariant tori for PDEs'
+    year: 2004
+    coauthors: []
+    openalex_id: W2267687421
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'openalex:W581029175'
+    title: 'Topological and Algebraic Geometry Methods in Contemporary Mathematical Physics'
+    year: 2004
+    coauthors: ['I. M. Krichever', 'Сергей Петрович Новиков']
+    openalex_id: W581029175
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'openalex:W2802176653'
+    title: 'International Workshop Analytic and geometric theory of the Camassa-Holm equation and integrable systems (Bologna, 22-25 September 2004).'
+    year: 2004
+    coauthors: ['Simonetta Abenda', 'Тамара Грава', 'Gregorio Falqui']
+    openalex_id: W2802176653
+    sources: [openalex]
+    no_arxiv: true
   - id: '0311261'
     title: 'Canonical structure and symmetries of the Schlesinger equations'
     year: 2003
     coauthors: [mazzocco]
+    doi: '10.1007/s00220-006-0165-3'
+    journal: 'Communications in Mathematical Physics'
     primary_category: math.DG
+    openalex_id: W2099806108
+    sources: [arxiv, openalex]
   - id: '0308152'
     title: 'Virasoro Symmetries of the Extended Toda Hierarchy'
     year: 2003
     coauthors: [zhang-youjin]
     doi: '10.1007/s00220-004-1084-9'
     primary_category: math.DG
+    openalex_id: W3101856057
+    sources: [arxiv, openalex]
   - id: '0307374'
     title: 'On almost duality for Frobenius manifolds'
     year: 2003
     coauthors: []
+    doi: '10.48550/arxiv.math/0307374'
     primary_category: math.DG
+    openalex_id: W2952381028
+    sources: [arxiv, openalex]
   - id: '0306060'
     title: 'The Extended Toda Hierarchy'
     year: 2003
     coauthors: ['Guido Carlet', zhang-youjin]
+    doi: '10.17323/1609-4514-2004-4-2-313-332'
+    journal: 'Moscow Mathematical Journal'
     primary_category: nlin.SI
+    openalex_id: W2149500863
+    sources: [arxiv, openalex]
+  - id: 'doi:10.1007/b82946'
+    title: 'Quantum Cohomology: Lectures given at the C.I.M.E. Summer School held in Cetraro, Italy, June 30 - July 8, 1997'
+    year: 2002
+    coauthors: ['Kai Behrend', 'César Gómez', 'Tarasov Vitaly', tian-gang, 'Paolo de Bartolomeis', 'C. Reina']
+    doi: '10.1007/b82946'
+    openalex_id: W2623522960
+    sources: [openalex]
+    no_arxiv: true
   - id: '0108160'
     title: 'Normal forms of hierarchies of integrable PDEs, Frobenius manifolds and Gromov - Witten invariants'
     year: 2001
     coauthors: [zhang-youjin]
+    doi: '10.48550/arxiv.math/0108160'
     primary_category: math.DG
+    openalex_id: W1634975405
+    sources: [arxiv, openalex]
+  - id: 'doi:10.1007/978-3-662-06791-8_3'
+    title: 'Integrable Systems.I'
+    year: 2001
+    coauthors: ['I. M. Krichever', 'S. P. Novikov']
+    doi: '10.1007/978-3-662-06791-8_3'
+    journal: 'Encyclopaedia of mathematical sciences'
+    openalex_id: W1598142176
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1007/pl00005790'
+    title: 'Monodromy of certain Painlevé–VI transcendents and reflection groups'
+    year: 2000
+    coauthors: [mazzocco]
+    doi: '10.1007/pl00005790'
+    journal: 'Inventiones mathematicae'
+    openalex_id: W2002372149
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'openalex:W1511356041'
+    title: 'Recurrent procedure for the determination of the Free Energy $\epsilon^{2}$-expansion in the Topological String Theory'
+    year: 1999
+    coauthors: ['A. Ya. Maltsev']
+    doi: '10.48550/arxiv.solv-int/9904004'
+    openalex_id: W1511356041
+    sources: [openalex]
+    no_arxiv: true
   - id: '9808048'
     title: 'Frobenius Manifolds And Virasoro Constraints'
     year: 1998
     coauthors: [zhang-youjin]
+    doi: '10.1007/s000290050053'
+    journal: 'Selecta Mathematica'
     primary_category: math.AG
+    openalex_id: W2014464116
+    sources: [arxiv, openalex]
   - id: '9807034'
     title: 'Geometry and analytic theory of Frobenius manifolds'
     year: 1998
     coauthors: []
+    doi: '10.4171/dms/1-2/31'
+    journal: 'EMS Press eBooks'
     primary_category: math.AG
+    openalex_id: W1820546952
+    sources: [arxiv, openalex]
   - id: '9803106'
     title: 'Flat pencils of metrics and Frobenius manifolds'
     year: 1998
     coauthors: []
+    doi: '10.48550/arxiv.math/9803106'
+    journal: 'ArXiv.org'
     primary_category: math.DG
+    openalex_id: W2110860393
+    sources: [arxiv, openalex]
   - id: '9803107'
     title: 'Painleve'' transcendents and two-dimensional topological field theory'
     year: 1998
     coauthors: []
+    doi: '10.48550/arxiv.math/9803107'
     primary_category: math.AG
+    openalex_id: W2949583784
+    sources: [arxiv, openalex]
+  - id: 'doi:10.4310/sdg.1998.v4.n1.a5'
+    title: 'Differential geometry of moduli spaces'
+    year: 1998
+    coauthors: []
+    doi: '10.4310/sdg.1998.v4.n1.a5'
+    journal: 'Surveys in Differential Geometry'
+    openalex_id: W2315784764
+    sources: [openalex]
+    no_arxiv: true
   - id: '9712232'
     title: 'Bihamiltonian Hierarchies in 2D Topological Field Theory At One-Loop Approximation'
     year: 1997
@@ -365,22 +816,122 @@ publications:
     doi: '10.1007/s002200050480'
     journal: 'Commun.Math.Phys. 198 (1998) 311-361'
     primary_category: hep-th
+    sources: [arxiv]
+  - id: 'doi:10.1111/1467-9590.00059'
+    title: 'Three‐Phase Solutions of the Kadomtsev–Petviashvili Equation'
+    year: 1997
+    coauthors: ['Ron Flickinger', 'Harvey Segur']
+    doi: '10.1111/1467-9590.00059'
+    journal: 'Studies in Applied Mathematics'
+    openalex_id: W1988028703
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'openalex:W255588053'
+    title: 'Functionals of the Peierls - Fröhlich Type and the Variational Principle for the Whitham Equations'
+    year: 1997
+    coauthors: []
+    openalex_id: W255588053
+    sources: [openalex]
+    no_arxiv: true
   - id: '9611200'
     title: 'Extended affine Weyl groups and Frobenius manifolds'
     year: 1996
     coauthors: [zhang-youjin]
     journal: 'Compositio Mathematica 111 (1998), 167--219'
     primary_category: hep-th
+    sources: [arxiv]
+  - id: 'doi:10.1007/bfb0094791'
+    title: 'Integrable Systems and Quantum Groups'
+    year: 1996
+    coauthors: ['Ron Donagi', 'Edward Frenkel', 'Эмма Превиато']
+    doi: '10.1007/bfb0094791'
+    journal: 'Lecture notes in mathematics'
+    openalex_id: W2486277593
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1142/9789814317344_0051'
+    title: 'HAMILTONIAN FORMALISM OF ONE-DIMENSIONAL SYSTEMS OF HYDRODYNAMIC TYPE, AND THE BOGOLYUBOV-WHITMAN AVERAGING METHOD'
+    year: 1996
+    coauthors: ['S. P. Novikov']
+    doi: '10.1142/9789814317344_0051'
+    journal: 'World Scientific series in 20th century physics'
+    openalex_id: W1567847007
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'openalex:W3018630469'
+    title: 'Hamiltonian Formalism for One-Dimensional Systems of Hydrodynamic Type and the Bogolyubov-Whitman Averaging Method - Sov. Math. Dokl. 27, 665 (1983)'
+    year: 1996
+    coauthors: ['S P Novikov']
+    openalex_id: W3018630469
+    sources: [openalex]
+    no_arxiv: true
   - id: '9407018'
     title: 'Geometry of 2d topological field theories'
     year: 1994
     coauthors: []
+    doi: '10.1007/bfb0094793'
+    journal: 'Lecture notes in mathematics'
     primary_category: hep-th
+    openalex_id: W1959074930
+    sources: [arxiv, openalex]
+  - id: 'openalex:W1574594990'
+    title: 'Algebraic-geometrical Darboux coordinates in R-matrix formalism'
+    year: 1994
+    coauthors: ['Paola Diener']
+    openalex_id: W1574594990
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1215/s0012-7094-94-07623-0'
+    title: 'Integrable functional equations and algebraic geometry'
+    year: 1994
+    coauthors: ['A. S. Fokas', 'P. Santini']
+    doi: '10.1215/s0012-7094-94-07623-0'
+    journal: 'Duke Mathematical Journal'
+    openalex_id: W2099488339
+    sources: [openalex]
+    no_arxiv: true
   - id: '9303152'
     title: 'Differential geometry of the space of orbits of a Coxeter group'
     year: 1993
     coauthors: []
+    doi: '10.4310/sdg.1998.v4.n1.a4'
+    journal: 'Surveys in Differential Geometry'
     primary_category: hep-th
+    openalex_id: W2317099087
+    sources: [arxiv, openalex]
+  - id: 'openalex:W978209073'
+    title: 'Integrable systems and classification of 2D topological field theories'
+    year: 1993
+    coauthors: []
+    openalex_id: W978209073
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1007/978-1-4612-0315-5_16'
+    title: 'Integrable Systems and Classification of 2-Dimensional Topological Field Theories'
+    year: 1993
+    coauthors: []
+    doi: '10.1007/978-1-4612-0315-5_16'
+    openalex_id: W1620873428
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1007/978-3-642-77769-1_61'
+    title: 'Spectral Theory of Linear λ-Matrices and the Solution of Certain Nonlinear Algebraic and Functional Equations'
+    year: 1993
+    coauthors: ['A. S. Fokas', 'P. Santini']
+    doi: '10.1007/978-3-642-77769-1_61'
+    journal: 'Springer series in nonlinear dynamics'
+    openalex_id: W292177235
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1007/978-3-642-58045-1_6'
+    title: 'Dispersion Relations for Nonlinear Waves and the Schottky Problem'
+    year: 1993
+    coauthors: []
+    doi: '10.1007/978-3-642-58045-1_6'
+    journal: 'Springer series in nonlinear dynamics'
+    openalex_id: W1990595292
+    sources: [openalex]
+    no_arxiv: true
   - id: '9206037'
     title: 'Geometry and Integrability of Topological-Antitopological Fusion'
     year: 1992
@@ -388,6 +939,375 @@ publications:
     doi: '10.1007/BF02096618'
     journal: 'Commun.Math.Phys. 152 (1993) 539-564'
     primary_category: hep-th
+    openalex_id: W2005897253
+    sources: [arxiv, openalex]
+  - id: 'openalex:W2592187527'
+    title: 'Modern Geometry - Methods and Applications Part I: The Geometry of Surfaces, Transformation Groups, and Fields'
+    year: 1992
+    coauthors: ['А. Т. Фоменко', 'S. P. Novikov']
+    openalex_id: W2592187527
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1016/0550-3213(92)90137-z'
+    title: 'Integrable systems in topological field theory'
+    year: 1992
+    coauthors: []
+    doi: '10.1016/0550-3213(92)90137-z'
+    journal: 'Nuclear Physics B'
+    openalex_id: W2071169644
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1007/bf02099286'
+    title: 'Hamiltonian formalism of Whitham-type hierarchies and topological Landau-Ginsburg models'
+    year: 1992
+    coauthors: []
+    doi: '10.1007/bf02099286'
+    journal: 'Communications in Mathematical Physics'
+    openalex_id: W2119825721
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'openalex:W315964752'
+    title: 'Differential geometry of moduli spaces and its applications to soliton equations and to topological conformal field theory'
+    year: 1991
+    coauthors: []
+    openalex_id: W315964752
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'openalex:W640882091'
+    title: 'Geometry of Hamiltonian Evolutionary Systems'
+    year: 1991
+    coauthors: []
+    openalex_id: W640882091
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'openalex:W3179069800'
+    title: 'Modern Geometry―Methods and Applications: Part III: Introduction to Homology Theory'
+    year: 1990
+    coauthors: ['А. Т. Фоменко', 'S P Novikov']
+    openalex_id: W3179069800
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1007/bf01077332'
+    title: 'Differential geometry of strongly integrable systems of hydrodynamic type'
+    year: 1990
+    coauthors: []
+    doi: '10.1007/bf01077332'
+    journal: 'Functional Analysis and Its Applications'
+    openalex_id: W1985388273
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1142/s0217732390001384'
+    title: 'ALTERNATIVE HAMILTONIAN DESCRIPTION FOR QUANTUM SYSTEMS'
+    year: 1990
+    coauthors: ['G. Marmo', 'A. Simoni']
+    doi: '10.1142/s0217732390001384'
+    journal: 'Modern Physics Letters A'
+    openalex_id: W2089259346
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1007/978-1-4612-4474-5_1'
+    title: 'Homology and Cohomology. Computational Recipes'
+    year: 1990
+    coauthors: ['S. P. Novikov', 'А. Т. Фоменко']
+    doi: '10.1007/978-1-4612-4474-5_1'
+    journal: 'Graduate texts in mathematics'
+    openalex_id: W2480206793
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1007/978-1-4612-4474-5_2'
+    title: 'Critical Points of Smooth Functions and Homology Theory'
+    year: 1990
+    coauthors: ['S. P. Novikov', 'А. Т. Фоменко']
+    doi: '10.1007/978-1-4612-4474-5_2'
+    journal: 'Graduate texts in mathematics'
+    openalex_id: W2500084699
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1070/rm1989v044n06abeh002300'
+    title: 'Hydrodynamics of weakly deformed soliton lattices. Differential geometry and Hamiltonian theory'
+    year: 1989
+    coauthors: ['S. P. Novikov']
+    doi: '10.1070/rm1989v044n06abeh002300'
+    journal: 'Russian Mathematical Surveys'
+    openalex_id: W2155804277
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1070/im1989v032n02abeh000759'
+    title: 'REAL THETA-FUNCTION SOLUTIONS OF THE KADOMTSEV–PETVIASHVILI EQUATION'
+    year: 1989
+    coauthors: ['S. M. Natanzon']
+    doi: '10.1070/im1989v032n02abeh000759'
+    journal: 'Mathematics of the USSR-Izvestiya'
+    openalex_id: W2058618013
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1007/bf01078783'
+    title: 'Differential-geometric Poisson brackets on a lattice'
+    year: 1989
+    coauthors: []
+    doi: '10.1007/bf01078783'
+    journal: 'Functional Analysis and Its Applications'
+    openalex_id: W2063399181
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'openalex:W2969611257'
+    title: 'Exact solutions of the time-dependent Schroedinger equation with self-consistent potential'
+    year: 1988
+    coauthors: ['T M Malanyuk', 'I. M. Krichever', 'Vladimir G. Makhankov']
+    openalex_id: W2969611257
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1007/bfb0080422'
+    title: 'Theory of operators and real algebraic geometry'
+    year: 1988
+    coauthors: []
+    doi: '10.1007/bfb0080422'
+    journal: 'Lecture notes in mathematics'
+    openalex_id: W93891481
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1070/rm1988v043n04abeh001866'
+    title: 'Sergei Petrovich Novikov (on his fiftieth birthday)'
+    year: 1988
+    coauthors: ['D. V. Anosov', 'Аркадий Анатольевич Мальцев', 'O A Oleĭnik', 'Albert N. Shiryaev', 'Yakov G. Sinai']
+    doi: '10.1070/rm1988v043n04abeh001866'
+    journal: 'Russian Mathematical Surveys'
+    openalex_id: W1964954630
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1007/bf02104895'
+    title: 'Matrix finite-zone operators'
+    year: 1985
+    coauthors: []
+    doi: '10.1007/bf02104895'
+    journal: 'Journal of Mathematical Sciences'
+    openalex_id: W1975548620
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'openalex:W623954676'
+    title: 'The geometry and topology of manifolds'
+    year: 1985
+    coauthors: ['Сергей Петрович Новиков', 'Анатолий Тимофеевич Фоменко', 'R. G. Burns']
+    openalex_id: W623954676
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1007/978-1-4612-1100-6_1'
+    title: 'Examples of Manifolds'
+    year: 1985
+    coauthors: ['S. P. Novikov', 'А. Т. Фоменко']
+    doi: '10.1007/978-1-4612-1100-6_1'
+    journal: 'Graduate texts in mathematics'
+    openalex_id: W996819531
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1007/978-1-4612-1100-6_4'
+    title: 'Orientability of Manifolds. The Fundamental Group. Covering Spaces (Fibre Bundles with Discrete Fibre)'
+    year: 1985
+    coauthors: ['S. P. Novikov', 'А. Т. Фоменко']
+    doi: '10.1007/978-1-4612-1100-6_4'
+    journal: 'Graduate texts in mathematics'
+    openalex_id: W116997042
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1007/978-1-4612-1100-6_6'
+    title: 'Smooth Fibre Bundles'
+    year: 1985
+    coauthors: ['S P Novikov', 'А. Т. Фоменко']
+    doi: '10.1007/978-1-4612-1100-6_6'
+    journal: 'Graduate texts in mathematics'
+    openalex_id: W137462585
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1007/978-1-4612-1100-6_7'
+    title: 'Some Examples of Dynamical Systems and Foliations on Manifolds'
+    year: 1985
+    coauthors: ['S. P. Novikov', 'A. T. Fomenko']
+    doi: '10.1007/978-1-4612-1100-6_7'
+    journal: 'Graduate texts in mathematics'
+    openalex_id: W28468388
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1007/978-1-4612-1100-6_8'
+    title: 'The Global Structure of Solutions of Higher-Dimensional Variational Problems'
+    year: 1985
+    coauthors: ['S. P. Novikov', 'А. Т. Фоменко']
+    doi: '10.1007/978-1-4612-1100-6_8'
+    journal: 'Graduate texts in mathematics'
+    openalex_id: W32430860
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1007/978-1-4612-1100-6_3'
+    title: 'The Degree of a Mapping. The Intersection Index of Submanifolds. Applications'
+    year: 1985
+    coauthors: ['S. P. Novikov', 'А. Т. Фоменко']
+    doi: '10.1007/978-1-4612-1100-6_3'
+    journal: 'Graduate texts in mathematics'
+    openalex_id: W51558697
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1007/978-1-4684-9946-9'
+    title: 'Modern Geometry — Methods and Applications'
+    year: 1984
+    coauthors: ['A. T. Fomenko', 'S. P. Novikov']
+    doi: '10.1007/978-1-4684-9946-9'
+    journal: 'Graduate texts in mathematics'
+    openalex_id: W2070959866
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'openalex:W1620600570'
+    title: 'Poisson brackets of hydrodynamic type'
+    year: 1984
+    coauthors: ['S. P. Novikov']
+    openalex_id: W1620600570
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'openalex:W1487847958'
+    title: 'The geometry of surfaces, transformation groups, and fields'
+    year: 1984
+    coauthors: ['Анатолий Тимофеевич Фоменко', 'Сергей Петрович Новиков', 'R. G. Burns']
+    openalex_id: W1487847958
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1007/978-1-4684-9946-9_1'
+    title: 'Geometry in Regions of a Space. Basic Concepts'
+    year: 1984
+    coauthors: ['А. Т. Фоменко', 'S P Novikov']
+    doi: '10.1007/978-1-4684-9946-9_1'
+    journal: 'Graduate texts in mathematics'
+    openalex_id: W2227653725
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1007/978-1-4684-9946-9_3'
+    title: 'Tensors: The Algebraic Theory'
+    year: 1984
+    coauthors: ['А. Т. Фоменко', 'S P Novikov']
+    doi: '10.1007/978-1-4684-9946-9_3'
+    journal: 'Graduate texts in mathematics'
+    openalex_id: W9632827
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1007/978-1-4684-9946-9_6'
+    title: 'The Calculus of Variations in Several Dimensions. Fields and Their Geometric Invariants'
+    year: 1984
+    coauthors: ['А. Т. Фоменко', 'S. P. Novikov']
+    doi: '10.1007/978-1-4684-9946-9_6'
+    journal: 'Graduate texts in mathematics'
+    openalex_id: W143526108
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1007/978-1-4684-9946-9_5'
+    title: 'The Elements of the Calculus of Variations'
+    year: 1984
+    coauthors: ['А. Т. Фоменко', 'S. P. Novikov']
+    doi: '10.1007/978-1-4684-9946-9_5'
+    journal: 'Graduate texts in mathematics'
+    openalex_id: W2124731966
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'openalex:W3158944643'
+    title: 'Nonlinear Equations Connected with Matrix Finite-Gap Operators'
+    year: 1984
+    coauthors: []
+    openalex_id: W3158944643
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1007/978-1-4684-9946-9_4'
+    title: 'The Differential Calculus of Tensors'
+    year: 1984
+    coauthors: ['А. Т. Фоменко', 'S. P. Novikov']
+    doi: '10.1007/978-1-4684-9946-9_4'
+    journal: 'Graduate texts in mathematics'
+    openalex_id: W31822976
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1007/bf01081805'
+    title: 'Real two-zone solutions of the sine-Gordon equation'
+    year: 1982
+    coauthors: ['S. M. Natanzon']
+    doi: '10.1007/bf01081805'
+    journal: 'Functional Analysis and Its Applications'
+    openalex_id: W2052003914
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1070/im1982v019n02abeh001418'
+    title: 'THE KADOMCEV-PETVIAŠVILI EQUATION AND THE RELATIONS BETWEEN THE PERIODS OF HOLOMORPHIC DIFFERENTIALS ON RIEMANN SURFACES'
+    year: 1982
+    coauthors: []
+    doi: '10.1070/im1982v019n02abeh001418'
+    journal: 'Mathematics of the USSR-Izvestiya'
+    openalex_id: W1987819551
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1070/rm1981v036n02abeh002596'
+    title: 'Theta functions and non-linear equations'
+    year: 1981
+    coauthors: []
+    doi: '10.1070/rm1981v036n02abeh002596'
+    journal: 'Russian Mathematical Surveys'
+    openalex_id: W2068546742
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1017/cbo9780511600784.004'
+    title: 'Non-linear equations of Korteweg-de Vries type, finite-zone linear operators and abelian varieties (Volume 31, 1976)'
+    year: 1981
+    coauthors: ['V.B. Matveer', 'S P Novikov']
+    doi: '10.1017/cbo9780511600784.004'
+    journal: 'Cambridge University Press eBooks'
+    openalex_id: W2991208210
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1007/bf01077141'
+    title: 'Completely integrable Hamiltonian systems associated with matrix operators and Abelian varieties'
+    year: 1977
+    coauthors: []
+    doi: '10.1007/bf01077141'
+    journal: 'Functional Analysis and Its Applications'
+    openalex_id: W2014251592
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1070/rm1976v031n01abeh001446'
+    title: 'NON-LINEAR EQUATIONS OF KORTEWEG-DE VRIES TYPE, FINITE-ZONE LINEAR OPERATORS, AND ABELIAN VARIETIES'
+    year: 1976
+    coauthors: ['V. B. Matveev', 'S. P. Novikov']
+    doi: '10.1070/rm1976v031n01abeh001446'
+    journal: 'Russian Mathematical Surveys'
+    openalex_id: W2128553381
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1007/bf01075598'
+    title: 'Periodic problems for the Korteweg — de Vries equation in the class of finite band potentials'
+    year: 1975
+    coauthors: []
+    doi: '10.1007/bf01075598'
+    journal: 'Functional Analysis and Its Applications'
+    openalex_id: W1998525573
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1007/bf01078183'
+    title: 'Inverse problem for periodic finite — zoned potentials in the theory of scattering'
+    year: 1975
+    coauthors: []
+    doi: '10.1007/bf01078183'
+    journal: 'Functional Analysis and Its Applications'
+    openalex_id: W2069554118
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'openalex:W2150464205'
+    title: 'PERIODIC AND CONDITIONALLY PERIODIC ANALOGS OF THE MANY-SOLITON SOLUTIONS OF THE KORTEWEG-DE VRIES EQUATION'
+    year: 1974
+    coauthors: ['S P Novikov']
+    openalex_id: W2150464205
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1007/bf01155666'
+    title: 'Generalized Witt groups'
+    year: 1973
+    coauthors: []
+    doi: '10.1007/bf01155666'
+    journal: 'Mathematical Notes'
+    openalex_id: W2036390398
+    sources: [openalex]
+    no_arxiv: true
 sources:
 - label: Math Genealogy
   url: https://www.mathgenealogy.org/id.php?id=83136

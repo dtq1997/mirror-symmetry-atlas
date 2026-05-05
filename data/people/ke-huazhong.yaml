@@ -34,39 +34,210 @@ key_collaborators:
   - person: li-changzheng
     since: 2024
     topic: "Gamma conjecture, quantum cohomology, mirror symmetry for blowups"
-    papers_count: 4
+    papers_count: 7
   - person: hu-jianxun
     since: 2024
     topic: "Gamma conjecture, quantum cohomology, Galkin's conjecture"
-    papers_count: 4
+    papers_count: 9
 publications:
   - id: '2502.13558'
     title: 'On the quantum cohomology of blow-ups of four-dimensional quadrics'
     year: 2025
-    coauthors: ['Jianxun Hu', 'Changzheng Li', 'Lei Song']
+    coauthors: [hu-jianxun, li-changzheng, 'Lei Song']
+    doi: '10.48550/arxiv.2502.13558'
     journal: 'Acta Math. Sin. (Engl. Ser.) 40 (2024), no. 1, 313-328'
     primary_category: math.AG
+    openalex_id: W4407764356
+    sources: [arxiv, openalex]
   - id: '2502.13545'
     title: 'Mirror symmetry for certain blowups of Grassmannians'
     year: 2025
-    coauthors: ['Jianxun Hu', 'Changzheng Li', 'Lei Song']
+    coauthors: [hu-jianxun, li-changzheng, 'Lei Song']
+    doi: '10.48550/arxiv.2502.13545'
     primary_category: math.AG
+    openalex_id: W4407764377
+    sources: [arxiv, openalex]
+  - id: '2507.12333'
+    title: 'Towards small quantum Chern character'
+    year: 2025
+    coauthors: ['Hua-Zhong Ke', li-changzheng, song-jiayu]
+    doi: '10.48550/arxiv.2507.12333'
+    openalex_id: W4415142865
+    sources: [openalex]
   - id: '2405.16987'
     title: 'On Galkin''s Lower Bound Conjecture'
     year: 2024
-    coauthors: ['Jianxun Hu', 'Changzheng Li', 'Zhitong Su']
+    coauthors: [hu-jianxun, li-changzheng, 'Zhitong Su']
+    doi: '10.48550/arxiv.2405.16987'
     primary_category: math.AG
+    openalex_id: W4399116212
+    sources: [arxiv, openalex]
   - id: '2405.16979'
     title: 'Revisiting Gamma conjecture I: counterexamples and modifications'
     year: 2024
-    coauthors: ['Sergey Galkin', 'Jianxun Hu', 'Hiroshi Iritani', 'Changzheng Li', 'Zhitong Su']
+    coauthors: ['Sergey Galkin', hu-jianxun, 'Hiroshi Iritani', li-changzheng, 'Zhitong Su']
+    doi: '10.48550/arxiv.2405.16979'
     primary_category: math.AG
+    openalex_id: W4399116213
+    sources: [arxiv, openalex]
+  - id: 'doi:10.4310/ajm.250116221700'
+    title: 'On Galkin&amp;rsquo;s lower bound conjecture'
+    year: 2024
+    coauthors: [hu-jianxun, 'Hua-Zhong Ke', li-changzheng, 'Zhitong Su']
+    doi: '10.4310/ajm.250116221700'
+    journal: 'Asian Journal of Mathematics'
+    openalex_id: W4406466766
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1093/imrn/rnad141'
+    title: 'Conjecture 𝒪 for Projective Complete Intersections'
+    year: 2023
+    coauthors: ['Hua-Zhong Ke']
+    doi: '10.1093/imrn/rnad141'
+    journal: 'International Mathematics Research Notices'
+    openalex_id: W4383217119
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1007/s00208-022-02477-7'
+    title: 'Gamma conjecture II for quadrics'
+    year: 2022
+    coauthors: [hu-xiaowen, 'Hua-Zhong Ke']
+    doi: '10.1007/s00208-022-02477-7'
+    journal: 'Mathematische Annalen'
+    openalex_id: W3150579479
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1016/j.aim.2021.107797'
+    title: 'Gamma conjecture I for del Pezzo surfaces'
+    year: 2021
+    coauthors: [hu-jianxun, 'Hua-Zhong Ke', li-changzheng, 'Tuo Yang']
+    doi: '10.1016/j.aim.2021.107797'
+    journal: 'Advances in Mathematics'
+    openalex_id: W3169673548
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1307/mmj/1596700816'
+    title: 'Gromov–Witten Invariants Under Blow-Ups Along ( − 1 , − 1 ) -Curves'
+    year: 2020
+    coauthors: ['Hua-Zhong Ke']
+    doi: '10.1307/mmj/1596700816'
+    journal: 'The Michigan Mathematical Journal'
+    openalex_id: W3004139335
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1007/s11425-018-9568-x'
+    title: 'On the Drinfeld-Sokolov hierarchy of type $$E_6^{(1)}$$ and its topological solution'
+    year: 2020
+    coauthors: [he-weiqiang, 'Hua-Zhong Ke', 'Chao‐Zhong Wu']
+    doi: '10.1007/s11425-018-9568-x'
+    journal: 'Science China Mathematics'
+    openalex_id: W3005898661
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.4310/mrl.2019.v26.n1.a10'
+    title: 'A flop formula for Donaldson–Thomas invariants'
+    year: 2019
+    coauthors: ['Hua-Zhong Ke']
+    doi: '10.4310/mrl.2019.v26.n1.a10'
+    journal: 'Mathematical Research Letters'
+    openalex_id: W2239479992
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1007/s00209-018-2043-z'
+    title: 'Blow-up formulae of high genus Gromov–Witten invariants for threefolds'
+    year: 2018
+    coauthors: [he-weiqiang, hu-jianxun, 'Hua-Zhong Ke', 'Xiaoxia Qi']
+    doi: '10.1007/s00209-018-2043-z'
+    journal: 'Mathematische Zeitschrift'
+    openalex_id: W2792779451
+    sources: [openalex]
+    no_arxiv: true
+  - id: '1809.10869'
+    title: 'On Conjecture $\mathcal O$ for projective complete intersections'
+    year: 2018
+    coauthors: ['Hua-Zhong Ke']
+    doi: '10.48550/arxiv.1809.10869'
+    openalex_id: W2893380728
+    sources: [openalex]
+  - id: '1809.10868'
+    title: 'On duality in symplectic cohomologies'
+    year: 2018
+    coauthors: ['Hua-Zhong Ke']
+    doi: '10.48550/arxiv.1809.10868'
+    openalex_id: W2893345146
+    sources: [openalex]
+  - id: 'doi:10.11845/sxjz.2015062b'
+    title: 'On a Geometric Solution to Open KdV and Virasoro'
+    year: 2017
+    coauthors: ['Hua-Zhong Ke']
+    doi: '10.11845/sxjz.2015062b'
+    journal: 'Advances in Mathematics(China)'
+    openalex_id: W2942567168
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1007/s00209-015-1568-7'
+    title: 'Stable pair invariants under blow-ups'
+    year: 2015
+    coauthors: ['Hua-Zhong Ke']
+    doi: '10.1007/s00209-015-1568-7'
+    journal: 'Mathematische Zeitschrift'
+    openalex_id: W2286458326
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1007/s11005-014-0730-1'
+    title: 'Gauged Linear Sigma Model for Disc Invariants'
+    year: 2014
+    coauthors: ['Hua-Zhong Ke', zhou-jian]
+    doi: '10.1007/s11005-014-0730-1'
+    journal: 'Letters in Mathematical Physics'
+    openalex_id: W2019712181
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1007/s10114-015-3281-1'
+    title: 'Quantum McKay correspondence for disc invariants of toric Calabi-Yau 3-orbifolds'
+    year: 2014
+    coauthors: ['Hua-Zhong Ke', zhou-jian]
+    doi: '10.1007/s10114-015-3281-1'
+    journal: 'Acta Mathematica Sinica English Series'
+    openalex_id: W2009556534
+    sources: [openalex]
+    no_arxiv: true
+  - id: '1402.4221.'
+    title: 'A Blowup formula of high genus Gromov-Witten invariants in dimensional six'
+    year: 2014
+    coauthors: [he-weiqiang, hu-jianxun, 'Hua-Zhong Ke', 'Xiaoxia Qi']
+    openalex_id: W1771841147
+    sources: [openalex]
+  - id: '1410.4374'
+    title: 'Quantum McKay correspondence for disc invariants of orbifold vertex'
+    year: 2014
+    coauthors: ['Hua-Zhong Ke', zhou-jian]
+    doi: '10.48550/arxiv.1410.4374'
+    openalex_id: W2278906520
+    sources: [openalex]
+  - id: '1402.4221'
+    title: 'Blow-up formulae of high genus Gromov-Witten invariants in dimensional six'
+    year: 2014
+    coauthors: [he-weiqiang, hu-jianxun, 'Hua-Zhong Ke', 'Xiaoxia Qi']
+    doi: '10.48550/arxiv.1402.4221'
+    openalex_id: W4294150699
+    sources: [openalex]
+  - id: 'doi:10.1155/2008/918534'
+    title: 'The Generalizations of Hilbert′s Inequality'
+    year: 2008
+    coauthors: ['Liubin Hua', 'Hua-Zhong Ke', 'Yongjin Li']
+    doi: '10.1155/2008/918534'
+    journal: 'International Journal of Mathematics and Mathematical Sciences'
+    openalex_id: W2161555131
+    sources: [openalex]
+    no_arxiv: true
 activity:
-  total_papers: 4
-  published_count: 1
-  preprint_only_count: 3
+  total_papers: 23
+  published_count: 22
+  preprint_only_count: 1
   active_period: '2015-present'
-external_ids: {}
+external_ids:
+  openalex: A5069945007
 links: {}
 personal_notes: |
   2026 HUST 会议报告: Gamma conjecture II for del Pezzo surfaces via Gamma-I

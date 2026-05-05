@@ -56,9 +56,9 @@ key_collaborators:
   topic: Painlevé equations, reflection groups
   papers_count: 7
 activity:
-  total_papers: 29
-  published_count: 10
-  preprint_only_count: 19
+  total_papers: 50
+  published_count: 45
+  preprint_only_count: 5
   h_index: 21
   active_period: '1998-present'
   phd_students: 4
@@ -86,7 +86,10 @@ publications:
     title: 'Decorated Local Systems and Character Varieties'
     year: 2026
     coauthors: ['Benedetta Facciotti', 'Nikita Nikolaev']
+    doi: '10.48550/arxiv.2603.18842'
     primary_category: math.AG
+    openalex_id: W7139921749
+    sources: [arxiv, openalex]
   - id: '2407.17366'
     title: 'Automorphisms of the DAHA of type $\check{C_1}C_1$ and non-symmetric Askey-Wilson functions'
     year: 2024
@@ -94,11 +97,16 @@ publications:
     doi: '10.1016/j.indag.2025.05.005'
     journal: 'Indag. Math. (N.S.) 36 (2025), 1795-1829'
     primary_category: math.CA
+    openalex_id: W4404574454
+    sources: [arxiv, openalex]
   - id: '2405.10541'
     title: 'Segre surfaces and geometry of the Painlevé equations'
     year: 2024
     coauthors: ['Nalini Joshi', 'Pieter Roffelsen']
+    doi: '10.48550/arxiv.2405.10541'
     primary_category: math-ph
+    openalex_id: W4398191462
+    sources: [arxiv, openalex]
   - id: '2307.06803'
     title: 'Generalized double affine Hecke algebras, their representations, and higher Teichmüller theory'
     year: 2023
@@ -106,22 +114,70 @@ publications:
     doi: '10.1016/j.aim.2024.109763'
     journal: 'Adv. Math. 450 (2024) 109763'
     primary_category: math.QA
+    openalex_id: W4399567263
+    sources: [arxiv, openalex]
   - id: '2106.13760'
     title: 'Isomonodromic deformations: Confluence, Reduction $\&$ Quantisation'
     year: 2021
     coauthors: ['Ilia Gaiur', 'Vladimir Rubtsov']
+    doi: '10.1007/s00220-023-04650-8'
+    journal: 'Communications in Mathematical Physics'
     primary_category: math.AG
+    openalex_id: W4322726068
+    sources: [arxiv, openalex]
   - id: '2012.11010'
     title: 'The Sigma Form for the PII Hierarchy'
     year: 2020
     coauthors: ['Irina Bobrova']
     doi: '10.1016/j.geomphys.2021.104271'
+    journal: 'Journal of Geometry and Physics'
     primary_category: nlin.SI
+    openalex_id: W3115762942
+    sources: [arxiv, openalex]
+  - id: 'doi:10.1007/978-3-030-57000-2_7'
+    title: 'Stokes Phenomenon Arising in the Confluence of the Gauss Hypergeometric Equation'
+    year: 2020
+    coauthors: ['Calum Horrobin']
+    doi: '10.1007/978-3-030-57000-2_7'
+    journal: 'Springer proceedings in mathematics & statistics'
+    openalex_id: W3086757062
+    sources: [openalex]
+    no_arxiv: true
   - id: '1905.02772'
     title: 'Quantised Painlevé monodromy manifolds, Sklyanin and Calabi-Yau algebras'
     year: 2019
     coauthors: ['Leonid Chekhov', 'Volodya Rubtsov']
+    doi: '10.1016/j.aim.2020.107442'
+    journal: 'Advances in Mathematics'
     primary_category: math.QA
+    openalex_id: W3093179645
+    sources: [arxiv, openalex]
+  - id: 'doi:10.2969/aspm/07610449'
+    title: 'Embedding of the rank 1 DAHA into $Mat(2,\mathbb T_q)$ and its automorphisms'
+    year: 2019
+    coauthors: []
+    doi: '10.2969/aspm/07610449'
+    journal: 'Advanced studies in pure mathematics'
+    openalex_id: W2922107226
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1393/ncc/i2020-20111-7'
+    title: 'Study of the neutron-induced reaction $^{17}$O($n,\alpha$)$^{14}$C at astrophysical energies via the Trojan Horse Method'
+    year: 2019
+    coauthors: ['A. Oliva', 'G. L. Guardo', 'L. Lamia', 'S. Cherubini', 'A. Cvetinović', 'G. D’Agata', 'N. de Séréville', 'A. Di Pietro', 'P. Figuera', 'M. Gulino', 'F. Hammache', 'Shinjiro Hayakawa', 'I. Indelicato', 'M. La Cognata', 'M. La Commara', 'D. Lattuada', 'М. Латтуада', 'Giulio Manicò', 'S. Messina', 'S. Palmerini', 'R. G. Pizzone', 'M. L. Pumo', 'G. G. Rapisarda', 'S. Romano', 'M. L. Sergi', 'N. Soić', 'R. Spartá', 'C. Spitaleri', 'А. Туміно']
+    doi: '10.1393/ncc/i2020-20111-7'
+    openalex_id: W3165357655
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.14288/1.0377037'
+    title: 'Quantum character varieties and $q$-Askey scheme'
+    year: 2019
+    coauthors: []
+    doi: '10.14288/1.0377037'
+    journal: 'cIRcle (University of British Columbia)'
+    openalex_id: W3036431556
+    sources: [openalex]
+    no_arxiv: true
   - id: '1803.02775'
     title: 'Dualities in the $q$-Askey scheme and degenerate DAHA'
     year: 2018
@@ -129,31 +185,71 @@ publications:
     doi: '10.1111/sapm.12229'
     journal: 'STUDIES IN APPLIED MATHEMATICS 2018'
     primary_category: math.CA
+    sources: [arxiv]
+  - id: 'doi:10.1051/epjconf/201818402012'
+    title: 'The Treiman-Yang Criterion: validating the Trojan Horse Method by experimentally probing the reaction mechanism'
+    year: 2018
+    coauthors: ['Salvatore Simone Perrotta', 'C. Spitaleri', 'S. Cherubini', 'A. Cvetinović', 'G. D’Agata', 'D. Dell’Aquila', 'A. Di Pietro', 'P. Figuera', 'L. Guardo', 'M. Gulino', 'I. Indelicato', 'I. Kres', 'M. La Cognata', 'M. La Commara', 'L. Lamia', 'D. Lattuada', 'М. Латтуада', 'I. Lombardo', 'T. Parascandolo', 'R. G. Pizzone', 'G. G. Rapisarda', 'S. Romano', 'R. Spartá', 'O. Trippella', 'А. Туміно']
+    doi: '10.1051/epjconf/201818402012'
+    journal: 'EPJ Web of Conferences'
+    openalex_id: W2809690262
+    sources: [openalex]
+    no_arxiv: true
   - id: '1705.03295'
     title: 'Finite orbits of the pure braid group on the monodromy of the $2$-variable Garnier system'
     year: 2017
     coauthors: [li-ao]
+    doi: '10.1093/integr/xyy005'
     primary_category: math.CA
+    openalex_id: W2612485069
+    sources: [arxiv, openalex]
   - id: '1705.01447'
     title: 'Algebras of quantum monodromy data and decorated character varieties'
     year: 2017
     coauthors: ['Leonid Chekhov', 'Vladimir Rubtsov']
+    doi: '10.1093/oso/9780198802013.003.0003'
     primary_category: math.AG
+    openalex_id: W4243724386
+    sources: [arxiv, openalex]
+  - id: 'doi:10.4213/rm9802'
+    title: 'Пуассоново однородное пространство билинейных форм с действием Пуассона-Ли'
+    year: 2017
+    coauthors: ['Leonid Chekhov']
+    doi: '10.4213/rm9802'
+    journal: 'Успехи математических наук'
+    openalex_id: W2772609644
+    sources: [openalex]
+    no_arxiv: true
   - id: '1603.03770'
     title: 'Embedding of the rank 1 DAHA into Mat(2,Tq) and its automorphisms'
     year: 2016
     coauthors: []
+    doi: '10.48550/arxiv.1603.03770'
     primary_category: math.RT
+    openalex_id: W2298241412
+    sources: [arxiv, openalex]
+  - id: 'openalex:W2963917450'
+    title: '4 ON A POISSON HOMOGENEOUS SPACE OF BILINEAR FORMS WITH A POISSON LIE ACTION'
+    year: 2016
+    coauthors: ['Leonid Chekhov']
+    openalex_id: W2963917450
+    sources: [openalex]
+    no_arxiv: true
   - id: '1511.03851'
     title: 'Painlevé monodromy manifolds, decorated character varieties and cluster algebras'
     year: 2015
     coauthors: ['Leonid Chekhov', 'Vladimir Rubtsov']
+    doi: '10.1093/imrn/rnw219'
+    journal: 'International Mathematics Research Notices'
     primary_category: math-ph
+    openalex_id: W2962680933
+    sources: [arxiv, openalex]
   - id: '1509.07044'
     title: 'Colliding holes in Riemann surfaces and quantum cluster algebras'
     year: 2015
     coauthors: ['Leonid Chekhov']
     primary_category: math-ph
+    sources: [arxiv]
   - id: '1409.4287'
     title: 'Non-Symmetric Basic Hypergeometric Polynomials and Representation Theory for Confluent Cherednik Algebras'
     year: 2014
@@ -161,37 +257,66 @@ publications:
     doi: '10.3842/SIGMA.2014.116'
     journal: 'SIGMA 10 (2014), 116, 10 pages'
     primary_category: math.QA
+    openalex_id: W2037514611
+    sources: [arxiv, openalex]
   - id: '1404.0988'
     title: 'On a Poisson space of bilinear forms with a Poisson Lie action'
     year: 2014
     coauthors: ['Leonid Chekhov']
+    doi: '10.1070/rm9802'
+    journal: 'Russian Mathematical Surveys'
     primary_category: math.QA
+    openalex_id: W2734989317
+    sources: [arxiv, openalex]
+  - id: 'openalex:W2340152047'
+    title: 'Non-Symmetric Basic Hypergeometric Polynomials and Representation Theory for Confluent'
+    year: 2014
+    coauthors: ['Cherednik Algebras']
+    openalex_id: W2340152047
+    sources: [openalex]
+    no_arxiv: true
   - id: '1309.3493'
     title: 'Quantum ordering for quantum geodesic functions of orbifold Riemann surfaces'
     year: 2013
     coauthors: ['Leonid Chekhov']
+    doi: '10.48550/arxiv.1309.3493'
     primary_category: math.QA
+    openalex_id: W4302443154
+    sources: [arxiv, openalex]
   - id: '1307.6140'
     title: 'Confluences of the Painleve equations, Cherednik algebras and q-Askey scheme'
     year: 2013
     coauthors: []
+    doi: '10.1088/0951-7715/29/9/2565'
     primary_category: math.QA
+    openalex_id: W2163493277
+    sources: [arxiv, openalex]
   - id: '1212.6723'
     title: 'Confluence on the Painlevé Monodromy Manifolds, their Poisson Structure and Quantisation'
     year: 2012
     coauthors: ['Vladimir Rubtsov']
+    doi: '10.48550/arxiv.1212.6723'
     primary_category: math-ph
+    openalex_id: W2268049720
+    sources: [arxiv, openalex]
   - id: '1105.4501'
     title: 'Teichmüller spaces as degenerated symplectic leaves in Dubrovin--Ugaglia Poisson manifolds'
     year: 2011
     coauthors: ['Leonid Chekhov']
     doi: '10.1016/j.physd.2011.09.018'
+    journal: 'Physica D Nonlinear Phenomena'
     primary_category: math-ph
+    openalex_id: W1980397913
+    sources: [arxiv, openalex]
   - id: '1012.5251'
     title: 'Poisson algebras of block-upper-triangular bilinear forms and braid group action'
     year: 2010
     coauthors: ['Leonid Chekhov']
+    doi: '10.1007/s00220-013-1757-3'
+    journal: 'Communications in Mathematical Physics'
     primary_category: math-ph
+    openalex_id: W1981593100
+    sources: [arxiv, openalex]
   - id: '1011.6036'
     title: 'Cubic and quartic transformations of the sixth Painleve equation in terms of Riemann-Hilbert correspondence'
     year: 2010
@@ -199,49 +324,186 @@ publications:
     doi: '10.1111/j.1467-9590.2012.00562.x'
     journal: 'Studies in Applied Mathematics, Vol. 130 (2013), pg. 17-48'
     primary_category: nlin.SI
+    openalex_id: W1940173169
+    sources: [arxiv, openalex]
   - id: '1007.3854'
     title: 'Shear coordinate description of the quantised versal unfolding of D_4 singularity'
     year: 2010
     coauthors: ['Leonid Chekhov']
     doi: '10.1088/1751-8113/43/44/442002'
     primary_category: math-ph
+    sources: [arxiv]
+  - id: 'doi:10.1088/1751-8121/43/43/430301'
+    title: 'Integrability and nonlinear phenomena'
+    year: 2010
+    coauthors: ['David Gómez‐Ullate', 'Sara Lombardo', 'Manuel Mañas', 'Frank Nijhoff', 'M. Sommacal']
+    doi: '10.1088/1751-8121/43/43/430301'
+    journal: 'Journal of Physics A Mathematical and Theoretical'
+    openalex_id: W2015671666
+    sources: [openalex]
+    no_arxiv: true
   - id: '0909.5350'
     title: 'Isomonodromic deformations and twisted Yangians arising in Teichmüller theory'
     year: 2009
     coauthors: ['Leonid Chekhov']
+    doi: '10.1016/j.aim.2010.12.017'
+    journal: 'Advances in Mathematics'
     primary_category: math.AG
+    openalex_id: W2963222788
+    sources: [arxiv, openalex]
+  - id: 'doi:10.1070/rm2009v064n06abeh004653'
+    title: 'Orbifold Riemann surfaces: Teichmüller spaces and algebras of geodesic functions'
+    year: 2009
+    coauthors: ['Leonid Chekhov']
+    doi: '10.1070/rm2009v064n06abeh004653'
+    journal: 'Russian Mathematical Surveys'
+    openalex_id: W1985350954
+    sources: [openalex]
+    no_arxiv: true
   - id: '0701029'
     title: 'A remark on the Hankel determinant formula for solutions of the Toda equation'
     year: 2007
     coauthors: ['Kenji Kajiwara', 'Yasuhiro Ohta']
     doi: '10.1088/1751-8113/40/42/S11'
     primary_category: nlin.SI
+    sources: [arxiv]
   - id: '0610066'
     title: 'The Hamiltonian Structure of the Second Painleve Hierarchy'
     year: 2006
     coauthors: ['Man Yue Mo']
     doi: '10.1088/0951-7715/20/12/006'
     primary_category: nlin.SI
+    sources: [arxiv]
+  - id: 'doi:10.1111/j.1365-2044.1993.tb06804.x'
+    title: 'THE LAX PAIR FOR THE MKDV HIERARCHY'
+    year: 2006
+    coauthors: ['Peter A. Clarkson', 'Nalini Joshi']
+    doi: '10.1111/j.1365-2044.1993.tb06804.x'
+    journal: 'Anaesthesia'
+    openalex_id: W8499010
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'openalex:W2128014837'
+    title: 'Monodromy of certain Painlev e-VI transcendents and reection groups'
+    year: 2006
+    coauthors: [dubrovin]
+    openalex_id: W2128014837
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.4171/020-1/8'
+    title: 'On the reductions and classical solutions of the Schlesinger equations'
+    year: 2006
+    coauthors: [dubrovin]
+    doi: '10.4171/020-1/8'
+    journal: 'IRMA lectures in mathematics and theoretical physics'
+    openalex_id: W1567549351
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1088/0305-4470/39/39/e01'
+    title: 'One hundred years of PVI, the Fuchs–Painlevé equation'
+    year: 2006
+    coauthors: ['Peter A. Clarkson', 'Nalini Joshi', 'Frank Nijhoff', 'Masatoshi Noumi']
+    doi: '10.1088/0305-4470/39/39/e01'
+    journal: 'Journal of Physics A Mathematical and General'
+    openalex_id: W2031444652
+    sources: [openalex]
+    no_arxiv: true
   - id: '0512041'
     title: 'Generating Function Associated with the Hankel Determinant Formula for the Solutions of the Painlevé IV Equation'
     year: 2005
     coauthors: ['Nalini Joshi', 'Kenji Kajiwara']
+    doi: '10.1619/fesi.49.451'
+    journal: 'Funkcialaj Ekvacioj'
     primary_category: nlin.SI
+    openalex_id: W2568241015
+    sources: [arxiv, openalex]
   - id: '0406035'
     title: 'Generating Function Associated with the Determinant Formula for the Solutions of the Painleve'' II Equation'
     year: 2004
     coauthors: ['Nalini Joshi', 'Kenji Kajiwara']
+    doi: '10.48550/arxiv.nlin/0406035'
     primary_category: nlin.SI
+    openalex_id: W2096723448
+    sources: [arxiv, openalex]
+  - id: 'doi:10.1112/s0024610704005678'
+    title: 'IRREGULAR ISOMONODROMIC DEFORMATIONS FOR GARNIER SYSTEMS AND OKAMOTO''S CANONICAL TRANSFORMATIONS'
+    year: 2004
+    coauthors: []
+    doi: '10.1112/s0024610704005678'
+    journal: 'Journal of the London Mathematical Society'
+    openalex_id: W2060869515
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'openalex:W3200631865'
+    title: 'Fonction génératrice associée à la formule déterminant pour les solutions de l''équation de Painlevé II'
+    year: 2004
+    coauthors: ['Nalini Joshi', 'Kenji Kajiwara']
+    openalex_id: W3200631865
+    sources: [openalex]
+    no_arxiv: true
   - id: '0311261'
     title: 'Canonical structure and symmetries of the Schlesinger equations'
     year: 2003
     coauthors: [dubrovin]
+    doi: '10.1007/s00220-006-0165-3'
+    journal: 'Communications in Mathematical Physics'
     primary_category: math.DG
+    openalex_id: W2099806108
+    sources: [arxiv, openalex]
+  - id: 'doi:10.1088/0951-7715/16/2/304'
+    title: 'Existence and uniqueness of tri-tronqu e solutions of the second Painlev  hierarchy'
+    year: 2002
+    coauthors: ['Nalini Joshi']
+    doi: '10.1088/0951-7715/16/2/304'
+    journal: 'Nonlinearity'
+    openalex_id: W2050349771
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1090/crmp/032/12'
+    title: 'Painlevé sixth equation as isomonodromic deformations equation of an irregular system'
+    year: 2002
+    coauthors: []
+    doi: '10.1090/crmp/032/12'
+    journal: 'CRM proceedings & lecture notes'
+    openalex_id: W2608950271
+    sources: [openalex]
+    no_arxiv: true
   - id: '0106208'
     title: 'The geometry of the classical solutions of the Garnier systems'
     year: 2001
     coauthors: []
+    doi: '10.1155/s1073792802106118'
+    journal: 'International Mathematics Research Notices'
     primary_category: math.CA
+    openalex_id: W1551666691
+    sources: [arxiv, openalex]
+  - id: 'doi:10.1007/pl00004500'
+    title: 'Picard and Chazy solutions to the Painlevé VI equation'
+    year: 2001
+    coauthors: []
+    doi: '10.1007/pl00004500'
+    journal: 'Mathematische Annalen'
+    openalex_id: W2005929184
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1007/pl00005790'
+    title: 'Monodromy of certain Painlevé–VI transcendents and reflection groups'
+    year: 2000
+    coauthors: [dubrovin]
+    doi: '10.1007/pl00005790'
+    journal: 'Inventiones mathematicae'
+    openalex_id: W2002372149
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1007/pl00001474'
+    title: 'KAM theorem for generic analytic perturbations of the Euler system'
+    year: 1997
+    coauthors: []
+    doi: '10.1007/pl00001474'
+    journal: 'Zeitschrift für angewandte Mathematik und Physik'
+    openalex_id: W2074875004
+    sources: [openalex]
+    no_arxiv: true
 sources:
 - label: Math Genealogy
   url: https://www.mathgenealogy.org/id.php?id=51294

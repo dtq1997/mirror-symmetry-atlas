@@ -55,7 +55,7 @@ key_collaborators:
 - person: zhou-jian
   since: 2011
   topic: KKV conjecture, elliptic genera
-  papers_count: 1
+  papers_count: 3
 - person: ji-ce
   since: 2023
   topic: KP/BKP hierarchies
@@ -66,36 +66,51 @@ publications:
     year: 2026
     coauthors: [ji-ce, yang-chenglang, zhang-qing]
     primary_category: math-ph
+    sources: [arxiv]
   - id: '2507.20151'
     title: 'Virasoro constraints for topological recursion'
     year: 2025
-    coauthors: [zhang-qingsheng]
+    coauthors: [zhang-qing]
     primary_category: math-ph
+    sources: [arxiv]
   - id: '2502.18895'
     title: 'Cohomological Field Theory with vacuum and its Virasoro constraints'
     year: 2025
     coauthors: [zhang-qing]
     primary_category: math-ph
+    sources: [arxiv]
   - id: '2502.09302'
     title: 'The bilinear fermionic form for KP and BKP hierarchies'
     year: 2025
     coauthors: [ji-ce, yang-chenglang]
+    doi: '10.48550/arxiv.2502.09302'
     primary_category: math-ph
+    openalex_id: W4407574857
+    sources: [arxiv, openalex]
   - id: '2501.05622'
     title: 'Poincaré polynomials of moduli spaces of one-dimensional sheaves on the projective plane'
     year: 2025
     coauthors: [wu-longting, 'with an appendix by Miguel Moreira']
+    doi: '10.48550/arxiv.2501.05622'
     primary_category: math.AG
+    openalex_id: W4406316996
+    sources: [arxiv, openalex]
   - id: '2312.11197'
     title: 'A boundedness theorem for principal bundles on curves'
     year: 2023
     coauthors: [zhang-huailiang, 'Jun Li', 'Wei-Ping Li', 'Yang Zhou']
+    doi: '10.48550/arxiv.2312.11197'
     primary_category: math.AG
+    openalex_id: W4390041030
+    sources: [arxiv, openalex]
   - id: '2312.11174'
     title: 'Stability conditions in the mathematical Gauged Linear Sigma Model'
     year: 2023
     coauthors: [zhang-huailiang, 'Jun Li', 'Wei-Ping Li', 'Yang Zhou']
+    doi: '10.48550/arxiv.2312.11174'
     primary_category: math.AG
+    openalex_id: W4390040998
+    sources: [arxiv, openalex]
   - id: '2311.09804'
     title: 'Average Jaccard Index of Random Graphs'
     year: 2023
@@ -103,55 +118,156 @@ publications:
     doi: '10.1017/jpr.2023.112'
     journal: 'J. Appl. Probab. 61 (2024) 1139-1152'
     primary_category: math.PR
+    sources: [arxiv]
   - id: '2309.12271'
     title: 'A generalization of the Witten conjecture through spectral curve'
     year: 2023
-    coauthors: [ji-ce, zhang-qingsheng]
+    coauthors: [ji-ce, zhang-qing]
     primary_category: math-ph
+    sources: [arxiv]
+  - id: '2308.06156'
+    title: 'Genus-0 virasoro conjecture for arbitrary Calabi-Yau threefolds'
+    year: 2023
+    coauthors: []
+    sources: [arxiv]
+  - id: '2208.08553'
+    title: 'Higher genus FJRW invariants of a Fermat cubic'
+    year: 2022
+    coauthors: ['Jun Li', 'Rachel Webb']
+    sources: [arxiv]
+  - id: '2112.14586'
+    title: 'On some BCOV-type results'
+    year: 2021
+    coauthors: ['Felix Janda', ruan-yongbin]
+    sources: [arxiv]
+  - id: '2112.09733'
+    title: 'Conifold Gap Sheaf from Donaldson-Thomas theory'
+    year: 2021
+    coauthors: []
+    sources: [arxiv]
+  - id: '2104.08527'
+    title: 'A mirror theorem for genus two GW invariants of quintic threefolds'
+    year: 2021
+    coauthors: ['Felix Janda', ruan-yongbin]
+    sources: [arxiv]
+  - id: 'doi:10.4007/annals.2021.194.3.1'
+    title: 'Polynomial structure of Gromov–Witten potential of quintic 3-folds'
+    year: 2021
+    coauthors: [zhang-huailiang, 'Jun Li']
+    doi: '10.4007/annals.2021.194.3.1'
+    journal: 'Annals of Mathematics'
+    openalex_id: W3209265925
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.3929/ethz-b-000482826'
+    title: 'Holomorphic anomaly equation for (P2,E) and the Nekrasov-Shatashvili limit of local P2'
+    year: 2021
+    coauthors: ['Pierrick Bousseau', 'Honglu Fan', wu-longting]
+    doi: '10.3929/ethz-b-000482826'
+    journal: 'Repository for Publications and Research Data (ETH Zurich)'
+    openalex_id: W3159918510
+    sources: [openalex]
+    no_arxiv: true
+  - id: '2111.00793'
+    title: 'Nonlinear interferometry beyond classical limit facilitated by cyclic dynamics'
+    year: 2021
+    coauthors: ['Qi Liu', 'Ling Na Wu', 'Jia Hao Cao', 'Mao, Tian-Wei', 'Xin Wei Li', 'Meng Khoon Tey', 'Li You']
+    doi: '10.48550/arxiv.2111.00793'
+    journal: 'arXiv (Cornell University)'
+    openalex_id: W3166858826
+    sources: [openalex]
   - id: '2001.05347'
     title: 'Holomorphic anomaly equation for $(\mathbb{P}^2,E)$ and the Nekrasov-Shatashvili limit of local $\mathbb{P}^2$'
     year: 2020
     coauthors: ['Pierrick Bousseau', 'Honglu Fan', wu-longting]
     doi: '10.1017/fmp.2021.3'
     primary_category: math.AG
+    sources: [arxiv]
+  - id: '2003.00348'
+    title: 'Structure of Higher Genus GW Invariants of Quintic 3-folds'
+    year: 2020
+    coauthors: [zhang-huailiang, 'Jun Li']
+    sources: [arxiv]
   - id: '1912.00558'
     title: 'Quantum curve and bilinear Fermionic form for the orbifold Gromov-Witten theory of $\mathbb{P}[r]$'
     year: 2019
     coauthors: ['Chongyao Chen']
+    doi: '10.48550/arxiv.1912.00558'
+    journal: 'Acta Mathematica Sinica English Series'
     primary_category: math-ph
+    openalex_id: W2990192504
+    sources: [arxiv, openalex]
+  - id: '1903.11673'
+    title: 'Structures in Higher Genus Enumerative Geometry'
+    year: 2019
+    coauthors: [zhang-huailiang, 'Jun Li', 'Wei-Ping Li']
+    sources: [arxiv]
+  - id: 'doi:10.1109/icicas48597.2019.00026'
+    title: 'Fault Localization for Power Line Communications with Topology Inference'
+    year: 2019
+    coauthors: [xu-xu, xu-xu, 'Huizhu Xian', 'Weiqiong Song', 'Baiyu Gao', xu-xu, 'Lin Pang']
+    doi: '10.1109/icicas48597.2019.00026'
+    openalex_id: W3014307658
+    sources: [openalex]
+    no_arxiv: true
   - id: '1812.11908'
     title: 'The theory of N-Mixed-Spin-P fields'
     year: 2018
-    coauthors: ['Huai-Liang Chang', 'Jun Li', 'Wei-Ping Li']
+    coauthors: [zhang-huailiang, 'Jun Li', 'Wei-Ping Li']
+    doi: '10.48550/arxiv.1812.11908'
     primary_category: math.AG
+    openalex_id: W2906777290
+    sources: [arxiv, openalex]
   - id: '1810.00394'
     title: 'BCOV''s Feynman rule of quintic $3$-folds'
     year: 2018
     coauthors: [zhang-huailiang, 'Jun Li']
+    doi: '10.48550/arxiv.1810.00394'
     primary_category: math.AG
+    openalex_id: W2920263040
+    sources: [arxiv, openalex]
   - id: '1809.11058'
     title: 'Polynomial structure of Gromov-Witten potential of quintic $3$-folds via NMSP'
     year: 2018
     coauthors: [zhang-huailiang, 'Jun Li']
+    doi: '10.48550/arxiv.1809.11058'
     primary_category: math.AG
+    openalex_id: W2892497092
+    sources: [arxiv, openalex]
   - id: '1809.08806'
     title: 'Polynomial Structure of GW Potential of Quintic'
     year: 2018
-    coauthors: ['Huai-Liang Chang', 'Jun Li']
+    coauthors: [zhang-huailiang, 'Jun Li']
     doi: '10.2140/gt.2021.25.775'
     journal: 'Geom. Topol. 25 (2021) 775-811'
     primary_category: math.AG
+    sources: [arxiv]
+  - id: 'doi:10.1093/imrn/rny201'
+    title: 'Genus-One Gromov–Witten Invariants of Quintic Three-folds via MSP Localization'
+    year: 2018
+    coauthors: [zhang-huailiang, 'Wei-Ping Li', 'Jie Zhou']
+    doi: '10.1093/imrn/rny201'
+    journal: 'International Mathematics Research Notices'
+    openalex_id: W2976868130
+    sources: [openalex]
+    no_arxiv: true
   - id: '1711.10118'
     title: 'Genus one GW invariants of quintic threefolds via MSP localization'
     year: 2017
     coauthors: [zhang-huailiang, 'Wei-Ping Li', 'Jie Zhou']
+    doi: '10.48550/arxiv.1711.10118'
     journal: 'International Mathematics Research Notices, Volume 2020, Issue 19, October 2020, Pages 6421-6462'
     primary_category: math.AG
+    openalex_id: W2770763159
+    sources: [arxiv, openalex]
   - id: '1709.07392'
     title: 'A mirror theorem for genus two Gromov-Witten invariants of quintic threefolds'
     year: 2017
     coauthors: ['Felix Janda', ruan-yongbin]
+    doi: '10.48550/arxiv.1709.07392'
     primary_category: math.AG
+    openalex_id: W2758432579
+    sources: [arxiv, openalex]
   - id: '1703.06955'
     title: 'The Genus-One Global Mirror Theorem for the Quintic Threefold'
     year: 2017
@@ -159,11 +275,29 @@ publications:
     doi: '10.1112/S0010437X19007231'
     journal: 'Compositio Math. 155 (2019) 995-1024'
     primary_category: math.AG
+    sources: [arxiv]
+  - id: '1711.05118'
+    title: 'BCOV axioms for CohFTs'
+    year: 2017
+    coauthors: ['Younghan Bae', 'Dustin Ross']
+    sources: [arxiv]
+  - id: 'doi:10.1016/s1875-5364(17)30039-0'
+    title: 'Flavonoids isolated from Sinopodophylli Fructus and their bioactivities against human breast cancer cells'
+    year: 2017
+    coauthors: ['Qinghui Wang', xu-xu, 'Yifan Zhang', 'Ming‐Ying Shang', 'Yinghui Shang', 'Junjun Xiao', 'Shao‐Qing Cai']
+    doi: '10.1016/s1875-5364(17)30039-0'
+    journal: 'Chinese Journal of Natural Medicines'
+    openalex_id: W2607114311
+    sources: [openalex]
+    no_arxiv: true
   - id: '1611.08876'
     title: 'Genus-One Mirror Symmetry in the Landau-Ginzburg Model'
     year: 2016
     coauthors: ['Dustin Ross']
+    doi: '10.48550/arxiv.1611.08876'
     primary_category: math.AG
+    openalex_id: W2558971031
+    sources: [arxiv, openalex]
   - id: '1608.02077'
     title: 'Virasoro constraints and polynomial recursion for the linear Hodge integrals'
     year: 2016
@@ -171,51 +305,62 @@ publications:
     doi: '10.1007/s11005-016-0923-x'
     journal: 'Lett.Math.Phys. 107 (2017) no.4, 757-791'
     primary_category: math-ph
-  - id: '1208.3270'
-    title: 'Gopakumar-Vafa BPS invariants, Hilbert schemes and quasimodular forms'
-    year: 2012
-    coauthors: [zhou-jian]
-    primary_category: math.AG
-  - id: '2308.06156'
-    title: 'Genus-0 virasoro conjecture for arbitrary Calabi-Yau threefolds'
-    year: 2023
-    coauthors: []
-  - id: '2208.08553'
-    title: 'Higher genus FJRW invariants of a Fermat cubic'
-    year: 2022
-    coauthors: ['Jun Li', 'Rachel Webb']
-  - id: '2112.14586'
-    title: 'On some BCOV-type results'
-    year: 2021
-    coauthors: ['Felix Janda', 'Yongbin Ruan']
-  - id: '2112.09733'
-    title: 'Conifold Gap Sheaf from Donaldson-Thomas theory'
-    year: 2021
-    coauthors: []
-  - id: '2104.08527'
-    title: 'A mirror theorem for genus two GW invariants of quintic threefolds'
-    year: 2021
-    coauthors: ['Felix Janda', 'Yongbin Ruan']
-  - id: '2003.00348'
-    title: 'Structure of Higher Genus GW Invariants of Quintic 3-folds'
-    year: 2020
-    coauthors: ['Huai-Liang Chang', 'Jun Li']
-  - id: '1903.11673'
-    title: 'Structures in Higher Genus Enumerative Geometry'
-    year: 2019
-    coauthors: ['Huai-Liang Chang', 'Jun Li', 'Wei-Ping Li']
-  - id: '1711.05118'
-    title: 'BCOV axioms for CohFTs'
-    year: 2017
-    coauthors: ['Younghan Bae', 'Dustin Ross']
+    openalex_id: W2520036842
+    sources: [arxiv, openalex]
+  - id: 'doi:10.1117/12.2243461'
+    title: 'A fast algorithm for image defogging'
+    year: 2016
+    coauthors: [wang-xin, 'Hui Wang', 'Haibing Su']
+    doi: '10.1117/12.2243461'
+    journal: 'Proceedings of SPIE, the International Society for Optical Engineering/Proceedings of SPIE'
+    openalex_id: W2525324496
+    sources: [openalex]
+    no_arxiv: true
   - id: '1501.06656'
     title: 'A mirror theorem for genus two GW invariants'
     year: 2015
     coauthors: ['Dustin Ross']
+    sources: [arxiv]
+  - id: 'doi:10.4028/www.scientific.net/amm.644-650.4517'
+    title: 'Optimization Design of Topology Structure of High Speed Train Communication Network Node'
+    year: 2014
+    coauthors: ['Bi Zheng Liang', 'Zhao Han']
+    doi: '10.4028/www.scientific.net/amm.644-650.4517'
+    journal: 'Applied Mechanics and Materials'
+    openalex_id: W2055567397
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1142/s0129167x13500122'
+    title: 'ORBIFOLD ELLIPTIC GENERA OF QUOTIENTS OF COMPLETE INTERSECTIONS IN WEIGHTED PROJECTIVE SPACES'
+    year: 2013
+    coauthors: [zhou-jian]
+    doi: '10.1142/s0129167x13500122'
+    journal: 'International Journal of Mathematics'
+    openalex_id: W2061826412
+    sources: [openalex]
+    no_arxiv: true
+  - id: '1208.3270'
+    title: 'Gopakumar-Vafa BPS invariants, Hilbert schemes and quasimodular forms'
+    year: 2012
+    coauthors: [zhou-jian]
+    doi: '10.1016/j.aim.2014.09.013'
+    journal: 'Advances in Mathematics'
+    primary_category: math.AG
+    openalex_id: W2136259701
+    sources: [arxiv, openalex]
+  - id: 'doi:10.1142/s0129167x11007008'
+    title: 'ELLIPTIC GENERA OF COMPLETE INTERSECTIONS IN WEIGHTED PROJECTIVE SPACES'
+    year: 2010
+    coauthors: [zhou-jian]
+    doi: '10.1142/s0129167x11007008'
+    journal: 'International Journal of Mathematics'
+    openalex_id: W1977197055
+    sources: [openalex]
+    no_arxiv: true
 activity:
-  total_papers: 30
-  published_count: 6
-  preprint_only_count: 24
+  total_papers: 40
+  published_count: 27
+  preprint_only_count: 13
   h_index: 7
   active_period: '2011-present'
   peak_period: '2018-present'

@@ -70,21 +70,38 @@ publications:
     year: 2026
     coauthors: ['Kaichuan Qi']
     primary_category: math.SG
+    openalex_id: W7120272617
+    sources: [arxiv, openalex]
+  - id: 'doi:10.48550/arxiv.2601.05183'
+    title: 'An Explicit Construction of $\mathbb{S}^1$-Gerbes over the Stack $[G/G]$'
+    year: 2026
+    coauthors: ['Kaichuan Qi']
+    doi: '10.48550/arxiv.2601.05183'
+    openalex_id: W7120047483
+    sources: [openalex]
+    no_arxiv: true
   - id: '2512.03860'
     title: 'Infinitesimal deformations of Lie algebroid pairs'
     year: 2025
-    coauthors: ['Zhuo Chen', 'Chuangqiang Hu', 'Maosong Xiang']
+    coauthors: [chen-zhuo, hu-chuangqiang, xiang-maosong]
+    doi: '10.48550/arxiv.2512.03860'
     primary_category: math.DG
+    openalex_id: W4417032814
+    sources: [arxiv, openalex]
   - id: '2508.10723'
     title: 'Atiyah Classes in the Context of Generalized Complex Geometry'
     year: 2025
     coauthors: []
+    doi: '10.2139/ssrn.5393887'
     primary_category: math.DG
+    openalex_id: W4413461640
+    sources: [arxiv, openalex]
   - id: '2506.18360'
     title: 'Atiyah constructions for Lie algebroid connections on fiber bundles'
     year: 2025
-    coauthors: ['Chen He', 'Zhuo Chen']
+    coauthors: ['Chen He', chen-zhuo]
     primary_category: math.DG
+    sources: [arxiv]
   - id: '2502.08979'
     title: 'Hyperkähler structures on leaves of hyper-Lie Poisson manifolds'
     year: 2025
@@ -92,26 +109,33 @@ publications:
     doi: '10.1016/j.geomphys.2026.105831'
     journal: 'J. Geom. Phys. 225 (2026) 105831'
     primary_category: math.DG
+    openalex_id: W4407571484
+    sources: [arxiv, openalex]
   - id: '2201.13068'
     title: 'Internal symmetry of the $L_{\leqslant 3}$ algebra arising from a Lie pair'
     year: 2022
-    coauthors: ['Jiahao Cheng', 'Zhuo Chen', 'Chen He']
+    coauthors: [cheng-jiahao, chen-zhuo, 'Chen He']
     doi: '10.4310/PAMQ.2023.v19.n4.a16'
     journal: 'Pure Appl. Math. Q., Vol. 19 (2023) No. 4, 2195-2234'
     primary_category: math.DG
+    openalex_id: W4221152106
+    sources: [arxiv, openalex]
   - id: '1911.01388'
     title: 'Hopf algebras arising from dg manifolds'
     year: 2019
-    coauthors: ['Jiahao Cheng', 'Zhuo Chen']
+    coauthors: [cheng-jiahao, chen-zhuo]
     doi: '10.1016/j.jalgebra.2021.05.004'
     journal: 'J. Algebra 584 (2021)'
     primary_category: math.DG
+    openalex_id: W2984093544
+    sources: [arxiv, openalex]
 activity:
-  total_papers: 7
-  published_count: 3
-  preprint_only_count: 4
+  total_papers: 8
+  published_count: 6
+  preprint_only_count: 2
   active_period: '2019-present'
-external_ids: {}
+external_ids:
+  openalex: A5063193698
 links:
   email: "nidd@henu.edu.cn"
   phone: "15938031969"

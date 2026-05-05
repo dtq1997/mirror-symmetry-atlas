@@ -42,196 +42,252 @@ key_collaborators:
 - person: zhang-youjin
   since: 2000
   topic: WDVV equations, integrable hierarchies
-  papers_count: 40
+  papers_count: 41
 - person: dubrovin
   since: 2003
   topic: Integrable systems
   papers_count: 8
 publications:
+  - id: '2602.21532'
+    title: 'Generalized Frobenius Manifold Structures on the Orbit Spaces of Affine Weyl Groups II'
+    year: 2026
+    coauthors: ['Lingrui Jiang', 'Yingchao Tian', zhang-youjin]
+    sources: [arxiv]
+  - id: '2511.06984'
+    title: 'On a class of integrable deformations of the integrable hierarchy of topological type associated to a semisimple Frobenius manifold'
+    year: 2025
+    coauthors: ['Paolo Rossi', yang-di, zhang-youjin]
+    sources: [arxiv]
+  - id: '2506.13656'
+    title: 'Generalized Frobenius Manifold Structures on the Orbit Spaces of Affine Weyl Groups I'
+    year: 2025
+    coauthors: ['Lingrui Jiang', 'Yingchao Tian', zhang-youjin]
+    sources: [arxiv]
   - id: '2411.08839'
     title: 'Sparser Abelian High Dimensional Expanders'
     year: 2024
     coauthors: ['Yotam Dikstein', 'Avi Wigderson']
     primary_category: math.CO
+    sources: [arxiv]
   - id: '2408.13458'
     title: 'A pair of Goldbach-Linnik equations in unlike powers of primes and powers of two'
     year: 2024
     coauthors: ['Liqun Hu']
     primary_category: math.NT
+    sources: [arxiv]
+  - id: '2411.15496'
+    title: 'Legendre transformations of a class of generalized Frobenius manifolds and the associated integrable hierarchies'
+    year: 2024
+    coauthors: [qu-haonan, zhang-youjin]
+    sources: [arxiv]
+  - id: '2409.19530'
+    title: 'On Tautological Flows of Partial Difference Equations'
+    year: 2024
+    coauthors: ['Zhonglun Cao', zhang-youjin]
+    sources: [arxiv]
+  - id: '2404.08895'
+    title: 'The extended Ablowitz-Ladik hierarchy and a generalized Frobenius manifold'
+    year: 2024
+    coauthors: ['Yuewei Wang', zhang-youjin]
+    sources: [arxiv]
+  - id: '2402.00373'
+    title: 'Solutions of the loop equations of a class of generalized Frobenius manifolds'
+    year: 2024
+    coauthors: [qu-haonan, 'Yuewei Wang', zhang-youjin]
+    sources: [arxiv]
+  - id: '2305.10851'
+    title: 'Variational Bihamiltonian Cohomologies and Integrable Hierarchies III: Linear Reciprocal Transformations'
+    year: 2023
+    coauthors: ['Zhe Wang', zhang-youjin]
+    sources: [arxiv]
   - id: '2210.00158'
     title: 'Local and global expansion in random geometric graphs'
     year: 2022
     coauthors: ['Sidhanth Mohanty', 'Tselil Schramm', 'Elizabeth Yang']
     primary_category: math.CO
+    sources: [arxiv]
+  - id: '2209.00483'
+    title: 'Generalized Frobenius Manifolds with Non-flat Unity and Integrable Hierarchies'
+    year: 2022
+    coauthors: [qu-haonan, zhang-youjin]
+    sources: [arxiv]
+  - id: '2203.16812'
+    title: 'On Equivariant Gromov--Witten Invariants of Resolved Conifold with Diagonal and Anti-Diagonal Actions'
+    year: 2022
+    coauthors: [yang-di, zhang-youjin, zhou-chunhui]
+    sources: [arxiv]
   - id: '2111.11316'
     title: 'Testing thresholds for high-dimensional sparse random geometric graphs'
     year: 2021
     coauthors: ['Sidhanth Mohanty', 'Tselil Schramm', 'Elizabeth Yang']
     primary_category: math.PR
-  - id: '2602.21532'
-    title: 'Generalized Frobenius Manifold Structures on the Orbit Spaces of Affine Weyl Groups II'
-    year: 2026
-    coauthors: ['Lingrui Jiang', 'Yingchao Tian', zhang-youjin]
-  - id: '2511.06984'
-    title: 'On a class of integrable deformations of the integrable hierarchy of topological type associated to a semisimple Frobenius manifold'
-    year: 2025
-    coauthors: ['Paolo Rossi', yang-di, zhang-youjin]
-  - id: '2506.13656'
-    title: 'Generalized Frobenius Manifold Structures on the Orbit Spaces of Affine Weyl Groups I'
-    year: 2025
-    coauthors: ['Lingrui Jiang', 'Yingchao Tian', zhang-youjin]
-  - id: '2411.15496'
-    title: 'Legendre transformations of a class of generalized Frobenius manifolds and the associated integrable hierarchies'
-    year: 2024
-    coauthors: ['Haonan Qu', zhang-youjin]
-  - id: '2409.19530'
-    title: 'On Tautological Flows of Partial Difference Equations'
-    year: 2024
-    coauthors: ['Zhonglun Cao', zhang-youjin]
-  - id: '2404.08895'
-    title: 'The extended Ablowitz-Ladik hierarchy and a generalized Frobenius manifold'
-    year: 2024
-    coauthors: ['Yuewei Wang', zhang-youjin]
-  - id: '2402.00373'
-    title: 'Solutions of the loop equations of a class of generalized Frobenius manifolds'
-    year: 2024
-    coauthors: ['Haonan Qu', 'Yuewei Wang', zhang-youjin]
-  - id: '2305.10851'
-    title: 'Variational Bihamiltonian Cohomologies and Integrable Hierarchies III: Linear Reciprocal Transformations'
-    year: 2023
-    coauthors: ['Zhe Wang', zhang-youjin]
-  - id: '2209.00483'
-    title: 'Generalized Frobenius Manifolds with Non-flat Unity and Integrable Hierarchies'
-    year: 2022
-    coauthors: ['Haonan Qu', zhang-youjin]
-  - id: '2203.16812'
-    title: 'On Equivariant Gromov--Witten Invariants of Resolved Conifold with Diagonal and Anti-Diagonal Actions'
-    year: 2022
-    coauthors: [yang-di, zhang-youjin, zhou-chunhui]
+    sources: [arxiv]
   - id: '2112.07526'
     title: 'The Virasoro-like Algebra of a Frobenius Manifold'
     year: 2021
     coauthors: [yang-di, zhang-youjin, zhou-jian]
+    sources: [arxiv]
   - id: '2110.03317'
     title: 'Reduction of the 2D Toda Hierarchy and Linear Hodge Integrals'
     year: 2021
     coauthors: ['Zhe Wang', zhang-youjin]
+    sources: [arxiv]
   - id: '2109.01846'
     title: 'Linearization of Virasoro symmetries associated with semisimple Frobenius manifolds'
     year: 2021
     coauthors: ['Zhe Wang', zhang-youjin]
+    sources: [arxiv]
   - id: '2109.01845'
     title: 'Variational Bihamiltonian Cohomologies and Integrable Hierarchies II: Virasoro symmetries'
     year: 2021
     coauthors: ['Zhe Wang', zhang-youjin]
+    sources: [arxiv]
   - id: '2108.03447'
     title: 'Tri-Hamiltonian Structure of the Ablowitz-Ladik Hierarchy'
     year: 2021
-    coauthors: ['Shuangxing Li', 'Haonan Qu', zhang-youjin]
+    coauthors: ['Shuangxing Li', qu-haonan, zhang-youjin]
+    sources: [arxiv]
   - id: '2106.13038'
     title: 'Variational Bihamiltonian Cohomologies and Integrable Hierarchies I: Foundations'
     year: 2021
     coauthors: ['Zhe Wang', zhang-youjin]
+    sources: [arxiv]
   - id: '2009.01143'
     title: 'Super tau-covers of bihamiltonian integrable hierarchies'
     year: 2020
     coauthors: ['Zhe Wang', zhang-youjin]
+    sources: [arxiv]
   - id: '1908.06707'
     title: 'Virasoro Constraints for Drinfeld-Sokolov hierarchies and equations of Painlevé type'
     year: 2019
     coauthors: ['Chao-Zhong Wu', zhang-youjin]
+    sources: [arxiv]
   - id: '1906.06860'
     title: 'The Hodge-FVH Correspondence'
     year: 2019
     coauthors: [yang-di, zhang-youjin, zhou-chunhui]
+    sources: [arxiv]
   - id: '1811.10234'
     title: 'The Loop Equation for Special Cubic Hodge Integrals'
     year: 2018
     coauthors: [yang-di, zhang-youjin, zhou-chunhui]
+    sources: [arxiv]
   - id: '1811.10137'
     title: 'Drinfeld-Sokolov hierarchies and diagram automorphisms of affine Kac-Moody algebras'
     year: 2018
-    coauthors: ['Chao-Zhong Wu', zhang-youjin, 'Xu Zhou']
+    coauthors: ['Chao-Zhong Wu', zhang-youjin, xu-xu]
+    sources: [arxiv]
   - id: '1702.02840'
     title: 'Fractional Volterra Hierarchy'
     year: 2017
     coauthors: [zhang-youjin, zhou-chunhui]
+    sources: [arxiv]
   - id: '1701.03222'
     title: 'Bihamiltonian Cohomologies and Integrable Hierarchies II: the Tau Structures'
     year: 2017
     coauthors: [dubrovin, zhang-youjin]
+    sources: [arxiv]
   - id: '1612.02333'
     title: 'Hodge-GUE correspondence and the discrete KdV equation'
     year: 2016
     coauthors: [dubrovin, yang-di, zhang-youjin]
+    sources: [arxiv]
   - id: '1502.01774'
     title: 'Central Invariants of the Constrained KP Hierarchies'
     year: 2015
-    coauthors: [zhang-youjin, 'Xu Zhou']
+    coauthors: [zhang-youjin, xu-xu]
+    sources: [arxiv]
   - id: '1409.4616'
     title: 'Hodge integrals and tau-symmetric integrable hierarchies of Hamiltonian evolutionary PDEs'
     year: 2014
     coauthors: [dubrovin, yang-di, zhang-youjin]
+    sources: [arxiv]
   - id: '1312.7227'
     title: 'BCFG Drinfeld-Sokolov Hierarchies and FJRW-Theory'
     year: 2013
-    coauthors: ['Yongbin Ruan', zhang-youjin]
+    coauthors: [ruan-yongbin, zhang-youjin]
+    sources: [arxiv]
   - id: '1305.2593'
     title: 'Uniqueness Theorem of W-Constraints for Simple Singularities'
     year: 2013
     coauthors: [yang-di, zhang-youjin]
+    sources: [arxiv]
   - id: '1305.1008'
     title: 'Proof of a Conjecture on the Genus Two Free Energy Associated to the A_n Singularity'
     year: 2013
     coauthors: ['Yulong Fu', zhang-youjin, zhou-chunhui]
+    sources: [arxiv]
   - id: '1208.5847'
     title: 'Bihamiltonian Cohomologies and Integrable Hierarchies I: A Special Case'
     year: 2012
     coauthors: [zhang-youjin]
+    sources: [arxiv]
   - id: '1205.5990'
     title: 'On the Genus Two Free Energies for Semisimple Frobenius Manifolds'
     year: 2012
     coauthors: [dubrovin, zhang-youjin]
+    sources: [arxiv]
   - id: '1012.5708'
     title: 'The Inversion Symmetry of the WDVV Equations and Tau Functions'
     year: 2010
-    coauthors: ['Dingdian Xu', zhang-youjin]
+    coauthors: [xu-xu, zhang-youjin]
+    sources: [arxiv]
   - id: '0912.5273'
     title: 'On the Drinfeld-Sokolov Hierarchies of D type'
     year: 2009
     coauthors: ['Chao-Zhong Wu', zhang-youjin]
+    sources: [arxiv]
   - id: '0910.2085'
     title: 'Jacobi Structures of Evolutionary Partial Differential Equations'
     year: 2009
     coauthors: [zhang-youjin]
+    sources: [arxiv]
   - id: '0809.0397'
     title: 'Hamiltonian Structures and Reciprocal Transformations for the $r$-KdV-CH Hierarchy'
     year: 2008
     coauthors: ['Ming Chen', zhang-youjin]
+    sources: [arxiv]
   - id: '0711.2599'
     title: 'On Properties of Hamiltonian Structures for a Class of Evolutionary PDEs'
     year: 2007
     coauthors: ['Chao-Zhong Wu', zhang-youjin]
+    sources: [arxiv]
   - id: '0710.3115'
     title: 'Frobenius Manifolds and Central Invariants for the Drinfeld - Sokolov Bihamiltonian Structures'
     year: 2007
     coauthors: [dubrovin, zhang-youjin]
+    sources: [arxiv]
   - id: '0510019'
     title: 'On Quasitriviality and Integrability of a Class of Scalar Evolutionary PDEs'
     year: 2005
     coauthors: [zhang-youjin]
+    sources: [arxiv]
   - id: '0501028'
     title: 'A 2-Component Generalization of the Camassa-Holm Equation and Its Solutions'
     year: 2005
     coauthors: ['Ming Chen', zhang-youjin]
+    doi: '10.1007/s11005-005-0041-7'
+    journal: 'Letters in Mathematical Physics'
+    openalex_id: W2027692750
+    sources: [arxiv, openalex]
+  - id: 'doi:10.1002/cpa.20111'
+    title: 'On Hamiltonian perturbations of hyperbolic systems of conservation laws I: Quasi‐Triviality of bi‐Hamiltonian perturbations'
+    year: 2005
+    coauthors: [dubrovin, si-li, zhang-youjin]
+    doi: '10.1002/cpa.20111'
+    journal: 'Communications on Pure and Applied Mathematics'
+    openalex_id: W2148634808
+    sources: [openalex]
+    no_arxiv: true
   - id: '0410027'
     title: 'On Hamiltonian perturbations of hyperbolic systems of conservation laws'
     year: 2004
     coauthors: [dubrovin, zhang-youjin]
+    sources: [arxiv]
 activity:
-  total_papers: 44
-  published_count: 0
-  preprint_only_count: 44
+  total_papers: 45
+  published_count: 2
+  preprint_only_count: 43
   active_period: '2000-present'
   quality_source: 'openalex + ruirui-2026'
   t1_papers: 0

@@ -166,6 +166,71 @@ export function getAllConnections(): Connection[] {
   const builtSlugs = new Set(people.map((p) => p.slug));
   const derivedSeen = new Set<string>();
 
+  // Build a name->slug index for resolving raw-name coauthors in publications
+  const nameToSlug = new Map<string, string>();
+  for (const p of people) {
+    if (p.name?.en) {
+      const k = p.name.en.toLowerCase().replace(/[^a-z ]/g, " ").replace(/\s+/g, " ").trim();
+      if (k) nameToSlug.set(k, p.slug);
+    }
+  }
+  function resolveCoauthor(s: string): string | null {
+    if (/^[a-z][a-z0-9-]*$/.test(s) && builtSlugs.has(s)) return s;
+    const k = s.replace(/\([^)]*\)/g, "").toLowerCase().replace(/[^a-z ]/g, " ").replace(/\s+/g, " ").trim();
+    return nameToSlug.get(k) ?? null;
+  }
+
+  // Pair → list of {publication-of-source, sourceSlug}.
+  type CoauthoredPaper = { id: string; title: string; year: number; doi?: string; journal?: string; primary_category?: string };
+  const pairPapers = new Map<string, { published: CoauthoredPaper[]; preprint: CoauthoredPaper[] }>();
+  for (const p of people) {
+    const pubs = (p as unknown as { publications?: Array<{ id: string; title: string; year: number; coauthors?: string[]; doi?: string; journal?: string; primary_category?: string }> }).publications;
+    if (!pubs) continue;
+    for (const pub of pubs) {
+      const isPub = !!(pub.journal || pub.doi);
+      const seenInPub = new Set<string>();
+      for (const ca of pub.coauthors ?? []) {
+        if (!ca) continue;
+        const slug = resolveCoauthor(ca);
+        if (!slug || slug === p.slug || seenInPub.has(slug)) continue;
+        seenInPub.add(slug);
+        const key = [p.slug, slug].sort().join("|");
+        const bucket = pairPapers.get(key) ?? { published: [], preprint: [] };
+        const list = isPub ? bucket.published : bucket.preprint;
+        // Dedup by paper id within the pair
+        if (!list.find((x) => x.id === pub.id)) {
+          list.push({ id: pub.id, title: pub.title, year: pub.year,
+                      doi: pub.doi, journal: pub.journal,
+                      primary_category: pub.primary_category });
+        }
+        pairPapers.set(key, bucket);
+      }
+    }
+  }
+
+  // Emit a coauthor edge per pair with at least one shared paper.
+  for (const [key, bucket] of pairPapers) {
+    const [a, b] = key.split("|");
+    if (declaredCoauthor.has(key) || derivedSeen.has(key)) continue;
+    derivedSeen.add(key);
+    const total = bucket.published.length + bucket.preprint.length;
+    if (total === 0) continue;
+    const allYears = [...bucket.published, ...bucket.preprint]
+      .map((p) => p.year).filter((y): y is number => typeof y === "number")
+      .sort((x, y) => x - y);
+    connections.push({
+      source: a,
+      target: b,
+      type: "coauthor",
+      weight: total,
+      period: allYears.length ? `${allYears[0]}-${allYears[allYears.length - 1]}` : undefined,
+      derived: true,
+      coauthored_papers: bucket,
+    } as Connection);
+  }
+
+  // Also keep declared key_collaborators that didn't show up in publications
+  // (rare: e.g. very old joint work pre-arXiv that we know about manually).
   for (const p of people) {
     for (const c of p.key_collaborators || []) {
       const other = c.person;

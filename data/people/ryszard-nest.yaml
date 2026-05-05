@@ -69,7 +69,42 @@ publications:
     title: 'Quantization of the Momentum Map via $\mathfrak{g}$-adapted Formalities'
     year: 2025
     coauthors: ['Chiara Esposito', 'Jonas Schnitzer', 'Boris Tsygan']
+    doi: '10.48550/arxiv.2502.18295'
     primary_category: math.QA
+    openalex_id: W4415188727
+    sources: [arxiv, openalex]
+  - id: 'doi:10.1016/b978-0-323-95703-8.00022-7'
+    title: 'Noncommutative Calculus'
+    year: 2024
+    coauthors: ['Boris Tsygan']
+    doi: '10.1016/b978-0-323-95703-8.00022-7'
+    journal: 'Encyclopedia of Mathematical Physics'
+    openalex_id: W4399037018
+    sources: [openalex]
+    no_arxiv: true
+  - id: '2310.13094'
+    title: 'A secondary index for non-Fredholm operators associated with quantum walks'
+    year: 2023
+    coauthors: ['Toshikazu Natsume']
+    doi: '10.48550/arxiv.2310.13094'
+    openalex_id: W4387891217
+    sources: [arxiv, openalex]
+  - id: '2305.02254'
+    title: 'Finiteness of metrics on state spaces'
+    year: 2023
+    coauthors: ['David Kyed']
+    doi: '10.1112/blms.12930'
+    journal: 'Bulletin of the London Mathematical Society'
+    openalex_id: W4386980960
+    sources: [arxiv, openalex]
+  - id: '2204.00361'
+    title: 'Exotic cyclic cohomology classes and Lipschitz algebras'
+    year: 2022
+    coauthors: ['Magnus Goffeng']
+    doi: '10.48550/arxiv.2204.00361'
+    journal: 'Annals of K-Theory'
+    openalex_id: W4224903895
+    sources: [arxiv, openalex]
   - id: '2112.04365'
     title: 'Projective representation theory for compact quantum groups and the quantum Baum-Connes assembly map'
     year: 2021
@@ -77,11 +112,41 @@ publications:
     doi: '10.4171/JNCG/596'
     journal: 'J. Noncommut. Geom. (2024)'
     primary_category: math.OA
+    openalex_id: W4200630910
+    sources: [arxiv, openalex]
+  - id: '2110.01649'
+    title: 'A higher Kac-Moody extension for two-dimensional gauge groups'
+    year: 2021
+    coauthors: ['Jens Kaad', 'Jesse Wolfson']
+    doi: '10.48550/arxiv.2110.01649'
+    openalex_id: W3204726573
+    sources: [arxiv, openalex]
+  - id: 'doi:10.4171/owr/2020/17'
+    title: 'Non-Commutative Geometry and Cyclic Homology'
+    year: 2021
+    coauthors: ['Alain Connes', 'Thomas Nikolaus', 'Guoliang Yu']
+    doi: '10.4171/owr/2020/17'
+    journal: 'Oberwolfach Reports'
+    openalex_id: W3184712022
+    sources: [openalex]
+    no_arxiv: true
   - id: '1906.11977'
     title: 'Comparison of spaces associated to DGLA via higher holonomy'
     year: 2019
     coauthors: ['Paul Bressler', 'Alexander Gorokhovsky', 'Boris Tsygan']
+    doi: '10.1090/conm/749/15067'
     primary_category: math.AT
+    openalex_id: W2954946907
+    sources: [arxiv, openalex]
+  - id: 'doi:10.2969/aspm/05510209'
+    title: 'An analogue of Serre fibrations for $C^*$-algebra bundles'
+    year: 2019
+    coauthors: ['Siegfried Echterhoff', 'Hervé Oyono‐Oyono']
+    doi: '10.2969/aspm/05510209'
+    journal: 'Advanced studies in pure mathematics'
+    openalex_id: W2940784568
+    sources: [openalex]
+    no_arxiv: true
   - id: '1804.06160'
     title: 'Quantization of Hamiltonian coactions via twist'
     year: 2018
@@ -89,6 +154,7 @@ publications:
     doi: '10.4310/JSG.2020.v18.n2.a2'
     journal: 'J. Sympl. Geom. Volume 18 (2020) Number 2'
     primary_category: math.QA
+    sources: [arxiv]
   - id: '1701.04041'
     title: 'Equivariant Algebraic Index Theorem'
     year: 2017
@@ -96,6 +162,14 @@ publications:
     doi: '10.1017/S1474748019000380'
     journal: 'J. Inst. Math. Jussieu 20 (2021) 929-955'
     primary_category: math.KT
+    sources: [arxiv]
+  - id: '1704.08548'
+    title: 'The orbit method for the Baum-Connes Conjecture for algebraic groups over local function fields'
+    year: 2017
+    coauthors: ['Siegfried Echterhoff', 'Kang Li']
+    doi: '10.48550/arxiv.1704.08548'
+    openalex_id: W2610301422
+    sources: [arxiv, openalex]
   - id: '1510.01361'
     title: 'On quasi-classical limits of DQ-algebroids'
     year: 2015
@@ -103,22 +177,98 @@ publications:
     doi: '10.1112/S0010437X16007855'
     journal: 'Compositio Math. 153 (2017) 41-67'
     primary_category: math.QA
+    sources: [arxiv]
+  - id: '1512.08816'
+    title: 'The K-theory of twisted multipullback quantum odd spheres and complex projective spaces'
+    year: 2015
+    coauthors: ['Piotr M. Hajac', 'David Pask', 'Aidan Sims', 'Bartosz Zieliński']
+    doi: '10.4171/jncg/292'
+    openalex_id: W2416980690
+    sources: [arxiv, openalex]
+  - id: '1208.1862'
+    title: 'A transformation rule for the index of commuting operators'
+    year: 2015
+    coauthors: ['Jens Kaad']
+    doi: '10.4171/jncg/188'
+    openalex_id: W1966447226
+    sources: [openalex]
+  - id: 'doi:10.4171/owr/2015/11'
+    title: 'Mini-Workshop: Deformation quantization: between formal to strict'
+    year: 2015
+    coauthors: ['Pierre Bieliavsky', 'Chiara Esposito', 'Stefan Waldmann']
+    doi: '10.4171/owr/2015/11'
+    journal: 'Oberwolfach Reports'
+    openalex_id: W2972499706
+    sources: [openalex]
+    no_arxiv: true
+  - id: '1408.3851'
+    title: 'Tate tame symbol and the joint torsion of commuting operators'
+    year: 2014
+    coauthors: ['Jens Kaad']
+    doi: '10.2140/akt.2020.5.181'
+    journal: 'Annals of K-Theory'
+    openalex_id: W1543983075
+    sources: [arxiv, openalex]
+  - id: '1403.7937'
+    title: 'Canonical holomorphic sections of determinant line bundles'
+    year: 2014
+    coauthors: ['Jens Kaad']
+    doi: '10.1515/crelle-2015-0114'
+    openalex_id: W1555890279
+    sources: [arxiv, openalex]
   - id: '1308.3951'
     title: 'Formality theorem for gerbes'
     year: 2013
     coauthors: ['Paul Bressler', 'Alexander Gorokhovsky', 'Boris Tsygan']
+    doi: '10.1016/j.aim.2014.11.025'
     primary_category: math.QA
+    openalex_id: W2951482821
+    sources: [arxiv, openalex]
   - id: '1211.6603'
     title: 'Deligne groupoid revisited'
     year: 2012
     coauthors: ['Paul Bressler', 'Alexander Gorokhovsky', 'Boris Tsygan']
+    doi: '10.70930/tac/641fhav0'
+    journal: 'Theory and applications of categories'
     primary_category: math.AT
+    openalex_id: W2203937418
+    sources: [arxiv, openalex]
   - id: '1208.1486'
     title: 'Uniqueness of the Momentum map'
     year: 2012
     coauthors: ['Chiara Esposito']
+    doi: '10.1016/j.geomphys.2016.03.028'
     journal: 'Journal of Geometry and Physics 106 (2016)'
     primary_category: math-ph
+    openalex_id: W2963326737
+    sources: [arxiv, openalex]
+  - id: 'doi:10.1017/is012003003jkt185'
+    title: '<i>KK</i>-Theory and Spectral Flow in von Neumann Algebras'
+    year: 2012
+    coauthors: ['Jens Kaad', 'Adam Rennie']
+    doi: '10.1017/is012003003jkt185'
+    journal: 'Journal of K-theory K-theory and its Applications to Algebra Geometry and Topology'
+    openalex_id: W2199417231
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1515/crelle.2011.007'
+    title: 'Twisted cyclic theory, equivariant KK-theory and KMS states'
+    year: 2011
+    coauthors: ['Alan L. Carey', 'Sergey Neshveyev', 'Adam Rennie']
+    doi: '10.1515/crelle.2011.007'
+    journal: 'Journal für die reine und angewandte Mathematik (Crelles Journal)'
+    openalex_id: W2132067636
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1017/cbo9781139107075.006'
+    title: 'Homological algebra in bivariant K-theory and other triangulated categories. I'
+    year: 2010
+    coauthors: ['Ralf Meyer']
+    doi: '10.1017/cbo9781139107075.006'
+    journal: 'Cambridge University Press eBooks'
+    openalex_id: W1620403762
+    sources: [openalex]
+    no_arxiv: true
   - id: '0907.5510'
     title: 'On Semi-Classical States of Quantum Gravity and Noncommutative Geometry'
     year: 2009
@@ -126,11 +276,16 @@ publications:
     doi: '10.1007/s00220-010-1181-x'
     journal: 'Commun.Math.Phys.302:675-696,2011'
     primary_category: hep-th
+    openalex_id: W1994275504
+    sources: [arxiv, openalex]
   - id: '0903.1841'
     title: 'Formality for algebroid stacks'
     year: 2009
     coauthors: ['Paul Bressler', 'Alexander Gorokhovsky', 'Boris Tsygan']
+    doi: '10.48550/arxiv.0903.1841'
     primary_category: math.QA
+    openalex_id: W1721927019
+    sources: [arxiv, openalex]
   - id: '0902.4191'
     title: 'Holonomy Loops, Spectral Triples & Quantum Gravity'
     year: 2009
@@ -138,11 +293,66 @@ publications:
     doi: '10.1088/0264-9381/26/16/165001'
     journal: 'Class.Quant.Grav.26:165001,2009'
     primary_category: hep-th
+    openalex_id: W7135580207
+    sources: [arxiv, openalex]
+  - id: 'doi:10.1016/j.jfa.2009.10.015'
+    title: 'Equivariant Poincaré duality for quantum group actions'
+    year: 2009
+    coauthors: ['Christian Voigt']
+    doi: '10.1016/j.jfa.2009.10.015'
+    journal: 'Journal of Functional Analysis'
+    openalex_id: W2081841656
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.4171/jncg/41'
+    title: 'Fibrations with noncommutative fibers'
+    year: 2009
+    coauthors: ['Siegfried Echterhoff', 'Hervé Oyono‐Oyono']
+    doi: '10.4171/jncg/41'
+    journal: 'Journal of Noncommutative Geometry'
+    openalex_id: W2022564194
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1016/j.jfa.2009.04.019'
+    title: 'Index theory for boundary value problems via continuous fields of <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" altimg="si1.gif" overflow="scroll"><mml:msup><mml:mi>C</mml:mi><mml:mo>∗</mml:mo></mml:msup></mml:math>-algebras'
+    year: 2009
+    coauthors: ['Johannes Aastrup', 'Elmar Schrohe']
+    doi: '10.1016/j.jfa.2009.04.019'
+    journal: 'Journal of Functional Analysis'
+    openalex_id: W2963188261
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.4171/009-1/42'
+    title: 'Mathematical Problems of Large Quantum Systems'
+    year: 2009
+    coauthors: []
+    doi: '10.4171/009-1/42'
+    openalex_id: W2482513643
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'openalex:W4293569386'
+    title: 'Fibrations with non commutative fibers'
+    year: 2009
+    coauthors: ['Siegfried Echteroff', 'Hervé Oyono‐Oyono']
+    openalex_id: W4293569386
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'openalex:W7135469382'
+    title: '<strong>An analogue of Serre fibrations for C*-algebra bundles</strong>'
+    year: 2009
+    coauthors: ['Siegfried Echterhoff', 'Herve Oyono-Oyono']
+    openalex_id: W7135469382
+    sources: [openalex]
+    no_arxiv: true
   - id: '0810.0030'
     title: 'Deformations of algebroid stacks'
     year: 2008
     coauthors: ['Paul Bressler', 'Alexander Gorokhovsky', 'Boris Tsygan']
+    doi: '10.1016/j.aim.2010.10.008'
+    journal: 'Advances in Mathematics'
     primary_category: math.QA
+    openalex_id: W2962864719
+    sources: [arxiv, openalex]
   - id: '0807.3664'
     title: 'A new spectral triple over a space of connections'
     year: 2008
@@ -150,28 +360,214 @@ publications:
     doi: '10.1007/s00220-009-0758-8'
     journal: 'Commun.Math.Phys.290:389-398,2009'
     primary_category: hep-th
+    openalex_id: W2169520391
+    sources: [arxiv, openalex]
   - id: '0802.1783'
     title: 'On Spectral Triples in Quantum Gravity I'
     year: 2008
     coauthors: ['Johannes Aastrup', 'Jesper M. Grimstrup']
     doi: '10.1088/0264-9381/26/6/065011'
+    journal: 'Journal of Noncommutative Geometry'
     primary_category: hep-th
+    openalex_id: W2025895595
+    sources: [arxiv, openalex]
   - id: '0802.1784'
     title: 'On Spectral Triples in Quantum Gravity II'
     year: 2008
     coauthors: ['Johannes Aastrup', 'Jesper M. Grimstrup']
+    doi: '10.48550/arxiv.0802.1784'
     journal: 'J.Noncommut.Geom.3:47-81,2009'
     primary_category: hep-th
+    openalex_id: W4394667540
+    sources: [arxiv, openalex]
+  - id: '0810.0111'
+    title: 'Principal non-commutative torus bundles'
+    year: 2008
+    coauthors: ['Siegfried Echterhoff', 'Hervé Oyono‐Oyono']
+    doi: '10.1112/plms/pdn050'
+    journal: 'Proceedings of the London Mathematical Society'
+    openalex_id: W2038104104
+    sources: [openalex]
+  - id: 'doi:10.1007/978-3-7643-8608-5_5'
+    title: 'Chern Character for Twisted Complexes'
+    year: 2008
+    coauthors: ['Paul Bressler', 'Alexander Gorokhovsky', 'Boris Tsygan']
+    doi: '10.1007/978-3-7643-8608-5_5'
+    journal: 'Birkhäuser Basel eBooks'
+    openalex_id: W1850893661
+    sources: [openalex]
+    no_arxiv: true
+  - id: '0812.0554'
+    title: 'Index Theory for Boundary Value Problems via Continuous Fields of C*-algebras'
+    year: 2008
+    coauthors: ['Johannes Aastrup', 'Elmar Schrohe']
+    doi: '10.48550/arxiv.0812.0554'
+    openalex_id: W2032459103
+    sources: [openalex]
   - id: '0712.1472'
     title: 'Classification of Connections on Higher-Dimensional Non-Commutative Tori'
     year: 2007
     coauthors: ['Rolf Dyre Svegstrup']
+    doi: '10.48550/arxiv.0712.1472'
     primary_category: math.OA
+    openalex_id: W197836728
+    sources: [arxiv, openalex]
+  - id: 'doi:10.1016/j.aim.2007.02.002'
+    title: 'Deformation quantization of gerbes'
+    year: 2007
+    coauthors: ['Paul Bressler', 'Alexander Gorokhovsky', 'Boris Tsygan']
+    doi: '10.1016/j.aim.2007.02.002'
+    journal: 'Advances in Mathematics'
+    openalex_id: W2021238882
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.7146/math.scand.a-15025'
+    title: 'An analogue of the Baum-Connes isomorphism for coactions of compact groups'
+    year: 2007
+    coauthors: ['Ralf Meyer']
+    doi: '10.7146/math.scand.a-15025'
+    journal: 'MATHEMATICA SCANDINAVICA'
+    openalex_id: W2297324077
+    sources: [openalex]
+    no_arxiv: true
+  - id: '0712.1426'
+    title: 'C*-Algebras over Topological Spaces: The Bootstrap Class'
+    year: 2007
+    coauthors: ['Ralf Meyer']
+    doi: '10.48550/arxiv.0712.1426'
+    openalex_id: W2102894684
+    sources: [openalex]
+  - id: 'doi:10.48550/arxiv.math/0701380'
+    title: 'Deformations of gerbes on smooth manifolds'
+    year: 2007
+    coauthors: ['Paul Bressler', 'Alexander Gorokhovsky', 'Boris Tsygan']
+    doi: '10.48550/arxiv.math/0701380'
+    openalex_id: W1646202949
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1016/j.jfa.2005.11.017'
+    title: 'A continuous field of <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" altimg="si1.gif" overflow="scroll"><mml:msup><mml:mi>C</mml:mi><mml:mo>∗</mml:mo></mml:msup></mml:math>-algebras and the tangent groupoid for manifolds with boundary'
+    year: 2006
+    coauthors: ['Johannes Aastrup', 'Elmar Schrohe']
+    doi: '10.1016/j.jfa.2005.11.017'
+    journal: 'Journal of Functional Analysis'
+    openalex_id: W2092691329
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.48550/arxiv.math/0609575'
+    title: 'Deformations of Azumaya algebras'
+    year: 2006
+    coauthors: ['Paul Bressler', 'Alexander Gorokhovsky', 'Boris Tsygan']
+    doi: '10.48550/arxiv.math/0609575'
+    openalex_id: W1592805094
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1016/j.top.2005.07.001'
+    title: 'The Baum–Connes conjecture via localisation of categories'
+    year: 2005
+    coauthors: ['Ralf Meyer']
+    doi: '10.1016/j.top.2005.07.001'
+    journal: 'Topology'
+    openalex_id: W1990012606
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.48550/arxiv.math/0507317'
+    title: 'A Continuous Field of C*-algebras and the Tangent Groupoid for Manifolds with Boundary'
+    year: 2005
+    coauthors: ['Johannes Aastrup', 'Elmar Schrohe']
+    doi: '10.48550/arxiv.math/0507317'
+    openalex_id: W2953251298
+    sources: [openalex]
+    no_arxiv: true
   - id: '0411066'
     title: 'Remarks on modules over deformation quantization algebras'
     year: 2004
     coauthors: ['Boris Tsygan']
+    doi: '10.17323/1609-4514-2004-4-4-911-940'
+    journal: 'Moscow Mathematical Journal'
     primary_category: math-ph
+    openalex_id: W2962726377
+    sources: [arxiv, openalex]
+  - id: 'doi:10.1007/s10240-003-0014-2'
+    title: 'The Connes-Kasparov conjecture for almost connected groups and for linear <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"> <mml:mi>p</mml:mi> </mml:math> -adic groups'
+    year: 2003
+    coauthors: ['Jérôme Chabert', 'Siegfried Echterhoff']
+    doi: '10.1007/s10240-003-0014-2'
+    journal: 'Publications mathématiques de l IHÉS'
+    openalex_id: W2034690791
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1023/b:math.0000017652.90999.d8'
+    title: 'Strict Quantizations of Symplectic Manifolds'
+    year: 2003
+    coauthors: ['Toshikazu Natsume', 'Ingo Peter']
+    doi: '10.1023/b:math.0000017652.90999.d8'
+    journal: 'Letters in Mathematical Physics'
+    openalex_id: W2054325866
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1515/crll.2003.064'
+    title: 'C* -structure and K-theory of Boutet de Monvels algebra'
+    year: 2003
+    coauthors: ['Severino T. Melo', 'Elmar Schrohe']
+    doi: '10.1515/crll.2003.064'
+    journal: 'Journal für die reine und angewandte Mathematik (Crelles Journal)'
+    openalex_id: W2963119126
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.4064/bc61-0-10'
+    title: 'K-theory of Boutet de Monvel''s algebra'
+    year: 2003
+    coauthors: ['Severino T. Melo', 'Elmar Schrohe']
+    doi: '10.4064/bc61-0-10'
+    journal: 'Banach Center Publications'
+    openalex_id: W2320706952
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'openalex:W2559935314'
+    title: 'The Existence and Stability of Noncommutative'
+    year: 2003
+    coauthors: ['Bergfinnur Durhuus', 'Thórdur Jónsson']
+    openalex_id: W2559935314
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1007/3-540-46082-9_6'
+    title: 'Spectral Action and the Connes-Chamsedinne Model'
+    year: 2002
+    coauthors: ['Elmar Vogt', 'Wend Werner']
+    doi: '10.1007/3-540-46082-9_6'
+    journal: 'Lecture notes in physics'
+    openalex_id: W1646218973
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'openalex:W3173192003'
+    title: 'Part II. The Lagrangian of the Standard Model Derived from Noncommutative Geometry'
+    year: 2002
+    coauthors: ['Elmar Vogt', 'Wend Werner']
+    openalex_id: W3173192003
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'openalex:W7135466233'
+    title: 'The structure of the Brauer group and crossed products of C0(X)-linear group actions on C0(X,K)'
+    year: 2002
+    coauthors: ['Siegfried Echterhoff']
+    openalex_id: W7135466233
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'openalex:W7135869996'
+    title: 'Formal deformations of symplectic Lile ALgbroids, deformations of holomorphic structures and index theorems'
+    year: 2002
+    coauthors: ['Boris Tsygan']
+    openalex_id: W7135869996
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'openalex:W7135919365'
+    title: 'Riemann-Roch theorems for D-modules via deformation quantization, II'
+    year: 2002
+    coauthors: ['Poul Bressler', 'Boris Tsygan']
+    openalex_id: W7135919365
+    sources: [openalex]
+    no_arxiv: true
   - id: '0107121'
     title: 'The Existence and Stability of Noncommutative Scalar Solitons'
     year: 2001
@@ -179,63 +575,239 @@ publications:
     doi: '10.1007/s00220-002-0721-4'
     journal: 'Commun.Math.Phys. 233 (2003) 49-78'
     primary_category: hep-th
+    openalex_id: W1989367699
+    sources: [arxiv, openalex]
+  - id: 'doi:10.1016/s0370-2693(01)00086-7'
+    title: 'Noncommutative scalar solitons: existence and nonexistence'
+    year: 2001
+    coauthors: ['Bergfinnur Durhuus', 'Thórdur Jónsson']
+    doi: '10.1016/s0370-2693(01)00086-7'
+    journal: 'Physics Letters B'
+    openalex_id: W2007967164
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.48550/arxiv.math/0110130'
+    title: 'The Connes-Kasparov conjecture for almost connected groups'
+    year: 2001
+    coauthors: ['Jérôme Chabert', 'Siegfried Echterhoff']
+    doi: '10.48550/arxiv.math/0110130'
+    openalex_id: W1676449817
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1090/s0002-9947-01-02794-5'
+    title: 'The structure of the Brauer group and crossed products of $C_0(X)$-linear group actions on $C_0(X,\mathcal K)$'
+    year: 2001
+    coauthors: ['Siegfried Echterhoff']
+    doi: '10.1090/s0002-9947-01-02794-5'
+    journal: 'Transactions of the American Mathematical Society'
+    openalex_id: W1784284825
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.48550/arxiv.math/0110253'
+    title: 'C*-Structure and K-Theory of Boutet de Monvel''s Algebra'
+    year: 2001
+    coauthors: ['Severino T. Melo', 'Elmar Schrohe']
+    doi: '10.48550/arxiv.math/0110253'
+    openalex_id: W2034563694
+    sources: [openalex]
+    no_arxiv: true
   - id: '0004022'
     title: 'Local formula for the index of a Fourier Integral Operator'
     year: 2000
     coauthors: ['Eric Leichtnam', 'Boris Tsygan']
+    doi: '10.4310/jdg/1090349429'
+    journal: 'Journal of Differential Geometry'
     primary_category: math.DG
+    openalex_id: W1496857361
+    sources: [arxiv, openalex]
   - id: '0002115'
     title: 'Riemann-Roch via deformation quantization, II'
     year: 2000
     coauthors: ['Paul Bressler', 'Boris Tsygan']
+    doi: '10.1006/aima.2000.1978'
+    journal: 'Advances in Mathematics'
     primary_category: math.KT
+    openalex_id: W2050015327
+    sources: [arxiv, openalex]
+  - id: 'doi:10.1007/978-3-642-57288-3_8'
+    title: 'Index of Γ-Equivariant Toeplitz Operators'
+    year: 2000
+    coauthors: ['Florin Rădulescu']
+    doi: '10.1007/978-3-642-57288-3_8'
+    openalex_id: W1552496058
+    sources: [openalex]
+    no_arxiv: true
   - id: '9906020'
     title: 'Deformations of symplectic Lie algebroids, deformations of holomorphic symplectic structures, and index theorems'
     year: 1999
     coauthors: ['Boris Tsygan']
+    doi: '10.4310/ajm.2001.v5.n4.a2'
+    journal: 'Asian Journal of Mathematics'
     primary_category: math.QA
+    openalex_id: W1645562868
+    sources: [arxiv, openalex]
+  - id: 'doi:10.1007/s002200050575'
+    title: 'Topological Approach to Quantum Surfaces'
+    year: 1999
+    coauthors: ['Toshikazu Natsume']
+    doi: '10.1007/s002200050575'
+    journal: 'Communications in Mathematical Physics'
+    openalex_id: W2094627522
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.48550/arxiv.math/9904121'
+    title: 'Riemann-Roch Theorems via deformation quanitzation I'
+    year: 1999
+    coauthors: ['Paul Bressler', 'Boris Tsygan']
+    doi: '10.48550/arxiv.math/9904121'
+    openalex_id: W4394642636
+    sources: [openalex]
+    no_arxiv: true
   - id: '9803140'
     title: 'Fukaya Type Categories for Associative Algebras'
     year: 1998
     coauthors: ['Boris Tsygan']
+    doi: '10.48550/arxiv.math/9803140'
     journal: 'Deformation Theory and Symplectic Geometry, Mathematical Physics Studies, vol. 20,Kluwer Acad. Publishers, 1997, p. 285-301'
     primary_category: math.QA
-  - id: '2310.13094'
-    title: 'A secondary index for non-Fredholm operators associated with quantum walks'
-    year: 2023
+    openalex_id: W1624923717
+    sources: [arxiv, openalex]
+  - id: 'doi:10.1007/s002290050062'
+    title: 'Dixmier''s trace for boundary value problems'
+    year: 1998
+    coauthors: ['Elmar Schrohe']
+    doi: '10.1007/s002290050062'
+    journal: 'manuscripta mathematica'
+    openalex_id: W2035090079
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.48550/arxiv.alg-geom/9705014'
+    title: 'Riemann-Roch theorems via deformation quantization'
+    year: 1997
+    coauthors: ['Paul Bressler', 'Boris Tsygan']
+    doi: '10.48550/arxiv.alg-geom/9705014'
+    journal: 'Advances in Mathematics'
+    openalex_id: W2953300696
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1007/bf02506416'
+    title: 'The Atiyah-Singer index theorem as passage to the classical limit in quantum mechanics'
+    year: 1996
+    coauthors: ['George A. Elliott', 'Toshikazu Natsume']
+    doi: '10.1007/bf02506416'
+    journal: 'Communications in Mathematical Physics'
+    openalex_id: W2069728522
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1515/crll.1996.481.27'
+    title: 'Formal deformations of symplectic manifolds with boundary.'
+    year: 1996
+    coauthors: ['Boris Tsygan']
+    doi: '10.1515/crll.1996.481.27'
+    journal: 'Journal für die reine und angewandte Mathematik (Crelles Journal)'
+    openalex_id: W55279416
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1006/jfan.1996.0053'
+    title: 'Irreducible Inclusions of Factors, Multiplicative Unitaries, and Kac Algebras'
+    year: 1996
+    coauthors: ['Michel Enock']
+    doi: '10.1006/jfan.1996.0053'
+    journal: 'Journal of Functional Analysis'
+    openalex_id: W2061634703
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1007/bf02099427'
+    title: 'Algebraic index theorem'
+    year: 1995
+    coauthors: ['Boris Tsygan']
+    doi: '10.1007/bf02099427'
+    journal: 'Communications in Mathematical Physics'
+    openalex_id: W1998161206
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1006/aima.1995.1037'
+    title: 'Algebraic Index Theorem for Families'
+    year: 1995
+    coauthors: ['Boris Tsygan']
+    doi: '10.1006/aima.1995.1037'
+    journal: 'Advances in Mathematics'
+    openalex_id: W2019865459
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1006/jfan.1994.1019'
+    title: 'The Local Structure of the Cyclic Cohomology of Heisenberg Lie Groups'
+    year: 1994
     coauthors: ['Toshikazu Natsume']
-  - id: '2305.02254'
-    title: 'Finiteness of metrics on state spaces'
-    year: 2023
-    coauthors: ['David Kyed']
-  - id: '2204.00361'
-    title: 'Exotic cyclic cohomology classes and Lipschitz algebras'
-    year: 2022
-    coauthors: ['Magnus Goffeng']
-  - id: '2110.01649'
-    title: 'A higher Kac-Moody extension for two-dimensional gauge groups'
-    year: 2021
-    coauthors: ['Jens Kaad', 'Jesse Wolfson']
-  - id: '1704.08548'
-    title: 'The orbit method for the Baum-Connes Conjecture for algebraic groups over local function fields'
-    year: 2017
-    coauthors: ['Siegfried Echterhoff', 'Kang Li']
-  - id: '1512.08816'
-    title: 'The K-theory of twisted multipullback quantum odd spheres and complex projective spaces'
-    year: 2015
-    coauthors: ['Piotr M. Hajac', 'David Pask', 'Aidan Sims', 'Bartosz Zieliński']
-  - id: '1408.3851'
-    title: 'Tate tame symbol and the joint torsion of commuting operators'
-    year: 2014
-    coauthors: ['Jens Kaad']
-  - id: '1403.7937'
-    title: 'Canonical holomorphic sections of determinant line bundles'
-    year: 2014
-    coauthors: ['Jens Kaad']
+    doi: '10.1006/jfan.1994.1019'
+    journal: 'Journal of Functional Analysis'
+    openalex_id: W2053396287
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1007/bf00961535'
+    title: 'The Heisenberg group andK-theory'
+    year: 1993
+    coauthors: ['George A. Elliott', 'Toshikazu Natsume']
+    doi: '10.1007/bf00961535'
+    journal: 'K-Theory'
+    openalex_id: W2045522200
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1090/s0002-9939-1991-1057953-5'
+    title: 'The cyclic homology of algebras with adjoined unit'
+    year: 1991
+    coauthors: ['George A. Elliott', 'Mikael Rørdam']
+    doi: '10.1090/s0002-9939-1991-1057953-5'
+    journal: 'Proceedings of the American Mathematical Society'
+    openalex_id: W2033313013
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1007/bf02392278'
+    title: 'Cyclic cohomology for one-parameter smooth crossed products'
+    year: 1988
+    coauthors: ['George A. Elliott', 'Toshikazu Natsume']
+    doi: '10.1007/bf02392278'
+    journal: 'Acta Mathematica'
+    openalex_id: W2045300610
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1016/0022-1236(88)90001-8'
+    title: 'Cyclic cohomology of crossed products with Z'
+    year: 1988
+    coauthors: []
+    doi: '10.1016/0022-1236(88)90001-8'
+    journal: 'Journal of Functional Analysis'
+    openalex_id: W2064663329
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.4153/cjm-1988-042-8'
+    title: 'Cyclic Cohomology of Non-Commutative Tori'
+    year: 1988
+    coauthors: []
+    doi: '10.4153/cjm-1988-042-8'
+    journal: 'Canadian Journal of Mathematics'
+    openalex_id: W2056184246
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1515/9783110862393.373'
+    title: 'SCHRÖDINGER EQUATION SOLUTIONS FOR A WEAK LINK CONSTRICTION RING'
+    year: 1986
+    coauthors: ['J. E. Mutton', 'Timothy P. Spiller', 'T. D. Clark', 'R. J. Prance', 'H. Prance', 'P. Croyden']
+    doi: '10.1515/9783110862393.373'
+    openalex_id: W4250672058
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'openalex:W2488607404'
+    title: 'Schroedinger equation solutions for a weak link constriction ring'
+    year: 1985
+    coauthors: ['J. E. Mutton', 'Timothy P. Spiller', 'T. D. Clark', 'R. J. Prance', 'H. Prance', 'P. Croyden']
+    openalex_id: W2488607404
+    sources: [openalex]
+    no_arxiv: true
 activity:
-  total_papers: 31
-  published_count: 12
-  preprint_only_count: 19
+  total_papers: 88
+  published_count: 80
+  preprint_only_count: 8
   active_period: '1987-present'
   phd_students: 16
   academic_descendants: 22
@@ -243,6 +815,7 @@ external_ids:
   mathgenealogy: "43937"
   mr_author_id: "130350"
   wikidata: "Q102200448"
+  openalex: A5071385941
 links:
   homepage: "https://www.math.ku.dk/english/staff/?pure=en/persons/30308"
   google_scholar: "https://scholar.google.com/citations?user=WX9TlFkAAAAJ"

@@ -161,30 +161,94 @@ export default async function PersonPage({
           <div className="space-y-2">
             {coauthors.map((c, i) => {
               const otherSlug = c.source === slug ? c.target : c.source;
+              const cp = c.coauthored_papers;
+              const pubCount = cp?.published.length ?? 0;
+              const preCount = cp?.preprint.length ?? 0;
+              const totalKnown = pubCount + preCount;
               return (
                 <div
                   key={i}
-                  className="flex items-center justify-between bg-[#14141f] rounded-lg p-3 border border-[#2a2a3a]"
+                  className="bg-[#14141f] rounded-lg p-3 border border-[#2a2a3a]"
                 >
-                  <Link
-                    href={`/people/${otherSlug}`}
-                    className="text-sm text-[#f59e0b] hover:text-[#fbbf24] transition-colors"
-                  >
-                    {otherSlug}
-                  </Link>
-                  <div className="flex items-center gap-3 text-xs text-[#8888a0]">
-                    {c.weight && (
-                      <a
-                        href={`https://arxiv.org/search/?searchtype=author&query=${encodeURIComponent(otherSlug.replace(/-/g, " "))}`}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="text-[#6366f1] font-mono hover:text-[#818cf8] transition-colors"
-                      >
-                        {c.weight} 篇
-                      </a>
-                    )}
-                    {c.period && <span>{c.period}</span>}
+                  <div className="flex items-center justify-between gap-3">
+                    <Link
+                      href={`/people/${otherSlug}`}
+                      className="text-sm text-[#f59e0b] hover:text-[#fbbf24] transition-colors"
+                    >
+                      {otherSlug}
+                    </Link>
+                    <div className="flex items-center gap-2 text-xs text-[#8888a0] flex-wrap justify-end">
+                      {totalKnown > 0 ? (
+                        <>
+                          {pubCount > 0 && (
+                            <span
+                              className="px-1.5 py-0.5 rounded bg-[#22c55e]/10 text-[#22c55e] border border-[#22c55e]/20 font-mono"
+                              title={cp!.published
+                                .map((p) => `${p.year} ${p.title}`)
+                                .join("\n")}
+                            >
+                              {pubCount} 已发表
+                            </span>
+                          )}
+                          {preCount > 0 && (
+                            <span
+                              className="px-1.5 py-0.5 rounded bg-[#f59e0b]/10 text-[#f59e0b] border border-[#f59e0b]/20 font-mono"
+                              title={cp!.preprint
+                                .map((p) => `${p.year} ${p.title}`)
+                                .join("\n")}
+                            >
+                              {preCount} 仅预印
+                            </span>
+                          )}
+                        </>
+                      ) : (
+                        c.weight && (
+                          <a
+                            href={`https://arxiv.org/search/?searchtype=author&query=${encodeURIComponent(otherSlug.replace(/-/g, " "))}`}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-[#6366f1] font-mono hover:text-[#818cf8]"
+                            title="未在双方 publications 列表中找到合著记录，回退到 key_collaborators 字段"
+                          >
+                            {c.weight} 篇 (键值)
+                          </a>
+                        )
+                      )}
+                      {c.period && <span>{c.period}</span>}
+                    </div>
                   </div>
+                  {totalKnown > 0 && (
+                    <details className="mt-2">
+                      <summary className="text-[10px] text-[#8888a0] cursor-pointer hover:text-[#e8e8f0]">
+                        展开 {totalKnown} 篇合著论文
+                      </summary>
+                      <ul className="mt-2 space-y-1 text-[11px]">
+                        {[...(cp?.published ?? []), ...(cp?.preprint ?? [])]
+                          .sort((a, b) => (b.year ?? 0) - (a.year ?? 0))
+                          .map((paper) => {
+                            const isPub = "doi" in paper && (paper as { doi?: string; journal?: string }).doi;
+                            const isPubByJournal = "journal" in paper && (paper as { journal?: string }).journal;
+                            const published = isPub || isPubByJournal;
+                            const href = (paper as { doi?: string }).doi
+                              ? `https://doi.org/${(paper as { doi: string }).doi}`
+                              : `https://arxiv.org/abs/${paper.id}`;
+                            return (
+                              <li key={paper.id} className="flex gap-2 items-baseline">
+                                <span className={`shrink-0 w-2 h-2 rounded-full mt-1 ${published ? "bg-[#22c55e]" : "bg-[#f59e0b]"}`} />
+                                <a
+                                  href={href}
+                                  target="_blank"
+                                  rel="noopener noreferrer"
+                                  className="text-[#a8a8b8] hover:text-[#e8e8f0]"
+                                >
+                                  [{paper.year}] {paper.title}
+                                </a>
+                              </li>
+                            );
+                          })}
+                      </ul>
+                    </details>
+                  )}
                 </div>
               );
             })}
@@ -390,10 +454,31 @@ export default async function PersonPage({
                   key={pub.id || i}
                   className="bg-[#14141f] rounded-lg p-3 border border-[#2a2a3a] group"
                 >
+                  {(() => {
+                    const isDoiId = pub.id?.startsWith("doi:");
+                    const isOaId = pub.id?.startsWith("openalex:");
+                    const titleHref = pub.doi
+                      ? `https://doi.org/${pub.doi}`
+                      : isDoiId
+                        ? `https://doi.org/${pub.id.slice(4)}`
+                        : isOaId
+                          ? `https://openalex.org/works/${pub.id.slice(9)}`
+                          : `https://arxiv.org/abs/${pub.id}`;
+                    const idHref = isDoiId
+                      ? `https://doi.org/${pub.id.slice(4)}`
+                      : isOaId
+                        ? `https://openalex.org/works/${pub.id.slice(9)}`
+                        : `https://arxiv.org/abs/${pub.id}`;
+                    const idLabel = isDoiId
+                      ? pub.id.slice(4)
+                      : isOaId
+                        ? pub.id.slice(9)
+                        : pub.id;
+                    return (
                   <div className="flex items-start justify-between gap-3">
                     <div className="min-w-0">
                       <a
-                        href={`https://arxiv.org/abs/${pub.id}`}
+                        href={titleHref}
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-sm text-[#e8e8f0] hover:text-[#6366f1] transition-colors leading-snug"
@@ -464,15 +549,17 @@ export default async function PersonPage({
                         {pub.year}
                       </span>
                       <a
-                        href={`https://arxiv.org/abs/${pub.id}`}
+                        href={idHref}
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-[10px] text-[#8888a0] hover:text-[#e8e8f0] font-mono"
                       >
-                        {pub.id}
+                        {idLabel}
                       </a>
                     </div>
                   </div>
+                  );
+                  })()}
                 </div>
               )
             )}
