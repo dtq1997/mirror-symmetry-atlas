@@ -424,21 +424,36 @@ export default async function PersonPage({
                           })}
                         </div>
                       )}
-                      <div className="flex items-center gap-2 mt-1.5 text-[10px] font-mono">
+                      <div className="flex items-center gap-2 mt-1.5 text-[10px] font-mono flex-wrap">
                         {pub.journal || pub.doi ? (
-                          <span
-                            className="px-1.5 py-0.5 rounded bg-[#22c55e]/10 text-[#22c55e] border border-[#22c55e]/20"
-                            title={pub.journal || pub.doi}
-                          >
-                            已发表{pub.journal ? `: ${pub.journal}` : ""}
-                          </span>
+                          pub.doi ? (
+                            <a
+                              href={`https://doi.org/${pub.doi}`}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="px-1.5 py-0.5 rounded bg-[#22c55e]/10 text-[#22c55e] border border-[#22c55e]/20 hover:bg-[#22c55e]/20"
+                              title={`DOI: ${pub.doi}${pub.journal ? `\n${pub.journal}` : ""}`}
+                            >
+                              已发表{pub.journal ? `: ${pub.journal}` : ""}
+                            </a>
+                          ) : (
+                            <span
+                              className="px-1.5 py-0.5 rounded bg-[#22c55e]/10 text-[#22c55e] border border-[#22c55e]/20"
+                              title={pub.journal}
+                            >
+                              已发表{pub.journal ? `: ${pub.journal}` : ""}
+                            </span>
+                          )
                         ) : (
-                          <span className="px-1.5 py-0.5 rounded bg-[#f59e0b]/10 text-[#f59e0b] border border-[#f59e0b]/20">
+                          <span
+                            className="px-1.5 py-0.5 rounded bg-[#f59e0b]/10 text-[#f59e0b] border border-[#f59e0b]/20"
+                            title="未在 arxiv journal_ref 或 Crossref 中找到正式发表记录"
+                          >
                             仅预印
                           </span>
                         )}
                         {pub.primary_category && (
-                          <span className="text-[#8888a0]">
+                          <span className="text-[#8888a0]" title="arXiv primary category">
                             {pub.primary_category}
                           </span>
                         )}

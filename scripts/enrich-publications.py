@@ -76,26 +76,36 @@ def enrich_person(slug, person, all_people, threshold=10, fetch_delay=4, target_
     accepted = []
     for c in candidates:
         score, signals = disambiguate(person, c, all_people, target_name=target_name)
-        if score >= effective_threshold:
-            # Drop self from coauthors
-            coauthors = []
-            for a in c['authors']:
-                if normalize_name(a).lower() == normalize_name(target_name).lower():
-                    continue
-                coauthors.append(slugify_coauthor(a, all_people))
-            entry = {
-                'id': c['id'],
-                'title': c['title'],
-                'year': c['year'],
-                'coauthors': coauthors,
-            }
-            if c.get('doi'):
-                entry['doi'] = c['doi']
-            if c.get('journal_ref'):
-                entry['journal'] = c['journal_ref']
-            if c.get('primary_category'):
-                entry['primary_category'] = c['primary_category']
-            accepted.append((c['id'], entry, score, signals))
+        if score < effective_threshold:
+            continue
+        # Per-paper safety in relaxed mode: even though the overall person
+        # is topic-coherent, each individual paper must have at least one
+        # non-trivial signal beyond bare math-cat (a known coauthor or a
+        # keyword hit). Otherwise homonym contamination at the paper level
+        # slips through. E.g. liu-siqi accidentally inherited STOC paper
+        # 2111.11316 ("Testing thresholds..." by a different Siqi Liu in CS).
+        if effective_threshold < threshold:
+            if not (signals.get('known_coauthors') or signals.get('keywords')):
+                continue
+        # Drop self from coauthors
+        coauthors = []
+        for a in c['authors']:
+            if normalize_name(a).lower() == normalize_name(target_name).lower():
+                continue
+            coauthors.append(slugify_coauthor(a, all_people))
+        entry = {
+            'id': c['id'],
+            'title': c['title'],
+            'year': c['year'],
+            'coauthors': coauthors,
+        }
+        if c.get('doi'):
+            entry['doi'] = c['doi']
+        if c.get('journal_ref'):
+            entry['journal'] = c['journal_ref']
+        if c.get('primary_category'):
+            entry['primary_category'] = c['primary_category']
+        accepted.append((c['id'], entry, score, signals))
 
     accepted_ids = {aid for aid, *_ in accepted}
 
