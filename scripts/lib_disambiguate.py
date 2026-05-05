@@ -259,7 +259,8 @@ def fetch_candidates_for_person(target_name, max_results=200, math_only=True, de
     if math_only:
         cats = ['math.AG', 'math.QA', 'math.DG', 'math.SG', 'math.RT', 'math.GT',
                 'math.AT', 'math.AC', 'math.CO', 'math.RA', 'math.NT', 'math.CA',
-                'math-ph', 'nlin.SI', 'hep-th']
+                'math.DS', 'math.AP', 'math.PR', 'math.OA', 'math.GM', 'math.GN',
+                'math-ph', 'nlin.SI', 'nlin.CD', 'hep-th']
         cat_q = ' OR '.join(f'cat:{c}' for c in cats)
         query = f'{query} AND ({cat_q})'
     url = (f'https://export.arxiv.org/api/query?'

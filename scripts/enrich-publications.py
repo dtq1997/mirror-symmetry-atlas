@@ -20,6 +20,7 @@ from copy import deepcopy
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from lib_disambiguate import (
     load_all_people, fetch_candidates_for_person, disambiguate, normalize_name,
+    keyword_signal,
 )
 
 PEOPLE_DIR = 'data/people'
@@ -52,12 +53,20 @@ def enrich_person(slug, person, all_people, threshold=10, fetch_delay=4, target_
     # every candidate trivially contains the target name in author list),
     # known coauthor signal isn't necessary - drop threshold.
     effective_threshold = threshold
-    # Relax threshold for likely-unique names, BUT only when person metadata
-    # is rich enough that math-cat alone is meaningful. Otherwise we pull in
-    # papers from a different homonym (e.g. zhang-wei, li-ao with empty
-    # research_areas would otherwise hoover up dozens of unrelated papers).
-    has_metadata = bool(person.get('research_areas')) or bool(person.get('key_collaborators'))
-    if len(candidates) < 100 and has_metadata:
+    # Relax threshold ONLY when (a) candidate pool is small enough that name
+    # is likely unique, (b) person has metadata, AND (c) topic coherence:
+    # at least 25% of candidates' titles match this person's research areas.
+    # Without (c), we'd hoover up papers from a different homonym in a
+    # different field — e.g. yang-yi (Julia sets) accidentally absorbing
+    # 70 hep-th papers from a different "Yi Yang".
+    research_areas = person.get('research_areas') or []
+    has_metadata = bool(research_areas) or bool(person.get('key_collaborators'))
+    topic_matches = (
+        sum(1 for c in candidates if keyword_signal(c.get('title', ''), research_areas))
+        if research_areas else 0
+    )
+    topic_coherent = (research_areas and topic_matches / max(1, len(candidates)) >= 0.25)
+    if len(candidates) < 100 and has_metadata and topic_coherent:
         effective_threshold = max(5, threshold - 5)
 
     existing = {(p.get('id') or '').split('v')[0]: p
