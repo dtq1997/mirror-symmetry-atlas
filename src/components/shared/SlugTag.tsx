@@ -2,6 +2,7 @@
 
 import { useState, useRef } from "react";
 import Link from "next/link";
+import { displayName } from "@/lib/name";
 
 interface SlugTagProps {
   slug: string;
@@ -47,7 +48,7 @@ export default function SlugTag({
         href={href}
         className={`text-[10px] px-1.5 py-0.5 rounded ${color} transition-colors`}
       >
-        {slug}
+        {type === "person" ? displayName(slug) : slug}
       </Link>
 
       {show && hasHover && (

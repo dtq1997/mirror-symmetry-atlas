@@ -2,6 +2,7 @@
 
 import type { Person, GraphNode } from "@/lib/types";
 import Link from "next/link";
+import { displayName as displayNameOf } from "@/lib/name";
 
 interface DetailSidebarProps {
   node: GraphNode | null;
@@ -99,7 +100,10 @@ function PersonDetail({ person }: { person: Person }) {
           <div className="text-xs text-[#8888a0] mb-2">主要合作者</div>
           <div className="space-y-1.5">
             {person.key_collaborators.slice(0, 5).map((collab, idx) => {
-              const displayName = collab.person || (collab as { name?: string }).name || "";
+              const collabSlug = collab.person || "";
+              const displayName = collabSlug
+                ? displayNameOf(collabSlug)
+                : (collab as { name?: string }).name || "";
               return (
               <div
                 key={collab.person || `${displayName}-${idx}`}

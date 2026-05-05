@@ -1,4 +1,5 @@
 import { getAllPeople, getPerson, getAllConnections, getAckMentions } from "@/lib/data";
+import { displayName as nameOf, nameInfo } from "@/lib/name";
 import PersonTimeline from "@/components/person/PersonTimeline";
 import PersonStats from "@/components/person/PersonStats";
 import Link from "next/link";
@@ -20,21 +21,6 @@ export default async function PersonPage({
   const connections = getAllConnections().filter(
     (c) => c.source === slug || c.target === slug
   );
-
-  // Build slug -> display name map (zh preferred, fallback en, fallback slug)
-  const peopleIndex = new Map<string, { displayName: string; en: string; zh?: string }>();
-  for (const p of getAllPeople()) {
-    const zh = p.name?.zh;
-    const en = p.name?.en || p.slug;
-    peopleIndex.set(p.slug, {
-      displayName: zh && !zh.startsWith('[') ? zh : en,
-      en,
-      zh: zh && !zh.startsWith('[') ? zh : undefined,
-    });
-  }
-  function nameOf(s: string): string {
-    return peopleIndex.get(s)?.displayName ?? s;
-  }
 
   const coauthors = connections
     .filter((c) => c.type === "coauthor")
@@ -65,7 +51,7 @@ export default async function PersonPage({
           {nameOf(slug)}
         </h1>
         {/* Show the OTHER name form below the title for context */}
-        {peopleIndex.get(slug)?.zh && (
+        {nameInfo(slug)?.zh && (
           <p className="text-xl text-[#8888a0]">{person.name.en}</p>
         )}
         <div className="flex items-center gap-3 mt-2 text-sm text-[#8888a0]">
