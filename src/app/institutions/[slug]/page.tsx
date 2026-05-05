@@ -169,7 +169,7 @@ export default async function InstitutionPage({
         <section className="mb-8">
           <h2 className="text-lg font-semibold text-[#e8e8f0] mb-3">重要事件</h2>
           <div className="space-y-2">
-            {inst.events.map((e, i) => (
+            {[...inst.events].sort((a, b) => (a.year ?? 0) - (b.year ?? 0)).map((e, i) => (
               <div
                 key={i}
                 className="bg-[#14141f] rounded-lg p-3 border border-[#2a2a3a] flex gap-4"

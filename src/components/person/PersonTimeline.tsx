@@ -1,6 +1,7 @@
 "use client";
 
 import type { CareerEntry } from "@/lib/types";
+import { sortByPeriod } from "@/lib/period";
 
 const TYPE_COLORS: Record<string, string> = {
   education: "#3b82f6",
@@ -22,8 +23,22 @@ interface PersonTimelineProps {
   timeline: CareerEntry[];
 }
 
+// Within the same start year, group by category so e.g. education/position
+// come before awards. This matches the user's mental model: career placement
+// first, then accolades earned that year.
+const TYPE_ORDER: Record<string, number> = {
+  education: 0,
+  position: 1,
+  visit: 2,
+  event: 3,
+  award: 4,
+};
+
 export default function PersonTimeline({ timeline }: PersonTimelineProps) {
   if (!timeline?.length) return null;
+  const sorted = sortByPeriod(timeline, {
+    typeOrder: (e) => TYPE_ORDER[e.type] ?? 99,
+  });
 
   return (
     <div className="relative">
@@ -31,7 +46,7 @@ export default function PersonTimeline({ timeline }: PersonTimelineProps) {
       <div className="absolute left-[7px] top-2 bottom-2 w-0.5 bg-[#2a2a3a]" />
 
       <div className="space-y-3">
-        {timeline.map((entry, i) => {
+        {sorted.map((entry, i) => {
           const color = TYPE_COLORS[entry.type] || "#8888a0";
           return (
             <div key={i} className="flex gap-4 relative">
