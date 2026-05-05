@@ -49,17 +49,7 @@ identity_profile:
       period: '2013-present'
       role: 'Directeur de Recherche CNRS'
   email_domains: [ens.fr, maths.ox.ac.uk]
-  research_keywords:
-    - 'character'
-    - 'frobenius'
-    - 'geometry'
-    - 'isomonodromy'
-    - 'manifolds'
-    - 'phenomenon'
-    - 'poisson'
-    - 'stokes'
-    - 'varieties'
-    - 'wild'
+  research_keywords: [character, frobenius, geometry, isomonodromy, phenomenon, poisson, stokes, varieties]
   known_arxiv_ids:
     - '2410.23358'
     - '2301.09067'
@@ -103,14 +93,16 @@ publications:
     doi: '10.1016/j.geomphys.2025.105512'
     journal: 'J. Geom. Phys. 214 (2025) 105512'
     primary_category: math.AG
-    sources: [arxiv]
+    openalex_id: W4410089897
+    sources: [arxiv, openalex]
   - id: '2301.09067'
     title: 'Polystability of Stokes representations and differential Galois groups'
     year: 2023
     coauthors: ['Daisuke Yamakawa']
     doi: '10.48550/arxiv.2301.09067'
     primary_category: math.AG
-    sources: [arxiv]
+    openalex_id: W4317940337
+    sources: [arxiv, openalex]
   - id: '2209.12695'
     title: 'Twisted local wild mapping class groups: configuration spaces, fission trees and complex braids'
     year: 2022
@@ -118,7 +110,8 @@ publications:
     doi: '10.4171/PRIMS/61-3-4'
     journal: 'Publ. R.I.M.S. 61 (2025) no. 3, 391-445'
     primary_category: math.AG
-    sources: [arxiv]
+    openalex_id: W4297987151
+    sources: [arxiv, openalex]
   - id: '2002.00052'
     title: 'Symplectic Manifolds and Isomonodromic Deformations'
     year: 2020
@@ -126,7 +119,8 @@ publications:
     doi: '10.1006/aima.2001.1998'
     journal: 'Adv. Math. 163 (2001) 137-205'
     primary_category: math.DG
-    sources: [arxiv]
+    openalex_id: W3099105597
+    sources: [arxiv, openalex]
   - id: '1907.11149'
     title: 'Diagrams for nonabelian Hodge spaces on the affine line'
     year: 2019
@@ -134,7 +128,8 @@ publications:
     doi: '10.5802/crmath.11'
     journal: 'Comptes Rendus. Mathématique, Tome 358 (2020) no. 1, pp. 59-65'
     primary_category: math.AG
-    sources: [arxiv]
+    openalex_id: W2962974667
+    sources: [arxiv, openalex]
   - id: '1903.12612'
     title: 'Topology of the Stokes phenomenon'
     year: 2019
@@ -142,7 +137,8 @@ publications:
     doi: '10.48550/arxiv.1903.12612'
     journal: 'Proc. Symp. Pure Math. 103 (2021) 55-100'
     primary_category: math.AG
-    sources: [arxiv]
+    openalex_id: W2935232120
+    sources: [arxiv, openalex]
   - id: '1703.10376'
     title: 'Wild character varieties, meromorphic Hitchin systems and Dynkin diagrams'
     year: 2017
@@ -150,14 +146,16 @@ publications:
     doi: '10.1093/oso/9780198802020.003.0017'
     journal: 'arXiv (Cornell University)'
     primary_category: math.AG
-    sources: [arxiv]
+    openalex_id: W4297929940
+    sources: [arxiv, openalex]
   - id: '1512.08091'
     title: 'Twisted wild character varieties'
     year: 2015
     coauthors: ['Daisuke Yamakawa']
     doi: '10.48550/arxiv.1512.08091'
     primary_category: math.AG
-    sources: [arxiv]
+    openalex_id: W2210343618
+    sources: [arxiv, openalex]
   - id: '1501.00930'
     title: 'Wild Character Varieties, points on the Riemann sphere and Calabi''s examples'
     year: 2015
@@ -181,7 +179,8 @@ publications:
     doi: '10.2140/gt.2015.19.3467'
     journal: 'Geom. Topol. 19 (2015) 3467-3536'
     primary_category: math.AG
-    sources: [arxiv]
+    openalex_id: W1929070500
+    sources: [arxiv, openalex]
   - id: '1305.6594'
     title: 'Symmetric cubic surfaces and G_2 character varieties'
     year: 2013
@@ -195,7 +194,8 @@ publications:
     coauthors: []
     doi: '10.48550/arxiv.1305.6593'
     primary_category: math.HO
-    sources: [arxiv]
+    openalex_id: W2164657536
+    sources: [arxiv, openalex]
   - id: '1305.6465'
     title: 'Through the analytic halo: Fission via irregular singularities'
     year: 2013
@@ -212,6 +212,15 @@ publications:
     journal: 'Ann. Inst. Fourier, 53, 4 (2003) 1009-1022'
     primary_category: math.CA
     sources: [arxiv]
+  - id: 'doi:10.4007/annals.2014.179.1.5'
+    title: 'Geometry and braiding of Stokes data; Fission and wild character varieties'
+    year: 2013
+    coauthors: []
+    doi: '10.4007/annals.2014.179.1.5'
+    journal: 'Annals of Mathematics'
+    openalex_id: W2964346812
+    sources: [openalex]
+    no_arxiv: true
   - id: '1203.6607'
     title: 'Hyperkahler manifolds and nonabelian Hodge theory of (irregular) curves'
     year: 2012
@@ -219,6 +228,13 @@ publications:
     doi: '10.48550/arxiv.1203.6607'
     primary_category: math.AG
     sources: [arxiv]
+  - id: 'openalex:W1593850510'
+    title: 'Geometric and differential Galois theories'
+    year: 2012
+    coauthors: ['Jean-Marc Couveignes', 'Pierre Dèbes', 'Daniel Bertrand']
+    openalex_id: W1593850510
+    sources: [openalex]
+    no_arxiv: true
   - id: '1107.0874'
     title: 'Simply-laced isomonodromy systems'
     year: 2011
@@ -256,6 +272,13 @@ publications:
     doi: '10.48550/arxiv.0706.2634'
     primary_category: math.AG
     sources: [arxiv]
+  - id: 'openalex:W4307615951'
+    title: 'Some geometry of irregular connections on curves (slides of talk at Conference on Gauge Theory and Representation Theory, IAS Princeton, 27/11/2007)'
+    year: 2007
+    coauthors: []
+    openalex_id: W4307615951
+    sources: [openalex]
+    no_arxiv: true
   - id: '0603398'
     title: 'Regge and Okamoto symmetries'
     year: 2006
@@ -294,7 +317,8 @@ publications:
     doi: '10.1515/crelle.2006.059'
     journal: 'J. Reine Angew. Math. 596 (2006) 183--214'
     primary_category: math.AG
-    sources: [arxiv]
+    openalex_id: W1977213047
+    sources: [arxiv, openalex]
   - id: '0308221'
     title: 'From Klein to Painleve via Fourier, Laplace and Jimbo'
     year: 2003
@@ -325,7 +349,8 @@ publications:
     doi: '10.1155/s1073792802111081'
     journal: 'Int.Math.Res.Not.22:1129-1166,2002'
     primary_category: math.DG
-    sources: [arxiv]
+    openalex_id: W1907219630
+    sources: [arxiv, openalex]
   - id: '0011062'
     title: 'Stokes Matrices and Poisson Lie Groups'
     year: 2000
@@ -334,13 +359,21 @@ publications:
     journal: 'Invent. math. 146, 479-506 (2001)'
     primary_category: math.DG
     sources: [arxiv]
+  - id: 'openalex:W2185998210'
+    title: 'Symplectic Geometry and Isomonodromic Deformations'
+    year: 1999
+    coauthors: []
+    openalex_id: W2185998210
+    sources: [openalex]
+    no_arxiv: true
 activity:
-  total_papers: 31
-  published_count: 31
-  preprint_only_count: 0
+  total_papers: 35
+  published_count: 32
+  preprint_only_count: 3
   h_index: 19
   active_period: '1999-present'
   phd_students: 4
+  confidence: 'has-15-review-pending'
   quality_source: 'openalex + ruirui-2026'
   t1_papers: 4
   t2_papers: 3

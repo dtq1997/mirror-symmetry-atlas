@@ -70,17 +70,18 @@ identity_profile:
       role: 'Founding Director'
   coauthor_circle_core_slugs: [alekseev]
   coauthor_circle_core_names: ['Anton Alekseev']
-  research_keywords: [groups, integrable, mathematical, physics, quantum, systems]
+  research_keywords: [integrable, mathematical, physics, quantum]
   known_arxiv_ids: [0804.1544, 0608111, 0212079, 0101078, 9912078, 9907180, 9807069]
 advisor: "Olga Ladyzhenskaya"
 students:
   - alekseev
 key_collaborators: []
 activity:
-  total_papers: 7
-  published_count: 7
+  total_papers: 10
+  published_count: 10
   preprint_only_count: 0
   active_period: '1958-2017'
+  confidence: 'has-9-review-pending'
 external_ids:
   openalex: A5114009185
 links: {}
@@ -101,6 +102,15 @@ publications:
     journal: 'Nucl.Phys.B776:38-65,2007'
     primary_category: hep-th
     sources: [arxiv]
+  - id: 'doi:10.2977/prims/1145475443'
+    title: 'Shift Operator for Nonabelian Lattice Current Algebra'
+    year: 2004
+    coauthors: ['A. Yu. Volkov']
+    doi: '10.2977/prims/1145475443'
+    journal: 'Publications of the Research Institute for Mathematical Sciences'
+    openalex_id: W2091381433
+    sources: [openalex]
+    no_arxiv: true
   - id: '0212079'
     title: 'Knotted solitons'
     year: 2002
@@ -109,6 +119,15 @@ publications:
     journal: 'Proceedings of the ICM, Beijing 2002, vol. 1, 235--244'
     primary_category: math-ph
     sources: [arxiv]
+  - id: 'doi:10.1088/0305-4470/35/11/101'
+    title: 'Shafranov''s virial theorem and magnetic plasma confinement'
+    year: 2002
+    coauthors: ['Lisa Freyhult', 'Antti J. Niemi', 'Peter Rajan']
+    doi: '10.1088/0305-4470/35/11/101'
+    journal: 'Journal of Physics A Mathematical and General'
+    openalex_id: W2061334344
+    sources: [openalex]
+    no_arxiv: true
   - id: '0101078'
     title: 'Aspects of Electric and Magnetic Variables in SU(2) Yang-Mills Theory'
     year: 2001
@@ -141,6 +160,15 @@ publications:
     journal: 'Phys.Rev.Lett. 82 (1999) 1624-1627'
     primary_category: hep-th
     sources: [arxiv]
+  - id: 'doi:10.1142/9789812815453_0009'
+    title: 'INTEGRABLE MODELS IN (1 + 1)-DIMENSIONAL QUANTUM FIELD THEORY'
+    year: 1995
+    coauthors: []
+    doi: '10.1142/9789812815453_0009'
+    journal: 'World scientific series in 20th century mathematics'
+    openalex_id: W2484258158
+    sources: [openalex]
+    no_arxiv: true
 sources:
   - label: "Wikipedia: Ludvig Faddeev"
     url: "https://en.wikipedia.org/wiki/Ludvig_Faddeev"

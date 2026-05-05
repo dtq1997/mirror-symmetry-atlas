@@ -1,0 +1,118 @@
+slug: fang-bohan
+count: 7
+note: 需要人工核对的候选论文。score 在 10-19 之间。要么补 ORCID 进 identity_profile, 要么明确标 accepted/rejected
+candidates:
+- id: '1903.05300'
+  title: Gamma II for toric varieties from integrals on T-dual branes and homological
+    mirror symmetry
+  year: 2019
+  score: 17
+  evidence:
+    authors:
+    - Bohan Fang
+    - Peng Zhou
+    year_in_period: ~2015-present
+    keywords:
+    - homological
+    - mirror
+    - symmetry
+    math_venue: arxiv (cornell university)
+  doi: 10.48550/arxiv.1903.05300
+  venue: null
+- id: openalex:W2620438620
+  title: 'The Coherent-Constructible Correspondence and Homological Mirror Symmetry
+    for Toric Varieties: Advanced Lectures in Mathematics, Vol. 18'
+  year: 2010
+  score: 14
+  evidence:
+    authors:
+    - Bohan Fang
+    - C.-C. Liu
+    - David Treumann
+    - Eric Zaslow
+    year_in_period: 2005-2010
+    keywords:
+    - homological
+    - mirror
+    - symmetry
+  doi: null
+  venue: null
+- id: doi:10.1007/978-3-319-94220-9_5
+  title: Eynard-Orantin B-Model and Its Application in Mirror Symmetry
+  year: 2018
+  score: 14
+  evidence:
+    authors:
+    - Bohan Fang
+    year_in_period: ~2015-present
+    keywords:
+    - mirror
+    - symmetry
+    math_venue: trends in mathematics
+  doi: 10.1007/978-3-319-94220-9_5
+  venue: Trends in mathematics
+- id: '2204.12483'
+  title: Topological Fukaya category and mirror symmetry for toric Calabi-Yau 3-orbifolds
+  year: 2022
+  score: 14
+  evidence:
+    authors:
+    - Qingyuan Bai
+    - Bohan Fang
+    year_in_period: ~2015-present
+    keywords:
+    - mirror
+    - symmetry
+    math_venue: arxiv (cornell university)
+  doi: 10.48550/arxiv.2204.12483
+  venue: null
+- id: '2309.02154'
+  title: Mirror symmetric Gamma conjecture for del Pezzo surfaces
+  year: 2023
+  score: 17
+  evidence:
+    authors:
+    - Bohan Fang
+    - Junxiao Wang
+    - Yan Zhou
+    year_in_period: ~2015-present
+    keywords:
+    - conjecture
+    - mirror
+    - symmetry
+    math_venue: arxiv (cornell university)
+  doi: 10.48550/arxiv.2309.02154
+  venue: null
+- id: '2501.14222'
+  title: Mirror symmetric Gamma conjecture for toric GIT quotients via Fourier transform
+  year: 2025
+  score: 17
+  evidence:
+    authors:
+    - Konstantin Aleshkin
+    - Bohan Fang
+    - Junxiao Wang
+    year_in_period: ~2015-present
+    keywords:
+    - conjecture
+    - mirror
+    - symmetry
+    math_venue: arxiv.org
+  doi: 10.48550/arxiv.2501.14222
+  venue: null
+- id: doi:10.2139/ssrn.6076927
+  title: MIRROR SYMMETRIC GAMMA CONJECTURE FOR TORIC GIT QUOTIENTS VIA FOURIER TRANSFORM
+  year: 2026
+  score: 14
+  evidence:
+    authors:
+    - Konstantin Aleshkin
+    - Bohan Fang
+    - Yì Wáng
+    year_in_period: ~2015-present
+    keywords:
+    - conjecture
+    - mirror
+    - symmetry
+  doi: 10.2139/ssrn.6076927
+  venue: null

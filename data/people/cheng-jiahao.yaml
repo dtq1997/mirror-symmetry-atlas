@@ -40,21 +40,7 @@ identity_profile:
   email_domains: [pku.edu.cn]
   coauthor_circle_core_slugs: [chen-zhuo, ni-dadi, xiang-maosong]
   coauthor_circle_core_names: ['Dadi Ni', 'Maosong Xiang', 'Zhuo Chen']
-  research_keywords:
-    - 'algebra'
-    - 'algebraic'
-    - 'algebroid'
-    - 'atiyah'
-    - 'class'
-    - 'geometry'
-    - 'groupoid'
-    - 'hopf'
-    - 'infinity'
-    - 'manifold'
-    - 'mathematical'
-    - 'pair'
-    - 'physics'
-    - 'quantum'
+  research_keywords: [algebraic, algebroid, atiyah, geometry, groupoid, infinity, mathematical, physics, quantum]
   known_arxiv_ids: [2508.02019, 2412.09039, 2201.13068, 1911.01388]
 advisor: null
 students: []

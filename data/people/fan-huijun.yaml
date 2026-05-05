@@ -109,25 +109,7 @@ identity_profile:
   email_domains: [amss.ac.cn, hust.edu.cn, pku.edu.cn, whu.edu.cn]
   coauthor_circle_extended_slugs: [ruan-yongbin]
   coauthor_circle_extended_names: ['Yongbin Ruan']
-  research_keywords:
-    - 'conley'
-    - 'fjrw'
-    - 'gauged'
-    - 'ginzburg'
-    - 'gromov'
-    - 'harmonic'
-    - 'index'
-    - 'landau'
-    - 'linear'
-    - 'maps'
-    - 'mirror'
-    - 'model'
-    - 'morse'
-    - 'sigma'
-    - 'singularity'
-    - 'symmetry'
-    - 'theory'
-    - 'witten'
+  research_keywords: [conley, gauged, ginzburg, gromov, harmonic, landau, linear, mirror, singularity, symmetry, witten]
   known_arxiv_ids:
     - '2210.16747'
     - '2011.14658'

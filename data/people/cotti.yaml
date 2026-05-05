@@ -72,7 +72,7 @@ identity_profile:
   email_domains: [sissa.it]
   coauthor_circle_core_slugs: [dubrovin, guzzetti, manin-yuri, mazzocco]
   coauthor_circle_core_names: ['Boris Dubrovin', 'Davide Guzzetti', 'Marta Mazzocco', 'Yuri Manin']
-  research_keywords: [categories, cohomology, derived, frobenius, isomonodromy, manifolds, phenomenon, quantum, stokes]
+  research_keywords: [cohomology, derived, frobenius, isomonodromy, phenomenon, quantum, stokes]
   known_arxiv_ids:
     - '2510.05500'
     - '2506.18033'
@@ -125,7 +125,71 @@ publications:
     doi: '10.48550/arxiv.2409.09657'
     journal: 'Communications in Mathematical Physics'
     primary_category: math.AG
-    sources: [arxiv]
+    openalex_id: W4414771399
+    sources: [arxiv, openalex]
+  - id: 'doi:10.1007/978-3-031-69067-9_1'
+    title: 'Introduction'
+    year: 2024
+    coauthors: [dubrovin, guzzetti]
+    doi: '10.1007/978-3-031-69067-9_1'
+    journal: 'Lecture notes in mathematics'
+    openalex_id: W4403810207
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1007/978-3-031-69067-9_6'
+    title: 'Proof of the Main Conjecture for Projective Spaces'
+    year: 2024
+    coauthors: [dubrovin, guzzetti]
+    doi: '10.1007/978-3-031-69067-9_6'
+    journal: 'Lecture notes in mathematics'
+    openalex_id: W4403810265
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1007/978-3-031-69067-9_7'
+    title: 'Proof of the Main Conjecture for Grassmannians'
+    year: 2024
+    coauthors: [dubrovin, guzzetti]
+    doi: '10.1007/978-3-031-69067-9_7'
+    journal: 'Lecture notes in mathematics'
+    openalex_id: W4403810268
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1007/978-3-031-69067-9_5'
+    title: 'The Main Conjecture'
+    year: 2024
+    coauthors: [dubrovin, guzzetti]
+    doi: '10.1007/978-3-031-69067-9_5'
+    journal: 'Lecture notes in mathematics'
+    openalex_id: W4403810274
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1007/978-3-031-69067-9_3'
+    title: 'Helix Theory in Triangulated Categories'
+    year: 2024
+    coauthors: [dubrovin, guzzetti]
+    doi: '10.1007/978-3-031-69067-9_3'
+    journal: 'Lecture notes in mathematics'
+    openalex_id: W4403810295
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1007/978-3-031-69067-9_2'
+    title: 'Gromov–Witten Theory and Quantum Cohomology'
+    year: 2024
+    coauthors: [dubrovin, guzzetti]
+    doi: '10.1007/978-3-031-69067-9_2'
+    journal: 'Lecture notes in mathematics'
+    openalex_id: W4403810314
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1007/978-3-031-69067-9_4'
+    title: 'Non-symmetric Orthogonal Geometry of Mukai Lattices'
+    year: 2024
+    coauthors: [dubrovin, guzzetti]
+    doi: '10.1007/978-3-031-69067-9_4'
+    journal: 'Lecture notes in mathematics'
+    openalex_id: W4403810316
+    sources: [openalex]
+    no_arxiv: true
   - id: '2310.19739'
     title: 'Asymptotic solutions for linear ODEs with not-necessarily meromorphic coefficients: a Levinson type theorem on complex domains, and applications'
     year: 2023
@@ -133,7 +197,8 @@ publications:
     doi: '10.1016/j.jde.2025.01.085'
     journal: 'Journal of Differential Equations 428 (2025): 1-58'
     primary_category: math.CA
-    sources: [arxiv]
+    openalex_id: W4407553535
+    sources: [arxiv, openalex]
   - id: '2210.05445'
     title: 'Borel $(α,β)$-multitransforms and Quantum Leray-Hirsch: integral representations of solutions of quantum differential equations for $\mathbb P^1$-bundles'
     year: 2022
@@ -204,7 +269,17 @@ publications:
     doi: '10.1007/978-3-031-69067-9'
     journal: 'Lecture notes in mathematics'
     primary_category: math.AG
-    sources: [arxiv]
+    openalex_id: W4403810192
+    sources: [arxiv, openalex]
+  - id: 'doi:10.1142/s2010326318400038'
+    title: 'Results on the extension of isomonodromy deformations to the case of a resonant irregular singularity'
+    year: 2018
+    coauthors: [guzzetti]
+    doi: '10.1142/s2010326318400038'
+    journal: 'Random Matrices Theory and Application'
+    openalex_id: W2792970613
+    sources: [openalex]
+    no_arxiv: true
   - id: '1712.08575'
     title: 'Local Moduli of Semisimple Frobenius Coalescent Structures'
     year: 2017
@@ -212,7 +287,8 @@ publications:
     doi: '10.3842/SIGMA.2020.040'
     journal: 'SIGMA 16 (2020), 040, 105 pages'
     primary_category: math.DG
-    sources: [arxiv]
+    openalex_id: W2776628391
+    sources: [arxiv, openalex]
   - id: '1706.04808'
     title: 'Isomonodromy Deformations at an Irregular Singularity with Coalescing Eigenvalues'
     year: 2017
@@ -221,6 +297,22 @@ publications:
     journal: 'Duke Math. J. 168, no. 6 (2019), 967-1108'
     primary_category: math.CA
     sources: [arxiv]
+  - id: 'doi:10.1142/s2010326317400044'
+    title: 'Analytic geometry of semisimple coalescent Frobenius structures'
+    year: 2017
+    coauthors: [guzzetti]
+    doi: '10.1142/s2010326317400044'
+    journal: 'Random Matrices Theory and Application'
+    openalex_id: W2756463005
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'openalex:W2980565358'
+    title: 'Geometry and Analytic Theory of Semisimple Coalescent Frobenius Structures: an Isomonodromic approach to Quantum Cohomology and Helix structures in Derived Categories'
+    year: 2017
+    coauthors: []
+    openalex_id: W2980565358
+    sources: [openalex]
+    no_arxiv: true
   - id: '1608.06868'
     title: 'Coalescence Phenomenon of Quantum Cohomology of Grassmannians and the Distribution of Prime Numbers'
     year: 2016
@@ -228,14 +320,16 @@ publications:
     doi: '10.1093/imrn/rnaa163'
     journal: 'Int. Math. Res. Not. 2020'
     primary_category: math-ph
-    sources: [arxiv]
+    openalex_id: W2516203512
+    sources: [arxiv, openalex]
 activity:
-  total_papers: 16
-  published_count: 15
-  preprint_only_count: 1
+  total_papers: 26
+  published_count: 24
+  preprint_only_count: 2
   h_index: 7
   active_period: '2015-present'
   peak_period: '2018-present'
+  confidence: 'has-9-review-pending'
   quality_source: 'openalex + ruirui-2026'
   t1_papers: 0
   t2_papers: 1

@@ -1,0 +1,126 @@
+slug: sun-shanzhong
+count: 8
+note: 需要人工核对的候选论文。score 在 10-19 之间。要么补 ORCID 进 identity_profile, 要么明确标 accepted/rejected
+candidates:
+- id: doi:10.1007/s002050100183
+  title: Four-Body Central Configurations¶with some Equal Masses
+  year: 2002
+  score: 25
+  evidence:
+    authors:
+    - Yiming Long
+    - Shanzhong Sun
+    affiliation_match:
+    - nankai university
+    year_in_period: ~1996-2001
+  doi: 10.1007/s002050100183
+  venue: Archive for Rational Mechanics and Analysis
+- id: doi:10.1007/s00205-014-0749-6
+  title: Linear Stability of Elliptic Lagrangian Solutions of the Planar Three-Body
+    Problem via Index Theory
+  year: 2014
+  score: 25
+  evidence:
+    authors:
+    - Xijun Hu
+    - Yiming Long
+    - Shanzhong Sun
+    affiliation_match:
+    - nankai university
+    - capital normal university
+    year_in_period: 2003-present
+  doi: 10.1007/s00205-014-0749-6
+  venue: Archive for Rational Mechanics and Analysis
+- id: doi:10.1134/s1560354723520076
+  title: On the Uniqueness of Convex Central Configurations in the Planar $$4$$-Body
+    Problem
+  year: 2023
+  score: 25
+  evidence:
+    authors:
+    - Shanzhong Sun
+    - Zhifu Xie
+    - Peng You
+    affiliation_match:
+    - capital normal university
+    year_in_period: 2003-present
+  doi: 10.1134/s1560354723520076
+  venue: Regular and Chaotic Dynamics
+- id: doi:10.1007/s00205-004-0314-9
+  title: Collinear Central Configurations and Singular Surfaces in the Mass Space
+  year: 2004
+  score: 25
+  evidence:
+    authors:
+    - Yiming Long
+    - Shanzhong Sun
+    affiliation_match:
+    - nankai university
+    - capital normal university
+    year_in_period: 2001-2003
+  doi: 10.1007/s00205-004-0314-9
+  venue: Archive for Rational Mechanics and Analysis
+- id: '1201.4907'
+  title: Cyclic Homology of Fukaya Categories and the Linearized Contact Homology
+  year: 2012
+  score: 11
+  evidence:
+    authors:
+    - Xiaojun Chen
+    - Hai-Long Her
+    - Shanzhong Sun
+    year_in_period: 2003-present
+    keywords:
+    - fukaya
+    math_venue: arxiv (cornell university)
+  doi: 10.48550/arxiv.1201.4907
+  venue: null
+- id: '1608.08294'
+  title: Gutzwiller's Semiclassical Trace Formula and Maslov-Type Index Theory for
+    Symplectic Paths
+  year: 2016
+  score: 17
+  evidence:
+    authors:
+    - Shanzhong Sun
+    year_in_period: 2003-present
+    keywords:
+    - formula
+    - semiclassical
+    - symplectic
+    math_venue: arxiv (cornell university)
+  doi: 10.48550/arxiv.1608.08294
+  venue: null
+- id: '2111.07714'
+  title: 'Elliptic Fixed Points with an Invariant Foliation: Some Facts and More Questions'
+  year: 2022
+  score: 25
+  evidence:
+    authors:
+    - Alain Chenciner
+    - David Sauzin
+    - Shanzhong Sun
+    - Qiaoling Wei
+    affiliation_match:
+    - capital normal university
+    - capital normal university
+    year_in_period: 2003-present
+  doi: 10.1134/s1560354722010063
+  venue: Regular and Chaotic Dynamics
+- id: doi:10.4213/faa4031
+  title: Ресургентность и частичные тета-ряды
+  year: 2023
+  score: 25
+  evidence:
+    authors:
+    - Han Li
+    - Yong Li
+    - David Sauzin
+    - Shanzhong Sun
+    affiliation_match:
+    - capital normal university
+    - nankai university
+    - capital normal university
+    year_in_period: 2003-present
+  doi: 10.4213/faa4031
+  venue: Функциональный анализ и его приложения

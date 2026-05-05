@@ -71,7 +71,7 @@ identity_profile:
   coauthor_circle_core_names: ['Ce Ji', 'Jian Zhou', 'Qingsheng Zhang']
   coauthor_circle_extended_slugs: [ruan-yongbin, wu-longting, yang-chenglang, zhang-huailiang, zhang-qing]
   coauthor_circle_extended_names: ['Chenglang Yang', 'Huai-Liang Chang', 'Longting Wu', 'Qing Zhang', 'Yongbin Ruan']
-  research_keywords: [calabi, gromov, hierarchy, integrable, mirror, moduli, spaces, symmetry, theory, witten]
+  research_keywords: [calabi, gromov, hierarchy, integrable, mirror, moduli, symmetry, witten]
   known_arxiv_ids:
     - '2605.02643'
     - '2507.20151'
@@ -144,7 +144,8 @@ publications:
     coauthors: [ji-ce, yang-chenglang]
     doi: '10.48550/arxiv.2502.09302'
     primary_category: math-ph
-    sources: [arxiv]
+    openalex_id: W4407574857
+    sources: [arxiv, openalex]
   - id: '2501.05622'
     title: 'Poincaré polynomials of moduli spaces of one-dimensional sheaves on the projective plane'
     year: 2025
@@ -273,7 +274,8 @@ publications:
     coauthors: ['Felix Janda', ruan-yongbin]
     doi: '10.48550/arxiv.1709.07392'
     primary_category: math.AG
-    sources: [arxiv]
+    openalex_id: W2758432579
+    sources: [arxiv, openalex]
   - id: '1703.06955'
     title: 'The Genus-One Global Mirror Theorem for the Quintic Threefold'
     year: 2017
@@ -307,6 +309,15 @@ publications:
     year: 2015
     coauthors: ['Dustin Ross']
     sources: [arxiv]
+  - id: 'doi:10.1142/s0129167x13500122'
+    title: 'ORBIFOLD ELLIPTIC GENERA OF QUOTIENTS OF COMPLETE INTERSECTIONS IN WEIGHTED PROJECTIVE SPACES'
+    year: 2013
+    coauthors: [zhou-jian]
+    doi: '10.1142/s0129167x13500122'
+    journal: 'International Journal of Mathematics'
+    openalex_id: W2061826412
+    sources: [openalex]
+    no_arxiv: true
   - id: '1208.3270'
     title: 'Gopakumar-Vafa BPS invariants, Hilbert schemes and quasimodular forms'
     year: 2012
@@ -314,14 +325,25 @@ publications:
     doi: '10.1016/j.aim.2014.09.013'
     journal: 'Advances in Mathematics'
     primary_category: math.AG
-    sources: [arxiv]
+    openalex_id: W2136259701
+    sources: [arxiv, openalex]
+  - id: 'doi:10.1142/s0129167x11007008'
+    title: 'ELLIPTIC GENERA OF COMPLETE INTERSECTIONS IN WEIGHTED PROJECTIVE SPACES'
+    year: 2010
+    coauthors: [zhou-jian]
+    doi: '10.1142/s0129167x11007008'
+    journal: 'International Journal of Mathematics'
+    openalex_id: W1977197055
+    sources: [openalex]
+    no_arxiv: true
 activity:
-  total_papers: 30
-  published_count: 17
+  total_papers: 32
+  published_count: 19
   preprint_only_count: 13
   h_index: 7
   active_period: '2011-present'
   peak_period: '2018-present'
+  confidence: 'has-14-review-pending'
   quality_source: 'openalex + ruirui-2026'
   t1_papers: 1
   t2_papers: 0

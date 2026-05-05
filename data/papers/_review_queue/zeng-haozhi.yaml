@@ -1,0 +1,67 @@
+slug: zeng-haozhi
+count: 4
+note: 需要人工核对的候选论文。score 在 10-19 之间。要么补 ORCID 进 identity_profile, 要么明确标 accepted/rejected
+candidates:
+- id: '1712.09269'
+  title: Geometry of regular Hessenberg varieties
+  year: 2017
+  score: 12
+  evidence:
+    authors:
+    - Hiraku Abe
+    - Naoki Fujita
+    - Haozhi Zeng
+    keywords:
+    - geometry
+    - hessenberg
+    - varieties
+    math_venue: arxiv (cornell university)
+  doi: 10.48550/arxiv.1712.09269
+  venue: null
+- id: '2203.02629'
+  title: The integral cohomology rings of Peterson varieties in type A
+  year: 2022
+  score: 12
+  evidence:
+    authors:
+    - Hiraku Abe
+    - Haozhi Zeng
+    keywords:
+    - cohomology
+    - peterson
+    - varieties
+    math_venue: arxiv (cornell university)
+  doi: 10.48550/arxiv.2203.02629
+  venue: null
+- id: '2310.02818'
+  title: Peterson varieties and toric orbifolds associated to Cartan matrices
+  year: 2023
+  score: 12
+  evidence:
+    authors:
+    - Hiraku Abe
+    - Haozhi Zeng
+    keywords:
+    - orbifold
+    - peterson
+    - varieties
+    math_venue: arxiv (cornell university)
+  doi: 10.48550/arxiv.2310.02818
+  venue: null
+- id: '2507.23259'
+  title: Notes on the cohomology of partial Hessenberg varieties
+  year: 2025
+  score: 12
+  evidence:
+    authors:
+    - Tatsuya Horiguchi
+    - Mikiya Masuda
+    - Takashi Satō
+    - Haozhi Zeng
+    keywords:
+    - cohomology
+    - hessenberg
+    - varieties
+    math_venue: arxiv.org
+  doi: 10.48550/arxiv.2507.23259
+  venue: null

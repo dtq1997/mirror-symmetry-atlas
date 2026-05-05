@@ -1,0 +1,145 @@
+slug: liu-xiaobo
+count: 9
+note: 需要人工核对的候选论文。score 在 10-19 之间。要么补 ORCID 进 identity_profile, 要么明确标 accepted/rejected
+candidates:
+- id: doi:10.1101/2025.01.23.634609
+  title: 'Achievement-Based Differences in Cognitive-Emotional Interplay During Classroom
+    Learning: A Multimodal Analysis with Experience Sampling Method'
+  year: 2025
+  score: 25
+  evidence:
+    authors:
+    - Xiaobo Liu
+    - Lan Fu
+    - Zihao Yang
+    - Zheng Zhang
+    - Yu Zhang
+    affiliation_match:
+    - tsinghua university
+    - tsinghua university
+    - tsinghua university
+    year_in_period: ~2018-present
+  doi: 10.1101/2025.01.23.634609
+  venue: null
+- id: '1712.02331'
+  title: Connecting Hodge integrals to Gromov-Witten invariants by Virasoro operators
+  year: 2017
+  score: 17
+  evidence:
+    authors:
+    - Xiaobo Liu
+    - Haijiang Yu
+    year_in_period: ~1995-2018
+    keywords:
+    - gromov
+    - virasoro
+    - witten
+    math_venue: arxiv (cornell university)
+  doi: 10.48550/arxiv.1712.02331
+  venue: null
+- id: doi:10.1007/s42543-020-00030-6
+  title: Connecting Hodge Integrals to Gromov–Witten Invariants by Virasoro Operators
+  year: 2020
+  score: 17
+  evidence:
+    authors:
+    - Xiaobo Liu
+    - Haijiang Yu
+    year_in_period: ~1995-2018
+    keywords:
+    - gromov
+    - virasoro
+    - witten
+    math_venue: peking mathematical journal
+  doi: 10.1007/s42543-020-00030-6
+  venue: Peking Mathematical Journal
+- id: doi:10.1007/978-981-16-0115-6_151
+  title: The Construction of Hybrid Learning Mode Based on Blackboard Network Platform
+  year: 2021
+  score: 10
+  evidence:
+    authors:
+    - Tongwen Xu
+    - Xiaobo Liu
+    coauthor_extended:
+    - Tongwen Xu
+    year_in_period: ~2018-present
+  doi: 10.1007/978-981-16-0115-6_151
+  venue: Lecture notes in electrical engineering
+- id: doi:10.1007/s10114-024-4998-5
+  title: Preface of the Special Issue on Symplectic Geometry and Mathematical Physics
+  year: 2024
+  score: 13
+  evidence:
+    authors:
+    - Huijun Fan
+    - Xiaobo Liu
+    - Gang Tian
+    coauthor_extended:
+    - Gang Tian
+    year_in_period: ~2018-present
+    math_venue: acta mathematica sinica english series
+  doi: 10.1007/s10114-024-4998-5
+  venue: Acta Mathematica Sinica English Series
+- id: doi:10.48550/arxiv.math/0301161
+  title: Relations Among Universal Equations For Gromov-Witten Invariants
+  year: 2003
+  score: 14
+  evidence:
+    authors:
+    - Xiaobo Liu
+    year_in_period: ~1995-2018
+    keywords:
+    - gromov
+    - witten
+    math_venue: arxiv (cornell university)
+  doi: 10.48550/arxiv.math/0301161
+  venue: null
+- id: doi:10.1007/s11425-024-2436-x
+  title: On a tautological relation conjectured by Buryak and Shadrin
+  year: 2025
+  score: 13
+  evidence:
+    authors:
+    - Xiaobo Liu
+    - Chongyu Wang
+    coauthor_extended:
+    - Chongyu Wang
+    year_in_period: ~2018-present
+    math_venue: science china mathematics
+  doi: 10.1007/s11425-024-2436-x
+  venue: Science China Mathematics
+- id: doi:10.48550/arxiv.2603.02736
+  title: Complexity of quantum cohomology
+  year: 2026
+  score: 19
+  evidence:
+    authors:
+    - Xiaobo Liu
+    - Chongyu Wang
+    coauthor_extended:
+    - Chongyu Wang
+    year_in_period: ~2018-present
+    keywords:
+    - cohomology
+    - quantum
+    math_venue: arxiv (cornell university)
+  doi: 10.48550/arxiv.2603.02736
+  venue: null
+- id: '2603.02736'
+  title: Complexity of quantum cohomology
+  year: 2026
+  score: 19
+  evidence:
+    authors:
+    - Xiaobo Liu
+    - Chongyu Wang
+    coauthor_extended:
+    - Chongyu Wang
+    year_in_period: ~2018-present
+    keywords:
+    - cohomology
+    - quantum
+    math_venue: arxiv.org
+  doi: null
+  venue: ArXiv.org

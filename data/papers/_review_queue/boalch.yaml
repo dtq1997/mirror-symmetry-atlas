@@ -1,0 +1,211 @@
+slug: boalch
+count: 15
+note: 需要人工核对的候选论文。score 在 10-19 之间。要么补 ORCID 进 identity_profile, 要么明确标 accepted/rejected
+candidates:
+- id: doi:10.1215/s0012-7094-07-13924-3
+  title: Quasi-Hamiltonian geometry of meromorphic connections
+  year: 2007
+  score: 11
+  evidence:
+    authors:
+    - Philip Boalch
+    year_in_period: ~2000-2013
+    keywords:
+    - geometry
+    math_venue: duke mathematical journal
+  doi: 10.1215/s0012-7094-07-13924-3
+  venue: Duke Mathematical Journal
+- id: doi:10.1007/s002220100170
+  title: Stokes matrices, Poisson Lie groups and Frobenius manifolds
+  year: 2001
+  score: 17
+  evidence:
+    authors:
+    - Philip Boalch
+    year_in_period: ~1995-1999
+    keywords:
+    - frobenius
+    - poisson
+    - stokes
+    math_venue: inventiones mathematicae
+  doi: 10.1007/s002220100170
+  venue: Inventiones mathematicae
+- id: doi:10.1093/oso/9780198802020.003.0017
+  title: Wild Character Varieties, Meromorphic Hitchin Systems and Dynkin Diagrams
+  year: 2018
+  score: 11
+  evidence:
+    authors:
+    - Philip Boalch
+    year_in_period: 2013-present
+    keywords:
+    - character
+    - varieties
+  doi: 10.1093/oso/9780198802020.003.0017
+  venue: null
+- id: '1501.00930'
+  title: Wild character varieties, points on the Riemann sphere and Calabi's examples
+  year: 2019
+  score: 14
+  evidence:
+    authors:
+    - Philip Boalch
+    year_in_period: 2013-present
+    keywords:
+    - character
+    - varieties
+    math_venue: advanced studies in pure mathematics
+  doi: 10.2969/aspm/07610067
+  venue: null
+- id: '1309.7202'
+  title: Poisson varieties from Riemann surfaces
+  year: 2014
+  score: 14
+  evidence:
+    authors:
+    - Philip Boalch
+    year_in_period: ~2000-2013
+    keywords:
+    - poisson
+    - varieties
+    math_venue: indagationes mathematicae
+  doi: 10.1016/j.indag.2014.07.004
+  venue: null
+- id: '1107.0874'
+  title: Simply-laced isomonodromy systems
+  year: 2012
+  score: 11
+  evidence:
+    authors:
+    - Philip Boalch
+    year_in_period: ~2000-2013
+    keywords:
+    - isomonodromy
+    math_venue: publications mathématiques de l ihés
+  doi: 10.1007/s10240-012-0044-8
+  venue: null
+- id: doi:10.1090/jag/668
+  title: Symmetric cubic surfaces and 𝐆₂ character varieties
+  year: 2016
+  score: 14
+  evidence:
+    authors:
+    - Philip Boalch
+    - Robert Paluba
+    year_in_period: 2013-present
+    keywords:
+    - character
+    - varieties
+    math_venue: journal of algebraic geometry
+  doi: 10.1090/jag/668
+  venue: Journal of Algebraic Geometry
+- id: doi:10.48550/arxiv.math/0108152
+  title: G-bundles, isomonodromy and quantum Weyl groups
+  year: 2001
+  score: 11
+  evidence:
+    authors:
+    - Philip Boalch
+    year_in_period: ~1995-1999
+    keywords:
+    - isomonodromy
+    math_venue: arxiv.org
+  doi: 10.48550/arxiv.math/0108152
+  venue: null
+- id: doi:10.48550/arxiv.math/0203161
+  title: Quasi-Hamiltonian Geometry of Meromorphic Connections
+  year: 2002
+  score: 11
+  evidence:
+    authors:
+    - Philip Boalch
+    year_in_period: ~2000-2013
+    keywords:
+    - geometry
+    math_venue: arxiv (cornell university)
+  doi: 10.48550/arxiv.math/0203161
+  venue: null
+- id: '1501.00930'
+  title: Wild Character Varieties, points on the Riemann sphere and Calabi's\n examples
+  year: 2015
+  score: 14
+  evidence:
+    authors:
+    - Philip Boalch
+    year_in_period: ~2000-2013
+    keywords:
+    - character
+    - varieties
+    math_venue: arxiv (cornell university)
+  doi: 10.48550/arxiv.1501.00930
+  venue: null
+- id: '1305.6594'
+  title: Symmetric cubic surfaces and G_2 character varieties
+  year: 2013
+  score: 14
+  evidence:
+    authors:
+    - Philip Boalch
+    - Robert Paluba
+    year_in_period: ~2000-2013
+    keywords:
+    - character
+    - varieties
+    math_venue: arxiv (cornell university)
+  doi: 10.48550/arxiv.1305.6594
+  venue: null
+- id: openalex:W4213399672
+  title: HYPERKAHLER MANIFOLDS AND NONABELIAN HODGE THEORY OF (IRREGULAR) CURVES
+  year: 2015
+  score: 25
+  evidence:
+    authors:
+    - Philip Boalch
+    affiliation_match:
+    - université paris sciences et lettres
+    year_in_period: ~2000-2013
+  doi: null
+  venue: null
+- id: '1305.6593'
+  title: Geometry of moduli spaces of meromorphic connections on curves, Stokes\n
+    data, wild nonabelian Hodge theory, hyperkahler manifolds, isomonodromic\n deformations,
+    Painleve equations, and relations to Lie theory
+  year: 2013
+  score: 17
+  evidence:
+    authors:
+    - Philip Boalch
+    year_in_period: ~2000-2013
+    keywords:
+    - geometry
+    - isomonodromy
+    - stokes
+    math_venue: arxiv (cornell university)
+  doi: 10.48550/arxiv.1305.6593
+  venue: null
+- id: doi:10.48550/arxiv.1703.10376
+  title: Wild character varieties, meromorphic Hitchin systems and Dynkin diagrams
+  year: 2017
+  score: 14
+  evidence:
+    authors:
+    - Philip Boalch
+    year_in_period: 2013-present
+    keywords:
+    - character
+    - varieties
+    math_venue: arxiv (cornell university)
+  doi: 10.48550/arxiv.1703.10376
+  venue: null
+- id: '2410.23358'
+  title: Counting the fission trees and nonabelian Hodge graphs (untwisted case)
+  year: 2024
+  score: 25
+  evidence:
+    authors:
+    - Philip Boalch
+    affiliation_match:
+    - université paris cité
+    year_in_period: 2013-present
+  doi: 10.48550/arxiv.2410.23358
+  venue: null

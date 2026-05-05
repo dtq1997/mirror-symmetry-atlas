@@ -46,7 +46,7 @@ identity_profile:
   email_domains: [bicmr.pku.edu.cn, sustech.edu.cn]
   coauthor_circle_core_slugs: [guo-shuai, liu-xiaobo]
   coauthor_circle_core_names: ['Shuai Guo', 'Xiaobo Liu']
-  research_keywords: [algebraic, enumerative, geometry, gromov, invariants, moduli, relative, spaces, theory, witten]
+  research_keywords: [algebraic, enumerative, geometry, gromov, invariants, moduli, relative, witten]
   known_arxiv_ids:
     - '2501.05622'
     - '2303.00503'
@@ -90,34 +90,52 @@ publications:
     title: 'Poincaré polynomials of moduli spaces of one-dimensional sheaves on the projective plane'
     year: 2025
     coauthors: [guo-shuai, 'Miguel Moreira']
+    doi: '10.48550/arxiv.2501.05622'
     primary_category: math.AG
+    openalex_id: W4406316996
+    sources: [arxiv, openalex]
   - id: '2303.00503'
     title: 'All-genus WDVV recursion, quivers, and BPS invariants'
     year: 2023
     coauthors: ['Pierrick Bousseau']
+    doi: '10.48550/arxiv.2303.00503'
     primary_category: math.AG
+    openalex_id: W4323030280
+    sources: [arxiv, openalex]
   - id: '2112.09180'
     title: 'A new approach to the operator formalism for Gromov-Witten invariants of the cap and tube'
     year: 2021
     coauthors: ['Ajith Urundolil Kumaran']
+    doi: '10.1016/j.aim.2023.109357'
+    journal: 'Advances in Mathematics'
     primary_category: math.AG
+    openalex_id: W4387924736
+    sources: [arxiv, openalex]
   - id: '2001.05347'
     title: 'Holomorphic anomaly equation for (P^2, E) and the Nekrasov-Shatashvili limit of local P^2'
     year: 2020
     coauthors: ['Pierrick Bousseau', 'Honglu Fan', guo-shuai]
     doi: '10.1017/fmp.2021.3'
+    journal: 'Repository for Publications and Research Data (ETH Zurich)'
     primary_category: math.AG
+    openalex_id: W3159918510
+    sources: [arxiv, openalex]
   - id: '1907.07133'
     title: 'Higher genus relative Gromov-Witten theory and double ramification cycles'
     year: 2019
     coauthors: ['Honglu Fan', 'Fenglong You']
     doi: '10.1112/jlms.12417'
     primary_category: math.AG
+    sources: [arxiv]
   - id: '1902.05739'
     title: 'Witten-Dijkgraaf-Verlinde-Verlinde equation and its application to relative Gromov-Witten theory'
     year: 2019
     coauthors: ['Honglu Fan']
+    doi: '10.1093/imrn/rnz353'
+    journal: 'International Mathematics Research Notices'
     primary_category: math.AG
+    openalex_id: W3000583658
+    sources: [arxiv, openalex]
   - id: '1810.06952'
     title: 'Structures in genus-zero relative Gromov-Witten theory'
     year: 2018
@@ -125,26 +143,37 @@ publications:
     doi: '10.1112/topo.12131'
     journal: 'J. Topol. 13(2020) issue 1, 269-307'
     primary_category: math.AG
+    sources: [arxiv]
   - id: '1705.06402'
     title: 'A Remark on Gromov-Witten Invariants of Quintic Threefold'
     year: 2017
     coauthors: []
     doi: '10.1016/j.aim.2017.12.016'
+    journal: 'Advances in Mathematics'
     primary_category: math.AG
+    openalex_id: W2616840366
+    sources: [arxiv, openalex]
   - id: '1705.06018'
     title: 'Chamber structure for some equivariant relative Gromov-Witten invariants of P^1 in genus 0'
     year: 2017
     coauthors: []
+    doi: '10.48550/arxiv.1705.06018'
+    journal: 'Acta Mathematica Sinica English Series'
     primary_category: math.AG
+    openalex_id: W2615502428
+    sources: [arxiv, openalex]
   - id: '1103.4695'
     title: 'Effect of a crossing change on crossing number'
     year: 2011
     coauthors: ['Shuting Shao', 'Shan Liu', 'Fengchun Lei']
+    doi: '10.48550/arxiv.1103.4695'
     primary_category: math.GT
+    openalex_id: W1493392983
+    sources: [arxiv, openalex]
 activity:
   total_papers: 10
-  published_count: 4
-  preprint_only_count: 6
+  published_count: 10
+  preprint_only_count: 0
   active_period: '2017-present'
 external_ids:
   orcid: "0000-0002-0210-4220"

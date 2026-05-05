@@ -1,0 +1,47 @@
+slug: he-weiqiang
+count: 3
+note: 需要人工核对的候选论文。score 在 10-19 之间。要么补 ORCID 进 identity_profile, 要么明确标 accepted/rejected
+candidates:
+- id: '2001.00536'
+  title: A Landau-Ginzburg mirror theorem via matrix factorizations
+  year: 2020
+  score: 12
+  evidence:
+    authors:
+    - Weiqiang He
+    - Alexander Polishchuk
+    - Yefeng Shen
+    - Arkady Vaintrob
+    keywords:
+    - ginzburg
+    - landau
+    - mirror
+    math_venue: arxiv (cornell university)
+  doi: 10.48550/arxiv.2001.00536
+  venue: null
+- id: '2103.00313'
+  title: Virasoro constraints in quantum singularity theories
+  year: 2021
+  score: 12
+  evidence:
+    authors:
+    - Weiqiang He
+    - Yefeng Shen
+    keywords:
+    - constraints
+    - quantum
+    - virasoro
+    math_venue: arxiv (cornell university)
+  doi: 10.48550/arxiv.2103.00313
+  venue: null
+- id: openalex:W2387749528
+  title: The Construction of Corporate Management Mode in Non-profit Organizations
+  year: 2011
+  score: 20
+  evidence:
+    authors:
+    - Weiqiang He
+    affiliation_match:
+    - sun yat-sen university
+  doi: null
+  venue: Journal of Social Work

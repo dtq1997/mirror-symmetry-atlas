@@ -36,18 +36,7 @@ identity_profile:
       role: '硕士生导师'
   coauthor_circle_core_slugs: [chen-zhuo, xiang-maosong]
   coauthor_circle_core_names: ['Maosong Xiang', 'Zhuo Chen']
-  research_keywords:
-    - 'algebra'
-    - 'algebroid'
-    - 'courant'
-    - 'dirac'
-    - 'filippov'
-    - 'geometry'
-    - 'hierarchy'
-    - 'higher'
-    - 'integrable'
-    - 'manifold'
-    - 'rinehart'
+  research_keywords: [algebroid, courant, filippov, geometry, hierarchy, higher, integrable, rinehart]
   known_arxiv_ids:
     - '2512.03391'
     - '2509.25995'

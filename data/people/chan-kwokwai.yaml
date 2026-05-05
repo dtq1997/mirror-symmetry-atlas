@@ -109,20 +109,7 @@ identity_profile:
   coauthor_circle_core_names: ['Naichung Conan Leung', 'Qin Li', 'Shing-Tung Yau']
   coauthor_circle_extended_slugs: [li-changzheng, wen-hao]
   coauthor_circle_extended_names: ['Changzheng Li', 'Hao Wen']
-  research_keywords:
-    - 'calabi'
-    - 'crossing'
-    - 'deformation'
-    - 'gromov'
-    - 'homological'
-    - 'mirror'
-    - 'open'
-    - 'quantization'
-    - 'symmetry'
-    - 'theory'
-    - 'toric'
-    - 'wall'
-    - 'witten'
+  research_keywords: [calabi, crossing, deformation, gromov, homological, mirror, quantization, symmetry, witten]
   known_arxiv_ids:
     - '2604.26292'
     - '2601.19691'
@@ -194,8 +181,10 @@ publications:
     year: 2026
     coauthors: [leung-naichung, li-qin, 'Yat-Hin Suen', 'Yutung Yau']
     doi: '10.48550/arxiv.2604.26292'
+    journal: 'ArXiv.org'
     primary_category: math.DG
-    sources: [arxiv]
+    openalex_id: W7158891686
+    sources: [arxiv, openalex]
   - id: '2601.19691'
     title: 'Iwahori-Coulomb branches, stable envelopes, and quantum cohomology of cotangent bundles of flag varieties'
     year: 2026
@@ -209,7 +198,8 @@ publications:
     coauthors: [leung-naichung, li-qin, 'Yutung Yau']
     doi: '10.48550/arxiv.2511.16889'
     primary_category: math.DG
-    sources: [arxiv]
+    openalex_id: W4416593930
+    sources: [arxiv, openalex]
   - id: '2505.23340'
     title: 'Quantum cohomology, shift operators, and Coulomb branches'
     year: 2025
@@ -232,7 +222,8 @@ publications:
     doi: '10.1016/j.aim.2023.109293'
     journal: 'Adv. Math. 433 (2023), 109293, 34 pp'
     primary_category: math.QA
-    sources: [arxiv]
+    openalex_id: W4386633691
+    sources: [arxiv, openalex]
   - id: '2205.09926'
     title: 'Smoothing, scattering, and a conjecture of Fukaya'
     year: 2022
@@ -240,7 +231,8 @@ publications:
     doi: '10.1017/fmp.2024.32'
     journal: 'Forum Math. Pi 13 (2025), Paper No. e7'
     primary_category: math.AG
-    sources: [arxiv]
+    openalex_id: W4281393893
+    sources: [arxiv, openalex]
   - id: '2205.01394'
     title: 'From deformation theory to tropical geometry'
     year: 2022
@@ -256,7 +248,8 @@ publications:
     doi: '10.1016/j.geomphys.2021.104143'
     journal: 'J. Geom. Phys. 163 (2021), 104143, 13 pp'
     primary_category: math.DG
-    sources: [arxiv]
+    openalex_id: W3084115361
+    sources: [arxiv, openalex]
   - id: '2008.11496'
     title: 'Bargmann-Fock sheaves on Kähler manifolds'
     year: 2020
@@ -264,7 +257,8 @@ publications:
     doi: '10.1007/s00220-021-04251-3'
     journal: 'Comm. Math. Phys. 388 (2021), no. 3, 1297-1322'
     primary_category: math.DG
-    sources: [arxiv]
+    openalex_id: W3080318474
+    sources: [arxiv, openalex]
   - id: '2008.07057'
     title: 'Kapranov''s $L_\infty$ structures, Fedosov''s star products, and one-loop exact BV quantizations on Kähler manifolds'
     year: 2020
@@ -272,7 +266,8 @@ publications:
     doi: '10.4310/CNTP.2022.v16.n2.a2'
     journal: 'Commun. Number Theory Phys. 16 (2022), no. 2, 299-351'
     primary_category: math.QA
-    sources: [arxiv]
+    openalex_id: W3049715636
+    sources: [arxiv, openalex]
   - id: '2004.00523'
     title: 'Tropical Lagrangian multi-sections and smoothing of locally free sheaves over degenerate Calabi-Yau surfaces'
     year: 2020
@@ -288,7 +283,8 @@ publications:
     doi: '10.4310/ATMP.2022.v26.n1.a1'
     journal: 'Adv. Theor. Math. Phys. 26 (2022), no. 1, 1-36'
     primary_category: math.QA
-    sources: [arxiv]
+    openalex_id: W4307407143
+    sources: [arxiv, openalex]
   - id: '1910.08256'
     title: 'Smoothing pairs over degenerate Calabi-Yau varieties'
     year: 2019
@@ -304,7 +300,8 @@ publications:
     doi: '10.4310/jdg/1695236591'
     journal: 'J. Differential Geom. 125 (2023), no. 1, 1-84'
     primary_category: math.AG
-    sources: [arxiv]
+    openalex_id: W4386885235
+    sources: [arxiv, openalex]
   - id: '1902.05904'
     title: 'A Note on Disk Counting in Toric Orbifolds'
     year: 2019
@@ -312,7 +309,8 @@ publications:
     doi: '10.3842/SIGMA.2020.055'
     journal: 'SIGMA 16 (2020), 055, 15 pages'
     primary_category: math.SG
-    sources: [arxiv]
+    openalex_id: W2911326041
+    sources: [arxiv, openalex]
   - id: '1811.09774'
     title: 'Pseudotoric structures and special Lagrangian torus fibrations on certain flag varieties'
     year: 2018
@@ -320,7 +318,8 @@ publications:
     doi: '10.1016/j.geomphys.2019.103489'
     journal: 'J. Geom. Phys. 146 (2019), 103489, 16 pp'
     primary_category: math.SG
-    sources: [arxiv]
+    openalex_id: W2901332389
+    sources: [arxiv, openalex]
   - id: '1808.07305'
     title: 'Geometric quantization via SYZ transforms'
     year: 2018
@@ -344,7 +343,8 @@ publications:
     doi: '10.4171/JEMS/1100'
     journal: 'J. Eur. Math. Soc. (JEMS) 24 (2022), no. 3, 773-849'
     primary_category: math.AG
-    sources: [arxiv]
+    openalex_id: W2883040144
+    sources: [arxiv, openalex]
   - id: '1712.02586'
     title: 'SYZ transforms for immersed Lagrangian multi-sections'
     year: 2017
@@ -384,6 +384,14 @@ publications:
     journal: 'Asian J. Math. 23 (2019), no. 4, 681-702'
     primary_category: math.DG
     sources: [arxiv]
+  - id: 'openalex:W3098898350'
+    title: 'Gross fibrations, SYZ mirror symmetry, and open Gromov–Witten invariants for\n\t\t\t\ttoric Calabi–Yau orbifolds'
+    year: 2016
+    coauthors: ['Cheol‐Hyun Cho', 'Siu-Cheong Lau', 'Hsian‐Hua Tseng']
+    journal: 'Project Euclid (Cornell University)'
+    openalex_id: W3098898350
+    sources: [openalex]
+    no_arxiv: true
   - id: '1502.03510'
     title: 'BV quantization of the Rozansky-Witten model'
     year: 2015
@@ -391,7 +399,16 @@ publications:
     doi: '10.1007/s00220-017-2924-8'
     journal: 'Comm. Math. Phys. 355 (2017), no. 1, 97-144'
     primary_category: math.QA
-    sources: [arxiv]
+    openalex_id: W2581960795
+    sources: [arxiv, openalex]
+  - id: 'doi:10.4310/jdg/1418345540'
+    title: 'Erratum to "SYZ mirror symmetry for toric Calabi-Yau manifolds"'
+    year: 2015
+    coauthors: ['Siu-Cheong Lau', leung-naichung]
+    doi: '10.4310/jdg/1418345540'
+    openalex_id: W1556958449
+    sources: [openalex]
+    no_arxiv: true
   - id: '1412.7231'
     title: 'SYZ mirror symmetry for toric varieties'
     year: 2014
@@ -455,7 +472,8 @@ publications:
     doi: '10.1215/00127094-0000003X'
     journal: 'Duke Math. J. 166 (2017), no. 8, 1405-1462'
     primary_category: math.SG
-    sources: [arxiv]
+    openalex_id: W1670169102
+    sources: [arxiv, openalex]
   - id: '1208.5282'
     title: 'Lagrangian Floer superpotentials and crepant resolutions for toric orbifolds'
     year: 2012
@@ -463,7 +481,8 @@ publications:
     doi: '10.1007/s00220-014-1948-6'
     journal: 'Comm. Math. Phys. 328 (2014), no. 1, 83-130'
     primary_category: math.SG
-    sources: [arxiv]
+    openalex_id: W2065120209
+    sources: [arxiv, openalex]
   - id: '1006.3830'
     title: 'SYZ mirror symmetry for toric Calabi-Yau manifolds'
     year: 2012
@@ -495,7 +514,8 @@ publications:
     doi: '10.1016/j.aim.2013.05.018'
     journal: 'Adv. Math. 244 (2013), 605-625'
     primary_category: math.SG
-    sources: [arxiv]
+    openalex_id: W2076575893
+    sources: [arxiv, openalex]
   - id: '1010.5287'
     title: 'Open Gromov-Witten invariants and superpotentials for semi-Fano toric surfaces'
     year: 2010
@@ -511,7 +531,8 @@ publications:
     doi: '10.48550/arxiv.1006.3832'
     journal: '"Advances in Geometric Analysis", 203-224, Adv. Lect. Math. (ALM) 21, Int. Press, Somerville, MA, 2012'
     primary_category: math.SG
-    sources: [arxiv]
+    openalex_id: W2147997520
+    sources: [arxiv, openalex]
   - id: '1006.3827'
     title: 'A formula equating open and closed Gromov-Witten invariants and its applications to mirror symmetry'
     year: 2010
@@ -527,7 +548,8 @@ publications:
     doi: '10.4310/MRL.2010.v17.n3.a3'
     journal: 'Math. Res. Lett. 17 (2010), no. 3, 401-414'
     primary_category: math.SG
-    sources: [arxiv]
+    openalex_id: W2104899722
+    sources: [arxiv, openalex]
   - id: '0903.1164'
     title: 'Holomorphic line bundles on projective toric manifolds from Lagrangian sections of their mirrors by SYZ transformations'
     year: 2009
@@ -543,7 +565,8 @@ publications:
     doi: '10.2969/aspm/05910001'
     journal: '"New Developments in Algebraic Geometry, Integrable Systems and Mirror Symmetry", 1-30, Adv. Stud. Pure Math., 59, Math. Soc. Japan, Tokyo, 2010'
     primary_category: math.SG
-    sources: [arxiv]
+    openalex_id: W2962847390
+    sources: [arxiv, openalex]
   - id: '0801.2830'
     title: 'Mirror symmetry for toric Fano manifolds via SYZ transformations'
     year: 2008
@@ -551,12 +574,23 @@ publications:
     doi: '10.1016/j.aim.2009.09.009'
     journal: 'Adv. Math. 223 (2010), no. 3, 797-839'
     primary_category: math.SG
-    sources: [arxiv]
+    openalex_id: W2035199656
+    sources: [arxiv, openalex]
+  - id: 'doi:10.4310/cag.2007.v15.n2.a6'
+    title: 'Miyaoka-Yau-type inequalities for Kähler-Einstein manifolds'
+    year: 2007
+    coauthors: [leung-naichung]
+    doi: '10.4310/cag.2007.v15.n2.a6'
+    journal: 'Communications in Analysis and Geometry'
+    openalex_id: W2001335070
+    sources: [openalex]
+    no_arxiv: true
 activity:
-  total_papers: 46
-  published_count: 46
+  total_papers: 49
+  published_count: 49
   preprint_only_count: 0
   active_period: '2008-present'
+  confidence: 'has-18-review-pending'
 external_ids:
   mathgenealogy: "[待验证]"
   openalex: A5077398474

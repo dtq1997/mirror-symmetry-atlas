@@ -245,8 +245,30 @@ def score_candidate(paper, profile, target_name, all_people=None):
                 evidence['math_venue'] = venue[:60]
 
     # --- DECISION ---
-    if score >= 20:
+    # affiliation alone is unreliable: many universities have multiple same-name
+    # researchers (e.g. PKU has both math Liu and CS Liu). Require at least one
+    # independent corroborating signal (coauthor, keyword, math venue) for
+    # acceptance. Without that the affiliation match is at best a "review".
+    independent_signals = sum(1 for k in [
+        'coauthor_core', 'coauthor_extended', 'keywords',
+        'math_category', 'math_venue', 'email_match',
+    ] if k in evidence)
+
+    # Core-coauthor hit is itself decisive when accompanied by another signal,
+    # even if total score < 20: a known advisor/student/key-collaborator
+    # appearing in the author list almost always identifies the right person.
+    if 'coauthor_core' in evidence and (
+        'math_category' in evidence or 'math_venue' in evidence
+        or 'affiliation_match' in evidence or 'year_in_period' in evidence
+    ):
         return 'accept', score, evidence
+
+    if score >= 20 and independent_signals >= 1:
+        return 'accept', score, evidence
+    if score >= 30 and independent_signals == 0:
+        # Extreme score from many same-affiliation hits: reluctantly review,
+        # never auto-accept without an independent topic signal.
+        return 'review', score, evidence
     if score < 10:
         return 'reject', score, evidence
     return 'review', score, evidence

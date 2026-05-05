@@ -1,0 +1,184 @@
+slug: k-saito
+count: 13
+note: 需要人工核对的候选论文。score 在 10-19 之间。要么补 ORCID 进 identity_profile, 要么明确标 accepted/rejected
+candidates:
+- id: doi:10.1007/bf01405360
+  title: Quasihomogene isolierte Singularit�ten von Hyperfl�chen
+  year: 1971
+  score: 11
+  evidence:
+    authors:
+    - Kyoji Saito
+    year_in_period: ~1967-1971
+    keywords:
+    - singularity
+    math_venue: inventiones mathematicae
+  doi: 10.1007/bf01405360
+  venue: Inventiones mathematicae
+- id: doi:10.4171/jems/691
+  title: Mirror symmetry for exceptional unimodular singularities
+  year: 2017
+  score: 16
+  evidence:
+    authors:
+    - Changzheng Li
+    - Si Li
+    - Kyoji Saito
+    - Yefeng Shen
+    coauthor_extended:
+    - Changzheng Li
+    - Si Li
+    keywords:
+    - singularity
+    math_venue: journal of the european mathematical society
+  doi: 10.4171/jems/691
+  venue: Journal of the European Mathematical Society
+- id: doi:10.1007/978-1-4612-0705-4_14
+  title: 'Duality for Regular Systems of Weights: A Précis'
+  year: 1998
+  score: 25
+  evidence:
+    authors:
+    - Kyoji Saito
+    affiliation_match:
+    - kyoto university
+    year_in_period: ~1980-2010
+  doi: 10.1007/978-1-4612-0705-4_14
+  venue: Birkhäuser Boston eBooks
+- id: doi:10.1016/b978-0-12-348032-3.50009-8
+  title: Algebraic Surfaces for Regular Systems of Weights
+  year: 1988
+  score: 25
+  evidence:
+    authors:
+    - Kyoji Saito
+    affiliation_match:
+    - kyoto university
+    year_in_period: ~1980-2010
+  doi: 10.1016/b978-0-12-348032-3.50009-8
+  venue: Elsevier eBooks
+- id: doi:10.1007/978-3-319-28829-1_11
+  title: Coherence of Direct Images of the De Rham Complex
+  year: 2017
+  score: 20
+  evidence:
+    authors:
+    - Kyoji Saito
+    affiliation_match:
+    - kavli institute for the physics and mathematics of the universe
+  doi: 10.1007/978-3-319-28829-1_11
+  venue: null
+- id: doi:10.1090/pspum/078/2483747
+  title: From primitive forms to Frobenius manifolds
+  year: 2008
+  score: 14
+  evidence:
+    authors:
+    - Kyoji Saito
+    - Atsushi Takahashi
+    year_in_period: ~1980-2010
+    keywords:
+    - frobenius
+    - primitive
+    math_venue: proceedings of symposia in pure mathematics
+  doi: 10.1090/pspum/078/2483747
+  venue: null
+- id: '1311.1659'
+  title: Primitive forms via polyvector fields
+  year: 2013
+  score: 16
+  evidence:
+    authors:
+    - Changzheng Li
+    - Si Li
+    - Kyoji Saito
+    coauthor_extended:
+    - Changzheng Li
+    - Si Li
+    keywords:
+    - primitive
+    math_venue: arxiv (cornell university)
+  doi: 10.48550/arxiv.1311.1659
+  venue: null
+- id: doi:10.1090/pspum/040.2/713270
+  title: The higher residue pairings 𝐾_{𝐹}^{(𝑘)} for a family of hypersurface singular
+    points
+  year: 1983
+  score: 11
+  evidence:
+    authors:
+    - Kyoji Saito
+    year_in_period: ~1980-2010
+    keywords:
+    - singularity
+    math_venue: proceedings of symposia in pure mathematics
+  doi: 10.1090/pspum/040.2/713270
+  venue: null
+- id: doi:10.1090/trans2/183/05
+  title: 'Around the theory of the generalized weight system: Relations with singularity
+    theory, the generalized Weyl group, and its invariant theory, etc.'
+  year: 1997
+  score: 11
+  evidence:
+    authors:
+    - Kyoji Saito
+    year_in_period: ~1980-2010
+    keywords:
+    - singularity
+    math_venue: 'translations - american mathematical society/translations '
+  doi: 10.1090/trans2/183/05
+  venue: null
+- id: '1405.4530'
+  title: Mirror symmetry for exceptional unimodular singularities
+  year: 2014
+  score: 16
+  evidence:
+    authors:
+    - Changzheng Li
+    - Si Li
+    - Kyoji Saito
+    - Yefeng Shen
+    coauthor_extended:
+    - Changzheng Li
+    - Si Li
+    keywords:
+    - singularity
+    math_venue: arxiv (cornell university)
+  doi: 10.48550/arxiv.1405.4530
+  venue: null
+- id: doi:10.1016/b978-0-12-400466-5.50023-8
+  title: Moduli Space for Fuchsian Groups
+  year: 1988
+  score: 25
+  evidence:
+    authors:
+    - Kyoji Saito
+    affiliation_match:
+    - kyoto university
+    year_in_period: ~1980-2010
+  doi: 10.1016/b978-0-12-400466-5.50023-8
+  venue: Elsevier eBooks
+- id: doi:10.1017/cbo9780511569302.012
+  title: Algebraic representation of the Teichmüller spaces
+  year: 1994
+  score: 25
+  evidence:
+    authors:
+    - Kyoji Saito
+    affiliation_match:
+    - kyoto university
+    year_in_period: ~1980-2010
+  doi: 10.1017/cbo9780511569302.012
+  venue: Cambridge University Press eBooks
+- id: doi:10.34508/repsympo.1994.0_1
+  title: Character Variety of Representations of a Finitely Generated Group in SL2
+  year: 1994
+  score: 25
+  evidence:
+    authors:
+    - Kyoji Saito
+    affiliation_match:
+    - kyoto university of education
+    year_in_period: ~1980-2010
+  doi: 10.34508/repsympo.1994.0_1
+  venue: null

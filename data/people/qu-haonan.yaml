@@ -52,22 +52,7 @@ identity_profile:
   email_domains: [mail.sysu.edu.cn, pku.edu.cn, tsinghua.edu.cn]
   coauthor_circle_core_slugs: [liu-siqi, zhang-youjin]
   coauthor_circle_core_names: ['Siqi Liu', 'Youjin Zhang']
-  research_keywords:
-    - 'ablowitz'
-    - 'bihamiltonian'
-    - 'equation'
-    - 'frobenius'
-    - 'hierarchies'
-    - 'hierarchy'
-    - 'integrable'
-    - 'ladik'
-    - 'manifolds'
-    - 'structure'
-    - 'structures'
-    - 'symmetries'
-    - 'toda'
-    - 'virasoro'
-    - 'wdvv'
+  research_keywords: [ablowitz, bihamiltonian, frobenius, hierarchies, hierarchy, integrable, symmetries, virasoro]
   known_arxiv_ids: [2510.04151, 2411.15496, 2402.00373, 2209.00483, 2108.03447]
 advisor: zhang-youjin
 students: []

@@ -1,0 +1,34 @@
+slug: hu-chuangqiang
+count: 2
+note: 需要人工核对的候选论文。score 在 10-19 之间。要么补 ORCID 进 identity_profile, 要么明确标 accepted/rejected
+candidates:
+- id: '2409.09384'
+  title: On the $k$-th Tjurina number of weighted homogeneous singularities
+  year: 2024
+  score: 14
+  evidence:
+    authors:
+    - Chuangqiang Hu
+    - Stephen S.‐T. Yau
+    - Huaiqing Zuo
+    year_in_period: '[待验证]-2025'
+    keywords:
+    - number
+    - singularity
+    math_venue: arxiv (cornell university)
+  doi: 10.48550/arxiv.2409.09384
+  venue: null
+- id: '2510.27159'
+  title: New optimal function field towers over finite fields of quartic power
+  year: 2025
+  score: 11
+  evidence:
+    authors:
+    - Chuangqiang Hu
+    - Zhu, Xiuwu
+    year_in_period: '[待验证]-2025'
+    keywords:
+    - fields
+    math_venue: arxiv.org
+  doi: 10.48550/arxiv.2510.27159
+  venue: null

@@ -1,0 +1,214 @@
+slug: lang-honglei
+count: 13
+note: 需要人工核对的候选论文。score 在 10-19 之间。要么补 ORCID 进 identity_profile, 要么明确标 accepted/rejected
+candidates:
+- id: '1802.09923'
+  title: Coadjoint orbits of Lie groupoids
+  year: 2018
+  score: 11
+  evidence:
+    authors:
+    - Honglei Lang
+    - Zhangju Liu
+    year_in_period: 2011-2016
+    keywords:
+    - groupoid
+    math_venue: journal of geometry and physics
+  doi: 10.1016/j.geomphys.2018.03.011
+  venue: Journal of Geometry and Physics
+- id: doi:10.1007/s00031-015-9347-4
+  title: INTEGRATION OF DERIVATIONS FOR LIE 2-ALGEBRAS
+  year: 2015
+  score: 25
+  evidence:
+    authors:
+    - Honglei Lang
+    - Z. J. Liu
+    - Yunhe Sheng
+    affiliation_match:
+    - jilin university
+    year_in_period: 2011-2016
+  doi: 10.1007/s00031-015-9347-4
+  venue: Transformation Groups
+- id: '1609.00984'
+  title: Atiyah Classes of Strongly Homotopy Lie Pairs
+  year: 2019
+  score: 18
+  evidence:
+    authors:
+    - Zhuo Chen
+    - Honglei Lang
+    - Maosong Xiang
+    coauthor_extended:
+    - Zhuo Chen
+    - Maosong Xiang
+    year_in_period: 2016-08 to 2018-01
+    math_venue: algebra colloquium
+  doi: 10.1142/s1005386719000178
+  venue: Algebra Colloquium
+- id: doi:10.1142/s0129167x2150021x
+  title: On Lie bialgebroid crossed modules
+  year: 2021
+  score: 16
+  evidence:
+    authors:
+    - Honglei Lang
+    - Yu Qiao
+    - Yanbin Yin
+    coauthor_extended:
+    - Yu Qiao
+    year_in_period: 2018-01-present
+    keywords:
+    - algebroid
+    math_venue: international journal of mathematics
+  doi: 10.1142/s0129167x2150021x
+  venue: International Journal of Mathematics
+- id: doi:10.1007/s11425-023-2231-1
+  title: Multiplicative forms on Poisson groupoids
+  year: 2024
+  score: 19
+  evidence:
+    authors:
+    - Zhuo Chen
+    - Honglei Lang
+    - Zhangju Liu
+    coauthor_extended:
+    - Zhuo Chen
+    year_in_period: 2018-01-present
+    keywords:
+    - groupoid
+    - poisson
+    math_venue: science china mathematics
+  doi: 10.1007/s11425-023-2231-1
+  venue: Science China Mathematics
+- id: '2003.13384'
+  title: On the reduced space of multiplicative multivectors
+  year: 2020
+  score: 13
+  evidence:
+    authors:
+    - Zhuo Chen
+    - Honglei Lang
+    - Liu, Zhangju
+    coauthor_extended:
+    - Zhuo Chen
+    year_in_period: 2016-08 to 2018-01
+    math_venue: arxiv (cornell university)
+  doi: 10.48550/arxiv.2003.13384
+  venue: null
+- id: '1910.12225'
+  title: On Lie Bialgebroid Crossed Modules
+  year: 2019
+  score: 16
+  evidence:
+    authors:
+    - Honglei Lang
+    - Yu Qiao
+    - Yanbin Yin
+    coauthor_extended:
+    - Yu Qiao
+    year_in_period: 2016-08 to 2018-01
+    keywords:
+    - algebroid
+    math_venue: arxiv (cornell university)
+  doi: 10.48550/arxiv.1910.12225
+  venue: null
+- id: '2201.06242'
+  title: Multiplicative forms on Poisson groupoids
+  year: 2022
+  score: 19
+  evidence:
+    authors:
+    - Zhuo Chen
+    - Honglei Lang
+    - Zhangju Liu
+    coauthor_extended:
+    - Zhuo Chen
+    year_in_period: 2018-01-present
+    keywords:
+    - groupoid
+    - poisson
+    math_venue: arxiv (cornell university)
+  doi: 10.48550/arxiv.2201.06242
+  venue: null
+- id: '2302.01294'
+  title: The weak Lie 2-algebra of multiplicative forms on a quasi-Poisson groupoid
+  year: 2023
+  score: 19
+  evidence:
+    authors:
+    - Zhuo Chen
+    - Honglei Lang
+    - Zhangju Liu
+    coauthor_extended:
+    - Zhuo Chen
+    year_in_period: 2018-01-present
+    keywords:
+    - groupoid
+    - poisson
+    math_venue: arxiv (cornell university)
+  doi: 10.48550/arxiv.2302.01294
+  venue: null
+- id: doi:10.1007/s00220-024-05015-5
+  title: The Weak Graded Lie 2-Algebra of Multiplicative Forms on a Quasi-Poisson
+    Groupoid
+  year: 2024
+  score: 19
+  evidence:
+    authors:
+    - Zhuo Chen
+    - Honglei Lang
+    - Zhangju Liu
+    coauthor_extended:
+    - Zhuo Chen
+    year_in_period: 2018-01-present
+    keywords:
+    - groupoid
+    - poisson
+    math_venue: communications in mathematical physics
+  doi: 10.1007/s00220-024-05015-5
+  venue: Communications in Mathematical Physics
+- id: '2506.20276'
+  title: Reflections on Rota-Baxter Lie algebras, the classical reflection equation
+    and Poisson homogeneous spaces
+  year: 2025
+  score: 14
+  evidence:
+    authors:
+    - Honglei Lang
+    - Yunhe Sheng
+    year_in_period: 2018-01-present
+    keywords:
+    - baxter
+    - poisson
+    math_venue: arxiv.org
+  doi: 10.48550/arxiv.2506.20276
+  venue: null
+- id: doi:10.1007/s11005-025-02003-1
+  title: Poisson homogeneous spaces of Poisson 2-groups
+  year: 2025
+  score: 11
+  evidence:
+    authors:
+    - Honglei Lang
+    - Zhangju Liu
+    year_in_period: 2018-01-present
+    keywords:
+    - poisson
+    math_venue: letters in mathematical physics
+  doi: 10.1007/s11005-025-02003-1
+  venue: Letters in Mathematical Physics
+- id: '2602.02041'
+  title: Relative Rota-Baxter operators and crossed homomorphisms on Lie 2-groups
+  year: 2026
+  score: 11
+  evidence:
+    authors:
+    - Honglei Lang
+    - Shining Wang
+    year_in_period: 2018-01-present
+    keywords:
+    - baxter
+    math_venue: arxiv.org
+  doi: null
+  venue: ArXiv.org

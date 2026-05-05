@@ -38,19 +38,7 @@ identity_profile:
       period: '[?]-present'
       role: '特聘副研究员'
   email_domains: [columbia.edu, whu.edu.cn]
-  research_keywords:
-    - 'braid'
-    - 'dimensional'
-    - 'floer'
-    - 'groups'
-    - 'heegaard'
-    - 'homology'
-    - 'jones'
-    - 'khovanov'
-    - 'knot'
-    - 'polynomial'
-    - 'symplectic'
-    - 'topology'
+  research_keywords: [dimensional, heegaard, homology, khovanov, polynomial, symplectic, topology]
   known_arxiv_ids: [2504.13005, 2202.09041, 2111.07792]
 advisor: abouzaid-mohammed
 students: []
@@ -70,7 +58,8 @@ publications:
     coauthors: []
     doi: '10.48550/arxiv.2504.13005'
     primary_category: math.GT
-    sources: [arxiv]
+    openalex_id: W4417091683
+    sources: [arxiv, openalex]
   - id: '2202.09041'
     title: 'Murasugi sum and extremal knot Floer homology'
     year: 2022
@@ -78,7 +67,8 @@ publications:
     doi: '10.48550/arxiv.2202.09041'
     journal: 'Quantum Topol. 16 (2025), 4, 795-830'
     primary_category: math.GT
-    sources: [arxiv]
+    openalex_id: W4226356727
+    sources: [arxiv, openalex]
   - id: '2111.07792'
     title: 'Bigrading the symplectic Khovanov cohomology'
     year: 2021
@@ -86,10 +76,19 @@ publications:
     doi: '10.2140/agt.2023.23.4057'
     journal: 'Algebr. Geom. Topol. 23 (2023) 4057-4086'
     primary_category: math.SG
-    sources: [arxiv]
+    openalex_id: W3213050380
+    sources: [arxiv, openalex]
+  - id: 'doi:10.7916/d8-x9qh-w954'
+    title: 'Jones grading from symplectic Khovanov homology'
+    year: 2020
+    coauthors: []
+    doi: '10.7916/d8-x9qh-w954'
+    openalex_id: W3044951873
+    sources: [openalex]
+    no_arxiv: true
 activity:
-  total_papers: 3
-  published_count: 3
+  total_papers: 4
+  published_count: 4
   preprint_only_count: 0
   active_period: '2020-present'
   quality_source: 'openalex + ruirui-2026'

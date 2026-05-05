@@ -51,20 +51,7 @@ identity_profile:
       period: '[待验证]-present'
       role: '讲师/副教授 [待验证具体职称]'
   email_domains: [amss.ac.cn, hust.edu.cn]
-  research_keywords:
-    - 'adic'
-    - 'arthur'
-    - 'automorphic'
-    - 'converse'
-    - 'functions'
-    - 'local'
-    - 'number'
-    - 'packets'
-    - 'rankin'
-    - 'representations'
-    - 'selberg'
-    - 'theorems'
-    - 'theory'
+  research_keywords: [arthur, automorphic, converse, number, packets, rankin, representations, selberg, theorems]
   known_arxiv_ids:
     - '2505.11381'
     - '2504.04163'

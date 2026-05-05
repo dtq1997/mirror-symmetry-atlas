@@ -1,0 +1,114 @@
+slug: leung-naichung
+count: 7
+note: 需要人工核对的候选论文。score 在 10-19 之间。要么补 ORCID 进 identity_profile, 要么明确标 accepted/rejected
+candidates:
+- id: doi:10.4310/mrl.2011.v18.n5.a12
+  title: A Relation for Gromov–Witten Invariants of Local Calabi–Yau Threefolds
+  year: 2011
+  score: 12
+  evidence:
+    authors:
+    - Siu-Cheong Lau
+    - Naichung Conan Leung
+    - Baosen Wu
+    keywords:
+    - calabi
+    - gromov
+    - witten
+    math_venue: mathematical research letters
+  doi: 10.4310/mrl.2011.v18.n5.a12
+  venue: Mathematical Research Letters
+- id: openalex:W612478773
+  title: Geometry of special holonomy and related topics
+  year: 2011
+  score: 16
+  evidence:
+    authors:
+    - Naichung Conan Leung
+    - Shing Tung Yau
+    coauthor_core:
+    - Shing Tung Yau
+    keywords:
+    - holonomy
+    - special
+  doi: null
+  venue: null
+- id: doi:10.1093/acprof:oso/9780199534920.003.0015
+  title: Mirror Symmetry of Fourier—Mukai Transformation for Elliptic Calabi—Yau Manifolds
+  year: 2010
+  score: 19
+  evidence:
+    authors:
+    - Naichung Conan Leung
+    - Shing‐Tung Yau
+    coauthor_core:
+    - Shing‐Tung Yau
+    keywords:
+    - calabi
+    - mirror
+    - symmetry
+  doi: 10.1093/acprof:oso/9780199534920.003.0015
+  venue: Oxford University Press eBooks
+- id: '1902.05904'
+  title: A Note on Disk Counting in Toric Orbifolds
+  year: 2020
+  score: 10
+  evidence:
+    authors:
+    - Kwokwai Chan
+    - Cheol-Hyun Cho
+    - Siu-Cheong Lau
+    - Naichung Conan Leung
+    - Hsian‐Hua Tseng
+    coauthor_core:
+    - Kwokwai Chan
+  doi: 10.3842/sigma.2020.055
+  venue: Symmetry Integrability and Geometry Methods and Applications
+- id: '1006.3828'
+  title: A relation for Gromov-Witten invariants of local Calabi-Yau threefolds
+  year: 2010
+  score: 12
+  evidence:
+    authors:
+    - Siu-Cheong Lau
+    - Naichung Conan Leung
+    - Baosen Wu
+    keywords:
+    - calabi
+    - gromov
+    - witten
+    math_venue: arxiv (cornell university)
+  doi: 10.48550/arxiv.1006.3828
+  venue: null
+- id: '1506.04218'
+  title: Remarks on mirror symmetry of Donaldson-Thomas theory for Calabi-Yau 4-folds
+  year: 2015
+  score: 12
+  evidence:
+    authors:
+    - Yalong Cao
+    - Naichung Conan Leung
+    keywords:
+    - calabi
+    - mirror
+    - symmetry
+    math_venue: arxiv (cornell university)
+  doi: 10.48550/arxiv.1506.04218
+  venue: null
+- id: openalex:W2125489002
+  title: Special Structures in Riemannian Geometry
+  year: 2008
+  score: 13
+  evidence:
+    authors:
+    - Spiro Karigiannis
+    - Gordon Craig
+    - Naichung Conan Leung
+    - Maung Min-Oo
+    - Shing‐Tung Yau
+    coauthor_core:
+    - Shing‐Tung Yau
+    keywords:
+    - special
+  doi: null
+  venue: null

@@ -1,0 +1,319 @@
+slug: wang-zhiyuan
+count: 17
+note: 需要人工核对的候选论文。score 在 10-19 之间。要么补 ORCID 进 identity_profile, 要么明确标 accepted/rejected
+candidates:
+- id: doi:10.1109/tie.2021.3102410
+  title: Online Monitoring for Underground Power Cable Insulation Based on Common-Mode
+    Signal Injection
+  year: 2021
+  score: 25
+  evidence:
+    authors:
+    - Yang Wu
+    - Yanyong Yang
+    - Zhiyuan Wang
+    - Pinjia Zhang
+    affiliation_match:
+    - tsinghua university
+    - tsinghua university
+    - tsinghua university
+    year_in_period: 2014-2019
+  doi: 10.1109/tie.2021.3102410
+  venue: IEEE Transactions on Industrial Electronics
+- id: doi:10.1002/inf2.12552
+  title: A <scp>dual‐range Janus‐structure</scp> pressure sensor with broad detection
+    range and high resolution combining triboelectricity and piezoelectricity
+  year: 2024
+  score: 25
+  evidence:
+    authors:
+    - Shilong Zhao
+    - Chaojie Chen
+    - Zhiyuan Wang
+    - Caofeng Pan
+    - Cheng Yang
+    affiliation_match:
+    - tsinghua university
+    - tsinghua university
+    - tsinghua university
+    year_in_period: 2019.12-2023.5
+  doi: 10.1002/inf2.12552
+  venue: InfoMat
+- id: doi:10.1109/tdei.2018.007631
+  title: Pattern of bubble evolution in liquids under repetitive pulsed power
+  year: 2019
+  score: 25
+  evidence:
+    authors:
+    - Ruobing Zhang
+    - Xin Li
+    - Zhiyuan Wang
+    affiliation_match:
+    - tsinghua university
+    - tsinghua university
+    - tsinghua university
+    year_in_period: 2014-2019
+  doi: 10.1109/tdei.2018.007631
+  venue: IEEE Transactions on Dielectrics and Electrical Insulation
+- id: doi:10.1063/1.4979100
+  title: A mechanical cell disruption microfluidic platform based on an on-chip micropump
+  year: 2017
+  score: 25
+  evidence:
+    authors:
+    - Yinuo Cheng
+    - Yue Wang
+    - Zhiyuan Wang
+    - Liang Huang
+    - Mingzhao Bi
+    - Wenxiao Xu
+    - Wenhui Wang
+    - Xiongying Ye
+    affiliation_match:
+    - tsinghua university
+    - tsinghua university
+    - tsinghua university
+    year_in_period: 2014-2019
+  doi: 10.1063/1.4979100
+  venue: Biomicrofluidics
+- id: doi:10.1063/1.5038937
+  title: Investigating the effective interaction between silica colloidal particles
+    near the critical point of a binary solvent by small angle neutron scattering
+  year: 2018
+  score: 25
+  evidence:
+    authors:
+    - Zhiyuan Wang
+    - Hongyu Guo
+    - Yun Liu
+    - Xuewu Wang
+    affiliation_match:
+    - tsinghua university
+    - tsinghua university
+    - tsinghua university
+    year_in_period: 2014-2019
+  doi: 10.1063/1.5038937
+  venue: The Journal of Chemical Physics
+- id: doi:10.1063/1.5043135
+  title: Prediction of the electric discharge occurrence under repetitive bipolar
+    rectangular pulsed electric field &amp;lt;20 kV/cm
+  year: 2018
+  score: 25
+  evidence:
+    authors:
+    - Ruobing Zhang
+    - Xin Li
+    - Zhiyuan Wang
+    - Zhihao Chen
+    - Gang Du
+    affiliation_match:
+    - tsinghua university
+    - tsinghua university
+    - tsinghua university
+    year_in_period: 2014-2019
+  doi: 10.1063/1.5043135
+  venue: Applied Physics Letters
+- id: doi:10.1107/s1600576718013730
+  title: Study of a multi-pinhole collimation system based small-angle neutron scattering
+    instrument at the Compact Pulsed Hadron Source
+  year: 2018
+  score: 25
+  evidence:
+    authors:
+    - Zhiyuan Wang
+    - Huarui Wu
+    - Chen Liang
+    - Liangwei Sun
+    - Xuewu Wang
+    affiliation_match:
+    - tsinghua university
+    - tsinghua university
+    - tsinghua university
+    year_in_period: 2014-2019
+  doi: 10.1107/s1600576718013730
+  venue: Journal of Applied Crystallography
+- id: doi:10.1088/1742-6596/1021/1/012005
+  title: Design of multi-pinhole collimator system for SANS based on CPHS neutron
+    source
+  year: 2018
+  score: 25
+  evidence:
+    authors:
+    - Zhiyuan Wang
+    - Huarui Wu
+    - Xuewu Wang
+    affiliation_match:
+    - tsinghua university
+    - tsinghua university
+    - tsinghua university
+    year_in_period: 2014-2019
+  doi: 10.1088/1742-6596/1021/1/012005
+  venue: Journal of Physics Conference Series
+- id: doi:10.1109/iecon51785.2023.10312641
+  title: Active Online Monitoring for Main Shaft Slight Crack in Rotating Electric
+    Drive System Based on Chirp Torque Injection
+  year: 2023
+  score: 25
+  evidence:
+    authors:
+    - Juntao Wang
+    - Zhiyuan Wang
+    - Geye Lu
+    - Pinjia Zhang
+    affiliation_match:
+    - tsinghua university
+    - tsinghua university
+    - tsinghua university
+    year_in_period: 2019.12-2023.5
+  doi: 10.1109/iecon51785.2023.10312641
+  venue: null
+- id: doi:10.1109/ecce53617.2023.10362211
+  title: Gear Fault Diagnosis and Evaluation Based on MCSA in Gear Phase-domain
+  year: 2023
+  score: 25
+  evidence:
+    authors:
+    - Zhiyuan Wang
+    - Juntao Wang
+    - Pinjia Zhang
+    affiliation_match:
+    - tsinghua university
+    - tsinghua university
+    - tsinghua university
+    year_in_period: 2019.12-2023.5
+  doi: 10.1109/ecce53617.2023.10362211
+  venue: null
+- id: doi:10.1039/d5nr00523j
+  title: Nanoscale electron transfer mechanism in metallized polypropylene films
+  year: 2025
+  score: 25
+  evidence:
+    authors:
+    - Zhiyuan Wu
+    - Lei Huang
+    - Shao‐Long Zhong
+    - Zhiyuan Wang
+    - Jian-Tao Wang
+    - Zhi‐Min Dang
+    - Dawei Wang
+    affiliation_match:
+    - tsinghua university
+    - tsinghua university
+    - tsinghua university
+    year_in_period: 2019.12-2023.5
+  doi: 10.1039/d5nr00523j
+  venue: Nanoscale
+- id: doi:10.23919/icems60997.2024.10921095
+  title: Novel Online Non-Invasive Measurement Approach for PMSM-Transmission Chain
+    Radial Natural Frequency Based on Driving PMSM Radial Force Injection
+  year: 2024
+  score: 25
+  evidence:
+    authors:
+    - Juntao Wang
+    - Zhiyuan Wang
+    - Pinjia Zhang
+    affiliation_match:
+    - tsinghua university
+    - tsinghua university
+    - tsinghua university
+    year_in_period: 2019.12-2023.5
+  doi: 10.23919/icems60997.2024.10921095
+  venue: null
+- id: doi:10.1109/icassp48485.2024.10447775
+  title: 'P2DT: Mitigating Forgetting in Task-Incremental Learning with Progressive
+    Prompt Decision Transformer'
+  year: 2024
+  score: 25
+  evidence:
+    authors:
+    - Zhiyuan Wang
+    - Xiaoyang Qu
+    - Jing Xiao
+    - Bokui Chen
+    - Jianzong Wang
+    affiliation_match:
+    - tsinghua–berkeley shenzhen institute
+    - tsinghua–berkeley shenzhen institute
+    year_in_period: 2019.12-2023.5
+  doi: 10.1109/icassp48485.2024.10447775
+  venue: null
+- id: openalex:W2368619147
+  title: The Achievements of China's Modern Rural Land System Reforms and the Subsequent
+    Improvement
+  year: 2009
+  score: 25
+  evidence:
+    authors:
+    - Zhiyuan Wang
+    affiliation_match:
+    - tsinghua university
+    year_in_period: 2010-2014
+  doi: null
+  venue: Beijing shehui kexue
+- id: doi:10.1002/adma.202370108
+  title: Laser‐Induced Transient Self‐Organization of TiN<i><sub>x</sub></i> Nano‐Filament
+    Percolated Networks for High Performance Surface‐Mountable Filter Capacitors (Adv.
+    Mater. 15/2023)
+  year: 2023
+  score: 25
+  evidence:
+    authors:
+    - Fangcheng Wang
+    - Zhenbin Guo
+    - Zhiyuan Wang
+    - Haojie Zhu
+    - Guangyao Zhao
+    - Chaojie Chen
+    - Mingjie Liu
+    - Rong Sun
+    - Feiyu Kang
+    - Ching‐Ping Wong
+    - Cheng Yang
+    affiliation_match:
+    - tsinghua university
+    - tsinghua–berkeley shenzhen institute
+    - tsinghua–berkeley shenzhen institute
+    year_in_period: 2019.12-2023.5
+  doi: 10.1002/adma.202370108
+  venue: Advanced Materials
+- id: doi:10.21203/rs.3.rs-2998616/v1
+  title: A “popcorn-making-mimic” strategy for compounding graphene@NiFe2O4 flexible
+    films for exceptionally strong electromagnetic interference shielding and absorption
+  year: 2023
+  score: 25
+  evidence:
+    authors:
+    - Mingjie Liu
+    - Zhiyuan Wang
+    - Fangcheng Wang
+    - Guangyao Zhao
+    - Haojie Zhu
+    - Zhuofei Jia
+    - Tingting Qin
+    - Feiyu Kang
+    - Cheng Yang
+    affiliation_match:
+    - tsinghua university
+    - tsinghua university
+    - tsinghua university
+    year_in_period: 2019.12-2023.5
+  doi: 10.21203/rs.3.rs-2998616/v1
+  venue: null
+- id: doi:10.23919/icems60997.2024.10921229
+  title: Servo System End-of-System Oscillation Suppression Based on Acceleration
+    Limiting and Notch Filtering
+  year: 2024
+  score: 25
+  evidence:
+    authors:
+    - Zhiyuan Wang
+    - Juntao Wang
+    - Pinjia Zhang
+    affiliation_match:
+    - tsinghua university
+    - tsinghua university
+    - tsinghua university
+    year_in_period: 2019.12-2023.5
+  doi: 10.23919/icems60997.2024.10921229
+  venue: null

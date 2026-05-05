@@ -58,7 +58,7 @@ identity_profile:
   coauthor_circle_core_names: ['Ce Ji', 'Qingsheng Zhang', 'Xiaobo Liu', 'Zhiyuan Wang']
   coauthor_circle_extended_slugs: [guo-shuai, li-ao, tang-qian, wang-zhiyong, zhang-qing, zhou-jian]
   coauthor_circle_extended_names: ['Ao Li', 'Jian Zhou', 'Qian Tang', 'Qing Zhang', 'Shuai Guo', 'Zhiyong Wang']
-  research_keywords: [function, gromov, hierarchy, integrable, intersection, numbers, theory, witten]
+  research_keywords: [gromov, hierarchy, integrable, intersection, witten]
   known_arxiv_ids:
     - '2605.02643'
     - '2604.14542'
@@ -120,7 +120,8 @@ publications:
     coauthors: [wang-zhiyuan, zhou-jian]
     doi: '10.48550/arxiv.2511.10082'
     primary_category: math-ph
-    sources: [arxiv]
+    openalex_id: W4416425862
+    sources: [arxiv, openalex]
   - id: '2503.01920'
     title: 'The structures of simple Hurwitz numbers and monotone Hurwitz numbers with varying genus'
     year: 2025
@@ -133,7 +134,17 @@ publications:
     coauthors: [guo-shuai, ji-ce]
     doi: '10.48550/arxiv.2502.09302'
     primary_category: math-ph
-    sources: [arxiv]
+    openalex_id: W4407574857
+    sources: [arxiv, openalex]
+  - id: 'doi:10.1016/j.aim.2024.110100'
+    title: 'BKP-affine coordinates and emergent geometry of generalized Brézin-Gross-Witten tau-functions'
+    year: 2025
+    coauthors: [wang-zhiyuan, zhang-qingsheng]
+    doi: '10.1016/j.aim.2024.110100'
+    journal: 'Advances in Mathematics'
+    openalex_id: W4406119208
+    sources: [openalex]
+    no_arxiv: true
   - id: '2409.14124'
     title: 'Correlation Function of Self-Conjugate Partitions: q-Difference Equation and Q-Schur Expansion'
     year: 2024
@@ -147,14 +158,16 @@ publications:
     coauthors: [wang-zhiyuan]
     doi: '10.48550/arxiv.2408.03212'
     primary_category: math.CO
-    sources: [arxiv]
+    openalex_id: W4403622873
+    sources: [arxiv, openalex]
   - id: '2407.20010'
     title: 'Schröder Paths, Their Generalizations and Knot Invariants'
     year: 2024
     coauthors: [ji-ce, tang-qian]
     doi: '10.48550/arxiv.2407.20010'
     primary_category: math.CO
-    sources: [arxiv]
+    openalex_id: W4401202451
+    sources: [arxiv, openalex]
   - id: '2404.01973'
     title: 'Hook-Lengths, Symplectic/Orthogonal Contents and Amdeberhan''s Conjectures'
     year: 2024
@@ -162,14 +175,16 @@ publications:
     doi: '10.1112/plms.70026'
     journal: 'Proceedings of the London Mathematical Society'
     primary_category: math.CO
-    sources: [arxiv]
+    openalex_id: W4407450840
+    sources: [arxiv, openalex]
   - id: '2401.12726'
     title: 'On a Proof of the ADKMV Conjecture -- 3-KP Integrability of the Topological Vertex'
     year: 2024
     coauthors: [wang-zhiyuan, zhou-jian]
     doi: '10.48550/arxiv.2401.12726'
     primary_category: math-ph
-    sources: [arxiv]
+    openalex_id: W4391212525
+    sources: [arxiv, openalex]
   - id: '2312.08218'
     title: 'On two families of Nekrasov-Okounkov type formulas'
     year: 2023
@@ -190,7 +205,8 @@ publications:
     coauthors: [wang-zhiyuan, zhang-qing]
     doi: '10.48550/arxiv.2301.01131'
     primary_category: math-ph
-    sources: [arxiv]
+    openalex_id: W4313533009
+    sources: [arxiv, openalex]
   - id: '2211.08687'
     title: 'Kac-Schwarz Operators of Type B, Quantum Spectral Curves, and Spin Hurwitz Numbers'
     year: 2022
@@ -198,7 +214,8 @@ publications:
     doi: '10.1016/j.geomphys.2023.104831'
     journal: 'Journal of Geometry and Physics'
     primary_category: math-ph
-    sources: [arxiv]
+    openalex_id: W4362633185
+    sources: [arxiv, openalex]
   - id: '2210.09576'
     title: 'Connected (n,m)-Point Functions of Diagonal 2-BKP Tau-Functions, and Spin Double Hurwitz Numbers'
     year: 2022
@@ -206,7 +223,8 @@ publications:
     doi: '10.1063/5.0136839'
     journal: 'Journal of Mathematical Physics'
     primary_category: nlin.SI
-    sources: [arxiv]
+    openalex_id: W4365452127
+    sources: [arxiv, openalex]
   - id: '2210.08712'
     title: 'Diagonal Tau-Functions of 2D Toda Lattice Hierarchy, Connected (n,m)-Point Functions, and Double Hurwitz Numbers'
     year: 2022
@@ -214,7 +232,8 @@ publications:
     doi: '10.3842/SIGMA.2023.085'
     journal: 'SIGMA 19 (2023), 085, 33 pages'
     primary_category: nlin.SI
-    sources: [arxiv]
+    openalex_id: W4388341724
+    sources: [arxiv, openalex]
   - id: '2206.01066'
     title: 'Action of W-type operators on Schur functions and Schur Q-functions'
     year: 2022
@@ -222,7 +241,8 @@ publications:
     doi: '10.1112/jlms.70080'
     journal: 'Journal of the London Mathematical Society'
     primary_category: math-ph
-    sources: [arxiv]
+    openalex_id: W4407587717
+    sources: [arxiv, openalex]
   - id: '2201.08178'
     title: 'BKP Hierarchy, Affine Coordinates, and a Formula for Connected Bosonic N-Point Functions'
     year: 2022
@@ -230,7 +250,17 @@ publications:
     doi: '10.1007/s11005-022-01554-x'
     journal: 'Letters in Mathematical Physics'
     primary_category: nlin.SI
-    sources: [arxiv]
+    openalex_id: W4221142413
+    sources: [arxiv, openalex]
+  - id: 'doi:10.1016/j.aim.2022.108456'
+    title: 'Q-polynomial expansion for Brézin-Gross-Witten tau-function'
+    year: 2022
+    coauthors: [liu-xiaobo]
+    doi: '10.1016/j.aim.2022.108456'
+    journal: 'Advances in Mathematics'
+    openalex_id: W3148865459
+    sources: [openalex]
+    no_arxiv: true
   - id: '2107.10472'
     title: 'Action of Virasoro operators on Hall-Littlewood polynomials'
     year: 2021
@@ -238,7 +268,8 @@ publications:
     doi: '10.1007/s11005-022-01608-0'
     journal: 'Letters in Mathematical Physics'
     primary_category: math-ph
-    sources: [arxiv]
+    openalex_id: W3184881723
+    sources: [arxiv, openalex]
   - id: '2104.01357'
     title: 'Q-Polynomial expansion for Brezin-Gross-Witten tau-function'
     year: 2021
@@ -246,7 +277,8 @@ publications:
     doi: '10.48550/arxiv.2104.01357'
     journal: 'Adv. Math., Vol 404, Part B (2022), 108456'
     primary_category: nlin.SI
-    sources: [arxiv]
+    openalex_id: W4286386830
+    sources: [arxiv, openalex]
   - id: '2103.14318'
     title: 'Schur Q-Polynomials and Kontsevich-Witten Tau Function'
     year: 2021
@@ -254,12 +286,14 @@ publications:
     doi: '10.1007/s42543-023-00064-6'
     journal: 'Peking Mathematical Journal'
     primary_category: math.AG
-    sources: [arxiv]
+    openalex_id: W4366121889
+    sources: [arxiv, openalex]
 activity:
-  total_papers: 21
-  published_count: 19
+  total_papers: 23
+  published_count: 21
   preprint_only_count: 2
   active_period: '2021-present'
+  confidence: 'has-1-review-pending'
   quality_source: 'openalex + ruirui-2026'
   t1_papers: 0
   t2_papers: 1

@@ -1,0 +1,253 @@
+slug: jin-xiaoshang
+count: 16
+note: 需要人工核对的候选论文。score 在 10-19 之间。要么补 ORCID 进 identity_profile, 要么明确标 accepted/rejected
+candidates:
+- id: doi:10.1515/ans-2023-0124
+  title: Perturbation compactness and uniqueness for a class of conformally compact
+    Einstein manifolds
+  year: 2024
+  score: 17
+  evidence:
+    authors:
+    - Sun‐Yung A. Chang
+    - Yuxin Ge
+    - Xiaoshang Jin
+    - Jie Qing
+    year_in_period: 2020.9-2023.12
+    keywords:
+    - compact
+    - conformal
+    - conformally
+    - einstein
+  doi: 10.1515/ans-2023-0124
+  venue: Advanced Nonlinear Studies
+- id: '2110.09830'
+  title: Boundary Estimate of Asymptotically Hyperbolic Einstein Manifolds of Even
+    Dimension
+  year: 2021
+  score: 17
+  evidence:
+    authors:
+    - Xiaoshang Jin
+    year_in_period: 2018.10-2020.9
+    keywords:
+    - asymptotically
+    - einstein
+    - hyperbolic
+    math_venue: arxiv (cornell university)
+  doi: 10.48550/arxiv.2110.09830
+  venue: null
+- id: '2207.02012'
+  title: The relative volume function and the capacity of sphere on asymptotically
+    hyperbolic manifolds
+  year: 2022
+  score: 14
+  evidence:
+    authors:
+    - Xiaoshang Jin
+    year_in_period: 2018.10-2020.9
+    keywords:
+    - asymptotically
+    - hyperbolic
+    math_venue: arxiv (cornell university)
+  doi: 10.48550/arxiv.2207.02012
+  venue: null
+- id: openalex:W4286909972
+  title: On compactness conformally compact Einstein manifolds and uniqueness of Graham-Lee
+    metrics, III
+  year: 2021
+  score: 17
+  evidence:
+    authors:
+    - Chang, Sun-Yung A.
+    - Yuxin Ge
+    - Xiaoshang Jin
+    - Jie Qi
+    year_in_period: 2018.10-2020.9
+    keywords:
+    - compact
+    - conformal
+    - conformally
+    - einstein
+  doi: null
+  venue: Open MIND
+- id: '2305.16027'
+  title: Rigidity for inscribed radius estimate of asymptotically hyperbolic Einstein
+    manifold
+  year: 2023
+  score: 17
+  evidence:
+    authors:
+    - Xiaoshang Jin
+    year_in_period: 2020.9-2023.12
+    keywords:
+    - asymptotically
+    - einstein
+    - hyperbolic
+    math_venue: arxiv (cornell university)
+  doi: 10.48550/arxiv.2305.16027
+  venue: null
+- id: '2307.16439'
+  title: Asymptotic behavior of the first Dirichlet eigenvalue of AHE manifolds
+  year: 2023
+  score: 11
+  evidence:
+    authors:
+    - Xiaoshang Jin
+    year_in_period: 2020.9-2023.12
+    keywords:
+    - asymptotically
+    math_venue: arxiv (cornell university)
+  doi: 10.48550/arxiv.2307.16439
+  venue: null
+- id: doi:10.2139/ssrn.4658985
+  title: Boundary Estimate of Asymptotically Hyperbolic Einstein Manifolds of Even
+    Dimension
+  year: 2023
+  score: 14
+  evidence:
+    authors:
+    - Xiaoshang Jin
+    year_in_period: 2020.9-2023.12
+    keywords:
+    - asymptotically
+    - einstein
+    - hyperbolic
+  doi: 10.2139/ssrn.4658985
+  venue: null
+- id: doi:10.1112/blms.13041
+  title: Asymptotic behavior of the first Dirichlet eigenvalue of AHE manifolds
+  year: 2024
+  score: 11
+  evidence:
+    authors:
+    - Xiaoshang Jin
+    year_in_period: 2020.9-2023.12
+    keywords:
+    - asymptotically
+    math_venue: bulletin of the london mathematical society
+  doi: 10.1112/blms.13041
+  venue: Bulletin of the London Mathematical Society
+- id: doi:10.1090/proc/16955
+  title: Rigidity for inscribed radius estimate of asymptotically hyperbolic Einstein
+    manifold
+  year: 2024
+  score: 17
+  evidence:
+    authors:
+    - Xiaoshang Jin
+    year_in_period: 2020.9-2023.12
+    keywords:
+    - asymptotically
+    - einstein
+    - hyperbolic
+    math_venue: proceedings of the american mathematical society
+  doi: 10.1090/proc/16955
+  venue: Proceedings of the American Mathematical Society
+- id: doi:10.1007/s10473-025-0301-9
+  title: The relative volume function and the capacity of sphere on asymptotically
+    hyperbolic manifolds
+  year: 2025
+  score: 14
+  evidence:
+    authors:
+    - Xiaoshang Jin
+    year_in_period: 2020.9-2023.12
+    keywords:
+    - asymptotically
+    - hyperbolic
+    math_venue: acta mathematica scientia
+  doi: 10.1007/s10473-025-0301-9
+  venue: Acta Mathematica Scientia
+- id: '2504.09856'
+  title: Estimate for the first Dirichlet eigenvalue of $p-$Laplacian on non-compact
+    manifolds
+  year: 2025
+  score: 14
+  evidence:
+    authors:
+    - Xiaoshang Jin
+    - Zhiwei Lü
+    year_in_period: 2020.9-2023.12
+    keywords:
+    - compact
+    - laplacian
+    math_venue: arxiv.org
+  doi: 10.48550/arxiv.2504.09856
+  venue: null
+- id: doi:10.48550/arxiv.2601.14018
+  title: Principal $p-$frequency estimates on non-compact manifolds with negative
+    Ricci curvature
+  year: 2026
+  score: 11
+  evidence:
+    authors:
+    - Xiaoshang Jin
+    - Zhiwei Lü
+    year_in_period: 2024.1-present
+    keywords:
+    - compact
+    math_venue: arxiv (cornell university)
+  doi: 10.48550/arxiv.2601.14018
+  venue: null
+- id: '2601.14018'
+  title: Principal $p-$frequency estimates on non-compact manifolds with negative
+    Ricci curvature
+  year: 2026
+  score: 11
+  evidence:
+    authors:
+    - Xiaoshang Jin
+    - Zhiwei Lü
+    year_in_period: 2024.1-present
+    keywords:
+    - compact
+    math_venue: arxiv.org
+  doi: null
+  venue: ArXiv.org
+- id: doi:10.48550/arxiv.2604.14600
+  title: Relations of Four Asymptotic Geometric Quantities in Riemannian Geometry
+  year: 2026
+  score: 17
+  evidence:
+    authors:
+    - Xiaoshang Jin
+    - Jiabin Yin
+    year_in_period: 2024.1-present
+    keywords:
+    - asymptotically
+    - geometric
+    - geometry
+    math_venue: arxiv (cornell university)
+  doi: 10.48550/arxiv.2604.14600
+  venue: null
+- id: '2604.14600'
+  title: Relations of Four Asymptotic Geometric Quantities in Riemannian Geometry
+  year: 2026
+  score: 17
+  evidence:
+    authors:
+    - Xiaoshang Jin
+    - Jiabin Yin
+    year_in_period: 2024.1-present
+    keywords:
+    - asymptotically
+    - geometric
+    - geometry
+    math_venue: arxiv.org
+  doi: null
+  venue: ArXiv.org
+- id: doi:10.1112/blms.70374
+  title: Heat dispersion laws in smooth compact manifolds
+  year: 2026
+  score: 11
+  evidence:
+    authors:
+    - Xiaoshang Jin
+    - Jie Xiao
+    year_in_period: 2024.1-present
+    keywords:
+    - compact
+    math_venue: bulletin of the london mathematical society
+  doi: 10.1112/blms.70374
+  venue: Bulletin of the London Mathematical Society

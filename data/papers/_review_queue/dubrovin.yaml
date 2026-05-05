@@ -1,0 +1,843 @@
+slug: dubrovin
+count: 57
+note: 需要人工核对的候选论文。score 在 10-19 之间。要么补 ORCID 进 identity_profile, 要么明确标 accepted/rejected
+candidates:
+- id: doi:10.1007/bfb0094793
+  title: Geometry of 2D topological field theories
+  year: 1996
+  score: 11
+  evidence:
+    authors:
+    - Boris Dubrovin
+    year_in_period: 1993-2019
+    keywords:
+    - topological
+    math_venue: lecture notes in mathematics
+  doi: 10.1007/bfb0094793
+  venue: Lecture notes in mathematics
+- id: doi:10.1007/bf02096618
+  title: Geometry and integrability of topological-antitopological fusion
+  year: 1993
+  score: 14
+  evidence:
+    authors:
+    - Boris Dubrovin
+    year_in_period: 1974-1993
+    keywords:
+    - integrable
+    - topological
+    math_venue: communications in mathematical physics
+  doi: 10.1007/bf02096618
+  venue: Communications in Mathematical Physics
+- id: doi:10.1007/978-1-4612-1532-5_6
+  title: Painlevé Transcendents in Two-Dimensional Topological Field Theory
+  year: 1999
+  score: 11
+  evidence:
+    authors:
+    - Boris Dubrovin
+    year_in_period: 1993-2019
+    keywords:
+    - painleve
+    - topological
+  doi: 10.1007/978-1-4612-1532-5_6
+  venue: null
+- id: doi:10.1016/0550-3213(92)90137-z
+  title: Integrable systems in topological field theory
+  year: 1992
+  score: 11
+  evidence:
+    authors:
+    - Boris Dubrovin
+    year_in_period: 1974-1993
+    keywords:
+    - integrable
+    - topological
+  doi: 10.1016/0550-3213(92)90137-z
+  venue: Nuclear Physics B
+- id: doi:10.1007/978-3-662-06791-8_3
+  title: Integrable Systems.I
+  year: 2001
+  score: 11
+  evidence:
+    authors:
+    - Boris Dubrovin
+    - I. M. Krichever
+    - S. P. Novikov
+    year_in_period: 1993-2019
+    keywords:
+    - integrable
+    math_venue: encyclopaedia of mathematical sciences
+  doi: 10.1007/978-3-662-06791-8_3
+  venue: Encyclopaedia of mathematical sciences
+- id: doi:10.1007/s000290050053
+  title: Frobenius manifolds and Virasoro constraints
+  year: 1999
+  score: 11
+  evidence:
+    authors:
+    - Boris Dubrovin
+    - Y. Zhang
+    year_in_period: 1993-2019
+    keywords:
+    - frobenius
+    math_venue: selecta mathematica
+  doi: 10.1007/s000290050053
+  venue: Selecta Mathematica
+- id: doi:10.1007/bfb0094791
+  title: Integrable Systems and Quantum Groups
+  year: 1996
+  score: 11
+  evidence:
+    authors:
+    - Ron Donagi
+    - Boris Dubrovin
+    - Edward Frenkel
+    - Эмма Превиато
+    year_in_period: 1993-2019
+    keywords:
+    - integrable
+    math_venue: lecture notes in mathematics
+  doi: 10.1007/bfb0094791
+  venue: Lecture notes in mathematics
+- id: '1504.06452'
+  title: Correlation functions of the KdV hierarchy and applications to intersection
+    numbers over <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" altimg="si1.gif"
+    display="inline" overflow="scroll"><mml:msub><mml:mrow><mml:mover accent="false"><mml:mrow><mml:mi
+    mathvariant="script">M</mml:mi></mml:mrow><mml:mo accent="true">¯</mml:mo></mml:mover></mml:mrow><mml:mrow><mml:mi>g</mml:mi><mml:mo>,</mml:mo><mml:mi>n</mml:mi></mml:mrow></mml:msub></mml:math>
+  year: 2016
+  score: 10
+  evidence:
+    authors:
+    - Marco Bertola
+    - Boris Dubrovin
+    - Di Yang
+    coauthor_extended:
+    - Di Yang
+    year_in_period: 1993-2019
+  doi: 10.1016/j.physd.2016.04.008
+  venue: Physica D Nonlinear Phenomena
+- id: doi:10.1007/978-3-662-06793-2_3
+  title: Integrable Systems. I
+  year: 1990
+  score: 11
+  evidence:
+    authors:
+    - Boris Dubrovin
+    - I. M. Krichever
+    - S P Novikov
+    year_in_period: 1974-1993
+    keywords:
+    - integrable
+    math_venue: encyclopaedia of mathematical sciences
+  doi: 10.1007/978-3-662-06793-2_3
+  venue: Encyclopaedia of mathematical sciences
+- id: doi:10.1007/s00332-015-9236-y
+  title: On Critical Behaviour in Systems of Hamiltonian Partial Differential Equations
+  year: 2015
+  score: 25
+  evidence:
+    authors:
+    - Boris Dubrovin
+    - Тамара Грава
+    - Christian Klein
+    - Antonio Moro
+    affiliation_match:
+    - lomonosov moscow state university
+    year_in_period: 1993-2019
+  doi: 10.1007/s00332-015-9236-y
+  venue: Journal of Nonlinear Science
+- id: '1310.5659'
+  title: Minimal Liouville gravity correlation numbers from Douglas string equation
+  year: 2014
+  score: 25
+  evidence:
+    authors:
+    - A. A. Belavin
+    - Boris Dubrovin
+    - Baur Mukhametzhanov
+    affiliation_match:
+    - moscow institute of physics and technology
+    - lomonosov moscow state university
+    year_in_period: 1993-2019
+  doi: 10.1007/jhep01(2014)156
+  venue: Journal of High Energy Physics
+- id: doi:10.17323/1609-4514-2017-17-4-601-633
+  title: Classical Hurwitz Numbers and Related Combinatorics
+  year: 2017
+  score: 18
+  evidence:
+    authors:
+    - Boris Dubrovin
+    - Di Yang
+    - Don Zagier
+    coauthor_extended:
+    - Di Yang
+    - Don Zagier
+    year_in_period: 1993-2019
+    math_venue: moscow mathematical journal
+  doi: 10.17323/1609-4514-2017-17-4-601-633
+  venue: Moscow Mathematical Journal
+- id: doi:10.1093/imrn/rnw285
+  title: Simple Lie Algebras and Topological ODEs
+  year: 2016
+  score: 16
+  evidence:
+    authors:
+    - Marco Bertola
+    - Boris Dubrovin
+    - Di Yang
+    coauthor_extended:
+    - Di Yang
+    year_in_period: 1993-2019
+    keywords:
+    - topological
+    math_venue: international mathematics research notices
+  doi: 10.1093/imrn/rnw285
+  venue: International Mathematics Research Notices
+- id: doi:10.17323/1609-4514-2016-16-4-601-633
+  title: Classical Hurwitz Numbers and Related Combinatorics
+  year: 2016
+  score: 18
+  evidence:
+    authors:
+    - Boris Dubrovin
+    - Di Yang
+    - Don Zagier
+    coauthor_extended:
+    - Di Yang
+    - Don Zagier
+    year_in_period: 1993-2019
+    math_venue: moscow mathematical journal
+  doi: 10.17323/1609-4514-2016-16-4-601-633
+  venue: Moscow Mathematical Journal
+- id: doi:10.1007/s00029-021-00620-x
+  title: On tau-functions for the KdV hierarchy
+  year: 2021
+  score: 18
+  evidence:
+    authors:
+    - Boris Dubrovin
+    - Di Yang
+    - Don Zagier
+    coauthor_extended:
+    - Di Yang
+    - Don Zagier
+    year_in_period: 1993-2019
+    math_venue: selecta mathematica
+  doi: 10.1007/s00029-021-00620-x
+  venue: Selecta Mathematica
+- id: doi:10.4310/pamq.2020.v16.n1.a4
+  title: Gromov–Witten invariants of the Riemann sphere
+  year: 2020
+  score: 18
+  evidence:
+    authors:
+    - Boris Dubrovin
+    - Di Yang
+    - Don Zagier
+    coauthor_extended:
+    - Di Yang
+    - Don Zagier
+    year_in_period: 1993-2019
+    math_venue: pure and applied mathematics quarterly
+  doi: 10.4310/pamq.2020.v16.n1.a4
+  venue: Pure and Applied Mathematics Quarterly
+- id: doi:10.17323/1609-4514-2021-21-2-233-270
+  title: Simple Lie Algebras, Drinfeld–Sokolov Hierarchies, and Multi-Point Correlation
+    Functions
+  year: 2021
+  score: 13
+  evidence:
+    authors:
+    - Marco Bertola
+    - Boris Dubrovin
+    - Di Yang
+    coauthor_extended:
+    - Di Yang
+    year_in_period: 1993-2019
+    math_venue: moscow mathematical journal
+  doi: 10.17323/1609-4514-2021-21-2-233-270
+  venue: Moscow Mathematical Journal
+- id: doi:10.1007/s00208-010-0509-3
+  title: Infinite-dimensional Frobenius manifolds for 2 + 1 integrable systems
+  year: 2010
+  score: 14
+  evidence:
+    authors:
+    - Guido Carlet
+    - Boris Dubrovin
+    - Luca Philippe Mertens
+    year_in_period: 1993-2019
+    keywords:
+    - frobenius
+    - integrable
+    math_venue: mathematische annalen
+  doi: 10.1007/s00208-010-0509-3
+  venue: Mathematische Annalen
+- id: doi:10.1088/1751-8113/43/43/434002
+  title: 'Hamiltonian PDEs: deformations, integrability, solutions'
+  year: 2010
+  score: 11
+  evidence:
+    authors:
+    - Boris Dubrovin
+    year_in_period: 1993-2019
+    keywords:
+    - integrable
+    math_venue: journal of physics a mathematical and theoretical
+  doi: 10.1088/1751-8113/43/43/434002
+  venue: Journal of Physics A Mathematical and Theoretical
+- id: doi:10.4310/cntp.2017.v11.n2.a3
+  title: On cubic Hodge integrals and random matrices
+  year: 2017
+  score: 16
+  evidence:
+    authors:
+    - Boris Dubrovin
+    - Di Yang
+    coauthor_extended:
+    - Di Yang
+    year_in_period: 1993-2019
+    keywords:
+    - integrable
+    math_venue: communications in number theory and physics
+  doi: 10.4310/cntp.2017.v11.n2.a3
+  venue: Communications in Number Theory and Physics
+- id: doi:10.4310/mrl.2019.v26.n3.a4
+  title: On Gromov–Witten invariants of $\mathbb{P}^1$
+  year: 2019
+  score: 13
+  evidence:
+    authors:
+    - Boris Dubrovin
+    - Di Yang
+    coauthor_extended:
+    - Di Yang
+    year_in_period: 1993-2019
+    math_venue: mathematical research letters
+  doi: 10.4310/mrl.2019.v26.n3.a4
+  venue: Mathematical Research Letters
+- id: doi:10.1016/b0-12-512666-2/00195-4
+  title: WDVV Equations and Frobenius Manifolds
+  year: 2006
+  score: 11
+  evidence:
+    authors:
+    - Boris Dubrovin
+    year_in_period: 1993-2019
+    keywords:
+    - frobenius
+    math_venue: encyclopedia of mathematical physics
+  doi: 10.1016/b0-12-512666-2/00195-4
+  venue: Encyclopedia of Mathematical Physics
+- id: doi:10.1007/s10688-011-0030-9
+  title: Linearly degenerate Hamiltonian PDEs and a new class of solutions to the
+    WDVV associativity equations
+  year: 2011
+  score: 25
+  evidence:
+    authors:
+    - Boris Dubrovin
+    - M. V. Pavlov
+    - S. A. Zykov
+    affiliation_match:
+    - lomonosov moscow state university
+    year_in_period: 1993-2019
+  doi: 10.1007/s10688-011-0030-9
+  venue: Functional Analysis and Its Applications
+- id: doi:10.4310/atmp.2020.v24.n5.a1
+  title: 'Remarks on intersection numbers and integrable hierarchies, I: Quasi-triviality'
+  year: 2020
+  score: 16
+  evidence:
+    authors:
+    - Boris Dubrovin
+    - Di Yang
+    coauthor_extended:
+    - Di Yang
+    year_in_period: 1993-2019
+    keywords:
+    - integrable
+    math_venue: advances in theoretical and mathematical physics
+  doi: 10.4310/atmp.2020.v24.n5.a1
+  venue: Advances in Theoretical and Mathematical Physics
+- id: doi:10.1016/j.aim.2023.109311
+  title: Geometry and arithmetic of integrable hierarchies of KdV type. I. Integrality
+  year: 2023
+  score: 16
+  evidence:
+    authors:
+    - Boris Dubrovin
+    - Di Yang
+    - Don Zagier
+    coauthor_extended:
+    - Di Yang
+    - Don Zagier
+    keywords:
+    - integrable
+    math_venue: advances in mathematics
+  doi: 10.1016/j.aim.2023.109311
+  venue: Advances in Mathematics
+- id: openalex:W978209073
+  title: Integrable systems and classification of 2D topological field theories
+  year: 1993
+  score: 11
+  evidence:
+    authors:
+    - Boris Dubrovin
+    year_in_period: 1974-1993
+    keywords:
+    - integrable
+    - topological
+  doi: null
+  venue: null
+- id: doi:10.1142/s0217732390001384
+  title: ALTERNATIVE HAMILTONIAN DESCRIPTION FOR QUANTUM SYSTEMS
+  year: 1990
+  score: 25
+  evidence:
+    authors:
+    - Boris Dubrovin
+    - G. Marmo
+    - A. Simoni
+    affiliation_match:
+    - lomonosov moscow state university
+    year_in_period: 1974-1993
+  doi: 10.1142/s0217732390001384
+  venue: Modern Physics Letters A
+- id: doi:10.1215/s0012-7094-94-07623-0
+  title: Integrable functional equations and algebraic geometry
+  year: 1994
+  score: 11
+  evidence:
+    authors:
+    - Boris Dubrovin
+    - A. S. Fokas
+    - P. Santini
+    year_in_period: 1974-1993
+    keywords:
+    - integrable
+    math_venue: duke mathematical journal
+  doi: 10.1215/s0012-7094-94-07623-0
+  venue: Duke Mathematical Journal
+- id: doi:10.1070/rm2008v063n06abeh004575
+  title: Hamiltonian PDEs and Frobenius manifolds
+  year: 2008
+  score: 11
+  evidence:
+    authors:
+    - Boris Dubrovin
+    year_in_period: 1993-2019
+    keywords:
+    - frobenius
+    math_venue: russian mathematical surveys
+  doi: 10.1070/rm2008v063n06abeh004575
+  venue: Russian Mathematical Surveys
+- id: openalex:W2482940431
+  title: Topology, Geometry, Integrable Systems, and Mathematical Physics
+  year: 2014
+  score: 11
+  evidence:
+    authors:
+    - Victor Matveevich Buchstaber
+    - Boris Dubrovin
+    - I. M. Krichever
+    year_in_period: 1993-2019
+    keywords:
+    - integrable
+    - topological
+  doi: null
+  venue: Medical Entomology and Zoology
+- id: '1407.5824'
+  title: Symplectic Field Theory of a Disk, Quantum Integrable Systems, and Schur
+    Polynomials
+  year: 2015
+  score: 11
+  evidence:
+    authors:
+    - Boris Dubrovin
+    year_in_period: 1993-2019
+    keywords:
+    - integrable
+    math_venue: annales henri poincaré
+  doi: 10.1007/s00023-015-0449-2
+  venue: null
+- id: doi:10.48550/arxiv.math/9807034
+  title: Geometry and analytic theory of Frobenius manifolds
+  year: 1998
+  score: 11
+  evidence:
+    authors:
+    - Boris Dubrovin
+    year_in_period: 1993-2019
+    keywords:
+    - frobenius
+    math_venue: arxiv.org
+  doi: 10.48550/arxiv.math/9807034
+  venue: null
+- id: doi:10.1090/trans2/212/05
+  title: On almost duality for Frobenius manifolds
+  year: 2004
+  score: 11
+  evidence:
+    authors:
+    - Boris Dubrovin
+    year_in_period: 1993-2019
+    keywords:
+    - frobenius
+    math_venue: 'translations - american mathematical society/translations '
+  doi: 10.1090/trans2/212/05
+  venue: null
+- id: doi:10.48550/arxiv.math/9803106
+  title: Flat pencils of metrics and Frobenius manifolds
+  year: 1998
+  score: 11
+  evidence:
+    authors:
+    - Boris Dubrovin
+    year_in_period: 1993-2019
+    keywords:
+    - frobenius
+    math_venue: arxiv.org
+  doi: 10.48550/arxiv.math/9803106
+  venue: ArXiv.org
+- id: doi:10.48550/arxiv.hep-th/9407018
+  title: Geometry of 2d topological field theories
+  year: 1994
+  score: 11
+  evidence:
+    authors:
+    - Boris Dubrovin
+    year_in_period: 1974-1993
+    keywords:
+    - topological
+    math_venue: arxiv.org
+  doi: 10.48550/arxiv.hep-th/9407018
+  venue: null
+- id: '1312.0799'
+  title: Gromov–Witten invariants and integrable hierarchies of topological type
+  year: 2014
+  score: 14
+  evidence:
+    authors:
+    - Boris Dubrovin
+    year_in_period: 1993-2019
+    keywords:
+    - integrable
+    - topological
+    math_venue: 'translations - american mathematical society/translations '
+  doi: 10.1090/trans2/234/08
+  venue: null
+- id: doi:10.48550/arxiv.math/9803107
+  title: Painleve' transcendents and two-dimensional topological field theory
+  year: 1998
+  score: 14
+  evidence:
+    authors:
+    - Boris Dubrovin
+    year_in_period: 1993-2019
+    keywords:
+    - painleve
+    - topological
+    math_venue: arxiv.org
+  doi: 10.48550/arxiv.math/9803107
+  venue: null
+- id: '1610.07534'
+  title: Simple Lie algebras, Drinfeld--Sokolov hierarchies, and multi-point correlation
+    functions
+  year: 2016
+  score: 13
+  evidence:
+    authors:
+    - Marco Bertola
+    - Boris Dubrovin
+    - Di Yang
+    coauthor_extended:
+    - Di Yang
+    year_in_period: 1993-2019
+    math_venue: arxiv (cornell university)
+  doi: 10.48550/arxiv.1610.07534
+  venue: null
+- id: doi:10.48550/arxiv.math/0307374
+  title: On almost duality for Frobenius manifolds
+  year: 2003
+  score: 11
+  evidence:
+    authors:
+    - Boris Dubrovin
+    year_in_period: 1993-2019
+    keywords:
+    - frobenius
+    math_venue: arxiv (cornell university)
+  doi: 10.48550/arxiv.math/0307374
+  venue: null
+- id: '1905.08106'
+  title: Remarks on intersection numbers and integrable hierarchies. I. Quasi-triviality
+  year: 2019
+  score: 16
+  evidence:
+    authors:
+    - Boris Dubrovin
+    - Di Yang
+    coauthor_extended:
+    - Di Yang
+    year_in_period: 1993-2019
+    keywords:
+    - integrable
+    math_venue: arxiv (cornell university)
+  doi: 10.48550/arxiv.1905.08106
+  venue: null
+- id: '1508.03750'
+  title: Simple Lie algebras and topological ODEs
+  year: 2015
+  score: 16
+  evidence:
+    authors:
+    - Marco Bertola
+    - Boris Dubrovin
+    - Di Yang
+    coauthor_extended:
+    - Di Yang
+    year_in_period: 1993-2019
+    keywords:
+    - topological
+    math_venue: arxiv (cornell university)
+  doi: 10.48550/arxiv.1508.03750
+  venue: null
+- id: openalex:W1511356041
+  title: Recurrent procedure for the determination of the Free Energy $\epsilon^{2}$-expansion
+    in the Topological String Theory
+  year: 1999
+  score: 11
+  evidence:
+    authors:
+    - Boris Dubrovin
+    - A. Ya. Maltsev
+    year_in_period: 1993-2019
+    keywords:
+    - topological
+    math_venue: arxiv.org
+  doi: null
+  venue: null
+- id: '1606.03720'
+  title: On cubic Hodge integrals and random matrices
+  year: 2016
+  score: 16
+  evidence:
+    authors:
+    - Boris Dubrovin
+    - Di Yang
+    coauthor_extended:
+    - Di Yang
+    year_in_period: 1993-2019
+    keywords:
+    - integrable
+    math_venue: arxiv (cornell university)
+  doi: 10.48550/arxiv.1606.03720
+  venue: null
+- id: '1702.01669'
+  title: On Gromov--Witten invariants of $\mathbb{P}^1$
+  year: 2017
+  score: 13
+  evidence:
+    authors:
+    - Boris Dubrovin
+    - Di Yang
+    coauthor_extended:
+    - Di Yang
+    year_in_period: 1993-2019
+    math_venue: arxiv (cornell university)
+  doi: 10.48550/arxiv.1702.01669
+  venue: null
+- id: '1812.08488'
+  title: On tau-functions for the KdV hierarchy
+  year: 2018
+  score: 18
+  evidence:
+    authors:
+    - Boris Dubrovin
+    - Di Yang
+    - Don Zagier
+    coauthor_extended:
+    - Di Yang
+    - Don Zagier
+    year_in_period: 1993-2019
+    math_venue: arxiv (cornell university)
+  doi: 10.48550/arxiv.1812.08488
+  venue: null
+- id: doi:10.1007/978-3-642-77769-1_61
+  title: Spectral Theory of Linear λ-Matrices and the Solution of Certain Nonlinear
+    Algebraic and Functional Equations
+  year: 1993
+  score: 25
+  evidence:
+    authors:
+    - Boris Dubrovin
+    - A. S. Fokas
+    - P. Santini
+    affiliation_match:
+    - lomonosov moscow state university
+    year_in_period: 1974-1993
+  doi: 10.1007/978-3-642-77769-1_61
+  venue: Springer series in nonlinear dynamics
+- id: '0902.1245'
+  title: Infinite-Dimensional Frobenius Manifolds for 2+1 Integrable Systems
+  year: 2009
+  score: 14
+  evidence:
+    authors:
+    - Guido Carlet
+    - Boris Dubrovin
+    - Luca Philippe Mertens
+    year_in_period: 1993-2019
+    keywords:
+    - frobenius
+    - integrable
+    math_venue: arxiv (cornell university)
+  doi: 10.48550/arxiv.0902.1245
+  venue: null
+- id: doi:10.1007/978-3-642-58045-1_6
+  title: Dispersion Relations for Nonlinear Waves and the Schottky Problem
+  year: 1993
+  score: 25
+  evidence:
+    authors:
+    - Boris Dubrovin
+    affiliation_match:
+    - lomonosov moscow state university
+    year_in_period: 1974-1993
+  doi: 10.1007/978-3-642-58045-1_6
+  venue: Springer series in nonlinear dynamics
+- id: doi:10.1016/0920-5632(90)90645-b
+  title: Weakly deformed soliton lattices
+  year: 1990
+  score: 25
+  evidence:
+    authors:
+    - Boris Dubrovin
+    affiliation_match:
+    - lomonosov moscow state university
+    year_in_period: 1974-1993
+  doi: 10.1016/0920-5632(90)90645-b
+  venue: Nuclear Physics B - Proceedings Supplements
+- id: '1802.00711'
+  title: Gromov--Witten invariants of the Riemann sphere
+  year: 2018
+  score: 18
+  evidence:
+    authors:
+    - Boris Dubrovin
+    - Di Yang
+    - Don Zagier
+    coauthor_extended:
+    - Di Yang
+    - Don Zagier
+    year_in_period: 1993-2019
+    math_venue: arxiv (cornell university)
+  doi: 10.48550/arxiv.1802.00711
+  venue: null
+- id: doi:10.48550/arxiv.2110.06655
+  title: 'Affine Kac-Moody Algebras and Tau-Functions for the Drinfeld-Sokolov Hierarchies:
+    the Matrix-Resolvent Method'
+  year: 2021
+  score: 13
+  evidence:
+    authors:
+    - Boris Dubrovin
+    - Daniele Valeri
+    - Di Yang
+    coauthor_extended:
+    - Di Yang
+    year_in_period: 1993-2019
+    math_venue: arxiv (cornell university)
+  doi: 10.48550/arxiv.2110.06655
+  venue: null
+- id: '1312.0799'
+  title: Gromov - Witten invariants and integrable hierarchies of topological\n type
+  year: 2013
+  score: 14
+  evidence:
+    authors:
+    - Boris Dubrovin
+    year_in_period: 1993-2019
+    keywords:
+    - integrable
+    - topological
+    math_venue: arxiv (cornell university)
+  doi: 10.48550/arxiv.1312.0799
+  venue: null
+- id: '1407.5824'
+  title: Symplectic field theory of a disk, quantum integrable systems, and Schur\n
+    polynomials
+  year: 2014
+  score: 11
+  evidence:
+    authors:
+    - Boris Dubrovin
+    year_in_period: 1993-2019
+    keywords:
+    - integrable
+    math_venue: arxiv (cornell university)
+  doi: 10.48550/arxiv.1407.5824
+  venue: null
+- id: doi:10.48550/arxiv.hep-th/9209040
+  title: Integrable Systems and Classification of 2-dimensional Topological Field
+    Theories
+  year: 1992
+  score: 14
+  evidence:
+    authors:
+    - Boris Dubrovin
+    year_in_period: 1974-1993
+    keywords:
+    - integrable
+    - topological
+    math_venue: arxiv (cornell university)
+  doi: 10.48550/arxiv.hep-th/9209040
+  venue: null
+- id: '0704.0501'
+  title: On universality of critical behaviour in the focusing nonlinear Schrödinger
+    equation, elliptic umbilic catastrophe and the {\it tritronquée} solution to the
+    Painlevé-I equation
+  year: 2007
+  score: 11
+  evidence:
+    authors:
+    - Boris Dubrovin
+    - Тамара Грава
+    - Christian Klein
+    year_in_period: 1993-2019
+    keywords:
+    - painleve
+    math_venue: arxiv.org
+  doi: 10.48550/arxiv.0704.0501
+  venue: null
+- id: doi:10.48550/arxiv.solv-int/9904004
+  title: Recurrent procedure for the determination of the Free Energy $ε^{2}$-expansion
+    in the Topological String Theory
+  year: 1999
+  score: 11
+  evidence:
+    authors:
+    - Boris Dubrovin
+    - A. Ya. Maltsev
+    year_in_period: 1993-2019
+    keywords:
+    - topological
+    math_venue: arxiv (cornell university)
+  doi: 10.48550/arxiv.solv-int/9904004
+  venue: null
+- id: doi:10.1016/b978-0-323-95703-8.00156-7
+  title: WDVV Equations and Frobenius Manifolds
+  year: 2006
+  score: 11
+  evidence:
+    authors:
+    - Boris Dubrovin
+    year_in_period: 1993-2019
+    keywords:
+    - frobenius
+    math_venue: encyclopedia of mathematical physics
+  doi: 10.1016/b978-0-323-95703-8.00156-7
+  venue: Encyclopedia of Mathematical Physics

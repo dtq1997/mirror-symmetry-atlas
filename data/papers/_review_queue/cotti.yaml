@@ -1,0 +1,143 @@
+slug: cotti
+count: 9
+note: 需要人工核对的候选论文。score 在 10-19 之间。要么补 ORCID 进 identity_profile, 要么明确标 accepted/rejected
+candidates:
+- id: doi:10.1090/pspum/103.1/01833
+  title: 'Equivariant quantum differential equation and qKZ equations for a projective
+    space: Stokes bases as exceptional collections, Stokes matrices as Gram matrices,
+    and \textcyr{B}-Theorem'
+  year: 2021
+  score: 14
+  evidence:
+    authors:
+    - Giordano Cotti
+    - Alexander Varchenko
+    year_in_period: 2017-2019
+    keywords:
+    - quantum
+    - stokes
+    math_venue: proceedings of symposia in pure mathematics
+  doi: 10.1090/pspum/103.1/01833
+  venue: null
+- id: '1909.06582'
+  title: 'Equivariant quantum differential equation and $qKZ$ equations for a projective
+    space: Stokes bases as exceptional collections, Stokes matrices as Gram matrices,
+    and B-Theorem'
+  year: 2019
+  score: 14
+  evidence:
+    authors:
+    - Giordano Cotti
+    - Alexander Varchenko
+    year_in_period: 2012-2017
+    keywords:
+    - quantum
+    - stokes
+    math_venue: arxiv (cornell university)
+  doi: 10.48550/arxiv.1909.06582
+  venue: null
+- id: '1808.00880'
+  title: Cyclic stratum of Frobenius manifolds, Borel-Laplace $(\boldsymbol\alpha,\boldsymbol\beta)$-multitransforms,
+    and integral representations of solutions of Quantum Differential Equations
+  year: 2020
+  score: 14
+  evidence:
+    authors:
+    - Giordano Cotti
+    year_in_period: 2017-2019
+    keywords:
+    - frobenius
+    - quantum
+    math_venue: arxiv (cornell university)
+  doi: null
+  venue: null
+- id: '2005.08262'
+  title: Cyclic stratum of Frobenius manifolds, Borel-Laplace $(\boldsymbolα,\boldsymbolβ)$-multitransforms,
+    and integral representations of solutions of Quantum Differential Equations
+  year: 2020
+  score: 14
+  evidence:
+    authors:
+    - Giordano Cotti
+    year_in_period: 2017-2019
+    keywords:
+    - frobenius
+    - quantum
+    math_venue: arxiv (cornell university)
+  doi: 10.48550/arxiv.2005.08262
+  venue: null
+- id: '2210.05445'
+  title: 'Borel $(α,β)$-multitransforms and Quantum Leray-Hirsch: integral representations
+    of solutions of quantum differential equations for $\mathbb P^1$-bundles'
+  year: 2022
+  score: 11
+  evidence:
+    authors:
+    - Giordano Cotti
+    year_in_period: 2019-2020
+    keywords:
+    - quantum
+    math_venue: arxiv (cornell university)
+  doi: 10.48550/arxiv.2210.05445
+  venue: null
+- id: doi:10.4171/mems/2
+  title: Cyclic Stratum of Frobenius Manifolds, Borel–Laplace (α, β)-Multitransforms,
+    and Integral Representations of Solutions of Quantum Differential Equations
+  year: 2022
+  score: 14
+  evidence:
+    authors:
+    - Giordano Cotti
+    year_in_period: 2019-2020
+    keywords:
+    - frobenius
+    - quantum
+    math_venue: memoirs of the european mathematical society
+  doi: 10.4171/mems/2
+  venue: Memoirs of the European Mathematical Society
+- id: doi:10.1016/j.matpur.2024.01.003
+  title: 'Borel ( , )-multitransforms and quantum Leray–Hirsch: Integral representations
+    of solutions of quantum differential equations for <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"
+    altimg="si1.svg"> <mml:msup> <mml:mrow> <mml:mi mathvariant="double-struck">P</mml:mi>
+    </mml:mrow> <mml:mrow> <mml:mn>1</mml:mn> </mml:mrow> </mml:msup> </mml:math>
+    -bundles'
+  year: 2024
+  score: 11
+  evidence:
+    authors:
+    - Giordano Cotti
+    year_in_period: 2020-2024
+    keywords:
+    - quantum
+    math_venue: journal de mathématiques pures et appliquées
+  doi: 10.1016/j.matpur.2024.01.003
+  venue: Journal de Mathématiques Pures et Appliquées
+- id: '2409.09657'
+  title: On the Satake correspondence for the equivariant quantum differential equations
+    and qKZ difference equations of Grassmannians
+  year: 2024
+  score: 11
+  evidence:
+    authors:
+    - Giordano Cotti
+    - Alexander Varchenko
+    year_in_period: 2020-2024
+    keywords:
+    - quantum
+    math_venue: arxiv (cornell university)
+  doi: 10.48550/arxiv.2409.09657
+  venue: null
+- id: '2510.05500'
+  title: Fiberwise Gromov-Witten theory, quantum spectra of flag bundles, and prime
+    factorization of integers
+  year: 2025
+  score: 11
+  evidence:
+    authors:
+    - Giordano Cotti
+    year_in_period: 2020-2024
+    keywords:
+    - quantum
+    math_venue: arxiv.org
+  doi: 10.48550/arxiv.2510.05500
+  venue: null

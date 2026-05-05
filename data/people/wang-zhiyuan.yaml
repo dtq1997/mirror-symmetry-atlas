@@ -61,18 +61,7 @@ identity_profile:
   email_domains: [bicmr.pku.edu.cn, hust.edu.cn, tsinghua.edu.cn]
   coauthor_circle_core_slugs: [ji-ce, yang-chenglang, zhang-qingsheng, zhou-jian]
   coauthor_circle_core_names: ['Ce Ji', 'Chenglang Yang', 'Jian Zhou', 'Qingsheng Zhang']
-  research_keywords:
-    - 'combinatorics'
-    - 'function'
-    - 'gromov'
-    - 'hierarchy'
-    - 'integrable'
-    - 'mathematical'
-    - 'mirror'
-    - 'physics'
-    - 'symmetry'
-    - 'theory'
-    - 'witten'
+  research_keywords: [combinatorics, gromov, hierarchy, integrable, mathematical, mirror, physics, symmetry, witten]
   known_arxiv_ids:
     - '2511.10082'
     - '2408.03212'
@@ -113,39 +102,88 @@ publications:
     title: 'Total partition function with fermionic number fluxes of local toric CY threefold and KP integrability'
     year: 2025
     coauthors: [yang-chenglang, zhou-jian]
+    doi: '10.48550/arxiv.2511.10082'
     primary_category: math-ph
+    openalex_id: W4416425862
+    sources: [arxiv, openalex]
+  - id: 'doi:10.1007/s42543-025-00110-5'
+    title: 'Orbifold Euler Characteristics of $${\overline{{{\mathcal {M}}}}}_{g,n}$$'
+    year: 2025
+    coauthors: [zhou-jian]
+    doi: '10.1007/s42543-025-00110-5'
+    journal: 'Peking Mathematical Journal'
+    openalex_id: W4413575052
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1016/j.nuclphysb.2025.116822'
+    title: 'Topological 1D gravity, KP hierarchy, and orbifold Euler characteristics of <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" altimg="si1.svg"><mml:msub><mml:mrow><mml:mover accent="true"><mml:mrow><mml:mi mathvariant="script">M</mml:mi></mml:mrow><mml:mo>‾</mml:mo></mml:mover></mml:mrow><mml:mrow><mml:mi>g</mml:mi><mml:mo>,</mml:mo><mml:mi>n</mml:mi></mml:mrow></mml:msub></mml:math>'
+    year: 2025
+    coauthors: [zhou-jian]
+    doi: '10.1016/j.nuclphysb.2025.116822'
+    journal: 'Nuclear Physics B'
+    openalex_id: W4407196408
+    sources: [openalex]
+    no_arxiv: true
   - id: '2408.03212'
     title: 'On N-Coefficient Binomial Polynomiality of Hurwitz Numbers and Generalized Dessin Counting'
     year: 2024
     coauthors: [yang-chenglang]
+    doi: '10.48550/arxiv.2408.03212'
     primary_category: math.CO
+    openalex_id: W4403622873
+    sources: [arxiv, openalex]
   - id: '2401.12726'
     title: 'On a Proof of the ADKMV Conjecture -- 3-KP Integrability of the Topological Vertex'
     year: 2024
     coauthors: [yang-chenglang, zhou-jian]
+    doi: '10.48550/arxiv.2401.12726'
     primary_category: math-ph
+    openalex_id: W4391212525
+    sources: [arxiv, openalex]
   - id: '2401.11717'
     title: 'Möbius Inversion and Duality for Summations of Stable Graphs'
     year: 2024
     coauthors: [zhou-jian]
+    doi: '10.1007/s10114-026-4262-2'
+    journal: 'Acta Mathematica Sinica English Series'
     primary_category: math.CO
+    openalex_id: W7131865136
+    sources: [arxiv, openalex]
+  - id: 'doi:10.1038/s41467-024-49498-1'
+    title: 'A popcorn-inspired strategy for compounding graphene@NiFe2O4 flexible films for strong electromagnetic interference shielding and absorption'
+    year: 2024
+    coauthors: ['Mingjie Liu', 'Zhaoqiang Song', 'Fangcheng Wang', 'Guangyao Zhao', 'Haojie Zhu', 'Zhuofei Jia', 'Zhenbin Guo', 'Feiyu Kang', 'Cheng Yang']
+    doi: '10.1038/s41467-024-49498-1'
+    journal: 'Nature Communications'
+    openalex_id: W4400117137
+    sources: [openalex]
+    no_arxiv: true
   - id: '2301.01131'
     title: 'BKP-Affine Coordinates and Emergent Geometry of Generalized BGW Tau-Functions'
     year: 2023
     coauthors: [yang-chenglang, zhang-qingsheng]
+    doi: '10.48550/arxiv.2301.01131'
     primary_category: math-ph
+    openalex_id: W4313533009
+    sources: [arxiv, openalex]
   - id: '2211.08687'
     title: 'Kac-Schwarz Operators of Type B, Quantum Spectral Curves, and Spin Hurwitz Numbers'
     year: 2022
     coauthors: [ji-ce, yang-chenglang]
     doi: '10.1016/j.geomphys.2023.104831'
+    journal: 'Journal of Geometry and Physics'
     primary_category: math-ph
+    openalex_id: W4362633185
+    sources: [arxiv, openalex]
   - id: '2210.09576'
     title: 'Connected (n,m)-Point Functions of Diagonal 2-BKP Tau-Functions, and Spin Double Hurwitz Numbers'
     year: 2022
     coauthors: [yang-chenglang]
     doi: '10.1063/5.0136839'
+    journal: 'Journal of Mathematical Physics'
     primary_category: nlin.SI
+    openalex_id: W4365452127
+    sources: [arxiv, openalex]
   - id: '2210.08712'
     title: 'Diagonal Tau-Functions of 2D Toda Lattice Hierarchy, Connected (n,m)-Point Functions, and Double Hurwitz Numbers'
     year: 2022
@@ -153,49 +191,89 @@ publications:
     doi: '10.3842/SIGMA.2023.085'
     journal: 'SIGMA 19 (2023), 085, 33 pages'
     primary_category: nlin.SI
+    openalex_id: W4388341724
+    sources: [arxiv, openalex]
   - id: '2201.08178'
     title: 'BKP Hierarchy, Affine Coordinates, and a Formula for Connected Bosonic N-Point Functions'
     year: 2022
     coauthors: [yang-chenglang]
     doi: '10.1007/s11005-022-01554-x'
+    journal: 'Letters in Mathematical Physics'
     primary_category: nlin.SI
+    openalex_id: W4221142413
+    sources: [arxiv, openalex]
   - id: '2109.03394'
     title: 'Topological 1D Gravity, KP Hierarchy, and Orbifold Euler Characteristics of M_{g,n}'
     year: 2021
     coauthors: [zhou-jian]
+    doi: '10.48550/arxiv.2109.03394'
     primary_category: math-ph
+    openalex_id: W3196891578
+    sources: [arxiv, openalex]
   - id: '2108.10498'
     title: 'A formalism of abstract quantum field theory of summation of fat graphs'
     year: 2021
     coauthors: [zhou-jian]
+    doi: '10.48550/arxiv.2108.10498'
     primary_category: math-ph
+    openalex_id: W3193839366
+    sources: [arxiv, openalex]
   - id: '2106.00470'
     title: 'On affine coordinates of the tau-function for open intersection numbers'
     year: 2021
     coauthors: []
     doi: '10.1016/j.nuclphysb.2021.115575'
     primary_category: math-ph
+    sources: [arxiv]
+  - id: 'doi:10.1016/j.nima.2020.164072'
+    title: 'Demonstration of small-angle neutron scattering measurements with a nested neutron-focusing supermirror assembly'
+    year: 2020
+    coauthors: ['Huarui Wu', 'Yao Zhang', 'Wenbo Mo', 'Pulin Bai', 'Kun Song', 'Zhong Zhang', 'Zhanshan Wang', 'Daniel S. Hussey', 'Yun Liu', 'Zhe Wang', 'Xuewu Wang']
+    doi: '10.1016/j.nima.2020.164072'
+    journal: 'Nuclear Instruments and Methods in Physics Research Section A Accelerators Spectrometers Detectors and Associated Equipment'
+    openalex_id: W3021726564
+    sources: [openalex]
+    no_arxiv: true
   - id: '1905.03436'
     title: 'Fourier-Like Transforms of Stable Graphs and Holomorphic Anomaly Equations'
     year: 2019
     coauthors: [zhou-jian]
+    doi: '10.48550/arxiv.1905.03436'
     primary_category: math-ph
+    openalex_id: W2944622271
+    sources: [arxiv, openalex]
+  - id: 'doi:10.1016/j.nima.2019.06.054'
+    title: 'Study of a nested neutron-focusing supermirror system for small-angle neutron scattering'
+    year: 2019
+    coauthors: ['Huarui Wu', 'Yang Yang', 'Daniel S. Hussey', 'Kun Song', 'Zhong Zhang', 'Zhanshan Wang', 'Zhe Wang', 'Xuewu Wang']
+    doi: '10.1016/j.nima.2019.06.054'
+    journal: 'Nuclear Instruments and Methods in Physics Research Section A Accelerators Spectrometers Detectors and Associated Equipment'
+    openalex_id: W2954355938
+    sources: [openalex]
+    no_arxiv: true
   - id: '1812.10638'
     title: 'Orbifold Euler Characteristics of M_{g,n}'
     year: 2018
     coauthors: [zhou-jian]
+    doi: '10.48550/arxiv.1812.10638'
     primary_category: math.AG
+    openalex_id: W2908402858
+    sources: [arxiv, openalex]
   - id: '1808.05343'
     title: 'A Unified Approach to Holomorphic Anomaly Equations and Quantum Spectral Curves'
     year: 2018
     coauthors: [zhou-jian]
     doi: '10.1007/JHEP04(2019)135'
+    journal: 'Journal of High Energy Physics'
     primary_category: math-ph
+    openalex_id: W2885419658
+    sources: [arxiv, openalex]
 activity:
-  total_papers: 15
-  published_count: 6
-  preprint_only_count: 9
+  total_papers: 20
+  published_count: 20
+  preprint_only_count: 0
   active_period: '2018-present'
+  confidence: 'has-17-review-pending'
   quality_source: 'openalex + ruirui-2026'
   t1_papers: 0
   t2_papers: 1

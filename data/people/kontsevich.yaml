@@ -45,17 +45,7 @@ identity_profile:
   coauthor_circle_core_names: ['Don Zagier']
   coauthor_circle_extended_slugs: [manin-yuri]
   coauthor_circle_extended_names: ['Yuri Manin']
-  research_keywords:
-    - 'algebraic'
-    - 'deformation'
-    - 'field'
-    - 'geometry'
-    - 'homological'
-    - 'mirror'
-    - 'quantization'
-    - 'symmetry'
-    - 'theory'
-    - 'topological'
+  research_keywords: [algebraic, deformation, geometry, homological, mirror, quantization, symmetry, topological]
   known_arxiv_ids:
     - '2601.07538'
     - '2509.15831'
@@ -121,12 +111,13 @@ advisor: zagier
 students: []
 key_collaborators: []
 activity:
-  total_papers: 60
-  published_count: 58
+  total_papers: 61
+  published_count: 59
   preprint_only_count: 2
   h_index: 44
   active_period: '1990-present'
   peak_period: '1994-2010'
+  confidence: 'has-47-review-pending'
   quality_source: 'openalex + ruirui-2026'
   t1_papers: 5
   t2_papers: 6
@@ -511,6 +502,14 @@ publications:
     journal: 'Birkhäuser Boston eBooks'
     primary_category: math.AG
     sources: [arxiv]
+  - id: 'doi:10.1007/978-3-642-56478-9_39'
+    title: 'Periods'
+    year: 2001
+    coauthors: [zagier]
+    doi: '10.1007/978-3-642-56478-9_39'
+    openalex_id: W4242941774
+    sources: [openalex]
+    no_arxiv: true
   - id: '0011041'
     title: 'Homological mirror symmetry and torus fibrations'
     year: 2000
@@ -586,7 +585,8 @@ publications:
     doi: '10.1007/978-3-0348-9078-6_11'
     journal: 'Birkhäuser Basel eBooks'
     primary_category: math.AG
-    sources: [arxiv]
+    openalex_id: W4394669917
+    sources: [arxiv, openalex]
   - id: '9406140'
     title: 'Geometry of determinants of elliptic operators'
     year: 1994

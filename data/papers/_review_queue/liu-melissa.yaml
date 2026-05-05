@@ -1,0 +1,135 @@
+slug: liu-melissa
+count: 9
+note: 需要人工核对的候选论文。score 在 10-19 之间。要么补 ORCID 进 identity_profile, 要么明确标 accepted/rejected
+candidates:
+- id: doi:10.14231/ag-2020-007
+  title: All-genus open-closed mirror symmetry for affine toric Calabi�Yau 3-orbifolds
+  year: 2020
+  score: 14
+  evidence:
+    authors:
+    - Chiu-Chu Melissa Liu
+    year_in_period: 2012-present
+    keywords:
+    - mirror
+    - symmetry
+    math_venue: algebraic geometry
+  doi: 10.14231/ag-2020-007
+  venue: Algebraic geometry
+- id: '1107.4712'
+  title: Localization in Gromov-Witten Theory and Orbifold Gromov-Witten Theory
+  year: 2011
+  score: 14
+  evidence:
+    authors:
+    - Chiu-Chu Melissa Liu
+    year_in_period: 2008-2012
+    keywords:
+    - gromov
+    - witten
+    math_venue: arxiv (cornell university)
+  doi: 10.48550/arxiv.1107.4712
+  venue: null
+- id: doi:10.48550/arxiv.math/0211388
+  title: On the Connectedness of Moduli Spaces of Flat Connections over Compact Surfaces
+  year: 2002
+  score: 11
+  evidence:
+    authors:
+    - Nan-Kuo Ho
+    - Chiu-Chu Melissa Liu
+    year_in_period: 1996-2002
+    keywords:
+    - moduli
+    math_venue: arxiv (cornell university)
+  doi: 10.48550/arxiv.math/0211388
+  venue: null
+- id: doi:10.48550/arxiv.1603.06184
+  title: An effective theory of GW and FJRW invariants of quintics Calabi-Yau manifolds
+  year: 2016
+  score: 10
+  evidence:
+    authors:
+    - Huai-Liang Chang
+    - Jun Li
+    - Wei-Ping Li
+    - Chiu-Chu Melissa Liu
+    coauthor_extended:
+    - Huai-Liang Chang
+    year_in_period: 2012-present
+  doi: 10.48550/arxiv.1603.06184
+  venue: null
+- id: '2210.11721'
+  title: Orbifold Open/Closed Correspondence and Mirror Symmetry
+  year: 2022
+  score: 14
+  evidence:
+    authors:
+    - Chiu-Chu Melissa Liu
+    - Song Yu
+    year_in_period: 2012-present
+    keywords:
+    - mirror
+    - symmetry
+    math_venue: arxiv (cornell university)
+  doi: 10.48550/arxiv.2210.11721
+  venue: null
+- id: '1907.06152'
+  title: On the mathematics and physics of Mixed Spin P-fields
+  year: 2017
+  score: 13
+  evidence:
+    authors:
+    - Huai-Liang Chang
+    - Jun Li
+    - Wei-Ping Li
+    - Chiu-Chu Melissa Liu
+    coauthor_extended:
+    - Huai-Liang Chang
+    year_in_period: 2012-present
+    math_venue: proceedings of symposia in pure mathematics
+  doi: 10.1090/pspum/096/01656
+  venue: Proceedings of symposia in pure mathematics
+- id: '0811.4703'
+  title: Gromov-Witten invariants of toric Calabi-Yau threefolds
+  year: 2008
+  score: 14
+  evidence:
+    authors:
+    - Chiu-Chu Melissa Liu
+    year_in_period: 2005-2008
+    keywords:
+    - gromov
+    - witten
+    math_venue: arxiv (cornell university)
+  doi: 10.48550/arxiv.0811.4703
+  venue: null
+- id: doi:10.1142/9789812775061_0012
+  title: ON THE CONNECTEDNESS OF THE SPACES OF SURFACE GROUP REPRESENTATIONS
+  year: 2005
+  score: 25
+  evidence:
+    authors:
+    - Nan-Kuo Ho
+    - Chiu-Chu Melissa Liu
+    affiliation_match:
+    - harvard university
+    year_in_period: 2002-2005
+  doi: 10.1142/9789812775061_0012
+  venue: null
+- id: doi:10.14288/1.0044315
+  title: Eynard-Orantin topological recursion and equivariant Gromov-Witten invariants
+    of the projective line
+  year: 2014
+  score: 17
+  evidence:
+    authors:
+    - Chiu-Chu Melissa Liu
+    year_in_period: 2008-2012
+    keywords:
+    - gromov
+    - recursion
+    - topological
+    - witten
+  doi: 10.14288/1.0044315
+  venue: cIRcle (University of British Columbia)

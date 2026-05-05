@@ -1,0 +1,238 @@
+slug: guo-shuai
+count: 14
+note: 需要人工核对的候选论文。score 在 10-19 之间。要么补 ORCID 进 identity_profile, 要么明确标 accepted/rejected
+candidates:
+- id: doi:10.4007/annals.2021.194.3.1
+  title: Polynomial structure of Gromov–Witten potential of quintic 3-folds
+  year: 2021
+  score: 19
+  evidence:
+    authors:
+    - Huai-Liang Chang
+    - Shuai Guo
+    - Jun Li
+    coauthor_extended:
+    - Huai-Liang Chang
+    year_in_period: 2016-2023
+    keywords:
+    - gromov
+    - witten
+    math_venue: annals of mathematics
+  doi: 10.4007/annals.2021.194.3.1
+  venue: Annals of Mathematics
+- id: doi:10.1093/imrn/rny201
+  title: Genus-One Gromov–Witten Invariants of Quintic Three-folds via MSP Localization
+  year: 2018
+  score: 19
+  evidence:
+    authors:
+    - Huai-Liang Chang
+    - Shuai Guo
+    - Wei-Ping Li
+    - Jie Zhou
+    coauthor_extended:
+    - Huai-Liang Chang
+    year_in_period: 2013-2016
+    keywords:
+    - gromov
+    - witten
+    math_venue: international mathematics research notices
+  doi: 10.1093/imrn/rny201
+  venue: International Mathematics Research Notices
+- id: doi:10.3929/ethz-b-000482826
+  title: Holomorphic anomaly equation for (P2,E) and the Nekrasov-Shatashvili limit
+    of local P2
+  year: 2021
+  score: 10
+  evidence:
+    authors:
+    - Pierrick Bousseau
+    - Honglu Fan
+    - Shuai Guo
+    - Longting Wu
+    coauthor_extended:
+    - Longting Wu
+    year_in_period: 2016-2023
+  doi: 10.3929/ethz-b-000482826
+  venue: Repository for Publications and Research Data (ETH Zurich)
+- id: '1608.02077'
+  title: Virasoro constraints and polynomial recursion for the linear Hodge integrals
+  year: 2016
+  score: 11
+  evidence:
+    authors:
+    - Shuai Guo
+    - Gehao Wang
+    year_in_period: 2013-2016
+    keywords:
+    - integrable
+    math_venue: letters in mathematical physics
+  doi: 10.1007/s11005-016-0923-x
+  venue: Letters in Mathematical Physics
+- id: '1812.11908'
+  title: Structure of Higher Genus Gromov-Witten Invariants of Quintic 3-folds
+  year: 2018
+  score: 19
+  evidence:
+    authors:
+    - Shuai Guo
+    - Felix Janda
+    - Yongbin Ruan
+    coauthor_extended:
+    - Yongbin Ruan
+    year_in_period: 2013-2016
+    keywords:
+    - gromov
+    - witten
+    math_venue: arxiv (cornell university)
+  doi: 10.48550/arxiv.1812.11908
+  venue: null
+- id: '1611.08876'
+  title: Genus-One Mirror Symmetry in the Landau-Ginzburg Model
+  year: 2016
+  score: 14
+  evidence:
+    authors:
+    - Shuai Guo
+    - Dustin Ross
+    year_in_period: 2013-2016
+    keywords:
+    - mirror
+    - symmetry
+    math_venue: arxiv (cornell university)
+  doi: 10.48550/arxiv.1611.08876
+  venue: null
+- id: '1809.11058'
+  title: Polynomial structure of Gromov-Witten potential of quintic $3$-folds via
+    NMSP
+  year: 2018
+  score: 19
+  evidence:
+    authors:
+    - Huai-Liang Chang
+    - Shuai Guo
+    - Jun Li
+    coauthor_extended:
+    - Huai-Liang Chang
+    year_in_period: 2013-2016
+    keywords:
+    - gromov
+    - witten
+    math_venue: arxiv (cornell university)
+  doi: 10.48550/arxiv.1809.11058
+  venue: null
+- id: '1810.00394'
+  title: BCOV's Feynman rule of quintic $3$-folds
+  year: 2018
+  score: 13
+  evidence:
+    authors:
+    - Huai-Liang Chang
+    - Shuai Guo
+    - Jun Li
+    coauthor_extended:
+    - Huai-Liang Chang
+    year_in_period: 2013-2016
+    math_venue: arxiv (cornell university)
+  doi: 10.48550/arxiv.1810.00394
+  venue: null
+- id: '1711.10118'
+  title: Genus one GW invariants of quintic threefolds via MSP localization
+  year: 2017
+  score: 13
+  evidence:
+    authors:
+    - Huai-Liang Chang
+    - Shuai Guo
+    - Wei-Ping Li
+    - Jie Zhou
+    coauthor_extended:
+    - Huai-Liang Chang
+    year_in_period: 2013-2016
+    math_venue: arxiv (cornell university)
+  doi: 10.48550/arxiv.1711.10118
+  venue: null
+- id: '1912.00558'
+  title: Quantum curve and bilinear Fermionic form for the orbifold Gromov-Witten
+    theory of $\mathbb{P}[r]$
+  year: 2019
+  score: 14
+  evidence:
+    authors:
+    - Chongyao Chen
+    - Shuai Guo
+    year_in_period: 2016-2023
+    keywords:
+    - gromov
+    - witten
+    math_venue: arxiv (cornell university)
+  doi: 10.48550/arxiv.1912.00558
+  venue: null
+- id: '2312.11174'
+  title: Stability conditions in the mathematical Gauged Linear Sigma Model
+  year: 2023
+  score: 13
+  evidence:
+    authors:
+    - Huai-Liang Chang
+    - Shuai Guo
+    - Jun Li
+    - Wei-Ping Li
+    - Yang Zhou
+    coauthor_extended:
+    - Huai-Liang Chang
+    year_in_period: 2016-2023
+    math_venue: arxiv (cornell university)
+  doi: 10.48550/arxiv.2312.11174
+  venue: null
+- id: '2312.11197'
+  title: A boundedness theorem for principal bundles on curves
+  year: 2023
+  score: 13
+  evidence:
+    authors:
+    - Huai-Liang Chang
+    - Shuai Guo
+    - Jun Li
+    - Wei-Ping Li
+    - Yang Zhou
+    coauthor_extended:
+    - Huai-Liang Chang
+    year_in_period: 2016-2023
+    math_venue: arxiv (cornell university)
+  doi: 10.48550/arxiv.2312.11197
+  venue: null
+- id: doi:10.1007/s10114-024-1633-4
+  title: Quantum Curve and Bilinear Fermionic Form for the Orbifold Gromov–Witten
+    Theory of ℙ[r]
+  year: 2024
+  score: 14
+  evidence:
+    authors:
+    - Chong Chen
+    - Shuai Guo
+    year_in_period: 2016-2023
+    keywords:
+    - gromov
+    - witten
+    math_venue: acta mathematica sinica english series
+  doi: 10.1007/s10114-024-1633-4
+  venue: Acta Mathematica Sinica English Series
+- id: '2501.05622'
+  title: Poincaré polynomials of moduli spaces of one-dimensional sheaves on the projective
+    plane
+  year: 2025
+  score: 16
+  evidence:
+    authors:
+    - Shuai Guo
+    - Longting Wu
+    - Moreira, with an appendix by Miguel
+    coauthor_extended:
+    - Longting Wu
+    year_in_period: 2016-2023
+    keywords:
+    - moduli
+    math_venue: arxiv (cornell university)
+  doi: 10.48550/arxiv.2501.05622
+  venue: null

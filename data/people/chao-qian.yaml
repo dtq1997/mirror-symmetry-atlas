@@ -46,7 +46,6 @@ identity_profile:
   email_domains: [whu.edu.cn]
   research_keywords:
     - 'bundles'
-    - 'category'
     - 'cohomology'
     - 'crepant'
     - 'derived'
@@ -54,13 +53,9 @@ identity_profile:
     - 'geometry'
     - 'gromov'
     - 'mirror'
-    - 'mukai'
     - 'orbifold'
-    - 'stack'
     - 'symmetry'
     - 'symplectic'
-    - 'theory'
-    - 'toric'
     - 'transform'
     - 'transformation'
     - 'witten'
@@ -204,6 +199,7 @@ activity:
   published_count: 6
   preprint_only_count: 10
   active_period: '2024-present'
+  confidence: 'has-2-review-pending'
   quality_source: 'openalex + ruirui-2026'
   t1_papers: 0
   t2_papers: 0

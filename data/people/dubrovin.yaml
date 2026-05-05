@@ -63,17 +63,7 @@ identity_profile:
     - 'Youjin Zhang'
   coauthor_circle_extended_slugs: [si-li, yang-di, zagier]
   coauthor_circle_extended_names: ['Di Yang', 'Don Zagier', 'Si Li']
-  research_keywords:
-    - 'equations'
-    - 'field'
-    - 'frobenius'
-    - 'integrable'
-    - 'isomonodromy'
-    - 'manifolds'
-    - 'painleve'
-    - 'systems'
-    - 'theory'
-    - 'topological'
+  research_keywords: [frobenius, integrable, isomonodromy, painleve, topological]
   known_arxiv_ids:
     - '2110.06655'
     - '2101.10924'
@@ -162,15 +152,16 @@ key_collaborators:
   topic: Painlevé equations, reflection groups
   papers_count: 7
 activity:
-  total_papers: 50
-  published_count: 50
-  preprint_only_count: 0
+  total_papers: 75
+  published_count: 74
+  preprint_only_count: 1
   h_index: 45
   mathscinet_citations: 5000
   active_period: '1974-2019'
   peak_period: '1994-2010'
   phd_students: 19
   academic_descendants: 52
+  confidence: 'has-57-review-pending'
   quality_source: 'openalex + ruirui-2026'
   t1_papers: 2
   t2_papers: 9
@@ -192,6 +183,69 @@ personal_notes: '极具人格魅力的导师。晚年与 ALS 斗争期间仍坚�
 
   '
 publications:
+  - id: 'doi:10.1007/978-3-031-69067-9_1'
+    title: 'Introduction'
+    year: 2024
+    coauthors: [cotti, guzzetti]
+    doi: '10.1007/978-3-031-69067-9_1'
+    journal: 'Lecture notes in mathematics'
+    openalex_id: W4403810207
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1007/978-3-031-69067-9_6'
+    title: 'Proof of the Main Conjecture for Projective Spaces'
+    year: 2024
+    coauthors: [cotti, guzzetti]
+    doi: '10.1007/978-3-031-69067-9_6'
+    journal: 'Lecture notes in mathematics'
+    openalex_id: W4403810265
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1007/978-3-031-69067-9_7'
+    title: 'Proof of the Main Conjecture for Grassmannians'
+    year: 2024
+    coauthors: [cotti, guzzetti]
+    doi: '10.1007/978-3-031-69067-9_7'
+    journal: 'Lecture notes in mathematics'
+    openalex_id: W4403810268
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1007/978-3-031-69067-9_5'
+    title: 'The Main Conjecture'
+    year: 2024
+    coauthors: [cotti, guzzetti]
+    doi: '10.1007/978-3-031-69067-9_5'
+    journal: 'Lecture notes in mathematics'
+    openalex_id: W4403810274
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1007/978-3-031-69067-9_3'
+    title: 'Helix Theory in Triangulated Categories'
+    year: 2024
+    coauthors: [cotti, guzzetti]
+    doi: '10.1007/978-3-031-69067-9_3'
+    journal: 'Lecture notes in mathematics'
+    openalex_id: W4403810295
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1007/978-3-031-69067-9_2'
+    title: 'Gromov–Witten Theory and Quantum Cohomology'
+    year: 2024
+    coauthors: [cotti, guzzetti]
+    doi: '10.1007/978-3-031-69067-9_2'
+    journal: 'Lecture notes in mathematics'
+    openalex_id: W4403810314
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1007/978-3-031-69067-9_4'
+    title: 'Non-symmetric Orthogonal Geometry of Mukai Lattices'
+    year: 2024
+    coauthors: [cotti, guzzetti]
+    doi: '10.1007/978-3-031-69067-9_4'
+    journal: 'Lecture notes in mathematics'
+    openalex_id: W4403810316
+    sources: [openalex]
+    no_arxiv: true
   - id: '2110.06655'
     title: 'Affine Kac-Moody Algebras and Tau-Functions for the Drinfeld-Sokolov Hierarchies: the Matrix-Resolvent Method'
     year: 2021
@@ -207,7 +261,8 @@ publications:
     doi: '10.1016/j.aim.2023.109311'
     journal: 'Advances in Mathematics'
     primary_category: math.AG
-    sources: [arxiv]
+    openalex_id: W3122575854
+    sources: [arxiv, openalex]
   - id: '1905.08106'
     title: 'Remarks on intersection numbers and integrable hierarchies. I. Quasi-triviality'
     year: 2019
@@ -238,7 +293,8 @@ publications:
     doi: '10.1007/978-3-031-69067-9'
     journal: 'Lecture notes in mathematics'
     primary_category: math.AG
-    sources: [arxiv]
+    openalex_id: W4403810192
+    sources: [arxiv, openalex]
   - id: '1809.02311'
     title: 'A Riemann-Hilbert Approach to the Heun Equation'
     year: 2018
@@ -261,7 +317,8 @@ publications:
     coauthors: []
     doi: '10.4310/cntp.2019.v13.n1.a7'
     primary_category: math-ph
-    sources: [arxiv]
+    openalex_id: W2812009229
+    sources: [arxiv, openalex]
   - id: '1802.00711'
     title: 'Gromov--Witten invariants of the Riemann sphere'
     year: 2018
@@ -270,6 +327,15 @@ publications:
     journal: 'Pure and Applied Mathematics Quarterly'
     primary_category: math.AG
     sources: [arxiv]
+  - id: 'doi:10.1063/1.5031769'
+    title: 'Separation of variables for linear Lax algebras and classical <i>r</i>-matrices'
+    year: 2018
+    coauthors: ['T. Skrypnyk']
+    doi: '10.1063/1.5031769'
+    journal: 'Journal of Mathematical Physics'
+    openalex_id: W2884515883
+    sources: [openalex]
+    no_arxiv: true
   - id: '1712.08575'
     title: 'Local Moduli of Semisimple Frobenius Coalescent Structures'
     year: 2017
@@ -277,7 +343,8 @@ publications:
     doi: '10.3842/SIGMA.2020.040'
     journal: 'SIGMA 16 (2020), 040, 105 pages'
     primary_category: math.DG
-    sources: [arxiv]
+    openalex_id: W2776628391
+    sources: [arxiv, openalex]
   - id: '1706.04808'
     title: 'Isomonodromy Deformations at an Irregular Singularity with Coalescing Eigenvalues'
     year: 2017
@@ -308,7 +375,8 @@ publications:
     doi: '10.1007/s00220-020-03846-6'
     journal: 'Communications in Mathematical Physics'
     primary_category: math-ph
-    sources: [arxiv]
+    openalex_id: W3086463376
+    sources: [arxiv, openalex]
   - id: '1610.07534'
     title: 'Simple Lie algebras, Drinfeld--Sokolov hierarchies, and multi-point correlation functions'
     year: 2016
@@ -347,7 +415,8 @@ publications:
     doi: '10.1016/j.aim.2019.05.030'
     journal: 'Advances in Mathematics Volume 351, 31 July 2019, Pages 897-946'
     primary_category: math.DG
-    sources: [arxiv]
+    openalex_id: W2238565323
+    sources: [arxiv, openalex]
   - id: '1510.01580'
     title: 'On critical behaviour in generalized Kadomtsev--Petviashvili equations'
     year: 2015
@@ -378,7 +447,8 @@ publications:
     doi: '10.1016/j.aim.2016.01.018'
     journal: 'Advances in Mathematics'
     primary_category: math.AG
-    sources: [arxiv]
+    openalex_id: W2138945228
+    sources: [arxiv, openalex]
   - id: '1407.5824'
     title: 'Symplectic field theory of a disk, quantum integrable systems, and Schur polynomials'
     year: 2014
@@ -408,7 +478,8 @@ publications:
     doi: '10.1134/s106192081204005x'
     journal: 'Russian Journal of Mathematical Physics, vol. 19, (2012) p. 13-22'
     primary_category: math-ph
-    sources: [arxiv]
+    openalex_id: W2031299197
+    sources: [arxiv, openalex]
   - id: '1301.7211'
     title: 'On an isomonodromy deformation equation without the Painlevé property'
     year: 2013
@@ -416,7 +487,8 @@ publications:
     doi: '10.1134/S1061920814010026'
     journal: 'Russian Journal of Mathematical Physics'
     primary_category: math.CA
-    sources: [arxiv]
+    openalex_id: W1976920057
+    sources: [arxiv, openalex]
   - id: '1205.5990'
     title: 'On the Genus Two Free Energies for Semisimple Frobenius Manifolds'
     year: 2012
@@ -425,6 +497,15 @@ publications:
     journal: 'Russ. J. Math. Phys. 19 (2012), no. 3, 273--298'
     primary_category: math-ph
     sources: [arxiv]
+  - id: 'doi:10.1007/s11232-012-0086-6'
+    title: 'Classical double, R-operators, and negative flows of integrable hierarchies'
+    year: 2012
+    coauthors: ['T. Skrypnyk']
+    doi: '10.1007/s11232-012-0086-6'
+    journal: 'Theoretical and Mathematical Physics'
+    openalex_id: W2091665286
+    sources: [openalex]
+    no_arxiv: true
   - id: '0902.1245'
     title: 'Infinite-Dimensional Frobenius Manifolds for 2+1 Integrable Systems'
     year: 2009
@@ -447,7 +528,24 @@ publications:
     doi: '10.1016/j.aim.2008.06.009'
     journal: 'Advances in Mathematics'
     primary_category: math.DG
-    sources: [arxiv]
+    openalex_id: W2103255893
+    sources: [arxiv, openalex]
+  - id: 'openalex:W2128014837'
+    title: 'Monodromy of certain Painlev e-VI transcendents and reection groups'
+    year: 2006
+    coauthors: [mazzocco]
+    openalex_id: W2128014837
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.4171/020-1/8'
+    title: 'On the reductions and classical solutions of the Schlesinger equations'
+    year: 2006
+    coauthors: [mazzocco]
+    doi: '10.4171/020-1/8'
+    journal: 'IRMA lectures in mathematics and theoretical physics'
+    openalex_id: W1567549351
+    sources: [openalex]
+    no_arxiv: true
   - id: '0510032'
     title: 'On Hamiltonian perturbations of hyperbolic systems of conservation laws, II: universality of critical behaviour'
     year: 2005
@@ -462,14 +560,25 @@ publications:
     doi: '10.1023/a:1000258122329'
     journal: 'Compositio Mathematica'
     primary_category: math.DG
-    sources: [arxiv]
+    openalex_id: W1829033056
+    sources: [arxiv, openalex]
+  - id: 'doi:10.1002/cpa.20111'
+    title: 'On Hamiltonian perturbations of hyperbolic systems of conservation laws I: Quasi‐Triviality of bi‐Hamiltonian perturbations'
+    year: 2005
+    coauthors: ['Si‐Qi Liu', zhang-youjin]
+    doi: '10.1002/cpa.20111'
+    journal: 'Communications on Pure and Applied Mathematics'
+    openalex_id: W2148634808
+    sources: [openalex]
+    no_arxiv: true
   - id: '0410027'
     title: 'On Hamiltonian perturbations of hyperbolic systems of conservation laws'
     year: 2004
     coauthors: [si-li, zhang-youjin]
     doi: '10.48550/arxiv.math/0410027'
     primary_category: math.DG
-    sources: [arxiv]
+    openalex_id: W1626671567
+    sources: [arxiv, openalex]
   - id: '0311261'
     title: 'Canonical structure and symmetries of the Schlesinger equations'
     year: 2003
@@ -477,14 +586,16 @@ publications:
     doi: '10.1007/s00220-006-0165-3'
     journal: 'Communications in Mathematical Physics'
     primary_category: math.DG
-    sources: [arxiv]
+    openalex_id: W2099806108
+    sources: [arxiv, openalex]
   - id: '0308152'
     title: 'Virasoro Symmetries of the Extended Toda Hierarchy'
     year: 2003
     coauthors: [zhang-youjin]
     doi: '10.1007/s00220-004-1084-9'
     primary_category: math.DG
-    sources: [arxiv]
+    openalex_id: W3101856057
+    sources: [arxiv, openalex]
   - id: '0307374'
     title: 'On almost duality for Frobenius manifolds'
     year: 2003
@@ -499,14 +610,25 @@ publications:
     doi: '10.17323/1609-4514-2004-4-2-313-332'
     journal: 'Moscow Mathematical Journal'
     primary_category: nlin.SI
-    sources: [arxiv]
+    openalex_id: W2949335867
+    sources: [arxiv, openalex]
   - id: '0108160'
     title: 'Normal forms of hierarchies of integrable PDEs, Frobenius manifolds and Gromov - Witten invariants'
     year: 2001
     coauthors: [zhang-youjin]
     doi: '10.48550/arxiv.math/0108160'
     primary_category: math.DG
-    sources: [arxiv]
+    openalex_id: W1634975405
+    sources: [arxiv, openalex]
+  - id: 'doi:10.1007/pl00005790'
+    title: 'Monodromy of certain Painlevé–VI transcendents and reflection groups'
+    year: 2000
+    coauthors: [mazzocco]
+    doi: '10.1007/pl00005790'
+    journal: 'Inventiones mathematicae'
+    openalex_id: W2002372149
+    sources: [openalex]
+    no_arxiv: true
   - id: '9808048'
     title: 'Frobenius Manifolds And Virasoro Constraints'
     year: 1998
@@ -514,7 +636,8 @@ publications:
     doi: '10.1007/s000290050053'
     journal: 'Selecta Mathematica'
     primary_category: math.AG
-    sources: [arxiv]
+    openalex_id: W2949317109
+    sources: [arxiv, openalex]
   - id: '9807034'
     title: 'Geometry and analytic theory of Frobenius manifolds'
     year: 1998
@@ -569,6 +692,23 @@ publications:
     journal: 'Surveys in Differential Geometry'
     primary_category: hep-th
     sources: [arxiv]
+  - id: 'doi:10.1007/978-1-4612-0315-5_16'
+    title: 'Integrable Systems and Classification of 2-Dimensional Topological Field Theories'
+    year: 1993
+    coauthors: []
+    doi: '10.1007/978-1-4612-0315-5_16'
+    openalex_id: W1620873428
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1007/978-1-4899-1516-0_19'
+    title: 'Topological Conformal Field Theory from the Point of View of Integrable Systems'
+    year: 1993
+    coauthors: []
+    doi: '10.1007/978-1-4899-1516-0_19'
+    journal: 'NATO ASI series. Series B : Physics'
+    openalex_id: W125044406
+    sources: [openalex]
+    no_arxiv: true
   - id: '9206037'
     title: 'Geometry and Integrability of Topological-Antitopological Fusion'
     year: 1992
@@ -577,6 +717,96 @@ publications:
     journal: 'Commun.Math.Phys. 152 (1993) 539-564'
     primary_category: hep-th
     sources: [arxiv]
+  - id: 'doi:10.1007/bf02099286'
+    title: 'Hamiltonian formalism of Whitham-type hierarchies and topological Landau-Ginsburg models'
+    year: 1992
+    coauthors: []
+    doi: '10.1007/bf02099286'
+    journal: 'Communications in Mathematical Physics'
+    openalex_id: W2119825721
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1007/978-1-4612-1100-6'
+    title: 'Modern Geometry— Methods and Applications'
+    year: 1985
+    coauthors: ['S P Novikov', 'А. Т. Фоменко']
+    doi: '10.1007/978-1-4612-1100-6'
+    journal: 'Graduate texts in mathematics'
+    openalex_id: W4205582579
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1007/978-1-4612-1100-6_1'
+    title: 'Examples of Manifolds'
+    year: 1985
+    coauthors: ['S. P. Novikov', 'А. Т. Фоменко']
+    doi: '10.1007/978-1-4612-1100-6_1'
+    journal: 'Graduate texts in mathematics'
+    openalex_id: W996819531
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1007/978-1-4612-1100-6_4'
+    title: 'Orientability of Manifolds. The Fundamental Group. Covering Spaces (Fibre Bundles with Discrete Fibre)'
+    year: 1985
+    coauthors: ['S. P. Novikov', 'А. Т. Фоменко']
+    doi: '10.1007/978-1-4612-1100-6_4'
+    journal: 'Graduate texts in mathematics'
+    openalex_id: W116997042
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1007/978-1-4612-1100-6_6'
+    title: 'Smooth Fibre Bundles'
+    year: 1985
+    coauthors: ['S P Novikov', 'А. Т. Фоменко']
+    doi: '10.1007/978-1-4612-1100-6_6'
+    journal: 'Graduate texts in mathematics'
+    openalex_id: W137462585
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1007/978-1-4612-1100-6_7'
+    title: 'Some Examples of Dynamical Systems and Foliations on Manifolds'
+    year: 1985
+    coauthors: ['S. P. Novikov', 'A. T. Fomenko']
+    doi: '10.1007/978-1-4612-1100-6_7'
+    journal: 'Graduate texts in mathematics'
+    openalex_id: W28468388
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1007/978-1-4612-1100-6_8'
+    title: 'The Global Structure of Solutions of Higher-Dimensional Variational Problems'
+    year: 1985
+    coauthors: ['S. P. Novikov', 'А. Т. Фоменко']
+    doi: '10.1007/978-1-4612-1100-6_8'
+    journal: 'Graduate texts in mathematics'
+    openalex_id: W32430860
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1007/978-1-4612-1100-6_3'
+    title: 'The Degree of a Mapping. The Intersection Index of Submanifolds. Applications'
+    year: 1985
+    coauthors: ['S. P. Novikov', 'А. Т. Фоменко']
+    doi: '10.1007/978-1-4612-1100-6_3'
+    journal: 'Graduate texts in mathematics'
+    openalex_id: W51558697
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1007/978-1-4612-1100-6_2'
+    title: 'Foundational Questions. Essential Facts Concerning Functions on a Manifold. Typical Smooth Mappings'
+    year: 1985
+    coauthors: ['S. P. Novikov', 'A. T. Fomenko']
+    doi: '10.1007/978-1-4612-1100-6_2'
+    journal: 'Graduate texts in mathematics'
+    openalex_id: W961095287
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1007/bf01155666'
+    title: 'Generalized Witt groups'
+    year: 1973
+    coauthors: []
+    doi: '10.1007/bf01155666'
+    journal: 'Mathematical Notes'
+    openalex_id: W2036390398
+    sources: [openalex]
+    no_arxiv: true
 sources:
 - label: Math Genealogy
   url: https://www.mathgenealogy.org/id.php?id=83136

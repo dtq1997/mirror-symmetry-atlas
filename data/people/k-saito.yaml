@@ -48,7 +48,7 @@ identity_profile:
       role: 'Principal Investigator'
   coauthor_circle_extended_slugs: [li-changzheng, si-li]
   coauthor_circle_extended_names: ['Changzheng Li', 'Si Li']
-  research_keywords: [flat, forms, frobenius, manifolds, primitive, singularity, structures, theory]
+  research_keywords: [frobenius, primitive, singularity]
   known_arxiv_ids:
     - '2312.16951'
     - '2012.00844'
@@ -74,12 +74,13 @@ advisor: brieskorn
 students: []
 key_collaborators: []
 activity:
-  total_papers: 20
-  published_count: 19
+  total_papers: 50
+  published_count: 49
   preprint_only_count: 1
   h_index: 25
   active_period: '1971-present'
   phd_students: 7
+  confidence: 'has-13-review-pending'
   quality_source: 'openalex + ruirui-2026'
   t1_papers: 3
   t2_papers: 1
@@ -114,7 +115,8 @@ publications:
     doi: '10.4310/pamq.2020.v16.n4.a2'
     journal: 'Pure and Applied Mathematics Quarterly'
     primary_category: math.NT
-    sources: [arxiv]
+    openalex_id: W3104534662
+    sources: [arxiv, openalex]
   - id: '1909.02715'
     title: 'A view on elliptic integrals from primitive forms (Period integrals of type $\mathrm{A_2, B_2}$ and $\mathrm{G_2}$'
     year: 2019
@@ -122,7 +124,26 @@ publications:
     doi: '10.4310/pamq.2020.v16.n4.a1'
     journal: 'Pure and Applied Mathematics Quarterly'
     primary_category: math.AG
-    sources: [arxiv]
+    openalex_id: W3103720973
+    sources: [arxiv, openalex]
+  - id: 'doi:10.2969/aspm/05010101'
+    title: 'Towards a categorical construction of Lie algebras'
+    year: 2019
+    coauthors: []
+    doi: '10.2969/aspm/05010101'
+    journal: 'Advanced studies in pure mathematics'
+    openalex_id: W2171250524
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1007/s40306-017-0202-7'
+    title: 'The Zero Loci of F-triangles'
+    year: 2017
+    coauthors: []
+    doi: '10.1007/s40306-017-0202-7'
+    journal: 'Acta Mathematica Vietnamica'
+    openalex_id: W2604153458
+    sources: [openalex]
+    no_arxiv: true
   - id: '1608.02357'
     title: 'The Zero Locus of the $F$-triangle'
     year: 2016
@@ -137,7 +158,8 @@ publications:
     doi: '10.1016/j.jalgebra.2016.11.032'
     journal: 'Journal of Algebra'
     primary_category: math.CO
-    sources: [arxiv]
+    openalex_id: W2964132656
+    sources: [arxiv, openalex]
   - id: '1502.04872'
     title: 'Coherence of direct images of the De Rham complex'
     year: 2015
@@ -160,6 +182,23 @@ publications:
     journal: 'Journal of the European Mathematical Society'
     primary_category: math.AG
     sources: [arxiv]
+  - id: 'doi:10.1016/j.jalgebra.2013.11.017'
+    title: 'The skew-growth function on the monoid of square matrices'
+    year: 2014
+    coauthors: []
+    doi: '10.1016/j.jalgebra.2013.11.017'
+    journal: 'Journal of Algebra'
+    openalex_id: W2963105102
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'openalex:W7146056116'
+    title: 'FROM PRIMITIVE FORM TO MIRROR SYMMETRY (Aspects of Mirror Symmetry)'
+    year: 2014
+    coauthors: []
+    journal: 'Institutional Repositories DataBase (IRDB)'
+    openalex_id: W7146056116
+    sources: [openalex]
+    no_arxiv: true
   - id: '1311.1659'
     title: 'Primitive forms via polyvector fields'
     year: 2013
@@ -196,7 +235,26 @@ publications:
     doi: '10.1016/j.jalgebra.2013.01.037'
     journal: 'Journal of Algebra'
     primary_category: math.CO
-    sources: [arxiv]
+    openalex_id: W1998260361
+    sources: [arxiv, openalex]
+  - id: 'doi:10.1016/j.jalgebra.2011.07.018'
+    title: 'Monoids in the fundamental groups of the complement of logarithmic free divisors in <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" altimg="si1.gif" overflow="scroll"><mml:msup><mml:mi mathvariant="double-struck">C</mml:mi><mml:mn>3</mml:mn></mml:msup></mml:math>'
+    year: 2011
+    coauthors: ['Tadashi Ishibe']
+    doi: '10.1016/j.jalgebra.2011.07.018'
+    journal: 'Journal of Algebra'
+    openalex_id: W2963915508
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.5802/aif.2799'
+    title: 'Coxeter elements for vanishing cycles of types  <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"> <mml:msub> <mml:mi mathvariant="normal">A</mml:mi> <mml:mrow> <mml:mfrac> <mml:mn>1</mml:mn> <mml:mn>2</mml:mn> </mml:mfrac> <mml:mi>∞</mml:mi> </mml:mrow> </mml:msub> </mml:math>  and  <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"> <mml:msub> <mml:mi mathvariant="normal">D</mml:mi> <mml:mrow> <mml:mfrac> <mml:mn>1</mml:mn> <mml:mn>2</mml:mn> </mml:mfrac> <mml:mi>∞</mml:mi> </mml:mrow> </mml:msub> </mml:math>'
+    year: 2011
+    coauthors: []
+    doi: '10.5802/aif.2799'
+    journal: 'Annales de l’institut Fourier'
+    openalex_id: W2322837112
+    sources: [openalex]
+    no_arxiv: true
   - id: '1009.6076'
     title: 'Growth partition functions for cancellative infinite monoids'
     year: 2010
@@ -204,6 +262,15 @@ publications:
     doi: '10.48550/arxiv.1009.6076'
     primary_category: math.GR
     sources: [arxiv]
+  - id: 'doi:10.2977/prims/2'
+    title: 'Limit Elements in the Conﬁguration Algebra for a Cancellative Monoid'
+    year: 2010
+    coauthors: []
+    doi: '10.2977/prims/2'
+    journal: 'Publications of the Research Institute for Mathematical Sciences'
+    openalex_id: W2092477701
+    sources: [openalex]
+    no_arxiv: true
   - id: '0911.3305'
     title: 'Monoids in the fundamental groups of the complement of logarithmic free divisors in C^3'
     year: 2009
@@ -211,6 +278,42 @@ publications:
     doi: '10.48550/arxiv.0911.3305'
     primary_category: math.GR
     sources: [arxiv]
+  - id: 'doi:10.3792/pjaa.85.84'
+    title: 'Growth functions for Artin monoids'
+    year: 2009
+    coauthors: []
+    doi: '10.3792/pjaa.85.84'
+    journal: 'Proceedings of the Japan Academy Series A Mathematical Sciences'
+    openalex_id: W2005051890
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1016/j.aim.2008.11.001'
+    title: 'Triangulated categories of matrix factorizations for regular systems of weights with <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" altimg="si1.gif" display="inline" overflow="scroll"> <mml:mi>ε</mml:mi> <mml:mo>=</mml:mo> <mml:mo>−</mml:mo> <mml:mn>1</mml:mn> </mml:math>'
+    year: 2008
+    coauthors: ['Hiroshige Kajiura', 'Atsushi Takahashi']
+    doi: '10.1016/j.aim.2008.11.001'
+    journal: 'Advances in Mathematics'
+    openalex_id: W2962894525
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.3792/pjaa.84.179'
+    title: 'Growth functions associated with Artin monoids of finite type'
+    year: 2008
+    coauthors: []
+    doi: '10.3792/pjaa.84.179'
+    journal: 'Proceedings of the Japan Academy Series A Mathematical Sciences'
+    openalex_id: W2059888193
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.2977/prims/1210167323'
+    title: 'Preface'
+    year: 2008
+    coauthors: ['Masaki Kashiwara', 'Шигефуми Мори', 'Shigeru Mukai', 'Yum-Tong Siu', 'Bernard Teissier', 'Stephen S.-T. Yau']
+    doi: '10.2977/prims/1210167323'
+    journal: 'Publications of the Research Institute for Mathematical Sciences'
+    openalex_id: W4254057900
+    sources: [openalex]
+    no_arxiv: true
   - id: '0708.0210'
     title: 'Triangulated categories of matrix factorizations for regular systems of weights with $ε=-1$'
     year: 2007
@@ -231,7 +334,8 @@ publications:
     doi: '10.1016/j.aim.2006.08.005'
     journal: 'Advances in Mathematics'
     primary_category: math.AG
-    sources: [arxiv]
+    openalex_id: W2038087689
+    sources: [arxiv, openalex]
   - id: '0510623'
     title: 'Principal $Γ$-cone for a tree'
     year: 2005
@@ -239,7 +343,179 @@ publications:
     doi: '10.1016/j.aim.2006.11.002'
     journal: 'Advances in Mathematics'
     primary_category: math.CO
-    sources: [arxiv]
+    openalex_id: W1971830265
+    sources: [arxiv, openalex]
+  - id: 'doi:10.1007/978-3-322-80236-1_11'
+    title: 'Uniformization of the orbifold of a finite reflection group'
+    year: 2004
+    coauthors: []
+    doi: '10.1007/978-3-322-80236-1_11'
+    journal: 'Aspects of mathematics. E'
+    openalex_id: W794988749
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.2977/prims/1145475449'
+    title: 'Polyhedra Dual to the Weyl Chamber Decomposition: A Précis'
+    year: 2004
+    coauthors: []
+    doi: '10.2977/prims/1145475449'
+    journal: 'Publications of the Research Institute for Mathematical Sciences'
+    openalex_id: W2046122011
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.2977/prims/1195142952'
+    title: 'Extended Affine Root System IV (Simply-Laced Elliptic Lie Algebras)'
+    year: 2000
+    coauthors: ['Daigo Yoshii']
+    doi: '10.2977/prims/1195142952'
+    journal: 'Publications of the Research Institute for Mathematical Sciences'
+    openalex_id: W2082091979
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1007/978-1-4612-0705-4'
+    title: 'Topological Field Theory, Primitive Forms and Related Topics'
+    year: 1998
+    coauthors: ['Masaki Kashiwara', 'Atsushi Matsuo', 'Ikuo Satake']
+    doi: '10.1007/978-1-4612-0705-4'
+    journal: 'Birkhäuser Boston eBooks'
+    openalex_id: W1617653146
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.4310/ajm.1998.v2.n4.a15'
+    title: 'Duality for regular systems of weights'
+    year: 1998
+    coauthors: []
+    doi: '10.4310/ajm.1998.v2.n4.a15'
+    journal: 'Asian Journal of Mathematics'
+    openalex_id: W1597266747
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.2977/prims/1195145453'
+    title: 'Extended Affine Root Systems III (Elliptic Weyl Groups)'
+    year: 1997
+    coauthors: ['Tadayoshi Takebayashi']
+    doi: '10.2977/prims/1195145453'
+    journal: 'Publications of the Research Institute for Mathematical Sciences'
+    openalex_id: W2030476641
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.2977/prims/1195166742'
+    title: 'On a Linear Structure of the Quotient Variety by a Finite Reflexion Group'
+    year: 1993
+    coauthors: []
+    doi: '10.2977/prims/1195166742'
+    journal: 'Publications of the Research Institute for Mathematical Sciences'
+    openalex_id: W2068622652
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1007/bfb0086202'
+    title: 'Higher eichler integrals and vector bundles over the moduli of spinned Riemann surfaces'
+    year: 1991
+    coauthors: []
+    doi: '10.1007/bfb0086202'
+    journal: 'Lecture notes in mathematics'
+    openalex_id: W11558377
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.2977/prims/1195169663'
+    title: 'A Generalization of Eichler Integrals and Certain Local Systems over Spin Riemann Surfaces'
+    year: 1991
+    coauthors: []
+    doi: '10.2977/prims/1195169663'
+    journal: 'Publications of the Research Institute for Mathematical Sciences'
+    openalex_id: W2017249928
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.2977/prims/1195171662'
+    title: 'Extended Affine Root Systems II (Flat Invariants)'
+    year: 1990
+    coauthors: []
+    doi: '10.2977/prims/1195171662'
+    journal: 'Publications of the Research Institute for Mathematical Sciences'
+    openalex_id: W2013914555
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1016/0021-8693(88)90298-0'
+    title: 'On the existence of exponents prime to the Coxeter number'
+    year: 1988
+    coauthors: []
+    doi: '10.1016/0021-8693(88)90298-0'
+    journal: 'Journal of Algebra'
+    openalex_id: W2051971383
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1016/0021-8693(87)90183-9'
+    title: 'A new relation among Cartan matrix and Coxeter matrix'
+    year: 1987
+    coauthors: []
+    doi: '10.1016/0021-8693(87)90183-9'
+    journal: 'Journal of Algebra'
+    openalex_id: W2053858743
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.2977/prims/1195179841'
+    title: 'Extended Affine Root Systems I (Coxeter transformations)'
+    year: 1985
+    coauthors: []
+    doi: '10.2977/prims/1195179841'
+    journal: 'Publications of the Research Institute for Mathematical Sciences'
+    openalex_id: W2036485233
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.2977/prims/1195180378'
+    title: 'The Root System of Sign (1, 0, 1)'
+    year: 1984
+    coauthors: []
+    doi: '10.2977/prims/1195180378'
+    journal: 'Publications of the Research Institute for Mathematical Sciences'
+    openalex_id: W2009913323
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.2977/prims/1195182028'
+    title: 'Period Mapping Associated to a Primitive Form'
+    year: 1983
+    coauthors: []
+    doi: '10.2977/prims/1195182028'
+    journal: 'Publications of the Research Institute for Mathematical Sciences'
+    openalex_id: W2095237097
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.3792/pjaa.58.79'
+    title: 'A characterization of the intersection form of a Milnor''s fiber for a function with an isolated critical point'
+    year: 1982
+    coauthors: []
+    doi: '10.3792/pjaa.58.79'
+    journal: 'Proceedings of the Japan Academy Series A Mathematical Sciences'
+    openalex_id: W2020261233
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.3792/pjaa.58.196'
+    title: 'On the identification of the intersection form on the middle homology group with the flat function via period mapping'
+    year: 1982
+    coauthors: []
+    doi: '10.3792/pjaa.58.196'
+    journal: 'Proceedings of the Japan Academy Series A Mathematical Sciences'
+    openalex_id: W2007753788
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.3792/pjaa.58.377'
+    title: 'Certain irreducible polynomials with multiplicatively independent roots'
+    year: 1982
+    coauthors: []
+    doi: '10.3792/pjaa.58.377'
+    journal: 'Proceedings of the Japan Academy Series A Mathematical Sciences'
+    openalex_id: W2088671360
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.2977/prims/1195196617'
+    title: 'On Boundary Values of Hypergeometric Functions of Several Variables'
+    year: 1976
+    coauthors: []
+    doi: '10.2977/prims/1195196617'
+    journal: 'Publications of the Research Institute for Mathematical Sciences'
+    openalex_id: W2057020686
+    sources: [openalex]
+    no_arxiv: true
 sources:
   - label: "Wikipedia: Kyoji Saito"
     url: "https://en.wikipedia.org/wiki/Kyoji_Saito"

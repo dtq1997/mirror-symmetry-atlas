@@ -38,7 +38,7 @@ identity_profile:
       role: 'Professor (W3), Lehrstuhl für Algebraische Geometrie'
   coauthor_circle_extended_slugs: [manin-yuri, sabbah]
   coauthor_circle_extended_names: ['Claude Sabbah', 'Yuri Manin']
-  research_keywords: [frobenius, geometry, manifolds, singularity, star, structures, theory, twistor]
+  research_keywords: [frobenius, geometry, singularity, twistor]
   known_arxiv_ids:
     - '2602.15748'
     - '2602.14973'
@@ -88,12 +88,13 @@ advisor: brieskorn
 students: []
 key_collaborators: []
 activity:
-  total_papers: 44
-  published_count: 44
+  total_papers: 72
+  published_count: 72
   preprint_only_count: 0
   h_index: 13
   active_period: '1992-present'
   phd_students: 4
+  confidence: 'has-34-review-pending'
   quality_source: 'openalex + ruirui-2026'
   t1_papers: 0
   t2_papers: 1
@@ -118,15 +119,19 @@ publications:
     year: 2026
     coauthors: ['Khadija Larabi']
     doi: '10.48550/arxiv.2602.15748'
+    journal: 'arXiv (Cornell University)'
     primary_category: math.RA
-    sources: [arxiv]
+    openalex_id: W7130481930
+    sources: [arxiv, openalex]
   - id: '2602.14973'
     title: 'Semigroups from full lattices in commutative ${\mathbb Q}$-algebras'
     year: 2026
     coauthors: ['Khadija Larabi']
     doi: '10.48550/arxiv.2602.14973'
+    journal: 'ArXiv.org'
     primary_category: math.RA
-    sources: [arxiv]
+    openalex_id: W7130236994
+    sources: [arxiv, openalex]
   - id: '2508.15497'
     title: 'Characterization of distinguished matrices of isolated hypersurface singularities through their spectral numbers'
     year: 2025
@@ -162,6 +167,15 @@ publications:
     doi: '10.48550/arxiv.2412.16570'
     primary_category: math.AG
     sources: [arxiv]
+  - id: 'doi:10.1112/blms.12736'
+    title: 'Algebraic curves and foliations'
+    year: 2022
+    coauthors: ['César Camacho', 'Hossein Movasati']
+    doi: '10.1112/blms.12736'
+    journal: 'Bulletin of the London Mathematical Society'
+    openalex_id: W3125919476
+    sources: [openalex]
+    no_arxiv: true
   - id: '2108.02295'
     title: 'The combinatorics of weight systems and characteristic polynomials of isolated quasihomogeneous singularities'
     year: 2021
@@ -169,14 +183,16 @@ publications:
     doi: '10.1007/s10801-022-01138-x'
     journal: 'Journal of Algebraic Combinatorics'
     primary_category: math.CO
-    sources: [arxiv]
+    openalex_id: W3188865004
+    sources: [arxiv, openalex]
   - id: '2012.11443'
     title: '3-dimensional F-manifolds'
     year: 2020
     coauthors: ['Alexey Basalaev']
     doi: '10.1007/s11005-021-01432-y'
     primary_category: math.DG
-    sources: [arxiv]
+    openalex_id: W3116617996
+    sources: [arxiv, openalex]
   - id: '2011.10099'
     title: 'Bilinear forms and hermitian forms for singularities: a survey'
     year: 2020
@@ -200,7 +216,8 @@ publications:
     doi: '10.2140/ant.2022.16.955'
     journal: 'Alg. Number Th. 16 (2022) 955-1024'
     primary_category: math.AG
-    sources: [arxiv]
+    openalex_id: W3085011647
+    sources: [arxiv, openalex]
   - id: '2009.07533'
     title: 'The integral monodromy of the cycle type singularities'
     year: 2020
@@ -208,7 +225,8 @@ publications:
     doi: '10.5427/jsing.2022.25l'
     journal: 'Journal of Singularities'
     primary_category: math.AT
-    sources: [arxiv]
+    openalex_id: W3085135217
+    sources: [arxiv, openalex]
   - id: '2001.01063'
     title: '(TE)-structures over the irreducible 2-dimensional globally nilpotent F-manifold germ'
     year: 2020
@@ -222,7 +240,8 @@ publications:
     coauthors: ['Liana David']
     doi: '10.48550/arxiv.1912.03331'
     primary_category: math.DG
-    sources: [arxiv]
+    openalex_id: W2993410029
+    sources: [arxiv, openalex]
   - id: '1811.03406'
     title: '(T)-structures over 2-dimensional F-manifolds: formal classification'
     year: 2018
@@ -230,7 +249,8 @@ publications:
     doi: '10.1007/s10231-019-00919-9'
     journal: 'Annali di Matematica Pura ed Applicata (1923 -)'
     primary_category: math.DG
-    sources: [arxiv]
+    openalex_id: W2980815988
+    sources: [arxiv, openalex]
   - id: '1806.00996'
     title: 'Distinguished bases and Stokes regions for the simple and the simple elliptic singularities'
     year: 2018
@@ -245,7 +265,8 @@ publications:
     doi: '10.1007/s10801-018-0864-9'
     journal: 'Journal of Algebraic Combinatorics'
     primary_category: math.CO
-    sources: [arxiv]
+    openalex_id: W2907341085
+    sources: [arxiv, openalex]
   - id: '1801.07924'
     title: 'Automorphisms with eigenvalues in $S^1$ of a ${\mathbb Z}$-lattice with cyclic finite monodromy'
     year: 2018
@@ -259,28 +280,204 @@ publications:
     coauthors: ['Alexander Varchenko']
     doi: '10.1017/s0017089517000374'
     primary_category: math.AG
-    sources: [arxiv]
+    openalex_id: W2780929529
+    sources: [arxiv, openalex]
   - id: '1712.00388'
     title: 'Conjectures on spectral numbers for upper triangular matrices and for singularities'
     year: 2017
     coauthors: ['Sven Balnojan']
     doi: '10.1007/s11040-019-9327-3'
     primary_category: math.AG
-    sources: [arxiv]
+    openalex_id: W2773164106
+    sources: [arxiv, openalex]
   - id: '1712.00383'
     title: 'Real Seifert forms and polarizing forms of Steenbrink mixed Hodge structures'
     year: 2017
     coauthors: ['Sven Balnojan']
     doi: '10.1007/s00574-018-0107-7'
     primary_category: math.AG
-    sources: [arxiv]
+    openalex_id: W2775419259
+    sources: [arxiv, openalex]
   - id: '1710.03507'
     title: '$μ$-constant monodromy groups and Torelli results for the quadrangle singularities and the bimodal series'
     year: 2017
     coauthors: ['Falko Gauss']
     doi: '10.5427/jsing.2018.18i'
+    journal: 'MADOC (University of Mannheim)'
     primary_category: math.AG
-    sources: [arxiv]
+    openalex_id: W2963124153
+    sources: [arxiv, openalex]
+  - id: 'doi:10.1007/978-3-319-66526-9'
+    title: 'Painlevé III: A Case Study in the Geometry of Meromorphic Connections'
+    year: 2017
+    coauthors: ['Martin A. Guest']
+    doi: '10.1007/978-3-319-66526-9'
+    journal: 'Lecture notes in mathematics'
+    openalex_id: W2761725080
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1007/978-3-319-66526-9_2'
+    title: 'The Riemann-Hilbert Correspondence for P 3D6 Bundles'
+    year: 2017
+    coauthors: ['Martin A. Guest']
+    doi: '10.1007/978-3-319-66526-9_2'
+    journal: 'Lecture notes in mathematics'
+    openalex_id: W2760836648
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1007/978-3-319-66526-9_16'
+    title: 'TERP Structures and P 3D6-TEP Bundles'
+    year: 2017
+    coauthors: ['Martin A. Guest']
+    doi: '10.1007/978-3-319-66526-9_16'
+    journal: 'Lecture notes in mathematics'
+    openalex_id: W2760923929
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1007/978-3-319-66526-9_15'
+    title: 'Three Families of Solutions on $$\mathbb{R}_{&gt;0}$$'
+    year: 2017
+    coauthors: ['Martin A. Guest']
+    doi: '10.1007/978-3-319-66526-9_15'
+    journal: 'Lecture notes in mathematics'
+    openalex_id: W2761498568
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1007/978-3-319-66526-9_5'
+    title: 'Useful Formulae: Three 2 × 2 Matrices'
+    year: 2017
+    coauthors: ['Martin A. Guest']
+    doi: '10.1007/978-3-319-66526-9_5'
+    journal: 'Lecture notes in mathematics'
+    openalex_id: W2761604615
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1007/978-3-319-66526-9_12'
+    title: 'Asymptotics of All Solutions Near 0'
+    year: 2017
+    coauthors: ['Martin A. Guest']
+    doi: '10.1007/978-3-319-66526-9_12'
+    journal: 'Lecture notes in mathematics'
+    openalex_id: W2761926424
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1007/978-3-319-66526-9_13'
+    title: 'Rank 2 TEPA Bundles with a Logarithmic Pole'
+    year: 2017
+    coauthors: ['Martin A. Guest']
+    doi: '10.1007/978-3-319-66526-9_13'
+    journal: 'Lecture notes in mathematics'
+    openalex_id: W2761933376
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1007/978-3-319-66526-9_17'
+    title: 'Orbits of TERP Structures and Mixed TERP Structures'
+    year: 2017
+    coauthors: ['Martin A. Guest']
+    doi: '10.1007/978-3-319-66526-9_17'
+    journal: 'Lecture notes in mathematics'
+    openalex_id: W2762089346
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1007/978-3-319-66526-9_6'
+    title: 'P 3D6-TEP Bundles'
+    year: 2017
+    coauthors: ['Martin A. Guest']
+    doi: '10.1007/978-3-319-66526-9_6'
+    journal: 'Lecture notes in mathematics'
+    openalex_id: W2762273910
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1007/978-3-319-66526-9_11'
+    title: 'Comparison with the Setting of Its, Novokshenov, and Niles'
+    year: 2017
+    coauthors: ['Martin A. Guest']
+    doi: '10.1007/978-3-319-66526-9_11'
+    journal: 'Lecture notes in mathematics'
+    openalex_id: W2762366295
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1007/978-3-319-66526-9_18'
+    title: 'Real Solutions of P III (0, 0, 4, −4) on ℝ &gt; 0 $$\mathbb{R}_{&gt;0}$$'
+    year: 2017
+    coauthors: ['Martin A. Guest']
+    doi: '10.1007/978-3-319-66526-9_18'
+    journal: 'Lecture notes in mathematics'
+    openalex_id: W2763592587
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1007/978-3-319-66526-9_14'
+    title: 'Symmetries of the Universal Family of Solutions of P III (0, 0, 4, −4)'
+    year: 2017
+    coauthors: ['Martin A. Guest']
+    doi: '10.1007/978-3-319-66526-9_14'
+    journal: 'Lecture notes in mathematics'
+    openalex_id: W2763927843
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1007/978-3-319-66526-9_10'
+    title: 'Solutions of the Painlevé Equation P III (0, 0, 4, −4)'
+    year: 2017
+    coauthors: ['Martin A. Guest']
+    doi: '10.1007/978-3-319-66526-9_10'
+    journal: 'Lecture notes in mathematics'
+    openalex_id: W2764069777
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1007/978-3-319-66526-9_8'
+    title: 'Normal Forms of P 3D6-TEJPA Bundles and Their Moduli Spaces'
+    year: 2017
+    coauthors: ['Martin A. Guest']
+    doi: '10.1007/978-3-319-66526-9_8'
+    journal: 'Lecture notes in mathematics'
+    openalex_id: W2764198140
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1007/978-3-319-66526-9_7'
+    title: 'P 3D6-TEJPA Bundles and Moduli Spaces of Their Monodromy Tuples'
+    year: 2017
+    coauthors: ['Martin A. Guest']
+    doi: '10.1007/978-3-319-66526-9_7'
+    journal: 'Lecture notes in mathematics'
+    openalex_id: W2764285987
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1007/978-3-319-66526-9_9'
+    title: 'Generalities on the Painlevé Equations'
+    year: 2017
+    coauthors: ['Martin A. Guest']
+    doi: '10.1007/978-3-319-66526-9_9'
+    journal: 'Lecture notes in mathematics'
+    openalex_id: W2764328425
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1007/978-3-319-66526-9_3'
+    title: '(Ir)Reducibility'
+    year: 2017
+    coauthors: ['Martin A. Guest']
+    doi: '10.1007/978-3-319-66526-9_3'
+    journal: 'Lecture notes in mathematics'
+    openalex_id: W4230512842
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1007/978-3-319-66526-9_1'
+    title: 'Introduction'
+    year: 2017
+    coauthors: ['Martin A. Guest']
+    doi: '10.1007/978-3-319-66526-9_1'
+    journal: 'Lecture notes in mathematics'
+    openalex_id: W4232313320
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1007/978-3-319-66526-9_4'
+    title: 'Isomonodromic Families'
+    year: 2017
+    coauthors: ['Martin A. Guest']
+    doi: '10.1007/978-3-319-66526-9_4'
+    journal: 'Lecture notes in mathematics'
+    openalex_id: W4250847513
+    sources: [openalex]
+    no_arxiv: true
   - id: '1608.08423'
     title: 'Potentials of a Frobenius like structure and $m$ bases of a vector space'
     year: 2016
@@ -295,13 +492,23 @@ publications:
     doi: '10.5802/jolt.1070'
     primary_category: math.RT
     sources: [arxiv]
+  - id: 'doi:10.4171/owr/2015/22'
+    title: 'Mirror Symmetry, Hodge Theory and Differential Equations'
+    year: 2016
+    coauthors: [sabbah, 'Christian Sevenheck']
+    doi: '10.4171/owr/2015/22'
+    journal: 'Oberwolfach Reports'
+    openalex_id: W2749204405
+    sources: [openalex]
+    no_arxiv: true
   - id: '1511.08660'
     title: '$μ$-constant monodromy groups and Torelli results for marked singularities, for the unimodal and some bimodal singularities'
     year: 2015
     coauthors: ['Falko Gauss']
     doi: '10.1007/978-3-319-28829-1_6'
     primary_category: math.AG
-    sources: [arxiv]
+    openalex_id: W2181194996
+    sources: [arxiv, openalex]
   - id: '1511.06637'
     title: 'Hermitian metrics on F-manifolds'
     year: 2015
@@ -309,7 +516,8 @@ publications:
     doi: '10.1016/j.geomphys.2016.05.005'
     journal: 'Journal of Geometry and Physics'
     primary_category: math.DG
-    sources: [arxiv]
+    openalex_id: W2173563992
+    sources: [arxiv, openalex]
   - id: '1501.04812'
     title: 'The Painlevé III equation of type (0,0,4,-4), its associated vector bundles with isomonodromic connections, and the geometry of the movable poles'
     year: 2015
@@ -324,6 +532,15 @@ publications:
     doi: '10.2422/2036-2145.201509_007'
     primary_category: math.DG
     sources: [arxiv]
+  - id: 'doi:10.4171/owr/2012/23'
+    title: 'Singularity Theory and Integrable Systems'
+    year: 2013
+    coauthors: [dubrovin, 'Ian A. B. Strachan', 'Katrin Wendland']
+    doi: '10.4171/owr/2012/23'
+    journal: 'Oberwolfach Reports'
+    openalex_id: W2038618119
+    sources: [openalex]
+    no_arxiv: true
   - id: '1108.0546'
     title: 'mu-constant monodromy groups and marked singularities'
     year: 2011
@@ -346,7 +563,8 @@ publications:
     doi: '10.1017/S147474801100003X'
     journal: 'Journal of the Inst. of Math. Jussieu (2011) 10(3), 635--674'
     primary_category: math.AG
-    sources: [arxiv]
+    openalex_id: W3100491297
+    sources: [arxiv, openalex]
   - id: '0905.3304'
     title: 'Frobenius manifolds, projective special geometry and Hitchin systems'
     year: 2009
@@ -354,7 +572,17 @@ publications:
     doi: '10.1515/crelle.2010.091'
     journal: 'Journal für die reine und angewandte Mathematik (Crelles Journal)'
     primary_category: math.AG
-    sources: [arxiv]
+    openalex_id: W1927684383
+    sources: [arxiv, openalex]
+  - id: 'doi:10.1134/s0081543809010088'
+    title: 'An update on semisimple quantum cohomology and F-manifolds'
+    year: 2009
+    coauthors: [manin-yuri, 'Constantin Teleman']
+    doi: '10.1134/s0081543809010088'
+    journal: 'Proceedings of the Steklov Institute of Mathematics'
+    openalex_id: W2127469979
+    sources: [openalex]
+    no_arxiv: true
   - id: '0807.2199'
     title: 'Twistor structures, tt*-geometry and singularity theory'
     year: 2008
@@ -369,7 +597,8 @@ publications:
     doi: '10.1016/j.aim.2009.09.012'
     journal: 'Advances in Mathematics'
     primary_category: math.AG
-    sources: [arxiv]
+    openalex_id: W1998132124
+    sources: [arxiv, openalex]
   - id: '0712.3691'
     title: 'Curvature of classifying spaces for Brieskorn lattices'
     year: 2007
@@ -377,7 +606,8 @@ publications:
     doi: '10.1016/j.geomphys.2008.07.008'
     journal: 'Journal of Geometry and Physics'
     primary_category: math.AG
-    sources: [arxiv]
+    openalex_id: W1965507978
+    sources: [arxiv, openalex]
   - id: '0603564'
     title: 'Nilpotent orbits of a generalization of Hodge structures'
     year: 2006
@@ -385,7 +615,8 @@ publications:
     doi: '10.1515/crelle.2007.060'
     journal: 'Journal für die reine und angewandte Mathematik (Crelles Journal)'
     primary_category: math.AG
-    sources: [arxiv]
+    openalex_id: W2093002689
+    sources: [arxiv, openalex]
   - id: '0405501'
     title: 'Bernoulli moments of spectral numbers and Hodge numbers'
     year: 2004
@@ -410,6 +641,15 @@ publications:
     journal: 'Journal für die reine und angewandte Mathematik (Crelles Journal)'
     primary_category: math.AG
     sources: [arxiv]
+  - id: 'doi:10.1007/978-3-0348-8161-6_5'
+    title: 'Generic Torelli for Semiquasihomogeneous Singularities'
+    year: 2002
+    coauthors: []
+    doi: '10.1007/978-3-0348-8161-6_5'
+    journal: 'Birkhäuser Basel eBooks'
+    openalex_id: W116164146
+    sources: [openalex]
+    no_arxiv: true
   - id: '0101194'
     title: 'Semistable bundles on curves and reducible representations of the fundamental group'
     year: 2001
@@ -417,7 +657,16 @@ publications:
     doi: '10.1142/s0129167x01001003'
     journal: 'International Journal of Mathematics'
     primary_category: math.AG
-    sources: [arxiv]
+    openalex_id: W2963404858
+    sources: [arxiv, openalex]
+  - id: 'doi:10.1007/978-94-010-0834-1_10'
+    title: 'Frobenius manifolds and variance of the spectral numbers'
+    year: 2001
+    coauthors: []
+    doi: '10.1007/978-94-010-0834-1_10'
+    openalex_id: W201461621
+    sources: [openalex]
+    no_arxiv: true
   - id: '0007187'
     title: 'Variance of the spectral numbers'
     year: 2000
@@ -432,6 +681,15 @@ publications:
     doi: '10.48550/arxiv.math/9910116'
     primary_category: math.AG
     sources: [arxiv]
+  - id: 'doi:10.1023/a:1000638508890'
+    title: 'Classifying spaces for polarized mixed Hodge structures and for Brieskorn lattices'
+    year: 1999
+    coauthors: []
+    doi: '10.1023/a:1000638508890'
+    journal: 'Compositio Mathematica'
+    openalex_id: W2121787665
+    sources: [openalex]
+    no_arxiv: true
   - id: '9810132'
     title: 'Weak Frobenius manifolds'
     year: 1998
@@ -440,6 +698,24 @@ publications:
     journal: 'International Mathematics Research Notices'
     primary_category: math.QA
     sources: [arxiv]
+  - id: 'doi:10.1007/978-3-0348-8770-0_9'
+    title: 'Brieskorn Lattices and Torelli Type Theorems for Cubics in ℙ3 and for Brieskorn-Pham Singularities with Coprime Exponents'
+    year: 1998
+    coauthors: []
+    doi: '10.1007/978-3-0348-8770-0_9'
+    journal: 'Birkhäuser Basel eBooks'
+    openalex_id: W70332733
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1007/bf01444499'
+    title: 'Ein Torelli-Satz f�r die unimodalen und bimodularen Hyperfl�chensingularit�ten'
+    year: 1995
+    coauthors: []
+    doi: '10.1007/bf01444499'
+    journal: 'Mathematische Annalen'
+    openalex_id: W2913428818
+    sources: [openalex]
+    no_arxiv: true
 sources:
 - label: Math Genealogy
   url: https://www.mathgenealogy.org/id.php?id=27291

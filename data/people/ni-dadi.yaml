@@ -53,15 +53,12 @@ identity_profile:
   research_keywords:
     - 'algebroid'
     - 'atiyah'
-    - 'class'
     - 'complex'
     - 'differential'
     - 'generalized'
     - 'geometry'
     - 'hyperkahler'
-    - 'manifold'
     - 'mathematical'
-    - 'pair'
     - 'physics'
     - 'poisson'
     - 'symplectic'
@@ -108,14 +105,16 @@ publications:
     coauthors: [chen-zhuo, hu-chuangqiang, xiang-maosong]
     doi: '10.48550/arxiv.2512.03860'
     primary_category: math.DG
-    sources: [arxiv]
+    openalex_id: W4417032814
+    sources: [arxiv, openalex]
   - id: '2508.10723'
     title: 'Atiyah Classes in the Context of Generalized Complex Geometry'
     year: 2025
     coauthors: []
     doi: '10.2139/ssrn.5393887'
     primary_category: math.DG
-    sources: [arxiv]
+    openalex_id: W4413461640
+    sources: [arxiv, openalex]
   - id: '2506.18360'
     title: 'Atiyah constructions for Lie algebroid connections on fiber bundles'
     year: 2025
@@ -137,7 +136,8 @@ publications:
     doi: '10.4310/PAMQ.2023.v19.n4.a16'
     journal: 'Pure Appl. Math. Q., Vol. 19 (2023) No. 4, 2195-2234'
     primary_category: math.DG
-    sources: [arxiv]
+    openalex_id: W4221152106
+    sources: [arxiv, openalex]
   - id: '1911.01388'
     title: 'Hopf algebras arising from dg manifolds'
     year: 2019
@@ -145,12 +145,14 @@ publications:
     doi: '10.1016/j.jalgebra.2021.05.004'
     journal: 'J. Algebra 584 (2021)'
     primary_category: math.DG
-    sources: [arxiv]
+    openalex_id: W2984093544
+    sources: [arxiv, openalex]
 activity:
   total_papers: 7
   published_count: 5
   preprint_only_count: 2
   active_period: '2019-present'
+  confidence: 'has-1-review-pending'
 external_ids:
   openalex: A5063193698
 links:

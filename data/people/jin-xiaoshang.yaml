@@ -66,7 +66,6 @@ identity_profile:
       role: '副教授, 硕士生导师'
   email_domains: [bicmr.pku.edu.cn, hust.edu.cn]
   research_keywords:
-    - 'analysis'
     - 'asymptotically'
     - 'compact'
     - 'conformal'
@@ -165,7 +164,8 @@ publications:
     doi: '10.4310/MRL.260120021635'
     journal: 'Mathematical Research Letters'
     primary_category: math.DG
-    sources: [arxiv]
+    openalex_id: W4396717748
+    sources: [arxiv, openalex]
   - id: '2402.02465'
     title: 'Willmore-type inequality for closed hypersurfaces in complete manifolds with Ricci curvature bounded below'
     year: 2024
@@ -211,7 +211,8 @@ publications:
     doi: '10.48550/arxiv.2107.03075'
     journal: 'Adv. Nonlinear Stud. 24 (2024), no. 1, 247-278'
     primary_category: math.DG
-    sources: [arxiv]
+    openalex_id: W3178020350
+    sources: [arxiv, openalex]
   - id: '1911.01885'
     title: 'Finite Boundary Regularity for Conformally Compact Einstein Manifolds of Dimension 4'
     year: 2019
@@ -233,6 +234,7 @@ activity:
   published_count: 13
   preprint_only_count: 1
   active_period: '2018-present'
+  confidence: 'has-16-review-pending'
 external_ids:
   openalex: A5011971768
 links:

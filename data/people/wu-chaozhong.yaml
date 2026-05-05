@@ -54,18 +54,7 @@ identity_profile:
   email_domains: [mail.sysu.edu.cn, sissa.it, tsinghua.edu.cn]
   coauthor_circle_core_slugs: [dubrovin, hu-jianxun, liu-siqi, zhang-youjin]
   coauthor_circle_core_names: ['Boris Dubrovin', 'Jianxun Hu', 'Siqi Liu', 'Youjin Zhang']
-  research_keywords:
-    - 'constraints'
-    - 'drinfeld'
-    - 'frobenius'
-    - 'function'
-    - 'hierarchy'
-    - 'integrable'
-    - 'manifold'
-    - 'mathematical'
-    - 'physics'
-    - 'sokolov'
-    - 'virasoro'
+  research_keywords: [constraints, drinfeld, frobenius, hierarchy, integrable, mathematical, physics, sokolov, virasoro]
   known_arxiv_ids:
     - '2603.01354'
     - '2501.04984'

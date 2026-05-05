@@ -209,14 +209,24 @@ def build_profile(slug, person, all_people):
     if ext_names:
         profile['coauthor_circle_extended_names'] = sorted(ext_names)
 
-    # Research keywords: from research_areas (slug -> word)
+    # Research keywords: from research_areas (slug -> word).
+    # Keep only domain-specific terms; drop common english fillers.
+    COMMON_WORDS = {
+        'theory', 'numbers', 'spaces', 'space', 'system', 'systems',
+        'group', 'groups', 'algebra', 'algebras', 'function', 'functions',
+        'manifold', 'manifolds', 'equation', 'equations',
+        'class', 'classes', 'category', 'categories', 'product', 'invariant',
+        'structure', 'structures', 'method', 'methods', 'problem', 'problems',
+        'point', 'points', 'analysis', 'study', 'related', 'general',
+    }
     ras = person.get('research_areas') or []
     if ras:
         keywords = set()
         for r in ras:
             for w in str(r).replace('-', ' ').split():
-                if len(w) > 3:
-                    keywords.add(w.lower())
+                w_low = w.lower()
+                if len(w) >= 6 and w_low not in COMMON_WORDS:
+                    keywords.add(w_low)
         if keywords:
             profile['research_keywords'] = sorted(keywords)
 

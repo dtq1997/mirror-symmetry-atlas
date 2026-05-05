@@ -34,20 +34,7 @@ identity_profile:
       role: '教授'
   coauthor_circle_extended_slugs: [ruan-yongbin, xu-xu]
   coauthor_circle_extended_names: ['Xu Xu', 'Yongbin Ruan']
-  research_keywords:
-    - 'algebras'
-    - 'baxter'
-    - 'conical'
-    - 'connes'
-    - 'hopf'
-    - 'kreimer'
-    - 'locality'
-    - 'multiple'
-    - 'renormalization'
-    - 'rota'
-    - 'structures'
-    - 'values'
-    - 'zeta'
+  research_keywords: [baxter, conical, connes, kreimer, locality, multiple, renormalization, values]
   known_arxiv_ids:
     - '2512.24732'
     - '2412.20952'

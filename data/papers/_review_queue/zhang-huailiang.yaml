@@ -1,0 +1,563 @@
+slug: zhang-huailiang
+count: 37
+note: 需要人工核对的候选论文。score 在 10-19 之间。要么补 ORCID 进 identity_profile, 要么明确标 accepted/rejected
+candidates:
+- id: doi:10.1007/s00222-014-0549-5
+  title: Witten’s top Chern class via cosection localization
+  year: 2014
+  score: 17
+  evidence:
+    authors:
+    - Huai-Liang Chang
+    - Jun Li
+    - Wei-Ping Li
+    year_in_period: 2009-2015
+    keywords:
+    - cosection
+    - localization
+    - witten
+    math_venue: inventiones mathematicae
+  doi: 10.1007/s00222-014-0549-5
+  venue: Inventiones mathematicae
+- id: doi:10.1090/tran/8011
+  title: Invariants of stable quasimaps with fields
+  year: 2019
+  score: 11
+  evidence:
+    authors:
+    - Huai-Liang Chang
+    - Mu-Lin Li
+    year_in_period: 2015-present
+    keywords:
+    - fields
+    math_venue: transactions of the american mathematical society
+  doi: 10.1090/tran/8011
+  venue: Transactions of the American Mathematical Society
+- id: doi:10.4310/cjm.2019.v7.n3.a3
+  title: Mixed-$\textrm{Spin-P}$ fields of Fermat polynomials
+  year: 2019
+  score: 16
+  evidence:
+    authors:
+    - Huai-Liang Chang
+    - Jun Li
+    - Wei-Ping Li
+    - Melissa Chiu-Chu Liu
+    coauthor_extended:
+    - Melissa Chiu-Chu Liu
+    year_in_period: 2015-present
+    keywords:
+    - fields
+    math_venue: cambridge journal of mathematics
+  doi: 10.4310/cjm.2019.v7.n3.a3
+  venue: Cambridge Journal of Mathematics
+- id: doi:10.1093/imrn/rnaa049
+  title: A Vanishing Associated With Irregular MSP Fields
+  year: 2020
+  score: 11
+  evidence:
+    authors:
+    - Huai-Liang Chang
+    - Jun Li
+    year_in_period: 2015-present
+    keywords:
+    - fields
+    math_venue: international mathematics research notices
+  doi: 10.1093/imrn/rnaa049
+  venue: International Mathematics Research Notices
+- id: '1603.06184'
+  title: An effective theory of GW and FJRW invariants of quintics Calabi–Yau manifolds
+  year: 2022
+  score: 16
+  evidence:
+    authors:
+    - Huai-Liang Chang
+    - Jun Li
+    - Wei-Ping Li
+    - Chiu-Chu Melissa Liu
+    coauthor_extended:
+    - Chiu-Chu Melissa Liu
+    year_in_period: 2015-present
+    keywords:
+    - calabi
+    math_venue: journal of differential geometry
+  doi: 10.4310/jdg/1645207466
+  venue: Journal of Differential Geometry
+- id: doi:10.4310/jdg/1430744122
+  title: An algebraic proof of the hyperplane property of the genus one GW-invariants
+    of quintics
+  year: 2015
+  score: 11
+  evidence:
+    authors:
+    - Huai-Liang Chang
+    - Jun Li
+    year_in_period: 2009-2015
+    keywords:
+    - algebraic
+    math_venue: journal of differential geometry
+  doi: 10.4310/jdg/1430744122
+  venue: Journal of Differential Geometry
+- id: doi:10.2140/gt.2013.17.1149
+  title: Poincaré invariants are Seiberg–Witten invariants
+  year: 2013
+  score: 11
+  evidence:
+    authors:
+    - Huai-Liang Chang
+    - Young‐Hoon Kiem
+    year_in_period: 2009-2015
+    keywords:
+    - witten
+    math_venue: geometry & topology
+  doi: 10.2140/gt.2013.17.1149
+  venue: Geometry & Topology
+- id: doi:10.4310/cag.2021.v29.n8.a1
+  title: Algebraic virtual cycles for quantum singularity theories
+  year: 2021
+  score: 17
+  evidence:
+    authors:
+    - Huai-Liang Chang
+    - Young‐Hoon Kiem
+    - Jun Li
+    year_in_period: 2015-present
+    keywords:
+    - algebraic
+    - cycles
+    - virtual
+    math_venue: communications in analysis and geometry
+  doi: 10.4310/cag.2021.v29.n8.a1
+  venue: Communications in Analysis and Geometry
+- id: doi:10.1007/s11401-017-1101-x
+  title: A survey on mixed spin P-fields
+  year: 2017
+  score: 16
+  evidence:
+    authors:
+    - Huai-Liang Chang
+    - Jun Li
+    - Wei-Ping Li
+    - Chiu-Chu Melissa Liu
+    coauthor_extended:
+    - Chiu-Chu Melissa Liu
+    year_in_period: 2009-2015
+    keywords:
+    - fields
+    math_venue: chinese annals of mathematics series b
+  doi: 10.1007/s11401-017-1101-x
+  venue: Chinese Annals of Mathematics Series B
+- id: openalex:W3156910759
+  title: Mixed-Spin-P fields of Fermat polynomials
+  year: 2019
+  score: 16
+  evidence:
+    authors:
+    - Huai-Liang Chang
+    - Jun Li
+    - Wei-Ping Li
+    - Melissa Chiu-Chu Liu
+    coauthor_extended:
+    - Melissa Chiu-Chu Liu
+    year_in_period: 2015-present
+    keywords:
+    - fields
+    math_venue: cambridge journal of mathematics
+  doi: null
+  venue: Cambridge Journal of Mathematics
+- id: '1505.07532'
+  title: Mixed-Spin-P fields of Fermat quintic polynomials
+  year: 2015
+  score: 11
+  evidence:
+    authors:
+    - Huai-Liang Chang
+    - Jun Li
+    - Wei-Ping Li
+    - Chiu-Chi Melissa Liu
+    year_in_period: 2009-2015
+    keywords:
+    - fields
+    math_venue: arxiv (cornell university)
+  doi: 10.48550/arxiv.1505.07532
+  venue: null
+- id: '1101.0914'
+  title: Gromov-Witten invariants of stable maps with fields
+  year: 2011
+  score: 17
+  evidence:
+    authors:
+    - Huai-Liang Chang
+    - Jun Li
+    year_in_period: 2007-2009
+    keywords:
+    - fields
+    - gromov
+    - witten
+    math_venue: arxiv (cornell university)
+  doi: 10.48550/arxiv.1101.0914
+  venue: null
+- id: '1303.7126'
+  title: Witten's top Chern class via cosection localization
+  year: 2013
+  score: 17
+  evidence:
+    authors:
+    - Huai-Liang Chang
+    - Jun Li
+    - Wei-Ping Li
+    year_in_period: 2009-2015
+    keywords:
+    - cosection
+    - localization
+    - witten
+    math_venue: arxiv (cornell university)
+  doi: 10.48550/arxiv.1303.7126
+  venue: null
+- id: '1806.00216'
+  title: Algebraic virtual cycles for quantum singularity theories
+  year: 2018
+  score: 17
+  evidence:
+    authors:
+    - Huai-Liang Chang
+    - Young Hoon Kiem
+    - Jun Li
+    year_in_period: 2015-present
+    keywords:
+    - algebraic
+    - cycles
+    - virtual
+    math_venue: arxiv (cornell university)
+  doi: 10.48550/arxiv.1806.00216
+  venue: null
+- id: doi:10.48550/arxiv.1603.06184
+  title: An effective theory of GW and FJRW invariants of quintics Calabi-Yau manifolds
+  year: 2016
+  score: 13
+  evidence:
+    authors:
+    - Huai-Liang Chang
+    - Jun Li
+    - Wei-Ping Li
+    - Chiu-Chu Melissa Liu
+    coauthor_extended:
+    - Chiu-Chu Melissa Liu
+    year_in_period: 2009-2015
+    keywords:
+    - calabi
+  doi: 10.48550/arxiv.1603.06184
+  venue: null
+- id: '1804.05310'
+  title: Invariants of stable quasimaps with fields
+  year: 2018
+  score: 11
+  evidence:
+    authors:
+    - Huai-Liang Chang
+    - Mu-Lin Li
+    year_in_period: 2015-present
+    keywords:
+    - fields
+    math_venue: arxiv (cornell university)
+  doi: 10.48550/arxiv.1804.05310
+  venue: null
+- id: '1206.5390'
+  title: An algebraic proof of the hyperplane property of the genus one GW-invariants
+    of quintics
+  year: 2012
+  score: 11
+  evidence:
+    authors:
+    - Huai-Liang Chang
+    - Jun Li
+    year_in_period: 2009-2015
+    keywords:
+    - algebraic
+    math_venue: arxiv (cornell university)
+  doi: 10.48550/arxiv.1206.5390
+  venue: null
+- id: '1508.02769'
+  title: Virtual Residue and an integral formalism
+  year: 2015
+  score: 11
+  evidence:
+    authors:
+    - Huai-Liang Chang
+    - Mu-Lin Li
+    year_in_period: 2009-2015
+    keywords:
+    - virtual
+    math_venue: arxiv (cornell university)
+  doi: 10.48550/arxiv.1508.02769
+  venue: null
+- id: '1708.02902'
+  title: A vanishing associated with irregular MSP fields
+  year: 2017
+  score: 11
+  evidence:
+    authors:
+    - Huai-Liang Chang
+    - Jun Li
+    year_in_period: 2009-2015
+    keywords:
+    - fields
+    math_venue: arxiv (cornell university)
+  doi: 10.48550/arxiv.1708.02902
+  venue: null
+- id: '0808.0988'
+  title: Derived Kodaira Spencer map, Cosection lemma, and semiregularity
+  year: 2008
+  score: 11
+  evidence:
+    authors:
+    - Huai-Liang Chang
+    year_in_period: 2007-2009
+    keywords:
+    - cosection
+    math_venue: arxiv.org
+  doi: 10.48550/arxiv.0808.0988
+  venue: null
+- id: '1907.06152'
+  title: On the mathematics and physics of Mixed Spin P-fields
+  year: 2017
+  score: 16
+  evidence:
+    authors:
+    - Huai-Liang Chang
+    - Jun Li
+    - Wei-Ping Li
+    - Chiu-Chu Melissa Liu
+    coauthor_extended:
+    - Chiu-Chu Melissa Liu
+    year_in_period: 2009-2015
+    keywords:
+    - fields
+    math_venue: proceedings of symposia in pure mathematics
+  doi: 10.1090/pspum/096/01656
+  venue: Proceedings of symposia in pure mathematics
+- id: '1205.0848'
+  title: Poincare invariants are Seiberg-Witten invariants
+  year: 2012
+  score: 11
+  evidence:
+    authors:
+    - Huai-Liang Chang
+    - Young‐Hoon Kiem
+    year_in_period: 2009-2015
+    keywords:
+    - witten
+    math_venue: arxiv (cornell university)
+  doi: 10.48550/arxiv.1205.0848
+  venue: null
+- id: openalex:W2291011044
+  title: Landau Ginzburg Type Theories from Algebraic Geometry
+  year: 2014
+  score: 11
+  evidence:
+    authors:
+    - Huai-Liang Chang
+    year_in_period: 2009-2015
+    keywords:
+    - algebraic
+    - geometry
+  doi: null
+  venue: Rare & Special e-Zone (The Hong Kong University of Science and Technology)
+- id: openalex:W2291357158
+  title: MSP fields and Gromov Witten invariants of Quintic Calabi Yau threefold
+  year: 2015
+  score: 17
+  evidence:
+    authors:
+    - Huai-Liang Chang
+    year_in_period: 2009-2015
+    keywords:
+    - calabi
+    - fields
+    - gromov
+    - witten
+  doi: null
+  venue: Rare & Special e-Zone (The Hong Kong University of Science and Technology)
+- id: '1603.02092'
+  title: A survey on mixed spin P-fields
+  year: 2016
+  score: 16
+  evidence:
+    authors:
+    - Huai-Liang Chang
+    - Jun Li
+    - Wei-Ping Li
+    - Chiu-Chu Melissa Liu
+    coauthor_extended:
+    - Chiu-Chu Melissa Liu
+    year_in_period: 2009-2015
+    keywords:
+    - fields
+    math_venue: arxiv (cornell university)
+  doi: 10.48550/arxiv.1603.02092
+  venue: null
+- id: openalex:W2583845328
+  title: Algebraic geometry of A-twsited Landau Ginzburg theory
+  year: 2011
+  score: 11
+  evidence:
+    authors:
+    - Huai-Liang Chang
+    year_in_period: 2007-2009
+    keywords:
+    - algebraic
+    - geometry
+  doi: null
+  venue: Rare & Special e-Zone (The Hong Kong University of Science and Technology)
+- id: openalex:W2586155930
+  title: Algebraic geometry of A-twsited topological string theory of Landau Ginzburg
+    type
+  year: 2011
+  score: 14
+  evidence:
+    authors:
+    - Huai-Liang Chang
+    - Jun Li
+    year_in_period: 2007-2009
+    keywords:
+    - algebraic
+    - geometry
+    - string
+  doi: null
+  venue: Rare & Special e-Zone (The Hong Kong University of Science and Technology)
+- id: openalex:W2588314343
+  title: Introduction to Gromov Witten and Fan Jarvis Ruan Witten Theory (I,II)
+  year: 2012
+  score: 11
+  evidence:
+    authors:
+    - Huai-Liang Chang
+    year_in_period: 2009-2015
+    keywords:
+    - gromov
+    - witten
+  doi: null
+  venue: Rare & Special e-Zone (The Hong Kong University of Science and Technology)
+- id: openalex:W2596369736
+  title: On Gromov Witten theory and Fan-Jarvis-Ruan-Witten theory
+  year: 2014
+  score: 11
+  evidence:
+    authors:
+    - Huai-Liang Chang
+    year_in_period: 2009-2015
+    keywords:
+    - gromov
+    - witten
+  doi: null
+  venue: null
+- id: openalex:W2650762124
+  title: Toward algebraic geometry behind Gauged Linear Sigma model in all genus
+  year: 2010
+  score: 11
+  evidence:
+    authors:
+    - Huai-Liang Chang
+    year_in_period: 2007-2009
+    keywords:
+    - algebraic
+    - geometry
+  doi: null
+  venue: Rare & Special e-Zone (The Hong Kong University of Science and Technology)
+- id: openalex:W2683563689
+  title: Toward Algebraic geometry of Gauged Linear Sigma model in A side
+  year: 2011
+  score: 11
+  evidence:
+    authors:
+    - Huai-Liang Chang
+    year_in_period: 2007-2009
+    keywords:
+    - algebraic
+    - geometry
+  doi: null
+  venue: Rare & Special e-Zone (The Hong Kong University of Science and Technology)
+- id: openalex:W2749292671
+  title: The conference of Mirror Symmetry and Related Topics (MSRT)
+  year: 2012
+  score: 11
+  evidence:
+    authors:
+    - Huai-Liang Chang
+    year_in_period: 2009-2015
+    keywords:
+    - mirror
+    - symmetry
+  doi: null
+  venue: Rare & Special e-Zone (The Hong Kong University of Science and Technology)
+- id: openalex:W2764034911
+  title: On genus one Gromov Witten invariant of Quintic threefold
+  year: 2010
+  score: 11
+  evidence:
+    authors:
+    - Huai-Liang Chang
+    year_in_period: 2007-2009
+    keywords:
+    - gromov
+    - witten
+  doi: null
+  venue: Rare & Special e-Zone (The Hong Kong University of Science and Technology)
+- id: openalex:W2908603218
+  title: Algebraic geometric construction of Gun-Sharpe-Witten model and Fan-Jarvis-Ruan
+    Witten theory
+  year: 2012
+  score: 14
+  evidence:
+    authors:
+    - Huai-Liang Chang
+    year_in_period: 2009-2015
+    keywords:
+    - algebraic
+    - geometry
+    - witten
+  doi: null
+  venue: Rare & Special e-Zone (The Hong Kong University of Science and Technology)
+- id: openalex:W2970739651
+  title: On Algebro-geometric proof of Li-Zinger Conjecture for g=1 Gromov-Witten
+    invariant of Quintic
+  year: 2011
+  score: 17
+  evidence:
+    authors:
+    - Huai-Liang Chang
+    - Jun Li
+    year_in_period: 2007-2009
+    keywords:
+    - conjecture
+    - geometry
+    - gromov
+    - witten
+  doi: null
+  venue: Rare & Special e-Zone (The Hong Kong University of Science and Technology)
+- id: openalex:W3086340833
+  title: Introduction to Gromov Witten and Fan-Jarvis-Ruan-Witten theory
+  year: 2012
+  score: 11
+  evidence:
+    authors:
+    - Huai-Liang Chang
+    year_in_period: 2009-2015
+    keywords:
+    - gromov
+    - witten
+  doi: null
+  venue: Rare & Special e-Zone (The Hong Kong University of Science and Technology)
+- id: openalex:W3113927578
+  title: On Algebraic Geometric Construction of Enumerative Invariants
+  year: 2013
+  score: 11
+  evidence:
+    authors:
+    - Huai-Liang Chang
+    year_in_period: 2009-2015
+    keywords:
+    - algebraic
+    - geometry
+  doi: null
+  venue: Rare & Special e-Zone (The Hong Kong University of Science and Technology)

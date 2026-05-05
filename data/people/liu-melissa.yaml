@@ -78,7 +78,7 @@ identity_profile:
   coauthor_circle_core_names: ['Bohan Fang', 'Shing-Tung Yau', 'Zhengyu Zong']
   coauthor_circle_extended_slugs: [zhang-huailiang, zhou-jian]
   coauthor_circle_extended_names: ['Huai-Liang Chang', 'Jian Zhou']
-  research_keywords: [gromov, mirror, moduli, recursion, spaces, symmetry, theory, topological, witten]
+  research_keywords: [gromov, mirror, moduli, recursion, symmetry, topological, witten]
   known_arxiv_ids:
     - '2504.15696'
     - '2503.20948'
@@ -146,10 +146,11 @@ key_collaborators:
     topic: "Remodeling conjecture, toric CY 3-orbifolds"
     papers_count: 6
 activity:
-  total_papers: 53
-  published_count: 45
+  total_papers: 59
+  published_count: 51
   preprint_only_count: 8
   active_period: '2002-present'
+  confidence: 'has-9-review-pending'
 external_ids:
   mathgenealogy: "69488"
   openalex: A5050554374
@@ -240,6 +241,15 @@ publications:
     journal: 'Proceedings of Symposia in Pure Mathematics, Vol 96, 2017'
     primary_category: math.AG
     sources: [arxiv]
+  - id: 'doi:10.4310/sdg.2019.v24.n1.a5'
+    title: 'Counting curves in quintic Calabi–Yau threefolds and Landau–Ginzburg models'
+    year: 2019
+    coauthors: ['Jun Li']
+    doi: '10.4310/sdg.2019.v24.n1.a5'
+    journal: 'Surveys in Differential Geometry'
+    openalex_id: W4205329559
+    sources: [openalex]
+    no_arxiv: true
   - id: '1807.05697'
     title: 'Stacky GKM Graphs and Orbifold Gromov-Witten Theory'
     year: 2018
@@ -247,7 +257,8 @@ publications:
     doi: '10.4310/ajm.2020.v24.n5.a6'
     journal: 'Asian Journal of Mathematics, Vol. 24 (2020), No. 5, 855-902'
     primary_category: math.AG
-    sources: [arxiv]
+    openalex_id: W2884685996
+    sources: [arxiv, openalex]
   - id: '1609.04363'
     title: 'On topological approach to local theory of surfaces in Calabi-Yau threefolds'
     year: 2016
@@ -255,7 +266,8 @@ publications:
     doi: '10.4310/atmp.2017.v21.n7.a4'
     journal: 'Adv. Theor. Math. Phys. 21 (2017), no. 7, 1679-1728'
     primary_category: math.AG
-    sources: [arxiv]
+    openalex_id: W2521095344
+    sources: [arxiv, openalex]
   - id: '1607.06935'
     title: 'The SYZ mirror symmetry and the BKMP remodeling conjecture'
     year: 2016
@@ -263,7 +275,8 @@ publications:
     doi: '10.4310/atmp.2016.v20.n1.a3'
     journal: 'Adv. Theor. Math. Phys. 20 (2016), no. 1, 165-192'
     primary_category: math.AG
-    sources: [arxiv]
+    openalex_id: W2963573638
+    sources: [arxiv, openalex]
   - id: '1604.07123'
     title: 'On the Remodeling Conjecture for Toric Calabi-Yau 3-Orbifolds'
     year: 2016
@@ -271,7 +284,8 @@ publications:
     doi: '10.48550/arxiv.1604.07123'
     journal: 'J. Amer. Math. Soc. 33 (2020), no. 1, 135-222'
     primary_category: math.AG
-    sources: [arxiv]
+    openalex_id: W2344238614
+    sources: [arxiv, openalex]
   - id: '1603.06184'
     title: 'An effective theory of GW and FJRW invariants of quintics Calabi-Yau manifolds'
     year: 2016
@@ -279,7 +293,8 @@ publications:
     doi: '10.4310/jdg/1645207466'
     journal: 'Journal of Differential Geometry'
     primary_category: math.AG
-    sources: [arxiv]
+    openalex_id: W2304845370
+    sources: [arxiv, openalex]
   - id: '1603.02092'
     title: 'A survey on mixed spin P-fields'
     year: 2016
@@ -287,7 +302,8 @@ publications:
     doi: '10.48550/arxiv.1603.02092'
     journal: 'Chin. Ann. Math. Ser. B 38 (2017), no. 4, 869-882'
     primary_category: math.AG
-    sources: [arxiv]
+    openalex_id: W2293883598
+    sources: [arxiv, openalex]
   - id: '1505.07532'
     title: 'Mixed-Spin-P fields of Fermat quintic polynomials'
     year: 2015
@@ -309,7 +325,8 @@ publications:
     doi: '10.3842/SIGMA.2017.048'
     journal: 'SIGMA 13 (2017), 048, 21 pages'
     primary_category: math.AG
-    sources: [arxiv]
+    openalex_id: W1561399850
+    sources: [arxiv, openalex]
   - id: '1310.4818'
     title: 'All Genus Open-Closed Mirror Symmetry for Affine Toric Calabi-Yau 3-Orbifolds'
     year: 2013
@@ -317,7 +334,8 @@ publications:
     doi: '10.14231/ag-2020-007'
     journal: 'Algebr. Geo. 7 (2020), no. 2, 192-239'
     primary_category: math.AG
-    sources: [arxiv]
+    openalex_id: W1760680039
+    sources: [arxiv, openalex]
   - id: '1310.4812'
     title: 'Equivariant Gromov-Witten Theory of Affine Smooth Toric Deligne-Mumford Stacks'
     year: 2013
@@ -325,7 +343,8 @@ publications:
     doi: '10.1093/imrn/rnv201'
     journal: 'IMRN 2016, no.7, 2127-2144'
     primary_category: math.AG
-    sources: [arxiv]
+    openalex_id: W1859657220
+    sources: [arxiv, openalex]
   - id: '1212.6073'
     title: 'Open-closed Gromov-Witten invariants of 3-dimensional Calabi-Yau smooth toric DM stacks'
     year: 2012
@@ -356,7 +375,17 @@ publications:
     doi: '10.1007/s00220-013-1771-5'
     journal: 'Commun. Math. Phys. 323 (2013), 285-328'
     primary_category: math.SG
-    sources: [arxiv]
+    openalex_id: W2087695136
+    sources: [arxiv, openalex]
+  - id: 'doi:10.1142/9789814324359_0061'
+    title: 'Gromov-Witten Theory of Calabi-Yau 3-folds'
+    year: 2011
+    coauthors: []
+    doi: '10.1142/9789814324359_0061'
+    journal: 'Proceedings of the International Congress of Mathematicians 2010 (ICM 2010)'
+    openalex_id: W2326340197
+    sources: [openalex]
+    no_arxiv: true
   - id: '1009.3506'
     title: 'The Coherent-Constructible Correspondence and Fourier-Mukai Transforms'
     year: 2010
@@ -364,7 +393,8 @@ publications:
     doi: '10.48550/arxiv.1009.3506'
     journal: 'Acta Math. Sin. (Engl. Ser.) 27 (2011), no.2, 275-308'
     primary_category: math.AG
-    sources: [arxiv]
+    openalex_id: W2952617413
+    sources: [arxiv, openalex]
   - id: '1007.0053'
     title: 'A categorification of Morelli''s theorem'
     year: 2010
@@ -380,6 +410,15 @@ publications:
     journal: 'Transformation Groups and Moduli Spaces of Curves, 195--216, Adv. Lect. Math. (ALM) 16, Higher Education Press and International Press, Beijing-Boston, 2010'
     primary_category: math.AG
     sources: [arxiv]
+  - id: 'doi:10.1007/s00029-010-0042-y'
+    title: 'Antiperfect morse stratification'
+    year: 2010
+    coauthors: ['Nan-Kuo Ho']
+    doi: '10.1007/s00029-010-0042-y'
+    journal: 'Selecta Mathematica'
+    openalex_id: W1880484946
+    sources: [openalex]
+    no_arxiv: true
   - id: '0911.4711'
     title: 'The Coherent-Constructible Correspondence for Toric Deligne-Mumford Stacks'
     year: 2009
@@ -387,7 +426,8 @@ publications:
     doi: '10.48550/arxiv.0911.4711'
     journal: 'IMRN 2014, No. 4, 914-954'
     primary_category: math.AG
-    sources: [arxiv]
+    openalex_id: W2088250600
+    sources: [arxiv, openalex]
   - id: '0901.4276'
     title: 'The Coherent-Constructible Correspondence and Homological Mirror Symmetry for Toric Varieties'
     year: 2009
@@ -395,7 +435,8 @@ publications:
     doi: '10.48550/arxiv.0901.4276'
     journal: 'page 3-37, Geometry and Analysis Vol. 2, Adv. Lect. Math (ALM) 18, Higher Education Press, 2010'
     primary_category: math.AG
-    sources: [arxiv]
+    openalex_id: W1664791042
+    sources: [arxiv, openalex]
   - id: '0811.4703'
     title: 'Gromov-Witten invariants of toric Calabi-Yau threefolds'
     year: 2008
@@ -411,7 +452,8 @@ publications:
     doi: '10.48550/arxiv.0811.1228'
     journal: 'Adv. Math. 229 (2012), 1873-1911'
     primary_category: math.AG
-    sources: [arxiv]
+    openalex_id: W2808846937
+    sources: [arxiv, openalex]
   - id: '0810.4882'
     title: 'Orientability in Yang-Mills Theory over Nonorientable Surfaces'
     year: 2008
@@ -419,7 +461,8 @@ publications:
     doi: '10.4310/cag.2009.v17.n5.a3'
     journal: 'Comm. Anal. Geom. 17 (2009), no. 5, 903--953'
     primary_category: math.SG
-    sources: [arxiv]
+    openalex_id: W2085203316
+    sources: [arxiv, openalex]
   - id: '0808.3974'
     title: 'Anti-Perfect Morse Stratification'
     year: 2008
@@ -434,7 +477,8 @@ publications:
     doi: '10.1007/s00220-009-0948-4'
     journal: 'Commun.Math.Phys.293:661-700,2010'
     primary_category: math.AG
-    sources: [arxiv]
+    openalex_id: W2074167683
+    sources: [arxiv, openalex]
   - id: '0707.0258'
     title: 'Yang-Mills Connections On Orientable and Nonorientable Surfaces'
     year: 2007
@@ -442,7 +486,8 @@ publications:
     doi: '10.48550/arxiv.0707.0258'
     journal: 'Mem. Amer. Math. Soc. 202 (2009), no. 948, vii+98 pp.'
     primary_category: math.SG
-    sources: [arxiv]
+    openalex_id: W2952444105
+    sources: [arxiv, openalex]
   - id: '0605587'
     title: 'Yang-Mills Connections on Nonorientable Surfaces'
     year: 2006
@@ -450,7 +495,8 @@ publications:
     doi: '10.4310/cag.2008.v16.n3.a6'
     journal: 'Comm. Anal. Geom. 16 (2008), no.3, 617-679'
     primary_category: math.SG
-    sources: [arxiv]
+    openalex_id: W2086286330
+    sources: [arxiv, openalex]
   - id: '0506488'
     title: 'The local Gromov-Witten invariants of configurations of rational curves'
     year: 2005
@@ -474,7 +520,8 @@ publications:
     doi: '10.1090/s0894-0347-05-00497-2'
     journal: 'J. Amer. Math. Soc. 19 (2006), no.1, 181-204'
     primary_category: math.DG
-    sources: [arxiv]
+    openalex_id: W1571962299
+    sources: [arxiv, openalex]
   - id: '0408426'
     title: 'A Mathematical Theory of the Topological Vertex'
     year: 2004
@@ -482,7 +529,8 @@ publications:
     doi: '10.2140/gt.2009.13.527'
     journal: 'Geom. Topol. 13 (2009) 527-621'
     primary_category: math.AG
-    sources: [arxiv]
+    openalex_id: W3106406994
+    sources: [arxiv, openalex]
   - id: '0406069'
     title: 'Connected Components of the Space of Surface Group Representations II'
     year: 2004
@@ -491,6 +539,24 @@ publications:
     journal: 'IMRN 2005, no.16, 959-979'
     primary_category: math.SG
     sources: [arxiv]
+  - id: 'doi:10.4310/mrl.2004.v11.n2.a9'
+    title: 'On a proof of a conjecture of Mariño-Vafa on Hodge Integrals'
+    year: 2004
+    coauthors: ['Kefeng Liu', zhou-jian]
+    doi: '10.4310/mrl.2004.v11.n2.a9'
+    journal: 'Mathematical Research Letters'
+    openalex_id: W2963248533
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1103/physrevlett.92.259002'
+    title: 'Liu and Yau Reply:'
+    year: 2004
+    coauthors: [yau-shingtung]
+    doi: '10.1103/physrevlett.92.259002'
+    journal: 'Physical Review Letters'
+    openalex_id: W3111515939
+    sources: [openalex]
+    no_arxiv: true
   - id: '0310272'
     title: 'A Formula of Two-Partition Hodge Integrals'
     year: 2003
@@ -498,7 +564,8 @@ publications:
     doi: '10.1090/s0894-0347-06-00541-8'
     journal: 'J. Amer. Math. Soc. 20 (2007), no.1, 149-184'
     primary_category: math.AG
-    sources: [arxiv]
+    openalex_id: W1586439608
+    sources: [arxiv, openalex]
   - id: '0308015'
     title: 'Mariño-Vafa Formula and Hodge Integral Identities'
     year: 2003
@@ -506,7 +573,8 @@ publications:
     doi: '10.1090/s1056-3911-05-00419-4'
     journal: 'Journal of Algebraic Geometry'
     primary_category: math.AG
-    sources: [arxiv]
+    openalex_id: W2071915127
+    sources: [arxiv, openalex]
   - id: '0306434'
     title: 'A Proof of a Conjecture of Marino-Vafa on Hodge Integrals'
     year: 2003
@@ -535,7 +603,16 @@ publications:
     doi: '10.1103/PhysRevLett.90.231102'
     journal: 'Phys.Rev.Lett.90:231102,2003'
     primary_category: gr-qc
-    sources: [arxiv]
+    openalex_id: W2015106666
+    sources: [arxiv, openalex]
+  - id: 'openalex:W2788597912'
+    title: 'New definition of quasilocal mass and its positivity'
+    year: 2003
+    coauthors: [yau-shingtung]
+    journal: 'arXiv (Cornell University)'
+    openalex_id: W2788597912
+    sources: [openalex]
+    no_arxiv: true
   - id: '0211388'
     title: 'On the Connectedness of Moduli Spaces of Flat Connections over Compact Surfaces'
     year: 2002
@@ -543,14 +620,16 @@ publications:
     doi: '10.48550/arxiv.math/0211388'
     journal: 'Canad.J. Math. 56 (2004), no. 6, 1228-1236'
     primary_category: math.SG
-    sources: [arxiv]
+    openalex_id: W1979484335
+    sources: [arxiv, openalex]
   - id: '0210257'
     title: 'Moduli of J-Holomorphic Curves with Lagrangian Boundary Conditions and Open Gromov-Witten Invariants for an $S^1$-Equivariant Pair'
     year: 2002
     coauthors: []
     doi: '10.48550/arxiv.math/0210257'
     primary_category: math.SG
-    sources: [arxiv]
+    openalex_id: W1527510866
+    sources: [arxiv, openalex]
   - id: '0103074'
     title: 'Enumerative geometry of stable maps with Lagrangian boundary conditions and multiple covers of the disc'
     year: 2001

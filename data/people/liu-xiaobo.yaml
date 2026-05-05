@@ -64,33 +64,15 @@ identity_profile:
   coauthor_circle_core_names: ['Chenglang Yang', 'Longting Wu', 'Xin Wang']
   coauthor_circle_extended_slugs: [tian-gang, wang-chongyu, xu-xu]
   coauthor_circle_extended_names: ['Chongyu Wang', 'Gang Tian', 'Xu Xu']
-  research_keywords:
-    - 'cohomology'
-    - 'constraints'
-    - 'gromov'
-    - 'intersection'
-    - 'moduli'
-    - 'numbers'
-    - 'quantum'
-    - 'spaces'
-    - 'theory'
-    - 'virasoro'
-    - 'witten'
+  research_keywords: [cohomology, constraints, gromov, intersection, moduli, quantum, virasoro, witten]
   known_arxiv_ids:
     - '2603.02736'
     - '2504.15602'
-    - '2502.09165'
-    - '2510.02126'
-    - '2503.03456'
-    - '2506.01193'
     - '2402.14504'
-    - '2306.04932'
     - '2206.01066'
-    - '2208.07558'
     - '2107.10472'
     - '2104.01357'
     - '2103.14318'
-    - '2111.07942'
     - '2006.03945'
     - '1911.12535'
     - '1712.02331'
@@ -138,137 +120,13 @@ publications:
     coauthors: [wang-chongyu]
     doi: '10.48550/arxiv.2603.02736'
     primary_category: math.AG
-    openalex_id: W7133497122
-    sources: [arxiv, openalex]
-  - id: 'doi:10.3390/pr14020366'
-    title: 'Study on Prediction of Particle Migration at Interburden Boundaries in Ore-Drawing Process Based on Improved Transformer Model'
-    year: 2026
-    coauthors: ['Xinbo Ma', 'Liancheng Wang', 'Chao Wu', 'Xingfan Zhang']
-    doi: '10.3390/pr14020366'
-    journal: 'Processes'
-    openalex_id: W7125193291
-    sources: [openalex]
-    no_arxiv: true
+    sources: [arxiv]
   - id: '2504.15602'
     title: 'Mean Curvature Flow for Isoparametric Submanifolds in Hyperbolic Spaces'
     year: 2025
     coauthors: [xu-xu]
     primary_category: math.DG
     sources: [arxiv]
-  - id: 'doi:10.1137/24m1675734'
-    title: 'Mixed-Precision Paterson–Stockmeyer Method for Evaluating Polynomials of Matrices'
-    year: 2025
-    coauthors: []
-    doi: '10.1137/24m1675734'
-    journal: 'SIAM Journal on Matrix Analysis and Applications'
-    openalex_id: W4408919650
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1137/24m1683925'
-    title: 'Mixed Precision HODLR Matrices'
-    year: 2025
-    coauthors: ['Erin Carson', 'Xinye Chen']
-    doi: '10.1137/24m1683925'
-    journal: 'SIAM Journal on Scientific Computing'
-    openalex_id: W4410045135
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1101/2025.01.23.634609'
-    title: 'Achievement-Based Differences in Cognitive-Emotional Interplay During Classroom Learning: A Multimodal Analysis with Experience Sampling Method'
-    year: 2025
-    coauthors: ['Lan Fu', 'Zihao Yang', 'Zheng Zhang', 'Yu Zhang']
-    doi: '10.1101/2025.01.23.634609'
-    openalex_id: W4406817563
-    sources: [openalex]
-    no_arxiv: true
-  - id: '2502.09165'
-    title: 'Code and data for "Generalizing Reduced Rank Extrapolation to Low-Rank Matrix Sequences"'
-    year: 2025
-    coauthors: ['Pascal den Boef', 'Patrick Kürschner', 'Jos Maubach', 'Jens Saak', 'W.H.A. Schilders', 'Jonas Schulze', 'Nathan van de Wouw']
-    doi: '10.48550/arxiv.2502.09165'
-    openalex_id: W4407571875
-    sources: [openalex]
-  - id: 'doi:10.1007/978-981-96-4753-8_25'
-    title: 'Multi-objective Evolutionary Algorithm Based Graph Neural Network Architecture Search'
-    year: 2025
-    coauthors: ['Lianyi He', 'Hongbo Xiang', 'Guangjun Wang']
-    doi: '10.1007/978-981-96-4753-8_25'
-    journal: 'Communications in computer and information science'
-    openalex_id: W4409380155
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1109/icit63637.2025.10965130'
-    title: 'Geological Reservoir Modeling Method Based on Conditional Progressive Growing of GANs'
-    year: 2025
-    coauthors: ['Huaijin Huang', 'Yiting Zheng', 'Dongsen Zhang', 'Hongbo Xiang']
-    doi: '10.1109/icit63637.2025.10965130'
-    openalex_id: W4409659866
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1109/cec65147.2025.11043100'
-    title: 'Feasible Regions Identification based on Historical Solutions for Constrained Optimization Problems'
-    year: 2025
-    coauthors: ['Mengli Shan', 'Changhe Li', 'Mai Peng', 'Michalis Mavrovouniotis', 'Shengxiang Yang']
-    doi: '10.1109/cec65147.2025.11043100'
-    openalex_id: W4411599854
-    sources: [openalex]
-    no_arxiv: true
-  - id: '2510.02126'
-    title: 'Mixed-precision iterative refinement for low-rank Lyapunov equations'
-    year: 2025
-    coauthors: ['Peter Benner']
-    doi: '10.48550/arxiv.2510.02126'
-    openalex_id: W4414820879
-    sources: [openalex]
-  - id: 'doi:10.23919/ccc64809.2025.11179041'
-    title: 'HAD-YOLO: Small Object Detection in Remote Sensing Images with HATAFPN and Dynamic Receptive Fields'
-    year: 2025
-    coauthors: ['Yiting Zheng', 'Dongsen Zhang', 'Hongbo Xiang', 'Lianyi He', 'Yan Wang']
-    doi: '10.23919/ccc64809.2025.11179041'
-    openalex_id: W4415048128
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.23919/ccc64809.2025.11179330'
-    title: 'GCPMAN: Global Context-Aware Zero-Shot Semi-Supervised Network for Remote Sensing Image Pansharpening'
-    year: 2025
-    coauthors: ['Dongsen Zhang', 'Hongbo Xiang', 'Yiting Zheng', 'Lianyi He']
-    doi: '10.23919/ccc64809.2025.11179330'
-    openalex_id: W4415049253
-    sources: [openalex]
-    no_arxiv: true
-  - id: '2503.03456'
-    title: 'Mixed-precision algorithms for solving the Sylvester matrix equation'
-    year: 2025
-    coauthors: ['Andrii Dmytryshyn', si-li, 'Nicholas J. Higham']
-    doi: '10.48550/arxiv.2503.03456'
-    openalex_id: W4415946340
-    sources: [openalex]
-  - id: '2506.01193'
-    title: 'A scaling and recovering algorithm for the matrix $φ$-functions'
-    year: 2025
-    coauthors: ['Awad H. Al-Mohy']
-    doi: '10.48550/arxiv.2506.01193'
-    journal: 'SIAM Journal on Scientific Computing'
-    openalex_id: W4416256584
-    sources: [openalex]
-  - id: 'doi:10.3390/app16010008'
-    title: 'An Entropy-Deep Learning Fusion Framework for Intelligent Management and Control in Open-Pit Mines'
-    year: 2025
-    coauthors: ['Jiang Yao', 'Jingping Qiu']
-    doi: '10.3390/app16010008'
-    journal: 'Applied Sciences'
-    openalex_id: W4417493533
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1504/ijbic.2025.10075898'
-    title: 'UAV Trajectory Planning Method based on Dynamic Window Approach and Adaptive Deep Q-Networks'
-    year: 2025
-    coauthors: ['Hongbo Xiang', 'Wenyin Gong', 'Feng Wang', 'Zhihua Cai']
-    doi: '10.1504/ijbic.2025.10075898'
-    journal: 'International Journal of Bio-Inspired Computation'
-    openalex_id: W7125596517
-    sources: [openalex]
-    no_arxiv: true
   - id: '2402.14504'
     title: 'On A Tautological Relation Conjectured By Buryak-Shadrin'
     year: 2024
@@ -276,84 +134,7 @@ publications:
     doi: '10.1007/s11425-024-2436-x'
     journal: 'Science China Mathematics'
     primary_category: math.AG
-    openalex_id: W4414715396
-    sources: [arxiv, openalex]
-  - id: 'doi:10.1007/978-981-99-9119-8_25'
-    title: 'UAV Path Planning Based on Enhanced PSO-GA'
-    year: 2024
-    coauthors: ['Hongbo Xiang', 'Xinsheng Song', 'Wen Zhou']
-    doi: '10.1007/978-981-99-9119-8_25'
-    journal: 'Lecture notes in computer science'
-    openalex_id: W4391489976
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.22318/icls2024.170602'
-    title: 'Predicting Cognitive Load with Multimodal Neurophysiological Data in Real-World Classroom Learning'
-    year: 2024
-    coauthors: ['Jingjing Chen', 'Lan Fu', 'Yu Zhang']
-    doi: '10.22318/icls2024.170602'
-    journal: 'Proceedings.'
-    openalex_id: W4399488118
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1007/s10114-024-4998-5'
-    title: 'Preface of the Special Issue on Symplectic Geometry and Mathematical Physics'
-    year: 2024
-    coauthors: [fan-huijun, tian-gang]
-    doi: '10.1007/s10114-024-4998-5'
-    journal: 'Acta Mathematica Sinica English Series'
-    openalex_id: W4390599727
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.3102/2103841'
-    title: 'Reexamining Cognitive Load Measures in Real-Classroom Learning: Evidence From Both Subjective and Electroencephalograph Assessment'
-    year: 2024
-    coauthors: []
-    doi: '10.3102/2103841'
-    openalex_id: W4400821417
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.54097/nnqpq457'
-    title: 'The Application of New Media in Digital Reading Promotion in University Libraries'
-    year: 2024
-    coauthors: []
-    doi: '10.54097/nnqpq457'
-    journal: 'Academic journal of management and social sciences'
-    openalex_id: W4405809048
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1109/cac63892.2024.10864988'
-    title: 'AFPN Based YOLOX for Rotation Object Detection in Remote Sensing Image'
-    year: 2024
-    coauthors: ['Wen Zhou', 'Yiting Zheng', 'Dongsen Zhang', 'Hongbo Xiang']
-    doi: '10.1109/cac63892.2024.10864988'
-    openalex_id: W4407461699
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1137/22m1471559'
-    title: 'Computing the Square Root of a Low-Rank Perturbation of the Scaled Identity Matrix'
-    year: 2023
-    coauthors: [si-li, 'Nicholas J. Higham']
-    doi: '10.1137/22m1471559'
-    journal: 'SIAM Journal on Matrix Analysis and Applications'
-    openalex_id: W4321782957
-    sources: [openalex]
-    no_arxiv: true
-  - id: '2306.04932'
-    title: 'Jigsaw-based Benchmarking for Learning Robotic Manipulation'
-    year: 2023
-    coauthors: ['Fangping Wan', 'Sheng Ge', 'Haokun Wang', 'Haoran Sun', 'Chaoyang Song']
-    doi: '10.48550/arxiv.2306.04932'
-    openalex_id: W4380136307
-    sources: [openalex]
-  - id: 'doi:10.1109/icalt58122.2023.00108'
-    title: 'A Personalized Online Experiment Platform for Mobile Communication Course'
-    year: 2023
-    coauthors: ['Hui Zhao', 'Chong Yuan', 'Xinning Zhu']
-    doi: '10.1109/icalt58122.2023.00108'
-    openalex_id: W4387162139
-    sources: [openalex]
-    no_arxiv: true
+    sources: [arxiv]
   - id: '2206.01066'
     title: 'Action of $W$-type operators on Schur functions and Schur Q-functions'
     year: 2022
@@ -363,40 +144,6 @@ publications:
     primary_category: math-ph
     openalex_id: W4407587717
     sources: [arxiv, openalex]
-  - id: 'doi:10.1137/21m1441043'
-    title: 'Arbitrary Precision Algorithms for Computing the Matrix Cosine and its Fréchet Derivative'
-    year: 2022
-    coauthors: ['Awad H. Al-Mohy', 'Nicholas J. Higham']
-    doi: '10.1137/21m1441043'
-    journal: 'SIAM Journal on Matrix Analysis and Applications'
-    openalex_id: W3195605254
-    sources: [openalex]
-    no_arxiv: true
-  - id: '2208.07558'
-    title: 'Traffic Analytics Development Kits (TADK): Enable Real-Time AI Inference in Networking Apps'
-    year: 2022
-    coauthors: ['Kun Qiu', 'Harry Chang', 'Ying Wang', 'Xiahui Yu', 'Wenjun Zhu', 'Yingqi Liu', 'Siwei Ma', 'Li Weigang', 'Shuo Dai']
-    doi: '10.1109/icufn55119.2022.9829628'
-    journal: '2022 Thirteenth International Conference on Ubiquitous and Future Networks (ICUFN)'
-    openalex_id: W4286248454
-    sources: [openalex]
-  - id: 'doi:10.3837/tiis.2022.03.004'
-    title: 'Multi-view Clustering by Spectral Structure Fusion and Novel Low-rank Approximation'
-    year: 2022
-    coauthors: ['Yin Long', 'Simon Murphy']
-    doi: '10.3837/tiis.2022.03.004'
-    journal: 'KSII Transactions on Internet and Information Systems'
-    openalex_id: W4225900393
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1109/cac57257.2022.10054958'
-    title: 'CO<sup>2</sup>Det: Anchor-free based Convex-hull Generation Network for Oriented Object Detection'
-    year: 2022
-    coauthors: ['Xiao Xiao', 'Wenjie Zu', 'Xin Gong', 'Kexin Zheng', 'Haoran Dai']
-    doi: '10.1109/cac57257.2022.10054958'
-    openalex_id: W4324119265
-    sources: [openalex]
-    no_arxiv: true
   - id: '2107.10472'
     title: 'Action of Virasoro operators on Hall-Littlewood polynomials'
     year: 2021
@@ -424,64 +171,12 @@ publications:
     primary_category: math.AG
     openalex_id: W4366121889
     sources: [arxiv, openalex]
-  - id: 'doi:10.1137/20m1365326'
-    title: 'A Multiprecision Derivative-Free Schur--Parlett Algorithm for Computing Matrix Functions'
-    year: 2021
-    coauthors: ['Nicholas J. Higham']
-    doi: '10.1137/20m1365326'
-    journal: 'SIAM Journal on Matrix Analysis and Applications'
-    openalex_id: W3083409701
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1109/cac53003.2021.9728066'
-    title: 'BRR-DQN: UAV path planning method for urban remote sensing images'
-    year: 2021
-    coauthors: ['Kexin Zheng', 'Jianfeng Yang', 'Zhihua Cai', 'Haoran Dai', 'Zhilang Zhou', 'Xiao Xiao', 'Xin Gong']
-    doi: '10.1109/cac53003.2021.9728066'
-    journal: '2021 China Automation Congress (CAC)'
-    openalex_id: W4235740888
-    sources: [openalex]
-    no_arxiv: true
-  - id: '2111.07942'
-    title: 'Fully Linear Graph Convolutional Networks for Semi-Supervised Learning and Clustering'
-    year: 2021
-    coauthors: ['Yaoming Cai', 'Zijia Zhang', 'Zhihua Cai', 'Yao Ding', 'Pedram Ghamisi']
-    doi: '10.48550/arxiv.2111.07942'
-    openalex_id: W3213422582
-    sources: [openalex]
-  - id: 'doi:10.1007/978-981-16-0115-6_151'
-    title: 'The Construction of Hybrid Learning Mode Based on Blackboard Network Platform'
-    year: 2021
-    coauthors: [xu-xu]
-    doi: '10.1007/978-981-16-0115-6_151'
-    journal: 'Lecture notes in electrical engineering'
-    openalex_id: W4205691569
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1109/cac53003.2021.9728626'
-    title: 'Polar Transformation Based Rotation Convolution Network for Oriented Object Detection'
-    year: 2021
-    coauthors: ['Jianfeng Yang', 'Xiao Xiao', 'Zhihua Cai', 'Xin Gong', 'Kexin Zheng']
-    doi: '10.1109/cac53003.2021.9728626'
-    journal: '2021 China Automation Congress (CAC)'
-    openalex_id: W4233640139
-    sources: [openalex]
-    no_arxiv: true
   - id: '2006.03945'
     title: 'Polar foliations on symmetric spaces and the mean curvature flow'
     year: 2020
     coauthors: ['Marco Radeschi']
     primary_category: math.DG
     sources: [arxiv]
-  - id: 'doi:10.1007/s11432-019-2798-9'
-    title: 'Cascade conditional generative adversarial nets for spatial-spectral hyperspectral sample generation'
-    year: 2020
-    coauthors: [li-ao, 'Yonghua Xiong', 'Zhihua Cai', 'Peng Liu']
-    doi: '10.1007/s11432-019-2798-9'
-    journal: 'Science China Information Sciences'
-    openalex_id: W3011642172
-    sources: [openalex]
-    no_arxiv: true
   - id: '1911.12535'
     title: 'Ancient solutions to mean curvature flow for isoparametric submanifolds'
     year: 2019
@@ -489,8 +184,7 @@ publications:
     doi: '10.1007/s00208-020-02055-9'
     journal: 'Mathematische Annalen'
     primary_category: math.DG
-    openalex_id: W3047463582
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: 'doi:10.2969/aspm/05110235'
     title: 'Quantum product, topological recursion relations, and the Virasoro conjecture'
     year: 2019
@@ -500,40 +194,6 @@ publications:
     openalex_id: W2941330054
     sources: [openalex]
     no_arxiv: true
-  - id: 'doi:10.1016/j.neucom.2018.07.060'
-    title: 'A multiobjective optimization-based sparse extreme learning machine algorithm'
-    year: 2018
-    coauthors: ['Yu Wu', 'Yongshan Zhang', 'Zhihua Cai', 'Yaoming Cai']
-    doi: '10.1016/j.neucom.2018.07.060'
-    journal: 'Neurocomputing'
-    openalex_id: W2887065738
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1007/s00521-018-3900-8'
-    title: 'MapReduce-based adaptive random forest algorithm for multi-label classification'
-    year: 2018
-    coauthors: ['Qinghua Wu', 'Haihui Wang', xu-xu]
-    doi: '10.1007/s00521-018-3900-8'
-    journal: 'Neural Computing and Applications'
-    openalex_id: W2902071374
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1109/ieem.2018.8607812'
-    title: 'Particle-swarm Krill Herd Algorithm'
-    year: 2018
-    coauthors: ['Gai‐Ge Wang', 'Danyu Bai', 'Wenyin Gong', 'Teng Ren', xu-xu]
-    doi: '10.1109/ieem.2018.8607812'
-    openalex_id: W2910663894
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1109/ijcnn.2018.8489484'
-    title: 'Optical Flow Based Face Hallucination Via Weightedly-Constrained Representation'
-    year: 2018
-    coauthors: ['Bi Wu', 'Zhihua Cai']
-    doi: '10.1109/ijcnn.2018.8489484'
-    openalex_id: W2897761616
-    sources: [openalex]
-    no_arxiv: true
   - id: '1712.02331'
     title: 'Connecting Hodge integrals to Gromov-Witten invariants by Virasoro operators'
     year: 2017
@@ -541,40 +201,7 @@ publications:
     doi: '10.48550/arxiv.1712.02331'
     journal: 'Peking Mathematical Journal'
     primary_category: math.AG
-    openalex_id: W2774400440
-    sources: [arxiv, openalex]
-  - id: 'doi:10.1155/2017/9846181'
-    title: 'Multigrades Classification Model of Magnesite Ore Based on SAE and ELM'
-    year: 2017
-    coauthors: ['Yachun Mao', 'Dong Xiao', 'Jinfu Cheng', 'Defu Che', 'Ba Tuan Le', 'Liang Song']
-    doi: '10.1155/2017/9846181'
-    journal: 'Journal of Sensors'
-    openalex_id: W2749446438
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1109/ijcnn.2017.7965853'
-    title: 'A weighted-resampling based transfer learning algorithm'
-    year: 2017
-    coauthors: [li-ao, 'Guangjun Wang', 'Zhihua Cai', 'Harry Zhang']
-    doi: '10.1109/ijcnn.2017.7965853'
-    openalex_id: W2735375434
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.2991/icessms-16.2017.108'
-    title: 'Driving system of university mathematics practice teaching system III: view of learning'
-    year: 2017
-    coauthors: []
-    doi: '10.2991/icessms-16.2017.108'
-    openalex_id: W4246628016
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'openalex:W2746140528'
-    title: '薬用植物のアレロパシーに及ぼすPINUS TABULAEFORMIS,PINUS TABULAEFORMIS,およびLARIX カラマツの影響を研究した。【JST・京大機械翻訳】'
-    year: 2016
-    coauthors: [li-ao, 'Zengwen Liu', 'Zhang XiaoXi', xu-xu, 'Luc Nhu Trung']
-    openalex_id: W2746140528
-    sources: [openalex]
-    no_arxiv: true
+    sources: [arxiv]
   - id: '1503.05268'
     title: 'Connecting the Kontsevich-Witten and Hodge tau-functions by the $\hat{GL(\infty)}$ operators'
     year: 2015
@@ -583,14 +210,6 @@ publications:
     journal: 'Commun. Math. Phys. (2016), 346(1), 143-190'
     primary_category: math-ph
     sources: [arxiv]
-  - id: 'doi:10.1109/ijcnn.2015.7280383'
-    title: 'A memetic algorithm based extreme learning machine for classification'
-    year: 2015
-    coauthors: ['Yongshan Zhang', 'Zhihua Cai', 'Jia Wu', wang-xin]
-    doi: '10.1109/ijcnn.2015.7280383'
-    openalex_id: W1646140329
-    sources: [openalex]
-    no_arxiv: true
   - id: 'doi:10.1007/s11425-015-5041-1'
     title: 'Topological recursion relations on $$\overline M _{3,2} $$'
     year: 2015
@@ -600,15 +219,6 @@ publications:
     openalex_id: W1146333281
     sources: [openalex]
     no_arxiv: true
-  - id: 'doi:10.2991/iiicec-15.2015.147'
-    title: 'Research on Diagnosis Data Fusion of Aero-engine based on Improved K-means Cluster and D-S Evidence Theory'
-    year: 2015
-    coauthors: ['Mingming Zhang']
-    doi: '10.2991/iiicec-15.2015.147'
-    journal: 'Advances in computer science research'
-    openalex_id: W2002493926
-    sources: [openalex]
-    no_arxiv: true
   - id: 'doi:10.1016/j.aim.2015.01.011'
     title: 'Genus-2 G-function for <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" altimg="si1.gif" overflow="scroll"><mml:msup><mml:mrow><mml:mi mathvariant="double-struck">P</mml:mi></mml:mrow><mml:mrow><mml:mn>1</mml:mn></mml:mrow></mml:msup></mml:math> orbifolds'
     year: 2015
@@ -616,15 +226,6 @@ publications:
     doi: '10.1016/j.aim.2015.01.011'
     journal: 'Advances in Mathematics'
     openalex_id: W2962961800
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.3993/jfbi03201510'
-    title: 'Ensemble Inductive Transfer Learning'
-    year: 2015
-    coauthors: ['Guangjun Wang', 'Zhihua Cai null', 'Harry Zhang']
-    doi: '10.3993/jfbi03201510'
-    journal: 'Journal of Fiber Bioengineering and Informatics'
-    openalex_id: W2334794775
     sources: [openalex]
     no_arxiv: true
   - id: '1402.3854'
@@ -644,13 +245,6 @@ publications:
     primary_category: math.DG
     openalex_id: W2964049262
     sources: [arxiv, openalex]
-  - id: 'openalex:W1172294670'
-    title: 'The design of an efficient routing protocol and energy supply for wireless sensor networks'
-    year: 2012
-    coauthors: []
-    openalex_id: W1172294670
-    sources: [openalex]
-    no_arxiv: true
   - id: '1106.3735'
     title: 'Genus-1 Virasoro conjecture along quantum volume direction'
     year: 2011
@@ -666,17 +260,7 @@ publications:
     coauthors: ['Takashi Kimura']
     doi: '10.48550/arxiv.1104.4378'
     primary_category: math.DG
-    openalex_id: W1680610699
-    sources: [arxiv, openalex]
-  - id: 'doi:10.1007/978-3-642-21043-3_19'
-    title: 'Instance Selection in Semi-supervised Learning'
-    year: 2011
-    coauthors: ['Yuanyuan Guo', 'Harry Zhang']
-    doi: '10.1007/978-3-642-21043-3_19'
-    journal: 'Lecture notes in computer science'
-    openalex_id: W152303868
-    sources: [openalex]
-    no_arxiv: true
+    sources: [arxiv]
   - id: '0905.0895'
     title: 'Quantum Teichmüller space and Kashaev algebra'
     year: 2009
@@ -685,24 +269,6 @@ publications:
     journal: 'Algebr. Geom. Topol. 9 (2009) 1791-1824'
     primary_category: math.GT
     sources: [arxiv]
-  - id: 'doi:10.1142/s0218216509007129'
-    title: 'THE QUANTUM TEICHMÜLLER SPACE AS A NONCOMMUTATIVE ALGEBRAIC OBJECT'
-    year: 2009
-    coauthors: []
-    doi: '10.1142/s0218216509007129'
-    journal: 'Journal of Knot Theory and Its Ramifications'
-    openalex_id: W2055094231
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1061/40996(330)108'
-    title: 'An Overview of Intelligent Transportation System Communication Technology'
-    year: 2009
-    coauthors: ['Jianmei Zhu', 'Minghua Huang', 'Hu Su', 'Zhaowei Yang']
-    doi: '10.1061/40996(330)108'
-    journal: 'Logistics'
-    openalex_id: W2414430952
-    sources: [openalex]
-    no_arxiv: true
   - id: '0805.4829'
     title: 'New topological recursion relations'
     year: 2008
@@ -819,8 +385,7 @@ publications:
     coauthors: ['Ernst Heintze', 'Carlos Olmos']
     doi: '10.48550/arxiv.math/0004028'
     primary_category: math.DG
-    openalex_id: W57070120
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '9907113'
     title: 'Elliptic Gromov-Witten Invariants And Virasoro Conjecture'
     year: 1999
@@ -836,8 +401,7 @@ publications:
     doi: '10.2307/121022'
     journal: 'Ann. of Math. (2) 149 (1999), no. 1, 149-181'
     primary_category: math.DG
-    openalex_id: W2146719181
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '9806028'
     title: 'Virasoro Constraints For Quantum Cohomology'
     year: 1998
@@ -847,40 +411,14 @@ publications:
     primary_category: math.AG
     openalex_id: W1793609169
     sources: [arxiv, openalex]
-  - id: 'doi:10.4310/jdg/1214459800'
-    title: 'A splitting theorem for isoparametric submanifolds in Hilbert space'
-    year: 1997
-    coauthors: ['Ernst Heintze']
-    doi: '10.4310/jdg/1214459800'
-    journal: 'Journal of Differential Geometry'
-    openalex_id: W1601939722
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.2307/2374975'
-    title: 'Volume Minimizing Cycles in Compact Lie Groups'
-    year: 1995
-    coauthors: []
-    doi: '10.2307/2374975'
-    journal: 'American Journal of Mathematics'
-    openalex_id: W2313232576
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1215/s0012-7094-95-07714-x'
-    title: 'Rigidity of the Gauss map in compact Lie groups'
-    year: 1995
-    coauthors: []
-    doi: '10.1215/s0012-7094-95-07714-x'
-    journal: 'Duke Mathematical Journal'
-    openalex_id: W1985787863
-    sources: [openalex]
-    no_arxiv: true
 activity:
-  total_papers: 89
-  published_count: 81
-  preprint_only_count: 8
+  total_papers: 37
+  published_count: 31
+  preprint_only_count: 6
   h_index: 12
   active_period: '1994-present'
   peak_period: '1998-2010'
+  confidence: 'has-9-review-pending'
   quality_source: 'openalex + ruirui-2026'
   t1_papers: 2
   t2_papers: 6

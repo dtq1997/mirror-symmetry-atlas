@@ -1,0 +1,729 @@
+slug: kontsevich
+count: 47
+note: 需要人工核对的候选论文。score 在 10-19 之间。要么补 ORCID 进 identity_profile, 要么明确标 accepted/rejected
+candidates:
+- id: doi:10.1023/b:math.0000027508.00421.bf
+  title: Deformation Quantization of Poisson Manifolds
+  year: 2003
+  score: 14
+  evidence:
+    authors:
+    - Maxim Kontsevich
+    year_in_period: 1995-present
+    keywords:
+    - deformation
+    - quantization
+    math_venue: letters in mathematical physics
+  doi: 10.1023/b:math.0000027508.00421.bf
+  venue: Letters in Mathematical Physics
+- id: doi:10.1007/978-3-0348-9078-6_11
+  title: Homological Algebra of Mirror Symmetry
+  year: 1995
+  score: 17
+  evidence:
+    authors:
+    - Maxim Kontsevich
+    year_in_period: 1995-present
+    keywords:
+    - algebraic
+    - homological
+    - mirror
+    - symmetry
+  doi: 10.1007/978-3-0348-9078-6_11
+  venue: Birkhäuser Basel eBooks
+- id: doi:10.1142/s0217751x97001031
+  title: The Geometry of the Master Equation and Topological Quantum Field Theory
+  year: 1997
+  score: 11
+  evidence:
+    authors:
+    - Mikhail D. Alexandrov
+    - Albert Schwarz
+    - Oleg Zaboronsky
+    - Maxim Kontsevich
+    year_in_period: 1995-present
+    keywords:
+    - geometry
+    - topological
+  doi: 10.1142/s0217751x97001031
+  venue: International Journal of Modern Physics A
+- id: doi:10.1023/a:1007555725247
+  title: Operads and Motives in Deformation Quantization
+  year: 1999
+  score: 14
+  evidence:
+    authors:
+    - Maxim Kontsevich
+    year_in_period: 1995-present
+    keywords:
+    - deformation
+    - quantization
+    math_venue: letters in mathematical physics
+  doi: 10.1023/a:1007555725247
+  venue: Letters in Mathematical Physics
+- id: doi:10.1142/9789812799821_0007
+  title: HOMOLOGICAL MIRROR SYMMETRY AND TORUS FIBRATIONS
+  year: 2001
+  score: 14
+  evidence:
+    authors:
+    - Maxim Kontsevich
+    - Yan Soibelman
+    year_in_period: 1995-present
+    keywords:
+    - homological
+    - mirror
+    - symmetry
+  doi: 10.1142/9789812799821_0007
+  venue: null
+- id: '1411.1394'
+  title: Canonical bases for cluster algebras
+  year: 2017
+  score: 11
+  evidence:
+    authors:
+    - Mark Gross
+    - Paul Hacking
+    - Seán Keel
+    - Maxim Kontsevich
+    year_in_period: 1995-present
+    keywords:
+    - algebraic
+    math_venue: journal of the american mathematical society
+  doi: 10.1090/jams/890
+  venue: Journal of the American Mathematical Society
+- id: doi:10.4310/cntp.2011.v5.n2.a1
+  title: Cohomological Hall algebra, exponential Hodge structures and motivic Donaldson–Thomas
+    invariants
+  year: 2011
+  score: 14
+  evidence:
+    authors:
+    - Maxim Kontsevich
+    - Yan Soibelman
+    year_in_period: 1995-present
+    keywords:
+    - algebraic
+    - homological
+    math_venue: communications in number theory and physics
+  doi: 10.4310/cntp.2011.v5.n2.a1
+  venue: Communications in Number Theory and Physics
+- id: doi:10.1007/978-3-540-68030-7_6
+  title: Notes on A∞-Algebras, A∞-Categories and Non-Commutative Geometry
+  year: 2008
+  score: 11
+  evidence:
+    authors:
+    - Maxim Kontsevich
+    - Y. Soibelman
+    year_in_period: 1995-present
+    keywords:
+    - algebraic
+    - geometry
+  doi: 10.1007/978-3-540-68030-7_6
+  venue: Lecture notes in physics
+- id: doi:10.1155/s1073792898000166
+  title: Frobenius Manifolds and Formality of Lie Algebras of Polyvector Fields
+  year: 1998
+  score: 11
+  evidence:
+    authors:
+    - Sergey Barannikov
+    - Maxim Kontsevich
+    year_in_period: 1995-present
+    keywords:
+    - algebraic
+    math_venue: international mathematics research notices
+  doi: 10.1155/s1073792898000166
+  venue: International Mathematics Research Notices
+- id: doi:10.1023/a:1017957408559
+  title: Deformation Quantization of Algebraic Varieties
+  year: 2001
+  score: 17
+  evidence:
+    authors:
+    - Maxim Kontsevich
+    year_in_period: 1995-present
+    keywords:
+    - algebraic
+    - deformation
+    - quantization
+    math_venue: letters in mathematical physics
+  doi: 10.1023/a:1017957408559
+  venue: Letters in Mathematical Physics
+- id: doi:10.1007/s002200050426
+  title: Relations Between the Correlators of the Topological Sigma-Model Coupled
+    to Gravity
+  year: 1998
+  score: 11
+  evidence:
+    authors:
+    - Maxim Kontsevich
+    - Yu. I. Manin
+    year_in_period: 1995-present
+    keywords:
+    - topological
+    math_venue: communications in mathematical physics
+  doi: 10.1007/s002200050426
+  venue: Communications in Mathematical Physics
+- id: doi:10.1007/978-3-319-06514-4_6
+  title: Wall-Crossing Structures in Donaldson–Thomas Invariants, Integrable Systems
+    and Mirror Symmetry
+  year: 2014
+  score: 11
+  evidence:
+    authors:
+    - Maxim Kontsevich
+    - Yan Soibelman
+    year_in_period: 1995-present
+    keywords:
+    - mirror
+    - symmetry
+  doi: 10.1007/978-3-319-06514-4_6
+  venue: Lecture notes of the Unione Matematica Italiana
+- id: doi:10.1023/a:1000619911308
+  title: Rozansky–Witten Invariants Via Formal Geometry
+  year: 1999
+  score: 11
+  evidence:
+    authors:
+    - Maxim Kontsevich
+    year_in_period: 1995-present
+    keywords:
+    - geometry
+    math_venue: compositio mathematica
+  doi: 10.1023/a:1000619911308
+  venue: Compositio Mathematica
+- id: doi:10.1007/978-1-4612-2582-9_6
+  title: Geometry of determinants of elliptic operators
+  year: 1995
+  score: 11
+  evidence:
+    authors:
+    - Maxim Kontsevich
+    - S. M. Vishik
+    year_in_period: 1995-present
+    keywords:
+    - geometry
+    math_venue: progress in mathematics
+  doi: 10.1007/978-1-4612-2582-9_6
+  venue: Progress in mathematics
+- id: doi:10.1007/s002220050055
+  title: Quantum cohomology of a product
+  year: 1996
+  score: 11
+  evidence:
+    authors:
+    - Maxim Kontsevich
+    - Yu. I. Manin
+    - Ralph M. Kaufmann
+    year_in_period: 1995-present
+    keywords:
+    - homological
+    math_venue: inventiones mathematicae
+  doi: 10.1007/s002220050055
+  venue: Inventiones mathematicae
+- id: doi:10.1007/s40879-024-00802-9
+  title: Pre-Calabi–Yau algebras and topological quantum field theories
+  year: 2025
+  score: 14
+  evidence:
+    authors:
+    - Maxim Kontsevich
+    - Alex Takeda
+    - Yiannis Vlassopoulos
+    year_in_period: 1995-present
+    keywords:
+    - algebraic
+    - topological
+    math_venue: european journal of mathematics
+  doi: 10.1007/s40879-024-00802-9
+  venue: European Journal of Mathematics
+- id: '1906.07134'
+  title: Pre-Calabi-Yau algebras as noncommutative Poisson structures
+  year: 2020
+  score: 11
+  evidence:
+    authors:
+    - Natalia Iyudu
+    - Maxim Kontsevich
+    - Yannis Vlassopoulos
+    year_in_period: 1995-present
+    keywords:
+    - algebraic
+    math_venue: journal of algebra
+  doi: 10.1016/j.jalgebra.2020.08.029
+  venue: Journal of Algebra
+- id: doi:10.1016/j.aim.2016.03.028
+  title: Algebra of the infrared and secondary polytopes
+  year: 2016
+  score: 11
+  evidence:
+    authors:
+    - Mikhail Kapranov
+    - Maxim Kontsevich
+    - Y. Soibelman
+    year_in_period: 1995-present
+    keywords:
+    - algebraic
+    math_venue: advances in mathematics
+  doi: 10.1016/j.aim.2016.03.028
+  venue: Advances in Mathematics
+- id: doi:10.1007/978-3-319-06514-4
+  title: Homological Mirror Symmetry and Tropical Geometry
+  year: 2014
+  score: 17
+  evidence:
+    authors:
+    - Ricardo Castaño-Bernard
+    - Fabrizio Catanese
+    - Maxim Kontsevich
+    - Tony Pantev
+    - Yan Soibelman
+    - Ilia Zharkov
+    year_in_period: 1995-present
+    keywords:
+    - geometry
+    - homological
+    - mirror
+    - symmetry
+  doi: 10.1007/978-3-319-06514-4
+  venue: Lecture notes of the Unione Matematica Italiana
+- id: doi:10.4171/jems/1170
+  title: Equivariant birational geometry and modular symbols
+  year: 2021
+  score: 11
+  evidence:
+    authors:
+    - Maxim Kontsevich
+    - Vasily Pestun
+    - Yuri Tschinkel
+    year_in_period: 1995-present
+    keywords:
+    - geometry
+    math_venue: journal of the european mathematical society
+  doi: 10.4171/jems/1170
+  venue: Journal of the European Mathematical Society
+- id: doi:10.1007/s11005-006-0137-8
+  title: Quantization on Curves
+  year: 2007
+  score: 11
+  evidence:
+    authors:
+    - C. Frønsdal
+    - Maxim Kontsevich
+    year_in_period: 1995-present
+    keywords:
+    - quantization
+    math_venue: letters in mathematical physics
+  doi: 10.1007/s11005-006-0137-8
+  venue: Letters in Mathematical Physics
+- id: openalex:W2964189058
+  title: Deformations of algebras over operads and Deligne's conjecture
+  year: 2000
+  score: 11
+  evidence:
+    authors:
+    - Maxim Kontsevich
+    - Yan Soibelman
+    year_in_period: 1995-present
+    keywords:
+    - algebraic
+    - deformation
+  doi: null
+  venue: Prepared for
+- id: openalex:W2621818980
+  title: Mirror symmetry in dimension 3
+  year: 1995
+  score: 14
+  evidence:
+    authors:
+    - Maxim Kontsevich
+    year_in_period: 1995-present
+    keywords:
+    - mirror
+    - symmetry
+    math_venue: french digital mathematics library (numdam)
+  doi: null
+  venue: French digital mathematics library (Numdam)
+- id: openalex:W2991759916
+  title: Automorphisms of Weil algebras
+  year: 2005
+  score: 11
+  evidence:
+    authors:
+    - Maxim Kontsevich
+    - Alexei Kanel-Belov
+    year_in_period: 1995-present
+    keywords:
+    - algebraic
+    math_venue: letters in mathematical physics
+  doi: null
+  venue: Letters in Mathematical Physics
+- id: 0806.0107.
+  title: Hodge theoretic aspects of mirror symmetry
+  year: 2008
+  score: 14
+  evidence:
+    authors:
+    - Ludmil Katzarkov
+    - Maxim Kontsevich
+    - Tony Pantev
+    year_in_period: 1995-present
+    keywords:
+    - mirror
+    - symmetry
+    math_venue: proceedings of symposia in pure mathematics
+  doi: 10.1090/pspum/078/2483750
+  venue: null
+- id: doi:10.48550/arxiv.math/0001151
+  title: Deformations of algebras over operads and Deligne's conjecture
+  year: 2000
+  score: 14
+  evidence:
+    authors:
+    - Maxim Kontsevich
+    - Yan Soibelman
+    year_in_period: 1995-present
+    keywords:
+    - algebraic
+    - deformation
+    math_venue: arxiv.org
+  doi: 10.48550/arxiv.math/0001151
+  venue: null
+- id: doi:10.48550/arxiv.math/0606241
+  title: Notes on A-infinity algebras, A-infinity categories and non-commutative geometry.
+    I
+  year: 2006
+  score: 14
+  evidence:
+    authors:
+    - Maxim Kontsevich
+    - Yan Soibelman
+    year_in_period: 1995-present
+    keywords:
+    - algebraic
+    - geometry
+    math_venue: arxiv (cornell university)
+  doi: 10.48550/arxiv.math/0606241
+  venue: null
+- id: '1006.2706'
+  title: Cohomological Hall algebra, exponential Hodge structures and motivic Donaldson-Thomas
+    invariants
+  year: 2010
+  score: 14
+  evidence:
+    authors:
+    - Maxim Kontsevich
+    - Yan Soibelman
+    year_in_period: 1995-present
+    keywords:
+    - algebraic
+    - homological
+    math_venue: arxiv (cornell university)
+  doi: 10.48550/arxiv.1006.2706
+  venue: null
+- id: doi:10.48550/arxiv.alg-geom/9710032
+  title: Frobenius Manifolds and Formality of Lie Algebras of Polyvector Fields
+  year: 1997
+  score: 11
+  evidence:
+    authors:
+    - Sergey Barannikov
+    - Maxim Kontsevich
+    year_in_period: 1995-present
+    keywords:
+    - algebraic
+    math_venue: arxiv (cornell university)
+  doi: 10.48550/arxiv.alg-geom/9710032
+  venue: null
+- id: doi:10.1090/pspum/100/01765
+  title: Airy structures and symplectic geometry of topological recursion
+  year: 2018
+  score: 14
+  evidence:
+    authors:
+    - Maxim Kontsevich
+    - Yan Soibelman
+    year_in_period: 1995-present
+    keywords:
+    - geometry
+    - topological
+    math_venue: proceedings of symposia in pure mathematics
+  doi: 10.1090/pspum/100/01765
+  venue: null
+- id: '1303.3253'
+  title: Wall-crossing structures in Donaldson-Thomas invariants, integrable systems
+    and Mirror Symmetry
+  year: 2013
+  score: 14
+  evidence:
+    authors:
+    - Maxim Kontsevich
+    - Yan Soibelman
+    year_in_period: 1995-present
+    keywords:
+    - mirror
+    - symmetry
+    math_venue: arxiv (cornell university)
+  doi: 10.48550/arxiv.1303.3253
+  venue: null
+- id: doi:10.48550/arxiv.dg-ga/9704009
+  title: Rozansky-Witten invariants via formal geometry
+  year: 1997
+  score: 11
+  evidence:
+    authors:
+    - Maxim Kontsevich
+    year_in_period: 1995-present
+    keywords:
+    - geometry
+    math_venue: arxiv.org
+  doi: 10.48550/arxiv.dg-ga/9704009
+  venue: null
+- id: doi:10.1090/pspum/100/13
+  title: Airy structures and symplectic geometry of topological recursion
+  year: 2018
+  score: 14
+  evidence:
+    authors:
+    - Maxim Kontsevich
+    - Yan Soibelman
+    year_in_period: 1995-present
+    keywords:
+    - geometry
+    - topological
+    math_venue: proceedings of symposia in pure mathematics
+  doi: 10.1090/pspum/100/13
+  venue: null
+- id: doi:10.1090/conm/462/09058
+  title: 'XI Solomon Lefschetz Memorial Lecture series: Hodge structures in non-commutative
+    geometry'
+  year: 2008
+  score: 11
+  evidence:
+    authors:
+    - Maxim Kontsevich
+    year_in_period: 1995-present
+    keywords:
+    - geometry
+    math_venue: contemporary mathematics - american mathematical society
+  doi: 10.1090/conm/462/09058
+  venue: null
+- id: '0801.4760'
+  title: 'XI Solomon Lefschetz Memorial Lecture Series: Hodge structures in non-commutative
+    geometry. (Notes by Ernesto Lupercio)'
+  year: 2008
+  score: 11
+  evidence:
+    authors:
+    - Maxim Kontsevich
+    year_in_period: 1995-present
+    keywords:
+    - geometry
+    math_venue: arxiv (cornell university)
+  doi: 10.48550/arxiv.0801.4760
+  venue: null
+- id: '1902.09894'
+  title: Equivariant birational geometry and modular symbols
+  year: 2019
+  score: 11
+  evidence:
+    authors:
+    - Maxim Kontsevich
+    - Vasily Pestun
+    - Yuri Tschinkel
+    year_in_period: 1995-present
+    keywords:
+    - geometry
+    math_venue: arxiv (cornell university)
+  doi: 10.48550/arxiv.1902.09894
+  venue: null
+- id: '2112.14667'
+  title: Pre-Calabi-Yau algebras and topological quantum field theories
+  year: 2021
+  score: 14
+  evidence:
+    authors:
+    - Maxim Kontsevich
+    - Alex Takeda
+    - Yiannis Vlassopoulos
+    year_in_period: 1995-present
+    keywords:
+    - algebraic
+    - topological
+    math_venue: arxiv (cornell university)
+  doi: 10.48550/arxiv.2112.14667
+  venue: null
+- id: '1408.2673'
+  title: Algebra of the infrared and secondary polytopes
+  year: 2014
+  score: 11
+  evidence:
+    authors:
+    - Mikhail Kapranov
+    - Maxim Kontsevich
+    - Yan Soibelman
+    year_in_period: 1995-present
+    keywords:
+    - algebraic
+    math_venue: arxiv (cornell university)
+  doi: 10.48550/arxiv.1408.2673
+  venue: null
+- id: doi:10.48550/arxiv.math/0011041
+  title: Homological mirror symmetry and torus fibrations
+  year: 2000
+  score: 17
+  evidence:
+    authors:
+    - Maxim Kontsevich
+    - Yan Soibelman
+    year_in_period: 1995-present
+    keywords:
+    - homological
+    - mirror
+    - symmetry
+    math_venue: arxiv (cornell university)
+  doi: 10.48550/arxiv.math/0011041
+  venue: null
+- id: '2011.11888'
+  title: Pre-Calabi-Yau algebras and noncommutative calculus on higher cyclic\n Hochschild
+    cohomology
+  year: 2020
+  score: 14
+  evidence:
+    authors:
+    - Natalia Iyudu
+    - Maxim Kontsevich
+    year_in_period: 1995-present
+    keywords:
+    - algebraic
+    - homological
+    math_venue: arxiv (cornell university)
+  doi: 10.48550/arxiv.2011.11888
+  venue: null
+- id: doi:10.48550/arxiv.hep-th/9406140
+  title: Geometry of determinants of elliptic operators
+  year: 1994
+  score: 11
+  evidence:
+    authors:
+    - Maxim Kontsevich
+    - S. M. Vishik
+    year_in_period: 1985-1992
+    keywords:
+    - geometry
+    math_venue: arxiv (cornell university)
+  doi: 10.48550/arxiv.hep-th/9406140
+  venue: null
+- id: doi:10.4213/rm9828
+  title: Владимир Антонович Зорич (к восьмидесятилетию со дня рождения)
+  year: 2018
+  score: 10
+  evidence:
+    authors:
+    - Alexander Ivanovich Aptekarev
+    - Victor Matveevich Buchstaber
+    - V. A. Vassiliev
+    - M. Gromov
+    - Yulij Sergeevich Ilyashenko
+    - Борис Сергеевич Кашин
+    - Владимир Михайлович Кесельман
+    - Valery Vasil'evich Kozlov
+    - Maxim Kontsevich
+    - I. M. Krichever
+    - N. G. Kruzhilin
+    - Сергей Константинович Ландо
+    - Yuri I. Manin
+    - Григорий Александрович Маргулис
+    - Stefan Yurievich Nemirovski
+    - Сергей Петрович Новиков
+    - Yuri Grigor'evich Reshetnyak
+    - Yakov G. Sinai
+    - Sergey Pavlovich Suetin
+    - Dmitry Treschev
+    - Dmitrii Borisovich Fuchs
+    - Askold Khovanskiĭ
+    - Евгений Михайлович Чирка
+    - Albert Schwarz
+    - Albert N. Shiryaev
+    coauthor_extended:
+    - Yuri I. Manin
+    year_in_period: 1995-present
+  doi: 10.4213/rm9828
+  venue: Успехи математических наук
+- id: '2003.03171'
+  title: A generalization of King’s equation via noncommutative geometry
+  year: 2021
+  score: 11
+  evidence:
+    authors:
+    - Gourab Bhattacharya
+    - Maxim Kontsevich
+    year_in_period: 1995-present
+    keywords:
+    - geometry
+    math_venue: irma lectures in mathematics and theoretical physics
+  doi: 10.4171/irma/33-1/23
+  venue: IRMA lectures in mathematics and theoretical physics
+- id: doi:10.48550/arxiv.2003.03171
+  title: A Generalization of King's Equation via Noncommutative Geometry
+  year: 2020
+  score: 11
+  evidence:
+    authors:
+    - Gourab Bhattacharya
+    - Maxim Kontsevich
+    year_in_period: 1995-present
+    keywords:
+    - geometry
+    math_venue: hal (le centre pour la communication scientifique directe)
+  doi: 10.48550/arxiv.2003.03171
+  venue: HAL (Le Centre pour la Communication Scientifique Directe)
+- id: '2011.11888'
+  title: Pre-Calabi-Yau algebras and noncommutative calculus on higher cyclic Hochschild
+    cohomology
+  year: 2020
+  score: 14
+  evidence:
+    authors:
+    - Natalia Iyudu
+    - Maxim Kontsevich
+    year_in_period: 1995-present
+    keywords:
+    - algebraic
+    - homological
+    math_venue: arxiv (cornell university)
+  doi: 10.48550/arxiv.2011.11888
+  venue: null
+- id: '1701.09137'
+  title: Airy structures and symplectic geometry of topological recursion
+  year: 2017
+  score: 14
+  evidence:
+    authors:
+    - Maxim Kontsevich
+    - Yan Soibelman
+    year_in_period: 1995-present
+    keywords:
+    - geometry
+    - topological
+    math_venue: arxiv (cornell university)
+  doi: 10.48550/arxiv.1701.09137
+  venue: null
+- id: '0806.0107'
+  title: Hodge theoretic aspects of mirror symmetry
+  year: 2008
+  score: 14
+  evidence:
+    authors:
+    - Ludmil Katzarkov
+    - Maxim Kontsevich
+    - Tony Pantev
+    year_in_period: 1995-present
+    keywords:
+    - mirror
+    - symmetry
+    math_venue: arxiv.org
+  doi: 10.48550/arxiv.0806.0107
+  venue: null

@@ -1,0 +1,498 @@
+slug: hertling
+count: 34
+note: 需要人工核对的候选论文。score 在 10-19 之间。要么补 ORCID 进 identity_profile, 要么明确标 accepted/rejected
+candidates:
+- id: doi:10.1017/cbo9780511543104
+  title: Frobenius Manifolds and Moduli Spaces for Singularities
+  year: 2002
+  score: 11
+  evidence:
+    authors:
+    - Claus Hertling
+    year_in_period: ~2000-present
+    keywords:
+    - frobenius
+    - singularity
+  doi: 10.1017/cbo9780511543104
+  venue: Cambridge University Press eBooks
+- id: doi:10.1515/crll.2003.015
+  title: tt* geometry, Frobenius manifolds, their connections, and the construction
+    for singularities
+  year: 2003
+  score: 17
+  evidence:
+    authors:
+    - Claus Hertling
+    year_in_period: ~2000-present
+    keywords:
+    - frobenius
+    - geometry
+    - singularity
+    math_venue: journal für die reine und angewandte mathematik (crelles jou
+  doi: 10.1515/crll.2003.015
+  venue: Journal für die reine und angewandte Mathematik (Crelles Journal)
+- id: doi:10.1155/s1073792899000148
+  title: Weak Frobenius manifolds
+  year: 1999
+  score: 11
+  evidence:
+    authors:
+    - Claus Hertling
+    - Yu. I. Manin
+    year_in_period: ~2000-present
+    keywords:
+    - frobenius
+    math_venue: international mathematics research notices
+  doi: 10.1155/s1073792899000148
+  venue: International Mathematics Research Notices
+- id: doi:10.1007/978-3-322-80236-1_5
+  title: Unfoldings of meromorphic connections and a construction of Frobenius manifolds
+  year: 2004
+  score: 16
+  evidence:
+    authors:
+    - Claus Hertling
+    - Yuri I. Manin
+    coauthor_extended:
+    - Yuri I. Manin
+    year_in_period: ~2000-present
+    keywords:
+    - frobenius
+    math_venue: aspects of mathematics. e
+  doi: 10.1007/978-3-322-80236-1_5
+  venue: Aspects of mathematics. E
+- id: openalex:W2969039568
+  title: 'Frobenius Manifolds: Quantum Cohomology and Singularities'
+  year: 2012
+  score: 11
+  evidence:
+    authors:
+    - Matilde Marcolli
+    - Claus Hertling
+    year_in_period: ~2000-present
+    keywords:
+    - frobenius
+    - singularity
+  doi: null
+  venue: Max Planck Institute for Plasma Physics
+- id: doi:10.1023/a:1005012325661
+  title: Bernstein Polynomial and Tjurina Number
+  year: 1999
+  score: 25
+  evidence:
+    authors:
+    - Claus Hertling
+    - Colin Stahlke
+    affiliation_match:
+    - university of bonn
+    - university of bonn
+    year_in_period: ~2000-present
+  doi: 10.1023/a:1005012325661
+  venue: Geometriae Dedicata
+- id: '1411.4553'
+  title: 'Regular F-manifolds: initial conditions and Frobenius metrics'
+  year: 2017
+  score: 11
+  evidence:
+    authors:
+    - Liana David
+    - Claus Hertling
+    year_in_period: ~2000-present
+    keywords:
+    - frobenius
+    math_venue: annali scuola normale superiore - classe di scienze
+  doi: 10.2422/2036-2145.201509_007
+  venue: null
+- id: '1801.07924'
+  title: Automorphisms with eigenvalues in $S^1$ of a $\mathbb Z$-lattice with cyclic
+    finite monodromy
+  year: 2019
+  score: 25
+  evidence:
+    authors:
+    - Claus Hertling
+    affiliation_match:
+    - university of mannheim
+    year_in_period: ~2000-present
+  doi: 10.4064/aa180125-7-12
+  venue: null
+- id: doi:10.48550/arxiv.math/9810132
+  title: Weak Frobenius manifolds
+  year: 1998
+  score: 16
+  evidence:
+    authors:
+    - Claus Hertling
+    - Yuri I. Manin
+    coauthor_extended:
+    - Yuri I. Manin
+    year_in_period: ~2000-present
+    keywords:
+    - frobenius
+    math_venue: arxiv.org
+  doi: 10.48550/arxiv.math/9810132
+  venue: null
+- id: doi:10.1090/pspum/078/2483748
+  title: Twistor structures, 𝑡𝑡*-geometry and singularity theory
+  year: 2008
+  score: 17
+  evidence:
+    authors:
+    - Claus Hertling
+    - Christian Sevenheck
+    year_in_period: ~2000-present
+    keywords:
+    - geometry
+    - singularity
+    - twistor
+    math_venue: proceedings of symposia in pure mathematics
+  doi: 10.1090/pspum/078/2483748
+  venue: null
+- id: doi:10.48550/arxiv.math/0203054
+  title: tt* geometry, Frobenius manifolds, their connections, and the construction
+    for singularities
+  year: 2002
+  score: 17
+  evidence:
+    authors:
+    - Claus Hertling
+    year_in_period: ~2000-present
+    keywords:
+    - frobenius
+    - geometry
+    - singularity
+    math_venue: arxiv (cornell university)
+  doi: 10.48550/arxiv.math/0203054
+  venue: null
+- id: '1608.08423'
+  title: Potentials of a Frobenius like structure and $m$ bases of a vector space
+  year: 2016
+  score: 11
+  evidence:
+    authors:
+    - Claus Hertling
+    - Alexander Varchenko
+    year_in_period: ~2000-present
+    keywords:
+    - frobenius
+    math_venue: arxiv (cornell university)
+  doi: 10.48550/arxiv.1608.08423
+  venue: null
+- id: '1806.00996'
+  title: Distinguished bases and Stokes regions for the simple and the simple elliptic
+    singularities
+  year: 2018
+  score: 11
+  evidence:
+    authors:
+    - Claus Hertling
+    - Céline Roucairol
+    year_in_period: ~2000-present
+    keywords:
+    - singularity
+    math_venue: arxiv (cornell university)
+  doi: 10.48550/arxiv.1806.00996
+  venue: null
+- id: doi:10.4064/aa180125-7-12
+  title: Automorphisms with eigenvalues in S1 of a Z-lattice with cyclic finite monodromy
+  year: 2020
+  score: 25
+  evidence:
+    authors:
+    - Claus Hertling
+    affiliation_match:
+    - university of mannheim
+    year_in_period: ~2000-present
+  doi: 10.4064/aa180125-7-12
+  venue: MADOC (University of Mannheim)
+- id: '1806.00996'
+  title: Distinguished bases and Stokes regions for the simple and the simple\n elliptic
+    singularities
+  year: 2018
+  score: 11
+  evidence:
+    authors:
+    - Claus Hertling
+    - Céline Roucairol
+    year_in_period: ~2000-present
+    keywords:
+    - singularity
+    math_venue: arxiv (cornell university)
+  doi: 10.48550/arxiv.1806.00996
+  venue: null
+- id: doi:10.2969/aspm/04310073
+  title: $tt^*$ geometry and mixed Hodge structures
+  year: 2019
+  score: 11
+  evidence:
+    authors:
+    - Claus Hertling
+    year_in_period: ~2000-present
+    keywords:
+    - geometry
+    math_venue: advanced studies in pure mathematics
+  doi: 10.2969/aspm/04310073
+  venue: Advanced studies in pure mathematics
+- id: '1501.04812'
+  title: The Painlevé III equation of type (0,0,4,-4), its associated vector bundles
+    with isomonodromic connections, and the geometry of the movable poles
+  year: 2015
+  score: 11
+  evidence:
+    authors:
+    - Martin A. Guest
+    - Claus Hertling
+    year_in_period: ~2000-present
+    keywords:
+    - geometry
+    math_venue: arxiv (cornell university)
+  doi: 10.48550/arxiv.1501.04812
+  venue: null
+- id: '1108.0546'
+  title: <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"> <mml:mi>μ</mml:mi>
+    </mml:math> -constant monodromy groups and marked singularities
+  year: 2011
+  score: 11
+  evidence:
+    authors:
+    - Claus Hertling
+    year_in_period: ~2000-present
+    keywords:
+    - singularity
+    math_venue: annales de l’institut fourier
+  doi: 10.5802/aif.2789
+  venue: null
+- id: doi:10.1017/cbo9780511543104.012
+  title: Frobenius manifolds for hypersurface singularities
+  year: 2002
+  score: 11
+  evidence:
+    authors:
+    - Claus Hertling
+    year_in_period: ~2000-present
+    keywords:
+    - frobenius
+    - singularity
+  doi: 10.1017/cbo9780511543104.012
+  venue: Cambridge University Press eBooks
+- id: '1801.08272'
+  title: Seven combinatorial problems around quasihomogeneous singularities
+  year: 2018
+  score: 11
+  evidence:
+    authors:
+    - Claus Hertling
+    - Philip Zilke
+    year_in_period: ~2000-present
+    keywords:
+    - singularity
+    math_venue: arxiv (cornell university)
+  doi: 10.48550/arxiv.1801.08272
+  venue: null
+- id: '0905.3304'
+  title: Frobenius manifolds, projective special geometry and Hitchin systems
+  year: 2009
+  score: 14
+  evidence:
+    authors:
+    - Claus Hertling
+    - L. K. Hoevenaars
+    - Hessel Posthuma
+    year_in_period: ~2000-present
+    keywords:
+    - frobenius
+    - geometry
+    math_venue: arxiv.org
+  doi: 10.48550/arxiv.0905.3304
+  venue: null
+- id: '0912.2754'
+  title: Fourier-Laplace transform of flat unitary connections and TERP structures
+  year: 2009
+  score: 13
+  evidence:
+    authors:
+    - Claus Hertling
+    - Claude Sabbah
+    coauthor_extended:
+    - Claude Sabbah
+    year_in_period: ~2000-present
+    math_venue: arxiv (cornell university)
+  doi: null
+  venue: arXiv (Cornell University)
+- id: '2011.10099'
+  title: 'Bilinear forms and hermitian forms for singularities: a survey'
+  year: 2020
+  score: 11
+  evidence:
+    authors:
+    - Claus Hertling
+    year_in_period: ~2000-present
+    keywords:
+    - singularity
+    math_venue: arxiv (cornell university)
+  doi: 10.48550/arxiv.2011.10099
+  venue: null
+- id: doi:10.1201/9780203912089-16
+  title: Frobenius Manifolds and Hypersurface Singularities
+  year: 2003
+  score: 11
+  evidence:
+    authors:
+    - Claus Hertling
+    year_in_period: ~2000-present
+    keywords:
+    - frobenius
+    - singularity
+  doi: 10.1201/9780203912089-16
+  venue: null
+- id: '1712.00388'
+  title: Conjectures on spectral numbers for upper triangular matrices and for\n singularities
+  year: 2017
+  score: 11
+  evidence:
+    authors:
+    - Sven Balnojan
+    - Claus Hertling
+    year_in_period: ~2000-present
+    keywords:
+    - singularity
+    math_venue: arxiv (cornell university)
+  doi: 10.48550/arxiv.1712.00388
+  venue: null
+- id: '1511.08660'
+  title: $μ$-constant monodromy groups and Torelli results for marked singularities,
+    for the unimodal and some bimodal singularities
+  year: 2015
+  score: 11
+  evidence:
+    authors:
+    - Falko Gauß
+    - Claus Hertling
+    year_in_period: ~2000-present
+    keywords:
+    - singularity
+    math_venue: arxiv (cornell university)
+  doi: 10.48550/arxiv.1511.08660
+  venue: null
+- id: '2009.07533'
+  title: The integral monodromy of the cycle type singularities
+  year: 2020
+  score: 11
+  evidence:
+    authors:
+    - Claus Hertling
+    - Makiko Mase
+    year_in_period: ~2000-present
+    keywords:
+    - singularity
+    math_venue: arxiv (cornell university)
+  doi: 10.48550/arxiv.2009.07533
+  venue: null
+- id: doi:10.48550/arxiv.math/0203054
+  title: tt* geometry, Frobenius manifolds, their connections, and the\n construction
+    for singularities
+  year: 2002
+  score: 17
+  evidence:
+    authors:
+    - Claus Hertling
+    year_in_period: ~2000-present
+    keywords:
+    - frobenius
+    - geometry
+    - singularity
+    math_venue: arxiv (cornell university)
+  doi: 10.48550/arxiv.math/0203054
+  venue: null
+- id: '1710.03507'
+  title: $μ$-constant monodromy groups and Torelli results for the quadrangle singularities
+    and the bimodal series
+  year: 2017
+  score: 11
+  evidence:
+    authors:
+    - Falko Gauß
+    - Claus Hertling
+    year_in_period: ~2000-present
+    keywords:
+    - singularity
+    math_venue: arxiv (cornell university)
+  doi: 10.48550/arxiv.1710.03507
+  venue: null
+- id: '2108.02295'
+  title: The combinatorics of weight systems and characteristic polynomials of isolated
+    quasihomogeneous singularities
+  year: 2021
+  score: 11
+  evidence:
+    authors:
+    - Claus Hertling
+    - Makiko Mase
+    year_in_period: ~2000-present
+    keywords:
+    - singularity
+    math_venue: arxiv (cornell university)
+  doi: 10.48550/arxiv.2108.02295
+  venue: null
+- id: doi:10.48550/arxiv.math/0207089
+  title: Unfoldings of meromorphic connections and a construction of Frobenius manifolds
+  year: 2002
+  score: 16
+  evidence:
+    authors:
+    - Claus Hertling
+    - Yuri I. Manin
+    coauthor_extended:
+    - Yuri I. Manin
+    year_in_period: ~2000-present
+    keywords:
+    - frobenius
+    math_venue: arxiv (cornell university)
+  doi: 10.48550/arxiv.math/0207089
+  venue: null
+- id: '0807.2199'
+  title: Twistor structures, tt*-geometry and singularity theory
+  year: 2008
+  score: 17
+  evidence:
+    authors:
+    - Claus Hertling
+    - Christian Sevenheck
+    year_in_period: ~2000-present
+    keywords:
+    - geometry
+    - singularity
+    - twistor
+    math_venue: arxiv.org
+  doi: 10.48550/arxiv.0807.2199
+  venue: null
+- id: '2508.15497'
+  title: Characterization of distinguished matrices of isolated hypersurface singularities
+    through their spectral numbers
+  year: 2025
+  score: 11
+  evidence:
+    authors:
+    - Sven Balnojan
+    - Claus Hertling
+    year_in_period: ~2000-present
+    keywords:
+    - singularity
+    math_venue: arxiv (cornell university)
+  doi: 10.48550/arxiv.2508.15497
+  venue: null
+- id: openalex:W588470272
+  title: 'Frobenius manifolds : quantum cohomology and singularities : a publication
+    of the Max Planck Institute for Mathematics, Bonn'
+  year: 2004
+  score: 11
+  evidence:
+    authors:
+    - Claus Hertling
+    - Matilde Marcolli
+    year_in_period: ~2000-present
+    keywords:
+    - frobenius
+    - singularity
+  doi: null
+  venue: Medical Entomology and Zoology

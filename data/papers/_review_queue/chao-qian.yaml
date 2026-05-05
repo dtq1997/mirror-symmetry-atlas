@@ -1,0 +1,34 @@
+slug: chao-qian
+count: 2
+note: 需要人工核对的候选论文。score 在 10-19 之间。要么补 ORCID 进 identity_profile, 要么明确标 accepted/rejected
+candidates:
+- id: doi:10.1016/j.jpaa.2025.107882
+  title: On the derived category of a toric stack bundle
+  year: 2025
+  score: 11
+  evidence:
+    authors:
+    - Qian Chao
+    - Jiun-Cheng Chen
+    - Hsian‐Hua Tseng
+    year_in_period: 2024-present
+    keywords:
+    - derived
+    math_venue: journal of pure and applied algebra
+  doi: 10.1016/j.jpaa.2025.107882
+  venue: Journal of Pure and Applied Algebra
+- id: '2407.21288'
+  title: On the derived category of a toric stack bundle
+  year: 2024
+  score: 11
+  evidence:
+    authors:
+    - Qian Chao
+    - Jiun-Cheng Chen
+    - Hsian‐Hua Tseng
+    year_in_period: 2024-present
+    keywords:
+    - derived
+    math_venue: arxiv (cornell university)
+  doi: 10.48550/arxiv.2407.21288
+  venue: null

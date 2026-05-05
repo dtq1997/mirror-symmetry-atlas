@@ -1,0 +1,19 @@
+slug: yang-chenglang
+count: 1
+note: 需要人工核对的候选论文。score 在 10-19 之间。要么补 ORCID 进 identity_profile, 要么明确标 accepted/rejected
+candidates:
+- id: '2409.14124'
+  title: 'Correlation Function of Self-Conjugate Partitions: $q$-Difference Equation
+    and Quasimodularity'
+  year: 2024
+  score: 13
+  evidence:
+    authors:
+    - Zhiyong Wang
+    - Chenglang Yang
+    coauthor_extended:
+    - Zhiyong Wang
+    year_in_period: 2018-2023
+    math_venue: arxiv (cornell university)
+  doi: 10.48550/arxiv.2409.14124
+  venue: null

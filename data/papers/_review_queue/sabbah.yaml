@@ -1,0 +1,318 @@
+slug: sabbah
+count: 24
+note: 需要人工核对的候选论文。score 在 10-19 之间。要么补 ORCID 进 identity_profile, 要么明确标 accepted/rejected
+candidates:
+- id: doi:10.1051/978-2-7598-0268-5
+  title: Déformations isomonodromiques et variétés de Frobenius
+  year: 2002
+  score: 11
+  evidence:
+    authors:
+    - Claude Sabbah
+    year_in_period: ~1980-present
+    keywords:
+    - frobenius
+    - isomonodromy
+  doi: 10.1051/978-2-7598-0268-5
+  venue: null
+- id: doi:10.5802/aif.1974
+  title: Gauss-Manin systems, Brieskorn lattices and Frobenius structures (I)
+  year: 2003
+  score: 11
+  evidence:
+    authors:
+    - Antoine Douai
+    - Claude Sabbah
+    year_in_period: ~1980-present
+    keywords:
+    - frobenius
+    math_venue: annales de l’institut fourier
+  doi: 10.5802/aif.1974
+  venue: Annales de l’institut Fourier
+- id: doi:10.1007/978-1-84800-054-4
+  title: 'Isomonodromic Deformations and Frobenius Manifolds: An Introduction'
+  year: 2007
+  score: 11
+  evidence:
+    authors:
+    - Claude Sabbah
+    year_in_period: ~1980-present
+    keywords:
+    - frobenius
+    - isomonodromy
+  doi: 10.1007/978-1-84800-054-4
+  venue: null
+- id: '1406.1339'
+  title: ON THE IRREGULAR HODGE FILTRATION OF EXPONENTIALLY TWISTED MIXED HODGE MODULES
+  year: 2015
+  score: 11
+  evidence:
+    authors:
+    - Claude Sabbah
+    - Jeng-Daw Yu
+    year_in_period: ~1980-present
+    keywords:
+    - modules
+    math_venue: forum of mathematics sigma
+  doi: 10.1017/fms.2015.8
+  venue: Forum of Mathematics Sigma
+- id: doi:10.1215/s0012-7094-90-06030-2
+  title: Modules d’Alexander et 𝒟-modules
+  year: 1990
+  score: 11
+  evidence:
+    authors:
+    - Claude Sabbah
+    year_in_period: ~1980-present
+    keywords:
+    - modules
+    math_venue: duke mathematical journal
+  doi: 10.1215/s0012-7094-90-06030-2
+  venue: Duke Mathematical Journal
+- id: '1804.00426'
+  title: Some properties and applications of Brieskorn lattices
+  year: 2018
+  score: 25
+  evidence:
+    authors:
+    - Claude Sabbah
+    affiliation_match:
+    - école polytechnique
+    year_in_period: ~1980-present
+  doi: 10.5427/jsing.2018.18k
+  venue: Journal of Singularities
+- id: '1405.5310'
+  title: The local Laplace transform of an elementary irregular meromorphic connection
+  year: 2015
+  score: 25
+  evidence:
+    authors:
+    - Marco Hien
+    - Claude Sabbah
+    affiliation_match:
+    - école polytechnique
+    year_in_period: ~1980-present
+  doi: 10.4171/rsmup/134-4
+  venue: null
+- id: doi:10.48550/arxiv.math/0503038
+  title: Polarizable twistor D-modules
+  year: 2005
+  score: 14
+  evidence:
+    authors:
+    - Claude Sabbah
+    year_in_period: ~1980-present
+    keywords:
+    - modules
+    - twistor
+    math_venue: arxiv (cornell university)
+  doi: 10.48550/arxiv.math/0503038
+  venue: null
+- id: '0803.0287'
+  title: Wild twistor D-modules
+  year: 2008
+  score: 14
+  evidence:
+    authors:
+    - Claude Sabbah
+    year_in_period: ~1980-present
+    keywords:
+    - modules
+    - twistor
+    math_venue: arxiv (cornell university)
+  doi: 10.48550/arxiv.0803.0287
+  venue: null
+- id: doi:10.48550/arxiv.math/9805086
+  title: Semicontinuity of the spectrum at infinity
+  year: 1998
+  score: 25
+  evidence:
+    authors:
+    - András Némethi
+    - Claude Sabbah
+    affiliation_match:
+    - école polytechnique
+    year_in_period: ~1980-present
+  doi: 10.48550/arxiv.math/9805086
+  venue: null
+- id: doi:10.1007/978-1-84800-054-4_5
+  title: The Riemann-Hilbert problem and Birkhoff’s problem
+  year: 2007
+  score: 25
+  evidence:
+    authors:
+    - Claude Sabbah
+    affiliation_match:
+    - école polytechnique
+    year_in_period: ~1980-present
+  doi: 10.1007/978-1-84800-054-4_5
+  venue: Universitext
+- id: doi:10.48550/arxiv.alg-geom/9503021
+  title: Moduli of pre-$\cal D$-modules, perverse sheaves and the Riemann-Hilbert
+    morphism -I
+  year: 1995
+  score: 11
+  evidence:
+    authors:
+    - Nitin Nitsure
+    - Claude Sabbah
+    year_in_period: ~1980-present
+    keywords:
+    - modules
+    math_venue: arxiv (cornell university)
+  doi: 10.48550/arxiv.alg-geom/9503021
+  venue: null
+- id: doi:10.1007/978-1-84800-054-4_7
+  title: Integrable deformations of bundles with connection on the Riemann sphere
+  year: 2007
+  score: 25
+  evidence:
+    authors:
+    - Claude Sabbah
+    affiliation_match:
+    - école polytechnique
+    year_in_period: ~1980-present
+  doi: 10.1007/978-1-84800-054-4_7
+  venue: Universitext
+- id: doi:10.4213/im8308
+  title: Дифференциальные системы чисто гауссова типа
+  year: 2016
+  score: 25
+  evidence:
+    authors:
+    - Claude Sabbah
+    affiliation_match:
+    - école polytechnique
+    year_in_period: ~1980-present
+  doi: 10.4213/im8308
+  venue: Известия Российской академии наук Серия математическая
+- id: '0912.2754'
+  title: Fourier-Laplace transform of flat unitary connections and TERP structures
+  year: 2009
+  score: 13
+  evidence:
+    authors:
+    - Claus Hertling
+    - Claude Sabbah
+    coauthor_extended:
+    - Claus Hertling
+    year_in_period: ~1980-present
+    math_venue: arxiv (cornell university)
+  doi: null
+  venue: arXiv (Cornell University)
+- id: doi:10.1007/978-1-84800-054-4_4
+  title: Lattices
+  year: 2007
+  score: 25
+  evidence:
+    authors:
+    - Claude Sabbah
+    affiliation_match:
+    - école polytechnique
+    year_in_period: ~1980-present
+  doi: 10.1007/978-1-84800-054-4_4
+  venue: Universitext
+- id: doi:10.48550/arxiv.1705.07610
+  title: Topological computation of some Stokes phenomena on the affine line
+  year: 2017
+  score: 14
+  evidence:
+    authors:
+    - Claude Sabbah
+    - Andrea D’Agnolo
+    - Marco Hien
+    - Giovanni Morando
+    year_in_period: ~1980-present
+    keywords:
+    - phenomenon
+    - stokes
+    math_venue: hal (le centre pour la communication scientifique directe)
+  doi: 10.48550/arxiv.1705.07610
+  venue: null
+- id: openalex:W4302889392
+  title: POLARIZABLE TWISTOR D-MODULES
+  year: 2005
+  score: 11
+  evidence:
+    authors:
+    - Claude Sabbah
+    year_in_period: ~1980-present
+    keywords:
+    - modules
+    - twistor
+  doi: null
+  venue: null
+- id: doi:10.24033/ast.688
+  title: Polarizable twistor $\mathcal D$-modules
+  year: 2018
+  score: 11
+  evidence:
+    authors:
+    - Claude Sabbah
+    year_in_period: ~1980-present
+    keywords:
+    - modules
+    - twistor
+  doi: 10.24033/ast.688
+  venue: Astérisque
+- id: '2505.07334'
+  title: Three results on holonomic D-modules
+  year: 2025
+  score: 11
+  evidence:
+    authors:
+    - Claude Sabbah
+    year_in_period: ~1980-present
+    keywords:
+    - modules
+    math_venue: arxiv (cornell university)
+  doi: 10.48550/arxiv.2505.07334
+  venue: null
+- id: doi:10.1007/978-1-84800-054-4_3
+  title: The Riemann-Hilbert correspondence on a Riemann surface
+  year: 2007
+  score: 25
+  evidence:
+    authors:
+    - Claude Sabbah
+    affiliation_match:
+    - école polytechnique
+    year_in_period: ~1980-present
+  doi: 10.1007/978-1-84800-054-4_3
+  venue: Universitext
+- id: doi:10.1007/978-1-84800-054-4_2
+  title: Holomorphic vector bundles on the Riemann sphere
+  year: 2007
+  score: 25
+  evidence:
+    authors:
+    - Claude Sabbah
+    affiliation_match:
+    - école polytechnique
+    year_in_period: ~1980-present
+  doi: 10.1007/978-1-84800-054-4_2
+  venue: Universitext
+- id: doi:10.1007/978-1-84800-054-4_1
+  title: The language of fibre bundles
+  year: 2007
+  score: 25
+  evidence:
+    authors:
+    - Claude Sabbah
+    affiliation_match:
+    - école polytechnique
+    year_in_period: ~1980-present
+  doi: 10.1007/978-1-84800-054-4_1
+  venue: Universitext
+- id: doi:10.1007/978-1-84800-054-4_6
+  title: Fourier-Laplace duality
+  year: 2007
+  score: 25
+  evidence:
+    authors:
+    - Claude Sabbah
+    affiliation_match:
+    - école polytechnique
+    year_in_period: ~1980-present
+  doi: 10.1007/978-1-84800-054-4_6
+  venue: Universitext

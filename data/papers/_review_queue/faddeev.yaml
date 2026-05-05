@@ -1,0 +1,130 @@
+slug: faddeev
+count: 9
+note: 需要人工核对的候选论文。score 在 10-19 之间。要么补 ORCID 进 identity_profile, 要么明确标 accepted/rejected
+candidates:
+- id: doi:10.1103/physrevlett.82.1624
+  title: Partially Dual Variables in SU(2) Yang-Mills Theory
+  year: 1999
+  score: 25
+  evidence:
+    authors:
+    - Ludvig Faddeev
+    - Antti J. Niemi
+    affiliation_match:
+    - steklov mathematical institute
+    - helsinki institute of physics
+    year_in_period: 1959-2017
+  doi: 10.1103/physrevlett.82.1624
+  venue: Physical Review Letters
+- id: doi:10.1103/physrevb.65.100512
+  title: Hidden symmetry and knot solitons in a charged two-condensate Bose system
+  year: 2002
+  score: 25
+  evidence:
+    authors:
+    - Egor Babaev
+    - Ludvig Faddeev
+    - Antti J. Niemi
+    affiliation_match:
+    - steklov mathematical institute
+    year_in_period: 1959-2017
+  doi: 10.1103/physrevb.65.100512
+  venue: Physical review. B, Condensed matter
+- id: doi:10.1016/s0370-2693(01)01432-0
+  title: Aspects of electric and magnetic variables in SU(2) Yang–Mills theory
+  year: 2002
+  score: 25
+  evidence:
+    authors:
+    - Ludvig Faddeev
+    - Antti J. Niemi
+    affiliation_match:
+    - steklov mathematical institute
+    year_in_period: 1959-2017
+  doi: 10.1016/s0370-2693(01)01432-0
+  venue: Physics Letters B
+- id: doi:10.1016/j.nuclphysb.2006.12.011
+  title: Spin-charge separation, conformal covariance and the <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"
+    altimg="si1.gif" overflow="scroll"><mml:mi mathvariant="italic">SU</mml:mi><mml:mo
+    stretchy="false">(</mml:mo><mml:mn>2</mml:mn><mml:mo stretchy="false">)</mml:mo></mml:math>
+    Yang–Mills theory
+  year: 2006
+  score: 25
+  evidence:
+    authors:
+    - Ludvig Faddeev
+    - Antti J. Niemi
+    affiliation_match:
+    - steklov mathematical institute
+    year_in_period: 1959-2017
+  doi: 10.1016/j.nuclphysb.2006.12.011
+  venue: Nuclear Physics B
+- id: doi:10.1103/physrevd.70.114033
+  title: Glueballs, closed fluxtubes, and<mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"
+    display="inline"><mml:mi>η</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mn>1440</mml:mn><mml:mo
+    stretchy="false">)</mml:mo></mml:math>
+  year: 2004
+  score: 25
+  evidence:
+    authors:
+    - Ludvig Faddeev
+    - Antti J. Niemi
+    - U. Wiedner
+    affiliation_match:
+    - steklov mathematical institute
+    year_in_period: 1959-2017
+  doi: 10.1103/physrevd.70.114033
+  venue: Physical review. D. Particles, fields, gravitation, and cosmology/Physical
+    review. D, Particles, fields, gravitation, and cosmology
+- id: doi:10.1142/s0217751x10049074
+  title: FADDEEV–POPOV GHOSTS
+  year: 2010
+  score: 25
+  evidence:
+    authors:
+    - Ludvig Faddeev
+    affiliation_match:
+    - steklov mathematical institute
+    year_in_period: 1959-2017
+  doi: 10.1142/s0217751x10049074
+  venue: International Journal of Modern Physics A
+- id: doi:10.1142/9789812815453_0016
+  title: A Mathematician's View of the Development of Physics
+  year: 1995
+  score: 14
+  evidence:
+    authors:
+    - Ludvig Faddeev
+    year_in_period: 1959-2017
+    keywords:
+    - mathematical
+    - physics
+    math_venue: world scientific series in 20th century mathematics
+  doi: 10.1142/9789812815453_0016
+  venue: World scientific series in 20th century mathematics
+- id: doi:10.48550/arxiv.math/9912078
+  title: Modular Double of Quantum Group
+  year: 1999
+  score: 11
+  evidence:
+    authors:
+    - Ludvig Faddeev
+    year_in_period: 1959-2017
+    keywords:
+    - quantum
+    math_venue: arxiv.org
+  doi: 10.48550/arxiv.math/9912078
+  venue: null
+- id: doi:10.1007/978-3-642-76709-8_7
+  title: A Mathematician’s View of the Development of Physics
+  year: 1991
+  score: 11
+  evidence:
+    authors:
+    - Ludvig Faddeev
+    year_in_period: 1959-2017
+    keywords:
+    - mathematical
+    - physics
+  doi: 10.1007/978-3-642-76709-8_7
+  venue: null

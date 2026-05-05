@@ -38,20 +38,7 @@ identity_profile:
   email_domains: [tsinghua.edu.cn]
   coauthor_circle_core_slugs: [chan-kwokwai, si-li]
   coauthor_circle_core_names: ['Kwokwai Chan', 'Si Li']
-  research_keywords:
-    - 'algebra'
-    - 'correspondence'
-    - 'forms'
-    - 'frobenius'
-    - 'ginzburg'
-    - 'hodge'
-    - 'landau'
-    - 'manifold'
-    - 'mirror'
-    - 'model'
-    - 'primitive'
-    - 'symmetry'
-    - 'theory'
+  research_keywords: [correspondence, frobenius, ginzburg, landau, mirror, primitive, symmetry]
   known_arxiv_ids: [2603.02953, 2412.18325, 2410.22665, 2312.04239, 1903.02713, 1707.07183]
 advisor: si-li
 students: []

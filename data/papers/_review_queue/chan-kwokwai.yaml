@@ -1,0 +1,280 @@
+slug: chan-kwokwai
+count: 18
+note: 需要人工核对的候选论文。score 在 10-19 之间。要么补 ORCID 进 identity_profile, 要么明确标 accepted/rejected
+candidates:
+- id: '1305.0968'
+  title: Lagrangian Torus Fibrations and Homological Mirror Symmetry for the Conifold
+  year: 2015
+  score: 17
+  evidence:
+    authors:
+    - Kwokwai Chan
+    - Daniel Pomerleano
+    - Kazushi Ueda
+    year_in_period: 2011-08 — 2017-07
+    keywords:
+    - homological
+    - mirror
+    - symmetry
+    math_venue: communications in mathematical physics
+  doi: 10.1007/s00220-015-2477-7
+  venue: Communications in Mathematical Physics
+- id: '1210.0652'
+  title: Dual torus fibrations and homological mirror symmetry for $A_n$-singularities
+  year: 2013
+  score: 17
+  evidence:
+    authors:
+    - Kwokwai Chan
+    - Kazushi Ueda
+    year_in_period: 2010-08 — 2011-07
+    keywords:
+    - homological
+    - mirror
+    - symmetry
+    math_venue: communications in number theory and physics
+  doi: 10.4310/cntp.2013.v7.n2.a5
+  venue: Communications in Number Theory and Physics
+- id: openalex:W3104871714
+  title: A formula equating open and closed Gromov–Witten invariants and its applications
+    to mirror symmetry
+  year: 2016
+  score: 17
+  evidence:
+    authors:
+    - Kwokwai Chan
+    - Kwokwai Chan
+    year_in_period: 2011-08 — 2017-07
+    keywords:
+    - gromov
+    - mirror
+    - symmetry
+    - witten
+  doi: null
+  venue: null
+- id: '1112.0844'
+  title: Homological mirror symmetry for <i>A</i> <sub> <i>n</i> </sub>-resolutions
+    as a <i>T</i>-duality
+  year: 2012
+  score: 17
+  evidence:
+    authors:
+    - Kwokwai Chan
+    year_in_period: 2008-08 — 2010-07
+    keywords:
+    - homological
+    - mirror
+    - symmetry
+    math_venue: journal of the london mathematical society
+  doi: 10.1112/jlms/jds048
+  venue: Journal of the London Mathematical Society
+- id: '2004.00523'
+  title: Tropical Lagrangian multi-sections and smoothing of locally free sheaves
+    over degenerate Calabi-Yau surfaces
+  year: 2022
+  score: 11
+  evidence:
+    authors:
+    - Kwokwai Chan
+    - Ziming Nikolas
+    - Yat-Hin Suen
+    year_in_period: 2017-08 — 2023-07
+    keywords:
+    - calabi
+    math_venue: advances in mathematics
+  doi: 10.1016/j.aim.2022.108280
+  venue: Advances in Mathematics
+- id: '1910.08256'
+  title: Smoothing Pairs Over Degenerate Calabi–Yau Varieties
+  year: 2020
+  score: 11
+  evidence:
+    authors:
+    - Kwokwai Chan
+    - Ziming Nikolas
+    year_in_period: 2017-08 — 2023-07
+    keywords:
+    - calabi
+    math_venue: international mathematics research notices
+  doi: 10.1093/imrn/rnaa212
+  venue: International Mathematics Research Notices
+- id: '1808.07305'
+  title: Geometric quantization via SYZ transforms
+  year: 2020
+  score: 11
+  evidence:
+    authors:
+    - Kwokwai Chan
+    - Yat-Hin Suen
+    year_in_period: 2017-08 — 2023-07
+    keywords:
+    - quantization
+    math_venue: advances in theoretical and mathematical physics
+  doi: 10.4310/atmp.2020.v24.n1.a2
+  venue: Advances in Theoretical and Mathematical Physics
+- id: '1006.3827'
+  title: MIRROR SYMMETRY FOR A CLASS OF TORIC NEF MANIFOLDS
+  year: 2010
+  score: 14
+  evidence:
+    authors:
+    - Kwokwai Chan
+    year_in_period: 2004-2008
+    keywords:
+    - mirror
+    - symmetry
+    math_venue: arxiv (cornell university)
+  doi: null
+  venue: arXiv (Cornell University)
+- id: '1602.07075'
+  title: Lagrangian sections on mirrors of toric Calabi-Yau 3-folds
+  year: 2016
+  score: 14
+  evidence:
+    authors:
+    - Kwokwai Chan
+    - Daniel Pomerleano
+    - Kazushi Ueda
+    year_in_period: 2011-08 — 2017-07
+    keywords:
+    - calabi
+    - mirror
+    math_venue: arxiv (cornell university)
+  doi: 10.48550/arxiv.1602.07075
+  venue: null
+- id: '1412.7231'
+  title: SYZ mirror symmetry for toric varieties
+  year: 2014
+  score: 14
+  evidence:
+    authors:
+    - Kwokwai Chan
+    year_in_period: 2011-08 — 2017-07
+    keywords:
+    - mirror
+    - symmetry
+    math_venue: arxiv (cornell university)
+  doi: 10.48550/arxiv.1412.7231
+  venue: null
+- id: '1406.6753'
+  title: A Chern-Weil approach to deformations of pairs and its applications
+  year: 2014
+  score: 11
+  evidence:
+    authors:
+    - Kwokwai Chan
+    - Yat-Hin Suen
+    year_in_period: 2011-08 — 2017-07
+    keywords:
+    - deformation
+    math_venue: arxiv (cornell university)
+  doi: null
+  venue: null
+- id: '1704.01730'
+  title: Quasimap SYZ for toric Calabi-Yau manifolds
+  year: 2017
+  score: 11
+  evidence:
+    authors:
+    - Kwokwai Chan
+    year_in_period: 2011-08 — 2017-07
+    keywords:
+    - calabi
+    math_venue: arxiv (cornell university)
+  doi: 10.48550/arxiv.1704.01730
+  venue: null
+- id: '1406.6753'
+  title: Deformations of pairs -- a Chern-Weil approach
+  year: 2014
+  score: 11
+  evidence:
+    authors:
+    - Kwokwai Chan
+    - Yat-Hin Suen
+    year_in_period: 2011-08 — 2017-07
+    keywords:
+    - deformation
+    math_venue: arxiv (cornell university)
+  doi: null
+  venue: arXiv (Cornell University)
+- id: '2205.01394'
+  title: From deformation theory to tropical geometry
+  year: 2022
+  score: 11
+  evidence:
+    authors:
+    - Kwokwai Chan
+    year_in_period: 2017-08 — 2023-07
+    keywords:
+    - deformation
+    math_venue: arxiv (cornell university)
+  doi: 10.48550/arxiv.2205.01394
+  venue: null
+- id: '2312.04239'
+  title: A perturbative construction of primitive forms from log Landau-Ginzburg mirrors
+    of toric manifolds
+  year: 2026
+  score: 16
+  evidence:
+    authors:
+    - Kwokwai Chan
+    - Ziming Nikolas
+    - Hao Wen
+    coauthor_extended:
+    - Hao Wen
+    year_in_period: 2023-08 — present
+    keywords:
+    - mirror
+    math_venue: advances in mathematics
+  doi: 10.1016/j.aim.2026.110867
+  venue: null
+- id: '2505.23340'
+  title: Quantum cohomology, shift operators, and Coulomb branches
+  year: 2025
+  score: 11
+  evidence:
+    authors:
+    - Ki Fung Chan
+    - Kwokwai Chan
+    - Chi-Hang Lam
+    year_in_period: 2017-08 — 2023-07
+    keywords:
+    - homological
+    math_venue: arxiv.org
+  doi: 10.48550/arxiv.2505.23340
+  venue: null
+- id: '2601.19691'
+  title: Iwahori-Coulomb branches, stable envelopes, and quantum cohomology of cotangent
+    bundles of flag varieties
+  year: 2026
+  score: 11
+  evidence:
+    authors:
+    - Ki Fung Chan
+    - Kwokwai Chan
+    - Chi Hong Chow
+    - Chi-Hang Lam
+    year_in_period: 2023-08 — present
+    keywords:
+    - homological
+    math_venue: arxiv.org
+  doi: null
+  venue: ArXiv.org
+- id: doi:10.1016/j.aim.2026.110867
+  title: A perturbative construction of primitive forms from log Landau-Ginzburg mirrors
+    of toric manifolds
+  year: 2026
+  score: 16
+  evidence:
+    authors:
+    - Kwokwai Chan
+    - Ziming Nikolas Ma
+    - Hao Wen
+    coauthor_extended:
+    - Hao Wen
+    year_in_period: 2023-08 — present
+    keywords:
+    - mirror
+    math_venue: advances in mathematics
+  doi: 10.1016/j.aim.2026.110867
+  venue: Advances in Mathematics

@@ -1,0 +1,711 @@
+slug: ruan-yongbin
+count: 46
+note: 需要人工核对的候选论文。score 在 10-19 之间。要么补 ORCID 进 identity_profile, 要么明确标 accepted/rejected
+candidates:
+- id: doi:10.1007/bf01896262
+  title: Symplectic topology and extremal rays
+  year: 1993
+  score: 25
+  evidence:
+    authors:
+    - Yongbin Ruan
+    affiliation_match:
+    - michigan state university
+    year_in_period: 1985-1991
+  doi: 10.1007/bf01896262
+  venue: Geometric and Functional Analysis
+- id: doi:10.4310/jsg.2004.v2.n1.a1
+  title: Discrete Torsion and Twisted Orbifold Cohomology
+  year: 2004
+  score: 14
+  evidence:
+    authors:
+    - Yongbin Ruan
+    year_in_period: 1996-2005
+    keywords:
+    - cohomology
+    - orbifold
+    math_venue: journal of symplectic geometry
+  doi: 10.4310/jsg.2004.v2.n1.a1
+  venue: Journal of Symplectic Geometry
+- id: '1804.06552'
+  title: The level structure in quantum K-theory andmock theta functions
+  year: 2026
+  score: 11
+  evidence:
+    authors:
+    - Yongbin Ruan
+    - Ming Zhang
+    - Yaoxiong Wen
+    year_in_period: 2019.7-present
+    keywords:
+    - quantum
+    math_venue: geometry & topology
+  doi: 10.2140/gt.2026.30.835
+  venue: null
+- id: doi:10.1016/j.aim.2022.108770
+  title: Quantum K-theory of toric varieties, level structures, and 3d mirror symmetry
+  year: 2022
+  score: 17
+  evidence:
+    authors:
+    - Yongbin Ruan
+    - Yaoxiong Wen
+    - Zijun Zhou
+    year_in_period: 2005-2020
+    keywords:
+    - mirror
+    - quantum
+    - symmetry
+    math_venue: advances in mathematics
+  doi: 10.1016/j.aim.2022.108770
+  venue: Advances in Mathematics
+- id: doi:10.4310/cag.2000.v8.n3.a2
+  title: Seiberg–Witten invariants and double covers of 4-manifolds
+  year: 2000
+  score: 11
+  evidence:
+    authors:
+    - Yongbin Ruan
+    - Shuguang Wang
+    year_in_period: 1996-2005
+    keywords:
+    - witten
+    math_venue: communications in analysis and geometry
+  doi: 10.4310/cag.2000.v8.n3.a2
+  venue: Communications in Analysis and Geometry
+- id: doi:10.1090/memo/1310
+  title: Gromov-Witten Theory of Quotients of Fermat Calabi-Yau varieties
+  year: 2021
+  score: 14
+  evidence:
+    authors:
+    - Hiroshi Iritani
+    - Todor Milanov
+    - Yongbin Ruan
+    - Yefeng Shen
+    year_in_period: 2005-2020
+    keywords:
+    - gromov
+    - witten
+    math_venue: memoirs of the american mathematical society
+  doi: 10.1090/memo/1310
+  venue: Memoirs of the American Mathematical Society
+- id: doi:10.1007/s11425-023-2264-1
+  title: Mirror symmetry for special nilpotent orbit closures
+  year: 2024
+  score: 14
+  evidence:
+    authors:
+    - Baohua Fu
+    - Yongbin Ruan
+    - Yaoxiong Wen
+    year_in_period: 2019.7-present
+    keywords:
+    - mirror
+    - symmetry
+    math_venue: science china mathematics
+  doi: 10.1007/s11425-023-2264-1
+  venue: Science China Mathematics
+- id: doi:10.1142/9789814350112_0010
+  title: SYMPLECTIC TOPOLOGY AND COMPLEX SURFACES
+  year: 1994
+  score: 25
+  evidence:
+    authors:
+    - Yongbin Ruan
+    affiliation_match:
+    - university of utah
+    year_in_period: 1991-1993
+  doi: 10.1142/9789814350112_0010
+  venue: WORLD SCIENTIFIC eBooks
+- id: openalex:W2605127428
+  title: Enumeration of nodal genus-2 plane curves with fixed complex structure
+  year: 1998
+  score: 25
+  evidence:
+    authors:
+    - Sheldon Katz
+    - Zhenbo Qin
+    - Yongbin Ruan
+    affiliation_match:
+    - oklahoma state university oklahoma city
+    - oklahoma state university oklahoma city
+    - university of wisconsin–madison
+    year_in_period: 1993-1996
+  doi: null
+  venue: null
+- id: doi:10.1090/conm/310/05398
+  title: Orbifold Gromov-Witten theory
+  year: 2002
+  score: 17
+  evidence:
+    authors:
+    - Chen Weimin
+    - Yongbin Ruan
+    year_in_period: 1996-2005
+    keywords:
+    - gromov
+    - orbifold
+    - witten
+    math_venue: contemporary mathematics - american mathematical society
+  doi: 10.1090/conm/310/05398
+  venue: null
+- id: '0712.4025'
+  title: The Witten equation and its virtual fundamental cycle
+  year: 2007
+  score: 16
+  evidence:
+    authors:
+    - Huijun Fan
+    - Tyler J. Jarvis
+    - Yongbin Ruan
+    coauthor_extended:
+    - Huijun Fan
+    year_in_period: 1996-2005
+    keywords:
+    - witten
+    math_venue: arxiv (cornell university)
+  doi: 10.48550/arxiv.0712.4025
+  venue: null
+- id: doi:10.1090/conm/403/07597
+  title: The cohomology ring of crepant resolutions of orbifolds
+  year: 2006
+  score: 14
+  evidence:
+    authors:
+    - Yongbin Ruan
+    year_in_period: 1996-2005
+    keywords:
+    - cohomology
+    - orbifold
+    math_venue: contemporary mathematics - american mathematical society
+  doi: 10.1090/conm/403/07597
+  venue: Contemporary mathematics - American Mathematical Society
+- id: '0710.5901'
+  title: 'Quantum Cohomology and Crepant Resolutions: A Conjecture'
+  year: 2007
+  score: 14
+  evidence:
+    authors:
+    - Tom Coates
+    - Yongbin Ruan
+    year_in_period: 1996-2005
+    keywords:
+    - cohomology
+    - quantum
+    math_venue: arxiv.org
+  doi: 10.48550/arxiv.0710.5901
+  venue: null
+- id: doi:10.48550/arxiv.math/0005198
+  title: Orbifold Quantum Cohomology
+  year: 2000
+  score: 17
+  evidence:
+    authors:
+    - Weimin Chen Chen
+    - Yongbin Ruan
+    year_in_period: 1996-2005
+    keywords:
+    - cohomology
+    - orbifold
+    - quantum
+    math_venue: arxiv.org
+  doi: 10.48550/arxiv.math/0005198
+  venue: null
+- id: doi:10.48550/arxiv.math/0108195
+  title: Cohomology ring of crepant resolutions of orbifolds
+  year: 2001
+  score: 14
+  evidence:
+    authors:
+    - Yongbin Ruan
+    year_in_period: 1996-2005
+    keywords:
+    - cohomology
+    - orbifold
+    math_venue: arxiv.org
+  doi: 10.48550/arxiv.math/0108195
+  venue: null
+- id: doi:10.48550/arxiv.math/9803036
+  title: Symplectic surgery and Gromov-Witten invariants of Calabi-Yau 3-folds I
+  year: 1998
+  score: 14
+  evidence:
+    authors:
+    - An-Min Li
+    - Yongbin Ruan
+    year_in_period: 1993-1996
+    keywords:
+    - gromov
+    - witten
+    math_venue: arxiv.org
+  doi: 10.48550/arxiv.math/9803036
+  venue: null
+- id: doi:10.48550/arxiv.math/0605534
+  title: A Stringy Product on Twisted Orbifold K-theory
+  year: 2006
+  score: 16
+  evidence:
+    authors:
+    - Alejandro Ádem
+    - Yongbin Ruan
+    - Bin Zhang
+    coauthor_extended:
+    - Bin Zhang
+    year_in_period: 1996-2005
+    keywords:
+    - orbifold
+    math_venue: arxiv.org
+  doi: 10.48550/arxiv.math/0605534
+  venue: null
+- id: doi:10.1090/conm/310/05408
+  title: Stringy orbifolds
+  year: 2002
+  score: 11
+  evidence:
+    authors:
+    - Yongbin Ruan
+    year_in_period: 1996-2005
+    keywords:
+    - orbifold
+    math_venue: contemporary mathematics - american mathematical society
+  doi: 10.1090/conm/310/05408
+  venue: null
+- id: '1812.11908'
+  title: Structure of Higher Genus Gromov-Witten Invariants of Quintic 3-folds
+  year: 2018
+  score: 19
+  evidence:
+    authors:
+    - Shuai Guo
+    - Felix Janda
+    - Yongbin Ruan
+    coauthor_extended:
+    - Shuai Guo
+    year_in_period: 2005-2020
+    keywords:
+    - gromov
+    - witten
+    math_venue: arxiv (cornell university)
+  doi: 10.48550/arxiv.1812.11908
+  venue: null
+- id: doi:10.48550/arxiv.math/9607223
+  title: Quantum cohomology of projective bundles over P^n
+  year: 1996
+  score: 14
+  evidence:
+    authors:
+    - Zhenbo Qin
+    - Yongbin Ruan
+    year_in_period: 1993-1996
+    keywords:
+    - cohomology
+    - quantum
+    math_venue: arxiv.org
+  doi: 10.48550/arxiv.math/9607223
+  venue: null
+- id: doi:10.48550/arxiv.math/0011149
+  title: Stringy Geometry and Topology of Orbifolds
+  year: 2000
+  score: 11
+  evidence:
+    authors:
+    - Yongbin Ruan
+    year_in_period: 1996-2005
+    keywords:
+    - orbifold
+    math_venue: arxiv (cornell university)
+  doi: 10.48550/arxiv.math/0011149
+  venue: null
+- id: doi:10.1090/pspum/085/1380
+  title: The Witten equation and the geometry of the Landau-Ginzburg model
+  year: 2012
+  score: 11
+  evidence:
+    authors:
+    - Yongbin Ruan
+    year_in_period: 2005-2020
+    keywords:
+    - witten
+    math_venue: proceedings of symposia in pure mathematics
+  doi: 10.1090/pspum/085/1380
+  venue: null
+- id: '1008.0927'
+  title: Witten's D_4 Integrable Hierarchies Conjecture
+  year: 2010
+  score: 16
+  evidence:
+    authors:
+    - Huijun Fan
+    - Amanda Francis
+    - Tyler J. Jarvis
+    - Evan Merrell
+    - Yongbin Ruan
+    coauthor_extended:
+    - Huijun Fan
+    year_in_period: 2005-2020
+    keywords:
+    - witten
+    math_venue: arxiv (cornell university)
+  doi: 10.48550/arxiv.1008.0927
+  venue: null
+- id: '1605.08885'
+  title: Gromov-Witten Theory of Quotient of Fermat Calabi-Yau varieties
+  year: 2016
+  score: 14
+  evidence:
+    authors:
+    - Hiroshi Iritani
+    - Todor Milanov
+    - Yongbin Ruan
+    - Yefeng Shen
+    year_in_period: 2005-2020
+    keywords:
+    - gromov
+    - witten
+    math_venue: arxiv (cornell university)
+  doi: 10.48550/arxiv.1605.08885
+  venue: null
+- id: '1206.3879'
+  title: Gromov-Witten theory and cycle-valued modular forms
+  year: 2012
+  score: 17
+  evidence:
+    authors:
+    - Todor Milanov
+    - Yongbin Ruan
+    - Yefeng Shen
+    year_in_period: 2005-2020
+    keywords:
+    - gromov
+    - moduli
+    - witten
+    math_venue: arxiv (cornell university)
+  doi: 10.48550/arxiv.1206.3879
+  venue: null
+- id: '2011.07519'
+  title: Quantum $K$-theory of toric varieties, level structures, and 3d mirror symmetry
+  year: 2020
+  score: 17
+  evidence:
+    authors:
+    - Yongbin Ruan
+    - Yaoxiong Wen
+    - Zijun Zhou
+    year_in_period: 2005-2020
+    keywords:
+    - mirror
+    - quantum
+    - symmetry
+    math_venue: arxiv (cornell university)
+  doi: 10.48550/arxiv.2011.07519
+  venue: null
+- id: '2210.13411'
+  title: Castelnuovo bound and higher genus Gromov-Witten invariants of quintic 3-folds
+  year: 2022
+  score: 14
+  evidence:
+    authors:
+    - Zhiyu Liu
+    - Yongbin Ruan
+    year_in_period: 2005-2020
+    keywords:
+    - gromov
+    - witten
+    math_venue: arxiv (cornell university)
+  doi: 10.48550/arxiv.2210.13411
+  venue: null
+- id: '1307.0939'
+  title: A global mirror symmetry framework for the Landau-Ginzburg/Calabi-Yau correspondence
+  year: 2013
+  score: 14
+  evidence:
+    authors:
+    - A Chiodo
+    - Yongbin Ruan
+    year_in_period: 2005-2020
+    keywords:
+    - mirror
+    - symmetry
+    math_venue: arxiv (cornell university)
+  doi: 10.48550/arxiv.1307.0939
+  venue: null
+- id: doi:10.48550/arxiv.math/0005299
+  title: Discrete torsion and twisted orbifold cohomology
+  year: 2000
+  score: 14
+  evidence:
+    authors:
+    - Yongbin Ruan
+    year_in_period: 1996-2005
+    keywords:
+    - cohomology
+    - orbifold
+    math_venue: arxiv (cornell university)
+  doi: 10.48550/arxiv.math/0005299
+  venue: null
+- id: doi:10.4171/dms/1-2/40
+  title: Quantum cohomology and its application
+  year: 1998
+  score: 11
+  evidence:
+    authors:
+    - Yongbin Ruan
+    year_in_period: 1993-1996
+    keywords:
+    - cohomology
+    - quantum
+  doi: 10.4171/dms/1-2/40
+  venue: EMS Press eBooks
+- id: doi:10.48550/arxiv.math/0103156
+  title: Orbifold Gromov-Witten Theory
+  year: 2001
+  score: 17
+  evidence:
+    authors:
+    - Chen Weimin
+    - Yongbin Ruan
+    year_in_period: 1996-2005
+    keywords:
+    - gromov
+    - orbifold
+    - witten
+    math_venue: arxiv (cornell university)
+  doi: 10.48550/arxiv.math/0103156
+  venue: null
+- id: '1911.07204'
+  title: Genus Two Quasi-Siegel Modular Forms and Gromov-Witten Theory of Toric Calabi-Yau
+    Threefolds
+  year: 2019
+  score: 17
+  evidence:
+    authors:
+    - Yongbin Ruan
+    - Yingchun Zhang
+    - Jie Zhou
+    year_in_period: 2005-2020
+    keywords:
+    - gromov
+    - moduli
+    - witten
+    math_venue: arxiv (cornell university)
+  doi: 10.48550/arxiv.1911.07204
+  venue: null
+- id: '2109.02218'
+  title: Quantum $K$-theory and $q$-Difference equations
+  year: 2021
+  score: 11
+  evidence:
+    authors:
+    - Yongbin Ruan
+    - Yaoxiong Wen
+    year_in_period: 2005-2020
+    keywords:
+    - quantum
+    math_venue: arxiv (cornell university)
+  doi: 10.48550/arxiv.2109.02218
+  venue: null
+- id: doi:10.1017/cbo9780511543081.001
+  title: Introduction
+  year: 2007
+  score: 25
+  evidence:
+    authors:
+    - Alejandro Ádem
+    - Johann Leida
+    - Yongbin Ruan
+    affiliation_match:
+    - university of wisconsin–madison
+    - university of michigan
+    year_in_period: 1996-2005
+  doi: 10.1017/cbo9780511543081.001
+  venue: Cambridge University Press eBooks
+- id: openalex:W1558111879
+  title: Compactness of A r-spin equations
+  year: 2004
+  score: 10
+  evidence:
+    authors:
+    - Huijun Fan
+    - Tyler J. Jarvis
+    - Yongbin Ruan
+    coauthor_extended:
+    - Huijun Fan
+    year_in_period: 1996-2005
+  doi: null
+  venue: null
+- id: '1012.0066'
+  title: Quantum Singularity Theory for A_{r-1} and r-Spin Theory
+  year: 2010
+  score: 16
+  evidence:
+    authors:
+    - Huijun Fan
+    - Tyler J. Jarvis
+    - Yongbin Ruan
+    coauthor_extended:
+    - Huijun Fan
+    year_in_period: 2005-2020
+    keywords:
+    - quantum
+    math_venue: arxiv (cornell university)
+  doi: 10.48550/arxiv.1012.0066
+  venue: null
+- id: doi:10.1017/cbo9780511543081.007
+  title: References
+  year: 2007
+  score: 25
+  evidence:
+    authors:
+    - Alejandro Ádem
+    - Johann Leida
+    - Yongbin Ruan
+    affiliation_match:
+    - university of wisconsin–madison
+    - university of michigan
+    year_in_period: 1996-2005
+  doi: 10.1017/cbo9780511543081.007
+  venue: Cambridge University Press eBooks
+- id: doi:10.1017/cbo9780511543081.002
+  title: Foundations
+  year: 2007
+  score: 25
+  evidence:
+    authors:
+    - Alejandro Ádem
+    - Johann Leida
+    - Yongbin Ruan
+    affiliation_match:
+    - university of wisconsin–madison
+    - university of michigan
+    year_in_period: 1996-2005
+  doi: 10.1017/cbo9780511543081.002
+  venue: Cambridge University Press eBooks
+- id: '2207.10533'
+  title: Mirror symmetry for special nilpotent orbit closures
+  year: 2022
+  score: 14
+  evidence:
+    authors:
+    - Baohua Fu
+    - Yongbin Ruan
+    - Yaoxiong Wen
+    year_in_period: 2005-2020
+    keywords:
+    - mirror
+    - symmetry
+    math_venue: arxiv (cornell university)
+  doi: 10.48550/arxiv.2207.10533
+  venue: null
+- id: '2210.04430'
+  title: 'Mirror of Orbifold Singularities in the Hitchin Fibration: the case $(\text{SL}_n,\text{PGL}_n)$'
+  year: 2022
+  score: 14
+  evidence:
+    authors:
+    - Yongbin Ruan
+    - Shu Cheng
+    year_in_period: 2005-2020
+    keywords:
+    - mirror
+    - orbifold
+    math_venue: arxiv (cornell university)
+  doi: 10.48550/arxiv.2210.04430
+  venue: null
+- id: '1412.1268'
+  title: Mirror Symmetry Constructions
+  year: 2014
+  score: 14
+  evidence:
+    authors:
+    - Emily Clader
+    - Yongbin Ruan
+    year_in_period: 2005-2020
+    keywords:
+    - mirror
+    - symmetry
+    math_venue: arxiv (cornell university)
+  doi: 10.48550/arxiv.1412.1268
+  venue: null
+- id: doi:10.48550/arxiv.math/9810039
+  title: Surgery, quantum cohomology and birational geometry
+  year: 1998
+  score: 14
+  evidence:
+    authors:
+    - Yongbin Ruan
+    year_in_period: 1993-1996
+    keywords:
+    - cohomology
+    - quantum
+    math_venue: arxiv (cornell university)
+  doi: 10.48550/arxiv.math/9810039
+  venue: null
+- id: doi:10.48550/arxiv.alg-geom/9510010
+  title: Quantum cohomology of projective bundles over $\Pee^n$
+  year: 1995
+  score: 14
+  evidence:
+    authors:
+    - Zhenbo Qin
+    - Yongbin Ruan
+    year_in_period: 1991-1993
+    keywords:
+    - cohomology
+    - quantum
+    math_venue: arxiv.org
+  doi: 10.48550/arxiv.alg-geom/9510010
+  venue: null
+- id: doi:10.48550/arxiv.math/0201123
+  title: Stringy orbifolds
+  year: 2002
+  score: 11
+  evidence:
+    authors:
+    - Yongbin Ruan
+    year_in_period: 1996-2005
+    keywords:
+    - orbifold
+    math_venue: arxiv (cornell university)
+  doi: 10.48550/arxiv.math/0201123
+  venue: null
+- id: doi:10.1016/j.aim.2024.110076
+  title: 'Mirror of orbifold singularities in the Hitchin fibration: The case (SL
+    ,PGL )'
+  year: 2024
+  score: 14
+  evidence:
+    authors:
+    - Yongbin Ruan
+    - Shu Cheng
+    year_in_period: 2019.7-present
+    keywords:
+    - mirror
+    - orbifold
+    math_venue: advances in mathematics
+  doi: 10.1016/j.aim.2024.110076
+  venue: Advances in Mathematics
+- id: openalex:W607516769
+  title: Nonlinear spectral calculus and super-expanders . K- and L-theory of group
+    rings over GL n (Z) . Landau-Ginzburg/Calabi-Yau correspondence, global mirror
+    symmetry and Orlov equivalence . On the inverse spectral problem for the quasi-periodic
+    Schrödinger equation
+  year: 2014
+  score: 11
+  evidence:
+    authors:
+    - Manor Mendel
+    - Assaf Naor
+    - Arthur Bartels
+    - A Chiodo
+    - 寛 入谷
+    - Yongbin Ruan
+    - David Damanik
+    - Michael Goldstein
+    year_in_period: 2005-2020
+    keywords:
+    - mirror
+    - symmetry
+  doi: null
+  venue: Springer eBooks

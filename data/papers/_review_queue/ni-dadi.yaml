@@ -1,0 +1,18 @@
+slug: ni-dadi
+count: 1
+note: 需要人工核对的候选论文。score 在 10-19 之间。要么补 ORCID 进 identity_profile, 要么明确标 accepted/rejected
+candidates:
+- id: '2502.08979'
+  title: Hyperkähler structures on leaves of hyper-Lie Poisson manifolds
+  year: 2026
+  score: 11
+  evidence:
+    authors:
+    - Dadi Ni
+    - Kaichuan Qi
+    year_in_period: 2023-07-present
+    keywords:
+    - poisson
+    math_venue: journal of geometry and physics
+  doi: 10.1016/j.geomphys.2026.105831
+  venue: null

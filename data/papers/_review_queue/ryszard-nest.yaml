@@ -1,0 +1,198 @@
+slug: ryszard-nest
+count: 13
+note: 需要人工核对的候选论文。score 在 10-19 之间。要么补 ORCID 进 identity_profile, 要么明确标 accepted/rejected
+candidates:
+- id: doi:10.1016/j.jfa.2009.10.015
+  title: Equivariant Poincaré duality for quantum group actions
+  year: 2009
+  score: 20
+  evidence:
+    authors:
+    - Ryszard Nest
+    - Christian Voigt
+    affiliation_match:
+    - university of copenhagen
+  doi: 10.1016/j.jfa.2009.10.015
+  venue: Journal of Functional Analysis
+- id: doi:10.4171/jncg/30
+  title: On spectral triples in quantum gravity II
+  year: 2009
+  score: 20
+  evidence:
+    authors:
+    - Johannes Aastrup
+    - Jesper Møller Grimstrup
+    - Ryszard Nest
+    affiliation_match:
+    - university of copenhagen
+  doi: 10.4171/jncg/30
+  venue: Journal of Noncommutative Geometry
+- id: doi:10.1006/jfan.1996.0053
+  title: Irreducible Inclusions of Factors, Multiplicative Unitaries, and Kac Algebras
+  year: 1996
+  score: 20
+  evidence:
+    authors:
+    - Michel Enock
+    - Ryszard Nest
+    affiliation_match:
+    - university of copenhagen
+  doi: 10.1006/jfan.1996.0053
+  venue: Journal of Functional Analysis
+- id: doi:10.1007/978-3-7643-8608-5_5
+  title: Chern Character for Twisted Complexes
+  year: 2008
+  score: 20
+  evidence:
+    authors:
+    - Paul Bressler
+    - Alexander Gorokhovsky
+    - Ryszard Nest
+    - Boris Tsygan
+    affiliation_match:
+    - university of copenhagen
+  doi: 10.1007/978-3-7643-8608-5_5
+  venue: Birkhäuser Basel eBooks
+- id: doi:10.1016/j.jfa.2005.11.017
+  title: A continuous field of <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"
+    altimg="si1.gif" overflow="scroll"><mml:msup><mml:mi>C</mml:mi><mml:mo>∗</mml:mo></mml:msup></mml:math>-algebras
+    and the tangent groupoid for manifolds with boundary
+  year: 2006
+  score: 20
+  evidence:
+    authors:
+    - Johannes Aastrup
+    - Ryszard Nest
+    - Elmar Schrohe
+    affiliation_match:
+    - university of copenhagen
+  doi: 10.1016/j.jfa.2005.11.017
+  venue: Journal of Functional Analysis
+- id: '1512.08816'
+  title: The $K$-theory of twisted multipullback quantum odd spheres and complex projective
+    spaces
+  year: 2018
+  score: 20
+  evidence:
+    authors:
+    - Piotr M. Hajac
+    - Ryszard Nest
+    - David Pask
+    - Aidan Sims
+    - Bartosz Zieliński
+    affiliation_match:
+    - university of copenhagen
+  doi: 10.4171/jncg/292
+  venue: null
+- id: doi:10.1016/0375-9601(85)90576-6
+  title: Charge band behaviour in a superconducting weak link driven by a normal Faraday
+    law voltage source
+  year: 1985
+  score: 25
+  evidence:
+    authors:
+    - H. Prance
+    - R. J. Prance
+    - Timothy P. Spiller
+    - J. E. Mutton
+    - Taylor Clark
+    - Ryszard Nest
+    affiliation_match:
+    - university of copenhagen
+    year_in_period: ~1987
+  doi: 10.1016/0375-9601(85)90576-6
+  venue: Physics Letters A
+- id: doi:10.1016/0375-9601(85)90731-5
+  title: Localisation of pair charge states in a superconducting weak link constriction
+    ring
+  year: 1985
+  score: 25
+  evidence:
+    authors:
+    - R. J. Prance
+    - T. D. Clark
+    - J. E. Mutton
+    - H. Prance
+    - Timothy P. Spiller
+    - Ryszard Nest
+    affiliation_match:
+    - university of copenhagen
+    year_in_period: ~1987
+  doi: 10.1016/0375-9601(85)90731-5
+  venue: Physics Letters A
+- id: doi:10.1016/0375-9601(86)90038-1
+  title: Quantum mechanical flux band dynamics of a superconducting weak link constriction
+    ring
+  year: 1986
+  score: 25
+  evidence:
+    authors:
+    - H. Prance
+    - Timothy P. Spiller
+    - J. E. Mutton
+    - R. J. Prance
+    - T. D. Clark
+    - Ryszard Nest
+    affiliation_match:
+    - university of copenhagen
+    year_in_period: ~1987
+  doi: 10.1016/0375-9601(86)90038-1
+  venue: Physics Letters A
+- id: doi:10.1090/conm/062/878397
+  title: On the classification of noncommutative tori. III
+  year: 1987
+  score: 11
+  evidence:
+    authors:
+    - Berndt Brenken
+    - Joachim Cuntz
+    - George A. Elliott
+    - Ryszard Nest
+    year_in_period: ~1987
+    keywords:
+    - noncommutative
+    math_venue: contemporary mathematics - american mathematical society
+  doi: 10.1090/conm/062/878397
+  venue: null
+- id: doi:10.4064/bc61-0-10
+  title: K-theory of Boutet de Monvel's algebra
+  year: 2003
+  score: 20
+  evidence:
+    authors:
+    - Severino T. Melo
+    - Ryszard Nest
+    - Elmar Schrohe
+    affiliation_match:
+    - university of copenhagen
+  doi: 10.4064/bc61-0-10
+  venue: Banach Center Publications
+- id: doi:10.1016/j.jfa.2009.04.019
+  title: Index theory for boundary value problems via continuous fields of <mml:math
+    xmlns:mml="http://www.w3.org/1998/Math/MathML" altimg="si1.gif" overflow="scroll"><mml:msup><mml:mi>C</mml:mi><mml:mo>∗</mml:mo></mml:msup></mml:math>-algebras
+  year: 2009
+  score: 20
+  evidence:
+    authors:
+    - Johannes Aastrup
+    - Ryszard Nest
+    - Elmar Schrohe
+    affiliation_match:
+    - university of copenhagen
+  doi: 10.1016/j.jfa.2009.04.019
+  venue: Journal of Functional Analysis
+- id: doi:10.4171/jncg/596
+  title: Projective representation theory for compact quantum groups and the quantum
+    Baum–Connes assembly map
+  year: 2024
+  score: 20
+  evidence:
+    authors:
+    - Kenny De Commer
+    - Rubén Martos
+    - Ryszard Nest
+    affiliation_match:
+    - university of copenhagen
+    - university of copenhagen
+  doi: 10.4171/jncg/596
+  venue: null

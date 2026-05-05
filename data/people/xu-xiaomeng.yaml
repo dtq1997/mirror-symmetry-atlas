@@ -74,7 +74,7 @@ identity_profile:
   coauthor_circle_core_names: ['Anton Alekseev', 'Honglei Lang', 'Qian Tang']
   coauthor_circle_extended_slugs: [liu-zhangju]
   coauthor_circle_extended_names: ['Zhang-Ju Liu']
-  research_keywords: [frobenius, geometry, groups, isomonodromy, manifolds, phenomenon, poisson, quantum, stokes]
+  research_keywords: [frobenius, geometry, isomonodromy, phenomenon, poisson, quantum, stokes]
   known_arxiv_ids:
     - '2512.19381'
     - '2501.17516'
@@ -143,7 +143,8 @@ publications:
     coauthors: [tang-qian]
     doi: '10.48550/arxiv.2501.17516'
     primary_category: math.CA
-    sources: [arxiv]
+    openalex_id: W4406975574
+    sources: [arxiv, openalex]
   - id: '2412.02281'
     title: 'Explicit evaluation of the $q$-Stokes matrices for certain confluent hypergeometric $q$-difference equations'
     year: 2024
@@ -165,14 +166,16 @@ publications:
     doi: '10.1007/s00220-024-05133-0'
     journal: 'Communications in Mathematical Physics'
     primary_category: math-ph
-    sources: [arxiv]
+    openalex_id: W4403708941
+    sources: [arxiv, openalex]
   - id: '2402.07269'
     title: 'The Boundary Condition for Some Isomonodromy Equations'
     year: 2024
     coauthors: [tang-qian]
     doi: '10.48550/arxiv.2402.07269'
     primary_category: math.CA
-    sources: [arxiv]
+    openalex_id: W4391800906
+    sources: [arxiv, openalex]
   - id: '2401.16043'
     title: 'A new interpretation of Jimbo''s formula for Painlevé VI'
     year: 2024
@@ -195,6 +198,42 @@ publications:
     doi: '10.48550/arxiv.2401.12792'
     primary_category: math.DG
     sources: [arxiv]
+  - id: 'doi:10.1016/j.aim.2023.109189'
+    title: 'Stokes phenomena, Poisson–Lie groups and quantum groups'
+    year: 2023
+    coauthors: ['Valerio Toledano-Laredo']
+    doi: '10.1016/j.aim.2023.109189'
+    journal: 'Advances in Mathematics'
+    openalex_id: W4382865810
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1016/j.geomphys.2023.104809'
+    title: 'Stokes phenomenon and Poisson brackets in r-matrix form'
+    year: 2023
+    coauthors: [tang-qian]
+    doi: '10.1016/j.geomphys.2023.104809'
+    journal: 'Journal of Geometry and Physics'
+    openalex_id: W4361213117
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1016/j.geomphys.2023.104850'
+    title: 'On real forms of Dubrovin-Ugaglia Poisson brackets'
+    year: 2023
+    coauthors: [lang-honglei, 'Zheheng Xiao']
+    doi: '10.1016/j.geomphys.2023.104850'
+    journal: 'Journal of Geometry and Physics'
+    openalex_id: W4367692403
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1007/978-3-031-30284-8_24'
+    title: 'On Some Developments of the Stokes Phenomenon'
+    year: 2023
+    coauthors: [tang-qian]
+    doi: '10.1007/978-3-031-30284-8_24'
+    journal: 'Trends in mathematics'
+    openalex_id: W4385151771
+    sources: [openalex]
+    no_arxiv: true
   - id: '2202.08054'
     title: 'On the connection formula of a higher rank analog of Painlevé VI'
     year: 2022
@@ -261,7 +300,8 @@ publications:
     doi: '10.1007/s11005-017-0985-4'
     journal: 'Letters in Mathematical Physics'
     primary_category: math-ph
-    sources: [arxiv]
+    openalex_id: W2594725194
+    sources: [arxiv, openalex]
   - id: '1701.08113'
     title: 'Stokes phenomenon, Gelfand-Zeitlin systems and relative Ginzburg-Weinstein linearization'
     year: 2017
@@ -278,6 +318,15 @@ publications:
     journal: 'International Mathematics Research Notices'
     primary_category: math.DG
     sources: [arxiv]
+  - id: 'doi:10.4064/bc110-0-11'
+    title: 'Nonabelian omni-Lie algebras'
+    year: 2016
+    coauthors: [lang-honglei, 'Yunhe Sheng']
+    doi: '10.4064/bc110-0-11'
+    journal: 'Banach Center Publications'
+    openalex_id: W2565888240
+    sources: [openalex]
+    no_arxiv: true
   - id: '1507.07149'
     title: 'Irregular Riemann-Hilbert correspondence, Alekseev-Meinrenken dynamical r-matrices and Drinfeld twists'
     year: 2015
@@ -293,6 +342,15 @@ publications:
     journal: 'Commun. Math. Phys. (2016) 341: 2, 523-542'
     primary_category: math.DG
     sources: [arxiv]
+  - id: 'doi:10.1063/1.4900834'
+    title: 'Canonical functions, differential graded symplectic pairs in supergeometry, and Alexandrov-Kontsevich-Schwartz-Zaboronsky sigma models with boundaries'
+    year: 2014
+    coauthors: ['Noriaki Ikeda']
+    doi: '10.1063/1.4900834'
+    journal: 'Journal of Mathematical Physics'
+    openalex_id: W1998892425
+    sources: [openalex]
+    no_arxiv: true
   - id: '1312.4609'
     title: 'Strong homotopy Lie algebras, homotopy Poisson manifolds and Courant algebroids'
     year: 2013
@@ -300,7 +358,8 @@ publications:
     doi: '10.1007/s11005-016-0925-8'
     journal: 'Lett. Math. Phys. 107 (5) (2017), 861-885'
     primary_category: math.DG
-    sources: [arxiv]
+    openalex_id: W2963618835
+    sources: [arxiv, openalex]
   - id: '1308.0100'
     title: 'Current algebras from QP-manifolds in general dimensions'
     year: 2013
@@ -337,21 +396,24 @@ publications:
     doi: '10.1016/j.geomphys.2016.02.007'
     journal: 'J. Geom. Phys. 104 (2016), 148-162'
     primary_category: math-ph
-    sources: [arxiv]
+    openalex_id: W2284602637
+    sources: [arxiv, openalex]
   - id: '1204.5951'
     title: 'Dirac and Generalized Complex Structures on Cartan Geometries'
     year: 2012
     coauthors: [lang-honglei]
     doi: '10.48550/arxiv.1204.5951'
     primary_category: math.DG
-    sources: [arxiv]
+    openalex_id: W1590260575
+    sources: [arxiv, openalex]
 activity:
-  total_papers: 29
-  published_count: 28
+  total_papers: 35
+  published_count: 34
   preprint_only_count: 1
   h_index: 7
   active_period: '2012-present'
   peak_period: '2020-present'
+  confidence: 'has-19-review-pending'
   quality_source: 'openalex + ruirui-2026'
   t1_papers: 0
   t2_papers: 0

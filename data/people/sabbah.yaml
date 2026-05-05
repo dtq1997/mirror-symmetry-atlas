@@ -41,7 +41,7 @@ identity_profile:
       role: 'Directeur de Recherche CNRS (emeritus)'
   coauthor_circle_extended_slugs: [hertling]
   coauthor_circle_extended_names: ['Claus Hertling']
-  research_keywords: [frobenius, isomonodromy, manifolds, modules, phenomenon, stokes, structures, twistor]
+  research_keywords: [frobenius, isomonodromy, modules, phenomenon, stokes, twistor]
   known_arxiv_ids:
     - '2505.07334'
     - '2407.10010'
@@ -103,13 +103,14 @@ advisor: le-dung-trang
 students: []
 key_collaborators: []
 activity:
-  total_papers: 56
-  published_count: 55
+  total_papers: 89
+  published_count: 88
   preprint_only_count: 1
   h_index: 24
   active_period: '1976-present'
   phd_students: 8
   academic_descendants: 11
+  confidence: 'has-24-review-pending'
   quality_source: 'openalex + ruirui-2026'
   t1_papers: 3
   t2_papers: 6
@@ -152,7 +153,26 @@ publications:
     coauthors: []
     doi: '10.48550/arxiv.2401.00968'
     primary_category: math.AG
-    sources: [arxiv]
+    openalex_id: W4390573321
+    sources: [arxiv, openalex]
+  - id: 'doi:10.5802/xups.1999-00'
+    title: 'Aspects de la théorie du contrôle. Préface des éditeurs et introduction par les auteurs'
+    year: 2024
+    coauthors: ['Nicole Berline']
+    doi: '10.5802/xups.1999-00'
+    journal: 'Journées mathématiques X-UPS'
+    openalex_id: W4401363352
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.5802/xups.2003-00'
+    title: 'Dans le sillage de Laurent Schwartz. Préface des éditeurs'
+    year: 2024
+    coauthors: ['Nicole Berline']
+    doi: '10.5802/xups.2003-00'
+    journal: 'Journées mathématiques X-UPS'
+    openalex_id: W4401440114
+    sources: [openalex]
+    no_arxiv: true
   - id: '2311.01874'
     title: 'Singularities of functions: a global point of view'
     year: 2023
@@ -160,7 +180,17 @@ publications:
     doi: '10.1007/978-3-031-68711-2_6'
     journal: 'Chapter 6 of Handbook of Geometry and Topology of Singularities VII, 2025'
     primary_category: math.AG
-    sources: [arxiv]
+    openalex_id: W4388444662
+    sources: [arxiv, openalex]
+  - id: 'doi:10.4171/owr/2023/17'
+    title: 'Twistor D-Modules and the Decomposition Theorem'
+    year: 2023
+    coauthors: ['Takuro Mochizuki']
+    doi: '10.4171/owr/2023/17'
+    journal: 'Oberwolfach Reports'
+    openalex_id: W4390046665
+    sources: [openalex]
+    no_arxiv: true
   - id: '2212.07746'
     title: 'Remarks on rigid irreducible meromorphic connections on the projective line'
     year: 2022
@@ -189,7 +219,8 @@ publications:
     doi: '10.1112/S0010437X23007224'
     journal: 'Compositio Math. 159 (2023) no. 7, 1413-1465'
     primary_category: math.AG
-    sources: [arxiv]
+    openalex_id: W4292083229
+    sources: [arxiv, openalex]
   - id: '2112.13405'
     title: 'Hodge properties of Airy moments'
     year: 2021
@@ -197,7 +228,8 @@ publications:
     doi: '10.2140/tunis.2023.5.215'
     journal: 'Tunisian J. Math. 5 (2023) 215-271'
     primary_category: math.AG
-    sources: [arxiv]
+    openalex_id: W4226040428
+    sources: [arxiv, openalex]
   - id: '2103.16878'
     title: 'A short proof of a theorem of Cotti, Dubrovin and Guzzetti'
     year: 2021
@@ -205,7 +237,8 @@ publications:
     doi: '10.4171/PM/2077'
     journal: 'Portugaliae Mathematica 79 (2022), no. 1, p. 29-43'
     primary_category: math.AG
-    sources: [arxiv]
+    openalex_id: W3145707775
+    sources: [arxiv, openalex]
   - id: '2012.15171'
     title: 'The relative hermitian duality functor'
     year: 2020
@@ -220,7 +253,8 @@ publications:
     doi: '10.2140/ant.2023.17.541'
     journal: 'Alg. Number Th. 17 (2023) 541-602'
     primary_category: math.AG
-    sources: [arxiv]
+    openalex_id: W3034077350
+    sources: [arxiv, openalex]
   - id: '2005.11525'
     title: 'Quadratic relations between periods of connections'
     year: 2020
@@ -228,7 +262,8 @@ publications:
     doi: '10.2748/tmj.20211209'
     journal: 'Tohoku Math. J. 75 (2023), 175-213'
     primary_category: math.AG
-    sources: [arxiv]
+    openalex_id: W4379273855
+    sources: [arxiv, openalex]
   - id: '1906.09725'
     title: 'Relative regular Riemann-Hilbert correspondence'
     year: 2019
@@ -236,7 +271,26 @@ publications:
     doi: '10.1112/plms.12362'
     journal: 'Proceedings of the London Mathematical Society 122 (2021), no. 3, p. 434-457, Erratum: Ibid, 123 (2021), no. 6, p. 649-654'
     primary_category: math.AG
-    sources: [arxiv]
+    openalex_id: W2951341341
+    sources: [arxiv, openalex]
+  - id: 'doi:10.2969/aspm/05410293'
+    title: 'Wild twistor $\mathscr{D}$-modules'
+    year: 2019
+    coauthors: []
+    doi: '10.2969/aspm/05410293'
+    journal: 'Advanced studies in pure mathematics'
+    openalex_id: W2920050300
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.4171/dm/681'
+    title: 'Good Lattices of Algebraic Connections (with an Appendix by Claude Sabbah)'
+    year: 2019
+    coauthors: ['Hélène Esnault']
+    doi: '10.4171/dm/681'
+    journal: 'Documenta Mathematica'
+    openalex_id: W4320166681
+    sources: [openalex]
+    no_arxiv: true
   - id: '1812.06278'
     title: 'Good lattices of algebraic connections'
     year: 2018
@@ -260,7 +314,8 @@ publications:
     doi: '10.1215/00127094-2021-0036'
     journal: 'Duke Math. J. 171 (2022), no. 8, 1649-1747'
     primary_category: math.AG
-    sources: [arxiv]
+    openalex_id: W2897398145
+    sources: [arxiv, openalex]
   - id: '1804.00426'
     title: 'Some properties and applications of Brieskorn lattices'
     year: 2018
@@ -269,6 +324,14 @@ publications:
     journal: 'Journal of Singularity theory 18 (2018), p. 238-247'
     primary_category: math.AG
     sources: [arxiv]
+  - id: 'doi:10.4171/prims/54-2-8'
+    title: 'Erratum to Hodge Theory of the Middle Convolution'
+    year: 2018
+    coauthors: ['Michael Dettweiler']
+    doi: '10.4171/prims/54-2-8'
+    openalex_id: W2795594807
+    sources: [openalex]
+    no_arxiv: true
   - id: '1711.08514'
     title: 'Integrable deformations and degenerations of some irregular singularities'
     year: 2017
@@ -276,7 +339,8 @@ publications:
     doi: '10.4171/PRIMS/57-3-2'
     journal: 'Publ. RIMS Kyoto Univ. 57 (2021), no. 3-4, p. 755-794'
     primary_category: math.AG
-    sources: [arxiv]
+    openalex_id: W3206853367
+    sources: [arxiv, openalex]
   - id: '1705.07610'
     title: 'Topological computation of some Stokes phenomena on the affine line'
     year: 2017
@@ -292,7 +356,8 @@ publications:
     doi: '10.4171/PM/1997'
     journal: 'Portugal. Math. (N.S.) 74 (2017), no. 2, p. 149-159'
     primary_category: math.AG
-    sources: [arxiv]
+    openalex_id: W2606607180
+    sources: [arxiv, openalex]
   - id: '1609.04192'
     title: 'Riemann-Hilbert correspondence for mixed twistor D-Modules'
     year: 2016
@@ -300,7 +365,8 @@ publications:
     doi: '10.1017/S1474748017000184'
     journal: 'J. Inst. Math. Jussieu (2019) 18(3), 629-672'
     primary_category: math.AG
-    sources: [arxiv]
+    openalex_id: W2520676872
+    sources: [arxiv, openalex]
   - id: '1609.01744'
     title: 'A remark on the irregularity complex'
     year: 2016
@@ -309,6 +375,15 @@ publications:
     journal: 'J. Singul. 16 (2017), p. 100-114, Erratum: Ibid., p. 194'
     primary_category: math.AG
     sources: [arxiv]
+  - id: 'doi:10.4171/owr/2015/22'
+    title: 'Mirror Symmetry, Hodge Theory and Differential Equations'
+    year: 2016
+    coauthors: [hertling, 'Christian Sevenheck']
+    doi: '10.4171/owr/2015/22'
+    journal: 'Oberwolfach Reports'
+    openalex_id: W2749204405
+    sources: [openalex]
+    no_arxiv: true
   - id: '1511.00176'
     title: 'Irregular Hodge theory'
     year: 2015
@@ -332,7 +407,17 @@ publications:
     doi: '10.4171/rsmup/134-4'
     journal: 'Rend. Sem. Mat. Univ. Padova 134 (2015), p. 133-196'
     primary_category: math.AG
-    sources: [arxiv]
+    openalex_id: W2963938692
+    sources: [arxiv, openalex]
+  - id: 'doi:10.1090/noti1151'
+    title: 'Scripta Manent: The Journal de l’École polytechnique, A Revival'
+    year: 2014
+    coauthors: []
+    doi: '10.1090/noti1151'
+    journal: 'Notices of the American Mathematical Society'
+    openalex_id: W2023622521
+    sources: [openalex]
+    no_arxiv: true
   - id: '1311.4132'
     title: 'Differential systems of pure Gaussian type'
     year: 2013
@@ -348,7 +433,8 @@ publications:
     doi: '10.1515/crelle-2014-0118'
     journal: 'J. reine angew. Math. 729 (2017), p. 171-227'
     primary_category: math.AG
-    sources: [arxiv]
+    openalex_id: W3098267116
+    sources: [arxiv, openalex]
   - id: '1212.0436'
     title: 'Kontsevich''s conjecture on an algebraic formula for vanishing cycles of local systems'
     year: 2012
@@ -356,7 +442,8 @@ publications:
     doi: '10.14231/ag-2014-006'
     journal: 'Algebraic geometry'
     primary_category: math.AG
-    sources: [arxiv]
+    openalex_id: W2963390527
+    sources: [arxiv, openalex]
   - id: '1209.4185'
     title: 'Hodge theory of the middle convolution'
     year: 2012
@@ -364,7 +451,8 @@ publications:
     doi: '10.4171/PRIMS/119'
     journal: 'Publ. RIMS Kyoto Univ. 49 (2013), no. 4, 761-800, Erratum: Publ. RIMS Kyoto Univ. 54 (2018) no. 2, 427-431'
     primary_category: math.AG
-    sources: [arxiv]
+    openalex_id: W2137282662
+    sources: [arxiv, openalex]
   - id: '1204.1331'
     title: 'On the de Rham complex of mixed twistor D-modules'
     year: 2012
@@ -380,7 +468,143 @@ publications:
     doi: '10.48550/arxiv.1201.4531'
     journal: 'Astérisque vol. 352, Soc. Math. France, Paris, 2013, p. 201-243'
     primary_category: math.AG
-    sources: [arxiv]
+    openalex_id: W1870202392
+    sources: [arxiv, openalex]
+  - id: 'doi:10.1007/978-3-642-31695-1_15'
+    title: 'Nearby Cycles of Stokes-Filtered Local Systems'
+    year: 2012
+    coauthors: []
+    doi: '10.1007/978-3-642-31695-1_15'
+    journal: 'Lecture notes in mathematics'
+    openalex_id: W14809507
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1007/978-3-642-31695-1_9'
+    title: 'Stokes-Filtered Local Systems Along a Divisor with Normal Crossings'
+    year: 2012
+    coauthors: []
+    doi: '10.1007/978-3-642-31695-1_9'
+    journal: 'Lecture notes in mathematics'
+    openalex_id: W164929970
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1007/978-3-642-31695-1_10'
+    title: 'The Riemann–Hilbert Correspondence for Good Meromorphic Connections (Case of a Smooth Divisor)'
+    year: 2012
+    coauthors: []
+    doi: '10.1007/978-3-642-31695-1_10'
+    journal: 'Lecture notes in mathematics'
+    openalex_id: W184832694
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1007/978-3-642-31695-1_14'
+    title: 'Irregular Nearby Cycles'
+    year: 2012
+    coauthors: []
+    doi: '10.1007/978-3-642-31695-1_14'
+    journal: 'Lecture notes in mathematics'
+    openalex_id: W1948527184
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1007/978-3-642-31695-1_13'
+    title: 'Push-Forward of Stokes-Filtered Local Systems'
+    year: 2012
+    coauthors: []
+    doi: '10.1007/978-3-642-31695-1_13'
+    journal: 'Lecture notes in mathematics'
+    openalex_id: W47053141
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1007/978-3-642-31695-1_12'
+    title: 'Good Meromorphic Connections (Analytic Theory) and the Riemann–Hilbert Correspondence'
+    year: 2012
+    coauthors: []
+    doi: '10.1007/978-3-642-31695-1_12'
+    journal: 'Lecture notes in mathematics'
+    openalex_id: W64657759
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1007/978-3-642-31695-1_6'
+    title: 'Applications of the Riemann–Hilbert Correspondence to Holonomic Distributions'
+    year: 2012
+    coauthors: []
+    doi: '10.1007/978-3-642-31695-1_6'
+    journal: 'Lecture notes in mathematics'
+    openalex_id: W101317834
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1007/978-3-642-31695-1_7'
+    title: 'Riemann–Hilbert and Laplace on the Affine Line (the Regular Case)'
+    year: 2012
+    coauthors: []
+    doi: '10.1007/978-3-642-31695-1_7'
+    journal: 'Lecture notes in mathematics'
+    openalex_id: W120648779
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1007/978-3-642-31695-1_11'
+    title: 'Good Meromorphic Connections (Formal Theory)'
+    year: 2012
+    coauthors: []
+    doi: '10.1007/978-3-642-31695-1_11'
+    journal: 'Lecture notes in mathematics'
+    openalex_id: W132956205
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1007/978-3-642-31695-1_2'
+    title: 'Stokes-Filtered Local Systems in Dimension One'
+    year: 2012
+    coauthors: []
+    doi: '10.1007/978-3-642-31695-1_2'
+    journal: 'Lecture notes in mathematics'
+    openalex_id: W139828403
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1007/978-3-642-31695-1_8'
+    title: 'Real Blow-Up Spaces and Moderate de Rham Complexes'
+    year: 2012
+    coauthors: []
+    doi: '10.1007/978-3-642-31695-1_8'
+    journal: 'Lecture notes in mathematics'
+    openalex_id: W172026543
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1007/978-3-642-31695-1_5'
+    title: 'The Riemann–Hilbert Correspondence for Holonomic $$\mathcal{D}$$ -Modules on Curves'
+    year: 2012
+    coauthors: []
+    doi: '10.1007/978-3-642-31695-1_5'
+    journal: 'Lecture notes in mathematics'
+    openalex_id: W2179998295
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1007/978-3-642-31695-1_4'
+    title: 'Stokes-Perverse Sheaves on Riemann Surfaces'
+    year: 2012
+    coauthors: []
+    doi: '10.1007/978-3-642-31695-1_4'
+    journal: 'Lecture notes in mathematics'
+    openalex_id: W2202962089
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1007/978-3-642-31695-1_1'
+    title: '$$\mathcal{I}$$ -Filtrations'
+    year: 2012
+    coauthors: []
+    doi: '10.1007/978-3-642-31695-1_1'
+    journal: 'Lecture notes in mathematics'
+    openalex_id: W2213117902
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1007/978-3-642-31695-1_3'
+    title: 'Abelianity and Strictness'
+    year: 2012
+    coauthors: []
+    doi: '10.1007/978-3-642-31695-1_3'
+    journal: 'Lecture notes in mathematics'
+    openalex_id: W23120287
+    sources: [openalex]
+    no_arxiv: true
   - id: '1107.5890'
     title: 'Non-commutative Hodge structures'
     year: 2011
@@ -396,7 +620,8 @@ publications:
     doi: '10.1016/j.geomphys.2011.09.006'
     journal: 'Journal of Geometry and Physics 62 (2012), pp. 37-46'
     primary_category: math.DG
-    sources: [arxiv]
+    openalex_id: W2156284535
+    sources: [arxiv, openalex]
   - id: '1012.3818'
     title: 'On a twisted de Rham complex, II'
     year: 2010
@@ -411,7 +636,8 @@ publications:
     coauthors: []
     doi: '10.48550/arxiv.1003.5589'
     primary_category: math.CV
-    sources: [arxiv]
+    openalex_id: W2032578585
+    sources: [arxiv, openalex]
   - id: '0912.2762'
     title: 'Introduction to Stokes structures'
     year: 2009
@@ -419,7 +645,8 @@ publications:
     doi: '10.1007/978-3-642-31695-1'
     journal: 'Lecture Notes in mathematics vol. 2060, Springer Verlag, 2012. (Numbering 1.a, 1.b, etc. on the arXiv version changed to 1.1, 1.2, etc. in the published version)'
     primary_category: math.AG
-    sources: [arxiv]
+    openalex_id: W1596283011
+    sources: [arxiv, openalex]
   - id: '0912.2754'
     title: 'Examples of non-commutative Hodge structures'
     year: 2009
@@ -427,7 +654,8 @@ publications:
     doi: '10.1017/S147474801100003X'
     journal: 'Journal of the Inst. of Math. Jussieu (2011) 10(3), 635--674'
     primary_category: math.AG
-    sources: [arxiv]
+    openalex_id: W3100491297
+    sources: [arxiv, openalex]
   - id: '0804.4328'
     title: 'Fourier-Laplace transform of a variation of polarized complex Hodge structure, II'
     year: 2008
@@ -460,6 +688,15 @@ publications:
     journal: 'in Singularities I, Contemp. Math., vol. 474, Amer. Math. Soc., Providence, RI, 2008, p. 309-330'
     primary_category: math.AG
     sources: [arxiv]
+  - id: 'doi:10.1007/978-1-84800-054-4_8'
+    title: 'Saito structures and Frobenius structures on a complex analytic manifold'
+    year: 2007
+    coauthors: []
+    doi: '10.1007/978-1-84800-054-4_8'
+    journal: 'Universitext'
+    openalex_id: W39142979
+    sources: [openalex]
+    no_arxiv: true
   - id: '0611475'
     title: 'Quantum cohomology of the Grassmannian and alternate Thom-Sebastiani'
     year: 2006
@@ -467,7 +704,8 @@ publications:
     doi: '10.1112/S0010437X07003120'
     journal: 'Compos. Math. 144 (2008), no. 1, 221--246'
     primary_category: math.AG
-    sources: [arxiv]
+    openalex_id: W2119742235
+    sources: [arxiv, openalex]
   - id: '0611474'
     title: 'Asymptotic expansion of holonomic distributions of one complex variable'
     year: 2006
@@ -482,7 +720,35 @@ publications:
     doi: '10.1007/s00222-007-0082-x'
     journal: 'Invent. Math. 171 (2008), no. 2, 301-343'
     primary_category: math.AG
-    sources: [arxiv]
+    openalex_id: W2097534005
+    sources: [arxiv, openalex]
+  - id: 'doi:10.2977/prims/1166642161'
+    title: 'Monodromy at Inﬁnity and Fourier Transform II'
+    year: 2006
+    coauthors: []
+    doi: '10.2977/prims/1166642161'
+    journal: 'Publications of the Research Institute for Mathematical Sciences'
+    openalex_id: W2282770298
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.4171/020-1/2'
+    title: 'The work of Andrey Bolibrukh on isomonodromic deformations'
+    year: 2006
+    coauthors: []
+    doi: '10.4171/020-1/2'
+    journal: 'IRMA lectures in mathematics and theoretical physics'
+    openalex_id: W2264951923
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1090/s0273-0979-06-01099-8'
+    title: 'Book Review: Topology of singular spaces and constructible sheaves'
+    year: 2006
+    coauthors: []
+    doi: '10.1090/s0273-0979-06-01099-8'
+    journal: 'Bulletin of the American Mathematical Society'
+    openalex_id: W1991697754
+    sources: [openalex]
+    no_arxiv: true
   - id: '0508551'
     title: 'Fourier-Laplace transform of a variation of polarized complex Hodge structure'
     year: 2005
@@ -514,7 +780,8 @@ publications:
     doi: '10.1007/978-3-322-80236-1_1'
     journal: 'in Frobenius manifolds (Quantum cohomology and singularities), Hertling, C. and Marcolli, M. eds, Aspects of Mathematics, vol. E36, Vieweg, 2004, p. 1-18'
     primary_category: math.AG
-    sources: [arxiv]
+    openalex_id: W1804996050
+    sources: [arxiv, openalex]
   - id: '0211352'
     title: 'Gauss-Manin systems, Brieskorn lattices and Frobenius structures (I)'
     year: 2002
@@ -522,6 +789,15 @@ publications:
     journal: 'Proceedings of the International Conference in Honor of Frédéric Pham (Nice, 2002). Ann. Inst. Fourier (Grenoble) 53 (2003), no. 4, 1055--1116'
     primary_category: math.AG
     sources: [arxiv]
+  - id: 'doi:10.1007/s002080000113'
+    title: 'Dwork cohomology and algebraic ${\Cal D}$ -modules'
+    year: 2000
+    coauthors: ['Alexandru Dimca', 'Fay x E al Maaref', 'Morihiko Saito']
+    doi: '10.1007/s002080000113'
+    journal: 'Mathematische Annalen'
+    openalex_id: W2145040383
+    sources: [openalex]
+    no_arxiv: true
   - id: '9910156'
     title: 'Vanishing cycles and Hermitian duality'
     year: 1999
@@ -529,7 +805,8 @@ publications:
     doi: '10.48550/arxiv.math/9910156'
     journal: 'Proc. Steklov Inst. Math. 2002, no. 3 (238), 194--214'
     primary_category: math.AG
-    sources: [arxiv]
+    openalex_id: W1589768906
+    sources: [arxiv, openalex]
   - id: '9905039'
     title: 'Harmonic metrics and connections with irregular singularities'
     year: 1999
@@ -537,6 +814,14 @@ publications:
     journal: 'Ann. Institut Fourier (Grenoble) 49 (1999), p. 1265-1291'
     primary_category: math.AG
     sources: [arxiv]
+  - id: 'doi:10.48550/arxiv.math/9906078'
+    title: 'Dwork Cohomology and Algebraic D-Modules'
+    year: 1999
+    coauthors: ['Alexandru Dimca', 'Fay x E al Maaref', 'Morihiko Saito']
+    doi: '10.48550/arxiv.math/9906078'
+    openalex_id: W2952929124
+    sources: [openalex]
+    no_arxiv: true
   - id: '9805087'
     title: 'On a twisted de Rham complex'
     year: 1998
@@ -551,7 +836,8 @@ publications:
     doi: '10.1007/bf02940860'
     journal: 'Abh. Math. Sem. Univ. Hamburg 69 (1999), p. 25-35'
     primary_category: math.AG
-    sources: [arxiv]
+    openalex_id: W2161477091
+    sources: [arxiv, openalex]
   - id: '9805077'
     title: 'Hypergeometric periods for a tame polynomial'
     year: 1998
@@ -559,7 +845,35 @@ publications:
     doi: '10.1016/S0764-4442(99)80254-7'
     journal: 'C. R. Acad. Sci. Paris Ser. I Math. t.328 (1999) 603-608 & Port. Math. (N.S.) 63 (2006), no. 2, 173--226'
     primary_category: math.AG
-    sources: [arxiv]
+    openalex_id: W1981210823
+    sources: [arxiv, openalex]
+  - id: 'doi:10.2977/prims/1195145150'
+    title: 'Monodromy at Infinity and Fourier Transform'
+    year: 1997
+    coauthors: []
+    doi: '10.2977/prims/1195145150'
+    journal: 'Publications of the Research Institute for Mathematical Sciences'
+    openalex_id: W2066065031
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1017/s0027763000005547'
+    title: 'On the comparison theorem for elementary irregular <i>D</i>-modules'
+    year: 1996
+    coauthors: []
+    doi: '10.1017/s0027763000005547'
+    journal: 'Nagoya Mathematical Journal'
+    openalex_id: W1895410196
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1007/bf01445242'
+    title: 'Moduli ofD-modules, perverse sheaves and the Riemann-Hilbert morphism?I'
+    year: 1996
+    coauthors: ['Nitin Nitsure']
+    doi: '10.1007/bf01445242'
+    journal: 'Mathematische Annalen'
+    openalex_id: W2030207616
+    sources: [openalex]
+    no_arxiv: true
   - id: '9503021'
     title: 'Moduli of pre-$\cal D$-modules, perverse sheaves and the Riemann-Hilbert morphism -I'
     year: 1995
@@ -567,6 +881,15 @@ publications:
     doi: '10.48550/arxiv.alg-geom/9503021'
     primary_category: math.AG
     sources: [arxiv]
+  - id: 'doi:10.1007/bf02566659'
+    title: 'Equations aux différences finies et déterminants d''intégrales de fonctions multiformes'
+    year: 1991
+    coauthors: ['François Loeser']
+    doi: '10.1007/bf02566659'
+    journal: 'Commentarii Mathematici Helvetici'
+    openalex_id: W2315853755
+    sources: [openalex]
+    no_arxiv: true
 sources:
 - label: Math Genealogy
   url: https://www.mathgenealogy.org/id.php?id=76381
