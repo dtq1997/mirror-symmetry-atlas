@@ -186,7 +186,7 @@ publications:
   - id: 'doi:10.1007/978-3-031-69067-9_1'
     title: 'Introduction'
     year: 2024
-    coauthors: [guzzetti, cotti, 'Martin A. Guest']
+    coauthors: [guzzetti, 'Martin A. Guest', cotti]
     doi: '10.1007/978-3-031-69067-9_1'
     journal: 'Lecture notes in mathematics'
     openalex_id: W4403810207
@@ -565,7 +565,7 @@ publications:
   - id: '0502365'
     title: 'Extended affine Weyl groups and Frobenius manifolds -- II'
     year: 2005
-    coauthors: [zhang-youjin, 'Dafeng Zuo']
+    coauthors: ['arXiv api core', 'Dafeng Zuo']
     doi: '10.1023/a:1000258122329'
     journal: 'Compositio Mathematica'
     primary_category: math.DG
@@ -583,14 +583,14 @@ publications:
   - id: '0410027'
     title: 'On Hamiltonian perturbations of hyperbolic systems of conservation laws'
     year: 2004
-    coauthors: [si-li, zhang-youjin]
+    coauthors: ['arXiv api core']
     primary_category: math.DG
     openalex_id: W1626671567
     sources: [arxiv, openalex]
   - id: '0311261'
     title: 'Canonical structure and symmetries of the Schlesinger equations'
     year: 2003
-    coauthors: [mazzocco]
+    coauthors: ['arXiv api core']
     doi: '10.1007/s00220-006-0165-3'
     journal: 'Communications in Mathematical Physics'
     primary_category: math.DG
@@ -599,7 +599,7 @@ publications:
   - id: '0308152'
     title: 'Virasoro Symmetries of the Extended Toda Hierarchy'
     year: 2003
-    coauthors: [zhang-youjin]
+    coauthors: ['arXiv api core']
     doi: '10.1007/s00220-004-1084-9'
     primary_category: math.DG
     openalex_id: W3101856057
@@ -613,7 +613,7 @@ publications:
   - id: '0306060'
     title: 'The Extended Toda Hierarchy'
     year: 2003
-    coauthors: ['Guido Carlet', zhang-youjin]
+    coauthors: ['Guido Carlet', 'arXiv api core']
     doi: '10.17323/1609-4514-2004-4-2-313-332'
     journal: 'Moscow Mathematical Journal'
     primary_category: nlin.SI
@@ -622,7 +622,7 @@ publications:
   - id: '0108160'
     title: 'Normal forms of hierarchies of integrable PDEs, Frobenius manifolds and Gromov - Witten invariants'
     year: 2001
-    coauthors: [zhang-youjin]
+    coauthors: ['arXiv api core']
     primary_category: math.DG
     openalex_id: W1634975405
     sources: [arxiv, openalex]
@@ -638,7 +638,7 @@ publications:
   - id: '9808048'
     title: 'Frobenius Manifolds And Virasoro Constraints'
     year: 1998
-    coauthors: [zhang-youjin]
+    coauthors: ['arXiv api core']
     doi: '10.1007/s000290050053'
     journal: 'Selecta Mathematica'
     primary_category: math.AG
@@ -668,7 +668,7 @@ publications:
   - id: '9712232'
     title: 'Bihamiltonian Hierarchies in 2D Topological Field Theory At One-Loop Approximation'
     year: 1997
-    coauthors: [zhang-youjin]
+    coauthors: ['arXiv api core']
     doi: '10.1007/s002200050480'
     journal: 'Commun.Math.Phys. 198 (1998) 311-361'
     primary_category: hep-th
@@ -676,7 +676,7 @@ publications:
   - id: '9611200'
     title: 'Extended affine Weyl groups and Frobenius manifolds'
     year: 1996
-    coauthors: [zhang-youjin]
+    coauthors: ['arXiv api core']
     journal: 'Compositio Mathematica 111 (1998), 167--219'
     primary_category: hep-th
     sources: [arxiv]

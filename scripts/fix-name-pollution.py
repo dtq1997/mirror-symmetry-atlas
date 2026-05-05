@@ -253,17 +253,17 @@ def main():
                     #     STRICTLY matches it. If such a slug exists, the bad
                     #     slug was almost certainly a mis-normalization of that
                     #     real coauthor. Replace.
-                    # (b) if no slug strictly matches any actual author, fall
-                    #     back to keeping the slug as-is (don't manufacture
-                    #     replacements).
+                    # (b) if no slug strictly matches any actual author, use
+                    #     the actual author NAME (raw string) for the slot. This
+                    #     is more correct than keeping a wrong slug because the
+                    #     wrong slug links to a different person's page.
                     best_replacement = None
                     used_slugs = {s for s in new_cas if isinstance(s, str)
                                    and re.fullmatch(r'[a-z][a-z0-9_-]*', s)}
+                    # First pass: find slug-matching replacement
                     for actual in actual_authors:
-                        # Skip the target self
                         if strict_name_match(target_en, actual):
                             continue
-                        # Skip if some already-listed slug already represents this actual
                         if any(strict_name_match(slug_to_en.get(s, ''), actual) for s in used_slugs):
                             continue
                         for cand_slug, cand_en in slug_to_en.items():
@@ -274,15 +274,40 @@ def main():
                                 break
                         if best_replacement:
                             break
-                        # No matching slug; if we know which actual author this
-                        # slot SHOULD be, swap to raw name. We use the heuristic:
-                        # the author whose tokens contain the most of the bad
-                        # slug's tokens (any token overlap).
+
+                    # Second pass (no slug match): pick the unused actual author
+                    # whose tokens best overlap with the bad slug's name. This
+                    # heuristically restores the original intended raw name.
+                    if not best_replacement:
                         bt = set(name_tokens(en_of_slug)) | set(name_tokens_concat(en_of_slug))
-                        actual_tokens = set(name_tokens(actual)) | set(name_tokens_concat(actual))
-                        if bt and (bt & actual_tokens):
-                            best_replacement = actual
-                            break
+                        used_actuals = set()
+                        for s_used in used_slugs:
+                            for a in actual_authors:
+                                if strict_name_match(slug_to_en.get(s_used, ''), a):
+                                    used_actuals.add(a)
+                        # rank by overlap
+                        best_overlap = 0
+                        for actual in actual_authors:
+                            if actual in used_actuals:
+                                continue
+                            if strict_name_match(target_en, actual):
+                                continue
+                            actual_tokens = set(name_tokens(actual)) | set(name_tokens_concat(actual))
+                            overlap = len(bt & actual_tokens)
+                            if overlap > best_overlap:
+                                best_overlap = overlap
+                                best_replacement = actual
+                        # Last resort: any unused actual author at all (so the
+                        # WRONG slug doesn't survive). Better to show a raw
+                        # name than mislink to a different person.
+                        if not best_replacement:
+                            for actual in actual_authors:
+                                if actual in used_actuals:
+                                    continue
+                                if strict_name_match(target_en, actual):
+                                    continue
+                                best_replacement = actual
+                                break
                     if best_replacement:
                         new_cas.append(best_replacement)
                     else:
