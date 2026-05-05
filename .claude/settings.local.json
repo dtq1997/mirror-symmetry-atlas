@@ -9,6 +9,8 @@
   "enabledMcpjsonServers": [
     "multi-ai",
     "pyautogui",
-    "amap"
-  ]
+    "amap",
+    "_disabled_amap"
+  ],
+  "enableAllProjectMcpServers": true
 }

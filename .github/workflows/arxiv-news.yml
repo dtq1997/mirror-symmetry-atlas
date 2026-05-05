@@ -22,7 +22,7 @@ jobs:
         run: pip install pyyaml
 
       - name: Fetch arXiv papers
-        run: python3 scripts/fetch-arxiv-news.py --days 3
+        run: python3 scripts/fetch-arxiv-news.py --days 7 --dedup-window 14
 
       - name: Check if new papers found
         id: check

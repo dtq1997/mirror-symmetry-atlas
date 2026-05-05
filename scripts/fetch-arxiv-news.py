@@ -224,11 +224,42 @@ def generate_summary(paper, matched_people, matched_concepts):
 
     return ''.join(parts)
 
+def load_recent_news_ids(days):
+    """Collect arxiv ids that already appeared in news yaml within the last `days` days,
+    so we can dedup against them. Returns set of ids."""
+    news_dir = 'data/news'
+    if not os.path.exists(news_dir):
+        return set()
+    cutoff = datetime.utcnow().date() - timedelta(days=days)
+    seen = set()
+    for fname in os.listdir(news_dir):
+        if not fname.endswith('.yaml'):
+            continue
+        try:
+            d = datetime.strptime(fname.replace('.yaml', ''), '%Y-%m-%d').date()
+        except ValueError:
+            continue
+        if d < cutoff:
+            continue
+        try:
+            with open(os.path.join(news_dir, fname)) as fh:
+                data = yaml.safe_load(fh) or {}
+            for e in (data.get('entries') or []):
+                aid = e.get('id', '')
+                if aid:
+                    seen.add(aid)
+        except Exception:
+            continue
+    return seen
+
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--days', type=int, default=7)
     parser.add_argument('--output', default=None)
     parser.add_argument('--min-score', type=int, default=3)
+    parser.add_argument('--dedup-window', type=int, default=14,
+                        help='Skip ids that already appeared in news yaml within this many days')
     args = parser.parse_args()
 
     today = datetime.utcnow().strftime('%Y-%m-%d')
@@ -239,12 +270,19 @@ def main():
     concepts = load_concepts()
     print(f'Loaded {len(people)} people, {len(concepts)} concepts', file=sys.stderr)
 
+    seen_ids = load_recent_news_ids(args.dedup_window) if args.dedup_window > 0 else set()
+    print(f'Loaded {len(seen_ids)} ids from last {args.dedup_window}d news for dedup', file=sys.stderr)
+
     papers = fetch_recent_papers(days=args.days)
     print(f'Found {len(papers)} recent papers', file=sys.stderr)
 
     # Score and filter
     scored = []
+    skipped_dup = 0
     for paper in papers:
+        if paper['id'] in seen_ids:
+            skipped_dup += 1
+            continue
         score, mp, mc = score_paper(paper, people, concepts)
         if score >= args.min_score:
             summary = generate_summary(paper, mp, mc)
@@ -260,6 +298,7 @@ def main():
                 'summary_zh': summary,
             })
 
+    print(f'Skipped {skipped_dup} duplicates', file=sys.stderr)
     scored.sort(key=lambda x: -x['relevance_score'])
 
     # Write output
