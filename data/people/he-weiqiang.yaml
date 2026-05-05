@@ -33,6 +33,49 @@ research_areas:
   - virasoro-constraints
   - integrable-hierarchies
   - quantum-cohomology
+identity_profile:
+  openalex_id: 'A5076170334'
+  affiliations:
+    - institution: 'tsinghua-ymsc'
+      period: '[待验证]'
+      role: '博士后'
+    - institution: 'sun-yat-sen'
+      period: 'present'
+      role: '副教授'
+  email_domains: [mail.sysu.edu.cn]
+  coauthor_circle_core_slugs: [hu-jianxun, si-li]
+  coauthor_circle_core_names: ['Jianxun Hu', 'Si Li']
+  coauthor_circle_extended_slugs: [tang-xinxing]
+  coauthor_circle_extended_names: ['Xinxing Tang']
+  research_keywords:
+    - 'cohomology'
+    - 'constraints'
+    - 'fjrw'
+    - 'ginzburg'
+    - 'gromov'
+    - 'hierarchies'
+    - 'integrable'
+    - 'landau'
+    - 'mirror'
+    - 'orbifold'
+    - 'quantum'
+    - 'symmetry'
+    - 'theory'
+    - 'virasoro'
+    - 'witten'
+  known_arxiv_ids:
+    - '2501.00394'
+    - '2302.13249'
+    - '2302.10129'
+    - '2302.02402'
+    - '2103.00313'
+    - '2001.00536'
+    - '1910.05665'
+    - '1904.09426'
+    - '1801.04560'
+    - '1503.01757'
+    - '1402.4221'
+    - '1308.3634'
 advisor: null
 mentors:
   - si-li
@@ -73,8 +116,7 @@ publications:
     coauthors: ['Yingchun Zhang']
     doi: '10.48550/arxiv.2501.00394'
     primary_category: math.AG
-    openalex_id: W4406031379
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '2302.13249'
     title: 'Quantization of the minimal nilpotent orbits and the quantum Hikita conjecture'
     year: 2023
@@ -82,16 +124,14 @@ publications:
     doi: '10.48550/arxiv.2302.13249'
     journal: 'Representation Theory of the American Mathematical Society'
     primary_category: math.RT
-    openalex_id: W4322716830
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '2302.10129'
     title: 'Semisimple FJRW theory of polynomials with two variables'
     year: 2023
     coauthors: ['Amanda Francis', 'Yefeng Shen']
     doi: '10.48550/arxiv.2302.10129'
     primary_category: math.AG
-    openalex_id: W4321471946
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '2302.02402'
     title: 'Seiberg Duality conjecture for star-shaped quivers and finiteness of Gromov-Witten theory for D-type quivers'
     year: 2023
@@ -99,8 +139,7 @@ publications:
     doi: '10.1093/imrn/rnaf182'
     journal: 'International Mathematics Research Notices'
     primary_category: math.AG
-    openalex_id: W4411879596
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '2103.00313'
     title: 'Virasoro constraints in quantum singularity theories'
     year: 2021
@@ -108,8 +147,7 @@ publications:
     doi: '10.48550/arxiv.2103.00313'
     journal: 'Journal of Geometry and Physics'
     primary_category: math.AG
-    openalex_id: W3135906834
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '2001.00536'
     title: 'A Landau-Ginzburg mirror theorem via matrix factorizations'
     year: 2020
@@ -117,17 +155,7 @@ publications:
     doi: '10.1515/crelle-2022-0057'
     journal: 'Journal für die reine und angewandte Mathematik (Crelles Journal)'
     primary_category: math.AG
-    openalex_id: W4301398968
-    sources: [arxiv, openalex]
-  - id: 'doi:10.1007/s11425-018-9568-x'
-    title: 'On the Drinfeld-Sokolov hierarchy of type $$E_6^{(1)}$$ and its topological solution'
-    year: 2020
-    coauthors: ['Hua-Zhong Ke', 'Chao‐Zhong Wu']
-    doi: '10.1007/s11425-018-9568-x'
-    journal: 'Science China Mathematics'
-    openalex_id: W3005898661
-    sources: [openalex]
-    no_arxiv: true
+    sources: [arxiv]
   - id: '1910.05665'
     title: 'Dispersionless integrable hierarchy via Kodaira-Spencer gravity'
     year: 2019
@@ -141,8 +169,7 @@ publications:
     coauthors: [si-li, 'Yifan Li']
     doi: '10.48550/arxiv.1904.09426'
     primary_category: math-ph
-    openalex_id: W2939953175
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '1801.04560'
     title: 'G-twisted braces and orbifold Landau-Ginzburg models'
     year: 2018
@@ -151,24 +178,6 @@ publications:
     journal: 'Commun. Math. Phys. (2020)'
     primary_category: math.QA
     sources: [arxiv]
-  - id: 'doi:10.1007/s00209-018-2043-z'
-    title: 'Blow-up formulae of high genus Gromov–Witten invariants for threefolds'
-    year: 2018
-    coauthors: [hu-jianxun, 'Hua-Zhong Ke', 'Xiaoxia Qi']
-    doi: '10.1007/s00209-018-2043-z'
-    journal: 'Mathematische Zeitschrift'
-    openalex_id: W2792779451
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.4310/pamq.2018.v14.n3.a2'
-    title: 'Unfolding of orbifold $\mathrm{LG}$ $\mathrm{B}$-models: a case study'
-    year: 2018
-    coauthors: [si-li, 'Yifan Li']
-    doi: '10.4310/pamq.2018.v14.n3.a2'
-    journal: 'Pure and Applied Mathematics Quarterly'
-    openalex_id: W2984399399
-    sources: [openalex]
-    no_arxiv: true
   - id: '1503.01757'
     title: 'Landau-Ginzburg mirror symmetry conjecture'
     year: 2015
@@ -176,41 +185,25 @@ publications:
     doi: '10.4171/jems/1155'
     journal: 'J. Eur. Math. Soc. 24 (2022)'
     primary_category: math.AG
-    openalex_id: W3213938361
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '1402.4221'
     title: 'Blow-up formulae of high genus Gromov-Witten invariants in dimension six'
     year: 2014
     coauthors: [hu-jianxun, 'Hua-Zhong Ke', 'Xiaoxia Qi']
     doi: '10.48550/arxiv.1402.4221'
     primary_category: math.AG
-    openalex_id: W4294150699
-    sources: [arxiv, openalex]
-  - id: '1402.4221.'
-    title: 'A Blowup formula of high genus Gromov-Witten invariants in dimensional six'
-    year: 2014
-    coauthors: [hu-jianxun, 'Hua-Zhong Ke', 'Xiaoxia Qi']
-    openalex_id: W1771841147
-    sources: [openalex]
+    sources: [arxiv]
   - id: '1308.3634'
     title: 'Orbifold Gromov-Witten invariants of weighted blow-up at smooth points'
     year: 2013
     coauthors: [hu-jianxun]
     doi: '10.48550/arxiv.1308.3634'
     primary_category: math.SG
-    openalex_id: W2950035906
-    sources: [arxiv, openalex]
-  - id: 'openalex:W2387749528'
-    title: 'The Construction of Corporate Management Mode in Non-profit Organizations'
-    year: 2011
-    coauthors: []
-    openalex_id: W2387749528
-    sources: [openalex]
-    no_arxiv: true
+    sources: [arxiv]
 activity:
-  total_papers: 17
-  published_count: 15
-  preprint_only_count: 2
+  total_papers: 12
+  published_count: 12
+  preprint_only_count: 0
   active_period: '2013-present'
 external_ids:
   openalex: A5076170334

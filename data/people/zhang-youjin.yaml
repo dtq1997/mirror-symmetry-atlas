@@ -52,6 +52,93 @@ research_areas:
 - integrable-systems
 - wdvv-equations
 - virasoro-constraints
+identity_profile:
+  openalex_id: 'A5076963789'
+  affiliations:
+    - institution: 'ustc'
+      period: '1982-1987'
+      role: '本科, 数学系'
+    - institution: 'ustc'
+      period: '1987-1993'
+      role: '博士'
+    - institution: 'ustc'
+      period: '1990-1994'
+      role: '数学系教师'
+    - institution: 'steklov'
+      period: '1990-1991'
+      role: '访问学者'
+    - institution: 'ictp'
+      period: '1994-1996'
+      role: '博士后'
+    - institution: 'sissa'
+      period: '1996-1998'
+      role: '博士后'
+    - institution: 'rims-kyoto'
+      period: '1998-2000'
+      role: 'JSPS Foreign Special Researcher'
+    - institution: 'tsinghua'
+      period: '2000-present'
+      role: '教授'
+  email_domains: [sissa.it, tsinghua.edu.cn, ustc.edu.cn]
+  coauthor_circle_core_slugs: [dubrovin, liu-siqi, wu-chaozhong, yang-di]
+  coauthor_circle_core_names: ['Boris Dubrovin', 'Chaozhong Wu', 'Di Yang', 'Siqi Liu']
+  coauthor_circle_extended_slugs: [qu-haonan, ruan-yongbin, si-li, xu-xu, zagier, zhou-chunhui, zhou-jian]
+  coauthor_circle_extended_names: ['Chunhui Zhou', 'Don Zagier', 'Haonan Qu', 'Jian Zhou', 'Si Li', 'Xu Xu', 'Yongbin Ruan']
+  research_keywords: [constraints, equations, frobenius, integrable, manifolds, systems, virasoro, wdvv]
+  known_arxiv_ids:
+    - '2602.21532'
+    - '2511.06984'
+    - '2506.13656'
+    - '2411.15496'
+    - '2409.19530'
+    - '2404.08895'
+    - '2402.00373'
+    - '2305.10851'
+    - '2209.00483'
+    - '2203.16812'
+    - '2112.07526'
+    - '2110.03317'
+    - '2109.01846'
+    - '2109.01845'
+    - '2108.03447'
+    - '2106.13038'
+    - '2009.01143'
+    - '2005.02275'
+    - '1908.06707'
+    - '1906.06860'
+    - '1811.10234'
+    - '1811.10137'
+    - '1702.02840'
+    - '1701.03222'
+    - '1612.02333'
+    - '1510.08690'
+    - '1502.01774'
+    - '1409.4616'
+    - '1312.7227'
+    - '1305.2593'
+    - '1305.1008'
+    - '1208.5847'
+    - '1205.5990'
+    - '1012.5708'
+    - '1002.0034'
+    - '0912.5273'
+    - '0910.2085'
+    - '0809.0397'
+    - '0711.2599'
+    - '0710.3115'
+    - '0510250'
+    - '0510019'
+    - '0502365'
+    - '0501028'
+    - '0410027'
+    - '0406626'
+    - '0405146'
+    - '0308152'
+    - '0306060'
+    - '0108160'
+    - '9808048'
+    - '9712232'
+    - '9611200'
 advisor: null
 mentors:
   - dubrovin
@@ -69,8 +156,8 @@ key_collaborators:
   topic: Frobenius manifolds & integrable hierarchies
   papers_count: 15
 activity:
-  total_papers: 72
-  published_count: 71
+  total_papers: 53
+  published_count: 52
   preprint_only_count: 1
   h_index: 30
   active_period: '1990-present'
@@ -95,8 +182,7 @@ publications:
     coauthors: ['Lingrui Jiang', si-li, 'Yingchao Tian']
     doi: '10.48550/arxiv.2602.21532'
     primary_category: math.DG
-    openalex_id: W7131633768
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '2511.06984'
     title: 'On a class of integrable deformations of the integrable hierarchy of topological type associated to a semisimple Frobenius manifold'
     year: 2025
@@ -109,8 +195,7 @@ publications:
     coauthors: ['Lingrui Jiang', si-li, 'Yingchao Tian']
     doi: '10.48550/arxiv.2506.13656'
     primary_category: math.DG
-    openalex_id: W4415109267
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '2411.15496'
     title: 'Legendre transformations of a class of generalized Frobenius manifolds and the associated integrable hierarchies'
     year: 2024
@@ -118,8 +203,7 @@ publications:
     doi: '10.48550/arxiv.2411.15496'
     journal: 'Communications in Mathematical Physics'
     primary_category: math-ph
-    openalex_id: W4404986524
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '2409.19530'
     title: 'On Tautological Flows of Partial Difference Equations'
     year: 2024
@@ -127,16 +211,14 @@ publications:
     doi: '10.1016/j.physd.2025.134533'
     journal: 'Physica D Nonlinear Phenomena'
     primary_category: nlin.SI
-    openalex_id: W4406659778
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '2404.08895'
     title: 'The extended Ablowitz-Ladik hierarchy and a generalized Frobenius manifold'
     year: 2024
     coauthors: [si-li, 'Yuewei Wang']
     doi: '10.48550/arxiv.2404.08895'
     primary_category: math-ph
-    openalex_id: W4394867561
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '2402.00373'
     title: 'Solutions of the loop equations of a class of generalized Frobenius manifolds'
     year: 2024
@@ -144,8 +226,7 @@ publications:
     doi: '10.1007/s00220-024-05083-7'
     journal: 'Communications in Mathematical Physics'
     primary_category: math-ph
-    openalex_id: W4402509824
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '2305.10851'
     title: 'Variational Bihamiltonian Cohomologies and Integrable Hierarchies III: Linear Reciprocal Transformations'
     year: 2023
@@ -153,8 +234,7 @@ publications:
     doi: '10.1007/s00220-023-04817-3'
     journal: 'Communications in Mathematical Physics'
     primary_category: nlin.SI
-    openalex_id: W4385765342
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '2209.00483'
     title: 'Generalized Frobenius Manifolds with Non-flat Unity and Integrable Hierarchies'
     year: 2022
@@ -162,8 +242,7 @@ publications:
     doi: '10.1007/s00220-024-05213-1'
     journal: 'Communications in Mathematical Physics'
     primary_category: math-ph
-    openalex_id: W4408220832
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '2203.16812'
     title: 'On Equivariant Gromov--Witten Invariants of Resolved Conifold with Diagonal and Anti-Diagonal Actions'
     year: 2022
@@ -171,8 +250,7 @@ publications:
     doi: '10.1007/s11005-022-01618-y'
     journal: 'Letters in Mathematical Physics'
     primary_category: math-ph
-    openalex_id: W4311779894
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '2112.07526'
     title: 'The Virasoro-like Algebra of a Frobenius Manifold'
     year: 2021
@@ -180,8 +258,7 @@ publications:
     doi: '10.1093/imrn/rnac209'
     journal: 'International Mathematics Research Notices'
     primary_category: math-ph
-    openalex_id: W4226256119
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '2110.03317'
     title: 'Reduction of the 2D Toda Hierarchy and Linear Hodge Integrals'
     year: 2021
@@ -189,8 +266,7 @@ publications:
     doi: '10.3842/SIGMA.2022.037'
     journal: 'SIGMA 18 (2022), 037, 18 pages'
     primary_category: nlin.SI
-    openalex_id: W3203879084
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '2109.01846'
     title: 'Linearization of Virasoro symmetries associated with semisimple Frobenius manifolds'
     year: 2021
@@ -198,8 +274,7 @@ publications:
     doi: '10.1016/j.aim.2024.110046'
     journal: 'Advances in Mathematics'
     primary_category: math-ph
-    openalex_id: W4404740961
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '2109.01845'
     title: 'Variational Bihamiltonian Cohomologies and Integrable Hierarchies II: Virasoro symmetries'
     year: 2021
@@ -207,16 +282,14 @@ publications:
     doi: '10.1007/s00220-022-04433-7'
     journal: 'Communications in Mathematical Physics'
     primary_category: math-ph
-    openalex_id: W3197412569
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '2108.03447'
     title: 'Tri-Hamiltonian Structure of the Ablowitz-Ladik Hierarchy'
     year: 2021
     coauthors: ['Shuangxing Li', si-li, qu-haonan]
     doi: '10.1016/j.physd.2022.133180'
     primary_category: math-ph
-    openalex_id: W3188870856
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '2106.13038'
     title: 'Variational Bihamiltonian Cohomologies and Integrable Hierarchies I: Foundations'
     year: 2021
@@ -224,8 +297,7 @@ publications:
     doi: '10.1007/s00220-023-04658-0'
     journal: 'Communications in Mathematical Physics'
     primary_category: math.DG
-    openalex_id: W4287113467
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '2009.01143'
     title: 'Super tau-covers of bihamiltonian integrable hierarchies'
     year: 2020
@@ -233,8 +305,7 @@ publications:
     doi: '10.1016/j.geomphys.2021.104351'
     journal: 'Journal of Geometry and Physics Volume 170, December 2021, 104351'
     primary_category: math.DG
-    openalex_id: W3081827903
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '2005.02275'
     title: 'Masur--Veech volumes of quadratic differentials and their asymptotics'
     year: 2020
@@ -242,8 +313,7 @@ publications:
     doi: '10.1016/j.geomphys.2020.103870'
     journal: 'Journal of Geometry and Physics'
     primary_category: math-ph
-    openalex_id: W3055641647
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '1908.06707'
     title: 'Virasoro Constraints for Drinfeld-Sokolov hierarchies and equations of Painlevé type'
     year: 2019
@@ -251,8 +321,7 @@ publications:
     doi: '10.1112/jlms.12603'
     journal: 'Journal of the London Mathematical Society'
     primary_category: nlin.SI
-    openalex_id: W3121802394
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '1906.06860'
     title: 'The Hodge-FVH Correspondence'
     year: 2019
@@ -260,8 +329,7 @@ publications:
     doi: '10.1515/crelle-2020-0051'
     journal: 'Journal für die reine und angewandte Mathematik (Crelles Journal)'
     primary_category: math-ph
-    openalex_id: W3129493126
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '1811.10234'
     title: 'The Loop Equation for Special Cubic Hodge Integrals'
     year: 2018
@@ -269,8 +337,7 @@ publications:
     doi: '10.4310/jdg/1659987894'
     journal: 'Journal of Differential Geometry'
     primary_category: math.AG
-    openalex_id: W2901509376
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '1811.10137'
     title: 'Drinfeld-Sokolov hierarchies and diagram automorphisms of affine Kac-Moody algebras'
     year: 2018
@@ -278,8 +345,7 @@ publications:
     doi: '10.1007/s00220-019-03568-4'
     journal: 'C.M.P. (2019)'
     primary_category: nlin.SI
-    openalex_id: W2900487459
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '1702.02840'
     title: 'Fractional Volterra Hierarchy'
     year: 2017
@@ -287,8 +353,7 @@ publications:
     doi: '10.1007/s11005-017-1006-3'
     journal: 'Letters in Mathematical Physics'
     primary_category: nlin.SI
-    openalex_id: W2612245062
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '1701.03222'
     title: 'Bihamiltonian Cohomologies and Integrable Hierarchies II: the Tau Structures'
     year: 2017
@@ -303,8 +368,7 @@ publications:
     doi: '10.1007/s00220-020-03846-6'
     journal: 'Communications in Mathematical Physics'
     primary_category: math-ph
-    openalex_id: W3086463376
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '1510.08690'
     title: 'Extended affine Weyl groups of BCD type, Frobenius manifolds and their Landau-Ginzburg superpotentials'
     year: 2015
@@ -312,8 +376,7 @@ publications:
     doi: '10.1016/j.aim.2019.05.030'
     journal: 'Advances in Mathematics Volume 351, 31 July 2019, Pages 897-946'
     primary_category: math.DG
-    openalex_id: W2238565323
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '1502.01774'
     title: 'Central Invariants of the Constrained KP Hierarchies'
     year: 2015
@@ -321,8 +384,7 @@ publications:
     doi: '10.1016/j.geomphys.2015.07.017'
     journal: 'Journal of Geometry and Physics'
     primary_category: math-ph
-    openalex_id: W2116771441
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '1409.4616'
     title: 'Hodge integrals and tau-symmetric integrable hierarchies of Hamiltonian evolutionary PDEs'
     year: 2014
@@ -330,8 +392,7 @@ publications:
     doi: '10.1016/j.aim.2016.01.018'
     journal: 'Advances in Mathematics'
     primary_category: math.AG
-    openalex_id: W2138945228
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '1312.7227'
     title: 'BCFG Drinfeld-Sokolov Hierarchies and FJRW-Theory'
     year: 2013
@@ -339,8 +400,7 @@ publications:
     doi: '10.1007/s00222-014-0559-3'
     journal: 'Inventiones mathematicae'
     primary_category: math.AG
-    openalex_id: W1984477330
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '1305.2593'
     title: 'Uniqueness Theorem of W-Constraints for Simple Singularities'
     year: 2013
@@ -355,17 +415,7 @@ publications:
     doi: '10.1016/j.geomphys.2013.10.013'
     journal: 'Journal of Geometry and Physics'
     primary_category: math-ph
-    openalex_id: W2072458327
-    sources: [arxiv, openalex]
-  - id: 'doi:10.1007/s11464-013-0326-6'
-    title: 'Recent development in symmetries and integrability of difference equations'
-    year: 2013
-    coauthors: ['Xing‐Biao Hu', li-qin, 'Sen‐Yue Lou', 'Changzheng Qu']
-    doi: '10.1007/s11464-013-0326-6'
-    journal: 'Frontiers of Mathematics in China'
-    openalex_id: W2000928890
-    sources: [openalex]
-    no_arxiv: true
+    sources: [arxiv]
   - id: '1208.5847'
     title: 'Bihamiltonian Cohomologies and Integrable Hierarchies I: A Special Case'
     year: 2012
@@ -373,8 +423,7 @@ publications:
     doi: '10.1007/s00220-013-1822-y'
     journal: 'Communications in Mathematical Physics'
     primary_category: math.DG
-    openalex_id: W1989110582
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '1205.5990'
     title: 'On the Genus Two Free Energies for Semisimple Frobenius Manifolds'
     year: 2012
@@ -390,24 +439,21 @@ publications:
     doi: '10.1016/j.physd.2012.02.018'
     journal: 'Phys. D 241 (2012), no. 23-24, 2168--2177'
     primary_category: math.DG
-    openalex_id: W2962875010
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '1002.0034'
     title: 'On Symmetries of the WDVV Equations'
     year: 2010
     coauthors: [xu-xu]
     doi: '10.48550/arxiv.1002.0034'
     primary_category: math.DG
-    openalex_id: W1675327372
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '0912.5273'
     title: 'On the Drinfeld-Sokolov Hierarchies of D type'
     year: 2009
     coauthors: [si-li, 'Chao-Zhong Wu']
     doi: '10.48550/arxiv.0912.5273'
     primary_category: nlin.SI
-    openalex_id: W2951496844
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '0910.2085'
     title: 'Jacobi Structures of Evolutionary Partial Differential Equations'
     year: 2009
@@ -415,25 +461,14 @@ publications:
     doi: '10.1016/j.aim.2011.01.015'
     journal: 'Advances in Mathematics'
     primary_category: math.DG
-    openalex_id: W2963134958
-    sources: [arxiv, openalex]
-  - id: 'doi:10.1016/j.geomphys.2009.06.001'
-    title: 'Hamiltonian structures and their reciprocal transformations for the <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" altimg="si1.gif" display="inline" overflow="scroll"><mml:mi>r</mml:mi></mml:math>-KdV–CH hierarchy'
-    year: 2009
-    coauthors: ['Ming Chen', liu-siqi]
-    doi: '10.1016/j.geomphys.2009.06.001'
-    journal: 'Journal of Geometry and Physics'
-    openalex_id: W2117472779
-    sources: [openalex]
-    no_arxiv: true
+    sources: [arxiv]
   - id: '0809.0397'
     title: 'Hamiltonian Structures and Reciprocal Transformations for the $r$-KdV-CH Hierarchy'
     year: 2008
     coauthors: ['Ming Chen', si-li]
     doi: '10.48550/arxiv.0809.0397'
     primary_category: nlin.SI
-    openalex_id: W2009122536
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '0711.2599'
     title: 'On Properties of Hamiltonian Structures for a Class of Evolutionary PDEs'
     year: 2007
@@ -441,8 +476,7 @@ publications:
     doi: '10.1007/s11005-008-0234-y'
     journal: 'Letters in Mathematical Physics'
     primary_category: nlin.SI
-    openalex_id: W2131168379
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '0710.3115'
     title: 'Frobenius Manifolds and Central Invariants for the Drinfeld - Sokolov Bihamiltonian Structures'
     year: 2007
@@ -450,17 +484,7 @@ publications:
     doi: '10.1016/j.aim.2008.06.009'
     journal: 'Advances in Mathematics'
     primary_category: math.DG
-    openalex_id: W2103255893
-    sources: [arxiv, openalex]
-  - id: 'doi:10.1016/j.catcom.2006.11.002'
-    title: 'Low-temperature CO oxidation over CuO/Fe2O3 catalysts'
-    year: 2006
-    coauthors: ['Tao Cheng', 'Zhiyong Fang', 'Qixiu Hu', 'Kaidong Han', 'Xiaozhi Yang']
-    doi: '10.1016/j.catcom.2006.11.002'
-    journal: 'Catalysis Communications'
-    openalex_id: W2013457487
-    sources: [openalex]
-    no_arxiv: true
+    sources: [arxiv]
   - id: '0510250'
     title: 'Bihamiltonian Systems of Hydrodynamic Type and Reciprocal Transformations'
     year: 2005
@@ -475,8 +499,7 @@ publications:
     doi: '10.1016/j.geomphys.2006.02.005'
     journal: 'Journal of Geometry and Physics'
     primary_category: nlin.SI
-    openalex_id: W2047218706
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '0502365'
     title: 'Extended affine Weyl groups and Frobenius manifolds -- II'
     year: 2005
@@ -484,8 +507,7 @@ publications:
     doi: '10.1023/a:1000258122329'
     journal: 'Compositio Mathematica'
     primary_category: math.DG
-    openalex_id: W1829033056
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '0501028'
     title: 'A 2-Component Generalization of the Camassa-Holm Equation and Its Solutions'
     year: 2005
@@ -493,33 +515,21 @@ publications:
     doi: '10.1007/s11005-005-0041-7'
     journal: 'Letters in Mathematical Physics'
     primary_category: nlin.SI
-    openalex_id: W2027692750
-    sources: [arxiv, openalex]
-  - id: 'doi:10.1002/cpa.20111'
-    title: 'On Hamiltonian perturbations of hyperbolic systems of conservation laws I: Quasi‐Triviality of bi‐Hamiltonian perturbations'
-    year: 2005
-    coauthors: [dubrovin, si-li]
-    doi: '10.1002/cpa.20111'
-    journal: 'Communications on Pure and Applied Mathematics'
-    openalex_id: W2148634808
-    sources: [openalex]
-    no_arxiv: true
+    sources: [arxiv]
   - id: '0410027'
     title: 'On Hamiltonian perturbations of hyperbolic systems of conservation laws'
     year: 2004
     coauthors: [dubrovin, si-li]
     doi: '10.48550/arxiv.math/0410027'
     primary_category: math.DG
-    openalex_id: W1626671567
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '0406626'
     title: 'On the Quasitriviality of Deformations of Bihamiltonian Structures of Hydrodynamic Type'
     year: 2004
     coauthors: [si-li]
     doi: '10.48550/arxiv.math/0406626'
     primary_category: math.DG
-    openalex_id: W1510331524
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '0405146'
     title: 'Deformations of Semisimple Bihamiltonian Structures of Hydrodynamic Type'
     year: 2004
@@ -527,67 +537,35 @@ publications:
     doi: '10.1016/j.geomphys.2004.11.003'
     journal: 'Journal of Geometry and Physics'
     primary_category: math.DG
-    openalex_id: W2103879856
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '0308152'
     title: 'Virasoro Symmetries of the Extended Toda Hierarchy'
     year: 2003
     coauthors: [dubrovin]
     doi: '10.1007/s00220-004-1084-9'
     primary_category: math.DG
-    openalex_id: W3101856057
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '0306060'
     title: 'The Extended Toda Hierarchy'
     year: 2003
     coauthors: ['Guido Carlet', dubrovin]
     doi: '10.48550/arxiv.nlin/0306060'
     primary_category: nlin.SI
-    openalex_id: W2949335867
-    sources: [arxiv, openalex]
-  - id: 'doi:10.1016/s0393-0440(01)00036-5'
-    title: 'On the CP1 topological sigma model and the Toda lattice hierarchy'
-    year: 2002
-    coauthors: []
-    doi: '10.1016/s0393-0440(01)00036-5'
-    journal: 'Journal of Geometry and Physics'
-    openalex_id: W2136890688
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.2991/jnmp.2002.9.s1.20'
-    title: 'Deformations of the Bihamiltonian Structures on the Loop Space of Frobenius Manifolds'
-    year: 2002
-    coauthors: []
-    doi: '10.2991/jnmp.2002.9.s1.20'
-    journal: 'Journal of Nonlinear Mathematical Physics'
-    openalex_id: W2767298164
-    sources: [openalex]
-    no_arxiv: true
+    sources: [arxiv]
   - id: '0108160'
     title: 'Normal forms of hierarchies of integrable PDEs, Frobenius manifolds and Gromov - Witten invariants'
     year: 2001
     coauthors: [dubrovin]
     doi: '10.48550/arxiv.math/0108160'
     primary_category: math.DG
-    openalex_id: W1634975405
-    sources: [arxiv, openalex]
-  - id: 'doi:10.1088/0305-4470/32/36/308'
-    title: 'On a reduction of the multi-component KP hierarchy'
-    year: 1999
-    coauthors: []
-    doi: '10.1088/0305-4470/32/36/308'
-    journal: 'Journal of Physics A Mathematical and General'
-    openalex_id: W2126432359
-    sources: [openalex]
-    no_arxiv: true
+    sources: [arxiv]
   - id: '9808048'
     title: 'Frobenius Manifolds And Virasoro Constraints'
     year: 1998
     coauthors: [dubrovin]
     doi: '10.48550/arxiv.math/9808048'
     primary_category: math.AG
-    openalex_id: W2949317109
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '9712232'
     title: 'Bihamiltonian Hierarchies in 2D Topological Field Theory At One-Loop Approximation'
     year: 1997
@@ -603,114 +581,6 @@ publications:
     journal: 'Compositio Mathematica 111 (1998), 167--219'
     primary_category: hep-th
     sources: [arxiv]
-  - id: 'doi:10.1088/0305-4470/29/10/037'
-    title: 'Wronskian-type solutions for the vector<b><i>k</i></b>-constrained KP hierarchy'
-    year: 1996
-    coauthors: []
-    doi: '10.1088/0305-4470/29/10/037'
-    journal: 'Journal of Physics A Mathematical and General'
-    openalex_id: W1998837906
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1007/bf00403246'
-    title: 'On Segal-Wilson''s construction for the ?-functions of the constrained KP hierarchies'
-    year: 1996
-    coauthors: []
-    doi: '10.1007/bf00403246'
-    journal: 'Letters in Mathematical Physics'
-    openalex_id: W1967704578
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1007/978-94-009-0179-7_21'
-    title: 'Constraints of the KP Hierarchy and the Bilinear Method'
-    year: 1995
-    coauthors: ['Yi Cheng', 'Walter Strampp']
-    doi: '10.1007/978-94-009-0179-7_21'
-    journal: 'Acta Applicandae Mathematicae'
-    openalex_id: W2042554204
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1063/1.530716'
-    title: 'Solutions for the vector <i>k</i>-constrained KP hierarchy'
-    year: 1994
-    coauthors: ['Yi Cheng']
-    doi: '10.1063/1.530716'
-    journal: 'Journal of Mathematical Physics'
-    openalex_id: W2017848230
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1088/0266-5611/10/2/001'
-    title: 'Bilinear equations for the constrained KP hierarchy'
-    year: 1994
-    coauthors: ['Yi Cheng']
-    doi: '10.1088/0266-5611/10/2/001'
-    journal: 'Inverse Problems'
-    openalex_id: W2023095963
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1088/0305-4470/27/24/022'
-    title: 'A class of integro-differential equations constrained from the KP hierarchy'
-    year: 1994
-    coauthors: []
-    doi: '10.1088/0305-4470/27/24/022'
-    journal: 'Journal of Physics A Mathematical and General'
-    openalex_id: W1991737519
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1088/0305-4470/27/13/031'
-    title: 'The Wronskian structure for solution of the k-constrained KP hierarchy'
-    year: 1994
-    coauthors: ['Yi Cheng']
-    doi: '10.1088/0305-4470/27/13/031'
-    journal: 'Journal of Physics A Mathematical and General'
-    openalex_id: W1981260498
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1088/0305-4470/26/24/021'
-    title: 'Symmetries of a (2+1)-dimensional breaking soliton equation'
-    year: 1993
-    coauthors: ['Yishen Li']
-    doi: '10.1088/0305-4470/26/24/021'
-    journal: 'Journal of Physics A Mathematical and General'
-    openalex_id: W2010722708
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1088/0305-4470/25/4/022'
-    title: 'A remark on the representation theory of the algebra U<sub>q</sub>(sl(n)) when q is a root of unity'
-    year: 1992
-    coauthors: []
-    doi: '10.1088/0305-4470/25/4/022'
-    journal: 'Journal of Physics A Mathematical and General'
-    openalex_id: W2050776591
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1007/978-3-642-84148-4_5'
-    title: 'Bäcklund Transformations for the Isospectral and Non-Isospectral KdV Hierarchies'
-    year: 1990
-    coauthors: ['Chou Tian']
-    doi: '10.1007/978-3-642-84148-4_5'
-    journal: 'Research reports in physics'
-    openalex_id: W2030875195
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1360/ya1990-33-12-1439'
-    title: 'SYMMETRIES AND RELATED LOOP ALGEBRA AND VIRASORO ALGEBRA FOR SELF-DUAL YANG-MILLS EQUATION'
-    year: 1990
-    coauthors: []
-    doi: '10.1360/ya1990-33-12-1439'
-    journal: 'Science in China Series A-Mathematics Physics Astronomy & Technological Science'
-    openalex_id: W2362572628
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1007/bf02007234'
-    title: 'A correspondence between the AKNS hierarchy and the JM hierarchy'
-    year: 1988
-    coauthors: ['Gu Xinshen']
-    doi: '10.1007/bf02007234'
-    journal: 'Acta Mathematicae Applicatae Sinica English Series'
-    openalex_id: W2035261176
-    sources: [openalex]
-    no_arxiv: true
 sources:
 - label: OpenAlex
   url: https://openalex.org/authors/A5076963789

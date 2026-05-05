@@ -31,6 +31,49 @@ research_areas:
   - singularity-theory
   - yau-algebra
   - number-theory
+identity_profile:
+  openalex_id: 'A5109468244'
+  affiliations:
+    - institution: 'bimsa'
+      period: '[待验证]-2025'
+      role: '研究员'
+    - institution: 'sun-yat-sen'
+      period: '2025-present'
+      role: '博士生导师'
+  email_domains: [bimsa.cn, mail.sysu.edu.cn]
+  coauthor_circle_core_slugs: [chen-zhuo]
+  coauthor_circle_core_names: ['Zhuo Chen']
+  coauthor_circle_extended_slugs: [ni-dadi, xiang-maosong, xu-xu, yang-di]
+  coauthor_circle_extended_names: ['Dadi Ni', 'Di Yang', 'Maosong Xiang', 'Xu Xu']
+  research_keywords:
+    - 'algebra'
+    - 'algebraic'
+    - 'codes'
+    - 'coding'
+    - 'drinfeld'
+    - 'fields'
+    - 'function'
+    - 'geometry'
+    - 'modules'
+    - 'number'
+    - 'singularity'
+    - 'theory'
+  known_arxiv_ids:
+    - '2604.04124'
+    - '2603.23930'
+    - '2512.03860'
+    - '2510.27159'
+    - '2410.10124'
+    - '2409.09384'
+    - '2312.16919'
+    - '2309.00432'
+    - '1912.02668'
+    - '1911.04269'
+    - '1810.11969'
+    - '1706.00313'
+    - '1705.05213'
+    - '1607.05887'
+    - '1607.05462'
 advisor: null
 students: []
 key_collaborators:
@@ -91,8 +134,7 @@ publications:
     coauthors: ['Xiuwu Zhu']
     doi: '10.48550/arxiv.2510.27159'
     primary_category: math.NT
-    openalex_id: W4415916252
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '2410.10124'
     title: 'Groupoids derived from the simple elliptic singularities'
     year: 2024
@@ -105,8 +147,7 @@ publications:
     coauthors: ['Stephen S.-T. Yau', 'Huaiqing Zuo']
     doi: '10.48550/arxiv.2409.09384'
     primary_category: math.AG
-    openalex_id: W4403667187
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '2312.16919'
     title: 'Drinfeld Module and Weil pairing over Dedekind domain of class number two'
     year: 2023
@@ -119,26 +160,7 @@ publications:
     coauthors: [chen-zhuo, 'Tao Zhang', 'Xiaopeng Zheng']
     doi: '10.48550/arxiv.2309.00432'
     primary_category: math.NT
-    openalex_id: W4386436307
-    sources: [arxiv, openalex]
-  - id: 'doi:10.4310/cag.2022.v30.n8.a6'
-    title: 'Complex structures of a twenty-dimensional family of Calabi–Yau $3$-folds'
-    year: 2022
-    coauthors: ['Stephen S.‐T. Yau', 'Huaiqing Zuo']
-    doi: '10.4310/cag.2022.v30.n8.a6'
-    journal: 'Communications in Analysis and Geometry'
-    openalex_id: W4384161415
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1016/j.aam.2020.102085'
-    title: 'Weight enumerators for nonbinary asymmetric quantum codes and their applications'
-    year: 2020
-    coauthors: [yang-di, 'Stephen S.‐T. Yau']
-    doi: '10.1016/j.aam.2020.102085'
-    journal: 'Advances in Applied Mathematics'
-    openalex_id: W3046255656
-    sources: [openalex]
-    no_arxiv: true
+    sources: [arxiv]
   - id: '1912.02668'
     title: 'A Modular Interpretation of BBGS Towers'
     year: 2019
@@ -151,24 +173,13 @@ publications:
     coauthors: [yang-di]
     doi: '10.48550/arxiv.1911.04269'
     primary_category: math.NT
-    openalex_id: W2987293119
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '1810.11969'
     title: 'Complete Weight Distribution and MacWilliams Identities for Asymmetric Quantum Codes'
     year: 2018
     coauthors: [yang-di, 'Stephen S.-T. Yau']
     doi: '10.48550/arxiv.1810.11969'
-    openalex_id: W2898201708
-    sources: [arxiv, openalex]
-  - id: 'doi:10.4310/sdg.2018.v23.n1.a5'
-    title: 'Recent results on $k$-th Yau algebras over simple elliptic singularities $\tilde{E}_6$'
-    year: 2018
-    coauthors: ['Stephen S.-T. Yau', 'Huaiqing Zuo']
-    doi: '10.4310/sdg.2018.v23.n1.a5'
-    journal: 'Surveys in Differential Geometry'
-    openalex_id: W3022168667
-    sources: [openalex]
-    no_arxiv: true
+    sources: [arxiv]
   - id: '1706.00313'
     title: 'Multi-point Codes from the GGS Curves'
     year: 2017
@@ -180,8 +191,7 @@ publications:
     coauthors: [yang-di]
     doi: '10.1016/j.ffa.2017.12.002'
     journal: 'Finite Fields and Their Applications'
-    openalex_id: W2772443718
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '1607.05887'
     title: 'Weierstrass Semigroups from Kummer Extensions'
     year: 2016
@@ -192,24 +202,10 @@ publications:
     year: 2016
     coauthors: []
     sources: [arxiv]
-  - id: 'openalex:W3031184386'
-    title: 'A Note on Scalar Multiplication Using Division Polynomials.'
-    year: 2015
-    coauthors: ['Bing-Long Chen', 'Chang‐An Zhao']
-    openalex_id: W3031184386
-    sources: [openalex]
-    no_arxiv: true
-  - id: '1507.03418'
-    title: 'Explicit Construction of AG Codes from Generalized Hermitian Curves'
-    year: 2015
-    coauthors: []
-    doi: '10.48550/arxiv.1507.03418'
-    openalex_id: W1667172403
-    sources: [openalex]
 activity:
-  total_papers: 20
-  published_count: 10
-  preprint_only_count: 10
+  total_papers: 15
+  published_count: 6
+  preprint_only_count: 9
   active_period: '2016-present'
 external_ids:
   openalex: A5109468244

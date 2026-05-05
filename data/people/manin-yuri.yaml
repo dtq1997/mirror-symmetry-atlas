@@ -46,13 +46,84 @@ research_areas:
 - quantum-cohomology
 - frobenius-manifolds
 - mathematical-physics
+identity_profile:
+  openalex_id: 'A5112460582'
+  mathgenealogy_id: '44134'
+  affiliations:
+    - institution: 'moscow-state'
+      period: '1953-1960'
+      role: '本科→博士'
+    - institution: 'moscow-state'
+      period: '1963'
+      role: 'Habilitation'
+    - institution: 'moscow-state'
+      period: '1965-1993'
+      role: 'Professor of Algebra'
+    - institution: 'mpim-bonn'
+      period: '1993-2005'
+      role: 'Director'
+    - institution: 'northwestern'
+      period: '2002-2011'
+      role: 'Professor'
+  email_domains: [northwestern.edu]
+  coauthor_circle_extended_slugs: [hertling, kontsevich]
+  coauthor_circle_extended_names: ['Claus Hertling', 'Maxim Kontsevich']
+  research_keywords:
+    - 'algebraic'
+    - 'cohomology'
+    - 'frobenius'
+    - 'geometry'
+    - 'manifolds'
+    - 'mathematical'
+    - 'number'
+    - 'physics'
+    - 'quantum'
+    - 'theory'
+  known_arxiv_ids:
+    - '2203.15855'
+    - '2202.10321'
+    - '2112.15237'
+    - '2101.00197'
+    - '2012.13814'
+    - '2006.13663'
+    - '1907.13545'
+    - '1901.10301'
+    - '1901.00020'
+    - '1806.10801'
+    - '1701.01261'
+    - '1601.00096'
+    - '1407.4969'
+    - '1312.5160'
+    - '1307.3841'
+    - '1302.6526'
+    - '1301.0078'
+    - '1107.4915'
+    - '0908.3430'
+    - '0904.4921'
+    - '0809.2716'
+    - '0809.1564'
+    - '0703718'
+    - '0607580'
+    - '0502016'
+    - '0402451'
+    - '0209244'
+    - '0207089'
+    - '0202109'
+    - '0201036'
+    - '0201005'
+    - '0103164'
+    - '0102006'
+    - '0011197'
+    - '0005144'
+    - '9810132'
+    - '9708024'
 advisor: shafarevich
 students: []
 key_collaborators: []
 activity:
-  total_papers: 176
-  published_count: 138
-  preprint_only_count: 38
+  total_papers: 37
+  published_count: 11
+  preprint_only_count: 26
   h_index: 46
   active_period: '1960-2023'
   phd_students: 54
@@ -75,15 +146,6 @@ personal_notes: '54 名博士生，360 名学术后代。学生包括 Kontsevich
 
   '
 publications:
-  - id: 'doi:10.1134/s2070046623030020'
-    title: 'Modular Nori Motives'
-    year: 2023
-    coauthors: ['Noémie C. Combe', 'Yu. I. Manin', 'Matilde Marcolli']
-    doi: '10.1134/s2070046623030020'
-    journal: 'P-Adic Numbers Ultrametric Analysis and Applications'
-    openalex_id: W4388404737
-    sources: [openalex]
-    no_arxiv: true
   - id: '2203.15855'
     title: 'Supercycles, stable supermaps and SUSY Nori motives'
     year: 2022
@@ -97,13 +159,6 @@ publications:
     coauthors: ['Enno Ke ler', manin-yuri, 'Yingying Wu']
     primary_category: math.AG
     sources: [arxiv]
-  - id: '2208.11629'
-    title: 'Quantum SUSY operads'
-    year: 2022
-    coauthors: ['N. C. Combe', 'Yu. I. Manin', 'M. Marcolli']
-    doi: '10.48550/arxiv.2208.11629'
-    openalex_id: W4293136324
-    sources: [openalex]
   - id: '2112.15237'
     title: 'Quantum Operads'
     year: 2021
@@ -142,12 +197,6 @@ publications:
     coauthors: [manin-yuri, 'Matilde Marcolli']
     primary_category: math.AG
     sources: [arxiv]
-  - id: '1907.10313'
-    title: 'Genus zero modular operad and its involution in the Grothendieck-Teichmuller group'
-    year: 2019
-    coauthors: ['Noémie C. Combe', 'Yu. I. Manin']
-    openalex_id: W2963863602
-    sources: [openalex]
   - id: '1901.00020'
     title: 'Bost-Connes systems and F1-structures in Grothendieck rings, spectra, and Nori motives'
     year: 2018
@@ -160,15 +209,6 @@ publications:
     coauthors: [manin-yuri, 'Matilde Marcolli']
     primary_category: math.AG
     sources: [arxiv]
-  - id: 'doi:10.1070/rm9828'
-    title: 'Vladimir Antonovich Zorich'
-    year: 2018
-    coauthors: ['А. И. Аптекарев', 'Victor Matveevich Buchstaber', si-li, 'M. Gromov', 'Yu. Ilyashenko', 'Борис Сергеевич Кашин', 'Владимир Михайлович Кесельман', 'В. В. Козлов', kontsevich, 'I. M. Krichever', 'N. G. Kruzhilin', 'Сергей Константинович Ландо', 'Yu. I. Manin', 'G. A. Margulis', 'Stefan Nemirovski', 'S P Novikov', 'Yu. G. Reshetnyak', 'Ya. G. Sinaǐ', 'Sergey Pavlovich Suetin', 'Dmitry Treschev', 'Dmitry Fuchs', 'Askold Khovanskiĭ', 'E. M. Chirka', 'Albert Schwarz', 'Albert N. Shiryaev']
-    doi: '10.1070/rm9828'
-    journal: 'Russian Mathematical Surveys'
-    openalex_id: W2898531677
-    sources: [openalex]
-    no_arxiv: true
   - id: '1701.01261'
     title: 'Grothendieck-Verdier duality patterns in quantum algebra'
     year: 2017
@@ -176,30 +216,12 @@ publications:
     doi: '10.1070/IM8620'
     primary_category: math.QA
     sources: [arxiv]
-  - id: 'doi:10.1070/rm9782'
-    title: 'Askar Serkulovich Dzhumadil''daev (on his 60th birthday)'
-    year: 2017
-    coauthors: ['L. A. Bokut', 'Efim Zelmanov', 'Pasha Zusmanovich', 'Victor G. Kač', 'Leonid Makar-Limanov', 'Yu. I. Manin', 'S P Novikov', 'Алексей Николаевич Паршин', 'В. П. Платонов', 'I. A. Taĭmanov', 'Ualbai Umirbaev', 'I. P. Shestakov']
-    doi: '10.1070/rm9782'
-    journal: 'Russian Mathematical Surveys'
-    openalex_id: W2756814023
-    sources: [openalex]
-    no_arxiv: true
   - id: '1601.00096'
     title: 'Modular forms of real weights and generalized Dedekind symbols'
     year: 2016
     coauthors: [manin-yuri]
     primary_category: math.NT
     sources: [arxiv]
-  - id: 'doi:10.1134/s2070046616030031'
-    title: 'Painlevé VI equations in p-adic time'
-    year: 2016
-    coauthors: ['Yu. I. Manin']
-    doi: '10.1134/s2070046616030031'
-    journal: 'P-Adic Numbers Ultrametric Analysis and Applications'
-    openalex_id: W2512855008
-    sources: [openalex]
-    no_arxiv: true
   - id: '1407.4969'
     title: 'Local zeta factors and geometries under Spec Z'
     year: 2014
@@ -207,8 +229,7 @@ publications:
     doi: '10.1070/im8392'
     journal: 'Izvestiya Mathematics'
     primary_category: math.AG
-    openalex_id: W2962761761
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '1312.5160'
     title: 'Numbers as functions'
     year: 2013
@@ -216,8 +237,7 @@ publications:
     doi: '10.1134/S2070046613040055'
     journal: 'P-adic Numbers, Ultrametric Analysis and Applications, Vol. 5, no. 4, 2013, 313-325'
     primary_category: math.NT
-    openalex_id: W2164405552
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '1307.3841'
     title: 'Arithmetic Differential Equations of Painleve'' VI Type'
     year: 2013
@@ -236,35 +256,12 @@ publications:
     coauthors: [manin-yuri]
     primary_category: math.NT
     sources: [arxiv]
-  - id: '1001.0223'
-    title: 'Combinatorial cubic surfaces and reconstruction theorems'
-    year: 2012
-    coauthors: ['Yu. I. Manin']
-    doi: '10.1090/conm/566/11217'
-    openalex_id: W1642172224
-    sources: [openalex]
   - id: '1107.4915'
     title: 'Towards motivic quantum cohomology of $\bar{M}_{0,S}$'
     year: 2011
     coauthors: [manin-yuri, 'Maxim Smirnov']
     primary_category: math.AG
     sources: [arxiv]
-  - id: '1201.0265'
-    title: 'On the derived category of $\bar{M}_{0,n}$'
-    year: 2011
-    coauthors: ['Yu. I. Manin', 'Maxim Smirnov']
-    doi: '10.48550/arxiv.1201.0265'
-    openalex_id: W1755016542
-    sources: [openalex]
-  - id: 'doi:10.1007/978-0-8176-4831-2'
-    title: 'Arithmetic and Geometry Around Quantization'
-    year: 2010
-    coauthors: ['Özgür Ceyhan', 'Yu. I. Manin', 'Matilde Marcolli']
-    doi: '10.1007/978-0-8176-4831-2'
-    journal: 'Progress in mathematics'
-    openalex_id: W394593614
-    sources: [openalex]
-    no_arxiv: true
   - id: '0908.3430'
     title: 'Renormalization and Computation II: Time Cut-off and the Halting Problem'
     year: 2009
@@ -277,85 +274,6 @@ publications:
     coauthors: [manin-yuri]
     primary_category: math.QA
     sources: [arxiv]
-  - id: 'doi:10.1007/978-1-4419-0615-1_7'
-    title: 'Gödel’s Incompleteness Theorem'
-    year: 2009
-    coauthors: ['Yu. I. Manin']
-    doi: '10.1007/978-1-4419-0615-1_7'
-    journal: 'Graduate texts in mathematics'
-    openalex_id: W1481585902
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1007/978-1-4419-0615-1_3'
-    title: 'The Continuum Problem and Forcing'
-    year: 2009
-    coauthors: ['Yu. I. Manin']
-    doi: '10.1007/978-1-4419-0615-1_3'
-    journal: 'Graduate texts in mathematics'
-    openalex_id: W1536040084
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1007/978-1-4419-0615-1_9'
-    title: 'Constructive Universe and Computation'
-    year: 2009
-    coauthors: ['Yu. I. Manin']
-    doi: '10.1007/978-1-4419-0615-1_9'
-    journal: 'Graduate texts in mathematics'
-    openalex_id: W183665633
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1007/978-1-4419-0615-1_2'
-    title: 'Truth and Deducibility'
-    year: 2009
-    coauthors: ['Yu. I. Manin']
-    doi: '10.1007/978-1-4419-0615-1_2'
-    journal: 'Graduate texts in mathematics'
-    openalex_id: W1874081639
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1007/978-1-4419-0615-1_6'
-    title: 'Diophantine Sets and Algorithmic Undecidability'
-    year: 2009
-    coauthors: ['Yu. I. Manin']
-    doi: '10.1007/978-1-4419-0615-1_6'
-    journal: 'Graduate texts in mathematics'
-    openalex_id: W2133329168
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1007/978-1-4419-0615-1_4'
-    title: 'The Continuum Problem and Constructible Sets'
-    year: 2009
-    coauthors: ['Yu. I. Manin']
-    doi: '10.1007/978-1-4419-0615-1_4'
-    journal: 'Graduate texts in mathematics'
-    openalex_id: W2161610440
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'openalex:W3200540379'
-    title: 'A Course in Mathematical Logic for Mathematicians by Yu. I. Manin Mathematics'
-    year: 2009
-    coauthors: ['Yu. I. Manin']
-    openalex_id: W3200540379
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1007/978-1-4419-0615-1_10'
-    title: 'Model Theory'
-    year: 2009
-    coauthors: ['Yu. I. Manin']
-    doi: '10.1007/978-1-4419-0615-1_10'
-    journal: 'Graduate texts in mathematics'
-    openalex_id: W4234359635
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1007/978-1-4419-0615-1_8'
-    title: 'Recursive Groups'
-    year: 2009
-    coauthors: ['Yu. I. Manin']
-    doi: '10.1007/978-1-4419-0615-1_8'
-    journal: 'Graduate texts in mathematics'
-    openalex_id: W4238401775
-    sources: [openalex]
-    no_arxiv: true
   - id: '0809.2716'
     title: 'Quantum theta functions and Gabor frames for modulation spaces'
     year: 2008
@@ -369,50 +287,12 @@ publications:
     coauthors: [manin-yuri]
     primary_category: math.AG
     sources: [arxiv]
-  - id: '0803.2769'
-    title: 'An update on semisimple quantum cohomology and F-manifolds'
-    year: 2008
-    coauthors: [hertling, 'Yu. I. Manin', 'Constantin Teleman']
-    doi: '10.48550/arxiv.0803.2769'
-    openalex_id: W2949792811
-    sources: [openalex]
-  - id: '0805.4057'
-    title: 'Truth as value and duty: lessons of mathematics'
-    year: 2008
-    coauthors: ['Yu. I. Manin']
-    doi: '10.48550/arxiv.0805.4057'
-    openalex_id: W1593747395
-    sources: [openalex]
-  - id: '0803.3270'
-    title: 'Remarks on modular symbols for Maass wave forms'
-    year: 2008
-    coauthors: ['Yu. I. Manin']
-    doi: '10.48550/arxiv.0803.3270'
-    openalex_id: W1995820577
-    sources: [openalex]
   - id: '0703718'
     title: 'Modular shadows and the Levy-Mellin infinity-adic transform'
     year: 2007
     coauthors: ['Matilde Marcolli']
     primary_category: math.NT
     sources: [arxiv]
-  - id: 'doi:10.48550/arxiv.math/0703427'
-    title: 'Mathematical knowledge: internal, social and cultural aspects'
-    year: 2007
-    coauthors: ['Yu. I. Manin']
-    doi: '10.48550/arxiv.math/0703427'
-    openalex_id: W1728769630
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1070/rm2007v062n06abeh004496'
-    title: 'Fedor Alekseevich Bogomolov (on his 60th birthday)'
-    year: 2007
-    coauthors: [si-li, 'Yu G Zarhin', 'V. A. Iskovskikh', 'D. Kaledin', 'Виктор Степанович Куликов', 'Yu. I. Manin', 'Dmitri Olegovich Orlov', 'Алексей Николаевич Паршин', 'Igor R. Shafarevich']
-    doi: '10.1070/rm2007v062n06abeh004496'
-    journal: 'Russian Mathematical Surveys'
-    openalex_id: W2045436500
-    sources: [openalex]
-    no_arxiv: true
   - id: '0607580'
     title: 'Stability Conditions, Wall-crossing and weighted Gromov-Witten Invariants'
     year: 2006
@@ -420,95 +300,18 @@ publications:
     journal: 'Mosc. Math. J., 2009, 9, 3-32'
     primary_category: math.AG
     sources: [arxiv]
-  - id: 'doi:10.48550/arxiv.math/0609748'
-    title: 'Generalized operads and their inner cohomomorphisms'
-    year: 2006
-    coauthors: ['Dennis Borisov', 'Yu. I. Manin']
-    doi: '10.48550/arxiv.math/0609748'
-    openalex_id: W2968552967
-    sources: [openalex]
-    no_arxiv: true
   - id: '0502016'
     title: 'The notion of dimension in geometry and algebra'
     year: 2005
     coauthors: [manin-yuri]
     primary_category: math.AG
     sources: [arxiv]
-  - id: 'doi:10.17323/1609-4514-2005-5-4-869-881'
-    title: 'Iterated Shimura Integrals'
-    year: 2005
-    coauthors: ['Yu. I. Manin']
-    doi: '10.17323/1609-4514-2005-5-4-869-881'
-    journal: 'Moscow Mathematical Journal'
-    openalex_id: W2962944652
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1017/cbo9780511614156.004'
-    title: 'Rational curves, elliptic curves, and the Painlevé equation'
-    year: 2005
-    coauthors: ['Yu. I. Manin']
-    doi: '10.1017/cbo9780511614156.004'
-    journal: 'Cambridge University Press eBooks'
-    openalex_id: W1539920332
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.48550/arxiv.math/0502576'
-    title: 'Iterated integrals of modular forms and noncommutative modular symbols'
-    year: 2005
-    coauthors: ['Yu. I. Manin']
-    doi: '10.48550/arxiv.math/0502576'
-    openalex_id: W4394641379
-    sources: [openalex]
-    no_arxiv: true
   - id: '0402451'
     title: 'F-manifolds with flat structure and Dubrovin''s duality'
     year: 2004
     coauthors: [manin-yuri]
     primary_category: math.DG
     sources: [arxiv]
-  - id: 'doi:10.1007/978-3-642-18908-1_23'
-    title: 'Real Multiplication and Noncommutative Geometry (ein Alterstraum)'
-    year: 2004
-    coauthors: ['Yu. I. Manin']
-    doi: '10.1007/978-3-642-18908-1_23'
-    openalex_id: W121039991
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1007/978-3-322-80236-1_8'
-    title: 'Extended Modular Operad'
-    year: 2004
-    coauthors: ['A. Losev', 'Yu. I. Manin']
-    doi: '10.1007/978-3-322-80236-1_8'
-    journal: 'Aspects of mathematics. E'
-    openalex_id: W1662155073
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.17323/1609-4514-2004-4-1-181-198'
-    title: 'Moduli Stacks Lg,S'
-    year: 2004
-    coauthors: ['Yu. I. Manin']
-    doi: '10.17323/1609-4514-2004-4-1-181-198'
-    journal: 'Moscow Mathematical Journal'
-    openalex_id: W3150288672
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1112/s0010437x03000125'
-    title: 'Multiple $\zeta$-motives and moduli spaces $\overline{\mathcal{M}}_{0,n}$'
-    year: 2003
-    coauthors: ['A. B. Goncharov', 'Yu. I. Manin']
-    doi: '10.1112/s0010437x03000125'
-    journal: 'Compositio Mathematica'
-    openalex_id: W2080520893
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.48550/arxiv.math/0307393'
-    title: 'Functional equations for quantum theta functions'
-    year: 2003
-    coauthors: ['Yu. I. Manin']
-    doi: '10.48550/arxiv.math/0307393'
-    openalex_id: W2133725616
-    sources: [openalex]
-    no_arxiv: true
   - id: '0209244'
     title: 'Georg Cantor and his heritage'
     year: 2002
@@ -540,22 +343,6 @@ publications:
     coauthors: [manin-yuri]
     primary_category: math.AG
     sources: [arxiv]
-  - id: 'doi:10.48550/arxiv.math/0204102'
-    title: 'Multiple zeta-motives and moduli spaces M_{0,n}'
-    year: 2002
-    coauthors: ['A. B. Goncharov', 'Yu. I. Manin']
-    doi: '10.48550/arxiv.math/0204102'
-    openalex_id: W1512049240
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.48550/arxiv.math/0206123'
-    title: 'Moduli stacks $\bar{L}_{g,S}$'
-    year: 2002
-    coauthors: ['Yu. I. Manin']
-    doi: '10.48550/arxiv.math/0206123'
-    openalex_id: W1894778619
-    sources: [openalex]
-    no_arxiv: true
   - id: '0103164'
     title: '(Semi)simple exercises in quantum cohomology'
     year: 2001
@@ -569,24 +356,6 @@ publications:
     coauthors: [manin-yuri, 'Matilde Marcolli']
     primary_category: math.NT
     sources: [arxiv]
-  - id: 'doi:10.1353/ajm.2001.0033'
-    title: 'Modules and Morita theorem for operads'
-    year: 2001
-    coauthors: ['Mikhail Kapranov', 'Yu. I. Manin']
-    doi: '10.1353/ajm.2001.0033'
-    journal: 'American Journal of Mathematics'
-    openalex_id: W2048763806
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1007/978-3-0348-8303-0_9'
-    title: 'Mirror Symmetry and Quantization of Abelian Varieties'
-    year: 2001
-    coauthors: ['Yu. I. Manin']
-    doi: '10.1007/978-3-0348-8303-0_9'
-    journal: 'Birkhäuser Basel eBooks'
-    openalex_id: W1791268817
-    sources: [openalex]
-    no_arxiv: true
   - id: '0011197'
     title: 'Theta functions, quantum tori and Heisenberg groups'
     year: 2000
@@ -599,54 +368,6 @@ publications:
     coauthors: [manin-yuri]
     primary_category: math.AG
     sources: [arxiv]
-  - id: 'openalex:W2967508959'
-    title: 'Mathematics as profession and vocation'
-    year: 2000
-    coauthors: ['Виталий Дмитриевич Арнольд', 'Yu. I. Manin']
-    openalex_id: W2967508959
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.48550/arxiv.math/0001003'
-    title: 'New moduli spaces of pointed curves and pencils of flat connections'
-    year: 2000
-    coauthors: ['A. Losev', 'Yu. I. Manin']
-    doi: '10.48550/arxiv.math/0001003'
-    openalex_id: W2951183965
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'openalex:W2968861291'
-    title: 'Rational curves, elliptic curves and the Painlevé equation (in Russian).'
-    year: 2000
-    coauthors: ['Yu. I. Manin']
-    openalex_id: W2968861291
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1007/bf02551390'
-    title: 'Foreword'
-    year: 2000
-    coauthors: ['Yu. I. Manin']
-    doi: '10.1007/bf02551390'
-    journal: 'Theoretical and Mathematical Physics'
-    openalex_id: W4229561137
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.48550/arxiv.math/0011198'
-    title: 'Composition of points and Mordell-Weil problem for cubic surfaces'
-    year: 2000
-    coauthors: ['D. Kanevsky', 'Yu. I. Manin']
-    doi: '10.48550/arxiv.math/0011198'
-    openalex_id: W4306251820
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.4310/ajm.1999.v3.n1.a8'
-    title: 'Three constructions of Frobenius manifolds: A comparative study'
-    year: 1999
-    coauthors: ['Yu. I. Manin']
-    doi: '10.4310/ajm.1999.v3.n1.a8'
-    journal: 'Asian Journal of Mathematics'
-    openalex_id: W2027362535
-    sources: [openalex]
-    no_arxiv: true
   - id: '9810132'
     title: 'Weak Frobenius manifolds'
     year: 1998
@@ -654,23 +375,7 @@ publications:
     doi: '10.1155/s1073792899000148'
     journal: 'International Mathematics Research Notices'
     primary_category: math.QA
-    openalex_id: W2963223254
-    sources: [arxiv, openalex]
-  - id: 'openalex:W2181402747'
-    title: 'Interrelations between Mathematics and Physics'
-    year: 1998
-    coauthors: ['Yu. I. Manin']
-    openalex_id: W2181402747
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.48550/arxiv.math/9801005'
-    title: 'Stable maps of genus zero to flag spaces'
-    year: 1998
-    coauthors: ['Yu. I. Manin']
-    doi: '10.48550/arxiv.math/9801005'
-    openalex_id: W2951547525
-    sources: [openalex]
-    no_arxiv: true
+    sources: [arxiv]
   - id: '9708024'
     title: 'Relations between the correlators of the topological sigma-model coupled to gravity'
     year: 1997
@@ -678,844 +383,7 @@ publications:
     doi: '10.1007/s002200050426'
     journal: 'Commun.Math.Phys. 196 (1998) 385-398'
     primary_category: math.AG
-    openalex_id: W2042210864
-    sources: [arxiv, openalex]
-  - id: 'doi:10.1090/crmp/011/15'
-    title: 'Mordell-Weil problem for cubic surfaces'
-    year: 1997
-    coauthors: ['Yu. I. Manin']
-    doi: '10.1090/crmp/011/15'
-    journal: 'CRM proceedings & lecture notes'
-    openalex_id: W1635595378
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.48550/arxiv.alg-geom/9702014'
-    title: 'Semisimple Frobenius (super)manifolds and quantum cohomology of $P^r$'
-    year: 1997
-    coauthors: ['Yu. I. Manin', 'Sergei Merkulov']
-    doi: '10.48550/arxiv.alg-geom/9702014'
-    openalex_id: W2951515547
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1070/rm1997v052n05abeh002106'
-    title: 'Vladimir Igorevich Arnol''d (on his sixtieth birthday)'
-    year: 1997
-    coauthors: ['D B Anosov', 'Andrey Andreevich Bolibrukh', 'Lyudvig Dmitrievich Faddeev', 'A A Gonchar', 'M. Gromov', 'S. M. Gusein‐Zade', 'Yu. Ilyashenko', 'Boris Khesin', 'Askold Khovanskiĭ', 'M L Kontsevich', 'Валерий Васильевич Козлов', 'Yu. I. Manin', 'А. И. Нейштадт', 'S P Novikov', 'Yu. S. Osipov', 'Mikhail B. Sevryuk', 'Yakov G. Sinai', 'Andrei Tyurin', 'Alexander Varchenko', 'V. A. Vasilʹev', 'V M Vershik', 'V. M. Zakalyukin']
-    doi: '10.1070/rm1997v052n05abeh002106'
-    journal: 'Russian Mathematical Surveys'
-    openalex_id: W1988933259
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1215/s0012-7094-96-08501-4'
-    title: 'Stacks of stable maps and Gromov-Witten invariants'
-    year: 1996
-    coauthors: ['Kai Behrend', 'Yu. I. Manin']
-    doi: '10.1215/s0012-7094-96-08501-4'
-    journal: 'Duke Mathematical Journal'
-    openalex_id: W2023025917
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1142/9789812830517_0009'
-    title: 'LE GROUPE DE BRAUER-GROTHENDIECK EN GÉOMÉTRIE DIOPHANTIENNE'
-    year: 1996
-    coauthors: ['Yu. I. Manin']
-    doi: '10.1142/9789812830517_0009'
-    journal: 'World scientific series in 20th century mathematics'
-    openalex_id: W66820687
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1007/s002220050055'
-    title: 'Quantum cohomology of a product'
-    year: 1996
-    coauthors: [kontsevich, 'Yu. I. Manin', 'Ralph M. Kaufmann']
-    doi: '10.1007/s002220050055'
-    journal: 'Inventiones mathematicae'
-    openalex_id: W2043084618
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1142/9789812830517_0007'
-    title: 'Arrangements of Hyperplanes, Higher Braid Groups and Higher Bruhat Orders'
-    year: 1996
-    coauthors: ['Yu. I. Manin', 'V. V. Schechtman']
-    doi: '10.1142/9789812830517_0007'
-    journal: 'World scientific series in 20th century mathematics'
-    openalex_id: W4254849363
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1142/9789812830517_0020'
-    title: 'Notes on the arithmetic of Fano threefolds'
-    year: 1996
-    coauthors: ['Yu. I. Manin']
-    doi: '10.1142/9789812830517_0020'
-    journal: 'World scientific series in 20th century mathematics'
-    openalex_id: W185771771
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1142/9789812830517_0019'
-    title: 'Points of bounded height on del Pezzo surfaces'
-    year: 1996
-    coauthors: ['Yu. I. Manin', 'Yu. Tschinkel']
-    doi: '10.1142/9789812830517_0019'
-    journal: 'World scientific series in 20th century mathematics'
-    openalex_id: W2497448611
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1142/9789812830517_0029'
-    title: 'REFLECTIONS ON ARITHMETICAL PHYSICS'
-    year: 1996
-    coauthors: ['Yu. I. Manin']
-    doi: '10.1142/9789812830517_0029'
-    journal: 'World scientific series in 20th century mathematics'
-    openalex_id: W4247604602
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'openalex:W378940353'
-    title: 'DISTRIBUTION OF RATIONAL POINTS ON FANO VARIETIES(Analytic Number Theory)'
-    year: 1996
-    coauthors: ['Yu. I. Manin']
-    openalex_id: W378940353
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1142/9789812830517'
-    title: 'Selected Papers of Yu I Manin'
-    year: 1996
-    coauthors: ['Yu. I. Manin']
-    doi: '10.1142/9789812830517'
-    journal: 'World scientific series in 20th century mathematics'
-    openalex_id: W3139835387
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1007/978-1-4612-4264-2_14'
-    title: 'Generating Functions in Algebraic Geometry and Sums Over Trees'
-    year: 1995
-    coauthors: ['Yu. I. Manin']
-    doi: '10.1007/978-1-4612-4264-2_14'
-    journal: 'Birkhäuser Boston eBooks'
-    openalex_id: W1586045621
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1007/3-540-27692-0'
-    title: 'Introduction to Modern Number Theory: Fundamental Problems, Ideas and Theories'
-    year: 1995
-    coauthors: ['Yu. I. Manin', 'Alexei Panchishkin']
-    doi: '10.1007/3-540-27692-0'
-    journal: 'CERN Document Server (European Organization for Nuclear Research)'
-    openalex_id: W1848647535
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.4310/sdg.1993.v2.n1.a4'
-    title: 'Problems on rational points and rational curves on algebraic varieties'
-    year: 1993
-    coauthors: ['Yu. I. Manin']
-    doi: '10.4310/sdg.1993.v2.n1.a4'
-    journal: 'Surveys in Differential Geometry'
-    openalex_id: W2329967176
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1007/bf01017077'
-    title: 'Notes on quantum groups and quantum de Rham complexes'
-    year: 1992
-    coauthors: ['Yu. I. Manin']
-    doi: '10.1007/bf01017077'
-    journal: 'Theoretical and Mathematical Physics'
-    openalex_id: W2087315267
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1007/978-3-642-77303-7_9'
-    title: 'Quantum Groups and Non-commutative Differential Geometry'
-    year: 1992
-    coauthors: ['Yu. I. Manin']
-    doi: '10.1007/978-3-642-77303-7_9'
-    openalex_id: W187450818
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1515/9781400862511'
-    title: 'Topics in Non-Commutative Geometry'
-    year: 1991
-    coauthors: ['Yu. I. Manin']
-    doi: '10.1515/9781400862511'
-    journal: 'Princeton University Press eBooks'
-    openalex_id: W2504262354
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1007/978-94-011-3030-1_51'
-    title: 'On Dynamical Systems with an Integral Invariant on a Torus'
-    year: 1991
-    coauthors: ['Michiel Hazewinkel', 'A. A. Kirillov', 'Yu. I. Manin', 'N. N. Moiseev', 'S P Novikov', 'M. C. Polyvanov', 'Yu. A. Rozanov']
-    doi: '10.1007/978-94-011-3030-1_51'
-    openalex_id: W204331112
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1007/bf01245074'
-    title: 'Three-dimensional hyperbolic geometry as ∞-adic Arakelov geometry'
-    year: 1991
-    coauthors: ['Yu. I. Manin']
-    doi: '10.1007/bf01245074'
-    journal: 'Inventiones mathematicae'
-    openalex_id: W2022016047
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1007/bf01453564'
-    title: 'Sur le nombre des points rationnels de hauteur borné des variétés algébriques'
-    year: 1990
-    coauthors: ['Victor V. Batyrev', 'Yu. I. Manin']
-    doi: '10.1007/bf01453564'
-    journal: 'Mathematische Annalen'
-    openalex_id: W1993619151
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1143/ptps.102.203'
-    title: 'Non-Standard Quantum Deformations of <i>GL</i>(<i>n</i>) and Constant Solutions of the Yang-Baxter Equation'
-    year: 1990
-    coauthors: ['Ε. E. Demidov', 'Yu. I. Manin', 'E. Mukhin', 'D. V. Zhdanovich']
-    doi: '10.1143/ptps.102.203'
-    journal: 'Progress of Theoretical Physics Supplement'
-    openalex_id: W2088935200
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1007/bf01098184'
-    title: 'Elements of supergeometry'
-    year: 1990
-    coauthors: ['Alexander A. Voronov', 'Yu. I. Manin', 'Ivan Penkov']
-    doi: '10.1007/bf01098184'
-    journal: 'Journal of Mathematical Sciences'
-    openalex_id: W2045714975
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1143/ptps.102.219'
-    title: 'Quantized Theta-Functions'
-    year: 1990
-    coauthors: ['Yu. I. Manin']
-    doi: '10.1143/ptps.102.219'
-    journal: 'Progress of Theoretical Physics Supplement'
-    openalex_id: W2104955723
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1007/bf01098185'
-    title: 'Supercell partitions of flag superspaces'
-    year: 1990
-    coauthors: ['Alexander A. Voronov', 'Yu. I. Manin']
-    doi: '10.1007/bf01098185'
-    journal: 'Journal of Mathematical Sciences'
-    openalex_id: W2048840580
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1201/9781466593480'
-    title: 'Linear Algebra and Geometry'
-    year: 1989
-    coauthors: ['P. K. Suetin', 'Alexandra I. Kostrikin', 'Yu. I. Manin']
-    doi: '10.1201/9781466593480'
-    openalex_id: W1497040579
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1007/bf01244022'
-    title: 'Multiparametric quantum deformation of the general linear supergroup'
-    year: 1989
-    coauthors: ['Yu. I. Manin']
-    doi: '10.1007/bf01244022'
-    journal: 'Communications in Mathematical Physics'
-    openalex_id: W2085493730
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1007/bf03023825'
-    title: 'Strings'
-    year: 1989
-    coauthors: ['Yu. I. Manin']
-    doi: '10.1007/bf03023825'
-    journal: 'The Mathematical Intelligencer'
-    openalex_id: W3188360408
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1016/b978-0-12-218100-9.50016-9'
-    title: 'DETERMINANTS OF LAPLACIANS ON RIEMANN SURFACES'
-    year: 1989
-    coauthors: ['Yu. I. Manin']
-    doi: '10.1016/b978-0-12-218100-9.50016-9'
-    journal: 'Elsevier eBooks'
-    openalex_id: W2477289852
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1070/rm1989v044n01abeh002018'
-    title: 'Isaak Moiseevich Yaglom (obituary)'
-    year: 1989
-    coauthors: ['V. G. Boltyanskiĭ', 'L I Golovina', 'O. A. Ladyzhenskaya', 'Yu. I. Manin', 'S P Novikov', 'B. A. Rozenfel''D', 'A. M. Yaglom']
-    doi: '10.1070/rm1989v044n01abeh002018'
-    journal: 'Russian Mathematical Surveys'
-    openalex_id: W2025074772
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1007/978-94-009-2271-6_1'
-    title: 'Dialogues'
-    year: 1989
-    coauthors: ['I.Yu. Kobzarev', 'Yu. I. Manin']
-    doi: '10.1007/978-94-009-2271-6_1'
-    openalex_id: W4246120334
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1016/0393-0440(88)90002-2'
-    title: 'Neveu-Schwarz sheaves and differential equations for Mumford superforms'
-    year: 1988
-    coauthors: ['Yu. I. Manin']
-    doi: '10.1016/0393-0440(88)90002-2'
-    journal: 'Journal of Geometry and Physics'
-    openalex_id: W2081010503
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1007/bf03026634'
-    title: 'Years ago'
-    year: 1988
-    coauthors: ['Yu. I. Manin']
-    doi: '10.1007/bf03026634'
-    journal: 'The Mathematical Intelligencer'
-    openalex_id: W4210419022
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.5802/aif.1117'
-    title: 'Some remarks on Koszul algebras and quantum groups'
-    year: 1987
-    coauthors: ['Yu. I. Manin']
-    doi: '10.5802/aif.1117'
-    journal: 'Annales de l’institut Fourier'
-    openalex_id: W1972027358
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1007/bfb0078367'
-    title: 'Sheaves of the Virasoro and Neveu-Schwarz algebras'
-    year: 1987
-    coauthors: ['A. A. Beilinson', 'Yu. I. Manin', 'Vadim Schechtman']
-    doi: '10.1007/bfb0078367'
-    journal: 'Lecture notes in mathematics'
-    openalex_id: W117602850
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1007/bf01238904'
-    title: 'A superanalog of the Selberg trace formula and multiloop contributions for fermionic strings'
-    year: 1987
-    coauthors: ['А. М. Baranov', 'Yu. I. Manin', 'I. V. Frolov', 'Albert Schwarz']
-    doi: '10.1007/bf01238904'
-    journal: 'Communications in Mathematical Physics'
-    openalex_id: W2065788054
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1070/im1987v028n01abeh000873'
-    title: 'THE RADON–PENROSE TRANSFORMATION FOR THE GROUP<i>SO</i>(8), AND INSTANTONS'
-    year: 1987
-    coauthors: ['Yu. I. Manin', 'Khoang Le Min′']
-    doi: '10.1070/im1987v028n01abeh000873'
-    journal: 'Mathematics of the USSR-Izvestiya'
-    openalex_id: W1975178094
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1007/bf01077987'
-    title: 'The value of the Selberg zeta function at integral points'
-    year: 1987
-    coauthors: ['A. A. Beilinson', 'Yu. I. Manin']
-    doi: '10.1007/bf01077987'
-    journal: 'Functional Analysis and Its Applications'
-    openalex_id: W2046490741
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1090/trans2/137'
-    title: 'Fourteen Papers Translated from the Russian'
-    year: 1987
-    coauthors: ['V. Arnol′d', 'S. Berman', 'K. Buzashi', 'T. Donchev', 'K. M. Efimov', 'I. Gikhman', 'Simon Gindikin', 'M. Kanovich', 'A. A. Kirillov', 'Yu. I. Manin', 'V. Maz′ya', 'Yury A. Neretin', 'Alexei Panchishkin', 'Bl. Sendov', 'Ya. G. Sinaǐ', 'Vu Kim Tuan', 'È. Vinberg', 'S. Yakubovich']
-    doi: '10.1090/trans2/137'
-    journal: 'Translations - American Mathematical Society/Translations '
-    openalex_id: W1551754958
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'openalex:W3022643948'
-    title: 'Book-Review - Mathematics and Physics'
-    year: 1987
-    coauthors: ['Yu. I. Manin', 'Neal Koblitz', 'H. J. Haubold']
-    openalex_id: W3022643948
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1070/rm1986v041n02abeh003242'
-    title: 'Rational varieties: algebra, geometry and arithmetic'
-    year: 1986
-    coauthors: ['Yu. I. Manin', 'M. A. Tsfasman']
-    doi: '10.1070/rm1986v041n02abeh003242'
-    journal: 'Russian Mathematical Surveys'
-    openalex_id: W2050045276
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1007/bf01220994'
-    title: 'The Mumford form and the Polyakov measure in string theory'
-    year: 1986
-    coauthors: ['A. A. Beilinson', 'Yu. I. Manin']
-    doi: '10.1007/bf01220994'
-    journal: 'Communications in Mathematical Physics'
-    openalex_id: W2085236532
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1016/0370-2693(86)90833-6'
-    title: 'The partition function of the polyakov string can be expressed in terms of theta-functions'
-    year: 1986
-    coauthors: ['Yu. I. Manin']
-    doi: '10.1016/0370-2693(86)90833-6'
-    journal: 'Physics Letters B'
-    openalex_id: W2069607942
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1007/bf01078480'
-    title: 'Critical dimensions of the string theories and the dualizing sheaf on the moduli space of (super) curves'
-    year: 1986
-    coauthors: ['Yu. I. Manin']
-    doi: '10.1007/bf01078480'
-    journal: 'Functional Analysis and Its Applications'
-    openalex_id: W1973544149
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1007/bf01077278'
-    title: 'Higher Bruhat orders, related to the symmetric group'
-    year: 1986
-    coauthors: ['Yu. I. Manin', 'V. V. Shekhtman']
-    doi: '10.1007/bf01077278'
-    journal: 'Functional Analysis and Its Applications'
-    openalex_id: W2004711255
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1070/rm1986v041n05abeh003421'
-    title: 'The twistor transformation and algebraic-geometric constructions of solutions of the equations of field theory'
-    year: 1986
-    coauthors: ['Mikhail Kapranov', 'Yu. I. Manin']
-    doi: '10.1070/rm1986v041n05abeh003421'
-    journal: 'Russian Mathematical Surveys'
-    openalex_id: W2043910494
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'openalex:W3041218877'
-    title: 'Theta-function representation of the partition function of a Polyakov string'
-    year: 1986
-    coauthors: ['Yu. I. Manin']
-    openalex_id: W3041218877
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1016/s0924-6509(08)70509-9'
-    title: 'Introduction'
-    year: 1986
-    coauthors: ['Yu. I. Manin']
-    doi: '10.1016/s0924-6509(08)70509-9'
-    journal: 'North-Holland mathematical library'
-    openalex_id: W4213262331
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1016/s0924-6509(08)70507-5'
-    title: 'Preface to the Second Edition'
-    year: 1986
-    coauthors: ['Yu. I. Manin']
-    doi: '10.1016/s0924-6509(08)70507-5'
-    journal: 'North-Holland mathematical library'
-    openalex_id: W4248046470
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1007/bf01211044'
-    title: 'A supersymmetric extension of the Kadomtsev-Petviashvili hierarchy'
-    year: 1985
-    coauthors: ['Yu. I. Manin', 'Andrey Radul']
-    doi: '10.1007/bf01211044'
-    journal: 'Communications in Mathematical Physics'
-    openalex_id: W1999572526
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1007/bf02249124'
-    title: 'Linear codes and modular curves'
-    year: 1985
-    coauthors: ['S. G. Vléduts', 'Yu. I. Manin']
-    doi: '10.1007/bf02249124'
-    journal: 'Journal of Mathematical Sciences'
-    openalex_id: W2085027135
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1007/bfb0084585'
-    title: 'New dimensions in geometry'
-    year: 1985
-    coauthors: ['Yu. I. Manin']
-    doi: '10.1007/bfb0084585'
-    journal: 'Lecture notes in mathematics'
-    openalex_id: W2265063319
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1007/bf02105859'
-    title: 'Holomorphic supergeometry and Yang-Mills superfields'
-    year: 1985
-    coauthors: ['Yu. I. Manin']
-    doi: '10.1007/bf02105859'
-    journal: 'Journal of Mathematical Sciences'
-    openalex_id: W2087129187
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1007/bf02107238'
-    title: 'Geometry of supergravity and Schubert supercells'
-    year: 1985
-    coauthors: ['Yu. I. Manin']
-    doi: '10.1007/bf02107238'
-    journal: 'Journal of Mathematical Sciences'
-    openalex_id: W2018412333
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1070/rm1984v039n06abeh003181'
-    title: 'New directions in geometry'
-    year: 1984
-    coauthors: ['Yu. I. Manin']
-    doi: '10.1070/rm1984v039n06abeh003181'
-    journal: 'Russian Mathematical Surveys'
-    openalex_id: W2034144143
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'openalex:W1744788479'
-    title: 'METHODS OF ALGEBRAIC GEOMETRY IN CONTEMPORARY MATHEMATICAL PHYSICS'
-    year: 1984
-    coauthors: ['Vladimir Drinfeld', 'I. M. Krichever', 'S. P. Novikov', 'Yu. I. Manin']
-    openalex_id: W1744788479
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1007/bf01083695'
-    title: 'Schubert supercells'
-    year: 1984
-    coauthors: ['Alexander A. Voronov', 'Yu. I. Manin']
-    doi: '10.1007/bf01083695'
-    journal: 'Functional Analysis and Its Applications'
-    openalex_id: W4239036131
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1007/bf01094439'
-    title: 'Benney''s longwave equations. II. Lax representation and conservation laws'
-    year: 1983
-    coauthors: ['D. R. Lebedev', 'Yu. I. Manin']
-    doi: '10.1007/bf01094439'
-    journal: 'Journal of Mathematical Sciences'
-    openalex_id: W2029735235
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1007/bf01084284'
-    title: 'Gauge fields and holomorphic geometry'
-    year: 1983
-    coauthors: ['Yu. I. Manin']
-    doi: '10.1007/bf01084284'
-    journal: 'Journal of Mathematical Sciences'
-    openalex_id: W2063965364
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1007/bf01081818'
-    title: 'Null-geodesics of complex Einstein spaces'
-    year: 1982
-    coauthors: ['Yu. I. Manin', 'Ivan Penkov']
-    doi: '10.1007/bf01081818'
-    journal: 'Functional Analysis and Its Applications'
-    openalex_id: W2081508245
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'openalex:W193355337'
-    title: 'Yang-Mills-Dirac equations as Cauchy-Riemann equations in twistor space'
-    year: 1982
-    coauthors: ['Yu. I. Manin', 'G. M. Khenkin']
-    openalex_id: W193355337
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1007/bfb0066023'
-    title: 'Gauge fields and cohomology of analytic sheaves'
-    year: 1982
-    coauthors: ['Yu. I. Manin']
-    doi: '10.1007/bfb0066023'
-    journal: 'Lecture notes in mathematics'
-    openalex_id: W315902854
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1007/978-1-4899-6782-4'
-    title: 'Mathematics and Physics'
-    year: 1981
-    coauthors: ['Yu. I. Manin']
-    doi: '10.1007/978-1-4899-6782-4'
-    journal: 'Birkhäuser Boston eBooks'
-    openalex_id: W2036731675
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.2307/3027371'
-    title: 'A Digression on Proof'
-    year: 1981
-    coauthors: ['Yu. I. Manin']
-    doi: '10.2307/3027371'
-    journal: 'The Two-Year College Mathematics Journal'
-    openalex_id: W314212443
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'openalex:W2600395088'
-    title: 'On the cohomology of twistor flag spaces'
-    year: 1981
-    coauthors: ['Gennadi M. Henkin', 'Yu. I. Manin']
-    openalex_id: W2600395088
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1070/pu1981v024n06abeh004854'
-    title: 'Feliks Aleksandrovich Berezin (Obituary)'
-    year: 1981
-    coauthors: ['Yu. I. Manin', 'M A Markov', 'S P Novikov', 'V.I. Ogievetskii', 'V Ya Faĭnberg', 'E S Fradkin']
-    doi: '10.1070/pu1981v024n06abeh004854'
-    journal: 'Soviet Physics Uspekhi'
-    openalex_id: W1977789108
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1007/978-1-4899-6782-4_2'
-    title: 'Physical Quantities, Dimensions and Constants: The Source of Numbers in Physics'
-    year: 1981
-    coauthors: ['Yu. I. Manin']
-    doi: '10.1007/978-1-4899-6782-4_2'
-    journal: 'Birkhäuser Boston eBooks'
-    openalex_id: W2484779434
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1007/978-1-4899-6782-4_5'
-    title: 'Action and Symmetry'
-    year: 1981
-    coauthors: ['Yu. I. Manin']
-    doi: '10.1007/978-1-4899-6782-4_5'
-    journal: 'Birkhäuser Boston eBooks'
-    openalex_id: W2486527261
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1007/978-1-4899-6782-4_4'
-    title: 'Space-Time as a Physical System'
-    year: 1981
-    coauthors: ['Yu. I. Manin']
-    doi: '10.1007/978-1-4899-6782-4_4'
-    journal: 'Birkhäuser Boston eBooks'
-    openalex_id: W2490177940
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1007/bf01086555'
-    title: 'An instanton is determined by its complex singularities'
-    year: 1980
-    coauthors: ['A. A. Beilinson', 'Sergei Gelfand', 'Yu. I. Manin']
-    doi: '10.1007/bf01086555'
-    journal: 'Functional Analysis and Its Applications'
-    openalex_id: W2056061753
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1007/bf01084246'
-    title: 'Algebraic aspects of nonlinear differential equations'
-    year: 1979
-    coauthors: ['Yu. I. Manin']
-    doi: '10.1007/bf01084246'
-    journal: 'Journal of Soviet Mathematics'
-    openalex_id: W2095120350
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1007/bf01078365'
-    title: 'Gel''fand -7 Dikii Hamiltonian operator and the coadjoint representation of the volterra group'
-    year: 1979
-    coauthors: ['D. R. Lebedev', 'Yu. I. Manin']
-    doi: '10.1007/bf01078365'
-    journal: 'Functional Analysis and Its Applications'
-    openalex_id: W1986443758
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1007/bf01077244'
-    title: 'Instantons and bundles on CP3'
-    year: 1979
-    coauthors: ['Vladimir Drinfeld', 'Yu. I. Manin']
-    doi: '10.1007/bf01077244'
-    journal: 'Functional Analysis and Its Applications'
-    openalex_id: W2063555810
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'openalex:W2888689539'
-    title: '{Yang-Mills} Fields, Instantons and Tensor Products of Instantons'
-    year: 1979
-    coauthors: ['Vladimir Drinfeld', 'Yu. I. Manin']
-    openalex_id: W2888689539
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1007/bf01077560'
-    title: 'Equations of long waves with a free surface. II. Hamiltonian structure and higher equations'
-    year: 1978
-    coauthors: ['Boris A. Kupershmidt', 'Yu. I. Manin']
-    doi: '10.1007/bf01077560'
-    journal: 'Functional Analysis and Its Applications'
-    openalex_id: W1964617492
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1007/bf01220851'
-    title: 'A description of instantons'
-    year: 1978
-    coauthors: ['Vladimir Drinfeld', 'Yu. I. Manin']
-    doi: '10.1007/bf01220851'
-    journal: 'Communications in Mathematical Physics'
-    openalex_id: W2042691154
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1007/bf01076382'
-    title: 'Matrix solitons and bundles over curves with singularities'
-    year: 1978
-    coauthors: ['Yu. I. Manin']
-    doi: '10.1007/bf01076382'
-    journal: 'Functional Analysis and Its Applications'
-    openalex_id: W1969073061
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1007/bf01076262'
-    title: 'Self-dual Yang-Mills fields over a sphere'
-    year: 1978
-    coauthors: ['Vladimir Drinfeld', 'Yu. I. Manin']
-    doi: '10.1007/bf01076262'
-    journal: 'Functional Analysis and Its Applications'
-    openalex_id: W1963779598
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1070/rm1978v033n03abeh002471'
-    title: 'ON LOCALLY FREE SHEAVES OVER<i>CP</i><sup>3</sup>CONNECTED WITH YANG-MILLS FIELDS'
-    year: 1978
-    coauthors: ['Vladimir Drinfeld', 'Yu. I. Manin']
-    doi: '10.1070/rm1978v033n03abeh002471'
-    journal: 'Russian Mathematical Surveys'
-    openalex_id: W2064092303
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1007/bf01079464'
-    title: 'Long-wave equation with free boundaries. I. Conservation laws and solution'
-    year: 1977
-    coauthors: ['Boris A. Kupershmidt', 'Yu. I. Manin']
-    doi: '10.1007/bf01079464'
-    journal: 'Functional Analysis and Its Applications'
-    openalex_id: W1992286221
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1007/978-1-4757-4385-2_5'
-    title: 'Recursive functions and Church’s thesis'
-    year: 1977
-    coauthors: ['Yu. I. Manin']
-    doi: '10.1007/978-1-4757-4385-2_5'
-    journal: 'Graduate texts in mathematics'
-    openalex_id: W4252775743
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1007/bf01083779'
-    title: 'p-Adic automorphic functions'
-    year: 1976
-    coauthors: ['Yu. I. Manin']
-    doi: '10.1007/bf01083779'
-    journal: 'Journal of Mathematical Sciences'
-    openalex_id: W2038726718
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1070/rm1976v031n01abeh001444'
-    title: 'NON-ARCHIMEDEAN INTEGRATION AND JACQUET-LANGLANDS<i>p</i>-ADIC<i>L</i>-FUNCTIONS'
-    year: 1976
-    coauthors: ['Yu. I. Manin']
-    doi: '10.1070/rm1976v031n01abeh001444'
-    journal: 'Russian Mathematical Surveys'
-    openalex_id: W2035925132
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1007/bf01076026'
-    title: 'Poisson brackets and the kernel of the variational derivative in the formal calculus of variations'
-    year: 1976
-    coauthors: ['I. M. Gel''fand', 'Yu. I. Manin', 'Mikhail Shubin']
-    doi: '10.1007/bf01076026'
-    journal: 'Functional Analysis and Its Applications'
-    openalex_id: W2014043634
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1007/bf01215387'
-    title: 'Hilbert''s tenth problem'
-    year: 1975
-    coauthors: ['Yu. I. Manin']
-    doi: '10.1007/bf01215387'
-    journal: 'Journal of Mathematical Sciences'
-    openalex_id: W2049207136
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1515/crll.1973.262-263.239'
-    title: 'Periods of p-adic Schottky groups.'
-    year: 1973
-    coauthors: ['V. Drinfeld', 'Yu. I. Manin']
-    doi: '10.1515/crll.1973.262-263.239'
-    journal: 'Journal für die reine und angewandte Mathematik (Crelles Journal)'
-    openalex_id: W118134485
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.4064/aa-24-3-239-249'
-    title: 'Explicit formulas for the eigenvalues of Hecke operators'
-    year: 1973
-    coauthors: ['Yu. I. Manin']
-    doi: '10.4064/aa-24-3-239-249'
-    journal: 'Acta Arithmetica'
-    openalex_id: W998534012
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1070/rm1972v027n04abeh001382'
-    title: 'NIKOLAI IVANOVICH MUSKHELISHVILI (on his eightieth birthday)'
-    year: 1972
-    coauthors: ['P S Aleksandrov', 'Vladimir I. Arnold', 'I. M. Gel''fand', 'Yu. V. Egorov', 'N V Efimov', 'A. N. Kolmogorov', 'Yu V Linnik', 'S M Lozinskii', 'O V Lokutsievskii', 'L A Lyusternik', 'E V Maikov', 'Yu. I. Manin', 'A. I. Markushevich', 'O A Oleĭnik', 'S V Fomin']
-    doi: '10.1070/rm1972v027n04abeh001382'
-    journal: 'Russian Mathematical Surveys'
-    openalex_id: W2004975284
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1070/rm1969v024n05abeh001357'
-    title: 'LECTURES ON THE<i>K</i>-FUNCTOR IN ALGEBRAIC GEOMETRY'
-    year: 1969
-    coauthors: ['Yu. I. Manin']
-    doi: '10.1070/rm1969v024n05abeh001357'
-    journal: 'Russian Mathematical Surveys'
-    openalex_id: W2000836020
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1007/bf01425424'
-    title: 'Hypersurfaces cubiques'
-    year: 1969
-    coauthors: ['Yu. I. Manin']
-    doi: '10.1007/bf01425424'
-    journal: 'Inventiones mathematicae'
-    openalex_id: W2056404043
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1007/bf01098304'
-    title: 'Regular elements in the Cremonian group'
-    year: 1969
-    coauthors: ['Yu. I. Manin']
-    doi: '10.1007/bf01098304'
-    journal: 'Mathematical Notes'
-    openalex_id: W1986766044
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1070/rm1965v020n06abeh001192'
-    title: 'ALGEBRAIC TOPOLOGY OF ALGEBRAIC VARIETIES'
-    year: 1965
-    coauthors: ['Yu. I. Manin']
-    doi: '10.1070/rm1965v020n06abeh001192'
-    journal: 'Russian Mathematical Surveys'
-    openalex_id: W1995762008
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1070/rm1964v019n06abeh001165'
-    title: 'RATIONAL POINTS ON ALGEBRAIC CURVES'
-    year: 1964
-    coauthors: ['Yu. I. Manin']
-    doi: '10.1070/rm1964v019n06abeh001165'
-    journal: 'Russian Mathematical Surveys'
-    openalex_id: W2040118429
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1070/rm1963v018n06abeh001142'
-    title: 'THE THEORY OF COMMUTATIVE FORMAL GROUPS OVER FIELDS OF FINITE CHARACTERISTIC'
-    year: 1963
-    coauthors: ['Yu. I. Manin']
-    doi: '10.1070/rm1963v018n06abeh001142'
-    journal: 'Russian Mathematical Surveys'
-    openalex_id: W1987668211
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1016/0041-5553(63)90308-2'
-    title: 'Complex multiplication of Abelian varieties and its application to number theory'
-    year: 1963
-    coauthors: ['Yu. I. Manin']
-    doi: '10.1016/0041-5553(63)90308-2'
-    journal: 'USSR Computational Mathematics and Mathematical Physics'
-    openalex_id: W280385926
-    sources: [openalex]
-    no_arxiv: true
+    sources: [arxiv]
 sources:
 - label: Math Genealogy
   url: https://www.mathgenealogy.org/id.php?id=44134

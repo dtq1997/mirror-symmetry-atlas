@@ -25,6 +25,20 @@ research_areas:
   - quantum-groups
   - frobenius-manifolds
   - q-painleve
+identity_profile:
+  mathgenealogy_id: '[待查 id]'
+  affiliations:
+    - institution: 'pku'
+      period: '~2019-2023'
+      role: '博士'
+    - institution: 'tsinghua'
+      period: '2023-present'
+      role: '博士后 (合作导师: 刘思齐)'
+  email_domains: [pku.edu.cn, tsinghua.edu.cn]
+  coauthor_circle_core_slugs: [ji-ce, liu-siqi, wang-zhiyuan, xu-xiaomeng, yang-chenglang, zhang-youjin]
+  coauthor_circle_core_names: ['Ce Ji', 'Chenglang Yang', 'Siqi Liu', 'Xiaomeng Xu', 'Youjin Zhang', 'Zhiyuan Wang']
+  research_keywords: [frobenius, groups, isomonodromy, manifolds, painleve, phenomenon, quantum, stokes]
+  known_arxiv_ids: [2501.17516, 2407.20010, 2402.07269, 2103.09117]
 advisor: xu-xiaomeng
 mentors:
   - liu-siqi

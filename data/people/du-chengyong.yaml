@@ -31,6 +31,63 @@ research_areas:
 - weighted-blowup
 - equivariant-cohomology
 - differential-character
+identity_profile:
+  openalex_id: 'A5013132093'
+  affiliations:
+    - institution: 'sichuan-u'
+      period: '[待验证]'
+      role: '博士, 数学'
+    - institution: 'sicnu'
+      period: 'present'
+      role: '副教授 (Associate Professor), 硕士生导师'
+  coauthor_circle_core_slugs: [li-xiaobin]
+  coauthor_circle_core_names: ['Xiaobin Li']
+  coauthor_circle_extended_slugs: [hu-jianxun, li-ao, xu-xu]
+  coauthor_circle_extended_names: ['Ao Li', 'Jianxun Hu', 'Xu Xu']
+  research_keywords:
+    - 'algebraic'
+    - 'blowup'
+    - 'character'
+    - 'chen'
+    - 'cohomology'
+    - 'differential'
+    - 'equivariant'
+    - 'geometry'
+    - 'gromov'
+    - 'groupoid'
+    - 'mirror'
+    - 'morphism'
+    - 'orbifold'
+    - 'ruan'
+    - 'stringy'
+    - 'symmetry'
+    - 'symplectic'
+    - 'theory'
+    - 'weighted'
+    - 'witten'
+  known_arxiv_ids:
+    - '[待补充]'
+    - '[待补充]'
+    - '[待补充]'
+    - '[待补充]'
+    - '[待补充]'
+    - '[待补充]'
+    - '[待补充]'
+    - '2009.06144'
+    - '2008.06484'
+    - '[待补充]'
+    - '[待补充]'
+    - '1903.01607'
+    - '[待补充]'
+    - '1812.05432'
+    - '1811.11506'
+    - '1712.05094'
+    - '1712.04121'
+    - '1712.01478'
+    - '1708.07551'
+    - '[待补充]'
+    - '[待补充]'
+    - '[待补充]'
 advisor: null
 students: []
 key_collaborators:
@@ -77,125 +134,109 @@ publications:
     coauthors: ['Yi Zhou']
     doi: '10.1016/j.geomphys.2026.105803'
     journal: 'Journal of Geometry and Physics'
-    openalex_id: W7131085541
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '[待补充]'
     title: 'Prequantization of differential characters of Lie groupoids'
     year: 2025
     coauthors: ['Cheng-Yong Du']
     doi: '10.1016/j.geomphys.2025.105547'
     journal: 'Journal of Geometry and Physics'
-    openalex_id: W4410856940
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '[待补充]'
     title: 'On the Tautological Property of Relative Gromov-Witten Classes and Applications'
     year: 2025
     coauthors: ['Bohui Chen']
     doi: '10.1007/s00025-025-02361-1'
     journal: 'Results in Mathematics'
-    openalex_id: W4407355119
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '[待补充]'
     title: 'On weighted-blowup formulae of genus zero orbifold Gromov-Witten invariants'
     year: 2023
     coauthors: ['Bohui Chen']
     doi: '10.1112/s0010437x23007315'
     journal: 'Compositio Mathematica'
-    openalex_id: W4384823323
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '[待补充]'
     title: 'Banach orbifold structure on groupoids of morphisms of orbifolds'
     year: 2023
     coauthors: ['Bohui Chen', li-ao]
     doi: '10.1016/j.difgeo.2023.101975'
     journal: 'Differential Geometry and its Applications'
-    openalex_id: W4317939446
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '[待补充]'
     title: 'On triangulations of orbifolds and formality'
     year: 2022
     coauthors: ['Kaimin He', xu-xu]
     doi: '10.1007/s10455-022-09874-w'
     journal: 'Annals of Global Analysis and Geometry'
-    openalex_id: W4295864684
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '[待补充]'
     title: 'Weighted blowup formulae of Gromov-Witten invariants along curves and surfaces'
     year: 2022
     coauthors: ['Cheng-Yong Du']
     doi: '10.1360/ssm-2022-0011'
     journal: 'Scientia Sinica Mathematica'
-    openalex_id: W4226417867
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '2009.06144'
     title: 'Orbifold Gromov-Witten theory of weighted blowups'
     year: 2020
     coauthors: ['Bohui Chen', 'Rui Wang']
     doi: '10.1007/s11425-020-1774-x'
     journal: 'Sci. China Math. (2021)'
-    openalex_id: W3084650872
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '2008.06484'
     title: 'Double ramification cycles with orbifold targets'
     year: 2020
     coauthors: ['Bohui Chen', 'Rui Wang']
     doi: '10.48550/arxiv.2008.06484'
-    openalex_id: W3049358899
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '[待补充]'
     title: 'On Morse-Smale-Witten type cohomologies for orbifolds'
     year: 2020
     coauthors: [li-ao]
     doi: '10.1016/j.topol.2020.107527'
     journal: 'Topology and its Applications'
-    openalex_id: W3112773089
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '[待补充]'
     title: 'Chen-Ruan Cohomology and Stringy Orbifold K-Theory for Stable Almost Complex Orbifolds'
     year: 2020
     coauthors: [li-ao]
     doi: '10.1007/s11401-020-0231-8'
     journal: 'Chinese Annals of Mathematics, Series B'
-    openalex_id: W3089361935
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '1903.01607'
     title: 'Fuzzy vectors via convex bodies'
     year: 2019
     coauthors: ['Lili Shen']
     doi: '10.48550/arxiv.1903.01607'
-    openalex_id: W2919223147
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '[待补充]'
     title: 'A new equivariant cohomology ring'
     year: 2019
     coauthors: ['Bohui Chen', li-ao]
     doi: '10.1007/s00209-019-02398-3'
     journal: 'Mathematische Zeitschrift'
-    openalex_id: W2976655480
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '1812.05432'
     title: 'On fibrations of Lie groupoids'
     year: 2018
     coauthors: ['Bohui Chen', 'Yu Wang']
     doi: '10.1016/j.geomphys.2020.103644'
     journal: 'Journal of Geometry and Physics'
-    openalex_id: W3011168477
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '1811.11506'
     title: 'Equivariant commutative stringy cohomology rings on almost complex manifolds'
     year: 2018
     coauthors: ['Bohui Chen', li-ao]
     doi: '10.48550/arxiv.1811.11506'
-    openalex_id: W2903373261
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '1712.05094'
     title: 'The groupoid structure of groupoid morphisms'
     year: 2017
     coauthors: ['Bohui Chen', 'Rui Wang']
     doi: '10.1016/j.geomphys.2019.103486'
     journal: 'Journal of Geometry and Physics'
-    openalex_id: W2967030029
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '1712.04121'
     title: 'On relative Gromov-Witten invariants of projective completions of vector bundles'
     year: 2017
@@ -207,16 +248,14 @@ publications:
     coauthors: ['Bohui Chen', hu-jianxun]
     doi: '10.1007/s00208-019-01850-3'
     journal: 'Math. Ann. 374 (2019), 1459-1523'
-    openalex_id: W2963308000
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '1708.07551'
     title: 'Spark complexes on good effective orbifold atlases categorically'
     year: 2017
     coauthors: ['Lili Shen', 'Xiaojuan Zhao']
     doi: '10.48550/arxiv.1708.07551'
     journal: 'Theory and applications of categories'
-    openalex_id: W2749158929
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '[待补充]'
     title: 'Lefschetz property of Chen-Ruan cohomology rings and $d\delta$-Lemma'
     year: 2016
@@ -228,46 +267,17 @@ publications:
     coauthors: ['Song Du', 'Bohui Chen', li-ao]
     doi: '10.1216/rmj-2016-46-3-863'
     journal: 'Rocky Mountain J. Math. 46:3 (2016)'
-    openalex_id: W2513042877
-    sources: [arxiv, openalex]
-  - id: 'doi:10.1016/j.geomphys.2016.02.011'
-    title: 'Spark and Deligne-Beilinson cohomology on orbifolds'
-    year: 2016
-    coauthors: ['Cheng-Yong Du', 'Xiaojuan Zhao']
-    doi: '10.1016/j.geomphys.2016.02.011'
-    journal: 'Journal of Geometry and Physics'
-    openalex_id: W2295599590
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1360/n012016-00003'
-    title: 'Weighted blow-up of Gromov-Witten invariants of orbifold\\ Riemannian surfaces along smooth points'
-    year: 2016
-    coauthors: ['Cheng-Yong Du']
-    doi: '10.1360/n012016-00003'
-    journal: 'Scientia Sinica Mathematica'
-    openalex_id: W2541902846
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1007/s00013-016-0968-1'
-    title: 'Lefschetz property of Chen–Ruan cohomology rings and $${d\delta}$$ d δ -Lemma'
-    year: 2016
-    coauthors: ['Cheng-Yong Du']
-    doi: '10.1007/s00013-016-0968-1'
-    journal: 'Archiv der Mathematik'
-    openalex_id: W2520766260
-    sources: [openalex]
-    no_arxiv: true
+    sources: [arxiv]
   - id: '[待补充]'
     title: 'A quantum modification of relative cohomology'
     year: 2014
     coauthors: ['Dong Zhang', 'Bohui Chen']
     doi: '10.1142/s0219887815500218'
     journal: 'International Journal of Geometric Methods in Modern Physics'
-    openalex_id: W2044743309
-    sources: [arxiv, openalex]
+    sources: [arxiv]
 activity:
-  total_papers: 25
-  published_count: 23
+  total_papers: 22
+  published_count: 20
   preprint_only_count: 2
   active_period: '2014-present'
   quality_source: 'openalex + ruirui-2026'

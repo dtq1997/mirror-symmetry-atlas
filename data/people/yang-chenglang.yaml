@@ -38,6 +38,49 @@ research_areas:
 - intersection-numbers
 - tau-function
 - gromov-witten-theory
+identity_profile:
+  openalex_id: 'A5030830237'
+  affiliations:
+    - institution: 'bit'
+      period: '2014-2018'
+      role: '本科, 应用数学'
+    - institution: 'pku-bicmr'
+      period: '2018-2023'
+      role: '博士'
+    - institution: 'amss'
+      period: '2023-2025'
+      role: '博士后'
+    - institution: 'wuhan'
+      period: '2025-present'
+      role: '助理教授、博士生导师'
+  email_domains: [amss.ac.cn, bicmr.pku.edu.cn, whu.edu.cn]
+  coauthor_circle_core_slugs: [ji-ce, liu-xiaobo, wang-zhiyuan, zhang-qingsheng]
+  coauthor_circle_core_names: ['Ce Ji', 'Qingsheng Zhang', 'Xiaobo Liu', 'Zhiyuan Wang']
+  coauthor_circle_extended_slugs: [guo-shuai, li-ao, tang-qian, wang-zhiyong, zhang-qing, zhou-jian]
+  coauthor_circle_extended_names: ['Ao Li', 'Jian Zhou', 'Qian Tang', 'Qing Zhang', 'Shuai Guo', 'Zhiyong Wang']
+  research_keywords: [function, gromov, hierarchy, integrable, intersection, numbers, theory, witten]
+  known_arxiv_ids:
+    - '2605.02643'
+    - '2604.14542'
+    - '2511.10082'
+    - '2503.01920'
+    - '2502.09302'
+    - '2409.14124'
+    - '2408.03212'
+    - '2407.20010'
+    - '2404.01973'
+    - '2401.12726'
+    - '2312.08218'
+    - '2312.02749'
+    - '2301.01131'
+    - '2211.08687'
+    - '2210.09576'
+    - '2210.08712'
+    - '2206.01066'
+    - '2201.08178'
+    - '2107.10472'
+    - '2104.01357'
+    - '2103.14318'
 advisor: liu-xiaobo
 students: []
 key_collaborators:
@@ -70,64 +113,48 @@ publications:
     coauthors: []
     doi: '10.48550/arxiv.2604.14542'
     primary_category: math-ph
-    openalex_id: W7154705844
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '2511.10082'
     title: 'Total partition function with fermionic number fluxes of local toric CY threefold and KP integrability'
     year: 2025
     coauthors: [wang-zhiyuan, zhou-jian]
     doi: '10.48550/arxiv.2511.10082'
     primary_category: math-ph
-    openalex_id: W4416425862
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '2503.01920'
     title: 'The structures of simple Hurwitz numbers and monotone Hurwitz numbers with varying genus'
     year: 2025
     coauthors: []
     primary_category: math.CO
-    openalex_id: W4415339073
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '2502.09302'
     title: 'The bilinear fermionic form for KP and BKP hierarchies'
     year: 2025
     coauthors: [guo-shuai, ji-ce]
     doi: '10.48550/arxiv.2502.09302'
     primary_category: math-ph
-    openalex_id: W4407574857
-    sources: [arxiv, openalex]
-  - id: 'doi:10.1016/j.aim.2024.110100'
-    title: 'BKP-affine coordinates and emergent geometry of generalized Brézin-Gross-Witten tau-functions'
-    year: 2025
-    coauthors: [wang-zhiyuan, zhang-qing]
-    doi: '10.1016/j.aim.2024.110100'
-    journal: 'Advances in Mathematics'
-    openalex_id: W4406119208
-    sources: [openalex]
-    no_arxiv: true
+    sources: [arxiv]
   - id: '2409.14124'
     title: 'Correlation Function of Self-Conjugate Partitions: q-Difference Equation and Q-Schur Expansion'
     year: 2024
     coauthors: [wang-zhiyong]
     doi: '10.48550/arxiv.2409.14124'
     primary_category: math-ph
-    openalex_id: W4403753395
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '2408.03212'
     title: 'On N-Coefficient Binomial Polynomiality of Hurwitz Numbers and Generalized Dessin Counting'
     year: 2024
     coauthors: [wang-zhiyuan]
     doi: '10.48550/arxiv.2408.03212'
     primary_category: math.CO
-    openalex_id: W4403622873
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '2407.20010'
     title: 'Schröder Paths, Their Generalizations and Knot Invariants'
     year: 2024
     coauthors: [ji-ce, tang-qian]
     doi: '10.48550/arxiv.2407.20010'
     primary_category: math.CO
-    openalex_id: W4401202451
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '2404.01973'
     title: 'Hook-Lengths, Symplectic/Orthogonal Contents and Amdeberhan''s Conjectures'
     year: 2024
@@ -135,40 +162,35 @@ publications:
     doi: '10.1112/plms.70026'
     journal: 'Proceedings of the London Mathematical Society'
     primary_category: math.CO
-    openalex_id: W4393939964
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '2401.12726'
     title: 'On a Proof of the ADKMV Conjecture -- 3-KP Integrability of the Topological Vertex'
     year: 2024
     coauthors: [wang-zhiyuan, zhou-jian]
     doi: '10.48550/arxiv.2401.12726'
     primary_category: math-ph
-    openalex_id: W4391212525
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '2312.08218'
     title: 'On two families of Nekrasov-Okounkov type formulas'
     year: 2023
     coauthors: []
     doi: '10.48550/arxiv.2312.08218'
     primary_category: math-ph
-    openalex_id: W4389768778
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '2312.02749'
     title: 'A remark on certain restricted plane partitions and crystal melting model'
     year: 2023
     coauthors: []
     doi: '10.48550/arxiv.2312.02749'
     primary_category: math-ph
-    openalex_id: W4389421848
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '2301.01131'
     title: 'BKP-Affine Coordinates and Emergent Geometry of Generalized BGW Tau-Functions'
     year: 2023
     coauthors: [wang-zhiyuan, zhang-qing]
     doi: '10.48550/arxiv.2301.01131'
     primary_category: math-ph
-    openalex_id: W4313533009
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '2211.08687'
     title: 'Kac-Schwarz Operators of Type B, Quantum Spectral Curves, and Spin Hurwitz Numbers'
     year: 2022
@@ -176,8 +198,7 @@ publications:
     doi: '10.1016/j.geomphys.2023.104831'
     journal: 'Journal of Geometry and Physics'
     primary_category: math-ph
-    openalex_id: W4362633185
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '2210.09576'
     title: 'Connected (n,m)-Point Functions of Diagonal 2-BKP Tau-Functions, and Spin Double Hurwitz Numbers'
     year: 2022
@@ -185,8 +206,7 @@ publications:
     doi: '10.1063/5.0136839'
     journal: 'Journal of Mathematical Physics'
     primary_category: nlin.SI
-    openalex_id: W4365452127
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '2210.08712'
     title: 'Diagonal Tau-Functions of 2D Toda Lattice Hierarchy, Connected (n,m)-Point Functions, and Double Hurwitz Numbers'
     year: 2022
@@ -194,8 +214,7 @@ publications:
     doi: '10.3842/SIGMA.2023.085'
     journal: 'SIGMA 19 (2023), 085, 33 pages'
     primary_category: nlin.SI
-    openalex_id: W4388341724
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '2206.01066'
     title: 'Action of W-type operators on Schur functions and Schur Q-functions'
     year: 2022
@@ -203,8 +222,7 @@ publications:
     doi: '10.1112/jlms.70080'
     journal: 'Journal of the London Mathematical Society'
     primary_category: math-ph
-    openalex_id: W4407587717
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '2201.08178'
     title: 'BKP Hierarchy, Affine Coordinates, and a Formula for Connected Bosonic N-Point Functions'
     year: 2022
@@ -212,17 +230,7 @@ publications:
     doi: '10.1007/s11005-022-01554-x'
     journal: 'Letters in Mathematical Physics'
     primary_category: nlin.SI
-    openalex_id: W4221142413
-    sources: [arxiv, openalex]
-  - id: 'doi:10.1016/j.aim.2022.108456'
-    title: 'Q-polynomial expansion for Brézin-Gross-Witten tau-function'
-    year: 2022
-    coauthors: [li-ao]
-    doi: '10.1016/j.aim.2022.108456'
-    journal: 'Advances in Mathematics'
-    openalex_id: W3148865459
-    sources: [openalex]
-    no_arxiv: true
+    sources: [arxiv]
   - id: '2107.10472'
     title: 'Action of Virasoro operators on Hall-Littlewood polynomials'
     year: 2021
@@ -230,8 +238,7 @@ publications:
     doi: '10.1007/s11005-022-01608-0'
     journal: 'Letters in Mathematical Physics'
     primary_category: math-ph
-    openalex_id: W3184881723
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '2104.01357'
     title: 'Q-Polynomial expansion for Brezin-Gross-Witten tau-function'
     year: 2021
@@ -239,8 +246,7 @@ publications:
     doi: '10.48550/arxiv.2104.01357'
     journal: 'Adv. Math., Vol 404, Part B (2022), 108456'
     primary_category: nlin.SI
-    openalex_id: W4286386830
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '2103.14318'
     title: 'Schur Q-Polynomials and Kontsevich-Witten Tau Function'
     year: 2021
@@ -248,20 +254,10 @@ publications:
     doi: '10.1007/s42543-023-00064-6'
     journal: 'Peking Mathematical Journal'
     primary_category: math.AG
-    openalex_id: W4366121889
-    sources: [arxiv, openalex]
-  - id: 'doi:10.1016/j.energy.2018.07.022'
-    title: 'Online Markov Chain-based energy management for a hybrid tracked vehicle with speedy Q-learning'
-    year: 2018
-    coauthors: ['Teng Liu', 'Bo Wang']
-    doi: '10.1016/j.energy.2018.07.022'
-    journal: 'Energy'
-    openalex_id: W2825903071
-    sources: [openalex]
-    no_arxiv: true
+    sources: [arxiv]
 activity:
-  total_papers: 24
-  published_count: 22
+  total_papers: 21
+  published_count: 19
   preprint_only_count: 2
   active_period: '2021-present'
   quality_source: 'openalex + ruirui-2026'

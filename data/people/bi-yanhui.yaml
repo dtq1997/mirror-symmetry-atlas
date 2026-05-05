@@ -28,6 +28,37 @@ research_areas:
   - higher-geometry
   - dirac-manifold
   - integrable-hierarchy
+identity_profile:
+  openalex_id: 'A5110364792'
+  affiliations:
+    - institution: 'nchu'
+      period: 'present'
+      role: '硕士生导师'
+  coauthor_circle_core_slugs: [chen-zhuo, xiang-maosong]
+  coauthor_circle_core_names: ['Maosong Xiang', 'Zhuo Chen']
+  research_keywords:
+    - 'algebra'
+    - 'algebroid'
+    - 'courant'
+    - 'dirac'
+    - 'filippov'
+    - 'geometry'
+    - 'hierarchy'
+    - 'higher'
+    - 'integrable'
+    - 'manifold'
+    - 'rinehart'
+  known_arxiv_ids:
+    - '2512.03391'
+    - '2509.25995'
+    - '2507.17278'
+    - '2507.00559'
+    - '2309.10315'
+    - '2309.04180'
+    - '2302.01933'
+    - '2202.09224'
+    - '1812.09496'
+    - '1003.1350'
 advisor: null
 students: []
 key_collaborators:
@@ -67,24 +98,6 @@ key_collaborators:
     topic: "From n-systems to Lie and Courant algebroids"
     papers_count: 1
 publications:
-  - id: 'doi:10.1016/j.algal.2026.104624'
-    title: 'Isolation and identification of a centromeric tandemly repeated DNA sequence in Saccharina japonica'
-    year: 2026
-    coauthors: ['Yi-Yan CAI', 'Cheng Zhang', 'Si-Qi Chen', 'Zhi Li', 'Zhi-Gang Zhou', 'Yan‐Hui Bi']
-    doi: '10.1016/j.algal.2026.104624'
-    journal: 'Algal Research'
-    openalex_id: W7134131935
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1016/j.jcou.2026.103401'
-    title: 'Physiological and molecular insights into the CO2-concentrating mechanism in Saccharina japonica: Implications for carbon fixation and sustainable bioengineering'
-    year: 2026
-    coauthors: ['Yan‐Hui Bi', 'Jin-Hai Xie', 'Wen Wang', 'Pei-Chong Lin', 'Jia-Jian Weng', 'Jing Yang', 'Cheng Zhang', 'Zhi-Gang Zhou']
-    doi: '10.1016/j.jcou.2026.103401'
-    journal: 'Journal of CO2 Utilization'
-    openalex_id: W7139948305
-    sources: [openalex]
-    no_arxiv: true
   - id: '2512.03391'
     title: 'From n-systems to Lie and Courant algebroids'
     year: 2025
@@ -109,33 +122,6 @@ publications:
     coauthors: ['Yuqi Ruan', 'Bo Yuan', 'Tao Zhang']
     primary_category: nlin.SI
     sources: [arxiv]
-  - id: 'doi:10.1016/j.fsi.2025.111060'
-    title: 'Corrigendum to “Genomic and functional characterization of the lect2 gene from Siniperca chuatsi” [Fish Shellfish Immunology 107 (2020) 146–155]'
-    year: 2025
-    coauthors: ['Yawei Shen', 'Ming Cao', 'Shoujie Tang', 'Yan Zhao', li-ao, 'Xiaowu Chen', 'Yan‐Hui Bi']
-    doi: '10.1016/j.fsi.2025.111060'
-    journal: 'Fish & Shellfish Immunology'
-    openalex_id: W4417231233
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1016/j.plaphy.2024.108806'
-    title: 'The enzyme encoded by Myrmecia incisa, a green microalga, phospholipase A2 gene preferentially hydrolyzes arachidonic acid at the sn-2 position of phosphatidylcholine'
-    year: 2024
-    coauthors: ['Mei-Zhi Lin', 'Yan‐Hui Bi', si-li, 'Jin-Hai Xie', 'Zhi-Gang Zhou']
-    doi: '10.1016/j.plaphy.2024.108806'
-    journal: 'Plant Physiology and Biochemistry'
-    openalex_id: W4399506578
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1016/j.ijbiomac.2024.130506'
-    title: 'Characterization of a novel γ-type carbonic anhydrase, Sjγ-CA2, in Saccharina japonica: Insights into carbon concentration mechanism in macroalgae'
-    year: 2024
-    coauthors: ['Wen Wang', xu-xu, 'Gang Jiang', 'Li Zhi', 'Yan‐Hui Bi', 'Zhigang Zhou']
-    doi: '10.1016/j.ijbiomac.2024.130506'
-    journal: 'International Journal of Biological Macromolecules'
-    openalex_id: W4392190417
-    sources: [openalex]
-    no_arxiv: true
   - id: '2309.10315'
     title: 'On (co-)morphisms of $n$-Lie-Rinehart algebras with applications to Nambu-Poisson manifolds'
     year: 2023
@@ -156,183 +142,12 @@ publications:
     coauthors: ['Zhixiong Chen']
     primary_category: math.DG
     sources: [arxiv]
-  - id: 'doi:10.1007/s10811-023-03088-8'
-    title: 'Expression of a periplasmic β-carbonic anhydrase (CA) gene is positively correlated with HCO3- utilization by the gametophytes of Saccharina japonica (Phaeophyceae, Ochrophyta)'
-    year: 2023
-    coauthors: ['Hui-Min Hao', 'Yan‐Hui Bi', 'Ningning Wei', 'Pei-Chong Lin', 'Shou-Hua Mei', 'Zhigang Zhou']
-    doi: '10.1007/s10811-023-03088-8'
-    journal: 'Journal of Applied Phycology'
-    openalex_id: W4386605112
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1016/j.plaphy.2023.01.052'
-    title: 'Nuclear-encoded CbbX located in chloroplast is essential for the activity of red-type Rubisco in Saccharina japonica'
-    year: 2023
-    coauthors: ['Yan‐Hui Bi', 'Bing Feng', 'Wei-Yi Xie', 'Long‐Ling Ouyang', xu-xu, 'Zhigang Zhou']
-    doi: '10.1016/j.plaphy.2023.01.052'
-    journal: 'Plant Physiology and Biochemistry'
-    openalex_id: W4318426610
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1016/j.aaf.2023.08.007'
-    title: 'The isolation and functional identification of a phosphoenolpyruvate carboxykinase gene from Saccharina japonica'
-    year: 2023
-    coauthors: ['P.H. Lin', 'Yatong Yao', 'Lijuan Lu', 'Yan‐Hui Bi', 'Zhigang Zhou']
-    doi: '10.1016/j.aaf.2023.08.007'
-    journal: 'Aquaculture and Fisheries'
-    openalex_id: W4386964821
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1016/j.algal.2023.103253'
-    title: 'Heterologous expression of MiMLDP, a major lipid droplet protein of the microalga Myrmecia incisa, in Saccharomyces cerevisiae promotes more triacylglycerol storage principally by enlarging lipid droplet size'
-    year: 2023
-    coauthors: ['Jianmin Hu', 'Zheng Sun', xu-xu, 'Xiao-Peng Fang', 'Yan‐Hui Bi', 'Zhigang Zhou']
-    doi: '10.1016/j.algal.2023.103253'
-    journal: 'Algal Research'
-    openalex_id: W4386574410
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1016/j.algal.2023.103081'
-    title: 'Karyotype analysis of the brown seaweed Saccharina (or Laminaria) japonica'
-    year: 2023
-    coauthors: ['Yan‐Hui Bi', 'Zhi Li', 'Zhigang Zhou']
-    doi: '10.1016/j.algal.2023.103081'
-    journal: 'Algal Research'
-    openalex_id: W4362636795
-    sources: [openalex]
-    no_arxiv: true
   - id: '2202.09224'
     title: 'Cohomology and crossed modules extension of Hom-Leibniz-Rinehart algebras'
     year: 2022
     coauthors: ['Danlu Chen', 'Tao Zhang']
     primary_category: math.RA
     sources: [arxiv]
-  - id: 'doi:10.3389/fmars.2022.821603'
-    title: 'Discerning the Putative U and V Chromosomes of Saccharina japonica (Phaeophyta) by Cytogenetic Mapping of Sex-Linked Molecular Markers'
-    year: 2022
-    coauthors: ['Yu Du', 'Pengfei Liu', 'Zhi Li', 'Qian Zheng', 'Yan‐Hui Bi', 'Zhigang Zhou']
-    doi: '10.3389/fmars.2022.821603'
-    journal: 'Frontiers in Marine Science'
-    openalex_id: W4212888330
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1016/j.algal.2022.102636'
-    title: 'Dual-color fluorescence in situ hybridization with combinatorial labeling probes enables a detailed karyotype analysis of Saccharina japonica'
-    year: 2022
-    coauthors: ['Yü Liu', 'Yan‐Hui Bi', 'Zhigang Zhou']
-    doi: '10.1016/j.algal.2022.102636'
-    journal: 'Algal Research'
-    openalex_id: W4210376054
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1016/j.aquaculture.2021.736546'
-    title: 'The digestive system of mandarin fish (Siniperca chuatsi) can adapt to domestication by feeding with artificial diet'
-    year: 2021
-    coauthors: ['Yawei Shen', 'Huiyang Li', li-ao, 'Shoujie Tang', 'Yan Zhao', 'Yan‐Hui Bi', 'Xiaowu Chen']
-    doi: '10.1016/j.aquaculture.2021.736546'
-    journal: 'Aquaculture'
-    openalex_id: W3134082293
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.3389/fmicb.2021.643472'
-    title: 'One-Step Biosynthesis of Vitamin C in Saccharomyces cerevisiae'
-    year: 2021
-    coauthors: ['Mengyu Zhou', 'Yan‐Hui Bi', 'Ming‐Zhu Ding', 'Ying‐Jin Yuan']
-    doi: '10.3389/fmicb.2021.643472'
-    journal: 'Frontiers in Microbiology'
-    openalex_id: W3131695093
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1016/j.aaf.2021.07.002'
-    title: 'Molecular and FISH analysis of 45S rDNA on BAC molecule of Saccharina japonica'
-    year: 2021
-    coauthors: ['Pengfei Liu', 'Yan‐Hui Bi', 'Qian Zheng', 'Li Liu', 'Yu Du', 'Yu Liu', 'Zhigang Zhou']
-    doi: '10.1016/j.aaf.2021.07.002'
-    journal: 'Aquaculture and Fisheries'
-    openalex_id: W4230283029
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1016/j.chemosphere.2020.129162'
-    title: 'Isolation and characterization of a γ-carbonic anhydrase localized in the mitochondria of Saccharina japonica'
-    year: 2020
-    coauthors: ['Yan‐Hui Bi', 'An-Ying Du', 'Jiali Li', 'Zhigang Zhou']
-    doi: '10.1016/j.chemosphere.2020.129162'
-    journal: 'Chemosphere'
-    openalex_id: W3108206500
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1111/jpy.13091'
-    title: 'Identification and Characterization of a Periplasmic α‐Carbonic Anhydrase (CA) in the Gametophytes of <i>Saccharina japonica</i> (Phaeophyceae)'
-    year: 2020
-    coauthors: ['Yan‐Hui Bi', 'Ya‐Ming Qiao', 'Zhen Wang', 'Zhigang Zhou']
-    doi: '10.1111/jpy.13091'
-    journal: 'Journal of Phycology'
-    openalex_id: W3095934145
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1016/j.aaf.2020.01.003'
-    title: 'Effects of inorganic carbon concentration and pH on carbonic anhydrase activity of gametophytes of Saccharina japonica'
-    year: 2020
-    coauthors: ['Yan‐Hui Bi', 'Cui-Ling Liang', 'Jiali Li', 'Hao Yin', 'Ruo-Tong Tian', 'Zhi-Gang Zhou']
-    doi: '10.1016/j.aaf.2020.01.003'
-    journal: 'Aquaculture and Fisheries'
-    openalex_id: W3001578156
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1016/j.fsi.2020.09.034'
-    title: 'Genomic and functional characterization of the lect2 gene from Siniperca chuatsi'
-    year: 2020
-    coauthors: ['Yawei Shen', 'Ming Cao', 'Shoujie Tang', 'Yan Zhao', li-ao, 'Xiaowu Chen', 'Yan‐Hui Bi']
-    doi: '10.1016/j.fsi.2020.09.034'
-    journal: 'Fish & Shellfish Immunology'
-    openalex_id: W3089024305
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.3389/fmars.2020.539260'
-    title: 'Immunocytochemical Localization of the Kinetochore Protein Nuf2p on the Gametophyte Chromosomes of a Cultivar of Saccharina (Phaeophyta)'
-    year: 2020
-    coauthors: ['Wu-Shan Dong', 'Pengfei Liu', 'Yu Liu', 'Yu Du', 'Yan‐Hui Bi', 'Zhigang Zhou']
-    doi: '10.3389/fmars.2020.539260'
-    journal: 'Frontiers in Marine Science'
-    openalex_id: W3088015856
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1007/s00343-020-9276-5'
-    title: 'Chromosomal mapping of 5S and 18S-5.8S-25S rRNA genes in Saccharina japonica (Phaeophyceae) as visualized by dual-color fluorescence in situ hybridization'
-    year: 2020
-    coauthors: ['Yu Liu', 'Pengfei Liu', 'Yan‐Hui Bi', 'Zhigang Zhou']
-    doi: '10.1007/s00343-020-9276-5'
-    journal: 'Journal of Oceanology and Limnology'
-    openalex_id: W3093441279
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1007/s10695-020-00764-1'
-    title: 'Expression profile analyses of mettl8 in Oryzias latipes'
-    year: 2020
-    coauthors: ['Wei Pang', 'Ziwei Zhao', 'Yawei Shen', 'Yan‐Hui Bi', 'Yifeng Gu', 'Xiaowu Chen']
-    doi: '10.1007/s10695-020-00764-1'
-    journal: 'Fish Physiology and Biochemistry'
-    openalex_id: W3004019155
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1016/j.aaf.2019.03.004'
-    title: 'Transcriptome analysis of gill from Lateolabrax maculatus and aqp3 gene expression'
-    year: 2019
-    coauthors: ['Yawei Shen', 'Yudong D. He', 'Yan‐Hui Bi', 'Jianpeng Chen', 'Ziwei Zhao', 'Jun Li', 'Xiaowu Chen']
-    doi: '10.1016/j.aaf.2019.03.004'
-    journal: 'Aquaculture and Fisheries'
-    openalex_id: W2932835050
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1016/j.bej.2019.107250'
-    title: 'The effect of autonomously replicating sequences on gene expression in saccharomyces cerevisiae'
-    year: 2019
-    coauthors: ['Xiaole Wu', 'Yan‐Hui Bi', 'Feng Gao', 'Ze‐Xiong Xie', 'Xia Li', 'Xiao Zhou', 'Dejun Ma', 'Bing‐Zhi Li', 'Ying‐Jin Yuan']
-    doi: '10.1016/j.bej.2019.107250'
-    journal: 'Biochemical Engineering Journal'
-    openalex_id: W2947877118
-    sources: [openalex]
-    no_arxiv: true
   - id: '1812.09496'
     title: 'Higher omni-Lie algebroids'
     year: 2018
@@ -340,166 +155,6 @@ publications:
     journal: 'Journal of Lie Theory,Volume 29(2019) 881--899'
     primary_category: math.DG
     sources: [arxiv]
-  - id: 'doi:10.1007/s10295-018-2096-3'
-    title: 'Integrated proteomic and metabolomic analysis of a reconstructed three-species microbial consortium for one-step fermentation of 2-keto-<scp>l</scp>-gulonic acid, the precursor of vitamin C'
-    year: 2018
-    coauthors: ['Qian Ma', 'Yan‐Hui Bi', xu-xu, 'Bing-Bing Zhai', 'Xiutao Dong', 'Bin Qiao', 'Ming‐Zhu Ding', 'Ying‐Jin Yuan']
-    doi: '10.1007/s10295-018-2096-3'
-    journal: 'Journal of Industrial Microbiology & Biotechnology'
-    openalex_id: W2898109121
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1016/j.cbd.2018.11.001'
-    title: 'Transcriptional responses to low-salinity stress in the gills of adult female Portunus trituberculatus'
-    year: 2018
-    coauthors: ['Xiaowu Chen', 'Jianpeng Chen', 'Yawei Shen', 'Yan‐Hui Bi', 'Wenjie Hou', 'Pan Guiping', xu-xu]
-    doi: '10.1016/j.cbd.2018.11.001'
-    journal: 'Comparative Biochemistry and Physiology Part D Genomics and Proteomics'
-    openalex_id: W2899905871
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1016/j.aaf.2018.11.002'
-    title: 'Full-length mRNA sequencing in Saccharina japonica and identification of carbonic anhydrase genes'
-    year: 2018
-    coauthors: ['Yan‐Hui Bi', 'Jiali Li', 'Zhigang Zhou']
-    doi: '10.1016/j.aaf.2018.11.002'
-    journal: 'Aquaculture and Fisheries'
-    openalex_id: W2900872539
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1007/s10811-017-1206-3'
-    title: 'Characterization and physical mapping of nuclear ribosomal RNA (rRNA) genes in the haploid gametophytes of Saccharina japonica (Phaeophyta)'
-    year: 2017
-    coauthors: ['Li Liu', 'Qi-fan Yang', 'Wu-Shan Dong', 'Yan‐Hui Bi', 'Zhigang Zhou']
-    doi: '10.1007/s10811-017-1206-3'
-    journal: 'Journal of Applied Phycology'
-    openalex_id: W2725135923
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1515/9783110540048-018'
-    title: 'The Technical Method and Key Issues of the Delimitation of Ecological Protection Red Line at County Scale'
-    year: 2017
-    coauthors: ['Yan‐Hui Bi', 'Guodong Yang', 'Yanhong Zhang']
-    doi: '10.1515/9783110540048-018'
-    openalex_id: W2765213527
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1016/j.aaf.2017.06.006'
-    title: 'Complete sequence of chloroplast genome from Sargassum vachellianum (Sargassaceae, Phaeophyceae): Genome structure and comparative analysis'
-    year: 2017
-    coauthors: ['Yan‐Hui Bi', 'Jiali Li', 'Zhigang Zhou']
-    doi: '10.1016/j.aaf.2017.06.006'
-    journal: 'Aquaculture and Fisheries'
-    openalex_id: W2737933744
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.5772/62297'
-    title: 'Absorption and Transport of Inorganic Carbon in Kelps with Emphasis on Saccharina japonica'
-    year: 2016
-    coauthors: ['Yan‐Hui Bi', 'Zhigang Zhou']
-    doi: '10.5772/62297'
-    journal: 'InTech eBooks'
-    openalex_id: W2324345716
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1016/j.dci.2016.05.005'
-    title: 'Identification and functional analysis of interferon regulatory factor 3 in Lateolabrax maculatus'
-    year: 2016
-    coauthors: ['Xiaowu Chen', 'Qun Wei', 'Zhipeng Wang', 'Chunlei Wang', 'Yan‐Hui Bi', 'Yifeng Gu']
-    doi: '10.1016/j.dci.2016.05.005'
-    journal: 'Developmental & Comparative Immunology'
-    openalex_id: W2376775261
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.3109/19401736.2015.1053071'
-    title: 'Complete mitochondrial genome of the brown alga <i>Sargassum vachellianum</i> (Sargassaceae, Phaeophyceae)'
-    year: 2015
-    coauthors: ['Yan‐Hui Bi', 'Zhigang Zhou']
-    doi: '10.3109/19401736.2015.1053071'
-    journal: 'Mitochondrial DNA Part A'
-    openalex_id: W1694379733
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1016/j.bse.2014.02.010'
-    title: 'Genetic diversity of wild population of Pyropia haitanensis based on SSR analysis'
-    year: 2014
-    coauthors: ['Yan‐Hui Bi', 'Ya-Ya Wu', 'Zhigang Zhou']
-    doi: '10.1016/j.bse.2014.02.010'
-    journal: 'Biochemical Systematics and Ecology'
-    openalex_id: W1981320138
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1127/1864-1318/2014/0145'
-    title: 'What does the difference between the female and male gametophytes of Saccharina japonica remind us of?'
-    year: 2014
-    coauthors: ['Yan‐Hui Bi', 'Zhigang Zhou']
-    doi: '10.1127/1864-1318/2014/0145'
-    journal: 'Algological Studies'
-    openalex_id: W2057403611
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1007/s12686-014-0333-2'
-    title: 'Development and characterization of 12 polymorphic microsatellite markers in Sargassum vachellianum'
-    year: 2014
-    coauthors: ['Yan‐Hui Bi', xu-xu, 'Zheng Sun', 'Zhigang Zhou']
-    doi: '10.1007/s12686-014-0333-2'
-    journal: 'Conservation Genetics Resources'
-    openalex_id: W2080145508
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1039/9781782620181-00079'
-    title: 'Microalgae Technology'
-    year: 2014
-    coauthors: ['Zheng Sun', 'Yan‐Hui Bi', 'Zhigang Zhou']
-    doi: '10.1039/9781782620181-00079'
-    openalex_id: W2355390790
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1007/s10811-013-0089-1'
-    title: 'Sex identification and genetic variation of Saccharina (Phaeophyta) gametophytes as revealed by inter-simple sequence repeat (ISSR) markers'
-    year: 2013
-    coauthors: ['Jun-Gang Gu', 'Yuping Sun', 'Yu Liu', 'Yan‐Hui Bi', 'Zhigang Zhou']
-    doi: '10.1007/s10811-013-0089-1'
-    journal: 'Journal of Applied Phycology'
-    openalex_id: W1964811436
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1371/journal.pone.0048784'
-    title: 'Localization of a Female-Specific Marker on the Chromosomes of the Brown Seaweed Saccharina japonica Using Fluorescence In Situ Hybridization'
-    year: 2012
-    coauthors: ['Yu Liu', 'Yan‐Hui Bi', 'Jun-Gang Gu', 'Lihua Li', 'Zhigang Zhou']
-    doi: '10.1371/journal.pone.0048784'
-    journal: 'PLoS ONE'
-    openalex_id: W1976168495
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.3724/sp.j.1231.2012.27590'
-    title: 'Karyological observation on<i>Saccharina japonica</i>chromosomes stained with DAPI'
-    year: 2012
-    coauthors: ['Yu Liu', 'Yan‐Hui Bi', 'Zhigang Zhou']
-    doi: '10.3724/sp.j.1231.2012.27590'
-    journal: 'JOURNAL OF FISHERIES OF CHINA'
-    openalex_id: W2350854261
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1007/s13131-011-0110-y'
-    title: 'Genetic variation of Laminaria japonica (Phaeophyta) populations in China as revealed by RAPD markers'
-    year: 2011
-    coauthors: ['Yan‐Hui Bi', 'Yuanjie Hu', 'Zhigang Zhou']
-    doi: '10.1007/s13131-011-0110-y'
-    journal: 'Acta Oceanologica Sinica'
-    openalex_id: W2344265222
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.3724/sp.j.1231.2010.06897'
-    title: 'Observation on microstructure and ultrastructure of pituitary in &lt;I&gt;Trionyx sinensis&lt;/I&gt;'
-    year: 2011
-    coauthors: ['Xiaowu Chen', 'Yi Liu', 'Yan‐Hui Bi', 'Huijun Bao', 'Qiusheng Chen']
-    doi: '10.3724/sp.j.1231.2010.06897'
-    journal: 'JOURNAL OF FISHERIES OF CHINA'
-    openalex_id: W2329383048
-    sources: [openalex]
-    no_arxiv: true
   - id: '1003.1350'
     title: 'On higher analogues of Courant algebroids'
     year: 2010
@@ -508,18 +163,9 @@ publications:
     journal: 'Sci. China Math. (2011) Vol. 54 No. 3: 437-447'
     primary_category: math.DG
     sources: [arxiv]
-  - id: 'doi:10.1143/jpsj.74.2449'
-    title: 'On the Geometric Equivalence of the Discrete Integrable Modified Heisenberg Ferromagnet Model'
-    year: 2005
-    coauthors: ['Fengling Yu', 'Yan‐Hui Bi', 'Ying Zhai', hong-wei, 'Ke Wu']
-    doi: '10.1143/jpsj.74.2449'
-    journal: 'Journal of the Physical Society of Japan'
-    openalex_id: W2047136724
-    sources: [openalex]
-    no_arxiv: true
 activity:
-  total_papers: 53
-  published_count: 46
+  total_papers: 10
+  published_count: 3
   preprint_only_count: 7
   active_period: '2010-present'
 external_ids:

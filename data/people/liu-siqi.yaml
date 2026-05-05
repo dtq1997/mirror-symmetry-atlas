@@ -36,6 +36,75 @@ research_areas:
 - frobenius-manifolds
 - integrable-systems
 - wdvv-equations
+identity_profile:
+  openalex_id: 'A5110050043'
+  affiliations:
+    - institution: 'tsinghua'
+      period: '~2002-2007'
+      role: '博士'
+    - institution: 'tsinghua'
+      period: '2007-2009'
+      role: '助研'
+    - institution: 'tsinghua'
+      period: '2009-2011'
+      role: '讲师'
+    - institution: 'tsinghua'
+      period: '2011-2016'
+      role: '副教授'
+    - institution: 'tsinghua'
+      period: '2016-present'
+      role: '教授'
+  email_domains: [tsinghua.edu.cn]
+  coauthor_circle_core_slugs: [dubrovin, zhang-youjin]
+  coauthor_circle_core_names: ['Boris Dubrovin', 'Youjin Zhang']
+  coauthor_circle_extended_slugs: [qu-haonan, ruan-yongbin, xu-xu, yang-di, zhou-chunhui, zhou-jian]
+  coauthor_circle_extended_names: ['Chunhui Zhou', 'Di Yang', 'Haonan Qu', 'Jian Zhou', 'Xu Xu', 'Yongbin Ruan']
+  research_keywords: [equations, frobenius, integrable, manifolds, systems, wdvv]
+  known_arxiv_ids:
+    - '2602.21532'
+    - '2511.06984'
+    - '2506.13656'
+    - '2411.08839'
+    - '2408.13458'
+    - '2411.15496'
+    - '2409.19530'
+    - '2404.08895'
+    - '2402.00373'
+    - '2305.10851'
+    - '2210.00158'
+    - '2209.00483'
+    - '2203.16812'
+    - '2111.11316'
+    - '2112.07526'
+    - '2110.03317'
+    - '2109.01846'
+    - '2109.01845'
+    - '2108.03447'
+    - '2106.13038'
+    - '2009.01143'
+    - '1908.06707'
+    - '1906.06860'
+    - '1811.10234'
+    - '1811.10137'
+    - '1702.02840'
+    - '1701.03222'
+    - '1612.02333'
+    - '1502.01774'
+    - '1409.4616'
+    - '1312.7227'
+    - '1305.2593'
+    - '1305.1008'
+    - '1208.5847'
+    - '1205.5990'
+    - '1012.5708'
+    - '0912.5273'
+    - '0910.2085'
+    - '0809.0397'
+    - '0711.2599'
+    - '0710.3115'
+    - '0510019'
+    - '0501028'
+    - '0410027'
 advisor: zhang-youjin
 students: []
 key_collaborators:
@@ -268,25 +337,15 @@ publications:
     coauthors: ['Ming Chen', zhang-youjin]
     doi: '10.1007/s11005-005-0041-7'
     journal: 'Letters in Mathematical Physics'
-    openalex_id: W2027692750
-    sources: [arxiv, openalex]
-  - id: 'doi:10.1002/cpa.20111'
-    title: 'On Hamiltonian perturbations of hyperbolic systems of conservation laws I: Quasi‐Triviality of bi‐Hamiltonian perturbations'
-    year: 2005
-    coauthors: [dubrovin, si-li, zhang-youjin]
-    doi: '10.1002/cpa.20111'
-    journal: 'Communications on Pure and Applied Mathematics'
-    openalex_id: W2148634808
-    sources: [openalex]
-    no_arxiv: true
+    sources: [arxiv]
   - id: '0410027'
     title: 'On Hamiltonian perturbations of hyperbolic systems of conservation laws'
     year: 2004
     coauthors: [dubrovin, zhang-youjin]
     sources: [arxiv]
 activity:
-  total_papers: 45
-  published_count: 2
+  total_papers: 44
+  published_count: 1
   preprint_only_count: 43
   active_period: '2000-present'
   quality_source: 'openalex + ruirui-2026'

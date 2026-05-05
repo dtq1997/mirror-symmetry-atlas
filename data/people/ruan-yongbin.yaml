@@ -56,6 +56,101 @@ research_areas:
   - orbifold-cohomology
   - quantum-cohomology
   - moduli-spaces
+identity_profile:
+  openalex_id: 'A5103172200'
+  affiliations:
+    - institution: 'sichuan-u'
+      period: '1978-1985'
+      role: '本硕, 数学'
+    - institution: 'uc-berkeley'
+      period: '1985-1991'
+      role: '博士, 数学'
+    - institution: 'michigan-state'
+      period: '1991-1993'
+      role: '博士后'
+    - institution: 'utah'
+      period: '1993-1996'
+      role: '助理教授'
+    - institution: 'wisconsin-madison'
+      period: '1996-2005'
+      role: '副教授→教授→Van Vleck Chair'
+    - institution: 'umich'
+      period: '2005-2020'
+      role: 'Bill Fulton Collegiate Chair Professor'
+    - institution: 'zju-ims'
+      period: '2019.7-present'
+      role: '求是讲席教授 / 首批 permanent member'
+  coauthor_circle_core_slugs: [hu-jianxun]
+  coauthor_circle_core_names: ['Jianxun Hu']
+  coauthor_circle_extended_slugs: [fan-huijun, fang-bohan, guo-shuai, si-li, tian-gang, zhang-bin, zhang-wei, zhang-youjin]
+  coauthor_circle_extended_names:
+    - 'Bin Zhang'
+    - 'Bohan Fang'
+    - 'Gang Tian'
+    - 'Huijun Fan'
+    - 'Shuai Guo'
+    - 'Si Li'
+    - 'Wei Zhang'
+    - 'Youjin Zhang'
+  research_keywords: [cohomology, fjrw, gromov, mirror, moduli, orbifold, quantum, spaces, symmetry, theory, witten]
+  known_arxiv_ids:
+    - '2210.13411'
+    - '2210.04430'
+    - '2208.04519'
+    - '2207.10533'
+    - '2207.06111'
+    - '2109.02218'
+    - '2011.07519'
+    - '1911.07204'
+    - '1906.04345'
+    - '1812.11908'
+    - '1811.01377'
+    - '1805.04894'
+    - '1805.02304'
+    - '1804.06552'
+    - '1709.07392'
+    - '1706.05038'
+    - '1702.03427'
+    - '1605.08885'
+    - '1603.02666'
+    - '1506.02109'
+    - '1412.1268'
+    - '1402.6688'
+    - '1312.7227'
+    - '1307.0939'
+    - '1206.3879'
+    - '1205.1662'
+    - '1201.0813'
+    - '1106.2321'
+    - '1012.0066'
+    - '1008.0927'
+    - '0908.0908'
+    - '0906.3265'
+    - '0812.4660'
+    - '0802.0590'
+    - '0712.4021'
+    - '0712.4025'
+    - '0711.4254'
+    - '0710.5901'
+    - '0611592'
+    - '0605534'
+    - '0504369'
+    - '0409434'
+    - '0201123'
+    - '0108195'
+    - '0107168'
+    - '0103156'
+    - '0011149'
+    - '0005299'
+    - '0005198'
+    - '0004129'
+    - '9810039'
+    - '9803036'
+    - '9611021'
+    - '9607223'
+    - '9606014'
+    - '9601005'
+    - '9510010'
 advisor: "Robion Kirby"
 students: []
 key_collaborators:
@@ -78,8 +173,7 @@ publications:
     coauthors: ['Zhiyu Liu']
     doi: '10.48550/arxiv.2210.13411'
     primary_category: math.AG
-    openalex_id: W4307323644
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '2210.04430'
     title: 'Mirror of Orbifold Singularities in the Hitchin Fibration: the case $(\text{SL}_n,\text{PGL}_n)$'
     year: 2022
@@ -87,16 +181,14 @@ publications:
     doi: '10.1016/j.aim.2024.110076'
     journal: 'Advances in Mathematics, 461 (2025)'
     primary_category: math.AG
-    openalex_id: W4304730859
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '2208.04519'
     title: 'Punctured logarithmic R-maps'
     year: 2022
     coauthors: ['Qile Chen', 'Felix Janda']
     doi: '10.48550/arxiv.2208.04519'
     primary_category: math.AG
-    openalex_id: W4301967101
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '2207.10533'
     title: 'Mirror symmetry for special nilpotent orbit closures'
     year: 2022
@@ -104,33 +196,21 @@ publications:
     doi: '10.1007/s11425-023-2264-1'
     journal: 'Science China Mathematics'
     primary_category: math.AG
-    openalex_id: W4408419426
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '2207.06111'
     title: 'Symplectic blowing down in dimension Six'
     year: 2022
     coauthors: ['Tian-Jun Li', zhang-wei]
     doi: '10.48550/arxiv.2207.06111'
     primary_category: math.SG
-    openalex_id: W4285483760
-    sources: [arxiv, openalex]
-  - id: 'doi:10.1007/s10114-022-2998-x'
-    title: 'Preface of the Special Issue for Banghe Li’s 80th Anniversary'
-    year: 2022
-    coauthors: ['Fuquan Fang', 'Jie Wu', 'Liqun Zhang']
-    doi: '10.1007/s10114-022-2998-x'
-    journal: 'Acta Mathematica Sinica English Series'
-    openalex_id: W4308433736
-    sources: [openalex]
-    no_arxiv: true
+    sources: [arxiv]
   - id: '2109.02218'
     title: 'Quantum $K$-theory and $q$-Difference equations'
     year: 2021
     coauthors: ['Yaoxiong Wen']
     doi: '10.48550/arxiv.2109.02218'
     primary_category: math.AG
-    openalex_id: W3197286240
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '2011.07519'
     title: 'Quantum $K$-theory of toric varieties, level structures, and 3d mirror symmetry'
     year: 2020
@@ -138,8 +218,7 @@ publications:
     doi: '10.1016/j.aim.2022.108770'
     journal: 'Advances in Mathematics'
     primary_category: math.AG
-    openalex_id: W4308421425
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '1911.07204'
     title: 'Genus Two Quasi-Siegel Modular Forms and Gromov-Witten Theory of Toric Calabi-Yau Threefolds'
     year: 2019
@@ -147,8 +226,7 @@ publications:
     doi: '10.1007/s00220-022-04534-3'
     journal: 'Commun. Math. Phys. 398, 757-796 (2023)'
     primary_category: math.AG
-    openalex_id: W4309048256
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '1906.04345'
     title: 'The logarithmic gauged linear sigma model'
     year: 2019
@@ -156,16 +234,14 @@ publications:
     doi: '10.1007/s00222-021-01044-2'
     journal: 'Inventiones mathematicae, 225(3): 1077-1154, 2021'
     primary_category: math.AG
-    openalex_id: W2949647418
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '1812.11908'
     title: 'Structure of Higher Genus Gromov-Witten Invariants of Quintic 3-folds'
     year: 2018
     coauthors: [guo-shuai, 'Felix Janda']
     doi: '10.48550/arxiv.1812.11908'
     primary_category: math.AG
-    openalex_id: W2906777290
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '1811.01377'
     title: 'Verlinde/Grassmannian Correspondence and Rank 2 $δ$-wall-crossing'
     year: 2018
@@ -173,8 +249,7 @@ publications:
     doi: '10.1007/s42543-021-00046-6'
     journal: 'Peking Mathematical Journal'
     primary_category: math.AG
-    openalex_id: W2899451587
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '1805.04894'
     title: 'Open Gromov-Witten Theory of $K_{\mathbb P^2}, K_{{\mathbb P^1}\times {\mathbb P^1}}, K_{W\mathbb P[1,1,2]}, K_{\mathbb F_1}$ and Jacobi Forms'
     year: 2018
@@ -190,33 +265,21 @@ publications:
     doi: '10.2140/gt.2022.26.2855'
     journal: 'Geom. Topol. 26 (2022) 2855-2939'
     primary_category: math.AG
-    openalex_id: W3201948013
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '1804.06552'
     title: 'The level structure in quantum K-theory and mock theta functions'
     year: 2018
     coauthors: ['Ming Zhang']
     doi: '10.2140/gt.2026.30.835'
     primary_category: math.AG
-    openalex_id: W2797363641
-    sources: [arxiv, openalex]
-  - id: 'doi:10.1007/978-3-319-94220-9'
-    title: 'B-Model Gromov-Witten Theory'
-    year: 2018
-    coauthors: ['Emily Clader']
-    doi: '10.1007/978-3-319-94220-9'
-    journal: 'Trends in mathematics'
-    openalex_id: W4247456002
-    sources: [openalex]
-    no_arxiv: true
+    sources: [arxiv]
   - id: '1709.07392'
     title: 'A mirror theorem for genus two Gromov-Witten invariants of quintic threefolds'
     year: 2017
     coauthors: [guo-shuai, 'Felix Janda']
     doi: '10.48550/arxiv.1709.07392'
     primary_category: math.AG
-    openalex_id: W2758432579
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '1706.05038'
     title: 'Higher-genus wall-crossing in the gauged linear sigma model'
     year: 2017
@@ -224,8 +287,7 @@ publications:
     doi: '10.1215/00127094-2020-0053'
     journal: 'Duke Math. J. 170, no. 4 (2021), 697-773'
     primary_category: math.AG
-    openalex_id: W3114418512
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '1702.03427'
     title: 'Higher-genus quasimap wall-crossing via localization'
     year: 2017
@@ -233,17 +295,7 @@ publications:
     doi: '10.14231/AG-2024-021'
     journal: 'Algebr. Geom. 11 (2024), no. 5, 712-736'
     primary_category: math.AG
-    openalex_id: W2601817714
-    sources: [arxiv, openalex]
-  - id: 'doi:10.1007/s11401-017-1106-5'
-    title: 'Nonabelian gauged linear sigma model'
-    year: 2017
-    coauthors: []
-    doi: '10.1007/s11401-017-1106-5'
-    journal: 'Chinese Annals of Mathematics Series B'
-    openalex_id: W2737902306
-    sources: [openalex]
-    no_arxiv: true
+    sources: [arxiv]
   - id: '1605.08885'
     title: 'Gromov-Witten Theory of Quotient of Fermat Calabi-Yau varieties'
     year: 2016
@@ -251,8 +303,7 @@ publications:
     doi: '10.1090/memo/1310'
     journal: 'Memoirs of the American Mathematical Society'
     primary_category: math.AG
-    openalex_id: W3133989702
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '1603.02666'
     title: 'The Moduli Space in the Gauged Linear Sigma Model'
     year: 2016
@@ -260,8 +311,7 @@ publications:
     doi: '10.1007/s11401-017-1104-7'
     journal: 'Chinese Annals of Mathematics Series B'
     primary_category: math.AG
-    openalex_id: W2964289133
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '1506.02109'
     title: 'A Mathematical Theory of the Gauged Linear Sigma Model'
     year: 2015
@@ -277,8 +327,7 @@ publications:
     doi: '10.1007/978-3-319-94220-9_1'
     journal: 'Trends in mathematics'
     primary_category: math.AG
-    openalex_id: W2127263810
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '1402.6688'
     title: 'Wall-Crossing in Genus Zero Landau-Ginzburg Theory'
     year: 2014
@@ -286,15 +335,7 @@ publications:
     doi: '10.1515/crelle-2015-0005'
     journal: 'Journal für die reine und angewandte Mathematik (Crelles Journal)'
     primary_category: math.AG
-    openalex_id: W2963257461
-    sources: [arxiv, openalex]
-  - id: 'openalex:W607516769'
-    title: 'Nonlinear spectral calculus and super-expanders . K- and L-theory of group rings over GL n (Z) . Landau-Ginzburg/Calabi-Yau correspondence, global mirror symmetry and Orlov equivalence . On the inverse spectral problem for the quasi-periodic Schrödinger equation'
-    year: 2014
-    coauthors: ['Manor Mendel', 'Assaf Naor', 'Arthur Bartels', 'A Chiodo', '寛 入谷', 'David Damanik', 'Michael Goldstein']
-    openalex_id: W607516769
-    sources: [openalex]
-    no_arxiv: true
+    sources: [arxiv]
   - id: '1312.7227'
     title: 'BCFG Drinfeld-Sokolov Hierarchies and FJRW-Theory'
     year: 2013
@@ -302,8 +343,7 @@ publications:
     doi: '10.1007/s00222-014-0559-3'
     journal: 'Inventiones mathematicae'
     primary_category: math.AG
-    openalex_id: W1984477330
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '1307.0939'
     title: 'A global mirror symmetry framework for the Landau-Ginzburg/Calabi-Yau correspondence'
     year: 2013
@@ -311,15 +351,7 @@ publications:
     doi: '10.5802/aif.2795'
     journal: 'Annales de l''institut Fourier, 61 no. 7 (2011), p. 2803-2864'
     primary_category: math.AG
-    openalex_id: W2963863597
-    sources: [arxiv, openalex]
-  - id: 'openalex:W3147733325'
-    title: 'A Mirror Theorem for the Mirror Quintic'
-    year: 2013
-    coauthors: ['Emily Clader', 'Steffen Marcus', 'Nathan Priddis', 'Dusty Ross']
-    openalex_id: W3147733325
-    sources: [openalex]
-    no_arxiv: true
+    sources: [arxiv]
   - id: '1206.3879'
     title: 'Gromov-Witten theory and cycle-valued modular forms'
     year: 2012
@@ -327,8 +359,7 @@ publications:
     doi: '10.1515/crelle-2015-0019'
     journal: 'Journal für die reine und angewandte Mathematik (Crelles Journal)'
     primary_category: math.AG
-    openalex_id: W1520055797
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '1205.1662'
     title: 'The moduli space of regular stable maps'
     year: 2012
@@ -336,8 +367,7 @@ publications:
     doi: '10.1007/s00209-007-0237-x'
     journal: 'Mathematische Zeitschrift, Volume 259 (2008), pages 525-574'
     primary_category: math.SG
-    openalex_id: W2068732012
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '1201.0813'
     title: 'Landau-Ginzburg/Calabi-Yau correspondence, global mirror symmetry and Orlov equivalence'
     year: 2012
@@ -345,33 +375,21 @@ publications:
     doi: '10.1007/s10240-013-0056-z'
     journal: 'Publ. IHES, June 2014, Vol 119, Issue 1, pp.127-216'
     primary_category: math.AG
-    openalex_id: W2044029697
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '1106.2321'
     title: 'Gromov-Witten theory of elliptic orbifold P^1 and quasi-modular forms'
     year: 2011
     coauthors: ['Todor Milanov']
     doi: '10.48550/arxiv.1106.2321'
     primary_category: math.AG
-    openalex_id: W1645452535
-    sources: [arxiv, openalex]
-  - id: 'doi:10.5802/aif.2794'
-    title: 'Quantum Singularity Theory for <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"> <mml:msub> <mml:mi>A</mml:mi> <mml:mrow> <mml:mo>(</mml:mo> <mml:mi>r</mml:mi> <mml:mo>-</mml:mo> <mml:mn>1</mml:mn> <mml:mo>)</mml:mo> </mml:mrow> </mml:msub> </mml:math> and <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"> <mml:mi>r</mml:mi> </mml:math> -Spin Theory'
-    year: 2011
-    coauthors: [fan-huijun, 'Tyler J. Jarvis']
-    doi: '10.5802/aif.2794'
-    journal: 'Annales de l’institut Fourier'
-    openalex_id: W2963665553
-    sources: [openalex]
-    no_arxiv: true
+    sources: [arxiv]
   - id: '1012.0066'
     title: 'Quantum Singularity Theory for A_{r-1} and r-Spin Theory'
     year: 2010
     coauthors: [fan-huijun, 'Tyler J. Jarvis']
     doi: '10.48550/arxiv.1012.0066'
     primary_category: math.AG
-    openalex_id: W1800521642
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '1008.0927'
     title: 'Witten''s D_4 Integrable Hierarchies Conjecture'
     year: 2010
@@ -379,8 +397,7 @@ publications:
     doi: '10.1007/s11401-016-0944-x'
     journal: 'Chinese Annals of Mathematics Series B'
     primary_category: math.AG
-    openalex_id: W2964118752
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '0908.0908'
     title: 'LG/CY correspondence: the state space isomorphism'
     year: 2009
@@ -388,8 +405,7 @@ publications:
     doi: '10.1016/j.aim.2011.04.011'
     journal: 'Advances in Mathematics'
     primary_category: math.AG
-    openalex_id: W2963487733
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '0906.3265'
     title: 'Symplectic Birational Geometry'
     year: 2009
@@ -397,17 +413,7 @@ publications:
     doi: '10.1090/crmp/049/12'
     journal: 'CRM proceedings & lecture notes'
     primary_category: math.SG
-    openalex_id: W1818540638
-    sources: [arxiv, openalex]
-  - id: 'doi:10.4310/sdg.2009.v14.n1.a13'
-    title: 'Riemann surfaces, integrable hierarchies, and singularity theory'
-    year: 2009
-    coauthors: []
-    doi: '10.4310/sdg.2009.v14.n1.a13'
-    journal: 'Surveys in Differential Geometry'
-    openalex_id: W2323727654
-    sources: [openalex]
-    no_arxiv: true
+    sources: [arxiv]
   - id: '0812.4660'
     title: 'Landau-Ginzburg/Calabi-Yau correspondence for quintic three-folds via symplectic transformations'
     year: 2008
@@ -415,8 +421,7 @@ publications:
     doi: '10.1007/s00222-010-0260-0'
     journal: 'Invent. Math., 182, (2010), 117-165'
     primary_category: math.AG
-    openalex_id: W2047178258
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '0802.0590'
     title: 'Positive divisors in symplectic geometry'
     year: 2008
@@ -424,8 +429,7 @@ publications:
     doi: '10.1007/s11425-012-4557-x'
     journal: 'Science China Mathematics'
     primary_category: math.SG
-    openalex_id: W2035684932
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '0712.4021'
     title: 'The Witten equation, mirror symmetry and quantum singularity theory'
     year: 2007
@@ -433,16 +437,14 @@ publications:
     doi: '10.4007/annals.2013.178.1.1'
     journal: 'Annals of Mathematics'
     primary_category: math.AG
-    openalex_id: W2963450458
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '0712.4025'
     title: 'The Witten equation and its virtual fundamental cycle'
     year: 2007
     coauthors: [fan-huijun, 'Tyler J. Jarvis']
     doi: '10.48550/arxiv.0712.4025'
     primary_category: math.AG
-    openalex_id: W1854175385
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '0711.4254'
     title: 'Uniruled symplectic divisors'
     year: 2007
@@ -450,8 +452,7 @@ publications:
     doi: '10.1007/s40304-013-0010-x'
     journal: 'Communications in Mathematics and Statistics'
     primary_category: math.SG
-    openalex_id: W1968893636
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '0710.5901'
     title: 'Quantum Cohomology and Crepant Resolutions: A Conjecture'
     year: 2007
@@ -459,71 +460,7 @@ publications:
     doi: '10.5802/aif.2766'
     journal: 'Annales de l’institut Fourier'
     primary_category: math.AG
-    openalex_id: W2962775029
-    sources: [arxiv, openalex]
-  - id: 'doi:10.1017/cbo9780511543081'
-    title: 'Orbifolds and Stringy Topology'
-    year: 2007
-    coauthors: ['Alejandro Ádem', 'Johann Leida']
-    doi: '10.1017/cbo9780511543081'
-    journal: 'Cambridge University Press eBooks'
-    openalex_id: W573059742
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1017/cbo9780511543081.004'
-    title: 'Orbifold K-theory'
-    year: 2007
-    coauthors: ['Alejandro Ádem', 'Johann Leida']
-    doi: '10.1017/cbo9780511543081.004'
-    journal: 'Cambridge University Press eBooks'
-    openalex_id: W1441867791
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1017/cbo9780511543081.001'
-    title: 'Introduction'
-    year: 2007
-    coauthors: ['Alejandro Ádem', 'Johann Leida']
-    doi: '10.1017/cbo9780511543081.001'
-    journal: 'Cambridge University Press eBooks'
-    openalex_id: W1427860645
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1017/cbo9780511543081.003'
-    title: 'Cohomology, bundles and morphisms'
-    year: 2007
-    coauthors: ['Alejandro Ádem', 'Johann Leida']
-    doi: '10.1017/cbo9780511543081.003'
-    journal: 'Cambridge University Press eBooks'
-    openalex_id: W2477412148
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1017/cbo9780511543081.006'
-    title: 'Calculating Chen–Ruan cohomology'
-    year: 2007
-    coauthors: ['Alejandro Ádem', 'Johann Leida']
-    doi: '10.1017/cbo9780511543081.006'
-    journal: 'Cambridge University Press eBooks'
-    openalex_id: W2491257593
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1017/cbo9780511543081.005'
-    title: 'Chen–Ruan cohomology'
-    year: 2007
-    coauthors: ['Alejandro Ádem', 'Johann Leida']
-    doi: '10.1017/cbo9780511543081.005'
-    journal: 'Cambridge University Press eBooks'
-    openalex_id: W366777717
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1017/cbo9780511543081.002'
-    title: 'Foundations'
-    year: 2007
-    coauthors: ['Alejandro Ádem', 'Johann Leida']
-    doi: '10.1017/cbo9780511543081.002'
-    journal: 'Cambridge University Press eBooks'
-    openalex_id: W4246036328
-    sources: [openalex]
-    no_arxiv: true
+    sources: [arxiv]
   - id: '0611592'
     title: 'Birational cobordism invariance of uniruled symplectic manifolds'
     year: 2006
@@ -531,16 +468,14 @@ publications:
     doi: '10.1007/s00222-007-0097-3'
     journal: 'Inventiones mathematicae'
     primary_category: math.SG
-    openalex_id: W2063405087
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '0605534'
     title: 'A Stringy Product on Twisted Orbifold K-theory'
     year: 2006
     coauthors: ['Alejandro Adem', zhang-bin]
     doi: '10.48550/arxiv.math/0605534'
     primary_category: math.AT
-    openalex_id: W1632590183
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '0504369'
     title: 'Gerbes and twisted orbifold quantum cohomology'
     year: 2005
@@ -548,8 +483,7 @@ publications:
     doi: '10.1007/s11425-007-0154-9'
     journal: 'Science in China Series A Mathematics'
     primary_category: math.AG
-    openalex_id: W1985701349
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '0409434'
     title: 'Geometry and analysis of spin equations'
     year: 2004
@@ -557,40 +491,14 @@ publications:
     doi: '10.1002/cpa.20246'
     journal: 'Communications on Pure and Applied Mathematics'
     primary_category: math.DG
-    openalex_id: W2118171187
-    sources: [arxiv, openalex]
-  - id: 'openalex:W1558111879'
-    title: 'Compactness of A r-spin equations'
-    year: 2004
-    coauthors: [fan-huijun, 'Tyler J. Jarvis']
-    openalex_id: W1558111879
-    sources: [openalex]
-    no_arxiv: true
+    sources: [arxiv]
   - id: '0201123'
     title: 'Stringy orbifolds'
     year: 2002
     coauthors: []
     doi: '10.48550/arxiv.math/0201123'
     primary_category: math.AG
-    openalex_id: W4394670830
-    sources: [arxiv, openalex]
-  - id: 'doi:10.1007/978-1-4612-0067-3_6'
-    title: 'Gromov—Witten Invariants and Quantum Cohomology'
-    year: 2002
-    coauthors: []
-    doi: '10.1007/978-1-4612-0067-3_6'
-    journal: 'Birkhäuser Boston eBooks'
-    openalex_id: W22000680
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1090/conm/310'
-    title: 'Orbifolds in mathematics and physics : proceedings of a Conference on Mathematical Aspects of Orbifold String Theory, May 4-8, 2001, University of Wisconsin, Madison, Wisconsin'
-    year: 2002
-    coauthors: ['Alejandro Ádem', 'Jack Morava']
-    doi: '10.1090/conm/310'
-    openalex_id: W602045858
-    sources: [openalex]
-    no_arxiv: true
+    sources: [arxiv]
   - id: '0108195'
     title: 'Cohomology ring of crepant resolutions of orbifolds'
     year: 2001
@@ -598,8 +506,7 @@ publications:
     doi: '10.1090/conm/403/07597'
     journal: 'Contemporary mathematics - American Mathematical Society'
     primary_category: math.AG
-    openalex_id: W2963238826
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '0107168'
     title: 'Twisted Orbifold K-Theory'
     year: 2001
@@ -614,16 +521,14 @@ publications:
     coauthors: ['Weimin Chen']
     doi: '10.48550/arxiv.math/0103156'
     primary_category: math.AG
-    openalex_id: W4394651378
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '0011149'
     title: 'Stringy Geometry and Topology of Orbifolds'
     year: 2000
     coauthors: []
     doi: '10.48550/arxiv.math/0011149'
     primary_category: math.AG
-    openalex_id: W4308248091
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '0005299'
     title: 'Discrete torsion and twisted orbifold cohomology'
     year: 2000
@@ -631,16 +536,14 @@ publications:
     doi: '10.4310/jsg.2004.v2.n1.a1'
     journal: 'Journal of Symplectic Geometry'
     primary_category: math.AG
-    openalex_id: W2012998632
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '0005198'
     title: 'Orbifold Quantum Cohomology'
     year: 2000
     coauthors: ['Weimin Chen']
     doi: '10.48550/arxiv.math/0005198'
     primary_category: math.AG
-    openalex_id: W2153810793
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '0004129'
     title: 'A New Cohomology Theory for Orbifold'
     year: 2000
@@ -648,25 +551,14 @@ publications:
     doi: '10.1007/s00220-004-1089-4'
     journal: 'Commun.Math.Phys. 248 (2004) 1-31'
     primary_category: math.AG
-    openalex_id: W2157665758
-    sources: [arxiv, openalex]
-  - id: 'doi:10.4310/cag.2000.v8.n3.a2'
-    title: 'Seiberg–Witten invariants and double covers of 4-manifolds'
-    year: 2000
-    coauthors: ['Shuguang Wang']
-    doi: '10.4310/cag.2000.v8.n3.a2'
-    journal: 'Communications in Analysis and Geometry'
-    openalex_id: W2115487261
-    sources: [openalex]
-    no_arxiv: true
+    sources: [arxiv]
   - id: '9810039'
     title: 'Surgery, quantum cohomology and birational geometry'
     year: 1998
     coauthors: []
     doi: '10.48550/arxiv.math/9810039'
     primary_category: math.AG
-    openalex_id: W4394660858
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '9803036'
     title: 'Symplectic surgery and Gromov-Witten invariants of Calabi-Yau 3-folds I'
     year: 1998
@@ -674,48 +566,28 @@ publications:
     doi: '10.1007/s002220100146'
     journal: 'Inventiones mathematicae'
     primary_category: math.AG
-    openalex_id: W2003448897
-    sources: [arxiv, openalex]
-  - id: 'openalex:W2605127428'
-    title: 'Enumeration of nodal genus-2 plane curves with fixed complex structure'
-    year: 1998
-    coauthors: ['Sheldon Katz', 'Zhenbo Qin']
-    openalex_id: W2605127428
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.4171/dms/1-2/40'
-    title: 'Quantum cohomology and its application'
-    year: 1998
-    coauthors: []
-    doi: '10.4171/dms/1-2/40'
-    journal: 'EMS Press eBooks'
-    openalex_id: W4361793997
-    sources: [openalex]
-    no_arxiv: true
+    sources: [arxiv]
   - id: '9611021'
     title: 'Virtual neighborhoods and pseudo-holomorphic curves'
     year: 1996
     coauthors: []
     doi: '10.48550/arxiv.alg-geom/9611021'
     primary_category: math.AG
-    openalex_id: W2085810731
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '9607223'
     title: 'Quantum cohomology of projective bundles over P^n'
     year: 1996
     coauthors: ['Zhenbo Qin']
     doi: '10.48550/arxiv.math/9607223'
     primary_category: math.AG
-    openalex_id: W2951896552
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '9606014'
     title: 'Composition law and Nodal genus-2 curves in P^2'
     year: 1996
     coauthors: ['Sheldon Katz', 'Zhenbo Qin']
     doi: '10.48550/arxiv.alg-geom/9606014'
     primary_category: math.AG
-    openalex_id: W1771074937
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '9601005'
     title: 'Higher genus symplectic invariants and sigma model coupled with gravity'
     year: 1996
@@ -723,17 +595,7 @@ publications:
     doi: '10.1007/s002220050192'
     journal: 'Inventiones mathematicae'
     primary_category: math.AG
-    openalex_id: W2949493974
-    sources: [arxiv, openalex]
-  - id: 'doi:10.1215/s0012-7094-96-08316-7'
-    title: 'Topological sigma model and Donaldson-type invariants in Gromov theory'
-    year: 1996
-    coauthors: []
-    doi: '10.1215/s0012-7094-96-08316-7'
-    journal: 'Duke Mathematical Journal'
-    openalex_id: W1564313573
-    sources: [openalex]
-    no_arxiv: true
+    sources: [arxiv]
   - id: '9510010'
     title: 'Quantum cohomology of projective bundles over $\Pee^n$'
     year: 1995
@@ -741,75 +603,11 @@ publications:
     doi: '10.1090/s0002-9947-98-01968-0'
     journal: 'Transactions of the American Mathematical Society'
     primary_category: math.AG
-    openalex_id: W2594441202
-    sources: [arxiv, openalex]
-  - id: 'doi:10.4310/jdg/1214457234'
-    title: 'A mathematical theory of quantum cohomology'
-    year: 1995
-    coauthors: [tian-gang]
-    doi: '10.4310/jdg/1214457234'
-    journal: 'Journal of Differential Geometry'
-    openalex_id: W1916008908
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.4310/mrl.1995.v2.n2.a9'
-    title: 'Bott-type symplectic Floer cohomology and its multiplication structures'
-    year: 1995
-    coauthors: [tian-gang]
-    doi: '10.4310/mrl.1995.v2.n2.a9'
-    journal: 'Mathematical Research Letters'
-    openalex_id: W2064638721
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.2307/2154788'
-    title: 'Torsion Classes and a Universal Constraint on Donaldson Invariants for Odd Manifolds'
-    year: 1995
-    coauthors: ['Selman Akbulut', 'Tom Mrowka']
-    doi: '10.2307/2154788'
-    journal: 'Transactions of the American Mathematical Society'
-    openalex_id: W4235224230
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.4310/jdg/1214454682'
-    title: 'Symplectic topology on algebraic 3-folds'
-    year: 1994
-    coauthors: []
-    doi: '10.4310/jdg/1214454682'
-    journal: 'Journal of Differential Geometry'
-    openalex_id: W1547566101
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1142/9789814350112_0010'
-    title: 'SYMPLECTIC TOPOLOGY AND COMPLEX SURFACES'
-    year: 1994
-    coauthors: []
-    doi: '10.1142/9789814350112_0010'
-    journal: 'WORLD SCIENTIFIC eBooks'
-    openalex_id: W2490082304
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1007/bf01896262'
-    title: 'Symplectic topology and extremal rays'
-    year: 1993
-    coauthors: []
-    doi: '10.1007/bf01896262'
-    journal: 'Geometric and Functional Analysis'
-    openalex_id: W2042648333
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.4310/jdg/1214448264'
-    title: 'A universal constraint for Donaldson invariants'
-    year: 1992
-    coauthors: []
-    doi: '10.4310/jdg/1214448264'
-    journal: 'Journal of Differential Geometry'
-    openalex_id: W1507226134
-    sources: [openalex]
-    no_arxiv: true
+    sources: [arxiv]
 activity:
-  total_papers: 85
-  published_count: 81
-  preprint_only_count: 4
+  total_papers: 57
+  published_count: 57
+  preprint_only_count: 0
   active_period: '1991-present'
 external_ids:
   openalex: A5103172200

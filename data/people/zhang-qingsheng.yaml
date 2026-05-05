@@ -34,6 +34,47 @@ research_areas:
   - topological-recursion
   - integrable-hierarchy
   - frobenius-manifold
+identity_profile:
+  affiliations:
+    - institution: 'ustc'
+      period: '2011-2015'
+      role: '本科, 华罗庚班 (少年班学院)'
+    - institution: 'tsinghua'
+      period: '2015-2020'
+      role: '博士'
+    - institution: 'pku-bicmr'
+      period: '2020-2024'
+      role: '博士后'
+    - institution: 'gbu'
+      period: '2024-present'
+      role: '助理教授'
+  email_domains: [bicmr.pku.edu.cn, gbu.edu.cn, tsinghua.edu.cn, ustc.edu.cn]
+  coauthor_circle_core_slugs: [guo-shuai, wang-zhiyuan, yang-chenglang, yang-di, zhou-jian]
+  coauthor_circle_core_names: ['Chenglang Yang', 'Di Yang', 'Jian Zhou', 'Shuai Guo', 'Zhiyuan Wang']
+  coauthor_circle_extended_slugs: [ji-ce]
+  coauthor_circle_extended_names: ['Ce Ji']
+  research_keywords:
+    - 'constraints'
+    - 'frobenius'
+    - 'gromov'
+    - 'hierarchy'
+    - 'integrable'
+    - 'manifold'
+    - 'recursion'
+    - 'theory'
+    - 'topological'
+    - 'virasoro'
+    - 'witten'
+  known_arxiv_ids:
+    - '2605.02643'
+    - '2507.20151'
+    - '2502.18895'
+    - '2309.12271'
+    - '2303.09243'
+    - '2301.01131'
+    - '2112.12736'
+    - '1904.09071'
+    - '1909.10544'
 advisor: zhou-jian
 students: []
 key_collaborators:

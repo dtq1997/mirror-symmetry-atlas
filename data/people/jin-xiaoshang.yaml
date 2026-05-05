@@ -46,6 +46,51 @@ research_areas:
   - asymptotically-hyperbolic-einstein
   - cr-geometry
   - p-laplacian
+identity_profile:
+  openalex_id: 'A5011971768'
+  affiliations:
+    - institution: 'nanjing'
+      period: '2009.9-2013.6'
+      role: '本科, 数学'
+    - institution: 'nanjing'
+      period: '2013.9-2018.9'
+      role: '博士, 基础数学'
+    - institution: 'pku-bicmr'
+      period: '2018.10-2020.9'
+      role: '博士后'
+    - institution: 'hust'
+      period: '2020.9-2023.12'
+      role: '讲师'
+    - institution: 'hust'
+      period: '2024.1-present'
+      role: '副教授, 硕士生导师'
+  email_domains: [bicmr.pku.edu.cn, hust.edu.cn]
+  research_keywords:
+    - 'analysis'
+    - 'asymptotically'
+    - 'compact'
+    - 'conformal'
+    - 'conformally'
+    - 'einstein'
+    - 'geometric'
+    - 'geometry'
+    - 'hyperbolic'
+    - 'laplacian'
+  known_arxiv_ids:
+    - '2604.14600'
+    - '2601.14018'
+    - '2504.09856'
+    - '2502.13666'
+    - '2502.13651'
+    - '2405.02669'
+    - '2402.02465'
+    - '2307.16439'
+    - '2305.16027'
+    - '2207.02012'
+    - '2110.09830'
+    - '2107.03075'
+    - '1911.01885'
+    - '1801.04512'
 advisor: null
 students: []
 key_collaborators:
@@ -84,33 +129,21 @@ publications:
     coauthors: ['Jiabin Yin']
     doi: '10.48550/arxiv.2604.14600'
     primary_category: math.DG
-    openalex_id: W7154705424
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '2601.14018'
     title: 'Principal p-frequency estimates on non-compact manifolds with negative Ricci curvature'
     year: 2026
     coauthors: ['Zhiwei Lü']
     doi: '10.48550/arxiv.2601.14018'
     primary_category: math.DG
-    openalex_id: W7125221301
-    sources: [arxiv, openalex]
-  - id: 'doi:10.1112/blms.70374'
-    title: 'Heat dispersion laws in smooth compact manifolds'
-    year: 2026
-    coauthors: ['Jie Xiao']
-    doi: '10.1112/blms.70374'
-    journal: 'Bulletin of the London Mathematical Society'
-    openalex_id: W7157963047
-    sources: [openalex]
-    no_arxiv: true
+    sources: [arxiv]
   - id: '2504.09856'
     title: 'Estimate for the first Dirichlet eigenvalue of p-Laplacian on non-compact manifolds'
     year: 2025
     coauthors: ['Zhiwei Lü']
     doi: '10.48550/arxiv.2504.09856'
     primary_category: math.DG
-    openalex_id: W4415158417
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '2502.13666'
     title: 'Essential p-capacity-volume estimates for rotationally symmetric manifolds'
     year: 2025
@@ -118,8 +151,7 @@ publications:
     doi: '10.48550/arxiv.2502.13666'
     journal: 'Advances in Mathematics'
     primary_category: math.DG
-    openalex_id: W4407765089
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '2502.13651'
     title: 'Sharply estimating hyperbolic capacities'
     year: 2025
@@ -133,25 +165,14 @@ publications:
     doi: '10.4310/MRL.260120021635'
     journal: 'Mathematical Research Letters'
     primary_category: math.DG
-    openalex_id: W4396717748
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '2402.02465'
     title: 'Willmore-type inequality for closed hypersurfaces in complete manifolds with Ricci curvature bounded below'
     year: 2024
     coauthors: ['Jiabin Yin']
     doi: '10.48550/arxiv.2402.02465'
     primary_category: math.DG
-    openalex_id: W4391591114
-    sources: [arxiv, openalex]
-  - id: 'doi:10.1515/ans-2023-0124'
-    title: 'Perturbation compactness and uniqueness for a class of conformally compact Einstein manifolds'
-    year: 2024
-    coauthors: ['Sun‐Yung A. Chang', 'Yuxin Ge', 'Jie Qing']
-    doi: '10.1515/ans-2023-0124'
-    journal: 'Advanced Nonlinear Studies'
-    openalex_id: W4392366195
-    sources: [openalex]
-    no_arxiv: true
+    sources: [arxiv]
   - id: '2307.16439'
     title: 'Asymptotic behavior of the first Dirichlet eigenvalue of AHE manifolds'
     year: 2023
@@ -159,8 +180,7 @@ publications:
     doi: '10.48550/arxiv.2307.16439'
     journal: 'Bulletin of the London Mathematical Society'
     primary_category: math.DG
-    openalex_id: W4385474151
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '2305.16027'
     title: 'Rigidity for inscribed radius estimate of asymptotically hyperbolic Einstein manifolds'
     year: 2023
@@ -168,8 +188,7 @@ publications:
     doi: '10.48550/arxiv.2305.16027'
     journal: 'Proceedings of the American Mathematical Society'
     primary_category: math.DG
-    openalex_id: W4378501466
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '2207.02012'
     title: 'The relative volume function and the capacity of sphere on asymptotically hyperbolic manifolds'
     year: 2022
@@ -177,16 +196,14 @@ publications:
     doi: '10.48550/arxiv.2207.02012'
     journal: 'Acta Mathematica Scientia'
     primary_category: math.DG
-    openalex_id: W4285579916
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '2110.09830'
     title: 'Boundary Estimate of Asymptotically Hyperbolic Einstein Manifolds of Even Dimension'
     year: 2021
     coauthors: []
     doi: '10.48550/arxiv.2110.09830'
     primary_category: math.DG
-    openalex_id: W3206522920
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '2107.03075'
     title: 'On compactness conformally compact Einstein manifolds and uniqueness of Graham-Lee metrics, III'
     year: 2021
@@ -194,8 +211,7 @@ publications:
     doi: '10.48550/arxiv.2107.03075'
     journal: 'Adv. Nonlinear Stud. 24 (2024), no. 1, 247-278'
     primary_category: math.DG
-    openalex_id: W3178020350
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '1911.01885'
     title: 'Finite Boundary Regularity for Conformally Compact Einstein Manifolds of Dimension 4'
     year: 2019
@@ -213,8 +229,8 @@ publications:
     primary_category: math.DG
     sources: [arxiv]
 activity:
-  total_papers: 16
-  published_count: 15
+  total_papers: 14
+  published_count: 13
   preprint_only_count: 1
   active_period: '2018-present'
 external_ids:

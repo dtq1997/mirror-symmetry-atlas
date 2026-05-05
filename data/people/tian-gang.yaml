@@ -60,6 +60,47 @@ research_areas:
   - kahler-ricci-flow
   - gromov-witten-theory
   - quantum-cohomology
+identity_profile:
+  mathgenealogy_id: '37749'
+  affiliations:
+    - institution: 'nanjing-u'
+      period: '1978-1982'
+      role: '本科'
+    - institution: 'pku'
+      period: '1982-1984'
+      role: '硕士'
+    - institution: 'harvard'
+      period: '1984-1988'
+      role: 'PhD'
+    - institution: 'pku-bicmr'
+      period: '2005-present'
+      role: 'BICMR 主任/讲席教授'
+    - institution: 'princeton'
+      period: '2009-present'
+      role: 'Eugene Higgins Professor'
+    - institution: 'pku'
+      period: '2013-2017'
+      role: '北大数学学院院长'
+  email_domains: [bicmr.pku.edu.cn, harvard.edu, pku.edu.cn, princeton.edu]
+  coauthor_circle_core_slugs: [liu-xiaobo, yau-shingtung]
+  coauthor_circle_core_names: ['Shing-Tung Yau', 'Xiaobo Liu']
+  coauthor_circle_extended_slugs: [li-ao]
+  coauthor_circle_extended_names: ['Ao Li']
+  research_keywords:
+    - 'cohomology'
+    - 'differential'
+    - 'einstein'
+    - 'flow'
+    - 'geometry'
+    - 'gromov'
+    - 'kahler'
+    - 'metrics'
+    - 'quantum'
+    - 'ricci'
+    - 'stability'
+    - 'theory'
+    - 'witten'
+  known_arxiv_ids: [9806028]
 advisor: yau-shingtung
 students: []
 key_collaborators:

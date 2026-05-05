@@ -38,6 +38,92 @@ research_areas:
 - quantum-groups
 - kashiwara-vergne
 - lie-theory
+identity_profile:
+  openalex_id: 'A5042713027'
+  mathgenealogy_id: '141875'
+  affiliations:
+    - institution: 'leningrad-state'
+      period: '~1984-1989'
+      role: '本科/研究生, Leningrad State University'
+    - institution: 'steklov'
+      period: '1991'
+      role: '博士 (Candidate of Sciences)'
+    - institution: 'uppsala'
+      period: '~1991-2001'
+      role: '博士后 → Faculty'
+    - institution: 'geneva'
+      period: '2001-present'
+      role: 'Professor ordinarius'
+  coauthor_circle_core_slugs: [faddeev, xu-xiaomeng]
+  coauthor_circle_core_names: ['Ludvig Faddeev', 'Xiaomeng Xu']
+  research_keywords: [geometry, groups, kashiwara, poisson, quantum, theory, vergne]
+  known_arxiv_ids:
+    - '2601.19455'
+    - '2510.04877'
+    - '2507.19434'
+    - '2503.05277'
+    - '2409.08894'
+    - '2403.17906'
+    - '2402.19138'
+    - '2401.03029'
+    - '2211.06216'
+    - '2210.15233'
+    - '2210.08944'
+    - '2004.03024'
+    - '2003.13621'
+    - '2002.07023'
+    - '1904.06758'
+    - '1812.01159'
+    - '1808.06975'
+    - '1806.04104'
+    - '1804.09566'
+    - '1804.01504'
+    - '1801.07963'
+    - '1709.09281'
+    - '1708.03119'
+    - '1703.05813'
+    - '1702.08857'
+    - '1611.05581'
+    - '1507.06343'
+    - '1505.03233'
+    - '1412.3323'
+    - '1410.3149'
+    - '1401.3200'
+    - '1312.1223'
+    - '1212.6256'
+    - '1211.0487'
+    - '1207.0640'
+    - '1111.2141'
+    - '1012.3113'
+    - '1012.0026'
+    - '1007.3118'
+    - '1005.2111'
+    - '1002.2331'
+    - '0909.3743'
+    - '0802.4300'
+    - '0709.1452'
+    - '0702174'
+    - '0606498'
+    - '0508077'
+    - '0410183'
+    - '0205123'
+    - '0104054'
+    - '0012112'
+    - '0007096'
+    - '0006168'
+    - '0005046'
+    - '0005047'
+    - '0002101'
+    - '9909176'
+    - '9905130'
+    - '9903087'
+    - '9903052'
+    - '9707021'
+    - '9612037'
+    - '9610066'
+    - '9603017'
+    - '9602001'
+    - '9307026'
 advisor: faddeev
 students:
 - xu-xiaomeng
@@ -47,9 +133,9 @@ key_collaborators:
   topic: Kashiwara-Vergne, WKB
   papers_count: 2
 activity:
-  total_papers: 96
-  published_count: 68
-  preprint_only_count: 28
+  total_papers: 66
+  published_count: 39
+  preprint_only_count: 27
   h_index: 26
   active_period: '1991-present'
   phd_students: 20
@@ -105,8 +191,7 @@ publications:
     doi: '10.48550/arxiv.2409.08894'
     journal: 'Selecta Mathematica'
     primary_category: math.QA
-    openalex_id: W4403626977
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '2403.17906'
     title: 'WKB asymptotics of Stokes matrices, spectral curves and rhombus inequalities'
     year: 2024
@@ -127,40 +212,6 @@ publications:
     journal: 'Commun. Math. Phys. (2024) 405:229'
     primary_category: math.DG
     sources: [arxiv]
-  - id: 'doi:10.1007/s10958-024-07431-3'
-    title: 'User Response Modeling in Recommender Systems: A Survey'
-    year: 2024
-    coauthors: ['Mikhail Shirokikh', 'Ilya Shenbin', 'Anna Volodkevich', 'Alexey Vasilev', 'Sergey Nikolenko']
-    doi: '10.1007/s10958-024-07431-3'
-    journal: 'Journal of Mathematical Sciences'
-    openalex_id: W4404193850
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1007/s10958-024-07438-w'
-    title: 'Blending of Predictions Boosts Understanding for Multimodal Advertisements'
-    year: 2024
-    coauthors: ['A. Savchenko', 'Elena Tutubalina', 'Evgeny Myasnikov', 'Sergey Nikolenko']
-    doi: '10.1007/s10958-024-07438-w'
-    journal: 'Journal of Mathematical Sciences'
-    openalex_id: W4404194308
-    sources: [openalex]
-    no_arxiv: true
-  - id: '2406.14347'
-    title: '$\nabla^2$DFT: A Universal Quantum Chemistry Dataset of Drug-Like Molecules and a Benchmark for Neural Network Potentials'
-    year: 2024
-    coauthors: ['Kuzma Khrabrov', 'Anton Ber', 'Artem Tsypin', 'Konstantin Ushenin', 'Egor Rumiantsev', 'Alexander Telepov', 'D. Yu. Protasov', 'Ilya Shenbin', 'Mikhail Shirokikh', 'Sergey Nikolenko', 'Elena Tutubalina', 'Artur Kadurin']
-    doi: '10.48550/arxiv.2406.14347'
-    openalex_id: W4399911757
-    sources: [openalex]
-  - id: 'doi:10.1007/s00023-023-01324-y'
-    title: 'Berezin Quantization, Conformal Welding and the Bott–Virasoro Group'
-    year: 2023
-    coauthors: ['Samson L. Shatashvili', 'Leon A. Takhtajan']
-    doi: '10.1007/s00023-023-01324-y'
-    journal: 'Annales Henri Poincaré'
-    openalex_id: W4377137429
-    sources: [openalex]
-    no_arxiv: true
   - id: '2211.06216'
     title: 'On the coadjoint Virasoro action'
     year: 2022
@@ -183,14 +234,6 @@ publications:
     journal: 'Adv. Math. 443 (2024) 109580'
     primary_category: math.QA
     sources: [arxiv]
-  - id: 'doi:10.1201/9781003072393-17'
-    title: 'A New Proof of the Convexity Theorem for the Poisson-Lie Moment Map'
-    year: 2021
-    coauthors: []
-    doi: '10.1201/9781003072393-17'
-    openalex_id: W3121030252
-    sources: [openalex]
-    no_arxiv: true
   - id: '2004.03024'
     title: 'Characters, Coadjoint Orbits and Duistermaat-Heckman Integrals'
     year: 2020
@@ -258,15 +301,6 @@ publications:
     doi: '10.1142/S0129055X18400019'
     primary_category: hep-th
     sources: [arxiv]
-  - id: 'doi:10.1007/978-3-030-02846-6_9'
-    title: 'Art Critics and Art Producers: Interaction Through the Text'
-    year: 2018
-    coauthors: ['Anastasiia Menshikova', 'Daria Maglevanaya', 'Margarita Kuleva', 'Sofia Bogdanova']
-    doi: '10.1007/978-3-030-02846-6_9'
-    journal: 'Communications in computer and information science'
-    openalex_id: W2899621660
-    sources: [openalex]
-    no_arxiv: true
   - id: '1709.09281'
     title: 'Poisson Structures and Potentials'
     year: 2017
@@ -293,39 +327,12 @@ publications:
     doi: '10.1007/s11005-017-0985-4'
     primary_category: math-ph
     sources: [arxiv]
-  - id: 'doi:10.1070/rm9799'
-    title: 'Scientific heritage of L.D. Faddeev. Survey of papers'
-    year: 2017
-    coauthors: ['Leon A. Takhtajan', 'I. Ya. Aref’eva', 'Michael Semenov-Tian-Shansky', 'E. K. Sklyanin', 'F. A. Smirnov', 'Samson L. Shatashvili']
-    doi: '10.1070/rm9799'
-    journal: 'Russian Mathematical Surveys'
-    openalex_id: W2789254000
-    sources: [openalex]
-    no_arxiv: true
   - id: '1611.05581'
     title: 'Higher genus Kashiwara-Vergne problems and the Goldman-Turaev Lie bialgebra'
     year: 2016
     coauthors: ['Nariya Kawazumi', 'Yusuke Kuno', 'Florian Naef']
     primary_category: math.QA
     sources: [arxiv]
-  - id: 'doi:10.1142/9789814340960_0018'
-    title: 'AN INVOLUTION AND DYNAMICS FOR THE <i><sub>q</sub></i>-DEFORMED QUANTUM TOP'
-    year: 2016
-    coauthors: ['L. D. Faddeev']
-    doi: '10.1142/9789814340960_0018'
-    journal: 'WORLD SCIENTIFIC eBooks'
-    openalex_id: W2949291127
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1142/9789814340960_0016'
-    title: '(<i>T</i>*<i>G</i>)<sub><i>t</i></sub>: A Toy Model for Conformal Field Theory'
-    year: 2016
-    coauthors: ['Людвиг Дмитриевич Фаддеев']
-    doi: '10.1142/9789814340960_0016'
-    journal: 'WORLD SCIENTIFIC eBooks'
-    openalex_id: W4230629331
-    sources: [openalex]
-    no_arxiv: true
   - id: '1507.06343'
     title: 'Wilson surface observables from equivariant cohomology'
     year: 2015
@@ -367,13 +374,6 @@ publications:
     journal: 'Journal of Symplectic Geometry, 14 (2016) 227--267'
     primary_category: math.DG
     sources: [arxiv]
-  - id: 'openalex:W71942872'
-    title: 'Integrable Models and Strings'
-    year: 2013
-    coauthors: ['Antero Hietamäki', 'Katri Huitu', 'Alexei Morozov', 'Antti J. Niemi']
-    openalex_id: W71942872
-    sources: [openalex]
-    no_arxiv: true
   - id: '1212.6256'
     title: 'Chern-Simons Theory with Wilson Lines and Boundary in the BV-BFV Formalism'
     year: 2012
@@ -448,15 +448,6 @@ publications:
     coauthors: ['Charles Torossian']
     primary_category: math.QA
     sources: [arxiv]
-  - id: 'doi:10.1007/3-540-58453-6_5'
-    title: 'Symplectic geometry of the Chern-Simons theory'
-    year: 2008
-    coauthors: ['Anton Malkin']
-    doi: '10.1007/3-540-58453-6_5'
-    journal: 'Lecture notes in physics'
-    openalex_id: W1537560538
-    sources: [openalex]
-    no_arxiv: true
   - id: '0709.1452'
     title: 'Pure Spinors on Lie groups'
     year: 2007
@@ -472,15 +463,6 @@ publications:
     journal: 'JHEP0708:039,2007'
     primary_category: hep-th
     sources: [arxiv]
-  - id: 'doi:10.1007/bfb0102550'
-    title: 'The chern-simons theory and quantized moduli spaces of flat connections'
-    year: 2007
-    coauthors: ['Volker Schomerus']
-    doi: '10.1007/bfb0102550'
-    journal: 'Lecture notes in physics'
-    openalex_id: W1514229227
-    sources: [openalex]
-    no_arxiv: true
   - id: '0606498'
     title: 'Quantization of symplectic dynamical r-matrices and the quantum composition formula'
     year: 2006
@@ -512,15 +494,6 @@ publications:
     journal: 'Nucl.Phys. B646 (2002) 127-157'
     primary_category: hep-th
     sources: [arxiv]
-  - id: 'doi:10.1007/s00039-002-8234-z'
-    title: 'Duistermaat?Heckman measures and moduli spaces of flat bundles over surfaces'
-    year: 2002
-    coauthors: ['Eckhard Meinrenken', 'Chris Woodward']
-    doi: '10.1007/s00039-002-8234-z'
-    journal: 'Geometric and Functional Analysis'
-    openalex_id: W1691063159
-    sources: [openalex]
-    no_arxiv: true
   - id: '0104054'
     title: 'Open Strings and Non-commutative Geometry of Branes on Group Manifolds'
     year: 2001
@@ -542,16 +515,14 @@ publications:
     coauthors: ['Volker Schomerus']
     doi: '10.48550/arxiv.hep-th/0007096'
     primary_category: hep-th
-    openalex_id: W1592191650
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '0006168'
     title: 'Quasi-Poisson Manifolds'
     year: 2000
     coauthors: ['Yvette Kosmann-Schwarzbach', 'Eckhard Meinrenken']
     doi: '10.48550/arxiv.math/0006168'
     primary_category: math.DG
-    openalex_id: W2951495510
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '0005046'
     title: 'A fixed point formula for loop group actions'
     year: 2000
@@ -572,15 +543,6 @@ publications:
     journal: 'Phys.Lett. B482 (2000) 271-275'
     primary_category: hep-th
     sources: [arxiv]
-  - id: 'doi:10.1088/1126-6708/2000/05/010'
-    title: 'Brane dynamics in background fluxes and non-commutative geometry'
-    year: 2000
-    coauthors: ['A. Recknagel', 'Volker Schomerus']
-    doi: '10.1088/1126-6708/2000/05/010'
-    journal: 'Journal of High Energy Physics'
-    openalex_id: W2021245229
-    sources: [openalex]
-    no_arxiv: true
   - id: '9909176'
     title: 'Manin pairs and moment maps'
     year: 1999
@@ -594,8 +556,7 @@ publications:
     doi: '10.1007/s002220000056'
     journal: 'Inventiones mathematicae'
     primary_category: math.DG
-    openalex_id: W2065106366
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '9903087'
     title: 'Duistermaat-Heckman distributions for group valued moment maps'
     year: 1999
@@ -617,22 +578,13 @@ publications:
     coauthors: ['Anton Malkin', 'Eckhard Meinrenken']
     primary_category: math.DG
     sources: [arxiv]
-  - id: 'doi:10.48550/arxiv.cond-mat/9706061'
-    title: 'Universality of equilibrium one-dimensional transport from gauge invariance'
-    year: 1997
-    coauthors: ['Vadim Cheianov', 'Jurg Froehlich']
-    doi: '10.48550/arxiv.cond-mat/9706061'
-    openalex_id: W1629378639
-    sources: [openalex]
-    no_arxiv: true
   - id: '9612037'
     title: 'Quantum Moduli Spaces of Flat Connections'
     year: 1996
     coauthors: [alekseev, 'Volker Schomerus']
     doi: '10.48550/arxiv.q-alg/9612037'
     primary_category: math.QA
-    openalex_id: W2161352940
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '9610066'
     title: 'Generalization of the Knizhnik-Zamolodchikov-Equations'
     year: 1996
@@ -640,8 +592,7 @@ publications:
     doi: '10.48550/arxiv.hep-th/9610066'
     journal: 'Lett.Math.Phys. 41 (1997) 169-180'
     primary_category: hep-th
-    openalex_id: W2951964366
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '9603017'
     title: 'The hyperbolic moduli space of flat connections and the isomorphism of symplectic multiplicity spaces'
     year: 1996
@@ -649,8 +600,7 @@ publications:
     doi: '10.1215/s0012-7094-98-09320-6'
     journal: 'Duke Mathematical Journal'
     primary_category: math.DG
-    openalex_id: W1775037673
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '9602001'
     title: 'On Poisson actions of compact Lie groups on symplectic manifolds'
     year: 1996
@@ -658,71 +608,7 @@ publications:
     doi: '10.4310/jdg/1214459796'
     journal: 'Journal of Differential Geometry'
     primary_category: math.DG
-    openalex_id: W2111948141
-    sources: [arxiv, openalex]
-  - id: 'doi:10.1215/s0012-7094-96-08519-1'
-    title: 'Representation theory of Chern-Simons observables'
-    year: 1996
-    coauthors: ['Volker Schomerus']
-    doi: '10.1215/s0012-7094-96-08519-1'
-    journal: 'Duke Mathematical Journal'
-    openalex_id: W2593172416
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1007/bf02099431'
-    title: 'Combinatorial quantization of the Hamiltonian Chern-Simons theory I'
-    year: 1995
-    coauthors: ['Harald Grosse', 'Volker Schomerus']
-    doi: '10.1007/bf02099431'
-    journal: 'Communications in Mathematical Physics'
-    openalex_id: W1998354025
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1007/bf02101598'
-    title: 'Symplectic structure of the moduli space of flat connection on a Riemann surface'
-    year: 1995
-    coauthors: ['Anton Malkin']
-    doi: '10.1007/bf02101598'
-    journal: 'Communications in Mathematical Physics'
-    openalex_id: W1969063256
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1103/physrevd.52.7146'
-    title: 'Topological<i>G</i>/<i>G</i>WZW model in the generalized momentum representation'
-    year: 1995
-    coauthors: ['P. Schaller', 'Thomas Strobl']
-    doi: '10.1103/physrevd.52.7146'
-    journal: 'Physical review. D. Particles, fields, gravitation, and cosmology/Physical review. D. Particles and fields'
-    openalex_id: W1980917160
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1007/bf02364702'
-    title: 'An involution and dynamics for theq-deformed quantum top'
-    year: 1995
-    coauthors: ['L. D. Faddeev']
-    doi: '10.1007/bf02364702'
-    journal: 'Journal of Mathematical Sciences'
-    openalex_id: W1968972073
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1007/bf02105190'
-    title: 'Symplectic structures associated to Lie-Poisson groups'
-    year: 1994
-    coauthors: ['Anton Malkin']
-    doi: '10.1007/bf02105190'
-    journal: 'Communications in Mathematical Physics'
-    openalex_id: W1967162424
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1007/bf01249326'
-    title: 'Geometric quantization as zero mass limit in the problem of a particle on a sphere having a magnetic monopole at its center'
-    year: 1994
-    coauthors: ['D. V. Glushchenkov']
-    doi: '10.1007/bf01249326'
-    journal: 'Journal of Mathematical Sciences'
-    openalex_id: W2045823482
-    sources: [openalex]
-    no_arxiv: true
+    sources: [arxiv]
   - id: '9307026'
     title: 'Quadratic brackets from symplectic forms'
     year: 1993
@@ -731,77 +617,6 @@ publications:
     journal: 'Nucl.Phys. B421 (1994) 413-428'
     primary_category: hep-th
     sources: [arxiv]
-  - id: 'doi:10.48550/arxiv.hep-th/9311074'
-    title: 'Integrability in Hamiltonian Chern-Simons theory'
-    year: 1993
-    coauthors: []
-    doi: '10.48550/arxiv.hep-th/9311074'
-    openalex_id: W2131411762
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1007/bf02097628'
-    title: 'Hidden quantum groups inside Kac-Moody algebra'
-    year: 1992
-    coauthors: ['L. D. Faddeev', 'Michael Semenov-Tian-Shansky']
-    doi: '10.1007/bf02097628'
-    journal: 'Communications in Mathematical Physics'
-    openalex_id: W2035545347
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1007/bf02101512'
-    title: '(T * G) t : A toy model for conformal field theory'
-    year: 1991
-    coauthors: ['L. D. Faddeev']
-    doi: '10.1007/bf02101512'
-    journal: 'Communications in Mathematical Physics'
-    openalex_id: W1982895195
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1007/bf02097053'
-    title: 'From geometric quantization to conformal field theory'
-    year: 1990
-    coauthors: ['Samson L. Shatashvili']
-    doi: '10.1007/bf02097053'
-    journal: 'Communications in Mathematical Physics'
-    openalex_id: W2001645182
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1007/bf02097372'
-    title: 'Quantum groups and WZNW models'
-    year: 1990
-    coauthors: ['Samson L. Shatashvili']
-    doi: '10.1007/bf02097372'
-    journal: 'Communications in Mathematical Physics'
-    openalex_id: W2040270541
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1016/0550-3213(89)90130-2'
-    title: 'Path integral quantization of the coadjoint orbits of the virasoro group and 2-d gravity'
-    year: 1989
-    coauthors: ['Samson L. Shatashvili']
-    doi: '10.1016/0550-3213(89)90130-2'
-    journal: 'Nuclear Physics B'
-    openalex_id: W2086485413
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1016/0393-0440(88)90031-9'
-    title: 'Quantization of symplectic orbits of compact Lie groups by means of the functional integral'
-    year: 1988
-    coauthors: ['L. D. Faddeev', 'Samson L. Shatashvili']
-    doi: '10.1016/0393-0440(88)90031-9'
-    journal: 'Journal of Geometry and Physics'
-    openalex_id: W2049293658
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1007/bf01017583'
-    title: 'Derivation of anomalous commutator in the functional integral formalism'
-    year: 1987
-    coauthors: ['Ya. Madaichik', 'L. D. Faddeev', 'Samson L. Shatashvili']
-    doi: '10.1007/bf01017583'
-    journal: 'Theoretical and Mathematical Physics'
-    openalex_id: W2078198711
-    sources: [openalex]
-    no_arxiv: true
 sources:
 - label: Math Genealogy
   url: https://www.mathgenealogy.org/id.php?id=141875

@@ -58,6 +58,67 @@ research_areas:
   - virtual-cycles
   - cosection-localization
   - string-theory
+identity_profile:
+  openalex_id: 'A5048842012'
+  affiliations:
+    - institution: 'sissa'
+      period: '2007-2009'
+      role: '数学物理博士后'
+    - institution: 'hkust'
+      period: '2009-2015'
+      role: '助理教授'
+    - institution: 'hkust'
+      period: '2015-present'
+      role: '副教授 → 教授'
+  email_domains: [sissa.it, ust.hk]
+  coauthor_circle_core_slugs: [guo-shuai]
+  coauthor_circle_core_names: ['Shuai Guo']
+  coauthor_circle_extended_slugs: [liu-melissa]
+  coauthor_circle_extended_names: ['Chiu-Chu Melissa Liu']
+  research_keywords:
+    - 'algebraic'
+    - 'bcov'
+    - 'calabi'
+    - 'conjecture'
+    - 'cosection'
+    - 'cycles'
+    - 'fields'
+    - 'fjrw'
+    - 'geometry'
+    - 'gromov'
+    - 'localization'
+    - 'mirror'
+    - 'mixed'
+    - 'spin'
+    - 'string'
+    - 'symmetry'
+    - 'theory'
+    - 'virtual'
+    - 'witten'
+  known_arxiv_ids:
+    - '2504.09552'
+    - '2312.11197'
+    - '2312.11174'
+    - '1907.06152'
+    - '1810.00394'
+    - '1809.11058'
+    - '1809.08806'
+    - '1806.00216'
+    - '1804.05310'
+    - '1711.10118'
+    - '1708.02902'
+    - '1603.06184'
+    - '1603.02092'
+    - '1508.02769'
+    - '1505.07532'
+    - '1502.00078'
+    - '1303.7126'
+    - '1206.5390'
+    - '1205.0848'
+    - '1105.3261'
+    - '1101.0914'
+    - '0808.0988'
+    - '0711.4529'
 advisor: li-jun
 students: []
 key_collaborators:
@@ -90,48 +151,27 @@ key_collaborators:
     topic: "Virtual residue, quasimaps with fields"
     papers_count: 2
 publications:
-  - id: 'doi:10.1215/00127094-2025-0038'
-    title: 'BCOV Feynman rule of the quintic threefold'
-    year: 2026
-    coauthors: [guo-shuai, 'Jun Li']
-    doi: '10.1215/00127094-2025-0038'
-    journal: 'Duke Mathematical Journal'
-    openalex_id: W7147670578
-    sources: [openalex]
-    no_arxiv: true
   - id: '2504.09552'
     title: 'Irregular vanishing on P^2 × P^2'
     year: 2025
     coauthors: ['Sanghyeon Lee', 'Jun Li']
     doi: '10.48550/arxiv.2504.09552'
     primary_category: math.AG
-    openalex_id: W4415157632
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '2312.11197'
     title: 'A boundedness theorem for principal bundles on curves'
     year: 2023
     coauthors: [guo-shuai, 'Jun Li', 'Wei-Ping Li', 'Yang Zhou']
     doi: '10.48550/arxiv.2312.11197'
     primary_category: math.AG
-    openalex_id: W4390041030
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '2312.11174'
     title: 'Stability conditions in the mathematical Gauged Linear Sigma Model'
     year: 2023
     coauthors: [guo-shuai, 'Jun Li', 'Wei-Ping Li', 'Yang Zhou']
     doi: '10.48550/arxiv.2312.11174'
     primary_category: math.AG
-    openalex_id: W4390040998
-    sources: [arxiv, openalex]
-  - id: 'doi:10.4007/annals.2021.194.3.1'
-    title: 'Polynomial structure of Gromov–Witten potential of quintic 3-folds'
-    year: 2021
-    coauthors: [guo-shuai, 'Jun Li']
-    doi: '10.4007/annals.2021.194.3.1'
-    journal: 'Annals of Mathematics'
-    openalex_id: W3209265925
-    sources: [openalex]
-    no_arxiv: true
+    sources: [arxiv]
   - id: '1907.06152'
     title: 'On the mathematics and physics of Mixed Spin P-Fields'
     year: 2019
@@ -139,34 +179,14 @@ publications:
     doi: '10.1090/pspum/096/01656'
     journal: 'Proceedings of Symposia in Pure Mathematics, Vol 96, 2017'
     primary_category: math.AG
-    openalex_id: W2911050410
-    sources: [arxiv, openalex]
-  - id: 'doi:10.1016/j.bbamcr.2019.118550'
-    title: 'SRSF1 and RBM4 differentially modulate the oncogenic effect of HIF-1α in lung cancer cells through alternative splicing mechanism'
-    year: 2019
-    coauthors: ['Jung-Chun Lin']
-    doi: '10.1016/j.bbamcr.2019.118550'
-    journal: 'Biochimica et Biophysica Acta (BBA) - Molecular Cell Research'
-    openalex_id: W2971403012
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.4310/cjm.2019.v7.n3.a3'
-    title: 'Mixed-$\textrm{Spin-P}$ fields of Fermat polynomials'
-    year: 2019
-    coauthors: ['Jun Li', 'Wei-Ping Li', liu-melissa]
-    doi: '10.4310/cjm.2019.v7.n3.a3'
-    journal: 'Cambridge Journal of Mathematics'
-    openalex_id: W2972896915
-    sources: [openalex]
-    no_arxiv: true
+    sources: [arxiv]
   - id: '1810.00394'
     title: 'BCOV''s Feynman rule of quintic 3-folds'
     year: 2018
     coauthors: [guo-shuai, 'Jun Li']
     doi: '10.48550/arxiv.1810.00394'
     primary_category: math.AG
-    openalex_id: W2920263040
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '1809.11058'
     title: 'Polynomial structure of Gromov-Witten potential of quintic 3-folds via NMSP'
     year: 2018
@@ -174,8 +194,7 @@ publications:
     doi: '10.48550/arxiv.1809.11058'
     journal: 'Ann. of Math. 194 (2021)'
     primary_category: math.AG
-    openalex_id: W2892497092
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '1809.08806'
     title: 'The theory of N-Mixed-Spin-P fields'
     year: 2018
@@ -191,8 +210,7 @@ publications:
     doi: '10.4310/cag.2021.v29.n8.a1'
     journal: 'Communications in Analysis and Geometry'
     primary_category: math.AG
-    openalex_id: W4301436381
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '1804.05310'
     title: 'Invariants of stable quasimaps with fields'
     year: 2018
@@ -200,17 +218,7 @@ publications:
     doi: '10.1090/tran/8011'
     journal: 'Transactions of the American Mathematical Society'
     primary_category: math.AG
-    openalex_id: W2979495574
-    sources: [arxiv, openalex]
-  - id: 'doi:10.1093/imrn/rny201'
-    title: 'Genus-One Gromov–Witten Invariants of Quintic Three-folds via MSP Localization'
-    year: 2018
-    coauthors: [guo-shuai, 'Wei-Ping Li', 'Jie Zhou']
-    doi: '10.1093/imrn/rny201'
-    journal: 'International Mathematics Research Notices'
-    openalex_id: W2976868130
-    sources: [openalex]
-    no_arxiv: true
+    sources: [arxiv]
   - id: '1711.10118'
     title: 'Genus one GW invariants of quintic threefolds via MSP localization'
     year: 2017
@@ -218,8 +226,7 @@ publications:
     doi: '10.48550/arxiv.1711.10118'
     journal: 'International Mathematics Research Notices, Volume 2020, Issue 19, October 2020, Pages 6421-6462'
     primary_category: math.AG
-    openalex_id: W2770763159
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '1708.02902'
     title: 'A vanishing associated with irregular MSP fields'
     year: 2017
@@ -227,8 +234,7 @@ publications:
     doi: '10.1093/imrn/rnaa049'
     journal: 'International Mathematics Research Notices'
     primary_category: math.AG
-    openalex_id: W3016345308
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '1603.06184'
     title: 'An effective theory of GW and FJRW invariants of quintic Calabi-Yau manifolds'
     year: 2016
@@ -236,8 +242,7 @@ publications:
     doi: '10.4310/jdg/1645207466'
     journal: 'Journal of Differential Geometry'
     primary_category: math.AG
-    openalex_id: W2304845370
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '1603.02092'
     title: 'A survey on mixed spin P-fields'
     year: 2016
@@ -245,8 +250,7 @@ publications:
     doi: '10.1007/s11401-017-1101-x'
     journal: 'Chin. Ann. Math. Ser. B 38 (2017), no. 4, 869-882'
     primary_category: math.AG
-    openalex_id: W2963695455
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '1508.02769'
     title: 'Virtual Residue and an integral formalism'
     year: 2015
@@ -254,8 +258,7 @@ publications:
     doi: '10.1007/s12220-018-9980-y'
     journal: 'Journal of Geometric Analysis'
     primary_category: math.AG
-    openalex_id: W2962709013
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '1505.07532'
     title: 'Mixed-Spin-P fields of Fermat quintic polynomials'
     year: 2015
@@ -263,8 +266,7 @@ publications:
     doi: '10.48550/arxiv.1505.07532'
     journal: 'Camb. J. Math. (2019)'
     primary_category: math.AG
-    openalex_id: W3156910759
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '1502.00078'
     title: 'Torus localization and wall crossing for cosection localized virtual cycles'
     year: 2015
@@ -272,71 +274,7 @@ publications:
     doi: '10.1016/j.aim.2016.12.019'
     journal: 'Advances in Mathematics'
     primary_category: math.AG
-    openalex_id: W2962843842
-    sources: [arxiv, openalex]
-  - id: 'openalex:W2291357158'
-    title: 'MSP fields and Gromov Witten invariants of Quintic Calabi Yau threefold'
-    year: 2015
-    coauthors: []
-    openalex_id: W2291357158
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'openalex:W2289168695'
-    title: 'Reading Seminar on Grothendieck Local Residues'
-    year: 2014
-    coauthors: []
-    openalex_id: W2289168695
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'openalex:W2289710075'
-    title: 'Introduction to Enumerative Geometry for Landau Ginzburg Target Space'
-    year: 2014
-    coauthors: []
-    openalex_id: W2289710075
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'openalex:W2291011044'
-    title: 'Landau Ginzburg Type Theories from Algebraic Geometry'
-    year: 2014
-    coauthors: []
-    openalex_id: W2291011044
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'openalex:W2291273566'
-    title: 'Physics motivation and a fast Introduction to theories of P fields and Spin-curves'
-    year: 2014
-    coauthors: []
-    openalex_id: W2291273566
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'openalex:W2292260618'
-    title: 'An Effective Algorithm for g > 0 GW of Compact CY Threefold'
-    year: 2014
-    coauthors: []
-    openalex_id: W2292260618
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'openalex:W2296089869'
-    title: 'Introduction to FJRW theory'
-    year: 2014
-    coauthors: []
-    openalex_id: W2296089869
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'openalex:W2591744516'
-    title: 'Algebro-geometric approach toward higher genus GW invariants of Quintics'
-    year: 2014
-    coauthors: []
-    openalex_id: W2591744516
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'openalex:W2596369736'
-    title: 'On Gromov Witten theory and Fan-Jarvis-Ruan-Witten theory'
-    year: 2014
-    coauthors: []
-    openalex_id: W2596369736
-    sources: [openalex]
-    no_arxiv: true
+    sources: [arxiv]
   - id: '1303.7126'
     title: 'Witten''s top Chern class via cosection localization'
     year: 2013
@@ -344,38 +282,7 @@ publications:
     doi: '10.1007/s00222-014-0549-5'
     journal: 'Invent. Math. (2015)'
     primary_category: math.AG
-    openalex_id: W1983697304
-    sources: [arxiv, openalex]
-  - id: 'doi:10.2140/gt.2013.17.1149'
-    title: 'Poincaré invariants are Seiberg–Witten invariants'
-    year: 2013
-    coauthors: ['Young‐Hoon Kiem']
-    doi: '10.2140/gt.2013.17.1149'
-    journal: 'Geometry & Topology'
-    openalex_id: W2098101384
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'openalex:W2737932273'
-    title: 'Witten''s Top Chern Class Revisited'
-    year: 2013
-    coauthors: []
-    openalex_id: W2737932273
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'openalex:W2739165370'
-    title: 'On A twisted Landau-Ginzburg Type Theory'
-    year: 2013
-    coauthors: ['Jun Li', 'Wei-Ping Li']
-    openalex_id: W2739165370
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'openalex:W3113927578'
-    title: 'On Algebraic Geometric Construction of Enumerative Invariants'
-    year: 2013
-    coauthors: []
-    openalex_id: W3113927578
-    sources: [openalex]
-    no_arxiv: true
+    sources: [arxiv]
   - id: '1206.5390'
     title: 'An algebraic proof of the hyperplane property of the genus one GW-invariants of quintics'
     year: 2012
@@ -383,180 +290,46 @@ publications:
     doi: '10.4310/jdg/1430744122'
     journal: 'Journal of Differential Geometry'
     primary_category: math.AG
-    openalex_id: W2963693926
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '1205.0848'
     title: 'Poincare invariants are Seiberg-Witten invariants'
     year: 2012
     coauthors: ['Young-Hoon Kiem']
     doi: '10.48550/arxiv.1205.0848'
     primary_category: math.AG
-    openalex_id: W2950467121
-    sources: [arxiv, openalex]
-  - id: 'openalex:W2588314343'
-    title: 'Introduction to Gromov Witten and Fan Jarvis Ruan Witten Theory (I,II)'
-    year: 2012
-    coauthors: []
-    openalex_id: W2588314343
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'openalex:W2749292671'
-    title: 'The conference of Mirror Symmetry and Related Topics (MSRT)'
-    year: 2012
-    coauthors: []
-    openalex_id: W2749292671
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'openalex:W2908603218'
-    title: 'Algebraic geometric construction of Gun-Sharpe-Witten model and Fan-Jarvis-Ruan Witten theory'
-    year: 2012
-    coauthors: []
-    openalex_id: W2908603218
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'openalex:W3086340833'
-    title: 'Introduction to Gromov Witten and Fan-Jarvis-Ruan-Witten theory'
-    year: 2012
-    coauthors: []
-    openalex_id: W3086340833
-    sources: [openalex]
-    no_arxiv: true
+    sources: [arxiv]
   - id: '1105.3261'
     title: 'Semi-Perfect Obstruction theory and DT Invariants of Derived Objects'
     year: 2011
     coauthors: ['Jun Li']
     doi: '10.48550/arxiv.1105.3261'
     primary_category: math.AG
-    openalex_id: W1597178391
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '1101.0914'
     title: 'Gromov-Witten invariants of stable maps with fields'
     year: 2011
     coauthors: ['Jun Li']
     doi: '10.48550/arxiv.1101.0914'
     primary_category: math.AG
-    openalex_id: W2034912118
-    sources: [arxiv, openalex]
-  - id: 'doi:10.4310/cag.2011.v19.n4.a6'
-    title: 'Semi-perfect obstruction theory and Donaldson–Thomas invariants of derived objects'
-    year: 2011
-    coauthors: ['Jun Li']
-    doi: '10.4310/cag.2011.v19.n4.a6'
-    journal: 'Communications in Analysis and Geometry'
-    openalex_id: W1997911117
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'openalex:W2583845328'
-    title: 'Algebraic geometry of A-twsited Landau Ginzburg theory'
-    year: 2011
-    coauthors: []
-    openalex_id: W2583845328
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'openalex:W2586155930'
-    title: 'Algebraic geometry of A-twsited topological string theory of Landau Ginzburg type'
-    year: 2011
-    coauthors: ['Jun Li']
-    openalex_id: W2586155930
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'openalex:W2588031048'
-    title: 'Introduction to Fan-Jarvis-Ruan-Witten theory'
-    year: 2011
-    coauthors: []
-    openalex_id: W2588031048
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'openalex:W2588744237'
-    title: 'On Algebra-geometric proof of Li-Zinger Conjecture for g=1 Gromov-Witten invariant of Quintic Calabi-Yau threefold'
-    year: 2011
-    coauthors: ['Jun Li']
-    openalex_id: W2588744237
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'openalex:W2683563689'
-    title: 'Toward Algebraic geometry of Gauged Linear Sigma model in A side'
-    year: 2011
-    coauthors: []
-    openalex_id: W2683563689
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'openalex:W2907321198'
-    title: 'Moduli of stable maps with elds and its applications'
-    year: 2011
-    coauthors: []
-    openalex_id: W2907321198
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'openalex:W2970739651'
-    title: 'On Algebro-geometric proof of Li-Zinger Conjecture for g=1 Gromov-Witten invariant of Quintic'
-    year: 2011
-    coauthors: ['Jun Li']
-    openalex_id: W2970739651
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'openalex:W2626609860'
-    title: 'On Donaldson-Thomas invariants of P1 scroll'
-    year: 2010
-    coauthors: []
-    openalex_id: W2626609860
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'openalex:W2650762124'
-    title: 'Toward algebraic geometry behind Gauged Linear Sigma model in all genus'
-    year: 2010
-    coauthors: []
-    openalex_id: W2650762124
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'openalex:W2764034911'
-    title: 'On genus one Gromov Witten invariant of Quintic threefold'
-    year: 2010
-    coauthors: []
-    openalex_id: W2764034911
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'openalex:W2587151489'
-    title: 'Donaldson Thomas invariants'
-    year: 2009
-    coauthors: []
-    openalex_id: W2587151489
-    sources: [openalex]
-    no_arxiv: true
+    sources: [arxiv]
   - id: '0808.0988'
     title: 'Derived Kodaira Spencer map, Cosection lemma, and semiregularity'
     year: 2008
     coauthors: []
     doi: '10.48550/arxiv.0808.0988'
     primary_category: math.AG
-    openalex_id: W1756148146
-    sources: [arxiv, openalex]
+    sources: [arxiv]
   - id: '0711.4529'
     title: 'Donaldson Thomas invariant of P^1 scroll'
     year: 2007
     coauthors: []
     doi: '10.48550/arxiv.0711.4529'
     primary_category: math.AG
-    openalex_id: W1663187808
-    sources: [arxiv, openalex]
-  - id: 'openalex:W2289557593'
-    title: 'CHARACTERIZATION OF MAPS HAVING THE KKM PROPERTY'
-    year: 2002
-    coauthors: ['Jyh-Chung Jeng', 'Young-Ye Huang']
-    openalex_id: W2289557593
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'openalex:W563042471'
-    title: '簡要代數學教科書 : 高等小學校用 : 尋常中學校用 : 尋常師範學校用 : 高等女子學校用 = A text book of the most important features of practical algebra'
-    year: 1904
-    coauthors: []
-    openalex_id: W563042471
-    sources: [openalex]
-    no_arxiv: true
+    sources: [arxiv]
 activity:
-  total_papers: 59
-  published_count: 30
-  preprint_only_count: 29
+  total_papers: 23
+  published_count: 23
+  preprint_only_count: 0
   active_period: '2007-present'
 external_ids:
   openalex: A5048842012

@@ -76,6 +76,53 @@ research_areas:
   - mirror-symmetry
   - complex-geometry
   - general-relativity
+identity_profile:
+  mathgenealogy_id: '18758'
+  affiliations:
+    - institution: 'cuhk'
+      period: '1966-1969'
+      role: '本科, 数学'
+    - institution: 'uc-berkeley'
+      period: '1969-1971'
+      role: '博士, 数学'
+    - institution: 'ias'
+      period: '1971-1972'
+      role: 'IAS Member'
+    - institution: 'stony-brook'
+      period: '1972-1974'
+      role: '助理教授'
+    - institution: 'stanford'
+      period: '1974-1979'
+      role: '副教授'
+    - institution: 'ias'
+      period: '1980-1984'
+      role: 'IAS Professor'
+    - institution: 'ucsd'
+      period: '1984-1987'
+      role: '讲席教授'
+    - institution: 'harvard'
+      period: '1987-2022'
+      role: 'William Caspar Graustein Professor'
+    - institution: 'tsinghua-ymsc'
+      period: '2022-present'
+      role: '讲席教授 / 主任; Harvard 荣休'
+  email_domains: [harvard.edu, math.cuhk.edu.hk, stanford.edu]
+  coauthor_circle_core_slugs: [leung-naichung, liu-melissa, si-li, tian-gang]
+  coauthor_circle_core_names: ['Chiu-Chu Melissa Liu', 'Gang Tian', 'Naichung Conan Leung', 'Si Li']
+  coauthor_circle_extended_slugs: [li-ao]
+  coauthor_circle_extended_names: ['Ao Li']
+  research_keywords: [calabi, complex, differential, general, geometry, mirror, relativity, symmetry]
+  known_arxiv_ids:
+    - '2510.05470'
+    - '2509.19211'
+    - '2003.07148'
+    - '1802.06751'
+    - '1609.04363'
+    - '0910.4215'
+    - '0809.2121'
+    - '0412292'
+    - '0303019'
+    - '0012196'
 advisor: "Shiing-Shen Chern"
 students:
   - leung-naichung

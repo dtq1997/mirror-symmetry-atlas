@@ -55,6 +55,50 @@ research_areas:
   - gromov-witten-theory
   - mathematical-physics
   - random-matrices
+identity_profile:
+  mathgenealogy_id: '1264'
+  affiliations:
+    - institution: 'ustc'
+      period: '1984-1989'
+      role: '本科, 数学系'
+    - institution: 'ustc'
+      period: '1989-1990'
+      role: '硕士研究生'
+    - institution: 'stony-brook'
+      period: '1990-1995'
+      role: 'PhD'
+    - institution: 'ucsb'
+      period: '1995-1997'
+      role: '客座助理教授'
+    - institution: 'texas-am'
+      period: '1997-2000'
+      role: '客座助理教授'
+    - institution: 'mit'
+      period: '2000-2001'
+      role: '客座助理教授'
+    - institution: 'tsinghua'
+      period: '2001-present'
+      role: '教授'
+    - institution: 'tsinghua'
+      period: '2024-present'
+      role: '系主任'
+  email_domains: [mit.edu, tsinghua.edu.cn, ustc.edu.cn]
+  coauthor_circle_core_slugs: [guo-shuai, ke-huazhong, wang-zhiyuan, zhang-qingsheng]
+  coauthor_circle_core_names: ['Huazhong Ke', 'Qingsheng Zhang', 'Shuai Guo', 'Zhiyuan Wang']
+  coauthor_circle_extended_slugs: [yang-chenglang, zhang-qing]
+  coauthor_circle_extended_names: ['Chenglang Yang', 'Qing Zhang']
+  research_keywords: [gromov, mathematical, matrices, physics, random, theory, witten]
+  known_arxiv_ids:
+    - '2511.10082'
+    - '2401.12726'
+    - '2401.11717'
+    - '2109.03394'
+    - '2108.10498'
+    - '1905.03436'
+    - '1904.09071'
+    - '1812.10638'
+    - '1808.05343'
+    - '1208.3270'
 advisor: lebrun-claude
 students:
   - guo-shuai

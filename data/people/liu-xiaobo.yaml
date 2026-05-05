@@ -43,6 +43,79 @@ research_areas:
 - intersection-numbers
 - quantum-cohomology
 - moduli-spaces
+identity_profile:
+  openalex_id: 'A5100664480'
+  mathgenealogy_id: '23067'
+  affiliations:
+    - institution: 'tsinghua'
+      period: '~1979-1983'
+      role: '本科, 应用数学'
+    - institution: 'upenn'
+      period: '~1988-1994'
+      role: '博士, University of Pennsylvania'
+    - institution: 'notre-dame'
+      period: '~1995-2018'
+      role: 'Assistant → Associate → Full Professor'
+    - institution: 'pku-bicmr'
+      period: '~2018-present'
+      role: '讲席教授, BICMR 副主任'
+  email_domains: [bicmr.pku.edu.cn, tsinghua.edu.cn, upenn.edu]
+  coauthor_circle_core_slugs: [wang-xin, wu-longting, yang-chenglang]
+  coauthor_circle_core_names: ['Chenglang Yang', 'Longting Wu', 'Xin Wang']
+  coauthor_circle_extended_slugs: [tian-gang, wang-chongyu, xu-xu]
+  coauthor_circle_extended_names: ['Chongyu Wang', 'Gang Tian', 'Xu Xu']
+  research_keywords:
+    - 'cohomology'
+    - 'constraints'
+    - 'gromov'
+    - 'intersection'
+    - 'moduli'
+    - 'numbers'
+    - 'quantum'
+    - 'spaces'
+    - 'theory'
+    - 'virasoro'
+    - 'witten'
+  known_arxiv_ids:
+    - '2603.02736'
+    - '2504.15602'
+    - '2502.09165'
+    - '2510.02126'
+    - '2503.03456'
+    - '2506.01193'
+    - '2402.14504'
+    - '2306.04932'
+    - '2206.01066'
+    - '2208.07558'
+    - '2107.10472'
+    - '2104.01357'
+    - '2103.14318'
+    - '2111.07942'
+    - '2006.03945'
+    - '1911.12535'
+    - '1712.02331'
+    - '1503.05268'
+    - '1402.3854'
+    - '1310.2101'
+    - '1106.3735'
+    - '1104.4378'
+    - '0905.0895'
+    - '0805.4829'
+    - '0805.0800'
+    - '0707.2151'
+    - '0706.3550'
+    - '0603467'
+    - '0502457'
+    - '0408361'
+    - '0407086'
+    - '0310410'
+    - '0310409'
+    - '0301161'
+    - '0104030'
+    - '0004028'
+    - '9907113'
+    - '9901150'
+    - '9806028'
 advisor: croke
 students:
 - yang-chenglang

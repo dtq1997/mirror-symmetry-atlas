@@ -37,6 +37,58 @@ research_areas:
   - drinfeld-sokolov-hierarchy
   - frobenius-manifold
   - mathematical-physics
+identity_profile:
+  affiliations:
+    - institution: 'tsinghua'
+      period: '2001-2005'
+      role: '本科'
+    - institution: 'tsinghua'
+      period: '2005-2010'
+      role: '博士'
+    - institution: 'sissa'
+      period: '2010-2014'
+      role: '博士后, Marie Curie Fellow (INdAM)'
+    - institution: 'sun-yat-sen'
+      period: '2014-present'
+      role: '副教授 → 教授'
+  email_domains: [mail.sysu.edu.cn, sissa.it, tsinghua.edu.cn]
+  coauthor_circle_core_slugs: [dubrovin, hu-jianxun, liu-siqi, zhang-youjin]
+  coauthor_circle_core_names: ['Boris Dubrovin', 'Jianxun Hu', 'Siqi Liu', 'Youjin Zhang']
+  research_keywords:
+    - 'constraints'
+    - 'drinfeld'
+    - 'frobenius'
+    - 'function'
+    - 'hierarchy'
+    - 'integrable'
+    - 'manifold'
+    - 'mathematical'
+    - 'physics'
+    - 'sokolov'
+    - 'virasoro'
+  known_arxiv_ids:
+    - '2603.01354'
+    - '2501.04984'
+    - '2408.07376'
+    - '2406.08239'
+    - '2311.07341'
+    - '2005.05204'
+    - '1911.12727'
+    - '1908.06707'
+    - '1811.10137'
+    - '1505.00556'
+    - '1502.04787'
+    - '1404.5149'
+    - '1305.1030'
+    - '1208.1374'
+    - '1203.5750'
+    - '1112.0246'
+    - '1103.4048'
+    - '1012.5245'
+    - '1001.4126'
+    - '0912.5273'
+    - '0906.5360'
+    - '0711.2599'
 advisor: zhang-youjin
 mentors:
   - dubrovin
