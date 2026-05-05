@@ -103,6 +103,19 @@ def collect_known_institutions(person_data, all_institutions=None):
     return insts
 
 
+def fix_mojibake(s):
+    """Reverse the common arXiv double-encoding: bytes that were UTF-8 got
+    decoded as Latin-1 then re-encoded as UTF-8. We detect by looking for
+    typical artifacts (Ã©, Ã¨, Ã, etc.) and try a round-trip.
+    Falls back to the original string if the round-trip fails."""
+    if not s or 'Ã' not in s:
+        return s
+    try:
+        return s.encode('latin-1').decode('utf-8')
+    except (UnicodeEncodeError, UnicodeDecodeError):
+        return s
+
+
 def normalize_name(s):
     """Strip parenthesized content and non-ascii (e.g. Chinese annotation) to leave the latin name."""
     if not s:
@@ -171,7 +184,7 @@ def fetch_arxiv_submitter(arxiv_id, cache_dir='data/papers/_arxiv_cache', delay=
         url = f'https://arxiv.org/abs/{arxiv_id}'
         result = subprocess.run(
             ['curl', '-s', '--noproxy', '*', '--max-time', '30', url],
-            capture_output=True, text=True
+            capture_output=True, text=True, encoding='utf-8', errors='replace'
         )
         html = result.stdout or ''
         if len(html) > 1000:
@@ -254,7 +267,7 @@ def fetch_candidates_for_person(target_name, max_results=200, math_only=True, de
            f'&sortBy=submittedDate&sortOrder=descending')
     time.sleep(delay)
     res = subprocess.run(['curl', '-s', '--noproxy', '*', '--max-time', '40', url],
-                         capture_output=True, text=True)
+                         capture_output=True, text=True, encoding='utf-8', errors='replace')
     if not res.stdout or 'Rate exceeded' in res.stdout:
         return []
     try:
@@ -274,11 +287,11 @@ def fetch_candidates_for_person(target_name, max_results=200, math_only=True, de
         doi = entry.find('arxiv:doi', NS)
         out.append({
             'id': aid,
-            'title': title,
+            'title': fix_mojibake(title),
             'year': year,
-            'authors': authors,
+            'authors': [fix_mojibake(a) for a in authors],
             'primary_category': primary_cat,
-            'journal_ref': jref.text.strip() if jref is not None and jref.text else None,
+            'journal_ref': fix_mojibake(jref.text.strip()) if jref is not None and jref.text else None,
             'doi': doi.text.strip() if doi is not None and doi.text else None,
         })
     return out

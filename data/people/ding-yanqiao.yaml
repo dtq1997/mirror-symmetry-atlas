@@ -68,51 +68,63 @@ grants:
   - "国家自然科学基金青年项目 (2022.01-2024.12, 主持)"
   - "河南省自然科学基金青年项目 (2021.01-2022.12, 主持)"
 publications:
-  - id: "2602.04191"
-    title: "The uniform asymptotics for real double Hurwitz numbers with triple ramification II: lower bounds and asymptotics"
+  - id: '2602.04191'
+    title: 'The uniform asymptotics for real double Hurwitz numbers with triple ramification II: lower bounds and asymptotics'
     year: 2026
     coauthors: [li-kui, liu-huan, yan-dongfeng]
-  - id: "2509.06004"
-    title: "Refined floor diagrams relative to a conic and Caporaso-Harris type formula"
+    primary_category: math.CO
+  - id: '2509.06004'
+    title: 'Refined floor diagrams relative to a conic and Caporaso-Harris type formula'
     year: 2025
     coauthors: [hu-jianxun]
-  - id: "2506.16879"
-    title: "Real polynomial Hurwitz numbers"
+    primary_category: math.AG
+  - id: '2506.16879'
+    title: 'Real polynomial Hurwitz numbers'
     year: 2025
     coauthors: []
-  - id: "2303.03671"
-    title: "The uniform asymptotics for real double Hurwitz numbers with triple ramification I: the tropical correspondence"
+    primary_category: math.AG
+  - id: '2303.03671'
+    title: 'The uniform asymptotics for real double Hurwitz numbers with triple ramification I: the tropical correspondence'
     year: 2023
     coauthors: [li-kui, liu-huan, yan-dongfeng]
-  - id: "2210.06880"
-    title: "Asymptotics for real monotone double Hurwitz numbers"
+    primary_category: math.AG
+  - id: '2210.06880'
+    title: 'Asymptotics for real monotone double Hurwitz numbers'
     year: 2022
-    coauthors: ["Qinhao He"]
-  - id: "2010.00899"
-    title: "On the lower bounds for real double Hurwitz numbers"
+    coauthors: ['Qinhao He']
+    primary_category: math.AG
+  - id: '2010.00899'
+    title: 'On the lower bounds for real double Hurwitz numbers'
     year: 2020
     coauthors: []
-  - id: "1902.07486"
-    title: "A remark on Gromov-Witten-Welschinger invariants of $\\mathbb{C}P^3\\#\\overline{\\mathbb{C}P}^3$"
+    doi: '10.1007/s10801-022-01213-3'
+    primary_category: math.AG
+  - id: '1902.07486'
+    title: 'A remark on Gromov-Witten-Welschinger invariants of $\mathbb{C}P^3\#\overline{\mathbb{C}P}^3$'
     year: 2019
     coauthors: []
-  - id: "1710.03603"
-    title: "Higher genus Welschinger invariants under real surgeries (Genus decreasing formula)"
+    primary_category: math.AG
+  - id: '1710.03603'
+    title: 'Higher genus Welschinger invariants under real surgeries (Genus decreasing formula)'
     year: 2017
     coauthors: []
-    notes: "博士论文相关工作，Math. Z. 296 (2020) 发表"
-  - id: "1609.05655"
-    title: "Welschinger invariants of Blow-ups of symplectic 4-manifolds"
+    primary_category: math.SG
+  - id: '1609.05655'
+    title: 'Welschinger invariants of Blow-ups of symplectic 4-manifolds'
     year: 2016
     coauthors: [hu-jianxun]
-  - id: "1504.07111"
-    title: "The Weinstein Conjecture in Product of Symplectic Manifolds"
+    primary_category: math.SG
+  - id: '1504.07111'
+    title: 'The Weinstein Conjecture in Product of Symplectic Manifolds'
     year: 2015
     coauthors: [hu-jianxun]
+    primary_category: math.SG
 activity:
   total_papers: 10
-  active_period: "2015-present"
-  peak_period: "2023-present"
+  published_count: 1
+  preprint_only_count: 9
+  active_period: '2015-present'
+  peak_period: '2023-present'
 external_ids:
   orcid: "0000-0003-1233-991X"
 links: {}

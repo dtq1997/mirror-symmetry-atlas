@@ -58,21 +58,31 @@ key_collaborators:
     met_context: "HUST 2026 会议将深入交流"
     topic: "BKP/Hurwitz tau 函数方向"
 publications:
-  - id: "2501.17516"
-    title: "Stokes Phenomenon and Yangians"
+  - id: '2501.17516'
+    title: 'Stokes Phenomenon and Yangians'
     year: 2025
     coauthors: [xu-xiaomeng]
-  - id: "2407.20010"
-    title: "Schröder Paths, Their Generalizations and Knot Invariants"
+    primary_category: math.CA
+  - id: '2407.20010'
+    title: 'Schröder Paths, Their Generalizations and Knot Invariants'
     year: 2024
     coauthors: [ji-ce, yang-chenglang]
-  - id: "2402.07269"
-    title: "The Boundary Condition for Some Isomonodromy Equations"
+    primary_category: math.CO
+  - id: '2402.07269'
+    title: 'The Boundary Condition for Some Isomonodromy Equations'
     year: 2024
     coauthors: [xu-xiaomeng]
+    primary_category: math.CA
+  - id: '2103.09117'
+    title: 'A Characterization of Umbral Calculus Inspired by Fractional Sums'
+    year: 2021
+    coauthors: [tang-qian]
+    primary_category: math.CA
 activity:
-  total_papers: 5
-  active_period: "2023-present"
+  total_papers: 4
+  published_count: 0
+  preprint_only_count: 4
+  active_period: '2023-present'
 external_ids:
   mathgenealogy: "[待查 id]"
 links: {}

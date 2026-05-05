@@ -26,13 +26,65 @@ key_collaborators:
     topic: "PACE REU, Schubert calculus"
     papers_count: "[待验证]"
 publications:
-  - id: "2408.10155"
-    title: "On Bott–Samelson rings for Coxeter groups"
+  - id: '2512.06646'
+    title: 'Totally nonnegative Peterson variety and strongly dominant weight polytope'
+    year: 2025
+    coauthors: ['Hiraku Abe', zeng-haozhi]
+    primary_category: math.AG
+  - id: '2508.05457'
+    title: 'Structure constants of Peterson Schubert calculus'
+    year: 2025
+    coauthors: ['Yuqi Jia', 'Xinkai Yu', 'Zhexi Zhang', 'Yuchen Zhu']
+    primary_category: math.AG
+  - id: '2410.13617'
+    title: 'Weyl group symmetries of the toric variety associated with Weyl chambers'
     year: 2024
-    coauthors: ["Lin Sun", "Shihao Wang", "Haoyu Zhu"]
+    coauthors: ['Hongsheng Hu', 'Minhua Liu']
+    doi: '10.1112/blms.70144'
+    journal: 'Bulletin of the London Mathematical Society (2025)'
+    primary_category: math.AT
+  - id: '2408.10155'
+    title: 'On Bott–Samelson rings for Coxeter groups'
+    year: 2024
+    coauthors: ['Lin Sun', 'Shihao Wang', 'Haoyu Zhu']
+    primary_category: math.RA
+  - id: '2311.17980'
+    title: 'Asymptotic Log-concavity of Dominant Lower Bruhat Intervals via Brunn--Minkowski Inequality'
+    year: 2023
+    coauthors: ['Gaston Burrull', 'Hongsheng Hu']
+    primary_category: math.CO
+  - id: '2311.16022'
+    title: 'Strongly dominant weight polytopes are cubes'
+    year: 2023
+    coauthors: ['Gaston Burrull', 'Hongsheng Hu']
+    primary_category: math.RT
+  - id: '2210.14668'
+    title: 'Conjectures on the reduced Kronecker coefficients'
+    year: 2022
+    coauthors: []
+    primary_category: math.RT
+  - id: '2209.12632'
+    title: 'Revisiting Jacobi-Trudi identities via the BGG category $\mathcal{O}$'
+    year: 2022
+    coauthors: ['Arthur L. B. Yang']
+    primary_category: math.RT
+  - id: '2205.05420'
+    title: 'Equivariant log-concavity and equivariant Kähler packages'
+    year: 2022
+    coauthors: ['Rui Xiong']
+    doi: '10.1016/j.jalgebra.2024.05.018'
+    journal: 'J. Algebra 657, 379-401 (2024)'
+    primary_category: math.RT
+  - id: '2205.05408'
+    title: 'On the equivariant log-concavity for the cohomology of the flag varieties'
+    year: 2022
+    coauthors: []
+    primary_category: math.RT
 activity:
-  total_papers: 4
-  notes: "代数组合方向。arXiv 仅检索到 2408.10155 一篇, 其余 Peterson Schubert calculus / affine Weyl groups / toric varieties 论文待核实发表形式"
+  total_papers: 10
+  published_count: 2
+  preprint_only_count: 8
+  notes: '代数组合方向。arXiv 仅检索到 2408.10155 一篇, 其余 Peterson Schubert calculus / affine Weyl groups / toric varieties 论文待核实发表形式'
 external_ids: {}
 links:
   researchgate: "https://www.researchgate.net/profile/Tao-Gui-4"

@@ -34,13 +34,16 @@ key_collaborators:
     topic: "BKP hierarchy, connected bosonic n-point functions, tau-functions"
     papers_count: 1
 publications:
-  - id: "2506.00451"
-    title: "A Formula for Connected Bosonic n-Point Functions for the BKP Hierarchy"
+  - id: '2506.00451'
+    title: 'A Formula for Connected Bosonic n-Point Functions for the BKP Hierarchy'
     year: 2025
     coauthors: [zhou-jian]
+    primary_category: math-ph
 activity:
   total_papers: 1
-  active_period: "2025-present"
+  published_count: 0
+  preprint_only_count: 1
+  active_period: '2025-present'
 external_ids: {}
 links:
   email: "zhangxh19@mails.tsinghua.edu.cn"

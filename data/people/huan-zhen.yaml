@@ -46,44 +46,81 @@ key_collaborators:
     topic: "Level structures on p-divisible groups"
     papers_count: 1
 publications:
-  - id: "1612.00930"
-    title: "Quasi-Elliptic Cohomology and Power Operations"
-    year: 2018
-    journal: "J. Homotopy Relat. Struct. 13(4), 715-767"
+  - id: '2601.15893'
+    title: '2-Equivariant 2-Vector bundles and 2K-theories'
+    year: 2026
     coauthors: []
-  - id: "1703.06562"
-    title: "Quasi-elliptic cohomology and its Spectrum"
+    primary_category: math.AT
+  - id: '2408.02278'
+    title: 'Quasi-elliptic cohomology of 4-spheres'
+    year: 2024
+    coauthors: []
+    journal: 'Axioms 2025'
+    primary_category: hep-th
+  - id: '2210.07511'
+    title: 'Twisted Real quasi-elliptic cohomology'
+    year: 2022
+    coauthors: ['Matthew B. Young']
+    primary_category: math.AT
+  - id: '2208.10042'
+    title: '2-Representations of Lie 2-groups and 2-Vector Bundles'
+    year: 2022
+    coauthors: []
+    primary_category: math.AT
+  - id: '2006.00554'
+    title: 'Twisted equivariant quasi-elliptic cohomology & M-brane charge'
+    year: 2020
+    coauthors: ['Matthew Spong']
+    doi: '10.4310/ATMP.251120035411'
+    journal: 'Advances in Theoretical and Mathematical Physics, pp. 1857-1904, Volume 29 (2025) Number 7'
+    primary_category: math.AT
+  - id: '2001.10075'
+    title: 'Level structures on p-divisible groups'
+    year: 2020
+    coauthors: ['Nathaniel Stapleton']
+    primary_category: math.AT
+  - id: '1809.08921'
+    title: 'Almost Global Homotopy Theory'
+    year: 2018
+    coauthors: []
+    primary_category: math.AT
+  - id: '1809.07622'
+    title: 'Quasi-theories and their equivariant orthogonal spectra'
+    year: 2018
+    coauthors: []
+    primary_category: math.AT
+  - id: '1809.06651'
+    title: 'Quasi-theories'
+    year: 2018
+    coauthors: []
+    primary_category: math.AT
+  - id: '1805.06305'
+    title: 'Quasi-Elliptic Cohomology I'
+    year: 2018
+    coauthors: []
+    journal: 'Adv. Math. 337, 107-138'
+    primary_category: math.AT
+  - id: '1612.00930'
+    title: 'Quasi-Elliptic Cohomology and Power Operations'
+    year: 2018
+    coauthors: []
+    journal: 'J. Homotopy Relat. Struct. 13(4), 715-767'
+    primary_category: math.AT
+  - id: '1708.08637'
+    title: 'Universal Finite Subgroup of the Tate Curve'
     year: 2017
     coauthors: []
-  - id: "1805.06305"
-    title: "Quasi-Elliptic Cohomology I"
-    year: 2018
-    journal: "Adv. Math. 337, 107-138"
+    primary_category: math.AT
+  - id: '1703.06562'
+    title: 'Quasi-elliptic cohomology and its Spectrum'
+    year: 2017
     coauthors: []
-  - id: "2001.10075"
-    title: "Level structures on p-divisible groups"
-    year: 2020
-    coauthors: ["Nathaniel Stapleton"]
-  - id: "2006.00554"
-    title: "Twisted equivariant quasi-elliptic cohomology & M-brane charge"
-    year: 2020
-    coauthors: ["Matthew Spong"]
-  - id: "2210.07511"
-    title: "Twisted Real quasi-elliptic cohomology"
-    year: 2022
-    coauthors: ["Matthew B. Young"]
-  - id: "2408.02278"
-    title: "Quasi-elliptic cohomology of 4-spheres"
-    year: 2024
-    journal: "Axioms 2025"
-    coauthors: []
-  - id: null
-    title: "Acta Math 独作 (quasi-elliptic cohomology 奠基成果, 2022)"
-    year: 2022
-    coauthors: []
+    primary_category: math.AT
 activity:
-  total_papers: null
-  active_period: "2018-present"
+  total_papers: 14
+  published_count: 4
+  preprint_only_count: 10
+  active_period: '2018-present'
 external_ids: {}
 links:
   homepage: "https://huanzhen84.github.io/zhenhuan/"

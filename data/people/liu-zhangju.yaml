@@ -79,25 +79,33 @@ key_collaborators:
     topic: "E-Courant algebroids, higher structures"
     papers_count: 5
 publications:
-  - title: "Manin Triples for Lie Bialgebroids"
-    year: 1997
-    journal: "J. Differential Geom. 45 (1997) 547-574"
-    coauthors: ["Alan Weinstein", "Ping Xu"]
-  - title: "Dirac structures and Poisson homogeneous spaces"
-    year: 1998
-    journal: "Comm. Math. Phys. 192 (1998) 121-144"
-    coauthors: ["Alan Weinstein", "Ping Xu"]
-  - title: "Poisson structures on double Lie groups"
-    year: 1998
-    journal: "J. Geom. Phys."
-    coauthors: []
-  - title: "E-Courant algebroids"
-    year: 2010
-    coauthors: [chen-zhuo]
+  - id: '2310.13614'
+    title: 'Lie triple 2-algebras'
+    year: 2023
+    coauthors: ['Tao Zhang']
+    primary_category: math.RA
+  - id: '0210104'
+    title: 'The Local Structure of Lie Bialgebroids'
+    year: 2002
+    coauthors: [xu-xu]
+    journal: 'Lett. Math. Phys., 61 (2002) 15-28'
+    primary_category: math.DG
+  - id: '9903119'
+    title: 'Dirac structures and dynamical r-matrices'
+    year: 1999
+    coauthors: [xu-xu]
+    primary_category: math.DG
+  - id: '9508013'
+    title: 'Manin Triples for Lie Bialgebroids'
+    year: 1995
+    coauthors: ['Alan Weinstein', xu-xu]
+    primary_category: math.DG
 activity:
-  total_papers: null
-  active_period: "1987-present"
-  notes: "《数学进展》主编"
+  total_papers: 5
+  published_count: 1
+  preprint_only_count: 4
+  active_period: '1987-present'
+  notes: '《数学进展》主编'
 external_ids: {}
 links:
   pku: "https://www.math.pku.edu.cn/jsdw/ltx/141184.htm"

@@ -62,54 +62,123 @@ key_collaborators:
     papers_count: 2
     notes: "与 Zhuo Chen, Maosong Xiang 联合合作"
 publications:
-  - id: "2508.02019"
-    title: "Brace $B_{\\infty}$ algebras associated with Hopf algebroids"
+  - id: '2602.02021'
+    title: 'Irreducible tensor product modules over the Takiff Lie algebra for $\mathfrak{sl}_{2}$'
+    year: 2026
+    coauthors: ['Xiaoyu Zhu']
+    primary_category: math.RT
+  - id: '2508.02019'
+    title: 'Brace $B_{\infty}$ algebras associated with Hopf algebroids'
     year: 2025
-    coauthors: ["Jiahao Cheng", "Zhuo Chen"]
-  - id: "2412.19290"
-    title: "Schrödinger operators with non-integer power-law potentials and Lie-Rinehart algebras"
+    coauthors: ['Jiahao Cheng', 'Zhuo Chen']
+    primary_category: math.QA
+  - id: '2412.19290'
+    title: 'Schrödinger operators with non-integer power-law potentials and Lie-Rinehart algebras'
     year: 2024
-    coauthors: ["Ivan Beschastnyi", "Catarina Carvalho", "Victor Nistor"]
-  - id: "2412.09039"
-    title: "From smooth dynamical twists to twistors of quantum groupoids"
+    coauthors: ['Ivan Beschastnyi', 'Catarina Carvalho', 'Victor Nistor']
+    primary_category: math.DG
+  - id: '2412.09039'
+    title: 'From smooth dynamical twists to twistors of quantum groupoids'
     year: 2024
-    coauthors: ["Jiahao Cheng", "Zhuo Chen", "Maosong Xiang"]
-  - id: "2308.06225"
-    title: "Analysis on noncompact manifolds and Index Theory: Fredholm conditions and Pseudodifferential operators"
+    coauthors: ['Jiahao Cheng', 'Zhuo Chen', 'Maosong Xiang']
+    journal: 'Journal of Geometry and Physics, 219 (2026)'
+    primary_category: math.QA
+  - id: '2310.05360'
+    title: 'Maurer-Cartan characterization, $L_\infty$-algebras, and cohomology of relative Rota-Baxter operators on Lie-Yamaguti algebras'
     year: 2023
-    coauthors: ["Ivan Beschastnyi", "Catarina Carvalho", "Victor Nistor"]
-  - id: "2304.13345"
-    title: "Deformation and $K$-theoretic Index Formulae on Boundary Groupoids"
+    coauthors: ['Jia Zhao']
+    primary_category: math.RA
+  - id: '2308.06225'
+    title: 'Analysis on noncompact manifolds and Index Theory: Fredholm conditions and Pseudodifferential operators'
     year: 2023
-    coauthors: ["Bing Kwan So"]
-    journal: "J. Noncommut. Geom. 19 (2025)"
-  - id: "2108.04592"
-    title: "Renormalized Index Formulas for Elliptic Differential Operators on Boundary Groupoids"
+    coauthors: ['Ivan Beschastnyi', 'Catarina Carvalho', 'Victor Nistor']
+    primary_category: math.AP
+  - id: '2304.13345'
+    title: 'Deformation and $K$-theoretic Index Formulae on Boundary Groupoids'
+    year: 2023
+    coauthors: ['Bing Kwan So']
+    doi: '10.4171/JNCG/579'
+    journal: 'Journal of Noncommutative Geometry, 2025'
+    primary_category: math.KT
+  - id: '2304.06324'
+    title: 'Post Lie-Yamaguti algebras, relative Rota-Baxter operators of nonzero weights, and their deformations'
+    year: 2023
+    coauthors: ['Jia Zhao', xu-xu]
+    primary_category: math.RA
+  - id: '2303.15744'
+    title: 'Cohomology and deformations of crossed homomorphisms between Lie-Yamaguti algebras'
+    year: 2023
+    coauthors: ['Jia Zhao', xu-xu]
+    primary_category: math.RA
+  - id: '2302.11145'
+    title: 'Para-Kähler and pseudo-Kähler structures on Lie-Yamaguti algebras'
+    year: 2023
+    coauthors: ['Jia Zhao', 'Yuqin Feng']
+    primary_category: math.RA
+  - id: '2210.17066'
+    title: 'The classical Lie-Yamaguti Yang-Baxter equation and Lie-Yamaguti bialgebras'
+    year: 2022
+    coauthors: ['Jia Zhao']
+    journal: 'SCIENTIA SINICA Mathematica (in Chinese), 2023'
+    primary_category: math.RA
+  - id: '2210.01999'
+    title: 'Locally finite infinity-modules and weak Loday-Pirashvili modules over differential graded Lie algebras'
+    year: 2022
+    coauthors: [chen-zhuo, xiang-maosong, 'Tao Zhang']
+    primary_category: math.RT
+  - id: '2206.05905'
+    title: 'Cohomology and relative Rota-Baxter-Nijenhuis structures on LieYRep pairs'
+    year: 2022
+    coauthors: ['Jia Zhao']
+    doi: '10.1016/j.geomphys.2023.104749'
+    journal: 'Journal of Geometry and Physics, 2023'
+    primary_category: math.RA
+  - id: '2204.04872'
+    title: 'Cohomology and deformations of Relative Rota-Baxter operators on Lie-Yamaguti algebras'
+    year: 2022
+    coauthors: ['Jia Zhao']
+    primary_category: math.RA
+  - id: '2110.11623'
+    title: 'Dg Loday-Pirashvili modules over Lie algebras'
     year: 2021
-    coauthors: ["Bing Kwan So"]
-  - id: "1910.12225"
-    title: "On Lie Bialgebroid Crossed Modules"
+    coauthors: [chen-zhuo, xiang-maosong, 'Tao Zhang']
+    doi: '10.1007/s40062-024-00361-6'
+    journal: 'Journal of Homotopy and Related Structures, 2025'
+    primary_category: math.RA
+  - id: '2108.04592'
+    title: 'Renormalized Index Formulas for Elliptic Differential Operators on Boundary Groupoids'
+    year: 2021
+    coauthors: ['Bing Kwan So']
+    doi: '10.7900/jot.2022sep12.2399'
+    journal: 'Journal of Operator Theory, 2024'
+    primary_category: math.OA
+  - id: '1910.12225'
+    title: 'On Lie Bialgebroid Crossed Modules'
     year: 2019
-    coauthors: ["Honglei Lang", "Yanbin Yin"]
-  - id: "1811.07699"
-    title: "Gluing action groupoids: Fredholm conditions and layer potentials"
-    year: 2018
-    coauthors: ["Catarina Carvalho", "Rémi Côme"]
-  - id: "1807.05418"
-    title: "Fredholm Groupoids and Layer Potentials on Conical Domains"
-    year: 2018
-    coauthors: ["Catarina Carvalho"]
-  - id: "1703.07953"
-    title: "Fredholm conditions on non-compact manifolds: theory and examples"
+    coauthors: ['Honglei Lang', 'Yanbin Yin']
+    primary_category: math.QA
+  - id: '1703.07953'
+    title: 'Fredholm conditions on non-compact manifolds: theory and examples'
     year: 2017
-    coauthors: ["Catarina Carvalho", "Victor Nistor"]
-  - id: "1111.5754"
-    title: "Layer potentials C*-algebras of domains with conical points"
+    coauthors: ['Catarina Carvalho', 'Victor Nistor']
+    primary_category: math.OA
+  - id: '1811.07699'
+    title: 'Gluing action groupoids: Fredholm conditions and layer potentials'
+    year: 2018
+    coauthors: ['Catarina Carvalho', 'Rémi Côme']
+  - id: '1807.05418'
+    title: 'Fredholm Groupoids and Layer Potentials on Conical Domains'
+    year: 2018
+    coauthors: ['Catarina Carvalho']
+  - id: '1111.5754'
+    title: 'Layer potentials C*-algebras of domains with conical points'
     year: 2011
-    coauthors: ["Catarina Carvalho"]
+    coauthors: ['Catarina Carvalho']
 activity:
-  total_papers: 11
-  active_period: "2011-present"
+  total_papers: 21
+  published_count: 6
+  preprint_only_count: 15
+  active_period: '2011-present'
 external_ids: {}
 links:
   researchgate: "https://www.researchgate.net/profile/Yu-Qiao-19"

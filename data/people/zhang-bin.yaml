@@ -39,82 +39,186 @@ key_collaborators:
     topic: "Renormalisation of branched zeta values, locality structures, conical zeta values"
     papers_count: 8
 publications:
-  - id: "2512.24732"
-    title: "Isomorphism between Hopf algebras for multiple zeta values"
+  - id: '2512.24732'
+    title: 'Isomorphism between Hopf algebras for multiple zeta values'
     year: 2025
-    coauthors: [guo-li, "Hongyu Xiang"]
-  - id: "2401.01372"
-    title: "Hopf algebras for the shuffle algebra and fractions from multiple zeta values"
+    coauthors: [guo-li, 'Hongyu Xiang']
+    primary_category: math.NT
+  - id: '2412.20952'
+    title: 'A Riemann-type duality of shuffle Hopf algebras related to multiple zeta values'
+    year: 2024
+    coauthors: ['Li Guo', 'Hongyu Xiang']
+    primary_category: math.RA
+  - id: '2411.08536'
+    title: 'Extended Shuffle Product for Multiple Zeta Values'
+    year: 2024
+    coauthors: ['Li Guo', 'Wenchuan Hu', 'Hongyu Xiang']
+    primary_category: math.NT
+  - id: '2401.01372'
+    title: 'Hopf algebras for the shuffle algebra and fractions from multiple zeta values'
     year: 2023
-    coauthors: [guo-li, "Wenchuan Hu", "Hongyu Xiang"]
-  - id: "2301.02300"
-    title: "Locality Galois groups of meromorphic germs in several variables"
+    coauthors: [guo-li, 'Wenchuan Hu', 'Hongyu Xiang']
+    primary_category: math.NT
+  - id: '2301.02300'
+    title: 'Locality Galois groups of meromorphic germs in several variables'
     year: 2023
     coauthors: [guo-li, paycha-sylvie]
-  - id: "2012.11872"
-    title: "Renormalization of quasisymmetric functions"
+    primary_category: math-ph
+  - id: '2012.11872'
+    title: 'Renormalization of quasisymmetric functions'
     year: 2020
-    coauthors: [guo-li, "Houyi Yu"]
-  - id: "1811.01215"
-    title: "Locality and renormalisation: universal properties and integrals on trees"
+    coauthors: [guo-li, 'Houyi Yu']
+    primary_category: math.CO
+  - id: '2007.03003'
+    title: 'From orthocomplementations to locality'
+    year: 2020
+    coauthors: ['Pierre Clavier', 'Li Guo', 'Sylvie Paycha']
+    doi: '10.3842/SIGMA.2021.027'
+    journal: 'SIGMA 17 (2021), 027, 23 pages'
+    primary_category: math.RA
+  - id: '1910.01039'
+    title: 'Cyclotomic polynomials with prescribed height and prime number theory'
+    year: 2019
+    coauthors: ['Alexandre Kosyak', 'Pieter Moree', 'Efthymios Sofos']
+    primary_category: math.NT
+  - id: '1811.01215'
+    title: 'Locality and renormalisation: universal properties and integrals on trees'
     year: 2018
-    coauthors: ["Pierre Clavier", guo-li, paycha-sylvie]
-  - id: "1810.03210"
-    title: "Renormalisation via locality morphisms"
+    coauthors: ['Pierre Clavier', guo-li, paycha-sylvie]
+    journal: 'J. Math Phys, 61 (2020), 022301, 19 pp'
+    primary_category: math-ph
+  - id: '1810.03210'
+    title: 'Renormalisation via locality morphisms'
     year: 2018
-    coauthors: ["Pierre Clavier", guo-li, paycha-sylvie]
-  - id: "1807.07630"
-    title: "Renormalisation and locality: branched zeta values"
+    coauthors: ['Pierre Clavier', guo-li, paycha-sylvie]
+    journal: 'Revista Colombiana de Matemáticas, 53 (2019), 113-141'
+    primary_category: math-ph
+  - id: '1807.07630'
+    title: 'Renormalisation and locality: branched zeta values'
     year: 2018
-    coauthors: ["Pierre Clavier", guo-li, paycha-sylvie]
-  - id: "1712.03490"
-    title: "Renormalization of Feynman amplitudes on manifolds by spectral zeta regularization and blow-ups"
+    coauthors: ['Pierre Clavier', guo-li, paycha-sylvie]
+    journal: 'IRMA Lect. in Math. and Theor. Phys. 32 (2020), 85-132'
+    primary_category: math-ph
+  - id: '1712.03490'
+    title: 'Renormalization of Feynman amplitudes on manifolds by spectral zeta regularization and blow-ups'
     year: 2017
-    coauthors: ["Nguyen Viet Dang"]
-  - id: "1711.00884"
-    title: "An algebraic formulation of the locality principle in renormalisation"
+    coauthors: ['Nguyen Viet Dang']
+    primary_category: math-ph
+  - id: '1711.00884'
+    title: 'An algebraic formulation of the locality principle in renormalisation'
     year: 2017
-    coauthors: ["Pierre Clavier", guo-li, paycha-sylvie]
-  - id: "1607.05973"
-    title: "Universal enveloping algebras and Poincaré-Birkhoff-Witt theorem for involutive Hom-Lie algebras"
+    coauthors: ['Pierre Clavier', guo-li, paycha-sylvie]
+    primary_category: math-ph
+  - id: '1607.05973'
+    title: 'Universal enveloping algebras and Poincaré-Birkhoff-Witt theorem for involutive Hom-Lie algebras'
     year: 2016
-    coauthors: [guo-li, "Shanghua Zheng"]
-  - id: "1602.04190"
-    title: "Renormalised conical zeta values"
+    coauthors: [guo-li, 'Shanghua Zheng']
+    journal: 'Journal of Lie Theory 28 (2018) 735-756'
+    primary_category: math.QA
+  - id: '1602.04190'
+    title: 'Renormalised conical zeta values'
     year: 2016
     coauthors: [guo-li, paycha-sylvie]
-  - id: "1501.00429"
-    title: "Counting an infinite number of points: a testing ground for renormalization methods"
+    journal: 'Resurgence, Physics, and Numbers, 2017, 299-327, Springer'
+    primary_category: math-ph
+  - id: '1501.00429'
+    title: 'Counting an infinite number of points: a testing ground for renormalization methods'
     year: 2015
     coauthors: [guo-li, paycha-sylvie]
-  - id: "1501.00426"
-    title: "A conical approach to Laurent expansions for multivariate meromorphic germs with linear poles"
+    journal: 'Geometric, algebraic and topological methods for quantum field theory, 2017, 309-352, World Sci. Publ'
+    primary_category: math-ph
+  - id: '1501.00426'
+    title: 'A conical approach to Laurent expansions for multivariate meromorphic germs with linear poles'
     year: 2015
     coauthors: [guo-li, paycha-sylvie]
-  - id: "1306.3420"
-    title: "Algebraic Birkhoff Factorization and the Euler-Maclaurin Formula on Cones"
+    doi: '10.2140/pjm.2020.307.159'
+    journal: 'Pacific J. Math. 307 (2020) 159-196'
+    primary_category: math.CV
+  - id: '1307.2642'
+    title: 'Structure controllability of complex network based on preferential matching'
+    year: 2013
+    coauthors: ['Xizhe Zhang', 'Tianyang Lv', xu-xu]
+    doi: '10.1371/journal.pone.0112039'
+    primary_category: math-ph
+  - id: '1306.3420'
+    title: 'Algebraic Birkhoff Factorization and the Euler-Maclaurin Formula on Cones'
     year: 2013
     coauthors: [guo-li, paycha-sylvie]
-  - id: "1301.3370"
-    title: "Conical zeta values and their double subdivision relations"
+    doi: '10.1215/00127094-3715303'
+    journal: 'Duke Math. J. 166, no. 3 (2017), 537-571'
+    primary_category: math-ph
+  - id: '1301.3370'
+    title: 'Conical zeta values and their double subdivision relations'
     year: 2013
     coauthors: [guo-li, paycha-sylvie]
-  - id: "0906.0092"
-    title: "Double shuffle relations and renormalization of multiple zeta values"
+    journal: 'Advances in Mathematics 252 (2014) 343-381'
+    primary_category: math.NT
+  - id: '1210.1818'
+    title: 'Polylogarithms and multiple zeta values from free Rota-Baxter algebras'
+    year: 2012
+    coauthors: ['Li Guo']
+    doi: '10.1007/s11425-010-4044-1'
+    journal: 'Science in China 53 (2010) 2239-2258'
+    primary_category: math.NT
+  - id: '0906.0092'
+    title: 'Double shuffle relations and renormalization of multiple zeta values'
     year: 2009
-    coauthors: [guo-li, paycha-sylvie, "Bingyong Xie"]
-  - id: "0710.0432"
-    title: "Differential Birkhoff decomposition and the renormalization of multiple zeta values"
+    coauthors: [guo-li, paycha-sylvie, 'Bingyong Xie']
+    journal: 'Geometry of Algebraic Cycles, Clay Math. Proc. 9 (2010) 145-187'
+    primary_category: math.NT
+  - id: '0710.0432'
+    title: 'Differential Birkhoff decomposition and the renormalization of multiple zeta values'
     year: 2007
     coauthors: [guo-li]
-  - id: "math/0606076"
-    title: "Renormalization of multiple zeta values"
+    journal: 'J. Number Theory vol 128 (2008), 2318-2339'
+    primary_category: math.NT
+  - id: '0606076'
+    title: 'Renormalization of multiple zeta values'
+    year: 2006
+    coauthors: ['Li Guo']
+    journal: 'J. Algebra, Vol 319 (2008), 3770-3809'
+    primary_category: math.NT
+  - id: '0605534'
+    title: 'A Stringy Product on Twisted Orbifold K-theory'
+    year: 2006
+    coauthors: ['Alejandro Adem', ruan-yongbin]
+    primary_category: math.AT
+  - id: '0311318'
+    title: 'Equivariant Todd Classes for Toric Varieties'
+    year: 2003
+    coauthors: ['Jean-Luc Brylinski']
+    primary_category: math.AG
+  - id: '0311298'
+    title: 'K-twisted K-theory for SU(N)'
+    year: 2003
+    coauthors: []
+    primary_category: math.KT
+  - id: '0306183'
+    title: 'Equivariant gerbes over compact simple Lie groups'
+    year: 2003
+    coauthors: ['Kai Behrend', xu-xu]
+    journal: 'C. R. Acad. Sci. Paris, Ser. I 336 (2003) 251-256'
+    primary_category: math.SG
+  - id: '9906152'
+    title: 'Equivariant Singular Riemann-Roch Theorem'
+    year: 1999
+    coauthors: []
+    primary_category: math.AG
+  - id: '9710035'
+    title: 'Equivariant K-Theory of Simply Connected Lie Groups'
+    year: 1997
+    coauthors: ['Jean-Luc Brylinski']
+    primary_category: math.DG
+  - id: 'math/0606076'
+    title: 'Renormalization of multiple zeta values'
     year: 2006
     coauthors: [guo-li]
 activity:
-  total_papers: 18
-  active_period: "2006-present"
-  peak_period: "2013-2023"
+  total_papers: 31
+  published_count: 16
+  preprint_only_count: 15
+  active_period: '2006-present'
+  peak_period: '2013-2023'
 external_ids: {}
 links: {}
 personal_notes: |

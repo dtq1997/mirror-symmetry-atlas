@@ -90,104 +90,134 @@ key_collaborators:
     topic: "Virtual residue, quasimaps with fields"
     papers_count: 2
 publications:
-  - id: "2504.09552"
-    title: "Irregular vanishing on P^2 × P^2"
+  - id: '2504.09552'
+    title: 'Irregular vanishing on P^2 × P^2'
     year: 2025
-    coauthors: ["Sanghyeon Lee", "Jun Li"]
-  - id: "2312.11197"
-    title: "A boundedness theorem for principal bundles on curves"
+    coauthors: ['Sanghyeon Lee', 'Jun Li']
+    primary_category: math.AG
+  - id: '2312.11197'
+    title: 'A boundedness theorem for principal bundles on curves'
     year: 2023
-    coauthors: ["Shuai Guo", "Jun Li", "Wei-Ping Li", "Yang Zhou"]
-  - id: "2312.11174"
-    title: "Stability conditions in the mathematical Gauged Linear Sigma Model"
+    coauthors: ['Shuai Guo', 'Jun Li', 'Wei-Ping Li', 'Yang Zhou']
+    primary_category: math.AG
+  - id: '2312.11174'
+    title: 'Stability conditions in the mathematical Gauged Linear Sigma Model'
     year: 2023
-    coauthors: ["Shuai Guo", "Jun Li", "Wei-Ping Li", "Yang Zhou"]
-  - id: "1907.06152"
-    title: "On the mathematics and physics of Mixed Spin P-Fields"
+    coauthors: ['Shuai Guo', 'Jun Li', 'Wei-Ping Li', 'Yang Zhou']
+    primary_category: math.AG
+  - id: '1907.06152'
+    title: 'On the mathematics and physics of Mixed Spin P-Fields'
     year: 2019
-    coauthors: ["Jun Li", "Wei-Ping Li", "Chiu-Chu Melissa Liu"]
-  - id: "1810.00394"
-    title: "BCOV's Feynman rule of quintic 3-folds"
+    coauthors: ['Jun Li', 'Wei-Ping Li', 'Chiu-Chu Melissa Liu']
+    journal: 'Proceedings of Symposia in Pure Mathematics, Vol 96, 2017'
+    primary_category: math.AG
+  - id: '1810.00394'
+    title: 'BCOV''s Feynman rule of quintic 3-folds'
     year: 2018
-    coauthors: ["Shuai Guo", "Jun Li"]
-  - id: "1809.11058"
-    title: "Polynomial structure of Gromov-Witten potential of quintic 3-folds via NMSP"
+    coauthors: ['Shuai Guo', 'Jun Li']
+    primary_category: math.AG
+  - id: '1809.11058'
+    title: 'Polynomial structure of Gromov-Witten potential of quintic 3-folds via NMSP'
     year: 2018
-    coauthors: ["Shuai Guo", "Jun Li"]
-    journal: "Ann. of Math. 194 (2021)"
-  - id: "1809.08806"
-    title: "The theory of N-Mixed-Spin-P fields"
+    coauthors: ['Shuai Guo', 'Jun Li']
+    journal: 'Ann. of Math. 194 (2021)'
+    primary_category: math.AG
+  - id: '1809.08806'
+    title: 'The theory of N-Mixed-Spin-P fields'
     year: 2018
-    coauthors: ["Shuai Guo", "Jun Li", "Wei-Ping Li"]
-  - id: "1806.00216"
-    title: "Algebraic virtual cycles for quantum singularity theories"
+    coauthors: ['Shuai Guo', 'Jun Li', 'Wei-Ping Li']
+    doi: '10.2140/gt.2021.25.775'
+    journal: 'Geom. Topol. 25 (2021) 775-811'
+    primary_category: math.AG
+  - id: '1806.00216'
+    title: 'Algebraic virtual cycles for quantum singularity theories'
     year: 2018
-    coauthors: ["Young-Hoon Kiem", "Jun Li"]
-  - id: "1804.05310"
-    title: "Invariants of stable quasimaps with fields"
+    coauthors: ['Young-Hoon Kiem', 'Jun Li']
+    primary_category: math.AG
+  - id: '1804.05310'
+    title: 'Invariants of stable quasimaps with fields'
     year: 2018
-    coauthors: ["Mu-lin Li"]
-  - id: "1711.10118"
-    title: "Genus one GW invariants of quintic threefolds via MSP localization"
+    coauthors: ['Mu-lin Li']
+    primary_category: math.AG
+  - id: '1711.10118'
+    title: 'Genus one GW invariants of quintic threefolds via MSP localization'
     year: 2017
-    coauthors: ["Shuai Guo", "Wei-Ping Li", "Jie Zhou"]
-  - id: "1708.02902"
-    title: "A vanishing associated with irregular MSP fields"
+    coauthors: ['Shuai Guo', 'Wei-Ping Li', 'Jie Zhou']
+    journal: 'International Mathematics Research Notices, Volume 2020, Issue 19, October 2020, Pages 6421-6462'
+    primary_category: math.AG
+  - id: '1708.02902'
+    title: 'A vanishing associated with irregular MSP fields'
     year: 2017
-    coauthors: ["Jun Li"]
-  - id: "1603.06184"
-    title: "An effective theory of GW and FJRW invariants of quintic Calabi-Yau manifolds"
+    coauthors: ['Jun Li']
+    primary_category: math.AG
+  - id: '1603.06184'
+    title: 'An effective theory of GW and FJRW invariants of quintic Calabi-Yau manifolds'
     year: 2016
-    coauthors: ["Jun Li", "Wei-Ping Li", "Chiu-Chu Melissa Liu"]
-  - id: "1603.02092"
-    title: "A survey on mixed spin P-fields"
+    coauthors: ['Jun Li', 'Wei-Ping Li', 'Chiu-Chu Melissa Liu']
+    primary_category: math.AG
+  - id: '1603.02092'
+    title: 'A survey on mixed spin P-fields'
     year: 2016
-    coauthors: ["Jun Li", "Wei-Ping Li", "Chiu-Chu Melissa Liu"]
-  - id: "1508.02769"
-    title: "Virtual Residue and an integral formalism"
+    coauthors: ['Jun Li', 'Wei-Ping Li', 'Chiu-Chu Melissa Liu']
+    journal: 'Chin. Ann. Math. Ser. B 38 (2017), no. 4, 869-882'
+    primary_category: math.AG
+  - id: '1508.02769'
+    title: 'Virtual Residue and an integral formalism'
     year: 2015
-    coauthors: ["Mu-Lin Li"]
-  - id: "1505.07532"
-    title: "Mixed-Spin-P fields of Fermat quintic polynomials"
+    coauthors: ['Mu-Lin Li']
+    primary_category: math.AG
+  - id: '1505.07532'
+    title: 'Mixed-Spin-P fields of Fermat quintic polynomials'
     year: 2015
-    coauthors: ["Jun Li", "Wei-Ping Li", "Chiu-Chu Melissa Liu"]
-    journal: "Camb. J. Math. (2019)"
-  - id: "1502.00078"
-    title: "Torus localization and wall crossing for cosection localized virtual cycles"
+    coauthors: ['Jun Li', 'Wei-Ping Li', 'Chiu-Chu Melissa Liu']
+    journal: 'Camb. J. Math. (2019)'
+    primary_category: math.AG
+  - id: '1502.00078'
+    title: 'Torus localization and wall crossing for cosection localized virtual cycles'
     year: 2015
-    coauthors: ["Young-Hoon Kiem", "Jun Li"]
-  - id: "1303.7126"
-    title: "Witten's top Chern class via cosection localization"
+    coauthors: ['Young-Hoon Kiem', 'Jun Li']
+    primary_category: math.AG
+  - id: '1303.7126'
+    title: 'Witten''s top Chern class via cosection localization'
     year: 2013
-    coauthors: ["Jun Li", "Wei-Ping Li"]
-    journal: "Invent. Math. (2015)"
-  - id: "1206.5390"
-    title: "An algebraic proof of the hyperplane property of the genus one GW-invariants of quintics"
+    coauthors: ['Jun Li', 'Wei-Ping Li']
+    journal: 'Invent. Math. (2015)'
+    primary_category: math.AG
+  - id: '1206.5390'
+    title: 'An algebraic proof of the hyperplane property of the genus one GW-invariants of quintics'
     year: 2012
-    coauthors: ["Jun Li"]
-  - id: "1205.0848"
-    title: "Poincare invariants are Seiberg-Witten invariants"
+    coauthors: ['Jun Li']
+    primary_category: math.AG
+  - id: '1205.0848'
+    title: 'Poincare invariants are Seiberg-Witten invariants'
     year: 2012
-    coauthors: ["Young-Hoon Kiem"]
-  - id: "1105.3261"
-    title: "Semi-Perfect Obstruction theory and DT Invariants of Derived Objects"
+    coauthors: ['Young-Hoon Kiem']
+    primary_category: math.AG
+  - id: '1105.3261'
+    title: 'Semi-Perfect Obstruction theory and DT Invariants of Derived Objects'
     year: 2011
-    coauthors: ["Jun Li"]
-  - id: "1101.0914"
-    title: "Gromov-Witten invariants of stable maps with fields"
+    coauthors: ['Jun Li']
+    primary_category: math.AG
+  - id: '1101.0914'
+    title: 'Gromov-Witten invariants of stable maps with fields'
     year: 2011
-    coauthors: ["Jun Li"]
-  - id: "0808.0988"
-    title: "Derived Kodaira Spencer map, Cosection lemma, and semiregularity"
+    coauthors: ['Jun Li']
+    primary_category: math.AG
+  - id: '0808.0988'
+    title: 'Derived Kodaira Spencer map, Cosection lemma, and semiregularity'
     year: 2008
     coauthors: []
-  - id: "0711.4529"
-    title: "Donaldson Thomas invariant of P^1 scroll"
+    primary_category: math.AG
+  - id: '0711.4529'
+    title: 'Donaldson Thomas invariant of P^1 scroll'
     year: 2007
     coauthors: []
+    primary_category: math.AG
 activity:
   total_papers: 23
-  active_period: "2007-present"
+  published_count: 7
+  preprint_only_count: 16
+  active_period: '2007-present'
 external_ids: {}
 links:
   homepage: "https://www.math.hkust.edu.hk/~mahlchang/"

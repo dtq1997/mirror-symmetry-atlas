@@ -30,62 +30,19 @@ advisor: brieskorn
 students: []
 key_collaborators: []
 activity:
-  total_papers: 129
+  total_papers: 44
+  published_count: 8
+  preprint_only_count: 36
   h_index: 13
-  active_period: 1992-present
+  active_period: '1992-present'
   phd_students: 4
-  quality_source: openalex + ruirui-2026
+  quality_source: 'openalex + ruirui-2026'
   t1_papers: 0
   t2_papers: 1
   t3_papers: 9
   t4_papers: 0
   other_papers: 112
-  venue_samples:
-  - name: Compositio Mathematica
-    tier: T2
-    count: 1
-  - name: Journal für die reine und angewandte Mathematik (Crelles Journal)
-    tier: T3
-    count: 3
-  - name: Journal of Algebraic Combinatorics
-    tier: T3
-    count: 2
-  - name: Advances in Mathematics
-    tier: T3
-    count: 1
-  - name: Algebra & Number Theory
-    tier: T3
-    count: 1
-  - name: Mathematische Annalen
-    tier: T3
-    count: 1
-  - name: ANNALI SCUOLA NORMALE SUPERIORE - CLASSE DI SCIENZE
-    tier: T3
-    count: 1
-  - name: arXiv (Cornell University)
-    tier: '-'
-    count: 29
-  - name: Lecture notes in mathematics
-    tier: '-'
-    count: 18
-  - name: Cambridge University Press eBooks
-    tier: '-'
-    count: 16
-  - name: ArXiv.org
-    tier: '-'
-    count: 10
-  - name: MADOC (University of Mannheim)
-    tier: '-'
-    count: 5
-  - name: Journal of Singularities
-    tier: '-'
-    count: 4
-  - name: Birkhäuser Basel eBooks
-    tier: '-'
-    count: 2
-  - name: Journal of Geometry and Physics
-    tier: '-'
-    count: 2
+  venue_samples: [{'name': 'Compositio Mathematica', 'tier': 'T2', 'count': 1}, {'name': 'Journal für die reine und angewandte Mathematik (Crelles Journal)', 'tier': 'T3', 'count': 3}, {'name': 'Journal of Algebraic Combinatorics', 'tier': 'T3', 'count': 2}, {'name': 'Advances in Mathematics', 'tier': 'T3', 'count': 1}, {'name': 'Algebra & Number Theory', 'tier': 'T3', 'count': 1}, {'name': 'Mathematische Annalen', 'tier': 'T3', 'count': 1}, {'name': 'ANNALI SCUOLA NORMALE SUPERIORE - CLASSE DI SCIENZE', 'tier': 'T3', 'count': 1}, {'name': 'arXiv (Cornell University)', 'tier': '-', 'count': 29}, {'name': 'Lecture notes in mathematics', 'tier': '-', 'count': 18}, {'name': 'Cambridge University Press eBooks', 'tier': '-', 'count': 16}, {'name': 'ArXiv.org', 'tier': '-', 'count': 10}, {'name': 'MADOC (University of Mannheim)', 'tier': '-', 'count': 5}, {'name': 'Journal of Singularities', 'tier': '-', 'count': 4}, {'name': 'Birkhäuser Basel eBooks', 'tier': '-', 'count': 2}, {'name': 'Journal of Geometry and Physics', 'tier': '-', 'count': 2}]
   oa_total_papers: 122
 external_ids:
   openalex: A5083694613
@@ -97,6 +54,238 @@ personal_notes: 'Brieskorn 的学生，与 K. Saito 同门。
   Frobenius manifolds 和 singularity theory 方向。tt* geometry 的专家。
 
   '
+publications:
+  - id: '2602.15748'
+    title: 'Conjugacy classes of regular integer matrices'
+    year: 2026
+    coauthors: ['Khadija Larabi']
+    primary_category: math.RA
+  - id: '2602.14973'
+    title: 'Semigroups from full lattices in commutative ${\mathbb Q}$-algebras'
+    year: 2026
+    coauthors: ['Khadija Larabi']
+    primary_category: math.RA
+  - id: '2508.15497'
+    title: 'Characterization of distinguished matrices of isolated hypersurface singularities through their spectral numbers'
+    year: 2025
+    coauthors: ['Sven Balnojan']
+    primary_category: math.AG
+  - id: '2501.08813'
+    title: 'Odd vanishing cycles in cyclotomic fields'
+    year: 2025
+    coauthors: ['Khadija Larabi']
+    primary_category: math.NT
+  - id: '2412.17638'
+    title: 'Mixed extensions of generic finite games embedded into products of real projective spaces'
+    year: 2024
+    coauthors: ['Matija Vujic']
+    primary_category: math.OC
+  - id: '2412.17890'
+    title: 'Maximal number of mixed Nash equilibria in generic games where each player has two pure strategies'
+    year: 2024
+    coauthors: ['Matija Vujic']
+    primary_category: math.CO
+  - id: '2412.16570'
+    title: 'Unimodular bilinear lattices, automorphism groups, vanishing cycles, monodromy groups, distinguished bases, braid group actions and moduli spaces from upper triangular matrices'
+    year: 2024
+    coauthors: ['Khadija Larabi']
+    primary_category: math.AG
+  - id: '2108.02295'
+    title: 'The combinatorics of weight systems and characteristic polynomials of isolated quasihomogeneous singularities'
+    year: 2021
+    coauthors: ['Makiko Mase']
+    primary_category: math.CO
+  - id: '2012.11443'
+    title: '3-dimensional F-manifolds'
+    year: 2020
+    coauthors: ['Alexey Basalaev']
+    doi: '10.1007/s11005-021-01432-y'
+    primary_category: math.DG
+  - id: '2011.10099'
+    title: 'Bilinear forms and hermitian forms for singularities: a survey'
+    year: 2020
+    coauthors: []
+    journal: 'Singularités (ed. D. Barlet), Institut Élie Cartan Nancy 18, 2005, 1-17'
+    primary_category: math.AG
+  - id: '2009.14314'
+    title: 'Rank 2 Bundles with Meromorphic Connections with Poles of Poincaré Rank 1'
+    year: 2020
+    coauthors: []
+    doi: '10.3842/SIGMA.2021.082'
+    journal: 'SIGMA 17 (2021), 082, 73 pages'
+    primary_category: math.AG
+  - id: '2009.08053'
+    title: 'The integral monodromy of isolated quasihomogeneous singularities'
+    year: 2020
+    coauthors: ['Makiko Mase']
+    doi: '10.2140/ant.2022.16.955'
+    journal: 'Alg. Number Th. 16 (2022) 955-1024'
+    primary_category: math.AG
+  - id: '2009.07533'
+    title: 'The integral monodromy of the cycle type singularities'
+    year: 2020
+    coauthors: ['Makiko Mase']
+    primary_category: math.AT
+  - id: '2001.01063'
+    title: '(TE)-structures over the irreducible 2-dimensional globally nilpotent F-manifold germ'
+    year: 2020
+    coauthors: ['Liana David']
+    primary_category: math.DG
+  - id: '1912.03331'
+    title: 'Meromorphic connections over F-manifolds'
+    year: 2019
+    coauthors: ['Liana David']
+    primary_category: math.DG
+  - id: '1811.03406'
+    title: '(T)-structures over 2-dimensional F-manifolds: formal classification'
+    year: 2018
+    coauthors: ['Liana David']
+    primary_category: math.DG
+  - id: '1806.00996'
+    title: 'Distinguished bases and Stokes regions for the simple and the simple elliptic singularities'
+    year: 2018
+    coauthors: ['C line Roucairol']
+    primary_category: math.AG
+  - id: '1801.08272'
+    title: 'Seven combinatorial problems around quasihomogeneous singularities'
+    year: 2018
+    coauthors: ['Philip Zilke']
+    primary_category: math.CO
+  - id: '1801.07924'
+    title: 'Automorphisms with eigenvalues in $S^1$ of a ${\mathbb Z}$-lattice with cyclic finite monodromy'
+    year: 2018
+    coauthors: []
+    primary_category: math.NT
+  - id: '1712.08389'
+    title: 'Potentials of a Frobenius like structure'
+    year: 2017
+    coauthors: ['Alexander Varchenko']
+    primary_category: math.AG
+  - id: '1712.00388'
+    title: 'Conjectures on spectral numbers for upper triangular matrices and for singularities'
+    year: 2017
+    coauthors: ['Sven Balnojan']
+    primary_category: math.AG
+  - id: '1712.00383'
+    title: 'Real Seifert forms and polarizing forms of Steenbrink mixed Hodge structures'
+    year: 2017
+    coauthors: ['Sven Balnojan']
+    primary_category: math.AG
+  - id: '1710.03507'
+    title: '$μ$-constant monodromy groups and Torelli results for the quadrangle singularities and the bimodal series'
+    year: 2017
+    coauthors: ['Falko Gauss']
+    primary_category: math.AG
+  - id: '1608.08423'
+    title: 'Potentials of a Frobenius like structure and $m$ bases of a vector space'
+    year: 2016
+    coauthors: ['Alexander Varchenko']
+    primary_category: math.AG
+  - id: '1604.07967'
+    title: 'Reduced and nonreduced presentations of Weyl group elements'
+    year: 2016
+    coauthors: ['Sven Balnojan']
+    primary_category: math.RT
+  - id: '1511.08660'
+    title: '$μ$-constant monodromy groups and Torelli results for marked singularities, for the unimodal and some bimodal singularities'
+    year: 2015
+    coauthors: ['Falko Gauss']
+    primary_category: math.AG
+  - id: '1511.06637'
+    title: 'Hermitian metrics on F-manifolds'
+    year: 2015
+    coauthors: ['Liana David']
+    doi: '10.1016/j.geomphys.2016.05.005'
+    primary_category: math.DG
+  - id: '1501.04812'
+    title: 'The Painlevé III equation of type (0,0,4,-4), its associated vector bundles with isomonodromic connections, and the geometry of the movable poles'
+    year: 2015
+    coauthors: ['Martin A. Guest']
+    primary_category: math.AG
+  - id: '1411.4553'
+    title: 'Regular F-manifolds: initial conditions and Frobenius metrics'
+    year: 2014
+    coauthors: ['Liana David']
+    primary_category: math.DG
+  - id: '1108.0546'
+    title: 'mu-constant monodromy groups and marked singularities'
+    year: 2011
+    coauthors: []
+    primary_category: math.AG
+  - id: '1009.0763'
+    title: 'On the classification of quasihomogeneous singularities'
+    year: 2010
+    coauthors: ['Ralf Kurbel']
+    journal: 'Journal of Singularities 4 (2012), 131-153'
+    primary_category: math.AG
+  - id: '0912.2754'
+    title: 'Examples of non-commutative Hodge structures'
+    year: 2009
+    coauthors: [sabbah]
+    doi: '10.1017/S147474801100003X'
+    journal: 'Journal of the Inst. of Math. Jussieu (2011) 10(3), 635--674'
+    primary_category: math.AG
+  - id: '0905.3304'
+    title: 'Frobenius manifolds, projective special geometry and Hitchin systems'
+    year: 2009
+    coauthors: ['Luuk Hoevenaars', 'Hessel Posthuma']
+    primary_category: math.AG
+  - id: '0807.2199'
+    title: 'Twistor structures, tt*-geometry and singularity theory'
+    year: 2008
+    coauthors: ['Christian Sevenheck']
+    primary_category: math.AG
+  - id: '0805.4777'
+    title: 'Limits of families of Brieskorn lattices and compactified classifying spaces'
+    year: 2008
+    coauthors: ['Christian Sevenheck']
+    primary_category: math.AG
+  - id: '0712.3691'
+    title: 'Curvature of classifying spaces for Brieskorn lattices'
+    year: 2007
+    coauthors: ['Christian Sevenheck']
+    doi: '10.1016/j.geomphys.2008.07.008'
+    primary_category: math.AG
+  - id: '0603564'
+    title: 'Nilpotent orbits of a generalization of Hodge structures'
+    year: 2006
+    coauthors: ['Christian Sevenheck']
+    primary_category: math.AG
+  - id: '0405501'
+    title: 'Bernoulli moments of spectral numbers and Hodge numbers'
+    year: 2004
+    coauthors: ['Thomas Br livet']
+    primary_category: math.AG
+  - id: '0207089'
+    title: 'Unfoldings of meromorphic connections and a construction of Frobenius manifolds'
+    year: 2002
+    coauthors: [manin-yuri]
+    primary_category: math.AG
+  - id: '0203054'
+    title: 'tt* geometry, Frobenius manifolds, their connections, and the construction for singularities'
+    year: 2002
+    coauthors: []
+    primary_category: math.AG
+  - id: '0101194'
+    title: 'Semistable bundles on curves and reducible representations of the fundamental group'
+    year: 2001
+    coauthors: ['H l ne Esnault']
+    primary_category: math.AG
+  - id: '0007187'
+    title: 'Variance of the spectral numbers'
+    year: 2000
+    coauthors: []
+    primary_category: math.CV
+  - id: '9910116'
+    title: 'Multiplication on the tangent bundle'
+    year: 1999
+    coauthors: []
+    primary_category: math.AG
+  - id: '9810132'
+    title: 'Weak Frobenius manifolds'
+    year: 1998
+    coauthors: [manin-yuri]
+    primary_category: math.QA
 sources:
 - label: Math Genealogy
   url: https://www.mathgenealogy.org/id.php?id=27291

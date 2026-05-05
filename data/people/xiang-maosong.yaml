@@ -75,115 +75,103 @@ key_collaborators:
   papers_count: 2
   notes: 河南师范大学
 publications:
-- id: '2511.10082'
-  title: Infinitesimal deformations of Lie algebroid pairs
-  year: 2025
-  coauthors:
-  - Dadi Ni
-  - chen-zhuo
-  - hu-chuangqiang
-- id: '2412.09039'
-  title: From smooth dynamical twists to twistors of quantum groupoids
-  year: 2024
-  coauthors:
-  - Jiahao Cheng
-  - chen-zhuo
-  - Yu Qiao
-- id: '2309.04180'
-  title: The geometric constraints on Filippov algebroids
-  year: 2023
-  coauthors:
-  - Yanhui Bi
-  - Zhixiong Chen
-  - chen-zhuo
-- id: '2210.01999'
-  title: Locally finite infinity-modules and weak Loday-Pirashvili modules over differential graded Lie algebras
-  year: 2022
-  coauthors:
-  - chen-zhuo
-  - Yu Qiao
-  - Tao Zhang
-- id: '2206.10091'
-  title: Dirac generating operators of split Courant algebroids
-  year: 2022
-  coauthors:
-  - Liqiang Cai
-  - chen-zhuo
-  - Honglei Lang
-- id: '2110.11623'
-  title: Dg Loday-Pirashvili modules over Lie algebras
-  year: 2021
-  coauthors:
-  - chen-zhuo
-  - Yu Qiao
-  - Tao Zhang
-- id: '2110.04720'
-  title: Atiyah and Todd classes of regular Lie algebroids
-  year: 2021
-  coauthors: []
-- id: '2105.15019'
-  title: The standard cohomology of regular Courant algebroids
-  year: 2021
-  coauthors:
-  - Xiongwei Cai
-  - chen-zhuo
-- id: '2103.08096'
-  title: Hochschild cohomology of dg manifolds associated to integrable distributions
-  year: 2021
-  coauthors:
-  - chen-zhuo
-  - Ping Xu
-- id: '2003.03553'
-  title: Cohomology of hemistrict Lie 2-algebras
-  year: 2020
-  coauthors:
-  - Xiongwei Cai
-  - Zhangju Liu
-- id: '1808.08576'
-  title: Kapranov's construction of sh Leibniz algebras
-  year: 2018
-  coauthors:
-  - chen-zhuo
-  - Zhangju Liu
-- id: '1711.11253'
-  title: Atiyah and Todd classes arising from integrable distributions
-  year: 2017
-  coauthors:
-  - chen-zhuo
-  - Ping Xu
-  journal: J. Geom. Phys. (2018)
-- id: '1609.00984'
-  title: Atiyah classes of strongly homotopy Lie pairs
-  year: 2016
-  coauthors:
-  - chen-zhuo
-  - Honglei Lang
-  journal: Algebra Colloquium
+  - id: '2512.03860'
+    title: 'Infinitesimal deformations of Lie algebroid pairs'
+    year: 2025
+    coauthors: [ni-dadi, chen-zhuo, hu-chuangqiang]
+    primary_category: math.DG
+  - id: '2412.09039'
+    title: 'From smooth dynamical twists to twistors of quantum groupoids'
+    year: 2024
+    coauthors: ['Jiahao Cheng', chen-zhuo, 'Yu Qiao']
+    journal: 'Journal of Geometry and Physics, 219 (2026)'
+    primary_category: math.QA
+  - id: '2309.04180'
+    title: 'The geometric constraints on Filippov algebroids'
+    year: 2023
+    coauthors: ['Yanhui Bi', 'Zhixiong Chen', chen-zhuo]
+    doi: '10.3934/math.2024539'
+    journal: 'AIMS Mathematics, 2024, 9(5):11007-11023'
+    primary_category: math.RA
+  - id: '2210.01999'
+    title: 'Locally finite infinity-modules and weak Loday-Pirashvili modules over differential graded Lie algebras'
+    year: 2022
+    coauthors: [chen-zhuo, 'Yu Qiao', 'Tao Zhang']
+    primary_category: math.RT
+  - id: '2206.10091'
+    title: 'Dirac generating operators of split Courant algebroids'
+    year: 2022
+    coauthors: ['Liqiang Cai', chen-zhuo, 'Honglei Lang']
+    primary_category: math.DG
+  - id: '2110.11623'
+    title: 'Dg Loday-Pirashvili modules over Lie algebras'
+    year: 2021
+    coauthors: [chen-zhuo, 'Yu Qiao', 'Tao Zhang']
+    doi: '10.1007/s40062-024-00361-6'
+    journal: 'Journal of Homotopy and Related Structures, 2025'
+    primary_category: math.RA
+  - id: '2110.04720'
+    title: 'Atiyah and Todd classes of regular Lie algebroids'
+    year: 2021
+    coauthors: []
+    primary_category: math.DG
+  - id: '2105.15019'
+    title: 'The standard cohomology of regular Courant algebroids'
+    year: 2021
+    coauthors: ['Xiongwei Cai', chen-zhuo]
+    doi: '10.1016/j.aim.2022.108776'
+    journal: 'Adv. Math. 411 (2022)'
+    primary_category: math.DG
+  - id: '2103.08096'
+    title: 'Hochschild cohomology of dg manifolds associated to integrable distributions'
+    year: 2021
+    coauthors: [chen-zhuo, 'Ping Xu']
+    doi: '10.1007/s00220-022-04473-z'
+    primary_category: math.DG
+  - id: '2003.03553'
+    title: 'Cohomology of hemistrict Lie 2-algebras'
+    year: 2020
+    coauthors: ['Xiongwei Cai', 'Zhangju Liu']
+    doi: '10.1080/00927872.2020.1737869'
+    journal: 'Communications in Algebra (2020)'
+    primary_category: math.RA
+  - id: '1808.08576'
+    title: 'Kapranov''s construction of sh Leibniz algebras'
+    year: 2018
+    coauthors: [chen-zhuo, 'Zhangju Liu']
+    doi: '10.4310/HHA.2020.v22.n1.a9'
+    journal: 'Homology, Homotopy and Applications, vol.22(1), 2020'
+    primary_category: math.QA
+  - id: '1711.11253'
+    title: 'Atiyah and Todd classes arising from integrable distributions'
+    year: 2017
+    coauthors: [chen-zhuo, 'Ping Xu']
+    doi: '10.1016/j.geomphys.2018.10.011'
+    journal: 'Journal of Geometry and Physics 136 (2019)'
+    primary_category: math.DG
+  - id: '1609.00984'
+    title: 'Atiyah classes of strongly homotopy Lie pairs'
+    year: 2016
+    coauthors: [chen-zhuo, 'Honglei Lang']
+    doi: '10.1142/S1005386719000178'
+    journal: 'Algebra Colloquium 2019'
+    primary_category: math.QA
+  - id: '2511.10082'
+    title: 'Infinitesimal deformations of Lie algebroid pairs'
+    year: 2025
+    coauthors: ['Dadi Ni', chen-zhuo, hu-chuangqiang]
 activity:
-  total_papers: 13
-  active_period: 2016-present
-  quality_source: openalex + ruirui-2026
+  total_papers: 14
+  published_count: 9
+  preprint_only_count: 5
+  active_period: '2016-present'
+  quality_source: 'openalex + ruirui-2026'
   t1_papers: 0
   t2_papers: 1
   t3_papers: 2
   t4_papers: 0
   other_papers: 16
-  venue_samples:
-  - name: Science China Mathematics
-    tier: T2
-    count: 1
-  - name: Communications in Mathematical Physics
-    tier: T3
-    count: 1
-  - name: Advances in Mathematics
-    tier: T3
-    count: 1
-  - name: arXiv (Cornell University)
-    tier: '-'
-    count: 8
-  - name: Journal of Geometry and Physics
-    tier: '-'
-    count: 3
+  venue_samples: [{'name': 'Science China Mathematics', 'tier': 'T2', 'count': 1}, {'name': 'Communications in Mathematical Physics', 'tier': 'T3', 'count': 1}, {'name': 'Advances in Mathematics', 'tier': 'T3', 'count': 1}, {'name': 'arXiv (Cornell University)', 'tier': '-', 'count': 8}, {'name': 'Journal of Geometry and Physics', 'tier': '-', 'count': 3}]
   oa_total_papers: 19
 external_ids:
   openalex: A5042553753

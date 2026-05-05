@@ -56,62 +56,19 @@ key_collaborators:
   topic: Painlevé equations, reflection groups
   papers_count: 7
 activity:
-  total_papers: 115
+  total_papers: 29
+  published_count: 10
+  preprint_only_count: 19
   h_index: 21
-  active_period: 1998-present
+  active_period: '1998-present'
   phd_students: 4
-  quality_source: openalex + ruirui-2026
+  quality_source: 'openalex + ruirui-2026'
   t1_papers: 1
   t2_papers: 3
   t3_papers: 14
   t4_papers: 2
   other_papers: 91
-  venue_samples:
-  - name: Inventiones mathematicae
-    tier: T1
-    count: 1
-  - name: Russian Mathematical Surveys
-    tier: T2
-    count: 2
-  - name: Progress in Particle and Nuclear Physics
-    tier: T2
-    count: 1
-  - name: Physics Letters B
-    tier: T3
-    count: 3
-  - name: Communications in Mathematical Physics
-    tier: T3
-    count: 3
-  - name: Advances in Mathematics
-    tier: T3
-    count: 3
-  - name: The Astrophysical Journal
-    tier: T3
-    count: 2
-  - name: Mathematische Annalen
-    tier: T3
-    count: 1
-  - name: Studies in Applied Mathematics
-    tier: T3
-    count: 1
-  - name: Journal of the London Mathematical Society
-    tier: T3
-    count: 1
-  - name: Physical review. C
-    tier: T4
-    count: 2
-  - name: arXiv (Cornell University)
-    tier: '-'
-    count: 23
-  - name: EPJ Web of Conferences
-    tier: '-'
-    count: 5
-  - name: ArXiv.org
-    tier: '-'
-    count: 5
-  - name: Nonlinearity
-    tier: '-'
-    count: 3
+  venue_samples: [{'name': 'Inventiones mathematicae', 'tier': 'T1', 'count': 1}, {'name': 'Russian Mathematical Surveys', 'tier': 'T2', 'count': 2}, {'name': 'Progress in Particle and Nuclear Physics', 'tier': 'T2', 'count': 1}, {'name': 'Physics Letters B', 'tier': 'T3', 'count': 3}, {'name': 'Communications in Mathematical Physics', 'tier': 'T3', 'count': 3}, {'name': 'Advances in Mathematics', 'tier': 'T3', 'count': 3}, {'name': 'The Astrophysical Journal', 'tier': 'T3', 'count': 2}, {'name': 'Mathematische Annalen', 'tier': 'T3', 'count': 1}, {'name': 'Studies in Applied Mathematics', 'tier': 'T3', 'count': 1}, {'name': 'Journal of the London Mathematical Society', 'tier': 'T3', 'count': 1}, {'name': 'Physical review. C', 'tier': 'T4', 'count': 2}, {'name': 'arXiv (Cornell University)', 'tier': '-', 'count': 23}, {'name': 'EPJ Web of Conferences', 'tier': '-', 'count': 5}, {'name': 'ArXiv.org', 'tier': '-', 'count': 5}, {'name': 'Nonlinearity', 'tier': '-', 'count': 3}]
   oa_total_papers: 111
 external_ids:
   openalex: A5037371489
@@ -124,6 +81,167 @@ personal_notes: 'Quantum cluster algebras + Painlevé 方向的专家。
   与 Xu 无共著但主题高度相关——潜在合作方向。
 
   '
+publications:
+  - id: '2603.18842'
+    title: 'Decorated Local Systems and Character Varieties'
+    year: 2026
+    coauthors: ['Benedetta Facciotti', 'Nikita Nikolaev']
+    primary_category: math.AG
+  - id: '2407.17366'
+    title: 'Automorphisms of the DAHA of type $\check{C_1}C_1$ and non-symmetric Askey-Wilson functions'
+    year: 2024
+    coauthors: ['Tom H. Koornwinder']
+    doi: '10.1016/j.indag.2025.05.005'
+    journal: 'Indag. Math. (N.S.) 36 (2025), 1795-1829'
+    primary_category: math.CA
+  - id: '2405.10541'
+    title: 'Segre surfaces and geometry of the Painlevé equations'
+    year: 2024
+    coauthors: ['Nalini Joshi', 'Pieter Roffelsen']
+    primary_category: math-ph
+  - id: '2307.06803'
+    title: 'Generalized double affine Hecke algebras, their representations, and higher Teichmüller theory'
+    year: 2023
+    coauthors: ['Davide Dal Martello']
+    doi: '10.1016/j.aim.2024.109763'
+    journal: 'Adv. Math. 450 (2024) 109763'
+    primary_category: math.QA
+  - id: '2106.13760'
+    title: 'Isomonodromic deformations: Confluence, Reduction $\&$ Quantisation'
+    year: 2021
+    coauthors: ['Ilia Gaiur', 'Vladimir Rubtsov']
+    primary_category: math.AG
+  - id: '2012.11010'
+    title: 'The Sigma Form for the PII Hierarchy'
+    year: 2020
+    coauthors: ['Irina Bobrova']
+    doi: '10.1016/j.geomphys.2021.104271'
+    primary_category: nlin.SI
+  - id: '1905.02772'
+    title: 'Quantised Painlevé monodromy manifolds, Sklyanin and Calabi-Yau algebras'
+    year: 2019
+    coauthors: ['Leonid Chekhov', 'Volodya Rubtsov']
+    primary_category: math.QA
+  - id: '1803.02775'
+    title: 'Dualities in the $q$-Askey scheme and degenerate DAHA'
+    year: 2018
+    coauthors: ['Tom H. Koornwinder']
+    doi: '10.1111/sapm.12229'
+    journal: 'STUDIES IN APPLIED MATHEMATICS 2018'
+    primary_category: math.CA
+  - id: '1705.03295'
+    title: 'Finite orbits of the pure braid group on the monodromy of the $2$-variable Garnier system'
+    year: 2017
+    coauthors: [li-ao]
+    primary_category: math.CA
+  - id: '1705.01447'
+    title: 'Algebras of quantum monodromy data and decorated character varieties'
+    year: 2017
+    coauthors: ['Leonid Chekhov', 'Vladimir Rubtsov']
+    primary_category: math.AG
+  - id: '1603.03770'
+    title: 'Embedding of the rank 1 DAHA into Mat(2,Tq) and its automorphisms'
+    year: 2016
+    coauthors: []
+    primary_category: math.RT
+  - id: '1511.03851'
+    title: 'Painlevé monodromy manifolds, decorated character varieties and cluster algebras'
+    year: 2015
+    coauthors: ['Leonid Chekhov', 'Vladimir Rubtsov']
+    primary_category: math-ph
+  - id: '1509.07044'
+    title: 'Colliding holes in Riemann surfaces and quantum cluster algebras'
+    year: 2015
+    coauthors: ['Leonid Chekhov']
+    primary_category: math-ph
+  - id: '1409.4287'
+    title: 'Non-Symmetric Basic Hypergeometric Polynomials and Representation Theory for Confluent Cherednik Algebras'
+    year: 2014
+    coauthors: []
+    doi: '10.3842/SIGMA.2014.116'
+    journal: 'SIGMA 10 (2014), 116, 10 pages'
+    primary_category: math.QA
+  - id: '1404.0988'
+    title: 'On a Poisson space of bilinear forms with a Poisson Lie action'
+    year: 2014
+    coauthors: ['Leonid Chekhov']
+    primary_category: math.QA
+  - id: '1309.3493'
+    title: 'Quantum ordering for quantum geodesic functions of orbifold Riemann surfaces'
+    year: 2013
+    coauthors: ['Leonid Chekhov']
+    primary_category: math.QA
+  - id: '1307.6140'
+    title: 'Confluences of the Painleve equations, Cherednik algebras and q-Askey scheme'
+    year: 2013
+    coauthors: []
+    primary_category: math.QA
+  - id: '1212.6723'
+    title: 'Confluence on the Painlevé Monodromy Manifolds, their Poisson Structure and Quantisation'
+    year: 2012
+    coauthors: ['Vladimir Rubtsov']
+    primary_category: math-ph
+  - id: '1105.4501'
+    title: 'Teichmüller spaces as degenerated symplectic leaves in Dubrovin--Ugaglia Poisson manifolds'
+    year: 2011
+    coauthors: ['Leonid Chekhov']
+    doi: '10.1016/j.physd.2011.09.018'
+    primary_category: math-ph
+  - id: '1012.5251'
+    title: 'Poisson algebras of block-upper-triangular bilinear forms and braid group action'
+    year: 2010
+    coauthors: ['Leonid Chekhov']
+    primary_category: math-ph
+  - id: '1011.6036'
+    title: 'Cubic and quartic transformations of the sixth Painleve equation in terms of Riemann-Hilbert correspondence'
+    year: 2010
+    coauthors: ['Raimundas Vidunas']
+    doi: '10.1111/j.1467-9590.2012.00562.x'
+    journal: 'Studies in Applied Mathematics, Vol. 130 (2013), pg. 17-48'
+    primary_category: nlin.SI
+  - id: '1007.3854'
+    title: 'Shear coordinate description of the quantised versal unfolding of D_4 singularity'
+    year: 2010
+    coauthors: ['Leonid Chekhov']
+    doi: '10.1088/1751-8113/43/44/442002'
+    primary_category: math-ph
+  - id: '0909.5350'
+    title: 'Isomonodromic deformations and twisted Yangians arising in Teichmüller theory'
+    year: 2009
+    coauthors: ['Leonid Chekhov']
+    primary_category: math.AG
+  - id: '0701029'
+    title: 'A remark on the Hankel determinant formula for solutions of the Toda equation'
+    year: 2007
+    coauthors: ['Kenji Kajiwara', 'Yasuhiro Ohta']
+    doi: '10.1088/1751-8113/40/42/S11'
+    primary_category: nlin.SI
+  - id: '0610066'
+    title: 'The Hamiltonian Structure of the Second Painleve Hierarchy'
+    year: 2006
+    coauthors: ['Man Yue Mo']
+    doi: '10.1088/0951-7715/20/12/006'
+    primary_category: nlin.SI
+  - id: '0512041'
+    title: 'Generating Function Associated with the Hankel Determinant Formula for the Solutions of the Painlevé IV Equation'
+    year: 2005
+    coauthors: ['Nalini Joshi', 'Kenji Kajiwara']
+    primary_category: nlin.SI
+  - id: '0406035'
+    title: 'Generating Function Associated with the Determinant Formula for the Solutions of the Painleve'' II Equation'
+    year: 2004
+    coauthors: ['Nalini Joshi', 'Kenji Kajiwara']
+    primary_category: nlin.SI
+  - id: '0311261'
+    title: 'Canonical structure and symmetries of the Schlesinger equations'
+    year: 2003
+    coauthors: [dubrovin]
+    primary_category: math.DG
+  - id: '0106208'
+    title: 'The geometry of the classical solutions of the Garnier systems'
+    year: 2001
+    coauthors: []
+    primary_category: math.CA
 sources:
 - label: Math Genealogy
   url: https://www.mathgenealogy.org/id.php?id=51294

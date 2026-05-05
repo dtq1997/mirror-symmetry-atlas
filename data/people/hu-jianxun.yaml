@@ -128,64 +128,131 @@ key_collaborators:
     topic: "Quantum cohomology of blow-ups of quadrics, mirror symmetry for blowups of Grassmannians"
     papers_count: 2
 publications:
-  - id: "2509.06004"
-    title: "Refined floor diagrams relative to a conic and Caporaso-Harris type formula"
+  - id: '2509.06004'
+    title: 'Refined floor diagrams relative to a conic and Caporaso-Harris type formula'
     year: 2025
-    coauthors: ["Yanqiao Ding"]
-  - id: "2502.13558"
-    title: "On the quantum cohomology of blow-ups of four-dimensional quadrics"
+    coauthors: ['Yanqiao Ding']
+    primary_category: math.AG
+  - id: '2502.13558'
+    title: 'On the quantum cohomology of blow-ups of four-dimensional quadrics'
     year: 2025
-    coauthors: [ke-huazhong, li-changzheng, "Lei Song"]
-    journal: "Acta Math. Sin. (Engl. Ser.) 40 (2024), no. 1, 313-328"
-  - id: "2502.13545"
-    title: "Mirror symmetry for certain blowups of Grassmannians"
+    coauthors: [ke-huazhong, li-changzheng, 'Lei Song']
+    journal: 'Acta Math. Sin. (Engl. Ser.) 40 (2024), no. 1, 313-328'
+    primary_category: math.AG
+  - id: '2502.13545'
+    title: 'Mirror symmetry for certain blowups of Grassmannians'
     year: 2025
-    coauthors: [ke-huazhong, li-changzheng, "Lei Song"]
-  - id: "2405.16987"
-    title: "On Galkin's Lower Bound Conjecture"
+    coauthors: [ke-huazhong, li-changzheng, 'Lei Song']
+    primary_category: math.AG
+  - id: '2501.04984'
+    title: 'Reduction properties of the KP-mKP hierarchy'
+    year: 2025
+    coauthors: ['Lumin Geng', 'Chao-Zhong Wu']
+    primary_category: nlin.SI
+  - id: '2405.16987'
+    title: 'On Galkin''s Lower Bound Conjecture'
     year: 2024
-    coauthors: [ke-huazhong, li-changzheng, "Zhitong Su"]
-  - id: "2405.16979"
-    title: "Revisiting Gamma conjecture I: counterexamples and modifications"
+    coauthors: [ke-huazhong, li-changzheng, 'Zhitong Su']
+    primary_category: math.AG
+  - id: '2405.16979'
+    title: 'Revisiting Gamma conjecture I: counterexamples and modifications'
     year: 2024
-    coauthors: ["Sergey Galkin", "Hiroshi Iritani", ke-huazhong, li-changzheng, "Zhitong Su"]
-  - id: "1901.01748"
-    title: "Gamma conjecture I for del Pezzo surfaces"
+    coauthors: ['Sergey Galkin', 'Hiroshi Iritani', ke-huazhong, li-changzheng, 'Zhitong Su']
+    primary_category: math.AG
+  - id: '2311.07341'
+    title: 'A KP-mKP Hierarchy via Operators with Two Derivations'
+    year: 2023
+    coauthors: ['Lumin Geng', 'Chao-Zhong Wu']
+    primary_category: nlin.SI
+  - id: '1901.01748'
+    title: 'Gamma conjecture I for del Pezzo surfaces'
     year: 2019
-    coauthors: [ke-huazhong, li-changzheng, "Tuo Yang"]
-    journal: "Adv. Math. (2021)"
-  - id: "1712.01478"
-    title: "Weighted blowup correspondence of orbifold Gromov-Witten invariants and applications"
+    coauthors: [ke-huazhong, li-changzheng, 'Tuo Yang']
+    journal: 'Adv. Math. (2021)'
+    primary_category: math.AG
+  - id: '1712.01478'
+    title: 'Weighted blowup correspondence of orbifold Gromov-Witten invariants and applications'
     year: 2017
-    coauthors: ["Bohui Chen", "Cheng-Yong Du"]
-    journal: "Math. Ann."
-  - id: "1609.05655"
-    title: "Welschinger invariants of Blow-ups of symplectic 4-manifolds"
+    coauthors: ['Bohui Chen', 'Cheng-Yong Du']
+    journal: 'Math. Ann.'
+    primary_category: math.SG
+  - id: '1609.05655'
+    title: 'Welschinger invariants of Blow-ups of symplectic 4-manifolds'
     year: 2016
-    coauthors: ["Yanqiao Ding"]
-  - id: "1504.07111"
-    title: "The Weinstein Conjecture in Product of Symplectic Manifolds"
+    coauthors: ['Yanqiao Ding']
+    primary_category: math.SG
+  - id: '1504.07111'
+    title: 'The Weinstein Conjecture in Product of Symplectic Manifolds'
     year: 2015
-    coauthors: ["Yanqiao Ding"]
-  - id: "1406.2472"
-    title: "The Gromov-Witten invariants of the Hilbert schemes of points on surfaces with $p_g > 0$"
+    coauthors: ['Yanqiao Ding']
+    primary_category: math.SG
+  - id: '1406.2472'
+    title: 'The Gromov-Witten invariants of the Hilbert schemes of points on surfaces with $p_g > 0$'
     year: 2014
-    coauthors: ["Wei-Ping Li", "Zhenbo Qin"]
-  - id: "1402.4221"
-    title: "Blow-up formulae of high genus Gromov-Witten invariants in dimension six"
+    coauthors: ['Wei-Ping Li', 'Zhenbo Qin']
+    primary_category: math.AG
+  - id: '1402.4221'
+    title: 'Blow-up formulae of high genus Gromov-Witten invariants in dimension six'
     year: 2014
-    coauthors: [he-weiqiang, ke-huazhong, "Xiaoxia Qi"]
-  - id: "1308.3634"
-    title: "Orbifold Gromov-Witten invariants of weighted blow-up at smooth points"
+    coauthors: [he-weiqiang, ke-huazhong, 'Xiaoxia Qi']
+    primary_category: math.AG
+  - id: '1308.3634'
+    title: 'Orbifold Gromov-Witten invariants of weighted blow-up at smooth points'
     year: 2013
     coauthors: [he-weiqiang]
-  - id: "1108.5892"
-    title: "Local Donaldson-Thomas invariants of Blowups of surfaces"
+    primary_category: math.SG
+  - id: '1110.0953'
+    title: 'Delocalized Chern character for stringy orbifold K-theory'
+    year: 2011
+    coauthors: ['Bai-Ling Wang']
+    primary_category: math.AT
+  - id: '1108.5892'
+    title: 'Local Donaldson-Thomas invariants of Blowups of surfaces'
     year: 2011
     coauthors: []
+    primary_category: math.AG
+  - id: '1006.4233'
+    title: 'Local Gromov-Witten invariants of Blowups of Fano surfaces'
+    year: 2010
+    coauthors: []
+    doi: '10.1016/j.geomphys.2011.02.004'
+    primary_category: math.AG
+  - id: '0802.0590'
+    title: 'Positive divisors in symplectic geometry'
+    year: 2008
+    coauthors: [ruan-yongbin]
+    primary_category: math.SG
+  - id: '0611592'
+    title: 'Birational cobordism invariance of uniruled symplectic manifolds'
+    year: 2006
+    coauthors: ['Tian-Jun Li', ruan-yongbin]
+    doi: '10.1007/s00222-007-0097-3'
+    primary_category: math.SG
+  - id: '0505542'
+    title: 'The Donaldson-Thomas invariants under blowups and flops'
+    year: 2005
+    coauthors: ['Wei-Ping Li']
+    primary_category: math.AG
+  - id: '0302022'
+    title: 'Mukai Flop and Ruan Cohomology'
+    year: 2003
+    coauthors: ['Wanchuan Zhang']
+    primary_category: math.AG
+  - id: '9810081'
+    title: 'Gromov-Witten Invariants of Blow-ups Along Points and Curces'
+    year: 1998
+    coauthors: []
+    primary_category: math.AG
+  - id: '9612184'
+    title: 'Topological quantum field theory and crossing number'
+    year: 1996
+    coauthors: ['Zhujun Zheng', 'Ke Wu', 'Shikun Wang']
+    primary_category: hep-th
 activity:
-  total_papers: 19
-  active_period: "1995-present"
+  total_papers: 23
+  published_count: 5
+  preprint_only_count: 18
+  active_period: '1995-present'
 external_ids: {}
 links:
   homepage: "https://math.sysu.edu.cn/teacher/484"

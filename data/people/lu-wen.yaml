@@ -50,42 +50,56 @@ key_collaborators:
     papers_count: 1
     notes: "Syracuse University"
 publications:
-  - id: "2603.04842"
-    title: "Bergman kernels and Poincaré series"
+  - id: '2603.04842'
+    title: 'Bergman kernels and Poincaré series'
     year: 2026
-    coauthors: ["Louis Ioos", "Xiaonan Ma", "George Marinescu"]
-  - id: "2012.12019"
-    title: "Bergman kernels and equidistribution for sequences of line bundles on Kähler manifolds"
+    coauthors: ['Louis Ioos', 'Xiaonan Ma', 'George Marinescu']
+    primary_category: math.DG
+  - id: '2012.12019'
+    title: 'Bergman kernels and equidistribution for sequences of line bundles on Kähler manifolds'
     year: 2020
-    coauthors: ["Dan Coman", "Xiaonan Ma", "George Marinescu"]
-  - id: "1703.06420"
-    title: "Berezin-Toeplitz quantization for eigenstates of the Bochner-Laplacian on symplectic manifolds"
+    coauthors: ['Dan Coman', 'Xiaonan Ma', 'George Marinescu']
+    primary_category: math.CV
+  - id: '1703.06420'
+    title: 'Berezin-Toeplitz quantization for eigenstates of the Bochner-Laplacian on symplectic manifolds'
     year: 2017
-    coauthors: ["Louis Ioos", "Xiaonan Ma", "George Marinescu"]
-  - id: "1703.05276"
-    title: "Donaldson's Q-operators for symplectic manifolds"
+    coauthors: ['Louis Ioos', 'Xiaonan Ma', 'George Marinescu']
+    primary_category: math.DG
+  - id: '1703.05276'
+    title: 'Donaldson''s Q-operators for symplectic manifolds'
     year: 2017
-    coauthors: ["Xiaonan Ma", "George Marinescu"]
-  - id: "1702.00974"
-    title: "Optimal convergence speed of Bergman metrics on symplectic manifolds"
+    coauthors: ['Xiaonan Ma', 'George Marinescu']
+    doi: '10.1007/s11425-016-9047-6'
+    journal: 'Sci. China Math. 60 (2017), no. 6, 1047-1056'
+    primary_category: math.DG
+  - id: '1702.00974'
+    title: 'Optimal convergence speed of Bergman metrics on symplectic manifolds'
     year: 2017
-    coauthors: ["Xiaonan Ma", "George Marinescu"]
-  - id: "1212.6034"
-    title: "The second coefficient of the asymptotic expansion of the Bergman kernel of the Hodge-Dolbeault operator"
+    coauthors: ['Xiaonan Ma', 'George Marinescu']
+    doi: '10.4310/JSG.2020.v18.n4.a5'
+    journal: 'Journal of Symplectic Geometry, Volume 18, Number 4, 1091-1126, 2020'
+    primary_category: math.DG
+  - id: '1212.6034'
+    title: 'The second coefficient of the asymptotic expansion of the Bergman kernel of the Hodge-Dolbeault operator'
     year: 2012
     coauthors: []
-  - id: "1205.4665"
-    title: "A Thom-Smale-Witten theorem on manifolds with boundary"
+    primary_category: math.DG
+  - id: '1205.4665'
+    title: 'A Thom-Smale-Witten theorem on manifolds with boundary'
     year: 2012
     coauthors: []
-  - id: "1205.3437"
-    title: "Equivariant Morse inequalities and applications"
+    primary_category: math.DG
+  - id: '1205.3437'
+    title: 'Equivariant Morse inequalities and applications'
     year: 2012
     coauthors: []
+    primary_category: math.DG
 activity:
   total_papers: 8
-  active_period: "2012-present"
-  notes: "仅数学几何方向论文；arXiv 上另有一位 Wen Lu 做 SDE/BSDE，不是同一人"
+  published_count: 2
+  preprint_only_count: 6
+  active_period: '2012-present'
+  notes: '仅数学几何方向论文；arXiv 上另有一位 Wen Lu 做 SDE/BSDE，不是同一人'
 external_ids: {}
 links:
   homepage: "http://faculty.hust.edu.cn/luwen/zh_CN/index.htm"

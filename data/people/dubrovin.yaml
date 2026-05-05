@@ -76,65 +76,22 @@ key_collaborators:
   topic: Painlevé equations, reflection groups
   papers_count: 7
 activity:
-  total_papers: 205
+  total_papers: 50
+  published_count: 21
+  preprint_only_count: 29
   h_index: 45
   mathscinet_citations: 5000
-  active_period: 1974-2019
-  peak_period: 1994-2010
+  active_period: '1974-2019'
+  peak_period: '1994-2010'
   phd_students: 19
   academic_descendants: 52
-  quality_source: openalex + ruirui-2026
+  quality_source: 'openalex + ruirui-2026'
   t1_papers: 2
   t2_papers: 9
   t3_papers: 15
   t4_papers: 3
   other_papers: 146
-  venue_samples:
-  - name: Inventiones mathematicae
-    tier: T1
-    count: 1
-  - name: Duke Mathematical Journal
-    tier: T1
-    count: 1
-  - name: Russian Mathematical Surveys
-    tier: T2
-    count: 7
-  - name: Communications on Pure and Applied Mathematics
-    tier: T2
-    count: 1
-  - name: Compositio Mathematica
-    tier: T2
-    count: 1
-  - name: Communications in Mathematical Physics
-    tier: T3
-    count: 4
-  - name: Advances in Mathematics
-    tier: T3
-    count: 4
-  - name: Journal of Nonlinear Science
-    tier: T3
-    count: 2
-  - name: Selecta Mathematica
-    tier: T3
-    count: 2
-  - name: Studies in Applied Mathematics
-    tier: T3
-    count: 1
-  - name: Journal of High Energy Physics
-    tier: T3
-    count: 1
-  - name: Mathematische Annalen
-    tier: T3
-    count: 1
-  - name: Communications in Number Theory and Physics
-    tier: T4
-    count: 2
-  - name: Nuclear Physics B
-    tier: T4
-    count: 1
-  - name: arXiv (Cornell University)
-    tier: '-'
-    count: 31
+  venue_samples: [{'name': 'Inventiones mathematicae', 'tier': 'T1', 'count': 1}, {'name': 'Duke Mathematical Journal', 'tier': 'T1', 'count': 1}, {'name': 'Russian Mathematical Surveys', 'tier': 'T2', 'count': 7}, {'name': 'Communications on Pure and Applied Mathematics', 'tier': 'T2', 'count': 1}, {'name': 'Compositio Mathematica', 'tier': 'T2', 'count': 1}, {'name': 'Communications in Mathematical Physics', 'tier': 'T3', 'count': 4}, {'name': 'Advances in Mathematics', 'tier': 'T3', 'count': 4}, {'name': 'Journal of Nonlinear Science', 'tier': 'T3', 'count': 2}, {'name': 'Selecta Mathematica', 'tier': 'T3', 'count': 2}, {'name': 'Studies in Applied Mathematics', 'tier': 'T3', 'count': 1}, {'name': 'Journal of High Energy Physics', 'tier': 'T3', 'count': 1}, {'name': 'Mathematische Annalen', 'tier': 'T3', 'count': 1}, {'name': 'Communications in Number Theory and Physics', 'tier': 'T4', 'count': 2}, {'name': 'Nuclear Physics B', 'tier': 'T4', 'count': 1}, {'name': 'arXiv (Cornell University)', 'tier': '-', 'count': 31}]
   oa_total_papers: 175
 external_ids:
   openalex: A5028846662
@@ -148,6 +105,289 @@ personal_notes: '极具人格魅力的导师。晚年与 ALS 斗争期间仍坚�
   Frobenius 流形理论的奠基人，229 页的 "Geometry of 2D TFT" 是该领域圣经。
 
   '
+publications:
+  - id: '2110.06655'
+    title: 'Affine Kac-Moody Algebras and Tau-Functions for the Drinfeld-Sokolov Hierarchies: the Matrix-Resolvent Method'
+    year: 2021
+    coauthors: ['Daniele Valeri', yang-di]
+    doi: '10.3842/SIGMA.2022.077'
+    journal: 'SIGMA 18 (2022), 077, 32 pages'
+    primary_category: math-ph
+  - id: '2101.10924'
+    title: 'Geometry and arithmetic of integrable hierarchies of KdV type. I. Integrality'
+    year: 2021
+    coauthors: [yang-di, zagier]
+    primary_category: math.AG
+  - id: '1905.08106'
+    title: 'Remarks on intersection numbers and integrable hierarchies. I. Quasi-triviality'
+    year: 2019
+    coauthors: [yang-di]
+    primary_category: math-ph
+  - id: '1903.11578'
+    title: 'Matrix resolvent and the discrete KdV hierarchy'
+    year: 2019
+    coauthors: [yang-di]
+    doi: '10.1007/s00220-020-03770-9'
+    primary_category: math-ph
+  - id: '1812.08488'
+    title: 'On tau-functions for the KdV hierarchy'
+    year: 2018
+    coauthors: [yang-di, zagier]
+    primary_category: math-ph
+  - id: '1811.09235'
+    title: 'Helix Structures in Quantum Cohomology of Fano Varieties'
+    year: 2018
+    coauthors: [cotti, guzzetti]
+    primary_category: math.AG
+  - id: '1809.02311'
+    title: 'A Riemann-Hilbert Approach to the Heun Equation'
+    year: 2018
+    coauthors: ['Andrei Kapaev']
+    doi: '10.3842/SIGMA.2018.093'
+    journal: 'SIGMA 14 (2018), 093, 24 pages'
+    primary_category: math.CA
+  - id: '1807.11258'
+    title: 'Algebraic spectral curves over $\mathbb Q$ and their tau-functions'
+    year: 2018
+    coauthors: []
+    primary_category: math.AG
+  - id: '1807.03377'
+    title: 'Approximating tau-functions by theta-functions'
+    year: 2018
+    coauthors: []
+    primary_category: math-ph
+  - id: '1802.00711'
+    title: 'Gromov--Witten invariants of the Riemann sphere'
+    year: 2018
+    coauthors: [yang-di, zagier]
+    primary_category: math.AG
+  - id: '1712.08575'
+    title: 'Local Moduli of Semisimple Frobenius Coalescent Structures'
+    year: 2017
+    coauthors: [cotti, guzzetti]
+    doi: '10.3842/SIGMA.2020.040'
+    journal: 'SIGMA 16 (2020), 040, 105 pages'
+    primary_category: math.DG
+  - id: '1706.04808'
+    title: 'Isomonodromy Deformations at an Irregular Singularity with Coalescing Eigenvalues'
+    year: 2017
+    coauthors: [cotti, guzzetti]
+    doi: '10.1215/00127094-2018-0059'
+    journal: 'Duke Math. J. 168, no. 6 (2019), 967-1108'
+    primary_category: math.CA
+  - id: '1702.01669'
+    title: 'On Gromov--Witten invariants of $\mathbb{P}^1$'
+    year: 2017
+    coauthors: [yang-di]
+    primary_category: math.AG
+  - id: '1701.03222'
+    title: 'Bihamiltonian Cohomologies and Integrable Hierarchies II: the Tau Structures'
+    year: 2017
+    coauthors: [si-li, zhang-youjin]
+    doi: '10.1007/s00220-018-3176-y'
+    primary_category: math.DG
+  - id: '1612.02333'
+    title: 'Hodge-GUE correspondence and the discrete KdV equation'
+    year: 2016
+    coauthors: [si-li, yang-di, zhang-youjin]
+    primary_category: math-ph
+  - id: '1610.07534'
+    title: 'Simple Lie algebras, Drinfeld--Sokolov hierarchies, and multi-point correlation functions'
+    year: 2016
+    coauthors: ['Marco Bertola', yang-di]
+    primary_category: math-ph
+  - id: '1609.04059'
+    title: 'Integrable systems of double ramification type'
+    year: 2016
+    coauthors: ['Alexandr Buryak', 'J r my Gu r', 'Paolo Rossi']
+    doi: '10.1093/imrn/rnz029'
+    journal: 'International Mathematics Research Notices (2019), rnz029'
+    primary_category: math-ph
+  - id: '1606.03720'
+    title: 'On cubic Hodge integrals and random matrices'
+    year: 2016
+    coauthors: [yang-di]
+    primary_category: math-ph
+  - id: '1604.07628'
+    title: 'Generating series for GUE correlators'
+    year: 2016
+    coauthors: [yang-di]
+    doi: '10.1007/s11005-017-0975-6'
+    primary_category: math-ph
+  - id: '1510.08690'
+    title: 'Extended affine Weyl groups of BCD type, Frobenius manifolds and their Landau-Ginzburg superpotentials'
+    year: 2015
+    coauthors: ['Ian A. B. Strachan', zhang-youjin, 'Dafeng Zuo']
+    doi: '10.1016/j.aim.2019.05.030'
+    journal: 'Advances in Mathematics Volume 351, 31 July 2019, Pages 897-946'
+    primary_category: math.DG
+  - id: '1510.01580'
+    title: 'On critical behaviour in generalized Kadomtsev--Petviashvili equations'
+    year: 2015
+    coauthors: ['Tamara Grava', 'Christian Klein']
+    doi: '10.1016/j.physd.2016.01.011'
+    journal: 'Physica D 2016'
+    primary_category: math-ph
+  - id: '1508.03750'
+    title: 'Simple Lie algebras and topological ODEs'
+    year: 2015
+    coauthors: ['Marco Bertola', yang-di]
+    primary_category: math-ph
+  - id: '1504.06452'
+    title: 'Correlation functions of the KdV hierarchy and applications to intersection numbers over $\overline{\mathcal M}_{g,n}$'
+    year: 2015
+    coauthors: ['Marco Bertola', yang-di]
+    doi: '10.1016/j.physd.2016.04.008'
+    primary_category: math-ph
+  - id: '1409.4616'
+    title: 'Hodge integrals and tau-symmetric integrable hierarchies of Hamiltonian evolutionary PDEs'
+    year: 2014
+    coauthors: [si-li, yang-di, zhang-youjin]
+    primary_category: math.AG
+  - id: '1407.5824'
+    title: 'Symplectic field theory of a disk, quantum integrable systems, and Schur polynomials'
+    year: 2014
+    coauthors: []
+    primary_category: math-ph
+  - id: '1312.0799'
+    title: 'Gromov - Witten invariants and integrable hierarchies of topological type'
+    year: 2013
+    coauthors: []
+    primary_category: math-ph
+  - id: '1310.5659'
+    title: 'Minimal Liouville Gravity correlation numbers from Douglas string equation'
+    year: 2013
+    coauthors: ['Alexander Belavin', 'Baur Mukhametzhanov']
+    doi: '10.1007/JHEP01(2014)156'
+    journal: 'JHEP 1401 (2014) 156'
+    primary_category: hep-th
+  - id: '1301.7216'
+    title: 'On critical behavior in nonlinear evolutionary PDEs with small viscosity'
+    year: 2013
+    coauthors: ['Maria Elaeva']
+    journal: 'Russian Journal of Mathematical Physics, vol. 19, (2012) p. 13-22'
+    primary_category: math-ph
+  - id: '1301.7211'
+    title: 'On an isomonodromy deformation equation without the Painlevé property'
+    year: 2013
+    coauthors: ['Andrei Kapaev']
+    doi: '10.1134/S1061920814010026'
+    primary_category: math.CA
+  - id: '1205.5990'
+    title: 'On the Genus Two Free Energies for Semisimple Frobenius Manifolds'
+    year: 2012
+    coauthors: [si-li, zhang-youjin]
+    doi: '10.1134/S1061920812030028'
+    journal: 'Russ. J. Math. Phys. 19 (2012), no. 3, 273--298'
+    primary_category: math-ph
+  - id: '0902.1245'
+    title: 'Infinite-Dimensional Frobenius Manifolds for 2+1 Integrable Systems'
+    year: 2009
+    coauthors: ['Guido Carlet', 'Luca Philippe Mertens']
+    journal: 'Math. Ann. 349 (2011), no. 1, 75-115'
+    primary_category: math-ph
+  - id: '0804.3790'
+    title: 'On universality of critical behaviour in Hamiltonian PDEs'
+    year: 2008
+    coauthors: []
+    primary_category: math.AP
+  - id: '0710.3115'
+    title: 'Frobenius Manifolds and Central Invariants for the Drinfeld - Sokolov Bihamiltonian Structures'
+    year: 2007
+    coauthors: [si-li, zhang-youjin]
+    primary_category: math.DG
+  - id: '0510032'
+    title: 'On Hamiltonian perturbations of hyperbolic systems of conservation laws, II: universality of critical behaviour'
+    year: 2005
+    coauthors: []
+    doi: '10.1007/s00220-006-0021-5'
+    primary_category: math-ph
+  - id: '0502365'
+    title: 'Extended affine Weyl groups and Frobenius manifolds -- II'
+    year: 2005
+    coauthors: [zhang-youjin, 'Dafeng Zuo']
+    primary_category: math.DG
+  - id: '0410027'
+    title: 'On Hamiltonian perturbations of hyperbolic systems of conservation laws'
+    year: 2004
+    coauthors: [si-li, zhang-youjin]
+    primary_category: math.DG
+  - id: '0311261'
+    title: 'Canonical structure and symmetries of the Schlesinger equations'
+    year: 2003
+    coauthors: [mazzocco]
+    primary_category: math.DG
+  - id: '0308152'
+    title: 'Virasoro Symmetries of the Extended Toda Hierarchy'
+    year: 2003
+    coauthors: [zhang-youjin]
+    doi: '10.1007/s00220-004-1084-9'
+    primary_category: math.DG
+  - id: '0307374'
+    title: 'On almost duality for Frobenius manifolds'
+    year: 2003
+    coauthors: []
+    primary_category: math.DG
+  - id: '0306060'
+    title: 'The Extended Toda Hierarchy'
+    year: 2003
+    coauthors: ['Guido Carlet', zhang-youjin]
+    primary_category: nlin.SI
+  - id: '0108160'
+    title: 'Normal forms of hierarchies of integrable PDEs, Frobenius manifolds and Gromov - Witten invariants'
+    year: 2001
+    coauthors: [zhang-youjin]
+    primary_category: math.DG
+  - id: '9808048'
+    title: 'Frobenius Manifolds And Virasoro Constraints'
+    year: 1998
+    coauthors: [zhang-youjin]
+    primary_category: math.AG
+  - id: '9807034'
+    title: 'Geometry and analytic theory of Frobenius manifolds'
+    year: 1998
+    coauthors: []
+    primary_category: math.AG
+  - id: '9803106'
+    title: 'Flat pencils of metrics and Frobenius manifolds'
+    year: 1998
+    coauthors: []
+    primary_category: math.DG
+  - id: '9803107'
+    title: 'Painleve'' transcendents and two-dimensional topological field theory'
+    year: 1998
+    coauthors: []
+    primary_category: math.AG
+  - id: '9712232'
+    title: 'Bihamiltonian Hierarchies in 2D Topological Field Theory At One-Loop Approximation'
+    year: 1997
+    coauthors: [zhang-youjin]
+    doi: '10.1007/s002200050480'
+    journal: 'Commun.Math.Phys. 198 (1998) 311-361'
+    primary_category: hep-th
+  - id: '9611200'
+    title: 'Extended affine Weyl groups and Frobenius manifolds'
+    year: 1996
+    coauthors: [zhang-youjin]
+    journal: 'Compositio Mathematica 111 (1998), 167--219'
+    primary_category: hep-th
+  - id: '9407018'
+    title: 'Geometry of 2d topological field theories'
+    year: 1994
+    coauthors: []
+    primary_category: hep-th
+  - id: '9303152'
+    title: 'Differential geometry of the space of orbits of a Coxeter group'
+    year: 1993
+    coauthors: []
+    primary_category: hep-th
+  - id: '9206037'
+    title: 'Geometry and Integrability of Topological-Antitopological Fusion'
+    year: 1992
+    coauthors: []
+    doi: '10.1007/BF02096618'
+    journal: 'Commun.Math.Phys. 152 (1993) 539-564'
+    primary_category: hep-th
 sources:
 - label: Math Genealogy
   url: https://www.mathgenealogy.org/id.php?id=83136

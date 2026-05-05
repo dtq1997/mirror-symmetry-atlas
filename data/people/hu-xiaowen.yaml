@@ -50,74 +50,99 @@ key_collaborators:
     topic: "Gamma conjecture II for quadrics"
     papers_count: 1
 publications:
-  - id: "2507.12458"
-    title: "On the algebraic $K$-theory of smooth schemes over truncated Witt vectors"
+  - id: '2507.12458'
+    title: 'On the algebraic $K$-theory of smooth schemes over truncated Witt vectors'
     year: 2025
     coauthors: []
-  - id: "2311.06793"
-    title: "Rationality of dlog $\\mathbb{A}^1$-zeta functions"
+    primary_category: math.AG
+  - id: '2311.06793'
+    title: 'Rationality of dlog $\mathbb{A}^1$-zeta functions'
     year: 2023
     coauthors: []
-  - id: "2204.07858"
-    title: "Mirror symmetry for quadric hypersurfaces"
+    primary_category: math.NT
+  - id: '2204.07858'
+    title: 'Mirror symmetry for quadric hypersurfaces'
     year: 2022
     coauthors: []
-  - id: "2203.08091"
-    title: "On Genus 1 Gromov-Witten invariants of Fano complete intersections"
+    primary_category: math.AG
+  - id: '2203.08091'
+    title: 'On Genus 1 Gromov-Witten invariants of Fano complete intersections'
     year: 2022
     coauthors: []
-  - id: "2109.11469"
-    title: "Big quantum cohomology of even dimensional intersections of two quadrics"
+    primary_category: math.AG
+  - id: '2109.11469'
+    title: 'Big quantum cohomology of even dimensional intersections of two quadrics'
     year: 2021
     coauthors: []
-  - id: "2103.15143"
-    title: "Gamma conjecture II for quadrics"
+    primary_category: math.AG
+  - id: '2103.15143'
+    title: 'Gamma conjecture II for quadrics'
     year: 2021
     coauthors: [ke-huazhong]
-  - id: "2101.05236"
-    title: "On singular Hilbert schemes of points: Local structures and tautological sheaves"
+    primary_category: math.AG
+  - id: '2101.05236'
+    title: 'On singular Hilbert schemes of points: Local structures and tautological sheaves'
     year: 2021
     coauthors: []
-  - id: "2101.05179"
-    title: "An inclusion-exclusion principle for tautological sheaves on Hilbert schemes of points"
+    doi: '10.46298/epiga.2025.12827'
+    journal: 'Épijournal de Géométrie Algébrique, Volume 9 (August 28, 2025) epiga:12827'
+    primary_category: math.AG
+  - id: '2101.05179'
+    title: 'An inclusion-exclusion principle for tautological sheaves on Hilbert schemes of points'
     year: 2021
     coauthors: []
-  - id: "1902.00932"
-    title: "On Suslin homology with integral coefficients in characteristic zero"
+    doi: '10.1007/s00229-024-01570-2'
+    journal: 'Manuscripta Math. 175 (2024), no. 1-2, 155--201'
+    primary_category: math.AG
+  - id: '1902.00932'
+    title: 'On Suslin homology with integral coefficients in characteristic zero'
     year: 2019
-    coauthors: []
-  - id: "1810.03220"
-    title: "Towards a specialization map modulo semi-orthogonal decompositions"
+    coauthors: ['with an Appendix by Bruno Kahn']
+    doi: '10.1016/j.jpaa.2020.106570'
+    journal: 'Journal of Pure and Applied Algebra, Volume 225, Issue 5, May 2021'
+    primary_category: math.AG
+  - id: '1810.03220'
+    title: 'Towards a specialization map modulo semi-orthogonal decompositions'
     year: 2018
     coauthors: []
-  - id: "1805.04050"
-    title: "Deformation of exceptional collections"
+    primary_category: math.AG
+  - id: '1805.04050'
+    title: 'Deformation of exceptional collections'
     year: 2018
     coauthors: []
-  - id: "1501.03683"
-    title: "Big quantum cohomology of Fano complete intersections"
+    primary_category: math.AG
+  - id: '1501.03683'
+    title: 'Big quantum cohomology of Fano complete intersections'
     year: 2015
     coauthors: []
-  - id: "1310.8195"
-    title: "Localized standard versus reduced formula and genus one local Gromov-Witten invariants"
+    primary_category: math.AG
+  - id: '1310.8195'
+    title: 'Localized standard versus reduced formula and genus one local Gromov-Witten invariants'
     year: 2013
     coauthors: []
-  - id: "1308.0997"
-    title: "On the Crepant Resolution Conjecture for Gromov-Witten Gravitational Ancestors in All Genera for Surface Singularities"
+    doi: '10.1093/imrn/rnu253'
+    primary_category: math.AG
+  - id: '1308.0997'
+    title: 'On the Crepant Resolution Conjecture for Gromov-Witten Gravitational Ancestors in All Genera for Surface Singularities'
     year: 2013
     coauthors: []
-  - id: "1307.7538"
-    title: "A Conjectural Formula for Genus One Gromov-Witten Invariants of a Class of Local Calabi-Yau n-folds"
+    primary_category: math.AG
+  - id: '1307.7538'
+    title: 'A Conjectural Formula for Genus One Gromov-Witten Invariants of a Class of Local Calabi-Yau n-folds'
     year: 2013
     coauthors: []
-  - id: "1207.4545"
-    title: "The Quantum McKay Correspondence for Singularities of type D"
+    primary_category: math.AG
+  - id: '1207.4545'
+    title: 'The Quantum McKay Correspondence for Singularities of type D'
     year: 2012
     coauthors: []
+    primary_category: math.AG
 activity:
   total_papers: 16
-  active_period: "2012-present"
-  peak_period: "2021-present"
+  published_count: 4
+  preprint_only_count: 12
+  active_period: '2012-present'
+  peak_period: '2021-present'
 external_ids: {}
 links: {}
 personal_notes: |

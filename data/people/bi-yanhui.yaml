@@ -67,49 +67,66 @@ key_collaborators:
     topic: "From n-systems to Lie and Courant algebroids"
     papers_count: 1
 publications:
-  - id: "2512.03391"
-    title: "From n-systems to Lie and Courant algebroids"
+  - id: '2512.03391'
+    title: 'From n-systems to Lie and Courant algebroids'
     year: 2025
-    coauthors: ["Liqiang Cai", "Zhuo Chen", "Zhixiong Chen"]
-  - id: "2509.25995"
-    title: "A new super integrable hierarchy and a generalized super-AKNS hierarchy"
+    coauthors: ['Liqiang Cai', 'Zhuo Chen', 'Zhixiong Chen']
+    primary_category: math.DG
+  - id: '2509.25995'
+    title: 'A new super integrable hierarchy and a generalized super-AKNS hierarchy'
     year: 2025
-    coauthors: ["Bo Yuan", "Yuqi Ruan", "Tao Zhang"]
-  - id: "2507.17278"
-    title: "The nonisospectral integrable hierarchies associated with Lie algebra $\\mathfrak{sp}(6)$"
+    coauthors: ['Bo Yuan', 'Yuqi Ruan', 'Tao Zhang']
+    primary_category: nlin.SI
+  - id: '2507.17278'
+    title: 'The nonisospectral integrable hierarchies associated with Lie algebra $\mathfrak{sp}(6)$'
     year: 2025
-    coauthors: ["Bo Yuan", "Yuqi Ruan", "Tao Zhang"]
-  - id: "2507.00559"
-    title: "Soliton hierarchies associated with Lie algebra sp(6)"
+    coauthors: ['Bo Yuan', 'Yuqi Ruan', 'Tao Zhang']
+    primary_category: nlin.SI
+  - id: '2507.00559'
+    title: 'Soliton hierarchies associated with Lie algebra sp(6)'
     year: 2025
-    coauthors: ["Yuqi Ruan", "Bo Yuan", "Tao Zhang"]
-  - id: "2309.10315"
-    title: "On (co-)morphisms of $n$-Lie-Rinehart algebras with applications to Nambu-Poisson manifolds"
+    coauthors: ['Yuqi Ruan', 'Bo Yuan', 'Tao Zhang']
+    primary_category: nlin.SI
+  - id: '2309.10315'
+    title: 'On (co-)morphisms of $n$-Lie-Rinehart algebras with applications to Nambu-Poisson manifolds'
     year: 2023
-    coauthors: ["Zhixiong Chen", "Tao Zhang"]
-  - id: "2309.04180"
-    title: "The geometric constraints on Filippov algebroids"
+    coauthors: ['Zhixiong Chen', 'Tao Zhang']
+    primary_category: math.RA
+  - id: '2309.04180'
+    title: 'The geometric constraints on Filippov algebroids'
     year: 2023
-    coauthors: ["Zhixiong Chen", "Zhuo Chen", "Maosong Xiang"]
-  - id: "2302.01933"
-    title: "Weak $(p,k)$-Dirac manifolds"
+    coauthors: ['Zhixiong Chen', 'Zhuo Chen', 'Maosong Xiang']
+    doi: '10.3934/math.2024539'
+    journal: 'AIMS Mathematics, 2024, 9(5):11007-11023'
+    primary_category: math.RA
+  - id: '2302.01933'
+    title: 'Weak $(p,k)$-Dirac manifolds'
     year: 2023
-    coauthors: ["Zhixiong Chen"]
-  - id: "2202.09224"
-    title: "Cohomology and crossed modules extension of Hom-Leibniz-Rinehart algebras"
+    coauthors: ['Zhixiong Chen']
+    primary_category: math.DG
+  - id: '2202.09224'
+    title: 'Cohomology and crossed modules extension of Hom-Leibniz-Rinehart algebras'
     year: 2022
-    coauthors: ["Danlu Chen", "Tao Zhang"]
-  - id: "1812.09496"
-    title: "Higher omni-Lie algebroids"
+    coauthors: ['Danlu Chen', 'Tao Zhang']
+    primary_category: math.RA
+  - id: '1812.09496'
+    title: 'Higher omni-Lie algebroids'
     year: 2018
-    coauthors: ["Luca Vitagliano", "Tao Zhang"]
-  - id: "1003.1350"
-    title: "On higher analogues of Courant algebroids"
+    coauthors: ['Luca Vitagliano', 'Tao Zhang']
+    journal: 'Journal of Lie Theory,Volume 29(2019) 881--899'
+    primary_category: math.DG
+  - id: '1003.1350'
+    title: 'On higher analogues of Courant algebroids'
     year: 2010
-    coauthors: ["Yunhe Sheng"]
+    coauthors: ['Yunhe Sheng']
+    doi: '10.1007/s11425-010-4142-0'
+    journal: 'Sci. China Math. (2011) Vol. 54 No. 3: 437-447'
+    primary_category: math.DG
 activity:
   total_papers: 10
-  active_period: "2010-present"
+  published_count: 3
+  preprint_only_count: 7
+  active_period: '2010-present'
 external_ids: {}
 links:
   xmol: "https://www.x-mol.com/university/faculty/140220"

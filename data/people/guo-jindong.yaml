@@ -31,22 +31,32 @@ key_collaborators:
     topic: "Uniform large genus asymptotics for BGW and Witten numbers"
     papers_count: 2
 publications:
-  - id: "2603.15233"
-    title: "On uniform large genus asymptotics of Witten's intersection numbers"
+  - id: '2603.15233'
+    title: 'On uniform large genus asymptotics of Witten''s intersection numbers'
     year: 2026
     coauthors: [yang-di, zagier]
-  - id: "2412.20388"
-    title: "Combinatorics and large genus asymptotics of the Brézin--Gross--Witten numbers"
+    primary_category: math-ph
+  - id: '2412.20388'
+    title: 'Combinatorics and large genus asymptotics of the Brézin--Gross--Witten numbers'
     year: 2024
-    coauthors: [yang-di, zagier, "Paul Norbury"]
-  - id: "2110.06774"
-    title: "On the large genus asymptotics of psi-class intersection numbers"
+    coauthors: [yang-di, zagier, 'Paul Norbury']
+    primary_category: math-ph
+  - id: '2110.06774'
+    title: 'On the large genus asymptotics of psi-class intersection numbers'
     year: 2021
     coauthors: [yang-di]
+    primary_category: math.AG
+  - id: '2102.10761'
+    title: 'A Remark on Equivalence between Two Formulas of the Two point Witten-Kontsevich Correlators'
+    year: 2021
+    coauthors: []
+    primary_category: math-ph
 activity:
-  total_papers: 3
-  active_period: "2021-present"
-  peak_period: "2024-present"
+  total_papers: 4
+  published_count: 0
+  preprint_only_count: 4
+  active_period: '2021-present'
+  peak_period: '2024-present'
 external_ids: {}
 links: {}
 personal_notes: |

@@ -59,176 +59,196 @@ key_collaborators:
   papers_count: 3
   notes: 博士生 (2010-2015)
 publications:
-- id: '2603.02736'
-  title: Complexity of quantum cohomology
-  year: 2026
-  coauthors:
-  - Chongyu Wang
-- id: '2402.14504'
-  title: On A Tautological Relation Conjectured By Buryak-Shadrin
-  year: 2024
-  coauthors:
-  - Chongyu Wang
-- id: '2206.01066'
-  title: Action of $W$-type operators on Schur functions and Schur Q-functions
-  year: 2022
-  coauthors:
-  - yang-chenglang
-- id: '2107.10472'
-  title: Action of Virasoro operators on Hall-Littlewood polynomials
-  year: 2021
-  coauthors:
-  - yang-chenglang
-- id: '2104.01357'
-  title: Q-Polynomial expansion for Brezin-Gross-Witten tau-function
-  year: 2021
-  coauthors:
-  - yang-chenglang
-- id: '2103.14318'
-  title: Schur Q-Polynomials and Kontsevich-Witten Tau Function
-  year: 2021
-  coauthors:
-  - yang-chenglang
-- id: '1712.02331'
-  title: Connecting Hodge integrals to Gromov-Witten invariants by Virasoro operators
-  year: 2017
-  coauthors:
-  - Haijiang Yu
-- id: '1503.05268'
-  title: Connecting the Kontsevich-Witten and Hodge tau-functions by the $\hat{GL(\infty)}$ operators
-  year: 2015
-  coauthors:
-  - Gehao Wang
-- id: '1402.3854'
-  title: Genus-2 G-function for $P^1$ orbifolds
-  year: 2014
-  coauthors:
-  - Xin Wang
-- id: '1106.3735'
-  title: Genus-1 Virasoro conjecture along quantum volume direction
-  year: 2011
-  coauthors: []
-- id: '1104.4378'
-  title: Topological Recursion Relations on $\bar{\cal M}_{3,2}$
-  year: 2011
-  coauthors:
-  - Takashi Kimura
-- id: '0905.0895'
-  title: Quantum Teichmüller space and Kashaev algebra
-  year: 2009
-  coauthors:
-  - Ren Guo
-- id: '0805.4829'
-  title: New topological recursion relations
-  year: 2008
-  coauthors:
-  - Rahul Pandharipande
-- id: '0805.0800'
-  title: On Certain Vanishing Identities For Gromov-Witten Invariants
-  year: 2008
-  coauthors: []
-- id: '0707.2151'
-  title: Local representations of the quantum Teichmuller space
-  year: 2007
-  coauthors:
-  - Hua Bai
-  - Francis Bonahon
-- id: '0603467'
-  title: Quantum hyperbolic invariants for diffeomorphisms of small surfaces
-  year: 2006
-  coauthors: []
-- id: '0502457'
-  title: A Genus-3 Topological Recursion Relation
-  year: 2005
-  coauthors:
-  - Takashi Kimura
-- id: "0408361"
-  title: The quantum Teichmuller space as a noncommutative algebraic object
-  year: 2004
-  coauthors: []
-- id: "0407086"
-  title: Representations of the quantum Teichmuller space, and invariants of surface diffeomorphisms
-  year: 2004
-  coauthors:
-  - Francis Bonahon
-- id: '0310410'
-  title: Genus-2 Gromov-Witten invariants for manifolds with semisimple quantum cohomology
-  year: 2003
-  coauthors: []
-- id: '0301161'
-  title: Relations Among Universal Equations For Gromov-Witten Invariants
-  year: 2003
-  coauthors: []
-- id: '0104030'
-  title: Quantum product on the big phase space and the Virasoro conjecture
-  year: 2001
-  coauthors: []
-- id: '9907113'
-  title: Elliptic Gromov-Witten Invariants And Virasoro Conjecture
-  year: 1999
-  coauthors: []
-- id: '9806028'
-  title: Virasoro Constraints For Quantum Cohomology
-  year: 1998
-  coauthors:
-  - tian-gang
+  - id: '2603.02736'
+    title: 'Complexity of quantum cohomology'
+    year: 2026
+    coauthors: ['Chongyu Wang']
+    primary_category: math.AG
+  - id: '2504.15602'
+    title: 'Mean Curvature Flow for Isoparametric Submanifolds in Hyperbolic Spaces'
+    year: 2025
+    coauthors: [xu-xu]
+    primary_category: math.DG
+  - id: '2402.14504'
+    title: 'On A Tautological Relation Conjectured By Buryak-Shadrin'
+    year: 2024
+    coauthors: ['Chongyu Wang']
+    primary_category: math.AG
+  - id: '2206.01066'
+    title: 'Action of $W$-type operators on Schur functions and Schur Q-functions'
+    year: 2022
+    coauthors: [yang-chenglang]
+    doi: '10.1112/jlms.70080'
+    primary_category: math-ph
+  - id: '2107.10472'
+    title: 'Action of Virasoro operators on Hall-Littlewood polynomials'
+    year: 2021
+    coauthors: [yang-chenglang]
+    doi: '10.1007/s11005-022-01608-0'
+    primary_category: math-ph
+  - id: '2104.01357'
+    title: 'Q-Polynomial expansion for Brezin-Gross-Witten tau-function'
+    year: 2021
+    coauthors: [yang-chenglang]
+    journal: 'Adv. Math., Vol 404, Part B (2022), 108456'
+    primary_category: nlin.SI
+  - id: '2103.14318'
+    title: 'Schur Q-Polynomials and Kontsevich-Witten Tau Function'
+    year: 2021
+    coauthors: [yang-chenglang]
+    primary_category: math.AG
+  - id: '2006.03945'
+    title: 'Polar foliations on symmetric spaces and the mean curvature flow'
+    year: 2020
+    coauthors: ['Marco Radeschi']
+    primary_category: math.DG
+  - id: '1911.12535'
+    title: 'Ancient solutions to mean curvature flow for isoparametric submanifolds'
+    year: 2019
+    coauthors: ['Chuu-Lian Terng']
+    primary_category: math.DG
+  - id: '1712.02331'
+    title: 'Connecting Hodge integrals to Gromov-Witten invariants by Virasoro operators'
+    year: 2017
+    coauthors: ['Haijiang Yu']
+    primary_category: math.AG
+  - id: '1503.05268'
+    title: 'Connecting the Kontsevich-Witten and Hodge tau-functions by the $\hat{GL(\infty)}$ operators'
+    year: 2015
+    coauthors: ['Gehao Wang']
+    doi: '10.1007/s00220-016-2671-2'
+    journal: 'Commun. Math. Phys. (2016), 346(1), 143-190'
+    primary_category: math-ph
+  - id: '1402.3854'
+    title: 'Genus-2 G-function for $P^1$ orbifolds'
+    year: 2014
+    coauthors: ['Xin Wang']
+    primary_category: math.DG
+  - id: '1310.2101'
+    title: 'Conditions for the vanishing of the genus-2 G-function'
+    year: 2013
+    coauthors: [wang-xin]
+    primary_category: math.DG
+  - id: '1106.3735'
+    title: 'Genus-1 Virasoro conjecture along quantum volume direction'
+    year: 2011
+    coauthors: []
+    primary_category: math.DG
+  - id: '1104.4378'
+    title: 'Topological Recursion Relations on $\bar{\cal M}_{3,2}$'
+    year: 2011
+    coauthors: ['Takashi Kimura']
+    primary_category: math.DG
+  - id: '0905.0895'
+    title: 'Quantum Teichmüller space and Kashaev algebra'
+    year: 2009
+    coauthors: ['Ren Guo']
+    doi: '10.2140/agt.2009.9.1791'
+    journal: 'Algebr. Geom. Topol. 9 (2009) 1791-1824'
+    primary_category: math.GT
+  - id: '0805.4829'
+    title: 'New topological recursion relations'
+    year: 2008
+    coauthors: ['Rahul Pandharipande']
+    primary_category: math.AG
+  - id: '0805.0800'
+    title: 'On Certain Vanishing Identities For Gromov-Witten Invariants'
+    year: 2008
+    coauthors: []
+    primary_category: math.DG
+  - id: '0707.2151'
+    title: 'Local representations of the quantum Teichmuller space'
+    year: 2007
+    coauthors: ['Hua Bai', 'Francis Bonahon']
+    primary_category: math.GT
+  - id: '0706.3550'
+    title: 'The mean curvature flow for isoparametric submanifolds'
+    year: 2007
+    coauthors: ['Chuu-Lian Terng']
+    doi: '10.1215/00127094-2009-009'
+    journal: 'Duke Math. Journal, 147 (2009), no. 1, 157--179'
+    primary_category: math.DG
+  - id: '0603467'
+    title: 'Quantum hyperbolic invariants for diffeomorphisms of small surfaces'
+    year: 2006
+    coauthors: []
+    primary_category: math.GT
+  - id: '0502457'
+    title: 'A Genus-3 Topological Recursion Relation'
+    year: 2005
+    coauthors: ['Takashi Kimura']
+    doi: '10.1007/s00220-005-1481-8'
+    primary_category: math.DG
+  - id: '0408361'
+    title: 'The quantum Teichmuller space as a noncommutative algebraic object'
+    year: 2004
+    coauthors: []
+    primary_category: math.GT
+  - id: '0407086'
+    title: 'Representations of the quantum Teichmuller space, and invariants of surface diffeomorphisms'
+    year: 2004
+    coauthors: ['Francis Bonahon']
+    doi: '10.2140/gt.2007.11.889'
+    journal: 'Geom. Topol. 11 (2007) 889-937'
+    primary_category: math.GT
+  - id: '0310410'
+    title: 'Genus-2 Gromov-Witten invariants for manifolds with semisimple quantum cohomology'
+    year: 2003
+    coauthors: []
+    primary_category: math.DG
+  - id: '0310409'
+    title: 'Idempotents on the big phase space'
+    year: 2003
+    coauthors: []
+    primary_category: math.DG
+  - id: '0301161'
+    title: 'Relations Among Universal Equations For Gromov-Witten Invariants'
+    year: 2003
+    coauthors: []
+    primary_category: math.DG
+  - id: '0104030'
+    title: 'Quantum product on the big phase space and the Virasoro conjecture'
+    year: 2001
+    coauthors: []
+    primary_category: math.AG
+  - id: '0004028'
+    title: 'Isoparametric submanifolds and a Chevalley-type restriction theorem'
+    year: 2000
+    coauthors: ['Ernst Heintze', 'Carlos Olmos']
+    primary_category: math.DG
+  - id: '9907113'
+    title: 'Elliptic Gromov-Witten Invariants And Virasoro Conjecture'
+    year: 1999
+    coauthors: []
+    doi: '10.1007/s002200000357'
+    journal: 'Commun.Math.Phys. 216 (2001) 705-728'
+    primary_category: math.AG
+  - id: '9901150'
+    title: 'Homogeneity of infinite dimensional isoparametric submanifolds'
+    year: 1999
+    coauthors: ['Ernst Heintze']
+    journal: 'Ann. of Math. (2) 149 (1999), no. 1, 149-181'
+    primary_category: math.DG
+  - id: '9806028'
+    title: 'Virasoro Constraints For Quantum Cohomology'
+    year: 1998
+    coauthors: [tian-gang]
+    journal: 'J.Diff.Geom. 50 (1998) 537-590'
+    primary_category: math.AG
 activity:
-  total_papers: 24
+  total_papers: 32
+  published_count: 11
+  preprint_only_count: 21
   h_index: 12
-  active_period: 1994-present
-  peak_period: 1998-2010
-  quality_source: openalex + ruirui-2026
+  active_period: '1994-present'
+  peak_period: '1998-2010'
+  quality_source: 'openalex + ruirui-2026'
   t1_papers: 2
   t2_papers: 6
   t3_papers: 9
   t4_papers: 0
   other_papers: 76
-  venue_samples:
-  - name: Annals of Mathematics
-    tier: T1
-    count: 1
-  - name: Duke Mathematical Journal
-    tier: T1
-    count: 1
-  - name: American Journal of Mathematics
-    tier: T2
-    count: 2
-  - name: Journal of Differential Geometry
-    tier: T2
-    count: 2
-  - name: Science China Mathematics
-    tier: T2
-    count: 2
-  - name: Advances in Mathematics
-    tier: T3
-    count: 2
-  - name: Transactions of the American Mathematical Society
-    tier: T3
-    count: 2
-  - name: SIAM Journal on Scientific Computing
-    tier: T3
-    count: 2
-  - name: Communications in Mathematical Physics
-    tier: T3
-    count: 1
-  - name: Mathematische Annalen
-    tier: T3
-    count: 1
-  - name: Journal of the London Mathematical Society
-    tier: T3
-    count: 1
-  - name: arXiv (Cornell University)
-    tier: '-'
-    count: 19
-  - name: ArXiv.org
-    tier: '-'
-    count: 7
-  - name: SIAM Journal on Matrix Analysis and Applications
-    tier: '-'
-    count: 4
-  - name: Lecture notes in computer science
-    tier: '-'
-    count: 2
+  venue_samples: [{'name': 'Annals of Mathematics', 'tier': 'T1', 'count': 1}, {'name': 'Duke Mathematical Journal', 'tier': 'T1', 'count': 1}, {'name': 'American Journal of Mathematics', 'tier': 'T2', 'count': 2}, {'name': 'Journal of Differential Geometry', 'tier': 'T2', 'count': 2}, {'name': 'Science China Mathematics', 'tier': 'T2', 'count': 2}, {'name': 'Advances in Mathematics', 'tier': 'T3', 'count': 2}, {'name': 'Transactions of the American Mathematical Society', 'tier': 'T3', 'count': 2}, {'name': 'SIAM Journal on Scientific Computing', 'tier': 'T3', 'count': 2}, {'name': 'Communications in Mathematical Physics', 'tier': 'T3', 'count': 1}, {'name': 'Mathematische Annalen', 'tier': 'T3', 'count': 1}, {'name': 'Journal of the London Mathematical Society', 'tier': 'T3', 'count': 1}, {'name': 'arXiv (Cornell University)', 'tier': '-', 'count': 19}, {'name': 'ArXiv.org', 'tier': '-', 'count': 7}, {'name': 'SIAM Journal on Matrix Analysis and Applications', 'tier': '-', 'count': 4}, {'name': 'Lecture notes in computer science', 'tier': '-', 'count': 2}]
   oa_total_papers: 93
 external_ids:
   openalex: A5100664480

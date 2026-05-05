@@ -71,10 +71,326 @@ key_collaborators:
     since: 2007
     topic: "FJRW theory (Fan-Jarvis-Ruan-Witten)"
     papers_count: 3
-publications: []
+publications:
+  - id: '2210.13411'
+    title: 'Castelnuovo bound and higher genus Gromov-Witten invariants of quintic 3-folds'
+    year: 2022
+    coauthors: ['Zhiyu Liu']
+    primary_category: math.AG
+  - id: '2210.04430'
+    title: 'Mirror of Orbifold Singularities in the Hitchin Fibration: the case $(\text{SL}_n,\text{PGL}_n)$'
+    year: 2022
+    coauthors: ['Cheng Shu']
+    doi: '10.1016/j.aim.2024.110076'
+    journal: 'Advances in Mathematics, 461 (2025)'
+    primary_category: math.AG
+  - id: '2208.04519'
+    title: 'Punctured logarithmic R-maps'
+    year: 2022
+    coauthors: ['Qile Chen', 'Felix Janda']
+    primary_category: math.AG
+  - id: '2207.10533'
+    title: 'Mirror symmetry for special nilpotent orbit closures'
+    year: 2022
+    coauthors: ['Baohua Fu', 'Yaoxiong Wen']
+    primary_category: math.AG
+  - id: '2207.06111'
+    title: 'Symplectic blowing down in dimension Six'
+    year: 2022
+    coauthors: ['Tian-Jun Li', zhang-wei]
+    primary_category: math.SG
+  - id: '2109.02218'
+    title: 'Quantum $K$-theory and $q$-Difference equations'
+    year: 2021
+    coauthors: ['Yaoxiong Wen']
+    primary_category: math.AG
+  - id: '2011.07519'
+    title: 'Quantum $K$-theory of toric varieties, level structures, and 3d mirror symmetry'
+    year: 2020
+    coauthors: ['Yaoxiong Wen', 'Zijun Zhou']
+    primary_category: math.AG
+  - id: '1911.07204'
+    title: 'Genus Two Quasi-Siegel Modular Forms and Gromov-Witten Theory of Toric Calabi-Yau Threefolds'
+    year: 2019
+    coauthors: ['Yingchun Zhang', 'Jie Zhou']
+    doi: '10.1007/s00220-022-04534-3'
+    journal: 'Commun. Math. Phys. 398, 757-796 (2023)'
+    primary_category: math.AG
+  - id: '1906.04345'
+    title: 'The logarithmic gauged linear sigma model'
+    year: 2019
+    coauthors: ['Qile Chen', 'Felix Janda']
+    doi: '10.1007/s00222-021-01044-2'
+    journal: 'Inventiones mathematicae, 225(3): 1077-1154, 2021'
+    primary_category: math.AG
+  - id: '1812.11908'
+    title: 'Structure of Higher Genus Gromov-Witten Invariants of Quintic 3-folds'
+    year: 2018
+    coauthors: [guo-shuai, 'Felix Janda']
+    primary_category: math.AG
+  - id: '1811.01377'
+    title: 'Verlinde/Grassmannian Correspondence and Rank 2 $δ$-wall-crossing'
+    year: 2018
+    coauthors: ['Ming Zhang']
+    primary_category: math.AG
+  - id: '1805.04894'
+    title: 'Open Gromov-Witten Theory of $K_{\mathbb P^2}, K_{{\mathbb P^1}\times {\mathbb P^1}}, K_{W\mathbb P[1,1,2]}, K_{\mathbb F_1}$ and Jacobi Forms'
+    year: 2018
+    coauthors: [fang-bohan, 'Yingchun Zhang', 'Jie Zhou']
+    doi: '10.1007/s00220-019-03440-5'
+    journal: 'Commun. Math. Phys. 369, 675-719 (2019)'
+    primary_category: math.AG
+  - id: '1805.02304'
+    title: 'Towards Logarithmic GLSM: The r-spin case'
+    year: 2018
+    coauthors: ['Qile Chen', 'Felix Janda', 'Adrien Sauvaget']
+    doi: '10.2140/gt.2022.26.2855'
+    journal: 'Geom. Topol. 26 (2022) 2855-2939'
+    primary_category: math.AG
+  - id: '1804.06552'
+    title: 'The level structure in quantum K-theory and mock theta functions'
+    year: 2018
+    coauthors: ['Ming Zhang']
+    primary_category: math.AG
+  - id: '1709.07392'
+    title: 'A mirror theorem for genus two Gromov-Witten invariants of quintic threefolds'
+    year: 2017
+    coauthors: [guo-shuai, 'Felix Janda']
+    primary_category: math.AG
+  - id: '1706.05038'
+    title: 'Higher-genus wall-crossing in the gauged linear sigma model'
+    year: 2017
+    coauthors: ['Emily Clader', 'Felix Janda']
+    doi: '10.1215/00127094-2020-0053'
+    journal: 'Duke Math. J. 170, no. 4 (2021), 697-773'
+    primary_category: math.AG
+  - id: '1702.03427'
+    title: 'Higher-genus quasimap wall-crossing via localization'
+    year: 2017
+    coauthors: ['Emily Clader', 'Felix Janda']
+    doi: '10.14231/AG-2024-021'
+    journal: 'Algebr. Geom. 11 (2024), no. 5, 712-736'
+    primary_category: math.AG
+  - id: '1605.08885'
+    title: 'Gromov-Witten Theory of Quotient of Fermat Calabi-Yau varieties'
+    year: 2016
+    coauthors: ['Hiroshi Iritani', 'Todor Milanov', 'Yefeng Shen']
+    primary_category: math.AG
+  - id: '1603.02666'
+    title: 'The Moduli Space in the Gauged Linear Sigma Model'
+    year: 2016
+    coauthors: [fan-huijun, 'Tyler Jarvis']
+    primary_category: math.AG
+  - id: '1506.02109'
+    title: 'A Mathematical Theory of the Gauged Linear Sigma Model'
+    year: 2015
+    coauthors: [fan-huijun, 'Tyler Jarvis']
+    doi: '10.2140/gt.2018.22.235'
+    journal: 'Geom. Topol. 22 (2018) 235-303'
+    primary_category: math.AG
+  - id: '1412.1268'
+    title: 'Mirror Symmetry Constructions'
+    year: 2014
+    coauthors: ['Emily Clader']
+    primary_category: math.AG
+  - id: '1402.6688'
+    title: 'Wall-Crossing in Genus Zero Landau-Ginzburg Theory'
+    year: 2014
+    coauthors: ['Dustin Ross']
+    primary_category: math.AG
+  - id: '1312.7227'
+    title: 'BCFG Drinfeld-Sokolov Hierarchies and FJRW-Theory'
+    year: 2013
+    coauthors: [si-li, zhang-youjin]
+    primary_category: math.AG
+  - id: '1307.0939'
+    title: 'A global mirror symmetry framework for the Landau-Ginzburg/Calabi-Yau correspondence'
+    year: 2013
+    coauthors: ['Alessandro Chiodo']
+    journal: 'Annales de l''institut Fourier, 61 no. 7 (2011), p. 2803-2864'
+    primary_category: math.AG
+  - id: '1206.3879'
+    title: 'Gromov-Witten theory and cycle-valued modular forms'
+    year: 2012
+    coauthors: ['Todor Milanov', 'Yefeng Shen']
+    primary_category: math.AG
+  - id: '1205.1662'
+    title: 'The moduli space of regular stable maps'
+    year: 2012
+    coauthors: ['Joel Robbin', 'Dietmar Salamon']
+    doi: '10.1007/s00209-007-0237-x'
+    journal: 'Mathematische Zeitschrift, Volume 259 (2008), pages 525-574'
+    primary_category: math.SG
+  - id: '1201.0813'
+    title: 'Landau-Ginzburg/Calabi-Yau correspondence, global mirror symmetry and Orlov equivalence'
+    year: 2012
+    coauthors: ['Alessandro Chiodo', 'Hiroshi Iritani']
+    doi: '10.1007/s10240-013-0056-z'
+    journal: 'Publ. IHES, June 2014, Vol 119, Issue 1, pp.127-216'
+    primary_category: math.AG
+  - id: '1106.2321'
+    title: 'Gromov-Witten theory of elliptic orbifold P^1 and quasi-modular forms'
+    year: 2011
+    coauthors: ['Todor Milanov']
+    primary_category: math.AG
+  - id: '1012.0066'
+    title: 'Quantum Singularity Theory for A_{r-1} and r-Spin Theory'
+    year: 2010
+    coauthors: [fan-huijun, 'Tyler J. Jarvis']
+    primary_category: math.AG
+  - id: '1008.0927'
+    title: 'Witten''s D_4 Integrable Hierarchies Conjecture'
+    year: 2010
+    coauthors: [fan-huijun, 'Amanda Francis', 'Tyler J. Jarvis', 'Evan Merrell']
+    primary_category: math.AG
+  - id: '0908.0908'
+    title: 'LG/CY correspondence: the state space isomorphism'
+    year: 2009
+    coauthors: ['Alessandro Chiodo']
+    primary_category: math.AG
+  - id: '0906.3265'
+    title: 'Symplectic Birational Geometry'
+    year: 2009
+    coauthors: ['Tian-Jun Li']
+    primary_category: math.SG
+  - id: '0812.4660'
+    title: 'Landau-Ginzburg/Calabi-Yau correspondence for quintic three-folds via symplectic transformations'
+    year: 2008
+    coauthors: ['Alessandro Chiodo']
+    doi: '10.1007/s00222-010-0260-0'
+    journal: 'Invent. Math., 182, (2010), 117-165'
+    primary_category: math.AG
+  - id: '0802.0590'
+    title: 'Positive divisors in symplectic geometry'
+    year: 2008
+    coauthors: [hu-jianxun]
+    primary_category: math.SG
+  - id: '0712.4021'
+    title: 'The Witten equation, mirror symmetry and quantum singularity theory'
+    year: 2007
+    coauthors: [fan-huijun, 'Tyler J. Jarvis']
+    primary_category: math.AG
+  - id: '0712.4025'
+    title: 'The Witten equation and its virtual fundamental cycle'
+    year: 2007
+    coauthors: [fan-huijun, 'Tyler J. Jarvis']
+    primary_category: math.AG
+  - id: '0711.4254'
+    title: 'Uniruled symplectic divisors'
+    year: 2007
+    coauthors: ['Tian-Jun Li']
+    primary_category: math.SG
+  - id: '0710.5901'
+    title: 'Quantum Cohomology and Crepant Resolutions: A Conjecture'
+    year: 2007
+    coauthors: ['Tom Coates']
+    primary_category: math.AG
+  - id: '0611592'
+    title: 'Birational cobordism invariance of uniruled symplectic manifolds'
+    year: 2006
+    coauthors: [hu-jianxun, 'Tian-Jun Li']
+    doi: '10.1007/s00222-007-0097-3'
+    primary_category: math.SG
+  - id: '0605534'
+    title: 'A Stringy Product on Twisted Orbifold K-theory'
+    year: 2006
+    coauthors: ['Alejandro Adem', zhang-bin]
+    primary_category: math.AT
+  - id: '0504369'
+    title: 'Gerbes and twisted orbifold quantum cohomology'
+    year: 2005
+    coauthors: ['Jianzhong Pan', 'Xiaoqin Yin']
+    primary_category: math.AG
+  - id: '0409434'
+    title: 'Geometry and analysis of spin equations'
+    year: 2004
+    coauthors: [fan-huijun, 'Tyler J. Jarvis']
+    primary_category: math.DG
+  - id: '0201123'
+    title: 'Stringy orbifolds'
+    year: 2002
+    coauthors: []
+    primary_category: math.AG
+  - id: '0108195'
+    title: 'Cohomology ring of crepant resolutions of orbifolds'
+    year: 2001
+    coauthors: []
+    primary_category: math.AG
+  - id: '0107168'
+    title: 'Twisted Orbifold K-Theory'
+    year: 2001
+    coauthors: ['Alejandro Adem']
+    doi: '10.1007/s00220-003-0849-x'
+    journal: 'Commun.Math.Phys. 237 (2003) 533-556'
+    primary_category: math.AT
+  - id: '0103156'
+    title: 'Orbifold Gromov-Witten Theory'
+    year: 2001
+    coauthors: ['Weimin Chen']
+    primary_category: math.AG
+  - id: '0011149'
+    title: 'Stringy Geometry and Topology of Orbifolds'
+    year: 2000
+    coauthors: []
+    primary_category: math.AG
+  - id: '0005299'
+    title: 'Discrete torsion and twisted orbifold cohomology'
+    year: 2000
+    coauthors: []
+    primary_category: math.AG
+  - id: '0005198'
+    title: 'Orbifold Quantum Cohomology'
+    year: 2000
+    coauthors: ['Weimin Chen']
+    primary_category: math.AG
+  - id: '0004129'
+    title: 'A New Cohomology Theory for Orbifold'
+    year: 2000
+    coauthors: ['Weimin Chen']
+    doi: '10.1007/s00220-004-1089-4'
+    journal: 'Commun.Math.Phys. 248 (2004) 1-31'
+    primary_category: math.AG
+  - id: '9810039'
+    title: 'Surgery, quantum cohomology and birational geometry'
+    year: 1998
+    coauthors: []
+    primary_category: math.AG
+  - id: '9803036'
+    title: 'Symplectic surgery and Gromov-Witten invariants of Calabi-Yau 3-folds I'
+    year: 1998
+    coauthors: ['An-Min Li']
+    primary_category: math.AG
+  - id: '9611021'
+    title: 'Virtual neighborhoods and pseudo-holomorphic curves'
+    year: 1996
+    coauthors: []
+    primary_category: math.AG
+  - id: '9607223'
+    title: 'Quantum cohomology of projective bundles over P^n'
+    year: 1996
+    coauthors: ['Zhenbo Qin']
+    primary_category: math.AG
+  - id: '9606014'
+    title: 'Composition law and Nodal genus-2 curves in P^2'
+    year: 1996
+    coauthors: ['Sheldon Katz', 'Zhenbo Qin']
+    primary_category: math.AG
+  - id: '9601005'
+    title: 'Higher genus symplectic invariants and sigma model coupled with gravity'
+    year: 1996
+    coauthors: [tian-gang]
+    doi: '10.1007/s002220050192'
+    primary_category: math.AG
+  - id: '9510010'
+    title: 'Quantum cohomology of projective bundles over $\Pee^n$'
+    year: 1995
+    coauthors: ['Zhenbo Qin']
+    primary_category: math.AG
 activity:
-  total_papers: null
-  active_period: "1991-present"
+  total_papers: 57
+  published_count: 16
+  preprint_only_count: 41
+  active_period: '1991-present'
 external_ids: {}
 links:
   homepage: "https://person.zju.edu.cn/yongbinruan"

@@ -67,59 +67,75 @@ key_collaborators:
     topic: "LG mirror theorem via matrix factorizations"
     papers_count: 1
 publications:
-  - id: "2501.00394"
-    title: "Cluster algebras and quantum cohomology rings: A-type"
+  - id: '2501.00394'
+    title: 'Cluster algebras and quantum cohomology rings: A-type'
     year: 2025
-    coauthors: ["Yingchun Zhang"]
-  - id: "2302.13249"
-    title: "Quantization of the minimal nilpotent orbits and the quantum Hikita conjecture"
+    coauthors: ['Yingchun Zhang']
+    primary_category: math.AG
+  - id: '2302.13249'
+    title: 'Quantization of the minimal nilpotent orbits and the quantum Hikita conjecture'
     year: 2023
-    coauthors: ["Xiaojun Chen", "Sirui Yu"]
-  - id: "2302.10129"
-    title: "Semisimple FJRW theory of polynomials with two variables"
+    coauthors: ['Xiaojun Chen', 'Sirui Yu']
+    primary_category: math.RT
+  - id: '2302.10129'
+    title: 'Semisimple FJRW theory of polynomials with two variables'
     year: 2023
-    coauthors: ["Amanda Francis", "Yefeng Shen"]
-  - id: "2302.02402"
-    title: "Seiberg Duality conjecture for star-shaped quivers and finiteness of Gromov-Witten theory for D-type quivers"
+    coauthors: ['Amanda Francis', 'Yefeng Shen']
+    primary_category: math.AG
+  - id: '2302.02402'
+    title: 'Seiberg Duality conjecture for star-shaped quivers and finiteness of Gromov-Witten theory for D-type quivers'
     year: 2023
-    coauthors: ["Yingchun Zhang"]
-  - id: "2103.00313"
-    title: "Virasoro constraints in quantum singularity theories"
+    coauthors: ['Yingchun Zhang']
+    primary_category: math.AG
+  - id: '2103.00313'
+    title: 'Virasoro constraints in quantum singularity theories'
     year: 2021
-    coauthors: ["Yefeng Shen"]
-  - id: "2001.00536"
-    title: "A Landau-Ginzburg mirror theorem via matrix factorizations"
+    coauthors: ['Yefeng Shen']
+    primary_category: math.AG
+  - id: '2001.00536'
+    title: 'A Landau-Ginzburg mirror theorem via matrix factorizations'
     year: 2020
-    coauthors: ["Alexander Polishchuk", "Yefeng Shen", "Arkady Vaintrob"]
-  - id: "1910.05665"
-    title: "Dispersionless integrable hierarchy via Kodaira-Spencer gravity"
+    coauthors: ['Alexander Polishchuk', 'Yefeng Shen', 'Arkady Vaintrob']
+    primary_category: math.AG
+  - id: '1910.05665'
+    title: 'Dispersionless integrable hierarchy via Kodaira-Spencer gravity'
     year: 2019
-    coauthors: ["Si Li", "Xinxing Tang", "Philsang Yoo"]
-  - id: "1904.09426"
-    title: "Unfolding of orbifold LG B-models: a case study"
+    coauthors: ['Si Li', 'Xinxing Tang', 'Philsang Yoo']
+    doi: '10.1007/s00220-020-03809-x'
+    primary_category: math-ph
+  - id: '1904.09426'
+    title: 'Unfolding of orbifold LG B-models: a case study'
     year: 2019
-    coauthors: ["Si Li", "Yifan Li"]
-  - id: "1801.04560"
-    title: "G-twisted braces and orbifold Landau-Ginzburg models"
+    coauthors: ['Si Li', 'Yifan Li']
+    primary_category: math-ph
+  - id: '1801.04560'
+    title: 'G-twisted braces and orbifold Landau-Ginzburg models'
     year: 2018
-    coauthors: ["Si Li", "Yifan Li"]
-    journal: "Comm. Math. Phys. (2020)"
-  - id: "1503.01757"
-    title: "Landau-Ginzburg mirror symmetry conjecture"
+    coauthors: ['Si Li', 'Yifan Li']
+    doi: '10.1007/s00220-019-03653-8'
+    journal: 'Commun. Math. Phys. (2020)'
+    primary_category: math.QA
+  - id: '1503.01757'
+    title: 'Landau-Ginzburg mirror symmetry conjecture'
     year: 2015
-    coauthors: ["Si Li", "Yefeng Shen", "Rachel Webb"]
-    journal: "J. Eur. Math. Soc. 24 (2022)"
-  - id: "1402.4221"
-    title: "Blow-up formulae of high genus Gromov-Witten invariants in dimension six"
+    coauthors: ['Si Li', 'Yefeng Shen', 'Rachel Webb']
+    journal: 'J. Eur. Math. Soc. 24 (2022)'
+    primary_category: math.AG
+  - id: '1402.4221'
+    title: 'Blow-up formulae of high genus Gromov-Witten invariants in dimension six'
     year: 2014
-    coauthors: ["Jianxun Hu", "Hua-Zhong Ke", "Xiaoxia Qi"]
-  - id: "1308.3634"
-    title: "Orbifold Gromov-Witten invariants of weighted blow-up at smooth points"
+    coauthors: ['Jianxun Hu', 'Hua-Zhong Ke', 'Xiaoxia Qi']
+    primary_category: math.AG
+  - id: '1308.3634'
+    title: 'Orbifold Gromov-Witten invariants of weighted blow-up at smooth points'
     year: 2013
-    coauthors: ["Jianxun Hu"]
+    coauthors: ['Jianxun Hu']
+    primary_category: math.SG
 activity:
   total_papers: 12
-  active_period: "2013-present"
+  published_count: 3
+  preprint_only_count: 9
+  active_period: '2013-present'
 external_ids: {}
 links:
   homepage: "https://math.sysu.edu.cn/teacher/2906"

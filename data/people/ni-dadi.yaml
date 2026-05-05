@@ -65,41 +65,52 @@ key_collaborators:
     topic: "Infinitesimal deformations of Lie algebroid pairs"
     papers_count: 1
 publications:
-  - id: "2601.05183"
-    title: "Construction of $\\mathbb{S}^1$-Gerbes over the Stack $[G/G]$"
+  - id: '2601.05183'
+    title: 'Construction of $\mathbb{S}^1$-Gerbes over the Stack $[G/G]$'
     year: 2026
-    coauthors: ["Kaichuan Qi"]
-  - id: "2512.03860"
-    title: "Infinitesimal deformations of Lie algebroid pairs"
+    coauthors: ['Kaichuan Qi']
+    primary_category: math.SG
+  - id: '2512.03860'
+    title: 'Infinitesimal deformations of Lie algebroid pairs'
     year: 2025
-    coauthors: ["Zhuo Chen", "Chuangqiang Hu", "Maosong Xiang"]
-  - id: "2508.10723"
-    title: "Atiyah Classes in the Context of Generalized Complex Geometry"
+    coauthors: ['Zhuo Chen', 'Chuangqiang Hu', 'Maosong Xiang']
+    primary_category: math.DG
+  - id: '2508.10723'
+    title: 'Atiyah Classes in the Context of Generalized Complex Geometry'
     year: 2025
     coauthors: []
-    notes: "单独作者论文"
-  - id: "2506.18360"
-    title: "Atiyah constructions for Lie algebroid connections on fiber bundles"
+    primary_category: math.DG
+  - id: '2506.18360'
+    title: 'Atiyah constructions for Lie algebroid connections on fiber bundles'
     year: 2025
-    coauthors: ["Chen He", "Zhuo Chen"]
-  - id: "2502.08979"
-    title: "Hyperkähler structures on leaves of hyper-Lie Poisson manifolds"
+    coauthors: ['Chen He', 'Zhuo Chen']
+    primary_category: math.DG
+  - id: '2502.08979'
+    title: 'Hyperkähler structures on leaves of hyper-Lie Poisson manifolds'
     year: 2025
-    coauthors: ["Kaichuan Qi"]
-    notes: "2025 河南大学辛几何与数学物理研讨会报告主题 'Hyperkähler structures on the adjoint orbits of sl(2,C)' 的论文版本"
-  - id: "2201.13068"
-    title: "Internal symmetry of the $L_{\\leqslant 3}$ algebra arising from a Lie pair"
+    coauthors: ['Kaichuan Qi']
+    doi: '10.1016/j.geomphys.2026.105831'
+    journal: 'J. Geom. Phys. 225 (2026) 105831'
+    primary_category: math.DG
+  - id: '2201.13068'
+    title: 'Internal symmetry of the $L_{\leqslant 3}$ algebra arising from a Lie pair'
     year: 2022
-    coauthors: ["Jiahao Cheng", "Zhuo Chen", "Chen He"]
-    journal: "Pure and Applied Mathematics Quarterly"
-  - id: "1911.01388"
-    title: "Hopf algebras arising from dg manifolds"
+    coauthors: ['Jiahao Cheng', 'Zhuo Chen', 'Chen He']
+    doi: '10.4310/PAMQ.2023.v19.n4.a16'
+    journal: 'Pure Appl. Math. Q., Vol. 19 (2023) No. 4, 2195-2234'
+    primary_category: math.DG
+  - id: '1911.01388'
+    title: 'Hopf algebras arising from dg manifolds'
     year: 2019
-    coauthors: ["Jiahao Cheng", "Zhuo Chen"]
-    journal: "J. Algebra 584 (2021)"
+    coauthors: ['Jiahao Cheng', 'Zhuo Chen']
+    doi: '10.1016/j.jalgebra.2021.05.004'
+    journal: 'J. Algebra 584 (2021)'
+    primary_category: math.DG
 activity:
   total_papers: 7
-  active_period: "2019-present"
+  published_count: 3
+  preprint_only_count: 4
+  active_period: '2019-present'
 external_ids: {}
 links:
   email: "nidd@henu.edu.cn"

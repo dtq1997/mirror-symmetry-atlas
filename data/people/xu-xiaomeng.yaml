@@ -72,159 +72,177 @@ key_collaborators:
   topic: Courant algebroids, Dubrovin-Ugaglia
   papers_count: 5
 publications:
-- id: '2501.17516'
-  title: Stokes Phenomenon and Yangians
-  year: 2025
-  coauthors:
-  - tang-qian
-- id: '2403.17906'
-  title: WKB asymptotics of Stokes matrices, spectral curves and rhombus inequalities
-  year: 2024
-  coauthors:
-  - alekseev
-  - Andrew Neitzke
-  - Yan Zhou
-- id: '2402.07269'
-  title: The Boundary Condition for Some Isomonodromy Equations
-  year: 2024
-  coauthors:
-  - tang-qian
-- id: '2401.13911'
-  title: Explicit evaluation of the Stokes matrices for certain quantum confluent hypergeometric equations
-  year: 2024
-  coauthors:
-  - Jinghong Lin
-- id: '2401.12792'
-  title: The Alekseev-Meinrenken diffeomorphism arising from the Stokes phenomenon
-  year: 2024
-  coauthors: []
-- id: '2202.08054'
-  title: On the connection formula of a higher rank analog of Painlevé VI
-  year: 2022
-  coauthors: []
-- id: '2105.13149'
-  title: WKB approximation, crystals and combinatorics of Young tableaux
-  year: 2021
-  coauthors: []
-- id: '2012.15673'
-  title: Representations of quantum groups arising from the Stokes phenomenon
-  year: 2020
-  coauthors: []
-- id: '2006.03393'
-  title: Stokes phenomenon and reflection equations
-  year: 2020
-  coauthors: []
-- id: '1912.07196'
-  title: Regularized limits of Stokes matrices, isomonodromy deformation and crystal basis
-  year: 2019
-  coauthors: []
-- id: '1907.13417'
-  title: Quasi-Invariants in Characteristic $p$ and Twisted Quasi-Invariants
-  year: 2019
-  coauthors:
-  - Michael Ren
-- id: '1808.07654'
-  title: Stokes phenomenon and Yang-Baxter equations
-  year: 2018
-  coauthors: []
-- id: '1801.00123'
-  title: Frobenius manifolds and quantum groups
-  year: 2017
-  coauthors: []
-- id: '1702.08857'
-  title: Chern-Simons, Wess-Zumino and other cocycles from Kashiwara-Vergne and associators
-  year: 2017
-  coauthors:
-  - alekseev
-  - Florian Naef
-  - Chenchang Zhu
-- id: '1701.08113'
-  title: Stokes phenomenon, Gelfand-Zeitlin systems and relative Ginzburg-Weinstein linearization
-  year: 2017
-  coauthors: []
-- id: '1701.00959'
-  title: String principal bundles and Courant algebroids
-  year: 2017
-  coauthors:
-  - Yunhe Sheng
-  - Chenchang Zhu
-- id: '1507.07149'
-  title: Irregular Riemann-Hilbert correspondence, Alekseev-Meinrenken dynamical r-matrices and Drinfeld twists
-  year: 2015
-  coauthors: []
-- id: '1407.2071'
-  title: Generalized classical dynamical Yang-Baxter equations and moduli spaces of flat connections on surfaces
-  year: 2014
-  coauthors: []
-- id: '1312.4609'
-  title: Strong homotopy Lie algebras, homotopy Poisson manifolds and Courant algebroids
-  year: 2013
-  coauthors:
-  - Honglei Lang
-  - Yunhe Sheng
-- id: '1308.0100'
-  title: Current algebras from QP-manifolds in general dimensions
-  year: 2013
-  coauthors:
-  - Noriaki Ikeda
-- id: '1301.4805'
-  title: Canonical Functions and Differential Graded Symplectic Pairs in Supergeometry and AKSZ Sigma Models with Boundary
-  year: 2013
-  coauthors:
-  - Noriaki Ikeda
-- id: '1206.5466'
-  title: Cohomology for almost Lie algebroids
-  year: 2012
-  coauthors:
-  - Melchior Grützmann
-- id: '1206.2282'
-  title: Twisted Courant algebroids and coisotropic Cartan geometries
-  year: 2012
-  coauthors: []
-- id: '1205.5898'
-  title: The Pontryagin Class for Pre-Courant Algebroids
-  year: 2012
-  coauthors:
-  - Zhangju Liu
-  - Yunhe Sheng
-- id: '1204.5951'
-  title: Dirac and Generalized Complex Structures on Cartan Geometries
-  year: 2012
-  coauthors:
-  - Honglei Lang
+  - id: '2512.19381'
+    title: 'Asymptotic and monodromy problems for higher-order Painlevé III equations'
+    year: 2025
+    coauthors: ['Zikang Wang']
+    primary_category: math.CA
+  - id: '2501.17516'
+    title: 'Stokes Phenomenon and Yangians'
+    year: 2025
+    coauthors: [tang-qian]
+    primary_category: math.CA
+  - id: '2412.02281'
+    title: 'Explicit evaluation of the $q$-Stokes matrices for certain confluent hypergeometric $q$-difference equations'
+    year: 2024
+    coauthors: ['Jinghong Lin', 'Yiming Ma']
+    primary_category: math.CA
+  - id: '2411.01857'
+    title: 'On $\ell_p$-Vietoris-Rips complexes'
+    year: 2024
+    coauthors: ['Sergei O. Ivanov']
+    primary_category: math.AT
+  - id: '2403.17906'
+    title: 'WKB asymptotics of Stokes matrices, spectral curves and rhombus inequalities'
+    year: 2024
+    coauthors: [alekseev, 'Andrew Neitzke', 'Yan Zhou']
+    primary_category: math-ph
+  - id: '2402.07269'
+    title: 'The Boundary Condition for Some Isomonodromy Equations'
+    year: 2024
+    coauthors: [tang-qian]
+    primary_category: math.CA
+  - id: '2401.16043'
+    title: 'A new interpretation of Jimbo''s formula for Painlevé VI'
+    year: 2024
+    coauthors: ['Zikang Wang', 'Yuancheng Xie']
+    primary_category: math.CA
+  - id: '2401.13911'
+    title: 'Explicit evaluation of the Stokes matrices for certain quantum confluent hypergeometric equations'
+    year: 2024
+    coauthors: ['Jinghong Lin']
+    primary_category: math.CA
+  - id: '2401.12792'
+    title: 'The Alekseev-Meinrenken diffeomorphism arising from the Stokes phenomenon'
+    year: 2024
+    coauthors: []
+    primary_category: math.DG
+  - id: '2202.08054'
+    title: 'On the connection formula of a higher rank analog of Painlevé VI'
+    year: 2022
+    coauthors: []
+    primary_category: math-ph
+  - id: '2105.13149'
+    title: 'WKB approximation, crystals and combinatorics of Young tableaux'
+    year: 2021
+    coauthors: []
+    primary_category: math.RT
+  - id: '2012.15673'
+    title: 'Representations of quantum groups arising from the Stokes phenomenon'
+    year: 2020
+    coauthors: []
+    primary_category: math.RT
+  - id: '2006.03393'
+    title: 'Stokes phenomenon and reflection equations'
+    year: 2020
+    coauthors: []
+    primary_category: math.RT
+  - id: '1912.07196'
+    title: 'Regularized limits of Stokes matrices, isomonodromy deformation and crystal basis'
+    year: 2019
+    coauthors: []
+    primary_category: math.RT
+  - id: '1907.13417'
+    title: 'Quasi-Invariants in Characteristic $p$ and Twisted Quasi-Invariants'
+    year: 2019
+    coauthors: ['Michael Ren']
+    doi: '10.3842/SIGMA.2020.107'
+    journal: 'SIGMA 16 (2020), 107, 13 pages'
+    primary_category: math.RT
+  - id: '1808.07654'
+    title: 'Stokes phenomenon and Yang-Baxter equations'
+    year: 2018
+    coauthors: []
+    doi: '10.1007/s00220-019-03565-7'
+    primary_category: math-ph
+  - id: '1801.00123'
+    title: 'Frobenius manifolds and quantum groups'
+    year: 2017
+    coauthors: []
+    primary_category: math-ph
+  - id: '1702.08857'
+    title: 'Chern-Simons, Wess-Zumino and other cocycles from Kashiwara-Vergne and associators'
+    year: 2017
+    coauthors: [alekseev, 'Florian Naef', 'Chenchang Zhu']
+    doi: '10.1007/s11005-017-0985-4'
+    primary_category: math-ph
+  - id: '1701.08113'
+    title: 'Stokes phenomenon, Gelfand-Zeitlin systems and relative Ginzburg-Weinstein linearization'
+    year: 2017
+    coauthors: []
+    primary_category: math-ph
+  - id: '1701.00959'
+    title: 'String principal bundles and Courant algebroids'
+    year: 2017
+    coauthors: ['Yunhe Sheng', 'Chenchang Zhu']
+    primary_category: math.DG
+  - id: '1507.07149'
+    title: 'Irregular Riemann-Hilbert correspondence, Alekseev-Meinrenken dynamical r-matrices and Drinfeld twists'
+    year: 2015
+    coauthors: []
+    doi: '10.1093/imrn/rnx103'
+    primary_category: math-ph
+  - id: '1407.2071'
+    title: 'Generalized classical dynamical Yang-Baxter equations and moduli spaces of flat connections on surfaces'
+    year: 2014
+    coauthors: []
+    doi: '10.1007/s00220-015-2533-3'
+    journal: 'Commun. Math. Phys. (2016) 341: 2, 523-542'
+    primary_category: math.DG
+  - id: '1312.4609'
+    title: 'Strong homotopy Lie algebras, homotopy Poisson manifolds and Courant algebroids'
+    year: 2013
+    coauthors: ['Honglei Lang', 'Yunhe Sheng']
+    journal: 'Lett. Math. Phys. 107 (5) (2017), 861-885'
+    primary_category: math.DG
+  - id: '1308.0100'
+    title: 'Current algebras from QP-manifolds in general dimensions'
+    year: 2013
+    coauthors: ['Noriaki Ikeda']
+    primary_category: math-ph
+  - id: '1301.4805'
+    title: 'Canonical Functions and Differential Graded Symplectic Pairs in Supergeometry and AKSZ Sigma Models with Boundary'
+    year: 2013
+    coauthors: ['Noriaki Ikeda']
+    primary_category: math.SG
+  - id: '1206.5466'
+    title: 'Cohomology for almost Lie algebroids'
+    year: 2012
+    coauthors: ['Melchior Grützmann']
+    primary_category: math.DG
+  - id: '1206.2282'
+    title: 'Twisted Courant algebroids and coisotropic Cartan geometries'
+    year: 2012
+    coauthors: [xu-xiaomeng]
+    doi: '10.1016/j.geomphys.2014.03.002'
+    journal: 'J. Geom. Phys. 82 (2014), 124-131'
+    primary_category: math.DG
+  - id: '1205.5898'
+    title: 'The Pontryagin Class for Pre-Courant Algebroids'
+    year: 2012
+    coauthors: ['Zhangju Liu', 'Yunhe Sheng']
+    doi: '10.1016/j.geomphys.2016.02.007'
+    journal: 'J. Geom. Phys. 104 (2016), 148-162'
+    primary_category: math-ph
+  - id: '1204.5951'
+    title: 'Dirac and Generalized Complex Structures on Cartan Geometries'
+    year: 2012
+    coauthors: ['Honglei Lang']
+    primary_category: math.DG
 activity:
-  total_papers: 52
+  total_papers: 29
+  published_count: 8
+  preprint_only_count: 21
   h_index: 7
-  active_period: 2012-present
-  peak_period: 2020-present
-  quality_source: openalex + ruirui-2026
+  active_period: '2012-present'
+  peak_period: '2020-present'
+  quality_source: 'openalex + ruirui-2026'
   t1_papers: 0
   t2_papers: 0
   t3_papers: 4
   t4_papers: 0
   other_papers: 47
-  venue_samples:
-  - name: Advances in Mathematics
-    tier: T3
-    count: 2
-  - name: Communications in Mathematical Physics
-    tier: T3
-    count: 2
-  - name: arXiv (Cornell University)
-    tier: '-'
-    count: 25
-  - name: Journal of Geometry and Physics
-    tier: '-'
-    count: 5
-  - name: ArXiv.org
-    tier: '-'
-    count: 3
-  - name: International Mathematics Research Notices
-    tier: '-'
-    count: 2
-  - name: Letters in Mathematical Physics
-    tier: '-'
-    count: 2
+  venue_samples: [{'name': 'Advances in Mathematics', 'tier': 'T3', 'count': 2}, {'name': 'Communications in Mathematical Physics', 'tier': 'T3', 'count': 2}, {'name': 'arXiv (Cornell University)', 'tier': '-', 'count': 25}, {'name': 'Journal of Geometry and Physics', 'tier': '-', 'count': 5}, {'name': 'ArXiv.org', 'tier': '-', 'count': 3}, {'name': 'International Mathematics Research Notices', 'tier': '-', 'count': 2}, {'name': 'Letters in Mathematical Physics', 'tier': '-', 'count': 2}]
   oa_total_papers: 51
 external_ids:
   openalex: A5019142880

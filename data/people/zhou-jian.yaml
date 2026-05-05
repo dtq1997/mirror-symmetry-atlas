@@ -63,7 +63,10 @@ students:
   - ke-huazhong
 key_collaborators: []
 activity:
-  active_period: "1995-present"
+  total_papers: 10
+  published_count: 2
+  preprint_only_count: 8
+  active_period: '1995-present'
 external_ids:
   mathgenealogy: "1264"
 links: {}
@@ -71,6 +74,59 @@ personal_notes: |
   2026 HUST 会议报告: From probability theory to Gromov-Witten theory, and back
   Extended matrix models, GW theory of the projective line.
   培养了郭帅、张庆生 [待验证]、王知远 [待验证] 等人，形成以 GW theory 和可积系统为核心的学术 cluster。
+publications:
+  - id: '2511.10082'
+    title: 'Total partition function with fermionic number fluxes of local toric Calabi--Yau threefold and KP integrability'
+    year: 2025
+    coauthors: [wang-zhiyuan, yang-chenglang]
+    primary_category: math-ph
+  - id: '2401.12726'
+    title: 'On a Proof of the ADKMV Conjecture -- $3$-KP Integrability of the Topological Vertex'
+    year: 2024
+    coauthors: [wang-zhiyuan, yang-chenglang]
+    primary_category: math-ph
+  - id: '2401.11717'
+    title: 'Möbius Inversion and Duality for Summations of Stable Graphs'
+    year: 2024
+    coauthors: [wang-zhiyuan]
+    primary_category: math.CO
+  - id: '2109.03394'
+    title: 'Topological 1D Gravity, KP Hierarchy, and Orbifold Euler Characteristics of $\overline{\mathcal M}_{g,n}$'
+    year: 2021
+    coauthors: [wang-zhiyuan]
+    primary_category: math-ph
+  - id: '2108.10498'
+    title: 'A formalism of abstract quantum field theory of summation of fat graphs'
+    year: 2021
+    coauthors: [wang-zhiyuan]
+    primary_category: math-ph
+  - id: '1905.03436'
+    title: 'Fourier-Like Transforms of Stable Graphs and Holomorphic Anomaly Equations'
+    year: 2019
+    coauthors: [wang-zhiyuan]
+    primary_category: math-ph
+  - id: '1904.09071'
+    title: 'On Itzykson-Zuber Ansatz'
+    year: 2019
+    coauthors: [zhang-qing]
+    doi: '10.1007/JHEP09(2019)075'
+    primary_category: math-ph
+  - id: '1812.10638'
+    title: 'Orbifold Euler Characteristics of $\overline{\mathcal M}_{g,n}$'
+    year: 2018
+    coauthors: [wang-zhiyuan]
+    primary_category: math.AG
+  - id: '1808.05343'
+    title: 'A Unified Approach to Holomorphic Anomaly Equations and Quantum Spectral Curves'
+    year: 2018
+    coauthors: [wang-zhiyuan]
+    doi: '10.1007/JHEP04(2019)135'
+    primary_category: math-ph
+  - id: '1208.3270'
+    title: 'Gopakumar-Vafa BPS invariants, Hilbert schemes and quasimodular forms. I'
+    year: 2012
+    coauthors: [guo-shuai]
+    primary_category: math.AG
 sources:
   - label: "Math Genealogy"
     url: "https://www.mathgenealogy.org/id.php?id=1264"

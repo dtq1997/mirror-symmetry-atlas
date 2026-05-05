@@ -51,37 +51,52 @@ key_collaborators:
     topic: "BV operators of Gerstenhaber algebras on toric varieties"
     papers_count: 1
 publications:
-  - id: "2104.12685"
-    title: "BV operators of the Gerstenhaber algebras of holomorphic polyvector fields on toric varieties"
+  - id: '2104.12685'
+    title: 'BV operators of the Gerstenhaber algebras of holomorphic polyvector fields on toric varieties'
     year: 2021
-    coauthors: ["Yang Deng"]
-  - id: "2010.07053"
-    title: "Holomorphic polyvector fields on toric varieties"
+    coauthors: ['Yang Deng']
+    primary_category: math.AG
+  - id: '2010.07053'
+    title: 'Holomorphic polyvector fields on toric varieties'
     year: 2020
     coauthors: []
-  - id: "1911.04331"
-    title: "Poisson Cohomology of holomorphic toric Poisson manifolds. II"
+    primary_category: math.AG
+  - id: '1911.04331'
+    title: 'Poisson Cohomology of holomorphic toric Poisson manifolds. II'
     year: 2019
     coauthors: []
-  - id: "1802.01937"
-    title: "Atiyah classes of Lie bialgebras"
+    primary_category: math.AG
+  - id: '1802.01937'
+    title: 'Atiyah classes of Lie bialgebras'
     year: 2018
     coauthors: []
-  - id: "1611.08485"
-    title: "Poisson Cohomology of holomorphic toric Poisson manifolds. I"
+    journal: 'Journal of Lie Theory (2019)'
+    primary_category: math.QA
+  - id: '1611.08485'
+    title: 'Poisson Cohomology of holomorphic toric Poisson manifolds. I'
     year: 2016
     coauthors: []
-  - id: "1302.2857"
-    title: "From Hypercomplex to Holomorphic Symplectic Structures"
+    doi: '10.1016/j.jalgebra.2019.03.001'
+    primary_category: math-ph
+  - id: '1302.2857'
+    title: 'From Hypercomplex to Holomorphic Symplectic Structures'
     year: 2013
-    coauthors: ["Mathieu Stiénon"]
-  - id: "1001.1082"
-    title: "Poisson Cohomology of Del Pezzo surfaces"
+    coauthors: ['Mathieu Stiénon']
+    doi: '10.1016/j.geomphys.2015.06.008'
+    journal: 'J. Geom. Phys. 96 (2015), 187-203'
+    primary_category: math.DG
+  - id: '1001.1082'
+    title: 'Poisson Cohomology of Del Pezzo surfaces'
     year: 2010
-    coauthors: ["Ping Xu"]
+    coauthors: ['Ping Xu']
+    doi: '10.1016/j.jalgebra.2010.12.017'
+    journal: 'Journal of Algebra (2011)'
+    primary_category: math-ph
 activity:
   total_papers: 7
-  active_period: "2010-present"
+  published_count: 4
+  preprint_only_count: 3
+  active_period: '2010-present'
 external_ids: {}
 links:
   homepage: "https://maths.whu.edu.cn/info/4091/132711.htm"

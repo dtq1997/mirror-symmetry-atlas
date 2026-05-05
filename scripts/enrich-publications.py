@@ -48,6 +48,18 @@ def enrich_person(slug, person, all_people, threshold=10, fetch_delay=4, target_
     if not candidates:
         return None, 'no candidates'
 
+    # Auto-detect unique name: when name is rare (low candidate count and
+    # every candidate trivially contains the target name in author list),
+    # known coauthor signal isn't necessary - drop threshold.
+    effective_threshold = threshold
+    # Relax threshold for likely-unique names, BUT only when person metadata
+    # is rich enough that math-cat alone is meaningful. Otherwise we pull in
+    # papers from a different homonym (e.g. zhang-wei, li-ao with empty
+    # research_areas would otherwise hoover up dozens of unrelated papers).
+    has_metadata = bool(person.get('research_areas')) or bool(person.get('key_collaborators'))
+    if len(candidates) < 100 and has_metadata:
+        effective_threshold = max(5, threshold - 5)
+
     existing = {(p.get('id') or '').split('v')[0]: p
                 for p in (person.get('publications') or [])}
 
@@ -55,7 +67,7 @@ def enrich_person(slug, person, all_people, threshold=10, fetch_delay=4, target_
     accepted = []
     for c in candidates:
         score, signals = disambiguate(person, c, all_people, target_name=target_name)
-        if score >= threshold:
+        if score >= effective_threshold:
             # Drop self from coauthors
             coauthors = []
             for a in c['authors']:
@@ -121,23 +133,103 @@ def enrich_person(slug, person, all_people, threshold=10, fetch_delay=4, target_
     }, None
 
 
+def _yaml_squote(s):
+    """Wrap string in YAML single quotes (no escape interpretation)."""
+    return "'" + str(s).replace("'", "''") + "'"
+
+
+def _format_publications_block(pubs):
+    """Render a publications list using the project's existing 2-space-indent dash style.
+    Uses single quotes throughout so backslash-laden LaTeX titles round-trip safely."""
+    lines = ['publications:']
+    for p in pubs:
+        pid = p.get('id')
+        if not pid:
+            continue
+        lines.append(f'  - id: {_yaml_squote(pid)}')
+        lines.append(f'    title: {_yaml_squote(p.get("title") or "")}')
+        lines.append(f'    year: {p.get("year")}')
+        coauthors = p.get('coauthors') or []
+        if coauthors:
+            inner = ', '.join(_coauthor_inline(c) for c in coauthors)
+            lines.append(f'    coauthors: [{inner}]')
+        else:
+            lines.append('    coauthors: []')
+        if p.get('doi'):
+            lines.append(f'    doi: {_yaml_squote(p["doi"])}')
+        if p.get('journal'):
+            lines.append(f'    journal: {_yaml_squote(p["journal"])}')
+        if p.get('primary_category'):
+            lines.append(f'    primary_category: {p["primary_category"]}')
+    return '\n'.join(lines)
+
+
+def _coauthor_inline(c):
+    """Render a coauthor for an inline flow-style list. Slugs (lowercase + dash) bare,
+    raw names quoted."""
+    s = str(c)
+    if s and s.replace('-', '').replace('_', '').isalnum() and s.islower():
+        return s
+    return _yaml_squote(s)
+
+
+def _format_activity_block(activity):
+    lines = ['activity:']
+    order = ['total_papers', 'published_count', 'preprint_only_count', 'h_index',
+             'mathscinet_citations', 'google_scholar_citations',
+             'active_period', 'peak_period', 'phd_students',
+             'academic_descendants', 'last_arxiv_paper']
+    keys = order + [k for k in activity if k not in order]
+    for k in keys:
+        v = activity.get(k)
+        if v is None:
+            continue
+        if isinstance(v, str):
+            lines.append(f'  {k}: {_yaml_squote(v)}')
+        else:
+            lines.append(f'  {k}: {v}')
+    return '\n'.join(lines)
+
+
+def _replace_block(text, block_name, new_block):
+    """Replace a top-level YAML block (lines starting with `block_name:` until
+    the next top-level key) with `new_block`. If absent, append before the next
+    sensible top-level key."""
+    import re
+    pattern = re.compile(rf'(^{block_name}:.*?)(?=^[A-Za-z_][\w]*:|\Z)',
+                         re.MULTILINE | re.DOTALL)
+    if pattern.search(text):
+        # Use a lambda to avoid backreference interpretation in new_block
+        return pattern.sub(lambda _m: new_block + '\n', text, count=1)
+    # Append before sources: or external_ids: or end of file
+    for anchor in ['sources:', 'external_ids:', 'links:', 'personal_notes:']:
+        m = re.search(rf'^{anchor}', text, re.MULTILINE)
+        if m:
+            return text[:m.start()] + new_block + '\n' + text[m.start():]
+    return text.rstrip() + '\n' + new_block + '\n'
+
+
 def write_back(slug, person, result):
     new_publications = result['merged_publications'] + result['kept_extra']
-    person2 = deepcopy(person)
-    person2['publications'] = new_publications
-    activity = person2.get('activity') or {}
+    activity = dict(person.get('activity') or {})
     activity['total_papers'] = result['final_count']
     activity['published_count'] = result['published_count']
     activity['preprint_only_count'] = result['preprint_count']
-    person2['activity'] = activity
+
     path = os.path.join(PEOPLE_DIR, f'{slug}.yaml')
+    with open(path, 'r') as f:
+        text = f.read()
+
+    text = _replace_block(text, 'publications', _format_publications_block(new_publications))
+    text = _replace_block(text, 'activity', _format_activity_block(activity))
+
     with open(path, 'w') as f:
-        yaml.dump(person2, f, allow_unicode=True, default_flow_style=False, sort_keys=False, width=200)
+        f.write(text)
 
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument('slug', nargs='?')
+    parser.add_argument('slug', nargs='*')
     parser.add_argument('--all', action='store_true')
     parser.add_argument('--threshold', type=int, default=10)
     parser.add_argument('--delay', type=int, default=4)
@@ -145,7 +237,7 @@ def main():
     args = parser.parse_args()
 
     all_people = load_all_people()
-    targets = list(all_people.keys()) if args.all else ([args.slug] if args.slug else [])
+    targets = list(all_people.keys()) if args.all else (args.slug or [])
     if not targets:
         print('Specify slug or --all', file=sys.stderr)
         sys.exit(1)

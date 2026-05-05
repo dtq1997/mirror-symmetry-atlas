@@ -44,25 +44,37 @@ key_collaborators:
   - person: zhang-qingsheng
     topic: "spectral curves"
 publications:
-  - id: "2502.09302"
-    title: "The bilinear fermionic form for KP and BKP hierarchies"
+  - id: '2605.02643'
+    title: 'Generalized Kontsevich model, topological recursion, and $r$-spin theory'
+    year: 2026
+    coauthors: [guo-shuai, yang-chenglang, zhang-qing]
+    primary_category: math-ph
+  - id: '2502.09302'
+    title: 'The bilinear fermionic form for KP and BKP hierarchies'
     year: 2025
     coauthors: [guo-shuai, yang-chenglang]
-  - id: "2407.20010"
-    title: "Schröder Paths, Their Generalizations and Knot Invariants"
+    primary_category: math-ph
+  - id: '2407.20010'
+    title: 'Schröder Paths, Their Generalizations and Knot Invariants'
     year: 2024
     coauthors: [tang-qian, yang-chenglang]
-  - id: "2309.12271"
-    title: "A generalization of the Witten conjecture through spectral curve"
+    primary_category: math.CO
+  - id: '2309.12271'
+    title: 'A generalization of the Witten conjecture through spectral curve'
     year: 2023
     coauthors: [guo-shuai, zhang-qingsheng]
-  - id: "2211.08687"
-    title: "Kac-Schwarz Operators of Type B, Quantum Spectral Curves, and Spin Hurwitz Numbers"
+    primary_category: math-ph
+  - id: '2211.08687'
+    title: 'Kac-Schwarz Operators of Type B, Quantum Spectral Curves, and Spin Hurwitz Numbers'
     year: 2022
     coauthors: [wang-zhiyuan, yang-chenglang]
+    doi: '10.1016/j.geomphys.2023.104831'
+    primary_category: math-ph
 activity:
-  total_papers: 4
-  active_period: "2022-present"
+  total_papers: 5
+  published_count: 1
+  preprint_only_count: 4
+  active_period: '2022-present'
 external_ids: {}
 links:
   homepage: "https://mathephor-ceji.github.io/"

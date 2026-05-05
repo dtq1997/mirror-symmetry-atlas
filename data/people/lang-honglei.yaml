@@ -80,101 +80,142 @@ key_collaborators:
     topic: "Dirac generating operators of split Courant algebroids"
     papers_count: 1
 publications:
-  - id: "2602.02041"
-    title: "Relative Rota-Baxter operators and crossed homomorphisms on Lie 2-groups"
+  - id: '2602.02041'
+    title: 'Relative Rota-Baxter operators and crossed homomorphisms on Lie 2-groups'
     year: 2026
-    coauthors: ["Shining Wang"]
-  - id: "2506.20276"
-    title: "Reflections on Rota-Baxter Lie algebras, the classical reflection equation and Poisson homogeneous spaces"
+    coauthors: ['Shining Wang']
+    primary_category: math-ph
+  - id: '2506.20276'
+    title: 'Reflections on Rota-Baxter Lie algebras, the classical reflection equation and Poisson homogeneous spaces'
     year: 2025
-    coauthors: ["Yunhe Sheng"]
-  - id: "2503.05080"
-    title: "Poisson homogeneous spaces of Poisson 2-groups"
+    coauthors: ['Yunhe Sheng']
+    primary_category: math-ph
+  - id: '2503.05080'
+    title: 'Poisson homogeneous spaces of Poisson 2-groups'
     year: 2025
-    coauthors: ["Zhangju Liu"]
-  - id: "2302.01294"
-    title: "The weak Lie 2-algebra of multiplicative forms on a quasi-Poisson groupoid"
+    coauthors: ['Zhangju Liu']
+    primary_category: math-ph
+  - id: '2302.01294'
+    title: 'The weak Lie 2-algebra of multiplicative forms on a quasi-Poisson groupoid'
     year: 2023
-    coauthors: ["Zhuo Chen", "Zhangju Liu"]
-    journal: "Comm. Math. Phys. (2024)"
-  - id: "2206.10091"
-    title: "Dirac generating operators of split Courant algebroids"
+    coauthors: ['Zhuo Chen', 'Zhangju Liu']
+    journal: 'Comm. Math. Phys. (2024)'
+    primary_category: math.DG
+  - id: '2206.10091'
+    title: 'Dirac generating operators of split Courant algebroids'
     year: 2022
-    coauthors: ["Liqiang Cai", "Zhuo Chen", "Maosong Xiang"]
-  - id: "2201.06242"
-    title: "Multiplicative forms on Poisson groupoids"
+    coauthors: ['Liqiang Cai', 'Zhuo Chen', 'Maosong Xiang']
+    primary_category: math.DG
+  - id: '2201.06242'
+    title: 'Multiplicative forms on Poisson groupoids'
     year: 2022
-    coauthors: ["Zhuo Chen", "Zhangju Liu"]
-    journal: "Sci. China Math. (2025)"
-  - id: "2112.07902"
-    title: "Factorizable Lie bialgebras, quadratic Rota-Baxter Lie algebras and Rota-Baxter Lie bialgebras"
+    coauthors: ['Zhuo Chen', 'Zhangju Liu']
+    journal: 'Sci. China Math. (2025)'
+    primary_category: math.DG
+  - id: '2112.07902'
+    title: 'Factorizable Lie bialgebras, quadratic Rota-Baxter Lie algebras and Rota-Baxter Lie bialgebras'
     year: 2021
-    coauthors: ["Yunhe Sheng"]
-  - id: "2103.17073"
-    title: "A review of Lie 2-algebras"
+    coauthors: ['Yunhe Sheng']
+    doi: '10.1007/s00220-022-04501-y'
+    journal: 'Comm. Math. Phys. 397 (2023), 763-791'
+    primary_category: math-ph
+  - id: '2103.17073'
+    title: 'A review of Lie 2-algebras'
     year: 2021
-    coauthors: ["Zhangju Liu"]
-  - id: "2102.07177"
-    title: "The Atiyah class of generalized holomorphic vector bundles"
+    coauthors: ['Zhangju Liu']
+    doi: '10.11845/sxjz.2020003a.'
+    journal: 'Advances in Mathematics (China), 49 (2020), no. 6, 641-674'
+    primary_category: math.RA
+  - id: '2102.07177'
+    title: 'The Atiyah class of generalized holomorphic vector bundles'
     year: 2021
-    coauthors: ["Xiao Jia", "Zhangju Liu"]
-  - id: "2009.03492"
-    title: "Integration and geometrization of Rota-Baxter Lie algebras"
+    coauthors: ['Xiao Jia', 'Zhangju Liu']
+    primary_category: math.AG
+  - id: '2009.03492'
+    title: 'Integration and geometrization of Rota-Baxter Lie algebras'
     year: 2020
-    coauthors: ["Li Guo", "Yunhe Sheng"]
-  - id: "2003.13384"
-    title: "On the reduced space of multiplicative multivectors"
+    coauthors: ['Li Guo', 'Yunhe Sheng']
+    doi: '10.1016/j.aim.2021.107834'
+    journal: 'Adv. Math. 387 (2021), 107834'
+    primary_category: math.QA
+  - id: '2003.13384'
+    title: 'On the reduced space of multiplicative multivectors'
     year: 2020
-    coauthors: ["Zhuo Chen", "Zhangju Liu"]
-  - id: "2002.03656"
-    title: "Linearization of the higher analogue of Courant algebroids"
+    coauthors: ['Zhuo Chen', 'Zhangju Liu']
+    primary_category: math.AG
+  - id: '2002.03656'
+    title: 'Linearization of the higher analogue of Courant algebroids'
     year: 2020
-    coauthors: ["Yunhe Sheng"]
-    journal: "J. Geom. Mech. 12 (2020), 585-606"
-  - id: "1910.12225"
-    title: "On Lie Bialgebroid Crossed Modules"
+    coauthors: ['Yunhe Sheng']
+    doi: '10.3934/jgm.2020025'
+    journal: 'J. Geom. Mech. 2020, 12(4): 585-606'
+    primary_category: math-ph
+  - id: '1910.12225'
+    title: 'On Lie Bialgebroid Crossed Modules'
     year: 2019
-    coauthors: ["Yu Qiao", "Yanbin Yin"]
-  - id: "1904.05319"
-    title: "Affine structures on Lie groupoids"
+    coauthors: ['Yu Qiao', 'Yanbin Yin']
+    primary_category: math.QA
+  - id: '1904.05319'
+    title: 'Affine structures on Lie groupoids'
     year: 2019
-    coauthors: ["Zhangju Liu", "Yunhe Sheng"]
-  - id: "1802.09923"
-    title: "Coadjoint orbits of Lie groupoids"
+    coauthors: ['Zhangju Liu', 'Yunhe Sheng']
+    journal: 'Pacific J. Math. Vol. 307 (2020), No. 2, 353-382'
+    primary_category: math.DG
+  - id: '1802.09923'
+    title: 'Coadjoint orbits of Lie groupoids'
     year: 2018
-    coauthors: ["Zhangju Liu"]
-    journal: "J. Geom. Phys. 129 (2018), 217-232"
-  - id: "1705.10316"
-    title: "VB-Courant algebroids, E-Courant algebroids and generalized geometry"
+    coauthors: ['Zhangju Liu']
+    doi: '10.1016/j.geomphys.2018.03.011'
+    journal: 'J. Geom. Phys. 129 (2018), 217-232'
+    primary_category: math.DG
+  - id: '1705.10316'
+    title: 'VB-Courant algebroids, E-Courant algebroids and generalized geometry'
     year: 2017
-    coauthors: ["Yunhe Sheng", "Aissa Wade"]
-  - id: "1611.00672"
-    title: "Double Principal Bundles"
+    coauthors: ['Yunhe Sheng', 'Aissa Wade']
+    doi: '10.4153/CMB-2017-079-7'
+    journal: 'Can. Math. Bull. 61 (2018) 588-607'
+    primary_category: math.DG
+  - id: '1611.00672'
+    title: 'Double Principal Bundles'
     year: 2016
-    coauthors: ["Yanpeng Li", "Zhangju Liu"]
-  - id: "1609.00984"
-    title: "Atiyah classes of strongly homotopy Lie pairs"
+    coauthors: ['Yanpeng Li', 'Zhangju Liu']
+    doi: '10.1016/j.geomphys.2021.104354'
+    journal: 'Journal of Geometry and Physics, 170 (2021), 104354'
+    primary_category: math.DG
+  - id: '1609.00984'
+    title: 'Atiyah classes of strongly homotopy Lie pairs'
     year: 2016
-    coauthors: ["Zhuo Chen", "Maosong Xiang"]
-  - id: "1505.00403"
-    title: "Integration of derivations for Lie $2$-algebras"
+    coauthors: ['Zhuo Chen', 'Maosong Xiang']
+    doi: '10.1142/S1005386719000178'
+    journal: 'Algebra Colloquium 2019'
+    primary_category: math.QA
+  - id: '1505.00403'
+    title: 'Integration of derivations for Lie $2$-algebras'
     year: 2015
-    coauthors: ["Zhangju Liu", "Yunhe Sheng"]
-  - id: "1402.7226"
-    title: "Crossed modules for Lie 2-algebras"
+    coauthors: ['Zhangju Liu', 'Yunhe Sheng']
+    journal: 'Transformation Groups, 21 (2016), 1, 129-152'
+    primary_category: math.DG
+  - id: '1402.7226'
+    title: 'Crossed modules for Lie 2-algebras'
     year: 2014
-    coauthors: ["Zhangju Liu"]
-  - id: "1312.4609"
-    title: "Strong homotopy Lie algebras, homotopy Poisson manifolds and Courant algebroids"
+    coauthors: ['Zhangju Liu']
+    primary_category: math.RA
+  - id: '1312.4609'
+    title: 'Strong homotopy Lie algebras, homotopy Poisson manifolds and Courant algebroids'
     year: 2013
-    coauthors: ["Yunhe Sheng", "Xiaomeng Xu"]
-  - id: "1204.5951"
-    title: "Dirac and Generalized Complex Structures on Cartan Geometries"
+    coauthors: ['Yunhe Sheng', 'Xiaomeng Xu']
+    journal: 'Lett. Math. Phys. 107 (5) (2017), 861-885'
+    primary_category: math.DG
+  - id: '1204.5951'
+    title: 'Dirac and Generalized Complex Structures on Cartan Geometries'
     year: 2012
-    coauthors: ["Xiaomeng Xu"]
+    coauthors: ['Xiaomeng Xu']
+    primary_category: math.DG
 activity:
   total_papers: 22
-  active_period: "2012-present"
+  published_count: 13
+  preprint_only_count: 9
+  active_period: '2012-present'
   nsfc_grants: 1
 external_ids: {}
 links:

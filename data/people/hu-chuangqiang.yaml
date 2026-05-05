@@ -67,69 +67,81 @@ key_collaborators:
     topic: "Optimal function field towers, Drinfeld modular curves"
     papers_count: 1
 publications:
-  - id: "2604.04124"
-    title: "Relation between Anderson Generating Functions and Weil Pairing"
+  - id: '2604.04124'
+    title: 'Relation between Anderson Generating Functions and Weil Pairing'
     year: 2026
-    coauthors: ["Yixuan Ou-Yang"]
-  - id: "2603.23930"
-    title: "A Note on Cyclotomic Function Fields with Quadratic Modulus"
+    coauthors: ['Yixuan Ou-Yang']
+    primary_category: math.NT
+  - id: '2603.23930'
+    title: 'A Note on Cyclotomic Function Fields with Quadratic Modulus'
     year: 2026
-    coauthors: ["Haojie Chen"]
-  - id: "2512.03860"
-    title: "Infinitesimal deformations of Lie algebroid pairs"
+    coauthors: ['Haojie Chen']
+    primary_category: math.NT
+  - id: '2512.03860'
+    title: 'Infinitesimal deformations of Lie algebroid pairs'
     year: 2025
-    coauthors: ["Dadi Ni", "Zhuo Chen", "Maosong Xiang"]
-  - id: "2510.27159"
-    title: "New optimal function field towers over finite fields of quartic power"
+    coauthors: ['Dadi Ni', 'Zhuo Chen', 'Maosong Xiang']
+    primary_category: math.DG
+  - id: '2510.27159'
+    title: 'New optimal function field towers over finite fields of quartic power'
     year: 2025
-    coauthors: ["Xiuwu Zhu"]
-  - id: "2410.10124"
-    title: "Groupoids derived from the simple elliptic singularities"
+    coauthors: ['Xiuwu Zhu']
+    primary_category: math.NT
+  - id: '2410.10124'
+    title: 'Groupoids derived from the simple elliptic singularities'
     year: 2024
-    coauthors: ["Stephen S.-T. Yau", "Huaiqing Zuo"]
-  - id: "2409.09384"
-    title: "On the k-th Tjurina number of weighted homogeneous singularities"
+    coauthors: ['Stephen S.-T. Yau', 'Huaiqing Zuo']
+    primary_category: math.AG
+  - id: '2409.09384'
+    title: 'On the k-th Tjurina number of weighted homogeneous singularities'
     year: 2024
-    coauthors: ["Stephen S.-T. Yau", "Huaiqing Zuo"]
-  - id: "2312.16919"
-    title: "Drinfeld Module and Weil pairing over Dedekind domain of class number two"
+    coauthors: ['Stephen S.-T. Yau', 'Huaiqing Zuo']
+    primary_category: math.AG
+  - id: '2312.16919'
+    title: 'Drinfeld Module and Weil pairing over Dedekind domain of class number two'
     year: 2023
-    coauthors: ["Xiao-Min Huang"]
-  - id: "2309.00432"
-    title: "Drinfeld Modular Curves Subordinate to Conjugacy Classes of Nilpotent Upper-Triangular Matrices"
+    coauthors: ['Xiao-Min Huang']
+    primary_category: math.NT
+  - id: '2309.00432'
+    title: 'Drinfeld Modular Curves Subordinate to Conjugacy Classes of Nilpotent Upper-Triangular Matrices'
     year: 2023
-    coauthors: ["Zhuo Chen", "Tao Zhang", "Xiaopeng Zheng"]
-  - id: "1912.02668"
-    title: "A Modular Interpretation of BBGS Towers"
+    coauthors: ['Zhuo Chen', 'Tao Zhang', 'Xiaopeng Zheng']
+    primary_category: math.NT
+  - id: '1912.02668'
+    title: 'A Modular Interpretation of BBGS Towers'
     year: 2019
-    coauthors: ["Rui Chen", "Zhuo Chen"]
-  - id: "1911.04269"
-    title: "Weierstrass Semigroups From a Tower of Function Fields Attaining the Drinfeld-Vladut Bound"
+    coauthors: ['Rui Chen', 'Zhuo Chen']
+    primary_category: math.NT
+  - id: '1911.04269'
+    title: 'Weierstrass Semigroups From a Tower of Function Fields Attaining the Drinfeld-Vladut Bound'
     year: 2019
-    coauthors: ["Shudi Yang"]
-  - id: "1810.11969"
-    title: "Complete Weight Distribution and MacWilliams Identities for Asymmetric Quantum Codes"
+    coauthors: ['Shudi Yang']
+    primary_category: math.NT
+  - id: '1810.11969'
+    title: 'Complete Weight Distribution and MacWilliams Identities for Asymmetric Quantum Codes'
     year: 2018
-    coauthors: ["Shudi Yang", "Stephen S.-T. Yau"]
-  - id: "1706.00313"
-    title: "Multi-point Codes from the GGS Curves"
+    coauthors: ['Shudi Yang', 'Stephen S.-T. Yau']
+  - id: '1706.00313'
+    title: 'Multi-point Codes from the GGS Curves'
     year: 2017
-    coauthors: ["Shudi Yang"]
-  - id: "1705.05213"
-    title: "Weierstrass Pure Gaps From a Quotient of the Hermitian Curve"
+    coauthors: ['Shudi Yang']
+  - id: '1705.05213'
+    title: 'Weierstrass Pure Gaps From a Quotient of the Hermitian Curve'
     year: 2017
-    coauthors: ["Shudi Yang"]
-  - id: "1607.05887"
-    title: "Weierstrass Semigroups from Kummer Extensions"
+    coauthors: ['Shudi Yang']
+  - id: '1607.05887'
+    title: 'Weierstrass Semigroups from Kummer Extensions'
     year: 2016
-    coauthors: ["Shudi Yang"]
-  - id: "1607.05462"
-    title: "Multi-point Codes over Kummer Extensions"
+    coauthors: ['Shudi Yang']
+  - id: '1607.05462'
+    title: 'Multi-point Codes over Kummer Extensions'
     year: 2016
     coauthors: []
 activity:
-  total_papers: 17
-  active_period: "2016-present"
+  total_papers: 15
+  published_count: 0
+  preprint_only_count: 15
+  active_period: '2016-present'
 external_ids: {}
 links:
   sysu_announcement: "https://math.sysu.edu.cn/"

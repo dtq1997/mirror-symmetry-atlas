@@ -71,37 +71,40 @@ key_collaborators:
     papers_count: 1
     notes: "四川大学"
 publications:
-  - id: "2510.15662"
-    title: "Topological Vertex for Symmetric matter"
+  - id: '2510.15662'
+    title: 'Topological Vertex for Symmetric matter'
     year: 2025
-    coauthors: ["Sung-Soo Kim", "Futoshi Yagi", "Rui-Dong Zhu"]
-  - id: "2412.19655"
-    title: "O-vertex, O7$^+$-plane, and Topological Vertex"
+    coauthors: ['Sung-Soo Kim', 'Futoshi Yagi', 'Rui-Dong Zhu']
+    primary_category: hep-th
+  - id: '2412.19655'
+    title: 'O-vertex, O7$^+$-plane, and Topological Vertex'
     year: 2024
-    coauthors: ["Sung-Soo Kim", "Futoshi Yagi", "Rui-Dong Zhu"]
-    journal: "JHEP 04 (2025) 182"
-  - id: "2403.12525"
-    title: "Freezing and BPS jumping"
+    coauthors: ['Sung-Soo Kim', 'Futoshi Yagi', 'Rui-Dong Zhu']
+    doi: '10.1007/JHEP04(2025)182'
+    journal: 'JHEP04(2025)182'
+    primary_category: hep-th
+  - id: '2403.12525'
+    title: 'Freezing and BPS jumping'
     year: 2024
-    coauthors: ["Sung-Soo Kim", "Satoshi Nawata", "Futoshi Yagi"]
-  - id: "2102.09482"
-    title: "Thermodynamic limit of Nekrasov partition function for 5-brane web with O5-plane"
+    coauthors: ['Sung-Soo Kim', 'Satoshi Nawata', 'Futoshi Yagi']
+    primary_category: hep-th
+  - id: '2102.09482'
+    title: 'Thermodynamic limit of Nekrasov partition function for 5-brane web with O5-plane'
     year: 2021
-    coauthors: ["Futoshi Yagi"]
-    journal: "JHEP 06 (2021) 004"
-  - id: "[待补充]"
-    title: "Ruan cohomologies of the compactifications of resolved orbifold conifolds"
-    year: 2016
-    coauthors: ["Song Du", "Bohui Chen", "Cheng-Yong Du"]
-    journal: "Rocky Mountain J. Math. 46:3 (2016), 863"
-  - id: "[待补充]"
-    title: "Ruan's conjecture on singular symplectic flops of mixed type"
+    coauthors: ['Futoshi Yagi']
+    doi: '10.1007/JHEP06(2021)004'
+    journal: 'JHEP 06 (2021) 004'
+    primary_category: hep-th
+  - id: '[待补充]'
+    title: 'Ruan''s conjecture on singular symplectic flops of mixed type'
     year: 2014
-    coauthors: ["Bohui Chen", "Anmin Li", "..."]
-    journal: "Sci. China Math. 57 (2014), 1121-1148"
+    coauthors: ['Bohui Chen', 'Anmin Li', '...']
+    journal: 'Sci. China Math. 57 (2014), 1121-1148'
 activity:
-  total_papers: 6
-  active_period: "2014-present"
+  total_papers: 5
+  published_count: 3
+  preprint_only_count: 2
+  active_period: '2014-present'
 external_ids: {}
 links:
   homepage: "https://faculty.swjtu.edu.cn/lixiaobin1/zh_CN/index.htm"

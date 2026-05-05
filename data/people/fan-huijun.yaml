@@ -125,79 +125,119 @@ key_collaborators:
     topic: "Harmonic Hopf constructions between spheres"
     papers_count: 1
 publications:
-  - id: "2210.16747"
-    title: "Constructing the LG/CY isomorphism between tt* geometries"
+  - id: '2210.16747'
+    title: 'Constructing the LG/CY isomorphism between tt* geometries'
     year: 2022
-    coauthors: ["Tian Lan", "Zongrui Yang"]
-  - id: "2011.14658"
-    title: "LG/CY correspondence between tt* geometries"
+    coauthors: ['Tian Lan', 'Zongrui Yang']
+    primary_category: math.AG
+  - id: '2011.14658'
+    title: 'LG/CY correspondence between tt* geometries'
     year: 2020
-    coauthors: ["Tian Lan", "Zongrui Yang"]
-  - id: "1812.11748"
-    title: "Fukaya category of Landau-Ginzburg model"
+    coauthors: ['Tian Lan', 'Zongrui Yang']
+    primary_category: math.AG
+  - id: '1812.11748'
+    title: 'Fukaya category of Landau-Ginzburg model'
     year: 2018
-    coauthors: ["Wenfeng Jiang", "Dingyu Yang"]
-  - id: "1603.06530"
-    title: "Torsion type invariants of singularities"
+    coauthors: ['Wenfeng Jiang', 'Dingyu Yang']
+    primary_category: math.SG
+  - id: '1603.06530'
+    title: 'Torsion type invariants of singularities'
     year: 2016
-    coauthors: ["Hao Fang"]
-  - id: "1603.02666"
-    title: "The Moduli Space in the Gauged Linear Sigma Model"
+    coauthors: ['Hao Fang']
+    primary_category: math-ph
+  - id: '1603.02666'
+    title: 'The Moduli Space in the Gauged Linear Sigma Model'
     year: 2016
-    coauthors: ["Tyler Jarvis", "Yongbin Ruan"]
-  - id: "1506.02109"
-    title: "A Mathematical Theory of the Gauged Linear Sigma Model"
+    coauthors: ['Tyler Jarvis', 'Yongbin Ruan']
+    primary_category: math.AG
+  - id: '1506.02109'
+    title: 'A Mathematical Theory of the Gauged Linear Sigma Model'
     year: 2015
-    coauthors: ["Tyler Jarvis", "Yongbin Ruan"]
-    journal: "Geom. Topol. 22 (2018)"
-  - id: "1107.1290"
-    title: "Schrödinger equations, deformation theory and tt*-geometry"
+    coauthors: ['Tyler Jarvis', 'Yongbin Ruan']
+    doi: '10.2140/gt.2018.22.235'
+    journal: 'Geom. Topol. 22 (2018) 235-303'
+    primary_category: math.AG
+  - id: '1107.1290'
+    title: 'Schrödinger equations, deformation theory and tt*-geometry'
     year: 2011
     coauthors: []
-  - id: "1012.0066"
-    title: "Quantum Singularity Theory for A_{r-1} and r-Spin Theory"
+    primary_category: math-ph
+  - id: '1012.0066'
+    title: 'Quantum Singularity Theory for A_{r-1} and r-Spin Theory'
     year: 2010
-    coauthors: ["Tyler J. Jarvis", "Yongbin Ruan"]
-  - id: "1008.0927"
-    title: "Witten's D_4 Integrable Hierarchies Conjecture"
+    coauthors: ['Tyler J. Jarvis', 'Yongbin Ruan']
+    primary_category: math.AG
+  - id: '1008.0927'
+    title: 'Witten''s D_4 Integrable Hierarchies Conjecture'
     year: 2010
-    coauthors: ["Amanda Francis", "Tyler J. Jarvis", "Evan Merrell", "Yongbin Ruan"]
-  - id: "0902.2327"
-    title: "Quantum ring of singularity X^p + XY^q"
+    coauthors: ['Amanda Francis', 'Tyler J. Jarvis', 'Evan Merrell', 'Yongbin Ruan']
+    primary_category: math.AG
+  - id: '0902.2327'
+    title: 'Quantum ring of singularity X^p + XY^q'
     year: 2009
-    coauthors: ["Yefeng Shen"]
-  - id: "0712.4021"
-    title: "The Witten equation, mirror symmetry and quantum singularity theory"
+    coauthors: ['Yefeng Shen']
+    primary_category: math.AG
+  - id: '0712.4021'
+    title: 'The Witten equation, mirror symmetry and quantum singularity theory'
     year: 2007
-    coauthors: ["Tyler J. Jarvis", "Yongbin Ruan"]
-    journal: "Ann. of Math. (2013)"
-  - id: "0712.4025"
-    title: "The Witten equation and its virtual fundamental cycle"
+    coauthors: ['Tyler J. Jarvis', 'Yongbin Ruan']
+    journal: 'Ann. of Math. (2013)'
+    primary_category: math.AG
+  - id: '0712.4025'
+    title: 'The Witten equation and its virtual fundamental cycle'
     year: 2007
-    coauthors: ["Tyler J. Jarvis", "Yongbin Ruan"]
-  - id: "math/0505575"
-    title: "Martin points on open manifolds of non-positive curvature"
+    coauthors: ['Tyler J. Jarvis', 'Yongbin Ruan']
+    primary_category: math.AG
+  - id: '0505575'
+    title: 'Martin points on open manifolds of non-positive curvature'
     year: 2005
-    coauthors: ["Jianguo Cao", "Francois Ledrappier"]
-  - id: "math/0409434"
-    title: "Geometry and analysis of spin equations"
+    coauthors: ['Jianguo Cao', 'Francois Ledrappier']
+    primary_category: math.DG
+  - id: '0409434'
+    title: 'Geometry and analysis of spin equations'
     year: 2004
-    coauthors: ["Tyler J. Jarvis", "Yongbin Ruan"]
-  - id: "math/0312018"
-    title: "Conley Index Theory and Novikov-Morse Theory"
+    coauthors: ['Tyler J. Jarvis', ruan-yongbin]
+    primary_category: math.DG
+  - id: '0312018'
+    title: 'Conley Index Theory and Novikov-Morse Theory'
     year: 2003
-    coauthors: ["Juergen Jost"]
-  - id: "math/0106234"
-    title: "Harmonic Hopf Constructions Between Spheres II"
+    coauthors: ['Juergen Jost']
+    primary_category: math.GT
+  - id: '0106234'
+    title: 'Harmonic Hopf Constructions Between Spheres II'
     year: 2001
-    coauthors: ["Weiyue Ding", "Jiayu Li"]
-  - id: "math/0010295"
-    title: "Novikov-Morse theory for dynamical systems"
+    coauthors: ['Weiyue Ding', 'Jiayu Li']
+    primary_category: math.DG
+  - id: '0010295'
+    title: 'Novikov-Morse theory for dynamical systems'
     year: 2000
-    coauthors: ["Juergen Jost"]
+    coauthors: ['Juergen Jost']
+    primary_category: math.DS
+  - id: 'math/0505575'
+    title: 'Martin points on open manifolds of non-positive curvature'
+    year: 2005
+    coauthors: ['Jianguo Cao', 'Francois Ledrappier']
+  - id: 'math/0409434'
+    title: 'Geometry and analysis of spin equations'
+    year: 2004
+    coauthors: ['Tyler J. Jarvis', 'Yongbin Ruan']
+  - id: 'math/0312018'
+    title: 'Conley Index Theory and Novikov-Morse Theory'
+    year: 2003
+    coauthors: ['Juergen Jost']
+  - id: 'math/0106234'
+    title: 'Harmonic Hopf Constructions Between Spheres II'
+    year: 2001
+    coauthors: ['Weiyue Ding', 'Jiayu Li']
+  - id: 'math/0010295'
+    title: 'Novikov-Morse theory for dynamical systems'
+    year: 2000
+    coauthors: ['Juergen Jost']
 activity:
-  total_papers: 17
-  active_period: "2000-present"
+  total_papers: 22
+  published_count: 2
+  preprint_only_count: 20
+  active_period: '2000-present'
 external_ids:
   mathgenealogy: "240326"
 links:

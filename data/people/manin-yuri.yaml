@@ -50,63 +50,20 @@ advisor: shafarevich
 students: []
 key_collaborators: []
 activity:
-  total_papers: 204
+  total_papers: 37
+  published_count: 9
+  preprint_only_count: 28
   h_index: 46
+  active_period: '1960-2023'
   phd_students: 54
   academic_descendants: 360
-  active_period: 1960-2023
-  quality_source: openalex + ruirui-2026
+  quality_source: 'openalex + ruirui-2026'
   t1_papers: 4
   t2_papers: 17
   t3_papers: 10
   t4_papers: 0
   other_papers: 153
-  venue_samples:
-  - name: Inventiones mathematicae
-    tier: T1
-    count: 3
-  - name: Duke Mathematical Journal
-    tier: T1
-    count: 1
-  - name: Russian Mathematical Surveys
-    tier: T2
-    count: 15
-  - name: American Journal of Mathematics
-    tier: T2
-    count: 1
-  - name: Compositio Mathematica
-    tier: T2
-    count: 1
-  - name: Communications in Mathematical Physics
-    tier: T3
-    count: 6
-  - name: Physics Letters B
-    tier: T3
-    count: 2
-  - name: Mathematische Annalen
-    tier: T3
-    count: 1
-  - name: Journal für die reine und angewandte Mathematik (Crelles Journal)
-    tier: T3
-    count: 1
-  - name: Graduate texts in mathematics
-    tier: '-'
-    count: 18
-  - name: World scientific series in 20th century mathematics
-    tier: '-'
-    count: 14
-  - name: arXiv (Cornell University)
-    tier: '-'
-    count: 14
-  - name: Functional Analysis and Its Applications
-    tier: '-'
-    count: 13
-  - name: Journal of Mathematical Sciences
-    tier: '-'
-    count: 10
-  - name: ArXiv.org
-    tier: '-'
-    count: 9
+  venue_samples: [{'name': 'Inventiones mathematicae', 'tier': 'T1', 'count': 3}, {'name': 'Duke Mathematical Journal', 'tier': 'T1', 'count': 1}, {'name': 'Russian Mathematical Surveys', 'tier': 'T2', 'count': 15}, {'name': 'American Journal of Mathematics', 'tier': 'T2', 'count': 1}, {'name': 'Compositio Mathematica', 'tier': 'T2', 'count': 1}, {'name': 'Communications in Mathematical Physics', 'tier': 'T3', 'count': 6}, {'name': 'Physics Letters B', 'tier': 'T3', 'count': 2}, {'name': 'Mathematische Annalen', 'tier': 'T3', 'count': 1}, {'name': 'Journal für die reine und angewandte Mathematik (Crelles Journal)', 'tier': 'T3', 'count': 1}, {'name': 'Graduate texts in mathematics', 'tier': '-', 'count': 18}, {'name': 'World scientific series in 20th century mathematics', 'tier': '-', 'count': 14}, {'name': 'arXiv (Cornell University)', 'tier': '-', 'count': 14}, {'name': 'Functional Analysis and Its Applications', 'tier': '-', 'count': 13}, {'name': 'Journal of Mathematical Sciences', 'tier': '-', 'count': 10}, {'name': 'ArXiv.org', 'tier': '-', 'count': 9}]
   oa_total_papers: 184
 external_ids:
   openalex: A5112460582
@@ -117,6 +74,204 @@ personal_notes: '54 名博士生，360 名学术后代。学生包括 Kontsevich
   2023年去世。对 Frobenius 流形的推广到量子上同调框架做出重要贡献。
 
   '
+publications:
+  - id: '2203.15855'
+    title: 'Supercycles, stable supermaps and SUSY Nori motives'
+    year: 2022
+    coauthors: ['Ugo Bruzzo', 'Daniel Hernandez Ruiperez', manin-yuri]
+    journal: 'Algebraic Geometry and Physics 1 (2024) 1-57'
+    primary_category: math.AG
+  - id: '2202.10321'
+    title: 'Moduli spaces of SUSY curves and their operads'
+    year: 2022
+    coauthors: ['Enno Ke ler', manin-yuri, 'Yingying Wu']
+    primary_category: math.AG
+  - id: '2112.15237'
+    title: 'Quantum Operads'
+    year: 2021
+    coauthors: ['Noemie Combe', 'Matilde Marcolli']
+    primary_category: math.QA
+  - id: '2101.00197'
+    title: 'Homotopy Spectra and Diophantine Equations'
+    year: 2021
+    coauthors: [manin-yuri, 'Matilde Marcolli']
+    primary_category: math.NT
+  - id: '2012.13814'
+    title: 'Birational maps and Nori motives'
+    year: 2020
+    coauthors: ['Noemie C. Combe', manin-yuri, 'Matilde Marcolli']
+    primary_category: math.AG
+  - id: '2006.13663'
+    title: 'Dessins for Modular Operad and Grothendieck-Teichmuller Group'
+    year: 2020
+    coauthors: ['Noemie C. Combe', manin-yuri, 'Matilde Marcolli']
+    primary_category: math.AG
+  - id: '1907.13545'
+    title: 'Quantum Statistical Mechanics of the Absolute Galois Group'
+    year: 2019
+    coauthors: [manin-yuri, 'Matilde Marcolli']
+    doi: '10.3842/SIGMA.2020.038'
+    journal: 'SIGMA 16 (2020), 038, 52 pages'
+    primary_category: math.AG
+  - id: '1901.10301'
+    title: 'Nori diagrams and persistent homology'
+    year: 2019
+    coauthors: [manin-yuri, 'Matilde Marcolli']
+    primary_category: math.AG
+  - id: '1901.00020'
+    title: 'Bost-Connes systems and F1-structures in Grothendieck rings, spectra, and Nori motives'
+    year: 2018
+    coauthors: ['Joshua F. Lieber', manin-yuri, 'Matilde Marcolli']
+    primary_category: math.AG
+  - id: '1806.10801'
+    title: 'Homotopy types and geometries below Spec Z'
+    year: 2018
+    coauthors: [manin-yuri, 'Matilde Marcolli']
+    primary_category: math.AG
+  - id: '1701.01261'
+    title: 'Grothendieck-Verdier duality patterns in quantum algebra'
+    year: 2017
+    coauthors: [manin-yuri]
+    doi: '10.1070/IM8620'
+    primary_category: math.QA
+  - id: '1601.00096'
+    title: 'Modular forms of real weights and generalized Dedekind symbols'
+    year: 2016
+    coauthors: [manin-yuri]
+    primary_category: math.NT
+  - id: '1407.4969'
+    title: 'Local zeta factors and geometries under Spec Z'
+    year: 2014
+    coauthors: [manin-yuri]
+    primary_category: math.AG
+  - id: '1312.5160'
+    title: 'Numbers as functions'
+    year: 2013
+    coauthors: [manin-yuri]
+    doi: '10.1134/S2070046613040055'
+    journal: 'P-adic Numbers, Ultrametric Analysis and Applications, Vol. 5, no. 4, 2013, 313-325'
+    primary_category: math.NT
+  - id: '1307.3841'
+    title: 'Arithmetic Differential Equations of Painleve'' VI Type'
+    year: 2013
+    coauthors: ['Alexandru Buium', manin-yuri]
+    primary_category: math.NT
+  - id: '1302.6526'
+    title: 'Moduli Operad over F1'
+    year: 2013
+    coauthors: [manin-yuri, 'Matilde Marcolli']
+    primary_category: math.AG
+  - id: '1301.0078'
+    title: 'Non-commutative generalized Dedekind symbols'
+    year: 2013
+    coauthors: [manin-yuri]
+    primary_category: math.NT
+  - id: '1107.4915'
+    title: 'Towards motivic quantum cohomology of $\bar{M}_{0,S}$'
+    year: 2011
+    coauthors: [manin-yuri, 'Maxim Smirnov']
+    primary_category: math.AG
+  - id: '0908.3430'
+    title: 'Renormalization and Computation II: Time Cut-off and the Halting Problem'
+    year: 2009
+    coauthors: [manin-yuri]
+    primary_category: math.QA
+  - id: '0904.4921'
+    title: 'Renormalization and computation I: motivation and background'
+    year: 2009
+    coauthors: [manin-yuri]
+    primary_category: math.QA
+  - id: '0809.2716'
+    title: 'Quantum theta functions and Gabor frames for modulation spaces'
+    year: 2008
+    coauthors: ['Franz Luef', manin-yuri]
+    doi: '10.1007/s11005-009-0306-7'
+    primary_category: math.QA
+  - id: '0809.1564'
+    title: 'Cyclotomy and analytic geometry over F_1'
+    year: 2008
+    coauthors: [manin-yuri]
+    primary_category: math.AG
+  - id: '0703718'
+    title: 'Modular shadows and the Levy-Mellin infinity-adic transform'
+    year: 2007
+    coauthors: ['Matilde Marcolli']
+    primary_category: math.NT
+  - id: '0607580'
+    title: 'Stability Conditions, Wall-crossing and weighted Gromov-Witten Invariants'
+    year: 2006
+    coauthors: ['Arend Bayer', manin-yuri]
+    journal: 'Mosc. Math. J., 2009, 9, 3-32'
+    primary_category: math.AG
+  - id: '0502016'
+    title: 'The notion of dimension in geometry and algebra'
+    year: 2005
+    coauthors: [manin-yuri]
+    primary_category: math.AG
+  - id: '0402451'
+    title: 'F-manifolds with flat structure and Dubrovin''s duality'
+    year: 2004
+    coauthors: [manin-yuri]
+    primary_category: math.DG
+  - id: '0209244'
+    title: 'Georg Cantor and his heritage'
+    year: 2002
+    coauthors: [manin-yuri]
+    primary_category: math.AG
+  - id: '0207089'
+    title: 'Unfoldings of meromorphic connections and a construction of Frobenius manifolds'
+    year: 2002
+    coauthors: [hertling]
+    primary_category: math.AG
+  - id: '0202109'
+    title: 'Real Multiplication and noncommutative geometry'
+    year: 2002
+    coauthors: [manin-yuri]
+    primary_category: math.AG
+  - id: '0201036'
+    title: 'Holography principle and arithmetic of algebraic curves'
+    year: 2002
+    coauthors: [manin-yuri, 'Matilde Marcolli']
+    journal: 'Adv.Theor.Math.Phys. 5 (2002) 617-650'
+    primary_category: hep-th
+  - id: '0201005'
+    title: 'Von Zahlen und Figuren'
+    year: 2002
+    coauthors: [manin-yuri]
+    primary_category: math.AG
+  - id: '0103164'
+    title: '(Semi)simple exercises in quantum cohomology'
+    year: 2001
+    coauthors: ['Arend Bayer']
+    journal: 'The Fano Conference, Univ. Torino, Turin, 2004, 143-173'
+    primary_category: math.AG
+  - id: '0102006'
+    title: 'Continued fractions, modular symbols, and non-commutative geometry'
+    year: 2001
+    coauthors: [manin-yuri, 'Matilde Marcolli']
+    primary_category: math.NT
+  - id: '0011197'
+    title: 'Theta functions, quantum tori and Heisenberg groups'
+    year: 2000
+    coauthors: [manin-yuri]
+    primary_category: math.AG
+  - id: '0005144'
+    title: 'Moduli, Motives, Mirrors (Plenary talk at the 3rd ECM, Barcelona, July 10-14, 2000)'
+    year: 2000
+    coauthors: [manin-yuri]
+    primary_category: math.AG
+  - id: '9810132'
+    title: 'Weak Frobenius manifolds'
+    year: 1998
+    coauthors: [hertling]
+    primary_category: math.QA
+  - id: '9708024'
+    title: 'Relations between the correlators of the topological sigma-model coupled to gravity'
+    year: 1997
+    coauthors: [kontsevich, manin-yuri]
+    doi: '10.1007/s002200050426'
+    journal: 'Commun.Math.Phys. 196 (1998) 385-398'
+    primary_category: math.AG
 sources:
 - label: Math Genealogy
   url: https://www.mathgenealogy.org/id.php?id=44134

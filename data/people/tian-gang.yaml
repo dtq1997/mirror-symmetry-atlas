@@ -67,10 +67,12 @@ key_collaborators:
     topic: "Virasoro conjecture genus 0"
     papers_count: 1
 activity:
-  total_papers: 100
-  active_period: "1988-present"
+  total_papers: 1
+  published_count: 1
+  preprint_only_count: 0
+  active_period: '1988-present'
   phd_students: 69
-  notes: "Math Genealogy 记录 69 名博士生"
+  notes: 'Math Genealogy 记录 69 名博士生'
 external_ids:
   mathgenealogy: "37749"
 links:
@@ -87,6 +89,13 @@ personal_notes: |
 
   重要奖项: Waterman Award (1994), Veblen Prize (1996), AAAS Fellow (2004),
   ICM 2002 全体报告。
+publications:
+  - id: '9806028'
+    title: 'Virasoro Constraints For Quantum Cohomology'
+    year: 1998
+    coauthors: [li-ao]
+    journal: 'J.Diff.Geom. 50 (1998) 537-590'
+    primary_category: math.AG
 sources:
   - label: "Wikipedia: Tian Gang"
     url: "https://en.wikipedia.org/wiki/Tian_Gang"

@@ -74,34 +74,50 @@ key_collaborators:
     papers_count: 2
     notes: "丘成桐，BIMSA 创始人"
 publications:
-  - id: "2506.13194"
-    title: "Contact Term Algebras and Dijkgraaf's Master Equation"
+  - id: '2602.04140'
+    title: 'Path homology of circulant digraphs'
+    year: 2026
+    coauthors: [yau-shingtung]
+    primary_category: math.CO
+  - id: '2506.13194'
+    title: 'Contact Term Algebras and Dijkgraaf''s Master Equation'
     year: 2025
-    coauthors: ["Zhengping Gui", "Si Li"]
-    notes: "椭圆曲线上 chiral CFT 的 integrable deformation; contact algebra / Dijkgraaf master equation 严格表述"
-  - id: "2205.05791"
-    title: "Calabi-Yau/Landau-Ginzburg Correspondence for Weil-Peterson Metrics and $tt^*$ Structures"
+    coauthors: ['Zhengping Gui', 'Si Li']
+    primary_category: math.QA
+  - id: '2402.05682'
+    title: 'The Cellular Homology of Digraphs'
+    year: 2024
+    coauthors: ['Shing-Tung Yau']
+    primary_category: math.CO
+  - id: '2208.14063'
+    title: 'Minimal Path and Acyclic Models in the Path Complex'
     year: 2022
-    coauthors: ["Junrong Yan"]
-    journal: "J. Geom. Phys. 216 (2025) 105545"
-  - id: "1910.05665"
-    title: "Dispersionless Integrable Hierarchy via Kodaira-Spencer Gravity"
+    coauthors: [yau-shingtung]
+    primary_category: math.AT
+  - id: '2205.05791'
+    title: 'Calabi-Yau/Landau-Ginzburg Correspondence for Weil-Peterson Metrics and $tt^*$ Structures'
+    year: 2022
+    coauthors: ['Junrong Yan']
+    doi: '10.1016/j.geomphys.2025.105545'
+    journal: 'J. Geom. Phys. 216 (2025) 105545'
+    primary_category: math-ph
+  - id: '1910.05665'
+    title: 'Dispersionless Integrable Hierarchy via Kodaira-Spencer Gravity'
     year: 2019
-    coauthors: ["Weiqiang He", "Si Li", "Philsang Yoo"]
-    journal: "Commun. Math. Phys. 379 (2020), 327-352"
-  - id: "1710.03915"
-    title: "$tt^*$ Geometry, Singularity Torsion and Anomaly Formulas"
+    coauthors: ['Weiqiang He', 'Si Li', 'Philsang Yoo']
+    doi: '10.1007/s00220-020-03809-x'
+    journal: 'Commun. Math. Phys. 379 (2020), 327-352'
+    primary_category: math-ph
+  - id: '1710.03915'
+    title: '$tt^*$ Geometry, Singularity Torsion and Anomaly Formulas'
     year: 2017
     coauthors: []
-    notes: "博士期间工作"
-  - id: "2402.05682"
-    title: "The Cellular Homology of Digraphs"
-    year: 2024
-    coauthors: ["Shing-Tung Yau"]
-    notes: "[待验证] arXiv 编号，BIMSA profile 列为合作著作"
+    primary_category: math-ph
 activity:
-  total_papers: 17
-  active_period: "2017-present"
+  total_papers: 7
+  published_count: 2
+  preprint_only_count: 5
+  active_period: '2017-present'
 external_ids: {}
 links:
   homepage: "https://www.bimsa.cn/detail/xinxingtang.html"

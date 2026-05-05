@@ -40,25 +40,32 @@ key_collaborators:
     topic: "Gamma conjecture, quantum cohomology, Galkin's conjecture"
     papers_count: 4
 publications:
-  - id: "2502.13558"
-    title: "On the quantum cohomology of blow-ups of four-dimensional quadrics"
+  - id: '2502.13558'
+    title: 'On the quantum cohomology of blow-ups of four-dimensional quadrics'
     year: 2025
-    coauthors: ["Jianxun Hu", "Changzheng Li", "Lei Song"]
-  - id: "2502.13545"
-    title: "Mirror symmetry for certain blowups of Grassmannians"
+    coauthors: ['Jianxun Hu', 'Changzheng Li', 'Lei Song']
+    journal: 'Acta Math. Sin. (Engl. Ser.) 40 (2024), no. 1, 313-328'
+    primary_category: math.AG
+  - id: '2502.13545'
+    title: 'Mirror symmetry for certain blowups of Grassmannians'
     year: 2025
-    coauthors: ["Jianxun Hu", "Changzheng Li", "Lei Song"]
-  - id: "2405.16987"
-    title: "On Galkin's Lower Bound Conjecture"
+    coauthors: ['Jianxun Hu', 'Changzheng Li', 'Lei Song']
+    primary_category: math.AG
+  - id: '2405.16987'
+    title: 'On Galkin''s Lower Bound Conjecture'
     year: 2024
-    coauthors: ["Jianxun Hu", "Changzheng Li", "Zhitong Su"]
-  - id: "2405.16979"
-    title: "Revisiting Gamma conjecture I: counterexamples and modifications"
+    coauthors: ['Jianxun Hu', 'Changzheng Li', 'Zhitong Su']
+    primary_category: math.AG
+  - id: '2405.16979'
+    title: 'Revisiting Gamma conjecture I: counterexamples and modifications'
     year: 2024
-    coauthors: ["Sergey Galkin", "Jianxun Hu", "Hiroshi Iritani", "Changzheng Li", "Zhitong Su"]
+    coauthors: ['Sergey Galkin', 'Jianxun Hu', 'Hiroshi Iritani', 'Changzheng Li', 'Zhitong Su']
+    primary_category: math.AG
 activity:
   total_papers: 4
-  active_period: "2015-present"
+  published_count: 1
+  preprint_only_count: 3
+  active_period: '2015-present'
 external_ids: {}
 links: {}
 personal_notes: |

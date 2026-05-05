@@ -49,24 +49,99 @@ key_collaborators:
   topic: Toric stack bundles, crepant transformation, derived category
   papers_count: 2
 publications:
-- id: '2410.22670'
-  title: Crepant Transformation Correspondence For Toric Stack Bundles
-  year: 2024
-  coauthors:
-  - Jiun-Cheng Chen
-  - Hsian-Hua Tseng
-  journal: Adv. Geom. (2025)
-- id: '2407.21288'
-  title: On the derived category of a toric stack bundle
-  year: 2024
-  coauthors:
-  - Jiun-Cheng Chen
-  - Hsian-Hua Tseng
-  journal: J. Pure Appl. Algebra (2025)
+  - id: '2502.09041'
+    title: 'Isoparametric foliations and complex structures'
+    year: 2025
+    coauthors: [chao-qian, 'Zizhou Tang', 'Wenjiao Yan']
+    primary_category: math.DG
+  - id: '2410.22670'
+    title: 'Crepant Transformation Correspondence For Toric Stack Bundles'
+    year: 2024
+    coauthors: ['Jiun-Cheng Chen', 'Hsian-Hua Tseng']
+    doi: '10.1515/advgeom-2025-0037'
+    journal: 'Advances in Geometry, vol. 26, no. 1, 2026, pp. 105--125'
+    primary_category: math.AG
+  - id: '2407.21288'
+    title: 'On the derived category of a toric stack bundle'
+    year: 2024
+    coauthors: ['Jiun-Cheng Chen', 'Hsian-Hua Tseng']
+    journal: 'Journal of Pure and Applied Algebra Volume 229, Issue 2, February 2025, 107882'
+    primary_category: math.AG
+  - id: '2211.06836'
+    title: 'Symmetry of hypersurfaces with symmetric boundary'
+    year: 2022
+    coauthors: ['Hui Ma', chao-qian, 'Jing Wu', 'Yongsheng Zhang']
+    primary_category: math.DG
+  - id: '2202.09078'
+    title: 'Clifford systems, harmonic maps and metrics with non-negative curvature'
+    year: 2022
+    coauthors: [chao-qian, 'Zizhou Tang', 'Wenjiao Yan']
+    primary_category: math.DG
+  - id: '2202.03729'
+    title: 'On two questions of James'
+    year: 2022
+    coauthors: [chao-qian, 'Zizhou Tang', 'Wenjiao Yan']
+    primary_category: math.DG
+  - id: '2103.15605'
+    title: 'Topology and curvature of isoparametric families in spheres'
+    year: 2021
+    coauthors: [chao-qian, 'Zizhou Tang', 'Wenjiao Yan']
+    doi: '10.1007/s40304-021-00259-2'
+    primary_category: math.DG
+  - id: '1912.02431'
+    title: 'Extrinsic geometry of the Gromoll-Meyer sphere'
+    year: 2019
+    coauthors: [chao-qian, 'Zizhou Tang', 'Wenjiao Yan']
+    doi: '10.1016/j.difgeo.2020.101638'
+    primary_category: math.DG
+  - id: '1812.10367'
+    title: 'Clifford algebra, isoparametric foliation and related geometric constructions'
+    year: 2018
+    coauthors: [chao-qian, 'Zizhou Tang']
+    primary_category: math.DG
+  - id: '1601.03125'
+    title: 'Ricci curvature of double manifolds via isoparametric foliations'
+    year: 2016
+    coauthors: ['ChiaKuei Peng', chao-qian]
+    primary_category: math.DG
+  - id: '1501.07802'
+    title: 'Differential topology interacts with isoparametric foliations'
+    year: 2015
+    coauthors: ['Jianquan Ge', chao-qian]
+    primary_category: math.DG
+  - id: '1407.0539'
+    title: 'Isoparametric foliations, a problem of Eells-Lemaire and conjectures of Leung'
+    year: 2014
+    coauthors: [chao-qian, 'Zizhou Tang']
+    doi: '10.1112/plms/pdw015'
+    primary_category: math.DG
+  - id: '1403.6980'
+    title: 'Recent progress in isoparametric functions and isoparametric hypersurfaces'
+    year: 2014
+    coauthors: [chao-qian, 'Zizhou Tang']
+    primary_category: math.DG
+  - id: '1303.6028'
+    title: 'Isoparametric functions on exotic spheres'
+    year: 2013
+    coauthors: [chao-qian, 'Zizhou Tang']
+    primary_category: math.DG
+  - id: '1204.2917'
+    title: 'New examples of Willmore submanifolds in the unit sphere via isoparametric functions,II'
+    year: 2012
+    coauthors: [chao-qian, 'Zizhou Tang', 'Wenjiao Yan']
+    doi: '10.1007/s10455-012-9332-2'
+    primary_category: math.DG
+  - id: '1201.2051'
+    title: 'Finiteness theorems for equifocal hypersurfaces'
+    year: 2012
+    coauthors: ['Jianquan Ge', chao-qian, 'Zizhou Tang']
+    primary_category: math.DG
 activity:
-  total_papers: 2
-  active_period: 2024-present
-  quality_source: openalex + ruirui-2026
+  total_papers: 16
+  published_count: 6
+  preprint_only_count: 10
+  active_period: '2024-present'
+  quality_source: 'openalex + ruirui-2026'
   t1_papers: 0
   t2_papers: 0
   t3_papers: 0

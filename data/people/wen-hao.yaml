@@ -43,34 +43,45 @@ key_collaborators:
     topic: "Primitive forms from log Landau-Ginzburg mirrors, toric manifolds"
     papers_count: 1
 publications:
-  - id: "2603.02953"
-    title: "Commutative $BV_\\infty$ algebras, their morphisms and $\\frac{\\infty}{2}$-variation of Hodge structures"
+  - id: '2603.02953'
+    title: 'Commutative $BV_\infty$ algebras, their morphisms and $\frac{\infty}{2}$-variation of Hodge structures'
     year: 2026
     coauthors: []
-  - id: "2412.18325"
-    title: "Cyclic $BV_\\infty$ algebra and Frobenius manifold"
+    primary_category: math.AG
+  - id: '2412.18325'
+    title: 'Cyclic $BV_\infty$ algebra and Frobenius manifold'
+    year: 2024
+    coauthors: [wen-hao]
+    primary_category: math-ph
+  - id: '2410.22665'
+    title: 'A note on cohomology mirror symmetry of toric manifolds'
     year: 2024
     coauthors: []
-  - id: "2410.22665"
-    title: "A note on cohomology mirror symmetry of toric manifolds"
-    year: 2024
-    coauthors: []
-  - id: "2312.04239"
-    title: "A perturbative construction of primitive forms from log Landau-Ginzburg mirrors of toric manifolds"
+    primary_category: math-ph
+  - id: '2312.04239'
+    title: 'A perturbative construction of primitive forms from log Landau-Ginzburg mirrors of toric manifolds'
     year: 2023
     coauthors: [chan-kwokwai, ma-ziming-nikolas]
-  - id: "1903.02713"
-    title: "On the L2-Hodge theory of Landau-Ginzburg models"
+    doi: '10.1016/j.aim.2026.110867'
+    journal: 'Adv. Math. 491 (2026), 110867, 47 pp'
+    primary_category: math.AG
+  - id: '1903.02713'
+    title: 'On the L2-Hodge theory of Landau-Ginzburg models'
     year: 2019
     coauthors: [si-li]
-  - id: "1707.07183"
-    title: "Counting Multiplicities in a Hypersurface over a Number Field"
+    primary_category: math-ph
+  - id: '1707.07183'
+    title: 'Counting Multiplicities in a Hypersurface over a Number Field'
     year: 2017
-    coauthors: ["Chunhui Liu"]
+    coauthors: ['Chunhui Liu']
+    doi: '10.1142/S1005386718000305'
+    primary_category: math.AG
 activity:
   total_papers: 6
-  active_period: "2017-present"
-  peak_period: "2023-present"
+  published_count: 2
+  preprint_only_count: 4
+  active_period: '2017-present'
+  peak_period: '2023-present'
 external_ids: {}
 links: {}
 personal_notes: |

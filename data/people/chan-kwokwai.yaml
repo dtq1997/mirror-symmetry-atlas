@@ -92,14 +92,317 @@ key_collaborators:
     topic: "SYZ mirror symmetry for toric CY"
     papers_count: 3
 publications:
-  - id: "1006.3830"
-    title: "SYZ mirror symmetry for toric Calabi-Yau manifolds"
+  - id: '2604.26292'
+    title: 'Brane quantization and SYZ mirror symmetry'
+    year: 2026
+    coauthors: [leung-naichung, li-qin, 'Yat-Hin Suen', 'Yutung Yau']
+    primary_category: math.DG
+  - id: '2601.19691'
+    title: 'Iwahori-Coulomb branches, stable envelopes, and quantum cohomology of cotangent bundles of flag varieties'
+    year: 2026
+    coauthors: ['Ki Fung Chan', 'Chi Hong Chow', 'Chin Hang Eddie Lam']
+    primary_category: math.AG
+  - id: '2511.16889'
+    title: 'Berezin-Toeplitz quantization revisited'
+    year: 2025
+    coauthors: [leung-naichung, li-qin, 'Yutung Yau']
+    primary_category: math.DG
+  - id: '2505.23340'
+    title: 'Quantum cohomology, shift operators, and Coulomb branches'
+    year: 2025
+    coauthors: ['Ki Fung Chan', 'Chin Hang Eddie Lam']
+    primary_category: math.AG
+  - id: '2312.04239'
+    title: 'A perturbative construction of primitive forms from log Landau-Ginzburg mirrors of toric manifolds'
+    year: 2023
+    coauthors: ['Ziming Nikolas Ma', wen-hao]
+    doi: '10.1016/j.aim.2026.110867'
+    journal: 'Adv. Math. 491 (2026), 110867, 47 pp'
+    primary_category: math.AG
+  - id: '2210.02008'
+    title: 'Quantizable functions on Kähler manifolds and non-formal quantization'
+    year: 2022
+    coauthors: [leung-naichung, li-qin]
+    doi: '10.1016/j.aim.2023.109293'
+    journal: 'Adv. Math. 433 (2023), 109293, 34 pp'
+    primary_category: math.QA
+  - id: '2205.09926'
+    title: 'Smoothing, scattering, and a conjecture of Fukaya'
+    year: 2022
+    coauthors: [leung-naichung, 'Ziming Nikolas Ma']
+    doi: '10.1017/fmp.2024.32'
+    journal: 'Forum Math. Pi 13 (2025), Paper No. e7'
+    primary_category: math.AG
+  - id: '2205.01394'
+    title: 'From deformation theory to tropical geometry'
+    year: 2022
+    coauthors: []
+    journal: '"Proceedings of the International Consortium of Chinese Mathematicians 2019", Vol. 2, 1715-1734, Int. Press, Somerville, MA, 2024'
+    primary_category: math.AG
+  - id: '2009.03690'
+    title: 'Quantization of Kähler manifolds'
+    year: 2020
+    coauthors: [leung-naichung, li-qin]
+    doi: '10.1016/j.geomphys.2021.104143'
+    journal: 'J. Geom. Phys. 163 (2021), 104143, 13 pp'
+    primary_category: math.DG
+  - id: '2008.11496'
+    title: 'Bargmann-Fock sheaves on Kähler manifolds'
+    year: 2020
+    coauthors: [leung-naichung, li-qin]
+    doi: '10.1007/s00220-021-04251-3'
+    journal: 'Comm. Math. Phys. 388 (2021), no. 3, 1297-1322'
+    primary_category: math.DG
+  - id: '2008.07057'
+    title: 'Kapranov''s $L_\infty$ structures, Fedosov''s star products, and one-loop exact BV quantizations on Kähler manifolds'
+    year: 2020
+    coauthors: [leung-naichung, li-qin]
+    doi: '10.4310/CNTP.2022.v16.n2.a2'
+    journal: 'Commun. Number Theory Phys. 16 (2022), no. 2, 299-351'
+    primary_category: math.QA
+  - id: '2004.00523'
+    title: 'Tropical Lagrangian multi-sections and smoothing of locally free sheaves over degenerate Calabi-Yau surfaces'
+    year: 2020
+    coauthors: ['Ziming Nikolas Ma', 'Yat-Hin Suen']
+    doi: '10.1016/j.aim.2022.108280'
+    journal: 'Adv. Math. 401 (2022), 108280, 37 pp'
+    primary_category: math.AG
+  - id: '2001.10869'
+    title: 'A geometric construction of representations of the Berezin-Toeplitz quantization'
+    year: 2020
+    coauthors: [leung-naichung, li-qin]
+    doi: '10.4310/ATMP.2022.v26.n1.a1'
+    journal: 'Adv. Theor. Math. Phys. 26 (2022), no. 1, 1-36'
+    primary_category: math.QA
+  - id: '1910.08256'
+    title: 'Smoothing pairs over degenerate Calabi-Yau varieties'
+    year: 2019
+    coauthors: ['Ziming Nikolas Ma']
+    doi: '10.1093/imrn/rnaa212'
+    journal: 'Int. Math. Res. Not. IMRN 2022 (2022), no. 4, 2582-2614'
+    primary_category: math.AG
+  - id: '1902.11174'
+    title: 'Geometry of the Maurer-Cartan equation near degenerate Calabi-Yau varieties'
+    year: 2019
+    coauthors: [leung-naichung, 'Ziming Nikolas Ma']
+    doi: '10.4310/jdg/1695236591'
+    journal: 'J. Differential Geom. 125 (2023), no. 1, 1-84'
+    primary_category: math.AG
+  - id: '1902.05904'
+    title: 'A Note on Disk Counting in Toric Orbifolds'
+    year: 2019
+    coauthors: ['Cheol-Hyun Cho', 'Siu-Cheong Lau', leung-naichung, 'Hsian-Hua Tseng']
+    doi: '10.3842/SIGMA.2020.055'
+    journal: 'SIGMA 16 (2020), 055, 15 pages'
+    primary_category: math.SG
+  - id: '1811.09774'
+    title: 'Pseudotoric structures and special Lagrangian torus fibrations on certain flag varieties'
+    year: 2018
+    coauthors: [leung-naichung, li-changzheng]
+    doi: '10.1016/j.geomphys.2019.103489'
+    journal: 'J. Geom. Phys. 146 (2019), 103489, 16 pp'
+    primary_category: math.SG
+  - id: '1808.07305'
+    title: 'Geometric quantization via SYZ transforms'
+    year: 2018
+    coauthors: ['Yat-Hin Suen']
+    doi: '10.4310/ATMP.2020.v24.n1.a2'
+    journal: 'Adv. Theor. Math. Phys. 24 (2020), no. 1, 25-66'
+    primary_category: math.SG
+  - id: '1807.08159'
+    title: 'Tropical counting from asymptotic analysis on Maurer-Cartan equations'
+    year: 2018
+    coauthors: ['Ziming Nikolas Ma']
+    doi: '10.1090/tran/8128'
+    journal: 'Trans. Amer. Math. Soc. 373 (2020), no. 9, 6411-6450'
+    primary_category: math.AG
+  - id: '1807.08145'
+    title: 'Scattering diagrams from asymptotic analysis on Maurer-Cartan equations'
+    year: 2018
+    coauthors: [leung-naichung, 'Ziming Nikolas Ma']
+    doi: '10.4171/JEMS/1100'
+    journal: 'J. Eur. Math. Soc. (JEMS) 24 (2022), no. 3, 773-849'
+    primary_category: math.AG
+  - id: '1712.02586'
+    title: 'SYZ transforms for immersed Lagrangian multi-sections'
+    year: 2017
+    coauthors: ['Yat-Hin Suen']
+    doi: '10.1090/tran/7757'
+    journal: 'Trans. Amer. Math. Soc. 372 (2019), no. 8, 5747-5780'
+    primary_category: math.DG
+  - id: '1704.01730'
+    title: 'Quasimap SYZ for toric Calabi-Yau manifolds'
+    year: 2017
+    coauthors: []
+    journal: '"Proceedings of the Seventh International Congress of Chinese Mathematicians. Vol. II", 317-333, Adv. Lect. Math. (ALM) 44, Int. Press, Somerville, MA, 2019'
+    primary_category: math.SG
+  - id: '1607.07127'
+    title: 'Homological mirror symmetry for local Calabi-Yau manifolds via SYZ'
+    year: 2016
+    coauthors: []
+    doi: '10.11650/tjm/7901'
+    journal: 'Taiwanese J. Math. 21 (2017), no. 3, 505-529'
+    primary_category: math.SG
+  - id: '1602.07075'
+    title: 'Lagrangian sections on mirrors of toric Calabi-Yau 3-folds'
+    year: 2016
+    coauthors: ['Daniel Pomerleano', 'Kazushi Ueda']
+    primary_category: math.SG
+  - id: '1601.06472'
+    title: 'On the jumping phenomenon of $\dim_{\mathbb{C}}H^q(\mathcal{X}_t,\mathcal{E}_t)$'
+    year: 2016
+    coauthors: ['Yat-Hin Suen']
+    doi: '10.4310/AJM.2019.v23.n4.a7'
+    journal: 'Asian J. Math. 23 (2019), no. 4, 681-702'
+    primary_category: math.DG
+  - id: '1502.03510'
+    title: 'BV quantization of the Rozansky-Witten model'
+    year: 2015
+    coauthors: [leung-naichung, li-qin]
+    doi: '10.1007/s00220-017-2924-8'
+    journal: 'Comm. Math. Phys. 355 (2017), no. 1, 97-144'
+    primary_category: math.QA
+  - id: '1412.7231'
+    title: 'SYZ mirror symmetry for toric varieties'
+    year: 2014
+    coauthors: []
+    journal: '"Handbook for Mirror Symmetry of Calabi-Yau and Fano Manifolds", 1-32, Adv. Lect. Math. (ALM) 47, Int. Press, Somerville, MA, 2020'
+    primary_category: math.SG
+  - id: '1408.6062'
+    title: 'The Strominger-Yau-Zaslow conjecture and its impact'
+    year: 2014
+    coauthors: []
+    journal: '"Selected Expository Works of Shing-Tung Yau with Commentary. Vol. II", 1183-1208, Adv. Lect. Math. (ALM) 29, Int. Press, Somerville, MA, 2014'
+    primary_category: math.DG
+  - id: '1406.6753'
+    title: 'A differential-geometric approach to deformations of pairs $(X,E)$'
+    year: 2014
+    coauthors: ['Yat-Hin Suen']
+    doi: '10.1515/coma-2016-0002'
+    journal: 'Complex Manifolds 3 (2016), 16-40'
+    primary_category: math.DG
+  - id: '1403.1682'
+    title: 'A Frölicher-type inequality for generalized complex manifolds'
+    year: 2014
+    coauthors: ['Yat-Hin Suen']
+    doi: '10.1007/s10455-014-9439-8'
+    journal: 'Ann. Global Anal. Geom. 47 (2015), no. 2, 135-145'
+    primary_category: math.DG
+  - id: '1306.0437'
+    title: 'Gross fibrations, SYZ mirror symmetry, and open Gromov-Witten invariants for toric Calabi-Yau orbifolds'
+    year: 2013
+    coauthors: ['Cheol-Hyun Cho', 'Siu-Cheong Lau', 'Hsian-Hua Tseng']
+    doi: '10.4310/jdg/1463404118'
+    journal: 'J. Differential Geom. 103 (2016), no. 2, 207-288'
+    primary_category: math.SG
+  - id: '1305.0968'
+    title: 'Lagrangian torus fibrations and homological mirror symmetry for the conifold'
+    year: 2013
+    coauthors: ['Daniel Pomerleano', 'Kazushi Ueda']
+    doi: '10.1007/s00220-015-2477-7'
+    journal: 'Comm. Math. Phys. 341 (2016), no. 1, 135-178'
+    primary_category: math.SG
+  - id: '1210.0652'
+    title: 'Dual torus fibrations and homological mirror symmetry for A_n-singularities'
     year: 2012
-    coauthors: [leung-naichung, "Siu-Cheong Lau"]
-    journal: "J. Differential Geom. 90(2)"
+    coauthors: ['Kazushi Ueda']
+    doi: '10.4310/CNTP.2013.v7.n2.a5'
+    journal: 'Commun. Number Theory Phys. 7 (2013), no. 2, 361-396'
+    primary_category: math.SG
+  - id: '1209.6119'
+    title: 'Open Gromov-Witten invariants, mirror maps, and Seidel representations for toric manifolds'
+    year: 2012
+    coauthors: ['Siu-Cheong Lau', leung-naichung, 'Hsian-Hua Tseng']
+    doi: '10.1215/00127094-0000003X'
+    journal: 'Duke Math. J. 166 (2017), no. 8, 1405-1462'
+    primary_category: math.SG
+  - id: '1208.5282'
+    title: 'Lagrangian Floer superpotentials and crepant resolutions for toric orbifolds'
+    year: 2012
+    coauthors: ['Cheol-Hyun Cho', 'Siu-Cheong Lau', 'Hsian-Hua Tseng']
+    doi: '10.1007/s00220-014-1948-6'
+    journal: 'Comm. Math. Phys. 328 (2014), no. 1, 83-130'
+    primary_category: math.SG
+  - id: '1006.3830'
+    title: 'SYZ mirror symmetry for toric Calabi-Yau manifolds'
+    year: 2012
+    coauthors: [leung-naichung, 'Siu-Cheong Lau']
+    doi: '10.4310/jdg/1335230845'
+    journal: 'J. Differential Geom. 90 (2012), no. 2, 177-250'
+    primary_category: math.SG
+  - id: '1112.0844'
+    title: 'Homological mirror symmetry for $A_n$-resolutions as a $T$-duality'
+    year: 2011
+    coauthors: []
+    doi: '10.1112/jlms/jds048'
+    journal: 'J. Lond. Math. Soc. (2) 87 (2013), no. 1, 204-222'
+    primary_category: math.SG
+  - id: '1112.0388'
+    title: 'Open Gromov-Witten invariants and mirror maps for semi-Fano toric manifolds'
+    year: 2011
+    coauthors: ['Siu-Cheong Lau', leung-naichung, 'Hsian-Hua Tseng']
+    doi: '10.4310/PAMQ.2020.v16.n3.a11'
+    journal: 'Pure Appl. Math. Q. 16 (2020), no. 3, 675-720'
+    primary_category: math.SG
+  - id: '1110.4439'
+    title: 'Enumerative meaning of mirror maps for toric Calabi-Yau manifolds'
+    year: 2011
+    coauthors: ['Siu-Cheong Lau', 'Hsian-Hua Tseng']
+    doi: '10.1016/j.aim.2013.05.018'
+    journal: 'Adv. Math. 244 (2013), 605-625'
+    primary_category: math.SG
+  - id: '1010.5287'
+    title: 'Open Gromov-Witten invariants and superpotentials for semi-Fano toric surfaces'
+    year: 2010
+    coauthors: ['Siu-Cheong Lau']
+    doi: '10.1093/imrn/rnt050'
+    journal: 'Int. Math. Res. Not. 2014 (2014), no. 14, 3759-3789'
+    primary_category: math.AG
+  - id: '1006.3832'
+    title: 'Matrix factorizations from SYZ transformations'
+    year: 2010
+    coauthors: [leung-naichung]
+    journal: '"Advances in Geometric Analysis", 203-224, Adv. Lect. Math. (ALM) 21, Int. Press, Somerville, MA, 2012'
+    primary_category: math.SG
+  - id: '1006.3827'
+    title: 'A formula equating open and closed Gromov-Witten invariants and its applications to mirror symmetry'
+    year: 2010
+    coauthors: []
+    doi: '10.2140/pjm.2011.254.275'
+    journal: 'Pacific J. Math. 254 (2011), no. 2, 275-293'
+    primary_category: math.SG
+  - id: '0909.3608'
+    title: 'The Ooguri-Vafa metric, holomorphic discs and wall-crossing'
+    year: 2009
+    coauthors: []
+    doi: '10.4310/MRL.2010.v17.n3.a3'
+    journal: 'Math. Res. Lett. 17 (2010), no. 3, 401-414'
+    primary_category: math.SG
+  - id: '0903.1164'
+    title: 'Holomorphic line bundles on projective toric manifolds from Lagrangian sections of their mirrors by SYZ transformations'
+    year: 2009
+    coauthors: []
+    doi: '10.1093/imrn/rnp105'
+    journal: 'Int. Math. Res. Not. 2009 (2009), no. 24, 4686-4708'
+    primary_category: math.SG
+  - id: '0808.1551'
+    title: 'On SYZ mirror transformations'
+    year: 2008
+    coauthors: [leung-naichung]
+    journal: '"New Developments in Algebraic Geometry, Integrable Systems and Mirror Symmetry", 1-30, Adv. Stud. Pure Math., 59, Math. Soc. Japan, Tokyo, 2010'
+    primary_category: math.SG
+  - id: '0801.2830'
+    title: 'Mirror symmetry for toric Fano manifolds via SYZ transformations'
+    year: 2008
+    coauthors: [leung-naichung]
+    doi: '10.1016/j.aim.2009.09.009'
+    journal: 'Adv. Math. 223 (2010), no. 3, 797-839'
+    primary_category: math.SG
 activity:
-  total_papers: null
-  active_period: "2008-present"
+  total_papers: 46
+  published_count: 41
+  preprint_only_count: 5
+  active_period: '2008-present'
 external_ids:
   mathgenealogy: "[待验证]"
 links:

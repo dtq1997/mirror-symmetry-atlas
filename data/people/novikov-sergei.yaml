@@ -44,64 +44,21 @@ students:
 - dubrovin
 key_collaborators: []
 activity:
-  total_papers: 300
+  total_papers: 0
+  published_count: 0
+  preprint_only_count: 0
   h_index: 28
+  active_period: '1960-2024'
+  peak_period: '1965-2000'
   phd_students: 30
   academic_descendants: 200
-  active_period: 1960-2024
-  peak_period: 1965-2000
-  quality_source: openalex + ruirui-2026
+  quality_source: 'openalex + ruirui-2026'
   t1_papers: 0
   t2_papers: 99
   t3_papers: 0
   t4_papers: 0
   other_papers: 91
-  venue_samples:
-  - name: Russian Mathematical Surveys
-    tier: T2
-    count: 93
-  - name: PRX Quantum
-    tier: T2
-    count: 2
-  - name: npj Quantum Information
-    tier: T2
-    count: 2
-  - name: Physical Review Letters
-    tier: T2
-    count: 1
-  - name: Nature Physics
-    tier: T2
-    count: 1
-  - name: arXiv (Cornell University)
-    tier: '-'
-    count: 13
-  - name: Bulletin of the American Physical Society
-    tier: '-'
-    count: 8
-  - name: Graduate texts in mathematics
-    tier: '-'
-    count: 4
-  - name: Mathematics of the USSR-Izvestiya
-    tier: '-'
-    count: 3
-  - name: Physics-Uspekhi
-    tier: '-'
-    count: 3
-  - name: Soviet Physics Uspekhi
-    tier: '-'
-    count: 3
-  - name: Graduate studies in mathematics
-    tier: '-'
-    count: 3
-  - name: Physica D Nonlinear Phenomena
-    tier: '-'
-    count: 2
-  - name: Physical Review B
-    tier: '-'
-    count: 2
-  - name: Encyclopaedia of mathematical sciences
-    tier: '-'
-    count: 2
+  venue_samples: [{'name': 'Russian Mathematical Surveys', 'tier': 'T2', 'count': 93}, {'name': 'PRX Quantum', 'tier': 'T2', 'count': 2}, {'name': 'npj Quantum Information', 'tier': 'T2', 'count': 2}, {'name': 'Physical Review Letters', 'tier': 'T2', 'count': 1}, {'name': 'Nature Physics', 'tier': 'T2', 'count': 1}, {'name': 'arXiv (Cornell University)', 'tier': '-', 'count': 13}, {'name': 'Bulletin of the American Physical Society', 'tier': '-', 'count': 8}, {'name': 'Graduate texts in mathematics', 'tier': '-', 'count': 4}, {'name': 'Mathematics of the USSR-Izvestiya', 'tier': '-', 'count': 3}, {'name': 'Physics-Uspekhi', 'tier': '-', 'count': 3}, {'name': 'Soviet Physics Uspekhi', 'tier': '-', 'count': 3}, {'name': 'Graduate studies in mathematics', 'tier': '-', 'count': 3}, {'name': 'Physica D Nonlinear Phenomena', 'tier': '-', 'count': 2}, {'name': 'Physical Review B', 'tier': '-', 'count': 2}, {'name': 'Encyclopaedia of mathematical sciences', 'tier': '-', 'count': 2}]
   oa_total_papers: 190
 external_ids:
   openalex: A5042142378
@@ -112,6 +69,7 @@ personal_notes: |
   代数拓扑和可积系统的巨匠。博导 Postnikov。
   父 Pyotr Novikov (群论字问题)，母 Lyudmila Keldysh、舅 Mstislav Keldysh 均数学家。
   Dubrovin 的导师。Maryland 长期兼职。2024 年去世。
+publications:
 sources:
 - label: Math Genealogy
   url: https://www.mathgenealogy.org/id.php?id=44135

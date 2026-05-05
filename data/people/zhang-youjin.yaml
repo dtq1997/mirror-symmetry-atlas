@@ -69,68 +69,321 @@ key_collaborators:
   topic: Frobenius manifolds & integrable hierarchies
   papers_count: 15
 activity:
-  total_papers: 162
+  total_papers: 53
+  published_count: 24
+  preprint_only_count: 29
   h_index: 30
-  active_period: 1990-present
-  peak_period: 2000-2020
-  quality_source: openalex + ruirui-2026
+  active_period: '1990-present'
+  peak_period: '2000-2020'
+  quality_source: 'openalex + ruirui-2026'
   t1_papers: 1
   t2_papers: 3
   t3_papers: 16
   t4_papers: 1
   other_papers: 137
-  venue_samples:
-  - name: Inventiones mathematicae
-    tier: T1
-    count: 1
-  - name: Communications on Pure and Applied Mathematics
-    tier: T2
-    count: 1
-  - name: Compositio Mathematica
-    tier: T2
-    count: 1
-  - name: Journal of Differential Geometry
-    tier: T2
-    count: 1
-  - name: Communications in Mathematical Physics
-    tier: T3
-    count: 9
-  - name: Advances in Mathematics
-    tier: T3
-    count: 5
-  - name: Journal für die reine und angewandte Mathematik (Crelles Journal)
-    tier: T3
-    count: 1
-  - name: Journal of the London Mathematical Society
-    tier: T3
-    count: 1
-  - name: Inverse Problems
-    tier: T4
-    count: 1
-  - name: arXiv (Cornell University)
-    tier: '-'
-    count: 23
-  - name: ArXiv.org
-    tier: '-'
-    count: 9
-  - name: Journal of Geometry and Physics
-    tier: '-'
-    count: 8
-  - name: Materials Research Bulletin
-    tier: '-'
-    count: 8
-  - name: Journal of Physics A Mathematical and General
-    tier: '-'
-    count: 6
-  - name: Letters in Mathematical Physics
-    tier: '-'
-    count: 5
+  venue_samples: [{'name': 'Inventiones mathematicae', 'tier': 'T1', 'count': 1}, {'name': 'Communications on Pure and Applied Mathematics', 'tier': 'T2', 'count': 1}, {'name': 'Compositio Mathematica', 'tier': 'T2', 'count': 1}, {'name': 'Journal of Differential Geometry', 'tier': 'T2', 'count': 1}, {'name': 'Communications in Mathematical Physics', 'tier': 'T3', 'count': 9}, {'name': 'Advances in Mathematics', 'tier': 'T3', 'count': 5}, {'name': 'Journal für die reine und angewandte Mathematik (Crelles Journal)', 'tier': 'T3', 'count': 1}, {'name': 'Journal of the London Mathematical Society', 'tier': 'T3', 'count': 1}, {'name': 'Inverse Problems', 'tier': 'T4', 'count': 1}, {'name': 'arXiv (Cornell University)', 'tier': '-', 'count': 23}, {'name': 'ArXiv.org', 'tier': '-', 'count': 9}, {'name': 'Journal of Geometry and Physics', 'tier': '-', 'count': 8}, {'name': 'Materials Research Bulletin', 'tier': '-', 'count': 8}, {'name': 'Journal of Physics A Mathematical and General', 'tier': '-', 'count': 6}, {'name': 'Letters in Mathematical Physics', 'tier': '-', 'count': 5}]
   oa_total_papers: 158
 external_ids:
   openalex: A5076963789
 links:
   homepage: http://faculty.math.tsinghua.edu.cn/~yzhang/
 personal_notes: null
+publications:
+  - id: '2602.21532'
+    title: 'Generalized Frobenius Manifold Structures on the Orbit Spaces of Affine Weyl Groups II'
+    year: 2026
+    coauthors: ['Lingrui Jiang', si-li, 'Yingchao Tian']
+    primary_category: math.DG
+  - id: '2511.06984'
+    title: 'On a class of integrable deformations of the integrable hierarchy of topological type associated to a semisimple Frobenius manifold'
+    year: 2025
+    coauthors: [si-li, 'Paolo Rossi', yang-di]
+    primary_category: math-ph
+  - id: '2506.13656'
+    title: 'Generalized Frobenius Manifold Structures on the Orbit Spaces of Affine Weyl Groups I'
+    year: 2025
+    coauthors: ['Lingrui Jiang', si-li, 'Yingchao Tian']
+    primary_category: math.DG
+  - id: '2411.15496'
+    title: 'Legendre transformations of a class of generalized Frobenius manifolds and the associated integrable hierarchies'
+    year: 2024
+    coauthors: [si-li, qu-haonan]
+    primary_category: math-ph
+  - id: '2409.19530'
+    title: 'On Tautological Flows of Partial Difference Equations'
+    year: 2024
+    coauthors: ['Zhonglun Cao', si-li]
+    primary_category: nlin.SI
+  - id: '2404.08895'
+    title: 'The extended Ablowitz-Ladik hierarchy and a generalized Frobenius manifold'
+    year: 2024
+    coauthors: [si-li, 'Yuewei Wang']
+    primary_category: math-ph
+  - id: '2402.00373'
+    title: 'Solutions of the loop equations of a class of generalized Frobenius manifolds'
+    year: 2024
+    coauthors: [si-li, qu-haonan, 'Yuewei Wang']
+    primary_category: math-ph
+  - id: '2305.10851'
+    title: 'Variational Bihamiltonian Cohomologies and Integrable Hierarchies III: Linear Reciprocal Transformations'
+    year: 2023
+    coauthors: [si-li, 'Zhe Wang']
+    primary_category: nlin.SI
+  - id: '2209.00483'
+    title: 'Generalized Frobenius Manifolds with Non-flat Unity and Integrable Hierarchies'
+    year: 2022
+    coauthors: [si-li, qu-haonan]
+    primary_category: math-ph
+  - id: '2203.16812'
+    title: 'On Equivariant Gromov--Witten Invariants of Resolved Conifold with Diagonal and Anti-Diagonal Actions'
+    year: 2022
+    coauthors: [si-li, yang-di, zhou-chunhui]
+    doi: '10.1007/s11005-022-01618-y'
+    primary_category: math-ph
+  - id: '2112.07526'
+    title: 'The Virasoro-like Algebra of a Frobenius Manifold'
+    year: 2021
+    coauthors: [si-li, yang-di, zhou-jian]
+    primary_category: math-ph
+  - id: '2110.03317'
+    title: 'Reduction of the 2D Toda Hierarchy and Linear Hodge Integrals'
+    year: 2021
+    coauthors: [si-li, 'Zhe Wang']
+    doi: '10.3842/SIGMA.2022.037'
+    journal: 'SIGMA 18 (2022), 037, 18 pages'
+    primary_category: nlin.SI
+  - id: '2109.01846'
+    title: 'Linearization of Virasoro symmetries associated with semisimple Frobenius manifolds'
+    year: 2021
+    coauthors: [si-li, 'Zhe Wang']
+    primary_category: math-ph
+  - id: '2109.01845'
+    title: 'Variational Bihamiltonian Cohomologies and Integrable Hierarchies II: Virasoro symmetries'
+    year: 2021
+    coauthors: [si-li, 'Zhe Wang']
+    doi: '10.1007/s00220-022-04433-7'
+    primary_category: math-ph
+  - id: '2108.03447'
+    title: 'Tri-Hamiltonian Structure of the Ablowitz-Ladik Hierarchy'
+    year: 2021
+    coauthors: ['Shuangxing Li', si-li, qu-haonan]
+    doi: '10.1016/j.physd.2022.133180'
+    primary_category: math-ph
+  - id: '2106.13038'
+    title: 'Variational Bihamiltonian Cohomologies and Integrable Hierarchies I: Foundations'
+    year: 2021
+    coauthors: [si-li, 'Zhe Wang']
+    doi: '10.1007/s00220-023-04658-0'
+    primary_category: math.DG
+  - id: '2009.01143'
+    title: 'Super tau-covers of bihamiltonian integrable hierarchies'
+    year: 2020
+    coauthors: [si-li, 'Zhe Wang']
+    doi: '10.1016/j.geomphys.2021.104351'
+    journal: 'Journal of Geometry and Physics Volume 170, December 2021, 104351'
+    primary_category: math.DG
+  - id: '2005.02275'
+    title: 'Masur--Veech volumes of quadratic differentials and their asymptotics'
+    year: 2020
+    coauthors: [yang-di, zagier]
+    primary_category: math-ph
+  - id: '1908.06707'
+    title: 'Virasoro Constraints for Drinfeld-Sokolov hierarchies and equations of Painlevé type'
+    year: 2019
+    coauthors: [si-li, 'Chao-Zhong Wu']
+    primary_category: nlin.SI
+  - id: '1906.06860'
+    title: 'The Hodge-FVH Correspondence'
+    year: 2019
+    coauthors: [si-li, yang-di, zhou-chunhui]
+    primary_category: math-ph
+  - id: '1811.10234'
+    title: 'The Loop Equation for Special Cubic Hodge Integrals'
+    year: 2018
+    coauthors: [si-li, yang-di, zhou-chunhui]
+    primary_category: math.AG
+  - id: '1811.10137'
+    title: 'Drinfeld-Sokolov hierarchies and diagram automorphisms of affine Kac-Moody algebras'
+    year: 2018
+    coauthors: [si-li, 'Chao-Zhong Wu', xu-xu]
+    doi: '10.1007/s00220-019-03568-4'
+    journal: 'C.M.P. (2019)'
+    primary_category: nlin.SI
+  - id: '1702.02840'
+    title: 'Fractional Volterra Hierarchy'
+    year: 2017
+    coauthors: [si-li, zhou-chunhui]
+    doi: '10.1007/s11005-017-1006-3'
+    primary_category: nlin.SI
+  - id: '1701.03222'
+    title: 'Bihamiltonian Cohomologies and Integrable Hierarchies II: the Tau Structures'
+    year: 2017
+    coauthors: [dubrovin, si-li]
+    doi: '10.1007/s00220-018-3176-y'
+    primary_category: math.DG
+  - id: '1612.02333'
+    title: 'Hodge-GUE correspondence and the discrete KdV equation'
+    year: 2016
+    coauthors: [dubrovin, si-li, yang-di]
+    primary_category: math-ph
+  - id: '1510.08690'
+    title: 'Extended affine Weyl groups of BCD type, Frobenius manifolds and their Landau-Ginzburg superpotentials'
+    year: 2015
+    coauthors: [dubrovin, 'Ian A. B. Strachan', 'Dafeng Zuo']
+    doi: '10.1016/j.aim.2019.05.030'
+    journal: 'Advances in Mathematics Volume 351, 31 July 2019, Pages 897-946'
+    primary_category: math.DG
+  - id: '1502.01774'
+    title: 'Central Invariants of the Constrained KP Hierarchies'
+    year: 2015
+    coauthors: [si-li, xu-xu]
+    doi: '10.1016/j.geomphys.2015.07.017'
+    primary_category: math-ph
+  - id: '1409.4616'
+    title: 'Hodge integrals and tau-symmetric integrable hierarchies of Hamiltonian evolutionary PDEs'
+    year: 2014
+    coauthors: [dubrovin, si-li, yang-di]
+    primary_category: math.AG
+  - id: '1312.7227'
+    title: 'BCFG Drinfeld-Sokolov Hierarchies and FJRW-Theory'
+    year: 2013
+    coauthors: [si-li, ruan-yongbin]
+    primary_category: math.AG
+  - id: '1305.2593'
+    title: 'Uniqueness Theorem of W-Constraints for Simple Singularities'
+    year: 2013
+    coauthors: [si-li, yang-di]
+    doi: '10.1007/s11005-013-0643-4'
+    primary_category: math.QA
+  - id: '1305.1008'
+    title: 'Proof of a Conjecture on the Genus Two Free Energy Associated to the A_n Singularity'
+    year: 2013
+    coauthors: ['Yulong Fu', si-li, zhou-chunhui]
+    doi: '10.1016/j.geomphys.2013.10.013'
+    primary_category: math-ph
+  - id: '1208.5847'
+    title: 'Bihamiltonian Cohomologies and Integrable Hierarchies I: A Special Case'
+    year: 2012
+    coauthors: [si-li]
+    doi: '10.1007/s00220-013-1822-y'
+    primary_category: math.DG
+  - id: '1205.5990'
+    title: 'On the Genus Two Free Energies for Semisimple Frobenius Manifolds'
+    year: 2012
+    coauthors: [dubrovin, si-li]
+    doi: '10.1134/S1061920812030028'
+    journal: 'Russ. J. Math. Phys. 19 (2012), no. 3, 273--298'
+    primary_category: math-ph
+  - id: '1012.5708'
+    title: 'The Inversion Symmetry of the WDVV Equations and Tau Functions'
+    year: 2010
+    coauthors: [si-li, xu-xu]
+    journal: 'Phys. D 241 (2012), no. 23-24, 2168--2177'
+    primary_category: math.DG
+  - id: '1002.0034'
+    title: 'On Symmetries of the WDVV Equations'
+    year: 2010
+    coauthors: [xu-xu]
+    primary_category: math.DG
+  - id: '0912.5273'
+    title: 'On the Drinfeld-Sokolov Hierarchies of D type'
+    year: 2009
+    coauthors: [si-li, 'Chao-Zhong Wu']
+    primary_category: nlin.SI
+  - id: '0910.2085'
+    title: 'Jacobi Structures of Evolutionary Partial Differential Equations'
+    year: 2009
+    coauthors: [si-li]
+    primary_category: math.DG
+  - id: '0809.0397'
+    title: 'Hamiltonian Structures and Reciprocal Transformations for the $r$-KdV-CH Hierarchy'
+    year: 2008
+    coauthors: ['Ming Chen', si-li]
+    primary_category: nlin.SI
+  - id: '0711.2599'
+    title: 'On Properties of Hamiltonian Structures for a Class of Evolutionary PDEs'
+    year: 2007
+    coauthors: [si-li, 'Chao-Zhong Wu']
+    doi: '10.1007/s11005-008-0234-y'
+    primary_category: nlin.SI
+  - id: '0710.3115'
+    title: 'Frobenius Manifolds and Central Invariants for the Drinfeld - Sokolov Bihamiltonian Structures'
+    year: 2007
+    coauthors: [dubrovin, si-li]
+    primary_category: math.DG
+  - id: '0510250'
+    title: 'Bihamiltonian Systems of Hydrodynamic Type and Reciprocal Transformations'
+    year: 2005
+    coauthors: [xu-xu]
+    doi: '10.1007/s11005-005-0031-9'
+    primary_category: math.DG
+  - id: '0510019'
+    title: 'On Quasitriviality and Integrability of a Class of Scalar Evolutionary PDEs'
+    year: 2005
+    coauthors: [si-li]
+    doi: '10.1016/j.geomphys.2006.02.005'
+    primary_category: nlin.SI
+  - id: '0502365'
+    title: 'Extended affine Weyl groups and Frobenius manifolds -- II'
+    year: 2005
+    coauthors: [dubrovin, 'Dafeng Zuo']
+    primary_category: math.DG
+  - id: '0501028'
+    title: 'A 2-Component Generalization of the Camassa-Holm Equation and Its Solutions'
+    year: 2005
+    coauthors: ['Ming Chen', si-li]
+    doi: '10.1007/s11005-005-0041-7'
+    primary_category: nlin.SI
+  - id: '0410027'
+    title: 'On Hamiltonian perturbations of hyperbolic systems of conservation laws'
+    year: 2004
+    coauthors: [dubrovin, si-li]
+    primary_category: math.DG
+  - id: '0406626'
+    title: 'On the Quasitriviality of Deformations of Bihamiltonian Structures of Hydrodynamic Type'
+    year: 2004
+    coauthors: [si-li]
+    primary_category: math.DG
+  - id: '0405146'
+    title: 'Deformations of Semisimple Bihamiltonian Structures of Hydrodynamic Type'
+    year: 2004
+    coauthors: [si-li]
+    doi: '10.1016/j.geomphys.2004.11.003'
+    primary_category: math.DG
+  - id: '0308152'
+    title: 'Virasoro Symmetries of the Extended Toda Hierarchy'
+    year: 2003
+    coauthors: [dubrovin]
+    doi: '10.1007/s00220-004-1084-9'
+    primary_category: math.DG
+  - id: '0306060'
+    title: 'The Extended Toda Hierarchy'
+    year: 2003
+    coauthors: ['Guido Carlet', dubrovin]
+    primary_category: nlin.SI
+  - id: '0108160'
+    title: 'Normal forms of hierarchies of integrable PDEs, Frobenius manifolds and Gromov - Witten invariants'
+    year: 2001
+    coauthors: [dubrovin]
+    primary_category: math.DG
+  - id: '9808048'
+    title: 'Frobenius Manifolds And Virasoro Constraints'
+    year: 1998
+    coauthors: [dubrovin]
+    primary_category: math.AG
+  - id: '9712232'
+    title: 'Bihamiltonian Hierarchies in 2D Topological Field Theory At One-Loop Approximation'
+    year: 1997
+    coauthors: [dubrovin]
+    doi: '10.1007/s002200050480'
+    journal: 'Commun.Math.Phys. 198 (1998) 311-361'
+    primary_category: hep-th
+  - id: '9611200'
+    title: 'Extended affine Weyl groups and Frobenius manifolds'
+    year: 1996
+    coauthors: [dubrovin]
+    journal: 'Compositio Mathematica 111 (1998), 167--219'
+    primary_category: hep-th
 sources:
 - label: OpenAlex
   url: https://openalex.org/authors/A5076963789

@@ -67,10 +67,240 @@ key_collaborators:
     since: 2012
     topic: "Effective BV quantization, factorization algebras"
     papers_count: 3
-publications: []
+publications:
+  - id: '2511.12875'
+    title: 'Quantization and Algebraic Index'
+    year: 2025
+    coauthors: []
+    primary_category: math-ph
+  - id: '2506.13194'
+    title: 'Contact Term Algebras and Dijkgraaf''s Master Equation'
+    year: 2025
+    coauthors: ['Zhengping Gui', tang-xinxing]
+    primary_category: math.QA
+  - id: '2501.12360'
+    title: 'Stochastic Calculus and Hochschild Homology'
+    year: 2025
+    coauthors: ['Zichang Wang', 'Peng Yang']
+    primary_category: math.PR
+  - id: '2409.12486'
+    title: 'On the Hilbert Space of the Chern-Simons Matrix Model, Deformed Double Current Algebra Action, and the Conformal Limit'
+    year: 2024
+    coauthors: ['Sen Hu', 'Dongheng Ye', 'Yehao Zhou']
+    primary_category: math-ph
+  - id: '2403.07590'
+    title: 'Topological Quantum Mechanics on Orbifolds and Orbifold Index'
+    year: 2024
+    coauthors: ['Peng Yang']
+    doi: '10.4310/PAMQ.250402025702'
+    journal: 'Pure and Applied Mathematics Quarterly, Vol. 21, Issue 4 (2025), pp. 1645-1687'
+    primary_category: math.QA
+  - id: '2308.14046'
+    title: 'Quantum Algebra of Chern-Simons Matrix Model and Large $N$ Limit'
+    year: 2023
+    coauthors: ['Sen Hu', 'Dongheng Ye', 'Yehao Zhou']
+    doi: '10.1007/s00023-025-01585-9'
+    journal: 'Ann. Henri Poincaré (2025)'
+    primary_category: math.QA
+  - id: '2212.11252'
+    title: 'Quadratic Duality for Chiral Algebras'
+    year: 2022
+    coauthors: ['Zhengping Gui', 'Keyou Zeng']
+    primary_category: math.QA
+  - id: '2205.14562'
+    title: 'Regularized Integrals on Elliptic Curves and Holomorphic Anomaly Equations'
+    year: 2022
+    coauthors: ['Jie Zhou']
+    doi: '10.1007/s00220-023-04647-3'
+    journal: 'Commun. Math. Phys. 401, 613-645 (2023)'
+    primary_category: math.DG
+  - id: '2112.14572'
+    title: 'Elliptic Trace Map on Chiral Algebras'
+    year: 2021
+    coauthors: ['Zhengping Gui']
+    primary_category: math.QA
+  - id: '2008.07503'
+    title: 'Regularized Integrals on Riemann Surfaces and Modular Forms'
+    year: 2020
+    coauthors: ['Jie Zhou']
+    doi: '10.1007/s00220-021-04232-6'
+    journal: 'Commun. Math. Phys. 388 (2021), 1403-1474'
+    primary_category: math.DG
+  - id: '1911.11173'
+    title: 'Geometry of Localized Effective Theories, Exact Semi-classical Approximation and the Algebraic Index'
+    year: 2019
+    coauthors: ['Zhengping Gui', xu-xu]
+    primary_category: math.QA
+  - id: '1910.05665'
+    title: 'Dispersionless Integrable Hierarchy via Kodaira-Spencer Gravity'
+    year: 2019
+    coauthors: [he-weiqiang, tang-xinxing, 'Philsang Yoo']
+    doi: '10.1007/s00220-020-03809-x'
+    primary_category: math-ph
+  - id: '1905.09269'
+    title: 'Anomaly cancellation in the topological string'
+    year: 2019
+    coauthors: ['Kevin Costello']
+    primary_category: hep-th
+  - id: '1904.09426'
+    title: 'Unfolding of Orbifold LG B-Models: A Case Study'
+    year: 2019
+    coauthors: [he-weiqiang, 'Yifan Li']
+    primary_category: math-ph
+  - id: '1903.02713'
+    title: 'On the L2-Hodge theory of Landau-Ginzburg models'
+    year: 2019
+    coauthors: [wen-hao]
+    primary_category: math-ph
+  - id: '1810.05179'
+    title: 'Categorical primitive forms and Gromov-Witten invariants of $A_n$ singularities'
+    year: 2018
+    coauthors: ['Andrei Caldararu', tu-junwu]
+    journal: 'International Mathematics Research Notices, 2019;, rnz315'
+    primary_category: math.AG
+  - id: '1807.06037'
+    title: 'Homotopy Algebras in Higher Spin Theory'
+    year: 2018
+    coauthors: ['Keyou Zeng']
+    doi: '10.4310/ATMP.2020.v24.n3.a5'
+    journal: 'ADV. THEOR. MATH. PHYS. (2020)'
+    primary_category: hep-th
+  - id: '1802.06751'
+    title: 'Seiberg-Witten differential via primitive forms'
+    year: 2018
+    coauthors: ['Dan Xie', yau-shingtung]
+    doi: '10.1007/s00220-019-03401-y'
+    journal: 'Commun. Math. Phys. (2019)'
+    primary_category: hep-th
+  - id: '1801.04560'
+    title: 'G-twisted braces and orbifold Landau-Ginzburg Models'
+    year: 2018
+    coauthors: [he-weiqiang, 'Yifan Li']
+    doi: '10.1007/s00220-019-03653-8'
+    journal: 'Commun. Math. Phys. (2020)'
+    primary_category: math.QA
+  - id: '1709.00669'
+    title: 'Effective Batalin-Vilkovisky quantization and geometric applications'
+    year: 2017
+    coauthors: []
+    primary_category: math.QA
+  - id: '1612.01292'
+    title: 'Vertex algebras and quantum master equation'
+    year: 2016
+    coauthors: []
+    doi: '10.4310/jdg/1683307007'
+    journal: 'J. Differential Geom. (2023)'
+    primary_category: math.QA
+  - id: '1606.00365'
+    title: 'Twisted supergravity and its quantization'
+    year: 2016
+    coauthors: ['Kevin Costello']
+    primary_category: hep-th
+  - id: '1507.01812'
+    title: 'Batalin-Vilkovisky quantization and the algebraic index'
+    year: 2015
+    coauthors: ['Ryan E. Grady', li-qin]
+    doi: '10.1016/j.aim.2017.07.007'
+    journal: 'Advances in Mathematics 317 (2017), 575-639'
+    primary_category: math.QA
+  - id: '1505.06703'
+    title: 'Quantization of open-closed BCOV theory, I'
+    year: 2015
+    coauthors: ['Kevin Costello']
+    primary_category: hep-th
+  - id: '1504.03283'
+    title: 'A Mirror Theorem between Landau-Ginzburg models'
+    year: 2015
+    coauthors: []
+    doi: '10.1016/j.nuclphysb.2015.04.002'
+    journal: 'Nuclear Phys. B. (2015)'
+    primary_category: math.AG
+  - id: '1503.01757'
+    title: 'Landau-Ginzburg Mirror Symmetry Conjecture'
+    year: 2015
+    coauthors: [he-weiqiang, 'Yefeng Shen', 'Rachel Webb']
+    primary_category: math.AG
+  - id: '1405.4530'
+    title: 'Mirror symmetry for exceptional unimodular singularities'
+    year: 2014
+    coauthors: [li-changzheng, k-saito, 'Yefeng Shen']
+    primary_category: math.AG
+  - id: '1402.7000'
+    title: 'On the B-twisted topological sigma model and Calabi-Yau geometry'
+    year: 2014
+    coauthors: [li-qin]
+    doi: '10.4310/jdg/1456754015'
+    journal: 'J.Diff.Geom. (2016)'
+    primary_category: math.QA
+  - id: '1311.1659'
+    title: 'Primitive forms via polyvector fields'
+    year: 2013
+    coauthors: [li-changzheng, k-saito]
+    primary_category: math.AG
+  - id: '1303.2782'
+    title: 'Variation of Hodge structures, Frobenius manifolds and Gauge theory'
+    year: 2013
+    coauthors: []
+    primary_category: math.QA
+  - id: '1212.4234'
+    title: 'Renormalization Method and Mirror Symmetry'
+    year: 2012
+    coauthors: []
+    doi: '10.3842/SIGMA.2012.101'
+    journal: 'SIGMA 8 (2012), 101, 17 pages'
+    primary_category: math.AG
+  - id: '1201.4501'
+    title: 'Quantum BCOV theory on Calabi-Yau manifolds and the higher genus B-model'
+    year: 2012
+    coauthors: ['Kevin J. Costello']
+    primary_category: math.QA
+  - id: '1112.4063'
+    title: 'BCOV theory on the elliptic curve and higher genus mirror symmetry'
+    year: 2011
+    coauthors: []
+    primary_category: math.QA
+  - id: '1112.4015'
+    title: 'Feynman Graph Integrals and Almost Modular Forms'
+    year: 2011
+    coauthors: []
+    primary_category: math.NT
+  - id: '0910.4215'
+    title: 'Picard-Fuchs Equations for Relative Periods and Abel-Jacobi Map for Calabi-Yau Hypersurfaces'
+    year: 2009
+    coauthors: ['Bong H. Lian', yau-shingtung]
+    primary_category: math.AG
+  - id: '0809.2121'
+    title: 'Morphisms from Azumaya prestable curves with a fundamental module to a projective variety: Topological D-strings as a master object for curves'
+    year: 2008
+    coauthors: [li-ao, 'Ruifang Song', yau-shingtung]
+    primary_category: math.AG
+  - id: '0809.0344'
+    title: 'On the deformation theory of pair (X, E)'
+    year: 2008
+    coauthors: []
+    primary_category: math.AG
+  - id: '0802.1231'
+    title: 'On the spectrum of unitary finite-Euclidean graphs'
+    year: 2008
+    coauthors: ['Le Anh Vinh']
+    primary_category: math.CO
+  - id: '0512319'
+    title: 'Hamiltonian Formalism of the de-Sitter Invariant Special Relativity'
+    year: 2005
+    coauthors: ['Mu-Lin Yan', 'Neng-Chao Xiao', 'Wei Huang']
+    doi: '10.1088/0253-6102/48/1/007'
+    journal: 'Commun.Theor.Phys.48:27-36,2007'
+    primary_category: hep-th
+  - id: '0511101'
+    title: 'Supersymmetric Quantum Mechanics and Lefschetz fixed-point formula'
+    year: 2005
+    coauthors: []
+    primary_category: hep-th
 activity:
-  total_papers: null
-  active_period: "2009-present"
+  total_papers: 40
+  published_count: 15
+  preprint_only_count: 25
+  active_period: '2009-present'
 external_ids: {}
 links:
   homepage: "https://ymsc.tsinghua.edu.cn/info/1104/2554.htm"

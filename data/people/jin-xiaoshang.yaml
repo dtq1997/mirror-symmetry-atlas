@@ -78,66 +78,87 @@ key_collaborators:
     topic: "Willmore-type inequality, asymptotic geometric quantities"
     papers_count: 2
 publications:
-  - id: "2604.14600"
-    title: "Relations of Four Asymptotic Geometric Quantities in Riemannian Geometry"
+  - id: '2604.14600'
+    title: 'Relations of Four Asymptotic Geometric Quantities in Riemannian Geometry'
     year: 2026
-    coauthors: ["Jiabin Yin"]
-  - id: "2601.14018"
-    title: "Principal p-frequency estimates on non-compact manifolds with negative Ricci curvature"
+    coauthors: ['Jiabin Yin']
+    primary_category: math.DG
+  - id: '2601.14018'
+    title: 'Principal p-frequency estimates on non-compact manifolds with negative Ricci curvature'
     year: 2026
-    coauthors: ["Zhiwei Lü"]
-  - id: "2504.09856"
-    title: "Estimate for the first Dirichlet eigenvalue of p-Laplacian on non-compact manifolds"
+    coauthors: ['Zhiwei Lü']
+    primary_category: math.DG
+  - id: '2504.09856'
+    title: 'Estimate for the first Dirichlet eigenvalue of p-Laplacian on non-compact manifolds'
     year: 2025
-    coauthors: ["Zhiwei Lü"]
-  - id: "2502.13666"
-    title: "Essential p-capacity-volume estimates for rotationally symmetric manifolds"
+    coauthors: ['Zhiwei Lü']
+    primary_category: math.DG
+  - id: '2502.13666'
+    title: 'Essential p-capacity-volume estimates for rotationally symmetric manifolds'
     year: 2025
-    coauthors: ["Jie Xiao"]
-  - id: "2502.13651"
-    title: "Sharply estimating hyperbolic capacities"
+    coauthors: ['Jie Xiao']
+    primary_category: math.DG
+  - id: '2502.13651'
+    title: 'Sharply estimating hyperbolic capacities'
     year: 2025
-    coauthors: ["Jie Xiao"]
-  - id: "2405.02669"
-    title: "Lower bound for the first eigenvalue of p-Laplacian and applications in asymptotically hyperbolic manifolds"
+    coauthors: ['Jie Xiao']
+    primary_category: math.DG
+  - id: '2405.02669'
+    title: 'Lower bound for the first eigenvalue of p-Laplacian and applications in asymptotically hyperbolic manifolds'
     year: 2024
     coauthors: []
-  - id: "2402.02465"
-    title: "Willmore-type inequality for closed hypersurfaces in complete manifolds with Ricci curvature bounded below"
+    doi: '10.4310/MRL.260120021635'
+    primary_category: math.DG
+  - id: '2402.02465'
+    title: 'Willmore-type inequality for closed hypersurfaces in complete manifolds with Ricci curvature bounded below'
     year: 2024
-    coauthors: ["Jiabin Yin"]
-  - id: "2307.16439"
-    title: "Asymptotic behavior of the first Dirichlet eigenvalue of AHE manifolds"
+    coauthors: ['Jiabin Yin']
+    primary_category: math.DG
+  - id: '2307.16439'
+    title: 'Asymptotic behavior of the first Dirichlet eigenvalue of AHE manifolds'
     year: 2023
     coauthors: []
-  - id: "2305.16027"
-    title: "Rigidity for inscribed radius estimate of asymptotically hyperbolic Einstein manifolds"
+    primary_category: math.DG
+  - id: '2305.16027'
+    title: 'Rigidity for inscribed radius estimate of asymptotically hyperbolic Einstein manifolds'
     year: 2023
     coauthors: []
-  - id: "2207.02012"
-    title: "The relative volume function and the capacity of sphere on asymptotically hyperbolic manifolds"
+    primary_category: math.DG
+  - id: '2207.02012'
+    title: 'The relative volume function and the capacity of sphere on asymptotically hyperbolic manifolds'
     year: 2022
     coauthors: []
-  - id: "2110.09830"
-    title: "Boundary Estimate of Asymptotically Hyperbolic Einstein Manifolds of Even Dimension"
+    primary_category: math.DG
+  - id: '2110.09830'
+    title: 'Boundary Estimate of Asymptotically Hyperbolic Einstein Manifolds of Even Dimension'
     year: 2021
     coauthors: []
-  - id: "2107.03075"
-    title: "On compactness conformally compact Einstein manifolds and uniqueness of Graham-Lee metrics, III"
+    primary_category: math.DG
+  - id: '2107.03075'
+    title: 'On compactness conformally compact Einstein manifolds and uniqueness of Graham-Lee metrics, III'
     year: 2021
-    coauthors: ["Sun-Yung A. Chang", "Yuxin Ge", "Jie Qing"]
-  - id: "1911.01885"
-    title: "Finite Boundary Regularity for Conformally Compact Einstein Manifolds of Dimension 4"
+    coauthors: ['Sun-Yung A. Chang', 'Yuxin Ge', 'Jie Qing']
+    journal: 'Adv. Nonlinear Stud. 24 (2024), no. 1, 247-278'
+    primary_category: math.DG
+  - id: '1911.01885'
+    title: 'Finite Boundary Regularity for Conformally Compact Einstein Manifolds of Dimension 4'
     year: 2019
     coauthors: []
-    journal: "J. Geom. Anal. (2020)"
-  - id: "1801.04512"
-    title: "Boundary Regularity for Asymptotically Hyperbolic Metrics with Smooth Weyl Curvature"
+    doi: '10.1007/s12220-020-00423-0'
+    journal: 'J. Geom. Anal. (2020)'
+    primary_category: math.DG
+  - id: '1801.04512'
+    title: 'Boundary Regularity for Asymptotically Hyperbolic Metrics with Smooth Weyl Curvature'
     year: 2018
     coauthors: []
+    doi: '10.2140/pjm.2019.301.467'
+    journal: 'Pacific J. Math. 301 (2019) 467-487'
+    primary_category: math.DG
 activity:
   total_papers: 14
-  active_period: "2018-present"
+  published_count: 4
+  preprint_only_count: 10
+  active_period: '2018-present'
 external_ids: {}
 links:
   homepage: "http://faculty.hust.edu.cn/jinxiaoshang/zh_CN/index.htm"

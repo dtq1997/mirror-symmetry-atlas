@@ -37,67 +37,125 @@ advisor: brieskorn
 students: []
 key_collaborators: []
 activity:
-  total_papers: 137
+  total_papers: 20
+  published_count: 0
+  preprint_only_count: 20
   h_index: 25
-  active_period: 1971-present
+  active_period: '1971-present'
   phd_students: 7
-  quality_source: openalex + ruirui-2026
+  quality_source: 'openalex + ruirui-2026'
   t1_papers: 3
   t2_papers: 1
   t3_papers: 3
   t4_papers: 0
   other_papers: 124
-  venue_samples:
-  - name: Inventiones mathematicae
-    tier: T1
-    count: 3
-  - name: Journal of the European Mathematical Society
-    tier: T2
-    count: 1
-  - name: Advances in Mathematics
-    tier: T3
-    count: 3
-  - name: arXiv (Cornell University)
-    tier: '-'
-    count: 23
-  - name: Institutional Repositories DataBase (IRDB)
-    tier: '-'
-    count: 14
-  - name: Publications of the Research Institute for Mathematical Sciences
-    tier: '-'
-    count: 12
-  - name: Kyoto University Research Information Repository (Kyoto University)
-    tier: '-'
-    count: 8
-  - name: Journal of Algebra
-    tier: '-'
-    count: 6
-  - name: Proceedings of the Japan Academy Series A Mathematical Sciences
-    tier: '-'
-    count: 5
-  - name: Geographical Review of Japan
-    tier: '-'
-    count: 4
-  - name: Geomorphology
-    tier: '-'
-    count: 3
-  - name: Advanced studies in pure mathematics
-    tier: '-'
-    count: 3
-  - name: ArXiv.org
-    tier: '-'
-    count: 3
-  - name: Medical Entomology and Zoology
-    tier: '-'
-    count: 3
-  - name: 地形
-    tier: '-'
-    count: 3
+  venue_samples: [{'name': 'Inventiones mathematicae', 'tier': 'T1', 'count': 3}, {'name': 'Journal of the European Mathematical Society', 'tier': 'T2', 'count': 1}, {'name': 'Advances in Mathematics', 'tier': 'T3', 'count': 3}, {'name': 'arXiv (Cornell University)', 'tier': '-', 'count': 23}, {'name': 'Institutional Repositories DataBase (IRDB)', 'tier': '-', 'count': 14}, {'name': 'Publications of the Research Institute for Mathematical Sciences', 'tier': '-', 'count': 12}, {'name': 'Kyoto University Research Information Repository (Kyoto University)', 'tier': '-', 'count': 8}, {'name': 'Journal of Algebra', 'tier': '-', 'count': 6}, {'name': 'Proceedings of the Japan Academy Series A Mathematical Sciences', 'tier': '-', 'count': 5}, {'name': 'Geographical Review of Japan', 'tier': '-', 'count': 4}, {'name': 'Geomorphology', 'tier': '-', 'count': 3}, {'name': 'Advanced studies in pure mathematics', 'tier': '-', 'count': 3}, {'name': 'ArXiv.org', 'tier': '-', 'count': 3}, {'name': 'Medical Entomology and Zoology', 'tier': '-', 'count': 3}, {'name': '地形', 'tier': '-', 'count': 3}]
   oa_total_papers: 131
 external_ids:
   openalex: A5108641196
   mathgenealogy: "76983"
 links: {}
+publications:
+  - id: '2312.16951'
+    title: 'Second homotopy classes associated with non-cancellative monoids'
+    year: 2023
+    coauthors: []
+    primary_category: math.AT
+  - id: '2012.00844'
+    title: 'Primitive Forms without Higher Residue Structure and Integrable Hierarchies (I)'
+    year: 2020
+    coauthors: ['Konstantin Aleshkin']
+    primary_category: nlin.SI
+  - id: '1909.05446'
+    title: 'Modular forms from the Weierstrass functions'
+    year: 2019
+    coauthors: ['Hiroki Aoki']
+    primary_category: math.NT
+  - id: '1909.02715'
+    title: 'A view on elliptic integrals from primitive forms (Period integrals of type $\mathrm{A_2, B_2}$ and $\mathrm{G_2}$'
+    year: 2019
+    coauthors: []
+    primary_category: math.AG
+  - id: '1608.02357'
+    title: 'The Zero Locus of the $F$-triangle'
+    year: 2016
+    coauthors: []
+    primary_category: math.CO
+  - id: '1603.04532'
+    title: 'Zero loci of skew-growth functions for dual Artin monoids'
+    year: 2016
+    coauthors: ['Tadashi Ishibe']
+    primary_category: math.CO
+  - id: '1502.04872'
+    title: 'Coherence of direct images of the De Rham complex'
+    year: 2015
+    coauthors: []
+    primary_category: math.AG
+  - id: '1408.4208'
+    title: 'From primitive form to mirror symmetry'
+    year: 2014
+    coauthors: []
+    primary_category: math.AG
+  - id: '1405.4530'
+    title: 'Mirror symmetry for exceptional unimodular singularities'
+    year: 2014
+    coauthors: [li-changzheng, si-li, 'Yefeng Shen']
+    primary_category: math.AG
+  - id: '1311.1659'
+    title: 'Primitive forms via polyvector fields'
+    year: 2013
+    coauthors: [li-changzheng, si-li]
+    primary_category: math.AG
+  - id: '1201.6500'
+    title: 'Limit elements in the configuration algebra for a cancellative monoid'
+    year: 2012
+    coauthors: []
+    primary_category: math.GR
+  - id: '1201.5718'
+    title: 'Coxeter elements for vanishing cycles of type $A_{1/2\infty}$ and $D_{1/2\infty}$'
+    year: 2012
+    coauthors: []
+    primary_category: math.AG
+  - id: '1201.5713'
+    title: 'Opposite power series'
+    year: 2012
+    coauthors: []
+    primary_category: math.CA
+  - id: '1201.5496'
+    title: 'Inversion formula for the growth function of a cancellative monoid'
+    year: 2012
+    coauthors: []
+    primary_category: math.CO
+  - id: '1009.6076'
+    title: 'Growth partition functions for cancellative infinite monoids'
+    year: 2010
+    coauthors: []
+    primary_category: math.GR
+  - id: '0911.3305'
+    title: 'Monoids in the fundamental groups of the complement of logarithmic free divisors in C^3'
+    year: 2009
+    coauthors: ['Tadashi Ishibe']
+    primary_category: math.GR
+  - id: '0708.0210'
+    title: 'Triangulated categories of matrix factorizations for regular systems of weights with $ε=-1$'
+    year: 2007
+    coauthors: ['Hiroshige Kajiura', 'Atsushi Takahashi']
+    primary_category: math.AG
+  - id: '0602367'
+    title: 'Eta-product $η(7τ)^7/η(τ)$'
+    year: 2006
+    coauthors: []
+    primary_category: math.NT
+  - id: '0511155'
+    title: 'Matrix Factorizations and Representations of Quivers II: type ADE case'
+    year: 2005
+    coauthors: ['Hiroshige Kajiura', 'Atsushi Takahashi']
+    primary_category: math.AG
+  - id: '0510623'
+    title: 'Principal $Γ$-cone for a tree'
+    year: 2005
+    coauthors: []
+    primary_category: math.CO
 sources:
   - label: "Wikipedia: Kyoji Saito"
     url: "https://en.wikipedia.org/wiki/Kyoji_Saito"

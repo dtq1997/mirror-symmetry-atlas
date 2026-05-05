@@ -82,85 +82,107 @@ key_collaborators:
     topic: "Lagrangian solutions stability, index theory"
     papers_count: 1
 publications:
-  - id: "2510.25649"
-    title: "Degeneracy of Planar Central Configurations in the N-Body Problem"
+  - id: '2510.25649'
+    title: 'Degeneracy of Planar Central Configurations in the N-Body Problem'
     year: 2025
-    coauthors: ["Zhifu Xie", "Peng You"]
-  - id: "2510.10678"
-    title: "A proof of Witten's asymptotic expansion conjecture for WRT invariants of Seifert fibered homology spheres"
+    coauthors: ['Zhifu Xie', 'Peng You']
+    primary_category: math.DS
+  - id: '2510.10678'
+    title: 'A proof of Witten''s asymptotic expansion conjecture for WRT invariants of Seifert fibered homology spheres'
     year: 2025
-    coauthors: ["Jørgen Ellegaard Andersen", "Li Han", "Yong Li", "William Elbæk Mistegård", "David Sauzin"]
-  - id: "2503.12815"
-    title: "Resurgence in the Universal Structures in B-model Topological String Theory"
+    coauthors: ['Jørgen Ellegaard Andersen', 'Li Han', 'Yong Li', 'William Elbæk Mistegård', 'David Sauzin']
+    primary_category: math.CV
+  - id: '2503.12815'
+    title: 'Resurgence in the Universal Structures in B-model Topological String Theory'
     year: 2025
-    coauthors: ["Yong Li", "David Sauzin"]
-  - id: "2310.17449"
-    title: "On the Hadamard inverse of a resurgent function with only one singularity"
+    coauthors: ['Yong Li', 'David Sauzin']
+    primary_category: math-ph
+  - id: '2303.00201'
+    title: 'On the Uniqueness of Convex Central Configurations in the Planar 4-Body Problem'
     year: 2023
-    coauthors: ["Yong Li", "David Sauzin"]
-  - id: "2303.00201"
-    title: "On the Uniqueness of Convex Central Configurations in the Planar 4-Body Problem"
-    year: 2023
-    coauthors: ["Zhifu Xie", "Peng You"]
-  - id: "2209.00146"
-    title: "Monodromy of Complexified Planar Kepler Problem"
+    coauthors: ['Zhifu Xie', 'Peng You']
+    primary_category: math.DS
+  - id: '2209.00146'
+    title: 'Monodromy of Complexified Planar Kepler Problem'
     year: 2022
-    coauthors: ["Peng You"]
-  - id: "2208.11959"
-    title: "A Weak infinity-Functor in Morse Theory"
+    coauthors: ['Peng You']
+    doi: '10.1360/SCM-2020-0373'
+    primary_category: math-ph
+  - id: '2208.11959'
+    title: 'A Weak infinity-Functor in Morse Theory'
     year: 2022
-    coauthors: ["Chenxi Wang"]
-  - id: "2112.15223"
-    title: "Resurgence and Partial Theta Series"
-    year: 2021
-    coauthors: ["Li Han", "Yong Li", "David Sauzin"]
-  - id: "2111.07714"
-    title: "Elliptic fixed points with an invariant foliation: Some facts and more questions"
-    year: 2021
-    coauthors: ["Alain Chenciner", "David Sauzin", "Qiaoling Wei"]
-  - id: "2012.15224"
-    title: "On the Moyal Star Product of Resurgent Series"
+    coauthors: ['Chenxi Wang']
+    primary_category: math.AT
+  - id: '2012.15224'
+    title: 'On the Moyal Star Product of Resurgent Series'
     year: 2020
-    coauthors: ["Yong Li", "David Sauzin"]
-  - id: "2012.14175"
-    title: "Hadamard Product and Resurgence Theory"
+    coauthors: ['Yong Li', 'David Sauzin']
+    primary_category: math-ph
+  - id: '2012.14175'
+    title: 'Hadamard Product and Resurgence Theory'
     year: 2020
-    coauthors: ["Yong Li", "David Sauzin"]
-  - id: "1805.00766"
-    title: "The Baker-Campbell-Hausdorff formula via mould calculus"
+    coauthors: ['Yong Li', 'David Sauzin']
+    primary_category: math.CV
+  - id: '1805.00766'
+    title: 'The Baker-Campbell-Hausdorff formula via mould calculus'
     year: 2018
-    coauthors: ["Yong Li", "David Sauzin"]
-  - id: "1801.05626"
-    title: "Non-Embedding Theorems of Nilpotent Lie groups and Sub-Riemannian Manifolds"
+    coauthors: ['Yong Li', 'David Sauzin']
+    primary_category: math.RA
+  - id: '1801.05626'
+    title: 'Non-Embedding Theorems of Nilpotent Lie groups and Sub-Riemannian Manifolds'
     year: 2018
-    coauthors: ["Yonghong Huang"]
-  - id: "1608.08294"
-    title: "Gutzwiller's Semiclassical Trace Formula and Maslov-Type Index Theory for Symplectic Paths"
+    coauthors: ['Yonghong Huang']
+    primary_category: math.DG
+  - id: '1608.08294'
+    title: 'Gutzwiller''s Semiclassical Trace Formula and Maslov-Type Index Theory for Symplectic Paths'
     year: 2016
     coauthors: []
-  - id: "1508.02115"
-    title: "A Double Poisson Algebra Structure on Fukaya Categories"
+    primary_category: math.DS
+  - id: '1508.02115'
+    title: 'A Double Poisson Algebra Structure on Fukaya Categories'
     year: 2015
-    coauthors: ["Xiaojun Chen", "Hai-Long Her", "Xiangdong Yang"]
-  - id: "1206.6162"
-    title: "Linear stability of elliptic Lagrangian solutions of the planar three-body problem via index theory"
+    coauthors: ['Xiaojun Chen', 'Hai-Long Her', 'Xiangdong Yang']
+    doi: '10.1016/j.geomphys.2015.07.027'
+    primary_category: math.SG
+  - id: '1206.6162'
+    title: 'Linear stability of elliptic Lagrangian solutions of the planar three-body problem via index theory'
     year: 2012
-    coauthors: ["Xijun Hu", "Yiming Long"]
-  - id: "1201.4907"
-    title: "Cyclic Homology of Fukaya Categories and the Linearized Contact Homology"
+    coauthors: ['Xijun Hu', 'Yiming Long']
+    primary_category: math.DS
+  - id: '1201.4907'
+    title: 'Cyclic Homology of Fukaya Categories and the Linearized Contact Homology'
     year: 2012
-    coauthors: ["Xiaojun Chen", "Hai-Long Her"]
-  - id: "1110.6803"
-    title: "Relative orbifold Gromov-Witten theory and degeneration formula"
+    coauthors: ['Xiaojun Chen', 'Hai-Long Her']
+    primary_category: math.SG
+  - id: '1110.6803'
+    title: 'Relative orbifold Gromov-Witten theory and degeneration formula'
     year: 2011
-    coauthors: ["Bohui Chen", "An-Min Li", "Guosong Zhao"]
-  - id: "0706.1194"
-    title: "Symmetry of Planar Four-Body Convex Central Configurations"
+    coauthors: ['Bohui Chen', 'An-Min Li', 'Guosong Zhao']
+    primary_category: math.SG
+  - id: '0706.1194'
+    title: 'Symmetry of Planar Four-Body Convex Central Configurations'
     year: 2007
-    coauthors: ["Alain Albouy", "Yanning Fu"]
+    coauthors: ['Alain Albouy', 'Yanning Fu']
+    doi: '10.1098/rspa.2007.0320'
+    journal: 'Proceedings of the Royal Society A, 464 (2008), pp. 1355-1365'
+    primary_category: math-ph
+  - id: '2310.17449'
+    title: 'On the Hadamard inverse of a resurgent function with only one singularity'
+    year: 2023
+    coauthors: ['Yong Li', 'David Sauzin']
+  - id: '2112.15223'
+    title: 'Resurgence and Partial Theta Series'
+    year: 2021
+    coauthors: ['Li Han', 'Yong Li', 'David Sauzin']
+  - id: '2111.07714'
+    title: 'Elliptic fixed points with an invariant foliation: Some facts and more questions'
+    year: 2021
+    coauthors: ['Alain Chenciner', 'David Sauzin', 'Qiaoling Wei']
 activity:
-  total_papers: 29
-  active_period: "2007-present"
+  total_papers: 19
+  published_count: 3
+  preprint_only_count: 16
+  active_period: '2007-present'
 external_ids: {}
 links:
   homepage: "https://shanzhong-sun.github.io/ShanzhongSUN/"

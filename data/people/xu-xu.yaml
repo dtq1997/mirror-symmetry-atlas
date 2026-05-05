@@ -98,26 +98,35 @@ key_collaborators:
     topic: "Inversive distance circle packings in Poincare disk"
     papers_count: 1
 publications:
-  - id: "2511.09983"
-    title: "Infinite rigidity of inversive distance circle packings in the Poincaré disk"
+  - id: '2511.09983'
+    title: 'Infinite rigidity of inversive distance circle packings in the Poincaré disk'
     year: 2025
-    coauthors: ["Yanwen Luo", "Chao Zheng"]
-  - id: "2507.18495"
-    title: "Discrete conformal structures on surfaces with boundary (III) — Deformation"
+    coauthors: ['Yanwen Luo', 'Chao Zheng']
+    primary_category: math.DG
+  - id: '2508.04069'
+    title: 'Deep estimates for higher eigenvalues of the poly-Laplacian'
     year: 2025
-    coauthors: ["Chao Zheng"]
-  - id: "2407.19501"
-    title: "Discrete conformal structures on surfaces with boundary (II) — Rigidity and Existence"
+    coauthors: ['Zhengchao Ji', hong-wei]
+    primary_category: math.DG
+  - id: '2507.18495'
+    title: 'Discrete conformal structures on surfaces with boundary (III) — Deformation'
+    year: 2025
+    coauthors: ['Chao Zheng']
+    primary_category: math.DG
+  - id: '2407.19501'
+    title: 'Discrete conformal structures on surfaces with boundary (II) — Rigidity and Existence'
     year: 2024
-    coauthors: ["Chao Zheng"]
-  - id: "2401.05062"
-    title: "Discrete conformal structures on surfaces with boundary (I) — Classification"
+    coauthors: ['Chao Zheng']
+  - id: '2401.05062'
+    title: 'Discrete conformal structures on surfaces with boundary (I) — Classification'
     year: 2024
-    coauthors: ["Chao Zheng"]
+    coauthors: ['Chao Zheng']
 activity:
-  total_papers: 4
-  active_period: "2024-present (arXiv)"
-  note: "早期论文多发表于 Peking Math. J., Trans. AMS, J. Funct. Anal., Calc. Var. PDE, IMRN, Math. Res. Lett. 等期刊，未全部上传 arXiv。实际总论文数约 20+"
+  total_papers: 5
+  published_count: 0
+  preprint_only_count: 5
+  active_period: '2024-present (arXiv)'
+  note: '早期论文多发表于 Peking Math. J., Trans. AMS, J. Funct. Anal., Calc. Var. PDE, IMRN, Math. Res. Lett. 等期刊，未全部上传 arXiv。实际总论文数约 20+'
 external_ids: {}
 links:
   homepage: "http://jszy.whu.edu.cn/xuxu1/zh_CN/index.htm"

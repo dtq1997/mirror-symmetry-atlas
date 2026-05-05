@@ -88,93 +88,121 @@ key_collaborators:
     topic: "Adjoint classes in Kahler families"
     papers_count: 1
 publications:
-  - id: "2602.04158"
-    title: "On Pseudo-Effectivity and Volumes of Adjoint Classes in Kähler Families with Projective Central Fiber"
+  - id: '2602.04158'
+    title: 'On Pseudo-Effectivity and Volumes of Adjoint Classes in Kähler Families with Projective Central Fiber'
     year: 2026
-    coauthors: ["Christopher D. Hacon", "Yi Li"]
-  - id: "2510.23967"
-    title: "Deformation of nef adjoint canonical line bundles"
+    coauthors: ['Christopher D. Hacon', 'Yi Li']
+    primary_category: math.AG
+  - id: '2510.23967'
+    title: 'Deformation of nef adjoint canonical line bundles'
     year: 2025
-    coauthors: ["Mu-Lin Li", "Kai Wang"]
-  - id: "2509.05707"
-    title: "Rigidity for compact hyperbolic complex manifolds"
+    coauthors: ['Mu-Lin Li', 'Kai Wang']
+    primary_category: math.AG
+  - id: '2509.05707'
+    title: 'Rigidity for compact hyperbolic complex manifolds'
     year: 2025
-    coauthors: ["Mu-Lin Li", "Mengjiao Wang"]
-  - id: "2506.12670"
-    title: "Characterization of fiberwise bimeromorphism and specialization of bimeromorphic types I"
+    coauthors: ['Mu-Lin Li', 'Mengjiao Wang']
+    primary_category: math.CV
+  - id: '2506.12670'
+    title: 'Characterization of fiberwise bimeromorphism and specialization of bimeromorphic types I'
     year: 2025
-    coauthors: ["Jian Chen", "I-Hsun Tsai"]
-  - id: "2407.02022"
-    title: "Smooth deformation limit of Moishezon manifolds is Moishezon"
+    coauthors: ['Jian Chen', 'I-Hsun Tsai']
+    primary_category: math.AG
+  - id: '2407.02022'
+    title: 'Smooth deformation limit of Moishezon manifolds is Moishezon'
     year: 2024
-    coauthors: ["Mu-Lin Li", "Kai Wang", "Meng-jiao Wang"]
-  - id: "2204.06870"
-    title: "On extension of closed complex (basic) differential forms: (basic) Hodge numbers and (transversely) p-Kähler structures"
+    coauthors: ['Mu-Lin Li', 'Kai Wang', 'Meng-jiao Wang']
+    primary_category: math.CV
+  - id: '2204.06870'
+    title: 'On extension of closed complex (basic) differential forms: (basic) Hodge numbers and (transversely) p-Kähler structures'
     year: 2022
-    coauthors: ["Runze Zhang"]
-  - id: "2011.03306"
-    title: "Invariance of plurigenera and Chow-type lemma"
+    coauthors: ['Runze Zhang']
+    doi: '10.1007/s10231-025-01610-y'
+    journal: 'Annali di Matematica Pura ed Applicata (1923 -)'
+    primary_category: math.CV
+  - id: '2011.03306'
+    title: 'Invariance of plurigenera and Chow-type lemma'
     year: 2020
-    coauthors: ["I-Hsun Tsai"]
-  - id: "2009.14101"
-    title: "L^2 extension of ∂̄-closed forms on weakly pseudoconvex Kähler manifolds"
-    year: 2020
-    coauthors: ["Jian Chen"]
-  - id: "1909.12711"
-    title: "Extension formulas and deformation invariance of Hodge numbers"
+    coauthors: ['I-Hsun Tsai']
+    primary_category: math.AG
+  - id: '1909.12711'
+    title: 'Extension formulas and deformation invariance of Hodge numbers'
     year: 2019
-    coauthors: ["Quanting Zhao"]
-  - id: "1907.13281"
-    title: "Hodge cohomology on blow-ups along subvarieties"
+    coauthors: ['Quanting Zhao']
+    doi: '10.1016/j.crma.2015.09.004'
+    journal: 'C. R. Math. Acad. Sci. Paris, Volume 353, Issue 11, November 2015, 979-984'
+    primary_category: math.CV
+  - id: '1907.13281'
+    title: 'Hodge cohomology on blow-ups along subvarieties'
     year: 2019
-    coauthors: ["Song Yang", "Xiangdong Yang", "Xun Yu"]
-  - id: "1903.11877"
-    title: "On Tian-Todorov lemma and its applications to deformation of CR-structures"
+    coauthors: ['Song Yang', 'Xiangdong Yang', 'Xun Yu']
+    primary_category: math.AG
+  - id: '1903.11877'
+    title: 'On Tian-Todorov lemma and its applications to deformation of CR-structures'
     year: 2019
-    coauthors: ["Yongpan Zou"]
-  - id: "1901.10627"
-    title: "Deformation limit and bimeromorphic embedding of Moishezon manifolds"
+    coauthors: ['Yongpan Zou']
+    primary_category: math.CV
+  - id: '1901.10627'
+    title: 'Deformation limit and bimeromorphic embedding of Moishezon manifolds'
     year: 2019
-    coauthors: ["I-Hsun Tsai"]
-  - id: "1809.07277"
-    title: "Dolbeault cohomologies of blowing up complex manifolds II: bundle-valued case"
+    coauthors: ['I-Hsun Tsai']
+    primary_category: math.AG
+  - id: '1809.07277'
+    title: 'Dolbeault cohomologies of blowing up complex manifolds II: bundle-valued case'
     year: 2018
-    coauthors: ["Song Yang", "Xiangdong Yang"]
-  - id: "1801.01031"
-    title: "On local stabilities of p-Kähler structures"
+    coauthors: ['Song Yang', 'Xiangdong Yang']
+    primary_category: math.AG
+  - id: '1801.01031'
+    title: 'On local stabilities of p-Kähler structures'
     year: 2018
-    coauthors: ["Xueyuan Wan", "Quanting Zhao"]
-  - id: "1712.06749"
-    title: "Dolbeault cohomologies of blowing up complex manifolds"
+    coauthors: ['Xueyuan Wan', 'Quanting Zhao']
+    doi: '10.1112/S0010437X19007085'
+    journal: 'Compositio Math. 155 (2019) 455-483'
+    primary_category: math.CV
+  - id: '1712.06749'
+    title: 'Dolbeault cohomologies of blowing up complex manifolds'
     year: 2017
-    coauthors: ["Song Yang", "Xiangdong Yang"]
-  - id: "1708.00097"
-    title: "Geometry of logarithmic forms and deformations of complex structures"
+    coauthors: ['Song Yang', 'Xiangdong Yang']
+    primary_category: math.AG
+  - id: '1708.00097'
+    title: 'Geometry of logarithmic forms and deformations of complex structures'
     year: 2017
-    coauthors: ["Kefeng Liu", "Xueyuan Wan"]
-  - id: "1609.05637"
-    title: "Power series proofs for local stabilities of Kähler and balanced structures"
+    coauthors: ['Kefeng Liu', 'Xueyuan Wan']
+    primary_category: math.AG
+  - id: '1609.05637'
+    title: 'Power series proofs for local stabilities of Kähler and balanced structures'
     year: 2016
-    coauthors: ["Xueyuan Wan", "Quanting Zhao"]
-  - id: "1604.05396"
-    title: "Several special complex structures and their deformation properties"
+    coauthors: ['Xueyuan Wan', 'Quanting Zhao']
+    primary_category: math.CV
+  - id: '1604.05396'
+    title: 'Several special complex structures and their deformation properties'
     year: 2016
-    coauthors: ["Quanting Zhao"]
-  - id: "1207.5697"
-    title: "New proofs of the Torelli theorems for Riemann surfaces"
+    coauthors: ['Quanting Zhao']
+    primary_category: math.CV
+  - id: '1207.5697'
+    title: 'New proofs of the Torelli theorems for Riemann surfaces'
     year: 2012
-    coauthors: ["Kefeng Liu", "Quanting Zhao"]
-  - id: "1207.1182"
-    title: "Quasi-isometry and deformations of Calabi-Yau manifolds"
+    coauthors: ['Kefeng Liu', 'Quanting Zhao']
+    primary_category: math.DG
+  - id: '1207.1182'
+    title: 'Quasi-isometry and deformations of Calabi-Yau manifolds'
     year: 2012
-    coauthors: ["Kefeng Liu", "Xiaokui Yang"]
-  - id: "1104.1240"
-    title: "Remarks on the Cartan Formula and Its Applications"
+    coauthors: ['Kefeng Liu', 'Xiaokui Yang']
+    primary_category: math.DG
+  - id: '1104.1240'
+    title: 'Remarks on the Cartan Formula and Its Applications'
     year: 2011
-    coauthors: ["Kefeng Liu"]
+    coauthors: ['Kefeng Liu']
+    primary_category: math.DG
+  - id: '2009.14101'
+    title: 'L^2 extension of ∂̄-closed forms on weakly pseudoconvex Kähler manifolds'
+    year: 2020
+    coauthors: ['Jian Chen']
 activity:
   total_papers: 21
-  active_period: "2011-present"
+  published_count: 3
+  preprint_only_count: 18
+  active_period: '2011-present'
 external_ids: {}
 links:
   homepage: "http://jszy.whu.edu.cn/raosheng"

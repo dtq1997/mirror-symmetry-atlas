@@ -55,27 +55,36 @@ key_collaborators:
     topic: "Dynamical twists, twistors of quantum groupoids"
     papers_count: 1
 publications:
-  - id: "2508.02019"
-    title: "Brace $B_{\\infty}$ algebras associated with Hopf algebroids"
+  - id: '2508.02019'
+    title: 'Brace $B_{\infty}$ algebras associated with Hopf algebroids'
     year: 2025
-    coauthors: ["Zhuo Chen", "Yu Qiao"]
-  - id: "2412.09039"
-    title: "From smooth dynamical twists to twistors of quantum groupoids"
+    coauthors: ['Zhuo Chen', 'Yu Qiao']
+    primary_category: math.QA
+  - id: '2412.09039'
+    title: 'From smooth dynamical twists to twistors of quantum groupoids'
     year: 2024
-    coauthors: ["Zhuo Chen", "Yu Qiao", "Maosong Xiang"]
-  - id: "2201.13068"
-    title: "Internal symmetry of the $L_{\\leqslant 3}$ algebra arising from a Lie pair"
+    coauthors: ['Zhuo Chen', 'Yu Qiao', 'Maosong Xiang']
+    journal: 'Journal of Geometry and Physics, 219 (2026)'
+    primary_category: math.QA
+  - id: '2201.13068'
+    title: 'Internal symmetry of the $L_{\leqslant 3}$ algebra arising from a Lie pair'
     year: 2022
-    coauthors: ["Dadi Ni", "Zhuo Chen", "Chen He"]
-    journal: "Pure and Applied Mathematics Quarterly"
-  - id: "1911.01388"
-    title: "Hopf algebras arising from dg manifolds"
+    coauthors: ['Dadi Ni', 'Zhuo Chen', 'Chen He']
+    doi: '10.4310/PAMQ.2023.v19.n4.a16'
+    journal: 'Pure Appl. Math. Q., Vol. 19 (2023) No. 4, 2195-2234'
+    primary_category: math.DG
+  - id: '1911.01388'
+    title: 'Hopf algebras arising from dg manifolds'
     year: 2019
-    coauthors: ["Zhuo Chen", "Dadi Ni"]
-    journal: "J. Algebra 584 (2021)"
+    coauthors: ['Zhuo Chen', 'Dadi Ni']
+    doi: '10.1016/j.jalgebra.2021.05.004'
+    journal: 'J. Algebra 584 (2021)'
+    primary_category: math.DG
 activity:
   total_papers: 4
-  active_period: "2019-present"
+  published_count: 3
+  preprint_only_count: 1
+  active_period: '2019-present'
 external_ids: {}
 links:
   homepage: "https://sx.nchu.edu.cn/szdw/sssds/content_121119"

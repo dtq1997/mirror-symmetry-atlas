@@ -54,33 +54,147 @@ key_collaborators:
     topic: "Remodeling conjecture, toric CY, Gamma conjecture"
     papers_count: 7
 publications:
-  - id: "2504.15696"
-    title: "Remodeling Conjecture with Descendants"
+  - id: '2504.15696'
+    title: 'Remodeling Conjecture with Descendants'
     year: 2025
-    coauthors: [liu-melissa, "Song Yu", zong-zhengyu]
-  - id: "2211.09203"
-    title: "All genus open-closed mirror symmetry for affine toric CY 3-orbifolds"
+    coauthors: [liu-melissa, 'Song Yu', zong-zhengyu]
+    primary_category: math.AG
+  - id: '2501.14222'
+    title: 'Mirror symmetric Gamma conjecture for toric GIT quotients via Fourier transform'
+    year: 2025
+    coauthors: ['Konstantin Aleshkin', 'Junxiao Wang']
+    primary_category: math.AG
+  - id: '2309.02154'
+    title: 'Mirror symmetric Gamma conjecture for del Pezzo surfaces'
+    year: 2023
+    coauthors: ['Junxiao Wang', 'Yan Zhou']
+    primary_category: math.AG
+  - id: '2204.12483'
+    title: 'Topological Fukaya category and mirror symmetry for toric Calabi-Yau 3-orbifolds'
     year: 2022
-    coauthors: [liu-melissa, zong-zhengyu]
-  - id: "2010.15403"
-    title: "On the Remodeling Conjecture for Toric CY 3-Orbifolds"
-    year: 2020
-    coauthors: [liu-melissa, zong-zhengyu]
-  - id: "1604.07123"
-    title: "The Eynard-Orantin Recursion and Equivariant Mirror Symmetry for P^1"
+    coauthors: ['Qingyuan Bai']
+    primary_category: math.AT
+  - id: '1903.05300'
+    title: 'Gamma II for toric varieties from integrals on T-dual branes and homological mirror symmetry'
+    year: 2019
+    coauthors: ['Peng Zhou']
+    primary_category: math.SG
+  - id: '1902.03697'
+    title: 'Graph sums in the Remodeling Conjecture'
+    year: 2019
+    coauthors: [zong-zhengyu]
+    journal: 'Proceedings of Symposia in Pure Mathematics, Volume 100, 2018'
+    primary_category: math.AG
+  - id: '1805.04894'
+    title: 'Open Gromov-Witten Theory of $K_{\mathbb P^2}, K_{{\mathbb P^1}\times {\mathbb P^1}}, K_{W\mathbb P[1,1,2]}, K_{\mathbb F_1}$ and Jacobi Forms'
+    year: 2018
+    coauthors: [ruan-yongbin, 'Yingchun Zhang', 'Jie Zhou']
+    doi: '10.1007/s00220-019-03440-5'
+    journal: 'Commun. Math. Phys. 369, 675-719 (2019)'
+    primary_category: math.AG
+  - id: '1611.05153'
+    title: 'Central charges of T-dual branes for toric varieties'
+    year: 2016
+    coauthors: []
+    primary_category: math.AG
+  - id: '1607.06935'
+    title: 'The SYZ mirror symmetry and the BKMP remodeling conjecture'
     year: 2016
     coauthors: [liu-melissa, zong-zhengyu]
-  - id: "0901.4276"
-    title: "Coherent-Constructible Correspondence and HMS for Toric Varieties"
+    journal: 'Adv. Theor. Math. Phys. 20 (2016), no. 1, 165-192'
+    primary_category: math.AG
+  - id: '1607.01208'
+    title: 'Topological recursion for the conifold transition of a torus knot'
+    year: 2016
+    coauthors: [zong-zhengyu]
+    primary_category: math.AG
+  - id: '1604.07123'
+    title: 'The Eynard-Orantin Recursion and Equivariant Mirror Symmetry for P^1'
+    year: 2016
+    coauthors: [liu-melissa, zong-zhengyu]
+    journal: 'J. Amer. Math. Soc. 33 (2020), no. 1, 135-222'
+    primary_category: math.AG
+  - id: '1411.3557'
+    title: 'The Eynard-Orantin recursion and equivariant mirror symmetry for the projective line'
+    year: 2014
+    coauthors: [liu-melissa, zong-zhengyu]
+    doi: '10.2140/gt.2017.21.2049'
+    journal: 'Geom. Topol. 21 (2017) 2049-2092'
+    primary_category: math.AG
+  - id: '1310.4818'
+    title: 'All Genus Open-Closed Mirror Symmetry for Affine Toric Calabi-Yau 3-Orbifolds'
+    year: 2013
+    coauthors: [liu-melissa, zong-zhengyu]
+    journal: 'Algebr. Geo. 7 (2020), no. 2, 192-239'
+    primary_category: math.AG
+  - id: '1310.4812'
+    title: 'Equivariant Gromov-Witten Theory of Affine Smooth Toric Deligne-Mumford Stacks'
+    year: 2013
+    coauthors: [liu-melissa, zong-zhengyu]
+    journal: 'IMRN 2016, no.7, 2127-2144'
+    primary_category: math.AG
+  - id: '1212.6073'
+    title: 'Open-closed Gromov-Witten invariants of 3-dimensional Calabi-Yau smooth toric DM stacks'
+    year: 2012
+    coauthors: [liu-melissa, 'Hsian-Hua Tseng']
+    journal: 'Forum of Mathematics Sigma 10, e58 (2022)'
+    primary_category: math.AG
+  - id: '1103.0693'
+    title: 'Open Gromov-Witten Invariants of Toric Calabi-Yau 3-Folds'
+    year: 2011
+    coauthors: [liu-melissa]
+    doi: '10.1007/s00220-013-1771-5'
+    journal: 'Commun. Math. Phys. 323 (2013), 285-328'
+    primary_category: math.SG
+  - id: '1009.3506'
+    title: 'The Coherent-Constructible Correspondence and Fourier-Mukai Transforms'
+    year: 2010
+    coauthors: [liu-melissa, 'David Treumann', 'Eric Zaslow']
+    journal: 'Acta Math. Sin. (Engl. Ser.) 27 (2011), no.2, 275-308'
+    primary_category: math.AG
+  - id: '1007.0053'
+    title: 'A categorification of Morelli''s theorem'
+    year: 2010
+    coauthors: [liu-melissa, 'David Treumann', 'Eric Zaslow']
+    doi: '10.1007/s00222-011-0315-x'
+    journal: 'Invent. Math. 186 (2011), no.1, 79-114'
+    primary_category: math.AG
+  - id: '0911.4711'
+    title: 'The Coherent-Constructible Correspondence for Toric Deligne-Mumford Stacks'
     year: 2009
-    coauthors: [liu-melissa, "David Treumann", "Eric Zaslow"]
-  - id: "0804.0646"
-    title: "Homological mirror symmetry is T-duality for P^n"
+    coauthors: [liu-melissa, 'David Treumann', 'Eric Zaslow']
+    journal: 'IMRN 2014, No. 4, 914-954'
+    primary_category: math.AG
+  - id: '0901.4276'
+    title: 'Coherent-Constructible Correspondence and HMS for Toric Varieties'
+    year: 2009
+    coauthors: [liu-melissa, 'David Treumann', 'Eric Zaslow']
+    journal: 'page 3-37, Geometry and Analysis Vol. 2, Adv. Lect. Math (ALM) 18, Higher Education Press, 2010'
+    primary_category: math.AG
+  - id: '0811.1228'
+    title: 'T-Duality and Homological Mirror Symmetry of Toric Varieties'
+    year: 2008
+    coauthors: [liu-melissa, 'David Treumann', 'Eric Zaslow']
+    journal: 'Adv. Math. 229 (2012), 1873-1911'
+    primary_category: math.AG
+  - id: '0804.0646'
+    title: 'Homological mirror symmetry is T-duality for P^n'
     year: 2008
     coauthors: []
+    primary_category: math.SG
+  - id: '2211.09203'
+    title: 'All genus open-closed mirror symmetry for affine toric CY 3-orbifolds'
+    year: 2022
+    coauthors: [liu-melissa, zong-zhengyu]
+  - id: '2010.15403'
+    title: 'On the Remodeling Conjecture for Toric CY 3-Orbifolds'
+    year: 2020
+    coauthors: [liu-melissa, zong-zhengyu]
 activity:
-  total_papers: 22
-  active_period: "2010-present"
+  total_papers: 24
+  published_count: 14
+  preprint_only_count: 10
+  active_period: '2010-present'
 external_ids:
   mathgenealogy: "150849"
 links:

@@ -57,19 +57,247 @@ key_collaborators:
     topic: "Special Lagrangian, Hermitian-Yang-Mills, Fourier-Mukai"
     papers_count: 2
 publications:
-  - id: "math/0009235"
-    title: "Mirror symmetry without corrections"
+  - id: '2604.26292'
+    title: 'Brane quantization and SYZ mirror symmetry'
+    year: 2026
+    coauthors: [chan-kwokwai, li-qin, 'Yat-Hin Suen', 'Yutung Yau']
+    primary_category: math.DG
+  - id: '2511.16889'
+    title: 'Berezin-Toeplitz quantization revisited'
+    year: 2025
+    coauthors: [chan-kwokwai, li-qin, 'Yutung Yau']
+    primary_category: math.DG
+  - id: '2509.01101'
+    title: 'A-D-E diagrams, Hodge--Tate hyperplane sections and semisimple quantum cohomology'
+    year: 2025
+    coauthors: ['Pieter Belmans', 'Sergey Galkin', li-changzheng, 'Markus Reineke', 'Rui Xiong']
+    primary_category: math.AG
+  - id: '2410.11311'
+    title: 'Symmetry in Deformation quantization and Geometric quantization'
+    year: 2024
+    coauthors: [li-qin, 'Ziming Nikolas Ma']
+    primary_category: math.DG
+  - id: '2410.03611'
+    title: '3d Mirror Symmetry is Mirror Symmetry'
+    year: 2024
+    coauthors: ['Ki Fung Chan']
+    primary_category: math-ph
+  - id: '2408.09479'
+    title: 'SYZ Mirrors in non-Abelian 3d Mirror Symmetry'
+    year: 2024
+    coauthors: ['Ki Fung Chan']
+    primary_category: math.SG
+  - id: '2210.02008'
+    title: 'Quantizable functions on Kähler manifolds and non-formal quantization'
+    year: 2022
+    coauthors: [chan-kwokwai, li-qin]
+    doi: '10.1016/j.aim.2023.109293'
+    journal: 'Adv. Math. 433 (2023), 109293, 34 pp'
+    primary_category: math.QA
+  - id: '2205.09926'
+    title: 'Smoothing, scattering, and a conjecture of Fukaya'
+    year: 2022
+    coauthors: [chan-kwokwai, 'Ziming Nikolas Ma']
+    doi: '10.1017/fmp.2024.32'
+    journal: 'Forum Math. Pi 13 (2025), Paper No. e7'
+    primary_category: math.AG
+  - id: '2010.14339'
+    title: 'Geometric quantization and quantum moment maps on coadjoint orbits and Kähler-Einstein manifolds'
+    year: 2020
+    coauthors: [li-qin, 'Ziming Nikolas Ma']
+    primary_category: math.DG
+  - id: '2009.03690'
+    title: 'Quantization of Kähler manifolds'
+    year: 2020
+    coauthors: [chan-kwokwai, li-qin]
+    doi: '10.1016/j.geomphys.2021.104143'
+    journal: 'J. Geom. Phys. 163 (2021), 104143, 13 pp'
+    primary_category: math.DG
+  - id: '2008.11496'
+    title: 'Bargmann-Fock sheaves on Kähler manifolds'
+    year: 2020
+    coauthors: [chan-kwokwai, li-qin]
+    doi: '10.1007/s00220-021-04251-3'
+    journal: 'Comm. Math. Phys. 388 (2021), no. 3, 1297-1322'
+    primary_category: math.DG
+  - id: '2008.07057'
+    title: 'Kapranov''s $L_\infty$ structures, Fedosov''s star products, and one-loop exact BV quantizations on Kähler manifolds'
+    year: 2020
+    coauthors: [chan-kwokwai, li-qin]
+    doi: '10.4310/CNTP.2022.v16.n2.a2'
+    journal: 'Commun. Number Theory Phys. 16 (2022), no. 2, 299-351'
+    primary_category: math.QA
+  - id: '2004.10366'
+    title: 'Cyclic group actions on Fukaya categories and mirror symmetry'
+    year: 2020
+    coauthors: ['Chi Hong Chow']
+    primary_category: math.SG
+  - id: '2001.10869'
+    title: 'A geometric construction of representations of the Berezin-Toeplitz quantization'
+    year: 2020
+    coauthors: [chan-kwokwai, li-qin]
+    doi: '10.4310/ATMP.2022.v26.n1.a1'
+    journal: 'Adv. Theor. Math. Phys. 26 (2022), no. 1, 1-36'
+    primary_category: math.QA
+  - id: '1902.11174'
+    title: 'Geometry of the Maurer-Cartan equation near degenerate Calabi-Yau varieties'
+    year: 2019
+    coauthors: [chan-kwokwai, 'Ziming Nikolas Ma']
+    doi: '10.4310/jdg/1695236591'
+    journal: 'J. Differential Geom. 125 (2023), no. 1, 1-84'
+    primary_category: math.AG
+  - id: '1902.05904'
+    title: 'A Note on Disk Counting in Toric Orbifolds'
+    year: 2019
+    coauthors: [chan-kwokwai, 'Cheol-Hyun Cho', 'Siu-Cheong Lau', 'Hsian-Hua Tseng']
+    doi: '10.3842/SIGMA.2020.055'
+    journal: 'SIGMA 16 (2020), 055, 15 pages'
+    primary_category: math.SG
+  - id: '1811.09774'
+    title: 'Pseudotoric structures and special Lagrangian torus fibrations on certain flag varieties'
+    year: 2018
+    coauthors: [chan-kwokwai, li-changzheng]
+    doi: '10.1016/j.geomphys.2019.103489'
+    journal: 'J. Geom. Phys. 146 (2019), 103489, 16 pp'
+    primary_category: math.SG
+  - id: '1807.08145'
+    title: 'Scattering diagrams from asymptotic analysis on Maurer-Cartan equations'
+    year: 2018
+    coauthors: [chan-kwokwai, 'Ziming Nikolas Ma']
+    doi: '10.4171/JEMS/1100'
+    journal: 'J. Eur. Math. Soc. (JEMS) 24 (2022), no. 3, 773-849'
+    primary_category: math.AG
+  - id: '1506.04625'
+    title: 'Twin Lagrangian fibrations in mirror symmetry'
+    year: 2015
+    coauthors: ['Yin Li']
+    primary_category: math.SG
+  - id: '1506.04218'
+    title: 'Remarks on mirror symmetry of Donaldson-Thomas theory for Calabi-Yau 4-folds'
+    year: 2015
+    coauthors: ['Yalong Cao']
+    journal: '"Tsinghua Lectures in Mathematics", Adv. Lect. Math. 45, (2018)'
+    primary_category: math.DG
+  - id: '1502.03510'
+    title: 'BV quantization of the Rozansky-Witten model'
+    year: 2015
+    coauthors: [chan-kwokwai, li-qin]
+    doi: '10.1007/s00220-017-2924-8'
+    journal: 'Comm. Math. Phys. 355 (2017), no. 1, 97-144'
+    primary_category: math.QA
+  - id: '1407.5905'
+    title: 'An update of quantum cohomology of homogeneous varieties'
+    year: 2014
+    coauthors: [li-changzheng]
+    primary_category: math.AG
+  - id: '1308.4298'
+    title: 'Quantum Pieri rules for tautological subbundles'
+    year: 2013
+    coauthors: [li-changzheng]
+    primary_category: math.AG
+  - id: '1209.6119'
+    title: 'Open Gromov-Witten invariants, mirror maps, and Seidel representations for toric manifolds'
+    year: 2012
+    coauthors: [chan-kwokwai, 'Siu-Cheong Lau', 'Hsian-Hua Tseng']
+    doi: '10.1215/00127094-0000003X'
+    journal: 'Duke Math. J. 166 (2017), no. 8, 1405-1462'
+    primary_category: math.SG
+  - id: '1006.3830'
+    title: 'SYZ mirror symmetry for toric Calabi-Yau manifolds'
+    year: 2012
+    coauthors: [chan-kwokwai, 'Siu-Cheong Lau']
+    doi: '10.4310/jdg/1335230845'
+    journal: 'J. Differential Geom. 90 (2012), no. 2, 177-250'
+    primary_category: math.SG
+  - id: '1112.0388'
+    title: 'Open Gromov-Witten invariants and mirror maps for semi-Fano toric manifolds'
+    year: 2011
+    coauthors: [chan-kwokwai, 'Siu-Cheong Lau', 'Hsian-Hua Tseng']
+    doi: '10.4310/PAMQ.2020.v16.n3.a11'
+    journal: 'Pure Appl. Math. Q. 16 (2020), no. 3, 675-720'
+    primary_category: math.SG
+  - id: '1107.4744'
+    title: 'Classical aspects of quantum cohomology of generalized flag varieties'
+    year: 2011
+    coauthors: [li-changzheng]
+    primary_category: math.AG
+  - id: '1009.5040'
+    title: 'Conformal geometry and special holonomy'
+    year: 2010
+    coauthors: ['Siu-Cheong Lau']
+    primary_category: math.DG
+  - id: '1008.4753'
+    title: 'Mirror maps equal SYZ maps for toric Calabi-Yau surfaces'
+    year: 2010
+    coauthors: ['Siu-Cheong Lau', 'Baosen Wu']
+    doi: '10.1112/blms/bdr090'
+    primary_category: math.SG
+  - id: '1007.1683'
+    title: 'Functorial relationships between quantum cohomology of complete and partial flag varieties'
+    year: 2010
+    coauthors: [li-changzheng]
+    primary_category: math.AG
+  - id: '1006.3832'
+    title: 'Matrix factorizations from SYZ transformations'
+    year: 2010
+    coauthors: [chan-kwokwai]
+    journal: '"Advances in Geometric Analysis", 203-224, Adv. Lect. Math. (ALM) 21, Int. Press, Somerville, MA, 2012'
+    primary_category: math.SG
+  - id: '1006.3828'
+    title: 'A relation for Gromov-Witten invariants of local Calabi-Yau threefolds'
+    year: 2010
+    coauthors: ['Siu-Cheong Lau', 'Baosen Wu']
+    primary_category: math.AG
+  - id: '0810.4859'
+    title: 'Gromov-Witten invariants for G/B and Pontryagin product for ΩK'
+    year: 2008
+    coauthors: [li-changzheng]
+    primary_category: math.AG
+  - id: '0808.1551'
+    title: 'On SYZ mirror transformations'
+    year: 2008
+    coauthors: [chan-kwokwai]
+    journal: '"New Developments in Algebraic Geometry, Integrable Systems and Mirror Symmetry", 1-30, Adv. Stud. Pure Math., 59, Math. Soc. Japan, Tokyo, 2010'
+    primary_category: math.SG
+  - id: '0808.0393'
+    title: 'Hard Lefschetz actions in Riemannian geometry with special holonomy'
+    year: 2008
+    coauthors: [li-changzheng]
+    journal: 'Math. Res. Lett. 15 (2008), no.4, 683-698'
+    primary_category: math.DG
+  - id: '0801.2830'
+    title: 'Mirror symmetry for toric Fano manifolds via SYZ transformations'
+    year: 2008
+    coauthors: [chan-kwokwai]
+    doi: '10.1016/j.aim.2009.09.009'
+    journal: 'Adv. Math. 223 (2010), no. 3, 797-839'
+    primary_category: math.SG
+  - id: '0204168'
+    title: 'Geometric Aspects of Mirror Symmetry (with SYZ for Rigid CY manifolds)'
+    year: 2002
+    coauthors: []
+    primary_category: math.DG
+  - id: '0009235'
+    title: 'Mirror symmetry without corrections'
     year: 2000
     coauthors: []
-  - id: "1006.3830"
-    title: "SYZ mirror symmetry for toric Calabi-Yau manifolds"
-    year: 2012
-    coauthors: [chan-kwokwai, "Siu-Cheong Lau"]
-    journal: "J. Differential Geom. 90(2)"
+    primary_category: math.DG
+  - id: '0005118'
+    title: 'From Special Lagrangian to Hermitian-Yang-Mills via Fourier-Mukai Transform'
+    year: 2000
+    coauthors: [yau-shingtung, 'Eric Zaslow']
+    journal: 'Adv.Theor.Math.Phys. 4 (2002) 1319-1341'
+    primary_category: math.DG
+  - id: 'math/0009235'
+    title: 'Mirror symmetry without corrections'
+    year: 2000
+    coauthors: []
 activity:
-  total_papers: null
-  active_period: "1993-present"
-  notes: "ICCM Best Paper Award 多项"
+  total_papers: 40
+  published_count: 21
+  preprint_only_count: 19
+  active_period: '1993-present'
+  notes: 'ICCM Best Paper Award 多项'
 external_ids:
   mathgenealogy: "53342"
   wikidata: "Q102225287"

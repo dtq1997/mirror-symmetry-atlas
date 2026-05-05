@@ -33,63 +33,20 @@ advisor: le-dung-trang
 students: []
 key_collaborators: []
 activity:
-  total_papers: 148
+  total_papers: 56
+  published_count: 46
+  preprint_only_count: 10
   h_index: 24
-  active_period: 1976-present
+  active_period: '1976-present'
   phd_students: 8
   academic_descendants: 11
-  quality_source: openalex + ruirui-2026
+  quality_source: 'openalex + ruirui-2026'
   t1_papers: 3
   t2_papers: 6
   t3_papers: 7
   t4_papers: 0
   other_papers: 114
-  venue_samples:
-  - name: Duke Mathematical Journal
-    tier: T1
-    count: 2
-  - name: Inventiones mathematicae
-    tier: T1
-    count: 1
-  - name: Compositio Mathematica
-    tier: T2
-    count: 2
-  - name: Proceedings of the London Mathematical Society
-    tier: T2
-    count: 2
-  - name: Commentarii Mathematici Helvetici
-    tier: T2
-    count: 1
-  - name: Algebraic geometry
-    tier: T2
-    count: 1
-  - name: Mathematische Annalen
-    tier: T3
-    count: 2
-  - name: Journal für die reine und angewandte Mathematik (Crelles Journal)
-    tier: T3
-    count: 1
-  - name: Forum of Mathematics Sigma
-    tier: T3
-    count: 1
-  - name: Algebra & Number Theory
-    tier: T3
-    count: 1
-  - name: Journal of the Institute of Mathematics of Jussieu
-    tier: T3
-    count: 1
-  - name: Tunisian Journal of Mathematics
-    tier: T3
-    count: 1
-  - name: arXiv (Cornell University)
-    tier: '-'
-    count: 28
-  - name: Lecture notes in mathematics
-    tier: '-'
-    count: 15
-  - name: Journées mathématiques X-UPS
-    tier: '-'
-    count: 10
+  venue_samples: [{'name': 'Duke Mathematical Journal', 'tier': 'T1', 'count': 2}, {'name': 'Inventiones mathematicae', 'tier': 'T1', 'count': 1}, {'name': 'Compositio Mathematica', 'tier': 'T2', 'count': 2}, {'name': 'Proceedings of the London Mathematical Society', 'tier': 'T2', 'count': 2}, {'name': 'Commentarii Mathematici Helvetici', 'tier': 'T2', 'count': 1}, {'name': 'Algebraic geometry', 'tier': 'T2', 'count': 1}, {'name': 'Mathematische Annalen', 'tier': 'T3', 'count': 2}, {'name': 'Journal für die reine und angewandte Mathematik (Crelles Journal)', 'tier': 'T3', 'count': 1}, {'name': 'Forum of Mathematics Sigma', 'tier': 'T3', 'count': 1}, {'name': 'Algebra & Number Theory', 'tier': 'T3', 'count': 1}, {'name': 'Journal of the Institute of Mathematics of Jussieu', 'tier': 'T3', 'count': 1}, {'name': 'Tunisian Journal of Mathematics', 'tier': 'T3', 'count': 1}, {'name': 'arXiv (Cornell University)', 'tier': '-', 'count': 28}, {'name': 'Lecture notes in mathematics', 'tier': '-', 'count': 15}, {'name': 'Journées mathématiques X-UPS', 'tier': '-', 'count': 10}]
   oa_total_papers: 130
 external_ids:
   openalex: A5112196919
@@ -103,6 +60,365 @@ personal_notes: 'D-modules 和 isomonodromy 方向的权威。
   与 Dubrovin 和 Boalch 无共著，但主题交叉密切。
 
   '
+publications:
+  - id: '2505.07334'
+    title: 'Three results on holonomic D-modules'
+    year: 2025
+    coauthors: []
+    primary_category: math.AG
+  - id: '2407.10010'
+    title: 'Hodge-Lyubeznik numbers'
+    year: 2024
+    coauthors: ['Ricardo Garcia Lopez']
+    doi: '10.5802/crmath.724'
+    journal: 'Comptes Rendus. Mathématique, Volume 363 (2025), pp. 213-221'
+    primary_category: math.AG
+  - id: '2401.00968'
+    title: 'Kodaira-Saito vanishing for the irregular Hodge filtration'
+    year: 2024
+    coauthors: []
+    primary_category: math.AG
+  - id: '2311.01874'
+    title: 'Singularities of functions: a global point of view'
+    year: 2023
+    coauthors: []
+    doi: '10.1007/978-3-031-68711-2_6'
+    journal: 'Chapter 6 of Handbook of Geometry and Topology of Singularities VII, 2025'
+    primary_category: math.AG
+  - id: '2212.07746'
+    title: 'Remarks on rigid irreducible meromorphic connections on the projective line'
+    year: 2022
+    coauthors: []
+    doi: '10.4171/DM/937'
+    journal: 'Documenta Mathematica 28 (2023), no. 6, pp. 1473-1492'
+    primary_category: math.AG
+  - id: '2212.07745'
+    title: 'Duality for Landau-Ginzburg models'
+    year: 2022
+    coauthors: []
+    primary_category: math.AG
+  - id: '2206.08166'
+    title: 'Degenerating complex variations of Hodge structure in dimension one'
+    year: 2022
+    coauthors: ['Christian Schnell']
+    primary_category: math.AG
+  - id: '2203.05444'
+    title: 'Relative Regular Riemann-Hilbert correspondence II'
+    year: 2022
+    coauthors: ['Luisa Fiorot', 'Teresa Monteiro Fernandes']
+    doi: '10.1112/S0010437X23007224'
+    journal: 'Compositio Math. 159 (2023) no. 7, 1413-1465'
+    primary_category: math.AG
+  - id: '2112.13405'
+    title: 'Hodge properties of Airy moments'
+    year: 2021
+    coauthors: ['Jeng-Daw Yu']
+    doi: '10.2140/tunis.2023.5.215'
+    journal: 'Tunisian J. Math. 5 (2023) 215-271'
+    primary_category: math.AG
+  - id: '2103.16878'
+    title: 'A short proof of a theorem of Cotti, Dubrovin and Guzzetti'
+    year: 2021
+    coauthors: []
+    doi: '10.4171/PM/2077'
+    journal: 'Portugaliae Mathematica 79 (2022), no. 1, p. 29-43'
+    primary_category: math.AG
+  - id: '2012.15171'
+    title: 'The relative hermitian duality functor'
+    year: 2020
+    coauthors: ['Teresa Monteiro Fernandes']
+    primary_category: math.AG
+  - id: '2006.02702'
+    title: 'Quadratic relations between Bessel moments'
+    year: 2020
+    coauthors: ['Javier Fres n', 'Jeng-Daw Yu']
+    doi: '10.2140/ant.2023.17.541'
+    journal: 'Alg. Number Th. 17 (2023) 541-602'
+    primary_category: math.AG
+  - id: '2005.11525'
+    title: 'Quadratic relations between periods of connections'
+    year: 2020
+    coauthors: ['Javier Fres n', 'Jeng-Daw Yu']
+    doi: '10.2748/tmj.20211209'
+    journal: 'Tohoku Math. J. 75 (2023), 175-213'
+    primary_category: math.AG
+  - id: '1906.09725'
+    title: 'Relative regular Riemann-Hilbert correspondence'
+    year: 2019
+    coauthors: ['Luisa Fiorot', 'Teresa Monteiro Fernandes']
+    doi: '10.1112/plms.12362'
+    journal: 'Proceedings of the London Mathematical Society 122 (2021), no. 3, p. 434-457, Erratum: Ibid, 123 (2021), no. 6, p. 649-654'
+    primary_category: math.AG
+  - id: '1812.06278'
+    title: 'Good lattices of algebraic connections'
+    year: 2018
+    coauthors: ['H l ne Esnault']
+    doi: '10.25537/dm.2019v24.271-301'
+    journal: 'Doc. Math. 24, 271-301 (2019)'
+    primary_category: math.AG
+  - id: '1812.00755'
+    title: 'Irregular Hodge numbers of confluent hypergeometric differential equations'
+    year: 2018
+    coauthors: ['Jeng-Daw Yu']
+    doi: '10.46298/epiga.2019.volume3.5032'
+    journal: 'Épijournal de Géométrie Algébrique, Volume 3 (June 6, 2019) epiga:5032'
+    primary_category: math.AG
+  - id: '1810.06454'
+    title: 'Hodge theory of Kloosterman connections'
+    year: 2018
+    coauthors: ['Javier Fres n', 'Jeng-Daw Yu']
+    doi: '10.1215/00127094-2021-0036'
+    journal: 'Duke Math. J. 171 (2022), no. 8, 1649-1747'
+    primary_category: math.AG
+  - id: '1804.00426'
+    title: 'Some properties and applications of Brieskorn lattices'
+    year: 2018
+    coauthors: []
+    doi: '10.5427/jsing.2018.18k'
+    journal: 'Journal of Singularity theory 18 (2018), p. 238-247'
+    primary_category: math.AG
+  - id: '1711.08514'
+    title: 'Integrable deformations and degenerations of some irregular singularities'
+    year: 2017
+    coauthors: []
+    doi: '10.4171/PRIMS/57-3-2'
+    journal: 'Publ. RIMS Kyoto Univ. 57 (2021), no. 3-4, p. 755-794'
+    primary_category: math.AG
+  - id: '1705.07610'
+    title: 'Topological computation of some Stokes phenomena on the affine line'
+    year: 2017
+    coauthors: ['Andrea D''Agnolo', 'Marco Hien', 'Giovanni Morando']
+    doi: '10.5802/aif.3323'
+    journal: 'Annales de l''institut Fourier (Grenoble) 70 (2020) no. 2, p. 739-808'
+    primary_category: math.AG
+  - id: '1704.05102'
+    title: 'Relative Riemann-Hilbert correspondence in dimension one'
+    year: 2017
+    coauthors: ['Teresa Monteiro Fernandes']
+    doi: '10.4171/PM/1997'
+    journal: 'Portugal. Math. (N.S.) 74 (2017), no. 2, p. 149-159'
+    primary_category: math.AG
+  - id: '1609.04192'
+    title: 'Riemann-Hilbert correspondence for mixed twistor D-Modules'
+    year: 2016
+    coauthors: ['Teresa Monteiro Fernandes']
+    doi: '10.1017/S1474748017000184'
+    journal: 'J. Inst. Math. Jussieu (2019) 18(3), 629-672'
+    primary_category: math.AG
+  - id: '1609.01744'
+    title: 'A remark on the irregularity complex'
+    year: 2016
+    coauthors: []
+    doi: '10.5427/jsing.2017.16d'
+    journal: 'J. Singul. 16 (2017), p. 100-114, Erratum: Ibid., p. 194'
+    primary_category: math.AG
+  - id: '1511.00176'
+    title: 'Irregular Hodge theory'
+    year: 2015
+    coauthors: []
+    doi: '10.24033/msmf.464'
+    journal: 'Mem. Soc. Math. France, vol. 156, 2018'
+    primary_category: math.AG
+  - id: '1406.1339'
+    title: 'On the irregular Hodge filtration of exponentially twisted mixed Hodge modules'
+    year: 2014
+    coauthors: ['Jeng-Daw Yu']
+    doi: '10.1017/fms.2015.8'
+    journal: 'Forum of mathematics, Sigma 3 (2015), e9, 71 pages'
+    primary_category: math.AG
+  - id: '1405.5310'
+    title: 'The local Laplace transform of an elementary irregular meromorphic connection'
+    year: 2014
+    coauthors: ['Marco Hien']
+    journal: 'Rend. Sem. Mat. Univ. Padova 134 (2015), p. 133-196'
+    primary_category: math.AG
+  - id: '1311.4132'
+    title: 'Differential systems of pure Gaussian type'
+    year: 2013
+    coauthors: []
+    doi: '10.1070/IM8308'
+    journal: 'Izvestiya: Mathematics 80 (2016) no. 1, 189-220'
+    primary_category: math.AG
+  - id: '1302.4537'
+    title: 'E_1-degeneration of the irregular Hodge filtration (with an appendix by Morihiko Saito)'
+    year: 2013
+    coauthors: ['H l ne Esnault', 'Jeng-Daw Yu']
+    doi: '10.1515/crelle-2014-0118'
+    journal: 'J. reine angew. Math. 729 (2017), p. 171-227'
+    primary_category: math.AG
+  - id: '1212.0436'
+    title: 'Kontsevich''s conjecture on an algebraic formula for vanishing cycles of local systems'
+    year: 2012
+    coauthors: ['Morihiko Saito']
+    primary_category: math.AG
+  - id: '1209.4185'
+    title: 'Hodge theory of the middle convolution'
+    year: 2012
+    coauthors: ['Michael Dettweiler']
+    doi: '10.4171/PRIMS/119'
+    journal: 'Publ. RIMS Kyoto Univ. 49 (2013), no. 4, 761-800, Erratum: Publ. RIMS Kyoto Univ. 54 (2018) no. 2, 427-431'
+    primary_category: math.AG
+  - id: '1204.1331'
+    title: 'On the de Rham complex of mixed twistor D-modules'
+    year: 2012
+    coauthors: ['Teresa Monteiro Fernandes']
+    doi: '10.1093/imrn/rns197'
+    journal: 'International Mathematics Research Notices, rns197, 24 pages, 2012'
+    primary_category: math.AG
+  - id: '1201.4531'
+    title: 'Wild Hodge theory and Hitchin-Kobayashi correspondence [after T. Mochizuki]'
+    year: 2012
+    coauthors: []
+    journal: 'Astérisque vol. 352, Soc. Math. France, Paris, 2013, p. 201-243'
+    primary_category: math.AG
+  - id: '1107.5890'
+    title: 'Non-commutative Hodge structures'
+    year: 2011
+    coauthors: []
+    journal: 'Annales de l''Institut Fourier (Grenoble), 61 (2011), no. 7, p. 2681-2717'
+    primary_category: math.AG
+  - id: '1105.1542'
+    title: 'Flat meromorphic connections of Frobenius manifolds with tt*-structure'
+    year: 2011
+    coauthors: ['Jiezhu Lin']
+    doi: '10.1016/j.geomphys.2011.09.006'
+    journal: 'Journal of Geometry and Physics 62 (2012), pp. 37-46'
+    primary_category: math.DG
+  - id: '1012.3818'
+    title: 'On a twisted de Rham complex, II'
+    year: 2010
+    coauthors: []
+    primary_category: math.AG
+  - id: '1003.5589'
+    title: 'Une remarque sur l''article "Un théorème à la "Thom-Sebastiani" pour les intégrales-fibres" de D. Barlet'
+    year: 2010
+    coauthors: []
+    primary_category: math.CV
+  - id: '0912.2762'
+    title: 'Introduction to Stokes structures'
+    year: 2009
+    coauthors: []
+    doi: '10.1007/978-3-642-31695-1'
+    journal: 'Lecture Notes in mathematics vol. 2060, Springer Verlag, 2012. (Numbering 1.a, 1.b, etc. on the arXiv version changed to 1.1, 1.2, etc. in the published version)'
+    primary_category: math.AG
+  - id: '0912.2754'
+    title: 'Examples of non-commutative Hodge structures'
+    year: 2009
+    coauthors: [hertling]
+    doi: '10.1017/S147474801100003X'
+    journal: 'Journal of the Inst. of Math. Jussieu (2011) 10(3), 635--674'
+    primary_category: math.AG
+  - id: '0804.4328'
+    title: 'Fourier-Laplace transform of a variation of polarized complex Hodge structure, II'
+    year: 2008
+    coauthors: []
+    journal: 'in New developments in algebraic geometry, integrable systems and mirror symmetry (RIMS, Kyoto, 2008), Adv. Stud. Pure Math., vol. 59, Math. Soc. Japan, Tokyo, 2010, p. 289--347'
+    primary_category: math.AG
+  - id: '0803.0287'
+    title: 'Wild twistor D-modules'
+    year: 2008
+    coauthors: []
+    journal: 'Algebraic analysis and around, Adv. Stud. Pure Math., vol. 54, Math. Soc. Japan, Tokyo, 2009, p. 293--353'
+    primary_category: math.AG
+  - id: '0802.1259'
+    title: 'Universal unfoldings of Laurent polynomials and tt* structures'
+    year: 2008
+    coauthors: []
+    journal: 'in From Hodge theory to integrability and TQFT tt*-geometry, Proc. Sympos. Pure Math., vol. 78, Amer. Math. Soc., Providence, RI, 2008, p. 1-29'
+    primary_category: math.AG
+  - id: '0706.3570'
+    title: 'An explicit stationary phase formula for the local formal Fourier-Laplace transform'
+    year: 2007
+    coauthors: []
+    journal: 'in Singularities I, Contemp. Math., vol. 474, Amer. Math. Soc., Providence, RI, 2008, p. 309-330'
+    primary_category: math.AG
+  - id: '0611475'
+    title: 'Quantum cohomology of the Grassmannian and alternate Thom-Sebastiani'
+    year: 2006
+    coauthors: ['Bumsig Kim']
+    doi: '10.1112/S0010437X07003120'
+    journal: 'Compos. Math. 144 (2008), no. 1, 221--246'
+    primary_category: math.AG
+  - id: '0611474'
+    title: 'Asymptotic expansion of holonomic distributions of one complex variable'
+    year: 2006
+    coauthors: []
+    primary_category: math.CA
+  - id: '0610265'
+    title: 'The Abelian/Nonabelian Correspondence and Frobenius Manifolds'
+    year: 2006
+    coauthors: ['Ionut Ciocan-Fontanine', 'Bumsig Kim']
+    doi: '10.1007/s00222-007-0082-x'
+    journal: 'Invent. Math. 171 (2008), no. 2, 301-343'
+    primary_category: math.AG
+  - id: '0508551'
+    title: 'Fourier-Laplace transform of a variation of polarized complex Hodge structure'
+    year: 2005
+    coauthors: []
+    doi: '10.1515/CRELLE.2008.060'
+    journal: 'J. Reine Angew. Math. 621 (2008), 123--158'
+    primary_category: math.AG
+  - id: '0503038'
+    title: 'Polarizable twistor D-modules'
+    year: 2005
+    coauthors: []
+    journal: 'Astérisque vol. 300, Société mathématique de France (2005), vi+208 pp'
+    primary_category: math.AG
+  - id: '0408294'
+    title: 'Fourier-Laplace transform of irreducible regular differential systems on the Riemann sphere'
+    year: 2004
+    coauthors: []
+    doi: '10.1070/RM2004v059n06ABEH000800'
+    journal: 'Russian Math. Surveys 59 (2004), no. 6, 1165--1180 & Mosc. Math. J. 9 (2009), no. 4, 885--898'
+    primary_category: math.AG
+  - id: '0211353'
+    title: 'Gauss-Manin systems, Brieskorn lattices and Frobenius structures (II)'
+    year: 2002
+    coauthors: ['Antoine Douai']
+    journal: 'in Frobenius manifolds (Quantum cohomology and singularities), Hertling, C. and Marcolli, M. eds, Aspects of Mathematics, vol. E36, Vieweg, 2004, p. 1-18'
+    primary_category: math.AG
+  - id: '0211352'
+    title: 'Gauss-Manin systems, Brieskorn lattices and Frobenius structures (I)'
+    year: 2002
+    coauthors: ['Antoine Douai']
+    journal: 'Proceedings of the International Conference in Honor of Frédéric Pham (Nice, 2002). Ann. Inst. Fourier (Grenoble) 53 (2003), no. 4, 1055--1116'
+    primary_category: math.AG
+  - id: '9910156'
+    title: 'Vanishing cycles and Hermitian duality'
+    year: 1999
+    coauthors: []
+    journal: 'Proc. Steklov Inst. Math. 2002, no. 3 (238), 194--214'
+    primary_category: math.AG
+  - id: '9905039'
+    title: 'Harmonic metrics and connections with irregular singularities'
+    year: 1999
+    coauthors: []
+    journal: 'Ann. Institut Fourier (Grenoble) 49 (1999), p. 1265-1291'
+    primary_category: math.AG
+  - id: '9805087'
+    title: 'On a twisted de Rham complex'
+    year: 1998
+    coauthors: []
+    journal: 'Tohoku Math. J. 51 (1999) 125-140'
+    primary_category: math.AG
+  - id: '9805086'
+    title: 'Semicontinuity of the spectrum at infinity'
+    year: 1998
+    coauthors: ['Andras Nemethi']
+    journal: 'Abh. Math. Sem. Univ. Hamburg 69 (1999), p. 25-35'
+    primary_category: math.AG
+  - id: '9805077'
+    title: 'Hypergeometric periods for a tame polynomial'
+    year: 1998
+    coauthors: []
+    doi: '10.1016/S0764-4442(99)80254-7'
+    journal: 'C. R. Acad. Sci. Paris Ser. I Math. t.328 (1999) 603-608 & Port. Math. (N.S.) 63 (2006), no. 2, 173--226'
+    primary_category: math.AG
+  - id: '9503021'
+    title: 'Moduli of pre-$\cal D$-modules, perverse sheaves and the Riemann-Hilbert morphism -I'
+    year: 1995
+    coauthors: ['Nitin Nitsure']
+    primary_category: math.AG
 sources:
 - label: Math Genealogy
   url: https://www.mathgenealogy.org/id.php?id=76381

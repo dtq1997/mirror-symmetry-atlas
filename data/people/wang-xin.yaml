@@ -68,55 +68,60 @@ key_collaborators:
     topic: "Topological recursion relations"
     papers_count: 1
 publications:
-  - id: "2506.10033"
-    title: "Virasoro constraints for Hodge integrals"
+  - id: '2601.20673'
+    title: 'Structures in topological recursion relations'
+    year: 2026
+    coauthors: ['Felix Janda']
+    doi: '10.1090/btran/238'
+    journal: 'Trans. Amer. Math. Soc. Ser. B 12 (2025), 1223-1263'
+    primary_category: math.AG
+  - id: '2506.10033'
+    title: 'Virasoro constraints for Hodge integrals'
     year: 2025
     coauthors: []
-    notes: "提出 Hodge integrals 的 Virasoro conjecture，证明 genus-0 情形"
-  - id: "2412.05287"
-    title: "Hodge integrals and lambda_g conjecture with target varieties"
+    primary_category: math-ph
+  - id: '2401.00899'
+    title: 'Universal equations for higher genus Gromov-Witten invariants from Hodge integrals'
+    year: 2024
+    coauthors: ['Felix Janda']
+    doi: '10.1007/s00220-024-04931-w'
+    journal: 'Comm. Mathematical Physics, Volume 405, article number 47, (2024)'
+    primary_category: math.AG
+  - id: '1704.02011'
+    title: 'Topological recursion relations from Pixton''s formula'
+    year: 2017
+    coauthors: ['Emily Clader', 'Felix Janda', 'Dmitry Zakharov']
+    doi: '10.1307/mmj/20195795'
+    journal: 'Michigan Math. J. 73(2): 227-241 (May 2023)'
+    primary_category: math.AG
+  - id: '1402.3854'
+    title: 'Genus-2 G-function for P^1 orbifolds'
+    year: 2014
+    coauthors: ['Xiaobo Liu']
+    primary_category: math.DG
+  - id: '1310.2101'
+    title: 'Conditions for the vanishing of the genus-2 G-function'
+    year: 2013
+    coauthors: ['Xiaobo Liu']
+    primary_category: math.DG
+  - id: '2412.05287'
+    title: 'Hodge integrals and lambda_g conjecture with target varieties'
     year: 2024
     coauthors: []
-    notes: "提出带 target variety 的 lambda_g conjecture，证明 semisimple 和 algebraic curves 情形"
-  - id: "2401.00899"
-    title: "Universal equations for higher genus Gromov-Witten invariants from Hodge integrals"
-    year: 2024
-    coauthors: ["Felix Janda"]
-    notes: "通过 Hodge bundle 的 Chern character 和 Chern classes 建立新的 universal equations"
-  - id: "[待查]"
-    title: "The genus-2 G-function for cubic elliptic orbifold and modularity"
-    year: 2024
-    coauthors: []
-    notes: "[待验证] 证明 cubic elliptic orbifold descendant correlation functions 的 quasi-modularity"
-  - id: "[待查]"
-    title: "Higher genus FJRW theory for Fermat cubic singularity"
+  - id: '[待查]'
+    title: 'Higher genus FJRW theory for Fermat cubic singularity'
     year: 2021
     coauthors: []
-    notes: "Acta Math. Sinica 37, 1179-1204。用 Givental formalism 证明 finite generation 和 holomorphic anomaly equation"
-  - id: "1704.02011"
-    title: "Topological recursion relations from Pixton's formula"
-    year: 2017
-    coauthors: ["Emily Clader", "Felix Janda", "Dmitry Zakharov"]
-    notes: "证明 degree-g psi-class polynomial 可表为边界上的 tautological classes，无 kappa-classes"
-  - id: "1608.08854"
-    title: "A genus-4 topological recursion relation for Gromov-Witten invariants"
+  - id: '1608.08854'
+    title: 'A genus-4 topological recursion relation for Gromov-Witten invariants'
     year: 2016
     coauthors: []
-    notes: "通过 Pixton's relations 给出新的 genus-4 topological recursion relation"
-  - id: "1402.3854"
-    title: "Genus-2 G-function for P^1 orbifolds"
-    year: 2014
-    coauthors: ["Xiaobo Liu"]
-    notes: "与刘小博合作 [待验证: 此 arXiv ID 是否正确]"
-  - id: "1310.2101"
-    title: "Conditions for the vanishing of the genus-2 G-function"
-    year: 2013
-    coauthors: ["Xiaobo Liu"]
-    notes: "与刘小博合作。证明 ADE singularities 的 genus-2 G-function vanishing conjecture (Dubrovin-Liu-Zhang)"
 activity:
-  total_papers: 10
-  active_period: "2013-present"
-  peak_period: "2024-present"
+  total_papers: 9
+  published_count: 3
+  preprint_only_count: 6
+  active_period: '2013-present'
+  peak_period: '2024-present'
 external_ids: {}
 links:
   homepage: "https://faculty.sdu.edu.cn/xinwang/zh_CN/index.htm"

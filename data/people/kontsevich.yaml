@@ -35,62 +35,19 @@ advisor: zagier
 students: []
 key_collaborators: []
 activity:
-  total_papers: 134
+  total_papers: 60
+  published_count: 19
+  preprint_only_count: 41
   h_index: 44
-  active_period: 1990-present
-  peak_period: 1994-2010
-  quality_source: openalex + ruirui-2026
+  active_period: '1990-present'
+  peak_period: '1994-2010'
+  quality_source: 'openalex + ruirui-2026'
   t1_papers: 5
   t2_papers: 6
   t3_papers: 8
   t4_papers: 4
   other_papers: 101
-  venue_samples:
-  - name: Inventiones mathematicae
-    tier: T1
-    count: 3
-  - name: Publications mathématiques de l IHÉS
-    tier: T1
-    count: 2
-  - name: Journal of Differential Geometry
-    tier: T2
-    count: 2
-  - name: Journal of the American Mathematical Society
-    tier: T2
-    count: 1
-  - name: Compositio Mathematica
-    tier: T2
-    count: 1
-  - name: Journal of the European Mathematical Society
-    tier: T2
-    count: 1
-  - name: Russian Mathematical Surveys
-    tier: T2
-    count: 1
-  - name: Communications in Mathematical Physics
-    tier: T3
-    count: 2
-  - name: Selecta Mathematica
-    tier: T3
-    count: 2
-  - name: Physics Letters B
-    tier: T3
-    count: 1
-  - name: Advances in Mathematics
-    tier: T3
-    count: 1
-  - name: Journal of Modern Dynamics
-    tier: T3
-    count: 1
-  - name: Journal of Noncommutative Geometry
-    tier: T3
-    count: 1
-  - name: Communications in Number Theory and Physics
-    tier: T4
-    count: 1
-  - name: Japanese journal of mathematics
-    tier: T4
-    count: 1
+  venue_samples: [{'name': 'Inventiones mathematicae', 'tier': 'T1', 'count': 3}, {'name': 'Publications mathématiques de l IHÉS', 'tier': 'T1', 'count': 2}, {'name': 'Journal of Differential Geometry', 'tier': 'T2', 'count': 2}, {'name': 'Journal of the American Mathematical Society', 'tier': 'T2', 'count': 1}, {'name': 'Compositio Mathematica', 'tier': 'T2', 'count': 1}, {'name': 'Journal of the European Mathematical Society', 'tier': 'T2', 'count': 1}, {'name': 'Russian Mathematical Surveys', 'tier': 'T2', 'count': 1}, {'name': 'Communications in Mathematical Physics', 'tier': 'T3', 'count': 2}, {'name': 'Selecta Mathematica', 'tier': 'T3', 'count': 2}, {'name': 'Physics Letters B', 'tier': 'T3', 'count': 1}, {'name': 'Advances in Mathematics', 'tier': 'T3', 'count': 1}, {'name': 'Journal of Modern Dynamics', 'tier': 'T3', 'count': 1}, {'name': 'Journal of Noncommutative Geometry', 'tier': 'T3', 'count': 1}, {'name': 'Communications in Number Theory and Physics', 'tier': 'T4', 'count': 1}, {'name': 'Japanese journal of mathematics', 'tier': 'T4', 'count': 1}]
   oa_total_papers: 124
 external_ids:
   openalex: A5018376358
@@ -100,6 +57,340 @@ personal_notes: |
   博导是 Don Zagier (Bonn/MPIM, 1992 PhD)，非 Manin。
   Manin 是 Moscow 时期的合作者和伯乐，1994 年共同提出 Kontsevich-Manin GW 理论公理。
   IHES permanent professor 自 1995 起。
+publications:
+  - id: '2601.07538'
+    title: 'Non-commutative cluster Lagrangians'
+    year: 2026
+    coauthors: ['Alexander B. Goncharov']
+    primary_category: math.AG
+  - id: '2509.15831'
+    title: 'Atoms meet symbols'
+    year: 2025
+    coauthors: ['Leonardo F. Cavenaghi', 'Ludmil Katzarkov']
+    primary_category: math.AG
+  - id: '2508.05105'
+    title: 'Birational Invariants from Hodge Structures and Quantum Multiplication'
+    year: 2025
+    coauthors: ['Ludmil Katzarkov', 'Tony Pantev', 'Tony Yue YU']
+    primary_category: math.AG
+  - id: '2505.12480'
+    title: 'Explicit formulas for arithmetic support of differential and difference operators'
+    year: 2025
+    coauthors: ['Alexander Odesskii']
+    primary_category: math.AG
+  - id: '2402.07343'
+    title: 'Holomorphic Floer theory I: exponential integrals in finite and infinite dimensions'
+    year: 2024
+    coauthors: ['Yan Soibelman']
+    primary_category: math.SG
+  - id: '2401.05291'
+    title: 'The miracle of integer eigenvalues'
+    year: 2024
+    coauthors: ['Richard Kenyon', 'Oleg Ogievetsky', 'Cosmin Pohoata', 'Will Sawin', 'Senya Shlosman']
+    primary_category: math.CO
+  - id: '2306.02178'
+    title: 'When the Fourier transform is one loop exact?'
+    year: 2023
+    coauthors: ['Alexander Odesskii']
+    primary_category: math.AG
+  - id: '2301.02899'
+    title: 'Burnside rings and volume forms with logarithmic poles'
+    year: 2023
+    coauthors: ['Antoine Chambert-Loir', 'Yuri Tschinkel']
+    primary_category: math.AG
+  - id: '2301.01567'
+    title: 'Smooth Calabi-Yau structures and the noncommutative Legendre transform'
+    year: 2023
+    coauthors: ['Alex Takeda', 'Yiannis Vlassopoulos']
+    primary_category: math.AT
+  - id: '2112.14667'
+    title: 'Pre-Calabi-Yau algebras and topological quantum field theories'
+    year: 2021
+    coauthors: ['Alex Takeda', 'Yiannis Vlassopoulos']
+    primary_category: math.AG
+  - id: '2108.04168'
+    title: 'Spectral description of non-commutative local systems on surfaces and non-commutative cluster varieties'
+    year: 2021
+    coauthors: ['Alexander Goncharov']
+    primary_category: math.AG
+  - id: '2105.10161'
+    title: 'Wick rotation and the positivity of energy in quantum field theory'
+    year: 2021
+    coauthors: ['Graeme Segal']
+    primary_category: hep-th
+  - id: '2105.04238'
+    title: 'Multiplication kernels'
+    year: 2021
+    coauthors: ['Alexander Odesskii']
+    doi: '10.1007/s11005-021-01491-1'
+    primary_category: math.AG
+  - id: '2011.11888'
+    title: 'Pre-Calabi-Yau algebras and noncommutative calculus on higher cyclic Hochschild cohomology'
+    year: 2020
+    coauthors: ['Natalia Iyudu']
+    primary_category: math.RA
+  - id: '2009.12159'
+    title: 'p-Determinants and monodromy of differential operators'
+    year: 2020
+    coauthors: ['Alexander Odesskii']
+    primary_category: math.AG
+  - id: '2005.10651'
+    title: 'Analyticity and resurgence in wall-crossing formulas'
+    year: 2020
+    coauthors: ['Yan Soibelman']
+    primary_category: math.AG
+  - id: '2003.03171'
+    title: 'A Generalization of King''s Equation via Noncommutative Geometry'
+    year: 2020
+    coauthors: ['Gourab Bhattacharya']
+    primary_category: math-ph
+  - id: '1906.07134'
+    title: 'Pre-Calabi-Yau algebras and double Poisson brackets'
+    year: 2019
+    coauthors: ['Natalia Iyudu', 'Yannis Vlassopoulos']
+    doi: '10.1016/j.jalgebra.2020.08.029'
+    journal: 'J. Algebra, 2020'
+    primary_category: math.RA
+  - id: '1903.10792'
+    title: 'Quantum Minimal Surfaces'
+    year: 2019
+    coauthors: ['Joakim Arnlind', 'Jens Hoppe']
+    primary_category: math-ph
+  - id: '1902.09894'
+    title: 'Equivariant birational geometry and modular symbols'
+    year: 2019
+    coauthors: ['Vasily Pestun', 'Yuri Tschinkel']
+    primary_category: math.AG
+  - id: '1802.04123'
+    title: 'Iterated logarithms and gradient flows'
+    year: 2018
+    coauthors: ['Fabian Haiden', 'Ludmil Katzarkov', 'Pranav Pandit']
+    primary_category: math.RT
+  - id: '1708.05699'
+    title: 'Specialization of birational types'
+    year: 2017
+    coauthors: ['Yuri Tschinkel']
+    primary_category: math.AG
+  - id: '1706.01073'
+    title: 'Semistability, modular lattices, and iterated logarithms'
+    year: 2017
+    coauthors: ['Fabian Haiden', 'Ludmil Katzarkov', 'Pranav Pandit']
+    doi: '10.4310/jdg/1679503804'
+    journal: 'J. Differential Geom. 123 (1), 21-66, (2023)'
+    primary_category: math.RT
+  - id: '1701.09137'
+    title: 'Airy structures and symplectic geometry of topological recursion'
+    year: 2017
+    coauthors: ['Yan Soibelman']
+    primary_category: math.AG
+  - id: '1609.01170'
+    title: 'Lower bounds for Lyapunov exponents of flat bundles on curves'
+    year: 2016
+    coauthors: ['Alex Eskin', 'Martin Moeller', 'Anton Zorich']
+    doi: '10.2140/gt.2018.22.2299'
+    journal: 'Geometry and Topology, 22:4 (2018), 2299-2338'
+    primary_category: math.GT
+  - id: '1411.1394'
+    title: 'Canonical bases for cluster algebras'
+    year: 2014
+    coauthors: ['Mark Gross', 'Paul Hacking', 'Sean Keel']
+    primary_category: math.AG
+  - id: '1409.8611'
+    title: 'Flat surfaces and stability structures'
+    year: 2014
+    coauthors: ['Fabian Haiden', 'Ludmil Katzarkov']
+    doi: '10.1007/s10240-017-0095-y'
+    journal: 'Publ.math.IHES 126, 247--318 (2017)'
+    primary_category: math.AG
+  - id: '1409.5996'
+    title: 'Bogomolov-Tian-Todorov theorems for Landau-Ginzburg models'
+    year: 2014
+    coauthors: ['Ludmil Katzarkov', 'Tony Pantev']
+    primary_category: math.AG
+  - id: '1408.2673'
+    title: 'Algebra of the infrared and secondary polytopes'
+    year: 2014
+    coauthors: ['Mikhail Kapranov', 'Yan Soibelman']
+    primary_category: math.SG
+  - id: '1307.8418'
+    title: 'Dynamical systems and categories'
+    year: 2013
+    coauthors: ['George Dimitrov', 'Fabian Haiden', 'Ludmil Katzarkov']
+    doi: '10.1090/conm/621'
+    journal: 'Con. Math. vol 621 (2014), pages 133-170'
+    primary_category: math.CT
+  - id: '1303.3253'
+    title: 'Wall-crossing structures in Donaldson-Thomas invariants, integrable systems and Mirror Symmetry'
+    year: 2013
+    coauthors: ['Yan Soibelman']
+    primary_category: math.AG
+  - id: '1112.5872'
+    title: 'Sum of Lyapunov exponents of the Hodge bundle with respect to the Teichmuller geodesic flow'
+    year: 2011
+    coauthors: ['Alex Eskin', 'Anton Zorich']
+    doi: '10.1007/s10240-013-0060-3'
+    journal: 'Publications de l''IHES (2014) vol. 120, issue 1, 207-333'
+    primary_category: math.DS
+  - id: '1109.2469'
+    title: 'Noncommutative identities'
+    year: 2011
+    coauthors: []
+    primary_category: math.RA
+  - id: '1010.2908'
+    title: 'Holonomic D-modules and positive characteristic'
+    year: 2010
+    coauthors: []
+    journal: 'Japan. J. Math. 4, 1-25 (2009)'
+    primary_category: math.RA
+  - id: '1007.5330'
+    title: 'Lyapunov spectrum of square-tiled cyclic covers'
+    year: 2010
+    coauthors: ['Alex Eskin', 'Anton Zorich']
+    journal: 'Journal of Modern Dynamics, 5:2 (2011), 319 -- 353'
+    primary_category: math.DS
+  - id: '1006.2706'
+    title: 'Cohomological Hall algebra, exponential Hodge structures and motivic Donaldson-Thomas invariants'
+    year: 2010
+    coauthors: ['Yan Soibelman']
+    primary_category: math.AG
+  - id: '0910.4315'
+    title: 'Motivic Donaldson-Thomas invariants: summary of results'
+    year: 2009
+    coauthors: ['Yan Soibelman']
+    primary_category: math.AG
+  - id: '0811.2435'
+    title: 'Stability structures, motivic Donaldson-Thomas invariants and cluster transformations'
+    year: 2008
+    coauthors: ['Yan Soibelman']
+    primary_category: math.AG
+  - id: '0801.4760'
+    title: 'XI Solomon Lefschetz Memorial Lecture Series: Hodge structures in non-commutative geometry. (Notes by Ernesto Lupercio)'
+    year: 2008
+    coauthors: []
+    primary_category: math.AG
+  - id: '0702206'
+    title: 'Notes on motives in finite characteristic'
+    year: 2007
+    coauthors: []
+    primary_category: math.AG
+  - id: '0609056'
+    title: 'On Malliavin measures, SLE and CFT'
+    year: 2006
+    coauthors: ['Yuri Suhov']
+    primary_category: math-ph
+  - id: '0606241'
+    title: 'Notes on A-infinity algebras, A-infinity categories and non-commutative geometry. I'
+    year: 2006
+    coauthors: ['Yan Soibelman']
+    journal: 'Published in the book "Homological Mirror Symmetry. New developments and perspectives", Lecture Notes in Physics 757, Springer, 2009'
+    primary_category: math.RA
+  - id: '0603106'
+    title: 'Integrality of instanton numbers and p-adic B-model'
+    year: 2006
+    coauthors: ['Albert Schwarz', 'Vadim Vologodsky']
+    doi: '10.1016/j.physletb.2006.04.012'
+    journal: 'Phys.Lett.B637:97-101,2006'
+    primary_category: hep-th
+  - id: '0512171'
+    title: 'The Jacobian Conjecture is stably equivalent to the Dixmier Conjecture'
+    year: 2005
+    coauthors: ['Alexei Belov-Kanel']
+    journal: 'Mosc. Math. J., 7:2 (2007), 209--218'
+    primary_category: math.RA
+  - id: '0512169'
+    title: 'Automorphisms of the Weyl algebra'
+    year: 2005
+    coauthors: ['Alexei Belov-Kanel']
+    doi: '10.1007/s11005-005-0027-5'
+    journal: 'Lett. Math. Phys., Volume 74 (2005), Number 2, 181-199'
+    primary_category: math.RA
+  - id: '0508221'
+    title: 'Symmetries of WDVV equations'
+    year: 2005
+    coauthors: ['Yujun Chen', 'Albert Schwarz']
+    doi: '10.1016/j.nuclphysb.2005.09.025'
+    journal: 'Nucl.Phys. B730 (2005) 352-363'
+    primary_category: hep-th
+  - id: '0507021'
+    title: 'Quantization on Curves'
+    year: 2005
+    coauthors: ['Christian Fronsdal']
+    doi: '10.1007/s11005-006-0137-8'
+    journal: 'Lett.Math.Phys.79:109-129,2007'
+    primary_category: math-ph
+  - id: '0406564'
+    title: 'Affine structures and non-archimedean analytic spaces'
+    year: 2004
+    coauthors: ['Yan Soibelman']
+    primary_category: math.AG
+  - id: '0011041'
+    title: 'Homological mirror symmetry and torus fibrations'
+    year: 2000
+    coauthors: ['Yan Soibelman']
+    primary_category: math.SG
+  - id: '0008089'
+    title: 'On Poly(ana)logs I'
+    year: 2000
+    coauthors: ['Philippe Elbaz-Vincent', 'Herbert Gangl']
+    primary_category: math.KT
+  - id: '0001151'
+    title: 'Deformations of algebras over operads and Deligne''s conjecture'
+    year: 2000
+    coauthors: ['Yan Soibelman']
+    primary_category: math.QA
+  - id: '9904055'
+    title: 'Operads and Motives in Deformation Quantization'
+    year: 1999
+    coauthors: []
+    doi: '10.1023/A:1007555725247'
+    journal: 'Lett.Math.Phys.48:35-72,1999'
+    primary_category: math.QA
+  - id: '9812158'
+    title: 'Noncommutative smooth spaces'
+    year: 1998
+    coauthors: ['Alexander Rosenberg']
+    primary_category: math.AG
+  - id: '9710032'
+    title: 'Frobenius Manifolds and Formality of Lie Algebras of Polyvector Fields'
+    year: 1997
+    coauthors: ['Sergey Barannikov']
+    doi: '10.1155/S1073792898000166'
+    journal: 'International Mathematics Research Notices, Volume 1998, Issue 4, Pages 201-215'
+    primary_category: math.AG
+  - id: '9709040'
+    title: 'Deformation quantization of Poisson manifolds, I'
+    year: 1997
+    coauthors: []
+    doi: '10.1023/B:MATH.0000027508.00421.bf'
+    journal: 'Lett.Math.Phys.66:157-216,2003'
+    primary_category: math.QA
+  - id: '9709006'
+    title: 'Product formulas for modular forms on O(2,n) (after R.Borcherds)'
+    year: 1997
+    coauthors: []
+    primary_category: math.AG
+  - id: '9708024'
+    title: 'Relations between the correlators of the topological sigma-model coupled to gravity'
+    year: 1997
+    coauthors: [manin-yuri]
+    doi: '10.1007/s002200050426'
+    journal: 'Commun.Math.Phys. 196 (1998) 385-398'
+    primary_category: math.AG
+  - id: '9411018'
+    title: 'Homological Algebra of Mirror Symmetry'
+    year: 1994
+    coauthors: []
+    primary_category: math.AG
+  - id: '9406140'
+    title: 'Geometry of determinants of elliptic operators'
+    year: 1994
+    coauthors: ['Simeon Vishik']
+    primary_category: hep-th
+  - id: '9404046'
+    title: 'Determinants of elliptic pseudo-differential operators'
+    year: 1994
+    coauthors: ['Simeon Vishik']
+    primary_category: hep-th
 sources:
 - label: OpenAlex
   url: https://openalex.org/authors/A5018376358

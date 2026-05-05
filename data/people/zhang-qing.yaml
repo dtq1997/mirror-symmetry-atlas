@@ -72,66 +72,218 @@ key_collaborators:
     topic: "ABV-packets, generic representations"
     papers_count: 2
 publications:
-  - id: "2505.11381"
-    title: "On the complementary Arthur representations and unitary dual for p-adic classical groups"
+  - id: '2505.11381'
+    title: 'On the complementary Arthur representations and unitary dual for p-adic classical groups'
     year: 2025
-    coauthors: ["Alexander Hazeltine", "Dihua Jiang", "Baiying Liu", "Chi-Heng Lo"]
-  - id: "2504.04163"
-    title: "Representations of p-adic groups and orbits with smooth closure in a variety of Langlands parameters"
+    coauthors: ['Alexander Hazeltine', 'Dihua Jiang', 'Baiying Liu', 'Chi-Heng Lo']
+    primary_category: math.RT
+  - id: '2504.04163'
+    title: 'Representations of p-adic groups and orbits with smooth closure in a variety of Langlands parameters'
     year: 2025
-    coauthors: ["Kristaps Balodis", "Clifton Cunningham", "Andrew Fiori"]
-  - id: "2412.06824"
-    title: "Whittaker normalization of p-adic ABV-packets and Vogan's conjecture for tempered"
+    coauthors: ['Kristaps Balodis', 'Clifton Cunningham', 'Andrew Fiori']
+    primary_category: math.RT
+  - id: '2412.20763'
+    title: 'Realizing modular data from centers of near-group categories'
     year: 2024
-    coauthors: ["Clifton Cunningham", "Sarah Dijols", "Andrew Fiori"]
-  - id: "2410.11806"
-    title: "On Arthur representations and the unitary dual"
+    coauthors: ['Zhiqiang Yu']
+    primary_category: math.QA
+  - id: '2412.06824'
+    title: 'Whittaker normalization of p-adic ABV-packets and Vogan''s conjecture for tempered'
     year: 2024
-    coauthors: ["Alexander Hazeltine", "Dihua Jiang", "Baiying Liu", "Chi-Heng Lo"]
-  - id: "2404.07463"
-    title: "Generic representations, open parameters and ABV-packets for p-adic groups"
+    coauthors: ['Clifton Cunningham', 'Sarah Dijols', 'Andrew Fiori']
+    primary_category: math.RT
+  - id: '2410.11806'
+    title: 'On Arthur representations and the unitary dual'
     year: 2024
-    coauthors: ["Clifton Cunningham", "Sarah Dijols", "Andrew Fiori"]
-  - id: "2309.10445"
-    title: "Product of Rankin-Selberg convolutions and a new proof of Jacquet's local converse conjecture"
+    coauthors: ['Alexander Hazeltine', 'Dihua Jiang', 'Baiying Liu', 'Chi-Heng Lo']
+    primary_category: math.RT
+  - id: '2410.09025'
+    title: 'The Condensed Fiber Product and Zesting'
+    year: 2024
+    coauthors: ['Colleen Delaney', 'C sar Galindo', 'Julia Plavnik', 'Eric C. Rowell']
+    primary_category: math.QA
+  - id: '2404.09314'
+    title: 'Modular data of non-semisimple modular categories'
+    year: 2024
+    coauthors: ['Liang Chang', 'Quinn T. Kolt', 'Zhenghan Wang']
+    primary_category: math.QA
+  - id: '2404.07463'
+    title: 'Generic representations, open parameters and ABV-packets for p-adic groups'
+    year: 2024
+    coauthors: ['Clifton Cunningham', 'Sarah Dijols', 'Andrew Fiori']
+    primary_category: math.RT
+  - id: '2309.10445'
+    title: 'Product of Rankin-Selberg convolutions and a new proof of Jacquet''s local converse conjecture'
     year: 2023
-    coauthors: ["Pan Yan"]
-  - id: "2302.06256"
-    title: "On a refined local converse theorem for SO(4)"
+    coauthors: ['Pan Yan']
+    primary_category: math.RT
+  - id: '2305.09108'
+    title: 'On near-group centers and super-modular categories'
     year: 2023
-    coauthors: ["Pan Yan"]
-  - id: "2209.03816"
-    title: "The closure ordering conjecture on local Arthur packets of classical groups"
+    coauthors: ['Eric C. Rowell', 'Hannah Solomon']
+    primary_category: math.QA
+  - id: '2302.06256'
+    title: 'On a refined local converse theorem for SO(4)'
+    year: 2023
+    coauthors: ['Pan Yan']
+    doi: '10.1090/proc/16945'
+    journal: 'Proc. Amer. Math. Soc. 152 (2024), 4959-4976'
+    primary_category: math.RT
+  - id: '2212.05336'
+    title: '$G$-crossed braided zesting'
     year: 2022
-    coauthors: ["Alexander Hazeltine", "Baiying Liu", "Chi-Heng Lo"]
-  - id: "2101.04578"
-    title: "Toward the endoscopic classification of unipotent representations of p-adic G_2"
+    coauthors: ['Colleen Delaney', 'C sar Galindo', 'Julia Plavnik', 'Eric Rowell']
+    doi: '10.1112/jlms.12816'
+    primary_category: math.QA
+  - id: '2209.03816'
+    title: 'The closure ordering conjecture on local Arthur packets of classical groups'
+    year: 2022
+    coauthors: ['Alexander Hazeltine', 'Baiying Liu', 'Chi-Heng Lo']
+    primary_category: math.RT
+  - id: '2111.05228'
+    title: 'Modular tensor categories, subcategories, and Galois orbits'
     year: 2021
-    coauthors: ["Clifton Cunningham", "Andrew Fiori"]
-  - id: "2009.05980"
-    title: "On a Rankin-Selberg integral of the L-function for SL_2~ × GL_2"
+    coauthors: ['Julia Plavnik', 'Andrew Schopieray', 'Zhiqiang Yu']
+    primary_category: math.QA
+  - id: '2106.01959'
+    title: 'From Torus Bundles to Particle-Hole Equivariantization'
+    year: 2021
+    coauthors: ['Shawn X. Cui', 'Paul Gustafson', 'Yang Qiu']
+    doi: '10.1007/s11005-022-01508-3'
+    journal: 'Lett Math Phys 112, 15 (2022)'
+    primary_category: math.QA
+  - id: '2101.04578'
+    title: 'Toward the endoscopic classification of unipotent representations of p-adic G_2'
+    year: 2021
+    coauthors: ['Clifton Cunningham', 'Andrew Fiori']
+    primary_category: math.RT
+  - id: '2009.05980'
+    title: 'On a Rankin-Selberg integral of the L-function for SL_2~ × GL_2'
     year: 2020
     coauthors: []
-  - id: "2005.02438"
-    title: "Arthur packets for G_2 and perverse sheaves on cubics"
+    journal: 'Math. Z., 298(2021), 307-326'
+    primary_category: math.NT
+  - id: '2007.01366'
+    title: 'Modular categories with transitive Galois actions'
     year: 2020
-    coauthors: ["Clifton Cunningham", "Andrew Fiori"]
-  - id: "1811.10472"
-    title: "On a converse theorem for G_2 over finite fields"
+    coauthors: ['Siu-Hung Ng', 'Yilong Wang']
+    doi: '10.1007/s00220-021-04287-5'
+    journal: 'Comm. Math. Phys. 390, 1271-1310 (2022)'
+    primary_category: math.QA
+  - id: '2005.05544'
+    title: 'Braided zesting and its applications'
+    year: 2020
+    coauthors: ['Colleen Delaney', 'C sar Galindo', 'Julia Plavnik', 'Eric C. Rowell']
+    doi: '10.1007/s00220-021-04002-4'
+    primary_category: math.QA
+  - id: '2005.02438'
+    title: 'Arthur packets for G_2 and perverse sheaves on cubics'
+    year: 2020
+    coauthors: ['Clifton Cunningham', 'Andrew Fiori']
+    doi: '10.1016/j.aim.2021.108074'
+    journal: 'Advances in Mathematics 2021'
+    primary_category: math.RT
+  - id: '2002.03570'
+    title: 'Higher central charges and Witt groups'
+    year: 2020
+    coauthors: ['Siu-Hung Ng', 'Eric C. Rowell', 'Yilong Wang']
+    doi: '10.1016/j.aim.2022.108388'
+    journal: 'Advances in Mathematics Volume 404, Part A, 6 August 2022, 108388'
+    primary_category: math.QA
+  - id: '1909.09843'
+    title: 'Classification of super-modular categories'
+    year: 2019
+    coauthors: ['Paul Bruillard', 'Julia Yael Plavnik', 'Eric C. Rowell']
+    primary_category: math.QA
+  - id: '1906.08153'
+    title: 'Braid group representations from twisted tensor products of algebras'
+    year: 2019
+    coauthors: ['Paul Gustafson', 'Andrew Kimball', 'Eric C. Rowell']
+    primary_category: math.QA
+  - id: '1901.04462'
+    title: 'Integral Metaplectic Modular Categories'
+    year: 2019
+    coauthors: ['Adam Deaton', 'Paul Gustafson', 'Leslie Mavrakis', 'Eric C. Rowell', 'Sasha Poltoratski', 'Sydney Timmerman', 'Benjamin Warren']
+    primary_category: math.QA
+  - id: '1811.10472'
+    title: 'On a converse theorem for G_2 over finite fields'
     year: 2018
-    coauthors: ["Baiying Liu"]
-  - id: "1810.11901"
-    title: "Uniqueness of certain Fourier-Jacobi models over finite fields"
+    coauthors: ['Baiying Liu']
+    journal: 'Math. Ann. 383(2022), 1217-1283'
+    primary_category: math.RT
+  - id: '1810.11901'
+    title: 'Uniqueness of certain Fourier-Jacobi models over finite fields'
     year: 2018
-    coauthors: ["Baiying Liu"]
-  - id: "1808.06285"
-    title: "Adjoint L-functions for GL(3) and U(2,1)"
+    coauthors: ['Baiying Liu']
+    journal: 'Finite Fields and Their Applications 58 (2019), 70-123'
+    primary_category: math.RT
+  - id: '1808.06285'
+    title: 'Adjoint L-functions for GL(3) and U(2,1)'
     year: 2018
-    coauthors: ["Joseph Hundley"]
+    coauthors: ['Joseph Hundley']
+    doi: '10.1093/imrn/rnz125'
+    journal: 'IMRN, Vol2021, Issue 1, 324-381, rnz125'
+    primary_category: math.NT
+  - id: '1705.09410'
+    title: 'A local converse theorem for $\textrm{U}_{2r+1}$'
+    year: 2017
+    coauthors: []
+    primary_category: math.RT
+  - id: '1705.01692'
+    title: 'A local converse theorem for $\textrm{Sp}_{2r}$'
+    year: 2017
+    coauthors: []
+    primary_category: math.RT
+  - id: '1704.02041'
+    title: 'Congruence Subgroups and Super-Modular Categories'
+    year: 2017
+    coauthors: ['Parsa Bonderson', 'Eric C. Rowell', 'Zhenghan Wang']
+    doi: '10.2140/pjm.2018.296.257'
+    journal: 'Pacific J. Math. 296 (2018) 257-270'
+    primary_category: math.QA
+  - id: '1601.07618'
+    title: 'On the dependence of the local Rankin-Selberg gamma factors of $\textrm{Sp}_{2n}\times \textrm{GL}_m$ on $ψ$'
+    year: 2016
+    coauthors: []
+    primary_category: math.NT
+  - id: '1511.03713'
+    title: 'Stability of Rankin-Selberg gamma factors for $\textrm{Sp}(2n)$, $\widetilde{ \textrm{Sp}}(2n)$ and $\textrm{U}(n,n)$'
+    year: 2015
+    coauthors: []
+    doi: '10.1142/S1793042117501317'
+    primary_category: math.NT
+  - id: '1511.00354'
+    title: 'A strong multiplicity one theorem for SL(2)'
+    year: 2015
+    coauthors: ['Jingsong Chai']
+    doi: '10.2140/pjm.2016.285.345'
+    journal: 'Pacific Journal of Math, Vol 285, no.2 (2016)'
+    primary_category: math.NT
+  - id: '1509.00900'
+    title: 'A local converse Theorem for U(2,2)'
+    year: 2015
+    coauthors: []
+    doi: '10.1515/forum-2016-0135'
+    primary_category: math.NT
+  - id: '1508.07062'
+    title: 'A local converse theorem for U(1,1)'
+    year: 2015
+    coauthors: []
+    doi: '10.1142/S1793042117501056'
+    journal: 'Int. J. Number Theory, Vol. 13, No. 8 (2017) 1931-1981'
+    primary_category: math.NT
+  - id: '1308.5398'
+    title: 'A thermal quench induces spatial inhomogeneities in a holographic superconductor'
+    year: 2013
+    coauthors: ['Antonio M. Garc a-Garc a', 'Hua Bi Zeng', zhang-qing]
+    doi: '10.1007/JHEP07(2014)096'
+    primary_category: hep-th
 activity:
-  total_papers: 14
-  active_period: "2018-present"
-  notes: "仅数论/表示论方向。arXiv 上的 modular categories / quantum algebra 方向的 Qing Zhang (与 Eric Rowell 合作) 是另一位同名作者"
+  total_papers: 36
+  published_count: 17
+  preprint_only_count: 19
+  active_period: '2018-present'
+  notes: '仅数论/表示论方向。arXiv 上的 modular categories / quantum algebra 方向的 Qing Zhang (与 Eric Rowell 合作) 是另一位同名作者'
 external_ids:
   mathscinet: "199229"
 links:

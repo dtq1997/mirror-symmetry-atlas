@@ -62,32 +62,40 @@ key_collaborators:
     topic: "Asymmetric rational reductions of 2D-Toda hierarchy, generalized Frobenius manifold"
     papers_count: 1
 publications:
-  - id: "2510.04151"
-    title: "Asymmetric rational reductions of 2D-Toda hierarchy and a generalized Frobenius manifold"
+  - id: '2510.04151'
+    title: 'Asymmetric rational reductions of 2D-Toda hierarchy and a generalized Frobenius manifold'
     year: 2025
-    coauthors: ["Qiulan Zhao"]
-  - id: "2411.15496"
-    title: "Legendre transformations of a class of generalized Frobenius manifolds and the associated integrable hierarchies"
+    coauthors: ['Qiulan Zhao']
+    primary_category: nlin.SI
+  - id: '2411.15496'
+    title: 'Legendre transformations of a class of generalized Frobenius manifolds and the associated integrable hierarchies'
     year: 2024
     coauthors: [liu-siqi, zhang-youjin]
-    journal: "Comm. Math. Phys. (2025)"
-  - id: "2402.00373"
-    title: "Solutions of the loop equations of a class of generalized Frobenius manifolds"
+    journal: 'Comm. Math. Phys. (2025)'
+    primary_category: math-ph
+  - id: '2402.00373'
+    title: 'Solutions of the loop equations of a class of generalized Frobenius manifolds'
     year: 2024
-    coauthors: [liu-siqi, "Yuewei Wang", zhang-youjin]
-  - id: "2209.00483"
-    title: "Generalized Frobenius Manifolds with Non-flat Unity and Integrable Hierarchies"
+    coauthors: [liu-siqi, 'Yuewei Wang', zhang-youjin]
+    primary_category: math-ph
+  - id: '2209.00483'
+    title: 'Generalized Frobenius Manifolds with Non-flat Unity and Integrable Hierarchies'
     year: 2022
     coauthors: [liu-siqi, zhang-youjin]
-    journal: "Comm. Math. Phys. (2024)"
-  - id: "2108.03447"
-    title: "Tri-Hamiltonian Structure of the Ablowitz-Ladik Hierarchy"
+    journal: 'Comm. Math. Phys. (2024)'
+    primary_category: math-ph
+  - id: '2108.03447'
+    title: 'Tri-Hamiltonian Structure of the Ablowitz-Ladik Hierarchy'
     year: 2021
-    coauthors: ["Shuangxing Li", liu-siqi, zhang-youjin]
-    journal: "Physica D (2022)"
+    coauthors: ['Shuangxing Li', liu-siqi, zhang-youjin]
+    doi: '10.1016/j.physd.2022.133180'
+    journal: 'Physica D (2022)'
+    primary_category: math-ph
 activity:
   total_papers: 5
-  active_period: "2021-present"
+  published_count: 3
+  preprint_only_count: 2
+  active_period: '2021-present'
 external_ids: {}
 links:
   personal: "https://sites.google.com/site/haonanqu/"

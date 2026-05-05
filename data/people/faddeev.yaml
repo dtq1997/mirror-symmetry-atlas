@@ -55,10 +55,60 @@ students:
   - alekseev
 key_collaborators: []
 activity:
-  total_papers: 200
-  active_period: "1958-2017"
+  total_papers: 7
+  published_count: 7
+  preprint_only_count: 0
+  active_period: '1958-2017'
 external_ids: {}
 links: {}
+publications:
+  - id: '0804.1544'
+    title: 'Non-Abelian Supercurrents and de Sitter Ground State in Electroweak Theory'
+    year: 2008
+    coauthors: ['M. N. Chernodub', 'Antti J. Niemi']
+    doi: '10.1088/1126-6708/2008/12/014'
+    journal: 'JHEP 0812:014,2008'
+    primary_category: hep-th
+  - id: '0608111'
+    title: 'Spin-Charge Separation, Conformal Covariance and the SU(2) Yang-Mills Theory'
+    year: 2006
+    coauthors: [faddeev, 'Antti J. Niemi']
+    doi: '10.1016/j.nuclphysb.2006.12.011'
+    journal: 'Nucl.Phys.B776:38-65,2007'
+    primary_category: hep-th
+  - id: '0212079'
+    title: 'Knotted solitons'
+    year: 2002
+    coauthors: [faddeev]
+    journal: 'Proceedings of the ICM, Beijing 2002, vol. 1, 235--244'
+    primary_category: math-ph
+  - id: '0101078'
+    title: 'Aspects of Electric and Magnetic Variables in SU(2) Yang-Mills Theory'
+    year: 2001
+    coauthors: ['Antti J. Niemi']
+    doi: '10.1016/S0370-2693(01)01432-0'
+    journal: 'Phys.Lett. B525 (2002) 195-200'
+    primary_category: hep-th
+  - id: '9912078'
+    title: 'Modular Double of Quantum Group'
+    year: 1999
+    coauthors: []
+    journal: 'Math.Phys.Stud.21:149-156,2000'
+    primary_category: math.QA
+  - id: '9907180'
+    title: 'Decomposing the Yang-Mills Field'
+    year: 1999
+    coauthors: ['Antti J. Niemi']
+    doi: '10.1016/S0370-2693(99)01035-7'
+    journal: 'Phys.Lett.B464:90-93,1999'
+    primary_category: hep-th
+  - id: '9807069'
+    title: 'Partially Dual variables in SU(2) Yang-Mills Theory'
+    year: 1998
+    coauthors: ['Antti J. Niemi']
+    doi: '10.1103/PhysRevLett.82.1624'
+    journal: 'Phys.Rev.Lett. 82 (1999) 1624-1627'
+    primary_category: hep-th
 sources:
   - label: "Wikipedia: Ludvig Faddeev"
     url: "https://en.wikipedia.org/wiki/Ludvig_Faddeev"

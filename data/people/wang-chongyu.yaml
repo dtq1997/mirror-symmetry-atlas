@@ -28,19 +28,21 @@ key_collaborators:
     papers_count: 2
     notes: "博士导师"
 publications:
-  - id: "2603.02736"
-    title: "Complexity of quantum cohomology"
+  - id: '2603.02736'
+    title: 'Complexity of quantum cohomology'
     year: 2026
     coauthors: [liu-xiaobo]
-    notes: "研究 2D TQFT 量子上同调的电路复杂度，对 Fano 完全交和 (co)minuscule 齐性簇估计有限近似复杂度的状态数"
-  - id: "2402.14504"
-    title: "On A Tautological Relation Conjectured By Buryak-Shadrin"
+    primary_category: math.AG
+  - id: '2402.14504'
+    title: 'On A Tautological Relation Conjectured By Buryak-Shadrin'
     year: 2024
     coauthors: [liu-xiaobo]
-    notes: "证明 Buryak-Shadrin 猜想的 g=1 情形，并将一般情形约化为 m=2、|d|=2g+1 的有限情形"
+    primary_category: math.AG
 activity:
   total_papers: 2
-  active_period: "2024-present"
+  published_count: 0
+  preprint_only_count: 2
+  active_period: '2024-present'
 external_ids: {}
 links:
   email: "wangcyu@pku.edu.cn"

@@ -81,53 +81,70 @@ key_collaborators:
     topic: "Vafa-Witten 模空间的横截性"
     papers_count: 2
 publications:
-  - id: "math/0405363"
-    title: "Bäcklund transformations, Ward solitons, and unitons"
-    year: 2004
-    coauthors: ["Chuu-Lian Terng"]
-    journal: "J. Differential Geometry 75 (2007), 57-108"
-  - id: "math/0602607"
-    title: "On the space-time monopole equation"
-    year: 2006
-    coauthors: ["Chuu-Lian Terng", "Karen Uhlenbeck"]
-    journal: "[待验证]"
-  - id: null
-    title: "A quadrangle comparison theorem and its application to soul theory for Alexandrov spaces"
-    year: 2011
-    coauthors: ["Jianguo Cao", "Jiaqiang Mei"]
-    journal: "Front. Math. China 6 (2011), 35-48"
-    notes: "arXiv ID [待补充]"
-  - id: null
-    title: "Minimal genus for 4-manifolds with b⁺=1"
-    year: 2016
-    coauthors: ["Chung-I Ho", "Tian-Jun Li"]
-    journal: "J. Topology 9 (2016), no.1, 5-26"
-    notes: "arXiv ID [待补充]"
-  - id: null
-    title: "Nonorientable Lagrangian surfaces in rational 4-manifolds"
-    year: 2019
-    coauthors: ["Chung-I Ho", "Tian-Jun Li"]
-    journal: "Algebr. Geom. Topol. 19 (2019), 2837-2854"
-    notes: "arXiv ID [待补充]"
-  - id: null
-    title: "The cohomological genus and symplectic genus for 4-manifolds of rational or ruled types"
-    year: 2021
-    coauthors: ["Chung-I Ho"]
-    journal: "Mathematics 9 (2021), 1563"
-    notes: "MDPI, arXiv ID [待补充]"
-  - id: null
-    title: "Transversality for the full rank part of Vafa-Witten moduli spaces"
-    year: 2022
-    coauthors: ["Ren Guan"]
-    journal: "Comm. Math. Phys. 389 (2022), 1047-1060"
-    notes: "arXiv ID [待补充]"
-  - id: "2505.14702"
-    title: "A simple perturbation of Vafa-Witten equations and a transversality result"
+  - id: '2505.14702'
+    title: 'A simple perturbation of Vafa-Witten equations and a transversality result'
     year: 2025
-    coauthors: ["Ren Guan"]
+    coauthors: ['Ren Guan']
+    primary_category: math.DG
+  - id: '1902.09717'
+    title: 'Geometric automorphism groups of symplectic 4-manifolds'
+    year: 2019
+    coauthors: ['Chung-I Ho', 'Tian-Jun Li']
+    doi: '10.1063/1.4865340'
+    journal: 'Topology and Its Application, 162 (2014), 1--11'
+    primary_category: math.DG
+  - id: '1902.08901'
+    title: 'Non-orientable Lagrangian surfaces in rational 4-manifolds'
+    year: 2019
+    coauthors: ['Chung-I Ho', 'Tian-Jun Li']
+    primary_category: math.SG
+  - id: '1501.00235'
+    title: 'Minimal genus for 4-manifolds with $b^+=1$'
+    year: 2015
+    coauthors: ['Chung-I Ho', 'Tian-Jun Li']
+    doi: '10.1112/jtopol/jtv032'
+    primary_category: math.GT
+  - id: '0712.3221'
+    title: 'An optimal extension of Perelman''s comparison theorem for quadrangles and its applications'
+    year: 2007
+    coauthors: ['Jianguo Cao', 'Jiaqiang Mei']
+    primary_category: math.DG
+  - id: '0706.0565'
+    title: 'An extension of Perelman''s soul theorem for singular spaces'
+    year: 2007
+    coauthors: ['Jianguo Cao', 'Jiaqiang Mei']
+    primary_category: math.DG
+  - id: '0602607'
+    title: 'On the space-time Monopole equation'
+    year: 2006
+    coauthors: ['Chuu-Lian Terng', 'Karen Uhlenbeck']
+    primary_category: math.DG
+  - id: '0405365'
+    title: 'Periodic and homoclinic solutions of the modified 2+1 Chiral model'
+    year: 2004
+    coauthors: ['Chuu-Lian Terng']
+    doi: '10.1063/1.1929688'
+    primary_category: math.DG
+  - id: '0405363'
+    title: 'Backlund transformations, Ward solitons, and unitons'
+    year: 2004
+    coauthors: ['Chuu-Lian Terng']
+    primary_category: math.DG
+  - id: 'math/0405363'
+    title: 'Bäcklund transformations, Ward solitons, and unitons'
+    year: 2004
+    coauthors: ['Chuu-Lian Terng']
+    journal: 'J. Differential Geometry 75 (2007), 57-108'
+  - id: 'math/0602607'
+    title: 'On the space-time monopole equation'
+    year: 2006
+    coauthors: ['Chuu-Lian Terng', 'Karen Uhlenbeck']
+    journal: '[待验证]'
 activity:
-  total_papers: 8
-  active_period: "2004-present"
+  total_papers: 12
+  published_count: 6
+  preprint_only_count: 6
+  active_period: '2004-present'
 external_ids: {}
 links:
   homepage: "https://www.math.pku.edu.cn/jsdw/js_20180628175159671361/d_20180628175159671361/69895.htm"

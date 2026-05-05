@@ -18,11 +18,12 @@ research_areas: []
 advisor: xiang-maosong
 students: []
 key_collaborators: []
-publications: []
+publications:
 activity:
-  total_papers: null
-  active_period: null
-  notes: "未在 arXiv/OpenAlex 找到可归属的数学论文（同名作者极多）。用户侧标注其为 HUST 博士生/博后一类"
+  total_papers: 0
+  published_count: 0
+  preprint_only_count: 0
+  notes: '未在 arXiv/OpenAlex 找到可归属的数学论文（同名作者极多）。用户侧标注其为 HUST 博士生/博后一类'
 external_ids: {}
 links:
   math_center: "https://mathcenter.hust.edu.cn/info/1049/3121.htm"

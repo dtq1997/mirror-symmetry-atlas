@@ -60,8 +60,10 @@ key_collaborators:
     topic: "KdV tau-functions, arithmetic of integrable hierarchies"
     papers_count: 5
 activity:
-  total_papers: 200
-  active_period: "1971-present"
+  total_papers: 39
+  published_count: 11
+  preprint_only_count: 28
+  active_period: '1971-present'
 external_ids: {}
 links: {}
 personal_notes: |
@@ -69,6 +71,219 @@ personal_notes: |
   学生包括 Kontsevich (Fields 1998) 和 Viazovska (Fields 2022)。
   与杨迪合作的 KdV tau-function 工作把数论方法引入可积系统。
   代表作: "On tau-functions for the KdV hierarchy" (with Dubrovin, Yang)
+publications:
+  - id: '2604.26354'
+    title: 'On enumeration of $b$-angulations of surfaces from an integrability perspective'
+    year: 2026
+    coauthors: ['Elba Garcia-Failde', xu-xu, yang-di]
+    primary_category: math-ph
+  - id: '2603.15233'
+    title: 'On uniform large genus asymptotics of Witten''s intersection numbers'
+    year: 2026
+    coauthors: [guo-jindong, yang-di]
+    primary_category: math-ph
+  - id: '2412.20388'
+    title: 'Combinatorics and large genus asymptotics of the Brézin--Gross--Witten numbers'
+    year: 2024
+    coauthors: [guo-jindong, 'Paul Norbury', yang-di]
+    primary_category: math-ph
+  - id: '2412.04241'
+    title: 'The Habiro ring of a number field'
+    year: 2024
+    coauthors: ['Stavros Garoufalidis', 'Peter Scholze', 'Campbell Wheeler']
+    primary_category: math.NT
+  - id: '2405.04190'
+    title: 'On the Euler characteristic of the commutative graph complex and the top weight cohomology of $\mathcal M_g$'
+    year: 2024
+    coauthors: ['Michael Borinsky']
+    primary_category: math.AT
+  - id: '2308.03568'
+    title: 'Mapping partition functions'
+    year: 2023
+    coauthors: [yang-di]
+    primary_category: math-ph
+  - id: '2304.12545'
+    title: 'Hyperbolic 3-manifolds, the Bloch group, and the work of Walter Neumann'
+    year: 2023
+    coauthors: ['Stavros Garoufalidis']
+    primary_category: math.GT
+  - id: '2304.09377'
+    title: 'Knots and Their Related $q$-Series'
+    year: 2023
+    coauthors: ['Stavros Garoufalidis']
+    doi: '10.3842/SIGMA.2023.082'
+    journal: 'SIGMA 19 (2023), 082, 39 pages'
+    primary_category: math.GT
+  - id: '2210.10686'
+    title: 'Modular Linear Differential Operators and Generalized Rankin-Cohen Brackets'
+    year: 2022
+    coauthors: ['Kiyokazu Nagatomo', 'Yuichi Sakai']
+    primary_category: math.NT
+  - id: '2203.09426'
+    title: 'D-brane masses at special fibres of hypergeometric families of Calabi-Yau threefolds, modular forms, and periods'
+    year: 2022
+    coauthors: ['Kilian B nisch', 'Albrecht Klemm', 'Emanuel Scheidegger']
+    primary_category: hep-th
+  - id: '2203.06519'
+    title: 'A hyperbolic Kac-Moody Calogero model'
+    year: 2022
+    coauthors: ['Olaf Lechtenfeld']
+    primary_category: math-ph
+  - id: '2111.06645'
+    title: 'Knots, Perturbative Series and Quantum Modularity'
+    year: 2021
+    coauthors: ['Stavros Garoufalidis']
+    doi: '10.3842/SIGMA.2024.055'
+    journal: 'SIGMA 20 (2024), 055, 87 pages'
+    primary_category: math.GT
+  - id: '2101.10924'
+    title: 'Geometry and arithmetic of integrable hierarchies of KdV type. I. Integrality'
+    year: 2021
+    coauthors: [dubrovin, yang-di]
+    primary_category: math.AG
+  - id: '2101.02187'
+    title: 'A curious identity that implies Faber''s conjecture'
+    year: 2021
+    coauthors: ['Elba Garcia-Failde']
+    primary_category: math.CO
+  - id: '2012.15805'
+    title: 'Arithmetic properties of the Herglotz function'
+    year: 2020
+    coauthors: ['Danylo Radchenko']
+    primary_category: math.NT
+  - id: '2011.02187'
+    title: 'Strichartz Estimates with Broken Symmetries'
+    year: 2020
+    coauthors: ['Felipe Gon alves']
+    primary_category: math.CA
+  - id: '2010.16367'
+    title: 'Nu-invariants of extra-twisted connected sums'
+    year: 2020
+    coauthors: ['Sebastian Goette', 'Johannes Nordstr m']
+    primary_category: math.GT
+  - id: '2005.02275'
+    title: 'Masur--Veech volumes of quadratic differentials and their asymptotics'
+    year: 2020
+    coauthors: [yang-di, zhang-youjin]
+    primary_category: math-ph
+  - id: '1907.00188'
+    title: 'Theta Blocks'
+    year: 2019
+    coauthors: ['Valery Gritsenko', 'Nils-Peter Skoruppa']
+    primary_category: math.NT
+  - id: '1906.12339'
+    title: 'Genus-zero and genus-one string amplitudes and special multiple zeta values'
+    year: 2019
+    coauthors: ['Federico Zerbini']
+    journal: 'Commun. Number Theory Phys. Vol. 14 (2020), no. 2, 413--452'
+    primary_category: math.NT
+  - id: '1903.09470'
+    title: 'Cotangent sums, quantum modular forms, and the generalized Riemann hypothesis'
+    year: 2019
+    coauthors: ['John Lewis']
+    primary_category: math.NT
+  - id: '1902.07321'
+    title: 'Jensen polynomials for the Riemann zeta function and other sequences'
+    year: 2019
+    coauthors: ['Michael Griffin', 'Ken Ono', 'Larry Rolen']
+    doi: '10.1073/pnas.1902572116'
+    primary_category: math.NT
+  - id: '1901.01785'
+    title: 'Masur-Veech volumes and intersection theory on moduli spaces of abelian differentials'
+    year: 2019
+    coauthors: ['Dawei Chen', 'Martin M ller', 'Adrien Sauvaget']
+    doi: '10.1007/s00222-020-00969-4'
+    primary_category: math.AG
+  - id: '1812.08488'
+    title: 'On tau-functions for the KdV hierarchy'
+    year: 2018
+    coauthors: [dubrovin, yang-di]
+    primary_category: math-ph
+  - id: '1812.07690'
+    title: 'Asymptotics of Nahm sums at roots of unity'
+    year: 2018
+    coauthors: ['Stavros Garoufalidis']
+    primary_category: math.GT
+  - id: '1802.00711'
+    title: 'Gromov--Witten invariants of the Riemann sphere'
+    year: 2018
+    coauthors: [dubrovin, yang-di]
+    primary_category: math.AG
+  - id: '1712.04887'
+    title: 'Bloch groups, algebraic K-theory, units, and Nahm''s Conjecture'
+    year: 2017
+    coauthors: ['Frank Calegari', 'Stavros Garoufalidis']
+    primary_category: math.NT
+  - id: '1711.00327'
+    title: 'A simple proof of the Eichler-Selberg trace formula'
+    year: 2017
+    coauthors: ['Alexandru A. Popa']
+    doi: '10.1515/crelle-2018-0035'
+    primary_category: math.NT
+  - id: '1606.04065'
+    title: 'Quasimodularity and large genus limits of Siegel-Veech constants'
+    year: 2016
+    coauthors: ['Dawei Chen', 'Martin Moeller']
+    primary_category: math.NT
+  - id: '1604.02822'
+    title: 'A combinatorial refinement of the Kronecker-Hurwitz class number relation'
+    year: 2016
+    coauthors: ['Alexandru A. Popa']
+    primary_category: math.NT
+  - id: '1503.05690'
+    title: 'Modular embeddings of Teichmueller curves'
+    year: 2015
+    coauthors: ['Martin Moeller']
+    doi: '10.1112/S0010437X16007636'
+    journal: 'Compositio Math. 152 (2016) 2269-2349'
+    primary_category: math.NT
+  - id: '1208.4074'
+    title: 'Quantum Black Holes, Wall Crossing, and Mock Modular Forms'
+    year: 2012
+    coauthors: ['Atish Dabholkar', 'Sameer Murthy']
+    primary_category: hep-th
+  - id: '1008.1573'
+    title: 'On a curious property of Bell numbers'
+    year: 2010
+    coauthors: ['Zhi-Wei Sun']
+    primary_category: math.NT
+  - id: '0903.2472'
+    title: 'Exact Results for Perturbative Chern-Simons Theory with Complex Gauge Group'
+    year: 2009
+    coauthors: ['Tudor Dimofte', 'Sergei Gukov', 'Jonatan Lenells']
+    journal: 'Commun.Num.Theor.Phys.3:363-443,2009'
+    primary_category: hep-th
+  - id: '0902.3113'
+    title: 'Asymptotics of classical spin networks'
+    year: 2009
+    coauthors: ['Stavros Garoufalidis', 'Roland van der Veen', zagier]
+    doi: '10.2140/gt.2013.17.1'
+    journal: 'Geom. Topol. 17 (2013) 1-37'
+    primary_category: math.GT
+  - id: '0710.0889'
+    title: 'Some Properties of Hypergeometric Series Associated with Mirror Symmetry'
+    year: 2007
+    coauthors: ['Aleksey Zinger']
+    primary_category: math.CO
+  - id: '0405040'
+    title: 'Numerical verification of Beilinson''s conjecture for K2 of hyperelliptic curves'
+    year: 2004
+    coauthors: ['Tim Dokchitser', 'Rob de Jeu']
+    doi: '10.1112/S0010437X05001892'
+    journal: 'Compositio Math. 142, Issue 02 (2006), 339-373'
+    primary_category: math.AG
+  - id: '0209023'
+    title: 'Crossing Probabilities and Modular Forms'
+    year: 2002
+    coauthors: ['Peter Kleban']
+    doi: '10.1023/A:1026012600583'
+    journal: 'J. Stat. Phys. (2003) 113, pp. 431-454'
+    primary_category: math-ph
+  - id: '9612020'
+    title: 'Jacobi forms and the structure of Donaldson invariants for 4-manifolds with b_+=1'
+    year: 1996
+    coauthors: ['Lothar G ttsche']
+    primary_category: math.AG
 sources:
   - label: "Wikipedia: Don Zagier"
     url: "https://en.wikipedia.org/wiki/Don_Zagier"

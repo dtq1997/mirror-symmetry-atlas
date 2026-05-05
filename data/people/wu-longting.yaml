@@ -59,45 +59,66 @@ key_collaborators:
     topic: "Operator formalism for GW invariants"
     papers_count: 1
 publications:
-  - id: "2501.05622"
-    title: "Poincaré polynomials of moduli spaces of one-dimensional sheaves on the projective plane"
+  - id: '2501.05622'
+    title: 'Poincaré polynomials of moduli spaces of one-dimensional sheaves on the projective plane'
     year: 2025
-    coauthors: [guo-shuai, "Miguel Moreira"]
-  - id: "2303.00503"
-    title: "All-genus WDVV recursion, quivers, and BPS invariants"
+    coauthors: [guo-shuai, 'Miguel Moreira']
+    primary_category: math.AG
+  - id: '2303.00503'
+    title: 'All-genus WDVV recursion, quivers, and BPS invariants'
     year: 2023
-    coauthors: ["Pierrick Bousseau"]
-  - id: "2112.09180"
-    title: "A new approach to the operator formalism for Gromov-Witten invariants of the cap and tube"
+    coauthors: ['Pierrick Bousseau']
+    primary_category: math.AG
+  - id: '2112.09180'
+    title: 'A new approach to the operator formalism for Gromov-Witten invariants of the cap and tube'
     year: 2021
-    coauthors: ["Ajith Urundolil Kumaran"]
-  - id: "2001.05347"
-    title: "Holomorphic anomaly equation for (P^2, E) and the Nekrasov-Shatashvili limit of local P^2"
+    coauthors: ['Ajith Urundolil Kumaran']
+    primary_category: math.AG
+  - id: '2001.05347'
+    title: 'Holomorphic anomaly equation for (P^2, E) and the Nekrasov-Shatashvili limit of local P^2'
     year: 2020
-    coauthors: ["Pierrick Bousseau", "Honglu Fan", guo-shuai]
-  - id: "1907.07133"
-    title: "Higher genus relative Gromov-Witten theory and double ramification cycles"
+    coauthors: ['Pierrick Bousseau', 'Honglu Fan', guo-shuai]
+    doi: '10.1017/fmp.2021.3'
+    primary_category: math.AG
+  - id: '1907.07133'
+    title: 'Higher genus relative Gromov-Witten theory and double ramification cycles'
     year: 2019
-    coauthors: ["Honglu Fan", "Fenglong You"]
-  - id: "1902.05739"
-    title: "Witten-Dijkgraaf-Verlinde-Verlinde equation and its application to relative Gromov-Witten theory"
+    coauthors: ['Honglu Fan', 'Fenglong You']
+    doi: '10.1112/jlms.12417'
+    primary_category: math.AG
+  - id: '1902.05739'
+    title: 'Witten-Dijkgraaf-Verlinde-Verlinde equation and its application to relative Gromov-Witten theory'
     year: 2019
-    coauthors: ["Honglu Fan"]
-  - id: "1810.06952"
-    title: "Structures in genus-zero relative Gromov-Witten theory"
+    coauthors: ['Honglu Fan']
+    primary_category: math.AG
+  - id: '1810.06952'
+    title: 'Structures in genus-zero relative Gromov-Witten theory'
     year: 2018
-    coauthors: ["Honglu Fan", "Fenglong You"]
-  - id: "1705.06402"
-    title: "A Remark on Gromov-Witten Invariants of Quintic Threefold"
+    coauthors: ['Honglu Fan', 'Fenglong You']
+    doi: '10.1112/topo.12131'
+    journal: 'J. Topol. 13(2020) issue 1, 269-307'
+    primary_category: math.AG
+  - id: '1705.06402'
+    title: 'A Remark on Gromov-Witten Invariants of Quintic Threefold'
     year: 2017
     coauthors: []
-  - id: "1705.06018"
-    title: "Chamber structure for some equivariant relative Gromov-Witten invariants of P^1 in genus 0"
+    doi: '10.1016/j.aim.2017.12.016'
+    primary_category: math.AG
+  - id: '1705.06018'
+    title: 'Chamber structure for some equivariant relative Gromov-Witten invariants of P^1 in genus 0'
     year: 2017
     coauthors: []
+    primary_category: math.AG
+  - id: '1103.4695'
+    title: 'Effect of a crossing change on crossing number'
+    year: 2011
+    coauthors: ['Shuting Shao', 'Shan Liu', 'Fengchun Lei']
+    primary_category: math.GT
 activity:
-  total_papers: 9
-  active_period: "2017-present"
+  total_papers: 10
+  published_count: 4
+  preprint_only_count: 6
+  active_period: '2017-present'
 external_ids:
   orcid: "0000-0002-0210-4220"
 links:

@@ -64,8 +64,10 @@ key_collaborators:
     topic: "Remodeling conjecture, toric CY 3-orbifolds"
     papers_count: 6
 activity:
-  total_papers: 60
-  active_period: "2002-present"
+  total_papers: 53
+  published_count: 39
+  preprint_only_count: 14
+  active_period: '2002-present'
 external_ids:
   mathgenealogy: "69488"
 links:
@@ -76,6 +78,322 @@ personal_notes: |
   曾任 MSRI Chern Professor。AMS Fellow 2012 首届。
   与方博汉 (11 篇)、宗正宇 (6 篇) 形成 toric CY / remodeling conjecture 核心团队。
   Remodeling Conjecture (BKMP) 的主要推动者之一。
+publications:
+  - id: '2504.15696'
+    title: 'Remodeling Conjecture with Descendants'
+    year: 2025
+    coauthors: [fang-bohan, 'Song Yu', zong-zhengyu]
+    primary_category: math.AG
+  - id: '2503.20948'
+    title: 'Global SYZ mirror symmetry and homological mirror symmetry for principally polarized abelian varieties'
+    year: 2025
+    coauthors: ['Haniya Azam', 'Catherine Cannizzo', 'Heather Lee']
+    primary_category: math.SG
+  - id: '2312.00973'
+    title: 'On fiber and base decompositions in the Fukaya category of a symplectic Landau-Ginzburg model'
+    year: 2023
+    coauthors: ['Haniya Azam', 'Catherine Cannizzo', 'Heather Lee']
+    primary_category: math.SG
+  - id: '2311.04143'
+    title: 'Fukaya category on a symplectic manifold with a B-field'
+    year: 2023
+    coauthors: ['Haniya Azam', 'Catherine Cannizzo', 'Heather Lee']
+    primary_category: math.SG
+  - id: '2309.14628'
+    title: 'Open/closed Correspondence and Extended LG/CY Correspondence for Quintic Threefolds'
+    year: 2023
+    coauthors: ['Konstantin Aleshkin']
+    primary_category: math.AG
+  - id: '2301.01266'
+    title: 'Higgs-Coulomb correspondence and Wall-Crossing in abelian GLSMs'
+    year: 2023
+    coauthors: ['Konstantin Aleshkin']
+    primary_category: math.AG
+  - id: '2210.11721'
+    title: 'Orbifold Open/Closed Correspondence and Mirror Symmetry'
+    year: 2022
+    coauthors: ['Song Yu']
+    primary_category: math.AG
+  - id: '2210.10315'
+    title: 'Wall-crossing for K-theoretic quasimap invariants I'
+    year: 2022
+    coauthors: ['Konstantin Aleshkin']
+    primary_category: math.AG
+  - id: '2112.04418'
+    title: 'Open/closed Correspondence via Relative/local Correspondence'
+    year: 2021
+    coauthors: ['Song Yu']
+    doi: '10.1016/j.aim.2022.108696'
+    primary_category: math.AG
+  - id: '2111.01068'
+    title: 'Embedding Deligne-Mumford stacks into GIT quotient stacks of linear representations'
+    year: 2021
+    coauthors: ['Mitchell Faulk']
+    primary_category: math.AG
+  - id: '1907.07705'
+    title: 'A Lecture on Holomorphic Anomaly Equations and Extended Holomorphic Anomaly Equations'
+    year: 2019
+    coauthors: []
+    primary_category: math-ph
+  - id: '1907.06152'
+    title: 'On the mathematics and physics of Mixed Spin P-Fields'
+    year: 2019
+    coauthors: [zhang-huailiang, 'Jun Li', 'Wei-Ping Li']
+    journal: 'Proceedings of Symposia in Pure Mathematics, Vol 96, 2017'
+    primary_category: math.AG
+  - id: '1807.05697'
+    title: 'Stacky GKM Graphs and Orbifold Gromov-Witten Theory'
+    year: 2018
+    coauthors: ['Artan Sheshmani']
+    journal: 'Asian Journal of Mathematics, Vol. 24 (2020), No. 5, 855-902'
+    primary_category: math.AG
+  - id: '1609.04363'
+    title: 'On topological approach to local theory of surfaces in Calabi-Yau threefolds'
+    year: 2016
+    coauthors: ['Sergei Gukov', 'Artan Sheshmani', yau-shingtung]
+    journal: 'Adv. Theor. Math. Phys. 21 (2017), no. 7, 1679-1728'
+    primary_category: math.AG
+  - id: '1607.06935'
+    title: 'The SYZ mirror symmetry and the BKMP remodeling conjecture'
+    year: 2016
+    coauthors: [fang-bohan, zong-zhengyu]
+    journal: 'Adv. Theor. Math. Phys. 20 (2016), no. 1, 165-192'
+    primary_category: math.AG
+  - id: '1604.07123'
+    title: 'On the Remodeling Conjecture for Toric Calabi-Yau 3-Orbifolds'
+    year: 2016
+    coauthors: [fang-bohan, zong-zhengyu]
+    journal: 'J. Amer. Math. Soc. 33 (2020), no. 1, 135-222'
+    primary_category: math.AG
+  - id: '1603.06184'
+    title: 'An effective theory of GW and FJRW invariants of quintics Calabi-Yau manifolds'
+    year: 2016
+    coauthors: [zhang-huailiang, 'Jun Li', 'Wei-Ping Li']
+    primary_category: math.AG
+  - id: '1603.02092'
+    title: 'A survey on mixed spin P-fields'
+    year: 2016
+    coauthors: [zhang-huailiang, 'Jun Li', 'Wei-Ping Li']
+    journal: 'Chin. Ann. Math. Ser. B 38 (2017), no. 4, 869-882'
+    primary_category: math.AG
+  - id: '1505.07532'
+    title: 'Mixed-Spin-P fields of Fermat quintic polynomials'
+    year: 2015
+    coauthors: [zhang-huailiang, 'Jun Li', 'Wei-Ping Li']
+    primary_category: math.AG
+  - id: '1411.3557'
+    title: 'The Eynard-Orantin recursion and equivariant mirror symmetry for the projective line'
+    year: 2014
+    coauthors: [fang-bohan, zong-zhengyu]
+    doi: '10.2140/gt.2017.21.2049'
+    journal: 'Geom. Topol. 21 (2017) 2049-2092'
+    primary_category: math.AG
+  - id: '1407.1370'
+    title: 'Equivariant Gromov-Witten Invariants of Algebraic GKM Manifolds'
+    year: 2014
+    coauthors: ['Artan Sheshmani']
+    doi: '10.3842/SIGMA.2017.048'
+    journal: 'SIGMA 13 (2017), 048, 21 pages'
+    primary_category: math.AG
+  - id: '1310.4818'
+    title: 'All Genus Open-Closed Mirror Symmetry for Affine Toric Calabi-Yau 3-Orbifolds'
+    year: 2013
+    coauthors: [fang-bohan, zong-zhengyu]
+    journal: 'Algebr. Geo. 7 (2020), no. 2, 192-239'
+    primary_category: math.AG
+  - id: '1310.4812'
+    title: 'Equivariant Gromov-Witten Theory of Affine Smooth Toric Deligne-Mumford Stacks'
+    year: 2013
+    coauthors: [fang-bohan, zong-zhengyu]
+    journal: 'IMRN 2016, no.7, 2127-2144'
+    primary_category: math.AG
+  - id: '1212.6073'
+    title: 'Open-closed Gromov-Witten invariants of 3-dimensional Calabi-Yau smooth toric DM stacks'
+    year: 2012
+    coauthors: [fang-bohan, 'Hsian-Hua Tseng']
+    journal: 'Forum of Mathematics Sigma 10, e58 (2022)'
+    primary_category: math.AG
+  - id: '1109.5164'
+    title: 'The Yang-Mills equations over Klein surfaces'
+    year: 2011
+    coauthors: ['Florent Schaffhauser']
+    doi: '10.1112/jtopol/jtt001'
+    journal: 'J. Topol. 6 (2013), no. 3, 569-643'
+    primary_category: math.AT
+  - id: '1107.4712'
+    title: 'Localization in Gromov-Witten Theory and Orbifold Gromov-Witten Theory'
+    year: 2011
+    coauthors: []
+    journal: 'Handbook of moduli (Vol. II), 353-425, Adv. Lect. Math. (ALM) 25, International Press and Higher Education Press, 2013'
+    primary_category: math.AG
+  - id: '1103.0693'
+    title: 'Open Gromov-Witten Invariants of Toric Calabi-Yau 3-Folds'
+    year: 2011
+    coauthors: [fang-bohan]
+    doi: '10.1007/s00220-013-1771-5'
+    journal: 'Commun. Math. Phys. 323 (2013), 285-328'
+    primary_category: math.SG
+  - id: '1009.3506'
+    title: 'The Coherent-Constructible Correspondence and Fourier-Mukai Transforms'
+    year: 2010
+    coauthors: [fang-bohan, 'David Treumann', 'Eric Zaslow']
+    journal: 'Acta Math. Sin. (Engl. Ser.) 27 (2011), no.2, 275-308'
+    primary_category: math.AG
+  - id: '1007.0053'
+    title: 'A categorification of Morelli''s theorem'
+    year: 2010
+    coauthors: [fang-bohan, 'David Treumann', 'Eric Zaslow']
+    doi: '10.1007/s00222-011-0315-x'
+    journal: 'Invent. Math. 186 (2011), no.1, 79-114'
+    primary_category: math.AG
+  - id: '1004.0853'
+    title: 'Lectures on the ELSV formula'
+    year: 2010
+    coauthors: []
+    journal: 'Transformation Groups and Moduli Spaces of Curves, 195--216, Adv. Lect. Math. (ALM) 16, Higher Education Press and International Press, Beijing-Boston, 2010'
+    primary_category: math.AG
+  - id: '0911.4711'
+    title: 'The Coherent-Constructible Correspondence for Toric Deligne-Mumford Stacks'
+    year: 2009
+    coauthors: [fang-bohan, 'David Treumann', 'Eric Zaslow']
+    journal: 'IMRN 2014, No. 4, 914-954'
+    primary_category: math.AG
+  - id: '0901.4276'
+    title: 'The Coherent-Constructible Correspondence and Homological Mirror Symmetry for Toric Varieties'
+    year: 2009
+    coauthors: [fang-bohan, 'David Treumann', 'Eric Zaslow']
+    journal: 'page 3-37, Geometry and Analysis Vol. 2, Adv. Lect. Math (ALM) 18, Higher Education Press, 2010'
+    primary_category: math.AG
+  - id: '0811.4703'
+    title: 'Gromov-Witten invariants of toric Calabi-Yau threefolds'
+    year: 2008
+    coauthors: []
+    journal: 'Handbook of Geometric Analysis (Vol.II), 139--159, Adv. Lect. Math. (ALM) 13, Higher Education Press and International Press, Beijing-Boston, 2010'
+    primary_category: math.AG
+  - id: '0811.1228'
+    title: 'T-Duality and Homological Mirror Symmetry of Toric Varieties'
+    year: 2008
+    coauthors: [fang-bohan, 'David Treumann', 'Eric Zaslow']
+    journal: 'Adv. Math. 229 (2012), 1873-1911'
+    primary_category: math.AG
+  - id: '0810.4882'
+    title: 'Orientability in Yang-Mills Theory over Nonorientable Surfaces'
+    year: 2008
+    coauthors: ['Nan-Kuo Ho', 'Daniel A. Ramras']
+    journal: 'Comm. Anal. Geom. 17 (2009), no. 5, 903--953'
+    primary_category: math.SG
+  - id: '0808.3974'
+    title: 'Anti-Perfect Morse Stratification'
+    year: 2008
+    coauthors: ['Nan-Kuo Ho']
+    journal: 'Selecta Math. (N.S.) 17 (2011), no.2, 505-532'
+    primary_category: math.SG
+  - id: '0808.0884'
+    title: 'The Nekrasov Conjecture for Toric Surfaces'
+    year: 2008
+    coauthors: ['Elizabeth Gasparim']
+    doi: '10.1007/s00220-009-0948-4'
+    journal: 'Commun.Math.Phys.293:661-700,2010'
+    primary_category: math.AG
+  - id: '0707.0258'
+    title: 'Yang-Mills Connections On Orientable and Nonorientable Surfaces'
+    year: 2007
+    coauthors: ['Nan-Kuo Ho']
+    journal: 'Mem. Amer. Math. Soc. 202 (2009), no. 948, vii+98 pp.'
+    primary_category: math.SG
+  - id: '0605587'
+    title: 'Yang-Mills Connections on Nonorientable Surfaces'
+    year: 2006
+    coauthors: ['Nan-Kuo Ho']
+    journal: 'Comm. Anal. Geom. 16 (2008), no.3, 617-679'
+    primary_category: math.SG
+  - id: '0506488'
+    title: 'The local Gromov-Witten invariants of configurations of rational curves'
+    year: 2005
+    coauthors: ['Dagan Karp', 'Marcos Marino']
+    doi: '10.2140/gt.2006.10.115'
+    journal: 'Geom. Topol. 10 (2006) 115-168'
+    primary_category: math.AG
+  - id: '0502430'
+    title: 'Formulae of one-partition and two-partition Hodge integrals'
+    year: 2005
+    coauthors: []
+    doi: '10.2140/gtm.2006.8.105'
+    journal: 'Geom. Topol. Monogr. 8 (2006) 105-128'
+    primary_category: math.AG
+  - id: '0412292'
+    title: 'Positivity of quasi-local mass II'
+    year: 2004
+    coauthors: [yau-shingtung]
+    journal: 'J. Amer. Math. Soc. 19 (2006), no.1, 181-204'
+    primary_category: math.DG
+  - id: '0408426'
+    title: 'A Mathematical Theory of the Topological Vertex'
+    year: 2004
+    coauthors: ['Jun Li', 'Kefeng Liu', zhou-jian]
+    doi: '10.2140/gt.2009.13.527'
+    journal: 'Geom. Topol. 13 (2009) 527-621'
+    primary_category: math.AG
+  - id: '0406069'
+    title: 'Connected Components of the Space of Surface Group Representations II'
+    year: 2004
+    coauthors: ['Nan-Kuo Ho']
+    journal: 'IMRN 2005, no.16, 959-979'
+    primary_category: math.SG
+  - id: '0310272'
+    title: 'A Formula of Two-Partition Hodge Integrals'
+    year: 2003
+    coauthors: ['Kefeng Liu', zhou-jian]
+    journal: 'J. Amer. Math. Soc. 20 (2007), no.1, 149-184'
+    primary_category: math.AG
+  - id: '0308015'
+    title: 'Mariño-Vafa Formula and Hodge Integral Identities'
+    year: 2003
+    coauthors: ['Kefeng Liu', zhou-jian]
+    primary_category: math.AG
+  - id: '0306434'
+    title: 'A Proof of a Conjecture of Marino-Vafa on Hodge Integrals'
+    year: 2003
+    coauthors: ['Kefeng Liu', zhou-jian]
+    journal: 'J.Diff.Geom. 65 (2004) 289-340'
+    primary_category: math.AG
+  - id: '0306257'
+    title: 'On a Proof of a Conjecture of Marino-Vafa on Hodge Integrals'
+    year: 2003
+    coauthors: ['Kefeng Liu', zhou-jian]
+    journal: 'Math. Res. Lett. 11 (2004), no.2, 259-272'
+    primary_category: math.AG
+  - id: '0303255'
+    title: 'Connected Components of The Space of Surface Group Representations'
+    year: 2003
+    coauthors: ['Nan-Kuo Ho']
+    journal: 'IMRN 2003, no.44, 2359-2372'
+    primary_category: math.SG
+  - id: '0303019'
+    title: 'Positivity of Quasilocal Mass'
+    year: 2003
+    coauthors: [yau-shingtung]
+    doi: '10.1103/PhysRevLett.90.231102'
+    journal: 'Phys.Rev.Lett.90:231102,2003'
+    primary_category: gr-qc
+  - id: '0211388'
+    title: 'On the Connectedness of Moduli Spaces of Flat Connections over Compact Surfaces'
+    year: 2002
+    coauthors: ['Nan-Kuo Ho']
+    journal: 'Canad.J. Math. 56 (2004), no. 6, 1228-1236'
+    primary_category: math.SG
+  - id: '0210257'
+    title: 'Moduli of J-Holomorphic Curves with Lagrangian Boundary Conditions and Open Gromov-Witten Invariants for an $S^1$-Equivariant Pair'
+    year: 2002
+    coauthors: []
+    primary_category: math.SG
+  - id: '0103074'
+    title: 'Enumerative geometry of stable maps with Lagrangian boundary conditions and multiple covers of the disc'
+    year: 2001
+    coauthors: ['Sheldon Katz']
+    doi: '10.2140/gtm.2006.8.1'
+    journal: 'Adv.Theor.Math.Phys. 5 (2002) 1-49 and Geom. Topol. Monogr. 8 (2006) 1-47'
+    primary_category: math.AG
 sources:
   - label: "Wikipedia"
     url: "https://en.wikipedia.org/wiki/Chiu-Chu_Melissa_Liu"

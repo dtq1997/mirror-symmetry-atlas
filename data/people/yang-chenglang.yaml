@@ -58,130 +58,132 @@ key_collaborators:
   topic: BKP-affine coordinates, emergent geometry
   papers_count: 1
 publications:
-- id: '2511.10082'
-  title: Total partition function with fermionic number fluxes of local toric CY threefold and KP integrability
-  year: 2025
-  coauthors:
-  - wang-zhiyuan
-  - zhou-jian
-- id: '2503.01920'
-  title: The structures of simple Hurwitz numbers and monotone Hurwitz numbers with varying genus
-  year: 2025
-  coauthors: []
-- id: '2502.09302'
-  title: The bilinear fermionic form for KP and BKP hierarchies
-  year: 2025
-  coauthors:
-  - guo-shuai
-  - ji-ce
-- id: '2409.14124'
-  title: 'Correlation Function of Self-Conjugate Partitions: q-Difference Equation and Q-Schur Expansion'
-  year: 2024
-  coauthors: []
-- id: '2408.03212'
-  title: On N-Coefficient Binomial Polynomiality of Hurwitz Numbers and Generalized Dessin Counting
-  year: 2024
-  coauthors:
-  - wang-zhiyuan
-- id: '2407.20010'
-  title: Schröder Paths, Their Generalizations and Knot Invariants
-  year: 2024
-  coauthors:
-  - ji-ce
-  - tang-qian
-- id: '2404.01973'
-  title: Hook-Lengths, Symplectic/Orthogonal Contents and Amdeberhan's Conjectures
-  year: 2024
-  coauthors: []
-- id: '2401.12726'
-  title: On a Proof of the ADKMV Conjecture -- 3-KP Integrability of the Topological Vertex
-  year: 2024
-  coauthors:
-  - wang-zhiyuan
-  - zhou-jian
-- id: '2312.08218'
-  title: On two families of Nekrasov-Okounkov type formulas
-  year: 2023
-  coauthors: []
-- id: '2312.02749'
-  title: A remark on certain restricted plane partitions and crystal melting model
-  year: 2023
-  coauthors: []
-- id: '2301.01131'
-  title: BKP-Affine Coordinates and Emergent Geometry of Generalized BGW Tau-Functions
-  year: 2023
-  coauthors:
-  - wang-zhiyuan
-  - zhang-qingsheng
-- id: '2211.08687'
-  title: Kac-Schwarz Operators of Type B, Quantum Spectral Curves, and Spin Hurwitz Numbers
-  year: 2022
-  coauthors:
-  - ji-ce
-  - wang-zhiyuan
-- id: '2210.09576'
-  title: Connected (n,m)-Point Functions of Diagonal 2-BKP Tau-Functions, and Spin Double Hurwitz Numbers
-  year: 2022
-  coauthors:
-  - wang-zhiyuan
-- id: '2210.08712'
-  title: Diagonal Tau-Functions of 2D Toda Lattice Hierarchy, Connected (n,m)-Point Functions, and Double Hurwitz Numbers
-  year: 2022
-  coauthors:
-  - wang-zhiyuan
-- id: '2206.01066'
-  title: Action of W-type operators on Schur functions and Schur Q-functions
-  year: 2022
-  coauthors:
-  - liu-xiaobo
-- id: '2201.08178'
-  title: BKP Hierarchy, Affine Coordinates, and a Formula for Connected Bosonic N-Point Functions
-  year: 2022
-  coauthors:
-  - wang-zhiyuan
-- id: '2107.10472'
-  title: Action of Virasoro operators on Hall-Littlewood polynomials
-  year: 2021
-  coauthors:
-  - liu-xiaobo
-- id: '2104.01357'
-  title: Q-Polynomial expansion for Brezin-Gross-Witten tau-function
-  year: 2021
-  coauthors:
-  - liu-xiaobo
-- id: '2103.14318'
-  title: Schur Q-Polynomials and Kontsevich-Witten Tau Function
-  year: 2021
-  coauthors:
-  - liu-xiaobo
+  - id: '2605.02643'
+    title: 'Generalized Kontsevich model, topological recursion, and $r$-spin theory'
+    year: 2026
+    coauthors: [guo-shuai, ji-ce, zhang-qing]
+    primary_category: math-ph
+  - id: '2604.14542'
+    title: 'The $n$-Point Function of $t$-Core Partitions and Topological Vertex'
+    year: 2026
+    coauthors: []
+    primary_category: math-ph
+  - id: '2511.10082'
+    title: 'Total partition function with fermionic number fluxes of local toric CY threefold and KP integrability'
+    year: 2025
+    coauthors: [wang-zhiyuan, zhou-jian]
+    primary_category: math-ph
+  - id: '2503.01920'
+    title: 'The structures of simple Hurwitz numbers and monotone Hurwitz numbers with varying genus'
+    year: 2025
+    coauthors: []
+    primary_category: math.CO
+  - id: '2502.09302'
+    title: 'The bilinear fermionic form for KP and BKP hierarchies'
+    year: 2025
+    coauthors: [guo-shuai, ji-ce]
+    primary_category: math-ph
+  - id: '2409.14124'
+    title: 'Correlation Function of Self-Conjugate Partitions: q-Difference Equation and Q-Schur Expansion'
+    year: 2024
+    coauthors: [wang-zhiyong]
+    primary_category: math-ph
+  - id: '2408.03212'
+    title: 'On N-Coefficient Binomial Polynomiality of Hurwitz Numbers and Generalized Dessin Counting'
+    year: 2024
+    coauthors: [wang-zhiyuan]
+    primary_category: math.CO
+  - id: '2407.20010'
+    title: 'Schröder Paths, Their Generalizations and Knot Invariants'
+    year: 2024
+    coauthors: [ji-ce, tang-qian]
+    primary_category: math.CO
+  - id: '2404.01973'
+    title: 'Hook-Lengths, Symplectic/Orthogonal Contents and Amdeberhan''s Conjectures'
+    year: 2024
+    coauthors: []
+    doi: '10.1112/plms.70026'
+    primary_category: math.CO
+  - id: '2401.12726'
+    title: 'On a Proof of the ADKMV Conjecture -- 3-KP Integrability of the Topological Vertex'
+    year: 2024
+    coauthors: [wang-zhiyuan, zhou-jian]
+    primary_category: math-ph
+  - id: '2312.08218'
+    title: 'On two families of Nekrasov-Okounkov type formulas'
+    year: 2023
+    coauthors: []
+    primary_category: math-ph
+  - id: '2312.02749'
+    title: 'A remark on certain restricted plane partitions and crystal melting model'
+    year: 2023
+    coauthors: []
+    primary_category: math-ph
+  - id: '2301.01131'
+    title: 'BKP-Affine Coordinates and Emergent Geometry of Generalized BGW Tau-Functions'
+    year: 2023
+    coauthors: [wang-zhiyuan, zhang-qingsheng]
+    primary_category: math-ph
+  - id: '2211.08687'
+    title: 'Kac-Schwarz Operators of Type B, Quantum Spectral Curves, and Spin Hurwitz Numbers'
+    year: 2022
+    coauthors: [ji-ce, wang-zhiyuan]
+    doi: '10.1016/j.geomphys.2023.104831'
+    primary_category: math-ph
+  - id: '2210.09576'
+    title: 'Connected (n,m)-Point Functions of Diagonal 2-BKP Tau-Functions, and Spin Double Hurwitz Numbers'
+    year: 2022
+    coauthors: [wang-zhiyuan]
+    doi: '10.1063/5.0136839'
+    primary_category: nlin.SI
+  - id: '2210.08712'
+    title: 'Diagonal Tau-Functions of 2D Toda Lattice Hierarchy, Connected (n,m)-Point Functions, and Double Hurwitz Numbers'
+    year: 2022
+    coauthors: [wang-zhiyuan]
+    doi: '10.3842/SIGMA.2023.085'
+    journal: 'SIGMA 19 (2023), 085, 33 pages'
+    primary_category: nlin.SI
+  - id: '2206.01066'
+    title: 'Action of W-type operators on Schur functions and Schur Q-functions'
+    year: 2022
+    coauthors: [liu-xiaobo]
+    doi: '10.1112/jlms.70080'
+    primary_category: math-ph
+  - id: '2201.08178'
+    title: 'BKP Hierarchy, Affine Coordinates, and a Formula for Connected Bosonic N-Point Functions'
+    year: 2022
+    coauthors: [wang-zhiyuan]
+    doi: '10.1007/s11005-022-01554-x'
+    primary_category: nlin.SI
+  - id: '2107.10472'
+    title: 'Action of Virasoro operators on Hall-Littlewood polynomials'
+    year: 2021
+    coauthors: [liu-xiaobo]
+    doi: '10.1007/s11005-022-01608-0'
+    primary_category: math-ph
+  - id: '2104.01357'
+    title: 'Q-Polynomial expansion for Brezin-Gross-Witten tau-function'
+    year: 2021
+    coauthors: [liu-xiaobo]
+    journal: 'Adv. Math., Vol 404, Part B (2022), 108456'
+    primary_category: nlin.SI
+  - id: '2103.14318'
+    title: 'Schur Q-Polynomials and Kontsevich-Witten Tau Function'
+    year: 2021
+    coauthors: [liu-xiaobo]
+    primary_category: math.AG
 activity:
-  total_papers: 19
-  active_period: 2021-present
-  quality_source: openalex + ruirui-2026
+  total_papers: 21
+  published_count: 8
+  preprint_only_count: 13
+  active_period: '2021-present'
+  quality_source: 'openalex + ruirui-2026'
   t1_papers: 0
   t2_papers: 1
   t3_papers: 3
   t4_papers: 0
   other_papers: 27
-  venue_samples:
-  - name: Proceedings of the London Mathematical Society
-    tier: T2
-    count: 1
-  - name: Advances in Mathematics
-    tier: T3
-    count: 2
-  - name: Journal of the London Mathematical Society
-    tier: T3
-    count: 1
-  - name: arXiv (Cornell University)
-    tier: '-'
-    count: 16
-  - name: ArXiv.org
-    tier: '-'
-    count: 4
-  - name: Letters in Mathematical Physics
-    tier: '-'
-    count: 2
+  venue_samples: [{'name': 'Proceedings of the London Mathematical Society', 'tier': 'T2', 'count': 1}, {'name': 'Advances in Mathematics', 'tier': 'T3', 'count': 2}, {'name': 'Journal of the London Mathematical Society', 'tier': 'T3', 'count': 1}, {'name': 'arXiv (Cornell University)', 'tier': '-', 'count': 16}, {'name': 'ArXiv.org', 'tier': '-', 'count': 4}, {'name': 'Letters in Mathematical Physics', 'tier': '-', 'count': 2}]
   oa_total_papers: 31
 external_ids:
   openalex: A5030830237
