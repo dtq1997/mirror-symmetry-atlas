@@ -39,6 +39,11 @@ import sys
 from collections import defaultdict
 import yaml
 
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from paper_identity import (
+    canonical_title, canonical_doi, canonical_arxiv_id, paper_identity_keys,
+)
+
 PEOPLE_DIR = 'data/people'
 
 
@@ -50,40 +55,19 @@ def is_arxiv_doi(d):
     return bool(d and str(d).lower().startswith('10.48550/arxiv.'))
 
 
-def normalize_doi(d):
-    if not d:
-        return None
-    s = str(d).lower().strip()
-    s = re.sub(r'^https?://(dx\.)?doi\.org/', '', s)
-    return s or None
-
-
-def normalize_title(t):
-    s = (t or '').lower()
-    s = re.sub(r'\$[^$]*\$', ' ', s)
-    s = re.sub(r'\\[a-zA-Z]+\{[^}]*\}', ' ', s)
-    s = re.sub(r'\\[a-zA-Z]+', ' ', s)
-    s = re.sub(r'<[^>]+>', ' ', s)
-    s = re.sub(r'[^a-z0-9 ]', ' ', s)
-    return re.sub(r'\s+', ' ', s).strip()
+# Use paper_identity module's canonicals where the previous local versions had bugs
+normalize_doi = canonical_doi  # already excludes arxiv self-DOI by returning None
+normalize_title = canonical_title
 
 
 def get_arxiv_id_strict(pub):
-    """Return arxiv id if `id` field is an arxiv id (not doi:/openalex:/cr:)."""
-    pid = (pub.get('id') or '').split('v')[0]
-    if not pid:
-        return None
-    if pid.startswith(('doi:', 'openalex:', 'cr:')):
-        return None
-    return pid
+    return canonical_arxiv_id(pub.get('id', ''))
 
 
 def paper_key(pub):
     """Triple of keys (real_doi, arxiv_id, title) for cross-matching.
-    Each can be None. Two pubs match if ANY non-None key is equal."""
-    raw_doi = normalize_doi(pub.get('doi'))
-    real_doi = raw_doi if (raw_doi and not is_arxiv_doi(raw_doi)) else None
-    return (real_doi, get_arxiv_id_strict(pub), normalize_title(pub.get('title') or ''))
+    Each can be None. Uses canonical_* from paper_identity module."""
+    return paper_identity_keys(pub)
 
 
 def keys_match(a, b):
@@ -309,30 +293,62 @@ def cross_yaml_sync(all_people):
         cleaned = re.sub(r'\s+', ' ', cleaned).strip().lower()
         return name_idx.get(cleaned, s)
 
-    # Step 1: collect every (paper-key) -> list of (slug, pub) entries where
-    # this paper appears.
-    paper_sources = defaultdict(list)  # key -> [(slug, pub)]
-
-    def canon_key(pub):
-        d, a, t = paper_key(pub)
-        # Composite key prefers DOI, then arxiv, then title (deterministic)
-        if d:
-            return ('doi', d)
-        if a:
-            return ('arxiv', a)
-        if t:
-            return ('title', t)
-        return None
-
+    # Step 1: collect ALL pub entries across all yamls. Then union-find
+    # merge by any-shared-key (real-doi OR arxiv-id OR canonical-title).
+    # This is critical — the same paper might appear with id=doi:... in one yaml
+    # and id=arxivid in another. Single-key indexing misses such duplicates.
+    all_entries = []  # list of (slug, pub)
     for slug, person in all_people.items():
         for pub in (person.get('publications') or []):
-            k = canon_key(pub)
-            if k:
-                paper_sources[k].append((slug, pub))
+            all_entries.append((slug, pub))
 
-    # Step 2: for each paper, merge all variants into ONE canonical record;
+    n = len(all_entries)
+    parent = list(range(n))
+
+    def find(x):
+        while parent[x] != x:
+            parent[x] = parent[parent[x]]
+            x = parent[x]
+        return x
+
+    def union(a, b):
+        ra, rb = find(a), find(b)
+        if ra != rb:
+            parent[ra] = rb
+
+    by_doi = {}
+    by_arxiv = {}
+    by_title = {}
+    keys_per_entry = []
+    for i, (_slug, pub) in enumerate(all_entries):
+        d, a, t = paper_key(pub)
+        keys_per_entry.append((d, a, t))
+        if d:
+            if d in by_doi:
+                union(i, by_doi[d])
+            else:
+                by_doi[d] = i
+        if a:
+            if a in by_arxiv:
+                union(i, by_arxiv[a])
+            else:
+                by_arxiv[a] = i
+        if t:
+            if t in by_title:
+                union(i, by_title[t])
+            else:
+                by_title[t] = i
+
+    # Step 2: group by component root.
+    paper_sources = defaultdict(list)
+    for i, (slug, pub) in enumerate(all_entries):
+        if not any(keys_per_entry[i]):
+            continue
+        paper_sources[find(i)].append((slug, pub))
+
+    # Step 3: for each paper, merge all variants into ONE canonical record;
     # determine the full coauthor set.
-    canonical = {}  # paper-key -> canonical pub dict
+    canonical = {}  # group-root -> canonical pub dict
     paper_owners = {}  # paper-key -> set(slugs)
     for k, entries in paper_sources.items():
         merged = merge_group([p for _, p in entries])

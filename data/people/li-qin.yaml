@@ -163,17 +163,12 @@ publications:
   - id: '2410.11311'
     title: 'Symmetry in Deformation quantization and Geometric quantization'
     year: 2024
-    coauthors: ['Ziming Nikolas Ma']
-    primary_category: math.DG
-    openalex_id: W4403574825
-    sources: [arxiv, openalex]
-  - id: '2410.11311'
-    title: 'Symmetry in Deformation quantization and Geometric quantization'
-    year: 2024
-    coauthors: [leung-naichung, 'Ziming Nikolas Ma']
+    coauthors: ['Ziming Nikolas Ma', leung-naichung]
     doi: '10.1016/j.aim.2026.110804'
     journal: 'Advances in Mathematics'
     primary_category: math.DG
+    openalex_id: W4403574825
+    sources: [arxiv, openalex]
   - id: '2407.18406'
     title: 'A form of refined Roth''s theorem and its application to the $abc$-conjecture'
     year: 2024
@@ -286,9 +281,9 @@ publications:
     journal: 'Advances in Mathematics 262 (2014) 604-681'
     primary_category: math.QA
 activity:
-  total_papers: 20
+  total_papers: 19
   published_count: 13
-  preprint_only_count: 7
+  preprint_only_count: 6
   active_period: '2014-present'
 external_ids:
   mathgenealogy: "219800"

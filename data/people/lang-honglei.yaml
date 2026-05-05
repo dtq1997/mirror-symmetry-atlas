@@ -150,15 +150,9 @@ publications:
   - id: '2302.01294'
     title: 'The weak Lie 2-algebra of multiplicative forms on a quasi-Poisson groupoid'
     year: 2023
-    coauthors: ['Zhangju Liu']
+    coauthors: ['Zhangju Liu', liu-zhangju, chen-zhuo]
     doi: '10.1007/s00220-024-05015-5'
     journal: 'Communications in Mathematical Physics'
-    primary_category: math.DG
-  - id: '2302.01294'
-    title: 'The weak Lie 2-algebra of multiplicative forms on a quasi-Poisson groupoid'
-    year: 2023
-    coauthors: [chen-zhuo, liu-zhangju]
-    journal: 'Comm. Math. Phys. (2024)'
     primary_category: math.DG
     sources: [arxiv]
   - id: 'doi:10.1016/j.geomphys.2023.104850'
@@ -181,7 +175,7 @@ publications:
   - id: '2201.06242'
     title: 'Multiplicative forms on Poisson groupoids'
     year: 2022
-    coauthors: ['Zhangju Liu', chen-zhuo, liu-zhangju]
+    coauthors: ['Zhangju Liu', liu-zhangju, chen-zhuo]
     doi: '10.1007/s11425-023-2231-1'
     journal: 'Science China Mathematics'
     primary_category: math.DG
@@ -214,7 +208,7 @@ publications:
   - id: '2003.13384'
     title: 'On the reduced space of multiplicative multivectors'
     year: 2020
-    coauthors: ['Zhangju Liu', chen-zhuo, liu-zhangju]
+    coauthors: ['Zhangju Liu', liu-zhangju, chen-zhuo]
     primary_category: math.AG
     sources: [arxiv]
   - id: '2009.03492'
@@ -337,8 +331,8 @@ publications:
     sources: [openalex]
     no_arxiv: true
 activity:
-  total_papers: 26
-  published_count: 22
+  total_papers: 25
+  published_count: 21
   preprint_only_count: 4
   active_period: '2012-present'
   confidence: 'has-13-review-pending'

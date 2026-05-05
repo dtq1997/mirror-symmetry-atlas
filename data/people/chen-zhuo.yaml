@@ -193,15 +193,9 @@ publications:
   - id: '2302.01294'
     title: 'The weak Lie 2-algebra of multiplicative forms on a quasi-Poisson groupoid'
     year: 2023
-    coauthors: [lang-honglei, 'Zhangju Liu']
+    coauthors: [lang-honglei, 'Zhangju Liu', liu-zhangju]
     doi: '10.1007/s00220-024-05015-5'
     journal: 'Communications in Mathematical Physics'
-    primary_category: math.DG
-  - id: '2302.01294'
-    title: 'The weak Lie 2-algebra of multiplicative forms on a quasi-Poisson groupoid'
-    year: 2023
-    coauthors: [liu-zhangju]
-    journal: 'Comm. Math. Phys. (2024)'
     primary_category: math.DG
     sources: [arxiv]
   - id: '2211.06943'
@@ -435,8 +429,8 @@ publications:
     coauthors: ['Zhangju Liu', 'Yunhe Sheng']
     primary_category: math.DG
 activity:
-  total_papers: 40
-  published_count: 32
+  total_papers: 39
+  published_count: 31
   preprint_only_count: 8
   active_period: '2005-present'
   peak_period: '2020-present'

@@ -105,24 +105,24 @@ publications:
     primary_category: math-ph
     openalex_id: W4416425862
     sources: [arxiv, openalex]
-  - id: 'doi:10.1007/s42543-025-00110-5'
+  - id: '1812.10638'
     title: 'Orbifold Euler Characteristics of $${\overline{{{\mathcal {M}}}}}_{g,n}$$'
     year: 2025
     coauthors: [zhou-jian]
     doi: '10.1007/s42543-025-00110-5'
     journal: 'Peking Mathematical Journal'
+    primary_category: math.AG
     openalex_id: W4413575052
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1016/j.nuclphysb.2025.116822'
-    title: 'Topological 1D gravity, KP hierarchy, and orbifold Euler characteristics of $M_{g,n}$'
+    sources: [arxiv, openalex]
+  - id: '2109.03394'
+    title: 'Topological 1D Gravity, KP Hierarchy, and Orbifold Euler Characteristics of $\overline{\mathcal M}_{g,n}$'
     year: 2025
     coauthors: [zhou-jian]
     doi: '10.1016/j.nuclphysb.2025.116822'
     journal: 'Nuclear Physics B'
+    primary_category: math-ph
     openalex_id: W4407196408
-    sources: [openalex]
-    no_arxiv: true
+    sources: [arxiv, openalex]
   - id: 'doi:10.1016/j.aim.2024.110100'
     title: 'BKP-affine coordinates and emergent geometry of generalized Brézin-Gross-Witten tau-functions'
     year: 2025
@@ -207,13 +207,6 @@ publications:
     primary_category: nlin.SI
     openalex_id: W4221142413
     sources: [arxiv, openalex]
-  - id: '2109.03394'
-    title: 'Topological 1D Gravity, KP Hierarchy, and Orbifold Euler Characteristics of $\overline{\mathcal M}_{g,n}$'
-    year: 2021
-    coauthors: [zhou-jian]
-    primary_category: math-ph
-    openalex_id: W3196891578
-    sources: [arxiv, openalex]
   - id: '2108.10498'
     title: 'A formalism of abstract quantum field theory of summation of fat graphs'
     year: 2021
@@ -253,13 +246,6 @@ publications:
     openalex_id: W2954355938
     sources: [openalex]
     no_arxiv: true
-  - id: '1812.10638'
-    title: 'Orbifold Euler Characteristics of $\overline{\mathcal M}_{g,n}$'
-    year: 2018
-    coauthors: [zhou-jian]
-    primary_category: math.AG
-    openalex_id: W2908402858
-    sources: [arxiv, openalex]
   - id: '1808.05343'
     title: 'A Unified Approach to Holomorphic Anomaly Equations and Quantum Spectral Curves'
     year: 2018
@@ -270,9 +256,9 @@ publications:
     openalex_id: W2885419658
     sources: [arxiv, openalex]
 activity:
-  total_papers: 21
+  total_papers: 19
   published_count: 13
-  preprint_only_count: 8
+  preprint_only_count: 6
   active_period: '2018-present'
   confidence: 'has-17-review-pending'
   quality_source: 'openalex + ruirui-2026'

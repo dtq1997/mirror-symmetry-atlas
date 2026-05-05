@@ -108,13 +108,13 @@ publications:
     primary_category: math-ph
     sources: [arxiv]
   - id: '2409.14124'
-    title: 'Correlation Function of Self-Conjugate Partitions: q-Difference Equation and Quasimodularity'
+    title: 'Correlation Function of Self-Conjugate Partitions: q-Difference Equation and Q-Schur Expansion'
     year: 2026
-    coauthors: []
+    coauthors: [wang-zhiyong]
     doi: '10.1007/s00208-026-03476-8'
     journal: 'Mathematische Annalen'
     primary_category: math-ph
-    sources: [crossref]
+    sources: [arxiv, crossref]
   - id: '2604.14542'
     title: 'The $n$-Point Function of $t$-Core Partitions and Topological Vertex'
     year: 2026
@@ -135,21 +135,21 @@ publications:
     primary_category: math-ph
     openalex_id: W4416425862
     sources: [arxiv, openalex]
+  - id: 'doi:10.1016/j.aim.2024.110100'
+    title: 'BKP-affine coordinates and emergent geometry of generalized Brézin-Gross-Witten tau-functions'
+    year: 2025
+    coauthors: [zhang-qingsheng, wang-zhiyuan]
+    doi: '10.1016/j.aim.2024.110100'
+    journal: 'Advances in Mathematics'
+    openalex_id: W4406119208
+    sources: [crossref, openalex]
+    no_arxiv: true
   - id: '2503.01920'
     title: 'The structures of simple Hurwitz numbers and monotone Hurwitz numbers with varying genus'
     year: 2025
     coauthors: []
     primary_category: math.CO
     sources: [arxiv]
-  - id: 'doi:10.1016/j.aim.2024.110100'
-    title: 'BKP-affine coordinates and emergent geometry of generalized Brézin-Gross-Witten tau-functions'
-    year: 2025
-    coauthors: [wang-zhiyuan, zhang-qingsheng]
-    doi: '10.1016/j.aim.2024.110100'
-    journal: 'Advances in Mathematics'
-    openalex_id: W4406119208
-    sources: [crossref, openalex]
-    no_arxiv: true
   - id: '2407.20010'
     title: 'Schröder Paths, Their Generalizations and Knot Invariants'
     year: 2024
@@ -171,12 +171,6 @@ publications:
     primary_category: math-ph
     openalex_id: W4391212525
     sources: [arxiv, openalex]
-  - id: '2409.14124'
-    title: 'Correlation Function of Self-Conjugate Partitions: q-Difference Equation and Q-Schur Expansion'
-    year: 2024
-    coauthors: [wang-zhiyong]
-    primary_category: math-ph
-    sources: [arxiv]
   - id: '2404.01973'
     title: 'Hook-Lengths, Symplectic/Orthogonal Contents and Amdeberhan''s Conjectures'
     year: 2024
@@ -223,6 +217,15 @@ publications:
     primary_category: math-ph
     openalex_id: W4407587717
     sources: [arxiv, openalex]
+  - id: '2104.01357'
+    title: 'Q-polynomial expansion for Brézin-Gross-Witten tau-function'
+    year: 2022
+    coauthors: [liu-xiaobo]
+    doi: '10.1016/j.aim.2022.108456'
+    journal: 'Advances in Mathematics'
+    primary_category: nlin.SI
+    openalex_id: W3148865459
+    sources: [arxiv, openalex]
   - id: '2210.09576'
     title: 'Connected (n,m)-Point Functions of Diagonal 2-BKP Tau-Functions, and Spin Double Hurwitz Numbers'
     year: 2022
@@ -250,15 +253,6 @@ publications:
     primary_category: nlin.SI
     openalex_id: W4221142413
     sources: [arxiv, openalex]
-  - id: 'doi:10.1016/j.aim.2022.108456'
-    title: 'Q-polynomial expansion for Brézin-Gross-Witten tau-function'
-    year: 2022
-    coauthors: [liu-xiaobo]
-    doi: '10.1016/j.aim.2022.108456'
-    journal: 'Advances in Mathematics'
-    openalex_id: W3148865459
-    sources: [openalex]
-    no_arxiv: true
   - id: '2107.10472'
     title: 'Action of Virasoro operators on Hall-Littlewood polynomials'
     year: 2021
@@ -267,14 +261,6 @@ publications:
     journal: 'Letters in Mathematical Physics'
     primary_category: math-ph
     openalex_id: W3184881723
-    sources: [arxiv, openalex]
-  - id: '2104.01357'
-    title: 'Q-Polynomial expansion for Brezin-Gross-Witten tau-function'
-    year: 2021
-    coauthors: [liu-xiaobo]
-    journal: 'Adv. Math., Vol 404, Part B (2022), 108456'
-    primary_category: nlin.SI
-    openalex_id: W4286386830
     sources: [arxiv, openalex]
   - id: '2103.14318'
     title: 'Schur Q-Polynomials and Kontsevich-Witten Tau Function'
@@ -286,9 +272,9 @@ publications:
     openalex_id: W4366121889
     sources: [arxiv, openalex]
 activity:
-  total_papers: 24
-  published_count: 12
-  preprint_only_count: 12
+  total_papers: 22
+  published_count: 11
+  preprint_only_count: 11
   active_period: '2021-present'
   confidence: 'has-1-review-pending'
   quality_source: 'openalex + ruirui-2026'

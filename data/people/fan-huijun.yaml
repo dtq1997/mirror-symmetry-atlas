@@ -215,30 +215,19 @@ publications:
     year: 2011
     coauthors: []
     primary_category: math-ph
-  - id: 'doi:10.5802/aif.2794'
+  - id: '1012.0066'
     title: 'Quantum Singularity Theory for $A ( r - 1 )$ and $r$ -Spin Theory'
     year: 2011
-    coauthors: ['Tyler J. Jarvis']
+    coauthors: ['Tyler J. Jarvis', ruan-yongbin]
     doi: '10.5802/aif.2794'
     journal: 'Annales de l’institut Fourier'
-    openalex_id: W2963665553
-    sources: [openalex]
-    no_arxiv: true
-  - id: '1012.0066'
-    title: 'Quantum Singularity Theory for A_{r-1} and r-Spin Theory'
-    year: 2010
-    coauthors: ['Tyler J. Jarvis', ruan-yongbin]
     primary_category: math.AG
-    sources: [arxiv]
+    openalex_id: W2963665553
+    sources: [arxiv, openalex]
   - id: '1008.0927'
     title: 'Witten''s D_4 Integrable Hierarchies Conjecture'
     year: 2010
     coauthors: ['Amanda Francis', 'Tyler J. Jarvis', 'Evan Merrell', ruan-yongbin]
-    primary_category: math.AG
-  - id: '1008.0927'
-    title: 'Witten''s D_4 Integrable Hierarchies Conjecture'
-    year: 2010
-    coauthors: ['Amanda Francis', 'Tyler J. Jarvis', 'Evan Merrell']
     doi: '10.1007/s11401-016-0944-x'
     journal: 'Chinese Annals of Mathematics Series B'
     primary_category: math.AG
@@ -253,23 +242,17 @@ publications:
     title: 'The Witten equation, mirror symmetry and quantum singularity theory'
     year: 2007
     coauthors: ['Tyler J. Jarvis', ruan-yongbin]
+    doi: '10.4007/annals.2013.178.1.1'
     journal: 'Ann. of Math. (2013)'
     primary_category: math.AG
+    openalex_id: W2963450458
+    sources: [arxiv, openalex]
   - id: '0712.4025'
     title: 'The Witten equation and its virtual fundamental cycle'
     year: 2007
     coauthors: ['Tyler J. Jarvis', ruan-yongbin]
     primary_category: math.AG
     sources: [arxiv]
-  - id: '0712.4021'
-    title: 'The Witten equation, mirror symmetry and quantum singularity theory'
-    year: 2007
-    coauthors: ['Tyler J. Jarvis']
-    doi: '10.4007/annals.2013.178.1.1'
-    journal: 'Annals of Mathematics'
-    primary_category: math.AG
-    openalex_id: W2963450458
-    sources: [arxiv, openalex]
   - id: '0505575'
     title: 'Martin points on open manifolds of non-positive curvature'
     year: 2005
@@ -281,11 +264,6 @@ publications:
     title: 'Geometry and analysis of spin equations'
     year: 2004
     coauthors: ['Tyler J. Jarvis', ruan-yongbin]
-    primary_category: math.DG
-  - id: '0409434'
-    title: 'Geometry and analysis of spin equations'
-    year: 2004
-    coauthors: ['Tyler J. Jarvis']
     doi: '10.1002/cpa.20246'
     journal: 'Communications on Pure and Applied Mathematics'
     primary_category: math.DG
@@ -309,9 +287,9 @@ publications:
     coauthors: ['Juergen Jost']
     primary_category: math.DS
 activity:
-  total_papers: 21
-  published_count: 9
-  preprint_only_count: 12
+  total_papers: 17
+  published_count: 8
+  preprint_only_count: 9
   active_period: '2000-present'
 external_ids:
   mathgenealogy: "240326"

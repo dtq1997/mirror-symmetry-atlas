@@ -142,6 +142,15 @@ publications:
     coauthors: ['Khadija Larabi']
     primary_category: math.NT
     sources: [arxiv]
+  - id: 'doi:10.1007/978-3-031-69067-9_1'
+    title: 'Introduction'
+    year: 2024
+    coauthors: [dubrovin, guzzetti, cotti, 'Martin A. Guest']
+    doi: '10.1007/978-3-031-69067-9_1'
+    journal: 'Lecture notes in mathematics'
+    openalex_id: W4403810207
+    sources: [openalex]
+    no_arxiv: true
   - id: '2412.17638'
     title: 'Mixed extensions of generic finite games embedded into products of real projective spaces'
     year: 2024
@@ -449,15 +458,6 @@ publications:
     openalex_id: W4230512842
     sources: [openalex]
     no_arxiv: true
-  - id: 'doi:10.1007/978-3-319-66526-9_1'
-    title: 'Introduction'
-    year: 2017
-    coauthors: ['Martin A. Guest']
-    doi: '10.1007/978-3-319-66526-9_1'
-    journal: 'Lecture notes in mathematics'
-    openalex_id: W4232313320
-    sources: [openalex]
-    no_arxiv: true
   - id: 'doi:10.1007/978-3-319-66526-9_4'
     title: 'Isomonodromic Families'
     year: 2017
@@ -522,7 +522,7 @@ publications:
   - id: 'doi:10.4171/owr/2012/23'
     title: 'Singularity Theory and Integrable Systems'
     year: 2013
-    coauthors: [dubrovin, 'Ian A. B. Strachan', 'Katrin Wendland']
+    coauthors: ['Ian A. B. Strachan', 'Katrin Wendland', dubrovin]
     doi: '10.4171/owr/2012/23'
     journal: 'Oberwolfach Reports'
     openalex_id: W2038618119

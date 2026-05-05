@@ -136,15 +136,15 @@ publications:
     year: 2026
     coauthors: []
     primary_category: math.CO
-  - id: '2510.05470'
-    title: 'Mirror symmetry for singular double cover Calabi--Yau varieties: quantum test'
-    year: 2025
-    coauthors: ['Tsung-Ju Lee', 'Bong H. Lian']
-    primary_category: math.AG
   - id: '2509.19211'
     title: 'A D-brane fantasy on noncommutative mirror symmetry, prelude: Noncommutative ringed spaces from local noncommutative crepant resolutions of a singular Calabi-Yau space, dynamical D-branes thereupon, and questions beyond'
     year: 2025
     coauthors: [li-ao]
+    primary_category: math.AG
+  - id: '2510.05470'
+    title: 'Mirror symmetry for singular double cover Calabi--Yau varieties: quantum test'
+    year: 2025
+    coauthors: ['Tsung-Ju Lee', 'Bong H. Lian']
     primary_category: math.AG
   - id: 'doi:10.4310/iccm.250429110400'
     title: 'The beauty of mathematics'
@@ -318,18 +318,12 @@ publications:
   - id: '1609.04363'
     title: 'On topological approach to local theory of surfaces in Calabi-Yau threefolds'
     year: 2016
-    coauthors: ['Sergei Gukov', 'Artan Sheshmani']
+    coauthors: ['Sergei Gukov', 'Artan Sheshmani', liu-melissa]
     doi: '10.4310/atmp.2017.v21.n7.a4'
     journal: 'Adv. Theor. Math. Phys. 21 (2017), no. 7, 1679-1728'
     primary_category: math.AG
     openalex_id: W2521095344
     sources: [arxiv, openalex]
-  - id: '1609.04363'
-    title: 'On topological approach to local theory of surfaces in Calabi-Yau threefolds'
-    year: 2016
-    coauthors: ['Sergei Gukov', liu-melissa, 'Artan Sheshmani']
-    journal: 'Adv. Theor. Math. Phys. 21 (2017), no. 7, 1679-1728'
-    primary_category: math.AG
   - id: 'doi:10.4310/iccm.2016.v4.n1.a1'
     title: 'Geometry of space, physics and analysis'
     year: 2016
@@ -402,12 +396,12 @@ publications:
   - id: '0809.2121'
     title: 'Morphisms from Azumaya prestable curves with a fundamental module to a projective variety: Topological D-strings as a master object for curves'
     year: 2008
-    coauthors: [li-ao, 'Ruifang Song', si-li]
+    coauthors: ['Ruifang Song', si-li, li-ao]
     primary_category: math.AG
   - id: '0412292'
     title: 'Positivity of quasi-local mass II'
     year: 2004
-    coauthors: []
+    coauthors: [liu-melissa]
     doi: '10.1090/s0894-0347-05-00497-2'
     journal: 'J. Amer. Math. Soc. 19 (2006), no.1, 181-204'
     primary_category: math.DG
@@ -422,12 +416,6 @@ publications:
     openalex_id: W3111515939
     sources: [openalex]
     no_arxiv: true
-  - id: '0412292'
-    title: 'Positivity of quasi-local mass II'
-    year: 2004
-    coauthors: [liu-melissa]
-    journal: 'J. Amer. Math. Soc. 19 (2006), no.1, 181-204'
-    primary_category: math.DG
   - id: '0303019'
     title: 'Positivity of Quasilocal Mass'
     year: 2003
@@ -460,8 +448,8 @@ publications:
     coauthors: ['Bjorn Andreas', 'Gottfried Curio', 'Daniel Hernandez Ruiperez']
     primary_category: math.AG
 activity:
-  total_papers: 44
-  published_count: 36
+  total_papers: 42
+  published_count: 34
   preprint_only_count: 8
   active_period: '1971-present'
 external_ids:

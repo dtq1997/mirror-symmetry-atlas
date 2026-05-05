@@ -133,23 +133,18 @@ publications:
   - id: '2501.17516'
     title: 'Stokes Phenomenon and Yangians'
     year: 2025
-    coauthors: []
+    coauthors: [tang-qian]
     doi: '10.1007/s00220-025-05456-6'
     journal: 'Communications in Mathematical Physics'
     primary_category: math.CA
+    openalex_id: W4406975574
+    sources: [arxiv, openalex]
   - id: '2512.19381'
     title: 'Asymptotic and monodromy problems for higher-order Painlevé III equations'
     year: 2025
     coauthors: ['Zikang Wang']
     primary_category: math.CA
     sources: [arxiv]
-  - id: '2501.17516'
-    title: 'Stokes Phenomenon and Yangians'
-    year: 2025
-    coauthors: [tang-qian]
-    primary_category: math.CA
-    openalex_id: W4406975574
-    sources: [arxiv, openalex]
   - id: '2403.17906'
     title: 'WKB asymptotics of Stokes matrices, spectral curves and rhombus inequalities'
     year: 2024
@@ -208,15 +203,6 @@ publications:
     openalex_id: W4367692403
     sources: [openalex]
     no_arxiv: true
-  - id: 'doi:10.1016/j.aim.2023.109189'
-    title: 'Stokes phenomena, Poisson–Lie groups and quantum groups'
-    year: 2023
-    coauthors: ['Valerio Toledano-Laredo']
-    doi: '10.1016/j.aim.2023.109189'
-    journal: 'Advances in Mathematics'
-    openalex_id: W4382865810
-    sources: [openalex]
-    no_arxiv: true
   - id: 'doi:10.1016/j.geomphys.2023.104809'
     title: 'Stokes phenomenon and Poisson brackets in r-matrix form'
     year: 2023
@@ -233,6 +219,15 @@ publications:
     doi: '10.1007/978-3-031-30284-8_24'
     journal: 'Trends in mathematics'
     openalex_id: W4385151771
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1016/j.aim.2023.109189'
+    title: 'Stokes phenomena, Poisson–Lie groups and quantum groups'
+    year: 2023
+    coauthors: ['Valerio Toledano-Laredo']
+    doi: '10.1016/j.aim.2023.109189'
+    journal: 'Advances in Mathematics'
+    openalex_id: W4382865810
     sources: [openalex]
     no_arxiv: true
   - id: '2202.08054'
@@ -376,6 +371,15 @@ publications:
     primary_category: math.DG
     openalex_id: W1590260575
     sources: [arxiv, openalex]
+  - id: '1205.5898'
+    title: 'The Pontryagin Class for Pre-Courant Algebroids'
+    year: 2012
+    coauthors: ['Yunhe Sheng', liu-zhangju]
+    doi: '10.1016/j.geomphys.2016.02.007'
+    journal: 'J. Geom. Phys. 104 (2016), 148-162'
+    primary_category: math-ph
+    openalex_id: W2284602637
+    sources: [arxiv, openalex]
   - id: '1206.5466'
     title: 'Cohomology for almost Lie algebroids'
     year: 2012
@@ -390,19 +394,10 @@ publications:
     journal: 'J. Geom. Phys. 82 (2014), 124-131'
     primary_category: math.DG
     sources: [arxiv]
-  - id: '1205.5898'
-    title: 'The Pontryagin Class for Pre-Courant Algebroids'
-    year: 2012
-    coauthors: [liu-zhangju, 'Yunhe Sheng']
-    doi: '10.1016/j.geomphys.2016.02.007'
-    journal: 'J. Geom. Phys. 104 (2016), 148-162'
-    primary_category: math-ph
-    openalex_id: W2284602637
-    sources: [arxiv, openalex]
 activity:
-  total_papers: 36
+  total_papers: 35
   published_count: 22
-  preprint_only_count: 14
+  preprint_only_count: 13
   h_index: 7
   active_period: '2012-present'
   peak_period: '2020-present'

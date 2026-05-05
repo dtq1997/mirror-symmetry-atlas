@@ -171,9 +171,11 @@ publications:
     primary_category: math-ph
     sources: [arxiv]
   - id: '1904.09426'
-    title: 'Unfolding of orbifold LG B-models: a case study'
+    title: 'Unfolding of orbifold $\mathrm{LG}$ $\mathrm{B}$-models: a case study'
     year: 2019
     coauthors: [si-li, 'Yifan Li']
+    doi: '10.4310/pamq.2018.v14.n3.a2'
+    journal: 'Pure and Applied Mathematics Quarterly'
     primary_category: math-ph
     openalex_id: W2939953175
     sources: [arxiv, openalex]
@@ -194,15 +196,6 @@ publications:
     openalex_id: W2792779451
     sources: [openalex]
     no_arxiv: true
-  - id: 'doi:10.4310/pamq.2018.v14.n3.a2'
-    title: 'Unfolding of orbifold $\mathrm{LG}$ $\mathrm{B}$-models: a case study'
-    year: 2018
-    coauthors: [si-li, 'Yifan Li']
-    doi: '10.4310/pamq.2018.v14.n3.a2'
-    journal: 'Pure and Applied Mathematics Quarterly'
-    openalex_id: W2984399399
-    sources: [openalex]
-    no_arxiv: true
   - id: '1503.01757'
     title: 'Landau-Ginzburg mirror symmetry conjecture'
     year: 2015
@@ -212,11 +205,6 @@ publications:
     primary_category: math.AG
     openalex_id: W3213938361
     sources: [arxiv, openalex]
-  - id: '1503.01757'
-    title: 'Landau-Ginzburg Mirror Symmetry Conjecture'
-    year: 2015
-    coauthors: ['Yefeng Shen', 'Rachel Webb']
-    primary_category: math.AG
   - id: '1402.4221'
     title: 'Blow-up formulae of high genus Gromov-Witten invariants in dimension six'
     year: 2014
@@ -234,20 +222,15 @@ publications:
     title: 'Orbifold Gromov-Witten invariants of weighted blow-up at smooth points'
     year: 2013
     coauthors: [hu-jianxun]
-    primary_category: math.SG
-    openalex_id: W2950035906
-    sources: [arxiv, openalex]
-  - id: '1308.3634'
-    title: 'Orbifold Gromov-Witten invariants of weighted blow-up at smooth points'
-    year: 2013
-    coauthors: []
     doi: '10.1007/s10114-015-3479-2'
     journal: 'Acta Mathematica Sinica, English Series'
     primary_category: math.SG
+    openalex_id: W2950035906
+    sources: [arxiv, openalex]
 activity:
-  total_papers: 18
+  total_papers: 15
   published_count: 11
-  preprint_only_count: 7
+  preprint_only_count: 4
   active_period: '2013-present'
   confidence: 'has-3-review-pending'
 external_ids:

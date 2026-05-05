@@ -369,6 +369,7 @@ publications:
     title: 'The Weinstein Conjecture in Product of Symplectic Manifolds'
     year: 2015
     coauthors: [hu-jianxun]
+    doi: '10.1016/s0252-9602(16)30067-4'
     journal: 'Acta Mathematica Scientia'
     primary_category: math.SG
     openalex_id: W1913596887
@@ -400,13 +401,6 @@ publications:
     openalex_id: W2560265063
     sources: [openalex]
     no_arxiv: true
-  - id: '1504.07111'
-    title: 'The Weinstein Conjecture in Product of Symplectic Manifolds'
-    year: 2015
-    coauthors: []
-    doi: '10.1016/s0252-9602(16)30067-4'
-    journal: 'Acta Mathematica Scientia'
-    primary_category: math.SG
   - id: 'openalex:W4289950356'
     title: 'Definition of Multi-State Weighted k-out-of-n: F System'
     year: 2012
@@ -415,8 +409,8 @@ publications:
     sources: [openalex]
     no_arxiv: true
 activity:
-  total_papers: 35
-  published_count: 30
+  total_papers: 34
+  published_count: 29
   preprint_only_count: 5
   active_period: '2015-present'
   peak_period: '2023-present'

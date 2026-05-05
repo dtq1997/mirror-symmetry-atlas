@@ -261,7 +261,7 @@ publications:
   - id: '1812.11908'
     title: 'Structure of Higher Genus Gromov-Witten Invariants of Quintic 3-folds'
     year: 2018
-    coauthors: ['Jun Li', 'Wei-Ping Li', guo-shuai, 'Felix Janda']
+    coauthors: ['Jun Li', 'Wei-Ping Li', 'Felix Janda', guo-shuai]
     primary_category: math.AG
     sources: [arxiv]
   - id: '1811.01377'
@@ -418,6 +418,15 @@ publications:
     primary_category: math.AG
     openalex_id: W2044029697
     sources: [arxiv, openalex]
+  - id: '1012.0066'
+    title: 'Quantum Singularity Theory for $A ( r - 1 )$ and $r$ -Spin Theory'
+    year: 2011
+    coauthors: ['Tyler J. Jarvis', fan-huijun]
+    doi: '10.5802/aif.2794'
+    journal: 'Annales de l’institut Fourier'
+    primary_category: math.AG
+    openalex_id: W2963665553
+    sources: [arxiv, openalex]
   - id: '1106.2321'
     title: 'Gromov-Witten theory of elliptic orbifold P^1 and quasi-modular forms'
     year: 2011
@@ -425,30 +434,10 @@ publications:
     primary_category: math.AG
     openalex_id: W1645452535
     sources: [arxiv, openalex]
-  - id: 'doi:10.5802/aif.2794'
-    title: 'Quantum Singularity Theory for $A ( r - 1 )$ and $r$ -Spin Theory'
-    year: 2011
-    coauthors: [fan-huijun, 'Tyler J. Jarvis']
-    doi: '10.5802/aif.2794'
-    journal: 'Annales de l’institut Fourier'
-    openalex_id: W2963665553
-    sources: [openalex]
-    no_arxiv: true
-  - id: '1012.0066'
-    title: 'Quantum Singularity Theory for A_{r-1} and r-Spin Theory'
-    year: 2010
-    coauthors: ['Tyler J. Jarvis', fan-huijun]
-    primary_category: math.AG
-    sources: [arxiv]
   - id: '1008.0927'
     title: 'Witten''s D_4 Integrable Hierarchies Conjecture'
     year: 2010
-    coauthors: ['Amanda Francis', 'Tyler J. Jarvis', 'Evan Merrell']
-    primary_category: math.AG
-  - id: '1008.0927'
-    title: 'Witten''s D_4 Integrable Hierarchies Conjecture'
-    year: 2010
-    coauthors: [fan-huijun, 'Amanda Francis', 'Tyler J. Jarvis', 'Evan Merrell']
+    coauthors: ['Amanda Francis', 'Tyler J. Jarvis', 'Evan Merrell', fan-huijun]
     doi: '10.1007/s11401-016-0944-x'
     journal: 'Chinese Annals of Mathematics Series B'
     primary_category: math.AG
@@ -474,8 +463,12 @@ publications:
   - id: '0802.0590'
     title: 'Positive divisors in symplectic geometry'
     year: 2008
-    coauthors: []
+    coauthors: [hu-jianxun]
+    doi: '10.1007/s11425-012-4557-x'
+    journal: 'Science China Mathematics'
     primary_category: math.SG
+    openalex_id: W2035684932
+    sources: [arxiv, openalex]
   - id: '0812.4660'
     title: 'Landau-Ginzburg/Calabi-Yau correspondence for quintic three-folds via symplectic transformations'
     year: 2008
@@ -485,36 +478,21 @@ publications:
     primary_category: math.AG
     openalex_id: W2047178258
     sources: [arxiv, openalex]
-  - id: '0802.0590'
-    title: 'Positive divisors in symplectic geometry'
-    year: 2008
-    coauthors: [hu-jianxun]
-    doi: '10.1007/s11425-012-4557-x'
-    journal: 'Science China Mathematics'
-    primary_category: math.SG
-    openalex_id: W2035684932
-    sources: [arxiv, openalex]
   - id: '0712.4021'
     title: 'The Witten equation, mirror symmetry and quantum singularity theory'
     year: 2007
-    coauthors: ['Tyler J. Jarvis']
+    coauthors: ['Tyler J. Jarvis', fan-huijun]
+    doi: '10.4007/annals.2013.178.1.1'
     journal: 'Ann. of Math. (2013)'
     primary_category: math.AG
+    openalex_id: W2963450458
+    sources: [arxiv, openalex]
   - id: '0712.4025'
     title: 'The Witten equation and its virtual fundamental cycle'
     year: 2007
     coauthors: ['Tyler J. Jarvis', fan-huijun]
     primary_category: math.AG
     sources: [arxiv]
-  - id: '0712.4021'
-    title: 'The Witten equation, mirror symmetry and quantum singularity theory'
-    year: 2007
-    coauthors: [fan-huijun, 'Tyler J. Jarvis']
-    doi: '10.4007/annals.2013.178.1.1'
-    journal: 'Annals of Mathematics'
-    primary_category: math.AG
-    openalex_id: W2963450458
-    sources: [arxiv, openalex]
   - id: '0711.4254'
     title: 'Uniruled symplectic divisors'
     year: 2007
@@ -605,12 +583,7 @@ publications:
   - id: '0409434'
     title: 'Geometry and analysis of spin equations'
     year: 2004
-    coauthors: ['Tyler J. Jarvis']
-    primary_category: math.DG
-  - id: '0409434'
-    title: 'Geometry and analysis of spin equations'
-    year: 2004
-    coauthors: [fan-huijun, 'Tyler J. Jarvis']
+    coauthors: ['Tyler J. Jarvis', fan-huijun]
     doi: '10.1002/cpa.20246'
     journal: 'Communications on Pure and Applied Mathematics'
     primary_category: math.DG
@@ -791,9 +764,9 @@ publications:
     sources: [openalex]
     no_arxiv: true
 activity:
-  total_papers: 79
-  published_count: 56
-  preprint_only_count: 23
+  total_papers: 74
+  published_count: 55
+  preprint_only_count: 19
   active_period: '1991-present'
   confidence: 'has-46-review-pending'
 external_ids:

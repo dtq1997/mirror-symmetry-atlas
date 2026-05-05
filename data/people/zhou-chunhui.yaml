@@ -95,7 +95,7 @@ publications:
   - id: '2112.14595'
     title: 'Gelfand–Dickey hierarchy, generalized BGW tau-function, and <i>W</i>-constraints'
     year: 2023
-    coauthors: []
+    coauthors: [yang-di]
     doi: '10.1088/1361-6544/acb62c'
     journal: 'Nonlinearity'
     primary_category: math-ph
@@ -113,11 +113,6 @@ publications:
     primary_category: math-ph
     openalex_id: W4311779894
     sources: [arxiv, openalex]
-  - id: '2112.14595'
-    title: 'Gelfand-Dickey hierarchy and generalized BGW tau-function'
-    year: 2021
-    coauthors: [yang-di]
-    primary_category: math-ph
   - id: '2010.00436'
     title: 'On an extension of the generalized BGW tau-function'
     year: 2020
@@ -141,12 +136,6 @@ publications:
     title: 'The Loop Equation for Special Cubic Hodge Integrals'
     year: 2018
     coauthors: [yang-di, zhang-youjin, liu-siqi]
-    primary_category: math.AG
-    sources: [arxiv]
-  - id: '1811.10234'
-    title: 'The Loop Equation for Special Cubic Hodge Integrals'
-    year: 2018
-    coauthors: [liu-siqi, yang-di]
     doi: '10.4310/jdg/1659987894'
     journal: 'Journal of Differential Geometry'
     primary_category: math.AG
@@ -164,7 +153,7 @@ publications:
   - id: '1611.05975'
     title: 'Relative open BCOV and higher genus open-closed mirror symmetry'
     year: 2016
-    coauthors: [liu-siqi, zhang-youjin, 'Yulong Fu']
+    coauthors: [zhang-youjin, 'Yulong Fu', liu-siqi]
   - id: '1305.1008'
     title: 'Proof of a Conjecture on the Genus Two Free Energy Associated to the A_n Singularity'
     year: 2013
@@ -175,9 +164,9 @@ publications:
     openalex_id: W2072458327
     sources: [arxiv, openalex]
 activity:
-  total_papers: 13
+  total_papers: 11
   published_count: 7
-  preprint_only_count: 6
+  preprint_only_count: 4
   active_period: '2017-present'
 external_ids: {}
 links: {}

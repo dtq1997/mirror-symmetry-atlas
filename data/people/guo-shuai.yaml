@@ -347,7 +347,7 @@ publications:
     sources: [openalex]
     no_arxiv: true
   - id: '1208.3270'
-    title: 'Gopakumar-Vafa BPS invariants, Hilbert schemes and quasimodular forms'
+    title: 'Gopakumar-Vafa BPS invariants, Hilbert schemes and quasimodular forms. I'
     year: 2012
     coauthors: [zhou-jian]
     doi: '10.1016/j.aim.2014.09.013'
@@ -355,11 +355,6 @@ publications:
     primary_category: math.AG
     openalex_id: W2136259701
     sources: [arxiv, openalex]
-  - id: '1208.3270'
-    title: 'Gopakumar-Vafa BPS invariants, Hilbert schemes and quasimodular forms. I'
-    year: 2012
-    coauthors: []
-    primary_category: math.AG
   - id: 'doi:10.1142/s0129167x11007008'
     title: 'ELLIPTIC GENERA OF COMPLETE INTERSECTIONS IN WEIGHTED PROJECTIVE SPACES'
     year: 2010
@@ -370,9 +365,9 @@ publications:
     sources: [openalex]
     no_arxiv: true
 activity:
-  total_papers: 36
+  total_papers: 35
   published_count: 16
-  preprint_only_count: 20
+  preprint_only_count: 19
   h_index: 7
   active_period: '2011-present'
   peak_period: '2018-present'

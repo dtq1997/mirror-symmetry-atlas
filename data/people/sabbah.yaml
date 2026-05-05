@@ -103,9 +103,9 @@ advisor: le-dung-trang
 students: []
 key_collaborators: []
 activity:
-  total_papers: 89
-  published_count: 80
-  preprint_only_count: 9
+  total_papers: 87
+  published_count: 79
+  preprint_only_count: 8
   h_index: 24
   active_period: '1976-present'
   phd_students: 8
@@ -269,15 +269,15 @@ publications:
     primary_category: math.AG
     openalex_id: W2951341341
     sources: [arxiv, openalex]
-  - id: 'doi:10.2969/aspm/05410293'
+  - id: '0803.0287'
     title: 'Wild twistor $\mathscr{D}$-modules'
     year: 2019
     coauthors: []
     doi: '10.2969/aspm/05410293'
     journal: 'Advanced studies in pure mathematics'
+    primary_category: math.AG
     openalex_id: W2920050300
-    sources: [openalex]
-    no_arxiv: true
+    sources: [arxiv, openalex]
   - id: 'doi:10.4171/dm/681'
     title: 'Good Lattices of Algebraic Connections (with an Appendix by Claude Sabbah)'
     year: 2019
@@ -658,13 +658,6 @@ publications:
     journal: 'in New developments in algebraic geometry, integrable systems and mirror symmetry (RIMS, Kyoto, 2008), Adv. Stud. Pure Math., vol. 59, Math. Soc. Japan, Tokyo, 2010, p. 289--347'
     primary_category: math.AG
     sources: [arxiv]
-  - id: '0803.0287'
-    title: 'Wild twistor D-modules'
-    year: 2008
-    coauthors: []
-    journal: 'Algebraic analysis and around, Adv. Stud. Pure Math., vol. 54, Math. Soc. Japan, Tokyo, 2009, p. 293--353'
-    primary_category: math.AG
-    sources: [arxiv]
   - id: '0802.1259'
     title: 'Universal unfoldings of Laurent polynomials and tt* structures'
     year: 2008
@@ -802,13 +795,6 @@ publications:
     journal: 'Ann. Institut Fourier (Grenoble) 49 (1999), p. 1265-1291'
     primary_category: math.AG
     sources: [arxiv]
-  - id: 'doi:10.48550/arxiv.math/9906078'
-    title: 'Dwork Cohomology and Algebraic D-Modules'
-    year: 1999
-    coauthors: ['Alexandru Dimca', 'Fay x E al Maaref', 'Morihiko Saito']
-    openalex_id: W2952929124
-    sources: [openalex]
-    no_arxiv: true
   - id: '9805087'
     title: 'On a twisted de Rham complex'
     year: 1998

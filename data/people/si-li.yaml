@@ -228,9 +228,11 @@ publications:
     primary_category: math-ph
     sources: [arxiv]
   - id: '1904.09426'
-    title: 'Unfolding of orbifold LG B-models: a case study'
+    title: 'Unfolding of orbifold $\mathrm{LG}$ $\mathrm{B}$-models: a case study'
     year: 2019
     coauthors: ['Yifan Li', he-weiqiang]
+    doi: '10.4310/pamq.2018.v14.n3.a2'
+    journal: 'Pure and Applied Mathematics Quarterly'
     primary_category: math-ph
     openalex_id: W2939953175
     sources: [arxiv, openalex]
@@ -261,15 +263,6 @@ publications:
     journal: 'Commun. Math. Phys. (2020)'
     primary_category: math.QA
     sources: [arxiv]
-  - id: 'doi:10.4310/pamq.2018.v14.n3.a2'
-    title: 'Unfolding of orbifold $\mathrm{LG}$ $\mathrm{B}$-models: a case study'
-    year: 2018
-    coauthors: ['Yifan Li']
-    doi: '10.4310/pamq.2018.v14.n3.a2'
-    journal: 'Pure and Applied Mathematics Quarterly'
-    openalex_id: W2984399399
-    sources: [openalex]
-    no_arxiv: true
   - id: '1810.05179'
     title: 'Categorical primitive forms and Gromov-Witten invariants of $A_n$ singularities'
     year: 2018
@@ -310,7 +303,7 @@ publications:
   - id: '1503.01757'
     title: 'Landau-Ginzburg mirror symmetry conjecture'
     year: 2015
-    coauthors: ['Yefeng Shen', 'Rachel Webb']
+    coauthors: ['Yefeng Shen', 'Rachel Webb', he-weiqiang]
     doi: '10.4171/jems/1155'
     journal: 'J. Eur. Math. Soc. 24 (2022)'
     primary_category: math.AG
@@ -335,25 +328,14 @@ publications:
     doi: '10.1016/j.nuclphysb.2015.04.002'
     journal: 'Nuclear Phys. B. (2015)'
     primary_category: math.AG
-  - id: '1503.01757'
-    title: 'Landau-Ginzburg Mirror Symmetry Conjecture'
-    year: 2015
-    coauthors: [he-weiqiang, 'Yefeng Shen', 'Rachel Webb']
-    primary_category: math.AG
   - id: '1405.4530'
     title: 'Mirror symmetry for exceptional unimodular singularities'
     year: 2014
-    coauthors: [li-changzheng, 'Yefeng Shen']
+    coauthors: [li-changzheng, 'Yefeng Shen', k-saito]
     doi: '10.4171/jems/691'
     journal: 'Journal of the European Mathematical Society'
     primary_category: math.AG
     sources: [arxiv]
-  - id: '1405.4530'
-    title: 'Mirror symmetry for exceptional unimodular singularities'
-    year: 2014
-    coauthors: [k-saito, 'Yefeng Shen', li-changzheng]
-    journal: 'J. Eur. Math. Soc. 19 (2017)'
-    primary_category: math.AG
   - id: '1402.7000'
     title: 'On the B-twisted topological sigma model and Calabi-Yau geometry'
     year: 2014
@@ -401,6 +383,11 @@ publications:
     year: 2009
     coauthors: ['Bong H. Lian', yau-shingtung]
     primary_category: math.AG
+  - id: '0809.2121'
+    title: 'Morphisms from Azumaya prestable curves with a fundamental module to a projective variety: Topological D-strings as a master object for curves'
+    year: 2008
+    coauthors: ['Ruifang Song', yau-shingtung, li-ao]
+    primary_category: math.AG
   - id: '0809.0397'
     title: 'Hamiltonian Structures and Reciprocal Transformations for the $r$-KdV-CH Hierarchy'
     year: 2008
@@ -408,11 +395,6 @@ publications:
     primary_category: nlin.SI
     openalex_id: W2009122536
     sources: [arxiv, openalex]
-  - id: '0809.2121'
-    title: 'Morphisms from Azumaya prestable curves with a fundamental module to a projective variety: Topological D-strings as a master object for curves'
-    year: 2008
-    coauthors: [li-ao, 'Ruifang Song', yau-shingtung]
-    primary_category: math.AG
   - id: '0809.0344'
     title: 'On the deformation theory of pair (X, E)'
     year: 2008
@@ -426,11 +408,20 @@ publications:
   - id: '0711.2599'
     title: 'On Properties of Hamiltonian Structures for a Class of Evolutionary PDEs'
     year: 2007
-    coauthors: ['Chao-Zhong Wu', zhang-youjin]
+    coauthors: ['Chao-Zhong Wu', zhang-youjin, liu-siqi]
     doi: '10.1007/s11005-008-0234-y'
     journal: 'Letters in Mathematical Physics'
     primary_category: nlin.SI
     openalex_id: W2131168379
+    sources: [arxiv, openalex]
+  - id: '0510019'
+    title: 'On Quasitriviality and Integrability of a Class of Scalar Evolutionary PDEs'
+    year: 2005
+    coauthors: [zhang-youjin]
+    doi: '10.1016/j.geomphys.2006.02.005'
+    journal: 'Journal of Geometry and Physics'
+    primary_category: nlin.SI
+    openalex_id: W2047218706
     sources: [arxiv, openalex]
   - id: '0501028'
     title: 'A 2-Component Generalization of the Camassa-Holm Equation and Its Solutions'
@@ -453,15 +444,6 @@ publications:
     year: 2005
     coauthors: []
     primary_category: hep-th
-  - id: '0510019'
-    title: 'On Quasitriviality and Integrability of a Class of Scalar Evolutionary PDEs'
-    year: 2005
-    coauthors: []
-    doi: '10.1016/j.geomphys.2006.02.005'
-    journal: 'Journal of Geometry and Physics'
-    primary_category: nlin.SI
-    openalex_id: W2047218706
-    sources: [arxiv, openalex]
   - id: '0410027'
     title: 'On Hamiltonian perturbations of hyperbolic systems of conservation laws'
     year: 2004
@@ -486,9 +468,9 @@ publications:
     openalex_id: W2103879856
     sources: [arxiv, openalex]
 activity:
-  total_papers: 52
-  published_count: 29
-  preprint_only_count: 23
+  total_papers: 49
+  published_count: 28
+  preprint_only_count: 21
   active_period: '2009-present'
 external_ids: {}
 links:

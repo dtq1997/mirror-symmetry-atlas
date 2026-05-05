@@ -152,9 +152,9 @@ key_collaborators:
   topic: Painlevé equations, reflection groups
   papers_count: 7
 activity:
-  total_papers: 81
+  total_papers: 76
   published_count: 70
-  preprint_only_count: 11
+  preprint_only_count: 6
   h_index: 45
   mathscinet_citations: 5000
   active_period: '1974-2019'
@@ -186,7 +186,7 @@ publications:
   - id: 'doi:10.1007/978-3-031-69067-9_1'
     title: 'Introduction'
     year: 2024
-    coauthors: [guzzetti, cotti]
+    coauthors: [guzzetti, cotti, 'Martin A. Guest']
     doi: '10.1007/978-3-031-69067-9_1'
     journal: 'Lecture notes in mathematics'
     openalex_id: W4403810207
@@ -336,11 +336,6 @@ publications:
     openalex_id: W2884515883
     sources: [openalex]
     no_arxiv: true
-  - id: '1812.08488'
-    title: 'On tau-functions for the KdV hierarchy'
-    year: 2018
-    coauthors: [zagier, yang-di]
-    primary_category: math-ph
   - id: '1712.08575'
     title: 'Local Moduli of Semisimple Frobenius Coalescent Structures'
     year: 2017
@@ -414,17 +409,6 @@ publications:
     doi: '10.1007/s11005-017-0975-6'
     primary_category: math-ph
     sources: [arxiv]
-  - id: '1612.02333'
-    title: 'Hodge-GUE correspondence and the discrete KdV equation'
-    year: 2016
-    coauthors: [yang-di, zhang-youjin, liu-siqi]
-    primary_category: math-ph
-    sources: [arxiv]
-  - id: '1610.07534'
-    title: 'Simple Lie algebras, Drinfeld--Sokolov hierarchies, and multi-point correlation functions'
-    year: 2016
-    coauthors: ['Marco Bertola']
-    primary_category: math-ph
   - id: '1510.08690'
     title: 'Extended affine Weyl groups of BCD type, Frobenius manifolds and their Landau-Ginzburg superpotentials'
     year: 2015
@@ -635,13 +619,6 @@ publications:
     primary_category: nlin.SI
     openalex_id: W2949335867
     sources: [arxiv, openalex]
-  - id: '0306060'
-    title: 'The Extended Toda Hierarchy'
-    year: 2003
-    coauthors: ['Guido Carlet']
-    primary_category: nlin.SI
-    openalex_id: W2949335867
-    sources: [arxiv, openalex]
   - id: '0108160'
     title: 'Normal forms of hierarchies of integrable PDEs, Frobenius manifolds and Gromov - Witten invariants'
     year: 2001
@@ -688,13 +665,6 @@ publications:
     coauthors: []
     primary_category: math.AG
     sources: [arxiv]
-  - id: '9808048'
-    title: 'Frobenius Manifolds And Virasoro Constraints'
-    year: 1998
-    coauthors: []
-    primary_category: math.AG
-    openalex_id: W2949317109
-    sources: [arxiv, openalex]
   - id: '9712232'
     title: 'Bihamiltonian Hierarchies in 2D Topological Field Theory At One-Loop Approximation'
     year: 1997

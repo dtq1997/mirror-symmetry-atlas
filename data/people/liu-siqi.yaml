@@ -154,7 +154,9 @@ publications:
     coauthors: [qu-haonan, zhang-youjin]
     doi: '10.1007/s00220-025-05289-3'
     journal: 'Communications in Mathematical Physics'
-    sources: [arxiv]
+    primary_category: math-ph
+    openalex_id: W4404986524
+    sources: [arxiv, openalex]
   - id: '2409.19530'
     title: 'On Tautological Flows of Partial Difference Equations'
     year: 2024
@@ -180,14 +182,6 @@ publications:
     primary_category: math-ph
     openalex_id: W4402509824
     sources: [arxiv, openalex]
-  - id: '2411.15496'
-    title: 'Legendre transformations of a class of generalized Frobenius manifolds and the associated integrable hierarchies'
-    year: 2024
-    coauthors: [zhang-youjin, qu-haonan]
-    journal: 'Comm. Math. Phys. (2025)'
-    primary_category: math-ph
-    openalex_id: W4404986524
-    sources: [arxiv, openalex]
   - id: '2305.10851'
     title: 'Variational Bihamiltonian Cohomologies and Integrable Hierarchies III: Linear Reciprocal Transformations'
     year: 2023
@@ -209,9 +203,11 @@ publications:
     title: 'Generalized Frobenius Manifolds with Non-flat Unity and Integrable Hierarchies'
     year: 2022
     coauthors: [qu-haonan, zhang-youjin]
+    doi: '10.1007/s00220-024-05213-1'
     journal: 'Comm. Math. Phys. (2024)'
     primary_category: math-ph
-    sources: [arxiv]
+    openalex_id: W4408220832
+    sources: [arxiv, openalex]
   - id: '2203.16812'
     title: 'On Equivariant Gromov--Witten Invariants of Resolved Conifold with Diagonal and Anti-Diagonal Actions'
     year: 2022
@@ -220,15 +216,6 @@ publications:
     journal: 'Letters in Mathematical Physics'
     primary_category: math-ph
     openalex_id: W4311779894
-    sources: [arxiv, openalex]
-  - id: '2209.00483'
-    title: 'Generalized Frobenius Manifolds with Non-flat Unity and Integrable Hierarchies'
-    year: 2022
-    coauthors: [qu-haonan]
-    doi: '10.1007/s00220-024-05213-1'
-    journal: 'Communications in Mathematical Physics'
-    primary_category: math-ph
-    openalex_id: W4408220832
     sources: [arxiv, openalex]
   - id: '2111.11316'
     title: 'Testing thresholds for high-dimensional sparse random geometric graphs'
@@ -260,7 +247,11 @@ publications:
     title: 'Linearization of Virasoro symmetries associated with semisimple Frobenius manifolds'
     year: 2021
     coauthors: ['Zhe Wang', zhang-youjin]
-    sources: [arxiv]
+    doi: '10.1016/j.aim.2024.110046'
+    journal: 'Advances in Mathematics'
+    primary_category: math-ph
+    openalex_id: W4404740961
+    sources: [arxiv, openalex]
   - id: '2109.01845'
     title: 'Variational Bihamiltonian Cohomologies and Integrable Hierarchies II: Virasoro symmetries'
     year: 2021
@@ -288,15 +279,6 @@ publications:
     primary_category: math.DG
     openalex_id: W4287113467
     sources: [arxiv, openalex]
-  - id: '2109.01846'
-    title: 'Linearization of Virasoro symmetries associated with semisimple Frobenius manifolds'
-    year: 2021
-    coauthors: ['Zhe Wang']
-    doi: '10.1016/j.aim.2024.110046'
-    journal: 'Advances in Mathematics'
-    primary_category: math-ph
-    openalex_id: W4404740961
-    sources: [arxiv, openalex]
   - id: '2009.01143'
     title: 'Super tau-covers of bihamiltonian integrable hierarchies'
     year: 2020
@@ -310,7 +292,11 @@ publications:
     title: 'Virasoro Constraints for Drinfeld-Sokolov hierarchies and equations of Painlevé type'
     year: 2019
     coauthors: ['Chao-Zhong Wu', zhang-youjin]
-    sources: [arxiv]
+    doi: '10.1112/jlms.12603'
+    journal: 'Journal of the London Mathematical Society'
+    primary_category: nlin.SI
+    openalex_id: W3121802394
+    sources: [arxiv, openalex]
   - id: '1906.06860'
     title: 'The Hodge-FVH Correspondence'
     year: 2019
@@ -320,42 +306,23 @@ publications:
     primary_category: math-ph
     openalex_id: W3129493126
     sources: [arxiv, openalex]
-  - id: '1908.06707'
-    title: 'Virasoro Constraints for Drinfeld-Sokolov hierarchies and equations of Painlevé type'
-    year: 2019
-    coauthors: ['Chao-Zhong Wu']
-    doi: '10.1112/jlms.12603'
-    journal: 'Journal of the London Mathematical Society'
-    primary_category: nlin.SI
-    openalex_id: W3121802394
-    sources: [arxiv, openalex]
   - id: '1811.10234'
     title: 'The Loop Equation for Special Cubic Hodge Integrals'
     year: 2018
     coauthors: [yang-di, zhang-youjin, zhou-chunhui]
-    primary_category: math.AG
-    sources: [arxiv]
-  - id: '1811.10137'
-    title: 'Drinfeld-Sokolov hierarchies and diagram automorphisms of affine Kac-Moody algebras'
-    year: 2018
-    coauthors: ['Chao-Zhong Wu', zhang-youjin, wu-chaozhong]
-    doi: '10.1007/s00220-019-03568-4'
-    journal: 'Communications in Mathematical Physics'
-    primary_category: nlin.SI
-    openalex_id: W2900487459
-    sources: [arxiv, openalex]
-  - id: '1811.10137'
-    title: 'Drinfeld-Sokolov hierarchies and diagram automorphisms of affine Kac-Moody algebras'
-    year: 2018
-    coauthors: [zhang-youjin, 'Xu Zhou']
-  - id: '1811.10234'
-    title: 'The Loop Equation for Special Cubic Hodge Integrals'
-    year: 2018
-    coauthors: [yang-di, zhou-chunhui]
     doi: '10.4310/jdg/1659987894'
     journal: 'Journal of Differential Geometry'
     primary_category: math.AG
     openalex_id: W2901509376
+    sources: [arxiv, openalex]
+  - id: '1811.10137'
+    title: 'Drinfeld-Sokolov hierarchies and diagram automorphisms of affine Kac-Moody algebras'
+    year: 2018
+    coauthors: ['Chao-Zhong Wu', zhang-youjin, wu-chaozhong, 'Xu Zhou']
+    doi: '10.1007/s00220-019-03568-4'
+    journal: 'Communications in Mathematical Physics'
+    primary_category: nlin.SI
+    openalex_id: W2900487459
     sources: [arxiv, openalex]
   - id: '1701.03222'
     title: 'Bihamiltonian Cohomologies and Integrable Hierarchies II: the Tau Structures'
@@ -383,12 +350,6 @@ publications:
     primary_category: math-ph
     openalex_id: W3086463376
     sources: [arxiv, openalex]
-  - id: '1612.02333'
-    title: 'Hodge-GUE correspondence and the discrete KdV equation'
-    year: 2016
-    coauthors: [dubrovin, yang-di, zhang-youjin]
-    primary_category: math-ph
-    sources: [arxiv]
   - id: '1611.05975'
     title: 'Relative open BCOV and higher genus open-closed mirror symmetry'
     year: 2016
@@ -513,15 +474,15 @@ publications:
     primary_category: nlin.SI
     openalex_id: W2131168379
     sources: [arxiv, openalex]
-  - id: '0711.2599'
-    title: 'On Properties of Hamiltonian Structures for a Class of Evolutionary PDEs'
-    year: 2007
-    coauthors: [zhang-youjin]
   - id: '0510019'
     title: 'On Quasitriviality and Integrability of a Class of Scalar Evolutionary PDEs'
     year: 2005
-    coauthors: [zhang-youjin]
-    sources: [arxiv]
+    coauthors: [zhang-youjin, si-li]
+    doi: '10.1016/j.geomphys.2006.02.005'
+    journal: 'Journal of Geometry and Physics'
+    primary_category: nlin.SI
+    openalex_id: W2047218706
+    sources: [arxiv, openalex]
   - id: '0501028'
     title: 'A 2-Component Generalization of the Camassa-Holm Equation and Its Solutions'
     year: 2005
@@ -539,9 +500,9 @@ publications:
     openalex_id: W1626671567
     sources: [arxiv, openalex]
 activity:
-  total_papers: 54
-  published_count: 37
-  preprint_only_count: 17
+  total_papers: 46
+  published_count: 36
+  preprint_only_count: 10
   active_period: '2000-present'
   quality_source: 'openalex + ruirui-2026'
   t1_papers: 0

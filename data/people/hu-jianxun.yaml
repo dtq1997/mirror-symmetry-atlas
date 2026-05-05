@@ -234,10 +234,6 @@ publications:
     doi: '10.1016/j.geomphys.2025.105526'
     journal: 'Journal of Geometry and Physics'
     primary_category: nlin.SI
-  - id: '2501.04984'
-    title: 'Reduction properties of the KP-mKP hierarchy'
-    year: 2025
-    coauthors: ['Lumin Geng']
   - id: '2405.16987'
     title: 'On Galkin''s Lower Bound Conjecture'
     year: 2024
@@ -257,10 +253,12 @@ publications:
     primary_category: nlin.SI
   - id: '1901.01748'
     title: 'Gamma conjecture I for del Pezzo surfaces'
-    year: 2019
+    year: 2021
     coauthors: [ke-huazhong, li-changzheng, 'Tuo Yang', 'Hua-Zhong Ke']
+    doi: '10.1016/j.aim.2021.107797'
     journal: 'Adv. Math. (2021)'
     primary_category: math.AG
+    sources: [crossref]
   - id: 'doi:10.1007/s00209-018-2043-z'
     title: 'Blow-up formulae of high genus Gromov–Witten invariants for threefolds'
     year: 2018
@@ -273,16 +271,11 @@ publications:
   - id: '1712.01478'
     title: 'Weighted blowup correspondence of orbifold Gromov-Witten invariants and applications'
     year: 2017
-    coauthors: ['Bohui Chen']
+    coauthors: ['Bohui Chen', 'Cheng-Yong Du']
     doi: '10.1007/s00208-019-01850-3'
     journal: 'Math. Ann. 374 (2019), 1459-1523'
-    sources: [arxiv]
-  - id: '1712.01478'
-    title: 'Weighted blowup correspondence of orbifold Gromov-Witten invariants and applications'
-    year: 2017
-    coauthors: ['Bohui Chen', 'Cheng-Yong Du']
-    journal: 'Math. Ann.'
     primary_category: math.SG
+    sources: [arxiv]
   - id: '1609.05655'
     title: 'Welschinger invariants of Blow-ups of symplectic 4-manifolds'
     year: 2016
@@ -295,18 +288,12 @@ publications:
   - id: '1504.07111'
     title: 'The Weinstein Conjecture in Product of Symplectic Manifolds'
     year: 2015
-    coauthors: []
-    journal: 'Acta Mathematica Scientia'
-    primary_category: math.SG
-    openalex_id: W1913596887
-    sources: [arxiv, openalex]
-  - id: '1504.07111'
-    title: 'The Weinstein Conjecture in Product of Symplectic Manifolds'
-    year: 2015
     coauthors: [ding-yanqiao]
     doi: '10.1016/s0252-9602(16)30067-4'
     journal: 'Acta Mathematica Scientia'
     primary_category: math.SG
+    openalex_id: W1913596887
+    sources: [arxiv, openalex]
   - id: 'doi:10.1142/s0129167x15500093'
     title: 'The Gromov–Witten invariants of the Hilbert schemes of points on surfaces with p<sub>g</sub> &gt; 0'
     year: 2015
@@ -318,7 +305,7 @@ publications:
   - id: '1402.4221'
     title: 'Blow-up formulae of high genus Gromov-Witten invariants in dimension six'
     year: 2014
-    coauthors: ['Hua-Zhong Ke', 'Xiaoxia Qi', he-weiqiang, ke-huazhong]
+    coauthors: ['Hua-Zhong Ke', 'Xiaoxia Qi', ke-huazhong, he-weiqiang]
     primary_category: math.AG
     openalex_id: W4294150699
     sources: [arxiv, openalex]
@@ -336,17 +323,12 @@ publications:
   - id: '1308.3634'
     title: 'Orbifold Gromov-Witten invariants of weighted blow-up at smooth points'
     year: 2013
-    coauthors: []
-    primary_category: math.SG
-    openalex_id: W2950035906
-    sources: [arxiv, openalex]
-  - id: '1308.3634'
-    title: 'Orbifold Gromov-Witten invariants of weighted blow-up at smooth points'
-    year: 2013
     coauthors: [he-weiqiang]
     doi: '10.1007/s10114-015-3479-2'
     journal: 'Acta Mathematica Sinica, English Series'
     primary_category: math.SG
+    openalex_id: W2950035906
+    sources: [arxiv, openalex]
   - id: '1110.0953'
     title: 'Delocalized Chern character for stringy orbifold K-theory'
     year: 2011
@@ -369,11 +351,6 @@ publications:
     title: 'Positive divisors in symplectic geometry'
     year: 2008
     coauthors: [ruan-yongbin]
-    primary_category: math.SG
-  - id: '0802.0590'
-    title: 'Positive divisors in symplectic geometry'
-    year: 2008
-    coauthors: []
     doi: '10.1007/s11425-012-4557-x'
     journal: 'Science China Mathematics'
     primary_category: math.SG
@@ -413,9 +390,9 @@ publications:
     coauthors: ['Zhujun Zheng', 'Ke Wu', 'Shikun Wang']
     primary_category: hep-th
 activity:
-  total_papers: 31
-  published_count: 18
-  preprint_only_count: 13
+  total_papers: 26
+  published_count: 16
+  preprint_only_count: 10
   active_period: '1995-present'
 external_ids: {}
 links:

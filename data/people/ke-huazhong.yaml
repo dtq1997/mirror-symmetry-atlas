@@ -87,26 +87,20 @@ publications:
     coauthors: ['Sergey Galkin', 'Hiroshi Iritani', li-changzheng, 'Zhitong Su', hu-jianxun]
     primary_category: math.AG
     sources: [arxiv]
+  - id: '1901.01748'
+    title: 'Gamma conjecture I for del Pezzo surfaces'
+    year: 2021
+    coauthors: [li-changzheng, 'Tuo Yang', 'Hua-Zhong Ke', hu-jianxun]
+    doi: '10.1016/j.aim.2021.107797'
+    journal: 'Adv. Math. (2021)'
+    primary_category: math.AG
+    sources: [crossref]
   - id: '2103.15143'
     title: 'Gamma conjecture II for quadrics'
     year: 2021
     coauthors: []
     doi: '10.1007/s00208-022-02477-7'
     journal: 'Mathematische Annalen'
-    primary_category: math.AG
-  - id: 'doi:10.1016/j.aim.2021.107797'
-    title: 'Gamma conjecture I for del Pezzo surfaces'
-    year: 2021
-    coauthors: []
-    doi: '10.1016/j.aim.2021.107797'
-    journal: 'Advances in Mathematics'
-    sources: [crossref]
-    no_arxiv: true
-  - id: '1901.01748'
-    title: 'Gamma conjecture I for del Pezzo surfaces'
-    year: 2019
-    coauthors: [li-changzheng, 'Tuo Yang', hu-jianxun, 'Hua-Zhong Ke']
-    journal: 'Adv. Math. (2021)'
     primary_category: math.AG
   - id: '1402.4221'
     title: 'Blow-up formulae of high genus Gromov-Witten invariants in dimension six'
@@ -116,8 +110,8 @@ publications:
     openalex_id: W4294150699
     sources: [arxiv, openalex]
 activity:
-  total_papers: 9
-  published_count: 4
+  total_papers: 8
+  published_count: 3
   preprint_only_count: 5
   active_period: '2015-present'
 external_ids:

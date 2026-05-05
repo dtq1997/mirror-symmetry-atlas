@@ -223,6 +223,7 @@ publications:
     title: 'All Genus Open-Closed Mirror Symmetry for Affine Toric Calabi-Yau 3-Orbifolds'
     year: 2013
     coauthors: [liu-melissa, zong-zhengyu]
+    doi: '10.14231/ag-2020-007'
     journal: 'Algebr. Geo. 7 (2020), no. 2, 192-239'
     primary_category: math.AG
     openalex_id: W1760680039
@@ -236,15 +237,6 @@ publications:
     primary_category: math.AG
     openalex_id: W1859657220
     sources: [arxiv, openalex]
-  - id: '1310.4818'
-    title: 'All Genus Open-Closed Mirror Symmetry for Affine Toric Calabi-Yau 3-Orbifolds'
-    year: 2013
-    coauthors: [zong-zhengyu]
-    doi: '10.14231/ag-2020-007'
-    journal: 'Algebr. Geo. 7 (2020), no. 2, 192-239'
-    primary_category: math.AG
-    openalex_id: W1760680039
-    sources: [arxiv, openalex]
   - id: '1212.6073'
     title: 'Open-closed Gromov-Witten invariants of 3-dimensional Calabi-Yau smooth toric DM stacks'
     year: 2012
@@ -254,13 +246,6 @@ publications:
     primary_category: math.AG
     openalex_id: W1890594224
     sources: [arxiv, openalex]
-  - id: '1212.6073'
-    title: 'Open-closed Gromov-Witten invariants of 3-dimensional Calabi-Yau smooth toric DM stacks'
-    year: 2012
-    coauthors: ['Hsian-Hua Tseng']
-    journal: 'Forum of Mathematics Sigma 10, e58 (2022)'
-    primary_category: math.AG
-    sources: [arxiv]
   - id: '1103.0693'
     title: 'Open Gromov-Witten Invariants of Toric Calabi-Yau 3-Folds'
     year: 2011
@@ -288,14 +273,6 @@ publications:
     primary_category: math.AG
     openalex_id: W3103424700
     sources: [arxiv, openalex]
-  - id: '1009.3506'
-    title: 'The Coherent-Constructible Correspondence and Fourier-Mukai Transforms'
-    year: 2010
-    coauthors: ['David Treumann', 'Eric Zaslow']
-    journal: 'Acta Math. Sin. (Engl. Ser.) 27 (2011), no.2, 275-308'
-    primary_category: math.AG
-    openalex_id: W2952617413
-    sources: [arxiv, openalex]
   - id: '0911.4711'
     title: 'The Coherent-Constructible Correspondence for Toric Deligne-Mumford Stacks'
     year: 2009
@@ -313,14 +290,6 @@ publications:
     primary_category: math.AG
     openalex_id: W1664791042
     sources: [arxiv, openalex]
-  - id: '0911.4711'
-    title: 'The Coherent-Constructible Correspondence for Toric Deligne-Mumford Stacks'
-    year: 2009
-    coauthors: ['David Treumann', 'Eric Zaslow']
-    journal: 'IMRN 2014, No. 4, 914-954'
-    primary_category: math.AG
-    openalex_id: W2088250600
-    sources: [arxiv, openalex]
   - id: '0811.1228'
     title: 'T-Duality and Homological Mirror Symmetry of Toric Varieties'
     year: 2008
@@ -331,33 +300,18 @@ publications:
     openalex_id: W2963446977
     sources: [arxiv, openalex]
   - id: '0804.0646'
-    title: 'Homological mirror symmetry is T-duality for P^n'
-    year: 2008
-    coauthors: []
-    primary_category: math.SG
-    openalex_id: W2011295230
-    sources: [arxiv, openalex]
-  - id: 'doi:10.4310/cntp.2008.v2.n4.a2'
     title: 'Homological mirror symmetry is T-duality for $\mathbb{P}^n$'
     year: 2008
     coauthors: []
     doi: '10.4310/cntp.2008.v2.n4.a2'
     journal: 'Communications in Number Theory and Physics'
-    openalex_id: W2963686595
-    sources: [openalex]
-    no_arxiv: true
-  - id: '0811.1228'
-    title: 'T-Duality and Homological Mirror Symmetry of Toric Varieties'
-    year: 2008
-    coauthors: ['David Treumann', 'Eric Zaslow']
-    journal: 'Adv. Math. 229 (2012), 1873-1911'
-    primary_category: math.AG
-    openalex_id: W2808846937
+    primary_category: math.SG
+    openalex_id: W2011295230
     sources: [arxiv, openalex]
 activity:
-  total_papers: 32
-  published_count: 24
-  preprint_only_count: 8
+  total_papers: 26
+  published_count: 19
+  preprint_only_count: 7
   active_period: '2010-present'
   confidence: 'has-7-review-pending'
 external_ids:

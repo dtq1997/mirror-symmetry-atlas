@@ -127,7 +127,10 @@ publications:
   - id: '2501.04984'
     title: 'Reduction properties of the KP-mKP hierarchy'
     year: 2025
-    coauthors: ['Lumin Geng', hu-jianxun]
+    coauthors: ['Lumin Geng', 'Chao-Zhong Wu', hu-jianxun]
+    doi: '10.1016/j.geomphys.2025.105526'
+    journal: 'Journal of Geometry and Physics'
+    primary_category: nlin.SI
   - id: '2408.07376'
     title: 'Integrable hierarchy for homogeneous realization of the toroidal Lie algebra'
     year: 2024
@@ -149,7 +152,11 @@ publications:
     title: 'Virasoro Constraints for Drinfeld-Sokolov hierarchies and equations of Painlevé type'
     year: 2019
     coauthors: ['Chao-Zhong Wu', zhang-youjin, liu-siqi]
-    sources: [arxiv]
+    doi: '10.1112/jlms.12603'
+    journal: 'Journal of the London Mathematical Society'
+    primary_category: nlin.SI
+    openalex_id: W3121802394
+    sources: [arxiv, openalex]
   - id: '1911.12727'
     title: 'Bilinear equation and additional symmetries for an extension of the Kadomtsev-Petviashvili hierarchy'
     year: 2019
@@ -157,16 +164,12 @@ publications:
   - id: '1811.10137'
     title: 'Drinfeld-Sokolov hierarchies and diagram automorphisms of affine Kac-Moody algebras'
     year: 2018
-    coauthors: ['Chao-Zhong Wu', zhang-youjin, liu-siqi]
+    coauthors: ['Chao-Zhong Wu', zhang-youjin, 'Xu Zhou', liu-siqi]
     doi: '10.1007/s00220-019-03568-4'
     journal: 'Communications in Mathematical Physics'
     primary_category: nlin.SI
     openalex_id: W2900487459
     sources: [arxiv, openalex]
-  - id: '1811.10137'
-    title: 'Drinfeld-Sokolov hierarchies and diagram automorphisms of affine Kac-Moody algebras'
-    year: 2018
-    coauthors: [liu-siqi, zhang-youjin, 'Xu Zhou']
   - id: '1505.00556'
     title: 'Borodin-Okounkov formula, string equation and topological solutions of Drinfeld-Sokolov hierarchies'
     year: 2015
@@ -221,11 +224,16 @@ publications:
   - id: '0711.2599'
     title: 'On Properties of Hamiltonian Structures for a Class of Evolutionary PDEs'
     year: 2007
-    coauthors: [liu-siqi, zhang-youjin]
+    coauthors: ['Chao-Zhong Wu', zhang-youjin, si-li, liu-siqi]
+    doi: '10.1007/s11005-008-0234-y'
+    journal: 'Letters in Mathematical Physics'
+    primary_category: nlin.SI
+    openalex_id: W2131168379
+    sources: [arxiv, openalex]
 activity:
-  total_papers: 23
-  published_count: 1
-  preprint_only_count: 22
+  total_papers: 22
+  published_count: 4
+  preprint_only_count: 18
   active_period: '2007-present'
 external_ids: {}
 links:

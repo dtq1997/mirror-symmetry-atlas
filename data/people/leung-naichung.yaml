@@ -150,6 +150,8 @@ publications:
     title: 'Symmetry in Deformation quantization and Geometric quantization'
     year: 2024
     coauthors: [li-qin, 'Ziming Nikolas Ma']
+    doi: '10.1016/j.aim.2026.110804'
+    journal: 'Advances in Mathematics'
     primary_category: math.DG
     openalex_id: W4403574825
     sources: [arxiv, openalex]
@@ -165,13 +167,6 @@ publications:
     coauthors: ['Ki Fung Chan']
     primary_category: math.SG
     sources: [arxiv]
-  - id: '2410.11311'
-    title: 'Symmetry in Deformation quantization and Geometric quantization'
-    year: 2024
-    coauthors: ['Ziming Nikolas Ma']
-    doi: '10.1016/j.aim.2026.110804'
-    journal: 'Advances in Mathematics'
-    primary_category: math.DG
   - id: '2210.02008'
     title: 'Quantizable functions on Kähler manifolds and non-formal quantization'
     year: 2022
@@ -341,12 +336,6 @@ publications:
     openalex_id: W2963653776
     sources: [openalex]
     no_arxiv: true
-  - id: '1308.4298'
-    title: 'Quantum Pieri rules for tautological subbundles'
-    year: 2013
-    coauthors: []
-    journal: 'Adv. Math. 248 (2013)'
-    primary_category: math.AG
   - id: '1209.6119'
     title: 'Open Gromov-Witten invariants, mirror maps, and Seidel representations for toric manifolds'
     year: 2012
@@ -364,15 +353,15 @@ publications:
     journal: 'J. Differential Geom. 90 (2012), no. 2, 177-250'
     primary_category: math.SG
     sources: [arxiv]
-  - id: 'doi:10.1090/s0002-9947-2012-05438-9'
+  - id: '0810.4859'
     title: 'Gromov-Witten invariants for $G/B$ and Pontryagin product for $ΩK$'
     year: 2012
     coauthors: [li-changzheng]
     doi: '10.1090/s0002-9947-2012-05438-9'
     journal: 'Transactions of the American Mathematical Society'
+    primary_category: math.AG
     openalex_id: W2907231137
-    sources: [openalex]
-    no_arxiv: true
+    sources: [arxiv, openalex]
   - id: '1112.0388'
     title: 'Open Gromov-Witten invariants and mirror maps for semi-Fano toric manifolds'
     year: 2011
@@ -390,12 +379,6 @@ publications:
     primary_category: math.AG
     openalex_id: W2962679992
     sources: [arxiv, openalex]
-  - id: '1107.4744'
-    title: 'Classical aspects of quantum cohomology of generalized flag varieties'
-    year: 2011
-    coauthors: []
-    journal: 'IMRN (2012)'
-    primary_category: math.AG
   - id: '1006.3832'
     title: 'Matrix factorizations from SYZ transformations'
     year: 2010
@@ -470,14 +453,6 @@ publications:
     primary_category: math.SG
     openalex_id: W2035199656
     sources: [arxiv, openalex]
-  - id: '0810.4859'
-    title: 'Gromov-Witten invariants for G/B and Pontryagin product for ΩK'
-    year: 2008
-    coauthors: [li-changzheng]
-    journal: 'Trans. Amer. Math. Soc. (2012)'
-    primary_category: math.AG
-    openalex_id: W2152842475
-    sources: [arxiv, openalex]
   - id: '0808.0393'
     title: 'Hard Lefschetz actions in Riemannian geometry with special holonomy'
     year: 2008
@@ -487,12 +462,6 @@ publications:
     primary_category: math.DG
     openalex_id: W2072288325
     sources: [arxiv, openalex]
-  - id: '0808.0393'
-    title: 'Hard Lefschetz actions in Riemannian geometry with special holonomy'
-    year: 2008
-    coauthors: []
-    journal: 'Math. Res. Lett. 15 (2008), no.4, 683-698'
-    primary_category: math.DG
   - id: 'doi:10.4310/cag.2007.v15.n2.a6'
     title: 'Miyaoka-Yau-type inequalities for Kähler-Einstein manifolds'
     year: 2007
@@ -589,9 +558,9 @@ publications:
     sources: [openalex]
     no_arxiv: true
 activity:
-  total_papers: 58
-  published_count: 49
-  preprint_only_count: 9
+  total_papers: 53
+  published_count: 45
+  preprint_only_count: 8
   active_period: '1993-present'
   confidence: 'has-7-review-pending'
   notes: 'ICCM Best Paper Award 多项'

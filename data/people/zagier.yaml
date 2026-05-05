@@ -129,9 +129,9 @@ key_collaborators:
     topic: "KdV tau-functions, arithmetic of integrable hierarchies"
     papers_count: 8
 activity:
-  total_papers: 47
-  published_count: 34
-  preprint_only_count: 13
+  total_papers: 45
+  published_count: 33
+  preprint_only_count: 12
   active_period: '1971-present'
 external_ids: {}
 links: {}
@@ -150,7 +150,7 @@ publications:
   - id: '2604.26354'
     title: 'On enumeration of $b$-angulations of surfaces from an integrability perspective'
     year: 2026
-    coauthors: ['Elba Garcia-Failde', xu-xu, yang-di]
+    coauthors: ['Elba Garcia-Failde', yang-di, xu-xu]
     primary_category: math-ph
   - id: '2412.20388'
     title: 'Combinatorics and large genus asymptotics of the Brézin--Gross--Witten numbers'
@@ -304,7 +304,7 @@ publications:
   - id: '1812.08488'
     title: 'On tau-functions for the KdV hierarchy'
     year: 2018
-    coauthors: [yang-di]
+    coauthors: [yang-di, dubrovin]
     doi: '10.1007/s00029-021-00620-x'
     journal: 'Selecta Mathematica'
     primary_category: math-ph
@@ -317,11 +317,6 @@ publications:
     journal: 'Pure and Applied Mathematics Quarterly'
     primary_category: math.AG
     sources: [arxiv]
-  - id: '1812.08488'
-    title: 'On tau-functions for the KdV hierarchy'
-    year: 2018
-    coauthors: [dubrovin, yang-di]
-    primary_category: math-ph
   - id: '1812.07690'
     title: 'Asymptotics of Nahm sums at roots of unity'
     year: 2018
@@ -370,14 +365,6 @@ publications:
     doi: '10.1090/proc/13281'
     journal: 'Proceedings of the American Mathematical Society'
     primary_category: math.NT
-  - id: 'doi:10.17323/1609-4514-2016-16-4-601-633'
-    title: 'Classical Hurwitz Numbers and Related Combinatorics'
-    year: 2016
-    coauthors: []
-    doi: '10.17323/1609-4514-2016-16-4-601-633'
-    journal: 'Moscow Mathematical Journal'
-    sources: [crossref]
-    no_arxiv: true
   - id: '1503.05690'
     title: 'Modular embeddings of Teichmueller curves'
     year: 2015

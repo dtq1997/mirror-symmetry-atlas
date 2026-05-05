@@ -146,8 +146,8 @@ key_collaborators:
     topic: "Remodeling conjecture, toric CY 3-orbifolds"
     papers_count: 6
 activity:
-  total_papers: 70
-  published_count: 57
+  total_papers: 61
+  published_count: 48
   preprint_only_count: 13
   active_period: '2002-present'
   confidence: 'has-9-review-pending'
@@ -314,24 +314,11 @@ publications:
     title: 'A survey on mixed spin P-fields'
     year: 2016
     coauthors: [zhang-huailiang, 'Jun Li', 'Wei-Ping Li']
+    doi: '10.1007/s11401-017-1101-x'
     journal: 'Chin. Ann. Math. Ser. B 38 (2017), no. 4, 869-882'
     primary_category: math.AG
     openalex_id: W2293883598
     sources: [arxiv, openalex]
-  - id: '1609.04363'
-    title: 'On topological approach to local theory of surfaces in Calabi-Yau threefolds'
-    year: 2016
-    coauthors: ['Sergei Gukov', 'Artan Sheshmani']
-    journal: 'Adv. Theor. Math. Phys. 21 (2017), no. 7, 1679-1728'
-    primary_category: math.AG
-  - id: '1603.02092'
-    title: 'A survey on mixed spin P-fields'
-    year: 2016
-    coauthors: ['Jun Li', 'Wei-Ping Li']
-    doi: '10.1007/s11401-017-1101-x'
-    journal: 'Chin. Ann. Math. Ser. B 38 (2017), no. 4, 869-882'
-    primary_category: math.AG
-    sources: [arxiv]
   - id: '1505.07532'
     title: 'Mixed-Spin-P fields of Fermat quintic polynomials'
     year: 2015
@@ -361,6 +348,7 @@ publications:
     title: 'All Genus Open-Closed Mirror Symmetry for Affine Toric Calabi-Yau 3-Orbifolds'
     year: 2013
     coauthors: [zong-zhengyu, fang-bohan]
+    doi: '10.14231/ag-2020-007'
     journal: 'Algebr. Geo. 7 (2020), no. 2, 192-239'
     primary_category: math.AG
     openalex_id: W1760680039
@@ -374,31 +362,15 @@ publications:
     primary_category: math.AG
     openalex_id: W1859657220
     sources: [arxiv, openalex]
-  - id: '1310.4818'
-    title: 'All Genus Open-Closed Mirror Symmetry for Affine Toric Calabi-Yau 3-Orbifolds'
-    year: 2013
-    coauthors: [fang-bohan, zong-zhengyu]
-    doi: '10.14231/ag-2020-007'
-    journal: 'Algebr. Geo. 7 (2020), no. 2, 192-239'
-    primary_category: math.AG
-    openalex_id: W1760680039
-    sources: [arxiv, openalex]
   - id: '1212.6073'
     title: 'Open-closed Gromov-Witten invariants of 3-dimensional Calabi-Yau smooth toric DM stacks'
     year: 2012
-    coauthors: ['Hsian-Hua Tseng']
+    coauthors: ['Hsian-Hua Tseng', fang-bohan]
     doi: '10.1017/fms.2022.57'
     journal: 'Forum of Mathematics Sigma 10, e58 (2022)'
     primary_category: math.AG
     openalex_id: W1890594224
     sources: [arxiv, openalex]
-  - id: '1212.6073'
-    title: 'Open-closed Gromov-Witten invariants of 3-dimensional Calabi-Yau smooth toric DM stacks'
-    year: 2012
-    coauthors: [fang-bohan, 'Hsian-Hua Tseng']
-    journal: 'Forum of Mathematics Sigma 10, e58 (2022)'
-    primary_category: math.AG
-    sources: [arxiv]
   - id: '1103.0693'
     title: 'Open Gromov-Witten Invariants of Toric Calabi-Yau 3-Folds'
     year: 2011
@@ -435,7 +407,7 @@ publications:
   - id: '1009.3506'
     title: 'The Coherent-Constructible Correspondence and Fourier-Mukai Transforms'
     year: 2010
-    coauthors: ['David Treumann', 'Eric Zaslow']
+    coauthors: ['David Treumann', 'Eric Zaslow', fang-bohan]
     doi: '10.1007/s10114-011-0462-4'
     journal: 'Acta Math. Sin. (Engl. Ser.) 27 (2011), no.2, 275-308'
     primary_category: math.AG
@@ -449,14 +421,6 @@ publications:
     journal: 'Invent. Math. 186 (2011), no.1, 79-114'
     primary_category: math.AG
     openalex_id: W3103424700
-    sources: [arxiv, openalex]
-  - id: '1009.3506'
-    title: 'The Coherent-Constructible Correspondence and Fourier-Mukai Transforms'
-    year: 2010
-    coauthors: [fang-bohan, 'David Treumann', 'Eric Zaslow']
-    journal: 'Acta Math. Sin. (Engl. Ser.) 27 (2011), no.2, 275-308'
-    primary_category: math.AG
-    openalex_id: W2952617413
     sources: [arxiv, openalex]
   - id: '1004.0853'
     title: 'Lectures on the ELSV formula'
@@ -477,7 +441,7 @@ publications:
   - id: '0911.4711'
     title: 'The Coherent-Constructible Correspondence for Toric Deligne-Mumford Stacks'
     year: 2009
-    coauthors: ['David Treumann', 'Eric Zaslow']
+    coauthors: ['David Treumann', 'Eric Zaslow', fang-bohan]
     doi: '10.1093/imrn/rns235'
     journal: 'IMRN 2014, No. 4, 914-954'
     primary_category: math.AG
@@ -491,18 +455,10 @@ publications:
     primary_category: math.AG
     openalex_id: W1664791042
     sources: [arxiv, openalex]
-  - id: '0911.4711'
-    title: 'The Coherent-Constructible Correspondence for Toric Deligne-Mumford Stacks'
-    year: 2009
-    coauthors: [fang-bohan, 'David Treumann', 'Eric Zaslow']
-    journal: 'IMRN 2014, No. 4, 914-954'
-    primary_category: math.AG
-    openalex_id: W2088250600
-    sources: [arxiv, openalex]
   - id: '0811.1228'
     title: 'T-Duality and Homological Mirror Symmetry of Toric Varieties'
     year: 2008
-    coauthors: ['David Treumann', 'Eric Zaslow']
+    coauthors: ['David Treumann', 'Eric Zaslow', fang-bohan]
     doi: '10.1016/j.aim.2011.10.022'
     journal: 'Adv. Math. 229 (2012), 1873-1911'
     primary_category: math.AG
@@ -515,14 +471,6 @@ publications:
     journal: 'Handbook of Geometric Analysis (Vol.II), 139--159, Adv. Lect. Math. (ALM) 13, Higher Education Press and International Press, Beijing-Boston, 2010'
     primary_category: math.AG
     sources: [arxiv]
-  - id: '0811.1228'
-    title: 'T-Duality and Homological Mirror Symmetry of Toric Varieties'
-    year: 2008
-    coauthors: [fang-bohan, 'David Treumann', 'Eric Zaslow']
-    journal: 'Adv. Math. 229 (2012), 1873-1911'
-    primary_category: math.AG
-    openalex_id: W2808846937
-    sources: [arxiv, openalex]
   - id: '0810.4882'
     title: 'Orientability in Yang-Mills Theory over Nonorientable Surfaces'
     year: 2008
@@ -606,15 +554,15 @@ publications:
     journal: 'IMRN 2005, no.16, 959-979'
     primary_category: math.SG
     sources: [arxiv]
-  - id: 'doi:10.4310/mrl.2004.v11.n2.a9'
+  - id: '0306257'
     title: 'On a proof of a conjecture of Mariño-Vafa on Hodge Integrals'
     year: 2004
     coauthors: ['Kefeng Liu', zhou-jian]
     doi: '10.4310/mrl.2004.v11.n2.a9'
     journal: 'Mathematical Research Letters'
+    primary_category: math.AG
     openalex_id: W2963248533
-    sources: [openalex]
-    no_arxiv: true
+    sources: [arxiv, openalex]
   - id: 'doi:10.1103/physrevlett.92.259002'
     title: 'Liu and Yau Reply:'
     year: 2004
@@ -624,12 +572,6 @@ publications:
     openalex_id: W3111515939
     sources: [openalex]
     no_arxiv: true
-  - id: '0412292'
-    title: 'Positivity of quasi-local mass II'
-    year: 2004
-    coauthors: []
-    journal: 'J. Amer. Math. Soc. 19 (2006), no.1, 181-204'
-    primary_category: math.DG
   - id: '0310272'
     title: 'A Formula of Two-Partition Hodge Integrals'
     year: 2003
@@ -653,13 +595,6 @@ publications:
     year: 2003
     coauthors: ['Kefeng Liu', zhou-jian]
     journal: 'J.Diff.Geom. 65 (2004) 289-340'
-    primary_category: math.AG
-    sources: [arxiv]
-  - id: '0306257'
-    title: 'On a Proof of a Conjecture of Marino-Vafa on Hodge Integrals'
-    year: 2003
-    coauthors: ['Kefeng Liu', zhou-jian]
-    journal: 'Math. Res. Lett. 11 (2004), no.2, 259-272'
     primary_category: math.AG
     sources: [arxiv]
   - id: '0303255'

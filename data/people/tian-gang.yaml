@@ -95,8 +95,8 @@ key_collaborators:
     topic: "Virasoro conjecture genus 0"
     papers_count: 1
 activity:
-  total_papers: 9
-  published_count: 9
+  total_papers: 8
+  published_count: 8
   preprint_only_count: 0
   active_period: '1988-present'
   phd_students: 69
@@ -153,18 +153,12 @@ publications:
   - id: '9806028'
     title: 'Virasoro Constraints For Quantum Cohomology'
     year: 1998
-    coauthors: []
+    coauthors: [li-ao]
     doi: '10.4310/jdg/1214424970'
     journal: 'J.Diff.Geom. 50 (1998) 537-590'
     primary_category: math.AG
     openalex_id: W1793609169
     sources: [arxiv, openalex]
-  - id: '9806028'
-    title: 'Virasoro Constraints For Quantum Cohomology'
-    year: 1998
-    coauthors: [li-ao]
-    journal: 'J.Diff.Geom. 50 (1998) 537-590'
-    primary_category: math.AG
   - id: '9601005'
     title: 'Higher genus symplectic invariants and sigma model coupled with gravity'
     year: 1996

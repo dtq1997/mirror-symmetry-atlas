@@ -149,7 +149,7 @@ publications:
   - id: 'doi:10.1215/00127094-2025-0038'
     title: 'BCOV Feynman rule of the quintic threefold'
     year: 2026
-    coauthors: [guo-shuai, 'Jun Li']
+    coauthors: ['Jun Li', guo-shuai]
     doi: '10.1215/00127094-2025-0038'
     journal: 'Duke Mathematical Journal'
     openalex_id: W7147670578
@@ -179,7 +179,7 @@ publications:
   - id: 'doi:10.4007/annals.2021.194.3.1'
     title: 'Polynomial structure of Gromov–Witten potential of quintic 3-folds'
     year: 2021
-    coauthors: [guo-shuai, 'Jun Li']
+    coauthors: ['Jun Li', guo-shuai]
     doi: '10.4007/annals.2021.194.3.1'
     journal: 'Annals of Mathematics'
     openalex_id: W3209265925
@@ -221,11 +221,20 @@ publications:
   - id: '1809.08806'
     title: 'Polynomial Structure of GW Potential of Quintic'
     year: 2018
-    coauthors: ['Jun Li', guo-shuai, 'Wei-Ping Li']
+    coauthors: ['Jun Li', 'Wei-Ping Li', guo-shuai]
     doi: '10.2140/gt.2021.25.775'
     journal: 'Geom. Topol. 25 (2021) 775-811'
     primary_category: math.AG
     sources: [arxiv]
+  - id: 'doi:10.1093/imrn/rny201'
+    title: 'Genus-One Gromov–Witten Invariants of Quintic Three-folds via MSP Localization'
+    year: 2018
+    coauthors: ['Wei-Ping Li', 'Jie Zhou', guo-shuai]
+    doi: '10.1093/imrn/rny201'
+    journal: 'International Mathematics Research Notices'
+    openalex_id: W2976868130
+    sources: [openalex]
+    no_arxiv: true
   - id: '1806.00216'
     title: 'Algebraic virtual cycles for quantum singularity theories'
     year: 2018
@@ -242,15 +251,6 @@ publications:
     journal: 'Transactions of the American Mathematical Society'
     primary_category: math.AG
     sources: [arxiv]
-  - id: 'doi:10.1093/imrn/rny201'
-    title: 'Genus-One Gromov–Witten Invariants of Quintic Three-folds via MSP Localization'
-    year: 2018
-    coauthors: [guo-shuai, 'Wei-Ping Li', 'Jie Zhou']
-    doi: '10.1093/imrn/rny201'
-    journal: 'International Mathematics Research Notices'
-    openalex_id: W2976868130
-    sources: [openalex]
-    no_arxiv: true
   - id: '1711.10118'
     title: 'Genus one GW invariants of quintic threefolds via MSP localization'
     year: 2017
@@ -279,19 +279,12 @@ publications:
   - id: '1603.02092'
     title: 'A survey on mixed spin P-fields'
     year: 2016
-    coauthors: ['Jun Li', 'Wei-Ping Li']
-    journal: 'Chin. Ann. Math. Ser. B 38 (2017), no. 4, 869-882'
-    primary_category: math.AG
-    openalex_id: W2293883598
-    sources: [arxiv, openalex]
-  - id: '1603.02092'
-    title: 'A survey on mixed spin P-fields'
-    year: 2016
     coauthors: ['Jun Li', 'Wei-Ping Li', liu-melissa]
     doi: '10.1007/s11401-017-1101-x'
     journal: 'Chin. Ann. Math. Ser. B 38 (2017), no. 4, 869-882'
     primary_category: math.AG
-    sources: [arxiv]
+    openalex_id: W2293883598
+    sources: [arxiv, openalex]
   - id: '1505.07532'
     title: 'Mixed-Spin-P fields of Fermat quintic polynomials'
     year: 2015
@@ -370,8 +363,8 @@ publications:
     primary_category: math.AG
     sources: [arxiv]
 activity:
-  total_papers: 30
-  published_count: 19
+  total_papers: 29
+  published_count: 18
   preprint_only_count: 11
   active_period: '2007-present'
   confidence: 'has-37-review-pending'

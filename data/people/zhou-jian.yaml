@@ -107,9 +107,9 @@ students:
   - ke-huazhong
 key_collaborators: []
 activity:
-  total_papers: 26
-  published_count: 18
-  preprint_only_count: 8
+  total_papers: 22
+  published_count: 17
+  preprint_only_count: 5
   active_period: '1995-present'
 external_ids:
   mathgenealogy: "1264"
@@ -126,24 +126,24 @@ publications:
     primary_category: math-ph
     openalex_id: W4416425862
     sources: [arxiv, openalex]
-  - id: 'doi:10.1007/s42543-025-00110-5'
+  - id: '1812.10638'
     title: 'Orbifold Euler Characteristics of $${\overline{{{\mathcal {M}}}}}_{g,n}$$'
     year: 2025
-    coauthors: []
+    coauthors: [wang-zhiyuan]
     doi: '10.1007/s42543-025-00110-5'
     journal: 'Peking Mathematical Journal'
+    primary_category: math.AG
     openalex_id: W4413575052
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1016/j.nuclphysb.2025.116822'
-    title: 'Topological 1D gravity, KP hierarchy, and orbifold Euler characteristics of $M_{g,n}$'
+    sources: [arxiv, openalex]
+  - id: '2109.03394'
+    title: 'Topological 1D Gravity, KP Hierarchy, and Orbifold Euler Characteristics of $\overline{\mathcal M}_{g,n}$'
     year: 2025
-    coauthors: []
+    coauthors: [wang-zhiyuan]
     doi: '10.1016/j.nuclphysb.2025.116822'
     journal: 'Nuclear Physics B'
+    primary_category: math-ph
     openalex_id: W4407196408
-    sources: [openalex]
-    no_arxiv: true
+    sources: [arxiv, openalex]
   - id: '2506.00451'
     title: 'A Formula for Connected Bosonic n-Point Functions for the BKP Hierarchy'
     year: 2025
@@ -195,13 +195,6 @@ publications:
     primary_category: math-ph
     openalex_id: W4226256119
     sources: [arxiv, openalex]
-  - id: '2109.03394'
-    title: 'Topological 1D Gravity, KP Hierarchy, and Orbifold Euler Characteristics of $\overline{\mathcal M}_{g,n}$'
-    year: 2021
-    coauthors: [wang-zhiyuan]
-    primary_category: math-ph
-    openalex_id: W3196891578
-    sources: [arxiv, openalex]
   - id: '2108.10498'
     title: 'A formalism of abstract quantum field theory of summation of fat graphs'
     year: 2021
@@ -222,13 +215,6 @@ publications:
     coauthors: [zhang-qingsheng]
     doi: '10.1007/jhep09(2019)075'
     primary_category: math-ph
-  - id: '1812.10638'
-    title: 'Orbifold Euler Characteristics of $\overline{\mathcal M}_{g,n}$'
-    year: 2018
-    coauthors: [wang-zhiyuan]
-    primary_category: math.AG
-    openalex_id: W2908402858
-    sources: [arxiv, openalex]
   - id: '1808.05343'
     title: 'A Unified Approach to Holomorphic Anomaly Equations and Quantum Spectral Curves'
     year: 2018
@@ -248,19 +234,14 @@ publications:
     sources: [openalex]
     no_arxiv: true
   - id: '1208.3270'
-    title: 'Gopakumar-Vafa BPS invariants, Hilbert schemes and quasimodular forms'
+    title: 'Gopakumar-Vafa BPS invariants, Hilbert schemes and quasimodular forms. I'
     year: 2012
-    coauthors: []
+    coauthors: [guo-shuai]
     doi: '10.1016/j.aim.2014.09.013'
     journal: 'Advances in Mathematics'
     primary_category: math.AG
     openalex_id: W2136259701
     sources: [arxiv, openalex]
-  - id: '1208.3270'
-    title: 'Gopakumar-Vafa BPS invariants, Hilbert schemes and quasimodular forms. I'
-    year: 2012
-    coauthors: [guo-shuai]
-    primary_category: math.AG
   - id: 'doi:10.1142/s0129167x11007008'
     title: 'ELLIPTIC GENERA OF COMPLETE INTERSECTIONS IN WEIGHTED PROJECTIVE SPACES'
     year: 2010
@@ -279,15 +260,15 @@ publications:
     primary_category: math.AG
     openalex_id: W3106406994
     sources: [arxiv, openalex]
-  - id: 'doi:10.4310/mrl.2004.v11.n2.a9'
+  - id: '0306257'
     title: 'On a proof of a conjecture of Mariño-Vafa on Hodge Integrals'
     year: 2004
     coauthors: ['Kefeng Liu']
     doi: '10.4310/mrl.2004.v11.n2.a9'
     journal: 'Mathematical Research Letters'
+    primary_category: math.AG
     openalex_id: W2963248533
-    sources: [openalex]
-    no_arxiv: true
+    sources: [arxiv, openalex]
   - id: '0310272'
     title: 'A Formula of Two-Partition Hodge Integrals'
     year: 2003
@@ -311,13 +292,6 @@ publications:
     year: 2003
     coauthors: ['Kefeng Liu']
     journal: 'J.Diff.Geom. 65 (2004) 289-340'
-    primary_category: math.AG
-    sources: [arxiv]
-  - id: '0306257'
-    title: 'On a Proof of a Conjecture of Marino-Vafa on Hodge Integrals'
-    year: 2003
-    coauthors: ['Kefeng Liu']
-    journal: 'Math. Res. Lett. 11 (2004), no.2, 259-272'
     primary_category: math.AG
     sources: [arxiv]
 sources:

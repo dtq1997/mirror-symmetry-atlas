@@ -74,9 +74,9 @@ advisor: brieskorn
 students: []
 key_collaborators: []
 activity:
-  total_papers: 50
-  published_count: 40
-  preprint_only_count: 10
+  total_papers: 48
+  published_count: 39
+  preprint_only_count: 9
   h_index: 25
   active_period: '1971-present'
   phd_students: 7
@@ -195,12 +195,6 @@ publications:
     openalex_id: W7146056116
     sources: [openalex]
     no_arxiv: true
-  - id: '1405.4530'
-    title: 'Mirror symmetry for exceptional unimodular singularities'
-    year: 2014
-    coauthors: [si-li, 'Yefeng Shen', li-changzheng]
-    journal: 'J. Eur. Math. Soc. 19 (2017)'
-    primary_category: math.AG
   - id: '1311.1659'
     title: 'Primitive forms via polyvector fields'
     year: 2013
@@ -211,8 +205,11 @@ publications:
     title: 'Limit elements in the configuration algebra for a cancellative monoid'
     year: 2012
     coauthors: []
+    doi: '10.2977/prims/2'
+    journal: 'Publications of the Research Institute for Mathematical Sciences'
     primary_category: math.GR
-    sources: [arxiv]
+    openalex_id: W2092477701
+    sources: [arxiv, openalex]
   - id: '1201.5718'
     title: 'Coxeter elements for vanishing cycles of type $A_{1/2\infty}$ and $D_{1/2\infty}$'
     year: 2012
@@ -260,15 +257,6 @@ publications:
     coauthors: []
     primary_category: math.GR
     sources: [arxiv]
-  - id: 'doi:10.2977/prims/2'
-    title: 'Limit Elements in the Conﬁguration Algebra for a Cancellative Monoid'
-    year: 2010
-    coauthors: []
-    doi: '10.2977/prims/2'
-    journal: 'Publications of the Research Institute for Mathematical Sciences'
-    openalex_id: W2092477701
-    sources: [openalex]
-    no_arxiv: true
   - id: '0911.3305'
     title: 'Monoids in the fundamental groups of the complement of logarithmic free divisors in C^3'
     year: 2009
