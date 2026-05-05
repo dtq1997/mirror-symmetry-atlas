@@ -65,14 +65,14 @@ def load_concepts():
 
 def match_author(author_name, people):
     """Match an arXiv author name to a known person slug."""
-    name_lower = author_name.lower()
+    # Strict token-set match. NEVER substring (substring binds 'Ao Li' to
+    # 'Chien-Hao Liu'). See scripts/name_match.py.
+    import sys, os
+    sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+    from name_match import names_match
     for slug, info in people.items():
-        en = info['name_en'].lower()
-        if not en:
-            continue
-        # Check if all parts of the known name appear in the author name
-        parts = en.split()
-        if len(parts) >= 2 and all(p in name_lower for p in parts):
+        en = info.get('name_en') or ''
+        if en and names_match(en, author_name):
             return slug, info
     return None, None
 

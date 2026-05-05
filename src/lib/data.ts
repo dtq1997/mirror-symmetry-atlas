@@ -15,6 +15,7 @@ import type {
   DataStore,
   AckMention,
 } from "./types";
+import { canonicalPaperId } from "./paper-identity";
 
 const DATA_DIR = path.join(process.cwd(), "data");
 
@@ -170,60 +171,65 @@ export function getAllConnections(): Connection[] {
   const builtSlugs = new Set(people.map((p) => p.slug));
   const derivedSeen = new Set<string>();
 
-  // Build a name->slug index for resolving raw-name coauthors in publications
-  const nameToSlug = new Map<string, string>();
-  for (const p of people) {
-    if (p.name?.en) {
-      const k = p.name.en.toLowerCase().replace(/[^a-z ]/g, " ").replace(/\s+/g, " ").trim();
-      if (k) nameToSlug.set(k, p.slug);
-    }
-  }
-  function resolveCoauthor(s: string): string | null {
-    if (/^[a-z][a-z0-9-]*$/.test(s) && builtSlugs.has(s)) return s;
-    const k = s.replace(/\([^)]*\)/g, "").toLowerCase().replace(/[^a-z ]/g, " ").replace(/\s+/g, " ").trim();
-    return nameToSlug.get(k) ?? null;
-  }
-
-  // Pair → list of {publication-of-source, sourceSlug}.
+  // SSOT for coauthorship: a pair (a, b) shares a paper P **iff** P appears in
+  // BOTH a.publications AND b.publications (matched by canonical paper id —
+  // doi → arxiv-id → folded title). We do NOT infer slug membership from raw
+  // English names in coauthor fields; that produced massive false positives
+  // when distinct authors shared a name (e.g. multiple "Ao Li").
+  //
+  // If a paper is genuinely coauthored but only one side's yaml recorded it,
+  // there will be no edge — that's the correct fail-closed behavior. Fix it
+  // upstream by adding the paper to the other yaml.
   type CoauthoredPaper = { id: string; title: string; year: number; doi?: string; journal?: string; primary_category?: string };
-  const pairPapers = new Map<string, { published: CoauthoredPaper[]; preprint: CoauthoredPaper[] }>();
+  type PubRow = { id: string; title: string; year: number; coauthors?: string[]; doi?: string; journal?: string; primary_category?: string };
+  // canonical paper id → list of (slug, pub) that own this paper
+  const paperOwners = new Map<string, Array<{ slug: string; pub: PubRow }>>();
   for (const p of people) {
-    const pubs = (p as unknown as { publications?: Array<{ id: string; title: string; year: number; coauthors?: string[]; doi?: string; journal?: string; primary_category?: string }> }).publications;
+    const pubs = (p as unknown as { publications?: PubRow[] }).publications;
     if (!pubs) continue;
     for (const pub of pubs) {
-      const isPub = !!(pub.journal || pub.doi);
-      const seenInPub = new Set<string>();
-      for (const ca of pub.coauthors ?? []) {
-        if (!ca) continue;
-        const slug = resolveCoauthor(ca);
-        if (!slug || slug === p.slug || seenInPub.has(slug)) continue;
-        seenInPub.add(slug);
-        const key = [p.slug, slug].sort().join("|");
+      const cid = canonicalPaperId({ id: pub.id, doi: pub.doi, title: pub.title });
+      if (!cid) continue;
+      const list = paperOwners.get(cid) ?? [];
+      list.push({ slug: p.slug, pub });
+      paperOwners.set(cid, list);
+    }
+  }
+
+  function pickRicher(a: PubRow, b: PubRow): PubRow {
+    // Prefer the side that has journal/doi (= "published" version).
+    const aPub = !!(a.journal || a.doi);
+    const bPub = !!(b.journal || b.doi);
+    if (aPub && !bPub) return a;
+    if (bPub && !aPub) return b;
+    return a;
+  }
+
+  const pairPapers = new Map<string, { published: CoauthoredPaper[]; preprint: CoauthoredPaper[] }>();
+  for (const owners of paperOwners.values()) {
+    if (owners.length < 2) continue; // need both sides
+    // Pick the richest record for the canonical view of this paper.
+    let canon = owners[0].pub;
+    for (let i = 1; i < owners.length; i++) canon = pickRicher(canon, owners[i].pub);
+    const isPub = !!(canon.journal || canon.doi);
+    const slugs = Array.from(new Set(owners.map((o) => o.slug)));
+    for (let i = 0; i < slugs.length; i++) {
+      for (let j = i + 1; j < slugs.length; j++) {
+        const key = [slugs[i], slugs[j]].sort().join("|");
         const bucket = pairPapers.get(key) ?? { published: [], preprint: [] };
-        // Dedup ACROSS both buckets by id, AND prefer the published version
-        // (the one with a journal/doi) when both yaml files have the same paper
-        // but only one side recorded the journal.
-        const existingPub = bucket.published.findIndex((x) => x.id === pub.id);
-        const existingPre = bucket.preprint.findIndex((x) => x.id === pub.id);
-        if (isPub && existingPre >= 0) {
-          // Promote: remove from preprint, add to published
-          bucket.preprint.splice(existingPre, 1);
-          bucket.published.push({ id: pub.id, title: pub.title, year: pub.year,
-                                  doi: pub.doi, journal: pub.journal,
-                                  primary_category: pub.primary_category });
-        } else if (isPub && existingPub < 0) {
-          bucket.published.push({ id: pub.id, title: pub.title, year: pub.year,
-                                  doi: pub.doi, journal: pub.journal,
-                                  primary_category: pub.primary_category });
-        } else if (!isPub && existingPub < 0 && existingPre < 0) {
-          bucket.preprint.push({ id: pub.id, title: pub.title, year: pub.year,
-                                  primary_category: pub.primary_category });
-        } else if (isPub && existingPub >= 0) {
-          // Already in published, but maybe this side has richer journal info
-          const cur = bucket.published[existingPub];
-          if (!cur.journal && pub.journal) cur.journal = pub.journal;
-          if (!cur.doi && pub.doi) cur.doi = pub.doi;
-        }
+        const existsPub = bucket.published.some((x) => x.id === canon.id);
+        const existsPre = bucket.preprint.some((x) => x.id === canon.id);
+        if (existsPub || existsPre) continue;
+        const row = {
+          id: canon.id,
+          title: canon.title,
+          year: canon.year,
+          doi: canon.doi,
+          journal: canon.journal,
+          primary_category: canon.primary_category,
+        };
+        if (isPub) bucket.published.push(row);
+        else bucket.preprint.push(row);
         pairPapers.set(key, bucket);
       }
     }

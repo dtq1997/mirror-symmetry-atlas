@@ -126,15 +126,25 @@ def normalize_name(s):
     return s
 
 
+def _name_token_variants(s):
+    s = re.sub(r'\([^)]*\)', '', s or '')
+    s = re.sub(r'[^a-zA-Z\- ]', ' ', s).lower()
+    a = set(t for t in re.sub(r'-', ' ', s).split() if len(t) > 1)
+    b = set(t for t in re.sub(r'([a-z])-([a-z])', r'\1\2', s).split() if len(t) > 1)
+    return a, b
+
+
 def name_parts_match(target_name, candidate_name):
-    """Return True if every word in target_name (lowercased, normalized) appears as substring in candidate."""
-    target_name = normalize_name(target_name)
-    candidate_name = normalize_name(candidate_name)
-    parts = target_name.lower().split()
-    if not parts:
-        return False
-    cl = candidate_name.lower()
-    return all(p in cl for p in parts if len(p) > 1)
+    """Strict token-set equality (hyphen-split OR hyphen-concat).
+    NEVER substring — substring catastrophically binds 'Chien-Hao Liu' to
+    'Ao Li' because 'ao' and 'li' both appear as substrings."""
+    a1, a2 = _name_token_variants(target_name)
+    b1, b2 = _name_token_variants(candidate_name)
+    if a1 and b1 and a1 == b1:
+        return True
+    if a2 and b2 and a2 == b2:
+        return True
+    return False
 
 
 def primary_category_signal(primary_cat):

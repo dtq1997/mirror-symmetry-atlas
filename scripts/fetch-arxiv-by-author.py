@@ -51,9 +51,12 @@ def fetch_papers(author_name, cats=None, filter_coauthors=None, max_results=100)
         authors = [a.find('a:name', NS).text for a in entry.findall('a:author', NS)]
         cats_found = [c.get('term') for c in entry.findall('arxiv:primary_category', NS)]
 
-        # Verify author is actually in the list
-        name_parts = author_name.lower().split()
-        if not any(all(p in a.lower() for p in name_parts) for a in authors):
+        # Verify author is actually in the list — STRICT token-set match.
+        # NEVER substring (binds 'Ao Li' to 'Chien-Hao Liu', etc.).
+        import sys as _sys, os as _os
+        _sys.path.insert(0, _os.path.dirname(_os.path.abspath(__file__)))
+        from name_match import names_match
+        if not any(names_match(author_name, a) for a in authors):
             continue
 
         # If filter mode, check collaborators or keywords

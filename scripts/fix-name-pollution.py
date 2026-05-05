@@ -98,24 +98,40 @@ def fetch_arxiv_authors_batch(arxiv_ids, delay=3, batch_size=50):
                 pass
         need_fetch.append(aid)
 
-    for i in range(0, len(need_fetch), batch_size):
-        batch = need_fetch[i:i + batch_size]
+    def _fetch_one_batch(batch):
         time.sleep(delay)
-        url = f'https://export.arxiv.org/api/query?id_list={",".join(batch)}&max_results={batch_size}'
+        url = f'https://export.arxiv.org/api/query?id_list={",".join(batch)}&max_results={len(batch)}'
         r = subprocess.run(['curl', '-s', '--noproxy', '*', '--max-time', '40', url],
                            capture_output=True, text=True, encoding='utf-8', errors='replace')
         if not r.stdout:
-            print(f'  warn: empty response for batch {i}', file=sys.stderr)
-            continue
+            return None
         try:
-            root = ET.fromstring(r.stdout)
+            return ET.fromstring(r.stdout)
         except ET.ParseError:
-            continue
+            return None
+
+    def _is_error_root(root):
+        # When ANY id in id_list is malformed, arXiv returns a single
+        # <entry> with id pointing at /api/errors#... and no useful data.
+        if root is None:
+            return True
+        for entry in root.findall('a:entry', NS):
+            aid_elem = entry.find('a:id', NS)
+            if aid_elem is None:
+                continue
+            if '/errors' in (aid_elem.text or ''):
+                return True
+        return False
+
+    def _process(root, accept_ids):
+        got = set()
         for entry in root.findall('a:entry', NS):
             aid_elem = entry.find('a:id', NS)
             if aid_elem is None:
                 continue
             full = aid_elem.text or ''
+            if '/errors' in full:
+                continue
             m = re.search(r'arxiv\.org/abs/([\w./-]+?)(v\d+)?$', full)
             if not m:
                 continue
@@ -123,12 +139,59 @@ def fetch_arxiv_authors_batch(arxiv_ids, delay=3, batch_size=50):
             authors = [a.find('a:name', NS).text for a in entry.findall('a:author', NS)
                        if a.find('a:name', NS) is not None]
             out[arxiv_id] = authors
+            got.add(arxiv_id)
             safe = arxiv_id.replace('/', '_')
             with open(os.path.join(ARXIV_CACHE, f'{safe}.json'), 'w') as f:
                 json.dump(authors, f, ensure_ascii=False)
-        # Progress
-        print(f'  fetched batch {i//batch_size + 1}/{(len(need_fetch)+batch_size-1)//batch_size}',
-              file=sys.stderr)
+        return got
+
+    for i in range(0, len(need_fetch), batch_size):
+        batch = need_fetch[i:i + batch_size]
+        root = _fetch_one_batch(batch)
+        if _is_error_root(root):
+            # Fall back to per-id requests; one bad id (e.g. naked 7-digit
+            # legacy id like '9806028' that needs a category prefix) poisons
+            # the whole batch otherwise.
+            for aid in batch:
+                root_one = _fetch_one_batch([aid])
+                if not _is_error_root(root_one):
+                    _process(root_one, {aid})
+                    continue
+                # Naked 7-digit legacy id (e.g. '9806028') needs an archive
+                # prefix. Try the common ones for our subject area, cache the
+                # winner under the SAME naked id so downstream code finds it.
+                if re.match(r'^\d{7}$', aid):
+                    found = False
+                    for archive in ('hep-th', 'math', 'alg-geom', 'dg-ga',
+                                    'q-alg', 'hep-ph', 'gr-qc', 'cond-mat'):
+                        prefixed = f'{archive}/{aid}'
+                        root_p = _fetch_one_batch([prefixed])
+                        if _is_error_root(root_p):
+                            continue
+                        # Mirror the result under the naked id key too.
+                        for entry in root_p.findall('a:entry', NS):
+                            aid_elem = entry.find('a:id', NS)
+                            if aid_elem is None or '/errors' in (aid_elem.text or ''):
+                                continue
+                            authors = [a.find('a:name', NS).text
+                                       for a in entry.findall('a:author', NS)
+                                       if a.find('a:name', NS) is not None]
+                            out[aid] = authors
+                            with open(os.path.join(ARXIV_CACHE, f'{aid}.json'), 'w') as f:
+                                json.dump(authors, f, ensure_ascii=False)
+                            found = True
+                        if found:
+                            break
+                    if not found:
+                        print(f'  warn: arxiv rejected legacy id {aid}', file=sys.stderr)
+                else:
+                    print(f'  warn: arxiv rejected id {aid}', file=sys.stderr)
+            print(f'  fetched (slow path) batch {i//batch_size + 1}/'
+                  f'{(len(need_fetch)+batch_size-1)//batch_size}', file=sys.stderr)
+            continue
+        _process(root, set(batch))
+        print(f'  fetched batch {i//batch_size + 1}/'
+              f'{(len(need_fetch)+batch_size-1)//batch_size}', file=sys.stderr)
     return out
 
 
@@ -226,6 +289,18 @@ def main():
             actual_authors = arxiv_lookup.get(arxiv_id, [])
             if not actual_authors:
                 new_pubs.append(new_pub)
+                continue
+
+            # PRIMARY OWNERSHIP CHECK: is the yaml owner actually one of the
+            # paper's authors (strict token-set, never substring)? If not,
+            # the paper was wrongly assigned to this slug by an old enrich
+            # run that used substring matching (e.g. 'Ao Li' vs 'Chien-Hao
+            # Liu'). Eject the entire entry.
+            if target_en and not any(strict_name_match(target_en, a) for a in actual_authors):
+                fixes_per_slug[slug].append(
+                    (arxiv_id, list(pub.get('coauthors') or []),
+                     '<EJECTED — not actually an author>'))
+                changed = True
                 continue
 
             old_cas = pub.get('coauthors') or []
@@ -347,7 +422,36 @@ def main():
         path = os.path.join(PEOPLE_DIR, f'{slug}.yaml')
         with open(path) as f:
             text = f.read()
-        text = replace_block(text, 'publications', render_pubs(all_people[slug]['publications']))
+        pubs = all_people[slug]['publications']
+        text = replace_block(text, 'publications', render_pubs(pubs))
+        # Recompute activity counts when papers were ejected
+        published = sum(1 for p in pubs
+                        if isinstance(p, dict)
+                        and (p.get('journal') or
+                             (p.get('doi') and not str(p.get('doi')).lower().startswith('10.48550/arxiv.'))))
+        preprint = len(pubs) - published
+        # Replace activity block in-place if it exists
+        act_match = re.search(r'^activity:\s*$', text, re.MULTILINE)
+        if act_match:
+            # Find the existing block boundary
+            start = act_match.start()
+            # End: next top-level key (line starting with letter+colon, no leading space)
+            tail = text[act_match.end():]
+            end_rel = re.search(r'\n(?=[A-Za-z_][\w]*:)', tail)
+            end = act_match.end() + (end_rel.start() if end_rel else len(tail))
+            block = text[act_match.end():end]
+            # Update only the three counts
+            new_block = block
+            for key, val in [('total_papers', len(pubs)),
+                             ('published_count', published),
+                             ('preprint_only_count', preprint)]:
+                if re.search(rf'^\s+{key}:', new_block, re.MULTILINE):
+                    new_block = re.sub(rf'^(\s+{key}:).*$',
+                                        rf'\g<1> {val}', new_block,
+                                        count=1, flags=re.MULTILINE)
+                else:
+                    new_block = f'\n  {key}: {val}' + new_block
+            text = text[:act_match.end()] + new_block + text[end:]
         with open(path, 'w') as f:
             f.write(text)
 

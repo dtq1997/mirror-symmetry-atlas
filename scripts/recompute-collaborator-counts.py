@@ -47,16 +47,16 @@ def build_name_to_slug_index(all_people):
 
 
 def resolve_coauthor(ca, name_to_slug):
-    """Map a coauthor entry (slug or raw name) to a slug if possible."""
+    """Return slug iff `ca` is ALREADY a slug. We deliberately do not
+    auto-resolve raw English names — that path bound 'Chien-Hao Liu' to slug
+    `li-ao` because of substring/lower-eq matching. For collaborator counts
+    we only count entries where the upstream pipeline already wrote a slug.
+    Raw-name coauthors stay anonymous to this counter."""
     if not isinstance(ca, str) or not ca:
         return None
-    if '-' in ca and ca.islower() and ca.replace('-', '').replace('_', '').isalnum():
-        return ca  # already a slug
-    # Try name match
-    cleaned = re.sub(r'\([^)]*\)', '', ca)
-    cleaned = re.sub(r'[^\x20-\x7e]', ' ', cleaned)
-    cleaned = re.sub(r'\s+', ' ', cleaned).strip().lower()
-    return name_to_slug.get(cleaned)
+    if re.fullmatch(r'[a-z][a-z0-9_-]*', ca) and ca in set(name_to_slug.values()):
+        return ca
+    return None
 
 
 def coauthor_stats(person, name_to_slug):

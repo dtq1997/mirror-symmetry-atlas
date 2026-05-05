@@ -276,22 +276,16 @@ def cross_yaml_sync(all_people):
     """Build a global canonical paper registry. For each paper coauthored by
     >=1 indexed slugs, the canonical record (post-merge) propagates to ALL
     coauthors' yamls."""
-    name_idx = {}
-    for slug, person in all_people.items():
-        en = ((person.get('name') or {}).get('en') or '').lower()
-        en = re.sub(r'[^a-z ]', ' ', en).strip()
-        if en:
-            name_idx[en] = slug
-
+    # IMPORTANT: We deliberately do NOT auto-resolve raw English names to slugs.
+    # English-name match alone is not identity (multiple "Ao Li", "Wei Zhang",
+    # "Si Li" exist). Slug binding must happen upstream in the enrichment step
+    # (lib_disambiguate_v2.py) using ORCID / affiliation / coauthor circle as
+    # corroborating evidence. Here we only pass through fields that are
+    # ALREADY recorded as slugs.
     def resolve_coauthor(s):
-        if not isinstance(s, str):
+        if isinstance(s, str) and s in all_people:
             return s
-        if s in all_people:
-            return s
-        cleaned = re.sub(r'\([^)]*\)', '', s)
-        cleaned = re.sub(r'[^\x20-\x7e]', ' ', cleaned)
-        cleaned = re.sub(r'\s+', ' ', cleaned).strip().lower()
-        return name_idx.get(cleaned, s)
+        return s
 
     # Step 1: collect ALL pub entries across all yamls. Then union-find
     # merge by any-shared-key (real-doi OR arxiv-id OR canonical-title).

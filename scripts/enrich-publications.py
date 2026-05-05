@@ -26,15 +26,43 @@ from lib_disambiguate import (
 PEOPLE_DIR = 'data/people'
 
 
+def _name_token_variants(s):
+    """Return two token sets for `s`:
+      a: hyphen-as-space    'Si-Qi Liu' → {'si','qi','liu'}
+      b: hyphen-concatenated 'Si-Qi Liu' → {'siqi','liu'}
+    Used for symmetric strict matching that handles both 'Si-Qi Liu' and
+    'Siqi Liu' romanization styles WITHOUT falling back to substring (which
+    is what mis-bound 'Chien-Hao Liu' to slug `li-ao` because 'ao' and 'li'
+    happen to be substrings of 'chien-hao liu')."""
+    s = re.sub(r'\([^)]*\)', '', s or '')
+    s = re.sub(r'[^a-zA-Z\- ]', ' ', s).lower()
+    a = set(t for t in re.sub(r'-', ' ', s).split() if len(t) > 1)
+    b = set(t for t in re.sub(r'([a-z])-([a-z])', r'\1\2', s).split() if len(t) > 1)
+    return a, b
+
+
+def _names_match_strict(a_name, b_name):
+    """True iff token-set OR concatenated-token-set are equal between the
+    two names. NEVER substring."""
+    a1, a2 = _name_token_variants(a_name)
+    b1, b2 = _name_token_variants(b_name)
+    if a1 and b1 and a1 == b1:
+        return True
+    if a2 and b2 and a2 == b2:
+        return True
+    return False
+
+
 def slugify_coauthor(author_name, all_people):
-    """Try to map an arXiv author name to a known slug. Returns slug or normalized name string."""
-    norm = normalize_name(author_name).lower()
+    """Map an arXiv author name to a known slug ONLY when the names match
+    strictly (token set equality). Otherwise return the cleaned raw name.
+
+    History: a previous substring-based match catastrophically bound
+    'Chien-Hao Liu' to slug `li-ao` because 'ao' and 'li' both appear as
+    substrings of 'chien-hao liu'. Substring matching is forbidden here."""
     for slug, p in all_people.items():
         en = (p.get('name') or {}).get('en', '')
-        if not en:
-            continue
-        en_parts = normalize_name(en).lower().split()
-        if en_parts and all(part in norm for part in en_parts if len(part) > 1):
+        if en and _names_match_strict(en, author_name):
             return slug
     return normalize_name(author_name)
 

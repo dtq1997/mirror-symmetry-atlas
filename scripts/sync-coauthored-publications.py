@@ -73,14 +73,15 @@ def name_to_slug_index(all_people):
 
 
 def resolve_coauthor(s, all_people, name_idx):
+    """Pass through values that are ALREADY slugs; never invent a slug from a
+    raw English name. Lower-case-equality on names was the original bug that
+    bound 'Chien-Hao Liu' to slug `li-ao` (and similar 'Zhang Qing' →
+    'Zhang Qingsheng' confusions). Raw names stay raw."""
     if not isinstance(s, str) or not s:
         return s
     if s in all_people:
         return s
-    cleaned = re.sub(r'\([^)]*\)', '', s)
-    cleaned = re.sub(r'[^\x20-\x7e]', ' ', cleaned)
-    cleaned = re.sub(r'\s+', ' ', cleaned).strip().lower()
-    return name_idx.get(cleaned, s)
+    return s  # raw name — leave for an explicit upstream binding step
 
 
 def paper_key(pub):
