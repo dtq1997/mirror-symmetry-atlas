@@ -30,6 +30,10 @@ export interface Collaborator {
 
 export interface Activity {
   total_papers?: number;
+  /** Papers with a journal/DOI recorded — i.e. formally published. */
+  published_count?: number;
+  /** Papers that exist only on arXiv (no journal/DOI). */
+  preprint_only_count?: number;
   h_index?: number;
   mathscinet_citations?: number;
   google_scholar_citations?: number;
@@ -64,9 +68,11 @@ export interface Publication {
   id: string; // arXiv ID e.g. "2511.10082"
   title: string;
   year: number;
-  coauthors: string[]; // person slugs
+  coauthors: string[]; // person slugs (or raw names if not yet stubbed)
   doi?: string;
   journal?: string;
+  /** arXiv primary category (math.AG, math-ph, hep-th, ...) */
+  primary_category?: string;
 }
 
 export interface Person {

@@ -355,22 +355,36 @@ export default async function PersonPage({
       )}
 
       {/* Publications */}
-      {(person as any).publications?.length > 0 && (
+      {(person as any).publications?.length > 0 && (() => {
+        const pubs = (person as any).publications as Array<{
+          id: string;
+          title: string;
+          year: number;
+          coauthors?: string[];
+          doi?: string;
+          journal?: string;
+          primary_category?: string;
+        }>;
+        const publishedCount = pubs.filter((p) => p.journal || p.doi).length;
+        const preprintCount = pubs.length - publishedCount;
+        return (
         <section className="mb-8" id="publications">
           <h2 className="text-lg font-semibold text-[#e8e8f0] mb-3">
-            论文（{(person as any).publications.length}）
+            论文（{pubs.length}
+            {publishedCount > 0 || preprintCount > 0 ? (
+              <span className="text-xs font-normal text-[#8888a0] ml-2">
+                <span className="text-[#22c55e]">{publishedCount} 已发表</span>
+                <span className="mx-1">/</span>
+                <span className="text-[#f59e0b]">{preprintCount} 仅预印</span>
+              </span>
+            ) : null}
+            ）
           </h2>
           <div className="space-y-2">
-            {(person as any).publications.map(
+            {pubs.map(
               (
-                pub: {
-                  id: string;
-                  title: string;
-                  year: number;
-                  coauthors?: string[];
-                  doi?: string;
-                },
-                i: number
+                pub,
+                i
               ) => (
                 <div
                   key={pub.id || i}
@@ -410,6 +424,25 @@ export default async function PersonPage({
                           })}
                         </div>
                       )}
+                      <div className="flex items-center gap-2 mt-1.5 text-[10px] font-mono">
+                        {pub.journal || pub.doi ? (
+                          <span
+                            className="px-1.5 py-0.5 rounded bg-[#22c55e]/10 text-[#22c55e] border border-[#22c55e]/20"
+                            title={pub.journal || pub.doi}
+                          >
+                            已发表{pub.journal ? `: ${pub.journal}` : ""}
+                          </span>
+                        ) : (
+                          <span className="px-1.5 py-0.5 rounded bg-[#f59e0b]/10 text-[#f59e0b] border border-[#f59e0b]/20">
+                            仅预印
+                          </span>
+                        )}
+                        {pub.primary_category && (
+                          <span className="text-[#8888a0]">
+                            {pub.primary_category}
+                          </span>
+                        )}
+                      </div>
                     </div>
                     <div className="flex items-center gap-2 shrink-0">
                       <span className="text-xs font-mono text-[#6366f1]">
@@ -430,7 +463,8 @@ export default async function PersonPage({
             )}
           </div>
         </section>
-      )}
+        );
+      })()}
 
       {/* Personal notes */}
       {person.personal_notes && (
