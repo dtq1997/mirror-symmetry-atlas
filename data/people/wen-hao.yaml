@@ -70,6 +70,8 @@ publications:
     title: 'A note on cohomology mirror symmetry of toric manifolds'
     year: 2024
     coauthors: []
+    doi: '10.4208/cmr.2025-0027'
+    journal: 'Communications in Mathematical Research'
     primary_category: math-ph
   - id: '2312.04239'
     title: 'A perturbative construction of primitive forms from log Landau-Ginzburg mirrors of toric manifolds'
@@ -89,10 +91,18 @@ publications:
     coauthors: ['Chunhui Liu']
     doi: '10.1142/S1005386718000305'
     primary_category: math.AG
+  - id: 'doi:10.4208/cmr.2025-0027'
+    title: 'A Note on Cohomological Mirror Symmetry of Toric Manifolds'
+    year: 2025
+    coauthors: []
+    doi: '10.4208/cmr.2025-0027'
+    journal: 'Communications in Mathematical Research'
+    sources: [crossref]
+    no_arxiv: true
 activity:
-  total_papers: 6
-  published_count: 2
-  preprint_only_count: 4
+  total_papers: 7
+  published_count: 4
+  preprint_only_count: 3
   active_period: '2017-present'
   peak_period: '2023-present'
 external_ids: {}

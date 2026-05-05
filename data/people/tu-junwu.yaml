@@ -200,6 +200,8 @@ publications:
     title: 'DG-resolutions of NC-smooth thickenings and NC-Fourier-Mukai transforms'
     year: 2013
     coauthors: ['Alexander Polishchuk']
+    doi: '10.1007/s00208-014-1030-x'
+    journal: 'Mathematische Annalen'
     primary_category: math.AG
   - id: '1306.5260'
     title: 'On the Lie algebroid of a derived self-intersection'
@@ -212,11 +214,15 @@ publications:
     title: 'On the reconstruction problem in mirror symmetry'
     year: 2012
     coauthors: []
+    doi: '10.1016/j.aim.2014.02.005'
+    journal: 'Advances in Mathematics'
     primary_category: math.SG
   - id: '1201.6454'
     title: 'Homological mirror symmetry and Fourier-Mukai transform'
     year: 2012
     coauthors: []
+    doi: '10.1093/imrn/rnt211'
+    journal: 'International Mathematics Research Notices'
     primary_category: math.SG
   - id: '1010.0985'
     title: 'PBW for an inclusion of Lie algebras'
@@ -240,8 +246,8 @@ publications:
     primary_category: math.KT
 activity:
   total_papers: 25
-  published_count: 9
-  preprint_only_count: 16
+  published_count: 12
+  preprint_only_count: 13
   active_period: '2011-present'
 external_ids:
   mathgenealogy: "162944"

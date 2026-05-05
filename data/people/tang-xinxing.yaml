@@ -116,11 +116,15 @@ publications:
     title: 'Contact Term Algebras and Dijkgraaf''s Master Equation'
     year: 2025
     coauthors: ['Zhengping Gui', 'Si Li']
+    doi: '10.1016/j.geomphys.2026.105768'
+    journal: 'Journal of Geometry and Physics'
     primary_category: math.QA
   - id: '2402.05682'
     title: 'The Cellular Homology of Digraphs'
     year: 2024
     coauthors: ['Shing-Tung Yau']
+    doi: '10.4310/ajm.260406225435'
+    journal: 'Asian Journal of Mathematics'
     primary_category: math.CO
   - id: '2208.14063'
     title: 'Minimal Path and Acyclic Models in the Path Complex'
@@ -146,10 +150,26 @@ publications:
     year: 2017
     coauthors: []
     primary_category: math-ph
+  - id: 'doi:10.4310/iccm.241025171552'
+    title: 'The Riemann-Hilbert Problem'
+    year: 2024
+    coauthors: []
+    doi: '10.4310/iccm.241025171552'
+    journal: 'Notices of the International Consortium of Chinese Mathematicians'
+    sources: [crossref]
+    no_arxiv: true
+  - id: 'doi:10.4310/cag.250530010521'
+    title: 'Minimal path and acyclic model in the path complex'
+    year: 2025
+    coauthors: []
+    doi: '10.4310/cag.250530010521'
+    journal: 'Communications in Analysis and Geometry'
+    sources: [crossref]
+    no_arxiv: true
 activity:
-  total_papers: 7
-  published_count: 2
-  preprint_only_count: 5
+  total_papers: 9
+  published_count: 6
+  preprint_only_count: 3
   active_period: '2017-present'
 external_ids: {}
 links:

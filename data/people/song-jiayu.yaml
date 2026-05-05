@@ -77,9 +77,17 @@ publications:
     coauthors: [li-changzheng, 'Zhaoyang Liu', 'Mingzhi Yang']
     journal: 'Sci. China Math. 68 (2025), no. 7, 1523-1548'
     primary_category: math.AG
+  - id: 'doi:10.1360/ssm-2024-0112'
+    title: 'Toward the quantum Pieri rule for'
+    year: 2024
+    coauthors: []
+    doi: '10.1360/ssm-2024-0112'
+    journal: 'SCIENTIA SINICA Mathematica'
+    sources: [crossref]
+    no_arxiv: true
 activity:
-  total_papers: 4
-  published_count: 2
+  total_papers: 5
+  published_count: 3
   preprint_only_count: 2
   active_period: '2022-present'
 external_ids: {}

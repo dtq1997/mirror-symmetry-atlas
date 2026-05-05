@@ -47,11 +47,21 @@ publications:
     title: 'On A Tautological Relation Conjectured By Buryak-Shadrin'
     year: 2024
     coauthors: [liu-xiaobo]
+    doi: '10.1007/s11425-024-2436-x'
+    journal: 'Science China Mathematics'
     primary_category: math.AG
+  - id: 'doi:10.1007/s11425-024-2436-x'
+    title: 'On a tautological relation conjectured by Buryak and Shadrin'
+    year: 2025
+    coauthors: []
+    doi: '10.1007/s11425-024-2436-x'
+    journal: 'Science China Mathematics'
+    sources: [crossref]
+    no_arxiv: true
 activity:
-  total_papers: 2
-  published_count: 0
-  preprint_only_count: 2
+  total_papers: 3
+  published_count: 2
+  preprint_only_count: 1
   active_period: '2024-present'
 external_ids: {}
 links:

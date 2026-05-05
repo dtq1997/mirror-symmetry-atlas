@@ -147,11 +147,15 @@ publications:
     title: 'Quantization and Algebraic Index'
     year: 2025
     coauthors: []
+    doi: '10.4310/sdg.260101000010'
+    journal: 'Surveys in Differential Geometry'
     primary_category: math-ph
   - id: '2506.13194'
     title: 'Contact Term Algebras and Dijkgraaf''s Master Equation'
     year: 2025
     coauthors: ['Zhengping Gui', tang-xinxing]
+    doi: '10.1016/j.geomphys.2026.105768'
+    journal: 'Journal of Geometry and Physics'
     primary_category: math.QA
   - id: '2501.12360'
     title: 'Stochastic Calculus and Hochschild Homology'
@@ -181,6 +185,8 @@ publications:
     title: 'Quadratic Duality for Chiral Algebras'
     year: 2022
     coauthors: ['Zhengping Gui', 'Keyou Zeng']
+    doi: '10.1016/j.aim.2024.109791'
+    journal: 'Advances in Mathematics'
     primary_category: math.QA
   - id: '2205.14562'
     title: 'Regularized Integrals on Elliptic Curves and Holomorphic Anomaly Equations'
@@ -205,6 +211,8 @@ publications:
     title: 'Geometry of Localized Effective Theories, Exact Semi-classical Approximation and the Algebraic Index'
     year: 2019
     coauthors: ['Zhengping Gui', xu-xu]
+    doi: '10.1007/s00220-021-03944-z'
+    journal: 'Communications in Mathematical Physics'
     primary_category: math.QA
   - id: '1910.05665'
     title: 'Dispersionless Integrable Hierarchy via Kodaira-Spencer Gravity'
@@ -216,6 +224,8 @@ publications:
     title: 'Anomaly cancellation in the topological string'
     year: 2019
     coauthors: ['Kevin Costello']
+    doi: '10.4310/atmp.2020.v24.n7.a2'
+    journal: 'Advances in Theoretical and Mathematical Physics'
     primary_category: hep-th
   - id: '1904.09426'
     title: 'Unfolding of Orbifold LG B-Models: A Case Study'
@@ -338,6 +348,8 @@ publications:
     title: 'Feynman Graph Integrals and Almost Modular Forms'
     year: 2011
     coauthors: []
+    doi: '10.4310/cntp.2012.v6.n1.a3'
+    journal: 'Communications in Number Theory and Physics'
     primary_category: math.NT
   - id: '0910.4215'
     title: 'Picard-Fuchs Equations for Relative Periods and Abel-Jacobi Map for Calabi-Yau Hypersurfaces'
@@ -373,8 +385,8 @@ publications:
     primary_category: hep-th
 activity:
   total_papers: 40
-  published_count: 15
-  preprint_only_count: 25
+  published_count: 21
+  preprint_only_count: 19
   active_period: '2009-present'
 external_ids: {}
 links:

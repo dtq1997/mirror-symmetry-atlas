@@ -21,6 +21,21 @@ export default async function PersonPage({
     (c) => c.source === slug || c.target === slug
   );
 
+  // Build slug -> display name map (zh preferred, fallback en, fallback slug)
+  const peopleIndex = new Map<string, { displayName: string; en: string; zh?: string }>();
+  for (const p of getAllPeople()) {
+    const zh = p.name?.zh;
+    const en = p.name?.en || p.slug;
+    peopleIndex.set(p.slug, {
+      displayName: zh && !zh.startsWith('[') ? zh : en,
+      en,
+      zh: zh && !zh.startsWith('[') ? zh : undefined,
+    });
+  }
+  function nameOf(s: string): string {
+    return peopleIndex.get(s)?.displayName ?? s;
+  }
+
   const coauthors = connections
     .filter((c) => c.type === "coauthor")
     .sort((a, b) => (b.weight ?? 0) - (a.weight ?? 0));
@@ -175,7 +190,7 @@ export default async function PersonPage({
                       href={`/people/${otherSlug}`}
                       className="text-sm text-[#f59e0b] hover:text-[#fbbf24] transition-colors"
                     >
-                      {otherSlug}
+                      {nameOf(otherSlug)}
                     </Link>
                     <div className="flex items-center gap-2 text-xs text-[#8888a0] flex-wrap justify-end">
                       {totalKnown > 0 ? (
@@ -265,8 +280,9 @@ export default async function PersonPage({
           <div className="space-y-3">
             {person.key_collaborators.map((collab, idx) => {
               const hasSlug = !!collab.person;
-              const displayName = collab.person || (collab as { name?: string }).name || "";
-              const searchName = (collab.person || (collab as { name?: string }).name || "").replace(/-/g, " ");
+              const collabSlug = collab.person || "";
+              const displayName = collabSlug ? nameOf(collabSlug) : ((collab as { name?: string }).name || "");
+              const searchName = (collabSlug || (collab as { name?: string }).name || "").replace(/-/g, " ");
               // Look up live coauthored_papers from publications-derived edge,
               // so the count + breakdown match the "合著者" panel exactly.
               const matchEdge = coauthors.find((c) => {
@@ -557,7 +573,7 @@ export default async function PersonPage({
                                     href={`/people/${c}`}
                                     className="text-[#f59e0b] hover:text-[#fbbf24]"
                                   >
-                                    {c}
+                                    {nameOf(c)}
                                   </Link>
                                 ) : (
                                   <span>{c}</span>
