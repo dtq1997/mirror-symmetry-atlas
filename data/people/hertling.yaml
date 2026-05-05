@@ -89,8 +89,8 @@ students: []
 key_collaborators: []
 activity:
   total_papers: 72
-  published_count: 72
-  preprint_only_count: 0
+  published_count: 59
+  preprint_only_count: 13
   h_index: 13
   active_period: '1992-present'
   phd_students: 4
@@ -118,7 +118,6 @@ publications:
     title: 'Conjugacy classes of regular integer matrices'
     year: 2026
     coauthors: ['Khadija Larabi']
-    doi: '10.48550/arxiv.2602.15748'
     journal: 'arXiv (Cornell University)'
     primary_category: math.RA
     openalex_id: W7130481930
@@ -127,7 +126,6 @@ publications:
     title: 'Semigroups from full lattices in commutative ${\mathbb Q}$-algebras'
     year: 2026
     coauthors: ['Khadija Larabi']
-    doi: '10.48550/arxiv.2602.14973'
     journal: 'ArXiv.org'
     primary_category: math.RA
     openalex_id: W7130236994
@@ -136,35 +134,30 @@ publications:
     title: 'Characterization of distinguished matrices of isolated hypersurface singularities through their spectral numbers'
     year: 2025
     coauthors: ['Sven Balnojan']
-    doi: '10.48550/arxiv.2508.15497'
     primary_category: math.AG
     sources: [arxiv]
   - id: '2501.08813'
     title: 'Odd vanishing cycles in cyclotomic fields'
     year: 2025
     coauthors: ['Khadija Larabi']
-    doi: '10.48550/arxiv.2501.08813'
     primary_category: math.NT
     sources: [arxiv]
   - id: '2412.17638'
     title: 'Mixed extensions of generic finite games embedded into products of real projective spaces'
     year: 2024
     coauthors: ['Matija Vujic']
-    doi: '10.48550/arxiv.2412.17638'
     primary_category: math.OC
     sources: [arxiv]
   - id: '2412.17890'
     title: 'Maximal number of mixed Nash equilibria in generic games where each player has two pure strategies'
     year: 2024
     coauthors: ['Matija Vujic']
-    doi: '10.48550/arxiv.2412.17890'
     primary_category: math.CO
     sources: [arxiv]
   - id: '2412.16570'
     title: 'Unimodular bilinear lattices, automorphism groups, vanishing cycles, monodromy groups, distinguished bases, braid group actions and moduli spaces from upper triangular matrices'
     year: 2024
     coauthors: ['Khadija Larabi']
-    doi: '10.48550/arxiv.2412.16570'
     primary_category: math.AG
     sources: [arxiv]
   - id: 'doi:10.1112/blms.12736'
@@ -197,7 +190,6 @@ publications:
     title: 'Bilinear forms and hermitian forms for singularities: a survey'
     year: 2020
     coauthors: []
-    doi: '10.48550/arxiv.2011.10099'
     journal: 'Singularités (ed. D. Barlet), Institut Élie Cartan Nancy 18, 2005, 1-17'
     primary_category: math.AG
     sources: [arxiv]
@@ -205,7 +197,7 @@ publications:
     title: 'Rank 2 Bundles with Meromorphic Connections with Poles of Poincaré Rank 1'
     year: 2020
     coauthors: []
-    doi: '10.3842/SIGMA.2021.082'
+    doi: '10.3842/sigma.2021.082'
     journal: 'SIGMA 17 (2021), 082, 73 pages'
     primary_category: math.AG
     sources: [arxiv]
@@ -231,14 +223,12 @@ publications:
     title: '(TE)-structures over the irreducible 2-dimensional globally nilpotent F-manifold germ'
     year: 2020
     coauthors: ['Liana David']
-    doi: '10.48550/arxiv.2001.01063'
     primary_category: math.DG
     sources: [arxiv]
   - id: '1912.03331'
     title: 'Meromorphic connections over F-manifolds'
     year: 2019
     coauthors: ['Liana David']
-    doi: '10.48550/arxiv.1912.03331'
     primary_category: math.DG
     openalex_id: W2993410029
     sources: [arxiv, openalex]
@@ -255,7 +245,6 @@ publications:
     title: 'Distinguished bases and Stokes regions for the simple and the simple elliptic singularities'
     year: 2018
     coauthors: ['C line Roucairol']
-    doi: '10.48550/arxiv.1806.00996'
     primary_category: math.AG
     sources: [arxiv]
   - id: '1801.08272'
@@ -482,7 +471,6 @@ publications:
     title: 'Potentials of a Frobenius like structure and $m$ bases of a vector space'
     year: 2016
     coauthors: ['Alexander Varchenko']
-    doi: '10.48550/arxiv.1608.08423'
     primary_category: math.AG
     sources: [arxiv]
   - id: '1604.07967'
@@ -522,7 +510,6 @@ publications:
     title: 'The Painlevé III equation of type (0,0,4,-4), its associated vector bundles with isomonodromic connections, and the geometry of the movable poles'
     year: 2015
     coauthors: ['Martin A. Guest']
-    doi: '10.48550/arxiv.1501.04812'
     primary_category: math.AG
     sources: [arxiv]
   - id: '1411.4553'
@@ -560,7 +547,7 @@ publications:
     title: 'Examples of non-commutative Hodge structures'
     year: 2009
     coauthors: [sabbah]
-    doi: '10.1017/S147474801100003X'
+    doi: '10.1017/s147474801100003x'
     journal: 'Journal of the Inst. of Math. Jussieu (2011) 10(3), 635--674'
     primary_category: math.AG
     openalex_id: W3100491297
@@ -587,7 +574,6 @@ publications:
     title: 'Twistor structures, tt*-geometry and singularity theory'
     year: 2008
     coauthors: ['Christian Sevenheck']
-    doi: '10.48550/arxiv.0807.2199'
     primary_category: math.AG
     sources: [arxiv]
   - id: '0805.4777'
@@ -671,14 +657,12 @@ publications:
     title: 'Variance of the spectral numbers'
     year: 2000
     coauthors: []
-    doi: '10.48550/arxiv.math/0007187'
     primary_category: math.CV
     sources: [arxiv]
   - id: '9910116'
     title: 'Multiplication on the tangent bundle'
     year: 1999
     coauthors: []
-    doi: '10.48550/arxiv.math/9910116'
     primary_category: math.AG
     sources: [arxiv]
   - id: 'doi:10.1023/a:1000638508890'

@@ -131,6 +131,11 @@ students:
   - tian-gang
 key_collaborators: []
 publications:
+  - id: '2602.04140'
+    title: 'Path homology of circulant digraphs'
+    year: 2026
+    coauthors: []
+    primary_category: math.CO
   - id: '2510.05470'
     title: 'Mirror symmetry for singular double cover Calabi--Yau varieties: quantum test'
     year: 2025
@@ -141,34 +146,282 @@ publications:
     year: 2025
     coauthors: [li-ao]
     primary_category: math.AG
+  - id: 'doi:10.4310/iccm.250429110400'
+    title: 'The beauty of mathematics'
+    year: 2025
+    coauthors: []
+    doi: '10.4310/iccm.250429110400'
+    journal: 'Notices of the International Consortium of Chinese Mathematicians'
+    sources: [crossref]
+    no_arxiv: true
+  - id: 'doi:10.4310/iccm.250429102904'
+    title: 'In memory of my old friend Richard Hamilton'
+    year: 2025
+    coauthors: []
+    doi: '10.4310/iccm.250429102904'
+    journal: 'Notices of the International Consortium of Chinese Mathematicians'
+    sources: [crossref]
+    no_arxiv: true
+  - id: 'doi:10.4310/cag.260405004020'
+    title: 'Einstein-Yang-Mills equations in the double null framework'
+    year: 2025
+    coauthors: []
+    doi: '10.4310/cag.260405004020'
+    journal: 'Communications in Analysis and Geometry'
+    sources: [crossref]
+    no_arxiv: true
+  - id: 'doi:10.4310/iccm.241025170753'
+    title: 'Open Problems in Geometry'
+    year: 2024
+    coauthors: []
+    doi: '10.4310/iccm.241025170753'
+    journal: 'Notices of the International Consortium of Chinese Mathematicians'
+    sources: [crossref]
+    no_arxiv: true
+  - id: 'doi:10.4310/iccm.2023.v11.n2.a9'
+    title: 'Remembering John Coates, the great friend of Chinese mathematics'
+    year: 2023
+    coauthors: []
+    doi: '10.4310/iccm.2023.v11.n2.a9'
+    journal: 'Notices of the International Consortium of Chinese Mathematicians'
+    sources: [crossref]
+    no_arxiv: true
+  - id: 'doi:10.4310/iccm.2023.v11.n1.a1'
+    title: 'Welcome message from the Editor-in-Chief'
+    year: 2023
+    coauthors: []
+    doi: '10.4310/iccm.2023.v11.n1.a1'
+    journal: 'Notices of the International Consortium of Chinese Mathematicians'
+    sources: [crossref]
+    no_arxiv: true
+  - id: 'doi:10.4310/iccm.2023.v11.n2.a8'
+    title: 'A century of legends: Remembering Calabi'
+    year: 2023
+    coauthors: []
+    doi: '10.4310/iccm.2023.v11.n2.a8'
+    journal: 'Notices of the International Consortium of Chinese Mathematicians'
+    sources: [crossref]
+    no_arxiv: true
+  - id: '2208.14063'
+    title: 'Minimal Path and Acyclic Models in the Path Complex'
+    year: 2022
+    coauthors: []
+    primary_category: math.AT
+  - id: 'doi:10.4310/iccm.2022.v10.n1.a1'
+    title: 'Optimal transport for generative models'
+    year: 2022
+    coauthors: []
+    doi: '10.4310/iccm.2022.v10.n1.a1'
+    journal: 'Notices of the International Consortium of Chinese Mathematicians'
+    sources: [crossref]
+    no_arxiv: true
+  - id: 'doi:10.4310/iccm.2021.v9.n1.a1'
+    title: 'Existence of canonical metrics in non-Kähler geometry'
+    year: 2021
+    coauthors: []
+    doi: '10.4310/iccm.2021.v9.n1.a1'
+    journal: 'Notices of the International Congress of Chinese Mathematicians'
+    sources: [crossref]
+    no_arxiv: true
+  - id: 'doi:10.4310/iccm.2021.v9.n2.a1'
+    title: '数学史大纲 (Brief History of Math)'
+    year: 2021
+    coauthors: []
+    doi: '10.4310/iccm.2021.v9.n2.a1'
+    journal: 'Notices of the International Congress of Chinese Mathematicians'
+    sources: [crossref]
+    no_arxiv: true
+  - id: 'doi:10.4310/sdg.2021.v26.n1.a10'
+    title: 'Shiing-Shen Chern: as a great geometer of 20th century'
+    year: 2021
+    coauthors: []
+    doi: '10.4310/sdg.2021.v26.n1.a10'
+    journal: 'Surveys in Differential Geometry'
+    sources: [crossref]
+    no_arxiv: true
+  - id: 'doi:10.4310/atmp.2021.v25.n1.a3'
+    title: 'Quasi-local mass near the singularity, the event horizon and the null infinity of black hole spacetimes'
+    year: 2021
+    coauthors: []
+    doi: '10.4310/atmp.2021.v25.n1.a3'
+    journal: 'Advances in Theoretical and Mathematical Physics'
+    sources: [crossref]
+    no_arxiv: true
   - id: '2003.07148'
     title: 'Mirror symmetry for double cover Calabi--Yau varieties'
     year: 2020
     coauthors: ['Shinobu Hosono', 'Tsung-Ju Lee', 'Bong H. Lian']
     primary_category: math.AG
+  - id: 'doi:10.4310/iccm.2020.v8.n1.a1'
+    title: 'Shiing-Shen Chern: A Great Geometer of 20th Century'
+    year: 2020
+    coauthors: []
+    doi: '10.4310/iccm.2020.v8.n1.a1'
+    journal: 'Notices of the International Congress of Chinese Mathematicians'
+    sources: [crossref]
+    no_arxiv: true
+  - id: 'doi:10.4310/iccm.2020.v8.n1.a8'
+    title: 'Open Problems'
+    year: 2020
+    coauthors: []
+    doi: '10.4310/iccm.2020.v8.n1.a8'
+    journal: 'Notices of the International Congress of Chinese Mathematicians'
+    sources: [crossref]
+    no_arxiv: true
+  - id: 'doi:10.4310/iccm.2019.v7.n2.a1'
+    title: 'Hodge bundles on smooth compactifications of Siegel varieties and applications'
+    year: 2019
+    coauthors: []
+    doi: '10.4310/iccm.2019.v7.n2.a1'
+    journal: 'Notices of the International Congress of Chinese Mathematicians'
+    sources: [crossref]
+    no_arxiv: true
   - id: '1802.06751'
     title: 'Seiberg-Witten differential via primitive forms'
     year: 2018
-    coauthors: [si-li, 'Dan Xie']
+    coauthors: ['Dan Xie', si-li]
     doi: '10.1007/s00220-019-03401-y'
     journal: 'Commun. Math. Phys. (2019)'
     primary_category: hep-th
+  - id: 'doi:10.4310/iccm.2018.v6.n2.a2'
+    title: 'Geometry motivated by physics'
+    year: 2018
+    coauthors: []
+    doi: '10.4310/iccm.2018.v6.n2.a2'
+    journal: 'Notices of the International Congress of Chinese Mathematicians'
+    sources: [crossref]
+    no_arxiv: true
+  - id: 'doi:10.4310/iccm.2017.v5.n2.a1'
+    title: 'Geometry and Physics'
+    year: 2017
+    coauthors: []
+    doi: '10.4310/iccm.2017.v5.n2.a1'
+    journal: 'Notices of the International Congress of Chinese Mathematicians'
+    sources: [crossref]
+    no_arxiv: true
+  - id: 'doi:10.4310/iccm.2017.v5.n1.a1'
+    title: 'From Riemann and Kodaira to Modern Developments on Complex Manifolds'
+    year: 2017
+    coauthors: []
+    doi: '10.4310/iccm.2017.v5.n1.a1'
+    journal: 'Notices of the International Congress of Chinese Mathematicians'
+    sources: [crossref]
+    no_arxiv: true
+  - id: 'doi:10.4310/cag.2017.v25.n3.a3'
+    title: 'A strong Harnack inequality for graphs'
+    year: 2017
+    coauthors: []
+    doi: '10.4310/cag.2017.v25.n3.a3'
+    journal: 'Communications in Analysis and Geometry'
+    sources: [crossref]
+    no_arxiv: true
+  - id: '1609.04363'
+    title: 'On topological approach to local theory of surfaces in Calabi-Yau threefolds'
+    year: 2016
+    coauthors: ['Sergei Gukov', 'Artan Sheshmani']
+    doi: '10.4310/atmp.2017.v21.n7.a4'
+    journal: 'Adv. Theor. Math. Phys. 21 (2017), no. 7, 1679-1728'
+    primary_category: math.AG
+    openalex_id: W2521095344
+    sources: [arxiv, openalex]
   - id: '1609.04363'
     title: 'On topological approach to local theory of surfaces in Calabi-Yau threefolds'
     year: 2016
     coauthors: ['Sergei Gukov', liu-melissa, 'Artan Sheshmani']
     journal: 'Adv. Theor. Math. Phys. 21 (2017), no. 7, 1679-1728'
     primary_category: math.AG
+  - id: 'doi:10.4310/iccm.2016.v4.n1.a1'
+    title: 'Geometry of space, physics and analysis'
+    year: 2016
+    coauthors: []
+    doi: '10.4310/iccm.2016.v4.n1.a1'
+    journal: 'Notices of the International Congress of Chinese Mathematicians'
+    sources: [crossref]
+    no_arxiv: true
+  - id: 'doi:10.4310/cag.2016.v24.n4.a9'
+    title: 'A remark on our paper “Negative holomorphic curvature and positive canonical bundle”'
+    year: 2016
+    coauthors: []
+    doi: '10.4310/cag.2016.v24.n4.a9'
+    journal: 'Communications in Analysis and Geometry'
+    sources: [crossref]
+    no_arxiv: true
+  - id: 'doi:10.4310/iccm.2015.v3.n1.a11'
+    title: 'Inauguration of the Shing-Tung Yau Center at Tsinghua University'
+    year: 2015
+    coauthors: []
+    doi: '10.4310/iccm.2015.v3.n1.a11'
+    journal: 'Notices of the International Congress of Chinese Mathematicians'
+    sources: [crossref]
+    no_arxiv: true
+  - id: 'doi:10.4310/iccm.2015.v3.n2.a1'
+    title: 'A Brief History of Kähler Geometry'
+    year: 2015
+    coauthors: []
+    doi: '10.4310/iccm.2015.v3.n2.a1'
+    journal: 'Notices of the International Congress of Chinese Mathematicians'
+    sources: [crossref]
+    no_arxiv: true
+  - id: 'doi:10.4310/iccm.2015.v3.n1.a4'
+    title: '3D Technology and Its Impact on the Future of Technology'
+    year: 2015
+    coauthors: []
+    doi: '10.4310/iccm.2015.v3.n1.a4'
+    journal: 'Notices of the International Congress of Chinese Mathematicians'
+    sources: [crossref]
+    no_arxiv: true
+  - id: 'doi:10.4310/iccm.2015.v3.n1.a1'
+    title: 'The Center of Mathematical Sciences and Applications at Harvard University'
+    year: 2015
+    coauthors: []
+    doi: '10.4310/iccm.2015.v3.n1.a1'
+    journal: 'Notices of the International Congress of Chinese Mathematicians'
+    sources: [crossref]
+    no_arxiv: true
+  - id: 'doi:10.4310/iccm.2014.v2.n1.a1'
+    title: 'Mathematics: Its content, methods, and meaning'
+    year: 2014
+    coauthors: []
+    doi: '10.4310/iccm.2014.v2.n1.a1'
+    journal: 'Notices of the International Congress of Chinese Mathematicians'
+    sources: [crossref]
+    no_arxiv: true
+  - id: 'doi:10.4310/pamq.2014.v10.n3.a6'
+    title: 'An explicit formula of hitting times for random walks on graphs'
+    year: 2014
+    coauthors: []
+    doi: '10.4310/pamq.2014.v10.n3.a6'
+    journal: 'Pure and Applied Mathematics Quarterly'
+    sources: [crossref]
+    no_arxiv: true
   - id: '0910.4215'
     title: 'Picard-Fuchs Equations for Relative Periods and Abel-Jacobi Map for Calabi-Yau Hypersurfaces'
     year: 2009
-    coauthors: [si-li, 'Bong H. Lian']
+    coauthors: ['Bong H. Lian', si-li]
     primary_category: math.AG
   - id: '0809.2121'
     title: 'Morphisms from Azumaya prestable curves with a fundamental module to a projective variety: Topological D-strings as a master object for curves'
     year: 2008
-    coauthors: [si-li, li-ao, 'Ruifang Song']
+    coauthors: [li-ao, 'Ruifang Song', si-li]
     primary_category: math.AG
+  - id: '0412292'
+    title: 'Positivity of quasi-local mass II'
+    year: 2004
+    coauthors: []
+    doi: '10.1090/s0894-0347-05-00497-2'
+    journal: 'J. Amer. Math. Soc. 19 (2006), no.1, 181-204'
+    primary_category: math.DG
+    openalex_id: W1571962299
+    sources: [arxiv, openalex]
+  - id: 'doi:10.1103/physrevlett.92.259002'
+    title: 'Liu and Yau Reply:'
+    year: 2004
+    coauthors: []
+    doi: '10.1103/physrevlett.92.259002'
+    journal: 'Physical Review Letters'
+    openalex_id: W3111515939
+    sources: [openalex]
+    no_arxiv: true
   - id: '0412292'
     title: 'Positivity of quasi-local mass II'
     year: 2004
@@ -179,18 +432,37 @@ publications:
     title: 'Positivity of Quasilocal Mass'
     year: 2003
     coauthors: [liu-melissa]
-    doi: '10.1103/PhysRevLett.90.231102'
+    doi: '10.1103/physrevlett.90.231102'
     journal: 'Phys.Rev.Lett.90:231102,2003'
     primary_category: gr-qc
+    openalex_id: W2015106666
+    sources: [arxiv, openalex]
+  - id: 'openalex:W2788597912'
+    title: 'New definition of quasilocal mass and its positivity'
+    year: 2003
+    coauthors: []
+    journal: 'arXiv (Cornell University)'
+    openalex_id: W2788597912
+    sources: [openalex]
+    no_arxiv: true
+  - id: '0005118'
+    title: 'From Special Lagrangian to Hermitian-Yang-Mills via Fourier-Mukai Transform'
+    year: 2000
+    coauthors: ['Eric Zaslow']
+    doi: '10.4310/atmp.2000.v4.n6.a5'
+    journal: 'Adv.Theor.Math.Phys. 4 (2002) 1319-1341'
+    primary_category: math.DG
+    openalex_id: W1804902553
+    sources: [arxiv, openalex]
   - id: '0012196'
     title: 'Fourier-Mukai Transform and Mirror Symmetry for D-Branes on Elliptic Calabi-Yau'
     year: 2000
     coauthors: ['Bjorn Andreas', 'Gottfried Curio', 'Daniel Hernandez Ruiperez']
     primary_category: math.AG
 activity:
-  total_papers: 10
-  published_count: 4
-  preprint_only_count: 6
+  total_papers: 44
+  published_count: 36
+  preprint_only_count: 8
   active_period: '1971-present'
 external_ids:
   mathgenealogy: "18758"

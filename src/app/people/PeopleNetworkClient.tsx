@@ -84,13 +84,15 @@ export default function PeopleNetworkClient({ graphData, people, institutionName
                         href={`/people/${p.slug}`}
                         className="text-[#f59e0b] hover:text-[#fbbf24] transition-colors"
                       >
-                        {p.name.en}
+                        {p.name.zh && !p.name.zh.startsWith("[") && !p.name.zh.startsWith("待")
+                          ? p.name.zh
+                          : p.name.en}
                       </Link>
-                      {p.name.zh && (
-                        <span className="text-[#8888a0] ml-2 text-xs">
-                          {p.name.zh}
-                        </span>
-                      )}
+                      <span className="text-[#8888a0] ml-2 text-xs">
+                        {p.name.zh && !p.name.zh.startsWith("[") && !p.name.zh.startsWith("待")
+                          ? p.name.en
+                          : null}
+                      </span>
                     </td>
                     <td className="py-2.5 pr-4 text-[#8888a0]">
                       {p.nationality || "—"}

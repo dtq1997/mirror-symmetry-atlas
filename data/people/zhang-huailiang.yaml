@@ -159,22 +159,19 @@ publications:
     title: 'Irregular vanishing on P^2 × P^2'
     year: 2025
     coauthors: ['Sanghyeon Lee', 'Jun Li']
-    doi: '10.48550/arxiv.2504.09552'
     primary_category: math.AG
     sources: [arxiv]
   - id: '2312.11197'
     title: 'A boundedness theorem for principal bundles on curves'
     year: 2023
-    coauthors: [guo-shuai, 'Jun Li', 'Wei-Ping Li', 'Yang Zhou']
-    doi: '10.48550/arxiv.2312.11197'
+    coauthors: ['Jun Li', 'Wei-Ping Li', 'Yang Zhou', guo-shuai]
     primary_category: math.AG
     openalex_id: W4390041030
     sources: [arxiv, openalex]
   - id: '2312.11174'
     title: 'Stability conditions in the mathematical Gauged Linear Sigma Model'
     year: 2023
-    coauthors: [guo-shuai, 'Jun Li', 'Wei-Ping Li', 'Yang Zhou']
-    doi: '10.48550/arxiv.2312.11174'
+    coauthors: ['Jun Li', 'Wei-Ping Li', 'Yang Zhou', guo-shuai]
     journal: 'Open MIND'
     primary_category: math.AG
     openalex_id: W4390040998
@@ -188,6 +185,16 @@ publications:
     openalex_id: W3209265925
     sources: [openalex]
     no_arxiv: true
+  - id: '2003.00348'
+    title: 'Structure of Higher Genus GW Invariants of Quintic 3-folds'
+    year: 2020
+    coauthors: ['Jun Li']
+    sources: [arxiv]
+  - id: '1903.11673'
+    title: 'Structures in Higher Genus Enumerative Geometry'
+    year: 2019
+    coauthors: ['Jun Li', 'Wei-Ping Li']
+    sources: [arxiv]
   - id: '1907.06152'
     title: 'On the mathematics and physics of Mixed Spin P-Fields'
     year: 2019
@@ -197,26 +204,24 @@ publications:
     primary_category: math.AG
     sources: [arxiv]
   - id: '1810.00394'
-    title: 'BCOV''s Feynman rule of quintic 3-folds'
+    title: 'BCOV''s Feynman rule of quintic $3$-folds'
     year: 2018
-    coauthors: [guo-shuai, 'Jun Li']
-    doi: '10.48550/arxiv.1810.00394'
+    coauthors: ['Jun Li', guo-shuai]
     primary_category: math.AG
     openalex_id: W2920263040
     sources: [arxiv, openalex]
   - id: '1809.11058'
-    title: 'Polynomial structure of Gromov-Witten potential of quintic 3-folds via NMSP'
+    title: 'Polynomial structure of Gromov-Witten potential of quintic $3$-folds via NMSP'
     year: 2018
-    coauthors: [guo-shuai, 'Jun Li']
-    doi: '10.48550/arxiv.1809.11058'
+    coauthors: ['Jun Li', guo-shuai]
     journal: 'Ann. of Math. 194 (2021)'
     primary_category: math.AG
     openalex_id: W2892497092
     sources: [arxiv, openalex]
   - id: '1809.08806'
-    title: 'The theory of N-Mixed-Spin-P fields'
+    title: 'Polynomial Structure of GW Potential of Quintic'
     year: 2018
-    coauthors: [guo-shuai, 'Jun Li', 'Wei-Ping Li']
+    coauthors: ['Jun Li', guo-shuai, 'Wei-Ping Li']
     doi: '10.2140/gt.2021.25.775'
     journal: 'Geom. Topol. 25 (2021) 775-811'
     primary_category: math.AG
@@ -249,8 +254,7 @@ publications:
   - id: '1711.10118'
     title: 'Genus one GW invariants of quintic threefolds via MSP localization'
     year: 2017
-    coauthors: [guo-shuai, 'Wei-Ping Li', 'Jie Zhou']
-    doi: '10.48550/arxiv.1711.10118'
+    coauthors: ['Wei-Ping Li', 'Jie Zhou', guo-shuai]
     journal: 'International Mathematics Research Notices, Volume 2020, Issue 19, October 2020, Pages 6421-6462'
     primary_category: math.AG
     openalex_id: W2770763159
@@ -264,13 +268,22 @@ publications:
     primary_category: math.AG
     sources: [arxiv]
   - id: '1603.06184'
-    title: 'An effective theory of GW and FJRW invariants of quintic Calabi-Yau manifolds'
+    title: 'An effective theory of GW and FJRW invariants of quintics Calabi-Yau manifolds'
     year: 2016
     coauthors: ['Jun Li', 'Wei-Ping Li', liu-melissa]
     doi: '10.4310/jdg/1645207466'
     journal: 'Journal of Differential Geometry'
     primary_category: math.AG
-    sources: [arxiv]
+    openalex_id: W2304845370
+    sources: [arxiv, openalex]
+  - id: '1603.02092'
+    title: 'A survey on mixed spin P-fields'
+    year: 2016
+    coauthors: ['Jun Li', 'Wei-Ping Li']
+    journal: 'Chin. Ann. Math. Ser. B 38 (2017), no. 4, 869-882'
+    primary_category: math.AG
+    openalex_id: W2293883598
+    sources: [arxiv, openalex]
   - id: '1603.02092'
     title: 'A survey on mixed spin P-fields'
     year: 2016
@@ -279,20 +292,19 @@ publications:
     journal: 'Chin. Ann. Math. Ser. B 38 (2017), no. 4, 869-882'
     primary_category: math.AG
     sources: [arxiv]
+  - id: '1505.07532'
+    title: 'Mixed-Spin-P fields of Fermat quintic polynomials'
+    year: 2015
+    coauthors: ['Jun Li', 'Wei-Ping Li', liu-melissa]
+    journal: 'Camb. J. Math. (2019)'
+    primary_category: math.AG
+    sources: [arxiv]
   - id: '1508.02769'
     title: 'Virtual Residue and an integral formalism'
     year: 2015
     coauthors: ['Mu-Lin Li']
     doi: '10.1007/s12220-018-9980-y'
     journal: 'Journal of Geometric Analysis'
-    primary_category: math.AG
-    sources: [arxiv]
-  - id: '1505.07532'
-    title: 'Mixed-Spin-P fields of Fermat quintic polynomials'
-    year: 2015
-    coauthors: ['Jun Li', 'Wei-Ping Li', liu-melissa]
-    doi: '10.48550/arxiv.1505.07532'
-    journal: 'Camb. J. Math. (2019)'
     primary_category: math.AG
     sources: [arxiv]
   - id: '1502.00078'
@@ -324,21 +336,18 @@ publications:
     title: 'Poincare invariants are Seiberg-Witten invariants'
     year: 2012
     coauthors: ['Young-Hoon Kiem']
-    doi: '10.48550/arxiv.1205.0848'
     primary_category: math.AG
     sources: [arxiv]
   - id: '1105.3261'
     title: 'Semi-Perfect Obstruction theory and DT Invariants of Derived Objects'
     year: 2011
     coauthors: ['Jun Li']
-    doi: '10.48550/arxiv.1105.3261'
     primary_category: math.AG
     sources: [arxiv]
   - id: '1101.0914'
     title: 'Gromov-Witten invariants of stable maps with fields'
     year: 2011
     coauthors: ['Jun Li']
-    doi: '10.48550/arxiv.1101.0914'
     primary_category: math.AG
     sources: [arxiv]
   - id: 'openalex:W2588744237'
@@ -352,20 +361,18 @@ publications:
     title: 'Derived Kodaira Spencer map, Cosection lemma, and semiregularity'
     year: 2008
     coauthors: []
-    doi: '10.48550/arxiv.0808.0988'
     primary_category: math.AG
     sources: [arxiv]
   - id: '0711.4529'
     title: 'Donaldson Thomas invariant of P^1 scroll'
     year: 2007
     coauthors: []
-    doi: '10.48550/arxiv.0711.4529'
     primary_category: math.AG
     sources: [arxiv]
 activity:
-  total_papers: 27
-  published_count: 26
-  preprint_only_count: 1
+  total_papers: 30
+  published_count: 19
+  preprint_only_count: 11
   active_period: '2007-present'
   confidence: 'has-37-review-pending'
 external_ids:

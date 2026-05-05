@@ -56,16 +56,17 @@ export default async function PersonPage({
           人物
         </Link>
         <span className="mx-2">/</span>
-        <span className="text-[#e8e8f0]">{person.name.en}</span>
+        <span className="text-[#e8e8f0]">{nameOf(slug)}</span>
       </div>
 
       {/* Header */}
       <div className="mb-8">
         <h1 className="text-3xl font-bold text-[#e8e8f0] mb-1">
-          {person.name.en}
+          {nameOf(slug)}
         </h1>
-        {person.name.zh && (
-          <p className="text-xl text-[#8888a0]">{person.name.zh}</p>
+        {/* Show the OTHER name form below the title for context */}
+        {peopleIndex.get(slug)?.zh && (
+          <p className="text-xl text-[#8888a0]">{person.name.en}</p>
         )}
         <div className="flex items-center gap-3 mt-2 text-sm text-[#8888a0]">
           {person.nationality && <span>{person.nationality}</span>}

@@ -99,7 +99,6 @@ publications:
     title: 'Polystability of Stokes representations and differential Galois groups'
     year: 2023
     coauthors: ['Daisuke Yamakawa']
-    doi: '10.48550/arxiv.2301.09067'
     primary_category: math.AG
     openalex_id: W4317940337
     sources: [arxiv, openalex]
@@ -107,7 +106,7 @@ publications:
     title: 'Twisted local wild mapping class groups: configuration spaces, fission trees and complex braids'
     year: 2022
     coauthors: ['Jean Douçot', 'Gabriele Rembado']
-    doi: '10.4171/PRIMS/61-3-4'
+    doi: '10.4171/prims/61-3-4'
     journal: 'Publ. R.I.M.S. 61 (2025) no. 3, 391-445'
     primary_category: math.AG
     openalex_id: W4297987151
@@ -134,7 +133,6 @@ publications:
     title: 'Topology of the Stokes phenomenon'
     year: 2019
     coauthors: []
-    doi: '10.48550/arxiv.1903.12612'
     journal: 'Proc. Symp. Pure Math. 103 (2021) 55-100'
     primary_category: math.AG
     openalex_id: W2935232120
@@ -152,7 +150,6 @@ publications:
     title: 'Twisted wild character varieties'
     year: 2015
     coauthors: ['Daisuke Yamakawa']
-    doi: '10.48550/arxiv.1512.08091'
     primary_category: math.AG
     openalex_id: W2210343618
     sources: [arxiv, openalex]
@@ -185,14 +182,12 @@ publications:
     title: 'Symmetric cubic surfaces and G_2 character varieties'
     year: 2013
     coauthors: ['Robert Paluba']
-    doi: '10.48550/arxiv.1305.6594'
     primary_category: math.AG
     sources: [arxiv]
   - id: '1305.6593'
     title: 'Geometry of moduli spaces of meromorphic connections on curves, Stokes data, wild nonabelian Hodge theory, hyperkahler manifolds, isomonodromic deformations, Painleve equations, and relations to Lie theory'
     year: 2013
     coauthors: []
-    doi: '10.48550/arxiv.1305.6593'
     primary_category: math.HO
     openalex_id: W2164657536
     sources: [arxiv, openalex]
@@ -225,7 +220,6 @@ publications:
     title: 'Hyperkahler manifolds and nonabelian Hodge theory of (irregular) curves'
     year: 2012
     coauthors: []
-    doi: '10.48550/arxiv.1203.6607'
     primary_category: math.AG
     sources: [arxiv]
   - id: 'openalex:W1593850510'
@@ -254,7 +248,6 @@ publications:
     title: 'Irregular connections and Kac-Moody root systems'
     year: 2008
     coauthors: []
-    doi: '10.48550/arxiv.0806.1050'
     journal: 'The main statements (and some further results) were published in "Simply-laced isomonodromy systems, Publ. Math. IHES 116 (2012) no. 1, 1-68"'
     primary_category: math.DG
     sources: [arxiv]
@@ -262,14 +255,12 @@ publications:
     title: 'Towards a nonlinear Schwarz''s list'
     year: 2007
     coauthors: []
-    doi: '10.48550/arxiv.0707.3375'
     primary_category: math.CA
     sources: [arxiv]
   - id: '0706.2634'
     title: 'Quivers and difference Painleve equations'
     year: 2007
     coauthors: []
-    doi: '10.48550/arxiv.0706.2634'
     primary_category: math.AG
     sources: [arxiv]
   - id: 'openalex:W4307615951'
@@ -299,7 +290,6 @@ publications:
     title: 'Six results on Painleve VI'
     year: 2005
     coauthors: []
-    doi: '10.48550/arxiv.math/0503043'
     primary_category: math.AG
     sources: [arxiv]
   - id: '0501464'
@@ -331,7 +321,7 @@ publications:
     title: 'Quasi-Hamiltonian Geometry of Meromorphic Connections'
     year: 2002
     coauthors: []
-    doi: '10.1215/S0012-7094-07-13924-3'
+    doi: '10.1215/s0012-7094-07-13924-3'
     journal: 'Duke Math. J. 139 (2007), no. 2, 369-405 (section 6 of the published version "Global moduli spaces" is not in this 2002 arxiv version)'
     primary_category: math.DG
     sources: [arxiv]
@@ -339,7 +329,6 @@ publications:
     title: 'Wild nonabelian Hodge theory on curves'
     year: 2001
     coauthors: ['Olivier Biquard']
-    doi: '10.48550/arxiv.math/0111098'
     primary_category: math.DG
     sources: [arxiv]
   - id: '0108152'
@@ -368,8 +357,8 @@ publications:
     no_arxiv: true
 activity:
   total_papers: 35
-  published_count: 32
-  preprint_only_count: 3
+  published_count: 23
+  preprint_only_count: 12
   h_index: 19
   active_period: '1999-present'
   phd_students: 4

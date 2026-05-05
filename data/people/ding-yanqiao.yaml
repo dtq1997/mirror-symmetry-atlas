@@ -120,7 +120,6 @@ publications:
     title: 'The uniform asymptotics for real double Hurwitz numbers with triple ramification II: lower bounds and asymptotics'
     year: 2026
     coauthors: [li-kui, liu-huan, yan-dongfeng]
-    doi: '10.48550/arxiv.2602.04191'
     journal: 'arXiv (Cornell University)'
     primary_category: math.CO
     openalex_id: W7127983477
@@ -161,7 +160,7 @@ publications:
   - id: 'doi:10.1021/acsanm.4c06383'
     title: 'Nickel-Doped Tin Selenide Nanosheets for Detection of NO<sub>2</sub> at pbb Levels with Fast Response and Recovery at Room Temperature'
     year: 2025
-    coauthors: ['Yingchun Dong', 'Jiongyue Hao', 'Yijie Shi', 'Wen Niu', 'Yuanting Yu', 'Hangyu Liu', 'Chun Huang', 'Yuhui He', 'Yuhui He', 'Xiangshui Miao', 'Weida Hu', 'Yong He', 'Yong He']
+    coauthors: ['Yingchun Dong', 'Jiongyue Hao', 'Yijie Shi', 'Wen Niu', 'Yuanting Yu', 'Hangyu Liu', 'Chun Huang', 'Yuhui He', 'Xiangshui Miao', 'Weida Hu', 'Yong He']
     doi: '10.1021/acsanm.4c06383'
     journal: 'ACS Applied Nano Materials'
     openalex_id: W4406156844
@@ -180,7 +179,6 @@ publications:
     title: 'The uniform asymptotics for real double Hurwitz numbers with triple ramification I: the tropical correspondence'
     year: 2023
     coauthors: [li-kui, liu-huan, yan-dongfeng]
-    doi: '10.48550/arxiv.2303.03671'
     primary_category: math.AG
     openalex_id: W4323650706
     sources: [arxiv, openalex]
@@ -215,7 +213,6 @@ publications:
     title: 'Asymptotics for real monotone double Hurwitz numbers'
     year: 2022
     coauthors: ['Qinhao He']
-    doi: '10.48550/arxiv.2210.06880'
     journal: 'Journal of Combinatorial Theory Series A'
     primary_category: math.AG
     openalex_id: W4306309377
@@ -232,7 +229,7 @@ publications:
   - id: 'doi:10.1039/d2ta04317c'
     title: 'Indium-doping-induced selenium vacancy engineering of layered tin diselenide for improving room-temperature sulfur dioxide gas sensing'
     year: 2022
-    coauthors: ['Xuezheng Guo', 'Yijie Shi', 'Yuhui He', 'Yuhui He', 'Bingsheng Du', 'Chengyao Liang', 'Yiling Tan', 'Peilin Liu', 'Xiangshui Miao', 'Yong He', 'Yong He', 'Xi Yang']
+    coauthors: ['Xuezheng Guo', 'Yijie Shi', 'Yuhui He', 'Bingsheng Du', 'Chengyao Liang', 'Yiling Tan', 'Peilin Liu', 'Xiangshui Miao', 'Yong He', 'Xi Yang']
     doi: '10.1039/d2ta04317c'
     journal: 'Journal of Materials Chemistry A'
     openalex_id: W4312815314
@@ -305,7 +302,6 @@ publications:
     title: 'A remark on Gromov-Witten-Welschinger invariants of $\mathbb{C}P^3\#\overline{\mathbb{C}P}^3$'
     year: 2019
     coauthors: []
-    doi: '10.48550/arxiv.1902.07486'
     primary_category: math.AG
     openalex_id: W2922454283
     sources: [arxiv, openalex]
@@ -330,7 +326,6 @@ publications:
     title: 'Higher genus Welschinger invariants under real surgeries (Genus decreasing formula)'
     year: 2017
     coauthors: []
-    doi: '10.48550/arxiv.1710.03603'
     primary_category: math.SG
     openalex_id: W2760887666
     sources: [arxiv, openalex]
@@ -374,7 +369,6 @@ publications:
     title: 'The Weinstein Conjecture in Product of Symplectic Manifolds'
     year: 2015
     coauthors: [hu-jianxun]
-    doi: '10.48550/arxiv.1504.07111'
     journal: 'Acta Mathematica Scientia'
     primary_category: math.SG
     openalex_id: W1913596887
@@ -406,6 +400,13 @@ publications:
     openalex_id: W2560265063
     sources: [openalex]
     no_arxiv: true
+  - id: '1504.07111'
+    title: 'The Weinstein Conjecture in Product of Symplectic Manifolds'
+    year: 2015
+    coauthors: []
+    doi: '10.1016/s0252-9602(16)30067-4'
+    journal: 'Acta Mathematica Scientia'
+    primary_category: math.SG
   - id: 'openalex:W4289950356'
     title: 'Definition of Multi-State Weighted k-out-of-n: F System'
     year: 2012
@@ -414,9 +415,9 @@ publications:
     sources: [openalex]
     no_arxiv: true
 activity:
-  total_papers: 34
-  published_count: 32
-  preprint_only_count: 2
+  total_papers: 35
+  published_count: 30
+  preprint_only_count: 5
   active_period: '2015-present'
   peak_period: '2023-present'
 external_ids:

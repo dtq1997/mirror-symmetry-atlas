@@ -99,10 +99,9 @@ key_collaborators:
   papers_count: 1
 publications:
   - id: '2511.10082'
-    title: 'Total partition function with fermionic number fluxes of local toric CY threefold and KP integrability'
+    title: 'Total partition function with fermionic number fluxes of local toric Calabi--Yau threefold and KP integrability'
     year: 2025
     coauthors: [yang-chenglang, zhou-jian]
-    doi: '10.48550/arxiv.2511.10082'
     primary_category: math-ph
     openalex_id: W4416425862
     sources: [arxiv, openalex]
@@ -124,19 +123,26 @@ publications:
     openalex_id: W4407196408
     sources: [openalex]
     no_arxiv: true
+  - id: 'doi:10.1016/j.aim.2024.110100'
+    title: 'BKP-affine coordinates and emergent geometry of generalized Brézin-Gross-Witten tau-functions'
+    year: 2025
+    coauthors: [zhang-qingsheng]
+    doi: '10.1016/j.aim.2024.110100'
+    journal: 'Advances in Mathematics'
+    openalex_id: W4406119208
+    sources: [crossref, openalex]
+    no_arxiv: true
   - id: '2408.03212'
     title: 'On N-Coefficient Binomial Polynomiality of Hurwitz Numbers and Generalized Dessin Counting'
     year: 2024
     coauthors: [yang-chenglang]
-    doi: '10.48550/arxiv.2408.03212'
     primary_category: math.CO
     openalex_id: W4403622873
     sources: [arxiv, openalex]
   - id: '2401.12726'
-    title: 'On a Proof of the ADKMV Conjecture -- 3-KP Integrability of the Topological Vertex'
+    title: 'On a Proof of the ADKMV Conjecture -- $3$-KP Integrability of the Topological Vertex'
     year: 2024
     coauthors: [yang-chenglang, zhou-jian]
-    doi: '10.48550/arxiv.2401.12726'
     primary_category: math-ph
     openalex_id: W4391212525
     sources: [arxiv, openalex]
@@ -162,14 +168,13 @@ publications:
     title: 'BKP-Affine Coordinates and Emergent Geometry of Generalized BGW Tau-Functions'
     year: 2023
     coauthors: [yang-chenglang, zhang-qingsheng]
-    doi: '10.48550/arxiv.2301.01131'
     primary_category: math-ph
     openalex_id: W4313533009
     sources: [arxiv, openalex]
   - id: '2211.08687'
     title: 'Kac-Schwarz Operators of Type B, Quantum Spectral Curves, and Spin Hurwitz Numbers'
     year: 2022
-    coauthors: [ji-ce, yang-chenglang]
+    coauthors: [yang-chenglang, ji-ce]
     doi: '10.1016/j.geomphys.2023.104831'
     journal: 'Journal of Geometry and Physics'
     primary_category: math-ph
@@ -188,7 +193,7 @@ publications:
     title: 'Diagonal Tau-Functions of 2D Toda Lattice Hierarchy, Connected (n,m)-Point Functions, and Double Hurwitz Numbers'
     year: 2022
     coauthors: [yang-chenglang]
-    doi: '10.3842/SIGMA.2023.085'
+    doi: '10.3842/sigma.2023.085'
     journal: 'SIGMA 19 (2023), 085, 33 pages'
     primary_category: nlin.SI
     openalex_id: W4388341724
@@ -203,10 +208,9 @@ publications:
     openalex_id: W4221142413
     sources: [arxiv, openalex]
   - id: '2109.03394'
-    title: 'Topological 1D Gravity, KP Hierarchy, and Orbifold Euler Characteristics of M_{g,n}'
+    title: 'Topological 1D Gravity, KP Hierarchy, and Orbifold Euler Characteristics of $\overline{\mathcal M}_{g,n}$'
     year: 2021
     coauthors: [zhou-jian]
-    doi: '10.48550/arxiv.2109.03394'
     primary_category: math-ph
     openalex_id: W3196891578
     sources: [arxiv, openalex]
@@ -214,7 +218,6 @@ publications:
     title: 'A formalism of abstract quantum field theory of summation of fat graphs'
     year: 2021
     coauthors: [zhou-jian]
-    doi: '10.48550/arxiv.2108.10498'
     primary_category: math-ph
     openalex_id: W3193839366
     sources: [arxiv, openalex]
@@ -238,7 +241,6 @@ publications:
     title: 'Fourier-Like Transforms of Stable Graphs and Holomorphic Anomaly Equations'
     year: 2019
     coauthors: [zhou-jian]
-    doi: '10.48550/arxiv.1905.03436'
     primary_category: math-ph
     openalex_id: W2944622271
     sources: [arxiv, openalex]
@@ -252,10 +254,9 @@ publications:
     sources: [openalex]
     no_arxiv: true
   - id: '1812.10638'
-    title: 'Orbifold Euler Characteristics of M_{g,n}'
+    title: 'Orbifold Euler Characteristics of $\overline{\mathcal M}_{g,n}$'
     year: 2018
     coauthors: [zhou-jian]
-    doi: '10.48550/arxiv.1812.10638'
     primary_category: math.AG
     openalex_id: W2908402858
     sources: [arxiv, openalex]
@@ -263,15 +264,15 @@ publications:
     title: 'A Unified Approach to Holomorphic Anomaly Equations and Quantum Spectral Curves'
     year: 2018
     coauthors: [zhou-jian]
-    doi: '10.1007/JHEP04(2019)135'
+    doi: '10.1007/jhep04(2019)135'
     journal: 'Journal of High Energy Physics'
     primary_category: math-ph
     openalex_id: W2885419658
     sources: [arxiv, openalex]
 activity:
-  total_papers: 20
-  published_count: 20
-  preprint_only_count: 0
+  total_papers: 21
+  published_count: 13
+  preprint_only_count: 8
   active_period: '2018-present'
   confidence: 'has-17-review-pending'
   quality_source: 'openalex + ruirui-2026'

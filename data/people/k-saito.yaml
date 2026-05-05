@@ -74,8 +74,8 @@ advisor: brieskorn
 students: []
 key_collaborators: []
 activity:
-  total_papers: 49
-  published_count: 39
+  total_papers: 50
+  published_count: 40
   preprint_only_count: 10
   h_index: 25
   active_period: '1971-present'
@@ -98,14 +98,12 @@ publications:
     title: 'Second homotopy classes associated with non-cancellative monoids'
     year: 2023
     coauthors: []
-    doi: '10.48550/arxiv.2312.16951'
     primary_category: math.AT
     sources: [arxiv]
   - id: '2012.00844'
     title: 'Primitive Forms without Higher Residue Structure and Integrable Hierarchies (I)'
     year: 2020
     coauthors: ['Konstantin Aleshkin']
-    doi: '10.48550/arxiv.2012.00844'
     primary_category: nlin.SI
     sources: [arxiv]
   - id: '1909.05446'
@@ -148,7 +146,6 @@ publications:
     title: 'The Zero Locus of the $F$-triangle'
     year: 2016
     coauthors: []
-    doi: '10.48550/arxiv.1608.02357'
     primary_category: math.CO
     sources: [arxiv]
   - id: '1603.04532'
@@ -171,7 +168,6 @@ publications:
     title: 'From primitive form to mirror symmetry'
     year: 2014
     coauthors: []
-    doi: '10.48550/arxiv.1408.4208'
     primary_category: math.AG
     sources: [arxiv]
   - id: '1405.4530'
@@ -199,25 +195,28 @@ publications:
     openalex_id: W7146056116
     sources: [openalex]
     no_arxiv: true
+  - id: '1405.4530'
+    title: 'Mirror symmetry for exceptional unimodular singularities'
+    year: 2014
+    coauthors: [si-li, 'Yefeng Shen', li-changzheng]
+    journal: 'J. Eur. Math. Soc. 19 (2017)'
+    primary_category: math.AG
   - id: '1311.1659'
     title: 'Primitive forms via polyvector fields'
     year: 2013
     coauthors: [li-changzheng, si-li]
-    doi: '10.48550/arxiv.1311.1659'
     primary_category: math.AG
     sources: [arxiv]
   - id: '1201.6500'
     title: 'Limit elements in the configuration algebra for a cancellative monoid'
     year: 2012
     coauthors: []
-    doi: '10.48550/arxiv.1201.6500'
     primary_category: math.GR
     sources: [arxiv]
   - id: '1201.5718'
     title: 'Coxeter elements for vanishing cycles of type $A_{1/2\infty}$ and $D_{1/2\infty}$'
     year: 2012
     coauthors: []
-    doi: '10.48550/arxiv.1201.5718'
     primary_category: math.AG
     sources: [arxiv]
   - id: '1201.5713'
@@ -259,7 +258,6 @@ publications:
     title: 'Growth partition functions for cancellative infinite monoids'
     year: 2010
     coauthors: []
-    doi: '10.48550/arxiv.1009.6076'
     primary_category: math.GR
     sources: [arxiv]
   - id: 'doi:10.2977/prims/2'
@@ -275,7 +273,6 @@ publications:
     title: 'Monoids in the fundamental groups of the complement of logarithmic free divisors in C^3'
     year: 2009
     coauthors: ['Tadashi Ishibe']
-    doi: '10.48550/arxiv.0911.3305'
     primary_category: math.GR
     sources: [arxiv]
   - id: 'doi:10.3792/pjaa.85.84'
@@ -308,7 +305,7 @@ publications:
   - id: 'doi:10.2977/prims/1210167323'
     title: 'Preface'
     year: 2008
-    coauthors: ['Masaki Kashiwara', 'Шигефуми Мори', 'Shigeru Mukai', 'Yum-Tong Siu', 'Bernard Teissier', 'Stephen S.-T. Yau']
+    coauthors: ['Masaki Kashiwara', 'Shigeru Mukai', 'Yum-Tong Siu', 'Bernard Teissier', 'Stephen S.-T. Yau']
     doi: '10.2977/prims/1210167323'
     journal: 'Publications of the Research Institute for Mathematical Sciences'
     openalex_id: W4254057900

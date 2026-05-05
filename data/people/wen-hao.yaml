@@ -61,25 +61,27 @@ publications:
     year: 2026
     coauthors: []
     primary_category: math.AG
-  - id: '2412.18325'
-    title: 'Cyclic $BV_\infty$ algebra and Frobenius manifold'
-    year: 2024
-    coauthors: [wen-hao]
-    primary_category: math-ph
   - id: '2410.22665'
-    title: 'A note on cohomology mirror symmetry of toric manifolds'
-    year: 2024
+    title: 'A Note on Cohomological Mirror Symmetry of Toric Manifolds'
+    year: 2025
     coauthors: []
     doi: '10.4208/cmr.2025-0027'
     journal: 'Communications in Mathematical Research'
     primary_category: math-ph
+    sources: [crossref]
+  - id: '2412.18325'
+    title: 'Cyclic $BV_\infty$ algebra and Frobenius manifold'
+    year: 2024
+    coauthors: []
+    primary_category: math-ph
   - id: '2312.04239'
     title: 'A perturbative construction of primitive forms from log Landau-Ginzburg mirrors of toric manifolds'
     year: 2023
-    coauthors: [chan-kwokwai, ma-ziming-nikolas]
+    coauthors: ['Ziming Nikolas Ma', chan-kwokwai, ma-ziming-nikolas]
     doi: '10.1016/j.aim.2026.110867'
     journal: 'Adv. Math. 491 (2026), 110867, 47 pp'
     primary_category: math.AG
+    sources: [arxiv]
   - id: '1903.02713'
     title: 'On the L2-Hodge theory of Landau-Ginzburg models'
     year: 2019
@@ -89,19 +91,11 @@ publications:
     title: 'Counting Multiplicities in a Hypersurface over a Number Field'
     year: 2017
     coauthors: ['Chunhui Liu']
-    doi: '10.1142/S1005386718000305'
+    doi: '10.1142/s1005386718000305'
     primary_category: math.AG
-  - id: 'doi:10.4208/cmr.2025-0027'
-    title: 'A Note on Cohomological Mirror Symmetry of Toric Manifolds'
-    year: 2025
-    coauthors: []
-    doi: '10.4208/cmr.2025-0027'
-    journal: 'Communications in Mathematical Research'
-    sources: [crossref]
-    no_arxiv: true
 activity:
-  total_papers: 7
-  published_count: 4
+  total_papers: 6
+  published_count: 3
   preprint_only_count: 3
   active_period: '2017-present'
   peak_period: '2023-present'

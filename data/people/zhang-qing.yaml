@@ -119,6 +119,12 @@ key_collaborators:
     topic: "ABV-packets, generic representations"
     papers_count: 2
 publications:
+  - id: '2605.02643'
+    title: 'Generalized Kontsevich model, topological recursion, and $r$-spin theory'
+    year: 2026
+    coauthors: [ji-ce, yang-chenglang, guo-shuai]
+    primary_category: math-ph
+    sources: [arxiv]
   - id: '2505.11381'
     title: 'On the complementary Arthur representations and unitary dual for p-adic classical groups'
     year: 2025
@@ -133,11 +139,15 @@ publications:
     title: 'Realizing modular data from centers of near-group categories'
     year: 2024
     coauthors: ['Zhiqiang Yu']
+    doi: '10.1007/s10468-025-10370-5'
+    journal: 'Algebras and Representation Theory'
     primary_category: math.QA
   - id: '2412.06824'
     title: 'Whittaker normalization of p-adic ABV-packets and Vogan''s conjecture for tempered'
     year: 2024
     coauthors: ['Clifton Cunningham', 'Sarah Dijols', 'Andrew Fiori']
+    doi: '10.1093/imrn/rnaf316'
+    journal: 'International Mathematics Research Notices'
     primary_category: math.RT
   - id: '2410.11806'
     title: 'On Arthur representations and the unitary dual'
@@ -153,6 +163,8 @@ publications:
     title: 'Modular data of non-semisimple modular categories'
     year: 2024
     coauthors: ['Liang Chang', 'Quinn T. Kolt', 'Zhenghan Wang']
+    doi: '10.1142/s0129167x25500053'
+    journal: 'International Journal of Mathematics'
     primary_category: math.QA
   - id: '2404.07463'
     title: 'Generic representations, open parameters and ABV-packets for p-adic groups'
@@ -168,6 +180,8 @@ publications:
     title: 'On near-group centers and super-modular categories'
     year: 2023
     coauthors: ['Eric C. Rowell', 'Hannah Solomon']
+    doi: '10.1090/conm/813/16286'
+    journal: 'Contemporary Mathematics Quantum Symmetries'
     primary_category: math.QA
   - id: '2302.06256'
     title: 'On a refined local converse theorem for SO(4)'
@@ -191,6 +205,8 @@ publications:
     title: 'Modular tensor categories, subcategories, and Galois orbits'
     year: 2021
     coauthors: ['Julia Plavnik', 'Andrew Schopieray', 'Zhiqiang Yu']
+    doi: '10.1007/s00031-022-09787-9'
+    journal: 'Transformation Groups'
     primary_category: math.QA
   - id: '2106.01959'
     title: 'From Torus Bundles to Particle-Hole Equivariantization'
@@ -246,11 +262,15 @@ publications:
     title: 'Braid group representations from twisted tensor products of algebras'
     year: 2019
     coauthors: ['Paul Gustafson', 'Andrew Kimball', 'Eric C. Rowell']
+    doi: '10.1007/s42543-020-00023-5'
+    journal: 'Peking Mathematical Journal'
     primary_category: math.QA
   - id: '1901.04462'
     title: 'Integral Metaplectic Modular Categories'
     year: 2019
     coauthors: ['Adam Deaton', 'Paul Gustafson', 'Leslie Mavrakis', 'Eric C. Rowell', 'Sasha Poltoratski', 'Sydney Timmerman', 'Benjamin Warren']
+    doi: '10.1142/s0218216520500327'
+    journal: 'Journal of Knot Theory and Its Ramifications'
     primary_category: math.QA
   - id: '1811.10472'
     title: 'On a converse theorem for G_2 over finite fields'
@@ -292,7 +312,7 @@ publications:
     title: 'Stability of Rankin-Selberg gamma factors for $\textrm{Sp}(2n)$, $\widetilde{ \textrm{Sp}}(2n)$ and $\textrm{U}(n,n)$'
     year: 2015
     coauthors: []
-    doi: '10.1142/S1793042117501317'
+    doi: '10.1142/s1793042117501317'
     primary_category: math.NT
   - id: '1511.00354'
     title: 'A strong multiplicity one theorem for SL(2)'
@@ -311,19 +331,19 @@ publications:
     title: 'A local converse theorem for U(1,1)'
     year: 2015
     coauthors: []
-    doi: '10.1142/S1793042117501056'
+    doi: '10.1142/s1793042117501056'
     journal: 'Int. J. Number Theory, Vol. 13, No. 8 (2017) 1931-1981'
     primary_category: math.NT
   - id: '1308.5398'
     title: 'A thermal quench induces spatial inhomogeneities in a holographic superconductor'
     year: 2013
-    coauthors: ['Antonio M. Garc a-Garc a', 'Hua Bi Zeng', zhang-qing]
-    doi: '10.1007/JHEP07(2014)096'
+    coauthors: ['Antonio M. Garc a-Garc a', 'Hua Bi Zeng', 'Hai Qing Zhang']
+    doi: '10.1007/jhep07(2014)096'
     primary_category: hep-th
 activity:
-  total_papers: 35
-  published_count: 17
-  preprint_only_count: 18
+  total_papers: 36
+  published_count: 24
+  preprint_only_count: 12
   active_period: '2018-present'
   notes: '仅数论/表示论方向。arXiv 上的 modular categories / quantum algebra 方向的 Qing Zhang (与 Eric Rowell 合作) 是另一位同名作者'
 external_ids:

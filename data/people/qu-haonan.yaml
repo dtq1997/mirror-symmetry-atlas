@@ -86,32 +86,55 @@ publications:
   - id: '2411.15496'
     title: 'Legendre transformations of a class of generalized Frobenius manifolds and the associated integrable hierarchies'
     year: 2024
-    coauthors: [liu-siqi, zhang-youjin]
-    journal: 'Comm. Math. Phys. (2025)'
-    primary_category: math-ph
+    coauthors: [zhang-youjin]
+    doi: '10.1007/s00220-025-05289-3'
+    journal: 'Communications in Mathematical Physics'
+    sources: [arxiv]
   - id: '2402.00373'
     title: 'Solutions of the loop equations of a class of generalized Frobenius manifolds'
     year: 2024
-    coauthors: [liu-siqi, 'Yuewei Wang', zhang-youjin]
+    coauthors: ['Yuewei Wang', zhang-youjin, liu-siqi]
     doi: '10.1007/s00220-024-05083-7'
     journal: 'Communications in Mathematical Physics'
     primary_category: math-ph
+    openalex_id: W4402509824
+    sources: [arxiv, openalex]
+  - id: '2411.15496'
+    title: 'Legendre transformations of a class of generalized Frobenius manifolds and the associated integrable hierarchies'
+    year: 2024
+    coauthors: [liu-siqi, zhang-youjin]
+    journal: 'Comm. Math. Phys. (2025)'
+    primary_category: math-ph
+    openalex_id: W4404986524
+    sources: [arxiv, openalex]
   - id: '2209.00483'
     title: 'Generalized Frobenius Manifolds with Non-flat Unity and Integrable Hierarchies'
     year: 2022
-    coauthors: [liu-siqi, zhang-youjin]
+    coauthors: [zhang-youjin, liu-siqi]
     journal: 'Comm. Math. Phys. (2024)'
     primary_category: math-ph
+    sources: [arxiv]
+  - id: '2209.00483'
+    title: 'Generalized Frobenius Manifolds with Non-flat Unity and Integrable Hierarchies'
+    year: 2022
+    coauthors: [liu-siqi]
+    doi: '10.1007/s00220-024-05213-1'
+    journal: 'Communications in Mathematical Physics'
+    primary_category: math-ph
+    openalex_id: W4408220832
+    sources: [arxiv, openalex]
   - id: '2108.03447'
     title: 'Tri-Hamiltonian Structure of the Ablowitz-Ladik Hierarchy'
     year: 2021
-    coauthors: ['Shuangxing Li', liu-siqi, zhang-youjin]
+    coauthors: ['Shuangxing Li', zhang-youjin, liu-siqi]
     doi: '10.1016/j.physd.2022.133180'
-    journal: 'Physica D (2022)'
+    journal: 'Physica D: Nonlinear Phenomena'
     primary_category: math-ph
+    openalex_id: W3188870856
+    sources: [arxiv, openalex]
 activity:
-  total_papers: 5
-  published_count: 4
+  total_papers: 7
+  published_count: 6
   preprint_only_count: 1
   active_period: '2021-present'
 external_ids: {}

@@ -113,14 +113,14 @@ publications:
   - id: '2512.03860'
     title: 'Infinitesimal deformations of Lie algebroid pairs'
     year: 2025
-    coauthors: [ni-dadi, chen-zhuo, xiang-maosong]
+    coauthors: [ni-dadi, xiang-maosong, chen-zhuo]
     primary_category: math.DG
-    sources: [arxiv]
+    openalex_id: W4417032814
+    sources: [arxiv, openalex]
   - id: '2510.27159'
     title: 'New optimal function field towers over finite fields of quartic power'
     year: 2025
     coauthors: ['Xiuwu Zhu']
-    doi: '10.48550/arxiv.2510.27159'
     primary_category: math.NT
     sources: [arxiv]
   - id: '2410.10124'
@@ -133,9 +133,15 @@ publications:
     title: 'On the k-th Tjurina number of weighted homogeneous singularities'
     year: 2024
     coauthors: ['Stephen S.-T. Yau', 'Huaiqing Zuo']
-    doi: '10.48550/arxiv.2409.09384'
     primary_category: math.AG
     sources: [arxiv]
+  - id: '2309.00432'
+    title: 'Drinfeld Modular Curves Subordinate to Conjugacy Classes of Nilpotent Upper-Triangular Matrices'
+    year: 2023
+    coauthors: ['Tao Zhang', 'Xiaopeng Zheng', chen-zhuo]
+    primary_category: math.NT
+    openalex_id: W4386436307
+    sources: [arxiv, openalex]
   - id: '2312.16919'
     title: 'Drinfeld Module and Weil pairing over Dedekind domain of class number two'
     year: 2023
@@ -144,14 +150,6 @@ publications:
     journal: 'Finite Fields and Their Applications'
     primary_category: math.NT
     sources: [arxiv]
-  - id: '2309.00432'
-    title: 'Drinfeld Modular Curves Subordinate to Conjugacy Classes of Nilpotent Upper-Triangular Matrices'
-    year: 2023
-    coauthors: [chen-zhuo, 'Tao Zhang', 'Xiaopeng Zheng']
-    doi: '10.48550/arxiv.2309.00432'
-    primary_category: math.NT
-    openalex_id: W4386436307
-    sources: [arxiv, openalex]
   - id: '1912.02668'
     title: 'A Modular Interpretation of BBGS Towers'
     year: 2019
@@ -163,32 +161,30 @@ publications:
   - id: '1911.04269'
     title: 'Weierstrass Semigroups From a Tower of Function Fields Attaining the Drinfeld-Vladut Bound'
     year: 2019
-    coauthors: [yang-di]
-    doi: '10.48550/arxiv.1911.04269'
+    coauthors: ['Shudi Yang']
     primary_category: math.NT
     sources: [arxiv]
   - id: '1810.11969'
     title: 'Complete Weight Distribution and MacWilliams Identities for Asymmetric Quantum Codes'
     year: 2018
-    coauthors: [yang-di, 'Stephen S.-T. Yau']
-    doi: '10.48550/arxiv.1810.11969'
+    coauthors: ['Shudi Yang', 'Stephen S.-T. Yau']
     sources: [arxiv]
   - id: '1706.00313'
     title: 'Multi-point Codes from the GGS Curves'
     year: 2017
-    coauthors: [yang-di]
+    coauthors: ['Shudi Yang']
     sources: [arxiv]
   - id: '1705.05213'
     title: 'Weierstrass Pure Gaps From a Quotient of the Hermitian Curve'
     year: 2017
-    coauthors: [yang-di]
+    coauthors: ['Shudi Yang']
     doi: '10.1016/j.ffa.2017.12.002'
     journal: 'Finite Fields and Their Applications'
     sources: [arxiv]
   - id: '1607.05887'
     title: 'Weierstrass Semigroups from Kummer Extensions'
     year: 2016
-    coauthors: [yang-di]
+    coauthors: ['Shudi Yang']
     doi: '10.1016/j.ffa.2016.12.005'
     journal: 'Finite Fields and Their Applications'
     sources: [arxiv]
@@ -201,8 +197,8 @@ publications:
     sources: [arxiv]
 activity:
   total_papers: 15
-  published_count: 10
-  preprint_only_count: 5
+  published_count: 5
+  preprint_only_count: 10
   active_period: '2016-present'
   confidence: 'has-2-review-pending'
 external_ids:

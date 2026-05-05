@@ -111,14 +111,12 @@ publications:
     title: 'Notes on the cohomology of partial Hessenberg varieties'
     year: 2025
     coauthors: ['Tatsuya Horiguchi', 'Mikiya Masuda', 'Takashi Sato']
-    doi: '10.48550/arxiv.2507.23259'
     primary_category: math.AG
     sources: [arxiv]
   - id: '2405.16399'
     title: 'Automorphisms of GKM graphs and regular semisimple Hessenberg varieties'
     year: 2024
     coauthors: ['Donghoon Jang', 'Shintarô Kuroki', 'Mikiya Masuda', 'Takashi Sato']
-    doi: '10.48550/arxiv.2405.16399'
     journal: 'Transformation Groups'
     primary_category: math.AG
     sources: [arxiv]
@@ -126,7 +124,6 @@ publications:
     title: 'Totally nonnegative part of the Peterson variety in Lie type A'
     year: 2023
     coauthors: ['Hiraku Abe']
-    doi: '10.48550/arxiv.2310.02819'
     journal: 'Math. Zeit. (2025)'
     primary_category: math.AG
     sources: [arxiv]
@@ -134,21 +131,18 @@ publications:
     title: 'Peterson varieties and toric orbifolds associated to Cartan matrices'
     year: 2023
     coauthors: ['Hiraku Abe']
-    doi: '10.48550/arxiv.2310.02818'
     primary_category: math.AG
     sources: [arxiv]
   - id: '2305.03964'
     title: 'Equivariant cohomology ring of open torus manifolds with locally standard actions'
     year: 2023
     coauthors: ['Yueshan Xiong']
-    doi: '10.48550/arxiv.2305.03964'
     primary_category: math.AT
     sources: [arxiv]
   - id: '2203.02629'
     title: 'The integral cohomology rings of Peterson varieties in type A'
     year: 2022
     coauthors: ['Hiraku Abe']
-    doi: '10.48550/arxiv.2203.02629'
     primary_category: math.AG
     sources: [arxiv]
   - id: '2104.02914'
@@ -201,8 +195,8 @@ publications:
     sources: [arxiv]
 activity:
   total_papers: 13
-  published_count: 12
-  preprint_only_count: 1
+  published_count: 8
+  preprint_only_count: 5
   active_period: '2014-present'
 external_ids:
   openalex: A5102352466

@@ -112,8 +112,8 @@ students: []
 key_collaborators: []
 activity:
   total_papers: 61
-  published_count: 59
-  preprint_only_count: 2
+  published_count: 44
+  preprint_only_count: 17
   h_index: 44
   active_period: '1990-present'
   peak_period: '1994-2010'
@@ -139,7 +139,6 @@ publications:
     title: 'Non-commutative cluster Lagrangians'
     year: 2026
     coauthors: ['Alexander B. Goncharov']
-    doi: '10.48550/arxiv.2601.07538'
     primary_category: math.AG
     sources: [arxiv]
   - id: '2509.15831'
@@ -158,14 +157,12 @@ publications:
     title: 'Explicit formulas for arithmetic support of differential and difference operators'
     year: 2025
     coauthors: ['Alexander Odesskii']
-    doi: '10.48550/arxiv.2505.12480'
     primary_category: math.AG
     sources: [arxiv]
   - id: '2402.07343'
     title: 'Holomorphic Floer theory I: exponential integrals in finite and infinite dimensions'
     year: 2024
     coauthors: ['Yan Soibelman']
-    doi: '10.48550/arxiv.2402.07343'
     primary_category: math.SG
     sources: [arxiv]
   - id: '2401.05291'
@@ -180,7 +177,6 @@ publications:
     title: 'When the Fourier transform is one loop exact?'
     year: 2023
     coauthors: ['Alexander Odesskii']
-    doi: '10.48550/arxiv.2306.02178'
     journal: 'Selecta Mathematica'
     primary_category: math.AG
     sources: [arxiv]
@@ -188,7 +184,6 @@ publications:
     title: 'Burnside rings and volume forms with logarithmic poles'
     year: 2023
     coauthors: ['Antoine Chambert-Loir', 'Yuri Tschinkel']
-    doi: '10.48550/arxiv.2301.02899'
     journal: 'Pure and Applied Mathematics Quarterly'
     primary_category: math.AG
     sources: [arxiv]
@@ -196,7 +191,6 @@ publications:
     title: 'Smooth Calabi-Yau structures and the noncommutative Legendre transform'
     year: 2023
     coauthors: ['Alex Takeda', 'Yiannis Vlassopoulos']
-    doi: '10.48550/arxiv.2301.01567'
     journal: 'Journal of Noncommutative Geometry'
     primary_category: math.AT
     sources: [arxiv]
@@ -234,7 +228,6 @@ publications:
     title: 'Pre-Calabi-Yau algebras and noncommutative calculus on higher cyclic Hochschild cohomology'
     year: 2020
     coauthors: ['Natalia Iyudu']
-    doi: '10.48550/arxiv.2011.11888'
     primary_category: math.RA
     sources: [arxiv]
   - id: '2009.12159'
@@ -273,7 +266,6 @@ publications:
     title: 'Quantum Minimal Surfaces'
     year: 2019
     coauthors: ['Joakim Arnlind', 'Jens Hoppe']
-    doi: '10.48550/arxiv.1903.10792'
     primary_category: math-ph
     sources: [arxiv]
   - id: '1902.09894'
@@ -288,7 +280,6 @@ publications:
     title: 'Iterated logarithms and gradient flows'
     year: 2018
     coauthors: ['Fabian Haiden', 'Ludmil Katzarkov', 'Pranav Pandit']
-    doi: '10.48550/arxiv.1802.04123'
     primary_category: math.RT
     sources: [arxiv]
   - id: '1708.05699'
@@ -311,7 +302,6 @@ publications:
     title: 'Airy structures and symplectic geometry of topological recursion'
     year: 2017
     coauthors: ['Yan Soibelman']
-    doi: '10.48550/arxiv.1701.09137'
     primary_category: math.AG
     sources: [arxiv]
   - id: '1609.01170'
@@ -382,14 +372,12 @@ publications:
     title: 'Noncommutative identities'
     year: 2011
     coauthors: []
-    doi: '10.48550/arxiv.1109.2469'
     primary_category: math.RA
     sources: [arxiv]
   - id: '1010.2908'
     title: 'Holonomic D-modules and positive characteristic'
     year: 2010
     coauthors: []
-    doi: '10.48550/arxiv.1010.2908'
     journal: 'Japan. J. Math. 4, 1-25 (2009)'
     primary_category: math.RA
     sources: [arxiv]
@@ -413,21 +401,18 @@ publications:
     title: 'Motivic Donaldson-Thomas invariants: summary of results'
     year: 2009
     coauthors: ['Yan Soibelman']
-    doi: '10.48550/arxiv.0910.4315'
     primary_category: math.AG
     sources: [arxiv]
   - id: '0811.2435'
     title: 'Stability structures, motivic Donaldson-Thomas invariants and cluster transformations'
     year: 2008
     coauthors: ['Yan Soibelman']
-    doi: '10.48550/arxiv.0811.2435'
     primary_category: math.AG
     sources: [arxiv]
   - id: '0801.4760'
     title: 'XI Solomon Lefschetz Memorial Lecture Series: Hodge structures in non-commutative geometry. (Notes by Ernesto Lupercio)'
     year: 2008
     coauthors: []
-    doi: '10.48550/arxiv.0801.4760'
     primary_category: math.AG
     sources: [arxiv]
   - id: '0702206'
@@ -450,7 +435,6 @@ publications:
     title: 'Notes on A-infinity algebras, A-infinity categories and non-commutative geometry. I'
     year: 2006
     coauthors: ['Yan Soibelman']
-    doi: '10.48550/arxiv.math/0606241'
     journal: 'Published in the book "Homological Mirror Symmetry. New developments and perspectives", Lecture Notes in Physics 757, Springer, 2009'
     primary_category: math.RA
     sources: [arxiv]
@@ -521,21 +505,19 @@ publications:
     title: 'On Poly(ana)logs I'
     year: 2000
     coauthors: ['Philippe Elbaz-Vincent', 'Herbert Gangl']
-    doi: '10.48550/arxiv.math/0008089'
     primary_category: math.KT
     sources: [arxiv]
   - id: '0001151'
     title: 'Deformations of algebras over operads and Deligne''s conjecture'
     year: 2000
     coauthors: ['Yan Soibelman']
-    doi: '10.48550/arxiv.math/0001151'
     primary_category: math.QA
     sources: [arxiv]
   - id: '9904055'
     title: 'Operads and Motives in Deformation Quantization'
     year: 1999
     coauthors: []
-    doi: '10.1023/A:1007555725247'
+    doi: '10.1023/a:1007555725247'
     journal: 'Lett.Math.Phys.48:35-72,1999'
     primary_category: math.QA
     sources: [arxiv]
@@ -551,7 +533,7 @@ publications:
     title: 'Frobenius Manifolds and Formality of Lie Algebras of Polyvector Fields'
     year: 1997
     coauthors: ['Sergey Barannikov']
-    doi: '10.1155/S1073792898000166'
+    doi: '10.1155/s1073792898000166'
     journal: 'International Mathematics Research Notices, Volume 1998, Issue 4, Pages 201-215'
     primary_category: math.AG
     sources: [arxiv]
@@ -559,7 +541,7 @@ publications:
     title: 'Deformation quantization of Poisson manifolds, I'
     year: 1997
     coauthors: []
-    doi: '10.1023/B:MATH.0000027508.00421.bf'
+    doi: '10.1023/b:math.0000027508.00421.bf'
     journal: 'Lett.Math.Phys.66:157-216,2003'
     primary_category: math.QA
     sources: [arxiv]
@@ -567,7 +549,6 @@ publications:
     title: 'Product formulas for modular forms on O(2,n) (after R.Borcherds)'
     year: 1997
     coauthors: []
-    doi: '10.48550/arxiv.alg-geom/9709006'
     primary_category: math.AG
     sources: [arxiv]
   - id: '9708024'
@@ -599,7 +580,6 @@ publications:
     title: 'Determinants of elliptic pseudo-differential operators'
     year: 1994
     coauthors: ['Simeon Vishik']
-    doi: '10.48550/arxiv.hep-th/9404046'
     primary_category: hep-th
     sources: [arxiv]
 sources:

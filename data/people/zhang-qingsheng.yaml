@@ -91,32 +91,49 @@ publications:
   - id: '2605.02643'
     title: 'Generalized Kontsevich model, topological recursion, and $r$-spin theory'
     year: 2026
-    coauthors: [guo-shuai, ji-ce, yang-chenglang]
+    coauthors: [ji-ce, yang-chenglang, zhang-qing, guo-shuai]
     primary_category: math-ph
+    sources: [arxiv]
   - id: '2507.20151'
     title: 'Virasoro constraints for topological recursion'
     year: 2025
     coauthors: [guo-shuai]
     primary_category: math-ph
+    sources: [arxiv]
   - id: '2502.18895'
     title: 'Cohomological Field Theory with vacuum and its Virasoro constraints'
     year: 2025
     coauthors: [guo-shuai]
     primary_category: math-ph
+    sources: [arxiv]
+  - id: 'doi:10.1016/j.aim.2024.110100'
+    title: 'BKP-affine coordinates and emergent geometry of generalized Brézin-Gross-Witten tau-functions'
+    year: 2025
+    coauthors: [wang-zhiyuan]
+    doi: '10.1016/j.aim.2024.110100'
+    journal: 'Advances in Mathematics'
+    openalex_id: W4406119208
+    sources: [crossref, openalex]
+    no_arxiv: true
   - id: '2309.12271'
     title: 'A generalization of the Witten conjecture through spectral curve'
     year: 2023
-    coauthors: [guo-shuai, ji-ce]
+    coauthors: [ji-ce, guo-shuai]
     primary_category: math-ph
+    sources: [arxiv]
+  - id: '2301.01131'
+    title: 'BKP-Affine Coordinates and Emergent Geometry of Generalized BGW Tau-Functions'
+    year: 2023
+    coauthors: [yang-chenglang, wang-zhiyuan]
+    primary_category: math-ph
+    openalex_id: W4313533009
+    sources: [arxiv, openalex]
   - id: '2303.09243'
     title: 'On a new proof of the Okuyama--Sakai conjecture'
     year: 2023
     coauthors: [yang-di]
-    primary_category: math-ph
-  - id: '2301.01131'
-    title: 'BKP-Affine Coordinates and Emergent Geometry of Generalized BGW Tau-Functions'
-    year: 2023
-    coauthors: [wang-zhiyuan, yang-chenglang]
+    doi: '10.1142/s0129055x23500253'
+    journal: 'Reviews in Mathematical Physics'
     primary_category: math-ph
   - id: '2112.12736'
     title: 'On the Hodge-BGW correspondence'
@@ -130,9 +147,9 @@ publications:
     doi: '10.1007/jhep09(2019)075'
     primary_category: math-ph
 activity:
-  total_papers: 8
-  published_count: 1
-  preprint_only_count: 7
+  total_papers: 9
+  published_count: 3
+  preprint_only_count: 6
   active_period: '2019-present'
 external_ids: {}
 links: {}

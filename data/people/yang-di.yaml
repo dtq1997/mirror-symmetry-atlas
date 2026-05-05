@@ -145,6 +145,12 @@ key_collaborators:
     topic: "Hodge-BGW correspondence"
     papers_count: 2
 publications:
+  - id: '2603.15233'
+    title: 'On uniform large genus asymptotics of Witten''s intersection numbers'
+    year: 2026
+    coauthors: [zagier, guo-jindong]
+    primary_category: math-ph
+    sources: [arxiv]
   - id: '2604.26354'
     title: 'On enumeration of $b$-angulations of surfaces from an integrability perspective'
     year: 2026
@@ -155,11 +161,6 @@ publications:
     year: 2026
     coauthors: []
     primary_category: math-ph
-  - id: '2603.15233'
-    title: 'On uniform large genus asymptotics of Witten''s intersection numbers'
-    year: 2026
-    coauthors: ['Jindong Guo', zagier]
-    primary_category: math-ph
   - id: '2601.13203'
     title: 'Bihamiltonian tests for integrable systems associated to rank-$1$ F-CohFTs'
     year: 2026
@@ -168,8 +169,9 @@ publications:
   - id: '2511.06984'
     title: 'On a class of integrable deformations of the integrable hierarchy of topological type associated to a semisimple Frobenius manifold'
     year: 2025
-    coauthors: [liu-siqi, 'Paolo Rossi', zhang-youjin]
+    coauthors: ['Paolo Rossi', zhang-youjin, liu-siqi, si-li]
     primary_category: math-ph
+    sources: [arxiv]
   - id: '2509.11848'
     title: 'On enumeration of $l$-hypermaps'
     year: 2025
@@ -183,8 +185,9 @@ publications:
   - id: '2412.20388'
     title: 'Combinatorics and large genus asymptotics of the Brézin--Gross--Witten numbers'
     year: 2024
-    coauthors: ['Jindong Guo', 'Paul Norbury', zagier]
+    coauthors: [zagier, 'Paul Norbury', guo-jindong]
     primary_category: math-ph
+    sources: [arxiv]
   - id: '2409.12529'
     title: 'The loop equation for the Burgers--KdV hierarchy'
     year: 2024
@@ -204,23 +207,29 @@ publications:
     title: 'Galilean symmetry of the KdV hierarchy'
     year: 2024
     coauthors: ['Jianghao Xu']
+    doi: '10.1112/jlms.70075'
+    journal: 'Journal of the London Mathematical Society'
     primary_category: math-ph
   - id: '2312.16575'
     title: 'Remarks on intersection numbers and integrable hierarchies. II. Tau-structure'
     year: 2023
     coauthors: ['Daniele Valeri']
+    doi: '10.1098/rspa.2024.0908'
+    journal: 'Proceedings of the Royal Society A: Mathematical, Physical and Engineering Sciences'
     primary_category: math-ph
   - id: '2311.06506'
     title: 'From Toda Hierarchy to KP Hierarchy'
     year: 2023
     coauthors: [zhou-jian]
-    doi: '10.3842/SIGMA.2025.068'
+    doi: '10.3842/sigma.2025.068'
     journal: 'SIGMA 21 (2025), 068, 25 pages'
     primary_category: nlin.SI
   - id: '2311.04200'
     title: 'Analytic theory of Legendre-type transformations for a Frobenius manifold'
     year: 2023
     coauthors: []
+    doi: '10.1007/s00220-024-05106-3'
+    journal: 'Communications in Mathematical Physics'
     primary_category: math.DG
   - id: '2308.03568'
     title: 'Mapping partition functions'
@@ -236,16 +245,43 @@ publications:
     title: 'On a new proof of the Okuyama--Sakai conjecture'
     year: 2023
     coauthors: [zhang-qingsheng]
+    doi: '10.1142/s0129055x23500253'
+    journal: 'Reviews in Mathematical Physics'
     primary_category: math-ph
+  - id: '2112.14595'
+    title: 'Gelfand–Dickey hierarchy, generalized BGW tau-function, and <i>W</i>-constraints'
+    year: 2023
+    coauthors: [zhou-chunhui]
+    doi: '10.1088/1361-6544/acb62c'
+    journal: 'Nonlinearity'
+    primary_category: math-ph
+    sources: [crossref]
+  - id: '2303.13775'
+    title: 'Gelfand-Dickey hierarchy, generalized BGW tau-function, and KdV equivariantly stable classes'
+    year: 2023
+    coauthors: []
+  - id: '2203.16812'
+    title: 'On Equivariant Gromov--Witten Invariants of Resolved Conifold with Diagonal and Anti-Diagonal Actions'
+    year: 2022
+    coauthors: [zhang-youjin, zhou-chunhui, liu-siqi]
+    doi: '10.1007/s11005-022-01618-y'
+    journal: 'Letters in Mathematical Physics'
+    primary_category: math-ph
+    openalex_id: W4311779894
+    sources: [arxiv, openalex]
   - id: '2208.02095'
     title: 'Degree zero Gromov--Witten invariants for smooth curves'
     year: 2022
     coauthors: []
+    doi: '10.1112/blms.12916'
+    journal: 'Bulletin of the London Mathematical Society'
     primary_category: math.AG
   - id: '2205.01618'
     title: 'GUE via Frobenius Manifolds. I. From Matrix Gravity to Topological Gravity and Back'
     year: 2022
     coauthors: []
+    doi: '10.1007/s10114-024-2258-3'
+    journal: 'Acta Mathematica Sinica, English Series'
     primary_category: math-ph
   - id: '2204.11074'
     title: 'Grothendieck''s Dessins d''Enfants in a Web of Dualities. III'
@@ -253,22 +289,47 @@ publications:
     coauthors: [zhou-jian]
     doi: '10.1088/1751-8121/acb744'
     primary_category: math-ph
-  - id: '2203.16812'
-    title: 'On Equivariant Gromov--Witten Invariants of Resolved Conifold with Diagonal and Anti-Diagonal Actions'
-    year: 2022
-    coauthors: [liu-siqi, zhang-youjin, zhou-chunhui]
-    doi: '10.1007/s11005-022-01618-y'
-    primary_category: math-ph
   - id: '2201.11020'
     title: 'The matrix-resolvent method to tau-functions for the nonlinear Schrödinger hierarchy'
     year: 2022
     coauthors: ['Ang Fu']
+    doi: '10.1016/j.geomphys.2022.104592'
+    journal: 'Journal of Geometry and Physics'
     primary_category: nlin.SI
-  - id: '2112.14595'
-    title: 'Gelfand--Dickey hierarchy, generalized BGW tau-function, and $W$-constraints'
+  - id: '2110.06655'
+    title: 'Affine Kac-Moody Algebras and Tau-Functions for the Drinfeld-Sokolov Hierarchies: the Matrix-Resolvent Method'
     year: 2021
-    coauthors: [zhou-chunhui]
+    coauthors: ['Daniele Valeri', dubrovin]
+    doi: '10.3842/sigma.2022.077'
+    journal: 'SIGMA 18 (2022), 077, 32 pages'
     primary_category: math-ph
+    sources: [arxiv]
+  - id: '2101.10924'
+    title: 'Geometry and arithmetic of integrable hierarchies of KdV type. I. Integrality'
+    year: 2021
+    coauthors: [zagier, dubrovin]
+    doi: '10.1016/j.aim.2023.109311'
+    journal: 'Advances in Mathematics'
+    primary_category: math.AG
+    openalex_id: W3122575854
+    sources: [arxiv, openalex]
+  - id: '2110.06774'
+    title: 'On the large genus asymptotics of psi-class intersection numbers'
+    year: 2021
+    coauthors: [guo-jindong]
+    doi: '10.1007/s00208-022-02505-6'
+    journal: 'Mathematische Annalen'
+    primary_category: math.AG
+    sources: [arxiv]
+  - id: '2112.07526'
+    title: 'The Virasoro-like Algebra of a Frobenius Manifold'
+    year: 2021
+    coauthors: [zhang-youjin, zhou-jian, liu-siqi]
+    doi: '10.1093/imrn/rnac209'
+    journal: 'International Mathematics Research Notices'
+    primary_category: math-ph
+    openalex_id: W4226256119
+    sources: [arxiv, openalex]
   - id: '2112.14202'
     title: 'Tau-functions for the Ablowitz--Ladik hierarchy: the matrix-resolvent method'
     year: 2021
@@ -280,23 +341,6 @@ publications:
     year: 2021
     coauthors: [zhang-qingsheng]
     primary_category: math.AG
-  - id: '2112.07526'
-    title: 'The Virasoro-like Algebra of a Frobenius Manifold'
-    year: 2021
-    coauthors: [liu-siqi, zhang-youjin, zhou-jian]
-    primary_category: math-ph
-  - id: '2110.06774'
-    title: 'On the large genus asymptotics of psi-class intersection numbers'
-    year: 2021
-    coauthors: ['Jindong Guo']
-    primary_category: math.AG
-  - id: '2110.06655'
-    title: 'Affine Kac-Moody Algebras and Tau-Functions for the Drinfeld-Sokolov Hierarchies: the Matrix-Resolvent Method'
-    year: 2021
-    coauthors: [dubrovin, 'Daniele Valeri']
-    doi: '10.3842/SIGMA.2022.077'
-    journal: 'SIGMA 18 (2022), 077, 32 pages'
-    primary_category: math-ph
   - id: '2104.01480'
     title: 'On the spectral problem of the quantum KdV hierarchy'
     year: 2021
@@ -304,11 +348,11 @@ publications:
     doi: '10.1088/1751-8121/ac190a'
     journal: 'J. Phys. A: Math. Theor. 54 374001 (2021)'
     primary_category: math-ph
-  - id: '2101.10924'
-    title: 'Geometry and arithmetic of integrable hierarchies of KdV type. I. Integrality'
+  - id: '2112.14595'
+    title: 'Gelfand-Dickey hierarchy and generalized BGW tau-function'
     year: 2021
-    coauthors: [dubrovin, zagier]
-    primary_category: math.AG
+    coauthors: []
+    primary_category: math-ph
   - id: '2010.00436'
     title: 'On an extension of the generalized BGW tau-function'
     year: 2020
@@ -319,35 +363,73 @@ publications:
     title: 'Masur--Veech volumes of quadratic differentials and their asymptotics'
     year: 2020
     coauthors: [zagier, zhang-youjin]
+    doi: '10.1016/j.geomphys.2020.103870'
+    journal: 'Journal of Geometry and Physics'
     primary_category: math-ph
+    openalex_id: W3055641647
+    sources: [arxiv, openalex]
   - id: '2002.00823'
     title: 'Hamiltonian perturbations at the second order approximation'
     year: 2020
     coauthors: []
     doi: '10.1007/s00023-020-00962-w'
     primary_category: math-ph
-  - id: '1906.06860'
-    title: 'The Hodge-FVH Correspondence'
-    year: 2019
-    coauthors: [liu-siqi, zhang-youjin, zhou-chunhui]
-    primary_category: math-ph
-  - id: '1905.08140'
-    title: 'On tau-functions for the Toda lattice hierarchy'
-    year: 2019
-    coauthors: []
-    doi: '10.1007/s11005-019-01232-5'
-    primary_category: math-ph
   - id: '1905.08106'
     title: 'Remarks on intersection numbers and integrable hierarchies. I. Quasi-triviality'
     year: 2019
     coauthors: [dubrovin]
+    doi: '10.4310/atmp.2020.v24.n5.a1'
+    journal: 'Advances in Theoretical and Mathematical Physics'
     primary_category: math-ph
+    sources: [arxiv]
   - id: '1903.11578'
     title: 'Matrix resolvent and the discrete KdV hierarchy'
     year: 2019
     coauthors: [dubrovin]
     doi: '10.1007/s00220-020-03770-9'
     primary_category: math-ph
+    sources: [arxiv]
+  - id: '1906.06860'
+    title: 'The Hodge-FVH Correspondence'
+    year: 2019
+    coauthors: [zhang-youjin, zhou-chunhui, liu-siqi]
+    doi: '10.1515/crelle-2020-0051'
+    journal: 'Journal für die reine und angewandte Mathematik (Crelles Journal)'
+    primary_category: math-ph
+    openalex_id: W3129493126
+    sources: [arxiv, openalex]
+  - id: '1905.08140'
+    title: 'On tau-functions for the Toda lattice hierarchy'
+    year: 2019
+    coauthors: []
+    doi: '10.1007/s11005-019-01232-5'
+    primary_category: math-ph
+  - id: '1903.01139'
+    title: 'Higher genus GW theory for the quintic'
+    year: 2019
+    coauthors: []
+  - id: '1812.08488'
+    title: 'On tau-functions for the KdV hierarchy'
+    year: 2018
+    coauthors: [zagier]
+    doi: '10.1007/s00029-021-00620-x'
+    journal: 'Selecta Mathematica'
+    primary_category: math-ph
+    sources: [arxiv]
+  - id: '1802.00711'
+    title: 'Gromov--Witten invariants of the Riemann sphere'
+    year: 2018
+    coauthors: [zagier, dubrovin]
+    doi: '10.4310/pamq.2020.v16.n1.a4'
+    journal: 'Pure and Applied Mathematics Quarterly'
+    primary_category: math.AG
+    sources: [arxiv]
+  - id: '1811.10234'
+    title: 'The Loop Equation for Special Cubic Hodge Integrals'
+    year: 2018
+    coauthors: [zhang-youjin, zhou-chunhui, liu-siqi]
+    primary_category: math.AG
+    sources: [arxiv]
   - id: '1812.08488'
     title: 'On tau-functions for the KdV hierarchy'
     year: 2018
@@ -356,57 +438,94 @@ publications:
   - id: '1811.10234'
     title: 'The Loop Equation for Special Cubic Hodge Integrals'
     year: 2018
-    coauthors: [liu-siqi, zhang-youjin, zhou-chunhui]
+    coauthors: [liu-siqi, zhou-chunhui]
+    doi: '10.4310/jdg/1659987894'
+    journal: 'Journal of Differential Geometry'
     primary_category: math.AG
-  - id: '1802.00711'
-    title: 'Gromov--Witten invariants of the Riemann sphere'
-    year: 2018
-    coauthors: [dubrovin, zagier]
-    primary_category: math.AG
-  - id: '1709.07309'
-    title: 'Drinfeld-Sokolov Hierarchies, Tau Functions, and Generalized Schur Polynomials'
-    year: 2017
-    coauthors: ['Mattia Cafasso', 'Ann du Crest de Villeneuve']
-    doi: '10.3842/SIGMA.2018.104'
-    journal: 'SIGMA 14 (2018), 104, 17 pages'
-    primary_category: math-ph
+    openalex_id: W2901509376
+    sources: [arxiv, openalex]
   - id: '1702.01669'
     title: 'On Gromov--Witten invariants of $\mathbb{P}^1$'
     year: 2017
     coauthors: [dubrovin]
+    doi: '10.4310/mrl.2019.v26.n3.a4'
+    journal: 'Mathematical Research Letters'
     primary_category: math.AG
+    sources: [arxiv]
+  - id: '1709.07309'
+    title: 'Drinfeld-Sokolov Hierarchies, Tau Functions, and Generalized Schur Polynomials'
+    year: 2017
+    coauthors: ['Mattia Cafasso', 'Ann du Crest de Villeneuve']
+    doi: '10.3842/sigma.2018.104'
+    journal: 'SIGMA 14 (2018), 104, 17 pages'
+    primary_category: math-ph
   - id: '1612.02333'
     title: 'Hodge-GUE correspondence and the discrete KdV equation'
     year: 2016
-    coauthors: [dubrovin, liu-siqi, zhang-youjin]
+    coauthors: [liu-siqi, zhang-youjin, dubrovin]
+    doi: '10.1007/s00220-020-03846-6'
+    journal: 'Communications in Mathematical Physics'
     primary_category: math-ph
+    openalex_id: W3086463376
+    sources: [arxiv, openalex]
   - id: '1610.07534'
     title: 'Simple Lie algebras, Drinfeld--Sokolov hierarchies, and multi-point correlation functions'
     year: 2016
-    coauthors: ['Marco Bertola', dubrovin]
+    coauthors: ['Marco Bertola']
+    doi: '10.17323/1609-4514-2021-21-2-233-270'
+    journal: 'Moscow Mathematical Journal'
     primary_category: math-ph
+    sources: [arxiv]
   - id: '1606.03720'
     title: 'On cubic Hodge integrals and random matrices'
     year: 2016
     coauthors: [dubrovin]
+    doi: '10.4310/cntp.2017.v11.n2.a3'
+    journal: 'Communications in Number Theory and Physics'
     primary_category: math-ph
+    sources: [arxiv]
   - id: '1604.07628'
     title: 'Generating series for GUE correlators'
     year: 2016
     coauthors: [dubrovin]
     doi: '10.1007/s11005-017-0975-6'
     primary_category: math-ph
+    sources: [arxiv]
+  - id: '1612.02333'
+    title: 'Hodge-GUE correspondence and the discrete KdV equation'
+    year: 2016
+    coauthors: [dubrovin, zhang-youjin, liu-siqi]
+    primary_category: math-ph
+    sources: [arxiv]
+  - id: '1610.07534'
+    title: 'Simple Lie algebras, Drinfeld--Sokolov hierarchies, and multi-point correlation functions'
+    year: 2016
+    coauthors: ['Marco Bertola', dubrovin]
+    primary_category: math-ph
   - id: '1508.03750'
     title: 'Simple Lie algebras and topological ODEs'
     year: 2015
     coauthors: ['Marco Bertola', dubrovin]
+    doi: '10.1093/imrn/rnw285'
+    journal: 'International Mathematics Research Notices'
     primary_category: math-ph
+    sources: [arxiv]
   - id: '1504.06452'
     title: 'Correlation functions of the KdV hierarchy and applications to intersection numbers over $\overline{\mathcal M}_{g,n}$'
     year: 2015
     coauthors: ['Marco Bertola', dubrovin]
     doi: '10.1016/j.physd.2016.04.008'
     primary_category: math-ph
+    sources: [arxiv]
+  - id: '1409.4616'
+    title: 'Hodge integrals and tau-symmetric integrable hierarchies of Hamiltonian evolutionary PDEs'
+    year: 2014
+    coauthors: [liu-siqi, zhang-youjin, dubrovin]
+    doi: '10.1016/j.aim.2016.01.018'
+    journal: 'Advances in Mathematics'
+    primary_category: math.AG
+    openalex_id: W2138945228
+    sources: [arxiv, openalex]
   - id: '1412.4419'
     title: 'Geometric interpretation of Zhou''s explicit formula for the Witten-Kontsevich tau function'
     year: 2014
@@ -418,26 +537,25 @@ publications:
     coauthors: ['Marco Bertola']
     doi: '10.1088/1751-8113/48/19/195205'
     primary_category: math-ph
-  - id: '1409.4616'
-    title: 'Hodge integrals and tau-symmetric integrable hierarchies of Hamiltonian evolutionary PDEs'
-    year: 2014
-    coauthors: [dubrovin, liu-siqi, zhang-youjin]
-    primary_category: math.AG
   - id: '1305.2593'
     title: 'Uniqueness Theorem of W-Constraints for Simple Singularities'
     year: 2013
-    coauthors: [liu-siqi, zhang-youjin]
+    coauthors: [zhang-youjin, liu-siqi]
     doi: '10.1007/s11005-013-0643-4'
+    journal: 'Letters in Mathematical Physics'
     primary_category: math.QA
+    sources: [arxiv]
   - id: '1006.5241'
     title: 'Start-up flow of a viscoelastic fluid in a pipe with fractional Maxwell''s model'
     year: 2010
     coauthors: ['Ke-Qin Zhu']
+    doi: '10.1016/j.camwa.2010.08.013'
+    journal: 'Computers &amp; Mathematics with Applications'
     primary_category: math-ph
 activity:
-  total_papers: 54
-  published_count: 15
-  preprint_only_count: 39
+  total_papers: 61
+  published_count: 39
+  preprint_only_count: 22
   active_period: '2013-present'
   peak_period: '2018-present'
 external_ids: {}

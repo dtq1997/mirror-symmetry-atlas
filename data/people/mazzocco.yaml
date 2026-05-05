@@ -122,8 +122,8 @@ key_collaborators:
   papers_count: 7
 activity:
   total_papers: 87
-  published_count: 83
-  preprint_only_count: 4
+  published_count: 78
+  preprint_only_count: 9
   h_index: 21
   active_period: '1998-present'
   phd_students: 4
@@ -151,7 +151,6 @@ publications:
     title: 'Decorated Local Systems and Character Varieties'
     year: 2026
     coauthors: ['Benedetta Facciotti', 'Nikita Nikolaev']
-    doi: '10.48550/arxiv.2603.18842'
     journal: 'ArXiv.org'
     primary_category: math.AG
     openalex_id: W7139921749
@@ -159,7 +158,7 @@ publications:
   - id: 'doi:10.1016/j.ppnp.2025.104164'
     title: 'Indirect methods with transfer reactions: The Trojan Horse method and the Asymptotic Normalization Coefficient'
     year: 2025
-    coauthors: ['А. Туміно', 'C. A. Bertulani', 'S. Cherubini', 'G. D’Agata', 'A. Di Pietro', 'П. Фігуера', 'G. L. Guardo', 'M. Gulino', 'Susumu Hayakawa', 'M. La Cognata', 'M. La Commara', 'L. Lamia', 'D. Lattuada', 'A. M. Moro', 'J. Mrázek', 'A. Oliva', 'S. Palmerini', 'R. G. Pizzone', 'G.G. Rapisarda', 'S. Romano', 'M. L. Sergi', 'R. Spartá', 'S. Typel', 'Hajime Yamaguchi']
+    coauthors: ['C. A. Bertulani', 'S. Cherubini', 'G. D’Agata', 'A. Di Pietro', 'G. L. Guardo', 'M. Gulino', 'Susumu Hayakawa', 'M. La Cognata', 'M. La Commara', 'L. Lamia', 'D. Lattuada', 'A. M. Moro', 'J. Mrázek', 'A. Oliva', 'S. Palmerini', 'R. G. Pizzone', 'G.G. Rapisarda', 'S. Romano', 'M. L. Sergi', 'R. Spartá', 'S. Typel', 'Hajime Yamaguchi']
     doi: '10.1016/j.ppnp.2025.104164'
     journal: 'Progress in Particle and Nuclear Physics'
     openalex_id: W4407902549
@@ -178,14 +177,13 @@ publications:
     title: 'Segre surfaces and geometry of the Painlevé equations'
     year: 2024
     coauthors: ['Nalini Joshi', 'Pieter Roffelsen']
-    doi: '10.48550/arxiv.2405.10541'
     primary_category: math-ph
     openalex_id: W4398191462
     sources: [arxiv, openalex]
   - id: 'doi:10.1140/epjp/s13360-023-04840-2'
     title: 'Nuclear Physics Mid Term Plan at LNGS'
     year: 2024
-    coauthors: ['R. Buompane', 'F. Cavanna', 'C. Curceanu', 'Antonio D’Onofrio', 'A. Di Leva', 'A. Formicola', 'L. Gialanella', 'C. Gustavino', 'G. Imbriani', 'M. Junker', 'Antonino Marcianò', 'Fabio Marzaioli', 'R. Nania', 'F. Napolitano', 'Kristian Piscicchia', 'O. Straniero', 'C. Abia', 'M. Aliotta', 'D. Bemmerer', 'A. Best', 'A. Boeltzig', 'C. G. Bruno', 'A. Caciolli', 'A. Chieffi', 'G. F. Ciani', 'G. D’Agata', 'R. J. deBoer', 'M. De Cesare', 'D. Dell’Aquila', 'R. Depalo', 'I. Domı́nguez', 'F. Ferraro', 'J. G. Duarte', 'A. Guglielmetti', 'Gy. Gyürky', 'Shinjiro Hayakawa', 'M. La Cognata', 'L. Lamia', 'L. E. Marcucci', 'E. Masha', 'E. L. Morales-Gallegos', 'S. Palmerini', 'Isabella Passariello', 'Antonio Petraglia', 'D. Piatti', 'M. Pignatari', 'R. G. Pizzone', 'Giuseppe Porzio', 'D. Rapagnani', 'G. G. Rapisarda', 'S. Romano', 'Mauro Rubino', 'C. Santonastaso', 'M. L. Sergi', 'J. Skowronski', 'R. Spartá', 'F. Terrasi', 'А. Туміно', 'S. Turkat', 'M. Wiescher', 'S. Zavatarelli']
+    coauthors: ['R. Buompane', 'F. Cavanna', 'C. Curceanu', 'Antonio D’Onofrio', 'A. Di Leva', 'A. Formicola', 'L. Gialanella', 'C. Gustavino', 'G. Imbriani', 'M. Junker', 'Antonino Marcianò', 'Fabio Marzaioli', 'R. Nania', 'F. Napolitano', 'Kristian Piscicchia', 'O. Straniero', 'C. Abia', 'M. Aliotta', 'D. Bemmerer', 'A. Best', 'A. Boeltzig', 'C. G. Bruno', 'A. Caciolli', 'A. Chieffi', 'G. F. Ciani', 'G. D’Agata', 'R. J. deBoer', 'M. De Cesare', 'D. Dell’Aquila', 'R. Depalo', 'I. Domı́nguez', 'F. Ferraro', 'J. G. Duarte', 'A. Guglielmetti', 'Gy. Gyürky', 'Shinjiro Hayakawa', 'M. La Cognata', 'L. Lamia', 'L. E. Marcucci', 'E. Masha', 'E. L. Morales-Gallegos', 'S. Palmerini', 'Isabella Passariello', 'Antonio Petraglia', 'D. Piatti', 'M. Pignatari', 'R. G. Pizzone', 'Giuseppe Porzio', 'D. Rapagnani', 'G. G. Rapisarda', 'S. Romano', 'Mauro Rubino', 'C. Santonastaso', 'M. L. Sergi', 'J. Skowronski', 'R. Spartá', 'F. Terrasi', 'S. Turkat', 'M. Wiescher', 'S. Zavatarelli']
     doi: '10.1140/epjp/s13360-023-04840-2'
     journal: 'The European Physical Journal Plus'
     openalex_id: W4392506726
@@ -203,7 +201,7 @@ publications:
   - id: 'doi:10.1051/epjconf/202327502010'
     title: 'The 12C +16 O fusion reaction in carbon burning: Study at energies of astrophysical interest using the Trojan Horse Method'
     year: 2023
-    coauthors: ['A. Oliva', 'А. Туміно', 'N. Soić', 'M.P. Prajapati', 'L. Acosta', 'R. Alba', 'F. Barba', 'S. Cherubini', 'G. D’Agata', 'D. Dell’Aquila', 'A. Di Pietro', 'P.J. Fernandez', 'P. Figuera', 'D. Galaviz Redondo', 'L. Guardo', 'M. Gulino', 'F. Hammache', 'D. Jelavić Malenica', 'A. I. Kilić', 'M. La Cognata', 'M. La Commara', 'L. Lamia', 'D. Lattuada', 'C. Maiolino', 'Giulio Manicò', 'Matko Milin', 'Ma Nanru', 'A. K. Nurmukhanbetova', 'Deni Nurkić', 'S. Palmerini', 'T. Parascandolo', 'D. Pierroutsakou', 'R. G. Pizzone', 'R. Popočovski', 'G. G. Rapisarda', 'S. Romano', 'D. Santonocito', 'M. L. Sergi', 'A.C. Shotter', 'R. Spartá', 'A. Spiridon', 'L. Trache', 'N. Vukman', 'Hitoshi Yamaguchi']
+    coauthors: ['A. Oliva', 'N. Soić', 'M.P. Prajapati', 'L. Acosta', 'R. Alba', 'F. Barba', 'S. Cherubini', 'G. D’Agata', 'D. Dell’Aquila', 'A. Di Pietro', 'P.J. Fernandez', 'P. Figuera', 'D. Galaviz Redondo', 'L. Guardo', 'M. Gulino', 'F. Hammache', 'D. Jelavić Malenica', 'A. I. Kilić', 'M. La Cognata', 'M. La Commara', 'L. Lamia', 'D. Lattuada', 'C. Maiolino', 'Giulio Manicò', 'Matko Milin', 'Ma Nanru', 'A. K. Nurmukhanbetova', 'Deni Nurkić', 'S. Palmerini', 'T. Parascandolo', 'D. Pierroutsakou', 'R. G. Pizzone', 'R. Popočovski', 'G. G. Rapisarda', 'S. Romano', 'D. Santonocito', 'M. L. Sergi', 'A.C. Shotter', 'R. Spartá', 'A. Spiridon', 'L. Trache', 'N. Vukman', 'Hitoshi Yamaguchi']
     doi: '10.1051/epjconf/202327502010'
     journal: 'EPJ Web of Conferences'
     openalex_id: W4319083768
@@ -212,7 +210,7 @@ publications:
   - id: 'doi:10.1051/epjconf/202327911015'
     title: 'Study of the 12C +16 O fusion reaction in carbon burning via the Trojan Horse Method'
     year: 2023
-    coauthors: ['A. Oliva', 'А. Туміно', 'N. Soić', 'P. M. Prajapati', 'L. Acosta', 'R. Alba', 'F. Barba', 'S. Cherubini', 'G. D’Agata', 'D. Dell’Aquila', 'A. Di Pietro', 'J.P. Fernandez', 'P. Figuera', 'D. Galaviz Redondo', 'L. Guardo', 'M. Gulino', 'F. Hammache', 'D. Jelavić Malenica', 'A. I. Kilić', 'M. La Cognata', 'M. La Commara', 'L. Lamia', 'D. Lattuada', 'C. Maiolino', 'Giulio Manicò', 'Matko Milin', 'Ma Nanru', 'A. K. Nurmukhanbetova', 'Deni Nurkić', 'S. Palmerini', 'T. Parascandolo', 'D. Pierroutsakou', 'R. G. Pizzone', 'R. Popočovski', 'G. G. Rapisarda', 'S. Romano', 'D. Santonocito', 'M. L. Sergi', 'A.C. Shotter', 'R. Spartá', 'A. Spiridon', 'L. Trache', 'N. Vukman', 'Hitoshi Yamaguchi']
+    coauthors: ['A. Oliva', 'N. Soić', 'P. M. Prajapati', 'L. Acosta', 'R. Alba', 'F. Barba', 'S. Cherubini', 'G. D’Agata', 'D. Dell’Aquila', 'A. Di Pietro', 'J.P. Fernandez', 'P. Figuera', 'D. Galaviz Redondo', 'L. Guardo', 'M. Gulino', 'F. Hammache', 'D. Jelavić Malenica', 'A. I. Kilić', 'M. La Cognata', 'M. La Commara', 'L. Lamia', 'D. Lattuada', 'C. Maiolino', 'Giulio Manicò', 'Matko Milin', 'Ma Nanru', 'A. K. Nurmukhanbetova', 'Deni Nurkić', 'S. Palmerini', 'T. Parascandolo', 'D. Pierroutsakou', 'R. G. Pizzone', 'R. Popočovski', 'G. G. Rapisarda', 'S. Romano', 'D. Santonocito', 'M. L. Sergi', 'A.C. Shotter', 'R. Spartá', 'A. Spiridon', 'L. Trache', 'N. Vukman', 'Hitoshi Yamaguchi']
     doi: '10.1051/epjconf/202327911015'
     journal: 'EPJ Web of Conferences'
     openalex_id: W4360595770
@@ -239,7 +237,7 @@ publications:
   - id: 'doi:10.1140/epja/s10050-020-00212-x'
     title: 'Indirect measurement of the $$^3\hbox {He}$$(n,p)$$^3\hbox {H}$$ reaction cross section at Big Bang energies'
     year: 2020
-    coauthors: ['R. G. Pizzone', 'Carlo Spampinato', 'R. Spartá', 'M. Couder', 'Wanpeng Tan', 'V. Burjan', 'G. D’Agata', 'G. L. Guardo', 'M. La Cognata', 'L. Lamia', 'J. Mrázek', 'S. Palmerini', 'S. Typel', 'А. Туміно', 'M. Wiescher', 'S. Anguilar', 'D. W. Bardayan', 'D. Blankstein', 'Luca Boccioli', 'Lauren Callahan', 'S. M.', 'K. Y. Chae', 'Adam M. Clark', 'B. Frentz', 'M. R. Hall', 'A. Gula', 'S. L. Henderson', 'R. Kelmar', 'M. S. Kwag', 'I. Indelicato', 'M. La Commara', 'D. Lattuada', 'Q. Liu', 'J. D. Long', 'A. K. Dutta Majumdar', 'Sean McGuinness', 'Austin Nelson', 'A. Oliva', 'P. D. O’Malley', 'P. M. Prajapati', 'G. G. Rapisarda', 'S. Romano', 'M. L. Sergi', 'C. Seymour', 'Michael Skulski', 'C. Spitaleri', 'John Wilkinson']
+    coauthors: ['R. G. Pizzone', 'Carlo Spampinato', 'R. Spartá', 'M. Couder', 'Wanpeng Tan', 'V. Burjan', 'G. D’Agata', 'G. L. Guardo', 'M. La Cognata', 'L. Lamia', 'J. Mrázek', 'S. Palmerini', 'S. Typel', 'M. Wiescher', 'S. Anguilar', 'D. W. Bardayan', 'D. Blankstein', 'Luca Boccioli', 'Lauren Callahan', 'S. M.', 'K. Y. Chae', 'Adam M. Clark', 'B. Frentz', 'M. R. Hall', 'A. Gula', 'S. L. Henderson', 'R. Kelmar', 'M. S. Kwag', 'I. Indelicato', 'M. La Commara', 'D. Lattuada', 'Q. Liu', 'J. D. Long', 'A. K. Dutta Majumdar', 'Sean McGuinness', 'Austin Nelson', 'A. Oliva', 'P. D. O’Malley', 'P. M. Prajapati', 'G. G. Rapisarda', 'S. Romano', 'M. L. Sergi', 'C. Seymour', 'Michael Skulski', 'C. Spitaleri', 'John Wilkinson']
     doi: '10.1140/epja/s10050-020-00212-x'
     journal: 'The European Physical Journal A'
     openalex_id: W3046966912
@@ -266,7 +264,7 @@ publications:
   - id: 'doi:10.1088/1742-6596/1643/1/012051'
     title: 'Overview on the Trojan Horse Method in nuclear astrophysics'
     year: 2020
-    coauthors: ['L. Lamia', 'R. G. Pizzone', 'S. Hayakawa', 'M. La Cognata', 'C. A. Bertulani', 'S. Cherubini', 'G. D’Agata', 'G. L. Guardo', 'M. Gulino', 'I. Indelicato', 'G. G. Rapisarda', 'S. Romano', 'M. L. Sergi', 'R. Spartá', 'C. Spitaleri', 'А. Туміно']
+    coauthors: ['L. Lamia', 'R. G. Pizzone', 'S. Hayakawa', 'M. La Cognata', 'C. A. Bertulani', 'S. Cherubini', 'G. D’Agata', 'G. L. Guardo', 'M. Gulino', 'I. Indelicato', 'G. G. Rapisarda', 'S. Romano', 'M. L. Sergi', 'R. Spartá', 'C. Spitaleri']
     doi: '10.1088/1742-6596/1643/1/012051'
     journal: 'Journal of Physics Conference Series'
     openalex_id: W3115256554
@@ -275,7 +273,7 @@ publications:
   - id: 'doi:10.1051/epjconf/202022702007'
     title: 'Study of the neutron induced reaction 17O(n,α)14C at astrophysical energies via the Trojan Horse Method'
     year: 2020
-    coauthors: ['A. Oliva', 'L. Lamia', 'G. L. Guardo', 'C. Spitaleri', 'S. Cherubini', 'A. Cvetinović', 'G. D’Agata', 'N. de Séréville', 'A. Di Pietro', 'P. Figuera', 'M. Gulino', 'Feirouz Hammache', 'S. Hayakawa', 'I. Indelicato', 'M. La Cognata', 'M. La Commara', 'D. Lattuada', 'М. Латтуада', 'Giulio Manicò', 'S. Messina', 'S. Palmerini', 'R. G. Pizzone', 'M. L. Pumo', 'G. G. Rapisarda', 'S. Romano', 'M. L. Sergi', 'N. Soić', 'R. Spartá', 'А. Туміно']
+    coauthors: ['A. Oliva', 'L. Lamia', 'G. L. Guardo', 'C. Spitaleri', 'S. Cherubini', 'A. Cvetinović', 'G. D’Agata', 'N. de Séréville', 'A. Di Pietro', 'P. Figuera', 'M. Gulino', 'Feirouz Hammache', 'S. Hayakawa', 'I. Indelicato', 'M. La Cognata', 'M. La Commara', 'D. Lattuada', 'Giulio Manicò', 'S. Messina', 'S. Palmerini', 'R. G. Pizzone', 'M. L. Pumo', 'G. G. Rapisarda', 'S. Romano', 'M. L. Sergi', 'N. Soić', 'R. Spartá']
     doi: '10.1051/epjconf/202022702007'
     journal: 'EPJ Web of Conferences'
     openalex_id: W3003596140
@@ -284,7 +282,7 @@ publications:
   - id: 'doi:10.7566/jpscp.31.011056'
     title: 'Measurement of the 27Al(p,α)24Mg Reaction at Astrophysical Energies via the Trojan Horse Method'
     year: 2020
-    coauthors: ['S. Palmerini', 'M. La Cognata', 'L. Acosta', 'R. Alba', 'E. Chávez', 'S. Cherubini', 'G. D’ Agata', 'A. Di Pietro', 'P. Figuera', 'K. Rios', 'G. L. Guardo', 'M. Gulino', 'S. Hayakawa', 'G. Kiss', 'M. La Commara', 'L. Lamia', 'C. Maiolino', 'Giulio Manicò', 'J. Mrázek', 'C. Parascandalo', 'T. Petruze', 'D. Pierroutsakou', 'R. G. Pizzone', 'G. G. Rapisarda', 'S. Romano', 'D. Santonocito', 'R. Spartá', 'C. Spitaleri', 'А. Туміно']
+    coauthors: ['S. Palmerini', 'M. La Cognata', 'L. Acosta', 'R. Alba', 'E. Chávez', 'S. Cherubini', 'G. D’ Agata', 'A. Di Pietro', 'P. Figuera', 'K. Rios', 'G. L. Guardo', 'M. Gulino', 'S. Hayakawa', 'G. Kiss', 'M. La Commara', 'L. Lamia', 'C. Maiolino', 'Giulio Manicò', 'J. Mrázek', 'C. Parascandalo', 'T. Petruze', 'D. Pierroutsakou', 'R. G. Pizzone', 'G. G. Rapisarda', 'S. Romano', 'D. Santonocito', 'R. Spartá', 'C. Spitaleri']
     doi: '10.7566/jpscp.31.011056'
     openalex_id: W3013181029
     sources: [openalex]
@@ -292,7 +290,7 @@ publications:
   - id: 'doi:10.7566/jpscp.32.010058'
     title: 'The 7Be\((n,\alpha )\)4He Reaction Studied via THM for the Cosmological Li-Problem'
     year: 2020
-    coauthors: ['Shinjiro Hayakawa', 'L. Lamia', 'C. Spitaleri', 'C. A. Bertulani', 'S. Q. Hou', 'M. La Cognata', 'R. G. Pizzone', 'D. Pierroutsakou', 'S. Romano', 'M. L. Sergi', 'А. Туміно']
+    coauthors: ['Shinjiro Hayakawa', 'L. Lamia', 'C. Spitaleri', 'C. A. Bertulani', 'S. Q. Hou', 'M. La Cognata', 'R. G. Pizzone', 'D. Pierroutsakou', 'S. Romano', 'M. L. Sergi']
     doi: '10.7566/jpscp.32.010058'
     openalex_id: W3043192827
     sources: [openalex]
@@ -318,7 +316,7 @@ publications:
   - id: 'doi:10.1393/ncc/i2020-20111-7'
     title: 'Study of the neutron-induced reaction $^{17}$O($n,\alpha$)$^{14}$C at astrophysical energies via the Trojan Horse Method'
     year: 2019
-    coauthors: ['A. Oliva', 'G. L. Guardo', 'L. Lamia', 'S. Cherubini', 'A. Cvetinović', 'G. D’Agata', 'N. de Séréville', 'A. Di Pietro', 'P. Figuera', 'M. Gulino', 'F. Hammache', 'Shinjiro Hayakawa', 'I. Indelicato', 'M. La Cognata', 'M. La Commara', 'D. Lattuada', 'М. Латтуада', 'Giulio Manicò', 'S. Messina', 'S. Palmerini', 'R. G. Pizzone', 'M. L. Pumo', 'G. G. Rapisarda', 'S. Romano', 'M. L. Sergi', 'N. Soić', 'R. Spartá', 'C. Spitaleri', 'А. Туміно']
+    coauthors: ['A. Oliva', 'G. L. Guardo', 'L. Lamia', 'S. Cherubini', 'A. Cvetinović', 'G. D’Agata', 'N. de Séréville', 'A. Di Pietro', 'P. Figuera', 'M. Gulino', 'F. Hammache', 'Shinjiro Hayakawa', 'I. Indelicato', 'M. La Cognata', 'M. La Commara', 'D. Lattuada', 'Giulio Manicò', 'S. Messina', 'S. Palmerini', 'R. G. Pizzone', 'M. L. Pumo', 'G. G. Rapisarda', 'S. Romano', 'M. L. Sergi', 'N. Soić', 'R. Spartá', 'C. Spitaleri']
     doi: '10.1393/ncc/i2020-20111-7'
     openalex_id: W3165357655
     sources: [openalex]
@@ -326,7 +324,7 @@ publications:
   - id: 'doi:10.1007/978-3-030-13876-9_60'
     title: 'The $$^{19}\mathrm{F}( \alpha ,\mathrm{p})^{22}$$ Ne and $$^{23}\mathrm{Na}(\mathrm{p},\alpha )^{20}$$ Ne Reactions at Energies of Astrophysical Interest via the Trojan Horse Method'
     year: 2019
-    coauthors: ['G. D’Agata', 'R. G. Pizzone', 'I. Indelicato', 'M. La Cognata', 'C. Spitaleri', 'V. Burjan', 'S. Cherubini', 'A. Di Pietro', 'P. Figuera', 'G. L. Guardo', 'M. Gulino', 'M. La Commara', 'L. Lamia', 'М. Латтуада', 'J. Mrázek', 'Matko Milin', 'S. Palmerini', 'C. Parascandolo', 'D. Pierroutsakou', 'G. G. Rapisarda', 'S. Romano', 'M. L. Sergi', 'N. Soić', 'R. Spartá', 'O. Trippella', 'А. Туміно']
+    coauthors: ['G. D’Agata', 'R. G. Pizzone', 'I. Indelicato', 'M. La Cognata', 'C. Spitaleri', 'V. Burjan', 'S. Cherubini', 'A. Di Pietro', 'P. Figuera', 'G. L. Guardo', 'M. Gulino', 'M. La Commara', 'L. Lamia', 'J. Mrázek', 'Matko Milin', 'S. Palmerini', 'C. Parascandolo', 'D. Pierroutsakou', 'G. G. Rapisarda', 'S. Romano', 'M. L. Sergi', 'N. Soić', 'R. Spartá', 'O. Trippella']
     doi: '10.1007/978-3-030-13876-9_60'
     journal: 'Springer proceedings in physics'
     openalex_id: W2969937321
@@ -352,7 +350,7 @@ publications:
   - id: 'doi:10.1051/epjconf/2018184h02003'
     title: 'The 19F(α, p)22Ne and 23Na(p,α)20Ne reaction in AGB nucleosynthesis via THM'
     year: 2018
-    coauthors: ['G. D’Agata', 'R. G. Pizzone', 'M. La Cognata', 'I. Indelicato', 'C. Spitaleri', 'V. Burjan', 'S. Cherubini', 'A. Di Pietro', 'G. L. Guardo', 'M. Gulino', 'M. La Commara', 'L. Lamia', 'М. Латтуада', 'J. Mrázek', 'Matko Milin', 'S. Palmerini', 'C. Parascandolo', 'D. Pierroutsakou', 'G. G. Rapisarda', 'S. Romano', 'M. L. Sergi', 'N. Soić', 'R. Spartá', 'O. Trippella', 'А. Туміно']
+    coauthors: ['G. D’Agata', 'R. G. Pizzone', 'M. La Cognata', 'I. Indelicato', 'C. Spitaleri', 'V. Burjan', 'S. Cherubini', 'A. Di Pietro', 'G. L. Guardo', 'M. Gulino', 'M. La Commara', 'L. Lamia', 'J. Mrázek', 'Matko Milin', 'S. Palmerini', 'C. Parascandolo', 'D. Pierroutsakou', 'G. G. Rapisarda', 'S. Romano', 'M. L. Sergi', 'N. Soić', 'R. Spartá', 'O. Trippella']
     doi: '10.1051/epjconf/2018184h02003'
     journal: 'EPJ Web of Conferences'
     openalex_id: W2811021664
@@ -361,7 +359,7 @@ publications:
   - id: 'doi:10.1051/epjconf/201818402012'
     title: 'The Treiman-Yang Criterion: validating the Trojan Horse Method by experimentally probing the reaction mechanism'
     year: 2018
-    coauthors: ['Salvatore Simone Perrotta', 'C. Spitaleri', 'S. Cherubini', 'A. Cvetinović', 'G. D’Agata', 'D. Dell’Aquila', 'A. Di Pietro', 'P. Figuera', 'L. Guardo', 'M. Gulino', 'I. Indelicato', 'I. Kres', 'M. La Cognata', 'M. La Commara', 'L. Lamia', 'D. Lattuada', 'М. Латтуада', 'I. Lombardo', 'T. Parascandolo', 'R. G. Pizzone', 'G. G. Rapisarda', 'S. Romano', 'R. Spartá', 'O. Trippella', 'А. Туміно']
+    coauthors: ['Salvatore Simone Perrotta', 'C. Spitaleri', 'S. Cherubini', 'A. Cvetinović', 'G. D’Agata', 'D. Dell’Aquila', 'A. Di Pietro', 'P. Figuera', 'L. Guardo', 'M. Gulino', 'I. Indelicato', 'I. Kres', 'M. La Cognata', 'M. La Commara', 'L. Lamia', 'D. Lattuada', 'I. Lombardo', 'T. Parascandolo', 'R. G. Pizzone', 'G. G. Rapisarda', 'S. Romano', 'R. Spartá', 'O. Trippella']
     doi: '10.1051/epjconf/201818402012'
     journal: 'EPJ Web of Conferences'
     openalex_id: W2809690262
@@ -386,7 +384,7 @@ publications:
   - id: 'doi:10.3847/1538-4357/aa7de7'
     title: 'New Improved Indirect Measurement of the 19F(p, α)16O Reaction at Energies of Astrophysical Relevance'
     year: 2017
-    coauthors: ['I. Indelicato', 'M. La Cognata', 'C. Spitaleri', 'V. Burjan', 'S. Cherubini', 'M. Gulino', 'S. Hayakawa', 'Z. Hons', 'V. Kroha', 'L. Lamia', 'J. Mrázek', 'R. G. Pizzone', 'S. Romano', 'E. Strano', 'D. Torresi', 'А. Туміно']
+    coauthors: ['I. Indelicato', 'M. La Cognata', 'C. Spitaleri', 'V. Burjan', 'S. Cherubini', 'M. Gulino', 'S. Hayakawa', 'Z. Hons', 'V. Kroha', 'L. Lamia', 'J. Mrázek', 'R. G. Pizzone', 'S. Romano', 'E. Strano', 'D. Torresi']
     doi: '10.3847/1538-4357/aa7de7'
     journal: 'The Astrophysical Journal'
     openalex_id: W2745308043
@@ -395,7 +393,7 @@ publications:
   - id: 'doi:10.1103/physrevc.96.044317'
     title: 'Evidence for $O15+α$ resonance structures in $Ne19$ via direct measurement'
     year: 2017
-    coauthors: ['D. Torresi', 'C. Wheldon', 'Tz. Kokalova', 'S. Bailey', 'A. Boiano', 'C. Boiano', 'M. Fisichella', 'C. Parascandolo', 'D. Pierroutsakou', 'E. Strano', 'М. Задро', 'M. Cavallaro', 'S. Cherubini', 'N. Curtis', 'A. Di Pietro', 'J. P. Fernández-García', 'П. Фігуера', 'T. Glodariu', 'J. Grȩbosz', 'M. La Cognata', 'M. La Commara', 'М. Латтуада', 'D. Mengoni', 'R. G. Pizzone', 'C. Signorini', 'C. Stefanini', 'L. Stroe', 'C. Spitaleri']
+    coauthors: ['D. Torresi', 'C. Wheldon', 'Tz. Kokalova', 'S. Bailey', 'A. Boiano', 'C. Boiano', 'M. Fisichella', 'C. Parascandolo', 'D. Pierroutsakou', 'E. Strano', 'M. Cavallaro', 'S. Cherubini', 'N. Curtis', 'A. Di Pietro', 'J. P. Fernández-García', 'T. Glodariu', 'J. Grȩbosz', 'M. La Cognata', 'M. La Commara', 'D. Mengoni', 'R. G. Pizzone', 'C. Signorini', 'C. Stefanini', 'L. Stroe', 'C. Spitaleri']
     doi: '10.1103/physrevc.96.044317'
     journal: 'Physical review. C'
     openalex_id: W2766829641
@@ -404,7 +402,7 @@ publications:
   - id: 'doi:10.1088/1742-6596/863/1/012026'
     title: '15O+α resonant elastic scattering to study cluster states in19Ne'
     year: 2017
-    coauthors: ['D. Torresi', 'C. Wheldon', 'Tz. Kokalova', 'S. Bailey', 'A. Boiano', 'C. Boiano', 'M. Cavallaro', 'S. Cherubini', 'A. Di Pietro', 'J. P. Fernández-García', 'M. Fisichella', 'T. Glodariu', 'J. Grȩbosz', 'M. La Cognata', 'M. La Commara', 'М. Латтуада', 'D. Mengoni', 'C. Parascandolo', 'D. Pierroutsakou', 'R. G. Pizzone', 'C. Signorini', 'C. Stefanini', 'L. Stroe', 'C. Spitaleri', 'E. Strano', 'М. Задро']
+    coauthors: ['D. Torresi', 'C. Wheldon', 'Tz. Kokalova', 'S. Bailey', 'A. Boiano', 'C. Boiano', 'M. Cavallaro', 'S. Cherubini', 'A. Di Pietro', 'J. P. Fernández-García', 'M. Fisichella', 'T. Glodariu', 'J. Grȩbosz', 'M. La Cognata', 'M. La Commara', 'D. Mengoni', 'C. Parascandolo', 'D. Pierroutsakou', 'R. G. Pizzone', 'C. Signorini', 'C. Stefanini', 'L. Stroe', 'C. Spitaleri', 'E. Strano']
     doi: '10.1088/1742-6596/863/1/012026'
     journal: 'Journal of Physics Conference Series'
     openalex_id: W2725614385
@@ -423,7 +421,6 @@ publications:
     title: 'Embedding of the rank 1 DAHA into Mat(2,Tq) and its automorphisms'
     year: 2016
     coauthors: []
-    doi: '10.48550/arxiv.1603.03770'
     primary_category: math.RT
     openalex_id: W2298241412
     sources: [arxiv, openalex]
@@ -448,7 +445,7 @@ publications:
   - id: 'doi:10.1103/physrevaccelbeams.19.079901'
     title: 'Publisher’s Note: High intensity neutrino oscillation facilities in Europe [Phys. Rev. Accel. Beams16, 021002 (2013)]'
     year: 2016
-    coauthors: ['T.R. Edgecock', 'O. Caretta', 'T. Davenne', 'C. Densam', 'M. Fitton', 'David Kelliher', 'P. Loveridge', 'S. Machida', 'Christopher Prior', 'Chris Rogers', 'M. Rooney', 'J. W. G. Thomason', 'D. Wilcox', 'E. Wildner', 'I. Efthymiopoulos', 'R. Garoby', 'S. Gilardoni', 'C. Hansen', 'E. Benedetto', 'E. Jensen', 'A. Kosmicki', 'M. Martini', 'J. L. Osborne', 'G. Prior', 'Thierry Storà', 'Tania Mendonca', 'V. Vlachoudis', 'C. Waaijer', 'P. Cupiał', 'Antoine Chancé', 'A. Longhin', 'J. Payet', 'M. Zito', 'E. Baussan', 'Christoph Bobeth', 'E. Bouquerel', 'M. Dracos', 'G. Gaudiot', 'Baptiste Lepers', 'Francis Osswald', 'Pascal Poussot', 'N. Vassilopoulos', 'Jacques Wurtz', 'V. Zeter', 'J Bielski', 'Marek S. Kozień', 'Łukasz Łacny', 'B. Skoczeń', 'Bogdan Szybiński', 'Aneta Ustrzycka', 'A. Wróblewski', 'M. Marie-Jeanne', 'P. Balint', 'C. Fourel', 'J. Giraud', 'J. Jacob', 'T. Lamy', 'L. Latrasse', 'P. Sortais', 'T. Thuillier', 'Semen Mitrofanov', 'M. Loiselet', 'Th. Keutgen', 'Th. Delbar', 'F. Debray', 'C. Trophine', 'S. Veys', 'Cécile Daversin', 'V. G. Zorin', 'I. V. Izotov', 'В. А. Скалыга', 'Graeme Burt', 'A. Dexter', 'V.L. Kravchuk', 'T. Marchi', 'M. Cinausero', 'F. Gramegna', 'G. de Angelis', 'G. Prete', 'G. Collazuol', 'M. Laveder', 'M. Mezzetto', 'C. Signorini', 'E. Vardaci', 'A. Di Nitto', 'A. Brondi', 'G. La Rana', 'P. Migliozzi', 'R. Moro', 'V. Palladino', 'N. Gelli', 'D. Berkovits', 'M. Hass', 'T. Hirsh', 'Michaela Schaumann', 'A. Stahl', 'Jakob Wehner', 'A. Bross', 'Joachim Kopp']
+    coauthors: ['T.R. Edgecock', 'O. Caretta', 'T. Davenne', 'C. Densam', 'M. Fitton', 'David Kelliher', 'P. Loveridge', 'S. Machida', 'Christopher Prior', 'Chris Rogers', 'M. Rooney', 'J. W. G. Thomason', 'D. Wilcox', 'E. Wildner', 'I. Efthymiopoulos', 'R. Garoby', 'S. Gilardoni', 'C. Hansen', 'E. Benedetto', 'E. Jensen', 'A. Kosmicki', 'M. Martini', 'J. L. Osborne', 'G. Prior', 'Thierry Storà', 'Tania Mendonca', 'V. Vlachoudis', 'C. Waaijer', 'P. Cupiał', 'Antoine Chancé', 'A. Longhin', 'J. Payet', 'M. Zito', 'E. Baussan', 'Christoph Bobeth', 'E. Bouquerel', 'M. Dracos', 'G. Gaudiot', 'Baptiste Lepers', 'Francis Osswald', 'Pascal Poussot', 'N. Vassilopoulos', 'Jacques Wurtz', 'V. Zeter', 'J Bielski', 'Marek S. Kozień', 'Łukasz Łacny', 'B. Skoczeń', 'Bogdan Szybiński', 'Aneta Ustrzycka', 'A. Wróblewski', 'M. Marie-Jeanne', 'P. Balint', 'C. Fourel', 'J. Giraud', 'J. Jacob', 'T. Lamy', 'L. Latrasse', 'P. Sortais', 'T. Thuillier', 'Semen Mitrofanov', 'M. Loiselet', 'Th. Keutgen', 'Th. Delbar', 'F. Debray', 'C. Trophine', 'S. Veys', 'Cécile Daversin', 'V. G. Zorin', 'I. V. Izotov', 'Graeme Burt', 'A. Dexter', 'V.L. Kravchuk', 'T. Marchi', 'M. Cinausero', 'F. Gramegna', 'G. de Angelis', 'G. Prete', 'G. Collazuol', 'M. Laveder', 'M. Mezzetto', 'C. Signorini', 'E. Vardaci', 'A. Di Nitto', 'A. Brondi', 'G. La Rana', 'P. Migliozzi', 'R. Moro', 'V. Palladino', 'N. Gelli', 'D. Berkovits', 'M. Hass', 'T. Hirsh', 'Michaela Schaumann', 'A. Stahl', 'Jakob Wehner', 'A. Bross', 'Joachim Kopp']
     doi: '10.1103/physrevaccelbeams.19.079901'
     journal: 'Physical Review Accelerators and Beams'
     openalex_id: W2460134574
@@ -491,7 +488,7 @@ publications:
     title: 'Non-Symmetric Basic Hypergeometric Polynomials and Representation Theory for Confluent Cherednik Algebras'
     year: 2014
     coauthors: []
-    doi: '10.3842/SIGMA.2014.116'
+    doi: '10.3842/sigma.2014.116'
     journal: 'SIGMA 10 (2014), 116, 10 pages'
     primary_category: math.QA
     openalex_id: W2037514611
@@ -508,7 +505,7 @@ publications:
   - id: 'doi:10.1103/physrevstab.17.071002'
     title: 'Design of a neutrino source based on beta beams'
     year: 2014
-    coauthors: ['E. Wildner', 'C. Hansen', 'E. Benedetto', 'E. Jensen', 'Thierry Storà', 'Tânia Melo Mendonça', 'V. Vlachoudis', 'E. Bouquerel', 'M. Marie-Jeanne', 'P. Balint', 'C. Fourel', 'J. Giraud', 'J. Jacob', 'T. Lamy', 'L. Latrasse', 'P. Sortais', 'T. Thuillier', 'Semen Mitrofanov', 'M. Loiselet', 'Th. Keutgen', 'Th. Delbar', 'F. Debray', 'Christophe Trophime', 'S. Veys', 'Cécile Daversin', 'V. G. Zorin', 'I. V. Izotov', 'В. А. Скалыга', 'Antoine Chancé', 'J. Payet', 'Graeme Burt', 'A. Dexter', 'V.L. Kravchuk', 'T. Marchi', 'M. Cinausero', 'F. Gramegna', 'G. de Angelis', 'G. Prete', 'G. Collazuol', 'M. Mezzetto', 'E. Vardaci', 'A. Di Nitto', 'A. Brondi', 'G. La Rana', 'R. Moro', 'V. Palladino', 'N. Gelli', 'C. Signorini', 'T. Hirsh', 'M. Hass', 'D. Berkovits', 'A. Stahl', 'Michaela Schaumann', 'Jakob Wehner']
+    coauthors: ['E. Wildner', 'C. Hansen', 'E. Benedetto', 'E. Jensen', 'Thierry Storà', 'Tânia Melo Mendonça', 'V. Vlachoudis', 'E. Bouquerel', 'M. Marie-Jeanne', 'P. Balint', 'C. Fourel', 'J. Giraud', 'J. Jacob', 'T. Lamy', 'L. Latrasse', 'P. Sortais', 'T. Thuillier', 'Semen Mitrofanov', 'M. Loiselet', 'Th. Keutgen', 'Th. Delbar', 'F. Debray', 'Christophe Trophime', 'S. Veys', 'Cécile Daversin', 'V. G. Zorin', 'I. V. Izotov', 'Antoine Chancé', 'J. Payet', 'Graeme Burt', 'A. Dexter', 'V.L. Kravchuk', 'T. Marchi', 'M. Cinausero', 'F. Gramegna', 'G. de Angelis', 'G. Prete', 'G. Collazuol', 'M. Mezzetto', 'E. Vardaci', 'A. Di Nitto', 'A. Brondi', 'G. La Rana', 'R. Moro', 'V. Palladino', 'N. Gelli', 'C. Signorini', 'T. Hirsh', 'M. Hass', 'D. Berkovits', 'A. Stahl', 'Michaela Schaumann', 'Jakob Wehner']
     doi: '10.1103/physrevstab.17.071002'
     journal: 'Physical Review Special Topics - Accelerators and Beams'
     openalex_id: W1974054719
@@ -525,7 +522,6 @@ publications:
     title: 'Quantum ordering for quantum geodesic functions of orbifold Riemann surfaces'
     year: 2013
     coauthors: ['Leonid Chekhov']
-    doi: '10.48550/arxiv.1309.3493'
     primary_category: math.QA
     openalex_id: W1596437809
     sources: [arxiv, openalex]
@@ -540,7 +536,7 @@ publications:
   - id: '1305.4067'
     title: 'High intensity neutrino oscillation facilities in Europe'
     year: 2013
-    coauthors: ['T.R. Edgecock', 'O. Caretta', 'T. Davenne', 'C. Densam', 'M. Fitton', 'David Kelliher', 'P. Loveridge', 'Shinichi Machida', 'Christopher Prior', 'C. Rogers', 'M. Rooney', 'J. W. G. Thomason', 'D. Wilcox', 'E. Wildner', 'I. Efthymiopoulos', 'R. Garoby', 'S. Gilardoni', 'C. Hansen', 'E. Benedetto', 'E. Jensen', 'A. Kosmicki', 'M. Martini', 'J. Osborne', 'G. Prior', 'Thierry Storà', 'Tania Mendonca', 'V. Vlachoudis', 'C. Waaijer', 'P. Cupiał', 'Antoine Chancé', 'A. Longhin', 'J. Payet', 'M. Zito', 'E. Baussan', 'Christoph Bobeth', 'E. Bouquerel', 'M. Dracos', 'G. Gaudiot', 'Baptiste Lepers', 'Francis Osswald', 'Pascal Poussot', 'N. Vassilopoulos', 'Jacques Wurtz', 'V. Zeter', 'J Bielski', 'Marek S. Kozień', 'Łukasz Łacny', 'B. Skoczeń', 'Bogdan Szybiński', 'A. Ustrycka', 'A. Wróblewski', 'M. Marie-Jeanne', 'P. Balint', 'C. Fourel', 'J. Giraud', 'J. Jacob', 'T. Lamy', 'L. Latrasse', 'P. Sortais', 'T. Thuillier', 'Semen Mitrofanov', 'M. Loiselet', 'Th. Keutgen', 'Th. Delbar', 'F. Debray', 'C. Trophine', 'S. Veys', 'Cécile Daversin', 'V. G. Zorin', 'I. V. Izotov', 'В. А. Скалыга', 'Graeme Burt', 'A. Dexter', 'V.L. Kravchuk', 'T. Marchi', 'M. Cinausero', 'F. Gramegna', 'G. de Angelis', 'G. Prete', 'G. Collazuol', 'M. Laveder', 'M. Mezzetto', 'C. Signorini', 'E. Vardaci', 'A. Di Nitto', 'A. Brondi', 'G. La Rana', 'P. Migliozzi', 'R. Moro', 'V. Palladino', 'N. Gelli', 'D. Berkovits', 'M. Hass', 'T. Hirsh', 'Michaela Schaumann', 'A. Stahl', 'Jakob Wehner', 'A. Bross', 'Joachim Kopp']
+    coauthors: ['T.R. Edgecock', 'O. Caretta', 'T. Davenne', 'C. Densam', 'M. Fitton', 'David Kelliher', 'P. Loveridge', 'Shinichi Machida', 'Christopher Prior', 'C. Rogers', 'M. Rooney', 'J. W. G. Thomason', 'D. Wilcox', 'E. Wildner', 'I. Efthymiopoulos', 'R. Garoby', 'S. Gilardoni', 'C. Hansen', 'E. Benedetto', 'E. Jensen', 'A. Kosmicki', 'M. Martini', 'J. Osborne', 'G. Prior', 'Thierry Storà', 'Tania Mendonca', 'V. Vlachoudis', 'C. Waaijer', 'P. Cupiał', 'Antoine Chancé', 'A. Longhin', 'J. Payet', 'M. Zito', 'E. Baussan', 'Christoph Bobeth', 'E. Bouquerel', 'M. Dracos', 'G. Gaudiot', 'Baptiste Lepers', 'Francis Osswald', 'Pascal Poussot', 'N. Vassilopoulos', 'Jacques Wurtz', 'V. Zeter', 'J Bielski', 'Marek S. Kozień', 'Łukasz Łacny', 'B. Skoczeń', 'Bogdan Szybiński', 'A. Ustrycka', 'A. Wróblewski', 'M. Marie-Jeanne', 'P. Balint', 'C. Fourel', 'J. Giraud', 'J. Jacob', 'T. Lamy', 'L. Latrasse', 'P. Sortais', 'T. Thuillier', 'Semen Mitrofanov', 'M. Loiselet', 'Th. Keutgen', 'Th. Delbar', 'F. Debray', 'C. Trophine', 'S. Veys', 'Cécile Daversin', 'V. G. Zorin', 'I. V. Izotov', 'Graeme Burt', 'A. Dexter', 'V.L. Kravchuk', 'T. Marchi', 'M. Cinausero', 'F. Gramegna', 'G. de Angelis', 'G. Prete', 'G. Collazuol', 'M. Laveder', 'M. Mezzetto', 'C. Signorini', 'E. Vardaci', 'A. Di Nitto', 'A. Brondi', 'G. La Rana', 'P. Migliozzi', 'R. Moro', 'V. Palladino', 'N. Gelli', 'D. Berkovits', 'M. Hass', 'T. Hirsh', 'Michaela Schaumann', 'A. Stahl', 'Jakob Wehner', 'A. Bross', 'Joachim Kopp']
     doi: '10.1103/physrevstab.16.021002'
     journal: 'Physical Review Special Topics - Accelerators and Beams'
     openalex_id: W2100148602
@@ -549,7 +545,6 @@ publications:
     title: 'Confluence on the Painlevé Monodromy Manifolds, their Poisson Structure and Quantisation'
     year: 2012
     coauthors: ['Vladimir Rubtsov']
-    doi: '10.48550/arxiv.1212.6723'
     primary_category: math-ph
     openalex_id: W2268049720
     sources: [arxiv, openalex]
@@ -659,7 +654,7 @@ publications:
   - id: 'doi:10.4213/rm9331'
     title: 'Орбифолдные римановы поверхности: пространства Тейхмюллера и алгебры геодезических функций'
     year: 2009
-    coauthors: ['Марта Маззокко', 'Leonid Chekhov', 'Leonid Chekhov', 'Leonid Chekhov', 'Leonid Chekhov', 'Leonid Chekhov', 'Leonid Chekhov']
+    coauthors: ['Leonid Chekhov']
     doi: '10.4213/rm9331'
     journal: 'Успехи математических наук'
     openalex_id: W2325245736
@@ -694,7 +689,7 @@ publications:
     title: 'A remark on the Hankel determinant formula for solutions of the Toda equation'
     year: 2007
     coauthors: ['Kenji Kajiwara', 'Yasuhiro Ohta']
-    doi: '10.1088/1751-8113/40/42/S11'
+    doi: '10.1088/1751-8113/40/42/s11'
     primary_category: nlin.SI
     sources: [arxiv]
   - id: 'doi:10.1140/epjst/e2007-00263-y'
@@ -733,6 +728,22 @@ publications:
     openalex_id: W1508284647
     sources: [openalex]
     no_arxiv: true
+  - id: 'openalex:W2128014837'
+    title: 'Monodromy of certain Painlev e-VI transcendents and reection groups'
+    year: 2006
+    coauthors: [dubrovin]
+    openalex_id: W2128014837
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.4171/020-1/8'
+    title: 'On the reductions and classical solutions of the Schlesinger equations'
+    year: 2006
+    coauthors: [dubrovin]
+    doi: '10.4171/020-1/8'
+    journal: 'IRMA lectures in mathematics and theoretical physics'
+    openalex_id: W1567549351
+    sources: [openalex]
+    no_arxiv: true
   - id: '0610066'
     title: 'The Hamiltonian Structure of the Second Painleve Hierarchy'
     year: 2006
@@ -758,13 +769,6 @@ publications:
     openalex_id: W8499010
     sources: [openalex]
     no_arxiv: true
-  - id: 'openalex:W2128014837'
-    title: 'Monodromy of certain Painlev e-VI transcendents and reection groups'
-    year: 2006
-    coauthors: [dubrovin]
-    openalex_id: W2128014837
-    sources: [openalex]
-    no_arxiv: true
   - id: 'doi:10.1016/j.nuclphysa.2006.12.050'
     title: 'Status of the Experimental Program on Mass Measurements of Stored Exotic Nuclei at the FRS-ESR Facility'
     year: 2006
@@ -772,15 +776,6 @@ publications:
     doi: '10.1016/j.nuclphysa.2006.12.050'
     journal: 'Nuclear Physics A'
     openalex_id: W1976842705
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.4171/020-1/8'
-    title: 'On the reductions and classical solutions of the Schlesinger equations'
-    year: 2006
-    coauthors: [dubrovin]
-    doi: '10.4171/020-1/8'
-    journal: 'IRMA lectures in mathematics and theoretical physics'
-    openalex_id: W1567549351
     sources: [openalex]
     no_arxiv: true
   - id: 'doi:10.1088/0305-4470/39/39/e01'
@@ -805,7 +800,6 @@ publications:
     title: 'Generating Function Associated with the Determinant Formula for the Solutions of the Painleve'' II Equation'
     year: 2004
     coauthors: ['Nalini Joshi', 'Kenji Kajiwara']
-    doi: '10.48550/arxiv.nlin/0406035'
     primary_category: nlin.SI
     openalex_id: W2096723448
     sources: [arxiv, openalex]

@@ -88,16 +88,31 @@ key_collaborators:
     papers_count: 6
 publications:
   - id: '2409.12529'
-    title: 'The loop equation for the Burgers-KdV hierarchy'
+    title: 'The loop equation for the Burgers--KdV hierarchy'
     year: 2024
     coauthors: [yang-di]
     primary_category: math-ph
+  - id: '2112.14595'
+    title: 'Gelfand–Dickey hierarchy, generalized BGW tau-function, and <i>W</i>-constraints'
+    year: 2023
+    coauthors: []
+    doi: '10.1088/1361-6544/acb62c'
+    journal: 'Nonlinearity'
+    primary_category: math-ph
+    sources: [crossref]
+  - id: '2303.13775'
+    title: 'Gelfand-Dickey hierarchy, generalized BGW tau-function, and KdV equivariantly stable classes'
+    year: 2023
+    coauthors: [yang-di]
   - id: '2203.16812'
     title: 'On Equivariant Gromov--Witten Invariants of Resolved Conifold with Diagonal and Anti-Diagonal Actions'
     year: 2022
-    coauthors: [si-li, yang-di, zhang-youjin]
+    coauthors: [yang-di, zhang-youjin, liu-siqi]
     doi: '10.1007/s11005-022-01618-y'
+    journal: 'Letters in Mathematical Physics'
     primary_category: math-ph
+    openalex_id: W4311779894
+    sources: [arxiv, openalex]
   - id: '2112.14595'
     title: 'Gelfand-Dickey hierarchy and generalized BGW tau-function'
     year: 2021
@@ -112,41 +127,57 @@ publications:
   - id: '1906.06860'
     title: 'The Hodge-FVH Correspondence'
     year: 2019
-    coauthors: [liu-siqi, yang-di, zhang-youjin]
+    coauthors: [yang-di, zhang-youjin, liu-siqi]
+    doi: '10.1515/crelle-2020-0051'
+    journal: 'Journal für die reine und angewandte Mathematik (Crelles Journal)'
     primary_category: math-ph
-  - id: '1811.10234'
-    title: 'The Loop Equation for Special Cubic Hodge Integrals'
-    year: 2018
-    coauthors: [si-li, yang-di, zhang-youjin]
-    primary_category: math.AG
-  - id: '1702.02840'
-    title: 'Fractional Volterra Hierarchy'
-    year: 2017
-    coauthors: [liu-siqi, zhang-youjin]
-    doi: '10.1007/s11005-017-1006-3'
-    primary_category: nlin.SI
-  - id: '1305.1008'
-    title: 'Proof of a Conjecture on the Genus Two Free Energy Associated to the A_n Singularity'
-    year: 2013
-    coauthors: ['Yulong Fu', si-li, zhang-youjin]
-    doi: '10.1016/j.geomphys.2013.10.013'
-    primary_category: math-ph
-  - id: '2303.13775'
-    title: 'Gelfand-Dickey hierarchy, generalized BGW tau-function, and KdV equivariantly stable classes'
-    year: 2023
-    coauthors: [yang-di]
+    openalex_id: W3129493126
+    sources: [arxiv, openalex]
   - id: '1903.01139'
     title: 'Higher genus GW theory for the quintic'
     year: 2019
     coauthors: [yang-di]
+  - id: '1811.10234'
+    title: 'The Loop Equation for Special Cubic Hodge Integrals'
+    year: 2018
+    coauthors: [yang-di, zhang-youjin, liu-siqi]
+    primary_category: math.AG
+    sources: [arxiv]
+  - id: '1811.10234'
+    title: 'The Loop Equation for Special Cubic Hodge Integrals'
+    year: 2018
+    coauthors: [liu-siqi, yang-di]
+    doi: '10.4310/jdg/1659987894'
+    journal: 'Journal of Differential Geometry'
+    primary_category: math.AG
+    openalex_id: W2901509376
+    sources: [arxiv, openalex]
+  - id: '1702.02840'
+    title: 'Fractional Volterra Hierarchy'
+    year: 2017
+    coauthors: [zhang-youjin, liu-siqi]
+    doi: '10.1007/s11005-017-1006-3'
+    journal: 'Letters in Mathematical Physics'
+    primary_category: nlin.SI
+    openalex_id: W2612245062
+    sources: [arxiv, openalex]
   - id: '1611.05975'
     title: 'Relative open BCOV and higher genus open-closed mirror symmetry'
     year: 2016
     coauthors: [liu-siqi, zhang-youjin, 'Yulong Fu']
+  - id: '1305.1008'
+    title: 'Proof of a Conjecture on the Genus Two Free Energy Associated to the A_n Singularity'
+    year: 2013
+    coauthors: ['Yulong Fu', zhang-youjin, liu-siqi]
+    doi: '10.1016/j.geomphys.2013.10.013'
+    journal: 'Journal of Geometry and Physics'
+    primary_category: math-ph
+    openalex_id: W2072458327
+    sources: [arxiv, openalex]
 activity:
-  total_papers: 11
-  published_count: 4
-  preprint_only_count: 7
+  total_papers: 13
+  published_count: 7
+  preprint_only_count: 6
   active_period: '2017-present'
 external_ids: {}
 links: {}

@@ -130,20 +130,41 @@ key_collaborators:
   topic: Courant algebroids, Dubrovin-Ugaglia
   papers_count: 4
 publications:
+  - id: '2501.17516'
+    title: 'Stokes Phenomenon and Yangians'
+    year: 2025
+    coauthors: []
+    doi: '10.1007/s00220-025-05456-6'
+    journal: 'Communications in Mathematical Physics'
+    primary_category: math.CA
   - id: '2512.19381'
     title: 'Asymptotic and monodromy problems for higher-order Painlevé III equations'
     year: 2025
     coauthors: ['Zikang Wang']
-    doi: '10.48550/arxiv.2512.19381'
     primary_category: math.CA
     sources: [arxiv]
   - id: '2501.17516'
     title: 'Stokes Phenomenon and Yangians'
     year: 2025
     coauthors: [tang-qian]
-    doi: '10.48550/arxiv.2501.17516'
     primary_category: math.CA
     openalex_id: W4406975574
+    sources: [arxiv, openalex]
+  - id: '2403.17906'
+    title: 'WKB asymptotics of Stokes matrices, spectral curves and rhombus inequalities'
+    year: 2024
+    coauthors: ['Andrew Neitzke', 'Yan Zhou', alekseev]
+    doi: '10.1007/s00220-024-05133-0'
+    journal: 'Communications in Mathematical Physics'
+    primary_category: math-ph
+    openalex_id: W4403708941
+    sources: [arxiv, openalex]
+  - id: '2402.07269'
+    title: 'The Boundary Condition for Some Isomonodromy Equations'
+    year: 2024
+    coauthors: [tang-qian]
+    primary_category: math.CA
+    openalex_id: W4391800906
     sources: [arxiv, openalex]
   - id: '2412.02281'
     title: 'Explicit evaluation of the $q$-Stokes matrices for certain confluent hypergeometric $q$-difference equations'
@@ -159,28 +180,10 @@ publications:
     coauthors: ['Sergei O. Ivanov']
     primary_category: math.AT
     sources: [arxiv]
-  - id: '2403.17906'
-    title: 'WKB asymptotics of Stokes matrices, spectral curves and rhombus inequalities'
-    year: 2024
-    coauthors: [alekseev, 'Andrew Neitzke', 'Yan Zhou']
-    doi: '10.1007/s00220-024-05133-0'
-    journal: 'Communications in Mathematical Physics'
-    primary_category: math-ph
-    openalex_id: W4403708941
-    sources: [arxiv, openalex]
-  - id: '2402.07269'
-    title: 'The Boundary Condition for Some Isomonodromy Equations'
-    year: 2024
-    coauthors: [tang-qian]
-    doi: '10.48550/arxiv.2402.07269'
-    primary_category: math.CA
-    openalex_id: W4391800906
-    sources: [arxiv, openalex]
   - id: '2401.16043'
     title: 'A new interpretation of Jimbo''s formula for Painlevé VI'
     year: 2024
     coauthors: ['Zikang Wang', 'Yuancheng Xie']
-    doi: '10.48550/arxiv.2401.16043'
     journal: 'Frontiers of Mathematics'
     primary_category: math.CA
     sources: [arxiv]
@@ -188,16 +191,23 @@ publications:
     title: 'Explicit evaluation of the Stokes matrices for certain quantum confluent hypergeometric equations'
     year: 2024
     coauthors: ['Jinghong Lin']
-    doi: '10.48550/arxiv.2401.13911'
     primary_category: math.CA
     sources: [arxiv]
   - id: '2401.12792'
     title: 'The Alekseev-Meinrenken diffeomorphism arising from the Stokes phenomenon'
     year: 2024
     coauthors: []
-    doi: '10.48550/arxiv.2401.12792'
     primary_category: math.DG
     sources: [arxiv]
+  - id: 'doi:10.1016/j.geomphys.2023.104850'
+    title: 'On real forms of Dubrovin-Ugaglia Poisson brackets'
+    year: 2023
+    coauthors: ['Zheheng Xiao', lang-honglei]
+    doi: '10.1016/j.geomphys.2023.104850'
+    journal: 'Journal of Geometry and Physics'
+    openalex_id: W4367692403
+    sources: [openalex]
+    no_arxiv: true
   - id: 'doi:10.1016/j.aim.2023.109189'
     title: 'Stokes phenomena, Poisson–Lie groups and quantum groups'
     year: 2023
@@ -214,15 +224,6 @@ publications:
     doi: '10.1016/j.geomphys.2023.104809'
     journal: 'Journal of Geometry and Physics'
     openalex_id: W4361213117
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1016/j.geomphys.2023.104850'
-    title: 'On real forms of Dubrovin-Ugaglia Poisson brackets'
-    year: 2023
-    coauthors: [lang-honglei, 'Zheheng Xiao']
-    doi: '10.1016/j.geomphys.2023.104850'
-    journal: 'Journal of Geometry and Physics'
-    openalex_id: W4367692403
     sources: [openalex]
     no_arxiv: true
   - id: 'doi:10.1007/978-3-031-30284-8_24'
@@ -246,14 +247,12 @@ publications:
     title: 'WKB approximation, crystals and combinatorics of Young tableaux'
     year: 2021
     coauthors: []
-    doi: '10.48550/arxiv.2105.13149'
     primary_category: math.RT
     sources: [arxiv]
   - id: '2012.15673'
     title: 'Representations of quantum groups arising from the Stokes phenomenon'
     year: 2020
     coauthors: []
-    doi: '10.48550/arxiv.2012.15673'
     primary_category: math.RT
     sources: [arxiv]
   - id: '2006.03393'
@@ -268,14 +267,13 @@ publications:
     title: 'Regularized limits of Stokes matrices, isomonodromy deformation and crystal basis'
     year: 2019
     coauthors: []
-    doi: '10.48550/arxiv.1912.07196'
     primary_category: math.RT
     sources: [arxiv]
   - id: '1907.13417'
     title: 'Quasi-Invariants in Characteristic $p$ and Twisted Quasi-Invariants'
     year: 2019
     coauthors: ['Michael Ren']
-    doi: '10.3842/SIGMA.2020.107'
+    doi: '10.3842/sigma.2020.107'
     journal: 'SIGMA 16 (2020), 107, 13 pages'
     primary_category: math.RT
     sources: [arxiv]
@@ -286,22 +284,21 @@ publications:
     doi: '10.1007/s00220-019-03565-7'
     primary_category: math-ph
     sources: [arxiv]
-  - id: '1801.00123'
-    title: 'Frobenius manifolds and quantum groups'
-    year: 2017
-    coauthors: []
-    doi: '10.48550/arxiv.1801.00123'
-    primary_category: math-ph
-    sources: [arxiv]
   - id: '1702.08857'
     title: 'Chern-Simons, Wess-Zumino and other cocycles from Kashiwara-Vergne and associators'
     year: 2017
-    coauthors: [alekseev, 'Florian Naef', 'Chenchang Zhu']
+    coauthors: ['Florian Naef', 'Chenchang Zhu', alekseev]
     doi: '10.1007/s11005-017-0985-4'
     journal: 'Letters in Mathematical Physics'
     primary_category: math-ph
     openalex_id: W2594725194
     sources: [arxiv, openalex]
+  - id: '1801.00123'
+    title: 'Frobenius manifolds and quantum groups'
+    year: 2017
+    coauthors: []
+    primary_category: math-ph
+    sources: [arxiv]
   - id: '1701.08113'
     title: 'Stokes phenomenon, Gelfand-Zeitlin systems and relative Ginzburg-Weinstein linearization'
     year: 2017
@@ -321,7 +318,7 @@ publications:
   - id: 'doi:10.4064/bc110-0-11'
     title: 'Nonabelian omni-Lie algebras'
     year: 2016
-    coauthors: [lang-honglei, 'Yunhe Sheng']
+    coauthors: ['Yunhe Sheng', lang-honglei]
     doi: '10.4064/bc110-0-11'
     journal: 'Banach Center Publications'
     openalex_id: W2565888240
@@ -354,7 +351,7 @@ publications:
   - id: '1312.4609'
     title: 'Strong homotopy Lie algebras, homotopy Poisson manifolds and Courant algebroids'
     year: 2013
-    coauthors: [lang-honglei, 'Yunhe Sheng']
+    coauthors: ['Yunhe Sheng', lang-honglei]
     doi: '10.1007/s11005-016-0925-8'
     journal: 'Lett. Math. Phys. 107 (5) (2017), 861-885'
     primary_category: math.DG
@@ -364,27 +361,31 @@ publications:
     title: 'Current algebras from QP-manifolds in general dimensions'
     year: 2013
     coauthors: ['Noriaki Ikeda']
-    doi: '10.48550/arxiv.1308.0100'
     primary_category: math-ph
     sources: [arxiv]
   - id: '1301.4805'
     title: 'Canonical Functions and Differential Graded Symplectic Pairs in Supergeometry and AKSZ Sigma Models with Boundary'
     year: 2013
     coauthors: ['Noriaki Ikeda']
-    doi: '10.48550/arxiv.1301.4805'
     primary_category: math.SG
     sources: [arxiv]
+  - id: '1204.5951'
+    title: 'Dirac and Generalized Complex Structures on Cartan Geometries'
+    year: 2012
+    coauthors: [lang-honglei]
+    primary_category: math.DG
+    openalex_id: W1590260575
+    sources: [arxiv, openalex]
   - id: '1206.5466'
     title: 'Cohomology for almost Lie algebroids'
     year: 2012
     coauthors: ['Melchior Grützmann']
-    doi: '10.48550/arxiv.1206.5466'
     primary_category: math.DG
     sources: [arxiv]
   - id: '1206.2282'
     title: 'Twisted Courant algebroids and coisotropic Cartan geometries'
     year: 2012
-    coauthors: [xu-xiaomeng]
+    coauthors: []
     doi: '10.1016/j.geomphys.2014.03.002'
     journal: 'J. Geom. Phys. 82 (2014), 124-131'
     primary_category: math.DG
@@ -398,18 +399,10 @@ publications:
     primary_category: math-ph
     openalex_id: W2284602637
     sources: [arxiv, openalex]
-  - id: '1204.5951'
-    title: 'Dirac and Generalized Complex Structures on Cartan Geometries'
-    year: 2012
-    coauthors: [lang-honglei]
-    doi: '10.48550/arxiv.1204.5951'
-    primary_category: math.DG
-    openalex_id: W1590260575
-    sources: [arxiv, openalex]
 activity:
-  total_papers: 35
-  published_count: 34
-  preprint_only_count: 1
+  total_papers: 36
+  published_count: 22
+  preprint_only_count: 14
   h_index: 7
   active_period: '2012-present'
   peak_period: '2020-present'

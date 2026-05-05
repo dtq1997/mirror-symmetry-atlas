@@ -104,8 +104,8 @@ students: []
 key_collaborators: []
 activity:
   total_papers: 89
-  published_count: 88
-  preprint_only_count: 1
+  published_count: 80
+  preprint_only_count: 9
   h_index: 24
   active_period: '1976-present'
   phd_students: 8
@@ -136,7 +136,6 @@ publications:
     title: 'Three results on holonomic D-modules'
     year: 2025
     coauthors: []
-    doi: '10.48550/arxiv.2505.07334'
     primary_category: math.AG
     sources: [arxiv]
   - id: '2407.10010'
@@ -151,7 +150,6 @@ publications:
     title: 'Kodaira-Saito vanishing for the irregular Hodge filtration'
     year: 2024
     coauthors: []
-    doi: '10.48550/arxiv.2401.00968'
     primary_category: math.AG
     openalex_id: W4390573321
     sources: [arxiv, openalex]
@@ -195,7 +193,7 @@ publications:
     title: 'Remarks on rigid irreducible meromorphic connections on the projective line'
     year: 2022
     coauthors: []
-    doi: '10.4171/DM/937'
+    doi: '10.4171/dm/937'
     journal: 'Documenta Mathematica 28 (2023), no. 6, pp. 1473-1492'
     primary_category: math.AG
     sources: [arxiv]
@@ -203,7 +201,6 @@ publications:
     title: 'Duality for Landau-Ginzburg models'
     year: 2022
     coauthors: []
-    doi: '10.48550/arxiv.2212.07745'
     primary_category: math.AG
     sources: [arxiv]
   - id: '2206.08166'
@@ -216,7 +213,7 @@ publications:
     title: 'Relative Regular Riemann-Hilbert correspondence II'
     year: 2022
     coauthors: ['Luisa Fiorot', 'Teresa Monteiro Fernandes']
-    doi: '10.1112/S0010437X23007224'
+    doi: '10.1112/s0010437x23007224'
     journal: 'Compositio Math. 159 (2023) no. 7, 1413-1465'
     primary_category: math.AG
     openalex_id: W4292083229
@@ -234,7 +231,7 @@ publications:
     title: 'A short proof of a theorem of Cotti, Dubrovin and Guzzetti'
     year: 2021
     coauthors: []
-    doi: '10.4171/PM/2077'
+    doi: '10.4171/pm/2077'
     journal: 'Portugaliae Mathematica 79 (2022), no. 1, p. 29-43'
     primary_category: math.AG
     openalex_id: W3145707775
@@ -243,7 +240,6 @@ publications:
     title: 'The relative hermitian duality functor'
     year: 2020
     coauthors: ['Teresa Monteiro Fernandes']
-    doi: '10.48550/arxiv.2012.15171'
     primary_category: math.AG
     sources: [arxiv]
   - id: '2006.02702'
@@ -336,7 +332,7 @@ publications:
     title: 'Integrable deformations and degenerations of some irregular singularities'
     year: 2017
     coauthors: []
-    doi: '10.4171/PRIMS/57-3-2'
+    doi: '10.4171/prims/57-3-2'
     journal: 'Publ. RIMS Kyoto Univ. 57 (2021), no. 3-4, p. 755-794'
     primary_category: math.AG
     openalex_id: W3206853367
@@ -353,16 +349,25 @@ publications:
     title: 'Relative Riemann-Hilbert correspondence in dimension one'
     year: 2017
     coauthors: ['Teresa Monteiro Fernandes']
-    doi: '10.4171/PM/1997'
+    doi: '10.4171/pm/1997'
     journal: 'Portugal. Math. (N.S.) 74 (2017), no. 2, p. 149-159'
     primary_category: math.AG
     openalex_id: W2606607180
     sources: [arxiv, openalex]
+  - id: 'doi:10.4171/owr/2015/22'
+    title: 'Mirror Symmetry, Hodge Theory and Differential Equations'
+    year: 2016
+    coauthors: ['Christian Sevenheck', hertling]
+    doi: '10.4171/owr/2015/22'
+    journal: 'Oberwolfach Reports'
+    openalex_id: W2749204405
+    sources: [openalex]
+    no_arxiv: true
   - id: '1609.04192'
     title: 'Riemann-Hilbert correspondence for mixed twistor D-Modules'
     year: 2016
     coauthors: ['Teresa Monteiro Fernandes']
-    doi: '10.1017/S1474748017000184'
+    doi: '10.1017/s1474748017000184'
     journal: 'J. Inst. Math. Jussieu (2019) 18(3), 629-672'
     primary_category: math.AG
     openalex_id: W2520676872
@@ -375,15 +380,6 @@ publications:
     journal: 'J. Singul. 16 (2017), p. 100-114, Erratum: Ibid., p. 194'
     primary_category: math.AG
     sources: [arxiv]
-  - id: 'doi:10.4171/owr/2015/22'
-    title: 'Mirror Symmetry, Hodge Theory and Differential Equations'
-    year: 2016
-    coauthors: [hertling, 'Christian Sevenheck']
-    doi: '10.4171/owr/2015/22'
-    journal: 'Oberwolfach Reports'
-    openalex_id: W2749204405
-    sources: [openalex]
-    no_arxiv: true
   - id: '1511.00176'
     title: 'Irregular Hodge theory'
     year: 2015
@@ -422,7 +418,7 @@ publications:
     title: 'Differential systems of pure Gaussian type'
     year: 2013
     coauthors: []
-    doi: '10.1070/IM8308'
+    doi: '10.1070/im8308'
     journal: 'Izvestiya: Mathematics 80 (2016) no. 1, 189-220'
     primary_category: math.AG
     sources: [arxiv]
@@ -448,7 +444,7 @@ publications:
     title: 'Hodge theory of the middle convolution'
     year: 2012
     coauthors: ['Michael Dettweiler']
-    doi: '10.4171/PRIMS/119'
+    doi: '10.4171/prims/119'
     journal: 'Publ. RIMS Kyoto Univ. 49 (2013), no. 4, 761-800, Erratum: Publ. RIMS Kyoto Univ. 54 (2018) no. 2, 427-431'
     primary_category: math.AG
     openalex_id: W2137282662
@@ -465,7 +461,6 @@ publications:
     title: 'Wild Hodge theory and Hitchin-Kobayashi correspondence [after T. Mochizuki]'
     year: 2012
     coauthors: []
-    doi: '10.48550/arxiv.1201.4531'
     journal: 'Astérisque vol. 352, Soc. Math. France, Paris, 2013, p. 201-243'
     primary_category: math.AG
     openalex_id: W1870202392
@@ -634,9 +629,17 @@ publications:
     title: 'Une remarque sur l''article "Un théorème à la "Thom-Sebastiani" pour les intégrales-fibres" de D. Barlet'
     year: 2010
     coauthors: []
-    doi: '10.48550/arxiv.1003.5589'
     primary_category: math.CV
     openalex_id: W2032578585
+    sources: [arxiv, openalex]
+  - id: '0912.2754'
+    title: 'Examples of non-commutative Hodge structures'
+    year: 2009
+    coauthors: [hertling]
+    doi: '10.1017/s147474801100003x'
+    journal: 'Journal of the Inst. of Math. Jussieu (2011) 10(3), 635--674'
+    primary_category: math.AG
+    openalex_id: W3100491297
     sources: [arxiv, openalex]
   - id: '0912.2762'
     title: 'Introduction to Stokes structures'
@@ -646,15 +649,6 @@ publications:
     journal: 'Lecture Notes in mathematics vol. 2060, Springer Verlag, 2012. (Numbering 1.a, 1.b, etc. on the arXiv version changed to 1.1, 1.2, etc. in the published version)'
     primary_category: math.AG
     openalex_id: W1596283011
-    sources: [arxiv, openalex]
-  - id: '0912.2754'
-    title: 'Examples of non-commutative Hodge structures'
-    year: 2009
-    coauthors: [hertling]
-    doi: '10.1017/S147474801100003X'
-    journal: 'Journal of the Inst. of Math. Jussieu (2011) 10(3), 635--674'
-    primary_category: math.AG
-    openalex_id: W3100491297
     sources: [arxiv, openalex]
   - id: '0804.4328'
     title: 'Fourier-Laplace transform of a variation of polarized complex Hodge structure, II'
@@ -668,7 +662,6 @@ publications:
     title: 'Wild twistor D-modules'
     year: 2008
     coauthors: []
-    doi: '10.48550/arxiv.0803.0287'
     journal: 'Algebraic analysis and around, Adv. Stud. Pure Math., vol. 54, Math. Soc. Japan, Tokyo, 2009, p. 293--353'
     primary_category: math.AG
     sources: [arxiv]
@@ -676,7 +669,6 @@ publications:
     title: 'Universal unfoldings of Laurent polynomials and tt* structures'
     year: 2008
     coauthors: []
-    doi: '10.48550/arxiv.0802.1259'
     journal: 'in From Hodge theory to integrability and TQFT tt*-geometry, Proc. Sympos. Pure Math., vol. 78, Amer. Math. Soc., Providence, RI, 2008, p. 1-29'
     primary_category: math.AG
     sources: [arxiv]
@@ -684,7 +676,6 @@ publications:
     title: 'An explicit stationary phase formula for the local formal Fourier-Laplace transform'
     year: 2007
     coauthors: []
-    doi: '10.48550/arxiv.0706.3570'
     journal: 'in Singularities I, Contemp. Math., vol. 474, Amer. Math. Soc., Providence, RI, 2008, p. 309-330'
     primary_category: math.AG
     sources: [arxiv]
@@ -701,7 +692,7 @@ publications:
     title: 'Quantum cohomology of the Grassmannian and alternate Thom-Sebastiani'
     year: 2006
     coauthors: ['Bumsig Kim']
-    doi: '10.1112/S0010437X07003120'
+    doi: '10.1112/s0010437x07003120'
     journal: 'Compos. Math. 144 (2008), no. 1, 221--246'
     primary_category: math.AG
     openalex_id: W2119742235
@@ -710,7 +701,6 @@ publications:
     title: 'Asymptotic expansion of holonomic distributions of one complex variable'
     year: 2006
     coauthors: []
-    doi: '10.48550/arxiv.math/0611474'
     primary_category: math.CA
     sources: [arxiv]
   - id: '0610265'
@@ -753,7 +743,7 @@ publications:
     title: 'Fourier-Laplace transform of a variation of polarized complex Hodge structure'
     year: 2005
     coauthors: []
-    doi: '10.1515/CRELLE.2008.060'
+    doi: '10.1515/crelle.2008.060'
     journal: 'J. Reine Angew. Math. 621 (2008), 123--158'
     primary_category: math.AG
     sources: [arxiv]
@@ -761,7 +751,6 @@ publications:
     title: 'Polarizable twistor D-modules'
     year: 2005
     coauthors: []
-    doi: '10.48550/arxiv.math/0503038'
     journal: 'Astérisque vol. 300, Société mathématique de France (2005), vi+208 pp'
     primary_category: math.AG
     sources: [arxiv]
@@ -769,7 +758,7 @@ publications:
     title: 'Fourier-Laplace transform of irreducible regular differential systems on the Riemann sphere'
     year: 2004
     coauthors: []
-    doi: '10.1070/RM2004v059n06ABEH000800'
+    doi: '10.1070/rm2004v059n06abeh000800'
     journal: 'Russian Math. Surveys 59 (2004), no. 6, 1165--1180 & Mosc. Math. J. 9 (2009), no. 4, 885--898'
     primary_category: math.AG
     sources: [arxiv]
@@ -802,7 +791,6 @@ publications:
     title: 'Vanishing cycles and Hermitian duality'
     year: 1999
     coauthors: []
-    doi: '10.48550/arxiv.math/9910156'
     journal: 'Proc. Steklov Inst. Math. 2002, no. 3 (238), 194--214'
     primary_category: math.AG
     openalex_id: W1589768906
@@ -818,7 +806,6 @@ publications:
     title: 'Dwork Cohomology and Algebraic D-Modules'
     year: 1999
     coauthors: ['Alexandru Dimca', 'Fay x E al Maaref', 'Morihiko Saito']
-    doi: '10.48550/arxiv.math/9906078'
     openalex_id: W2952929124
     sources: [openalex]
     no_arxiv: true
@@ -842,7 +829,7 @@ publications:
     title: 'Hypergeometric periods for a tame polynomial'
     year: 1998
     coauthors: []
-    doi: '10.1016/S0764-4442(99)80254-7'
+    doi: '10.1016/s0764-4442(99)80254-7'
     journal: 'C. R. Acad. Sci. Paris Ser. I Math. t.328 (1999) 603-608 & Port. Math. (N.S.) 63 (2006), no. 2, 173--226'
     primary_category: math.AG
     openalex_id: W1981210823
@@ -878,7 +865,6 @@ publications:
     title: 'Moduli of pre-$\cal D$-modules, perverse sheaves and the Riemann-Hilbert morphism -I'
     year: 1995
     coauthors: ['Nitin Nitsure']
-    doi: '10.48550/arxiv.alg-geom/9503021'
     primary_category: math.AG
     sources: [arxiv]
   - id: 'doi:10.1007/bf02566659'

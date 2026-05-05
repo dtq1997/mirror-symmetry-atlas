@@ -84,6 +84,14 @@ publications:
     year: 2025
     coauthors: [guo-li, 'Hongyu Xiang']
     primary_category: math.NT
+  - id: 'doi:10.62713/aic.4079'
+    title: 'A Simple Approach for Guiding the Direction of Bone Drill During Intramedullary Reaming in Indirect Fibular Groove Deepening: A Technical Tip'
+    year: 2025
+    coauthors: []
+    doi: '10.62713/aic.4079'
+    journal: 'Annali Italiani di Chirurgia'
+    sources: [crossref]
+    no_arxiv: true
   - id: '2412.20952'
     title: 'A Riemann-type duality of shuffle Hopf algebras related to multiple zeta values'
     year: 2024
@@ -93,6 +101,8 @@ publications:
     title: 'Extended Shuffle Product for Multiple Zeta Values'
     year: 2024
     coauthors: ['Li Guo', 'Wenchuan Hu', 'Hongyu Xiang']
+    doi: '10.1142/s0219498827500010'
+    journal: 'Journal of Algebra and Its Applications'
     primary_category: math.NT
   - id: '2401.01372'
     title: 'Hopf algebras for the shuffle algebra and fractions from multiple zeta values'
@@ -103,6 +113,8 @@ publications:
     title: 'Locality Galois groups of meromorphic germs in several variables'
     year: 2023
     coauthors: [guo-li, paycha-sylvie]
+    doi: '10.1007/s00220-023-04915-2'
+    journal: 'Communications in Mathematical Physics'
     primary_category: math-ph
   - id: '2012.11872'
     title: 'Renormalization of quasisymmetric functions'
@@ -113,13 +125,23 @@ publications:
     title: 'From orthocomplementations to locality'
     year: 2020
     coauthors: ['Pierre Clavier', 'Li Guo', 'Sylvie Paycha']
-    doi: '10.3842/SIGMA.2021.027'
+    doi: '10.3842/sigma.2021.027'
     journal: 'SIGMA 17 (2021), 027, 23 pages'
     primary_category: math.RA
+  - id: 'doi:10.1155/2020/6527462'
+    title: 'Improved Shrinkage Estimator of Large-Dimensional Covariance Matrix under the Complex Gaussian Distribution'
+    year: 2020
+    coauthors: []
+    doi: '10.1155/2020/6527462'
+    journal: 'Mathematical Problems in Engineering'
+    sources: [crossref]
+    no_arxiv: true
   - id: '1910.01039'
     title: 'Cyclotomic polynomials with prescribed height and prime number theory'
     year: 2019
     coauthors: ['Alexandre Kosyak', 'Pieter Moree', 'Efthymios Sofos']
+    doi: '10.1112/mtk.12069'
+    journal: 'Mathematika'
     primary_category: math.NT
   - id: '1811.01215'
     title: 'Locality and renormalisation: universal properties and integrals on trees'
@@ -148,6 +170,8 @@ publications:
     title: 'An algebraic formulation of the locality principle in renormalisation'
     year: 2017
     coauthors: ['Pierre Clavier', guo-li, paycha-sylvie]
+    doi: '10.1007/s40879-018-0255-8'
+    journal: 'European Journal of Mathematics'
     primary_category: math-ph
   - id: '1607.05973'
     title: 'Universal enveloping algebras and Poincaré-Birkhoff-Witt theorem for involutive Hom-Lie algebras'
@@ -212,17 +236,18 @@ publications:
     coauthors: [guo-li]
     journal: 'J. Number Theory vol 128 (2008), 2318-2339'
     primary_category: math.NT
+  - id: '0605534'
+    title: 'A Stringy Product on Twisted Orbifold K-theory'
+    year: 2006
+    coauthors: ['Alejandro Adem', ruan-yongbin]
+    primary_category: math.AT
+    sources: [arxiv]
   - id: '0606076'
     title: 'Renormalization of multiple zeta values'
     year: 2006
     coauthors: ['Li Guo', guo-li]
     journal: 'J. Algebra, Vol 319 (2008), 3770-3809'
     primary_category: math.NT
-  - id: '0605534'
-    title: 'A Stringy Product on Twisted Orbifold K-theory'
-    year: 2006
-    coauthors: ['Alejandro Adem', ruan-yongbin]
-    primary_category: math.AT
   - id: '0311318'
     title: 'Equivariant Todd Classes for Toric Varieties'
     year: 2003
@@ -250,9 +275,9 @@ publications:
     coauthors: ['Jean-Luc Brylinski']
     primary_category: math.DG
 activity:
-  total_papers: 30
-  published_count: 16
-  preprint_only_count: 14
+  total_papers: 32
+  published_count: 22
+  preprint_only_count: 10
   active_period: '2006-present'
   peak_period: '2013-2023'
 external_ids: {}

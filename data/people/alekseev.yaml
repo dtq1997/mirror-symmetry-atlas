@@ -134,8 +134,8 @@ key_collaborators:
   papers_count: 2
 activity:
   total_papers: 91
-  published_count: 80
-  preprint_only_count: 11
+  published_count: 75
+  preprint_only_count: 16
   h_index: 26
   active_period: '1991-present'
   phd_students: 20
@@ -191,7 +191,6 @@ publications:
     title: 'Poisson brackets and coaction maps of regularized holonomies of the KZ equation'
     year: 2024
     coauthors: ['Florian Naef', 'Muze Ren']
-    doi: '10.48550/arxiv.2409.08894'
     journal: 'Selecta Mathematica'
     primary_category: math.QA
     openalex_id: W7125409906
@@ -203,7 +202,8 @@ publications:
     doi: '10.1007/s00220-024-05133-0'
     journal: 'Communications in Mathematical Physics'
     primary_category: math-ph
-    sources: [arxiv]
+    openalex_id: W4403708941
+    sources: [arxiv, openalex]
   - id: '2402.19138'
     title: 'Generalized Pentagon Equations'
     year: 2024
@@ -247,6 +247,14 @@ publications:
     openalex_id: W4377137429
     sources: [openalex]
     no_arxiv: true
+  - id: 'doi:10.1063/5.0172663'
+    title: 'Introduction to the special collection: International congress on mathematical physics 2021'
+    year: 2023
+    coauthors: []
+    doi: '10.1063/5.0172663'
+    journal: 'Journal of Mathematical Physics'
+    sources: [crossref]
+    no_arxiv: true
   - id: '2211.06216'
     title: 'On the coadjoint Virasoro action'
     year: 2022
@@ -275,7 +283,6 @@ publications:
     title: 'Near-Zero-Shot Suggestion Mining with a Little Help from WordNet'
     year: 2021
     coauthors: ['Elena Tutubalina', 'Sejeong Kwon', 'Sergey Nikolenko']
-    doi: '10.48550/arxiv.2111.12956'
     openalex_id: W4286850634
     sources: [openalex]
     no_arxiv: true
@@ -296,7 +303,7 @@ publications:
     title: 'Provenance of classical Hamiltonian time crystals'
     year: 2020
     coauthors: ['Dai Jin', 'Antti J. Niemi']
-    doi: '10.1007/JHEP08(2020)035'
+    doi: '10.1007/jhep08(2020)035'
     primary_category: hep-th
     sources: [arxiv]
   - id: '1904.06758'
@@ -311,7 +318,6 @@ publications:
     title: 'AspeRa: Aspect-based Rating Prediction Model'
     year: 2019
     coauthors: ['Sergey Nikolenko', 'Elena Tutubalina', 'Valentin Malykh', 'Ilya Shenbin']
-    doi: '10.48550/arxiv.1901.07829'
     openalex_id: W2952874686
     sources: [openalex]
   - id: '1812.01159'
@@ -326,7 +332,7 @@ publications:
     title: 'Concentration of symplectic volumes on Poisson homogeneous spaces'
     year: 2018
     coauthors: ['Benjamin Hoffman', 'Jeremy Lane', 'Yanpeng Li']
-    doi: '10.4310/JSG.2020.v18.n5.a1'
+    doi: '10.4310/jsg.2020.v18.n5.a1'
     journal: 'J. Symplectic Geom. 18 (2020) 1197 - 1220'
     primary_category: math.SG
     sources: [arxiv]
@@ -354,7 +360,7 @@ publications:
     title: 'Coadjoint Orbits, Cocycles and Gravitational Wess-Zumino'
     year: 2018
     coauthors: ['Samson L. Shatashvili']
-    doi: '10.1142/S0129055X18400019'
+    doi: '10.1142/s0129055x18400019'
     primary_category: hep-th
     sources: [arxiv]
   - id: 'doi:10.1007/978-3-030-02846-6_9'
@@ -400,8 +406,10 @@ publications:
     year: 2017
     coauthors: ['Florian Naef', xu-xiaomeng, 'Chenchang Zhu']
     doi: '10.1007/s11005-017-0985-4'
+    journal: 'Letters in Mathematical Physics'
     primary_category: math-ph
-    sources: [arxiv]
+    openalex_id: W2594725194
+    sources: [arxiv, openalex]
   - id: 'doi:10.1007/978-3-319-52920-2_19'
     title: 'User Profiling in Text-Based Recommender Systems Based on Distributed Word Representations'
     year: 2017
@@ -432,7 +440,7 @@ publications:
     title: 'Wilson surface observables from equivariant cohomology'
     year: 2015
     coauthors: ['Olga Chekeres', 'Pavel Mnev']
-    doi: '10.1007/JHEP11(2015)093'
+    doi: '10.1007/jhep11(2015)093'
     journal: 'JHEP11(2015)093'
     primary_category: hep-th
     sources: [arxiv]
@@ -484,7 +492,7 @@ publications:
     title: 'Current algebra functors and extensions'
     year: 2012
     coauthors: ['Pavol Severa', 'Cornelia Vizman']
-    doi: '10.1142/S0129055X13500128'
+    doi: '10.1142/s0129055x13500128'
     primary_category: math.DG
     sources: [arxiv]
   - id: '1207.0640'
@@ -614,16 +622,16 @@ publications:
   - id: '0205123'
     title: 'Non-commutative gauge theory of twisted D-branes'
     year: 2002
-    coauthors: [alekseev, 'Stefan Fredenhagen', 'Thomas Quella', 'Volker Schomerus']
-    doi: '10.1016/S0550-3213(02)00873-8'
+    coauthors: ['Stefan Fredenhagen', 'Thomas Quella', 'Volker Schomerus']
+    doi: '10.1016/s0550-3213(02)00873-8'
     journal: 'Nucl.Phys. B646 (2002) 127-157'
     primary_category: hep-th
     sources: [arxiv]
   - id: '0104054'
     title: 'Open Strings and Non-commutative Geometry of Branes on Group Manifolds'
     year: 2001
-    coauthors: [alekseev, 'Andreas Recknagel', 'Volker Schomerus']
-    doi: '10.1142/S0217732301003425'
+    coauthors: ['Andreas Recknagel', 'Volker Schomerus']
+    doi: '10.1142/s0217732301003425'
     journal: 'Mod.Phys.Lett. A16 (2001) 325-336'
     primary_category: hep-th
     sources: [arxiv]
@@ -638,14 +646,12 @@ publications:
     title: 'RR charges of D2-branes in the WZW model'
     year: 2000
     coauthors: ['Volker Schomerus']
-    doi: '10.48550/arxiv.hep-th/0007096'
     primary_category: hep-th
     sources: [arxiv]
   - id: '0006168'
     title: 'Quasi-Poisson Manifolds'
     year: 2000
     coauthors: ['Yvette Kosmann-Schwarzbach', 'Eckhard Meinrenken']
-    doi: '10.48550/arxiv.math/0006168'
     primary_category: math.DG
     sources: [arxiv]
   - id: '0005046'
@@ -664,7 +670,7 @@ publications:
     title: 'Wilson lines on noncommutative tori'
     year: 2000
     coauthors: ['Andrei Bytsko']
-    doi: '10.1016/S0370-2693(00)00500-1'
+    doi: '10.1016/s0370-2693(00)00500-1'
     journal: 'Phys.Lett. B482 (2000) 271-275'
     primary_category: hep-th
     sources: [arxiv]
@@ -747,22 +753,20 @@ publications:
   - id: '9612037'
     title: 'Quantum Moduli Spaces of Flat Connections'
     year: 1996
-    coauthors: [alekseev, 'Volker Schomerus']
-    doi: '10.48550/arxiv.q-alg/9612037'
+    coauthors: ['Volker Schomerus']
     primary_category: math.QA
     sources: [arxiv]
   - id: '9610066'
     title: 'Generalization of the Knizhnik-Zamolodchikov-Equations'
     year: 1996
-    coauthors: [alekseev, 'Andreas Recknagel', 'Volker Schomerus']
-    doi: '10.48550/arxiv.hep-th/9610066'
+    coauthors: ['Andreas Recknagel', 'Volker Schomerus']
     journal: 'Lett.Math.Phys. 41 (1997) 169-180'
     primary_category: hep-th
     sources: [arxiv]
   - id: '9603017'
     title: 'The hyperbolic moduli space of flat connections and the isomorphism of symplectic multiplicity spaces'
     year: 1996
-    coauthors: [alekseev, 'Anton Z. Malkin']
+    coauthors: ['Anton Z. Malkin']
     doi: '10.1215/s0012-7094-98-09320-6'
     journal: 'Duke Mathematical Journal'
     primary_category: math.DG
@@ -770,7 +774,7 @@ publications:
   - id: '9602001'
     title: 'On Poisson actions of compact Lie groups on symplectic manifolds'
     year: 1996
-    coauthors: [alekseev]
+    coauthors: []
     doi: '10.4310/jdg/1214459796'
     journal: 'Journal of Differential Geometry'
     primary_category: math.DG
@@ -864,14 +868,6 @@ publications:
     journal: 'Journal of Geometry and Physics'
     openalex_id: W2049293658
     sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1063/5.0172663'
-    title: 'Introduction to the special collection: International congress on mathematical physics 2021'
-    year: 2023
-    coauthors: []
-    doi: '10.1063/5.0172663'
-    journal: 'Journal of Mathematical Physics'
-    sources: [crossref]
     no_arxiv: true
 sources:
 - label: Math Genealogy

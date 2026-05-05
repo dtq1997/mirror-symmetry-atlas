@@ -58,7 +58,7 @@ publications:
   - id: '2509.17857'
     title: 'Quantum Schubert calculus for smooth Schubert divisors of $Fl_n$'
     year: 2025
-    coauthors: [li-changzheng, 'Rui Xiong', 'Mingzhi Yang']
+    coauthors: ['Rui Xiong', 'Mingzhi Yang', li-changzheng]
     primary_category: math.AG
   - id: '2507.12351'
     title: 'Toward quantum Pieri rule for $Fl_n$ via Seidel representation'
@@ -71,12 +71,6 @@ publications:
     year: 2025
     coauthors: [ke-huazhong, li-changzheng]
     primary_category: math.AG
-  - id: '2211.16902'
-    title: 'On Seidel representation in quantum K-theory of Grassmannians'
-    year: 2022
-    coauthors: [li-changzheng, 'Zhaoyang Liu', 'Mingzhi Yang']
-    journal: 'Sci. China Math. 68 (2025), no. 7, 1523-1548'
-    primary_category: math.AG
   - id: 'doi:10.1360/ssm-2024-0112'
     title: 'Toward the quantum Pieri rule for'
     year: 2024
@@ -85,6 +79,12 @@ publications:
     journal: 'SCIENTIA SINICA Mathematica'
     sources: [crossref]
     no_arxiv: true
+  - id: '2211.16902'
+    title: 'On Seidel representation in quantum K-theory of Grassmannians'
+    year: 2022
+    coauthors: ['Zhaoyang Liu', 'Mingzhi Yang', li-changzheng]
+    journal: 'Sci. China Math. (2025)'
+    primary_category: math.AG
 activity:
   total_papers: 5
   published_count: 3

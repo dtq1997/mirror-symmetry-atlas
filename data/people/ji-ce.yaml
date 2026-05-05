@@ -64,29 +64,38 @@ publications:
   - id: '2605.02643'
     title: 'Generalized Kontsevich model, topological recursion, and $r$-spin theory'
     year: 2026
-    coauthors: [guo-shuai, yang-chenglang, zhang-qing]
+    coauthors: [yang-chenglang, zhang-qing, guo-shuai]
     primary_category: math-ph
+    sources: [arxiv]
   - id: '2502.09302'
     title: 'The bilinear fermionic form for KP and BKP hierarchies'
     year: 2025
-    coauthors: [guo-shuai, yang-chenglang]
+    coauthors: [yang-chenglang, guo-shuai]
     primary_category: math-ph
+    openalex_id: W4407574857
+    sources: [arxiv, openalex]
   - id: '2407.20010'
     title: 'Schröder Paths, Their Generalizations and Knot Invariants'
     year: 2024
     coauthors: [tang-qian, yang-chenglang]
     primary_category: math.CO
+    openalex_id: W4401202451
+    sources: [arxiv, openalex]
   - id: '2309.12271'
     title: 'A generalization of the Witten conjecture through spectral curve'
     year: 2023
-    coauthors: [guo-shuai, zhang-qingsheng]
+    coauthors: [zhang-qingsheng, guo-shuai]
     primary_category: math-ph
+    sources: [arxiv]
   - id: '2211.08687'
     title: 'Kac-Schwarz Operators of Type B, Quantum Spectral Curves, and Spin Hurwitz Numbers'
     year: 2022
     coauthors: [wang-zhiyuan, yang-chenglang]
     doi: '10.1016/j.geomphys.2023.104831'
+    journal: 'Journal of Geometry and Physics'
     primary_category: math-ph
+    openalex_id: W4362633185
+    sources: [arxiv, openalex]
 activity:
   total_papers: 5
   published_count: 1

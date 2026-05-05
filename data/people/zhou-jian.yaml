@@ -107,8 +107,8 @@ students:
   - ke-huazhong
 key_collaborators: []
 activity:
-  total_papers: 10
-  published_count: 2
+  total_papers: 26
+  published_count: 18
   preprint_only_count: 8
   active_period: '1995-present'
 external_ids:
@@ -122,55 +122,204 @@ publications:
   - id: '2511.10082'
     title: 'Total partition function with fermionic number fluxes of local toric Calabi--Yau threefold and KP integrability'
     year: 2025
-    coauthors: [wang-zhiyuan, yang-chenglang]
+    coauthors: [yang-chenglang, wang-zhiyuan]
     primary_category: math-ph
+    openalex_id: W4416425862
+    sources: [arxiv, openalex]
+  - id: 'doi:10.1007/s42543-025-00110-5'
+    title: 'Orbifold Euler Characteristics of $${\overline{{{\mathcal {M}}}}}_{g,n}$$'
+    year: 2025
+    coauthors: []
+    doi: '10.1007/s42543-025-00110-5'
+    journal: 'Peking Mathematical Journal'
+    openalex_id: W4413575052
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1016/j.nuclphysb.2025.116822'
+    title: 'Topological 1D gravity, KP hierarchy, and orbifold Euler characteristics of $M_{g,n}$'
+    year: 2025
+    coauthors: []
+    doi: '10.1016/j.nuclphysb.2025.116822'
+    journal: 'Nuclear Physics B'
+    openalex_id: W4407196408
+    sources: [openalex]
+    no_arxiv: true
+  - id: '2506.00451'
+    title: 'A Formula for Connected Bosonic n-Point Functions for the BKP Hierarchy'
+    year: 2025
+    coauthors: []
+    primary_category: math-ph
+  - id: 'doi:10.4213/tm4481'
+    title: 'Об абсолютной $n$-точечной функции, связанной с многочленами Гельфанда-Дикого On Absolute $n$-Point Function Associated with Gelfand-Dickey Polynomials Современная математика и ее приложения: Российско-китайское математическое сотрудничество Contemporary Mathematics and Its Applications: Proceedings of Sino-Russian Mathematical Meetings'
+    year: 2025
+    coauthors: []
+    doi: '10.4213/tm4481'
+    journal: 'Труды Математического института имени В. А. Стеклова Trudy Matematicheskogo Instituta imeni V.A. Steklova'
+    sources: [crossref]
+    no_arxiv: true
   - id: '2401.12726'
     title: 'On a Proof of the ADKMV Conjecture -- $3$-KP Integrability of the Topological Vertex'
     year: 2024
-    coauthors: [wang-zhiyuan, yang-chenglang]
+    coauthors: [yang-chenglang, wang-zhiyuan]
     primary_category: math-ph
+    openalex_id: W4391212525
+    sources: [arxiv, openalex]
   - id: '2401.11717'
     title: 'Möbius Inversion and Duality for Summations of Stable Graphs'
     year: 2024
     coauthors: [wang-zhiyuan]
+    doi: '10.1007/s10114-026-4262-2'
+    journal: 'Acta Mathematica Sinica English Series'
     primary_category: math.CO
+    openalex_id: W7131865136
+    sources: [arxiv, openalex]
+  - id: '2311.06506'
+    title: 'From Toda Hierarchy to KP Hierarchy'
+    year: 2023
+    coauthors: []
+    doi: '10.3842/sigma.2025.068'
+    journal: 'SIGMA 21 (2025), 068, 25 pages'
+    primary_category: nlin.SI
+  - id: '2204.11074'
+    title: 'Grothendieck''s Dessins d''Enfants in a Web of Dualities. III'
+    year: 2022
+    coauthors: []
+    doi: '10.1088/1751-8121/acb744'
+    primary_category: math-ph
+  - id: '2112.07526'
+    title: 'The Virasoro-like Algebra of a Frobenius Manifold'
+    year: 2021
+    coauthors: [yang-di, zhang-youjin, liu-siqi]
+    doi: '10.1093/imrn/rnac209'
+    journal: 'International Mathematics Research Notices'
+    primary_category: math-ph
+    openalex_id: W4226256119
+    sources: [arxiv, openalex]
   - id: '2109.03394'
     title: 'Topological 1D Gravity, KP Hierarchy, and Orbifold Euler Characteristics of $\overline{\mathcal M}_{g,n}$'
     year: 2021
     coauthors: [wang-zhiyuan]
     primary_category: math-ph
+    openalex_id: W3196891578
+    sources: [arxiv, openalex]
   - id: '2108.10498'
     title: 'A formalism of abstract quantum field theory of summation of fat graphs'
     year: 2021
     coauthors: [wang-zhiyuan]
     primary_category: math-ph
+    openalex_id: W3193839366
+    sources: [arxiv, openalex]
   - id: '1905.03436'
     title: 'Fourier-Like Transforms of Stable Graphs and Holomorphic Anomaly Equations'
     year: 2019
     coauthors: [wang-zhiyuan]
     primary_category: math-ph
+    openalex_id: W2944622271
+    sources: [arxiv, openalex]
   - id: '1904.09071'
     title: 'On Itzykson-Zuber Ansatz'
     year: 2019
-    coauthors: [zhang-qing]
-    doi: '10.1007/JHEP09(2019)075'
+    coauthors: [zhang-qingsheng]
+    doi: '10.1007/jhep09(2019)075'
     primary_category: math-ph
   - id: '1812.10638'
     title: 'Orbifold Euler Characteristics of $\overline{\mathcal M}_{g,n}$'
     year: 2018
     coauthors: [wang-zhiyuan]
     primary_category: math.AG
+    openalex_id: W2908402858
+    sources: [arxiv, openalex]
   - id: '1808.05343'
     title: 'A Unified Approach to Holomorphic Anomaly Equations and Quantum Spectral Curves'
     year: 2018
     coauthors: [wang-zhiyuan]
-    doi: '10.1007/JHEP04(2019)135'
+    doi: '10.1007/jhep04(2019)135'
+    journal: 'Journal of High Energy Physics'
     primary_category: math-ph
+    openalex_id: W2885419658
+    sources: [arxiv, openalex]
+  - id: 'doi:10.1142/s0129167x13500122'
+    title: 'ORBIFOLD ELLIPTIC GENERA OF QUOTIENTS OF COMPLETE INTERSECTIONS IN WEIGHTED PROJECTIVE SPACES'
+    year: 2013
+    coauthors: []
+    doi: '10.1142/s0129167x13500122'
+    journal: 'International Journal of Mathematics'
+    openalex_id: W2061826412
+    sources: [openalex]
+    no_arxiv: true
+  - id: '1208.3270'
+    title: 'Gopakumar-Vafa BPS invariants, Hilbert schemes and quasimodular forms'
+    year: 2012
+    coauthors: []
+    doi: '10.1016/j.aim.2014.09.013'
+    journal: 'Advances in Mathematics'
+    primary_category: math.AG
+    openalex_id: W2136259701
+    sources: [arxiv, openalex]
   - id: '1208.3270'
     title: 'Gopakumar-Vafa BPS invariants, Hilbert schemes and quasimodular forms. I'
     year: 2012
     coauthors: [guo-shuai]
     primary_category: math.AG
+  - id: 'doi:10.1142/s0129167x11007008'
+    title: 'ELLIPTIC GENERA OF COMPLETE INTERSECTIONS IN WEIGHTED PROJECTIVE SPACES'
+    year: 2010
+    coauthors: []
+    doi: '10.1142/s0129167x11007008'
+    journal: 'International Journal of Mathematics'
+    openalex_id: W1977197055
+    sources: [openalex]
+    no_arxiv: true
+  - id: '0408426'
+    title: 'A Mathematical Theory of the Topological Vertex'
+    year: 2004
+    coauthors: ['Jun Li', 'Kefeng Liu']
+    doi: '10.2140/gt.2009.13.527'
+    journal: 'Geom. Topol. 13 (2009) 527-621'
+    primary_category: math.AG
+    openalex_id: W3106406994
+    sources: [arxiv, openalex]
+  - id: 'doi:10.4310/mrl.2004.v11.n2.a9'
+    title: 'On a proof of a conjecture of Mariño-Vafa on Hodge Integrals'
+    year: 2004
+    coauthors: ['Kefeng Liu']
+    doi: '10.4310/mrl.2004.v11.n2.a9'
+    journal: 'Mathematical Research Letters'
+    openalex_id: W2963248533
+    sources: [openalex]
+    no_arxiv: true
+  - id: '0310272'
+    title: 'A Formula of Two-Partition Hodge Integrals'
+    year: 2003
+    coauthors: ['Kefeng Liu']
+    doi: '10.1090/s0894-0347-06-00541-8'
+    journal: 'J. Amer. Math. Soc. 20 (2007), no.1, 149-184'
+    primary_category: math.AG
+    openalex_id: W1586439608
+    sources: [arxiv, openalex]
+  - id: '0308015'
+    title: 'Mariño-Vafa Formula and Hodge Integral Identities'
+    year: 2003
+    coauthors: ['Kefeng Liu']
+    doi: '10.1090/s1056-3911-05-00419-4'
+    journal: 'Journal of Algebraic Geometry'
+    primary_category: math.AG
+    openalex_id: W2071915127
+    sources: [arxiv, openalex]
+  - id: '0306434'
+    title: 'A Proof of a Conjecture of Marino-Vafa on Hodge Integrals'
+    year: 2003
+    coauthors: ['Kefeng Liu']
+    journal: 'J.Diff.Geom. 65 (2004) 289-340'
+    primary_category: math.AG
+    sources: [arxiv]
+  - id: '0306257'
+    title: 'On a Proof of a Conjecture of Marino-Vafa on Hodge Integrals'
+    year: 2003
+    coauthors: ['Kefeng Liu']
+    journal: 'Math. Res. Lett. 11 (2004), no.2, 259-272'
+    primary_category: math.AG
+    sources: [arxiv]
 sources:
   - label: "Math Genealogy"
     url: "https://www.mathgenealogy.org/id.php?id=1264"

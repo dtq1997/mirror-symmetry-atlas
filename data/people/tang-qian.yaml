@@ -79,25 +79,54 @@ publications:
     doi: '10.1007/s00220-025-05456-6'
     journal: 'Communications in Mathematical Physics'
     primary_category: math.CA
+  - id: '2501.17516'
+    title: 'Stokes Phenomenon and Yangians'
+    year: 2025
+    coauthors: []
+    primary_category: math.CA
+    openalex_id: W4406975574
+    sources: [arxiv, openalex]
   - id: '2407.20010'
     title: 'Schröder Paths, Their Generalizations and Knot Invariants'
     year: 2024
-    coauthors: [ji-ce, yang-chenglang]
+    coauthors: [yang-chenglang, ji-ce]
     primary_category: math.CO
+    openalex_id: W4401202451
+    sources: [arxiv, openalex]
   - id: '2402.07269'
     title: 'The Boundary Condition for Some Isomonodromy Equations'
     year: 2024
     coauthors: [xu-xiaomeng]
     primary_category: math.CA
+    openalex_id: W4391800906
+    sources: [arxiv, openalex]
+  - id: 'doi:10.1016/j.geomphys.2023.104809'
+    title: 'Stokes phenomenon and Poisson brackets in r-matrix form'
+    year: 2023
+    coauthors: []
+    doi: '10.1016/j.geomphys.2023.104809'
+    journal: 'Journal of Geometry and Physics'
+    openalex_id: W4361213117
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1007/978-3-031-30284-8_24'
+    title: 'On Some Developments of the Stokes Phenomenon'
+    year: 2023
+    coauthors: []
+    doi: '10.1007/978-3-031-30284-8_24'
+    journal: 'Trends in mathematics'
+    openalex_id: W4385151771
+    sources: [openalex]
+    no_arxiv: true
   - id: '2103.09117'
     title: 'A Characterization of Umbral Calculus Inspired by Fractional Sums'
     year: 2021
-    coauthors: [tang-qian]
+    coauthors: []
     primary_category: math.CA
 activity:
-  total_papers: 4
-  published_count: 1
-  preprint_only_count: 3
+  total_papers: 7
+  published_count: 3
+  preprint_only_count: 4
   active_period: '2023-present'
 external_ids:
   mathgenealogy: "[待查 id]"

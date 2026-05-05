@@ -123,16 +123,14 @@ publications:
   - id: '2512.03860'
     title: 'Infinitesimal deformations of Lie algebroid pairs'
     year: 2025
-    coauthors: [ni-dadi, chen-zhuo, hu-chuangqiang]
-    doi: '10.48550/arxiv.2512.03860'
+    coauthors: [ni-dadi, hu-chuangqiang, chen-zhuo]
     primary_category: math.DG
     openalex_id: W4417032814
     sources: [arxiv, openalex]
   - id: '2412.09039'
     title: 'From smooth dynamical twists to twistors of quantum groupoids'
     year: 2024
-    coauthors: [cheng-jiahao, chen-zhuo, qiao-yu]
-    doi: '10.48550/arxiv.2412.09039'
+    coauthors: [cheng-jiahao, qiao-yu, chen-zhuo]
     journal: 'Journal of Geometry and Physics, 219 (2026)'
     primary_category: math.QA
     openalex_id: W4405354862
@@ -140,7 +138,7 @@ publications:
   - id: '2309.04180'
     title: 'The geometric constraints on Filippov algebroids'
     year: 2023
-    coauthors: [bi-yanhui, 'Zhixiong Chen', chen-zhuo]
+    coauthors: ['Zhixiong Chen', chen-zhuo, bi-yanhui]
     doi: '10.3934/math.2024539'
     journal: 'AIMS Mathematics, 2024, 9(5):11007-11023'
     primary_category: math.RA
@@ -149,16 +147,14 @@ publications:
   - id: '2210.01999'
     title: 'Locally finite infinity-modules and weak Loday-Pirashvili modules over differential graded Lie algebras'
     year: 2022
-    coauthors: [chen-zhuo, qiao-yu, 'Tao Zhang']
-    doi: '10.48550/arxiv.2210.01999'
+    coauthors: [qiao-yu, 'Tao Zhang', chen-zhuo]
     primary_category: math.RT
     openalex_id: W4303449718
     sources: [arxiv, openalex]
   - id: '2206.10091'
     title: 'Dirac generating operators of split Courant algebroids'
     year: 2022
-    coauthors: ['Liqiang Cai', chen-zhuo, lang-honglei]
-    doi: '10.48550/arxiv.2206.10091'
+    coauthors: ['Liqiang Cai', lang-honglei, chen-zhuo]
     journal: 'Journal of Geometry and Physics'
     primary_category: math.DG
     openalex_id: W4283317662
@@ -166,20 +162,11 @@ publications:
   - id: '2110.11623'
     title: 'Dg Loday-Pirashvili modules over Lie algebras'
     year: 2021
-    coauthors: [chen-zhuo, qiao-yu, 'Tao Zhang']
+    coauthors: [qiao-yu, 'Tao Zhang', chen-zhuo]
     doi: '10.1007/s40062-024-00361-6'
     journal: 'Journal of Homotopy and Related Structures, 2025'
     primary_category: math.RA
     openalex_id: W3208496323
-    sources: [arxiv, openalex]
-  - id: '2110.04720'
-    title: 'Atiyah and Todd classes of regular Lie algebroids'
-    year: 2021
-    coauthors: []
-    doi: '10.48550/arxiv.2110.04720'
-    journal: 'Science China Mathematics'
-    primary_category: math.DG
-    openalex_id: W3207554489
     sources: [arxiv, openalex]
   - id: '2105.15019'
     title: 'The standard cohomology of regular Courant algebroids'
@@ -193,11 +180,19 @@ publications:
   - id: '2103.08096'
     title: 'Hochschild cohomology of dg manifolds associated to integrable distributions'
     year: 2021
-    coauthors: [chen-zhuo, xu-xu]
+    coauthors: ['Ping Xu', chen-zhuo]
     doi: '10.1007/s00220-022-04473-z'
     journal: 'Communications in Mathematical Physics'
     primary_category: math.DG
     openalex_id: W3138327821
+    sources: [arxiv, openalex]
+  - id: '2110.04720'
+    title: 'Atiyah and Todd classes of regular Lie algebroids'
+    year: 2021
+    coauthors: []
+    journal: 'Science China Mathematics'
+    primary_category: math.DG
+    openalex_id: W3207554489
     sources: [arxiv, openalex]
   - id: '2003.03553'
     title: 'Cohomology of hemistrict Lie 2-algebras'
@@ -210,8 +205,8 @@ publications:
   - id: '1808.08576'
     title: 'Kapranov''s construction of sh Leibniz algebras'
     year: 2018
-    coauthors: [chen-zhuo, liu-zhangju]
-    doi: '10.4310/HHA.2020.v22.n1.a9'
+    coauthors: ['Zhangju Liu', chen-zhuo, liu-zhangju]
+    doi: '10.4310/hha.2020.v22.n1.a9'
     journal: 'Homology, Homotopy and Applications, vol.22(1), 2020'
     primary_category: math.QA
     openalex_id: W2888283784
@@ -219,7 +214,7 @@ publications:
   - id: '1711.11253'
     title: 'Atiyah and Todd classes arising from integrable distributions'
     year: 2017
-    coauthors: [chen-zhuo, xu-xu]
+    coauthors: ['Ping Xu', chen-zhuo]
     doi: '10.1016/j.geomphys.2018.10.011'
     journal: 'Journal of Geometry and Physics 136 (2019)'
     primary_category: math.DG
@@ -228,8 +223,8 @@ publications:
   - id: '1609.00984'
     title: 'Atiyah classes of strongly homotopy Lie pairs'
     year: 2016
-    coauthors: [chen-zhuo, lang-honglei]
-    doi: '10.1142/S1005386719000178'
+    coauthors: [lang-honglei, chen-zhuo]
+    doi: '10.1142/s1005386719000178'
     journal: 'Algebra Colloquium 2019'
     primary_category: math.QA
     openalex_id: W2512825295

@@ -142,18 +142,21 @@ key_collaborators:
     topic: "Shifted derived Poisson manifolds, Lie pairs"
     papers_count: 2
 publications:
-  - id: '2512.03860'
-    title: 'Infinitesimal deformations of Lie algebroid pairs'
-    year: 2025
-    coauthors: [ni-dadi, hu-chuangqiang, xiang-maosong]
-    primary_category: math.DG
   - id: '2512.03391'
     title: 'From n-systems to Lie and Courant algebroids'
     year: 2025
     coauthors: ['Liqiang Cai', 'Zhixiong Chen', bi-yanhui]
     primary_category: math.DG
+    sources: [arxiv]
+  - id: '2512.03860'
+    title: 'Infinitesimal deformations of Lie algebroid pairs'
+    year: 2025
+    coauthors: [ni-dadi, hu-chuangqiang, xiang-maosong]
+    primary_category: math.DG
+    openalex_id: W4417032814
+    sources: [arxiv, openalex]
   - id: '2508.02019'
-    title: 'Brace $B_\infty$ algebras associated with Hopf algebroids'
+    title: 'Brace $B_{\infty}$ algebras associated with Hopf algebroids'
     year: 2025
     coauthors: [cheng-jiahao, qiao-yu]
     primary_category: math.QA
@@ -162,24 +165,31 @@ publications:
     year: 2025
     coauthors: ['Chen He', ni-dadi]
     primary_category: math.DG
+    sources: [arxiv]
   - id: '2412.09039'
     title: 'From smooth dynamical twists to twistors of quantum groupoids'
     year: 2024
     coauthors: [cheng-jiahao, qiao-yu, xiang-maosong]
     journal: 'Journal of Geometry and Physics, 219 (2026)'
     primary_category: math.QA
+    openalex_id: W4405354862
+    sources: [arxiv, openalex]
   - id: '2309.04180'
     title: 'The geometric constraints on Filippov algebroids'
     year: 2023
-    coauthors: [bi-yanhui, 'Zhixiong Chen', xiang-maosong]
+    coauthors: ['Zhixiong Chen', xiang-maosong, bi-yanhui]
     doi: '10.3934/math.2024539'
     journal: 'AIMS Mathematics, 2024, 9(5):11007-11023'
     primary_category: math.RA
+    openalex_id: W4393003592
+    sources: [arxiv, openalex]
   - id: '2309.00432'
     title: 'Drinfeld Modular Curves Subordinate to Conjugacy Classes of Nilpotent Upper-Triangular Matrices'
     year: 2023
     coauthors: [hu-chuangqiang, 'Tao Zhang', 'Xiaopeng Zheng']
     primary_category: math.NT
+    openalex_id: W4386436307
+    sources: [arxiv, openalex]
   - id: '2302.01294'
     title: 'The weak Lie 2-algebra of multiplicative forms on a quasi-Poisson groupoid'
     year: 2023
@@ -187,6 +197,13 @@ publications:
     doi: '10.1007/s00220-024-05015-5'
     journal: 'Communications in Mathematical Physics'
     primary_category: math.DG
+  - id: '2302.01294'
+    title: 'The weak Lie 2-algebra of multiplicative forms on a quasi-Poisson groupoid'
+    year: 2023
+    coauthors: [liu-zhangju]
+    journal: 'Comm. Math. Phys. (2024)'
+    primary_category: math.DG
+    sources: [arxiv]
   - id: '2211.06943'
     title: 'MSW-type compactifications of 6d $(1,0)$ SCFTs on 4-manifolds'
     year: 2022
@@ -199,25 +216,33 @@ publications:
     year: 2022
     coauthors: [qiao-yu, xiang-maosong, 'Tao Zhang']
     primary_category: math.RT
+    openalex_id: W4303449718
+    sources: [arxiv, openalex]
   - id: '2206.10091'
     title: 'Dirac generating operators of split Courant algebroids'
     year: 2022
     coauthors: ['Liqiang Cai', lang-honglei, xiang-maosong]
+    journal: 'Journal of Geometry and Physics'
     primary_category: math.DG
+    openalex_id: W4283317662
+    sources: [arxiv, openalex]
   - id: '2201.13068'
     title: 'Internal symmetry of the $L_{\leqslant 3}$ algebra arising from a Lie pair'
     year: 2022
     coauthors: [ni-dadi, cheng-jiahao, 'Chen He']
-    doi: '10.4310/PAMQ.2023.v19.n4.a16'
+    doi: '10.4310/pamq.2023.v19.n4.a16'
     journal: 'Pure Appl. Math. Q., Vol. 19 (2023) No. 4, 2195-2234'
     primary_category: math.DG
+    openalex_id: W4221152106
+    sources: [arxiv, openalex]
   - id: '2201.06242'
     title: 'Multiplicative forms on Poisson groupoids'
     year: 2022
-    coauthors: [lang-honglei, 'Zhangju Liu']
+    coauthors: [lang-honglei, 'Zhangju Liu', liu-zhangju]
     doi: '10.1007/s11425-023-2231-1'
     journal: 'Science China Mathematics'
     primary_category: math.DG
+    sources: [arxiv]
   - id: '2110.11623'
     title: 'Dg Loday-Pirashvili modules over Lie algebras'
     year: 2021
@@ -225,6 +250,8 @@ publications:
     doi: '10.1007/s40062-024-00361-6'
     journal: 'Journal of Homotopy and Related Structures, 2025'
     primary_category: math.RA
+    openalex_id: W3208496323
+    sources: [arxiv, openalex]
   - id: '2105.15019'
     title: 'The standard cohomology of regular Courant algebroids'
     year: 2021
@@ -232,12 +259,17 @@ publications:
     doi: '10.1016/j.aim.2022.108776'
     journal: 'Adv. Math. 411 (2022)'
     primary_category: math.DG
+    openalex_id: W3171040318
+    sources: [arxiv, openalex]
   - id: '2103.08096'
     title: 'Hochschild cohomology of dg manifolds associated to integrable distributions'
     year: 2021
-    coauthors: [xiang-maosong, xu-xu]
+    coauthors: [xiang-maosong, 'Ping Xu']
     doi: '10.1007/s00220-022-04473-z'
+    journal: 'Communications in Mathematical Physics'
     primary_category: math.DG
+    openalex_id: W3138327821
+    sources: [arxiv, openalex]
   - id: '2012.14109'
     title: 'A GLSM view on Homological Projective Duality'
     year: 2020
@@ -248,8 +280,9 @@ publications:
   - id: '2003.13384'
     title: 'On the reduced space of multiplicative multivectors'
     year: 2020
-    coauthors: [lang-honglei, 'Zhangju Liu']
+    coauthors: [lang-honglei, 'Zhangju Liu', liu-zhangju]
     primary_category: math.AG
+    sources: [arxiv]
   - id: '1912.02668'
     title: 'A Modular Interpretation of BBGS Towers'
     year: 2019
@@ -257,19 +290,25 @@ publications:
     doi: '10.1016/j.jnt.2020.06.006'
     journal: 'Journal of Number Theory'
     primary_category: math.NT
+    sources: [arxiv]
   - id: '1911.01388'
     title: 'Hopf algebras arising from dg manifolds'
     year: 2019
     coauthors: [cheng-jiahao, ni-dadi]
     doi: '10.1016/j.jalgebra.2021.05.004'
+    journal: 'J. Algebra 584 (2021)'
     primary_category: math.DG
+    openalex_id: W2984093544
+    sources: [arxiv, openalex]
   - id: '1808.08576'
     title: 'Kapranov''s construction of sh Leibniz algebras'
     year: 2018
-    coauthors: ['Zhangju Liu', xiang-maosong]
-    doi: '10.4310/HHA.2020.v22.n1.a9'
+    coauthors: ['Zhangju Liu', xiang-maosong, liu-zhangju]
+    doi: '10.4310/hha.2020.v22.n1.a9'
     journal: 'Homology, Homotopy and Applications, vol.22(1), 2020'
     primary_category: math.QA
+    openalex_id: W2888283784
+    sources: [arxiv, openalex]
   - id: '1806.01283'
     title: 'Landau-Ginzburg models for certain fiber products with curves'
     year: 2018
@@ -286,22 +325,26 @@ publications:
   - id: '1711.11253'
     title: 'Atiyah and Todd classes arising from integrable distributions'
     year: 2017
-    coauthors: [xiang-maosong, xu-xu]
+    coauthors: [xiang-maosong, 'Ping Xu']
     doi: '10.1016/j.geomphys.2018.10.011'
     journal: 'Journal of Geometry and Physics 136 (2019)'
     primary_category: math.DG
+    openalex_id: W2771361481
+    sources: [arxiv, openalex]
   - id: '1609.00984'
     title: 'Atiyah classes of strongly homotopy Lie pairs'
     year: 2016
     coauthors: [lang-honglei, xiang-maosong]
-    doi: '10.1142/S1005386719000178'
+    doi: '10.1142/s1005386719000178'
     journal: 'Algebra Colloquium 2019'
     primary_category: math.QA
+    openalex_id: W2512825295
+    sources: [arxiv, openalex]
   - id: '1603.09634'
     title: 'Toda-like (0,2) mirrors to products of projective spaces'
     year: 2016
     coauthors: ['Eric Sharpe', xu-xu]
-    doi: '10.1007/JHEP08(2016)093'
+    doi: '10.1007/jhep08(2016)093'
     journal: 'JHEP 1608 (2016) 093'
     primary_category: hep-th
   - id: '1509.01115'
@@ -313,7 +356,7 @@ publications:
   - id: '1409.6803'
     title: 'A Hopf algebra associated to a Lie pair'
     year: 2014
-    coauthors: ['Mathieu Sti non', xu-xu]
+    coauthors: ['Mathieu Sti non', 'Ping Xu']
     doi: '10.1016/j.crma.2014.09.010'
     journal: 'C. R. Math. Acad. Sci. Paris 352 (2014), no. 11, 929-933'
     primary_category: math.AG
@@ -355,7 +398,7 @@ publications:
     title: 'On Regular Courant Algebroids'
     year: 2009
     coauthors: ['Mathieu Stiénon', 'Ping Xu']
-    doi: '10.4310/JSG.2013.v11.n1.a1'
+    doi: '10.4310/jsg.2013.v11.n1.a1'
     journal: 'Journal of Symplectic Geometry 11 (2013), no. 1, 1-24'
     primary_category: math.DG
   - id: '0904.4062'
@@ -392,9 +435,9 @@ publications:
     coauthors: ['Zhangju Liu', 'Yunhe Sheng']
     primary_category: math.DG
 activity:
-  total_papers: 39
-  published_count: 30
-  preprint_only_count: 9
+  total_papers: 40
+  published_count: 32
+  preprint_only_count: 8
   active_period: '2005-present'
   peak_period: '2020-present'
 external_ids:

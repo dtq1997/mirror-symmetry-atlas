@@ -95,8 +95,8 @@ key_collaborators:
     topic: "Virasoro conjecture genus 0"
     papers_count: 1
 activity:
-  total_papers: 5
-  published_count: 5
+  total_papers: 9
+  published_count: 9
   preprint_only_count: 0
   active_period: '1988-present'
   phd_students: 69
@@ -118,20 +118,6 @@ personal_notes: |
   重要奖项: Waterman Award (1994), Veblen Prize (1996), AAAS Fellow (2004),
   ICM 2002 全体报告。
 publications:
-  - id: '9806028'
-    title: 'Virasoro Constraints For Quantum Cohomology'
-    year: 1998
-    coauthors: [li-ao]
-    journal: 'J.Diff.Geom. 50 (1998) 537-590'
-    primary_category: math.AG
-  - id: 'doi:10.1002/cpa.21612'
-    title: 'Corrigendum: K‐Stability and Kähler‐Einstein Metrics'
-    year: 2015
-    coauthors: []
-    doi: '10.1002/cpa.21612'
-    journal: 'Communications on Pure and Applied Mathematics'
-    sources: [crossref]
-    no_arxiv: true
   - id: 'doi:10.1142/9789811264153_0021'
     title: 'Yang-Mills Fields and Geometry'
     year: 2022
@@ -148,6 +134,14 @@ publications:
     journal: 'National Science Review'
     sources: [crossref]
     no_arxiv: true
+  - id: 'doi:10.1002/cpa.21612'
+    title: 'Corrigendum: K‐Stability and Kähler‐Einstein Metrics'
+    year: 2015
+    coauthors: []
+    doi: '10.1002/cpa.21612'
+    journal: 'Communications on Pure and Applied Mathematics'
+    sources: [crossref]
+    no_arxiv: true
   - id: 'doi:10.1002/cpa.21578'
     title: 'K‐Stability and Kähler‐Einstein Metrics'
     year: 2015
@@ -155,6 +149,48 @@ publications:
     doi: '10.1002/cpa.21578'
     journal: 'Communications on Pure and Applied Mathematics'
     sources: [crossref]
+    no_arxiv: true
+  - id: '9806028'
+    title: 'Virasoro Constraints For Quantum Cohomology'
+    year: 1998
+    coauthors: []
+    doi: '10.4310/jdg/1214424970'
+    journal: 'J.Diff.Geom. 50 (1998) 537-590'
+    primary_category: math.AG
+    openalex_id: W1793609169
+    sources: [arxiv, openalex]
+  - id: '9806028'
+    title: 'Virasoro Constraints For Quantum Cohomology'
+    year: 1998
+    coauthors: [li-ao]
+    journal: 'J.Diff.Geom. 50 (1998) 537-590'
+    primary_category: math.AG
+  - id: '9601005'
+    title: 'Higher genus symplectic invariants and sigma model coupled with gravity'
+    year: 1996
+    coauthors: []
+    doi: '10.1007/s002220050192'
+    journal: 'Inventiones mathematicae'
+    primary_category: math.AG
+    openalex_id: W2949493974
+    sources: [arxiv, openalex]
+  - id: 'doi:10.4310/jdg/1214457234'
+    title: 'A mathematical theory of quantum cohomology'
+    year: 1995
+    coauthors: []
+    doi: '10.4310/jdg/1214457234'
+    journal: 'Journal of Differential Geometry'
+    openalex_id: W1916008908
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.4310/mrl.1995.v2.n2.a9'
+    title: 'Bott-type symplectic Floer cohomology and its multiplication structures'
+    year: 1995
+    coauthors: []
+    doi: '10.4310/mrl.1995.v2.n2.a9'
+    journal: 'Mathematical Research Letters'
+    openalex_id: W2064638721
+    sources: [openalex]
     no_arxiv: true
 sources:
   - label: "Wikipedia: Tian Gang"

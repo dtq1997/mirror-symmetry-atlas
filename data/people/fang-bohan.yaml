@@ -105,7 +105,6 @@ publications:
     title: 'Remodeling Conjecture with Descendants'
     year: 2025
     coauthors: [liu-melissa, 'Song Yu', zong-zhengyu]
-    doi: '10.48550/arxiv.2504.15696'
     primary_category: math.AG
     openalex_id: W4414632062
     sources: [arxiv, openalex]
@@ -113,21 +112,18 @@ publications:
     title: 'Mirror symmetric Gamma conjecture for toric GIT quotients via Fourier transform'
     year: 2025
     coauthors: ['Konstantin Aleshkin', 'Junxiao Wang']
-    doi: '10.48550/arxiv.2501.14222'
     primary_category: math.AG
     sources: [arxiv]
   - id: '2309.02154'
     title: 'Mirror symmetric Gamma conjecture for del Pezzo surfaces'
     year: 2023
     coauthors: ['Junxiao Wang', 'Yan Zhou']
-    doi: '10.48550/arxiv.2309.02154'
     primary_category: math.AG
     sources: [arxiv]
   - id: '2204.12483'
     title: 'Topological Fukaya category and mirror symmetry for toric Calabi-Yau 3-orbifolds'
     year: 2022
     coauthors: ['Qingyuan Bai']
-    doi: '10.48550/arxiv.2204.12483'
     primary_category: math.AT
     sources: [arxiv]
   - id: '2211.09203'
@@ -144,14 +140,12 @@ publications:
     title: 'Gamma II for toric varieties from integrals on T-dual branes and homological mirror symmetry'
     year: 2019
     coauthors: ['Peng Zhou']
-    doi: '10.48550/arxiv.1903.05300'
     primary_category: math.SG
     sources: [arxiv]
   - id: '1902.03697'
     title: 'Graph sums in the Remodeling Conjecture'
     year: 2019
     coauthors: [zong-zhengyu]
-    doi: '10.48550/arxiv.1902.03697'
     journal: 'Proceedings of Symposia in Pure Mathematics, Volume 100, 2018'
     primary_category: math.AG
     openalex_id: W2919128252
@@ -203,7 +197,6 @@ publications:
     title: 'The Eynard-Orantin Recursion and Equivariant Mirror Symmetry for P^1'
     year: 2016
     coauthors: [liu-melissa, zong-zhengyu]
-    doi: '10.48550/arxiv.1604.07123'
     journal: 'J. Amer. Math. Soc. 33 (2020), no. 1, 135-222'
     primary_category: math.AG
     openalex_id: W2344238614
@@ -213,8 +206,9 @@ publications:
     year: 2016
     coauthors: ['Chiu-Chu Liu', zong-zhengyu]
     doi: '10.1090/pspum/093/01588'
+    journal: 'Proceedings of Symposia in Pure Mathematics String-Math 2014'
     openalex_id: W7150215032
-    sources: [openalex]
+    sources: [crossref, openalex]
     no_arxiv: true
   - id: '1411.3557'
     title: 'The Eynard-Orantin recursion and equivariant mirror symmetry for the projective line'
@@ -229,7 +223,6 @@ publications:
     title: 'All Genus Open-Closed Mirror Symmetry for Affine Toric Calabi-Yau 3-Orbifolds'
     year: 2013
     coauthors: [liu-melissa, zong-zhengyu]
-    doi: '10.48550/arxiv.1310.4818'
     journal: 'Algebr. Geo. 7 (2020), no. 2, 192-239'
     primary_category: math.AG
     openalex_id: W1760680039
@@ -243,6 +236,15 @@ publications:
     primary_category: math.AG
     openalex_id: W1859657220
     sources: [arxiv, openalex]
+  - id: '1310.4818'
+    title: 'All Genus Open-Closed Mirror Symmetry for Affine Toric Calabi-Yau 3-Orbifolds'
+    year: 2013
+    coauthors: [zong-zhengyu]
+    doi: '10.14231/ag-2020-007'
+    journal: 'Algebr. Geo. 7 (2020), no. 2, 192-239'
+    primary_category: math.AG
+    openalex_id: W1760680039
+    sources: [arxiv, openalex]
   - id: '1212.6073'
     title: 'Open-closed Gromov-Witten invariants of 3-dimensional Calabi-Yau smooth toric DM stacks'
     year: 2012
@@ -252,6 +254,13 @@ publications:
     primary_category: math.AG
     openalex_id: W1890594224
     sources: [arxiv, openalex]
+  - id: '1212.6073'
+    title: 'Open-closed Gromov-Witten invariants of 3-dimensional Calabi-Yau smooth toric DM stacks'
+    year: 2012
+    coauthors: ['Hsian-Hua Tseng']
+    journal: 'Forum of Mathematics Sigma 10, e58 (2022)'
+    primary_category: math.AG
+    sources: [arxiv]
   - id: '1103.0693'
     title: 'Open Gromov-Witten Invariants of Toric Calabi-Yau 3-Folds'
     year: 2011
@@ -279,6 +288,14 @@ publications:
     primary_category: math.AG
     openalex_id: W3103424700
     sources: [arxiv, openalex]
+  - id: '1009.3506'
+    title: 'The Coherent-Constructible Correspondence and Fourier-Mukai Transforms'
+    year: 2010
+    coauthors: ['David Treumann', 'Eric Zaslow']
+    journal: 'Acta Math. Sin. (Engl. Ser.) 27 (2011), no.2, 275-308'
+    primary_category: math.AG
+    openalex_id: W2952617413
+    sources: [arxiv, openalex]
   - id: '0911.4711'
     title: 'The Coherent-Constructible Correspondence for Toric Deligne-Mumford Stacks'
     year: 2009
@@ -289,13 +306,20 @@ publications:
     openalex_id: W2963991412
     sources: [arxiv, openalex]
   - id: '0901.4276'
-    title: 'Coherent-Constructible Correspondence and HMS for Toric Varieties'
+    title: 'The Coherent-Constructible Correspondence and Homological Mirror Symmetry for Toric Varieties'
     year: 2009
     coauthors: [liu-melissa, 'David Treumann', 'Eric Zaslow']
-    doi: '10.48550/arxiv.0901.4276'
     journal: 'page 3-37, Geometry and Analysis Vol. 2, Adv. Lect. Math (ALM) 18, Higher Education Press, 2010'
     primary_category: math.AG
     openalex_id: W1664791042
+    sources: [arxiv, openalex]
+  - id: '0911.4711'
+    title: 'The Coherent-Constructible Correspondence for Toric Deligne-Mumford Stacks'
+    year: 2009
+    coauthors: ['David Treumann', 'Eric Zaslow']
+    journal: 'IMRN 2014, No. 4, 914-954'
+    primary_category: math.AG
+    openalex_id: W2088250600
     sources: [arxiv, openalex]
   - id: '0811.1228'
     title: 'T-Duality and Homological Mirror Symmetry of Toric Varieties'
@@ -310,7 +334,6 @@ publications:
     title: 'Homological mirror symmetry is T-duality for P^n'
     year: 2008
     coauthors: []
-    doi: '10.48550/arxiv.0804.0646'
     primary_category: math.SG
     openalex_id: W2011295230
     sources: [arxiv, openalex]
@@ -323,10 +346,18 @@ publications:
     openalex_id: W2963686595
     sources: [openalex]
     no_arxiv: true
+  - id: '0811.1228'
+    title: 'T-Duality and Homological Mirror Symmetry of Toric Varieties'
+    year: 2008
+    coauthors: ['David Treumann', 'Eric Zaslow']
+    journal: 'Adv. Math. 229 (2012), 1873-1911'
+    primary_category: math.AG
+    openalex_id: W2808846937
+    sources: [arxiv, openalex]
 activity:
-  total_papers: 27
-  published_count: 25
-  preprint_only_count: 2
+  total_papers: 32
+  published_count: 24
+  preprint_only_count: 8
   active_period: '2010-present'
   confidence: 'has-7-review-pending'
 external_ids:

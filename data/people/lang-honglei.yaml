@@ -131,14 +131,12 @@ publications:
     title: 'Relative Rota-Baxter operators and crossed homomorphisms on Lie 2-groups'
     year: 2026
     coauthors: ['Shining Wang']
-    doi: '10.48550/arxiv.2602.02041'
     primary_category: math-ph
     sources: [arxiv]
   - id: '2506.20276'
     title: 'Reflections on Rota-Baxter Lie algebras, the classical reflection equation and Poisson homogeneous spaces'
     year: 2025
     coauthors: ['Yunhe Sheng']
-    doi: '10.48550/arxiv.2506.20276'
     primary_category: math-ph
     sources: [arxiv]
   - id: '2503.05080'
@@ -152,8 +150,14 @@ publications:
   - id: '2302.01294'
     title: 'The weak Lie 2-algebra of multiplicative forms on a quasi-Poisson groupoid'
     year: 2023
+    coauthors: ['Zhangju Liu']
+    doi: '10.1007/s00220-024-05015-5'
+    journal: 'Communications in Mathematical Physics'
+    primary_category: math.DG
+  - id: '2302.01294'
+    title: 'The weak Lie 2-algebra of multiplicative forms on a quasi-Poisson groupoid'
+    year: 2023
     coauthors: [chen-zhuo, liu-zhangju]
-    doi: '10.48550/arxiv.2302.01294'
     journal: 'Comm. Math. Phys. (2024)'
     primary_category: math.DG
     sources: [arxiv]
@@ -169,8 +173,7 @@ publications:
   - id: '2206.10091'
     title: 'Dirac generating operators of split Courant algebroids'
     year: 2022
-    coauthors: ['Liqiang Cai', chen-zhuo, xiang-maosong]
-    doi: '10.48550/arxiv.2206.10091'
+    coauthors: ['Liqiang Cai', xiang-maosong, chen-zhuo]
     journal: 'Journal of Geometry and Physics'
     primary_category: math.DG
     openalex_id: W4283317662
@@ -178,9 +181,9 @@ publications:
   - id: '2201.06242'
     title: 'Multiplicative forms on Poisson groupoids'
     year: 2022
-    coauthors: [chen-zhuo, liu-zhangju]
+    coauthors: ['Zhangju Liu', chen-zhuo, liu-zhangju]
     doi: '10.1007/s11425-023-2231-1'
-    journal: 'Sci. China Math. (2025)'
+    journal: 'Science China Mathematics'
     primary_category: math.DG
     sources: [arxiv]
   - id: '2112.07902'
@@ -208,6 +211,12 @@ publications:
     journal: 'Differential Geometry and its Applications'
     primary_category: math.AG
     sources: [arxiv]
+  - id: '2003.13384'
+    title: 'On the reduced space of multiplicative multivectors'
+    year: 2020
+    coauthors: ['Zhangju Liu', chen-zhuo, liu-zhangju]
+    primary_category: math.AG
+    sources: [arxiv]
   - id: '2009.03492'
     title: 'Integration and geometrization of Rota-Baxter Lie algebras'
     year: 2020
@@ -217,13 +226,6 @@ publications:
     primary_category: math.QA
     openalex_id: W3083804758
     sources: [arxiv, openalex]
-  - id: '2003.13384'
-    title: 'On the reduced space of multiplicative multivectors'
-    year: 2020
-    coauthors: [chen-zhuo, liu-zhangju]
-    doi: '10.48550/arxiv.2003.13384'
-    primary_category: math.AG
-    sources: [arxiv]
   - id: '2002.03656'
     title: 'Linearization of the higher analogue of Courant algebroids'
     year: 2020
@@ -261,10 +263,19 @@ publications:
     title: 'VB-Courant algebroids, E-Courant algebroids and generalized geometry'
     year: 2017
     coauthors: ['Yunhe Sheng', 'Aissa Wade']
-    doi: '10.4153/CMB-2017-079-7'
+    doi: '10.4153/cmb-2017-079-7'
     journal: 'Can. Math. Bull. 61 (2018) 588-607'
     primary_category: math.DG
     openalex_id: W2617951580
+    sources: [arxiv, openalex]
+  - id: '1609.00984'
+    title: 'Atiyah classes of strongly homotopy Lie pairs'
+    year: 2016
+    coauthors: [xiang-maosong, chen-zhuo]
+    doi: '10.1142/s1005386719000178'
+    journal: 'Algebra Colloquium 2019'
+    primary_category: math.QA
+    openalex_id: W2512825295
     sources: [arxiv, openalex]
   - id: '1611.00672'
     title: 'Double Principal Bundles'
@@ -273,14 +284,6 @@ publications:
     doi: '10.1016/j.geomphys.2021.104354'
     journal: 'Journal of Geometry and Physics, 170 (2021), 104354'
     primary_category: math.DG
-    sources: [arxiv]
-  - id: '1609.00984'
-    title: 'Atiyah classes of strongly homotopy Lie pairs'
-    year: 2016
-    coauthors: [chen-zhuo, xiang-maosong]
-    doi: '10.1142/S1005386719000178'
-    journal: 'Algebra Colloquium 2019'
-    primary_category: math.QA
     sources: [arxiv]
   - id: 'doi:10.4064/bc110-0-11'
     title: 'Nonabelian omni-Lie algebras'
@@ -321,7 +324,6 @@ publications:
     title: 'Dirac and Generalized Complex Structures on Cartan Geometries'
     year: 2012
     coauthors: [xu-xiaomeng]
-    doi: '10.48550/arxiv.1204.5951'
     primary_category: math.DG
     openalex_id: W1590260575
     sources: [arxiv, openalex]
@@ -335,9 +337,9 @@ publications:
     sources: [openalex]
     no_arxiv: true
 activity:
-  total_papers: 25
-  published_count: 25
-  preprint_only_count: 0
+  total_papers: 26
+  published_count: 22
+  preprint_only_count: 4
   active_period: '2012-present'
   confidence: 'has-13-review-pending'
   nsfc_grants: 1

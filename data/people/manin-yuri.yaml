@@ -111,8 +111,8 @@ advisor: shafarevich
 students: []
 key_collaborators: []
 activity:
-  total_papers: 41
-  published_count: 22
+  total_papers: 42
+  published_count: 23
   preprint_only_count: 19
   h_index: 46
   active_period: '1960-2023'
@@ -136,274 +136,6 @@ personal_notes: '54 名博士生，360 名学术后代。学生包括 Kontsevich
 
   '
 publications:
-  - id: '2203.15855'
-    title: 'Supercycles, stable supermaps and SUSY Nori motives'
-    year: 2022
-    coauthors: ['Ugo Bruzzo', 'Daniel Hernandez Ruiperez', manin-yuri]
-    journal: 'Algebraic Geometry and Physics 1 (2024) 1-57'
-    primary_category: math.AG
-    sources: [arxiv]
-  - id: '2202.10321'
-    title: 'Moduli spaces of SUSY curves and their operads'
-    year: 2022
-    coauthors: ['Enno Ke ler', manin-yuri, 'Yingying Wu']
-    primary_category: math.AG
-    sources: [arxiv]
-  - id: '2112.15237'
-    title: 'Quantum Operads'
-    year: 2021
-    coauthors: ['Noemie Combe', 'Matilde Marcolli']
-    primary_category: math.QA
-    sources: [arxiv]
-  - id: '2101.00197'
-    title: 'Homotopy Spectra and Diophantine Equations'
-    year: 2021
-    coauthors: [manin-yuri, 'Matilde Marcolli']
-    primary_category: math.NT
-    sources: [arxiv]
-  - id: '2012.13814'
-    title: 'Birational maps and Nori motives'
-    year: 2020
-    coauthors: ['Noemie C. Combe', manin-yuri, 'Matilde Marcolli']
-    primary_category: math.AG
-    sources: [arxiv]
-  - id: '2006.13663'
-    title: 'Dessins for Modular Operad and Grothendieck-Teichmuller Group'
-    year: 2020
-    coauthors: ['Noemie C. Combe', manin-yuri, 'Matilde Marcolli']
-    primary_category: math.AG
-    sources: [arxiv]
-  - id: '1907.13545'
-    title: 'Quantum Statistical Mechanics of the Absolute Galois Group'
-    year: 2019
-    coauthors: [manin-yuri, 'Matilde Marcolli']
-    doi: '10.3842/SIGMA.2020.038'
-    journal: 'SIGMA 16 (2020), 038, 52 pages'
-    primary_category: math.AG
-    sources: [arxiv]
-  - id: '1901.10301'
-    title: 'Nori diagrams and persistent homology'
-    year: 2019
-    coauthors: [manin-yuri, 'Matilde Marcolli']
-    doi: '10.1007/s11786-019-00422-7'
-    journal: 'Mathematics in Computer Science'
-    primary_category: math.AG
-    sources: [arxiv]
-  - id: '1901.00020'
-    title: 'Bost-Connes systems and F1-structures in Grothendieck rings, spectra, and Nori motives'
-    year: 2018
-    coauthors: ['Joshua F. Lieber', manin-yuri, 'Matilde Marcolli']
-    primary_category: math.AG
-    sources: [arxiv]
-  - id: '1806.10801'
-    title: 'Homotopy types and geometries below Spec Z'
-    year: 2018
-    coauthors: [manin-yuri, 'Matilde Marcolli']
-    primary_category: math.AG
-    sources: [arxiv]
-  - id: '1701.01261'
-    title: 'Grothendieck-Verdier duality patterns in quantum algebra'
-    year: 2017
-    coauthors: [manin-yuri]
-    doi: '10.1070/IM8620'
-    primary_category: math.QA
-    sources: [arxiv]
-  - id: '1601.00096'
-    title: 'Modular forms of real weights and generalized Dedekind symbols'
-    year: 2016
-    coauthors: [manin-yuri]
-    doi: '10.1007/s40687-018-0120-x'
-    journal: 'Research in the Mathematical Sciences'
-    primary_category: math.NT
-    sources: [arxiv]
-  - id: '1407.4969'
-    title: 'Local zeta factors and geometries under Spec Z'
-    year: 2014
-    coauthors: [manin-yuri]
-    doi: '10.1070/im8392'
-    journal: 'Izvestiya Mathematics'
-    primary_category: math.AG
-    sources: [arxiv]
-  - id: '1312.5160'
-    title: 'Numbers as functions'
-    year: 2013
-    coauthors: [manin-yuri]
-    doi: '10.1134/S2070046613040055'
-    journal: 'P-adic Numbers, Ultrametric Analysis and Applications, Vol. 5, no. 4, 2013, 313-325'
-    primary_category: math.NT
-    sources: [arxiv]
-  - id: '1307.3841'
-    title: 'Arithmetic Differential Equations of Painleve'' VI Type'
-    year: 2013
-    coauthors: ['Alexandru Buium', manin-yuri]
-    doi: '10.1017/cbo9781316106877.010'
-    journal: 'Arithmetic and Geometry'
-    primary_category: math.NT
-    sources: [arxiv]
-  - id: '1302.6526'
-    title: 'Moduli Operad over F1'
-    year: 2013
-    coauthors: [manin-yuri, 'Matilde Marcolli']
-    primary_category: math.AG
-    sources: [arxiv]
-  - id: '1301.0078'
-    title: 'Non-commutative generalized Dedekind symbols'
-    year: 2013
-    coauthors: [manin-yuri]
-    doi: '10.4310/pamq.2014.v10.n2.a3'
-    journal: 'Pure and Applied Mathematics Quarterly'
-    primary_category: math.NT
-    sources: [arxiv]
-  - id: '1107.4915'
-    title: 'Towards motivic quantum cohomology of $\bar{M}_{0,S}$'
-    year: 2011
-    coauthors: [manin-yuri, 'Maxim Smirnov']
-    primary_category: math.AG
-    sources: [arxiv]
-  - id: '0908.3430'
-    title: 'Renormalization and Computation II: Time Cut-off and the Halting Problem'
-    year: 2009
-    coauthors: [manin-yuri]
-    primary_category: math.QA
-    sources: [arxiv]
-  - id: '0904.4921'
-    title: 'Renormalization and computation I: motivation and background'
-    year: 2009
-    coauthors: [manin-yuri]
-    primary_category: math.QA
-    sources: [arxiv]
-  - id: '0809.2716'
-    title: 'Quantum theta functions and Gabor frames for modulation spaces'
-    year: 2008
-    coauthors: ['Franz Luef', manin-yuri]
-    doi: '10.1007/s11005-009-0306-7'
-    primary_category: math.QA
-    sources: [arxiv]
-  - id: '0809.1564'
-    title: 'Cyclotomy and analytic geometry over F_1'
-    year: 2008
-    coauthors: [manin-yuri]
-    primary_category: math.AG
-    sources: [arxiv]
-  - id: '0703718'
-    title: 'Modular shadows and the Levy-Mellin infinity-adic transform'
-    year: 2007
-    coauthors: ['Matilde Marcolli']
-    primary_category: math.NT
-    sources: [arxiv]
-  - id: '0607580'
-    title: 'Stability Conditions, Wall-crossing and weighted Gromov-Witten Invariants'
-    year: 2006
-    coauthors: ['Arend Bayer', manin-yuri]
-    journal: 'Mosc. Math. J., 2009, 9, 3-32'
-    primary_category: math.AG
-    sources: [arxiv]
-  - id: '0502016'
-    title: 'The notion of dimension in geometry and algebra'
-    year: 2005
-    coauthors: [manin-yuri]
-    doi: '10.1090/s0273-0979-06-01081-0'
-    journal: 'Bulletin of the American Mathematical Society'
-    primary_category: math.AG
-    sources: [arxiv]
-  - id: '0402451'
-    title: 'F-manifolds with flat structure and Dubrovin''s duality'
-    year: 2004
-    coauthors: [manin-yuri]
-    primary_category: math.DG
-    sources: [arxiv]
-  - id: '0209244'
-    title: 'Georg Cantor and his heritage'
-    year: 2002
-    coauthors: [manin-yuri]
-    primary_category: math.AG
-    sources: [arxiv]
-  - id: '0207089'
-    title: 'Unfoldings of meromorphic connections and a construction of Frobenius manifolds'
-    year: 2002
-    coauthors: [hertling]
-    doi: '10.1007/978-3-322-80236-1_5'
-    journal: 'Aspects of Mathematics Frobenius Manifolds'
-    primary_category: math.AG
-    sources: [arxiv]
-  - id: '0202109'
-    title: 'Real Multiplication and noncommutative geometry'
-    year: 2002
-    coauthors: [manin-yuri]
-    primary_category: math.AG
-    sources: [arxiv]
-  - id: '0201036'
-    title: 'Holography principle and arithmetic of algebraic curves'
-    year: 2002
-    coauthors: [manin-yuri, 'Matilde Marcolli']
-    journal: 'Adv.Theor.Math.Phys. 5 (2002) 617-650'
-    primary_category: hep-th
-    sources: [arxiv]
-  - id: '0201005'
-    title: 'Von Zahlen und Figuren'
-    year: 2002
-    coauthors: [manin-yuri]
-    primary_category: math.AG
-    sources: [arxiv]
-  - id: '0103164'
-    title: '(Semi)simple exercises in quantum cohomology'
-    year: 2001
-    coauthors: ['Arend Bayer']
-    journal: 'The Fano Conference, Univ. Torino, Turin, 2004, 143-173'
-    primary_category: math.AG
-    sources: [arxiv]
-  - id: '0102006'
-    title: 'Continued fractions, modular symbols, and non-commutative geometry'
-    year: 2001
-    coauthors: [manin-yuri, 'Matilde Marcolli']
-    primary_category: math.NT
-    sources: [arxiv]
-  - id: '0011197'
-    title: 'Theta functions, quantum tori and Heisenberg groups'
-    year: 2000
-    coauthors: [manin-yuri]
-    doi: '10.1023/a:1017909525397'
-    journal: 'Letters in Mathematical Physics'
-    primary_category: math.AG
-    sources: [arxiv]
-  - id: '0005144'
-    title: 'Moduli, Motives, Mirrors (Plenary talk at the 3rd ECM, Barcelona, July 10-14, 2000)'
-    year: 2000
-    coauthors: [manin-yuri]
-    primary_category: math.AG
-    sources: [arxiv]
-  - id: '9810132'
-    title: 'Weak Frobenius manifolds'
-    year: 1998
-    coauthors: [hertling]
-    doi: '10.1155/s1073792899000148'
-    journal: 'International Mathematics Research Notices'
-    primary_category: math.QA
-    sources: [arxiv]
-  - id: '9708024'
-    title: 'Relations between the correlators of the topological sigma-model coupled to gravity'
-    year: 1997
-    coauthors: [kontsevich, manin-yuri]
-    doi: '10.1007/s002200050426'
-    journal: 'Commun.Math.Phys. 196 (1998) 385-398'
-    primary_category: math.AG
-    sources: [arxiv]
-  - id: 'doi:10.4310/iccm.2014.v2.n1.a2'
-    title: 'Forgotten motives: The varieties of scientific experience'
-    year: 2014
-    coauthors: []
-    doi: '10.4310/iccm.2014.v2.n1.a2'
-    journal: 'Notices of the International Congress of Chinese Mathematicians'
-    sources: [crossref]
-    no_arxiv: true
-  - id: 'doi:10.1112/jlms.12217'
-    title: 'Higher structures, quantum groups and genus zero modular operad'
-    year: 2019
-    coauthors: []
-    doi: '10.1112/jlms.12217'
-    journal: 'Journal of the London Mathematical Society'
-    sources: [crossref]
-    no_arxiv: true
   - id: 'doi:10.4213/im9315'
     title: 'Rational points of algebraic varieties: a homotopical approach'
     year: 2023
@@ -420,6 +152,283 @@ publications:
     journal: 'Izvestiya: Mathematics'
     sources: [crossref]
     no_arxiv: true
+  - id: '2203.15855'
+    title: 'Supercycles, stable supermaps and SUSY Nori motives'
+    year: 2022
+    coauthors: ['Ugo Bruzzo', 'Daniel Hernandez Ruiperez']
+    journal: 'Algebraic Geometry and Physics 1 (2024) 1-57'
+    primary_category: math.AG
+    sources: [arxiv]
+  - id: '2202.10321'
+    title: 'Moduli spaces of SUSY curves and their operads'
+    year: 2022
+    coauthors: ['Enno Ke ler', 'Yingying Wu']
+    primary_category: math.AG
+    sources: [arxiv]
+  - id: '2112.15237'
+    title: 'Quantum Operads'
+    year: 2021
+    coauthors: ['Noemie Combe', 'Matilde Marcolli']
+    primary_category: math.QA
+    sources: [arxiv]
+  - id: '2101.00197'
+    title: 'Homotopy Spectra and Diophantine Equations'
+    year: 2021
+    coauthors: ['Matilde Marcolli']
+    primary_category: math.NT
+    sources: [arxiv]
+  - id: '2012.13814'
+    title: 'Birational maps and Nori motives'
+    year: 2020
+    coauthors: ['Noemie C. Combe', 'Matilde Marcolli']
+    primary_category: math.AG
+    sources: [arxiv]
+  - id: '2006.13663'
+    title: 'Dessins for Modular Operad and Grothendieck-Teichmuller Group'
+    year: 2020
+    coauthors: ['Noemie C. Combe', 'Matilde Marcolli']
+    primary_category: math.AG
+    sources: [arxiv]
+  - id: '1907.13545'
+    title: 'Quantum Statistical Mechanics of the Absolute Galois Group'
+    year: 2019
+    coauthors: ['Matilde Marcolli']
+    doi: '10.3842/sigma.2020.038'
+    journal: 'SIGMA 16 (2020), 038, 52 pages'
+    primary_category: math.AG
+    sources: [arxiv]
+  - id: '1901.10301'
+    title: 'Nori diagrams and persistent homology'
+    year: 2019
+    coauthors: ['Matilde Marcolli']
+    doi: '10.1007/s11786-019-00422-7'
+    journal: 'Mathematics in Computer Science'
+    primary_category: math.AG
+    sources: [arxiv]
+  - id: 'doi:10.1112/jlms.12217'
+    title: 'Higher structures, quantum groups and genus zero modular operad'
+    year: 2019
+    coauthors: []
+    doi: '10.1112/jlms.12217'
+    journal: 'Journal of the London Mathematical Society'
+    sources: [crossref]
+    no_arxiv: true
+  - id: '1901.00020'
+    title: 'Bost-Connes systems and F1-structures in Grothendieck rings, spectra, and Nori motives'
+    year: 2018
+    coauthors: ['Joshua F. Lieber', 'Matilde Marcolli']
+    primary_category: math.AG
+    sources: [arxiv]
+  - id: '1806.10801'
+    title: 'Homotopy types and geometries below Spec Z'
+    year: 2018
+    coauthors: ['Matilde Marcolli']
+    primary_category: math.AG
+    sources: [arxiv]
+  - id: '1701.01261'
+    title: 'Grothendieck-Verdier duality patterns in quantum algebra'
+    year: 2017
+    coauthors: []
+    doi: '10.1070/im8620'
+    primary_category: math.QA
+    sources: [arxiv]
+  - id: '1601.00096'
+    title: 'Modular forms of real weights and generalized Dedekind symbols'
+    year: 2016
+    coauthors: []
+    doi: '10.1007/s40687-018-0120-x'
+    journal: 'Research in the Mathematical Sciences'
+    primary_category: math.NT
+    sources: [arxiv]
+  - id: '1407.4969'
+    title: 'Local zeta factors and geometries under Spec Z'
+    year: 2014
+    coauthors: []
+    doi: '10.1070/im8392'
+    journal: 'Izvestiya Mathematics'
+    primary_category: math.AG
+    sources: [arxiv]
+  - id: 'doi:10.4310/iccm.2014.v2.n1.a2'
+    title: 'Forgotten motives: The varieties of scientific experience'
+    year: 2014
+    coauthors: []
+    doi: '10.4310/iccm.2014.v2.n1.a2'
+    journal: 'Notices of the International Congress of Chinese Mathematicians'
+    sources: [crossref]
+    no_arxiv: true
+  - id: '1312.5160'
+    title: 'Numbers as functions'
+    year: 2013
+    coauthors: []
+    doi: '10.1134/s2070046613040055'
+    journal: 'P-adic Numbers, Ultrametric Analysis and Applications, Vol. 5, no. 4, 2013, 313-325'
+    primary_category: math.NT
+    sources: [arxiv]
+  - id: '1307.3841'
+    title: 'Arithmetic Differential Equations of Painleve'' VI Type'
+    year: 2013
+    coauthors: ['Alexandru Buium']
+    doi: '10.1017/cbo9781316106877.010'
+    journal: 'Arithmetic and Geometry'
+    primary_category: math.NT
+    sources: [arxiv]
+  - id: '1302.6526'
+    title: 'Moduli Operad over F1'
+    year: 2013
+    coauthors: ['Matilde Marcolli']
+    primary_category: math.AG
+    sources: [arxiv]
+  - id: '1301.0078'
+    title: 'Non-commutative generalized Dedekind symbols'
+    year: 2013
+    coauthors: []
+    doi: '10.4310/pamq.2014.v10.n2.a3'
+    journal: 'Pure and Applied Mathematics Quarterly'
+    primary_category: math.NT
+    sources: [arxiv]
+  - id: '1107.4915'
+    title: 'Towards motivic quantum cohomology of $\bar{M}_{0,S}$'
+    year: 2011
+    coauthors: ['Maxim Smirnov']
+    primary_category: math.AG
+    sources: [arxiv]
+  - id: 'doi:10.1134/s0081543809010088'
+    title: 'An update on semisimple quantum cohomology and F-manifolds'
+    year: 2009
+    coauthors: ['Constantin Teleman']
+    doi: '10.1134/s0081543809010088'
+    journal: 'Proceedings of the Steklov Institute of Mathematics'
+    openalex_id: W2127469979
+    sources: [openalex]
+    no_arxiv: true
+  - id: '0908.3430'
+    title: 'Renormalization and Computation II: Time Cut-off and the Halting Problem'
+    year: 2009
+    coauthors: []
+    primary_category: math.QA
+    sources: [arxiv]
+  - id: '0904.4921'
+    title: 'Renormalization and computation I: motivation and background'
+    year: 2009
+    coauthors: []
+    primary_category: math.QA
+    sources: [arxiv]
+  - id: '0809.2716'
+    title: 'Quantum theta functions and Gabor frames for modulation spaces'
+    year: 2008
+    coauthors: ['Franz Luef']
+    doi: '10.1007/s11005-009-0306-7'
+    primary_category: math.QA
+    sources: [arxiv]
+  - id: '0809.1564'
+    title: 'Cyclotomy and analytic geometry over F_1'
+    year: 2008
+    coauthors: []
+    primary_category: math.AG
+    sources: [arxiv]
+  - id: '0703718'
+    title: 'Modular shadows and the Levy-Mellin infinity-adic transform'
+    year: 2007
+    coauthors: ['Matilde Marcolli']
+    primary_category: math.NT
+    sources: [arxiv]
+  - id: '0607580'
+    title: 'Stability Conditions, Wall-crossing and weighted Gromov-Witten Invariants'
+    year: 2006
+    coauthors: ['Arend Bayer']
+    journal: 'Mosc. Math. J., 2009, 9, 3-32'
+    primary_category: math.AG
+    sources: [arxiv]
+  - id: '0502016'
+    title: 'The notion of dimension in geometry and algebra'
+    year: 2005
+    coauthors: []
+    doi: '10.1090/s0273-0979-06-01081-0'
+    journal: 'Bulletin of the American Mathematical Society'
+    primary_category: math.AG
+    sources: [arxiv]
+  - id: '0402451'
+    title: 'F-manifolds with flat structure and Dubrovin''s duality'
+    year: 2004
+    coauthors: []
+    primary_category: math.DG
+    sources: [arxiv]
+  - id: '0207089'
+    title: 'Unfoldings of meromorphic connections and a construction of Frobenius manifolds'
+    year: 2002
+    coauthors: [hertling]
+    doi: '10.1007/978-3-322-80236-1_5'
+    journal: 'Aspects of mathematics. E'
+    primary_category: math.AG
+    sources: [arxiv]
+  - id: '0209244'
+    title: 'Georg Cantor and his heritage'
+    year: 2002
+    coauthors: []
+    primary_category: math.AG
+    sources: [arxiv]
+  - id: '0202109'
+    title: 'Real Multiplication and noncommutative geometry'
+    year: 2002
+    coauthors: []
+    primary_category: math.AG
+    sources: [arxiv]
+  - id: '0201036'
+    title: 'Holography principle and arithmetic of algebraic curves'
+    year: 2002
+    coauthors: ['Matilde Marcolli']
+    journal: 'Adv.Theor.Math.Phys. 5 (2002) 617-650'
+    primary_category: hep-th
+    sources: [arxiv]
+  - id: '0201005'
+    title: 'Von Zahlen und Figuren'
+    year: 2002
+    coauthors: []
+    primary_category: math.AG
+    sources: [arxiv]
+  - id: '0103164'
+    title: '(Semi)simple exercises in quantum cohomology'
+    year: 2001
+    coauthors: ['Arend Bayer']
+    journal: 'The Fano Conference, Univ. Torino, Turin, 2004, 143-173'
+    primary_category: math.AG
+    sources: [arxiv]
+  - id: '0102006'
+    title: 'Continued fractions, modular symbols, and non-commutative geometry'
+    year: 2001
+    coauthors: ['Matilde Marcolli']
+    primary_category: math.NT
+    sources: [arxiv]
+  - id: '0011197'
+    title: 'Theta functions, quantum tori and Heisenberg groups'
+    year: 2000
+    coauthors: []
+    doi: '10.1023/a:1017909525397'
+    journal: 'Letters in Mathematical Physics'
+    primary_category: math.AG
+    sources: [arxiv]
+  - id: '0005144'
+    title: 'Moduli, Motives, Mirrors (Plenary talk at the 3rd ECM, Barcelona, July 10-14, 2000)'
+    year: 2000
+    coauthors: []
+    primary_category: math.AG
+    sources: [arxiv]
+  - id: '9810132'
+    title: 'Weak Frobenius manifolds'
+    year: 1998
+    coauthors: [hertling]
+    doi: '10.1155/s1073792899000148'
+    journal: 'International Mathematics Research Notices'
+    primary_category: math.QA
+    sources: [arxiv]
+  - id: '9708024'
+    title: 'Relations between the correlators of the topological sigma-model coupled to gravity'
+    year: 1997
+    coauthors: [kontsevich]
+    doi: '10.1007/s002200050426'
+    journal: 'Commun.Math.Phys. 196 (1998) 385-398'
+    primary_category: math.AG
+    sources: [arxiv]
 sources:
 - label: Math Genealogy
   url: https://www.mathgenealogy.org/id.php?id=44134

@@ -180,7 +180,6 @@ publications:
     title: 'Brane quantization and SYZ mirror symmetry'
     year: 2026
     coauthors: [leung-naichung, li-qin, 'Yat-Hin Suen', 'Yutung Yau']
-    doi: '10.48550/arxiv.2604.26292'
     journal: 'ArXiv.org'
     primary_category: math.DG
     openalex_id: W7158891686
@@ -189,14 +188,12 @@ publications:
     title: 'Iwahori-Coulomb branches, stable envelopes, and quantum cohomology of cotangent bundles of flag varieties'
     year: 2026
     coauthors: ['Ki Fung Chan', 'Chi Hong Chow', 'Chin Hang Eddie Lam']
-    doi: '10.48550/arxiv.2601.19691'
     primary_category: math.AG
     sources: [arxiv]
   - id: '2511.16889'
     title: 'Berezin-Toeplitz quantization revisited'
     year: 2025
     coauthors: [leung-naichung, li-qin, 'Yutung Yau']
-    doi: '10.48550/arxiv.2511.16889'
     primary_category: math.DG
     openalex_id: W4416593930
     sources: [arxiv, openalex]
@@ -204,13 +201,12 @@ publications:
     title: 'Quantum cohomology, shift operators, and Coulomb branches'
     year: 2025
     coauthors: ['Ki Fung Chan', 'Chin Hang Eddie Lam']
-    doi: '10.48550/arxiv.2505.23340'
     primary_category: math.AG
     sources: [arxiv]
   - id: '2312.04239'
     title: 'A perturbative construction of primitive forms from log Landau-Ginzburg mirrors of toric manifolds'
     year: 2023
-    coauthors: ['Ziming Nikolas Ma', wen-hao]
+    coauthors: ['Ziming Nikolas Ma', wen-hao, ma-ziming-nikolas]
     doi: '10.1016/j.aim.2026.110867'
     journal: 'Adv. Math. 491 (2026), 110867, 47 pp'
     primary_category: math.AG
@@ -237,7 +233,6 @@ publications:
     title: 'From deformation theory to tropical geometry'
     year: 2022
     coauthors: []
-    doi: '10.48550/arxiv.2205.01394'
     journal: '"Proceedings of the International Consortium of Chinese Mathematicians 2019", Vol. 2, 1715-1734, Int. Press, Somerville, MA, 2024'
     primary_category: math.AG
     sources: [arxiv]
@@ -263,7 +258,7 @@ publications:
     title: 'Kapranov''s $L_\infty$ structures, Fedosov''s star products, and one-loop exact BV quantizations on Kähler manifolds'
     year: 2020
     coauthors: [leung-naichung, li-qin]
-    doi: '10.4310/CNTP.2022.v16.n2.a2'
+    doi: '10.4310/cntp.2022.v16.n2.a2'
     journal: 'Commun. Number Theory Phys. 16 (2022), no. 2, 299-351'
     primary_category: math.QA
     openalex_id: W3049715636
@@ -280,7 +275,7 @@ publications:
     title: 'A geometric construction of representations of the Berezin-Toeplitz quantization'
     year: 2020
     coauthors: [leung-naichung, li-qin]
-    doi: '10.4310/ATMP.2022.v26.n1.a1'
+    doi: '10.4310/atmp.2022.v26.n1.a1'
     journal: 'Adv. Theor. Math. Phys. 26 (2022), no. 1, 1-36'
     primary_category: math.QA
     openalex_id: W4307407143
@@ -306,7 +301,7 @@ publications:
     title: 'A Note on Disk Counting in Toric Orbifolds'
     year: 2019
     coauthors: ['Cheol-Hyun Cho', 'Siu-Cheong Lau', leung-naichung, 'Hsian-Hua Tseng']
-    doi: '10.3842/SIGMA.2020.055'
+    doi: '10.3842/sigma.2020.055'
     journal: 'SIGMA 16 (2020), 055, 15 pages'
     primary_category: math.SG
     openalex_id: W2911326041
@@ -324,7 +319,7 @@ publications:
     title: 'Geometric quantization via SYZ transforms'
     year: 2018
     coauthors: ['Yat-Hin Suen']
-    doi: '10.4310/ATMP.2020.v24.n1.a2'
+    doi: '10.4310/atmp.2020.v24.n1.a2'
     journal: 'Adv. Theor. Math. Phys. 24 (2020), no. 1, 25-66'
     primary_category: math.SG
     sources: [arxiv]
@@ -340,7 +335,7 @@ publications:
     title: 'Scattering diagrams from asymptotic analysis on Maurer-Cartan equations'
     year: 2018
     coauthors: [leung-naichung, 'Ziming Nikolas Ma']
-    doi: '10.4171/JEMS/1100'
+    doi: '10.4171/jems/1100'
     journal: 'J. Eur. Math. Soc. (JEMS) 24 (2022), no. 3, 773-849'
     primary_category: math.AG
     openalex_id: W2883040144
@@ -357,7 +352,6 @@ publications:
     title: 'Quasimap SYZ for toric Calabi-Yau manifolds'
     year: 2017
     coauthors: []
-    doi: '10.48550/arxiv.1704.01730'
     journal: '"Proceedings of the Seventh International Congress of Chinese Mathematicians. Vol. II", 317-333, Adv. Lect. Math. (ALM) 44, Int. Press, Somerville, MA, 2019'
     primary_category: math.SG
     sources: [arxiv]
@@ -373,14 +367,13 @@ publications:
     title: 'Lagrangian sections on mirrors of toric Calabi-Yau 3-folds'
     year: 2016
     coauthors: ['Daniel Pomerleano', 'Kazushi Ueda']
-    doi: '10.48550/arxiv.1602.07075'
     primary_category: math.SG
     sources: [arxiv]
   - id: '1601.06472'
     title: 'On the jumping phenomenon of $\dim_{\mathbb{C}}H^q(\mathcal{X}_t,\mathcal{E}_t)$'
     year: 2016
     coauthors: ['Yat-Hin Suen']
-    doi: '10.4310/AJM.2019.v23.n4.a7'
+    doi: '10.4310/ajm.2019.v23.n4.a7'
     journal: 'Asian J. Math. 23 (2019), no. 4, 681-702'
     primary_category: math.DG
     sources: [arxiv]
@@ -413,7 +406,6 @@ publications:
     title: 'SYZ mirror symmetry for toric varieties'
     year: 2014
     coauthors: []
-    doi: '10.48550/arxiv.1412.7231'
     journal: '"Handbook for Mirror Symmetry of Calabi-Yau and Fano Manifolds", 1-32, Adv. Lect. Math. (ALM) 47, Int. Press, Somerville, MA, 2020'
     primary_category: math.SG
     sources: [arxiv]
@@ -421,7 +413,6 @@ publications:
     title: 'The Strominger-Yau-Zaslow conjecture and its impact'
     year: 2014
     coauthors: []
-    doi: '10.48550/arxiv.1408.6062'
     journal: '"Selected Expository Works of Shing-Tung Yau with Commentary. Vol. II", 1183-1208, Adv. Lect. Math. (ALM) 29, Int. Press, Somerville, MA, 2014'
     primary_category: math.DG
     sources: [arxiv]
@@ -461,7 +452,7 @@ publications:
     title: 'Dual torus fibrations and homological mirror symmetry for A_n-singularities'
     year: 2012
     coauthors: ['Kazushi Ueda']
-    doi: '10.4310/CNTP.2013.v7.n2.a5'
+    doi: '10.4310/cntp.2013.v7.n2.a5'
     journal: 'Commun. Number Theory Phys. 7 (2013), no. 2, 361-396'
     primary_category: math.SG
     sources: [arxiv]
@@ -469,7 +460,7 @@ publications:
     title: 'Open Gromov-Witten invariants, mirror maps, and Seidel representations for toric manifolds'
     year: 2012
     coauthors: ['Siu-Cheong Lau', leung-naichung, 'Hsian-Hua Tseng']
-    doi: '10.1215/00127094-0000003X'
+    doi: '10.1215/00127094-0000003x'
     journal: 'Duke Math. J. 166 (2017), no. 8, 1405-1462'
     primary_category: math.SG
     openalex_id: W1670169102
@@ -503,7 +494,7 @@ publications:
     title: 'Open Gromov-Witten invariants and mirror maps for semi-Fano toric manifolds'
     year: 2011
     coauthors: ['Siu-Cheong Lau', leung-naichung, 'Hsian-Hua Tseng']
-    doi: '10.4310/PAMQ.2020.v16.n3.a11'
+    doi: '10.4310/pamq.2020.v16.n3.a11'
     journal: 'Pure Appl. Math. Q. 16 (2020), no. 3, 675-720'
     primary_category: math.SG
     sources: [arxiv]
@@ -528,7 +519,6 @@ publications:
     title: 'Matrix factorizations from SYZ transformations'
     year: 2010
     coauthors: [leung-naichung]
-    doi: '10.48550/arxiv.1006.3832'
     journal: '"Advances in Geometric Analysis", 203-224, Adv. Lect. Math. (ALM) 21, Int. Press, Somerville, MA, 2012'
     primary_category: math.SG
     openalex_id: W2147997520
@@ -545,7 +535,7 @@ publications:
     title: 'The Ooguri-Vafa metric, holomorphic discs and wall-crossing'
     year: 2009
     coauthors: []
-    doi: '10.4310/MRL.2010.v17.n3.a3'
+    doi: '10.4310/mrl.2010.v17.n3.a3'
     journal: 'Math. Res. Lett. 17 (2010), no. 3, 401-414'
     primary_category: math.SG
     openalex_id: W2104899722
@@ -587,8 +577,8 @@ publications:
     no_arxiv: true
 activity:
   total_papers: 49
-  published_count: 49
-  preprint_only_count: 0
+  published_count: 45
+  preprint_only_count: 4
   active_period: '2008-present'
   confidence: 'has-18-review-pending'
 external_ids:

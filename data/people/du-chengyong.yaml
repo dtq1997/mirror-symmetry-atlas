@@ -185,7 +185,6 @@ publications:
     title: 'Double ramification cycles with orbifold targets'
     year: 2020
     coauthors: ['Bohui Chen', 'Rui Wang']
-    doi: '10.48550/arxiv.2008.06484'
     sources: [arxiv]
   - id: '[待补充]'
     title: 'On Morse-Smale-Witten type cohomologies for orbifolds'
@@ -205,7 +204,6 @@ publications:
     title: 'Fuzzy vectors via convex bodies'
     year: 2019
     coauthors: ['Lili Shen']
-    doi: '10.48550/arxiv.1903.01607'
     sources: [arxiv]
   - id: '[待补充]'
     title: 'A new equivariant cohomology ring'
@@ -224,8 +222,7 @@ publications:
   - id: '1811.11506'
     title: 'Equivariant commutative stringy cohomology rings on almost complex manifolds'
     year: 2018
-    coauthors: ['Bohui Chen', li-ao]
-    doi: '10.48550/arxiv.1811.11506'
+    coauthors: ['Bohui Chen', 'Tiyao Li']
     sources: [arxiv]
   - id: '1712.05094'
     title: 'The groupoid structure of groupoid morphisms'
@@ -252,13 +249,13 @@ publications:
     title: 'Spark complexes on good effective orbifold atlases categorically'
     year: 2017
     coauthors: ['Lili Shen', 'Xiaojuan Zhao']
-    doi: '10.48550/arxiv.1708.07551'
     journal: 'Theory and applications of categories'
     sources: [arxiv]
   - id: '[待补充]'
     title: 'Lefschetz property of Chen-Ruan cohomology rings and $d\delta$-Lemma'
     year: 2016
-    coauthors: []
+    coauthors: ['Bohui Chen', 'Anmin Li']
+    journal: 'Sci. China Math. 57 (2014), 1121-1148'
     sources: [arxiv]
   - id: '[待补充]'
     title: 'Ruan cohomologies of the compactifications of resolved orbifold conifolds'
@@ -276,8 +273,8 @@ publications:
     sources: [arxiv]
 activity:
   total_papers: 22
-  published_count: 21
-  preprint_only_count: 1
+  published_count: 19
+  preprint_only_count: 3
   active_period: '2014-present'
   quality_source: 'openalex + ruirui-2026'
   t1_papers: 0

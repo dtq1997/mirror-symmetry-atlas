@@ -76,6 +76,11 @@ key_collaborators:
     topic: "BV operators of Gerstenhaber algebras on toric varieties"
     papers_count: 1
 publications:
+  - id: '2508.04069'
+    title: 'Deep estimates for higher eigenvalues of the poly-Laplacian'
+    year: 2025
+    coauthors: ['Zhengchao Ji']
+    primary_category: math.DG
   - id: '2104.12685'
     title: 'BV operators of the Gerstenhaber algebras of holomorphic polyvector fields on toric varieties'
     year: 2021
@@ -114,9 +119,9 @@ publications:
     journal: 'Journal of Algebra (2011)'
     primary_category: math-ph
 activity:
-  total_papers: 6
+  total_papers: 7
   published_count: 4
-  preprint_only_count: 2
+  preprint_only_count: 3
   active_period: '2010-present'
 external_ids: {}
 links:

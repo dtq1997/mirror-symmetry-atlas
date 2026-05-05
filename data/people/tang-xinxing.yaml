@@ -115,10 +115,18 @@ publications:
   - id: '2506.13194'
     title: 'Contact Term Algebras and Dijkgraaf''s Master Equation'
     year: 2025
-    coauthors: ['Zhengping Gui', 'Si Li']
+    coauthors: ['Zhengping Gui', si-li]
     doi: '10.1016/j.geomphys.2026.105768'
     journal: 'Journal of Geometry and Physics'
     primary_category: math.QA
+  - id: 'doi:10.4310/cag.250530010521'
+    title: 'Minimal path and acyclic model in the path complex'
+    year: 2025
+    coauthors: []
+    doi: '10.4310/cag.250530010521'
+    journal: 'Communications in Analysis and Geometry'
+    sources: [crossref]
+    no_arxiv: true
   - id: '2402.05682'
     title: 'The Cellular Homology of Digraphs'
     year: 2024
@@ -126,6 +134,14 @@ publications:
     doi: '10.4310/ajm.260406225435'
     journal: 'Asian Journal of Mathematics'
     primary_category: math.CO
+  - id: 'doi:10.4310/iccm.241025171552'
+    title: 'The Riemann-Hilbert Problem'
+    year: 2024
+    coauthors: []
+    doi: '10.4310/iccm.241025171552'
+    journal: 'Notices of the International Consortium of Chinese Mathematicians'
+    sources: [crossref]
+    no_arxiv: true
   - id: '2208.14063'
     title: 'Minimal Path and Acyclic Models in the Path Complex'
     year: 2022
@@ -139,33 +155,18 @@ publications:
     journal: 'J. Geom. Phys. 216 (2025) 105545'
     primary_category: math-ph
   - id: '1910.05665'
-    title: 'Dispersionless Integrable Hierarchy via Kodaira-Spencer Gravity'
+    title: 'Dispersionless integrable hierarchy via Kodaira-Spencer gravity'
     year: 2019
-    coauthors: ['Weiqiang He', 'Si Li', 'Philsang Yoo']
+    coauthors: [si-li, 'Philsang Yoo', he-weiqiang]
     doi: '10.1007/s00220-020-03809-x'
     journal: 'Commun. Math. Phys. 379 (2020), 327-352'
     primary_category: math-ph
+    sources: [arxiv]
   - id: '1710.03915'
     title: '$tt^*$ Geometry, Singularity Torsion and Anomaly Formulas'
     year: 2017
     coauthors: []
     primary_category: math-ph
-  - id: 'doi:10.4310/iccm.241025171552'
-    title: 'The Riemann-Hilbert Problem'
-    year: 2024
-    coauthors: []
-    doi: '10.4310/iccm.241025171552'
-    journal: 'Notices of the International Consortium of Chinese Mathematicians'
-    sources: [crossref]
-    no_arxiv: true
-  - id: 'doi:10.4310/cag.250530010521'
-    title: 'Minimal path and acyclic model in the path complex'
-    year: 2025
-    coauthors: []
-    doi: '10.4310/cag.250530010521'
-    journal: 'Communications in Analysis and Geometry'
-    sources: [crossref]
-    no_arxiv: true
 activity:
   total_papers: 9
   published_count: 6

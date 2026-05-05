@@ -109,7 +109,6 @@ publications:
     title: 'Fiberwise Gromov-Witten theory, quantum spectra of flag bundles, and prime factorization of integers'
     year: 2025
     coauthors: []
-    doi: '10.48550/arxiv.2510.05500'
     primary_category: math.AG
     sources: [arxiv]
   - id: '2506.18033'
@@ -122,7 +121,6 @@ publications:
     title: 'On the Satake correspondence for the equivariant quantum differential equations and qKZ difference equations of Grassmannians'
     year: 2024
     coauthors: ['Alexander Varchenko']
-    doi: '10.48550/arxiv.2409.09657'
     journal: 'Communications in Mathematical Physics'
     primary_category: math.AG
     openalex_id: W4414771399
@@ -211,7 +209,7 @@ publications:
     title: 'On the universality of integrable deformations of solutions of degenerate Riemann-Hilbert-Birkhoff problems'
     year: 2021
     coauthors: []
-    doi: '10.1142/S0129055X24500417'
+    doi: '10.1142/s0129055x24500417'
     journal: 'Reviews in Mathematical Physics, 2024'
     primary_category: math.AG
     sources: [arxiv]
@@ -243,7 +241,7 @@ publications:
     title: 'Cyclic stratum of Frobenius manifolds, Borel-Laplace $(\boldsymbol α,\boldsymbol β)$-multitransforms, and integral representations of solutions of Quantum Differential Equations'
     year: 2020
     coauthors: []
-    doi: '10.4171/MEMS/2'
+    doi: '10.4171/mems/2'
     journal: 'Memoirs of the EMS, Vol. II, 2022'
     primary_category: math.AG
     sources: [arxiv]
@@ -259,7 +257,6 @@ publications:
     title: 'Equivariant quantum differential equation and $qKZ$ equations for a projective space: Stokes bases as exceptional collections, Stokes matrices as Gram matrices, and B-Theorem'
     year: 2019
     coauthors: ['Alexander Varchenko']
-    doi: '10.48550/arxiv.1909.06582'
     primary_category: math.AG
     sources: [arxiv]
   - id: '1811.09235'
@@ -284,7 +281,7 @@ publications:
     title: 'Local Moduli of Semisimple Frobenius Coalescent Structures'
     year: 2017
     coauthors: [dubrovin, guzzetti]
-    doi: '10.3842/SIGMA.2020.040'
+    doi: '10.3842/sigma.2020.040'
     journal: 'SIGMA 16 (2020), 040, 105 pages'
     primary_category: math.DG
     openalex_id: W2776628391
@@ -324,8 +321,8 @@ publications:
     sources: [arxiv, openalex]
 activity:
   total_papers: 26
-  published_count: 24
-  preprint_only_count: 2
+  published_count: 22
+  preprint_only_count: 4
   h_index: 7
   active_period: '2015-present'
   peak_period: '2018-present'

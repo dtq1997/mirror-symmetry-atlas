@@ -18,10 +18,12 @@ function PersonDetail({ person }: { person: Person }) {
       {/* Header */}
       <div>
         <h2 className="text-xl font-semibold text-[#e8e8f0]">
-          {person.name.en}
+          {person.name.zh && !person.name.zh.startsWith("[") && !person.name.zh.startsWith("待")
+            ? person.name.zh
+            : person.name.en}
         </h2>
-        {person.name.zh && (
-          <p className="text-[#8888a0] text-sm">{person.name.zh}</p>
+        {person.name.zh && !person.name.zh.startsWith("[") && !person.name.zh.startsWith("待") && (
+          <p className="text-[#8888a0] text-sm">{person.name.en}</p>
         )}
         {person.born && (
           <p className="text-[#8888a0] text-xs mt-1">

@@ -89,8 +89,7 @@ publications:
   - id: '2501.05622'
     title: 'Poincaré polynomials of moduli spaces of one-dimensional sheaves on the projective plane'
     year: 2025
-    coauthors: [guo-shuai, 'Miguel Moreira']
-    doi: '10.48550/arxiv.2501.05622'
+    coauthors: ['with an appendix by Miguel Moreira', guo-shuai, 'Miguel Moreira']
     primary_category: math.AG
     openalex_id: W4406316996
     sources: [arxiv, openalex]
@@ -98,7 +97,6 @@ publications:
     title: 'All-genus WDVV recursion, quivers, and BPS invariants'
     year: 2023
     coauthors: ['Pierrick Bousseau']
-    doi: '10.48550/arxiv.2303.00503'
     primary_category: math.AG
     openalex_id: W4323030280
     sources: [arxiv, openalex]
@@ -112,7 +110,7 @@ publications:
     openalex_id: W4387924736
     sources: [arxiv, openalex]
   - id: '2001.05347'
-    title: 'Holomorphic anomaly equation for (P^2, E) and the Nekrasov-Shatashvili limit of local P^2'
+    title: 'Holomorphic anomaly equation for $(\mathbb{P}^2,E)$ and the Nekrasov-Shatashvili limit of local $\mathbb{P}^2$'
     year: 2020
     coauthors: ['Pierrick Bousseau', 'Honglu Fan', guo-shuai]
     doi: '10.1017/fmp.2021.3'
@@ -157,7 +155,6 @@ publications:
     title: 'Chamber structure for some equivariant relative Gromov-Witten invariants of P^1 in genus 0'
     year: 2017
     coauthors: []
-    doi: '10.48550/arxiv.1705.06018'
     journal: 'Acta Mathematica Sinica English Series'
     primary_category: math.AG
     openalex_id: W2615502428
@@ -166,14 +163,13 @@ publications:
     title: 'Effect of a crossing change on crossing number'
     year: 2011
     coauthors: ['Shuting Shao', 'Shan Liu', 'Fengchun Lei']
-    doi: '10.48550/arxiv.1103.4695'
     primary_category: math.GT
     openalex_id: W1493392983
     sources: [arxiv, openalex]
 activity:
   total_papers: 10
-  published_count: 10
-  preprint_only_count: 0
+  published_count: 7
+  preprint_only_count: 3
   active_period: '2017-present'
 external_ids:
   orcid: "0000-0002-0210-4220"

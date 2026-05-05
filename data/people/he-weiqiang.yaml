@@ -112,14 +112,12 @@ publications:
     title: 'Cluster algebras and quantum cohomology rings: A-type'
     year: 2025
     coauthors: ['Yingchun Zhang']
-    doi: '10.48550/arxiv.2501.00394'
     primary_category: math.AG
     sources: [arxiv]
   - id: '2302.13249'
     title: 'Quantization of the minimal nilpotent orbits and the quantum Hikita conjecture'
     year: 2023
     coauthors: ['Xiaojun Chen', 'Sirui Yu']
-    doi: '10.48550/arxiv.2302.13249'
     journal: 'Representation Theory of the American Mathematical Society'
     primary_category: math.RT
     sources: [arxiv]
@@ -127,7 +125,6 @@ publications:
     title: 'Semisimple FJRW theory of polynomials with two variables'
     year: 2023
     coauthors: ['Amanda Francis', 'Yefeng Shen']
-    doi: '10.48550/arxiv.2302.10129'
     primary_category: math.AG
     sources: [arxiv]
   - id: '2302.02402'
@@ -143,7 +140,6 @@ publications:
     title: 'Virasoro constraints in quantum singularity theories'
     year: 2021
     coauthors: ['Yefeng Shen']
-    doi: '10.48550/arxiv.2103.00313'
     journal: 'Journal of Geometry and Physics'
     primary_category: math.AG
     openalex_id: W4416265990
@@ -171,13 +167,13 @@ publications:
     year: 2019
     coauthors: [si-li, tang-xinxing, 'Philsang Yoo']
     doi: '10.1007/s00220-020-03809-x'
+    journal: 'Commun. Math. Phys. 379 (2020), 327-352'
     primary_category: math-ph
     sources: [arxiv]
   - id: '1904.09426'
     title: 'Unfolding of orbifold LG B-models: a case study'
     year: 2019
     coauthors: [si-li, 'Yifan Li']
-    doi: '10.48550/arxiv.1904.09426'
     primary_category: math-ph
     openalex_id: W2939953175
     sources: [arxiv, openalex]
@@ -216,11 +212,15 @@ publications:
     primary_category: math.AG
     openalex_id: W3213938361
     sources: [arxiv, openalex]
+  - id: '1503.01757'
+    title: 'Landau-Ginzburg Mirror Symmetry Conjecture'
+    year: 2015
+    coauthors: ['Yefeng Shen', 'Rachel Webb']
+    primary_category: math.AG
   - id: '1402.4221'
     title: 'Blow-up formulae of high genus Gromov-Witten invariants in dimension six'
     year: 2014
-    coauthors: [hu-jianxun, 'Hua-Zhong Ke', 'Xiaoxia Qi']
-    doi: '10.48550/arxiv.1402.4221'
+    coauthors: [hu-jianxun, 'Hua-Zhong Ke', 'Xiaoxia Qi', ke-huazhong]
     primary_category: math.AG
     openalex_id: W4294150699
     sources: [arxiv, openalex]
@@ -234,14 +234,20 @@ publications:
     title: 'Orbifold Gromov-Witten invariants of weighted blow-up at smooth points'
     year: 2013
     coauthors: [hu-jianxun]
-    doi: '10.48550/arxiv.1308.3634'
     primary_category: math.SG
     openalex_id: W2950035906
     sources: [arxiv, openalex]
+  - id: '1308.3634'
+    title: 'Orbifold Gromov-Witten invariants of weighted blow-up at smooth points'
+    year: 2013
+    coauthors: []
+    doi: '10.1007/s10114-015-3479-2'
+    journal: 'Acta Mathematica Sinica, English Series'
+    primary_category: math.SG
 activity:
-  total_papers: 16
-  published_count: 15
-  preprint_only_count: 1
+  total_papers: 18
+  published_count: 11
+  preprint_only_count: 7
   active_period: '2013-present'
   confidence: 'has-3-review-pending'
 external_ids:

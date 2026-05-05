@@ -64,15 +64,19 @@ key_collaborators:
     topic: "Julia sets, self-affine tiles"
     papers_count: 2
 publications:
+  - id: '2408.07376'
+    title: 'Integrable hierarchy for homogeneous realization of the toroidal Lie algebra'
+    year: 2024
+    coauthors: []
   - id: '2209.03773'
     title: 'A model for planar compacta and rational Julia sets'
     year: 2022
     coauthors: ['Jun Luo', 'Xiaoting Yao']
     primary_category: math.DS
 activity:
-  total_papers: 1
+  total_papers: 2
   published_count: 0
-  preprint_only_count: 1
+  preprint_only_count: 2
   active_period: '2017-present'
   notes: 'arXiv/OpenAlex 上 Yi Yang 重名严重, 未做 profile 合并'
 external_ids: {}

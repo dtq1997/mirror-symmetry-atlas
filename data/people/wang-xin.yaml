@@ -133,25 +133,6 @@ publications:
     doi: '10.1007/s00220-024-04931-w'
     journal: 'Comm. Mathematical Physics, Volume 405, article number 47, (2024)'
     primary_category: math.AG
-  - id: '1704.02011'
-    title: 'Topological recursion relations from Pixton''s formula'
-    year: 2017
-    coauthors: ['Emily Clader', 'Felix Janda', 'Dmitry Zakharov']
-    doi: '10.1307/mmj/20195795'
-    journal: 'Michigan Math. J. 73(2): 227-241 (May 2023)'
-    primary_category: math.AG
-  - id: '1402.3854'
-    title: 'Genus-2 G-function for P^1 orbifolds'
-    year: 2014
-    coauthors: ['Xiaobo Liu']
-    primary_category: math.DG
-  - id: '1310.2101'
-    title: 'Conditions for the vanishing of the genus-2 G-function'
-    year: 2013
-    coauthors: ['Xiaobo Liu']
-    doi: '10.1090/s0002-9947-2015-06540-4'
-    journal: 'Transactions of the American Mathematical Society'
-    primary_category: math.DG
   - id: '2412.05287'
     title: 'Hodge integrals and lambda_g conjecture with target varieties'
     year: 2024
@@ -162,15 +143,45 @@ publications:
     coauthors: []
     doi: '10.1007/s10114-021-0502-7'
     journal: 'Acta Mathematica Sinica, English Series'
+  - id: '1704.02011'
+    title: 'Topological recursion relations from Pixton''s formula'
+    year: 2017
+    coauthors: ['Emily Clader', 'Felix Janda', 'Dmitry Zakharov']
+    doi: '10.1307/mmj/20195795'
+    journal: 'Michigan Math. J. 73(2): 227-241 (May 2023)'
+    primary_category: math.AG
   - id: '1608.08854'
     title: 'A genus-4 topological recursion relation for Gromov-Witten invariants'
     year: 2016
     coauthors: []
     doi: '10.1007/s11425-017-9258-7'
     journal: 'Science China Mathematics'
+  - id: '1402.3854'
+    title: 'Genus-2 G-function for $\mathbb{P}^{1}$ orbifolds'
+    year: 2015
+    coauthors: []
+    doi: '10.1016/j.aim.2015.01.011'
+    journal: 'Advances in Mathematics'
+    primary_category: math.DG
+    openalex_id: W2962961800
+    sources: [arxiv, openalex]
+  - id: '1402.3854'
+    title: 'Genus-2 G-function for P^1 orbifolds'
+    year: 2014
+    coauthors: [liu-xiaobo]
+    primary_category: math.DG
+  - id: '1310.2101'
+    title: 'Conditions for the vanishing of the genus-2 G-function'
+    year: 2013
+    coauthors: [liu-xiaobo]
+    doi: '10.1090/s0002-9947-2015-06540-4'
+    journal: 'Transactions of the American Mathematical Society'
+    primary_category: math.DG
+    openalex_id: W2964049262
+    sources: [arxiv, openalex]
 activity:
-  total_papers: 9
-  published_count: 7
+  total_papers: 10
+  published_count: 8
   preprint_only_count: 2
   active_period: '2013-present'
   peak_period: '2024-present'

@@ -60,32 +60,40 @@ publications:
   - id: '2502.13558'
     title: 'On the quantum cohomology of blow-ups of four-dimensional quadrics'
     year: 2025
-    coauthors: [hu-jianxun, li-changzheng, 'Lei Song']
-    doi: '10.48550/arxiv.2502.13558'
+    coauthors: [li-changzheng, 'Lei Song', hu-jianxun]
     journal: 'Acta Math. Sin. (Engl. Ser.) 40 (2024), no. 1, 313-328'
     primary_category: math.AG
     sources: [arxiv]
   - id: '2502.13545'
     title: 'Mirror symmetry for certain blowups of Grassmannians'
     year: 2025
-    coauthors: [hu-jianxun, li-changzheng, 'Lei Song']
-    doi: '10.48550/arxiv.2502.13545'
+    coauthors: [li-changzheng, 'Lei Song', hu-jianxun]
     primary_category: math.AG
     sources: [arxiv]
+  - id: '2507.12333'
+    title: 'Towards small quantum Chern character'
+    year: 2025
+    coauthors: [song-jiayu, li-changzheng]
+    primary_category: math.AG
   - id: '2405.16987'
     title: 'On Galkin''s Lower Bound Conjecture'
     year: 2024
-    coauthors: [hu-jianxun, li-changzheng, 'Zhitong Su']
-    doi: '10.48550/arxiv.2405.16987'
+    coauthors: [li-changzheng, 'Zhitong Su', hu-jianxun]
     primary_category: math.AG
     sources: [arxiv]
   - id: '2405.16979'
     title: 'Revisiting Gamma conjecture I: counterexamples and modifications'
     year: 2024
-    coauthors: ['Sergey Galkin', hu-jianxun, 'Hiroshi Iritani', li-changzheng, 'Zhitong Su']
-    doi: '10.48550/arxiv.2405.16979'
+    coauthors: ['Sergey Galkin', 'Hiroshi Iritani', li-changzheng, 'Zhitong Su', hu-jianxun]
     primary_category: math.AG
     sources: [arxiv]
+  - id: '2103.15143'
+    title: 'Gamma conjecture II for quadrics'
+    year: 2021
+    coauthors: []
+    doi: '10.1007/s00208-022-02477-7'
+    journal: 'Mathematische Annalen'
+    primary_category: math.AG
   - id: 'doi:10.1016/j.aim.2021.107797'
     title: 'Gamma conjecture I for del Pezzo surfaces'
     year: 2021
@@ -94,10 +102,23 @@ publications:
     journal: 'Advances in Mathematics'
     sources: [crossref]
     no_arxiv: true
+  - id: '1901.01748'
+    title: 'Gamma conjecture I for del Pezzo surfaces'
+    year: 2019
+    coauthors: [li-changzheng, 'Tuo Yang', hu-jianxun, 'Hua-Zhong Ke']
+    journal: 'Adv. Math. (2021)'
+    primary_category: math.AG
+  - id: '1402.4221'
+    title: 'Blow-up formulae of high genus Gromov-Witten invariants in dimension six'
+    year: 2014
+    coauthors: [hu-jianxun, 'Hua-Zhong Ke', 'Xiaoxia Qi', he-weiqiang]
+    primary_category: math.AG
+    openalex_id: W4294150699
+    sources: [arxiv, openalex]
 activity:
-  total_papers: 5
-  published_count: 5
-  preprint_only_count: 0
+  total_papers: 9
+  published_count: 4
+  preprint_only_count: 5
   active_period: '2015-present'
 external_ids:
   openalex: A5069945007

@@ -116,14 +116,12 @@ publications:
     title: 'Quantization of the Momentum Map via $\mathfrak{g}$-adapted Formalities'
     year: 2025
     coauthors: ['Chiara Esposito', 'Jonas Schnitzer', 'Boris Tsygan']
-    doi: '10.48550/arxiv.2502.18295'
     primary_category: math.QA
     sources: [arxiv]
   - id: '2310.13094'
     title: 'A secondary index for non-Fredholm operators associated with quantum walks'
     year: 2023
     coauthors: ['Toshikazu Natsume']
-    doi: '10.48550/arxiv.2310.13094'
     sources: [arxiv]
   - id: '2305.02254'
     title: 'Finiteness of metrics on state spaces'
@@ -137,7 +135,6 @@ publications:
     title: 'Exotic cyclic cohomology classes and Lipschitz algebras'
     year: 2022
     coauthors: ['Magnus Goffeng']
-    doi: '10.48550/arxiv.2204.00361'
     journal: 'Annals of K-Theory'
     openalex_id: W4380574661
     sources: [arxiv, openalex]
@@ -145,7 +142,7 @@ publications:
     title: 'Projective representation theory for compact quantum groups and the quantum Baum-Connes assembly map'
     year: 2021
     coauthors: ['Kenny De Commer', 'Rubén Martos']
-    doi: '10.4171/JNCG/596'
+    doi: '10.4171/jncg/596'
     journal: 'J. Noncommut. Geom. (2024)'
     primary_category: math.OA
     sources: [arxiv]
@@ -153,7 +150,6 @@ publications:
     title: 'A higher Kac-Moody extension for two-dimensional gauge groups'
     year: 2021
     coauthors: ['Jens Kaad', 'Jesse Wolfson']
-    doi: '10.48550/arxiv.2110.01649'
     sources: [arxiv]
   - id: 'doi:10.4171/owr/2020/17'
     title: 'Non-Commutative Geometry and Cyclic Homology'
@@ -194,7 +190,7 @@ publications:
     title: 'Quantization of Hamiltonian coactions via twist'
     year: 2018
     coauthors: ['Pierre Bieliavsky', 'Chiara Esposito']
-    doi: '10.4310/JSG.2020.v18.n2.a2'
+    doi: '10.4310/jsg.2020.v18.n2.a2'
     journal: 'J. Sympl. Geom. Volume 18 (2020) Number 2'
     primary_category: math.QA
     sources: [arxiv]
@@ -202,7 +198,7 @@ publications:
     title: 'Equivariant Algebraic Index Theorem'
     year: 2017
     coauthors: ['Alexander Gorokhovsky', 'Niek de Kleijn']
-    doi: '10.1017/S1474748019000380'
+    doi: '10.1017/s1474748019000380'
     journal: 'J. Inst. Math. Jussieu 20 (2021) 929-955'
     primary_category: math.KT
     sources: [arxiv]
@@ -210,13 +206,12 @@ publications:
     title: 'The orbit method for the Baum-Connes Conjecture for algebraic groups over local function fields'
     year: 2017
     coauthors: ['Siegfried Echterhoff', 'Kang Li']
-    doi: '10.48550/arxiv.1704.08548'
     sources: [arxiv]
   - id: '1510.01361'
     title: 'On quasi-classical limits of DQ-algebroids'
     year: 2015
     coauthors: ['Paul Bressler', 'Alexander Gorokhovsky', 'Boris Tsygan']
-    doi: '10.1112/S0010437X16007855'
+    doi: '10.1112/s0010437x16007855'
     journal: 'Compositio Math. 153 (2017) 41-67'
     primary_category: math.QA
     sources: [arxiv]
@@ -340,7 +335,6 @@ publications:
     title: 'Formality for algebroid stacks'
     year: 2009
     coauthors: ['Paul Bressler', 'Alexander Gorokhovsky', 'Boris Tsygan']
-    doi: '10.48550/arxiv.0903.1841'
     primary_category: math.QA
     sources: [arxiv]
   - id: '0902.4191'
@@ -389,7 +383,6 @@ publications:
     title: 'On Spectral Triples in Quantum Gravity II'
     year: 2008
     coauthors: ['Johannes Aastrup', 'Jesper M. Grimstrup']
-    doi: '10.48550/arxiv.0802.1784'
     journal: 'J.Noncommut.Geom.3:47-81,2009'
     primary_category: hep-th
     sources: [arxiv]
@@ -414,14 +407,12 @@ publications:
     title: 'Index Theory for Boundary Value Problems via Continuous Fields of C*-algebras'
     year: 2008
     coauthors: ['Johannes Aastrup', 'Elmar Schrohe']
-    doi: '10.48550/arxiv.0812.0554'
     openalex_id: W2032459103
     sources: [openalex]
   - id: '0712.1472'
     title: 'Classification of Connections on Higher-Dimensional Non-Commutative Tori'
     year: 2007
     coauthors: ['Rolf Dyre Svegstrup']
-    doi: '10.48550/arxiv.0712.1472'
     primary_category: math.OA
     sources: [arxiv]
   - id: 'doi:10.1016/j.aim.2007.02.002'
@@ -437,7 +428,6 @@ publications:
     title: 'Chern character for twisted complexes'
     year: 2007
     coauthors: ['Paul Bressler', 'Alexander Gorokhovsky', 'Boris Tsygan']
-    doi: '10.48550/arxiv.0710.0643'
     openalex_id: W2949958891
     sources: [openalex]
   - id: 'doi:10.1016/j.top.2005.07.001'
@@ -453,7 +443,6 @@ publications:
     title: 'A Continuous Field of C*-algebras and the Tangent Groupoid for Manifolds with Boundary'
     year: 2005
     coauthors: ['Johannes Aastrup', 'Elmar Schrohe']
-    doi: '10.48550/arxiv.math/0507317'
     openalex_id: W2953251298
     sources: [openalex]
     no_arxiv: true
@@ -556,7 +545,6 @@ publications:
     title: 'Fukaya Type Categories for Associative Algebras'
     year: 1998
     coauthors: ['Boris Tsygan']
-    doi: '10.48550/arxiv.math/9803140'
     journal: 'Deformation Theory and Symplectic Geometry, Mathematical Physics Studies, vol. 20,Kluwer Acad. Publishers, 1997, p. 285-301'
     primary_category: math.QA
     openalex_id: W1624923717
@@ -616,8 +604,8 @@ publications:
     no_arxiv: true
 activity:
   total_papers: 61
-  published_count: 61
-  preprint_only_count: 0
+  published_count: 52
+  preprint_only_count: 9
   active_period: '1987-present'
   phd_students: 16
   academic_descendants: 22
