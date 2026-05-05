@@ -146,8 +146,8 @@ key_collaborators:
     topic: "Remodeling conjecture, toric CY 3-orbifolds"
     papers_count: 6
 activity:
-  total_papers: 59
-  published_count: 51
+  total_papers: 60
+  published_count: 52
   preprint_only_count: 8
   active_period: '2002-present'
   confidence: 'has-9-review-pending'
@@ -638,6 +638,14 @@ publications:
     journal: 'Adv.Theor.Math.Phys. 5 (2002) 1-49 and Geom. Topol. Monogr. 8 (2006) 1-47'
     primary_category: math.AG
     sources: [arxiv]
+  - id: 'doi:10.4310/cjm.2019.v7.n3.a3'
+    title: 'Mixed-$\textrm{Spin-P}$ fields of Fermat polynomials'
+    year: 2019
+    coauthors: []
+    doi: '10.4310/cjm.2019.v7.n3.a3'
+    journal: 'Cambridge Journal of Mathematics'
+    sources: [crossref]
+    no_arxiv: true
 sources:
   - label: "Wikipedia"
     url: "https://en.wikipedia.org/wiki/Chiu-Chu_Melissa_Liu"

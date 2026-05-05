@@ -200,12 +200,29 @@ export function getAllConnections(): Connection[] {
         seenInPub.add(slug);
         const key = [p.slug, slug].sort().join("|");
         const bucket = pairPapers.get(key) ?? { published: [], preprint: [] };
-        const list = isPub ? bucket.published : bucket.preprint;
-        // Dedup by paper id within the pair
-        if (!list.find((x) => x.id === pub.id)) {
-          list.push({ id: pub.id, title: pub.title, year: pub.year,
-                      doi: pub.doi, journal: pub.journal,
-                      primary_category: pub.primary_category });
+        // Dedup ACROSS both buckets by id, AND prefer the published version
+        // (the one with a journal/doi) when both yaml files have the same paper
+        // but only one side recorded the journal.
+        const existingPub = bucket.published.findIndex((x) => x.id === pub.id);
+        const existingPre = bucket.preprint.findIndex((x) => x.id === pub.id);
+        if (isPub && existingPre >= 0) {
+          // Promote: remove from preprint, add to published
+          bucket.preprint.splice(existingPre, 1);
+          bucket.published.push({ id: pub.id, title: pub.title, year: pub.year,
+                                  doi: pub.doi, journal: pub.journal,
+                                  primary_category: pub.primary_category });
+        } else if (isPub && existingPub < 0) {
+          bucket.published.push({ id: pub.id, title: pub.title, year: pub.year,
+                                  doi: pub.doi, journal: pub.journal,
+                                  primary_category: pub.primary_category });
+        } else if (!isPub && existingPub < 0 && existingPre < 0) {
+          bucket.preprint.push({ id: pub.id, title: pub.title, year: pub.year,
+                                  primary_category: pub.primary_category });
+        } else if (isPub && existingPub >= 0) {
+          // Already in published, but maybe this side has richer journal info
+          const cur = bucket.published[existingPub];
+          if (!cur.journal && pub.journal) cur.journal = pub.journal;
+          if (!cur.doi && pub.doi) cur.doi = pub.doi;
         }
         pairPapers.set(key, bucket);
       }

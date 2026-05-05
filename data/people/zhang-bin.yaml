@@ -215,7 +215,7 @@ publications:
   - id: '0606076'
     title: 'Renormalization of multiple zeta values'
     year: 2006
-    coauthors: ['Li Guo']
+    coauthors: ['Li Guo', guo-li]
     journal: 'J. Algebra, Vol 319 (2008), 3770-3809'
     primary_category: math.NT
   - id: '0605534'
@@ -249,14 +249,10 @@ publications:
     year: 1997
     coauthors: ['Jean-Luc Brylinski']
     primary_category: math.DG
-  - id: 'math/0606076'
-    title: 'Renormalization of multiple zeta values'
-    year: 2006
-    coauthors: [guo-li]
 activity:
-  total_papers: 31
+  total_papers: 30
   published_count: 16
-  preprint_only_count: 15
+  preprint_only_count: 14
   active_period: '2006-present'
   peak_period: '2013-2023'
 external_ids: {}

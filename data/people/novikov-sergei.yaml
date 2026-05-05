@@ -66,8 +66,8 @@ students:
 - dubrovin
 key_collaborators: []
 activity:
-  total_papers: 0
-  published_count: 0
+  total_papers: 2
+  published_count: 2
   preprint_only_count: 0
   h_index: 28
   active_period: '1960-2024'
@@ -92,6 +92,22 @@ personal_notes: |
   父 Pyotr Novikov (群论字问题)，母 Lyudmila Keldysh、舅 Mstislav Keldysh 均数学家。
   Dubrovin 的导师。Maryland 长期兼职。2024 年去世。
 publications:
+  - id: 'doi:10.33764/2618-981x-2019-9-3-14'
+    title: 'MATHEMATICAL MODEL OF FUNCTIONING OF MODERN TELECOMMUNICATION SYSTEMS IN THE CONDITIONS OF EXTERNAL DELIBERATE DESTRUCTIVE INFLUENCES'
+    year: 2019
+    coauthors: []
+    doi: '10.33764/2618-981x-2019-9-3-14'
+    journal: 'Interexpo GEO-Siberia'
+    sources: [crossref]
+    no_arxiv: true
+  - id: 'doi:10.4213/rm9859'
+    title: 'Топологическая интегрируемость, классический и квантовый хаос и теория динамических систем в физике конденсированного состояния Topological integrability, classical and quantum chaos, and the theory of dynamical systems in the physics of condensed matter'
+    year: 2019
+    coauthors: []
+    doi: '10.4213/rm9859'
+    journal: 'Успехи математических наук Uspekhi Matematicheskikh Nauk'
+    sources: [crossref]
+    no_arxiv: true
 sources:
 - label: Math Genealogy
   url: https://www.mathgenealogy.org/id.php?id=44135

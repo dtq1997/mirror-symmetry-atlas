@@ -209,6 +209,8 @@ publications:
     title: 'Refined floor diagrams relative to a conic and Caporaso-Harris type formula'
     year: 2025
     coauthors: ['Yanqiao Ding']
+    doi: '10.1112/jlms.70514'
+    journal: 'Journal of the London Mathematical Society'
     primary_category: math.AG
   - id: '2502.13558'
     title: 'On the quantum cohomology of blow-ups of four-dimensional quadrics'
@@ -225,6 +227,8 @@ publications:
     title: 'Reduction properties of the KP-mKP hierarchy'
     year: 2025
     coauthors: ['Lumin Geng', 'Chao-Zhong Wu']
+    doi: '10.1016/j.geomphys.2025.105526'
+    journal: 'Journal of Geometry and Physics'
     primary_category: nlin.SI
   - id: '2405.16987'
     title: 'On Galkin''s Lower Bound Conjecture'
@@ -257,11 +261,15 @@ publications:
     title: 'Welschinger invariants of Blow-ups of symplectic 4-manifolds'
     year: 2016
     coauthors: ['Yanqiao Ding']
+    doi: '10.1216/rmj-2018-48-4-1105'
+    journal: 'Rocky Mountain Journal of Mathematics'
     primary_category: math.SG
   - id: '1504.07111'
     title: 'The Weinstein Conjecture in Product of Symplectic Manifolds'
     year: 2015
     coauthors: ['Yanqiao Ding']
+    doi: '10.1016/s0252-9602(16)30067-4'
+    journal: 'Acta Mathematica Scientia'
     primary_category: math.SG
   - id: '1406.2472'
     title: 'The Gromov-Witten invariants of the Hilbert schemes of points on surfaces with $p_g > 0$'
@@ -277,11 +285,15 @@ publications:
     title: 'Orbifold Gromov-Witten invariants of weighted blow-up at smooth points'
     year: 2013
     coauthors: [he-weiqiang]
+    doi: '10.1007/s10114-015-3479-2'
+    journal: 'Acta Mathematica Sinica, English Series'
     primary_category: math.SG
   - id: '1110.0953'
     title: 'Delocalized Chern character for stringy orbifold K-theory'
     year: 2011
     coauthors: ['Bai-Ling Wang']
+    doi: '10.1090/s0002-9947-2013-05834-5'
+    journal: 'Transactions of the American Mathematical Society'
     primary_category: math.AT
   - id: '1108.5892'
     title: 'Local Donaldson-Thomas invariants of Blowups of surfaces'
@@ -314,11 +326,15 @@ publications:
     title: 'Mukai Flop and Ruan Cohomology'
     year: 2003
     coauthors: ['Wanchuan Zhang']
+    doi: '10.1007/s00208-004-0561-y'
+    journal: 'Mathematische Annalen'
     primary_category: math.AG
   - id: '9810081'
     title: 'Gromov-Witten Invariants of Blow-ups Along Points and Curces'
     year: 1998
     coauthors: []
+    doi: '10.1007/s002090050495'
+    journal: 'Mathematische Zeitschrift'
     primary_category: math.AG
   - id: '9612184'
     title: 'Topological quantum field theory and crossing number'
@@ -335,8 +351,8 @@ publications:
     no_arxiv: true
 activity:
   total_papers: 24
-  published_count: 6
-  preprint_only_count: 18
+  published_count: 14
+  preprint_only_count: 10
   active_period: '1995-present'
 external_ids: {}
 links:

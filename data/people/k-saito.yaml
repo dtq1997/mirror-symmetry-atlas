@@ -74,9 +74,9 @@ advisor: brieskorn
 students: []
 key_collaborators: []
 activity:
-  total_papers: 50
-  published_count: 49
-  preprint_only_count: 1
+  total_papers: 49
+  published_count: 39
+  preprint_only_count: 10
   h_index: 25
   active_period: '1971-present'
   phd_students: 7
@@ -287,15 +287,15 @@ publications:
     openalex_id: W2005051890
     sources: [openalex]
     no_arxiv: true
-  - id: 'doi:10.1016/j.aim.2008.11.001'
+  - id: '0708.0210'
     title: 'Triangulated categories of matrix factorizations for regular systems of weights with $ε = − 1$'
     year: 2008
     coauthors: ['Hiroshige Kajiura', 'Atsushi Takahashi']
     doi: '10.1016/j.aim.2008.11.001'
     journal: 'Advances in Mathematics'
+    primary_category: math.AG
     openalex_id: W2962894525
-    sources: [openalex]
-    no_arxiv: true
+    sources: [arxiv, openalex]
   - id: 'doi:10.3792/pjaa.84.179'
     title: 'Growth functions associated with Artin monoids of finite type'
     year: 2008
@@ -314,13 +314,6 @@ publications:
     openalex_id: W4254057900
     sources: [openalex]
     no_arxiv: true
-  - id: '0708.0210'
-    title: 'Triangulated categories of matrix factorizations for regular systems of weights with $ε=-1$'
-    year: 2007
-    coauthors: ['Hiroshige Kajiura', 'Atsushi Takahashi']
-    doi: '10.48550/arxiv.0708.0210'
-    primary_category: math.AG
-    sources: [arxiv]
   - id: '0602367'
     title: 'Eta-product $η(7τ)^7/η(τ)$'
     year: 2006

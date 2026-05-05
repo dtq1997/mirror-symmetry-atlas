@@ -337,6 +337,8 @@ publications:
     title: 'Equivariant Pieri rules for isotropic Grassmannians'
     year: 2014
     coauthors: ['Vijay Ravikumar']
+    doi: '10.1007/s00208-015-1266-0'
+    journal: 'Mathematische Annalen'
     primary_category: math.AG
   - id: '1405.4530'
     title: 'Mirror symmetry for exceptional unimodular singularities'
@@ -391,10 +393,18 @@ publications:
     coauthors: ['Naichung Conan Leung']
     journal: 'Math. Res. Lett. 15 (2008), no.4, 683-698'
     primary_category: math.DG
+  - id: 'doi:10.4310/ajm.2015.v19.n2.a1'
+    title: 'Functorial relationships between $QH* (G/B)$ and $QH* (G/P)$, II'
+    year: 2015
+    coauthors: []
+    doi: '10.4310/ajm.2015.v19.n2.a1'
+    journal: 'Asian Journal of Mathematics'
+    sources: [crossref]
+    no_arxiv: true
 activity:
-  total_papers: 36
-  published_count: 22
-  preprint_only_count: 14
+  total_papers: 37
+  published_count: 24
+  preprint_only_count: 13
   active_period: '2008-present'
 external_ids:
   mathgenealogy: "155889"

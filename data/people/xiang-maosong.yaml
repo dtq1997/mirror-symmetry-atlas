@@ -128,11 +128,6 @@ publications:
     primary_category: math.DG
     openalex_id: W4417032814
     sources: [arxiv, openalex]
-  - id: '2511.10082'
-    title: 'Infinitesimal deformations of Lie algebroid pairs'
-    year: 2025
-    coauthors: [ni-dadi, chen-zhuo, hu-chuangqiang]
-    sources: [arxiv]
   - id: '2412.09039'
     title: 'From smooth dynamical twists to twistors of quantum groupoids'
     year: 2024
@@ -240,9 +235,9 @@ publications:
     openalex_id: W2512825295
     sources: [arxiv, openalex]
 activity:
-  total_papers: 14
-  published_count: 13
-  preprint_only_count: 1
+  total_papers: 13
+  published_count: 11
+  preprint_only_count: 2
   active_period: '2016-present'
   quality_source: 'openalex + ruirui-2026'
   t1_papers: 0

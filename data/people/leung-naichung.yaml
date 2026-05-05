@@ -125,6 +125,14 @@ publications:
     primary_category: math.DG
     openalex_id: W7158891686
     sources: [arxiv, openalex]
+  - id: 'doi:10.4310/pamq.260122023941'
+    title: 'Geometric quantization and quantum moment maps on coadjoint orbits and K&amp;auml;hler-Einstein manifolds'
+    year: 2026
+    coauthors: []
+    doi: '10.4310/pamq.260122023941'
+    journal: 'Pure and Applied Mathematics Quarterly'
+    sources: [crossref]
+    no_arxiv: true
   - id: '2511.16889'
     title: 'Berezin-Toeplitz quantization revisited'
     year: 2025
@@ -268,6 +276,14 @@ publications:
     primary_category: math.AG
     openalex_id: W2883040144
     sources: [arxiv, openalex]
+  - id: 'doi:10.1093/imrn/rny198'
+    title: 'Energy Bound for Kapustin–Witten Solutions on S3 × ℝ+'
+    year: 2018
+    coauthors: []
+    doi: '10.1093/imrn/rny198'
+    journal: 'International Mathematics Research Notices'
+    sources: [crossref]
+    no_arxiv: true
   - id: '1506.04625'
     title: 'Twin Lagrangian fibrations in mirror symmetry'
     year: 2015
@@ -523,11 +539,6 @@ publications:
     primary_category: math.DG
     openalex_id: W1804902553
     sources: [arxiv, openalex]
-  - id: 'math/0009235'
-    title: 'Mirror symmetry without corrections'
-    year: 2000
-    coauthors: []
-    sources: [arxiv]
   - id: 'doi:10.1090/s0894-0347-00-00326-x'
     title: 'The enumerative geometry of 𝐾3 surfaces and modular forms'
     year: 2000
@@ -565,9 +576,9 @@ publications:
     sources: [openalex]
     no_arxiv: true
 activity:
-  total_papers: 53
-  published_count: 52
-  preprint_only_count: 1
+  total_papers: 54
+  published_count: 43
+  preprint_only_count: 11
   active_period: '1993-present'
   confidence: 'has-7-review-pending'
   notes: 'ICCM Best Paper Award 多项'

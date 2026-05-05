@@ -86,9 +86,17 @@ publications:
     doi: '10.48550/arxiv.2405.16979'
     primary_category: math.AG
     sources: [arxiv]
+  - id: 'doi:10.1016/j.aim.2021.107797'
+    title: 'Gamma conjecture I for del Pezzo surfaces'
+    year: 2021
+    coauthors: []
+    doi: '10.1016/j.aim.2021.107797'
+    journal: 'Advances in Mathematics'
+    sources: [crossref]
+    no_arxiv: true
 activity:
-  total_papers: 4
-  published_count: 4
+  total_papers: 5
+  published_count: 5
   preprint_only_count: 0
   active_period: '2015-present'
 external_ids:

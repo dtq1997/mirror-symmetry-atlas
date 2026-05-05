@@ -72,6 +72,8 @@ publications:
     title: 'Berezin-Toeplitz quantization for eigenstates of the Bochner-Laplacian on symplectic manifolds'
     year: 2017
     coauthors: ['Louis Ioos', 'Xiaonan Ma', 'George Marinescu']
+    doi: '10.1007/s12220-017-9977-y'
+    journal: 'The Journal of Geometric Analysis'
     primary_category: math.DG
   - id: '1703.05276'
     title: 'Donaldson''s Q-operators for symplectic manifolds'
@@ -91,6 +93,8 @@ publications:
     title: 'The second coefficient of the asymptotic expansion of the Bergman kernel of the Hodge-Dolbeault operator'
     year: 2012
     coauthors: []
+    doi: '10.1007/s12220-013-9412-y'
+    journal: 'The Journal of Geometric Analysis'
     primary_category: math.DG
   - id: '1205.4665'
     title: 'A Thom-Smale-Witten theorem on manifolds with boundary'
@@ -104,8 +108,8 @@ publications:
     primary_category: math.DG
 activity:
   total_papers: 8
-  published_count: 2
-  preprint_only_count: 6
+  published_count: 4
+  preprint_only_count: 4
   active_period: '2012-present'
   notes: '仅数学几何方向论文；arXiv 上另有一位 Wen Lu 做 SDE/BSDE，不是同一人'
 external_ids: {}

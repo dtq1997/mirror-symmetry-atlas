@@ -108,6 +108,8 @@ publications:
     title: 'Schrödinger operators with non-integer power-law potentials and Lie-Rinehart algebras'
     year: 2024
     coauthors: ['Ivan Beschastnyi', 'Catarina Carvalho', 'Victor Nistor']
+    doi: '10.1007/s13324-026-01193-8'
+    journal: 'Analysis and Mathematical Physics'
     primary_category: math.DG
   - id: '2412.09039'
     title: 'From smooth dynamical twists to twistors of quantum groupoids'
@@ -124,6 +126,8 @@ publications:
     title: 'Analysis on noncompact manifolds and Index Theory: Fredholm conditions and Pseudodifferential operators'
     year: 2023
     coauthors: ['Ivan Beschastnyi', 'Catarina Carvalho', 'Victor Nistor']
+    doi: '10.1007/978-3-031-48579-4_1'
+    journal: 'Trends in Mathematics Extended Abstracts 2021/2022'
     primary_category: math.AP
   - id: '2304.13345'
     title: 'Deformation and $K$-theoretic Index Formulae on Boundary Groupoids'
@@ -141,11 +145,15 @@ publications:
     title: 'Cohomology and deformations of crossed homomorphisms between Lie-Yamaguti algebras'
     year: 2023
     coauthors: ['Jia Zhao', xu-xu]
+    doi: '10.1142/s1005386725000471'
+    journal: 'Algebra Colloquium'
     primary_category: math.RA
   - id: '2302.11145'
     title: 'Para-Kähler and pseudo-Kähler structures on Lie-Yamaguti algebras'
     year: 2023
     coauthors: ['Jia Zhao', 'Yuqin Feng']
+    doi: '10.1142/s0219498825502044'
+    journal: 'Journal of Algebra and Its Applications'
     primary_category: math.RA
   - id: '2210.17066'
     title: 'The classical Lie-Yamaguti Yang-Baxter equation and Lie-Yamaguti bialgebras'
@@ -169,6 +177,8 @@ publications:
     title: 'Cohomology and deformations of Relative Rota-Baxter operators on Lie-Yamaguti algebras'
     year: 2022
     coauthors: ['Jia Zhao']
+    doi: '10.3390/math12010166'
+    journal: 'Mathematics'
     primary_category: math.RA
   - id: '2110.11623'
     title: 'Dg Loday-Pirashvili modules over Lie algebras'
@@ -188,11 +198,15 @@ publications:
     title: 'On Lie Bialgebroid Crossed Modules'
     year: 2019
     coauthors: ['Honglei Lang', 'Yanbin Yin']
+    doi: '10.1142/s0129167x2150021x'
+    journal: 'International Journal of Mathematics'
     primary_category: math.QA
   - id: '1703.07953'
     title: 'Fredholm conditions on non-compact manifolds: theory and examples'
     year: 2017
     coauthors: ['Catarina Carvalho', 'Victor Nistor']
+    doi: '10.1007/978-3-319-72449-2_4'
+    journal: 'Operator Theory: Advances and Applications Operator Theory, Operator Algebras, and Matrix Theory'
     primary_category: math.OA
   - id: '1811.07699'
     title: 'Gluing action groupoids: Fredholm conditions and layer potentials'
@@ -206,10 +220,12 @@ publications:
     title: 'Layer potentials C*-algebras of domains with conical points'
     year: 2011
     coauthors: ['Catarina Carvalho']
+    doi: '10.2478/s11533-012-0066-y'
+    journal: 'Central European Journal of Mathematics'
 activity:
   total_papers: 21
-  published_count: 6
-  preprint_only_count: 15
+  published_count: 14
+  preprint_only_count: 7
   active_period: '2011-present'
 external_ids: {}
 links:

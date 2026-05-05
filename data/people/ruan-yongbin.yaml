@@ -769,9 +769,17 @@ publications:
     openalex_id: W1507226134
     sources: [openalex]
     no_arxiv: true
+  - id: 'doi:10.1360/ssm-2024-0116'
+    title: 'Some research progress on symplectic birational geometry'
+    year: 2024
+    coauthors: []
+    doi: '10.1360/ssm-2024-0116'
+    journal: 'SCIENTIA SINICA Mathematica'
+    sources: [crossref]
+    no_arxiv: true
 activity:
-  total_papers: 72
-  published_count: 72
+  total_papers: 73
+  published_count: 73
   preprint_only_count: 0
   active_period: '1991-present'
   confidence: 'has-46-review-pending'

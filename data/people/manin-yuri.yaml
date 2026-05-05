@@ -111,9 +111,9 @@ advisor: shafarevich
 students: []
 key_collaborators: []
 activity:
-  total_papers: 37
-  published_count: 11
-  preprint_only_count: 26
+  total_papers: 41
+  published_count: 22
+  preprint_only_count: 19
   h_index: 46
   active_period: '1960-2023'
   phd_students: 54
@@ -185,6 +185,8 @@ publications:
     title: 'Nori diagrams and persistent homology'
     year: 2019
     coauthors: [manin-yuri, 'Matilde Marcolli']
+    doi: '10.1007/s11786-019-00422-7'
+    journal: 'Mathematics in Computer Science'
     primary_category: math.AG
     sources: [arxiv]
   - id: '1901.00020'
@@ -210,6 +212,8 @@ publications:
     title: 'Modular forms of real weights and generalized Dedekind symbols'
     year: 2016
     coauthors: [manin-yuri]
+    doi: '10.1007/s40687-018-0120-x'
+    journal: 'Research in the Mathematical Sciences'
     primary_category: math.NT
     sources: [arxiv]
   - id: '1407.4969'
@@ -232,6 +236,8 @@ publications:
     title: 'Arithmetic Differential Equations of Painleve'' VI Type'
     year: 2013
     coauthors: ['Alexandru Buium', manin-yuri]
+    doi: '10.1017/cbo9781316106877.010'
+    journal: 'Arithmetic and Geometry'
     primary_category: math.NT
     sources: [arxiv]
   - id: '1302.6526'
@@ -244,6 +250,8 @@ publications:
     title: 'Non-commutative generalized Dedekind symbols'
     year: 2013
     coauthors: [manin-yuri]
+    doi: '10.4310/pamq.2014.v10.n2.a3'
+    journal: 'Pure and Applied Mathematics Quarterly'
     primary_category: math.NT
     sources: [arxiv]
   - id: '1107.4915'
@@ -294,6 +302,8 @@ publications:
     title: 'The notion of dimension in geometry and algebra'
     year: 2005
     coauthors: [manin-yuri]
+    doi: '10.1090/s0273-0979-06-01081-0'
+    journal: 'Bulletin of the American Mathematical Society'
     primary_category: math.AG
     sources: [arxiv]
   - id: '0402451'
@@ -312,6 +322,8 @@ publications:
     title: 'Unfoldings of meromorphic connections and a construction of Frobenius manifolds'
     year: 2002
     coauthors: [hertling]
+    doi: '10.1007/978-3-322-80236-1_5'
+    journal: 'Aspects of Mathematics Frobenius Manifolds'
     primary_category: math.AG
     sources: [arxiv]
   - id: '0202109'
@@ -350,6 +362,8 @@ publications:
     title: 'Theta functions, quantum tori and Heisenberg groups'
     year: 2000
     coauthors: [manin-yuri]
+    doi: '10.1023/a:1017909525397'
+    journal: 'Letters in Mathematical Physics'
     primary_category: math.AG
     sources: [arxiv]
   - id: '0005144'
@@ -374,6 +388,38 @@ publications:
     journal: 'Commun.Math.Phys. 196 (1998) 385-398'
     primary_category: math.AG
     sources: [arxiv]
+  - id: 'doi:10.4310/iccm.2014.v2.n1.a2'
+    title: 'Forgotten motives: The varieties of scientific experience'
+    year: 2014
+    coauthors: []
+    doi: '10.4310/iccm.2014.v2.n1.a2'
+    journal: 'Notices of the International Congress of Chinese Mathematicians'
+    sources: [crossref]
+    no_arxiv: true
+  - id: 'doi:10.1112/jlms.12217'
+    title: 'Higher structures, quantum groups and genus zero modular operad'
+    year: 2019
+    coauthors: []
+    doi: '10.1112/jlms.12217'
+    journal: 'Journal of the London Mathematical Society'
+    sources: [crossref]
+    no_arxiv: true
+  - id: 'doi:10.4213/im9315'
+    title: 'Rational points of algebraic varieties: a homotopical approach'
+    year: 2023
+    coauthors: []
+    doi: '10.4213/im9315'
+    journal: 'Известия Российской академии наук. Серия математическая Izvestiya Rossiiskoi Akademii Nauk. Seriya Matematicheskaya'
+    sources: [crossref]
+    no_arxiv: true
+  - id: 'doi:10.4213/im9315e'
+    title: 'Rational points of algebraic varieties: a homotopical approach'
+    year: 2023
+    coauthors: []
+    doi: '10.4213/im9315e'
+    journal: 'Izvestiya: Mathematics'
+    sources: [crossref]
+    no_arxiv: true
 sources:
 - label: Math Genealogy
   url: https://www.mathgenealogy.org/id.php?id=44134

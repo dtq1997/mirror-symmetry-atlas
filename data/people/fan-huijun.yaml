@@ -248,7 +248,7 @@ publications:
   - id: '0409434'
     title: 'Geometry and analysis of spin equations'
     year: 2004
-    coauthors: ['Tyler J. Jarvis', ruan-yongbin]
+    coauthors: ['Tyler J. Jarvis', ruan-yongbin, 'Yongbin Ruan']
     primary_category: math.DG
   - id: '0312018'
     title: 'Conley Index Theory and Novikov-Morse Theory'
@@ -267,34 +267,10 @@ publications:
     year: 2000
     coauthors: ['Juergen Jost']
     primary_category: math.DS
-  - id: 'math/0505575'
-    title: 'Martin points on open manifolds of non-positive curvature'
-    year: 2005
-    coauthors: ['Jianguo Cao', 'Francois Ledrappier']
-    doi: '10.1090/s0002-9947-07-04102-5'
-    journal: 'Transactions of the American Mathematical Society'
-  - id: 'math/0409434'
-    title: 'Geometry and analysis of spin equations'
-    year: 2004
-    coauthors: ['Tyler J. Jarvis', 'Yongbin Ruan']
-  - id: 'math/0312018'
-    title: 'Conley Index Theory and Novikov-Morse Theory'
-    year: 2003
-    coauthors: ['Juergen Jost']
-    doi: '10.4310/pamq.2005.v1.n4.a10'
-    journal: 'Pure and Applied Mathematics Quarterly'
-  - id: 'math/0106234'
-    title: 'Harmonic Hopf Constructions Between Spheres II'
-    year: 2001
-    coauthors: ['Weiyue Ding', 'Jiayu Li']
-  - id: 'math/0010295'
-    title: 'Novikov-Morse theory for dynamical systems'
-    year: 2000
-    coauthors: ['Juergen Jost']
 activity:
-  total_papers: 22
-  published_count: 7
-  preprint_only_count: 15
+  total_papers: 17
+  published_count: 5
+  preprint_only_count: 12
   active_period: '2000-present'
 external_ids:
   mathgenealogy: "240326"
