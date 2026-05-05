@@ -144,7 +144,7 @@ export default async function PersonPage({
               href={`/people/${person.advisor}`}
               className="text-[#f59e0b] hover:text-[#fbbf24] transition-colors"
             >
-              {person.advisor}
+              {nameOf(person.advisor)}
             </Link>
           </div>
         )}
@@ -160,7 +160,7 @@ export default async function PersonPage({
                   href={`/people/${s}`}
                   className="text-sm text-[#f59e0b] hover:text-[#fbbf24] transition-colors"
                 >
-                  {s}
+                  {nameOf(s)}
                 </Link>
               ))}
             </div>
@@ -412,7 +412,7 @@ export default async function PersonPage({
                         href={`/people/${m.source}`}
                         className="text-sm text-[#f59e0b] hover:text-[#fbbf24] transition-colors truncate"
                       >
-                        {m.source}
+                        {nameOf(m.source)}
                       </Link>
                       <div className="flex items-center gap-1 shrink-0">
                         <span className="text-xs text-[#a8a29e] font-mono">
@@ -458,7 +458,7 @@ export default async function PersonPage({
                         href={`/people/${m.target}`}
                         className="text-sm text-[#f59e0b] hover:text-[#fbbf24] transition-colors truncate"
                       >
-                        {m.target}
+                        {nameOf(m.target)}
                       </Link>
                       <div className="flex items-center gap-1 shrink-0">
                         <span className="text-xs text-[#a8a29e] font-mono">
