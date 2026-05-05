@@ -294,8 +294,9 @@ activity:
 external_ids:
   mathgenealogy: "240326"
 links:
-  pku_page: "https://www.math.pku.edu.cn/teachers/fanhj/"
-  researchgate: "https://www.researchgate.net/profile/Huijun-Fan"
+  pku_page: 'https://www.math.pku.edu.cn/teachers/fanhj/'
+  researchgate: 'https://www.researchgate.net/profile/Huijun-Fan'
+  homepage: 'https://www.math.pku.edu.cn/teachers/fanhj/index.html'
 personal_notes: |
   武汉大学数学与统计学院院长(2024.11 起)、弘毅讲席教授。北京大学教授(仍保留)。
   FJRW 理论的"F"——与 Tyler Jarvis、Yongbin Ruan 共同创立量子奇点理论 (Fan-Jarvis-Ruan-Witten)，
@@ -305,15 +306,24 @@ personal_notes: |
   研究方向：FJRW 理论、Landau-Ginzburg 模型、镜像对称、GLSM、奇点理论；早期工作涉及
   调和映射、Novikov-Morse 理论、Conley index 理论。2024 年 11 月全职加盟武大，同时兼任华科大
   数学与交叉学科研究所学术委员会委员。
+  
+  现职：武汉大学数学与统计学院院长（2024-11 起，弘毅讲席教授）；北大数学科学学院教授（2010-，仍兼）；中俄数学中心副主任
+  学历：1991 华中科技大学学士 → 1994 吉林大学硕士 → 1998 北大博士；2000–02 中科院数学院博士后；2002–04 莱比锡 MPI 访问学者
+  重要奖项：2013 国家杰青；2016 国家自然科学奖二等奖（"奇点量子化理论研究"）；2017 万人计划领军人才；新世纪百千万人才；国务院特殊津贴；中国数学会 2021 年会大会报告人；FJRW 论文 2013 发表于 Annals
+  趣闻：2024-11-18 武大举行高层次人才聘任仪式（与杨彤同批），全职加盟引发媒体关注；任 *Sci. China Math.* / *Communications Math. Research* 等多本期刊编委
 sources:
-  - label: "杨彤、范辉军 2 名顶尖学者全职加盟武汉大学 (ScienceNet)"
-    url: "https://news.sciencenet.cn/htmlnews/2024/11/534316.shtm"
-  - label: "Math Genealogy (advisor unknown)"
-    url: "https://www.genealogy.math.ndsu.nodak.edu/id.php?id=240326"
-  - label: "Three PKU Professors listed in the 2017 National Talents Projects"
-    url: "https://english.pku.edu.cn/news_events/news/focus/6526.html"
-  - label: "范辉军百度百科"
-    url: "https://baike.baidu.com/item/%E8%8C%83%E8%BE%89%E5%86%9B/4781323"
+  - label: '杨彤、范辉军 2 名顶尖学者全职加盟武汉大学 (ScienceNet)'
+    url: 'https://news.sciencenet.cn/htmlnews/2024/11/534316.shtm'
+  - label: 'Math Genealogy (advisor unknown)'
+    url: 'https://www.genealogy.math.ndsu.nodak.edu/id.php?id=240326'
+  - label: 'Three PKU Professors listed in the 2017 National Talents Projects'
+    url: 'https://english.pku.edu.cn/news_events/news/focus/6526.html'
+  - label: '范辉军百度百科'
+    url: 'https://baike.baidu.com/item/%E8%8C%83%E8%BE%89%E5%86%9B/4781323'
+  - label: '信息源'
+    url: 'https://arxiv.org/abs/0712.4021'
+  - label: '信息源'
+    url: 'https://www.math.pku.edu.cn/en/research/125.html'
 tags:
   - wuhan
   - pku

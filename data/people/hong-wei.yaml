@@ -125,9 +125,9 @@ activity:
   active_period: '2010-present'
 external_ids: {}
 links:
-  homepage: "https://maths.whu.edu.cn/info/4091/132711.htm"
-  email: "hong_w@whu.edu.cn"
-  email_alt: "hongweimath@gmail.com"
+  homepage: 'https://maths.whu.edu.cn/info/4091/132711.htm'
+  email: 'hong_w@whu.edu.cn'
+  email_alt: 'hongweimath@gmail.com'
 personal_notes: |
   武汉大学数学与统计学院基础数学系讲师。研究方向：辛几何与泊松几何。
   Penn State 博士(2013)，导师 Ping Xu (徐平)，PhD 学位论文 'Some problems in Poisson geometry'。
@@ -137,10 +137,13 @@ personal_notes: |
   varieties 上全纯 polyvector fields 的 BV/Gerstenhaber 代数结构。
   与徐晓濛组(Stokes phenomenon、quantum groups) 在 Poisson/Lie 代数结构上有潜在交集。
   2026 HUST 数学物理与几何研讨会武大参会学者之一。
+  
+  现职：苏州大学数学科学学院 [待验证 — Google Scholar 同名为 Eastern Institute of Tech 力学;数学侧需直接查苏大主页]
+  研究：泊松几何、Lie 代数胚 [待验证]
 sources:
-  - label: "武汉大学数学与统计学院 - 洪伟"
-    url: "https://maths.whu.edu.cn/info/4091/132711.htm"
-  - label: "Penn State Math PhD Graduates (Wei Hong, 2013)"
-    url: "https://math.psu.edu/people/9"
+  - label: '武汉大学数学与统计学院 - 洪伟'
+    url: 'https://maths.whu.edu.cn/info/4091/132711.htm'
+  - label: 'Penn State Math PhD Graduates (Wei Hong, 2013)'
+    url: 'https://math.psu.edu/people/9'
 tags:
   - wuhan

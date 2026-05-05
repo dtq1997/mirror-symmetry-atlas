@@ -155,13 +155,19 @@ external_ids:
   mathgenealogy: "69488"
   openalex: A5050554374
 links:
-  homepage: "https://www.math.columbia.edu/~ccliu/"
+  homepage: 'https://www.math.columbia.edu/~ccliu/'
 personal_notes: |
   1974.12.15 出生于台湾。台大 1996 → Harvard PhD 2002 (Yau)。
   Harvard Society of Fellows → Northwestern → Columbia (2008 tenure, 2012 full)。
   曾任 MSRI Chern Professor。AMS Fellow 2012 首届。
   与方博汉 (11 篇)、宗正宇 (6 篇) 形成 toric CY / remodeling conjecture 核心团队。
   Remodeling Conjecture (BKMP) 的主要推动者之一。
+  
+  现职：Columbia University 数学系教授
+  学历：哈佛大学博士 (2002, 导师丘成桐) [待验证 advisor]
+  研究：Topological Vertex 数学理论 (Li-Liu-Liu-Zhou 2004 经典); Remodeling Conjecture (BKMP); Eynard-Orantin topological recursion; open/closed Gromov-Witten correspondence
+  趣闻：1974.12.15 生, 台湾出身; 与 Jun Li, Kefeng Liu, Jian Zhou 合作的 topological vertex 数学化论文是开放 GW 的奠基性工作之一
+  媒体/社交：YouTube 上有其在 IAS 的 String Theory 系列讲座 (2024 "A-model: Topological String Theory")
 publications:
   - id: '2504.15696'
     title: 'Remodeling Conjecture with Descendants'
@@ -645,10 +651,10 @@ publications:
     primary_category: math.AG
     sources: [arxiv]
 sources:
-  - label: "Wikipedia"
-    url: "https://en.wikipedia.org/wiki/Chiu-Chu_Melissa_Liu"
-  - label: "Columbia homepage"
-    url: "https://www.math.columbia.edu/~ccliu/"
-  - label: "Math Genealogy (id=69488)"
-    url: "https://www.mathgenealogy.org/id.php?id=69488"
+  - label: 'Wikipedia'
+    url: 'https://en.wikipedia.org/wiki/Chiu-Chu_Melissa_Liu'
+  - label: 'Columbia homepage'
+    url: 'https://www.math.columbia.edu/~ccliu/'
+  - label: 'Math Genealogy (id=69488)'
+    url: 'https://www.mathgenealogy.org/id.php?id=69488'
 tags: []

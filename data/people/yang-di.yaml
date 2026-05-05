@@ -532,7 +532,8 @@ activity:
   active_period: '2013-present'
   peak_period: '2018-present'
 external_ids: {}
-links: {}
+links:
+  homepage: 'http://staff.ustc.edu.cn/~diyang/'
 personal_notes: |
   张友金博士 → Dubrovin 博后 → Zagier 博后 → USTC 教授，学术轨迹横跨三大学派。
   被低估的关键桥梁：11 篇与 Dubrovin 合作（数量仅次于 Zhang-Youjin 的 15 篇），
@@ -543,11 +544,15 @@ personal_notes: |
   - "Geometry and arithmetic of integrable hierarchies of KdV type" (with Dubrovin, Zagier)
   - "Hodge integrals and tau-symmetric integrable hierarchies" (with Dubrovin, Liu, Zhang)
   2026 HUST 会议报告: Uniform large genus asymptotics for BGW and Witten numbers
+  
+  现职：USTC 数学系教授 (2018.09-)
+  学历：清华博士 (2008-2013, 导师张友金) → SISSA + MPIM 博后 (2013-2018, 合作导师 Dubrovin、Zagier)
+  研究：KdV tau 函数、Hodge 积分、Frobenius 流形、Dubrovin-Frobenius minicourse (IASM 2024)
 sources:
-  - label: "USTC faculty page"
-    url: "https://faculty.ustc.edu.cn/yangdi/en/index.htm"
-  - label: "arXiv author search"
-    url: "https://arxiv.org/search/?searchtype=author&query=Di+Yang"
+  - label: 'USTC faculty page'
+    url: 'https://faculty.ustc.edu.cn/yangdi/en/index.htm'
+  - label: 'arXiv author search'
+    url: 'https://arxiv.org/search/?searchtype=author&query=Di+Yang'
 tags:
   - ustc
   - bridge-node

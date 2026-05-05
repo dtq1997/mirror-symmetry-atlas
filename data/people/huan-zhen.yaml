@@ -155,21 +155,30 @@ activity:
   active_period: '2018-present'
 external_ids: {}
 links:
-  homepage: "https://huanzhen84.github.io/zhenhuan/"
-  math_center: "https://mathcenter.hust.edu.cn/info/1042/2661.htm"
+  homepage: 'https://huanzhen84.github.io/zhenhuan/'
+  math_center: 'https://mathcenter.hust.edu.cn/info/1042/2661.htm'
 personal_notes: |
   注：签到表手写"郁真"系"郇真"误读（郇 Huán 与郁 Yù 字形相近）。
   HUST 数学中心在册为 Zhen Huan，个人主页 huanzhen84.github.io/zhenhuan/，
   slug 统一为 huan-zhen（姓-名拼音）。
-
+  
   UIUC 博士 (2017) → SYSU Research Associate (2017-2019) → HUST 数学中心副教授 (2019.7-)。
   研究方向：代数拓扑、代数几何、数学物理；核心成果 "Quasi-Elliptic Cohomology" 系列 (Adv. Math. 2018)。
   2026 HUST 数学物理与几何研讨会参会教师。
+  
+  现职：华中科技大学数学与统计学院副教授（[英文名拼为 Huan，中文姓"郇"非"桓"]）
+  学历：UIUC 博士（algebraic topology）
+  重要奖项：NSFC（[待验证]）；任武汉数学中心代数几何与拓扑 seminar 组织者（2019-）
+  趣闻：注意中文是"郇真"（拼音 Huán Zhēn / Xún Zhēn 都见过，本人采用 Huán）而非"桓震"——任务列表的"桓震"是误猜中文名，应纠正为"郇真"。论文产出稳定（*Adv. Math.* 2018, *J. Homotopy Relat. Struct.*, *Adv. Theor. Math. Phys.* 等）；指导本科生入选 HUST"数学家计划 A"。
 sources:
-  - label: "HUST Math Center profile"
-    url: "https://mathcenter.hust.edu.cn/info/1042/2661.htm"
-  - label: "Personal homepage"
-    url: "https://huanzhen84.github.io/zhenhuan/"
+  - label: 'HUST Math Center profile'
+    url: 'https://mathcenter.hust.edu.cn/info/1042/2661.htm'
+  - label: 'Personal homepage'
+    url: 'https://huanzhen84.github.io/zhenhuan/'
+  - label: '信息源'
+    url: 'https://ncatlab.org/nlab/show/Zhen+Huan'
+  - label: '信息源'
+    url: 'https://arxiv.org/abs/1805.06305'
 tags:
   - hust
   - name-correction

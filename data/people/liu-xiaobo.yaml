@@ -416,21 +416,24 @@ external_ids:
   openalex: A5100664480
   mathgenealogy: '23067'
 links:
-  homepage: http://faculty.bicmr.pku.edu.cn/~xbliu/
-personal_notes: 'PKU 讲席教授，BICMR 副主任。UPenn 博士（导师 C.B. Croke），曾长期任教 Notre Dame。
-
+  homepage: 'http://faculty.bicmr.pku.edu.cn/~xbliu/'
+personal_notes: |
+  PKU 讲席教授，BICMR 副主任。UPenn 博士（导师 C.B. Croke），曾长期任教 Notre Dame。
   代表作：与田刚合作证明 genus-0 Virasoro conjecture (1998)。
-
   ICM 2006 invited speaker。Sloan Research Fellowship。
-
   杨成浪的博士导师。
-
-  '
+  
+  现职：北京大学数学科学学院 / BICMR 讲座教授; **BICMR 副主任**; *Peking Mathematical Journal* 主编
+  学历：1983 入清华应用数学系 → 1987 清华学士 → 赴美 → 1994 宾夕法尼亚大学数学博士 (随后又拿一个物理硕士). **注: 用户标"田刚学生"未在公开履历中得到确证** [待验证]
+  履历：1995–96 Augsburg postdoc → 1996–97 Max-Planck Bonn 访问 → 1997–99 MIT 讲师 → 1999–2015 Notre Dame (Asst→Full) → 2010 起千人计划全职北大
+  研究：Gromov-Witten 不变量普适方程; Virasoro 猜想; Kontsevich-Witten / BGW tau 函数与 Schur Q-多项式 (与博士生杨成浪合作); 与王新合作解决 Dubrovin-刘思齐-张友金亏格 2 G-函数猜想
+  趣闻：他和博士后王戈浩证明 Kontsevich-Witten 与 Hodge tau 函数可由 Virasoro 算子连接 (解决 Alexandrov 猜想); 入选千人计划全职回国
+  媒体/社交：CAM-Net Digest 专访"大道虽险远,必赴求真知"
 sources:
-- label: Math Genealogy
-  url: https://www.mathgenealogy.org/id.php?id=23067
-- label: OpenAlex
-  url: https://openalex.org/authors/A5100664480
+  - label: 'Math Genealogy'
+    url: 'https://www.mathgenealogy.org/id.php?id=23067'
+  - label: 'OpenAlex'
+    url: 'https://openalex.org/authors/A5100664480'
 tags:
 - important-person
 - pku

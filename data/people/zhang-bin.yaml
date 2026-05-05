@@ -281,25 +281,30 @@ activity:
   active_period: '2006-present'
   peak_period: '2013-2023'
 external_ids: {}
-links: {}
+links:
+  homepage: 'https://binz98.github.io/'
 personal_notes: |
   四川大学数学学院教授。长期方向：多元 zeta 值 (MZV) 的重整化，Connes-Kreimer Hopf 代数框架，
   代数 Birkhoff 分解，locality morphisms, 锥形 zeta 值 (conical zeta values)。
   最稳定的合作者是 Li Guo（Rutgers-Newark）与 Sylvie Paycha（Potsdam），三人从 2009 开始合作
   超过 10 年，主要成果将量子场论中的重整化方法与 Connes-Kreimer Hopf 代数方法推广到
   MZV 的发散情形、树上 branched zeta 值、以及 meromorphic germs 的 locality 结构。
-
+  
   2024 年在吉林大学报告题目《多元 zeta 值的洗牌 Hopf 代数》。
-
+  
   2026 HUST 会议参会者。与会议主流方向（Frobenius manifold / GW 理论 / 可积系统）
   不直接重合，但 Connes-Kreimer 重整化在 BV 形式、规范场论、形式路径积分等
   多个镜像对称相关方向都有应用，是潜在的跨组连接点。
+  
+  研究：多重 zeta 值 (MZV) 重整化; 与 Li Guo (Rutgers-Newark) 合作的开创性论文 *Renormalization of multiple zeta values* (math/0606076), 用 Connes-Kreimer Hopf 代数方法把负整数处的 MZV 严格定义化; 2024 续作 *Hopf algebras for the shuffle algebra and fractions from MZVs*
+  趣闻：第四届国际多重 zeta 值研讨会 2025.07 在上海 (同济+多校联办), 是这一中国主导的研究方向
+  媒体/社交：学术圈活跃, 公众低调; 重名严重 (CASIA RL/华南理工 ME/北大博航等同名)
 sources:
-  - label: "arXiv paper math/0606076 (与 Li Guo 合作首篇)"
-    url: "https://arxiv.org/abs/math/0606076"
-  - label: "ResearchGate profile (Sichuan University)"
-    url: "https://www.researchgate.net/profile/Bin-Zhang-143"
-  - label: "吉林大学数学学院报告 2024"
-    url: "https://math.jlu.edu.cn/info/1555/15616.htm"
+  - label: 'arXiv paper math/0606076 (与 Li Guo 合作首篇)'
+    url: 'https://arxiv.org/abs/math/0606076'
+  - label: 'ResearchGate profile (Sichuan University)'
+    url: 'https://www.researchgate.net/profile/Bin-Zhang-143'
+  - label: '吉林大学数学学院报告 2024'
+    url: 'https://math.jlu.edu.cn/info/1555/15616.htm'
 tags:
   - sichuan-u

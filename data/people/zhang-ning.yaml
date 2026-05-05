@@ -199,7 +199,7 @@ activity:
   notes: '仅凸几何/几何分析方向。arXiv 上另有多位 Ning Zhang (优化、代数结构、积分系统) 为不同作者，已区分'
 external_ids: {}
 links:
-  homepage: "http://faculty.hust.edu.cn/zhangning7/zh_CN/index.htm"
+  homepage: 'http://faculty.hust.edu.cn/zhangning7/zh_CN/index.htm'
 personal_notes: |
   HUST 数学与统计学院副研究员。
   学术路径：上海交大本科肄业 (2003-2006) → Alberta 博士 (2017) → 美国 MSRI 博士后 → HUST。
@@ -207,11 +207,16 @@ personal_notes: |
   与 Elisabeth Werner (CWRU)、Deping Ye (Memorial U.) 合作 floating bodies / Ulam floating functions 系列。
   近期做"range decreasing group homomorphisms"和非紧 Minkowski 问题。
   注: arXiv 上另有至少两位独立的 Ning Zhang（优化/Defeng Sun 组、表示论/可积系统），需要作者歧义处理。
+  
+  现职：华中科技大学数学与统计学院纯数学系副教授
+  研究：凸几何分析; Orlicz-Brunn-Minkowski 理论与 p-capacity; Grünbaum 不等式 (with Myroshnychenko, Stephen 2017); 同等截面凸体问题; 离散 Aleksandrov projection problem; affine Sobolev 空间
+  趣闻：论文常发 *Adv. Math.*, *Calc. Var. PDE* 等; 与 Sergii Myroshnychenko, Matthew Stephen 是凸几何北美圈合作者
+  媒体/社交：学界低调
 sources:
-  - label: "HUST faculty page"
-    url: "http://faculty.hust.edu.cn/zhangning7/zh_CN/index.htm"
-  - label: "RateMyProfessors (Alberta 教学记录)"
-    url: "https://www.ratemyprofessors.com/professor/2157263"
+  - label: 'HUST faculty page'
+    url: 'http://faculty.hust.edu.cn/zhangning7/zh_CN/index.htm'
+  - label: 'RateMyProfessors (Alberta 教学记录)'
+    url: 'https://www.ratemyprofessors.com/professor/2157263'
 tags:
   - hust
   - name-ambiguity

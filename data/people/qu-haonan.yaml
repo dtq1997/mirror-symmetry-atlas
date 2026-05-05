@@ -126,7 +126,7 @@ activity:
   active_period: '2021-present'
 external_ids: {}
 links:
-  personal: "https://sites.google.com/site/haonanqu/"
+  personal: 'https://sites.google.com/site/haonanqu/'
 personal_notes: |
   清华大学数学科学系博士毕业，师从张友金（亦与刘思齐深度合作），方向 Integrable Systems / Mathematical Physics。
   2025 年 10 月 arXiv 论文 affiliation 为北京大学数学科学学院，表明曾在或正在 PKU。
@@ -142,17 +142,21 @@ personal_notes: |
   与何伟强（SYSU）师门相近：均处于 Frobenius 流形 / Landau-Ginzburg / 可积系统生态。
   2026 年 4 月 HUST "数学物理与几何研讨会"参会人员之一。
   [待验证] 中山大学 vs 北京大学当前主要 affiliation，以及在 SYSU 的具体职位。
+  
+  现职：北京大学数学科学学院 (paper affiliation,2024 起) [待验证当前职位 — 博后或学生]
+  学历：清华大学博士 (Integrable Systems and Mathematical Physics) — http://www.tsinghuamathcamp.cn/2018/Lecturers_Coaches.html
+  研究：Frobenius 流形、可积系统、拓扑场论
 sources:
-  - label: "Haonan Qu personal site"
-    url: "https://sites.google.com/site/haonanqu/"
-  - label: "Tsinghua Math Camp 2018 (lecturer list)"
-    url: "http://www.tsinghuamathcamp.cn/2018/Lecturers_Coaches.html"
-  - label: "arXiv 2510.04151 (PKU affiliation)"
-    url: "https://arxiv.org/abs/2510.04151"
-  - label: "SYSU Math PhD advisors list"
-    url: "https://math.sysu.edu.cn/article/2971"
-  - label: "Legendre transformations paper (CMP)"
-    url: "https://link.springer.com/article/10.1007/s00220-025-05289-3"
+  - label: 'Haonan Qu personal site'
+    url: 'https://sites.google.com/site/haonanqu/'
+  - label: 'Tsinghua Math Camp 2018 (lecturer list)'
+    url: 'http://www.tsinghuamathcamp.cn/2018/Lecturers_Coaches.html'
+  - label: 'arXiv 2510.04151 (PKU affiliation)'
+    url: 'https://arxiv.org/abs/2510.04151'
+  - label: 'SYSU Math PhD advisors list'
+    url: 'https://math.sysu.edu.cn/article/2971'
+  - label: 'Legendre transformations paper (CMP)'
+    url: 'https://link.springer.com/article/10.1007/s00220-025-05289-3'
 tags:
   - sun-yat-sen
   - tsinghua-alumni

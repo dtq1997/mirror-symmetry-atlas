@@ -251,15 +251,29 @@ activity:
   active_period: '2011-present'
 external_ids:
   mathgenealogy: "162944"
-links: {}
+links:
+  homepage: 'https://ims.shanghaitech.edu.cn/2018/1110/c4741a35982/page.htm'
 personal_notes: |
   上海科技大学。PhD at Wisconsin-Madison under Andrei Caldararu.
   2026 HUST 会议报告: B-model categorical enumerative invariants and the holomorphic anomaly equation
   研究 CY threefold 上导出范畴的 enumerative invariants，BCOV holomorphic anomaly equation。
   Categorical enumerative invariants (CEI) 是其核心方向，与 Caldararu 共同发展。
+  
+  现职：上海科技大学数学科学研究所 (IMS) 教授 (2021-；2018 入职 ShanghaiTech, 非 NYU Shanghai —— 用户原始描述需修正)
+  学历：美国威斯康星大学麦迪逊分校 (UW-Madison) 博士 (~2010, 与 Andrei Căldăraru 合作密切，应为导师)
+  研究：A∞ / CY 范畴、CCT (Caldararu-Costello-Tu) 范畴枚举不变量、与 GW/FJRW/BCOV 对应；Adv. Math. 连发两篇
+  趣闻：陈秀雄 (IMS 创院所长) 评价 "He is certainly among the very best of his generation"
+  现职：上海科技大学数学科学研究所 (IMS) 教授（2018 加入，2021 升正教授）
+  学历：威斯康星 UW-Madison 博士（导师 Andrei Căldăraru）
+  重要奖项：上海科技大学引进；CCT 不变量被誉为统一 GW/FJRW/BCOV 的范畴论框架（两篇 *Adv. Math.*）
+  趣闻：与 Căldăraru 合作首次完成 g=1 categorical GW 计算（椭圆曲线），结果与 Dijkgraaf 经典 GW 完全吻合，成为镜像对称范畴化的标志性算例
 sources:
-  - label: "Math Genealogy"
-    url: "https://www.mathgenealogy.org/id.php?id=162944"
-  - label: "ShanghaiTech IMS"
-    url: "https://ims.shanghaitech.edu.cn/2018/1110/c4741a35982/page.htm"
+  - label: 'Math Genealogy'
+    url: 'https://www.mathgenealogy.org/id.php?id=162944'
+  - label: 'ShanghaiTech IMS'
+    url: 'https://ims.shanghaitech.edu.cn/2018/1110/c4741a35982/page.htm'
+  - label: '信息源'
+    url: 'https://arxiv.org/abs/1208.5912'
+  - label: '信息源'
+    url: 'https://www.shanghaitech.edu.cn/eng/2021/0608/c1260a65424/page.htm'
 tags: []

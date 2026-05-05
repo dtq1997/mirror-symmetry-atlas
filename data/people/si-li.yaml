@@ -474,7 +474,7 @@ activity:
   active_period: '2009-present'
 external_ids: {}
 links:
-  homepage: "https://ymsc.tsinghua.edu.cn/info/1104/2554.htm"
+  homepage: 'https://ymsc.tsinghua.edu.cn/info/1104/2554.htm'
 personal_notes: |
   清华 YMSC 教授，数学物理方向核心。师从丘成桐。
   代表工作：
@@ -483,13 +483,18 @@ personal_notes: |
   (3) Primitive forms / 奇点 mirror symmetry（与 K. Saito, Li Changzheng 合作，JEMS 2017），
   (4) Kodaira-Spencer gravity 与 holomorphic Chern-Simons。
   何伟强博后期间的主要导师之一，是中山大学/清华 LG 方向合作的关键桥梁。
+  
+  现职：清华大学丘成桐数学科学中心 (YMSC) 教授; 求真书院副院长 (2020–2022 任)
+  学历：1999 进 USTC 少年班 → 2003 USTC 学士 → 2006 USTC 硕士 → 2011 哈佛大学博士 (导师丘成桐) [Costello 是合作者非导师, 修正用户标注] → Northwestern postdoc (2011–) → Boston University Asst Prof → 2014 清华
+  研究：BCOV / Kodaira-Spencer 量子化; Costello-Li twisted supergravity (AdS/CFT 数学化的第一步); Landau-Ginzburg 镜像对称猜想; 椭圆曲线高亏格 B-model; regularized integrals on Riemann surfaces; Chern-Simons 矩阵模型与 FQHE
+  媒体/社交：求真书院多篇专访; 腾讯新闻发表"我眼中的丘成桐先生"; 清华党建报道"因为我是一名共产党员"
 sources:
-  - label: "清华 YMSC 主页"
-    url: "https://ymsc.tsinghua.edu.cn/info/1104/2554.htm"
-  - label: "CV 2025"
-    url: "https://sili-math.github.io/CV.pdf"
-  - label: "BU CV 2013"
-    url: "https://www.bu.edu/math/files/2014/01/Li-Si-10-7-13.pdf"
+  - label: '清华 YMSC 主页'
+    url: 'https://ymsc.tsinghua.edu.cn/info/1104/2554.htm'
+  - label: 'CV 2025'
+    url: 'https://sili-math.github.io/CV.pdf'
+  - label: 'BU CV 2013'
+    url: 'https://www.bu.edu/math/files/2014/01/Li-Si-10-7-13.pdf'
 tags:
   - tsinghua
   - important-person

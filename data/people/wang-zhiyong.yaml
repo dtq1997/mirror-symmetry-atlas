@@ -80,7 +80,7 @@ activity:
   active_period: '2024-present'
 external_ids: {}
 links:
-  email: "zwangco@pku.edu.cn"
+  email: 'zwangco@pku.edu.cn'
 personal_notes: |
   用户纠正：中文名 **王智勇** (非"王志永"——之前的 YAML 拼写错误)。
   北大博后出站 (mentor: 郭帅 @ PKU BICMR)。
@@ -88,11 +88,17 @@ personal_notes: |
   与杨成浪 (AMSS→武大) 合作 self-conjugate partitions / Bloch-Okounkov 方向，
   方法论与季策 (郭帅学生→清华张友金组博后) 和王知远 (HUST) 的 BKP/Hurwitz 组群完全同脉。
   博士阶段与当前职位待用户补充。
+  
+  现职：北大博后已出站；当前单位待确认（HUST 2026 武大代表团出现 "Wang Zhiyong"，疑似入职武大）
+  学历：博士 [待补充]；BICMR 北大博后（mentor 郭帅，至 2024）；邮箱 zwangco@pku.edu.cn
+  研究：Bloch-Okounkov 关联函数、自共轭分拆、quasi-modular 形式、可积层级
+  奖项：[待补充]
+  趣闻：主要合作者 郭帅 (Shuai Guo)、杨成浪 (Chenglang Yang)；扩展圈 李奥 (Ao Li)
 sources:
-  - label: "arXiv:2409.14124 (email & Shuai Guo 致谢)"
-    url: "https://arxiv.org/abs/2409.14124"
-  - label: "论文 PDF (acknowledgement 含 Shuai Guo)"
-    url: "https://arxiv.org/pdf/2409.14124"
+  - label: 'arXiv:2409.14124 (email & Shuai Guo 致谢)'
+    url: 'https://arxiv.org/abs/2409.14124'
+  - label: '论文 PDF (acknowledgement 含 Shuai Guo)'
+    url: 'https://arxiv.org/pdf/2409.14124'
 tags:
   - pku
   - guo-shuai-group

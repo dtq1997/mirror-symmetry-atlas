@@ -272,21 +272,27 @@ activity:
 external_ids:
   openalex: A5100462284
 links:
-  homepage: http://faculty.hust.edu.cn/WangZhiyuan/zh_CN/index.htm
-personal_notes: '清华本科(2010)+博士(2014-2019) → 北大博后(2019-2023) → HUST 讲师(2023-)。
-
+  homepage: 'http://faculty.hust.edu.cn/WangZhiyuan/zh_CN/index.htm'
+personal_notes: |
+  清华本科(2010)+博士(2014-2019) → 北大博后(2019-2023) → HUST 讲师(2023-)。
   北大博后期间与杨成浪、季策密切合作。
-
   研究方向：数学物理、GW 理论与镜像对称、可积系统。
-
   2026 数学物理与几何研讨会组织联系人。
-
   唐乾即将在会议上与他深入交流。
-
-  '
+  
+  现职：华中科技大学数学与统计学院 (HUST)
+  学历：清华大学博士 (基础数学，导师疑为周坚)
+  研究：弦论数学、镜像对称、枚举几何、可积系统、组合数学；最新成果 Peking Math. Journal 2025 "Orbifold Euler Characteristics of $\overline{\mathcal M}_{g,n}$" (与 Jian Zhou 框架延续)
+  现职：华中科技大学数学与统计学院（HUST，2026 研讨会联系人）
+  学历：清华周坚组博士 [待验证]
+  研究：数学物理、拓扑递归、KP 层级、moduli 空间相交理论、Kac-Schwarz 算子、Sato Grassmannian、open intersection numbers、Buryak 配分函数
+  奖项：NSFC 12371254 / 11890662 / 12061131014
+  趣闻：周坚学生圈典型代表，论文重 "fermionic / Sato Grassmannian / W-约束 → 拓扑递归" 工序；近期与 Ce Ji、Chenglang Yang 合作 type-B Kac-Schwarz 与 spin Hurwitz 数；2026 HUST 数学物理与几何研讨会主组织者之一
 sources:
-- label: HUST 教师主页
-  url: http://faculty.hust.edu.cn/WangZhiyuan/zh_CN/index.htm
+  - label: 'HUST 教师主页'
+    url: 'http://faculty.hust.edu.cn/WangZhiyuan/zh_CN/index.htm'
+  - label: '信息源'
+    url: 'https://link.springer.com/article/10.1007/s42543-025-00110-5'
 tags:
 - important-person
 - hust

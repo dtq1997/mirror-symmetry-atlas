@@ -228,7 +228,7 @@ activity:
 external_ids:
   openalex: A5011971768
 links:
-  homepage: "http://faculty.hust.edu.cn/jinxiaoshang/zh_CN/index.htm"
+  homepage: 'http://faculty.hust.edu.cn/jinxiaoshang/zh_CN/index.htm'
 personal_notes: |
   HUST 数学与统计学院副教授（2024 年起）。
   学术路径：南大本硕博 (2009-2018) → UCSC 访问 (2017-2018) → PKU BICMR 博后 (2018-2020)
@@ -238,8 +238,12 @@ personal_notes: |
   UCSC 访问期与 Jie Qing 合作，并由此进入 Chang-Ge-Qing 的 CCE 紧致性研究圈
   (2021 年 Graham-Lee 度量唯一性 Part III 是代表作)。
   [待验证] 南大博士导师，UCSC 访问导师很可能就是 Jie Qing。
+  
+  现职：华中科技大学数学与统计学院 — http://english.mat.hust.edu.cn/Faculty/Faculty_Directory.htm
+  研究：几何分析、黎曼几何、热核与热扩散估计
+  代表作：Jin & J. Xiao, "Heat dispersion laws in smooth compact manifolds", *Bull. London Math. Soc.* 2026 — https://londmathsoc.onlinelibrary.wiley.com/doi/10.1112/blms.70374
 sources:
-  - label: "HUST faculty page"
-    url: "http://faculty.hust.edu.cn/jinxiaoshang/zh_CN/index.htm"
+  - label: 'HUST faculty page'
+    url: 'http://faculty.hust.edu.cn/jinxiaoshang/zh_CN/index.htm'
 tags:
   - hust

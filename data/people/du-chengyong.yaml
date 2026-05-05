@@ -288,24 +288,45 @@ activity:
 external_ids:
   openalex: A5013132093
 links:
-  xmol: https://www.x-mol.com/university/faculty/142917
-  institution_url: https://msi.sicnu.edu.cn/
-personal_notes: "四川师范大学数学科学学院副教授，硕士生导师。同时任职于可视化计算\n与虚拟现实四川省重点实验室。地址成都锦江区静安路 5 号。\n\n核心方向：orbifold Gromov-Witten theory, Chen-Ruan\
-  \ 上同调,\nstringy orbifold K-theory, Ruan cohomology, 轨形几何, 权重吹胀\n(weighted blowup), Banach orbifold, 相对 GW 不变量, 双 ramification\n\
-  cycles。近年扩展到 Lie groupoid morphism、differential character。\n\n学术谱系：几乎确定为四川大学陈柏辉 (Bohui Chen) 的学生或长期\n合作者——从 2014 至今持续合作\
-  \ 12+ 篇，且早期是川大团队的重要\n成员。陈柏辉是 Yongbin Ruan (阮勇斌) 和 Weimin Chen (陈伟民)\norbifold GW 学派的川大代表。\n\n与本项目其他人物连接：\n- 李晓斌 (li-xiaobin,\
-  \ SWJTU): 2016 年合作 Ruan cohomology paper，\n  两人均为川大体系外围成员；\n- 何伟强 (he-weiqiang, 中山大学): 共同合作者 Jianxun Hu (胡建勋,\n  中山大学) 既是\
-  \ Weiqiang He 的早期合作者，也是杜承勇 Math. Ann.\n  2019 的合作者——川大、中大 GW 圈有交叉。\n\n2026 HUST 数学物理与几何研讨会参会。\n"
+  xmol: 'https://www.x-mol.com/university/faculty/142917'
+  institution_url: 'https://msi.sicnu.edu.cn/'
+  homepage: 'https://msi.sicnu.edu.cn/;X-MOL'
+personal_notes: |
+  四川师范大学数学科学学院副教授，硕士生导师。同时任职于可视化计算
+  与虚拟现实四川省重点实验室。地址成都锦江区静安路 5 号。
+  
+  核心方向：orbifold Gromov-Witten theory, Chen-Ruan 上同调,
+  stringy orbifold K-theory, Ruan cohomology, 轨形几何, 权重吹胀
+  (weighted blowup), Banach orbifold, 相对 GW 不变量, 双 ramification
+  cycles。近年扩展到 Lie groupoid morphism、differential character。
+  
+  学术谱系：几乎确定为四川大学陈柏辉 (Bohui Chen) 的学生或长期
+  合作者——从 2014 至今持续合作 12+ 篇，且早期是川大团队的重要
+  成员。陈柏辉是 Yongbin Ruan (阮勇斌) 和 Weimin Chen (陈伟民)
+  orbifold GW 学派的川大代表。
+  
+  与本项目其他人物连接：
+  - 李晓斌 (li-xiaobin, SWJTU): 2016 年合作 Ruan cohomology paper，
+    两人均为川大体系外围成员；
+  - 何伟强 (he-weiqiang, 中山大学): 共同合作者 Jianxun Hu (胡建勋,
+    中山大学) 既是 Weiqiang He 的早期合作者，也是杜承勇 Math. Ann.
+    2019 的合作者——川大、中大 GW 圈有交叉。
+  
+  2026 HUST 数学物理与几何研讨会参会。
+  
+  现职：四川师范大学数学科学学院 副教授、硕导
+  研究：辛几何、orbifold Gromov–Witten 理论 (与四川大学 Bohui Chen 合作)
+  趣闻：与川大 Bohui Chen (MIT Moore Instructor 2001–2004) 长期合作 — https://www.mathgenealogy.org/id.php?id=59753
 sources:
-- label: x-mol faculty page
-  url: https://www.x-mol.com/university/faculty/142917
-- label: SICNU School of Math Sciences
-  url: https://msi.sicnu.edu.cn/
-- label: OpenAlex profile
-  url: https://openalex.org/authors/A5013132093
-- label: Chen-Ruan Cohomology paper (CAMB)
-  url: https://link.springer.com/article/10.1007/s11401-020-0231-8
-- label: Math. Ann. 2019 paper
-  url: https://link.springer.com/content/pdf/10.1007/s00208-019-01850-3.pdf
+  - label: 'x-mol faculty page'
+    url: 'https://www.x-mol.com/university/faculty/142917'
+  - label: 'SICNU School of Math Sciences'
+    url: 'https://msi.sicnu.edu.cn/'
+  - label: 'OpenAlex profile'
+    url: 'https://openalex.org/authors/A5013132093'
+  - label: 'Chen-Ruan Cohomology paper (CAMB)'
+    url: 'https://link.springer.com/article/10.1007/s11401-020-0231-8'
+  - label: 'Math. Ann. 2019 paper'
+    url: 'https://link.springer.com/content/pdf/10.1007/s00208-019-01850-3.pdf'
 tags:
 - sicnu

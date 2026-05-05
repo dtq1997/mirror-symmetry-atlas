@@ -101,27 +101,28 @@ external_ids:
   openalex: A5065025035
   orcid: 0009-0002-8404-4088
 links:
-  homepage: http://jszy.whu.edu.cn/chengzhechi
-  email_pattern: z{surname}@whu.edu.cn
-personal_notes: '武汉大学数学与统计学院特聘副研究员。Columbia University 数学博士(2020)。
-
+  homepage: 'http://jszy.whu.edu.cn/chengzhechi'
+  email_pattern: 'z{surname}@whu.edu.cn'
+personal_notes: |
+  武汉大学数学与统计学院特聘副研究员。Columbia University 数学博士(2020)。
   研究方向：辛 Khovanov 同调、纽结 Floer 同调、低维拓扑。
-
-  学位论文 ''Jones grading from symplectic Khovanov homology'' 建立了辛 Khovanov 同调的
-
-  Jones 分级结构，该工作后发展为 ''Bigrading the symplectic Khovanov cohomology'' (AGT 2023)。
-
+  学位论文 'Jones grading from symplectic Khovanov homology' 建立了辛 Khovanov 同调的
+  Jones 分级结构，该工作后发展为 'Bigrading the symplectic Khovanov cohomology' (AGT 2023)。
   与 Matthew Hedden、Sucharit Sarkar 合作 Murasugi sum 与极端纽结 Floer 同调 (Quantum Topol. 2025)。
-
   2026 HUST 数学物理与几何研讨会武大参会学者之一。
-
-  '
+  
+  现职：中山大学 (CUHK 访客身份;曾访 CUHK Mathematics) 待确认主聘单位 [待验证]
+  学历：PhD, Columbia University, 2020;论文 "Jones grading from symplectic Khovanov homology" (MSC 57) — https://www.mathgenealogy.org/id.php?id=269101
+  研究：Heegaard Floer homology, knot Floer, symplectic Khovanov cohomology
+  代表作：Cheng–Hedden–Sarkar, "Murasugi sum and extremal knot Floer homology", *Quantum Topology* 2024 — https://ems.press/journals/qt/articles/14297653
+  奖项：NSF 1905717 资助 (作为 Hedden 组员) — https://www.nsf.gov/awardsearch/showAward?AWD_ID=1905717
+  趣闻：早年于 Dartmouth Graduate Student Topology Seminar 做 "Introduction to Heegaard Floer homology" 报告 — https://math.dartmouth.edu/~wong/gsts_2014_03.html
 sources:
-- label: 武汉大学教师主页 (程哲驰)
-  url: http://jszy.whu.edu.cn/chengzhechi
-- label: OpenAlex
-  url: https://openalex.org/authors/A5065025035
-- label: ORCID
-  url: https://orcid.org/0009-0002-8404-4088
+  - label: '武汉大学教师主页 (程哲驰)'
+    url: 'http://jszy.whu.edu.cn/chengzhechi'
+  - label: 'OpenAlex'
+    url: 'https://openalex.org/authors/A5065025035'
+  - label: 'ORCID'
+    url: 'https://orcid.org/0009-0002-8404-4088'
 tags:
 - wuhan

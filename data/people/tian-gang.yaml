@@ -104,19 +104,24 @@ activity:
 external_ids:
   mathgenealogy: "37749"
 links:
-  princeton: "https://dof.princeton.edu/people/gang-tian"
+  princeton: 'https://dof.princeton.edu/people/gang-tian'
 personal_notes: |
   中国科学院院士 (2001)。北大 BICMR 创始主任 (2005 起), 普林斯顿 Eugene Higgins Professor。
-
+  
   教育: 南大本科(1982)→北大硕士(1984)→哈佛博士(1988, 导师 Yau), 论文 "Kähler Metrics on
   Algebraic Manifolds"。
-
+  
   主要贡献: Kähler-Einstein 度量存在性、K-稳定性(Yau-Tian-Donaldson 猜想)、
   Kähler-Ricci 流(与宋镇合作的 Tian-Song MMP 理论)、与 John Morgan 合作阐释
   Perelman 的 Poincaré/几何化猜想证明。与刘小博合作证明 genus-0 Virasoro 猜想 (1998)。
-
+  
   重要奖项: Waterman Award (1994), Veblen Prize (1996), AAAS Fellow (2004),
   ICM 2002 全体报告。
+  
+  现职：北京大学数学研究所所长 / 北京国际数学研究中心 (BICMR) 主任 / 南京大学现代数学研究所所长; 普林斯顿大学 Higgins 讲座教授 (荣休, 2003–2018 在岗)
+  学历：南京大学本科 (1982) → 北大硕士 (1984, 师从张恭庆) → UCSD/哈佛博士 (1988, 导师丘成桐)
+  研究：Kähler-Einstein 度量; 量子上同调严格基础; Arnold 猜想非退化情形; K-稳定性 ↔ K-E 存在性 (Tian 2012, Chen-Donaldson-Sun 同期独立证明)
+  媒体/社交：知乎"北大数学系田刚的学问到底怎么样"长期热门话题; 学界人士不公开讨论丘-田矛盾
 publications:
   - id: 'doi:10.1142/9789811264153_0021'
     title: 'Yang-Mills Fields and Geometry'
@@ -187,12 +192,12 @@ publications:
     sources: [openalex]
     no_arxiv: true
 sources:
-  - label: "Wikipedia: Tian Gang"
-    url: "https://en.wikipedia.org/wiki/Tian_Gang"
-  - label: "Math Genealogy (id=37749)"
-    url: "https://www.genealogy.math.ndsu.nodak.edu/id.php?id=37749"
-  - label: "Princeton DoF"
-    url: "https://dof.princeton.edu/people/gang-tian"
+  - label: 'Wikipedia: Tian Gang'
+    url: 'https://en.wikipedia.org/wiki/Tian_Gang'
+  - label: 'Math Genealogy (id=37749)'
+    url: 'https://www.genealogy.math.ndsu.nodak.edu/id.php?id=37749'
+  - label: 'Princeton DoF'
+    url: 'https://dof.princeton.edu/people/gang-tian'
 tags:
   - pku
   - pku-bicmr

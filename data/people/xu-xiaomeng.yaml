@@ -414,21 +414,24 @@ external_ids:
   openalex: A5019142880
   mathgenealogy: '294385'
 links:
-  homepage: https://sites.google.com/view/xxu/home
-personal_notes: '两个 cluster 的桥梁人物：连接 quantum groups/Poisson geometry 与 classical Frobenius manifold theory。
-
+  homepage: 'https://sites.google.com/view/xxu/home'
+personal_notes: |
+  两个 cluster 的桥梁人物：连接 quantum groups/Poisson geometry 与 classical Frobenius manifold theory。
   2017 年的 "Frobenius Manifolds and Quantum Groups" 是两个领域交叉的关键文献。
-
-  '
+  
+  现职：北京大学数学科学学院、BICMR 助理教授/研究员 (2019.07-)
+  学历：河南大学学士 (2006-2010) → 北大硕士 (2010-2013) → 日内瓦大学博士 (2013-2016, 导师 Anton Alekseev)；MIT 博士后 (2016-2019)
+  研究：Stokes 现象 / 量子群 / Poisson 几何；代表作 Adv. Math. 2018, IMRN 2018, CMP 2016
+  趣闻：数学青年学者论坛被官方点名介绍；河南科技大学等地频繁做"Stokes 矩阵与量子代数"系列报告
 sources:
-- label: PKU faculty page
-  url: http://scholar.pku.edu.cn/xxu/cv
-- label: 个人主页
-  url: https://sites.google.com/view/xxu/home
-- label: Math Genealogy
-  url: https://www.mathgenealogy.org/id.php?id=294385
-- label: OpenAlex
-  url: https://openalex.org/authors/A5019142880
+  - label: 'PKU faculty page'
+    url: 'http://scholar.pku.edu.cn/xxu/cv'
+  - label: '个人主页'
+    url: 'https://sites.google.com/view/xxu/home'
+  - label: 'Math Genealogy'
+    url: 'https://www.mathgenealogy.org/id.php?id=294385'
+  - label: 'OpenAlex'
+    url: 'https://openalex.org/authors/A5019142880'
 tags:
 - pku
 - xu-school

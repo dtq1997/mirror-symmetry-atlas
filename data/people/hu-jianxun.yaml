@@ -396,8 +396,8 @@ activity:
   active_period: '1995-present'
 external_ids: {}
 links:
-  homepage: "https://math.sysu.edu.cn/teacher/484"
-  email: "stsjxhu@mail.sysu.edu.cn"
+  homepage: 'https://math.sysu.edu.cn/teacher/484'
+  email: 'stsjxhu@mail.sysu.edu.cn'
 personal_notes: |
   中山大学数学学院教授、副院长，symplectic topology 和 Gromov-Witten 理论资深专家。
   兰州大学本硕博 (1983/1987/1993)，1993-1995 年在中山大学物理系做理论物理博士后，
@@ -417,15 +417,24 @@ personal_notes: |
   2003 年广东省自然科学优秀学术论文一等奖、2004 年教育部新世纪优秀人才。
   承担过 973 课题"广义相对论和拓扑量子场论中的数学问题" (2006-2011)。
   2026 年 4 月 HUST "数学物理与几何研讨会"参会人员之一。
+  
+  现职：中山大学数学学院教授；email stsjxhu@mail.sysu.edu.cn
+  学历：博士（[待验证]，可能 Wisconsin 或 Stony Brook 体系）
+  重要奖项：NSFC 11771460/11371381/11521101 等；与 Tian-Jun Li、Yongbin Ruan 合作 *Invent. Math.* 2008 论文 (Birational cobordism invariance of uniruled symplectic manifolds) 是该领域里程碑
+  趣闻：与 SYSU 同事李长征、柯华忠形成稳定合作团队，共同攻克 Galkin 下界猜想、Gamma 猜想；编辑 Springer Proceedings *Schubert Calculus and Its Applications*
 sources:
-  - label: "中山大学数学学院 (个人主页)"
-    url: "https://math.sysu.edu.cn/teacher/484"
-  - label: "ResearchGate"
-    url: "https://www.researchgate.net/profile/Jianxun-Hu"
-  - label: "SYSU Math PhD advisors list"
-    url: "https://math.sysu.edu.cn/article/2971"
-  - label: "信阳师范学院讲座 (2017)"
-    url: "http://maths.xynu.edu.cn/info/1049/2144.htm"
+  - label: '中山大学数学学院 (个人主页)'
+    url: 'https://math.sysu.edu.cn/teacher/484'
+  - label: 'ResearchGate'
+    url: 'https://www.researchgate.net/profile/Jianxun-Hu'
+  - label: 'SYSU Math PhD advisors list'
+    url: 'https://math.sysu.edu.cn/article/2971'
+  - label: '信阳师范学院讲座 (2017)'
+    url: 'http://maths.xynu.edu.cn/info/1049/2144.htm'
+  - label: '信息源'
+    url: 'https://maths.anu.edu.au/files/4gromov-witten_invariants_and_rationally_connectedness.pdf'
+  - label: '信息源'
+    url: 'https://arxiv.org/abs/2502.13558'
 tags:
   - sun-yat-sen
   - senior-researcher

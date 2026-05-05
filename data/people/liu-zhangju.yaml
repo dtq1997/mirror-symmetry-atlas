@@ -254,25 +254,33 @@ activity:
   notes: '《数学进展》主编'
 external_ids: {}
 links:
-  pku: "https://www.math.pku.edu.cn/jsdw/ltx/141184.htm"
+  pku: 'https://www.math.pku.edu.cn/jsdw/ltx/141184.htm'
+  homepage: 'https://www.math.pku.edu.cn/jsdw/ltx/141184.htm'
 personal_notes: |
   北京大学数学科学学院教授 (2021-01 退休)。
-
+  
   教育: 吉林大学本科 (1982)→北大硕士 (1984)→北大博士 (1986)→讲师 (1986-1990)
   →UC Berkeley 博后 (1990-1992, 与 Weinstein 合作)→北大副教授/教授 (1993 起)。
   博士导师信息 [待验证]。
-
+  
   主要贡献: 与 Alan Weinstein, Ping Xu 合作于 1997 年 JDG 论文引入 Courant algebroid / Lie bialgebroid
   概念, 并在 1998 CMP 建立 Dirac structures 与 Poisson homogeneous spaces 对应。
   这两篇是 Poisson 几何/代数胚论领域的奠基性工作。
   后期与陈酌合作 E-Courant algebroid 和 higher structures。
-
+  
   担任《数学进展》主编。培养博士陈酌 (北大 2004) 等。
+  
+  现职：北京大学数学科学学院教授 (2021.01 退休)
+  学历：吉林大学学士 (1982) → 北大硕士 (1984) → 北大博士 (1986); 1990–92 UC Berkeley postdoc
+  履历：北大讲师 (1986–90) → 副教授 (1991–93) → 教授 (1994–2021)
+  研究：Poisson 几何; Lie 双代数胚 (Lie bialgebroids); Courant 代数胚; Dirac 结构. 与 Weinstein 和徐平合作的 *Manin Triples for Lie Bialgebroids* (Ann. Math. 1997 / JDG) 是该领域经典
+  趣闻：1955.12 生, 北京人; 党员; 横跨德/法/美/瑞/波/意/澳的访问网络
+  媒体/社交：学界低调
 sources:
-  - label: "北大数学学院"
-    url: "https://www.math.pku.edu.cn/jsdw/ltx/141184.htm"
-  - label: "Dirac structures (Comm. Math. Phys. 1998)"
-    url: "https://link.springer.com/article/10.1007/s002200050293"
+  - label: '北大数学学院'
+    url: 'https://www.math.pku.edu.cn/jsdw/ltx/141184.htm'
+  - label: 'Dirac structures (Comm. Math. Phys. 1998)'
+    url: 'https://link.springer.com/article/10.1007/s002200050293'
 tags:
   - pku
   - senior-researcher

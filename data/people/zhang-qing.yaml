@@ -349,7 +349,7 @@ activity:
 external_ids:
   mathscinet: "199229"
 links:
-  homepage: "http://faculty.hust.edu.cn/zhangqing1234/zh_CN/index.htm"
+  homepage: 'http://faculty.hust.edu.cn/zhangqing1234/zh_CN/index.htm'
 personal_notes: |
   HUST 数学与统计学院。研究方向：p-adic 群表示、自守表示、L-函数、数论。
   学术路径：浙大本科 (2008) → AMSS/中科院数学所硕士 (2008-2010) → OSU 博士 (2010-2016)
@@ -359,11 +359,16 @@ personal_notes: |
   2020 年 "Arthur packets for G_2" (joint with Cunningham, Fiori) 是代表作之一。
   注: "张庆"与"张庆生"(zhang-qingsheng, 清华) 是不同人；arXiv 有多位 Qing Zhang，
   本页仅收录 HUST p-adic 表示论方向的 Qing Zhang。
+  
+  现职：华中科技大学数学与统计学院（讲师/副教授 [待验证]）
+  学历：浙江大学本科 2008；中科院 AMSS 硕士 2010；俄亥俄州立大学博士 2016 (p-adic 表示方向)；之后博后 [可能 Calgary 或 Texas A&M]
+  奖项：[待补充]
+  趣闻：注意 zhangqing2513.github.io (Manitoba) 是同名异人，方向不同；本人方向偏数论/表示论，与 mirror symmetry atlas 主线（GW/Frobenius）无直接交集
 sources:
-  - label: "HUST faculty page"
-    url: "http://faculty.hust.edu.cn/zhangqing1234/zh_CN/index.htm"
-  - label: "MathSciNet ID 199229"
-    url: "https://mathscinet.ams.org/mathscinet/search/author.html?mrauthid=199229"
+  - label: 'HUST faculty page'
+    url: 'http://faculty.hust.edu.cn/zhangqing1234/zh_CN/index.htm'
+  - label: 'MathSciNet ID 199229'
+    url: 'https://mathscinet.ams.org/mathscinet/search/author.html?mrauthid=199229'
 tags:
   - hust
   - name-ambiguity

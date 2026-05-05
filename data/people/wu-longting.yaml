@@ -174,7 +174,7 @@ activity:
 external_ids:
   orcid: "0000-0002-0210-4220"
 links:
-  homepage: "https://longtingwu.github.io/"
+  homepage: 'https://longtingwu.github.io/'
 personal_notes: |
   北大 BICMR 博士（导师刘小博）→ ETH Zurich (Pandharipande 组) 博后 → MPI Bonn → 南科大副教授。
   GW 理论和枚举几何方向的青年学者。代表作：quintic threefold GW 不变量 (Adv. Math. 2018)；holomorphic anomaly equation for (P^2,E) (Forum Math. Pi 2021)。
@@ -184,14 +184,19 @@ personal_notes: |
   Erdos number: 5.
   Math Genealogy 上刘小博 (ID 23067) 名下暂未列出其为学生。
   注意：姓"邬"非"邹"。
+  
+  现职：南方科技大学 (SUSTech) 助理教授 (tenure-track, 2021.12-)；深圳数学中心
+  学历：北大博士 (2017) → ETH Zürich + MPIM Bonn 博后 (2017-2021)
+  研究：GW 不变量 (quintic 三维); 相对 GW; Bousseau-Fan-Guo-Wu Holomorphic anomaly equation；ICCM 2019 邀请 45 分钟报告
+  趣闻：自报 Erdős 数 5
 sources:
-  - label: "SUSTech faculty page"
-    url: "https://www.sustech.edu.cn/en/faculties/wulongting.html"
-  - label: "Personal homepage"
-    url: "https://longtingwu.github.io/"
-  - label: "Shenzhen ICM"
-    url: "https://icm.sustech.edu.cn/en/people/faculty/longting-wu-en"
-  - label: "SUSTech math department"
-    url: "https://math.sustech.edu.cn/e/wulongting"
+  - label: 'SUSTech faculty page'
+    url: 'https://www.sustech.edu.cn/en/faculties/wulongting.html'
+  - label: 'Personal homepage'
+    url: 'https://longtingwu.github.io/'
+  - label: 'Shenzhen ICM'
+    url: 'https://icm.sustech.edu.cn/en/people/faculty/longting-wu-en'
+  - label: 'SUSTech math department'
+    url: 'https://math.sustech.edu.cn/e/wulongting'
 tags:
   - sustech

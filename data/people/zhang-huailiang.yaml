@@ -371,8 +371,8 @@ activity:
 external_ids:
   openalex: A5048842012
 links:
-  homepage: "https://www.math.hkust.edu.hk/~mahlchang/"
-  hkust_profile: "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=huailiang-chang-mahlchang"
+  homepage: 'https://www.math.hkust.edu.hk/~mahlchang/'
+  hkust_profile: 'https://facultyprofiles.hkust.edu.hk/profiles.php?profile=huailiang-chang-mahlchang'
 personal_notes: |
   香港科技大学数学系教授(2024 年杰青后晋升)。注意：中文名"张怀良"对应 Wade-Giles 拼音 "Chang"
   (台湾传统拼法) 而非大陆"Zhang"。该姓氏混淆在中英文语境中常见。
@@ -382,17 +382,23 @@ personal_notes: |
   (3) Cosection localization 方法 (与 Kiem、Jun Li)。
   2024 年获国家杰青。用户指定机构为 wuhan，但其实际工作单位为 HKUST。
   2026 HUST 数学物理与几何研讨会中可能作为参会学者出席。
+  
+  现职：香港科技大学 (HKUST) 数学系教授
+  学历：斯坦福大学博士 (2007) [advisor 待补充, 大概率 Jun Li 系列]
+  研究：Mixed Spin P-Fields (MSP) 理论 (与 Jun Li, Wei-Ping Li, Chiu-Chuan Liu); BCOV Feynman 规则的证明 (CY quintic 高亏格 GW); N-MSP 推广; 与 Sanghyeon Lee, Jun Li 2025 论文 irregular vanishing on P^2×P^2
+  趣闻：注意用户写"Huailiang Zhang"，**实为 Chang 张怀良**(姓 Chang/張) — 普通话拼音常被搞混. MSP 项目是 quintic CY 高亏格 GW 理论的重大进展之一
+  媒体/社交：学界低调
 sources:
-  - label: "HKUST Math Faculty"
-    url: "https://www.math.hkust.edu.hk/~mahlchang/"
-  - label: "HKUST Faculty Profile"
-    url: "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=huailiang-chang-mahlchang"
-  - label: "CUHK Mathematics - Prof. Huai-Liang CHANG"
-    url: "https://www.math.cuhk.edu.hk/people/academic-staff/prof-huai-liang-chang-hkust"
-  - label: "SCMS SCMS Visitor Profile"
-    url: "https://scms.fudan.edu.cn/info/3021/4670.htm"
-  - label: "Ann. of Math. 194-3: Polynomial structure of GW potential of quintic"
-    url: "https://annals.math.princeton.edu/?s=Huai-Liang+Chang&search-field=author"
+  - label: 'HKUST Math Faculty'
+    url: 'https://www.math.hkust.edu.hk/~mahlchang/'
+  - label: 'HKUST Faculty Profile'
+    url: 'https://facultyprofiles.hkust.edu.hk/profiles.php?profile=huailiang-chang-mahlchang'
+  - label: 'CUHK Mathematics - Prof. Huai-Liang CHANG'
+    url: 'https://www.math.cuhk.edu.hk/people/academic-staff/prof-huai-liang-chang-hkust'
+  - label: 'SCMS SCMS Visitor Profile'
+    url: 'https://scms.fudan.edu.cn/info/3021/4670.htm'
+  - label: 'Ann. of Math. 194-3: Polynomial structure of GW potential of quintic'
+    url: 'https://annals.math.princeton.edu/?s=Huai-Liang+Chang&search-field=author'
 tags:
   - hkust
   - important-person

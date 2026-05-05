@@ -174,8 +174,12 @@ activity:
 external_ids:
   openalex: A5076963789
 links:
-  homepage: http://faculty.math.tsinghua.edu.cn/~yzhang/
-personal_notes: null
+  homepage: 'http://faculty.math.tsinghua.edu.cn/~yzhang/'
+personal_notes: |
+  现职：清华大学数学科学系教授 (邮箱 youjin@tsinghua.edu.cn)
+  学历：USTC 学士 + 博士；博后于 Steklov (圣彼得堡)、ICTP、SISSA、京都大学
+  奖项：国家杰出青年基金 (2000)；教育部新世纪奖励 (2008)
+  研究：与 Dubrovin 合作创建 Dubrovin-Zhang 程序 (Frobenius 流形 ↔ 可积层次)；代表作 Invent. Math. 2015 (BCFG/FJRW), Adv. Math. 2016 (Hodge 积分), JRA Crelle 2021
 publications:
   - id: '2602.21532'
     title: 'Generalized Frobenius Manifold Structures on the Orbit Spaces of Affine Weyl Groups II'
@@ -727,7 +731,7 @@ publications:
     sources: [openalex]
     no_arxiv: true
 sources:
-- label: OpenAlex
-  url: https://openalex.org/authors/A5076963789
+  - label: 'OpenAlex'
+    url: 'https://openalex.org/authors/A5076963789'
 tags:
 - tsinghua

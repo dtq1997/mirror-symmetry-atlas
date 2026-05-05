@@ -289,19 +289,22 @@ external_ids:
   openalex: A5030830237
   orcid: '0000-0002-8511-4650'
 links:
-  google_scholar: https://scholar.google.com/citations?user=WXr74McAAAAJ
-personal_notes: '北理工本科 → PKU 博士(刘小博) → AMSS 博后 → 2025 起武汉大学助理教授。
-
+  google_scholar: 'https://scholar.google.com/citations?user=WXr74McAAAAJ'
+personal_notes: |
+  北理工本科 → PKU 博士(刘小博) → AMSS 博后 → 2025 起武汉大学助理教授。
   2025 年获钟家庆数学奖（证明辛 Schur 函数乘积公式猜想，建立开 GW 不变量的 KP 可积性）。
-
   与唐乾合作。
-
-  '
+  
+  现职：武汉大学数学与统计学院 + 武汉数学与智能研究院，助理教授 / 博导 (2025.- 入职)
+  学历：北京理工大学学士 (2018) → 北大数学博士 (2018-2023, 导师刘小博)；博后于 AMSS (CAS) / 华罗庚数学中心
+  奖项：第 19 届钟家庆数学奖 (2025)
+  研究：Schur Q-多项式、Kontsevich-Witten tau、BGW、KP/BKP 层次
+  趣闻：钟家庆奖在 2025 中国数学会年会开幕式公布；与 Qian Tang、Ce Ji 合作 "Schröder Paths..."；与刘小博师承延续 BICMR 体系
 sources:
-- label: 北理工报道：钟家庆数学奖
-  url: https://math.bit.edu.cn/zhxw/dcfb2dc3de9141d5a8fd1b058c53366b.htm
-- label: OpenAlex
-  url: https://openalex.org/authors/A5030830237
+  - label: '北理工报道：钟家庆数学奖'
+    url: 'https://math.bit.edu.cn/zhxw/dcfb2dc3de9141d5a8fd1b058c53366b.htm'
+  - label: 'OpenAlex'
+    url: 'https://openalex.org/authors/A5030830237'
 tags:
 - important-person
 - wuhan

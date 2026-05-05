@@ -204,7 +204,8 @@ activity:
 external_ids:
   openalex: A5109468244
 links:
-  sysu_announcement: "https://math.sysu.edu.cn/"
+  sysu_announcement: 'https://math.sysu.edu.cn/'
+  homepage: 'https://www.bimsa.cn/research/course/2024sp/page_6.html'
 personal_notes: |
   中山大学数学学院博士生导师（2025 年 4 月加入）。此前在燕园北京数学科学与应用研究院 (BIMSA) 任研究员。
   研究领域横跨多个方向：
@@ -218,13 +219,21 @@ personal_notes: |
   博士学位及师承信息 [待验证]。
   2026 年 4 月 HUST "数学物理与几何研讨会"参会人员之一。
   此次会议方向与其主研究（函数域/编码理论）跨度较大，可能是代表中山大学参会或对会议主题（数学物理）有兴趣。
+  
+  现职：北京雁栖湖应用数学研究院 (BIMSA) 助理研究员（[待验证职级]）
+  学历：博士（[待验证]，研究方向偏代数几何编码与函数域，类型典型为中科大/南开/清华谱系）
+  趣闻：在 BIMSA 开"Simplicial homotopy theory and model category"（2024 春）和"Introduction to Drinfeld Module"（2024 秋）两门相对纯抽象的课程，研究兴趣明显从应用编码转向更基础的代数几何/同伦论
 sources:
-  - label: "SYSU 数学学院博导名单"
-    url: "https://math.sysu.edu.cn/article/2971"
-  - label: "武汉大学数学院介绍 (SYSU 简介)"
-    url: "https://maths.whu.edu.cn/info/1558/16830.htm"
-  - label: "AIMS Weierstrass semigroups paper (BIMSA affiliation)"
-    url: "https://www.aimsciences.org/article/doi/10.3934/amc.2022066"
+  - label: 'SYSU 数学学院博导名单'
+    url: 'https://math.sysu.edu.cn/article/2971'
+  - label: '武汉大学数学院介绍 (SYSU 简介)'
+    url: 'https://maths.whu.edu.cn/info/1558/16830.htm'
+  - label: 'AIMS Weierstrass semigroups paper (BIMSA affiliation)'
+    url: 'https://www.aimsciences.org/article/doi/10.3934/amc.2022066'
+  - label: '信息源'
+    url: 'https://www.bimsa.cn/research/course/2024sp/page_6.html'
+  - label: '信息源'
+    url: 'https://www.researchgate.net/publication/328598510'
 tags:
   - sun-yat-sen
   - number-theory

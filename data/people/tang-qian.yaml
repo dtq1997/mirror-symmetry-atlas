@@ -127,24 +127,27 @@ external_ids:
   mathgenealogy: "[待查 id]"
 links: {}
 sources:
-  - label: "Math Genealogy (Xiaomeng Xu's advisee)"
-    url: "https://www.genealogy.math.ndsu.nodak.edu/id.php?id=294385"
-  - label: "arXiv au:Qian Tang (math categories)"
-    url: "https://arxiv.org/a/tang_q_1"
-  - label: "arXiv:2501.17516 Stokes Phenomenon and Yangians"
-    url: "https://arxiv.org/abs/2501.17516"
-  - label: "arXiv:2402.07269 Boundary condition for isomonodromy"
-    url: "https://arxiv.org/abs/2402.07269"
+  - label: 'Math Genealogy (Xiaomeng Xu''s advisee)'
+    url: 'https://www.genealogy.math.ndsu.nodak.edu/id.php?id=294385'
+  - label: 'arXiv au:Qian Tang (math categories)'
+    url: 'https://arxiv.org/a/tang_q_1'
+  - label: 'arXiv:2501.17516 Stokes Phenomenon and Yangians'
+    url: 'https://arxiv.org/abs/2501.17516'
+  - label: 'arXiv:2402.07269 Boundary condition for isomonodromy'
+    url: 'https://arxiv.org/abs/2402.07269'
 personal_notes: |
   两个几乎不相交的 cluster 之间的桥梁节点：
   - Cluster A（SISSA/Dubrovin 学派）：经典 Frobenius 流形、Painlevé、isomonodromy
   - Cluster B（Xu/Alekseev 学派）：quantum groups、Poisson geometry、Stokes 量子化
   同时在两组工作，研究方向是两个 cluster 的精确交叉点。
-
+  
   社交网络：
   - 杨成浪：好友
   - 季策：在张友金组活跃交流，和组里博士生很熟
   - 2026-04-17 HUST 会议将与杨成浪、王知远深入交流
+  
+  现职：清华大学博士后 (与张友金/刘思齐组合作；徐晓濛博士生)
+  趣闻：网络公开信息很少，主要通过 arXiv 合作链确认轨迹 (徐晓濛 → Yangian/Stokes 体系) [待补充: 主页/出生年份]
 tags:
   - tsinghua
   - pku

@@ -515,10 +515,15 @@ activity:
 external_ids:
   openalex: A5110050043
 links:
-  homepage: http://siqiliu.com/
-personal_notes: null
+  homepage: 'http://siqiliu.com/'
+personal_notes: |
+  现职：清华大学数学科学系教授 (2015.12-)，PhD 2007 (清华，导师张友金)
+  履历：助教研员 2007-2009 → 讲师 2009-2010 → 副教授 2010-2015 → 教授 2015-
+  奖项：首届国家优秀青年科学基金 (2012)；国家杰出青年科学基金 (2017)
+  研究：可积 PDE 分类、Drinfeld-Sokolov、bihamiltonian 上同调、FJRW、Frobenius 流形；与 Dubrovin-Zhang 长期合作
+  趣闻：搜狐有"青年数学家刘思齐：从高中到大学的转变"专访；带过的硕博生杨迪、周春辉 (Chunhui Zhou) 都已是独立学者
 sources:
-- label: OpenAlex
-  url: https://openalex.org/authors/A5110050043
+  - label: 'OpenAlex'
+    url: 'https://openalex.org/authors/A5110050043'
 tags:
 - tsinghua

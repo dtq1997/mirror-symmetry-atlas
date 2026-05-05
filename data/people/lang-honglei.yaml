@@ -340,39 +340,46 @@ activity:
 external_ids:
   openalex: A5078951562
 links:
-  homepage: "http://faculty.cau.edu.cn/lxy/lhl/list.htm"
-  email: "hllang@cau.edu.cn"
+  homepage: 'http://faculty.cau.edu.cn/lxy/lhl/list.htm'
+  email: 'hllang@cau.edu.cn'
 personal_notes: |
   中国农业大学理学院数学系副教授 (2018.01 起)。
   本科吉林大学 (2011)，博士北京大学 (2016)，博士期间 (2014.09-2015.11)
   在 Penn State 联培；2016-2018 在 MPIM Bonn 做博士后。
-
+  
   核心方向：Poisson geometry、Lie algebroid / Lie groupoid 及其高维化
   (Lie 2-algebra, Courant algebroid, quasi-Poisson groupoid)、
   Rota-Baxter 代数的几何化。数学物理背景。
-
+  
   主要合作者：
   (1) Zhangju Liu (刘张炬) - 8 篇，很可能是博士导师 [待验证]；
   (2) Yunhe Sheng (盛云和, 吉林大学) - 6 篇，本科起的合作；
   (3) Zhuo Chen (陈酌, 清华) - 5 篇。
-
+  
   与徐晓濛 (Xiaomeng Xu) 在博士早期有两篇合作 (2012 Dirac/Generalized
   Complex on Cartan Geometries, 2013 Strong homotopy Lie algebras)，
   两人可能在吉林大学或北大时期相识。这是她与本项目核心人物的直接连接。
-
+  
   与乔雨 (Yu Qiao) 2019 年合作 "On Lie Bialgebroid Crossed Modules"
   (1910.12225)，证实两人在 Lie bialgebroid 研究领域的联系。
-
+  
   主持 1 项 NSFC 项目。受 National Key Research and Development
   Program 2021YFA1002000 资助。2026 HUST 数学物理与几何研讨会参会。
+  
+  现职：中国农业大学理学院（数学系）
+  学历：北大博士（导师刘张君，[待验证]）；MPIM Bonn 博士后
+  重要奖项：NSFC 青年/面上（[待验证]）
+  趣闻：2024 *CMP* 论文（与陈酌、刘张君合作）建立 quasi-Poisson groupoid 上 multiplicative form 的 weak graded Lie 2-algebra；将 Drinfeld 1986 经典定理推广到 Poisson 2-group / Dirac 结构层面
 sources:
-  - label: "CAU faculty page"
-    url: "http://faculty.cau.edu.cn/lxy/lhl/list.htm"
-  - label: "ResearchGate (MPIM)"
-    url: "https://www.researchgate.net/profile/Honglei-Lang"
-  - label: "Sci China Math paper"
-    url: "https://link.springer.com/article/10.1007/s11425-023-2231-1"
-  - label: "CMP paper"
-    url: "https://link.springer.com/article/10.1007/s00220-024-05015-5"
+  - label: 'CAU faculty page'
+    url: 'http://faculty.cau.edu.cn/lxy/lhl/list.htm'
+  - label: 'ResearchGate (MPIM)'
+    url: 'https://www.researchgate.net/profile/Honglei-Lang'
+  - label: 'Sci China Math paper'
+    url: 'https://link.springer.com/article/10.1007/s11425-023-2231-1'
+  - label: 'CMP paper'
+    url: 'https://link.springer.com/article/10.1007/s00220-024-05015-5'
+  - label: '信息源'
+    url: 'https://arxiv.org/abs/2103.17073'
 tags:
   - cau

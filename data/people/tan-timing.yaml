@@ -39,9 +39,14 @@ personal_notes: |
   - 英文 Timing Tan 拼法也可能对应"谭挺铭""谭亭明"等其他汉字组合 [待验证]。
   - arXiv、HUST 教师目录、Google Scholar 搜索均未返回匹配项。
   - 建议：若下次用户提起此人，请他/她确认中文全名及导师；或若 4/17-19 会议后拿到签到册再补齐。
+  
+  现职：不详；可能为 HUST 在读博士生（旁听 2026 HUST 数学物理与几何研讨会）
+  学历：不详
+  研究：不详
+  趣闻：arXiv / Google Scholar / HUST 教师目录均无匹配；YAML `personal_notes` 已注明可能是录入误差或非官方与会者；中文名候选"谭悌明/谭挺铭/谭亭明"待核
 sources:
-  - label: "HUST 2026 会议手册 (此人不在邀请名单)"
-    url: "file:../conferences/2026-hust-mathphys-geometry.pdf"
+  - label: 'HUST 2026 会议手册 (此人不在邀请名单)'
+    url: 'file:../conferences/2026-hust-mathphys-geometry.pdf'
 tags:
   - hust
   - student

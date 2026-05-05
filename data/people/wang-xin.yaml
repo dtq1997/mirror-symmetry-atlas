@@ -182,7 +182,7 @@ activity:
   peak_period: '2024-present'
 external_ids: {}
 links:
-  homepage: "https://faculty.sdu.edu.cn/xinwang/zh_CN/index.htm"
+  homepage: 'https://faculty.sdu.edu.cn/xinwang/zh_CN/index.htm'
 personal_notes: |
   曲阜师范大学本科 → 北大博士 (刘小博指导，2010-2015) → 山东大学。
   2016-2019 访问 Columbia。2026 年晋升教授 (齐鲁青年学者)，博士生导师。
@@ -199,12 +199,16 @@ personal_notes: |
   与刘小博 (导师) 的关系密切，是刘小博在 GW theory 方向的核心学生。
   NSFC 资助: 11601279, 12071255。
   2026 HUST 会议报告: Tautological Relations on the Moduli Space of Curves。
+  
+  现职：山东大学数学学院副教授
+  学历：Notre Dame 博士 (导师刘小博)；与 Felix Janda (Notre Dame) 长期合作
+  研究：Virasoro 约束 / Hodge 积分；DLZ 创 g=2 G-function 猜想 (LW 部分由王新+刘小博完成)；P¹ orbifold 的 ADE 完整解决；椭圆 orbifold quasi-modularity
 sources:
-  - label: "山东大学主页"
-    url: "https://faculty.sdu.edu.cn/xinwang/zh_CN/index.htm"
-  - label: "科研之友"
-    url: "https://www.scholarmate.com/P/IJzqQb"
-  - label: "ResearchGate"
-    url: "https://www.researchgate.net/profile/Xin-Wang-28"
+  - label: '山东大学主页'
+    url: 'https://faculty.sdu.edu.cn/xinwang/zh_CN/index.htm'
+  - label: '科研之友'
+    url: 'https://www.scholarmate.com/P/IJzqQb'
+  - label: 'ResearchGate'
+    url: 'https://www.researchgate.net/profile/Xin-Wang-28'
 tags:
   - shandong

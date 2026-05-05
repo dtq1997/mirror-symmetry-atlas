@@ -772,7 +772,7 @@ activity:
 external_ids:
   openalex: A5103172200
 links:
-  homepage: "https://person.zju.edu.cn/yongbinruan"
+  homepage: 'https://person.zju.edu.cn/yongbinruan'
 personal_notes: |
   四川大学本科 → UC Berkeley 博士 (1991, Kirby 指导) → 密歇根大学教授 →
   2019 起浙大数学高等研究院永久教授、主任。
@@ -781,15 +781,20 @@ personal_notes: |
   2008 年与胡建勋、Tian-Jun Li 合作证明 uniruledness 的 birational invariance (Invent. Math.)，
   symplectic topology 里程碑成果。
   组织了数届国内 GW 理论 workshop，是国内该方向发展的关键推动者。
+  
+  现职：浙江大学数学高等研究院 (IASM) 主任; 此前 University of Michigan 教授
+  学历：四川大学本科+硕士 (1985) → UC Berkeley PhD (1991, 导师 Robion Kirby + Tomasz Mrowka, 论文 Gauge Theory and Riemannian Geometry)
+  研究：Gromov-Witten 理论开山; 量子上同调; Chen-Ruan orbifold cohomology; Crepant Transformation Conjecture (Ruan conjecture); Landau-Ginzburg/CY 对应 (FJRW 理论); Ruan-Tian conjecture (与田刚)
+  媒体/社交：浙大 IASM 主任身份带动的招聘和会议活跃, 知乎少有八卦
 sources:
-  - label: "浙大数学高等研究院主页"
-    url: "https://person.zju.edu.cn/yongbinruan"
-  - label: "Math Genealogy (id=32004)"
-    url: "https://www.mathgenealogy.org/id.php?id=32004"
-  - label: "Wikipedia: Yongbin Ruan"
-    url: "https://en.wikipedia.org/wiki/Yongbin_Ruan"
-  - label: "IASM homepage"
-    url: "http://www.iasm.zju.edu.cn/iasm/RuanYongbin/list.htm"
+  - label: '浙大数学高等研究院主页'
+    url: 'https://person.zju.edu.cn/yongbinruan'
+  - label: 'Math Genealogy (id=32004)'
+    url: 'https://www.mathgenealogy.org/id.php?id=32004'
+  - label: 'Wikipedia: Yongbin Ruan'
+    url: 'https://en.wikipedia.org/wiki/Yongbin_Ruan'
+  - label: 'IASM homepage'
+    url: 'http://www.iasm.zju.edu.cn/iasm/RuanYongbin/list.htm'
 tags:
   - important-person
   - zju

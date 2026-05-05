@@ -277,7 +277,7 @@ activity:
   active_period: '2011-present'
 external_ids: {}
 links:
-  homepage: "http://jszy.whu.edu.cn/raosheng"
+  homepage: 'http://jszy.whu.edu.cn/raosheng'
 personal_notes: |
   武汉大学数学与统计学院教授(2019 起)、博士生导师。研究方向：多复变与复几何 (复几何、
   Hodge 理论、变形理论、Moishezon 流形)。2011 年博士毕业后在浙大数学中心博士后
@@ -285,10 +285,14 @@ personal_notes: |
   与 Kefeng Liu (刘克峰) 合作 4 篇，这可能指向博士师承 [待验证]。
   近年与 Christopher D. Hacon 等国际学者合作，研究 Kahler 族中的 adjoint classes。
   2026 年 HUST 数学物理与几何研讨会武大参会学者之一。
+  
+  现职：武汉大学数学与统计学院 教授 — https://www.researchgate.net/profile/Sheng-Rao-2
+  研究：复几何、形变理论、Hodge 理论、Moishezon 流形、CR 几何、∂∂̄-引理、对数微分形式
+  趣闻：2025-11 浙大 IASM 主讲 "A rough introduction to deformation theory" + "Several Rigidity Theorems under Smooth Deformations" — http://www.iasm.zju.edu.cn/iasm/2025/1209/c69188a3117328/page.htm
 sources:
-  - label: "武汉大学教师主页 (饶胜)"
-    url: "http://jszy.whu.edu.cn/raosheng"
-  - label: "武大数统学院专任教师"
-    url: "https://maths.whu.edu.cn/teacher/zrjs.htm"
+  - label: '武汉大学教师主页 (饶胜)'
+    url: 'http://jszy.whu.edu.cn/raosheng'
+  - label: '武大数统学院专任教师'
+    url: 'https://maths.whu.edu.cn/teacher/zrjs.htm'
 tags:
   - wuhan

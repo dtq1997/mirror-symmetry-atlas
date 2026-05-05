@@ -198,17 +198,18 @@ activity:
   active_period: '2012-present'
   peak_period: '2021-present'
 external_ids: {}
-links: {}
+links:
+  homepage: 'https://www.gbu.edu.cn/detail/article/410'
 personal_notes: |
   清华本博（周坚组，2002-2014）→ BICMR 博后（2014-2016）→ 中山大学特聘副研究员（2016-2022）
   → 大湾区大学 tenure-track 副教授（2022.12-）。
-
+  
   **与张庆生同门：** 两人都是周坚的学生（张庆生 2015-2020），且 2022-2024 年前后都进入大湾区大学，
   是本项目中的重要同门连接。
-
+  
   研究方向：Gromov-Witten 理论、镜像对称（特别是二次超曲面与 Fano 完全交）、量子上同调、
   Picard-Fuchs 方程、代数 K 理论、Hodge 理论。
-
+  
   代表作：
   - "Mirror symmetry for quadric hypersurfaces" (2022) — 计算二次超曲面的 Landau-Ginzburg
     镜像模型的 Calabi-Yau compactification，推导 narrow 与 broad Picard-Fuchs 方程，
@@ -216,20 +217,27 @@ personal_notes: |
   - "Gamma conjecture II for quadrics" (2021, with Hua-Zhong Ke)
   - "Big quantum cohomology of Fano complete intersections" (2015)
   - "The Quantum McKay Correspondence for Singularities of type D" (2012)
-
+  
   近期有向代数 K 理论（Witt 向量上 smooth schemes）的方向扩展。
-
+  
   发表于 Adv. Math., IMRN, Math. Ann., Manuscripta Math., Sci. China Math. 等。
-
+  
   2026 HUST 会议参会者。研究方向与本项目核心（Frobenius 流形、镜像对称）高度重合，
   是重要的桥接节点。
+  
+  现职：大湾区大学（GBU）副教授；email huxiaowen@gbu.edu.cn
+  学历：2002–06 清华大学数学系本科 → 2006–14 清华大学数学系博士；2014–16 北大 BICMR 博士后；2016–22 中山大学特聘副研究员
+  重要奖项：NSFC 青年项目；中国博士后科学基金；广州市科技计划项目
+  趣闻：发表论文涵盖 *Adv. Math.* / *IMRN* / *Math. Ann.* / *J. Pure Appl. Algebra* / *Sci. China Math.*；2022 从中大转入新成立的大湾区大学（依托东莞松山湖大湾区高等研究院），属 GBU 早期数学教师之一
 sources:
-  - label: "GBU faculty page (English)"
-    url: "https://www.gbu.edu.cn/detail/article/410?lang=en"
-  - label: "东南大学丘成桐中心学术报告通知 2021"
-    url: "https://yauc.seu.edu.cn/2021/0315/c27641a364305/page.htm"
-  - label: "大湾区大学招聘"
-    url: "https://www.gbu.edu.cn/detail/article/1305"
+  - label: 'GBU faculty page (English)'
+    url: 'https://www.gbu.edu.cn/detail/article/410?lang=en'
+  - label: '东南大学丘成桐中心学术报告通知 2021'
+    url: 'https://yauc.seu.edu.cn/2021/0315/c27641a364305/page.htm'
+  - label: '大湾区大学招聘'
+    url: 'https://www.gbu.edu.cn/detail/article/1305'
+  - label: '信息源'
+    url: 'https://www.gbu.edu.cn/detail/article/410'
 tags:
   - gbu
   - bridge-node
