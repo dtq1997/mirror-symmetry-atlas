@@ -133,9 +133,9 @@ key_collaborators:
   topic: Kashiwara-Vergne, WKB
   papers_count: 2
 activity:
-  total_papers: 90
-  published_count: 63
-  preprint_only_count: 27
+  total_papers: 91
+  published_count: 80
+  preprint_only_count: 11
   h_index: 26
   active_period: '1991-present'
   phd_students: 20
@@ -183,6 +183,8 @@ publications:
     title: 'Multiple Horn problems for planar networks and invertible matrices'
     year: 2025
     coauthors: ['Arkady Berenstein', 'Anfisa Gurenkova', 'Yanpeng Li']
+    doi: '10.1016/j.aim.2025.110614'
+    journal: 'Advances in Mathematics'
     primary_category: math.RT
     sources: [arxiv]
   - id: '2409.08894'
@@ -198,12 +200,16 @@ publications:
     title: 'WKB asymptotics of Stokes matrices, spectral curves and rhombus inequalities'
     year: 2024
     coauthors: ['Andrew Neitzke', xu-xiaomeng, 'Yan Zhou']
+    doi: '10.1007/s00220-024-05133-0'
+    journal: 'Communications in Mathematical Physics'
     primary_category: math-ph
     sources: [arxiv]
   - id: '2402.19138'
     title: 'Generalized Pentagon Equations'
     year: 2024
     coauthors: ['Florian Naef', 'Muze Ren']
+    doi: '10.1007/s00023-024-01523-1'
+    journal: 'Annales Henri Poincaré'
     primary_category: math.QA
     sources: [arxiv]
   - id: '2401.03029'
@@ -253,6 +259,8 @@ publications:
     title: 'Towards bosonization of Virasoro coadjoint orbits'
     year: 2022
     coauthors: ['Olga Chekeres', 'Donald R. Youmans']
+    doi: '10.1007/s00023-023-01294-1'
+    journal: 'Annales Henri Poincaré'
     primary_category: math-ph
     sources: [arxiv]
   - id: '2210.08944'
@@ -295,6 +303,8 @@ publications:
     title: 'Stochastic differential equations for Lie group valued moment maps'
     year: 2019
     coauthors: ['Elizaveta Arzhakova', 'Daria Smirnova']
+    doi: '10.1214/21-ecp427'
+    journal: 'Electronic Communications in Probability'
     primary_category: math-ph
     sources: [arxiv]
   - id: '1901.07829'
@@ -308,6 +318,8 @@ publications:
     title: 'Goldman-Turaev formality implies Kashiwara-Vergne'
     year: 2018
     coauthors: ['Nariya Kawazumi', 'Yusuke Kuno', 'Florian Naef']
+    doi: '10.4171/qt/143'
+    journal: 'Quantum Topology'
     primary_category: math.GT
     sources: [arxiv]
   - id: '1808.06975'
@@ -372,6 +384,8 @@ publications:
     title: 'Goldman-Turaev formality from the Knizhnik-Zamolodchikov connection'
     year: 2017
     coauthors: ['Florian Naef']
+    doi: '10.1016/j.crma.2017.10.013'
+    journal: 'Comptes Rendus. Mathématique'
     primary_category: math.QA
     sources: [arxiv]
   - id: '1703.05813'
@@ -410,6 +424,8 @@ publications:
     title: 'Higher genus Kashiwara-Vergne problems and the Goldman-Turaev Lie bialgebra'
     year: 2016
     coauthors: ['Nariya Kawazumi', 'Yusuke Kuno', 'Florian Naef']
+    doi: '10.1016/j.crma.2016.12.007'
+    journal: 'Comptes Rendus. Mathématique'
     primary_category: math.QA
     sources: [arxiv]
   - id: '1507.06343'
@@ -432,6 +448,8 @@ publications:
     title: 'Divergence and q-divergence in depth 2'
     year: 2014
     coauthors: ['Anna Lachowska', 'Elise Raphael']
+    doi: '10.5802/jolt.876'
+    journal: 'Journal of Lie Theory'
     primary_category: math.QA
     sources: [arxiv]
   - id: '1410.3149'
@@ -444,6 +462,8 @@ publications:
     title: 'Logarithms and deformation quantization'
     year: 2014
     coauthors: ['Carlo A. Rossi', 'Charles Torossian', 'Thomas Willwacher']
+    doi: '10.1007/s00222-016-0647-7'
+    journal: 'Inventiones mathematicae'
     primary_category: math.QA
     sources: [arxiv]
   - id: '1312.1223'
@@ -477,6 +497,8 @@ publications:
     title: 'On the Kostant conjecture for Clifford algebra'
     year: 2011
     coauthors: ['Anne Moreau']
+    doi: '10.1016/j.crma.2011.11.018'
+    journal: 'Comptes Rendus. Mathématique'
     primary_category: math.RT
     sources: [arxiv]
   - id: '1012.3113'
@@ -499,6 +521,8 @@ publications:
     title: 'Equivariant cohomology and current algebras'
     year: 2010
     coauthors: ['Pavol Severa']
+    doi: '10.1142/s1793744212500016'
+    journal: 'Confluentes Mathematici'
     primary_category: math.DG
     sources: [arxiv]
   - id: '1005.2111'
@@ -513,12 +537,16 @@ publications:
     title: 'On rational Drinfeld associators'
     year: 2010
     coauthors: ['Masha Podkopaeva', 'Pavol Severa']
+    doi: '10.1007/s00029-010-0035-x'
+    journal: 'Selecta Mathematica'
     primary_category: math.QA
     sources: [arxiv]
   - id: '0909.3743'
     title: 'On triviality of the Kashiwara-Vergne problem for quadratic Lie algebras'
     year: 2009
     coauthors: ['Charles Torossian']
+    doi: '10.1016/j.crma.2009.09.021'
+    journal: 'Comptes Rendus. Mathématique'
     primary_category: math.QA
     sources: [arxiv]
   - id: '0802.4300'
@@ -653,6 +681,8 @@ publications:
     title: 'Manin pairs and moment maps'
     year: 1999
     coauthors: ['Yvette Kosmann-Schwarzbach']
+    doi: '10.4310/jdg/1090347528'
+    journal: 'Journal of Differential Geometry'
     primary_category: math.DG
     sources: [arxiv]
   - id: '9905130'
@@ -701,6 +731,8 @@ publications:
     title: 'Lie Group Valued Moment Maps'
     year: 1997
     coauthors: ['Anton Malkin', 'Eckhard Meinrenken']
+    doi: '10.4310/jdg/1214460860'
+    journal: 'Journal of Differential Geometry'
     primary_category: math.DG
     sources: [arxiv]
   - id: 'doi:10.1007/978-1-4899-1801-7_1'
@@ -832,6 +864,14 @@ publications:
     journal: 'Journal of Geometry and Physics'
     openalex_id: W2049293658
     sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1063/5.0172663'
+    title: 'Introduction to the special collection: International congress on mathematical physics 2021'
+    year: 2023
+    coauthors: []
+    doi: '10.1063/5.0172663'
+    journal: 'Journal of Mathematical Physics'
+    sources: [crossref]
     no_arxiv: true
 sources:
 - label: Math Genealogy

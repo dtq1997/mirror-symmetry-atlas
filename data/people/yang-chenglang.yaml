@@ -288,9 +288,17 @@ publications:
     primary_category: math.AG
     openalex_id: W4366121889
     sources: [arxiv, openalex]
+  - id: 'doi:10.1007/s00208-026-03476-8'
+    title: 'Correlation function of self-conjugate partitions: q-difference equation and quasimodularity'
+    year: 2026
+    coauthors: []
+    doi: '10.1007/s00208-026-03476-8'
+    journal: 'Mathematische Annalen'
+    sources: [crossref]
+    no_arxiv: true
 activity:
-  total_papers: 23
-  published_count: 21
+  total_papers: 24
+  published_count: 22
   preprint_only_count: 2
   active_period: '2021-present'
   confidence: 'has-1-review-pending'
@@ -304,6 +312,7 @@ activity:
   oa_total_papers: 31
 external_ids:
   openalex: A5030830237
+  orcid: '0000-0002-8511-4650'
 links:
   google_scholar: https://scholar.google.com/citations?user=WXr74McAAAAJ
 personal_notes: '北理工本科 → PKU 博士(刘小博) → AMSS 博后 → 2025 起武汉大学助理教授。

@@ -267,6 +267,16 @@ export default async function PersonPage({
               const hasSlug = !!collab.person;
               const displayName = collab.person || (collab as { name?: string }).name || "";
               const searchName = (collab.person || (collab as { name?: string }).name || "").replace(/-/g, " ");
+              // Look up live coauthored_papers from publications-derived edge,
+              // so the count + breakdown match the "合著者" panel exactly.
+              const matchEdge = coauthors.find((c) => {
+                const otherSlug = c.source === slug ? c.target : c.source;
+                return otherSlug === collab.person;
+              });
+              const cp = matchEdge?.coauthored_papers;
+              const pubCount = cp?.published.length ?? 0;
+              const preCount = cp?.preprint.length ?? 0;
+              const totalKnown = pubCount + preCount;
               return (
               <div
                 key={collab.person || `${displayName}-${idx}`}
@@ -283,16 +293,32 @@ export default async function PersonPage({
                   ) : (
                     <span className="text-sm font-medium text-[#a8a8b8]">{displayName}</span>
                   )}
-                  <div className="flex items-center gap-2 text-xs text-[#8888a0]">
-                    {collab.papers_count && (
-                      <a
-                        href={`https://arxiv.org/search/?searchtype=author&query=${encodeURIComponent(searchName)}`}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="text-[#6366f1] hover:text-[#818cf8] transition-colors"
-                      >
-                        {collab.papers_count} 篇
-                      </a>
+                  <div className="flex items-center gap-2 text-xs text-[#8888a0] flex-wrap justify-end">
+                    {totalKnown > 0 ? (
+                      <>
+                        {pubCount > 0 && (
+                          <span className="px-1.5 py-0.5 rounded bg-[#22c55e]/10 text-[#22c55e] border border-[#22c55e]/20 font-mono">
+                            {pubCount} 已发表
+                          </span>
+                        )}
+                        {preCount > 0 && (
+                          <span className="px-1.5 py-0.5 rounded bg-[#f59e0b]/10 text-[#f59e0b] border border-[#f59e0b]/20 font-mono">
+                            {preCount} 仅预印
+                          </span>
+                        )}
+                      </>
+                    ) : (
+                      collab.papers_count && (
+                        <a
+                          href={`https://arxiv.org/search/?searchtype=author&query=${encodeURIComponent(searchName)}`}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-[#6366f1] hover:text-[#818cf8] font-mono"
+                          title="未在双方 publications 列表中找到合著记录，显示的是 yaml 手填值"
+                        >
+                          {collab.papers_count} 篇 (键值)
+                        </a>
+                      )
                     )}
                     {collab.since && <span>{collab.since} 起</span>}
                   </div>
@@ -304,6 +330,38 @@ export default async function PersonPage({
                   <p className="text-xs text-[#8888a0] mt-1 italic">
                     {collab.met_context}
                   </p>
+                )}
+                {totalKnown > 0 && cp && (
+                  <details className="mt-2">
+                    <summary className="text-[10px] text-[#8888a0] cursor-pointer hover:text-[#e8e8f0]">
+                      展开 {totalKnown} 篇合著论文
+                    </summary>
+                    <ul className="mt-2 space-y-1 text-[11px]">
+                      {[...cp.published, ...cp.preprint]
+                        .sort((a, b) => (b.year ?? 0) - (a.year ?? 0))
+                        .map((paper) => {
+                          const isPub = "doi" in paper && (paper as { doi?: string }).doi;
+                          const isPubByJournal = "journal" in paper && (paper as { journal?: string }).journal;
+                          const published = isPub || isPubByJournal;
+                          const href = (paper as { doi?: string }).doi
+                            ? `https://doi.org/${(paper as { doi: string }).doi}`
+                            : `https://arxiv.org/abs/${paper.id}`;
+                          return (
+                            <li key={paper.id} className="flex gap-2 items-baseline">
+                              <span className={`shrink-0 w-2 h-2 rounded-full mt-1 ${published ? "bg-[#22c55e]" : "bg-[#f59e0b]"}`} />
+                              <a
+                                href={href}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="text-[#a8a8b8] hover:text-[#e8e8f0]"
+                              >
+                                [{paper.year}] {paper.title}
+                              </a>
+                            </li>
+                          );
+                        })}
+                    </ul>
+                  </details>
                 )}
               </div>
             );

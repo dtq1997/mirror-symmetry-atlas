@@ -325,9 +325,17 @@ publications:
     year: 1996
     coauthors: ['Zhujun Zheng', 'Ke Wu', 'Shikun Wang']
     primary_category: hep-th
+  - id: 'doi:10.1142/s0129167x15500093'
+    title: 'The Gromov–Witten invariants of the Hilbert schemes of points on surfaces with p<sub>g</sub> &gt; 0'
+    year: 2015
+    coauthors: []
+    doi: '10.1142/s0129167x15500093'
+    journal: 'International Journal of Mathematics'
+    sources: [crossref]
+    no_arxiv: true
 activity:
-  total_papers: 23
-  published_count: 5
+  total_papers: 24
+  published_count: 6
   preprint_only_count: 18
   active_period: '1995-present'
 external_ids: {}

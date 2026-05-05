@@ -140,6 +140,8 @@ publications:
     title: 'Drinfeld Module and Weil pairing over Dedekind domain of class number two'
     year: 2023
     coauthors: ['Xiao-Min Huang']
+    doi: '10.1016/j.ffa.2024.102516'
+    journal: 'Finite Fields and Their Applications'
     primary_category: math.NT
     sources: [arxiv]
   - id: '2309.00432'
@@ -154,6 +156,8 @@ publications:
     title: 'A Modular Interpretation of BBGS Towers'
     year: 2019
     coauthors: ['Rui Chen', chen-zhuo]
+    doi: '10.1016/j.jnt.2020.06.006'
+    journal: 'Journal of Number Theory'
     primary_category: math.NT
     sources: [arxiv]
   - id: '1911.04269'
@@ -185,16 +189,20 @@ publications:
     title: 'Weierstrass Semigroups from Kummer Extensions'
     year: 2016
     coauthors: [yang-di]
+    doi: '10.1016/j.ffa.2016.12.005'
+    journal: 'Finite Fields and Their Applications'
     sources: [arxiv]
   - id: '1607.05462'
     title: 'Multi-point Codes over Kummer Extensions'
     year: 2016
     coauthors: []
+    doi: '10.1007/s10623-017-0335-7'
+    journal: 'Designs, Codes and Cryptography'
     sources: [arxiv]
 activity:
   total_papers: 15
-  published_count: 6
-  preprint_only_count: 9
+  published_count: 10
+  preprint_only_count: 5
   active_period: '2016-present'
   confidence: 'has-2-review-pending'
 external_ids:

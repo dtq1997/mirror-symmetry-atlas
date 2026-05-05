@@ -92,6 +92,8 @@ publications:
     title: 'Isoparametric foliations and complex structures'
     year: 2025
     coauthors: [chao-qian, 'Zizhou Tang', 'Wenjiao Yan']
+    doi: '10.1142/s0129167x26500400'
+    journal: 'International Journal of Mathematics'
     primary_category: math.DG
     sources: [arxiv]
   - id: '2410.22670'
@@ -154,12 +156,16 @@ publications:
     title: 'Ricci curvature of double manifolds via isoparametric foliations'
     year: 2016
     coauthors: ['ChiaKuei Peng', chao-qian]
+    doi: '10.1016/j.aim.2017.03.001'
+    journal: 'Advances in Mathematics'
     primary_category: math.DG
     sources: [arxiv]
   - id: '1501.07802'
     title: 'Differential topology interacts with isoparametric foliations'
     year: 2015
     coauthors: ['Jianquan Ge', chao-qian]
+    doi: '10.1007/978-4-431-56021-0_8'
+    journal: 'Springer Proceedings in Mathematics &amp; Statistics Geometry and Topology of Manifolds'
     primary_category: math.DG
     sources: [arxiv]
   - id: '1407.0539'
@@ -173,12 +179,16 @@ publications:
     title: 'Recent progress in isoparametric functions and isoparametric hypersurfaces'
     year: 2014
     coauthors: [chao-qian, 'Zizhou Tang']
+    doi: '10.1007/978-4-431-55215-4_6'
+    journal: 'Springer Proceedings in Mathematics &amp; Statistics Real and Complex Submanifolds'
     primary_category: math.DG
     sources: [arxiv]
   - id: '1303.6028'
     title: 'Isoparametric functions on exotic spheres'
     year: 2013
     coauthors: [chao-qian, 'Zizhou Tang']
+    doi: '10.1016/j.aim.2014.12.020'
+    journal: 'Advances in Mathematics'
     primary_category: math.DG
     sources: [arxiv]
   - id: '1204.2917'
@@ -196,8 +206,8 @@ publications:
     sources: [arxiv]
 activity:
   total_papers: 16
-  published_count: 6
-  preprint_only_count: 10
+  published_count: 11
+  preprint_only_count: 5
   active_period: '2024-present'
   confidence: 'has-2-review-pending'
   quality_source: 'openalex + ruirui-2026'

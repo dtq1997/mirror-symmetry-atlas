@@ -184,11 +184,15 @@ publications:
     title: 'The weak Lie 2-algebra of multiplicative forms on a quasi-Poisson groupoid'
     year: 2023
     coauthors: [lang-honglei, 'Zhangju Liu']
+    doi: '10.1007/s00220-024-05015-5'
+    journal: 'Communications in Mathematical Physics'
     primary_category: math.DG
   - id: '2211.06943'
     title: 'MSW-type compactifications of 6d $(1,0)$ SCFTs on 4-manifolds'
     year: 2022
     coauthors: ['Jin Chen', 'Wei Cui', 'Babak Haghighat']
+    doi: '10.4310/atmp.2023.v27.n6.a5'
+    journal: 'Advances in Theoretical and Mathematical Physics'
     primary_category: hep-th
   - id: '2210.01999'
     title: 'Locally finite infinity-modules and weak Loday-Pirashvili modules over differential graded Lie algebras'
@@ -211,6 +215,8 @@ publications:
     title: 'Multiplicative forms on Poisson groupoids'
     year: 2022
     coauthors: [lang-honglei, 'Zhangju Liu']
+    doi: '10.1007/s11425-023-2231-1'
+    journal: 'Science China Mathematics'
     primary_category: math.DG
   - id: '2110.11623'
     title: 'Dg Loday-Pirashvili modules over Lie algebras'
@@ -236,6 +242,8 @@ publications:
     title: 'A GLSM view on Homological Projective Duality'
     year: 2020
     coauthors: ['Jirui Guo', 'Mauricio Romo']
+    doi: '10.1007/s00220-022-04401-1'
+    journal: 'Communications in Mathematical Physics'
     primary_category: hep-th
   - id: '2003.13384'
     title: 'On the reduced space of multiplicative multivectors'
@@ -246,6 +254,8 @@ publications:
     title: 'A Modular Interpretation of BBGS Towers'
     year: 2019
     coauthors: ['Rui Chen', hu-chuangqiang]
+    doi: '10.1016/j.jnt.2020.06.006'
+    journal: 'Journal of Number Theory'
     primary_category: math.NT
   - id: '1911.01388'
     title: 'Hopf algebras arising from dg manifolds'
@@ -311,6 +321,8 @@ publications:
     title: 'Holomorphic Poisson Cohomology'
     year: 2014
     coauthors: ['Daniele Grandini', 'Yat-Sun Poon']
+    doi: '10.1515/coma-2015-0005'
+    journal: 'Complex Manifolds'
     primary_category: math.DG
   - id: '1204.1075'
     title: 'From Atiyah Classes to Homotopy Leibniz Algebras'
@@ -357,6 +369,8 @@ publications:
     title: 'On the $\pd$- and $\barpd$-Operators of a Generalized Complex Structure'
     year: 2008
     coauthors: []
+    doi: '10.2140/pjm.2009.242.53'
+    journal: 'Pacific Journal of Mathematics'
     primary_category: math.DG
   - id: '0805.4093'
     title: 'E-Courant algebroids'
@@ -379,8 +393,8 @@ publications:
     primary_category: math.DG
 activity:
   total_papers: 39
-  published_count: 23
-  preprint_only_count: 16
+  published_count: 30
+  preprint_only_count: 9
   active_period: '2005-present'
   peak_period: '2020-present'
 external_ids:

@@ -231,16 +231,22 @@ publications:
     title: 'Graph neural networks for simulating crack coalescence and propagation in brittle materials'
     year: 2021
     coauthors: ['Roberto Perera', 'Vinamra Agrawal']
+    doi: '10.1016/j.cma.2022.115021'
+    journal: 'Computer Methods in Applied Mechanics and Engineering'
     sources: [arxiv]
   - id: '2101.06474'
     title: 'Optimized and autonomous machine learning framework for characterizing pores, particles, grains and grain boundaries in microstructural images'
     year: 2021
     coauthors: ['Roberto Perera', 'Vinamra Agrawal']
+    doi: '10.1016/j.commatsci.2021.110524'
+    journal: 'Computational Materials Science'
     sources: [arxiv]
   - id: '1901.02881'
     title: 'Multi-Revolution Low-Thrust Trajectory Optimization Using Symplectic Methods'
     year: 2019
     coauthors: ['Zhibo E']
+    doi: '10.1007/s11431-019-9511-7'
+    journal: 'Science China Technological Sciences'
     sources: [arxiv]
   - id: 'doi:10.1515/9783110611427-011'
     title: 'Isomonodromy deformations with coalescing eigenvalues and applications – Będlewo 2018'
@@ -536,8 +542,8 @@ publications:
     no_arxiv: true
 activity:
   total_papers: 50
-  published_count: 44
-  preprint_only_count: 6
+  published_count: 47
+  preprint_only_count: 3
   h_index: 11
   active_period: '1999-present'
   quality_source: 'openalex + ruirui-2026'

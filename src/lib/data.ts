@@ -154,8 +154,12 @@ export function getAllConnections(): Connection[] {
   }
 
   // Auto-derive coauthor edges from key_collaborators when both endpoints are built.
-  // Skip if pair already present in declared coauthor edges.
+  // **Publications-derived edges OVERRIDE declared coauthor edges** because the
+  // declared yaml had hand-typed weights that drift out of sync with reality.
+  // We never trust hand-typed papers_count for the coauthor count.
   const declaredCoauthor = new Set<string>();
+  // Build set of pairs declared in connections/coauthorship.yaml (so we
+  // can REMOVE them when we have a publications-derived alternative).
   for (const c of connections) {
     if (c.type !== "coauthor") continue;
     const k = [c.source, c.target].sort().join("|");
@@ -209,12 +213,16 @@ export function getAllConnections(): Connection[] {
   }
 
   // Emit a coauthor edge per pair with at least one shared paper.
+  // These edges OVERRIDE any declared coauthor edges for the same pair,
+  // because publications data is authoritative.
+  const overriddenDeclared = new Set<string>();
   for (const [key, bucket] of pairPapers) {
     const [a, b] = key.split("|");
-    if (declaredCoauthor.has(key) || derivedSeen.has(key)) continue;
+    if (derivedSeen.has(key)) continue;
     derivedSeen.add(key);
     const total = bucket.published.length + bucket.preprint.length;
     if (total === 0) continue;
+    if (declaredCoauthor.has(key)) overriddenDeclared.add(key);
     const allYears = [...bucket.published, ...bucket.preprint]
       .map((p) => p.year).filter((y): y is number => typeof y === "number")
       .sort((x, y) => x - y);
@@ -227,6 +235,18 @@ export function getAllConnections(): Connection[] {
       derived: true,
       coauthored_papers: bucket,
     } as Connection);
+  }
+
+  // Filter out the now-overridden declared coauthor edges to prevent duplicates.
+  if (overriddenDeclared.size > 0) {
+    for (let i = connections.length - 1; i >= 0; i--) {
+      const c = connections[i];
+      if (c.type !== "coauthor" || (c as Connection & {derived?: boolean}).derived) continue;
+      const k = [c.source, c.target].sort().join("|");
+      if (overriddenDeclared.has(k)) {
+        connections.splice(i, 1);
+      }
+    }
   }
 
   // Also keep declared key_collaborators that didn't show up in publications

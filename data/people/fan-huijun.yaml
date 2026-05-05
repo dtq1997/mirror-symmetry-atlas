@@ -197,6 +197,8 @@ publications:
     title: 'The Moduli Space in the Gauged Linear Sigma Model'
     year: 2016
     coauthors: ['Tyler Jarvis', 'Yongbin Ruan']
+    doi: '10.1007/s11401-017-1104-7'
+    journal: 'Chinese Annals of Mathematics, Series B'
     primary_category: math.AG
   - id: '1506.02109'
     title: 'A Mathematical Theory of the Gauged Linear Sigma Model'
@@ -240,6 +242,8 @@ publications:
     title: 'Martin points on open manifolds of non-positive curvature'
     year: 2005
     coauthors: ['Jianguo Cao', 'Francois Ledrappier']
+    doi: '10.1090/s0002-9947-07-04102-5'
+    journal: 'Transactions of the American Mathematical Society'
     primary_category: math.DG
   - id: '0409434'
     title: 'Geometry and analysis of spin equations'
@@ -250,6 +254,8 @@ publications:
     title: 'Conley Index Theory and Novikov-Morse Theory'
     year: 2003
     coauthors: ['Juergen Jost']
+    doi: '10.4310/pamq.2005.v1.n4.a10'
+    journal: 'Pure and Applied Mathematics Quarterly'
     primary_category: math.GT
   - id: '0106234'
     title: 'Harmonic Hopf Constructions Between Spheres II'
@@ -265,6 +271,8 @@ publications:
     title: 'Martin points on open manifolds of non-positive curvature'
     year: 2005
     coauthors: ['Jianguo Cao', 'Francois Ledrappier']
+    doi: '10.1090/s0002-9947-07-04102-5'
+    journal: 'Transactions of the American Mathematical Society'
   - id: 'math/0409434'
     title: 'Geometry and analysis of spin equations'
     year: 2004
@@ -273,6 +281,8 @@ publications:
     title: 'Conley Index Theory and Novikov-Morse Theory'
     year: 2003
     coauthors: ['Juergen Jost']
+    doi: '10.4310/pamq.2005.v1.n4.a10'
+    journal: 'Pure and Applied Mathematics Quarterly'
   - id: 'math/0106234'
     title: 'Harmonic Hopf Constructions Between Spheres II'
     year: 2001
@@ -283,8 +293,8 @@ publications:
     coauthors: ['Juergen Jost']
 activity:
   total_papers: 22
-  published_count: 2
-  preprint_only_count: 20
+  published_count: 7
+  preprint_only_count: 15
   active_period: '2000-present'
 external_ids:
   mathgenealogy: "240326"
