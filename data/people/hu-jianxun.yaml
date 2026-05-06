@@ -8,69 +8,69 @@ nationality: Chinese
 gender: male
 photo_url: null
 career_timeline:
-  - period: "1979-1983"
-    type: education
-    institution: lanzhou-university
-    role: "本科"
-    notes: "兰州大学数学系"
-  - period: "1983-1987"
-    type: education
-    institution: lanzhou-university
-    role: "硕士"
-    notes: "兰州大学数学系"
-  - period: "1987-1993"
-    type: education
-    institution: lanzhou-university
-    role: "博士"
-    notes: "兰州大学数学系"
-  - period: "1993-1995"
-    type: position
-    institution: sun-yat-sen
-    role: "博士后"
-    notes: "中山大学物理系理论物理专业博士后"
-  - period: "1995-1995"
-    type: position
-    institution: sun-yat-sen
-    role: "讲师"
-    notes: "中山大学数学系 (1995.9-1995.11)"
-  - period: "1995-2002"
-    type: position
-    institution: sun-yat-sen
-    role: "副教授"
-    notes: "中山大学数学系"
-  - period: "1998"
-    type: visit
-    institution: uw-madison
-    role: "访问学者"
-    notes: "美国 Wisconsin 大学数学系 (1998.2-1998.10)"
-  - period: "2000"
-    type: visit
-    institution: mpim-bonn
-    role: "访问学者"
-    notes: "德国波恩 Max-Planck 数学研究所 (2000.7-2000.12)"
-  - period: "2002-present"
-    type: position
-    institution: sun-yat-sen
-    role: "教授"
-    notes: "中山大学数学学院教授、副院长；2003 年获博士生导师资格"
-  - period: "2002-2003"
-    type: visit
-    institution: hkust
-    role: "访问学者"
-    notes: "香港科技大学数学系 (2002.11-2003.4)"
-  - period: "2004"
-    type: award
-    title: "教育部新世纪优秀人才支持计划"
-    notes: "入选"
-  - period: "2007-2007"
-    type: visit
-    institution: umich
-    role: "访问学者"
-    notes: "美国密歇根大学数学系 (2007.2-2007.12)"
-  - period: "2008"
-    type: award
-    title: "国家杰出青年科学基金 (杰青)"
-    notes: "项目: 辛拓扑与数学物理 (2009-2012)"
+- period: 1979-1983
+  type: education
+  institution: lanzhou-university
+  role: 本科
+  notes: 兰州大学数学系
+- period: 1983-1987
+  type: education
+  institution: lanzhou-university
+  role: 硕士
+  notes: 兰州大学数学系
+- period: 1987-1993
+  type: education
+  institution: lanzhou-university
+  role: 博士
+  notes: 兰州大学数学系
+- period: 1993-1995
+  type: position
+  institution: sun-yat-sen
+  role: 博士后
+  notes: 中山大学物理系理论物理专业博士后
+- period: 1995-1995
+  type: position
+  institution: sun-yat-sen
+  role: 讲师
+  notes: 中山大学数学系 (1995.9-1995.11)
+- period: 1995-2002
+  type: position
+  institution: sun-yat-sen
+  role: 副教授
+  notes: 中山大学数学系
+- period: '1998'
+  type: visit
+  institution: uw-madison
+  role: 访问学者
+  notes: 美国 Wisconsin 大学数学系 (1998.2-1998.10)
+- period: '2000'
+  type: visit
+  institution: mpim-bonn
+  role: 访问学者
+  notes: 德国波恩 Max-Planck 数学研究所 (2000.7-2000.12)
+- period: 2002-present
+  type: position
+  institution: sun-yat-sen
+  role: 教授
+  notes: 中山大学数学学院教授、副院长；2003 年获博士生导师资格
+- period: 2002-2003
+  type: visit
+  institution: hkust
+  role: 访问学者
+  notes: 香港科技大学数学系 (2002.11-2003.4)
+- period: '2004'
+  type: award
+  title: 教育部新世纪优秀人才支持计划
+  notes: 入选
+- period: 2007-2007
+  type: visit
+  institution: umich
+  role: 访问学者
+  notes: 美国密歇根大学数学系 (2007.2-2007.12)
+- period: '2008'
+  type: award
+  title: 国家杰出青年科学基金 (杰青)
+  notes: '项目: 辛拓扑与数学物理 (2009-2012)'
 research_areas:
   - gromov-witten-theory
   - symplectic-topology
@@ -160,50 +160,50 @@ advisor: null
 students:
   - he-weiqiang  # [待验证] 师承关系
 key_collaborators:
-  - person: ke-huazhong
-    since: 2014
-    topic: "Gromov-Witten blow-up, Gamma conjecture, quantum cohomology"
-    papers_count: 6
-  - person: li-changzheng
-    since: 2019
-    topic: "Gamma conjecture, Galkin conjecture, mirror symmetry for blowups of Grassmannians"
-    papers_count: 5
-  - person: ruan-yongbin
-    since: 2008
-    topic: "Birational cobordism invariance of uniruled symplectic manifolds"
-    papers_count: 2
-  - person: "Tian-Jun Li"
-    since: 2008
-    topic: "Birational cobordism invariance of uniruled symplectic manifolds"
-    papers_count: 1
-  - person: ding-yanqiao
-    since: 2015
-    topic: "Welschinger invariants, floor diagrams, blow-up of symplectic 4-manifolds"
-    papers_count: 3
-  - person: "Bohui Chen"
-    since: 2017
-    topic: "Weighted blowup correspondence of orbifold GW invariants"
-    papers_count: 1
-  - person: "Cheng-Yong Du"
-    since: 2017
-    topic: "Orbifold GW invariants, weighted blowup"
-    papers_count: 1
-  - person: "Hiroshi Iritani"
-    since: 2024
-    topic: "Revisiting Gamma conjecture I"
-    papers_count: 1
-  - person: "Sergey Galkin"
-    since: 2024
-    topic: "Gamma conjecture I counterexamples"
-    papers_count: 1
-  - person: he-weiqiang
-    since: 2013
-    topic: "Orbifold GW invariants of weighted blow-ups, high-genus GW blow-up formulae"
-    papers_count: 2
-  - person: "Lei Song"
-    since: 2025
-    topic: "Quantum cohomology of blow-ups of quadrics, mirror symmetry for blowups of Grassmannians"
-    papers_count: 2
+- person: ke-huazhong
+  since: 2014
+  topic: Gromov-Witten blow-up, Gamma conjecture, quantum cohomology
+  papers_count: 6
+- person: li-changzheng
+  since: 2019
+  topic: Gamma conjecture, Galkin conjecture, mirror symmetry for blowups of Grassmannians
+  papers_count: 5
+- person: ruan-yongbin
+  since: 2008
+  topic: Birational cobordism invariance of uniruled symplectic manifolds
+  papers_count: 2
+- person: Tian-Jun Li
+  since: 2008
+  topic: Birational cobordism invariance of uniruled symplectic manifolds
+  papers_count: 1
+- person: ding-yanqiao
+  since: 2015
+  topic: Welschinger invariants, floor diagrams, blow-up of symplectic 4-manifolds
+  papers_count: 3
+- person: Bohui Chen
+  since: 2017
+  topic: Weighted blowup correspondence of orbifold GW invariants
+  papers_count: 1
+- person: du-chengyong
+  since: 2017
+  topic: Orbifold GW invariants, weighted blowup
+  papers_count: 1
+- person: Hiroshi Iritani
+  since: 2024
+  topic: Revisiting Gamma conjecture I
+  papers_count: 1
+- person: Sergey Galkin
+  since: 2024
+  topic: Gamma conjecture I counterexamples
+  papers_count: 1
+- person: he-weiqiang
+  since: 2013
+  topic: Orbifold GW invariants of weighted blow-ups, high-genus GW blow-up formulae
+  papers_count: 2
+- person: Lei Song
+  since: 2025
+  topic: Quantum cohomology of blow-ups of quadrics, mirror symmetry for blowups of Grassmannians
+  papers_count: 2
 publications:
   - id: '2509.06004'
     title: 'Refined floor diagrams relative to a conic and Caporaso-Harris type formula'

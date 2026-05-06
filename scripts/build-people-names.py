@@ -43,7 +43,7 @@ def main():
     # 1. Real yaml people
     yaml_slugs = set()
     for f in sorted(os.listdir(PEOPLE_DIR)):
-        if not f.endswith('.yaml'):
+        if not f.endswith('.yaml') or f.startswith('_'):
             continue
         slug = f.replace('.yaml', '')
         yaml_slugs.add(slug)
@@ -69,7 +69,7 @@ def main():
     # Connections
     if os.path.isdir(CONN_DIR):
         for f in os.listdir(CONN_DIR):
-            if not f.endswith('.yaml'):
+            if not f.endswith('.yaml') or f.startswith('_'):
                 continue
             with open(os.path.join(CONN_DIR, f)) as fh:
                 d = yaml.safe_load(fh) or {}
@@ -81,7 +81,7 @@ def main():
 
     # Per-yaml refs
     for f in os.listdir(PEOPLE_DIR):
-        if not f.endswith('.yaml'):
+        if not f.endswith('.yaml') or f.startswith('_'):
             continue
         with open(os.path.join(PEOPLE_DIR, f)) as fh:
             p = yaml.safe_load(fh) or {}

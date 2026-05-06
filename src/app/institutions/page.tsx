@@ -1,5 +1,6 @@
 import { getAllInstitutions, getAllPeople } from "@/lib/data";
 import Link from "next/link";
+import { institutionName } from "@/lib/inst";
 
 export default function InstitutionsPage() {
   const institutions = getAllInstitutions();
@@ -46,7 +47,7 @@ export default function InstitutionsPage() {
               className="bg-[#14141f] rounded-xl p-5 border border-[#2a2a3a] hover:border-[#8b5cf6]/50 transition-colors"
             >
               <h2 className="text-base font-semibold text-[#e8e8f0]">
-                {inst.name.zh || inst.name.en}
+                {institutionName(inst.slug)}
               </h2>
               <p className="text-sm text-[#8888a0]">{inst.name.en}</p>
               <div className="flex items-center justify-between mt-2 text-xs text-[#8888a0]">

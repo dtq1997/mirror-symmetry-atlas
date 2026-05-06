@@ -1,5 +1,7 @@
 import { getAllConferenceEvents, getPeopleMap, getInstitutionsMap } from "@/lib/data";
 import Link from "next/link";
+import { displayName as personName } from "@/lib/name";
+import { institutionName } from "@/lib/inst";
 
 export default function ConferencesPage() {
   const events = getAllConferenceEvents().slice().sort((a, b) =>
@@ -8,11 +10,7 @@ export default function ConferencesPage() {
   const peopleMap = getPeopleMap();
   const institutionsMap = getInstitutionsMap();
 
-  const displayName = (slug: string): string => {
-    const p = peopleMap.get(slug);
-    if (!p) return slug;
-    return p.name.zh || p.name.en;
-  };
+  const displayName = personName;
 
   const groupByInstitution = (slugs: string[]): Array<{ inst: string; members: string[] }> => {
     const groups = new Map<string, string[]>();
@@ -36,8 +34,7 @@ export default function ConferencesPage() {
 
   const institutionLabel = (slug: string): string => {
     if (slug === "_unknown") return "其他";
-    const inst = institutionsMap.get(slug);
-    return inst?.name.zh || inst?.name.en || slug;
+    return institutionName(slug);
   };
 
   return (

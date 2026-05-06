@@ -8,32 +8,32 @@ nationality: Chinese
 gender: female
 photo_url: null
 career_timeline:
-  - period: "~2007-2011"
-    type: education
-    institution: jilin-u
-    role: "本科, 数学"
-    notes: "吉林大学数学学院, 2011/07 毕业"
-  - period: "2011-2016"
-    type: education
-    institution: pku
-    role: "博士 (Ph.D.)"
-    advisor: "[待验证]"
-    notes: "北京大学数学科学学院, 2016/07 博士学位。导师信息 [待验证]，可能为 Zhangju Liu (刘张炬)，其与 Liu 合作论文最早见于 2014（博士在读期间）"
-  - period: "2014-09 to 2015-11"
-    type: education
-    institution: penn-state
-    role: "联培博士 (visiting student)"
-    notes: "Penn State，可能与 Ping Xu / Mathieu Stiénon 接触。期间与 Yunhe Sheng 和 Xiaomeng Xu 合作发表"
-  - period: "2016-08 to 2018-01"
-    type: position
-    institution: mpim-bonn
-    role: "博士后"
-    notes: "Max Planck Institute for Mathematics, Bonn (MPIM)"
-  - period: "2018-01-present"
-    type: position
-    institution: cau
-    role: "副教授"
-    notes: "中国农业大学理学院数学系应用数学系"
+- period: ~2007-2011
+  type: education
+  institution: jilin-u
+  role: 本科, 数学
+  notes: 吉林大学数学学院, 2011/07 毕业
+- period: 2011-2016
+  type: education
+  institution: pku
+  role: 博士 (Ph.D.)
+  advisor: '[待验证]'
+  notes: 北京大学数学科学学院, 2016/07 博士学位。导师信息 [待验证]，可能为 Zhangju Liu (刘张炬)，其与 Liu 合作论文最早见于 2014（博士在读期间）
+- period: 2014-09 to 2015-11
+  type: education
+  institution: penn-state
+  role: 联培博士 (visiting student)
+  notes: Penn State，可能与 Ping Xu / Mathieu Stiénon 接触。期间与 Yunhe Sheng 和 Xiaomeng Xu 合作发表
+- period: 2016-08 to 2018-01
+  type: position
+  institution: mpim-bonn
+  role: 博士后
+  notes: Max Planck Institute for Mathematics, Bonn (MPIM)
+- period: 2018-01-present
+  type: position
+  institution: cau
+  role: 副教授
+  notes: 中国农业大学理学院数学系应用数学系
 research_areas:
   - poisson-geometry
   - lie-algebroid
@@ -93,39 +93,39 @@ identity_profile:
 advisor: null
 students: []
 key_collaborators:
-  - person: "Zhangju Liu (刘张炬)"
-    since: 2014
-    topic: "Lie 2-algebra, affine structures on Lie groupoids, coadjoint orbits, multiplicative forms, Poisson 2-groups"
-    papers_count: 8
-    notes: "北京大学（曾）/河南大学。可能是博士导师 [待验证]"
-  - person: "Yunhe Sheng (盛云和)"
-    since: 2013
-    topic: "Strong homotopy Lie algebras, crossed modules, Courant algebroids, Rota-Baxter, integration of Lie 2-algebras"
-    papers_count: 6
-    notes: "吉林大学"
-  - person: "Zhuo Chen (陈酌)"
-    since: 2016
-    topic: "Atiyah classes, Lie pair, multiplicative forms, Dirac generating operators, weak Lie 2-algebra"
-    papers_count: 5
-    notes: "清华大学"
-  - person: xu-xiaomeng
-    since: 2012
-    topic: "Dirac and generalized complex structures on Cartan geometries, strong homotopy Lie algebras"
-    papers_count: 4
-    notes: "清华大学 YMSC，徐晓濛"
-  - person: yu-qiao
-    since: 2019
-    topic: "Lie bialgebroid crossed modules"
-    papers_count: 1
-  - person: "Li Guo"
-    since: 2020
-    topic: "Integration and geometrization of Rota-Baxter Lie algebras"
-    papers_count: 1
-    notes: "Rutgers Newark"
-  - person: "Maosong Xiang"
-    since: 2022
-    topic: "Dirac generating operators of split Courant algebroids"
-    papers_count: 1
+- person: liu-zhangju
+  since: 2014
+  topic: Lie 2-algebra, affine structures on Lie groupoids, coadjoint orbits, multiplicative forms, Poisson 2-groups
+  papers_count: 8
+  notes: 北京大学（曾）/河南大学。可能是博士导师 [待验证]
+- person: Yunhe Sheng (盛云和)
+  since: 2013
+  topic: Strong homotopy Lie algebras, crossed modules, Courant algebroids, Rota-Baxter, integration of Lie 2-algebras
+  papers_count: 6
+  notes: 吉林大学
+- person: chen-zhuo
+  since: 2016
+  topic: Atiyah classes, Lie pair, multiplicative forms, Dirac generating operators, weak Lie 2-algebra
+  papers_count: 5
+  notes: 清华大学
+- person: xu-xiaomeng
+  since: 2012
+  topic: Dirac and generalized complex structures on Cartan geometries, strong homotopy Lie algebras
+  papers_count: 4
+  notes: 清华大学 YMSC，徐晓濛
+- person: yu-qiao
+  since: 2019
+  topic: Lie bialgebroid crossed modules
+  papers_count: 1
+- person: Li Guo
+  since: 2020
+  topic: Integration and geometrization of Rota-Baxter Lie algebras
+  papers_count: 1
+  notes: Rutgers Newark
+- person: xiang-maosong
+  since: 2022
+  topic: Dirac generating operators of split Courant algebroids
+  papers_count: 1
 publications:
   - id: '2602.02041'
     title: 'Relative Rota-Baxter operators and crossed homomorphisms on Lie 2-groups'

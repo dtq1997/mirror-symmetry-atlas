@@ -8,6 +8,7 @@ import {
   getAllTimelineEvents,
   getAllProblems,
 } from "@/lib/data";
+import { displayName, nameInfo } from "@/lib/name";
 
 export default function Dashboard() {
   const people = getAllPeople();
@@ -192,10 +193,10 @@ export default function Dashboard() {
               className="bg-[#14141f] rounded-lg p-4 border border-[#2a2a3a] hover:border-[#f59e0b]/50 transition-colors"
             >
               <div className="text-sm font-medium text-[#e8e8f0]">
-                {p.name.zh || p.name.en}
+                {displayName(p.slug)}
               </div>
-              {p.name.zh && (
-                <div className="text-xs text-[#8888a0]">{p.name.en}</div>
+              {nameInfo(p.slug)?.zh && (
+                <div className="text-xs text-[#8888a0]">{nameInfo(p.slug)?.en}</div>
               )}
               {p.activity?.total_papers != null && (
                 <div className="text-xs mt-1 flex flex-wrap gap-1">

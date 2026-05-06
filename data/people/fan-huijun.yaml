@@ -8,73 +8,73 @@ nationality: Chinese
 gender: male
 photo_url: null
 career_timeline:
-  - period: "1987-1991"
-    type: education
-    institution: hust
-    role: "本科, 物理学"
-    notes: "华中理工大学(现华中科技大学)物理系，1991 年获学士学位"
-  - period: "1991-1994"
-    type: education
-    institution: null
-    role: "硕士"
-    notes: "吉林大学，1994 年获硕士学位"
-  - period: "1995-1998"
-    type: education
-    institution: pku
-    role: "博士"
-    advisor: null
-    notes: "北京大学，1998 年获博士学位。博士导师 [待验证]"
-  - period: "2000-2002"
-    type: position
-    institution: amss
-    role: "博士后"
-    notes: "中国科学院数学与系统科学研究院"
-  - period: "2002-2004"
-    type: position
-    institution: null
-    role: "访问学者"
-    notes: "德国 Max-Planck 数学研究所(莱比锡)"
-  - period: "2003-2010"
-    type: position
-    institution: pku
-    role: "副教授"
-    notes: "北京大学数学科学学院"
-  - period: "2008"
-    type: award
-    title: "新世纪优秀人才支持计划"
-    notes: "教育部"
-  - period: "2010-present"
-    type: position
-    institution: pku
-    role: "教授、博士生导师"
-    notes: "北京大学数学科学学院"
-  - period: "2013"
-    type: award
-    title: "国家杰出青年科学基金"
-    notes: "国家自然科学基金委员会"
-  - period: "2015"
-    type: award
-    title: "长江学者"
-    notes: "教育部"
-  - period: "2015"
-    type: award
-    title: "教育部自然科学奖一等奖"
-    notes: "独立完成"
-  - period: "2017"
-    type: award
-    title: "国家自然科学奖二等奖"
-    notes: "独立完成，表彰 FJRW 理论及相关工作"
-  - period: "2021"
-    type: award
-    title: "中国数学会学术年会大会邀请报告人"
-  - period: "2022"
-    type: award
-    title: "国家级教学成果奖一等奖"
-  - period: "2024-11-present"
-    type: position
-    institution: wuhan
-    role: "弘毅讲席教授、数学与统计学院院长"
-    notes: "2024 年 11 月全职加盟武汉大学，就任数学与统计学院院长"
+- period: 1987-1991
+  type: education
+  institution: hust
+  role: 本科, 物理学
+  notes: 华中理工大学(现华中科技大学)物理系，1991 年获学士学位
+- period: 1991-1994
+  type: education
+  institution: null
+  role: 硕士
+  notes: 吉林大学，1994 年获硕士学位
+- period: 1995-1998
+  type: education
+  institution: pku
+  role: 博士
+  advisor: null
+  notes: 北京大学，1998 年获博士学位。博士导师 [待验证]
+- period: 2000-2002
+  type: position
+  institution: amss
+  role: 博士后
+  notes: 中国科学院数学与系统科学研究院
+- period: 2002-2004
+  type: position
+  institution: null
+  role: 访问学者
+  notes: 德国 Max-Planck 数学研究所(莱比锡)
+- period: 2003-2010
+  type: position
+  institution: pku
+  role: 副教授
+  notes: 北京大学数学科学学院
+- period: '2008'
+  type: award
+  title: 新世纪优秀人才支持计划
+  notes: 教育部
+- period: 2010-present
+  type: position
+  institution: pku
+  role: 教授、博士生导师
+  notes: 北京大学数学科学学院
+- period: '2013'
+  type: award
+  title: 国家杰出青年科学基金
+  notes: 国家自然科学基金委员会
+- period: '2015'
+  type: award
+  title: 长江学者
+  notes: 教育部
+- period: '2015'
+  type: award
+  title: 教育部自然科学奖一等奖
+  notes: 独立完成
+- period: '2017'
+  type: award
+  title: 国家自然科学奖二等奖
+  notes: 独立完成，表彰 FJRW 理论及相关工作
+- period: '2021'
+  type: award
+  title: 中国数学会学术年会大会邀请报告人
+- period: '2022'
+  type: award
+  title: 国家级教学成果奖一等奖
+- period: 2024-11-present
+  type: position
+  institution: wuhan
+  role: 弘毅讲席教授、数学与统计学院院长
+  notes: 2024 年 11 月全职加盟武汉大学，就任数学与统计学院院长
 research_areas:
   - fjrw-theory
   - mirror-symmetry
@@ -136,42 +136,42 @@ identity_profile:
 advisor: null
 students: []
 key_collaborators:
-  - person: "Tyler J. Jarvis"
-    since: 2004
-    topic: "FJRW theory, Witten equation, quantum singularity theory, GLSM"
-    papers_count: 7
-  - person: "Yongbin Ruan"
-    since: 2004
-    topic: "FJRW theory, Witten equation, quantum singularity theory, GLSM"
-    papers_count: 7
-  - person: "Juergen Jost"
-    since: 2000
-    topic: "Novikov-Morse theory, Conley index"
-    papers_count: 2
-  - person: "Yefeng Shen"
-    since: 2009
-    topic: "Quantum rings of singularities"
-    papers_count: 1
-  - person: "Tian Lan"
-    since: 2020
-    topic: "LG/CY correspondence between tt* geometries"
-    papers_count: 2
-  - person: "Zongrui Yang"
-    since: 2020
-    topic: "LG/CY correspondence between tt* geometries"
-    papers_count: 2
-  - person: "Amanda Francis"
-    since: 2010
-    topic: "Witten's D_4 integrable hierarchy conjecture"
-    papers_count: 1
-  - person: "Weiyue Ding"
-    since: 2001
-    topic: "Harmonic Hopf constructions between spheres"
-    papers_count: 1
-  - person: "Jiayu Li"
-    since: 2001
-    topic: "Harmonic Hopf constructions between spheres"
-    papers_count: 1
+- person: Tyler J. Jarvis
+  since: 2004
+  topic: FJRW theory, Witten equation, quantum singularity theory, GLSM
+  papers_count: 7
+- person: ruan-yongbin
+  since: 2004
+  topic: FJRW theory, Witten equation, quantum singularity theory, GLSM
+  papers_count: 7
+- person: Juergen Jost
+  since: 2000
+  topic: Novikov-Morse theory, Conley index
+  papers_count: 2
+- person: Yefeng Shen
+  since: 2009
+  topic: Quantum rings of singularities
+  papers_count: 1
+- person: Tian Lan
+  since: 2020
+  topic: LG/CY correspondence between tt* geometries
+  papers_count: 2
+- person: Zongrui Yang
+  since: 2020
+  topic: LG/CY correspondence between tt* geometries
+  papers_count: 2
+- person: Amanda Francis
+  since: 2010
+  topic: Witten's D_4 integrable hierarchy conjecture
+  papers_count: 1
+- person: Weiyue Ding
+  since: 2001
+  topic: Harmonic Hopf constructions between spheres
+  papers_count: 1
+- person: Jiayu Li
+  since: 2001
+  topic: Harmonic Hopf constructions between spheres
+  papers_count: 1
 publications:
   - id: '2210.16747'
     title: 'Constructing the LG/CY isomorphism between tt* geometries'

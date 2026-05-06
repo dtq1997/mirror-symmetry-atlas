@@ -3,6 +3,7 @@
 import type { Person, GraphNode } from "@/lib/types";
 import Link from "next/link";
 import { displayName as displayNameOf } from "@/lib/name";
+import { institutionName as institutionNameOf } from "@/lib/inst";
 
 interface DetailSidebarProps {
   node: GraphNode | null;
@@ -40,7 +41,7 @@ function PersonDetail({ person }: { person: Person }) {
           <div className="text-xs text-[#8888a0] mb-1">当前/最近职位</div>
           <div className="text-sm text-[#e8e8f0]">{currentPosition.role}</div>
           {currentPosition.institution && (
-            <div className="text-xs text-[#8888a0]">{currentPosition.institution}</div>
+            <div className="text-xs text-[#8888a0]">{institutionNameOf(currentPosition.institution)}</div>
           )}
           {currentPosition.period && (
             <div className="text-xs text-[#6366f1]">{currentPosition.period}</div>

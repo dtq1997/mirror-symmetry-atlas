@@ -7,6 +7,7 @@ import type { GraphData, GraphNode, Concept } from "@/lib/types";
 import { getPrerequisiteChain } from "@/lib/graph";
 import Link from "next/link";
 import MathText from "../shared/MathText";
+import { displayName } from "@/lib/name";
 
 interface ConceptMapProps {
   graphData: GraphData;
@@ -257,7 +258,7 @@ function ConceptSidebar({ concept }: { concept: Concept }) {
                   href={`/people/${ct.person}`}
                   className="text-[#f59e0b]"
                 >
-                  {ct.person}
+                  {displayName(ct.person)}
                 </Link>
                 <span className="text-[#8888a0] ml-2">({ct.role})</span>
                 {ct.description && (

@@ -4,6 +4,7 @@ import { useState } from "react";
 import PeopleNetwork from "@/components/graphs/PeopleNetwork";
 import type { GraphData, Person } from "@/lib/types";
 import Link from "next/link";
+import { displayName, nameInfo } from "@/lib/name";
 
 interface Props {
   graphData: GraphData;
@@ -84,14 +85,10 @@ export default function PeopleNetworkClient({ graphData, people, institutionName
                         href={`/people/${p.slug}`}
                         className="text-[#f59e0b] hover:text-[#fbbf24] transition-colors"
                       >
-                        {p.name.zh && !p.name.zh.startsWith("[") && !p.name.zh.startsWith("待")
-                          ? p.name.zh
-                          : p.name.en}
+                        {displayName(p.slug)}
                       </Link>
                       <span className="text-[#8888a0] ml-2 text-xs">
-                        {p.name.zh && !p.name.zh.startsWith("[") && !p.name.zh.startsWith("待")
-                          ? p.name.en
-                          : null}
+                        {nameInfo(p.slug)?.zh ? nameInfo(p.slug)?.en : null}
                       </span>
                     </td>
                     <td className="py-2.5 pr-4 text-[#8888a0]">

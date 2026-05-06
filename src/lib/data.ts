@@ -31,6 +31,8 @@ function readYamlDir<T>(dirPath: string): T[] {
   if (!fs.existsSync(fullDir)) return [];
   return fs
     .readdirSync(fullDir)
+    // Skip auxiliary/index files (e.g. _faculty_urls.yaml, _review_queue.yaml)
+    .filter((f) => !f.startsWith("_"))
     .filter((f) => f.endsWith(".yaml") || f.endsWith(".yml"))
     .map((f) => readYaml<T>(path.join(fullDir, f)));
 }

@@ -2,6 +2,8 @@
 
 import type { CareerEntry } from "@/lib/types";
 import { sortByPeriod } from "@/lib/period";
+import { displayName } from "@/lib/name";
+import { institutionName } from "@/lib/inst";
 
 const TYPE_COLORS: Record<string, string> = {
   education: "#3b82f6",
@@ -80,11 +82,11 @@ export default function PersonTimeline({ timeline }: PersonTimelineProps) {
                   </div>
                 )}
                 {entry.institution && (
-                  <div className="text-xs text-[#8888a0]">{entry.institution}</div>
+                  <div className="text-xs text-[#8888a0]">{institutionName(entry.institution)}</div>
                 )}
                 {entry.advisor && (
                   <div className="text-xs text-[#8888a0]">
-                    Advisor: {entry.advisor}
+                    导师: {displayName(entry.advisor)}
                   </div>
                 )}
                 {entry.notes && (

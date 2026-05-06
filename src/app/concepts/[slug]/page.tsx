@@ -2,6 +2,7 @@ import { getAllConcepts } from "@/lib/data";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import MathText from "@/components/shared/MathText";
+import { displayName } from "@/lib/name";
 
 const DIFFICULTY_COLORS: Record<string, string> = {
   introductory: "#22c55e",
@@ -170,7 +171,7 @@ export default async function ConceptPage({
                     href={`/people/${ct.person}`}
                     className="text-sm font-medium text-[#f59e0b] hover:text-[#fbbf24]"
                   >
-                    {ct.person}
+                    {displayName(ct.person)}
                   </Link>
                   {ct.description && (
                     <p className="text-xs text-[#8888a0] mt-1">
@@ -200,7 +201,7 @@ export default async function ConceptPage({
                 href={`/people/${p}`}
                 className="px-3 py-1 text-sm rounded-full bg-[#f59e0b]/15 text-[#fbbf24] border border-[#f59e0b]/30 hover:bg-[#f59e0b]/25 transition-colors"
               >
-                {p}
+                {displayName(p)}
               </Link>
             ))}
           </div>

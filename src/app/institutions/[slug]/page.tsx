@@ -1,6 +1,7 @@
 import { getAllInstitutions, getInstitutionsMap, getPeopleMap } from "@/lib/data";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { displayName } from "@/lib/name";
 
 export function generateStaticParams() {
   return getAllInstitutions().map((i) => ({ slug: i.slug }));
@@ -16,10 +17,8 @@ export default async function InstitutionPage({
   if (!inst) notFound();
 
   const peopleMap = getPeopleMap();
-  const personName = (s: string): string => {
-    const p = peopleMap.get(s);
-    return p ? p.name.zh || p.name.en : s;
-  };
+  // SSOT: use displayName from name.ts so we never drift between pages.
+  const personName = displayName;
 
   // Gather all people whose career_timeline references this institution
   const affiliated = new Set<string>();

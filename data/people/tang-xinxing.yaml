@@ -8,30 +8,30 @@ nationality: Chinese
 gender: male
 photo_url: null
 career_timeline:
-  - period: "2009-2013"
-    type: education
-    institution: sichuan-u
-    role: "学士, 基础数学"
-    notes: "四川大学数学学院"
-  - period: "2013-2018"
-    type: education
-    institution: pku-bicmr
-    role: "博士, 基础数学"
-    advisor: "Huijun Fan (樊慧君)"
-    notes: "北京大学北京国际数学研究中心 (BICMR)"
-  - period: "2018-2021"
-    type: position
-    institution: tsinghua-ymsc
-    role: "博士后"
-    notes: "清华大学丘成桐数学科学中心 (YMSC)。与 Si Li 合作"
-  - period: "2018"
-    type: award
-    title: "Honor Mention, New World Mathematics Award (PhD Thesis)"
-  - period: "2021-present"
-    type: position
-    institution: bimsa
-    role: "Assistant Professor (助理教授)"
-    notes: "BIMSA 数学物理组。办公室 A3-3a-301"
+- period: 2009-2013
+  type: education
+  institution: sichuan-u
+  role: 学士, 基础数学
+  notes: 四川大学数学学院
+- period: 2013-2018
+  type: education
+  institution: pku-bicmr
+  role: 博士, 基础数学
+  advisor: fan-huijun
+  notes: 北京大学北京国际数学研究中心 (BICMR)
+- period: 2018-2021
+  type: position
+  institution: tsinghua-ymsc
+  role: 博士后
+  notes: 清华大学丘成桐数学科学中心 (YMSC)。与 Si Li 合作
+- period: '2018'
+  type: award
+  title: Honor Mention, New World Mathematics Award (PhD Thesis)
+- period: 2021-present
+  type: position
+  institution: bimsa
+  role: Assistant Professor (助理教授)
+  notes: BIMSA 数学物理组。办公室 A3-3a-301
 research_areas:
   - mathematical-physics
   - integrable-systems
@@ -80,32 +80,32 @@ mentors:
   - si-li
 students: []
 key_collaborators:
-  - person: "Si Li (李思)"
-    since: 2019
-    topic: "Kodaira-Spencer gravity, dispersionless integrable hierarchy, contact term algebras, Dijkgraaf's master equation"
-    papers_count: 2
-    notes: "清华 YMSC，博士后期导师级合作者"
-  - person: he-weiqiang
-    since: 2019
-    topic: "Dispersionless integrable hierarchy via Kodaira-Spencer gravity (LG B-model)"
-    papers_count: 1
-  - person: "Philsang Yoo"
-    since: 2019
-    topic: "Kodaira-Spencer gravity"
-    papers_count: 1
-  - person: "Junrong Yan"
-    since: 2022
-    topic: "CY/LG correspondence for Weil-Petersson metrics and tt* structures"
-    papers_count: 1
-  - person: "Zhengping Gui"
-    since: 2025
-    topic: "Contact term algebras, chiral CFT on elliptic curves"
-    papers_count: 1
-  - person: "Shing-Tung Yau"
-    since: 2024
-    topic: "Path homology, cellular homology of digraphs, minimal path / acyclic model"
-    papers_count: 2
-    notes: "丘成桐，BIMSA 创始人"
+- person: si-li
+  since: 2019
+  topic: Kodaira-Spencer gravity, dispersionless integrable hierarchy, contact term algebras, Dijkgraaf's master equation
+  papers_count: 2
+  notes: 清华 YMSC，博士后期导师级合作者
+- person: he-weiqiang
+  since: 2019
+  topic: Dispersionless integrable hierarchy via Kodaira-Spencer gravity (LG B-model)
+  papers_count: 1
+- person: Philsang Yoo
+  since: 2019
+  topic: Kodaira-Spencer gravity
+  papers_count: 1
+- person: Junrong Yan
+  since: 2022
+  topic: CY/LG correspondence for Weil-Petersson metrics and tt* structures
+  papers_count: 1
+- person: Zhengping Gui
+  since: 2025
+  topic: Contact term algebras, chiral CFT on elliptic curves
+  papers_count: 1
+- person: yau-shingtung
+  since: 2024
+  topic: Path homology, cellular homology of digraphs, minimal path / acyclic model
+  papers_count: 2
+  notes: 丘成桐，BIMSA 创始人
 publications:
   - id: '2602.04140'
     title: 'Path homology of circulant digraphs'

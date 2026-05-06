@@ -1,5 +1,6 @@
 import { getAllPeople, getAllPapers } from "@/lib/data";
 import Link from "next/link";
+import { displayName } from "@/lib/name";
 
 export default function PapersPage() {
   const people = getAllPeople();
@@ -18,7 +19,7 @@ export default function PapersPage() {
 
   for (const p of people) {
     const pubs = (p as any).publications || [];
-    const name = p.name.zh || p.name.en;
+    const name = displayName(p.slug);
     for (const pub of pubs) {
       if (pub.id && !seenIds.has(pub.id)) {
         seenIds.add(pub.id);

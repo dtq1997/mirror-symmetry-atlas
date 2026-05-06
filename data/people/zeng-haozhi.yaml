@@ -8,22 +8,22 @@ nationality: Chinese
 gender: male
 photo_url: null
 career_timeline:
-  - period: "[待验证]-2016"
-    type: education
-    institution: null
-    role: "博士, 数学"
-    advisor: null
-    notes: "Osaka City University (大阪市立大学, 现 Osaka Metropolitan University) [待验证: 2015-2016 前后博士毕业，导师极可能是 Mikiya Masuda]"
-  - period: "2014-[待验证]"
-    type: position
-    institution: null
-    role: "博士生 / 早期合作者"
-    notes: "大阪市立大学，当时邮箱 zenghaozhi@icloud.com，与 Masuda, Ayzenberg, Park 合作 toric origami manifolds"
-  - period: "[待验证]-present"
-    type: position
-    institution: hust
-    role: "副教授 [待验证具体职称]"
-    notes: "华中科技大学数学与统计学院. NSFC 11901218 (青年项目 2020-2022)"
+- period: '[待验证]-2016'
+  type: education
+  institution: null
+  role: 博士, 数学
+  advisor: null
+  notes: 'Osaka City University (大阪市立大学, 现 Osaka Metropolitan University) [待验证: 2015-2016 前后博士毕业，导师极可能是 Mikiya Masuda]'
+- period: 2014-[待验证]
+  type: position
+  institution: null
+  role: 博士生 / 早期合作者
+  notes: 大阪市立大学，当时邮箱 zenghaozhi@icloud.com，与 Masuda, Ayzenberg, Park 合作 toric origami manifolds
+- period: '[待验证]-present'
+  type: position
+  institution: hust
+  role: 副教授 [待验证具体职称]
+  notes: 华中科技大学数学与统计学院. NSFC 11901218 (青年项目 2020-2022)
 research_areas:
   - toric-topology
   - hessenberg-varieties
@@ -69,37 +69,37 @@ identity_profile:
 advisor: null
 students: []
 key_collaborators:
-  - person: "Hiraku Abe"
-    since: 2017
-    topic: "Regular Hessenberg varieties, Peterson variety cohomology, Peterson Schubert calculus, totally nonnegative Peterson"
-    papers_count: 6
-    notes: "Okayama University of Science"
-  - person: "Mikiya Masuda"
-    since: 2014
-    topic: "Toric origami manifolds, torus orbifolds, GKM graphs"
-    papers_count: 4
-    notes: "Osaka Metropolitan University (原 Osaka City U.), 疑似博士导师"
-  - person: "Tatsuya Horiguchi"
-    since: 2021
-    topic: "Peterson Schubert calculus, partial Hessenberg varieties"
-    papers_count: 2
-  - person: "Takashi Sato"
-    since: 2024
-    topic: "GKM graphs, Hessenberg varieties"
-    papers_count: 2
-  - person: "Anton Ayzenberg"
-    since: 2014
-    topic: "Toric origami manifolds, quasitoric manifolds"
-    papers_count: 2
-  - person: "Naoki Fujita"
-    since: 2017
-    topic: "Regular Hessenberg varieties, Fano Hessenberg"
-    papers_count: 2
-  - person: "Tao Gui"
-    since: 2025
-    topic: "Totally nonnegative Peterson variety, strongly dominant weight polytope"
-    papers_count: 1
-    notes: "PKU BICMR"
+- person: Hiraku Abe
+  since: 2017
+  topic: Regular Hessenberg varieties, Peterson variety cohomology, Peterson Schubert calculus, totally nonnegative Peterson
+  papers_count: 6
+  notes: Okayama University of Science
+- person: Mikiya Masuda
+  since: 2014
+  topic: Toric origami manifolds, torus orbifolds, GKM graphs
+  papers_count: 4
+  notes: Osaka Metropolitan University (原 Osaka City U.), 疑似博士导师
+- person: Tatsuya Horiguchi
+  since: 2021
+  topic: Peterson Schubert calculus, partial Hessenberg varieties
+  papers_count: 2
+- person: Takashi Sato
+  since: 2024
+  topic: GKM graphs, Hessenberg varieties
+  papers_count: 2
+- person: Anton Ayzenberg
+  since: 2014
+  topic: Toric origami manifolds, quasitoric manifolds
+  papers_count: 2
+- person: Naoki Fujita
+  since: 2017
+  topic: Regular Hessenberg varieties, Fano Hessenberg
+  papers_count: 2
+- person: gui-tao
+  since: 2025
+  topic: Totally nonnegative Peterson variety, strongly dominant weight polytope
+  papers_count: 1
+  notes: PKU BICMR
 publications:
   - id: '2512.06646'
     title: 'Totally nonnegative Peterson variety and strongly dominant weight polytope'

@@ -8,46 +8,46 @@ nationality: Chinese
 gender: male
 photo_url: null
 career_timeline:
-  - period: "1999-2003"
-    type: education
-    institution: ustc
-    role: "本科"
-    notes: "中国科学技术大学"
-  - period: "2003-2005"
-    type: education
-    institution: cuhk
-    role: "MPhil"
-    notes: "香港中文大学数学科学研究所"
-  - period: "2005-2009"
-    type: education
-    institution: cuhk
-    role: "PhD"
-    advisor: leung-naichung
-    notes: "香港中文大学，导师梁乃聪。论文: Quantum cohomology of homogeneous varieties"
-  - period: "2009-2011"
-    type: position
-    institution: kias
-    role: "博士后"
-    notes: "韩国高等研究院 (KIAS)，mentor: Bumsig Kim"
-  - period: "2011-2014"
-    type: position
-    institution: kavli-ipmu
-    role: "博士后"
-    notes: "Kavli IPMU, 东京大学"
-  - period: "2014-2016"
-    type: position
-    institution: ibs-cgp
-    role: "Tenure-track 研究员"
-    notes: "韩国基础科学研究所几何物理中心 (IBS-CGP), POSTECH campus"
-  - period: "2016-present"
-    type: position
-    institution: sun-yat-sen
-    role: "教授"
-    notes: "中山大学数学学院"
-  - period: "2018"
-    type: award
-    title: "国家优秀青年科学基金 (优青)"
-    notes: "国家自然科学基金委"
+- period: 1999-2003
+  type: education
+  institution: ustc
+  role: 本科
+  notes: 中国科学技术大学
+- period: 2003-2005
+  type: education
+  institution: cuhk
+  role: MPhil
+  notes: 香港中文大学数学科学研究所
+- period: 2005-2009
+  type: education
+  institution: cuhk
+  role: PhD
+  advisor: leung-naichung
+  notes: '香港中文大学，导师梁乃聪。论文: Quantum cohomology of homogeneous varieties'
+- period: 2009-2011
+  type: position
+  institution: kias
+  role: 博士后
+  notes: '韩国高等研究院 (KIAS)，mentor: Bumsig Kim'
+- period: 2011-2014
+  type: position
+  institution: kavli-ipmu
+  role: 博士后
+  notes: Kavli IPMU, 东京大学
+- period: 2014-2016
+  type: position
+  institution: ibs-cgp
+  role: Tenure-track 研究员
+  notes: 韩国基础科学研究所几何物理中心 (IBS-CGP), POSTECH campus
+- period: 2016-present
+  type: position
+  institution: sun-yat-sen
+  role: 教授
+  notes: 中山大学数学学院
+- period: '2018'
+  type: award
+  title: 国家优秀青年科学基金 (优青)
+  notes: 国家自然科学基金委
 research_areas:
   - quantum-cohomology
   - gromov-witten-theory
@@ -136,54 +136,54 @@ identity_profile:
 advisor: leung-naichung
 students: []
 key_collaborators:
-  - person: leung-naichung
-    since: 2008
-    topic: "Quantum cohomology of flag varieties, Pieri rules, GW invariants"
-    papers_count: 8
-  - person: "Leonardo C. Mihalcea"
-    since: 2012
-    topic: "K-theoretic GW invariants, Conjecture O, quantum K-theory"
-    papers_count: 4
-  - person: ke-huazhong
-    since: 2019
-    topic: "Gamma conjecture, quantum cohomology, mirror symmetry for blowups"
-    papers_count: 5
-  - person: hu-jianxun
-    since: 2019
-    topic: "Gamma conjecture, Galkin's conjecture, quantum cohomology of blowups"
-    papers_count: 5
-  - person: "Mingzhi Yang"
-    since: 2019
-    topic: "Frobenius-Perron dimension, Seidel representation, quantum Schubert calculus"
-    papers_count: 5
-  - person: "Jiayu Song"
-    since: 2022
-    topic: "Seidel representation in quantum K-theory, quantum Pieri rule, quantum Chern character"
-    papers_count: 4
-  - person: "Konstanze Rietsch"
-    since: 2024
-    topic: "Plücker coordinate mirror, quantum Schubert calculus, G/P Schubert varieties"
-    papers_count: 3
-  - person: si-li
-    since: 2013
-    topic: "Primitive forms, mirror symmetry for exceptional singularities"
-    papers_count: 2
-  - person: "Kyoji Saito"
-    since: 2013
-    topic: "Primitive forms, mirror symmetry for exceptional unimodular singularities"
-    papers_count: 2
-  - person: "Sergey Galkin"
-    since: 2024
-    topic: "Gamma conjecture, A-D-E diagrams"
-    papers_count: 2
-  - person: "Rui Xiong"
-    since: 2024
-    topic: "Quantum cohomology of Springer resolution, quantum Schubert calculus"
-    papers_count: 2
-  - person: "Frank Sottile"
-    since: 2016
-    topic: "Equivariant Pieri rules, open Richardson varieties"
-    papers_count: 2
+- person: leung-naichung
+  since: 2008
+  topic: Quantum cohomology of flag varieties, Pieri rules, GW invariants
+  papers_count: 8
+- person: Leonardo C. Mihalcea
+  since: 2012
+  topic: K-theoretic GW invariants, Conjecture O, quantum K-theory
+  papers_count: 4
+- person: ke-huazhong
+  since: 2019
+  topic: Gamma conjecture, quantum cohomology, mirror symmetry for blowups
+  papers_count: 5
+- person: hu-jianxun
+  since: 2019
+  topic: Gamma conjecture, Galkin's conjecture, quantum cohomology of blowups
+  papers_count: 5
+- person: Mingzhi Yang
+  since: 2019
+  topic: Frobenius-Perron dimension, Seidel representation, quantum Schubert calculus
+  papers_count: 5
+- person: song-jiayu
+  since: 2022
+  topic: Seidel representation in quantum K-theory, quantum Pieri rule, quantum Chern character
+  papers_count: 4
+- person: Konstanze Rietsch
+  since: 2024
+  topic: Plücker coordinate mirror, quantum Schubert calculus, G/P Schubert varieties
+  papers_count: 3
+- person: si-li
+  since: 2013
+  topic: Primitive forms, mirror symmetry for exceptional singularities
+  papers_count: 2
+- person: k-saito
+  since: 2013
+  topic: Primitive forms, mirror symmetry for exceptional unimodular singularities
+  papers_count: 2
+- person: Sergey Galkin
+  since: 2024
+  topic: Gamma conjecture, A-D-E diagrams
+  papers_count: 2
+- person: Rui Xiong
+  since: 2024
+  topic: Quantum cohomology of Springer resolution, quantum Schubert calculus
+  papers_count: 2
+- person: Frank Sottile
+  since: 2016
+  topic: Equivariant Pieri rules, open Richardson varieties
+  papers_count: 2
 publications:
   - id: '2502.13558'
     title: 'On the quantum cohomology of blow-ups of four-dimensional quadrics'

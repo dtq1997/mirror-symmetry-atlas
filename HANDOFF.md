@@ -36,6 +36,26 @@
 **学术履历按时间排序**: `src/lib/period.ts` 解析 90+ 种 period 写法
 后用 `sortByPeriod` 排. PersonTimeline.tsx 已应用.
 
+## 待办：faculty 信息富化（基础设施已就绪，未跑全量）
+
+`scripts/enrich-from-faculty-pages.py` + `data/people/_faculty_urls.yaml`
+已建好。已验证 xu-xiaomeng 样板能正确抓邮箱/办公室/工作经历/头衔。
+
+**剩余工作**：
+- 65 位中国学者 yaml 多数缺杰青/长江/优青/院士头衔记录
+- 41 人完全没 awards 字段且 career_timeline 也无关键词
+- 14 人 career role 含"学者/优青/院士/tenure"等关键词但没单独录成 award
+- 需要逐个搜索 faculty URL（每校结构不同），并叠加 NSFC 公示交叉验证
+- 写入 yaml 字段：career_timeline (类型 award) + links.email + links.faculty_page + sources
+
+**优先名单**（从前一轮潜力分析中识别）：
+xu-xiaomeng / si-li / fang-bohan / guo-shuai / liu-siqi / yang-di /
+zong-zhengyu / chen-zhuo / huan-zhen / yang-chenglang / tang-xinxing /
+ruan-yongbin / zhang-youjin
+
+**警告**：本轮潜力预测基于不全的数据完成，不应作为后续判断依据。完成富化
+后应重做。
+
 ## SSOT 架构 (2026-05-06 已重构)
 
 **单一权威映射表**: `src/lib/people-names.json`

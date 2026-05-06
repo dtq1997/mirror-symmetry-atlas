@@ -9,44 +9,44 @@ nationality: Taiwanese
 gender: male
 photo_url: null
 career_timeline:
-  - period: "[?]-2001"
-    type: education
-    institution: null
-    role: "本科"
-    notes: "国立成功大学 (NCKU) 数学系，2001 年获学士学位"
-  - period: "2001-2007"
-    type: education
-    institution: null
-    role: "博士"
-    advisor: li-jun
-    notes: "斯坦福大学数学系，2007 年获博士学位。导师 Jun Li (李骏，时在 Stanford) [待验证，基于合作模式]"
-  - period: "2007-2009"
-    type: position
-    institution: sissa
-    role: "数学物理博士后"
-    notes: "意大利 SISSA 国际高等研究学院"
-  - period: "2009-2015"
-    type: position
-    institution: hkust
-    role: "助理教授"
-    notes: "香港科技大学数学系"
-  - period: "2015-present"
-    type: position
-    institution: hkust
-    role: "副教授 → 教授"
-    notes: "香港科技大学数学系。2024 年获国家杰青基金后晋升教授"
-  - period: "2017"
-    type: award
-    title: "ICCM 最佳论文奖金奖"
-    notes: "首届国际华人数学家大会 (ICCM2017)，与 Wei-Ping Li、Jun Li 合作的 Inventiones 论文 'Witten's top Chern class via cosection localization'"
-  - period: "2017"
-    type: award
-    title: "ICCM 杰出论文奖"
-    notes: "与 Kiem, J. Li 合作的 Adv. Math. 论文 'Torus localization for cosection localized virtual cycles'"
-  - period: "2024"
-    type: award
-    title: "国家杰出青年科学基金"
-    notes: "国家自然科学基金委员会"
+- period: '[?]-2001'
+  type: education
+  institution: null
+  role: 本科
+  notes: 国立成功大学 (NCKU) 数学系，2001 年获学士学位
+- period: 2001-2007
+  type: education
+  institution: null
+  role: 博士
+  advisor: li-jun
+  notes: 斯坦福大学数学系，2007 年获博士学位。导师 Jun Li (李骏，时在 Stanford) [待验证，基于合作模式]
+- period: 2007-2009
+  type: position
+  institution: sissa
+  role: 数学物理博士后
+  notes: 意大利 SISSA 国际高等研究学院
+- period: 2009-2015
+  type: position
+  institution: hkust
+  role: 助理教授
+  notes: 香港科技大学数学系
+- period: 2015-present
+  type: position
+  institution: hkust
+  role: 副教授 → 教授
+  notes: 香港科技大学数学系。2024 年获国家杰青基金后晋升教授
+- period: '2017'
+  type: award
+  title: ICCM 最佳论文奖金奖
+  notes: 首届国际华人数学家大会 (ICCM2017)，与 Wei-Ping Li、Jun Li 合作的 Inventiones 论文 'Witten's top Chern class via cosection localization'
+- period: '2017'
+  type: award
+  title: ICCM 杰出论文奖
+  notes: 与 Kiem, J. Li 合作的 Adv. Math. 论文 'Torus localization for cosection localized virtual cycles'
+- period: '2024'
+  type: award
+  title: 国家杰出青年科学基金
+  notes: 国家自然科学基金委员会
 research_areas:
   - algebraic-geometry
   - gromov-witten-theory
@@ -117,34 +117,34 @@ identity_profile:
 advisor: li-jun
 students: []
 key_collaborators:
-  - person: li-jun
-    since: 2008
-    topic: "Cosection localization, MSP fields, NMSP, quintic 3-folds, virtual cycles"
-    papers_count: 12
-  - person: "Wei-Ping Li"
-    since: 2013
-    topic: "Witten's top Chern class, MSP fields, virtual cycles"
-    papers_count: 7
-  - person: guo-shuai
-    since: 2017
-    topic: "NMSP, BCOV Feynman rule, polynomial structure of GW potential of quintic"
-    papers_count: 9
-  - person: "Chiu-Chu Melissa Liu"
-    since: 2015
-    topic: "MSP fields of Fermat quintic, effective theory of GW and FJRW"
-    papers_count: 4
-  - person: "Young-Hoon Kiem"
-    since: 2012
-    topic: "Cosection localization, wall crossing, Poincare=SW invariants"
-    papers_count: 3
-  - person: "Jie Zhou"
-    since: 2017
-    topic: "Genus one GW invariants of quintic threefolds via MSP localization"
-    papers_count: 1
-  - person: "Mu-Lin Li"
-    since: 2015
-    topic: "Virtual residue, quasimaps with fields"
-    papers_count: 2
+- person: li-jun
+  since: 2008
+  topic: Cosection localization, MSP fields, NMSP, quintic 3-folds, virtual cycles
+  papers_count: 12
+- person: Wei-Ping Li
+  since: 2013
+  topic: Witten's top Chern class, MSP fields, virtual cycles
+  papers_count: 7
+- person: guo-shuai
+  since: 2017
+  topic: NMSP, BCOV Feynman rule, polynomial structure of GW potential of quintic
+  papers_count: 9
+- person: liu-melissa
+  since: 2015
+  topic: MSP fields of Fermat quintic, effective theory of GW and FJRW
+  papers_count: 4
+- person: Young-Hoon Kiem
+  since: 2012
+  topic: Cosection localization, wall crossing, Poincare=SW invariants
+  papers_count: 3
+- person: Jie Zhou
+  since: 2017
+  topic: Genus one GW invariants of quintic threefolds via MSP localization
+  papers_count: 1
+- person: Mu-Lin Li
+  since: 2015
+  topic: Virtual residue, quasimaps with fields
+  papers_count: 2
 publications:
   - id: 'doi:10.1215/00127094-2025-0038'
     title: 'BCOV Feynman rule of the quintic threefold'
