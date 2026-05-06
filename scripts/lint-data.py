@@ -52,6 +52,8 @@ CONN_DIR = ROOT / 'data/connections'
 PLACEHOLDER_RE = re.compile(r'^\s*\[(?:\?|待[^\]]*|todo|tbd)\]?\s*$', re.IGNORECASE)
 SLUG_RE = re.compile(r'^[a-z][a-z0-9-]*$')
 
+from non_math_keywords import is_non_math_title
+
 
 def load_yaml_dir(d):
     out = {}
@@ -252,6 +254,13 @@ def lint(strict_pubs=False, only_slug=None):
                 err(slug, f"publications[{i}] not a dict")
                 continue
             tag = f"publications[{i}] (id={pub.get('id')!r})"
+            # Non-math topic check (hard block — 99% homonym pollution)
+            kw = is_non_math_title(pub.get('title'))
+            if kw:
+                err(slug, f"{tag}: title contains non-math keyword "
+                    f"(matched {kw}); paper likely attributed via homonym. "
+                    f"Run `python3 scripts/eject-non-math-publications.py "
+                    f"--apply` or remove manually")
             for c in (pub.get('coauthors') or []):
                 if not isinstance(c, str):
                     err(slug, f"{tag}.coauthors entry must be string")

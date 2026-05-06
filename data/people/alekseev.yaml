@@ -133,9 +133,9 @@ key_collaborators:
   topic: Kashiwara-Vergne, WKB
   papers_count: 2
 activity:
-  total_papers: 73
-  published_count: 57
-  preprint_only_count: 16
+  total_papers: 69
+  published_count: 54
+  preprint_only_count: 15
   h_index: 26
   active_period: '1991-present'
   phd_students: 20
@@ -220,24 +220,6 @@ publications:
     journal: 'Commun. Math. Phys. (2024) 405:229'
     primary_category: math.DG
     sources: [arxiv]
-  - id: 'doi:10.1007/s10958-024-07431-3'
-    title: 'User Response Modeling in Recommender Systems: A Survey'
-    year: 2024
-    coauthors: ['M. Shirokikh', 'I. Shenbin', 'A. Volodkevich', 'A. Vasilev', 'S. Nikolenko']
-    doi: '10.1007/s10958-024-07431-3'
-    journal: 'Journal of Mathematical Sciences'
-    openalex_id: W4404193850
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1007/s10958-024-07438-w'
-    title: 'Blending of Predictions Boosts Understanding for Multimodal Advertisements'
-    year: 2024
-    coauthors: ['A. V. Savchenko', 'E. Tutubalina', 'E. Myasnikov', 'S. I. Nikolenko']
-    doi: '10.1007/s10958-024-07438-w'
-    journal: 'Journal of Mathematical Sciences'
-    openalex_id: W4404194308
-    sources: [openalex]
-    no_arxiv: true
   - id: 'doi:10.1007/s00023-023-01324-y'
     title: 'Berezin Quantization, Conformal Welding and the Bott–Virasoro Group'
     year: 2023
@@ -279,13 +261,6 @@ publications:
     journal: 'Adv. Math. 443 (2024) 109580'
     primary_category: math.QA
     sources: [arxiv]
-  - id: 'doi:10.48550/arxiv.2111.12956'
-    title: 'Near-Zero-Shot Suggestion Mining with a Little Help from WordNet'
-    year: 2021
-    coauthors: ['Elena Tutubalina', 'Sejeong Kwon', 'Sergey Nikolenko']
-    openalex_id: W4286850634
-    sources: [openalex]
-    no_arxiv: true
   - id: '2004.03024'
     title: 'Characters, Coadjoint Orbits and Duistermaat-Heckman Integrals'
     year: 2020
@@ -410,15 +385,6 @@ publications:
     primary_category: math-ph
     openalex_id: W2594725194
     sources: [arxiv, openalex]
-  - id: 'doi:10.1007/978-3-319-52920-2_19'
-    title: 'User Profiling in Text-Based Recommender Systems Based on Distributed Word Representations'
-    year: 2017
-    coauthors: ['Sergey Nikolenko']
-    doi: '10.1007/978-3-319-52920-2_19'
-    journal: 'Communications in computer and information science'
-    openalex_id: W2588568033
-    sources: [openalex]
-    no_arxiv: true
   - id: '1611.05581'
     title: 'Higher genus Kashiwara-Vergne problems and the Goldman-Turaev Lie bialgebra'
     year: 2016

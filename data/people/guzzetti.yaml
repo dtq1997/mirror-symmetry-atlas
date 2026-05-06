@@ -227,20 +227,6 @@ publications:
     primary_category: math.CA
     openalex_id: W3119022540
     sources: [arxiv, openalex]
-  - id: '2107.05142'
-    title: 'Graph neural networks for simulating crack coalescence and propagation in brittle materials'
-    year: 2021
-    coauthors: ['Roberto Perera', 'Vinamra Agrawal']
-    doi: '10.1016/j.cma.2022.115021'
-    journal: 'Computer Methods in Applied Mechanics and Engineering'
-    sources: [arxiv]
-  - id: '2101.06474'
-    title: 'Optimized and autonomous machine learning framework for characterizing pores, particles, grains and grain boundaries in microstructural images'
-    year: 2021
-    coauthors: ['Roberto Perera', 'Vinamra Agrawal']
-    doi: '10.1016/j.commatsci.2021.110524'
-    journal: 'Computational Materials Science'
-    sources: [arxiv]
   - id: '1901.02881'
     title: 'Multi-Revolution Low-Thrust Trajectory Optimization Using Symplectic Methods'
     year: 2019
@@ -528,8 +514,8 @@ publications:
     sources: [openalex]
     no_arxiv: true
 activity:
-  total_papers: 49
-  published_count: 44
+  total_papers: 47
+  published_count: 42
   preprint_only_count: 5
   h_index: 11
   active_period: '1999-present'

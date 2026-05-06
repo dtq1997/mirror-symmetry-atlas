@@ -148,15 +148,6 @@ publications:
     coauthors: []
     primary_category: math.AG
     sources: [arxiv]
-  - id: 'doi:10.1021/acsanm.5c01045'
-    title: 'MOF-Derived NiO–SnO<sub>2</sub>/Ti<sub>3</sub>C<sub>2</sub>T<sub><i>x</i></sub> Composite Materials for Detection of ppb-Level NO<sub>2</sub> at Room Temperature'
-    year: 2025
-    coauthors: ['Yinpei Luo', 'Chun Huang', 'Shifu Gu', 'Bingsheng Du', 'Yingchun Dong', 'Yijie Shi', 'Hangyu Liu', 'Mati Horprathum', 'Wei Hu', 'Yong He']
-    doi: '10.1021/acsanm.5c01045'
-    journal: 'ACS Applied Nano Materials'
-    openalex_id: W4409727204
-    sources: [openalex]
-    no_arxiv: true
   - id: 'doi:10.1021/acsanm.4c06383'
     title: 'Nickel-Doped Tin Selenide Nanosheets for Detection of NO<sub>2</sub> at pbb Levels with Fast Response and Recovery at Room Temperature'
     year: 2025
@@ -166,15 +157,6 @@ publications:
     openalex_id: W4406156844
     sources: [openalex]
     no_arxiv: true
-  - id: 'doi:10.1016/j.snb.2024.135916'
-    title: 'An ultrasensitive NO2 gas sensor based on a NiO-SnO2 composite with a sub-ppb detection limit at room temperature'
-    year: 2024
-    coauthors: ['Bingsheng Du', 'Xuezheng Guo', 'Yingchun Dong', 'Maozhu Zhang', 'Weifeng Jin', 'Cao Gao', 'Di Peng', 'Yong He']
-    doi: '10.1016/j.snb.2024.135916'
-    journal: 'Sensors and Actuators B Chemical'
-    openalex_id: W4396508706
-    sources: [openalex]
-    no_arxiv: true
   - id: '2303.03671'
     title: 'The uniform asymptotics for real double Hurwitz numbers with triple ramification I: the tropical correspondence'
     year: 2023
@@ -182,24 +164,6 @@ publications:
     primary_category: math.AG
     openalex_id: W4323650706
     sources: [arxiv, openalex]
-  - id: 'doi:10.1016/j.snb.2023.133347'
-    title: 'Cobalt ions induced morphology control of metal-organic framework-derived indium oxide nanostructures for high performance hydrogen sulfide gas sensors'
-    year: 2023
-    coauthors: ['Wen Niu', 'Kaijin Kang', 'Yi Ou', 'Bingsheng Du', 'Xuezheng Guo', 'Yiling Tan', 'Wei Hu', 'Chao Gao', 'Yong He', 'Yongcai Guo']
-    doi: '10.1016/j.snb.2023.133347'
-    journal: 'Sensors and Actuators B Chemical'
-    openalex_id: W4315498976
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1016/j.snb.2023.134291'
-    title: '2D/0D SnSe2/TiO2 nanocomposites for trace NO2 detection under H2S interference at room temperature'
-    year: 2023
-    coauthors: ['Chengjiu Zhao', 'Xuezheng Guo', 'Chengyao Liang', 'Bingsheng Du', 'Wen Niu', 'Weijie Qu', 'Yijie Shi', 'Shuren Cong', 'Gang Meng', 'Yong He']
-    doi: '10.1016/j.snb.2023.134291'
-    journal: 'Sensors and Actuators B Chemical'
-    openalex_id: W4384207817
-    sources: [openalex]
-    no_arxiv: true
   - id: 'doi:10.1016/j.snb.2023.133662'
     title: 'Surface states modulation of topological insulator Bi2Se3 by noble metal decoration for gas sensing kinetic engineering'
     year: 2023
@@ -235,15 +199,6 @@ publications:
     openalex_id: W4312815314
     sources: [openalex]
     no_arxiv: true
-  - id: 'doi:10.1016/j.jcis.2021.03.115'
-    title: 'Enhanced ammonia sensing performance based on MXene-Ti3C2Tx multilayer nanoflakes functionalized by tungsten trioxide nanoparticles'
-    year: 2021
-    coauthors: ['Xuezheng Guo', 'Delin Kuang', 'Zhilin Wu', 'Xia Sun', 'Bingsheng Du', 'Chengyao Liang', 'Yingjie Wu', 'Weijie Qu', 'Lian Xiong', 'Yong He']
-    doi: '10.1016/j.jcis.2021.03.115'
-    journal: 'Journal of Colloid and Interface Science'
-    openalex_id: W3144685979
-    sources: [openalex]
-    no_arxiv: true
   - id: 'doi:10.1039/d1tc00391g'
     title: 'Low-operating temperature ammonia sensor based on Cu<sub>2</sub>O nanoparticles decorated with p-type MoS<sub>2</sub>nanosheets'
     year: 2021
@@ -251,15 +206,6 @@ publications:
     doi: '10.1039/d1tc00391g'
     journal: 'Journal of Materials Chemistry C'
     openalex_id: W3138133409
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1016/j.ceramint.2021.03.284'
-    title: 'Enhanced room temperature ammonia response of 2D-Ti3C2T MXene decorated with Ni(OH)2 nanoparticles'
-    year: 2021
-    coauthors: ['Delin Kuang', 'Xuezheng Guo', 'ZeTao Zhu', 'Xia Sun', 'Zhilin Wu', 'Luwen Zhang', 'Yangyang Zhou', 'Yong He']
-    doi: '10.1016/j.ceramint.2021.03.284'
-    journal: 'Ceramics International'
-    openalex_id: W3147705579
     sources: [openalex]
     no_arxiv: true
   - id: '2010.00899'
@@ -271,15 +217,6 @@ publications:
     primary_category: math.AG
     openalex_id: W3090865687
     sources: [arxiv, openalex]
-  - id: 'doi:10.1016/j.jpowsour.2020.229073'
-    title: 'Methylammonium chloride as an interface modificator for planar-structure perovskite solar cells with a high open circuit voltage of 1.19V'
-    year: 2020
-    coauthors: ['Xiaofei Hu', 'Huaxin Wang', 'Yuansong Ying', 'Ming Wang', 'Cong Zhang', 'Haiyun Li', 'Wei Li', 'Shuangyi Zhao', 'Zhigang Zang']
-    doi: '10.1016/j.jpowsour.2020.229073'
-    journal: 'Journal of Power Sources'
-    openalex_id: W3096532370
-    sources: [openalex]
-    no_arxiv: true
   - id: 'doi:10.1007/s00209-020-02458-z'
     title: 'Genus decreasing formula for higher genus Welschinger invariants'
     year: 2020
@@ -305,23 +242,6 @@ publications:
     primary_category: math.AG
     openalex_id: W2922454283
     sources: [arxiv, openalex]
-  - id: 'doi:10.1149/2.0741904jes'
-    title: 'Electrochemical Features and Hydrogen Absorption-Desorption Properties of A<sub>2</sub>B<sub>7</sub>-type Pr–Mg–Ni-Based Alloys'
-    year: 2019
-    coauthors: ['Lu Zhang', 'Yumeng Zhao', 'Ismael A. Rodríguez-Pérez', 'Dezhi Kuang', 'Guochang Xu', 'Lixin Liu', 'Shumin Han']
-    doi: '10.1149/2.0741904jes'
-    journal: 'Journal of The Electrochemical Society'
-    openalex_id: W2918401874
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.2210/pdb6j04/pdb'
-    title: 'Crystal structure of full length human LC3B delta G120 mutant (2_125)'
-    year: 2018
-    coauthors: ['B.X. Lu', 'Z.Y. Wang']
-    doi: '10.2210/pdb6j04/pdb'
-    openalex_id: W2987023452
-    sources: [openalex]
-    no_arxiv: true
   - id: '1710.03603'
     title: 'Higher genus Welschinger invariants under real surgeries (Genus decreasing formula)'
     year: 2017
@@ -338,15 +258,6 @@ publications:
     primary_category: math.SG
     openalex_id: W2964106939
     sources: [arxiv, openalex]
-  - id: 'doi:10.1039/c6ta02889f'
-    title: 'Hydrogen absorption–desorption characteristics of a Gd<sub>2</sub>Co<sub>7</sub>-type Sm<sub>1.6</sub>Mg<sub>0.4</sub>Ni<sub>7</sub> compound'
-    year: 2016
-    coauthors: ['Lu Zhang', 'Yuan Li', 'Yumeng Zhao', 'Xin Zhao', 'Baozhong Liu', 'Shumin Han']
-    doi: '10.1039/c6ta02889f'
-    journal: 'Journal of Materials Chemistry A'
-    openalex_id: W2395513850
-    sources: [openalex]
-    no_arxiv: true
   - id: 'doi:10.1016/j.jallcom.2016.10.054'
     title: 'Comparative study on the capacity degradation behavior of Pr5Co19-type single-phase Pr4MgNi19 and La4MgNi19 alloys'
     year: 2016
@@ -354,15 +265,6 @@ publications:
     doi: '10.1016/j.jallcom.2016.10.054'
     journal: 'Journal of Alloys and Compounds'
     openalex_id: W2531802486
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1149/2.0621610jes'
-    title: 'The Formation Mechanism and Electrochemical Cyclic Stability of the Single-Phase Pr<i><sub>n</sub></i>MgNi<sub>5<i>n-1</i></sub>(<i>n</i>= 2, 3, 4) Hydrogen Storage Alloy'
-    year: 2016
-    coauthors: ['Lu Zhang', 'Yuan Li', 'Yumeng Zhao', 'Shuqin Yang', 'Chunping Ma', 'Baozhong Liu', 'Shumin Han']
-    doi: '10.1149/2.0621610jes'
-    journal: 'Journal of The Electrochemical Society'
-    openalex_id: W2508677701
     sources: [openalex]
     no_arxiv: true
   - id: '1504.07111'
@@ -374,24 +276,6 @@ publications:
     primary_category: math.SG
     openalex_id: W1913596887
     sources: [arxiv, openalex]
-  - id: 'doi:10.1016/j.ijhydene.2015.12.049'
-    title: 'Phase structure and cycling stability of A2B7 superlattice La0.60Sm0.15Mg0.25Ni3.4 metal hydride alloy'
-    year: 2015
-    coauthors: ['Lu Zhang', 'Yumeng Zhao', 'Wenkai Du', 'Yuan Li', 'Shuqin Yang', 'Shumin Han']
-    doi: '10.1016/j.ijhydene.2015.12.049'
-    journal: 'International Journal of Hydrogen Energy'
-    openalex_id: W2206952849
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1016/j.jallcom.2015.09.049'
-    title: 'The influence of Mg substitution on the phase structure and electrochemical properties of Nd1−Mg Ni3 (x = 0.10–0.50) alloys'
-    year: 2015
-    coauthors: ['Lu Zhang', 'Jinding Wang', 'Wenkai Du', 'Yuan Li', 'Shuqin Yang', 'Shumin Han', 'Yanping Fan']
-    doi: '10.1016/j.jallcom.2015.09.049'
-    journal: 'Journal of Alloys and Compounds'
-    openalex_id: W1702971737
-    sources: [openalex]
-    no_arxiv: true
   - id: 'doi:10.1149/2.0981510jes'
     title: 'Effect of Nd on Subunits Structure and Electrochemical Properties of Super-Stacking PuNi<sub>3</sub>-Type La–Mg–Ni-Based Alloys'
     year: 2015
@@ -409,8 +293,8 @@ publications:
     sources: [openalex]
     no_arxiv: true
 activity:
-  total_papers: 34
-  published_count: 29
+  total_papers: 21
+  published_count: 16
   preprint_only_count: 5
   active_period: '2015-present'
   peak_period: '2023-present'

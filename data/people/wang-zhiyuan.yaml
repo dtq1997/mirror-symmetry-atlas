@@ -155,15 +155,6 @@ publications:
     primary_category: math.CO
     openalex_id: W7131865136
     sources: [arxiv, openalex]
-  - id: 'doi:10.1038/s41467-024-49498-1'
-    title: 'A popcorn-inspired strategy for compounding graphene@NiFe2O4 flexible films for strong electromagnetic interference shielding and absorption'
-    year: 2024
-    coauthors: ['Mingjie Liu', 'Zhaoqiang Song', 'Fangcheng Wang', 'Guangyao Zhao', 'Haojie Zhu', 'Zhuofei Jia', 'Zhenbin Guo', 'Feiyu Kang', 'Cheng Yang']
-    doi: '10.1038/s41467-024-49498-1'
-    journal: 'Nature Communications'
-    openalex_id: W4400117137
-    sources: [openalex]
-    no_arxiv: true
   - id: '2301.01131'
     title: 'BKP-Affine Coordinates and Emergent Geometry of Generalized BGW Tau-Functions'
     year: 2023
@@ -256,8 +247,8 @@ publications:
     openalex_id: W2885419658
     sources: [arxiv, openalex]
 activity:
-  total_papers: 19
-  published_count: 13
+  total_papers: 18
+  published_count: 12
   preprint_only_count: 6
   active_period: '2018-present'
   confidence: 'has-17-review-pending'
