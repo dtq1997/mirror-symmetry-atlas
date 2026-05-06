@@ -1,13 +1,40 @@
 # Mirror Symmetry Atlas — 交接备忘
 
-最后更新: 2026-05-06
+最后更新: 2026-05-06 第二轮 (名字匹配根治)
 
 ## 当前状态
 
 - 网站已部署到 https://dtq1997.github.io/mirror-symmetry-atlas/
 - 92 人物 yaml + 44 ghost slugs (advisor/学生引用但未建档的)
-- publications 已从 OpenAlex + Crossref + arxiv 三源融合, 经过证据驱动消歧器过滤
+- publications 已从 OpenAlex + Crossref + arxiv 三源融合, 经过 strict 证据驱动消歧器过滤
 - 31 人有 score 10-19 的边界论文待人工核对 (`data/papers/_review_queue/`)
+
+## 名字匹配根治 (2026-05-06 二轮)
+
+**根因**: 多处脚本用 substring 匹配判断作者身份, 'Ao Li' 的 token
+[ao, li] 是 'Chien-Hao Liu' 的子串, 'Zhang Qing' 是 'Zhang Qingsheng'
+的前缀, 灾难错绑遍布数据.
+
+**SSOT**: `scripts/name_match.py`
+- `names_match`: strict token-set, 用于 slug 绑定
+- `names_compatible`: surname 完整 + given 首字母兼容,
+  用于 ownership check (容忍 'A. Alekseev' = 'Anton Alekseev')
+
+**SSOT**: `scripts/lib_truth.py`
+- arxiv → Crossref → OpenAlex 三源真值查询
+- 7 位 legacy id (e.g. 9602001) 同号在不同 archive 是不同论文,
+  用 owner_hint 选作者列表含本人的那个 archive
+- .miss 失败缓存避免每次重试
+
+**清理结果** (`scripts/validate-publications.py --apply`):
+- 93 整篇错挂 EJECT
+- 489 coauthor 字段修正
+- li-ao: 10 → 0 (硕士生, 论文都是别人的同名)
+- alekseev: 91 → 73 (剔除凝聚态物理同名作者)
+- dubrovin/guo-shuai/xu-xu/si-li 等清理完毕
+
+**学术履历按时间排序**: `src/lib/period.ts` 解析 90+ 种 period 写法
+后用 `sortByPeriod` 排. PersonTimeline.tsx 已应用.
 
 ## SSOT 架构 (2026-05-06 已重构)
 
