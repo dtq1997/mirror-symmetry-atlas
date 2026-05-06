@@ -4,6 +4,11 @@
     "en": "Academy of Mathematics and Systems Science, CAS",
     "zh": "中国科学院数学与系统科学研究院"
   },
+  "amss-cas": {
+    "displayName": "中国科学院数学与系统科学研究院",
+    "en": "Academy of Mathematics and Systems Science, CAS",
+    "zh": "中国科学院数学与系统科学研究院"
+  },
   "bimsa": {
     "displayName": "北京雁栖湖应用数学研究院",
     "en": "Beijing Institute of Mathematical Sciences and Applications",
@@ -14,10 +19,20 @@
     "en": "University of Birmingham",
     "zh": "伯明翰大学"
   },
+  "bit": {
+    "displayName": "北京理工大学",
+    "en": "Beijing Institute of Technology",
+    "zh": "北京理工大学"
+  },
   "bonn": {
     "displayName": "波恩大学",
     "en": "University of Bonn",
     "zh": "波恩大学"
+  },
+  "boston-u": {
+    "displayName": "波士顿大学",
+    "en": "Boston University",
+    "zh": "波士顿大学"
   },
   "capital-normal": {
     "displayName": "首都师范大学",
@@ -28,6 +43,16 @@
     "displayName": "中国农业大学",
     "en": "China Agricultural University",
     "zh": "中国农业大学"
+  },
+  "cmls-polytechnique": {
+    "displayName": "巴黎综合理工学院数学中心",
+    "en": "Centre de Mathématiques Laurent Schwartz, École polytechnique",
+    "zh": "巴黎综合理工学院数学中心"
+  },
+  "college-de-france": {
+    "displayName": "法兰西公学院",
+    "en": "Collège de France",
+    "zh": "法兰西公学院"
   },
   "columbia": {
     "displayName": "哥伦比亚大学",
@@ -44,6 +69,21 @@
     "en": "The Chinese University of Hong Kong",
     "zh": "香港中文大学"
   },
+  "ens-paris": {
+    "displayName": "巴黎高等师范学院",
+    "en": "École Normale Supérieure (Paris)",
+    "zh": "巴黎高等师范学院"
+  },
+  "eth-zurich": {
+    "displayName": "苏黎世联邦理工学院",
+    "en": "ETH Zürich",
+    "zh": "苏黎世联邦理工学院"
+  },
+  "euler-institute": {
+    "displayName": "欧拉国际数学研究所",
+    "en": "Euler International Mathematical Institute",
+    "zh": "欧拉国际数学研究所"
+  },
   "gbu": {
     "displayName": "大湾区大学",
     "en": "Great Bay University",
@@ -54,10 +94,25 @@
     "en": "University of Geneva",
     "zh": "日内瓦大学"
   },
+  "genova": {
+    "displayName": "热那亚大学",
+    "en": "University of Genoa",
+    "zh": "热那亚大学"
+  },
+  "gottingen": {
+    "displayName": "哥廷根大学",
+    "en": "University of Göttingen",
+    "zh": "哥廷根大学"
+  },
   "harvard": {
     "displayName": "哈佛大学",
     "en": "Harvard University",
     "zh": "哈佛大学"
+  },
+  "henan": {
+    "displayName": "河南大学",
+    "en": "Henan University",
+    "zh": "河南大学"
   },
   "henan-u": {
     "displayName": "河南大学",
@@ -74,15 +129,115 @@
     "en": "Huazhong University of Science and Technology",
     "zh": "华中科技大学"
   },
+  "ias": {
+    "displayName": "普林斯顿高等研究院",
+    "en": "Institute for Advanced Study (Princeton)",
+    "zh": "普林斯顿高等研究院"
+  },
+  "ibs-cgp": {
+    "displayName": "IBS 几何与物理中心",
+    "en": "Center for Geometry and Physics, Institute for Basic Science",
+    "zh": "IBS 几何与物理中心"
+  },
+  "ictp": {
+    "displayName": "国际理论物理中心",
+    "en": "International Centre for Theoretical Physics",
+    "zh": "国际理论物理中心"
+  },
   "ihes": {
     "displayName": "法国高等科学研究所",
     "en": "Institut des Hautes Études Scientifiques (IHÉS)",
     "zh": "法国高等科学研究所"
   },
+  "imj-prg": {
+    "displayName": "巴黎左岸数学研究所",
+    "en": "Institut de Mathématiques de Jussieu – Paris Rive Gauche",
+    "zh": "巴黎左岸数学研究所"
+  },
+  "ipmu": {
+    "displayName": "Kavli IPMU",
+    "en": "Kavli Institute for the Physics and Mathematics of the Universe",
+    "zh": "Kavli IPMU"
+  },
+  "ist-lisboa": {
+    "displayName": "里斯本高等理工学院",
+    "en": "Instituto Superior Técnico (Lisbon)",
+    "zh": "里斯本高等理工学院"
+  },
+  "jilin-u": {
+    "displayName": "吉林大学",
+    "en": "Jilin University",
+    "zh": "吉林大学"
+  },
+  "kavli-ipmu": {
+    "displayName": "Kavli IPMU (东京大学)",
+    "en": "Kavli IPMU, University of Tokyo",
+    "zh": "Kavli IPMU (东京大学)"
+  },
+  "kias": {
+    "displayName": "韩国高等研究院",
+    "en": "Korea Institute for Advanced Study",
+    "zh": "韩国高等研究院"
+  },
   "lanzhou-u": {
     "displayName": "兰州大学",
     "en": "Lanzhou University",
     "zh": "兰州大学"
+  },
+  "lanzhou-university": {
+    "displayName": "兰州大学",
+    "en": "Lanzhou University",
+    "zh": "兰州大学"
+  },
+  "leningrad-state": {
+    "displayName": "列宁格勒国立大学（今圣彼得堡国立大学）",
+    "en": "Leningrad State University (now Saint Petersburg State University)",
+    "zh": "列宁格勒国立大学（今圣彼得堡国立大学）"
+  },
+  "lgu": {
+    "displayName": "列宁格勒国立大学",
+    "en": "Leningrad State University",
+    "zh": "列宁格勒国立大学"
+  },
+  "loughborough": {
+    "displayName": "拉夫堡大学",
+    "en": "Loughborough University",
+    "zh": "拉夫堡大学"
+  },
+  "manchester": {
+    "displayName": "曼彻斯特大学",
+    "en": "University of Manchester",
+    "zh": "曼彻斯特大学"
+  },
+  "mannheim": {
+    "displayName": "曼海姆大学",
+    "en": "University of Mannheim",
+    "zh": "曼海姆大学"
+  },
+  "maryland": {
+    "displayName": "马里兰大学",
+    "en": "University of Maryland",
+    "zh": "马里兰大学"
+  },
+  "michigan-state": {
+    "displayName": "密歇根州立大学",
+    "en": "Michigan State University",
+    "zh": "密歇根州立大学"
+  },
+  "milan": {
+    "displayName": "米兰大学",
+    "en": "University of Milan",
+    "zh": "米兰大学"
+  },
+  "minnesota": {
+    "displayName": "明尼苏达大学",
+    "en": "University of Minnesota",
+    "zh": "明尼苏达大学"
+  },
+  "missouri": {
+    "displayName": "密苏里大学",
+    "en": "University of Missouri",
+    "zh": "密苏里大学"
   },
   "mit": {
     "displayName": "麻省理工学院",
@@ -94,10 +249,30 @@
     "en": "Moscow State University (MSU)",
     "zh": "莫斯科国立大学"
   },
+  "mpi-bonn": {
+    "displayName": "波恩马普数学所",
+    "en": "Max Planck Institute for Mathematics, Bonn",
+    "zh": "波恩马普数学所"
+  },
   "mpim-bonn": {
     "displayName": "马克斯·普朗克数学研究所",
     "en": "Max Planck Institute for Mathematics",
     "zh": "马克斯·普朗克数学研究所"
+  },
+  "msri": {
+    "displayName": "数学科学研究所 (现 SLMath)",
+    "en": "Mathematical Sciences Research Institute (now SLMath)",
+    "zh": "数学科学研究所 (现 SLMath)"
+  },
+  "nanjing": {
+    "displayName": "南京大学",
+    "en": "Nanjing University",
+    "zh": "南京大学"
+  },
+  "nanjing-u": {
+    "displayName": "南京大学",
+    "en": "Nanjing University",
+    "zh": "南京大学"
   },
   "nankai": {
     "displayName": "南开大学",
@@ -109,10 +284,45 @@
     "en": "Nanchang Hangkong University",
     "zh": "南昌航空大学"
   },
+  "northwestern": {
+    "displayName": "西北大学（美国）",
+    "en": "Northwestern University",
+    "zh": "西北大学（美国）"
+  },
+  "notre-dame": {
+    "displayName": "圣母大学",
+    "en": "University of Notre Dame",
+    "zh": "圣母大学"
+  },
+  "ntu": {
+    "displayName": "国立台湾大学",
+    "en": "National Taiwan University",
+    "zh": "国立台湾大学"
+  },
+  "nus": {
+    "displayName": "新加坡国立大学",
+    "en": "National University of Singapore",
+    "zh": "新加坡国立大学"
+  },
+  "oregon": {
+    "displayName": "俄勒冈大学",
+    "en": "University of Oregon",
+    "zh": "俄勒冈大学"
+  },
   "oxford": {
     "displayName": "牛津大学",
     "en": "University of Oxford",
     "zh": "牛津大学"
+  },
+  "padova": {
+    "displayName": "帕多瓦大学",
+    "en": "University of Padua",
+    "zh": "帕多瓦大学"
+  },
+  "paris-vii": {
+    "displayName": "巴黎第七大学（今巴黎大学）",
+    "en": "Paris Diderot University (now Université Paris Cité)",
+    "zh": "巴黎第七大学（今巴黎大学）"
   },
   "penn-state": {
     "displayName": "宾夕法尼亚州立大学",
@@ -128,6 +338,16 @@
     "displayName": "北京大学 / 北京国际数学研究中心 (BICMR)",
     "en": "Peking University / Beijing International Center for Mathematical Research",
     "zh": "北京大学 / 北京国际数学研究中心 (BICMR)"
+  },
+  "princeton": {
+    "displayName": "普林斯顿大学",
+    "en": "Princeton University",
+    "zh": "普林斯顿大学"
+  },
+  "qufu-normal": {
+    "displayName": "曲阜师范大学",
+    "en": "Qufu Normal University",
+    "zh": "曲阜师范大学"
   },
   "rims-kyoto": {
     "displayName": "京都大学数理解析研究所",
@@ -174,10 +394,20 @@
     "en": "Sorbonne University",
     "zh": "巴黎索邦大学"
   },
+  "stanford": {
+    "displayName": "斯坦福大学",
+    "en": "Stanford University",
+    "zh": "斯坦福大学"
+  },
   "steklov": {
     "displayName": "斯捷克洛夫数学研究所",
     "en": "Steklov Mathematical Institute",
     "zh": "斯捷克洛夫数学研究所"
+  },
+  "stony-brook": {
+    "displayName": "石溪大学",
+    "en": "Stony Brook University",
+    "zh": "石溪大学"
   },
   "sun-yat-sen": {
     "displayName": "中山大学",
@@ -194,6 +424,11 @@
     "en": "Southwest Jiaotong University",
     "zh": "西南交通大学"
   },
+  "texas-am": {
+    "displayName": "德州农工大学",
+    "en": "Texas A&M University",
+    "zh": "德州农工大学"
+  },
   "tsinghua": {
     "displayName": "清华大学",
     "en": "Tsinghua University",
@@ -209,19 +444,69 @@
     "en": "University of California, Berkeley",
     "zh": "加州大学伯克利分校"
   },
+  "ucberkeley": {
+    "displayName": "加州大学伯克利分校",
+    "en": "University of California, Berkeley",
+    "zh": "加州大学伯克利分校"
+  },
+  "ucsb": {
+    "displayName": "加州大学圣塔芭芭拉分校",
+    "en": "University of California, Santa Barbara",
+    "zh": "加州大学圣塔芭芭拉分校"
+  },
+  "ucsd": {
+    "displayName": "加州大学圣地亚哥分校",
+    "en": "University of California, San Diego",
+    "zh": "加州大学圣地亚哥分校"
+  },
+  "uiuc": {
+    "displayName": "伊利诺伊大学香槟分校",
+    "en": "University of Illinois Urbana-Champaign",
+    "zh": "伊利诺伊大学香槟分校"
+  },
   "umich": {
     "displayName": "密歇根大学",
     "en": "University of Michigan",
     "zh": "密歇根大学"
+  },
+  "upc-barcelona": {
+    "displayName": "加泰罗尼亚理工大学",
+    "en": "Universitat Politècnica de Catalunya",
+    "zh": "加泰罗尼亚理工大学"
+  },
+  "upenn": {
+    "displayName": "宾夕法尼亚大学",
+    "en": "University of Pennsylvania",
+    "zh": "宾夕法尼亚大学"
+  },
+  "uppsala": {
+    "displayName": "乌普萨拉大学",
+    "en": "Uppsala University",
+    "zh": "乌普萨拉大学"
   },
   "ustc": {
     "displayName": "中国科学技术大学",
     "en": "University of Science and Technology of China",
     "zh": "中国科学技术大学"
   },
+  "utah": {
+    "displayName": "犹他大学",
+    "en": "University of Utah",
+    "zh": "犹他大学"
+  },
+  "utrecht": {
+    "displayName": "乌得勒支大学",
+    "en": "Utrecht University",
+    "zh": "乌得勒支大学"
+  },
   "uw-madison": {
     "displayName": "威斯康星大学麦迪逊分校",
     "en": "University of Wisconsin-Madison",
+    "zh": "威斯康星大学麦迪逊分校"
+  },
+  "wisconsin-madison": {
+    "displayName": "威斯康星大学麦迪逊分校",
+    "en": "University of Wisconsin–Madison",
     "zh": "威斯康星大学麦迪逊分校"
   },
   "wuhan": {

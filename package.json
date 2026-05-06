@@ -4,10 +4,12 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "prebuild": "python3 scripts/build-people-names.py",
+    "prebuild": "python3 scripts/build-people-names.py && python3 scripts/build-institution-names.py && python3 scripts/lint-data.py",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "lint:data": "python3 scripts/lint-data.py",
+    "lint:data:strict": "python3 scripts/lint-data.py --strict-pubs"
   },
   "dependencies": {
     "d3-force": "^3.0.0",
