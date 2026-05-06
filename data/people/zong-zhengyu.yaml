@@ -79,7 +79,7 @@ publications:
   - id: '2504.15696'
     title: 'Remodeling Conjecture with Descendants'
     year: 2025
-    coauthors: [liu-melissa, 'Song Yu', fang-bohan]
+    coauthors: [liu-melissa, fang-bohan, 'Song Yu']
     primary_category: math.AG
     openalex_id: W4414632062
     sources: [arxiv, openalex]
@@ -129,16 +129,6 @@ publications:
     primary_category: math.AG
     openalex_id: W4380136784
     sources: [arxiv, openalex]
-  - id: '2211.09203'
-    title: 'All genus open-closed mirror symmetry for affine toric CY 3-orbifolds'
-    year: 2022
-    coauthors: ['Zhibin Zou']
-    sources: [arxiv]
-  - id: '2010.15403'
-    title: 'On the Remodeling Conjecture for Toric CY 3-Orbifolds'
-    year: 2020
-    coauthors: ['Marcin Wątorek']
-    sources: [arxiv]
   - id: '1902.03697'
     title: 'Graph sums in the Remodeling Conjecture'
     year: 2019
@@ -150,7 +140,7 @@ publications:
   - id: 'doi:10.1090/jams/934'
     title: 'On the remodeling conjecture for toric Calabi-Yau 3-orbifolds'
     year: 2019
-    coauthors: ['Chiu-Chu Liu', fang-bohan]
+    coauthors: [fang-bohan, 'Chiu-Chu Liu']
     doi: '10.1090/jams/934'
     journal: 'Journal of the American Mathematical Society'
     openalex_id: W2965670976
@@ -185,7 +175,7 @@ publications:
   - id: 'doi:10.1090/pspum/093/01588'
     title: 'All genus mirror symmetry for toric Calabi-Yau 3-orbifolds'
     year: 2016
-    coauthors: ['Chiu-Chu Liu']
+    coauthors: [fang-bohan, 'Chiu-Chu Liu']
     doi: '10.1090/pspum/093/01588'
     journal: 'Proceedings of Symposia in Pure Mathematics String-Math 2014'
     openalex_id: W7150215032
@@ -266,9 +256,9 @@ publications:
     primary_category: math.AG
     sources: [arxiv]
 activity:
-  total_papers: 26
+  total_papers: 24
   published_count: 16
-  preprint_only_count: 10
+  preprint_only_count: 8
   active_period: '2014-present'
   confidence: 'has-14-review-pending'
 external_ids:

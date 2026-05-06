@@ -189,12 +189,14 @@ def to_pub(w, target_name):
     src = (w.get('primary_location') or {}).get('source') or {}
     venue = fix_mojibake(src.get('display_name')) if isinstance(src, dict) else None
     arxiv_id = get_arxiv_id(w)
-    target_parts = [p for p in re.sub(r'[^a-z ]', ' ', target_name.lower()).split() if len(p) > 1]
+    # Strict match to skip the target author themselves; never substring.
+    import sys as _sys, os as _os
+    _sys.path.insert(0, _os.path.dirname(_os.path.abspath(__file__)))
+    from name_match import names_match
     coauthors = []
     for a in (w.get('authorships') or []):
         n = fix_mojibake((a.get('author') or {}).get('display_name') or '')
-        nl = re.sub(r'[^a-z ]', ' ', n.lower())
-        if target_parts and all(p in nl for p in target_parts):
+        if names_match(target_name, n):
             continue
         coauthors.append(n)
     pub = {
@@ -217,23 +219,12 @@ def to_pub(w, target_name):
 
 
 def slugify_coauthor(name, all_people, profile):
-    """Map a name to a slug *only if* that slug's identity is plausibly the
-    same person — by checking the candidate slug's name. We do NOT collapse
-    by name alone; that's the bug we're fixing."""
-    cleaned = re.sub(r'[^a-zA-Z ]', ' ', name).lower()
-    cleaned = re.sub(r'\s+', ' ', cleaned).strip()
-    parts = cleaned.split()
-    if not parts:
-        return name
-    for slug, p in all_people.items():
-        en = ((p.get('name') or {}).get('en') or '').lower()
-        en_parts = re.sub(r'[^a-z ]', ' ', en).split()
-        if not en_parts:
-            continue
-        if all(part in cleaned for part in en_parts if len(part) > 1) \
-                and all(part in en for part in parts if len(part) > 1):
-            return slug
-    return name
+    """Strict token-set match to a slug; otherwise return the raw name."""
+    import sys as _sys, os as _os
+    _sys.path.insert(0, _os.path.dirname(_os.path.abspath(__file__)))
+    from name_match import slug_for_author
+    s = slug_for_author(name, all_people)
+    return s if s else name
 
 
 def merge_pubs(arxiv_pubs, oa_accepted):

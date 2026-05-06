@@ -340,14 +340,6 @@ publications:
     primary_category: math.DG
     openalex_id: W1907219630
     sources: [arxiv, openalex]
-  - id: '0011062'
-    title: 'Stokes Matrices and Poisson Lie Groups'
-    year: 2000
-    coauthors: []
-    doi: '10.1007/s002220100170'
-    journal: 'Invent. math. 146, 479-506 (2001)'
-    primary_category: math.DG
-    sources: [arxiv]
   - id: 'openalex:W2185998210'
     title: 'Symplectic Geometry and Isomonodromic Deformations'
     year: 1999
@@ -356,8 +348,8 @@ publications:
     sources: [openalex]
     no_arxiv: true
 activity:
-  total_papers: 35
-  published_count: 23
+  total_papers: 34
+  published_count: 22
   preprint_only_count: 12
   h_index: 19
   active_period: '1999-present'

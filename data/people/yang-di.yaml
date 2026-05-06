@@ -185,7 +185,7 @@ publications:
   - id: '2412.20388'
     title: 'Combinatorics and large genus asymptotics of the Brézin--Gross--Witten numbers'
     year: 2024
-    coauthors: [zagier, 'Paul Norbury', guo-jindong]
+    coauthors: [zagier, guo-jindong, 'Paul Norbury']
     primary_category: math-ph
     sources: [arxiv]
   - id: '2409.12529'
@@ -256,10 +256,6 @@ publications:
     journal: 'Nonlinearity'
     primary_category: math-ph
     sources: [crossref]
-  - id: '2303.13775'
-    title: 'Gelfand-Dickey hierarchy, generalized BGW tau-function, and KdV equivariantly stable classes'
-    year: 2023
-    coauthors: ['Sandeep Polisetty']
   - id: '2203.16812'
     title: 'On Equivariant Gromov--Witten Invariants of Resolved Conifold with Diagonal and Anti-Diagonal Actions'
     year: 2022
@@ -299,7 +295,7 @@ publications:
   - id: '2110.06655'
     title: 'Affine Kac-Moody Algebras and Tau-Functions for the Drinfeld-Sokolov Hierarchies: the Matrix-Resolvent Method'
     year: 2021
-    coauthors: ['Daniele Valeri', dubrovin]
+    coauthors: [dubrovin, 'Daniele Valeri']
     doi: '10.3842/sigma.2022.077'
     journal: 'SIGMA 18 (2022), 077, 32 pages'
     primary_category: math-ph
@@ -399,10 +395,6 @@ publications:
     coauthors: []
     doi: '10.1007/s11005-019-01232-5'
     primary_category: math-ph
-  - id: '1903.01139'
-    title: 'Higher genus GW theory for the quintic'
-    year: 2019
-    coauthors: ['Wenchao Ding']
   - id: '1812.08488'
     title: 'On tau-functions for the KdV hierarchy'
     year: 2018
@@ -455,7 +447,7 @@ publications:
   - id: '1610.07534'
     title: 'Simple Lie algebras, Drinfeld--Sokolov hierarchies, and multi-point correlation functions'
     year: 2016
-    coauthors: ['Marco Bertola', dubrovin]
+    coauthors: [dubrovin, 'Marco Bertola']
     doi: '10.17323/1609-4514-2021-21-2-233-270'
     journal: 'Moscow Mathematical Journal'
     primary_category: math-ph
@@ -478,7 +470,7 @@ publications:
   - id: '1508.03750'
     title: 'Simple Lie algebras and topological ODEs'
     year: 2015
-    coauthors: ['Marco Bertola', dubrovin]
+    coauthors: [dubrovin, 'Marco Bertola']
     doi: '10.1093/imrn/rnw285'
     journal: 'International Mathematics Research Notices'
     primary_category: math-ph
@@ -486,7 +478,7 @@ publications:
   - id: '1504.06452'
     title: 'Correlation functions of the KdV hierarchy and applications to intersection numbers over $\overline{\mathcal M}_{g,n}$'
     year: 2015
-    coauthors: ['Marco Bertola', dubrovin]
+    coauthors: [dubrovin, 'Marco Bertola']
     doi: '10.1016/j.physd.2016.04.008'
     primary_category: math-ph
     sources: [arxiv]
@@ -526,9 +518,9 @@ publications:
     journal: 'Computers &amp; Mathematics with Applications'
     primary_category: math-ph
 activity:
-  total_papers: 56
+  total_papers: 54
   published_count: 39
-  preprint_only_count: 17
+  preprint_only_count: 15
   active_period: '2013-present'
   peak_period: '2018-present'
 external_ids: {}

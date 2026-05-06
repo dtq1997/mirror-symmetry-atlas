@@ -112,7 +112,7 @@ publications:
   - id: '2503.05080'
     title: 'Poisson homogeneous spaces of Poisson 2-groups'
     year: 2025
-    coauthors: []
+    coauthors: [lang-honglei]
     doi: '10.1007/s11005-025-02003-1'
     journal: 'Letters in Mathematical Physics'
     primary_category: math-ph
@@ -120,7 +120,7 @@ publications:
   - id: '2302.01294'
     title: 'The weak Lie 2-algebra of multiplicative forms on a quasi-Poisson groupoid'
     year: 2023
-    coauthors: [lang-honglei, 'Zhangju Liu', chen-zhuo]
+    coauthors: [lang-honglei, chen-zhuo]
     doi: '10.1007/s00220-024-05015-5'
     journal: 'Communications in Mathematical Physics'
     primary_category: math.DG
@@ -133,7 +133,7 @@ publications:
   - id: '2201.06242'
     title: 'Multiplicative forms on Poisson groupoids'
     year: 2022
-    coauthors: [lang-honglei, 'Zhangju Liu', chen-zhuo]
+    coauthors: [lang-honglei, chen-zhuo]
     doi: '10.1007/s11425-023-2231-1'
     journal: 'Science China Mathematics'
     primary_category: math.DG
@@ -141,7 +141,7 @@ publications:
   - id: '2103.17073'
     title: 'A review of Lie 2-algebras'
     year: 2021
-    coauthors: []
+    coauthors: [lang-honglei]
     doi: '10.11845/sxjz.2020003a.'
     journal: 'Advances in Mathematics (China), 49 (2020), no. 6, 641-674'
     primary_category: math.RA
@@ -149,7 +149,7 @@ publications:
   - id: '2102.07177'
     title: 'The Atiyah class of generalized holomorphic vector bundles'
     year: 2021
-    coauthors: ['Xiao Jia']
+    coauthors: [lang-honglei, 'Xiao Jia']
     doi: '10.1016/j.difgeo.2023.102031'
     journal: 'Differential Geometry and its Applications'
     primary_category: math.AG
@@ -157,13 +157,13 @@ publications:
   - id: '2003.13384'
     title: 'On the reduced space of multiplicative multivectors'
     year: 2020
-    coauthors: [lang-honglei, 'Zhangju Liu', chen-zhuo]
+    coauthors: [lang-honglei, chen-zhuo]
     primary_category: math.AG
     sources: [arxiv]
   - id: '2003.03553'
     title: 'Cohomology of hemistrict Lie 2-algebras'
     year: 2020
-    coauthors: ['Xiongwei Cai']
+    coauthors: ['Xiongwei Cai', xiang-maosong]
     doi: '10.1080/00927872.2020.1737869'
     journal: 'Communications in Algebra (2020)'
     primary_category: math.RA
@@ -171,7 +171,7 @@ publications:
   - id: '1904.05319'
     title: 'Affine structures on Lie groupoids'
     year: 2019
-    coauthors: ['Yunhe Sheng']
+    coauthors: [lang-honglei, 'Yunhe Sheng']
     doi: '10.2140/pjm.2020.307.353'
     journal: 'Pacific J. Math. Vol. 307 (2020), No. 2, 353-382'
     primary_category: math.DG
@@ -180,7 +180,7 @@ publications:
   - id: '1808.08576'
     title: 'Kapranov''s construction of sh Leibniz algebras'
     year: 2018
-    coauthors: ['Zhangju Liu', xiang-maosong, chen-zhuo]
+    coauthors: [xiang-maosong, chen-zhuo]
     doi: '10.4310/hha.2020.v22.n1.a9'
     journal: 'Homology, Homotopy and Applications, vol.22(1), 2020'
     primary_category: math.QA
@@ -189,7 +189,7 @@ publications:
   - id: '1802.09923'
     title: 'Coadjoint orbits of Lie groupoids'
     year: 2018
-    coauthors: []
+    coauthors: [lang-honglei]
     doi: '10.1016/j.geomphys.2018.03.011'
     journal: 'J. Geom. Phys. 129 (2018), 217-232'
     primary_category: math.DG
@@ -197,7 +197,7 @@ publications:
   - id: '1611.00672'
     title: 'Double Principal Bundles'
     year: 2016
-    coauthors: ['Yanpeng Li']
+    coauthors: [lang-honglei, 'Yanpeng Li']
     doi: '10.1016/j.geomphys.2021.104354'
     journal: 'Journal of Geometry and Physics, 170 (2021), 104354'
     primary_category: math.DG
@@ -205,7 +205,7 @@ publications:
   - id: '1505.00403'
     title: 'Integration of derivations for Lie $2$-algebras'
     year: 2015
-    coauthors: ['Yunhe Sheng']
+    coauthors: [lang-honglei, 'Yunhe Sheng']
     doi: '10.1007/s00031-015-9347-4'
     journal: 'Transformation Groups, 21 (2016), 1, 129-152'
     primary_category: math.DG
@@ -214,7 +214,7 @@ publications:
   - id: '1402.7226'
     title: 'Crossed modules for Lie 2-algebras'
     year: 2014
-    coauthors: []
+    coauthors: [lang-honglei]
     doi: '10.1007/s10485-015-9389-8'
     journal: 'Applied Categorical Structures'
     primary_category: math.RA
@@ -222,7 +222,7 @@ publications:
   - id: '1205.5898'
     title: 'The Pontryagin Class for Pre-Courant Algebroids'
     year: 2012
-    coauthors: ['Yunhe Sheng']
+    coauthors: ['Yunhe Sheng', xu-xiaomeng]
     doi: '10.1016/j.geomphys.2016.02.007'
     journal: 'J. Geom. Phys. 104 (2016), 148-162'
     primary_category: math-ph
@@ -237,7 +237,7 @@ publications:
   - id: '9903119'
     title: 'Dirac structures and dynamical r-matrices'
     year: 1999
-    coauthors: [xu-xu]
+    coauthors: ['Ping Xu']
     doi: '10.5802/aif.1838'
     journal: 'Annales de l''Institut Fourier'
     primary_category: math.DG

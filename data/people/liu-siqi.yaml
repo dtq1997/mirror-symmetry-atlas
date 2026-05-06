@@ -132,7 +132,7 @@ publications:
   - id: '2506.13656'
     title: 'Generalized Frobenius Manifold Structures on the Orbit Spaces of Affine Weyl Groups I'
     year: 2025
-    coauthors: ['Lingrui Jiang', 'Yingchao Tian', zhang-youjin]
+    coauthors: [zhang-youjin, 'Lingrui Jiang', 'Yingchao Tian']
     primary_category: math.DG
     openalex_id: W4415109267
     sources: [arxiv, openalex]
@@ -160,7 +160,7 @@ publications:
   - id: '2409.19530'
     title: 'On Tautological Flows of Partial Difference Equations'
     year: 2024
-    coauthors: ['Zhonglun Cao', zhang-youjin]
+    coauthors: [zhang-youjin, 'Zhonglun Cao']
     doi: '10.1016/j.physd.2025.134533'
     journal: 'Physica D: Nonlinear Phenomena'
     primary_category: nlin.SI
@@ -169,14 +169,14 @@ publications:
   - id: '2404.08895'
     title: 'The extended Ablowitz-Ladik hierarchy and a generalized Frobenius manifold'
     year: 2024
-    coauthors: ['Yuewei Wang', zhang-youjin]
+    coauthors: [zhang-youjin, 'Yuewei Wang']
     primary_category: math-ph
     openalex_id: W4394867561
     sources: [arxiv, openalex]
   - id: '2402.00373'
     title: 'Solutions of the loop equations of a class of generalized Frobenius manifolds'
     year: 2024
-    coauthors: [qu-haonan, 'Yuewei Wang', zhang-youjin]
+    coauthors: [qu-haonan, zhang-youjin, 'Yuewei Wang']
     doi: '10.1007/s00220-024-05083-7'
     journal: 'Communications in Mathematical Physics'
     primary_category: math-ph
@@ -185,7 +185,7 @@ publications:
   - id: '2305.10851'
     title: 'Variational Bihamiltonian Cohomologies and Integrable Hierarchies III: Linear Reciprocal Transformations'
     year: 2023
-    coauthors: ['Zhe Wang', zhang-youjin]
+    coauthors: [zhang-youjin, 'Zhe Wang']
     doi: '10.1007/s00220-023-04817-3'
     journal: 'Communications in Mathematical Physics'
     primary_category: nlin.SI
@@ -237,7 +237,7 @@ publications:
   - id: '2110.03317'
     title: 'Reduction of the 2D Toda Hierarchy and Linear Hodge Integrals'
     year: 2021
-    coauthors: ['Zhe Wang', zhang-youjin]
+    coauthors: [zhang-youjin, 'Zhe Wang']
     doi: '10.3842/sigma.2022.037'
     journal: 'Symmetry, Integrability and Geometry: Methods and Applications'
     primary_category: nlin.SI
@@ -246,7 +246,7 @@ publications:
   - id: '2109.01846'
     title: 'Linearization of Virasoro symmetries associated with semisimple Frobenius manifolds'
     year: 2021
-    coauthors: ['Zhe Wang', zhang-youjin]
+    coauthors: [zhang-youjin, 'Zhe Wang']
     doi: '10.1016/j.aim.2024.110046'
     journal: 'Advances in Mathematics'
     primary_category: math-ph
@@ -255,7 +255,7 @@ publications:
   - id: '2109.01845'
     title: 'Variational Bihamiltonian Cohomologies and Integrable Hierarchies II: Virasoro symmetries'
     year: 2021
-    coauthors: ['Zhe Wang', zhang-youjin]
+    coauthors: [zhang-youjin, 'Zhe Wang']
     doi: '10.1007/s00220-022-04433-7'
     journal: 'Communications in Mathematical Physics'
     primary_category: math-ph
@@ -264,7 +264,7 @@ publications:
   - id: '2108.03447'
     title: 'Tri-Hamiltonian Structure of the Ablowitz-Ladik Hierarchy'
     year: 2021
-    coauthors: ['Shuangxing Li', qu-haonan, zhang-youjin]
+    coauthors: [qu-haonan, zhang-youjin, 'Shuangxing Li']
     doi: '10.1016/j.physd.2022.133180'
     journal: 'Physica D: Nonlinear Phenomena'
     primary_category: math-ph
@@ -273,7 +273,7 @@ publications:
   - id: '2106.13038'
     title: 'Variational Bihamiltonian Cohomologies and Integrable Hierarchies I: Foundations'
     year: 2021
-    coauthors: ['Zhe Wang', zhang-youjin]
+    coauthors: [zhang-youjin, 'Zhe Wang']
     doi: '10.1007/s00220-023-04658-0'
     journal: 'Communications in Mathematical Physics'
     primary_category: math.DG
@@ -282,7 +282,7 @@ publications:
   - id: '2009.01143'
     title: 'Super tau-covers of bihamiltonian integrable hierarchies'
     year: 2020
-    coauthors: ['Zhe Wang', zhang-youjin]
+    coauthors: [zhang-youjin, 'Zhe Wang']
     doi: '10.1016/j.geomphys.2021.104351'
     journal: 'Journal of Geometry and Physics'
     primary_category: math.DG
@@ -291,7 +291,7 @@ publications:
   - id: '1908.06707'
     title: 'Virasoro Constraints for Drinfeld-Sokolov hierarchies and equations of Painlevé type'
     year: 2019
-    coauthors: ['Chao-Zhong Wu', zhang-youjin]
+    coauthors: [zhang-youjin, wu-chaozhong]
     doi: '10.1112/jlms.12603'
     journal: 'Journal of the London Mathematical Society'
     primary_category: nlin.SI
@@ -318,7 +318,7 @@ publications:
   - id: '1811.10137'
     title: 'Drinfeld-Sokolov hierarchies and diagram automorphisms of affine Kac-Moody algebras'
     year: 2018
-    coauthors: ['Chao-Zhong Wu', zhang-youjin, wu-chaozhong, 'Xu Zhou']
+    coauthors: [zhang-youjin, wu-chaozhong, 'Xu Zhou']
     doi: '10.1007/s00220-019-03568-4'
     journal: 'Communications in Mathematical Physics'
     primary_category: nlin.SI
@@ -350,10 +350,6 @@ publications:
     primary_category: math-ph
     openalex_id: W3086463376
     sources: [arxiv, openalex]
-  - id: '1611.05975'
-    title: 'Relative open BCOV and higher genus open-closed mirror symmetry'
-    year: 2016
-    coauthors: ['Mitchell Wasson', 'Yulong Fu']
   - id: '1502.01774'
     title: 'Central Invariants of the Constrained KP Hierarchies'
     year: 2015
@@ -392,7 +388,7 @@ publications:
   - id: '1305.1008'
     title: 'Proof of a Conjecture on the Genus Two Free Energy Associated to the A_n Singularity'
     year: 2013
-    coauthors: ['Yulong Fu', zhang-youjin, zhou-chunhui]
+    coauthors: [zhang-youjin, zhou-chunhui, 'Yulong Fu']
     doi: '10.1016/j.geomphys.2013.10.013'
     journal: 'Journal of Geometry and Physics'
     primary_category: math-ph
@@ -418,7 +414,7 @@ publications:
   - id: '1012.5708'
     title: 'The Inversion Symmetry of the WDVV Equations and Tau Functions'
     year: 2010
-    coauthors: ['Dingdian Xu', zhang-youjin]
+    coauthors: [zhang-youjin, 'Dingdian Xu']
     doi: '10.1016/j.physd.2012.02.018'
     journal: 'Physica D: Nonlinear Phenomena'
     primary_category: math.DG
@@ -427,7 +423,7 @@ publications:
   - id: '0912.5273'
     title: 'On the Drinfeld-Sokolov Hierarchies of D type'
     year: 2009
-    coauthors: ['Chao-Zhong Wu', zhang-youjin]
+    coauthors: [zhang-youjin, wu-chaozhong]
     primary_category: nlin.SI
     openalex_id: W2951496844
     sources: [arxiv, openalex]
@@ -443,7 +439,7 @@ publications:
   - id: 'doi:10.1016/j.geomphys.2009.06.001'
     title: 'Hamiltonian structures and their reciprocal transformations for the $r$-KdV–CH hierarchy'
     year: 2009
-    coauthors: ['Ming Chen']
+    coauthors: ['Ming Chen', zhang-youjin]
     doi: '10.1016/j.geomphys.2009.06.001'
     journal: 'Journal of Geometry and Physics'
     openalex_id: W2117472779
@@ -452,7 +448,7 @@ publications:
   - id: '0809.0397'
     title: 'Hamiltonian Structures and Reciprocal Transformations for the $r$-KdV-CH Hierarchy'
     year: 2008
-    coauthors: ['Ming Chen', zhang-youjin, si-li]
+    coauthors: [zhang-youjin, 'Ming Chen']
     primary_category: nlin.SI
     openalex_id: W2009122536
     sources: [arxiv, openalex]
@@ -468,7 +464,7 @@ publications:
   - id: '0711.2599'
     title: 'On Properties of Hamiltonian Structures for a Class of Evolutionary PDEs'
     year: 2007
-    coauthors: ['Chao-Zhong Wu', zhang-youjin, si-li]
+    coauthors: [zhang-youjin, wu-chaozhong]
     doi: '10.1007/s11005-008-0234-y'
     journal: 'Letters in Mathematical Physics'
     primary_category: nlin.SI
@@ -477,7 +473,7 @@ publications:
   - id: '0510019'
     title: 'On Quasitriviality and Integrability of a Class of Scalar Evolutionary PDEs'
     year: 2005
-    coauthors: [zhang-youjin, si-li]
+    coauthors: [zhang-youjin]
     doi: '10.1016/j.geomphys.2006.02.005'
     journal: 'Journal of Geometry and Physics'
     primary_category: nlin.SI
@@ -486,7 +482,7 @@ publications:
   - id: '0501028'
     title: 'A 2-Component Generalization of the Camassa-Holm Equation and Its Solutions'
     year: 2005
-    coauthors: ['Ming Chen', zhang-youjin, si-li]
+    coauthors: [zhang-youjin, 'Ming Chen']
     doi: '10.1007/s11005-005-0041-7'
     journal: 'Letters in Mathematical Physics'
     primary_category: nlin.SI
@@ -495,14 +491,14 @@ publications:
   - id: '0410027'
     title: 'On Hamiltonian perturbations of hyperbolic systems of conservation laws'
     year: 2004
-    coauthors: ['arXiv api core']
+    coauthors: [dubrovin, zhang-youjin]
     primary_category: math.DG
     openalex_id: W1626671567
     sources: [arxiv, openalex]
 activity:
-  total_papers: 46
+  total_papers: 45
   published_count: 36
-  preprint_only_count: 10
+  preprint_only_count: 9
   active_period: '2000-present'
   quality_source: 'openalex + ruirui-2026'
   t1_papers: 0

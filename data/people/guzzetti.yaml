@@ -131,7 +131,7 @@ publications:
   - id: 'doi:10.1007/978-3-031-69067-9_1'
     title: 'Introduction'
     year: 2024
-    coauthors: [dubrovin, cotti, 'Martin A. Guest']
+    coauthors: [dubrovin, cotti]
     doi: '10.1007/978-3-031-69067-9_1'
     journal: 'Lecture notes in mathematics'
     openalex_id: W4403810207
@@ -194,7 +194,7 @@ publications:
   - id: '2310.19739'
     title: 'Asymptotic solutions for linear ODEs with not-necessarily meromorphic coefficients: a Levinson type theorem on complex domains, and applications'
     year: 2023
-    coauthors: ['Davide Masoero', cotti]
+    coauthors: [cotti, 'Davide Masoero']
     doi: '10.1016/j.jde.2025.01.085'
     journal: 'Journal of Differential Equations 428 (2025): 1-58'
     primary_category: math.CA
@@ -446,15 +446,6 @@ publications:
     openalex_id: W2963152169
     sources: [openalex]
     no_arxiv: true
-  - id: 'doi:10.7717/peerj.2833'
-    title: 'THE ELLIPTIC REPRESENTATION OF THE SIXTH PAINLEV´ E EQUATION'
-    year: 2004
-    coauthors: []
-    doi: '10.7717/peerj.2833'
-    journal: 'PeerJ'
-    openalex_id: W145742675
-    sources: [openalex]
-    no_arxiv: true
   - id: '0301011'
     title: 'The Singularity of Kontsevich''s Solution for $QH^{*}(CP^2)$'
     year: 2003
@@ -537,8 +528,8 @@ publications:
     sources: [openalex]
     no_arxiv: true
 activity:
-  total_papers: 50
-  published_count: 45
+  total_papers: 49
+  published_count: 44
   preprint_only_count: 5
   h_index: 11
   active_period: '1999-present'

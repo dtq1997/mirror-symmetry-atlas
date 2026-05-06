@@ -88,8 +88,8 @@ advisor: brieskorn
 students: []
 key_collaborators: []
 activity:
-  total_papers: 72
-  published_count: 59
+  total_papers: 71
+  published_count: 58
   preprint_only_count: 13
   h_index: 13
   active_period: '1992-present'
@@ -142,15 +142,6 @@ publications:
     coauthors: ['Khadija Larabi']
     primary_category: math.NT
     sources: [arxiv]
-  - id: 'doi:10.1007/978-3-031-69067-9_1'
-    title: 'Introduction'
-    year: 2024
-    coauthors: [dubrovin, guzzetti, cotti, 'Martin A. Guest']
-    doi: '10.1007/978-3-031-69067-9_1'
-    journal: 'Lecture notes in mathematics'
-    openalex_id: W4403810207
-    sources: [openalex]
-    no_arxiv: true
   - id: '2412.17638'
     title: 'Mixed extensions of generic finite games embedded into products of real projective spaces'
     year: 2024
@@ -253,7 +244,7 @@ publications:
   - id: '1806.00996'
     title: 'Distinguished bases and Stokes regions for the simple and the simple elliptic singularities'
     year: 2018
-    coauthors: ['C line Roucairol']
+    coauthors: ['Céline Roucairol']
     primary_category: math.AG
     sources: [arxiv]
   - id: '1801.08272'
@@ -522,7 +513,7 @@ publications:
   - id: 'doi:10.4171/owr/2012/23'
     title: 'Singularity Theory and Integrable Systems'
     year: 2013
-    coauthors: ['Ian A. B. Strachan', 'Katrin Wendland', dubrovin]
+    coauthors: [dubrovin, 'Ian A.B. Strachan', 'Katrin Wendland']
     doi: '10.4171/owr/2012/23'
     journal: 'Oberwolfach Reports'
     openalex_id: W2038618119
@@ -606,7 +597,7 @@ publications:
   - id: '0405501'
     title: 'Bernoulli moments of spectral numbers and Hodge numbers'
     year: 2004
-    coauthors: ['Thomas Br livet']
+    coauthors: ['Thomas Brélivet']
     doi: '10.5427/jsing.2020.20i'
     journal: 'Journal of Singularities'
     primary_category: math.AG
@@ -639,7 +630,7 @@ publications:
   - id: '0101194'
     title: 'Semistable bundles on curves and reducible representations of the fundamental group'
     year: 2001
-    coauthors: ['H l ne Esnault']
+    coauthors: ['HÉLÈNE ESNAULT']
     doi: '10.1142/s0129167x01001003'
     journal: 'International Journal of Mathematics'
     primary_category: math.AG
@@ -677,7 +668,7 @@ publications:
   - id: '9810132'
     title: 'Weak Frobenius manifolds'
     year: 1998
-    coauthors: [manin-yuri]
+    coauthors: ['Y. Manin']
     doi: '10.1155/s1073792899000148'
     journal: 'International Mathematics Research Notices'
     primary_category: math.QA

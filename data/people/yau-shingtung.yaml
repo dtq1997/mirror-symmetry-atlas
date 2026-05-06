@@ -165,7 +165,7 @@ publications:
   - id: 'doi:10.4310/cag.260405004020'
     title: 'Einstein-Yang-Mills equations in the double null framework'
     year: 2025
-    coauthors: []
+    coauthors: ['Puskar Mondal']
     doi: '10.4310/cag.260405004020'
     journal: 'Communications in Analysis and Geometry'
     sources: [crossref]
@@ -205,12 +205,12 @@ publications:
   - id: '2208.14063'
     title: 'Minimal Path and Acyclic Models in the Path Complex'
     year: 2022
-    coauthors: []
+    coauthors: [tang-xinxing]
     primary_category: math.AT
   - id: 'doi:10.4310/iccm.2022.v10.n1.a1'
     title: 'Optimal transport for generative models'
     year: 2022
-    coauthors: []
+    coauthors: ['Xianfeng Gu']
     doi: '10.4310/iccm.2022.v10.n1.a1'
     journal: 'Notices of the International Consortium of Chinese Mathematicians'
     sources: [crossref]
@@ -242,7 +242,7 @@ publications:
   - id: 'doi:10.4310/atmp.2021.v25.n1.a3'
     title: 'Quasi-local mass near the singularity, the event horizon and the null infinity of black hole spacetimes'
     year: 2021
-    coauthors: []
+    coauthors: ['Nishanth Gudapati']
     doi: '10.4310/atmp.2021.v25.n1.a3'
     journal: 'Advances in Theoretical and Mathematical Physics'
     sources: [crossref]
@@ -271,7 +271,7 @@ publications:
   - id: 'doi:10.4310/iccm.2019.v7.n2.a1'
     title: 'Hodge bundles on smooth compactifications of Siegel varieties and applications'
     year: 2019
-    coauthors: []
+    coauthors: ['Yi Zhang']
     doi: '10.4310/iccm.2019.v7.n2.a1'
     journal: 'Notices of the International Congress of Chinese Mathematicians'
     sources: [crossref]
@@ -279,7 +279,7 @@ publications:
   - id: '1802.06751'
     title: 'Seiberg-Witten differential via primitive forms'
     year: 2018
-    coauthors: ['Dan Xie', si-li]
+    coauthors: [si-li, 'Dan Xie']
     doi: '10.1007/s00220-019-03401-y'
     journal: 'Commun. Math. Phys. (2019)'
     primary_category: hep-th
@@ -310,7 +310,7 @@ publications:
   - id: 'doi:10.4310/cag.2017.v25.n3.a3'
     title: 'A strong Harnack inequality for graphs'
     year: 2017
-    coauthors: []
+    coauthors: ['Fan Chung']
     doi: '10.4310/cag.2017.v25.n3.a3'
     journal: 'Communications in Analysis and Geometry'
     sources: [crossref]
@@ -318,7 +318,7 @@ publications:
   - id: '1609.04363'
     title: 'On topological approach to local theory of surfaces in Calabi-Yau threefolds'
     year: 2016
-    coauthors: ['Sergei Gukov', 'Artan Sheshmani', liu-melissa]
+    coauthors: [liu-melissa, 'Sergei Gukov', 'Artan Sheshmani']
     doi: '10.4310/atmp.2017.v21.n7.a4'
     journal: 'Adv. Theor. Math. Phys. 21 (2017), no. 7, 1679-1728'
     primary_category: math.AG
@@ -335,7 +335,7 @@ publications:
   - id: 'doi:10.4310/cag.2016.v24.n4.a9'
     title: 'A remark on our paper “Negative holomorphic curvature and positive canonical bundle”'
     year: 2016
-    coauthors: []
+    coauthors: ['Damin Wu']
     doi: '10.4310/cag.2016.v24.n4.a9'
     journal: 'Communications in Analysis and Geometry'
     sources: [crossref]
@@ -383,7 +383,7 @@ publications:
   - id: 'doi:10.4310/pamq.2014.v10.n3.a6'
     title: 'An explicit formula of hitting times for random walks on graphs'
     year: 2014
-    coauthors: []
+    coauthors: ['Hao Xu']
     doi: '10.4310/pamq.2014.v10.n3.a6'
     journal: 'Pure and Applied Mathematics Quarterly'
     sources: [crossref]
@@ -391,12 +391,12 @@ publications:
   - id: '0910.4215'
     title: 'Picard-Fuchs Equations for Relative Periods and Abel-Jacobi Map for Calabi-Yau Hypersurfaces'
     year: 2009
-    coauthors: ['Bong H. Lian', si-li]
+    coauthors: [si-li, 'Bong H. Lian']
     primary_category: math.AG
   - id: '0809.2121'
     title: 'Morphisms from Azumaya prestable curves with a fundamental module to a projective variety: Topological D-strings as a master object for curves'
     year: 2008
-    coauthors: ['Ruifang Song', si-li, li-ao]
+    coauthors: [si-li, 'Chien-Hao Liu', 'Ruifang Song']
     primary_category: math.AG
   - id: '0412292'
     title: 'Positivity of quasi-local mass II'
@@ -410,7 +410,7 @@ publications:
   - id: 'doi:10.1103/physrevlett.92.259002'
     title: 'Liu and Yau Reply:'
     year: 2004
-    coauthors: []
+    coauthors: [liu-melissa]
     doi: '10.1103/physrevlett.92.259002'
     journal: 'Physical Review Letters'
     openalex_id: W3111515939
@@ -428,7 +428,7 @@ publications:
   - id: 'openalex:W2788597912'
     title: 'New definition of quasilocal mass and its positivity'
     year: 2003
-    coauthors: []
+    coauthors: [liu-melissa]
     journal: 'arXiv (Cornell University)'
     openalex_id: W2788597912
     sources: [openalex]
@@ -436,7 +436,7 @@ publications:
   - id: '0005118'
     title: 'From Special Lagrangian to Hermitian-Yang-Mills via Fourier-Mukai Transform'
     year: 2000
-    coauthors: ['Eric Zaslow']
+    coauthors: [leung-naichung, 'Eric Zaslow']
     doi: '10.4310/atmp.2000.v4.n6.a5'
     journal: 'Adv.Theor.Math.Phys. 4 (2002) 1319-1341'
     primary_category: math.DG

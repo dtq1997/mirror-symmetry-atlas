@@ -126,19 +126,19 @@ publications:
   - id: '2410.10124'
     title: 'Groupoids derived from the simple elliptic singularities'
     year: 2024
-    coauthors: ['Stephen S.-T. Yau', 'Huaiqing Zuo']
+    coauthors: ['Stephen S. -T. Yau', 'Huaiqing Zuo']
     primary_category: math.AG
     sources: [arxiv]
   - id: '2409.09384'
     title: 'On the k-th Tjurina number of weighted homogeneous singularities'
     year: 2024
-    coauthors: ['Stephen S.-T. Yau', 'Huaiqing Zuo']
+    coauthors: ['Stephen S. -T. Yau', 'Huaiqing Zuo']
     primary_category: math.AG
     sources: [arxiv]
   - id: '2309.00432'
     title: 'Drinfeld Modular Curves Subordinate to Conjugacy Classes of Nilpotent Upper-Triangular Matrices'
     year: 2023
-    coauthors: ['Tao Zhang', 'Xiaopeng Zheng', chen-zhuo]
+    coauthors: [chen-zhuo, 'Tao Zhang', 'Xiaopeng Zheng']
     primary_category: math.NT
     openalex_id: W4386436307
     sources: [arxiv, openalex]
@@ -153,7 +153,7 @@ publications:
   - id: '1912.02668'
     title: 'A Modular Interpretation of BBGS Towers'
     year: 2019
-    coauthors: ['Rui Chen', chen-zhuo]
+    coauthors: [chen-zhuo, 'Rui Chen']
     doi: '10.1016/j.jnt.2020.06.006'
     journal: 'Journal of Number Theory'
     primary_category: math.NT
@@ -167,7 +167,7 @@ publications:
   - id: '1810.11969'
     title: 'Complete Weight Distribution and MacWilliams Identities for Asymmetric Quantum Codes'
     year: 2018
-    coauthors: ['Shudi Yang', 'Stephen S.-T. Yau']
+    coauthors: ['Shudi Yang', 'Stephen S. -T. Yau']
     sources: [arxiv]
   - id: '1706.00313'
     title: 'Multi-point Codes from the GGS Curves'
@@ -191,7 +191,7 @@ publications:
   - id: '1607.05462'
     title: 'Multi-point Codes over Kummer Extensions'
     year: 2016
-    coauthors: []
+    coauthors: ['Shudi Yang']
     doi: '10.1007/s10623-017-0335-7'
     journal: 'Designs, Codes and Cryptography'
     sources: [arxiv]

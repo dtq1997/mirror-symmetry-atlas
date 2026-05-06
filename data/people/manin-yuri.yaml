@@ -111,8 +111,8 @@ advisor: shafarevich
 students: []
 key_collaborators: []
 activity:
-  total_papers: 41
-  published_count: 22
+  total_papers: 40
+  published_count: 21
   preprint_only_count: 19
   h_index: 46
   active_period: '1960-2023'
@@ -136,14 +136,6 @@ personal_notes: '54 名博士生，360 名学术后代。学生包括 Kontsevich
 
   '
 publications:
-  - id: 'doi:10.4213/im9315'
-    title: 'Rational points of algebraic varieties: a homotopical approach'
-    year: 2023
-    coauthors: []
-    doi: '10.4213/im9315'
-    journal: 'Известия Российской академии наук. Серия математическая Izvestiya Rossiiskoi Akademii Nauk. Seriya Matematicheskaya'
-    sources: [crossref]
-    no_arxiv: true
   - id: '2203.15855'
     title: 'Supercycles, stable supermaps and SUSY Nori motives'
     year: 2022
@@ -154,7 +146,7 @@ publications:
   - id: '2202.10321'
     title: 'Moduli spaces of SUSY curves and their operads'
     year: 2022
-    coauthors: ['Enno Ke ler', 'Yingying Wu']
+    coauthors: ['Enno Keßler', 'Yingying Wu']
     primary_category: math.AG
     sources: [arxiv]
   - id: '2112.15237'
@@ -287,7 +279,7 @@ publications:
   - id: 'doi:10.1134/s0081543809010088'
     title: 'An update on semisimple quantum cohomology and F-manifolds'
     year: 2009
-    coauthors: ['Constantin Teleman']
+    coauthors: [hertling, 'Constantin Teleman']
     doi: '10.1134/s0081543809010088'
     journal: 'Proceedings of the Steklov Institute of Mathematics'
     openalex_id: W2127469979
@@ -408,7 +400,7 @@ publications:
   - id: '9810132'
     title: 'Weak Frobenius manifolds'
     year: 1998
-    coauthors: [hertling]
+    coauthors: ['C. Hertling']
     doi: '10.1155/s1073792899000148'
     journal: 'International Mathematics Research Notices'
     primary_category: math.QA
@@ -416,7 +408,7 @@ publications:
   - id: '9708024'
     title: 'Relations between the correlators of the topological sigma-model coupled to gravity'
     year: 1997
-    coauthors: [kontsevich]
+    coauthors: ['M. Kontsevich']
     doi: '10.1007/s002200050426'
     journal: 'Commun.Math.Phys. 196 (1998) 385-398'
     primary_category: math.AG

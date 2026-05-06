@@ -151,35 +151,23 @@ def score_candidate(paper, profile, target_name, all_people=None):
     core_names = set((profile.get('coauthor_circle_core_names') or []))
     ext_names = set((profile.get('coauthor_circle_extended_names') or []))
 
-    def author_name_matches(author_n, ref_n):
-        """Strict name equivalence: same set of (>=2-char) tokens, in same order
-        partially. This avoids 'Xinxin Wang' falsely matching 'Xin Wang'."""
-        an = re.sub(r'[^a-z ]', ' ', author_n.lower()).split()
-        rn = re.sub(r'[^a-z ]', ' ', ref_n.lower()).split()
-        an = [t for t in an if len(t) > 1]
-        rn = [t for t in rn if len(t) > 1]
-        if len(an) < 2 or len(rn) < 2:
-            return False
-        # Each token in ref must appear as a STANDALONE token in author
-        # (not as substring). Order: ref's last token (surname) must appear
-        # somewhere; ref's first must appear somewhere too.
-        for tok in rn:
-            if tok not in an:
-                return False
-        return True
+    # Use the global SSOT for name matching — strict token-set equality.
+    import sys as _sys, os as _os
+    _sys.path.insert(0, _os.path.dirname(_os.path.abspath(__file__)))
+    from name_match import names_match
 
     core_hits, ext_hits = [], []
     for n in candidate_authors:
-        nl = re.sub(r'[^a-z ]', ' ', n.lower())
-        if target_parts and all(p in nl for p in target_parts):
+        # Skip the target author themselves (strict match).
+        if names_match(target_name, n):
             continue
         for cn in core_names:
-            if author_name_matches(n, cn):
+            if names_match(cn, n):
                 core_hits.append(n)
                 break
         else:
             for en in ext_names:
-                if author_name_matches(n, en):
+                if names_match(en, n):
                     ext_hits.append(n)
                     break
     if core_hits:

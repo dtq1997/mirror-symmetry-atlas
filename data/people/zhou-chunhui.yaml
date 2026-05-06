@@ -100,10 +100,6 @@ publications:
     journal: 'Nonlinearity'
     primary_category: math-ph
     sources: [crossref]
-  - id: '2303.13775'
-    title: 'Gelfand-Dickey hierarchy, generalized BGW tau-function, and KdV equivariantly stable classes'
-    year: 2023
-    coauthors: ['Sandeep Polisetty']
   - id: '2203.16812'
     title: 'On Equivariant Gromov--Witten Invariants of Resolved Conifold with Diagonal and Anti-Diagonal Actions'
     year: 2022
@@ -128,10 +124,6 @@ publications:
     primary_category: math-ph
     openalex_id: W3129493126
     sources: [arxiv, openalex]
-  - id: '1903.01139'
-    title: 'Higher genus GW theory for the quintic'
-    year: 2019
-    coauthors: ['Wenchao Ding']
   - id: '1811.10234'
     title: 'The Loop Equation for Special Cubic Hodge Integrals'
     year: 2018
@@ -150,23 +142,19 @@ publications:
     primary_category: nlin.SI
     openalex_id: W2612245062
     sources: [arxiv, openalex]
-  - id: '1611.05975'
-    title: 'Relative open BCOV and higher genus open-closed mirror symmetry'
-    year: 2016
-    coauthors: ['Mitchell Wasson', 'Yulong Fu']
   - id: '1305.1008'
     title: 'Proof of a Conjecture on the Genus Two Free Energy Associated to the A_n Singularity'
     year: 2013
-    coauthors: ['Yulong Fu', zhang-youjin, liu-siqi]
+    coauthors: [zhang-youjin, liu-siqi, 'Yulong Fu']
     doi: '10.1016/j.geomphys.2013.10.013'
     journal: 'Journal of Geometry and Physics'
     primary_category: math-ph
     openalex_id: W2072458327
     sources: [arxiv, openalex]
 activity:
-  total_papers: 11
+  total_papers: 8
   published_count: 7
-  preprint_only_count: 4
+  preprint_only_count: 1
   active_period: '2017-present'
 external_ids: {}
 links: {}

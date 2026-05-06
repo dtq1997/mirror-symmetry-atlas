@@ -188,14 +188,14 @@ publications:
   - id: '2502.13558'
     title: 'On the quantum cohomology of blow-ups of four-dimensional quadrics'
     year: 2025
-    coauthors: [ke-huazhong, 'Lei Song', hu-jianxun]
+    coauthors: [ke-huazhong, hu-jianxun, 'Lei Song']
     journal: 'Acta Math. Sin. (Engl. Ser.) 40 (2024), no. 1, 313-328'
     primary_category: math.AG
     sources: [arxiv]
   - id: '2502.13545'
     title: 'Mirror symmetry for certain blowups of Grassmannians'
     year: 2025
-    coauthors: [ke-huazhong, 'Lei Song', hu-jianxun]
+    coauthors: [ke-huazhong, hu-jianxun, 'Lei Song']
     primary_category: math.AG
     sources: [arxiv]
   - id: '2507.12333'
@@ -206,7 +206,7 @@ publications:
   - id: '2509.01101'
     title: 'A-D-E diagrams, Hodge--Tate hyperplane sections and semisimple quantum cohomology'
     year: 2025
-    coauthors: ['Pieter Belmans', 'Sergey Galkin', 'Markus Reineke', 'Rui Xiong', leung-naichung]
+    coauthors: [leung-naichung, 'Pieter Belmans', 'Sergey Galkin', 'Markus Reineke', 'Rui Xiong']
     primary_category: math.AG
     openalex_id: W4416687760
     sources: [arxiv, openalex]
@@ -229,18 +229,18 @@ publications:
   - id: '2505.09950'
     title: 'Unfolding of equivariant F-bundles and application to the mirror symmetry of flag varieties'
     year: 2025
-    coauthors: ['Thorgal Hinault', 'Tony Yue Yu', 'Chi Zhang', 'Shaowu Zhang']
+    coauthors: ['Thorgal Hinault', 'Tony Yue YU', 'Chi Zhang', 'Shaowu Zhang']
     primary_category: math.AG
   - id: '2405.16987'
     title: 'On Galkin''s Lower Bound Conjecture'
     year: 2024
-    coauthors: [ke-huazhong, 'Zhitong Su', hu-jianxun]
+    coauthors: [ke-huazhong, hu-jianxun, 'Zhitong Su']
     primary_category: math.AG
     sources: [arxiv]
   - id: '2405.16979'
     title: 'Revisiting Gamma conjecture I: counterexamples and modifications'
     year: 2024
-    coauthors: ['Sergey Galkin', 'Hiroshi Iritani', ke-huazhong, 'Zhitong Su', hu-jianxun]
+    coauthors: [ke-huazhong, hu-jianxun, 'Sergey Galkin', 'Hiroshi Iritani', 'Zhitong Su']
     primary_category: math.AG
     sources: [arxiv]
   - id: '2401.15640'
@@ -264,13 +264,13 @@ publications:
   - id: '2211.16902'
     title: 'On Seidel representation in quantum K-theory of Grassmannians'
     year: 2022
-    coauthors: ['Zhaoyang Liu', song-jiayu, 'Mingzhi Yang']
+    coauthors: [song-jiayu, 'Zhaoyang Liu', 'Mingzhi Yang']
     journal: 'Sci. China Math. (2025)'
     primary_category: math.AG
   - id: '1901.01748'
     title: 'Gamma conjecture I for del Pezzo surfaces'
     year: 2021
-    coauthors: [ke-huazhong, 'Tuo Yang', 'Hua-Zhong Ke', hu-jianxun]
+    coauthors: [ke-huazhong, hu-jianxun, 'Tuo Yang']
     doi: '10.1016/j.aim.2021.107797'
     journal: 'Adv. Math. (2021)'
     primary_category: math.AG
@@ -344,7 +344,7 @@ publications:
   - id: '1405.4530'
     title: 'Mirror symmetry for exceptional unimodular singularities'
     year: 2014
-    coauthors: [si-li, 'Yefeng Shen', k-saito]
+    coauthors: [si-li, k-saito, 'Yefeng Shen']
     doi: '10.4171/jems/691'
     journal: 'Journal of the European Mathematical Society'
     primary_category: math.AG
@@ -424,7 +424,7 @@ publications:
   - id: 'doi:10.4310/jdg/1299766790'
     title: 'Functorial relationships between $QH*(G/B)$ and $QH*(G/P)$'
     year: 2010
-    coauthors: []
+    coauthors: [leung-naichung]
     doi: '10.4310/jdg/1299766790'
     journal: 'Journal of Differential Geometry'
     openalex_id: W1545926607

@@ -149,7 +149,7 @@ publications:
   - id: 'doi:10.1215/00127094-2025-0038'
     title: 'BCOV Feynman rule of the quintic threefold'
     year: 2026
-    coauthors: ['Jun Li', guo-shuai]
+    coauthors: [guo-shuai, 'Jun Li']
     doi: '10.1215/00127094-2025-0038'
     journal: 'Duke Mathematical Journal'
     openalex_id: W7147670578
@@ -164,14 +164,14 @@ publications:
   - id: '2312.11197'
     title: 'A boundedness theorem for principal bundles on curves'
     year: 2023
-    coauthors: ['Jun Li', 'Wei-Ping Li', 'Yang Zhou', guo-shuai]
+    coauthors: [guo-shuai, 'Jun Li', 'Wei-Ping Li', 'Yang Zhou']
     primary_category: math.AG
     openalex_id: W4390041030
     sources: [arxiv, openalex]
   - id: '2312.11174'
     title: 'Stability conditions in the mathematical Gauged Linear Sigma Model'
     year: 2023
-    coauthors: ['Jun Li', 'Wei-Ping Li', 'Yang Zhou', guo-shuai]
+    coauthors: [guo-shuai, 'Jun Li', 'Wei-Ping Li', 'Yang Zhou']
     journal: 'Open MIND'
     primary_category: math.AG
     openalex_id: W4390040998
@@ -179,26 +179,16 @@ publications:
   - id: 'doi:10.4007/annals.2021.194.3.1'
     title: 'Polynomial structure of Gromov–Witten potential of quintic 3-folds'
     year: 2021
-    coauthors: ['Jun Li', guo-shuai]
+    coauthors: [guo-shuai, 'Jun Li']
     doi: '10.4007/annals.2021.194.3.1'
     journal: 'Annals of Mathematics'
     openalex_id: W3209265925
     sources: [openalex]
     no_arxiv: true
-  - id: '2003.00348'
-    title: 'Structure of Higher Genus GW Invariants of Quintic 3-folds'
-    year: 2020
-    coauthors: ['Iztok Fister', 'Jun Li']
-    sources: [arxiv]
-  - id: '1903.11673'
-    title: 'Structures in Higher Genus Enumerative Geometry'
-    year: 2019
-    coauthors: ['Ozan Ozdenizci', 'Jun Li', 'Wei-Ping Li']
-    sources: [arxiv]
   - id: '1907.06152'
     title: 'On the mathematics and physics of Mixed Spin P-Fields'
     year: 2019
-    coauthors: ['Jun Li', 'Wei-Ping Li', liu-melissa]
+    coauthors: [liu-melissa, 'Jun Li', 'Wei-Ping Li']
     doi: '10.1090/pspum/096/01656'
     journal: 'Proceedings of Symposia in Pure Mathematics, Vol 96, 2017'
     primary_category: math.AG
@@ -206,14 +196,14 @@ publications:
   - id: '1810.00394'
     title: 'BCOV''s Feynman rule of quintic $3$-folds'
     year: 2018
-    coauthors: ['Jun Li', guo-shuai]
+    coauthors: [guo-shuai, 'Jun Li']
     primary_category: math.AG
     openalex_id: W2920263040
     sources: [arxiv, openalex]
   - id: '1809.11058'
     title: 'Polynomial structure of Gromov-Witten potential of quintic $3$-folds via NMSP'
     year: 2018
-    coauthors: ['Jun Li', guo-shuai]
+    coauthors: [guo-shuai, 'Jun Li']
     journal: 'Ann. of Math. 194 (2021)'
     primary_category: math.AG
     openalex_id: W2892497092
@@ -221,7 +211,7 @@ publications:
   - id: '1809.08806'
     title: 'Polynomial Structure of GW Potential of Quintic'
     year: 2018
-    coauthors: ['Jun Li', 'Wei-Ping Li', guo-shuai]
+    coauthors: [guo-shuai, 'Jun Li', 'Wei-Ping Li']
     doi: '10.2140/gt.2021.25.775'
     journal: 'Geom. Topol. 25 (2021) 775-811'
     primary_category: math.AG
@@ -229,7 +219,7 @@ publications:
   - id: 'doi:10.1093/imrn/rny201'
     title: 'Genus-One Gromov–Witten Invariants of Quintic Three-folds via MSP Localization'
     year: 2018
-    coauthors: ['Wei-Ping Li', 'Jie Zhou', guo-shuai]
+    coauthors: [guo-shuai, 'Wei-Ping Li', 'Jie Zhou']
     doi: '10.1093/imrn/rny201'
     journal: 'International Mathematics Research Notices'
     openalex_id: W2976868130
@@ -254,7 +244,7 @@ publications:
   - id: '1711.10118'
     title: 'Genus one GW invariants of quintic threefolds via MSP localization'
     year: 2017
-    coauthors: ['Wei-Ping Li', 'Jie Zhou', guo-shuai]
+    coauthors: [guo-shuai, 'Wei-Ping Li', 'Jie Zhou']
     journal: 'International Mathematics Research Notices, Volume 2020, Issue 19, October 2020, Pages 6421-6462'
     primary_category: math.AG
     openalex_id: W2770763159
@@ -270,7 +260,7 @@ publications:
   - id: '1603.06184'
     title: 'An effective theory of GW and FJRW invariants of quintics Calabi-Yau manifolds'
     year: 2016
-    coauthors: ['Jun Li', 'Wei-Ping Li', liu-melissa]
+    coauthors: [liu-melissa, 'Jun Li', 'Wei-Ping Li']
     doi: '10.4310/jdg/1645207466'
     journal: 'Journal of Differential Geometry'
     primary_category: math.AG
@@ -279,7 +269,7 @@ publications:
   - id: '1603.02092'
     title: 'A survey on mixed spin P-fields'
     year: 2016
-    coauthors: ['Jun Li', 'Wei-Ping Li', liu-melissa]
+    coauthors: [liu-melissa, 'Jun Li', 'Wei-Ping Li']
     doi: '10.1007/s11401-017-1101-x'
     journal: 'Chin. Ann. Math. Ser. B 38 (2017), no. 4, 869-882'
     primary_category: math.AG
@@ -288,7 +278,7 @@ publications:
   - id: '1505.07532'
     title: 'Mixed-Spin-P fields of Fermat quintic polynomials'
     year: 2015
-    coauthors: ['Jun Li', 'Wei-Ping Li', liu-melissa]
+    coauthors: [liu-melissa, 'Jun Li', 'Wei-Ping Li']
     journal: 'Camb. J. Math. (2019)'
     primary_category: math.AG
     sources: [arxiv]
@@ -363,9 +353,9 @@ publications:
     primary_category: math.AG
     sources: [arxiv]
 activity:
-  total_papers: 29
+  total_papers: 27
   published_count: 18
-  preprint_only_count: 11
+  preprint_only_count: 9
   active_period: '2007-present'
   confidence: 'has-37-review-pending'
 external_ids:

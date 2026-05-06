@@ -119,12 +119,6 @@ key_collaborators:
     topic: "ABV-packets, generic representations"
     papers_count: 2
 publications:
-  - id: '2605.02643'
-    title: 'Generalized Kontsevich model, topological recursion, and $r$-spin theory'
-    year: 2026
-    coauthors: [ji-ce, yang-chenglang, guo-shuai]
-    primary_category: math-ph
-    sources: [arxiv]
   - id: '2505.11381'
     title: 'On the complementary Arthur representations and unitary dual for p-adic classical groups'
     year: 2025
@@ -157,7 +151,7 @@ publications:
   - id: '2410.09025'
     title: 'The Condensed Fiber Product and Zesting'
     year: 2024
-    coauthors: ['Colleen Delaney', 'C sar Galindo', 'Julia Plavnik', 'Eric C. Rowell']
+    coauthors: ['Colleen Delaney', 'César Galindo', 'Julia Plavnik', 'Eric C. Rowell']
     primary_category: math.QA
   - id: '2404.09314'
     title: 'Modular data of non-semisimple modular categories'
@@ -193,7 +187,7 @@ publications:
   - id: '2212.05336'
     title: '$G$-crossed braided zesting'
     year: 2022
-    coauthors: ['Colleen Delaney', 'C sar Galindo', 'Julia Plavnik', 'Eric Rowell']
+    coauthors: ['Colleen Delaney', 'César Galindo', 'Julia Plavnik', 'Eric Rowell']
     doi: '10.1112/jlms.12816'
     primary_category: math.QA
   - id: '2209.03816'
@@ -236,7 +230,7 @@ publications:
   - id: '2005.05544'
     title: 'Braided zesting and its applications'
     year: 2020
-    coauthors: ['Colleen Delaney', 'C sar Galindo', 'Julia Plavnik', 'Eric C. Rowell']
+    coauthors: ['Colleen Delaney', 'César Galindo', 'Julia Plavnik', 'Eric C. Rowell']
     doi: '10.1007/s00220-021-04002-4'
     primary_category: math.QA
   - id: '2005.02438'
@@ -334,16 +328,10 @@ publications:
     doi: '10.1142/s1793042117501056'
     journal: 'Int. J. Number Theory, Vol. 13, No. 8 (2017) 1931-1981'
     primary_category: math.NT
-  - id: '1308.5398'
-    title: 'A thermal quench induces spatial inhomogeneities in a holographic superconductor'
-    year: 2013
-    coauthors: ['Antonio M. Garc a-Garc a', 'Hua Bi Zeng', 'Hai Qing Zhang']
-    doi: '10.1007/jhep07(2014)096'
-    primary_category: hep-th
 activity:
-  total_papers: 36
-  published_count: 24
-  preprint_only_count: 12
+  total_papers: 34
+  published_count: 23
+  preprint_only_count: 11
   active_period: '2018-present'
   notes: '仅数论/表示论方向。arXiv 上的 modular categories / quantum algebra 方向的 Qing Zhang (与 Eric Rowell 合作) 是另一位同名作者'
 external_ids:

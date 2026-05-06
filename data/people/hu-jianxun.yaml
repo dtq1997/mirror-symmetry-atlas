@@ -230,7 +230,7 @@ publications:
   - id: '2501.04984'
     title: 'Reduction properties of the KP-mKP hierarchy'
     year: 2025
-    coauthors: ['Lumin Geng', 'Chao-Zhong Wu']
+    coauthors: ['Lumin Geng', wu-chaozhong]
     doi: '10.1016/j.geomphys.2025.105526'
     journal: 'Journal of Geometry and Physics'
     primary_category: nlin.SI
@@ -243,18 +243,18 @@ publications:
   - id: '2405.16979'
     title: 'Revisiting Gamma conjecture I: counterexamples and modifications'
     year: 2024
-    coauthors: ['Sergey Galkin', 'Hiroshi Iritani', ke-huazhong, li-changzheng, 'Zhitong Su']
+    coauthors: [ke-huazhong, li-changzheng, 'Sergey Galkin', 'Hiroshi Iritani', 'Zhitong Su']
     primary_category: math.AG
     sources: [arxiv]
   - id: '2311.07341'
     title: 'A KP-mKP Hierarchy via Operators with Two Derivations'
     year: 2023
-    coauthors: ['Lumin Geng', 'Chao-Zhong Wu']
+    coauthors: ['Lumin Geng', wu-chaozhong]
     primary_category: nlin.SI
   - id: '1901.01748'
     title: 'Gamma conjecture I for del Pezzo surfaces'
     year: 2021
-    coauthors: [ke-huazhong, li-changzheng, 'Tuo Yang', 'Hua-Zhong Ke']
+    coauthors: [ke-huazhong, li-changzheng, 'Tuo Yang']
     doi: '10.1016/j.aim.2021.107797'
     journal: 'Adv. Math. (2021)'
     primary_category: math.AG
@@ -262,7 +262,7 @@ publications:
   - id: 'doi:10.1007/s00209-018-2043-z'
     title: 'Blow-up formulae of high genus Gromov–Witten invariants for threefolds'
     year: 2018
-    coauthors: ['Hua-Zhong Ke', 'Xiaoxia Qi']
+    coauthors: [he-weiqiang, ke-huazhong, 'Xiaoxia Qi']
     doi: '10.1007/s00209-018-2043-z'
     journal: 'Mathematische Zeitschrift'
     openalex_id: W2792779451
@@ -271,7 +271,7 @@ publications:
   - id: '1712.01478'
     title: 'Weighted blowup correspondence of orbifold Gromov-Witten invariants and applications'
     year: 2017
-    coauthors: ['Bohui Chen', 'Cheng-Yong Du']
+    coauthors: ['Bohui Chen', du-chengyong]
     doi: '10.1007/s00208-019-01850-3'
     journal: 'Math. Ann. 374 (2019), 1459-1523'
     primary_category: math.SG
@@ -297,7 +297,7 @@ publications:
   - id: 'doi:10.1142/s0129167x15500093'
     title: 'The Gromov–Witten invariants of the Hilbert schemes of points on surfaces with p<sub>g</sub> &gt; 0'
     year: 2015
-    coauthors: []
+    coauthors: ['Wei-Ping Li', 'Zhenbo Qin']
     doi: '10.1142/s0129167x15500093'
     journal: 'International Journal of Mathematics'
     sources: [crossref]
@@ -305,14 +305,14 @@ publications:
   - id: '1402.4221'
     title: 'Blow-up formulae of high genus Gromov-Witten invariants in dimension six'
     year: 2014
-    coauthors: ['Hua-Zhong Ke', 'Xiaoxia Qi', ke-huazhong, he-weiqiang]
+    coauthors: [ke-huazhong, he-weiqiang, 'Xiaoxia Qi']
     primary_category: math.AG
     openalex_id: W4294150699
     sources: [arxiv, openalex]
   - id: '1402.4221.'
     title: 'A Blowup formula of high genus Gromov-Witten invariants in dimensional six'
     year: 2014
-    coauthors: ['Hua-Zhong Ke', 'Xiaoxia Qi']
+    coauthors: [he-weiqiang, ke-huazhong, 'Xiaoxia Qi']
     openalex_id: W1771841147
     sources: [openalex]
   - id: '1406.2472'
@@ -359,7 +359,7 @@ publications:
   - id: '0611592'
     title: 'Birational cobordism invariance of uniruled symplectic manifolds'
     year: 2006
-    coauthors: ['Tian-Jun Li', ruan-yongbin]
+    coauthors: [ruan-yongbin, 'Tian-Jun Li']
     doi: '10.1007/s00222-007-0097-3'
     journal: 'Inventiones mathematicae'
     primary_category: math.SG

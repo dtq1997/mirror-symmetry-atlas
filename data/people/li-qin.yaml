@@ -143,7 +143,7 @@ publications:
   - id: '2604.26292'
     title: 'Brane quantization and SYZ mirror symmetry'
     year: 2026
-    coauthors: [leung-naichung, 'Yat-Hin Suen', 'Yutung Yau', chan-kwokwai]
+    coauthors: [leung-naichung, chan-kwokwai, 'Yat-Hin Suen', 'Yutung Yau']
     journal: 'ArXiv.org'
     primary_category: math.DG
     openalex_id: W7158891686
@@ -156,24 +156,19 @@ publications:
   - id: '2511.16889'
     title: 'Berezin-Toeplitz quantization revisited'
     year: 2025
-    coauthors: [leung-naichung, 'Yutung Yau', chan-kwokwai]
+    coauthors: [leung-naichung, chan-kwokwai, 'Yutung Yau']
     primary_category: math.DG
     openalex_id: W4416593930
     sources: [arxiv, openalex]
   - id: '2410.11311'
     title: 'Symmetry in Deformation quantization and Geometric quantization'
     year: 2024
-    coauthors: ['Ziming Nikolas Ma', leung-naichung]
+    coauthors: [leung-naichung, 'Ziming Nikolas Ma']
     doi: '10.1016/j.aim.2026.110804'
     journal: 'Advances in Mathematics'
     primary_category: math.DG
     openalex_id: W4403574825
     sources: [arxiv, openalex]
-  - id: '2407.18406'
-    title: 'A form of refined Roth''s theorem and its application to the $abc$-conjecture'
-    year: 2024
-    coauthors: ['Pei-Chu Hu', 'Bao Qin Li']
-    primary_category: math.NT
   - id: '2210.02008'
     title: 'Quantizable functions on Kähler manifolds and non-formal quantization'
     year: 2022
@@ -186,7 +181,7 @@ publications:
   - id: '2201.03494'
     title: 'High-frequency limit of the inverse scattering problem: asymptotic convergence from inverse Helmholtz to inverse Liouville'
     year: 2022
-    coauthors: ['Shi Chen', 'Zhiyan Ding', 'Leonardo Zepeda-N ez']
+    coauthors: ['Shi Chen', 'Zhiyan Ding', 'Leonardo Zepeda-Núñez']
     doi: '10.1137/22m147075x'
     journal: 'SIAM Journal on Imaging Sciences'
     primary_category: math.NA
@@ -229,7 +224,7 @@ publications:
   - id: '2010.14339'
     title: 'Geometric quantization and quantum moment maps on coadjoint orbits and Kähler-Einstein manifolds'
     year: 2020
-    coauthors: ['Ziming Nikolas Ma', leung-naichung]
+    coauthors: [leung-naichung, 'Ziming Nikolas Ma']
     primary_category: math.DG
     openalex_id: W3095778521
     sources: [arxiv, openalex]
@@ -238,11 +233,6 @@ publications:
     year: 2020
     coauthors: ['Shi Chen']
     primary_category: math-ph
-  - id: '1610.01583'
-    title: 'A Connection between the Riemann Hypothesis and Uniqueness of the Riemann zeta function'
-    year: 2016
-    coauthors: ['Pei-Chu Hu', 'Bao Qin Li']
-    primary_category: math.NT
   - id: '1502.03510'
     title: 'BV quantization of the Rozansky-Witten model'
     year: 2015
@@ -255,7 +245,7 @@ publications:
   - id: '1507.01812'
     title: 'Batalin-Vilkovisky quantization and the algebraic index'
     year: 2015
-    coauthors: ['Ryan E. Grady', si-li]
+    coauthors: [si-li, 'Ryan E. Grady']
     doi: '10.1016/j.aim.2017.07.007'
     journal: 'Advances in Mathematics 317 (2017), 575-639'
     primary_category: math.QA
@@ -281,9 +271,9 @@ publications:
     journal: 'Advances in Mathematics 262 (2014) 604-681'
     primary_category: math.QA
 activity:
-  total_papers: 19
+  total_papers: 17
   published_count: 13
-  preprint_only_count: 6
+  preprint_only_count: 4
   active_period: '2014-present'
 external_ids:
   mathgenealogy: "219800"

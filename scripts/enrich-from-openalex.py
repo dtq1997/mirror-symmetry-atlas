@@ -308,12 +308,12 @@ def work_to_publication(w, target_name, strict_math=False):
     arxiv_id = get_arxiv_id_from_work(w)
 
     coauthors = []
-    target_norm = re.sub(r'[^a-z ]', ' ', (target_name or '').lower())
-    target_parts = [p for p in target_norm.split() if len(p) > 1]
+    import sys as _sys, os as _os
+    _sys.path.insert(0, _os.path.dirname(_os.path.abspath(__file__)))
+    from name_match import names_match
     for a in (w.get('authorships') or []):
         n = fix_mojibake((a.get('author') or {}).get('display_name') or '')
-        nn = re.sub(r'[^a-z ]', ' ', n.lower())
-        if target_parts and all(p in nn for p in target_parts):
+        if names_match(target_name or '', n):
             continue
         coauthors.append(n)
 
@@ -383,16 +383,12 @@ def merge_publications(arxiv_pubs, openalex_pubs):
 
 
 def slugify_coauthor(name, all_people):
-    """Best-effort: map name to slug, otherwise return cleaned name."""
-    cleaned = re.sub(r'[^a-zA-Z ]', ' ', name).lower()
-    cleaned = re.sub(r'\s+', ' ', cleaned).strip()
-    parts = cleaned.split()
-    for slug, p in all_people.items():
-        en = ((p.get('name') or {}).get('en') or '').lower()
-        en_parts = re.sub(r'[^a-z ]', ' ', en).split()
-        if en_parts and all(part in cleaned for part in en_parts if len(part) > 1):
-            return slug
-    return name
+    """Strict token-set match to a slug, else return raw name."""
+    import sys as _sys, os as _os
+    _sys.path.insert(0, _os.path.dirname(_os.path.abspath(__file__)))
+    from name_match import slug_for_author
+    s = slug_for_author(name, all_people)
+    return s if s else name
 
 
 def render_yaml_publications(pubs, all_people):

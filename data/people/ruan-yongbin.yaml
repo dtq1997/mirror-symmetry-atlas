@@ -170,7 +170,7 @@ publications:
   - id: 'doi:10.1360/ssm-2024-0116'
     title: 'Some research progress on symplectic birational geometry'
     year: 2024
-    coauthors: []
+    coauthors: [hu-jianxun, 'Li Tian-Jun', 'Zhang Weiyi']
     doi: '10.1360/ssm-2024-0116'
     journal: 'SCIENTIA SINICA Mathematica'
     sources: [crossref]
@@ -209,16 +209,6 @@ publications:
     coauthors: ['Tian-Jun Li', 'Weiyi Zhang']
     primary_category: math.SG
     sources: [arxiv]
-  - id: '2112.14586'
-    title: 'On some BCOV-type results'
-    year: 2021
-    coauthors: ['Felix Janda', 'Laurent Orseau']
-    sources: [arxiv]
-  - id: '2104.08527'
-    title: 'A mirror theorem for genus two GW invariants of quintic threefolds'
-    year: 2021
-    coauthors: ['Felix Janda', 'Muhammed Kocabas']
-    sources: [arxiv]
   - id: '2109.02218'
     title: 'Quantum $K$-theory and $q$-Difference equations'
     year: 2021
@@ -253,7 +243,7 @@ publications:
   - id: '1805.04894'
     title: 'Open Gromov-Witten Theory of $K_{\mathbb P^2}, K_{{\mathbb P^1}\times {\mathbb P^1}}, K_{W\mathbb P[1,1,2]}, K_{\mathbb F_1}$ and Jacobi Forms'
     year: 2018
-    coauthors: ['Yingchun Zhang', 'Jie Zhou', fang-bohan]
+    coauthors: [fang-bohan, 'Yingchun Zhang', 'Jie Zhou']
     doi: '10.1007/s00220-019-03440-5'
     journal: 'Commun. Math. Phys. 369, 675-719 (2019)'
     primary_category: math.AG
@@ -261,7 +251,7 @@ publications:
   - id: '1812.11908'
     title: 'Structure of Higher Genus Gromov-Witten Invariants of Quintic 3-folds'
     year: 2018
-    coauthors: ['Jun Li', 'Wei-Ping Li', 'Felix Janda', guo-shuai]
+    coauthors: [guo-shuai, 'Felix Janda']
     primary_category: math.AG
     sources: [arxiv]
   - id: '1811.01377'
@@ -299,7 +289,7 @@ publications:
   - id: '1709.07392'
     title: 'A mirror theorem for genus two Gromov-Witten invariants of quintic threefolds'
     year: 2017
-    coauthors: ['Felix Janda', guo-shuai]
+    coauthors: [guo-shuai, 'Felix Janda']
     primary_category: math.AG
     openalex_id: W2758432579
     sources: [arxiv, openalex]
@@ -333,7 +323,7 @@ publications:
   - id: '1603.02666'
     title: 'The Moduli Space in the Gauged Linear Sigma Model'
     year: 2016
-    coauthors: ['Tyler Jarvis', fan-huijun]
+    coauthors: [fan-huijun, 'Tyler Jarvis']
     doi: '10.1007/s11401-017-1104-7'
     journal: 'Chinese Annals of Mathematics, Series B'
     primary_category: math.AG
@@ -350,7 +340,7 @@ publications:
   - id: '1506.02109'
     title: 'A Mathematical Theory of the Gauged Linear Sigma Model'
     year: 2015
-    coauthors: ['Tyler Jarvis', fan-huijun]
+    coauthors: [fan-huijun, 'Tyler Jarvis']
     doi: '10.2140/gt.2018.22.235'
     journal: 'Geom. Topol. 22 (2018) 235-303'
     primary_category: math.AG
@@ -421,7 +411,7 @@ publications:
   - id: '1012.0066'
     title: 'Quantum Singularity Theory for $A ( r - 1 )$ and $r$ -Spin Theory'
     year: 2011
-    coauthors: ['Tyler J. Jarvis', fan-huijun]
+    coauthors: [fan-huijun, 'Tyler J. Jarvis']
     doi: '10.5802/aif.2794'
     journal: 'Annales de l’institut Fourier'
     primary_category: math.AG
@@ -437,7 +427,7 @@ publications:
   - id: '1008.0927'
     title: 'Witten''s D_4 Integrable Hierarchies Conjecture'
     year: 2010
-    coauthors: ['Amanda Francis', 'Tyler J. Jarvis', 'Evan Merrell', fan-huijun]
+    coauthors: [fan-huijun, 'Amanda Francis', 'Tyler J. Jarvis', 'Evan Merrell']
     doi: '10.1007/s11401-016-0944-x'
     journal: 'Chinese Annals of Mathematics Series B'
     primary_category: math.AG
@@ -481,7 +471,7 @@ publications:
   - id: '0712.4021'
     title: 'The Witten equation, mirror symmetry and quantum singularity theory'
     year: 2007
-    coauthors: ['Tyler J. Jarvis', fan-huijun]
+    coauthors: [fan-huijun, 'Tyler J. Jarvis']
     doi: '10.4007/annals.2013.178.1.1'
     journal: 'Ann. of Math. (2013)'
     primary_category: math.AG
@@ -490,7 +480,7 @@ publications:
   - id: '0712.4025'
     title: 'The Witten equation and its virtual fundamental cycle'
     year: 2007
-    coauthors: ['Tyler J. Jarvis', fan-huijun]
+    coauthors: [fan-huijun, 'Tyler J. Jarvis']
     primary_category: math.AG
     sources: [arxiv]
   - id: '0711.4254'
@@ -514,7 +504,7 @@ publications:
   - id: 'doi:10.1017/cbo9780511543081'
     title: 'Orbifolds and Stringy Topology'
     year: 2007
-    coauthors: ['Alejandro Ádem', 'Johann Leida']
+    coauthors: ['Alejandro Adem', 'Johann Leida']
     doi: '10.1017/cbo9780511543081'
     journal: 'Cambridge University Press eBooks'
     openalex_id: W573059742
@@ -559,7 +549,7 @@ publications:
   - id: '0611592'
     title: 'Birational cobordism invariance of uniruled symplectic manifolds'
     year: 2006
-    coauthors: ['Tian-Jun Li', hu-jianxun]
+    coauthors: [hu-jianxun, 'Tian-Jun Li']
     doi: '10.1007/s00222-007-0097-3'
     journal: 'Inventiones mathematicae'
     primary_category: math.SG
@@ -574,7 +564,7 @@ publications:
   - id: '0504369'
     title: 'Gerbes and twisted orbifold quantum cohomology'
     year: 2005
-    coauthors: ['Jianzhong Pan', 'Xiaoqin Yin']
+    coauthors: ['JianZhong Pan', 'XiaoQin Yin']
     doi: '10.1007/s11425-007-0154-9'
     journal: 'Science in China Series A Mathematics'
     primary_category: math.AG
@@ -583,7 +573,7 @@ publications:
   - id: '0409434'
     title: 'Geometry and analysis of spin equations'
     year: 2004
-    coauthors: ['Tyler J. Jarvis', 'arXiv api core']
+    coauthors: [fan-huijun, 'Tyler J. Jarvis']
     doi: '10.1002/cpa.20246'
     journal: 'Communications on Pure and Applied Mathematics'
     primary_category: math.DG
@@ -764,9 +754,9 @@ publications:
     sources: [openalex]
     no_arxiv: true
 activity:
-  total_papers: 74
+  total_papers: 72
   published_count: 55
-  preprint_only_count: 19
+  preprint_only_count: 17
   active_period: '1991-present'
   confidence: 'has-46-review-pending'
 external_ids:

@@ -146,9 +146,9 @@ key_collaborators:
     topic: "Remodeling conjecture, toric CY 3-orbifolds"
     papers_count: 6
 activity:
-  total_papers: 61
+  total_papers: 59
   published_count: 48
-  preprint_only_count: 13
+  preprint_only_count: 11
   active_period: '2002-present'
   confidence: 'has-9-review-pending'
 external_ids:
@@ -172,7 +172,7 @@ publications:
   - id: '2504.15696'
     title: 'Remodeling Conjecture with Descendants'
     year: 2025
-    coauthors: ['Song Yu', zong-zhengyu, fang-bohan]
+    coauthors: [zong-zhengyu, fang-bohan, 'Song Yu']
     primary_category: math.AG
     openalex_id: W4414632062
     sources: [arxiv, openalex]
@@ -206,11 +206,6 @@ publications:
     coauthors: ['Konstantin Aleshkin']
     primary_category: math.AG
     sources: [arxiv]
-  - id: '2211.09203'
-    title: 'All genus open-closed mirror symmetry for affine toric CY 3-orbifolds'
-    year: 2022
-    coauthors: ['Zhibin Zou']
-    sources: [arxiv]
   - id: '2210.11721'
     title: 'Orbifold Open/Closed Correspondence and Mirror Symmetry'
     year: 2022
@@ -235,11 +230,6 @@ publications:
     year: 2021
     coauthors: ['Mitchell Faulk']
     primary_category: math.AG
-    sources: [arxiv]
-  - id: '2010.15403'
-    title: 'On the Remodeling Conjecture for Toric CY 3-Orbifolds'
-    year: 2020
-    coauthors: ['Marcin Wątorek']
     sources: [arxiv]
   - id: '1907.07705'
     title: 'A Lecture on Holomorphic Anomaly Equations and Extended Holomorphic Anomaly Equations'
@@ -267,7 +257,7 @@ publications:
   - id: 'doi:10.4310/cjm.2019.v7.n3.a3'
     title: 'Mixed-$\textrm{Spin-P}$ fields of Fermat polynomials'
     year: 2019
-    coauthors: []
+    coauthors: [zhang-huailiang, 'Jun Li', 'Wei-Ping Li']
     doi: '10.4310/cjm.2019.v7.n3.a3'
     journal: 'Cambridge Journal of Mathematics'
     sources: [crossref]
@@ -301,7 +291,7 @@ publications:
   - id: '1609.04363'
     title: 'On topological approach to local theory of surfaces in Calabi-Yau threefolds'
     year: 2016
-    coauthors: ['Sergei Gukov', 'Artan Sheshmani', yau-shingtung]
+    coauthors: [yau-shingtung, 'Sergei Gukov', 'Artan Sheshmani']
     doi: '10.4310/atmp.2017.v21.n7.a4'
     journal: 'Adv. Theor. Math. Phys. 21 (2017), no. 7, 1679-1728'
     primary_category: math.AG
@@ -371,7 +361,7 @@ publications:
   - id: '1212.6073'
     title: 'Open-closed Gromov-Witten invariants of 3-dimensional Calabi-Yau smooth toric DM stacks'
     year: 2012
-    coauthors: ['Hsian-Hua Tseng', fang-bohan]
+    coauthors: [fang-bohan, 'Hsian-Hua Tseng']
     doi: '10.1017/fms.2022.57'
     journal: 'Forum of Mathematics Sigma 10, e58 (2022)'
     primary_category: math.AG
@@ -413,7 +403,7 @@ publications:
   - id: '1009.3506'
     title: 'The Coherent-Constructible Correspondence and Fourier-Mukai Transforms'
     year: 2010
-    coauthors: ['David Treumann', 'Eric Zaslow', fang-bohan]
+    coauthors: [fang-bohan, 'David Treumann', 'Eric Zaslow']
     doi: '10.1007/s10114-011-0462-4'
     journal: 'Acta Math. Sin. (Engl. Ser.) 27 (2011), no.2, 275-308'
     primary_category: math.AG
@@ -422,7 +412,7 @@ publications:
   - id: '1007.0053'
     title: 'A categorification of Morelli''s theorem'
     year: 2010
-    coauthors: ['David Treumann', 'Eric Zaslow', fang-bohan]
+    coauthors: [fang-bohan, 'David Treumann', 'Eric Zaslow']
     doi: '10.1007/s00222-011-0315-x'
     journal: 'Invent. Math. 186 (2011), no.1, 79-114'
     primary_category: math.AG
@@ -447,7 +437,7 @@ publications:
   - id: '0911.4711'
     title: 'The Coherent-Constructible Correspondence for Toric Deligne-Mumford Stacks'
     year: 2009
-    coauthors: ['David Treumann', 'Eric Zaslow', fang-bohan]
+    coauthors: [fang-bohan, 'David Treumann', 'Eric Zaslow']
     doi: '10.1093/imrn/rns235'
     journal: 'IMRN 2014, No. 4, 914-954'
     primary_category: math.AG
@@ -456,7 +446,7 @@ publications:
   - id: '0901.4276'
     title: 'The Coherent-Constructible Correspondence and Homological Mirror Symmetry for Toric Varieties'
     year: 2009
-    coauthors: ['David Treumann', 'Eric Zaslow', fang-bohan]
+    coauthors: [fang-bohan, 'David Treumann', 'Eric Zaslow']
     journal: 'page 3-37, Geometry and Analysis Vol. 2, Adv. Lect. Math (ALM) 18, Higher Education Press, 2010'
     primary_category: math.AG
     openalex_id: W1664791042
@@ -464,7 +454,7 @@ publications:
   - id: '0811.1228'
     title: 'T-Duality and Homological Mirror Symmetry of Toric Varieties'
     year: 2008
-    coauthors: ['David Treumann', 'Eric Zaslow', fang-bohan]
+    coauthors: [fang-bohan, 'David Treumann', 'Eric Zaslow']
     doi: '10.1016/j.aim.2011.10.022'
     journal: 'Adv. Math. 229 (2012), 1873-1911'
     primary_category: math.AG
@@ -522,7 +512,7 @@ publications:
   - id: '0506488'
     title: 'The local Gromov-Witten invariants of configurations of rational curves'
     year: 2005
-    coauthors: ['Dagan Karp', 'Marcos Marino']
+    coauthors: ['Dagan Karp', 'Marcos Mariño']
     doi: '10.2140/gt.2006.10.115'
     journal: 'Geom. Topol. 10 (2006) 115-168'
     primary_category: math.AG
@@ -547,7 +537,7 @@ publications:
   - id: '0408426'
     title: 'A Mathematical Theory of the Topological Vertex'
     year: 2004
-    coauthors: ['Jun Li', 'Kefeng Liu', zhou-jian]
+    coauthors: [zhou-jian, 'Jun Li', 'Kefeng Liu']
     doi: '10.2140/gt.2009.13.527'
     journal: 'Geom. Topol. 13 (2009) 527-621'
     primary_category: math.AG
@@ -563,7 +553,7 @@ publications:
   - id: '0306257'
     title: 'On a proof of a conjecture of Mariño-Vafa on Hodge Integrals'
     year: 2004
-    coauthors: ['Kefeng Liu', zhou-jian]
+    coauthors: [zhou-jian, 'Kefeng Liu']
     doi: '10.4310/mrl.2004.v11.n2.a9'
     journal: 'Mathematical Research Letters'
     primary_category: math.AG
@@ -581,7 +571,7 @@ publications:
   - id: '0310272'
     title: 'A Formula of Two-Partition Hodge Integrals'
     year: 2003
-    coauthors: ['Kefeng Liu', zhou-jian]
+    coauthors: [zhou-jian, 'Kefeng Liu']
     doi: '10.1090/s0894-0347-06-00541-8'
     journal: 'J. Amer. Math. Soc. 20 (2007), no.1, 149-184'
     primary_category: math.AG
@@ -590,7 +580,7 @@ publications:
   - id: '0308015'
     title: 'Mariño-Vafa Formula and Hodge Integral Identities'
     year: 2003
-    coauthors: ['Kefeng Liu', zhou-jian]
+    coauthors: [zhou-jian, 'Kefeng Liu']
     doi: '10.1090/s1056-3911-05-00419-4'
     journal: 'Journal of Algebraic Geometry'
     primary_category: math.AG

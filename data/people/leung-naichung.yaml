@@ -119,7 +119,7 @@ publications:
   - id: '2604.26292'
     title: 'Brane quantization and SYZ mirror symmetry'
     year: 2026
-    coauthors: [li-qin, 'Yat-Hin Suen', 'Yutung Yau', chan-kwokwai]
+    coauthors: [li-qin, chan-kwokwai, 'Yat-Hin Suen', 'Yutung Yau']
     journal: 'ArXiv.org'
     primary_category: math.DG
     openalex_id: W7158891686
@@ -127,7 +127,7 @@ publications:
   - id: 'doi:10.4310/pamq.260122023941'
     title: 'Geometric quantization and quantum moment maps on coadjoint orbits and K&amp;auml;hler-Einstein manifolds'
     year: 2026
-    coauthors: []
+    coauthors: [li-qin, 'Ziming Nikolas Ma']
     doi: '10.4310/pamq.260122023941'
     journal: 'Pure and Applied Mathematics Quarterly'
     sources: [crossref]
@@ -135,14 +135,14 @@ publications:
   - id: '2511.16889'
     title: 'Berezin-Toeplitz quantization revisited'
     year: 2025
-    coauthors: [li-qin, 'Yutung Yau', chan-kwokwai]
+    coauthors: [li-qin, chan-kwokwai, 'Yutung Yau']
     primary_category: math.DG
     openalex_id: W4416593930
     sources: [arxiv, openalex]
   - id: '2509.01101'
     title: 'A-D-E diagrams, Hodge--Tate hyperplane sections and semisimple quantum cohomology'
     year: 2025
-    coauthors: ['Pieter Belmans', 'Sergey Galkin', li-changzheng, 'Markus Reineke', 'Rui Xiong']
+    coauthors: [li-changzheng, 'Pieter Belmans', 'Sergey Galkin', 'Markus Reineke', 'Rui Xiong']
     primary_category: math.AG
     openalex_id: W4416687760
     sources: [arxiv, openalex]
@@ -179,7 +179,7 @@ publications:
   - id: '2205.09926'
     title: 'Smoothing, scattering, and a conjecture of Fukaya'
     year: 2022
-    coauthors: ['Ziming Nikolas Ma', chan-kwokwai]
+    coauthors: [chan-kwokwai, 'Ziming Nikolas Ma']
     doi: '10.1017/fmp.2024.32'
     journal: 'Forum Math. Pi 13 (2025), Paper No. e7'
     primary_category: math.AG
@@ -238,7 +238,7 @@ publications:
   - id: '1902.11174'
     title: 'Geometry of the Maurer-Cartan equation near degenerate Calabi-Yau varieties'
     year: 2019
-    coauthors: ['Ziming Nikolas Ma', chan-kwokwai]
+    coauthors: [chan-kwokwai, 'Ziming Nikolas Ma']
     doi: '10.4310/jdg/1695236591'
     journal: 'J. Differential Geom. 125 (2023), no. 1, 1-84'
     primary_category: math.AG
@@ -247,7 +247,7 @@ publications:
   - id: '1902.05904'
     title: 'A Note on Disk Counting in Toric Orbifolds'
     year: 2019
-    coauthors: ['Cheol-Hyun Cho', 'Siu-Cheong Lau', 'Hsian-Hua Tseng', chan-kwokwai]
+    coauthors: [chan-kwokwai, 'Cheol-Hyun Cho', 'Siu-Cheong Lau', 'Hsian-Hua Tseng']
     doi: '10.3842/sigma.2020.055'
     journal: 'SIGMA 16 (2020), 055, 15 pages'
     primary_category: math.SG
@@ -265,7 +265,7 @@ publications:
   - id: '1807.08145'
     title: 'Scattering diagrams from asymptotic analysis on Maurer-Cartan equations'
     year: 2018
-    coauthors: ['Ziming Nikolas Ma', chan-kwokwai]
+    coauthors: [chan-kwokwai, 'Ziming Nikolas Ma']
     doi: '10.4171/jems/1100'
     journal: 'J. Eur. Math. Soc. (JEMS) 24 (2022), no. 3, 773-849'
     primary_category: math.AG
@@ -274,7 +274,7 @@ publications:
   - id: 'doi:10.1093/imrn/rny198'
     title: 'Energy Bound for Kapustin–Witten Solutions on S3 × ℝ+'
     year: 2018
-    coauthors: []
+    coauthors: ['Ryosuke Takahashi']
     doi: '10.1093/imrn/rny198'
     journal: 'International Mathematics Research Notices'
     sources: [crossref]
@@ -291,7 +291,7 @@ publications:
   - id: 'doi:10.4310/jdg/1418345540'
     title: 'Erratum to "SYZ mirror symmetry for toric Calabi-Yau manifolds"'
     year: 2015
-    coauthors: ['Siu-Cheong Lau', chan-kwokwai]
+    coauthors: [chan-kwokwai, 'Siu-Cheong Lau']
     doi: '10.4310/jdg/1418345540'
     openalex_id: W1556958449
     sources: [openalex]
@@ -339,7 +339,7 @@ publications:
   - id: '1209.6119'
     title: 'Open Gromov-Witten invariants, mirror maps, and Seidel representations for toric manifolds'
     year: 2012
-    coauthors: ['Siu-Cheong Lau', 'Hsian-Hua Tseng', chan-kwokwai]
+    coauthors: [chan-kwokwai, 'Siu-Cheong Lau', 'Hsian-Hua Tseng']
     doi: '10.1215/00127094-0000003x'
     journal: 'Duke Math. J. 166 (2017), no. 8, 1405-1462'
     primary_category: math.SG
@@ -348,7 +348,7 @@ publications:
   - id: '1006.3830'
     title: 'SYZ mirror symmetry for toric Calabi-Yau manifolds'
     year: 2012
-    coauthors: ['Siu-Cheong Lau', chan-kwokwai]
+    coauthors: [chan-kwokwai, 'Siu-Cheong Lau']
     doi: '10.4310/jdg/1335230845'
     journal: 'J. Differential Geom. 90 (2012), no. 2, 177-250'
     primary_category: math.SG
@@ -365,7 +365,7 @@ publications:
   - id: '1112.0388'
     title: 'Open Gromov-Witten invariants and mirror maps for semi-Fano toric manifolds'
     year: 2011
-    coauthors: ['Siu-Cheong Lau', 'Hsian-Hua Tseng', chan-kwokwai]
+    coauthors: [chan-kwokwai, 'Siu-Cheong Lau', 'Hsian-Hua Tseng']
     doi: '10.4310/pamq.2020.v16.n3.a11'
     journal: 'Pure Appl. Math. Q. 16 (2020), no. 3, 675-720'
     primary_category: math.SG
@@ -498,7 +498,7 @@ publications:
   - id: 'doi:10.4310/mrl.2001.v8.n6.a10'
     title: 'Harmonic maps and the topology of conformally compact Einstein manifolds'
     year: 2001
-    coauthors: ['Tom Yau-heng Wan']
+    coauthors: ['Tom Y. H. Wan']
     doi: '10.4310/mrl.2001.v8.n6.a10'
     journal: 'Mathematical Research Letters'
     openalex_id: W2963939479
@@ -521,15 +521,6 @@ publications:
     primary_category: math.DG
     openalex_id: W1804902553
     sources: [arxiv, openalex]
-  - id: 'doi:10.1090/s0894-0347-00-00326-x'
-    title: 'The enumerative geometry of 𝐾3 surfaces and modular forms'
-    year: 2000
-    coauthors: ['Jim Bryan']
-    doi: '10.1090/s0894-0347-00-00326-x'
-    journal: 'Journal of the American Mathematical Society'
-    openalex_id: W1480660276
-    sources: [openalex]
-    no_arxiv: true
   - id: 'doi:10.4310/atmp.1998.v2.n1.a4'
     title: 'Branes and toric geometry'
     year: 1998
@@ -558,8 +549,8 @@ publications:
     sources: [openalex]
     no_arxiv: true
 activity:
-  total_papers: 53
-  published_count: 45
+  total_papers: 52
+  published_count: 44
   preprint_only_count: 8
   active_period: '1993-present'
   confidence: 'has-7-review-pending'

@@ -157,7 +157,7 @@ publications:
   - id: '2506.00451'
     title: 'A Formula for Connected Bosonic n-Point Functions for the BKP Hierarchy'
     year: 2025
-    coauthors: []
+    coauthors: [zhang-xuhui]
     primary_category: math-ph
   - id: 'doi:10.4213/tm4481'
     title: 'Об абсолютной $n$-точечной функции, связанной с многочленами Гельфанда-Дикого On Absolute $n$-Point Function Associated with Gelfand-Dickey Polynomials Современная математика и ее приложения: Российско-китайское математическое сотрудничество Contemporary Mathematics and Its Applications: Proceedings of Sino-Russian Mathematical Meetings'
@@ -186,14 +186,14 @@ publications:
   - id: '2311.06506'
     title: 'From Toda Hierarchy to KP Hierarchy'
     year: 2023
-    coauthors: []
+    coauthors: [yang-di]
     doi: '10.3842/sigma.2025.068'
     journal: 'SIGMA 21 (2025), 068, 25 pages'
     primary_category: nlin.SI
   - id: '2204.11074'
     title: 'Grothendieck''s Dessins d''Enfants in a Web of Dualities. III'
     year: 2022
-    coauthors: []
+    coauthors: [yang-di]
     doi: '10.1088/1751-8121/acb744'
     primary_category: math-ph
   - id: '2112.07526'
@@ -237,7 +237,7 @@ publications:
   - id: 'doi:10.1142/s0129167x13500122'
     title: 'ORBIFOLD ELLIPTIC GENERA OF QUOTIENTS OF COMPLETE INTERSECTIONS IN WEIGHTED PROJECTIVE SPACES'
     year: 2013
-    coauthors: []
+    coauthors: [guo-shuai]
     doi: '10.1142/s0129167x13500122'
     journal: 'International Journal of Mathematics'
     openalex_id: W2061826412
@@ -255,7 +255,7 @@ publications:
   - id: 'doi:10.1142/s0129167x11007008'
     title: 'ELLIPTIC GENERA OF COMPLETE INTERSECTIONS IN WEIGHTED PROJECTIVE SPACES'
     year: 2010
-    coauthors: []
+    coauthors: [guo-shuai]
     doi: '10.1142/s0129167x11007008'
     journal: 'International Journal of Mathematics'
     openalex_id: W1977197055
@@ -264,7 +264,7 @@ publications:
   - id: '0408426'
     title: 'A Mathematical Theory of the Topological Vertex'
     year: 2004
-    coauthors: ['Jun Li', 'Kefeng Liu']
+    coauthors: ['Jun Li', liu-melissa, 'Kefeng Liu']
     doi: '10.2140/gt.2009.13.527'
     journal: 'Geom. Topol. 13 (2009) 527-621'
     primary_category: math.AG
@@ -273,7 +273,7 @@ publications:
   - id: '0306257'
     title: 'On a proof of a conjecture of Mariño-Vafa on Hodge Integrals'
     year: 2004
-    coauthors: ['Kefeng Liu']
+    coauthors: [liu-melissa, 'Kefeng Liu']
     doi: '10.4310/mrl.2004.v11.n2.a9'
     journal: 'Mathematical Research Letters'
     primary_category: math.AG
@@ -282,7 +282,7 @@ publications:
   - id: '0310272'
     title: 'A Formula of Two-Partition Hodge Integrals'
     year: 2003
-    coauthors: ['Kefeng Liu']
+    coauthors: [liu-melissa, 'Kefeng Liu']
     doi: '10.1090/s0894-0347-06-00541-8'
     journal: 'J. Amer. Math. Soc. 20 (2007), no.1, 149-184'
     primary_category: math.AG
@@ -291,7 +291,7 @@ publications:
   - id: '0308015'
     title: 'Mariño-Vafa Formula and Hodge Integral Identities'
     year: 2003
-    coauthors: ['Kefeng Liu']
+    coauthors: [liu-melissa, 'Kefeng Liu']
     doi: '10.1090/s1056-3911-05-00419-4'
     journal: 'Journal of Algebraic Geometry'
     primary_category: math.AG

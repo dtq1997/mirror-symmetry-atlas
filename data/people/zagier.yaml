@@ -129,8 +129,8 @@ key_collaborators:
     topic: "KdV tau-functions, arithmetic of integrable hierarchies"
     papers_count: 8
 activity:
-  total_papers: 45
-  published_count: 33
+  total_papers: 44
+  published_count: 32
   preprint_only_count: 12
   active_period: '1971-present'
 external_ids: {}
@@ -155,7 +155,7 @@ publications:
   - id: '2412.20388'
     title: 'Combinatorics and large genus asymptotics of the Brézin--Gross--Witten numbers'
     year: 2024
-    coauthors: [yang-di, 'Paul Norbury', guo-jindong]
+    coauthors: [yang-di, guo-jindong, 'Paul Norbury']
     primary_category: math-ph
     sources: [arxiv]
   - id: '2412.04241'
@@ -195,7 +195,7 @@ publications:
   - id: '2203.09426'
     title: 'D-brane masses at special fibres of hypergeometric families of Calabi-Yau threefolds, modular forms, and periods'
     year: 2022
-    coauthors: ['Kilian B nisch', 'Albrecht Klemm', 'Emanuel Scheidegger']
+    coauthors: ['Kilian Bönisch', 'Albrecht Klemm', 'Emanuel Scheidegger']
     doi: '10.1007/s00220-024-05006-6'
     journal: 'Communications in Mathematical Physics'
     primary_category: hep-th
@@ -232,7 +232,7 @@ publications:
   - id: 'doi:10.4171/lem/66-3/4-2'
     title: 'Dynamics of geodesics, and Maass cusp forms'
     year: 2021
-    coauthors: []
+    coauthors: ['Anke Pohl']
     doi: '10.4171/lem/66-3/4-2'
     journal: 'L’Enseignement Mathématique'
     sources: [crossref]
@@ -254,14 +254,14 @@ publications:
   - id: '2011.02187'
     title: 'Strichartz Estimates with Broken Symmetries'
     year: 2020
-    coauthors: ['Felipe Gon alves']
+    coauthors: ['Felipe Gonçalves']
     doi: '10.4171/rmi/1322'
     journal: 'Revista Matemática Iberoamericana'
     primary_category: math.CA
   - id: '2010.16367'
     title: 'Nu-invariants of extra-twisted connected sums'
     year: 2020
-    coauthors: ['Sebastian Goette', 'Johannes Nordstr m']
+    coauthors: ['Sebastian Goette', 'Johannes Nordström']
     primary_category: math.GT
   - id: '1907.00188'
     title: 'Theta Blocks'
@@ -290,13 +290,13 @@ publications:
   - id: '1901.01785'
     title: 'Masur-Veech volumes and intersection theory on moduli spaces of abelian differentials'
     year: 2019
-    coauthors: ['Dawei Chen', 'Martin M ller', 'Adrien Sauvaget']
+    coauthors: ['Dawei Chen', 'Martin Möller', 'Adrien Sauvaget']
     doi: '10.1007/s00222-020-00969-4'
     primary_category: math.AG
   - id: 'doi:10.4171/jems/864'
     title: 'Periods of modular forms on $\Gamma_0(N)$ and products of Jacobi theta functions'
     year: 2019
-    coauthors: []
+    coauthors: ['YoungJu Choie', 'Yoon Kyung Park']
     doi: '10.4171/jems/864'
     journal: 'Journal of the European Mathematical Society'
     sources: [crossref]
@@ -346,7 +346,7 @@ publications:
   - id: 'doi:10.17323/1609-4514-2017-17-4-601-633'
     title: 'Classical Hurwitz Numbers and Related Combinatorics'
     year: 2017
-    coauthors: []
+    coauthors: [dubrovin, yang-di]
     doi: '10.17323/1609-4514-2017-17-4-601-633'
     journal: 'Moscow Mathematical Journal'
     sources: [crossref]
@@ -375,7 +375,7 @@ publications:
   - id: 'doi:10.4171/owr/2013/35'
     title: 'Explicit Methods in Number Theory'
     year: 2014
-    coauthors: []
+    coauthors: ['Karim Belabas', 'Bjorn Poonen']
     doi: '10.4171/owr/2013/35'
     journal: 'Oberwolfach Reports'
     sources: [crossref]
@@ -398,13 +398,6 @@ publications:
     coauthors: ['Tudor Dimofte', 'Sergei Gukov', 'Jonatan Lenells']
     journal: 'Commun.Num.Theor.Phys.3:363-443,2009'
     primary_category: hep-th
-  - id: '0902.3113'
-    title: 'Asymptotics of classical spin networks'
-    year: 2009
-    coauthors: ['Stavros Garoufalidis', 'Roland van der Veen']
-    doi: '10.2140/gt.2013.17.1'
-    journal: 'Geom. Topol. 17 (2013) 1-37'
-    primary_category: math.GT
   - id: '0710.0889'
     title: 'Some Properties of Hypergeometric Series Associated with Mirror Symmetry'
     year: 2007
@@ -429,7 +422,7 @@ publications:
   - id: 'doi:10.1007/978-3-642-56478-9_39'
     title: 'Periods'
     year: 2001
-    coauthors: []
+    coauthors: [kontsevich]
     doi: '10.1007/978-3-642-56478-9_39'
     openalex_id: W4242941774
     sources: [openalex]
@@ -437,7 +430,7 @@ publications:
   - id: '9612020'
     title: 'Jacobi forms and the structure of Donaldson invariants for 4-manifolds with b_+=1'
     year: 1996
-    coauthors: ['Lothar G ttsche']
+    coauthors: ['L. Göttsche']
     doi: '10.1007/s000290050025'
     journal: 'Selecta Mathematica'
     primary_category: math.AG
