@@ -121,8 +121,8 @@ key_collaborators:
   topic: Painlevé equations, reflection groups
   papers_count: 7
 activity:
-  total_papers: 86
-  published_count: 77
+  total_papers: 60
+  published_count: 51
   preprint_only_count: 9
   h_index: 21
   active_period: '1998-present'
@@ -155,15 +155,6 @@ publications:
     primary_category: math.AG
     openalex_id: W7139921749
     sources: [arxiv, openalex]
-  - id: 'doi:10.1016/j.ppnp.2025.104164'
-    title: 'Indirect methods with transfer reactions: The Trojan Horse method and the Asymptotic Normalization Coefficient'
-    year: 2025
-    coauthors: ['A. Tumino', 'C.A. Bertulani', 'S. Cherubini', 'G.F. D’Agata', 'A. Di Pietro', 'P. Figuera', 'G.L. Guardo', 'M. Gulino', 'S. Hayakawa', 'M. La Cognata', 'M. La Commara', 'L. Lamia', 'D. Lattuada', 'A.M. Moro', 'J. Mraźek', 'A.A. Oliva', 'S. Palmerini', 'R.G. Pizzone', 'G.G. Rapisarda', 'S. Romano', 'M.L. Sergi', 'R. Spartà', 'S. Typel', 'H. Yamaguchi']
-    doi: '10.1016/j.ppnp.2025.104164'
-    journal: 'Progress in Particle and Nuclear Physics'
-    openalex_id: W4407902549
-    sources: [openalex]
-    no_arxiv: true
   - id: '2407.17366'
     title: 'Automorphisms of the DAHA of type $\check{C_1}C_1$ and non-symmetric Askey-Wilson functions'
     year: 2024
@@ -180,15 +171,6 @@ publications:
     primary_category: math-ph
     openalex_id: W4398191462
     sources: [arxiv, openalex]
-  - id: 'doi:10.1140/epjp/s13360-023-04840-2'
-    title: 'Nuclear Physics Mid Term Plan at LNGS'
-    year: 2024
-    coauthors: ['R. Buompane', 'F. Cavanna', 'C. Curceanu', 'A. D’Onofrio', 'A. Di Leva', 'A. Formicola', 'L. Gialanella', 'C. Gustavino', 'G. Imbriani', 'M. Junker', 'A. Marcianò', 'F. Marzaioli', 'R. Nania', 'F. Napolitano', 'K. Piscicchia', 'O. Straniero', 'C. Abia', 'M. Aliotta', 'D. Bemmerer', 'A. Best', 'A. Boeltzig', 'C. Bruno', 'A. Caciolli', 'A. Chieffi', 'G. Ciani', 'G. D’Agata', 'R. J. deBoer', 'M. De Cesare', 'D. Dell’Aquila', 'R. Depalo', 'I. Dominguez', 'F. Ferraro', 'J. Garcia Duarte', 'A. Guglielmetti', 'Gy. Gyürky', 'S. Hayakawa', 'M. La Cognata', 'L. Lamia', 'L. E. Marcucci', 'E. Masha', 'E. L. Morales-Gallegos', 'S. Palmerini', 'I. Passariello', 'A. Petraglia', 'D. Piatti', 'M. Pignatari', 'R. G. Pizzone', 'G. Porzio', 'D. Rapagnani', 'G. G. Rapisarda', 'S. Romano', 'M. Rubino', 'C. Santonastaso', 'M. L. Sergi', 'J. Skowronski', 'R. Spartà', 'F. Terrasi', 'A. Tumino', 'S. Turkat', 'M. Wiescher', 'S. Zavatarelli']
-    doi: '10.1140/epjp/s13360-023-04840-2'
-    journal: 'The European Physical Journal Plus'
-    openalex_id: W4392506726
-    sources: [openalex]
-    no_arxiv: true
   - id: '2307.06803'
     title: 'Generalized double affine Hecke algebras, their representations, and higher Teichmüller theory'
     year: 2023
@@ -198,24 +180,6 @@ publications:
     primary_category: math.QA
     openalex_id: W4399567263
     sources: [arxiv, openalex]
-  - id: 'doi:10.1051/epjconf/202327502010'
-    title: 'The 12C +16 O fusion reaction in carbon burning: Study at energies of astrophysical interest using the Trojan Horse Method'
-    year: 2023
-    coauthors: ['A.A. Oliva', 'A. Tumino', 'N. Soic', 'M.P. Prajapati', 'L. Acosta', 'R. Alba', 'F. Barba', 'S. Cherubini', 'G. D’Agata', 'D. Dell’Aquila', 'A. Di Pietro', 'P.J. Fernandez', 'P. Figuera', 'D. Galaviz Redondo', 'L. Guardo', 'M. Gulino', 'F. Hammache', 'D. Jelavic Malenica', 'A.I. Kiliç', 'M. La Cognata', 'M. La Commara', 'L. Lamia', 'D. Lattuada', 'C. Maiolino', 'G. Manicò', 'M. Milin', 'Ma Nanru', 'A. Nurmukhanbetova', 'D. Nurkic', 'S. Palmerini', 'T. Parascandolo', 'D. Pierroutsakou', 'R.G. Pizzone', 'R. Popocovski', 'G.G. Rapisarda', 'S. Romano', 'D. Santonocito', 'M.L. Sergi', 'A. Shotter', 'R. Spartà', 'A. Spiridon', 'L. Trache', 'N. Vukman', 'H. Yamaguchi']
-    doi: '10.1051/epjconf/202327502010'
-    journal: 'EPJ Web of Conferences'
-    openalex_id: W4319083768
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1051/epjconf/202327911015'
-    title: 'Study of the 12C +16 O fusion reaction in carbon burning via the Trojan Horse Method'
-    year: 2023
-    coauthors: ['A. A. Oliva', 'A. Tumino', 'N. Soic', 'P. M. Prajapati', 'L. Acosta', 'R. Alba', 'F. Barba', 'S. Cherubini', 'G. D’Agata', 'D. Dell’Aquila', 'A. Di Pietro', 'J.P. Fernandez', 'P. Figuera', 'D. Galaviz Redondo', 'L. Guardo', 'M. Gulino', 'F. Hammache', 'D. Jelavic Malenica', 'A.I. Kiliç', 'M. La Cognata', 'M. La Commara', 'L. Lamia', 'D. Lattuada', 'C. Maiolino', 'G. Manicò', 'M. Milin', 'Ma Nanru', 'A. Nurmukhanbetova', 'D. Nurkic', 'S. Palmerini', 'T. Parascandolo', 'D. Pierroutsakou', 'R.G. Pizzone', 'R. Popocovski', 'G.G. Rapisarda', 'S. Romano', 'D. Santonocito', 'M.L. Sergi', 'A. Shotter', 'R. Spartà', 'A. Spiridon', 'L. Trache', 'N. Vukman', 'H. Yamaguchi']
-    doi: '10.1051/epjconf/202327911015'
-    journal: 'EPJ Web of Conferences'
-    openalex_id: W4360595770
-    sources: [openalex]
-    no_arxiv: true
   - id: '2106.13760'
     title: 'Isomonodromic deformations: Confluence, Reduction $\&$ Quantisation'
     year: 2021
@@ -234,24 +198,6 @@ publications:
     primary_category: nlin.SI
     openalex_id: W3115762942
     sources: [arxiv, openalex]
-  - id: 'doi:10.1140/epja/s10050-020-00212-x'
-    title: 'Indirect measurement of the $$^3\hbox {He}$$(n,p)$$^3\hbox {H}$$ reaction cross section at Big Bang energies'
-    year: 2020
-    coauthors: ['R. G. Pizzone', 'C. Spampinato', 'R. Spartá', 'M. Couder', 'W. Tan', 'V. Burjan', 'G. D’Agata', 'G. L. Guardo', 'M. La Cognata', 'L. Lamia', 'J. Mrazek', 'S. Palmerini', 'S. Typel', 'A. Tumino', 'M. Wiescher', 'S. Anguilar', 'D. Bardayan', 'D. Blankstein', 'L. Boccioli', 'L. Callahan', 'S. M. Cha', 'K. Y. Chae', 'A. M. Clark', 'B. Frentz', 'M. R. Hall', 'A. Gula', 'S. Henderson', 'R. Kelmar', 'M. S. Kwag', 'I. Indelicato', 'M. La Commara', 'D. Lattuada', 'Q. Liu', 'J. Long', 'A. Majumdar', 'S. McGuinness', 'A. Nelson', 'A. A. Oliva', 'P. O’Malley', 'P. M. Prajapati', 'G. G. Rapisarda', 'S. Romano', 'M. L. Sergi', 'C. Seymour', 'M. Skulski', 'C. Spitaleri', 'J. Wilkinson']
-    doi: '10.1140/epja/s10050-020-00212-x'
-    journal: 'The European Physical Journal A'
-    openalex_id: W3046966912
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1103/physrevc.101.044313'
-    title: 'New level scheme and shell model description of $Rn212$'
-    year: 2020
-    coauthors: ['C. B. Li', 'G. L. Zhang', 'C. X. Yuan', 'G. X. Zhang', 'S. P. Hu', 'W. W. Qu', 'Y. Zheng', 'H. Q. Zhang', 'D. Mengoni', 'D. Testov', 'J. J. Valiente-Dobón', 'H. B. Sun', 'N. Wang', 'X. G. Wu', 'G. S. Li', 'A. Gozzelino', 'C. Parascandolo', 'D. Pierroutsakou', 'M. La Commara', 'F. Recchia', 'A. I. Sison', 'S. Bakes', 'I. Zanon', 'S. Aydin', 'D. Bazzacco']
-    doi: '10.1103/physrevc.101.044313'
-    journal: 'Physical review. C'
-    openalex_id: W3017612313
-    sources: [openalex]
-    no_arxiv: true
   - id: 'doi:10.1007/978-3-030-57000-2_7'
     title: 'Stokes Phenomenon Arising in the Confluence of the Gauss Hypergeometric Equation'
     year: 2020
@@ -259,40 +205,6 @@ publications:
     doi: '10.1007/978-3-030-57000-2_7'
     journal: 'Springer proceedings in mathematics & statistics'
     openalex_id: W3086757062
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1088/1742-6596/1643/1/012051'
-    title: 'Overview on the Trojan Horse Method in nuclear astrophysics'
-    year: 2020
-    coauthors: ['L. Lamia', 'R.G. Pizzone', 'S. Hayakawa', 'M. La Cognata', 'C.A. Bertulani', 'S. Cherubini', 'G. D’Agata', 'G.L. Guardo', 'M. Gulino', 'I. Indelicato', 'G.G. Rapisarda', 'S. Romano', 'M.L. Sergi', 'R. Spartá', 'C. Spitaleri', 'A. Tumino']
-    doi: '10.1088/1742-6596/1643/1/012051'
-    journal: 'Journal of Physics Conference Series'
-    openalex_id: W3115256554
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1051/epjconf/202022702007'
-    title: 'Study of the neutron induced reaction 17O(n,α)14C at astrophysical energies via the Trojan Horse Method'
-    year: 2020
-    coauthors: ['A. A. Oliva', 'L. Lamia', 'G. L. Guardo', 'C. Spitaleri', 'S. Cherubini', 'A. Cvetinovic', 'G. D’Agata', 'N. de Sereville', 'A. Di Pietro', 'P. Figuera', 'M Gulino', 'F Hammache', 'S. Hayakawa', 'I. Indelicato', 'M. La Cognata', 'M. La Commara', 'D. Lattuada', 'M. Lattuada', 'G. Manico', 'S. Messina', 'S. Palmerini', 'R.G. Pizzone', 'M.L. Pumo', 'G.G. Rapisarda', 'S. Romano', 'M.L. Sergi', 'N. Soic', 'R. Spartà', 'A. Tumino']
-    doi: '10.1051/epjconf/202022702007'
-    journal: 'EPJ Web of Conferences'
-    openalex_id: W3003596140
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.7566/jpscp.31.011056'
-    title: 'Measurement of the 27Al(p,α)24Mg Reaction at Astrophysical Energies via the Trojan Horse Method'
-    year: 2020
-    coauthors: ['S. Palmerini', 'M. La Cognata', 'L. Acosta', 'R. Alba', 'E. Chávez', 'S. Cherubini', 'G. D’ Agata', 'A. Di Pietro', 'P. Figuera', 'K. De Los Rios', 'G. L. Guardo', 'M. Gulino', 'S. Hayakawa', 'G. Kiss', 'M. La Commara', 'L. Lamia', 'C. Maiolino', 'G. Manicò', 'J. Mrázek', 'C. Parascandalo', 'T. Petruze', 'D. Pierroutsakou', 'R.G. Pizzone', 'G.G. Rapisarda', 'S. Romano', 'D. Santonocito', 'R. Spartá', 'C. Spitaleri', 'A. Tumino']
-    doi: '10.7566/jpscp.31.011056'
-    openalex_id: W3013181029
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.7566/jpscp.32.010058'
-    title: 'The 7Be\((n,\alpha )\)4He Reaction Studied via THM for the Cosmological Li-Problem'
-    year: 2020
-    coauthors: ['S. Hayakawa', 'L. Lamia', 'C. Spitaleri', 'C. A. Bertulani', 'S. Q. Hou', 'M. La Cognata', 'R. G. Pizzone', 'D. Pierroutsakou', 'S. Romano', 'M. L. Sergi', 'A. Tumino']
-    doi: '10.7566/jpscp.32.010058'
-    openalex_id: W3043192827
     sources: [openalex]
     no_arxiv: true
   - id: '1905.02772'
@@ -313,23 +225,6 @@ publications:
     openalex_id: W2922107226
     sources: [openalex]
     no_arxiv: true
-  - id: 'doi:10.1393/ncc/i2020-20111-7'
-    title: 'Study of the neutron-induced reaction $^{17}$O($n,\alpha$)$^{14}$C at astrophysical energies via the Trojan Horse Method'
-    year: 2019
-    coauthors: ['A. Oliva', 'G. L. Guardo', 'L. Lamia', 'S. Cherubini', 'A. Cvetinović', 'G. D’Agata', 'N. de Séréville', 'A. Di Pietro', 'P. Figuera', 'M. Gulino', 'F. Hammache', 'Shinjiro Hayakawa', 'I. Indelicato', 'M. La Cognata', 'M. La Commara', 'D. Lattuada', 'М. Латтуада', 'Giulio Manicò', 'S. Messina', 'S. Palmerini', 'R. G. Pizzone', 'M. L. Pumo', 'G. G. Rapisarda', 'S. Romano', 'M. L. Sergi', 'N. Soić', 'R. Spartá', 'C. Spitaleri', 'А. Туміно']
-    doi: '10.1393/ncc/i2020-20111-7'
-    openalex_id: W3165357655
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1007/978-3-030-13876-9_60'
-    title: 'The $$^{19}\mathrm{F}( \alpha ,\mathrm{p})^{22}$$ Ne and $$^{23}\mathrm{Na}(\mathrm{p},\alpha )^{20}$$ Ne Reactions at Energies of Astrophysical Interest via the Trojan Horse Method'
-    year: 2019
-    coauthors: ['G. D’Agata', 'Rosario Gianluca Pizzone', 'I. Indelicato', 'M. La Cognata', 'C. Spitaleri', 'V. Burjan', 'S. Cherubini', 'A. Di Pietro', 'P. Figuera', 'G. L. Guardo', 'M. Gulino', 'M. La Commara', 'L. Lamia', 'M. Lattuada', 'J. Mrazek', 'M. Milin', 'Sara Palmerini', 'C. Parascandolo', 'D. Pierroutsakou', 'G. G. Rapisarda', 'S. Romano', 'M. L. Sergi', 'N. Soic̀', 'R. Spartá', 'O. Trippella', 'Aurora Tumino']
-    doi: '10.1007/978-3-030-13876-9_60'
-    journal: 'Springer proceedings in physics'
-    openalex_id: W2969937321
-    sources: [openalex]
-    no_arxiv: true
   - id: 'doi:10.14288/1.0377037'
     title: 'Quantum character varieties and $q$-Askey scheme'
     year: 2019
@@ -347,24 +242,6 @@ publications:
     journal: 'STUDIES IN APPLIED MATHEMATICS 2018'
     primary_category: math.CA
     sources: [arxiv]
-  - id: 'doi:10.1051/epjconf/2018184h02003'
-    title: 'The 19F(α, p)22Ne and 23Na(p,α)20Ne reaction in AGB nucleosynthesis via THM'
-    year: 2018
-    coauthors: ['G. D’Agata', 'R. G. Pizzone', 'M. La Cognata', 'I. Indelicato', 'C. Spitaleri', 'V. Burjan', 'S. Cherubini', 'A. Di Pietro', 'G. L. Guardo', 'M. Gulino', 'M. La Commara', 'L. Lamia', 'M. Lattuada', 'J. Mrazek', 'M. Milin', 'S. Palmerini', 'C. Parascandolo', 'D. Pierroutsakou', 'G.G. Rapisarda', 'S. Romano', 'M.L. Sergi', 'N. Soić', 'R. Spartá', 'O. Trippella', 'A. Tumino']
-    doi: '10.1051/epjconf/2018184h02003'
-    journal: 'EPJ Web of Conferences'
-    openalex_id: W2811021664
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1051/epjconf/201818402012'
-    title: 'The Treiman-Yang Criterion: validating the Trojan Horse Method by experimentally probing the reaction mechanism'
-    year: 2018
-    coauthors: ['S. S. Perrotta', 'C. Spitaleri', 'S. Cherubini', 'A. Cvetinović', 'G. D’Agata', 'D. Dell’Aquila', 'A. Di Pietro', 'P. Figuera', 'L. Guardo', 'M. Gulino', 'I. Indelicato', 'I. Kres', 'M. La Cognata', 'M. La Commara', 'L. Lamia', 'D. Lattuada', 'M. Lattuada', 'I. Lombardo', 'T. Parascandolo', 'R. G. Pizzone', 'G. G. Rapisarda', 'S. Romano', 'R. Spartà', 'O. Trippella', 'A. Tumino']
-    doi: '10.1051/epjconf/201818402012'
-    journal: 'EPJ Web of Conferences'
-    openalex_id: W2809690262
-    sources: [openalex]
-    no_arxiv: true
   - id: '1705.03295'
     title: 'Finite orbits of the pure braid group on the monodromy of the $2$-variable Garnier system'
     year: 2017
@@ -381,24 +258,6 @@ publications:
     primary_category: math.AG
     openalex_id: W4243724386
     sources: [arxiv, openalex]
-  - id: 'doi:10.3847/1538-4357/aa7de7'
-    title: 'New Improved Indirect Measurement of the 19F(p, α)16O Reaction at Energies of Astrophysical Relevance'
-    year: 2017
-    coauthors: ['I. Indelicato', 'M. La Cognata', 'C. Spitaleri', 'V. Burjan', 'S. Cherubini', 'M. Gulino', 'S. Hayakawa', 'Z. Hons', 'V. Kroha', 'L. Lamia', 'J. Mrazek', 'R. G. Pizzone', 'S. Romano', 'E. Strano', 'D. Torresi', 'A. Tumino']
-    doi: '10.3847/1538-4357/aa7de7'
-    journal: 'The Astrophysical Journal'
-    openalex_id: W2745308043
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1103/physrevc.96.044317'
-    title: 'Evidence for $O15+α$ resonance structures in $Ne19$ via direct measurement'
-    year: 2017
-    coauthors: ['D. Torresi', 'C. Wheldon', 'Tz. Kokalova', 'S. Bailey', 'A. Boiano', 'C. Boiano', 'M. Fisichella', 'C. Parascandolo', 'D. Pierroutsakou', 'E. Strano', 'M. Zadro', 'M. Cavallaro', 'S. Cherubini', 'N. Curtis', 'A. Di Pietro', 'J. P. Fernández Garcia', 'P. Figuera', 'T. Glodariu', 'J. Grȩbosz', 'M. La Cognata', 'M. La Commara', 'M. Lattuada', 'D. Mengoni', 'R. G. Pizzone', 'C. Signorini', 'C. Stefanini', 'L. Stroe', 'C. Spitaleri']
-    doi: '10.1103/physrevc.96.044317'
-    journal: 'Physical review. C'
-    openalex_id: W2766829641
-    sources: [openalex]
-    no_arxiv: true
   - id: 'doi:10.1088/1742-6596/863/1/012026'
     title: '15O+α resonant elastic scattering to study cluster states in19Ne'
     year: 2017
@@ -424,24 +283,6 @@ publications:
     primary_category: math.RT
     openalex_id: W2298241412
     sources: [arxiv, openalex]
-  - id: 'doi:10.1016/j.physletb.2016.01.039'
-    title: 'First direct mass measurements of stored neutron-rich 129,130,131Cd isotopes with FRS-ESR'
-    year: 2016
-    coauthors: ['R. Knöbel', 'M. Diwisch', 'F. Bosch', 'D. Boutin', 'L. Chen', 'C. Dimopoulou', 'A. Dolinskii', 'B. Franczak', 'B. Franzke', 'H. Geissel', 'M. Hausmann', 'C. Kozhuharov', 'J. Kurcewicz', 'S.A. Litvinov', 'G. Martinez-Pinedo', 'M. Matoš', 'G. Münzenberg', 'S. Nakajima', 'C. Nociforo', 'F. Nolden', 'T. Ohtsubo', 'A. Ozawa', 'Z. Patyk', 'W.R. Plaß', 'C. Scheidenberger', 'J. Stadlmann', 'M. Steck', 'B. Sun', 'T. Suzuki', 'P.M. Walker', 'H. Weick', 'M.-R. Wu', 'M. Winkler', 'T. Yamaguchi']
-    doi: '10.1016/j.physletb.2016.01.039'
-    journal: 'Physics Letters B'
-    openalex_id: W2250243932
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1016/j.nima.2016.03.026'
-    title: 'Light response of YAP:Ce and LaBr3:Ce scintillators to 4–30 MeV protons for applications to Telescope Proton Recoil neutron spectrometers'
-    year: 2016
-    coauthors: ['C. Cazzaniga', 'A. Cremona', 'M. Nocente', 'M. Rebai', 'D. Rigamonti', 'M. Tardocchi', 'G. Croci', 'G. Ericsson', 'A. Fazzi', 'A. Hjalmarsson', 'E. Strano', 'G. Gorini']
-    doi: '10.1016/j.nima.2016.03.026'
-    journal: 'Nuclear Instruments and Methods in Physics Research Section A Accelerators Spectrometers Detectors and Associated Equipment'
-    openalex_id: W2303466991
-    sources: [openalex]
-    no_arxiv: true
   - id: 'doi:10.1103/physrevaccelbeams.19.079901'
     title: 'Publisher’s Note: High intensity neutrino oscillation facilities in Europe [Phys. Rev. Accel. Beams16, 021002 (2013)]'
     year: 2016
@@ -633,15 +474,6 @@ publications:
     primary_category: math.AG
     openalex_id: W2963222788
     sources: [arxiv, openalex]
-  - id: 'doi:10.1142/s0218301309012379'
-    title: 'LARGE-SCALE MASS MEASUREMENTS OF SHORT-LIVED NUCLIDES WITH THE ISOCHRONOUS MASS SPECTROMETRY AT GSI'
-    year: 2009
-    coauthors: ['B. SUN', 'R. KNÖBEL', 'YU. A. LITVINOV', 'S. NAKAJIMA', 'H. GEISSEL', 'J. MENG', 'K. BECKERT', 'F. BOSCH', 'D. BOUTIN', 'C. BRANDAU', 'L. CHEN', 'I. J. CULLEN', 'C. DIMOPOULOU', 'B. FABIAN', 'M. HAUSMANN', 'O. KLEPPER', 'C. KOZHUHAROV', 'J. KURCEWICZ', 'S. A. LITVINOV', 'F. MONTES', 'G. MÜNZENBERG', 'A. MUSUMARRA', 'C. NOCIFORO', 'F. NOLDEN', 'T. OHTSUBO', 'A. OZAWA', 'Z. PATYK', 'W. R. PLAß', 'C. SCHEIDENBERGER', 'M. STECK', 'T. SUZUKI', 'P. M. WALKER', 'H. WEICK', 'N. WINCKLER', 'M. WINKLER', 'T. YAMAGUCHI']
-    doi: '10.1142/s0218301309012379'
-    journal: 'International Journal of Modern Physics E'
-    openalex_id: W2040324952
-    sources: [openalex]
-    no_arxiv: true
   - id: 'doi:10.1070/rm2009v064n06abeh004653'
     title: 'Orbifold Riemann surfaces: Teichmüller spaces and algebras of geodesic functions'
     year: 2009
@@ -660,31 +492,6 @@ publications:
     openalex_id: W2325245736
     sources: [openalex]
     no_arxiv: true
-  - id: '0808.4065'
-    title: 'Mass measurements in the vicinity of the$r p$-process and the$ν p$-process paths with the Penning trap facilities JYFLTRAP and SHIPTRAP'
-    year: 2008
-    coauthors: ['C. Weber', 'V.-V. Elomaa', 'R. Ferrer', 'C. Fröhlich', 'D. Ackermann', 'J. Äystö', 'G. Audi', 'L. Batist', 'K. Blaum', 'M. Block', 'A. Chaudhuri', 'M. Dworschak', 'S. Eliseev', 'T. Eronen', 'U. Hager', 'J. Hakala', 'F. Herfurth', 'F. P. Heßberger', 'S. Hofmann', 'A. Jokinen', 'A. Kankainen', 'H.-J. Kluge', 'K. Langanke', 'A. Martín', 'G. Martínez-Pinedo', 'I. D. Moore', 'J. B. Neumayr', 'Yu. N. Novikov', 'H. Penttilä', 'W. R. Plaß', 'A. V. Popov', 'S. Rahaman', 'T. Rauscher', 'C. Rauth', 'J. Rissanen', 'D. Rodríguez', 'A. Saastamoinen', 'C. Scheidenberger', 'L. Schweikhard', 'D. M. Seliverstov', 'T. Sonoda', 'F.-K. Thielemann', 'P. G. Thirolf', 'G. K. Vorobjev']
-    doi: '10.1103/physrevc.78.054310'
-    journal: 'Physical Review C'
-    openalex_id: W2033341157
-    sources: [openalex]
-  - id: 'doi:10.1016/j.nuclphysa.2008.08.013'
-    title: 'Nuclear structure studies of short-lived neutron-rich nuclei with the novel large-scale isochronous mass spectrometry at the FRS-ESR facility'
-    year: 2008
-    coauthors: ['B. Sun', 'R. Knöbel', 'Yu.A. Litvinov', 'H. Geissel', 'J. Meng', 'K. Beckert', 'F. Bosch', 'D. Boutin', 'C. Brandau', 'L. Chen', 'I.J. Cullen', 'C. Dimopoulou', 'B. Fabian', 'M. Hausmann', 'C. Kozhuharov', 'S.A. Litvinov', 'F. Montes', 'G. Münzenberg', 'A. Musumarra', 'S. Nakajima', 'C. Nociforo', 'F. Nolden', 'T. Ohtsubo', 'A. Ozawa', 'Z. Patyk', 'W.R. Plaß', 'C. Scheidenberger', 'M. Steck', 'T. Suzuki', 'P.M. Walker', 'H. Weick', 'N. Winckler', 'M. Winkler', 'T. Yamaguchi']
-    doi: '10.1016/j.nuclphysa.2008.08.013'
-    journal: 'Nuclear Physics A'
-    openalex_id: W1991202445
-    sources: [openalex]
-    no_arxiv: true
-  - id: '0710.1512'
-    title: 'Prompt dipole radiation in fusion reactions'
-    year: 2008
-    coauthors: ['B. Martin', 'D. Pierroutsakou', 'C. Agodi', 'R. Alba', 'V. Baran', 'A. Boiano', 'G. Cardella', 'M. Colonna', 'R. Coniglione', 'E. De Filippo', 'A. Del Zoppo', 'M. Di Toro', 'G. Inglima', 'T. Glodariu', 'M. La Commara', 'C. Maiolino', 'A. Pagano', 'P. Piattelli', 'S. Pirrone', 'C. Rizzo', 'M. Romoli', 'M. Sandoli', 'D. Santonocito', 'P. Sapienza', 'C. Signorini']
-    doi: '10.1016/j.physletb.2008.05.007'
-    journal: 'Physics Letters B'
-    openalex_id: W1968783420
-    sources: [openalex]
   - id: '0701029'
     title: 'A remark on the Hankel determinant formula for solutions of the Toda equation'
     year: 2007
@@ -692,33 +499,6 @@ publications:
     doi: '10.1088/1751-8113/40/42/s11'
     primary_category: nlin.SI
     sources: [arxiv]
-  - id: 'doi:10.1140/epjst/e2007-00263-y'
-    title: 'Light radioactive nuclear beams at LNL'
-    year: 2007
-    coauthors: ['D. Pierroutsakou', 'B. Martin', 'T. Glodariu', 'R. Bonetti', 'A. De Francesco', 'A. De Rosa', 'F. Farinon', 'A. Guglielmetti', 'G. Inglima', 'M. La Commara', 'M. Romoli', 'M. Sandoli', 'C. Signorini', 'F. Soramel', 'L. Stroe', 'E. Vardaci']
-    doi: '10.1140/epjst/e2007-00263-y'
-    journal: 'The European Physical Journal Special Topics'
-    openalex_id: W1983870389
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1063/1.2713518'
-    title: 'New Developments for Isochronous Mass Measurements of Short-Lived Nuclei'
-    year: 2007
-    coauthors: ['R. Knöbel', 'S. A. Litvinov', 'B. Sun', 'K. Beckert', 'P. Beller', 'F. Bosch', 'D. Boutin', 'C. Brandau', 'L. Chen', 'I. J. Cullen', 'C. Dimopoulou', 'A. Dolinskii', 'B. Fabian', 'H. Geissel', 'M. Hausmann', 'C. Kozhuharov', 'J. Kurcewicz', 'Yu. A. Litvinov', 'Z. Liu', 'F. Montes', 'G. Münzenberg', 'A. Musumarra', 'S. Nakajima', 'C. Nociforo', 'F. Nolden', 'T. Ohtsubo', 'A. Ozawa', 'Z. Patyk', 'W. R. Plaß', 'C. Scheidenberger', 'M. Shindo', 'M. Steck', 'T. Suzuki', 'P. M. Walker', 'H. Weick', 'N. Winckler', 'M. Winkler', 'T. Yamaguchi']
-    doi: '10.1063/1.2713518'
-    journal: 'AIP conference proceedings'
-    openalex_id: W1545882387
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1063/1.2746619'
-    title: 'Mass measurements of exotic nuclides at SHIPTRAP'
-    year: 2007
-    coauthors: ['M. Block', 'D. Ackermann', 'K. Blaum', 'A. Chaudhuri', 'Z. Di', 'S. Eliseev', 'R. Ferrer', 'D. Habs', 'F. Herfurth', 'F. P. Heßberger', 'S. Hofmann', 'H.-J. Kluge', 'G. Maero', 'A. Martín', 'G. Marx', 'M. Mukherjee', 'J. B. Neumayr', 'W. R. Plaß', 'W. Quint', 'S. Rahaman', 'C. Rauth', 'D. Rodríguez', 'C. Scheidenberger', 'L. Schweikhard', 'P. G. Thirolf', 'G. Vorobjev', 'C. Weber', 'Yu. E. Penionzhkevich', 'E. A. Cherepanov']
-    doi: '10.1063/1.2746619'
-    journal: 'AIP conference proceedings'
-    openalex_id: W1841285892
-    sources: [openalex]
-    no_arxiv: true
   - id: 'doi:10.1063/1.2713496'
     title: 'Mass Measurements at SHIPTRAP'
     year: 2007
@@ -758,15 +538,6 @@ publications:
     doi: '10.1007/s10751-007-9542-3'
     journal: 'Hyperfine Interactions'
     openalex_id: W2004056662
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1016/j.nuclphysa.2006.12.050'
-    title: 'Status of the Experimental Program on Mass Measurements of Stored Exotic Nuclei at the FRS-ESR Facility'
-    year: 2006
-    coauthors: ['Yu.A. Litvinov', 'H. Geissel', 'K. Beckert', 'P. Beller', 'F. Bosch', 'D. Boutin', 'C. Brandau', 'L. Chen', 'I. Cullen', 'C. Dimopoulou', 'B. Fabian', 'M. Hausmann', 'O. Klepper', 'R. Knöbel', 'C. Kozhuharov', 'J. Kurcewicz', 'S.A. Litvinov', 'Z. Liu', 'F. Montes', 'G. Münzenberg', 'A. Musumarra', 'S. Nakajima', 'C. Nociforo', 'F. Nolden', 'T. Ohtsubo', 'A. Ozawa', 'Z. Patyk', 'W. Plass', 'C. Scheidenberger', 'M. Steck', 'B. Sun', 'T. Suzuki', 'P.M. Walker', 'H. Weick', 'N. Winckler', 'M. Winkler', 'T. Yamaguchi']
-    doi: '10.1016/j.nuclphysa.2006.12.050'
-    journal: 'Nuclear Physics A'
-    openalex_id: W1976842705
     sources: [openalex]
     no_arxiv: true
   - id: 'doi:10.1088/0305-4470/39/39/e01'

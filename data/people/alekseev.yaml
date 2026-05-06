@@ -133,8 +133,8 @@ key_collaborators:
   topic: Kashiwara-Vergne, WKB
   papers_count: 2
 activity:
-  total_papers: 69
-  published_count: 54
+  total_papers: 68
+  published_count: 53
   preprint_only_count: 15
   h_index: 26
   active_period: '1991-present'
@@ -338,15 +338,6 @@ publications:
     doi: '10.1142/s0129055x18400019'
     primary_category: hep-th
     sources: [arxiv]
-  - id: 'doi:10.1007/978-3-030-02846-6_9'
-    title: 'Art Critics and Art Producers: Interaction Through the Text'
-    year: 2018
-    coauthors: ['Anastasiia Menshikova', 'Daria Maglevanaya', 'Margarita Kuleva', 'Sofia Bogdanova']
-    doi: '10.1007/978-3-030-02846-6_9'
-    journal: 'Communications in computer and information science'
-    openalex_id: W2899621660
-    sources: [openalex]
-    no_arxiv: true
   - id: 'doi:10.24350/cirm.v.19464603'
     title: 'Poisson-Lie duality and Langlands duality via Bohr-Sommerfeld'
     year: 2018

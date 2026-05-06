@@ -164,15 +164,6 @@ publications:
     primary_category: math.AG
     openalex_id: W4323650706
     sources: [arxiv, openalex]
-  - id: 'doi:10.1016/j.snb.2023.133662'
-    title: 'Surface states modulation of topological insulator Bi2Se3 by noble metal decoration for gas sensing kinetic engineering'
-    year: 2023
-    coauthors: ['Bingsheng Du', 'Yijie Shi', 'Xiaohui Lin', 'Chengyao Liang', 'Xuezheng Guo', 'Yiling Tan', 'Wen Niu', 'Chengzong Min', 'Shuren Cong', 'Gang Meng', 'Xi Yang', 'Yong He']
-    doi: '10.1016/j.snb.2023.133662'
-    journal: 'Sensors and Actuators B Chemical'
-    openalex_id: W4327703256
-    sources: [openalex]
-    no_arxiv: true
   - id: '2210.06880'
     title: 'Asymptotics for real monotone double Hurwitz numbers'
     year: 2022
@@ -181,33 +172,6 @@ publications:
     primary_category: math.AG
     openalex_id: W4306309377
     sources: [arxiv, openalex]
-  - id: 'doi:10.1039/d2tc03583a'
-    title: 'Copper-based metal oxides for chemiresistive gas sensors'
-    year: 2022
-    coauthors: ['Xuezheng Guo', 'Yong Zhou', 'Yong He', 'Zhigang Zang']
-    doi: '10.1039/d2tc03583a'
-    journal: 'Journal of Materials Chemistry C'
-    openalex_id: W4312688798
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1039/d2ta04317c'
-    title: 'Indium-doping-induced selenium vacancy engineering of layered tin diselenide for improving room-temperature sulfur dioxide gas sensing'
-    year: 2022
-    coauthors: ['Xuezheng Guo', 'Yijie Shi', 'Yuhui He', 'Bingsheng Du', 'Chengyao Liang', 'Yiling Tan', 'Peilin Liu', 'Xiangshui Miao', 'Yong He', 'Xi Yang']
-    doi: '10.1039/d2ta04317c'
-    journal: 'Journal of Materials Chemistry A'
-    openalex_id: W4312815314
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1039/d1tc00391g'
-    title: 'Low-operating temperature ammonia sensor based on Cu<sub>2</sub>O nanoparticles decorated with p-type MoS<sub>2</sub>nanosheets'
-    year: 2021
-    coauthors: ['Xuezheng Guo', 'Bingsheng Du', 'Xiaofei Hu', 'Xi Yang', 'Yong He', 'Yong Zhou', 'Zhigang Zang']
-    doi: '10.1039/d1tc00391g'
-    journal: 'Journal of Materials Chemistry C'
-    openalex_id: W3138133409
-    sources: [openalex]
-    no_arxiv: true
   - id: '2010.00899'
     title: 'On the lower bounds for real double Hurwitz numbers'
     year: 2020
@@ -258,15 +222,6 @@ publications:
     primary_category: math.SG
     openalex_id: W2964106939
     sources: [arxiv, openalex]
-  - id: 'doi:10.1016/j.jallcom.2016.10.054'
-    title: 'Comparative study on the capacity degradation behavior of Pr5Co19-type single-phase Pr4MgNi19 and La4MgNi19 alloys'
-    year: 2016
-    coauthors: ['Yumeng Zhao', 'Lu Zhang', 'Juan Cao', 'Zeru Jia', 'Chunping Ma', 'Yuan Li', 'Shumin Han']
-    doi: '10.1016/j.jallcom.2016.10.054'
-    journal: 'Journal of Alloys and Compounds'
-    openalex_id: W2531802486
-    sources: [openalex]
-    no_arxiv: true
   - id: '1504.07111'
     title: 'The Weinstein Conjecture in Product of Symplectic Manifolds'
     year: 2015
@@ -276,15 +231,6 @@ publications:
     primary_category: math.SG
     openalex_id: W1913596887
     sources: [arxiv, openalex]
-  - id: 'doi:10.1149/2.0981510jes'
-    title: 'Effect of Nd on Subunits Structure and Electrochemical Properties of Super-Stacking PuNi<sub>3</sub>-Type La–Mg–Ni-Based Alloys'
-    year: 2015
-    coauthors: ['Lu Zhang', 'Shengbiao Cao', 'Yuan Li', 'Yumeng Zhao', 'Wenkai Du', 'Shumin Han']
-    doi: '10.1149/2.0981510jes'
-    journal: 'Journal of The Electrochemical Society'
-    openalex_id: W2560265063
-    sources: [openalex]
-    no_arxiv: true
   - id: 'openalex:W4289950356'
     title: 'Definition of Multi-State Weighted k-out-of-n: F System'
     year: 2012
@@ -293,8 +239,8 @@ publications:
     sources: [openalex]
     no_arxiv: true
 activity:
-  total_papers: 21
-  published_count: 16
+  total_papers: 15
+  published_count: 10
   preprint_only_count: 5
   active_period: '2015-present'
   peak_period: '2023-present'

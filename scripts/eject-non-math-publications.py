@@ -14,7 +14,7 @@ PEOPLE_DIR = ROOT / 'data/people'
 
 HERE = Path(__file__).parent
 sys.path.insert(0, str(HERE))
-from non_math_keywords import is_non_math_title
+from non_math_keywords import is_non_math
 import importlib.util
 _spec = importlib.util.spec_from_file_location(
     'canon', str(HERE / 'canonicalize-publications.py'))
@@ -26,8 +26,9 @@ replace_block = _canon.replace_block
 is_published = _canon.is_published
 
 
-def is_non_math(title):
-    return is_non_math_title(title)
+def check(p):
+    """Returns (kind, evidence) or None — paper is judged non-math."""
+    return is_non_math(title=p.get('title'), journal=p.get('journal'))
 
 
 def main(apply=False):
@@ -44,7 +45,7 @@ def main(apply=False):
         for p in pubs:
             if not isinstance(p, dict):
                 keep.append(p); continue
-            kw = is_non_math(p.get('title') or '')
+            kw = check(p)
             if kw:
                 eject.append((p, kw))
             else:
