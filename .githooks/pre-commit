@@ -1,0 +1,14 @@
+#!/bin/sh
+# Pre-commit gate: run schema/SSOT lint + smoke build before allowing commit.
+# Install: cp .githooks/pre-commit .git/hooks/pre-commit && chmod +x .git/hooks/pre-commit
+# Or: git config core.hooksPath .githooks
+
+set -e
+
+# Only run when YAML data files are touched
+if git diff --cached --name-only | grep -qE '^data/(people|institutions|connections|conferences|papers|concepts)/'; then
+    echo "→ data/ files staged; running lint guard..."
+    python3 scripts/build-people-names.py >/dev/null
+    python3 scripts/build-institution-names.py >/dev/null
+    python3 scripts/lint-data.py
+fi

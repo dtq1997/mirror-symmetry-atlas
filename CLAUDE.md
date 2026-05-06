@@ -2,6 +2,20 @@
 
 镜像对称及相关领域的交互式知识平台。
 
+## ⚠️ 任何修改 yaml 前必读
+
+**改 `data/people/*.yaml` / `data/institutions/*.yaml` / 其他 data/ 文件之前，必须先读 `CONTRIBUTING.md`。**
+
+那份文档列了所有踩过的坑（substring 名字误绑、OpenAlex 同名 profile 错合并、7 位 legacy arxiv id 撞档、raw name→slug 推断、Period 解析失败、机构 slug 未建档…），以及完整的加新人物/改信息流程。
+
+**强制守门**: `pnpm build` 自动跑 `python3 scripts/lint-data.py`，违反 SSOT/schema 立即失败。任何 yaml 改动后必须 build 通过才提交。
+
+**最终自查**:
+1. `pnpm build` → 0 errors
+2. dev server 看页面：履历按时间排、合作者中文名、机构中文名
+3. 论文标题目视扫一遍：发现非数学论文 → 加进 `scripts/non_math_keywords.py`
+4. 跑 `python3 scripts/audit-missing-papers.py --slug ${slug}` 查是否漏了真论文
+
 ## 核心规则
 
 ### 语言
