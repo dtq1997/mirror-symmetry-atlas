@@ -1,0 +1,1115 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/eF/V1TQQagOeU5yjAIZB3h630dI</id>
+  <title>arXiv Query: search_query=au:"Qin Li" AND (cat:math.AG OR cat:math.AT OR cat:math.AP OR cat:math.CT OR cat:math.CA OR cat:math.CO OR cat:math.DG OR cat:math.DS OR cat:math.FA OR cat:math.GT OR cat:math.MP OR cat:math.OA OR cat:math.PR OR cat:math.QA OR cat:math.RA OR cat:math.RT OR cat:math.SG OR cat:math.SP OR cat:math.ST OR cat:math.NT OR cat:math.GR OR cat:math.HO OR cat:math-ph OR cat:nlin.SI OR cat:nlin.CD OR cat:hep-th OR cat:q-alg OR cat:dg-ga OR cat:alg-geom OR cat:cond-mat.stat-mech)&amp;id_list=&amp;start=0&amp;max_results=200</title>
+  <updated>2026-05-06T07:29:25Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=au:%22Qin+Li%22+AND+(cat:math.AG+OR+(cat:math.AT+OR+(cat:math.AP+OR+(cat:math.CT+OR+(cat:math.CA+OR+(cat:math.CO+OR+(cat:math.DG+OR+(cat:math.DS+OR+(cat:math.FA+OR+(cat:math.GT+OR+(cat:math.MP+OR+(cat:math.OA+OR+(cat:math.PR+OR+(cat:math.QA+OR+(cat:math.RA+OR+(cat:math.RT+OR+(cat:math.SG+OR+(cat:math.SP+OR+(cat:math.ST+OR+(cat:math.NT+OR+(cat:math.GR+OR+(cat:math.HO+OR+(cat:math-ph+OR+(cat:nlin.SI+OR+(cat:nlin.CD+OR+(cat:hep-th+OR+(cat:q-alg+OR+(cat:dg-ga+OR+(cat:alg-geom+OR+cat:cond-mat.stat-mech)))))))))))))))))))))))))))))&amp;start=0&amp;max_results=200&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>200</opensearch:itemsPerPage>
+  <opensearch:totalResults>47</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1502.03510v3</id>
+    <title>BV quantization of the Rozansky-Witten model</title>
+    <updated>2017-05-02T01:59:21Z</updated>
+    <link href="https://arxiv.org/abs/1502.03510v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1502.03510v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We investigate the perturbative aspects of Rozansky-Witten's 3d $σ$-model using Costello's approach to the Batalin-Vilkovisky (BV) formalism. We show that the BV quantization (in Costello's sense) of the model, which produces a perturbative quantum field theory, can be obtained via the configuration space method of regularization due to Kontsevich and Axelrod-Singer. We also study the factorization algebra structure for quantum observables following Costello-Gwilliam. In particular, we show that the cohomology of local quantum observables on a genus $g$ handle body is given by $H^*(X,(\wedge^*T_X)^{\otimes g})$ (where $X$ is the target manifold), and prove that the partition function reproduces the Rozansky-Witten invariants.</summary>
+    <category term="math.QA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.GT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-02-12T02:13:52Z</published>
+    <arxiv:comment>51 pages, 27 figures. v3: minor modifications, references added, final version to appear in CMP</arxiv:comment>
+    <arxiv:primary_category term="math.QA"/>
+    <arxiv:journal_ref>Comm. Math. Phys. 355 (2017), no. 1, 97-144</arxiv:journal_ref>
+    <author>
+      <name>Kwokwai Chan</name>
+    </author>
+    <author>
+      <name>Naichung Conan Leung</name>
+    </author>
+    <author>
+      <name>Qin Li</name>
+    </author>
+    <arxiv:doi>10.1007/s00220-017-2924-8</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s00220-017-2924-8" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1507.01812v2</id>
+    <title>Batalin-Vilkovisky quantization and the algebraic index</title>
+    <updated>2017-05-15T17:14:29Z</updated>
+    <link href="https://arxiv.org/abs/1507.01812v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1507.01812v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Into a geometric setting, we import the physical interpretation of index theorems via semi-classical analysis in topological quantum field theory. We develop a direct relationship between Fedosov's deformation quantization of a symplectic manifold X and the BV quantization of a one-dimensional sigma model with target X. This model is a quantum field theory of AKSZ type and is quantized rigorously using Costello's homotopic theory of effective renormalization. We show that Fedosov's Abelian connections on the Weyl bundle produce solutions to the effective quantum master equation. Moreover, BV integration produces a natural trace map on the deformation quantized algebra. This formulation allows us to exploit a (rigorous) localization argument in quantum field theory to deduce the algebraic index theorem via semi-classical analysis, i.e., one-loop Feynman diagram computations.</summary>
+    <category term="math.QA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-07-07T14:01:37Z</published>
+    <arxiv:comment>V2: Significant re-write, 51 pages, 9 figures</arxiv:comment>
+    <arxiv:primary_category term="math.QA"/>
+    <arxiv:journal_ref>Advances in Mathematics 317 (2017), 575-639</arxiv:journal_ref>
+    <author>
+      <name>Ryan E. Grady</name>
+    </author>
+    <author>
+      <name>Qin Li</name>
+    </author>
+    <author>
+      <name>Si Li</name>
+    </author>
+    <arxiv:doi>10.1016/j.aim.2017.07.007</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.aim.2017.07.007" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1310.1875v1</id>
+    <title>Cardy algebras and sewing constraints, II</title>
+    <updated>2013-10-07T18:15:10Z</updated>
+    <link href="https://arxiv.org/abs/1310.1875v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1310.1875v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This is the part II of a two-part work started in arXiv:0807.3356 [math.QA]. In part I, Cardy algebras were studied, a notion which arises from the classification of genus-0,1 open-closed rational conformal field theories. In this part, we prove that a Cardy algebra also satisfies the higher genus factorisation and modular-invariance properties formulated in arXiv:hep-th/0612306 in terms of the notion of a solution to the sewing constraints. We present the proof by showing that the latter notion, which is defined as a monoidal natural transformation, can be expressed in terms of generators and relations, which correspond exactly to the defining data and axioms of a Cardy algebra.</summary>
+    <category term="math.QA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-10-07T18:15:10Z</published>
+    <arxiv:comment>79 pages, 244 figures, comments are welcome</arxiv:comment>
+    <arxiv:primary_category term="math.QA"/>
+    <arxiv:journal_ref>Advances in Mathematics 262 (2014) 604-681</arxiv:journal_ref>
+    <author>
+      <name>Liang Kong</name>
+    </author>
+    <author>
+      <name>Qin Li</name>
+    </author>
+    <author>
+      <name>Ingo Runkel</name>
+    </author>
+    <arxiv:doi>10.1016/j.aim.2014.05.020</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.aim.2014.05.020" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2008.11496v2</id>
+    <title>Bargmann-Fock sheaves on Kähler manifolds</title>
+    <updated>2021-12-03T02:13:54Z</updated>
+    <link href="https://arxiv.org/abs/2008.11496v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2008.11496v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Fedosov used flat sections of the Weyl bundle on a symplectic manifold to construct a star product $\star$ which gives rise to a deformation quantization. By extending Fedosov's method, we give an explicit, analytic construction of a sheaf of Bargmann-Fock modules over the Weyl bundle of a Kähler manifold $X$ equipped with a compatible Fedosov abelian connection, and show that the sheaf of flat sections forms a module sheaf over the sheaf of deformation quantization algebras defined $(C^\infty_X[[\hbar]], \star)$. This sheaf can be viewed as the $\hbar$-expansion of $L^{\otimes k}$ as $k \to \infty$, where $L$ is a prequantum line bundle on $X$ and $\hbar = 1/k$.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.QA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-08-26T11:23:08Z</published>
+    <arxiv:comment>27 pages; v2: published version</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <arxiv:journal_ref>Comm. Math. Phys. 388 (2021), no. 3, 1297-1322</arxiv:journal_ref>
+    <author>
+      <name>Kwokwai Chan</name>
+    </author>
+    <author>
+      <name>Naichung Conan Leung</name>
+    </author>
+    <author>
+      <name>Qin Li</name>
+    </author>
+    <arxiv:doi>10.1007/s00220-021-04251-3</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s00220-021-04251-3" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2308.10697v3</id>
+    <title>Beyond expectations: Residual Dynamic Mode Decomposition and Variance for Stochastic Dynamical Systems</title>
+    <updated>2023-11-10T13:19:10Z</updated>
+    <link href="https://arxiv.org/abs/2308.10697v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2308.10697v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Koopman operators linearize nonlinear dynamical systems, making their spectral information of crucial interest. Numerous algorithms have been developed to approximate these spectral properties, and Dynamic Mode Decomposition (DMD) stands out as the poster child of projection-based methods. Although the Koopman operator itself is linear, the fact that it acts in an infinite-dimensional space of observables poses challenges. These include spurious modes, essential spectra, and the verification of Koopman mode decompositions. While recent work has addressed these challenges for deterministic systems, there remains a notable gap in verified DMD methods for stochastic systems, where the Koopman operator measures the expectation of observables. We show that it is necessary to go beyond expectations to address these issues. By incorporating variance into the Koopman framework, we address these challenges. Through an additional DMD-type matrix, we approximate the sum of a squared residual and a variance term, each of which can be approximated individually using batched snapshot data. This allows verified computation of the spectral properties of stochastic Koopman operators, controlling the projection error. We also introduce the concept of variance-pseudospectra to gauge statistical coherency. Finally, we present a suite of convergence results for the spectral information of stochastic Koopman operators. Our study concludes with practical applications using both simulated and experimental data. In neural recordings from awake mice, we demonstrate how variance-pseudospectra can reveal physiologically significant information unavailable to standard expectation-based dynamical models.</summary>
+    <category term="math.DS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nlin.CD" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-08-21T13:05:12Z</published>
+    <arxiv:primary_category term="math.DS"/>
+    <author>
+      <name>Matthew J. Colbrook</name>
+    </author>
+    <author>
+      <name>Qin Li</name>
+    </author>
+    <author>
+      <name>Ryan V. Raut</name>
+    </author>
+    <author>
+      <name>Alex Townsend</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1402.7000v1</id>
+    <title>On the B-twisted topological sigma model and Calabi-Yau geometry</title>
+    <updated>2014-02-27T18:30:57Z</updated>
+    <link href="https://arxiv.org/abs/1402.7000v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1402.7000v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We provide a rigorous perturbative quantization of the B-twisted topological sigma model via a first order quantum field theory on derived mapping space in the formal neighborhood of constant maps. We prove that the first Chern class of the target manifold is the obstruction to the quantization via Batalin-Vilkovisky formalism. When the first Chern class vanishes, i.e. on Calabi-Yau manifolds, the factorization algebra of observables gives rise to the expected topological correlation functions in the B-model. We explain a twisting procedure to generalize to the Landau-Ginzburg case, and show that the resulting topological correlations coincide with Vafa's residue formula.</summary>
+    <category term="math.QA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-02-27T18:30:57Z</published>
+    <arxiv:comment>73 pages. Comments welcome</arxiv:comment>
+    <arxiv:primary_category term="math.QA"/>
+    <arxiv:journal_ref>J.Diff.Geom. (2016)</arxiv:journal_ref>
+    <author>
+      <name>Qin Li</name>
+    </author>
+    <author>
+      <name>Si Li</name>
+    </author>
+    <arxiv:doi>10.4310/jdg/1456754015</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.4310/jdg/1456754015" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2410.11311v1</id>
+    <title>Symmetry in Deformation quantization and Geometric quantization</title>
+    <updated>2024-10-15T06:15:17Z</updated>
+    <link href="https://arxiv.org/abs/2410.11311v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2410.11311v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we explore the quantization of Kähler manifolds, focusing on the relationship between deformation quantization and geometric quantization. We provide a classification of degree 1 formal quantizable functions in the Berezin-Toeplitz deformation quantization, establishing that these formal functions are of the form $f = f_0 - \frac{\hbar}{4π}(Δf_0 + c)$ for a certain smooth (non-formal) function $f_0$. If $f_0$ is real-valued then $f_0$ corresponds to a Hamiltonian Killing vector field. In the presence of Hamiltonian $G$-symmetry, we address the compatibility between the infinitesimal symmetry for deformation quantization via quantum moment map and infinitesimal symmetry on geometric quantization acting on Hilbert spaces of holomorphic sections via Berezin-Toeplitz quantization.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.QA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-10-15T06:15:17Z</published>
+    <arxiv:primary_category term="math.DG"/>
+    <author>
+      <name>Naichung Conan Leung</name>
+    </author>
+    <author>
+      <name>Qin Li</name>
+    </author>
+    <author>
+      <name>Ziming Nikolas Ma</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2009.03690v2</id>
+    <title>Quantization of Kähler manifolds</title>
+    <updated>2021-06-01T03:03:37Z</updated>
+    <link href="https://arxiv.org/abs/2009.03690v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2009.03690v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This is a survey on our recent works which reveal new relationships among deformation quantization, geometric quantization, Berezin-Toeplitz quantization and BV quantization on Kähler manifolds.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.QA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-09-07T07:22:21Z</published>
+    <arxiv:comment>21 pages; v2: final version. arXiv admin note: text overlap with arXiv:2008.11496</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <arxiv:journal_ref>J. Geom. Phys. 163 (2021), 104143, 13 pp</arxiv:journal_ref>
+    <author>
+      <name>Kwokwai Chan</name>
+    </author>
+    <author>
+      <name>Naichung Conan Leung</name>
+    </author>
+    <author>
+      <name>Qin Li</name>
+    </author>
+    <arxiv:doi>10.1016/j.geomphys.2021.104143</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.geomphys.2021.104143" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2001.10869v3</id>
+    <title>A geometric construction of representations of the Berezin-Toeplitz quantization</title>
+    <updated>2022-10-25T01:41:24Z</updated>
+    <link href="https://arxiv.org/abs/2001.10869v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2001.10869v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>For a Kähler manifold $X$ equipped with a prequantum line bundle $L$, we give a geometric construction of a family of representations of the Berezin-Toeplitz deformation quantization algebra $(C^\infty(X)[[\hbar]],\star_{BT})$ parametrized by points $z_0 \in X$. The key idea is to use peak sections to suitably localize the Hilbert spaces $H^{0}\left(X,L^{\otimes m}\right)$ around $z_{0}$ in the large volume limit.</summary>
+    <category term="math.QA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-01-29T14:44:30Z</published>
+    <arxiv:comment>28 pages, 1 figure; v3: published version</arxiv:comment>
+    <arxiv:primary_category term="math.QA"/>
+    <arxiv:journal_ref>Adv. Theor. Math. Phys. 26 (2022), no. 1, 1-36</arxiv:journal_ref>
+    <author>
+      <name>Kwokwai Chan</name>
+    </author>
+    <author>
+      <name>Naichung Conan Leung</name>
+    </author>
+    <author>
+      <name>Qin Li</name>
+    </author>
+    <arxiv:doi>10.4310/ATMP.2022.v26.n1.a1</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.4310/ATMP.2022.v26.n1.a1" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2511.16889v1</id>
+    <title>Berezin-Toeplitz quantization revisited</title>
+    <updated>2025-11-21T02:10:48Z</updated>
+    <link href="https://arxiv.org/abs/2511.16889v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2511.16889v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This is a sequel to a series of works, where we studied the local aspects of the asymptotic action of deformation quantization on the Hilbert spaces $H^0(X, L^{\otimes k})$ of geometric quantization for a Kähler manifold $X$; here $L$ is a pre-quantum line bundle on $X$. In this paper, we consider the Berezin-Toeplitz deformation quantization and obtain the following global results concerning the asymptotic action of Berezin-Toeplitz operators on $H^0(X, L^{\otimes k})$:
+  (1). For a general smooth function $f \in C^\infty(X)$, we prove that the Berezin-Toeplitz operators $T_{f,k}$ are asymptotic to differential operators acting on $H^0(X, L^{\otimes k})$ as $k \to \infty$. An immediate consequence is their asymptotic locality.
+  (2). If $f \in C^\infty(X)$ is furthermore the symbol of a level $k$ quantizable function, then we prove that the associated Berezin-Toeplitz operators $T_{f,k}$ are all holomorphic differential operators. Conversely, Berezin-Toeplitz operators that are holomorphic differential operators all arise in this way. This gives a complete characterization of when Berezin-Toeplitz operators are holomorphic differential operators.
+  To prove these results, we construct higher order analgoues of Kostant-Souriau's pre-quantum differential operators using our Fedosov-type constructions in previous works, establish new orthogonality relations which generalize the classical Tuynman's Lemma, and employ various differential-geometric and analytic technqiues such as Hörmander's estimates.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.QA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-11-21T02:10:48Z</published>
+    <arxiv:primary_category term="math.DG"/>
+    <author>
+      <name>Kwokwai Chan</name>
+    </author>
+    <author>
+      <name>Naichung Conan Leung</name>
+    </author>
+    <author>
+      <name>Qin Li</name>
+    </author>
+    <author>
+      <name>Yutung Yau</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2008.07057v2</id>
+    <title>Kapranov's $L_\infty$ structures, Fedosov's star products, and one-loop exact BV quantizations on Kähler manifolds</title>
+    <updated>2022-04-29T08:29:51Z</updated>
+    <link href="https://arxiv.org/abs/2008.07057v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2008.07057v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study quantization schemes on a Kähler manifold and relate several interesting structures. We first construct Fedosov's star products on a Kähler manifold $X$ as quantizations of Kapranov's $L_\infty$-algebra structure. Then we investigate the Batalin-Vilkovisky (BV) quantizations associated to these star products. A remarkable feature is that they are all one-loop exact, meaning that the Feynman weights associated to graphs with two or more loops all vanish. This leads to a succinct cochain level formula in de Rham cohomology for the algebraic index.</summary>
+    <category term="math.QA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-08-17T01:56:47Z</published>
+    <arxiv:comment>42 pages; v2, published version</arxiv:comment>
+    <arxiv:primary_category term="math.QA"/>
+    <arxiv:journal_ref>Commun. Number Theory Phys. 16 (2022), no. 2, 299-351</arxiv:journal_ref>
+    <author>
+      <name>Kwokwai Chan</name>
+    </author>
+    <author>
+      <name>Naichung Conan Leung</name>
+    </author>
+    <author>
+      <name>Qin Li</name>
+    </author>
+    <arxiv:doi>10.4310/CNTP.2022.v16.n2.a2</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.4310/CNTP.2022.v16.n2.a2" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2110.13787v2</id>
+    <title>Multiscale convergence of the inverse problem for chemotaxis in the Bayesian setting</title>
+    <updated>2021-12-06T15:32:15Z</updated>
+    <link href="https://arxiv.org/abs/2110.13787v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2110.13787v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Chemotaxis describes the movement of an organism, such as single or multi-cellular organisms and bacteria, in response to a chemical stimulus. Two widely used models to describe the phenomenon are the celebrated Keller-Segel equation and a chemotaxis kinetic equation. These two equations describe the organism movement at the macro- and mesoscopic level respectively, and are asymptotically equivalent in the parabolic regime. How the organism responds to a chemical stimulus is embedded in the diffusion/advection coefficients of the Keller-Segel equation or the turning kernel of the chemotaxis kinetic equation. Experiments are conducted to measure the time dynamics of the organisms' population level movement when reacting to certain stimulation. From this one infers the chemotaxis response, which constitutes an inverse problem. \\ In this paper we discuss the relation between both the macro- and mesoscopic inverse problems, each of which is associated to two different forward models. The discussion is presented in the Bayesian framework, where the posterior distribution of the turning kernel of the organism population is sought after. We prove the asymptotic equivalence of the two posterior distributions.</summary>
+    <category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-bio.QM" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-10-26T15:41:44Z</published>
+    <arxiv:primary_category term="math.AP"/>
+    <arxiv:journal_ref>Computation 9, no. 11: 119 (2021)</arxiv:journal_ref>
+    <author>
+      <name>Kathrin Hellmuth</name>
+    </author>
+    <author>
+      <name>Christian Klingenberg</name>
+    </author>
+    <author>
+      <name>Qin Li</name>
+    </author>
+    <author>
+      <name>Min Tang</name>
+    </author>
+    <arxiv:doi>10.3390/computation9110119</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.3390/computation9110119" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2210.02008v2</id>
+    <title>Quantizable functions on Kähler manifolds and non-formal quantization</title>
+    <updated>2023-08-28T01:52:03Z</updated>
+    <link href="https://arxiv.org/abs/2210.02008v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2210.02008v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Applying the Fedosov connections constructed in our previous work, we find a (dense) subsheaf of smooth functions on a Kähler manifold $X$ which admits a non-formal deformation quantization. When $X$ is prequantizable and the Fedosov connection satisfies an integrality condition, we prove that this subsheaf of functions can be quantized to a sheaf of twisted differential operators (TDO), which is isomorphic to that associated to the prequantum line bundle. We also show that examples of such quantizable functions are given by images of quantum moment maps.</summary>
+    <category term="math.QA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-10-05T03:40:56Z</published>
+    <arxiv:comment>28 pages; v2: final version to appear in Adv. Math</arxiv:comment>
+    <arxiv:primary_category term="math.QA"/>
+    <arxiv:journal_ref>Adv. Math. 433 (2023), 109293, 34 pp</arxiv:journal_ref>
+    <author>
+      <name>Kwokwai Chan</name>
+    </author>
+    <author>
+      <name>Naichung Conan Leung</name>
+    </author>
+    <author>
+      <name>Qin Li</name>
+    </author>
+    <arxiv:doi>10.1016/j.aim.2023.109293</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.aim.2023.109293" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2501.09097v1</id>
+    <title>Least-Squares Problem Over Probability Measure Space</title>
+    <updated>2025-01-15T19:30:48Z</updated>
+    <link href="https://arxiv.org/abs/2501.09097v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2501.09097v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this work, we investigate the variational problem $$ρ_x^\ast = \text{argmin}_{ρ_x} D(G\#ρ_x, ρ_y)\,, $$ where $D$ quantifies the difference between two probability measures, and ${G}$ is a forward operator that maps a variable $x$ to $y=G(x)$. This problem can be regarded as an analogue of its counterpart in linear spaces (e.g., Euclidean spaces), $\text{argmin}_x \|G(x) - y\|^2$. Similar to how the choice of norm $\|\cdot\|$ influences the optimizer in $\mathbb R^d$ or other linear spaces, the minimizer in the probabilistic variational problem also depends on the choice of $D$. Our findings reveal that using a $φ$-divergence for $D$ leads to the recovery of a conditional distribution of $ρ_y$, while employing the Wasserstein distance results in the recovery of a marginal distribution.</summary>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-01-15T19:30:48Z</published>
+    <arxiv:comment>5 pages, 0 figures</arxiv:comment>
+    <arxiv:primary_category term="math.OC"/>
+    <author>
+      <name>Qin Li</name>
+    </author>
+    <author>
+      <name>Li Wang</name>
+    </author>
+    <author>
+      <name>Yunan Yang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2006.06068v4</id>
+    <title>Variance reduction for Random Coordinate Descent-Langevin Monte Carlo</title>
+    <updated>2020-10-22T01:18:23Z</updated>
+    <link href="https://arxiv.org/abs/2006.06068v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2006.06068v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Sampling from a log-concave distribution function is one core problem that has wide applications in Bayesian statistics and machine learning. While most gradient free methods have slow convergence rate, the Langevin Monte Carlo (LMC) that provides fast convergence requires the computation of gradients. In practice one uses finite-differencing approximations as surrogates, and the method is expensive in high-dimensions.
+  A natural strategy to reduce computational cost in each iteration is to utilize random gradient approximations, such as random coordinate descent (RCD) or simultaneous perturbation stochastic approximation (SPSA). We show by a counter-example that blindly applying RCD does not achieve the goal in the most general setting. The high variance induced by the randomness means a larger number of iterations are needed, and this balances out the saving in each iteration.
+  We then introduce a new variance reduction approach, termed Randomized Coordinates Averaging Descent (RCAD), and incorporate it with both overdamped and underdamped LMC. The methods are termed RCAD-O-LMC and RCAD-U-LMC respectively. The methods still sit in the random gradient approximation framework, and thus the computational cost in each iteration is low. However, by employing RCAD, the variance is reduced, so the methods converge within the same number of iterations as the classical overdamped and underdamped LMC. This leads to a computational saving overall.</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-06-10T21:08:38Z</published>
+    <arxiv:primary_category term="stat.ML"/>
+    <author>
+      <name>Zhiyan Ding</name>
+    </author>
+    <author>
+      <name>Qin Li</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2011.00568v2</id>
+    <title>Manifold Learning and Nonlinear Homogenization</title>
+    <updated>2021-11-08T19:22:17Z</updated>
+    <link href="https://arxiv.org/abs/2011.00568v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2011.00568v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We describe an efficient domain decomposition-based framework for nonlinear multiscale PDE problems. The framework is inspired by manifold learning techniques and exploits the tangent spaces spanned by the nearest neighbors to compress local solution manifolds. Our framework is applied to a semilinear elliptic equation with oscillatory media and a nonlinear radiative transfer equation; in both cases, significant improvements in efficacy are observed. This new method does not rely on detailed analytical understanding of the multiscale PDEs, such as their asymptotic limits, and thus is more versatile for general multiscale problems.</summary>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-11-01T17:27:27Z</published>
+    <arxiv:primary_category term="math.NA"/>
+    <author>
+      <name>Shi Chen</name>
+    </author>
+    <author>
+      <name>Qin Li</name>
+    </author>
+    <author>
+      <name>Jianfeng Lu</name>
+    </author>
+    <author>
+      <name>Stephen J. Wright</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2012.13833v2</id>
+    <title>Semi-classical limit of an inverse problem for the Schrödinger equation</title>
+    <updated>2021-02-17T22:27:05Z</updated>
+    <link href="https://arxiv.org/abs/2012.13833v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2012.13833v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>It is a classical derivation that the Wigner equation, derived from the Schrödinger equation that contains the quantum information, converges to the Liouville equation when the rescaled Planck constant $ε\to0$. Since the latter presents the Newton's second law, the process is typically termed the (semi-)classical limit. In this paper, we study the classical limit of an inverse problem for the Schrödinger equation. More specifically, we show that using the initial condition and final state of the Schrödinger equation to reconstruct the potential term, in the classical regime with $ε\to0$, becomes using the initial and final state to reconstruct the potential term in the Liouville equation. This formally bridges an inverse problem in quantum mechanics with an inverse problem in classical mechanics.</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-12-26T23:50:38Z</published>
+    <arxiv:primary_category term="math-ph"/>
+    <author>
+      <name>Shi Chen</name>
+    </author>
+    <author>
+      <name>Qin Li</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1909.11290v4</id>
+    <title>Structured random sketching for PDE inverse problems</title>
+    <updated>2020-06-02T19:41:56Z</updated>
+    <link href="https://arxiv.org/abs/1909.11290v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1909.11290v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>For an overdetermined system $\mathsf{A}\mathsf{x} \approx \mathsf{b}$ with $\mathsf{A}$ and $\mathsf{b}$ given, the least-square (LS) formulation $\min_x \, \|\mathsf{A}\mathsf{x}-\mathsf{b}\|_2$ is often used to find an acceptable solution $\mathsf{x}$. The cost of solving this problem depends on the dimensions of $\mathsf{A}$, which are large in many practical instances. This cost can be reduced by the use of random sketching, in which we choose a matrix $\mathsf{S}$ with fewer rows than $\mathsf{A}$ and $\mathsf{b}$, and solve the sketched LS problem $\min_x \, \|\mathsf{S}(\mathsf{A} \mathsf{x}-\mathsf{b})\|_2$ to obtain an approximate solution to the original LS problem. Significant theoretical and practical progress has been made in the last decade in designing the appropriate structure and distribution for the sketching matrix $\mathsf{S}$. When $\mathsf{A}$ and $\mathsf{b}$ arise from discretizations of a PDE-based inverse problem, tensor structure is often present in $\mathsf{A}$ and $\mathsf{b}$. For reasons of practical efficiency, $\mathsf{S}$ should be designed to have a structure consistent with that of $\mathsf{A}$. Can we claim similar approximation properties for the solution of the sketched LS problem with structured $\mathsf{S}$ as for fully-random $\mathsf{S}$? We give estimates that relate the quality of the solution of the sketched LS problem to the size of the structured sketching matrices, for two different structures. Our results are among the first known for random sketching matrices whose structure is suitable for use in PDE inverse problems.</summary>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-09-25T05:14:36Z</published>
+    <arxiv:comment>change blue-marked texts to black</arxiv:comment>
+    <arxiv:primary_category term="math.NA"/>
+    <author>
+      <name>Ke Chen</name>
+    </author>
+    <author>
+      <name>Qin Li</name>
+    </author>
+    <author>
+      <name>Kit Newton</name>
+    </author>
+    <author>
+      <name>Steve Wright</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1606.01311v3</id>
+    <title>Validity and regularization of classical half-space equations</title>
+    <updated>2016-12-01T03:21:31Z</updated>
+    <link href="https://arxiv.org/abs/1606.01311v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1606.01311v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent result [Wu and Guo, Comm. Math. Phys., 2015] has shown that over the 2D unit disk, the classical half-space equation (CHS) for the neutron transport does not capture the correct boundary layer behaviour as long believed. In this paper we develop a regularization technique for CHS to any arbitrary order and use its first-order regularization to show that in the case of the 2D unit disk, although CHS misrepresents the boundary layer behaviour, it does give the correct boundary condition for the interior macroscopic (Laplace) equation. Therefore CHS is still a valid equation to recover the correct boundary condition for the interior Laplace equation over the 2D unit disk.</summary>
+    <category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-06-04T00:33:41Z</published>
+    <arxiv:primary_category term="math.AP"/>
+    <author>
+      <name>Qin Li</name>
+    </author>
+    <author>
+      <name>Jianfeng Lu</name>
+    </author>
+    <author>
+      <name>Weiran Sun</name>
+    </author>
+    <arxiv:doi>10.1007/s10955-016-1688-4</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s10955-016-1688-4" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2410.00229v1</id>
+    <title>Stochastic Inverse Problem: stability, regularization and Wasserstein gradient flow</title>
+    <updated>2024-09-30T20:56:34Z</updated>
+    <link href="https://arxiv.org/abs/2410.00229v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2410.00229v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Inverse problems in physical or biological sciences often involve recovering an unknown parameter that is random. The sought-after quantity is a probability distribution of the unknown parameter, that produces data that aligns with measurements. Consequently, these problems are naturally framed as stochastic inverse problems. In this paper, we explore three aspects of this problem: direct inversion, variational formulation with regularization, and optimization via gradient flows, drawing parallels with deterministic inverse problems. A key difference from the deterministic case is the space in which we operate. Here, we work within probability space rather than Euclidean or Sobolev spaces, making tools from measure transport theory necessary for the study. Our findings reveal that the choice of metric -- both in the design of the loss function and in the optimization process -- significantly impacts the stability and properties of the optimizer.</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-09-30T20:56:34Z</published>
+    <arxiv:primary_category term="stat.ML"/>
+    <author>
+      <name>Qin Li</name>
+    </author>
+    <author>
+      <name>Maria Oprea</name>
+    </author>
+    <author>
+      <name>Li Wang</name>
+    </author>
+    <author>
+      <name>Yunan Yang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2401.13100v3</id>
+    <title>Bayesian sampling using interacting particles</title>
+    <updated>2024-05-13T15:28:48Z</updated>
+    <link href="https://arxiv.org/abs/2401.13100v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2401.13100v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Bayesian sampling is an important task in statistics and machine learning. Over the past decade, many ensemble-type sampling methods have been proposed. In contrast to the classical Markov chain Monte Carlo methods, these new methods deploy a large number of interactive samples, and the communication between these samples is crucial in speeding up the convergence. To justify the validity of these sampling strategies, the concept of interacting particles naturally calls for the mean-field theory. The theory establishes a correspondence between particle interactions encoded in a set of coupled ODEs/SDEs and a PDE that characterizes the evolution of the underlying distribution. This bridges numerical algorithms with the PDE theory used to show convergence in time. Many mathematical machineries are developed to provide the mean-field analysis, and we showcase two such examples: The coupling method and the compactness argument built upon the martingale strategy. The former has been deployed to show the convergence of ensemble Kalman sampler and ensemble Kalman inversion, and the latter will be shown to be immensely powerful in proving the validity of the Vlasov-Boltzmann simulator.</summary>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-01-23T21:25:24Z</published>
+    <arxiv:primary_category term="math.NA"/>
+    <author>
+      <name>Shi Chen</name>
+    </author>
+    <author>
+      <name>Zhiyan Ding</name>
+    </author>
+    <author>
+      <name>Qin Li</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1908.05575v5</id>
+    <title>Ensemble Kalman Inversion: mean-field limit and convergence analysis</title>
+    <updated>2020-07-30T22:03:06Z</updated>
+    <link href="https://arxiv.org/abs/1908.05575v5" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1908.05575v5" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Ensemble Kalman Inversion (EKI) has been a very popular algorithm used in Bayesian inverse problems. It samples particles from a prior distribution, and introduces a motion to move the particles around in pseudo-time. As the pseudo-time goes to infinity, the method finds the minimizer of the objective function, and when the pseudo-time stops at $1$, the ensemble distribution of the particles resembles, in some sense, the posterior distribution in the linear setting. The ideas trace back further to Ensemble Kalman Filter and the associated analysis, but to today, when viewed as a sampling method, why EKI works, and in what sense with what rate the method converges is still largely unknown.
+  In this paper, we analyze the continuous version of EKI, a coupled SDE system, and prove the mean field limit of this SDE system. In particular, we will show that 1. as the number of particles goes to infinity, the empirical measure of particles following SDE converges to the solution to a Fokker-Planck equation in Wasserstein 2-distance with an optimal rate, for both linear and weakly nonlinear case; 2. the solution to the Fokker-Planck equation reconstructs the target distribution in finite time in the linear case.</summary>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-08-15T15:07:55Z</published>
+    <arxiv:primary_category term="math.NA"/>
+    <arxiv:journal_ref>Statistics and Computing 31 (2021)</arxiv:journal_ref>
+    <author>
+      <name>Zhiyan Ding</name>
+    </author>
+    <author>
+      <name>Qin Li</name>
+    </author>
+    <arxiv:doi>10.1007/s11222-020-09976-0</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s11222-020-09976-0" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1808.02071v1</id>
+    <title>Inverse problems for the stationary transport equation in the diffusion scaling</title>
+    <updated>2018-08-06T19:06:47Z</updated>
+    <link href="https://arxiv.org/abs/1808.02071v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1808.02071v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We consider the inverse problem of reconstructing the optical parameters of the radiative transfer equation (RTE) from boundary measurements in the diffusion limit. In the diffusive regime (the Knudsen number $\mathsf{Kn}\ll 1$), the forward problem for the stationary RTE is well approximated by an elliptic equation. However, the connection between the inverse problem for the RTE and the inverse problem for the elliptic equation has not been fully developed. This problem is particularly interesting because the former one is mildly ill-posed , with a Lipschitz type stability estimate, while the latter is well known to be severely ill-posed with a logarithmic type stability estimate. In this paper, we derive stability estimates for the inverse problem for RTE and examine its dependence on $\mathsf{Kn}$. We show that the stability is Lipschitz in all regimes, but the coefficient deteriorates as $e^{\frac{1}{\mathsf{Kn}}}$, making the inverse problem of RTE severely ill-posed when $\mathsf{Kn}$ is small. In this way we connect the two inverse problems. Numerical results agree with the analysis of worsening stability as the Knudsen number gets smaller.</summary>
+    <category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-08-06T19:06:47Z</published>
+    <arxiv:comment>19 pages, 3 figures</arxiv:comment>
+    <arxiv:primary_category term="math.AP"/>
+    <author>
+      <name>Ru-Yu Lai</name>
+    </author>
+    <author>
+      <name>Qin Li</name>
+    </author>
+    <author>
+      <name>Gunther Uhlmann</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2509.07988v2</id>
+    <title>Control of a Uniformly Magnetized Plasma with External Electric Fields</title>
+    <updated>2026-03-17T02:30:45Z</updated>
+    <link href="https://arxiv.org/abs/2509.07988v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2509.07988v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Stabilizing plasma dynamics through externally applied electric and magnetic fields is a fundamental control problem. We study this question for a plasma evolving under a uniform external magnetic field. Although the governing dynamics are nonlinear, a linear analysis based on the Laplace-Fourier transform yields actionable insight. In particular, by controlling the location of the roots of the dispersion relation, we propose a general control strategy that restores stability, with the free-streaming solution recovered as a special case. Numerical experiments for Gaussian equilibria and for the Dory-Guest-Harris instability show that the proposed control suppresses the unstable modes and stabilizes the dynamics, in agreement with our theoretical predictions.</summary>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-08-19T04:07:15Z</published>
+    <arxiv:comment>29 pages, 17 figures</arxiv:comment>
+    <arxiv:primary_category term="physics.plasm-ph"/>
+    <author>
+      <name>Peiyi Chen</name>
+    </author>
+    <author>
+      <name>Rogerio Jorge</name>
+    </author>
+    <author>
+      <name>Qin Li</name>
+    </author>
+    <author>
+      <name>Yukun Yue</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2512.24394v1</id>
+    <title>Stability of the reconstruction of the heat reflection coefficient in the phonon transport equation</title>
+    <updated>2025-12-30T18:23:56Z</updated>
+    <link href="https://arxiv.org/abs/2512.24394v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2512.24394v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The reflection coefficient is an important thermal property of materials, especially at the nanoscale, and determining this property requires solving an inverse problem based on macroscopic temperature measurements. In this manuscript, we investigate the stability of this inverse problem to infer the reflection coefficient in the phonon transport equation. We show that the problem becomes ill-posed as the system transitions from the ballistic to the diffusive regime, characterized by the Knudsen number converging to zero. Such a stability estimate clarifies the discrepancy observed in previous studies on the well-posedness of this inverse problem. Furthermore, we quantify the rate at which the stability deteriorates with respect to the Knudsen number and confirm the theoretical result with numerical evidence.</summary>
+    <category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-30T18:23:56Z</published>
+    <arxiv:comment>24 pages, 6 figures</arxiv:comment>
+    <arxiv:primary_category term="math.AP"/>
+    <author>
+      <name>Peiyi Chen</name>
+    </author>
+    <author>
+      <name>Irene M. Gamba</name>
+    </author>
+    <author>
+      <name>Qin Li</name>
+    </author>
+    <author>
+      <name>Anjali Nair</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2401.04834v1</id>
+    <title>Reconstruction of the Doping Profile in Vlasov-Poisson</title>
+    <updated>2024-01-09T21:52:50Z</updated>
+    <link href="https://arxiv.org/abs/2401.04834v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2401.04834v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study the inverse problem of recovering the doping profile in the stationary Vlasov-Poisson equation, given the knowledge of the incoming and outgoing measurements at the boundary of the domain. This problem arises from identifying impurities in the semiconductor manufacturing. Our result states that, under suitable assumptions, the doping profile can be uniquely determined through an asymptotic formula of the electric field that it generates.</summary>
+    <category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-01-09T21:52:50Z</published>
+    <arxiv:primary_category term="math.AP"/>
+    <author>
+      <name>Ru-Yu Lai</name>
+    </author>
+    <author>
+      <name>Qin Li</name>
+    </author>
+    <author>
+      <name>Weiran Sun</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2212.14489v2</id>
+    <title>Inference of interaction kernels in mean-field models of opinion dynamics</title>
+    <updated>2023-10-26T14:28:34Z</updated>
+    <link href="https://arxiv.org/abs/2212.14489v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2212.14489v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In models of opinion dynamics, many parameters -- either in the form of constants or in the form of functions -- play a critical role in describing, calibrating, and forecasting how opinions change with time. When examining a model of opinion dynamics, it is beneficial to infer its parameters using empirical data. In this paper, we study an example of such an inference problem. We consider a mean-field bounded-confidence model with an unknown interaction kernel between individuals. This interaction kernel encodes how individuals with different opinions interact and affect each other's opinions. Because it is often difficult to quantitatively measure opinions as empirical data from observations or experiments, we assume that the available data takes the form of partial observations of a cumulative distribution function of opinions. We prove that certain measurements guarantee a precise and unique inference of the interaction kernel and propose a numerical method to reconstruct an interaction kernel from a limited number of data points. Our numerical results suggest that the error of the inferred interaction kernel decays exponentially as we strategically enlarge the data set.</summary>
+    <category term="cs.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.soc-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-12-29T23:59:09Z</published>
+    <arxiv:comment>20 pages, 3 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.SI"/>
+    <author>
+      <name>Weiqi Chu</name>
+    </author>
+    <author>
+      <name>Qin Li</name>
+    </author>
+    <author>
+      <name>Mason A. Porter</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2001.07858v2</id>
+    <title>On diffusive scaling in acousto-optic imaging</title>
+    <updated>2020-05-05T21:44:33Z</updated>
+    <link href="https://arxiv.org/abs/2001.07858v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2001.07858v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Acousto-optic imaging (AOI) is a hybrid imaging process. By perturbing the to-be-reconstructed tissues with acoustic waves, one introduces the interaction between the acoustic and optical waves, leading to a more stable reconstruction of the optical properties. The mathematical model was described in [25], with the radiative transfer equation serving as the forward model for the optical transport. In this paper we investigate the stability of the reconstruction. In particular, we are interested in how the stability depends on the Knudsen number, Kn, a quantity that measures the intensity of the scattering effect of photon particles in a media. Our analysis shows that as Kn decreases to zero, photons scatter more frequently, and since information is lost, the reconstruction becomes harder. To counter this effect, devices need to be constructed so that laser beam is highly concentrated. We will give a quantitative error bound, and explicitly show that such concentration has an exponential dependence on Kn. Numerical evidence will be provided to verify the proof.</summary>
+    <category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-01-22T03:00:55Z</published>
+    <arxiv:comment>17 pages, 5 figures</arxiv:comment>
+    <arxiv:primary_category term="math.AP"/>
+    <author>
+      <name>Francis J. Chung</name>
+    </author>
+    <author>
+      <name>Ru-Yu Lai</name>
+    </author>
+    <author>
+      <name>Qin Li</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2103.14665v1</id>
+    <title>Local Well-posedness of Vlasov-Poisson-Boltzmann Equation with Generalized Diffuse Boundary Condition</title>
+    <updated>2021-03-26T18:06:27Z</updated>
+    <link href="https://arxiv.org/abs/2103.14665v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2103.14665v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The Vlasov-Poisson-Boltzmann equation is a classical equation governing the dynamics of charged particles with the electric force being self-imposed. We consider the system in a convex domain with the Cercignani-Lampis boundary condition. We construct a uniqueness local-in-time solution based on an $L^\infty$-estimate and $W^{1,p}$-estimate. In particular, we develop a new iteration scheme along the characteristic with the Cercignani-Lampis boundary for the $L^\infty$-estimate, and an intrinsic decomposition of boundary integral for $W^{1,p}$-estimate.</summary>
+    <category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-03-26T18:06:27Z</published>
+    <arxiv:comment>Chen, H., Kim, C. &amp; Li, Q. Local Well-Posedness of Vlasov-Poisson-Boltzmann Equation with Generalized Diffuse Boundary Condition. J Stat Phys 179, 535-631 (2020). https://doi.org/10.1007/s10955-020-02545-9</arxiv:comment>
+    <arxiv:primary_category term="math.AP"/>
+    <author>
+      <name>Hongxu Chen</name>
+    </author>
+    <author>
+      <name>Chanwoo Kim</name>
+    </author>
+    <author>
+      <name>Qin Li</name>
+    </author>
+    <arxiv:doi>10.1007/s10955-020-02545-9</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s10955-020-02545-9" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2211.09265v2</id>
+    <title>Scintillation Minimization versus Intensity Maximization in Optimal Beams</title>
+    <updated>2023-04-28T20:42:28Z</updated>
+    <link href="https://arxiv.org/abs/2211.09265v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2211.09265v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In free-space optical communications and other applications, it is desirable to design optical beams that have reduced or even minimal scintillation. However, the optimization problem for minimizing scintillation is challenging, and few optimal solutions have been found. Here we investigate the general optimization problem of minimizing scintillation and formulate it as a convex optimization problem. An analytical solution is found and demonstrates that a beam that minimizes scintillation is incoherent light (i.e., spatially uncorrelated). Furthermore, numerical solutions show that beams minimizing scintillation give very low intensity at the receiver. To counteract this effect, we study a new convex cost function that balances both scintillation and intensity. We show through numerical experiments that the minimizers of this cost function reduce scintillation while preserving a significantly higher level of intensity at the receiver.</summary>
+    <category term="physics.optics" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.SG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.comp-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-11-16T23:46:09Z</published>
+    <arxiv:primary_category term="physics.optics"/>
+    <arxiv:journal_ref>Optics Letters (2023)</arxiv:journal_ref>
+    <author>
+      <name>Qin Li</name>
+    </author>
+    <author>
+      <name>Anjali Nair</name>
+    </author>
+    <author>
+      <name>Samuel N Stechmann</name>
+    </author>
+    <arxiv:doi>10.1364/OL.492565</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1364/OL.492565" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2504.09864v2</id>
+    <title>Evaporative Refrigeration Effect in Evaporation and Condensation between Two Parallel Plates</title>
+    <updated>2025-09-27T23:46:01Z</updated>
+    <link href="https://arxiv.org/abs/2504.09864v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2504.09864v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>It is well-known that evaporation can lead to cooling. However, little is known that evaporation can actually create a refrigeration effect, i.e., the vapor phase temperature can drop below the temperature of the cooling wall. This possibility was recently pointed out via modeling based on an approximate quasi-continuum approach. This work examines this effect rigorously by studying evaporation and condensation between two parallel plates by coupling the solution of the Boltzmann transport equation in the vapor phase with the continuum treatments in both liquid films. Numerical results show that the vapor phase temperature at the evaporating side can be much lower than the coldest wall temperature at the condensing surface, reaffirming the evaporative refrigeration effect. The present work further reveals that this effect is caused by two mechanisms. While the dominant mechanism is the asymmetry in the molecular distribution between the outgoing and the incoming molecules at the interface, additional cooling occurs within the Knudsen layer due to the sudden expansion, similar to the Joule-Thomson effect, although with subtle differences in that the interfacial expansion is not an isenthalpic process. The impacts of key parameters, including liquid thickness, Knudsen number, and accommodation coefficient, are investigated. The numerical simulation shows that with a thicker vapor, a thinner liquid film, and a larger accommodation coefficient, leads to stronger evaporative refrigeration effect. This work will motivate future experiments to further confirm this prediction and explore its potential applications in air-conditioning, refrigeration, and membrane distillation.</summary>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.soft" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.app-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.flu-dyn" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-04-14T04:20:33Z</published>
+    <arxiv:comment>39 pages, 4 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.stat-mech"/>
+    <author>
+      <name>Peiyi Chen</name>
+    </author>
+    <author>
+      <name>Qin Li</name>
+    </author>
+    <author>
+      <name>Gang Chen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2309.05004v5</id>
+    <title>Reconstructing the kinetic chemotaxis kernel using macroscopic data: well-posedness and ill-posedness</title>
+    <updated>2024-11-22T16:55:28Z</updated>
+    <link href="https://arxiv.org/abs/2309.05004v5" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2309.05004v5" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Bacterial motion is steered by external stimuli (chemotaxis), and the motion described on the mesoscopic scale is uniquely determined by a parameter $K$ that models velocity change response from the bacteria. This parameter is called chemotaxis kernel. In a practical setting, it is inferred by experimental data. We deploy a PDE-constrained optimization framework to perform this reconstruction using velocity-averaged, localized data taken in the interior of the domain. The problem can be well-posed or ill-posed depending on the data preparation and the experimental setup. In particular, we propose one specific design that guarantees numerical reconstructability and local convergence. This design is adapted to the discretization of $K$ in space and decouples the reconstruction of local values of $K$ into smaller cell problems, opening up parallelization opportunities. Numerical evidences support the theoretical findings.</summary>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-bio.CB" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-09-10T11:36:01Z</published>
+    <arxiv:primary_category term="math.NA"/>
+    <arxiv:journal_ref>SIAM Journal on Applied Mathematics 85.2 (2025): 613-635</arxiv:journal_ref>
+    <author>
+      <name>Kathrin Hellmuth</name>
+    </author>
+    <author>
+      <name>Christian Klingenberg</name>
+    </author>
+    <author>
+      <name>Qin Li</name>
+    </author>
+    <author>
+      <name>Min Tang</name>
+    </author>
+    <arxiv:doi>10.1137/24M165507X</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1137/24M165507X" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1408.6630v4</id>
+    <title>A convergent method for linear half-space kinetic equations</title>
+    <updated>2016-11-30T18:52:44Z</updated>
+    <link href="https://arxiv.org/abs/1408.6630v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1408.6630v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We give a unified proof for the well-posedness of a class of linear half-space equations with general incoming data and construct a Galerkin method to numerically resolve this type of equations in a systematic way. Our main strategy in both analysis and numerics includes three steps: adding damping terms to the original half-space equation, using an inf-sup argument and even-odd decomposition to establish the well-posedness of the damped equation, and then recovering solutions to the original half-space equation. The proposed numerical methods for the damped equation is shown to be quasi-optimal and the numerical error of approximations to the original equation is controlled by that of the damped equation. This efficient solution to the half-space problem is useful for kinetic-fluid coupling simulations.</summary>
+    <category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.comp-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-08-28T06:38:47Z</published>
+    <arxiv:primary_category term="math.AP"/>
+    <author>
+      <name>Qin Li</name>
+    </author>
+    <author>
+      <name>Jianfeng Lu</name>
+    </author>
+    <author>
+      <name>Weiran Sun</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1904.10049v1</id>
+    <title>Parameter Reconstruction for general transport equation</title>
+    <updated>2019-04-22T20:04:16Z</updated>
+    <link href="https://arxiv.org/abs/1904.10049v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1904.10049v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We consider the inverse problem for the general transport equation with external field, source term and absorption coefficient. We show that the source and the absorption coefficients can be uniquely reconstructed from the boundary measurement, in a Lipschitz stable manner. Specifically, the uniqueness and stability are obtained by using the Carleman estimate in which a special weight function is designed to pick up information on the desired parameter.</summary>
+    <category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-04-22T20:04:16Z</published>
+    <arxiv:comment>23 pages, 3 figures</arxiv:comment>
+    <arxiv:primary_category term="math.AP"/>
+    <author>
+      <name>Ru-Yu Lai</name>
+    </author>
+    <author>
+      <name>Qin Li</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1908.00094v1</id>
+    <title>Applications of Kinetic Tools to Inverse Transport Problems</title>
+    <updated>2019-07-31T20:51:10Z</updated>
+    <link href="https://arxiv.org/abs/1908.00094v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1908.00094v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We show that the inverse problems for a class of kinetic equations can be solved by classical tools in PDE analysis including energy estimates and the celebrated averaging lemma. Using these tools, we give a unified framework for the reconstruction of the absorption coefficient for transport equations in the subcritical and critical regimes. Moreover, we apply this framework to obtain, to the best of our knowledge, the first result in a nonlinear setting. We also extend the result of recovering the scattering coefficient in [14] from 3D to 2D convex domains.</summary>
+    <category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-07-31T20:51:10Z</published>
+    <arxiv:comment>2 figures</arxiv:comment>
+    <arxiv:primary_category term="math.AP"/>
+    <author>
+      <name>Qin Li</name>
+    </author>
+    <author>
+      <name>Weiran Sun</name>
+    </author>
+    <arxiv:doi>10.1088/1361-6420/ab59b8</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1361-6420/ab59b8" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2006.14674v2</id>
+    <title>Reconstruction of the emission coefficient in the nonlinear radiative transfer equation</title>
+    <updated>2020-10-09T15:54:26Z</updated>
+    <link href="https://arxiv.org/abs/2006.14674v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2006.14674v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we investigate an inverse problem for the radiative transfer equation that is coupled with a heat equation in a nonscattering medium in $\mathbb{R}^n$, $n\geq 2$. The two equations are coupled through a nonlinear blackbody emission term that is proportional to the fourth power of the temperature. By measuring the radiation intensity on the surface of the blackbody, we prove that the emission property of the system can be uniquely reconstructed. In particular, we design a reconstruction procedure that uses merely one set of experiment setup to fully recover the emission parameter.</summary>
+    <category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-06-25T19:42:08Z</published>
+    <arxiv:comment>16 pages</arxiv:comment>
+    <arxiv:primary_category term="math.AP"/>
+    <author>
+      <name>Christian Klingenberg</name>
+    </author>
+    <author>
+      <name>Ru-Yu Lai</name>
+    </author>
+    <author>
+      <name>Qin Li</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2504.18999v1</id>
+    <title>Inverse Problems Over Probability Measure Space</title>
+    <updated>2025-04-26T18:54:52Z</updated>
+    <link href="https://arxiv.org/abs/2504.18999v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2504.18999v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Define a forward problem as $ρ_y = G_\#ρ_x$, where the probability distribution $ρ_x$ is mapped to another distribution $ρ_y$ using the forward operator $G$. In this work, we investigate the corresponding inverse problem: Given $ρ_y$, how to find $ρ_x$? Depending on whether $ G$ is overdetermined or underdetermined, the solution can have drastically different behavior. In the overdetermined case, we formulate a variational problem $\min_{ρ_x} D( G_\#ρ_x, ρ_y)$, and find that different choices of the metric $ D$ significantly affect the quality of the reconstruction. When $ D$ is set to be the Wasserstein distance, the reconstruction is the marginal distribution, while setting $ D$ to be a $φ$-divergence reconstructs the conditional distribution. In the underdetermined case, we formulate the constrained optimization $\min_{\{ G_\#ρ_x=ρ_y\}} E[ρ_x]$. The choice of $ E$ also significantly impacts the construction: setting $ E$ to be the entropy gives us the piecewise constant reconstruction, while setting $ E$ to be the second moment, we recover the classical least-norm solution. We also examine the formulation with regularization: $\min_{ρ_x} D( G_\#ρ_x, ρ_y) + α\mathsf R[ρ_x]$, and find that the entropy-entropy pair leads to a regularized solution that is defined in a piecewise manner, whereas the $W_2$-$W_2$ pair leads to a least-norm solution where $W_2$ is the 2-Wasserstein metric.</summary>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-04-26T18:54:52Z</published>
+    <arxiv:comment>20 pages, 4 figures</arxiv:comment>
+    <arxiv:primary_category term="math.OC"/>
+    <author>
+      <name>Qin Li</name>
+    </author>
+    <author>
+      <name>Maria Oprea</name>
+    </author>
+    <author>
+      <name>Li Wang</name>
+    </author>
+    <author>
+      <name>Yunan Yang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2206.01629v2</id>
+    <title>Kinetic chemotaxis tumbling kernel determined from macroscopic quantities</title>
+    <updated>2023-10-04T09:29:15Z</updated>
+    <link href="https://arxiv.org/abs/2206.01629v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2206.01629v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Chemotaxis is the physical phenomenon that bacteria adjust their motions according to chemical stimulus. A classical model for this phenomenon is a kinetic equation that describes the velocity jump process whose tumbling/transition kernel uniquely determines the effect of chemical stimulus on bacteria. The model has been shown to be an accurate model that matches with bacteria motion qualitatively. For a quantitative modeling, biophysicists and practitioners are also highly interested in determining the explicit value of the tumbling kernel. Due to the experimental limitations, measurements are typically macroscopic in nature. Do macroscopic quantities contain enough information to recover microscopic behavior? In this paper, we give a positive answer. We show that when given a special design of initial data, the population density, one specific macroscopic quantity as a function of time, contains sufficient information to recover the tumbling kernel and its associated damping coefficient. Moreover, we can read off the chemotaxis tumbling kernel using the values of population density directly from this specific experimental design. This theoretical result using kinetic theory sheds light on how practitioners may conduct experiments in laboratories.</summary>
+    <category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-bio.QM" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-06-03T15:13:56Z</published>
+    <arxiv:primary_category term="math.AP"/>
+    <arxiv:journal_ref>SIAM Journal on Mathematical Analysis, Vol. 56, Iss. 1 (2024)</arxiv:journal_ref>
+    <author>
+      <name>Kathrin Hellmuth</name>
+    </author>
+    <author>
+      <name>Christian Klingenberg</name>
+    </author>
+    <author>
+      <name>Qin Li</name>
+    </author>
+    <author>
+      <name>Min Tang</name>
+    </author>
+    <arxiv:doi>10.1137/22M1499911</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1137/22M1499911" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2604.00532v1</id>
+    <title>Formal Deformation quantization as a Fréchet algebra</title>
+    <updated>2026-04-01T06:22:05Z</updated>
+    <link href="https://arxiv.org/abs/2604.00532v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2604.00532v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We define a Fréchet topology on the space $C^\infty(X)[[\hbar]]$ of formal smooth functions on a symplectic manifold $X$, by constructing a sequence of semi-norms on it. For any star product $\star$ on $C^\infty(X)[[\hbar]]$ making it a formal deformation quantization of $X$, we will show that the quantum product $\star$ is jointly continuous, and making it a Fréchet algebra. We will show a quantum Weierstrass theorem which says quantum polynomials are locally dense in all formal smooth functions. We will also show that the canonical trace of any formal deformation quantization is continuous under this Fréchet topology.</summary>
+    <category term="math.QA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-04-01T06:22:05Z</published>
+    <arxiv:primary_category term="math.QA"/>
+    <author>
+      <name>Qin Li</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2201.03494v3</id>
+    <title>High-frequency limit of the inverse scattering problem: asymptotic convergence from inverse Helmholtz to inverse Liouville</title>
+    <updated>2022-08-09T03:14:53Z</updated>
+    <link href="https://arxiv.org/abs/2201.03494v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2201.03494v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We investigate the asymptotic relation between the inverse problems relying on the Helmholtz equation and the radiative transfer equation (RTE) as physical models, in the high-frequency limit. In particular, we evaluate the asymptotic convergence of a generalized version of inverse scattering problem based on the Helmholtz equation, to the inverse scattering problem of the Liouville equation (a simplified version of RTE). The two inverse problems are connected through the Wigner transform that translates the wave-type description on the physical space to the kinetic-type description on the phase space, and the Husimi transform that models data localized both in location and direction. The finding suggests that impinging tightly concentrated monochromatic beams can indeed provide stable reconstruction of the medium, asymptotically in the high-frequency regime. This fact stands in contrast with the unstable reconstruction for the classical inverse scattering problem when the probing signals are plane-waves.</summary>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-01-10T17:48:44Z</published>
+    <arxiv:primary_category term="math.NA"/>
+    <author>
+      <name>Shi Chen</name>
+    </author>
+    <author>
+      <name>Zhiyan Ding</name>
+    </author>
+    <author>
+      <name>Qin Li</name>
+    </author>
+    <author>
+      <name>Leonardo Zepeda-Núñez</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2108.03310v1</id>
+    <title>Unique Reconstruction of the Heat-Reflection Indices at Solid Interfaces</title>
+    <updated>2021-08-06T21:44:27Z</updated>
+    <link href="https://arxiv.org/abs/2108.03310v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2108.03310v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We show the unique reconstruction of the heat-reflection coefficients in a phonon transport equation. This is a mathematical model used to characterize the dynamics of heat-conducting phonons in multiple layers of media, commonly composed of metals and silicon. In experiments, the heat-reflection indices are inferred by measuring the temperature at the surface of the exterior metal after applying heat sources. In this article, we rigorously justify the unique reconstruction of these indices by using such procedures.</summary>
+    <category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-08-06T21:44:27Z</published>
+    <arxiv:primary_category term="math.AP"/>
+    <author>
+      <name>Qin Li</name>
+    </author>
+    <author>
+      <name>Weiran Sun</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2407.15008v3</id>
+    <title>Control of Instability in a Vlasov-Poisson System Through an External Electric Field</title>
+    <updated>2025-02-24T07:21:30Z</updated>
+    <link href="https://arxiv.org/abs/2407.15008v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2407.15008v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Plasma instabilities are a major concern in plasma science, for applications ranging from particle accelerators to nuclear fusion reactors. In this work, we consider the possibility of controlling such instabilities by adding an external electric field to the Vlasov--Poisson equations. Our approach to determining the external electric field is based on conducting a linear analysis of the resulting equations. We show that it is possible to select external electric fields that completely suppress the plasma instabilities present in the system when the equilibrium distribution and the perturbation are known. In fact, the proposed strategy returns the plasma to its equilibrium with a rate that is faster than exponential in time. We further perform numerical simulations of the nonlinear two-stream and bump-on-tail instabilities to verify our theory and to compare the different strategies that we propose in this work.</summary>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-07-20T23:40:30Z</published>
+    <arxiv:primary_category term="physics.plasm-ph"/>
+    <author>
+      <name>Lukas Einkemmer</name>
+    </author>
+    <author>
+      <name>Qin Li</name>
+    </author>
+    <author>
+      <name>Clément Mouhot</name>
+    </author>
+    <author>
+      <name>Yukun Yue</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1610.01583v1</id>
+    <title>A Connection between the Riemann Hypothesis and Uniqueness of the Riemann zeta function</title>
+    <updated>2016-10-05T19:38:05Z</updated>
+    <link href="https://arxiv.org/abs/1610.01583v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1610.01583v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we give a connection between the Riemann hypothesis and uniqueness of the Riemann zeta function and an analogue for L-functions.</summary>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-10-05T19:38:05Z</published>
+    <arxiv:comment>17 pages</arxiv:comment>
+    <arxiv:primary_category term="math.NT"/>
+    <author>
+      <name>Pei-Chu Hu</name>
+    </author>
+    <author>
+      <name>Bao Qin Li</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2407.18406v2</id>
+    <title>A form of refined Roth's theorem and its application to the $abc$-conjecture</title>
+    <updated>2024-08-01T13:35:55Z</updated>
+    <link href="https://arxiv.org/abs/2407.18406v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2407.18406v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we give a form of refined Roth's theorem. As an application, we prove a special case of the $abc$-conjecture.</summary>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-07-25T21:40:59Z</published>
+    <arxiv:comment>There is an error in Theorem 1.6</arxiv:comment>
+    <arxiv:primary_category term="math.NT"/>
+    <author>
+      <name>Pei-Chu Hu</name>
+    </author>
+    <author>
+      <name>Bao Qin Li</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2604.26292v1</id>
+    <title>Brane quantization and SYZ mirror symmetry</title>
+    <updated>2026-04-29T04:39:12Z</updated>
+    <link href="https://arxiv.org/abs/2604.26292v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2604.26292v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Coisotropic A-branes were introduced by Kapustin--Orlov to enlarge the Fukaya category of a symplectic manifold in a way that aligns with predictions from homological mirror symmetry. From a mathematical perspective, however, the categorical framework governing such branes remains largely undeveloped. On the other hand, Gukov--Witten's brane quantization suggests that a holomorphic deformation quantization of a holomorphic symplectic manifold $X$ arises from the endomorphism algebra $Hom_A(B_{cc},B_{cc})$ of a canonical coisotropic A-brane $B_{cc}$, which naturally acts on the morphism space $Hom_A(B,B_{cc})$ with a Lagrangian A-brane $B$ that in turn gives precisely the geometric quantization of $B$.
+  In this paper, we consider a holomorphic symplectic manifold $X$ which admits an SYZ fibration and apply SYZ mirror symmetry to study its brane quantization. Given any semi-affine, space-filling coisotropic A-brane $B_{cc}$ on $X$, we construct the mirror B-brane $\check{B}_{cc}$ on the mirror manifold $\check{X}$ by an SYZ transform. We then present a mathematical definition of the endomorphism algebra $Hom_A(B_{cc},B_{cc})$ by constructing a distinguished non-formal holomorphic deformation quantization of $X$. Using a twisted family Toeplitz construction, we transform $Hom_A(B_{cc},B_{cc})$ to the mirror B-side and prove that this induces an isomorphism $Hom_A(B_{cc},B_{cc})\cong Hom_B(\check{B}_{cc},\check{B}_{cc})$ between the endomorphism algebras. Furthermore, taking any torus fiber of $X$ as the Lagrangian A-brane $B$, we fully realize Gukov--Witten's proposal, namely, there is a natural action of $Hom_A(B_{cc},B_{cc})$ on $Hom_A(B,B_{cc})$ which is precisely mirror to the natural action on the mirror B-side. This provides a mathematical framework which is compatible with Gukov--Witten's brane quantization proposal, SYZ mirror symmetry as well as family Floer theory.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.QA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.SG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-04-29T04:39:12Z</published>
+    <arxiv:comment>39 pages</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <author>
+      <name>Kwokwai Chan</name>
+    </author>
+    <author>
+      <name>Naichung Conan Leung</name>
+    </author>
+    <author>
+      <name>Qin Li</name>
+    </author>
+    <author>
+      <name>Yat-Hin Suen</name>
+    </author>
+    <author>
+      <name>Yutung Yau</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2010.14339v1</id>
+    <title>Geometric quantization and quantum moment maps on coadjoint orbits and Kähler-Einstein manifolds</title>
+    <updated>2020-10-27T14:56:15Z</updated>
+    <link href="https://arxiv.org/abs/2010.14339v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2010.14339v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Deformation quantization and geometric quantization on Kähler manifolds give the mathematical description of the algebra of quantum observables and the Hilbert spaces respectively, where the later forms a representation of quantum observables asymptotically via Toeplitz operators. When there is a Hamiltonian $G$-action on a Kähler manifold, there are associated symmetries on both the quantum algebra and representation aspects. We show that in nice cases of coadjoint orbits and Kähler-Einstein manifolds, these symmetries are strictly compatible (not only asymptotically).</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.QA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-10-27T14:56:15Z</published>
+    <arxiv:comment>9 pages, comments are welcome</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <author>
+      <name>Naichung Conan Leung</name>
+    </author>
+    <author>
+      <name>Qin Li</name>
+    </author>
+    <author>
+      <name>Ziming Nikolas Ma</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1505.06399v3</id>
+    <title>On some 1/4 BPS Wilson-'t Hooft loops</title>
+    <updated>2015-09-14T09:07:42Z</updated>
+    <link href="https://arxiv.org/abs/1505.06399v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1505.06399v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we investigate the 1/4 BPS Wilson-'t Hooft loops in $\mathcal{N}$=4 supersymmetric Yang-Mills theory. We use the bulk D3-brane solutions with both electric and magnetic charges on its world-volume to describe some of 1/4 BPS Wilson-'t Hooft loops. The D3-brane supersymmetric solutions are derived form requiring $κ$-symmetry. We find the two consistent constraints for Killing spinors and calculate the conserved charges of straight 1/4 BPS Wilson-'t Hooft loops and expectation values of circular 1/4 BPS Wilson-'t Hooft loops separately.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-05-24T02:55:24Z</published>
+    <arxiv:comment>22 pages</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <author>
+      <name>Chang-Yong Liu</name>
+    </author>
+    <author>
+      <name>Li Qin</name>
+    </author>
+  </entry>
+</feed>

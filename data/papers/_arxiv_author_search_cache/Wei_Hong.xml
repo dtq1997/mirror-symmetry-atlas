@@ -1,0 +1,530 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/LPdStXquGpuxnOnIt1ytdJq5htA</id>
+  <title>arXiv Query: search_query=au:"Wei Hong" AND (cat:math.AG OR cat:math.AT OR cat:math.AP OR cat:math.CT OR cat:math.CA OR cat:math.CO OR cat:math.DG OR cat:math.DS OR cat:math.FA OR cat:math.GT OR cat:math.MP OR cat:math.OA OR cat:math.PR OR cat:math.QA OR cat:math.RA OR cat:math.RT OR cat:math.SG OR cat:math.SP OR cat:math.ST OR cat:math.NT OR cat:math.GR OR cat:math.HO OR cat:math-ph OR cat:nlin.SI OR cat:nlin.CD OR cat:hep-th OR cat:q-alg OR cat:dg-ga OR cat:alg-geom OR cat:cond-mat.stat-mech)&amp;id_list=&amp;start=0&amp;max_results=200</title>
+  <updated>2026-05-06T07:28:26Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=au:%22Wei+Hong%22+AND+(cat:math.AG+OR+(cat:math.AT+OR+(cat:math.AP+OR+(cat:math.CT+OR+(cat:math.CA+OR+(cat:math.CO+OR+(cat:math.DG+OR+(cat:math.DS+OR+(cat:math.FA+OR+(cat:math.GT+OR+(cat:math.MP+OR+(cat:math.OA+OR+(cat:math.PR+OR+(cat:math.QA+OR+(cat:math.RA+OR+(cat:math.RT+OR+(cat:math.SG+OR+(cat:math.SP+OR+(cat:math.ST+OR+(cat:math.NT+OR+(cat:math.GR+OR+(cat:math.HO+OR+(cat:math-ph+OR+(cat:nlin.SI+OR+(cat:nlin.CD+OR+(cat:hep-th+OR+(cat:q-alg+OR+(cat:dg-ga+OR+(cat:alg-geom+OR+cat:cond-mat.stat-mech)))))))))))))))))))))))))))))&amp;start=0&amp;max_results=200&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>200</opensearch:itemsPerPage>
+  <opensearch:totalResults>24</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1611.08485v3</id>
+    <title>Poisson Cohomology of holomorphic toric Poisson manifolds. I</title>
+    <updated>2017-07-07T06:20:03Z</updated>
+    <link href="https://arxiv.org/abs/1611.08485v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1611.08485v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A holomorphic toric Poisson manifold is a nonsingular toric variety equipped with a holomorphic Poisson structure, which is invariant under the torus action. In this paper, we computed the Poisson cohomology groups for all holomorphic toric Poisson structures on $CP^n$, with the stand Poisson structure on $CP^n$ as a special case. We also computed the algebraic and the formal Poisson cohomology groups of holomorphic toric Poisson structures on $C^n$.</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.QA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.SG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-11-25T15:19:32Z</published>
+    <arxiv:primary_category term="math-ph"/>
+    <author>
+      <name>Wei Hong</name>
+    </author>
+    <arxiv:doi>10.1016/j.jalgebra.2019.03.001</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.jalgebra.2019.03.001" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1911.04331v1</id>
+    <title>Poisson Cohomology of holomorphic toric Poisson manifolds. II</title>
+    <updated>2019-11-07T12:50:24Z</updated>
+    <link href="https://arxiv.org/abs/1911.04331v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1911.04331v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we give a description of holomorphic multi-vector fields on smooth compact toric varieties, which generalizes Demazure's result of holomorphic vector fields on toric varieties. Based on the result, we compute the Poisson cohomology groups of holomorphic toric Poisson manifolds, i.e., toric varieties endowed with $T$-invariant holomorphic Poisson structures.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.QA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.SG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-11-07T12:50:24Z</published>
+    <arxiv:primary_category term="math.AG"/>
+    <author>
+      <name>Wei Hong</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1001.1082v2</id>
+    <title>Poisson Cohomology of Del Pezzo surfaces</title>
+    <updated>2011-02-08T00:57:44Z</updated>
+    <link href="https://arxiv.org/abs/1001.1082v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1001.1082v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this note, we compute the Poisson cohomology groups for any Poisson Del Pezzo surface.</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-01-07T14:58:01Z</published>
+    <arxiv:primary_category term="math-ph"/>
+    <arxiv:journal_ref>Journal of Algebra (2011)</arxiv:journal_ref>
+    <author>
+      <name>Wei Hong</name>
+    </author>
+    <author>
+      <name>Ping Xu</name>
+    </author>
+    <arxiv:doi>10.1016/j.jalgebra.2010.12.017</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.jalgebra.2010.12.017" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1802.01937v1</id>
+    <title>Atiyah classes of Lie bialgebras</title>
+    <updated>2018-02-06T13:32:39Z</updated>
+    <link href="https://arxiv.org/abs/1802.01937v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1802.01937v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The Atiyah class was originally introduced by M.F. Atiyah. It has many developments in recent years. One important case is the Atiyah classes of Lie algebra pairs. In this paper, we study the Atiyah class of the Lie algebra pair associated with a Lie bialgebra $(g,g^*)$. A simple description of the Atiyah class and the first scalar Atiyah class is given by the Lie algebra structures on $g$ and $g^*$. As its application, the Atiyah classes for some special cases are investigated.</summary>
+    <category term="math.QA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-02-06T13:32:39Z</published>
+    <arxiv:primary_category term="math.QA"/>
+    <arxiv:journal_ref>Journal of Lie Theory (2019)</arxiv:journal_ref>
+    <author>
+      <name>Wei Hong</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1302.2857v1</id>
+    <title>From Hypercomplex to Holomorphic Symplectic Structures</title>
+    <updated>2013-02-12T16:45:00Z</updated>
+    <link href="https://arxiv.org/abs/1302.2857v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1302.2857v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The notions of holomorphic symplectic structures and hypercomplex structures on Courant algebroids are introduced and then proved to be equivalent. These generalize hypercomplex triples and holomorphic symplectic 2-forms on manifolds respectively. Basic properties of such structures are established.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.SG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-02-12T16:45:00Z</published>
+    <arxiv:primary_category term="math.DG"/>
+    <arxiv:journal_ref>J. Geom. Phys. 96 (2015), 187-203</arxiv:journal_ref>
+    <author>
+      <name>Wei Hong</name>
+    </author>
+    <author>
+      <name>Mathieu Stiénon</name>
+    </author>
+    <arxiv:doi>10.1016/j.geomphys.2015.06.008</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.geomphys.2015.06.008" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2010.07053v1</id>
+    <title>Holomorphic polyvector fields on toric varieties</title>
+    <updated>2020-10-12T02:27:17Z</updated>
+    <link href="https://arxiv.org/abs/2010.07053v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2010.07053v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we give an explicit description of holomorphic polyvector fields on smooth compact toric varieties, which generalizes Demazure's result of holomorphic vector fields on toric varieties.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-10-12T02:27:17Z</published>
+    <arxiv:comment>arXiv admin note: substantial text overlap with arXiv:1911.04331</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <author>
+      <name>Wei Hong</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2104.12685v3</id>
+    <title>BV operators of the Gerstenhaber algebras of holomorphic polyvector fields on toric varieties</title>
+    <updated>2021-05-08T01:55:06Z</updated>
+    <link href="https://arxiv.org/abs/2104.12685v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2104.12685v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The vector space of holomorphic polyvector fields on any complex manifold has a natural Gerstenhaber algebra structure. In this paper, we study BV operators of the Gerstenhaber algebras of holomorphic polyvector fields on smooth compact toric varieties. We give a necessary and sufficient condition for the existence of BV operators of the Gerstenhaber algebra of holomorphic polyvector fields on any smooth compact toric variety.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-04-26T16:22:57Z</published>
+    <arxiv:comment>replaces arXiv:2104.12685. arXiv admin note: text overlap with arXiv:2010.07053</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <author>
+      <name>Yang Deng</name>
+    </author>
+    <author>
+      <name>Wei Hong</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2407.06840v5</id>
+    <title>Regularization by Nonlinear Noise for PDEs: Well-posedness and Finite Time Extinction</title>
+    <updated>2025-07-25T13:15:11Z</updated>
+    <link href="https://arxiv.org/abs/2407.06840v5" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2407.06840v5" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This work focuses on the regularization by nonlinear noise for a class of partial differential equations that may only have local solutions. In particular, we obtain the global existence, uniqueness and the Feller property for stochastic 3D Navier-Stokes equations, which provide positive answers to a longstanding open problem in this field.
+  Moreover, we discover a new phenomenon that for a potentially explosive deterministic system, an appropriate intervention of nonlinear noise can not only prevent blow-up but also lead to the finite time extinction of the associated stochastic system. Our main results have broad applications, including stochastic $p$-Laplace equations with heat sources, stochastic surface growth models and stochastic quasi-geostrophic equations.</summary>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-07-09T13:20:44Z</published>
+    <arxiv:comment>61 Pages</arxiv:comment>
+    <arxiv:primary_category term="math.PR"/>
+    <author>
+      <name>Wei Hong</name>
+    </author>
+    <author>
+      <name>Shihu Li</name>
+    </author>
+    <author>
+      <name>Wei Liu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2604.22510v1</id>
+    <title>Asymptotics of Multi-Scale McKean--Vlasov Diffusions with Super-Linear Kernels: a Lifted Semigroup Approach</title>
+    <updated>2026-04-24T12:47:35Z</updated>
+    <link href="https://arxiv.org/abs/2604.22510v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2604.22510v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this work, we establish the small-noise asymptotic behaviour (namely, the functional law of large numbers and the large deviation principle) for multi-scale McKean--Vlasov diffusions with super-linear kernels. In this setting, the interaction depends on the laws of both the slow component and the fast oscillating process. Consequently, the frozen (parameterized) system exhibits McKean--Vlasov dynamics, forming a nonlinear Markov process and thereby rendering the analysis more complex compared to existing works.
+  We develop a lifted semigroup argument and employ a generalized Khasminskii time discretization scheme to derive the small-noise limit of the slow variable, providing explicit convergence rates. Furthermore, we introduce the notion of a lifted viable pair and utilize a generalized functional occupation measure approach to establish the Laplace principle, which is equivalent to the large deviation principle. The main results of this work find broad applications in multi-scale models arising in fields such as machine learning and optimization theory. In particular, our results can be employed to analyze the dynamics of multi-scale consensus-based methods for multilevel optimization, where the coefficients typically satisfy local Lipschitz continuity on the interaction kernels.</summary>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-04-24T12:47:35Z</published>
+    <arxiv:comment>65 pages</arxiv:comment>
+    <arxiv:primary_category term="math.PR"/>
+    <author>
+      <name>Wei Hong</name>
+    </author>
+    <author>
+      <name>Shanshan Hu</name>
+    </author>
+    <author>
+      <name>Wei Liu</name>
+    </author>
+    <author>
+      <name>Shiyuan Yang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2501.11874v2</id>
+    <title>Large Deviations for Slow-Fast Mean-Field Diffusions</title>
+    <updated>2026-04-27T14:36:39Z</updated>
+    <link href="https://arxiv.org/abs/2501.11874v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2501.11874v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The aim of this paper is to investigate the large deviations for a class of slow-fast mean-field diffusions, which extends some existing results to the case where the laws of fast process are also involved in the slow component. Due to the perturbations of fast process and its time marginal law, one cannot prove the large deviations based on verifying the powerful weak convergence criterion directly. To overcome this problem, we employ the functional occupation measure, which combined with the notion of the viable pair and the controls of feedback form to characterize the limits of controlled sequences and justify the upper and lower bounds of Laplace principle. As a consequence, the explicit representation formula of the rate function for large deviations is also presented.</summary>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-01-21T04:09:39Z</published>
+    <arxiv:comment>36 pages. Accepted by SIAM J. Control Optim</arxiv:comment>
+    <arxiv:primary_category term="math.PR"/>
+    <author>
+      <name>Wei Hong</name>
+    </author>
+    <author>
+      <name>Wei Liu</name>
+    </author>
+    <author>
+      <name>Shiyuan Yang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2103.10135v6</id>
+    <title>Distribution Dependent Stochastic Porous Media Equations</title>
+    <updated>2023-03-15T12:56:26Z</updated>
+    <link href="https://arxiv.org/abs/2103.10135v6" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2103.10135v6" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Using the generalized variational framework, the strong/weak existence and uniqueness of solutions are derived for a class of distribution dependent stochastic porous media equations on general measure spaces, which also extends the classical well-posedness result of quasilinear SPDE to the distribution dependent case.</summary>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-03-18T10:06:46Z</published>
+    <arxiv:comment>to appear in Stochastics and Dynamics, Vol. 22, No. 8 (2022) 2240026</arxiv:comment>
+    <arxiv:primary_category term="math.PR"/>
+    <author>
+      <name>Jingyue Gao</name>
+    </author>
+    <author>
+      <name>Wei Hong</name>
+    </author>
+    <author>
+      <name>Wei Liu</name>
+    </author>
+    <arxiv:doi>10.1142/S0219493722400263</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1142/S0219493722400263" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2306.11569v2</id>
+    <title>Multi-Scale McKean-Vlasov SDEs: Moderate Deviation Principle in Different Regimes</title>
+    <updated>2024-09-19T14:56:33Z</updated>
+    <link href="https://arxiv.org/abs/2306.11569v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2306.11569v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The main aim of this paper is to study the moderate deviation principle for McKean-Vlasov stochastic differential equations with multiple scales. Specifically, we are interested in the asymptotic estimates of the deviation processes $\frac{X^δ-\bar{X}}{λ(δ)}$ as $δ\to 0$ in different regimes (i.e. $\varepsilon=o(δ)$ and $\varepsilon=O(δ)$), where $δ$ stands for the intensity of the noise and $\varepsilon:=\varepsilon(δ)$ stands for the time scale separation. The rate functions in two regimes are different, in particular, we show that it is strongly affected by the noise of the fast component in latter regime, which is essentially different from the former one and the case of large deviations (cf. \cite{HLLS}). As a by-product, the explicit representation formulas of the rate functions in all of regimes are also given. The main techniques are based on the weak convergence approach and the functional occupation measure approach.</summary>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-06-20T14:35:15Z</published>
+    <arxiv:comment>51 pages. To appear in Ann. Inst. Henri Poincaré Probab. Stat</arxiv:comment>
+    <arxiv:primary_category term="math.PR"/>
+    <author>
+      <name>Wei Hong</name>
+    </author>
+    <author>
+      <name>Ge Li</name>
+    </author>
+    <author>
+      <name>Shihu Li</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2112.08203v3</id>
+    <title>Central Limit Type Theorem and Large Deviation Principle for Multi-Scale McKean-Vlasov SDEs</title>
+    <updated>2023-06-01T13:05:29Z</updated>
+    <link href="https://arxiv.org/abs/2112.08203v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2112.08203v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we aim to study the asymptotic behavior for multi-scale McKean-Vlasov stochastic dynamical systems. Firstly, we obtain a central limit type theorem, i.e, the deviation between the slow component $X^{\varepsilon}$ and the solution $\bar{X}$ of the averaged equation converges weakly to a limiting process. More precisely, $\frac{X^{\varepsilon}-\bar{X}}{\sqrt{\varepsilon}}$ converges weakly in $C([0,T],\RR^n)$ to the solution of certain distribution dependent stochastic differential equation, which involves an extra explicit stochastic integral term. Secondly, in order to estimate the probability of deviations away from the limiting process, we further investigate the Freidlin-Wentzell's large deviation principle for multi-scale McKean-Vlasov stochastic system. The main techniques are based on the Poisson equation for central limit type theorem and the weak convergence approach for large deviation principle.</summary>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-12-15T15:19:51Z</published>
+    <arxiv:comment>57 pages. Accepted by Probability Theory and Related Fields</arxiv:comment>
+    <arxiv:primary_category term="math.PR"/>
+    <author>
+      <name>Wei Hong</name>
+    </author>
+    <author>
+      <name>Shihu Li</name>
+    </author>
+    <author>
+      <name>Wei Liu</name>
+    </author>
+    <author>
+      <name>Xiaobin Sun</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2103.11398v3</id>
+    <title>Large Deviation Principle for McKean-Vlasov Quasilinear Stochastic Evolution Equations</title>
+    <updated>2021-06-26T13:33:51Z</updated>
+    <link href="https://arxiv.org/abs/2103.11398v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2103.11398v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper is devoted to investigating the Freidlin-Wentzell's large deviation principle for a class of McKean-Vlasov quasilinear SPDEs perturbed by small multiplicative noise. We adopt the variational framework and the modified weak convergence criteria to prove the Laplace principle for McKean-Vlasov type SPDEs, which is equivalent to the large deviation principle. Moreover, we do not assume any compactness condition of embedding in the Gelfand triple to handle both the cases of bounded and unbounded domains in applications. The main results can be applied to various McKean-Vlasov type SPDEs such as distribution dependent stochastic porous media type equations and stochastic p-Laplace type equations.</summary>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-03-21T13:48:36Z</published>
+    <arxiv:comment>25 pages</arxiv:comment>
+    <arxiv:primary_category term="math.PR"/>
+    <author>
+      <name>Wei Hong</name>
+    </author>
+    <author>
+      <name>Shihu Li</name>
+    </author>
+    <author>
+      <name>Wei Liu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2102.10855v3</id>
+    <title>Freidlin-Wentzell Type Large Deviation Principle for Multi-Scale Locally Monotone SPDEs</title>
+    <updated>2021-08-20T06:42:06Z</updated>
+    <link href="https://arxiv.org/abs/2102.10855v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2102.10855v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This work is concerned with Freidlin-Wentzell type large deviation principle for a family of multi-scale quasilinear and semilinear stochastic partial differential equations. Employing the weak convergence method and Khasminskii's time discretization approach, the Laplace principle (equivalently, large deviation principle) for a general class of multi-scale SPDEs is derived. In particular, we succeed in dropping the compactness assumption of embedding in the Gelfand triple in order to deal with the case of bounded and unbounded domains in applications. Our main results are applicable to various multi-scale SPDE models such as stochastic porous media equations, stochastic p-Laplace equations, stochastic fast-diffusion equations, stochastic 2D hydrodynamical type models, stochastic power law fluid equations and stochastic Ladyzhenskaya models.</summary>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-02-22T09:40:46Z</published>
+    <arxiv:comment>42 pages</arxiv:comment>
+    <arxiv:primary_category term="math.PR"/>
+    <author>
+      <name>Wei Hong</name>
+    </author>
+    <author>
+      <name>Shihu Li</name>
+    </author>
+    <author>
+      <name>Wei Liu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2508.12547v1</id>
+    <title>Mean Field Stochastic Partial Differential Equations with Nonlinear Kernels</title>
+    <updated>2025-08-18T00:50:45Z</updated>
+    <link href="https://arxiv.org/abs/2508.12547v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2508.12547v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This work focuses on the mean field stochastic partial differential equations with nonlinear kernels. We first prove the existence and uniqueness of strong and weak solutions for mean field stochastic partial differential equations in the variational framework, then establish the convergence (in certain Wasserstein metric) of the empirical laws of interacting systems to the law of solutions of mean field equations, as the number of particles tends to infinity. The main challenge lies in addressing the inherent interplay between the high nonlinearity of operators and the non-local effect of coefficients that depend on the measure. In particular, we do not need to assume any exponential moment control condition of solutions, which extends the range of the applicability of our results.
+  As applications, we first study a class of finite-dimensional interacting particle systems with polynomial kernels, which are commonly encountered in fields such as the data science and the machine learning. Subsequently, we present several illustrative examples of infinite-dimensional interacting systems with nonlinear kernels, such as the stochastic climate models, the stochastic Allen-Cahn equations, and the stochastic Burgers type equations.</summary>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-08-18T00:50:45Z</published>
+    <arxiv:comment>75 pages. Accepted by Annals of Applied Probability</arxiv:comment>
+    <arxiv:primary_category term="math.PR"/>
+    <author>
+      <name>Wei Hong</name>
+    </author>
+    <author>
+      <name>Shihu Li</name>
+    </author>
+    <author>
+      <name>Wei Liu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2306.15508v2</id>
+    <title>McKean-Vlasov Stochastic Partial Differential Equations: Existence, Uniqueness and Propagation of Chaos</title>
+    <updated>2025-08-09T02:49:23Z</updated>
+    <link href="https://arxiv.org/abs/2306.15508v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2306.15508v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we provide a general framework for investigating McKean-Vlasov stochastic partial differential equations. We first show the existence of weak solutions by combining the localizing approximation, Faedo-Galerkin technique, compactness method and the Jakubowski version of the Skorokhod representation theorem. Then under certain locally monotone condition we further investigate the existence and uniqueness of (probabilistically) strong solutions. The applications of the main results include a large class of McKean-Vlasov stochastic partial differential equations such as stochastic 2D/3D Navier-Stokes equations, stochastic Cahn-Hilliard equations and stochastic Kuramoto-Sivashinsky equations. Finally, we show a propagation of chaos result in Wasserstein distance for weakly interacting stochastic 2D Navier-Stokes systems.</summary>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-06-27T14:31:47Z</published>
+    <arxiv:comment>66 pages. Accepted by Probab. Theory Related Fields</arxiv:comment>
+    <arxiv:primary_category term="math.PR"/>
+    <author>
+      <name>Wei Hong</name>
+    </author>
+    <author>
+      <name>Shihu Li</name>
+    </author>
+    <author>
+      <name>Wei Liu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2205.04043v4</id>
+    <title>McKean-Vlasov SDE and SPDE with Locally Monotone Coefficients</title>
+    <updated>2024-01-12T06:02:47Z</updated>
+    <link href="https://arxiv.org/abs/2205.04043v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2205.04043v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper we mainly investigate the strong and weak well-posedness of a class of McKean-Vlasov stochastic (partial) differential equations. The main existence and uniqueness results state that we only need to impose some local assumptions on the coefficients, i.e. locally monotone condition both in state variable and distribution variable, which cause some essential difficulty since the coefficients of McKean-Vlasov stochastic equations typically are nonlocal. Furthermore, the large deviation principle is also derived for the McKean-Vlasov stochastic equations under those weak assumptions. The wide applications of main results are illustrated by various concrete examples such as the granular media equations, plasma type models, kinetic equations, McKean-Vlasov type porous media equations and Navier-Stokes equations. In particular, we could remove or relax some typical assumptions previously imposed on those models.</summary>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-05-09T05:11:04Z</published>
+    <arxiv:comment>54 pages. Accepted by Annals of Applied Probability</arxiv:comment>
+    <arxiv:primary_category term="math.PR"/>
+    <author>
+      <name>Wei Hong</name>
+    </author>
+    <author>
+      <name>Shanshan Hu</name>
+    </author>
+    <author>
+      <name>Wei Liu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2402.18108v2</id>
+    <title>Large Deviation Principle for Multi-Scale Fully Local Monotone Stochastic Dynamical Systems with Multiplicative Noise</title>
+    <updated>2024-03-08T05:09:33Z</updated>
+    <link href="https://arxiv.org/abs/2402.18108v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2402.18108v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper is devoted to proving the small noise asymptotic behaviour, particularly large deviation principle, for multi-scale stochastic dynamical systems with fully local monotone coefficients driven by multiplicative noise. The main techniques are based on a combination of the weak convergence approach, the time discretization technique and the theory of pseudo-monotone operator. The main results derived in this paper have broad applicability to various multi-scale models, where the slow component could be such as stochastic porous medium equations, stochastic Cahn-Hilliard equations and stochastic 2D Liquid crystal equations.</summary>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-02-28T06:54:38Z</published>
+    <arxiv:comment>40 pages</arxiv:comment>
+    <arxiv:primary_category term="math.PR"/>
+    <author>
+      <name>Wei Hong</name>
+    </author>
+    <author>
+      <name>Wei Liu</name>
+    </author>
+    <author>
+      <name>Luhan Yang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2107.14401v2</id>
+    <title>Strong Convergence Rates in Averaging Principle for Slow-Fast McKean-Vlasov SPDEs</title>
+    <updated>2022-01-20T07:44:03Z</updated>
+    <link href="https://arxiv.org/abs/2107.14401v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2107.14401v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we aim to study the asymptotic behaviour for a class of McKean-Vlasov stochastic partial differential equations with slow and fast time-scales. Using the variational approach and classical Khasminskii time discretization, we show that the slow component strongly converges to the solution of the associated averaged equation. In particular, the corresponding convergence rates are also obtained. The main results can be applied to demonstrate the averaging principle for various McKean-Vlasov nonlinear SPDEs such as stochastic porous media type equation, stochastic $p$-Laplace type equation and also some McKean-Vlasov stochastic differential equations.</summary>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-07-30T02:42:49Z</published>
+    <arxiv:comment>35 pages</arxiv:comment>
+    <arxiv:primary_category term="math.PR"/>
+    <author>
+      <name>Wei Hong</name>
+    </author>
+    <author>
+      <name>Shihu Li</name>
+    </author>
+    <author>
+      <name>Wei Liu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2502.11640v2</id>
+    <title>Generalized Yosida Approximation and Multi-Valued Stochastic Evolution Inclusions</title>
+    <updated>2025-07-25T13:21:29Z</updated>
+    <link href="https://arxiv.org/abs/2502.11640v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2502.11640v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we generalize the classical Yosida approximation by utilizing a nonstandard duality mapping to establish the existence and uniqueness of both (probabilistically) weak and strong solutions and demonstrate the continuous dependence on initial values for a class of multi-valued stochastic evolution inclusions within the variational framework.
+  Furthermore, leveraging this generalized Yosida approximation, we derive the finite-time extinction of solutions with probability one and also provide an explicit upper bound of the moment of extinction time for multi-valued stochastic evolution inclusions perturbed by linear multiplicative noise. The main results are applicable to various examples, including multi-valued stochastic porous media equations, stochastic $Φ$-Laplace equations and stochastic evolution inclusions involving subdifferentials.</summary>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-02-17T10:33:54Z</published>
+    <arxiv:comment>52 pages</arxiv:comment>
+    <arxiv:primary_category term="math.PR"/>
+    <author>
+      <name>Wujing Fan</name>
+    </author>
+    <author>
+      <name>Wei Hong</name>
+    </author>
+    <author>
+      <name>Wei Liu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2511.15223v2</id>
+    <title>Stochastic Forced 3D Navier-Stokes Equations in $\mathbb{H}^{1/2}$-Space</title>
+    <updated>2026-03-08T08:37:56Z</updated>
+    <link href="https://arxiv.org/abs/2511.15223v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2511.15223v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In the classical work [FK], Fujita and Kato established the local existence of solutions to the 3D Navier-Stokes equations in the critical $\mathbb{H}^{1/2}$-space. In this paper, we are concerned with the global well-posedness of the stochastic forced 3D Navier-Stokes equations in the $\mathbb{H}^{1/2}$-space under general initial conditions, where the stochastic forcing comprises a transport forcing and a nonlocal turbulent forcing. In this setting, the random noise is shown to provide a regularization effect on the energy estimates, which we obtain by constructing suitable Lyapunov functions. However, its nonlocality also brings analytical challenges. We develop a bootstrap type estimate based on the kinematic viscosity together with a delicate stopping time argument to prove the global existence and uniqueness of solutions, as well as continuous dependence on the initial value. Furthermore, we also investigated the long-time behavior of the stochastic forced 3D Navier-Stokes equations.</summary>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-11-19T08:20:24Z</published>
+    <arxiv:comment>59 pages</arxiv:comment>
+    <arxiv:primary_category term="math.PR"/>
+    <author>
+      <name>Wei Hong</name>
+    </author>
+    <author>
+      <name>Shihu Li</name>
+    </author>
+    <author>
+      <name>Wei Liu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1901.06149v2</id>
+    <title>Shearing-induced contact pattern formation in hydrogels sliding in polymer solution</title>
+    <updated>2019-02-16T17:16:46Z</updated>
+    <link href="https://arxiv.org/abs/1901.06149v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1901.06149v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The contact of a hydrogel during the rotational shearing on glass surface in concentrated polymer solution was observed in situ. Dynamic contact patterns that rotate in-phase with the rotational shearing of the gel were observed for the first time. The contact patterns with a periodicity in the circumferential direction appeared and developed into fine characters with the shearing time. The patterns appeared more quickly at elevated sliding velocity, polymer concentration, and normal pressure. Furthermore, the softness of the gel also substantially influenced the character of the patterns. The pattern formation was discussed in terms of the non-linear rheology of the polymer solution at the rotational soft interface.</summary>
+    <category term="cond-mat.soft" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.class-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-01-18T09:34:50Z</published>
+    <arxiv:primary_category term="cond-mat.soft"/>
+    <author>
+      <name>Shintaro Yashima</name>
+      <arxiv:affiliation>LOMA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Satoshi Hirayama</name>
+      <arxiv:affiliation>LOMA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Takayuki Kurokawa</name>
+      <arxiv:affiliation>LOMA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Thomas Salez</name>
+      <arxiv:affiliation>LOMA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Haruna Takefuji</name>
+    </author>
+    <author>
+      <name>Wei Hong</name>
+    </author>
+    <author>
+      <name>Jian Ping Gong</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2206.01928v1</id>
+    <title>Diffusion Approximation for Multi-Scale McKean-Vlasov SDEs Through Different Methods</title>
+    <updated>2022-06-04T07:42:54Z</updated>
+    <link href="https://arxiv.org/abs/2206.01928v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2206.01928v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we aim to study the diffusion approximation for multi-scale McKean-Vlasov stochastic differential equations. More precisely, we prove the weak convergence of slow process $X^\varepsilon$ in $C([0,T];\mathbb{R}^n)$ towards the limiting process $X$ that is the solution of a distribution dependent stochastic differential equation in which some new drift and diffusion terms compared to the original equation appear. The main contribution is to use two different methods to explicitly characterize the limiting equations respectively. The obtained diffusion coefficients in the limiting equations have different form through these two methods, however it will be asserted that they are essential the same by a comparison.</summary>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-06-04T07:42:54Z</published>
+    <arxiv:comment>38 pages</arxiv:comment>
+    <arxiv:primary_category term="math.PR"/>
+    <author>
+      <name>Wei Hong</name>
+    </author>
+    <author>
+      <name>Shihu Li</name>
+    </author>
+    <author>
+      <name>Xiaobin Sun</name>
+    </author>
+  </entry>
+</feed>

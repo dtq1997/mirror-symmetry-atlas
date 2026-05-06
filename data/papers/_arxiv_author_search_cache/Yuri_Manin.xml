@@ -1,0 +1,912 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Dq3jcBzAebDk0EGhr7qKEJpqQ80</id>
+  <title>arXiv Query: search_query=au:"Yuri Manin" AND (cat:math.AG OR cat:math.AT OR cat:math.AP OR cat:math.CT OR cat:math.CA OR cat:math.CO OR cat:math.DG OR cat:math.DS OR cat:math.FA OR cat:math.GT OR cat:math.MP OR cat:math.OA OR cat:math.PR OR cat:math.QA OR cat:math.RA OR cat:math.RT OR cat:math.SG OR cat:math.SP OR cat:math.ST OR cat:math.NT OR cat:math.GR OR cat:math.HO OR cat:math-ph OR cat:nlin.SI OR cat:nlin.CD OR cat:hep-th OR cat:q-alg OR cat:dg-ga OR cat:alg-geom OR cat:cond-mat.stat-mech)&amp;id_list=&amp;start=0&amp;max_results=200</title>
+  <updated>2026-05-06T07:29:58Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=au:%22Yuri+Manin%22+AND+(cat:math.AG+OR+(cat:math.AT+OR+(cat:math.AP+OR+(cat:math.CT+OR+(cat:math.CA+OR+(cat:math.CO+OR+(cat:math.DG+OR+(cat:math.DS+OR+(cat:math.FA+OR+(cat:math.GT+OR+(cat:math.MP+OR+(cat:math.OA+OR+(cat:math.PR+OR+(cat:math.QA+OR+(cat:math.RA+OR+(cat:math.RT+OR+(cat:math.SG+OR+(cat:math.SP+OR+(cat:math.ST+OR+(cat:math.NT+OR+(cat:math.GR+OR+(cat:math.HO+OR+(cat:math-ph+OR+(cat:nlin.SI+OR+(cat:nlin.CD+OR+(cat:hep-th+OR+(cat:q-alg+OR+(cat:dg-ga+OR+(cat:alg-geom+OR+cat:cond-mat.stat-mech)))))))))))))))))))))))))))))&amp;start=0&amp;max_results=200&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>200</opensearch:itemsPerPage>
+  <opensearch:totalResults>49</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/math/0703718v2</id>
+    <title>Modular shadows and the Levy-Mellin infinity-adic transform</title>
+    <updated>2007-07-13T11:52:26Z</updated>
+    <link href="https://arxiv.org/abs/math/0703718v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/0703718v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  This paper continues the study of the structures induced on the ``invisible boundary'' of the modular tower and extends some results of math.NT/0102006. We start with a systematic formalism of pseudo-measures generalizing the well-known theory of modular symbols for SL(2). These pseudo-measures, and the related integral formula which we call the Levy-Mellin transform, can be considered as an ``infinity-adic'' version of Mazur's p-adic measures introduced in the seventies in the theory of p-adic interpolation of Mellin transforms of cusp forms. A formalism of iterated Levy-Mellin transform in the style of math.NT/0502576 is sketched. Finally, we discuss the invisible boundary from the perspective of non-commutative geometry.</summary>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.QA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2007-03-24T10:21:21Z</published>
+    <arxiv:comment>Amstex 47 pages, 1 eps figure (v2: final version)</arxiv:comment>
+    <arxiv:primary_category term="math.NT"/>
+    <author>
+      <name>Yuri Manin</name>
+      <arxiv:affiliation>MPI and Northwestern</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Matilde Marcolli</name>
+      <arxiv:affiliation>MPI</arxiv:affiliation>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/0102006v2</id>
+    <title>Continued fractions, modular symbols, and non-commutative geometry</title>
+    <updated>2001-08-07T11:58:06Z</updated>
+    <link href="https://arxiv.org/abs/math/0102006v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/0102006v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Using techniques introduced by D. Mayer, we prove an extension of the classical Gauss-Kuzmin theorem about the distribution of continued fractions, which in particular allows one to take into account some congruence properties of successive convergents. This result has an application to the Mixmaster Universe model in general relativity. We then study some averages involving modular symbols and show that Dirichlet series related to modular forms of weight 2 can be obtained by integrating certain functions on real axis defined in terms of continued fractions. We argue that the quotient $PGL(2,\bold{Z})\setminus\bold{P}^1(\bold{R})$ should be considered as non-commutative modular curve, and show that the modular complex can be seen as a sequence of $K_0$-groups of the related crossed-product $C^*$-algebras.
+  This paper is an expanded version of the previous "On the distribution of continued fractions and modular symbols". The main new features are Section 4 on non-commutative geometry and the modular complex and Section 1.2.2 on the Mixmaster Universe.</summary>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.DS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nlin.CD" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2001-02-01T14:41:02Z</published>
+    <arxiv:comment>AMS-TeX, 50 pages, 2 figures (eps)</arxiv:comment>
+    <arxiv:primary_category term="math.NT"/>
+    <author>
+      <name>Yuri I. Manin</name>
+      <arxiv:affiliation>MPIM Bonn</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Matilde Marcolli</name>
+      <arxiv:affiliation>MPIM Bonn</arxiv:affiliation>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1802.04072v1</id>
+    <title>Higher structures, quantum groups, and genus zero modular operad</title>
+    <updated>2018-02-12T14:35:41Z</updated>
+    <link href="https://arxiv.org/abs/1802.04072v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1802.04072v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In my Montreal lecture notes of 1988, it was suggested that the theory of linear quantum groups can be presented in the framework of the category of {\it quadratic algebras} (imagined as algebras of functions on "quantum linear spaces"), and quadratic algebras of their inner (co)homomorphisms.
+  Soon it was understood (E. Getzler and J. Jones, V.  Ginzburg, M. Kapranov, M. Kontsevich, M. Markl, B. Vallette et al.) that the class of {\it quadratic operads} can be introduced and the main theorems about quadratic algebras can be generalised to the level of such operads, if their components are {\it linear spaces} (or objects of more general monoidal categories.)
+  When quantum cohomology entered the scene, it turned out that the basic tree level (genus zero) (co)operad of quantum cohomology not only is {\it quadratic} one, but its {\it components are themselves quadratic algebras.}
+  In this short note, I am studying the interaction of quadratic algebras structure with operadic structure in the context of enriched category formalism due to G. M. Kelly et al.</summary>
+    <category term="math.CT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-02-12T14:35:41Z</published>
+    <arxiv:comment>13 pages</arxiv:comment>
+    <arxiv:primary_category term="math.CT"/>
+    <author>
+      <name>Yuri Manin</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/0103164v1</id>
+    <title>(Semi)simple exercises in quantum cohomology</title>
+    <updated>2001-03-26T11:40:44Z</updated>
+    <link href="https://arxiv.org/abs/math/0103164v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/0103164v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The paper is dedicated to the study of algebraic manifolds whose quantum cohomology or a part of it is a semisimple Frobenius manifold. Theorem 1.8.1 says, roughly speaking, that the sum of $(p,p)$--cohomology spaces is a maximal Frobenius submanifold that has chances to be semisimple. Theorem 1.8.3 provides a version of the Reconstruction theorem, assuming semisimplicity but not $H^2$--generation. Theorem 3.6.1 establishes the semisimplicity for all del Pezzo surfaces, providing an evidence for the conjecture that semisimplicity is related to the existence of a full system of exceptional sheaves of the appropriate length. Finally, in §2 we calculate special coordinates for three families of Fano threefolds with minimal cohomology.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2001-03-26T11:40:44Z</published>
+    <arxiv:comment>30 pp., amstex file, no figures</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <arxiv:journal_ref>The Fano Conference, Univ. Torino, Turin, 2004, 143-173</arxiv:journal_ref>
+    <author>
+      <name>Arend Bayer</name>
+    </author>
+    <author>
+      <name>Yuri Manin</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1504.04005v1</id>
+    <title>Symbolic Dynamics, Modular Curves, and Bianchi IX Cosmologies</title>
+    <updated>2015-04-15T19:58:37Z</updated>
+    <link href="https://arxiv.org/abs/1504.04005v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1504.04005v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>It is well known that the so called Bianchi IX spacetimes with SO(3)-symmetry in a neighbourhood of the Big Bang exhibit a chaotic behaviour of typical trajectories in the backward movement of time. This behaviour (Mixmaster Model of the Universe) can be encoded by the shift of two-sided continued fractions. Exactly the same shift encodes the sequences of intersections of hyperbolic geodesics with purely imaginary axis in the upper complex half-plane, that is geodesic flow on an appropriate modular surface. A physical interpretation of this coincidence was suggested in arXiv:1402.2158: namely, that Mixmaster chaos is an approximate description of the passage from a hot quantum Universe at the Big Bang moment to the cooling classical Universe. Here we discuss and elaborate this suggestion, looking at the Mixmaster Model from the perspective of the second class of Bianchi IX spacetimes: those with SU(2)-symmetry (self-dual Einstein metrics). We also extend it to the more general context related to Painleve' VI equations.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-04-15T19:58:37Z</published>
+    <arxiv:comment>26 pages, TeX</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <author>
+      <name>Yuri Manin</name>
+    </author>
+    <author>
+      <name>Matilde Marcolli</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2112.15237v1</id>
+    <title>Quantum Operads</title>
+    <updated>2021-12-30T23:16:41Z</updated>
+    <link href="https://arxiv.org/abs/2112.15237v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2112.15237v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The most standard description of symmetries of a mathematical structure produces a group. However, when the definition of this structure is motivated by physics, or information theory, etc., the respective symmetry objects might become more sophisticated: quasigroups, loops, quantum groups, ... In this paper, we introduce and study quantum symmetries of very general categorical structures: operads. Its initial motivation were spaces of probability distributions on finite sets. We also investigate here how structures of quantum information, such as quantum states and some constructions of quantum codes are algebras over operads.</summary>
+    <category term="math.QA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-12-30T23:16:41Z</published>
+    <arxiv:comment>amstex, 34 pages</arxiv:comment>
+    <arxiv:primary_category term="math.QA"/>
+    <author>
+      <name>Noemie Combe</name>
+    </author>
+    <author>
+      <name>Yuri Manin</name>
+    </author>
+    <author>
+      <name>Matilde Marcolli</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2212.06778v1</id>
+    <title>Cohn-Elkies functions from Gabor frames</title>
+    <updated>2022-12-13T17:52:36Z</updated>
+    <link href="https://arxiv.org/abs/2212.06778v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2212.06778v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We investigate the relation between two different mathematical problems: the construction of bounds on sphere packing density using Cohn-Elkies functions and the construction of Gabor frames for signal analysis. In particular, we present a general construction of Cohn-Elkies functions in arbitrary dimension, obtained from an approximate Wexel-Raz dual for Gabor frames with Gaussian window.</summary>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.MG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-12-13T17:52:36Z</published>
+    <arxiv:comment>27 pages, LaTeX</arxiv:comment>
+    <arxiv:primary_category term="math.FA"/>
+    <author>
+      <name>Yuri Manin</name>
+    </author>
+    <author>
+      <name>Matilde Marcolli</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/9810132v1</id>
+    <title>Weak Frobenius manifolds</title>
+    <updated>1998-10-21T13:51:01Z</updated>
+    <link href="https://arxiv.org/abs/math/9810132v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/9810132v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We establish a new universal relation between the Lie bracket and $\circ$-multiplication of tangent fields on any Frobenius (super)manifold. We use this identity in order to introduce the notion of ``weak Frobenius manifold'' which does not involve metric as part of structure. As another application, we show that the powers of an Euler field generate (a half of) the Virasoro algebra on an arbitrary, not necessarily semisimple, Frobenius supermanifold.</summary>
+    <category term="math.QA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1998-10-21T13:51:01Z</published>
+    <arxiv:comment>9 pp, no figures</arxiv:comment>
+    <arxiv:primary_category term="math.QA"/>
+    <author>
+      <name>Claus Hertling</name>
+    </author>
+    <author>
+      <name>Yuri Manin</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/0207089v3</id>
+    <title>Unfoldings of meromorphic connections and a construction of Frobenius manifolds</title>
+    <updated>2003-03-07T18:16:59Z</updated>
+    <link href="https://arxiv.org/abs/math/0207089v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/0207089v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The existence of universal unfoldings of certain germs of meromorphic connections is established. This is used to prove a general construction theorem for Frobenius manifolds. A particular case is Dubrovin's theorem on semisimple Frobenius manifolds. Another special case starts with variations of Hodge structures. This case is used to compare two constructions of Frobenius manifolds, the one in singularity theory and the Barannikov-Kontsevich construction. For homogeneous polynomials which give Calabi-Yau hypersurfaces certain Frobenius submanifolds in both constructions are isomorphic.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2002-07-10T20:44:22Z</published>
+    <arxiv:comment>34 pages, amslatex, remark 2.10 added, shorter proof of 2.9</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <author>
+      <name>Claus Hertling</name>
+    </author>
+    <author>
+      <name>Yuri Manin</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/alg-geom/9708024v1</id>
+    <title>Relations between the correlators of the topological sigma-model coupled to gravity</title>
+    <updated>1997-08-28T13:06:05Z</updated>
+    <link href="https://arxiv.org/abs/alg-geom/9708024v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/alg-geom/9708024v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We prove a new recursive relation between the correlators $&lt; τ_{d_1}γ_1...τ_{d_n}γ_n &gt;_{g,β}$, which together with known relations allows one to express all of them through the full system of Gromov-Witten invariants in the sense of Kontsevich-Manin and the intersection indices of tautological classes on $\bar{M}_{g,n}$, effectively calculable in view of earlier results due to Mumford, Kontsevich, Getzler, and Faber. This relation shows that a linear change of coordinates of the big phase space transforms the potential with gravitational descendants to another function defined completely in terms of the Gromov-Witten correspondence and the intersection theory on $V^n\times\bar{M}_{g,n}$. We then extend the formalism of gravitational descendants from quantum cohomology to more general Frobenius manifolds and Cohomological Field Theories.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1997-08-28T13:06:05Z</published>
+    <arxiv:comment>AMS-Tex, 13 pages, no figures</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <arxiv:journal_ref>Commun.Math.Phys. 196 (1998) 385-398</arxiv:journal_ref>
+    <author>
+      <name>Maxim Kontsevich</name>
+    </author>
+    <author>
+      <name>Yuri I. Manin</name>
+    </author>
+    <arxiv:doi>10.1007/s002200050426</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s002200050426" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2202.10321v2</id>
+    <title>Moduli spaces of SUSY curves and their operads</title>
+    <updated>2022-09-12T14:05:04Z</updated>
+    <link href="https://arxiv.org/abs/2202.10321v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2202.10321v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This article generalizes the operad of moduli spaces of curves to SUSY curves. SUSY curves are algebraic curves with additional supersymmetric or supergeometric structure. Here, we focus on the description of the relevant category of graphs and its combinatorics as well as the construction of dual graphs of SUSY curves and the SUSY operad taking values in a category of moduli spaces of SUSY curves with Neveu-Schwarz and Ramond punctures.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-02-21T15:46:06Z</published>
+    <arxiv:comment>generalized the main result to unlabeled SUSY graphs allowing for automorphisms of corollas; clarified the relationship to the modular operad of moduli spaces of algebraic curves in all genera; improved presentation, in particular in Ch. 4 where we gave an explicit construction of SUSY operads in arbitrary categories</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <author>
+      <name>Enno Keßler</name>
+    </author>
+    <author>
+      <name>Yuri I. Manin</name>
+    </author>
+    <author>
+      <name>Yingying Wu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1302.6695v1</id>
+    <title>Complexity vs Energy: Theory of Computation and Theoretical Physics</title>
+    <updated>2013-02-27T08:25:59Z</updated>
+    <link href="https://arxiv.org/abs/1302.6695v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1302.6695v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper is a survey dedicated to the analogy between the notions of {\it complexity} in theoretical computer science and {\it energy} in physics. This analogy is not metaphorical: I describe three precise mathematical contexts, suggested recently, in which mathematics related to (un)computability is inspired by and to a degree reproduces formalisms of statistical physics and quantum field theory.</summary>
+    <category term="cs.CC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-02-27T08:25:59Z</published>
+    <arxiv:comment>23 pages. Talk at the satellite conference to ECM 2012, "QQQ Algebra, Geometry, Information", Tallinn, July 9-12, 2012</arxiv:comment>
+    <arxiv:primary_category term="cs.CC"/>
+    <author>
+      <name>Yuri I. Manin</name>
+    </author>
+    <arxiv:doi>10.1088/1742-6596/532/1/012018</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1742-6596/532/1/012018" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2006.13663v1</id>
+    <title>Dessins for Modular Operad and Grothendieck-Teichmuller Group</title>
+    <updated>2020-06-03T18:26:48Z</updated>
+    <link href="https://arxiv.org/abs/2006.13663v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2006.13663v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A part of Grothendieck's program for studying the Galois group $G_{\mathbb Q}$ of the field of all algebraic numbers $\overline{\mathbb Q}$ emerged from his insight that one should lift its action upon $\overline{\mathbb Q}$ to the action of $G_{\mathbb Q}$ upon the (appropriately defined) profinite completion of $π_1({\mathbb P}^1 \setminus \{0,1, \infty\})$. The latter admits a good combinatorial encoding via finite graphs "dessins d'enfant". This part was actively developing during the last decades, starting with foundational works of A. Belyi, V. Drinfeld and Y. Ihara. Our brief note concerns another part of Grothendieck program, in which its geometric environment is extended to moduli spaces of algebraic curves, more specifically, stable curves of genus zero with marked/labelled points. Our main goal is to show that dual graphs of such curves may play the role of "modular dessins" in an appropriate operadic context.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-06-03T18:26:48Z</published>
+    <arxiv:comment>amstex, 28 pages</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <author>
+      <name>Noemie C. Combe</name>
+    </author>
+    <author>
+      <name>Yuri I. Manin</name>
+    </author>
+    <author>
+      <name>Matilde Marcolli</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0809.2716v2</id>
+    <title>Quantum theta functions and Gabor frames for modulation spaces</title>
+    <updated>2009-02-17T15:43:32Z</updated>
+    <link href="https://arxiv.org/abs/0809.2716v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0809.2716v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Representations of the celebrated Heisenberg commutation relations in quantum mechanics and their exponentiated versions form the starting point for a number of basic constructions, both in mathematics and mathematical physics (geometric quantization, quantum tori, classical and quantum theta functions) and signal analysis (Gabor analysis).
+  In this paper we try to bridge the two communities, represented by the two co--authors: that of noncommutative geometry and that of signal analysis. After providing a brief comparative dictionary of the two languages, we will show e.g. that the Janssen representation of Gabor frames with generalized Gaussians as Gabor atoms yields in a natural way quantum theta functions, and that the Rieffel scalar product and associativity relations underlie both the functional equations for quantum thetas and the Fundamental Identity of Gabor analysis.</summary>
+    <category term="math.QA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.OA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2008-09-16T14:24:31Z</published>
+    <arxiv:comment>38 pages, typos corrected, MSC class changed</arxiv:comment>
+    <arxiv:primary_category term="math.QA"/>
+    <author>
+      <name>Franz Luef</name>
+    </author>
+    <author>
+      <name>Yuri I. Manin</name>
+    </author>
+    <arxiv:doi>10.1007/s11005-009-0306-7</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s11005-009-0306-7" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2101.00197v2</id>
+    <title>Homotopy Spectra and Diophantine Equations</title>
+    <updated>2021-05-02T16:28:18Z</updated>
+    <link href="https://arxiv.org/abs/2101.00197v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2101.00197v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Arguably, the first bridge between vast, ancient, but disjoint domains of mathematical knowledge, - topology and number theory, - was built only during the last fifty years. This bridge is the theory of spectra in stable homotopy theory. This connection poses the challenge: discover new information in number theory using the independently-developed machinery of homotopy theory. In this combined research/survey paper we suggest to apply homotopy spectra to the problem of distribution of rational points upon algebraic manifolds.</summary>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-01-01T08:50:31Z</published>
+    <arxiv:comment>87 pages amstex</arxiv:comment>
+    <arxiv:primary_category term="math.NT"/>
+    <author>
+      <name>Yuri I. Manin</name>
+    </author>
+    <author>
+      <name>Matilde Marcolli</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/0502016v1</id>
+    <title>The notion of dimension in geometry and algebra</title>
+    <updated>2005-02-01T12:29:32Z</updated>
+    <link href="https://arxiv.org/abs/math/0502016v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/0502016v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  This talk reviews some mathematical and physical ideas related to the notion of dimension. After a brief historical introduction, various modern constructions from fractal geometry, noncommutative geometry, and theoretical physics are invoked and compared.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.GM" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2005-02-01T12:29:32Z</published>
+    <arxiv:comment>29 pages, a review</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <author>
+      <name>Yuri I. Manin</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/0402451v1</id>
+    <title>F-manifolds with flat structure and Dubrovin's duality</title>
+    <updated>2004-02-27T10:04:08Z</updated>
+    <link href="https://arxiv.org/abs/math/0402451v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/0402451v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  This work continues the study of $F$--manifolds $(M,\circ)$, first defined by Hertling and Manin and investigated in [He]. The notion of a compatible flat structure $\nabla$ is introduced, and it is shown that many constructions known for Frobenius manifolds do not in fact require invariant metrics and can be developed for all such triples $(M,\circ ,\nabla).$ In particular, we extend and generalize recent Dubrovin's duality.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2004-02-27T10:04:08Z</published>
+    <arxiv:comment>22 pages</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <author>
+      <name>Yuri I. Manin</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1901.00020v2</id>
+    <title>Bost-Connes systems and F1-structures in Grothendieck rings, spectra, and Nori motives</title>
+    <updated>2020-10-25T00:40:40Z</updated>
+    <link href="https://arxiv.org/abs/1901.00020v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1901.00020v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We construct geometric lifts of the Bost-Connes algebra to Grothendieck rings and to the associated assembler categories and spectra, as well as to certain categories of Nori motives. These categorifications are related to the integral Bost-Connes algebra via suitable Euler characteristic type maps and zeta functions, and in the motivic case via fiber functors. We also discuss aspects of F1-geometry, in the framework of torifications, that fit into this general setting.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-12-31T19:00:16Z</published>
+    <arxiv:comment>68 pages, LaTeX; V2: order of sections reorganized, some material added</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <author>
+      <name>Joshua F. Lieber</name>
+    </author>
+    <author>
+      <name>Yuri I. Manin</name>
+    </author>
+    <author>
+      <name>Matilde Marcolli</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1907.13545v3</id>
+    <title>Quantum Statistical Mechanics of the Absolute Galois Group</title>
+    <updated>2020-05-05T07:32:46Z</updated>
+    <link href="https://arxiv.org/abs/1907.13545v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1907.13545v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present possible extensions of the quantum statistical mechanical formulation of class field theory to the non-abelian case, based on the action of the absolute Galois group on Grothendieck's dessins d'enfant, the embedding in the Grothendieck-Teichmüller group, and the Drinfeld-Ihara involution.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-07-31T15:01:40Z</published>
+    <arxiv:primary_category term="math.AG"/>
+    <arxiv:journal_ref>SIGMA 16 (2020), 038, 52 pages</arxiv:journal_ref>
+    <author>
+      <name>Yuri I. Manin</name>
+    </author>
+    <author>
+      <name>Matilde Marcolli</name>
+    </author>
+    <arxiv:doi>10.3842/SIGMA.2020.038</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.3842/SIGMA.2020.038" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-th/0201036v1</id>
+    <title>Holography principle and arithmetic of algebraic curves</title>
+    <updated>2002-01-07T14:12:31Z</updated>
+    <link href="https://arxiv.org/abs/hep-th/0201036v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-th/0201036v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  According to the holography principle (due to G.`t Hooft, L. Susskind, J. Maldacena, et al.), quantum gravity and string theory on certain manifolds with boundary can be studied in terms of a conformal field theory on the boundary. Only a few mathematically exact results corroborating this exciting program are known. In this paper we interpret from this perspective several constructions which arose initially in the arithmetic geometry of algebraic curves. We show that the relation between hyperbolic geometry and Arakelov geometry at arithmetic infinity involves exactly the same geometric data as the Euclidean AdS_3 holography of black holes. Moreover, in the case of Euclidean AdS_2 holography, we present some results on bulk/boundary correspondence where the boundary is a non-commutative space.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2002-01-07T14:12:31Z</published>
+    <arxiv:comment>AMSTeX 30 pages, 7 figures</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <arxiv:journal_ref>Adv.Theor.Math.Phys. 5 (2002) 617-650</arxiv:journal_ref>
+    <author>
+      <name>Yuri I. Manin</name>
+      <arxiv:affiliation>MPI</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Matilde Marcolli</name>
+      <arxiv:affiliation>MPI</arxiv:affiliation>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0809.1564v2</id>
+    <title>Cyclotomy and analytic geometry over F_1</title>
+    <updated>2009-03-23T13:32:31Z</updated>
+    <link href="https://arxiv.org/abs/0809.1564v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0809.1564v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Geometry over non--existent "field with one element" $F_1$ conceived by Jacques Tits [Ti] half a century ago recently found an incarnation, in at least two related but different guises. In this paper I analyze the crucial role of roots of unity in this geometry and propose a version of the notion of "analytic functions" over $F_1$. The paper combines a focused survey with some new constructions.
+  In new version, several local additions and changes are made, references added.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2008-09-09T14:09:47Z</published>
+    <arxiv:comment>30 pages</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <author>
+      <name>Yuri I. Manin</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0904.4921v2</id>
+    <title>Renormalization and computation I: motivation and background</title>
+    <updated>2009-08-25T13:48:17Z</updated>
+    <link href="https://arxiv.org/abs/0904.4921v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0904.4921v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  In this paper I argue that infinities in the classical computation theory such as the unsolvability of the Halting Problem can be addressed in the same way as Feynman divergences in Quantum Field Theory, and that meaningful versions of renormalization in this context can be devised. Connections with quantum computation are also touched upon.</summary>
+    <category term="math.QA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2009-04-30T19:23:52Z</published>
+    <arxiv:comment>49 pages, 1 figure In the new version typos are fixed, minor corrections made, dedication added, reference to Part II added</arxiv:comment>
+    <arxiv:primary_category term="math.QA"/>
+    <author>
+      <name>Yuri I. Manin</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0910.5135v1</id>
+    <title>Error-correcting codes and phase transitions</title>
+    <updated>2009-10-27T14:40:50Z</updated>
+    <link href="https://arxiv.org/abs/0910.5135v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0910.5135v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The theory of error-correcting codes is concerned with constructing codes that optimize simultaneously transmission rate and relative minimum distance. These conflicting requirements determine an asymptotic bound, which is a continuous curve in the space of parameters. The main goal of this paper is to relate the asymptotic bound to phase diagrams of quantum statistical mechanical systems. We first identify the code parameters with Hausdorff and von Neumann dimensions, by considering fractals consisting of infinite sequences of code words. We then construct operator algebras associated to individual codes. These are Toeplitz algebras with a time evolution for which the KMS state at critical temperature gives the Hausdorff measure on the corresponding fractal. We extend this construction to algebras associated to limit points of codes, with non-uniform multi-fractal measures, and to tensor products over varying parameters.</summary>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.QA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2009-10-27T14:40:50Z</published>
+    <arxiv:comment>amstex 57 pages, 3 eps figures</arxiv:comment>
+    <arxiv:primary_category term="cs.IT"/>
+    <author>
+      <name>Yuri I. Manin</name>
+    </author>
+    <author>
+      <name>Matilde Marcolli</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1601.00096v1</id>
+    <title>Modular forms of real weights and generalized Dedekind symbols</title>
+    <updated>2016-01-01T16:36:21Z</updated>
+    <link href="https://arxiv.org/abs/1601.00096v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1601.00096v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In a previous paper, I have defined non--commutative generalized Dedekind symbols for classical $PSL(2,Z)$--cusp forms using iterated period polynomials. Here I generalize this construction to forms of real weights using their iterated period functions introduced and studied in a recent article by R.~Bruggeman and Y.~Choie.</summary>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-01-01T16:36:21Z</published>
+    <arxiv:comment>16 pages</arxiv:comment>
+    <arxiv:primary_category term="math.NT"/>
+    <author>
+      <name>Yuri I. Manin</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/0607580v2</id>
+    <title>Stability Conditions, Wall-crossing and weighted Gromov-Witten Invariants</title>
+    <updated>2009-01-20T21:44:43Z</updated>
+    <link href="https://arxiv.org/abs/math/0607580v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/0607580v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We extend B. Hassett's theory of weighted stable pointed curves ([Has03]) to weighted stable maps. The space of stability conditions is described explicitly, and the wall-crossing phenomenon studied. This can be considered as a non-linear analog of the theory of stability conditions in abelian and triangulated categories.
+  We introduce virtual fundamental classes and thus obtain weighted Gromov-Witten invariants. We show that by including gravitational descendants, one obtains an $\LL$-algebra as introduced in [LM04] as a generalization of a cohomological field theory.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2006-07-23T20:15:55Z</published>
+    <arxiv:comment>28 pages; v2: references added and updated, addressed referee comments; to appear in Moscow Math Journal</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <arxiv:journal_ref>Mosc. Math. J., 2009, 9, 3-32</arxiv:journal_ref>
+    <author>
+      <name>Arend Bayer</name>
+    </author>
+    <author>
+      <name>Yuri I. Manin</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1205.6044v1</id>
+    <title>Foundations as Superstructure. (Reflections of a practicing mathematician)</title>
+    <updated>2012-05-28T07:54:21Z</updated>
+    <link href="https://arxiv.org/abs/1205.6044v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1205.6044v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This talk presents foundations of mathematics as a historically variable set of principles appealing to various modes of human intuition and devoid of any prescriptive/prohibitive power. At each turn of history, foundations crystallize the accepted norms of interpersonal and intergenerational transfer and justification of mathematical knowledge.</summary>
+    <category term="math.HO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-05-28T07:54:21Z</published>
+    <arxiv:comment>15 pages. Talk at the international interdisciplinary conference "Philosophy, Mathematics, Linguistics: Aspects of Interaction", Euler Mathematical Institute, St Petersburg, May 22-25, 2012</arxiv:comment>
+    <arxiv:primary_category term="math.HO"/>
+    <author>
+      <name>Yuri I. Manin</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1302.6526v3</id>
+    <title>Moduli Operad over F1</title>
+    <updated>2013-05-23T17:35:37Z</updated>
+    <link href="https://arxiv.org/abs/1302.6526v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1302.6526v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper we answer a question raised in [25], Sec. 4, by showing that the genus zero moduli operad $\{\bar{M}_{0,n+1}\}$ can be endowed with natural descent data that allow it to be considered as the lift to ${\rm Spec}\,\Z$ of an operad over $\F_1$. The relevant descent data are based on a notion of constructible sets and constructible functions over $\F_1$, which describes suitable differences of torifications with a positivity condition on the class in the Grothendieck ring. More generally, we do the same for the operads $\{T_{d,n+1}\}$ (whose components were) introduced in [5]. Finally, we describe a blueprint structure on $\{\bar{M}_{0,n}\}$ and we discuss from this perspective the genus zero boundary modular operad $\{\bar{M}_{g,n+1}^0\}$.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-02-26T18:38:41Z</published>
+    <arxiv:comment>30 pages, LaTeX; v2: some corrections and additional material included; v3: same as v2 with minor typo corrections</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <author>
+      <name>Yuri I. Manin</name>
+    </author>
+    <author>
+      <name>Matilde Marcolli</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1307.3841v2</id>
+    <title>Arithmetic Differential Equations of Painleve' VI Type</title>
+    <updated>2013-12-18T14:39:00Z</updated>
+    <link href="https://arxiv.org/abs/1307.3841v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1307.3841v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Using the description of Paileve' VI family of differential equations in terms of a universal elliptic curve, going back to R. Fuchs (cf. [Ma96]), we translate it into the realm of Arithmetic Differential Equations (cf. [Bu05]), where the role of derivative "in the $p$--adic direction" is played by a version of Fermat quotient</summary>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-07-15T07:48:58Z</published>
+    <arxiv:comment>27 pages. A typo corrected</arxiv:comment>
+    <arxiv:primary_category term="math.NT"/>
+    <author>
+      <name>Alexandru Buium</name>
+    </author>
+    <author>
+      <name>Yuri I. Manin</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1402.2155v2</id>
+    <title>Forgotten Motives: the Varieties of Scientific Experience</title>
+    <updated>2014-07-01T11:14:25Z</updated>
+    <link href="https://arxiv.org/abs/1402.2155v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1402.2155v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Personal recollections about Alexandre Grothendieck and early days of his theory of motives</summary>
+    <category term="math.HO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-02-10T14:16:37Z</published>
+    <arxiv:comment>10 pages. Small corrections inserted. Published in: "Alexandre Grothendieck: A Mathematical Portrait." Ed. by Leila Schneps, International Press of Boston, 2014, 307 pp</arxiv:comment>
+    <arxiv:primary_category term="math.HO"/>
+    <author>
+      <name>Yuri I. Manin</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1901.10301v2</id>
+    <title>Nori diagrams and persistent homology</title>
+    <updated>2019-10-21T21:41:29Z</updated>
+    <link href="https://arxiv.org/abs/1901.10301v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1901.10301v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recently, it was found that there is a remarkable intuitive similarity between studies in theoretical computer science dealing with large data sets on the one hand, and categorical methods of topology and geometry in pure mathematics, on the other. In this article, we treat the key notion of persistency from computer science in the algebraic geometric context involving Nori motivic constructions and related methods. We also discuss model structures for persistent topology.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-01-29T14:19:57Z</published>
+    <arxiv:comment>45 pages</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <author>
+      <name>Yuri I. Manin</name>
+    </author>
+    <author>
+      <name>Matilde Marcolli</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1312.5160v1</id>
+    <title>Numbers as functions</title>
+    <updated>2013-12-18T14:55:09Z</updated>
+    <link href="https://arxiv.org/abs/1312.5160v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1312.5160v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this survey I discuss A. Buium's theory of ``differential equations in the p-adic direction'' ([Bu05]) and its interrelations with ``geometry over fields with one element'', on the background of various approaches to p-adic models in theoretical physics.</summary>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-12-18T14:55:09Z</published>
+    <arxiv:comment>Based on talks at the International Workshop on p-adic methods for modelling of complex systems, Bielefeld, April 15-19, 2013, and at Journées Arithmétiques, Grenoble, June 2-5, 2013</arxiv:comment>
+    <arxiv:primary_category term="math.NT"/>
+    <arxiv:journal_ref>P-adic Numbers, Ultrametric Analysis and Applications, Vol. 5, no. 4, 2013, 313-325</arxiv:journal_ref>
+    <author>
+      <name>Yuri I. Manin</name>
+    </author>
+    <arxiv:doi>10.1134/S2070046613040055</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1134/S2070046613040055" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1301.0078v1</id>
+    <title>Non-commutative generalized Dedekind symbols</title>
+    <updated>2013-01-01T12:33:42Z</updated>
+    <link href="https://arxiv.org/abs/1301.0078v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1301.0078v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We define and study generalized Dedekind symbols with values in non--necessarily commutative groups, generalizing constructions of Sh. Fukuhara in [Fu1], [Fu2]. Basic examples of such symbols are obtained by replacing period integrals of modular forms (cf. [Ma1], [Ma2], [Kn1], [Kn2], [ChZ]) by iterated period integrals introduced and studied in [Ma3], [Ma4].</summary>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-01-01T12:33:42Z</published>
+    <arxiv:comment>13 pages</arxiv:comment>
+    <arxiv:primary_category term="math.NT"/>
+    <author>
+      <name>Yuri I. Manin</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1107.4915v2</id>
+    <title>Towards motivic quantum cohomology of $\bar{M}_{0,S}$</title>
+    <updated>2012-12-17T16:09:07Z</updated>
+    <link href="https://arxiv.org/abs/1107.4915v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1107.4915v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We explicitly calculate some Gromov--Witten correspondences determined by maps of labeled curves of genus zero to the moduli spaces of labeled curves of genus zero. We consider these calculations as the first step towards studying the self--referential nature of motivic quantum cohomology.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-07-25T12:18:07Z</published>
+    <arxiv:comment>Sec. 4 is edited. 31 pages</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <author>
+      <name>Yuri I. Manin</name>
+    </author>
+    <author>
+      <name>Maxim Smirnov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0908.3430v1</id>
+    <title>Renormalization and Computation II: Time Cut-off and the Halting Problem</title>
+    <updated>2009-08-24T13:03:38Z</updated>
+    <link href="https://arxiv.org/abs/0908.3430v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0908.3430v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  This is the second installment to the project initiated in [Ma3]. In the first Part, I argued that both philosophy and technique of the perturbative renormalization in quantum field theory could be meaningfully transplanted to the theory of computation, and sketched several contexts supporting this view.
+  In this second part, I address some of the issues raised in [Ma3] and provide their development in three contexts: a categorification of the algorithmic computations; time cut--off and Anytime Algorithms; and finally, a Hopf algebra renormalization of the Halting Problem.</summary>
+    <category term="math.QA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.LO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2009-08-24T13:03:38Z</published>
+    <arxiv:comment>28 pages</arxiv:comment>
+    <arxiv:primary_category term="math.QA"/>
+    <author>
+      <name>Yuri I. Manin</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/0011197v1</id>
+    <title>Theta functions, quantum tori and Heisenberg groups</title>
+    <updated>2000-11-23T15:06:18Z</updated>
+    <link href="https://arxiv.org/abs/math/0011197v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/0011197v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  A linear algebraic group $G$ is represented by the linear space of its algebraic functions $F(G)$ endowed with multiplication and comultiplication which turn it into a Hopf algebra. Supplying $G$ with a Poisson structure, we get a quantized version $F_q(G)$ which has the same linear structure and comultiplication, but deformed multiplication. This paper develops a similar theory for abelian varieties. A description of abelian varieties $A$ in terms of linear algebra data was given by Mumford: $F(G)$ is replaced by the graded ring of theta functions with symmetric automorphy factors, and comultiplication is replaced by the Mumford morphism $M^*$ acting on pairs of points as $M(x,y)=M(x+y,x-y).$ After supplementing this by a Poisson structure and replacing the classical theta functions by the quantized ones, introduced by the author earlier, we obtain a structure which essentially coincides with the classical one so far as comultiplication is concerned, but has a deformed multiplication which moreover becomes only partial. The classical graded ring is thus replaced by a linear category. Another important difference from the linear case is that abelian varieties with different period groups (for multiplication) and different quantization parameters (for comultiplication) become interconnected after quantization.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2000-11-23T15:06:18Z</published>
+    <arxiv:comment>26 pp., amstex file, no figures</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <author>
+      <name>Yuri I. Manin</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/0209244v1</id>
+    <title>Georg Cantor and his heritage</title>
+    <updated>2002-09-19T08:55:23Z</updated>
+    <link href="https://arxiv.org/abs/math/0209244v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/0209244v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Talk at the meeting of the German Mathematical Society and the Cantor Medal Award Ceremony</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2002-09-19T08:55:23Z</published>
+    <arxiv:comment>12 pp., amstex file, no figures</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <author>
+      <name>Yuri I. Manin</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/0201005v2</id>
+    <title>Von Zahlen und Figuren</title>
+    <updated>2002-04-03T13:28:47Z</updated>
+    <link href="https://arxiv.org/abs/math/0201005v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/0201005v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Talk at the International Conference ``Géométrie au vingtième ciècle: 1930--2000'', Paris, Institut Henri Poincaré, Sept. 2001. The title is a homage to Hans Rademacher and Otto Toeplitz whose book fascinated the author many years ago.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2002-01-01T13:41:25Z</published>
+    <arxiv:comment>27 pp., amstex file, no figures. This version contains minor corrections and revisions</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <author>
+      <name>Yuri I. Manin</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/quant-ph/9903008v1</id>
+    <title>Classical computing, quantum computing, and Shor's factoring algorithm</title>
+    <updated>1999-03-02T16:27:04Z</updated>
+    <link href="https://arxiv.org/abs/quant-ph/9903008v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/quant-ph/9903008v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  This is an expository talk written for the Bourbaki Seminar. After a brief introduction, Section 1 discusses in the categorical language the structure of the classical deterministic computations. Basic notions of complexity icluding the P/NP problem are reviewed. Section 2 introduces the notion of quantum parallelism and explains the main issues of quantum computing. Section 3 is devoted to four quantum subroutines: initialization, quantum computing of classical Boolean functions, quantum Fourier transform, and Grover's search algorithm. The central Section 4 explains Shor's factoring algorithm. Section 5 relates Kolmogorov's complexity to the spectral properties of computable function. Appendix contributes to the prehistory of quantum computing.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.QA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1999-03-02T16:27:04Z</published>
+    <arxiv:comment>27 pp., no figures, amstex</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Yuri I. Manin</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1701.01261v1</id>
+    <title>Grothendieck-Verdier duality patterns in quantum algebra</title>
+    <updated>2017-01-05T09:40:34Z</updated>
+    <link href="https://arxiv.org/abs/1701.01261v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1701.01261v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>After a brief survey of the basic definitions of the Grothendieck--Verdier categories and dualities, I consider in this context introduced earlier dualities in the categories of quadratic algebras and operads, largely motivated by the theory of quantum groups. Finally, I argue that Dubrovin's "almost duality" in the theory of Frobenius manifolds and quantum cohomology also must fit a (possibly extended) version of Grothendieck--Verdier duality.</summary>
+    <category term="math.QA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-01-05T09:40:34Z</published>
+    <arxiv:comment>13 pages, accepted for publication in Izvestiya: Mathematics</arxiv:comment>
+    <arxiv:primary_category term="math.QA"/>
+    <author>
+      <name>Yuri I. Manin</name>
+    </author>
+    <arxiv:doi>10.1070/IM8620</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1070/IM8620" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2203.15855v4</id>
+    <title>Supercycles, stable supermaps and SUSY Nori motives</title>
+    <updated>2026-03-22T22:13:37Z</updated>
+    <link href="https://arxiv.org/abs/2203.15855v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2203.15855v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We define stable supercurves and stable supermaps, and based on these notions we develop a theory of Nori motives for the category of stable supermaps of SUSY curves with punctures. This will require several preliminary constructions, including the development of a basic theory of supercycles.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-03-29T18:54:44Z</published>
+    <arxiv:comment>35 pages. v2: 38 pages, version to appear in Algebraic Geometry and Physics; v3: title has been changed; v4: a revision of the published paper, incorporating the corrections to the proofs, and an Erratum which is going to be published in the same journal. The corrections amount to some typos, and a partial reformulation of Remark 5.10, which however does not affect the rest of the paper</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <arxiv:journal_ref>Algebraic Geometry and Physics 1 (2024) 1-57</arxiv:journal_ref>
+    <author>
+      <name>Ugo Bruzzo</name>
+    </author>
+    <author>
+      <name>Daniel Hernandez Ruiperez</name>
+    </author>
+    <author>
+      <name>Yuri I. Manin</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2012.13814v1</id>
+    <title>Birational maps and Nori motives</title>
+    <updated>2020-12-26T21:19:56Z</updated>
+    <link href="https://arxiv.org/abs/2012.13814v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2012.13814v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this note, we sketch an approach to the problems of equivariant birational geometry developed by M. Kontsevich and Yu. Tschinkel, where Burnside invariants were introduced. We are making explicit the role of Nori constructions in this environment.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-12-26T21:19:56Z</published>
+    <arxiv:comment>amstex, 20 pages</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <author>
+      <name>Noemie C. Combe</name>
+    </author>
+    <author>
+      <name>Yuri I. Manin</name>
+    </author>
+    <author>
+      <name>Matilde Marcolli</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1812.00364v1</id>
+    <title>Time and periodicity from Ptolemy to Schroedinger: paradigm shifts vs continuity</title>
+    <updated>2018-12-02T10:11:06Z</updated>
+    <link href="https://arxiv.org/abs/1812.00364v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1812.00364v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>I briefly consider the Kuhnian notion of "paradigm shifts" applied to the history of mathematics and argue that the succession and intergenerational continuity of mathematical thought was undeservedly neglected in the historical studies. To this end, I focus on the history of mathematical theory of time and periodicity, from Ptolemy's epicycles to Schroedinger's quantum amplitudes interference and contemporary cosmological models.</summary>
+    <category term="math.HO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-12-02T10:11:06Z</published>
+    <arxiv:comment>12 pages, accepted for publication</arxiv:comment>
+    <arxiv:primary_category term="math.HO"/>
+    <author>
+      <name>Yuri I. Manin</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1902.03778v2</id>
+    <title>Monoidal structures on the categories of quadratic data</title>
+    <updated>2019-02-28T11:54:16Z</updated>
+    <link href="https://arxiv.org/abs/1902.03778v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1902.03778v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The notion of 2--monoidal category used here was introduced by B.~Vallette in 2007 for applications in the operadic context. The starting point for this article was a remark by Yu. Manin that in the category of quadratic algebras (that is, "quantum linear spaces") one can also define 2--monoidal structure(s) with rather unusual properties. Here we give a detailed exposition of these constructions, together with their generalisations to the case of quadratic operads.
+  Their parallel exposition was motivated by the following remark. Several important operads/cooperads such as genus zero quantum cohomology operad, the operad classifying Gerstenhaber algebras, and more generally, (co)operads of homology/cohomology of some topological operads, start with collections of quadratic algebras/coalgebras rather than simply linear spaces.
+  Suggested here enrichments of the categories to which components of these operads belong, as well of the operadic structures themselves, might lead to the better understanding of these fundamental objects.
+  New version includes minor editorial changes and new references.</summary>
+    <category term="math.CT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-02-11T08:42:05Z</published>
+    <arxiv:comment>38 pages</arxiv:comment>
+    <arxiv:primary_category term="math.CT"/>
+    <author>
+      <name>Yuri I. Manin</name>
+    </author>
+    <author>
+      <name>Bruno Vallette</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1806.10801v2</id>
+    <title>Homotopy types and geometries below Spec Z</title>
+    <updated>2018-08-25T15:06:09Z</updated>
+    <link href="https://arxiv.org/abs/1806.10801v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1806.10801v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>After the first heuristic ideas about `the field of one element' F_1 and `geometry in characteristics 1' (J.~Tits, C.~Deninger, M.~Kapranov, A.~Smirnov et al.), there were developed several general approaches to the construction of `geometries below Spec Z'. Homotopy theory and the `the brave new algebra' were taking more and more important places in these developments, systematically explored by B.~Toën and M.~Vaquié, among others.
+  This article contains a brief survey and some new results on counting problems in this context, including various approaches to zeta--functions and generalised scissors congruences.
+  The new version includes considerable extensions and revisions suggested by I. Zakharevich.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-06-28T07:19:06Z</published>
+    <arxiv:comment>38 pages</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <author>
+      <name>Yuri I. Manin</name>
+    </author>
+    <author>
+      <name>Matilde Marcolli</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/0202109v1</id>
+    <title>Real Multiplication and noncommutative geometry</title>
+    <updated>2002-02-12T14:46:52Z</updated>
+    <link href="https://arxiv.org/abs/math/0202109v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/0202109v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Classical theory of Complex Multiplication (CM) shows that all abelian extensions of a complex quadratic field $K$ are generated by the values of appropriate modular functions at the points of finite order of elliptic curves whose endomorphism rings are orders in $K$. For real quadratic fields, a similar description is not known. However, the relevant (still unproved) case of Stark conjectures ([St1]) strongly suggests that such a description must exist. In this paper we propose to use two--dimensional quantum tori corresponding to real quadratic irrationalities as a replacement of elliptic curves with complex multiplication. We discuss some basic constructions of the theory of quantum tori from the perspective of this Real Multiplication (RM) research project.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2002-02-12T14:46:52Z</published>
+    <arxiv:comment>46 pp., amstex file, no figures</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <author>
+      <name>Yuri I. Manin</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1301.0081v1</id>
+    <title>Kolmogorov complexity as a hidden factor of scientific discourse: from Newton's law to data mining</title>
+    <updated>2013-01-01T12:46:42Z</updated>
+    <link href="https://arxiv.org/abs/1301.0081v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1301.0081v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The word "complexity" is most often used as a meta--linguistic expression referring to certain intuitive characteristics of a natural system and/or its scientific description. These characteristics may include: sheer amount of data that must be taken into account; visible "chaotic" character of these data and/or space distribution/time evolution of a system etc.
+  This talk is centered around the precise mathematical notion of "Kolmogorov complexity", originated in the early theoretical computer science and measuring the degree to which an available information can be compressed.
+  In the first part, I will argue that a characteristic feature of basic scientific theories, from Ptolemy's epicycles to the Standard Model of elementary particles, is their splitting into two very distinct parts: the part of relatively small Kolmogorov complexity ("laws", "basic equations", "periodic table", "natural selection, genotypes, mutations") and another part, of indefinitely large Kolmogorov complexity ("initial and boundary conditions", "phenotypes", "populations"). The data constituting this latter part are obtained by planned observations, focussed experiments, and afterwards collected in growing databases (formerly known as "books", "tables", "encyclopaedias" etc).
+  In this discussion Kolomogorov complexity plays a role of the central metaphor.
+  The second part and Appendix 1 are dedicated to more precise definitions and examples of complexity.</summary>
+    <category term="math.HO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.hist-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-01-01T12:46:42Z</published>
+    <arxiv:comment>19 pages.Talk at the Plenary Session of the Pontifical Academy of Sciences on "Complexity and Analogy in Science: Theoretical, Methodological and Epistemological Aspects", Casina Pio IV, Nov. 5-7, 2012. November 5--7, 2012</arxiv:comment>
+    <arxiv:primary_category term="math.HO"/>
+    <author>
+      <name>Yuri I. Manin</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1407.4969v1</id>
+    <title>Local zeta factors and geometries under Spec Z</title>
+    <updated>2014-07-18T12:24:29Z</updated>
+    <link href="https://arxiv.org/abs/1407.4969v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1407.4969v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The first part of this note shows that the odd period polynomial of each Hecke cusp eigenform for full modular group produces via Rodriguez--Villegas transform ([Ro--V]) a polynomial satisfying the functional equation of zeta type and having nontrivial zeros only on the middle line of its critical strip. The second part discusses Chebyshev lambda--structure of the polynomial ring as Borger's descent data to $\bold{F}_1$ and suggests its role in possible relation of $Γ_{\bold{R}}$--factor to "real geometry over $\bold{F}_1$" (cf. also [CoCons2]).</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-07-18T12:24:29Z</published>
+    <arxiv:comment>9 pages</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <author>
+      <name>Yuri I. Manin</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1501.00897v1</id>
+    <title>Neural codes and homotopy types: mathematical models of place field recognition</title>
+    <updated>2015-01-01T15:10:06Z</updated>
+    <link href="https://arxiv.org/abs/1501.00897v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1501.00897v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This note is a brief survey of some results of the recent collaboration of neurobiologists and mathematicians dedicated to stimulus reconstruction from neuronal spiking activity. This collaboration, in particular, led to the consideration of binary codes used by brain for encoding a stimuli domain such as a rodent's territory through the combinatorics of its covering by local neighborhoods.
+  The survey is addressed to mathematicians (cf. [DeSch01]) and focuses on the idea that stimuli spaces are represented by the relevant neural codes as simplicial sets and thus encode say, the homotopy type of space if local neighborhoods are convex (see [CuIt08], [CuItVCYo13], [Yo14], [SiGh07]).}</summary>
+    <category term="math.HO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-bio.NC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-01-01T15:10:06Z</published>
+    <arxiv:comment>9 pages</arxiv:comment>
+    <arxiv:primary_category term="math.HO"/>
+    <author>
+      <name>Yuri I. Manin</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/0005144v2</id>
+    <title>Moduli, Motives, Mirrors (Plenary talk at the 3rd ECM, Barcelona, July 10-14, 2000)</title>
+    <updated>2000-05-18T14:48:08Z</updated>
+    <link href="https://arxiv.org/abs/math/0005144v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/0005144v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  This talk is dedicated to various aspects of Mirror Symmetry. It summarizes some of the mathematical developments that took place since M. Kontsevich's report at the Zürich ICM and provides an extensive, although not exhaustive, bibliography.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2000-05-15T13:26:49Z</published>
+    <arxiv:comment>22 pages, amstex file, no figures. This version contains some corrections, revisions and additions, especially in the subsections 1.5, 1.5.1, and 2.4</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <author>
+      <name>Yuri I. Manin</name>
+    </author>
+  </entry>
+</feed>

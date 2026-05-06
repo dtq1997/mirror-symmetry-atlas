@@ -1,0 +1,283 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/MSvbM63obebEjUapndPDN7x7sWo</id>
+  <title>arXiv Query: search_query=au:"Luyao Wang" AND (cat:math.AG OR cat:math.AT OR cat:math.AP OR cat:math.CT OR cat:math.CA OR cat:math.CO OR cat:math.DG OR cat:math.DS OR cat:math.FA OR cat:math.GT OR cat:math.MP OR cat:math.OA OR cat:math.PR OR cat:math.QA OR cat:math.RA OR cat:math.RT OR cat:math.SG OR cat:math.SP OR cat:math.ST OR cat:math.NT OR cat:math.GR OR cat:math.HO OR cat:math-ph OR cat:nlin.SI OR cat:nlin.CD OR cat:hep-th OR cat:q-alg OR cat:dg-ga OR cat:alg-geom OR cat:cond-mat.stat-mech)&amp;id_list=&amp;start=0&amp;max_results=200</title>
+  <updated>2026-05-06T07:31:15Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=au:%22Luyao+Wang%22+AND+(cat:math.AG+OR+(cat:math.AT+OR+(cat:math.AP+OR+(cat:math.CT+OR+(cat:math.CA+OR+(cat:math.CO+OR+(cat:math.DG+OR+(cat:math.DS+OR+(cat:math.FA+OR+(cat:math.GT+OR+(cat:math.MP+OR+(cat:math.OA+OR+(cat:math.PR+OR+(cat:math.QA+OR+(cat:math.RA+OR+(cat:math.RT+OR+(cat:math.SG+OR+(cat:math.SP+OR+(cat:math.ST+OR+(cat:math.NT+OR+(cat:math.GR+OR+(cat:math.HO+OR+(cat:math-ph+OR+(cat:nlin.SI+OR+(cat:nlin.CD+OR+(cat:hep-th+OR+(cat:q-alg+OR+(cat:dg-ga+OR+(cat:alg-geom+OR+cat:cond-mat.stat-mech)))))))))))))))))))))))))))))&amp;start=0&amp;max_results=200&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>200</opensearch:itemsPerPage>
+  <opensearch:totalResults>12</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2410.16216v2</id>
+    <title>A note on a nontrivial connected component of the space of symplectic structures</title>
+    <updated>2025-07-22T15:28:18Z</updated>
+    <link href="https://arxiv.org/abs/2410.16216v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2410.16216v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This note provides the first example of a nontrivial connected component of the space of symplectic structures standard at infinity in dimension four.</summary>
+    <category term="math.SG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.GT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-10-21T17:16:37Z</published>
+    <arxiv:comment>4 pages, improved based on referee feedback; accepted version</arxiv:comment>
+    <arxiv:primary_category term="math.SG"/>
+    <author>
+      <name>Luya Wang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2501.08451v1</id>
+    <title>Properties of contact toric structures and concave boundaries of linear plumbings</title>
+    <updated>2025-01-14T21:40:30Z</updated>
+    <link href="https://arxiv.org/abs/2501.08451v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2501.08451v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We consider plumbings of symplectic disk bundles over spheres admitting concave contact boundary, with the goal of understanding the geometric properties of the boundary contact structure in terms of the data of the plumbing. We focus on the linear plumbing case in this article. We study the properties of the contact structure using two different sets of tools. First, we prove that all such contact manifolds have a global contact toric structure, and use tools from toric geometry to identify when the contact structure is tight versus overtwisted. Second, we study algebraic torsion measurements from embedded contact homology for these concavely induced contact manifolds, which has largely been unexplored. We develop a toolkit establishing existence and constraints of pseudoholomorphic curves adapted to the Morse-Bott Reeb dynamics of these plumbing examples, to provide the algebraic torsion and contact invariant calculations for the concave boundaries of linear plumbings.</summary>
+    <category term="math.SG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.GT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-01-14T21:40:30Z</published>
+    <arxiv:comment>66 pages, 26 figures, comments welcome!</arxiv:comment>
+    <arxiv:primary_category term="math.SG"/>
+    <author>
+      <name>Aleksandra Marinković</name>
+    </author>
+    <author>
+      <name>Jo Nelson</name>
+    </author>
+    <author>
+      <name>Ana Rechtman</name>
+    </author>
+    <author>
+      <name>Laura Starkston</name>
+    </author>
+    <author>
+      <name>Shira Tanny</name>
+    </author>
+    <author>
+      <name>Luya Wang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2410.10697v2</id>
+    <title>Spinal open books and symplectic fillings with exotic fibers</title>
+    <updated>2025-08-18T02:02:24Z</updated>
+    <link href="https://arxiv.org/abs/2410.10697v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2410.10697v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Spinal open book decompositions provide a natural generalization of open book decompositions. We show that any minimal symplectic filling of a contact 3-manifold supported by a planar spinal open book is deformation equivalent to the complement of a positive multisection in a bordered Lefschetz fibration, which generalizes a result of Wendl. Along the way, we give an explicit local model for a non-compactly supported "singularity at infinity" in a generalized version of bordered Lefschetz fibrations, given by pseudoholomorphic foliations associated to the spinal open books. This provides new tools to classify symplectic fillings of a contact 3-manifold that is not supported by an amenable spinal open book, by studying monodromy factorizations in the newly defined spinal mapping class group. As an application, we complete the classification of strong fillings of all parabolic torus bundles, and make progress towards classifying symplectic fillings of contact 3-manifolds supported by non-planar open books.</summary>
+    <category term="math.GT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.SG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-10-14T16:39:15Z</published>
+    <arxiv:comment>53 pages, 15 figures, fixed typos, expanded on introduction and proof of Theorem E</arxiv:comment>
+    <arxiv:primary_category term="math.GT"/>
+    <author>
+      <name>Hyunki Min</name>
+    </author>
+    <author>
+      <name>Agniva Roy</name>
+    </author>
+    <author>
+      <name>Luya Wang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2310.03451v2</id>
+    <title>Spin(7)-instantons on Joyce's first examples of compact Spin(7)-manifolds</title>
+    <updated>2025-10-15T01:53:09Z</updated>
+    <link href="https://arxiv.org/abs/2310.03451v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2310.03451v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We construct $Spin(7)$-instantons on one of Joyce's compact $Spin(7)$-manifolds. The underlying compact $Spin(7)$-manifold given by Joyce is the same as in Lewis' construction of $Spin(7)$-instantons. However, our construction method and the resulting instantons are new. The compact $Spin(7)$-manifold is constructed by gluing a $Spin(7)$-orbifold and certain local model spaces around the orbifold singularities. We construct our instantons by gluing non-flat connections on the local model spaces to a flat connection on the $Spin(7)$-orbifold. We deliver more than $20,000$ new four-parameter families of examples of $Spin(7)$-instantons within the structure groups $SO(3), SO(4), SO(5), SO(7)$, and $SO(8)$.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-10-05T10:39:54Z</published>
+    <arxiv:comment>58 pages, 1 figure, revised, to appear in the Journal of Geometric Analysis</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <author>
+      <name>Mateo Galdeano</name>
+    </author>
+    <author>
+      <name>Daniel Platt</name>
+    </author>
+    <author>
+      <name>Yuuji Tanaka</name>
+    </author>
+    <author>
+      <name>Luya Wang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2309.07041v3</id>
+    <title>On Donaldson's 4-6 question</title>
+    <updated>2025-04-10T21:21:37Z</updated>
+    <link href="https://arxiv.org/abs/2309.07041v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2309.07041v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We prove that the examples by Smith and McMullen-Taubes provide infinitely many counterexamples to one direction of Donaldson's 4-6 question and the closely related Stabilising Conjecture. These are the first known counterexamples. In the other direction, we show that the Gromov-Witten invariants of two simply-connected closed symplectic $4$-manifolds, whose products with $(S^2,ω_{\text{std}})$ are deformation equivalent, agree. In particular, when $b_2^+ \geq 2$, these $4$-manifolds have the same Seiberg-Witten invariants. Furthermore, one can replace $(S^2,ω_{\text{std}})$ by $(S^2,ω_{\text{std}})^k$ for any $k \geq 1$ in both results.</summary>
+    <category term="math.SG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.GT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-09-13T15:53:18Z</published>
+    <arxiv:comment>21 pages, improved exposition and fixed a few small gaps, no results were affected</arxiv:comment>
+    <arxiv:primary_category term="math.SG"/>
+    <author>
+      <name>Amanda Hirschi</name>
+    </author>
+    <author>
+      <name>Luya Wang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2203.01402v2</id>
+    <title>Fixed-point-free pseudo-Anosov homeomorphisms, knot Floer homology and the cinquefoil</title>
+    <updated>2023-06-06T17:56:20Z</updated>
+    <link href="https://arxiv.org/abs/2203.01402v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2203.01402v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Given any genus-two, hyperbolic, fibered knot in $S^3$ with nonzero fractional Dehn twist coefficient, we show that its pseudo-Anosov representative has a fixed point. Combined with recent work of Baldwin--Hu--Sivek, this proves that knot Floer homology detects the cinquefoil knot $T(2,5)$, and that the cinquefoil is the only genus-two L-space knot in $S^3$. Our results have applications to Floer homology of cyclic branched covers over knots in $S^3$, to $\mathit{SU}(2)$-abelian Dehn surgeries, and to Khovanov and annular Khovanov homology. Along the way to proving our fixed point result, we describe a small list of train tracks carrying all pseudo-Anosov homeomorphisms in most strata on the punctured disk. As a consequence, we find a canonical track $τ$ carrying all pseudo-Anosov homeomorphisms in a particular stratum $\mathcal{Q}_0$ on the genus-two surface, and describe every fixed-point-free pseudo-Anosov homeomorphism in $\mathcal{Q}_0$.</summary>
+    <category term="math.GT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.DS" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-03-02T20:58:14Z</published>
+    <arxiv:comment>Reorganized the paper, corrected typos and added more expositions on tight splitting. To appear in Geometry &amp; Topology</arxiv:comment>
+    <arxiv:primary_category term="math.GT"/>
+    <arxiv:journal_ref>Geom. Topol. 28 (2024) 4337-4381</arxiv:journal_ref>
+    <author>
+      <name>Ethan Farber</name>
+    </author>
+    <author>
+      <name>Braeden Reinoso</name>
+    </author>
+    <author>
+      <name>Luya Wang</name>
+    </author>
+    <arxiv:doi>10.2140/gt.2024.28.4337</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.2140/gt.2024.28.4337" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2510.12170v2</id>
+    <title>Regular Lagrangians in Lefschetz fibrations</title>
+    <updated>2025-10-20T12:45:44Z</updated>
+    <link href="https://arxiv.org/abs/2510.12170v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.12170v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We characterize regularity of Lagrangian submanifolds in Weinstein Lefschetz fibrations, establishing a conjecture of Giroux and Pardon. Our main result is the Weinstein analogue of a closed symplectic Lefschetz pencil result of Auroux, Muñoz, and Presas. As an application, given a Legendrian link in tight $S^3$ and an exact filling which is part of an arboreal skeleton for the $4$-ball, we build a Lefschetz fibration such that the image of the filling and all of its mutations are arcs in the base.</summary>
+    <category term="math.SG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-14T05:56:04Z</published>
+    <arxiv:comment>v2: references updated; Corollary 1.1 replaced with Question 1.2 and surrounding discussion updated</arxiv:comment>
+    <arxiv:primary_category term="math.SG"/>
+    <author>
+      <name>Joseph Breen</name>
+    </author>
+    <author>
+      <name>Agniva Roy</name>
+    </author>
+    <author>
+      <name>Luya Wang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2307.06934v1</id>
+    <title>Infinitely many monotone Lagrangian tori in higher projective spaces</title>
+    <updated>2023-07-13T17:55:20Z</updated>
+    <link href="https://arxiv.org/abs/2307.06934v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2307.06934v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Vianna constructed infinitely many exotic Lagrangian tori in the complex projective plane. We lift these tori to higher-dimensional projective spaces and show that they remain non-symplectomorphic. Our proof is elementary except for an application of the wall-crossing formula by Pascaleff-Tonkonog.</summary>
+    <category term="math.SG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-07-13T17:55:20Z</published>
+    <arxiv:comment>11 pages, 1 figure. Comments welcome!</arxiv:comment>
+    <arxiv:primary_category term="math.SG"/>
+    <author>
+      <name>Soham Chanda</name>
+    </author>
+    <author>
+      <name>Amanda Hirschi</name>
+    </author>
+    <author>
+      <name>Luya Wang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2302.07259v2</id>
+    <title>Legendrian embedded contact homology</title>
+    <updated>2023-02-15T17:39:53Z</updated>
+    <link href="https://arxiv.org/abs/2302.07259v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2302.07259v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We give a construction of embedded contact homology (ECH) for a contact $3$-manifold $Y$ with convex sutured boundary and a pair of Legendrians $Λ_+$ and $Λ_-$ contained in $\partial Y$ satisfying an exactness condition. The chain complex is generated by certain configurations of closed Reeb orbits of $Y$ and Reeb chords of $Λ_+$ to $Λ_-$. The main ingredients include: a general Legendrian adjunction formula for curves in $\mathbb{R} \times Y$ with boundary on $\mathbb{R} \times Λ$; a relative writhe bound for curves in contact $3$-manifolds asymptotic to Reeb chords; and a Legendrian ECH index with an accompanying ECH index inequality. The (action filtered) Legendrian ECH of any pair $(Y,Λ)$ of a closed contact $3$-manifold $Y$ and a Legendrian link $Λ$ can also be defined using this machinery after passing to a sutured link complement. This work builds on ideas present in Colin-Ghiggini-Honda's proof of the equivalence of Heegaard-Floer homology and ECH. The independence of our construction of choices of almost complex structure and contact form should require a new flavor of monopole Floer homology. It is beyond the scope of this paper.</summary>
+    <category term="math.SG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-02-14T18:54:35Z</published>
+    <arxiv:comment>78 pages, comments welcome! v2 corrected a few typos in the arXiv submission of v1</arxiv:comment>
+    <arxiv:primary_category term="math.SG"/>
+    <author>
+      <name>Julian Chaidez</name>
+    </author>
+    <author>
+      <name>Oliver Edtmair</name>
+    </author>
+    <author>
+      <name>Luya Wang</name>
+    </author>
+    <author>
+      <name>Yuan Yao</name>
+    </author>
+    <author>
+      <name>Ziwen Zhao</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1810.03202v1</id>
+    <title>A combinatorial proof of invariance of double-point enhanced grid homology</title>
+    <updated>2018-10-07T20:09:21Z</updated>
+    <link href="https://arxiv.org/abs/1810.03202v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1810.03202v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We prove that the "minus" version of Lipshitz's double-point enhanced grid homology is a knot invariant through purely combinatorial means.</summary>
+    <category term="math.GT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-10-07T20:09:21Z</published>
+    <arxiv:comment>23 pages</arxiv:comment>
+    <arxiv:primary_category term="math.GT"/>
+    <author>
+      <name>Timothy Ratigan</name>
+    </author>
+    <author>
+      <name>Joshua Wang</name>
+    </author>
+    <author>
+      <name>Luya Wang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2305.01646v2</id>
+    <title>A connected sum formula for embedded contact homology</title>
+    <updated>2025-01-29T16:26:50Z</updated>
+    <link href="https://arxiv.org/abs/2305.01646v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2305.01646v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Given two closed contact three-manifolds, one can form their contact connected sum via the Weinstein one-handle attachment. We study how pseudo-holomorphic curves in the symplectization behave under this operation. As a result, we give a connected sum formula for embedded contact homology.</summary>
+    <category term="math.SG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-05-02T17:57:42Z</published>
+    <arxiv:comment>Final version. To appear in Adv. Math</arxiv:comment>
+    <arxiv:primary_category term="math.SG"/>
+    <author>
+      <name>Luya Wang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1802.05770v1</id>
+    <title>Hyperbolicity of Links in Thickened Surfaces</title>
+    <updated>2018-02-15T21:31:10Z</updated>
+    <link href="https://arxiv.org/abs/1802.05770v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1802.05770v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Menasco showed that a non-split, prime, alternating link that is not a 2-braid is hyperbolic in $S^3$. We prove a similar result for links in closed thickened surfaces $S \times I$. We define a link to be fully alternating if it has an alternating projection from $S\times I$ to $S$ where the interior of every complementary region is an open disk. We show that a prime, fully alternating link in $S\times I$ is hyperbolic. Similar to Menasco, we also give an easy way to determine primeness in $S\times I$. A fully alternating link is prime in $S\times I$ if and only if it is "obviously prime". Furthermore, we extend our result to show that a prime link with fully alternating projection to an essential surface embedded in an orientable, hyperbolic 3-manifold has a hyperbolic complement.</summary>
+    <category term="math.GT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-02-15T21:31:10Z</published>
+    <arxiv:comment>17paghes, 18 figures</arxiv:comment>
+    <arxiv:primary_category term="math.GT"/>
+    <author>
+      <name>Colin Adams</name>
+    </author>
+    <author>
+      <name>Carlos Albors-Riera</name>
+    </author>
+    <author>
+      <name>Beatrix Haddock</name>
+    </author>
+    <author>
+      <name>Zhiqi Li</name>
+    </author>
+    <author>
+      <name>Daishiro Nishida</name>
+    </author>
+    <author>
+      <name>Braeden Reinoso. Luya Wang</name>
+    </author>
+  </entry>
+</feed>

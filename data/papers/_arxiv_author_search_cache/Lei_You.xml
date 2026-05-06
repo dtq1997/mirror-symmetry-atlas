@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Tt9bWA41SxFSQaa5S9XgOlKXEuk</id>
+  <title>arXiv Query: search_query=au:"Lei You" AND (cat:math.AG OR cat:math.AT OR cat:math.AP OR cat:math.CT OR cat:math.CA OR cat:math.CO OR cat:math.DG OR cat:math.DS OR cat:math.FA OR cat:math.GT OR cat:math.MP OR cat:math.OA OR cat:math.PR OR cat:math.QA OR cat:math.RA OR cat:math.RT OR cat:math.SG OR cat:math.SP OR cat:math.ST OR cat:math.NT OR cat:math.GR OR cat:math.HO OR cat:math-ph OR cat:nlin.SI OR cat:nlin.CD OR cat:hep-th OR cat:q-alg OR cat:dg-ga OR cat:alg-geom OR cat:cond-mat.stat-mech)&amp;id_list=&amp;start=0&amp;max_results=200</title>
+  <updated>2026-05-06T07:32:09Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=au:%22Lei+You%22+AND+(cat:math.AG+OR+(cat:math.AT+OR+(cat:math.AP+OR+(cat:math.CT+OR+(cat:math.CA+OR+(cat:math.CO+OR+(cat:math.DG+OR+(cat:math.DS+OR+(cat:math.FA+OR+(cat:math.GT+OR+(cat:math.MP+OR+(cat:math.OA+OR+(cat:math.PR+OR+(cat:math.QA+OR+(cat:math.RA+OR+(cat:math.RT+OR+(cat:math.SG+OR+(cat:math.SP+OR+(cat:math.ST+OR+(cat:math.NT+OR+(cat:math.GR+OR+(cat:math.HO+OR+(cat:math-ph+OR+(cat:nlin.SI+OR+(cat:nlin.CD+OR+(cat:hep-th+OR+(cat:q-alg+OR+(cat:dg-ga+OR+(cat:alg-geom+OR+cat:cond-mat.stat-mech)))))))))))))))))))))))))))))&amp;start=0&amp;max_results=200&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>200</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2503.12363v3</id>
+    <title>Thermodynamic properties and Joule-Thomson expansion of AdS black hole with Gaussian distribution in non-commutative geometry</title>
+    <updated>2025-03-22T13:00:21Z</updated>
+    <link href="https://arxiv.org/abs/2503.12363v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2503.12363v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The thermodynamics and Joule-Thomson expansion of anti-de Sitter black hole (AdS BH) with Gaussian distribution in non-commutative geometry is systematically studied. The metric of Gaussian-distributed BH is obtained, showing a dS geometry at the core of BH. The research indicates that the BH characterized by a Gaussian distribution exhibit thermodynamic properties that are remarkably similar to those of BH with a Lorentzian distribution in non-commutative geometry. This similarity is specifically manifested in the small BH-large BH phase transition, the corrected first law of thermodynamics, the criticality, the heat capacity, the zeroth-order phase transition and the Joule-Thomson process. Notably, the critical ratio of Gaussian-distributed BH (0.46531) is significantly larger than those observed in Van der Waals fluids (0.375), and indeed, it is also substantially exceed those of Lorentzian-distributed BH (0.36671). Moreover, compared to the case of Lorentzian source, the zeroth-order phase transition effect in Gaussian-distributed BH is exceedingly subtle (accompanied by a relative increase in the Gibbs free energy on the order of $10^{-3}\!\sim\!\!10^{-2}$) and is difficult to detect distinctly.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-03-16T05:07:20Z</published>
+    <arxiv:comment>17pages, 12 figures, 2 tables</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <author>
+      <name>Rui-Bo Wang</name>
+    </author>
+    <author>
+      <name>Lei You</name>
+    </author>
+    <author>
+      <name>Shi-Jie Ma</name>
+    </author>
+    <author>
+      <name>Jian-Bo Deng</name>
+    </author>
+    <author>
+      <name>Xian-Ru Hu</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,1023 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/v9crbN/86SSqjeeSOG3E8Gix6P0</id>
+  <title>arXiv Query: search_query=au:"Don Zagier" AND (cat:math.AG OR cat:math.AT OR cat:math.AP OR cat:math.CT OR cat:math.CA OR cat:math.CO OR cat:math.DG OR cat:math.DS OR cat:math.FA OR cat:math.GT OR cat:math.MP OR cat:math.OA OR cat:math.PR OR cat:math.QA OR cat:math.RA OR cat:math.RT OR cat:math.SG OR cat:math.SP OR cat:math.ST OR cat:math.NT OR cat:math.GR OR cat:math.HO OR cat:math-ph OR cat:nlin.SI OR cat:nlin.CD OR cat:hep-th OR cat:q-alg OR cat:dg-ga OR cat:alg-geom OR cat:cond-mat.stat-mech)&amp;id_list=&amp;start=0&amp;max_results=200</title>
+  <updated>2026-05-06T07:32:13Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=au:%22Don+Zagier%22+AND+(cat:math.AG+OR+(cat:math.AT+OR+(cat:math.AP+OR+(cat:math.CT+OR+(cat:math.CA+OR+(cat:math.CO+OR+(cat:math.DG+OR+(cat:math.DS+OR+(cat:math.FA+OR+(cat:math.GT+OR+(cat:math.MP+OR+(cat:math.OA+OR+(cat:math.PR+OR+(cat:math.QA+OR+(cat:math.RA+OR+(cat:math.RT+OR+(cat:math.SG+OR+(cat:math.SP+OR+(cat:math.ST+OR+(cat:math.NT+OR+(cat:math.GR+OR+(cat:math.HO+OR+(cat:math-ph+OR+(cat:nlin.SI+OR+(cat:nlin.CD+OR+(cat:hep-th+OR+(cat:q-alg+OR+(cat:dg-ga+OR+(cat:alg-geom+OR+cat:cond-mat.stat-mech)))))))))))))))))))))))))))))&amp;start=0&amp;max_results=200&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>200</opensearch:itemsPerPage>
+  <opensearch:totalResults>45</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/math-ph/0209023v2</id>
+    <title>Crossing Probabilities and Modular Forms</title>
+    <updated>2003-02-27T22:13:30Z</updated>
+    <link href="https://arxiv.org/abs/math-ph/0209023v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math-ph/0209023v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We examine crossing probabilities and free energies for conformally invariant critical 2-D systems in rectangular geometries, derived via conformal field theory and Stochastic Löwner Evolution methods. These quantities are shown to exhibit interesting modular behavior, although the physical meaning of modular transformations in this context is not clear. We show that in many cases these functions are completely characterized by very simple transformation properties. In particular, Cardy's function for the percolation crossing probability (including the conformal dimension 1/3), follows from a simple modular argument. A new type of "higher-order modular form" arises and its properties are discussed briefly.</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.dis-nn" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2002-09-12T20:36:20Z</published>
+    <arxiv:comment>16 pages, AMSTeX. Minor corrections, references added</arxiv:comment>
+    <arxiv:primary_category term="math-ph"/>
+    <arxiv:journal_ref>J. Stat. Phys. (2003) 113, pp. 431-454</arxiv:journal_ref>
+    <author>
+      <name>Peter Kleban</name>
+    </author>
+    <author>
+      <name>Don Zagier</name>
+    </author>
+    <arxiv:doi>10.1023/A:1026012600583</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1023/A:1026012600583" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2210.10686v1</id>
+    <title>Modular Linear Differential Operators and Generalized Rankin-Cohen Brackets</title>
+    <updated>2022-10-19T16:02:00Z</updated>
+    <link href="https://arxiv.org/abs/2210.10686v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2210.10686v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The aim in this paper is to give expressions for modular linear differential operators of any order. In particular, we show that they can all be described in terms of Rankin-Cohen brackets and a modified Rankin-Cohen bracket found by Kaneko and Koike. We also give more uniform descriptions of MLDOs in terms of canonically defined higher Serre derivatives and an extension of Rankin-Cohen brackets, as well as in terms of quasimodular forms and almost holomorphic modular forms. The last of these descriptions involves the holomorphic projection map. The paper also includes some general results on the theory of quasimodular forms on both cocompact and non-cocompact subgroups of $SL_2(\mathbb{R})$, as well as a slight sharpening of a theorem of Martin and Royer on Rankin-Cohen brackets of quasimodular forms</summary>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-10-19T16:02:00Z</published>
+    <arxiv:primary_category term="math.NT"/>
+    <author>
+      <name>Kiyokazu Nagatomo</name>
+    </author>
+    <author>
+      <name>Yuichi Sakai</name>
+    </author>
+    <author>
+      <name>Don Zagier</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/0405040v2</id>
+    <title>Numerical verification of Beilinson's conjecture for K2 of hyperelliptic curves</title>
+    <updated>2005-05-04T22:15:14Z</updated>
+    <link href="https://arxiv.org/abs/math/0405040v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/0405040v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We construct families of hyperelliptic curves over Q of arbitrary genus g with (at least) g integral elements in K_2. We also verify the Beilinson conjectures about K_2 numerically for several curves with g=2, 3, 4 and 5.
+  The paper is essentially self-contained and may serve as an elementary introduction to Beilinson's conjectures for K_2 of curves.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.KT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2004-05-04T13:01:48Z</published>
+    <arxiv:comment>39 pages; to appear in Compositio Math</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <arxiv:journal_ref>Compositio Math. 142, Issue 02 (2006), 339-373</arxiv:journal_ref>
+    <author>
+      <name>Tim Dokchitser</name>
+    </author>
+    <author>
+      <name>Rob de Jeu</name>
+    </author>
+    <author>
+      <name>Don Zagier</name>
+    </author>
+    <arxiv:doi>10.1112/S0010437X05001892</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1112/S0010437X05001892" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1208.4074v2</id>
+    <title>Quantum Black Holes, Wall Crossing, and Mock Modular Forms</title>
+    <updated>2014-04-03T12:46:17Z</updated>
+    <link href="https://arxiv.org/abs/1208.4074v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1208.4074v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We show that the meromorphic Jacobi form that counts the quarter-BPS states in N=4 string theories can be canonically decomposed as a sum of a mock Jacobi form and an Appell-Lerch sum. The quantum degeneracies of single-centered black holes are Fourier coefficients of this mock Jacobi form, while the Appell-Lerch sum captures the degeneracies of multi-centered black holes which decay upon wall-crossing. The completion of the mock Jacobi form restores the modular symmetries expected from $AdS_3/CFT_2$ holography but has a holomorphic anomaly reflecting the non-compactness of the microscopic CFT. For every positive integral value m of the magnetic charge invariant of the black hole, our analysis leads to a special mock Jacobi form of weight two and index m, which we characterize uniquely up to a Jacobi cusp form. This family of special forms and another closely related family of weight-one forms contain almost all the known mock modular forms including the mock theta functions of Ramanujan, the generating function of Hurwitz-Kronecker class numbers, the mock modular forms appearing in the Mathieu and Umbral moonshine, as well as an infinite number of new examples.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-08-20T18:07:19Z</published>
+    <arxiv:comment>151 pages, 1 figure. v2: typos corrected, table added, references added</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <author>
+      <name>Atish Dabholkar</name>
+    </author>
+    <author>
+      <name>Sameer Murthy</name>
+    </author>
+    <author>
+      <name>Don Zagier</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/alg-geom/9612020v1</id>
+    <title>Jacobi forms and the structure of Donaldson invariants for 4-manifolds with b_+=1</title>
+    <updated>1996-12-26T15:48:32Z</updated>
+    <link href="https://arxiv.org/abs/alg-geom/9612020v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/alg-geom/9612020v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We prove structure theorems for the Donaldson invariants of 4-manifolds with b_+=1, similar to those of Kronheimer and Mrowka in the case b_+&gt;1: We show that for a 4-manifold with b_+=1 and two different period points F, G on the boundary of the positive cone, the difference of the Donaldson invariants at F and G satisfies the k^{th}-order simple type condition for a number k, explicitely given in terms of F and G. We give a formula for this difference in terms of a set of basic classes, expressed in a universal formula involving modular forms. The leading terms coincide with the formulas of Kronheimer and Mrowka in the simple type case. The basic classes are related to the Seiberg Witten invariants. The proof of these results is based on the conjecture of Kotschick and Morgan on the structure of the wall-crossing terms. We relate the problem to new theta functions for indefinite lattices.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1996-12-26T15:48:32Z</published>
+    <arxiv:comment>AMS-LaTeX, 37 pages</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <author>
+      <name>Lothar Göttsche</name>
+    </author>
+    <author>
+      <name>Don Zagier</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1903.09470v1</id>
+    <title>Cotangent sums, quantum modular forms, and the generalized Riemann hypothesis</title>
+    <updated>2019-03-22T12:21:39Z</updated>
+    <link href="https://arxiv.org/abs/1903.09470v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1903.09470v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We show that an asymptotic property of the determinants of certain matrices whose entries are finite sums of cotangents with rational arguments is equivalent to the GRH for odd Dirichlet characters. This is then connected to the existence of certain quantum modular forms related to Maass Eisenstein series.</summary>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-03-22T12:21:39Z</published>
+    <arxiv:comment>24 pages, 8 figures</arxiv:comment>
+    <arxiv:primary_category term="math.NT"/>
+    <author>
+      <name>John Lewis</name>
+    </author>
+    <author>
+      <name>Don Zagier</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2203.06519v3</id>
+    <title>A hyperbolic Kac-Moody Calogero model</title>
+    <updated>2024-06-11T18:55:19Z</updated>
+    <link href="https://arxiv.org/abs/2203.06519v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2203.06519v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A new kind of quantum Calogero model is proposed, based on a hyperbolic Kac-Moody algebra. We formulate nonrelativistic quantum mechanics on the Minkowskian root space of the simplest rank-3 hyperbolic Lie algebra $AE_3$ with an inverse-square potential given by its real roots and reduce it to the unit future hyperboloid. By stereographic projection this defines a quantum mechanics on the Poincaré disk with a unique potential. Since the Weyl group of $AE_3$ is a $\mathbb{Z}_2$ extension of the modular group PSL(2,$\mathbb{Z}_2$), the model is naturally formulated on the complex upper half plane, and its potential is a real modular function. We present and illustrate the relevant features of $AE_3$, give some approximations to the potential and rewrite it as an (almost everywhere convergent) Poincaré series. The standard Dunkl operators are constructed and investigated on Minkowski space and on the hyperboloid. In the former case find that their commutativity is obstructed by rank-2 subgroups of hyperbolic type (the simplest one given by the Fibonacci sequence), casting doubt on the integrability of the model. An appendix with Don Zagier investigates the computability of the potential. We foresee applications to cosmological billards and to quantum chaos.</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.DS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-03-12T21:25:54Z</published>
+    <arxiv:comment>1+26 pages, numerous figures; v2: omission in eq.(3.2) corrected; v3: two refs. added, minor clarifications, section 8 on the energy spectrum removed, matches published version</arxiv:comment>
+    <arxiv:primary_category term="math-ph"/>
+    <author>
+      <name>Olaf Lechtenfeld</name>
+    </author>
+    <author>
+      <name>Don Zagier</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1606.04065v2</id>
+    <title>Quasimodularity and large genus limits of Siegel-Veech constants</title>
+    <updated>2018-03-27T19:30:08Z</updated>
+    <link href="https://arxiv.org/abs/1606.04065v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1606.04065v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Quasimodular forms were first studied in the context of counting torus coverings. Here we show that a weighted version of these coverings with Siegel-Veech weights also provides quasimodular forms. We apply this to prove conjectures of Eskin and Zorich on the large genus limits of Masur-Veech volumes and of Siegel-Veech constants.
+  In Part I we connect the geometric definition of Siegel-Veech constants both with a combinatorial counting problem and with intersection numbers on Hurwitz spaces. We introduce modified Siegel-Veech weights whose generating functions will later be shown to be quasimodular.
+  Parts II and III are devoted to the study of the quasimodularity of the generating functions arising from weighted counting of torus coverings. The starting point is the theorem of Bloch and Okounkov saying that q-brackets of shifted symmetric functions are quasimodular forms. In Part II we give an expression for their growth polynomials in terms of Gaussian integrals and use this to obtain a closed formula for the generating series of cumulants that is the basis for studying large genus asymptotics. In Part III we show that the even hook-length moments of partitions are shifted symmetric polynomials and prove a formula for the q-bracket of the product of such a hook-length moment with an arbitrary shifted symmetric polynomial. This formula proves quasimodularity also for the (-2)-nd hook-length moments by extrapolation, and implies the quasimodularity of the Siegel-Veech weighted counting functions.
+  Finally, in Part IV these results are used to give explicit generating functions for the volumes and Siegel-Veech constants in the case of the principal stratum of abelian differentials. To apply these exact formulas to the Eskin-Zorich conjectures we provide a general framework for computing the asymptotics of rapidly divergent power series.</summary>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.GT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-06-13T18:54:22Z</published>
+    <arxiv:comment>107 pages, final version, to appear in J. of the AMS</arxiv:comment>
+    <arxiv:primary_category term="math.NT"/>
+    <author>
+      <name>Dawei Chen</name>
+    </author>
+    <author>
+      <name>Martin Moeller</name>
+    </author>
+    <author>
+      <name>Don Zagier</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2405.04190v2</id>
+    <title>On the Euler characteristic of the commutative graph complex and the top weight cohomology of $\mathcal M_g$</title>
+    <updated>2024-08-18T15:47:58Z</updated>
+    <link href="https://arxiv.org/abs/2405.04190v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2405.04190v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We prove an asymptotic formula for the Euler characteristic of Kontsevich's commutative graph complex. This formula implies that the total amount of commutative graph homology grows super-exponentially with the rank and, via a theorem of Chan, Galatius, and Payne, that the dimension of the top weight cohomology of the moduli space of curves, $\mathcal M_g$, grows super-exponentially with the genus $g$.</summary>
+    <category term="math.AT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-05-07T10:52:25Z</published>
+    <arxiv:comment>30 pages, v2: Appendix by Don Zagier added</arxiv:comment>
+    <arxiv:primary_category term="math.AT"/>
+    <author>
+      <name>Michael Borinsky</name>
+    </author>
+    <author>
+      <name>Don Zagier</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2412.20388v2</id>
+    <title>Combinatorics and large genus asymptotics of the Brézin--Gross--Witten numbers</title>
+    <updated>2025-02-10T09:08:59Z</updated>
+    <link href="https://arxiv.org/abs/2412.20388v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2412.20388v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we study combinatorial and asymptotic properties of some interesting rational numbers called the Brézin--Gross--Witten (BGW) numbers, which can be represented as the intersection numbers of psi and Theta classes on the moduli space of stable algebraic curves. In particular, we discover and prove the uniform large genus leading asymptotics of certain normalized BGW numbers, and give a new proof of the polynomiality phenomenon for the large genus asymptotics. We also propose, with extensive numerical data, several new conjectures including monotonicity and integrality on the BGW numbers. Applications to the Painlevé II hierarchy and to the BGW-kappa numbers are given.</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nlin.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-12-29T07:44:11Z</published>
+    <arxiv:comment>Minor changes: corrected typos; improved the presentation at some places; added references. 41 pages, 1 figure</arxiv:comment>
+    <arxiv:primary_category term="math-ph"/>
+    <author>
+      <name>Jindong Guo</name>
+    </author>
+    <author>
+      <name>Paul Norbury</name>
+    </author>
+    <author>
+      <name>Di Yang</name>
+    </author>
+    <author>
+      <name>Don Zagier</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2101.10924v2</id>
+    <title>Geometry and arithmetic of integrable hierarchies of KdV type. I. Integrality</title>
+    <updated>2022-07-05T10:27:47Z</updated>
+    <link href="https://arxiv.org/abs/2101.10924v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2101.10924v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>For each of the simple Lie algebras $\mathfrak{g}=A_l$, $D_l$ or $E_6$, we show that the all-genera one-point FJRW invariants of $\mathfrak{g}$-type, after multiplication by suitable products of Pochhammer symbols, are the coefficients of an algebraic generating function and hence are integral. Moreover, we find that the all-genera invariants themselves coincide with the coefficients of the unique calibration of the Frobenius manifold of $\mathfrak{g}$-type evaluated at a special point. For the $A_4$ (5-spin) case we also find two other normalizations of the sequence that are again integral and of at most exponential growth, and hence conjecturally are the Taylor coefficients of some period functions.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nlin.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-01-26T16:44:47Z</published>
+    <arxiv:comment>v2: added a note and several footnotes specifying the role of the deceased first author in this collaborative research, corrected typos, and added or updated a few references. 56 pages</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <author>
+      <name>Boris Dubrovin</name>
+    </author>
+    <author>
+      <name>Di Yang</name>
+    </author>
+    <author>
+      <name>Don Zagier</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2603.15233v1</id>
+    <title>On uniform large genus asymptotics of Witten's intersection numbers</title>
+    <updated>2026-03-16T13:09:30Z</updated>
+    <link href="https://arxiv.org/abs/2603.15233v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2603.15233v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Following ideas from [14], we give a uniform large genus asymptotics for primitive psi-class intersection numbers on the moduli space of stable algebraic curves, and extend this result including insertions of zeros in a certain uniform way. Application to a particular formal solution of the Painlevé I equation is given. We also use a method from [14] to give a new proof of the polynomiality conjecture on large genus asymptotic expansions of psi-class intersection numbers.</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nlin.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-03-16T13:09:30Z</published>
+    <arxiv:primary_category term="math-ph"/>
+    <author>
+      <name>Jindong Guo</name>
+    </author>
+    <author>
+      <name>Di Yang</name>
+    </author>
+    <author>
+      <name>Don Zagier</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1906.01067v2</id>
+    <title>Dynamics of geodesics, and Maass cusp forms</title>
+    <updated>2020-11-19T10:28:26Z</updated>
+    <link href="https://arxiv.org/abs/1906.01067v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1906.01067v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The correspondence principle in physics between quantum mechanics and classical mechanics suggests deep relations between spectral and geometric entities of Riemannian manifolds. We survey---in a way intended to be accessible to a wide audience of mathematicians---a mathematically rigorous instance of such a relation that emerged in recent years, showing a dynamical interpretation of certain Laplace eigenfunctions of hyperbolic surfaces.</summary>
+    <category term="math.DS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-06-03T20:28:07Z</published>
+    <arxiv:comment>30 pages, 17 figures</arxiv:comment>
+    <arxiv:primary_category term="math.DS"/>
+    <author>
+      <name>A. Pohl</name>
+    </author>
+    <author>
+      <name>D. Zagier</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1503.05690v2</id>
+    <title>Modular embeddings of Teichmueller curves</title>
+    <updated>2016-04-04T11:12:02Z</updated>
+    <link href="https://arxiv.org/abs/1503.05690v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1503.05690v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Fuchsian groups with a modular embedding have the richest arithmetic properties among non-arithmetic Fuchsian groups. But they are very rare, all known examples being related either to triangle groups or to Teichmueller curves.
+  In Part I of this paper we study the arithmetic properties of the modular embedding and develop from scratch a theory of twisted modular forms for Fuchsian groups with a modular embedding, proving dimension formulas, coefficient growth estimates and differential equations.
+  In Part II we provide a modular proof for an Apery-like integrality statement for solutions of Picard-Fuchs equations. We illustrate the theory on a worked example, giving explicit Fourier expansions of twisted modular forms and the equation of a Teichmueller curve in a Hilbert modular surface.
+  In Part III we show that genus two Teichmueller curves are cut out in Hilbert modular surfaces by a product of theta derivatives. We rederive most of the known properties of those Teichmueller curves from this viewpoint, without using the theory of flat surfaces. As a consequence we give the modular embeddings for all genus two Teichmueller curves and prove that the Fourier developments of their twisted modular forms are algebraic up to one transcendental scaling constant. Moreover, we prove that Bainbridge's compactification of Hilbert modular surfaces is toroidal. The strategy to compactify can be expressed using continued fractions and resembles Hirzebruch's in form, but every detail is different.</summary>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.GT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-03-19T10:09:49Z</published>
+    <arxiv:comment>revision including the referee's comments, to appear in Compositio Math</arxiv:comment>
+    <arxiv:primary_category term="math.NT"/>
+    <arxiv:journal_ref>Compositio Math. 152 (2016) 2269-2349</arxiv:journal_ref>
+    <author>
+      <name>Martin Moeller</name>
+    </author>
+    <author>
+      <name>Don Zagier</name>
+    </author>
+    <arxiv:doi>10.1112/S0010437X16007636</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1112/S0010437X16007636" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2010.16367v3</id>
+    <title>Nu-invariants of extra-twisted connected sums</title>
+    <updated>2025-10-03T15:32:03Z</updated>
+    <link href="https://arxiv.org/abs/2010.16367v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2010.16367v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We analyse the possible ways of gluing twisted products of circles with asymptotically cylindrical Calabi-Yau manifolds to produce manifolds with holonomy G_2, thus generalising the twisted connected sum construction of Kovalev and Corti, Haskins, Nordström, Pacini. We then express the extended nu-invariant of Crowley, Goette, and Nordström arXiv:1505.02734 in terms of fixpoint and gluing contributions, which include different types of (generalised) Dedekind sums. Surprisingly, the calculations involve some non-trivial number-theoretical arguments connected with special values of the Dedekind eta-function and the theory of complex multiplication. One consequence of our computations is that there exist compact G_2-manifolds that are not G_2-nullbordant.</summary>
+    <category term="math.GT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-10-30T16:50:18Z</published>
+    <arxiv:comment>75 pages; v3: Added discussion of Kovalev-Lefschetz fibrations</arxiv:comment>
+    <arxiv:primary_category term="math.GT"/>
+    <author>
+      <name>Sebastian Goette</name>
+    </author>
+    <author>
+      <name>Johannes Nordström</name>
+    </author>
+    <author>
+      <name>Don Zagier</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2308.03568v2</id>
+    <title>Mapping partition functions</title>
+    <updated>2024-10-03T08:28:47Z</updated>
+    <link href="https://arxiv.org/abs/2308.03568v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2308.03568v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce an infinite group action on partition functions of WK type, meaning of the type of the partition function $Z^{\rm WK}$ in the famous result of Witten and Kontsevich expressing the partition function of $ψ$-class integrals on the compactified moduli space $\overline{\mathcal{M}}_{g,n}$ as a $τ$-function for the Korteweg--de Vries hierarchy. Specifically, the group which acts is the group $\mathcal{G}$ of formal power series of one variable $\varphi(V)=V+O(V^2)$, with group law given by composition, acting in a suitable way on the infinite tuple of variables of the partition functions. In particular, any $\varphi \in \mathcal{G}$ sends the Witten--Kontsevich (WK) partition function $Z^{\rm WK}$ to a new partition function $Z^\varphi$, which we call the WK mapping partition function associated to $\varphi$. We show that the genus zero part of $\log Z^\varphi$ is independent of $\varphi$ and give an explicit recursive description for its higher genus parts (loop equation), and as applications of this obtain relationships of the $ψ$-class integrals to Gaussian Unitary Ensemble and generalized Brézin--Gross--Witten correlators. In a different direction, we use $Z^\varphi$ to construct a new integrable hierarchy, which we call the WK mapping hierarchy associated to $\varphi$. We show that this hierarchy is a bihamiltonian perturbation of the Riemann--Hopf hierarchy possessing a $τ$-structure, and prove that it is a universal object for all such perturbations. Similarly, for any $\varphi\in\mathcal{G}$, we define the Hodge mapping partition function associated to $\varphi$, prove that it is integrable, and study its role in hamiltonian perturbations of the Riemann--Hopf hierarchy possessing a $τ$-structure. Finally, we establish a generalized Hodge--WK correspondence relating different Hodge mapping partition functions.</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nlin.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-08-07T13:18:22Z</published>
+    <arxiv:comment>Major changes: The previous Conjectures 1, 1', and 2 are now proved (on page 44) and have been renamed Theorems 10, 10', and 13, respectively. Minor changes: We corrected a couple of typos, rewrote a few sentences for clarity, added a footnote, and corrected reference [5]. 73 pages</arxiv:comment>
+    <arxiv:primary_category term="math-ph"/>
+    <author>
+      <name>Di Yang</name>
+    </author>
+    <author>
+      <name>Don Zagier</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0903.2472v1</id>
+    <title>Exact Results for Perturbative Chern-Simons Theory with Complex Gauge Group</title>
+    <updated>2009-03-13T19:50:28Z</updated>
+    <link href="https://arxiv.org/abs/0903.2472v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0903.2472v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We develop several methods that allow us to compute all-loop partition functions in perturbative Chern-Simons theory with complex gauge group G_C, sometimes in multiple ways. In the background of a non-abelian irreducible flat connection, perturbative G_C invariants turn out to be interesting topological invariants, which are very different from finite type (Vassiliev) invariants obtained in a theory with compact gauge group G. We explore various aspects of these invariants and present an example where we compute them explicitly to high loop order. We also introduce a notion of "arithmetic TQFT" and conjecture (with supporting numerical evidence) that SL(2,C) Chern-Simons theory is an example of such a theory.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.GT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.QA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2009-03-13T19:50:28Z</published>
+    <arxiv:comment>60 pages, 9 figures</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <arxiv:journal_ref>Commun.Num.Theor.Phys.3:363-443,2009</arxiv:journal_ref>
+    <author>
+      <name>Tudor Dimofte</name>
+    </author>
+    <author>
+      <name>Sergei Gukov</name>
+    </author>
+    <author>
+      <name>Jonatan Lenells</name>
+    </author>
+    <author>
+      <name>Don Zagier</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2203.09426v1</id>
+    <title>D-brane masses at special fibres of hypergeometric families of Calabi-Yau threefolds, modular forms, and periods</title>
+    <updated>2022-03-17T16:28:11Z</updated>
+    <link href="https://arxiv.org/abs/2203.09426v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2203.09426v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We consider the fourteen families $W$ of Calabi-Yau threefolds with one complex structure parameter and Picard-Fuchs equation of hypergeometric type, like the mirror of the quintic in $\mathbb{P}^4$. Mirror symmetry identifies the masses of even--dimensional D--branes of the mirror Calabi-Yau $M$ with four periods of the holomorphic $(3,0)$-form over a symplectic basis of $H_3(W,\mathbb{Z})$. It was discovered by Chad Schoen that the singular fiber at the conifold of the quintic gives rise to a Hecke eigenform of weight four under $Γ_0(25)$, whose Hecke eigenvalues are determined by the Hasse-Weil zeta function which can be obtained by counting points of that fiber over finite fields. Similar features are known for the thirteen other cases. In two cases we further find special regular points, so called rank two attractor points, where the Hasse-Weil zeta function gives rise to modular forms of weight four and two. We numerically identify entries of the period matrix at these special fibers as periods and quasiperiods of the associated modular forms. In one case we prove this by constructing a correspondence between the conifold fiber and a Kuga-Sato variety. We also comment on simpler applications to local Calabi-Yau threefolds.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-03-17T16:28:11Z</published>
+    <arxiv:comment>78 pages</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <author>
+      <name>Kilian Bönisch</name>
+    </author>
+    <author>
+      <name>Albrecht Klemm</name>
+    </author>
+    <author>
+      <name>Emanuel Scheidegger</name>
+    </author>
+    <author>
+      <name>Don Zagier</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1906.12339v2</id>
+    <title>Genus-zero and genus-one string amplitudes and special multiple zeta values</title>
+    <updated>2020-04-29T13:53:15Z</updated>
+    <link href="https://arxiv.org/abs/1906.12339v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1906.12339v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper we show that in perturbative string theory the genus-one contribution to formal 2-point amplitudes can be related to the genus-zero contribution to 4-point amplitudes. This is achieved by studying special linear combinations of multiple zeta values that appear as coefficients of the amplitudes. We also exploit our results to relate closed strings to open strings at genus one using Brown's single-valued projection, proving a conjecture of Broedel, Schlotterer and the second author.</summary>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-06-28T17:42:11Z</published>
+    <arxiv:comment>V2: minor typos corrected, 24 pages, essentially coincides with published version</arxiv:comment>
+    <arxiv:primary_category term="math.NT"/>
+    <arxiv:journal_ref>Commun. Number Theory Phys. Vol. 14 (2020), no. 2, 413--452</arxiv:journal_ref>
+    <author>
+      <name>Don Zagier</name>
+    </author>
+    <author>
+      <name>Federico Zerbini</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1901.01785v1</id>
+    <title>Masur-Veech volumes and intersection theory on moduli spaces of abelian differentials</title>
+    <updated>2019-01-07T12:54:12Z</updated>
+    <link href="https://arxiv.org/abs/1901.01785v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1901.01785v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We show that the Masur-Veech volumes and area Siegel-Veech constants can be obtained by intersection numbers on the strata of Abelian differentials with prescribed orders of zeros. As applications, we evaluate their large genus limits and compute the saddle connection Siegel-Veech constants for all strata. We also show that the same results hold for the spin and hyper-elliptic components of the strata.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.GT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-01-07T12:54:12Z</published>
+    <arxiv:comment>67 pages, 3 figures</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <author>
+      <name>Dawei Chen</name>
+    </author>
+    <author>
+      <name>Martin Möller</name>
+    </author>
+    <author>
+      <name>Adrien Sauvaget</name>
+    </author>
+    <author>
+      <name>Don Zagier</name>
+    </author>
+    <arxiv:doi>10.1007/s00222-020-00969-4</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s00222-020-00969-4" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1712.04887v3</id>
+    <title>Bloch groups, algebraic K-theory, units, and Nahm's Conjecture</title>
+    <updated>2021-04-06T02:54:05Z</updated>
+    <link href="https://arxiv.org/abs/1712.04887v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1712.04887v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Given an element of the Bloch group of a number field~$F$ and a natural number~$n$, we construct an explicit unit in the field $F_n=F(e^{2 πi/n})$, well-defined up to $\nn$-th powers of nonzero elements of~$F_n$. The construction uses the cyclic quantum dilogarithm, and under the identification of the Bloch group of~$F$ with the $K$-group $K_3(F)$ gives \changed{(up to an unidentified invertible scalar)} a \changed{formula} for a certain abstract Chern class from~$K_3(F)$. The units we define are conjectured to coincide with numbers appearing in the quantum modularity conjecture for the Kashaev invariant of knots (which was the original motivation for our investigation), and also appear in the radial asymptotics of Nahm sums near roots of unity. This latter connection is used to prove Nahm's conjecture relating the modularity of certain $q$-hypergeometric series to the vanishing of the associated elements in the Bloch group of~$\overline{\mathbb Q}$.</summary>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.GT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-12-13T17:56:30Z</published>
+    <arxiv:comment>Several minor inaccuracies have been corrected and the exposition has been improved at several points. The motivational section on quantum topology has been shortened and moved to the introduction. The new version also contains a more careful treatment of the prime 3 (where versions of the Bloch group in the literature differ), permitting us to improve the statements of several of our results</arxiv:comment>
+    <arxiv:primary_category term="math.NT"/>
+    <author>
+      <name>Frank Calegari</name>
+    </author>
+    <author>
+      <name>Stavros Garoufalidis</name>
+    </author>
+    <author>
+      <name>Don Zagier</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2412.04241v2</id>
+    <title>The Habiro ring of a number field</title>
+    <updated>2025-08-27T09:35:25Z</updated>
+    <link href="https://arxiv.org/abs/2412.04241v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2412.04241v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce the Habiro ring of a number field $\mathbb{K}$ and modules over it graded by $K_3(\mathbb{K})$. Elements of these modules are collections of power series at each complex root of unity that arithmetically glue with each other after applying a Frobenius endomorphism, and after dividing at each prime by a collection of series that depends solely on an element of the Bloch group.
+  The main theorems of this paper concern number fields, their algebraic $K$-theory and its regulator maps (Borel, $p$-adic and étale), whereas the explicit collections of series are defined by a careful algebraic analysis of the infinite Pochhammer symbol at roots of unity.
+  The origin of the above mentioned power series comes from perturbative Chern--Simons theory and by expansions of the admissible series of Kontsevich--Soibelman, both ultimately related to the infinite Pochhammer symbol. This link suggests that some Donaldson-Thomas invariants have arithmetic meaning and that some elements of the Habiro ring of a number field have enumerative meaning.
+  Added subsection 1.1 explaining what the paper is about and subsection 1.8 explaining the relation to perturbative complex Chern-Simons theory.</summary>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.GT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-12-05T15:25:11Z</published>
+    <arxiv:comment>73 pages, added subsection 1.1 explaining what the paper is about and subsection 1.8 explaining the relation to perturbative Chern-Simons theory</arxiv:comment>
+    <arxiv:primary_category term="math.NT"/>
+    <author>
+      <name>Stavros Garoufalidis</name>
+    </author>
+    <author>
+      <name>Peter Scholze</name>
+    </author>
+    <author>
+      <name>Campbell Wheeler</name>
+    </author>
+    <author>
+      <name>Don Zagier</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1008.1573v1</id>
+    <title>On a curious property of Bell numbers</title>
+    <updated>2010-08-09T19:48:14Z</updated>
+    <link href="https://arxiv.org/abs/1008.1573v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1008.1573v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper we derive congruences expressing Bell numbers and derangement numbers in terms of each other modulo any prime.</summary>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-08-09T19:48:14Z</published>
+    <arxiv:comment>6 pages</arxiv:comment>
+    <arxiv:primary_category term="math.NT"/>
+    <author>
+      <name>Zhi-Wei Sun</name>
+    </author>
+    <author>
+      <name>Don Zagier</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2304.12545v1</id>
+    <title>Hyperbolic 3-manifolds, the Bloch group, and the work of Walter Neumann</title>
+    <updated>2023-04-25T03:27:14Z</updated>
+    <link href="https://arxiv.org/abs/2304.12545v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2304.12545v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This is an article about the work of Walter Neumann on hyperbolic geometry, ideal triangulations of 3-manifolds, the volume and Chern-Simons invariants of 3-manifolds and their elements of the the Bloch group. The article focuses on the relations of these classical invariants and the impact of Neumann's work to quantum topology and to mathematical physics.</summary>
+    <category term="math.GT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-04-25T03:27:14Z</published>
+    <arxiv:comment>19 pages</arxiv:comment>
+    <arxiv:primary_category term="math.GT"/>
+    <author>
+      <name>Stavros Garoufalidis</name>
+    </author>
+    <author>
+      <name>Don Zagier</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1812.08488v2</id>
+    <title>On tau-functions for the KdV hierarchy</title>
+    <updated>2021-02-23T16:34:59Z</updated>
+    <link href="https://arxiv.org/abs/1812.08488v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1812.08488v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>For an arbitrary solution to the KdV hierarchy, the generating series of logarithmic derivatives of the tau-function of the solution can be expressed by the basic matrix resolvent via algebraic manipulations. Based on this we develop in this paper two new formulae for the generating series by introducing a pair of wave functions of the solution. Applications to the Witten--Kontsevich tau-function, to the generalized Brézin--Gross--Witten (BGW) tau-function, as well as to a modular deformation of the generalized BGW tau-function which we call the Lamé tau-function are also given.</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nlin.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-12-20T11:25:28Z</published>
+    <arxiv:comment>Minor changes: added remarks, added references, corrected typos; 32 pages</arxiv:comment>
+    <arxiv:primary_category term="math-ph"/>
+    <author>
+      <name>Boris Dubrovin</name>
+    </author>
+    <author>
+      <name>Di Yang</name>
+    </author>
+    <author>
+      <name>Don Zagier</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2101.02187v2</id>
+    <title>A curious identity that implies Faber's conjecture</title>
+    <updated>2021-04-22T09:40:10Z</updated>
+    <link href="https://arxiv.org/abs/2101.02187v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2101.02187v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We prove that a curious generating series identity implies Faber's intersection number conjecture (by showing that it implies a combinatorial identity already given in arXiv:1902.02742) and give a new proof of Faber's conjecture by directly proving this identity.</summary>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-01-06T18:48:11Z</published>
+    <arxiv:comment>4 pages (in v2: minor improvements)</arxiv:comment>
+    <arxiv:primary_category term="math.CO"/>
+    <author>
+      <name>Elba Garcia-Failde</name>
+    </author>
+    <author>
+      <name>Don Zagier</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2011.02187v2</id>
+    <title>Strichartz Estimates with Broken Symmetries</title>
+    <updated>2022-02-05T10:18:57Z</updated>
+    <link href="https://arxiv.org/abs/2011.02187v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2011.02187v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this note we study the eigenvalue problem for a quadratic form associated with Strichartz estimates for the Schrödinger equation, proving in particular a sharp Strichartz inequality for the case of odd initial data. We also describe an alternative method that is applicable to a wider class of matrix problems.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-11-04T09:16:13Z</published>
+    <arxiv:comment>11 pages; 1 figure</arxiv:comment>
+    <arxiv:primary_category term="math.CA"/>
+    <author>
+      <name>Felipe Gonçalves</name>
+    </author>
+    <author>
+      <name>Don Zagier</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2111.06645v3</id>
+    <title>Knots, Perturbative Series and Quantum Modularity</title>
+    <updated>2024-06-24T06:19:14Z</updated>
+    <link href="https://arxiv.org/abs/2111.06645v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2111.06645v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce an invariant of a hyperbolic knot which is a map $α\mapsto \boldsymbolΦ_α(h)$ from $\mathbb{Q}/\mathbb{Z}$ to matrices with entries in $\overline{\mathbb{Q}}[[h]]$ and with rows and columns indexed by the boundary parabolic ${\rm SL}_2(\mathbb{C})$ representations of the fundamental group of the knot. These matrix invariants have a rich structure: (a) their $(σ_0,σ_1)$ entry, where $σ_0$ is the trivial and $σ_1$ the geometric representation, is the power series expansion of the Kashaev invariant of the knot around the root of unity ${\rm e}^{2π{\rm i} α}$ as an element of the Habiro ring, and the remaining entries belong to generalized Habiro rings of number fields; (b) the first column is given by the perturbative power series of Dimofte-Garoufalidis; (c) the columns of $\boldsymbolΦ$ are fundamental solutions of a linear $q$-difference equation; (d) the matrix defines an ${\rm SL}_2(\mathbb{Z})$-cocycle $W_γ$ in matrix-valued functions on $\mathbb{Q}$ that conjecturally extends to a smooth function on $\mathbb{R}$ and even to holomorphic functions on suitable complex cut planes, lifting the factorially divergent series $\boldsymbolΦ(h)$ to actual functions. The two invariants $\boldsymbolΦ$ and $W_γ$ are related by a refined quantum modularity conjecture which we illustrate in detail for the three simplest hyperbolic knots, the $4_1$, $5_2$ and $(-2,3,7)$ pretzel knots. This paper has two sequels, one giving a different realization of our invariant as a matrix of convergent $q$-series with integer coefficients and the other studying its Habiro-like arithmetic properties in more depth.</summary>
+    <category term="math.GT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-11-12T10:24:26Z</published>
+    <arxiv:primary_category term="math.GT"/>
+    <arxiv:journal_ref>SIGMA 20 (2024), 055, 87 pages</arxiv:journal_ref>
+    <author>
+      <name>Stavros Garoufalidis</name>
+    </author>
+    <author>
+      <name>Don Zagier</name>
+    </author>
+    <arxiv:doi>10.3842/SIGMA.2024.055</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.3842/SIGMA.2024.055" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2604.26354v1</id>
+    <title>On enumeration of $b$-angulations of surfaces from an integrability perspective</title>
+    <updated>2026-04-29T07:04:58Z</updated>
+    <link href="https://arxiv.org/abs/2604.26354v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2604.26354v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we study generating series enumerating polygonal angulations of closed oriented surfaces of fixed genus, focusing on $b$-angulations with $b = 3$ or $b = 2ν$, $ν\geq 2$. Based on Toda integrability, we establish new structural results in the cases $b = 3$ and $b = 4$. Furthermore, via the Hodge--GUE correspondence, we derive a fine structure in the $b = 2ν$ case, which implies a conjectural statement of Gharakhloo--Latimer.</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nlin.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-04-29T07:04:58Z</published>
+    <arxiv:comment>23 pages</arxiv:comment>
+    <arxiv:primary_category term="math-ph"/>
+    <author>
+      <name>Elba Garcia-Failde</name>
+    </author>
+    <author>
+      <name>Jianghao Xu</name>
+    </author>
+    <author>
+      <name>Di Yang</name>
+    </author>
+    <author>
+      <name>Don Zagier</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2005.02275v1</id>
+    <title>Masur--Veech volumes of quadratic differentials and their asymptotics</title>
+    <updated>2020-05-05T15:12:56Z</updated>
+    <link href="https://arxiv.org/abs/2005.02275v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2005.02275v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Based on the Chen--Möller--Sauvaget formula, we apply the theory of integrable systems to derive three equations for the generating series of the Masur--Veech volumes ${\rm Vol} \, \mathcal{Q}_{g,n}$ associated with the principal strata of the moduli spaces of quadratic differentials, and propose refinements of the conjectural formulas given in [12,4] for the large genus asymptotics of ${\rm Vol} \, \mathcal{Q}_{g,n}$ and of the associated area Siegel--Veech constants.</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nlin.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-05-05T15:12:56Z</published>
+    <arxiv:comment>17 pages</arxiv:comment>
+    <arxiv:primary_category term="math-ph"/>
+    <author>
+      <name>Di Yang</name>
+    </author>
+    <author>
+      <name>Don Zagier</name>
+    </author>
+    <author>
+      <name>Youjin Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1812.07690v1</id>
+    <title>Asymptotics of Nahm sums at roots of unity</title>
+    <updated>2018-12-18T23:19:43Z</updated>
+    <link href="https://arxiv.org/abs/1812.07690v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1812.07690v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We give a formula for the radial asymptotics to all orders of the special $q$-hypergeometric series known as Nahm sums at complex roots of unity. This result is used in~\cite{CGZ} to prove one direction of Nahm's conjecture relating the modularity of Nahm sums to the vanishing of a certain invariant in $K$-theory. The power series occurring in our asymptotic formula are identical to the conjectured asymptotics of the Kashaev invariant of a knot once we convert Neumann-Zagier data into Nahm data, suggesting a deep connection between asymptotics of quantum knot invariants and asymptotics of Nahm sums that will be discussed further in a subsequent publication.</summary>
+    <category term="math.GT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-12-18T23:19:43Z</published>
+    <arxiv:comment>17 pages</arxiv:comment>
+    <arxiv:primary_category term="math.GT"/>
+    <author>
+      <name>Stavros Garoufalidis</name>
+    </author>
+    <author>
+      <name>Don Zagier</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2304.09377v2</id>
+    <title>Knots and Their Related $q$-Series</title>
+    <updated>2023-11-01T07:00:30Z</updated>
+    <link href="https://arxiv.org/abs/2304.09377v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2304.09377v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We discuss a matrix of periodic holomorphic functions in the upper and lower half-plane which can be obtained from a factorization of an Andersen-Kashaev state integral of a knot complement with remarkable analytic and asymptotic properties that defines a ${\rm PSL}_2({\mathbb Z})$-cocycle on the space of matrix-valued piecewise analytic functions on the real numbers. We identify the corresponding cocycle with the one coming from the Kashaev invariant of a knot (and its matrix-valued extension) via the refined quantum modularity conjecture of [arXiv:2111.06645] and also relate the matrix-valued invariant with the 3D-index of Dimofte-Gaiotto-Gukov. The cocycle also has an analytic extendability property that leads to the notion of a matrix-valued holomorphic quantum modular form. This is a tale of several independent discoveries, both empirical and theoretical, all illustrated by the three simplest hyperbolic knots.</summary>
+    <category term="math.GT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-04-19T02:16:09Z</published>
+    <arxiv:primary_category term="math.GT"/>
+    <arxiv:journal_ref>SIGMA 19 (2023), 082, 39 pages</arxiv:journal_ref>
+    <author>
+      <name>Stavros Garoufalidis</name>
+    </author>
+    <author>
+      <name>Don Zagier</name>
+    </author>
+    <arxiv:doi>10.3842/SIGMA.2023.082</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.3842/SIGMA.2023.082" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0710.0889v1</id>
+    <title>Some Properties of Hypergeometric Series Associated with Mirror Symmetry</title>
+    <updated>2007-10-03T20:56:24Z</updated>
+    <link href="https://arxiv.org/abs/0710.0889v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0710.0889v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We show that certain hypergeometric series used to formulate mirror symmetry for Calabi-Yau hypersurfaces, in string theory and algebraic geometry, satisfy a number of interesting properties. Many of these properties are used in separate papers to verify the BCOV prediction for the genus one Gromov-Witten invariants of a quintic threefold and more generally to compute the genus one Gromov-Witten invariants of any Calabi-Yau projective hypersurface.</summary>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2007-10-03T20:56:24Z</published>
+    <arxiv:comment>14 pages</arxiv:comment>
+    <arxiv:primary_category term="math.CO"/>
+    <author>
+      <name>Don Zagier</name>
+    </author>
+    <author>
+      <name>Aleksey Zinger</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1802.00711v1</id>
+    <title>Gromov--Witten invariants of the Riemann sphere</title>
+    <updated>2018-02-02T14:57:34Z</updated>
+    <link href="https://arxiv.org/abs/1802.00711v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1802.00711v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A conjectural formula for the $k$-point generating function of Gromov--Witten invariants of the Riemann sphere for all genera and all degrees was proposed in \cite{DY2}. In this paper, we give a proof of this formula together with an explicit analytic (as opposed to formal) expression for the corresponding matrix resolvent. We also give a formula for the $k$-point function as a sum of $(k-1)!$ products of hypergeometric functions of one variable. We show that the $k$-point generating function coincides with the $ε\rightarrow 0$ asymptotics of the analytic $k$-point function, and also compute three more asymptotics of the analytic function for $ε\rightarrow \infty$, $q\rightarrow 0$, $q\rightarrow\infty$, thus defining new invariants for the Riemann sphere.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-02-02T14:57:34Z</published>
+    <arxiv:comment>23 pages</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <author>
+      <name>Boris Dubrovin</name>
+    </author>
+    <author>
+      <name>Di Yang</name>
+    </author>
+    <author>
+      <name>Don Zagier</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/nlin/0010021v1</id>
+    <title>Finite Size XXZ Spin Chain with Anisotropy Parameter $Δ= {1/2}$</title>
+    <updated>2000-10-11T03:29:58Z</updated>
+    <link href="https://arxiv.org/abs/nlin/0010021v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/nlin/0010021v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We find an analytic solution of the Bethe Ansatz equations (BAE) for the special case of a finite XXZ spin chain with free boundary conditions and with a complex surface field which provides for $U_q(sl(2))$ symmetry of the Hamiltonian. More precisely, we find one nontrivial solution, corresponding to the ground state of the system with anisotropy parameter $Δ= {1/2}$ corresponding to $q^3 = -1$. With a view to establishing an exact representation of the ground state of the finite size XXZ spin chain in terms of elementary functions, we concentrate on the crossing-parameter $η$ dependence around $η=π/3$ for which there is a known solution. The approach taken involves the use of a physical solution $Q$ of Baxter's t-Q equation, corresponding to the ground state, as well as a non-physical solution $P$ of the same equation. The calculation of $P$ and then of the ground state derivative is covered. Possible applications of this derivative to the theory of percolation have yet to be investigated. As far as the finite XXZ spin chain with periodic boundary conditions is concerned, we find a similar solution for an assymetric case which corresponds to the 6-vertex model with a special magnetic field. For this case we find the analytic value of the ``magnetic moment'' of the system in the corresponding state.</summary>
+    <category term="nlin.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2000-10-11T03:29:58Z</published>
+    <arxiv:comment>12 pages, latex, no figures</arxiv:comment>
+    <arxiv:primary_category term="nlin.SI"/>
+    <author>
+      <name>V. Fridkin</name>
+    </author>
+    <author>
+      <name>Yu. Stroganov</name>
+    </author>
+    <author>
+      <name>D. Zagier</name>
+    </author>
+    <arxiv:doi>10.1023/A:1004898802809</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1023/A:1004898802809" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1907.00188v1</id>
+    <title>Theta Blocks</title>
+    <updated>2019-06-29T12:00:12Z</updated>
+    <link href="https://arxiv.org/abs/1907.00188v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1907.00188v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We define theta blocks as products of Jacobi theta functions divided by powers of the Dedekind eta-function and show that they give a powerful new method to construct Jacobi forms and Siegel modular forms, with applications also in lattice theory and algebraic geometry. One of the central questions is when a theta block defines a Jacobi form. It turns out that this seemingly simple question is connected to various deep problems in different fields ranging from Fourier analysis over infinite-dimensional Lie algebras to the theory of moduli spaces in algebraic geometry. We give several answers to this question.</summary>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-06-29T12:00:12Z</published>
+    <arxiv:primary_category term="math.NT"/>
+    <author>
+      <name>Valery Gritsenko</name>
+    </author>
+    <author>
+      <name>Nils-Peter Skoruppa</name>
+    </author>
+    <author>
+      <name>Don Zagier</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2010.01905v2</id>
+    <title>Information thermodynamics of financial markets: the Glosten-Milgrom model</title>
+    <updated>2021-01-24T17:33:44Z</updated>
+    <link href="https://arxiv.org/abs/2010.01905v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2010.01905v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The Glosten-Milgrom model describes a single asset market, where informed traders interact with a market maker, in the presence of noise traders. We derive an analogy between this financial model and a Szilárd information engine by {\em i)} showing that the optimal work extraction protocol in the latter coincides with the pricing strategy of the market maker in the former and {\em ii)} defining a market analogue of the physical temperature from the analysis of the distribution of market orders. Then we show that the expected gain of informed traders is bounded above by the product of this market temperature with the amount of information that informed traders have, in exact analogy with the corresponding formula for the maximal expected amount of work that can be extracted from a cycle of the information engine. This suggests that recent ideas from information thermodynamics may shed light on financial markets, and lead to generalised inequalities, in the spirit of the extended second law of thermodynamics.</summary>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="econ.TH" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-fin.TR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-10-05T10:36:07Z</published>
+    <arxiv:comment>20 pages, 3 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.stat-mech"/>
+    <author>
+      <name>Léo Touzo</name>
+    </author>
+    <author>
+      <name>Matteo Marsili</name>
+    </author>
+    <author>
+      <name>Don Zagier</name>
+    </author>
+    <arxiv:doi>10.1088/1742-5468/abe59b</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1742-5468/abe59b" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1711.00327v2</id>
+    <title>A simple proof of the Eichler-Selberg trace formula</title>
+    <updated>2018-12-18T13:18:26Z</updated>
+    <link href="https://arxiv.org/abs/1711.00327v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1711.00327v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We give a short proof of the trace formula for Hecke operators on modular forms for the modular group, using the action of Hecke operators on the space of period polynomials.</summary>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-11-01T13:08:22Z</published>
+    <arxiv:comment>14 pages. Final version, to appear in J. Reine Angew. Math</arxiv:comment>
+    <arxiv:primary_category term="math.NT"/>
+    <author>
+      <name>Alexandru A. Popa</name>
+    </author>
+    <author>
+      <name>Don Zagier</name>
+    </author>
+    <arxiv:doi>10.1515/crelle-2018-0035</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1515/crelle-2018-0035" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2012.15805v1</id>
+    <title>Arithmetic properties of the Herglotz function</title>
+    <updated>2020-12-31T18:26:41Z</updated>
+    <link href="https://arxiv.org/abs/2012.15805v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2012.15805v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper we study two functions $F(x)$ and $J(x)$, originally found by Herglotz in 1923 and later rediscovered and used by one of the authors in connection with the Kronecker limit formula for real quadratic fields. We discuss many interesting properties of these functions, including special values at rational or quadratic irrational arguments as rational linear combinations of dilogarithms and products of logarithms, functional equations coming from Hecke operators, and connections with Stark's conjecture. We also discuss connections with 1-cocycles for the modular group $\mathrm{PSL}(2,\mathbb{Z})$.</summary>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-12-31T18:26:41Z</published>
+    <arxiv:comment>18 pages</arxiv:comment>
+    <arxiv:primary_category term="math.NT"/>
+    <author>
+      <name>Danylo Radchenko</name>
+    </author>
+    <author>
+      <name>Don Zagier</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1604.02822v1</id>
+    <title>A combinatorial refinement of the Kronecker-Hurwitz class number relation</title>
+    <updated>2016-04-11T08:00:40Z</updated>
+    <link href="https://arxiv.org/abs/1604.02822v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1604.02822v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We give a refinement of the Kronecker-Hurwitz class number relation, based on a tesselation of the Euclidean plane into semi-infinite triangles labeled by $PSL_2(\mathbb{Z})$ that may be of independent interest.</summary>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-04-11T08:00:40Z</published>
+    <arxiv:comment>6 pages, 3 figures</arxiv:comment>
+    <arxiv:primary_category term="math.NT"/>
+    <author>
+      <name>Alexandru A. Popa</name>
+    </author>
+    <author>
+      <name>Don Zagier</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-th/9912252v1</id>
+    <title>Ground State of the Quantum Symmetric Finite Size XXZ Spin Chain with Anisotropy Parameter $Δ= {1/2}$</title>
+    <updated>1999-12-27T01:47:20Z</updated>
+    <link href="https://arxiv.org/abs/hep-th/9912252v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-th/9912252v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We find an analytic solution of the Bethe Ansatz equations (BAE) for the special case of a finite XXZ spin chain with free boundary conditions and with a complex surface field which provides for $U_q(sl(2))$ symmetry of the Hamiltonian. More precisely, we find one nontrivial solution, corresponding to the ground state of the system with anisotropy parameter $Δ= {1/2}$ corresponding to $q^3 = -1$.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1999-12-27T01:47:20Z</published>
+    <arxiv:comment>6 pages</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <arxiv:journal_ref>J.Phys. A33 (2000) L121-L125</arxiv:journal_ref>
+    <author>
+      <name>V. Fridkin</name>
+      <arxiv:affiliation>RIMS, Kyoto</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Yu. Stroganov</name>
+      <arxiv:affiliation>IFVE, Protvino; RIMS, Kyoto</arxiv:affiliation>
+    </author>
+    <author>
+      <name>D. Zagier</name>
+      <arxiv:affiliation>MPIM, Bonn</arxiv:affiliation>
+    </author>
+    <arxiv:doi>10.1088/0305-4470/33/13/101</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/0305-4470/33/13/101" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1902.07321v2</id>
+    <title>Jensen polynomials for the Riemann zeta function and other sequences</title>
+    <updated>2019-03-31T19:05:32Z</updated>
+    <link href="https://arxiv.org/abs/1902.07321v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1902.07321v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In 1927 Pólya proved that the Riemann Hypothesis is equivalent to the hyperbolicity of Jensen polynomials for the Riemann zeta function $ζ(s)$ at its point of symmetry. This hyperbolicity has been proved for degrees $d\leq 3$. We obtain an asymptotic formula for the central derivatives $ζ^{(2n)}(1/2)$ that is accurate to all orders, which allows us to prove the hyperbolicity of a density $1$ subset of the Jensen polynomials of each degree. Moreover, we establish hyperbolicity for all $d\leq 8$. These results follow from a general theorem which models such polynomials by Hermite polynomials. In the case of the Riemann zeta function, this proves the GUE random matrix model prediction in derivative aspect. The general theorem also allows us to prove a conjecture of Chen, Jia, and Wang on the partition function.</summary>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-02-19T22:15:49Z</published>
+    <arxiv:comment>11 pages</arxiv:comment>
+    <arxiv:primary_category term="math.NT"/>
+    <author>
+      <name>Michael Griffin</name>
+    </author>
+    <author>
+      <name>Ken Ono</name>
+    </author>
+    <author>
+      <name>Larry Rolen</name>
+    </author>
+    <author>
+      <name>Don Zagier</name>
+    </author>
+    <arxiv:doi>10.1073/pnas.1902572116</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1073/pnas.1902572116" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/alg-geom/9604001v1</id>
+    <title>Higher Weil-Petersson Volumes of Moduli Spaces of Stable $n$-pointed Curves</title>
+    <updated>1996-04-01T12:19:14Z</updated>
+    <link href="https://arxiv.org/abs/alg-geom/9604001v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/alg-geom/9604001v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Moduli spaces of compact stable $n$-pointed curves carry a hierarchy of cohomology classes of top dimension which generalize the Weil-Petersson volume forms and constitute a version of Mumford classes. We give various new formulas for the integrals of these forms and their generating functions. We also discuss their relation to the Kuenneth formula in quantum cohomology.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1996-04-01T12:19:14Z</published>
+    <arxiv:comment>AMSTeX</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <author>
+      <name>R. Kaufmann</name>
+    </author>
+    <author>
+      <name>Yu. Manin</name>
+    </author>
+    <author>
+      <name>D. Zagier</name>
+    </author>
+    <arxiv:doi>10.1007/BF02101297</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/BF02101297" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/0101270v1</id>
+    <title>Period functions for Maass wave forms. I</title>
+    <updated>2001-01-01T00:00:00Z</updated>
+    <link href="https://arxiv.org/abs/math/0101270v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/0101270v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Recall that a Maass wave form on the full modular group Gamma=PSL(2,Z) is a smooth gamma-invariant function u from the upper half-plane H = {x+iy | y&gt;0} to C which is small as y \to \infty and satisfies Delta u = lambda u for some lambda \in C, where Delta = y^2(d^2/dx^2 + d^2/dy^2) is the hyperbolic Laplacian. These functions give a basis for L_2 on the modular surface Gamma\H, with the usual trigonometric waveforms on the torus R^2/Z^2, which are also (for this surface) both the Fourier building blocks for L_2 and eigenfunctions of the Laplacian. Although therefore very basic objects, Maass forms nevertheless still remain mysteriously elusive fifty years after their discovery; in particular, no explicit construction exists for any of these functions for the full modular group. The basic information about them (e.g. their existence and the density of the eigenvalues) comes mostly from the Selberg trace formula: the rest is conjectural with support from extensive numerical computations.</summary>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2001-01-01T00:00:00Z</published>
+    <arxiv:comment>68 pages, published version</arxiv:comment>
+    <arxiv:primary_category term="math.NT"/>
+    <arxiv:journal_ref>Ann. of Math. (2) 153 (2001), no. 1, 191--258</arxiv:journal_ref>
+    <author>
+      <name>J. Lewis</name>
+    </author>
+    <author>
+      <name>D. Zagier</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0902.3113v4</id>
+    <title>Asymptotics of classical spin networks</title>
+    <updated>2011-12-19T17:14:41Z</updated>
+    <link href="https://arxiv.org/abs/0902.3113v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0902.3113v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A spin network is a cubic ribbon graph labeled by representations of $\mathrm{SU}(2)$. Spin networks are important in various areas of Mathematics (3-dimensional Quantum Topology), Physics (Angular Momentum, Classical and Quantum Gravity) and Chemistry (Atomic Spectroscopy). The evaluation of a spin network is an integer number. The main results of our paper are: (a) an existence theorem for the asymptotics of evaluations of arbitrary spin networks (using the theory of $G$-functions), (b) a rationality property of the generating series of all evaluations with a fixed underlying graph (using the combinatorics of the chromatic evaluation of a spin network), (c) rigorous effective computations of our results for some $6j$-symbols using the Wilf-Zeilberger theory, and (d) a complete analysis of the regular Cube $12j$ spin network (including a non-rigorous guess of its Stokes constants), in the appendix.</summary>
+    <category term="math.GT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.QA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2009-02-18T15:14:51Z</published>
+    <arxiv:comment>24 pages, 32 figures</arxiv:comment>
+    <arxiv:primary_category term="math.GT"/>
+    <arxiv:journal_ref>Geom. Topol. 17 (2013) 1-37</arxiv:journal_ref>
+    <author>
+      <name>Stavros Garoufalidis</name>
+    </author>
+    <author>
+      <name>Roland van der Veen</name>
+    </author>
+    <author>
+      <name>with an appendix by Don Zagier</name>
+    </author>
+    <arxiv:doi>10.2140/gt.2013.17.1</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.2140/gt.2013.17.1" title="doi"/>
+  </entry>
+</feed>

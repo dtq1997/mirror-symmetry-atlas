@@ -1,0 +1,1256 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/8fjsxm1l5YQsOZ1VfmOnKTPoBCw</id>
+  <title>arXiv Query: search_query=au:"Yongbin Ruan" AND (cat:math.AG OR cat:math.AT OR cat:math.AP OR cat:math.CT OR cat:math.CA OR cat:math.CO OR cat:math.DG OR cat:math.DS OR cat:math.FA OR cat:math.GT OR cat:math.MP OR cat:math.OA OR cat:math.PR OR cat:math.QA OR cat:math.RA OR cat:math.RT OR cat:math.SG OR cat:math.SP OR cat:math.ST OR cat:math.NT OR cat:math.GR OR cat:math.HO OR cat:math-ph OR cat:nlin.SI OR cat:nlin.CD OR cat:hep-th OR cat:q-alg OR cat:dg-ga OR cat:alg-geom OR cat:cond-mat.stat-mech)&amp;id_list=&amp;start=0&amp;max_results=200</title>
+  <updated>2026-05-06T07:30:29Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=au:%22Yongbin+Ruan%22+AND+(cat:math.AG+OR+(cat:math.AT+OR+(cat:math.AP+OR+(cat:math.CT+OR+(cat:math.CA+OR+(cat:math.CO+OR+(cat:math.DG+OR+(cat:math.DS+OR+(cat:math.FA+OR+(cat:math.GT+OR+(cat:math.MP+OR+(cat:math.OA+OR+(cat:math.PR+OR+(cat:math.QA+OR+(cat:math.RA+OR+(cat:math.RT+OR+(cat:math.SG+OR+(cat:math.SP+OR+(cat:math.ST+OR+(cat:math.NT+OR+(cat:math.GR+OR+(cat:math.HO+OR+(cat:math-ph+OR+(cat:nlin.SI+OR+(cat:nlin.CD+OR+(cat:hep-th+OR+(cat:q-alg+OR+(cat:dg-ga+OR+(cat:alg-geom+OR+cat:cond-mat.stat-mech)))))))))))))))))))))))))))))&amp;start=0&amp;max_results=200&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>200</opensearch:itemsPerPage>
+  <opensearch:totalResults>57</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/math/0504369v1</id>
+    <title>Gerbes and twisted orbifold quantum cohomology</title>
+    <updated>2005-04-18T20:23:40Z</updated>
+    <link href="https://arxiv.org/abs/math/0504369v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/0504369v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  In this article, we construct an orbifold quantum cohomology twisted by a flat gerbe. Then we compute these invariants in the case of a smooth manifold and a discrete torsion on a global quotient orbifold.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.SG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2005-04-18T20:23:40Z</published>
+    <arxiv:comment>Amstex</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <author>
+      <name>Jianzhong Pan</name>
+    </author>
+    <author>
+      <name>Yongbin Ruan</name>
+    </author>
+    <author>
+      <name>Xiaoqin Yin</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0712.4025v3</id>
+    <title>The Witten equation and its virtual fundamental cycle</title>
+    <updated>2011-04-15T23:05:28Z</updated>
+    <link href="https://arxiv.org/abs/0712.4025v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0712.4025v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study a system of nonlinear elliptic PDEs associated with a quasi-homogeneous polynomial. These equations were proposed by Witten as the replacement for the Cauchy-Riemann equation in the singularity (Landau-Ginzburg) setting. We introduce a perturbation to the equation and construct a virtual cycle for the moduli space of its solutions. Then, we study the wall-crossing of the deformation of the virtual cycle under perturbation and match it to classical Picard-Lefschetz theory. An extended virtual cycle is obtained for the original equation. Finally, we prove that the extended virtual cycle satisfies a set of axioms similar to those of Gromov-Witten theory and r-spin theory.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.SG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2007-12-24T20:07:52Z</published>
+    <arxiv:comment>Major revision. Additional axioms proved and additional details provided over previous version</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <author>
+      <name>Huijun Fan</name>
+    </author>
+    <author>
+      <name>Tyler J. Jarvis</name>
+    </author>
+    <author>
+      <name>Yongbin Ruan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/0201123v1</id>
+    <title>Stringy orbifolds</title>
+    <updated>2002-01-15T02:29:14Z</updated>
+    <link href="https://arxiv.org/abs/math/0201123v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/0201123v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Recently, there is an explosive growth of activities to understand stringy properties of orbifolds. In this article, we survey some of recent developments.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.SG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2002-01-15T02:29:14Z</published>
+    <arxiv:comment>A survery article written for the Proceedings of Workshop on Mathematical Aspect of Orbifold String Theory</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <author>
+      <name>Yongbin Ruan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0712.4021v4</id>
+    <title>The Witten equation, mirror symmetry and quantum singularity theory</title>
+    <updated>2012-07-26T14:35:23Z</updated>
+    <link href="https://arxiv.org/abs/0712.4021v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0712.4021v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>For any non-degenerate, quasi-homogeneous hypersurface singularity, we describe a family of moduli spaces, a virtual cycle, and a corresponding cohomological field theory associated to the singularity. This theory is analogous to Gromov-Witten theory and generalizes the theory of r-spin curves, which corresponds to the simple singularity A_{r-1}.
+  We also resolve two outstanding conjectures of Witten. The first conjecture is that ADE-singularities are self-dual; and the second conjecture is that the total potential functions of ADE-singularities satisfy corresponding ADE-integrable hierarchies. Other cases of integrable hierarchies are also discussed.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.SG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2007-12-24T20:18:06Z</published>
+    <arxiv:comment>To appear in Annals of Mathematics. Includes resolution of the Witten ADE integrable hierarchies conjecture and Witten's ADE self-mirror conjecture. Several corrections and clarifications</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <author>
+      <name>Huijun Fan</name>
+    </author>
+    <author>
+      <name>Tyler J. Jarvis</name>
+    </author>
+    <author>
+      <name>Yongbin Ruan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/0011149v2</id>
+    <title>Stringy Geometry and Topology of Orbifolds</title>
+    <updated>2001-03-11T18:18:12Z</updated>
+    <link href="https://arxiv.org/abs/math/0011149v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/0011149v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  This is a survey article on the recent development of
+ "stringy geometry and topology of orbifolds", a new subject of mathematics motivated by orbifold string theory.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.SG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2000-11-20T21:21:53Z</published>
+    <arxiv:comment>Latex, correcting minor mistakes in examples</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <author>
+      <name>Yongbin Ruan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1603.02666v2</id>
+    <title>The Moduli Space in the Gauged Linear Sigma Model</title>
+    <updated>2017-08-02T04:33:05Z</updated>
+    <link href="https://arxiv.org/abs/1603.02666v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1603.02666v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This is a survey article for the mathematical theory of Witten's Gauged Linear Sigma Model, as developed recently by the authors. Instead of developing the theory in the most general setting, in this paper we focus on the description of the moduli.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.SG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-03-08T20:46:09Z</published>
+    <arxiv:comment>Credit for support added. arXiv admin note: substantial text overlap with arXiv:1506.02109</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <author>
+      <name>Huijun Fan</name>
+    </author>
+    <author>
+      <name>Tyler Jarvis</name>
+    </author>
+    <author>
+      <name>Yongbin Ruan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1008.0927v2</id>
+    <title>Witten's D_4 Integrable Hierarchies Conjecture</title>
+    <updated>2014-06-05T17:00:04Z</updated>
+    <link href="https://arxiv.org/abs/1008.0927v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1008.0927v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We prove that the total descendant potential functions of the theory of Fan-Jarvis-Ruan-Witten for D_4 with symmetry group &lt;J&gt; and D_4^T with symmetry group G_{max}, respectively, are both tau-functions of the D_4 Kac-Wakimoto/Drinfeld-Sokolov hierarchy. This completes the proof, begun in [FJR], of the Witten Integrable Hierarchies Conjecture for all simple (ADE) singularities.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.SG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-08-05T08:49:32Z</published>
+    <arxiv:comment>Corrected several errors and added more details in proofs and exposition</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <author>
+      <name>Huijun Fan</name>
+    </author>
+    <author>
+      <name>Amanda Francis</name>
+    </author>
+    <author>
+      <name>Tyler J. Jarvis</name>
+    </author>
+    <author>
+      <name>Evan Merrell</name>
+    </author>
+    <author>
+      <name>Yongbin Ruan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0906.3265v1</id>
+    <title>Symplectic Birational Geometry</title>
+    <updated>2009-06-17T18:10:04Z</updated>
+    <link href="https://arxiv.org/abs/0906.3265v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0906.3265v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  This is a survey on symplectic birational geometry. In arbitrary dimension, this subject is centered around the notion of uniruledness. In low dimensions, we will also discuss Kodaira dimension and minimality.</summary>
+    <category term="math.SG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.GT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2009-06-17T18:10:04Z</published>
+    <arxiv:comment>To appear in the Proc. of Yasha Fest</arxiv:comment>
+    <arxiv:primary_category term="math.SG"/>
+    <author>
+      <name>Tian-Jun Li</name>
+    </author>
+    <author>
+      <name>Yongbin Ruan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/0004129v3</id>
+    <title>A New Cohomology Theory for Orbifold</title>
+    <updated>2001-03-15T23:06:30Z</updated>
+    <link href="https://arxiv.org/abs/math/0004129v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/0004129v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Motivated by orbifold string theory, we introduce orbifold cohomology group for any almost complex orbifold and orbifold Dolbeault cohomology for any complex orbifold. Then, we show that our new cohomology group satisfies Poincare duality and has a natural ring structure. Some examples of orbifold cohomology ring are computed.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.SG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2000-04-20T03:04:30Z</published>
+    <arxiv:comment>Correct some minor mistakes</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <arxiv:journal_ref>Commun.Math.Phys. 248 (2004) 1-31</arxiv:journal_ref>
+    <author>
+      <name>Weimin Chen</name>
+    </author>
+    <author>
+      <name>Yongbin Ruan</name>
+    </author>
+    <arxiv:doi>10.1007/s00220-004-1089-4</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s00220-004-1089-4" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/0409434v2</id>
+    <title>Geometry and analysis of spin equations</title>
+    <updated>2008-02-23T00:05:02Z</updated>
+    <link href="https://arxiv.org/abs/math/0409434v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/0409434v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We introduce W-spin structures on a Riemann surface and give a precise definition to the corresponding W-spin equations for any quasi-homogeneous polynomial W. Then, we construct examples of nonzero solutions of spin equations in the presence of Ramond marked points. The main result of the paper is a compactness theorem for the moduli space of the solutions of W-spin equations when W is a non-degenerate, quasi-homogeneous polynomial whose variables all have weight (or fractional degree) wt(x_i) &lt; 1/2. In particular, the compactness theorem holds for the A,D, and E superpotentials.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.SG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2004-09-22T16:38:46Z</published>
+    <arxiv:comment>AMSLaTeX; Minor errors corrected, exposition improved</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <author>
+      <name>Huijun Fan</name>
+    </author>
+    <author>
+      <name>Tyler J. Jarvis</name>
+    </author>
+    <author>
+      <name>Yongbin Ruan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1506.02109v5</id>
+    <title>A Mathematical Theory of the Gauged Linear Sigma Model</title>
+    <updated>2020-11-27T22:22:24Z</updated>
+    <link href="https://arxiv.org/abs/1506.02109v5" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1506.02109v5" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We construct a mathematical theory of Witten's Gauged Linear Sigma Model (GLSM). Our theory applies to a wide range of examples, including many cases with non-Abelian gauge group. Both the Gromov-Witten theory of a Calabi-Yau complete intersection X and the Landau-Ginzburg dual (FJRW-theory) of X can be expressed as gauged linear sigma models. Furthermore, the Landau-Ginzburg/Calabi-Yau correspondence can be interpreted as a variation of the moment map or a deformation of GIT in the GLSM. This paper focuses primarily on the algebraic theory, while a companion article will treat the analytic theory.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.SG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-06-06T03:14:25Z</published>
+    <arxiv:comment>Corrections to treatment of compact type</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <arxiv:journal_ref>Geom. Topol. 22 (2018) 235-303</arxiv:journal_ref>
+    <author>
+      <name>Huijun Fan</name>
+    </author>
+    <author>
+      <name>Tyler Jarvis</name>
+    </author>
+    <author>
+      <name>Yongbin Ruan</name>
+    </author>
+    <arxiv:doi>10.2140/gt.2018.22.235</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.2140/gt.2018.22.235" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/0005198v2</id>
+    <title>Orbifold Quantum Cohomology</title>
+    <updated>2000-06-02T15:55:20Z</updated>
+    <link href="https://arxiv.org/abs/math/0005198v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/0005198v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  This is a research announcement of the theory of orbifold quantum cohomology.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.SG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2000-05-19T23:49:49Z</published>
+    <arxiv:comment>Revised version, adding more references</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <author>
+      <name>Weimin Chen</name>
+    </author>
+    <author>
+      <name>Yongbin Ruan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/0005299v2</id>
+    <title>Discrete torsion and twisted orbifold cohomology</title>
+    <updated>2000-12-21T21:36:18Z</updated>
+    <link href="https://arxiv.org/abs/math/0005299v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/0005299v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  In this article, we study the twisting procedure of orbifold cohomology. We introduce local system and construct twisted orbifold cohomology. Then, we generalize Vafa-Witten's notion of discrete torsion to general orbifold and examine its relation to local system. Finally, some examples are computed.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.SG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2000-05-31T19:59:07Z</published>
+    <arxiv:comment>Revised version</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <author>
+      <name>Yongbin Ruan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2207.06111v1</id>
+    <title>Symplectic blowing down in dimension Six</title>
+    <updated>2022-07-13T10:36:40Z</updated>
+    <link href="https://arxiv.org/abs/2207.06111v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2207.06111v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We establish a blowing down criterion in the context of birational symplectic geometry in dimension 6.</summary>
+    <category term="math.SG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.GT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-07-13T10:36:40Z</published>
+    <arxiv:comment>32 pages</arxiv:comment>
+    <arxiv:primary_category term="math.SG"/>
+    <author>
+      <name>Tian-Jun Li</name>
+    </author>
+    <author>
+      <name>Yongbin Ruan</name>
+    </author>
+    <author>
+      <name>Weiyi Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2210.13411v2</id>
+    <title>Castelnuovo bound and higher genus Gromov-Witten invariants of quintic 3-folds</title>
+    <updated>2022-10-31T17:54:33Z</updated>
+    <link href="https://arxiv.org/abs/2210.13411v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2210.13411v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We prove a conjectural vanishing result for Gopakumar--Vafa invariants of quintic 3-folds, referred to as Castelnuovo bound in the literature. Furthermore, we calculate Gopakumar--Vafa invariants at Castelnuovo bound $g=\frac{d^2+5d+10}{10}$. As physicists showed, these two properties allow us to compute all Gromov--Witten invariants of quintic 3-folds up to genus $53$, provided that the conifold gap condition holds. We also give a bound for the genus of any one-dimensional closed subscheme in a smooth hypersurface of degree $\leq 5$, which may be of independent interest.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.SG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-10-24T17:13:08Z</published>
+    <arxiv:comment>31 pages. v2: minor changes, added more references and fixed some typos</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <author>
+      <name>Zhiyu Liu</name>
+    </author>
+    <author>
+      <name>Yongbin Ruan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1012.0066v1</id>
+    <title>Quantum Singularity Theory for A_{r-1} and r-Spin Theory</title>
+    <updated>2010-12-01T00:01:29Z</updated>
+    <link href="https://arxiv.org/abs/1012.0066v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1012.0066v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We give a review of the quantum singularity theory of Fan-Jarvis-Ruan and the r-spin theory of Jarvis-Kimura-Vaintrob and describe the work of Abramovich-Jarvis showing that for the singularity A_{r-1} = x^r the stack of A_{r-1}-curves of is canonically isomorphic to the stack of r-spin curves. We prove that the A_{r-1}-theory satisfies all the axioms of Jarvis-Kimura-Vaintrob for an r-spin virtual class. Therefore, the results of Lee, Faber-Shadrin-Zovonkine, and Givental all apply to the A_{r-1}-theory. In particular, this shows that the Witten Integrable Hierarchies Conjecture is true for the A_{r-1}-theory; that is, the total descendant potential function of the A_{r-1}-theory satisfies the r-th Gelfand-Dikii hierarchy.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-12-01T00:01:29Z</published>
+    <arxiv:primary_category term="math.AG"/>
+    <author>
+      <name>Huijun Fan</name>
+    </author>
+    <author>
+      <name>Tyler J. Jarvis</name>
+    </author>
+    <author>
+      <name>Yongbin Ruan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0908.0908v2</id>
+    <title>LG/CY correspondence: the state space isomorphism</title>
+    <updated>2010-02-02T14:40:00Z</updated>
+    <link href="https://arxiv.org/abs/0908.0908v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0908.0908v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We prove the classical mirror symmetry conjecture for the mirror pairs constructed by Berglund, Hübsch, and Krawitz. Our main tool is a cohomological LG/CY correspondence which provides a degree-preserving isomorphism between the cohomology of finite quotients of Calabi-Yau hypersurfaces inside a weighted projective space and the Fan-Jarvis-Ruan-Witten state space of the associated Landau-Ginzburg singularity theory.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2009-08-06T16:58:20Z</published>
+    <arxiv:comment>37 pages, 9 figures</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <author>
+      <name>Alessandro Chiodo</name>
+      <arxiv:affiliation>IF</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Yongbin Ruan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/9803036v4</id>
+    <title>Symplectic surgery and Gromov-Witten invariants of Calabi-Yau 3-folds I</title>
+    <updated>2000-06-29T16:49:12Z</updated>
+    <link href="https://arxiv.org/abs/math/9803036v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/9803036v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We define relative Gromov-Witten invariants and establish a general gluing theory of pseudo-holomorphic curves for symplectic cutting and contact surgery. Then, we use our general gluing theory to study the change of GW-invariants of Calabi-Yau 3-folds tranform under flops and extremal transitions. We prove a complete formula for the change of GW-invariants of any genus transform under flop and a general type I extremal transition. Other extremal transition will be handled in a subsequent paper.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1998-03-10T22:29:08Z</published>
+    <arxiv:comment>Latex, revised version, a much shorter and better written version</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <author>
+      <name>An-Min Li</name>
+    </author>
+    <author>
+      <name>Yongbin Ruan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/alg-geom/9601005v1</id>
+    <title>Higher genus symplectic invariants and sigma model coupled with gravity</title>
+    <updated>1996-01-06T20:20:16Z</updated>
+    <link href="https://arxiv.org/abs/alg-geom/9601005v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/alg-geom/9601005v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We define higher genus Gromov-Witten invariants and establish a mathematical theory of sigma model coupled with gravity over any semi-positive symplectic manifolds. As applications, we verify the stablizing conjecture of symplectic 4-manifolds for simply connected elliptic surfaces and construct smooth 6-manifolds admitting infinitely many deformation classes of symplectic structures.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1996-01-06T20:20:16Z</published>
+    <arxiv:comment>LaTeX</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <author>
+      <name>Yongbin Ruan</name>
+    </author>
+    <author>
+      <name>Gang Tian</name>
+    </author>
+    <arxiv:doi>10.1007/s002220050192</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s002220050192" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0812.4660v3</id>
+    <title>Landau-Ginzburg/Calabi-Yau correspondence for quintic three-folds via symplectic transformations</title>
+    <updated>2013-02-21T10:27:54Z</updated>
+    <link href="https://arxiv.org/abs/0812.4660v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0812.4660v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We compute the recently introduced Fan-Jarvis-Ruan-Witten theory of W-curves in genus zero for quintic polynomials in five variables and we show that it matches the Gromov-Witten genus-zero theory of the quintic three-fold via a symplectic transformation. More specifically, we show that the J-function encoding the Fan-Jarvis-Ruan-Witten theory on the A-side equals via a mirror map the I-function embodying the period integrals at the Gepner point on the B-side. This identification inscribes the physical Landau-Ginzburg/Calabi-Yau correspondence within the enumerative geometry of moduli of curves, matches the genus-zero invariants computed by the physicists Huang, Klemm, and Quackenbush at the Gepner point, and yields via Givental's quantization a prediction on the relation between the full higher genus potential of the quintic three-fold and that of Fan-Jarvis-Ruan-Witten theory.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2008-12-26T09:34:34Z</published>
+    <arxiv:comment>43 pages. v2: section 2 updated to match notation of Fan, Jarvis, and Ruan, arXiv:0712.4021. v3: Section 2 focuses only on the Fermat quintic. The final version is available via http://link.springer.com/article/10.1007%2Fs00222-010-0260-0</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <arxiv:journal_ref>Invent. Math., 182, (2010), 117-165</arxiv:journal_ref>
+    <author>
+      <name>Alessandro Chiodo</name>
+      <arxiv:affiliation>IF</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Yongbin Ruan</name>
+    </author>
+    <arxiv:doi>10.1007/s00222-010-0260-0</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s00222-010-0260-0" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1312.7227v2</id>
+    <title>BCFG Drinfeld-Sokolov Hierarchies and FJRW-Theory</title>
+    <updated>2014-12-28T02:53:16Z</updated>
+    <link href="https://arxiv.org/abs/1312.7227v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1312.7227v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>According to the ADE Witten conjecture, which is proved by Fan, Jarvis and Ruan, the total descendant potential of the FJRW invariants of an ADE singularity is a tau function of the corresponding mirror ADE Drinfeld-Sokolov hierarchy. In the present paper, we show that there is a finite group $Γ$ acting on a certain ADE singularity which induces an action on the corresponding FJRW-theory, and the $Γ$-invariant sector also satisfies the axioms of a cohomological field theory except the gluing loop axiom. On the other hand, we show that there is also a $Γ$-action on the mirror Drinfeld-Sokolov hierarchy, and the $Γ$-invariant flows yield the BCFG Drinfeld-Sokolov hierarchy. We prove that the total descendant potential of the $Γ$-invariant sector of a FJRW-theory is a tau function of the corresponding BCFG Drinfeld-Sokolov hierarchy.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-12-27T09:55:26Z</published>
+    <arxiv:comment>60 pages, final version, to appear in Inventiones Mathematicae. arXiv admin note: text overlap with arXiv:1106.6270 by other authors</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <author>
+      <name>Si-Qi Liu</name>
+    </author>
+    <author>
+      <name>Yongbin Ruan</name>
+    </author>
+    <author>
+      <name>Youjin Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1911.07204v4</id>
+    <title>Genus Two Quasi-Siegel Modular Forms and Gromov-Witten Theory of Toric Calabi-Yau Threefolds</title>
+    <updated>2022-11-13T01:48:12Z</updated>
+    <link href="https://arxiv.org/abs/1911.07204v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1911.07204v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We first develop theories of differential rings of quasi-Siegel modular and quasi-Siegel Jacobi forms for genus two. Then we apply them to the Eynard-Orantin topological recursion of certain local Calabi-Yau threefolds equipped with branes, whose mirror curves are genus two hyperelliptic curves. By the proof of the Remodeling Conjecture, we prove that the corresponding open- and closed- Gromov-Witten potentials are essentially quasi-Siegel Jacobi and quasi-Siegel modular forms for genus two, respectively.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-11-17T10:19:57Z</published>
+    <arxiv:comment>minor revision. A shortened version to appear in Commun. Math. Phys</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <arxiv:journal_ref>Commun. Math. Phys. 398, 757-796 (2023)</arxiv:journal_ref>
+    <author>
+      <name>Yongbin Ruan</name>
+    </author>
+    <author>
+      <name>Yingchun Zhang</name>
+    </author>
+    <author>
+      <name>Jie Zhou</name>
+    </author>
+    <arxiv:doi>10.1007/s00220-022-04534-3</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s00220-022-04534-3" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/alg-geom/9611021v2</id>
+    <title>Virtual neighborhoods and pseudo-holomorphic curves</title>
+    <updated>1998-03-10T18:26:19Z</updated>
+    <link href="https://arxiv.org/abs/alg-geom/9611021v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/alg-geom/9611021v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We use virtual neighborhood technique to establish GW-invariants, Quantum cohomology, equivariant GW-invariants, equivariant quantum cohomology and Floer cohomology for general symplectic manifold. We also establish GW-invariants for a family of symplectic manifolds. As a consequence, we prove Arnold conjecture for nondegenerate Hamiltonian symplectomorphisms.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1996-11-19T05:23:57Z</published>
+    <arxiv:comment>Latex, revised version, corrected some mistakes in section 2, 3, improve presentation</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <author>
+      <name>Yongbin Ruan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/0103156v1</id>
+    <title>Orbifold Gromov-Witten Theory</title>
+    <updated>2001-03-25T04:17:48Z</updated>
+    <link href="https://arxiv.org/abs/math/0103156v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/0103156v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  In this article, we introduce the notion of good map and use it to establish Gromov-Witten theory for orbifolds.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.SG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2001-03-25T04:17:48Z</published>
+    <arxiv:comment>Latex</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <author>
+      <name>Weimin Chen</name>
+    </author>
+    <author>
+      <name>Yongbin Ruan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1812.11908v1</id>
+    <title>Structure of Higher Genus Gromov-Witten Invariants of Quintic 3-folds</title>
+    <updated>2018-12-31T17:27:13Z</updated>
+    <link href="https://arxiv.org/abs/1812.11908v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1812.11908v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>There is a set of remarkable physical predictions for the structure of BCOV's higher genus B-model of mirror quintic 3-folds which can be viewed as conjectures for the Gromov-Witten theory of quintic 3-folds. They are (i) Yamaguchi--Yau's finite generation, (ii) the holomorphic anomaly equation, (iii) the orbifold regularity and (iv) the conifold gap condition. Moreover, these properties are expected to be universal properties for all the Calabi-Yau 3-folds. This article is devoted to proving first three conjectures.
+  The main geometric input to our proof is a log GLSM moduli space and the comparison formula between its reduced virtual cycle (reproducing Gromov--Witten invariants of quintic 3-folds) and its nonreduced virtual cycle. Our starting point is a Combinatorial Structural Theorem expressing the Gromov-Witten cohomological field theory as an action of a generalized $R$-matrix in the sense of Givental. An $R$-matrix computation implies a graded finite generation property. Our graded finite generation implies Yamaguchi-Yau's (nongraded) finite generation, as well as the orbifold regularity. By differentiating the Combinatorial Structural Theorem carefully, we derive the holomorphic anomaly equations. Our technique is purely A-model theoretic and does not assume any knowledge of B-model. Finally, above structural theorems hold for a family of theories (the extended quintic family) including the theory of quintic as a special case.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.SG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-12-31T17:27:13Z</published>
+    <arxiv:comment>46 pages, 6 figures</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <author>
+      <name>Shuai Guo</name>
+    </author>
+    <author>
+      <name>Felix Janda</name>
+    </author>
+    <author>
+      <name>Yongbin Ruan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1709.07392v1</id>
+    <title>A mirror theorem for genus two Gromov-Witten invariants of quintic threefolds</title>
+    <updated>2017-09-21T15:54:33Z</updated>
+    <link href="https://arxiv.org/abs/1709.07392v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1709.07392v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We derive a closed formula for the generating function of genus two Gromov-Witten invariants of quintic 3-folds and verify the corresponding mirror symmetry conjecture of Bershadsky, Cecotti, Ooguri and Vafa.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.SG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-09-21T15:54:33Z</published>
+    <arxiv:comment>44 pages</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <author>
+      <name>Shuai Guo</name>
+    </author>
+    <author>
+      <name>Felix Janda</name>
+    </author>
+    <author>
+      <name>Yongbin Ruan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/0611592v3</id>
+    <title>Birational cobordism invariance of uniruled symplectic manifolds</title>
+    <updated>2007-11-28T13:27:53Z</updated>
+    <link href="https://arxiv.org/abs/math/0611592v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/0611592v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  A symplectic manifold $(M,ω)$ is called {\em (symplectically) uniruled} if there is a nonzero genus zero GW invariant involving a point constraint. We prove that symplectic uniruledness is invariant under symplectic blow-up and blow-down. This theorem follows from a general Relative/Absolute correspondence for a symplectic manifold together with a symplectic submanifold. A direct consequence is that symplectic uniruledness is a symplectic birational invariant. Here we use Guillemin and Sternberg's notion of cobordism as the symplectic analogue of the birational equivalence.</summary>
+    <category term="math.SG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2006-11-20T02:37:23Z</published>
+    <arxiv:comment>To appear in Invent. Math</arxiv:comment>
+    <arxiv:primary_category term="math.SG"/>
+    <author>
+      <name>Jianxun Hu</name>
+    </author>
+    <author>
+      <name>Tian-Jun Li</name>
+    </author>
+    <author>
+      <name>Yongbin Ruan</name>
+    </author>
+    <arxiv:doi>10.1007/s00222-007-0097-3</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s00222-007-0097-3" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1412.1268v2</id>
+    <title>Mirror Symmetry Constructions</title>
+    <updated>2015-09-30T09:27:52Z</updated>
+    <link href="https://arxiv.org/abs/1412.1268v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1412.1268v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>These expository notes are based on lectures by Yongbin Ruan during a special semester on the B-model at the University of Michigan in Winter 2014. They outline and compare the mirror symmetry constructions of Batyrev-Borisov, Hori-Vafa, and Berglund-Hubsch-Krawitz.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-12-03T10:49:24Z</published>
+    <arxiv:comment>85 pages, 4 chapters plus Appendix</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <author>
+      <name>Emily Clader</name>
+    </author>
+    <author>
+      <name>Yongbin Ruan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/0108195v2</id>
+    <title>Cohomology ring of crepant resolutions of orbifolds</title>
+    <updated>2002-01-14T11:53:56Z</updated>
+    <link href="https://arxiv.org/abs/math/0108195v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/0108195v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Motivated by physics, we propose two conjectures regarding the cohomology ring of the crepant resolutions of orbifolds and cohomological invariants of K-equivalent manifolds.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.SG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2001-08-29T02:39:03Z</published>
+    <arxiv:comment>Revised version</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <author>
+      <name>Yongbin Ruan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1805.04894v2</id>
+    <title>Open Gromov-Witten Theory of $K_{\mathbb P^2}, K_{{\mathbb P^1}\times {\mathbb P^1}}, K_{W\mathbb P[1,1,2]}, K_{\mathbb F_1}$ and Jacobi Forms</title>
+    <updated>2019-06-10T01:22:44Z</updated>
+    <link href="https://arxiv.org/abs/1805.04894v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1805.04894v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>It was known through the efforts of many works that the generating functions in the closed Gromov-Witten theory of $K_{\mathbb P^2}$ are meromorphic quasi-modular forms basing on the B-model predictions. In this article, we extend the modularity phenomenon to $K_{{\mathbb P^1}\times {\mathbb P^1}}, K_{W\mathbb P[1,1,2]}, K_{\mathbb F_1}$. More importantly, we generalize it to the generating functions in the open Gromov-Witten theory using the theory of Jacobi forms where the open Gromov-Witten parameters are transformed into elliptic variables.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-05-13T14:24:50Z</published>
+    <arxiv:comment>2 figures, revised version</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <arxiv:journal_ref>Commun. Math. Phys. 369, 675-719 (2019)</arxiv:journal_ref>
+    <author>
+      <name>Bohan Fang</name>
+    </author>
+    <author>
+      <name>Yongbin Ruan</name>
+    </author>
+    <author>
+      <name>Yingchun Zhang</name>
+    </author>
+    <author>
+      <name>Jie Zhou</name>
+    </author>
+    <arxiv:doi>10.1007/s00220-019-03440-5</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s00220-019-03440-5" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1206.3879v1</id>
+    <title>Gromov-Witten theory and cycle-valued modular forms</title>
+    <updated>2012-06-18T10:31:24Z</updated>
+    <link href="https://arxiv.org/abs/1206.3879v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1206.3879v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we proved generating functions of Gromov-Witten cycles of the elliptic orbifold lines with weights (3,3,3), (4,4,2), and (6,3,2) are cycle-valued quasi-modular forms. This is a generalization of Milanov and Ruan's work on cycle-valued level. First we construct a global cohomology field theory (CohFT) for simple elliptic singularities (modulo an extension problem) and prove its modularity. Then, we apply Teleman's reconstruction theorem to prove mirror theorems on cycled-valued level and match it with a CohFT from Gromov-Witten theory of a corresponding orbifold.This solves the extension property as well as inducing the modularity for a Gromov-Witten CohFT.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-06-18T10:31:24Z</published>
+    <arxiv:primary_category term="math.AG"/>
+    <author>
+      <name>Todor Milanov</name>
+    </author>
+    <author>
+      <name>Yongbin Ruan</name>
+    </author>
+    <author>
+      <name>Yefeng Shen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1402.6688v2</id>
+    <title>Wall-Crossing in Genus Zero Landau-Ginzburg Theory</title>
+    <updated>2015-01-08T20:34:35Z</updated>
+    <link href="https://arxiv.org/abs/1402.6688v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1402.6688v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study genus zero wall-crossing for a family of moduli spaces introduced recently by Fan-Farvis-Ruan. The family has a wall and chamber structure relative to a positive rational parameter. For a Fermat quasi-homogeneous polynomial W (not necessarily Calabi-Yau type), we study natural generating functions of invariants associated to these moduli spaces. Our wall-crossing formula relates the generating functions by showing that they all lie on the same Lagrangian cone associated to the Fan-Jarvis-Ruan-Witten theory of W. For arbitrarily small parameter, a specialization of our generating function is a hypergeometric series called the big I-function which determines the entire Lagrangian cone. As a special case of our wall-crossing, we obtain a new geometric interpretation of the Landau-Ginzburg mirror theorem.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-02-26T20:53:09Z</published>
+    <arxiv:comment>Revisions made, 21 pages, to appear in Crelle</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <author>
+      <name>Dustin Ross</name>
+    </author>
+    <author>
+      <name>Yongbin Ruan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/0107168v1</id>
+    <title>Twisted Orbifold K-Theory</title>
+    <updated>2001-07-23T22:32:15Z</updated>
+    <link href="https://arxiv.org/abs/math/0107168v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/0107168v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We use equivariant methods to establish basic properties of orbifold K-theory. We introduce the notion of twisted orbifold K-theory in the presence of discrete torsion, and show how it can be explicitly computed for global quotients.</summary>
+    <category term="math.AT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2001-07-23T22:32:15Z</published>
+    <arxiv:comment>30 pages</arxiv:comment>
+    <arxiv:primary_category term="math.AT"/>
+    <arxiv:journal_ref>Commun.Math.Phys. 237 (2003) 533-556</arxiv:journal_ref>
+    <author>
+      <name>Alejandro Adem</name>
+    </author>
+    <author>
+      <name>Yongbin Ruan</name>
+    </author>
+    <arxiv:doi>10.1007/s00220-003-0849-x</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s00220-003-0849-x" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1605.08885v2</id>
+    <title>Gromov-Witten Theory of Quotient of Fermat Calabi-Yau varieties</title>
+    <updated>2016-08-03T05:36:30Z</updated>
+    <link href="https://arxiv.org/abs/1605.08885v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1605.08885v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We construct a global B-model for weighted homogeneous polynomials based on K. Saito's theory of primitive forms. Our main motivation is to give a rigorous statement of the so called global mirror symmetry conjecture relating Gromov-Witten invariants and Fan--Jarvis--Ruan--Witten invariants. Furthermore, our construction allows us to generalize the notion of a quasi-modular form and holomorphic anomaly equations. Finally, we prove the global mirror symmetry conjecture for the Fermat polynomials.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-05-28T12:40:14Z</published>
+    <arxiv:comment>82 pages, in version 2: some typos corrected and references added</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <author>
+      <name>Hiroshi Iritani</name>
+    </author>
+    <author>
+      <name>Todor Milanov</name>
+    </author>
+    <author>
+      <name>Yongbin Ruan</name>
+    </author>
+    <author>
+      <name>Yefeng Shen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0802.0590v1</id>
+    <title>Positive divisors in symplectic geometry</title>
+    <updated>2008-02-05T11:27:27Z</updated>
+    <link href="https://arxiv.org/abs/0802.0590v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0802.0590v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  In this paper, we gave some explicit relations between absolute and relative Gromov-Witten invariants. We proved that a symplectic manifold is symplectic rationally connected if it contains a positive divisor symplectomorphic to $P^n$.</summary>
+    <category term="math.SG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2008-02-05T11:27:27Z</published>
+    <arxiv:primary_category term="math.SG"/>
+    <author>
+      <name>Jianxun Hu</name>
+    </author>
+    <author>
+      <name>Yongbin Ruan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2207.10533v2</id>
+    <title>Mirror symmetry for special nilpotent orbit closures</title>
+    <updated>2022-08-30T09:36:07Z</updated>
+    <link href="https://arxiv.org/abs/2207.10533v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2207.10533v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Motivated by geometric Langlands, we initiate a program to study the mirror symmetry between nilpotent orbit closures of a semisimple Lie algebra and those of its Langlands dual. The most interesting case is $B_n$ via $C_n$. Classically, there is a famous Springer duality between special orbits. Therefore, it is natural to speculate that the mirror symmetry we seek may coincide with Springer duality in the context of special orbits. Unfortunately, such a naive statement fails. To remedy the situation, we propose a conjecture which asserts the mirror symmetry for certain parabolic/induced covers of special orbits. Then, we prove the conjecture for Richardson orbits and obtain certain partial results in general. In the process, we reveal some very interesting and yet subtle structures of these finite covers, which are related to Lusztig's canonical quotients of special nilpotent orbits. For example, there is a mysterious asymmetry in the footprint or range of degrees of these finite covers. Finally, we provide two examples to show that the mirror symmetry fails outside the footprint.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-07-21T15:15:19Z</published>
+    <arxiv:comment>In this version, we fixed some typos and enhanced some results in Section 4</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <author>
+      <name>Baohua Fu</name>
+    </author>
+    <author>
+      <name>Yongbin Ruan</name>
+    </author>
+    <author>
+      <name>Yaoxiong Wen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0710.5901v3</id>
+    <title>Quantum Cohomology and Crepant Resolutions: A Conjecture</title>
+    <updated>2008-04-16T13:49:37Z</updated>
+    <link href="https://arxiv.org/abs/0710.5901v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0710.5901v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We give an expository account of a conjecture, developed by Coates--Corti--Iritani--Tseng and Ruan, which relates the quantum cohomology of a Gorenstein orbifold X to the quantum cohomology of a crepant resolution Y of X. We explore some consequences of this conjecture, showing that it implies versions of both the Cohomological Crepant Resolution Conjecture and of the Crepant Resolution Conjectures of Ruan and Bryan--Graber. We also give a "quantized" version of the conjecture, which determines higher-genus Gromov--Witten invariants of X from those of Y.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2007-10-31T16:33:47Z</published>
+    <arxiv:comment>34 pages. Version 2: added a paragraph (Remark 4.2) clarifying the history and origins of the conjecture. Version 3: corrected some typos in Section 8</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <author>
+      <name>Tom Coates</name>
+    </author>
+    <author>
+      <name>Yongbin Ruan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2208.04519v2</id>
+    <title>Punctured logarithmic R-maps</title>
+    <updated>2023-04-21T22:41:21Z</updated>
+    <link href="https://arxiv.org/abs/2208.04519v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2208.04519v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we develop the theory of punctured R-maps as a crucial component of logarithmic gauged linear sigma models (log GLSM). A punctured R-map is a punctured map in the sense of ACGS, further twisted by the sheaf of differentials on the domain curve. They admit two different but closely related perfect obstruction theories - a canonical one and a reduced one. While the canonical theory leads to generalized double ramification cycles with targets and spin structures, without expansions, the reduced theory describes boundary contributions in log GLSM.
+  Major results of this paper include a sequence of axioms in both canonical and reduced theories:
+  1. A product formula computing disconnected invariants in terms of connected ones
+  2. Fundamental class axioms, string and divisor equations
+  As an important application, these formulas lead to a class of invariants in the reduced theory, called effective invariants. They are at the heart of recent advances in GW theory, and will be shown to give rise to explicit correction terms to the quantum Lefschetz principle in higher genus GW theory for arbitrary smooth complete intersections in a forthcoming paper.
+  For quintic 3-folds, we show that all effective invariants are determined by $[(2g-2)/5] + 1$ many basic effective invariants, using the formulas in (1) and (2). This matches the number of free parameters of the famous BCOV B-model theory in physics. Similar results apply to other complete intersections. This, together with the joint works of the last two authors and S. Guo on the genus two mirror theorem and the higher genus mirror conjectures for quintic 3-folds, shows that log GLSM is an effective tool for proving BCOV-type conjectures in higher genus GW theory.
+  Further applications of punctured R-maps include an LG/CY correspondence for effective invariants and a relation to the locus of holomorphic differentials.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-08-09T03:07:17Z</published>
+    <arxiv:comment>v2: revised introduction to emphasize relations to quantum Lefschetz, double ramification cycles and strata of differentials</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <author>
+      <name>Qile Chen</name>
+    </author>
+    <author>
+      <name>Felix Janda</name>
+    </author>
+    <author>
+      <name>Yongbin Ruan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2109.02218v2</id>
+    <title>Quantum $K$-theory and $q$-Difference equations</title>
+    <updated>2021-09-23T11:30:43Z</updated>
+    <link href="https://arxiv.org/abs/2109.02218v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2109.02218v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This is a set of lecture notes for the first author's lectures on the difference equations in 2019 at the Institute of Advanced Study for Mathematics at Zhejiang University. We focus on explicit computations and examples. The convergence of local solutions is discussed.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.QA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-09-06T03:08:24Z</published>
+    <arxiv:comment>In this version, we added a reference of Garoufalidis-Scheidegger (arXiv:2101.07490), and fixed some errors</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <author>
+      <name>Yongbin Ruan</name>
+    </author>
+    <author>
+      <name>Yaoxiong Wen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/9810039v2</id>
+    <title>Surgery, quantum cohomology and birational geometry</title>
+    <updated>1999-09-09T02:36:28Z</updated>
+    <link href="https://arxiv.org/abs/math/9810039v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/9810039v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  This is an expository article about the recent results on the relation between the naturality problem of quantum cohomology and birational geometry. We give a short survey on Li-Ruan's results. Some conjecture-proposals are discussed.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1998-10-06T22:12:21Z</published>
+    <arxiv:comment>A minor revision. A better description of log stable map and correction of typo</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <author>
+      <name>Yongbin Ruan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0711.4254v1</id>
+    <title>Uniruled symplectic divisors</title>
+    <updated>2007-11-27T13:59:01Z</updated>
+    <link href="https://arxiv.org/abs/0711.4254v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0711.4254v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  This is a paper devoted to the symplectic birational geometry program where many basic notions are defined in terms of genus 0 GW invariants. We show that the existence of a positive uniruled symplectic divisor often implies that the ambient manifold has a nonzero uniruled genus 0 GW invariant, hence is uniruled as well. This confirms a part of the dichotomy on uniruled symplectic divisors. In addition, it gives a rather general construction of uniruled symplectic manifolds, generalizing some beautiful results of McDuff.</summary>
+    <category term="math.SG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2007-11-27T13:59:01Z</published>
+    <arxiv:comment>45 pages</arxiv:comment>
+    <arxiv:primary_category term="math.SG"/>
+    <author>
+      <name>Tian-Jun Li</name>
+    </author>
+    <author>
+      <name>Yongbin Ruan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1201.0813v3</id>
+    <title>Landau-Ginzburg/Calabi-Yau correspondence, global mirror symmetry and Orlov equivalence</title>
+    <updated>2013-06-23T16:51:32Z</updated>
+    <link href="https://arxiv.org/abs/1201.0813v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1201.0813v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We show that the Gromov-Witten theory of Calabi-Yau hypersurfaces matches, in genus zero and after an analytic continuation, the quantum singularity theory (FJRW theory) recently introduced by Fan, Jarvis and Ruan following ideas of Witten. Moreover, on both sides, we highlight two remarkable integral local systems arising from the common formalism of Gamma-integral structures applied to the derived category of the hypersurface {W=0} and to the category of graded matrix factorizations of W. In this setup, we prove that the analytic continuation matches Orlov equivalence between the two above categories.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.SG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-01-04T03:33:05Z</published>
+    <arxiv:comment>72pages, v2: Appendix B and references added. Typos corrected, v3: several mistakes corrected, final version</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <arxiv:journal_ref>Publ. IHES, June 2014, Vol 119, Issue 1, pp.127-216</arxiv:journal_ref>
+    <author>
+      <name>Alessandro Chiodo</name>
+    </author>
+    <author>
+      <name>Hiroshi Iritani</name>
+    </author>
+    <author>
+      <name>Yongbin Ruan</name>
+    </author>
+    <arxiv:doi>10.1007/s10240-013-0056-z</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s10240-013-0056-z" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1702.03427v2</id>
+    <title>Higher-genus quasimap wall-crossing via localization</title>
+    <updated>2024-09-22T02:03:04Z</updated>
+    <link href="https://arxiv.org/abs/1702.03427v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1702.03427v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We give a new proof of Ciocan-Fontanine and Kim's wall-crossing formula relating the virtual classes of the moduli spaces of $ε$-stable quasimaps for different $ε$ in any genus, whenever the target is a complete intersection in projective space and there is at least one marked point. Our techniques involve a twisted graph space, which we expect to generalize to yield wall-crossing formulas for general gauged linear sigma models.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-02-11T15:00:22Z</published>
+    <arxiv:comment>26 pages, v2 agrees with published version</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <arxiv:journal_ref>Algebr. Geom. 11 (2024), no. 5, 712-736</arxiv:journal_ref>
+    <author>
+      <name>Emily Clader</name>
+    </author>
+    <author>
+      <name>Felix Janda</name>
+    </author>
+    <author>
+      <name>Yongbin Ruan</name>
+    </author>
+    <arxiv:doi>10.14231/AG-2024-021</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.14231/AG-2024-021" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1805.02304v2</id>
+    <title>Towards Logarithmic GLSM: The r-spin case</title>
+    <updated>2023-06-26T00:05:42Z</updated>
+    <link href="https://arxiv.org/abs/1805.02304v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1805.02304v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this article, we establish the logarithmic foundation for compactifying the moduli stacks of the gauged linear sigma model using stable log maps of Abramovich-Chen-Gross-Siebert. We then illustrate our method via the key example of Witten's $r$-spin class to construct a proper moduli stack with a reduced perfect obstruction theory whose virtual cycle recovers the $r$-spin virtual cycle of Chang-Li-Li. Indeed, our construction of the reduced virtual cycle is built upon the work of Chang-Li-Li by appropriately extending and modifying the Kiem-Li cosection along certain logarithmic boundary. In the subsequent article, we push the technique to a general situation.
+  One motivation of our construction is to fit the gauged linear sigma model in the broader setting of Gromov-Witten theory so that powerful tools such as virtual localization can be applied. A project along this line is currently in progress leading to applications including computing loci of holomorphic differentials, and calculating higher genus Gromov-Witten
+  invariants of quintic threefolds.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-05-07T00:58:48Z</published>
+    <arxiv:comment>v2: agrees with published version</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <arxiv:journal_ref>Geom. Topol. 26 (2022) 2855-2939</arxiv:journal_ref>
+    <author>
+      <name>Qile Chen</name>
+    </author>
+    <author>
+      <name>Felix Janda</name>
+    </author>
+    <author>
+      <name>Yongbin Ruan</name>
+    </author>
+    <author>
+      <name>Adrien Sauvaget</name>
+    </author>
+    <arxiv:doi>10.2140/gt.2022.26.2855</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.2140/gt.2022.26.2855" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1205.1662v1</id>
+    <title>The moduli space of regular stable maps</title>
+    <updated>2012-05-08T11:25:08Z</updated>
+    <link href="https://arxiv.org/abs/1205.1662v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1205.1662v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The moduli space of regular stable maps with values in a complex manifold admits naturally the structure of a complex orbifold. Our proof uses the methods of differential geometry rather than algebraic geometry. It is based on Hardy decompositions and Fredholm intersection theory in the loop space of the target manifold.</summary>
+    <category term="math.SG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-05-08T11:25:08Z</published>
+    <arxiv:comment>59 pages, 2 figures</arxiv:comment>
+    <arxiv:primary_category term="math.SG"/>
+    <arxiv:journal_ref>Mathematische Zeitschrift, Volume 259 (2008), pages 525-574</arxiv:journal_ref>
+    <author>
+      <name>Joel Robbin</name>
+    </author>
+    <author>
+      <name>Yongbin Ruan</name>
+    </author>
+    <author>
+      <name>Dietmar Salamon</name>
+    </author>
+    <arxiv:doi>10.1007/s00209-007-0237-x</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s00209-007-0237-x" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/0605534v2</id>
+    <title>A Stringy Product on Twisted Orbifold K-theory</title>
+    <updated>2008-11-21T19:46:05Z</updated>
+    <link href="https://arxiv.org/abs/math/0605534v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/0605534v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  In this paper we define an associative stringy product for the twisted orbifold K-theory of a compact, almost complex orbifold X. This product is defined on the twisted K-theory of the inertia orbifold of X, where the twisting gerbe is assumed to be in the image of the inverse transgression map.</summary>
+    <category term="math.AT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2006-05-18T21:42:06Z</published>
+    <arxiv:comment>Minor changes and rearrangement of material</arxiv:comment>
+    <arxiv:primary_category term="math.AT"/>
+    <author>
+      <name>Alejandro Adem</name>
+    </author>
+    <author>
+      <name>Yongbin Ruan</name>
+    </author>
+    <author>
+      <name>Bin Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/alg-geom/9606014v1</id>
+    <title>Composition law and Nodal genus-2 curves in P^2</title>
+    <updated>1996-06-20T15:01:23Z</updated>
+    <link href="https://arxiv.org/abs/alg-geom/9606014v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/alg-geom/9606014v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Recently, there has been great interest in the application of composition laws to problems in enumerative geometry. Using the moduli space of stable maps, we compute the number of irreducible, reduced, nodal, degree-$d$ genus-$2$ plane curves whose normalization has a fixed complex structure and which pass through $3d - 2$ general points in $\Bbb P^2$.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1996-06-20T15:01:23Z</published>
+    <arxiv:comment>13 pages, AMS-TeX</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <author>
+      <name>Sheldon Katz</name>
+    </author>
+    <author>
+      <name>Zhenbo Qin</name>
+    </author>
+    <author>
+      <name>Yongbin Ruan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2011.07519v1</id>
+    <title>Quantum $K$-theory of toric varieties, level structures, and 3d mirror symmetry</title>
+    <updated>2020-11-15T13:06:55Z</updated>
+    <link href="https://arxiv.org/abs/2011.07519v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2011.07519v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce a new version of 3d mirror symmetry for toric stacks, inspired by a 3d $\mathcal{N} = 2$ abelian mirror symmetry construction in physics. Given some toric data, we introduce the $K$-theoretic $I$-function with effective level structure for the associated toric stack. When a particular stability condition is chosen, it restricts to the $I$-function for the particular toric GIT quotient. The mirror of a toric stack is defined by the Gale dual of the original toric data. We then proved the mirror conjecture that the $I$-functions of a mirror pair coincide, under the mirror map, which switches Kähler and equivariant parameters, and maps $q\mapsto q^{-1}$.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-11-15T13:06:55Z</published>
+    <arxiv:comment>Comments welcome</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <author>
+      <name>Yongbin Ruan</name>
+    </author>
+    <author>
+      <name>Yaoxiong Wen</name>
+    </author>
+    <author>
+      <name>Zijun Zhou</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1811.01377v2</id>
+    <title>Verlinde/Grassmannian Correspondence and Rank 2 $δ$-wall-crossing</title>
+    <updated>2019-07-22T07:42:23Z</updated>
+    <link href="https://arxiv.org/abs/1811.01377v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1811.01377v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Motivated by Witten's work (arXiv:hep-th/9312104), we propose the Verlinde/Grassmannian correspondence which relates the GL Verlinde numbers to the K-theoretic quasimap invariants of the Grassmannian. We recover these two types of invariants by imposing different stability conditions on the gauged linear sigma model associated to the Grassmannian. We construct two families of stability conditions connecting the two theories and prove two wall-crossing results. We confirm the Verlinde/Grassmannian correspondence in the rank two case.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-11-04T14:27:39Z</published>
+    <arxiv:comment>v2: Added Section 6 on K-theoretic quasimap invariants with level structure and the $δ=\infty$ to $ε=0+$ wall-crossing; typos fixed; some references added</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <author>
+      <name>Yongbin Ruan</name>
+    </author>
+    <author>
+      <name>Ming Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2210.04430v3</id>
+    <title>Mirror of Orbifold Singularities in the Hitchin Fibration: the case $(\text{SL}_n,\text{PGL}_n)$</title>
+    <updated>2024-12-18T05:01:53Z</updated>
+    <link href="https://arxiv.org/abs/2210.04430v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2210.04430v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study the geometry of singular $\text{SL}_n$-Hitchin fibres over the elliptic locus. We show that orbifold singularities appear in the $\text{PGL}_n$-moduli space $M^{ell}(\text{PGL}_n)$ exactly when the $\text{SL}_n$ side $M^{ell}(\text{SL}_n)$ has a reducible Hitchin fibre. Our main theorem shows that the Fourier-Mukai transform of a skyscraper sheaf supported at an orbifold singularity in $M^{ell}(\text{PGL}_n)$ satisfies a version of the fractional Hecke eigenproperty, as conjectured by Frenkel and Witten.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-10-10T04:33:09Z</published>
+    <arxiv:primary_category term="math.AG"/>
+    <arxiv:journal_ref>Advances in Mathematics, 461 (2025)</arxiv:journal_ref>
+    <author>
+      <name>Yongbin Ruan</name>
+    </author>
+    <author>
+      <name>Cheng Shu</name>
+    </author>
+    <arxiv:doi>10.1016/j.aim.2024.110076</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.aim.2024.110076" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/alg-geom/9510010v2</id>
+    <title>Quantum cohomology of projective bundles over $\Pee^n$</title>
+    <updated>1995-12-05T18:48:12Z</updated>
+    <link href="https://arxiv.org/abs/alg-geom/9510010v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/alg-geom/9510010v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Results in the preliminary version have been strengthed. In addition, Batyrev's conjectural formula for quantum cohomology of projective bundles associated to direct sum of line bundles over $\Pee^n$ is partially verified.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1995-10-14T02:03:31Z</published>
+    <arxiv:comment>AMS-TEX Version 2.1</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <author>
+      <name>Zhenbo Qin</name>
+    </author>
+    <author>
+      <name>Yongbin Ruan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1706.05038v2</id>
+    <title>Higher-genus wall-crossing in the gauged linear sigma model</title>
+    <updated>2018-06-25T17:03:38Z</updated>
+    <link href="https://arxiv.org/abs/1706.05038v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1706.05038v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce a technique for proving all-genus wall-crossing formulas in the gauged linear sigma model as the stability parameter varies, without assuming factorization properties of the virtual class. We implement this technique explicitly for the hybrid model, which generalizes our previous work to the Landau--Ginzburg phase.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-06-15T18:53:03Z</published>
+    <arxiv:comment>42 pages, 2 figures. v2: Added an appendix (by Yang Zhou) proving the n=0 case of the main theorem; additional substantial changes to Sections 2.5 (broad vanishing) and 4.3 (localization contributions)</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <arxiv:journal_ref>Duke Math. J. 170, no. 4 (2021), 697-773</arxiv:journal_ref>
+    <author>
+      <name>Emily Clader</name>
+    </author>
+    <author>
+      <name>Felix Janda</name>
+    </author>
+    <author>
+      <name>Yongbin Ruan</name>
+    </author>
+    <arxiv:doi>10.1215/00127094-2020-0053</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1215/00127094-2020-0053" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1804.06552v2</id>
+    <title>The level structure in quantum K-theory and mock theta functions</title>
+    <updated>2019-06-16T03:02:07Z</updated>
+    <link href="https://arxiv.org/abs/1804.06552v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1804.06552v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This is the first in a sequence of papers to develop the theory of levels in quantum K-theory and study its applications. Our main results in this paper are toric mirror theorems for permutation-equivariant quantum K-theory with level structure. In some of the simplest examples, we see the surprising appearance of Ramanujan's mock theta functions.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-04-18T04:54:34Z</published>
+    <arxiv:comment>There was a gap in the previous proof of the mirror theorem using the wall-crossing approach. We rewrote Section 4 and prove the toric mirror theorems using the adelic characterization developed by Givental-Tonita; additional changes to Section 2.3 (properties of the level structure); typos fixed; some references added</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <author>
+      <name>Yongbin Ruan</name>
+    </author>
+    <author>
+      <name>Ming Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1106.2321v1</id>
+    <title>Gromov-Witten theory of elliptic orbifold P^1 and quasi-modular forms</title>
+    <updated>2011-06-12T15:56:58Z</updated>
+    <link href="https://arxiv.org/abs/1106.2321v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1106.2321v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper we prove that the GW invariants of the elliptic orbifold lines with weights (3,3,3), (4,4,2), and (6,3,2) are quasi-modular forms. Our method is based on Givental's higher genus reconstruction formalism applied to the settings of Saito's Frobenius structures for simple elliptic singularities. Our results are part of a larger project whose goal is to prove the Landau-Ginzburg/Calabi-Yau correspondence for simple elliptic singularities. The correspondence describes a relation between Gromov-Witten theory (of a certain hypersurface) and Fan-Jarvis-Ruan-Witten theory (of a certain Landau-Ginzburg potential). Roughly, the main statement is that the Saito's Frobenius manifold for simple elliptic singularities has some special points such that locally near these points the Frobenius structure governs one of the two theories. The local part of the correspondence is established in a companion article by M. Krawitz and Y. Shen, while here we describe the global picture.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-06-12T15:56:58Z</published>
+    <arxiv:comment>49 pages</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <author>
+      <name>Todor Milanov</name>
+    </author>
+    <author>
+      <name>Yongbin Ruan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1906.04345v2</id>
+    <title>The logarithmic gauged linear sigma model</title>
+    <updated>2021-04-07T03:41:17Z</updated>
+    <link href="https://arxiv.org/abs/1906.04345v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1906.04345v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce the notion of log R-maps, and develop a proper moduli stack of stable log R-maps in the case of a hybrid gauged linear sigma model. Two virtual cycles (canonical and reduced) are constructed for these moduli stacks. The main results are two comparison theorems relating the reduced virtual cycle to the cosection localized virtual cycle, as well as the reduced virtual cycle to the canonical virtual cycle. This sets the foundation of a new technique for computing higher genus Gromov-Witten invariants of complete intersections.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-06-11T01:49:35Z</published>
+    <arxiv:comment>Agrees with published version; 57 pages</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <arxiv:journal_ref>Inventiones mathematicae, 225(3): 1077-1154, 2021</arxiv:journal_ref>
+    <author>
+      <name>Qile Chen</name>
+    </author>
+    <author>
+      <name>Felix Janda</name>
+    </author>
+    <author>
+      <name>Yongbin Ruan</name>
+    </author>
+    <arxiv:doi>10.1007/s00222-021-01044-2</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s00222-021-01044-2" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1307.0939v1</id>
+    <title>A global mirror symmetry framework for the Landau-Ginzburg/Calabi-Yau correspondence</title>
+    <updated>2013-07-03T08:55:11Z</updated>
+    <link href="https://arxiv.org/abs/1307.0939v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1307.0939v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We show how the Landau-Ginzburg/Calabi-Yau correspondence for the quintic three-fold can be cast into a global mirror symmetry framework. Then we draw inspiration from Berglund-Hübsch mirror duality construction to provide an analogue conjectural picture featuring all Calabi-Yau hypersurfaces within weighted projective spaces and certain quotients by finite abelian group actions.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-07-03T08:55:11Z</published>
+    <arxiv:comment>Proceedings of the "Workshop on Geometry and Physics of the Landau-Ginzburg model", Institut Fourier, Grenoble, May 31 - June 4, 2010</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <arxiv:journal_ref>Annales de l'institut Fourier, 61 no. 7 (2011), p. 2803-2864</arxiv:journal_ref>
+    <author>
+      <name>Alessandro Chiodo</name>
+    </author>
+    <author>
+      <name>Yongbin Ruan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/9607223v1</id>
+    <title>Quantum cohomology of projective bundles over P^n</title>
+    <updated>1996-07-02T00:00:00Z</updated>
+    <link href="https://arxiv.org/abs/math/9607223v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/9607223v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  In this paper, we attempt to determine the quantum cohomology of projective bundles over the projective space P^n. In contrast to the previous examples, the relevant moduli spaces in our case frequently do not have expected dimensions. It makes the calculation more difficult. We overcome this difficulty by using excessive intersection theory.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1996-07-02T00:00:00Z</published>
+    <arxiv:primary_category term="math.AG"/>
+    <author>
+      <name>Zhenbo Qin</name>
+    </author>
+    <author>
+      <name>Yongbin Ruan</name>
+    </author>
+  </entry>
+</feed>

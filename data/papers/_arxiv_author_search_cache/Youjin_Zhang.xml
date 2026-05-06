@@ -1,0 +1,1232 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/OXIWrZanvC0iGdsyuBklZXP6yR8</id>
+  <title>arXiv Query: search_query=au:"Youjin Zhang" AND (cat:math.AG OR cat:math.AT OR cat:math.AP OR cat:math.CT OR cat:math.CA OR cat:math.CO OR cat:math.DG OR cat:math.DS OR cat:math.FA OR cat:math.GT OR cat:math.MP OR cat:math.OA OR cat:math.PR OR cat:math.QA OR cat:math.RA OR cat:math.RT OR cat:math.SG OR cat:math.SP OR cat:math.ST OR cat:math.NT OR cat:math.GR OR cat:math.HO OR cat:math-ph OR cat:nlin.SI OR cat:nlin.CD OR cat:hep-th OR cat:q-alg OR cat:dg-ga OR cat:alg-geom OR cat:cond-mat.stat-mech)&amp;id_list=&amp;start=0&amp;max_results=200</title>
+  <updated>2026-05-06T07:32:52Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=au:%22Youjin+Zhang%22+AND+(cat:math.AG+OR+(cat:math.AT+OR+(cat:math.AP+OR+(cat:math.CT+OR+(cat:math.CA+OR+(cat:math.CO+OR+(cat:math.DG+OR+(cat:math.DS+OR+(cat:math.FA+OR+(cat:math.GT+OR+(cat:math.MP+OR+(cat:math.OA+OR+(cat:math.PR+OR+(cat:math.QA+OR+(cat:math.RA+OR+(cat:math.RT+OR+(cat:math.SG+OR+(cat:math.SP+OR+(cat:math.ST+OR+(cat:math.NT+OR+(cat:math.GR+OR+(cat:math.HO+OR+(cat:math-ph+OR+(cat:nlin.SI+OR+(cat:nlin.CD+OR+(cat:hep-th+OR+(cat:q-alg+OR+(cat:dg-ga+OR+(cat:alg-geom+OR+cat:cond-mat.stat-mech)))))))))))))))))))))))))))))&amp;start=0&amp;max_results=200&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>200</opensearch:itemsPerPage>
+  <opensearch:totalResults>53</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/math/9808048v2</id>
+    <title>Frobenius Manifolds And Virasoro Constraints</title>
+    <updated>1999-04-19T03:49:33Z</updated>
+    <link href="https://arxiv.org/abs/math/9808048v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/9808048v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  For an arbitrary Frobenius manifold a system of Virasoro constraints is constructed. In the semisimple case these constraints are proved to hold true in the genus one approximation. Particularly, the genus $\leq 1$ Virasoro conjecture of T.Eguchi, K.Hori, M.Jinzenji, and C.-S.Xiong and of S.Katz is proved for smooth projective varieties having semisimple quantum cohomology.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nlin.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1998-08-11T11:36:02Z</published>
+    <arxiv:comment>Latex, 40 pages</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <author>
+      <name>Boris Dubrovin</name>
+    </author>
+    <author>
+      <name>Youjin Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/nlin/0306060v2</id>
+    <title>The Extended Toda Hierarchy</title>
+    <updated>2003-07-02T12:08:42Z</updated>
+    <link href="https://arxiv.org/abs/nlin/0306060v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/nlin/0306060v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We present the Lax pair formalism for certain extension of the continuous limit of the classical Toda lattice hierarchy, provide a well defined notion of tau function for its solutions, and give an explicit formulation of the relationship between the $CP^1$ topological sigma model and the extended Toda hierarchy. We also establish an equivalence of the latter with certain extension of the nonlinear Schrödinger hierarchy.</summary>
+    <category term="nlin.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2003-06-29T16:34:45Z</published>
+    <arxiv:comment>23 pages, a remark at the end of Section 4 added</arxiv:comment>
+    <arxiv:primary_category term="nlin.SI"/>
+    <author>
+      <name>Guido Carlet</name>
+    </author>
+    <author>
+      <name>Boris Dubrovin</name>
+    </author>
+    <author>
+      <name>Youjin Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-th/9712232v2</id>
+    <title>Bihamiltonian Hierarchies in 2D Topological Field Theory At One-Loop Approximation</title>
+    <updated>1998-05-20T08:32:40Z</updated>
+    <link href="https://arxiv.org/abs/hep-th/9712232v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-th/9712232v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We compute the genus one correction to the integrable hierarchy describing coupling to gravity of a 2D topological field theory. The bihamiltonian structure of the hierarchy is given by a classical W-algebra; we compute the central charge of this algebra. We also express the generating function of elliptic Gromov - Witten invariants via tau-function of the isomonodromy deformation problem arising in the theory of WDVV equations of associativity.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nlin.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1997-12-25T01:25:58Z</published>
+    <arxiv:comment>53 pages, Latex, two references added, some typos corrected, version to appear in Commun. Math. Phys</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <arxiv:journal_ref>Commun.Math.Phys. 198 (1998) 311-361</arxiv:journal_ref>
+    <author>
+      <name>Boris Dubrovin</name>
+    </author>
+    <author>
+      <name>Youjin Zhang</name>
+    </author>
+    <arxiv:doi>10.1007/s002200050480</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s002200050480" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0710.3115v1</id>
+    <title>Frobenius Manifolds and Central Invariants for the Drinfeld - Sokolov Bihamiltonian Structures</title>
+    <updated>2007-10-16T16:28:00Z</updated>
+    <link href="https://arxiv.org/abs/0710.3115v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0710.3115v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The Drinfeld - Sokolov construction associates a hierarchy of bihamiltonian integrable systems with every untwisted affine Lie algebra. We compute the complete set of invariants of the related bihamiltonian structures with respect to the group of Miura type transformations.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2007-10-16T16:28:00Z</published>
+    <arxiv:comment>73 pages, no figures</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <author>
+      <name>Boris Dubrovin</name>
+    </author>
+    <author>
+      <name>Si-Qi Liu</name>
+    </author>
+    <author>
+      <name>Youjin Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/0510250v1</id>
+    <title>Bihamiltonian Systems of Hydrodynamic Type and Reciprocal Transformations</title>
+    <updated>2005-10-12T14:30:30Z</updated>
+    <link href="https://arxiv.org/abs/math/0510250v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/0510250v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We prove that under certain linear reciprocal transformation, an evolutionary PDE of hydrodynamic type that admits a bihamiltonian structure is transformed to a system of the same type which is still bihamiltonian.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nlin.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2005-10-12T14:30:30Z</published>
+    <arxiv:comment>15 pages</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <author>
+      <name>Ting Xue</name>
+    </author>
+    <author>
+      <name>Youjin Zhang</name>
+    </author>
+    <arxiv:doi>10.1007/s11005-005-0031-9</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s11005-005-0031-9" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/0406626v2</id>
+    <title>On the Quasitriviality of Deformations of Bihamiltonian Structures of Hydrodynamic Type</title>
+    <updated>2004-07-01T04:47:56Z</updated>
+    <link href="https://arxiv.org/abs/math/0406626v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/0406626v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We prove in this paper the quasitriviality of a class of deformations of the one component bihamiltonian structures of hydrodynamic type.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2004-06-30T18:31:03Z</published>
+    <arxiv:comment>10 pages</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <author>
+      <name>Si-Qi Liu</name>
+    </author>
+    <author>
+      <name>Youjin Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1002.0034v1</id>
+    <title>On Symmetries of the WDVV Equations</title>
+    <updated>2010-01-30T02:28:18Z</updated>
+    <link href="https://arxiv.org/abs/1002.0034v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1002.0034v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  For two solutions of the WDVV equations that are related by two types of symmetries of the equations given by Dubrovin, we show that the associated principal hierarchies of integrable systems are related by certain reciprocal transformation, and the tau functions of the hierarchies are either identical or related by a Legendre transformation. We also consider relationships between the Virasoro constraints and topological deformations of the principal hierarchies.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-01-30T02:28:18Z</published>
+    <arxiv:comment>19 pages</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <author>
+      <name>Dingdian Xu</name>
+    </author>
+    <author>
+      <name>Youjin Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/0405146v1</id>
+    <title>Deformations of Semisimple Bihamiltonian Structures of Hydrodynamic Type</title>
+    <updated>2004-05-08T14:21:14Z</updated>
+    <link href="https://arxiv.org/abs/math/0405146v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/0405146v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We classify in this paper infinitesimal quasitrivial deformations of semisimple bihamiltonian structures of hydrodynamic type.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2004-05-08T14:21:14Z</published>
+    <arxiv:comment>24 pages</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <author>
+      <name>Si-Qi Liu</name>
+    </author>
+    <author>
+      <name>Youjin Zhang</name>
+    </author>
+    <arxiv:doi>10.1016/j.geomphys.2004.11.003</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.geomphys.2004.11.003" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/nlin/0501028v2</id>
+    <title>A 2-Component Generalization of the Camassa-Holm Equation and Its Solutions</title>
+    <updated>2005-01-20T15:21:19Z</updated>
+    <link href="https://arxiv.org/abs/nlin/0501028v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/nlin/0501028v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  An explicit reciprocal transformation between a 2-component generalization of the Camassa-Holm equation, called the 2-CH system, and the first negative flow of the AKNS hierarchy is established, this transformation enables one to obtain solutions of the 2-CH system from those of the first negative flow of the AKNS hierarchy. Interesting examples of peakon and multi-kink solutions of the 2-CH system are presented.</summary>
+    <category term="nlin.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2005-01-14T05:54:37Z</published>
+    <arxiv:comment>15 pages, 16 figures, some typos corrected</arxiv:comment>
+    <arxiv:primary_category term="nlin.SI"/>
+    <author>
+      <name>Ming Chen</name>
+    </author>
+    <author>
+      <name>Si-Qi Liu</name>
+    </author>
+    <author>
+      <name>Youjin Zhang</name>
+    </author>
+    <arxiv:doi>10.1007/s11005-005-0041-7</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s11005-005-0041-7" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/nlin/0510019v1</id>
+    <title>On Quasitriviality and Integrability of a Class of Scalar Evolutionary PDEs</title>
+    <updated>2005-10-11T13:57:16Z</updated>
+    <link href="https://arxiv.org/abs/nlin/0510019v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/nlin/0510019v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  For certain class of perturbations of the equation $u_t=f(u) u_x$, we prove the existence of change of coordinates, called quasi-Miura transformations, that reduce these perturbed equations to the unperturbed ones. As an application, we propose a criterion for the integrability of these equations.</summary>
+    <category term="nlin.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2005-10-11T13:57:16Z</published>
+    <arxiv:comment>23 pages</arxiv:comment>
+    <arxiv:primary_category term="nlin.SI"/>
+    <author>
+      <name>Si-Qi Liu</name>
+    </author>
+    <author>
+      <name>Youjin Zhang</name>
+    </author>
+    <arxiv:doi>10.1016/j.geomphys.2006.02.005</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.geomphys.2006.02.005" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/0502365v1</id>
+    <title>Extended affine Weyl groups and Frobenius manifolds -- II</title>
+    <updated>2005-02-17T11:43:59Z</updated>
+    <link href="https://arxiv.org/abs/math/0502365v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/0502365v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  For the root system of type $B_l$ and $C_l$, we generalize the result of \cite{DZ1998} by showing the existence of a Frobenius manifold structure on the orbit space of the extended affine Weyl group that corresponds to any vertex of the Dynkin diagram instead of a particular choice of \cite{DZ1998}.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2005-02-17T11:43:59Z</published>
+    <arxiv:comment>23 pages</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <author>
+      <name>Boris Dubrovin</name>
+    </author>
+    <author>
+      <name>Youjin Zhang</name>
+    </author>
+    <author>
+      <name>Dafeng Zuo</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2112.07526v1</id>
+    <title>The Virasoro-like Algebra of a Frobenius Manifold</title>
+    <updated>2021-12-14T16:41:11Z</updated>
+    <link href="https://arxiv.org/abs/2112.07526v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2112.07526v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>For an arbitrary calibrated Frobenius manifold, we construct an infinite dimensional Lie algebra, called the Virasoro-like algebra, which is a deformation of the Virasoro algebra of the Frobenius manifold. By using the Virasoro-like algebra we give a family of quadratic PDEs that are satisfied by the genus-zero free energy of the Frobenius manifold. We also derive, under the semisimplicity assumption, the Virasoro constraints for the corresponding abstract Hodge partition function.</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nlin.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-12-14T16:41:11Z</published>
+    <arxiv:comment>27pages</arxiv:comment>
+    <arxiv:primary_category term="math-ph"/>
+    <author>
+      <name>Si-Qi Liu</name>
+    </author>
+    <author>
+      <name>Di Yang</name>
+    </author>
+    <author>
+      <name>Youjin Zhang</name>
+    </author>
+    <author>
+      <name>Jian Zhou</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1906.06860v2</id>
+    <title>The Hodge-FVH Correspondence</title>
+    <updated>2020-12-10T07:16:39Z</updated>
+    <link href="https://arxiv.org/abs/1906.06860v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1906.06860v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The Hodge-FVH correspondence establishes a relationship between the special cubic Hodge integrals and an integrable hierarchy, which is called the fractional Volterra hierarchy. In this paper we prove this correspondence. As an application of this result, we prove a gap condition for certain special cubic Hodge integrals and give an algorithm for computing the coefficients that appear in the gap condition.</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nlin.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-06-17T06:29:20Z</published>
+    <arxiv:comment>Added Proposition 1.2 and Theorem 1.3; added references; corrected typos; 43 pages</arxiv:comment>
+    <arxiv:primary_category term="math-ph"/>
+    <author>
+      <name>Si-Qi Liu</name>
+    </author>
+    <author>
+      <name>Di Yang</name>
+    </author>
+    <author>
+      <name>Youjin Zhang</name>
+    </author>
+    <author>
+      <name>Chunhui Zhou</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1510.08690v2</id>
+    <title>Extended affine Weyl groups of BCD type, Frobenius manifolds and their Landau-Ginzburg superpotentials</title>
+    <updated>2019-05-20T15:15:27Z</updated>
+    <link href="https://arxiv.org/abs/1510.08690v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1510.08690v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>For the root systems of type $B_l, C_l$ and $D_l$, we generalize the result of \cite{DZ1998} by showing the existence of Frobenius manifold structures on the orbit spaces of the extended affine Weyl groups that correspond to any vertex of the Dynkin diagram instead of a particular choice made in \cite{DZ1998}. It also depends on certain additional data. We also construct LG superpotentials for these Frobenius manifold structures.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nlin.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-10-29T13:54:51Z</published>
+    <arxiv:comment>56 pages. This is the newest version of arXiv:math/0502365 (23pages) Accepted by Advances in Mathematics (2019.5.20)</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <arxiv:journal_ref>Advances in Mathematics Volume 351, 31 July 2019, Pages 897-946</arxiv:journal_ref>
+    <author>
+      <name>Boris Dubrovin</name>
+    </author>
+    <author>
+      <name>Ian A. B. Strachan</name>
+    </author>
+    <author>
+      <name>Youjin Zhang</name>
+    </author>
+    <author>
+      <name>Dafeng Zuo</name>
+    </author>
+    <arxiv:doi>10.1016/j.aim.2019.05.030</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.aim.2019.05.030" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0910.2085v1</id>
+    <title>Jacobi Structures of Evolutionary Partial Differential Equations</title>
+    <updated>2009-10-12T05:38:57Z</updated>
+    <link href="https://arxiv.org/abs/0910.2085v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0910.2085v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  In this paper we introduce the notion of infinite dimensional Jacobi structure to describe the geometrical structure of a class of nonlocal Hamiltonian systems which appear naturally when applying reciprocal transformations to Hamiltonian evolutionary PDEs. We prove that our class of infinite dimensional Jacobi structures is invariant under reciprocal transformations. The main technical tool is in a suitable generalization of the classical Schouten-Nijenhuis bracket to the space of the so called quasi-local multi-vectors, and a simple realization of this structure in the framework of supermanifolds. These constructions are used to the computation of the Lichnerowicz-Jacobi cohomologies of Jacobi structures. We also introduce the notion of bi-Jacobi structures and consider the integrability of a system of evolutionary PDEs that possesses a bi-Jacobi structure.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nlin.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2009-10-12T05:38:57Z</published>
+    <arxiv:comment>59 pages</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <author>
+      <name>Si-Qi Liu</name>
+    </author>
+    <author>
+      <name>Youjin Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2402.00373v2</id>
+    <title>Solutions of the loop equations of a class of generalized Frobenius manifolds</title>
+    <updated>2024-08-21T12:02:40Z</updated>
+    <link href="https://arxiv.org/abs/2402.00373v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2402.00373v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We prove the existence and uniqueness of solution of the loop equation associated with a semisimple generalized Frobenius manifold with non-flat unity, and show, for a particular example of one dimensional generalized Frobenius manifold, that the deformation of the Principal Hierarchy induced by the solution of the loop equation is the extended q-deformed KdV hierarchy.</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nlin.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-02-01T06:24:31Z</published>
+    <arxiv:comment>41 pages</arxiv:comment>
+    <arxiv:primary_category term="math-ph"/>
+    <author>
+      <name>Si-Qi Liu</name>
+    </author>
+    <author>
+      <name>Haonan Qu</name>
+    </author>
+    <author>
+      <name>Yuewei Wang</name>
+    </author>
+    <author>
+      <name>Youjin Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/0108160v1</id>
+    <title>Normal forms of hierarchies of integrable PDEs, Frobenius manifolds and Gromov - Witten invariants</title>
+    <updated>2001-08-23T13:57:44Z</updated>
+    <link href="https://arxiv.org/abs/math/0108160v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/0108160v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We present a project of classification of a certain class of bihamiltonian 1+1 PDEs depending on a small parameter. Our aim is to embed the theory of Gromov - Witten invariants of all genera into the theory of integrable systems. The project is focused at describing normal forms of the PDEs and their local bihamiltonian structures satisfying certain simple axioms. A Frobenius manifold or its degeneration is associated to every bihamiltonian structure of our type. The main result is a universal loop equation on the jet space of a semisimple Frobenius manifold that can be used for perturbative reconstruction of the integrable hierarchy. We show that first few terms of the perturbative expansion correctly reproduce the universal identities between intersection numbers of Gromov - Witten classes and their descendents.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nlin.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2001-08-23T13:57:44Z</published>
+    <arxiv:comment>187 pages</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <author>
+      <name>Boris Dubrovin</name>
+    </author>
+    <author>
+      <name>Youjin Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0711.2599v2</id>
+    <title>On Properties of Hamiltonian Structures for a Class of Evolutionary PDEs</title>
+    <updated>2007-11-18T14:07:43Z</updated>
+    <link href="https://arxiv.org/abs/0711.2599v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0711.2599v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  In \cite{LZ2} it is proved that for certain class of perturbations of the hyperbolic equation $u_t=f(u) u_x$, there exist changes of coordinate, called quasi-Miura transformations, that reduce the perturbed equations to the unperturbed one. We prove in the present paper that if in addition the perturbed equations possess Hamiltonian structures of certain type, the same quasi-Miura transformations also reduce the Hamiltonian structures to their leading terms. By applying this result, we obtain a criterion of the existence of Hamiltonian structures for a class of scalar evolutionary PDEs and an algorithm to find out the Hamiltonian structures.</summary>
+    <category term="nlin.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2007-11-16T12:10:53Z</published>
+    <arxiv:comment>17 pages</arxiv:comment>
+    <arxiv:primary_category term="nlin.SI"/>
+    <author>
+      <name>Si-Qi Liu</name>
+    </author>
+    <author>
+      <name>Chao-Zhong Wu</name>
+    </author>
+    <author>
+      <name>Youjin Zhang</name>
+    </author>
+    <arxiv:doi>10.1007/s11005-008-0234-y</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s11005-008-0234-y" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2108.03447v1</id>
+    <title>Tri-Hamiltonian Structure of the Ablowitz-Ladik Hierarchy</title>
+    <updated>2021-08-07T13:18:53Z</updated>
+    <link href="https://arxiv.org/abs/2108.03447v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2108.03447v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We construct a local tri-Hamiltonian structure of the Ablowitz-Ladik hierarchy, and compute the central invariants of the associated bihamiltonian structures. We show that the central invariants of one of the bihamiltonian structures are equal to 1/24, and the dispersionless limit of this bihamiltonian structure coincides with the one that is defined on the jet space of the Frobenius manifold associated with the Gromov-Witten invariants of local CP1. This result provides support for the validity of Brini's conjecture on the relation of these Gromov-Witten invariants with the Ablowitz-Ladik hierarchy.</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nlin.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-08-07T13:18:53Z</published>
+    <arxiv:primary_category term="math-ph"/>
+    <author>
+      <name>Shuangxing Li</name>
+    </author>
+    <author>
+      <name>Si-Qi Liu</name>
+    </author>
+    <author>
+      <name>Haonan Qu</name>
+    </author>
+    <author>
+      <name>Youjin Zhang</name>
+    </author>
+    <arxiv:doi>10.1016/j.physd.2022.133180</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.physd.2022.133180" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1305.2593v1</id>
+    <title>Uniqueness Theorem of W-Constraints for Simple Singularities</title>
+    <updated>2013-05-12T14:41:57Z</updated>
+    <link href="https://arxiv.org/abs/1305.2593v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1305.2593v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In a recent paper [3], Bakalov and Milanov proved that the total descendant potential of a simple singularity satisfies the W-constraints, which come from the W-algebra of the lattice vertex algebra associated to the root lattice of this singularity and a twisted module of this vertex algebra. In the present paper, we prove that the solution of these W-constraints is unique up to a constant factor, as conjectured by Bakalov and Milanov in their paper.</summary>
+    <category term="math.QA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-05-12T14:41:57Z</published>
+    <arxiv:comment>18 pages</arxiv:comment>
+    <arxiv:primary_category term="math.QA"/>
+    <author>
+      <name>Si-Qi Liu</name>
+    </author>
+    <author>
+      <name>Di Yang</name>
+    </author>
+    <author>
+      <name>Youjin Zhang</name>
+    </author>
+    <arxiv:doi>10.1007/s11005-013-0643-4</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s11005-013-0643-4" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1702.02840v1</id>
+    <title>Fractional Volterra Hierarchy</title>
+    <updated>2017-02-09T14:14:59Z</updated>
+    <link href="https://arxiv.org/abs/1702.02840v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1702.02840v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The generating function of cubic Hodge integrals satisfying the local Calabi-Yau condition is conjectured to be a tau function of a new integrable system which can be regarded as a fractional generalization of the Volterra lattice hierarchy, so we name it the fractional Volterra hierarchy. In this paper, we give the definition of this integrable hierarchy in terms of Lax pair and Hamiltonian formalisms, construct its tau functions, and present its multi-soliton solutions.</summary>
+    <category term="nlin.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-02-09T14:14:59Z</published>
+    <arxiv:comment>22 pages, 4 figures</arxiv:comment>
+    <arxiv:primary_category term="nlin.SI"/>
+    <author>
+      <name>Si-Qi Liu</name>
+    </author>
+    <author>
+      <name>Youjin Zhang</name>
+    </author>
+    <author>
+      <name>Chunhui Zhou</name>
+    </author>
+    <arxiv:doi>10.1007/s11005-017-1006-3</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s11005-017-1006-3" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1312.7227v2</id>
+    <title>BCFG Drinfeld-Sokolov Hierarchies and FJRW-Theory</title>
+    <updated>2014-12-28T02:53:16Z</updated>
+    <link href="https://arxiv.org/abs/1312.7227v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1312.7227v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>According to the ADE Witten conjecture, which is proved by Fan, Jarvis and Ruan, the total descendant potential of the FJRW invariants of an ADE singularity is a tau function of the corresponding mirror ADE Drinfeld-Sokolov hierarchy. In the present paper, we show that there is a finite group $Γ$ acting on a certain ADE singularity which induces an action on the corresponding FJRW-theory, and the $Γ$-invariant sector also satisfies the axioms of a cohomological field theory except the gluing loop axiom. On the other hand, we show that there is also a $Γ$-action on the mirror Drinfeld-Sokolov hierarchy, and the $Γ$-invariant flows yield the BCFG Drinfeld-Sokolov hierarchy. We prove that the total descendant potential of the $Γ$-invariant sector of a FJRW-theory is a tau function of the corresponding BCFG Drinfeld-Sokolov hierarchy.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-12-27T09:55:26Z</published>
+    <arxiv:comment>60 pages, final version, to appear in Inventiones Mathematicae. arXiv admin note: text overlap with arXiv:1106.6270 by other authors</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <author>
+      <name>Si-Qi Liu</name>
+    </author>
+    <author>
+      <name>Yongbin Ruan</name>
+    </author>
+    <author>
+      <name>Youjin Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2203.16812v1</id>
+    <title>On Equivariant Gromov--Witten Invariants of Resolved Conifold with Diagonal and Anti-Diagonal Actions</title>
+    <updated>2022-03-31T05:40:05Z</updated>
+    <link href="https://arxiv.org/abs/2203.16812v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2203.16812v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We propose two conjectural relationships between the equivariant Gromov-Witten invariants of the resolved conifold under diagonal and anti-diagonal actions and the Gromov-Witten invariants of $\mathbb{P}^1$, and verify their validity in genus zero approximation. We also provide evidences to support the validity of these relationships in genus one and genus two.</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nlin.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-03-31T05:40:05Z</published>
+    <arxiv:comment>26 pages</arxiv:comment>
+    <arxiv:primary_category term="math-ph"/>
+    <author>
+      <name>Si-Qi Liu</name>
+    </author>
+    <author>
+      <name>Di Yang</name>
+    </author>
+    <author>
+      <name>Youjin Zhang</name>
+    </author>
+    <author>
+      <name>Chunhui Zhou</name>
+    </author>
+    <arxiv:doi>10.1007/s11005-022-01618-y</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s11005-022-01618-y" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2511.06984v1</id>
+    <title>On a class of integrable deformations of the integrable hierarchy of topological type associated to a semisimple Frobenius manifold</title>
+    <updated>2025-11-10T11:35:19Z</updated>
+    <link href="https://arxiv.org/abs/2511.06984v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2511.06984v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Given a semisimple Frobenius manifold, we construct a class of integrable deformations of its hierarchy of topological type. We show that these integrable deformations have polynomial tau-structures, and conjecture that for the one-dimensional Frobenius manifold they give a universal object for integrable deformations of the Riemann--Hopf hierarchy having a tau-structure.</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nlin.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-11-10T11:35:19Z</published>
+    <arxiv:comment>23 pages</arxiv:comment>
+    <arxiv:primary_category term="math-ph"/>
+    <author>
+      <name>Si-Qi Liu</name>
+    </author>
+    <author>
+      <name>Paolo Rossi</name>
+    </author>
+    <author>
+      <name>Di Yang</name>
+    </author>
+    <author>
+      <name>Youjin Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2209.00483v3</id>
+    <title>Generalized Frobenius Manifolds with Non-flat Unity and Integrable Hierarchies</title>
+    <updated>2024-08-21T11:57:16Z</updated>
+    <link href="https://arxiv.org/abs/2209.00483v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2209.00483v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>For any generalized Frobenius manifold with non-flat unity, we construct a bihamiltonian integrable hierarchy of hydrodynamic type which is an analogue of the Principal Hierarchy of a Frobenius manifold. We show that such an integrable hierarchy, which we also call the Principal Hierarchy, possesses Virasoro symmetries and a tau structure, and the Virasoro symmetries can be lifted to symmetries of the tau-cover of the integrable hierarchy. We derive the loop equation from the condition of linearization of actions of the Virasoro symmetries on the tau function, and construct the topological deformation of the Principal Hierarchy of a semisimple generalized Frobenius manifold with non-flat unity. We also give two examples of generalized Frobenius manifolds with non-flat unity and show that they are closely related to the well-known integrable hierarchies: the Volterra hierarchy, the q-deformed KdV hierarchy and the Ablowitz-Ladik hierarchy.</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nlin.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-09-01T14:13:02Z</published>
+    <arxiv:comment>103 pages</arxiv:comment>
+    <arxiv:primary_category term="math-ph"/>
+    <author>
+      <name>Si-Qi Liu</name>
+    </author>
+    <author>
+      <name>Haonan Qu</name>
+    </author>
+    <author>
+      <name>Youjin Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2411.15496v1</id>
+    <title>Legendre transformations of a class of generalized Frobenius manifolds and the associated integrable hierarchies</title>
+    <updated>2024-11-23T09:00:35Z</updated>
+    <link href="https://arxiv.org/abs/2411.15496v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2411.15496v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>For two generalized Frobenius manifolds related by a Legendre-type transformation, we show that the associated integrable hierarchies of hydrodynamic type, which are called the Legendre-extended Principal Hierarchies, are related by a certain linear reciprocal transformation; we also show, under the semisimplicity condition, that the topological deformations of these Legendre-extended Principal Hierarchies are related by the same linear reciprocal transformation.</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nlin.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-11-23T09:00:35Z</published>
+    <arxiv:comment>52 pages</arxiv:comment>
+    <arxiv:primary_category term="math-ph"/>
+    <author>
+      <name>Si-Qi Liu</name>
+    </author>
+    <author>
+      <name>Haonan Qu</name>
+    </author>
+    <author>
+      <name>Youjin Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2005.02275v1</id>
+    <title>Masur--Veech volumes of quadratic differentials and their asymptotics</title>
+    <updated>2020-05-05T15:12:56Z</updated>
+    <link href="https://arxiv.org/abs/2005.02275v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2005.02275v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Based on the Chen--Möller--Sauvaget formula, we apply the theory of integrable systems to derive three equations for the generating series of the Masur--Veech volumes ${\rm Vol} \, \mathcal{Q}_{g,n}$ associated with the principal strata of the moduli spaces of quadratic differentials, and propose refinements of the conjectural formulas given in [12,4] for the large genus asymptotics of ${\rm Vol} \, \mathcal{Q}_{g,n}$ and of the associated area Siegel--Veech constants.</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nlin.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-05-05T15:12:56Z</published>
+    <arxiv:comment>17 pages</arxiv:comment>
+    <arxiv:primary_category term="math-ph"/>
+    <author>
+      <name>Di Yang</name>
+    </author>
+    <author>
+      <name>Don Zagier</name>
+    </author>
+    <author>
+      <name>Youjin Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1908.06707v3</id>
+    <title>Virasoro Constraints for Drinfeld-Sokolov hierarchies and equations of Painlevé type</title>
+    <updated>2021-01-25T09:31:58Z</updated>
+    <link href="https://arxiv.org/abs/1908.06707v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1908.06707v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We construct a tau cover of the generalized Drinfeld-Sokolov hierarchy associated to an arbitrary affine Kac-Moody algebra with gradations $\mathrm{s}\le\mathds{1}$ and derive its Virasoro symmetries. By imposing the Virasoro constraints we obtain solutions of the Drinfeld-Sokolov hierarchy of Witten-Kontsevich and of Brezin-Gross-Witten types, and of those characterized by certain ordinary differential equations of Painlevé type. We also show the existence of affine Weyl group actions on solutions of such Painlevé type equations, which generalizes the theory of Noumi and Yamada on affine Weyl group symmetries of the Painlevé type equations.</summary>
+    <category term="nlin.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-08-19T11:34:14Z</published>
+    <arxiv:comment>51 pages</arxiv:comment>
+    <arxiv:primary_category term="nlin.SI"/>
+    <author>
+      <name>Si-Qi Liu</name>
+    </author>
+    <author>
+      <name>Chao-Zhong Wu</name>
+    </author>
+    <author>
+      <name>Youjin Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1409.4616v1</id>
+    <title>Hodge integrals and tau-symmetric integrable hierarchies of Hamiltonian evolutionary PDEs</title>
+    <updated>2014-09-16T13:02:02Z</updated>
+    <link href="https://arxiv.org/abs/1409.4616v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1409.4616v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>For an arbitrary semisimple Frobenius manifold we construct Hodge integrable hierarchy of Hamiltonian partial differential equations. In the particular case of quantum cohomology the tau-function of a solution to the hierarchy generates the intersection numbers of the Gromov--Witten classes and their descendents along with the characteristic classes of Hodge bundles on the moduli spaces of stable maps. For the one-dimensional Frobenius manifold the Hodge hierarchy is a deformation of the Korteweg--de Vries hierarchy depending on an infinite number of parameters. Conjecturally this hierarchy is a universal object in the class of scalar Hamiltonian integrable hierarchies possessing tau-functions.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nlin.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-09-16T13:02:02Z</published>
+    <arxiv:comment>49 pages</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <author>
+      <name>Boris Dubrovin</name>
+    </author>
+    <author>
+      <name>Si-Qi Liu</name>
+    </author>
+    <author>
+      <name>Di Yang</name>
+    </author>
+    <author>
+      <name>Youjin Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/0410027v2</id>
+    <title>On Hamiltonian perturbations of hyperbolic systems of conservation laws</title>
+    <updated>2004-10-02T15:21:23Z</updated>
+    <link href="https://arxiv.org/abs/math/0410027v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/0410027v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We study the general structure of formal perturbative solutions to the Hamiltonian perturbations of spatially one-dimensional systems of hyperbolic PDEs. Under certain genericity assumptions it is proved that any bihamiltonian perturbation can be eliminated in all orders of the perturbative expansion by a change of coordinates on the infinite jet space depending rationally on the derivatives. The main tools is in constructing of the so-called quasi-Miura transformation of jet coordinates eliminating an arbitrary deformation of a semisimple bihamiltonian structure of hydrodynamic type (the quasitriviality theorem). We also describe, following \cite{LZ1}, the invariants of such bihamiltonian structures with respect to the group of Miura-type transformations depending polynomially on the derivatives.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2004-10-01T18:05:38Z</published>
+    <arxiv:comment>53 pages</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <author>
+      <name>Boris Dubrovin</name>
+    </author>
+    <author>
+      <name>Si-Qi Liu</name>
+    </author>
+    <author>
+      <name>Youjin Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1811.10234v3</id>
+    <title>The Loop Equation for Special Cubic Hodge Integrals</title>
+    <updated>2020-12-24T16:57:45Z</updated>
+    <link href="https://arxiv.org/abs/1811.10234v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1811.10234v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>As the first step of proving the Hodge-FVH correspondence recently proposed in [19], we derive the Virasoro constraints and the Dubrovin--Zhang loop equation for special cubic Hodge integrals. We show that this loop equation has a unique solution, and provide a new algorithm for the computation of these Hodge integrals. We also observe the gap phenomenon for certain special cubic Hodge free energies.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-11-26T09:01:25Z</published>
+    <arxiv:comment>Minor changes: corrected typos; added references; improved presentation; 24 pages</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <author>
+      <name>Si-Qi Liu</name>
+    </author>
+    <author>
+      <name>Di Yang</name>
+    </author>
+    <author>
+      <name>Youjin Zhang</name>
+    </author>
+    <author>
+      <name>Chunhui Zhou</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2106.13038v2</id>
+    <title>Variational Bihamiltonian Cohomologies and Integrable Hierarchies I: Foundations</title>
+    <updated>2021-09-07T02:42:17Z</updated>
+    <link href="https://arxiv.org/abs/2106.13038v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2106.13038v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This series of papers is devoted to the study of deformations of Virasoro symmetries of the principal hierarchies associated to semisimple Frobenius manifolds. The main tool we use is a generalization of the bihamiltonian cohomology called the variational bihamiltonian cohomology. In the present paper, we give its definitions and compute the associated cohomology groups that will be used in our study of deformations of Virasoro symmetries. To illustrate its application, we classify the conformal bihamiltonian structures with semisimple hydrodynamic limits.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-06-24T14:13:29Z</published>
+    <arxiv:primary_category term="math.DG"/>
+    <author>
+      <name>Si-Qi Liu</name>
+    </author>
+    <author>
+      <name>Zhe Wang</name>
+    </author>
+    <author>
+      <name>Youjin Zhang</name>
+    </author>
+    <arxiv:doi>10.1007/s00220-023-04658-0</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s00220-023-04658-0" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2009.01143v2</id>
+    <title>Super tau-covers of bihamiltonian integrable hierarchies</title>
+    <updated>2021-08-25T07:35:11Z</updated>
+    <link href="https://arxiv.org/abs/2009.01143v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2009.01143v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We consider a certain super extension, called the super tau-cover, of a bihamiltonian integrable hierarchy which contains the Hamiltonian structures including both the local and non-local ones as odd flows. In particular, we construct the super tau-cover of the principal hierarchy associated with an arbitrary Frobenius manifold, and the super tau-cover of the Korteweg-de Vries (KdV) hierarchy. We also show that the Virasoro symmetries of these bihamiltonan integrable hierarchies can be extended to symmetries of the associated super tau-covers.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-09-02T15:42:37Z</published>
+    <arxiv:primary_category term="math.DG"/>
+    <arxiv:journal_ref>Journal of Geometry and Physics Volume 170, December 2021, 104351</arxiv:journal_ref>
+    <author>
+      <name>Si-Qi Liu</name>
+    </author>
+    <author>
+      <name>Zhe Wang</name>
+    </author>
+    <author>
+      <name>Youjin Zhang</name>
+    </author>
+    <arxiv:doi>10.1016/j.geomphys.2021.104351</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.geomphys.2021.104351" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1811.10137v2</id>
+    <title>Drinfeld-Sokolov hierarchies and diagram automorphisms of affine Kac-Moody algebras</title>
+    <updated>2019-10-05T14:42:22Z</updated>
+    <link href="https://arxiv.org/abs/1811.10137v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1811.10137v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>For a diagram automorphism of an affine Kac-Moody algebra such that the folded diagram is still an affine Dynkin diagram, we show that the associated Drinfeld-Sokolov hierarchy also admits an induced automorphism. Then we show how to obtain the Drinfeld-Sokolov hierarchy associated to the affine Kac-Moody algebra that corresponds to the folded Dynkin diagram from the invariant sub-hierarchy of the original Drinfeld-Sokolov hierarchy.</summary>
+    <category term="nlin.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-11-26T01:28:38Z</published>
+    <arxiv:comment>48 pages</arxiv:comment>
+    <arxiv:primary_category term="nlin.SI"/>
+    <arxiv:journal_ref>C.M.P. (2019)</arxiv:journal_ref>
+    <author>
+      <name>Si-Qi Liu</name>
+    </author>
+    <author>
+      <name>Chao-Zhong Wu</name>
+    </author>
+    <author>
+      <name>Youjin Zhang</name>
+    </author>
+    <author>
+      <name>Xu Zhou</name>
+    </author>
+    <arxiv:doi>10.1007/s00220-019-03568-4</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s00220-019-03568-4" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2305.10851v2</id>
+    <title>Variational Bihamiltonian Cohomologies and Integrable Hierarchies III: Linear Reciprocal Transformations</title>
+    <updated>2023-05-30T02:11:32Z</updated>
+    <link href="https://arxiv.org/abs/2305.10851v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2305.10851v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>For an integrable hierarchy which possesses a bihamiltonian structure with semisimple hydrodynamic limit, we prove that the linear reciprocal transformation with respect to any of its symmetry transforms it to another bihamiltonian integrable hierarchy. Moreover, we show that the central invariants of the bihamiltonian structure are preserved under such a linear reciprocal transformation.</summary>
+    <category term="nlin.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-05-18T10:13:52Z</published>
+    <arxiv:primary_category term="nlin.SI"/>
+    <author>
+      <name>Si-Qi Liu</name>
+    </author>
+    <author>
+      <name>Zhe Wang</name>
+    </author>
+    <author>
+      <name>Youjin Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1012.5708v2</id>
+    <title>The Inversion Symmetry of the WDVV Equations and Tau Functions</title>
+    <updated>2013-05-05T08:36:10Z</updated>
+    <link href="https://arxiv.org/abs/1012.5708v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1012.5708v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>For two solutions of the WDVV equations that are related by the inversion symmetry, we show that the associated principal hierarchies of integrable systems are related by a reciprocal transformation, and the tau functions of the hierarchies are related by a Legendre type transformation. We also consider relationships between the Virasoro constraints and the topological deformations of the principal hierarchies.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nlin.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-12-28T07:36:53Z</published>
+    <arxiv:comment>28 pages. This is a rewritten of an early preprint arXiv: 1002.0034 with a proof of Conjecture 6.1. V2: The published version</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <arxiv:journal_ref>Phys. D 241 (2012), no. 23-24, 2168--2177</arxiv:journal_ref>
+    <author>
+      <name>Si-Qi Liu</name>
+    </author>
+    <author>
+      <name>Dingdian Xu</name>
+    </author>
+    <author>
+      <name>Youjin Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1208.5847v2</id>
+    <title>Bihamiltonian Cohomologies and Integrable Hierarchies I: A Special Case</title>
+    <updated>2013-05-05T08:35:28Z</updated>
+    <link href="https://arxiv.org/abs/1208.5847v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1208.5847v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present some general results on properties of the bihamiltonian cohomologies associated to bihamiltonian structures of hydrodynamic type, and compute the third cohomology for the bihamiltonian structure of the dispersionless KdV hierarchy. The result of the computation enables us to prove the existence of bihamiltonian deformations of the dispersionless KdV hierarchy starting from any of its infinitesimal deformations.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nlin.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-08-29T06:38:05Z</published>
+    <arxiv:comment>43 pages. V2: the accepted version, to appear in Comm. Math. Phys</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <author>
+      <name>Si-Qi Liu</name>
+    </author>
+    <author>
+      <name>Youjin Zhang</name>
+    </author>
+    <arxiv:doi>10.1007/s00220-013-1822-y</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s00220-013-1822-y" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1305.1008v1</id>
+    <title>Proof of a Conjecture on the Genus Two Free Energy Associated to the A_n Singularity</title>
+    <updated>2013-05-05T12:55:29Z</updated>
+    <link href="https://arxiv.org/abs/1305.1008v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1305.1008v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In a recent paper [8], it is proved that the genus two free energy of an arbitrary semisimple Frobenius manifold can be represented as a sum of contributions associated with dual graphs of certain stable algebraic curves of genus two plus the so called genus two G-function, and for a certain class of Frobenius manifolds it is conjectured that the associated genus two G-function vanishes. In this paper, we prove this conjecture for the Frobenius manifolds associated with simple singularities of type A.</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-05-05T12:55:29Z</published>
+    <arxiv:comment>24 pages</arxiv:comment>
+    <arxiv:primary_category term="math-ph"/>
+    <author>
+      <name>Yulong Fu</name>
+    </author>
+    <author>
+      <name>Si-Qi Liu</name>
+    </author>
+    <author>
+      <name>Youjin Zhang</name>
+    </author>
+    <author>
+      <name>Chunhui Zhou</name>
+    </author>
+    <arxiv:doi>10.1016/j.geomphys.2013.10.013</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.geomphys.2013.10.013" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1205.5990v2</id>
+    <title>On the Genus Two Free Energies for Semisimple Frobenius Manifolds</title>
+    <updated>2013-05-05T12:43:01Z</updated>
+    <link href="https://arxiv.org/abs/1205.5990v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1205.5990v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We represent the genus two free energy of an arbitrary semisimple Frobenius manifold as a sum of contributions associated with dual graphs of certain stable algebraic curves of genus two plus the so-called "genus two G-function". Conjecturally the genus two G-function vanishes for a series of important examples of Frobenius manifolds associated with simple singularities as well as for ${\bf P}^1$-orbifolds with positive Euler characteristics. We explain the reasons for such Conjecture and prove it in certain particular cases.</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-05-27T17:52:14Z</published>
+    <arxiv:comment>37 pages, 3 figures, V2: the published version</arxiv:comment>
+    <arxiv:primary_category term="math-ph"/>
+    <arxiv:journal_ref>Russ. J. Math. Phys. 19 (2012), no. 3, 273--298</arxiv:journal_ref>
+    <author>
+      <name>Boris Dubrovin</name>
+    </author>
+    <author>
+      <name>Si-Qi Liu</name>
+    </author>
+    <author>
+      <name>Youjin Zhang</name>
+    </author>
+    <arxiv:doi>10.1134/S1061920812030028</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1134/S1061920812030028" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2506.13656v3</id>
+    <title>Generalized Frobenius Manifold Structures on the Orbit Spaces of Affine Weyl Groups I</title>
+    <updated>2026-01-11T11:59:01Z</updated>
+    <link href="https://arxiv.org/abs/2506.13656v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2506.13656v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present an approach to construct a class of generalized Frobenius manifold structures on the orbit spaces of affine Weyl groups, and prove that their monodromy groups are parabolic subgroups of the associated affine Weyl groups.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-06-16T16:17:34Z</published>
+    <arxiv:primary_category term="math.DG"/>
+    <author>
+      <name>Lingrui Jiang</name>
+    </author>
+    <author>
+      <name>Si-Qi Liu</name>
+    </author>
+    <author>
+      <name>Yingchao Tian</name>
+    </author>
+    <author>
+      <name>Youjin Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2109.01845v2</id>
+    <title>Variational Bihamiltonian Cohomologies and Integrable Hierarchies II: Virasoro symmetries</title>
+    <updated>2021-09-07T02:45:24Z</updated>
+    <link href="https://arxiv.org/abs/2109.01845v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2109.01845v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We prove that for any tau-symmetric bihamiltonian deformation of the tau-cover of the Principal Hierarchy associated with a semisimple Frobenius manifold, the deformed tau-cover admits an infinite set of Virasoro symmetries.</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-09-04T11:35:56Z</published>
+    <arxiv:primary_category term="math-ph"/>
+    <author>
+      <name>Si-Qi Liu</name>
+    </author>
+    <author>
+      <name>Zhe Wang</name>
+    </author>
+    <author>
+      <name>Youjin Zhang</name>
+    </author>
+    <arxiv:doi>10.1007/s00220-022-04433-7</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s00220-022-04433-7" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2110.03317v3</id>
+    <title>Reduction of the 2D Toda Hierarchy and Linear Hodge Integrals</title>
+    <updated>2022-05-18T04:54:11Z</updated>
+    <link href="https://arxiv.org/abs/2110.03317v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2110.03317v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We construct a certain reduction of the 2D Toda hierarchy and obtain a tau-symmetric Hamiltonian integrable hierarchy. This reduced integrable hierarchy controls the linear Hodge integrals in the way that one part of its flows yields the intermediate long wave hierarchy, and the remaining flows coincide with a certain limit of the flows of the fractional Volterra hierarchy which controls the special cubic Hodge integrals.</summary>
+    <category term="nlin.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-10-07T10:19:48Z</published>
+    <arxiv:primary_category term="nlin.SI"/>
+    <arxiv:journal_ref>SIGMA 18 (2022), 037, 18 pages</arxiv:journal_ref>
+    <author>
+      <name>Si-Qi Liu</name>
+    </author>
+    <author>
+      <name>Zhe Wang</name>
+    </author>
+    <author>
+      <name>Youjin Zhang</name>
+    </author>
+    <arxiv:doi>10.3842/SIGMA.2022.037</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.3842/SIGMA.2022.037" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2109.01846v2</id>
+    <title>Linearization of Virasoro symmetries associated with semisimple Frobenius manifolds</title>
+    <updated>2021-09-07T02:40:34Z</updated>
+    <link href="https://arxiv.org/abs/2109.01846v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2109.01846v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>For any semisimple Frobenius manifold, we prove that a tau-symmetric bihamiltonian deformation of its Principal Hierarchy admits an infinite family of linearizable Virasoro symmetries if and only if all the central invariants of the corresponding deformation of the bihamiltonian structure are equal to $\frac{1}{24}$. As an important application of this result, we prove that the Dubrovin-Zhang hierarchy associated with the semisimple Frobenius manifold possesses a bihamiltonian structure which can be represented in terms of differential polynomials.</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-09-04T11:37:10Z</published>
+    <arxiv:primary_category term="math-ph"/>
+    <author>
+      <name>Si-Qi Liu</name>
+    </author>
+    <author>
+      <name>Zhe Wang</name>
+    </author>
+    <author>
+      <name>Youjin Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1502.01774v1</id>
+    <title>Central Invariants of the Constrained KP Hierarchies</title>
+    <updated>2015-02-06T02:01:46Z</updated>
+    <link href="https://arxiv.org/abs/1502.01774v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1502.01774v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We compute the central invariants of the bihamiltonian structures of the constrained KP hierarchies, and show that these integrable hierarchies are topological deformations of their hydrodynamic limits.</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-02-06T02:01:46Z</published>
+    <arxiv:comment>20 pages</arxiv:comment>
+    <arxiv:primary_category term="math-ph"/>
+    <author>
+      <name>Si-Qi Liu</name>
+    </author>
+    <author>
+      <name>Youjin Zhang</name>
+    </author>
+    <author>
+      <name>Xu Zhou</name>
+    </author>
+    <arxiv:doi>10.1016/j.geomphys.2015.07.017</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.geomphys.2015.07.017" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/0308152v2</id>
+    <title>Virasoro Symmetries of the Extended Toda Hierarchy</title>
+    <updated>2003-09-10T12:43:36Z</updated>
+    <link href="https://arxiv.org/abs/math/0308152v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/0308152v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We prove that the extended Toda hierarchy of \cite{CDZ} admits nonabelian Lie algebra of infinitesimal symmetries isomorphic to the half of the Virasoro algebra. The generators $L_m$, $m\geq -1$ of the Lie algebra act by linear differential operators onto the tau function of the hierarchy. We also prove that the tau function of a generic solution to the extended Toda hierarchy is annihilated by a combination of the Virasoro operators and the flows of the hierarchy. As an application we show that the validity of the Virasoro constraints for the $CP^1$ Gromov-Witten invariants and their descendents implies that their generating function is the logarithm of a particular tau function of the extended Toda hierarchy.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2003-08-15T14:36:53Z</published>
+    <arxiv:comment>A remark at the end of Section 5 is added; more detailed explanations in Appendix; references added</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <author>
+      <name>Boris Dubrovin</name>
+    </author>
+    <author>
+      <name>Youjin Zhang</name>
+    </author>
+    <arxiv:doi>10.1007/s00220-004-1084-9</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s00220-004-1084-9" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1612.02333v2</id>
+    <title>Hodge-GUE correspondence and the discrete KdV equation</title>
+    <updated>2018-10-28T10:18:37Z</updated>
+    <link href="https://arxiv.org/abs/1612.02333v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1612.02333v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We prove the conjectural relationship recently proposed in [9] between certain special cubic Hodge integrals of the Gopakumar--Mariño--Vafa type [17, 28] and GUE correlators, and the conjecture proposed in [7] that the partition function of these Hodge integrals is a tau function of the discrete KdV hierarchy.</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-12-07T17:06:12Z</published>
+    <arxiv:comment>It was added the loop equation for the special cubic Hodge free energy; simplified the proof of the Main Theorem; added Corollary 1.5. 27 pages, no figures</arxiv:comment>
+    <arxiv:primary_category term="math-ph"/>
+    <author>
+      <name>Boris Dubrovin</name>
+    </author>
+    <author>
+      <name>Si-Qi Liu</name>
+    </author>
+    <author>
+      <name>Di Yang</name>
+    </author>
+    <author>
+      <name>Youjin Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1701.03222v1</id>
+    <title>Bihamiltonian Cohomologies and Integrable Hierarchies II: the Tau Structures</title>
+    <updated>2017-01-12T03:49:06Z</updated>
+    <link href="https://arxiv.org/abs/1701.03222v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1701.03222v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Starting from a so-called flat exact semisimple bihamiltonian structures of hydrodynamic type, we arrive at a Frobenius manifold structure and a tau structure for the associated principal hierarchy. We then classify the deformations of the principal hierarchy which possess tau structures.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nlin.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-01-12T03:49:06Z</published>
+    <arxiv:comment>52 pages</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <author>
+      <name>Boris Dubrovin</name>
+    </author>
+    <author>
+      <name>Si-Qi Liu</name>
+    </author>
+    <author>
+      <name>Youjin Zhang</name>
+    </author>
+    <arxiv:doi>10.1007/s00220-018-3176-y</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s00220-018-3176-y" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2602.21532v1</id>
+    <title>Generalized Frobenius Manifold Structures on the Orbit Spaces of Affine Weyl Groups II</title>
+    <updated>2026-02-25T03:38:18Z</updated>
+    <link href="https://arxiv.org/abs/2602.21532v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.21532v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This is a sequel to arXiv:2506.13656, in which an approach to construct a class of generalized Frobenius manifold structures on the orbit spaces of affine Weyl groups is presented. In this paper we apply this construction to the affine Weyl groups of type $A_\ell, B_\ell, C_\ell$ and $D_\ell$.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-25T03:38:18Z</published>
+    <arxiv:primary_category term="math.DG"/>
+    <author>
+      <name>Lingrui Jiang</name>
+    </author>
+    <author>
+      <name>Si-qi Liu</name>
+    </author>
+    <author>
+      <name>Yingchao Tian</name>
+    </author>
+    <author>
+      <name>Youjin Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-th/9611200v2</id>
+    <title>Extended affine Weyl groups and Frobenius manifolds</title>
+    <updated>1998-05-20T09:50:20Z</updated>
+    <link href="https://arxiv.org/abs/hep-th/9611200v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-th/9611200v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We define certain extensions of affine Weyl groups (distinct from these considered by K. Saito [S1] in the theory of extended affine root systems), prove an analogue of Chevalley theorem for their invariants, and construct a Frobenius structure on their orbit spaces. This produces solutions $F(t_1, ..., t_n)$ of WDVV equations of associativity polynomial in $t_1, ..., t_{n-1}, \exp t_n$.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1996-11-24T14:54:38Z</published>
+    <arxiv:comment>69 pages, amslatex, some references added, position of Table 1 is corrected. Revised version for Compositio Mathematica</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <arxiv:journal_ref>Compositio Mathematica 111 (1998), 167--219</arxiv:journal_ref>
+    <author>
+      <name>Boris Dubrovin</name>
+    </author>
+    <author>
+      <name>Youjin Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0912.5273v1</id>
+    <title>On the Drinfeld-Sokolov Hierarchies of D type</title>
+    <updated>2009-12-30T01:23:28Z</updated>
+    <link href="https://arxiv.org/abs/0912.5273v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0912.5273v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We extend the notion of pseudo-differential operators that are used to represent the Gelfand-Dickey hierarchies, and obtain a similar representation for the full Drinfeld-Sokolov hierarchies of $D_n$ type. By using such pseudo-differential operators we introduce the tau functions of these bi-Hamiltonian hierarchies, and prove that these hierarchies are equivalent to the integrable hierarchies defined by Date-Jimbo-Kashiware-Miwa and Kac-Wakimoto from the basic representation of the Kac-Moody algebra $D_n^{(1)}$.</summary>
+    <category term="nlin.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2009-12-30T01:23:28Z</published>
+    <arxiv:comment>With 3 Figures</arxiv:comment>
+    <arxiv:primary_category term="nlin.SI"/>
+    <author>
+      <name>Si-Qi Liu</name>
+    </author>
+    <author>
+      <name>Chao-Zhong Wu</name>
+    </author>
+    <author>
+      <name>Youjin Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0809.0397v1</id>
+    <title>Hamiltonian Structures and Reciprocal Transformations for the $r$-KdV-CH Hierarchy</title>
+    <updated>2008-09-02T10:40:22Z</updated>
+    <link href="https://arxiv.org/abs/0809.0397v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0809.0397v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The $r$-KdV-CH hierarchy is a generalization of the Korteweg-de Vries and Camassa-Holm hierarchies parametrized by $r+1$ constants. In this paper we clarify some properties of its multi-Hamiltonian structures, prove the semisimplicity of the associated bihamiltonian structures and the formula for their central invariants. By introducing a class of generalized Hamiltonian structures, we give in a natural way the transformation formulae of the Hamiltonian structures of the hierarchy under certain reciprocal transformation, and prove the formulae at the level of its dispersionless limit. We also consider relations of the associated bihamiltonian structures to Frobenius manifolds.</summary>
+    <category term="nlin.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2008-09-02T10:40:22Z</published>
+    <arxiv:comment>37 pages</arxiv:comment>
+    <arxiv:primary_category term="nlin.SI"/>
+    <author>
+      <name>Ming Chen</name>
+    </author>
+    <author>
+      <name>Si-Qi Liu</name>
+    </author>
+    <author>
+      <name>Youjin Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2404.08895v1</id>
+    <title>The extended Ablowitz-Ladik hierarchy and a generalized Frobenius manifold</title>
+    <updated>2024-04-13T04:04:12Z</updated>
+    <link href="https://arxiv.org/abs/2404.08895v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2404.08895v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We define a certain extension of the Ablowitz-Ladik hierarchy, and prove that this extended integrable hierarchy coincides with the topological deformation of the Principal Hierarchy of a generalized Frobenius manifold with non-flat unity.</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-04-13T04:04:12Z</published>
+    <arxiv:primary_category term="math-ph"/>
+    <author>
+      <name>Si-Qi Liu</name>
+    </author>
+    <author>
+      <name>Yuewei Wang</name>
+    </author>
+    <author>
+      <name>Youjin Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2409.19530v2</id>
+    <title>On Tautological Flows of Partial Difference Equations</title>
+    <updated>2025-01-22T10:42:13Z</updated>
+    <link href="https://arxiv.org/abs/2409.19530v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2409.19530v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We propose a new analyzing method, which is called the tautological flow method, to analyze the integrability of partial difference equations (P$Δ$Es) based on that of partial differential equations (PDEs). By using this method, we prove that the discrete $q$-KdV equation is a discrete symmetry of the $q$-deformed KdV hierarchy and its bihamiltonian structure, and we also demonstrate how to directly search for continuous symmetries and bihamiltonian structures of P$Δ$Es by using the approximated tautological flows and their quasi-triviality transformation.</summary>
+    <category term="nlin.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-09-29T03:28:12Z</published>
+    <arxiv:comment>24 pages</arxiv:comment>
+    <arxiv:primary_category term="nlin.SI"/>
+    <author>
+      <name>Zhonglun Cao</name>
+    </author>
+    <author>
+      <name>Si-Qi Liu</name>
+    </author>
+    <author>
+      <name>Youjin Zhang</name>
+    </author>
+  </entry>
+</feed>

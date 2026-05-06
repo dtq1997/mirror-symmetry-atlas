@@ -1,0 +1,154 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/wmnvzS9TxL+ayKi1fKfH3uN/RUw</id>
+  <title>arXiv Query: search_query=au:"Sergei Novikov" AND (cat:math.AG OR cat:math.AT OR cat:math.AP OR cat:math.CT OR cat:math.CA OR cat:math.CO OR cat:math.DG OR cat:math.DS OR cat:math.FA OR cat:math.GT OR cat:math.MP OR cat:math.OA OR cat:math.PR OR cat:math.QA OR cat:math.RA OR cat:math.RT OR cat:math.SG OR cat:math.SP OR cat:math.ST OR cat:math.NT OR cat:math.GR OR cat:math.HO OR cat:math-ph OR cat:nlin.SI OR cat:nlin.CD OR cat:hep-th OR cat:q-alg OR cat:dg-ga OR cat:alg-geom OR cat:cond-mat.stat-mech)&amp;id_list=&amp;start=0&amp;max_results=200</title>
+  <updated>2026-05-06T07:30:13Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=au:%22Sergei+Novikov%22+AND+(cat:math.AG+OR+(cat:math.AT+OR+(cat:math.AP+OR+(cat:math.CT+OR+(cat:math.CA+OR+(cat:math.CO+OR+(cat:math.DG+OR+(cat:math.DS+OR+(cat:math.FA+OR+(cat:math.GT+OR+(cat:math.MP+OR+(cat:math.OA+OR+(cat:math.PR+OR+(cat:math.QA+OR+(cat:math.RA+OR+(cat:math.RT+OR+(cat:math.SG+OR+(cat:math.SP+OR+(cat:math.ST+OR+(cat:math.NT+OR+(cat:math.GR+OR+(cat:math.HO+OR+(cat:math-ph+OR+(cat:nlin.SI+OR+(cat:nlin.CD+OR+(cat:hep-th+OR+(cat:q-alg+OR+(cat:dg-ga+OR+(cat:alg-geom+OR+cat:cond-mat.stat-mech)))))))))))))))))))))))))))))&amp;start=0&amp;max_results=200&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>200</opensearch:itemsPerPage>
+  <opensearch:totalResults>6</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1005.0612v2</id>
+    <title>2D Schrodinger Operator, (2+1) Systems and New Reductions. The 2D Burgers Hierarchy and Inverse Problem Data</title>
+    <updated>2010-05-11T20:40:50Z</updated>
+    <link href="https://arxiv.org/abs/1005.0612v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1005.0612v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The Theory of (2+1) Systems based on 2D Schrodinger Operator was started by S.Manakov, B.Dubrovin, I.Krichever and S.Novikov in 1976. The Analog of Lax Pairs introduced by Manakov, has a form $L_t=[L,H]-fL$ ("The $L,H,f$-triples") where $L=\partial_x\partial_y+G\partial_y+S$ and $H,f$-some linear PDEs. Their Algebro-Geometric Solutions and therefore the full higher order hierarchies were constructed by B.Dubrovin, I.Krichever and S.Novikov. The Theory of 2D Inverse Spectral  Problems for the Elliptic Operator $L$ with $x,y$ replaced by $z,\bar{z}$, was started by B.Dubrovin, I.Krichever and S.Novikov:  The Inverse Spectral Problem  Data are taken from the  complex "Fermi-Curve" consisting of all Bloch-Floquet Eigenfunctions  $Lψ=const$. Many interesting systems were found later. However, specific properties of the very first system, offered by Manakov for the verification of new method only, were not studied more than 10 years until B.Konopelchenko found in 1988 analogs of Backund Transformations for it. He  pointed out on the "Burgers-Type Reduction". Indeed, the present authors quite recently found very interesting extensions, reductions and applications of that system both in the theory of nonlinear evolution systems (The Self-Adjoint and 2D Burgers Hierarhies were invented, and corresponding reductions of Inverse Problem Data found) and in the Spectral Theory of Important Physical Operators ("The Purely Magnetic 2D Pauli Operators"). We call this system GKMMN by the names of  authors who studied it.</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nlin.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-05-04T19:27:06Z</published>
+    <arxiv:comment>LaTeX, 5 pages, The title and the abstract were corrected, a new reference was added</arxiv:comment>
+    <arxiv:primary_category term="math-ph"/>
+    <author>
+      <name>P. Grinevich</name>
+      <arxiv:affiliation>L.D.Landau Institute for Theoretical Physics RAS</arxiv:affiliation>
+    </author>
+    <author>
+      <name>A. Mironov</name>
+      <arxiv:affiliation>Sobolev Institute of Mathematics Siberian Branch of RAS</arxiv:affiliation>
+    </author>
+    <author>
+      <name>S. Novikov</name>
+      <arxiv:affiliation>University of Maryland, College Park</arxiv:affiliation>
+      <arxiv:affiliation>L.D.Landau Institute for Theoretical Physics RAS</arxiv:affiliation>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1004.1157v4</id>
+    <title>On the Ground Level of Purely Magnetic Algebro-Geometric 2D Pauli Operator (spin 1/2)</title>
+    <updated>2010-10-21T17:26:32Z</updated>
+    <link href="https://arxiv.org/abs/1004.1157v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1004.1157v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Full manifold of the complex Bloch-Floquet eigenfunctions is investigated for the ground level of the purely magnetic 2D Pauli operators (equal to zero because of supersymmetry). Deep connection of it with the 2D analog of the "Burgers Nonlinear Hierarchy" plays fundamental role here. Everything is completely calculated for the broad class of Algebro-Geometric operators found in this work for this case. For the case of nonzero flux the ground states were found by Aharonov-Casher (1979) for the rapidly decreasing fields, and by Dubrovin-Novikov (1980) for the periodic fields. No Algebro-Geometric operators where known in the case of nonzero flux. For genus $g=1$ we found periodic operators with zero flux, singular magnetic fields and Bohm-Aharonov phenomenon. Our arguments imply that the delta-term really does not affect seriously the spectrum nearby of the ground state. For $g&gt;1$ our theory requires to use only algebraic curves with selected point leading to the solutions elliptic in the variable $x$ for KdV and KP in order to get periodic magnetic fields. The algebro-geometric case of genus zero leads, in particular, to the slowly decreasing lump-like magnetic fields with especially interesting variety of ground states in the Hilbert Space $\cL_2(\bR^2)$.</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nlin.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-04-07T19:06:33Z</published>
+    <arxiv:comment>Latex 32 pages, in the recent version an Important discussion of the problem concerning Bohm-Aharonov Phenomenon is added. The arguments are presented how the delta-term in magnetic field do not affect seriously the spectrum near the ground state</arxiv:comment>
+    <arxiv:primary_category term="math-ph"/>
+    <arxiv:journal_ref>Theoretical and Mathematical Physics, 2010, 164:3, 1110-1127</arxiv:journal_ref>
+    <author>
+      <name>P. Grinevich</name>
+      <arxiv:affiliation>L.D.Landau Institute for Theoretical Physics RAS</arxiv:affiliation>
+    </author>
+    <author>
+      <name>A. Mironov</name>
+      <arxiv:affiliation>Sobolev Institute of Mathematics Siberian Branch of RAS</arxiv:affiliation>
+    </author>
+    <author>
+      <name>S. Novikov</name>
+      <arxiv:affiliation>University of Maryland, College Park</arxiv:affiliation>
+      <arxiv:affiliation>L.D.Landau Institute for Theoretical Physics RAS</arxiv:affiliation>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1001.4300v3</id>
+    <title>New Reductions and Nonlinear Systems for 2D Schrodinger Operators</title>
+    <updated>2010-02-09T20:21:26Z</updated>
+    <link href="https://arxiv.org/abs/1001.4300v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1001.4300v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  New Completely Integrable (2+1)-System is studied. It is based on the so-called L-A-B-triples $L_t=[H,L]-fL$ where L is a 2D Schrodinger Operator. This approach was invented by S.Manakov and B.Dubrovin, I.Krichever, S.Novikov(DKN) in the works published in 1976. A nonstandard reduction for the 2D Schrodinger Operator (completely different from the one found by S.Novikov and A.Veselov in 1984) compatible with time dynamics of the new Nonlinear System, is studied here. It can be naturally treated as a 2D extension of the famous Burgers System. The Algebro-Geometric (AG) Periodic Solutions here are very specific and unusual (for general and reduced cases). The reduced system is linearizable like Burgers. However, the general one (and probably the reduced one also) certainly lead in the stationary AG case to the nonstandard examples of algebraic curves $Γ\subset W$ in the full complex 2D manifold of Bloch-Floquet functions W for the periodic elliptic 2D operator H where $Hψ(x,y,P)=λ(P)ψ(x,y,P),P\in Γ$. However, in the nontrivial case the operators are nonselfadjoint. A Conjecture is formulated that for the nontrivial selfadjoint elliptic 2D Schrodinger operators H with periodic coefficients The Whole 2D Complex Manifolds W cannot not contain any Zariski open part of algebraic curve $Γ$ except maybe one selected level $Hψ=const$ found in 1976 by DKN. Version 2 contains new results. It also corrects some non-accurate claims; in particular, the non-reduced system is non-linearizable in any trivial sense. In version 3 a misprint in the formulation of Theorem 1 was corrected.</summary>
+    <category term="nlin.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-01-25T18:27:13Z</published>
+    <arxiv:comment>LaTeX, 13 pages, 2 fugures</arxiv:comment>
+    <arxiv:primary_category term="nlin.SI"/>
+    <author>
+      <name>P. Grinevich</name>
+      <arxiv:affiliation>L.D.Landau Institute for Theoretical Physics RAS</arxiv:affiliation>
+    </author>
+    <author>
+      <name>A. Mironov</name>
+      <arxiv:affiliation>Sobolev Institute of Mathematics Siberian Branch of RAS</arxiv:affiliation>
+    </author>
+    <author>
+      <name>S. Novikov</name>
+      <arxiv:affiliation>University of Maryland, College Park</arxiv:affiliation>
+      <arxiv:affiliation>L.D.Landau Institute for Theoretical Physics RAS</arxiv:affiliation>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0809.2963v2</id>
+    <title>New Discretization of Complex Analysis: The Euclidean and Hyperbolic Planes</title>
+    <updated>2009-12-20T20:25:57Z</updated>
+    <link href="https://arxiv.org/abs/0809.2963v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0809.2963v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Few years ago we developed jointly with I.Dynnikov new discretization of complex analysis (DCA) based on the two-dimensional manifolds with colored black/white triangulation. Especially deep results were obtained for the Euclidean plane with equilateral triangle lattice. In the present work we develop a DCA theory for the analogs of equilateral triangle lattice in Hyperbolic plane. Some specific very interesting "dynamical phenomena" appear in this case solving most fundamental boundary problems. Mike Boyle from the University of Maryland helped to use here the methods of symbolic dynamics</summary>
+    <category term="math.GT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.DS" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2008-09-17T17:01:13Z</published>
+    <arxiv:comment>16 pages, 12 figures, latex</arxiv:comment>
+    <arxiv:primary_category term="math.GT"/>
+    <author>
+      <name>S. P. Novikov</name>
+      <arxiv:affiliation>University of Maryland, College Park MD, USA and Landau Institute, Moscow</arxiv:affiliation>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/0701461v3</id>
+    <title>Dynamical Systems and Differential Forms. Low Dimensional Hamiltonian Systems</title>
+    <updated>2007-09-15T12:13:01Z</updated>
+    <link href="https://arxiv.org/abs/math/0701461v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/0701461v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The theory of differential forms began with a discovery of Poincare who found conservation laws of a new type for Hamiltonian systems - The Integral Invariants. Even in the absence of non-trivial integrals of motion, there exist invariant differential forms: a symplectic two-form, or a contact one-form for geodesic flows. Some invariant forms can be naturally considered as "forms on the quotient." As a space, this quotient may be very bad in the conventional topological sense. These considerations lead to an analog of the de Rham cohomology theory for manifolds carrying smooth dynamical system. The cohomology theory for quotients, called "basic cohomology" in the literature, appears naturally in our approach. We define also new exotic cohomology groups associated with the so-called cohomological equation in dynamical systems and find exact sequences connecting them with the cohomology of quotients. Explicit computations are performed for geodesic and horocycle flows of compact surfaces of constant negative curvature. Are these famous systems Hamiltonian for a 3D manifold with a Poisson structure? Below, we discuss exotic Poisson structures on 3-manifolds having complicated Anosov-type Casimir foliations. We prove that horocycle flows are Hamiltonian for such exotic structures. The geodesic flow is non-Hamiltonian in the 3D sense.</summary>
+    <category term="math.GT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.DS" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2007-01-16T21:37:40Z</published>
+    <arxiv:comment>22 pages</arxiv:comment>
+    <arxiv:primary_category term="math.GT"/>
+    <author>
+      <name>S. P. Novikov</name>
+      <arxiv:affiliation>University of Maryland, College Park, USA and Landau Institute, Moscow, Russia</arxiv:affiliation>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0903.3976v5</id>
+    <title>Singular Finite-Gap Operators and Indefinite Metric</title>
+    <updated>2009-06-09T17:26:28Z</updated>
+    <link href="https://arxiv.org/abs/0903.3976v5" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0903.3976v5" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Many "real" inverse spectral data for periodic finite-gap operators (consisting of Riemann Surface with marked "infinite point", local parameter and divisors of poles) lead to operators with real but singular coefficients. These operators cannot be considered as self-adjoint in the ordinary (positive) Hilbert spaces of functions of x. In particular, it is true for the special case of Lame operators with elliptic potential $n(n+1)\wp(x)$ where eigenfunctions were found in XIX Century by Hermit. However, such Baker-Akhiezer (BA) functions present according to the ideas of works by Krichever-Novikov (1989), Grinevich-Novikov (2001) right analog of the Discrete and Continuous Fourier Bases on Riemann Surfaces. It turns out that these operators for the nonzero genus are symmetric in some indefinite inner product, described in this work. The analog of Continuous Fourier Transform is an isometry in this inner product. In the next work with number II we will present exposition of the similar theory for Discrete Fourier Series</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2009-03-23T22:31:54Z</published>
+    <arxiv:comment>LaTex, 30 pages In the updated version: 3 references added, extensions of the x-space with indefinite metric and the analysis of the Lame potentials are described in more details, relations with Crum transformations are discussed. Discussion of degenerate cases (hyperbolic and trigonometric) and Crum-Darboux transformations is added. Additional reference was added</arxiv:comment>
+    <arxiv:primary_category term="math-ph"/>
+    <author>
+      <name>P. Grinevich</name>
+      <arxiv:affiliation>L.D.Landau Institute for Theoretical Physics</arxiv:affiliation>
+    </author>
+    <author>
+      <name>S. Novikov</name>
+      <arxiv:affiliation>L.D.Landau Institute for Theoretical Physics</arxiv:affiliation>
+      <arxiv:affiliation>University of Maryland at College Park</arxiv:affiliation>
+    </author>
+    <arxiv:doi>10.1070/RM2009v064n04ABEH004629</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1070/RM2009v064n04ABEH004629" title="doi"/>
+  </entry>
+</feed>

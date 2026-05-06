@@ -1,0 +1,306 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/OV3MT4U6PYTuui5Mcqj6BsN2VI0</id>
+  <title>arXiv Query: search_query=au:"Haozhi Zeng" AND (cat:math.AG OR cat:math.AT OR cat:math.AP OR cat:math.CT OR cat:math.CA OR cat:math.CO OR cat:math.DG OR cat:math.DS OR cat:math.FA OR cat:math.GT OR cat:math.MP OR cat:math.OA OR cat:math.PR OR cat:math.QA OR cat:math.RA OR cat:math.RT OR cat:math.SG OR cat:math.SP OR cat:math.ST OR cat:math.NT OR cat:math.GR OR cat:math.HO OR cat:math-ph OR cat:nlin.SI OR cat:nlin.CD OR cat:hep-th OR cat:q-alg OR cat:dg-ga OR cat:alg-geom OR cat:cond-mat.stat-mech)&amp;id_list=&amp;start=0&amp;max_results=200</title>
+  <updated>2026-05-06T07:32:18Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=au:%22Haozhi+Zeng%22+AND+(cat:math.AG+OR+(cat:math.AT+OR+(cat:math.AP+OR+(cat:math.CT+OR+(cat:math.CA+OR+(cat:math.CO+OR+(cat:math.DG+OR+(cat:math.DS+OR+(cat:math.FA+OR+(cat:math.GT+OR+(cat:math.MP+OR+(cat:math.OA+OR+(cat:math.PR+OR+(cat:math.QA+OR+(cat:math.RA+OR+(cat:math.RT+OR+(cat:math.SG+OR+(cat:math.SP+OR+(cat:math.ST+OR+(cat:math.NT+OR+(cat:math.GR+OR+(cat:math.HO+OR+(cat:math-ph+OR+(cat:nlin.SI+OR+(cat:nlin.CD+OR+(cat:hep-th+OR+(cat:q-alg+OR+(cat:dg-ga+OR+(cat:alg-geom+OR+cat:cond-mat.stat-mech)))))))))))))))))))))))))))))&amp;start=0&amp;max_results=200&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>200</opensearch:itemsPerPage>
+  <opensearch:totalResults>13</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1604.03138v2</id>
+    <title>Torsion in the cohomology of torus orbifolds</title>
+    <updated>2016-12-10T09:20:13Z</updated>
+    <link href="https://arxiv.org/abs/1604.03138v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1604.03138v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study torsion in the integral cohomology of a certain family of $2n$-dimensional orbifolds $X$ with actions of the $n$-dimensional compact torus. Compact simplicial toric varieties are in our family. For a prime number $p$, we find a necessary condition for the integral cohomology of $X$ to have no $p$-torsion. Then we prove that the necessary condition is sufficient in some cases. We also give an example of $X$ which shows that the necessary condition is not sufficient in general.</summary>
+    <category term="math.AT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-04-11T20:30:47Z</published>
+    <arxiv:comment>22 pages, 3 figures</arxiv:comment>
+    <arxiv:primary_category term="math.AT"/>
+    <arxiv:journal_ref>Chinese Ann. Math. Ser. B, 38(6), 2017, 1247-1268</arxiv:journal_ref>
+    <author>
+      <name>Hideya Kuwata</name>
+    </author>
+    <author>
+      <name>Mikiya Masuda</name>
+    </author>
+    <author>
+      <name>Haozhi Zeng</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2305.03964v1</id>
+    <title>Equivariant cohomology ring of open torus manifolds with locally standard actions</title>
+    <updated>2023-05-06T07:39:51Z</updated>
+    <link href="https://arxiv.org/abs/2305.03964v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2305.03964v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The notation of torus manifolds were introduced by A. Hattori and M. Masuda. Toric manifolds, quasitoric manifolds, topological toric manifolds, toric origami manifolds and $b$-symplectic toric manifolds are typical examples of torus manifolds with locally standard action. Recently, L. Yu introduced a nice notion topological face ring $\mathbf{k}[Q]$, a generalization of Stanley-Reisener ring, for a nice manifold with corners $Q$. L. Yu applied polyhedral product technique developed by A. Bahri, M. Bendersky, F. Cohon and S. Gilter to show that the equivariant cohomology ring $H^*_T(M)$ of an open torus manifold $M$ with locally standard action is isomorphic to the topological face ring of $M/T$ under the assumption that the free part of the action is a trivial torus bundle. In this paper we show that Yu's formula holds for any open torus manifolds with locally standard action by a different appoach. In addition using our method we give an explicit formula for equivariant Stiefel-Whitney classes and Pontrjagin classes of open torus manifolds with locally standard action.</summary>
+    <category term="math.AT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-05-06T07:39:51Z</published>
+    <arxiv:primary_category term="math.AT"/>
+    <author>
+      <name>Yueshan Xiong</name>
+    </author>
+    <author>
+      <name>Haozhi Zeng</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2507.23259v2</id>
+    <title>Notes on the cohomology of partial Hessenberg varieties</title>
+    <updated>2025-11-17T07:39:45Z</updated>
+    <link href="https://arxiv.org/abs/2507.23259v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2507.23259v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Hessenberg varieties are a family of subvarieties of full flag varieties. This family contains well-known varieties such as Springer fibers, Peterson varieties, and permutohedral varieties. It was introduced by De Mari-Procesi-Shayman in 1992 and has been actively studied in this decade. In particular, unexpected relations to hyperplane arrangements and the Stanley-Stembridge conjecture in graph theory have been discovered. Hessenberg varieties can be defined in partial flag varieties. In this paper, we study their cohomology by relating them to the cohomology of Hessenberg varieties in the full flag varieties.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-07-31T05:38:06Z</published>
+    <arxiv:comment>20 pages</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <author>
+      <name>Tatsuya Horiguchi</name>
+    </author>
+    <author>
+      <name>Mikiya Masuda</name>
+    </author>
+    <author>
+      <name>Takashi Sato</name>
+    </author>
+    <author>
+      <name>Haozhi Zeng</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1712.09269v2</id>
+    <title>Geometry of regular Hessenberg varieties</title>
+    <updated>2018-02-12T00:40:44Z</updated>
+    <link href="https://arxiv.org/abs/1712.09269v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1712.09269v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Let $\mathfrak{g}$ be a complex semisimple Lie algebra. For a regular element $x$ in $\mathfrak{g}$ and a Hessenberg space $H\subseteq \mathfrak{g}$, we consider a regular Hessenberg variety $X(x,H)$ in the flag variety associated with $\mathfrak{g}$. We take a Hessenberg space so that $X(x,H)$ is irreducible, and show that the higher cohomology groups of the structure sheaf of $X(x,H)$ vanish. We also study the flat family of regular Hessenberg varieties, and prove that the scheme-theoretic fibers over the closed points are reduced. We include applications of these results as well.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-12-26T14:02:02Z</published>
+    <arxiv:comment>26 pages</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <author>
+      <name>Hiraku Abe</name>
+    </author>
+    <author>
+      <name>Naoki Fujita</name>
+    </author>
+    <author>
+      <name>Haozhi Zeng</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2405.16399v2</id>
+    <title>Automorphisms of GKM graphs and regular semisimple Hessenberg varieties</title>
+    <updated>2024-05-30T23:57:29Z</updated>
+    <link href="https://arxiv.org/abs/2405.16399v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2405.16399v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A regular semisimple Hessenberg variety $\mathrm{Hess}(S,h)$ is a smooth subvariety of the full flag variety $\mathrm{Fl}(\mathbb{C}^n)$ associated with a regular semisimple matrix $S$ of order $n$ and a function $h$ from $\{1,2,\dots,n\}$ to itself satisfying a certain condition. We show that when $\mathrm{Hess}(S,h)$ is connected and not the entire space $\mathrm{Fl}(\mathbb{C}^n)$, the reductive part of the identity component $\mathrm{Aut}^0(\mathrm{Hess}(S,h))$ of the automorphism group $\mathrm{Aut}(\mathrm{Hess}(S,h))$ of $\mathrm{Hess}(S,h)$ is an algebraic torus of dimension $n-1$ and $\mathrm{Aut}(\mathrm{Hess}(S,h))/\mathrm{Aut}^0(\mathrm{Hess}(S,h))$ is isomorphic to a subgroup of $\mathfrak{S}_n$ or $\mathfrak{S}_n\rtimes \{\pm 1\}$, where $\mathfrak{S}_n$ is the symmetric group of degree $n$. As a byproduct of our argument, we show that $\mathrm{Aut}(X)/\mathrm{Aut}^0(X)$ is a finite group for any projective GKM manifold $X$.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-05-26T01:39:08Z</published>
+    <arxiv:comment>16 pages, 1 figure</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <author>
+      <name>Donghoon Jang</name>
+    </author>
+    <author>
+      <name>Shintarô Kuroki</name>
+    </author>
+    <author>
+      <name>Mikiya Masuda</name>
+    </author>
+    <author>
+      <name>Takashi Sato</name>
+    </author>
+    <author>
+      <name>Haozhi Zeng</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1409.6855v2</id>
+    <title>Toric origami structures on quasitoric manifolds</title>
+    <updated>2014-12-08T09:56:51Z</updated>
+    <link href="https://arxiv.org/abs/1409.6855v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1409.6855v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We construct quasitoric manifolds of dimension 6 and higher which are not equivariantly homeomorphic to any toric origami manifold. All necessary topological definitions and combinatorial constructions are given and the statement is reformulated in discrete geometrical terms. The problem reduces to existence of planar triangulations with certain coloring and metric properties.</summary>
+    <category term="math.AT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.SG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-09-24T08:28:16Z</published>
+    <arxiv:comment>19 pages, 7 figures</arxiv:comment>
+    <arxiv:primary_category term="math.AT"/>
+    <arxiv:journal_ref>Proc. Steklov Inst. Math., Vol.288(1), 2015, pp.10-28</arxiv:journal_ref>
+    <author>
+      <name>Anton Ayzenberg</name>
+    </author>
+    <author>
+      <name>Mikiya Masuda</name>
+    </author>
+    <author>
+      <name>Seonjeong Park</name>
+    </author>
+    <author>
+      <name>Haozhi Zeng</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2512.06646v1</id>
+    <title>Totally nonnegative Peterson variety and strongly dominant weight polytope</title>
+    <updated>2025-12-07T04:06:02Z</updated>
+    <link href="https://arxiv.org/abs/2512.06646v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2512.06646v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study the totally nonnegative part of the Peterson variety in arbitrary Lie type and establish its connection to the strongly dominant weight polytope. In particular, we prove that the totally nonnegative part of the Peterson variety is a regular CW-complex, which is homeomorphic to a cube as a cell-decomposed space. This confirms a conjecture of Rietsch for all Lie types.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-07T04:06:02Z</published>
+    <arxiv:comment>33 pages</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <author>
+      <name>Hiraku Abe</name>
+    </author>
+    <author>
+      <name>Tao Gui</name>
+    </author>
+    <author>
+      <name>Haozhi Zeng</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2003.12286v1</id>
+    <title>Fano and weak Fano Hessenberg varieties</title>
+    <updated>2020-03-27T09:02:28Z</updated>
+    <link href="https://arxiv.org/abs/2003.12286v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2003.12286v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Regular semisimple Hessenberg varieties are smooth subvarieties of the flag variety, and their examples contain the flag variety itself and the permutohedral variety which is a toric variety. We give a complete classification of Fano and weak Fano regular semisimple Hessenberg varieties in type A in terms of combinatorics of Hessenberg functions. In particular, we show that if the anti-canonical bundle of a regular semisimple Hessenberg variety is nef, then it is in fact nef and big.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-03-27T09:02:28Z</published>
+    <arxiv:comment>42 pages, 14 figures</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <author>
+      <name>Hiraku Abe</name>
+    </author>
+    <author>
+      <name>Naoki Fujita</name>
+    </author>
+    <author>
+      <name>Haozhi Zeng</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1407.0764v3</id>
+    <title>Cohomology of toric origami manifolds with acyclic proper faces</title>
+    <updated>2015-11-07T03:34:28Z</updated>
+    <link href="https://arxiv.org/abs/1407.0764v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1407.0764v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A toric origami manifold is a generalization of a symplectic toric manifold (or a toric symplectic manifold). The origami symplectic form is allowed to degenerate in a good controllable way in contrast to the usual symplectic form. It is widely known that symplectic toric manifolds are encoded by Delzant polytopes, and the cohomology and equivariant cohomology rings of a symplectic toric manifold can be described in terms of the corresponding polytope. Recently, Holm and Pires described the cohomology of a toric origami manifold $M$ in terms of the orbit space $M/T$ when $M$ is orientable and the orbit space $M/T$ is contractible. But in general the orbit space of a toric origami manifold need not be contractible. In this paper we study the topology of orientable toric origami manifolds for the wider class of examples: we require that every proper face of the orbit space is acyclic, while the orbit space itself may be arbitrary. Furthermore, we give a general description of the equivariant cohomology ring of torus manifolds with locally standard torus actions in the case when proper faces of the orbit space are acyclic and the free part of the action is a trivial torus bundle.</summary>
+    <category term="math.AT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.SG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-07-03T02:33:21Z</published>
+    <arxiv:comment>27 pages, 2 figures</arxiv:comment>
+    <arxiv:primary_category term="math.AT"/>
+    <arxiv:journal_ref>Journal of Symplectic Geometry 15 (2017), no. 3, 645-685</arxiv:journal_ref>
+    <author>
+      <name>Anton Ayzenberg</name>
+    </author>
+    <author>
+      <name>Mikiya Masuda</name>
+    </author>
+    <author>
+      <name>Seonjeong Park</name>
+    </author>
+    <author>
+      <name>Haozhi Zeng</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2203.02629v2</id>
+    <title>The integral cohomology rings of Peterson varieties in type A</title>
+    <updated>2023-08-17T01:07:17Z</updated>
+    <link href="https://arxiv.org/abs/2203.02629v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2203.02629v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we study the ring structure of the integral cohomology of the Peterson variety of type $\text{A}_{n-1}$. We give two kinds of descriptions: (1) we show that it is isomorphic to the $\mathfrak{S}_n$-invariant subring of the integral cohomology ring of the permutohedral variety, (2) we determine the ring structure in terms of ring generators and their relations.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-03-05T00:56:23Z</published>
+    <arxiv:comment>32 pages</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <author>
+      <name>Hiraku Abe</name>
+    </author>
+    <author>
+      <name>Haozhi Zeng</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2104.02914v2</id>
+    <title>Geometry of Peterson Schubert calculus in type A and left-right diagrams</title>
+    <updated>2023-04-20T02:59:42Z</updated>
+    <link href="https://arxiv.org/abs/2104.02914v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2104.02914v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce an additive basis of the integral cohomology ring of the Peterson variety which reflects the geometry of certain subvarieties of the Peterson variety. We explain the positivity of the structure constants from a geometric viewpoint, and provide a manifestly positive combinatorial formula for them. We also prove that our basis coincides with the additive basis introduced by Harada-Tymoczko.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-04-07T05:04:26Z</published>
+    <arxiv:comment>32 pages</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <author>
+      <name>Hiraku Abe</name>
+    </author>
+    <author>
+      <name>Tatsuya Horiguchi</name>
+    </author>
+    <author>
+      <name>Hideya Kuwata</name>
+    </author>
+    <author>
+      <name>Haozhi Zeng</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2310.02819v1</id>
+    <title>Totally nonnegative part of the Peterson variety in Lie type A</title>
+    <updated>2023-10-04T13:42:00Z</updated>
+    <link href="https://arxiv.org/abs/2310.02819v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2310.02819v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The Peterson variety (which we denote by $Y$) is a subvariety of the flag variety, introduced by Dale Peterson to describe the quantum cohomology rings of all the partial flag varieties. Motivated by the mirror symmetry for partial flag varieties, Rietsch studied the totally nonnegative part $Y_{\ge0}$ and its cell decomposition. Based on the structure of those cells, Rietsch gave the following conjecture in Lie type A; as a cell decomposed space, $Y_{\ge0}$ is homeomorphic to the cube $[0,1]^{\dim_{\mathbb{C}}Y}$. In this paper, we give a proof of Rietsch's conjecture on $Y_{\ge0}$ in Lie type A by using toric geometry which is closely related to the Peterson variety.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-10-04T13:42:00Z</published>
+    <arxiv:comment>Comments are welcome</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <author>
+      <name>Hiraku Abe</name>
+    </author>
+    <author>
+      <name>Haozhi Zeng</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2310.02818v1</id>
+    <title>Peterson varieties and toric orbifolds associated to Cartan matrices</title>
+    <updated>2023-10-04T13:41:59Z</updated>
+    <link href="https://arxiv.org/abs/2310.02818v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2310.02818v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The Peterson variety is a remarkable variety introduced by Dale Peterson to describe the quantum cohomology rings of all the partial flag varieties. The rational cohomology ring of the Peterson variety is known to be isomorphic to that of a particular toric orbifold which naturally arises from the given root system. In this paper, we show that it is not an accidental algebraic coincidence; we construct an explicit morphism from the Peterson variety to the toric orbifold which induces a ring isomorphism between their rational cohomology rings.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-10-04T13:41:59Z</published>
+    <arxiv:comment>Comments are welcome</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <author>
+      <name>Hiraku Abe</name>
+    </author>
+    <author>
+      <name>Haozhi Zeng</name>
+    </author>
+  </entry>
+</feed>

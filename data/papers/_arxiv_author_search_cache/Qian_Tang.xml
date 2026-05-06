@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/2puoXZjCNi5LX1GxRfgwgl+raxk</id>
+  <title>arXiv Query: search_query=au:"Qian Tang" AND (cat:math.AG OR cat:math.AT OR cat:math.AP OR cat:math.CT OR cat:math.CA OR cat:math.CO OR cat:math.DG OR cat:math.DS OR cat:math.FA OR cat:math.GT OR cat:math.MP OR cat:math.OA OR cat:math.PR OR cat:math.QA OR cat:math.RA OR cat:math.RT OR cat:math.SG OR cat:math.SP OR cat:math.ST OR cat:math.NT OR cat:math.GR OR cat:math.HO OR cat:math-ph OR cat:nlin.SI OR cat:nlin.CD OR cat:hep-th OR cat:q-alg OR cat:dg-ga OR cat:alg-geom OR cat:cond-mat.stat-mech)&amp;id_list=&amp;start=0&amp;max_results=200</title>
+  <updated>2026-05-06T07:30:54Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=au:%22Qian+Tang%22+AND+(cat:math.AG+OR+(cat:math.AT+OR+(cat:math.AP+OR+(cat:math.CT+OR+(cat:math.CA+OR+(cat:math.CO+OR+(cat:math.DG+OR+(cat:math.DS+OR+(cat:math.FA+OR+(cat:math.GT+OR+(cat:math.MP+OR+(cat:math.OA+OR+(cat:math.PR+OR+(cat:math.QA+OR+(cat:math.RA+OR+(cat:math.RT+OR+(cat:math.SG+OR+(cat:math.SP+OR+(cat:math.ST+OR+(cat:math.NT+OR+(cat:math.GR+OR+(cat:math.HO+OR+(cat:math-ph+OR+(cat:nlin.SI+OR+(cat:nlin.CD+OR+(cat:hep-th+OR+(cat:q-alg+OR+(cat:dg-ga+OR+(cat:alg-geom+OR+cat:cond-mat.stat-mech)))))))))))))))))))))))))))))&amp;start=0&amp;max_results=200&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>200</opensearch:itemsPerPage>
+  <opensearch:totalResults>4</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2402.07269v2</id>
+    <title>The Boundary Condition for Some Isomonodromy Equations</title>
+    <updated>2024-03-21T15:55:45Z</updated>
+    <link href="https://arxiv.org/abs/2402.07269v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2402.07269v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this article, we study a special class of Jimbo-Miwa-Mori-Sato isomonodromy equations, which can be seen as a higher-dimensional generalization of Painlevé VI. We first construct its convergent $n\times n$ matrix series solutions satisfying certain boundary condition. We then use the Riemann-Hilbert approach to prove that the resulting solutions are almost all the solutions. Along the way, we find a shrinking phenomenon of the eigenvalues of the submatrices of the generic matrix solutions in the long time behaviour.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-02-11T18:24:25Z</published>
+    <arxiv:comment>46 pages, 1 figures</arxiv:comment>
+    <arxiv:primary_category term="math.CA"/>
+    <author>
+      <name>Qian Tang</name>
+    </author>
+    <author>
+      <name>Xiaomeng Xu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2501.17516v1</id>
+    <title>Stokes Phenomenon and Yangians</title>
+    <updated>2025-01-29T09:40:19Z</updated>
+    <link href="https://arxiv.org/abs/2501.17516v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2501.17516v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we first establish a connection between Yangians and the unique formal solution of the quantum hypergeometric differential equations at irregular singularities. We then realize the Stokes matrices of the hypergeometric equations as infinite matrix products of representations of Yangains, with the help of the theory of difference systems. Along the way, we also investigate the algebroid structure associated with the Stokes matrices.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.QA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-01-29T09:40:19Z</published>
+    <arxiv:comment>24 pages, 3 figures</arxiv:comment>
+    <arxiv:primary_category term="math.CA"/>
+    <author>
+      <name>Qian Tang</name>
+    </author>
+    <author>
+      <name>Xiaomeng Xu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2103.09117v1</id>
+    <title>A Characterization of Umbral Calculus Inspired by Fractional Sums</title>
+    <updated>2021-03-16T15:03:56Z</updated>
+    <link href="https://arxiv.org/abs/2103.09117v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2103.09117v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We will use analytic function theory and Fourier analysis to establish a characterization for some classical umbral calculus, which will focus on the generalization of the evaluation function. Although we cannot cover all the umbral calculus people care about, the part about Bernoulli numbers can still answer an open question about fractional sums raised by Müller and Schleicher in 2005 and synthesize some common analysis results. We will only develop the results which are sufficient to serve the purpose of this article, but at the same time, we will briefly mention some possible extensions.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-03-16T15:03:56Z</published>
+    <arxiv:primary_category term="math.CA"/>
+    <author>
+      <name>Tang Qian</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2407.20010v1</id>
+    <title>Schröder Paths, Their Generalizations and Knot Invariants</title>
+    <updated>2024-07-29T13:43:07Z</updated>
+    <link href="https://arxiv.org/abs/2407.20010v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2407.20010v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study some kinds of generalizations of Schröder paths below a line with rational slope and derive the $q$-difference equations that are satisfied by their generating functions. As a result, we establish a relation between the generating function of generalized Schröder paths with backwards and the wave function corresponding to colored HOMFLY-PT polynomials of torus knot $T_{1,f}$. We also give a combinatorial proof of a recent result by Stošić and Sułkowski, in which the standard generalized Schröder paths are related to the superpolynomial of reduced colored HOMFLY-PT homology of $T_{1,f}$.</summary>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-07-29T13:43:07Z</published>
+    <arxiv:comment>16 pages</arxiv:comment>
+    <arxiv:primary_category term="math.CO"/>
+    <author>
+      <name>Ce Ji</name>
+    </author>
+    <author>
+      <name>Qian Tang</name>
+    </author>
+    <author>
+      <name>Chenglang Yang</name>
+    </author>
+  </entry>
+</feed>

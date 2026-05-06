@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/JsLRT0N3x+sD83W5ysBS+Kkguas</id>
+  <title>arXiv Query: search_query=au:"Haonan Qu" AND (cat:math.AG OR cat:math.AT OR cat:math.AP OR cat:math.CT OR cat:math.CA OR cat:math.CO OR cat:math.DG OR cat:math.DS OR cat:math.FA OR cat:math.GT OR cat:math.MP OR cat:math.OA OR cat:math.PR OR cat:math.QA OR cat:math.RA OR cat:math.RT OR cat:math.SG OR cat:math.SP OR cat:math.ST OR cat:math.NT OR cat:math.GR OR cat:math.HO OR cat:math-ph OR cat:nlin.SI OR cat:nlin.CD OR cat:hep-th OR cat:q-alg OR cat:dg-ga OR cat:alg-geom OR cat:cond-mat.stat-mech)&amp;id_list=&amp;start=0&amp;max_results=200</title>
+  <updated>2026-05-06T07:30:21Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=au:%22Haonan+Qu%22+AND+(cat:math.AG+OR+(cat:math.AT+OR+(cat:math.AP+OR+(cat:math.CT+OR+(cat:math.CA+OR+(cat:math.CO+OR+(cat:math.DG+OR+(cat:math.DS+OR+(cat:math.FA+OR+(cat:math.GT+OR+(cat:math.MP+OR+(cat:math.OA+OR+(cat:math.PR+OR+(cat:math.QA+OR+(cat:math.RA+OR+(cat:math.RT+OR+(cat:math.SG+OR+(cat:math.SP+OR+(cat:math.ST+OR+(cat:math.NT+OR+(cat:math.GR+OR+(cat:math.HO+OR+(cat:math-ph+OR+(cat:nlin.SI+OR+(cat:nlin.CD+OR+(cat:hep-th+OR+(cat:q-alg+OR+(cat:dg-ga+OR+(cat:alg-geom+OR+cat:cond-mat.stat-mech)))))))))))))))))))))))))))))&amp;start=0&amp;max_results=200&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>200</opensearch:itemsPerPage>
+  <opensearch:totalResults>5</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2108.03447v1</id>
+    <title>Tri-Hamiltonian Structure of the Ablowitz-Ladik Hierarchy</title>
+    <updated>2021-08-07T13:18:53Z</updated>
+    <link href="https://arxiv.org/abs/2108.03447v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2108.03447v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We construct a local tri-Hamiltonian structure of the Ablowitz-Ladik hierarchy, and compute the central invariants of the associated bihamiltonian structures. We show that the central invariants of one of the bihamiltonian structures are equal to 1/24, and the dispersionless limit of this bihamiltonian structure coincides with the one that is defined on the jet space of the Frobenius manifold associated with the Gromov-Witten invariants of local CP1. This result provides support for the validity of Brini's conjecture on the relation of these Gromov-Witten invariants with the Ablowitz-Ladik hierarchy.</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nlin.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-08-07T13:18:53Z</published>
+    <arxiv:primary_category term="math-ph"/>
+    <author>
+      <name>Shuangxing Li</name>
+    </author>
+    <author>
+      <name>Si-Qi Liu</name>
+    </author>
+    <author>
+      <name>Haonan Qu</name>
+    </author>
+    <author>
+      <name>Youjin Zhang</name>
+    </author>
+    <arxiv:doi>10.1016/j.physd.2022.133180</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.physd.2022.133180" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2402.00373v2</id>
+    <title>Solutions of the loop equations of a class of generalized Frobenius manifolds</title>
+    <updated>2024-08-21T12:02:40Z</updated>
+    <link href="https://arxiv.org/abs/2402.00373v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2402.00373v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We prove the existence and uniqueness of solution of the loop equation associated with a semisimple generalized Frobenius manifold with non-flat unity, and show, for a particular example of one dimensional generalized Frobenius manifold, that the deformation of the Principal Hierarchy induced by the solution of the loop equation is the extended q-deformed KdV hierarchy.</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nlin.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-02-01T06:24:31Z</published>
+    <arxiv:comment>41 pages</arxiv:comment>
+    <arxiv:primary_category term="math-ph"/>
+    <author>
+      <name>Si-Qi Liu</name>
+    </author>
+    <author>
+      <name>Haonan Qu</name>
+    </author>
+    <author>
+      <name>Yuewei Wang</name>
+    </author>
+    <author>
+      <name>Youjin Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2209.00483v3</id>
+    <title>Generalized Frobenius Manifolds with Non-flat Unity and Integrable Hierarchies</title>
+    <updated>2024-08-21T11:57:16Z</updated>
+    <link href="https://arxiv.org/abs/2209.00483v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2209.00483v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>For any generalized Frobenius manifold with non-flat unity, we construct a bihamiltonian integrable hierarchy of hydrodynamic type which is an analogue of the Principal Hierarchy of a Frobenius manifold. We show that such an integrable hierarchy, which we also call the Principal Hierarchy, possesses Virasoro symmetries and a tau structure, and the Virasoro symmetries can be lifted to symmetries of the tau-cover of the integrable hierarchy. We derive the loop equation from the condition of linearization of actions of the Virasoro symmetries on the tau function, and construct the topological deformation of the Principal Hierarchy of a semisimple generalized Frobenius manifold with non-flat unity. We also give two examples of generalized Frobenius manifolds with non-flat unity and show that they are closely related to the well-known integrable hierarchies: the Volterra hierarchy, the q-deformed KdV hierarchy and the Ablowitz-Ladik hierarchy.</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nlin.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-09-01T14:13:02Z</published>
+    <arxiv:comment>103 pages</arxiv:comment>
+    <arxiv:primary_category term="math-ph"/>
+    <author>
+      <name>Si-Qi Liu</name>
+    </author>
+    <author>
+      <name>Haonan Qu</name>
+    </author>
+    <author>
+      <name>Youjin Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2411.15496v1</id>
+    <title>Legendre transformations of a class of generalized Frobenius manifolds and the associated integrable hierarchies</title>
+    <updated>2024-11-23T09:00:35Z</updated>
+    <link href="https://arxiv.org/abs/2411.15496v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2411.15496v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>For two generalized Frobenius manifolds related by a Legendre-type transformation, we show that the associated integrable hierarchies of hydrodynamic type, which are called the Legendre-extended Principal Hierarchies, are related by a certain linear reciprocal transformation; we also show, under the semisimplicity condition, that the topological deformations of these Legendre-extended Principal Hierarchies are related by the same linear reciprocal transformation.</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nlin.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-11-23T09:00:35Z</published>
+    <arxiv:comment>52 pages</arxiv:comment>
+    <arxiv:primary_category term="math-ph"/>
+    <author>
+      <name>Si-Qi Liu</name>
+    </author>
+    <author>
+      <name>Haonan Qu</name>
+    </author>
+    <author>
+      <name>Youjin Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2510.04151v1</id>
+    <title>Asymmetric rational reductions of 2D-Toda hierarchy and a generalized Frobenius manifold</title>
+    <updated>2025-10-05T11:07:30Z</updated>
+    <link href="https://arxiv.org/abs/2510.04151v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.04151v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study the local bihamiltonian structures of the asymmetric rational reductions of the 2D-Toda hierarchy (RR2T) of types $(2,1)$ and $(1,2)$ at the full-dispersive level, and construct a three-dimensional generalized Frobenius manifold with non-flat unity associated with the $(2,1)$-type. Furthermore, we explicitly relate the $(2,1)$-type RR2T to the bi-graded Toda and constrained KP hierarchies via linear reciprocal and Miura-type transformations.</summary>
+    <category term="nlin.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-05T11:07:30Z</published>
+    <arxiv:comment>36</arxiv:comment>
+    <arxiv:primary_category term="nlin.SI"/>
+    <author>
+      <name>Haonan Qu</name>
+    </author>
+    <author>
+      <name>Qiulan Zhao</name>
+    </author>
+  </entry>
+</feed>

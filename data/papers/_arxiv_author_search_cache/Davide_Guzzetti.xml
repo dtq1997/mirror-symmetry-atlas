@@ -1,0 +1,448 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/CRjQqPe24+npROLML87Ey0wPN6M</id>
+  <title>arXiv Query: search_query=au:"Davide Guzzetti" AND (cat:math.AG OR cat:math.AT OR cat:math.AP OR cat:math.CT OR cat:math.CA OR cat:math.CO OR cat:math.DG OR cat:math.DS OR cat:math.FA OR cat:math.GT OR cat:math.MP OR cat:math.OA OR cat:math.PR OR cat:math.QA OR cat:math.RA OR cat:math.RT OR cat:math.SG OR cat:math.SP OR cat:math.ST OR cat:math.NT OR cat:math.GR OR cat:math.HO OR cat:math-ph OR cat:nlin.SI OR cat:nlin.CD OR cat:hep-th OR cat:q-alg OR cat:dg-ga OR cat:alg-geom OR cat:cond-mat.stat-mech)&amp;id_list=&amp;start=0&amp;max_results=200</title>
+  <updated>2026-05-06T07:28:13Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=au:%22Davide+Guzzetti%22+AND+(cat:math.AG+OR+(cat:math.AT+OR+(cat:math.AP+OR+(cat:math.CT+OR+(cat:math.CA+OR+(cat:math.CO+OR+(cat:math.DG+OR+(cat:math.DS+OR+(cat:math.FA+OR+(cat:math.GT+OR+(cat:math.MP+OR+(cat:math.OA+OR+(cat:math.PR+OR+(cat:math.QA+OR+(cat:math.RA+OR+(cat:math.RT+OR+(cat:math.SG+OR+(cat:math.SP+OR+(cat:math.ST+OR+(cat:math.NT+OR+(cat:math.GR+OR+(cat:math.HO+OR+(cat:math-ph+OR+(cat:nlin.SI+OR+(cat:nlin.CD+OR+(cat:hep-th+OR+(cat:q-alg+OR+(cat:dg-ga+OR+(cat:alg-geom+OR+cat:cond-mat.stat-mech)))))))))))))))))))))))))))))&amp;start=0&amp;max_results=200&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>200</opensearch:itemsPerPage>
+  <opensearch:totalResults>22</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1811.09235v2</id>
+    <title>Helix Structures in Quantum Cohomology of Fano Varieties</title>
+    <updated>2019-05-08T12:43:19Z</updated>
+    <link href="https://arxiv.org/abs/1811.09235v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1811.09235v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper we consider a conjecture formulated by the second author in occasion of the 1998 ICM in Berlin (arXiv:math/9807034v2). This conjecture states the equivalence, for a Fano variety $X$, of the semisimplicity condition for the quantum cohomology $QH^\bullet(X)$ with the existence condition of full exceptional collections in the derived category of coherent sheaves $\mathcal D^b(X)$. Furthermore, in its quantitative formulation, the conjecture also prescribes an explicit relationship between the monodromy data of $QH^\bullet(X)$ and characteristic classes of both $X$ and objects of the exceptional collections. In this paper we reformulate a refinement of (arXiv:math/9807034v2), which corrects a previous ansatz (lecture of the second author at Strasbourg) for what concerns the conjectural expression of the central connection matrix. We clarify the precise relationship between the refined conjecture presented in this paper and $Γ$-conjecture II of S. Galkin, V. Golyshev and H. Iritani (arXiv:1404.6407v4, arXiv:1508.00719v3). Through an explicit computation of the monodromy data and a detailed analysis of the action of the braid group on both the monodromy data and the set of exceptional collections, we prove the validity of our refined conjecture for all complex Grassmannians $\mathbb G(r,k)$. From these results, it is outlined an explicit description of the "geography" of the exceptional collections realizable at points of the small quantum cohomology of Grassmannians, i.e. corresponding to the monodromy data at these points. In particular, it is proved that Kapranov's exceptional collection appears at points of the small quantum cohomology only for Grassmannians of small dimension (namely, less or equal than 2). Finally, a property of quasi-periodicity of the Stokes matrices of complex Grassmannians, along the locus of the small quantum cohomology, is described.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-11-22T16:49:04Z</published>
+    <arxiv:comment>149 pages, 6 figures; corrected typos, added references</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <author>
+      <name>Giordano Cotti</name>
+    </author>
+    <author>
+      <name>Boris Dubrovin</name>
+    </author>
+    <author>
+      <name>Davide Guzzetti</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1712.08575v3</id>
+    <title>Local Moduli of Semisimple Frobenius Coalescent Structures</title>
+    <updated>2020-05-07T09:54:20Z</updated>
+    <link href="https://arxiv.org/abs/1712.08575v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1712.08575v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We extend the analytic theory of Frobenius manifolds to semisimple points with coalescing eigenvalues of the operator of multiplication by the Euler vector field. We clarify which freedoms, ambiguities and mutual constraints are allowed in the definition of monodromy data, in view of their importance for conjectural relationships between Frobenius manifolds and derived categories. Detailed examples and applications are taken from singularity and quantum cohomology theories. We explicitly compute the monodromy data at points of the Maxwell Stratum of the A3-Frobenius manifold, as well as at the small quantum cohomology of the Grassmannian G(2,4). In the latter case, we analyse in details the action of the braid group on the monodromy data. This proves that these data can be expressed in terms of characteristic classes of mutations of Kapranov's exceptional 5-block collection, as conjectured by one of the authors.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-12-22T16:59:17Z</published>
+    <arxiv:comment>105 pages</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <arxiv:journal_ref>SIGMA 16 (2020), 040, 105 pages</arxiv:journal_ref>
+    <author>
+      <name>Giordano Cotti</name>
+    </author>
+    <author>
+      <name>Boris Dubrovin</name>
+    </author>
+    <author>
+      <name>Davide Guzzetti</name>
+    </author>
+    <arxiv:doi>10.3842/SIGMA.2020.040</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.3842/SIGMA.2020.040" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2108.07003v3</id>
+    <title>The sixth Painleve' equation as isomonodromy deformation of an irregular system: monodromy data, coalescing eigenvalues, locally holomorphic transcendents and Frobenius manifolds</title>
+    <updated>2021-11-03T09:20:21Z</updated>
+    <link href="https://arxiv.org/abs/2108.07003v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2108.07003v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We consider a 3-dimensional Pfaffian system, whose z-component is a differential system with irregular singularity at infinity and Fuchsian at zero. In the first part of the paper, we prove that its Frobenius integrability is equivalent to the sixth Painlevé equation PVI. The coefficients of the system will be explicitly written in terms of the solutions of PVI. In this way, we remake a result of [44, 61]. We then express in terms of the Stokes matrices of the 3x3 irregular system the monodromy invariants p_{jk}=Tr(M_jM_k) of the 2-dimensional isomonodromic Fuchsian system with four singularities, traditionally associated to PVI [23, 55] and used to solve the non-linear connection problem. Several years after [44, 61], the authors of [14] showed that the computation of the monodromy data of a class of irregular systems may be facilitated in case of coalescing eigenvalues. This coalescence corresponds to the critical points (fixed singularities) of PVI. In the second part of the paper, we classify the branches of PVI transcendents holomorphic at a critical point such that the analyticity and semisimplicity properties described in [14] are satisfied, and we compute the associated Stokes matrices and the invariants p_{jk}. Finally, we compute the monodromy data parametrizing the chamber of a 3-dim Dubrovin-Frobenius manifold associated with a transcendent holomorphic at x=0.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-08-16T10:25:20Z</published>
+    <arxiv:comment>69 pages, 1 table, 1 figure</arxiv:comment>
+    <arxiv:primary_category term="math.CA"/>
+    <author>
+      <name>Gabriele Degano</name>
+    </author>
+    <author>
+      <name>Davide Guzzetti</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/0108073v2</id>
+    <title>The Elliptic Representation of the General Painlevé 6 Equation</title>
+    <updated>2001-12-07T08:03:51Z</updated>
+    <link href="https://arxiv.org/abs/math/0108073v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/0108073v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We study the analytic properties and the critical behavior of the elliptic representation of solutions of the Painlevé 6 equation. We solve the connection problem for elliptic representation in the generic case and in a non-generic case equivalent to WDVV equations of associativity.</summary>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2001-08-10T01:38:27Z</published>
+    <arxiv:comment>60 pages; Latex; 3 figures. The statements of theorems have been simplified</arxiv:comment>
+    <arxiv:primary_category term="math.CV"/>
+    <arxiv:journal_ref>Communications 0n Pure and Applied mathematics LV, 1280-1363 (2002)</arxiv:journal_ref>
+    <author>
+      <name>Davide Guzzetti</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1104.5066v3</id>
+    <title>Poles Distribution of PVI Transcendents close to a Critical Point (summer 2011)</title>
+    <updated>2012-04-14T10:13:51Z</updated>
+    <link href="https://arxiv.org/abs/1104.5066v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1104.5066v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The distribution of the poles of branches of the Painleve' VI transcendents associated to semi-simple Frobenius manifolds is determined close to a critical point. It is shown that the poles accumulate at the critical point, asymptotically along two rays. The example of the Frobenius manifold given by the quantum cohomology of the two-dimensional complex projective space is also considered.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-04-27T03:30:55Z</published>
+    <arxiv:comment>35 pages, 10 figures; Physica D (2012)</arxiv:comment>
+    <arxiv:primary_category term="math.CA"/>
+    <author>
+      <name>Davide Guzzetti</name>
+    </author>
+    <arxiv:doi>10.1016/j.physd.2012.02.015</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.physd.2012.02.015" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2111.02969v5</id>
+    <title>Isomonodromic deformations along a stratum of the coalescence locus</title>
+    <updated>2022-10-24T10:57:12Z</updated>
+    <link href="https://arxiv.org/abs/2111.02969v5" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2111.02969v5" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We consider deformations of a differential system with Poincare' rank 1 at infinity and Fuchsian singularity at zero along a stratum of a coalescence locus. We give necessary and sufficient conditions for the deformation to be strongly isomonodromic, both as an explicit Pfaffian system (integrable deformation) and as a non linear system of PDEs on the residue matrix A at the Fuchsian singularity. This construction is complementary to that of [13]. For the specific system here considered, the results generalize those of [26], by giving up the generic conditions, and those of [3], by giving up the Lidskii generic assumption. The importance of the case here considered originates form its applications in the study of strata of Dubrovin-Frobenius manifolds and F-manifolds.</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-11-04T16:09:16Z</published>
+    <arxiv:comment>59 pages, 4 figures</arxiv:comment>
+    <arxiv:primary_category term="math-ph"/>
+    <arxiv:journal_ref>J. Phys. A: Math. Theor. (2022)</arxiv:journal_ref>
+    <author>
+      <name>Davide Guzzetti</name>
+    </author>
+    <arxiv:doi>10.1088/1751-8121/ac9ba8</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1751-8121/ac9ba8" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2310.19739v2</id>
+    <title>Asymptotic solutions for linear ODEs with not-necessarily meromorphic coefficients: a Levinson type theorem on complex domains, and applications</title>
+    <updated>2025-03-31T14:54:19Z</updated>
+    <link href="https://arxiv.org/abs/2310.19739v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2310.19739v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we consider systems of linear ordinary differential equations, with analytic coefficients on big sectorial domains, which are asymptotically diagonal for large values of $|z|$. Inspired by N. Levinson's work [Lev48], we introduce two conditions on the dominant diagonal term (the $L$-$condition$) and on the perturbation term (the $good\,\,decay\,\,condition$) of the coefficients of the system, respectively. Under these conditions, we show the existence and uniqueness, on big sectorial domains, of an $asymptotic$ fundamental matrix solution, i.e. asymptotically equivalent (for large $|z|$) to a fundamental system of solutions of the unperturbed diagonal system. Moreover, a refinement (in the case of subdominant solutions) and a generalization (in the case of systems depending on parameters) of this result are given.
+  As a first application, we address the study of a class of ODEs with not-necessarily meromorphic coefficients. We provide sufficient conditions on the coefficients ensuring the existence and uniqueness of an asymptotic fundamental system of solutions, and we give an explicit description of the maximal sectors of validity for such an asymptotics. Furthermore, we also focus on distinguished examples in this class of ODEs arising in the context of open conjectures in Mathematical Physics relating Integrable Quantum Field Theories and affine opers ($ODE/IM\,\,correspondence$). Our results fill two significant gaps in the mathematical literature pertaining to these conjectural relations.
+  As a second application, we consider the classical case of ODEs with meromorphic coefficients. Under an $adequateness$ condition on the coefficients, we show that our results reproduce (with a shorter proof) the main asymptotic existence theorems of Y. Sibuya [Sib62, Sib68] and W. Wasow [Was65] in their optimal refinements.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-10-30T17:04:30Z</published>
+    <arxiv:comment>43 pages, 7 figures</arxiv:comment>
+    <arxiv:primary_category term="math.CA"/>
+    <arxiv:journal_ref>Journal of Differential Equations 428 (2025): 1-58</arxiv:journal_ref>
+    <author>
+      <name>Giordano Cotti</name>
+    </author>
+    <author>
+      <name>Davide Guzzetti</name>
+    </author>
+    <author>
+      <name>Davide Masoero</name>
+    </author>
+    <arxiv:doi>10.1016/j.jde.2025.01.085</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.jde.2025.01.085" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2101.03397v3</id>
+    <title>Isomonodromic Laplace Transform with Coalescing Eigenvalues and Confluence of Fuchsian Singularities</title>
+    <updated>2021-05-31T14:16:26Z</updated>
+    <link href="https://arxiv.org/abs/2101.03397v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2101.03397v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We consider a Pfaffian system expressing isomonodromy of an irregular system of Okubo type, depending on complex deformation parameters u=(u_1,...,u_n), which are eigenvalues of the leading matrix at the irregular singuilarity. At the same time, we consider a Pfaffian system of non-normalized Schlesinger type expressing isomonodromy of a Fuchsian system, whose poles are the deformation parameters u_1,...,u_n. The parameters vary in a polydisc containing a coalescence locus for the eigenvalues of the leading matrix of the irregular system, corresponding to confluence of the Fuchsian singularities. We construct isomonodromic selected and singular vector solutions of the Fuchsian Pfaffian system together with their isomonodromic connection coefficients, so extending a result of references [4] and [20] to the isomonodromic case, including confluence of singularities. Then, we introduce an isomonodromic Laplace transform of the selected and singular vector solutions, allowing to obtain isomonodromic fundamental solutions for the irregular system, and their Stokes matrices expressed in terms of connection coefficients. These facts, in addition to extending [4] and [20] to the isomonodromic case with coalescences/confluences, allow to prove by means of Laplace transform the main result of reference [11], which is the analytic theory of non-generic isomonodromic deformations of the irregular system with coalescing eigenvalues.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-01-09T17:20:33Z</published>
+    <arxiv:comment>57 pages, 4 figures</arxiv:comment>
+    <arxiv:primary_category term="math.CA"/>
+    <arxiv:journal_ref>Letters in Mathematical Physics, 111:80, (2021)</arxiv:journal_ref>
+    <author>
+      <name>Davide Guzzetti</name>
+    </author>
+    <arxiv:doi>10.1007/s11005-021-01423-z</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s11005-021-01423-z" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1804.05688v5</id>
+    <title>Notes on Non-Generic Isomonodromy Deformations</title>
+    <updated>2018-08-26T15:13:54Z</updated>
+    <link href="https://arxiv.org/abs/1804.05688v5" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1804.05688v5" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Some of the main results of [Cotti G., Dubrovin B., Guzzetti D., Duke Math. J., to appear, arXiv:1706.04808], concerning non-generic isomonodromy deformations of a certain linear differential system with irregular singularity and coalescing eigenvalues, are reviewed from the point of view of Pfaffian systems, making a distinction between weak and strong isomonodromic deformations. Such distinction has a counterpart in the case of Fuchsian systems, which is well known as Schlesinger and non-Schlesinger deformations, reviewed in Appendix A.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-04-16T14:02:59Z</published>
+    <arxiv:comment>34 pages</arxiv:comment>
+    <arxiv:primary_category term="math.CA"/>
+    <arxiv:journal_ref>SIGMA 14 (2018), 087, 34 pages</arxiv:journal_ref>
+    <author>
+      <name>Davide Guzzetti</name>
+    </author>
+    <arxiv:doi>10.3842/SIGMA.2018.087</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.3842/SIGMA.2018.087" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1010.1895v3</id>
+    <title>Solving the Sixth Painleve' Equation: Towards the Classification of all the Critical Behaviours and the Connection Formulae (October 2010)</title>
+    <updated>2011-01-24T07:58:32Z</updated>
+    <link href="https://arxiv.org/abs/1010.1895v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1010.1895v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The critical behavior of a three real parameter class of solutions of the sixth Painlevé equation is computed, and parametrized in terms of monodromy data of the associated $2\times 2$ matrix linear Fuchsian system of ODE. The class may contain solutions with poles accumulating at the critical point. The study of this class closes a gap in the description of the transcendents in one to one correspondence with the monodromy data. These transcendents are reviewed in the paper. Some formulas that relate the monodromy data to the critical behaviors of the four real (two complex) parameter class of solutions are missing in the literature, so they are computed here. A computational procedure to write the full expansion of the four and three real parameter class of solutions is proposed.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-10-10T05:34:31Z</published>
+    <arxiv:comment>53 pages, 2 figures</arxiv:comment>
+    <arxiv:primary_category term="math.CA"/>
+    <arxiv:journal_ref>International Mathematical Research Notices 2012 Vol. 2012, No. 6, pp. 1352-1413</arxiv:journal_ref>
+    <author>
+      <name>Davide Guzzetti</name>
+    </author>
+    <arxiv:doi>10.1093/imrn/rnr071</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1093/imrn/rnr071" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1010.1952v1</id>
+    <title>Matching Procedure for the Sixth Painlevé Equation (May 2006)</title>
+    <updated>2010-10-07T04:28:06Z</updated>
+    <link href="https://arxiv.org/abs/1010.1952v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1010.1952v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present a constructive procedure to obtain the critical behavior of Painleve' VI transcendents and solve the connection problem. This procedure yields two and one parameter families of solutions, including trigonometric and logarithmic behaviors, and three classes of solutions with Taylor expansion at a critical point.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-10-07T04:28:06Z</published>
+    <arxiv:comment>57 pages</arxiv:comment>
+    <arxiv:primary_category term="math.CA"/>
+    <arxiv:journal_ref>J. Phys A: Math.Gen. 39 (2006) 11973-12031</arxiv:journal_ref>
+    <author>
+      <name>Davide Guzzetti</name>
+    </author>
+    <arxiv:doi>10.1088/0305-4470/39/39/S02</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/0305-4470/39/39/S02" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1108.3401v3</id>
+    <title>Tabulation of PVI Transcendents and Parametrization Formulas (August 17, 2011)</title>
+    <updated>2012-10-01T08:35:23Z</updated>
+    <link href="https://arxiv.org/abs/1108.3401v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1108.3401v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The critical and asymptotic behaviors of solutions of the sixth Painlevé equation PVI, obtained in the framework of the monodromy preserving deformation method, and their explicit parametrization in terms of monodromy data, are tabulated.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-08-17T06:12:56Z</published>
+    <arxiv:comment>30 pages, 1 figure; Nonlinearity 2012</arxiv:comment>
+    <arxiv:primary_category term="math.CA"/>
+    <arxiv:journal_ref>Nonlinearity 2012</arxiv:journal_ref>
+    <author>
+      <name>Davide Guzzetti</name>
+    </author>
+    <arxiv:doi>10.1088/0951-7715/25/12/3235</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/0951-7715/25/12/3235" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math-ph/0301011v1</id>
+    <title>The Singularity of Kontsevich's Solution for $QH^{*}(CP^2)$</title>
+    <updated>2003-01-10T04:42:09Z</updated>
+    <link href="https://arxiv.org/abs/math-ph/0301011v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math-ph/0301011v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We study the singularity of the Kontsevich's solution of the WDVV equations of associativity. We prove that it corresponds to a singularity in the change of two coordinates systems of the Frobenius manifold given by the quantum cohomology of $CP^2$.</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2003-01-10T04:42:09Z</published>
+    <arxiv:comment>12 pages</arxiv:comment>
+    <arxiv:primary_category term="math-ph"/>
+    <author>
+      <name>Davide Guzzetti</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1010.1330v1</id>
+    <title>On the Critical Behavior, the Connection problem and the Elliptic representation of a Painleve VI equation (Spring 2001)</title>
+    <updated>2010-10-07T04:26:47Z</updated>
+    <link href="https://arxiv.org/abs/1010.1330v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1010.1330v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We find a class of solutions of the sixth Painleve' equation appearing in the theory of WDVV equations. This class covers almost all the monodromy data associated to the equation, except one point in the space of the data. We find the critical behavior close to the critical points in terms of two parameters and solve the connection problem.
+  We also study the critical behavior of Painleve' transcendents in the Elliptic representation.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-10-07T04:26:47Z</published>
+    <arxiv:comment>15 figures, 67 pages</arxiv:comment>
+    <arxiv:primary_category term="math.CA"/>
+    <arxiv:journal_ref>J.Math.Phys.Anal.Geom. 4 (2001) 293-377</arxiv:journal_ref>
+    <author>
+      <name>Davide Guzzetti</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1106.2636v2</id>
+    <title>Solving PVI by Isomonodromy Deformations</title>
+    <updated>2011-07-27T08:38:12Z</updated>
+    <link href="https://arxiv.org/abs/1106.2636v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1106.2636v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The critical and asymptotic behaviors of solutions of the sixth Painlevé equation, an their parametrization in terms of monodromy data, are synthetically reviewed. The explicit formulas are given.
+This paper has been withdrawn by the author himself, because some improvements are necessary.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-06-14T08:33:59Z</published>
+    <arxiv:comment>12 pages, 1 figurethis paper has been</arxiv:comment>
+    <arxiv:primary_category term="math.CA"/>
+    <arxiv:journal_ref>De Gruyter Proceedings in Mathematics 2012, ISBN 978-3-11-027567-4</arxiv:journal_ref>
+    <author>
+      <name>Davide Guzzetti</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1706.04808v1</id>
+    <title>Isomonodromy Deformations at an Irregular Singularity with Coalescing Eigenvalues</title>
+    <updated>2017-06-15T10:28:40Z</updated>
+    <link href="https://arxiv.org/abs/1706.04808v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1706.04808v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We consider an $n\times n$ linear system of ODEs with an irregular singularity of Poincaré rank 1 at $z=\infty$, holomorphically depending on parameter $t$ within a polydisc in $\mathbb{C}^n$ centred at $t=0$. The eigenvalues of the leading matrix at $z=\infty$ coalesce along a locus $Δ$ contained in the polydisc, passing through $t=0$. Namely, $z=\infty$ is a resonant irregular singularity for $t\in Δ$. We analyse the case when the leading matrix remains diagonalisable at $Δ$. We discuss the existence of fundamental matrix solutions, their asymptotics, Stokes phenomenon and monodromy data as $t$ varies in the polydisc, and their limits for $t$ tending to points of $Δ$. When the deformation is isomonodromic away from $Δ$, it is well known that a fundamental matrix solution has singularities at $Δ$. When the system also has a Fuchsian singularity at $z=0$, we show under minimal vanishing conditions on the residue matrix at $z=0$ that isomonodromic deformations can be extended to the whole polydisc, including $Δ$, in such a way that the fundamental matrix solutions and the constant monodromy data are well defined in the whole polydisc. These data can be computed just by considering the system at fixed $t=0$. Conversely, if the $t$-dependent system is isomonodromic in a small domain contained in the polydisc not intersecting $Δ$, if the entries of the Stokes matrices with indices corresponding to coalescing eigenvalues vanish, then we show that $Δ$ is not a branching locus for the fundamental matrix solutions. The importance of these results for the analytic theory of Frobenius Manifolds is explained. An application to Painlevé equations is discussed.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-06-15T10:28:40Z</published>
+    <arxiv:comment>84 pages, 41 figures</arxiv:comment>
+    <arxiv:primary_category term="math.CA"/>
+    <arxiv:journal_ref>Duke Math. J. 168, no. 6 (2019), 967-1108</arxiv:journal_ref>
+    <author>
+      <name>Giordano Cotti</name>
+    </author>
+    <author>
+      <name>Boris Dubrovin</name>
+    </author>
+    <author>
+      <name>Davide Guzzetti</name>
+    </author>
+    <arxiv:doi>10.1215/00127094-2018-0059</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1215/00127094-2018-0059" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0801.1157v4</id>
+    <title>On the Logarithmic Asymptotics of the Sixth Painleve' Equation (Summer 2007)</title>
+    <updated>2011-02-22T05:46:10Z</updated>
+    <link href="https://arxiv.org/abs/0801.1157v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0801.1157v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study the solutions of the sixth Painlevé equation with a logarithmic asymptotic behavior at a critical point. We compute the monodromy group associated to the solutions by the method of monodromy preserving deformations and we characterize the asymptotic behavior in terms of the monodromy itself.</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.GN" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2008-01-08T05:05:30Z</published>
+    <arxiv:comment>LaTeX with 8 figures</arxiv:comment>
+    <arxiv:primary_category term="math-ph"/>
+    <arxiv:journal_ref>J.Phys.A: Math.Theor. 41,(2008), 205201-205247</arxiv:journal_ref>
+    <author>
+      <name>Davide Guzzetti</name>
+    </author>
+    <arxiv:doi>10.1088/1751-8113/41/20/205201</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1751-8113/41/20/205201" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1407.1206v2</id>
+    <title>On Stokes Matrices in terms of Connection Coefficients</title>
+    <updated>2014-07-31T15:48:16Z</updated>
+    <link href="https://arxiv.org/abs/1407.1206v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1407.1206v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The classical problem of computing a complete system of Stokes multipliers of a linear system of ODEs of rank one in terms of some connection coefficients of an associated hypergeometric system of ODEs, is solved with no genericness assumptions on the residue matrix at zero, by an extension of the method of [3].</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-07-04T12:38:43Z</published>
+    <arxiv:comment>53 pages, 10 figures</arxiv:comment>
+    <arxiv:primary_category term="math.CA"/>
+    <author>
+      <name>Davide Guzzetti</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1210.0311v2</id>
+    <title>A Review on The Sixth Painleve' Equation</title>
+    <updated>2015-12-05T10:33:27Z</updated>
+    <link href="https://arxiv.org/abs/1210.0311v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1210.0311v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>For the Painlevé 6 transcendents, we provide a unitary description of the critical behaviours, the connection formulae, their complete tabulation, and the asymptotic distribution of the poles close to a critical point.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-10-01T08:52:52Z</published>
+    <arxiv:comment>31 pages, 10 figures</arxiv:comment>
+    <arxiv:primary_category term="math.CA"/>
+    <arxiv:journal_ref>Constructive Approximations Vol. 41 (2015), 495-527</arxiv:journal_ref>
+    <author>
+      <name>Davide Guzzetti</name>
+    </author>
+    <arxiv:doi>10.1007/s00365-014-9250-6</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s00365-014-9250-6" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1101.4705v1</id>
+    <title>An Asymptotic Reduction of a Painleve' VI equation to a Painleve' III (January 2011)</title>
+    <updated>2011-01-25T02:52:07Z</updated>
+    <link href="https://arxiv.org/abs/1101.4705v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1101.4705v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>When the independent variable is close to a critical point, it is shown that PVI can be asymptotically reduced to PIII. In this way, it is possible to compute the leading term of the critical behaviors of PVI transcendents starting from the behaviors of PIII transcendents.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-01-25T02:52:07Z</published>
+    <arxiv:comment>11 pages</arxiv:comment>
+    <arxiv:primary_category term="math.CA"/>
+    <arxiv:journal_ref>J.Phys.A: Math.Theor. 44 (2011) 215203</arxiv:journal_ref>
+    <author>
+      <name>Davide Guzzetti</name>
+    </author>
+    <arxiv:doi>10.1088/1751-8113/44/21/215203</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1751-8113/44/21/215203" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2505.03028v1</id>
+    <title>On the spin-orbit problem for highly elliptical orbits and recursive excitation</title>
+    <updated>2025-05-05T21:10:20Z</updated>
+    <link href="https://arxiv.org/abs/2505.03028v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2505.03028v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Examining the spin-orbit coupling effects for highly elliptical orbits is relevant to the mission design and operation of cislunar space assets, such as the Lunar Gateway. In high-eccentricity orbits, the gravity-gradient moment is here modelled as an instantaneous excitation at each periapsis passage. By approximating the gravity-gradient moment through Dirac pulses, we derive a recursive discrete map describing the rotational state of the satellite at the periapsis passage. Thanks to the recursive map, we are able to find the initial attitude corresponding to an unbounded growth of angular velocity, and to identify initial conditions whose evolution is such that the pulses have the same sign (in-phase condition) or the alternate sign (counterphase condition) at successive periapsis passages. In the recursive map, we perform the numerical analysis up to ten periapsis passages. In order to justify the introduction of the discrete map, we compare the results of the discrete map with those found in the spin-orbit problem. Because of numerical errors due to the high eccentricity, we restrict the investigation up to three periapsis passages in the spin-orbit problem. Moreover, we apply the Fast Lyapunov Indicators method to draw the phase portrait and detect the initial conditions fulfilling the counterphase condition.</summary>
+    <category term="astro-ph.EP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-05-05T21:10:20Z</published>
+    <arxiv:primary_category term="astro-ph.EP"/>
+    <author>
+      <name>Erica Scantamburlo</name>
+    </author>
+    <author>
+      <name>Davide Guzzetti</name>
+    </author>
+    <author>
+      <name>Marcello Romano</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/9904099v1</id>
+    <title>Stokes Matrices and Monodromy of the Quantum Cohomology of Projective Spaces</title>
+    <updated>1999-04-20T00:08:51Z</updated>
+    <link href="https://arxiv.org/abs/math/9904099v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/9904099v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We compute Stokes matrices and monodromy for the quantum cohomology of projective spaces. We prove that the Stokes' matrix of the quantum cohomology coincides with the Gram matrix in the theory of derived categories of coherent sheaves.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1999-04-20T00:08:51Z</published>
+    <arxiv:comment>50 pages, 6 Postscript figures</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <author>
+      <name>D. Guzzetti</name>
+    </author>
+    <arxiv:doi>10.1007/s002200050729</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s002200050729" title="doi"/>
+  </entry>
+</feed>

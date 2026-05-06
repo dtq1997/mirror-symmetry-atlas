@@ -1,0 +1,1104 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/2jKtZBvVAexMcHo1p5D7NECvbaE</id>
+  <title>arXiv Query: search_query=au:"Claude Sabbah" AND (cat:math.AG OR cat:math.AT OR cat:math.AP OR cat:math.CT OR cat:math.CA OR cat:math.CO OR cat:math.DG OR cat:math.DS OR cat:math.FA OR cat:math.GT OR cat:math.MP OR cat:math.OA OR cat:math.PR OR cat:math.QA OR cat:math.RA OR cat:math.RT OR cat:math.SG OR cat:math.SP OR cat:math.ST OR cat:math.NT OR cat:math.GR OR cat:math.HO OR cat:math-ph OR cat:nlin.SI OR cat:nlin.CD OR cat:hep-th OR cat:q-alg OR cat:dg-ga OR cat:alg-geom OR cat:cond-mat.stat-mech)&amp;id_list=&amp;start=0&amp;max_results=200</title>
+  <updated>2026-05-06T07:30:38Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=au:%22Claude+Sabbah%22+AND+(cat:math.AG+OR+(cat:math.AT+OR+(cat:math.AP+OR+(cat:math.CT+OR+(cat:math.CA+OR+(cat:math.CO+OR+(cat:math.DG+OR+(cat:math.DS+OR+(cat:math.FA+OR+(cat:math.GT+OR+(cat:math.MP+OR+(cat:math.OA+OR+(cat:math.PR+OR+(cat:math.QA+OR+(cat:math.RA+OR+(cat:math.RT+OR+(cat:math.SG+OR+(cat:math.SP+OR+(cat:math.ST+OR+(cat:math.NT+OR+(cat:math.GR+OR+(cat:math.HO+OR+(cat:math-ph+OR+(cat:nlin.SI+OR+(cat:nlin.CD+OR+(cat:hep-th+OR+(cat:q-alg+OR+(cat:dg-ga+OR+(cat:alg-geom+OR+cat:cond-mat.stat-mech)))))))))))))))))))))))))))))&amp;start=0&amp;max_results=200&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>200</opensearch:itemsPerPage>
+  <opensearch:totalResults>56</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/math/0408294v2</id>
+    <title>Fourier-Laplace transform of irreducible regular differential systems on the Riemann sphere</title>
+    <updated>2007-05-24T12:35:57Z</updated>
+    <link href="https://arxiv.org/abs/math/0408294v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/0408294v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We show that the Fourier-Laplace transform of an irreducible regular differential system on the Riemann sphere underlies, when one only considers the part at finite distance, a polarizable regular twistor $\mathcal{D}$-module. The associated holomorphic bundle out of the origin is therefore equipped with a natural harmonic metric with a tame behaviour near the origin.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2004-08-22T09:29:32Z</published>
+    <arxiv:comment>13+11 pages, AMSlatex. Original version followed by an Erratum added may 2007 after publication</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <arxiv:journal_ref>Russian Math. Surveys 59 (2004), no. 6, 1165--1180 &amp; Mosc. Math. J. 9 (2009), no. 4, 885--898</arxiv:journal_ref>
+    <author>
+      <name>Claude Sabbah</name>
+    </author>
+    <arxiv:doi>10.1070/RM2004v059n06ABEH000800</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1070/RM2004v059n06ABEH000800" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/0211352v2</id>
+    <title>Gauss-Manin systems, Brieskorn lattices and Frobenius structures (I)</title>
+    <updated>2003-04-08T07:47:08Z</updated>
+    <link href="https://arxiv.org/abs/math/0211352v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/0211352v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We associate to any convenient nondegenerate Laurent polynomial on the complex torus (C^*)^n a canonical Frobenius-Saito structure on the base space of its universal unfolding. According to the method of K. Saito (primitive forms) and of M. Saito (good basis of the Gauss-Manin system), the main problem, which is solved in this article, is the analysis of the Gauss-Manin system of the Laurent polynomial (or its universal unfolding) and of the corresponding Hodge theory.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2002-11-22T10:53:10Z</published>
+    <arxiv:comment>52 pages, 2 figures, LaTeX + smf classes available at http://smf.emath.fr/Publications/Formats/index.html typos corrected, remarks added at the end of the introduction, in sect. 3, and a new appendix added. to appear in Ann. Institut Fourier (Grenoble)</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <arxiv:journal_ref>Proceedings of the International Conference in Honor of Frédéric Pham (Nice, 2002). Ann. Inst. Fourier (Grenoble) 53 (2003), no. 4, 1055--1116</arxiv:journal_ref>
+    <author>
+      <name>Antoine Douai</name>
+    </author>
+    <author>
+      <name>Claude Sabbah</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/0211353v2</id>
+    <title>Gauss-Manin systems, Brieskorn lattices and Frobenius structures (II)</title>
+    <updated>2003-04-08T11:45:04Z</updated>
+    <link href="https://arxiv.org/abs/math/0211353v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/0211353v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We give an explicit description of the canonical Frobenius structure attached (by the results of the first part of this article) to the polynomial f(u_0,...,u_n)=w_0u_0+...+w_nu_n restricted to the torus u_0^{w_0}...u_n^{w_n}=1, for any family of positive integers w_0,...,w_n such that gcd(w_0,...,w_n)=1.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2002-11-22T11:06:20Z</published>
+    <arxiv:comment>22 pages, 3 figures, LaTeX + smf classes available at http://smf.emath.fr/Publications/Formats/index.html Typos corrected</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <arxiv:journal_ref>in Frobenius manifolds (Quantum cohomology and singularities), Hertling, C. and Marcolli, M. eds, Aspects of Mathematics, vol. E36, Vieweg, 2004, p. 1-18</arxiv:journal_ref>
+    <author>
+      <name>Antoine Douai</name>
+    </author>
+    <author>
+      <name>Claude Sabbah</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1705.07610v3</id>
+    <title>Topological computation of some Stokes phenomena on the affine line</title>
+    <updated>2020-03-12T16:17:10Z</updated>
+    <link href="https://arxiv.org/abs/1705.07610v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1705.07610v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Let $\mathcal M$ be a holonomic algebraic $\mathcal D$-module on the affine line, regular everywhere including at infinity. Malgrange gave a complete description of the Fourier-Laplace transform $\widehat{\mathcal M}$, including its Stokes multipliers at infinity, in terms of the quiver of $\mathcal M$. Let $F$ be the perverse sheaf of holomorphic solutions to $\mathcal M$. By the irregular Riemann-Hilbert correspondence, $\widehat{\mathcal M}$ is determined by the enhanced Fourier-Sato transform $F^\curlywedge$ of $F$. Our aim here is to recover Malgrange's result in a purely topological way, by computing $F^\curlywedge$ using Borel-Moore cycles. In this paper, we also consider some irregular $\mathcal M$'s, like in the case of the Airy equation, where our cycles are related to steepest descent paths.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-05-22T08:41:43Z</published>
+    <arxiv:comment>50 pages, to appear at Annales de l'Institut Fourier, v3: some minor (editorial) corrections</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <arxiv:journal_ref>Annales de l'institut Fourier (Grenoble) 70 (2020) no. 2, p. 739-808</arxiv:journal_ref>
+    <author>
+      <name>Andrea D'Agnolo</name>
+    </author>
+    <author>
+      <name>Marco Hien</name>
+    </author>
+    <author>
+      <name>Giovanni Morando</name>
+    </author>
+    <author>
+      <name>Claude Sabbah</name>
+    </author>
+    <arxiv:doi>10.5802/aif.3323</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.5802/aif.3323" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2103.16878v3</id>
+    <title>A short proof of a theorem of Cotti, Dubrovin and Guzzetti</title>
+    <updated>2022-05-31T10:23:28Z</updated>
+    <link href="https://arxiv.org/abs/2103.16878v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2103.16878v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We give a short proof of a theorem of G. Cotti, B. Dubrovin and D. Guzzetti (arXiv:1706.04808 and arXiv:2101.03397) asserting the vanishing of some entries of the Stokes matrices at coalescing points of an isomonodromic deformation.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-03-31T07:59:23Z</published>
+    <arxiv:comment>11 pages, 1 figure. V2: 14 pages; Introduction expanded, Lemma 3.3 added. V3: Few typos corrected, final version to appear in Portugaliae Mathematica</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <arxiv:journal_ref>Portugaliae Mathematica 79 (2022), no. 1, p. 29-43</arxiv:journal_ref>
+    <author>
+      <name>Claude Sabbah</name>
+    </author>
+    <arxiv:doi>10.4171/PM/2077</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.4171/PM/2077" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1201.4531v1</id>
+    <title>Wild Hodge theory and Hitchin-Kobayashi correspondence [after T. Mochizuki]</title>
+    <updated>2012-01-22T06:37:27Z</updated>
+    <link href="https://arxiv.org/abs/1201.4531v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1201.4531v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>T. Mochizuki constructs a theory of variations of wild Hodge structure for which the underlying flat connection can have irregular singularities at infinity. He extends in this way the correspondence of Corlette and Simpson between irreducible flat bundles and stables Higgs bundles, taking into account objects with irregular singularities. As an application, he proves a conjecture of Kashiwara concerning a generalization of the Hard Lefschetz theorem when the coefficients are the de Rham complex of a simple holonomic D-module on smooth complex projective variety.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-01-22T06:37:27Z</published>
+    <arxiv:comment>35 pages. Bourbaki talk, Jan. 21, 2012. In French</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <arxiv:journal_ref>Astérisque vol. 352, Soc. Math. France, Paris, 2013, p. 201-243</arxiv:journal_ref>
+    <author>
+      <name>Claude Sabbah</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2006.02702v2</id>
+    <title>Quadratic relations between Bessel moments</title>
+    <updated>2021-06-22T16:39:53Z</updated>
+    <link href="https://arxiv.org/abs/2006.02702v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2006.02702v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Motivated by the computation of certain Feynman amplitudes, Broadhurst and Roberts recently conjectured and checked numerically to high precision a set of remarkable quadratic relations between the Bessel moments \[ \int_0^\infty I_0(t)^i K_0(t)^{k-i}t^{2j-1}\,\mathrm{d}t \qquad (i, j=1, \ldots, \lfloor (k-1)/2\rfloor), \] where $k \geq 1$ is a fixed integer and $I_0$ and $K_0$ denote the modified Bessel functions. In this paper, we interpret these integrals and variants thereof as coefficients of the period pairing between middle de Rham cohomology and twisted homology of symmetric powers of the Kloosterman connection. Building on the general framework developed in arXiv:2005.11525, this enables us to prove quadratic relations of the form suggested by Broadhurst and Roberts, which conjecturally comprise all algebraic relations between these numbers. We also make Deligne's conjecture explicit, thus explaining many evaluations of critical values of $L$-functions of symmetric power moments of Kloosterman sums in terms of determinants of Bessel moments.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-06-04T08:42:23Z</published>
+    <arxiv:comment>40 pages, 1 figure, 1 table. V2: Comparison of periods now takes place in the setting of exponential mixed Hodge structures. Add an appendix by the second author for necessary tools. Change format. 61 pages, 1 figure, 1 table</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <arxiv:journal_ref>Alg. Number Th. 17 (2023) 541-602</arxiv:journal_ref>
+    <author>
+      <name>Javier Fresán</name>
+    </author>
+    <author>
+      <name>Claude Sabbah</name>
+    </author>
+    <author>
+      <name>Jeng-Daw Yu</name>
+    </author>
+    <arxiv:doi>10.2140/ant.2023.17.541</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.2140/ant.2023.17.541" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1209.4185v4</id>
+    <title>Hodge theory of the middle convolution</title>
+    <updated>2017-05-05T19:19:05Z</updated>
+    <link href="https://arxiv.org/abs/1209.4185v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1209.4185v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We compute the behaviour of Hodge data by tensor product with a unitary rank-one local system and middle convolution by a Kummer unitary rank-one local system for an irreducible variation of polarized complex Hodge structure on a punctured complex affine line. We give applications of these formulas to local systems with G_2-monodromy.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-09-19T08:50:01Z</published>
+    <arxiv:comment>34 pages. Changes in v2 only consist of appropriate references to previous results of Green-Griffiths-Kerr and to a preprint of Kerr-Pearlstein. Revised version v3, 36 pages. A restricted version of v3, without considerations of irregular singularities, published in Publ. RIMS, Kyoto Univ. V4: correction post publication in the statement of Theorem 3.2.3</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <arxiv:journal_ref>Publ. RIMS Kyoto Univ. 49 (2013), no. 4, 761-800, Erratum: Publ. RIMS Kyoto Univ. 54 (2018) no. 2, 427-431</arxiv:journal_ref>
+    <author>
+      <name>Michael Dettweiler</name>
+    </author>
+    <author>
+      <name>Claude Sabbah</name>
+    </author>
+    <arxiv:doi>10.4171/PRIMS/119</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.4171/PRIMS/119" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2112.13405v2</id>
+    <title>Hodge properties of Airy moments</title>
+    <updated>2023-06-06T13:07:01Z</updated>
+    <link href="https://arxiv.org/abs/2112.13405v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2112.13405v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We consider the complex analogues of symmetric power moments of cubic exponential sums. These are symmetric powers of the classical Airy differential equation. We show that their de Rham cohomologies underlie an arithmetic Hodge structure in the sense of Anderson and we compute their Hodge numbers by means of the irregular Hodge filtration, which is indexed by rational numbers, on their realizations as exponential mixed Hodge structures. The main result is that all Hodge numbers are either zero or one.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-12-26T15:50:56Z</published>
+    <arxiv:comment>47 pages. V2: final published version, 48 pages</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <arxiv:journal_ref>Tunisian J. Math. 5 (2023) 215-271</arxiv:journal_ref>
+    <author>
+      <name>Claude Sabbah</name>
+    </author>
+    <author>
+      <name>Jeng-Daw Yu</name>
+    </author>
+    <arxiv:doi>10.2140/tunis.2023.5.215</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.2140/tunis.2023.5.215" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1810.06454v5</id>
+    <title>Hodge theory of Kloosterman connections</title>
+    <updated>2022-06-13T08:05:58Z</updated>
+    <link href="https://arxiv.org/abs/1810.06454v5" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1810.06454v5" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We construct motives over the rational numbers associated with symmetric power moments of Kloosterman sums, and prove that their L-functions extend meromorphically to the complex plane and satisfy a functional equation conjectured by Broadhurst and Roberts. Although the motives in question turn out to be "classical", we compute their Hodge numbers by means of the irregular Hodge filtration on their realizations as exponential mixed Hodge structures. We show that all Hodge numbers are either zero or one, which implies potential automorphy thanks to recent results of Patrikis and Taylor.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-10-15T15:18:40Z</published>
+    <arxiv:comment>v2: Results and exposition improved. v3: Substantial revision after referee reports. The main construction now takes place in the setting of exponential mixed Hodge structures. We partially reorganized the material and removed one of the appendices. Some statements have been strengthened, several proofs simplified, and a few mistakes corrected. v5: Final published version</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <arxiv:journal_ref>Duke Math. J. 171 (2022), no. 8, 1649-1747</arxiv:journal_ref>
+    <author>
+      <name>Javier Fresán</name>
+    </author>
+    <author>
+      <name>Claude Sabbah</name>
+    </author>
+    <author>
+      <name>Jeng-Daw Yu</name>
+    </author>
+    <arxiv:doi>10.1215/00127094-2021-0036</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1215/00127094-2021-0036" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1105.1542v1</id>
+    <title>Flat meromorphic connections of Frobenius manifolds with tt*-structure</title>
+    <updated>2011-05-08T18:43:39Z</updated>
+    <link href="https://arxiv.org/abs/1105.1542v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1105.1542v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The base space of a semi-universal unfolding of a hypersurface singularity carries a rich geometric structure, which was axiomatized as a CDV-structure by C. Hertling. For any CDV-structure on a Frobenius manifold M, the pull-back of the (1,0)-tangent bundle of M to the product of M by the complex line carries two natural holomorphic structures equipped with flat meromorphic connections. We show that, for any semi-simple CDV-structure, there is a formal isomorphism between these two bundles compatible with connections. Moreover, if we assume that the super-symmetric index Q vanishes, we give a necessary and sufficient condition for such a formal isomorphism to be convergent, and we make it explicit for dim M = 2.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-05-08T18:43:39Z</published>
+    <arxiv:primary_category term="math.DG"/>
+    <arxiv:journal_ref>Journal of Geometry and Physics 62 (2012), pp. 37-46</arxiv:journal_ref>
+    <author>
+      <name>Jiezhu Lin</name>
+    </author>
+    <author>
+      <name>Claude Sabbah</name>
+    </author>
+    <arxiv:doi>10.1016/j.geomphys.2011.09.006</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.geomphys.2011.09.006" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1405.5310v2</id>
+    <title>The local Laplace transform of an elementary irregular meromorphic connection</title>
+    <updated>2015-03-04T17:27:36Z</updated>
+    <link href="https://arxiv.org/abs/1405.5310v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1405.5310v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We give a definition of the topological local Laplace transformation for a Stokes-filtered local system on the complex affine line and we compute in a topological way the Stokes data of the Laplace transform of a differential system of elementary type.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-05-21T06:51:52Z</published>
+    <arxiv:comment>56 pages, 21 figures. V2: Final version to appear in Rend. Sem. Mat. Univ. Padova</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <arxiv:journal_ref>Rend. Sem. Mat. Univ. Padova 134 (2015), p. 133-196</arxiv:journal_ref>
+    <author>
+      <name>Marco Hien</name>
+    </author>
+    <author>
+      <name>Claude Sabbah</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1204.1331v1</id>
+    <title>On the de Rham complex of mixed twistor D-modules</title>
+    <updated>2012-04-05T19:51:02Z</updated>
+    <link href="https://arxiv.org/abs/1204.1331v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1204.1331v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Given a complex manifold S, we introduce for each complex manifold X a t-structure on the bounded derived category of C-constructible complexes of O_S-modules on X x S. We prove that the de Rham complex of a holonomic D_{XxS/S}-module which is O_S-flat as well as its dual object is perverse relatively to this t-structure. This result applies to mixed twistor D-modules.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-04-05T19:51:02Z</published>
+    <arxiv:comment>18 pages</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <arxiv:journal_ref>International Mathematics Research Notices, rns197, 24 pages, 2012</arxiv:journal_ref>
+    <author>
+      <name>Teresa Monteiro Fernandes</name>
+    </author>
+    <author>
+      <name>Claude Sabbah</name>
+    </author>
+    <arxiv:doi>10.1093/imrn/rns197</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1093/imrn/rns197" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0912.2762v5</id>
+    <title>Introduction to Stokes structures</title>
+    <updated>2012-04-03T12:37:24Z</updated>
+    <link href="https://arxiv.org/abs/0912.2762v5" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0912.2762v5" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The purpose of these lectures is to introduce the notion of a Stokes-perverse sheaf as a receptacle for the Riemann-Hilbert correspondence for holonomic D-modules. They develop the original idea of P. Deligne in dimension one, and make it enter the frame of perverse sheaves. They also give a first step for a general definition in higher dimension, and make explicit particular cases of the Riemann-Hilbert correspondence, relying on recent results of T. Mochizuki.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2009-12-14T22:10:29Z</published>
+    <arxiv:comment>Expanded Lecture notes of lectures given in Lisboa, jan. 2009. V2: 175 pages, 5 figures. Some corrections and improvements and new Lecture 6 added. V3: 191 pages, Lecture 14 added. V4: 202 pages, Duality properties added in Lectures 5 &amp; 7. V5: revised and corrected version: 242 pages</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <arxiv:journal_ref>Lecture Notes in mathematics vol. 2060, Springer Verlag, 2012. (Numbering 1.a, 1.b, etc. on the arXiv version changed to 1.1, 1.2, etc. in the published version)</arxiv:journal_ref>
+    <author>
+      <name>Claude Sabbah</name>
+    </author>
+    <arxiv:doi>10.1007/978-3-642-31695-1</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/978-3-642-31695-1" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1812.00755v3</id>
+    <title>Irregular Hodge numbers of confluent hypergeometric differential equations</title>
+    <updated>2019-06-04T22:39:45Z</updated>
+    <link href="https://arxiv.org/abs/1812.00755v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1812.00755v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We give a formula computing the irregular Hodge numbers for a confluent hypergeometric differential equation.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-12-03T14:26:19Z</published>
+    <arxiv:comment>9 pages. V2: typos corrected</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <arxiv:journal_ref>Ãpijournal de GÃ©omÃ©trie AlgÃ©brique, Volume 3 (June 6, 2019) epiga:5032</arxiv:journal_ref>
+    <author>
+      <name>Claude Sabbah</name>
+    </author>
+    <author>
+      <name>Jeng-Daw Yu</name>
+    </author>
+    <arxiv:doi>10.46298/epiga.2019.volume3.5032</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.46298/epiga.2019.volume3.5032" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/9805077v1</id>
+    <title>Hypergeometric periods for a tame polynomial</title>
+    <updated>1998-05-18T15:09:21Z</updated>
+    <link href="https://arxiv.org/abs/math/9805077v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/9805077v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We analyse the Gauss-Manin system of differential equations---and its Fourier transform---attached to regular functions satisfying a tameness assupmption on a smooth affine variety over C (e.g. tame polynomials on C^{n+1}). We give a solution to the Birkhoff problem and prove Hodge-type results analogous to those existing for germs of isolated hypersurface singularities.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1998-05-18T15:09:21Z</published>
+    <arxiv:comment>AMS-LaTeX with amsart.sty. Uses XY-pic package. 43 pages</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <arxiv:journal_ref>C. R. Acad. Sci. Paris Ser. I Math. t.328 (1999) 603-608 &amp; Port. Math. (N.S.) 63 (2006), no. 2, 173--226</arxiv:journal_ref>
+    <author>
+      <name>Claude Sabbah</name>
+    </author>
+    <arxiv:doi>10.1016/S0764-4442(99)80254-7</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/S0764-4442(99)80254-7" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1711.08514v4</id>
+    <title>Integrable deformations and degenerations of some irregular singularities</title>
+    <updated>2021-04-22T08:20:33Z</updated>
+    <link href="https://arxiv.org/abs/1711.08514v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1711.08514v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Inspired by an article of Cotti, Dubrovin and Guzzetti arXiv:1706.04808, we extend to a degenerate case a result of Malgrange on integrable deformations of irregular singularities. We give an application to integrable deformations of the solution of some Birkhoff problem and apply it to the construction of Frobenius manifolds.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-11-22T21:52:02Z</published>
+    <arxiv:comment>V2: 27 pages, 1 figure, some errors corrected, presentation improved due to a recent result of J.-B. Teyssier arXiv:1802.00289. V3: 35 pages. Revised version to appear in Publ. RIMS, Kyoto University. Introduction improved with modivations added. Improvements of the presentation of some of th results. Previous Section 4.b deleted as being not necessary. V4: final version to be published</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <arxiv:journal_ref>Publ. RIMS Kyoto Univ. 57 (2021), no. 3-4, p. 755-794</arxiv:journal_ref>
+    <author>
+      <name>Claude Sabbah</name>
+    </author>
+    <arxiv:doi>10.4171/PRIMS/57-3-2</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.4171/PRIMS/57-3-2" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0803.0287v2</id>
+    <title>Wild twistor D-modules</title>
+    <updated>2008-08-27T16:27:43Z</updated>
+    <link href="https://arxiv.org/abs/0803.0287v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0803.0287v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We propose a definition of (polarized) wild twistor D-modules, generalizing to objects with irregular singularities that of (polarized) regular twistor D-modules. We give a precise analysis in dimension one.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2008-03-03T17:03:27Z</published>
+    <arxiv:comment>49 pages, revised version</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <arxiv:journal_ref>Algebraic analysis and around, Adv. Stud. Pure Math., vol. 54, Math. Soc. Japan, Tokyo, 2009, p. 293--353</arxiv:journal_ref>
+    <author>
+      <name>Claude Sabbah</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1609.01744v3</id>
+    <title>A remark on the irregularity complex</title>
+    <updated>2017-10-09T11:33:52Z</updated>
+    <link href="https://arxiv.org/abs/1609.01744v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1609.01744v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We prove that, for a good meromorphic flat bundle with poles along a divisor with normal crossings, the restriction of the irregularity complex to each natural stratum of this divisor only depends on the formal flat bundle along this stratum. This answers a question raised by J.-B. Teyssier. This version takes into account the published erratum.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-09-06T20:28:19Z</published>
+    <arxiv:comment>14 pages. V2: 17 pages, revised version, Section 2 added, new proof of Prop. 1.1, various improvements. V3 takes into account the published erratum</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <arxiv:journal_ref>J. Singul. 16 (2017), p. 100-114, Erratum: Ibid., p. 194</arxiv:journal_ref>
+    <author>
+      <name>Claude Sabbah</name>
+    </author>
+    <arxiv:doi>10.5427/jsing.2017.16d</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.5427/jsing.2017.16d" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2206.08166v1</id>
+    <title>Degenerating complex variations of Hodge structure in dimension one</title>
+    <updated>2022-06-16T13:34:53Z</updated>
+    <link href="https://arxiv.org/abs/2206.08166v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2206.08166v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We analyze the behavior of polarized complex variations of Hodge structure on the punctured unit disk. For integral variations of Hodge structure, this analysis was first carried out by Wilfried Schmid. We get rid of the assumption that the eigenvalues of the monodromy transformation are roots of unity. In this generality, we give new (and, we think, more conceptual) proofs for all the major results in Schmid's paper, such as the estimates for the rate of growth of the Hodge norm; the existence of a limiting mixed Hodge structure; the nilpotent orbit theorem; and a simplified (but still sufficiently powerful) version of the SL(2)-orbit theorem.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-06-16T13:34:53Z</published>
+    <arxiv:comment>118 pages. Comments or suggestions are welcome</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <author>
+      <name>Claude Sabbah</name>
+    </author>
+    <author>
+      <name>Christian Schnell</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2212.07745v3</id>
+    <title>Duality for Landau-Ginzburg models</title>
+    <updated>2026-04-15T12:21:36Z</updated>
+    <link href="https://arxiv.org/abs/2212.07745v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2212.07745v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This article surveys various duality statements attached to a pair consisting of a smooth complex quasi-projective variety and a regular function on it. It is dedicated to the memory of Bumsig Kim.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-12-15T11:52:58Z</published>
+    <arxiv:comment>23 pages. V2: Proof of Proposition 5.2 corrected (thanks to the referee) and details are given for Lemma 5.6; other small improvements, and typos corrected. V3: No change from V2, content identical to that of the published version. Only the layout has changed in order to be similar to that of the published version</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <author>
+      <name>Claude Sabbah</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1003.5589v1</id>
+    <title>Une remarque sur l'article "Un théorème à la "Thom-Sebastiani" pour les intégrales-fibres" de D. Barlet</title>
+    <updated>2010-03-29T16:10:14Z</updated>
+    <link href="https://arxiv.org/abs/1003.5589v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1003.5589v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Dans cette note, nous donnons une autre démonstration du résultat démontré par D. Barlet dans http://aif.cedram.org/aif-bin/fitem?id=AIF_2010__60_1_319_0 (arXiv:0809.4981), en nous appuyant sur la transformation de Mellin et des propriétés classiques des fonctions de Bessel (au lieu de la convolution). Le théoréme principal de cette note est un peu plus précis que l'énoncé donné dans loc. cit. [English: In this article, we give another proof of the result shown by D. Barlet in http://aif.cedram.org/aif-bin/fitem?id=AIF_2010__60_1_319_0 (arXiv:0809.4981), relying on the Mellin transform and on classical properties of Bessel functions (instead of convolution). The main theorem of this note is somewhat more precise than the statement given in loc. cit.]</summary>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-03-29T16:10:14Z</published>
+    <arxiv:comment>12 pages, French. The reference article of D. Barlet is available at http://aif.cedram.org/aif-bin/fitem?id=AIF_2010__60_1_319_0 (http://arxiv.org/abs/0809.4981)</arxiv:comment>
+    <arxiv:primary_category term="math.CV"/>
+    <author>
+      <name>Claude Sabbah</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1812.06278v3</id>
+    <title>Good lattices of algebraic connections</title>
+    <updated>2019-03-31T07:52:15Z</updated>
+    <link href="https://arxiv.org/abs/1812.06278v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1812.06278v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We construct a logarithmic model of connections on smooth quasi-projective $n$-dimensional geometrically irreducible varieties defined over an algebraically closed field of characteristic $0$. It consists of a good compactification of the variety together with $(n+1)$ lattices on it which are stabilized by log differential operators, and compute algebraically de Rham cohomology. The construction is derived from the existence of good Deligne-Malgrange lattices, a theorem of Kedlaya and Mochizuki which consists first in eliminating the turning points. Moreover, we show that a logarithmic model obtained in this way, called a good model, yields a formula predicted by Michael Groechenig, computing the class of the characteristic variety of the underlying D-module in the $K$-theory group of the variety.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-12-15T12:28:01Z</published>
+    <arxiv:comment>24 pages. V2 25 pages, revised version. V3: final version to appear in Documenta Mathematica</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <arxiv:journal_ref>Doc. Math. 24, 271-301 (2019)</arxiv:journal_ref>
+    <author>
+      <name>Hélène Esnault</name>
+    </author>
+    <author>
+      <name>Claude Sabbah</name>
+    </author>
+    <arxiv:doi>10.25537/dm.2019v24.271-301</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.25537/dm.2019v24.271-301" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1906.09725v4</id>
+    <title>Relative regular Riemann-Hilbert correspondence</title>
+    <updated>2021-08-06T14:48:37Z</updated>
+    <link href="https://arxiv.org/abs/1906.09725v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1906.09725v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>On the product of a complex manifold $X$ by a complex curve $S$ considered as a parameter space, we show a Riemann-Hilbert correspondence between regular holonomic relative $\mathcal D$-modules (resp. complexes) on the one hand and relative perverse complexes (resp. $S$-$\mathbb{C}$-constructible complexes) on the other hand.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-06-24T05:00:35Z</published>
+    <arxiv:comment>22 pages. This article improves and supersedes arXiv:1811.07151. V2: 28 pages, various corrections, new Th.2, improvement of the presentation. V3: final version to appear in the Proceedings of the London Mathematical Society. V4 Version post-publication, corrects an error in the proof of Prop.3.3 of the published version, Sections 3.2-3.4 modified</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <arxiv:journal_ref>Proceedings of the London Mathematical Society 122 (2021), no. 3, p. 434-457, Erratum: Ibid, 123 (2021), no. 6, p. 649-654</arxiv:journal_ref>
+    <author>
+      <name>Luisa Fiorot</name>
+    </author>
+    <author>
+      <name>Teresa Monteiro Fernandes</name>
+    </author>
+    <author>
+      <name>Claude Sabbah</name>
+    </author>
+    <arxiv:doi>10.1112/plms.12362</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1112/plms.12362" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1609.04192v2</id>
+    <title>Riemann-Hilbert correspondence for mixed twistor D-Modules</title>
+    <updated>2017-03-04T09:10:16Z</updated>
+    <link href="https://arxiv.org/abs/1609.04192v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1609.04192v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce the notion of regularity for a relative holonomic $\mathcal D$-module in the sense of arXiv:1204.1331. We prove that the solution functor from the bounded derived category of regular relative holonomic modules to that of relative constructible complexes is essentially surjective by constructing a right quasi-inverse functor. When restricted to relative $\mathcal D$-modules underlying a regular mixed twistor $\mathcal D$-module, this functor satisfies the left quasi-inverse property.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-09-14T09:41:20Z</published>
+    <arxiv:comment>36 pages. V2: 40 pages, statement of Theorem 5 corrected, a correction in the proof of Lemma 3.15, presentation improved with more introductory material</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <arxiv:journal_ref>J. Inst. Math. Jussieu (2019) 18(3), 629-672</arxiv:journal_ref>
+    <author>
+      <name>Teresa Monteiro Fernandes</name>
+    </author>
+    <author>
+      <name>Claude Sabbah</name>
+    </author>
+    <arxiv:doi>10.1017/S1474748017000184</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1017/S1474748017000184" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0802.1259v3</id>
+    <title>Universal unfoldings of Laurent polynomials and tt* structures</title>
+    <updated>2008-04-25T13:25:46Z</updated>
+    <link href="https://arxiv.org/abs/0802.1259v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0802.1259v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  This article surveys the relations between harmonic Higgs bundles and Saito structures which lead to tt* geometry on Frobenius manifolds. We give the main lines of the proof of the existence of a canonical tt* structure on the base space of the universal unfolding of convenient and nondegenerate Laurent polynomials.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2008-02-09T12:38:45Z</published>
+    <arxiv:comment>28 pages, submitted to the proceedings of the conference 'From tQFT to tt* and integrability', Augsburg 2007. Revised version</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <arxiv:journal_ref>in From Hodge theory to integrability and TQFT tt*-geometry, Proc. Sympos. Pure Math., vol. 78, Amer. Math. Soc., Providence, RI, 2008, p. 1-29</arxiv:journal_ref>
+    <author>
+      <name>Claude Sabbah</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1704.05102v3</id>
+    <title>Relative Riemann-Hilbert correspondence in dimension one</title>
+    <updated>2017-09-13T19:55:59Z</updated>
+    <link href="https://arxiv.org/abs/1704.05102v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1704.05102v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We prove that, on a Riemann surface, the functor $\mathrm{RH}^S$ constructed in a previous work as a right quasi-inverse of the solution functor from the bounded derived category of regular relative holonomic modules to that of relative constructible complexes satisfies the left quasi-inverse property in a generic sense.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-04-17T19:28:09Z</published>
+    <arxiv:comment>10 pages. V2: revised version, some mistake corrected, improvement of the presentation. V3: final version to be published</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <arxiv:journal_ref>Portugal. Math. (N.S.) 74 (2017), no. 2, p. 149-159</arxiv:journal_ref>
+    <author>
+      <name>Teresa Monteiro Fernandes</name>
+    </author>
+    <author>
+      <name>Claude Sabbah</name>
+    </author>
+    <arxiv:doi>10.4171/PM/1997</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.4171/PM/1997" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1107.5890v1</id>
+    <title>Non-commutative Hodge structures</title>
+    <updated>2011-07-29T07:50:06Z</updated>
+    <link href="https://arxiv.org/abs/1107.5890v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1107.5890v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This article gives a survey of recent results on a generalization of the notion of a Hodge structure. The main example is related to the Fourier-Laplace transform of a variation of polarizable Hodge structure on the punctured affine line, like the Gauss-Manin systems of a proper or tame algebraic function on a smooth quasi-projective variety. Variations of non-commutative Hodge structures often occur on the tangent bundle of Frobenius manifolds, giving rise to a tt* geometry.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-07-29T07:50:06Z</published>
+    <arxiv:comment>32 pages</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <arxiv:journal_ref>Annales de l'Institut Fourier (Grenoble), 61 (2011), no. 7, p. 2681-2717</arxiv:journal_ref>
+    <author>
+      <name>Claude Sabbah</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1302.4537v4</id>
+    <title>E_1-degeneration of the irregular Hodge filtration (with an appendix by Morihiko Saito)</title>
+    <updated>2014-10-09T20:46:10Z</updated>
+    <link href="https://arxiv.org/abs/1302.4537v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1302.4537v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>For a regular function f on a smooth complex quasi-projective variety, J.-D. Yu introduced in arXiv:1203.2338 a filtration (the irregular Hodge filtration) on the de Rham complex with twisted differential d+df, extending a definition of Deligne in the case of curves. In this article, we show the degeneration at E_1 of the spectral sequence attached to the irregular Hodge filtration, by using the method of arXiv:0804.4328. We also make explicit the relation with a complex introduced by M. Kontsevich and give details on its proof of the corresponding E_1 degeneration, by reduction to characteristic p, when the pole divisor of the function is reduced with normal crossings. In Appendix E, M. Saito gives a different proof of the latter statement with a possibly non reduced normal crossing pole divisor.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-02-19T08:08:42Z</published>
+    <arxiv:comment>v2:54 pages. Some corrections. v3: 49 pages. Some improvements and simplifications. v4: revised version, few typos corrected</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <arxiv:journal_ref>J. reine angew. Math. 729 (2017), p. 171-227</arxiv:journal_ref>
+    <author>
+      <name>Hélène Esnault</name>
+    </author>
+    <author>
+      <name>Claude Sabbah</name>
+    </author>
+    <author>
+      <name>Jeng-Daw Yu</name>
+    </author>
+    <arxiv:doi>10.1515/crelle-2014-0118</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1515/crelle-2014-0118" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2311.01874v3</id>
+    <title>Singularities of functions: a global point of view</title>
+    <updated>2024-10-27T11:14:33Z</updated>
+    <link href="https://arxiv.org/abs/2311.01874v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2311.01874v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This text surveys cohomological properties of pairs $(U,f)$ consisting of a smooth complex quasi-projective variety $U$ together with a regular function on~it. On the one hand, one tries to mimic the case of a germ of holomorphic function in its Milnor ball and, on the other hand, one takes advantage of the algebraicity of~$U$ and $f$ to apply technique of algebraic geometry, in particular Hodge theory. The monodromy properties are expressed by means of tools provided by the theory of linear differential equations, by mimicking the Stokes phenomenon. In the case of tame functions on smooth affine varieties, which is an algebraic analogue of that of a holomorphic function with an isolated critical point, the theory simplifies much and the formulation of the results are nicer. Examples of such tame functions are exhibited.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-11-03T12:30:08Z</published>
+    <arxiv:comment>59 pages, 3 figures. To appear as a chapter in the book series "Handbook of Geometry and Topology of Singularities". V2: A few typos corrected and a reference added. V3: Final version, 66 pages</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <arxiv:journal_ref>Chapter 6 of Handbook of Geometry and Topology of Singularities VII, 2025</arxiv:journal_ref>
+    <author>
+      <name>Claude Sabbah</name>
+    </author>
+    <arxiv:doi>10.1007/978-3-031-68711-2_6</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/978-3-031-68711-2_6" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2005.11525v4</id>
+    <title>Quadratic relations between periods of connections</title>
+    <updated>2023-06-01T08:48:13Z</updated>
+    <link href="https://arxiv.org/abs/2005.11525v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2005.11525v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We prove the existence of quadratic relations between periods of meromorphic flat bundles on complex manifolds with poles along a divisor with normal crossings under the assumption of "goodness". In dimension one, for which goodness is always satisfied, we provide methods to compute the various pairings involved. In an appendix, we give details on the classical results needed for the proofs. V3: Revised version, various proofs simplified in Section 3, exposition improved.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-05-23T12:45:15Z</published>
+    <arxiv:comment>46 pages, 2 figures. V2: A reference updated. V3: 47 pages, 1 figure. V4: final published version</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <arxiv:journal_ref>Tohoku Math. J. 75 (2023), 175-213</arxiv:journal_ref>
+    <author>
+      <name>Javier Fresán</name>
+    </author>
+    <author>
+      <name>Claude Sabbah</name>
+    </author>
+    <author>
+      <name>Jeng-Daw Yu</name>
+    </author>
+    <arxiv:doi>10.2748/tmj.20211209</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.2748/tmj.20211209" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1311.4132v2</id>
+    <title>Differential systems of pure Gaussian type</title>
+    <updated>2015-03-03T12:35:27Z</updated>
+    <link href="https://arxiv.org/abs/1311.4132v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1311.4132v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We give the transformation rule for the Stokes data of the Laplace transform of a differential system of pure Gaussian type.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-11-17T09:02:01Z</published>
+    <arxiv:comment>31 pages. V2: final version to appear in Izv. Math</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <arxiv:journal_ref>Izvestiya: Mathematics 80 (2016) no. 1, 189-220</arxiv:journal_ref>
+    <author>
+      <name>Claude Sabbah</name>
+    </author>
+    <arxiv:doi>10.1070/IM8308</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1070/IM8308" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1511.00176v5</id>
+    <title>Irregular Hodge theory</title>
+    <updated>2018-06-20T21:19:03Z</updated>
+    <link href="https://arxiv.org/abs/1511.00176v5" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1511.00176v5" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce a category of possibly irregular holonomic D-modules which can be endowed in a canonical way with an irregular Hodge filtration. Mixed Hodge modules with their Hodge filtration naturally belong to this category, as well as their twist by $\exp\varphi$ for any meromorphic function $\varphi$. This category is stable by various standard functors, which produce many more filtered objects. The irregular Hodge filtration satisfies the $E_1$-degeneration property by a projective morphism. This generalizes some results proved by Esnault-Sabbah-Yu arxiv:1302.4537 and Sabbah-Yu arxiv:1406.1339. We also show that those rigid irreducible holonomic D-modules on the complex projective line whose local formal monodromies have eigenvalues of absolute value one, are equipped with such an irregular Hodge filtration in a canonical way, up to a shift of the filtration. In a chapter written jointly with Jeng-Daw~Yu, we make explicit the case of irregular mixed Hodge structures, for which we prove in particular a Thom-Sebastiani formula.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-10-31T21:24:49Z</published>
+    <arxiv:comment>V3: 69 pages. An error in Section 7.b corrected and Section 7.b rewritten. Appendix B added. Various improvements. V4: 126 pages, Major revision: (1) title changed; (2) A simplification suggested by T. Mochizuki; (3) Chapter 3 added, written in collaboration with Jeng-Daw Yu; (4) various other improvements; V5: Final version to be published in Mem. SMF vol. 156</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <arxiv:journal_ref>Mem. Soc. Math. France, vol. 156, 2018</arxiv:journal_ref>
+    <author>
+      <name>Claude Sabbah</name>
+    </author>
+    <arxiv:doi>10.24033/msmf.464</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.24033/msmf.464" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/0611474v1</id>
+    <title>Asymptotic expansion of holonomic distributions of one complex variable</title>
+    <updated>2006-11-15T17:25:47Z</updated>
+    <link href="https://arxiv.org/abs/math/0611474v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/0611474v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We give the general form for a germ of holonomic distribution of one complex variable.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2006-11-15T17:25:47Z</published>
+    <arxiv:comment>10 pages, French</arxiv:comment>
+    <arxiv:primary_category term="math.CA"/>
+    <author>
+      <name>Claude Sabbah</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2407.10010v3</id>
+    <title>Hodge-Lyubeznik numbers</title>
+    <updated>2025-06-22T09:27:55Z</updated>
+    <link href="https://arxiv.org/abs/2407.10010v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2407.10010v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We define a Hodge-theoretical refinement of the Lyubeznik numbers for local rings of complex algebraic varieties. We prove that these numbers are independent of the choices made in their definition and that, for the local ring of an isolated singularity, they can be expressed in terms of the Hodge numbers of the cohomology of the link of the singularity. We give examples of isolated singularities with the same Lyubeznik numbers but different Hodge-Lyubeznik numbers.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-07-13T21:29:57Z</published>
+    <arxiv:comment>V2: Final version, a few signs and typos corrected, Example 1 on p. 7 and Remark (a) on p. 8 added. V3: Post-publication version correcting a missing Tate twist, thanks to Bradley Dirks. A corrigendum will be published in Comptes Rendus</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <arxiv:journal_ref>Comptes Rendus. Mathématique, Volume 363 (2025), pp. 213-221</arxiv:journal_ref>
+    <author>
+      <name>Ricardo Garcia Lopez</name>
+    </author>
+    <author>
+      <name>Claude Sabbah</name>
+    </author>
+    <arxiv:doi>10.5802/crmath.724</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.5802/crmath.724" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2401.00968v1</id>
+    <title>Kodaira-Saito vanishing for the irregular Hodge filtration</title>
+    <updated>2024-01-01T22:45:04Z</updated>
+    <link href="https://arxiv.org/abs/2401.00968v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2401.00968v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>After making correct, and then improving, our definition of the category of irregular mixed Hodge modules thanks to Mochizuki's recent results arXiv:2108.03843, we show how these results allow us to obtain Kodaira-Saito-type vanishing theorems for the irregular Hodge filtration of irregular mixed Hodge modules.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-01-01T22:45:04Z</published>
+    <arxiv:comment>27 pages</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <author>
+      <name>Claude Sabbah</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2203.05444v6</id>
+    <title>Relative Regular Riemann-Hilbert correspondence II</title>
+    <updated>2024-02-12T14:06:40Z</updated>
+    <link href="https://arxiv.org/abs/2203.05444v6" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2203.05444v6" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We develop the theory of relative regular holonomic D-modules with a smooth complex manifold S of arbitrary dimension as parameter space, together with their main functorial properties. In particular, we establish in this general setting the relative Riemann-Hilbert correspondence proved in a previous work in the one-dimensional case.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-03-10T16:09:26Z</published>
+    <arxiv:comment>V2: 58 pages, revised version following referee's comments; the arXiv version contains a last section with details. V3: Statement of Propositions 5.4(1) and A.3 corrected. V4: 61 pages Statement and proof of Proposition 5.4 corrected after a referee's remark; details of proofs added in the appendix. V5: 54 pages Final published version in the Compositio style. V6: = V5 plus details of proofs of V4</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <arxiv:journal_ref>Compositio Math. 159 (2023) no. 7, 1413-1465</arxiv:journal_ref>
+    <author>
+      <name>Luisa Fiorot</name>
+    </author>
+    <author>
+      <name>Teresa Monteiro Fernandes</name>
+    </author>
+    <author>
+      <name>Claude Sabbah</name>
+    </author>
+    <arxiv:doi>10.1112/S0010437X23007224</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1112/S0010437X23007224" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1012.3818v3</id>
+    <title>On a twisted de Rham complex, II</title>
+    <updated>2012-01-29T08:58:52Z</updated>
+    <link href="https://arxiv.org/abs/1012.3818v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1012.3818v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We prove an algebraic formula, conjectured by M. Kontsevich, for computing the monodromy of the vanishing cycles of a regular function on a smooth complex algebraic variety.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-12-17T07:06:05Z</published>
+    <arxiv:comment>v2: 23 pages; some inaccuracies and a gap corrected thanks to M. Saito; new Section 2. v3: 28 pages; other errors corrected</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <author>
+      <name>Claude Sabbah</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/9905039v1</id>
+    <title>Harmonic metrics and connections with irregular singularities</title>
+    <updated>1999-05-06T14:38:48Z</updated>
+    <link href="https://arxiv.org/abs/math/9905039v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/9905039v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We identify the holomorphic de Rham complex of the minimal extension of a meromorphic vector bundle with connexion on a compact Riemann surface X with the L^2 complex relative to a suitable metric on the bundle and a complete metric on the punctured Riemann surface. Applying results of C. Simpson, we show the existence of a harmonic metric on this vector bundle, giving the same L^2 complex. As a consequence, we obtain a Hard Lefschetz-type theorem.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1999-05-06T14:38:48Z</published>
+    <arxiv:comment>AMS-LaTeX with XyPic macro package. 20 pages. To appear in Ann. Institut Fourier (Grenoble) vol. 49 (1999)</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <arxiv:journal_ref>Ann. Institut Fourier (Grenoble) 49 (1999), p. 1265-1291</arxiv:journal_ref>
+    <author>
+      <name>Claude Sabbah</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/9805086v1</id>
+    <title>Semicontinuity of the spectrum at infinity</title>
+    <updated>1998-05-20T08:06:33Z</updated>
+    <link href="https://arxiv.org/abs/math/9805086v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/9805086v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We prove that, for an analytic family of ``weakly tame'' regular functions on an affine manifold, the spectrum at infinity of each function of the family is semicontinuous in the sense of Varchenko.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1998-05-20T08:06:33Z</published>
+    <arxiv:comment>AMS-LaTeX with amsart.sty. 10 pages</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <arxiv:journal_ref>Abh. Math. Sem. Univ. Hamburg 69 (1999), p. 25-35</arxiv:journal_ref>
+    <author>
+      <name>Andras Nemethi</name>
+    </author>
+    <author>
+      <name>Claude Sabbah</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/9805087v1</id>
+    <title>On a twisted de Rham complex</title>
+    <updated>1998-05-20T08:12:40Z</updated>
+    <link href="https://arxiv.org/abs/math/9805087v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/9805087v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We show that, given a projective regular function f on a smooth quasi-projective variety over C, the corresponding cohomology groups of the algebraic de Rham complex with twisted differential d-df and of the complex of algebraic forms with differential df have the same dimension (a result announced by Barannikov and Kontsevitch). We generalize the result to de Rham complexes with coefficients in a mixed Hodge Module.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1998-05-20T08:12:40Z</published>
+    <arxiv:comment>AMS-LaTeX with amsart.sty. 15 pages</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <arxiv:journal_ref>Tohoku Math. J. 51 (1999) 125-140</arxiv:journal_ref>
+    <author>
+      <name>Claude Sabbah</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0706.3570v2</id>
+    <title>An explicit stationary phase formula for the local formal Fourier-Laplace transform</title>
+    <updated>2008-01-10T15:14:05Z</updated>
+    <link href="https://arxiv.org/abs/0706.3570v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0706.3570v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We give an explicit formula (i.e., a formal stationary phase formula) for the local Fourier-Laplace transform of a formal germ of meromorphic connection of one complex variable with a possibly irregular singularity. This is a complex analogue of the formulas in the preprint math/0702436v1.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2007-06-25T06:56:08Z</published>
+    <arxiv:comment>22 pages, LaTeX file. Revised version to be published in the Proceedings of the School and Workshop on the Geometry and Topology of Singularities (L^e Fest). Few typos corrected and few remarks added</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <arxiv:journal_ref>in Singularities I, Contemp. Math., vol. 474, Amer. Math. Soc., Providence, RI, 2008, p. 309-330</arxiv:journal_ref>
+    <author>
+      <name>Claude Sabbah</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0912.2754v2</id>
+    <title>Examples of non-commutative Hodge structures</title>
+    <updated>2010-03-26T13:25:49Z</updated>
+    <link href="https://arxiv.org/abs/0912.2754v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0912.2754v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We show that if the Stokes matrix of a connection with a pole of order two and no ramification gives rise, when added to its adjoint, to a positive semi-definite Hermitian form, then the associated integrable twistor structure (or TERP structure, or non-commutative Hodge structure) is pure and polarized.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2009-12-14T21:24:30Z</published>
+    <arxiv:comment>38 pages. Changes in v2: title changed, some corrections and improvements</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <arxiv:journal_ref>Journal of the Inst. of Math. Jussieu (2011) 10(3), 635--674</arxiv:journal_ref>
+    <author>
+      <name>Claus Hertling</name>
+    </author>
+    <author>
+      <name>Claude Sabbah</name>
+    </author>
+    <arxiv:doi>10.1017/S147474801100003X</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1017/S147474801100003X" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1406.1339v3</id>
+    <title>On the irregular Hodge filtration of exponentially twisted mixed Hodge modules</title>
+    <updated>2020-05-23T13:26:09Z</updated>
+    <link href="https://arxiv.org/abs/1406.1339v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1406.1339v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Given a mixed Hodge module and a meromorphic function f on a complex manifold, we associate to these data a filtration (the irregular Hodge filtration) on the exponentially twisted holonomic module, which extends the construction of arXiv:1302.4537. We show the strictness of the push-forward filtered D-module through any projective morphism, by using the theory of mixed twistor D-modules of T. Mochizuki. We consider the example of the rescaling of a regular function f, which leads to an expression of the irregular Hodge filtration of the Laplace transform of the Gauss-Manin systems of f in terms of the Harder-Narasimhan filtration of the Kontsevich bundles associated with f.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-06-05T11:19:44Z</published>
+    <arxiv:comment>53 pages. V2: 56 pages, Introduction partly rewritten. Final revised version to appear in Forum of Mathematics Sigma. V3: post-publication, small changes in the proof of (5.3) (thanks to Takahiro Saito for noticing a mistake)</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <arxiv:journal_ref>Forum of mathematics, Sigma 3 (2015), e9, 71 pages</arxiv:journal_ref>
+    <author>
+      <name>Claude Sabbah</name>
+    </author>
+    <author>
+      <name>Jeng-Daw Yu</name>
+    </author>
+    <arxiv:doi>10.1017/fms.2015.8</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1017/fms.2015.8" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2012.15171v2</id>
+    <title>The relative hermitian duality functor</title>
+    <updated>2022-07-08T10:36:59Z</updated>
+    <link href="https://arxiv.org/abs/2012.15171v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2012.15171v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We extend to the category of relative regular holonomic modules on a manifold $X$, parametrized by a curve $S$, the Hermitian duality functor (or conjugation functor) of Kashiwara. We prove that this functor is an equivalence with the similar category on the conjugate manifold $\overline X$, parametrized by the same curve. As a byproduct we introduce the notion of regular holonomic relative distribution.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-12-30T14:23:45Z</published>
+    <arxiv:comment>Proposition 5 is corrected as well as its implications in other statements. The main result is untouched</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <author>
+      <name>Teresa Monteiro Fernandes</name>
+    </author>
+    <author>
+      <name>Claude Sabbah</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2212.07746v2</id>
+    <title>Remarks on rigid irreducible meromorphic connections on the projective line</title>
+    <updated>2023-11-06T21:53:46Z</updated>
+    <link href="https://arxiv.org/abs/2212.07746v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2212.07746v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We illustrate the Arinkin-Deligne-Katz algorithm for rigid irreducible meromorphic bundles with connection on the projective line by giving motivicity consequences similar to those given by Katz for rigid local systems.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-12-15T11:58:21Z</published>
+    <arxiv:comment>19 pages. V2: 20 pages. Small inaccuracies and typos corrected. Final version to appear in Documenta Math</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <arxiv:journal_ref>Documenta Mathematica 28 (2023), no. 6, pp. 1473-1492</arxiv:journal_ref>
+    <author>
+      <name>Claude Sabbah</name>
+    </author>
+    <arxiv:doi>10.4171/DM/937</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.4171/DM/937" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0804.4328v3</id>
+    <title>Fourier-Laplace transform of a variation of polarized complex Hodge structure, II</title>
+    <updated>2009-03-12T10:46:47Z</updated>
+    <link href="https://arxiv.org/abs/0804.4328v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0804.4328v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We show that the limit, by rescaling, of the `new supersymmetric index' attached to the Fourier-Laplace transform of a polarized variation of Hodge structure on a punctured affine line is equal to the spectral polynomial attached to the same object. We also extend the definition by Deligne of a Hodge filtration on the de Rham cohomology of a exponentially twisted polarized variation of complex Hodge structure and prove a E_1 degeneration property for it.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2008-04-28T06:36:32Z</published>
+    <arxiv:comment>51 pages, revised version, to appear in the proceedings volume of the conference `` New developments in Algebraic Geometry, Integrable Systems and Mirror symmetry", RIMS, Kyoto, Jan. 7-11, 2008</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <arxiv:journal_ref>in New developments in algebraic geometry, integrable systems and mirror symmetry (RIMS, Kyoto, 2008), Adv. Stud. Pure Math., vol. 59, Math. Soc. Japan, Tokyo, 2010, p. 289--347</arxiv:journal_ref>
+    <author>
+      <name>Claude Sabbah</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/9910156v1</id>
+    <title>Vanishing cycles and Hermitian duality</title>
+    <updated>1999-10-28T10:05:31Z</updated>
+    <link href="https://arxiv.org/abs/math/9910156v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/9910156v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We show the compatibility between the moderate or nearby cycle functor for regular holonomic $\mathcal{D}$-modules, as defined by Beilinson, Kashiwara and Malgrange, and the Hermitian duality functor, as defined by Kashiwara.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1999-10-28T10:05:31Z</published>
+    <arxiv:comment>AMS-LaTeX file with Xy-Pic macros for diagrams. 22 pages</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <arxiv:journal_ref>Proc. Steklov Inst. Math. 2002, no. 3 (238), 194--214</arxiv:journal_ref>
+    <author>
+      <name>Claude Sabbah</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1804.00426v2</id>
+    <title>Some properties and applications of Brieskorn lattices</title>
+    <updated>2018-12-14T08:48:56Z</updated>
+    <link href="https://arxiv.org/abs/1804.00426v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1804.00426v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>After reviewing the main properties of the Brieskorn lattice in the framework of tame regular functions on smooth affine complex varieties, we prove a conjecture of Katzarkov-Kontsevich-Pantev in the toric case.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-04-02T07:59:14Z</published>
+    <arxiv:comment>12 pages. V2: Final version</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <arxiv:journal_ref>Journal of Singularity theory 18 (2018), p. 238-247</arxiv:journal_ref>
+    <author>
+      <name>Claude Sabbah</name>
+    </author>
+    <arxiv:doi>10.5427/jsing.2018.18k</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.5427/jsing.2018.18k" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/0508551v2</id>
+    <title>Fourier-Laplace transform of a variation of polarized complex Hodge structure</title>
+    <updated>2007-05-24T12:21:15Z</updated>
+    <link href="https://arxiv.org/abs/math/0508551v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/0508551v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We show that the Fourier-Laplace transform of a regular holonomic module over the Weyl algebra of one variable, which generically underlies a variation of polarized Hodge structure, underlies itself an integrable variation of polarized twistor structure.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2005-08-28T19:56:48Z</published>
+    <arxiv:comment>36 pages. AMSLatex Revised version, few modifications</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <arxiv:journal_ref>J. Reine Angew. Math. 621 (2008), 123--158</arxiv:journal_ref>
+    <author>
+      <name>Claude Sabbah</name>
+    </author>
+    <arxiv:doi>10.1515/CRELLE.2008.060</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1515/CRELLE.2008.060" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/0503038v2</id>
+    <title>Polarizable twistor D-modules</title>
+    <updated>2005-05-25T11:44:12Z</updated>
+    <link href="https://arxiv.org/abs/math/0503038v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/0503038v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We prove a Decomposition Theorem for the direct image of an irreducible local system on a smooth complex projective variety under a morphism with values in another smooth complex projective variety. For this purpose, we construct a category of polarized twistor D-modules and show a Decomposition Theorem in this category.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2005-03-02T13:52:09Z</published>
+    <arxiv:comment>vi+226 pages. Previous versions yet appeared on the author's web page Some typos corrected. Proof of Th. 8.4.1 simplified</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <arxiv:journal_ref>Astérisque vol. 300, Société mathématique de France (2005), vi+208 pp</arxiv:journal_ref>
+    <author>
+      <name>Claude Sabbah</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/0610265v1</id>
+    <title>The Abelian/Nonabelian Correspondence and Frobenius Manifolds</title>
+    <updated>2006-10-09T17:10:41Z</updated>
+    <link href="https://arxiv.org/abs/math/0610265v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/0610265v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We propose an approach via Frobenius manifolds to the study (began in math.AG/0407254) of the relation between rational Gromov-Witten invariants of nonabelian quotients X//G and those of the corresponding ``abelianized'' quotients X//T, for T a maximal torus in G. The ensuing conjecture expresses the Gromov-Witten potential of X//G in terms of the potential of X//T. We prove this conjecture when the nonabelian quotients are partial flag manifolds.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2006-10-09T17:10:41Z</published>
+    <arxiv:comment>35 pages, no figures</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <arxiv:journal_ref>Invent. Math. 171 (2008), no. 2, 301-343</arxiv:journal_ref>
+    <author>
+      <name>Ionut Ciocan-Fontanine</name>
+    </author>
+    <author>
+      <name>Bumsig Kim</name>
+    </author>
+    <author>
+      <name>Claude Sabbah</name>
+    </author>
+    <arxiv:doi>10.1007/s00222-007-0082-x</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s00222-007-0082-x" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/0611475v3</id>
+    <title>Quantum cohomology of the Grassmannian and alternate Thom-Sebastiani</title>
+    <updated>2007-05-01T15:19:55Z</updated>
+    <link href="https://arxiv.org/abs/math/0611475v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/0611475v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We introduce the notion of alternate product of Frobenius manifolds and we give, after [math.AG/0610265], an interpretation of the Frobenius manifold structure canonically attached to the quantum cohomology of G(r,n+1) in terms of alternate products. We also investigate the relationship with the alternate Thom-Sebastiani product of Laurent polynomials.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2006-11-15T17:37:30Z</published>
+    <arxiv:comment>29 pages. Revised version: Corollary 1.9 corrected, minor mistakes corrected, few typos corrected</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <arxiv:journal_ref>Compos. Math. 144 (2008), no. 1, 221--246</arxiv:journal_ref>
+    <author>
+      <name>Bumsig Kim</name>
+    </author>
+    <author>
+      <name>Claude Sabbah</name>
+    </author>
+    <arxiv:doi>10.1112/S0010437X07003120</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1112/S0010437X07003120" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1212.0436v3</id>
+    <title>Kontsevich's conjecture on an algebraic formula for vanishing cycles of local systems</title>
+    <updated>2013-09-02T16:07:38Z</updated>
+    <link href="https://arxiv.org/abs/1212.0436v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1212.0436v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>For a local system and a function on a smooth complex algebraic variety, we give a proof of a conjecture of M. Kontsevich on a formula for the vanishing cycles using the twisted de Rham complex of the formal microlocalization of the corresponding locally free sheaf with integrable connection having regular singularity at infinity. We also prove its local version, which may be viewed as a natural generalization of a result of E. Brieskorn in the isolated singularity case. We then generalize these to the case of the de Rham complexes of regular holonomic D-modules where we have to use the tensor product with a certain sheaf of formal microlocal differential operators instead of the formal completion.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-12-03T16:25:12Z</published>
+    <arxiv:comment>23 pages, this improves and generalizes some results in arXiv:1012.3818; v2, abstract is modified, and Cor. 1 and 3.4-5 are added; v3, Remark 3.6 added</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <author>
+      <name>Claude Sabbah</name>
+    </author>
+    <author>
+      <name>Morihiko Saito</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/alg-geom/9503021v1</id>
+    <title>Moduli of pre-$\cal D$-modules, perverse sheaves and the Riemann-Hilbert morphism -I</title>
+    <updated>1995-03-28T11:35:00Z</updated>
+    <link href="https://arxiv.org/abs/alg-geom/9503021v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/alg-geom/9503021v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We construct a moduli scheme for semistable pre-$\D$-modules with prescribed singularities and numerical data on a smooth projective variety. These pre-$\D$-modules are to be viewed as regular holonomic $\D$-modules with `level structure'. We also construct a moduli scheme for perverse sheaves on the variety with prescribed singularities and other numerical data, and represent the de Rham functor (which gives the Riemann-Hilbert correspondence) by an analytic morphism between the two moduli schemes.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1995-03-28T11:35:00Z</published>
+    <arxiv:comment>LaTeX, 28 pages</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <author>
+      <name>Nitin Nitsure</name>
+    </author>
+    <author>
+      <name>Claude Sabbah</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2505.07334v3</id>
+    <title>Three results on holonomic D-modules</title>
+    <updated>2026-03-06T09:25:05Z</updated>
+    <link href="https://arxiv.org/abs/2505.07334v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2505.07334v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this text, we illustrate the use of local methods in the theory of (irregular) holonomic D-modules. I. (The Euler characteristic of the de~Rham complex) We show the invariance of the global or local Euler characteristic of the de~Rham complex after localization and dual localization of a holonomic D-module along a hypersurface, as well as after tensoring with a rank one meromorphic connection with regular singularities. II. (Local generic vanishing theorems for holonomic D-modules) We prove that the natural morphism from the proper pushforward to the total pushforward of an algebraic holonomic D-module by an open inclusion is an isomorphism if we first twist the D-module structure by suitable closed algebraic differential forms. III. (Laplace transform of a Stokes-filtered constructible sheaf of exponential type) Motivated by the construction in [YZ24], we~propose a slightly different construction of the Laplace transform of a Stokes-perverse sheaf on the projective line and show directly that it corresponds to the Laplace transform of the corresponding holonomic D-module via the Riemann-Hilbert-Birkhoff-Deligne-Malgrange correspondence. This completes the presentation given in [Sab13, Chap. 7]}, where only the other direction of the Laplace transformation is analyzed. We~also compare our approach with the construction made previously in [YZ24].</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-05-12T08:19:27Z</published>
+    <arxiv:comment>V2: corrects a macro error that makes Part 3 confusing with respect to some calligraphic letters. V3: Corrections suggested by a referee and corrections in Lemma 2.1, Section 2.d and proof of Theorem 4.5</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <author>
+      <name>Claude Sabbah</name>
+      <arxiv:affiliation>CMLS</arxiv:affiliation>
+    </author>
+  </entry>
+</feed>

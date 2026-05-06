@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/dZLPtDdZRuzbEJ7c6c2NgkI1K5A</id>
+  <title>arXiv Query: search_query=au:"Zhang-Ju Liu" AND (cat:math.AG OR cat:math.AT OR cat:math.AP OR cat:math.CT OR cat:math.CA OR cat:math.CO OR cat:math.DG OR cat:math.DS OR cat:math.FA OR cat:math.GT OR cat:math.MP OR cat:math.OA OR cat:math.PR OR cat:math.QA OR cat:math.RA OR cat:math.RT OR cat:math.SG OR cat:math.SP OR cat:math.ST OR cat:math.NT OR cat:math.GR OR cat:math.HO OR cat:math-ph OR cat:nlin.SI OR cat:nlin.CD OR cat:hep-th OR cat:q-alg OR cat:dg-ga OR cat:alg-geom OR cat:cond-mat.stat-mech)&amp;id_list=&amp;start=0&amp;max_results=200</title>
+  <updated>2026-05-06T07:29:50Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=au:%22Zhang-Ju+Liu%22+AND+(cat:math.AG+OR+(cat:math.AT+OR+(cat:math.AP+OR+(cat:math.CT+OR+(cat:math.CA+OR+(cat:math.CO+OR+(cat:math.DG+OR+(cat:math.DS+OR+(cat:math.FA+OR+(cat:math.GT+OR+(cat:math.MP+OR+(cat:math.OA+OR+(cat:math.PR+OR+(cat:math.QA+OR+(cat:math.RA+OR+(cat:math.RT+OR+(cat:math.SG+OR+(cat:math.SP+OR+(cat:math.ST+OR+(cat:math.NT+OR+(cat:math.GR+OR+(cat:math.HO+OR+(cat:math-ph+OR+(cat:nlin.SI+OR+(cat:nlin.CD+OR+(cat:hep-th+OR+(cat:q-alg+OR+(cat:dg-ga+OR+(cat:alg-geom+OR+cat:cond-mat.stat-mech)))))))))))))))))))))))))))))&amp;start=0&amp;max_results=200&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>200</opensearch:itemsPerPage>
+  <opensearch:totalResults>4</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2310.13614v1</id>
+    <title>Lie triple 2-algebras</title>
+    <updated>2023-10-09T18:26:23Z</updated>
+    <link href="https://arxiv.org/abs/2310.13614v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2310.13614v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We invent a new cohomology theory for Lie triple algebras. Using this cohomology, we introduce the notions of 2-term $L_\infty$-triple algebras and Lie triple 2-algebras. We prove that the category of 2-term $L_\infty$-triple algebras is equivalent to the category of Lie triple 2-algebras. Crossed modules of Lie triple algebras are studied in detail.</summary>
+    <category term="math.RA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-10-09T18:26:23Z</published>
+    <arxiv:comment>26 pages. arXiv admin note: text overlap with arXiv:1601.01196 by other authors</arxiv:comment>
+    <arxiv:primary_category term="math.RA"/>
+    <author>
+      <name>Tao Zhang</name>
+    </author>
+    <author>
+      <name>Zhang-Ju Liu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/9903119v2</id>
+    <title>Dirac structures and dynamical r-matrices</title>
+    <updated>1999-03-21T18:14:19Z</updated>
+    <link href="https://arxiv.org/abs/math/9903119v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/9903119v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The purpose of this paper is to establish a connection between various subjects such as dynamical r-matrices, Lie bialgebroids, and Lagrangian subalgebras. Our method relies on the theory of Dirac structures developed in dg-ga/9508013 and dg-ga/9611001. In particular, we give a new method of classifying dynamical r-matrices of simple Lie algebras $\frak g$, and prove that dynamical r-matrices are in one-one correspondence with certain Lagrangian subalgebras of ${\frak g}\oplus \frak g$.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.QA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1999-03-19T23:06:28Z</published>
+    <arxiv:comment>LaTex, 21 pages</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <author>
+      <name>Zhang-Ju Liu</name>
+    </author>
+    <author>
+      <name>Ping Xu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/dg-ga/9508013v3</id>
+    <title>Manin Triples for Lie Bialgebroids</title>
+    <updated>1997-02-28T21:12:58Z</updated>
+    <link href="https://arxiv.org/abs/dg-ga/9508013v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/dg-ga/9508013v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  In his study of Dirac structures, a notion which includes both Poisson structures and closed 2-forms, T. Courant introduced a bracket on the direct sum of vector fields and 1-forms. This bracket does not satisfy the Jacobi identity except on certain subspaces. In this paper we systematize the properties of this bracket in the definition of a Courant algebroid. This structure on a vector bundle $E\rightarrow M$, consists of an antisymmetric bracket on the sections of $E$ whose ``Jacobi anomaly'' has an explicit expression in terms of a bundle map $E\rightarrow TM$ and a field of symmetric bilinear forms on $E$. When $M$ is a point, the definition reduces to that of a Lie algebra carrying an invariant nondegenerate symmetric bilinear form.
+  For any Lie bialgebroid $(A,A^{*})$ over $M$ (a notion defined by Mackenzie and Xu), there is a natural Courant algebroid structure on $A\oplus A^{*}$ which is the Drinfel'd double of a Lie bialgebra when $M$ is a point. Conversely, if $A$ and $A^*$ are complementary isotropic subbundles of a Courant algebroid $E$, closed under the bracket (such a bundle, with dimension half that of $E$, is called a Dirac structure), there is a natural Lie bialgebroid structure on $(A,A^{*})$ whose double is isomorphic to $E$. The theory of Manin triples is thereby extended from Lie algebras to Lie algebroids.
+  Our work gives a new approach to bihamiltonian structures and a new way of combining two Poisson structures to obtain a third one. We also take some tentative steps toward generalizing Drinfel'd's theory of Poisson homogeneous spaces from groups to groupoids.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.SG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1995-08-28T22:05:14Z</published>
+    <arxiv:comment>24 pages, LaTeX2e (minor corrections, added section at end), final version of paper to appear in J. Diff. Geom</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <author>
+      <name>Zhang-Ju Liu</name>
+    </author>
+    <author>
+      <name>Alan Weinstein</name>
+    </author>
+    <author>
+      <name>Ping Xu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/0210104v1</id>
+    <title>The Local Structure of Lie Bialgebroids</title>
+    <updated>2002-10-07T16:26:00Z</updated>
+    <link href="https://arxiv.org/abs/math/0210104v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/0210104v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We study the local structure of Lie bialgebroids at regular points. In particular, we classify all transitive Lie bialgebroids. In special cases, they are connected to classical dynamical $r$-matrices and matched pairs induced by Poisson group actions</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2002-10-07T16:26:00Z</published>
+    <arxiv:comment>13 pages</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <arxiv:journal_ref>Lett. Math. Phys., 61 (2002) 15-28</arxiv:journal_ref>
+    <author>
+      <name>Zhang-Ju Liu</name>
+    </author>
+    <author>
+      <name>Ping Xu</name>
+    </author>
+  </entry>
+</feed>

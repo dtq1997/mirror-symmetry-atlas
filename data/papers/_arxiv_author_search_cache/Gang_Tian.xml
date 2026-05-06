@@ -1,0 +1,2315 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/W4sCd3zL0vVxM5MmDcUwRh6t5OM</id>
+  <title>arXiv Query: search_query=au:"Gang Tian" AND (cat:math.AG OR cat:math.AT OR cat:math.AP OR cat:math.CT OR cat:math.CA OR cat:math.CO OR cat:math.DG OR cat:math.DS OR cat:math.FA OR cat:math.GT OR cat:math.MP OR cat:math.OA OR cat:math.PR OR cat:math.QA OR cat:math.RA OR cat:math.RT OR cat:math.SG OR cat:math.SP OR cat:math.ST OR cat:math.NT OR cat:math.GR OR cat:math.HO OR cat:math-ph OR cat:nlin.SI OR cat:nlin.CD OR cat:hep-th OR cat:q-alg OR cat:dg-ga OR cat:alg-geom OR cat:cond-mat.stat-mech)&amp;id_list=&amp;start=0&amp;max_results=200</title>
+  <updated>2026-05-06T07:31:03Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=au:%22Gang+Tian%22+AND+(cat:math.AG+OR+(cat:math.AT+OR+(cat:math.AP+OR+(cat:math.CT+OR+(cat:math.CA+OR+(cat:math.CO+OR+(cat:math.DG+OR+(cat:math.DS+OR+(cat:math.FA+OR+(cat:math.GT+OR+(cat:math.MP+OR+(cat:math.OA+OR+(cat:math.PR+OR+(cat:math.QA+OR+(cat:math.RA+OR+(cat:math.RT+OR+(cat:math.SG+OR+(cat:math.SP+OR+(cat:math.ST+OR+(cat:math.NT+OR+(cat:math.GR+OR+(cat:math.HO+OR+(cat:math-ph+OR+(cat:nlin.SI+OR+(cat:nlin.CD+OR+(cat:hep-th+OR+(cat:q-alg+OR+(cat:dg-ga+OR+(cat:alg-geom+OR+cat:cond-mat.stat-mech)))))))))))))))))))))))))))))&amp;start=0&amp;max_results=200&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>200</opensearch:itemsPerPage>
+  <opensearch:totalResults>118</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1211.4669v2</id>
+    <title>K-stability and Kähler-Einstein metrics</title>
+    <updated>2013-01-28T15:25:34Z</updated>
+    <link href="https://arxiv.org/abs/1211.4669v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1211.4669v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this new version, we correct some typos. For the readers' convenience, we also added some footnotes and more details for certain lemmas and theorems.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-11-20T06:41:19Z</published>
+    <arxiv:comment>47 pages</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <author>
+      <name>Gang Tian</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1505.01925v1</id>
+    <title>Orbifold regularity of weak Kahler-Einstein metrics</title>
+    <updated>2015-05-08T04:16:30Z</updated>
+    <link href="https://arxiv.org/abs/1505.01925v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1505.01925v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this note, we prove that any non-collapsing and compact Gromov-Hausdorff limit of Kahler-Einstein manifolds is either smooth or is orbifold outside a subvariety of complex codimension at least 3.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-05-08T04:16:30Z</published>
+    <arxiv:comment>6 pages</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <author>
+      <name>Chi Li</name>
+    </author>
+    <author>
+      <name>Gang Tian</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1409.7836v1</id>
+    <title>K-stability implies CM-stability</title>
+    <updated>2014-09-27T20:23:50Z</updated>
+    <link href="https://arxiv.org/abs/1409.7836v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1409.7836v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we prove that any polarized K-stable manifold is CM-stable. This extends what I did for Fano manifolds in my 2012 paper.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-09-27T20:23:50Z</published>
+    <arxiv:primary_category term="math.DG"/>
+    <author>
+      <name>Gang Tian</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1310.5544v1</id>
+    <title>Stability of pairs</title>
+    <updated>2013-10-21T13:51:21Z</updated>
+    <link href="https://arxiv.org/abs/1310.5544v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1310.5544v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This is essentially an expository note based on S. Paul's works on the stability of pairs. Its connection to K-stability will be also discussed.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-10-21T13:51:21Z</published>
+    <arxiv:comment>15 pages</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <author>
+      <name>Gang Tian</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1812.05746v2</id>
+    <title>On uniform K-stability of pairs</title>
+    <updated>2019-01-01T03:03:28Z</updated>
+    <link href="https://arxiv.org/abs/1812.05746v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1812.05746v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we discuss stable pairs, which were first studied by S. Paul, and give a proof for a result I learned from him. As a consequence, we will show that the K-stability implies the CM-stability.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-12-14T00:14:55Z</published>
+    <arxiv:comment>Add an appendix which contains a new proof of our main theorem by Yan Li and Xiaohua Zhu. This proof follows the approach suggested in Section 6 and is more elementary</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <author>
+      <name>Gang Tian</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/9806028v2</id>
+    <title>Virasoro Constraints For Quantum Cohomology</title>
+    <updated>1998-10-20T16:21:37Z</updated>
+    <link href="https://arxiv.org/abs/math/9806028v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/9806028v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Eguchi-Hori-Xiong and S. Katz proposed a conjecture that the partition function of topological sigma model coupled to gravity is annihilated by infinitely many differential operators which form half branch of the Virasoro algebra. In this paper, we give a proof to this conjecture for the genus 0 part.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1998-06-07T00:16:13Z</published>
+    <arxiv:comment>LaTex, 38 pages. Corrected some typos and minor mistakes in the first version of this paper posted on June 7, 1998</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <arxiv:journal_ref>J.Diff.Geom. 50 (1998) 537-590</arxiv:journal_ref>
+    <author>
+      <name>Xiaobo Liu</name>
+    </author>
+    <author>
+      <name>Gang Tian</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1904.08345v1</id>
+    <title>Collapsing behavior of Ricci-flat Kahler metrics and long time solutions of the Kahler-Ricci flow</title>
+    <updated>2019-04-17T16:20:43Z</updated>
+    <link href="https://arxiv.org/abs/1904.08345v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1904.08345v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We prove a uniform diameter bound for long time solutions of the normalized Kahler-Ricci flow on an $n$-dimensional projective manifold $X$ with semi-ample canonical bundle under the assumption that the Ricci curvature is uniformly bounded for all time in a fixed domain containing a fibre of $X$ over its canonical model $X_{can}$. This assumption on the Ricci curvature always holds when the Kodaira dimension of $X$ is $n$, $n-1$ or when the general fibre of $X$ over its canonical model is a complex torus. In particular, the normalized Kahler-Ricci flow converges in Gromov-Hausdorff topolopy to its canonical model when $X$ has Kodaira dimension $1$ with $K_X$ being semi-ample and the general fibre of $X$ over its canonical model being a complex torus. We also prove the Gromov-Hausdorff limit of collapsing Ricci-flat Kahler metrics on a holomorphically fibred Calabi-Yau manifold is unique and is homeomorphic to the metric completion of the corresponding twisted Kahler-Einstein metric on the regular part of its base.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-04-17T16:20:43Z</published>
+    <arxiv:primary_category term="math.DG"/>
+    <author>
+      <name>Jian Song</name>
+    </author>
+    <author>
+      <name>Gang Tian</name>
+    </author>
+    <author>
+      <name>Zhenlei Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1801.10073v2</id>
+    <title>Spectrum of SYK model</title>
+    <updated>2018-06-12T15:42:04Z</updated>
+    <link href="https://arxiv.org/abs/1801.10073v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1801.10073v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This is the first part of a series of papers on the spectrum of the SYK model, which is a simple model of the black hole in physics literature. In this paper, we will give a rigorous proof of the almost sure convergence of the global density of the eigenvalues. We also discuss the largest eigenvalue of the SYK model.</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-01-30T16:02:10Z</published>
+    <arxiv:primary_category term="math-ph"/>
+    <arxiv:journal_ref>Peking Mathematical J (2019) 2:41-70</arxiv:journal_ref>
+    <author>
+      <name>Renjie Feng</name>
+    </author>
+    <author>
+      <name>Gang Tian</name>
+    </author>
+    <author>
+      <name>Dongyi Wei</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1809.00424v2</id>
+    <title>Gauged Linear Sigma Model in Geometric Phases. I</title>
+    <updated>2024-08-27T15:30:02Z</updated>
+    <link href="https://arxiv.org/abs/1809.00424v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1809.00424v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We construct a cohomological field theory for a gauged linear sigma model space in geometric phase, using the method of gauge theory and differential geometry. The cohomological field theory is expected to match the Gromov-Witten theory of the classical vacuum up to a change of variable, and is expected to match various other algebraic geometric constructions.</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.SG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-09-03T01:58:25Z</published>
+    <arxiv:comment>Split from the previous version as requested by the journal editor. In the companion 2407.14545 we provide the detailed virtual cycle construction and prove its properties</arxiv:comment>
+    <arxiv:primary_category term="math-ph"/>
+    <author>
+      <name>Gang Tian</name>
+    </author>
+    <author>
+      <name>Guangbo Xu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2410.20694v3</id>
+    <title>Asymptotics of discrete Okounkov bodies and thresholds</title>
+    <updated>2025-01-30T04:08:16Z</updated>
+    <link href="https://arxiv.org/abs/2410.20694v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2410.20694v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This article initiates the study of discrete Okounkov bodies and higher-dimensional Weierstrass gap phenomena, with applications to asymptotic analysis of stability and global log canonical thresholds.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-10-28T02:53:11Z</published>
+    <arxiv:primary_category term="math.AG"/>
+    <author>
+      <name>Chenzi Jin</name>
+    </author>
+    <author>
+      <name>Yanir A. Rubinstein</name>
+    </author>
+    <author>
+      <name>Gang Tian</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/alg-geom/9601005v1</id>
+    <title>Higher genus symplectic invariants and sigma model coupled with gravity</title>
+    <updated>1996-01-06T20:20:16Z</updated>
+    <link href="https://arxiv.org/abs/alg-geom/9601005v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/alg-geom/9601005v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We define higher genus Gromov-Witten invariants and establish a mathematical theory of sigma model coupled with gravity over any semi-positive symplectic manifolds. As applications, we verify the stablizing conjecture of symplectic 4-manifolds for simply connected elliptic surfaces and construct smooth 6-manifolds admitting infinitely many deformation classes of symplectic structures.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1996-01-06T20:20:16Z</published>
+    <arxiv:comment>LaTeX</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <author>
+      <name>Yongbin Ruan</name>
+    </author>
+    <author>
+      <name>Gang Tian</name>
+    </author>
+    <arxiv:doi>10.1007/s002220050192</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s002220050192" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1806.05714v1</id>
+    <title>Spectrum of SYK model II: Central limit theorem</title>
+    <updated>2018-06-12T18:25:22Z</updated>
+    <link href="https://arxiv.org/abs/1806.05714v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1806.05714v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In our previous paper \cite{FTD1}, we derived the almost sure convergence of the global density of eigenvalues of random matrices of the SYK model. In this paper, we will prove the central limit theorem for the linear statistic of eigenvalues and compute its variance.</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-06-12T18:25:22Z</published>
+    <arxiv:primary_category term="math-ph"/>
+    <author>
+      <name>Renjie Feng</name>
+    </author>
+    <author>
+      <name>Gang Tian</name>
+    </author>
+    <author>
+      <name>Dongyi Wei</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1806.04701v1</id>
+    <title>Spectrum of SYK model III: Large deviations and concentration of measures</title>
+    <updated>2018-06-12T18:25:59Z</updated>
+    <link href="https://arxiv.org/abs/1806.04701v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1806.04701v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In \cite{FTD1}, we proved the almost sure convergence of eigenvalues of the SYK model, which can be viewed as a type of \emph{law of large numbers} in probability theory; in \cite{FTD2}, we proved that the linear statistic of eigenvalues satisfies the \emph{central limit theorem}. In this article, we continue to study another important theorem in probability theory\,-- the \emph{concentration of measure theorem}, especially for the Gaussian SYK model. We will prove a \emph{large deviation principle} (LDP) for the normalized empirical measure of eigenvalues when $q_n=2$, in which case the eigenvalues can be expressed in term of these of Gaussian random antisymmetric matrices. Such LDP result has its own independent interest in random matrix theory. For general $q_n\geq 3$, we can not prove the LDP, we will prove a concentration of measure theorem by estimating the Lipschitz norm of the Gaussian SYK model.</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-06-12T18:25:59Z</published>
+    <arxiv:primary_category term="math-ph"/>
+    <author>
+      <name>Renjie Feng</name>
+    </author>
+    <author>
+      <name>Gang Tian</name>
+    </author>
+    <author>
+      <name>Dongyi Wei</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2501.18150v1</id>
+    <title>Stability thresholds for big classes</title>
+    <updated>2025-01-30T05:33:21Z</updated>
+    <link href="https://arxiv.org/abs/2501.18150v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2501.18150v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In 1987, the $α$-invariant theorem gave a fundamental criterion for existence of Kahler-Einstein metrics on smooth Fano manifolds. In 2012, Odaka-Sano extended the framework to $\mathbb{Q}$-Fano varieties in terms of K-stability, and in 2017 Fujita related this circle of ideas to the $δ$-invariant of Fujita-Odaka. We introduce new invariants on the big cone and prove a generalization of the Tian-Odaka-Sano Theorem to all big classes on varieties with klt singularities, and moreover for all volume quantiles $τ\in[0,1]$. The special degenerate (collapsing) case $τ=0$ on ample classes recovers Odaka-Sano's theorem. This leads to many new twisted Kahler-Einstein metrics on big classes. Of independent interest, the proof involves a generalization to sub-barycenters of the classical Neumann-Hammer Theorem from convex geometry.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-01-30T05:33:21Z</published>
+    <arxiv:comment>arXiv admin note: text overlap with arXiv:2410.20694</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <author>
+      <name>Chenzi Jin</name>
+    </author>
+    <author>
+      <name>Yanir A. Rubinstein</name>
+    </author>
+    <author>
+      <name>Gang Tian</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2512.13315v1</id>
+    <title>Compactification of metric moduli space of $K3$ surfaces</title>
+    <updated>2025-12-15T13:33:03Z</updated>
+    <link href="https://arxiv.org/abs/2512.13315v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2512.13315v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We prove a conjecture of Odaka--Oshima, which says that there is an algebraic description of the Gromov--Hausdorff compactification of all unit-diameter hyperkähler metrics on K3 surfaces. As a corollary, we obtain a classification of the Gromov--Hausdorff limits of those hyperkähler K3 surfaces with a fixed complex structure or with a fixed polarization.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-15T13:33:03Z</published>
+    <arxiv:comment>42 pages</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <author>
+      <name>Zexuan Ouyang</name>
+    </author>
+    <author>
+      <name>Gang Tian</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2407.14545v1</id>
+    <title>Gauged linear sigma model in geometric phase. II. the virtual cycle</title>
+    <updated>2024-07-16T13:26:35Z</updated>
+    <link href="https://arxiv.org/abs/2407.14545v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2407.14545v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We provide the detailed construction of the virtual cycles needed for defining the cohomological field theory associated to a gauged linear sigma model in geometric phase.</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.SG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-07-16T13:26:35Z</published>
+    <arxiv:comment>Split and revised from 1809.00424; 80 pages</arxiv:comment>
+    <arxiv:primary_category term="math-ph"/>
+    <author>
+      <name>Gang Tian</name>
+    </author>
+    <author>
+      <name>Guangbo Xu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1410.3157v1</id>
+    <title>A continuity method to construct canonical metrics</title>
+    <updated>2014-10-12T21:28:44Z</updated>
+    <link href="https://arxiv.org/abs/1410.3157v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1410.3157v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce a new continuity method which provides an alternative way of carrying out the Analytic Minimal Model Program introduced by G. Tian and J. Song and G. Tian. This equation -- unlike the Ricci flow -- has the advantage of having Ricci curvature bounded from below along the deformation, so that the compactness theory of Cheeger-Colding-Tian for Kaehler manifolds and the partial $C^0$-estimate, can be applied.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-10-12T21:28:44Z</published>
+    <arxiv:primary_category term="math.DG"/>
+    <author>
+      <name>Gabriele La Nave</name>
+    </author>
+    <author>
+      <name>Gang Tian</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0905.0280v1</id>
+    <title>Orientability and real Seiberg-Witten invariants</title>
+    <updated>2009-05-03T18:46:53Z</updated>
+    <link href="https://arxiv.org/abs/0905.0280v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0905.0280v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We investigate Seiberg-Witten theory in the presence of real structures. Certain conditions are obtained so that integer valued real Seiberg-Witten invariants can be defined. In general we study properties of the real Seiberg-Witten projection map from the point of view of Fredholm map degrees.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2009-05-03T18:46:53Z</published>
+    <arxiv:comment>36 pages</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <author>
+      <name>Gang Tian</name>
+    </author>
+    <author>
+      <name>Shuguang Wang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/0607607v2</id>
+    <title>Ricci Flow and the Poincare Conjecture</title>
+    <updated>2007-03-21T18:51:19Z</updated>
+    <link href="https://arxiv.org/abs/math/0607607v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/0607607v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  This manuscript contains a detailed proof of the Poincare Conjecture. The arguments we present here are expanded versions of the ones given by Perelman in his three preprints posted in 2002 and 2003. This is a revised version taking in account the comments of the referees and others. It has been reformatted in the AMS book style.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.GT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2006-07-25T19:21:24Z</published>
+    <arxiv:comment>493 pages with over 30 figures and 3 pages of front material</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <author>
+      <name>John W. Morgan</name>
+    </author>
+    <author>
+      <name>Gang Tian</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/0405530v1</id>
+    <title>Algebraic and Analytic K-Stability</title>
+    <updated>2004-05-27T16:25:04Z</updated>
+    <link href="https://arxiv.org/abs/math/0405530v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/0405530v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  In this note we identify the leading terms of the (reduced) K-energy map with a universal linear combination of the principal and subdominant coefficients of the weight of the $mth$ Hilbert point. This shows that the weight $F_{1}(λ;X)$ introduced by Donaldson in [SKD02] is just the weight of the CM-polarisation.The equivalence between the CM-(semi)stability and the K-(semi) stability follows from this. Also, using our previous work, we are able to describe this subdominant coefficient in terms of the weights of some generalised Chow forms, under a multiplicity free hypothesis on the degeneration. This is accomplished by introducing a parameter dependent lift of the CM-polarisation, and letting this parameter tend to infinity. This could be thought of as a ``quantized'' version of the virtual bundle introduced in [Tian94].</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2004-05-27T16:25:04Z</published>
+    <arxiv:primary_category term="math.DG"/>
+    <author>
+      <name>Sean T. Paul</name>
+    </author>
+    <author>
+      <name>Gang Tian</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/0210389v1</id>
+    <title>Infinite geodesic rays in the space of Kahler potentials</title>
+    <updated>2002-10-24T17:53:01Z</updated>
+    <link href="https://arxiv.org/abs/math/0210389v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/0210389v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  In this paper we explore the connection between special degenerations of algebraic manifolds and geodesics in the space of Kahler metrics. We provide a new and general geometric construction of nontrivial solutions for the geodesic equation. We show how to associate to any special nontrivial degeneration a geodesic of inifite length.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.SG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2002-10-24T17:53:01Z</published>
+    <arxiv:comment>17 pages</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <author>
+      <name>Claudio Arezzo</name>
+      <arxiv:affiliation>Parma - IT</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Gang Tian</name>
+      <arxiv:affiliation>MIT - USA</arxiv:affiliation>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2008.08829v2</id>
+    <title>Basis divisors and balanced metrics</title>
+    <updated>2021-02-25T02:52:09Z</updated>
+    <link href="https://arxiv.org/abs/2008.08829v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2008.08829v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Using log canonical thresholds and basis divisors Fujita--Odaka introduced purely algebro-geometric invariants $δ_m$ whose limit in $m$ is now known to characterize uniform K-stability on a Fano variety. As shown by Blum-Jonsson this carries over to a general polarization, and together with work of Berman, Boucksom, and Jonsson, it is now known that the limit of these $δ_m$-invariants characterizes uniform Ding stability. A basic question since Fujita-Odaka's work has been to find an analytic interpretation of these invariants. We show that each $δ_m$ is the coercivity threshold of a quantized Ding functional on the $m$-th Bergman space and thus characterizes the existence of balanced metrics. This approach has a number of applications. The most basic one is that it provides an alternative way to compute these invariants, which is new even for $\mathbb{P}^n$. Second, it allows us to introduce algebraically defined invariants that characterize the existence of Kähler-Ricci solitons (and the more general $g$-solitons of Berman-Witt Nyström), as well as coupled versions thereof. Third, it leads to approximation results involving balanced metrics in the presence of automorphisms that extend some results of Donaldson.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-08-20T08:07:39Z</published>
+    <arxiv:comment>final version, to appear in J. Reine Angew. Math</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <arxiv:journal_ref>Crelle J. 778 (2021), 171-218</arxiv:journal_ref>
+    <author>
+      <name>Yanir A. Rubinstein</name>
+    </author>
+    <author>
+      <name>Gang Tian</name>
+    </author>
+    <author>
+      <name>Kewei Zhang</name>
+    </author>
+    <arxiv:doi>10.1515/crelle-2021-0017</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1515/crelle-2021-0017" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2210.15263v1</id>
+    <title>A Note On Kähler-Ricci Flow on Fano Threefolds</title>
+    <updated>2022-10-27T08:37:10Z</updated>
+    <link href="https://arxiv.org/abs/2210.15263v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2210.15263v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this note, we show that the solution of Kähler-Ricci flow on every Fano threefold from the family No.2.23 in the Mori-Mukai's list develops type II singularity. In fact, we show that no Fano threefold from the family No.2.23 admits Kähler-Ricci soliton and the Gromov-Hausdorff limit of the Kähler-Ricci flow must be a singular $\mathbb{Q}$-Fano variety. This gives new examples of Fano manifolds of the lowest dimension on which Kähler-Ricci flow develops type II singularity.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-10-27T08:37:10Z</published>
+    <arxiv:comment>6 pages, comments are welcome!</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <arxiv:journal_ref>Peking Math. J., 8(1):191-199, 2025</arxiv:journal_ref>
+    <author>
+      <name>Minghao Miao</name>
+    </author>
+    <author>
+      <name>Gang Tian</name>
+    </author>
+    <arxiv:doi>10.1007/s42543-023-00078-0</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s42543-023-00078-0" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0909.4898v1</id>
+    <title>The Kahler-Ricci flow through singularities</title>
+    <updated>2009-09-26T22:19:51Z</updated>
+    <link href="https://arxiv.org/abs/0909.4898v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0909.4898v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We prove the existence and uniqueness of the weak Kahler-Ricci flow on projective varieties with log terminal singularities. It is also shown that the weak Kahler-Ricci flow can be uniquely continued through divisorial contractions and flips if they exist. We then propose an analytic version of the Minimal Model Program with Ricci flow.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2009-09-26T22:19:51Z</published>
+    <arxiv:primary_category term="math.DG"/>
+    <author>
+      <name>Jian Song</name>
+    </author>
+    <author>
+      <name>Gang Tian</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2209.05029v2</id>
+    <title>Horosymmetric limits of Kähler-Ricci flow on Fano $G$-manifolds</title>
+    <updated>2022-10-31T06:14:28Z</updated>
+    <link href="https://arxiv.org/abs/2209.05029v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2209.05029v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we prove that on a Fano $\mathbf G$-manifold $(M,J)$, the Gromov-Hausdorff limit of Kähler-Ricci flow with initial metric in $2πc_1(M)$ must be a $\mathbb Q$-Fano horosymmetric variety $M_\infty$, which admits a singular Kähler-Ricci soliton. Moreover, $M_\infty$ is a limit of $\mathbb C^*$-degeneration of $M$ induced by an element in the Lie algebra of Cartan torus of $\mathbf G$. A similar result can be also proved for Kähler-Ricci flows on any Fano horosymmetric manifolds. As an application, we generalize our previous result about the type II singularity of Kähler-Ricci flows on Fano $\mathbf G$-manifolds to Fano horosymmetric manifolds.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-09-12T05:23:54Z</published>
+    <arxiv:comment>Theorem 1.6 is added</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <author>
+      <name>Gang Tian</name>
+    </author>
+    <author>
+      <name>Xiaohua Zhu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0809.4040v1</id>
+    <title>Completion of the Proof of the Geometrization Conjecture</title>
+    <updated>2008-09-23T22:20:11Z</updated>
+    <link href="https://arxiv.org/abs/0809.4040v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0809.4040v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  This article is a sequel to the book `Ricci Flow and the Poincare Conjecture' by the same authors. Using the main results of that book we establish the Geometrization Conjecture for all compact, orientable three-manifolds following the approach indicated by Perelman in his preprints on the subject. This approach is to study the collapsed part of the manifold as time goes to infinity in a Ricci flow with surgery. The main technique for this study is the theory of Alexandrov spaces. This theory gives local models for the collapsed part of the manifold. These local models can be glued together to prove that the collapsed part of the manifold is a graph manifold with incompressible boundary. From this and previous results, geometrization follows easily.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.GT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2008-09-23T22:20:11Z</published>
+    <arxiv:comment>84 pages</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <author>
+      <name>John Morgan</name>
+    </author>
+    <author>
+      <name>Gang Tian</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/0310052v1</id>
+    <title>The Singular Set of 1-1 Integral Currents</title>
+    <updated>2003-10-04T18:10:47Z</updated>
+    <link href="https://arxiv.org/abs/math/0310052v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/0310052v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We prove that 2 dimensional Integral currents (i.e. integer multiplicity 2 dimensional rectifiable currents) which are almost complex cycles in an almost complex manifold admitting locally a compatible symplectic form are smooth surfaces aside from isolated points and therefore are J-holomorphic curves.</summary>
+    <category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2003-10-04T18:10:47Z</published>
+    <arxiv:comment>67 pages</arxiv:comment>
+    <arxiv:primary_category term="math.AP"/>
+    <author>
+      <name>Tristan Riviere</name>
+    </author>
+    <author>
+      <name>Gang Tian</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/0310302v3</id>
+    <title>Bach-flat asymptotically locally Euclidean metrics</title>
+    <updated>2005-06-12T13:46:10Z</updated>
+    <link href="https://arxiv.org/abs/math/0310302v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/0310302v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We obtain a volume growth and curvature decay result for various classes of complete, noncompact Riemannian metrics in dimension 4; in particular our method applies to anti-self-dual or Kahler metrics with zero scalar curvature, and metrics with harmonic curvature. Similar results are known for Einstein metrics, but our analysis differs from the Einstein case in that (1) we consider more generally a fourth order system in the metric, and (2) we do not assume any pointwise Ricci curvature bound.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2003-10-19T19:56:35Z</published>
+    <arxiv:comment>54 pages; final version</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <arxiv:journal_ref>Inventiones Mathematicae 160 (2), 2005, pages 357-415</arxiv:journal_ref>
+    <author>
+      <name>Gang Tian</name>
+    </author>
+    <author>
+      <name>Jeff Viaclovsky</name>
+    </author>
+    <arxiv:doi>10.1007/s00222-004-0412-1</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s00222-004-0412-1" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2405.18390v2</id>
+    <title>Global solutions to the Euler-Coriolis system</title>
+    <updated>2024-08-13T12:40:27Z</updated>
+    <link href="https://arxiv.org/abs/2405.18390v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2405.18390v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We prove the global well-posedness and scattering for the 3D incompressible Euler-Coriolis system with sufficiently small, regular and suitably localized initial data. Equivalently, we obtain the asymptotic stability for "rigid body" rotational solutions to the pure Euler equations. This extends the recent work of Guo, Pausader and Widmayer to the general non-axisymmetric setting.</summary>
+    <category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-05-28T17:29:51Z</published>
+    <arxiv:comment>72 pages. We have improved the presentation, corrected some misprints and added some references</arxiv:comment>
+    <arxiv:primary_category term="math.AP"/>
+    <author>
+      <name>Xiao Ren</name>
+    </author>
+    <author>
+      <name>Gang Tian</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1303.0628v1</id>
+    <title>The Yang-Mills α-flow in vector bundles over four manifolds and its applications</title>
+    <updated>2013-03-04T07:50:16Z</updated>
+    <link href="https://arxiv.org/abs/1303.0628v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1303.0628v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we introduce an α-flow for the Yang-Mills functional in vector bundles over four dimensional Riemannian manifolds, and establish global existence of a unique smooth solution to the α-flow with smooth initial value. We prove that the limit of solutions of the α-flow as α\to 1 is a weak solution to the Yang-Mills flow. By an application of the α-flow, we then follow the idea of Sacks and Uhlenbeck to prove some existence results for Yang-Mills connections and improve the minimizing result of the Yang-Mills functional of Sedlacek.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-03-04T07:50:16Z</published>
+    <arxiv:comment>36 pages</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <author>
+      <name>Min-Chun Hong</name>
+    </author>
+    <author>
+      <name>Gang Tian</name>
+    </author>
+    <author>
+      <name>Hao Yin</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1303.1895v3</id>
+    <title>On the distance control problem in Ricci flows</title>
+    <updated>2017-09-02T08:10:55Z</updated>
+    <link href="https://arxiv.org/abs/1303.1895v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1303.1895v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We show that the distance function under the Ricci flow is uniformly continuous in the time direction, assuming only the scalar curvature is bounded.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-03-08T07:03:36Z</published>
+    <arxiv:comment>The paper is withdrawn due to a gap in the proof of Lemma 2.1 Note 2017/09/02. The gap is fixed and result extended in "Heat kernel and curvature bounds in Ricci flows with bounded scalar curvature", by R. Bamler and Q. S. Zhang, Adv. Math. (319) 2017, p396-450. We wish to thank R. Bamler for the help and G. Tian for the generosity for not being an author of the new paper</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <author>
+      <name>Gang Tian</name>
+    </author>
+    <author>
+      <name>Qi S. Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1507.06558v2</id>
+    <title>Compactness results for triholomorphic maps</title>
+    <updated>2015-10-02T21:18:14Z</updated>
+    <link href="https://arxiv.org/abs/1507.06558v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1507.06558v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We consider triholomorphic maps from an almost hyper-Hermitian manifold $\mathcal{M}^{4m}$ into a hyperKähler manifold $\mathcal{N}^{4n}$. This means that $u \in W^{1,2}$ satisfies a quaternionic del-bar equation. We work under the assumption that $u$ is locally strongly approximable in $W^{1,2}$ by smooth maps: then such maps are almost stationary harmonic (when $\mathcal{M}$ is hyperKähler as well, then stationary harmonic). We show that in this more general situation the classical $ε$-regularity result still holds. We then address compactness issues for a weakly converging sequence $u_\ell \rightharpoonup u_\infty$ of strongly approximable triholomorphic maps $u_\ell:\mathcal{M} \to \mathcal{N}$ with uniformly bounded Dirichlet energies. The blow up analysis leads, as in the usual stationary setting, to the existence of a rectifiable blow-up set $Σ$ of codimension $2$, away from which the sequence converges strongly. The defect measure $Θ(x) {\mathcal{H}}^{4m-2} \llcorner Σ$ encodes the loss of energy in the limit; we prove that for a.e. point on $Σ$ the value of $Θ$ is given by the sum of energies of a (finite) number of smooth non-constant holomorphic bubbles (here the holomorphicity is understood w.r.t. a complex structure on $\mathcal{N}$ that depends on the chosen point on $Σ$). In the case that $\mathcal{M}$ is hyperKähler this result was established by C. Y. Wang (2003) with a different proof; we rely on Lorentz space estimates. By means of a calibration and a homological argument we further prove that for each portion of $Σ\setminus \text{Sing}_{u_\infty}$ contained in a Lipschitz graph we find a unique alm. compl. st. on $\mathcal{M}$ that makes the portion pseudoholomorphic and smooth, with $Θ$ constant; moreover the bubbles originating at points of such a smooth piece are holomorphic for a common complex structure.</summary>
+    <category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-07-23T16:46:31Z</published>
+    <arxiv:comment>Revised version, Thm 1.3 improved, Section 7 added</arxiv:comment>
+    <arxiv:primary_category term="math.AP"/>
+    <author>
+      <name>Costante Bellettini</name>
+    </author>
+    <author>
+      <name>Gang Tian</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1706.06766v1</id>
+    <title>Uniqueness of the Mean Field Equation and Rigidity of Hawking Mass</title>
+    <updated>2017-06-21T07:27:03Z</updated>
+    <link href="https://arxiv.org/abs/1706.06766v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1706.06766v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we prove that the even solution of the mean field equation $Δu=λ(1-e^u) $ on $S^2$ must be axially symmetric when $4&lt;λ\leq 8$. In particular, zero is the only even solution for $λ=6$. This implies the rigidity of Hawking mass for stable constant mean curvature(CMC) sphere with even symmetry.</summary>
+    <category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-06-21T07:27:03Z</published>
+    <arxiv:comment>15 pages</arxiv:comment>
+    <arxiv:primary_category term="math.AP"/>
+    <author>
+      <name>Yuguang Shi</name>
+    </author>
+    <author>
+      <name>Jiacheng Sun</name>
+    </author>
+    <author>
+      <name>Gang Tian</name>
+    </author>
+    <author>
+      <name>Dongyi Wei</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/0605290v2</id>
+    <title>Constructing virtual Euler cycles and classes</title>
+    <updated>2007-07-08T01:43:04Z</updated>
+    <link href="https://arxiv.org/abs/math/0605290v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/0605290v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The constructions of the virtual Euler (or moduli) cycles and their properties are explained and developed systematically in the general abstract settings.</summary>
+    <category term="math.SG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2006-05-11T07:45:14Z</published>
+    <arxiv:comment>181 pages, V2; Section 2.1 is rewritten; a new Section 2.2 is added; the original Section 2.2-Section 2.7 become Section 2.3-Section 2.8; Sections 3,4 are rewritten; other places have also some small changes</arxiv:comment>
+    <arxiv:primary_category term="math.SG"/>
+    <author>
+      <name>Guangcun Lu</name>
+    </author>
+    <author>
+      <name>Gang Tian</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/0606505v4</id>
+    <title>CM Stability And The Generalized Futaki Invariant II</title>
+    <updated>2008-04-23T04:15:23Z</updated>
+    <link href="https://arxiv.org/abs/math/0606505v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/0606505v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The Mabuchi K-energy map is exhibited as a singular metric on the refined CM polarization of any equivariant family $\mathbf{X}\overset{p}{\to} S$. Consequently we show that the generalized Futaki invariant is the leading term in the asymptotics of the reduced K-energy of the generic fiber of the map $p$. Properness of the K-energy implies that the generalized Futaki invariant is strictly negative.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2006-06-20T14:27:46Z</published>
+    <arxiv:comment>15, fully rewritten, references added</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <author>
+      <name>Sean Timothy Paul</name>
+    </author>
+    <author>
+      <name>Gang Tian</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0711.4341v1</id>
+    <title>Translating solutions to Lagrangian mean curvature flow</title>
+    <updated>2007-11-27T20:15:10Z</updated>
+    <link href="https://arxiv.org/abs/0711.4341v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0711.4341v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We prove some non-existence theorems for translating solutions to Lagrangian mean curvature flow. More precisely, we show that translating solutions with an $L^2$ bound on the mean curvature are planes and that almost-calibrated translating solutions which are static are also planes. Recent work of D. Joyce, Y.-I. Lee, and M.-P. Tsui, shows that these conditions are optimal.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2007-11-27T20:15:10Z</published>
+    <arxiv:comment>26 pages, 1 figure, submitted</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <author>
+      <name>André Neves</name>
+    </author>
+    <author>
+      <name>Gang Tian</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2202.04564v1</id>
+    <title>Kähler stability of symplectic forms</title>
+    <updated>2022-02-09T16:55:18Z</updated>
+    <link href="https://arxiv.org/abs/2202.04564v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2202.04564v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Using dynamical stability of symplectic curvature flow, we show that on a compact Calabi-Yau manifold, any small symplectic deformation of a Kähler form remains Kähler.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.SG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-02-09T16:55:18Z</published>
+    <arxiv:comment>to appear in J. Geom. Anal. special issue: "Analysis and Geometry of Complete Manifolds, a special issue in honor of Peter Li"</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <author>
+      <name>Jeffrey Streets</name>
+    </author>
+    <author>
+      <name>Gang Tian</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1905.05032v1</id>
+    <title>A wall-crossing formula and the invariance of GLSM correlation functions</title>
+    <updated>2019-05-13T13:45:26Z</updated>
+    <link href="https://arxiv.org/abs/1905.05032v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1905.05032v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper we prove a wall-crossing formula, a crucial ingredient needed to prove that the correlation function of gauged linear sigma model is independent of the choice of perturbations.</summary>
+    <category term="math.SG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-05-13T13:45:26Z</published>
+    <arxiv:comment>This article is split from 1602.07638. Submitted and revised version. 48 pages</arxiv:comment>
+    <arxiv:primary_category term="math.SG"/>
+    <author>
+      <name>Gang Tian</name>
+    </author>
+    <author>
+      <name>Guangbo Xu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2001.11320v1</id>
+    <title>Singular Kähler-Einstein metrics on $\mathbb Q$-Fano compactifications of Lie groups</title>
+    <updated>2020-01-30T13:59:30Z</updated>
+    <link href="https://arxiv.org/abs/2001.11320v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2001.11320v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we prove an existence result for Kähler-Einstein metrics on $\mathbb Q$-Fano compactifications of Lie groups. As an application, we classify $\mathbb Q$-Fano compactifications of $SO_4(\mathbb C)$ which admit a Kähler-Einstein metric with the same volume as that of a smooth Fano compactification of $SO_4(\mathbb C)$.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-01-30T13:59:30Z</published>
+    <arxiv:comment>Comments are welcome. 38 pages, 6 figures and 2 tables</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <author>
+      <name>Yan Li</name>
+    </author>
+    <author>
+      <name>Gang Tian</name>
+    </author>
+    <author>
+      <name>Xiaohua Zhu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/0209352v2</id>
+    <title>A singularity removal theorem for Yang-Mills fields in higher dimensions</title>
+    <updated>2004-03-10T06:13:34Z</updated>
+    <link href="https://arxiv.org/abs/math/0209352v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/0209352v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  In four and higher dimensions, we show that any stationary admissible Yang-Mills field can be gauge transformed to a smooth field if the $L^2$ norm of the curvature is sufficiently small. There are three main ingredients. The first is Price's monotonicity formula, which allows us to assert that the curvature is small not only in the $L^2$ norm, but also in the Morrey norm $M_2^{n/2}$. The second ingredient is a new inductive (averaged radial) gauge construction and truncation argument which allows us to approximate a singular gauge as a weak limit of smooth gauges with curvature small in the Morrey norm. The second ingredient is variant of Uhlenbeck's lemma, allowing one to place a smooth connection into the Coulomb gauge whenever the Morrey norm of the curvature is small; This variant was also proved independently by Meyer and Riviere. It follows easily from this variant that a $W^{1,2}$-connection can be placed in the Coulomb gauge if it can be approximated by smooth connections whose curvatures have small Morrey norm.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2002-09-25T18:36:14Z</published>
+    <arxiv:comment>40 pages, no figures, to appear, J. Amer. Math. Soc. Some typos fixed and some comments from the referees incorporated</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <author>
+      <name>Terence Tao</name>
+    </author>
+    <author>
+      <name>Gang Tian</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1702.01428v1</id>
+    <title>The symplectic approach of gauged linear $σ$-model</title>
+    <updated>2017-02-05T16:44:36Z</updated>
+    <link href="https://arxiv.org/abs/1702.01428v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1702.01428v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Witten's Gauged Linear $σ$-Model (GLSM) unifies the Gromov-Witten theory and the Landau-Ginzburg theory, and provides a global perspective on mirror symmetry. In this article, we summarize a mathematically rigorous construction of the GLSM in the geometric phase using methods from symplectic geometry.</summary>
+    <category term="math.SG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-02-05T16:44:36Z</published>
+    <arxiv:comment>Expository article, 25 pages</arxiv:comment>
+    <arxiv:primary_category term="math.SG"/>
+    <author>
+      <name>Gang Tian</name>
+    </author>
+    <author>
+      <name>Guangbo Xu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/0404407v1</id>
+    <title>A compactification of the moduli space of twisted holomorphic maps</title>
+    <updated>2004-04-22T09:59:29Z</updated>
+    <link href="https://arxiv.org/abs/math/0404407v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/0404407v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We construct a compactification of the moduli space of twisted holomorphic maps with varying complex structure and bounded energy. For a given compact symplectic manifold $X$ with a compatible complex structure and a Hamiltonian action of $S^1$ with moment map $μ:X\to\imag\RR$, the moduli space which we compactify consists of equivalence classes of tuples $(C,P,A,φ)$, where $C$ is a smooth compact complex curve of fixed genus, $P$ is a principal $S^1$ bundle over $C$, $A$ is a connection on $P$ and $φ$ is a section of $P\times_{S^1}X$ satisfying $$\ov{\partial}_Aφ=0,\qquad ι_{v}F_A+μ(φ)=c,$$ where $F_A$ is the curvature of $A$, $v$ is the restriction on $C$ of a volume form on the universal curve over $\oM_g$ and $c$ is a fixed constant. Two tuples $(C,P,A,φ)$ and $(C',P',A',φ')$ are equivalent if there is a morphism of bundles $ρ:P\to P'$ lifting a biholomorphism $C\to C'$ such that $ρ^*A'=A$ and $ρ^*φ'=φ$. The energy of $(C,P,A,φ)$ is $\|F_A\|_{L^2}^2+\|d_Aφ\|_{L^2}^2 +\|μ(φ)-c\|_{L^2}^2$, and the topology of the moduli space is the natural one. We also incorporate marked points in the picture.
+  There are two sources of non compactness. First, bubbling off phenomena, analogous to the one in Gromov--Witten theory. Second, degeneration of $C$ to nodal curves. In this case, there appears a phenomenon which is not present in Gromov--Witten: near the nodes, the section $φ$ may degenerate to a chain of gradient flow lines of $-\imagμ$.</summary>
+    <category term="math.SG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2004-04-22T09:59:29Z</published>
+    <arxiv:comment>75 pages</arxiv:comment>
+    <arxiv:primary_category term="math.SG"/>
+    <author>
+      <name>Ignasi Mundet i Riera</name>
+    </author>
+    <author>
+      <name>Gang Tian</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0802.2570v1</id>
+    <title>Canonical measures and Kahler-Ricci flow</title>
+    <updated>2008-02-19T04:13:45Z</updated>
+    <link href="https://arxiv.org/abs/0802.2570v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0802.2570v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We show that the Kahler-Ricci flow on an algebraic manifold of positive Kodaira dimension and semi-ample canonical line bundle converges to a unique canonical metric on its canonical model. It is also shown that there exists a canonical measure of analytic Zariski decomposition on an algebraic manifold of positive Kodaira dimension. Such a canonical measure is unique and invariant under birational transformations under the assumption of the finite generation of canonical rings.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2008-02-19T04:13:45Z</published>
+    <arxiv:comment>56 pages</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <author>
+      <name>Jian Song</name>
+    </author>
+    <author>
+      <name>Gang Tian</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0806.2848v3</id>
+    <title>A note on Kähler-Ricci soliton</title>
+    <updated>2009-06-20T21:44:05Z</updated>
+    <link href="https://arxiv.org/abs/0806.2848v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0806.2848v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  In this note we provide a proof of the following: Any compact KRS with positive bisectional curvature is biholomorphic to the complex projective space. As a corollary, we obtain an alternative proof of the Frankel conjecture by using the Kähler-Ricci flow.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2008-06-17T17:42:05Z</published>
+    <arxiv:comment>A lemma added; an error corrected</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <author>
+      <name>Xiuxiong Chen</name>
+    </author>
+    <author>
+      <name>Song Sun</name>
+    </author>
+    <author>
+      <name>Gang Tian</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1404.3783v1</id>
+    <title>A compactness result for Fano manifolds and Kähler Ricci flows</title>
+    <updated>2014-04-15T00:13:51Z</updated>
+    <link href="https://arxiv.org/abs/1404.3783v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1404.3783v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We obtain a compactness result for Fano manifolds and Kähler Ricci flows. Comparing to the more general Riemannian versions by Anderson and Hamilton, in this Fano case, the curvature assumption is much weaker and is preserved by the Kähler Ricci flows. One assumption is the boundedness of the Ricci potential and the other is the smallness of Perelman's entropy. As one application, we obtain a new local regularity criteria and structure result for Kähler Ricci flows. The proof is based on a Hölder estimate for the gradient of harmonic functions, which may be of independent interest.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-04-15T00:13:51Z</published>
+    <arxiv:primary_category term="math.DG"/>
+    <author>
+      <name>Gang Tian</name>
+    </author>
+    <author>
+      <name>Qi S. Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0903.2413v1</id>
+    <title>Soliton-type metrics and Kähler-Ricci flow on symplectic quotients</title>
+    <updated>2009-03-13T15:57:17Z</updated>
+    <link href="https://arxiv.org/abs/0903.2413v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0903.2413v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  In this paper, we first show an interpretation of the Kähler-Ricci flow on a manifold $X$ as an exact elliptic equation of Einstein type on a manifold $M$ of which $X$ is one of the (Kähler) symplectic reductions via a (non-trivial) torus action. There are plenty of such manifolds (e.g. any line bundle on $X$ will do). Such an equation is called $V$-soliton equation, which can be regarded as a generalization of Kähler-Einstein equations or Kähler-Ricci solitons. As in the case of Kähler-Einstein metrics, we can also reduce the $V$-soliton equation to a scalar equation on Kähler potentials, which is of Monge-Ampere type. We then prove some preliminary results towards establishing existence of solutions for such a scalar equation on a compact Kähler manifold $M$. One of our motivations is to apply the interpretation to studying finite time singularities of the Kähler-Ricci flow.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2009-03-13T15:57:17Z</published>
+    <arxiv:primary_category term="math.DG"/>
+    <author>
+      <name>Gabriele La Nave</name>
+    </author>
+    <author>
+      <name>Gang Tian</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1903.01215v3</id>
+    <title>The uniform version of Yau-Tian-Donaldson conjecture for singular Fano varieties</title>
+    <updated>2021-03-29T13:57:37Z</updated>
+    <link href="https://arxiv.org/abs/1903.01215v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1903.01215v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We prove the following result: if a $\mathbb{Q}$-Fano variety is uniformly K-stable, then it admits a Kähler-Einstein metric. We achieve this by modifying Berman-Boucksom-Jonsson's strategy with appropriate perturbative arguments and non-Archimedean estimates. The idea of using the perturbation is motivated by our previous paper.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-03-04T13:01:59Z</published>
+    <arxiv:comment>36 pages. Add more details according to the referee's request. Comments Welcome</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <author>
+      <name>Chi Li</name>
+    </author>
+    <author>
+      <name>Gang Tian</name>
+    </author>
+    <author>
+      <name>Feng Wang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2110.15379v1</id>
+    <title>Counting pointlike instantons virtually without gluing</title>
+    <updated>2021-10-28T18:01:32Z</updated>
+    <link href="https://arxiv.org/abs/2110.15379v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2110.15379v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We use the first author's idea on "constructing virtual fundamental cycles without gluing
+' to define the quantum correction term between the gauged linear sigma model and the nonlinear sigma model.</summary>
+    <category term="math.SG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-10-28T18:01:32Z</published>
+    <arxiv:comment>Preliminary version. 40 pages, 1 figure</arxiv:comment>
+    <arxiv:primary_category term="math.SG"/>
+    <author>
+      <name>Gang Tian</name>
+    </author>
+    <author>
+      <name>Guangbo Xu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1711.09530v3</id>
+    <title>On the Yau-Tian-Donaldson conjecture for singular Fano varieties</title>
+    <updated>2021-03-29T14:29:33Z</updated>
+    <link href="https://arxiv.org/abs/1711.09530v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1711.09530v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We prove the Yau-Tian-Donaldson's conjecture for any $\mathbb{Q}$-Fano variety that has a log smooth resolution of singularities such that the discrepancies of all exceptional divisors are non-positive. In other words, if such a Fano variety is K-polystable, then it admits a Kähler-Einstein metric. This extends the previous result for smooth Fano varieties to this class of singular $\mathbb{Q}$-Fano varieties, which include those admitting crepant log resolutions.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-11-27T04:35:57Z</published>
+    <arxiv:comment>44 pages, accepted version</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <author>
+      <name>Chi Li</name>
+    </author>
+    <author>
+      <name>Gang Tian</name>
+    </author>
+    <author>
+      <name>Feng Wang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/0506005v2</id>
+    <title>On the uniqueness of the foliation of spheres of constant mean curvature in asymptotically flat 3-manifolds</title>
+    <updated>2005-08-11T18:24:05Z</updated>
+    <link href="https://arxiv.org/abs/math/0506005v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/0506005v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  In this note we study constant mean curvature surfaces in asymptotically flat 3-manifolds. We prove that, in an asymptotically flat 3-manifold with positive mass, stable spheres of given constant mean curvature outside a fixed compact subset are unique. Therefore we are able to conclude that there is a unique foliation of stable spheres of constant mean curvature in an asymptotically flat 3-manifold with positive mass.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2005-06-01T01:07:44Z</published>
+    <arxiv:comment>22 pages</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <author>
+      <name>Jie Qing</name>
+    </author>
+    <author>
+      <name>Gang Tian</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/0610767v2</id>
+    <title>Existence and Uniqueness of constant mean curvature foliation of asymptotically hyperbolic 3-manifolds</title>
+    <updated>2006-10-28T02:36:18Z</updated>
+    <link href="https://arxiv.org/abs/math/0610767v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/0610767v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We prove existence and uniqueness of foliations by stable spheres with constant mean curvature for 3-manifolds which are asymptotic to Anti-de Sitter-Schwarzschild metrics with positive mass. These metrics arise naturally as spacelike timeslices for solutions of the Einstein equation with a negative cosmological constant.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2006-10-25T21:06:05Z</published>
+    <arxiv:comment>39 pages, submitted. Decay conditions on Lemma 6.3 and Theorem 1.3 corrected</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <author>
+      <name>André Neves</name>
+    </author>
+    <author>
+      <name>Gang Tian</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0711.4331v1</id>
+    <title>Existence and Uniqueness of constant mean curvature foliation of asymptotically hyperbolic 3-manifolds II</title>
+    <updated>2007-11-27T19:42:41Z</updated>
+    <link href="https://arxiv.org/abs/0711.4331v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0711.4331v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  In a previous paper, the authors showed that metrics which are asymptotic to Anti-de Sitter-Schwarzschild metrics with positive mass admit a unique foliation by stable spheres with constant mean curvature. In this paper we extend that result to all asymptotically hyperbolic metrics for which the trace of the mass term is positive. We do this by combining the Kazdan-Warner obstructions with a theorem due to De Lellis and Müller.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2007-11-27T19:42:41Z</published>
+    <arxiv:comment>24 pages, submitted</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <author>
+      <name>Andre Neves</name>
+    </author>
+    <author>
+      <name>Gang Tian</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1602.07638v2</id>
+    <title>Virtual cycles of gauged Witten equation</title>
+    <updated>2019-05-13T13:45:33Z</updated>
+    <link href="https://arxiv.org/abs/1602.07638v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1602.07638v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We construct virtual cycles on moduli spaces of perturbed gauged Witten equation over a fixed smooth r -spin curve, under the framework of [TX15]. Together with the wall-crossing formula proved in the companion paper [TX19], it completes the construction of the correlation function for the gauged linear sigma model announced in [TX16] as well as the proof of its invariance.</summary>
+    <category term="math.SG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-02-24T19:09:02Z</published>
+    <arxiv:comment>The original version is split into two parts as requested by the journal. The proof of the wall-crossing formula is given in the companion paper [TX19]. 60 pages</arxiv:comment>
+    <arxiv:primary_category term="math.SG"/>
+    <author>
+      <name>Gang Tian</name>
+    </author>
+    <author>
+      <name>Guangbo Xu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1012.2104v4</id>
+    <title>Symplectic curvature flow</title>
+    <updated>2012-11-24T04:42:13Z</updated>
+    <link href="https://arxiv.org/abs/1012.2104v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1012.2104v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce a parabolic flow of almost Kahler structures, providing an approach to constructing canonical geometric structures on symplectic manifolds. We exhibit this flow as one of a family of parabolic flows of almost Hermitian structures, generalizing our previous work on parabolic flows of Hermitian metrics. We exhibit a long time existence obstruction for solutions to this flow by showing certain smoothing estimates for the curvature and torsion. We end with a discussion of the limiting objects as well as some open problems related to the symplectic curvature flow.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.SG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-12-09T20:29:29Z</published>
+    <arxiv:comment>Final version, to appear in Crelle's Journal</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <author>
+      <name>Jeffrey Streets</name>
+    </author>
+    <author>
+      <name>Gang Tian</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/0602150v1</id>
+    <title>The Kähler-Ricci flow on surfaces of positive Kodaira dimension</title>
+    <updated>2006-02-08T05:07:19Z</updated>
+    <link href="https://arxiv.org/abs/math/0602150v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/0602150v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The existence of Kähler-Einstein metrics on a compact Kähler manifold has been the subject of intensive study over the last few decades, following Yau's solution to Calabi's conjecture. The Ricci flow, introduced by Richard Hamilton has become one of the most powerful tools in geometric analysis.
+  We study the Kähler-Ricci flow on minimal surfaces of Kodaira dimension one and show that the flow collapses and converges to a unique canonical metric on its canonical model. Such a canonical is a generalized Kähler-Einstein metric. Combining the results of Cao, Tsuji, Tian and Zhang, we give a metric classification for Käher surfaces with a numerical effective canonical line bundle by the Kähler-Ricci flow. In general, we propose a program of finding canonical metrics on canonical models of projective varieties of positive Kodaira dimension.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2006-02-08T05:07:19Z</published>
+    <arxiv:primary_category term="math.DG"/>
+    <author>
+      <name>Jian Song</name>
+    </author>
+    <author>
+      <name>Gang Tian</name>
+    </author>
+    <arxiv:doi>10.1007/s00222-007-0076-8</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s00222-007-0076-8" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/0404223v1</id>
+    <title>Analysis of Geometric Stability</title>
+    <updated>2004-04-12T03:47:41Z</updated>
+    <link href="https://arxiv.org/abs/math/0404223v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/0404223v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We identify the difference between the CM polarisation and the Chow polarisation on the ``Hilbert scheme''. As a consequence, we give a numerical criterion for the CM stability as in Mumfords' G.I.T.. Also, we write down an explicit formula for the generalised futaki invariant interms of weights and multiplicities of the associated degeneration.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2004-04-12T03:47:41Z</published>
+    <arxiv:comment>33 pages</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <author>
+      <name>Sean Timothy Paul</name>
+    </author>
+    <author>
+      <name>Gang Tian</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/0312318v4</id>
+    <title>Moduli spaces of critical Riemannian metrics in dimension four</title>
+    <updated>2004-09-15T19:31:51Z</updated>
+    <link href="https://arxiv.org/abs/math/0312318v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/0312318v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We obtain a compactness result for various classes of Riemannian metrics in dimension four; in particular our method applies to anti-self-dual metrics, Kahler metrics with constant scalar curvature, and metrics with harmonic curvature. With certain geometric assumptions, the moduli space can be compactified by adding metrics with orbifold singularities. Similar results were obtained previously for Einstein metrics, but our analysis differs substantially from the Einstein case in that we do not assume any pointwise Ricci curvature bound.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2003-12-16T20:50:07Z</published>
+    <arxiv:comment>24 pages, to appear in Advances in Mathematics</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <arxiv:journal_ref>Final version: Advances in Mathematics 196 (2005) no. 2, 346-372</arxiv:journal_ref>
+    <author>
+      <name>Jeff Viaclovsky</name>
+    </author>
+    <author>
+      <name>Gang Tian</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/0612491v1</id>
+    <title>Volume growth, curvature decay, and critical metrics</title>
+    <updated>2006-12-17T17:59:16Z</updated>
+    <link href="https://arxiv.org/abs/math/0612491v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/0612491v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We make some improvements to our previous results. First, we prove a version of our volume growth theorem which does not require any assumption on the first Betti number. Second, we show that our local regularity theorem only requires a lower volume growth assumption, not a full Sobolev constant bound. These results allow us to weaken the assumptions of our previous volume growth and convergence theorems.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2006-12-17T17:59:16Z</published>
+    <arxiv:comment>19 pages</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <arxiv:journal_ref>Final version: Comm. Math. Helv. 83, Issue 4, 2008, pages 889-911</arxiv:journal_ref>
+    <author>
+      <name>Jeff Viaclovsky</name>
+    </author>
+    <author>
+      <name>Gang Tian</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/0203078v1</id>
+    <title>Compactification of the moduli spaces of vortices and coupled vortices</title>
+    <updated>2002-03-08T08:29:53Z</updated>
+    <link href="https://arxiv.org/abs/math/0203078v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/0203078v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Vortices and coupled vortices arise from Yang-Mills-Higgs theories and can be viewed as generalizations or analogues to Yang-Mills connections and, in particular, Hermitian-Yang-Mills connections. We proved an analytic compactification of the moduli spaces of vortices and coupled vortices on hermitian vector bundles over compact Kähler manifolds. In doing so we introduced the concept of ideal coupled vortices and characterized the singularities of ideal coupled vortices as well as Hermitian-Yang-Mills connections.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2002-03-08T08:29:53Z</published>
+    <arxiv:comment>24 pages</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <author>
+      <name>Gang Tian</name>
+    </author>
+    <author>
+      <name>Baozhong Yang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1807.07209v1</id>
+    <title>Cheeger-Colding-Tian theory for conic Kahler-Einstein metrics</title>
+    <updated>2018-07-19T01:23:12Z</updated>
+    <link href="https://arxiv.org/abs/1807.07209v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1807.07209v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper is to extend the Cheeger-Colding Theory to the class of conic Kahler-Einstein metrics. This extension provides a technical tool for [LTW] in which we prove a version of the Yau-Tian-Donaldson conjecture for Fano varieties with certain singularity.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.MG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-07-19T01:23:12Z</published>
+    <arxiv:primary_category term="math.DG"/>
+    <author>
+      <name>Gang Tian</name>
+    </author>
+    <author>
+      <name>Feng Wang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1202.2912v1</id>
+    <title>On the structure of almost Einstein manifolds</title>
+    <updated>2012-02-14T02:37:11Z</updated>
+    <link href="https://arxiv.org/abs/1202.2912v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1202.2912v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we study the structure of the limit space of a sequence of almost Einstein manifolds, which are generalizations of Einstein manifolds. Roughly speaking, such manifolds are the initial manifolds of some normalized Ricci flows whose scalar curvatures are almost constants over space-time in the $L^1$-sense, Ricci curvatures are bounded from below at the initial time. Under the non-collapsed condition, we show that the limit space of a sequence of almost Einstein manifolds has most properties which is known for the limit space of Einstein manifolds. As applications, we can apply our structure results to study the properties of Kähler manifolds.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-02-14T02:37:11Z</published>
+    <arxiv:comment>40 pages, 3 figures</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <author>
+      <name>Gang Tian</name>
+    </author>
+    <author>
+      <name>Bing Wang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2310.07945v2</id>
+    <title>Finite time singularities of the Kähler-Ricci flow</title>
+    <updated>2023-10-27T14:58:36Z</updated>
+    <link href="https://arxiv.org/abs/2310.07945v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2310.07945v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We establish the scalar curvature and distance bounds, extending Perelman's work on the Fano Kähler-Ricci flow to general finite time solutions of the Kähler-Ricci flow. These bounds are achieved by our Li-Yau type and Harnack estimates for weighted Ricci potential functions of the Kähler-Ricci flow. We further prove that the Type I blow-ups of the finite time solution always sub-converge in Gromov-Hausdorff sense to an ancient solution on a family of analytic normal varieties with suitable choices of base points. As a consequence, the Type I diameter bound is proved for almost every fibre of collapsing solutions of the Kähler-Ricci flow on a Fano fibre bundle. We also apply our estimates to show that every solution of the Kähler-Ricci flow with Calabi symmetry must develop Type I singularities, including both cases of high codimensional contractions and fibre collapsing.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-10-11T23:42:48Z</published>
+    <arxiv:comment>All comments welcome; improved introduction and minor edits</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <author>
+      <name>Wangjian Jian</name>
+    </author>
+    <author>
+      <name>Jian Song</name>
+    </author>
+    <author>
+      <name>Gang Tian</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0804.4109v3</id>
+    <title>Hermitian Curvature Flow</title>
+    <updated>2009-01-26T21:29:18Z</updated>
+    <link href="https://arxiv.org/abs/0804.4109v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0804.4109v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We define a functional for Hermitian metrics using the curvature of the Chern connection. The Euler-Lagrange equation for this functional is an elliptic equation for Hermitian metrics. Solutions to this equation are related to Kähler-Einstein metrics, and are automatically Kähler-Einstein under certain conditions. Given this, a natural parabolic flow equation arises. We prove short time existence and regularity results for this flow, as well as stability for the flow near Kähler-Einstein metrics with negative or zero first Chern class.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2008-04-25T13:49:11Z</published>
+    <arxiv:comment>34 pages</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <author>
+      <name>Jeffrey Streets</name>
+    </author>
+    <author>
+      <name>Gang Tian</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/0402358v1</id>
+    <title>Rigidity of Asymptotically Hyperboblic Manifolds</title>
+    <updated>2004-02-23T05:15:53Z</updated>
+    <link href="https://arxiv.org/abs/math/0402358v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/0402358v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  In this paper, we prove a rigidity theorem of asymptotically hyperbolic manifolds only under the assumptions on curvature. Its proof is based on analyzing asymptotic structures of such manifolds at infinity and a volume comparison theorem.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2004-02-23T05:15:53Z</published>
+    <arxiv:comment>16 pages</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <author>
+      <name>Yuguang Shi</name>
+    </author>
+    <author>
+      <name>Gang Tian</name>
+    </author>
+    <arxiv:doi>10.1007/s00220-005-1370-1</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s00220-005-1370-1" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-th/0004167v2</id>
+    <title>Instantons and the monopole-like equations in eight dimensions</title>
+    <updated>2000-06-01T10:35:46Z</updated>
+    <link href="https://arxiv.org/abs/hep-th/0004167v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-th/0004167v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We search for an abelian description of the Yang-Mills instantons on certain eight dimensional manifolds with the special holonomies $Spin(7)$ and SU(4). By mimicing the Seiberg-Witten theory in four dimensions, we propose a set of monopole-like equations governing the 8-dimensional U(1) connections and spinors, which are supposed to be the dual theory of the nonabelian instantons. We also give a naive test of the generalized $S$-duality in the abelian sector of 8-dimensional Yang-Mills theory. Some problems in this approach are pointed out.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2000-04-24T19:19:02Z</published>
+    <arxiv:comment>22+1 pages, no figures, using JHEP.cls; v2: typos corrected and refs updated, to appear in JHEP</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <arxiv:journal_ref>JHEP 0005 (2000) 036</arxiv:journal_ref>
+    <author>
+      <name>Yi-hong Gao</name>
+    </author>
+    <author>
+      <name>Gang Tian</name>
+    </author>
+    <arxiv:doi>10.1088/1126-6708/2000/05/036</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1126-6708/2000/05/036" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/0409433v1</id>
+    <title>Geometry of Kaehler metrics and holomorphic foliation by discs</title>
+    <updated>2004-09-22T15:21:53Z</updated>
+    <link href="https://arxiv.org/abs/math/0409433v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/0409433v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The purpose of this paper is to establish a partial regularity theory on certain homogeneous complex Monge-Ampere equations. As consequences of this new theory, we prove the uniqueness of extremal Kaehler metrics and give an necessary condition for existence of extremal Kaehler metrics.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2004-09-22T15:21:53Z</published>
+    <arxiv:comment>10 pages</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <author>
+      <name>Xiuxiong Chen</name>
+    </author>
+    <author>
+      <name>Gang Tian</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/alg-geom/9403010v1</id>
+    <title>On Quantum Cohomology Rings of Fano Manifolds and a Formula of Vafa and Intriligator</title>
+    <updated>1994-03-12T00:01:45Z</updated>
+    <link href="https://arxiv.org/abs/alg-geom/9403010v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/alg-geom/9403010v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We observe a general structure theorem for quantum cohomology rings, a non-homogeneous version of the usual cohomology ring encoding information about (almost holomorphic) rational curves. An application is the rigorous computation of the quantum cohomology of Grassmannians. As purely algebraic consequence we prove a beautiful formula of Vafa and Intriligator for intersection numbers of certain compactifications of moduli spaces of maps from a Riemann surface (any genus) to G(k,n) which recently has excited many mathematicians. The formula generalizes to any Fano manifold whose cohomology ring can be presented as complete intersection.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1994-03-12T00:01:45Z</published>
+    <arxiv:comment>21 pages, latex with amstex-fonts</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <author>
+      <name>Bernd Siebert</name>
+    </author>
+    <author>
+      <name>Gang Tian</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/dg-ga/9712020v1</id>
+    <title>Weinstein Conjecture and GW Invariants</title>
+    <updated>1997-12-30T01:27:47Z</updated>
+    <link href="https://arxiv.org/abs/dg-ga/9712020v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/dg-ga/9712020v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  In this paper, we establish a general relationship between the nonvanishing of GW invariants with the existence of the closed orbits of a Hamiltonian system. As an application, we completely solved the stabilized Weinstein conjecture.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1997-12-30T01:27:47Z</published>
+    <arxiv:primary_category term="math.DG"/>
+    <author>
+      <name>Gang Liu</name>
+    </author>
+    <author>
+      <name>Gang Tian</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2506.15458v1</id>
+    <title>Hermitian-Einstein Metrics on Parabolic Bundles over compact complex surfaces</title>
+    <updated>2025-06-18T13:46:10Z</updated>
+    <link href="https://arxiv.org/abs/2506.15458v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2506.15458v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We prove the Kobayashi-Hitchin correspondence for parabolic bundles over compact nonKähler surfaces with simple normal crossing divisor or compact nonKähler manifolds of any dimension with smooth divisor.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-06-18T13:46:10Z</published>
+    <arxiv:comment>Comments welcome</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <author>
+      <name>Xilun Li</name>
+    </author>
+    <author>
+      <name>Gang Tian</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1807.09167v5</id>
+    <title>Singular limits of Kähler-Ricci flow on Fano $G$-manifolds</title>
+    <updated>2021-12-22T07:45:10Z</updated>
+    <link href="https://arxiv.org/abs/1807.09167v5" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1807.09167v5" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we prove that any solution of Kähler-Ricci flow on a Fano compactification $M$ of semisimple complex Lie group, is of type II, if $M$ admits no Kähler-Einstein metrics. As an application, we found two Fano compactifications of $\mathrm{SO}_4(\mathbb{C})$ and one Fano compactification of $\mathrm{Sp}_4(\mathbb{C})$, on which the Kähler-Ricci flow will develop singularities of type II. To the authors' knowledge, these are the first examples of Ricci flow with singularities of type II on Fano manifolds in the literature.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-07-24T15:00:29Z</published>
+    <arxiv:comment>We added an appendix in Section 7 to prove Theorem 7.3 which is a generalization of Theorem 1.1 for any complex reductive Lie group $G$</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <author>
+      <name>Yan Li</name>
+    </author>
+    <author>
+      <name>Gang Tian</name>
+    </author>
+    <author>
+      <name>Xiaohua Zhu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1905.09448v3</id>
+    <title>The Berry-Esseen Theorem for Circular $β$-ensemble</title>
+    <updated>2023-12-14T10:06:23Z</updated>
+    <link href="https://arxiv.org/abs/1905.09448v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1905.09448v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We will prove the Berry-Esseen theorem for the number counting function of the circular $β$-ensemble (C$β$E), which will imply the central limit theorem for the number of points in arcs of the unit circle in mesoscopic and macroscopic scales. We will prove the main result by estimating the characteristic functions of the Prüfer phases and the number counting function, which will imply the uniform upper and lower bounds of their variance. We also show that the similar results hold for the Sine$_β$ process. As a direct application of the uniform variance bound, we can prove the normality of the linear statistics when the test function $f(θ)\in W^{1,p}(S^1)$ for some $p\in(1,+\infty)$.</summary>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-05-23T03:26:02Z</published>
+    <arxiv:comment>the title has been changed for this version, which was 'Normality of Circular $β$-ensemble'</arxiv:comment>
+    <arxiv:primary_category term="math.PR"/>
+    <arxiv:journal_ref>The Annals of Applied Probability 2023, Vol.33, No.6B, 5050-5070</arxiv:journal_ref>
+    <author>
+      <name>Renjie Feng</name>
+    </author>
+    <author>
+      <name>Gang Tian</name>
+    </author>
+    <author>
+      <name>Dongyi Wei</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1903.12547v1</id>
+    <title>On the existence of conic Kahler-Einstein metrics</title>
+    <updated>2019-03-29T14:37:05Z</updated>
+    <link href="https://arxiv.org/abs/1903.12547v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1903.12547v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we prove the conic version of YTD conjecture on log Fano manifolds.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-03-29T14:37:05Z</published>
+    <arxiv:comment>All comments are welcome</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <author>
+      <name>Gang Tian</name>
+    </author>
+    <author>
+      <name>Feng Wang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2310.07943v1</id>
+    <title>A new proof of Perelman's scalar curvature and diameter estimates for the Kähler-Ricci flow on Fano manifolds</title>
+    <updated>2023-10-11T23:39:41Z</updated>
+    <link href="https://arxiv.org/abs/2310.07943v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2310.07943v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this note, we give a new proof for Perelman's scalar curvature and diameter estimates for the Kähler-Ricci flow on Fano manifolds. The proof relies on a new Harnack estimate for a special family of functions in space-time. Our new approach initiates the work in \cite{JST23a} for general finite time solutions of the Kähler-Ricci flow.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-10-11T23:39:41Z</published>
+    <arxiv:comment>All comments welcome</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <author>
+      <name>Wangjian Jian</name>
+    </author>
+    <author>
+      <name>Jian Song</name>
+    </author>
+    <author>
+      <name>Gang Tian</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1109.0503v2</id>
+    <title>Generalized Kahler Geometry and the Pluriclosed Flow</title>
+    <updated>2012-01-05T18:45:01Z</updated>
+    <link href="https://arxiv.org/abs/1109.0503v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1109.0503v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In prior work the authors introduced a parabolic flow for pluriclosed metrics, referred to as pluriclosed flow. We also demonstrated that this flow, after certain gauge transformations, gives a class of solutions to the renormalization group flow of the nonlinear sigma model with B-field. Using these transformations, we show that our pluriclosed flow preserves generalized Kahler structures in a natural way. Equivalently, when coupled with a nontrivial evolution equation for the two complex structures, the B-field renormalization group flow also preserves generalized Kahler structure. We emphasize that it is crucial to evolve the complex structures in the right way to establish this fact.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-09-02T16:58:13Z</published>
+    <arxiv:comment>Final version, to appear in Nuc. Phys. B</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <author>
+      <name>Jeffrey Streets</name>
+    </author>
+    <author>
+      <name>Gang Tian</name>
+    </author>
+    <arxiv:doi>10.1016/j.nuclphysb.2012.01.008</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.nuclphysb.2012.01.008" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2501.08976v1</id>
+    <title>A geometric characterization of potential Navier-Stokes singularities</title>
+    <updated>2025-01-15T17:42:08Z</updated>
+    <link href="https://arxiv.org/abs/2501.08976v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2501.08976v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>For a local suitable weak solution to the Navier-Stokes equations, we prove that if the vorticity vectors belong to a double cone in regions of high vorticity magnitude, then the solution is regular. Roughly speaking this implies that, near a potential singularity, the directions of vorticity cannot avoid any great circle on the unit sphere. Our method, based on the control of local vorticity fluxes, is inspired by the classical Kelvin-Helmholtz law for ideal fluids and the Type I regularity theory for axisymmetric Navier-Stokes solutions.</summary>
+    <category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-01-15T17:42:08Z</published>
+    <arxiv:primary_category term="math.AP"/>
+    <author>
+      <name>Zhen Lei</name>
+    </author>
+    <author>
+      <name>Xiao Ren</name>
+    </author>
+    <author>
+      <name>Gang Tian</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/0010008v2</id>
+    <title>Ricci flow on Kaehler-Einstein surfaces</title>
+    <updated>2000-10-17T15:09:51Z</updated>
+    <link href="https://arxiv.org/abs/math/0010008v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/0010008v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  In this paper, we construct a set of new functionals of Ricci curvature on any Kaehler manifolds which are invariant under holomorphic transfermations in Kaehler Einstein manifolds and essentially decreasing under the Kaehler Ricci flow. Moreover, if the initial metric has non-negative bisectional curvature, using Tian's inequality, we can prove that each of the functionals has uniform lower bound along the flow which gives a set of integral estimates on curvature. Using this set of integral estimates, we are able to show the following theorem: Let M be a Kaehler-Einstein surface with positive scalar curvature. If the initial metric has nonnegative sectional curvature and positive somewhere, then the Kaehler-Ricci flow converges exponentially fast to a Kaehler-Einstein metric with constant bisectional curvature.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2000-10-02T09:07:03Z</published>
+    <arxiv:comment>One question was deleted</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <author>
+      <name>Xiuxiong Chen</name>
+      <arxiv:affiliation>Princeton University</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Gang Tian</name>
+      <arxiv:affiliation>MIT</arxiv:affiliation>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/alg-geom/9504009v1</id>
+    <title>The quantum cohomology of homogeneous varieties</title>
+    <updated>1995-04-16T21:56:16Z</updated>
+    <link href="https://arxiv.org/abs/alg-geom/9504009v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/alg-geom/9504009v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We established the associativity of the quantum cohomologies of homogeneous varieties by using degeneration method in algebraic geometry.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1995-04-16T21:56:16Z</published>
+    <arxiv:comment>36 pages with 0 figures, AMSTeX</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <author>
+      <name>Jun Li</name>
+    </author>
+    <author>
+      <name>Gang Tian</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/0305343v1</id>
+    <title>On the holomorphicity of genus two Lefschetz fibrations</title>
+    <updated>2003-05-24T09:53:13Z</updated>
+    <link href="https://arxiv.org/abs/math/0305343v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/0305343v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We prove that any genus-2 Lefschetz fibration without reducible fibers and with ``transitive monodromy'' is holomorphic. The latter condition comprises all cases where the number of singular fibers is not congruent to 0 modulo 40. An auxiliary statement of independent interest is the holomorphicity of symplectic surfaces in S^2-bundles over S^2, of relative degree up to 7 over the base, and of symplectic surfaces in CP^2 of degree up to 17.</summary>
+    <category term="math.SG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2003-05-24T09:53:13Z</published>
+    <arxiv:comment>54 pp., 1 figure</arxiv:comment>
+    <arxiv:primary_category term="math.SG"/>
+    <author>
+      <name>Bernd Siebert</name>
+    </author>
+    <author>
+      <name>Gang Tian</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1107.4018v1</id>
+    <title>Supremum of Perelman's entropy and Kähler-Ricci flow on a Fano manifold</title>
+    <updated>2011-07-20T16:05:58Z</updated>
+    <link href="https://arxiv.org/abs/1107.4018v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1107.4018v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we extend the method in [TZhu5] to study the energy level $L(\cdot)$ of Perelman's entropy $λ(\cdot)$ for Kähler-Ricci flow on a Fano manifold. Consequently, we first compute the supremum of $λ(\cdot)$ in Kähler class $2πc_1(M)$ under an assumption that the modified Mabuchi's K-energy $μ(\cdot)$ defined in [TZhu2] is bounded from below. Secondly, we give an alternative proof to the main theorem about the convergence of
+  Kähler-Ricci flow in [TZhu3].</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-07-20T16:05:58Z</published>
+    <arxiv:comment>28 pages</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <author>
+      <name>Gang Tian</name>
+    </author>
+    <author>
+      <name>Shijin Zhang</name>
+    </author>
+    <author>
+      <name>Zhenlei Zhang</name>
+    </author>
+    <author>
+      <name>Xiaohua Zhu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1102.4798v1</id>
+    <title>Convergence of Kähler-Ricci flow on Fano manifolds, II</title>
+    <updated>2011-02-23T17:07:24Z</updated>
+    <link href="https://arxiv.org/abs/1102.4798v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1102.4798v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we give an alternative proof for the convergence of Kähler-Ricci flow on a Fano mnaifold $(M,J)$. This proof differs from that in [TZ3]. Moreover, we generalize the main theorem of [TZ3] to the case that $(M,J)$ may not admit any Kähler-Einstein metrics.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-02-23T17:07:24Z</published>
+    <arxiv:comment>22 pages</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <author>
+      <name>Gang Tian</name>
+    </author>
+    <author>
+      <name>Xiaohua Zhu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1406.4253v1</id>
+    <title>Correlation functions of gauged linear $σ$-model</title>
+    <updated>2014-06-17T06:48:52Z</updated>
+    <link href="https://arxiv.org/abs/1406.4253v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1406.4253v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This is the second paper in a series following arXiv:1405.6352, on the construction of a mathematical theory of the gauged linear $σ$-model (GLSM). In this paper, assuming the existence of virtual moduli cycles and their certain properties, we define the correlation function of GLSM for a fixed smooth rigidified $r$-spin curve.</summary>
+    <category term="math.SG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-06-17T06:48:52Z</published>
+    <arxiv:comment>21 pages</arxiv:comment>
+    <arxiv:primary_category term="math.SG"/>
+    <author>
+      <name>Gang Tian</name>
+    </author>
+    <author>
+      <name>Guangbo Xu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1203.1400v3</id>
+    <title>Isoperimetric inequality under Kähler Ricci flow</title>
+    <updated>2013-07-10T09:49:36Z</updated>
+    <link href="https://arxiv.org/abs/1203.1400v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1203.1400v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Let $({\M}, g(t))$ be a Kähler Ricci flow with positive first Chern class. We prove a uniform isoperimetric inequality for all time. In the process we also prove a Cheng-Yau type log gradient bound for positive harmonic functions on $({\M}, g(t))$, and a Poincaré inequality without assuming the Ricci curvature is bounded from below.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-03-07T08:36:44Z</published>
+    <arxiv:comment>final version, to appear in Am. J. Math</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <author>
+      <name>Gang Tian</name>
+    </author>
+    <author>
+      <name>Qi S. Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/0212404v1</id>
+    <title>Geometry and nonlinear analysis</title>
+    <updated>2002-12-01T00:00:00Z</updated>
+    <link href="https://arxiv.org/abs/math/0212404v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/0212404v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Nonlinear analysis has played a prominent role in the recent developments in geometry and topology. The study of the Yang-Mills equation and its cousins gave rise to the Donaldson invariants and more recently, the Seiberg-Witten invariants. Those invariants have enabled us to prove a number of striking results for low dimensional manifolds, particularly, 4-manifolds. The theory of Gromov-Witten invariants was established by using solutions of the Cauchy-Riemann equation. These solutions are often refered as pseudo-holomorphic maps which are special minimal surfaces studied long in geometry. It is certainly not the end of applications of nonlinear partial differential equations to geometry. In this talk, we will discuss some recent progress on nonlinear partial differential equations in geometry. We will be selective, partly because of my own interest and partly because of recent applications of nonlinear equations. There are also talks in this ICM to cover some other topics of geometric analysis by R. Bartnik, B. Andrew, P. Li and X.X. Chen, etc.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2002-12-01T00:00:00Z</published>
+    <arxiv:primary_category term="math.DG"/>
+    <arxiv:journal_ref>Proceedings of the ICM, Beijing 2002, vol. 1, 475--493</arxiv:journal_ref>
+    <author>
+      <name>Gang Tian</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2505.19727v1</id>
+    <title>The biharmonic hypersurface flow and the Willmore flow in higher dimensions</title>
+    <updated>2025-05-26T09:13:45Z</updated>
+    <link href="https://arxiv.org/abs/2505.19727v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2505.19727v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The biharmonic flow of hypersurfaces $M^n$ immersed in the Euclidean space $\mathbb {R}^{n+1}$ for $n\geq 2$ is given by a fourth order geometric evolution equation, which is similar to the Willmore flow. We apply the Michael-Simon-Sobolev inequality to establish new Gagliardo-Nirenberg inequalities on hypersurfaces. Based on these Gagliardo-Nirenberg inequalities, we apply local energy estimates to extend the solution by a covering argument and obtain an estimate on the maximal existence time of the biharmonic flow of hypersurfaces in higher dimensions. In particular, we solve a problem in \cite{BWW} on the biharmonic hypersurface flow for $n=4$. Finally, we apply our new approach to prove global existence of the Willmore flow in higher dimensions.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-05-26T09:13:45Z</published>
+    <arxiv:comment>39 pages</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <arxiv:journal_ref>J. Eur. Math. Soc. (2026) online first</arxiv:journal_ref>
+    <author>
+      <name>Yu Fu</name>
+    </author>
+    <author>
+      <name>Min-Chun Hong</name>
+    </author>
+    <author>
+      <name>Gang Tian</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2310.08610v1</id>
+    <title>Geometric regularity of blow-up limits of the Kähler-Ricci flow</title>
+    <updated>2023-10-11T23:45:18Z</updated>
+    <link href="https://arxiv.org/abs/2310.08610v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2310.08610v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We establish geometric regularity for Type I blow-up limits of the Kähler-Ricci flow based at any sequence of Ricci vertices. As a consequence, the limiting flow is continuous in time in both Gromov-Hausdorff and Gromov-$W_1$ distance. In particular, the singular sets of each time slice and its tangent cones are close and of codimension no less than $4$.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-10-11T23:45:18Z</published>
+    <arxiv:comment>All comments welcome. arXiv admin note: text overlap with arXiv:2310.07945</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <author>
+      <name>Max Hallgren</name>
+    </author>
+    <author>
+      <name>Wangjian Jian</name>
+    </author>
+    <author>
+      <name>Jian Song</name>
+    </author>
+    <author>
+      <name>Gang Tian</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2205.05732v2</id>
+    <title>Principal minors of Gaussian orthogonal ensemble</title>
+    <updated>2024-02-13T00:04:20Z</updated>
+    <link href="https://arxiv.org/abs/2205.05732v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2205.05732v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we study the extremal process of the maxima of all the largest eigenvalues of principal minors of the classical Gaussian orthogonal ensemble (GOE). We prove that the fluctuation of the maxima is given by the Gumbel distribution in the limit. We also derive the limiting joint distribution of the maxima and the corresponding eigenvector, which implies that these two random variables are asymptotically independent.</summary>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-05-11T19:02:05Z</published>
+    <arxiv:primary_category term="math.PR"/>
+    <author>
+      <name>Renjie Feng</name>
+    </author>
+    <author>
+      <name>Gang Tian</name>
+    </author>
+    <author>
+      <name>Dongyi Wei</name>
+    </author>
+    <author>
+      <name>Dong Yao</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1304.2651v1</id>
+    <title>Regularity of Kähler-Ricci flow</title>
+    <updated>2013-04-09T16:35:33Z</updated>
+    <link href="https://arxiv.org/abs/1304.2651v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1304.2651v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this short note we announce a regularity theorem for Kähler-Ricci flow on a compact Fano manifold (Kähler manifold with positive first Chern class) and its application to the limiting behavior of Kähler-Ricci flow on Fano 3-manifolds. Moreover, we also present a partial $C^0$ estimate to the Kähler-Ricci flow under the regularity assumption, which extends previous works on Kähler-Einstein metrics and shrinking Kähler-Ricci solitons (cf. \cite{Ti90}, \cite{DoSu12}, \cite{Ti12}, \cite{PSS12}). The detailed proof will appear in \cite{TiZh13}.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-04-09T16:35:33Z</published>
+    <arxiv:primary_category term="math.DG"/>
+    <author>
+      <name>Gang Tian</name>
+    </author>
+    <author>
+      <name>Zhenlei Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1505.01038v1</id>
+    <title>Convergence of Kähler-Ricci flow on lower dimensional algebraic manifolds of general type</title>
+    <updated>2015-05-05T15:21:30Z</updated>
+    <link href="https://arxiv.org/abs/1505.01038v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1505.01038v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we prove that the $L^4$-norm of Ricci curvature is uniformly bounded along a Kähler-Ricci flow on any minimal algebraic manifold. As an application, we show that on any minimal algebraic manifold $M$ of general type and with dimension $n\le 3$, any solution of the normalized Kähler-Ricci flow converges to the unique singular Kähler-Einstein metric on the canonical model of $M$ in the Cheeger-Gromov topology.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-05-05T15:21:30Z</published>
+    <arxiv:primary_category term="math.DG"/>
+    <author>
+      <name>Gang Tian</name>
+    </author>
+    <author>
+      <name>Zhenlei Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1504.03197v1</id>
+    <title>Properness of log $F$-functionals</title>
+    <updated>2015-04-13T14:23:42Z</updated>
+    <link href="https://arxiv.org/abs/1504.03197v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1504.03197v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we apply the method developed in [Ti97] and [TZ00] to proving the properness of log $F$-functional on any conic Kähler-Einstein manifolds. As an application, we give an alternative proof for the openness of the continuity method through conic Kähler-Einstein metrics.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-04-13T14:23:42Z</published>
+    <arxiv:comment>21 pages</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <author>
+      <name>Gang Tian</name>
+    </author>
+    <author>
+      <name>Xiaohua Zhu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/alg-geom/9608032v3</id>
+    <title>Virtual moduli cycles and Gromov-Witten invariants of general symplectic manifolds</title>
+    <updated>1996-09-19T18:38:09Z</updated>
+    <link href="https://arxiv.org/abs/alg-geom/9608032v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/alg-geom/9608032v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We construct Gromov-Witten invariants of general symplectic manifolds.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1996-08-26T22:17:17Z</published>
+    <arxiv:comment>LaTex. We updated the bibliography in the revised version</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <author>
+      <name>Jun Li</name>
+    </author>
+    <author>
+      <name>Gang Tian</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1802.09506v2</id>
+    <title>Relative volume comparison of Ricci Flow and its applications</title>
+    <updated>2018-04-17T00:28:20Z</updated>
+    <link href="https://arxiv.org/abs/1802.09506v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1802.09506v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we derive a relative volume comparison estimate along Ricci flow and apply it to studying the Gromov-Hausdorff convergence of Kähler-Ricci flow on a minimal manifold. This new estimate generalizes Perelman's no local collapsing estimate and can be regarded as an analogue of the Bishop-Gromov volume comparison for Ricci flow.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-02-26T18:42:23Z</published>
+    <arxiv:comment>28 pages; minor change in the proof of Lemma 3.1</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <author>
+      <name>Gang Tian</name>
+    </author>
+    <author>
+      <name>Zhenlei Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/0505587v2</id>
+    <title>The log term of Szego Kernel</title>
+    <updated>2005-06-02T17:05:52Z</updated>
+    <link href="https://arxiv.org/abs/math/0505587v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/0505587v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  In this paper, we study the relations between the log term of the Szegö kernel of the unit circle bundle of the dual line bundle of an ample line bundle over a compact Kählermanifold. We proved a local rigidity theorem. The result is related to the classical Ramadanov Conjecture.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2005-05-26T18:34:23Z</published>
+    <arxiv:comment>We corrected a typo in the title in this version</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <arxiv:journal_ref>Duke J. Math, vol 125(2), 2004, pp 351-387</arxiv:journal_ref>
+    <author>
+      <name>Zhiqin Lu</name>
+    </author>
+    <author>
+      <name>Gang Tian</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0710.1144v1</id>
+    <title>A uniform L^{\infty} estimate for complex Monge-Ampere equations</title>
+    <updated>2007-10-05T08:16:09Z</updated>
+    <link href="https://arxiv.org/abs/0710.1144v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0710.1144v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We prove uniform sup-norm estimates for the Monge-Ampere equation with respect to a family of Kahler metrics which degenerate towards a pull-back of a metric from a lower dimensional manifold. This is then used to show the existence of generalized Kahler-Einstein metrics as the limits of the Kahler-Ricci flow for some holomorphic fibrations (in the spirit of Song and Tian "The Kahler-Ricci flow on surfaces of positive Kodaira dimension", arXiv:math/0602150).</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2007-10-05T08:16:09Z</published>
+    <arxiv:comment>14 pages</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <author>
+      <name>Slawomir Kolodziej</name>
+    </author>
+    <author>
+      <name>Gang Tian</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1512.00699v1</id>
+    <title>Correction to Section 19.2 of Ricci Flow and the Poincare Conjecture</title>
+    <updated>2015-12-02T14:10:33Z</updated>
+    <link href="https://arxiv.org/abs/1512.00699v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1512.00699v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This note corrects a mistake in the original book in the evolution equations of total curvature for the curve-shrinking flow in an ambient Ricci Flow. The resulting upper bound for the evolution of total curvature is an exponential bound in time. The change involves the multiplicative constant. Here we show that it depends on the initial total curvature and the initial length, rather than just on the initial total curvature as was asserted before. This change does not affect the application of these results to prove finite-time extinction when the third homotopy group of the manifold is non-trivial.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-12-02T14:10:33Z</published>
+    <arxiv:comment>9 pages, 2 references</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <author>
+      <name>John Morgan</name>
+    </author>
+    <author>
+      <name>Gang Tian</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2509.14820v2</id>
+    <title>Laplace comparison on Kähler Ricci flow and convergence</title>
+    <updated>2025-10-29T06:37:51Z</updated>
+    <link href="https://arxiv.org/abs/2509.14820v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2509.14820v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We first prove a uniform integral Laplace comparison result for the Kähler Ricci flow on Fano manifolds which depends only on the initial metric. As an application, using Cheeger-Colding theory and previous results by some of the authors, we give a direct and independent proof of the Hamilton-Tian conjecture on convergence of Kähler-Ricci flows, modulo a codimension 4 singular set. We also expounded on some existing literature on this conjecture.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-09-18T10:21:59Z</published>
+    <arxiv:comment>43 pages. replaces the appendix by a remark and link</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <author>
+      <name>Gang Tian</name>
+    </author>
+    <author>
+      <name>Qi S. Zhang</name>
+    </author>
+    <author>
+      <name>Zhenlei Zhang</name>
+    </author>
+    <author>
+      <name>Meng Zhu</name>
+    </author>
+    <author>
+      <name>Xiaohua Zhu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1006.1577v1</id>
+    <title>Degeneration of Kähler-Ricci solitons</title>
+    <updated>2010-06-08T14:48:31Z</updated>
+    <link href="https://arxiv.org/abs/1006.1577v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1006.1577v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Let $(Y, d)$ be a Gromov-Hausdorff limit of $n$-dimensional closed shrinking Kähler-Ricci solitons with uniformly bounded volumes and Futaki invariants. We prove that off a closed subset of codimension at least 4, Y is a smooth manifold satisfying a shrinking Kähler-Ricci soliton equation. A similar convergence result for Kähler-Ricci flow of positive first Chern class is also obtained.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-06-08T14:48:31Z</published>
+    <arxiv:comment>24 pages</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <author>
+      <name>Gang Tian</name>
+    </author>
+    <author>
+      <name>Zhenlei Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0906.4646v1</id>
+    <title>Geometric Structures of Collapsing Riemannian Manifolds II: N*-bundles and Almost Ricci Flat Spaces</title>
+    <updated>2009-06-25T09:59:37Z</updated>
+    <link href="https://arxiv.org/abs/0906.4646v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0906.4646v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  In this paper we study collapsing sequences M_{i}-&gt; X of Riemannian manifolds with curvature bounded or bounded away from a controlled subset. We introduce a structure over X which in an appropriate sense is dual to the N-structure of Cheeger, Fukaya and Gromov. As opposed to the N-structure, which live over the M_{i} themselves, this structure lives over X and allows for a convenient notion of global convergence as well as the appropriate background structure for doing analysis on X. This structure is new even in the case of uniformly bounded curvature and as an application we give a generalization of Gromov's Almost Flat Theorem and prove new Ricci pinching theorems which extend those known in the noncollapsed setting. There are also interesting topological consequences to the structure.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2009-06-25T09:59:37Z</published>
+    <arxiv:comment>36 pages</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <author>
+      <name>Aaron Naber</name>
+    </author>
+    <author>
+      <name>Gang Tian</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0903.4418v2</id>
+    <title>A parabolic flow of pluriclosed metrics</title>
+    <updated>2009-07-21T18:19:43Z</updated>
+    <link href="https://arxiv.org/abs/0903.4418v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0903.4418v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We define a parabolic flow of pluriclosed metrics. This flow is of the same family introduced by the authors in \cite{ST}. We study the relationship of the existence of the flow and associated static metrics topological information on the underlying complex manifold. Solutions to the static equation are automatically Hermitian-symplectic, a condition we define herein. These static metrics are classified on K3 surfaces, complex toroidal surfaces, nonminimal Hopf surfaces, surfaces of general type, and Class $\seven^+$ surfaces. To finish we discuss how the flow may potentially be used to study the topology of Class $\seven^+$ surfaces.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2009-03-25T18:41:49Z</published>
+    <arxiv:primary_category term="math.DG"/>
+    <author>
+      <name>Jeffrey Streets</name>
+    </author>
+    <author>
+      <name>Gang Tian</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2107.12680v1</id>
+    <title>Kähler-Ricci flow for deformed complex structures</title>
+    <updated>2021-07-27T09:07:25Z</updated>
+    <link href="https://arxiv.org/abs/2107.12680v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2107.12680v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Let $(M,J_0)$ be a Fano manifold which admits a Kähler-Ricci soliton, we analyze the behavior of the Kähler-Ricci flow near this soliton as we deform the complex structure $J_0$. First, we will establish an inequality of Lojasiewicz's type for Perelman's entropy along the Kähler-Ricci flow. Then we prove the convergence of Kähler-Ricci flow when the complex structure associated to the initial value lies in the kernel $Z$ or negative part of the second variation operator of Perelman's entropy. As applications, we solve the Yau-Tian-Donaldson conjecture for the existence of Kähler-Ricci solitons in the moduli space of complex structures near $J_0$, and we show that the kernel $Z$ corresponds to the local moduli space of Fano manifolds which are modified $K$-semistable. We also prove an uniqueness theorem for Kähler-Ricci solitons.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-07-27T09:07:25Z</published>
+    <arxiv:primary_category term="math.DG"/>
+    <author>
+      <name>Gang Tian</name>
+    </author>
+    <author>
+      <name>Liang Zhang</name>
+    </author>
+    <author>
+      <name>Xiaohua Zhu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/0505163v2</id>
+    <title>A note on uniformization of Riemann surfaces by Ricci flow</title>
+    <updated>2005-05-27T15:42:26Z</updated>
+    <link href="https://arxiv.org/abs/math/0505163v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/0505163v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  In this note we clarify that the Rcci flow can be used to give an independent proof of the uniformization theorem of Riemann surfaces.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2005-05-10T00:17:10Z</published>
+    <arxiv:comment>3 pages, no figure, minor changes</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <author>
+      <name>Xiuxiong Chen</name>
+    </author>
+    <author>
+      <name>Peng Lu</name>
+    </author>
+    <author>
+      <name>Gang Tian</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/0610369v1</id>
+    <title>Virtual Manifolds and Localization</title>
+    <updated>2006-10-11T13:48:51Z</updated>
+    <link href="https://arxiv.org/abs/math/0610369v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/0610369v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  In this paper, we explore the virtual technique that is very useful in studying moduli problem from differential geometric point of view. We introduce a class of new objects "virtual manifolds/orbifolds", on which we develop the integration theory. In particular, the virtual localization formula is obtained.</summary>
+    <category term="math.GT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2006-10-11T13:48:51Z</published>
+    <arxiv:comment>23 pages</arxiv:comment>
+    <arxiv:primary_category term="math.GT"/>
+    <author>
+      <name>Bohui Chen</name>
+    </author>
+    <author>
+      <name>Gang Tian</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/0605278v5</id>
+    <title>CM Stability and the Generalized Futaki Invariant I</title>
+    <updated>2008-04-23T04:06:26Z</updated>
+    <link href="https://arxiv.org/abs/math/0605278v5" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/0605278v5" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Based on the Cayley, Grothendieck, Knudsen Mumford theory of determinants we extend the CM polarization to the Hilbert scheme. We identify the weight of this refined line bundle with the generalized Futaki invariant of Donaldson. We are able to conclude that CM stability implies K-Stability. An application of the Grothendieck Riemann Roch Theorem shows that this refined sheaf is isomorphic to the CM polarization introduced by Tian in 1994 on any closed, simply connected base .</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2006-05-10T20:59:46Z</published>
+    <arxiv:comment>24 pages, fully rewritten, references added</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <author>
+      <name>Sean T. Paul</name>
+    </author>
+    <author>
+      <name>Gang Tian</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0804.2275v3</id>
+    <title>Geometric Structures of Collapsing Riemannian Manifolds I</title>
+    <updated>2008-06-18T16:43:13Z</updated>
+    <link href="https://arxiv.org/abs/0804.2275v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0804.2275v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Let (M^n_i,g_i,p_i) be a sequence of smooth pointed complete n-dimensional Riemannian Manifolds with uniform bounds on the sectional curvatures and let (X,d,p) be a metric space such that (M^n_i,g_i,p_i) -&gt; (X,d,p) in the Gromov-Hausdorff sense. Let O \subseteq X be the set of points x \in X such that there exists a neighborhood of x which is isometric to an open set in a Riemannian orbifold and let B = O^c be the complement set. Then we have the sharp estimates dim_Haus(B) \leq min{n-5, dim_Haus(X)-3}, and further for arbitrary x \in X we have that x \in O iff a neighborhood of x has bounded Alexandroff curvature. In particular, if n \leq 4 then B is empty and (X,d) is a Riemannian orbifold. Our main application is to prove that a collapsed limit of Einstein four manifolds has a smooth Riemannian orbifold structure away from a finite number of points, and that near these points the curvatures has a -dist^{-2} lower bound.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2008-04-14T21:09:33Z</published>
+    <arxiv:comment>35 Pages</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <author>
+      <name>Aaron Naber</name>
+    </author>
+    <author>
+      <name>Gang Tian</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1310.5897v1</id>
+    <title>Regularity of Kähler-Ricci flows on Fano manifolds</title>
+    <updated>2013-10-22T12:40:57Z</updated>
+    <link href="https://arxiv.org/abs/1310.5897v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1310.5897v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we will establish a regularity theory for the Kähler-Ricci flow on Fano $n$-manifolds with Ricci curvature bounded in $L^p$-norm for some $p &gt; n$. Using this regularity theory, we will also solve a long-standing conjecture for dimension 3. As an application, we give a new proof of the Yau-Tian-Donaldson conjecture for Fano 3-manifolds. The results have been announced in \cite{TiZh12b}.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-10-22T12:40:57Z</published>
+    <arxiv:comment>Proof of results announced in arXiv:1304.2651v1</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <author>
+      <name>Gang Tian</name>
+    </author>
+    <author>
+      <name>Zhenlei Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/alg-geom/9602007v6</id>
+    <title>Virtual moduli cycles and Gromov-Witten invariants of algebraic varieties</title>
+    <updated>1998-02-14T01:42:02Z</updated>
+    <link href="https://arxiv.org/abs/alg-geom/9602007v6" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/alg-geom/9602007v6" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We introduce a method of constructing the virtual cycle of any scheme associated with a tangent-obstruction complex. We apply this method to constructing the virtual moduli cycle of the moduli of stable maps from n-pointed genus g curves to any smooth projective variety. As an application, we give an algebraic definition of GW-invariants for any smooth projective variety.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1996-02-09T07:08:23Z</published>
+    <arxiv:comment>68 pages, Amstex. Revised version. It appeared in J. of Amer. Math. Soc. Jan 98</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <author>
+      <name>Jun Li</name>
+    </author>
+    <author>
+      <name>Gang Tian</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1008.2794v2</id>
+    <title>Regularity results for pluriclosed flow</title>
+    <updated>2013-10-07T18:17:34Z</updated>
+    <link href="https://arxiv.org/abs/1008.2794v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1008.2794v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In prior work the authors introduced a parabolic flow of pluriclosed metrics. Here we give improved regularity results for solutions to this equation. Furthermore, we exhibit this equation as the gradient flow of the lowest eigenvalue of a certain Schrödinger operator, and show the existence of an expanding entropy functional for this flow. Finally, we motivate a conjectural picture of the optimal regularity results for this flow, and discuss some of the consequences.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-08-16T23:50:42Z</published>
+    <arxiv:comment>Final version, to appear in Geometry and Topology</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <author>
+      <name>Jeff Streets</name>
+    </author>
+    <author>
+      <name>Gang Tian</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1901.01567v1</id>
+    <title>Small gaps of GOE</title>
+    <updated>2019-01-06T16:21:06Z</updated>
+    <link href="https://arxiv.org/abs/1901.01567v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1901.01567v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this article, we study the smallest gaps of the Gaussian orthogonal ensemble. The main result is that the smallest gaps, after normalized by $n$, will tend to a Poisson distribution, and the limiting density of the $k$-th normalized smallest gaps is $ 2{}x^{2k-1}e^{-x^{2}}/(k-1)!$.</summary>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-01-06T16:21:06Z</published>
+    <arxiv:primary_category term="math.PR"/>
+    <author>
+      <name>Renjie Feng</name>
+    </author>
+    <author>
+      <name>Gang Tian</name>
+    </author>
+    <author>
+      <name>Dongyi Wei</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2001.06670v2</id>
+    <title>Almost Hermitian Ricci flow</title>
+    <updated>2020-03-26T15:24:52Z</updated>
+    <link href="https://arxiv.org/abs/2001.06670v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2001.06670v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce a new curvature flow which matches with the Ricci flow on metrics and preserves the almost Hermitian condition. This enables us to use Ricci flow to study almost Hermitian manifolds.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-01-18T14:13:53Z</published>
+    <arxiv:primary_category term="math.DG"/>
+    <author>
+      <name>Casey Lynn Kelleher</name>
+    </author>
+    <author>
+      <name>Gang Tian</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1609.06425v2</id>
+    <title>Asypmtotics of enumerative invariants in $\CC P^2$</title>
+    <updated>2016-10-10T08:27:56Z</updated>
+    <link href="https://arxiv.org/abs/1609.06425v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1609.06425v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we give the asymptotic expansion of $n_{0,d}$ and $n_{1,d}$.</summary>
+    <category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-09-21T06:13:53Z</published>
+    <arxiv:primary_category term="math.AP"/>
+    <author>
+      <name>Gang Tian</name>
+    </author>
+    <author>
+      <name>Dongyi Wei</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1503.03159v1</id>
+    <title>Bounding diameter of singular Kähler metric</title>
+    <updated>2015-03-11T03:15:24Z</updated>
+    <link href="https://arxiv.org/abs/1503.03159v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1503.03159v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper we investigate the differential geometric and algebro-geometric properties of the noncollapsing limit in the continuity method that was introduced by the first two named authors in \cite{LaTi14}.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-03-11T03:15:24Z</published>
+    <arxiv:primary_category term="math.DG"/>
+    <author>
+      <name>Gabriele La Nave</name>
+    </author>
+    <author>
+      <name>Gang Tian</name>
+    </author>
+    <author>
+      <name>Zhenlei Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1405.6352v3</id>
+    <title>Analysis of gauged Witten equation</title>
+    <updated>2014-11-03T15:12:44Z</updated>
+    <link href="https://arxiv.org/abs/1405.6352v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1405.6352v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The gauged Witten equation was essentially introduced by Witten in his formulation of gauged linear $σ$-model (GLSM). GLSM is a physics theory which explains the so-called Landau-Ginzburg/Calabi-Yau correspondence. This is the first paper in a series towards a mathematical construction of GLSM. In this paper we study some analytical properties of the gauged Witten equation for a Lagrange multiplier type superpotential. It contains the asymptotic property of finite energy solutions, the linear Fredholm property, the uniform $C^0$-bound, and the compactness of the moduli space of solutions over a fixed smooth $r$-spin curve with uniform energy bound.</summary>
+    <category term="math.SG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-05-25T00:43:27Z</published>
+    <arxiv:comment>v3. 85 pages, submitted version, many errors corrected, improved literature and layout, sections reorganized; v2. 95 pages, correct two typos in reference</arxiv:comment>
+    <arxiv:primary_category term="math.SG"/>
+    <author>
+      <name>Gang Tian</name>
+    </author>
+    <author>
+      <name>Guangbo Xu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0801.3504v2</id>
+    <title>Perelman's W-functional and stability of Kähler-Ricci flow</title>
+    <updated>2018-07-25T03:27:40Z</updated>
+    <link href="https://arxiv.org/abs/0801.3504v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0801.3504v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this expository note, we study the second variation of Perelman's entropy on the space of Kahler metrics at a Kähler-Ricci soliton. We prove that the entropy is stable in the sense of variations. In particular, Perelman's entropy is stable along the Kähler-Ricci flow. The Chinese version of this note has appeared in a volume in honor of professor K.C.Chang (Scientia Sinica Math., 46 (2016), 685-696).</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2008-01-23T05:54:12Z</published>
+    <arxiv:primary_category term="math.DG"/>
+    <author>
+      <name>Gang Tian</name>
+    </author>
+    <author>
+      <name>Xiaohua Zhu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1201.5183v2</id>
+    <title>On smoothness of timelike maximal cylinders in three dimensional vacuum spacetimes</title>
+    <updated>2012-02-16T04:41:11Z</updated>
+    <link href="https://arxiv.org/abs/1201.5183v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1201.5183v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We show that timelike maximal cylinders in $\RR^{1 + 2}$ always develop singularities in finite time and that, infinitesimally at a generic singularity, their time slices are evolved by a rigid motion or a self-similar motion. We also prove a mild generalization in non-flat backgrounds.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-01-25T05:14:05Z</published>
+    <arxiv:comment>updated references</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <arxiv:journal_ref>Class. Quantum Grav. 30 (2013), no. 16, 165010</arxiv:journal_ref>
+    <author>
+      <name>Luc Nguyen</name>
+    </author>
+    <author>
+      <name>Gang Tian</name>
+    </author>
+    <arxiv:doi>10.1088/0264-9381/30/16/165010</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/0264-9381/30/16/165010" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1111.5681v1</id>
+    <title>Bounding scalar curvature for global solutions of the Kahler-Ricci flow</title>
+    <updated>2011-11-24T06:07:14Z</updated>
+    <link href="https://arxiv.org/abs/1111.5681v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1111.5681v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We show that the scalar curvature is uniformly bounded for the normalized Kahler-Ricci flow on a Kahler manifold with semi-ample canonical bundle. In particular, the normalized Kahler-Ricci flow has long time existence if and only if the scalar curvature is uniformly bounded, for Kahler surfaces, projective manifolds of complex dimension three, and for projective manifolds of all dimensions if assuming the abundance conjecture.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-11-24T06:07:14Z</published>
+    <arxiv:comment>12 pages</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <author>
+      <name>Jian Song</name>
+    </author>
+    <author>
+      <name>Gang Tian</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/alg-geom/9712035v1</id>
+    <title>Comparison of the algebraic and the symplectic Gromov-Witten invariants</title>
+    <updated>1998-01-01T00:35:47Z</updated>
+    <link href="https://arxiv.org/abs/alg-geom/9712035v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/alg-geom/9712035v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We show that the algebraic and the symplectic GW-inivariants of smooth projective varieties are equivalent.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1998-01-01T00:35:47Z</published>
+    <arxiv:comment>45 pages, Latex</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <author>
+      <name>Jun Li</name>
+    </author>
+    <author>
+      <name>Gang Tian</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/0010007v1</id>
+    <title>Ricci flow on Kaehler manifolds</title>
+    <updated>2000-10-02T08:51:54Z</updated>
+    <link href="https://arxiv.org/abs/math/0010007v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/0010007v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  In this paper, we announce the following results: Let M be a Kaehler-Einstein manifold with positive scalar curvature. If the initial metric has nonnegative bisectional curvature and positive at least at one point, then the Kähler-Ricci flow converges exponentially fast to a Kaehler-Einstein metric with constant bisectional curvature.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2000-10-02T08:51:54Z</published>
+    <arxiv:comment>5 pages</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <author>
+      <name>Xiuxiong Chen</name>
+      <arxiv:affiliation>Princeton University</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Gang Tian</name>
+      <arxiv:affiliation>MIT</arxiv:affiliation>
+    </author>
+    <arxiv:doi>10.1016/S0764-4442(00)01719-5</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/S0764-4442(00)01719-5" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/0010015v1</id>
+    <title>Gauge theory and calibrated geometry, I</title>
+    <updated>2000-10-02T14:55:40Z</updated>
+    <link href="https://arxiv.org/abs/math/0010015v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/0010015v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The geometry of submanifolds is intimately related to the theory of functions and vector bundles. It has been of fundamental importance to find out how those two objects interact in many geometric and physical problems. A typical example of this relation is that the Picard group of line bundles on an algebraic manifold is isomorphic to the group of divisors, which is generated by holomorphic hypersurfaces modulo linear equivalence. A similar correspondence can be made between the K-group of sheaves and the Chow ring of holomorphic cycles. There are two more very recent examples of such a relation. The mirror symmetry in string theory has revealed a deeper phenomenon involving special Lagrangian cycles (cf. [SYZ]). On the other hand, C. Taubes has shown that the Seiberg-Witten invariant coincides with the Gromov-Witten invariant on any symplectic 4-manifolds.
+  In this paper, we will show another natural interaction between Yang-Mills connections, which are critical points of a Yang-Mills action associated to a vector bundle, and minimal submanifolds, which have been studied extensively for years in classical differential geometry and the calculus of variations.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2000-10-02T14:55:40Z</published>
+    <arxiv:comment>76 pages</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <arxiv:journal_ref>Annals Math.151:193-268,2000</arxiv:journal_ref>
+    <author>
+      <name>Gang Tian</name>
+    </author>
+    <arxiv:doi>10.2307/12111=</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.2307/12111=" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/alg-geom/9611035v1</id>
+    <title>On the semi-simplicity of the quantum cohomology algebras of complete intersections</title>
+    <updated>1996-11-26T19:47:05Z</updated>
+    <link href="https://arxiv.org/abs/alg-geom/9611035v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/alg-geom/9611035v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  In this short note, we study the semi-simplicity of the quantum cohomology algebra H(V, C) of a Fano complete intersection V, and show that the subspace of H(V, C) generated by the hyperplane sections is semi-simple in the sense of Dubrovin when the degree of V satisfies certain conditions.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1996-11-26T19:47:05Z</published>
+    <arxiv:comment>9 pages plain TeX</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <author>
+      <name>Gang Tian</name>
+    </author>
+    <author>
+      <name>Geng Xu</name>
+    </author>
+  </entry>
+</feed>

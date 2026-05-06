@@ -1,0 +1,633 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/JOvftdFjT4L0kdFtUxDdozA6hEo</id>
+  <title>arXiv Query: search_query=au:"Ning Zhang" AND (cat:math.AG OR cat:math.AT OR cat:math.AP OR cat:math.CT OR cat:math.CA OR cat:math.CO OR cat:math.DG OR cat:math.DS OR cat:math.FA OR cat:math.GT OR cat:math.MP OR cat:math.OA OR cat:math.PR OR cat:math.QA OR cat:math.RA OR cat:math.RT OR cat:math.SG OR cat:math.SP OR cat:math.ST OR cat:math.NT OR cat:math.GR OR cat:math.HO OR cat:math-ph OR cat:nlin.SI OR cat:nlin.CD OR cat:hep-th OR cat:q-alg OR cat:dg-ga OR cat:alg-geom OR cat:cond-mat.stat-mech)&amp;id_list=&amp;start=0&amp;max_results=200</title>
+  <updated>2026-05-06T07:32:30Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=au:%22Ning+Zhang%22+AND+(cat:math.AG+OR+(cat:math.AT+OR+(cat:math.AP+OR+(cat:math.CT+OR+(cat:math.CA+OR+(cat:math.CO+OR+(cat:math.DG+OR+(cat:math.DS+OR+(cat:math.FA+OR+(cat:math.GT+OR+(cat:math.MP+OR+(cat:math.OA+OR+(cat:math.PR+OR+(cat:math.QA+OR+(cat:math.RA+OR+(cat:math.RT+OR+(cat:math.SG+OR+(cat:math.SP+OR+(cat:math.ST+OR+(cat:math.NT+OR+(cat:math.GR+OR+(cat:math.HO+OR+(cat:math-ph+OR+(cat:nlin.SI+OR+(cat:nlin.CD+OR+(cat:hep-th+OR+(cat:q-alg+OR+(cat:dg-ga+OR+(cat:alg-geom+OR+cat:cond-mat.stat-mech)))))))))))))))))))))))))))))&amp;start=0&amp;max_results=200&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>200</opensearch:itemsPerPage>
+  <opensearch:totalResults>31</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2203.02862v2</id>
+    <title>Holomorphic sections of line bundles on the jet spaces of the Riemann sphere</title>
+    <updated>2022-03-08T14:09:36Z</updated>
+    <link href="https://arxiv.org/abs/2203.02862v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2203.02862v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Fix a point $t_0$ in the circle $S^1$. The space $J^k(t_0, \mathbb{P}^1)$ of $k$-jets at $t_0$ of $C^{\infty}$ maps from $S^1$ to the Riemann sphere $\mathbb{P}^1$ is a $k+1$ dimensional complex algebraic manifold. We identify a class of holomorphic sections of line bundles on $J^k(t_0, \mathbb{P}^1)$.</summary>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-03-06T02:52:50Z</published>
+    <arxiv:comment>accepted by Analysis Math. public author identifier for Ning Zhang: http://arxiv.org/a/zhang_n_1</arxiv:comment>
+    <arxiv:primary_category term="math.CV"/>
+    <author>
+      <name>Xiaokun Wang</name>
+    </author>
+    <author>
+      <name>Ning Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2504.17459v2</id>
+    <title>A representation of range decreasing group homomorphisms</title>
+    <updated>2025-04-26T14:06:41Z</updated>
+    <link href="https://arxiv.org/abs/2504.17459v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2504.17459v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The method of range decreasing group homomorphisms can be applied to study various maps between mapping spaces, includin holomorphic maps, group homomorphisms, linear maps, semigroup homomorphisms, Lie algebra homomorphisms and algebra homomorphisms [Z1, Z2]. Previous studies on range decreasing group homomorphisms have primarily focused on specific subsets of mapping groups. In this paper, we provide a characterization of a general range decreasing group homomorphism applicable to the entire mapping group. As applications, we compute a particular class of homomorphisms between mapping groups and identify all range decreasing group homomorphisms defined on specific mapping groups.</summary>
+    <category term="math.GR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-04-24T11:44:36Z</published>
+    <arxiv:comment>7 pages</arxiv:comment>
+    <arxiv:primary_category term="math.GR"/>
+    <author>
+      <name>Ning Zhang</name>
+    </author>
+    <author>
+      <name>Lifan Liu</name>
+    </author>
+    <arxiv:doi>10.13140/RG.2.2.31171.72482</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.13140/RG.2.2.31171.72482" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2102.06157v1</id>
+    <title>Range decreasing group homomorphisms and holomorphic maps between generalized loop spaces</title>
+    <updated>2021-02-11T17:59:29Z</updated>
+    <link href="https://arxiv.org/abs/2102.06157v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2102.06157v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Let $\mathcal{G}$ resp. $M$ be a positive dimensional Lie group resp. connected complex manifold without boundary and $V$ a finite dimensional $C^{\infty}$ compact connected manifold, possibly with boundary. Fix a smoothness class $\mathcal{F}=C^{\infty}$, Hölder $C^{k, α}$ or Sobolev $W^{k, p}$. The space $\mathcal{F}(V, \mathcal{G})$ resp. $\mathcal{F}(V, M)$ of all $\mathcal{F}$ maps $V \to \mathcal{G}$ resp. $V \to M$ is a Banach/Fréchet Lie group resp. complex manifold. Let $\mathcal{F}^0(V, \mathcal{G})$ resp. $\mathcal{F}^{0}(V, M)$ be the component of $\mathcal{F}(V, \mathcal{G})$ resp. $\mathcal{F}(V, M)$ containing the identity resp. constants. A map $f$ from a domain $Ω\subset \mathcal{F}_1(V, M)$ to $\mathcal{F}_2(W, M)$ is called range decreasing if $f(x)(W) \subset x(V)$, $x \in Ω$. We prove that if $\dim_{\mathbb{R}} \mathcal{G} \ge 2$, then any range decreasing group homomorphism $f: \mathcal{F}_1^0(V, \mathcal{G}) \to \mathcal{F}_2(W, \mathcal{G})$ is the pullback by a map $φ: W \to V$. We also provide several sufficient conditions for a range decreasing holomorphic map $Ω$ $\to$ $\mathcal{F}_2(W, M)$ to be a pullback operator. Then we apply these results to study certain decomposition of holomorphic maps $\mathcal{F}_1(V, N) \supset Ω\to \mathcal{F}_2(W, M)$. In particular, we identify some classes of holomorphic maps $\mathcal{F}_1^{0}(V, \mathbb{P}^n) \to \mathcal{F}_2(W, \mathbb{P}^m)$, including all automorphisms of $\mathcal{F}^{0}(V, \mathbb{P}^n)$.</summary>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-02-11T17:59:29Z</published>
+    <arxiv:comment>26 pages</arxiv:comment>
+    <arxiv:primary_category term="math.CV"/>
+    <arxiv:journal_ref>Ann. Sc. Norm. Super. Pisa Cl. Sci. (5), 2022?</arxiv:journal_ref>
+    <author>
+      <name>Ning Zhang</name>
+    </author>
+    <arxiv:doi>10.13140/RG.2.2.19499.57129</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.13140/RG.2.2.19499.57129" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2003.13899v3</id>
+    <title>Riemann-Hilbert problem associated with the fourth-order dispersive nonlinear Schrödinger equation in optics and magnetic mechanics</title>
+    <updated>2021-01-19T03:15:47Z</updated>
+    <link href="https://arxiv.org/abs/2003.13899v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2003.13899v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we utilize Fokas method to investigate the initial-boundary value problems (IBVPs) of the fourth-order dispersive nonlinear Schrödinger (FODNLS) equation on the half-line, which can simulate the nonlinear transmission and interaction of ultrashort pulses in the high-speed optical fiber transmission system, and describe the nonlinear spin excitation phenomenon of one-dimensional Heisenberg ferromagnetic chain with eight poles and dipole interaction. By discussing the eigenfunctions of Lax pair of FODNLS equation and the analysis and symmetry of the scattering matrix, the IBVPs of FODNLS equation is expressed as a matrix Riemann-Hilbert (RH) problem form. Then one can get the potential function solution $u(x,t)$ of the FODNLS equation by solving this matrix RH problem. In addition, we also obtained that some spectral functions admits a key global relationship.</summary>
+    <category term="nlin.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-03-31T01:25:45Z</published>
+    <arxiv:primary_category term="nlin.SI"/>
+    <author>
+      <name>Beibei Hu</name>
+    </author>
+    <author>
+      <name>Ling Zhang</name>
+    </author>
+    <author>
+      <name>Qinghong Li</name>
+    </author>
+    <author>
+      <name>Ning Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/0403405v1</id>
+    <title>Dolbeault cohomology of a loop space</title>
+    <updated>2004-03-24T08:32:09Z</updated>
+    <link href="https://arxiv.org/abs/math/0403405v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/0403405v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The loop space LP_1 of the Riemann sphere is an infinite dimensional complex manifold consisting of maps (loops) from S^1 to P_1 in some fixed C^k or Sobolev W^{k,p} space. In this paper we compute the Dolbeault cohomology groups H^{0,1}(LP_1).</summary>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2004-03-24T08:32:09Z</published>
+    <arxiv:comment>26 pages</arxiv:comment>
+    <arxiv:primary_category term="math.CV"/>
+    <arxiv:journal_ref>Acta Math., 193 (2004), 241-268</arxiv:journal_ref>
+    <author>
+      <name>Laszlo Lempert</name>
+    </author>
+    <author>
+      <name>Ning Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/0602667v4</id>
+    <title>The Picard group of the loop space of the Riemann sphere</title>
+    <updated>2022-03-09T11:21:29Z</updated>
+    <link href="https://arxiv.org/abs/math/0602667v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/0602667v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The loop space of the Riemann sphere consisting of all $C^k$ or Sobolev $W^{k,p}$ maps from the circle $S^1$ to the sphere is an infinite dimensional complex manifold. We compute the Picard group of holomorphic line bundles on this loop space as an infinite dimensional complex Lie group with Lie algebra the first Dolbeault group. The group of Mobius transformations $G$ and its loop group $LG$ act on this loop space. We prove that an element of the Picard group is $LG$-fixed if it is $G$-fixed; thus completely answer the question by Millson and Zombro about $G$-equivariant projective embedding of the loop space of the Riemann sphere.</summary>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2006-02-28T14:30:53Z</published>
+    <arxiv:comment>for other preprints of Ning Zhang see http://arxiv.org/a/zhang_n_1</arxiv:comment>
+    <arxiv:primary_category term="math.CV"/>
+    <arxiv:journal_ref>Int. J. Math., 21 (2010), 1387-1399</arxiv:journal_ref>
+    <author>
+      <name>Ning Zhang</name>
+    </author>
+    <arxiv:doi>10.1142/s0129167x10006471</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1142/s0129167x10006471" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1602.05574v1</id>
+    <title>Aleksandrov projection problem for convex lattice sets</title>
+    <updated>2016-02-17T17:37:34Z</updated>
+    <link href="https://arxiv.org/abs/1602.05574v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1602.05574v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Let $K$ and $L$ be origin-symmetric convex integer polytopes in $\mathbb{R}^n$. We study a discrete analogue of the Aleksandrov projection problem. If for every $u\in \mathbb{Z}^n$, the sets $(K\cap \mathbb{Z}^n)|u^\perp$ and $(L\cap \mathbb{Z}^n)|u^\perp$ have the same number of points, is then $K=L$? We give a positive answer to this problem in $\mathbb{Z}^2$ under an additional hypothesis that $(2K\cap \mathbb{Z}^2)|u^\perp$ and $(2L\cap \mathbb{Z}^2)|u^\perp$ have the same number of points.</summary>
+    <category term="math.MG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-02-17T17:37:34Z</published>
+    <arxiv:primary_category term="math.MG"/>
+    <author>
+      <name>Ning Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1305.0721v2</id>
+    <title>Isocapacity Estimates for Hessian Operators</title>
+    <updated>2014-04-13T19:35:50Z</updated>
+    <link href="https://arxiv.org/abs/1305.0721v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1305.0721v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Through a new powerful potential-theoretic analysis, this paper is devoted to discovering the geometrically equivalent isocapacity forms of Chou-Wang's Sobolev type inequality and Tian-Wang's Moser-Trudinger type inequality for the fully nonlinear $1\leq k\leq n/2$ Hessian operators.</summary>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.MG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-05-03T14:25:29Z</published>
+    <arxiv:comment>23 pages, 5 figures</arxiv:comment>
+    <arxiv:primary_category term="math.FA"/>
+    <author>
+      <name>Jie Xiao</name>
+    </author>
+    <author>
+      <name>Ning Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2501.04707v3</id>
+    <title>Range decreasing group homomorphisms and weighted composition operators</title>
+    <updated>2025-01-31T05:37:54Z</updated>
+    <link href="https://arxiv.org/abs/2501.04707v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2501.04707v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present necessary and sufficient conditions for a group homomorphism between spaces of smooth sections of Lie group bundles to be a weighted composition operator. These results provide new insights into a wide range of problems related to weighted composition operators. Specifically, we prove that the algebraic structure of the space of smooth sections of an algebra bundle, where the typical fiber is a positive dimensional simple unital algebra, completely determines the bundle structure. Furthermore, we derive a homomorphism version of the Shanks-Pursell theorem and identify a class of homomorphisms of multiplicative semigroups between spaces of smooth functions on finite dimensional manifolds, including all isomorphisms. Our approach is based on a method called range decreasing group homomorphisms.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-12-24T02:45:53Z</published>
+    <arxiv:comment>38 pages</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <author>
+      <name>Ning Zhang</name>
+    </author>
+    <arxiv:doi>10.13140/RG.2.2.13488.26888</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.13140/RG.2.2.13488.26888" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1809.07035v1</id>
+    <title>Riemann-Hilbert method and soliton solutions in the system of two-component Hirota equations</title>
+    <updated>2018-09-19T07:35:33Z</updated>
+    <link href="https://arxiv.org/abs/1809.07035v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1809.07035v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this letter we examine the two-component Hirota (TH) equations which describes the pulse propagation in a coupled fiber with higher-order dispersion and self-steepening. As the TH equations is a complete integrable system, which admits a $3\times 3$ Ablowitz-Kaup-Newell-Segu(AKNS)-type Lax pair, we obtain the general N-soliton solutions of the TH equations via the Riemann-Hilbert(RH) method when the jump matrix of a specific RH problem is a $3\times3$ unit matrix. As an example, the expression of one- and two-soliton are displayed explicitly.</summary>
+    <category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-09-19T07:35:33Z</published>
+    <arxiv:comment>6 pages</arxiv:comment>
+    <arxiv:primary_category term="math.AP"/>
+    <author>
+      <name>Fang Fang</name>
+    </author>
+    <author>
+      <name>Beibei Hu</name>
+    </author>
+    <author>
+      <name>Ling Zhang</name>
+    </author>
+    <author>
+      <name>Ning Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1810.08331v1</id>
+    <title>The Novel Symmetry Constraint and Binary Nonlinearization of the Super Generalized Broer-Kaup Hierarchy with Self-consistent Sources and Conservation Laws</title>
+    <updated>2018-10-19T01:39:08Z</updated>
+    <link href="https://arxiv.org/abs/1810.08331v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1810.08331v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The super generalized Broer-Kaup(gBK) hierarchy and its super Hamiltonian structure are established based on a loop super Lie algebra and super-trace identity. Then the self-consistent sources, the conservation laws, the novel symmetry constraint and the binary nonlinearization of the super gBK hierarchy are generated, respectively. In addition, the integrals of motion required for Liouville integrability are explicitly given.</summary>
+    <category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-10-19T01:39:08Z</published>
+    <arxiv:comment>19 pages, 0 figures</arxiv:comment>
+    <arxiv:primary_category term="math.AP"/>
+    <author>
+      <name>Beibei Hu</name>
+    </author>
+    <author>
+      <name>Fang Fang</name>
+    </author>
+    <author>
+      <name>Ning Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1910.11291v2</id>
+    <title>Conditional variable screening via ordinary least squares projection</title>
+    <updated>2020-02-04T02:03:49Z</updated>
+    <link href="https://arxiv.org/abs/1910.11291v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1910.11291v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this article, we propose a novel variable screening method for linear models named as conditional screening via ordinary least squares projection (COLP). COLP can take advantage of prior knowledge concerning certain active predictors by eliminating the adverse impact of their coefficients in the estimation of remaining ones and thus significantly enhance the screening accuracy. We prove its sure-screening property under reasonable assumptions and demonstrate its utility in an application to a leukemia dataset. Moreover, based on the conditional approach, we introduce an iterative algorithm named as forward screening via ordinary least squares projection (FOLP), which not only could exploit the prior information more effectively, but also has promising performance when no prior knowledge is available using a data-driven conditioning set. Extensive simulation studies are carried out to demonstrate the competence of both proposed methods.</summary>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-10-24T17:08:54Z</published>
+    <arxiv:primary_category term="math.ST"/>
+    <author>
+      <name>Ning Zhang</name>
+    </author>
+    <author>
+      <name>Wenxin Jiang</name>
+    </author>
+    <author>
+      <name>Yuting Lan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1812.01367v4</id>
+    <title>On the sure screening properties of iteratively sure independence screening algorithms</title>
+    <updated>2019-11-17T13:52:41Z</updated>
+    <link href="https://arxiv.org/abs/1812.01367v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1812.01367v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Fan and Lv (2008) proposed the path-breaking theory of sure independence screening (SIS) and an iterative algorithm (ISIS) to effectively reduce the predictor dimension for further variable selection approaches. Fan et al. (2009) extended ISIS to generalized linear models and introduced the Vanilla ISIS (Van-ISIS) algorithm, allowing selected predictors to be screened out in upcoming iterations. The success of SIS depends on its sure screening property, which was obtained by Fan and Lv (2008) under the marginal correlation assumption. However, despite wide applications of ISIS and Van-ISIS in various scientific fields, their sure screening properties have not been proved during the past decade. To fill this gap, we prove the sure screening properties of three different types of iterative algorithms for linear models without relying on the marginal correlation assumption, where ISIS and Van-ISIS can be regarded as two special cases of them.</summary>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-12-04T12:22:03Z</published>
+    <arxiv:primary_category term="math.ST"/>
+    <author>
+      <name>Ning Zhang</name>
+    </author>
+    <author>
+      <name>Wenxin Jiang</name>
+    </author>
+    <author>
+      <name>Yuting Lan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1711.10445v1</id>
+    <title>On bodies with congruent sections or projections</title>
+    <updated>2017-11-28T18:12:37Z</updated>
+    <link href="https://arxiv.org/abs/1711.10445v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1711.10445v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we construct two convex bodies $K$ and $L$ in $\mathbb{R}^n$, $n\geq 3$, such that their projections $K|H$, $L|H$ onto every subspace $H$ are congruent, but nevertheless, $K$ and $L$ do not coincide up to a translation or a reflection in the origin. This gives a negative answer to an old conjecture posed by Nakajima and Süss.</summary>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-11-28T18:12:37Z</published>
+    <arxiv:comment>11 pages, 3 figures</arxiv:comment>
+    <arxiv:primary_category term="math.FA"/>
+    <author>
+      <name>Ning Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1211.5076v1</id>
+    <title>Limiting Weak Type Estimate for Capacitary Maximal Function</title>
+    <updated>2012-11-21T16:26:07Z</updated>
+    <link href="https://arxiv.org/abs/1211.5076v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1211.5076v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A capacitary analogue of the limiting weak type estimate of P. Janakiraman for the Hardy-Littlewood maximal function of an L1-function is discovered.</summary>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-11-21T16:26:07Z</published>
+    <arxiv:comment>9 pages</arxiv:comment>
+    <arxiv:primary_category term="math.FA"/>
+    <author>
+      <name>Jie Xiao</name>
+    </author>
+    <author>
+      <name>Ning Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1809.09472v1</id>
+    <title>Riemann-Hilbert approach for a mixed coupled nonlinear Schrödinger system and its soliton solutions</title>
+    <updated>2018-09-22T01:36:17Z</updated>
+    <link href="https://arxiv.org/abs/1809.09472v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1809.09472v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this work, we examine the integrable mixed coupled nonlinear Schrödinger (mCNLS) system, which describe the propagation of an optical pulse in a birefringent optical fiber. By the Riemann-Hilbert(RH) approach, the N-soliton solutions of the mCNLS system can be expressed explicitly when the jump matrix of a specific RH problem is a $3\times3$ unit matrix. As a special example, the expression of one- and two-soliton are displayed explicitly. More generally, as a promotion, an integrable generalized multi-component NLS system with its linear spectral problem be discussed. It is hoped that our results can help enrich the nonlinear dynamical behaviors of the mCNLS.</summary>
+    <category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-09-22T01:36:17Z</published>
+    <arxiv:comment>15 pages, 1 figures. arXiv admin note: text overlap with arXiv:1809.07035</arxiv:comment>
+    <arxiv:primary_category term="math.AP"/>
+    <author>
+      <name>Fang Fang</name>
+    </author>
+    <author>
+      <name>Beibei Hu</name>
+    </author>
+    <author>
+      <name>Ling Zhang</name>
+    </author>
+    <author>
+      <name>Ning Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/0210017v2</id>
+    <title>Holomorphic line bundles on the loop space of the Riemann sphere</title>
+    <updated>2022-03-08T14:24:58Z</updated>
+    <link href="https://arxiv.org/abs/math/0210017v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/0210017v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The loop space $L\mathbb{P}_1$ of the Riemann sphere consisting of all $C^k$ or Sobolev $W^{k,p}$ maps from the circle $S^1$ to $\mathbb{P}_1$ is an infinite dimensional complex manifold. The loop group $LPGL(2,\mathbb{C})$ acts on $L\mathbb{P}_1$ . We prove that the group of $LPGL(2,\mathbb{C})$ invariant holomorphic line bundles on $L\mathbb{P}_1$ is isomorphic to an infinite dimensional Lie group. Further, we prove that the space of holomorphic sections of these bundles is finite dimensional, and compute the dimension for a generic bundle.</summary>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2002-10-02T01:16:17Z</published>
+    <arxiv:comment>public author identifier for Ning Zhang: http://arxiv.org/a/zhang_n_1</arxiv:comment>
+    <arxiv:primary_category term="math.CV"/>
+    <arxiv:journal_ref>J. Differ. Geom., 65 (2003), 1-17</arxiv:journal_ref>
+    <author>
+      <name>Ning Zhang</name>
+    </author>
+    <arxiv:doi>10.4310/jdg/1090503051</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.4310/jdg/1090503051" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2512.04628v10</id>
+    <title>A solution to Banach conjecture</title>
+    <updated>2026-04-06T16:49:50Z</updated>
+    <link href="https://arxiv.org/abs/2512.04628v10" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2512.04628v10" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we begin by constructing global linear maps on (n-2)-dimensional subspaces, derived from the local continuity of linear transformations among central sections of a convex body. Using these linear maps, we subsequently establish a full proof of Banach's isometric subspace problem in finite-dimensional spaces, extending Gromov's earlier results.</summary>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.MG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-04T09:58:57Z</published>
+    <arxiv:primary_category term="math.FA"/>
+    <author>
+      <name>Ning Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2402.12802v1</id>
+    <title>The Minkowski problem for the non-compact convex set with an asymptotic boundary condition</title>
+    <updated>2024-02-20T08:21:20Z</updated>
+    <link href="https://arxiv.org/abs/2402.12802v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2402.12802v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, combining the covolume, we study the Minkowski theory for the non-compact convex set with an asymptotic boundary condition. In particular, the mixed covolume of two non-compact convex sets is introduced and its geometric interpretation is obtained by the Hadamard variational formula. The Brunn-Minkowski and Minkowski inequalities for covolume are established, and the equivalence of these two inequalities are discussed as well. The Minkowski problem for non-compact convex set is proposed and solved under the asymptotic conditions. In the end, we give a solution to the Minkowski problem for $σ$-finite measure on the conic domain $Ω_C$.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-02-20T08:21:20Z</published>
+    <arxiv:comment>20 pages</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <author>
+      <name>Ning Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2403.19516v2</id>
+    <title>Spectral Clustering for Directed Graphs via Likelihood Estimation on Stochastic Block Models</title>
+    <updated>2025-06-03T17:00:53Z</updated>
+    <link href="https://arxiv.org/abs/2403.19516v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2403.19516v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Graph clustering is a fundamental task in unsupervised learning with broad real-world applications. While spectral clustering methods for undirected graphs are well-established and guided by a minimum cut optimization consensus, their extension to directed graphs remains relatively underexplored due to the additional complexity introduced by edge directions. In this paper, we leverage statistical inference on stochastic block models to guide the development of a spectral clustering algorithm for directed graphs. Specifically, we study the maximum likelihood estimation under a widely used directed stochastic block model, and derive a global objective function that aligns with the underlying community structure. We further establish a theoretical upper bound on the misclustering error of its spectral relaxation, and based on this relaxation, introduce a novel, self-adaptive spectral clustering method for directed graphs. Extensive experiments on synthetic and real-world datasets demonstrate significant performance gains over existing baselines.</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-03-28T15:47:13Z</published>
+    <arxiv:primary_category term="stat.ML"/>
+    <author>
+      <name>Ning Zhang</name>
+    </author>
+    <author>
+      <name>Xiaowen Dong</name>
+    </author>
+    <author>
+      <name>Mihai Cucuringu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1703.01458v2</id>
+    <title>The $p$-capacitary Orlicz-Hadamard variational formula and Orlicz-Minkowski problems</title>
+    <updated>2017-11-19T02:46:40Z</updated>
+    <link href="https://arxiv.org/abs/1703.01458v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1703.01458v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, combining the $p$-capacity for $p\in (1, n)$ with the Orlicz addition of convex domains, we develop the $p$-capacitary Orlicz-Brunn-Minkowski theory. In particular, the Orlicz $L_φ$ mixed $p$-capacity of two convex domains is introduced and its geometric interpretation is obtained by the $p$-capacitary Orlicz-Hadamard variational formula. The $p$-capacitary Orlicz-Brunn-Minkowski and Orlicz-Minkowski inequalities are established, and the equivalence of these two inequalities are discussed as well. The $p$-capacitary Orlicz-Minkowski problem is proposed and solved under some mild conditions on the involving functions and measures. In particular, we provide the solutions for the normalized $p$-capacitary $L_q$ Minkowski problems with $q&gt;1$ for both discrete and general measures.</summary>
+    <category term="math.MG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-03-04T14:19:14Z</published>
+    <arxiv:comment>Some modifications were made to fix the gap</arxiv:comment>
+    <arxiv:primary_category term="math.MG"/>
+    <author>
+      <name>Han Hong</name>
+    </author>
+    <author>
+      <name>Deping Ye</name>
+    </author>
+    <author>
+      <name>Ning Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2004.07608v1</id>
+    <title>On the Riemann-Hilbert problem for the Chen-Lee-Liu derivative nonlinear Schrödinger equation</title>
+    <updated>2020-04-16T11:33:40Z</updated>
+    <link href="https://arxiv.org/abs/2004.07608v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2004.07608v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this work, we investigated a combined Chen-Lee-Liu derivative nonlinear Schrödinger equation(called CLL-NLS equation by Kundu) on the half-line by unified transformation approach. We gives spectral analysis of the Lax pair for CLL-NLS equation, and establish a matrix Riemann-Hilbert problem, so as to reconstruct the solution $r(z,t)$ of the CLL-NLS equation by solving. Furthermore, the spectral functions are not independent, but enjoy by a compatibility condition, which is the so-called global relation.</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nlin.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-04-16T11:33:40Z</published>
+    <arxiv:primary_category term="math-ph"/>
+    <author>
+      <name>Beibei Hu</name>
+    </author>
+    <author>
+      <name>Ling Zhang</name>
+    </author>
+    <author>
+      <name>Ning Zhang</name>
+    </author>
+    <arxiv:doi>10.1088/1572-9494/abc3ac</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1572-9494/abc3ac" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1704.03456v1</id>
+    <title>A Riemann-Hilbert Approach to the Complex Sharma-Tasso-Olver Equation on the Half Line</title>
+    <updated>2017-04-11T13:34:54Z</updated>
+    <link href="https://arxiv.org/abs/1704.03456v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1704.03456v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we use the Fokas method to analyze the complex Sharma-Tasso-Olver(cSTO) equation on the half line. We show that it can be represented in terms of the solution of a matrix RHP formulated in the plane of the complex spectral parameter λ.</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nlin.PS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nlin.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-04-11T13:34:54Z</published>
+    <arxiv:comment>arXiv admin note: text overlap with arXiv:1109.4935, arXiv:1205.1559, arXiv:0808.1534 by other authors</arxiv:comment>
+    <arxiv:primary_category term="math-ph"/>
+    <author>
+      <name>Ning Zhang</name>
+    </author>
+    <author>
+      <name>Tiecheng Xia</name>
+    </author>
+    <author>
+      <name>Beibei Hu</name>
+    </author>
+    <arxiv:doi>10.1088/0253-6102/68/5/580</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/0253-6102/68/5/580" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2008.13633v3</id>
+    <title>The weak convergence of varifolds generated by rectifiable flat G-chains</title>
+    <updated>2021-05-21T07:18:07Z</updated>
+    <link href="https://arxiv.org/abs/2008.13633v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2008.13633v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In the present paper, we prove that the convergence of rectifiable chains in flat norm implies the weak convergence of associated rectifiable varifolds if the limit flat chain is rectifiable and the mass converges also to the mass of limit chain.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-08-31T14:11:20Z</published>
+    <arxiv:primary_category term="math.CA"/>
+    <author>
+      <name>Chunyan Liu</name>
+    </author>
+    <author>
+      <name>Yangqin Fang</name>
+    </author>
+    <author>
+      <name>Ning Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1507.05280v1</id>
+    <title>Existence of solutions for a higher order Kirchhoff type problem with exponential critical growth</title>
+    <updated>2015-07-19T12:33:44Z</updated>
+    <link href="https://arxiv.org/abs/1507.05280v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1507.05280v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The higher order Kirchhoff type equation $$\int_{\mathbb{R}^{2m}}(|\nabla^m u|^2 +\sum_{γ=0}^{m-1}a_γ(x)|\nabla^γu|^2)dx \left((-Δ)^m u+\sum_{γ=0}^{m-1}(-1)^γ\nabla^γ\cdot(a_γ(x)\nabla^γu)\right) =\frac{f(x,u)}{|x|^β}+εh(x)\ \ \text{in}\ \ \mathbb{R}^{2m}$$ is considered in this paper. We assume that the nonlinearity of the equation has exponential critical growth and prove that, for a positive $ε$ which is small enough, there are two distinct nontrivial solutions to the equation. When $ε=0$, we also prove that the equation has a nontrivial mountain-pass type solution.</summary>
+    <category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-07-19T12:33:44Z</published>
+    <arxiv:comment>14 pages</arxiv:comment>
+    <arxiv:primary_category term="math.AP"/>
+    <author>
+      <name>Liang Zhao</name>
+    </author>
+    <author>
+      <name>Ning Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2203.09563v1</id>
+    <title>Ulam floating functions</title>
+    <updated>2022-03-17T18:54:33Z</updated>
+    <link href="https://arxiv.org/abs/2203.09563v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2203.09563v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We extend the notion of Ulam floating sets from convex bodies to Ulam floating functions. We use the Ulam floating functions to derive a new variational formula for the affine surface area of log-concave functions.</summary>
+    <category term="math.MG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-03-17T18:54:33Z</published>
+    <arxiv:primary_category term="math.MG"/>
+    <author>
+      <name>Chunyan Liu</name>
+    </author>
+    <author>
+      <name>Elisabeth M. Werner</name>
+    </author>
+    <author>
+      <name>Deping Ye</name>
+    </author>
+    <author>
+      <name>Ning Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1711.02516v2</id>
+    <title>A Riemann-Hilbert Approach to the Kundu-Eckhaus Equation on the half-Line</title>
+    <updated>2017-11-23T10:41:31Z</updated>
+    <link href="https://arxiv.org/abs/1711.02516v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1711.02516v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we consider the initial-boundary value problem of the Kundu-Eckhaus equation on the half-line by using of the Fokas unified transform method. Assuming that the solution $u(x,t)$ exists, we show that it can be expressed in terms of the unique solution of a matrix Riemann-Hilbert problem formulated in the plane of the complex spectral parameter $λ$. Moreover, we also get there exist spectral functions are not independent and they are satisfying the so-called global relation.</summary>
+    <category term="nlin.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-11-04T07:27:53Z</published>
+    <arxiv:comment>25 pages, 2 figures. arXiv admin note: text overlap with arXiv:1704.03456; text overlap with arXiv:1205.1559, arXiv:0808.1534 by other authors</arxiv:comment>
+    <arxiv:primary_category term="nlin.SI"/>
+    <author>
+      <name>Beibei Hu</name>
+    </author>
+    <author>
+      <name>Tiecheng Xia</name>
+    </author>
+    <author>
+      <name>Ning Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1706.05788v1</id>
+    <title>Strong limit theorems for weighted sums of negatively associated random variables in nonlinear probability</title>
+    <updated>2017-06-19T05:12:33Z</updated>
+    <link href="https://arxiv.org/abs/1706.05788v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1706.05788v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, based on the initiation of the notion of negatively associated random variables under nonlinear probability, a strong limit theorem for weighted sums of random variables within the same frame is achieved without assumptions of independence and identical distribution, from which the Marcinkiewich-Zygmund type and Kolmogorov type strong laws of large numbers are derived. In addition, as applications of our results, Stranssen type invariance principles of negatively associated random variables and vertically independent random variables are proposed respectively.</summary>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-06-19T05:12:33Z</published>
+    <arxiv:comment>27 pages</arxiv:comment>
+    <arxiv:primary_category term="math.PR"/>
+    <author>
+      <name>Yuting Lan</name>
+    </author>
+    <author>
+      <name>Ning Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1812.07387v1</id>
+    <title>The initial-boundary value problems for the coupled derivative nonlinear Schrödinger equations on the half-line</title>
+    <updated>2018-12-16T01:35:09Z</updated>
+    <link href="https://arxiv.org/abs/1812.07387v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1812.07387v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The unified transform method is used to analyze the initial-boundary value problem for the coupled derivative nonlinear Schrödinger(CDNLS) equations on the half-line. In this paper, we assume that the solution $u(x,t)$ and $v(x,t)$ of CDNLS equations are exists, and we show that it can be expressed in terms of the unique solution of a matrix Riemann-Hilbert problem formulated in the plane of the complex spectral parameter $λ$.</summary>
+    <category term="nlin.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-12-16T01:35:09Z</published>
+    <arxiv:comment>arXiv admin note: substantial text overlap with arXiv:1704.03623, arXiv:1712.06449, arXiv:1711.03861</arxiv:comment>
+    <arxiv:primary_category term="nlin.SI"/>
+    <author>
+      <name>Beibei Hu</name>
+    </author>
+    <author>
+      <name>Tiecheng Xia</name>
+    </author>
+    <author>
+      <name>Ning Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1705.03981v1</id>
+    <title>Convergence of ground state solutions for nonlinear Schrödinger equations on graphs</title>
+    <updated>2017-05-11T01:08:27Z</updated>
+    <link href="https://arxiv.org/abs/1705.03981v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1705.03981v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We consider the nonlinear Schrödinger equation $-Δu+(λa(x)+1)u=|u|^{p-1}u$ on a locally finite graph $G=(V,E)$. We prove via the Nehari method that if $a(x)$ satisfies certain assumptions, for any $λ&gt;1$, the equation admits a ground state solution $u_λ$. Moreover, as $λ\rightarrow \infty$, the solution $u_λ$ converges to a solution of the Dirichlet problem $-Δu+u=|u|^{p-1}u$ which is defined on the potential well $Ω$. We also provide a numerical experiment which solves the equation on a finite graph to illustrate our results.</summary>
+    <category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-05-11T01:08:27Z</published>
+    <arxiv:comment>17 pages, 5 figures</arxiv:comment>
+    <arxiv:primary_category term="math.AP"/>
+    <author>
+      <name>Ning Zhang</name>
+    </author>
+    <author>
+      <name>Liang Zhao</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1710.01624v1</id>
+    <title>A comparison theorem under sublinear expectations and related limit theorems</title>
+    <updated>2017-10-04T14:38:53Z</updated>
+    <link href="https://arxiv.org/abs/1710.01624v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1710.01624v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, on the sublinear expectation space, we establish a comparison theorem between independent and convolutionary random vectors, which states that the partial sums of those two sequences of random vectors are identically distributed. Under the sublinear framework, through the comparison theorem, several fundamental limit theorems for convolutionary random vectors are obtained, including the law of large numbers, the central limit theorem and the law of iterated logarithm.</summary>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-10-04T14:38:53Z</published>
+    <arxiv:primary_category term="math.PR"/>
+    <author>
+      <name>Ning Zhang</name>
+    </author>
+    <author>
+      <name>Yuting Lan</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,749 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/T0k5+0UbouvJ0olg+AJJK746owY</id>
+  <title>arXiv Query: search_query=au:"Marta Mazzocco" AND (cat:math.AG OR cat:math.AT OR cat:math.AP OR cat:math.CT OR cat:math.CA OR cat:math.CO OR cat:math.DG OR cat:math.DS OR cat:math.FA OR cat:math.GT OR cat:math.MP OR cat:math.OA OR cat:math.PR OR cat:math.QA OR cat:math.RA OR cat:math.RT OR cat:math.SG OR cat:math.SP OR cat:math.ST OR cat:math.NT OR cat:math.GR OR cat:math.HO OR cat:math-ph OR cat:nlin.SI OR cat:nlin.CD OR cat:hep-th OR cat:q-alg OR cat:dg-ga OR cat:alg-geom OR cat:cond-mat.stat-mech)&amp;id_list=&amp;start=0&amp;max_results=200</title>
+  <updated>2026-05-06T07:30:05Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=au:%22Marta+Mazzocco%22+AND+(cat:math.AG+OR+(cat:math.AT+OR+(cat:math.AP+OR+(cat:math.CT+OR+(cat:math.CA+OR+(cat:math.CO+OR+(cat:math.DG+OR+(cat:math.DS+OR+(cat:math.FA+OR+(cat:math.GT+OR+(cat:math.MP+OR+(cat:math.OA+OR+(cat:math.PR+OR+(cat:math.QA+OR+(cat:math.RA+OR+(cat:math.RT+OR+(cat:math.SG+OR+(cat:math.SP+OR+(cat:math.ST+OR+(cat:math.NT+OR+(cat:math.GR+OR+(cat:math.HO+OR+(cat:math-ph+OR+(cat:nlin.SI+OR+(cat:nlin.CD+OR+(cat:hep-th+OR+(cat:q-alg+OR+(cat:dg-ga+OR+(cat:alg-geom+OR+cat:cond-mat.stat-mech)))))))))))))))))))))))))))))&amp;start=0&amp;max_results=200&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>200</opensearch:itemsPerPage>
+  <opensearch:totalResults>36</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/math/0311261v4</id>
+    <title>Canonical structure and symmetries of the Schlesinger equations</title>
+    <updated>2007-01-10T14:29:09Z</updated>
+    <link href="https://arxiv.org/abs/math/0311261v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/0311261v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The Schlesinger equations $S_{(n,m)}$ describe monodromy preserving deformations of order $m$ Fuchsian systems with $n+1$ poles. They can be considered as a family of commuting time-dependent Hamiltonian systems on the direct product of $n$ copies of $m\times m$ matrix algebras equipped with the standard linear Poisson bracket. In this paper we present a new canonical Hamiltonian formulation of the general Schlesinger equations $S_{(n,m)}$ for all $n$, $m$ and we compute the action of the symmetries of the Schlesinger equations in these coordinates.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nlin.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2003-11-16T16:37:09Z</published>
+    <arxiv:comment>92 pages, no figures. Theorem 1.2 corrected, other misprints removed. To appear on Comm. Math. Phys</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <author>
+      <name>Boris Dubrovin</name>
+    </author>
+    <author>
+      <name>Marta Mazzocco</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/0106208v2</id>
+    <title>The geometry of the classical solutions of the Garnier systems</title>
+    <updated>2001-07-09T09:29:01Z</updated>
+    <link href="https://arxiv.org/abs/math/0106208v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/0106208v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Our aim is to find a general approach to the theory of classical solutions of the Garnier system in $n$-variables, ${\cal G}_n$, based on the Riemann-Hilbert problem and on the geometry of the space of isomonodromy deformations. Our approach consists in determining the monodromy data of the corresponding Fuchsian system that guarantee to have a classical solution of the Garnier system ${\cal G}_n$. This leads to the idea of the reductions of the Garnier systems. We prove that if a solution of the Garnier system ${\cal G}_{n}$ is such that the associated Fuchsian system has $l$ monodromy matrices equal to $\pm\ID$, then it can be reduced classically to a solution of a the Garnier system with $n-l$ variables ${\cal G}_{n-l}$. When $n$ monodromy matrices are equal to $\pm\ID$, we have classical solutions of ${\cal G}_n$. We give also another mechanism to produce classical solutions: we show that the solutions of the Garnier systems having reducible monodromy groups can be reduced to the classical solutions found by Okamoto and Kimura in terms of Lauricella hypergeometric functions. In the case of the Garnier system in 1-variables, i.e. for the Painlevé VI equation, we prove that all classical non-algebraic solutions have either reducible monodromy groups or at least one monodromy matrix equal to $\pm\ID$.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.SG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nlin.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2001-06-25T13:46:04Z</published>
+    <arxiv:comment>32 pages, Latex, 1 reference added</arxiv:comment>
+    <arxiv:primary_category term="math.CA"/>
+    <author>
+      <name>Marta Mazzocco</name>
+      <arxiv:affiliation>Mathematical Institute, Oxford, UK</arxiv:affiliation>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1212.6723v1</id>
+    <title>Confluence on the Painlevé Monodromy Manifolds, their Poisson Structure and Quantisation</title>
+    <updated>2012-12-30T13:53:31Z</updated>
+    <link href="https://arxiv.org/abs/1212.6723v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1212.6723v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper we obtain a system of flat coordinates on the monodromy manifold of each of the Painlevé equations. This allows us to quantise such manifolds. We produce a quantum confluence procedure between cubics in such a way that quantisation and confluence commute. We also investigate the underlying cluster algebra structure and the relation to the versal deformations of singularities of type $D_4,A_3,A_2$, and $A_1$.</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.QA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-12-30T13:53:31Z</published>
+    <arxiv:comment>Version 1, 16 pages, 3 figures</arxiv:comment>
+    <arxiv:primary_category term="math-ph"/>
+    <author>
+      <name>Marta Mazzocco</name>
+    </author>
+    <author>
+      <name>Vladimir Rubtsov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2405.10541v2</id>
+    <title>Segre surfaces and geometry of the Painlevé equations</title>
+    <updated>2026-03-19T22:32:01Z</updated>
+    <link href="https://arxiv.org/abs/2405.10541v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2405.10541v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we consider a six parameter family of affine Segre surfaces embedded in $\mathbb C^6$. For generic values of the parameters, this family is associated to the $q$-difference sixth Painlevé equation. We show that different limiting forms of this family give Segre surfaces that are isomorphic as affine varieties to the the monodromy manifolds of each Painlevé differential equation.</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nlin.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-05-17T05:02:49Z</published>
+    <arxiv:comment>Fixed typos, added references and two remarks, Remark 4.1 and Remark 6.4</arxiv:comment>
+    <arxiv:primary_category term="math-ph"/>
+    <author>
+      <name>Nalini Joshi</name>
+    </author>
+    <author>
+      <name>Marta Mazzocco</name>
+    </author>
+    <author>
+      <name>Pieter Roffelsen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1404.0988v3</id>
+    <title>On a Poisson space of bilinear forms with a Poisson Lie action</title>
+    <updated>2015-03-20T16:16:09Z</updated>
+    <link href="https://arxiv.org/abs/1404.0988v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1404.0988v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We consider the space of bilinear forms on a complex N-dimensional vector space endowed with the quadratic Poisson bracket studied in our previous paper arXiv:1012.5251. We classify all possible quadratic brackets on the set of pairs of matrices A and B with the property that the natural action of B on the defining matrix A of a bilinear form is a Poisson action of a Poisson-Lie group, thus endowing this space of bilinear forms with the structure of Poisson homogeneous space. Beside the product Poisson structure we find two more (dual to each other) structures for which (in contrast to the product Poisson structure) we can implement the reduction to the space of bilinear forms with block upper triangular defining matrices by Dirac procedure. We consider the generalisation of the above construction to triples and show that the space of bilinear forms then acquires the structure of Poisson symmetric space. We study also the generalisation to chains of transformations and to the quantum and quantum affine algebras and the relation between the construction of Poisson symmetric spaces and that of the Poisson groupoid.</summary>
+    <category term="math.QA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nlin.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-04-03T16:05:00Z</published>
+    <arxiv:comment>Substantially enhanced new version</arxiv:comment>
+    <arxiv:primary_category term="math.QA"/>
+    <author>
+      <name>Leonid Chekhov</name>
+    </author>
+    <author>
+      <name>Marta Mazzocco</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1007.3854v1</id>
+    <title>Shear coordinate description of the quantised versal unfolding of D_4 singularity</title>
+    <updated>2010-07-22T11:02:57Z</updated>
+    <link href="https://arxiv.org/abs/1007.3854v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1007.3854v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper by using Teichmuller theory of a sphere with four holes/orbifold points, we obtain a system of flat coordinates on the general affine cubic surface having a D_4 singularity at the origin. We show that the Goldman bracket on the geodesic functions on the four-holed/orbifold sphere coincides with the Etingof-Ginzburg Poisson bracket on the affine D_4 cubic. We prove that this bracket is the image under the Riemann-Hilbert map of the Poisson Lie bracket on the direct sum of three copies of sl_2. We realise the action of the mapping class group by the action of the braid group on the geodesic functions . This action coincides with the procedure of analytic continuation of solutions of the sixth Painlevé equation. Finally, we produce the explicit quantisation of the Goldman bracket on the geodesic functions on the four-holed/orbifold sphere and of the braid group action.</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-07-22T11:02:57Z</published>
+    <arxiv:comment>14 pages, 2 pictures</arxiv:comment>
+    <arxiv:primary_category term="math-ph"/>
+    <author>
+      <name>Leonid Chekhov</name>
+    </author>
+    <author>
+      <name>Marta Mazzocco</name>
+    </author>
+    <arxiv:doi>10.1088/1751-8113/43/44/442002</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1751-8113/43/44/442002" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1705.01447v1</id>
+    <title>Algebras of quantum monodromy data and decorated character varieties</title>
+    <updated>2017-05-03T14:34:13Z</updated>
+    <link href="https://arxiv.org/abs/1705.01447v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1705.01447v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The Riemann-Hilbert correspondence is an isomorphism between the de Rham moduli space and the Betti moduli space, defined by associating to each Fuchsian system its monodromy representation class. In 1997 Hitchin proved that this map is a symplectomorphism. In this paper, we address the question of what happens to this theory if we extend the de Rham moduli space by allowing connections with higher order poles. In our previous paper arXiv:1511.03851, based on the idea of interpreting higher order poles in the connection as boundary components with bordered cusps (vertices of ideal triangles in the Poincaré metric) on the Riemann surface, we introduced the notion of decorated character variety to generalize the Betti moduli space. This decorated character variety is the quotient of the space of representations of the fundamental groupid of arcs by a product of unipotent Borel sub-groups (one per bordered cusp). Here we prove that this representation space is endowed with a Poisson structure induced by the Fock--Rosly bracket and show that the quotient by unipotent Borel subgroups giving rise to the decorated character variety is a Poisson reduction. We deal with the Poisson bracket and its quantization simultaneously, thus providing a quantisation of the decorated character variety. In the case of dimension 2, we also endow the representation space with explicit Darboux coordinates. We conclude with a conjecture on the extended Riemann-Hilbert correspondence in the case of higher order poles.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.QA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nlin.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-05-03T14:34:13Z</published>
+    <arxiv:comment>Dedicated to Nigel Hitchin for his 70th birthday. 22 pages, 6 figures</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <author>
+      <name>Leonid Chekhov</name>
+    </author>
+    <author>
+      <name>Marta Mazzocco</name>
+    </author>
+    <author>
+      <name>Vladimir Rubtsov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0909.5350v1</id>
+    <title>Isomonodromic deformations and twisted Yangians arising in Teichmüller theory</title>
+    <updated>2009-09-29T14:37:55Z</updated>
+    <link href="https://arxiv.org/abs/0909.5350v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0909.5350v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  In this paper we build a link between the Teichmuller theory of hyperbolic Riemann surfaces and isomonodromic deformations of linear systems whose monodromy group is the Fuchsian group associated to the given hyperbolic Riemann surface by the Poincare' uniformization. In the case of a one-sheeted hyperboloid with n orbifold points we show that the Poisson algebra D_n of geodesic length functions is the semiclassical limit of the twisted q-Yangian for the orthogonal Lie algebra defined by Molev, Ragoucy and Sorba. We give a representation of the braid group action on this algebra in terms of an adjoint matrix action. We characterize two types of finite-dimensional Poissonian reductions and give an explicit expression for the generating function of their central elements. Finally, we interpret the algebra D_n as the Poisson algebra of monodromy data of a Frobenius manifold in the vicinity of a non-semisimple point.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2009-09-29T14:37:55Z</published>
+    <arxiv:comment>44 pages, 10 pictures</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <author>
+      <name>Leonid Chekhov</name>
+    </author>
+    <author>
+      <name>Marta Mazzocco</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2307.06803v3</id>
+    <title>Generalized double affine Hecke algebras, their representations, and higher Teichmüller theory</title>
+    <updated>2024-05-24T08:47:01Z</updated>
+    <link href="https://arxiv.org/abs/2307.06803v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2307.06803v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Generalized double affine Hecke algebras (GDAHA) are flat deformations of the group algebras of $2$-dimensional crystallographic groups associated to star-shaped simply laced affine Dynkin diagrams. In this paper, we first construct a functor that sends representations of the $\tilde D_4$-type GDAHA to representations of the $\tilde E_6$-type one for specialised parameters. Then, under no restrictions on the parameters, we construct embeddings of both GDAHAs of type $\tilde D_4$ and $\tilde E_6$ into matrix algebras over quantum cluster $\mathcal{X}$-varieties, thus linking to the theory of higher Teichmüller spaces. For $\tilde E_6$, the two explicit representations we provide over distinct quantum tori are shown to be related by quiver reductions and mutations.</summary>
+    <category term="math.QA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-07-13T15:14:33Z</published>
+    <arxiv:comment>51 pages, 23 figures; final accepted version</arxiv:comment>
+    <arxiv:primary_category term="math.QA"/>
+    <arxiv:journal_ref>Adv. Math. 450 (2024) 109763</arxiv:journal_ref>
+    <author>
+      <name>Davide Dal Martello</name>
+    </author>
+    <author>
+      <name>Marta Mazzocco</name>
+    </author>
+    <arxiv:doi>10.1016/j.aim.2024.109763</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.aim.2024.109763" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1509.07044v4</id>
+    <title>Colliding holes in Riemann surfaces and quantum cluster algebras</title>
+    <updated>2016-12-22T08:12:40Z</updated>
+    <link href="https://arxiv.org/abs/1509.07044v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1509.07044v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we describe a new type of surgery for non-compact Riemann surfaces that naturally appear when colliding two holes or two sides of the same hole in an orientable Riemann surface with boundary (and possibly orbifold points). As a result of this surgery, bordered cusps appear on the boundary components of the Riemann surface. In Poincaré uniformization, these bordered cusps correspond to ideal triangles in the fundamental domain. We introduce the notion of bordered cusped Teichmüller space and endow it with a Poisson structure, quantization of which is achieved with a canonical quantum ordering. We give a complete combinatorial description of the bordered cusped Teichmüller space by introducing the notion of maximal cusped lamination, a lamination consisting of geodesics arcs between bordered cusps and closed geodesics homotopic to the boundaries such that it triangulates the Riemann surface. We show that each bordered cusp carries a natural decoration, i.e. a choice of a horocycle, so that the lengths of the arcs in the maximal cusped lamination are defined as $λ$-lengths in Thurston--Penner terminology. We compute the Goldman bracket explicitly in terms of these $λ$-lengths and show that the Mapping Class Group acts as a generalized cluster algebra mutation. From the physical point of view, our construction provides an explicit coordinatization of moduli spaces of open/closed string worldsheets and their quantization.</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.QA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-09-23T16:05:38Z</published>
+    <arxiv:comment>44 pages, 26 figures; completely reorganised and re-written to make it more clear</arxiv:comment>
+    <arxiv:primary_category term="math-ph"/>
+    <author>
+      <name>Leonid Chekhov</name>
+    </author>
+    <author>
+      <name>Marta Mazzocco</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1012.5251v3</id>
+    <title>Poisson algebras of block-upper-triangular bilinear forms and braid group action</title>
+    <updated>2011-11-18T05:09:55Z</updated>
+    <link href="https://arxiv.org/abs/1012.5251v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1012.5251v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper we study a quadratic Poisson algebra structure on the space of bilinear forms on $C^{N}$ with the property that for any $n,m\in N$ such that $n m =N$, the restriction of the Poisson algebra to the space of bilinear forms with block-upper-triangular matrix composed from blocks of size $m\times m$ is Poisson. We classify all central elements and characterise the Lie algebroid structure compatible with the Poisson algebra. We integrate this algebroid obtaining the corresponding groupoid of morphisms of block-upper-triangular bilinear forms. The groupoid elements automatically preserve the Poisson algebra. We then obtain the braid group action on the Poisson algebra as elementary generators within the groupoid. We discuss the affinisation and quantisation of this Poisson algebra, showing that in the case $m=1$ the quantum affine algebra is the twisted $q$-Yangian for ${o}_n$ and for $m=2$ is the twisted $q$-Yangian for ${sp}_{2n}$. We describe the quantum braid group action in these two examples and conjecture the form of this action for any $m&gt;2$.</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.SG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-12-23T17:09:33Z</published>
+    <arxiv:comment>22 pages, 1 figure, 2nd version substantially elaborated: added: introduction, references, algebroid integrability condition, quantum braid-group action; 3rd version: added Lemma 4.3 on skew-symmetricity of bilinear form</arxiv:comment>
+    <arxiv:primary_category term="math-ph"/>
+    <author>
+      <name>Leonid Chekhov</name>
+    </author>
+    <author>
+      <name>Marta Mazzocco</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1905.02772v2</id>
+    <title>Quantised Painlevé monodromy manifolds, Sklyanin and Calabi-Yau algebras</title>
+    <updated>2021-01-20T13:08:23Z</updated>
+    <link href="https://arxiv.org/abs/1905.02772v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1905.02772v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper we study quantum del Pezzo surfaces belonging to a certain class. In particular we introduce the generalised Sklyanin-Painlevé algebra and characterise its PBW/PHS/Koszul properties. This algebra contains as limiting cases the generalised Sklyanin algebra, Etingof-Ginzburg and Etingof-Oblomkov-Rains quantum del Pezzo and the quantum monodromy manifolds of the Painlevé equations.</summary>
+    <category term="math.QA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-05-07T19:00:34Z</published>
+    <arxiv:comment>Accepted version. 43 pages, 6 tables</arxiv:comment>
+    <arxiv:primary_category term="math.QA"/>
+    <author>
+      <name>Leonid Chekhov</name>
+    </author>
+    <author>
+      <name>Marta Mazzocco</name>
+    </author>
+    <author>
+      <name>Volodya Rubtsov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1309.3493v1</id>
+    <title>Quantum ordering for quantum geodesic functions of orbifold Riemann surfaces</title>
+    <updated>2013-09-13T15:49:32Z</updated>
+    <link href="https://arxiv.org/abs/1309.3493v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1309.3493v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We determine the explicit quantum ordering for a special class of quantum geodesic functions corresponding to geodesics joining exactly two orbifold points or holes on a non-compact Riemann surface. We discuss some special cases in which these quantum geodesic functions form sub--algebras of some abstract algebras defined by the reflection equation and we extend our results to the quantisation of matrix elements of the Fuchsian group associated to the Riemann surface in Poincaré uniformization. In particular we explore an interesting relation between the deformed $U_q(\mathfrak{sl}_2)$ and the Zhedanov algebra AW(3).</summary>
+    <category term="math.QA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-09-13T15:49:32Z</published>
+    <arxiv:comment>22 pages; 6 figures in LaTeX; contribution to AMS volume dedicated to the 75th birthday of S.P.Novikov</arxiv:comment>
+    <arxiv:primary_category term="math.QA"/>
+    <author>
+      <name>Leonid Chekhov</name>
+    </author>
+    <author>
+      <name>Marta Mazzocco</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1307.6140v5</id>
+    <title>Confluences of the Painleve equations, Cherednik algebras and q-Askey scheme</title>
+    <updated>2015-10-19T10:20:45Z</updated>
+    <link href="https://arxiv.org/abs/1307.6140v5" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1307.6140v5" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper we produce seven new algebras as confluences of the Cherednik algebra of type \check{C_1}C_1 and we characterise their spherical-sub-algebras.
+  The limit of the spherical sub-algebra of the Cherednik algebra of type \check{C_1}C_1 is the monodromy manifold of the Painlevé VI equation. Here we prove that by considering the limits of the spherical sub-algebras of our new confluent algebras, one obtains the monodromy manifolds of all other Painlevé differential equations. Moreover, we introduce confluent versions of the Zhedanov algebra and prove that each of them (quotiented by their Casimir) is isomorphic to the corresponding spherical sub-algebra of our new confluent Cherednik algebras. We show that in the basic representation our confluent Zhedanov algebras act as symmetries of certain elements of the q-Askey scheme, thus setting a stepping stone towards the solution of the open problem of finding the corresponding quantum algebra for each element of the q-Askey scheme.
+  These results establish a new link between the theory of the Painlevé equations and the theory of the q-Askey scheme and shed light on the reasons behind the occurrence of special polynomials in the Painlevé theory.</summary>
+    <category term="math.QA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nlin.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-07-23T16:20:38Z</published>
+    <arxiv:comment>Much less technical version, lots of formulae made more efficient</arxiv:comment>
+    <arxiv:primary_category term="math.QA"/>
+    <author>
+      <name>Marta Mazzocco</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1409.4287v2</id>
+    <title>Non-Symmetric Basic Hypergeometric Polynomials and Representation Theory for Confluent Cherednik Algebras</title>
+    <updated>2015-01-07T09:24:20Z</updated>
+    <link href="https://arxiv.org/abs/1409.4287v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1409.4287v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper we introduce a basic representation for the confluent Cherednik algebras $\mathcal H_{\rm V}$, $\mathcal H_{\rm III}$, $\mathcal H_{\rm III}^{D_7}$ and $\mathcal H_{\rm III}^{D_8}$ defined in arXiv:1307.6140. To prove faithfulness of this basic representation, we introduce the non-symmetric versions of the continuous dual $q$-Hahn, Al-Salam-Chihara, continuous big $q$-Hermite and continuous $q$-Hermite polynomials.</summary>
+    <category term="math.QA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nlin.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-09-15T15:10:16Z</published>
+    <arxiv:primary_category term="math.QA"/>
+    <arxiv:journal_ref>SIGMA 10 (2014), 116, 10 pages</arxiv:journal_ref>
+    <author>
+      <name>Marta Mazzocco</name>
+    </author>
+    <arxiv:doi>10.3842/SIGMA.2014.116</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.3842/SIGMA.2014.116" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1603.03770v1</id>
+    <title>Embedding of the rank 1 DAHA into Mat(2,Tq) and its automorphisms</title>
+    <updated>2016-03-11T16:56:48Z</updated>
+    <link href="https://arxiv.org/abs/1603.03770v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1603.03770v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this review paper we show how the Cherednik algebra of type $\check{C_1}C_1$ appears naturally as quantisation of the group algebra of the monodromy group associated to the sixth Painlevé equation. This fact naturally leads to an embedding of the Cherednik algebra of type $\check{C_1}C_1$ into $Mat(2,\mathbb T_q)$, i.e. $2\times 2$ matrices with entries in the quantum torus. For $q=1$ this result is equivalent to say that the Cherednik algebra of type $\check{C_1}C_1$ is Azumaya of degree $2$ \cite{O}. By quantising the action of the braid group and of the Okamoto transformations on the monodromy group associated to the sixth Painlevé equation we study the automorphisms of the Cherednik algebra of type $\check{C_1}C_1$ and conjecture the existence of a new automorphism. Inspired by the confluences of the Painlevé equations, we produce similar embeddings for the confluent Cherednik algebras $\mathcal H_V,\mathcal H_{IV},\mathcal H_{III},\mathcal H_{II}$ and $\mathcal H_{I},$ defined in arXiv:1307.6140.</summary>
+    <category term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nlin.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-03-11T16:56:48Z</published>
+    <arxiv:comment>Dedicated to Masatoshi Noumi for his 60th birthday</arxiv:comment>
+    <arxiv:primary_category term="math.RT"/>
+    <author>
+      <name>Marta Mazzocco</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1705.03295v2</id>
+    <title>Finite orbits of the pure braid group on the monodromy of the $2$-variable Garnier system</title>
+    <updated>2017-09-08T10:58:38Z</updated>
+    <link href="https://arxiv.org/abs/1705.03295v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1705.03295v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper we show that the $SL_{2}(\mathbb C)$ character variety of the Riemann sphere $Σ_5$ with five boundary components is a $5$-parameter family of affine varieties of dimension $4$. We endow this family of affine varieties with an action of the braid group and classify exceptional finite orbits. This action represents the nonlinear monodromy of the $2$ variable Garnier system and finite orbits correspond to algebraic solutions.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nlin.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-05-09T12:46:41Z</published>
+    <arxiv:comment>39 pages, 1 figure and 3 tables</arxiv:comment>
+    <arxiv:primary_category term="math.CA"/>
+    <author>
+      <name>Pierpaolo Calligaris</name>
+    </author>
+    <author>
+      <name>Marta Mazzocco</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1511.03851v4</id>
+    <title>Painlevé monodromy manifolds, decorated character varieties and cluster algebras</title>
+    <updated>2016-09-28T14:56:53Z</updated>
+    <link href="https://arxiv.org/abs/1511.03851v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1511.03851v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper we introduce the concept of decorated character variety for the Riemann surfaces arising in the theory of the Painlevé differential equations. Since all Painlevé differential equations (apart from the sixth one) exhibit Stokes phenomenon, it is natural to consider Riemann spheres with holes and bordered cusps on such holes. The decorated character is defined as complexification of the bordered cusped Teichmüller space introduced in arXiv:1509.07044. We show that the decorated character variety of a Riemann sphere with s holes and n&gt;1 bordered cusps is a Poisson manifold of dimension 3 s+ 2 n-6 and we explicitly compute the Poisson brackets which are naturally of cluster type. We also show how to obtain the confluence procedure of the Painlevé differential equations in geometric terms.</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nlin.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-11-12T10:51:29Z</published>
+    <arxiv:comment>Parts of this paper overlap with arXiv:1212.6723, but it presents a much deeper geometric understanding and the new notion of decorated character variety which was not included there. 19 coloured pictures, 33 pages. To appear on Int. Mat. Res. Not</arxiv:comment>
+    <arxiv:primary_category term="math-ph"/>
+    <author>
+      <name>Leonid Chekhov</name>
+    </author>
+    <author>
+      <name>Marta Mazzocco</name>
+    </author>
+    <author>
+      <name>Vladimir Rubtsov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1803.02775v3</id>
+    <title>Dualities in the $q$-Askey scheme and degenerate DAHA</title>
+    <updated>2018-09-25T15:44:21Z</updated>
+    <link href="https://arxiv.org/abs/1803.02775v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1803.02775v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The Askey-Wilson polynomials are a four-parameter family of orthogonal symmetric Laurent polynomials $R_n[z]$ which are eigenfunctions of a second-order $q$-difference operator $L$, and of a second-order difference operator in the variable $n$ with eigenvalue $z +z^{-1}=2x$. Then $L$ and multiplication by $z+z^{-1}$ generate the Askey-Wilson (Zhedanov) algebra. A nice property of the Askey-Wilson polynomials is that the variables $z$ and $n$ occur in the explicit expression in a similar and to some extent exchangeable way. This property is called duality. It returns in the non-symmetric case and in the underlying algebraic structures: the Askey-Wilson algebra and the double affine Hecke algebra (DAHA). In this paper we follow the degeneration of the Askey-Wilson polynomials until two arrows down and in four different situations: for the orthogonal polynomials themselves, for the degenerate Askey-Wilson algebras, for the non-symmetric polynomials and for the (degenerate) DAHA and its representations.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.QA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nlin.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-03-07T17:14:21Z</published>
+    <arxiv:comment>46 pages, 1 figure. In version 2, we added some references, a section (Summary of other related work and further perspective) and some further material. Fixed a number of typos. Version 3 is the final version</arxiv:comment>
+    <arxiv:primary_category term="math.CA"/>
+    <arxiv:journal_ref>STUDIES IN APPLIED MATHEMATICS 2018</arxiv:journal_ref>
+    <author>
+      <name>Tom H. Koornwinder</name>
+    </author>
+    <author>
+      <name>Marta Mazzocco</name>
+    </author>
+    <arxiv:doi>10.1111/sapm.12229</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1111/sapm.12229" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2603.18842v1</id>
+    <title>Decorated Local Systems and Character Varieties</title>
+    <updated>2026-03-19T12:43:46Z</updated>
+    <link href="https://arxiv.org/abs/2603.18842v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2603.18842v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The focus of this paper is the study of the moduli space of representations of fundamental groupoids of surfaces $Σ$ with boundaries with values in $G:=GL_n(\mathbb C)$. In absence of marked points on the boundary, this moduli space is realized in many equivalent ways: as the moduli space of linear local systems on $Σ$, as the moduli space of representations of the fundamental groupoid $Π_1 (Σ)$, as the space of monodromy data and as character variety. By adding marked points to the boundary of $Σ$ in order to capture irregular singularities, the Betti moduli space has been generalized in several ways by many authors. Although it is clear that these different approaches describe essentially the same spaces of mathematical objects, exactly how they fit together has not yet been established. Motivated by the broader programme of establishing an explicit and conceptually coherent relationship between the existing approaches to the study of the decorated Betti moduli space, in this paper, we develop a categorical framework that allows for a systematic definition of the
+  \dfn{decorated Betti moduli spaces} space, in the presence of higher order poles, designed to specialize to the different points of view encountered in the literature.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nlin.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-03-19T12:43:46Z</published>
+    <arxiv:comment>73 pages, 2 figures</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <author>
+      <name>Benedetta Facciotti</name>
+    </author>
+    <author>
+      <name>Marta Mazzocco</name>
+    </author>
+    <author>
+      <name>Nikita Nikolaev</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/nlin/0406035v2</id>
+    <title>Generating Function Associated with the Determinant Formula for the Solutions of the Painleve' II Equation</title>
+    <updated>2004-09-08T10:56:11Z</updated>
+    <link href="https://arxiv.org/abs/nlin/0406035v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/nlin/0406035v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  In this paper we consider a Hankel determinant formula for generic solutions of the Painleve' II equation. We show that the generating functions for the entries of the Hankel determinants are related to the asymptotic solution at infinity of the linear problem of which the Painleve' II equation describes the isomonodromic deformations.</summary>
+    <category term="nlin.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2004-06-17T09:44:35Z</published>
+    <arxiv:comment>9 pages, dedicated to Jean Pierre Ramis. A comment on summability is added</arxiv:comment>
+    <arxiv:primary_category term="nlin.SI"/>
+    <author>
+      <name>Nalini Joshi</name>
+    </author>
+    <author>
+      <name>Kenji Kajiwara</name>
+    </author>
+    <author>
+      <name>Marta Mazzocco</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2407.17366v4</id>
+    <title>Automorphisms of the DAHA of type $\check{C_1}C_1$ and non-symmetric Askey-Wilson functions</title>
+    <updated>2026-04-13T14:19:40Z</updated>
+    <link href="https://arxiv.org/abs/2407.17366v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2407.17366v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper we consider the automorphisms of the double affine Hecke algebra (DAHA) of type $\check{C_1}C_1$ which have a relatively simple action on the generators and on the parameters, notably a symmetry $t_4$ which sends the Askey-Wilson parameters $(a,b,c,d)$ to $(a,b,qd^{-1},qc^{-1})$. We study how these symmetries act on the basic representation and on the symmetric and non-symmetric Askey-Wilson (AW) polynomials and functions. Interestingly $t_4$ maps AW polynomials to functions. We take the rank one case of Stokman's Cherednik kernel for $BC_n$ as the definition of the non-symmetric Askey--Wilson function. From it we derive an expression as a sum of a symmetric and an anti-symmetric term.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-07-24T15:43:30Z</published>
+    <arxiv:comment>v4: 39 pages; errors in formulas (4.9), (6.2), (6.3), (7.24), (7.25), still present in published version in Indag. Math., have neen corrected here</arxiv:comment>
+    <arxiv:primary_category term="math.CA"/>
+    <arxiv:journal_ref>Indag. Math. (N.S.) 36 (2025), 1795-1829</arxiv:journal_ref>
+    <author>
+      <name>Tom H. Koornwinder</name>
+    </author>
+    <author>
+      <name>Marta Mazzocco</name>
+    </author>
+    <arxiv:doi>10.1016/j.indag.2025.05.005</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.indag.2025.05.005" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2106.13760v3</id>
+    <title>Isomonodromic deformations: Confluence, Reduction $\&amp;$ Quantisation</title>
+    <updated>2022-12-12T13:54:57Z</updated>
+    <link href="https://arxiv.org/abs/2106.13760v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2106.13760v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper we study the isomonodromic deformations of systems of differential equations with poles of any order on the Riemann sphere as Hamiltonian flows on the product of co-adjoint orbits of the Takiff algebra (i.e. truncated current algebra). Our motivation is to produce confluent versions of the celebrated Knizhnik--Zamolodchikov equations and explain how their quasiclassical solution can be expressed via the isomonodromic $τ$-function. In order to achieve this, we study the confluence cascade of $r+ 1$ simple poles to give rise to a singularity of arbitrary Poincaré rank $r$ as a Poisson morphism and explicitly compute the isomonodromic Hamiltonians.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-06-25T17:01:22Z</published>
+    <arxiv:comment>54 pages, 3 figures</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <author>
+      <name>Ilia Gaiur</name>
+    </author>
+    <author>
+      <name>Marta Mazzocco</name>
+    </author>
+    <author>
+      <name>Vladimir Rubtsov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/nlin/0701029v1</id>
+    <title>A remark on the Hankel determinant formula for solutions of the Toda equation</title>
+    <updated>2007-01-15T14:45:30Z</updated>
+    <link href="https://arxiv.org/abs/nlin/0701029v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/nlin/0701029v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We consider the Hankel determinant formula of the $τ$ functions of the Toda equation. We present a relationship between the determinant formula and the auxiliary linear problem, which is characterized by a compact formula for the $τ$ functions in the framework of the KP theory. Similar phenomena that have been observed for the Painlevé II and IV equations are recovered. The case of finite lattice is also discussed.</summary>
+    <category term="nlin.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2007-01-15T14:45:30Z</published>
+    <arxiv:comment>14 pages, IOP style</arxiv:comment>
+    <arxiv:primary_category term="nlin.SI"/>
+    <author>
+      <name>Kenji Kajiwara</name>
+    </author>
+    <author>
+      <name>Marta Mazzocco</name>
+    </author>
+    <author>
+      <name>Yasuhiro Ohta</name>
+    </author>
+    <arxiv:doi>10.1088/1751-8113/40/42/S11</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1751-8113/40/42/S11" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1105.4501v1</id>
+    <title>Teichmüller spaces as degenerated symplectic leaves in Dubrovin--Ugaglia Poisson manifolds</title>
+    <updated>2011-05-23T13:44:26Z</updated>
+    <link href="https://arxiv.org/abs/1105.4501v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1105.4501v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper we study the Goldman bracket between geodesic length functions both on a Riemann surface $Σ_{g,s,0}$ of genus $g$ with $s=1,2$ holes and on a Riemann sphere $Σ_{0,1,n}$ with one hole and $n$ orbifold points of order two. We show that the corresponding Teichmüller spaces $\mathcal T_{g,s,0}$ and $\mathcal T_{0,1,n}$ are realised as real slices of degenerated symplectic leaves in the Dubrovin--Ugaglia Poisson algebra of upper--triangular matrices $S$ with 1 on the diagonal.</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-05-23T13:44:26Z</published>
+    <arxiv:comment>27 pages, 7 figures, contribution to special issue of Physica D on Boris Dubrovin 60th birthday</arxiv:comment>
+    <arxiv:primary_category term="math-ph"/>
+    <author>
+      <name>Leonid Chekhov</name>
+    </author>
+    <author>
+      <name>Marta Mazzocco</name>
+    </author>
+    <arxiv:doi>10.1016/j.physd.2011.09.018</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.physd.2011.09.018" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1011.6036v2</id>
+    <title>Cubic and quartic transformations of the sixth Painleve equation in terms of Riemann-Hilbert correspondence</title>
+    <updated>2011-10-12T09:38:49Z</updated>
+    <link href="https://arxiv.org/abs/1011.6036v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1011.6036v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A starting point of this paper is a classification of quadratic polynomial transformations of the monodromy manifold for the 2x2 isomonodromic Fuchsian systems associated to the Painleve VI equation. Up to birational automorphisms of the monodromy manifold, we find three transformations. Two of them are identified as the action of known quadratic or quartic transformations of the Painleve VI equation. The third transformation of the monodromy manifold gives a new transformation of degree 3 of Picard's solutions of Painleve VI.</summary>
+    <category term="nlin.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-11-28T11:39:58Z</published>
+    <arxiv:comment>Added: classification of quadratic transformations of the Monodromy manifold; new cubic (and quartic) transformations for Picard's case. 26 Pages, 3 figures</arxiv:comment>
+    <arxiv:primary_category term="nlin.SI"/>
+    <arxiv:journal_ref>Studies in Applied Mathematics, Vol. 130 (2013), pg. 17-48</arxiv:journal_ref>
+    <author>
+      <name>Marta Mazzocco</name>
+    </author>
+    <author>
+      <name>Raimundas Vidunas</name>
+    </author>
+    <arxiv:doi>10.1111/j.1467-9590.2012.00562.x</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1111/j.1467-9590.2012.00562.x" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/nlin/0512041v3</id>
+    <title>Generating Function Associated with the Hankel Determinant Formula for the Solutions of the Painlevé IV Equation</title>
+    <updated>2006-03-14T02:06:22Z</updated>
+    <link href="https://arxiv.org/abs/nlin/0512041v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/nlin/0512041v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We consider a Hankel determinant formula for generic solutions of the Painlevé IV equation. We show that the generating functions for the entries of the Hankel determinants are related to the asymptotic solution at infinity of the isomonodromic problem. Summability of these generating functions are also discussed.</summary>
+    <category term="nlin.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2005-12-16T08:55:15Z</published>
+    <arxiv:comment>17 pages; Corrected some errors</arxiv:comment>
+    <arxiv:primary_category term="nlin.SI"/>
+    <author>
+      <name>Nalini Joshi</name>
+    </author>
+    <author>
+      <name>Kenji Kajiwara</name>
+    </author>
+    <author>
+      <name>Marta Mazzocco</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/9806056v1</id>
+    <title>Monodromy of certain Painleve' VI transcendents and reflection groups</title>
+    <updated>1998-06-10T17:04:12Z</updated>
+    <link href="https://arxiv.org/abs/math/9806056v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/9806056v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We study the global analytic properties of the solutions of a particular family of Painleve' VI equations with the parameters $β=γ=0$, $δ={1\over2}$ and $α$ arbitrary. We introduce a class of solutions having critical behaviour of algebraic type, and completely compute the structure of the analytic continuation of these solutions in terms of an auxiliary reflection group in the three dimensional space. The analytic continuation is given in terms of an action of the braid group on the triples of generators of the reflection group. This result is used to classify all the algebraic solutions of our Painleve' VI equation.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nlin.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1998-06-10T17:04:12Z</published>
+    <arxiv:comment>91 pages, TeX, 9 Postscript figures</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <author>
+      <name>B. Dubrovin</name>
+    </author>
+    <author>
+      <name>M. Mazzocco</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2012.11010v1</id>
+    <title>The Sigma Form for the PII Hierarchy</title>
+    <updated>2020-12-20T19:54:01Z</updated>
+    <link href="https://arxiv.org/abs/2012.11010v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2012.11010v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper we study the so-called sigma form of the second Painlevé hierarchy. To obtain this form, we use some properties of the Hamiltonian structure of the second Painlevé hierarchy and of the Lenard operator.</summary>
+    <category term="nlin.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-12-20T19:54:01Z</published>
+    <arxiv:primary_category term="nlin.SI"/>
+    <author>
+      <name>Irina Bobrova</name>
+    </author>
+    <author>
+      <name>Marta Mazzocco</name>
+    </author>
+    <arxiv:doi>10.1016/j.geomphys.2021.104271</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.geomphys.2021.104271" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/9901054v1</id>
+    <title>Picard and Chazy solutions to the Painleve' VI equation</title>
+    <updated>1999-01-13T02:03:08Z</updated>
+    <link href="https://arxiv.org/abs/math/9901054v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/9901054v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  I study the solutions of a particular family of Painlevé VI equations with the parameters $β=γ=0, δ=1/2$ and $2α=(2μ-1)^2$, for $2μ\in\interi$. I show that the case of half-integer $μ$ is integrable and that the solutions are of two types: the so-called Picard solutions and the so-called Chazy solutions. I give explicit formulae for them and completely determine their asymptotic behaviour near the singular points $0,1,\infty$ and their nonlinear monodromy. I study the structure of analytic continuation of the solutions to the PVI$μ$ equation for any $μ$ such that $2μ\in\interi$. As an application, I classify all the algebraic solutions. For $μ$ half-integer, I show that they are in one to one correspondence with regular polygons or star-polygons in the plane. For $μ$ integer, I show that all algebraic solutions belong to a one-parameter family of rational solutions.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1999-01-13T02:03:08Z</published>
+    <arxiv:comment>37 pages, TeX, 5 figures</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <author>
+      <name>M. Mazzocco</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/nlin/0610066v1</id>
+    <title>The Hamiltonian Structure of the Second Painleve Hierarchy</title>
+    <updated>2006-10-27T15:50:51Z</updated>
+    <link href="https://arxiv.org/abs/nlin/0610066v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/nlin/0610066v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  In this paper we study the Hamiltonian structure of the second Painleve hierarchy, an infinite sequence of nonlinear ordinary differential equations containing PII as its simplest equation. The n-th element of the hierarchy is a non linear ODE of order 2n in the independent variable $z$ depending on n parameters denoted by ${t}_1,...,{t}_{n-1}$ and $α_n$. We introduce new canonical coordinates and obtain Hamiltonians for the $z$ and $t_1,...,t_{n-1}$ evolutions. We give explicit formulae for these Hamiltonians showing that they are polynomials in our canonical coordinates.</summary>
+    <category term="nlin.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2006-10-27T15:50:51Z</published>
+    <arxiv:primary_category term="nlin.SI"/>
+    <author>
+      <name>Marta Mazzocco</name>
+    </author>
+    <author>
+      <name>Man Yue Mo</name>
+    </author>
+    <arxiv:doi>10.1088/0951-7715/20/12/006</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/0951-7715/20/12/006" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/nlin/0007036v2</id>
+    <title>Rational Solutions of the Painleve' VI Equation</title>
+    <updated>2004-03-18T15:03:57Z</updated>
+    <link href="https://arxiv.org/abs/nlin/0007036v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/nlin/0007036v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  In this paper, we classify all values of the parameters $α$, $β$, $γ$ and $δ$ of the Painlevé VI equation such that there are rational solutions. We give a formula for them up to the birational canonical transformations and the symmetries of the Painlevé VI equation.</summary>
+    <category term="nlin.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2000-07-24T15:28:14Z</published>
+    <arxiv:comment>13 pages, 1 Postscript figure Typos fixed</arxiv:comment>
+    <arxiv:primary_category term="nlin.SI"/>
+    <arxiv:journal_ref>J. Phys. A: Math. Gen. 34 (2001) 2281-2294</arxiv:journal_ref>
+    <author>
+      <name>M. Mazzocco</name>
+    </author>
+    <arxiv:doi>10.1088/0305-4470/34/11/320</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/0305-4470/34/11/320" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/0610327v1</id>
+    <title>On the Reductions and Classical Solutions of the Schlesinger equations</title>
+    <updated>2006-10-10T14:06:50Z</updated>
+    <link href="https://arxiv.org/abs/math/0610327v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/0610327v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The Schlesinger equations $S_{(n,m)}$ describe monodromy preserving deformations of order $m$ Fuchsian systems with $n+1$ poles. They can be considered as a family of commuting time-dependent Hamiltonian systems on the direct product of $n$ copies of $m\times m$ matrix algebras equipped with the standard linear Poisson bracket. In this paper we address the problem of reduction of particular solutions of ``more complicated'' Schlesinger equations $S_{(n,m)}$ to ``simpler'' $S_{(n',m')}$ having $n'&lt; n$ or $m' &lt; m$.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2006-10-10T14:06:50Z</published>
+    <arxiv:comment>32 pages. To the memory of our friend Andrei Bolibruch</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <author>
+      <name>B. Dubrovin</name>
+    </author>
+    <author>
+      <name>M. Mazzocco</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/0212117v1</id>
+    <title>Existence and Uniqueness of Tri-tronquée Solutions of the second Painlevé hierarchy</title>
+    <updated>2002-12-09T09:45:54Z</updated>
+    <link href="https://arxiv.org/abs/math/0212117v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/0212117v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The first five classical Painlevé equations are known to have solutions described by divergent asymptotic power series near infinity. Here we prove that such solutions also exist for the infinite hierarchy of equations associated with the second Painlevé equation. Moreover we prove that these are unique in certain sectors near infinity.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nlin.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2002-12-09T09:45:54Z</published>
+    <arxiv:comment>13 pages, Latex</arxiv:comment>
+    <arxiv:primary_category term="math.CA"/>
+    <author>
+      <name>N. Joshi</name>
+    </author>
+    <author>
+      <name>M. Mazzocco</name>
+    </author>
+    <arxiv:doi>10.1088/0951-7715/16/2/304</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/0951-7715/16/2/304" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0710.2051v1</id>
+    <title>Lecture Notes on Quantum Teichmuller Theory</title>
+    <updated>2007-10-10T15:49:40Z</updated>
+    <link href="https://arxiv.org/abs/0710.2051v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0710.2051v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  These notes are based on a lecture course by L. Chekhov held at the University of Manchester in May 2006 and February-March 2007. They are divulgative in character, and instead of containing rigorous mathematical proofs, they illustrate statements giving an intuitive insight. We intentionally remove most bibliographic references from the body of the text devoting a special section to the history of the subject at the end.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2007-10-10T15:49:40Z</published>
+    <arxiv:comment>Notes collected by M. Mazzocco</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <author>
+      <name>Leonid Chekhov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/nlin/0306020v1</id>
+    <title>Irregular isomonodromic deformations for Garnier systems and Okamoto's canonical transformations</title>
+    <updated>2003-06-12T17:48:51Z</updated>
+    <link href="https://arxiv.org/abs/nlin/0306020v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/nlin/0306020v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  In this paper we describe the Garnier systems as isomonodromic deformation equations of a linear system with a simple pole at zero and a Poincaré rank two singularity at infinity. We discuss the extension of Okamoto's birational canonical transformations to the Garnier systems in more than one variable and to the Schlesinger systems.</summary>
+    <category term="nlin.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2003-06-12T17:48:51Z</published>
+    <arxiv:comment>17 pages</arxiv:comment>
+    <arxiv:primary_category term="nlin.SI"/>
+    <author>
+      <name>M. Mazzocco</name>
+      <arxiv:affiliation>Cambridge University</arxiv:affiliation>
+    </author>
+  </entry>
+</feed>

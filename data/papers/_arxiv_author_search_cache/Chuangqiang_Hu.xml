@@ -1,0 +1,232 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Vye2YTqrvE602yBOhOVC2KWNtLc</id>
+  <title>arXiv Query: search_query=au:"Chuangqiang Hu" AND (cat:math.AG OR cat:math.AT OR cat:math.AP OR cat:math.CT OR cat:math.CA OR cat:math.CO OR cat:math.DG OR cat:math.DS OR cat:math.FA OR cat:math.GT OR cat:math.MP OR cat:math.OA OR cat:math.PR OR cat:math.QA OR cat:math.RA OR cat:math.RT OR cat:math.SG OR cat:math.SP OR cat:math.ST OR cat:math.NT OR cat:math.GR OR cat:math.HO OR cat:math-ph OR cat:nlin.SI OR cat:nlin.CD OR cat:hep-th OR cat:q-alg OR cat:dg-ga OR cat:alg-geom OR cat:cond-mat.stat-mech)&amp;id_list=&amp;start=0&amp;max_results=200</title>
+  <updated>2026-05-06T07:28:30Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=au:%22Chuangqiang+Hu%22+AND+(cat:math.AG+OR+(cat:math.AT+OR+(cat:math.AP+OR+(cat:math.CT+OR+(cat:math.CA+OR+(cat:math.CO+OR+(cat:math.DG+OR+(cat:math.DS+OR+(cat:math.FA+OR+(cat:math.GT+OR+(cat:math.MP+OR+(cat:math.OA+OR+(cat:math.PR+OR+(cat:math.QA+OR+(cat:math.RA+OR+(cat:math.RT+OR+(cat:math.SG+OR+(cat:math.SP+OR+(cat:math.ST+OR+(cat:math.NT+OR+(cat:math.GR+OR+(cat:math.HO+OR+(cat:math-ph+OR+(cat:nlin.SI+OR+(cat:nlin.CD+OR+(cat:hep-th+OR+(cat:q-alg+OR+(cat:dg-ga+OR+(cat:alg-geom+OR+cat:cond-mat.stat-mech)))))))))))))))))))))))))))))&amp;start=0&amp;max_results=200&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>200</opensearch:itemsPerPage>
+  <opensearch:totalResults>11</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2512.03860v1</id>
+    <title>Infinitesimal deformations of Lie algebroid pairs</title>
+    <updated>2025-12-03T15:08:17Z</updated>
+    <link href="https://arxiv.org/abs/2512.03860v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2512.03860v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study infinitesimal deformations of Lie algebroid pairs in the category of smooth manifolds enriched with a local Artinian algebra. Given a Lie algebroid pair $(L,A)$, i.e. a Lie algebroid $L$ together with a Lie subalgebroid $A$, we investigate isomorphism classes of infinitesimal deformations of $(L,A)$ modulo automorphisms from exponentials of derivations of $L$ and those from the exponentials of inner derivations of $L$, respectively. For the associated two deformation functors, we find the associated governing $L_\infty$-algebras in the sense of extended deformation theory. Furthermore, when $(L,A)$ is a matched Lie pair, i.e. the quotient $L/A$ is also a Lie subalgebroid of $L$, we investigate isomorphism classes of infinitesimal deformations modulo automorphisms from exponentials of derivations along the normal direction $L/A$. The extended deformation theory of the associated deformation functor recovers the formal deformation theory of complex structures and that of transversely holomorphic foliations.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.QA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-03T15:08:17Z</published>
+    <arxiv:comment>28 pages</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <author>
+      <name>Dadi Ni</name>
+    </author>
+    <author>
+      <name>Zhuo Chen</name>
+    </author>
+    <author>
+      <name>Chuangqiang Hu</name>
+    </author>
+    <author>
+      <name>Maosong Xiang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2309.00432v1</id>
+    <title>Drinfeld Modular Curves Subordinate to Conjugacy Classes of Nilpotent Upper-Triangular Matrices</title>
+    <updated>2023-09-01T12:54:06Z</updated>
+    <link href="https://arxiv.org/abs/2309.00432v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2309.00432v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce normalized Drinfeld modular curves that parameterize rank $m$ Drinfeld modules compatible with a $T$-torsion structure arising from a given conjugacy class of nilpotent upper-triangular $n\times n$ matrices with rank $\geqslant n-m$ over a finite field $\mathbb{F}_q$. This creates a deep link connecting the classification of nilpotent upper-triangular matrices and the decomposition of Drinfeld modular curves. The conjugacy classes of nilpotent upper-triangular matrices one-to-one corresponds to certain $T$-torsion flags, and form a tree structure. As a result, the associated Drinfeld modular curves are organized in the same tree. This generalizes the tower structure introduced by Bassa, Beelen, Garcia, Stichtenoth, and others. Additionally,we prove the geometric irreducibility of $(3,2)$-type normalized Drinfeld modular curves, and characterize their associated function fields.</summary>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-09-01T12:54:06Z</published>
+    <arxiv:comment>43 pages</arxiv:comment>
+    <arxiv:primary_category term="math.NT"/>
+    <author>
+      <name>Zhuo Chen</name>
+    </author>
+    <author>
+      <name>Chuangqiang Hu</name>
+    </author>
+    <author>
+      <name>Tao Zhang</name>
+    </author>
+    <author>
+      <name>Xiaopeng Zheng</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2510.27159v1</id>
+    <title>New optimal function field towers over finite fields of quartic power</title>
+    <updated>2025-10-31T04:07:30Z</updated>
+    <link href="https://arxiv.org/abs/2510.27159v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.27159v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce two new types of towers of Drinfeld modular curves. These towers originate from a specific domain $\mathcal{A} $ and are analogous to the towers of rank-two Drinfeld modular curves over the polynomial ring. Specifically, the domain $\mathcal{A} $ corresponds to the projective line over the finite field $ \mathbb{F}_q $, equipped with an infinite place of degree two. We select an arbitrary non-zero principal $\mathcal{A} $-ideal $ I_η $ of degree two. Notably, the $ I_η $-reduction of the tower of minimal Drinfeld modular curves is asymptotically optimal over the finite field $ \mathbb{F}_{q^4} $.</summary>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-31T04:07:30Z</published>
+    <arxiv:primary_category term="math.NT"/>
+    <author>
+      <name>Chuangqiang Hu</name>
+    </author>
+    <author>
+      <name>Xiuwu Zhu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2410.10124v1</id>
+    <title>Groupoids derived from the simple elliptic singularities</title>
+    <updated>2024-10-14T03:22:54Z</updated>
+    <link href="https://arxiv.org/abs/2410.10124v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2410.10124v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>K. Saito's classification of simple elliptic singularities includes three families of weighted homogeneous singularities: $ \tilde{E}_{6}, \tilde{E}_7$, and $ \tilde{E}_8 $. For each family, the isomorphism classes can be distinguished by K. Saito's $j$-functions. By applying the Mather-Yau theorem, which states that the isomorphism class of an isolated hypersurface singularity is completely determined by its $k$-th moduli algebra, M. Eastwood demonstrated explicitly that one can directly recover K. Saito's $j$-functions from the zeroth moduli algebras. This research aims to generalize M. Eastwood's result through meticulous computation of the groupoids associated with simple elliptic singularities. We not only directly retrieve K. Saito's $j$-functions from the $k$-th moduli algebras but also elucidate the automorphism structure within the $k$-th moduli algebras. We derive the automorphisms using the methodology of the $k$-th Yau algebra and establish a Torelli-type theorem for the $\tilde{E}_7 $-family when $k=1$. In contrast, we find that the Torelli-type theorem is inapplicable for the first Yau algebra in the $ \tilde{E}_6 $-family. By considering the first Yau algebra as a module rather than solely as a Lie algebra, we can impose constraints on the coefficients of the transformation matrices, which facilitates a straightforward identification of all isomorphisms. Our new approach also provides a simple verification of the result by Chen, Seeley, and Yau concerning the zeroth moduli algebras.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-10-14T03:22:54Z</published>
+    <arxiv:primary_category term="math.AG"/>
+    <author>
+      <name>Chuangqiang Hu</name>
+    </author>
+    <author>
+      <name>Stephen S. -T. Yau</name>
+    </author>
+    <author>
+      <name>Huaiqing Zuo</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1504.04171v2</id>
+    <title>Multi-point Codes from Generalized Hermitian Curves</title>
+    <updated>2015-05-20T05:31:44Z</updated>
+    <link href="https://arxiv.org/abs/1504.04171v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1504.04171v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We investigate multi-point algebraic geometric codes defined from curves related to the generalized Hermitian curve introduced by Alp Bassa, Peter Beelen, Arnaldo Garcia, and Henning Stichtenoth. Our main result is to find a basis of the Riemann-Roch space of a series of divisors, which can be used to construct multi-point codes explicitly. These codes turn out to have nice properties similar to those of Hermitian codes, for example, they are easy to describe, to encode and decode. It is shown that the duals are also such codes and an explicit formula is given. In particular, this formula enables one to calculate the parameters of these codes. Finally, we apply our results to obtain linear codes attaining new records on the parameters. A new record-giving $ [234,141,\geqslant 59] $-code over $ \mathbb{F}_{27} $ is presented as one of the examples.</summary>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-04-14T03:21:23Z</published>
+    <arxiv:comment>16 pages, 4 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.IT"/>
+    <author>
+      <name>Chuangqiang Hu</name>
+    </author>
+    <author>
+      <name>Chang-An Zhao</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2409.09384v4</id>
+    <title>On the $k$-th Tjurina number of weighted homogeneous singularities</title>
+    <updated>2025-11-24T09:37:28Z</updated>
+    <link href="https://arxiv.org/abs/2409.09384v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2409.09384v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Let $ (X,0) $ denote an isolated singularity defined by a weighted homogeneous polynomial $ f $. Let $ \mathcal{O}$ be the local algebra of holomorphic function germs at the origin, with the maximal ideal $m $. We study the $k$-th Tjurina algebra, defined by $ A_k(f): = \mathcal{O} / \left( f , m^k J(f) \right) $, where $J(f)$ denotes the Jacobian ideal of $ f $. The zeroth Tjurina algebra is well known to represent the tangent space of the base space of the semi-universal deformation of $(X, 0)$. Motivated by this observation, we explore the deformation of $(X,0)$ with respect to a fixed $k$-residue point. We show that the tangent space of the corresponding deformation functor is a subspace of the $k$-th Tjurina algebra. Explicit calculation of the $k$-th Tjurina numbers, which correspond to the dimensions of the $k$-th Tjurina algebras, plays a crucial role in understanding these deformations. According to the results of Milnor and Orlik, the zeroth Tjurina number can be expressed explicitly in terms of the weights of the variables in $f$. However, we observe that for values of $k$ exceeding the multiplicity of $X$, the $k$-th Tjurina number becomes more intricate and is not solely determined by the weights of the variables. In this paper, we introduce a novel complex derived from the classical Koszul complex and obtain a computable formula for the $k$-th Tjurina numbers for all $ k \geqslant 0 $. As an application, we calculate the $k$-th Tjurina numbers for all weighted homogeneous singularities in three variables.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-09-14T09:30:36Z</published>
+    <arxiv:primary_category term="math.AG"/>
+    <author>
+      <name>Chuangqiang Hu</name>
+    </author>
+    <author>
+      <name>Stephen S. -T. Yau</name>
+    </author>
+    <author>
+      <name>Huaiqing Zuo</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2312.16919v3</id>
+    <title>Drinfeld Module and Weil pairing over Dedekind domain of class number two</title>
+    <updated>2024-10-10T01:57:56Z</updated>
+    <link href="https://arxiv.org/abs/2312.16919v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2312.16919v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The primary objective of this paper is to derive explicit formulas for rank one and rank two Drinfeld modules over a specific domain denoted by A. This domain corresponds to the projective line associated with an infinite place of degree two. To achieve the goals, we construct a pair of standard Drinfeld modules whose coefficients are in the Hilbert class field of A. We demonstrate that the period lattice of the exponential functions corresponding to both modules behaves similarly to the period lattice of the Carlitz module, the standard rank one Drinfeld module defined over rational function field. Moreover, we employ Andersons t-motive to obtain the complete family of rank two Drinfeld modules. This family is parameterized by the invariant J = λ^{q^2+1} which effectively serves as the counterpart of the j-invariant for elliptic curves. Building upon the concepts introduced by van~der~Heiden, particularly with regard to rank two Drinfeld modules, we are able to reformulate the Weil pairing of Drinfeld modules of any rank using a specialized polynomial in multiple variables known as the Weil operator. As an illustrative example, we provide a detailed examination of a more explicit formula for the Weil pairing and the Weil operator of rank two Drinfeld modules over the domain A.</summary>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-12-28T09:34:24Z</published>
+    <arxiv:comment>arXiv admin note: text overlap with arXiv:1308.0855 by other authors</arxiv:comment>
+    <arxiv:primary_category term="math.NT"/>
+    <author>
+      <name>Chuangqiang Hu</name>
+    </author>
+    <author>
+      <name>Xiao-Min Huang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2604.04124v1</id>
+    <title>Relation between Anderson Generating Functions and Weil Pairing</title>
+    <updated>2026-04-05T13:55:41Z</updated>
+    <link href="https://arxiv.org/abs/2604.04124v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2604.04124v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The existence of the Weil pairing for Drinfeld modules was proved by van~der~Heiden using the Anderson $t$-motive. Papikian's note provided the explicit formula for the rank-two Weil pairing that avoids Anderson motives. Following this approach, Katen extended the formula to higher ranks. As Papikian observed, this method is more elementary than the approach using Anderson motives, but it is less conceptual. This paper is devoted to a new insight into Katen's formula motivated by the Moore determinant coming from Hamahata's tensor product of Drinfeld modules and the basis of torsion modules found by Maurischat and Perkins. We investigate the Weil operator, establish its connection with the remainder polynomial of Anderson generating functions modulo a fixed polynomial $\f$, and finally derive an extremely simple interpretation: the value of the rank-$r$ Weil pairing is essentially the specific coefficient in the Moore determinant of certain Anderson generating functions.</summary>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-04-05T13:55:41Z</published>
+    <arxiv:comment>27 pages,1 firgure</arxiv:comment>
+    <arxiv:primary_category term="math.NT"/>
+    <author>
+      <name>Chuangqiang Hu</name>
+    </author>
+    <author>
+      <name>Yixuan Ou-Yang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2603.23930v2</id>
+    <title>A Note on Cyclotomic Function Fields with Quadratic Modulus</title>
+    <updated>2026-04-04T08:31:16Z</updated>
+    <link href="https://arxiv.org/abs/2603.23930v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2603.23930v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A longstanding and important problem in algebraic geometry is the characterization of algebraic function fields. In this paper, we focus on the characterization problem for cyclotomic function field $L(Λ_M)$, which is an important class of explicit function fields with applications in number theory and coding theory. Motivated by Arakelian and Quoos' classification of $L(Λ_M)$ with an irreducible quadratic modulus, we provide a complete characterization of the cyclotomic function field $L(Λ_M)$ with modulus $M = x^2$. More precisely, we prove that a function field $\mathcal{F}$ over $\mathbb{F}_q$ is $\mathbb{F}_q$-isomorphic to $L(Λ_{x^2})$ if and only if it satisfies the following three conditions: (i) $\mathcal{F}$ has a subgroup $G$ isomorphic to the direct product $(\mathbb{F}_q,+) \times \mathbb{F}_q^*$; (ii) its genus is $g(\mathcal{F}) = 1 + q(q-3)/2$; and (iii) the cardinality of $\mathbb{F}_q$-rational places is exactly $q+1$.</summary>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-03-25T04:38:14Z</published>
+    <arxiv:primary_category term="math.NT"/>
+    <author>
+      <name>Haojie Chen</name>
+    </author>
+    <author>
+      <name>Chuangqiang Hu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1911.04269v1</id>
+    <title>Weierstrass Semigroups From a Tower of Function Fields Attaining the Drinfeld-Vladut Bound</title>
+    <updated>2019-11-07T15:08:29Z</updated>
+    <link href="https://arxiv.org/abs/1911.04269v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1911.04269v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>For applications in algebraic geometric codes, an explicit description of bases of Riemann-Roch spaces of divisors on function fields over finite fields is needed. We investigate the third function field $ F^{(3)} $ in a tower of Artin-Schreier extensions described by Garcia and Stichtenoth reaching the Drinfeld-Vl{ă}du{ţ} bound. We construct bases for the related Riemann-Roch spaces on $ F^{(3)} $ and present some basic properties of divisors on a line. From the bases, we explicitly calculate the Weierstrass semigroups and pure gaps at several places on $ F^{(3)} $. All of these results can be viewed as a generalization of the previous work done by Voss and Høholdt (1997).</summary>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-11-07T15:08:29Z</published>
+    <arxiv:comment>32 pages</arxiv:comment>
+    <arxiv:primary_category term="math.NT"/>
+    <author>
+      <name>Shudi Yang</name>
+    </author>
+    <author>
+      <name>Chuangqiang Hu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1912.02668v2</id>
+    <title>A Modular Interpretation of BBGS Towers</title>
+    <updated>2020-05-02T12:52:37Z</updated>
+    <link href="https://arxiv.org/abs/1912.02668v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1912.02668v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In 2000, based on his procedure for constructing explicit towers of modular curves, Elkies deduced explicit equations of rank-2 Drinfeld modular curves which coincide with the asymptotically optimal towers of curves constructed by Garcia and Stichtenoth. In 2015, Bassa, Beelen, Garcia, and Stichtenoth constructed a celebrated (recursive and good) tower (BBGS-tower for short) of curves and outlined a modular interpretation of the defining equations. Soon after that, Gekeler studied in depth the modular curves coming from sparse Drinfeld modules. In this paper, to establish a link between these existing results, we propose and prove a generalized Elkies' Theorem which tells in detail how to directly describe a modular interpretation of the equations of rank-m Drinfeld modular curves with m&gt;=2.</summary>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-12-05T15:55:08Z</published>
+    <arxiv:comment>revised the paper with the intention of presenting a correct and clear version</arxiv:comment>
+    <arxiv:primary_category term="math.NT"/>
+    <author>
+      <name>Rui Chen</name>
+    </author>
+    <author>
+      <name>Zhuo Chen</name>
+    </author>
+    <author>
+      <name>Chuangqiang Hu</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,258 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/TUMEOMn0upGen13cF9x8wr00Dcs</id>
+  <title>arXiv Query: search_query=au:"Xiaoshang Jin" AND (cat:math.AG OR cat:math.AT OR cat:math.AP OR cat:math.CT OR cat:math.CA OR cat:math.CO OR cat:math.DG OR cat:math.DS OR cat:math.FA OR cat:math.GT OR cat:math.MP OR cat:math.OA OR cat:math.PR OR cat:math.QA OR cat:math.RA OR cat:math.RT OR cat:math.SG OR cat:math.SP OR cat:math.ST OR cat:math.NT OR cat:math.GR OR cat:math.HO OR cat:math-ph OR cat:nlin.SI OR cat:nlin.CD OR cat:hep-th OR cat:q-alg OR cat:dg-ga OR cat:alg-geom OR cat:cond-mat.stat-mech)&amp;id_list=&amp;start=0&amp;max_results=200</title>
+  <updated>2026-05-06T07:28:50Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=au:%22Xiaoshang+Jin%22+AND+(cat:math.AG+OR+(cat:math.AT+OR+(cat:math.AP+OR+(cat:math.CT+OR+(cat:math.CA+OR+(cat:math.CO+OR+(cat:math.DG+OR+(cat:math.DS+OR+(cat:math.FA+OR+(cat:math.GT+OR+(cat:math.MP+OR+(cat:math.OA+OR+(cat:math.PR+OR+(cat:math.QA+OR+(cat:math.RA+OR+(cat:math.RT+OR+(cat:math.SG+OR+(cat:math.SP+OR+(cat:math.ST+OR+(cat:math.NT+OR+(cat:math.GR+OR+(cat:math.HO+OR+(cat:math-ph+OR+(cat:nlin.SI+OR+(cat:nlin.CD+OR+(cat:hep-th+OR+(cat:q-alg+OR+(cat:dg-ga+OR+(cat:alg-geom+OR+cat:cond-mat.stat-mech)))))))))))))))))))))))))))))&amp;start=0&amp;max_results=200&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>200</opensearch:itemsPerPage>
+  <opensearch:totalResults>14</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2502.13666v1</id>
+    <title>Essential $p$-capacity-volume estimates for rotationally symmetric manifolds</title>
+    <updated>2025-02-19T12:21:37Z</updated>
+    <link href="https://arxiv.org/abs/2502.13666v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2502.13666v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Given $p\in [1,\infty]$, this article presents the novel basic volumetric estimates for the relative $p$-capacities with their applications to finding not only the sharp weak $(p,q)$-imbeddings but also the precise lower bounds of the principal $p$-frequencies, which principally live in the rotationally symmetric manifolds.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-02-19T12:21:37Z</published>
+    <arxiv:comment>19 pages, 1 picture</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <author>
+      <name>Xiaoshang Jin</name>
+    </author>
+    <author>
+      <name>Jie Xiao</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2502.13651v1</id>
+    <title>Sharply estimating hyperbolic capacities</title>
+    <updated>2025-02-19T11:56:29Z</updated>
+    <link href="https://arxiv.org/abs/2502.13651v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2502.13651v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper is devoted to establishing four types of sharp capacitary inequalities within the hyperbolic space as detailed in Theorems 2.1-3.1-4.1-5.1.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-02-19T11:56:29Z</published>
+    <arxiv:comment>22 pages, 1 figure</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <author>
+      <name>Xiaoshang Jin</name>
+    </author>
+    <author>
+      <name>Jie Xiao</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2504.09856v2</id>
+    <title>Estimate for the first Dirichlet eigenvalue of $p-$Laplacian on non-compact manifolds</title>
+    <updated>2026-01-20T05:08:43Z</updated>
+    <link href="https://arxiv.org/abs/2504.09856v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2504.09856v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we establish a sharp lower bound for the first Dirichlet eigenvalue of the $p$-Laplacian on bounded domains of a complete, non-compact Riemannian manifold with non-negative Ricci curvature.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-04-14T03:55:56Z</published>
+    <arxiv:comment>11 pages</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <author>
+      <name>Xiaoshang Jin</name>
+    </author>
+    <author>
+      <name>Zhiwei Lü</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2601.14018v1</id>
+    <title>Principal $p-$frequency estimates on non-compact manifolds with negative Ricci curvature</title>
+    <updated>2026-01-20T14:35:43Z</updated>
+    <link href="https://arxiv.org/abs/2601.14018v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.14018v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We establish a lower bound for the principal $p-$frequency $λ_{1,p}(Ω)$ on a bounded domain $Ω$ in a non-compact Riemannian manifold of dimension $n.$ Under the assumption that the Ricci curvature satisfies $\operatorname{Ric} \geq (n-1)K$ with $K&lt;0,$ we prove that $λ_{1,p}(Ω) &gt; \barλ_{D,K,n}$, where $D$ is the diameter of $Ω$ and $\barλ_{D,K,n}$ is explicitly defined as the first eigenvalue of an associated one-dimensional ordinary differential equation model that incorporates both $D$ and $K.$ Moreover, the estimate is sharp. This work extends previous results for the case $K=0$ to the geometrically more complex setting of negative Ricci curvature, and providing a new quantitative connection between the eigenvalue, the diameter of domains, and the curvature lower bound.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-20T14:35:43Z</published>
+    <arxiv:comment>14 pages</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <author>
+      <name>Xiaoshang Jin</name>
+    </author>
+    <author>
+      <name>Zhiwei Lü</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2207.02012v3</id>
+    <title>The relative volume function and the capacity of sphere on asymptotically hyperbolic manifolds</title>
+    <updated>2023-09-25T01:50:27Z</updated>
+    <link href="https://arxiv.org/abs/2207.02012v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2207.02012v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Following the work of Li-Shi-Qing, we propose the definition of the relative volume function for an AH manifold. It is not a constant function in general and we study the egularity of this function. We use this function to give an accurate characterization of the height of the geodesic defining function for the AH manifold with a given boundary metric. It is also proved that such functions are uniformly bounded from below at infinity and the bound only depends on the dimension. As an application, we use this function to research the capacity of balls in AH manifold and provide some limit results.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-07-05T12:47:00Z</published>
+    <arxiv:comment>20 pages</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <author>
+      <name>Xiaoshang Jin</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2305.16027v1</id>
+    <title>Rigidity for inscribed radius estimate of asymptotically hyperbolic Einstein manifold</title>
+    <updated>2023-05-25T13:06:52Z</updated>
+    <link href="https://arxiv.org/abs/2305.16027v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2305.16027v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The inscribed radius of a compact manifold with boundary is bounded above if its Ricci curvature and mean curvature are bounded from below. The rigidity result implies that the upper bound can be achieved only in space form. In this paper, we generalize this result to asymptotically hyperbolic Einstein manifold. We get an upper bound of the relative volume of AH manifold and if we combine it with the recent work of Wang and Zhou, then the rigidity is obtained.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-05-25T13:06:52Z</published>
+    <arxiv:comment>12 pages</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <author>
+      <name>Xiaoshang Jin</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2110.09830v1</id>
+    <title>Boundary Estimate of Asymptotically Hyperbolic Einstein Manifolds of Even Dimension</title>
+    <updated>2021-10-19T10:36:11Z</updated>
+    <link href="https://arxiv.org/abs/2110.09830v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2110.09830v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we study the finite boundary regularity and estimates of an asymptotically hyperbolic Einstein manifold in even dimension $n+1.$ We show that if the initial compactification is $C^{n-1}$ and the $(n-3)$-th derivative of its scalar curvature is Hölder continuous, then the AHE metric is $C^{m,α}$ conformally compact provided the boundary metric is $C^{m,α}$. This is an improvement of Helliwell's result. We also provide an estimate of the Yamabe compactification metric in the new structure.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-10-19T10:36:11Z</published>
+    <arxiv:comment>18pages. arXiv admin note: text overlap with arXiv:1911.01885</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <author>
+      <name>Xiaoshang Jin</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2307.16439v1</id>
+    <title>Asymptotic behavior of the first Dirichlet eigenvalue of AHE manifolds</title>
+    <updated>2023-07-31T06:55:05Z</updated>
+    <link href="https://arxiv.org/abs/2307.16439v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2307.16439v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this article, we investigate the rate at which the first Dirichlet eigenvalue of geodesic balls decreases as the radius approaches infinity. We prove that if the conformal infinity of an asymptotically hyperbolic Einstein manifold is of nonnegative Yamabe type, then the two-term asymptotic of the eigenvalues is the same as that in hyperbolic space.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-07-31T06:55:05Z</published>
+    <arxiv:comment>12 pages</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <author>
+      <name>Xiaoshang Jin</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2405.02669v2</id>
+    <title>Lower bound for the first eigenvalue of $p-$Laplacian and applications in asymptotically hyperbolic Einstein manifolds</title>
+    <updated>2026-01-20T05:01:23Z</updated>
+    <link href="https://arxiv.org/abs/2405.02669v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2405.02669v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper investigates the first Dirichlet eigenvalue for the $p$-Laplacian in Riemannian manifolds. Firstly, we establish a lower bound for this eigenvalue under the condition that the domain includes a specific function which fulfills certain criteria related to divergence and gradient conditions. In the subsequent section, we introduce an enhanced lower bound for the eigenvalue, which is linked to the distance function defined in the domain. As a practical application, we provide an estimation for the first Dirichlet eigenvalue of geodesic balls with large radius in asymptotically hyperbolic Einstein manifolds.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-05-04T13:52:54Z</published>
+    <arxiv:comment>22 pages</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <author>
+      <name>Xiaoshang Jin</name>
+    </author>
+    <arxiv:doi>10.4310/MRL.260120021635</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.4310/MRL.260120021635" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2402.02465v1</id>
+    <title>Willmore-type inequality for closed hypersurfaces in complete manifolds with Ricci curvature bounded below</title>
+    <updated>2024-02-04T12:37:11Z</updated>
+    <link href="https://arxiv.org/abs/2402.02465v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2402.02465v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we establish a Willmore-type inequality for closed hypersurfaces in a complete Riemannian manifold of dimension $n+1$ with ${\rm Ric}\geq-ng$. It extends the classic result of Argostianiani, Fogagnolo, and Mazzieri in [1] to the Riemannian manifold of negative curvature. As an application, we construct a Willmore-type inequality for closed hypersurfaces in hyperbolic space and obtain the characterization of geodesic sphere.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-02-04T12:37:11Z</published>
+    <arxiv:comment>18 pages; comments are welcome!</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <author>
+      <name>Xiaoshang Jin</name>
+    </author>
+    <author>
+      <name>Jiabin Yin</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1911.01885v3</id>
+    <title>Finite Boundary Regularity for Conformally Compact Einstein Manifolds of Dimension 4</title>
+    <updated>2020-05-26T14:32:50Z</updated>
+    <link href="https://arxiv.org/abs/1911.01885v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1911.01885v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We prove that a $4-$dimensional $C^2$ conformally compact Einstein manifold with Hölder continuous scalar curvature and with $C^{m,α}$ boundary metric has a $C^{m,α}$ compactification. We also study the regularity of the new structure and the new defining function. This is a supplementary proof of Anderson's work and an improvement of Helliwell's result in dimension 4.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-11-05T15:45:51Z</published>
+    <arxiv:comment>22 pages. Changed the proof in page 17 and 18 and removed the condition "and the mean curvature $H\in C^{1,σ}(\partial M)$" in Theorem 1.1. Removed and changed some sentences concerning the mean curvature in other places</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <author>
+      <name>Xiaoshang Jin</name>
+    </author>
+    <arxiv:doi>10.1007/s12220-020-00423-0</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s12220-020-00423-0" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1801.04512v1</id>
+    <title>Boundary Regularity for Asymptotically Hyperbolic Metrics with Smooth Weyl Curvature</title>
+    <updated>2018-01-14T05:11:20Z</updated>
+    <link href="https://arxiv.org/abs/1801.04512v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1801.04512v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we study the regularity of asymptotically hyperbolic metrics with Einstein condition near boundary and Weyl curvature smooth enough in arbitrary dimension. Following Michael Anderson's method, we show that $C^{m,α}$ conformally compact Riemannian metrics with Einstein equation vanishing to finite order near boundary have conformal compactifications that are $C^{m+2,α}$ up to the boundary when Weyl curvature is in $C^{m,α}$ and the boundary metric is in $C^{m+2,α}$ where $m\geq 3.$</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-01-14T05:11:20Z</published>
+    <arxiv:comment>24 pages</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <arxiv:journal_ref>Pacific J. Math. 301 (2019) 467-487</arxiv:journal_ref>
+    <author>
+      <name>Xiaoshang Jin</name>
+    </author>
+    <arxiv:doi>10.2140/pjm.2019.301.467</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.2140/pjm.2019.301.467" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2604.14600v1</id>
+    <title>Relations of Four Asymptotic Geometric Quantities in Riemannian Geometry</title>
+    <updated>2026-04-16T04:11:19Z</updated>
+    <link href="https://arxiv.org/abs/2604.14600v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2604.14600v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper studies the large $p$ asymptotics of three geometric quantities on complete noncompact Riemannian manifolds: the $p-$capacity of a compact set, the first Dirichlet $p-$eigenvalue, and the Maz'ya constant, thereby offering a new perspective on the study of such manifolds. We introduce the infinity capacity $\mathcal{C}(Ω)$, the infinity eigenvalue $Λ(M)$, and the Maz'ya limit $\mathcal{M}(M)$, and establish the general inequality, for any $Ω\subset M$, $$ \mathcal{V}(M) \ge \mathcal{C}(Ω) \ge Λ(M) = \mathcal{M}(M), $$ where $\mathcal{V}(M)$ is the volume entropy. Under geometric conditions such as isoperimetric control of balls, rotational symmetry, or curvature bounds, these quantities coincide and equal $\mathcal{V}(M)$ or the dimension. We also provide examples showing strict inequalities hold.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-04-16T04:11:19Z</published>
+    <arxiv:primary_category term="math.DG"/>
+    <author>
+      <name>Xiaoshang Jin</name>
+    </author>
+    <author>
+      <name>Jiabin Yin</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2107.03075v2</id>
+    <title>On compactness conformally compact Einstein manifolds and uniqueness of Graham-Lee metrics, III</title>
+    <updated>2026-01-28T10:53:45Z</updated>
+    <link href="https://arxiv.org/abs/2107.03075v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2107.03075v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we establish a compactness result for a class of conformally compact Einstein metrics defined on manifolds of dimension $d\ge 4$. As an application, we derive the global uniqueness of a class of conformally compact Einstein metric defined on the $d$-dimensional ball constructed in the earlier work of Graham-Lee with $d\ge 4$. As a second application, we establish some gap phenomenon for a class of conformal invariants.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-07-07T08:45:46Z</published>
+    <arxiv:primary_category term="math.DG"/>
+    <arxiv:journal_ref>Adv. Nonlinear Stud. 24 (2024), no. 1, 247-278</arxiv:journal_ref>
+    <author>
+      <name>Sun-Yung A. Chang</name>
+    </author>
+    <author>
+      <name>Yuxin Ge</name>
+    </author>
+    <author>
+      <name>Xiaoshang Jin</name>
+    </author>
+    <author>
+      <name>Jie Qing</name>
+    </author>
+  </entry>
+</feed>

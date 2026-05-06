@@ -1,0 +1,1165 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/+WhdStkq9688wlEugWNpY5BKAFM</id>
+  <title>arXiv Query: search_query=au:"Zhuo Chen" AND (cat:math.AG OR cat:math.AT OR cat:math.AP OR cat:math.CT OR cat:math.CA OR cat:math.CO OR cat:math.DG OR cat:math.DS OR cat:math.FA OR cat:math.GT OR cat:math.MP OR cat:math.OA OR cat:math.PR OR cat:math.QA OR cat:math.RA OR cat:math.RT OR cat:math.SG OR cat:math.SP OR cat:math.ST OR cat:math.NT OR cat:math.GR OR cat:math.HO OR cat:math-ph OR cat:nlin.SI OR cat:nlin.CD OR cat:hep-th OR cat:q-alg OR cat:dg-ga OR cat:alg-geom OR cat:cond-mat.stat-mech)&amp;id_list=&amp;start=0&amp;max_results=200</title>
+  <updated>2026-05-06T07:27:16Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=au:%22Zhuo+Chen%22+AND+(cat:math.AG+OR+(cat:math.AT+OR+(cat:math.AP+OR+(cat:math.CT+OR+(cat:math.CA+OR+(cat:math.CO+OR+(cat:math.DG+OR+(cat:math.DS+OR+(cat:math.FA+OR+(cat:math.GT+OR+(cat:math.MP+OR+(cat:math.OA+OR+(cat:math.PR+OR+(cat:math.QA+OR+(cat:math.RA+OR+(cat:math.RT+OR+(cat:math.SG+OR+(cat:math.SP+OR+(cat:math.ST+OR+(cat:math.NT+OR+(cat:math.GR+OR+(cat:math.HO+OR+(cat:math-ph+OR+(cat:nlin.SI+OR+(cat:nlin.CD+OR+(cat:hep-th+OR+(cat:q-alg+OR+(cat:dg-ga+OR+(cat:alg-geom+OR+cat:cond-mat.stat-mech)))))))))))))))))))))))))))))&amp;start=0&amp;max_results=200&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>200</opensearch:itemsPerPage>
+  <opensearch:totalResults>49</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2210.01999v1</id>
+    <title>Locally finite infinity-modules and weak Loday-Pirashvili modules over differential graded Lie algebras</title>
+    <updated>2022-10-05T03:17:16Z</updated>
+    <link href="https://arxiv.org/abs/2210.01999v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2210.01999v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Motivated by recent developments of $\infty$-categorical theories related to differential graded (dg for short) Lie algebras, we develop a general framework for locally finite $\infty$-$\mathfrak{g}$-modules over a dg Lie algebra $\mathfrak{g}$. We show that the category of such locally finite $\infty$-$\mathfrak{g}$-modules is almost a model category in the sense of Vallette. As a homotopy theoretical generalization of Loday and Pirashvili's Lie algebra objects in the tensor category of linear maps, we further study weak Loday-Pirashvili modules consisting of $\infty$-morphisms from locally finite $\infty$-$\mathfrak{g}$-modules to the adjoint module $\mathfrak{g}$. From the category of such weak Loday-Pirashvili modules over $\mathfrak{g}$, we find a functor that maps to the category of Leibniz$_\infty$ algebras enriched over the Chevalley-Eilenberg dg algebra of $\mathfrak{g}$. This functor can be regarded as the homotopy lifting of Loday and Pirashvili's original method to realize Leibniz algebras from Lie algebra objects in the category of linear maps.</summary>
+    <category term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.QA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-10-05T03:17:16Z</published>
+    <arxiv:primary_category term="math.RT"/>
+    <author>
+      <name>Zhuo Chen</name>
+    </author>
+    <author>
+      <name>Yu Qiao</name>
+    </author>
+    <author>
+      <name>Maosong Xiang</name>
+    </author>
+    <author>
+      <name>Tao Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2309.00432v1</id>
+    <title>Drinfeld Modular Curves Subordinate to Conjugacy Classes of Nilpotent Upper-Triangular Matrices</title>
+    <updated>2023-09-01T12:54:06Z</updated>
+    <link href="https://arxiv.org/abs/2309.00432v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2309.00432v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce normalized Drinfeld modular curves that parameterize rank $m$ Drinfeld modules compatible with a $T$-torsion structure arising from a given conjugacy class of nilpotent upper-triangular $n\times n$ matrices with rank $\geqslant n-m$ over a finite field $\mathbb{F}_q$. This creates a deep link connecting the classification of nilpotent upper-triangular matrices and the decomposition of Drinfeld modular curves. The conjugacy classes of nilpotent upper-triangular matrices one-to-one corresponds to certain $T$-torsion flags, and form a tree structure. As a result, the associated Drinfeld modular curves are organized in the same tree. This generalizes the tower structure introduced by Bassa, Beelen, Garcia, Stichtenoth, and others. Additionally,we prove the geometric irreducibility of $(3,2)$-type normalized Drinfeld modular curves, and characterize their associated function fields.</summary>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-09-01T12:54:06Z</published>
+    <arxiv:comment>43 pages</arxiv:comment>
+    <arxiv:primary_category term="math.NT"/>
+    <author>
+      <name>Zhuo Chen</name>
+    </author>
+    <author>
+      <name>Chuangqiang Hu</name>
+    </author>
+    <author>
+      <name>Tao Zhang</name>
+    </author>
+    <author>
+      <name>Xiaopeng Zheng</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1609.00984v4</id>
+    <title>Atiyah classes of strongly homotopy Lie pairs</title>
+    <updated>2019-05-18T09:25:40Z</updated>
+    <link href="https://arxiv.org/abs/1609.00984v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1609.00984v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The subject of this paper is strongly homotopy (SH) Lie algebras, also known as $L_\infty$-algebras. We extract an intrinsic character, the Atiyah class, which measures the nontriviality of an (SH) Lie algebra $A$ when it is extended to $L$. In fact, given such an SH Lie pair $(L, A)$, and any $A$-module $E$, there associates a canonical cohomology class, the Atiyah class $[α^E]$, which generalizes earlier known Atiyah classes out of Lie algebra pairs. We show that the Atiyah class $[α^{L/A}]$ induces a graded Lie algebra structure on $\operatorname{H}^\bullet_{\mathrm{CE}}(A,L/A[-2])$, and the Atiyah class $[α^E]$ of any $A$-module $E$ induces a Lie algebra module structure on $\operatorname{H}^\bullet_{\mathrm{CE}}(A,E)$. Moreover, Atiyah classes are invariant under gauge equivalent $A$-compatible infinitesimal deformations of $L$.</summary>
+    <category term="math.QA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-09-04T20:20:15Z</published>
+    <arxiv:comment>30 pages; final version in Algebra Colloquium</arxiv:comment>
+    <arxiv:primary_category term="math.QA"/>
+    <arxiv:journal_ref>Algebra Colloquium 2019</arxiv:journal_ref>
+    <author>
+      <name>Zhuo Chen</name>
+    </author>
+    <author>
+      <name>Honglei Lang</name>
+    </author>
+    <author>
+      <name>Maosong Xiang</name>
+    </author>
+    <arxiv:doi>10.1142/S1005386719000178</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1142/S1005386719000178" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1202.0079v2</id>
+    <title>Poisson 2-groups</title>
+    <updated>2013-02-05T00:26:26Z</updated>
+    <link href="https://arxiv.org/abs/1202.0079v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1202.0079v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We prove a 2-categorical analogue of a classical result of Drinfeld: there is a one-to-one correspondence between connected, simply-connected Poisson Lie 2-groups and Lie 2-bialgebras. In fact, we also prove that there is a one-to-one correspondence between connected, simply connected quasi-Poisson 2-groups and quasi-Lie 2-bialgebras. Our approach relies on a "universal lifting theorem" for Lie 2-groups: an isomorphism between the graded Lie algebras of multiplicative polyvector fields on the Lie 2-group on one hand and of polydifferentials on the corresponding Lie 2-algebra on the other hand.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.QA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-02-01T02:00:03Z</published>
+    <arxiv:comment>34 pages</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <arxiv:journal_ref>J. Differential Geom. 94 (2013), no. 2, 209-240</arxiv:journal_ref>
+    <author>
+      <name>Zhuo Chen</name>
+    </author>
+    <author>
+      <name>Mathieu Stienon</name>
+    </author>
+    <author>
+      <name>Ping Xu</name>
+    </author>
+    <arxiv:doi>10.4310/jdg/1367438648</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.4310/jdg/1367438648" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2110.11623v3</id>
+    <title>Dg Loday-Pirashvili modules over Lie algebras</title>
+    <updated>2024-11-20T01:50:05Z</updated>
+    <link href="https://arxiv.org/abs/2110.11623v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2110.11623v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A Loday-Pirashvili module over a Lie algebra $\mathfrak{g}$ is a Lie algebra object $\bigl(G\xrightarrow{X} \mathfrak{g} \bigr)$ in the category of linear maps, or equivalently, a $\mathfrak{g}$-module $G$ which admits a $\mathfrak{g}$-equivariant linear map $X:G\to \mathfrak{g}$. We study dg Loday-Pirashvili modules over Lie algebras, which is a generalization of Loday-Pirashvili modules in a natural way, and establish several equivalent characterizations of dg Loday-Pirashvili modules. To provide a concise characterization, a dg Loday-Pirashvili module is a non-negative and bounded dg $\mathfrak{g}$-module $V$ paired with a weak morphism of dg $\mathfrak{g}$-modules $α\colon V\rightsquigarrow \mathfrak{g}$. Such a dg Loday-Pirashvili module resolves an arbitrarily specified classical Loday-Pirashvili module in the sense that it exists and is unique (up to homotopy). Dg Loday-Pirashvili modules can be characterized through dg derivations. This perspective allows the calculation of the corresponding twisted Atiyah classes. By leveraging the Kapranov functor on the dg derivation arising from a dg Loday-Pirashvili module $(V,α)$, a Leibniz$_\infty[1]$ algebra structure can be derived on $\wedge^\bullet \mathfrak{g}^\vee\otimes V[1]$. The binary bracket of this structure corresponds to the twisted Atiyah cocycle. To exemplify these intricate algebraic structures through specific cases, we utilize this machinery to a particular type of dg Loday-Pirashvili modules stemming from Lie algebra pairs.</summary>
+    <category term="math.RA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.QA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-10-22T07:09:45Z</published>
+    <arxiv:primary_category term="math.RA"/>
+    <arxiv:journal_ref>Journal of Homotopy and Related Structures, 2025</arxiv:journal_ref>
+    <author>
+      <name>Zhuo Chen</name>
+    </author>
+    <author>
+      <name>Yu Qiao</name>
+    </author>
+    <author>
+      <name>Maosong Xiang</name>
+    </author>
+    <author>
+      <name>Tao Zhang</name>
+    </author>
+    <arxiv:doi>10.1007/s40062-024-00361-6</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s40062-024-00361-6" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1911.01388v4</id>
+    <title>Hopf algebras arising from dg manifolds</title>
+    <updated>2021-05-26T02:41:55Z</updated>
+    <link href="https://arxiv.org/abs/1911.01388v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1911.01388v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Let $(\mathcal{M}, Q)$ be a dg manifold. The space of vector fields with shifted degrees $(\mathcal{X}(\mathcal{M})[-1], L_Q)$ is a Lie algebra object in the homology category $\mathrm{H}((C^{\infty}_{\mathcal{M}},Q)\mathrm{-}\mathbf{mod})$ of dg modules over $(\mathcal{M},Q)$, the Atiyah class $α_{\mathcal{M}}$ being its Lie bracket. The triple $(\mathcal{X}(\mathcal{M})[-1], L_Q; α_{\mathcal{M}})$ is also a Lie algebra object in the Gabriel-Zisman homotopy category $Π((C^{\infty}_{\mathcal{M}},Q)\mathrm{-}\mathbf{mod})$.
+  In this paper, we describe the universal enveloping algebra of $(\mathcal{X}(\mathcal{M})[-1], L_Q; α_{\mathcal{M}})$ and prove that it is a Hopf algebra object in $Π((C^{\infty}_{\mathcal{M}},Q)\mathrm{-}\mathbf{mod})$. As an application, we study Fedosov dg Lie algebroids and recover a result of Stiénon, Xu, and the second author on the Hopf algebra arising from a Lie pair.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.QA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-11-04T18:17:51Z</published>
+    <arxiv:comment>37 pages, published in Journal of Algebra</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <author>
+      <name>Jiahao Cheng</name>
+    </author>
+    <author>
+      <name>Zhuo Chen</name>
+    </author>
+    <author>
+      <name>Dadi Ni</name>
+    </author>
+    <arxiv:doi>10.1016/j.jalgebra.2021.05.004</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.jalgebra.2021.05.004" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2012.14109v2</id>
+    <title>A GLSM view on Homological Projective Duality</title>
+    <updated>2022-04-22T05:28:01Z</updated>
+    <link href="https://arxiv.org/abs/2012.14109v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2012.14109v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Given a gauged linear sigma model (GLSM) $\mathcal{T}_{X}$ realizing a projective variety $X$ in one of its phases, i.e. its quantum Kähler moduli has a maximally unipotent point, we propose an \emph{extended} GLSM $\mathcal{T}_{\mathcal{X}}$ realizing the homological projective dual category $\mathcal{C}$ to $D^{b}Coh(X)$ as the category of B-branes of the Higgs branch of one of its phases. In most of the cases, the models $\mathcal{T}_{X}$ and $\mathcal{T}_{\mathcal{X}}$ are anomalous and the analysis of their Coulomb and mixed Coulomb-Higgs branches gives information on the semiorthogonal/Lefschetz decompositions of $\mathcal{C}$ and $D^{b}Coh(X)$. We also study the models $\mathcal{T}_{X_{L}}$ and $\mathcal{T}_{\mathcal{X}_{L}}$ that correspond to homological projective duality of linear sections $X_{L}$ of $X$. This explains why, in many cases, two phases of a GLSM are related by homological projective duality. We study mostly abelian examples: linear and Veronese embeddings of $\mathbb{P}^{n}$ and Fano complete intersections in $\mathbb{P}^{n}$. In such cases, we are able to reproduce known results as well as produce some new conjectures. In addition, we comment on the construction of the HPD to a nonabelian GLSM for the Plücker embedding of the Grassmannian $G(k,N)$.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-12-28T06:25:25Z</published>
+    <arxiv:comment>53 pages, LaTeX; v2: published version, updated references, corrected typos</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <author>
+      <name>Zhuo Chen</name>
+    </author>
+    <author>
+      <name>Jirui Guo</name>
+    </author>
+    <author>
+      <name>Mauricio Romo</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2201.13068v2</id>
+    <title>Internal symmetry of the $L_{\leqslant 3}$ algebra arising from a Lie pair</title>
+    <updated>2022-07-04T14:46:11Z</updated>
+    <link href="https://arxiv.org/abs/2201.13068v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2201.13068v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A Lie pair is an inclusion $A$ to $L$ of Lie algebroids over the same base manifold. In an earlier work, the third author with Bandiera, Stiénon, and Xu introduced a canonical $L_{\leqslant 3}$ algebra $Γ(\wedge^\bullet A^\vee \otimes L/A)$ whose unary bracket is the Chevalley-Eilenberg differential arising from every Lie pair $(L,A)$. In this note, we prove that to such a Lie pair there is an associated Lie algebra action by $\mathrm{Der}(L)$ on the $L_{\leqslant 3}$ algebra $Γ(\wedge^\bullet A^\vee \otimes L/A)$. Here $\mathrm{Der}(L)$ is the space of derivations on the Lie algebroid $L$, or infinitesimal automorphisms of $L$. The said action gives rise to a larger scope of gauge equivalences of Maurer-Cartan elements in $Γ(\wedge^\bullet A^\vee \otimes L/A)$, and for this reason we elect to call the $\mathrm{Der}(L)$-action internal symmetry of $Γ(\wedge^\bullet A^\vee \otimes L/A)$.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.QA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-01-31T09:00:12Z</published>
+    <arxiv:comment>Complied using the Journal's Tex template</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <arxiv:journal_ref>Pure Appl. Math. Q., Vol. 19 (2023) No. 4, 2195-2234</arxiv:journal_ref>
+    <author>
+      <name>Dadi Ni</name>
+    </author>
+    <author>
+      <name>Jiahao Cheng</name>
+    </author>
+    <author>
+      <name>Zhuo Chen</name>
+    </author>
+    <author>
+      <name>Chen He</name>
+    </author>
+    <arxiv:doi>10.4310/PAMQ.2023.v19.n4.a16</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.4310/PAMQ.2023.v19.n4.a16" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1711.11253v2</id>
+    <title>Atiyah and Todd classes arising from integrable distributions</title>
+    <updated>2018-01-27T04:56:48Z</updated>
+    <link href="https://arxiv.org/abs/1711.11253v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1711.11253v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we study the Atiyah class and Todd class of the DG manifold $(F[1],d_F)$ corresponding to an integrable distribution $F \subset T_{\mathbb{K}} M = TM \otimes_{\mathbb{R}} \mathbb{K}$, where $\mathbb{K} = \mathbb{R}$ or $\mathbb{C}$. We show that these two classes are canonically identical to those of the Lie pair $(T_{\mathbb{K}} M, F)$. As a consequence, the Atiyah class of a complex manifold $X$ is isomorphic to the Atiyah class of the corresponding DG manifold $(T^{0,1}_X[1],\bar{\partial})$. Moreover, if $X$ is a compact Kähler manifold, then the Todd class of $X$ is also isomorphic to the Todd class of the corresponding DG manifold $(T^{0,1}_X[1],\bar{\partial})$.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-11-30T06:43:57Z</published>
+    <arxiv:comment>19 pages, the contexts are rearranged, typos removed</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <arxiv:journal_ref>Journal of Geometry and Physics 136 (2019)</arxiv:journal_ref>
+    <author>
+      <name>Zhuo Chen</name>
+    </author>
+    <author>
+      <name>Maosong Xiang</name>
+    </author>
+    <author>
+      <name>Ping Xu</name>
+    </author>
+    <arxiv:doi>10.1016/j.geomphys.2018.10.011</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.geomphys.2018.10.011" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1808.08576v2</id>
+    <title>Kapranov's construction of sh Leibniz algebras</title>
+    <updated>2019-06-20T06:38:25Z</updated>
+    <link href="https://arxiv.org/abs/1808.08576v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1808.08576v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Motivated by Kapranov's discovery of an sh Lie algebra structure on the tangent complex of a Kähler manifold and Chen-Stiénon-Xu's construction of sh Leibniz algebras associated with a Lie pair, we find a general method to construct sh Leibniz algebras. Let $\mathcal{A}$ be a commutative dg algebra. Given a derivation of $\mathcal{A}$ valued in a dg module $Ω$, we show that there exist sh Leibniz algebra structures on the dual module of $Ω$. Moreover, we prove that this process establishes a functor from the category of dg module valued derivations to the category of sh Leibniz algebras over $\mathcal{A}$.</summary>
+    <category term="math.QA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-08-26T15:33:39Z</published>
+    <arxiv:comment>20 pages. Section 3 has been rewritten.Some typos and grammar mistakes are removed</arxiv:comment>
+    <arxiv:primary_category term="math.QA"/>
+    <arxiv:journal_ref>Homology, Homotopy and Applications, vol.22(1), 2020</arxiv:journal_ref>
+    <author>
+      <name>Zhuo Chen</name>
+    </author>
+    <author>
+      <name>Zhangju Liu</name>
+    </author>
+    <author>
+      <name>Maosong Xiang</name>
+    </author>
+    <arxiv:doi>10.4310/HHA.2020.v22.n1.a9</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.4310/HHA.2020.v22.n1.a9" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2206.10091v1</id>
+    <title>Dirac generating operators of split Courant algebroids</title>
+    <updated>2022-06-21T03:18:37Z</updated>
+    <link href="https://arxiv.org/abs/2206.10091v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2206.10091v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Given a vector bundle $A$ over a smooth manifold $M$ such that the square root $\mathcal{L}$ of the line bundle $\wedge^{\mathrm{top}}A^\ast \otimes \wedge^{\mathrm{top}}T^\ast M$ exists, the Clifford bundle associated to the split pseudo-Euclidean vector bundle $(E = A \oplus A^\ast, \langle \cdot, \cdot \rangle)$, admits a spinor bundle $\wedge^\bullet A \otimes \mathcal{L}$, whose section space can be thought of as that of Berezinian half-densities of the graded manifold $A^\ast[1]$. We give an explicit construction of Dirac generating operators of split Courant algebroid (or proto-bialgebroid) structures on $A \oplus A^\ast$ introduced by Alekseev and Xu. We also prove that the square of the Dirac generating operator gives rise to an invariant of the split Courant algebroid.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-06-21T03:18:37Z</published>
+    <arxiv:comment>27 pages</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <author>
+      <name>Liqiang Cai</name>
+    </author>
+    <author>
+      <name>Zhuo Chen</name>
+    </author>
+    <author>
+      <name>Honglei Lang</name>
+    </author>
+    <author>
+      <name>Maosong Xiang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0904.4062v2</id>
+    <title>Geometry of Maurer-Cartan Elements on Complex Manifolds</title>
+    <updated>2010-01-04T05:36:08Z</updated>
+    <link href="https://arxiv.org/abs/0904.4062v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0904.4062v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The semi-classical data attached to stacks of algebroids in the sense of Kashiwara and Kontsevich are Maurer-Cartan elements on complex manifolds, which we call extended Poisson structures as they generalize holomorphic Poisson structures. A canonical Lie algebroid is associated to each Maurer-Cartan element. We study the geometry underlying these Maurer-Cartan elements in the light of Lie algebroid theory. In particular, we extend Lichnerowicz-Poisson cohomology and Koszul-Brylinski homology to the realm of extended Poisson manifolds; we establish a sufficient criterion for these to be finite dimensional; we describe how homology and cohomology are related through the Evens-Lu-Weinstein duality module; and we describe a duality on Koszul-Brylinski homology, which generalizes the Serre duality of Dolbeault cohomology.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2009-04-26T21:27:36Z</published>
+    <arxiv:comment>final version to appear in Comm. Math. Phys</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <arxiv:journal_ref>Comm. Math. Phys. 297 (2010), no. 1, 169-187</arxiv:journal_ref>
+    <author>
+      <name>Zhuo Chen</name>
+    </author>
+    <author>
+      <name>Mathieu Stienon</name>
+    </author>
+    <author>
+      <name>Ping Xu</name>
+    </author>
+    <arxiv:doi>10.1007/s00220-010-1029-4</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s00220-010-1029-4" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0909.0319v3</id>
+    <title>On Regular Courant Algebroids</title>
+    <updated>2009-09-15T23:34:56Z</updated>
+    <link href="https://arxiv.org/abs/0909.0319v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0909.0319v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  For any regular Courant algebroid, we construct a characteristic class a la Chern-Weil. This intrinsic invariant of the Courant algebroid is a degree-3 class in its naive cohomology. When the Courant algebroid is exact, it reduces to the Severa class (in H^3_{DR}(M)). On the other hand, when the Courant algebroid is a quadratic Lie algebra g, it coincides with the class of the Cartan 3-form (in H^3(g)). We also give a complete classification of regular Courant algebroids and discuss its relation to the characteristic class.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2009-09-02T05:10:10Z</published>
+    <arxiv:comment>Section 3.3 and references added; An error about classification is corrected</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <arxiv:journal_ref>Journal of Symplectic Geometry 11 (2013), no. 1, 1-24</arxiv:journal_ref>
+    <author>
+      <name>Zhuo Chen</name>
+    </author>
+    <author>
+      <name>Mathieu Stienon</name>
+    </author>
+    <author>
+      <name>Ping Xu</name>
+    </author>
+    <arxiv:doi>10.4310/JSG.2013.v11.n1.a1</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.4310/JSG.2013.v11.n1.a1" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0812.0422v2</id>
+    <title>On the $\pd$- and $\barpd$-Operators of a Generalized Complex Structure</title>
+    <updated>2009-01-16T01:34:50Z</updated>
+    <link href="https://arxiv.org/abs/0812.0422v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0812.0422v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  In this note, we prove that the $\pd$- and $\barpd$-operators introduced by Gualtieri for a generalized complex structure coincide with the $\bdees$- and $\bdel$-operators introduced by Alekseev-Xu for Evens-Lu-Weinstein modules of a Lie bialgebroid.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.SG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2008-12-02T03:44:07Z</published>
+    <arxiv:comment>15 pages</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <author>
+      <name>Zhuo Chen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2003.13384v4</id>
+    <title>On the reduced space of multiplicative multivectors</title>
+    <updated>2023-05-30T12:37:13Z</updated>
+    <link href="https://arxiv.org/abs/2003.13384v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2003.13384v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A strict Lie $2$-algebra $Γ(\wedge^\bullet A) \stackrel{T}{\rightarrow} \mathfrak{X}_{\mathrm{mult}}^\bullet(\mathcal{G})$ is associated with any Lie groupoid $\mathcal{G}$. Here, $Γ(\wedge^\bullet A)$ is the Schouten algebra of the tangent Lie algebroid $A$ of $\mathcal{G}$ and $\mathfrak{X}_{\mathrm{mult}}^\bullet(\mathcal{G})$ is the space of multiplicative multivectors on $\mathcal{G}$. The quotient ${R}_{\mathrm{mult}}^\bullet:=\mathfrak{X}_{\mathrm{mult}}^\bullet(\mathcal{G})/\mathrm{Img} T$, a Morita invariant of $\mathcal{G}$, is called the reduced space of multiplicative multivectors. We prove a canonical decomposition formula of elements in $\mathfrak{X}_{\mathrm{mult}}^\bullet(\mathcal{G})$ and establish a key relation between ${R}_{\mathrm{mult}}^k$ and the cohomology $\mathrm{H} ^1(\mathfrak{J} \mathcal{G},\wedge^k A)$ where $\mathfrak{J} \mathcal{G}$ is the jet groupoid of $\mathcal{G}$ and $1\leqslant k\leqslant \mathrm{rank} A$. We also study ${R}_{\mathrm{diff}}^\bullet $, the reduced space of Lie algebroid differentials on $A$. By taking infinitesimals, $\barδ: $ ${R}_{\mathrm{mult}}^\bullet $ $\to $ ${R}_{\mathrm{diff}}^\bullet $, the two reduced spaces are related. We find that the kernel of $\barδ$ is isomorphic to the kernel of the Van Est map $\mathrm{H}^1(\mathcal{G},\wedge^k \kerρ)\to \mathrm{H}^1(A,\wedge^k \kerρ)$, where $ρ$ is the anchor of $A$.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-03-04T10:47:32Z</published>
+    <arxiv:comment>Structure optimized, references added and typos removed</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <author>
+      <name>Zhuo Chen</name>
+    </author>
+    <author>
+      <name>Honglei Lang</name>
+    </author>
+    <author>
+      <name>Zhangju Liu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1712.00665v2</id>
+    <title>Shifted derived Poisson manifolds associated with Lie pairs</title>
+    <updated>2018-12-19T13:53:13Z</updated>
+    <link href="https://arxiv.org/abs/1712.00665v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1712.00665v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study the shifted analogue of the "Lie--Poisson" construction for $L_\infty$ algebroids and we prove that any $L_\infty$ algebroid naturally gives rise to shifted derived Poisson manifolds. We also investigate derived Poisson structures from a purely algebraic perspective and, in particular, we establish a homotopy transfer theorem for derived Poisson algebras. As an application, we prove that, given a Lie pair $(L,A)$, the space $\operatorname{tot}Ω^{\bullet}_A(Λ^\bullet(L/A))$ admits a degree $(+1)$ derived Poisson algebra structure with the wedge product as associative multiplication and the Chevalley--Eilenberg differential $d_A^{\operatorname{Bott}}:Ω^{\bullet}_A(Λ^\bullet(L/A))\to Ω^{\bullet +1}_A(Λ^\bullet(L/A))$ as unary $L_\infty$ bracket. This degree $(+1)$ derived Poisson algebra structure on $\operatorname{tot}Ω^{\bullet}_A(Λ^\bullet(L/A))$ is unique up to an isomorphism having the identity map as first Taylor coefficient. Consequently, the Chevalley--Eilenberg hypercohomology $\mathbb{H}(Ω^{\bullet}_A(Λ^\bullet(L/A)),d_A^{\operatorname{Bott}})$ admits a canonical Gerstenhaber algebra structure.</summary>
+    <category term="math.QA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-12-02T21:02:36Z</published>
+    <arxiv:comment>37 pages</arxiv:comment>
+    <arxiv:primary_category term="math.QA"/>
+    <arxiv:journal_ref>Comm. Math. Phys. 375.3 (2020), pp. 1717-1760</arxiv:journal_ref>
+    <author>
+      <name>Ruggero Bandiera</name>
+    </author>
+    <author>
+      <name>Zhuo Chen</name>
+    </author>
+    <author>
+      <name>Mathieu Stiénon</name>
+    </author>
+    <author>
+      <name>Ping Xu</name>
+    </author>
+    <arxiv:doi>10.1007/s00220-019-03457-w</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s00220-019-03457-w" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1109.2290v3</id>
+    <title>Weak Lie 2-bialgebra</title>
+    <updated>2013-02-05T00:34:03Z</updated>
+    <link href="https://arxiv.org/abs/1109.2290v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1109.2290v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce the notion of weak Lie 2-bialgebra. Roughly, a weak Lie 2-bialgebra is a pair of compatible 2-term $L_\infty$-algebra structures on a vector space and its dual. The compatibility condition is described in terms of the big bracket. We prove that (strict) Lie 2-bialgebras are in one-one correspondence with crossed modules of Lie bialgebras.</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-09-11T07:48:59Z</published>
+    <arxiv:comment>14 pages, LaTeX; typoes removed; references modified</arxiv:comment>
+    <arxiv:primary_category term="math-ph"/>
+    <arxiv:journal_ref>Journal of Geometry and Physics 68 (2013) 59--68</arxiv:journal_ref>
+    <author>
+      <name>Zhuo Chen</name>
+    </author>
+    <author>
+      <name>Mathieu Stienon</name>
+    </author>
+    <author>
+      <name>Ping Xu</name>
+    </author>
+    <arxiv:doi>10.1016/j.geomphys.2013.01.006</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.geomphys.2013.01.006" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2105.15019v4</id>
+    <title>The standard cohomology of regular Courant algebroids</title>
+    <updated>2022-11-01T08:45:04Z</updated>
+    <link href="https://arxiv.org/abs/2105.15019v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2105.15019v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>For any regular Courant algebroid $E$ over a smooth manifold $M$ with characteristic distribution $F$ and ample Lie algebroid $A_E$, we prove that there exists a canonical homological vector field on the graded manifold $A_E[1] \oplus (TM/F)^\ast[2]$ such that the resulting dg manifold $\mathcal{M}_E$, which we call the minimal model of the Courant algebroid $E$, encodes all cohomological information of $E$. Indeed, the standard cohomology of $E$ can be identified with the cohomology of the function space on $\mathcal{M}_E$, which can be computed by a Hodge-to-de Rham type spectral sequence. We apply this result to generalized exact Courant algebroids and those arising from regular Lie algebroids.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-05-31T14:59:47Z</published>
+    <arxiv:comment>40 pages. Final version. To appear in Advances in Mathematics</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <arxiv:journal_ref>Adv. Math. 411 (2022)</arxiv:journal_ref>
+    <author>
+      <name>Xiongwei Cai</name>
+    </author>
+    <author>
+      <name>Zhuo Chen</name>
+    </author>
+    <author>
+      <name>Maosong Xiang</name>
+    </author>
+    <arxiv:doi>10.1016/j.aim.2022.108776</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.aim.2022.108776" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2103.08096v3</id>
+    <title>Hochschild cohomology of dg manifolds associated to integrable distributions</title>
+    <updated>2022-08-03T07:40:25Z</updated>
+    <link href="https://arxiv.org/abs/2103.08096v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2103.08096v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>For the field $\mathbb{K} = \mathbb{R}$ or $\mathbb{C}$, and an integrable distribution $F \subseteq T_M \otimes_{\mathbb{R}} \mathbb{K}$ on a smooth manifold $M$, we study the Hochschild cohomology of the dg manifold $(F[1],d_F)$ and establish a canonical isomorphism with the Hochschild cohomology of the algebra of functions on leaf space in terms of transversal polydifferential operators of $F$. In particular, for the dg manifold $(T_X^{0,1}[1],\bar{\partial})$ associated with a complex manifold $X$, we prove that its Hochschild cohomology is canonically isomorphic to the Hochschild cohomology $HH^{\bullet}(X)$ of the complex manifold $X$. As an application, we show that the Duflo-Kontsevich type theorem for the dg manifold $(T_X^{0,1}[1],\bar{\partial})$ implies the Duflo-Kontsevich theorem for complex manifolds.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-03-15T02:02:17Z</published>
+    <arxiv:comment>32 pages, final version; references added; To appear in Comm.Math.Phys</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <author>
+      <name>Zhuo Chen</name>
+    </author>
+    <author>
+      <name>Maosong Xiang</name>
+    </author>
+    <author>
+      <name>Ping Xu</name>
+    </author>
+    <arxiv:doi>10.1007/s00220-022-04473-z</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s00220-022-04473-z" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2502.21149v3</id>
+    <title>Nonautonomous Dynamical Systems II: Variational Principles</title>
+    <updated>2025-08-02T13:54:54Z</updated>
+    <link href="https://arxiv.org/abs/2502.21149v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2502.21149v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Let $\boldsymbol{X}=\{X_k\}_{k=0}^\infty$ be a sequence of compact metric spaces $X_{k}$ and $\boldsymbol{T}=\{T_k\}_{k=0}^\infty$ a sequence of continuous mappings $T_{k}: X_{k} \to X_{k+1}$. The pair $(\boldsymbol{X},\boldsymbol{T})$ is called a nonautonomous dynamical system.
+  In this paper, we study measure-theoretic entropies and pressures, Bowen and packing topological entropies and pressures on $(\boldsymbol{X},\boldsymbol{T})$, and we prove that they are invariant under equiconjugacies of nonautonomous dynamical systems. By establishing Billingsley type theorems for Bowen and packing topological pressures, we obtain their variational principles, that is, given a non-empty compact subset $K \subset X_{0}$ and an equicontinuous sequence $\boldsymbol{f}= \{f_k\}_{k=0}^\infty$ of functions $f_k : X_k\to \mathbb{R}$, we have that $$ P^{\mathrm{B}}(\boldsymbol{T},\boldsymbol{f},K)=\sup\{\underline{P}_μ(\boldsymbol{T},\boldsymbol{f}): μ\in M(X_{0}), μ(K)=1\}, $$ and for $\|\boldsymbol{f}\|&lt;+\infty$ and $P^{\mathrm{P}}(\boldsymbol{T},\boldsymbol{f},K)&gt;\|\boldsymbol{f}\|$, $$ P^{\mathrm{P}}(\boldsymbol{T},\boldsymbol{f},K)=\sup\{\overline{P}_μ(\boldsymbol{T},\boldsymbol{f}): μ\in M(X_{0}), μ(K)=1\}, $$ where $\underline{P}_μ $ and $\overline{P}_μ $, $P^{\mathrm{B}}$ and $P^{\mathrm{P}}$ denote measure-theoretic lower and upper pressures, Bowen and packing topological pressure, respectively. The Billingsley type theorems and variational principles for Bowen and packing topological entropies are direct consequences of the ones for Bowen and packing topological pressures.</summary>
+    <category term="math.DS" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-02-28T15:30:35Z</published>
+    <arxiv:comment>42 pages</arxiv:comment>
+    <arxiv:primary_category term="math.DS"/>
+    <author>
+      <name>Zhuo Chen</name>
+    </author>
+    <author>
+      <name>Jun Jie Miao</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2201.06242v2</id>
+    <title>Multiplicative forms on Poisson groupoids</title>
+    <updated>2023-04-27T01:45:33Z</updated>
+    <link href="https://arxiv.org/abs/2201.06242v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2201.06242v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Given a Lie groupoid $\mathcal{G}$ over $M$, $A$ the tangent Lie algebroid of $\mathcal{G}$, and $ρ: A\rightarrow TM$ the anchor map, we provide a formula that decomposes an arbitrary multiplicative $k$-form $Θ$ on $\mathcal{G}$ into two parts. The first part is $e$, a $1$-cocycle of $\mathfrak{J}\mathcal{G}$ valued in $\wedge^k T^*M$, and the second part is $θ\in Γ(A^*\otimes (\wedge^{k-1} T^*M))$ which is $ρ$-compatible, meaning that $ι_{ρ(u)}θ(u)=0$ for all $u\in A$. We call this pair of data $(e,θ)$ the $(0,k)$-characteristic pair of $Θ$. Next, we prove that if $\mathcal{G}$ is a Poisson Lie groupoid, then the space $Ω^{\bullet}_{\mathrm{mult}}(\mathcal{G})$ of multiplicative forms on $\mathcal{G}$ has a differential graded Lie algebra (DGLA) structure. Furthermore, when combined with $Ω^\bullet(M)$, which is the space of forms on the base manifold $M$, $Ω^{\bullet}_{\mathrm{mult}}(\mathcal{G})$ forms a canonical DGLA crossed module. This supplements a previously known fact that multiplicative multivector fields on $\mathcal{G}$ form a DGLA crossed module with the Schouten algebra $Γ(\wedge^\bullet A)$ stemming from the tangent Lie algebroid $A$.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-01-17T07:01:37Z</published>
+    <arxiv:comment>Comments are welcome. We clarified that Theorem 4.5 had already been discovered before in this version</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <author>
+      <name>Zhuo Chen</name>
+    </author>
+    <author>
+      <name>Honglei Lang</name>
+    </author>
+    <author>
+      <name>Zhangju Liu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1603.09634v3</id>
+    <title>Toda-like (0,2) mirrors to products of projective spaces</title>
+    <updated>2016-08-09T15:55:37Z</updated>
+    <link href="https://arxiv.org/abs/1603.09634v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1603.09634v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>One of the open problems in understanding (0,2) mirror symmetry concerns the construction of Toda-like Landau-Ginzburg mirrors to (0,2) theories on Fano spaces. In this paper, we begin to fill this gap by making an ansatz for (0,2) Toda-like theories mirror to (0,2) supersymmetric nonlinear sigma models on products of projective spaces, with deformations of the tangent bundle, generalizing a special case previously worked out for P1xP1. We check this ansatz by matching correlation functions of the B/2-twisted Toda-like theories to correlation functions of corresponding A/2-twisted nonlinear sigma models, computed primarily using localization techniques. These (0,2) Landau-Ginzburg models admit redundancies, which can lend themselves to multiple distinct-looking representatives of the same physics, which we discuss.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-03-31T15:24:24Z</published>
+    <arxiv:comment>35 pages, LaTeX; v2: typos fixed; v3: more typos fixed</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <arxiv:journal_ref>JHEP 1608 (2016) 093</arxiv:journal_ref>
+    <author>
+      <name>Zhuo Chen</name>
+    </author>
+    <author>
+      <name>Eric Sharpe</name>
+    </author>
+    <author>
+      <name>Ruoxu Wu</name>
+    </author>
+    <arxiv:doi>10.1007/JHEP08(2016)093</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/JHEP08(2016)093" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2211.06943v3</id>
+    <title>MSW-type compactifications of 6d $(1,0)$ SCFTs on 4-manifolds</title>
+    <updated>2024-10-09T12:06:54Z</updated>
+    <link href="https://arxiv.org/abs/2211.06943v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2211.06943v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this work, we study compactifications of 6d $(1,0)$ SCFTs, in particular those of conformal matter type, on Kähler 4-manifolds. We show how this can be realized via wrapping M5 branes on 4-cycles of non-compact Calabi-Yau fourfolds with ADE singularity in the fiber. Such compactifications lead to domain walls in 3d $\mathcal{N}=2$ theories which flow to 2d $\mathcal{N}=(0,2)$ SCFTs. We compute the central charges of such 2d CFTs via 6d anomaly polynomials by employing a particular topological twist along the 4-manifold. Moreover, we study compactifications on non-compact 4-manifolds leading to coupled 3d-2d systems. We show how these can be glued together consistently to reproduce the central charge and anomaly polynomial obtained in the compact case. Lastly, we study concrete CFT proposals for some special cases.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-11-13T16:36:05Z</published>
+    <arxiv:comment>45 pages, 7 figures and 2 tables v3: references added</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <author>
+      <name>Jin Chen</name>
+    </author>
+    <author>
+      <name>Zhuo Chen</name>
+    </author>
+    <author>
+      <name>Wei Cui</name>
+    </author>
+    <author>
+      <name>Babak Haghighat</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2508.01363v1</id>
+    <title>Nonautonomous Dynamical Systems I: Topological Pressures and Entropies</title>
+    <updated>2025-08-02T13:34:24Z</updated>
+    <link href="https://arxiv.org/abs/2508.01363v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2508.01363v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Let $\boldsymbol{X}=\{X_{k}\}_{k=0}^{\infty}$ be a sequence of compact metric spaces $X_{k}$ and $\boldsymbol{T}=\{T_{k}\}_{k=0}^{\infty}$ a sequence of continuous mappings $T_{k}:X_{k} \to X_{k+1}$. The pair $(\boldsymbol{X},\boldsymbol{T})$ is called a nonautonomous dynamical system. Our main object is to study the variational principles of topological pressures and entropies on nonautonomous dynamical systems. In this paper, we introduce a variety of topological pressures ($\underline{Q}$,$\overline{Q}$,$\underline{P}$,$\overline{P}$,$P^{\mathrm{B}}$ and $P^{\mathrm{P}}$) for potentials $\boldsymbol{f}=\{f_{k} \in C(X_{k},\mathbb{R})\}_{k=0}^{\infty}$ on subsets $Z \subset X_{0}$ analogous to fractal dimensions, and we provide various key properties which are crucial for the study of the variational principles on nonautonomous dynamical systems. Especially, we obtain the power rules and product rules of these pressures, and we also show they are invariants under equiconjugacies of nonautonomous dynamical systems and equicontinuity on $\boldsymbol{f}$. From a fractal dimension point of view, these pressures are kinds of 'dimensions' describing the nonautonomous dynamical systems, and we obtain various properties of pressures analogous to fractal dimensions.</summary>
+    <category term="math.DS" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-08-02T13:34:24Z</published>
+    <arxiv:comment>52 pages</arxiv:comment>
+    <arxiv:primary_category term="math.DS"/>
+    <author>
+      <name>Zhuo Chen</name>
+    </author>
+    <author>
+      <name>Jun Jie Miao</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1806.01283v1</id>
+    <title>Landau-Ginzburg models for certain fiber products with curves</title>
+    <updated>2018-06-04T18:00:02Z</updated>
+    <link href="https://arxiv.org/abs/1806.01283v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1806.01283v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper we describe a physical realization of a family of non-compact Kahler threefolds with trivial canonical bundle in hybrid Landau-Ginzburg models, motivated by some recent non-Kahler solutions of Strominger systems, and utilizing some recent ideas from GLSMs. We consider threefolds given as fiber products of compact genus g Riemann surfaces and noncompact threefolds. Each genus g Riemann surface is constructed using recent GLSM tricks, as a double cover of P^1 branched over a degree 2g + 2 locus, realized via nonperturbative effects rather than as the critical locus of a superpotential. We focus in particular on special cases corresponding to a set of Kahler twistor spaces of certain hyperKahler four-manifolds, specifically the twistor spaces of R^4, C^2/Z_k, and S^1 x R^3. We check in all cases that the condition for trivial canonical bundle arising physically matches the mathematical constraint.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-06-04T18:00:02Z</published>
+    <arxiv:comment>17 pages; LaTeX</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <author>
+      <name>Zhuo Chen</name>
+    </author>
+    <author>
+      <name>Tony Pantev</name>
+    </author>
+    <author>
+      <name>Eric Sharpe</name>
+    </author>
+    <arxiv:doi>10.1016/j.geomphys.2018.11.012</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.geomphys.2018.11.012" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1912.02668v2</id>
+    <title>A Modular Interpretation of BBGS Towers</title>
+    <updated>2020-05-02T12:52:37Z</updated>
+    <link href="https://arxiv.org/abs/1912.02668v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1912.02668v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In 2000, based on his procedure for constructing explicit towers of modular curves, Elkies deduced explicit equations of rank-2 Drinfeld modular curves which coincide with the asymptotically optimal towers of curves constructed by Garcia and Stichtenoth. In 2015, Bassa, Beelen, Garcia, and Stichtenoth constructed a celebrated (recursive and good) tower (BBGS-tower for short) of curves and outlined a modular interpretation of the defining equations. Soon after that, Gekeler studied in depth the modular curves coming from sparse Drinfeld modules. In this paper, to establish a link between these existing results, we propose and prove a generalized Elkies' Theorem which tells in detail how to directly describe a modular interpretation of the equations of rank-m Drinfeld modular curves with m&gt;=2.</summary>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-12-05T15:55:08Z</published>
+    <arxiv:comment>revised the paper with the intention of presenting a correct and clear version</arxiv:comment>
+    <arxiv:primary_category term="math.NT"/>
+    <author>
+      <name>Rui Chen</name>
+    </author>
+    <author>
+      <name>Zhuo Chen</name>
+    </author>
+    <author>
+      <name>Chuangqiang Hu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1509.01115v3</id>
+    <title>Holomorphic Poisson Structures and its Cohomology on Nilmanifolds</title>
+    <updated>2016-01-08T14:25:08Z</updated>
+    <link href="https://arxiv.org/abs/1509.01115v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1509.01115v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The subject for investigation in this note is concerned with holomorphic Poisson structures on nilmanifolds with abelian complex structures. As a basic fact, we establish that on such manifolds, the Dolbeault cohomology with coefficients in holomorphic polyvector fields is isomorphic to the cohomology of invariant forms with coefficients in invariant polyvector fields.
+  We then quickly identify the existence of invariant holomorphic Poisson structures. More important, the spectral sequence of the Poisson bi-complex associated to such holomorphic Poisson structure degenerates at $E_2$. We will also provide examples of holomorphic Poisson structures on such manifolds so that the related spectral sequence does not degenerate at $E_2$.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-09-03T14:58:58Z</published>
+    <arxiv:primary_category term="math.DG"/>
+    <arxiv:journal_ref>Differential Geometry and its Applications;44(2016);144-160</arxiv:journal_ref>
+    <author>
+      <name>Zhuo Chen</name>
+    </author>
+    <author>
+      <name>Anna Fino</name>
+    </author>
+    <author>
+      <name>Yat-Sun Poon</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2509.11130v2</id>
+    <title>Nonautonomous Dynamical Systems III: Symbolic and Expansive Systems</title>
+    <updated>2025-11-15T05:56:32Z</updated>
+    <link href="https://arxiv.org/abs/2509.11130v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2509.11130v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A nonautonomous dynamical system $(\boldsymbol{X},\boldsymbol{T})=\{(X_{k},T_{k})\}_{k=0}^{\infty}$ is a sequence of continuous mappings $T_{k}:X_{k} \to X_{k+1}$ along with a sequence of compact metric spaces $X_{k}$. In this paper, we study the nonautonomous symbolic dynamical systems and nonautonomous expansive dynamical systems.
+  We first study the homogeneous properties of pressures in nonautonomous symbolic systems $(\boldsymbolΣ(\boldsymbol{m}),\boldsymbolσ)$, and we simplify the formulae of Bowen, packing, lower and upper topological pressures for potentials $\boldsymbol{f}=\{f_{k} \in C(Σ_{k}^{\infty}(\boldsymbol{m}),\mathbb{R})\}_{k=0}^{\infty}$ with strongly bounded variation. Then we apply a law of large numbers to obtain the formulae for the lower and upper measure-theoretic pressures with respect to nonautonomous Bernoulli measures and obtain Bowen equilibrium states and packing equilibrium states for potentials in nonautonomous symbolic systems. Finally, we study the generators in nonautonomous expansive systems $(\boldsymbol{X},\boldsymbol{T})$, and we obtain that $(\boldsymbol{X},\boldsymbol{T})$ is expansive if and only if it has a generator. Moreover, strongly uniformly expansive $(\boldsymbol{X},\boldsymbol{T})$ is equisemiconjugate to a subsystem of the nonautonomous symbolic dynamical system.</summary>
+    <category term="math.DS" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-09-14T06:48:29Z</published>
+    <arxiv:comment>40 pages</arxiv:comment>
+    <arxiv:primary_category term="math.DS"/>
+    <author>
+      <name>Zhuo Chen</name>
+    </author>
+    <author>
+      <name>Jun Jie Miao</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1409.6803v1</id>
+    <title>A Hopf algebra associated to a Lie pair</title>
+    <updated>2014-09-24T02:53:18Z</updated>
+    <link href="https://arxiv.org/abs/1409.6803v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1409.6803v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The quotient $L/A[-1]$ of a pair $A\hookrightarrow L$ of Lie algebroids is a Lie algebra object in the derived category $D^b(\mathscr{A})$ of the category $\mathscr{A}$ of left $\mathcal{U}(A)$-modules, the Atiyah class $α_{L/A}$ being its Lie bracket. In this note, we describe the universal enveloping algebra of the Lie algebra object $L/A[-1]$ and we prove that it is a Hopf algebra object in $D^b(\mathscr{A})$.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.QA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-09-24T02:53:18Z</published>
+    <arxiv:comment>6 pages</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <arxiv:journal_ref>C. R. Math. Acad. Sci. Paris 352 (2014), no. 11, 929-933</arxiv:journal_ref>
+    <author>
+      <name>Zhuo Chen</name>
+    </author>
+    <author>
+      <name>Mathieu Stiénon</name>
+    </author>
+    <author>
+      <name>Ping Xu</name>
+    </author>
+    <arxiv:doi>10.1016/j.crma.2014.09.010</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.crma.2014.09.010" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2508.02019v1</id>
+    <title>Brace $B_{\infty}$ algebras associated with Hopf algebroids</title>
+    <updated>2025-08-04T03:28:29Z</updated>
+    <link href="https://arxiv.org/abs/2508.02019v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2508.02019v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We apply the operadic modeling of brace $B_{\infty}$ algebras, as developed by Gerstenhaber and Voronov, to the context of Hopf algebroids in the sense of Xu. Specifically, we construct a strict $B_{\infty}$ isomorphism between the type I and type II twisted brace $B_{\infty}$ algebras arising from any twistor of a Hopf algebroid. As an application of this framework, we examine two specific brace $B_{\infty}$ algebras derived from Lie algebra pairs, and reveal previously obscured relationships between them. One of these is the dg Lie algebra governing deformations of algebraic dynamical twists, while the other arises from the quantum groupoid comprised of particular invariant differential operators.</summary>
+    <category term="math.QA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-08-04T03:28:29Z</published>
+    <arxiv:primary_category term="math.QA"/>
+    <author>
+      <name>Jiahao Cheng</name>
+    </author>
+    <author>
+      <name>Zhuo Chen</name>
+    </author>
+    <author>
+      <name>Yu Qiao</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1204.1075v3</id>
+    <title>From Atiyah Classes to Homotopy Leibniz Algebras</title>
+    <updated>2015-09-11T18:17:06Z</updated>
+    <link href="https://arxiv.org/abs/1204.1075v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1204.1075v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A celebrated theorem of Kapranov states that the Atiyah class of the tangent bundle of a complex manifold $X$ makes $T_X[-1]$ into a Lie algebra object in $D^+(X)$, the bounded below derived category of coherent sheaves on $X$. Furthermore Kapranov proved that, for a Kähler manifold $X$, the Dolbeault resolution $Ω^{\bullet-1}(T_X^{1,0})$ of $T_X[-1]$ is an $L_\infty$ algebra. In this paper, we prove that Kapranov's theorem holds in much wider generality for vector bundles over Lie pairs. Given a Lie pair $(L,A)$, i.e. a Lie algebroid $L$ together with a Lie subalgebroid $A$, we define the Atiyah class $α_E$ of an $A$-module $E$ (relative to $L$) as the obstruction to the existence of an $A$-compatible $L$-connection on $E$. We prove that the Atiyah classes $α_{L/A}$ and $α_E$ respectively make $L/A[-1]$ and $E[-1]$ into a Lie algebra and a Lie algebra module in the bounded below derived category $D^+(\mathcal{A})$, where $\mathcal{A}$ is the abelian category of left $\mathcal{U}(A)$-modules and $\mathcal{U}(A)$ is the universal enveloping algebra of $A$. Moreover, we produce a homotopy Leibniz algebra and a homotopy Leibniz module stemming from the Atiyah classes of $L/A$ and $E$, and inducing the aforesaid Lie structures in $D^+(\mathcal{A})$.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.QA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-04-04T21:03:05Z</published>
+    <arxiv:comment>36 pages</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <arxiv:journal_ref>Comm. Math. Phys. 341 (2016), no. 1, 309-349</arxiv:journal_ref>
+    <author>
+      <name>Zhuo Chen</name>
+    </author>
+    <author>
+      <name>Mathieu Stiénon</name>
+    </author>
+    <author>
+      <name>Ping Xu</name>
+    </author>
+    <arxiv:doi>10.1007/s00220-015-2494-6</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s00220-015-2494-6" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2512.03860v1</id>
+    <title>Infinitesimal deformations of Lie algebroid pairs</title>
+    <updated>2025-12-03T15:08:17Z</updated>
+    <link href="https://arxiv.org/abs/2512.03860v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2512.03860v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study infinitesimal deformations of Lie algebroid pairs in the category of smooth manifolds enriched with a local Artinian algebra. Given a Lie algebroid pair $(L,A)$, i.e. a Lie algebroid $L$ together with a Lie subalgebroid $A$, we investigate isomorphism classes of infinitesimal deformations of $(L,A)$ modulo automorphisms from exponentials of derivations of $L$ and those from the exponentials of inner derivations of $L$, respectively. For the associated two deformation functors, we find the associated governing $L_\infty$-algebras in the sense of extended deformation theory. Furthermore, when $(L,A)$ is a matched Lie pair, i.e. the quotient $L/A$ is also a Lie subalgebroid of $L$, we investigate isomorphism classes of infinitesimal deformations modulo automorphisms from exponentials of derivations along the normal direction $L/A$. The extended deformation theory of the associated deformation functor recovers the formal deformation theory of complex structures and that of transversely holomorphic foliations.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.QA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-03T15:08:17Z</published>
+    <arxiv:comment>28 pages</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <author>
+      <name>Dadi Ni</name>
+    </author>
+    <author>
+      <name>Zhuo Chen</name>
+    </author>
+    <author>
+      <name>Chuangqiang Hu</name>
+    </author>
+    <author>
+      <name>Maosong Xiang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0805.4093v3</id>
+    <title>E-Courant algebroids</title>
+    <updated>2011-01-08T07:20:41Z</updated>
+    <link href="https://arxiv.org/abs/0805.4093v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0805.4093v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we introduce the notion of $E$-Courant algebroids, where $E$ is a vector bundle. It is a kind of generalized Courant algebroid and contains Courant algebroids, Courant-Jacobi algebroids and omni-Lie algebroids as its special cases. We explore novel phenomena exhibited by $E$-Courant algebroids and provide many examples. We study the automorphism groups of omni-Lie algebroids and classify the isomorphism classes of exact $E$-Courant algebroids. In addition, we introduce the concepts of $E$-Lie bialgebroids and Manin triples.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2008-05-27T11:09:00Z</published>
+    <arxiv:comment>29 pages, no figure</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <arxiv:journal_ref>Int.Math.Res.Not.2010:4334-4376,2010</arxiv:journal_ref>
+    <author>
+      <name>Zhuo Chen</name>
+    </author>
+    <author>
+      <name>Zhangju Liu</name>
+    </author>
+    <author>
+      <name>Yunhe Sheng</name>
+    </author>
+    <arxiv:doi>10.1093/imrn/rnq053</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1093/imrn/rnq053" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0710.1923v1</id>
+    <title>Omni-Lie algebroids</title>
+    <updated>2007-10-10T04:29:24Z</updated>
+    <link href="https://arxiv.org/abs/0710.1923v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0710.1923v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  A generalized Courant algebroid structure is defined on the direct sum bundle D(E) +J(E), where D(E) and J(E) are the gauge Lie algebroid and the jet bundle of a vector bundle E respectively. Such a structure is called an omni-Lie algebroid since it is reduced to the omni-Lie algebra introduced by A.Weinstein if the base manifold is a point. We prove that any Lie algebroid structure on E is characterized by a Dirac structure as the graph of a bundle map from J(E) to D(E).</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.SG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2007-10-10T04:29:24Z</published>
+    <arxiv:comment>15 pages, no figure</arxiv:comment>
+    <arxiv:primary_category term="math-ph"/>
+    <author>
+      <name>Z. Chen</name>
+    </author>
+    <author>
+      <name>Z. -J. Liu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2309.04180v2</id>
+    <title>The geometric constraints on Filippov algebroids</title>
+    <updated>2024-03-28T06:51:29Z</updated>
+    <link href="https://arxiv.org/abs/2309.04180v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2309.04180v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Filippov n-algebroids are introduced by Grabowski and Marmo as a natural generalization of Lie algebroids. On this note, we characterized Filippov n-algebroid structures by considering certain multi-input connections, which we called Filippov connections, on the underlying vector bundle. Through this approach, we could express the n-ary bracket of any Filippov n-algebroid using a torsion-free type formula. Additionally, we transformed the generalized Jacobi identity of the Filippov n-algebroid into the Bianchi-Filippov identity. Furthermore, in the case of rank n vector bundles, we provided a characterization of linear Nambu-Poisson structures using Filippov connections.</summary>
+    <category term="math.RA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-09-08T07:53:00Z</published>
+    <arxiv:comment>14pages</arxiv:comment>
+    <arxiv:primary_category term="math.RA"/>
+    <arxiv:journal_ref>AIMS Mathematics, 2024, 9(5):11007-11023</arxiv:journal_ref>
+    <author>
+      <name>Yanhui Bi</name>
+    </author>
+    <author>
+      <name>Zhixiong Chen</name>
+    </author>
+    <author>
+      <name>Zhuo Chen</name>
+    </author>
+    <author>
+      <name>Maosong Xiang</name>
+    </author>
+    <arxiv:doi>10.3934/math.2024539</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.3934/math.2024539" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0802.3819v3</id>
+    <title>Dirac structures of omni-Lie algebroids</title>
+    <updated>2011-01-08T07:04:01Z</updated>
+    <link href="https://arxiv.org/abs/0802.3819v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0802.3819v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Omni-Lie algebroids are generalizations of Alan Weinstein's omni-Lie algebras. A Dirac structure in an omni-Lie algebroid $\dev E\oplus \jet E$ is necessarily a Lie algebroid together with a representation on $E$. We study the geometry underlying these Dirac structures in the light of reduction theory. In particular, we prove that there is a one-to-one correspondence between reducible Dirac structures and projective Lie algebroids in $\huaT=TM\oplus E$; we establish the relation between the normalizer $N_{L}$ of a reducible Dirac structure $L$ and the derivation algebra $\Der(\pomnib (L))$ of the projective Lie algebroid $\pomnib (L)$; we study the cohomology group $\mathrm{H}^\bullet(L,ρ_{L})$ and the relation between $N_{L}$ and $\mathrm{H}^1(L,ρ_{L})$; we describe Lie bialgebroids using the adjoint representation; we study the deformation of a Dirac structure $L$, which is related with $\mathrm{H}^2(L,ρ_{L})$.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2008-02-26T14:45:32Z</published>
+    <arxiv:comment>23 pages, no figure, to appear in International Journal of Mathematics</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <author>
+      <name>Zhuo Chen</name>
+    </author>
+    <author>
+      <name>Zhangju Liu</name>
+    </author>
+    <author>
+      <name>Yunhe Sheng</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2512.03391v1</id>
+    <title>From n-systems to Lie and Courant algebroids</title>
+    <updated>2025-12-03T02:49:12Z</updated>
+    <link href="https://arxiv.org/abs/2512.03391v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2512.03391v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper introduces a method for constructing pure algebroids, dull algebroids, and Lie algebroids. The construction relies on what we deffned as n-systems on vector bundles, and we provide explicit computations for all resulting structure maps. Analogously, metric n-systems deffned on metric vector bundles allow us to construct metric algebroids, pre-Courant algebroids, and Courant algebroids.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-03T02:49:12Z</published>
+    <arxiv:comment>26 pages</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <author>
+      <name>Liqiang Cai</name>
+    </author>
+    <author>
+      <name>Zhuo Chen</name>
+    </author>
+    <author>
+      <name>Zhixiong Chen</name>
+    </author>
+    <author>
+      <name>Yanhui Bi</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0712.4228v1</id>
+    <title>The Cohomology of Transitive Lie Algebroids</title>
+    <updated>2007-12-27T12:53:04Z</updated>
+    <link href="https://arxiv.org/abs/0712.4228v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0712.4228v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  For a transitive Lie algebroid A on a connected manifold M and its a representation on a vector bundle F, we study the localization map Y^1: H^1(A,F)-&gt; H^1(L_x,F_x), where L_x is the adjoint algebra at x in M. The main result in this paper is that: Ker Y^1_x=Ker(p^{1*})=H^1_{deR}(M,F_0). Here p^{1*} is the lift of H^1(\huaA,F) to its counterpart over the universal covering space of M and H^1_{deR}(M,F_0) is the F_0=H^0(L,F)-coefficient deRham cohomology. We apply these results to study the associated vector bundles to principal fiber bundles and the structure of transitive Lie bialgebroids.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.SG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2007-12-27T12:53:04Z</published>
+    <arxiv:comment>17pages, no figures</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <author>
+      <name>Z. Chen</name>
+    </author>
+    <author>
+      <name>Z. -J. Liu</name>
+    </author>
+    <arxiv:doi>10.1142/9789812779649_0006</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1142/9789812779649_0006" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1408.0448v1</id>
+    <title>Holomorphic Poisson Cohomology</title>
+    <updated>2014-08-03T01:46:29Z</updated>
+    <link href="https://arxiv.org/abs/1408.0448v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1408.0448v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A holomorphic Poisson structure induces a deformation of the complex structure as Hitchin's generalized geometry. Its associated cohomology naturally appears as the limit of a spectral sequence of a double complex. The first sheet of this spectral sequence is the Dolbeault cohomology with coefficients in the exterior algebra of the holomorphic tangent bundle. We identify various necessary conditions on compact complex manifolds on which this spectral sequence degenerates on the level of the second sheet. The manifolds to our concern include all compact complex surfaces, Kähler manifolds, and nilmanifolds with abelian complex structures or complex parallelizable manifolds.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.SG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-08-03T01:46:29Z</published>
+    <arxiv:primary_category term="math.DG"/>
+    <author>
+      <name>Zhuo Chen</name>
+    </author>
+    <author>
+      <name>Daniele Grandini</name>
+    </author>
+    <author>
+      <name>Yat-Sun Poon</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2506.18360v1</id>
+    <title>Atiyah constructions for Lie algebroid connections on fiber bundles</title>
+    <updated>2025-06-23T07:44:13Z</updated>
+    <link href="https://arxiv.org/abs/2506.18360v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2506.18360v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>To address the need for a unified framework that incorporates Lie algebroid connections on both vector and principal bundles, this paper investigates a generalized Atiyah algebroid structure and its short exact sequence. Building on this generalization, we describe Atiyah-type extensions and sequences that represent Atiyah classes through three explicit constructions designed to encode Lie algebroid connections compatible with specified sub-structures. As illustrative examples, we work out an enriched Atiyah algebroid construct, providing a systematic tool to characterize certain key properties of holomorphic connections and invariant connections.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-06-23T07:44:13Z</published>
+    <arxiv:comment>35 pages</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <author>
+      <name>Chen He</name>
+    </author>
+    <author>
+      <name>Dadi Ni</name>
+    </author>
+    <author>
+      <name>Zhuo Chen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0710.2149v1</id>
+    <title>On (Co-)morphisms of Lie Pseudoalgebras and Groupoids</title>
+    <updated>2007-10-11T02:25:29Z</updated>
+    <link href="https://arxiv.org/abs/0710.2149v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0710.2149v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We give a unified description of morphisms and comorphisms of Lie pseudoalgebras, showing that the both types of morphisms can be regarded as subalgebras of a Lie pseudoalgebra, called the $ψ$-sum. We also provide similar descriptions for morphisms and comorphisms of Lie algebroids and groupoids.</summary>
+    <category term="math.RA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2007-10-11T02:25:29Z</published>
+    <arxiv:comment>25 pages, no figure</arxiv:comment>
+    <arxiv:primary_category term="math.RA"/>
+    <arxiv:journal_ref>Journal of Algebra, 316(2007): 1-31</arxiv:journal_ref>
+    <author>
+      <name>Z. Chen</name>
+    </author>
+    <author>
+      <name>Z. -J. Liu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0710.3909v2</id>
+    <title>On the Existence of Global Bisections of Lie Groupoids</title>
+    <updated>2008-07-24T06:41:35Z</updated>
+    <link href="https://arxiv.org/abs/0710.3909v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0710.3909v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We show that every source connected Lie groupoid always has global bisections through any given point. This bisection can be chosen to be the multiplication of some exponentials as close as possible to a prescribed curve. The existence of bisections through more than one prescribed points is also discussed. We give some interesting applications of these results.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2007-10-21T06:44:20Z</published>
+    <arxiv:comment>17 pages, 7 figures</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <author>
+      <name>Z. Chen</name>
+    </author>
+    <author>
+      <name>Z. -J. Liu</name>
+    </author>
+    <author>
+      <name>D. -S. Zhong</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1808.04070v1</id>
+    <title>Two-dimensional supersymmetric gauge theories with exceptional gauge groups</title>
+    <updated>2018-08-13T06:05:08Z</updated>
+    <link href="https://arxiv.org/abs/1808.04070v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1808.04070v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We apply the recent proposal for mirrors of nonabelian (2,2) supersymmetric two-dimensional gauge theories to make predictions for two-dimensional supersymmetric gauge theories with exceptional gauge groups G2, F4, E6, E7, and E8. We compute the mirror Landau-Ginzburg models and predict excluded Coulomb loci and Coulomb branch relations (quantum cohomology). We also discuss the relationship between weight lattice normalizations and theta angle periodicities in the proposal, and explore different conventions for the mirrors. Finally, we discuss the behavior of pure gauge theories with exceptional gauge groups under RG flow, and describe evidence that any pure supersymmetric two-dimensional gauge theory with connected and simply-connected semisimple gauge group flows in the IR to a free theory of as many twisted chiral superfields as the rank of the gauge group, extending previous results for SU, SO, and Sp gauge theories.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-08-13T06:05:08Z</published>
+    <arxiv:comment>90 pages, LaTeX</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <arxiv:journal_ref>Adv. Theor. Math. Phys. 24 (2020) 67-123</arxiv:journal_ref>
+    <author>
+      <name>Z. Chen</name>
+    </author>
+    <author>
+      <name>W. Gu</name>
+    </author>
+    <author>
+      <name>H. Parsian</name>
+    </author>
+    <author>
+      <name>E. Sharpe</name>
+    </author>
+    <arxiv:doi>10.4310/ATMP.2020.v24.n1.a3</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.4310/ATMP.2020.v24.n1.a3" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1705.08472v2</id>
+    <title>More Toda-like (0,2) mirrors</title>
+    <updated>2017-06-14T12:20:27Z</updated>
+    <link href="https://arxiv.org/abs/1705.08472v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1705.08472v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we extend our previous work to construct (0,2) Toda-like mirrors to A/2-twisted theories on more general spaces, as part of a program of understanding (0,2) mirror symmetry. Specifically, we propose (0,2) mirrors to GLSMs on toric del Pezzo surfaces and Hirzebruch surfaces with deformations of the tangent bundle. We check the results by comparing correlation functions, global symmetries, as well as geometric blowdowns with the corresponding (0,2) Toda-like mirrors. We also briefly discuss Grassmannian manifolds.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-05-23T18:36:52Z</published>
+    <arxiv:comment>49 pages, LaTeX; v2: references added</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <arxiv:journal_ref>JHEP 1708 (2017) 079</arxiv:journal_ref>
+    <author>
+      <name>Z. Chen</name>
+    </author>
+    <author>
+      <name>J. Guo</name>
+    </author>
+    <author>
+      <name>E. Sharpe</name>
+    </author>
+    <author>
+      <name>R. Wu</name>
+    </author>
+    <arxiv:doi>10.1007/JHEP08(2017)079</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/JHEP08(2017)079" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0710.3908v2</id>
+    <title>Lie Rinehart Bialgebras for Crossed Products</title>
+    <updated>2008-05-25T08:49:50Z</updated>
+    <link href="https://arxiv.org/abs/0710.3908v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0710.3908v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  In this paper, we study Lie Rinehart bialgebras, the algebraic generalization of Lie bialgebroids. More precisely, we analyze the structure of Lie Rinehart bialgebras for crossed products induced by actions of Lie algebras on K[t].</summary>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2007-10-21T06:28:49Z</published>
+    <arxiv:comment>23 pages, no figure</arxiv:comment>
+    <arxiv:primary_category term="math.AC"/>
+    <author>
+      <name>Z. Chen</name>
+    </author>
+    <author>
+      <name>Z. -J. Liu</name>
+    </author>
+    <author>
+      <name>D. -S. Zhong</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1103.0866v1</id>
+    <title>On Double Vector Bundles</title>
+    <updated>2011-03-04T11:22:34Z</updated>
+    <link href="https://arxiv.org/abs/1103.0866v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1103.0866v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we construct a category of short exact sequences of vector bundles and prove that it is equivalent to the category of double vector bundles. Moreover, operations on double vector bundles can be transferred to operations on the corresponding short exact sequences. In particular, we study the duality theory of double vector bundles in term of the corresponding short exact sequences. Examples including the jet bundle and the Atiyah algebroid are discussed.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-03-04T11:22:34Z</published>
+    <arxiv:comment>19 Pages</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <arxiv:journal_ref>Acta. Math. Sinica, 30 (10), (2014), 1655-1673</arxiv:journal_ref>
+    <author>
+      <name>Zhuo Chen</name>
+    </author>
+    <author>
+      <name>Zhangju Liu</name>
+    </author>
+    <author>
+      <name>Yunhe Sheng</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2302.01294v2</id>
+    <title>The weak Lie 2-algebra of multiplicative forms on a quasi-Poisson groupoid</title>
+    <updated>2023-07-06T14:59:32Z</updated>
+    <link href="https://arxiv.org/abs/2302.01294v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2302.01294v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Berwick-Evens and Lerman recently showed that the category of vector fields on a geometric stack has the structure of a Lie $2$-algebra. Motivated by this work, we present a construction of graded weak Lie $2$-algebras associated with quasi-Poisson groupoids based on the space of multiplicative forms on the groupoid and differential forms on the base manifold. We also establish a morphism between the Lie $2$-algebra of multiplicative multivector fields and the weak Lie $2$-algebra of multiplicative forms, allowing us to compare and relate different aspects of Lie $2$-algebra theory within the context of quasi-Poisson geometry. As an infinitesimal analogy, we explicitly determine the associated weak Lie $2$-algebra structure of IM $1$-forms along with differential $1$-forms on the base manifold for any quasi-Lie bialgebroid.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-01-27T12:25:30Z</published>
+    <arxiv:comment>We add Section 5 in this version</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <author>
+      <name>Zhuo Chen</name>
+    </author>
+    <author>
+      <name>Honglei Lang</name>
+    </author>
+    <author>
+      <name>Zhangju Liu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2412.09039v2</id>
+    <title>From smooth dynamical twists to twistors of quantum groupoids</title>
+    <updated>2025-12-12T07:35:10Z</updated>
+    <link href="https://arxiv.org/abs/2412.09039v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2412.09039v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Consider a Lie subalgebra $\mathfrak{l} \subset \mathfrak{g}$ and an $\mathfrak{l}$-invariant open submanifold $V \subset \mathfrak{l}^{\ast}$. We demonstrate that any smooth dynamical twist on $V$, valued in $U(\mathfrak{g}) \otimes U(\mathfrak{g})\llbracket \hbar \rrbracket$, establishes a twistor on the associated quantum groupoid when combined with the Gutt star product on the cotangent bundle $T^\ast L$ of a Lie group $L$ that integrates $\mathfrak{l}$. This result provides a framework for constructing equivariant star products from smooth dynamical twists on those Poisson homogeneous spaces arising from nondegenerate polarized Lie algebras, leveraging the structure of twistors of quantum groupoids.</summary>
+    <category term="math.QA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-12-12T08:06:43Z</published>
+    <arxiv:primary_category term="math.QA"/>
+    <arxiv:journal_ref>Journal of Geometry and Physics, 219 (2026)</arxiv:journal_ref>
+    <author>
+      <name>Jiahao Cheng</name>
+    </author>
+    <author>
+      <name>Zhuo Chen</name>
+    </author>
+    <author>
+      <name>Yu Qiao</name>
+    </author>
+    <author>
+      <name>Maosong Xiang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0803.2376v3</id>
+    <title>Dirac generating operators and Manin triples</title>
+    <updated>2008-05-14T19:37:08Z</updated>
+    <link href="https://arxiv.org/abs/0803.2376v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0803.2376v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Given a pair of (real or complex) Lie algebroid structures on a vector bundle $A$ (over $M$) and its dual $A^*$, and a line bundle $\module$ such that $\module\otimes\module=(\wedge^{\TOP} A^*\otimes\wedge^{\TOP} T^*M)$, there exist two canonically defined differential operators $\bdees$ and $\bdel$ on $\sections{\wedge A\otimes\module}$. We prove that the pair $(A,A^*)$ constitutes a Lie bialgebroid if, and only if, the square of $\bdirac =\bdees+\bdel$ is the multiplication by a function on $M$. As a consequence, we obtain that the pair $(A,A^*)$ is a Lie bialgebroid if, and only if, $\bdirac$ is a Dirac generating operator as defined by Alekseev &amp; Xu \cite{AlekseevXu}. Our approach is to establish a list of new identities relating the Lie algebroid structures on $A$ and $A^*$ (Theorem \ref{Thm:C}).</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2008-03-17T00:26:39Z</published>
+    <arxiv:comment>26 pages, introduction rewritten, minor corrections</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <arxiv:journal_ref>J. Lond. Math. Soc. (2) 79 (2009), 399-421</arxiv:journal_ref>
+    <author>
+      <name>Zhuo Chen</name>
+    </author>
+    <author>
+      <name>Mathieu Stienon</name>
+    </author>
+    <arxiv:doi>10.1112/jlms/jdn084</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1112/jlms/jdn084" title="doi"/>
+  </entry>
+</feed>

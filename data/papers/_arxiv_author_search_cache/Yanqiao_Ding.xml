@@ -1,0 +1,199 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/zK+baxW9E+mo/Az3MGaFXmTh5LA</id>
+  <title>arXiv Query: search_query=au:"Yanqiao Ding" AND (cat:math.AG OR cat:math.AT OR cat:math.AP OR cat:math.CT OR cat:math.CA OR cat:math.CO OR cat:math.DG OR cat:math.DS OR cat:math.FA OR cat:math.GT OR cat:math.MP OR cat:math.OA OR cat:math.PR OR cat:math.QA OR cat:math.RA OR cat:math.RT OR cat:math.SG OR cat:math.SP OR cat:math.ST OR cat:math.NT OR cat:math.GR OR cat:math.HO OR cat:math-ph OR cat:nlin.SI OR cat:nlin.CD OR cat:hep-th OR cat:q-alg OR cat:dg-ga OR cat:alg-geom OR cat:cond-mat.stat-mech)&amp;id_list=&amp;start=0&amp;max_results=200</title>
+  <updated>2026-05-06T07:27:37Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=au:%22Yanqiao+Ding%22+AND+(cat:math.AG+OR+(cat:math.AT+OR+(cat:math.AP+OR+(cat:math.CT+OR+(cat:math.CA+OR+(cat:math.CO+OR+(cat:math.DG+OR+(cat:math.DS+OR+(cat:math.FA+OR+(cat:math.GT+OR+(cat:math.MP+OR+(cat:math.OA+OR+(cat:math.PR+OR+(cat:math.QA+OR+(cat:math.RA+OR+(cat:math.RT+OR+(cat:math.SG+OR+(cat:math.SP+OR+(cat:math.ST+OR+(cat:math.NT+OR+(cat:math.GR+OR+(cat:math.HO+OR+(cat:math-ph+OR+(cat:nlin.SI+OR+(cat:nlin.CD+OR+(cat:hep-th+OR+(cat:q-alg+OR+(cat:dg-ga+OR+(cat:alg-geom+OR+cat:cond-mat.stat-mech)))))))))))))))))))))))))))))&amp;start=0&amp;max_results=200&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>200</opensearch:itemsPerPage>
+  <opensearch:totalResults>10</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2303.03671v4</id>
+    <title>The uniform asymptotics for real double Hurwitz numbers with triple ramification I: the tropical correspondence</title>
+    <updated>2026-02-04T03:49:50Z</updated>
+    <link href="https://arxiv.org/abs/2303.03671v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2303.03671v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This is the first of two papers on the uniform asymptotics for real double Hurwitz numbers with triple ramification. Real double Hurwitz numbers with triple ramification count the number of real ramified coverings of the complex projective line $\mathbb{C}\mathbb{P}^1$ by real Riemann surfaces of genus $g$, where the ramification profiles over $0$ and $\infty$ are $λ$ and $μ$ respectively, and the ramification profiles over the remaining real branch points consist of either $(3,1,\ldots,1)$ or $(2,1,\ldots,1)$.
+  We apply a modified version of the tropical computation framework developed by Markwig and Rau for real Hurwitz numbers (Math. Z. 281 (2015), no. 1-2, 501-522) to compute the real double Hurwitz numbers with triple ramification. The new ingredient in our computation is the application of real simple resolution, a technique that enables us to resolve a triple branch point into a pair of simple branch points. Using real simple resolution, we establish a correspondence between real double Hurwitz numbers with triple ramification and weighted counts of tropical covers. This modified tropical correspondence simplifies the asymptotic analysis of real double Hurwitz numbers with triple ramification.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-03-07T06:11:40Z</published>
+    <arxiv:comment>41 pages; 32 figures; V3 is split into two papers; the one on uniform asymptotics appears in another arXiv preprint. Comments welcome!</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <author>
+      <name>Yanqiao Ding</name>
+    </author>
+    <author>
+      <name>Kui Li</name>
+    </author>
+    <author>
+      <name>Huan Liu</name>
+    </author>
+    <author>
+      <name>Dongfeng Yan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2210.06880v1</id>
+    <title>Asymptotics for real monotone double Hurwitz numbers</title>
+    <updated>2022-10-13T10:05:51Z</updated>
+    <link href="https://arxiv.org/abs/2210.06880v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2210.06880v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In recent years, monotone double Hurwitz numbers were introduced as a naturally combinatorial modification of double Hurwitz numbers. Monotone double Hurwitz numbers share many structural properties with their classical counterparts, such as piecewise polynomaility, while the quantitative properties of these two numbers are quite different. We consider real analogues of monotone double Hurwitz numbers and study the asymptotics for these real analogues. The key ingredient is an interpretation of real tropical covers with arbitrary splittings as factorizations in the symmetric group which generalizes the result from Guay-Paquet, Markwig, and Rau (Int. Math. Res. Not. IMRN, 2016(1):258-293, 2016). By using the above interpretation, we consider three types of real analogues of monotone double Hurwitz numbers: real monotone double Hurwitz numbers relative to simple splittings, relative to arbitrary splittings and real mixed double Hurwitz numbers. Under certain conditions, we find lower bounds for these real analogues, and obtain logarithmic asymptotics for real monotone double Hurwitz numbers relative to arbitrary splittings and real mixed double Hurwitz numbers. In particular, under given conditions real mixed double Hurwitz numbers are logarithmically equivalent to complex double Hurwitz numbers. We construct a family of real tropical covers and use them to show that real monotone double Hurwitz numbers relative to simple splittings are logarithmically equivalent to monotone double Hurwitz numbers with specific conditions. This is consistent with the logarithmic equivalence of real double Hurwitz numbers and complex double Hurwitz numbers.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-10-13T10:05:51Z</published>
+    <arxiv:comment>41 pages, 24 figures, comments are welcome</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <author>
+      <name>Yanqiao Ding</name>
+    </author>
+    <author>
+      <name>Qinhao He</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1710.03603v2</id>
+    <title>Higher genus Welschinger invariants under real surgeries</title>
+    <updated>2018-01-14T03:27:19Z</updated>
+    <link href="https://arxiv.org/abs/1710.03603v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1710.03603v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>According to [3], a real surgery of a real del Pezzo surface $X_\mathbb{R}$ along a real sphere $S$ is a modification of the real structure on $X_\mathbb{R}$ in a neighborhood of $S$. In this paper, we study the behavior of higher genus Welschinger invariants under real surgeries, and obtain a genus decreasing formula of Welschinger invariants.</summary>
+    <category term="math.SG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-10-09T03:51:33Z</published>
+    <arxiv:comment>16 pages. The main theorem is restricted to the real del Pezzo surfaces, and the formula is also considered in the symplectic case in the Appendix</arxiv:comment>
+    <arxiv:primary_category term="math.SG"/>
+    <author>
+      <name>Yanqiao Ding</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1504.07111v1</id>
+    <title>The Weinstein Conjecture in Product of Symplectic Manifolds</title>
+    <updated>2015-04-27T14:33:49Z</updated>
+    <link href="https://arxiv.org/abs/1504.07111v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1504.07111v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, using pseudo-holomorphic curve method, one proves the Weinstein conjecture in the product $P_1\times P_2$ of two strongly geometrically bounded symplectic manifolds under some conditions with $P_1$. In particular, if $N$ is a closed manifold or a noncompact manifold of finite topological type, our result implies that the Weinstein conjecture in $\mathbb{C}\mathbb{P}^2\times T^*N$ holds.</summary>
+    <category term="math.SG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-04-27T14:33:49Z</published>
+    <arxiv:comment>19 pages. Comments are welcome</arxiv:comment>
+    <arxiv:primary_category term="math.SG"/>
+    <author>
+      <name>Yanqiao Ding</name>
+    </author>
+    <author>
+      <name>Jianxun Hu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2506.16879v1</id>
+    <title>Real polynomial Hurwitz numbers</title>
+    <updated>2025-06-20T10:02:41Z</updated>
+    <link href="https://arxiv.org/abs/2506.16879v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2506.16879v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We show that the signed counts of normalized real polynomials, as defined by Itenberg and Zvonkine, provide the signed counts of genus zero real ramified coverings of the Riemann sphere with a point of total ramification and several other branch points with arbitrary ramification profiles.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-06-20T10:02:41Z</published>
+    <arxiv:comment>9 pages, comments are welcome</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <author>
+      <name>Yanqiao Ding</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2602.04191v1</id>
+    <title>The uniform asymptotics for real double Hurwitz numbers with triple ramification II: lower bounds and asymptotics</title>
+    <updated>2026-02-04T04:12:41Z</updated>
+    <link href="https://arxiv.org/abs/2602.04191v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.04191v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This is the second of two papers on the uniform asymptotics for real double Hurwitz numbers with triple ramification. Using the modified tropical correspondence theorem established in the first paper of this series, we introduce a combinatorial invariant that serves as a lower bound for real double Hurwitz numbers with triple ramification. We derive a uniform lower bound for the large-degree and large-genus logarithmic asymptotics of these combinatorial invariants. This uniform lower bound yields the following results: (1) We establish a uniform lower bound for the large-degree and large-genus logarithmic asymptotics of real double Hurwitz numbers with triple ramification and their complex analogues. In particular, we provide a partial answer to an open question proposed by Dubrovin, Yang and Zagier on the uniform bound for simple Hurwitz numbers. (2) We prove logarithmic equivalence between real double Hurwitz numbers with triple ramification and their complex analogues as the degree tends to infinity and only simple branch points are added. (3) As the genus tends to infinity and only simple branch points are added, we show that the logarithms of real double Hurwitz numbers with triple ramification and their complex analogues are of the same order.</summary>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-04T04:12:41Z</published>
+    <arxiv:comment>35 pages; 16 figures; ArXiv:2303.03671v3 is split into two papers; this arXiv preprint is the one on the uniform asymptotics. Comments welcome!</arxiv:comment>
+    <arxiv:primary_category term="math.CO"/>
+    <author>
+      <name>Yanqiao Ding</name>
+    </author>
+    <author>
+      <name>Kui Li</name>
+    </author>
+    <author>
+      <name>Huan Liu</name>
+    </author>
+    <author>
+      <name>Dongfeng Yan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1902.07486v1</id>
+    <title>A remark on Gromov-Witten-Welschinger invariants of $\mathbb{C} P^3\#\overline{\mathbb{C} P}^3$</title>
+    <updated>2019-02-20T10:18:22Z</updated>
+    <link href="https://arxiv.org/abs/1902.07486v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1902.07486v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We generalize the formula of Gromov-Witten-Welschinger invariants of $\mathbb{C} P^3$ established by E. Brugallé and P. Georgieva in [BG16b] to $\mathbb{C} P^3\#\overline{\mathbb{C} P}^3$. Using pencils of quadrics, some real and complex enumerative invariants of $\mathbb{C} P^3\#\overline{\mathbb{C} P}^3$ can be written as the combination of the enumerative invariants of the blow up of $\mathbb{C} P^2$ at two real points.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-02-20T10:18:22Z</published>
+    <arxiv:comment>13 pages, 2 figures, comments are welcome</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <author>
+      <name>Yanqiao Ding</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2010.00899v3</id>
+    <title>On the lower bounds for real double Hurwitz numbers</title>
+    <updated>2023-03-07T08:53:27Z</updated>
+    <link href="https://arxiv.org/abs/2010.00899v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2010.00899v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>As the real counterpart of double Hurwitz number, the real double Hurwitz number depends on the distribution of real branch points. We consider the problem of asymptotic growth of real and complex double Hurwitz numbers. We provide a lower bound for real double Hurwitz numbers based on the tropical computation of real double Hurwitz numbers. By using this lower bound and J. Rau's result ( Math. Ann. 375(1-2): 895-915, 2019), we prove the logarithmic equivalence of real and complex Hurwitz numbers.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-10-02T09:54:05Z</published>
+    <arxiv:comment>19 pages, 14 figures, final version, to appear in J. Algebraic Combin. arXiv admin note: text overlap with arXiv:1805.08997 by other authors</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <author>
+      <name>Yanqiao Ding</name>
+    </author>
+    <arxiv:doi>10.1007/s10801-022-01213-3</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s10801-022-01213-3" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2509.06004v2</id>
+    <title>Refined floor diagrams relative to a conic and Caporaso-Harris type formula</title>
+    <updated>2025-09-20T12:57:43Z</updated>
+    <link href="https://arxiv.org/abs/2509.06004v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2509.06004v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We prove a $q$-refined correspondence theorem between higher genus relative Gromov-Witten invariants with a Lambda class $λ_{g-g'}$ insertion in the blow-up of $\mathbb{P}^2$ at $k$ points on a conic and the refined counts of genus $g'$ floor diagrams relative to a conic, after the change of variables $q=e^{iu}$. We provide a Caporaso-Harris type recursive formula for the refined counts of higher genus floor diagrams. As an application of the correspondence theorem, we propose a higher genus version of the BPS polynomials of del Pezzo surfaces of degree $\geq3$ and Hirzebruch surfaces, which generalize the higher genus Block-Göttsche polynomials.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-09-07T10:37:58Z</published>
+    <arxiv:comment>43 pages, 2 figures, references are updated, comments welcome</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <author>
+      <name>Yanqiao Ding</name>
+    </author>
+    <author>
+      <name>Jianxun Hu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1609.05655v1</id>
+    <title>Welschinger invariants of Blow-ups of symplectic 4-manifolds</title>
+    <updated>2016-09-19T10:07:01Z</updated>
+    <link href="https://arxiv.org/abs/1609.05655v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1609.05655v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Using the degeneration technique, one studies the behavior of Welschinger invariants under the blow-up, and obtains some blow-up formulae of Welschinger invariants. One also analyses the variation of Welschinger invariants when replacing a pair of real points in the real configuration by a pair of conjugated points, and reproves Welschinger's wall crossing formula.</summary>
+    <category term="math.SG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-09-19T10:07:01Z</published>
+    <arxiv:comment>arXiv admin note: text overlap with arXiv:1406.5969 by other authors</arxiv:comment>
+    <arxiv:primary_category term="math.SG"/>
+    <author>
+      <name>Yanqiao Ding</name>
+    </author>
+    <author>
+      <name>Jianxun Hu</name>
+    </author>
+  </entry>
+</feed>

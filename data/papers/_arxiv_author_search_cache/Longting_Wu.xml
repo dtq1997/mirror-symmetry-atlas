@@ -1,0 +1,219 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/kR+yuorEIV9rjKm/lQJ4RNvOLCQ</id>
+  <title>arXiv Query: search_query=au:"Longting Wu" AND (cat:math.AG OR cat:math.AT OR cat:math.AP OR cat:math.CT OR cat:math.CA OR cat:math.CO OR cat:math.DG OR cat:math.DS OR cat:math.FA OR cat:math.GT OR cat:math.MP OR cat:math.OA OR cat:math.PR OR cat:math.QA OR cat:math.RA OR cat:math.RT OR cat:math.SG OR cat:math.SP OR cat:math.ST OR cat:math.NT OR cat:math.GR OR cat:math.HO OR cat:math-ph OR cat:nlin.SI OR cat:nlin.CD OR cat:hep-th OR cat:q-alg OR cat:dg-ga OR cat:alg-geom OR cat:cond-mat.stat-mech)&amp;id_list=&amp;start=0&amp;max_results=200</title>
+  <updated>2026-05-06T07:31:36Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=au:%22Longting+Wu%22+AND+(cat:math.AG+OR+(cat:math.AT+OR+(cat:math.AP+OR+(cat:math.CT+OR+(cat:math.CA+OR+(cat:math.CO+OR+(cat:math.DG+OR+(cat:math.DS+OR+(cat:math.FA+OR+(cat:math.GT+OR+(cat:math.MP+OR+(cat:math.OA+OR+(cat:math.PR+OR+(cat:math.QA+OR+(cat:math.RA+OR+(cat:math.RT+OR+(cat:math.SG+OR+(cat:math.SP+OR+(cat:math.ST+OR+(cat:math.NT+OR+(cat:math.GR+OR+(cat:math.HO+OR+(cat:math-ph+OR+(cat:nlin.SI+OR+(cat:nlin.CD+OR+(cat:hep-th+OR+(cat:q-alg+OR+(cat:dg-ga+OR+(cat:alg-geom+OR+cat:cond-mat.stat-mech)))))))))))))))))))))))))))))&amp;start=0&amp;max_results=200&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>200</opensearch:itemsPerPage>
+  <opensearch:totalResults>10</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2501.05622v2</id>
+    <title>Poincaré polynomials of moduli spaces of one-dimensional sheaves on the projective plane</title>
+    <updated>2025-03-09T13:14:27Z</updated>
+    <link href="https://arxiv.org/abs/2501.05622v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2501.05622v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Let $M_β$ denote the moduli space of stable one-dimensional sheaves on a del Pezzo surface $S$, supported on curves of class $β$ with Euler characteristic one. We show that the divisibility property of the Poincaré polynomial of $M_β$, proposed by Choi-van Garrel-Katz-Takahashi follows from Bousseau's conjectural refined sheaves/Gromov-Witten correspondence. Since this correspondence is known for $S=\mathbb{P}^2$, our result proves Choi-van Garrel-Katz-Takahashi's conjecture in this case.
+  For $S=\mathbb{P}^2$, our proof also introduces a novel approach to computing the Poincaré polynomials using Gromov-Witten invariants of local $\mathbb{P}^2$ and a local elliptic curve. Specifically, we compute the Poincaré polynomials of $M_{d}$ with degrees $d\leq 16$ and derive a closed formula for the leading Betti numbers $b_i(M_d)$ with $d\geq 6$ and $i\leq 4d-22$. We also propose a conjectural formula for the leading Betti numbers $b_i(M_d)$ with $d\geq 4$ and $i\leq 6d-20$. In the Appendix (by M. Moreira), a more general conjecture concerning the higher range Betti numbers of $M_{d}$ is presented, along with another conjecture that involves refinements from the perverse/Chern filtration.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-01-09T23:42:10Z</published>
+    <arxiv:comment>We add an appendix by M. Moreira where a more general conjecture concerning the higher range Betti numbers of the moduli of one-dimensional sheaves on $\mathbb{P}^2$ is presented, along with another conjecture that involves refinements from the perverse/Chern filtration. Conjecture 1.9 has made more precise. 37 pages. Comments are welcome!</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <author>
+      <name>Shuai Guo</name>
+    </author>
+    <author>
+      <name>Longting Wu</name>
+    </author>
+    <author>
+      <name>with an appendix by Miguel Moreira</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2001.05347v2</id>
+    <title>Holomorphic anomaly equation for $(\mathbb{P}^2,E)$ and the Nekrasov-Shatashvili limit of local $\mathbb{P}^2$</title>
+    <updated>2021-05-12T19:20:33Z</updated>
+    <link href="https://arxiv.org/abs/2001.05347v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2001.05347v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We prove a higher genus version of the genus $0$ local-relative correspondence of van Garrel-Graber-Ruddat: for $(X,D)$ a pair with $X$ a smooth projective variety and $D$ a nef smooth divisor, maximal contact Gromov-Witten theory of $(X,D)$ with $λ_g$-insertion is related to Gromov-Witten theory of the total space of $\mathcal{O}_X(-D)$ and local Gromov-Witten theory of $D$.
+  Specializing to $(X,D)=(S,E)$ for $S$ a del Pezzo surface or a rational elliptic surface and $E$ a smooth anticanonical divisor, we show that maximal contact Gromov-Witten theory of $(S,E)$ is determined by the Gromov-Witten theory of the Calabi-Yau 3-fold $\mathcal{O}_S(-E)$ and the stationary Gromov-Witten theory of the elliptic curve $E$.
+  Specializing further to $S=\mathbb{P}^2$, we prove that higher genus generating series of maximal contact Gromov-Witten invariants of $(\mathbb{P}^2,E)$ are quasimodular and satisfy a holomorphic anomaly equation. The proof combines the quasimodularity results and the holomorphic anomaly equations previously known for local $\mathbb{P}^2$ and the elliptic curve.
+  Furthermore, using the connection between maximal contact Gromov-Witten invariants of $(\mathbb{P}^2,E)$ and Betti numbers of moduli spaces of semistable one-dimensional sheaves on $\mathbb{P}^2$, we obtain a proof of the quasimodularity and holomorphic anomaly equation predicted in the physics literature for the refined topological string free energy of local $\mathbb{P}^2$ in the Nekrasov-Shatashvili limit.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-01-15T14:38:44Z</published>
+    <arxiv:comment>66 pages, revised version, published in Forum of Mathematics, Pi</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <author>
+      <name>Pierrick Bousseau</name>
+    </author>
+    <author>
+      <name>Honglu Fan</name>
+    </author>
+    <author>
+      <name>Shuai Guo</name>
+    </author>
+    <author>
+      <name>Longting Wu</name>
+    </author>
+    <arxiv:doi>10.1017/fmp.2021.3</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1017/fmp.2021.3" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1705.06018v1</id>
+    <title>Chamber structure for some equivariant relative Gromov-Witten invariants of $\mathbb{P}^1$ in genus $0$</title>
+    <updated>2017-05-17T06:02:47Z</updated>
+    <link href="https://arxiv.org/abs/1705.06018v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1705.06018v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we study genus $0$ equivariant relative Gromov-Witten invariants of $\mathbb{P}^1$ whose corresponding relative stable maps are totally ramified over one point. For fixed number of marked points, we show that such invariants are piecewise polynomials in some parameter space. The parameter space can then be divided into polynomial domains, called chambers. We determine the difference of polynomials between two neighboring chambers. In some special chamber, which we called the totally negative chamber, we show that such a polynomial can be expressed in a simple way. The chamber structure here shares some similarities to that of double Hurwitz numbers.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-05-17T06:02:47Z</published>
+    <arxiv:primary_category term="math.AG"/>
+    <author>
+      <name>Longting Wu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1810.06952v6</id>
+    <title>Structures in genus-zero relative Gromov--Witten theory</title>
+    <updated>2019-11-13T19:48:08Z</updated>
+    <link href="https://arxiv.org/abs/1810.06952v6" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1810.06952v6" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we define genus-zero relative Gromov--Witten invariants with negative contact orders. Using this, we construct relative quantum cohomology rings and Givental formalism. A version of Virasoro constraints also follows from it.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-10-16T12:26:06Z</published>
+    <arxiv:comment>44 pages. Final version. Published in J. Topol</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <arxiv:journal_ref>J. Topol. 13(2020) issue 1, 269-307</arxiv:journal_ref>
+    <author>
+      <name>Honglu Fan</name>
+    </author>
+    <author>
+      <name>Longting Wu</name>
+    </author>
+    <author>
+      <name>Fenglong You</name>
+    </author>
+    <arxiv:doi>10.1112/topo.12131</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1112/topo.12131" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1907.07133v2</id>
+    <title>Higher genus relative Gromov--Witten theory and DR-cycles</title>
+    <updated>2019-11-27T12:08:53Z</updated>
+    <link href="https://arxiv.org/abs/1907.07133v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1907.07133v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We extend the definition of relative Gromov--Witten invariants with negative contact orders to all genera. Then we show that relative Gromov--Witten theory forms a partial CohFT. Some cycle relations on the moduli space of stable maps are also proved.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-07-16T17:03:16Z</published>
+    <arxiv:comment>30 pages. Minor changes. Comments are welcome. arXiv admin note: text overlap with arXiv:1810.06952</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <author>
+      <name>Honglu Fan</name>
+    </author>
+    <author>
+      <name>Longting Wu</name>
+    </author>
+    <author>
+      <name>Fenglong You</name>
+    </author>
+    <arxiv:doi>10.1112/jlms.12417</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1112/jlms.12417" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2303.00503v1</id>
+    <title>All-genus WDVV recursion, quivers, and BPS invariants</title>
+    <updated>2023-03-01T13:37:42Z</updated>
+    <link href="https://arxiv.org/abs/2303.00503v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2303.00503v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Let $X$ be a smooth projective surface and $D$ a smooth rational ample divisor in $X$. We prove an all-genus generalization of the genus $0$ WDVV equation for primary Gromov--Witten invariants of the local 3-fold $\mathcal{O}_X(-D)$. The proof relies on a correspondence between all-genus Gromov--Witten invariants and refined Donaldson--Thomas invariants of acyclic quivers. In particular, the corresponding BPS invariants are expressed in terms of Betti numbers of moduli spaces of quiver representations.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-03-01T13:37:42Z</published>
+    <arxiv:comment>35 pages. Comments are welcome!</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <author>
+      <name>Pierrick Bousseau</name>
+    </author>
+    <author>
+      <name>Longting Wu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1705.06402v3</id>
+    <title>A Remark on Gromov-Witten Invariants of Quintic Threefold</title>
+    <updated>2018-01-05T12:44:03Z</updated>
+    <link href="https://arxiv.org/abs/1705.06402v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1705.06402v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The purpose of the article is to give a proof of a conjecture of Maulik and Pandharipande for genus 2 and 3. As a result, it gives a way to determine Gromov-Witten invariants of the quintic threefold for genus 2 and 3.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-05-18T03:00:23Z</published>
+    <arxiv:comment>We improve our results and add an example which computes genus 2, degree 1 invariant. This is the final version which is accepted by Advances in Mathematics. The final authenticated version is available online via the DOI below</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <author>
+      <name>Longting Wu</name>
+    </author>
+    <arxiv:doi>10.1016/j.aim.2017.12.016</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.aim.2017.12.016" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2112.09180v2</id>
+    <title>A new approach to the operator formalism for Gromov-Witten invariants of the cap and tube</title>
+    <updated>2022-03-02T13:27:05Z</updated>
+    <link href="https://arxiv.org/abs/2112.09180v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2112.09180v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Based on Johnson's operator formula for the equivariant Gromov-Witten theory of $\mathbb{P}^1$-orbifolds, we give a new approach to the operator formalism by Okounkov and Pandharipande regarding the $\mathbb{C}^*$-equivariant Gromov-Witten theory of $\mathbb{P}^1$ relative to one or two points. We also extend their operator formalism in the non-equivariant specialization to the case where we allow negative contact orders.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-12-16T20:09:55Z</published>
+    <arxiv:comment>42 pages. We add Remark 4.7 on the $r$-degree bound for the Gromov-Witten invariants of $\mathbb{P}^1$-orbifolds. Typos corrected. No results affected. Comments are welcome!</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <author>
+      <name>Ajith Urundolil Kumaran</name>
+    </author>
+    <author>
+      <name>Longting Wu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1902.05739v2</id>
+    <title>Witten-Dijkgraaf-Verlinde-Verlinde equation and its application to relative Gromov-Witten theory</title>
+    <updated>2019-12-23T14:31:56Z</updated>
+    <link href="https://arxiv.org/abs/1902.05739v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1902.05739v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We derive a recursive formula for certain relative Gromov-Witten invariants with maximal tangency condition via the Witten-Dijkgraaf-Verlinde-Verlinde equation. For certain relative pairs, we get explicit formulae of invariants using the recursive formula.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-02-15T09:39:23Z</published>
+    <arxiv:comment>16 pages. Title changed, reference added and typos corrected. Revised version to appear in IMRN</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <author>
+      <name>Honglu Fan</name>
+    </author>
+    <author>
+      <name>Longting Wu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1103.4695v1</id>
+    <title>Effect of a crossing change on crossing number</title>
+    <updated>2011-03-24T08:18:22Z</updated>
+    <link href="https://arxiv.org/abs/1103.4695v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1103.4695v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The purpose of this article is to give a preliminary clarification on the relation between crossing number and crossing change. With a main focus on the span of X polynomial, we prove that, as our theorem claims, the crossing number of the link after crossing change can be estimated when certain conditions are met. At the end of the article, we give an example to demonstrate a special case for the theorem and a counterexample to explain that the theorem cannot be applied if the obtained link is not alternating.</summary>
+    <category term="math.GT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-03-24T08:18:22Z</published>
+    <arxiv:comment>11 pages, 12 figures</arxiv:comment>
+    <arxiv:primary_category term="math.GT"/>
+    <author>
+      <name>Longting Wu</name>
+    </author>
+    <author>
+      <name>Shuting Shao</name>
+    </author>
+    <author>
+      <name>Shan Liu</name>
+    </author>
+    <author>
+      <name>Fengchun Lei</name>
+    </author>
+  </entry>
+</feed>

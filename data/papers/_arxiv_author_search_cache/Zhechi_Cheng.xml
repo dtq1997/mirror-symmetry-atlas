@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/09CtPW6CWgIg5ibNKOnWGAN57GE</id>
+  <title>arXiv Query: search_query=au:"Zhechi Cheng" AND (cat:math.AG OR cat:math.AT OR cat:math.AP OR cat:math.CT OR cat:math.CA OR cat:math.CO OR cat:math.DG OR cat:math.DS OR cat:math.FA OR cat:math.GT OR cat:math.MP OR cat:math.OA OR cat:math.PR OR cat:math.QA OR cat:math.RA OR cat:math.RT OR cat:math.SG OR cat:math.SP OR cat:math.ST OR cat:math.NT OR cat:math.GR OR cat:math.HO OR cat:math-ph OR cat:nlin.SI OR cat:nlin.CD OR cat:hep-th OR cat:q-alg OR cat:dg-ga OR cat:alg-geom OR cat:cond-mat.stat-mech)&amp;id_list=&amp;start=0&amp;max_results=200</title>
+  <updated>2026-05-06T07:27:25Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=au:%22Zhechi+Cheng%22+AND+(cat:math.AG+OR+(cat:math.AT+OR+(cat:math.AP+OR+(cat:math.CT+OR+(cat:math.CA+OR+(cat:math.CO+OR+(cat:math.DG+OR+(cat:math.DS+OR+(cat:math.FA+OR+(cat:math.GT+OR+(cat:math.MP+OR+(cat:math.OA+OR+(cat:math.PR+OR+(cat:math.QA+OR+(cat:math.RA+OR+(cat:math.RT+OR+(cat:math.SG+OR+(cat:math.SP+OR+(cat:math.ST+OR+(cat:math.NT+OR+(cat:math.GR+OR+(cat:math.HO+OR+(cat:math-ph+OR+(cat:nlin.SI+OR+(cat:nlin.CD+OR+(cat:hep-th+OR+(cat:q-alg+OR+(cat:dg-ga+OR+(cat:alg-geom+OR+cat:cond-mat.stat-mech)))))))))))))))))))))))))))))&amp;start=0&amp;max_results=200&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>200</opensearch:itemsPerPage>
+  <opensearch:totalResults>3</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2504.13005v1</id>
+    <title>Knot Floer homology of positive braids</title>
+    <updated>2025-04-17T15:15:06Z</updated>
+    <link href="https://arxiv.org/abs/2504.13005v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2504.13005v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We compute the next-to-top term of knot Floer homology for positive braid links. The rank is 1 for any prime positive braid knot. We give some examples of fibered positive links that are not positive braids.</summary>
+    <category term="math.GT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-04-17T15:15:06Z</published>
+    <arxiv:comment>12 pages, 6 figures</arxiv:comment>
+    <arxiv:primary_category term="math.GT"/>
+    <author>
+      <name>Zhechi Cheng</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2202.09041v1</id>
+    <title>Murasugi sum and extremal knot Floer homology</title>
+    <updated>2022-02-18T06:19:09Z</updated>
+    <link href="https://arxiv.org/abs/2202.09041v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2202.09041v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The aim of this paper is to study the behavior of knot Floer homology under Murasugi sum. We establish a graded version of Ni's isomorphism between the extremal knot Floer homology of Murasugi sum of two links and the tensor product of the extremal knot Floer homology groups of the two summands. We further prove that $τ=g$ for each summand if and only if $τ=g$ holds for the Murasugi sum (with $τ$ and $g$ defined appropriately for multi-component links). Some applications are presented.</summary>
+    <category term="math.GT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-02-18T06:19:09Z</published>
+    <arxiv:comment>26 pages, 12 figures</arxiv:comment>
+    <arxiv:primary_category term="math.GT"/>
+    <author>
+      <name>Zhechi Cheng</name>
+    </author>
+    <author>
+      <name>Matthew Hedden</name>
+    </author>
+    <author>
+      <name>Sucharit Sarkar</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2111.07792v1</id>
+    <title>Bigrading the symplectic Khovanov cohomology</title>
+    <updated>2021-11-15T14:27:53Z</updated>
+    <link href="https://arxiv.org/abs/2111.07792v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2111.07792v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We construct a well-defined relative second grading on symplectic Khovanov cohomology from holomorphic disc counting. We show that it recovers the Jones grading of Khovanov homology up to an overall grading shift over any characteristic zero field, through proving that the isomorphism of Abouzaid-Smith can be refined as an isomorphism between bigraded cohomology theories. We prove it by constructing an exact triangle of symplectic Khovanov cohomology that behaves similarly to the unoriented skein exact triangle for Khovanov homology. We use a version of symplectic Khovanov cohomology defined for bridge diagrams and obtain an absolute homological grading in this construction.</summary>
+    <category term="math.SG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-11-15T14:27:53Z</published>
+    <arxiv:comment>20 pages, 7 figures</arxiv:comment>
+    <arxiv:primary_category term="math.SG"/>
+    <arxiv:journal_ref>Algebr. Geom. Topol. 23 (2023) 4057-4086</arxiv:journal_ref>
+    <author>
+      <name>Zhechi Cheng</name>
+    </author>
+    <arxiv:doi>10.2140/agt.2023.23.4057</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.2140/agt.2023.23.4057" title="doi"/>
+  </entry>
+</feed>

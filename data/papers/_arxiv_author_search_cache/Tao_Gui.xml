@@ -1,0 +1,229 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/wpoliOTWH1TJbalxVYtPYBhHkko</id>
+  <title>arXiv Query: search_query=au:"Tao Gui" AND (cat:math.AG OR cat:math.AT OR cat:math.AP OR cat:math.CT OR cat:math.CA OR cat:math.CO OR cat:math.DG OR cat:math.DS OR cat:math.FA OR cat:math.GT OR cat:math.MP OR cat:math.OA OR cat:math.PR OR cat:math.QA OR cat:math.RA OR cat:math.RT OR cat:math.SG OR cat:math.SP OR cat:math.ST OR cat:math.NT OR cat:math.GR OR cat:math.HO OR cat:math-ph OR cat:nlin.SI OR cat:nlin.CD OR cat:hep-th OR cat:q-alg OR cat:dg-ga OR cat:alg-geom OR cat:cond-mat.stat-mech)&amp;id_list=&amp;start=0&amp;max_results=200</title>
+  <updated>2026-05-06T07:28:01Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=au:%22Tao+Gui%22+AND+(cat:math.AG+OR+(cat:math.AT+OR+(cat:math.AP+OR+(cat:math.CT+OR+(cat:math.CA+OR+(cat:math.CO+OR+(cat:math.DG+OR+(cat:math.DS+OR+(cat:math.FA+OR+(cat:math.GT+OR+(cat:math.MP+OR+(cat:math.OA+OR+(cat:math.PR+OR+(cat:math.QA+OR+(cat:math.RA+OR+(cat:math.RT+OR+(cat:math.SG+OR+(cat:math.SP+OR+(cat:math.ST+OR+(cat:math.NT+OR+(cat:math.GR+OR+(cat:math.HO+OR+(cat:math-ph+OR+(cat:nlin.SI+OR+(cat:nlin.CD+OR+(cat:hep-th+OR+(cat:q-alg+OR+(cat:dg-ga+OR+(cat:alg-geom+OR+cat:cond-mat.stat-mech)))))))))))))))))))))))))))))&amp;start=0&amp;max_results=200&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>200</opensearch:itemsPerPage>
+  <opensearch:totalResults>10</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2210.14668v4</id>
+    <title>Conjectures on the reduced Kronecker coefficients</title>
+    <updated>2026-01-30T11:50:48Z</updated>
+    <link href="https://arxiv.org/abs/2210.14668v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2210.14668v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We formulate a series of conjectures on the stable tensor product of irreducible representations of symmetric groups, which are closely related to the reduced Kronecker coefficients. These conjectures are certain generalizations of Okounkov's conjecture on the log-concavity of the Littlewood--Richardson coefficients and the Schur log-concavity theorem of Lam--Postnikov--Pylyavskyy. We prove our conjectures in some special cases and discuss some implications of these conjectures.</summary>
+    <category term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-10-26T12:38:50Z</published>
+    <arxiv:comment>12 pages. The main Conjecture 5.1 is false and we add counterexamples found by professor Mike Zabrocki in the end</arxiv:comment>
+    <arxiv:primary_category term="math.RT"/>
+    <author>
+      <name>Tao Gui</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2205.05408v2</id>
+    <title>On the equivariant log-concavity for the cohomology of the flag varieties</title>
+    <updated>2022-05-12T15:54:31Z</updated>
+    <link href="https://arxiv.org/abs/2205.05408v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2205.05408v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study the $S_n$-equivariant log-concavity of the cohomology of flag varieties, also known as the coinvariant ring of $S_n$. Using the theory of representation stability, we give computer-assisted proofs of the equivariant log-concavity in low degrees and high degrees and conjecture that it holds for all degrees. Furthermore, we make a stronger unimodal conjecture which implies the equivariant log-concavity.</summary>
+    <category term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-05-11T11:21:02Z</published>
+    <arxiv:primary_category term="math.RT"/>
+    <author>
+      <name>Tao Gui</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2205.05420v3</id>
+    <title>Equivariant log-concavity and equivariant Kähler packages</title>
+    <updated>2024-10-17T14:33:02Z</updated>
+    <link href="https://arxiv.org/abs/2205.05420v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2205.05420v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We show that the exterior algebra $Λ_{R}\left[α_{1}, \cdots, α_{n}\right]$, which is the cohomology of the torus $T=(S^{1})^{n}$, and the polynomial ring $\mathbb{R}\left[t_{1}, \ldots, t_{n}\right]$, which is the cohomology of the classifying space $B (S^{1})^{n}=\left(\mathbb{C} \mathbb{P}^{\infty}\right)^{n}$, are $S_{n}$-equivariantly log-concave. We do so by explicitly giving the $S_{n}$-representation maps on the appropriate sequences of tensor products of polynomials or exterior powers and proving that these maps satisfy the hard Lefschetz theorem. Furthermore, we prove that the whole Kähler package, including algebraic analogies of the Poincaré duality, hard Lefschetz, and Hodge-Riemann bilinear relations, holds on the corresponding sequences in an equivariant setting.</summary>
+    <category term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-05-11T11:42:25Z</published>
+    <arxiv:comment>19 pages</arxiv:comment>
+    <arxiv:primary_category term="math.RT"/>
+    <arxiv:journal_ref>J. Algebra 657, 379-401 (2024)</arxiv:journal_ref>
+    <author>
+      <name>Tao Gui</name>
+    </author>
+    <author>
+      <name>Rui Xiong</name>
+    </author>
+    <arxiv:doi>10.1016/j.jalgebra.2024.05.018</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.jalgebra.2024.05.018" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2512.06646v1</id>
+    <title>Totally nonnegative Peterson variety and strongly dominant weight polytope</title>
+    <updated>2025-12-07T04:06:02Z</updated>
+    <link href="https://arxiv.org/abs/2512.06646v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2512.06646v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study the totally nonnegative part of the Peterson variety in arbitrary Lie type and establish its connection to the strongly dominant weight polytope. In particular, we prove that the totally nonnegative part of the Peterson variety is a regular CW-complex, which is homeomorphic to a cube as a cell-decomposed space. This confirms a conjecture of Rietsch for all Lie types.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-07T04:06:02Z</published>
+    <arxiv:comment>33 pages</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <author>
+      <name>Hiraku Abe</name>
+    </author>
+    <author>
+      <name>Tao Gui</name>
+    </author>
+    <author>
+      <name>Haozhi Zeng</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2209.12632v3</id>
+    <title>Revisiting Jacobi-Trudi identities via the BGG category $\mathcal{O}$</title>
+    <updated>2024-11-09T13:44:18Z</updated>
+    <link href="https://arxiv.org/abs/2209.12632v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2209.12632v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>By interpreting Kostka numbers as tensor product multiplicities in the BGG category O for the special linear Lie algebras, we provide a new proof of the classical Jacobi--Trudi identities for skew Schur polynomials, derived from the celebrated Weyl character formula. We re-establish the Schur positivity of certain truncations in the Jacobi--Trudi expansion of skew Schur polynomials and obtain Schur positivity results for similar truncations in the Jacobi--Trudi-type expansion of the product of two Schur polynomials. Furthermore, we interpret the coefficients in the Schur polynomial expansions of these Jacobi--Trudi truncations as tensor product multiplicities in the BGG category O.</summary>
+    <category term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-09-26T12:30:11Z</published>
+    <arxiv:comment>10 pages, add results for the product of Schur polynomials</arxiv:comment>
+    <arxiv:primary_category term="math.RT"/>
+    <author>
+      <name>Tao Gui</name>
+    </author>
+    <author>
+      <name>Arthur L. B. Yang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2311.17980v3</id>
+    <title>Asymptotic Log-concavity of Dominant Lower Bruhat Intervals via Brunn--Minkowski Inequality</title>
+    <updated>2025-08-02T03:21:55Z</updated>
+    <link href="https://arxiv.org/abs/2311.17980v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2311.17980v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Björner and Ekedahl [Ann. of Math. (2), 170.2(2009), pp. 799--817] pioneered the study of length-counting sequences associated with parabolic lower Bruhat intervals in crystallographic Coxeter groups. In this paper, we study the asymptotic behavior of these sequences in affine Weyl groups. Let $W$ be an affine Weyl group with corresponding Weyl group $W_f$ and ${}^{f}{W}$ be the set of minimal representatives for the right cosets $W_f \backslash W$. Let $t_λ$ be the translation by a dominant coroot lattice element $λ$ and ${}^{f}{b}_i^{t_λ}$ be the number of elements of length $i$ below $t_λ$ in the Bruhat order on ${}^{f}{W}$. We show that the sequence $({}^{f}{b}_i^{t_λ})_i$ is ''asymptotically log-concave'' in the following sense: The sequence of discrete measures $(\mathfrak{m}_k)_k$ constructed from the $k$-fold dilated sequence $({}^{f}{b}_i^{t_{kλ}})_i$, as $k$ tends to infinity, converges weakly to a continuous measure obtained from a polytope $P^λ$. Moreover, the sequence of step functions $(S_k)_k$ of $({}^{f}{b}_i^{t_{kλ}})_i$ converges uniformly to the density function of this continuous measure. By Brunn--Minkowski inequality, this density is log-concave.</summary>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-11-29T17:50:34Z</published>
+    <arxiv:comment>48 pages, 6 figures. Fixed minor typos, added a reference, and included a Duistermaat-Heckman measure interpretation of the main result</arxiv:comment>
+    <arxiv:primary_category term="math.CO"/>
+    <author>
+      <name>Gaston Burrull</name>
+    </author>
+    <author>
+      <name>Tao Gui</name>
+    </author>
+    <author>
+      <name>Hongsheng Hu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2311.16022v2</id>
+    <title>Strongly dominant weight polytopes are cubes</title>
+    <updated>2024-05-06T13:26:18Z</updated>
+    <link href="https://arxiv.org/abs/2311.16022v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2311.16022v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>For any root system of rank $r$, we study the "dominant weight polytope" $P^λ$ associated with a strongly dominant weight $λ$. We prove that $P^λ$ is combinatorially equivalent to the $r$-dimensional cube. As an application, we give a new proof of the known formulas for Betti numbers of Peterson varieties in classical Lie types.</summary>
+    <category term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-11-27T17:36:53Z</published>
+    <arxiv:comment>13 pages, 4 figures. Generalization of the main result included. Application to Peterson varieties included. Several small corrections</arxiv:comment>
+    <arxiv:primary_category term="math.RT"/>
+    <author>
+      <name>Gaston Burrull</name>
+    </author>
+    <author>
+      <name>Tao Gui</name>
+    </author>
+    <author>
+      <name>Hongsheng Hu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2508.05457v3</id>
+    <title>Structure constants of Peterson Schubert calculus</title>
+    <updated>2026-04-08T12:20:08Z</updated>
+    <link href="https://arxiv.org/abs/2508.05457v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2508.05457v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We give an explicit, positive, and type-uniform formula for all equivariant structure constants of the Peterson Schubert calculus in arbitrary Lie types, using only the Cartan matrix of the corresponding root system $Φ$. This solves an open problem originally asked by Harada--Tymoczko in type A for all Lie types. As an application, we derive a type-uniform formula for the mixed $Φ$-Eulerian numbers.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-08-07T14:54:20Z</published>
+    <arxiv:comment>25 pages, minor revisions. An extended abstract of this paper will appear in the Proceedings of the 38th Conference on Formal Power Series and Algebraic Combinatorics (Seattle). Comments are welcome!</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <author>
+      <name>Tao Gui</name>
+    </author>
+    <author>
+      <name>Yuqi Jia</name>
+    </author>
+    <author>
+      <name>Xinkai Yu</name>
+    </author>
+    <author>
+      <name>Zhexi Zhang</name>
+    </author>
+    <author>
+      <name>Yuchen Zhu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2408.10155v2</id>
+    <title>On Bott--Samelson rings for Coxeter groups</title>
+    <updated>2024-11-05T09:58:38Z</updated>
+    <link href="https://arxiv.org/abs/2408.10155v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2408.10155v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study the cohomology ring of the Bott--Samelson variety. We compute an explicit presentation of this ring via Soergel's result, which implies that it is a purely combinatorial invariant. We use the presentation to introduce the Bott--Samelson ring associated with a word in arbitrary Coxeter system by generators and relations. In general, it is a split quadratic complete intersection algebra with a triangular pattern of relations. By a result of Tate, it follows that it is a Koszul algebra and we provide a quadratic (reduced) Gr{ö}bner basis. Furthermore, we prove that it satisfies the whole Kähler package, including the Poincaré duality, the hard Lefschetz theorem, and the Hodge--Riemann bilinear relations.</summary>
+    <category term="math.RA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-08-19T17:05:08Z</published>
+    <arxiv:comment>20 pages, add proof of Lemma 5.1 and some minor changes, comments are welcome!</arxiv:comment>
+    <arxiv:primary_category term="math.RA"/>
+    <author>
+      <name>Tao Gui</name>
+    </author>
+    <author>
+      <name>Lin Sun</name>
+    </author>
+    <author>
+      <name>Shihao Wang</name>
+    </author>
+    <author>
+      <name>Haoyu Zhu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2410.13617v2</id>
+    <title>Weyl group symmetries of the toric variety associated with Weyl chambers</title>
+    <updated>2025-07-19T04:00:56Z</updated>
+    <link href="https://arxiv.org/abs/2410.13617v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2410.13617v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>For any crystallographic root system, let $W$ be the associated Weyl group, and let $\mathit{WP}$ be the weight polytope (also known as the $W$-permutohedron) associated with an arbitrary strongly dominant weight. The action of $W$ on $\mathit{WP}$ induces an action on the toric variety $X(\mathit{WP})$ associated with the normal fan of $\mathit{WP}$, and hence an action on the rational cohomology ring $H^*\left(X(\mathit{WP})\right)$. Let $P$ be the corresponding dominant weight polytope, which is a fundamental region of the $W$-action on $\mathit{WP}$. We give a type uniform algebraic proof that the fixed subring $H^*\left(X(\mathit{WP})\right)^{W}$ is isomorphic to the cohomology ring $H^*\left(X(P)\right)$ of the toric variety $X(P)$ associated with the normal fan of $P$. Notably, our proof applies to all finite (not necessarily crystallographic) Coxeter groups, answering a question of Horiguchi--Masuda--Shareshian--Song about non-crystallographic root systems.</summary>
+    <category term="math.AT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-10-17T14:51:16Z</published>
+    <arxiv:comment>14 pages, final version</arxiv:comment>
+    <arxiv:primary_category term="math.AT"/>
+    <arxiv:journal_ref>Bulletin of the London Mathematical Society (2025)</arxiv:journal_ref>
+    <author>
+      <name>Tao Gui</name>
+    </author>
+    <author>
+      <name>Hongsheng Hu</name>
+    </author>
+    <author>
+      <name>Minhua Liu</name>
+    </author>
+    <arxiv:doi>10.1112/blms.70144</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1112/blms.70144" title="doi"/>
+  </entry>
+</feed>

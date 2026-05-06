@@ -1,0 +1,1247 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/JXoRyBxMyhEae2+TwPs8fzm8Pew</id>
+  <title>arXiv Query: search_query=au:"Di Yang" AND (cat:math.AG OR cat:math.AT OR cat:math.AP OR cat:math.CT OR cat:math.CA OR cat:math.CO OR cat:math.DG OR cat:math.DS OR cat:math.FA OR cat:math.GT OR cat:math.MP OR cat:math.OA OR cat:math.PR OR cat:math.QA OR cat:math.RA OR cat:math.RT OR cat:math.SG OR cat:math.SP OR cat:math.ST OR cat:math.NT OR cat:math.GR OR cat:math.HO OR cat:math-ph OR cat:nlin.SI OR cat:nlin.CD OR cat:hep-th OR cat:q-alg OR cat:dg-ga OR cat:alg-geom OR cat:cond-mat.stat-mech)&amp;id_list=&amp;start=0&amp;max_results=200</title>
+  <updated>2026-05-06T07:31:55Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=au:%22Di+Yang%22+AND+(cat:math.AG+OR+(cat:math.AT+OR+(cat:math.AP+OR+(cat:math.CT+OR+(cat:math.CA+OR+(cat:math.CO+OR+(cat:math.DG+OR+(cat:math.DS+OR+(cat:math.FA+OR+(cat:math.GT+OR+(cat:math.MP+OR+(cat:math.OA+OR+(cat:math.PR+OR+(cat:math.QA+OR+(cat:math.RA+OR+(cat:math.RT+OR+(cat:math.SG+OR+(cat:math.SP+OR+(cat:math.ST+OR+(cat:math.NT+OR+(cat:math.GR+OR+(cat:math.HO+OR+(cat:math-ph+OR+(cat:nlin.SI+OR+(cat:nlin.CD+OR+(cat:hep-th+OR+(cat:q-alg+OR+(cat:dg-ga+OR+(cat:alg-geom+OR+cat:cond-mat.stat-mech)))))))))))))))))))))))))))))&amp;start=0&amp;max_results=200&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>200</opensearch:itemsPerPage>
+  <opensearch:totalResults>58</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2101.10924v2</id>
+    <title>Geometry and arithmetic of integrable hierarchies of KdV type. I. Integrality</title>
+    <updated>2022-07-05T10:27:47Z</updated>
+    <link href="https://arxiv.org/abs/2101.10924v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2101.10924v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>For each of the simple Lie algebras $\mathfrak{g}=A_l$, $D_l$ or $E_6$, we show that the all-genera one-point FJRW invariants of $\mathfrak{g}$-type, after multiplication by suitable products of Pochhammer symbols, are the coefficients of an algebraic generating function and hence are integral. Moreover, we find that the all-genera invariants themselves coincide with the coefficients of the unique calibration of the Frobenius manifold of $\mathfrak{g}$-type evaluated at a special point. For the $A_4$ (5-spin) case we also find two other normalizations of the sequence that are again integral and of at most exponential growth, and hence conjecturally are the Taylor coefficients of some period functions.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nlin.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-01-26T16:44:47Z</published>
+    <arxiv:comment>v2: added a note and several footnotes specifying the role of the deceased first author in this collaborative research, corrected typos, and added or updated a few references. 56 pages</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <author>
+      <name>Boris Dubrovin</name>
+    </author>
+    <author>
+      <name>Di Yang</name>
+    </author>
+    <author>
+      <name>Don Zagier</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2112.07526v1</id>
+    <title>The Virasoro-like Algebra of a Frobenius Manifold</title>
+    <updated>2021-12-14T16:41:11Z</updated>
+    <link href="https://arxiv.org/abs/2112.07526v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2112.07526v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>For an arbitrary calibrated Frobenius manifold, we construct an infinite dimensional Lie algebra, called the Virasoro-like algebra, which is a deformation of the Virasoro algebra of the Frobenius manifold. By using the Virasoro-like algebra we give a family of quadratic PDEs that are satisfied by the genus-zero free energy of the Frobenius manifold. We also derive, under the semisimplicity assumption, the Virasoro constraints for the corresponding abstract Hodge partition function.</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nlin.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-12-14T16:41:11Z</published>
+    <arxiv:comment>27pages</arxiv:comment>
+    <arxiv:primary_category term="math-ph"/>
+    <author>
+      <name>Si-Qi Liu</name>
+    </author>
+    <author>
+      <name>Di Yang</name>
+    </author>
+    <author>
+      <name>Youjin Zhang</name>
+    </author>
+    <author>
+      <name>Jian Zhou</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2603.15233v1</id>
+    <title>On uniform large genus asymptotics of Witten's intersection numbers</title>
+    <updated>2026-03-16T13:09:30Z</updated>
+    <link href="https://arxiv.org/abs/2603.15233v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2603.15233v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Following ideas from [14], we give a uniform large genus asymptotics for primitive psi-class intersection numbers on the moduli space of stable algebraic curves, and extend this result including insertions of zeros in a certain uniform way. Application to a particular formal solution of the Painlevé I equation is given. We also use a method from [14] to give a new proof of the polynomiality conjecture on large genus asymptotic expansions of psi-class intersection numbers.</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nlin.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-03-16T13:09:30Z</published>
+    <arxiv:primary_category term="math-ph"/>
+    <author>
+      <name>Jindong Guo</name>
+    </author>
+    <author>
+      <name>Di Yang</name>
+    </author>
+    <author>
+      <name>Don Zagier</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2205.01618v1</id>
+    <title>GUE via Frobenius Manifolds. I. From Matrix Gravity to Topological Gravity and Back</title>
+    <updated>2022-05-03T16:53:52Z</updated>
+    <link href="https://arxiv.org/abs/2205.01618v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2205.01618v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Dubrovin establishes the relationship between the GUE partition function and the partition function of Gromov--Witten invariants of the complex projective line. In this paper, we give a direct proof of Dubrovin's result. We also present in a diagram the recent progress on topological gravity and matrix gravity.</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nlin.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-05-03T16:53:52Z</published>
+    <arxiv:comment>24 pages</arxiv:comment>
+    <arxiv:primary_category term="math-ph"/>
+    <author>
+      <name>Di Yang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2412.20388v2</id>
+    <title>Combinatorics and large genus asymptotics of the Brézin--Gross--Witten numbers</title>
+    <updated>2025-02-10T09:08:59Z</updated>
+    <link href="https://arxiv.org/abs/2412.20388v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2412.20388v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we study combinatorial and asymptotic properties of some interesting rational numbers called the Brézin--Gross--Witten (BGW) numbers, which can be represented as the intersection numbers of psi and Theta classes on the moduli space of stable algebraic curves. In particular, we discover and prove the uniform large genus leading asymptotics of certain normalized BGW numbers, and give a new proof of the polynomiality phenomenon for the large genus asymptotics. We also propose, with extensive numerical data, several new conjectures including monotonicity and integrality on the BGW numbers. Applications to the Painlevé II hierarchy and to the BGW-kappa numbers are given.</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nlin.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-12-29T07:44:11Z</published>
+    <arxiv:comment>Minor changes: corrected typos; improved the presentation at some places; added references. 41 pages, 1 figure</arxiv:comment>
+    <arxiv:primary_category term="math-ph"/>
+    <author>
+      <name>Jindong Guo</name>
+    </author>
+    <author>
+      <name>Paul Norbury</name>
+    </author>
+    <author>
+      <name>Di Yang</name>
+    </author>
+    <author>
+      <name>Don Zagier</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2112.12736v2</id>
+    <title>On the Hodge-BGW correspondence</title>
+    <updated>2022-01-16T13:50:05Z</updated>
+    <link href="https://arxiv.org/abs/2112.12736v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2112.12736v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We establish an explicit relationship between the partition function of certain special cubic Hodge integrals and the generalized Brezin--Gross--Witten (BGW) partition function, which we refer to as the Hodge-BGW correspondence. As an application, we obtain an ELSV-like formula for generalized BGW correlators.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nlin.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-12-23T17:40:51Z</published>
+    <arxiv:comment>It was added a new application in the Appendix; added references; corrected typos; 25 pages</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <author>
+      <name>Di Yang</name>
+    </author>
+    <author>
+      <name>Qingsheng Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1906.06860v2</id>
+    <title>The Hodge-FVH Correspondence</title>
+    <updated>2020-12-10T07:16:39Z</updated>
+    <link href="https://arxiv.org/abs/1906.06860v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1906.06860v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The Hodge-FVH correspondence establishes a relationship between the special cubic Hodge integrals and an integrable hierarchy, which is called the fractional Volterra hierarchy. In this paper we prove this correspondence. As an application of this result, we prove a gap condition for certain special cubic Hodge integrals and give an algorithm for computing the coefficients that appear in the gap condition.</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nlin.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-06-17T06:29:20Z</published>
+    <arxiv:comment>Added Proposition 1.2 and Theorem 1.3; added references; corrected typos; 43 pages</arxiv:comment>
+    <arxiv:primary_category term="math-ph"/>
+    <author>
+      <name>Si-Qi Liu</name>
+    </author>
+    <author>
+      <name>Di Yang</name>
+    </author>
+    <author>
+      <name>Youjin Zhang</name>
+    </author>
+    <author>
+      <name>Chunhui Zhou</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1610.07534v3</id>
+    <title>Simple Lie algebras, Drinfeld--Sokolov hierarchies, and multi-point correlation functions</title>
+    <updated>2023-06-13T17:49:38Z</updated>
+    <link href="https://arxiv.org/abs/1610.07534v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1610.07534v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>For a simple Lie algebra $\mathfrak{g}$, we derive a simple algorithm for computing logarithmic derivatives of tau-functions of Drinfeld--Sokolov hierarchy of $\mathfrak{g}$-type in terms of $\mathfrak{g}$-valued resolvents. We show, for the topological solution to the lowest-weight-gauge Drinfeld--Sokolov hierarchy of $\mathfrak{g}$-type, the resolvents evaluated at zero satisfy the $\textit{topological ODE}$.</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nlin.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-10-24T18:41:20Z</published>
+    <arxiv:comment>minor corrections in Definition 1.1.1, Lemma 2.2.2 and Appendix; corrected typos; added a footnote on page 13; 36 pages</arxiv:comment>
+    <arxiv:primary_category term="math-ph"/>
+    <author>
+      <name>Marco Bertola</name>
+    </author>
+    <author>
+      <name>Boris Dubrovin</name>
+    </author>
+    <author>
+      <name>Di Yang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2601.13203v1</id>
+    <title>Bihamiltonian tests for integrable systems associated to rank-$1$ F-CohFTs</title>
+    <updated>2026-01-19T16:29:08Z</updated>
+    <link href="https://arxiv.org/abs/2601.13203v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.13203v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Double ramification (DR) hierarchies associated to rank-$1$ F-CohFTs are important integrable perturbations of the Riemann--Hopf hierarchy. In this paper, we perform bihamiltonian tests for these DR hierarchies, and conjecture that the ones that are bihamiltonian form a $2$-parameter family. Remarkably, our computations suggest that there is a $1$-parameter subfamily of the rank-$1$ F-CohFTs, where the corresponding DR hierarchy is conjecturally Miura equivalent to the Camassa--Holm hierarchy. We also prove a conjecture regarding bihamiltonian Hodge hierarchies. Finally, we systematically study Miura invariants, and for another $1$-parameter subfamily propose a conjectural relation to the Degasperis--Procesi hierarchy.</summary>
+    <category term="nlin.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-19T16:29:08Z</published>
+    <arxiv:comment>25 pages</arxiv:comment>
+    <arxiv:primary_category term="nlin.SI"/>
+    <author>
+      <name>Alexandr Buryak</name>
+    </author>
+    <author>
+      <name>Jianghao Xu</name>
+    </author>
+    <author>
+      <name>Di Yang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1305.2593v1</id>
+    <title>Uniqueness Theorem of W-Constraints for Simple Singularities</title>
+    <updated>2013-05-12T14:41:57Z</updated>
+    <link href="https://arxiv.org/abs/1305.2593v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1305.2593v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In a recent paper [3], Bakalov and Milanov proved that the total descendant potential of a simple singularity satisfies the W-constraints, which come from the W-algebra of the lattice vertex algebra associated to the root lattice of this singularity and a twisted module of this vertex algebra. In the present paper, we prove that the solution of these W-constraints is unique up to a constant factor, as conjectured by Bakalov and Milanov in their paper.</summary>
+    <category term="math.QA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-05-12T14:41:57Z</published>
+    <arxiv:comment>18 pages</arxiv:comment>
+    <arxiv:primary_category term="math.QA"/>
+    <author>
+      <name>Si-Qi Liu</name>
+    </author>
+    <author>
+      <name>Di Yang</name>
+    </author>
+    <author>
+      <name>Youjin Zhang</name>
+    </author>
+    <arxiv:doi>10.1007/s11005-013-0643-4</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s11005-013-0643-4" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2311.06506v3</id>
+    <title>From Toda Hierarchy to KP Hierarchy</title>
+    <updated>2025-08-09T06:26:10Z</updated>
+    <link href="https://arxiv.org/abs/2311.06506v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2311.06506v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Using the matrix-resolvent method and a formula of the second-named author on the $n$-point function for a KP tau-function, we show that the tau-function of an arbitrary solution to the Toda lattice hierarchy is a KP tau-function. We then generalize this result to tau-functions for the extended Toda hierarchy (ETH) by developing the matrix-resolvent method for the ETH. As an example the partition function of Gromov-Witten invariants of the complex projective line is a KP tau-function, and an application on irreducible representations of the symmetric group is obtained.</summary>
+    <category term="nlin.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-11-11T08:23:12Z</published>
+    <arxiv:primary_category term="nlin.SI"/>
+    <arxiv:journal_ref>SIGMA 21 (2025), 068, 25 pages</arxiv:journal_ref>
+    <author>
+      <name>Di Yang</name>
+    </author>
+    <author>
+      <name>Jian Zhou</name>
+    </author>
+    <arxiv:doi>10.3842/SIGMA.2025.068</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.3842/SIGMA.2025.068" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2504.16375v3</id>
+    <title>On Gromov--Witten invariants of $\mathbb{P}^1$-orbifolds and topological difference equations</title>
+    <updated>2025-07-09T08:10:20Z</updated>
+    <link href="https://arxiv.org/abs/2504.16375v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2504.16375v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Let $(m_1, m_2)$ be a pair of positive integers. Denote by $\mathbb{P}^1$ the complex projective line, and by $\mathbb{P}^1_{m_1,m_2}$ the orbifold complex projective line obtained from $\mathbb{P}^1$ by adding $\mathbb{Z}_{m_1}$ and $\mathbb{Z}_{m_2}$ orbifold points. In this paper we introduce a matrix linear difference equation, prove existence and uniqueness of its formal Puiseux-series solutions, and use them to give conjectural formulas for $k$-point ($k\ge2$) functions of Gromov--Witten invariants of $\mathbb{P}^1_{m_1,m_2}$. Explicit expressions of the unique solutions are also obtained. We carry out concrete computations of the first few invariants by using the conjectural formulas. For the case when one of $m_1, m_2$ equals 1, we prove validity of the conjectural formulas.</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nlin.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-04-23T02:51:39Z</published>
+    <arxiv:comment>We added Lemmas 6, 7, modified Lemma 8, and corrected some typos. 30 pages</arxiv:comment>
+    <arxiv:primary_category term="math-ph"/>
+    <author>
+      <name>Zhengfei Huang</name>
+    </author>
+    <author>
+      <name>Di Yang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2509.11848v1</id>
+    <title>On enumeration of $l$-hypermaps</title>
+    <updated>2025-09-15T12:30:43Z</updated>
+    <link href="https://arxiv.org/abs/2509.11848v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2509.11848v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The $l$-hypermaps, $l\ge2$, which generalize (dual of) ribbon graphs ($l=2$ case), are interesting enumerative objects. In this paper, based on a theorem of Carlet--van de Leur--Posthuma--Shadrin and the matrix-resolvent method, we derive an explicit formula for $k$-point generating series of enumeration of $l$-hypermaps, which generalizes the one obtained in [30] for the $l=2$ case. We also generalize a theorem of Dubrovin [29].</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nlin.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-09-15T12:30:43Z</published>
+    <arxiv:comment>18 pages, 3 figures</arxiv:comment>
+    <arxiv:primary_category term="math-ph"/>
+    <author>
+      <name>Zhengfei Huang</name>
+    </author>
+    <author>
+      <name>Di Yang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1702.01669v3</id>
+    <title>On Gromov--Witten invariants of $\mathbb{P}^1$</title>
+    <updated>2025-05-22T17:21:24Z</updated>
+    <link href="https://arxiv.org/abs/1702.01669v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1702.01669v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We propose a conjectural explicit formula of generating series of a new type for Gromov--Witten invariants of $\mathbb{P}^1$ of all degrees in full genera.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nlin.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-02-06T15:57:49Z</published>
+    <arxiv:comment>14 pages (v3, minor changes: corrected typos)</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <author>
+      <name>Boris Dubrovin</name>
+    </author>
+    <author>
+      <name>Di Yang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2603.24956v1</id>
+    <title>KdV integrability in GUE correlators</title>
+    <updated>2026-03-26T02:48:42Z</updated>
+    <link href="https://arxiv.org/abs/2603.24956v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2603.24956v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Okounkov [36] proved a remarkable formula relating $n$-point GUE (Gaussian unitary ensemble) correlators of a fixed genus to Witten's intersection numbers of the same genus. The partition function of GUE correlators is a tau-function for the Toda lattice hierarchy. In this note, based on the knowledge of these two statements we give a new proof of the Witten--Kontsevich theorem, that relates Witten's intersection numbers to the KdV (Korteweg--de Vries) integrable hierarchy.</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nlin.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-03-26T02:48:42Z</published>
+    <arxiv:comment>12 pages</arxiv:comment>
+    <arxiv:primary_category term="math-ph"/>
+    <author>
+      <name>Di Yang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2403.04631v1</id>
+    <title>Galilean symmetry of the KdV hierarchy</title>
+    <updated>2024-03-07T16:14:26Z</updated>
+    <link href="https://arxiv.org/abs/2403.04631v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2403.04631v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>By solving the infinitesimal Galilean symmetry for the KdV hierarchy, we obtain an explicit expression for the corresponding one-parameter Lie group, which we call the Galilean symmetry of the KdV hierarchy. As an application, we establish an explicit relationship between the non-abelian Born--Infeld partition function and the generalized Brézin--Gross--Witten partition function.</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nlin.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-03-07T16:14:26Z</published>
+    <arxiv:comment>24 pages</arxiv:comment>
+    <arxiv:primary_category term="math-ph"/>
+    <author>
+      <name>Jianghao Xu</name>
+    </author>
+    <author>
+      <name>Di Yang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1905.08140v2</id>
+    <title>On tau-functions for the Toda lattice hierarchy</title>
+    <updated>2019-10-20T13:51:59Z</updated>
+    <link href="https://arxiv.org/abs/1905.08140v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1905.08140v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We extend a recent result of [13] for the KdV hierarchy to the Toda lattice hierarchy. Namely, for an arbitrary solution to the Toda lattice hierarchy, we define a pair of wave functions, and use them to give explicit formulae for the generating series of $k$-point correlation functions of the solution. Applications to computing GUE correlators and Gromov--Witten invariants of the Riemann sphere are under consideration.</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nlin.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-05-20T14:32:49Z</published>
+    <arxiv:comment>added Appendix A on abstract wave functions, added references; 24 pages</arxiv:comment>
+    <arxiv:primary_category term="math-ph"/>
+    <author>
+      <name>Di Yang</name>
+    </author>
+    <arxiv:doi>10.1007/s11005-019-01232-5</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s11005-019-01232-5" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2203.16812v1</id>
+    <title>On Equivariant Gromov--Witten Invariants of Resolved Conifold with Diagonal and Anti-Diagonal Actions</title>
+    <updated>2022-03-31T05:40:05Z</updated>
+    <link href="https://arxiv.org/abs/2203.16812v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2203.16812v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We propose two conjectural relationships between the equivariant Gromov-Witten invariants of the resolved conifold under diagonal and anti-diagonal actions and the Gromov-Witten invariants of $\mathbb{P}^1$, and verify their validity in genus zero approximation. We also provide evidences to support the validity of these relationships in genus one and genus two.</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nlin.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-03-31T05:40:05Z</published>
+    <arxiv:comment>26 pages</arxiv:comment>
+    <arxiv:primary_category term="math-ph"/>
+    <author>
+      <name>Si-Qi Liu</name>
+    </author>
+    <author>
+      <name>Di Yang</name>
+    </author>
+    <author>
+      <name>Youjin Zhang</name>
+    </author>
+    <author>
+      <name>Chunhui Zhou</name>
+    </author>
+    <arxiv:doi>10.1007/s11005-022-01618-y</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s11005-022-01618-y" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2511.06984v1</id>
+    <title>On a class of integrable deformations of the integrable hierarchy of topological type associated to a semisimple Frobenius manifold</title>
+    <updated>2025-11-10T11:35:19Z</updated>
+    <link href="https://arxiv.org/abs/2511.06984v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2511.06984v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Given a semisimple Frobenius manifold, we construct a class of integrable deformations of its hierarchy of topological type. We show that these integrable deformations have polynomial tau-structures, and conjecture that for the one-dimensional Frobenius manifold they give a universal object for integrable deformations of the Riemann--Hopf hierarchy having a tau-structure.</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nlin.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-11-10T11:35:19Z</published>
+    <arxiv:comment>23 pages</arxiv:comment>
+    <arxiv:primary_category term="math-ph"/>
+    <author>
+      <name>Si-Qi Liu</name>
+    </author>
+    <author>
+      <name>Paolo Rossi</name>
+    </author>
+    <author>
+      <name>Di Yang</name>
+    </author>
+    <author>
+      <name>Youjin Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2208.02095v2</id>
+    <title>Degree zero Gromov--Witten invariants for smooth curves</title>
+    <updated>2023-08-30T09:55:07Z</updated>
+    <link href="https://arxiv.org/abs/2208.02095v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2208.02095v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>For a smooth projective curve, we derive a closed formula for the generating series of its Gromov--Witten invariants in genus $g$ and degree zero. It is known that the calculation of these invariants can be reduced to that of the $λ_g$ and $λ_{g-1}$ integrals on the moduli space of stable algebraic curves. The closed formula for the $λ_g$ integrals is given by the $λ_g$ conjecture, proved by Faber and Pandharipande. We compute in this paper the $λ_{g-1}$ integrals via solving the degree zero limit of the loop equation associated to the complex projective line.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-08-03T14:23:56Z</published>
+    <arxiv:comment>v2: it was corrected typos and improved the presentation. 13 pages, no figures</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <author>
+      <name>Di Yang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2010.00436v3</id>
+    <title>On an extension of the generalized BGW tau-function</title>
+    <updated>2021-07-08T14:00:08Z</updated>
+    <link href="https://arxiv.org/abs/2010.00436v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2010.00436v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>For an arbitrary solution to the Burgers--KdV hierarchy, we define the tau-tuple $(τ_1,τ_2)$ of the solution. We show that the product $τ_1τ_2$ admits Buryak's residue formula. Therefore, according to Alexandrov's theorem, $τ_1τ_2$ is a tau-function of the KP hierarchy. We then derive a formula for the affine coordinates for the point of the Sato Grassmannian corresponding to the tau-function $τ_1τ_2$ explicitly in terms of those for $τ_1$. Applications to the analogous open extension of the generalized BGW tau-function and to the open partition function are given.</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nlin.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-10-01T14:29:03Z</published>
+    <arxiv:comment>Minor changes: improved presentations; corrected typos; added references. 21pages</arxiv:comment>
+    <arxiv:primary_category term="math-ph"/>
+    <author>
+      <name>Di Yang</name>
+    </author>
+    <author>
+      <name>Chunhui Zhou</name>
+    </author>
+    <arxiv:doi>10.1007/s11005-021-01465-3</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s11005-021-01465-3" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2110.06655v3</id>
+    <title>Affine Kac-Moody Algebras and Tau-Functions for the Drinfeld-Sokolov Hierarchies: the Matrix-Resolvent Method</title>
+    <updated>2022-10-14T08:47:47Z</updated>
+    <link href="https://arxiv.org/abs/2110.06655v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2110.06655v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>For each affine Kac-Moody algebra $X_n^{(r)}$ of rank $\ell$, $r=1,2$, or $3$, and for every choice of a vertex $c_m$, $m=0,\dots,\ell$, of the corresponding Dynkin diagram, by using the matrix-resolvent method we define a gauge-invariant tau-structure for the associated Drinfeld-Sokolov hierarchy and give explicit formulas for generating series of logarithmic derivatives of the tau-function in terms of matrix resolvents, extending the results of [Mosc. Math. J. 21 (2021), 233-270, arXiv:1610.07534] with $r=1$ and $m=0$. For the case $r=1$ and $m=0$, we verify that the above-defined tau-structure agrees with the axioms of Hamiltonian tau-symmetry in the sense of [Adv. Math. 293 (2016), 382-435, arXiv:1409.4616] and [arXiv:math.DG/0108160].</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nlin.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-10-13T11:43:16Z</published>
+    <arxiv:primary_category term="math-ph"/>
+    <arxiv:journal_ref>SIGMA 18 (2022), 077, 32 pages</arxiv:journal_ref>
+    <author>
+      <name>Boris Dubrovin</name>
+    </author>
+    <author>
+      <name>Daniele Valeri</name>
+    </author>
+    <author>
+      <name>Di Yang</name>
+    </author>
+    <arxiv:doi>10.3842/SIGMA.2022.077</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.3842/SIGMA.2022.077" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2308.03568v2</id>
+    <title>Mapping partition functions</title>
+    <updated>2024-10-03T08:28:47Z</updated>
+    <link href="https://arxiv.org/abs/2308.03568v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2308.03568v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce an infinite group action on partition functions of WK type, meaning of the type of the partition function $Z^{\rm WK}$ in the famous result of Witten and Kontsevich expressing the partition function of $ψ$-class integrals on the compactified moduli space $\overline{\mathcal{M}}_{g,n}$ as a $τ$-function for the Korteweg--de Vries hierarchy. Specifically, the group which acts is the group $\mathcal{G}$ of formal power series of one variable $\varphi(V)=V+O(V^2)$, with group law given by composition, acting in a suitable way on the infinite tuple of variables of the partition functions. In particular, any $\varphi \in \mathcal{G}$ sends the Witten--Kontsevich (WK) partition function $Z^{\rm WK}$ to a new partition function $Z^\varphi$, which we call the WK mapping partition function associated to $\varphi$. We show that the genus zero part of $\log Z^\varphi$ is independent of $\varphi$ and give an explicit recursive description for its higher genus parts (loop equation), and as applications of this obtain relationships of the $ψ$-class integrals to Gaussian Unitary Ensemble and generalized Brézin--Gross--Witten correlators. In a different direction, we use $Z^\varphi$ to construct a new integrable hierarchy, which we call the WK mapping hierarchy associated to $\varphi$. We show that this hierarchy is a bihamiltonian perturbation of the Riemann--Hopf hierarchy possessing a $τ$-structure, and prove that it is a universal object for all such perturbations. Similarly, for any $\varphi\in\mathcal{G}$, we define the Hodge mapping partition function associated to $\varphi$, prove that it is integrable, and study its role in hamiltonian perturbations of the Riemann--Hopf hierarchy possessing a $τ$-structure. Finally, we establish a generalized Hodge--WK correspondence relating different Hodge mapping partition functions.</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nlin.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-08-07T13:18:22Z</published>
+    <arxiv:comment>Major changes: The previous Conjectures 1, 1', and 2 are now proved (on page 44) and have been renamed Theorems 10, 10', and 13, respectively. Minor changes: We corrected a couple of typos, rewrote a few sentences for clarity, added a footnote, and corrected reference [5]. 73 pages</arxiv:comment>
+    <arxiv:primary_category term="math-ph"/>
+    <author>
+      <name>Di Yang</name>
+    </author>
+    <author>
+      <name>Don Zagier</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2005.02275v1</id>
+    <title>Masur--Veech volumes of quadratic differentials and their asymptotics</title>
+    <updated>2020-05-05T15:12:56Z</updated>
+    <link href="https://arxiv.org/abs/2005.02275v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2005.02275v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Based on the Chen--Möller--Sauvaget formula, we apply the theory of integrable systems to derive three equations for the generating series of the Masur--Veech volumes ${\rm Vol} \, \mathcal{Q}_{g,n}$ associated with the principal strata of the moduli spaces of quadratic differentials, and propose refinements of the conjectural formulas given in [12,4] for the large genus asymptotics of ${\rm Vol} \, \mathcal{Q}_{g,n}$ and of the associated area Siegel--Veech constants.</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nlin.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-05-05T15:12:56Z</published>
+    <arxiv:comment>17 pages</arxiv:comment>
+    <arxiv:primary_category term="math-ph"/>
+    <author>
+      <name>Di Yang</name>
+    </author>
+    <author>
+      <name>Don Zagier</name>
+    </author>
+    <author>
+      <name>Youjin Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2104.01480v2</id>
+    <title>On the spectral problem of the quantum KdV hierarchy</title>
+    <updated>2021-07-13T12:07:09Z</updated>
+    <link href="https://arxiv.org/abs/2104.01480v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2104.01480v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The spectral problem for the quantum dispersionless Korteweg-de Vries (KdV) hierarchy, aka the quantum Hopf hierarchy, is solved by Dubrovin. In this article, following Dubrovin, we study Buryak-Rossi's quantum KdV hierarchy. In particular, we prove a symmetry property and a non-degeneracy property for the quantum KdV Hamiltonians. On the basis of this we construct a complete set of common eigenvectors. The analysis underlying this spectral problem implies certain vanishing identities for combinations of characters of the symmetric group. We also comment on the geometry of the spectral curves of the quantum KdV hierarchy and we give a representation of the quantum dispersionless KdV Hamiltonians in terms of multiplication operators in the class algebra of the symmetric group.</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nlin.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-04-03T20:52:36Z</published>
+    <arxiv:comment>21 pages</arxiv:comment>
+    <arxiv:primary_category term="math-ph"/>
+    <arxiv:journal_ref>J. Phys. A: Math. Theor. 54 374001 (2021)</arxiv:journal_ref>
+    <author>
+      <name>Giulio Ruzza</name>
+    </author>
+    <author>
+      <name>Di Yang</name>
+    </author>
+    <arxiv:doi>10.1088/1751-8121/ac190a</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1751-8121/ac190a" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2110.06774v3</id>
+    <title>On the large genus asymptotics of psi-class intersection numbers</title>
+    <updated>2022-09-15T02:32:20Z</updated>
+    <link href="https://arxiv.org/abs/2110.06774v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2110.06774v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Based on an explicit formula of the generating series for the $n$-point psi-class intersection numbers (cf. Bertola et. al. [4]), we give a novel proof of a conjecture of Delecroix et. al. [9] regarding the large genus uniform leading asymptotics of the psi-class intersection numbers. We also investigate polynomiality phenomenon in the large genera.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-10-13T15:09:45Z</published>
+    <arxiv:comment>Corrected a mistake in Lemma 8; added the proof of the identity (54); added a few more details. 35 pages</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <author>
+      <name>Jindong Guo</name>
+    </author>
+    <author>
+      <name>Di Yang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1409.4616v1</id>
+    <title>Hodge integrals and tau-symmetric integrable hierarchies of Hamiltonian evolutionary PDEs</title>
+    <updated>2014-09-16T13:02:02Z</updated>
+    <link href="https://arxiv.org/abs/1409.4616v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1409.4616v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>For an arbitrary semisimple Frobenius manifold we construct Hodge integrable hierarchy of Hamiltonian partial differential equations. In the particular case of quantum cohomology the tau-function of a solution to the hierarchy generates the intersection numbers of the Gromov--Witten classes and their descendents along with the characteristic classes of Hodge bundles on the moduli spaces of stable maps. For the one-dimensional Frobenius manifold the Hodge hierarchy is a deformation of the Korteweg--de Vries hierarchy depending on an infinite number of parameters. Conjecturally this hierarchy is a universal object in the class of scalar Hamiltonian integrable hierarchies possessing tau-functions.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nlin.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-09-16T13:02:02Z</published>
+    <arxiv:comment>49 pages</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <author>
+      <name>Boris Dubrovin</name>
+    </author>
+    <author>
+      <name>Si-Qi Liu</name>
+    </author>
+    <author>
+      <name>Di Yang</name>
+    </author>
+    <author>
+      <name>Youjin Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1508.03750v2</id>
+    <title>Simple Lie algebras and topological ODEs</title>
+    <updated>2015-10-29T23:08:45Z</updated>
+    <link href="https://arxiv.org/abs/1508.03750v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1508.03750v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>For a simple Lie algebra $\mathfrak g$ we define a system of linear ODEs with polynomial coefficients, which we call the topological equation of $\mathfrak g$-type. The dimension of the space of solutions regular at infinity is equal to the rank of the Lie algebra. For the simplest example $\mathfrak g=sl_2(\mathbb C)$ the regular solution can be expressed via products of Airy functions and their derivatives; this matrix valued function was used in our previous work for computing logarithmic derivatives of the Witten - Kontsevich tau-function. For an arbitrary simple Lie algebra we construct a basis in the space of regular solutions to the topological equation called generalized Airy resolvents. We also outline applications of the generalized Airy resolvents to computing the Witten and Fan - Jarvis - Ruan invariants of the Deligne - Mumford moduli spaces of stable algebraic curves.</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-08-15T16:34:33Z</published>
+    <arxiv:comment>35 pages. Version 2: added formula for the one-point function of the partition function and added explicit example of 3-spin intersection numbers</arxiv:comment>
+    <arxiv:primary_category term="math-ph"/>
+    <author>
+      <name>Marco Bertola</name>
+    </author>
+    <author>
+      <name>Boris Dubrovin</name>
+    </author>
+    <author>
+      <name>Di Yang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1006.5241v1</id>
+    <title>Start-up flow of a viscoelastic fluid in a pipe with fractional Maxwell's model</title>
+    <updated>2010-06-27T22:09:55Z</updated>
+    <link href="https://arxiv.org/abs/1006.5241v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1006.5241v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Unidirectional start-up flow of a viscoelastic fluid in a pipe with fractional Maxwell's model is studied. The flow starting from rest is driven by a constant pressure gradient in an infinite long straight pipe. By employing the method of variable separations and Heaviside operational calculus, we obtain the exact solution, from which the flow characteristics are investigated. It is found that the start-up motion of fractional Maxwell's fluid with parameters $α$ and $β$, tends to be at rest as time goes to infinity, except the case of $β=1$. This observation, which also can be predicted from the mechanics analogue of fractional Maxwell's model, agrees with the classical work of Friedrich and it indicates fractional Maxwell's fluid presents solid-like behavior if $\be\neq 1$ and fluid-like behavior if $\be=1$. For an arbitrary viscoelastic model, a conjecture is proposed to give an intuitive way judging whether it presents fluid-like or solid-like behavior. Also oscillations may occur before the fluid tends to the asymptotic behavior stated above, which is a common phenomenon for viscoelastic fluids.</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-06-27T22:09:55Z</published>
+    <arxiv:comment>14pages, 7 figures. A revised edition</arxiv:comment>
+    <arxiv:primary_category term="math-ph"/>
+    <author>
+      <name>Di Yang</name>
+    </author>
+    <author>
+      <name>Ke-Qin Zhu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1802.00711v1</id>
+    <title>Gromov--Witten invariants of the Riemann sphere</title>
+    <updated>2018-02-02T14:57:34Z</updated>
+    <link href="https://arxiv.org/abs/1802.00711v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1802.00711v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A conjectural formula for the $k$-point generating function of Gromov--Witten invariants of the Riemann sphere for all genera and all degrees was proposed in \cite{DY2}. In this paper, we give a proof of this formula together with an explicit analytic (as opposed to formal) expression for the corresponding matrix resolvent. We also give a formula for the $k$-point function as a sum of $(k-1)!$ products of hypergeometric functions of one variable. We show that the $k$-point generating function coincides with the $ε\rightarrow 0$ asymptotics of the analytic $k$-point function, and also compute three more asymptotics of the analytic function for $ε\rightarrow \infty$, $q\rightarrow 0$, $q\rightarrow\infty$, thus defining new invariants for the Riemann sphere.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-02-02T14:57:34Z</published>
+    <arxiv:comment>23 pages</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <author>
+      <name>Boris Dubrovin</name>
+    </author>
+    <author>
+      <name>Di Yang</name>
+    </author>
+    <author>
+      <name>Don Zagier</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1903.11578v3</id>
+    <title>Matrix resolvent and the discrete KdV hierarchy</title>
+    <updated>2020-03-29T09:35:26Z</updated>
+    <link href="https://arxiv.org/abs/1903.11578v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1903.11578v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Based on the matrix-resolvent approach, for an arbitrary solution to the discrete KdV hierarchy, we define the tau-function of the solution, and compare it with another tau-function of the solution defined via reduction of the Toda lattice hierarchy. Explicit formulae for generating series of logarithmic derivatives of the tau-functions are then obtained, and applications to enumeration of ribbon graphs with even valencies and to the special cubic Hodge integrals are considered.</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nlin.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-03-27T17:46:34Z</published>
+    <arxiv:comment>It was added a remark after Theorem 1; added Appendix A; added references; two statements moved to Introduction; corrected typos. 26 pages</arxiv:comment>
+    <arxiv:primary_category term="math-ph"/>
+    <author>
+      <name>Boris Dubrovin</name>
+    </author>
+    <author>
+      <name>Di Yang</name>
+    </author>
+    <arxiv:doi>10.1007/s00220-020-03770-9</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s00220-020-03770-9" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2404.16458v1</id>
+    <title>On an infinite commuting ODE system associated to a simple Lie algebra</title>
+    <updated>2024-04-25T09:38:11Z</updated>
+    <link href="https://arxiv.org/abs/2404.16458v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2404.16458v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Inspired by a recent work of Dubrovin [7], for each simple Lie algebra $\mathfrak{g}$, we introduce an infinite family of pairwise commuting ODEs and define their $τ$-functions. We show that these $τ$-functions can be identified with the $τ$-functions for the Drinfeld--Sokolov hierarchy of $\mathfrak{g}$-type. Explicit examples for $\mathfrak{g}=A_1$ and $A_2$ are provided, which are connected to the KdV hierarchy and the Boussinesq hierarchy respectively.</summary>
+    <category term="nlin.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-04-25T09:38:11Z</published>
+    <arxiv:primary_category term="nlin.SI"/>
+    <author>
+      <name>Di Yang</name>
+    </author>
+    <author>
+      <name>Cheng Zhang</name>
+    </author>
+    <author>
+      <name>Zejun Zhou</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2409.12529v1</id>
+    <title>The loop equation for the Burgers--KdV hierarchy</title>
+    <updated>2024-09-19T07:47:46Z</updated>
+    <link href="https://arxiv.org/abs/2409.12529v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2409.12529v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The Burgers--KdV hierarchy was introduced towards understanding intersection numbers on the moduli space of Riemann surfaces with boundaries. The goal of this paper is to derive the Dubrovin--Zhang type loop equation for the topological tau-function of the Burgers--KdV hierarchy. As as application, we provide some relations for open intersection numbers.</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nlin.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-09-19T07:47:46Z</published>
+    <arxiv:comment>22 pages</arxiv:comment>
+    <arxiv:primary_category term="math-ph"/>
+    <author>
+      <name>Di Yang</name>
+    </author>
+    <author>
+      <name>Chunhui Zhou</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2311.04200v3</id>
+    <title>Analytic theory of Legendre-type transformations for a Frobenius manifold</title>
+    <updated>2024-07-26T08:28:14Z</updated>
+    <link href="https://arxiv.org/abs/2311.04200v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2311.04200v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Let $M$ be an $n$-dimensional Frobenius manifold. Fix $κ\in\{1,\dots,n\}$. Assuming certain invertibility, Dubrovin introduced the Legendre-type transformation $S_κ$, which transforms $M$ to an $n$-dimensional Frobenius manifold $S_κ(M)$. In this paper, we show that these $S_κ(M)$ share the same monodromy data at the Fuchsian singular point of the Dubrovin connection, and that for the case when $M$ is semisimple they also share the same Stokes matrix and the same central connection matrix. A straightforward application of the monodromy identification is the following: if we know the monodromy data of some semisimple Frobenius manifold $M$, we immediately obtain those of its Legendre-type transformations. Another application gives the identification between the $κ$th partition function of a semisimple Frobenius manifold $M$ and the topological partition function of $S_κ(M)$.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-11-07T18:40:09Z</published>
+    <arxiv:comment>Minor changes: It was improved exposition, corrected typos and added examples; the previous Appendix A now becomes the new Section 6, and the previous Section 6 becomes Section 7; 47 pages</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <author>
+      <name>Di Yang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1411.5717v1</id>
+    <title>The partition function of the extended $r$-reduced Kadomtsev-Petviashvili hierarchy</title>
+    <updated>2014-11-20T23:05:11Z</updated>
+    <link href="https://arxiv.org/abs/1411.5717v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1411.5717v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We derive a particular solution of the extended $r$-reduced KP hierarchy, which is specified by a generalized string equation. The work is a generalization to arbitrary $r\geq 2$ of Buryak's recent results of a solution to the extended open KdV hierarchy which corresponds to $r=2$.</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nlin.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-11-20T23:05:11Z</published>
+    <arxiv:comment>18 pages</arxiv:comment>
+    <arxiv:primary_category term="math-ph"/>
+    <author>
+      <name>Marco Bertola</name>
+    </author>
+    <author>
+      <name>Di Yang</name>
+    </author>
+    <arxiv:doi>10.1088/1751-8113/48/19/195205</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1751-8113/48/19/195205" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2201.11020v1</id>
+    <title>The matrix-resolvent method to tau-functions for the nonlinear Schrödinger hierarchy</title>
+    <updated>2022-01-26T15:52:56Z</updated>
+    <link href="https://arxiv.org/abs/2201.11020v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2201.11020v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We extend the matrix-resolvent method of computing logarithmic derivatives of tau-functions to the nonlinear Schrödinger (NLS) hierarchy. Based on this method we give a detailed proof of a theorem of Carlet, Dubrovin and Zhang regarding the relationship between the Toda lattice hierarchy and the NLS hierarchy. As an application, we give an improvement of an algorithm of computing correlators in hermitian matrix models.</summary>
+    <category term="nlin.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-01-26T15:52:56Z</published>
+    <arxiv:comment>20 pages, 1 figure</arxiv:comment>
+    <arxiv:primary_category term="nlin.SI"/>
+    <author>
+      <name>Ang Fu</name>
+    </author>
+    <author>
+      <name>Di Yang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2112.14595v1</id>
+    <title>Gelfand--Dickey hierarchy, generalized BGW tau-function, and $W$-constraints</title>
+    <updated>2021-12-29T15:10:56Z</updated>
+    <link href="https://arxiv.org/abs/2112.14595v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2112.14595v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Let $r\geq 2$ be an integer. The generalized BGW tau-function for the Gelfand--Dickey hierarchy of $(r-1)$ dependent variables (aka the $r$-reduced KP hierarchy) is defined as a particular tau-function that depends on $(r-1)$ constant parameters $d_1,\dots,d_{r-1}$. In this paper we show that this tau-function satisfies a family of linear equations, called the $W$-constraints of the second kind. The operators giving rise to the linear equations also depend on $(r-1)$ constant parameters. We show that there is a one-to-one correspondence between the two sets of parameters.</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nlin.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-12-29T15:10:56Z</published>
+    <arxiv:comment>18 pages</arxiv:comment>
+    <arxiv:primary_category term="math-ph"/>
+    <author>
+      <name>Di Yang</name>
+    </author>
+    <author>
+      <name>Chunhui Zhou</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1811.10234v3</id>
+    <title>The Loop Equation for Special Cubic Hodge Integrals</title>
+    <updated>2020-12-24T16:57:45Z</updated>
+    <link href="https://arxiv.org/abs/1811.10234v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1811.10234v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>As the first step of proving the Hodge-FVH correspondence recently proposed in [19], we derive the Virasoro constraints and the Dubrovin--Zhang loop equation for special cubic Hodge integrals. We show that this loop equation has a unique solution, and provide a new algorithm for the computation of these Hodge integrals. We also observe the gap phenomenon for certain special cubic Hodge free energies.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-11-26T09:01:25Z</published>
+    <arxiv:comment>Minor changes: corrected typos; added references; improved presentation; 24 pages</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <author>
+      <name>Si-Qi Liu</name>
+    </author>
+    <author>
+      <name>Di Yang</name>
+    </author>
+    <author>
+      <name>Youjin Zhang</name>
+    </author>
+    <author>
+      <name>Chunhui Zhou</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2312.16575v2</id>
+    <title>Remarks on intersection numbers and integrable hierarchies. II. Tau-structure</title>
+    <updated>2024-11-26T11:12:47Z</updated>
+    <link href="https://arxiv.org/abs/2312.16575v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2312.16575v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>For systems of evolutionary partial differential equations the tau-structure is an important notion which originated from the deep relation between integrable systems and quantum field theories. We show that, under a certain non-degeneracy condition, existence of a tau-structure implies integrability. As an example, we apply this principle to provide a new proof of the integrability of the Drinfeld--Sokolov hierarchy associated to an arbitrary Kac--Moody algebra and a choice of a vertex of its Dynkin diagram.</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nlin.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-12-27T13:54:30Z</published>
+    <arxiv:comment>v2: minor editing and corrections. 25 pages</arxiv:comment>
+    <arxiv:primary_category term="math-ph"/>
+    <author>
+      <name>Daniele Valeri</name>
+    </author>
+    <author>
+      <name>Di Yang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2604.26354v1</id>
+    <title>On enumeration of $b$-angulations of surfaces from an integrability perspective</title>
+    <updated>2026-04-29T07:04:58Z</updated>
+    <link href="https://arxiv.org/abs/2604.26354v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2604.26354v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we study generating series enumerating polygonal angulations of closed oriented surfaces of fixed genus, focusing on $b$-angulations with $b = 3$ or $b = 2ν$, $ν\geq 2$. Based on Toda integrability, we establish new structural results in the cases $b = 3$ and $b = 4$. Furthermore, via the Hodge--GUE correspondence, we derive a fine structure in the $b = 2ν$ case, which implies a conjectural statement of Gharakhloo--Latimer.</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nlin.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-04-29T07:04:58Z</published>
+    <arxiv:comment>23 pages</arxiv:comment>
+    <arxiv:primary_category term="math-ph"/>
+    <author>
+      <name>Elba Garcia-Failde</name>
+    </author>
+    <author>
+      <name>Jianghao Xu</name>
+    </author>
+    <author>
+      <name>Di Yang</name>
+    </author>
+    <author>
+      <name>Don Zagier</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2306.09115v1</id>
+    <title>The constrained KP hierarchy and the bigraded Toda hierarchy of $(M,1)$-type</title>
+    <updated>2023-06-15T13:20:05Z</updated>
+    <link href="https://arxiv.org/abs/2306.09115v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2306.09115v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we extend the matrix-resolvent method to the study of the Dubrovin--Zhang type tau-functions for the constrained KP hierarchy and the bigraded Toda hierarchy of $(M,1)$-type. We show that the Dubrovin--Zhang type tau-function of an arbitrary solution to the bigraded Toda hierarchy of $(M,1)$-type is a Dubrovin--Zhang type tau-function for the constrained KP hierarchy, which generalizes the result in [10, 35] for the Toda lattice hierarchy and the NLS hierarchy corresponding to the $M=1$ case.</summary>
+    <category term="nlin.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-06-15T13:20:05Z</published>
+    <arxiv:comment>34 pages</arxiv:comment>
+    <arxiv:primary_category term="nlin.SI"/>
+    <author>
+      <name>Ang Fu</name>
+    </author>
+    <author>
+      <name>Di Yang</name>
+    </author>
+    <author>
+      <name>Dafeng Zuo</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2204.11074v2</id>
+    <title>Grothendieck's Dessins d'Enfants in a Web of Dualities. III</title>
+    <updated>2022-04-28T16:42:38Z</updated>
+    <link href="https://arxiv.org/abs/2204.11074v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2204.11074v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We identify the dessin partition function with the partition function of the Laguerre unitary ensemble (LUE). Combined with the result due to Cunden et al on the relationship between the LUE correlators and strictly monotone Hurwitz numbers introduced by Goulden et al, we then establish connection of dessin counting to strictly monotone Hurwitz numbers. We also introduce a correction factor for the dessin/LUE partition function, which plays an important role in showing that the corrected dessin/LUE partition function is a tau-function of the Toda lattice hierarchy. As an application, we use the approach of Dubrovin and Zhang for the computation of the dessin correlators. In physicists' terminology, we establish dualities among dessin counting, generalized Penner model, and $\mathbb{P}^1$-topological sigma model.</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-04-23T13:58:48Z</published>
+    <arxiv:comment>added references; corrected typos. 32 pages</arxiv:comment>
+    <arxiv:primary_category term="math-ph"/>
+    <author>
+      <name>Di Yang</name>
+    </author>
+    <author>
+      <name>Jian Zhou</name>
+    </author>
+    <arxiv:doi>10.1088/1751-8121/acb744</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1751-8121/acb744" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2002.00823v1</id>
+    <title>Hamiltonian perturbations at the second order approximation</title>
+    <updated>2020-02-03T15:25:24Z</updated>
+    <link href="https://arxiv.org/abs/2002.00823v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2002.00823v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Integrability condition of Hamiltonian perturbations of integrable Hamiltonian PDEs of hydrodynamic type up to the second order approximation is considered.</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nlin.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-02-03T15:25:24Z</published>
+    <arxiv:comment>17 pages</arxiv:comment>
+    <arxiv:primary_category term="math-ph"/>
+    <author>
+      <name>Di Yang</name>
+    </author>
+    <arxiv:doi>10.1007/s00023-020-00962-w</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s00023-020-00962-w" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1905.08106v2</id>
+    <title>Remarks on intersection numbers and integrable hierarchies. I. Quasi-triviality</title>
+    <updated>2020-03-29T09:45:36Z</updated>
+    <link href="https://arxiv.org/abs/1905.08106v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1905.08106v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Explicit expression for quasi-triviality of scalar non-linear PDE is under consideration.</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nlin.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-05-20T13:39:17Z</published>
+    <arxiv:comment>minor changes: it was added Appendix A. 21 pages</arxiv:comment>
+    <arxiv:primary_category term="math-ph"/>
+    <author>
+      <name>Boris Dubrovin</name>
+    </author>
+    <author>
+      <name>Di Yang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1812.08488v2</id>
+    <title>On tau-functions for the KdV hierarchy</title>
+    <updated>2021-02-23T16:34:59Z</updated>
+    <link href="https://arxiv.org/abs/1812.08488v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1812.08488v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>For an arbitrary solution to the KdV hierarchy, the generating series of logarithmic derivatives of the tau-function of the solution can be expressed by the basic matrix resolvent via algebraic manipulations. Based on this we develop in this paper two new formulae for the generating series by introducing a pair of wave functions of the solution. Applications to the Witten--Kontsevich tau-function, to the generalized Brézin--Gross--Witten (BGW) tau-function, as well as to a modular deformation of the generalized BGW tau-function which we call the Lamé tau-function are also given.</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nlin.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-12-20T11:25:28Z</published>
+    <arxiv:comment>Minor changes: added remarks, added references, corrected typos; 32 pages</arxiv:comment>
+    <arxiv:primary_category term="math-ph"/>
+    <author>
+      <name>Boris Dubrovin</name>
+    </author>
+    <author>
+      <name>Di Yang</name>
+    </author>
+    <author>
+      <name>Don Zagier</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2112.14202v1</id>
+    <title>Tau-functions for the Ablowitz--Ladik hierarchy: the matrix-resolvent method</title>
+    <updated>2021-12-28T16:04:24Z</updated>
+    <link href="https://arxiv.org/abs/2112.14202v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2112.14202v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We extend the matrix-resolvent method for computing logarithmic derivatives of tau-functions to the Ablowitz--Ladik hierarchy. In particular, we derive a formula for the generating series of the logarithmic derivatives of an arbitrary tau-function in terms of matrix resolvents. As an application, we provide a way of computing certain integrals over the unitary group.</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nlin.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-12-28T16:04:24Z</published>
+    <arxiv:comment>15 pages</arxiv:comment>
+    <arxiv:primary_category term="math-ph"/>
+    <author>
+      <name>Mattia Cafasso</name>
+    </author>
+    <author>
+      <name>Di Yang</name>
+    </author>
+    <arxiv:doi>10.1088/1751-8121/ac5e74</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1751-8121/ac5e74" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1606.03720v1</id>
+    <title>On cubic Hodge integrals and random matrices</title>
+    <updated>2016-06-12T14:43:51Z</updated>
+    <link href="https://arxiv.org/abs/1606.03720v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1606.03720v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A conjectural relationship between the GUE partition function with even couplings and certain special cubic Hodge integrals over the moduli spaces of stable algebraic curves is under consideration.</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-06-12T14:43:51Z</published>
+    <arxiv:comment>20 pages</arxiv:comment>
+    <arxiv:primary_category term="math-ph"/>
+    <author>
+      <name>Boris Dubrovin</name>
+    </author>
+    <author>
+      <name>Di Yang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2303.09243v2</id>
+    <title>On a new proof of the Okuyama--Sakai conjecture</title>
+    <updated>2023-04-06T11:44:30Z</updated>
+    <link href="https://arxiv.org/abs/2303.09243v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2303.09243v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In [41] Okuyama and Sakai gave a conjectural equality for the higher genus generalized Brézin--Gross--Witten (BGW) free energies. In a recent work [46] we established the Hodge-BGW correspondence on the relationship between certain special cubic Hodge integrals and the generalized BGW correlators, and a proof of the Okuyama--Sakai conjecture was also given ${\it ibid}$. In this paper, we give a new proof of the Okuyama--Sakai conjecture by a further application of the Dubrovin--Zhang theory for the KdV hierarchy.</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nlin.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-03-16T11:39:02Z</published>
+    <arxiv:comment>Corrected typos; added a reference; added "Note added"; 13 pages</arxiv:comment>
+    <arxiv:primary_category term="math-ph"/>
+    <author>
+      <name>Di Yang</name>
+    </author>
+    <author>
+      <name>Qingsheng Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1412.4419v2</id>
+    <title>Geometric interpretation of Zhou's explicit formula for the Witten-Kontsevich tau function</title>
+    <updated>2015-01-14T20:42:01Z</updated>
+    <link href="https://arxiv.org/abs/1412.4419v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1412.4419v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Based on the work of Itzykson and Zuber on Kontsevich's integrals, we give a geometric interpretation and a simple proof of Zhou's explicit formula for the Witten-Kontsevich tau function. More precisely, we show that the numbers $A_{m,n}^{Zhou}$ defined by Zhou coincide with the affine coordinates for the point of the Sato Grassmannian corresponding to the Witten-Kontsevich tau function. Generating functions and new recursion relations for $A_{m,n}^{Zhou}$ are derived. Our formulation on matrix-valued affine coordinates and on tau functions remains valid for generic Grassmannian solutions of the KdV hierarchy.
+  A by-product of our study indicates an interesting relation between the matrix-valued affine coordinates for the Witten-Kontsevich tau function and the $V$-matrices associated to the $R$-matrix of Witten's $3$-spin structures.</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nlin.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-12-14T22:25:41Z</published>
+    <arxiv:comment>19 pages, 3 figures (v2: minor changes, typos corrected, extra reference [4] added)</arxiv:comment>
+    <arxiv:primary_category term="math-ph"/>
+    <author>
+      <name>Ferenc Balogh</name>
+    </author>
+    <author>
+      <name>Di Yang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1612.02333v2</id>
+    <title>Hodge-GUE correspondence and the discrete KdV equation</title>
+    <updated>2018-10-28T10:18:37Z</updated>
+    <link href="https://arxiv.org/abs/1612.02333v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1612.02333v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We prove the conjectural relationship recently proposed in [9] between certain special cubic Hodge integrals of the Gopakumar--Mariño--Vafa type [17, 28] and GUE correlators, and the conjecture proposed in [7] that the partition function of these Hodge integrals is a tau function of the discrete KdV hierarchy.</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-12-07T17:06:12Z</published>
+    <arxiv:comment>It was added the loop equation for the special cubic Hodge free energy; simplified the proof of the Main Theorem; added Corollary 1.5. 27 pages, no figures</arxiv:comment>
+    <arxiv:primary_category term="math-ph"/>
+    <author>
+      <name>Boris Dubrovin</name>
+    </author>
+    <author>
+      <name>Si-Qi Liu</name>
+    </author>
+    <author>
+      <name>Di Yang</name>
+    </author>
+    <author>
+      <name>Youjin Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1504.06452v3</id>
+    <title>Correlation functions of the KdV hierarchy and applications to intersection numbers over $\overline{\mathcal M}_{g,n}$</title>
+    <updated>2021-07-02T16:08:12Z</updated>
+    <link href="https://arxiv.org/abs/1504.06452v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1504.06452v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We derive an explicit generating function of correlations functions of an arbitrary tau-function of the KdV hierarchy. In particular applications, our formulation gives closed formulæ of a new type for the generating series of intersection numbers of $ψ$-classes as well as of mixed $ψ$- and $κ$-classes in full genera.</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-04-24T10:02:20Z</published>
+    <arxiv:comment>48 pages including 9 pages of tables; references added. V2: minor corrections in the proof of Theorem 1.2 (statement unaffected)</arxiv:comment>
+    <arxiv:primary_category term="math-ph"/>
+    <author>
+      <name>Marco Bertola</name>
+    </author>
+    <author>
+      <name>Boris Dubrovin</name>
+    </author>
+    <author>
+      <name>Di Yang</name>
+    </author>
+    <arxiv:doi>10.1016/j.physd.2016.04.008</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.physd.2016.04.008" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1709.07309v3</id>
+    <title>Drinfeld-Sokolov Hierarchies, Tau Functions, and Generalized Schur Polynomials</title>
+    <updated>2025-08-28T14:55:37Z</updated>
+    <link href="https://arxiv.org/abs/1709.07309v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1709.07309v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>For a simple Lie algebra $\mathfrak{g}$ and an irreducible faithful representation $π$ of $\mathfrak{g}$, we introduce the Schur polynomials of $(\mathfrak{g},π)$-type. We then derive the Sato-Zhou type formula for tau functions of the Drinfeld-Sokolov (DS) hierarchy of $\mathfrak{g}$-type. Namely, we show that the tau functions are linear combinations of the Schur polynomials of $(\mathfrak{g},π)$-type with the coefficients being the Plücker coordinates. As an application, we provide a way of computing polynomial tau functions for the DS hierarchy. For $\mathfrak{g}$ of low rank, we give several examples of polynomial tau functions, and use them to detect bilinear equations for the DS hierarchy.</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nlin.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-09-21T13:27:16Z</published>
+    <arxiv:comment>Expression of $τ_1$ in Section 4.2.3 corrected</arxiv:comment>
+    <arxiv:primary_category term="math-ph"/>
+    <arxiv:journal_ref>SIGMA 14 (2018), 104, 17 pages</arxiv:journal_ref>
+    <author>
+      <name>Mattia Cafasso</name>
+    </author>
+    <author>
+      <name>Ann du Crest de Villeneuve</name>
+    </author>
+    <author>
+      <name>Di Yang</name>
+    </author>
+    <arxiv:doi>10.3842/SIGMA.2018.104</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.3842/SIGMA.2018.104" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1604.07628v1</id>
+    <title>Generating series for GUE correlators</title>
+    <updated>2016-04-26T11:35:49Z</updated>
+    <link href="https://arxiv.org/abs/1604.07628v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1604.07628v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We extend to the Toda lattice hierarchy the approach of [3, 4] to computation of logarithmic derivatives of tau-functions in terms of the so-called matrix resolvents of the corresponding differ- ence Lax operator. As a particular application we obtain explicit generating series for connected GUE correlators. On this basis an efficient recursive procedure for computing the correlators in full genera is developed.</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-04-26T11:35:49Z</published>
+    <arxiv:comment>31 pages</arxiv:comment>
+    <arxiv:primary_category term="math-ph"/>
+    <author>
+      <name>Boris Dubrovin</name>
+    </author>
+    <author>
+      <name>Di Yang</name>
+    </author>
+    <arxiv:doi>10.1007/s11005-017-0975-6</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s11005-017-0975-6" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2012.10819v1</id>
+    <title>On the solution of the coupled steady-state dual-porosity-Navier-Stokes fluid flow model with the Beavers-Joseph-Saffman interface condition</title>
+    <updated>2020-12-20T01:00:00Z</updated>
+    <link href="https://arxiv.org/abs/2012.10819v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2012.10819v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this work, we propose a new analysis strategy to establish an a priori estimate of the weak solutions to the coupled steady-state dual-porosity-Navier-Stokes fluid flow model with the Beavers-Joseph-Saffman interface condition. The most advantage of our proposed method is that the a priori estimate and the existence result are independent of small data and the large viscosity restriction. Therefore the global uniqueness of the weak solution is naturally obtained.</summary>
+    <category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-12-20T01:00:00Z</published>
+    <arxiv:comment>16 pages, 1 figure</arxiv:comment>
+    <arxiv:primary_category term="math.AP"/>
+    <arxiv:journal_ref>Journal of Mathematical Analysis and Applications 505 (2022) 125577</arxiv:journal_ref>
+    <author>
+      <name>Di Yang</name>
+    </author>
+    <author>
+      <name>Yinnian He</name>
+    </author>
+    <author>
+      <name>Luling Cao</name>
+    </author>
+    <arxiv:doi>10.1016/j.jmaa.2021.125577</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.jmaa.2021.125577" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2407.19170v1</id>
+    <title>GUE via Frobenius Manifolds. II. Loop Equations</title>
+    <updated>2024-07-27T04:54:54Z</updated>
+    <link href="https://arxiv.org/abs/2407.19170v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2407.19170v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A theorem of Dubrovin establishes the relationship between the GUE partition function and the partition function of Gromov-Witten invariants of the complex projective line. Based on this theorem we derive loop equations for the Gaussian Unitary Ensemble (GUE) partition function. We show that the GUE partition function is equal to part of the topological partition function of the non-linear Schrödinger (NLS) Frobenius manifold.</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-07-27T04:54:54Z</published>
+    <arxiv:comment>20 pages</arxiv:comment>
+    <arxiv:primary_category term="math-ph"/>
+    <author>
+      <name>Di Yang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1009.5125v1</id>
+    <title>On a Novel Class of Integrable ODEs Related to the Painlevé Equations</title>
+    <updated>2010-09-26T20:49:22Z</updated>
+    <link href="https://arxiv.org/abs/1009.5125v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1009.5125v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>One of the authors has recently introduced the concept of conjugate Hamiltonian systems: the solution of the equation $h=H(p,q,t),$ where $H$ is a given Hamiltonian containing $t$ explicitly, yields the function $t=T(p,q,h)$, which defines a new Hamiltonian system with Hamiltonian $T$ and independent variable $h.$ By employing this construction and by using the fact that the classical Painlevé equations are Hamiltonian systems, it is straightforward to associate with each Painlevé equation two new integrable ODEs. Here, we investigate the conjugate Painlevé II equations. In particular, for these novel integrable ODEs, we present a Lax pair formulation, as well as a class of implicit solutions. We also construct conjugate equations associated with Painlevé I and Painlevé IV equations.</summary>
+    <category term="nlin.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-09-26T20:49:22Z</published>
+    <arxiv:comment>This paper is dedicated to Professor T. Bountis on the occasion of his 60th birthday with appreciation of his important contributions to "Nonlinear Science"</arxiv:comment>
+    <arxiv:primary_category term="nlin.SI"/>
+    <author>
+      <name>A. S. Fokas</name>
+    </author>
+    <author>
+      <name>D. Yang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1010.2941v1</id>
+    <title>A Novel Approach to Elastodynamics: I. The Two-Dimensional Case</title>
+    <updated>2010-10-14T14:42:59Z</updated>
+    <link href="https://arxiv.org/abs/1010.2941v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1010.2941v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce a new approach to constructing analytic solutions of the linear PDEs describing elastodynamics. This approach is illustrated for the case of a homogeneous isotropic half-plane body satisfying arbitrary initial conditions and Lamb's boundary conditions. A particular case of this problem, namely the case of homogeneous initial conditions, was first solved by Lamb using the Fourier-Laplace transform. The solution of the general problem can also be expressed in terms of the Fourier transform, but this representation involves transforms of unknown boundary values. This necessitates the formulation and solution of a cumbersome auxiliary problem, which expresses the unknown boundary values in terms of the Laplace transform of the given boundary data. The new approach, which is applicable to arbitrary initial and boundary conditions, bypasses the above auxiliary problem and expresses the solutions directly in terms of the given initial and boundary data.</summary>
+    <category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-10-14T14:42:59Z</published>
+    <arxiv:primary_category term="math.AP"/>
+    <author>
+      <name>A. S. Fokas</name>
+    </author>
+    <author>
+      <name>D. Yang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1010.2947v1</id>
+    <title>A Novel Approach to Elastodynamics: II. The Three-Dimensional Case</title>
+    <updated>2010-10-14T15:10:33Z</updated>
+    <link href="https://arxiv.org/abs/1010.2947v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1010.2947v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A new approach was recently introduced by the authors for constructing analytic solutions of the linear PDEs describing elastodynamics. Here, this approach is applied to the case of a homogeneous isotropic half-space body satisfying arbitrary initial conditions and Lamb's boundary conditions. A particular case of this problem, namely the case of homogeneous initial conditions and normal point load boundary conditions, was first solved by Lamb using the Fourier-Laplace transform. The general problem solved here can also be analysed via the Fourier transform, but in this case, the solution representation involves transforms of \textit{unknown} boundary values; this necessitates the formulation and solution of a cumbersome auxiliary problem, which expresses the unknown boundary values in terms of the Laplace transform of the given boundary data. The new approach, which is applicable to arbitrary initial and boundary conditions, bypasses the above auxiliary problem and expresses the solutions directly in terms of the given initial and boundary conditions.</summary>
+    <category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-10-14T15:10:33Z</published>
+    <arxiv:primary_category term="math.AP"/>
+    <author>
+      <name>A. S. Fokas</name>
+    </author>
+    <author>
+      <name>D. Yang</name>
+    </author>
+  </entry>
+</feed>

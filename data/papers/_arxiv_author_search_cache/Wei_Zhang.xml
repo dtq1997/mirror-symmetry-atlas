@@ -1,0 +1,2486 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/we/OAyNNKARBXoeL3FXJ/pNEj3g</id>
+  <title>arXiv Query: search_query=au:"Wei Zhang" AND (cat:math.AG OR cat:math.AT OR cat:math.AP OR cat:math.CT OR cat:math.CA OR cat:math.CO OR cat:math.DG OR cat:math.DS OR cat:math.FA OR cat:math.GT OR cat:math.MP OR cat:math.OA OR cat:math.PR OR cat:math.QA OR cat:math.RA OR cat:math.RT OR cat:math.SG OR cat:math.SP OR cat:math.ST OR cat:math.NT OR cat:math.GR OR cat:math.HO OR cat:math-ph OR cat:nlin.SI OR cat:nlin.CD OR cat:hep-th OR cat:q-alg OR cat:dg-ga OR cat:alg-geom OR cat:cond-mat.stat-mech)&amp;id_list=&amp;start=0&amp;max_results=200</title>
+  <updated>2026-05-06T07:32:43Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=au:%22Wei+Zhang%22+AND+(cat:math.AG+OR+(cat:math.AT+OR+(cat:math.AP+OR+(cat:math.CT+OR+(cat:math.CA+OR+(cat:math.CO+OR+(cat:math.DG+OR+(cat:math.DS+OR+(cat:math.FA+OR+(cat:math.GT+OR+(cat:math.MP+OR+(cat:math.OA+OR+(cat:math.PR+OR+(cat:math.QA+OR+(cat:math.RA+OR+(cat:math.RT+OR+(cat:math.SG+OR+(cat:math.SP+OR+(cat:math.ST+OR+(cat:math.NT+OR+(cat:math.GR+OR+(cat:math.HO+OR+(cat:math-ph+OR+(cat:nlin.SI+OR+(cat:nlin.CD+OR+(cat:hep-th+OR+(cat:q-alg+OR+(cat:dg-ga+OR+(cat:alg-geom+OR+cat:cond-mat.stat-mech)))))))))))))))))))))))))))))&amp;start=0&amp;max_results=200&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>200</opensearch:itemsPerPage>
+  <opensearch:totalResults>119</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1503.06520v3</id>
+    <title>On the arithmetic transfer conjecture for exotic smooth formal moduli spaces</title>
+    <updated>2016-11-04T01:24:55Z</updated>
+    <link href="https://arxiv.org/abs/1503.06520v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1503.06520v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In the relative trace formula approach to the arithmetic Gan-Gross-Prasad conjecture, we formulate a local conjecture (arithmetic transfer) in the case of an exotic smooth formal moduli space of p-divisible groups, associated to a unitary group relative to a ramified quadratic extension of a p-adic field. We prove our conjecture in the case of a unitary group in three variables.</summary>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-03-23T03:55:10Z</published>
+    <arxiv:comment>Minor revisions. 91 pages</arxiv:comment>
+    <arxiv:primary_category term="math.NT"/>
+    <arxiv:journal_ref>Duke Math. J. 166, no. 12 (2017), 2183-2336</arxiv:journal_ref>
+    <author>
+      <name>Michael Rapoport</name>
+    </author>
+    <author>
+      <name>Brian Smithling</name>
+    </author>
+    <author>
+      <name>Wei Zhang</name>
+    </author>
+    <arxiv:doi>10.1215/00127094-2017-0003</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1215/00127094-2017-0003" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1101.5050v4</id>
+    <title>Cotangent bundles of toric varieties and coverings of toric hyperkähler manifolds</title>
+    <updated>2011-07-01T06:45:41Z</updated>
+    <link href="https://arxiv.org/abs/1101.5050v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1101.5050v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Toric hyperk{ä}hler manifolds are quaternion analog of toric varieties. Bielawski pointed out that they can be glued by cotangent bundles of toric varieties. Following his idea, viewing both toric varieties and toric hyperk{ä}her manifolds as GIT quotients, we first establish geometrical criteria for the semi-stable points. Then based on these criteria, we show that the cotangent bundles of compact toric varieties in the core of toric hyperk{ä}hler manifold are sufficient to glue the desired toric hyperk{ä}hler manifold.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.SG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-01-26T13:14:20Z</published>
+    <arxiv:comment>16 pages, 4 figure</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <author>
+      <name>Craig van Coevering</name>
+    </author>
+    <author>
+      <name>Wei Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2404.02214v2</id>
+    <title>Quasi-canonical AFL and Arithmetic Transfer conjectures at parahoric levels</title>
+    <updated>2026-05-01T22:40:03Z</updated>
+    <link href="https://arxiv.org/abs/2404.02214v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2404.02214v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In the first part of the paper, we formulate several arithmetic transfer conjectures, which are variants of the arithmetic fundamental lemma conjecture in the presence of ramification. The ramification comes from the choice of non-hyperspecial parahoric level structure. We prove a graph version of these arithmetic transfer conjectures, by relating it to the quasi-canonical arithmetic fundamental lemma, which we also establish. We relate some of the arithmetic transfer conjectures to the arithmetic fundamental lemma conjecture for the whole Hecke algebra in our recent paper arXiv:2305.14465. As a consequence, we prove these conjectures in some simple cases. In the second part of the paper, we elucidate the structure of an integral model of a certain member of the almost selfdual Rapoport-Zink tower, thereby proving conjectures of Kudla and the second author. This result allows us verify the hypotheses of the graph version of the arithmetic transfer conjectures in a particular case.</summary>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-04-02T18:07:33Z</published>
+    <arxiv:comment>73 pages. Minor modifications after the referee's report. To appear in Crelle's</arxiv:comment>
+    <arxiv:primary_category term="math.NT"/>
+    <author>
+      <name>Chao Li</name>
+    </author>
+    <author>
+      <name>Michael Rapoport</name>
+    </author>
+    <author>
+      <name>Wei Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2106.15038v1</id>
+    <title>On the arithmetic Siegel--Weil formula for GSpin Shimura varieties</title>
+    <updated>2021-06-29T00:33:55Z</updated>
+    <link href="https://arxiv.org/abs/2106.15038v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2106.15038v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We formulate and prove a local arithmetic Siegel--Weil formula for GSpin Rapoport--Zink spaces, which is a precise identity between the arithmetic intersection numbers of special cycles on GSpin Rapoport--Zink spaces and the derivatives of local representation densities of quadratic forms. As a first application, we prove a semi-global arithmetic Siegel--Weil formula as conjectured by Kudla, which relates the arithmetic intersection numbers of special cycles on GSpin Shimura varieties at a place of good reduction and the central derivatives of nonsingular Fourier coefficients of incoherent Siegel Eisenstein series.</summary>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-06-29T00:33:55Z</published>
+    <arxiv:primary_category term="math.NT"/>
+    <author>
+      <name>Chao Li</name>
+    </author>
+    <author>
+      <name>Wei Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0904.3448v2</id>
+    <title>Some geometric critical exponents for percolation and the random-cluster model</title>
+    <updated>2010-01-15T13:25:35Z</updated>
+    <link href="https://arxiv.org/abs/0904.3448v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0904.3448v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We introduce several infinite families of new critical exponents for the random-cluster model and present scaling arguments relating them to the k-arm exponents. We then present Monte Carlo simulations confirming these predictions. These new exponents provide a convenient way to determine k-arm exponents from Monte Carlo simulations. An understanding of these exponents also leads to a radically improved implementation of the Sweeny Monte Carlo algorithm. In addition, our Monte Carlo data allow us to conjecture an exact expression for the shortest-path fractal dimension d_min in two dimensions: d_min = (g+2)(g+18)/(32g) where g is the Coulomb-gas coupling, related to the cluster fugacity q via q = 2 + 2 cos(gπ/2) with 2 \le g \le 4.</summary>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.comp-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2009-04-22T12:24:20Z</published>
+    <arxiv:comment>LaTeX2e/Revtex4. Version 2 is completely rewritten to make the exposition more reader-friendly; it consists of a 4-page main paper (including 3 figures) and a 2-page EPAPS appendix (given as a single Postscript file). To appear in Phys Rev E</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.stat-mech"/>
+    <arxiv:journal_ref>Phys.Rev.E81:020102,2010</arxiv:journal_ref>
+    <author>
+      <name>Youjin Deng</name>
+    </author>
+    <author>
+      <name>Wei Zhang</name>
+    </author>
+    <author>
+      <name>Timothy M. Garoni</name>
+    </author>
+    <author>
+      <name>Alan D. Sokal</name>
+    </author>
+    <author>
+      <name>Andrea Sportiello</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevE.81.020102</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevE.81.020102" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2103.11514v4</id>
+    <title>Higher Siegel--Weil formula for unitary groups: the non-singular terms</title>
+    <updated>2023-11-29T06:22:19Z</updated>
+    <link href="https://arxiv.org/abs/2103.11514v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2103.11514v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We construct special cycles on the moduli stack of unitary shtukas. We prove an identity between (1) the r-th central derivative of non-singular Fourier coefficients of a normalized Siegel--Eisenstein series, and (2) the degree of special cycles of "virtual dimension 0" on the moduli stack of unitary shtukas with r legs. This may be viewed as a function-field analogue of the Kudla-Rapoport Conjecture, that has the additional feature of encompassing all higher derivatives of the Eisenstein series.</summary>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-03-21T23:21:51Z</published>
+    <arxiv:comment>Minor revisions, to appear in Invent Math</arxiv:comment>
+    <arxiv:primary_category term="math.NT"/>
+    <author>
+      <name>Tony Feng</name>
+    </author>
+    <author>
+      <name>Zhiwei Yun</name>
+    </author>
+    <author>
+      <name>Wei Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2108.02086v1</id>
+    <title>More Arithmetic Fundamental Lemma conjectures: the case of Bessel subgroups</title>
+    <updated>2021-08-04T14:40:09Z</updated>
+    <link href="https://arxiv.org/abs/2108.02086v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2108.02086v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We define some formal moduli space of quasi-isogenies of isoclinic $p$-divisible groups with a non-reductive group as the "structure group". We then formulate new Arithmetic Fundamental Lemma conjectures for Bessel subgroups in the context of the arithmetic Gan-Gross-Prasad conjectures. Some (very limited) evidence is presented.</summary>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-08-04T14:40:09Z</published>
+    <arxiv:primary_category term="math.NT"/>
+    <author>
+      <name>Wei Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1604.02419v2</id>
+    <title>Regular formal moduli spaces and arithmetic transfer conjectures</title>
+    <updated>2017-01-13T06:09:08Z</updated>
+    <link href="https://arxiv.org/abs/1604.02419v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1604.02419v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We define various formal moduli spaces of p-divisible groups which are regular, and morphisms between them. We formulate arithmetic transfer conjectures, which are variants of the arithmetic fundamental lemma conjecture of the third author in the presence of ramification. These conjectures include the AT conjecture of our previous joint paper. We prove these conjectures in low-dimensional cases.</summary>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-04-08T18:25:12Z</published>
+    <arxiv:comment>Minor revisions and corrections, the most notable of which is a correction to Lemma 14.7(iv), which results in a new factor of 2 appearing in Conjectures 4.1(a) and 10.4(a). 70 pages</arxiv:comment>
+    <arxiv:primary_category term="math.NT"/>
+    <author>
+      <name>Michael Rapoport</name>
+    </author>
+    <author>
+      <name>Brian Smithling</name>
+    </author>
+    <author>
+      <name>Wei Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1012.2427v3</id>
+    <title>Fibred toric varieties in toric hyperkähler varieties</title>
+    <updated>2011-06-23T08:12:31Z</updated>
+    <link href="https://arxiv.org/abs/1012.2427v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1012.2427v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce the fibred toric varieties as equivariant $\mathbb{C}P^r$ bundles over lower dimensional toric varieties. An equivalent characterization is that the natural morphisms on them degenerate to bundle projections in the context of variation of toric varieties as GIT quotients. Our main observation is that these fibred toric varieties also arise naturally in the variation of hyperkähler varieties, namely, the fibred toric varieties are contained in the exceptional sets of the hyperkähler natural morphisms and the Mukai flops.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.SG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-12-11T05:16:05Z</published>
+    <arxiv:comment>21 pages, 5 figures, 3rd version, the whole paper is revised</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <author>
+      <name>Craig van Coevering</name>
+    </author>
+    <author>
+      <name>Wei Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1203.5827v3</id>
+    <title>On the Arithmetic Fundamental Lemma in the minuscule case</title>
+    <updated>2013-03-01T19:46:49Z</updated>
+    <link href="https://arxiv.org/abs/1203.5827v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1203.5827v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The arithmetic fundamental lemma conjecture of the third author connects the derivative of an orbital integral on a symmetric space with an intersection number on a formal moduli space of $p$-divisible groups of Picard type. It arises in the relative trace formula approach to the arithmetic Gan-Gross-Prasad conjecture. We prove this conjecture in the minuscule case.</summary>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-03-26T21:49:01Z</published>
+    <arxiv:comment>Referee's comments incorporated; in particular, the existence of frames for using the theory of displays in the proofs of Theorems 9.4 and 9.5 is clarified. To appear in Compositio Math</arxiv:comment>
+    <arxiv:primary_category term="math.NT"/>
+    <arxiv:journal_ref>Compositio Mathematica, 2013, volume 149, issue 10, pp. 1631-1666</arxiv:journal_ref>
+    <author>
+      <name>Michael Rapoport</name>
+    </author>
+    <author>
+      <name>Ulrich Terstiege</name>
+    </author>
+    <author>
+      <name>Wei Zhang</name>
+    </author>
+    <arxiv:doi>10.1112/S0010437X13007239</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1112/S0010437X13007239" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2402.17656v1</id>
+    <title>High dimensional Gross--Zagier formula: a survey</title>
+    <updated>2024-02-27T16:24:59Z</updated>
+    <link href="https://arxiv.org/abs/2402.17656v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2402.17656v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We survey recent developments on generalizing the Gross--Zagier formula to high dimensional Shimura varieties, with an emphasis on the
+  Arithmetic Gan--Gross--Prasad conjecture and the relative trace formula approach.</summary>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-02-27T16:24:59Z</published>
+    <arxiv:comment>Lectures at the IHES 2022 Summer School on the Langlands Program, Comments welcome</arxiv:comment>
+    <arxiv:primary_category term="math.NT"/>
+    <author>
+      <name>Wei Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1908.01701v3</id>
+    <title>Kudla--Rapoport cycles and derivatives of local densities</title>
+    <updated>2020-12-01T00:04:31Z</updated>
+    <link href="https://arxiv.org/abs/1908.01701v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1908.01701v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We prove the local Kudla--Rapoport conjecture, which is a precise identity between the arithmetic intersection numbers of special cycles on unitary Rapoport--Zink spaces and the derivatives of local representation densities of hermitian forms. As a first application, we prove the global Kudla--Rapoport conjecture, which relates the arithmetic intersection numbers of special cycles on unitary Shimura varieties and the central derivatives of the Fourier coefficients of incoherent Eisenstein series. Combining previous results of Liu and Garcia--Sankaran, we also prove cases of the arithmetic Siegel--Weil formula in any dimension.</summary>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-08-05T15:53:41Z</published>
+    <arxiv:comment>new subsection 2.8 on "independence of basis"; new subsection 6.4 on "higher local modularity"; several proofs (5.4.1, 7.3.4, 10.4.3) expanded</arxiv:comment>
+    <arxiv:primary_category term="math.NT"/>
+    <author>
+      <name>Chao Li</name>
+    </author>
+    <author>
+      <name>Wei Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1909.02697v3</id>
+    <title>Weil representation and Arithmetic Fundamental Lemma</title>
+    <updated>2020-12-20T02:11:24Z</updated>
+    <link href="https://arxiv.org/abs/1909.02697v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1909.02697v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>By a global approach, we prove the arithmetic fundamental lemma conjecture for unitary groups in $n$ variables over $\mathbb{Q}_p$ when $p\geq n$.</summary>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-09-06T02:43:36Z</published>
+    <arxiv:comment>Final version, to appear in Ann. of Math</arxiv:comment>
+    <arxiv:primary_category term="math.NT"/>
+    <author>
+      <name>Wei Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1906.12346v2</id>
+    <title>On Shimura varieties for unitary groups</title>
+    <updated>2020-08-26T09:54:02Z</updated>
+    <link href="https://arxiv.org/abs/1906.12346v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1906.12346v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This is a largely expository article based on our previous work on arithmetic diagonal cycles on unitary Shimura varieties. We define a class of Shimura varieties closely related to unitary groups which represent a moduli problem of abelian varieties with additional structure, and which admit interesting algebraic cycles. We generalize to arbitrary signature type the results of our previous work valid under special signature conditions. We compare our Shimura varieties with other unitary Shimura varieties.</summary>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-06-28T17:55:26Z</published>
+    <arxiv:comment>39 pages. Minor modifications. This version is the final one, to appear in Pure and Applied Mathematics Quarterly (special issue in honor of D. Mumford)</arxiv:comment>
+    <arxiv:primary_category term="math.NT"/>
+    <author>
+      <name>Michael Rapoport</name>
+    </author>
+    <author>
+      <name>Brian Smithling</name>
+    </author>
+    <author>
+      <name>Wei Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1710.06962v6</id>
+    <title>Arithmetic diagonal cycles on unitary Shimura varieties</title>
+    <updated>2020-04-26T23:41:07Z</updated>
+    <link href="https://arxiv.org/abs/1710.06962v6" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1710.06962v6" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We define variants of PEL type of the Shimura varieties that appear in the context of the Arithmetic Gan-Gross-Prasad conjecture. We formulate for them a version of the AGGP conjecture. We also construct (global and semi-global) integral models of these Shimura varieties and formulate for them conjectures on arithmetic intersection numbers. We prove some of these conjectures in low dimension.</summary>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-10-18T23:35:46Z</published>
+    <arxiv:comment>We removed all mention of an 'exotic level structure". Final version. To appear in Compositio Mathematica</arxiv:comment>
+    <arxiv:primary_category term="math.NT"/>
+    <author>
+      <name>Michael Rapoport</name>
+    </author>
+    <author>
+      <name>Brian Smithling</name>
+    </author>
+    <author>
+      <name>Wei Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2507.01395v1</id>
+    <title>More regular formal moduli spaces and arithmetic transfer conjectures: the ramified quadratic case</title>
+    <updated>2025-07-02T06:17:39Z</updated>
+    <link href="https://arxiv.org/abs/2507.01395v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2507.01395v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>For unitary groups associated to a ramified quadratic extension of a $p$-adic field, we define various regular formal moduli spaces of $p$-divisible groups with parahoric levels, characterize exceptional special divisors on them, and construct correspondences between them. We formulate arithmetic transfer conjectures, which are variants of the arithmetic fundamental lemma conjecture in this context. We prove the conjectures in the lowest dimensional cases.</summary>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-07-02T06:17:39Z</published>
+    <arxiv:primary_category term="math.NT"/>
+    <author>
+      <name>Yu Luo</name>
+    </author>
+    <author>
+      <name>Michael Rapoport</name>
+    </author>
+    <author>
+      <name>Wei Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2305.14465v2</id>
+    <title>Arithmetic Fundamental Lemma for the spherical Hecke algebra</title>
+    <updated>2024-05-22T23:01:58Z</updated>
+    <link href="https://arxiv.org/abs/2305.14465v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2305.14465v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We define Hecke correspondences and Hecke operators on unitary RZ spaces and study their basic geometric properties, including a commutativity conjecture on Hecke operators. Then we formulate the Arithmetic Fundamental Lemma conjecture for the spherical Hecke algebra. We also formulate a conjecture on the abundance of spherical Hecke functions with identically vanishing first derivative of orbital integrals. We prove these conjectures for the case $U(1)\times U(2)$.</summary>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-05-23T18:39:56Z</published>
+    <arxiv:comment>50 pages. Revised, incorporating suggestions of the referee. To appear in Manuscripta Math</arxiv:comment>
+    <arxiv:primary_category term="math.NT"/>
+    <author>
+      <name>Chao Li</name>
+    </author>
+    <author>
+      <name>Michael Rapoport</name>
+    </author>
+    <author>
+      <name>Wei Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2112.15164v2</id>
+    <title>A note on Tate's conjectures for abelian varieties</title>
+    <updated>2022-05-20T18:00:16Z</updated>
+    <link href="https://arxiv.org/abs/2112.15164v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2112.15164v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this mostly expository note, we explain a proof of Tate's two conjectures [Tat65] for algebraic cycles of arbitrary codimension on certain products of elliptic curves and abelian surfaces over number fields.</summary>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-12-30T18:45:09Z</published>
+    <arxiv:comment>Minor revisions, to appear in Essential Number Theory</arxiv:comment>
+    <arxiv:primary_category term="math.NT"/>
+    <arxiv:journal_ref>Ess. Number Th. 1 (2022) 41-50</arxiv:journal_ref>
+    <author>
+      <name>Chao Li</name>
+    </author>
+    <author>
+      <name>Wei Zhang</name>
+    </author>
+    <arxiv:doi>10.2140/ent.2022.1.41</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.2140/ent.2022.1.41" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1912.11942v3</id>
+    <title>On the Beilinson-Bloch-Kato conjecture for Rankin-Selberg motives</title>
+    <updated>2021-08-17T01:44:36Z</updated>
+    <link href="https://arxiv.org/abs/1912.11942v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1912.11942v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this article, we study the Beilinson-Bloch-Kato conjecture for motives corresponding to the Rankin-Selberg product of conjugate self-dual automorphic representations, within the framework of the Gan-Gross-Prasad conjecture. We show that if the central critical value of the Rankin-Selberg $L$-function does not vanish, then the Bloch-Kato Selmer group with coefficients in a favorable field of the corresponding motive vanishes. We also show that if the class in the Bloch-Kato Selmer group constructed from certain diagonal cycle does not vanish, which is conjecturally equivalent to the nonvanishing of the central critical first derivative of the Rankin-Selberg $L$-function, then the Bloch-Kato Selmer group is of rank one.</summary>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-12-26T22:40:55Z</published>
+    <arxiv:comment>v3: 179 page. We have separated the original Appendix E as an independent article arXiv:2108.06998, as suggested by a referee</arxiv:comment>
+    <arxiv:primary_category term="math.NT"/>
+    <author>
+      <name>Yifeng Liu</name>
+    </author>
+    <author>
+      <name>Yichao Tian</name>
+    </author>
+    <author>
+      <name>Liang Xiao</name>
+    </author>
+    <author>
+      <name>Wei Zhang</name>
+    </author>
+    <author>
+      <name>Xinwen Zhu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2601.18557v1</id>
+    <title>Arithmetic volumes of moduli stacks of Shtukas</title>
+    <updated>2026-01-26T15:06:40Z</updated>
+    <link href="https://arxiv.org/abs/2601.18557v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.18557v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We define and study "tautological classes" in the cohomology of moduli stacks of shtukas, pursuing two directions of applications. First, we prove a formula relating the "arithmetic volume" of tautological classes to higher derivatives of Artin $L$-functions, which can be viewed as an arithmetic analog of Hirzebruch's Proportionality principle. Second, we define and analyze the structure of the "phantom tautological ring", using a general relation between Hecke correspondences and Vinberg's degeneration, and give applications to a function field analog of Colmez's Conjecture.</summary>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-26T15:06:40Z</published>
+    <arxiv:primary_category term="math.NT"/>
+    <author>
+      <name>Tony Feng</name>
+    </author>
+    <author>
+      <name>Zhiwei Yun</name>
+    </author>
+    <author>
+      <name>Wei Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2209.08366v1</id>
+    <title>Twisted linear periods and a new relative trace formula</title>
+    <updated>2022-09-17T16:38:55Z</updated>
+    <link href="https://arxiv.org/abs/2209.08366v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2209.08366v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study the linear periods on $GL_{2n}$ twisted by a character using a new relative trace formula. We establish the relative fundamental lemma and the transfer of orbital integrals. Together with the spectral isolation technique of Beuzart-Plessis--Liu--Zhang--Zhu, we are able to compare the elliptic part of the relative trace formulae and to obtain new results generalizing Waldspurger's theorem in the $n=1$ case.</summary>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-09-17T16:38:55Z</published>
+    <arxiv:primary_category term="math.NT"/>
+    <author>
+      <name>Hang Xue</name>
+    </author>
+    <author>
+      <name>Wei Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2209.09736v3</id>
+    <title>Vanishing results in Chow groups for the modified diagonal cycles</title>
+    <updated>2022-10-30T04:29:38Z</updated>
+    <link href="https://arxiv.org/abs/2209.09736v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2209.09736v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We prove a sufficient condition for the vanishing of the modified diagonal cycle in the Chow group (with $\mathbb{Q}$-coefficients) of the triple product of a curve over $\mathbb{C}$. We exhibit infinitely many non-hyperelliptic curves, including the Fricke--Macbeath curve, the Bring curve, and two 1-dimensional families parameterized by certain Hurwitz spaces, for which our condition is satisfied.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-09-20T14:11:38Z</published>
+    <arxiv:comment>Submitted version 1</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <arxiv:journal_ref>Tunisian J. Math. 6 (2024) 225-247</arxiv:journal_ref>
+    <author>
+      <name>Congling Qiu</name>
+    </author>
+    <author>
+      <name>Wei Zhang</name>
+    </author>
+    <arxiv:doi>10.2140/tunis.2024.6.225</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.2140/tunis.2024.6.225" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1209.3907v1</id>
+    <title>Convergence of Yang-Mills-Higgs flow for twist Higgs pairs on Riemann surfaces</title>
+    <updated>2012-09-18T10:51:06Z</updated>
+    <link href="https://arxiv.org/abs/1209.3907v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1209.3907v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We consider the gradient flow of the Yang-Mills-Higgs functional of twist Higgs pairs on a Hermitian vector bundle $(E,H_0)$ over a Riemann surface $X$. It is already known the gradient flow with initial data $(A_0,φ_0)$ converges to a critical point $(A_\infty, φ_\infty)$ of this functional. Using a modified Chern-Weil type inequality, we prove that the limiting twist Higgs bundle $(E, d_{A_\infty}", φ_\infty)$ is given by the graded twist Higgs bundle defined by the Harder-Narasimhan-Seshadri filtration of the initial twist Higgs bundle $(E,d_{A_0}",φ_0)$, generalizing Wilkin's results for untwist Higgs bundle.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-09-18T10:51:06Z</published>
+    <arxiv:comment>19 pages, 1 figure. arXiv admin note: text overlap with arXiv:math/0410055, arXiv:math/0611113 by other authors</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <author>
+      <name>Wei Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1512.02683v3</id>
+    <title>Shtukas and the Taylor expansion of $L$-functions</title>
+    <updated>2017-04-11T04:01:40Z</updated>
+    <link href="https://arxiv.org/abs/1512.02683v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1512.02683v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We define the Heegner--Drinfeld cycle on the moduli stack of Drinfeld Shtukas of rank two with $r$-modifications for an even integer $r$. We prove an identity between (1) The $r$-th central derivative of the quadratic base change $L$-function associated to an everywhere unramified cuspidal automorphic representation $π$ of $PGL_{2}$; (2) The self-intersection number of the $π$-isotypic component of the Heegner--Drinfeld cycle. This identity can be viewed as a function-field analog of the Waldspurger and Gross--Zagier formula for higher derivatives of $L$-functions.</summary>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-12-08T22:33:46Z</published>
+    <arxiv:comment>97 pages; minor revision</arxiv:comment>
+    <arxiv:primary_category term="math.NT"/>
+    <author>
+      <name>Zhiwei Yun</name>
+    </author>
+    <author>
+      <name>Wei Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2310.19707v1</id>
+    <title>Vanishing results for the modified diagonal cycles II: Shimura curves</title>
+    <updated>2023-10-30T16:35:19Z</updated>
+    <link href="https://arxiv.org/abs/2310.19707v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2310.19707v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We prove vanishing results for the modified diagonal cycles in the Chow groups of the triple products of Shimura curves and their motivic direct summands. In particular we find examples of curves with trivial automorphism groups and vanishing modified diagonal cycles.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-10-30T16:35:19Z</published>
+    <arxiv:primary_category term="math.AG"/>
+    <author>
+      <name>Congling Qiu</name>
+    </author>
+    <author>
+      <name>Wei Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2110.07001v3</id>
+    <title>Higher theta series for unitary groups over function fields</title>
+    <updated>2024-01-02T20:22:41Z</updated>
+    <link href="https://arxiv.org/abs/2110.07001v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2110.07001v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In previous work, we defined certain virtual fundamental classes for special cycles on the moduli stack of Hermitian shtukas, and related them to the higher derivatives of non-singular Fourier coefficients of Siegel-Eisenstein series. In the present article, we construct virtual fundamental classes in greater generality, including those expected to relate to the higher derivatives of singular Fourier coefficients. We assemble these classes into "higher" theta series, which we conjecture to be modular. Two types of evidence are presented: structural properties affirming that the cycle classes behave as conjectured under certain natural operations such as intersection products, and verification of modularity in several special situations. One innovation underlying these results is a new approach to special cycles in terms of derived algebraic geometry.</summary>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-10-13T19:28:30Z</published>
+    <arxiv:comment>To appear in Annales scientifiques de l'École normale supérieure</arxiv:comment>
+    <arxiv:primary_category term="math.NT"/>
+    <author>
+      <name>Tony Feng</name>
+    </author>
+    <author>
+      <name>Zhiwei Yun</name>
+    </author>
+    <author>
+      <name>Wei Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1110.0269v1</id>
+    <title>Holomorphic Lagrangian fibrations of toric hyperkahler manifolds</title>
+    <updated>2011-10-03T05:35:59Z</updated>
+    <link href="https://arxiv.org/abs/1110.0269v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1110.0269v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>For the sake of hyperk{ä}hler SYZ conjecture, finding holomorphic Lagrangian fibrations becomes an important issue. Toric hyperk{ä}hler manifolds are real dimension $4n$ non-compact hyperk{ä}hler manifolds which are quaternion analog of toric varieties. The $n$ dimensional residue circle action on it admitting a hyperk{ä}hler moment map. We use the complex part of this moment map to construct a holomorphic Lagrangian fibration with generic fiber diffeomorphic to $(\mathbb{C}^*)^n$, and study the singular fibers.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.SG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-10-03T05:35:59Z</published>
+    <arxiv:comment>9 pages, draft version</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <author>
+      <name>Craig van Coevering</name>
+    </author>
+    <author>
+      <name>Wei Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2308.10979v2</id>
+    <title>Modularity of higher theta series I: cohomology of the generic fiber</title>
+    <updated>2023-11-29T06:13:52Z</updated>
+    <link href="https://arxiv.org/abs/2308.10979v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2308.10979v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In a previous paper we constructed $\textit{higher}$ theta series for unitary groups over function fields, and conjectured their modularity properties. Here we prove the generic modularity of the $\ell$-adic realization of higher theta series in cohomology. The proof debuts a new type of Fourier transform, occurring on the Borel-Moore homology of moduli spaces for shtuka-type objects, that we call the $\textit{arithmetic Fourier transform}$. Another novelty in the argument is a $\textit{sheaf-cycle correspondence}$ extending the classical sheaf-function correspondence, which facilitates the deployment of sheaf-theoretic methods to analyze algebraic cycles. Although the modularity property is a statement within classical algebraic geometry, the proof relies on derived algebraic geometry, especially a nascent theory of $\textit{derived Fourier analysis}$ on derived vector bundles, which we develop.</summary>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-08-21T18:54:25Z</published>
+    <arxiv:comment>Minor corrections plus some explanation added</arxiv:comment>
+    <arxiv:primary_category term="math.NT"/>
+    <author>
+      <name>Tony Feng</name>
+    </author>
+    <author>
+      <name>Zhiwei Yun</name>
+    </author>
+    <author>
+      <name>Wei Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1208.6280v4</id>
+    <title>Automorphic period and the central value of Rankin--Selberg L-function</title>
+    <updated>2014-02-16T16:53:05Z</updated>
+    <link href="https://arxiv.org/abs/1208.6280v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1208.6280v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We prove a refinement of the global Gan-Gross-Prasad conjecture proposed by Ichino-Ikeda and N. Harris for unitary groups under some local conditions. We need to assume some expected properties of L-packets and some part of the local Gan-Gross-Prasad conjecture.</summary>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-08-30T19:51:05Z</published>
+    <arxiv:comment>v4: Final version, slightly different from the published version. v3: the local result for a split archimedean place; some mistakes/typos corrected; the main result remains</arxiv:comment>
+    <arxiv:primary_category term="math.NT"/>
+    <arxiv:journal_ref>J. Amer. Math. Soc. 27 (2014), 541-612</arxiv:journal_ref>
+    <author>
+      <name>Wei Zhang</name>
+    </author>
+    <arxiv:doi>10.1090/S0894-0347-2014-00784-0</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1090/S0894-0347-2014-00784-0" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2006.11212v2</id>
+    <title>Some new results on relative entropy production, time reversal, and optimal control of time-inhomogeneous diffusion processes</title>
+    <updated>2021-04-16T20:03:27Z</updated>
+    <link href="https://arxiv.org/abs/2006.11212v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2006.11212v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper studies time-inhomogeneous nonequilibrium diffusion processes, including both Brownian dynamics and Langevin dynamics. We derive upper bounds of the relative entropy production of the time-inhomogeneous process with respect to the transient invariant probability measures. We also study the time reversal of the reverse process in Crooks' fluctuation theorem. We show that the time reversal of the reverse process coincides with the optimally controlled forward process that leads to zero variance importance sampling estimator based on Jarzynski's equality.</summary>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-06-19T16:27:47Z</published>
+    <arxiv:comment>accepted manuscript</arxiv:comment>
+    <arxiv:primary_category term="math.PR"/>
+    <arxiv:journal_ref>J. Math. Phys. 62(4), 043302, 2021</arxiv:journal_ref>
+    <author>
+      <name>Wei Zhang</name>
+    </author>
+    <arxiv:doi>10.1063/5.0038740</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1063/5.0038740" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2204.04613v2</id>
+    <title>On an exponential sum related to the Möbius function</title>
+    <updated>2022-10-16T09:53:27Z</updated>
+    <link href="https://arxiv.org/abs/2204.04613v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2204.04613v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Let $μ(n)$ be the Möbius function and $e(α)=e^{2πiα}$. In this paper, we study upper bounds of the classical sum $$S(x,α):=\sum_{1\leq n\leq x}μ(n)e(αn).$$ We can improve some classical results of Baker and Harman \cite{BH}.</summary>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-04-10T06:19:20Z</published>
+    <arxiv:comment>Comments are Welcome!</arxiv:comment>
+    <arxiv:primary_category term="math.NT"/>
+    <arxiv:journal_ref>Proc. Amer. Math. Soc. 2023</arxiv:journal_ref>
+    <author>
+      <name>Wei Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2203.12168v1</id>
+    <title>Averages of exponential twists of the von Mangoldt function</title>
+    <updated>2022-03-23T03:24:13Z</updated>
+    <link href="https://arxiv.org/abs/2203.12168v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2203.12168v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we obtain some improved results for the exponential sum $\sum_{x&lt;n\leq 2x}Λ(n)e(αk n^θ)$ with $θ\in(0,5/12),$ where $Λ(n)$ is the von Mangoldt function. Such exponential sums have relations with the so-called quasi-Riemann hypothesis and were considered by Vinogradov \cite{Va} and Murty-Srinivas \cite{Mu}.</summary>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-03-23T03:24:13Z</published>
+    <arxiv:primary_category term="math.NT"/>
+    <arxiv:journal_ref>Bull. Aust. Math .Soc. 2022</arxiv:journal_ref>
+    <author>
+      <name>Xiumin Ren</name>
+    </author>
+    <author>
+      <name>Wei Zhang</name>
+    </author>
+    <arxiv:doi>10.1017/S0004972722000430</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1017/S0004972722000430" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2210.16828v4</id>
+    <title>On $k$-free numbers over Beatty sequences</title>
+    <updated>2023-01-15T09:57:06Z</updated>
+    <link href="https://arxiv.org/abs/2210.16828v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2210.16828v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we consider $k$-free numbers over Beatty sequences. New results are given.</summary>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-10-30T12:37:20Z</published>
+    <arxiv:comment>Czechoslovak Math. J. 2023. arXiv admin note: substantial text overlap with arXiv:2207.02378</arxiv:comment>
+    <arxiv:primary_category term="math.NT"/>
+    <author>
+      <name>Wei Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1512.08944v2</id>
+    <title>Asymptotic Analysis of Multiscale Markov Chain</title>
+    <updated>2016-01-27T16:08:26Z</updated>
+    <link href="https://arxiv.org/abs/1512.08944v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1512.08944v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We consider continuous-time Markov chain on a finite state space X. We assume X can be clustered into several subsets such that the intra-transition rates within these subsets are of order $\mathcal{O}(\frac{1}ε)$ comparing to the inter-transition rates among them, where $0 &lt; ε\ll 1$. Several asymptotic results are obtained as $ε\rightarrow 0$ concerning the convergence of Kolmogorov backward equation, Poincaré constant, (modified) logarithmic Sobolev constant to their counterparts of certain reduced Markov chain. Both reversible and irreversible Markov chains are considered.</summary>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-12-30T13:56:49Z</published>
+    <arxiv:comment>25 pages</arxiv:comment>
+    <arxiv:primary_category term="math.PR"/>
+    <author>
+      <name>Wei Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1701.04270v2</id>
+    <title>Statistical analysis of the first passage path ensemble of jump processes</title>
+    <updated>2017-05-25T19:15:04Z</updated>
+    <link href="https://arxiv.org/abs/1701.04270v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1701.04270v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The transition mechanism of jump processes between two different subsets in state space reveals important dynamical information of the processes and therefore has attracted considerable attention in the past years. In this paper, we study the first passage path ensemble of both discrete-time and continuous-time jump processes on a finite state space. The main approach is to divide each first passage path into nonreactive and reactive segments and to study them separately. The analysis can be applied to jump processes which are non-ergodic, as well as continuous-time jump processes where the waiting time distributions are non-exponential. In the particular case that the jump processes are both Markovian and ergodic, our analysis elucidates the relations between the study of the first passage paths and the study of the transition paths in transition path theory. We provide algorithms to numerically compute statistics of the first passage path ensemble. The computational complexity of these algorithms scales with the complexity of solving a linear system, for which efficient methods are available. Several examples demonstrate the wide applicability of the derived results across research areas.</summary>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-01-16T12:52:47Z</published>
+    <arxiv:comment>35 pages</arxiv:comment>
+    <arxiv:primary_category term="math.PR"/>
+    <arxiv:journal_ref>J. Stat. Phys., 170(4), pp. 809-843, 2018</arxiv:journal_ref>
+    <author>
+      <name>Max von Kleist</name>
+    </author>
+    <author>
+      <name>Christof Schütte</name>
+    </author>
+    <author>
+      <name>Wei Zhang</name>
+    </author>
+    <arxiv:doi>10.1007/s10955-017-1949-x</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s10955-017-1949-x" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1005.1515v2</id>
+    <title>Convexity of the smallest principal curvature of the convex level sets of some quasi-linear elliptic equations with respect to the height</title>
+    <updated>2012-11-04T04:12:28Z</updated>
+    <link href="https://arxiv.org/abs/1005.1515v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1005.1515v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>For the $p$-harmonic function with strictly convex level sets, we find a test function which comes from the combination of the norm of gradient of the $p$-harmonic function and the smallest principal curvature of the level sets of $p$-harmonic function. We prove that this curvature function is convex with respect to the height of the $p$-harmonic function. This test function is an affine function of the height when the $p$-harmonic function is the $p$-Green function on the ball. For the minimal graph, we obtain a similar results.</summary>
+    <category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-05-10T12:26:02Z</published>
+    <arxiv:comment>The authors decided to divide this article into two parts and to publish separately</arxiv:comment>
+    <arxiv:primary_category term="math.AP"/>
+    <author>
+      <name>Kun Huang</name>
+    </author>
+    <author>
+      <name>Wei Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1712.08844v1</id>
+    <title>Periods, cycles, and $L$-functions: a relative trace formula approach</title>
+    <updated>2017-12-23T21:41:23Z</updated>
+    <link href="https://arxiv.org/abs/1712.08844v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1712.08844v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This is a report for the author's talk in ICM-2018. Motivated by the formulas of Gross--Zagier and Waldspurger, we review conjectures and theorems on automorphic period integrals, special cycles on Shimura varieties, and their connection to central values of L-functions and their derivatives. We focus on the global Gan--Gross--Prasad conjectures, their arithmetic versions and some variants in the author's joint work with Rapoport and Smithling. We discuss the approach of relative trace formulas and the arithmetic fundamental lemma conjecture. In the function field setting, Z. Yun and the author obtain a formula for higher order derivatives of L-functions in terms of special cycles on the moduli space of Drinfeld Shtukas.</summary>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-12-23T21:41:23Z</published>
+    <arxiv:primary_category term="math.NT"/>
+    <author>
+      <name>Wei Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0709.3355v1</id>
+    <title>On the Gauss Map with Vanishing Biharmonic stress-energy tensor</title>
+    <updated>2007-09-21T05:38:49Z</updated>
+    <link href="https://arxiv.org/abs/0709.3355v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0709.3355v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We study the biharmonic stress-energy tensor $S_2$ of Gauss map. Adding few assumptions, the Gauss map with vanishing $S_2$ would be harmonic.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2007-09-21T05:38:49Z</published>
+    <arxiv:comment>7 pages</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <author>
+      <name>Wei Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1306.5633v3</id>
+    <title>The Petrov-like boundary condition at finite cutoff surface in Gravity/Fluid duality</title>
+    <updated>2014-08-24T15:23:58Z</updated>
+    <link href="https://arxiv.org/abs/1306.5633v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1306.5633v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Previously it has been shown that imposing a Petrov-like boundary condition on a hypersurface may reduce the Einstein equation to the incompressible Navier-Stokes equation, but all these correspondences are established in the near horizon limit. In this note, we remark that this strategy can be extended to an arbitrary finite cutoff surface which is spatially flat, and the Navier-Stokes equation is obtained by employing a non-relativistic long-wavelength limit.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-06-24T14:01:58Z</published>
+    <arxiv:comment>17 pages, no figures, published in PRD</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <arxiv:journal_ref>Phys. Rev. D 90, 043525 (2014)</arxiv:journal_ref>
+    <author>
+      <name>Yi Ling</name>
+    </author>
+    <author>
+      <name>Chao Niu</name>
+    </author>
+    <author>
+      <name>Yu Tian</name>
+    </author>
+    <author>
+      <name>Xiao-Ning Wu</name>
+    </author>
+    <author>
+      <name>Wei Zhang</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.90.043525</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.90.043525" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2503.09500v1</id>
+    <title>Unitary Friedberg-Jacquet periods and their twists: Fundamental lemmas</title>
+    <updated>2025-03-12T16:05:28Z</updated>
+    <link href="https://arxiv.org/abs/2503.09500v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2503.09500v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We formulate a global conjecture for the automorphic period integral associated to the symmetric pairs defined by unitary groups over number fields, generalizing a theorem of Waldspurger's toric period for $\mathrm{GL}(2)$. We introduce a new relative trace formula to prove our global conjecture under some local hypotheses. A new feature is the presence of the relative endoscopy. In this paper we prove the main local theorem: a new relative fundamental lemma comparing certain orbital integrals of functions matched in terms of Hironaka and Satake transforms.</summary>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-03-12T16:05:28Z</published>
+    <arxiv:comment>100 pages, Comments Welcome!</arxiv:comment>
+    <arxiv:primary_category term="math.NT"/>
+    <author>
+      <name>Spencer Leslie</name>
+    </author>
+    <author>
+      <name>Jingwei Xiao</name>
+    </author>
+    <author>
+      <name>Wei Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2410.08401v2</id>
+    <title>Gan--Gross--Prasad cycles and derivatives of $p$-adic $L$-functions</title>
+    <updated>2026-03-03T21:50:42Z</updated>
+    <link href="https://arxiv.org/abs/2410.08401v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2410.08401v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study the p-adic analogue of the arithmetic Gan-Gross-Prasad (GGP) conjectures for unitary groups. Let $Π$ be a conjugate-selfdual cuspidal automorphic representation of GL_{n} x GL_{n+1} over a CM field, which is algebraic of minimal regular weight at infinity. We first show the rationality of twists of the ratio of L-values of $Π$ appearing in the GGP conjectures. Then, when $Π$ is p-ordinary at a prime p, we construct a cyclotomic p-adic L-function $L_p(M_Π)$ interpolating those twists. Finally, under some local assumptions, we prove a precise formula relating the first derivative of $L_p(M_Π)$ to the p-adic heights of Selmer classes arising from arithmetic diagonal cycles on unitary Shimura varieties. We deduce applications to the p-adic Beilinson-Bloch-Kato conjecture for the motive attached to $Π$. All proofs are based on some relative-trace formulas in p-adic coefficients.</summary>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-10-10T22:21:06Z</published>
+    <arxiv:comment>150 pages, 1 (new) figure. Improved exposition</arxiv:comment>
+    <arxiv:primary_category term="math.NT"/>
+    <author>
+      <name>Daniel Disegni</name>
+    </author>
+    <author>
+      <name>Wei Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1805.01928v1</id>
+    <title>Pathwise estimates for effective dynamics: the case of nonlinear vectorial reaction coordinates</title>
+    <updated>2018-05-04T20:08:32Z</updated>
+    <link href="https://arxiv.org/abs/1805.01928v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1805.01928v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Effective dynamics using conditional expectation was proposed in [F. Legoll and T. Lelièvre, Nonlinearity, 2010] to approximate the essential dynamics of high-dimensional diffusion processes along a given reaction coordinate. The approximation error of the effective dynamics when it is used to approximate the behavior of the original dynamics has been considered in recent years. As a continuation of the previous work [F. Legoll, T. Lelièvre, and S. Olla, Stoch. Process. Appl, 2017], in this paper we obtain pathwise estimates for effective dynamics when the reaction coordinate function is either nonlinear or vector-valued.</summary>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-05-04T20:08:32Z</published>
+    <arxiv:primary_category term="math.PR"/>
+    <author>
+      <name>Tony Lelièvre</name>
+    </author>
+    <author>
+      <name>Wei Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2207.00923v2</id>
+    <title>On fractional sums of the divisor functions</title>
+    <updated>2023-01-15T09:49:31Z</updated>
+    <link href="https://arxiv.org/abs/2207.00923v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2207.00923v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we consider the fractional sum of the divisor functions. We can improve previous results considered by Bordellés \cite{Bo} and Liu-Wu-Yang \cite{LWY}.</summary>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-07-03T00:16:07Z</published>
+    <arxiv:primary_category term="math.NT"/>
+    <arxiv:journal_ref>international journal of number theory 2023</arxiv:journal_ref>
+    <author>
+      <name>Wei Zhang</name>
+    </author>
+    <arxiv:doi>10.1142/S1793042123500665</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1142/S1793042123500665" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2310.03492v2</id>
+    <title>Analyzing multimodal probability measures with autoencoders</title>
+    <updated>2024-03-14T09:22:06Z</updated>
+    <link href="https://arxiv.org/abs/2310.03492v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2310.03492v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Finding collective variables to describe some important coarse-grained information on physical systems, in particular metastable states, remains a key issue in molecular dynamics. Recently, machine learning techniques have been intensively used to complement and possibly bypass expert knowledge in order to construct collective variables. Our focus here is on neural network approaches based on autoencoders. We study some relevant mathematical properties of the loss function considered for training autoencoders, and provide physical interpretations based on conditional variances and minimum energy paths. We also consider various extensions in order to better describe physical systems, by incorporating more information on transition states at saddle points, and/or allowing for multiple decoders in order to describe several transition paths. Our results are illustrated on toy two dimensional systems and on alanine dipeptide.</summary>
+    <category term="physics.chem-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-10-05T12:03:41Z</published>
+    <arxiv:comment>37 pages including 15 figures and 2 appendices</arxiv:comment>
+    <arxiv:primary_category term="physics.chem-ph"/>
+    <author>
+      <name>Tony Lelièvre</name>
+    </author>
+    <author>
+      <name>Thomas Pigeon</name>
+    </author>
+    <author>
+      <name>Gabriel Stoltz</name>
+    </author>
+    <author>
+      <name>Wei Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1702.08064v5</id>
+    <title>Ergodic SDEs on submanifolds and related numerical sampling schemes</title>
+    <updated>2019-09-24T11:47:37Z</updated>
+    <link href="https://arxiv.org/abs/1702.08064v5" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1702.08064v5" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In many applications, it is often necessary to sample the mean value of certain quantity with respect to a probability measure μ on the level set of a smooth function $ξ: \mathbb{R}^d\rightarrow \mathbb{R}^k$, $1\le k &lt; d$. A specially interesting case is the so-called conditional probability measure, which is useful in the study of free energy calculation and model reduction of diffusion processes. By Birkhoff's ergodic theorem, one approach to estimate the mean value is to compute the time average along an infinitely long trajectory of an ergodic diffusion process on the level set whose invariant measure is μ. Motivated by the previous work of Ciccotti, Lelièvre, and Vanden-Eijnden [11], as well as the work of Lelièvre, Rousset, and Stoltz [33], in this paper we construct a family of ergodic diffusion processes on the level set of $ξ$ whose invariant measures coincide with the given one. For the conditional measure, in particular, we show that the corresponding SDEs of the constructed ergodic processes have relatively simple forms, and, moreover, we propose a consistent numerical scheme which samples the conditional measure asymptotically. The numerical scheme doesn't require computing the second derivatives of $ξ$ and the error estimates of its long time sampling efficiency are obtained.</summary>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-02-26T18:06:13Z</published>
+    <arxiv:comment>45 pages. Accepted version</arxiv:comment>
+    <arxiv:primary_category term="math.PR"/>
+    <author>
+      <name>Wei Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/cond-mat/0502402v1</id>
+    <title>Vortices and Dissipation in a Bilayer Thin Film Superconductor</title>
+    <updated>2005-02-16T17:55:15Z</updated>
+    <link href="https://arxiv.org/abs/cond-mat/0502402v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/cond-mat/0502402v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Vortex dynamics in a bilayer thin film superconductor are studied through a Josephson-coupled double layer XY model. A renormalization group analysis shows that there are three possible states associated with the relative phase of the layers: a free vortex phase, a logarithmically confined vortex-antivortex pair phase, and a linearly confined phase. The phases may be distinguished by measuring the resistance to counterflow current. For a geometry in which current is injected and removed from the two layers at the same edge by an ideal (dissipationless) lead, we argue that the three phases yield distinct behaviors: metallic conductivity in the free vortex phase, a power law I-V in the logarithmically confined phase, and true dissipationless superconductivity in the linearly confined phase. Numerical simulations of a resistively shunted Josephson junction model reveal size dependences for the resistance of this system that support these expectations.</summary>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2005-02-16T17:55:15Z</published>
+    <arxiv:comment>17 pages, 2 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.supr-con"/>
+    <author>
+      <name>Wei Zhang</name>
+    </author>
+    <author>
+      <name>H. A. Fertig</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevB.71.224514</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevB.71.224514" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2503.09664v2</id>
+    <title>Unitary Friedberg-Jacquet periods and their twists: Relative trace formulas</title>
+    <updated>2025-03-27T14:26:48Z</updated>
+    <link href="https://arxiv.org/abs/2503.09664v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2503.09664v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In a companion paper, we formulated a global conjecture for the automorphic period integral associated to the symmetric pairs defined by unitary groups over number fields, generalizing a theorem of Waldspurger's toric period for $\mathrm{GL}(2)$. In this paper, we introduce a new relative trace formula to prove our global conjecture under some local hypotheses. A new feature is the presence of relative endoscopy in the comparison. We also establish several local results on relative characters.</summary>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-03-12T16:13:40Z</published>
+    <arxiv:comment>64 pages, arXiv admin note: text overlap with arXiv:2503.09500; v2: minor typos fixed. Comments very much welcome!</arxiv:comment>
+    <arxiv:primary_category term="math.NT"/>
+    <author>
+      <name>Spencer Leslie</name>
+    </author>
+    <author>
+      <name>Jingwei Xiao</name>
+    </author>
+    <author>
+      <name>Wei Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0808.1346v1</id>
+    <title>Biharmonic space-like hypersurfaces in pseudo-Riemannian space</title>
+    <updated>2008-08-09T11:04:37Z</updated>
+    <link href="https://arxiv.org/abs/0808.1346v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0808.1346v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We classify the space-like biharmonic surfaces in 3-dimension pseudo-Riemannian space form, and construct explicit examples of proper biharmonic hypersurfaces in general ADS space.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2008-08-09T11:04:37Z</published>
+    <arxiv:comment>7 pages</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <author>
+      <name>Wei Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1003.2057v1</id>
+    <title>Gaussian Curvature estimates for the convex level sets of solutions for some nonlinear elliptic partial differential equations</title>
+    <updated>2010-03-10T09:37:12Z</updated>
+    <link href="https://arxiv.org/abs/1003.2057v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1003.2057v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We give a lower bound for the Gaussian curvature of convex level sets of minimal graphs and the solutions to semilinear elliptic equations with the norm of boundary gradient and the Gaussian curvature of the boundary.</summary>
+    <category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-03-10T09:37:12Z</published>
+    <arxiv:comment>35pages</arxiv:comment>
+    <arxiv:primary_category term="math.AP"/>
+    <author>
+      <name>Pei-He Wang</name>
+    </author>
+    <author>
+      <name>Wei Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2112.06156v2</id>
+    <title>On general sums involving the floor function with applications to $k$-free numbers</title>
+    <updated>2023-10-01T06:08:38Z</updated>
+    <link href="https://arxiv.org/abs/2112.06156v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2112.06156v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we consider sums related the floor function. We can improve some previous results for some special arithmetic functions considered by Bordellés [3], Stucky[9] and Liu-Wu-Yang [6]. We can also give a refined result for previous results for general function considered by Bordellés, Dai, Heyman, Pan and Shparlinski [1] and Wu [11].</summary>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-12-12T06:00:05Z</published>
+    <arxiv:comment>Accepted by Lith. Math. J</arxiv:comment>
+    <arxiv:primary_category term="math.NT"/>
+    <author>
+      <name>Wei Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2212.05274v1</id>
+    <title>On squares associated to the Piatetski-Shapiro sequences</title>
+    <updated>2022-12-10T11:30:23Z</updated>
+    <link href="https://arxiv.org/abs/2212.05274v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2212.05274v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We can give a slight improvement for a result related to the distribution of squares in Piatetski-Shapiro sequences of Liu-Shparlinski-Zhang \cite{lsz} by involving three different ideas.</summary>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-12-10T11:30:23Z</published>
+    <arxiv:primary_category term="math.NT"/>
+    <author>
+      <name>Wei Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2310.07360v1</id>
+    <title>A note on simple zeros related to Dedekind zeta functions</title>
+    <updated>2023-10-11T10:18:42Z</updated>
+    <link href="https://arxiv.org/abs/2310.07360v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2310.07360v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We give a conditional lower bound on the number of non-trivial simple zeros for the Dedekind zeta function $ζ_{K}(s)$, where $K$ is a quadratic number field. The conditional result is given by assuming a Lindelöf on average (in the $L^{6}$ sense) for both $ζ(s)$ and $L(s,χ)$, which can be seen as a stronger version of Conrey-Gonek-Ghosh's \cite{c} conditional result. This improves upon the work of Wu and Zhao \cite{Zhao}, who had a similar result.</summary>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-10-11T10:18:42Z</published>
+    <arxiv:primary_category term="math.NT"/>
+    <arxiv:journal_ref>Ramanujan Journal 2024</arxiv:journal_ref>
+    <author>
+      <name>Wei Zhang</name>
+    </author>
+    <arxiv:doi>10.1007/s11139-024-00831-8</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s11139-024-00831-8" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2211.02975v1</id>
+    <title>Controllability Canonical Forms of Linear Ensemble Systems</title>
+    <updated>2022-11-05T21:41:26Z</updated>
+    <link href="https://arxiv.org/abs/2211.02975v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2211.02975v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Ensemble control, an emerging research field focusing on the study of large populations of dynamical systems, has demonstrated great potential in numerous scientific and practical applications. Striking examples include pulse design for exciting spin ensembles in quantum physics, neurostimulation for relieving neurological disorder symptoms, and path planning for steering robot swarms. However, the control targets in such applications are generally large-scale complex and severely underactuated ensemble systems, research into which stretches the capability of techniques in classical control and dynamical systems theory to the very limit. This paper then devotes to advancing our knowledge about controllability of linear ensemble systems by integrating tools in modern algebra into the technique of separating points developed in our recent work. In particular, we give an algebraic interpretation of the dynamics of linear systems in terms of actions of polynomials on vector spaces, and this leads to the development of the functional canonical form of matrix-valued functions, which can also be viewed as the generalization of the rational canonical form of matrices in linear algebra. Then, leveraging the technique of separating points, we achieve a necessary and sufficient characterization of uniform ensemble controllability for time-invariant linear ensemble systems as the ensemble controllability canonical form, in which the system and control matrices are in the functional canonical and block diagonal form, respectively. This work successfully launches a new research scheme by adopting and tailoring finite-dimensional methods to tackle control problems involving infinite-dimensional ensemble systems, and lays a solid foundation for a more inclusive ensemble control theory targeting a much broader spectrum of control and learning problems in both scientific research and practice.</summary>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SY" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.DS" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-11-05T21:41:26Z</published>
+    <arxiv:primary_category term="math.OC"/>
+    <author>
+      <name>Wei Zhang</name>
+    </author>
+    <author>
+      <name>Jr-Shin Li</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2104.02779v4</id>
+    <title>On the Arithmetic Fundamental Lemma conjecture over a general $p$-adic field</title>
+    <updated>2022-06-10T15:56:20Z</updated>
+    <link href="https://arxiv.org/abs/2104.02779v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2104.02779v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We prove the arithmetic fundamental lemma conjecture over a general $p$-adic field with odd residue cardinality $q\geq \dim V$. Our strategy is similar to the one used by the second author during his proof of the AFL over $\mathbb{Q}_p$ (arXiv:1909.02697), but only requires the modularity of divisor generating series on the Shimura variety (as opposed to its integral model). The resulting increase in flexibility allows us to work over an arbitrary base field. To carry out the strategy, we also generalize results of Howard (arXiv:1303.0545) on CM-cycle intersection and of Ehlen--Sankaran (arXiv:1607.06545) on Green function comparison from $\mathbb{Q}$ to general totally real base fields.</summary>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-04-06T20:42:43Z</published>
+    <arxiv:comment>51 pages, minor revision, comments welcome</arxiv:comment>
+    <arxiv:primary_category term="math.NT"/>
+    <author>
+      <name>Andreas Mihatsch</name>
+    </author>
+    <author>
+      <name>Wei Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0707.0183v2</id>
+    <title>Bernstein Type Results for Lagrangian Graphs with Partially Harmonic Gauss Map</title>
+    <updated>2008-06-21T06:12:02Z</updated>
+    <link href="https://arxiv.org/abs/0707.0183v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0707.0183v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We establish Bernstein Theorems for Lagrangian graphs which are Hamiltonian minimal or have conformal Maslov form. Some known results of minimal (Lagrangian) submanifolds are generalized.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2007-07-02T09:51:55Z</published>
+    <arxiv:comment>fix a mistake of previous version</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <author>
+      <name>Wei Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0906.0250v1</id>
+    <title>Tomography of correlation functions for ultracold atoms via time-of-flight images</title>
+    <updated>2009-06-01T10:21:02Z</updated>
+    <link href="https://arxiv.org/abs/0906.0250v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0906.0250v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We propose to utilize density distributions from a series of time-of-flight images of an expanding cloud to reconstruct single-particle correlation functions of trapped ultra-cold atoms. In particular, we show how this technique can be used to detect off-diagonal correlations of atoms in a quasi-one-dimensional trap, where both real- and momentum- space correlations are extracted at a quantitative level. The feasibility of this method is analyzed with specific examples, taking into account finite temporal and spatial resolutions in experiments.</summary>
+    <category term="cond-mat.quant-gas" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2009-06-01T10:21:02Z</published>
+    <arxiv:comment>7 pages, 4 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.quant-gas"/>
+    <arxiv:journal_ref>Phys. Rev. A 80, 063614 (2009)</arxiv:journal_ref>
+    <author>
+      <name>Wei Zhang</name>
+    </author>
+    <author>
+      <name>L. -M. Duan</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevA.80.063614</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevA.80.063614" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2303.12347v4</id>
+    <title>On a variant of the prime number theorem</title>
+    <updated>2023-11-10T11:57:06Z</updated>
+    <link href="https://arxiv.org/abs/2303.12347v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2303.12347v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we can show that \begin{align*} S_Λ(x)=\sum_{1\leq n\leq x}Λ\left(\left[\frac{x}{n}\right]\right)= \sum_{n=1}^{\infty} \frac{Λ(n)}{n(n+1)}x +O\left(x^{7/15+1/195+\varepsilon}\right), \end{align*} where $Λ(n)$ is the von Mangdolt function. Moreover, we can also give a similar result related to the divisor function, which improves previous results.</summary>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-03-22T07:13:20Z</published>
+    <arxiv:comment>Accepted by JNT</arxiv:comment>
+    <arxiv:primary_category term="math.NT"/>
+    <arxiv:journal_ref>J. Number Theory 257 (2024)</arxiv:journal_ref>
+    <author>
+      <name>Wei Zhang</name>
+    </author>
+    <arxiv:doi>10.1016/j.jnt.2023.10.011</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.jnt.2023.10.011" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2211.07112v1</id>
+    <title>Koopman Bilinearization of Nonlinear Control Systems</title>
+    <updated>2022-11-14T04:57:12Z</updated>
+    <link href="https://arxiv.org/abs/2211.07112v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2211.07112v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Koopman operators, since introduced by the French-born American mathematician Bernard Koopman in 1931, have been employed as a powerful tool for research in various scientific domains, such as ergodic theory, probability theory, geometry, and topology. The current use of Koopman operators mainly focuses on the characterization of spectral properties of ergodic dynamical systems. In this paper, we step forward from unforced dynamical systems to control systems and establish a systematic Koopman control framework. Specifically, we rigorously derive a differential equation system governing the dynamics of the Koopman operator associated with a control system, and show that the resulting system is a bilinear system evolving on an infinite-dimensional Lie group, which directly leads to a global bilinearization of control-affine systems. Then, by integrating techniques in geometric control theory with infinite-dimensional differential geometry, this further offers a two-fold benefit to controllability analysis: the characterization of controllability for control-affine systems in terms of de Rham differential operators and the extension of the Lie algebra rank condition to infinite-dimensional systems. To demonstrate the applicability, we further adopt the established framework to develop the Koopman feedback linearization technique, which, as one of the advantages, waives the controllability requirement for the systems to be linearized by using the classical feedback linearization technique. In addition, it is worth mentioning that a distinctive feature of this work is the maximum utilization of the intrinsic algebraic and geometric properties of Koopman operators, instead of spectral methods and the ergodicity assumption of systems, which further demonstrate a significant advantage of our work and a substantial difference between the presented and existing research into Koopman operators.</summary>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SY" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.DS" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-11-14T04:57:12Z</published>
+    <arxiv:primary_category term="math.OC"/>
+    <author>
+      <name>Wei Zhang</name>
+    </author>
+    <author>
+      <name>Jr-Shin Li</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1403.6788v3</id>
+    <title>Tracial state space with non-compact extreme boundary</title>
+    <updated>2014-06-27T03:29:23Z</updated>
+    <link href="https://arxiv.org/abs/1403.6788v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1403.6788v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Let A be a unital simple separable C*-algebra. If $A$ is nuclear and infinite-dimensional, it is known that strict comparison is equivalent to Z-stability if the extreme boundary of its tracial state space is non-empty, compact and of finite covering dimension. Here we will provide the first proof of this result on the case of certain non-compact extreme boundaries. Besides, if A has strict comparison of positive elements, it is known that the Cuntz semigroup of this C*-algebra is recovered functorially from the Murray-von Neumann semigroup and the tracial state state space whenever the extreme boundary of the tracial state space is compact and of finite covering dimension. We will extend this result to the case of a countable extreme boundary with finitely many cluster points.</summary>
+    <category term="math.OA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-03-26T18:53:47Z</published>
+    <arxiv:comment>arXiv admin note: substantial text overlap with arXiv:0912.0675 by other authors</arxiv:comment>
+    <arxiv:primary_category term="math.OA"/>
+    <author>
+      <name>Wei Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/0609579v1</id>
+    <title>Logistic regression with unknown sizes</title>
+    <updated>2006-09-20T22:21:11Z</updated>
+    <link href="https://arxiv.org/abs/math/0609579v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/0609579v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Binomial data with unknown sizes often appear in biological and medical sciences. The previous methods either use the Poisson approximation or the quasi-likelihood approach. A full likelihood approach is proposed by treating unknown sizes as latent variables. This approach simplifies analysis as maximum likelihood estimation can be applied. It also facilitates us to gain a lot more insights into efficiency loss across models and estimation precision within models. Simulation assesses the performance of the proposed model. An application to the surviving jejunal crypt data is discussed. The proposed method is not only competitive with the previous methods, but also gives an appropriate explanation of the inflated variation of expected sizes.</summary>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2006-09-20T22:21:11Z</published>
+    <arxiv:primary_category term="math.ST"/>
+    <author>
+      <name>Wei Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/0609582v1</id>
+    <title>Semiparametric logistic regression with unknown sizes, and its application to bioassays</title>
+    <updated>2006-09-20T22:53:21Z</updated>
+    <link href="https://arxiv.org/abs/math/0609582v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/0609582v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Logistic regression with unknown sizes has many important applications in biological and medical sciences. All models about this problem in the literature are parametric ones. A semiparametric regression model is proposed. This model incorporates overdispersion due to the variation of sizes, and allows general dose-response relations. An Expectation Conditional Maximization algorithm is provided to maximize the log likelihood. The bootstrap method can be used to construct confidence intervals for regression coefficients. Simulation is performed to study the behavior of the proposed model. Two real examples are investigated by the proposed model.</summary>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2006-09-20T22:53:21Z</published>
+    <arxiv:primary_category term="math.ST"/>
+    <author>
+      <name>Wei Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2207.02378v2</id>
+    <title>On primes in special sequences with applications to Carmichael numbers</title>
+    <updated>2025-02-10T01:00:04Z</updated>
+    <link href="https://arxiv.org/abs/2207.02378v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2207.02378v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>By involving some exponential sums related to $Λ(n)$ in arithmetic progression, we can obtain some new results for von Mangoldt function over {\bf nonhomogeneous} Beatty sequences in arithmetic progressions, which improve some recent results of Banks-Yeager unconditionally. On the other hand, we also considered the primes over Piatetski-Shapiro sequences in arithmetic progressions, which gives a continuous improvement of the results of \cite{BBB}. These results can be used to improve some results related to the Carmichael numbers.</summary>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-07-06T01:00:51Z</published>
+    <arxiv:primary_category term="math.NT"/>
+    <author>
+      <name>Wei Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1803.09347v3</id>
+    <title>Jarzynski's equality, fluctuation theorems, and variance reduction: Mathematical analysis and numerical algorithms</title>
+    <updated>2019-04-08T10:01:08Z</updated>
+    <link href="https://arxiv.org/abs/1803.09347v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1803.09347v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we study Jarzynski's equality and fluctuation theorems for diffusion processes. While some of the results considered in the current work are known in the (mainly physics) literature, we review and generalize these nonequilibrium theorems using mathematical arguments, therefore enabling further investigations in the mathematical community. On the numerical side, variance reduction approaches such as importance sampling method are studied in order to compute free energy differences based on Jarzynski's equality.</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-03-25T21:35:01Z</published>
+    <arxiv:comment>journal version</arxiv:comment>
+    <arxiv:primary_category term="math-ph"/>
+    <arxiv:journal_ref>J. Stat. Phys., 2019</arxiv:journal_ref>
+    <author>
+      <name>Carsten Hartmann</name>
+    </author>
+    <author>
+      <name>Christof Schuette</name>
+    </author>
+    <author>
+      <name>Wei Zhang</name>
+    </author>
+    <arxiv:doi>10.1007/s10955-019-02286-4</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s10955-019-02286-4" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1502.07899v2</id>
+    <title>Importance sampling in path space for diffusion processes with slow-fast variables</title>
+    <updated>2016-04-12T19:48:09Z</updated>
+    <link href="https://arxiv.org/abs/1502.07899v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1502.07899v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Importance sampling is a widely used technique to reduce the variance of a Monte Carlo estimator by an appropriate change of measure. In this work, we study importance sam- pling in the framework of diffusion process and consider the change of measure which is realized by adding a control force to the original dynamics. For certain exponential type expectation, the corresponding control force of the optimal change of measure leads to a zero-variance estimator and is related to the solution of a Hamilton-Jacobi-Bellmann equation. We focus on certain diffu- sions with both slow and fast variables, and the main result is that we obtain an upper bound of the relative error for the importance sampling estimators with control obtained from the limiting dynamics. We demonstrate our approximation strategy with an illustrative numerical example.</summary>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-02-27T13:56:32Z</published>
+    <arxiv:comment>41 pages</arxiv:comment>
+    <arxiv:primary_category term="math.PR"/>
+    <arxiv:journal_ref>Probab. Theory Related Fields, 170(1), pp.177-228, 2018</arxiv:journal_ref>
+    <author>
+      <name>Carsten Hartmann</name>
+    </author>
+    <author>
+      <name>Christof Schütte</name>
+    </author>
+    <author>
+      <name>Marcus Weber</name>
+    </author>
+    <author>
+      <name>Wei Zhang</name>
+    </author>
+    <arxiv:doi>10.1007/s00440-017-0755-3</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s00440-017-0755-3" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2304.10119v2</id>
+    <title>On general divisor functions over Piatetski-Shapiro sequences</title>
+    <updated>2026-04-18T08:34:32Z</updated>
+    <link href="https://arxiv.org/abs/2304.10119v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2304.10119v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we consider the general divisor functions over Piatetski-Shapiro sequences. We can give some general results which contain some special divisor functions. Precisely, we extend the divisor problem over Piatetski-Shapiro sequences to the function $f(n),$ where $f(n)\ll n^{\varepsilon},$ $$f(n)=\sum_{n=n_{1}n_{2}} τ(n_{1})g(n_{2}),$$ $τ(n)$ is the number of representations of $n$ as product of two natural numbers
+  and \[ \sum_{1\leq n\leq x}|g(n)|\ll x^{5/8+\varepsilon}. \] On the other hand, we also considered these arithmetic functions over Piatetski-Shapiro sequences in arithmetic progressions.</summary>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-04-20T06:55:12Z</published>
+    <arxiv:comment>Comments are welcome. accepted by Lith Math J</arxiv:comment>
+    <arxiv:primary_category term="math.NT"/>
+    <author>
+      <name>Wei Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2204.07715v1</id>
+    <title>On sums of $k$-th powers with almost equal primes</title>
+    <updated>2022-04-16T04:50:01Z</updated>
+    <link href="https://arxiv.org/abs/2204.07715v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2204.07715v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary> For "almost all" sufficiently large $N,$ satisfying necessary congruence conditions and $k\geq 2$,  we show that
+  there is an {\bf asymptotic formula} for the number of solutions of the equation
+\begin{align*}
+\begin{split}
+&amp;N=p_{1}^{k}+p_{2}^{k}+\cdots+p_{s}^{k},
+\\
+&amp;\left|p_{i}-( N/s)^{1/k}\right|\leq (N/s)^{θ/k},\  (1\leq i\leq s)
+\end{split}
+\end{align*}
+with
+\begin{align*}
+s\geq \frac{k(k+1)}{2}+1\ \ \textup{and}\ \
+θ\geq
+  {\bf 2/3}+\varepsilon.
+\end{align*}
+  This enlarges the effective range of $s$ for which can be obtained by the method of Mätomaki and Xuancheng Shao \cite{MS}. [Discorrelation  between primes in short intervals and polynomial phase, Int. Math. Res. Not. IMRN 2021, no. 16, 12330-12355.]
+  The idea is to avoid using the exponential sums (1.2) and Vinogradov mean value theorems in Lemma 2.4 simultaneously. And the main new ingredient is from Kumchev and Liu \cite{KL} (see Lemma 2.2).</summary>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-04-16T04:50:01Z</published>
+    <arxiv:primary_category term="math.NT"/>
+    <author>
+      <name>Wei Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/0609581v1</id>
+    <title>Double-mixing semiparametric logistic regression with unknown sizes</title>
+    <updated>2006-09-20T22:34:39Z</updated>
+    <link href="https://arxiv.org/abs/math/0609581v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/0609581v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Binomial data with unknown sizes often appear in biological and medical sciences and are usually overdispersed. All previous methods used parametric models and only considered overdispersion due to the variation of sizes. The proposed semiparametric model considers overdispersion due to the variation of sizes and that of probabilities. By doing this, it can include variations caused by observations, missing covariates, and random measurement errors in covariates. An Expectation Conditional Maximization algorithm is provided to stabilize the loglikelihood optimization. Selecting the number of support points of the mixing distributions and the bootstrap methods are also discussed. Simulation is done to evaluate the performance of the proposed model. Two real examples are used to illustrate the proposed model.</summary>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2006-09-20T22:34:39Z</published>
+    <arxiv:primary_category term="math.ST"/>
+    <author>
+      <name>Wei Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0705.3961v1</id>
+    <title>New Examples of Biharmonic Submanifolds in $CP^n$ and $S^{2n+1}$</title>
+    <updated>2007-05-27T15:49:42Z</updated>
+    <link href="https://arxiv.org/abs/0705.3961v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0705.3961v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We construct biharmonic real hypersurfaces and Lagrangian submanifolds of Clifford torus type in $CP^n$ via the Hopf fibration; and get new examples of biharmonic submanifolds in $S^{2n+1}$ as byproducts .</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2007-05-27T15:49:42Z</published>
+    <arxiv:comment>10 pages</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <author>
+      <name>Wei Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0802.0700v2</id>
+    <title>Characteristics of Bose-Einstein condensation in an optical lattice</title>
+    <updated>2008-05-21T17:15:53Z</updated>
+    <link href="https://arxiv.org/abs/0802.0700v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0802.0700v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We discuss several possible experimental signatures of the Bose-Einstein condensation (BEC) transition for an ultracold Bose gas in an inhomogeneous optical lattice. Based on the commonly used time-of-flight imaging technique, we show that the momentum-space density profile in the first Brillouin zone, supplemented by the visibility of interference patterns, provides valuable information about the system. In particular, by crossing the BEC transition temperature, the appearance of a clear bimodal structure sets a qualitative and universal signature of this phase transition. Furthermore, the momentum distribution can also be applied to extract the condensate fraction, which may serve as a promising thermometer in such a system.</summary>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2008-02-05T21:33:02Z</published>
+    <arxiv:comment>12 pages, 13 figures; Revised version with new figures; Phys. Rev. A 77, 043626 (2008)</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.supr-con"/>
+    <arxiv:journal_ref>Phys. Rev. A 77, 043626 (2008)</arxiv:journal_ref>
+    <author>
+      <name>G. -D. Lin</name>
+    </author>
+    <author>
+      <name>Wei Zhang</name>
+    </author>
+    <author>
+      <name>L. -M. Duan</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevA.77.043626</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevA.77.043626" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2203.08384v3</id>
+    <title>On density of the zeros of Dedekind zeta-functions</title>
+    <updated>2025-03-14T09:35:31Z</updated>
+    <link href="https://arxiv.org/abs/2203.08384v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2203.08384v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>For any $σ$ with $0\leq σ\leq 1$ and any $T&gt;10$ sufficiently large, let $N_ζ(σ,K,T)$ be the number of zeros $ρ=β+iγ$ of $ζ_{K}(s)$ with $|γ|\leq T$ and $β\geq σ$ and the zero being counted according to multiplicity. For $k\geq3,$ we have \[ N_ζ(σ,K,T)\ll T^{\frac{2k}{6σ-3}(1-σ)+\varepsilon}, \] where \[ \frac{2k+3}{2k+6}\leq σ&lt;1 \] and the implied constant may depend on the number field $K$ and $\varepsilon.$ This improves previous results for $k\geq3$ of certain range of $σ$.</summary>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-03-16T04:13:18Z</published>
+    <arxiv:primary_category term="math.NT"/>
+    <arxiv:journal_ref>acta math hung 2026</arxiv:journal_ref>
+    <author>
+      <name>Wei Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2509.16881v1</id>
+    <title>Survey on bounding Selmer groups for Rankin--Selberg motives</title>
+    <updated>2025-09-21T02:24:39Z</updated>
+    <link href="https://arxiv.org/abs/2509.16881v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2509.16881v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This article reviews the work of the same authors on the Beilinson-Bloch-Kato conjecture for Rankin-Selberg motives, with some new observations and speculations toward the categorical local Langlands developed by X. Zhu.</summary>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-09-21T02:24:39Z</published>
+    <arxiv:comment>35 pages, to appear in Simons Symposia</arxiv:comment>
+    <arxiv:primary_category term="math.NT"/>
+    <author>
+      <name>Yifeng Liu</name>
+    </author>
+    <author>
+      <name>Yichao Tian</name>
+    </author>
+    <author>
+      <name>Liang Xiao</name>
+    </author>
+    <author>
+      <name>Wei Zhang</name>
+    </author>
+    <author>
+      <name>Xinwen Zhu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0806.2346v1</id>
+    <title>Rational vertex operator algebras are finitely generated</title>
+    <updated>2008-06-13T22:13:25Z</updated>
+    <link href="https://arxiv.org/abs/0806.2346v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0806.2346v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  It is proved that any vertex operator algebra for which the image of the Virasoro element in Zhu's algebra is algebraic over complex numbers is finitely generated. In particular, any vertex operator algebra with a finite dimensional Zhu's algebra is finitely generated. As a result, any rational vertex operator algebra is finitely generated.</summary>
+    <category term="math.QA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2008-06-13T22:13:25Z</published>
+    <arxiv:comment>6 pages</arxiv:comment>
+    <arxiv:primary_category term="math.QA"/>
+    <author>
+      <name>Chongying Dong</name>
+    </author>
+    <author>
+      <name>Wei Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1912.07169v3</id>
+    <title>Isolation of cuspidal spectrum, with application to the Gan--Gross--Prasad conjecture</title>
+    <updated>2021-06-19T00:10:51Z</updated>
+    <link href="https://arxiv.org/abs/1912.07169v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1912.07169v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce a new technique for isolating components on the spectral side of the trace formula. By applying it to the Jacquet--Rallis relative trace formula, we complete the proof of the global Gan--Gross--Prasad conjecture and its refinement Ichino--Ikeda conjecture for $\mathrm{U}(n)\times\mathrm{U}(n+1)$ in the stable case.</summary>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-12-16T02:55:04Z</published>
+    <arxiv:comment>minor revision; 48 pages; to appear in Annals of Mathematics</arxiv:comment>
+    <arxiv:primary_category term="math.NT"/>
+    <author>
+      <name>Raphaël Beuzart-Plessis</name>
+    </author>
+    <author>
+      <name>Yifeng Liu</name>
+    </author>
+    <author>
+      <name>Wei Zhang</name>
+    </author>
+    <author>
+      <name>Xinwen Zhu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0812.3089v5</id>
+    <title>Binomial coefficients and the ring of p-adic integers</title>
+    <updated>2011-01-25T15:55:26Z</updated>
+    <link href="https://arxiv.org/abs/0812.3089v5" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0812.3089v5" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Let k&gt;1 be an integer and let p be a prime. We show that if $p^a\le k&lt;2p^a$ or $k=p^aq+1$ (with 2q&lt;p) for some a=1,2,..., then the set {\binom{n}{k}: n=0,1,2,...} is dense in the ring Z_p of p-adic integers, i.e., it contains a complete system of residues modulo any power of p.</summary>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2008-12-16T16:02:40Z</published>
+    <arxiv:comment>10 pages</arxiv:comment>
+    <arxiv:primary_category term="math.NT"/>
+    <arxiv:journal_ref>Proc. Amer. Math. Soc. 139(2011), no.5, 1569-1577</arxiv:journal_ref>
+    <author>
+      <name>Zhi-Wei Sun</name>
+    </author>
+    <author>
+      <name>Wei Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1901.07004v2</id>
+    <title>Flat-band Ferromagnetism of the SU$(N)$ Hubbard Model on the Tasaki Lattice</title>
+    <updated>2019-10-02T13:22:02Z</updated>
+    <link href="https://arxiv.org/abs/1901.07004v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1901.07004v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We investigate the para-ferro transition of the repulsive SU($N$) Hubbard model on one- and two-dimensional Tasaki lattices. Under certain restrictions for constructing localized many-particle ground states of flat-band ferromagnetism, the quantum strongly correlated electrons model is mapped to a classical statistical geometric site-percolation problem, where the nontrivial weights of different configurations must be considered. We prove rigorously the para-ferro transition for the SU($N$) Hubbard model on one-dimensional Tasaki lattice by transfer-matrix method, and numerically verify it for the model with symmetries up to SU($10$). In two dimensions, we numerically investigate the phase transition of SU($3$), SU($4$) and SU($10$) Hubbard models by Metropolis Monte Carlo simulation. And we find the critical density exceeds that of standard percolation, and it increases with spin degrees of freedom, implying that the effective repulsive interaction becomes stronger for larger $N$. We further rigorously prove the flat-band ferromagnetism of the SU$(N)$ Hubbard model, when the number of particles $N_e$ equals to the degeneracy $N_d$ of the lowest band in the single-particle energy spectrum.</summary>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-01-21T17:31:11Z</published>
+    <arxiv:comment>12 pages, 7 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.str-el"/>
+    <arxiv:journal_ref>Science Bulletin 64 (2019) 1490-1495</arxiv:journal_ref>
+    <author>
+      <name>Rui-Jin Liu</name>
+    </author>
+    <author>
+      <name>Wenxing Nie</name>
+    </author>
+    <author>
+      <name>Wei Zhang</name>
+    </author>
+    <arxiv:doi>10.1016/j.scib.2019.08.013</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.scib.2019.08.013" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1712.08026v2</id>
+    <title>Shtukas and the Taylor expansion of $L$-functions (II)</title>
+    <updated>2020-06-13T03:18:50Z</updated>
+    <link href="https://arxiv.org/abs/1712.08026v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1712.08026v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>For arithmetic applications, we extend and refine our results in \cite{YZ} to allow ramifications in a minimal way. Starting with a possibly ramified quadratic extension $F'/F$ of function fields over a finite field in odd characteristic, and a finite set of places $Σ$ of $F$ that are unramified in $F'$, we define a collection of Heegner--Drinfeld cycles on the moduli stack of $\mathrm{PGL}_{2}$-Shtukas with $r$-modifications and Iwahori level structures at places of $Σ$. For a cuspidal automorphic representation $π$ of $\mathrm{PGL}_{2}(\mathbb{A}_{F})$ with square-free level $Σ$, and $r\in\mathbb{Z}_{\ge0}$ whose parity matches the root number of $π_{F'}$, we prove a series of identities between: (1) The product of the central derivatives of the normalized $L$-functions $\mathcal{L}^{(a)}(π, 1/2)\mathcal{L}^{(r-a)}(π\otimesη, 1/2)$, where $η$ is the quadratic idèle class character attached to $F'/F$, and $0\le a\le r$; (2) The self intersection number of a linear combination of Heegner--Drinfeld cycles. In particular, we can now obtain global $L$-functions with odd vanishing orders. These identities are function-field analogues of the formulas of Waldspurger and Gross--Zagier for higher derivatives of $L$-functions.</summary>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-12-21T15:46:59Z</published>
+    <arxiv:comment>90 pages</arxiv:comment>
+    <arxiv:primary_category term="math.NT"/>
+    <arxiv:journal_ref>Ann. of Math. (2) 189 (2019), no. 2, 393--526</arxiv:journal_ref>
+    <author>
+      <name>Zhiwei Yun</name>
+    </author>
+    <author>
+      <name>Wei Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1806.11003v1</id>
+    <title>Moderate deviation and central limit theorem for SDDEs with plynomial growth</title>
+    <updated>2018-06-28T14:27:53Z</updated>
+    <link href="https://arxiv.org/abs/1806.11003v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1806.11003v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, employing the weak convergence method, based on a variational representation for expected values of positive functionals of a Brownian motion, we investigate moderate deviation %(CLT for abbreviation) for a class of stochastic differential delay equations with small noises, where the coefficients are allowed to be highly nonlinear growth with respect to the variables. Moreover, we obtain the central limit theorem for stochastic differential delay equations which the coefficients are polynomial growth with respect to the delay variables.</summary>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-06-28T14:27:53Z</published>
+    <arxiv:primary_category term="math.PR"/>
+    <author>
+      <name>Yongqiang Suo</name>
+    </author>
+    <author>
+      <name>Jin Tao</name>
+    </author>
+    <author>
+      <name>Wei Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2011.02835v2</id>
+    <title>Non-reversible sampling schemes on submanifolds</title>
+    <updated>2021-06-29T08:46:01Z</updated>
+    <link href="https://arxiv.org/abs/2011.02835v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2011.02835v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Calculating averages with respect to probability measures on submanifolds is often necessary in various application areas such as molecular dynamics, computational statistical mechanics and Bayesian statistics. In recent years, various numerical schemes have been proposed in the literature to study this problem based on appropriate reversible constrained stochastic dynamics. In this paper we present and analyse a non-reversible generalisation of the projection-based scheme developed by one of the authors [ESAIM: M2AN, 54 (2020), pp. 391-430]. This scheme consists of two steps - starting from a state on the submanifold, we first update the state using a non-reversible stochastic differential equation which takes the state away from the submanifold, and in the second step we project the state back onto the manifold using the long-time limit of an ordinary differential equation. We prove the consistency of this numerical scheme and provide quantitative error estimates for estimators based on finite-time running averages. Furthermore, we present theoretical analysis which shows that this scheme outperforms its reversible counterpart in terms of asymptotic variance. We demonstrate our findings on an illustrative test example.</summary>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-11-05T14:15:44Z</published>
+    <arxiv:comment>Added Lemma 2.12, Theorem 2.19 and updated the numerics in Section 7</arxiv:comment>
+    <arxiv:primary_category term="math.NA"/>
+    <author>
+      <name>Upanshu Sharma</name>
+    </author>
+    <author>
+      <name>Wei Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2108.06998v1</id>
+    <title>Deformation of rigid conjugate self-dual Galois representations</title>
+    <updated>2021-08-16T10:16:19Z</updated>
+    <link href="https://arxiv.org/abs/2108.06998v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2108.06998v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this article, we study deformations of conjugate self-dual Galois representations. The study has two folds. First, we prove an R=T type theorem for a conjugate self-dual Galois representation with coefficients in a finite field, satisfying a certain property called rigid. Second, we study the rigidity property for the family of residue Galois representations attached to a symmetric power of an elliptic curve, as well as to a regular algebraic conjugate self-dual cuspidal representation.</summary>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-08-16T10:16:19Z</published>
+    <arxiv:comment>42 pages. This article is essentially the original Appendix E of the article arXiv:1912.11942; we now decide to make that appendix an independent article</arxiv:comment>
+    <arxiv:primary_category term="math.NT"/>
+    <author>
+      <name>Yifeng Liu</name>
+    </author>
+    <author>
+      <name>Yichao Tian</name>
+    </author>
+    <author>
+      <name>Liang Xiao</name>
+    </author>
+    <author>
+      <name>Wei Zhang</name>
+    </author>
+    <author>
+      <name>Xinwen Zhu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1610.06301v1</id>
+    <title>Liouville Theorems for critical points of the p-Ginzburg-Landau type functional</title>
+    <updated>2016-10-20T07:04:16Z</updated>
+    <link href="https://arxiv.org/abs/1610.06301v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1610.06301v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we consider the smooth map from a Riemannian manifold to the standard Euclidean space and the p-Ginzburg-Landau energy. Under suitable curvature conditions on the domain manifold, some Liouville type theorems are established by assuming either growth conditions of the p-Ginzburg-Landau energy or an asymptotic condition at the infinity for the maps. In the end of paper, we obtain the unique constant solution of the constant Dirichlet boundary value problems on starlike domains.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-10-20T07:04:16Z</published>
+    <arxiv:primary_category term="math.DG"/>
+    <author>
+      <name>Tian Chong</name>
+    </author>
+    <author>
+      <name>Bofeng Cheng</name>
+    </author>
+    <author>
+      <name>Yuxin Dong</name>
+    </author>
+    <author>
+      <name>Wei Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1802.08034v3</id>
+    <title>Pseudo-Harmonic Maps From Complete Noncompact Pseudo-Hermitian Manifolds To Regular Balls</title>
+    <updated>2019-04-21T06:28:29Z</updated>
+    <link href="https://arxiv.org/abs/1802.08034v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1802.08034v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we give an estimate of sub-Laplacian of Riemannian distance functions in pseudo-Hermitian geometry which plays a similar role as Laplacian comparison theorem in Riemannian geometry, and deduce a prior horizontal gradient estimate of pseudo-harmonic maps from pseudo-Hermitian manifolds to regular balls of Riemannian manifolds. As an application, Liouville theorem is established under the conditions of nonnegative pseudo-Hermitian Ricci curvature and vanishing pseudo-Hermitian torsion. Moreover, we obtain the existence of pseudo-harmonic maps from complete noncompact pseudo-Hermitian manifolds to regular balls of Riemannian manifolds.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-02-22T13:31:39Z</published>
+    <arxiv:comment>An appendix is added</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <author>
+      <name>Tian Chong</name>
+    </author>
+    <author>
+      <name>Yuxin Dong</name>
+    </author>
+    <author>
+      <name>Yibin Ren</name>
+    </author>
+    <author>
+      <name>Zhang Wei</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1407.1099v1</id>
+    <title>Indivisibility of Heegner points in the multiplicative case</title>
+    <updated>2014-07-04T00:47:12Z</updated>
+    <link href="https://arxiv.org/abs/1407.1099v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1407.1099v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>For certain elliptic curves $E$ over $\mathbb{Q}$ with multiplicative reduction at a prime $p\geq 5$, we prove the $p$-indivisibility of the derived Heegner classes defined with respect to an imaginary quadratic field $K$, as conjectured by Kolyvagin. The conditions on $E$ include that $E[p]$ be irreducible and not finite at $p$ and that $p$ split in the imaginary quadratic field $K$, along with certain $p$-indivisibility conditions on various Tamagawa factors. The proof extends the arguments of the second author for the case where $E$ has good ordinary reduction at~$p$.</summary>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-07-04T00:47:12Z</published>
+    <arxiv:primary_category term="math.NT"/>
+    <author>
+      <name>Christopher Skinner</name>
+    </author>
+    <author>
+      <name>Wei Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2504.21724v2</id>
+    <title>Higher derivative corrections to Kerr-AdS black hole thermodynamics</title>
+    <updated>2025-08-28T06:34:43Z</updated>
+    <link href="https://arxiv.org/abs/2504.21724v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2504.21724v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Instead of the much more involved covariant counterterm method, we apply the well justified background subtraction method to calculate the first order corrections to Kerr-AdS black hole thermodynamics induced by the higher derivative terms up to the cubic of Riemann tensor, where the computation is further simplified by the decomposition trick for the bulk action. The validity of our results is further substantiated by examining the corrections induced by the Gauss-Bonnet term. Moreover, by comparing our results with those obtained via the ADM and Wald formulas in Lorentzian signature, we can extract some generic information about the first order corrected black hole solution induced by each higher derivative term.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-04-30T15:10:26Z</published>
+    <arxiv:comment>9 pages, no figure, clarifications made, typos corrected, version to appear in PRD</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <arxiv:journal_ref>Phys. Rev. D 112, 064038 (2025)</arxiv:journal_ref>
+    <author>
+      <name>Wei Guo</name>
+    </author>
+    <author>
+      <name>Xiyao Guo</name>
+    </author>
+    <author>
+      <name>Xin Lan</name>
+    </author>
+    <author>
+      <name>Hongbao Zhang</name>
+    </author>
+    <author>
+      <name>Wei Zhang</name>
+    </author>
+    <arxiv:doi>10.1103/v12x-l2gb</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/v12x-l2gb" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2508.08751v1</id>
+    <title>Finite-Time Splash in Free Boundary Problem of 3D Neo-Hookean Elastodynamics</title>
+    <updated>2025-08-12T08:55:56Z</updated>
+    <link href="https://arxiv.org/abs/2508.08751v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2508.08751v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper establishes finite-time splash singularity formation for 3D viscous incompressible neo-Hookean elastodynamics with free boundaries. The system features mixed stress-kinematic conditions where viscous-elastic stresses balance pressure forces at the evolving interface -- a configuration generating complex boundary integrals that distinguish it from Navier-Stokes or MHD systems. To address this challenge, we employ a Lagrangian framework inspired by Coutand and Shkoller (2019), developing specialized coordinate charts and constructing a sequence of shrinking initial domains with cylindrical necks connecting hemispherical regions to bases. Divergence-free initial velocity and deformation tensor fields are designed to satisfy exact mechanical compatibility. Uniform a priori estimates across the domain sequence demonstrate that interface evolution preserves local smoothness while developing finite-time self-intersection. Energy conservation provides foundational stability, while higher-order energy functionals yield scaling-invariant regularity control. The analysis proves inevitable splash singularity formation within explicitly bounded time, maintaining spatial smoothness near the singular point up to the intersection time.</summary>
+    <category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-08-12T08:55:56Z</published>
+    <arxiv:comment>37 pages, 2 figures</arxiv:comment>
+    <arxiv:primary_category term="math.AP"/>
+    <author>
+      <name>Wei Zhang</name>
+    </author>
+    <author>
+      <name>Jie Fu</name>
+    </author>
+    <author>
+      <name>Chengchun Hao</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2510.04499v2</id>
+    <title>Black hole thermodynamics is around the corner</title>
+    <updated>2026-04-07T14:38:55Z</updated>
+    <link href="https://arxiv.org/abs/2510.04499v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.04499v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We propose to work on the Euclidean black hole solution with a corner rather than with the prevalent conical singularity. As a result, we find that the Wald formula for black hole entropy can be readily obtained for generic $F(R_{abcd})$ gravity by using both the action without the corner term and the action with the corner term due to their equivalence to the first order variation. With such an equivalence, we further make use of a special diffeomorphism to accomplish a direct derivation of the ADM Hamiltonian conjugate to the Killing vector field normal to the horizon in the Lorentz signature as a conjugate variable of the inverse temperature in the grand canonical ensemble.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-06T05:25:13Z</published>
+    <arxiv:comment>9 pages, 3 figures, version to appear in CQG</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <author>
+      <name>Gerui Chen</name>
+    </author>
+    <author>
+      <name>Wei Guo</name>
+    </author>
+    <author>
+      <name>Xin Lan</name>
+    </author>
+    <author>
+      <name>Hongbao Zhang</name>
+    </author>
+    <author>
+      <name>Wei Zhang</name>
+    </author>
+    <arxiv:doi>10.1088/1361-6382/ae5d1f</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1361-6382/ae5d1f" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2604.03268v1</id>
+    <title>Helicoidal surfaces of non-lightlike frontals in Lorentz-Minkowski 3-space</title>
+    <updated>2026-03-20T06:48:07Z</updated>
+    <link href="https://arxiv.org/abs/2604.03268v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2604.03268v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we define two types of helicoidal surfaces of non-lightlike frontals in Lorentz-Minkowski 3-space and investigate when they become lightcone framed base surfaces. Moreover, by constructing appropriate diffeomorphic transformations and using the criteria of $(i,j)$-cusps and $(i,j)$-cuspidal edges, we establish identification theorems for the singular types of both 1-type and 2-type helicoidal surfaces on their singular loci.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-03-20T06:48:07Z</published>
+    <arxiv:comment>20 pages, 3 figures. Comments are most welcome</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <author>
+      <name>Kaixin Yao</name>
+    </author>
+    <author>
+      <name>Wei Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2105.10145v2</id>
+    <title>Distance-based regression analysis for measuring associations</title>
+    <updated>2022-03-11T10:44:58Z</updated>
+    <link href="https://arxiv.org/abs/2105.10145v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2105.10145v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Distance-based regression model, as a nonparametric multivariate method, has been widely used to detect the association between variations in a distance or dissimilarity matrix for outcomes and predictor variables of interest in genetic association studies, genomic analyses, and many other research areas. Based on it, a pseudo-$F$ statistic which partitions the variation in distance matrices is often constructed to achieve the aim. To the best of our knowledge, the statistical properties of the pseudo-$F$ statistic has not yet been well established in the literature. To fill this gap, we study the asymptotic null distribution of the pseudo-$F$ statistic and show that it is asymptotically equivalent to a mixture of chi-squared random variables. Given that the pseudo-$F$ test statistic has unsatisfactory power when the correlations of the response variables are large, we propose a square-root $F$-type test statistic which replaces the similarity matrix with its square root. The asymptotic null distribution of the new test statistic and power of both tests are also investigated.
+  Simulation studies are conducted to validate the asymptotic distributions of the tests and demonstrate that the proposed test has more robust power than the pseudo-$F$ test. Both test statistics are exemplified with a gene expression dataset for a prostate cancer pathway.
+  Keywords: Asymptotic distribution, Chi-squared-type mixture, Nonparametric test, Pseudo-$F$ test, Similarity matrix.</summary>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-05-21T06:05:28Z</published>
+    <arxiv:comment>Acceptted by Journal of Systems Science &amp; Complexity</arxiv:comment>
+    <arxiv:primary_category term="math.ST"/>
+    <author>
+      <name>Yuke Shi</name>
+    </author>
+    <author>
+      <name>Wei Zhang</name>
+    </author>
+    <author>
+      <name>Aiyi Liu</name>
+    </author>
+    <author>
+      <name>Qizhai Li</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0811.2042v2</id>
+    <title>A worm algorithm for the fully-packed loop model</title>
+    <updated>2009-03-26T00:58:20Z</updated>
+    <link href="https://arxiv.org/abs/0811.2042v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0811.2042v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We present a Markov-chain Monte Carlo algorithm of worm type that correctly simulates the fully-packed loop model on the honeycomb lattice, and we prove that it is ergodic and has uniform stationary distribution. The fully-packed loop model on the honeycomb lattice is equivalent to the zero-temperature triangular-lattice antiferromagnetic Ising model, which is fully frustrated and notoriously difficult to simulate. We test this worm algorithm numerically and estimate the dynamic exponent z = 0.515(8). We also measure several static quantities of interest, including loop-length and face-size moments. It appears numerically that the face-size moments are governed by the magnetic dimension for percolation.</summary>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2008-11-13T07:20:11Z</published>
+    <arxiv:comment>31 pages, 10 figures. Several new figures added, and some minor typos corrected. Uses the following latex packages: algorithm.sty, algorithmic.sty, elsart-num.bst, elsart1p.cls, elsart.cls</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.stat-mech"/>
+    <arxiv:journal_ref>Nuclear Physics B 814, 461-484 (2009)</arxiv:journal_ref>
+    <author>
+      <name>Wei Zhang</name>
+    </author>
+    <author>
+      <name>Timothy M. Garoni</name>
+    </author>
+    <author>
+      <name>Youjin Deng</name>
+    </author>
+    <arxiv:doi>10.1016/j.nuclphysb.2009.01.007</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.nuclphysb.2009.01.007" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-th/9806242v2</id>
+    <title>On Schwarzschild Black Hole in Large N Matrix theory</title>
+    <updated>1998-07-06T07:02:52Z</updated>
+    <link href="https://arxiv.org/abs/hep-th/9806242v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-th/9806242v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  D0-brane gas picture of Schwarzschild black hole (SBH) is considered in the large N regime of Matrix theory. An entropy formula, which reproduces the thermodynamics of SBH in the large N limit for all dimensions ($D\geq 6$), is proposed. The equations of states for low temperature are obtained. We also give a proof of the Newton gravitation law between two SBHs, whose masses are not equal. Our result in some extent supports that the physics of Matrix theory is Lorentz invariant.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1998-06-30T10:39:17Z</published>
+    <arxiv:comment>9 pages, no figure;minor changes, reference added</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <arxiv:journal_ref>Phys.Lett. B450 (1999) 348-352</arxiv:journal_ref>
+    <author>
+      <name>Yi-hong Gao</name>
+    </author>
+    <author>
+      <name>Wei Zhang</name>
+    </author>
+    <arxiv:doi>10.1016/S0370-2693(99)00154-9</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/S0370-2693(99)00154-9" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1302.0421v4</id>
+    <title>Bond and Site Percolation in Three Dimensions</title>
+    <updated>2014-06-03T05:30:46Z</updated>
+    <link href="https://arxiv.org/abs/1302.0421v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1302.0421v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We simulate the bond and site percolation models on a simple-cubic lattice with linear sizes up to L=512, and estimate the percolation thresholds to be $p_c ({\rm bond})=0.248\,811\,82(10)$ and $p_c ({\rm site})=0.311\,607\,7(2)$. By performing extensive simulations at these estimated critical points, we then estimate the critical exponents $1/ν=1.141\,0(15)$, $β/ν=0.477\,05(15)$, the leading correction exponent $y_i =-1.2(2)$, and the shortest-path exponent $d_{\rm min}=1.375\,6(3)$. Various universal amplitudes are also obtained, including wrapping probabilities, ratios associated with the cluster-size distribution, and the excess cluster number. We observe that the leading finite-size corrections in certain wrapping probabilities are governed by an exponent $\approx -2$, rather than $y_i \approx -1.2$.</summary>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-02-02T19:44:12Z</published>
+    <arxiv:comment>8 pages,6 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.stat-mech"/>
+    <arxiv:journal_ref>Phys. Rev. E 87, 052107 (2013)</arxiv:journal_ref>
+    <author>
+      <name>Junfeng Wang</name>
+    </author>
+    <author>
+      <name>Zongzheng Zhou</name>
+    </author>
+    <author>
+      <name>Wei Zhang</name>
+    </author>
+    <author>
+      <name>Timothy M. Garoni</name>
+    </author>
+    <author>
+      <name>Youjin Deng</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevE.87.052107</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevE.87.052107" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1511.08172v1</id>
+    <title>On $p$-adic Waldspurger formula</title>
+    <updated>2015-11-25T19:33:04Z</updated>
+    <link href="https://arxiv.org/abs/1511.08172v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1511.08172v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this article, we study $p$-adic torus periods for certain $p$-adic valued functions on Shimura curves coming from classical origin. We prove a $p$-adic Waldspurger formula for these periods, generalizing the recent work of Bertolini, Darmon, and Prasanna. In pursuing such a formula, we construct a new anti-cyclotomic $p$-adic $L$-function of Rankin-Selberg type. At a character of positive weight, the $p$-adic $L$-function interpolates the central critical value of the complex Rankin-Selberg $L$-function. Its value at a Dirichlet character, which is outside the range of interpolation, essentially computes the corresponding $p$-adic torus period.</summary>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-11-25T19:33:04Z</published>
+    <arxiv:comment>52 pages</arxiv:comment>
+    <arxiv:primary_category term="math.NT"/>
+    <arxiv:journal_ref>Duke Math. J. 167, no. 4 (2018), 743-833</arxiv:journal_ref>
+    <author>
+      <name>Yifeng Liu</name>
+    </author>
+    <author>
+      <name>Shouwu Zhang</name>
+    </author>
+    <author>
+      <name>Wei Zhang</name>
+    </author>
+    <arxiv:doi>10.1215/00127094-2017-0045</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1215/00127094-2017-0045" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2505.11002v2</id>
+    <title>Power convexity of solutions to complex Monge-Ampère equation in $\mathbb{C}^2$</title>
+    <updated>2025-07-31T14:02:04Z</updated>
+    <link href="https://arxiv.org/abs/2505.11002v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2505.11002v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The convexity of solutions to boundary value problems for fully nonlinear elliptic partial differential equations (such as real or complex $k$-Hessian equations) is a challenging topic. In this paper, we establish the power convexity of solutions to the Dirichlet problem for the complex Monge-Ampère equation on bounded, smooth, strictly convex domain in $\mathbb{C}^2$. Our approach is based on the constant rank theorem and the deformation process.</summary>
+    <category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-05-16T08:49:53Z</published>
+    <arxiv:comment>The proof of the constant rank theorem in this paper (Section 3) is incomplete. Therefore, we are withdrawing the submission. A revised version will be uploaded once the issue has been corrected</arxiv:comment>
+    <arxiv:primary_category term="math.AP"/>
+    <author>
+      <name>Wei Zhang</name>
+    </author>
+    <author>
+      <name>Qi Zhou</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2501.08214v3</id>
+    <title>Background subtraction method is not only much simpler, but also as applicable as covariant counterterm method</title>
+    <updated>2025-04-15T15:47:51Z</updated>
+    <link href="https://arxiv.org/abs/2501.08214v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2501.08214v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>As the criterion for the applicability of the background subtraction method, not only the finiteness condition of the resulting Hamiltonian but also the condition for the validity of the first law of black hole thermodynamics can be reduced to the form amenable to much simpler analysis at infinity by using the covariant phase space formalism. With this, we further establish that the background subtraction method is as applicable as the covariant counterterm method not only to Einstein's gravity, but also to its higher derivative corrections for black hole thermodynamics in both asymptotically flat and AdS spacetimes. In addition, our framework also provides us with the first derivation of the universal expression of the Gibbs free energy in terms of the Euclidean on-shell action beyond Einstein's gravity. Among others, our findings have a far reaching impact on the shift in methodology for the Euclidean approach to black hole thermodynamics, where the well justified background subtraction method by our wieldy criterion is supposed to be the favored choice compared to the covariant counterterm method.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-01-14T15:58:32Z</published>
+    <arxiv:comment>version to appear in PRD</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <arxiv:journal_ref>Phys. Rev. D 111, 084088(2025)</arxiv:journal_ref>
+    <author>
+      <name>Wei Guo</name>
+    </author>
+    <author>
+      <name>Xiyao Guo</name>
+    </author>
+    <author>
+      <name>Xin Lan</name>
+    </author>
+    <author>
+      <name>Hongbao Zhang</name>
+    </author>
+    <author>
+      <name>Wei Zhang</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.111.084088</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.111.084088" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2511.17679v2</id>
+    <title>Distance spectral radius for a graph to be k-critical with respect to [1,b]-odd factor</title>
+    <updated>2026-01-13T11:40:48Z</updated>
+    <link href="https://arxiv.org/abs/2511.17679v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2511.17679v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Let $G$ be a connected graph, and let $b$ and $k$ be two positive integers with $b\equiv1$ (mod 2). A $[1,b]$-odd factor of $G$ is a spanning subgraph $F$ of $G$ with $d_F(v)\equiv1$ (mod 2) and $1\leq d_F(v)\leq b$ for every $v\in V(G)$. A graph $G$ is called $k$-critical with respect to $[1,b]$-odd factor if $G-X$ contains a $[1,b]$-odd factor for every $X\subseteq V(G)$ with $|X|=k$. Let $\mathcal{D}(G)$ denote the distance matrix of $G$. The largest eigenvalue of $\mathcal{D}(G)$, denoted by $μ(G)$, is called the distance spectral radius of $G$. In this paper, we prove an upper bound for $μ(G)$ in a connected graph $G$ which guarantees $G$ to be $k$-critical with respect to $[1,b]$-odd factor.</summary>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-11-21T08:22:35Z</published>
+    <arxiv:comment>8 pages</arxiv:comment>
+    <arxiv:primary_category term="math.CO"/>
+    <author>
+      <name>Sufang Wang</name>
+    </author>
+    <author>
+      <name>Wei Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1101.3196v3</id>
+    <title>The Concavity of the Gaussian Curvature of the convex level sets of minimal surface with respect to the height</title>
+    <updated>2013-05-28T06:47:59Z</updated>
+    <link href="https://arxiv.org/abs/1101.3196v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1101.3196v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>For the minimal graph with strict convex level sets, we find an auxiliary function to study the Gaussian curvature of the level sets. We prove that this curvature function is a concave function with respect to the height of the minimal surface while this auxiliary function is almost sharp when the minimal surface is the Catenoid.</summary>
+    <category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-01-17T12:36:20Z</published>
+    <arxiv:comment>The main results of this paper are almost the same as the results for $p$-harmonic functions, so we decided not to publish it anywhere</arxiv:comment>
+    <arxiv:primary_category term="math.AP"/>
+    <arxiv:journal_ref>Pacific J. Math. 267 (2014) 489-509</arxiv:journal_ref>
+    <author>
+      <name>Pei-He Wang</name>
+    </author>
+    <arxiv:doi>10.2140/pjm.2014.267.489</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.2140/pjm.2014.267.489" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2008.03243v1</id>
+    <title>Ensemble Control on Lie Groups</title>
+    <updated>2020-08-07T16:05:35Z</updated>
+    <link href="https://arxiv.org/abs/2008.03243v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2008.03243v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Problems involving control of large ensmebles of structurally identical dynamical systems, called \emph{ensemble control}, arise in numerous scientific areas from quantum control and robotics to brain medicine. In many of such applications, control can only be implemented at the population level, i.e., through broadcasting an input signal to all the systems in the population, and this new control paradigm challenges the classical systems theory. In recent years, considerable efforts have been made to investigate controllability properties of ensemble systems, and most works emphasized on linear and some forms of bilinear and nonlinear ensemble systems. In this paper, we study controllability of a broad class of bilinear ensemble systems defined on semisimple Lie groups, for which we define the notion of ensemble controllability through a Riemannian structure of the state space Lie group. Leveraging the Cartan decomposition of semisimple Lie algebras in representation theory, we develop a \emph{covering method} that decomposes the state space Lie group into a collection of Lie subgroups generating the Lie group, which enables the determination of ensemble controllability by controllability of the subsystems evolving on these Lie subgroups. Using the covering method, we show the equivalence between ensemble and classical controllability, i.e., controllability of each individual system in the ensemble implies ensemble controllability, for bilinear ensemble systems evolving on semisimple Lie groups. This equivalence makes the examination of controllability for infinite-dimensional ensemble systems as tractable as for a finite-dimensional single system.</summary>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.DS" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-08-07T16:05:35Z</published>
+    <arxiv:comment>keywords: Ensemble control, Semisimple Lie groups, Approximation theory, Controllability, Infinite-dimensional Systems</arxiv:comment>
+    <arxiv:primary_category term="math.OC"/>
+    <author>
+      <name>Jr-Shin Li</name>
+    </author>
+    <author>
+      <name>Wei Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1607.08618v3</id>
+    <title>Ferromagnetic ground state of SU(3) Hubbard model on the Lieb lattice</title>
+    <updated>2017-12-22T13:23:59Z</updated>
+    <link href="https://arxiv.org/abs/1607.08618v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1607.08618v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We investigate the magnetic properties of a repulsive fermionic SU($3$) Hubbard model on the Lieb lattice from weak to strong interaction by means of the mean-field approximation. To validate the method we employed, we first discuss the SU($2$) Hubbard model at the mean-field level, and find that our results are consistent with known rigorous theorems. We then extend the calculation to the case of SU($3$) symmetry. We find that, at $4/9$ filling, the SU$(3)$ symmetry spontaneously breaks into the SU$(2)\times$U$(1)$ symmetry in the ground state, leading to a staggered ferromagnetic state for any repulsive $U$ at zero temperature. We then investigate the stability of the ferromagnetic state by relaxing the filling away from $4/9$, and conclude that the ferromagnetic state is sensitive but robust to fillings, as it can persist within a certain filling regime. We also apply the mean-field approximation to finite temperature to calculate the critical temperature and the critical entropy of the ferromagnetic state. As the resulting critical entropy per particle is significantly greater than that can be realized in experiments, we expect some quasi-long-range-ordered features of such a ferromagnetic state can be realized and observed with fermionic alkaline-earth-metal(-like) atoms loaded into optical lattices.</summary>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.quant-gas" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-07-28T20:00:04Z</published>
+    <arxiv:comment>11 pages, 10 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.str-el"/>
+    <arxiv:journal_ref>Phys. Rev. A 96, 053616 (2017)</arxiv:journal_ref>
+    <author>
+      <name>Wenxing Nie</name>
+    </author>
+    <author>
+      <name>Deping Zhang</name>
+    </author>
+    <author>
+      <name>Wei Zhang</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevA.96.053616</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevA.96.053616" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-th/9806245v2</id>
+    <title>Evaporation of Schwarzschild Black Hole in the Large N Matrix Theory</title>
+    <updated>1998-07-07T01:36:56Z</updated>
+    <link href="https://arxiv.org/abs/hep-th/9806245v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-th/9806245v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  By using the D0-brane cluster picture, we consider the Hawking radiation of Schwarszchild black hole (SBH) in large N Matrix model. We get the correct formula for the the Hawing evaporation rate. Our results give some evidence on the Lorentz invariance of the physics of Matrix model.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1998-06-30T11:16:33Z</published>
+    <arxiv:comment>6 pages, no figure; minor changes, reference added</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <author>
+      <name>Yi-hong Gao</name>
+    </author>
+    <author>
+      <name>Wei Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2406.08224v1</id>
+    <title>Toughness and spectral radius in graphs</title>
+    <updated>2024-06-12T13:53:43Z</updated>
+    <link href="https://arxiv.org/abs/2406.08224v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2406.08224v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Let $t$ be a positive integer, and let $G$ be a connected graph of order $n$ with $n\geq t+2$. A graph $G$ is said to be $\frac{1}{t}$-tough if $|S|\geq\frac{1}{t}c(G-S)$ for every subset $S$ of $V(G)$ with $c(G-S)\geq2$, where $c(G-S)$ is the number of connected components in $G-S$. The adjacency matrix of $G$ is denoted by $A(G)$. Let $λ_1(G)\geqλ_2(G)\geq\dots\geqλ_n(G)$ be the eigenvalues of $A(G)$. In particular, the eigenvalue $λ_1(G)$ is called the spectral radius of $G$. In this paper, we prove that $G$ is a $\frac{1}{t}$-tough graph unless $G=K_1\vee(K_{n-t-1}\cup tK_1)$ if $λ_1(G)\geqη(t,n)$, where $η(t,n)$ is the largest root of $x^{3}-(n-t-2)x^{2}-(n-1)x+t(n-t-2)=0$.</summary>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-06-12T13:53:43Z</published>
+    <arxiv:comment>7 pages</arxiv:comment>
+    <arxiv:primary_category term="math.CO"/>
+    <author>
+      <name>Sufang Wang</name>
+    </author>
+    <author>
+      <name>Wei Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2509.08415v1</id>
+    <title>A Liouville theorem for the $2$-Hessian equation on the Heisenberg group</title>
+    <updated>2025-09-10T08:58:26Z</updated>
+    <link href="https://arxiv.org/abs/2509.08415v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2509.08415v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we prove a Liouville theorem for the $2$-Hessian equation on the Heisenberg group $\mathbb{H}^n$. The result is obtained by choosing a suitable test function and using integration by parts to derive the necessary integral estimates.</summary>
+    <category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-09-10T08:58:26Z</published>
+    <arxiv:comment>17 pages</arxiv:comment>
+    <arxiv:primary_category term="math.AP"/>
+    <author>
+      <name>Wei Zhang</name>
+    </author>
+    <author>
+      <name>Qi Zhou</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2505.12817v2</id>
+    <title>The log-concavity of eigenfunction to complex Monge-Ampère operator in $\mathbb{C}^2$</title>
+    <updated>2025-07-31T14:02:51Z</updated>
+    <link href="https://arxiv.org/abs/2505.12817v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2505.12817v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Following the authors' recent work \cite{Zhang-Zhou2025}, we further explore the convexity properties of solutions to the Dirichlet problem for the complex Monge-Ampère operator. In this paper, we establish the $\log$-concavity of solutions to the Dirichlet eigenvalue problem for the complex Monge-Ampère operator on bounded, smooth, strictly convex domain in $\mathbb{C}^2$. The key ingredients consist of the constant rank theorem and the deformation method.</summary>
+    <category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-05-19T07:58:10Z</published>
+    <arxiv:comment>The proof of the constant rank theorem in this paper (Section 3) is incomplete. Therefore, we are withdrawing the submission. A revised version will be uploaded once the issue has been corrected</arxiv:comment>
+    <arxiv:primary_category term="math.AP"/>
+    <author>
+      <name>Wei Zhang</name>
+    </author>
+    <author>
+      <name>Qi Zhou</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2508.18171v3</id>
+    <title>Quadratic curvature corrections to 5-dimensional Kerr-AdS black hole thermodynamics by background subtraction method</title>
+    <updated>2025-12-18T09:14:08Z</updated>
+    <link href="https://arxiv.org/abs/2508.18171v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2508.18171v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We justify the applicability of the background subtraction method to both Einstein's gravity and its higher derivative corrections in 5-dimensional asymptotically AdS spacetimes, where the corresponding higher derivative corrections to the expression for the ADM mass and angular momentum are also worked out. Then we further apply the background subtraction method to calculate the first order corrected Gibbs free energy by the quadratic curvature terms for the 5-dimensional Kerr-AdS black hole, which is in exact agreement with the previous result obtained by the holographic renormalization method. Such an agreement in turn substantiates the applicability of the background subtraction method.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-08-25T16:20:23Z</published>
+    <arxiv:comment>11 pages, clarifications made, typos corrected, version to appear in PRD</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <arxiv:journal_ref>Phys. Rev. D 112, 124087 (2025)</arxiv:journal_ref>
+    <author>
+      <name>Gerui Chen</name>
+    </author>
+    <author>
+      <name>Xiyao Guo</name>
+    </author>
+    <author>
+      <name>Xin Lan</name>
+    </author>
+    <author>
+      <name>Hongbao Zhang</name>
+    </author>
+    <author>
+      <name>Wei Zhang</name>
+    </author>
+    <arxiv:doi>10.1103/kp7w-8st1</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/kp7w-8st1" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2506.00804v2</id>
+    <title>Phase transitions and crtical exponents in the six-vertex model on kagome lattices</title>
+    <updated>2026-01-09T05:55:41Z</updated>
+    <link href="https://arxiv.org/abs/2506.00804v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2506.00804v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Inspired by the experimental realization of direct kagome spin ice [Yue et al., Nat. Nanotechnol. 19, 1101 (2024)], the theoretical six-vertex model on the kagome lattice is systematically simulated using the directed loop Monte Carlo method. Four distinct vortex lattice phases are identified: (i) antiferromagnetic leg states and vortex lattice order on both triangular and honeycomb faces, with a winding number $k=1$. (ii) ferromagnetic leg states and vortex lattice order on both types of faces, with $k=-2$ on the honeycomb faces and $k=1$ on the triangular faces. (iii) paramagnetic leg states and vortex lattice order on the triangular faces with $k=1$; and (iv) paramagnetic leg states and vortex lattice order on the honeycomb faces with $k=1$. As for ferromagnetic to different types of paramagnetic phase, besides the Ising universality class with $y_t=1$, varying critical exponents have also been found with different values of vertex weights. The transition between the third type and fourth type of vortex lattice phases occurs with the new exponent $y_t=1.340(3)$. The third and fourth types of the vortex lattice phase to the vortex disorder phase are found to be of the Berezinskii-Kosterlitz-Thouless type. These findings contribute to the search for and understanding of ice on complex lattices.</summary>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-06-01T03:10:24Z</published>
+    <arxiv:comment>16 pages, 19 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.stat-mech"/>
+    <arxiv:journal_ref>Physical Review B 00,004400(2026)</arxiv:journal_ref>
+    <author>
+      <name>Wei Zhang</name>
+    </author>
+    <author>
+      <name>Wanzhou Zhang</name>
+    </author>
+    <author>
+      <name>Jie Zhang</name>
+    </author>
+    <author>
+      <name>Chengxiang Ding</name>
+    </author>
+    <author>
+      <name>Youjin Deng</name>
+    </author>
+    <arxiv:doi>10.1103/vb2v-gy4w</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/vb2v-gy4w" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0812.1259v4</id>
+    <title>On the integers of the form $p^2+b^2+2^n$ and $b_1^2+b_2^2+2^{n^2}$</title>
+    <updated>2009-05-24T03:34:07Z</updated>
+    <link href="https://arxiv.org/abs/0812.1259v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0812.1259v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We prove that the sumset {p^2+b^2+2^n: p is prime and b,n\in N} has positive lower density. We also construct a residue class with odd modulo, which contains no integer of the form p^2+b^2+2^n. And similar results are established for the sumset {b_1^2+b_2^2+2^{n^2}: b_1,b_2,n\in N}.</summary>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2008-12-06T04:32:54Z</published>
+    <arxiv:comment>17 pages</arxiv:comment>
+    <arxiv:primary_category term="math.NT"/>
+    <author>
+      <name>Hao Pan</name>
+    </author>
+    <author>
+      <name>Wei Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1407.1826v2</id>
+    <title>A majority of elliptic curves over $\mathbb Q$ satisfy the Birch and Swinnerton-Dyer conjecture</title>
+    <updated>2014-07-17T18:58:28Z</updated>
+    <link href="https://arxiv.org/abs/1407.1826v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1407.1826v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We prove that a majority (in fact, $&gt;66\%$) of all elliptic curves over $\mathbb Q$, when ordered by height, satisfy the Birch and Swinnerton-Dyer rank conjecture.</summary>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-07-07T19:58:29Z</published>
+    <arxiv:comment>Some further details, clarifications, and references added; 17 pages</arxiv:comment>
+    <arxiv:primary_category term="math.NT"/>
+    <author>
+      <name>Manjul Bhargava</name>
+    </author>
+    <author>
+      <name>Christopher Skinner</name>
+    </author>
+    <author>
+      <name>Wei Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1611.00539v1</id>
+    <title>Comparison theorems in pseudo-Hermitian geometry and applications</title>
+    <updated>2016-11-02T10:38:13Z</updated>
+    <link href="https://arxiv.org/abs/1611.00539v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1611.00539v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we study the theory of geodesics with respect to the Tanaka-Webster connection in a pseudo-Hermitian manifold, aiming to generalize some comparison results in Riemannian geometry to the case of pseudo-Hermitian geometry. Some Hopf-Rinow type, Cartan-Hadamard type and Bonnet-Myers type results are established.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-11-02T10:38:13Z</published>
+    <arxiv:comment>23 pages, any comments are welcome</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <author>
+      <name>Yuxin Dong</name>
+    </author>
+    <author>
+      <name>Wei Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0803.3334v1</id>
+    <title>A Monte Carlo study of the triangular lattice gas with the first- and the second-neighbor exclusions</title>
+    <updated>2008-03-23T17:46:27Z</updated>
+    <link href="https://arxiv.org/abs/0803.3334v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0803.3334v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We formulate a Swendsen-Wang-like version of the geometric cluster algorithm. As an application,we study the hard-core lattice gas on the triangular lattice with the first- and the second-neighbor exclusions. The data are analyzed by finite-size scaling, but the possible existence of logarithmic corrections is not considered due to the limited data. We determine the critical chemical potential as $μ_c=1.75682 (2)$ and the critical particle density as $ρ_c=0.180(4)$. The thermal and magnetic exponents $y_t=1.51(1) \approx 3/2$ and $y_h=1.8748 (8) \approx 15/8$, estimated from Binder ratio $Q$ and susceptibility $χ$, strongly support the general belief that the model is in the 4-state Potts universality class. On the other hand, the analyses of energy-like quantities yield the thermal exponent $y_t$ ranging from $1.440(5)$ to $1.470(5)$. These values differ significantly from the expected value 3/2, and thus imply the existence of logarithmic corrections.</summary>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2008-03-23T17:46:27Z</published>
+    <arxiv:comment>4 figures 2 tables</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.stat-mech"/>
+    <arxiv:journal_ref>Phys. Rev. E 78 031103 (2008)</arxiv:journal_ref>
+    <author>
+      <name>Wei Zhang</name>
+    </author>
+    <author>
+      <name>Youjin Deng</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevE.78.031103</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevE.78.031103" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-th/9805037v1</id>
+    <title>On Torsion and Nieh-Yan Form</title>
+    <updated>1998-05-07T11:38:48Z</updated>
+    <link href="https://arxiv.org/abs/hep-th/9805037v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-th/9805037v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Using the well-known Chern-Weil formula and its generalization, we systematically construct the Chern-Simons forms and their generalization induced by torsion as well as the Nieh-Yan (N-Y) forms. We also give an argument on the vanishing of integration of N-Y form on any compact manifold without boundary. A systematic construction of N-Y forms in D=4n dimension is also given.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1998-05-07T11:38:48Z</published>
+    <arxiv:comment>7 pages, latex, no figures</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <arxiv:journal_ref>Commun.Theor.Phys. 32 (1999) 381-386</arxiv:journal_ref>
+    <author>
+      <name>Han-Ying Guo</name>
+    </author>
+    <author>
+      <name>Ke Wu</name>
+    </author>
+    <author>
+      <name>Wei Zhang</name>
+    </author>
+    <arxiv:doi>10.1088/0253-6102/32/3/381</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/0253-6102/32/3/381" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2408.15279v1</id>
+    <title>Global well-posedness of the free boundary problem for incompressible viscous resistive MHD in critical Besov spaces</title>
+    <updated>2024-08-19T04:51:41Z</updated>
+    <link href="https://arxiv.org/abs/2408.15279v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2408.15279v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper aims to establish the global well-posedness of the free boundary problem for the incompressible viscous resistive magnetohydrodynamic (MHD) equations. Under the framework of Lagrangian coordinates, a unique global solution exists in the half-space provided that the norm of the initial data in the critical homogeneous Besov space $\dot{B}_{p, 1}^{-1+N/p}(\mathbb{R}_{+}^N)$ is sufficiently small, where $p \in [N, 2N-1)$. Building upon prior work such as (Danchin and Mucha, J. Funct. Anal. 256 (2009) 881--927) and (Ogawa and Shimizu, J. Differ. Equations 274 (2021) 613--651) in the half-space setting, we establish maximal $L^{1}$-regularity for both the Stokes equations without surface stress and the linearized equations of the magnetic field with zero boundary condition. The existence and uniqueness of solutions to the nonlinear problems are proven using the Banach contraction mapping principle.</summary>
+    <category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-08-19T04:51:41Z</published>
+    <arxiv:comment>28 pages</arxiv:comment>
+    <arxiv:primary_category term="math.AP"/>
+    <author>
+      <name>Wei Zhang</name>
+    </author>
+    <author>
+      <name>Jie Fu</name>
+    </author>
+    <author>
+      <name>Chengchun Hao</name>
+    </author>
+    <author>
+      <name>Siqi Yang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1206.3396v1</id>
+    <title>Skew $N$-Derivations on Semiprime Rings</title>
+    <updated>2012-06-15T08:37:42Z</updated>
+    <link href="https://arxiv.org/abs/1206.3396v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1206.3396v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>For a ring $R$ with an automorphism $σ$, an $n$-additive mapping $Δ:R\times R\times... \times R \rightarrow R$ is called a skew $n$-derivation with respect to $σ$ if it is always a $σ$-derivation of $R$ for each argument. Namely, it is always a $σ$-derivation of $R$ for the argument being left once $n-1$ arguments are fixed by $n-1$ elements in $R$. In this short note, starting from Brešar Theorems, we prove that a skew $n$-derivation ($n\geq 3$) on a semiprime ring $R$ must map into the center of $R$.</summary>
+    <category term="math.RA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-06-15T08:37:42Z</published>
+    <arxiv:comment>8 pages</arxiv:comment>
+    <arxiv:primary_category term="math.RA"/>
+    <author>
+      <name>Xiaowei Xu</name>
+    </author>
+    <author>
+      <name>Yang Liu</name>
+    </author>
+    <author>
+      <name>Wei Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1503.06911v3</id>
+    <title>A Unified Stochastic Hybrid System Approach to Aggregate Modeling of Responsive Loads</title>
+    <updated>2017-08-18T20:52:06Z</updated>
+    <link href="https://arxiv.org/abs/1503.06911v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1503.06911v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Aggregate load modeling is of fundamental importance for systematic analysis and design of various demand response strategies. Instead of keeping track of the trajectories of individual loads, the aggregate modeling problem focuses on characterizing the density evolution of the load population. Most existing models are only applicable to Thermostatically Controlled Loads (TCL) with first-order linear dynamics. This paper develops a unified aggregate modeling approach that can be used for general TCLs as well as deferrable loads. We propose a deterministic hybrid system model to describe individual load dynamics under demand response rules, and develop a general stochastic hybrid system (SHS) model to capture the population dynamics. We also derive a set of partial differential equations (PDE) that governs the probability density evolution of the SHS. Our results cannot be obtained using the exiting SHS tools in the literature as the proposed SHS model involves both random and deterministic switchings with general switching surfaces in multi-dimensional domains. The derived PDE model includes many existing aggregate load modeling results as special cases and can be used in many other realistic modeling scenarios that have not been studied in the literature.</summary>
+    <category term="eess.SY" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.DS" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-03-24T04:43:16Z</published>
+    <arxiv:primary_category term="eess.SY"/>
+    <author>
+      <name>Lin Zhao</name>
+    </author>
+    <author>
+      <name>Wei Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2301.01946v3</id>
+    <title>EPR-Net: Constructing non-equilibrium potential landscape via a variational force projection formulation</title>
+    <updated>2024-04-09T16:34:02Z</updated>
+    <link href="https://arxiv.org/abs/2301.01946v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2301.01946v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present EPR-Net, a novel and effective deep learning approach that tackles a crucial challenge in biophysics: constructing potential landscapes for high-dimensional non-equilibrium steady-state (NESS) systems. EPR-Net leverages a nice mathematical fact that the desired negative potential gradient is simply the orthogonal projection of the driving force of the underlying dynamics in a weighted inner-product space. Remarkably, our loss function has an intimate connection with the steady entropy production rate (EPR), enabling simultaneous landscape construction and EPR estimation. We introduce an enhanced learning strategy for systems with small noise, and extend our framework to include dimensionality reduction and state-dependent diffusion coefficient case in a unified fashion. Comparative evaluations on benchmark problems demonstrate the superior accuracy, effectiveness, and robustness of EPR-Net compared to existing methods. We apply our approach to challenging biophysical problems, such as an 8D limit cycle and a 52D multi-stability problem, which provide accurate solutions and interesting insights on constructed landscapes. With its versatility and power, EPR-Net offers a promising solution for diverse landscape construction problems in biophysics.</summary>
+    <category term="physics.bio-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.comp-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-01-05T07:56:48Z</published>
+    <arxiv:comment>Accepted for publication in National Science Review</arxiv:comment>
+    <arxiv:primary_category term="physics.bio-ph"/>
+    <author>
+      <name>Yue Zhao</name>
+    </author>
+    <author>
+      <name>Wei Zhang</name>
+    </author>
+    <author>
+      <name>Tiejun Li</name>
+    </author>
+    <arxiv:doi>10.1093/nsr/nwae052</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1093/nsr/nwae052" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2107.06040v4</id>
+    <title>The Cauchy Combination Test under Arbitrary Dependence Structures</title>
+    <updated>2022-08-02T14:11:57Z</updated>
+    <link href="https://arxiv.org/abs/2107.06040v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2107.06040v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Aggregating multiple effects is often encountered in large-scale data analysis where the fraction of significant effects is generally small. Many existing methods cannot handle it effectively because of lack of computational accuracy for small p-values. The Cauchy combination test (abbreviated as CCT) ( J Am Statist Assoc, 2020, 115(529):393-402) is a powerful and computational effective test to aggregate individual $p$-values under arbitrary correlation structures. This work revisits CCT and shows three key contributions including that (i) the tail probability of CCT can be well approximated by a standard Cauchy distribution under much more relaxed conditions placed on individual p-values instead of the original test statistics; (ii) the relaxation conditions are shown to be satisfied for many popular copulas formulating bivariate distributions; (iii) the power of CCT is no less than that of the minimum-type test as the number of tests goes to infinity with some regular conditions. These results further broaden the theories and applications of CCT. The simulation results verify the theoretic results and the performance of CCT is further evaluated with data from a prostate cancer study.</summary>
+    <category term="stat.ME" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-07-13T12:50:09Z</published>
+    <arxiv:comment>51 pages, 6 figures</arxiv:comment>
+    <arxiv:primary_category term="stat.ME"/>
+    <author>
+      <name>Mingya Long</name>
+    </author>
+    <author>
+      <name>Zhengbang Li</name>
+    </author>
+    <author>
+      <name>Wei Zhang</name>
+    </author>
+    <author>
+      <name>Qizhai Li</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1508.06351v1</id>
+    <title>Zhu's Algebra of a C1-cofinite Vertex Algebra</title>
+    <updated>2015-08-26T03:06:38Z</updated>
+    <link href="https://arxiv.org/abs/1508.06351v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1508.06351v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>For a C1-cofinite vertex algebra V, we give an efficient way to calculate Zhu's algebra A(V) of V with respect to its C1-generators and relations. We use two examples to explain how this method works.</summary>
+    <category term="math.QA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-08-26T03:06:38Z</published>
+    <arxiv:primary_category term="math.QA"/>
+    <author>
+      <name>Lu Ding</name>
+    </author>
+    <author>
+      <name>Wei Jiang</name>
+    </author>
+    <author>
+      <name>Wei Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1708.05941v1</id>
+    <title>Multi-window dilation-and-modulation frames on the half real line</title>
+    <updated>2017-08-20T08:48:24Z</updated>
+    <link href="https://arxiv.org/abs/1708.05941v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1708.05941v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Wavelet and Gabor systems are based on translation-and-dilation and translation-and-modulation operators, respectively. They have been extensively studied. However, dilation-and-modulation systems have not, and they cannot be derived from wavelet or Gabor systems. In this paper, we investigate a class of dilation-and-modulation systems in the causal signal space $L^{2}(\Bbb R_{+})$. $L^{2}(\Bbb R_{+})$ can be identified a subspace of $L^{2}(\Bbb R)$ consisting of all $L^{2}(\Bbb R)$-functions supported on $\Bbb R_{+}$, and is unclosed under the Fourier transform. So the Fourier transform method does not work in $L^{2}(\Bbb R_{+})$. In this paper, we introduce the notion of $Θ_{a}$-transform in $L^{2}(\Bbb R_{+})$, using $Θ_{a}$-transform we characterize dilation-and-modulation frames and dual frames in $L^{2}(\Bbb R_{+})$; and present an explicit expression of all duals with the same structure for a general dilation-and-modulation frame for $L^{2}(\Bbb R_{+})$. Interestingly, we prove that an arbitrary frame of this form is always nonredundant whenever the number of the generators is $1$, and is always redundant whenever it is greater than $1$. Some examples are also provided to illustrate the generality of our results.</summary>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-08-20T08:48:24Z</published>
+    <arxiv:primary_category term="math.FA"/>
+    <author>
+      <name>Yun-Zhang Li</name>
+    </author>
+    <author>
+      <name>Wei Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/q-bio/0312004v1</id>
+    <title>Diffusion Entropy Approach to Dynamical Characteristics of a Hodgkin-Huxley Neuron</title>
+    <updated>2003-12-01T21:20:46Z</updated>
+    <link href="https://arxiv.org/abs/q-bio/0312004v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/q-bio/0312004v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  By means of the concept DE we analyze the responses of a HH neuron to two types of spike-train inputs. Two characteristic quantities can be extracted, which can reflect partially the dynamical process of a HH neuron.</summary>
+    <category term="q-bio.NC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2003-12-01T21:20:46Z</published>
+    <arxiv:comment>8 figures</arxiv:comment>
+    <arxiv:primary_category term="q-bio.NC"/>
+    <arxiv:journal_ref>Physica A 347(2005)704</arxiv:journal_ref>
+    <author>
+      <name>Huijie Yang</name>
+    </author>
+    <author>
+      <name>Fangcui Zhao</name>
+    </author>
+    <author>
+      <name>Zhongnan Li</name>
+    </author>
+    <author>
+      <name>Wei Zhang</name>
+    </author>
+    <arxiv:doi>10.1016/j.physa.2004.08.017</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.physa.2004.08.017" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2406.07132v1</id>
+    <title>Spanning trees and signless Laplacian spectral radius in graphs</title>
+    <updated>2024-06-11T10:28:11Z</updated>
+    <link href="https://arxiv.org/abs/2406.07132v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2406.07132v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Let $G$ be a connected graph and let $k$ be a positive integer. Let $T$ be a spanning tree of $G$. The leaf degree of a vertex $v\in V(T)$ is defined as the number of leaves adjacent to $v$ in $T$. The leaf degree of $T$ is the maximum leaf degree among all the vertices of $T$. Let $A(G)$ be the adjacency matrix of $G$ and $D(G)$ be the diagonal degree matrix of $G$. Let $Q(G)=D(G)+A(G)$ be the signless Laplacian matrix of $G$. The largest eigenvalue of $Q(G)$, denoted by $q(G)$, is called the signless Laplacian spectral radius of $G$. In this paper, we investigate the connection between the spanning tree and the signless Laplacian spectral radius of $G$, and put forward a sufficient condition based upon the signless Laplacian spectral radius to guarantee that a graph $G$ contains a spanning tree with leaf degree at most $k$. Finally, we construct some extremal graphs to claim all the bounds obtained in this paper are sharp.</summary>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-06-11T10:28:11Z</published>
+    <arxiv:comment>12 pages</arxiv:comment>
+    <arxiv:primary_category term="math.CO"/>
+    <author>
+      <name>Sufang Wang</name>
+    </author>
+    <author>
+      <name>Wei Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2504.04570v1</id>
+    <title>Distributional Control of Ensemble Systems</title>
+    <updated>2025-04-06T18:01:07Z</updated>
+    <link href="https://arxiv.org/abs/2504.04570v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2504.04570v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Ensemble control offers rich and diverse opportunities in mathematical systems theory. In this paper, we present a new paradigm of ensemble control, referred to as distributional control, for ensemble systems. We shift the focus from controlling the states of ensemble systems to controlling the output measures induced by their aggregated measurements. To facilitate systems-theoretic analysis of these newly formulated distributional control challenges, we establish a dynamic moment kernelization approach, through which we derive the distributional system and its corresponding moment system for an ensemble system. We further explore optimal distributional control by integrating optimal transport concepts and techniques with the moment representations, creating a systematic computational distributional control framework.</summary>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.DS" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-04-06T18:01:07Z</published>
+    <arxiv:comment>29 pages, 4 figures</arxiv:comment>
+    <arxiv:primary_category term="math.OC"/>
+    <author>
+      <name>Jr-Shin Li</name>
+    </author>
+    <author>
+      <name>Wei Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2408.03039v2</id>
+    <title>Gaussian Approximations for the $k$th coordinate of sums of random vectors</title>
+    <updated>2026-03-03T11:53:40Z</updated>
+    <link href="https://arxiv.org/abs/2408.03039v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2408.03039v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We consider the problem of Gaussian approximation for the $κ$th coordinate of a sum of high-dimensional random vectors. Such a problem has been studied previously for $κ=1$ (i.e., maxima). However, in many applications, a general $κ\geq1$ is of great interest, which is addressed in this paper. We make four contributions: 1) we first show that the distribution of the $κ$th coordinate of a sum of random vectors, $\boldsymbol{X}= (X_{1},\cdots,X_{p})^{\sf T}= n^{-1/2}\sum_{i=1}^n \boldsymbol{x}_{i}$, can be approximated by that of Gaussian random vectors and derive their Kolmogorov's distributional difference bound; 2) we provide the theoretical justification for estimating the distribution of the $κ$th coordinate of a sum of random vectors using a Gaussian multiplier procedure, which multiplies the original vectors with i.i.d. standard Gaussian random variables; 3) we extend the Gaussian approximation result and Gaussian multiplier bootstrap procedure to a more general case where $κ$ diverges; 4) we further consider the Gaussian approximation for a square sum of the first $d$ largest coordinates of $\boldsymbol{X}$. All these results allow the dimension $p$ of random vectors to be as large as or much larger than the sample size $n$.</summary>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-08-06T08:52:46Z</published>
+    <arxiv:comment>This submission is a duplicate of arXiv:2508.14400. We mistakenly created a new submission instead of a replacement</arxiv:comment>
+    <arxiv:primary_category term="math.ST"/>
+    <author>
+      <name>Yixi Ding</name>
+    </author>
+    <author>
+      <name>Qizhai Li</name>
+    </author>
+    <author>
+      <name>Yuke Shi</name>
+    </author>
+    <author>
+      <name>Wei Zhang</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,355 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/p+cRDCbPIrihOXyX4bWwOfCU4F4</id>
+  <title>arXiv Query: search_query=au:"Giordano Cotti" AND (cat:math.AG OR cat:math.AT OR cat:math.AP OR cat:math.CT OR cat:math.CA OR cat:math.CO OR cat:math.DG OR cat:math.DS OR cat:math.FA OR cat:math.GT OR cat:math.MP OR cat:math.OA OR cat:math.PR OR cat:math.QA OR cat:math.RA OR cat:math.RT OR cat:math.SG OR cat:math.SP OR cat:math.ST OR cat:math.NT OR cat:math.GR OR cat:math.HO OR cat:math-ph OR cat:nlin.SI OR cat:nlin.CD OR cat:hep-th OR cat:q-alg OR cat:dg-ga OR cat:alg-geom OR cat:cond-mat.stat-mech)&amp;id_list=&amp;start=0&amp;max_results=200</title>
+  <updated>2026-05-06T07:27:29Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=au:%22Giordano+Cotti%22+AND+(cat:math.AG+OR+(cat:math.AT+OR+(cat:math.AP+OR+(cat:math.CT+OR+(cat:math.CA+OR+(cat:math.CO+OR+(cat:math.DG+OR+(cat:math.DS+OR+(cat:math.FA+OR+(cat:math.GT+OR+(cat:math.MP+OR+(cat:math.OA+OR+(cat:math.PR+OR+(cat:math.QA+OR+(cat:math.RA+OR+(cat:math.RT+OR+(cat:math.SG+OR+(cat:math.SP+OR+(cat:math.ST+OR+(cat:math.NT+OR+(cat:math.GR+OR+(cat:math.HO+OR+(cat:math-ph+OR+(cat:nlin.SI+OR+(cat:nlin.CD+OR+(cat:hep-th+OR+(cat:q-alg+OR+(cat:dg-ga+OR+(cat:alg-geom+OR+cat:cond-mat.stat-mech)))))))))))))))))))))))))))))&amp;start=0&amp;max_results=200&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>200</opensearch:itemsPerPage>
+  <opensearch:totalResults>16</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1712.08575v3</id>
+    <title>Local Moduli of Semisimple Frobenius Coalescent Structures</title>
+    <updated>2020-05-07T09:54:20Z</updated>
+    <link href="https://arxiv.org/abs/1712.08575v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1712.08575v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We extend the analytic theory of Frobenius manifolds to semisimple points with coalescing eigenvalues of the operator of multiplication by the Euler vector field. We clarify which freedoms, ambiguities and mutual constraints are allowed in the definition of monodromy data, in view of their importance for conjectural relationships between Frobenius manifolds and derived categories. Detailed examples and applications are taken from singularity and quantum cohomology theories. We explicitly compute the monodromy data at points of the Maxwell Stratum of the A3-Frobenius manifold, as well as at the small quantum cohomology of the Grassmannian G(2,4). In the latter case, we analyse in details the action of the braid group on the monodromy data. This proves that these data can be expressed in terms of characteristic classes of mutations of Kapranov's exceptional 5-block collection, as conjectured by one of the authors.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-12-22T16:59:17Z</published>
+    <arxiv:comment>105 pages</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <arxiv:journal_ref>SIGMA 16 (2020), 040, 105 pages</arxiv:journal_ref>
+    <author>
+      <name>Giordano Cotti</name>
+    </author>
+    <author>
+      <name>Boris Dubrovin</name>
+    </author>
+    <author>
+      <name>Davide Guzzetti</name>
+    </author>
+    <arxiv:doi>10.3842/SIGMA.2020.040</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.3842/SIGMA.2020.040" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1811.09235v2</id>
+    <title>Helix Structures in Quantum Cohomology of Fano Varieties</title>
+    <updated>2019-05-08T12:43:19Z</updated>
+    <link href="https://arxiv.org/abs/1811.09235v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1811.09235v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper we consider a conjecture formulated by the second author in occasion of the 1998 ICM in Berlin (arXiv:math/9807034v2). This conjecture states the equivalence, for a Fano variety $X$, of the semisimplicity condition for the quantum cohomology $QH^\bullet(X)$ with the existence condition of full exceptional collections in the derived category of coherent sheaves $\mathcal D^b(X)$. Furthermore, in its quantitative formulation, the conjecture also prescribes an explicit relationship between the monodromy data of $QH^\bullet(X)$ and characteristic classes of both $X$ and objects of the exceptional collections. In this paper we reformulate a refinement of (arXiv:math/9807034v2), which corrects a previous ansatz (lecture of the second author at Strasbourg) for what concerns the conjectural expression of the central connection matrix. We clarify the precise relationship between the refined conjecture presented in this paper and $Γ$-conjecture II of S. Galkin, V. Golyshev and H. Iritani (arXiv:1404.6407v4, arXiv:1508.00719v3). Through an explicit computation of the monodromy data and a detailed analysis of the action of the braid group on both the monodromy data and the set of exceptional collections, we prove the validity of our refined conjecture for all complex Grassmannians $\mathbb G(r,k)$. From these results, it is outlined an explicit description of the "geography" of the exceptional collections realizable at points of the small quantum cohomology of Grassmannians, i.e. corresponding to the monodromy data at these points. In particular, it is proved that Kapranov's exceptional collection appears at points of the small quantum cohomology only for Grassmannians of small dimension (namely, less or equal than 2). Finally, a property of quasi-periodicity of the Stokes matrices of complex Grassmannians, along the locus of the small quantum cohomology, is described.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-11-22T16:49:04Z</published>
+    <arxiv:comment>149 pages, 6 figures; corrected typos, added references</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <author>
+      <name>Giordano Cotti</name>
+    </author>
+    <author>
+      <name>Boris Dubrovin</name>
+    </author>
+    <author>
+      <name>Davide Guzzetti</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2006.11753v4</id>
+    <title>The $*$-Markov equation for Laurent polynomials</title>
+    <updated>2020-12-07T10:11:01Z</updated>
+    <link href="https://arxiv.org/abs/2006.11753v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2006.11753v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We consider the $*$-Markov equation for the symmetric Laurent polynomials in three variables with integer coefficients, which is an equivariant analog of the classical Markov equation for integers. We study how the properties of the Markov equation and its solutions are reflected in the properties of the $*$-Markov equation and its solutions.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-06-21T10:13:47Z</published>
+    <arxiv:comment>68 pages, 11 figures; corrected typos, added references; v4: Introduction extended, references added</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <author>
+      <name>Giordano Cotti</name>
+    </author>
+    <author>
+      <name>Alexander Varchenko</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1608.06868v2</id>
+    <title>Coalescence Phenomenon of Quantum Cohomology of Grassmannians and the Distribution of Prime Numbers</title>
+    <updated>2016-09-21T16:07:04Z</updated>
+    <link href="https://arxiv.org/abs/1608.06868v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1608.06868v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The occurrence and frequency of a phenomenon of resonance (namely the coalescence of some Dubrovin canonical coordinates) in the locus of Small Quantum Cohomology of complex Grassmannians is studied. It is shown that surprisingly this frequency is strictly subordinate and highly influenced by the distribution of prime numbers. Two equivalent formulations of the Riemann Hypothesis are given in terms of numbers of complex Grassmannians without coalescence: the former as a constraint on the disposition of singularities of the analytic continuation of the Dirichlet series associated to the sequence counting non-coalescing Grassmannians, the latter as asymptotic estimate (whose error term cannot be improved) for their distribution function.</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-08-24T15:41:49Z</published>
+    <arxiv:comment>26 pages, 1 figure; corrected typos, added references</arxiv:comment>
+    <arxiv:primary_category term="math-ph"/>
+    <arxiv:journal_ref>Int. Math. Res. Not. 2020</arxiv:journal_ref>
+    <author>
+      <name>Giordano Cotti</name>
+    </author>
+    <arxiv:doi>10.1093/imrn/rnaa163</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1093/imrn/rnaa163" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2005.08262v2</id>
+    <title>Cyclic stratum of Frobenius manifolds, Borel-Laplace $(\boldsymbolα,\boldsymbolβ)$-multitransforms, and integral representations of solutions of Quantum Differential Equations</title>
+    <updated>2024-10-02T11:00:22Z</updated>
+    <link href="https://arxiv.org/abs/2005.08262v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2005.08262v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In the first part of this paper, we introduce the notion of "cyclic stratum" of a Frobenius manifold $M$. This is the set of points of the extended manifold $\mathbb C^*\times M$ at which the unit vector field is a cyclic vector for the isomonodromic system defined by the flatness condition of the extended deformed connection. The study of the geometry of the complement of the cyclic stratum is addressed. We show that at points of the cyclic stratum, the isomonodromic system attached to $M$ can be reduced to a scalar differential equation, called the "master differential equation" of $M$. In the case of Frobenius manifolds coming from Gromov-Witten theory, namely quantum cohomologies of smooth projective varieties, such a construction reproduces the notion of quantum differential equation.
+  In the second part of the paper, we introduce two multilinear transforms, called "Borel-Laplace $(\boldsymbol α,\boldsymbolβ)$-multitransforms", on spaces of Ribenboim formal power series with exponents and coefficients in an arbitrary finite dimensional $\mathbb C$-algebra $A$. When $A$ is specialized to the cohomology of smooth projective varieties, the integral forms of the Borel-Laplace $(\boldsymbol α,\boldsymbolβ)$-multitransforms are used in order to rephrase the Quantum Lefschetz Theorem. This leads to explicit Mellin-Barnes integral representations of solutions of the quantum differential equations for a wide class of smooth projective varieties, including Fano complete intersections in projective spaces.
+  In the third and final part of the paper, as an application, we show how to use the new analytic tools, introduced in the previous parts, in order to study the quantum differential equations of Hirzebruch surfaces. This finally leads to the proof of Dubrovin Conjecture for all Hirzebruch surfaces.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-05-17T14:24:36Z</published>
+    <arxiv:comment>102 pages, 5 figures; final version, several typos corrected</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <arxiv:journal_ref>Memoirs of the EMS, Vol. II, 2022</arxiv:journal_ref>
+    <author>
+      <name>Giordano Cotti</name>
+    </author>
+    <arxiv:doi>10.4171/MEMS/2</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.4171/MEMS/2" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2210.05445v2</id>
+    <title>Borel $(α,β)$-multitransforms and Quantum Leray-Hirsch: integral representations of solutions of quantum differential equations for $\mathbb P^1$-bundles</title>
+    <updated>2024-10-02T14:30:14Z</updated>
+    <link href="https://arxiv.org/abs/2210.05445v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2210.05445v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we address the integration problem of the isomonodromic system of quantum differential equations ($qDE$s) associated with the quantum cohomology of $\mathbb P^1$-bundles on Fano varieties. It is shown that bases of solutions of the $qDE$ of the total space of the $\mathbb P^1$-bundle can be reconstructed from the datum of bases of solutions of the corresponding $qDE$ associated with the base space. This represents a quantum analog of the classical Leray-Hirsch theorem in the context of the isomonodromic approach to quantum cohomology. The reconstruction procedure of the solutions can be performed in terms of some integral transforms, introduced in arXiv:2005.08262, called $Borel$ $(α,β)$-$multitransf\!orms$. We emphasize the emergence, in the explicit integral formulas, of an interesting sequence of special functions (closely related to iterated partial derivatives of the Böhmer-Tricomi incomplete Gamma function) as integral kernels. Remarkably, these integral kernels have a universal feature, being independent of the specifically chosen $\mathbb P^1$-bundle. When applied to projective bundles on products of projective spaces, our results give Mellin-Barnes integral representations of solutions of $qDE$s. As an example, we show how to integrate the $qDE$ of blow-up of $\mathbb P^2$ at one point via Borel multitransforms of solutions of the $qDE$ of $\mathbb P^1$.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-10-11T13:41:37Z</published>
+    <arxiv:comment>37 pages, 1 figure; v2: final version</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <arxiv:journal_ref>Journal de Mathématiques Pures et Appliquées, Volume 183, March 2024, Pages 102-136</arxiv:journal_ref>
+    <author>
+      <name>Giordano Cotti</name>
+    </author>
+    <arxiv:doi>10.1016/j.matpur.2024.01.003</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.matpur.2024.01.003" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2112.14577v2</id>
+    <title>On the universality of integrable deformations of solutions of degenerate Riemann-Hilbert-Birkhoff problems</title>
+    <updated>2024-10-02T14:18:21Z</updated>
+    <link href="https://arxiv.org/abs/2112.14577v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2112.14577v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper addresses the classification problem of integrable deformations of solutions of "degenerate" Riemann-Hilbert-Birkhoff (RHB) problems. These consist of those RHB problems whose initial datum has diagonal pole part with coalescing eigenvalues. On the one hand, according to theorems of B.Malgrange, M.Jimbo, T.Miwa, and K.Ueno, in the non-degenerate case, there exists a universal integrable deformation inducing (via a unique map) all other deformations. On the other hand, in the degenerate case, C.Sabbah proved (arXiv:1711.08514v4), under sharp conditions, the existence of an integrable deformation of solutions, sharing many properties of the one constructed by Malgrange-Jimbo-Miwa-Ueno. Albeit the integrable deformation constructed by Sabbah is not, stricto sensu, universal, we prove that it satisfies a $relative$ universal property. We show the existence and uniqueness of a maximal class of integrable deformations all induced (via a unique map) by Sabbah's integrable deformation. Furthermore, we show that such a class is large enough to include all generic integrable deformations whose pole and deformation parts are locally holomorphically diagonalizable. In itinere, we also obtain a characterization of holomorphic matrix-valued maps which are locally holomorphically Jordanizable. This extends, to the case of several complex variables, already known results independently obtained by Ph.G.A.Thijsse and W.Wasow.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-12-29T14:36:36Z</published>
+    <arxiv:comment>52 pages, 1 figure; v2: final version</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <arxiv:journal_ref>Reviews in Mathematical Physics, 2024</arxiv:journal_ref>
+    <author>
+      <name>Giordano Cotti</name>
+    </author>
+    <arxiv:doi>10.1142/S0129055X24500417</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1142/S0129055X24500417" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2105.06329v2</id>
+    <title>Riemann-Hilbert-Birkhoff inverse problem for semisimple flat $F$-manifolds, and convergence of oriented associativity potentials</title>
+    <updated>2024-10-02T14:04:33Z</updated>
+    <link href="https://arxiv.org/abs/2105.06329v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2105.06329v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we address the problem of classification of quasi-homogeneous formal power series providing solutions of the oriented associativity equations. Such a classification is performed by introducing a system of monodromy local moduli on the space of formal germs of homogeneous semisimple flat $F$-manifolds. This system of local moduli is well-defined on the complement of the "strictly doubly resonant" locus, namely a locus of formal germs of flat $F$-manifolds manifesting both coalescences of canonical coordinates at the origin, and resonances of their "conformal dimensions". It is shown how the solutions of the oriented associativity equations can be reconstructed from the knowledge of the monodromy local moduli via a Riemann-Hilbert-Birkhoff boundary value problem. Furthermore, standing on results of B.Malgrange and C.Sabbah, it is proved that any formal homogeneous semisimple flat $F$-manifold, which is not strictly doubly resonant, is actually convergent. Our semisimplicity criterion for convergence is also reformulated in terms of solutions of Losev-Manin commutativity equations, growth estimates of correlators of $F$-cohomological field theories, and solutions of open Witten-Dijkgraaf-Verlinde-Verlinde equations.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-05-13T14:32:37Z</published>
+    <arxiv:comment>68 pages, 6 figures; v2: final version</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <arxiv:journal_ref>Journal of the London Math. Soc., Volume 109(1), 2024</arxiv:journal_ref>
+    <author>
+      <name>Giordano Cotti</name>
+    </author>
+    <arxiv:doi>10.1112/jlms.12860</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1112/jlms.12860" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2510.05500v1</id>
+    <title>Fiberwise Gromov-Witten theory, quantum spectra of flag bundles, and prime factorization of integers</title>
+    <updated>2025-10-07T01:36:32Z</updated>
+    <link href="https://arxiv.org/abs/2510.05500v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.05500v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This work investigates the vertical quantum cohomology and quantum spectra of flag bundles, uncovering new links between the Gromov-Witten theory of homogeneous fibrations and analytic number theory. Building on previous constructions by Astashkevich and Sadov (arXiv:hep-th/9401103) and by Biswas, Das, Oh, and Paul (arXiv:2408.06616), we establish functorial and inductive properties of vertical quantum cohomology, and relate the vertical and absolute quantum spectra. We show that the degeneracy of the small vertical quantum spectrum of a Grassmann bundle - namely, the appearance of eigenvalues with unexpectedly high multiplicities - is controlled by the prime factorization of the involved ranks. This extends earlier results for Grassmannians to the relative setting and applies, in particular, to partial flag varieties viewed as total spaces of Grassmann bundles.
+  We then introduce three families of double sequences that classify partial flag varieties according to distinct quantum spectral and combinatorial features. Their recursive and arithmetic behavior is studied through ordinary and Dirichlet generating functions. One of these sequences satisfies a Pascal-type recursion, allowing a precise analysis of its partial Dirichlet series, whose analytic continuation exhibits logarithmic singularities determined by the nontrivial zeros of the Riemann zeta function. Moreover, for any fixed integer shift, the diagonal subsequences display eventual polynomial behavior, which admits a natural interpretation in terms of weighted walks on graphs. Finally, we examine the vanishing pattern of one of these sequences and derive equivalent formulations of Goldbach's conjecture.
+  Overall, the paper reveals a rich correspondence between enumerative geometry, quantum spectral degeneracy, and classical problems in prime number theory.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-07T01:36:32Z</published>
+    <arxiv:comment>83 pages</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <author>
+      <name>Giordano Cotti</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1911.11047v1</id>
+    <title>Quantum differential equations and helices</title>
+    <updated>2019-11-25T16:58:02Z</updated>
+    <link href="https://arxiv.org/abs/1911.11047v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1911.11047v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>These notes partly touch the topic of the talk given by the author at the XXXVIII Workshop on Geometric Methods in Physics, hold in June-July 2019 in Białowieża, Poland. They consist of a short and self-contained introduction to the isomonodromic approach to quantum cohomology, and Dubrovin's conjecture. An overview of recent results obtained in joint works with B. Dubrovin and D. Guzzetti (arXiv:1811.09235), and A. Varchenko (arXiv:1909.06582) is given.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-11-25T16:58:02Z</published>
+    <arxiv:comment>20 pages</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <arxiv:journal_ref>Geometric Methods in Physics XXXVIII. Trends in Mathematics. Birkhäuser, 2020</arxiv:journal_ref>
+    <author>
+      <name>Giordano Cotti</name>
+    </author>
+    <arxiv:doi>10.1007/978-3-030-53305-2_3</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/978-3-030-53305-2_3" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1909.06582v3</id>
+    <title>Equivariant quantum differential equation and $qKZ$ equations for a projective space: Stokes bases as exceptional collections, Stokes matrices as Gram matrices, and B-Theorem</title>
+    <updated>2020-07-24T09:02:20Z</updated>
+    <link href="https://arxiv.org/abs/1909.06582v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1909.06582v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In arXiv:1901.02990v1 the equivariant quantum differential equation ($qDE$) for a projective space was considered and a compatible system of difference $qKZ$ equations was introduced; the space of solutions to the joint system of the $qDE$ and $qKZ$ equations was identified with the space of the equivariant $K$-theory algebra of the projective space; Stokes bases in the space of solutions were identified with exceptional bases in the equivariant $K$-theory algebra. This paper is a continuation of arXiv:1901.02990v1.
+  We describe the relation between solutions to the joint system of the $qDE$ and $qKZ$ equations and the topological-enumerative solution to the $qDE$ only, defined as a generating function of equivariant descendant Gromov-Witten invariants. The relation is in terms of the equivariant graded Chern character on the equivariant $K$-theory algebra, the equivariant Gamma class of the projective space, and the equivariant first Chern class of the tangent bundle of the projective space.
+  We consider a Stokes basis, the associated exceptional basis in the equivariant $K$-theory algebra, and the associated Stokes matrix. We show that the Stokes matrix equals the Gram matrix of the equivariant Grothendieck-Euler-Poincaré pairing wrt to the basis, which is the left dual to the associated exceptional basis.
+  We identify the Stokes bases in the space of solutions with explicit full exceptional collections in the equivariant derived category of coherent sheaves on the projective space, where the elements of those exceptional collections are just line bundles on the projective space and exterior powers of the tangent bundle of the projective space.
+  These statements are equivariant analogs of results of G. Cotti, B. Dubrovin, D. Guzzetti, and S. Galkin, V. Golyshev, H. Iritani.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.QA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-09-14T11:33:51Z</published>
+    <arxiv:comment>73 pages, 5 figures; typos corrected</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <author>
+      <name>Giordano Cotti</name>
+    </author>
+    <author>
+      <name>Alexander Varchenko</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2011.04498v4</id>
+    <title>Degenerate Riemann-Hilbert-Birkhoff problems, semisimplicity, and convergence of WDVV-potentials</title>
+    <updated>2024-10-02T13:49:38Z</updated>
+    <link href="https://arxiv.org/abs/2011.04498v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2011.04498v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In the first part of this paper, we give a new analytical proof of a theorem of C. Sabbah on integrable deformations of meromorphic connections on $\mathbb P^1$ with coalescing irregular singularities of Poincaré rank 1, and generalizing a previous result of B. Malgrange. In the second part of this paper, as an application, we prove that any semisimple formal Frobenius manifold (over $\mathbb C$), with unit and Euler field, is the completion of an analytic pointed germ of a Dubrovin-Frobenius manifold. In other words, any formal power series, which provides a quasi-homogenous solution of WDVV equations and defines a semisimple Frobenius algebra at the origin, is actually convergent under no further tameness assumptions.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-11-09T15:28:48Z</published>
+    <arxiv:comment>38 pages, 2 figures; v2. corrected typos, more detailed proof of Lemma 5.18; v3. corrected typos; v4. final version</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <arxiv:journal_ref>Letters in Mathematical Physics (2021) 111:99</arxiv:journal_ref>
+    <author>
+      <name>Giordano Cotti</name>
+    </author>
+    <arxiv:doi>10.1007/s11005-021-01427-9</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s11005-021-01427-9" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2310.19739v2</id>
+    <title>Asymptotic solutions for linear ODEs with not-necessarily meromorphic coefficients: a Levinson type theorem on complex domains, and applications</title>
+    <updated>2025-03-31T14:54:19Z</updated>
+    <link href="https://arxiv.org/abs/2310.19739v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2310.19739v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we consider systems of linear ordinary differential equations, with analytic coefficients on big sectorial domains, which are asymptotically diagonal for large values of $|z|$. Inspired by N. Levinson's work [Lev48], we introduce two conditions on the dominant diagonal term (the $L$-$condition$) and on the perturbation term (the $good\,\,decay\,\,condition$) of the coefficients of the system, respectively. Under these conditions, we show the existence and uniqueness, on big sectorial domains, of an $asymptotic$ fundamental matrix solution, i.e. asymptotically equivalent (for large $|z|$) to a fundamental system of solutions of the unperturbed diagonal system. Moreover, a refinement (in the case of subdominant solutions) and a generalization (in the case of systems depending on parameters) of this result are given.
+  As a first application, we address the study of a class of ODEs with not-necessarily meromorphic coefficients. We provide sufficient conditions on the coefficients ensuring the existence and uniqueness of an asymptotic fundamental system of solutions, and we give an explicit description of the maximal sectors of validity for such an asymptotics. Furthermore, we also focus on distinguished examples in this class of ODEs arising in the context of open conjectures in Mathematical Physics relating Integrable Quantum Field Theories and affine opers ($ODE/IM\,\,correspondence$). Our results fill two significant gaps in the mathematical literature pertaining to these conjectural relations.
+  As a second application, we consider the classical case of ODEs with meromorphic coefficients. Under an $adequateness$ condition on the coefficients, we show that our results reproduce (with a shorter proof) the main asymptotic existence theorems of Y. Sibuya [Sib62, Sib68] and W. Wasow [Was65] in their optimal refinements.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-10-30T17:04:30Z</published>
+    <arxiv:comment>43 pages, 7 figures</arxiv:comment>
+    <arxiv:primary_category term="math.CA"/>
+    <arxiv:journal_ref>Journal of Differential Equations 428 (2025): 1-58</arxiv:journal_ref>
+    <author>
+      <name>Giordano Cotti</name>
+    </author>
+    <author>
+      <name>Davide Guzzetti</name>
+    </author>
+    <author>
+      <name>Davide Masoero</name>
+    </author>
+    <arxiv:doi>10.1016/j.jde.2025.01.085</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.jde.2025.01.085" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2506.18033v1</id>
+    <title>Generalized Mittag-Leffler functions, Borel-Laplace multitransforms, and quantum differential equations of Fano varieties</title>
+    <updated>2025-06-22T13:31:28Z</updated>
+    <link href="https://arxiv.org/abs/2506.18033v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2506.18033v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper addresses the integration problem for the isomonodromic system of quantum differential equations associated with smooth projective Fano varieties. We begin by introducing a class of multivariable, multivalued analytic functions of Mittag-Leffler type. We study their analytic properties and provide explicit Mellin-Barnes integral representations. For any smooth Fano toric variety, we prove that suitable integral linear combinations of these generalized Mittag-Leffler functions and their derivatives form bases of solutions for the corresponding quantum differential equation. In the second part of the paper, we introduce two families of integral transforms -- referred to as Borel-Laplace multitransforms -- acting on tuples of functions. We show that the Laplace multitransform enables the reconstruction of the full solution space of the quantum differential equations for Fano complete intersections, starting from a basis of solutions associated with the ambient Fano variety. Dually, the Borel multitransform reconstructs the solution space for the quantum differential equations of Fano projective bundles of arbitrary rank from that of the base variety. These results both systematize and generalize the research directions initiated in arXiv:2005.08262 and arXiv:2210.05445. Applications include explicit examples involving Fano toric complete intersections, Fano bundles on toric varieties, and low-dimensional Fano varieties such as strict del Pezzo surfaces.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-06-22T13:31:28Z</published>
+    <arxiv:comment>50 pages, 1 figure</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <author>
+      <name>Giordano Cotti</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1706.04808v1</id>
+    <title>Isomonodromy Deformations at an Irregular Singularity with Coalescing Eigenvalues</title>
+    <updated>2017-06-15T10:28:40Z</updated>
+    <link href="https://arxiv.org/abs/1706.04808v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1706.04808v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We consider an $n\times n$ linear system of ODEs with an irregular singularity of Poincaré rank 1 at $z=\infty$, holomorphically depending on parameter $t$ within a polydisc in $\mathbb{C}^n$ centred at $t=0$. The eigenvalues of the leading matrix at $z=\infty$ coalesce along a locus $Δ$ contained in the polydisc, passing through $t=0$. Namely, $z=\infty$ is a resonant irregular singularity for $t\in Δ$. We analyse the case when the leading matrix remains diagonalisable at $Δ$. We discuss the existence of fundamental matrix solutions, their asymptotics, Stokes phenomenon and monodromy data as $t$ varies in the polydisc, and their limits for $t$ tending to points of $Δ$. When the deformation is isomonodromic away from $Δ$, it is well known that a fundamental matrix solution has singularities at $Δ$. When the system also has a Fuchsian singularity at $z=0$, we show under minimal vanishing conditions on the residue matrix at $z=0$ that isomonodromic deformations can be extended to the whole polydisc, including $Δ$, in such a way that the fundamental matrix solutions and the constant monodromy data are well defined in the whole polydisc. These data can be computed just by considering the system at fixed $t=0$. Conversely, if the $t$-dependent system is isomonodromic in a small domain contained in the polydisc not intersecting $Δ$, if the entries of the Stokes matrices with indices corresponding to coalescing eigenvalues vanish, then we show that $Δ$ is not a branching locus for the fundamental matrix solutions. The importance of these results for the analytic theory of Frobenius Manifolds is explained. An application to Painlevé equations is discussed.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-06-15T10:28:40Z</published>
+    <arxiv:comment>84 pages, 41 figures</arxiv:comment>
+    <arxiv:primary_category term="math.CA"/>
+    <arxiv:journal_ref>Duke Math. J. 168, no. 6 (2019), 967-1108</arxiv:journal_ref>
+    <author>
+      <name>Giordano Cotti</name>
+    </author>
+    <author>
+      <name>Boris Dubrovin</name>
+    </author>
+    <author>
+      <name>Davide Guzzetti</name>
+    </author>
+    <arxiv:doi>10.1215/00127094-2018-0059</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1215/00127094-2018-0059" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2409.09657v1</id>
+    <title>On the Satake correspondence for the equivariant quantum differential equations and qKZ difference equations of Grassmannians</title>
+    <updated>2024-09-15T08:07:35Z</updated>
+    <link href="https://arxiv.org/abs/2409.09657v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2409.09657v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We consider the joint system of equivariant quantum differential equations (qDE) and qKZ difference equations for the Grassmannian $G(k,n)$, which parametrizes $k$-dimensional subspaces of $\mathbb{C}^n$. First, we establish a connection between this joint system for $G(k,n)$ and the corresponding system for the projective space $\mathbb{P}^{n-1}$. Specifically, we show that, under suitable \textit{Satake identifications} of the equivariant cohomologies of $G(k,n)$ and $\mathbb{P}^{n-1}$, the joint system for $G(k,n)$ is gauge equivalent to a differential-difference system on the $k$-th exterior power of the cohomology of $\mathbb{P}^{n-1}$.
+  Secondly, we demonstrate that the \textcyr{B}-theorem for Grassmannians, as stated in arXiv:1909.06582, arXiv:2203.03039, is compatible with the Satake identification. This implies that the \textcyr{B}-theorem for $\mathbb{P}^{n-1}$ extends to $G(k,n)$ through the Satake identification. As a consequence, we derive determinantal formulas and new integral representations for multi-dimensional hypergeometric solutions of the joint qDE and qKZ system for $G(k,n)$.
+  Finally, we analyze the Stokes phenomenon for the joint system of qDE and qKZ equations associated with $G(k,n)$. We prove that the Stokes bases of solutions correspond to explicit $K$-theoretical classes of full exceptional collections in the derived category of equivariant coherent sheaves on $G(k,n)$. Furthermore, we show that the Stokes matrices equal the Gram matrices of the equivariant Euler-Poincaré-Grothendieck pairing with respect to these exceptional $K$-theoretical bases.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-09-15T08:07:35Z</published>
+    <arxiv:comment>81 pages</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <author>
+      <name>Giordano Cotti</name>
+    </author>
+    <author>
+      <name>Alexander Varchenko</name>
+    </author>
+  </entry>
+</feed>
