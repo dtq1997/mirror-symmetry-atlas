@@ -1,0 +1,159 @@
+slug: zhao-qiulan
+name:
+  en: Qiulan Zhao
+  zh: 赵秋兰
+born: null
+died: null
+nationality: Chinese
+gender: female
+photo_url: null
+career_timeline:
+  - period: "2012-2015"
+    type: education
+    institution: sdust
+    role: "博士"
+    notes: "山东科技大学信息与电气工程学院，控制理论与控制工程专业 [博士导师待补充]"
+  - period: "[?]-present"
+    type: position
+    institution: sdust
+    role: "副教授 / 硕士生导师"
+    notes: "数学与系统科学学院。具体晋升年份[待补充]"
+research_areas:
+  - integrable-systems
+  - soliton-theory
+  - frobenius-manifolds
+  - darboux-transformation
+identity_profile:
+  openalex_id: 'A5013834292'
+  affiliations:
+    - institution: 'sdust'
+      period: '2012-2015'
+      role: '博士'
+    - institution: 'sdust'
+      period: '[?]-present'
+      role: '副教授'
+  email_domains: [sdust.edu.cn]
+  coauthor_circle_core_slugs: [qu-haonan]
+  coauthor_circle_core_names: ['Haonan Qu', 'Xinyue Li']
+  coauthor_circle_extended_names: ['Xinyue Li', 'Yuxia Li', 'Huanhe Dong', 'Xi-Xiang Xu', 'Chuanzhong Li', 'Caixue Li', 'Huijie Song']
+  research_keywords: [integrable, soliton, darboux, frobenius]
+  known_arxiv_ids:
+    - '2510.04151'
+    - '2401.14795'
+advisor: null
+students: []
+key_collaborators:
+  - person: qu-haonan
+    since: 2025
+    topic: "Frobenius manifolds, 2D-Toda hierarchy reductions"
+    papers_count: 1
+publications:
+  - id: '2510.04151'
+    title: 'Asymmetric rational reductions of 2D-Toda hierarchy and a generalized Frobenius manifold'
+    year: 2025
+    coauthors: [qu-haonan]
+    primary_category: nlin.SI
+    sources: [arxiv]
+  - id: '2401.14795'
+    title: 'Generalization of nonlocally related partial differential equation systems: unknown symmetries from known ones'
+    year: 2024
+    coauthors: ['Huanjin Wang', 'Xinyue Li']
+    primary_category: math-ph
+    sources: [arxiv]
+  - id: 'doi:10.1016/j.physd.2025.134711'
+    title: 'Application of tetragonal curves theory to the 4-field Błaszak–Marciniak lattice hierarchy'
+    year: 2025
+    coauthors: ['Caixue Li', 'Xinyue Li']
+    doi: '10.1016/j.physd.2025.134711'
+    journal: 'Physica D: Nonlinear Phenomena'
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1016/j.physd.2023.133795'
+    title: 'Quasi-periodic solutions of a discrete integrable equation with a finite-dimensional integrable system'
+    year: 2023
+    coauthors: ['Caixue Li', 'Xinyue Li']
+    doi: '10.1016/j.physd.2023.133795'
+    journal: 'Physica D: Nonlinear Phenomena'
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1016/j.physd.2023.133706'
+    title: 'Interaction structures of multi localized waves within the Kadomtsev–Petviashvili I equation'
+    year: 2023
+    coauthors: ['Guangfu Han', 'Xinyue Li', 'Chuanzhong Li']
+    doi: '10.1016/j.physd.2023.133706'
+    journal: 'Physica D: Nonlinear Phenomena'
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1007/s44198-023-00132-6'
+    title: 'Application of the trigonal curve to a hierarchy of generalized Toda lattices'
+    year: 2023
+    coauthors: ['Caixue Li', 'Xinyue Li']
+    doi: '10.1007/s44198-023-00132-6'
+    journal: 'Theoretical and Mathematical Physics'
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1007/s10440-022-00524-8'
+    title: 'Multi-Component Coupled Fokas–Lenells Equations and Their Localized Wave Solutions'
+    year: 2022
+    coauthors: ['Huijie Song', 'Xinyue Li']
+    doi: '10.1007/s10440-022-00524-8'
+    journal: 'Acta Applicandae Mathematicae'
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1016/j.cnsns.2022.106726'
+    title: 'Higher-order rogue wave solutions of the (2+1)-dimensional Fokas–Lenells equation'
+    year: 2022
+    coauthors: ['Huijie Song', 'Xinyue Li']
+    doi: '10.1016/j.cnsns.2022.106726'
+    journal: 'Wave Motion'
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1063/1.4906533'
+    title: 'A super-discrete variational identity and its application for constructing super-discrete Hamiltonian systems'
+    year: 2015
+    coauthors: ['Xinyue Li', 'Yuxia Li', 'Huanhe Dong']
+    doi: '10.1063/1.4906533'
+    journal: 'Journal of Mathematical Physics'
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1016/j.geomphys.2017.04.018'
+    title: 'A new integrable symplectic map by the binary nonlinearization to the super AKNS system'
+    year: 2017
+    coauthors: ['Xinyue Li']
+    doi: '10.1016/j.geomphys.2017.04.018'
+    journal: 'Journal of Geometry and Physics'
+    sources: [openalex]
+    no_arxiv: true
+  - id: 'doi:10.1007/s13324-014-0093-x'
+    title: 'A Bargmann system and the involutive solutions associated with a new 4-order lattice hierarchy'
+    year: 2015
+    coauthors: ['Xinyue Li']
+    doi: '10.1007/s13324-014-0093-x'
+    journal: 'Analysis and Mathematical Physics'
+    sources: [openalex]
+    no_arxiv: true
+activity:
+  total_papers: 80
+  active_period: '2008-present'
+  quality_source: 'openalex'
+external_ids:
+  openalex: A5013834292
+links:
+  homepage: 'https://sxy.sdust.edu.cn/info/1076/3199.htm'
+personal_notes: |
+  山东邹平人。山东科技大学数学与系统科学学院副教授、硕士生导师。
+  研究方向：孤子理论、可积系统、数学物理。长期与同院李新跃合作 (20+ 篇)，
+  研究脉络以离散可积系统、Darboux 变换、Bargmann 约束、代数几何解为主。
+  2025 年与北大曲昊男合作发表 2D-Toda 有理约化与广义 Frobenius 流形论文
+  (arXiv:2510.04151)，由此与清华张友金-刘思齐 Frobenius 流形/可积层级
+  研究组建立直接学术联系，常出现在该组讨论班。
+  导师及晋升副教授时间[待补充]，建议从 sdust 学院页面或档案进一步确认。
+sources:
+  - label: '山东科技大学数学与系统科学学院主页'
+    url: 'https://sxy.sdust.edu.cn/info/1076/3199.htm'
+  - label: 'arXiv 2510.04151 (with Haonan Qu)'
+    url: 'https://arxiv.org/abs/2510.04151'
+tags:
+  - sdust
+  - integrable-systems
+  - soliton

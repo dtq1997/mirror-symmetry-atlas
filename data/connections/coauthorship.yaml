@@ -4,6 +4,11 @@ edges:
     type: coauthor
     weight: 56
     period: "2000-present"
+  - source: qu-haonan
+    target: zhao-qiulan
+    type: coauthor
+    weight: 1
+    period: "2025-present"
   - source: dubrovin
     target: zhang-youjin
     type: coauthor
