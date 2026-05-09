@@ -500,12 +500,17 @@ def process(slug, person, all_people, write=False):
     # Sanity cap: OpenAlex math works should not exceed 5× arXiv-known publications
     # (with floor 30 for people with very few arXiv records). Otherwise the OpenAlex
     # profile likely merges multiple homonyms even though the math ratio passed.
+    # Escape hatch: yaml may set identity_profile.openalex_audited: true to bypass
+    # this cap once a human has verified the OpenAlex profile is single-person.
+    # (zhao-qiulan: 80 OpenAlex works with 64/80 co-authored with one person —
+    # genuinely prolific, not merged.)
     arxiv_count = len(person.get('publications') or [])
+    audited = (person.get('identity_profile') or {}).get('openalex_audited', False)
     cap = max(30, arxiv_count * 5)
-    if len(math_works) > cap:
+    if not audited and len(math_works) > cap:
         return {
             'slug': slug,
-            'skipped': f'openalex math-works {len(math_works)} > 5× arxiv ({arxiv_count}); profile likely homonym-merged. needs manual external_ids.openalex'
+            'skipped': f'openalex math-works {len(math_works)} > 5× arxiv ({arxiv_count}); profile likely homonym-merged. Set identity_profile.openalex_audited:true after manual verification to bypass.'
         }
 
     strict = len(works) > 100

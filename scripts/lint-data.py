@@ -275,6 +275,21 @@ def lint(strict_pubs=False, only_slug=None):
                         warn(slug, f"{tag}.coauthors {c!r} could be slug "
                              f"{cand!r} (use scripts/normalize-slug-references.py)")
 
+        # publication-count vs activity sanity:
+        # if activity.total_papers is set but diverges from len(publications)
+        # by more than 5 papers AND >25%, the yaml has stale stats — was the
+        # case for zhao-qiulan (activity.total_papers=80 but only 11 listed).
+        act = p.get('activity') or {}
+        total = act.get('total_papers')
+        listed = len(p.get('publications') or [])
+        if isinstance(total, int) and total > 0 and listed > 0:
+            diff = abs(total - listed)
+            if diff >= 5 and diff / max(total, listed) > 0.25:
+                warn(slug, f"activity.total_papers={total} but "
+                     f"len(publications)={listed} (diff {diff}); list is "
+                     f"likely incomplete — run scripts/enrich-from-openalex.py "
+                     f"or update activity.total_papers to match")
+
     # === optional: re-validate publication ownership ===
     if strict_pubs:
         try:

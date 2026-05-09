@@ -106,6 +106,10 @@ python3 scripts/lint-data.py                        # 再校验
 - [ ] advisor 显示中文名
 - [ ] 论文列表 **目视扫一遍标题**，发现疑似非数学论文（材料/医学/CS/工程）→ 立即手动删除并补到 `non_math_keywords.py`
 - [ ] **跑反向 audit**：`python3 scripts/audit-missing-papers.py --slug ${slug}` 查 yaml 是否漏了真论文
+- [ ] **OpenAlex 全量论文已拉取**：人物有 OpenAlex profile 的，跑 `python3 scripts/enrich-from-openalex.py --write ${slug}`；若被 5x 守门拦下，人工核验 profile（看 coauthor 集中度 + concept 主题），干净的话给 yaml 加 `identity_profile.openalex_audited: true` 后重跑
+- [ ] **`activity.total_papers` 与 `len(publications)` 一致**：lint 会自动 warn，差 5 篇以上 = 数据漏失
+- [ ] **DOI 必须来自 API 不许手敲**：每条带 `doi:` 的 publication 必须有 `sources: [openalex|crossref|...]` 标记。从主页或论文 PDF 抄来的 DOI，必须先用 `curl -s 'https://api.crossref.org/works/${doi}'` 验证 title 一致再写入
+- [ ] **合作者名变体扫描**：检查 `key_collaborators` 是否有同人不同写（`Xinyue Li`/`X. Y. Li`，`Bó Wáng`/`Bo Wang`），用 `scripts/normalize-slug-references.py` 或手工合并
 
 ---
 
@@ -120,6 +124,10 @@ python3 scripts/lint-data.py                        # 再校验
 5. **raw name → slug 自动绑定**：runtime `data.ts` 改用 paper-id 交集，不再靠英文名推断
 6. **整篇论文错挂**（li-ao 收 1998 田刚论文）：`validate-publications.py` 用 owner_hint + names_compatible
 7. **关键词列表写单 token**：`\brna\b` 误中 *Inte-rna-tional*——优先 bigram
+8. **手填 DOI 编错指向他人论文**（zhao-qiulan 2026-05）：手敲 `10.1016/j.physd.2025.134711` 时尾号编错(应为 `134638`)，DOI 解析到 Yue Zhang 等人的湍流论文。**铁律：从此不再手填 DOI**。所有 DOI 必须来自 Crossref / OpenAlex / 论文自报，并在 yaml 加 `sources: [openalex]` 或 `[crossref]` 标记来源
+9. **新增人物只录少量论文却写大 total_papers**（zhao-qiulan 同 commit）：activity 卡显示 80 篇但 publications 只列 11 条，用户察觉数据严重不全。lint 已新增 sanity check：`activity.total_papers` 与 `len(publications)` 偏差 ≥5 且 >25% 时 warn
+10. **enrich-from-openalex 5x 守门把真高产学者拒之门外**（zhao-qiulan 同 commit）：她真有 80 篇 OpenAlex 论文但 yaml 只有 2 条 arxiv 种子，触发 5x 阈值守门；解决方案——人工核验 profile 干净后在 yaml 加 `identity_profile.openalex_audited: true` 旁路守门
+11. **OpenAlex 作者名变体未合并**（zhao-qiulan 同 commit）：`Xinyue Li` 与 `X. Y. Li` 是同一人但被当成两个合作者；`Bó Wáng` (重音) vs `Bo Wang`。enrich 后必须扫一遍 `key_collaborators` 是否有同人不同写
 
 ---
 

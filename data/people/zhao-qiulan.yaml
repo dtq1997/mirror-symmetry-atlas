@@ -8,152 +8,960 @@ nationality: Chinese
 gender: female
 photo_url: null
 career_timeline:
-  - period: "2012-2015"
-    type: education
-    institution: sdust
-    role: "博士"
-    notes: "山东科技大学信息与电气工程学院，控制理论与控制工程专业 [博士导师待补充]"
-  - period: "[?]-present"
-    type: position
-    institution: sdust
-    role: "副教授 / 硕士生导师"
-    notes: "数学与系统科学学院。具体晋升年份[待补充]"
+- period: 2012-2015
+  type: education
+  institution: sdust
+  role: 博士
+  notes: 山东科技大学信息与电气工程学院，控制理论与控制工程专业 [博士导师待补充]
+- period: '[?]-present'
+  type: position
+  institution: sdust
+  role: 副教授 / 硕士生导师
+  notes: 数学与系统科学学院。具体晋升年份[待补充]
 research_areas:
-  - integrable-systems
-  - soliton-theory
-  - frobenius-manifolds
-  - darboux-transformation
+- integrable-systems
+- soliton-theory
+- frobenius-manifolds
+- darboux-transformation
 identity_profile:
-  openalex_id: 'A5013834292'
+  openalex_id: A5013834292
+  openalex_audited: true  # 2026-05: 80 works, 64 与 Xinyue Li 共著, profile 干净, 非合并
   affiliations:
-    - institution: 'sdust'
-      period: '2012-2015'
-      role: '博士'
-    - institution: 'sdust'
-      period: '[?]-present'
-      role: '副教授'
-  email_domains: [sdust.edu.cn]
-  coauthor_circle_core_slugs: [qu-haonan]
-  coauthor_circle_core_names: ['Haonan Qu', 'Xinyue Li']
-  coauthor_circle_extended_names: ['Xinyue Li', 'Yuxia Li', 'Huanhe Dong', 'Xi-Xiang Xu', 'Chuanzhong Li', 'Caixue Li', 'Huijie Song']
-  research_keywords: [integrable, soliton, darboux, frobenius]
+  - institution: sdust
+    period: 2012-2015
+    role: 博士
+  - institution: sdust
+    period: '[?]-present'
+    role: 副教授
+  email_domains:
+  - sdust.edu.cn
+  coauthor_circle_core_slugs:
+  - qu-haonan
+  coauthor_circle_core_names:
+  - Haonan Qu
+  - Xinyue Li
+  coauthor_circle_extended_names:
+  - Xinyue Li
+  - Yuxia Li
+  - Caixue Li
+  - Guangfu Han
+  - Xi-Xiang Xu
+  - Chuanzhong Li
+  - Huijie Song
+  - Huanjin Wang
+  - Xuejie Zhang
+  - Qian Bai
+  - Yaxin Guan
+  - Bo Wang
+  research_keywords:
+  - integrable
+  - soliton
+  - darboux
+  - frobenius
   known_arxiv_ids:
-    - '2510.04151'
-    - '2401.14795'
+  - '2510.04151'
+  - '2401.14795'
 advisor: null
 students: []
 key_collaborators:
-  - person: qu-haonan
-    since: 2025
-    topic: "Frobenius manifolds, 2D-Toda hierarchy reductions"
-    papers_count: 1
+- person: Xinyue Li
+  papers_count: 64
+  since: 2008
+  topic: 可积系统、离散孤子层级、Darboux 变换、Bargmann 约束
+- person: qu-haonan
+  since: 2025
+  topic: Frobenius manifolds, 2D-Toda hierarchy reductions
+  papers_count: 1
+- person: Yuxia Li
+  papers_count: 7
+  topic: 可积系统/孤子相关合作
+- person: Caixue Li
+  papers_count: 6
+  topic: 可积系统/孤子相关合作
+- person: Guangfu Han
+  papers_count: 5
+  topic: 可积系统/孤子相关合作
+- person: Huanjin Wang
+  papers_count: 4
+  topic: 可积系统/孤子相关合作
+- person: Qian Bai
+  papers_count: 4
+  topic: 可积系统/孤子相关合作
 publications:
-  - id: '2510.04151'
-    title: 'Asymmetric rational reductions of 2D-Toda hierarchy and a generalized Frobenius manifold'
-    year: 2025
-    coauthors: [qu-haonan]
-    primary_category: nlin.SI
-    sources: [arxiv]
-  - id: '2401.14795'
-    title: 'Generalization of nonlocally related partial differential equation systems: unknown symmetries from known ones'
-    year: 2024
-    coauthors: ['Huanjin Wang', 'Xinyue Li']
-    primary_category: math-ph
-    sources: [arxiv]
-  - id: 'doi:10.1016/j.physd.2025.134711'
-    title: 'Application of tetragonal curves theory to the 4-field Błaszak–Marciniak lattice hierarchy'
-    year: 2025
-    coauthors: ['Caixue Li', 'Xinyue Li']
-    doi: '10.1016/j.physd.2025.134711'
-    journal: 'Physica D: Nonlinear Phenomena'
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1016/j.physd.2023.133795'
-    title: 'Quasi-periodic solutions of a discrete integrable equation with a finite-dimensional integrable system'
-    year: 2023
-    coauthors: ['Caixue Li', 'Xinyue Li']
-    doi: '10.1016/j.physd.2023.133795'
-    journal: 'Physica D: Nonlinear Phenomena'
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1016/j.physd.2023.133706'
-    title: 'Interaction structures of multi localized waves within the Kadomtsev–Petviashvili I equation'
-    year: 2023
-    coauthors: ['Guangfu Han', 'Xinyue Li', 'Chuanzhong Li']
-    doi: '10.1016/j.physd.2023.133706'
-    journal: 'Physica D: Nonlinear Phenomena'
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1007/s44198-023-00132-6'
-    title: 'Application of the trigonal curve to a hierarchy of generalized Toda lattices'
-    year: 2023
-    coauthors: ['Caixue Li', 'Xinyue Li']
-    doi: '10.1007/s44198-023-00132-6'
-    journal: 'Theoretical and Mathematical Physics'
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1007/s10440-022-00524-8'
-    title: 'Multi-Component Coupled Fokas–Lenells Equations and Their Localized Wave Solutions'
-    year: 2022
-    coauthors: ['Huijie Song', 'Xinyue Li']
-    doi: '10.1007/s10440-022-00524-8'
-    journal: 'Acta Applicandae Mathematicae'
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1016/j.cnsns.2022.106726'
-    title: 'Higher-order rogue wave solutions of the (2+1)-dimensional Fokas–Lenells equation'
-    year: 2022
-    coauthors: ['Huijie Song', 'Xinyue Li']
-    doi: '10.1016/j.cnsns.2022.106726'
-    journal: 'Wave Motion'
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1063/1.4906533'
-    title: 'A super-discrete variational identity and its application for constructing super-discrete Hamiltonian systems'
-    year: 2015
-    coauthors: ['Xinyue Li', 'Yuxia Li', 'Huanhe Dong']
-    doi: '10.1063/1.4906533'
-    journal: 'Journal of Mathematical Physics'
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1016/j.geomphys.2017.04.018'
-    title: 'A new integrable symplectic map by the binary nonlinearization to the super AKNS system'
-    year: 2017
-    coauthors: ['Xinyue Li']
-    doi: '10.1016/j.geomphys.2017.04.018'
-    journal: 'Journal of Geometry and Physics'
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1007/s13324-014-0093-x'
-    title: 'A Bargmann system and the involutive solutions associated with a new 4-order lattice hierarchy'
-    year: 2015
-    coauthors: ['Xinyue Li']
-    doi: '10.1007/s13324-014-0093-x'
-    journal: 'Analysis and Mathematical Physics'
-    sources: [openalex]
-    no_arxiv: true
+- id: '2510.04151'
+  title: Asymmetric rational reductions of 2D-Toda hierarchy and a generalized Frobenius manifold
+  year: 2025
+  coauthors:
+  - qu-haonan
+  primary_category: nlin.SI
+  sources:
+  - arxiv
+- id: doi:10.1016/j.physd.2025.134638
+  title: Application of tetragonal curves theory to the 4-field Błaszak–Marciniak lattice hierarchy
+  year: 2025
+  coauthors:
+  - Caixue Li
+  - Xinyue Li
+  doi: 10.1016/j.physd.2025.134638
+  journal: Physica D Nonlinear Phenomena
+  sources:
+  - openalex
+  no_arxiv: true
+- id: doi:10.1088/1402-4896/adbb2d
+  title: Interaction wave solutions of the (2+1)-dimensional Fokas-Lenells equation
+  year: 2025
+  coauthors:
+  - Yaxin Guan
+  - Xinyue Li
+  doi: 10.1088/1402-4896/adbb2d
+  journal: Physica Scripta
+  sources:
+  - openalex
+  no_arxiv: true
+- id: doi:10.1134/s0040577925010076
+  title: Long-time asymptotic behavior and bound state soliton solutions for a generalized derivative nonlinear Schrödinger equation
+  year: 2025
+  coauthors:
+  - Bo Wang
+  - Xinyue Li
+  doi: 10.1134/s0040577925010076
+  journal: Theoretical and Mathematical Physics
+  sources:
+  - openalex
+  no_arxiv: true
+- id: doi:10.1007/s44198-024-00259-0
+  title: Localized Wave and Dynamics Analysis in an Extended-coupling Kaup-Newell Equation
+  year: 2025
+  coauthors:
+  - Saadatullah Rahimi
+  - Xinyue Li
+  doi: 10.1007/s44198-024-00259-0
+  journal: Journal of Nonlinear Mathematical Physics
+  sources:
+  - openalex
+  no_arxiv: true
+- id: '2401.14795'
+  title: 'Generalization of nonlocally related partial differential equation systems: unknown symmetric properties and analytical solutions'
+  year: 2024
+  coauthors:
+  - Huanjin Wang
+  - Xinyue Li
+  primary_category: math-ph
+  sources:
+  - arxiv
+- id: doi:10.1016/j.chaos.2024.114731
+  title: Evolution of dispersive shock waves to the complex modified Korteweg–de Vries equation with higher-order effects
+  year: 2024
+  coauthors:
+  - Qian Bai
+  - Xinyue Li
+  doi: 10.1016/j.chaos.2024.114731
+  journal: Chaos Solitons & Fractals
+  sources:
+  - openalex
+  no_arxiv: true
+- id: doi:10.1063/5.0186265
+  title: 'A Kundu–nonlinear Schrödinger equation: Rogue waves, breathers, and mixed interaction solutions'
+  year: 2024
+  coauthors:
+  - Xuejie Zhang
+  doi: 10.1063/5.0186265
+  journal: Chaos An Interdisciplinary Journal of Nonlinear Science
+  sources:
+  - openalex
+  no_arxiv: true
+- id: doi:10.1063/5.0210864
+  title: Step-like initial value problem and Whitham modulation in fluid dynamics to a generalized derivative nonlinear Schrödinger equation
+  year: 2024
+  coauthors:
+  - Bingyu Liu
+  - Xinyue Li
+  doi: 10.1063/5.0210864
+  journal: Physics of Fluids
+  sources:
+  - openalex
+  no_arxiv: true
+- id: doi:10.1007/s11071-024-10316-4
+  title: Classification of solutions for the (2+1)-dimensional Fokas–Lenells equations based on bilinear method and Wronskian technique
+  year: 2024
+  coauthors:
+  - Xuejie Zhang
+  - Xinyue Li
+  doi: 10.1007/s11071-024-10316-4
+  journal: Nonlinear Dynamics
+  sources:
+  - openalex
+  no_arxiv: true
+- id: doi:10.1007/s11071-024-10581-3
+  title: On the dispersive shock waves of the defocusing Kundu–Eckhaus equation in an optical fiber
+  year: 2024
+  coauthors:
+  - Xinyue Li
+  - Qian Bai
+  doi: 10.1007/s11071-024-10581-3
+  journal: Nonlinear Dynamics
+  sources:
+  - openalex
+  no_arxiv: true
+- id: doi:10.1088/1402-4896/ad7538
+  title: Symmetric structures and dynamic analysis of a (2+1)-dimensional generalized Benny-Luke equation
+  year: 2024
+  coauthors:
+  - Jie Sun
+  - Xinyue Li
+  doi: 10.1088/1402-4896/ad7538
+  journal: Physica Scripta
+  sources:
+  - openalex
+  no_arxiv: true
+- id: doi:10.1134/s0040577924030036
+  title: Whitham modulation theory and dam-breaking problem under periodic solutions to the defocusing Hirota equation
+  year: 2024
+  coauthors:
+  - Xinyue Li
+  - Qian Bai
+  doi: 10.1134/s0040577924030036
+  journal: Theoretical and Mathematical Physics
+  sources:
+  - openalex
+  no_arxiv: true
+- id: doi:10.4213/tmf10592
+  title: Модуляционная теория Уизема и задача о разрушении плотины для периодических решений дефокусирующего уравнения Хироты
+  year: 2024
+  coauthors:
+  - Xinyue Li
+  - Qian Bai
+  doi: 10.4213/tmf10592
+  journal: Теоретическая и математическая физика
+  sources:
+  - openalex
+  no_arxiv: true
+- id: doi:10.4213/tmf10735
+  title: Бинарное ограничение симметрии Баргмана и алгебро-геометрические решения полудискретной интегрируемой иерархии
+  year: 2024
+  coauthors:
+  - Yaxin Guan
+  - Xinyue Li
+  doi: 10.4213/tmf10735
+  journal: Теоретическая и математическая физика
+  sources:
+  - openalex
+  no_arxiv: true
+- id: doi:10.1134/s0040577924110084
+  title: Binary Bargmann symmetry constraint and algebro-geometric solutions of a semidiscrete integrable hierarchy
+  year: 2024
+  coauthors:
+  - Yaxin Guan
+  - Xinyue Li
+  doi: 10.1134/s0040577924110084
+  journal: Theoretical and Mathematical Physics
+  sources:
+  - openalex
+  no_arxiv: true
+- id: doi:10.4213/tmf10770
+  title: Асимптотическое поведение при больших временах и решения для связанных солитонных состояний обобщенных нелинейных уравнений Шредингера c производной
+  year: 2024
+  coauthors:
+  - Bo Wang
+  - Xinyue Li
+  doi: 10.4213/tmf10770
+  journal: Теоретическая и математическая физика
+  sources:
+  - openalex
+  no_arxiv: true
+- id: doi:10.1016/j.ijleo.2023.170827
+  title: Degenerate and bound-state solitons of a novel Kundu-nonlinear Schrödinger equation based on generalized Darboux transformation
+  year: 2023
+  coauthors:
+  - Xuejie Zhang
+  - Fahui Liu
+  doi: 10.1016/j.ijleo.2023.170827
+  journal: Optik
+  sources:
+  - openalex
+  no_arxiv: true
+- id: doi:10.1016/j.physd.2023.133671
+  title: Interaction structures of multi localized waves within the Kadomtsev–Petviashvili I equation
+  year: 2023
+  coauthors:
+  - Guangfu Han
+  - Xinyue Li
+  - Chuanzhong Li
+  doi: 10.1016/j.physd.2023.133671
+  journal: Physica D Nonlinear Phenomena
+  sources:
+  - openalex
+  no_arxiv: true
+- id: doi:10.3934/math.2023442
+  title: Classical Darboux transformation and exact soliton solutions of a two-component complex short pulse equation
+  year: 2023
+  coauthors:
+  - Muhammad Arham Amin
+  - Xinyue Li
+  doi: 10.3934/math.2023442
+  journal: AIMS Mathematics
+  sources:
+  - openalex
+  no_arxiv: true
+- id: doi:10.1134/s0040577923040037
+  title: Application of the trigonal curve to a hierarchy of generalized Toda lattices
+  year: 2023
+  coauthors:
+  - Caixue Li
+  - Xinyue Li
+  doi: 10.1134/s0040577923040037
+  journal: Theoretical and Mathematical Physics
+  sources:
+  - openalex
+  no_arxiv: true
+- id: doi:10.1016/j.cjph.2023.07.001
+  title: Semi-discrete local and nonlocal Frobenius-coupled complex modified Korteweg–de Vries equations
+  year: 2023
+  coauthors:
+  - Hongbiao Cheng
+  - Xinyue Li
+  doi: 10.1016/j.cjph.2023.07.001
+  journal: Chinese Journal of Physics
+  sources:
+  - openalex
+  no_arxiv: true
+- id: doi:10.1016/j.physd.2023.133992
+  title: Quasi-periodic solutions of a discrete integrable equation with a finite-dimensional integrable symplectic structure
+  year: 2023
+  coauthors:
+  - Caixue Li
+  - Xinyue Li
+  doi: 10.1016/j.physd.2023.133992
+  journal: Physica D Nonlinear Phenomena
+  sources:
+  - openalex
+  no_arxiv: true
+- id: doi:10.1088/1402-4896/acecbc
+  title: Two-component generalized nonlinear Schrödinger equations and their soliton and breather solutions
+  year: 2023
+  coauthors:
+  - Xinyue Li
+  - Jiale Zhao
+  doi: 10.1088/1402-4896/acecbc
+  journal: Physica Scripta
+  sources:
+  - openalex
+  no_arxiv: true
+- id: doi:10.1088/1402-4896/acd1c1
+  title: Novel symmetric structures and explicit solutions to a coupled Hunter-Saxton equation
+  year: 2023
+  coauthors:
+  - Huanjin Wang
+  - Xinyue Li
+  doi: 10.1088/1402-4896/acd1c1
+  journal: Physica Scripta
+  sources:
+  - openalex
+  no_arxiv: true
+- id: doi:10.4213/tmf10388
+  title: Применение тригональной кривой к иерархии обобщенной цепочки Тоды
+  year: 2023
+  coauthors:
+  - Caixue Li
+  - Xinyue Li
+  doi: 10.4213/tmf10388
+  journal: Теоретическая и математическая физика
+  sources:
+  - openalex
+  no_arxiv: true
+- id: doi:10.21203/rs.3.rs-3243774/v1
+  title: The extended research for constructing three-dimensional nonlocally related partial differential equation systems
+  year: 2023
+  coauthors:
+  - Huanjin Wang
+  - Xinyue Li
+  doi: 10.21203/rs.3.rs-3243774/v1
+  journal: Research Square
+  sources:
+  - openalex
+  no_arxiv: true
+- id: doi:10.1140/epjp/s13360-023-03806-8
+  title: Localized wave solutions of a higher-order short pulse equation
+  year: 2023
+  coauthors:
+  - Xinyue Li
+  - Zhixin Zhang
+  doi: 10.1140/epjp/s13360-023-03806-8
+  journal: The European Physical Journal Plus
+  sources:
+  - openalex
+  no_arxiv: true
+- id: doi:10.1016/j.wavemoti.2023.103179
+  title: Localized wave solutions and mixed interaction structures in the AB system
+  year: 2023
+  coauthors:
+  - Guangfu Han
+  - Xinyue Li
+  doi: 10.1016/j.wavemoti.2023.103179
+  journal: Wave Motion
+  sources:
+  - openalex
+  no_arxiv: true
+- id: doi:10.2139/ssrn.4516041
+  title: Quasi-Periodic Solutions of a Discrete Integrable Equation with a Finite-Dimensional Integrable Symplectic Structure
+  year: 2023
+  coauthors:
+  - Caixue Li
+  - Xinyue Li
+  doi: 10.2139/ssrn.4516041
+  journal: SSRN Electronic Journal
+  sources:
+  - openalex
+  no_arxiv: true
+- id: doi:10.1016/j.cnsns.2022.106612
+  title: Interactions of localized wave and dynamics analysis in generalized derivative nonlinear Schrödinger equation
+  year: 2022
+  coauthors:
+  - Xinyue Li
+  - Guangfu Han
+  doi: 10.1016/j.cnsns.2022.106612
+  journal: Communications in Nonlinear Science and Numerical Simulation
+  sources:
+  - openalex
+  no_arxiv: true
+- id: doi:10.11948/20210081
+  title: EXPLICIT SOLUTIONS TO A HIERARCHY OF DISCRETE COUPLING KORTEWEG-DE VRIES EQUATIONS
+  year: 2022
+  coauthors:
+  - Yadong Zhong
+  - Xinyue Li
+  doi: 10.11948/20210081
+  journal: Journal of Applied Analysis & Computation
+  sources:
+  - openalex
+  no_arxiv: true
+- id: doi:10.1007/s44198-022-00073-6
+  title: Lie Symmetry Analysis and Conservation Laws for the (2 + 1)-Dimensional Dispersionless B-Type Kadomtsev–Petviashvili Equation
+  year: 2022
+  coauthors:
+  - Huanjin Wang
+  - Xinyue Li
+  - Chuanzhong Li
+  doi: 10.1007/s44198-022-00073-6
+  journal: Journal of Nonlinear Mathematical Physics
+  sources:
+  - openalex
+  no_arxiv: true
+- id: doi:10.1016/j.wavemoti.2022.103065
+  title: Higher-order rogue wave solutions of the (2+1)-dimensional Fokas–Lenells equation
+  year: 2022
+  coauthors:
+  - Huijie Song
+  - Xinyue Li
+  doi: 10.1016/j.wavemoti.2022.103065
+  journal: Wave Motion
+  sources:
+  - openalex
+  no_arxiv: true
+- id: doi:10.1007/s00033-022-01681-4
+  title: Integrability, modulational instability and mixed localized wave solutions for the generalized nonlinear Schrödinger equation
+  year: 2022
+  coauthors:
+  - Xinyue Li
+  - Guangfu Han
+  doi: 10.1007/s00033-022-01681-4
+  journal: Zeitschrift für angewandte Mathematik und Physik
+  sources:
+  - openalex
+  no_arxiv: true
+- id: doi:10.1007/s44198-022-00077-2
+  title: Algebro-geometric Constructions of a Hierarchy of Integrable Semi-discrete Equations
+  year: 2022
+  coauthors:
+  - Caixue Li
+  - Xinyue Li
+  doi: 10.1007/s44198-022-00077-2
+  journal: Journal of Nonlinear Mathematical Physics
+  sources:
+  - openalex
+  no_arxiv: true
+- id: doi:10.58997/ejde.2022.71
+  title: Integrable nonlinear perturbed hierarchies of NLS-mKdV equation and soliton solutions
+  year: 2022
+  coauthors:
+  - Hongbiao Cheng
+  - Xinyue Li
+  - Chuanzhong Li
+  doi: 10.58997/ejde.2022.71
+  journal: Electronic Journal of Differential Equations
+  sources:
+  - openalex
+  no_arxiv: true
+- id: doi:10.1007/s10440-022-00535-5
+  title: Multi-Component Coupled Fokas-Lenells Equations and Theirs Localized Wave Solutions
+  year: 2022
+  coauthors:
+  - Huijie Song
+  - Xinyue Li
+  doi: 10.1007/s10440-022-00535-5
+  journal: Acta Applicandae Mathematicae
+  sources:
+  - openalex
+  no_arxiv: true
+- id: doi:10.1016/s0034-4877(22)00063-5
+  title: Darboux transformation of two novel two-component generalized complex short pulse equations
+  year: 2022
+  coauthors:
+  - Xinyue Li
+  - Zhixin Zhang
+  - Chuanzhong Li
+  doi: 10.1016/s0034-4877(22)00063-5
+  journal: Reports on Mathematical Physics
+  sources:
+  - openalex
+  no_arxiv: true
+- id: doi:10.1016/j.aml.2022.107941
+  title: Dynamics analysis for the Wadati–Konno–Ichikawa(II)-short pulse equation
+  year: 2022
+  coauthors:
+  - Hongbiao Cheng
+  - Rui Cao
+  doi: 10.1016/j.aml.2022.107941
+  journal: Applied Mathematics Letters
+  sources:
+  - openalex
+  no_arxiv: true
+- id: doi:10.1016/j.padiff.2022.100338
+  title: Explicit solutions of rational integrable differential-difference equations
+  year: 2022
+  coauthors:
+  - Muhammad Arham Amin
+  doi: 10.1016/j.padiff.2022.100338
+  journal: Partial Differential Equations in Applied Mathematics
+  sources:
+  - openalex
+  no_arxiv: true
+- id: doi:10.2139/ssrn.4118583
+  title: Higher-Order Rogue Wave Solutions of (2+1)-Dimensional Fokas-Lenells Equation
+  year: 2022
+  coauthors:
+  - Huijie Song
+  - Xinyue Li
+  doi: 10.2139/ssrn.4118583
+  journal: SSRN Electronic Journal
+  sources:
+  - openalex
+  no_arxiv: true
+- id: doi:10.21203/rs.3.rs-2350742/v1
+  title: Mixed localized wave solutions of the (2+1)-dimensional Fokas-Lenells equation
+  year: 2022
+  coauthors:
+  - Huijie Song
+  - Xinyue Li
+  doi: 10.21203/rs.3.rs-2350742/v1
+  journal: Research Square
+  sources:
+  - openalex
+  no_arxiv: true
+- id: doi:10.58997/ejde.2021.41
+  title: Lie symmetry analysis and conservation laws for the (2+1)-dimensional Mikhalev equation
+  year: 2021
+  coauthors:
+  - Xinyue Li
+  - Yongli Zhang
+  - Huiqun Zhang
+  doi: 10.58997/ejde.2021.41
+  journal: Electronic Journal of Differential Equations
+  sources:
+  - openalex
+  no_arxiv: true
+- id: doi:10.1155/2021/9964540
+  title: Characters of Explicit Solutions for a Semidiscrete Integrable Coupled Equation
+  year: 2021
+  coauthors:
+  - Qianqian Yang
+  - Xiangwen Qu
+  doi: 10.1155/2021/9964540
+  journal: Advances in Mathematical Physics
+  sources:
+  - openalex
+  no_arxiv: true
+- id: doi:10.2139/ssrn.3964466
+  title: Interactions of Localized Wave and Dynamics Analysis in Generalized Derivative Nonlinear Schrödinger Equation
+  year: 2021
+  coauthors:
+  - Xinyue Li
+  - Guangfu Han
+  doi: 10.2139/ssrn.3964466
+  journal: SSRN Electronic Journal
+  sources:
+  - openalex
+  no_arxiv: true
+- id: doi:10.1016/j.cnsns.2020.105434
+  title: Integrable asymmetric AKNS model with multi-component
+  year: 2020
+  coauthors:
+  - Xinyue Li
+  - Qianqian Yang
+  doi: 10.1016/j.cnsns.2020.105434
+  journal: Communications in Nonlinear Science and Numerical Simulation
+  sources:
+  - openalex
+  no_arxiv: true
+- id: doi:10.11948/2019.200
+  title: EXACT SOLUTIONS FOR A DIRAC-TYPE EQUATION WITH N-FOLD DARBOUX TRANSFORMATION
+  year: 2019
+  coauthors:
+  - Jinting Ha
+  - Huiqun Zhang
+  doi: 10.11948/2019.200
+  journal: Journal of Applied Analysis & Computation
+  sources:
+  - openalex
+  no_arxiv: true
+- id: doi:10.1007/s00033-019-1088-0
+  title: Exact solutions to Euler equation and Navier–Stokes equation
+  year: 2019
+  coauthors:
+  - Mingshuo Liu
+  - Xinyue Li
+  doi: 10.1007/s00033-019-1088-0
+  journal: Zeitschrift für angewandte Mathematik und Physik
+  sources:
+  - openalex
+  no_arxiv: true
+- id: doi:10.1186/s13662-019-2051-2
+  title: Bilinear approach to soliton and periodic wave solutions of two nonlinear evolution equations of Mathematical Physics
+  year: 2019
+  coauthors:
+  - Rui Cao
+  - Gao Lin
+  doi: 10.1186/s13662-019-2051-2
+  journal: Advances in Difference Equations
+  sources:
+  - openalex
+  no_arxiv: true
+- id: doi:10.1155/2019/5984356
+  title: Explicit Solutions and Conservation Laws for a New Integrable Lattice Hierarchy
+  year: 2019
+  coauthors:
+  - Qianqian Yang
+  - Xinyue Li
+  doi: 10.1155/2019/5984356
+  journal: Complexity
+  sources:
+  - openalex
+  no_arxiv: true
+- id: doi:10.1016/j.aml.2019.06.027
+  title: Explicit solutions to a coupled integrable lattice equation
+  year: 2019
+  coauthors:
+  - Yadong Zhong
+  - Xinyue Li
+  doi: 10.1016/j.aml.2019.06.027
+  journal: Applied Mathematics Letters
+  sources:
+  - openalex
+  no_arxiv: true
+- id: doi:10.11948/jaac20190003
+  title: DECOMPOSING A NEW NONLINEAR DIFFERENTIAL-DIFFERENCE SYSTEM UNDER A BARGMANN IMPLICIT SYMMETRY CONSTRAINT
+  year: 2019
+  coauthors:
+  - Xinyue Li
+  doi: 10.11948/jaac20190003
+  journal: Journal of Applied Analysis & Computation
+  sources:
+  - openalex
+  no_arxiv: true
+- id: doi:10.1016/j.geomphys.2017.07.010
+  title: A new integrable symplectic map by the binary nonlinearization to the super AKNS system
+  year: 2017
+  coauthors:
+  - Xinyue Li
+  doi: 10.1016/j.geomphys.2017.07.010
+  journal: Journal of Geometry and Physics
+  sources:
+  - openalex
+  no_arxiv: true
+- id: doi:10.1007/s13324-015-0116-2
+  title: A Bargmann system and the involutive solutions associated with a new 4-order lattice hierarchy
+  year: 2015
+  coauthors:
+  - Xinyue Li
+  doi: 10.1007/s13324-015-0116-2
+  journal: Analysis and Mathematical Physics
+  sources:
+  - openalex
+  no_arxiv: true
+- id: doi:10.22436/jnsa.008.05.05
+  title: Binary Bargmann symmetry constraint associated with 3×3 discrete matrix spectral problem
+  year: 2015
+  coauthors:
+  - Xinyue Li
+  - Yuxia Li
+  - Huanhe Dong
+  doi: 10.22436/jnsa.008.05.05
+  journal: The Journal of Nonlinear Sciences and Applications
+  sources:
+  - openalex
+  no_arxiv: true
+- id: doi:10.1063/1.4914942
+  title: A super-discrete variational identity and its application for constructing super-discrete Hamiltonian systems
+  year: 2015
+  coauthors:
+  - Xinyue Li
+  - Yuxia Li
+  - Huanhe Dong
+  doi: 10.1063/1.4914942
+  journal: Journal of Mathematical Physics
+  sources:
+  - openalex
+  no_arxiv: true
+- id: doi:10.1016/j.amc.2012.11.053
+  title: Two integrable lattice hierarchies and their respective Darboux transformations
+  year: 2013
+  coauthors:
+  - Xinyue Li
+  - Fasheng Liu
+  doi: 10.1016/j.amc.2012.11.053
+  journal: Applied Mathematics and Computation
+  sources:
+  - openalex
+  no_arxiv: true
+- id: doi:10.1016/j.cnsns.2013.11.015
+  title: A new integrable symplectic map for 4-field Blaszak–Marciniak lattice equations
+  year: 2013
+  coauthors:
+  - Xinyue Li
+  - Yuxia Li
+  doi: 10.1016/j.cnsns.2013.11.015
+  journal: Communications in Nonlinear Science and Numerical Simulation
+  sources:
+  - openalex
+  no_arxiv: true
+- id: doi:10.1063/1.4828699
+  title: Three discrete integrable coupling schemes associated with relativistic Toda lattice equation
+  year: 2013
+  coauthors:
+  - Xinyue Li
+  - Fasheng Liu
+  doi: 10.1063/1.4828699
+  journal: AIP conference proceedings
+  sources:
+  - openalex
+  no_arxiv: true
+- id: doi:10.1063/1.4828686
+  title: A discrete spectral problem and associated two types of integrable coupling systems
+  year: 2013
+  coauthors:
+  - Xinyue Li
+  - Yuxia Li
+  doi: 10.1063/1.4828686
+  journal: AIP conference proceedings
+  sources:
+  - openalex
+  no_arxiv: true
+- id: doi:10.1016/s0034-4877(14)60022-7
+  title: Bi-Integrable Couplings of a Nonsemisimple Lie Algebra by Toda Lattice Hierarchy
+  year: 2013
+  coauthors:
+  - Xinyue Li
+  - Yuxia Li
+  doi: 10.1016/s0034-4877(14)60022-7
+  journal: Reports on Mathematical Physics
+  sources:
+  - openalex
+  no_arxiv: true
+- id: doi:10.1016/j.cnsns.2012.01.001
+  title: The finite-dimensional super integrable system of a super NLS-mKdV equation
+  year: 2012
+  coauthors:
+  - Yuxia Li
+  - Xinyue Li
+  - Ye-Peng Sun
+  doi: 10.1016/j.cnsns.2012.01.001
+  journal: Communications in Nonlinear Science and Numerical Simulation
+  sources:
+  - openalex
+  no_arxiv: true
+- id: doi:10.1016/j.amc.2010.01.069
+  title: The integrable coupling system of a 3×3 discrete matrix spectral problem
+  year: 2010
+  coauthors:
+  - Xinzeng Wang
+  doi: 10.1016/j.amc.2010.01.069
+  journal: Applied Mathematics and Computation
+  sources:
+  - openalex
+  no_arxiv: true
+- id: doi:10.1016/j.cnsns.2010.12.007
+  title: The binary nonlinearization of generalized Toda hierarchy by a special choice of parameters
+  year: 2010
+  coauthors:
+  - Yuxia Li
+  doi: 10.1016/j.cnsns.2010.12.007
+  journal: Communications in Nonlinear Science and Numerical Simulation
+  sources:
+  - openalex
+  no_arxiv: true
+- id: doi:10.1088/0253-6102/53/4/07
+  title: Hamiltonian System of New Nonlinear Lattice Equations
+  year: 2010
+  coauthors:
+  - Yu Yang
+  - Xuehua Li
+  doi: 10.1088/0253-6102/53/4/07
+  journal: Communications in Theoretical Physics
+  sources:
+  - openalex
+  no_arxiv: true
+- id: doi:10.1016/j.cam.2009.09.009
+  title: Positive and negative integrable hierarchies, associated conservation laws and Darboux transformation
+  year: 2009
+  coauthors:
+  - Xinyue Li
+  - Yuanqing Zhang
+  doi: 10.1016/j.cam.2009.09.009
+  journal: Journal of Computational and Applied Mathematics
+  sources:
+  - openalex
+  no_arxiv: true
+- id: doi:10.1016/j.cnsns.2009.06.028
+  title: The Liouville integrability of integrable couplings of Volterra lattice equation
+  year: 2009
+  coauthors:
+  - Xi-Xiang Xu
+  - Xinyue Li
+  doi: 10.1016/j.cnsns.2009.06.028
+  journal: Communications in Nonlinear Science and Numerical Simulation
+  sources:
+  - openalex
+  no_arxiv: true
+- id: doi:10.1088/0253-6102/51/1/04
+  title: New Positive and Negative Hierarchies of Integrable Differential-Difference Equations and Conservation Laws
+  year: 2009
+  coauthors:
+  - Xinyue Li
+  doi: 10.1088/0253-6102/51/1/04
+  journal: Communications in Theoretical Physics
+  sources:
+  - openalex
+  no_arxiv: true
+- id: openalex:W2755806737
+  title: 可積分微分‐差分方程式と保存則の新しい正および負の階層【Powered by NICT】
+  year: 2009
+  coauthors:
+  - Xinyue Li
+  sources:
+  - openalex
+  no_arxiv: true
+  journal: Communications in Theoretical Physics
+- id: doi:10.1142/s0217984909021272
+  title: TWO SUPER-INTEGRABLE SYSTEMS AND ASSOCIATED SUPER-HAMILTONIAN STRUCTURES
+  year: 2009
+  coauthors:
+  - Xinyue Li
+  - Baiying He
+  doi: 10.1142/s0217984909021272
+  journal: Modern Physics Letters B
+  sources:
+  - openalex
+  no_arxiv: true
+- id: doi:10.1016/j.amc.2009.08.061
+  title: The Liouville integrable systems associated with a new discrete matrix spectral problem
+  year: 2009
+  coauthors:
+  - Xi-Xiang Xu
+  - Xinyue Li
+  doi: 10.1016/j.amc.2009.08.061
+  journal: Applied Mathematics and Computation
+  sources:
+  - openalex
+  no_arxiv: true
+- id: doi:10.1016/j.cnsns.2008.11.012
+  title: The Darboux transformation associated with two-parameter lattice soliton equation
+  year: 2008
+  coauthors:
+  - Xinyue Li
+  doi: 10.1016/j.cnsns.2008.11.012
+  journal: Communications in Nonlinear Science and Numerical Simulation
+  sources:
+  - openalex
+  no_arxiv: true
+- id: doi:10.1142/s0217984908016704
+  title: THE INTEGRABLE PROPERTY OF LOTKA–VOLTERRA TYPE DISCRETE NONLINEAR LATTICE SOLITON SYSTEMS
+  year: 2008
+  coauthors:
+  - Xinyue Li
+  - Xi-Xiang Xu
+  doi: 10.1142/s0217984908016704
+  journal: Modern Physics Letters B
+  sources:
+  - openalex
+  no_arxiv: true
+- id: doi:10.1016/j.physleta.2008.06.048
+  title: Two hierarchies of integrable lattice equations associated with a discrete matrix spectral problem
+  year: 2008
+  coauthors:
+  - Xinyue Li
+  - Xi-Xiang Xu
+  doi: 10.1016/j.physleta.2008.06.048
+  journal: Physics Letters A
+  sources:
+  - openalex
+  no_arxiv: true
+- id: openalex:W2353398640
+  title: A Family of New Discrete Generalized Hamiltonian Integrable Systems and Integrable Coupling Systems
+  year: 2008
+  coauthors: []
+  sources:
+  - openalex
+  no_arxiv: true
+  journal: Journal of Sichuan Normal University
+- id: openalex:W2382279235
+  title: A Hierarchy of Discrete Integrable Systems and Its Hamilton Structure
+  year: 2008
+  coauthors: []
+  sources:
+  - openalex
+  no_arxiv: true
+  journal: Ludong University Journal
+- id: openalex:W4287507284
+  title: Characters of Explicit Solutions for a Semidiscrete Integrable Coupled Equation
+  year: null
+  coauthors:
+  - Qianqian Yang
+  - Xiangwen Qu
+  sources:
+  - openalex
+  no_arxiv: true
+  journal: 'RePEc: Research Papers in Economics'
 activity:
-  total_papers: 80
-  active_period: '2008-present'
-  quality_source: 'openalex'
+  total_papers: 78
+  active_period: 2008-present
+  quality_source: openalex
+  published_count: 76
+  preprint_only_count: 2
 external_ids:
   openalex: A5013834292
 links:
-  homepage: 'https://sxy.sdust.edu.cn/info/1076/3199.htm'
-personal_notes: |
-  山东邹平人。山东科技大学数学与系统科学学院副教授、硕士生导师。
+  homepage: https://sxy.sdust.edu.cn/info/1076/3199.htm
+personal_notes: '山东邹平人。山东科技大学数学与系统科学学院副教授、硕士生导师。
+
   研究方向：孤子理论、可积系统、数学物理。长期与同院李新跃合作 (20+ 篇)，
+
   研究脉络以离散可积系统、Darboux 变换、Bargmann 约束、代数几何解为主。
+
   2025 年与北大曲昊男合作发表 2D-Toda 有理约化与广义 Frobenius 流形论文
+
   (arXiv:2510.04151)，由此与清华张友金-刘思齐 Frobenius 流形/可积层级
+
   研究组建立直接学术联系，常出现在该组讨论班。
+
   导师及晋升副教授时间[待补充]，建议从 sdust 学院页面或档案进一步确认。
+
+  '
 sources:
-  - label: '山东科技大学数学与系统科学学院主页'
-    url: 'https://sxy.sdust.edu.cn/info/1076/3199.htm'
-  - label: 'arXiv 2510.04151 (with Haonan Qu)'
-    url: 'https://arxiv.org/abs/2510.04151'
+- label: 山东科技大学数学与系统科学学院主页
+  url: https://sxy.sdust.edu.cn/info/1076/3199.htm
+- label: arXiv 2510.04151 (with Haonan Qu)
+  url: https://arxiv.org/abs/2510.04151
 tags:
-  - sdust
-  - integrable-systems
-  - soliton
+- sdust
+- integrable-systems
+- soliton
