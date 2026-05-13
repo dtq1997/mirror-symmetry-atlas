@@ -147,8 +147,10 @@ publications:
     title: "Abelian Ideals and the Variety of Lagrangian Subalgebras"
     year: 2020
     coauthors: ["Sam Evens"]
+    doi: "10.1016/j.jpaa.2024.107813"
+    journal: "Journal of Pure and Applied Algebra 229(1):107813 (2025)"
     primary_category: math.RT
-    sources: [arxiv]
+    sources: [arxiv, crossref]
   - id: "1904.10141"
     title: "Quantum Boson Algebra and Poisson Geometry of the Flag Variety"
     year: 2019
@@ -164,8 +166,8 @@ publications:
     sources: [arxiv]
 activity:
   total_papers: 7
-  preprint_only_count: 7
-  published_count: 0
+  preprint_only_count: 6
+  published_count: 1
   active_period: "2017-present"
 external_ids:
   mathgenealogy: "277097"

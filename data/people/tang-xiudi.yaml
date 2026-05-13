@@ -126,38 +126,45 @@ publications:
     year: 2019
     coauthors: ["Joseph Palmer", "Álvaro Pelayo"]
     doi: "10.1007/s13398-024-01656-2"
-    journal: "Rev. R. Acad. Cienc. Exactas Fís. Nat. Ser. A Mat."
+    journal: "Rev. R. Acad. Cienc. Exactas Fís. Nat. Ser. A Mat. 118(4):161 (2024)"
     primary_category: math.SG
-    sources: [arxiv]
+    sources: [arxiv, crossref]
   - id: "1812.00444"
     title: "Removing a ray from a noncompact symplectic manifold"
     year: 2018
     coauthors: []
-    journal: "International Mathematics Research Notices 2020(22):8878-8895"
+    doi: "10.1093/imrn/rnaa007"
+    journal: "International Mathematics Research Notices, rnaa007 (2020)"
     primary_category: math.SG
-    sources: [arxiv]
+    sources: [arxiv, crossref]
   - id: "1803.00998"
     title: "Vũ Ngọc's Conjecture on focus-focus singular fibers with multiple pinched points"
     year: 2018
     coauthors: ["Álvaro Pelayo"]
+    doi: "10.1007/s11784-023-01089-1"
+    journal: "Journal of Fixed Point Theory and Applications 26(1):6 (2024)"
     primary_category: math.SG
-    sources: [arxiv]
+    sources: [arxiv, crossref]
   - id: "1704.08659"
     title: "Symplectic stability on manifolds with cylindrical ends"
     year: 2017
     coauthors: ["Sean Curry", "Álvaro Pelayo"]
+    doi: "10.1007/s12220-018-0057-8"
+    journal: "The Journal of Geometric Analysis 29(2):1660-1675 (2019)"
     primary_category: math.SG
-    sources: [arxiv]
+    sources: [arxiv, crossref]
   - id: "1607.03800"
     title: "Moser stability for volume forms on noncompact fiber bundles"
     year: 2016
     coauthors: ["Álvaro Pelayo"]
+    doi: "10.1016/j.difgeo.2018.12.003"
+    journal: "Differential Geometry and its Applications 63:120-136 (2019)"
     primary_category: math.SG
-    sources: [arxiv]
+    sources: [arxiv, crossref]
 activity:
   total_papers: 9
-  preprint_only_count: 6
-  published_count: 3
+  preprint_only_count: 4
+  published_count: 5
   active_period: "2016-present"
 external_ids: {}
 links:
