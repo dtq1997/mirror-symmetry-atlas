@@ -1,0 +1,192 @@
+slug: tang-xiudi
+name:
+  en: "Xiudi Tang"
+  zh: "唐修棣"
+born: null
+died: null
+nationality: Chinese
+gender: male
+photo_url: null
+career_timeline:
+  - period: "2010-2014"
+    type: education
+    institution: tsinghua
+    role: "学士, 数学"
+    notes: "清华大学数学科学系"
+  - period: "2014-2018"
+    type: education
+    institution: ucsd
+    role: "博士, 数学"
+    advisor: "Álvaro Pelayo"
+    notes: "导师 Álvaro Pelayo (UCSD)"
+  - period: "[待补充]-2020"
+    type: position
+    institution: cornell
+    role: "Visiting Assistant Professor"
+    notes: "Mentor: Reyer Sjamaar"
+  - period: "[待补充]-2022"
+    type: position
+    institution: toronto
+    role: "博士后 (Postdoctoral Fellow)"
+    notes: "合作导师: Yael Karshon, Marco Gualtieri"
+  - period: "[待补充]-present"
+    type: position
+    institution: bit
+    role: "助理教授 (Assistant Professor)"
+    notes: "北京理工大学数学与统计学院。办公室：良乡校区文萃楼II 901C"
+research_areas:
+  - symplectic-geometry
+  - integrable-systems
+  - differential-geometry
+identity_profile:
+  affiliations:
+    - institution: "tsinghua"
+      period: "2010-2014"
+      role: "学士, 数学"
+    - institution: "ucsd"
+      period: "2014-2018"
+      role: "博士, 数学"
+    - institution: "cornell"
+      period: "[待补充]-2020"
+      role: "Visiting Assistant Professor"
+    - institution: "toronto"
+      period: "[待补充]-2022"
+      role: "博士后"
+    - institution: "bit"
+      period: "[待补充]-present"
+      role: "助理教授"
+  email_domains: [bit.edu.cn, ucsd.edu, math.toronto.edu]
+  coauthor_circle_core_slugs: []
+  coauthor_circle_core_names: ["Álvaro Pelayo", "Yael Karshon", "Joseph Palmer", "Sean Curry", "Chengle Peng"]
+  research_keywords:
+    - "symplectic"
+    - "semitoric"
+    - "focus-focus"
+    - "integrable"
+    - "almost-toric"
+    - "moser"
+    - "excision"
+  known_arxiv_ids: ["1607.03800", "1704.08659", "1803.00998", "1812.00444", "1909.03501", "2101.03534", "2401.10881", "2410.08175", "2509.04207"]
+advisor: "Álvaro Pelayo"
+mentors:
+  - "Reyer Sjamaar"
+  - "Yael Karshon"
+  - "Marco Gualtieri"
+students: []
+key_collaborators:
+  - name: "Álvaro Pelayo"
+    since: 2016
+    topic: "Non-compact symplectic manifolds, focus-focus singular fibers, semitoric systems"
+    papers_count: 4
+    notes: "UCSD 博士导师，多年合作"
+  - name: "Yael Karshon"
+    since: 2021
+    topic: "Symplectic excision via time-independent incomplete Hamiltonian flows"
+    papers_count: 1
+    notes: "多伦多博后导师"
+  - name: "Joseph Palmer"
+    since: 2019
+    topic: "Semitoric systems of non-simple type"
+    papers_count: 1
+  - name: "Sean Curry"
+    since: 2017
+    topic: "Symplectic stability on manifolds with cylindrical ends"
+    papers_count: 1
+  - name: "Chengle Peng"
+    since: 2025
+    topic: "Action-angle coordinates of spherical pendulums with symmetric quadratic potentials"
+    papers_count: 1
+publications:
+  - id: "2509.04207"
+    title: "Action-angle coordinates of spherical pendulums with symmetric quadratic potentials"
+    year: 2025
+    coauthors: ["Chengle Peng"]
+    primary_category: math.SG
+    sources: [arxiv]
+  - id: "2410.08175"
+    title: "A note on the symplectic classification of almost-toric systems"
+    year: 2024
+    coauthors: []
+    primary_category: math.SG
+    sources: [arxiv]
+  - id: "2401.10881"
+    title: "Classifying affine structures with focus-focus singularities"
+    year: 2024
+    coauthors: []
+    primary_category: math.SG
+    sources: [arxiv]
+  - id: "2101.03534"
+    title: "Symplectic excision"
+    year: 2021
+    coauthors: ["Yael Karshon"]
+    primary_category: math.SG
+    sources: [arxiv]
+  - id: "1909.03501"
+    title: "Semitoric systems of non-simple type"
+    year: 2019
+    coauthors: ["Joseph Palmer", "Álvaro Pelayo"]
+    doi: "10.1007/s13398-024-01656-2"
+    journal: "Rev. R. Acad. Cienc. Exactas Fís. Nat. Ser. A Mat."
+    primary_category: math.SG
+    sources: [arxiv]
+  - id: "1812.00444"
+    title: "Removing a ray from a noncompact symplectic manifold"
+    year: 2018
+    coauthors: []
+    journal: "International Mathematics Research Notices 2020(22):8878-8895"
+    primary_category: math.SG
+    sources: [arxiv]
+  - id: "1803.00998"
+    title: "Vũ Ngọc's Conjecture on focus-focus singular fibers with multiple pinched points"
+    year: 2018
+    coauthors: ["Álvaro Pelayo"]
+    primary_category: math.SG
+    sources: [arxiv]
+  - id: "1704.08659"
+    title: "Symplectic stability on manifolds with cylindrical ends"
+    year: 2017
+    coauthors: ["Sean Curry", "Álvaro Pelayo"]
+    primary_category: math.SG
+    sources: [arxiv]
+  - id: "1607.03800"
+    title: "Moser stability for volume forms on noncompact fiber bundles"
+    year: 2016
+    coauthors: ["Álvaro Pelayo"]
+    primary_category: math.SG
+    sources: [arxiv]
+activity:
+  total_papers: 9
+  preprint_only_count: 6
+  published_count: 3
+  active_period: "2016-present"
+external_ids: {}
+links:
+  homepage: "https://xiudi-tang.github.io/"
+  email: "xiudi.tang@bit.edu.cn"
+personal_notes: |
+  北京理工大学数学与统计学院助理教授。研究方向为微分几何、辛几何、可积系统，
+  尤其关注非紧辛流形、奇异 Lagrangian fibration（focus-focus 奇异点）、almost-toric
+  和 semitoric 可积系统的分类。
+
+  学术轨迹：2014 清华数学本科 → UCSD 博士（导师 Pelayo, 2018）→ Cornell visiting
+  AP（mentor Sjamaar）→ 多伦多博后（mentors Karshon, Gualtieri）→ 北理工 AP。
+
+  代表性工作：与 Karshon 的 symplectic excision (2021)，引入"时间无关不完全
+  Hamilton 流"切除辛流形闭子集的方法，构造了 Cantor brush 等反例；与 Pelayo
+  的 Vũ Ngọc 多 pinched point focus-focus 奇异纤维猜想验证 (2018)；
+  独立工作 "Removing a ray from a noncompact symplectic manifold" (IMRN 2020)。
+
+  2023-05-24 邀请多伦多博后李昱 (Yu Li) 到北理工良乡校区作报告，题目为
+  "Integrable systems on the dual of nilpotent Lie subalgebras and T-Poisson
+  cluster structures"（与 Yanpeng Li、Jiang-Hua Lu 合作工作），地点：
+  良乡校区文萃楼 E808。
+sources:
+  - label: "个人主页"
+    url: "https://xiudi-tang.github.io/"
+  - label: "UCSD homepage (旧)"
+    url: "https://mathweb.ucsd.edu/~xit014/index.html"
+  - label: "Cornell faculty page"
+    url: "https://math.cornell.edu/xiudi-tang"
+tags:
+  - bit
+  - symplectic-geometry

@@ -1,0 +1,214 @@
+slug: li-yu
+name:
+  en: "Yu Li"
+  zh: "李昱"
+born: null
+died: null
+nationality: Chinese
+gender: male
+photo_url: null
+career_timeline:
+  - period: "[?]-2014"
+    type: education
+    institution: hku
+    role: "学士, 数学"
+    notes: "2014 年于香港大学数学系毕业"
+  - period: "[待补充]-2021"
+    type: education
+    institution: uchicago
+    role: "博士, 数学"
+    advisor: "Victor Ginzburg"
+    notes: "博士论文：Quantum Boson Algebra and Poisson Geometry of the Flag Variety (MGP ID 277097)"
+  - period: "2021-2022"
+    type: position
+    institution: mpim-bonn
+    role: "博士后"
+    notes: "Max Planck Institute for Mathematics, Bonn"
+  - period: "2022-present"
+    type: position
+    institution: toronto
+    role: "博士后 (Postdoctoral Fellow)"
+    notes: "多伦多大学数学系。合作导师: Joel Kamnitzer, Eckhard Meinrenken。邮箱 liyu@math.toronto.edu。2024-25 学年讲授 MAT235Y1 Multivariable Calculus"
+research_areas:
+  - symplectic-geometry
+  - geometric-representation-theory
+  - poisson-geometry
+  - cluster-algebras
+  - integrable-systems
+identity_profile:
+  mathgenealogy_id: "277097"
+  affiliations:
+    - institution: "hku"
+      period: "[?]-2014"
+      role: "学士, 数学"
+    - institution: "uchicago"
+      period: "[待补充]-2021"
+      role: "博士, 数学"
+    - institution: "mpim-bonn"
+      period: "2021-2022"
+      role: "博士后"
+    - institution: "toronto"
+      period: "2022-present"
+      role: "博士后"
+  email_domains: [math.toronto.edu, math.uchicago.edu]
+  coauthor_circle_core_slugs: []
+  coauthor_circle_core_names: ["Victor Ginzburg", "Sam Evens", "Joel Kamnitzer", "Eckhard Meinrenken", "Jiang-Hua Lu", "Yanpeng Li", "Boming Jia"]
+  research_keywords:
+    - "poisson"
+    - "flag-variety"
+    - "quantum-boson"
+    - "cluster"
+    - "lagrangian"
+    - "cartan"
+    - "wonderful-compactification"
+    - "nilpotent-orbit"
+    - "integrable"
+  known_arxiv_ids:
+    - "2511.02179"
+    - "2411.19936"
+    - "2411.18904"
+    - "2308.06880"
+    - "2010.04358"
+    - "1904.10141"
+    - "1705.01639"
+advisor: "Victor Ginzburg"
+mentors:
+  - "Joel Kamnitzer"
+  - "Eckhard Meinrenken"
+students: []
+key_collaborators:
+  - name: "Sam Evens"
+    since: 2020
+    topic: "Wonderful compactification of Cartan subalgebra; abelian ideals and Lagrangian subalgebras"
+    papers_count: 2
+    notes: "Notre Dame"
+  - name: "Joel Kamnitzer"
+    since: 2023
+    topic: "Moduli space of cactus flower curves and virtual cactus group"
+    papers_count: 1
+    notes: "多伦多博后导师"
+  - name: "Eckhard Meinrenken"
+    since: 2022
+    topic: "Geometric quantization, Weil algebras"
+    papers_count: 0
+    notes: "多伦多博后导师 (合作中)"
+  - name: "Jiang-Hua Lu"
+    since: 2024
+    topic: "Polynomial integrable systems from cluster structures; T-Poisson seeds"
+    papers_count: 1
+    notes: "港大教授，李昱本科母校的 Poisson 几何核心人物"
+  - name: "Yanpeng Li"
+    since: 2024
+    topic: "Polynomial integrable systems from cluster structures"
+    papers_count: 1
+    notes: "Geneva 学派（Alekseev 学生圈），与 Jiang-Hua Lu 长期合作"
+  - name: "Boming Jia"
+    since: 2025
+    topic: "Minimal nilpotent orbits and toric varieties"
+    papers_count: 1
+  - name: "Aleksei Ilin"
+    since: 2023
+    topic: "Moduli space of cactus flower curves"
+    papers_count: 1
+  - name: "Piotr Przytycki"
+    since: 2023
+    topic: "Virtual cactus group"
+    papers_count: 1
+  - name: "Leonid Rybnikov"
+    since: 2023
+    topic: "Cactus flower curves"
+    papers_count: 1
+publications:
+  - id: "2511.02179"
+    title: "Minimal Nilpotent Orbits and Toric Varieties"
+    year: 2025
+    coauthors: ["Boming Jia"]
+    primary_category: math.AG
+    sources: [arxiv]
+  - id: "2411.19936"
+    title: "Wonderful Compactification of a Cartan Subalgebra of a Semisimple Lie Algebra"
+    year: 2024
+    coauthors: ["Sam Evens"]
+    primary_category: math.RT
+    sources: [arxiv]
+  - id: "2411.18904"
+    title: "Polynomial integrable systems from cluster structures"
+    year: 2024
+    coauthors: ["Yanpeng Li", "Jiang-Hua Lu"]
+    primary_category: math.SG
+    sources: [arxiv]
+  - id: "2308.06880"
+    title: "The moduli space of cactus flower curves and the virtual cactus group"
+    year: 2023
+    coauthors: ["Aleksei Ilin", "Joel Kamnitzer", "Piotr Przytycki", "Leonid Rybnikov"]
+    primary_category: math.AG
+    sources: [arxiv]
+  - id: "2010.04358"
+    title: "Abelian Ideals and the Variety of Lagrangian Subalgebras"
+    year: 2020
+    coauthors: ["Sam Evens"]
+    primary_category: math.RT
+    sources: [arxiv]
+  - id: "1904.10141"
+    title: "Quantum Boson Algebra and Poisson Geometry of the Flag Variety"
+    year: 2019
+    coauthors: []
+    primary_category: math.QA
+    sources: [arxiv]
+    notes: "博士论文同名工作 (2021 Chicago thesis)"
+  - id: "1705.01639"
+    title: "Gaiotto's Lagrangian subvarieties via loop groups"
+    year: 2017
+    coauthors: []
+    primary_category: math.AG
+    sources: [arxiv]
+activity:
+  total_papers: 7
+  preprint_only_count: 7
+  published_count: 0
+  active_period: "2017-present"
+external_ids:
+  mathgenealogy: "277097"
+links:
+  homepage: null
+  email: "liyu@math.toronto.edu"
+personal_notes: |
+  多伦多大学数学系博士后（2022-），合作导师 Joel Kamnitzer 与 Eckhard Meinrenken。
+  研究方向：辛几何与几何表示论，特别关注 flag variety 上的 Poisson 几何、量子
+  Boson 代数、cluster 结构与可积系统、nilpotent 轨道的紧化。
+
+  学术轨迹：2014 港大数学本科 → 芝加哥大学博士 2021（导师 Victor Ginzburg，论文
+  "Quantum Boson Algebra and Poisson Geometry of the Flag Variety"，MGP 277097）
+  → MPIM Bonn 博后 2021-2022 → 多伦多博后 2022-至今。
+
+  代表性工作线：
+  (1) 与 Sam Evens (Notre Dame) 合作系列：Lagrangian 子代数的 abelian ideal
+      分类 (2020)，semisimple Lie algebra 中 Cartan 子代数的 wonderful
+      compactification (2024)；
+  (2) 与 Jiang-Hua Lu、Yanpeng Li 合作：从 Poisson 簇的 cluster 结构构造多项式
+      可积系统 (arXiv:2411.18904)，把 Bott-Samelson 坐标变成 T-Poisson seed；
+  (3) 与 Kamnitzer、Ilin、Przytycki、Rybnikov 合作：cactus flower 曲线模空间
+      与 virtual cactus 群 (2023)；
+  (4) 与 Boming Jia 合作：sl(n+1) 中 minimal nilpotent 轨道在 n⁺⊕n⁻ 上限制
+      与 toric 簇的关系 (2025)。
+
+  2023-05-24 应北理工唐修棣 (Xiudi Tang) 邀请到良乡校区作报告，题目正是
+  arXiv:2411.18904 这条工作线（"Integrable systems on the dual of nilpotent
+  Lie subalgebras and T-Poisson cluster structures"），当时还是 in progress。
+
+  与本图谱潜在连接：通过 Yanpeng Li 与日内瓦 Alekseev 学派 (Alekseev、xu-xiaomeng)
+  存在二阶合作链；导师 Meinrenken 与 Alekseev 长期合作（Weil 代数量子化、
+  group-valued moment map）。
+sources:
+  - label: "Math Genealogy"
+    url: "https://www.mathgenealogy.org/id.php?id=277097"
+  - label: "Notre Dame seminar (2019)"
+    url: "https://math.nd.edu/events/2019/01/31/cluster-algebras-seminar-li-yu-university-of-chicago/"
+  - label: "McGill CIRGET seminar (2024-11)"
+    url: "https://www.mcgill.ca/mathstat/channels/event/yu-li-university-toronto-361266"
+  - label: "arXiv 2411.18904"
+    url: "https://arxiv.org/abs/2411.18904"
+tags:
+  - toronto
+  - geometric-representation-theory
+  - poisson-geometry
