@@ -18,7 +18,7 @@ export default function PapersPage() {
   const seenIds = new Set<string>();
 
   for (const p of people) {
-    const pubs = (p as any).publications || [];
+    const pubs = p.publications || [];
     const name = displayName(p.slug);
     for (const pub of pubs) {
       if (pub.id && !seenIds.has(pub.id)) {
@@ -50,7 +50,7 @@ export default function PapersPage() {
     <div className="max-w-4xl mx-auto px-6 py-10">
       <h1 className="text-2xl font-bold text-[#e8e8f0] mb-2">论文</h1>
       <p className="text-[#8888a0] mb-8">
-        库中 {allPubs.length} 篇论文（{people.filter((p) => (p as any).publications?.length).length} 位作者）
+        库中 {allPubs.length} 篇论文（{people.filter((p) => p.publications?.length).length} 位作者）
       </p>
 
       {years.map((year) => {

@@ -34,10 +34,25 @@ activity:
   notes: '未在 arXiv/OpenAlex 找到可归属的数学论文（同名作者极多）。用户侧标注其为 HUST 博士生/博后一类'
 external_ids: {}
 links:
-  math_center: "https://mathcenter.hust.edu.cn/info/1049/3121.htm"
+  homepage: "https://mathcenter.hust.edu.cn/Chinese/Members.htm"
+  faculty_page: "http://faculty.hust.edu.cn/XIANGMAOSONG/zh_CN/xsxx/2193892/content/4743.htm"
+known_affiliations:
+  - "华中科技大学数学中心"
+  - "华中科技大学数学与统计学院"
+online_traces:
+  - type: faculty
+    label: "向茂松主页学生信息：李澳"
+    url: "http://faculty.hust.edu.cn/XIANGMAOSONG/zh_CN/xsxx/2193892/content/4743.htm"
+    last_verified: "2026-05-15"
+    notes: "华中科技大学主页平台列出李澳，状态为在校，入学日期 2023-09-01。"
+  - type: faculty
+    label: "华中科技大学数学中心成员名单"
+    url: "https://mathcenter.hust.edu.cn/Chinese/Members.htm"
+    last_verified: "2026-05-15"
+    notes: "中心成员页硕士名单中列出李澳。"
 personal_notes: |
-  HUST 数学中心在读硕士研究生 (2023-09 入学), 导师向茂松 (Maosong Xiang)。
-  信息来源 HUST faculty 系统向茂松主页的学生信息页。
+  HUST 数学中心在读硕士研究生 (2023-09-01 入学), 导师向茂松 (Maosong Xiang)。
+  信息来源为 HUST faculty 系统向茂松主页的学生信息页，并可在华中科技大学数学中心硕士名单中复核。
   2026 年 HUST 数学物理与几何研讨会 HUST 参会学生之一。
 sources:
   - label: "HUST Math Center member page"

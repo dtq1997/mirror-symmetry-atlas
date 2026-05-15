@@ -39,11 +39,16 @@ research_areas:
 - symplectic-geometry
 identity_profile:
   openalex_id: 'A5106276233'
+  orcid: '0009-0006-7122-3879'
   affiliations:
+    - institution: 'ohio-state'
+      period: '[?]-2024'
+      role: '博士/博士后 [待验证]'
     - institution: 'wuhan'
       period: '2024-present'
       role: '[待验证]'
-  email_domains: [whu.edu.cn]
+  email_domains: [whu.edu.cn, buckeyemail.osu.edu]
+  coauthor_circle_core_names: ['Hsian-Hua Tseng', 'Jiun-Cheng Chen']
   research_keywords:
     - 'bundles'
     - 'cohomology'
@@ -60,26 +65,12 @@ identity_profile:
     - 'transformation'
     - 'witten'
   known_arxiv_ids:
-    - '2502.09041'
     - '2410.22670'
     - '2407.21288'
-    - '2211.06836'
-    - '2202.09078'
-    - '2202.03729'
-    - '2103.15605'
-    - '1912.02431'
-    - '1812.10367'
-    - '1601.03125'
-    - '1501.07802'
-    - '1407.0539'
-    - '1403.6980'
-    - '1303.6028'
-    - '1204.2917'
-    - '1201.2051'
 advisor: tseng-hsian-hua
 students: []
 key_collaborators:
-- person: Hsian-Hua Tseng
+- person: tseng-hsian-hua
   since: 2024
   topic: Toric stack bundles, crepant transformation, derived category
   papers_count: 2
@@ -88,18 +79,10 @@ key_collaborators:
   topic: Toric stack bundles, crepant transformation, derived category
   papers_count: 2
 publications:
-  - id: '2502.09041'
-    title: 'Isoparametric foliations and complex structures'
-    year: 2025
-    coauthors: ['Zizhou Tang', 'Wenjiao Yan']
-    doi: '10.1142/s0129167x26500400'
-    journal: 'International Journal of Mathematics'
-    primary_category: math.DG
-    sources: [arxiv]
   - id: '2410.22670'
     title: 'Crepant Transformation Correspondence For Toric Stack Bundles'
     year: 2024
-    coauthors: ['Jiun-Cheng Chen', 'Hsian-Hua Tseng']
+    coauthors: ['Jiun-Cheng Chen', tseng-hsian-hua]
     doi: '10.1515/advgeom-2025-0037'
     journal: 'Advances in Geometry, vol. 26, no. 1, 2026, pp. 105--125'
     primary_category: math.AG
@@ -108,108 +91,18 @@ publications:
   - id: '2407.21288'
     title: 'On the derived category of a toric stack bundle'
     year: 2024
-    coauthors: ['Jiun-Cheng Chen', 'Hsian-Hua Tseng']
+    coauthors: ['Jiun-Cheng Chen', tseng-hsian-hua]
     doi: '10.1016/j.jpaa.2025.107882'
     journal: 'Journal of Pure and Applied Algebra Volume 229, Issue 2, February 2025, 107882'
     primary_category: math.AG
     openalex_id: W4406440862
     sources: [arxiv, openalex]
-  - id: '2211.06836'
-    title: 'Symmetry of hypersurfaces with symmetric boundary'
-    year: 2022
-    coauthors: ['Hui Ma', 'Jing Wu', 'Yongsheng Zhang']
-    primary_category: math.DG
-    sources: [arxiv]
-  - id: '2202.09078'
-    title: 'Clifford systems, harmonic maps and metrics with non-negative curvature'
-    year: 2022
-    coauthors: ['Zizhou Tang', 'Wenjiao Yan']
-    primary_category: math.DG
-    sources: [arxiv]
-  - id: '2202.03729'
-    title: 'On two questions of James'
-    year: 2022
-    coauthors: ['Zizhou Tang', 'Wenjiao Yan']
-    primary_category: math.DG
-    sources: [arxiv]
-  - id: '2103.15605'
-    title: 'Topology and curvature of isoparametric families in spheres'
-    year: 2021
-    coauthors: ['Zizhou Tang', 'Wenjiao Yan']
-    doi: '10.1007/s40304-021-00259-2'
-    primary_category: math.DG
-    sources: [arxiv]
-  - id: '1912.02431'
-    title: 'Extrinsic geometry of the Gromoll-Meyer sphere'
-    year: 2019
-    coauthors: ['Zizhou Tang', 'Wenjiao Yan']
-    doi: '10.1016/j.difgeo.2020.101638'
-    primary_category: math.DG
-    sources: [arxiv]
-  - id: '1812.10367'
-    title: 'Clifford algebra, isoparametric foliation and related geometric constructions'
-    year: 2018
-    coauthors: ['Zizhou Tang']
-    primary_category: math.DG
-    sources: [arxiv]
-  - id: '1601.03125'
-    title: 'Ricci curvature of double manifolds via isoparametric foliations'
-    year: 2016
-    coauthors: ['ChiaKuei Peng']
-    doi: '10.1016/j.aim.2017.03.001'
-    journal: 'Advances in Mathematics'
-    primary_category: math.DG
-    sources: [arxiv]
-  - id: '1501.07802'
-    title: 'Differential topology interacts with isoparametric foliations'
-    year: 2015
-    coauthors: ['Jianquan Ge']
-    doi: '10.1007/978-4-431-56021-0_8'
-    journal: 'Springer Proceedings in Mathematics &amp; Statistics Geometry and Topology of Manifolds'
-    primary_category: math.DG
-    sources: [arxiv]
-  - id: '1407.0539'
-    title: 'Isoparametric foliations, a problem of Eells-Lemaire and conjectures of Leung'
-    year: 2014
-    coauthors: ['Zizhou Tang']
-    doi: '10.1112/plms/pdw015'
-    primary_category: math.DG
-    sources: [arxiv]
-  - id: '1403.6980'
-    title: 'Recent progress in isoparametric functions and isoparametric hypersurfaces'
-    year: 2014
-    coauthors: ['Zizhou Tang']
-    doi: '10.1007/978-4-431-55215-4_6'
-    journal: 'Springer Proceedings in Mathematics &amp; Statistics Real and Complex Submanifolds'
-    primary_category: math.DG
-    sources: [arxiv]
-  - id: '1303.6028'
-    title: 'Isoparametric functions on exotic spheres'
-    year: 2013
-    coauthors: ['Zizhou Tang']
-    doi: '10.1016/j.aim.2014.12.020'
-    journal: 'Advances in Mathematics'
-    primary_category: math.DG
-    sources: [arxiv]
-  - id: '1204.2917'
-    title: 'New examples of Willmore submanifolds in the unit sphere via isoparametric functions,II'
-    year: 2012
-    coauthors: ['Zizhou Tang', 'Wenjiao Yan']
-    doi: '10.1007/s10455-012-9332-2'
-    primary_category: math.DG
-    sources: [arxiv]
-  - id: '1201.2051'
-    title: 'Finiteness theorems for equifocal hypersurfaces'
-    year: 2012
-    coauthors: ['Jianquan Ge', 'Zizhou Tang']
-    primary_category: math.DG
-    sources: [arxiv]
 activity:
-  total_papers: 16
-  published_count: 11
-  preprint_only_count: 5
+  total_papers: 2
+  published_count: 2
+  preprint_only_count: 0
   active_period: '2024-present'
-  confidence: 'has-2-review-pending'
+  confidence: 'OpenAlex author profile + ORCID + coauthor circle; removed isoparametric homonym pollution'
   quality_source: 'openalex + ruirui-2026'
   t1_papers: 0
   t2_papers: 0
@@ -219,9 +112,36 @@ activity:
   oa_total_papers: 3
 external_ids:
   openalex: A5106276233
+  orcid: 0009-0006-7122-3879
 links:
   email: 'chao818@whu.edu.cn'
-  email_osu: 'chao.191@buckeyemail.osu.edu'
+known_emails:
+  - 'chao818@whu.edu.cn'
+  - 'chao.191@buckeyemail.osu.edu'
+known_affiliations:
+  - 'School of Mathematics and Statistics, Wuhan University, Wuhan, China'
+  - 'Department of Mathematics, Ohio State University, Columbus, OH, USA'
+online_traces:
+  - type: arxiv
+    label: 'arXiv:2410.22670'
+    url: 'https://arxiv.org/abs/2410.22670'
+    last_verified: '2026-05-16'
+    notes: '与 Jiun-Cheng Chen、Hsian-Hua Tseng 合作 toric stack bundles 的 crepant transformation correspondence。'
+  - type: arxiv
+    label: 'arXiv:2407.21288'
+    url: 'https://arxiv.org/abs/2407.21288'
+    last_verified: '2026-05-16'
+    notes: '与 Jiun-Cheng Chen、Hsian-Hua Tseng 合作 toric stack bundle 的 derived category。'
+  - type: orcid
+    label: 'ORCID 0009-0006-7122-3879'
+    url: 'https://orcid.org/0009-0006-7122-3879'
+    last_verified: '2026-05-16'
+    notes: '公开记录姓名 Qian Chao、Ohio State Mathematics employment，以及 JPAA 论文 DOI。'
+  - type: openalex
+    label: 'OpenAlex A5106276233'
+    url: 'https://openalex.org/authors/A5106276233'
+    last_verified: '2026-05-16'
+    notes: '该作者档案 works_count=3；其中 2407.21288 的 arXiv 与 JPAA 发表版重复，排除另一位 isoparametric 方向 Qian Chao。'
 personal_notes: |
   武汉大学数学与统计学院(2024 起)。博士毕业于 Ohio State University，导师 Hsian-Hua Tseng
   (曾显华，OSU)。研究方向：Gromov-Witten 理论、toric stack bundles、crepant transformation
@@ -229,17 +149,16 @@ personal_notes: |
   核心工作：与导师 Tseng 和 NTHU 的 Jiun-Cheng Chen 合作，研究 toric stack bundles 的
   I-function、Mellin-Barnes 积分的解析延拓与 Fourier-Mukai 变换，建立了 toric stack bundles
   之间 genus-zero GW 理论的 crepant transformation correspondence。
-  注意：中文名"钞乾"(姓"钞"，较罕见)与另一位名为 Chao Qian (陈志周-唐梓洲组从事 isoparametric
-  foliations 方向，曾在 Capital Normal Univ) 不同人，不要混淆。
+  注意：中文名"钞乾"(姓"钞"，较罕见)与另一位名为 Chao Qian (唐梓洲组从事 isoparametric
+  foliations 方向，曾在 Capital Normal Univ) 不同人；本档案只保留 toric stack bundles 方向论文。
   2026 HUST 数学物理与几何研讨会武大参会学者之一。
-  
-  现职：武汉大学数学与统计学院（2024-，[职级待验证]）；email chao818@whu.edu.cn
-  学历：Ohio State University 博士（导师 Hsian-Hua Tseng 曾显华，toric stack bundles 方向）；OSU 博士后
-  重要奖项：[待补]
-  趣闻：中文姓"钞"罕见。注意与同名 Chao Qian（北师大唐梓洲学派 isoparametric foliation 方向，BIT 副教授）不是同一人——atlas 此前已专门做了消歧记录。2026 拟参加 HUST 数学物理与几何研讨会
 sources:
   - label: 'arXiv 2410.22670 (current address: Wuhan University)'
     url: 'https://arxiv.org/abs/2410.22670'
+  - label: 'arXiv 2407.21288'
+    url: 'https://arxiv.org/abs/2407.21288'
+  - label: 'ORCID'
+    url: 'https://orcid.org/0009-0006-7122-3879'
   - label: 'OpenAlex A5106276233'
     url: 'https://openalex.org/authors/A5106276233'
 tags:

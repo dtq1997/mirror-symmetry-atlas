@@ -30,6 +30,8 @@ import urllib.parse
 import xml.etree.ElementTree as ET
 import yaml
 
+from cache_paths import cache_path
+
 NS = {'a': 'http://www.w3.org/2005/Atom', 'arxiv': 'http://arxiv.org/schemas/atom'}
 
 MATH_PRIMARY_PREFIXES = ('math.', 'math-ph', 'nlin.SI', 'hep-th')
@@ -179,15 +181,17 @@ def keyword_signal(title, research_areas):
     return matched
 
 
-def fetch_arxiv_submitter(arxiv_id, cache_dir='data/papers/_arxiv_cache', delay=4):
+def fetch_arxiv_submitter(arxiv_id, cache_dir=None, delay=4):
     """Fetch the abstract HTML page and extract the 'From: <name>' submitter.
     Returns the submitter name string or None.
     Caches HTML on disk to avoid re-hitting arxiv.
     """
+    if cache_dir is None:
+        cache_dir = cache_path('_arxiv_abs_cache')
     os.makedirs(cache_dir, exist_ok=True)
-    cache_path = os.path.join(cache_dir, f'{arxiv_id}.html')
-    if os.path.exists(cache_path) and os.path.getsize(cache_path) > 1000:
-        with open(cache_path, 'r', errors='ignore') as f:
+    cache_file = os.path.join(cache_dir, f'{arxiv_id}.html')
+    if os.path.exists(cache_file) and os.path.getsize(cache_file) > 1000:
+        with open(cache_file, 'r', errors='ignore') as f:
             html = f.read()
     else:
         time.sleep(delay)
@@ -198,7 +202,7 @@ def fetch_arxiv_submitter(arxiv_id, cache_dir='data/papers/_arxiv_cache', delay=
         )
         html = result.stdout or ''
         if len(html) > 1000:
-            with open(cache_path, 'w') as f:
+            with open(cache_file, 'w') as f:
                 f.write(html)
     m = re.search(r'From:\s*([^<\[\n]+?)\s*\[', html)
     if m:

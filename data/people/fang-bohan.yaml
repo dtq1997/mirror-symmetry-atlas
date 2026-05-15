@@ -29,7 +29,8 @@ career_timeline:
     institution: pku-bicmr
     role: "助理教授 → 长聘副教授 → 教授"
     notes: "北京大学 BICMR。2015 年青年千人计划入选"
-  - type: award
+  - period: "[待验证]"
+    type: award
     title: "国家杰出青年科学基金"
   - period: "2022"
     type: award
@@ -230,7 +231,7 @@ publications:
   - id: '1212.6073'
     title: 'Open-closed Gromov-Witten invariants of 3-dimensional Calabi-Yau smooth toric DM stacks'
     year: 2012
-    coauthors: [liu-melissa, 'Hsian-Hua Tseng']
+    coauthors: [liu-melissa, tseng-hsian-hua]
     doi: '10.1017/fms.2022.57'
     journal: 'Forum of Mathematics Sigma 10, e58 (2022)'
     primary_category: math.AG

@@ -157,18 +157,43 @@ activity:
   preprint_only_count: 1
   active_period: '2017-present'
 external_ids: {}
-links: {}
+links:
+  homepage: 'https://faculty.ustc.edu.cn/zhouchunhui/zh_CN/index.htm'
+  faculty_page: 'https://faculty.ustc.edu.cn/zhouchunhui/zh_CN/index.htm'
+  email: 'zhouch@ustc.edu.cn'
+known_emails:
+  - "zhouch@ustc.edu.cn"
+known_affiliations:
+  - "Institute of Geometry and Physics, University of Science and Technology of China"
+  - "School of Mathematical Sciences, University of Science and Technology of China"
+  - "清华大学数学系"
+online_traces:
+  - type: faculty
+    label: "中国科学技术大学周春辉中文主页"
+    url: "https://faculty.ustc.edu.cn/zhouchunhui/zh_CN/index.htm"
+    last_verified: "2026-05-15"
+    notes: "官方主页列出特任教授、博士学位和数学物理研究方向。"
+  - type: faculty
+    label: "USTC Institute of Geometry and Physics: Chunhui Zhou"
+    url: "https://en.igp.ustc.edu.cn/2021/1217/c30218a539492/page.htm"
+    last_verified: "2026-05-15"
+    notes: "英文页面列出清华本科/博士、2018-2021 博士后、2021-2024 Research Assistant Professor、2024 起 Professor。"
+  - type: arxiv
+    label: "arXiv:2409.12529 TeX source"
+    url: "https://arxiv.org/e-print/2409.12529"
+    last_verified: "2026-05-15"
+    notes: "TeX 源记录 USTC Institute of Geometry and Physics 署名单位和邮箱 zhouch@ustc.edu.cn。"
 personal_notes: |
   清华张友金/刘思齐组的核心合作者（Liu 4 篇, Zhang 4 篇），同时与杨迪密切合作(5 篇)。
   arXiv 13 篇中 7 篇是可积系统方向（另 6 篇是流体力学的同名者）。
   2026 HUST 会议报告: Burgers-KdV hierarchy and tau-function，明确使用 Dubrovin-Zhang theory。
-  
-  现职：推断 USTC 系统内 (与杨迪/张友金合作密切；博士在清华读) [待验证]
-  学历：清华大学博士 (与 Si-Qi Liu 合作期间为博士生)
-  研究：Hodge-FVH 对应、loop 方程 for 特殊 cubic Hodge 积分、Hodge-BGW 对应；JDG 2022, Crelle 2021
 sources:
   - label: 'USTC faculty page'
     url: 'https://faculty.ustc.edu.cn/zhouchunhui/zh_CN/index.htm'
+  - label: 'USTC IGP profile'
+    url: 'https://en.igp.ustc.edu.cn/2021/1217/c30218a539492/page.htm'
+  - label: 'arXiv TeX source 2409.12529'
+    url: 'https://arxiv.org/e-print/2409.12529'
   - label: 'arXiv (math-ph)'
     url: 'https://arxiv.org/search/?searchtype=author&query=Chunhui+Zhou'
 tags:

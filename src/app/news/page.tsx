@@ -1,9 +1,9 @@
 import fs from "fs";
 import path from "path";
 import yaml from "js-yaml";
-import Link from "next/link";
 import RichSummary from "@/components/shared/RichSummary";
 import { getPeopleMap, getConceptsMap } from "@/lib/data";
+import type { Concept, Person } from "@/lib/types";
 
 interface NewsEntry {
   id: string;
@@ -46,11 +46,13 @@ function loadAllEntries(): NewsEntry[] {
   return [...byId.values()].sort((a, b) => b.date.localeCompare(a.date));
 }
 
-function getPersonHover(slug: string, people: Map<string, any>) {
+function getPersonHover(slug: string, people: Map<string, Person>) {
   const p = people.get(slug);
   if (!p) return undefined;
   const name = p.name?.zh || p.name?.en || slug;
-  const career = (p.career_timeline || []).filter((e: any) => e.type === "position").pop();
+  const career = (p.career_timeline || [])
+    .filter((e) => e.type === "position")
+    .pop();
   const details: string[] = [];
   if (career?.role) details.push(career.role);
   if (career?.institution) details.push(career.institution);
@@ -58,7 +60,7 @@ function getPersonHover(slug: string, people: Map<string, any>) {
   return { title: name, subtitle: p.name?.en !== name ? p.name?.en : undefined, details };
 }
 
-function getConceptHover(slug: string, concepts: Map<string, any>) {
+function getConceptHover(slug: string, concepts: Map<string, Concept>) {
   const c = concepts.get(slug);
   if (!c) return undefined;
   const name = c.name?.zh || c.name?.en || slug;
@@ -70,8 +72,8 @@ function getConceptHover(slug: string, concepts: Map<string, any>) {
 
 function buildEntities(
   entry: NewsEntry,
-  people: Map<string, any>,
-  concepts: Map<string, any>
+  people: Map<string, Person>,
+  concepts: Map<string, Concept>
 ) {
   const entities: {
     slug: string;

@@ -449,11 +449,35 @@ external_ids:
 links:
   homepage: 'https://math.sysu.edu.cn/gagp/czli'
   email: 'lichangzh@mail.sysu.edu.cn'
-  faculty: 'https://math.sysu.edu.cn/teacher/504'
+  faculty_page: 'https://math.sysu.edu.cn/teacher/504'
+known_emails:
+  - "lichangzh@mail.sysu.edu.cn"
+known_affiliations:
+  - "School of Mathematics, Sun Yat-sen University"
+  - "Institute for Basic Science, Center for Geometry and Physics"
+  - "Kavli Institute for the Physics and Mathematics of the Universe, The University of Tokyo"
+  - "Korea Institute for Advanced Study"
+  - "Institute of Mathematical Sciences, The Chinese University of Hong Kong"
+  - "University of Science and Technology of China"
+online_traces:
+  - type: faculty
+    label: "中山大学数学学院教师主页"
+    url: "https://math.sysu.edu.cn/teacher/504"
+    last_verified: "2026-05-15"
+    notes: "页面列出职称、邮箱、工作经历和研究方向。"
+  - type: homepage
+    label: "GAGP 个人主页"
+    url: "https://math.sysu.edu.cn/gagp/czli"
+    last_verified: "2026-05-15"
+  - type: mathgenealogy
+    label: "Math Genealogy: Changzheng Li"
+    url: "https://www.mathgenealogy.org/id.php?id=155889"
+    last_verified: "2026-05-15"
+  - type: other
+    label: "CUHK alumni profile"
+    url: "https://www.math.cuhk.edu.hk/alumni/li-changzheng"
+    last_verified: "2026-05-15"
 personal_notes: |
-  中山大学数学学院教授。2018年优青。
-  USTC 本科(2003) → 香港中文大学 MPhil(2005) + PhD(2009, 梁乃聪) → KIAS 博后(2009-2011, mentor Bumsig Kim)
-  → Kavli IPMU 博后(2011-2014) → IBS-CGP tenure-track(2014-2016) → 中山大学教授(2016-)。
   论文 Quantum cohomology of homogeneous varieties (PhD thesis)。
   三个核心研究方向：
   (1) Flag varieties 的 quantum Schubert calculus (博士以来一直做)，与 Leung, Mihalcea, Rietsch 等合作；
@@ -462,12 +486,7 @@ personal_notes: |
   近年非常活跃（2025年已 8 篇 arXiv），团队包括 Ke Huazhong, Jiayu Song, Mingzhi Yang 等年轻合作者。
   编辑 2 本学术著作 (Adv. Stud. Pure Math. vol.83; Springer Proc. Math. Stat. vol.332)。
   2026 HUST 会议报告: Quantum Schubert calculus for smooth Schubert divisors in $Fl_n$。
-  办公室: 815, 中山大学新数学楼。
-  
-  学历：PhD (HKUST?, 待补充) → 2009.09–2014.08 KIAS / Kavli IPMU postdoc → IBS-CGP (Korea) tenure-track → 2016 秋回中山大学
-  研究：量子 Schubert 演算; QH^*(G/B) ↔ QH^*(G/P) 函子关系 (与 Naichung Conan Leung); Conjecture O; Galkin 下界猜想; Plücker mirror for partial flag varieties (with Rietsch)
-  趣闻：与 Leung 合作的 *Functorial relationships QH(G/B) ↔ QH(G/P)* (JDG 2010) 是 Peterson 同构方向的代表作
-  媒体/社交：学术圈活跃, 公众低调
+  与 Leung 合作的 *Functorial relationships QH(G/B) ↔ QH(G/P)* (JDG 2010) 是 Peterson 同构方向的代表作。
 sources:
   - label: '中山大学数学学院'
     url: 'https://math.sysu.edu.cn/teacher/504'

@@ -11,7 +11,7 @@ career_timeline:
   - period: "2011-2015"
     type: education
     institution: ustc
-    role: "本科, 华罗庚班 (少年班学院)"
+    role: "理学学士, 华罗庚班 (少年班学院)"
   - period: "2015-2020"
     type: education
     institution: tsinghua
@@ -151,20 +151,53 @@ activity:
   published_count: 3
   preprint_only_count: 6
   active_period: '2019-present'
-external_ids: {}
-links: {}
+external_ids:
+  orcid: "0000-0002-2777-8248"
+links:
+  faculty_page: "https://www.gbu.edu.cn/detail/article/1147"
+  researchgate: "https://www.researchgate.net/profile/Qingsheng-Zhang-4"
+  email: "zhangqingsheng@gbu.edu.cn"
+known_emails:
+  - "zhangqingsheng@gbu.edu.cn"
+known_affiliations:
+  - "Great Bay University, School of Sciences"
+  - "Peking University, School of Mathematical Sciences"
+  - "Tsinghua University, Department of Mathematics"
+  - "University of Science and Technology of China, School of the Gifted Young"
+online_traces:
+  - type: faculty
+    label: "大湾区大学张庆生主页"
+    url: "https://www.gbu.edu.cn/detail/article/1147"
+    last_verified: "2026-05-15"
+    notes: "官方主页列出助理教授、邮箱、教育经历、工作经历和代表性论文。"
+  - type: orcid
+    label: "ORCID:0000-0002-2777-8248"
+    url: "https://orcid.org/0000-0002-2777-8248"
+    last_verified: "2026-05-15"
+    notes: "ORCID 记录 Great Bay University employment 和 verified gbu.edu.cn 邮箱域。"
+  - type: news
+    label: "大湾区大学 Adv. Math. 论文新闻"
+    url: "https://www.gbu.edu.cn/detail/article/1360"
+    last_verified: "2026-05-15"
+    notes: "学校新闻报道张庆生、王知远、杨成浪关于 generalized BGW 模型的论文。"
+  - type: news
+    label: "张庆生课题组与杨迪联合招收博士后"
+    url: "https://www.gbu.edu.cn/detail/article/1230"
+    last_verified: "2026-05-15"
+    notes: "官方招聘公告列出其清华博士、北大博士后经历和研究方向。"
 personal_notes: |
-  USTC 华罗庚班本科 → 清华博士 (周坚组 [待验证]) → PKU 博后 → 大湾区大学助理教授。
   研究方向包含 Frobenius manifolds 和 Dubrovin-Zhang theory，与本项目核心主题直接相关。
-  Email: zhangqingsheng@gbu.edu.cn
-  
-  现职：大湾区大学（东莞）助理教授 (2024-)
-  学历：USTC 华罗庚班 2011-2015；清华博士 2015-2020 (导师极可能周坚)；BICMR 北大博后 2020-2024
-  研究：Gromov-Witten 理论、Virasoro 约束、拓扑递归、可积层级、Frobenius manifold
-  奖项：[待补充]
-  趣闻：注意 PKU 数学院博后页面另有一位"张庆生"是丁剑组概率/随机游动方向——不是同一人，须按导师消歧
+  与杨迪的 Hodge-BGW correspondence、与王知远和杨成浪的 generalized BGW tau-functions
+  工作，把 Gromov-Witten 理论、Virasoro 约束、topological recursion 与 integrable hierarchy 连接起来。
+  注意 PKU 数学院博后页面另有一位"张庆生"是丁剑组概率/随机游动方向，不是同一人，须按导师和研究方向消歧。
 sources:
-  - label: '信息源'
-    url: 'https://www.math.pku.edu.cn/jsdw/bsh/zzbsh/index2.htm'
+  - label: '大湾区大学张庆生主页'
+    url: 'https://www.gbu.edu.cn/detail/article/1147'
+  - label: 'ORCID'
+    url: 'https://orcid.org/0000-0002-2777-8248'
+  - label: '大湾区大学 Adv. Math. 论文新闻'
+    url: 'https://www.gbu.edu.cn/detail/article/1360'
+  - label: '大湾区大学博士后招聘公告'
+    url: 'https://www.gbu.edu.cn/detail/article/1230'
 tags:
   - important-person

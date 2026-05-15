@@ -5,7 +5,7 @@ Usage:
   python3 scripts/download-arxiv-sources.py [slug1 slug2 ...]
   python3 scripts/download-arxiv-sources.py --all
 
-Downloads to data/papers/sources/{arxiv_id}/
+Downloads to .cache/msa/papers/sources/{arxiv_id}/ by default.
 """
 
 import yaml
@@ -17,8 +17,10 @@ import tarfile
 import gzip
 import shutil
 
+from cache_paths import cache_path
+
 PEOPLE_DIR = "data/people"
-SOURCES_DIR = "data/papers/sources"
+SOURCES_DIR = cache_path("sources")
 
 def get_paper_ids(slugs=None):
     """Extract arXiv IDs from people YAML files."""

@@ -338,17 +338,40 @@ external_ids:
   mathgenealogy: '275155'
 links:
   homepage: 'https://sites.google.com/site/guoshuaimath/'
+  faculty_page: 'https://www.math.pku.edu.cn/jsdw/js_20180628175159671361/g_20180628175159671361/69922.htm'
+  email: 'guoshuai@math.pku.edu.cn'
+known_emails:
+  - "guoshuai@math.pku.edu.cn"
+known_affiliations:
+  - "School of Mathematical Sciences, Peking University"
+  - "Beijing International Center for Mathematical Research, Peking University"
+  - "Department of Mathematical Sciences, Tsinghua University"
+online_traces:
+  - type: faculty
+    label: "北京大学数学科学学院教师页"
+    url: "https://www.math.pku.edu.cn/jsdw/js_20180628175159671361/g_20180628175159671361/69922.htm"
+    last_verified: "2026-05-15"
+    notes: "页面列出教授、数学物理教研室、邮箱、办公室和教育/工作经历。"
+  - type: homepage
+    label: "个人主页: Shuai Guo"
+    url: "https://sites.google.com/site/guoshuaimath/"
+    last_verified: "2026-05-15"
+  - type: mathgenealogy
+    label: "Math Genealogy: Shuai Guo"
+    url: "https://www.mathgenealogy.org/id.php?id=275155"
+    last_verified: "2026-05-15"
+  - type: other
+    label: "OpenAlex: Shuai Guo"
+    url: "https://openalex.org/authors/A5015466098"
+    last_verified: "2026-05-15"
 personal_notes: |
-  清华本硕博 (周坚组) → PKU 博后/讲师/副教授/教授。
   代表作：与 Chang, Li 合作证明 quintic 3-fold 的多项式结构 (Annals of Mathematics 2021)。
   证明 KKV conjecture (与周坚, Adv. Math. 2015)。求是杰出青年学者奖。
   2026 HUST 会议报告: higher-genus GW Theory of O(p-1)⊕O(-p-1)。
-  
-  现职：北京大学数学科学学院 博雅特聘教授、博导
-  学历：北大博士;BICMR 博后 (导师田刚)
-  研究：镜像对称、Gromov–Witten、拓扑弦论、高亏格枚举
-  趣闻：学生 Ji Ce (季策) 2024 北大博士毕业,现清华水木学者 — https://mathephor-ceji.github.io/
+  周坚学生圈在北大的关键承接者之一；季策由其指导后进入清华水木学者阶段，使 PKU/BICMR 与清华张友金、周坚方向继续连通。
 sources:
+  - label: '北京大学数学科学学院'
+    url: 'https://www.math.pku.edu.cn/jsdw/js_20180628175159671361/g_20180628175159671361/69922.htm'
   - label: 'Math Genealogy'
     url: 'https://www.mathgenealogy.org/id.php?id=275155'
   - label: 'OpenAlex'

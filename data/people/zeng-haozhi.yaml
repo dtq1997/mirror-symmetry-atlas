@@ -201,24 +201,36 @@ activity:
 external_ids:
   openalex: A5102352466
 links:
-  homepage: 'None'
   email: 'zenghaozhi@icloud.com'
+known_emails:
+  - 'zenghaozhi@icloud.com'
+known_affiliations:
+  - 'School of Mathematics and Statistics, Huazhong University of Science and Technology'
+  - 'Osaka City University'
+online_traces:
+  - type: arxiv
+    label: 'arXiv:2512.06646'
+    url: 'https://arxiv.org/abs/2512.06646'
+    last_verified: '2026-05-16'
+    notes: '与 Hiraku Abe、桂弢合作 totally nonnegative Peterson variety。'
+  - type: arxiv
+    label: 'arXiv:1409.6855'
+    url: 'https://arxiv.org/abs/1409.6855'
+    last_verified: '2026-05-16'
+    notes: '与 Ayzenberg、Masuda、Park 合作 toric origami structures。'
+  - type: openalex
+    label: 'OpenAlex A5102352466'
+    url: 'https://openalex.org/authors/A5102352466'
+    last_verified: '2026-05-16'
+    notes: 'OpenAlex profile 显示 Huazhong University of Science and Technology 关联。'
 personal_notes: |
-  HUST 数学与统计学院（非 HUST 数学中心）。arXiv 最新论文 2512.06646 明确显示其单位为
-  "School of Mathematics and Statistics, Huazhong University of Science and Technology"。
   学术路径：Osaka City University 博士 (2014 年已在 Osaka 发表 toric origami 论文，约 2015-2016 毕业)
   → HUST。博士导师 [待验证] 极可能是 Mikiya Masuda (与他合作 4 篇且是早期合作最密切的)。
   
-  研究方向：toric topology 与代数几何的交叉，核心关注 Hessenberg 流形与 Peterson 流形。
+  研究方向是 toric topology 与代数几何的交叉，核心关注 Hessenberg 流形与 Peterson 流形。
   重要成果：与 Hiraku Abe 合作证明 A 型 Peterson 流形的 totally nonnegative part 是 CW 复形
   (Rietsch 猜想)，近期 2025 年扩展到任意 Lie type (joint with Abe, Tao Gui)。
   NSFC 青年基金 11901218 (2020-2022)。日本合作网络广泛 (Masuda, Abe, Horiguchi, Sato, Kuroki)。
-  
-  现职：华中科技大学数学与统计学院 副教授 [待验证职称]
-  学历：大阪市立大学博士 ~2016 (导师极可能 Mikiya Masuda) [待验证]
-  研究：toric topology, Hessenberg varieties, Peterson variety, toric origami manifolds, GKM 理论, 等变上同调
-  奖项：NSFC 青年项目 11901218 (2020-2022)
-  趣闻：早期署名邮箱 zenghaozhi@icloud.com；与 Ayzenberg-Masuda-Park 合著 toric origami / 准复 toric 流形论文系列
 sources:
   - label: 'arXiv 2512.06646 (HUST affiliation)'
     url: 'https://arxiv.org/abs/2512.06646'
@@ -228,5 +240,7 @@ sources:
     url: 'https://projecteuclid.org/euclid.agt/1535594430'
   - label: '信息源'
     url: 'https://link.springer.com/article/10.1134/S0081543815010022'
+  - label: 'OpenAlex'
+    url: 'https://openalex.org/authors/A5102352466'
 tags:
   - hust

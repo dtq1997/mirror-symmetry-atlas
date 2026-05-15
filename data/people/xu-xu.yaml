@@ -125,7 +125,46 @@ identity_profile:
     - 'packing'
     - 'relativity'
     - 'rigidity'
-  known_arxiv_ids: [2511.09983, 2508.04069, 2507.18495, 2407.19501, 2401.05062]
+  known_arxiv_ids:
+    - '2511.09983'
+    - '2507.18495'
+    - '2504.09172'
+    - '2407.19501'
+    - '2401.05062'
+    - '2401.05056'
+    - '2312.02484'
+    - '2309.06685'
+    - '2309.05215'
+    - '2309.02457'
+    - '2309.01205'
+    - '2308.02271'
+    - '2307.13223'
+    - '2211.07464'
+    - '2208.03643'
+    - '2204.08191'
+    - '2204.08172'
+    - '2204.08145'
+    - '2110.12326'
+    - '2110.08474'
+    - '2110.01142'
+    - '2107.14102'
+    - '2105.14714'
+    - '2103.16077'
+    - '2103.05272'
+    - '2009.05477'
+    - '2009.02496'
+    - '1904.11127'
+    - '1904.11122'
+    - '1806.04516'
+    - '1806.02166'
+    - '1705.02714'
+    - '1701.01795'
+    - '1611.08835'
+    - '1505.05077'
+    - '1505.05076'
+    - '1504.05814'
+    - '1302.4517'
+    - '1210.2017'
 advisor: zhang-xiao
 students:
   - zheng-chao
@@ -141,22 +180,18 @@ key_collaborators:
     topic: "Inversive distance circle packings in Poincare disk"
     papers_count: 1
 publications:
-  - id: '2604.04124'
-    title: 'Relation between Anderson Generating Functions and Weil Pairing'
-    year: 2026
-    coauthors: []
-    primary_category: math.NT
-    sources: [arxiv]
-  - id: '2604.26354'
-    title: 'On enumeration of $b$-angulations of surfaces from an integrability perspective'
-    year: 2026
-    coauthors: ['Elba Garcia-Failde', zagier, yang-di]
-    primary_category: math-ph
   - id: '2511.09983'
     title: 'Infinite rigidity of inversive distance circle packings in the Poincaré disk'
     year: 2025
     coauthors: ['Yanwen Luo', 'Chao Zheng']
     primary_category: math.DG
+    sources: [arxiv]
+  - id: '2504.09172'
+    title: 'Generalized circle patterns on surfaces with cusps'
+    year: 2025
+    coauthors: ['Zhiwen Xiong']
+    primary_category: math.GT
+    sources: [arxiv]
   - id: '2507.18495'
     title: 'Discrete conformal structures on surfaces with boundary (III) — Deformation'
     year: 2025
@@ -164,104 +199,289 @@ publications:
     doi: '10.1007/s12220-025-02305-9'
     journal: 'The Journal of Geometric Analysis'
     primary_category: math.DG
-  - id: '2407.19501'
-    title: 'Discrete conformal structures on surfaces with boundary (II) — Rigidity and Existence'
-    year: 2024
-    coauthors: ['Chao Zheng']
+    sources: [arxiv]
   - id: '2401.05062'
     title: 'Discrete conformal structures on surfaces with boundary (I) — Classification'
     year: 2024
     coauthors: ['Chao Zheng']
     doi: '10.1007/s42543-025-00101-6'
     journal: 'Peking Mathematical Journal'
-  - id: 'doi:10.4310/cag.241204024316'
-    title: 'Parameterized discrete uniformization theorems and curvature flows for polyhedral surfaces, I'
+    primary_category: math.DG
+    sources: [arxiv]
+  - id: '2401.05056'
+    title: 'A discrete uniformization theorem for decorated piecewise hyperbolic metrics on surfaces'
     year: 2024
+    coauthors: ['Chao Zheng']
+    primary_category: math.DG
+    sources: [arxiv]
+  - id: '2407.19501'
+    title: 'Discrete conformal structures on surfaces with boundary (II) — Rigidity and Existence'
+    year: 2024
+    coauthors: ['Chao Zheng']
+    primary_category: math.DG
+    sources: [arxiv]
+  - id: '2312.02484'
+    title: 'Deformation of discrete conformal structures on surfaces'
+    year: 2023
     coauthors: []
+    primary_category: math.DG
+    sources: [arxiv]
+  - id: '2309.06685'
+    title: 'A discrete uniformization theorem for decorated piecewise Euclidean metrics on surfaces, II'
+    year: 2023
+    coauthors: ['Chao Zheng']
+    primary_category: math.DG
+    sources: [arxiv]
+  - id: '2309.05215'
+    title: 'A discrete uniformization theorem for decorated piecewise Euclidean metrics on surfaces'
+    year: 2023
+    coauthors: ['Chao Zheng']
+    primary_category: math.DG
+    sources: [arxiv]
+  - id: '2309.02457'
+    title: 'Rigidity of generalized Thurston''s sphere packings on 3-dimensional manifolds with boundary'
+    year: 2023
+    coauthors: ['Chao Zheng']
+    primary_category: math.GT
+    sources: [arxiv]
+  - id: '2309.01205'
+    title: 'Rigidity and deformation of generalized sphere packings on 3-dimensional manifolds with boundary'
+    year: 2023
+    coauthors: ['Chao Zheng']
+    primary_category: math.DG
+    sources: [arxiv]
+  - id: '2308.02271'
+    title: 'Combinatorial curvature flows with surgery for inversive distance circle packings on surfaces'
+    year: 2023
+    coauthors: ['Chao Zheng']
+    primary_category: math.DG
+    sources: [arxiv]
+  - id: '2307.13223'
+    title: 'On the classification of discrete conformal structures on surfaces'
+    year: 2023
+    coauthors: ['Chao Zheng']
+    primary_category: math.DG
+    sources: [arxiv]
+  - id: '2211.07464'
+    title: 'Rigidity of infinite inversive distance circle packings in the plane'
+    year: 2022
+    coauthors: ['Yanwen Luo', 'Siqi Zhang']
+    primary_category: math.GT
+    sources: [arxiv]
+  - id: '2208.03643'
+    title: 'Combinatorial curvature flows for generalized circle packings on surfaces with boundary'
+    year: 2022
+    coauthors: ['Chao Zheng']
+    primary_category: math.DG
+    sources: [arxiv]
+  - id: '2204.08191'
+    title: 'Combinatorial Yamabe flow on hyperbolic bordered surfaces'
+    year: 2022
+    coauthors: ['Shengyu Li', 'Ze Zhou']
+    primary_category: math.DG
+    sources: [arxiv]
+  - id: '2204.08172'
+    title: 'A new proof for global rigidity of vertex scaling on polyhedral surfaces'
+    year: 2022
+    coauthors: ['Chao Zheng']
+    primary_category: math.GT
+    sources: [arxiv]
+  - id: '2204.08145'
+    title: 'The convergence of inversive distance circle packings to the Riemann mapping'
+    year: 2022
+    coauthors: ['Yuxiang Chen', 'Yanwen Luo']
+    primary_category: math.DG
+    sources: [arxiv]
+  - id: '2110.12326'
+    title: 'Prescribing discrete Gaussian curvature on polyhedral surfaces'
+    year: 2021
+    coauthors: ['Chao Zheng']
+    primary_category: math.DG
+    sources: [arxiv]
+  - id: '2110.08474'
+    title: 'A new class of discrete conformal structures on surfaces with boundary'
+    year: 2021
+    coauthors: []
+    primary_category: math.GT
+    sources: [arxiv]
+  - id: '2110.01142'
+    title: 'Combinatorial Calabi flows on surfaces with boundary'
+    year: 2021
+    coauthors: ['Yanwen Luo']
+    primary_category: math.DG
+    sources: [arxiv]
+  - id: '2107.14102'
+    title: 'Fractional combinatorial Calabi flow on surfaces'
+    year: 2021
+    coauthors: ['Tianqi Wu']
+    primary_category: math.GT
+    sources: [arxiv]
+  - id: '2105.14714'
+    title: 'Parameterized combinatorial curvatures and parameterized combinatorial curvature flows for polyhedral surfaces'
+    year: 2021
+    coauthors: ['Chao Zheng']
+    primary_category: math.GT
+    sources: [arxiv]
+  - id: '2103.16077'
+    title: 'Parameterized discrete uniformization theorems and curvature flows for polyhedral surfaces'
+    year: 2021
+    coauthors: ['Chao Zheng']
     doi: '10.4310/cag.241204024316'
     journal: 'Communications in Analysis and Geometry'
-    sources: [crossref]
-    no_arxiv: true
-  - id: 'doi:10.4310/mrl.2021.v28.n4.a15'
-    title: 'A new proof of Bowers–Stephenson conjecture'
+    primary_category: math.GT
+    sources: [arxiv]
+  - id: '2103.05272'
+    title: 'Rigidity of discrete conformal structures on surfaces'
     year: 2021
+    coauthors: []
+    primary_category: math.DG
+    sources: [arxiv]
+  - id: '2009.05477'
+    title: 'Combinatorial Ricci flow on cusped 3-manifolds'
+    year: 2020
+    coauthors: []
+    primary_category: math.GT
+    sources: [arxiv]
+  - id: '2009.02496'
+    title: 'Combinatorial Ricci flow on compact 3-manifolds with boundary'
+    year: 2020
+    coauthors: []
+    primary_category: math.GT
+    sources: [arxiv]
+  - id: '1904.11127'
+    title: 'A new proof of Bowers-Stephenson conjecture'
+    year: 2019
     coauthors: []
     doi: '10.4310/mrl.2021.v28.n4.a15'
     journal: 'Mathematical Research Letters'
-    sources: [crossref]
-    no_arxiv: true
-  - id: 'doi:10.4310/jdg/1586224843'
-    title: 'On the global rigidity of sphere packings on $3$-dimensional manifolds'
-    year: 2020
-    coauthors: []
-    doi: '10.4310/jdg/1586224843'
-    journal: 'Journal of Differential Geometry'
-    sources: [crossref]
-    no_arxiv: true
-  - id: 'doi:10.1016/j.aim.2018.05.026'
-    title: 'Rigidity of inversive distance circle packings revisited'
+    primary_category: math.GT
+    sources: [arxiv]
+  - id: '1904.11122'
+    title: 'Thurston''s sphere packings on 3-dimensional manifolds, I'
+    year: 2019
+    coauthors: ['Xiaokai He']
+    primary_category: math.GT
+    sources: [arxiv]
+  - id: '1806.04516'
+    title: 'Parameterized discrete uniformization theorems and curvature flows for polyhedral surfaces'
     year: 2018
+    coauthors: []
+    primary_category: math.GT
+    sources: [arxiv]
+  - id: '1806.02166'
+    title: 'Combinatorial Calabi flow with surgery on surfaces'
+    year: 2018
+    coauthors: ['Xiang Zhu']
+    primary_category: math.GT
+    sources: [arxiv]
+  - id: '1705.02714'
+    title: 'Rigidity of inversive distance circle packings revisited'
+    year: 2017
     coauthors: []
     doi: '10.1016/j.aim.2018.05.026'
     journal: 'Advances in Mathematics'
-    sources: [crossref]
-    no_arxiv: true
-  - id: 'doi:10.1155/2015/876251'
-    title: 'The Structure of Simple Modules of Birman-Murakami-Wenzl Algebras'
+    primary_category: math.GT
+    sources: [arxiv]
+  - id: '1701.01795'
+    title: 'On a combinatorial curvature for surfaces with inversive distance circle packing metrics'
+    year: 2017
+    coauthors: ['Huabin Ge']
+    primary_category: math.GT
+    sources: [arxiv]
+  - id: '1611.08835'
+    title: 'On the global rigidity of sphere packings on 3-dimensional manifolds'
+    year: 2016
+    coauthors: []
+    doi: '10.4310/jdg/1586224843'
+    journal: 'Journal of Differential Geometry'
+    primary_category: math.GT
+    sources: [arxiv]
+  - id: '1505.05077'
+    title: 'α-curvatures and α-flows on low dimensional triangulated manifolds'
     year: 2015
-    coauthors: []
-    doi: '10.1155/2015/876251'
-    journal: 'Journal of Mathematics'
-    sources: [crossref]
-    no_arxiv: true
-  - id: '0306183'
-    title: 'Equivariant gerbes over compact simple Lie groups'
-    year: 2003
-    coauthors: ['Kai Behrend']
-    journal: 'C. R. Acad. Sci. Paris, Ser. I 336 (2003) 251-256'
-    primary_category: math.SG
-  - id: '0210104'
-    title: 'The Local Structure of Lie Bialgebroids'
-    year: 2002
-    coauthors: []
-    journal: 'Lett. Math. Phys., 61 (2002) 15-28'
+    coauthors: ['Huabin Ge']
     primary_category: math.DG
-  - id: '9508013'
-    title: 'Manin Triples for Lie Bialgebroids'
-    year: 1995
-    coauthors: ['Alan Weinstein']
+    sources: [arxiv]
+  - id: '1505.05076'
+    title: 'A Discrete Ricci Flow on Surfaces in Hyperbolic Background Geometry'
+    year: 2015
+    coauthors: ['Huabin Ge']
     primary_category: math.DG
+    sources: [arxiv]
+  - id: '1504.05814'
+    title: 'A combinatorial Yamabe problem on two and three dimensional manifolds'
+    year: 2015
+    coauthors: ['Huabin Ge']
+    primary_category: math.DG
+    sources: [arxiv]
+  - id: '1302.4517'
+    title: 'Positive energy theorem for (4+1)-dimensional asymptotically anti-de Sitter spacetimes'
+    year: 2013
+    coauthors: ['Yaohua Wang']
+    primary_category: math.DG
+    sources: [arxiv]
+  - id: '1210.2017'
+    title: 'Hyperbolic positive energy theorem with electromagnetic fields'
+    year: 2012
+    coauthors: ['Yaohua Wang']
+    primary_category: math.DG
+    sources: [arxiv]
 activity:
-  total_papers: 14
-  published_count: 9
-  preprint_only_count: 5
-  active_period: '2024-present (arXiv)'
-  note: '早期论文多发表于 Peking Math. J., Trans. AMS, J. Funct. Anal., Calc. Var. PDE, IMRN, Math. Res. Lett. 等期刊，未全部上传 arXiv。实际总论文数约 20+'
+  total_papers: 39
+  published_count: 6
+  preprint_only_count: 33
+  active_period: '2012-present'
+  note: 'arXiv 论文按 Xu Xu + 离散共形/几何/广义相对论轨迹核定；已剔除同名 Lie bialgebroid、gerbe、number theory 和 integrability 论文。'
 external_ids: {}
 links:
   homepage: 'http://jszy.whu.edu.cn/xuxu1/zh_CN/index.htm'
+  faculty_page: 'http://jszy.whu.edu.cn/xuxu1/zh_CN/index.htm'
   email: 'xuxu2@whu.edu.cn'
+known_emails:
+  - "xuxu2@whu.edu.cn"
+known_affiliations:
+  - "华中科技大学数学与应用数学"
+  - "中科院数学与系统科学研究院数学研究所"
+  - "武汉大学数学与统计学院"
+  - "School of Mathematics and Statistics, Wuhan University, Wuhan, 430072, P.R.China"
+online_traces:
+  - type: faculty
+    label: "武汉大学徐旭中文主页"
+    url: "http://jszy.whu.edu.cn/xuxu1/zh_CN/index.htm"
+    last_verified: "2026-05-15"
+    notes: "官方主页列出教授、博士生导师、教育经历、工作经历、荣誉和邮箱。"
+  - type: faculty
+    label: "武汉大学徐旭英文主页"
+    url: "http://jszy.whu.edu.cn/xuxu1/en/index.htm"
+    last_verified: "2026-05-15"
+    notes: "英文主页列出 AMSS 博士、张晓导师、武汉大学任职和访问经历。"
+  - type: arxiv
+    label: "arXiv 2511.09983 TeX 署名"
+    url: "https://arxiv.org/abs/2511.09983"
+    last_verified: "2026-05-15"
+    notes: "TeX 源列出武汉大学数学与统计学院和 xuxu2@whu.edu.cn。"
+  - type: arxiv
+    label: "arXiv 2507.18495 TeX 署名"
+    url: "https://arxiv.org/abs/2507.18495"
+    last_verified: "2026-05-15"
+    notes: "TeX 源列出武汉大学数学与统计学院和 xuxu2@whu.edu.cn。"
 personal_notes: |
-  武汉大学数学与统计学院教授(2024.12 起)、博士生导师。国家级青年人才、武大弘毅青年学者、
-  湖北省数学学会副理事长、武大本科生院教务处副处长。
-  研究方向：离散共形几何、微分几何、广义相对论的数学理论。
-  代表性成果：(1) 证明三维流形上堆球度量的整体刚性，将 Koebe-Andreev-Thurston 刚性定理推广
+  代表性成果包括：(1) 证明三维流形上堆球度量的整体刚性，将 Koebe-Andreev-Thurston 刚性定理推广
   到三维；(2) 证明曲面上反演距离大于 -1 时 Bowers-Stephenson 刚性猜想；(3) 解决 Glickenstein
   猜想(一般形式离散共形结构的刚性)；(4) 证明 Bowers-Stephenson 收敛性猜想(Jordan 区域上反演
   距离堆圆可以逼近黎曼映射)；(5) 引入 α-曲率并证明参数化离散单值化定理；(6) 给出闭曲面和带边
   曲面上离散共形结构的分类。
   学生：郑超(Chao Zheng，2019-2025 博士，中国博士后博新计划、北大博雅博士后，现 BICMR 博后)；
   在读博士卞月容(2024-)、熊芷雯(2025-)，硕士多位。
-  arXiv 上仅列出近期论文；更多早期发表于 Peking Math. J., Trans. AMS, J. Funct. Anal.
-  Calc. Var. PDE, IMRN, Math. Res. Lett.。
-  
-  现职：武汉大学数学与统计学院教授; 几何拓扑教研室主任; 湖北省数学学会副理事长
-  研究：离散/组合 Ricci 流; 双曲背景几何下的 discrete Ricci flow (IMRN 2017, 与 Ge Huabin); 三维离散曲率流与 Einstein 度量; 二维 combinatorial Calabi flow
-  趣闻：**注意身份核实**: 用户备注"与刘小博合作 mean curvature flow 2025"未匹配此人——2504.15602 是 Xiaobo Liu (Notre Dame/UC Irvine 系) + Wanxu Yang 的 isoparametric 论文, 与武大 Xu Xu (做 discrete Ricci flow) 不一致。**请用户确认目标 Xu Xu 究竟为何人** [待验证]
-  媒体/社交：学界低调
 sources:
   - label: '武汉大学教师主页 (徐旭)'
     url: 'http://jszy.whu.edu.cn/xuxu1/zh_CN/index.htm'
+  - label: '武汉大学教师主页 (Xu Xu English)'
+    url: 'http://jszy.whu.edu.cn/xuxu1/en/index.htm'
+  - label: 'arXiv 2511.09983'
+    url: 'https://arxiv.org/abs/2511.09983'
+  - label: 'arXiv 2507.18495'
+    url: 'https://arxiv.org/abs/2507.18495'
 tags:
   - wuhan
   - important-person

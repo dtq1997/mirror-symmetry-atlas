@@ -24,12 +24,13 @@ from pathlib import Path
 
 import yaml
 
+from cache_paths import cache_dir
+
 ROOT = Path(__file__).parent.parent
 PEOPLE_DIR = ROOT / 'data/people'
 URL_FILE = ROOT / 'data/people/_faculty_urls.yaml'
 PROGRESS = ROOT / 'data/people/_enrichment_progress.json'
-RAW_CACHE = ROOT / 'data/papers/_faculty_html_cache'
-RAW_CACHE.mkdir(parents=True, exist_ok=True)
+RAW_CACHE = cache_dir('_faculty_html_cache')
 
 
 def fetch(url, slug, max_time=30):

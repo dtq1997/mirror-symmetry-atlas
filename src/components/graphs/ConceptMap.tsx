@@ -2,7 +2,6 @@
 
 import { useState, useMemo, useCallback } from "react";
 import ForceGraph from "./ForceGraph";
-import DetailSidebar from "../shared/DetailSidebar";
 import type { GraphData, GraphNode, Concept } from "@/lib/types";
 import { getPrerequisiteChain } from "@/lib/graph";
 import Link from "next/link";

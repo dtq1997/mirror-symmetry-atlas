@@ -1,4 +1,4 @@
-import { getAllConferenceEvents, getPeopleMap, getInstitutionsMap } from "@/lib/data";
+import { getAllConferenceEvents, getPeopleMap } from "@/lib/data";
 import Link from "next/link";
 import { displayName as personName } from "@/lib/name";
 import { institutionName } from "@/lib/inst";
@@ -8,7 +8,6 @@ export default function ConferencesPage() {
     b.date_start.localeCompare(a.date_start)
   );
   const peopleMap = getPeopleMap();
-  const institutionsMap = getInstitutionsMap();
 
   const displayName = personName;
 

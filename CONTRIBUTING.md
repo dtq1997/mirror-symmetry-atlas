@@ -30,6 +30,30 @@ identity_profile:               # 推荐填，为消歧多源验证
   email_domains: [..]                  # 后续 affiliation 校验用
 ```
 
+### 2b. 推荐补全的人物深度字段
+
+```yaml
+born: 1950                       # 兼容旧字段；只有年份时用这个
+birth:
+  date: "1950-04-06"             # 只在公开可靠来源明确时填
+  precision: day                 # year|month|day|circa|unknown
+  place: "[待补充]"
+links:
+  homepage: "https://..."
+  faculty_page: "https://..."
+  cv: "https://..."
+online_traces:
+  - type: faculty                # homepage|faculty|cv|google_scholar|orcid|mathgenealogy|zbmath|mathscinet|arxiv|openalex|video|interview|lecture_notes|slides|news|blog|github|wayback|other
+    label: "个人主页"
+    url: "https://..."
+    archived_url: "https://web.archive.org/..."
+    last_verified: "2026-05-15"
+```
+
+- 在世学者的精确生日、出生地等个人信息必须来自公开权威来源；没有来源就留空。
+- `online_traces` 是公开痕迹索引，不写私密信息，不写无法复核的社交传闻。
+- 跑 `pnpm audit:profile` 可生成 `data/people/_profile_depth_report.md`，按缺口排序补数据。
+
 ### 3. 关键禁忌
 | 禁忌 | 后果 | 防护 |
 |---|---|---|

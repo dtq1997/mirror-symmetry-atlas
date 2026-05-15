@@ -4,6 +4,14 @@
 
 ## 核心 Checklist
 
+### 0. 人物档案深度
+- 出生信息：优先记录公开、权威来源中的 `birth.date`，精度可以是 year/month/day；只有年份时保留 `born: YYYY` 兼容旧字段。不要从非权威聚合页硬填在世学者的精确生日。
+- 出生地/去世信息：只在来源明确时写入 `birth.place` / `death`，否则保持缺失，不用猜。
+- 网上痕迹：至少收集 3 类公开线索，优先级为官方主页或 faculty page、CV、Math Genealogy/ORCID/zbMATH/MathSciNet、Google Scholar、arXiv author search、访谈/公开视频/讲义/Slides、新闻稿、Wayback 存档。
+- 身份消歧线索要写到网站可见字段：`birth` / `death`、`known_emails`、`known_affiliations`、`online_traces`、`external_ids`。不要只把链接堆在内部备注里。
+- 每条关键传记事实要能追到 `sources` 或 `online_traces`；容易失效的个人页优先加 Wayback `archived_url`。
+- 用 `python3 scripts/audit-profile-depth.py` 生成缺口队列，不把缺口写进 `personal_notes`。
+
 ### 1. 当前机构（最高优先级）
 - **arXiv 最新论文的 affiliation** → 最可靠的当前位置
 - 机构 faculty page 验证

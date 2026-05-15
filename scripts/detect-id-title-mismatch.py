@@ -6,10 +6,9 @@ title (e.g. zong-zhengyu has 2211.09203 labeled "All genus open-closed mirror
 symmetry..." but that arxiv id is actually an EE paper "Multidimensional
 Eigenwave Multiplexing").
 
-For each pub with arxiv id where we have cached real authors, fetch the title
-from cache (re-fetched by build-paper-titles-cache.py if needed). If yaml
-title's canonical form doesn't substring-match arxiv title's canonical form,
-flag it.
+For each pub with arxiv id, fetch the title from a local regenerable cache.
+If yaml title's canonical form doesn't substring-match arxiv title's canonical
+form, flag it.
 
 Output: data/papers/_id-title-mismatches.md (review list)
 """
@@ -24,10 +23,11 @@ import time
 import yaml
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from cache_paths import cache_path
 from paper_identity import canonical_title
 
 PEOPLE_DIR = 'data/people'
-TITLE_CACHE = 'data/papers/_arxiv_titles_cache'
+TITLE_CACHE = cache_path('_arxiv_titles_cache')
 OUT = 'data/papers/_id-title-mismatches.md'
 
 

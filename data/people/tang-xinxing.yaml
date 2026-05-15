@@ -176,10 +176,30 @@ external_ids: {}
 links:
   homepage: 'https://www.bimsa.cn/detail/xinxingtang.html'
   email: 'tangxinxing@bimsa.cn'
+known_emails:
+  - 'tangxinxing@bimsa.cn'
+known_affiliations:
+  - 'Beijing Institute of Mathematical Sciences and Applications'
+  - 'Yau Mathematical Sciences Center, Tsinghua University'
+  - 'Beijing International Center for Mathematical Research, Peking University'
+  - 'School of Mathematics, Sichuan University'
+online_traces:
+  - type: homepage
+    label: 'BIMSA 唐鑫星主页'
+    url: 'https://www.bimsa.cn/detail/xinxingtang.html'
+    last_verified: '2026-05-16'
+    notes: '官方主页列出助理教授、办公室、邮箱、教育与工作经历、研究兴趣和论文。'
+  - type: homepage
+    label: 'BIMSA 备用主页'
+    url: 'https://bimsa.net/people/xinxingtang/'
+    last_verified: '2026-05-16'
+    notes: '备用 BIMSA 页面。'
+  - type: other
+    label: 'Riemann-Hilbert survey PDF'
+    url: 'https://bimsa.net/doc/publication/5374.pdf'
+    last_verified: '2026-05-16'
+    notes: 'ICCM Notices 综述 The Riemann-Hilbert Problem。'
 personal_notes: |
-  BIMSA 助理教授，数学物理组。2013 年本科毕业于川大，2018 年博士毕业于北大
-  BICMR（导师樊慧君 Huijun Fan），博士论文获 New World Mathematics Award 荣誉提名。
-  2018-2021 在清华 YMSC 做博士后，师从李思 (Si Li)。
   核心方向：Landau-Ginzburg B-model 中的 tt* geometry 与 BCOV 量子化理论；
   LG B-model 与可积 hierarchy 的关系；mirror symmetry 与 LG-CY correspondence
   via mixed Hodge structure。另有 isomonodromic deformation / KZ 方程 /
@@ -198,12 +218,6 @@ personal_notes: |
   （与 Li Wang 合办 Topics in Integrability seminar）。
   
   2026 HUST 数学物理与几何研讨会参会。
-  
-  现职：BIMSA (北京雁栖湖应用数学研究院) 助理教授 (2021-)
-  学历：四川大学数学学士 2013；BICMR 北大博士 2018；清华 YMSC 博后 2018-2021
-  研究：无穷维可积系统 (GW/LG 出现的)、混合 Hodge 结构、isomonodromy、KZ 方程、Kodaira-Spencer 引力、tt* 几何
-  奖项：[待补充]
-  趣闻：与李思 (Si Li) 长期合作，包括 Kodaira-Spencer 引力下的色散无关可积系统、Dijkgraaf master 方程；BIMSA 页面把代词写成 "she"——疑似翻译失误
 sources:
   - label: 'BIMSA profile'
     url: 'https://www.bimsa.cn/detail/xinxingtang.html'

@@ -8,12 +8,16 @@ nationality: Chinese
 gender: male
 photo_url: null
 career_timeline:
-  - period: "[待验证]"
+  - period: "[待补充]-2003"
     type: education
-    institution: null
+    institution: ustc
+    role: "本科"
+    notes: "Math Genealogy 记录其本科学位来自中国科学技术大学，年份 2003。"
+  - period: "2003-2011"
+    type: education
+    institution: penn-state
     role: "博士 (Ph.D.)"
-    advisor: "[待验证]"
-    notes: "博士机构和导师信息 [待验证]。疑似 Penn State（Victor Nistor / Xiang Tang / Ping Xu 圈子，合作者 Nistor/Carvalho 是 Penn State / Lisbon 的 Nistor 长期合作者），但未经证实"
+    notes: "Math Genealogy 记录博士学位为 Penn State University，2011 年，导师 Victor Nistor 与 John Roe。"
   - period: "present"
     type: position
     institution: snnu
@@ -29,9 +33,16 @@ research_areas:
   - pseudodifferential-operators
 identity_profile:
   affiliations:
+    - institution: 'ustc'
+      period: '[待补充]-2003'
+      role: '本科'
+    - institution: 'penn-state'
+      period: '2003-2011'
+      role: '博士'
     - institution: 'snnu'
       period: 'present'
       role: '副教授'
+  mathgenealogy_id: '293606'
   coauthor_circle_core_slugs: [lang-honglei]
   coauthor_circle_core_names: ['Honglei Lang']
   coauthor_circle_extended_slugs: [chen-zhuo, xiang-maosong, xu-xu]
@@ -234,11 +245,42 @@ activity:
   published_count: 14
   preprint_only_count: 7
   active_period: '2011-present'
-external_ids: {}
+external_ids:
+  mathgenealogy: '293606'
 links:
+  faculty_page: 'https://maths.snnu.edu.cn/info/1021/1875.htm'
   researchgate: 'https://www.researchgate.net/profile/Yu-Qiao-19'
+  email: 'yqiao@snnu.edu.cn'
+known_emails:
+  - "yqiao@snnu.edu.cn"
+known_affiliations:
+  - "陕西师范大学数学与统计学院"
+  - "Department of Mathematics, Penn State University"
+online_traces:
+  - type: faculty
+    label: "陕西师范大学数学与统计学院乔雨主页"
+    url: "https://maths.snnu.edu.cn/info/1021/1875.htm"
+    last_verified: "2026-05-15"
+    notes: "学院主页列出乔雨为副教授，并给出邮箱 yqiao@snnu.edu.cn。"
+  - type: mathgenealogy
+    label: "Math Genealogy: Yu Qiao"
+    url: "https://www.mathgenealogy.org/id.php?id=293606"
+    last_verified: "2026-05-15"
+    notes: "记录 USTC 本科、Penn State 博士以及导师 Victor Nistor / John Roe。"
+  - type: other
+    label: "吉林大学学术报告：乔雨"
+    url: "https://math.jlu.edu.cn/info/1555/15883.htm"
+    last_verified: "2026-05-15"
+    notes: "公开报告公告，可作为研究方向和学术活动痕迹。"
+  - type: other
+    label: "ResearchGate: Yu Qiao"
+    url: "https://www.researchgate.net/profile/Yu-Qiao-19"
+    last_verified: "2026-05-15"
+    notes: "公开论文聚合页，需与其他来源共同消歧。"
 personal_notes: |
   陕西师范大学数学与统计学院副教授。
+  Math Genealogy 记录其 2003 年在中国科学技术大学获本科学位，2011 年在 Penn State University
+  获博士学位，导师为 Victor Nistor 与 John Roe；这解释了其与 Nistor/Carvalho groupoid 分析圈的长期合作。
   核心方向：groupoid C*-代数、K-理论指标公式、边界 groupoid 上的椭圆算子、
   Fredholm groupoid、Lie-Rinehart 代数。属于 Connes-Debord-Skandalis-Nistor
   传统中的 noncompact/singular 流形分析学派。
@@ -248,10 +290,6 @@ personal_notes: |
   - Victor Nistor (Lorraine/Penn State) - 3 篇；
   - Bing Kwan So - 2 篇关于 boundary groupoid 指标公式；
   - Ivan Beschastnyi (Padova) - 2 篇 2023-2024。
-  
-  与 Nistor 长期合作表明其博士训练可能与 Penn State / Nistor 学派相关
-  [待验证]。2011 年最早论文即与 Carvalho 合作，时间线也与北美博士后
-  阶段吻合。
   
   与国内 Lie algebroid 圈的连接：
   (1) 2019 年与郎红蕾 (Honglei Lang)、Yanbin Yin 合作 "On Lie Bialgebroid
@@ -263,9 +301,14 @@ personal_notes: |
   2026 HUST 数学物理与几何研讨会参会。
   
   现职：陕西师范大学数学与统计学院 副教授 — yqiao@snnu.edu.cn
+  学历：USTC 本科 (2003)；Penn State 博士 (2011, Victor Nistor / John Roe)
   研究：Lie 群胚、Lie 代数胚、boundary groupoid, Fredholm groupoid, K 理论指标公式, 量子群胚, Hopf algebroid
   趣闻：2020 受邀吉大数院系列学术活动第 300 期主讲 — https://math.jlu.edu.cn/info/1686/10868.htm
 sources:
+  - label: 'SNNU faculty page'
+    url: 'https://maths.snnu.edu.cn/info/1021/1875.htm'
+  - label: 'Math Genealogy'
+    url: 'https://www.mathgenealogy.org/id.php?id=293606'
   - label: 'ResearchGate'
     url: 'https://www.researchgate.net/profile/Yu-Qiao-19'
   - label: 'EMS JNCG paper'

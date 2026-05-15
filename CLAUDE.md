@@ -16,6 +16,8 @@
 3. 论文标题目视扫一遍：发现非数学论文 → 加进 `scripts/non_math_keywords.py`
 4. 跑 `python3 scripts/audit-missing-papers.py --slug ${slug}` 查是否漏了真论文
 
+**交接/SSOT**: 继续维护前看 `HANDOFF.md`。涉及论文、OpenAlex、Crossref、arXiv、合作者计数时看 `~/.claude/skills/academic-data-fetch/skill.md`。名字匹配、论文身份、作者真值、非数学污染分别以 `scripts/name_match.py`、`scripts/paper_identity.py`、`scripts/lib_truth.py`、`scripts/non_math_keywords.py` 为唯一权威，不另写匹配逻辑。
+
 ## 核心规则
 
 ### 语言

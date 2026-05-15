@@ -35,8 +35,10 @@ import urllib.parse
 from copy import deepcopy
 import yaml
 
+from cache_paths import cache_path
+
 PEOPLE_DIR = 'data/people'
-CACHE_DIR = 'data/papers/_openalex_cache'
+CACHE_DIR = cache_path('_openalex_cache')
 MAILTO = 'qiantang@tsinghua.edu.cn'
 
 

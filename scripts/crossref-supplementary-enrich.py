@@ -32,10 +32,11 @@ import urllib.parse
 import yaml
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from cache_paths import cache_path
 from lib_disambiguate_v2 import score_candidate
 
 PEOPLE_DIR = 'data/people'
-CACHE_DIR = 'data/papers/_crossref_cache'
+CACHE_DIR = cache_path('_crossref_cache')
 MAILTO = 'qiantang@tsinghua.edu.cn'
 
 

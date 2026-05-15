@@ -33,6 +33,7 @@ research_areas:
   - deformation-quantization
 identity_profile:
   openalex_id: 'A5071385941'
+  orcid: '0000-0002-6477-6153'
   mathgenealogy_id: '43937'
   affiliations:
     - institution: 'copenhagen'
@@ -615,11 +616,45 @@ external_ids:
   mr_author_id: "130350"
   wikidata: "Q102200448"
   openalex: A5071385941
+  orcid: "0000-0002-6477-6153"
 links:
-  homepage: 'https://www.math.ku.dk/english/staff/?pure=en/persons/30308'
+  homepage: 'https://web.math.ku.dk/~rnest/'
+  faculty_page: 'https://www.math.ku.dk/english/staff/?pure=en%2Fpersons%2F140504'
+  email: 'rnest@math.ku.dk'
   google_scholar: 'https://scholar.google.com/citations?user=WX9TlFkAAAAJ'
+known_emails:
+  - 'rnest@math.ku.dk'
+known_affiliations:
+  - 'Department of Mathematical Sciences, University of Copenhagen'
+  - 'Beijing Institute of Mathematical Sciences and Applications'
+online_traces:
+  - type: faculty
+    label: 'University of Copenhagen staff profile'
+    url: 'https://www.math.ku.dk/english/staff/?pure=en%2Fpersons%2F140504'
+    last_verified: '2026-05-16'
+    notes: 'UCPH profile lists Professor Emeritus, email rnest@math.ku.dk, and research profile link.'
+  - type: homepage
+    label: 'Ryszard Nest homepage'
+    url: 'https://web.math.ku.dk/~rnest/'
+    last_verified: '2026-05-16'
+  - type: homepage
+    label: 'BIMSA Ryszard Nest profile'
+    url: 'https://www.bimsa.cn/detail/RyszardNest.html'
+    last_verified: '2026-05-16'
+    notes: 'BIMSA lists visiting scholar, office, email, personal webpage, research field, and biographical timeline.'
+  - type: mathgenealogy
+    label: 'Math Genealogy 43937'
+    url: 'https://www.mathgenealogy.org/id.php?id=43937'
+    last_verified: '2026-05-16'
+  - type: google_scholar
+    label: 'Google Scholar'
+    url: 'https://scholar.google.com/citations?user=WX9TlFkAAAAJ'
+    last_verified: '2026-05-16'
+  - type: orcid
+    label: 'ORCID 0000-0002-6477-6153'
+    url: 'https://orcid.org/0000-0002-6477-6153'
+    last_verified: '2026-05-16'
 personal_notes: |
-  哥本哈根大学数学系教授，资深数学家（1987 年 PhD）。
   非交换几何、循环同调、指标理论核心人物之一。
   与 Boris Tsygan 合作最密集 (Riemann-Roch via deformation quantization, formality for
   algebroid stacks, DGLA/formality 系列)。
@@ -631,17 +666,16 @@ personal_notes: |
   与 Connes、Karoubi、Cuntz、Weibel 合作主编 "K-Theory and Noncommutative Geometry"
   (EMS, 2008)。Oberwolfach "Non-Commutative Geometry and Cyclic Homology"
   workshop (2022) 共同组织者 (与 Alain Connes, Thomas Nikolaus, Guoliang Yu)。
-  与 BIMSA 有联系（兼职研究员 [待验证]）。2026 HUST 数学物理与几何研讨会受邀报告人。
-  波兰裔，长期在丹麦工作。
-  
-  现职：哥本哈根大学数学科学系 Professor Emeritus
-  学历：PhD 信息见 Math Genealogy id=43937（16 学生 / 22 后代）
-  研究：非交换几何、KK-理论与 Baum-Connes、量子群在 KK-范畴中的 Poincaré 对偶、indices on boundary value problems (Boutet de Monvel)、deformation quantization、量子引力的 spectral triple、noncommutative calculus（与 Boris Tsygan）
-  奖项：[待补充]
-  趣闻：波兰裔；与 Boris Tsygan 长期搭档（2025 年仍合著 Encyclopedia of Mathematical Physics 第 2 版的 "Noncommutative Calculus"）；EMS《K-Theory and Noncommutative Geometry》共同主编（与 Cortiñas/Cuntz/Karoubi/Weibel）
+  BIMSA 页面记录其 2024 起访问岗位和非交换几何方向；2026 HUST 数学物理与几何研讨会受邀报告。
+  与 Boris Tsygan 长期搭档，2025 年仍合著 Encyclopedia of Mathematical Physics 第 2 版
+  "Noncommutative Calculus"。
 sources:
   - label: 'Math Genealogy'
     url: 'https://www.mathgenealogy.org/id.php?id=43937'
+  - label: 'University of Copenhagen staff profile'
+    url: 'https://www.math.ku.dk/english/staff/?pure=en%2Fpersons%2F140504'
+  - label: 'BIMSA profile'
+    url: 'https://www.bimsa.cn/detail/RyszardNest.html'
   - label: 'Google Scholar'
     url: 'https://scholar.google.com/citations?user=WX9TlFkAAAAJ'
   - label: 'Wikidata'

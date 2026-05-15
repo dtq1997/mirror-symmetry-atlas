@@ -290,19 +290,47 @@ external_ids:
   orcid: '0000-0002-8511-4650'
 links:
   google_scholar: 'https://scholar.google.com/citations?user=WXr74McAAAAJ'
+known_affiliations:
+  - 'School of Mathematics and Statistics, Wuhan University'
+  - 'Wuhan Institute of Mathematics and Intelligence'
+  - 'Academy of Mathematics and Systems Science, Chinese Academy of Sciences'
+  - 'Hua Loo-Keng Center for Mathematical Sciences'
+  - 'School of Mathematical Sciences, Peking University'
+  - 'School of Mathematics and Statistics, Beijing Institute of Technology'
+online_traces:
+  - type: orcid
+    label: 'ORCID 0000-0002-8511-4650'
+    url: 'https://orcid.org/0000-0002-8511-4650'
+    last_verified: '2026-05-16'
+    notes: '公开记录姓名 Chenglang Yang、ResearcherID/Scopus ID 和论文列表。'
+  - type: google_scholar
+    label: 'Google Scholar'
+    url: 'https://scholar.google.com/citations?user=WXr74McAAAAJ'
+    last_verified: '2026-05-16'
+  - type: news
+    label: '北京理工大学钟家庆数学奖报道'
+    url: 'https://math.bit.edu.cn/zhxw/dcfb2dc3de9141d5a8fd1b058c53366b.htm'
+    last_verified: '2026-05-16'
+    notes: '北理工报道列出本科、博士、博后、武汉大学任职和第十九届钟家庆数学奖信息。'
+  - type: news
+    label: '南昌航空大学讲座预告'
+    url: 'https://www.nchu.edu.cn/xwzx/jzyg/content_189702'
+    last_verified: '2026-05-16'
+    notes: '讲座预告列出武汉大学助理教授、博士生导师、教育经历和研究方向。'
 personal_notes: |
-  北理工本科 → PKU 博士(刘小博) → AMSS 博后 → 2025 起武汉大学助理教授。
-  2025 年获钟家庆数学奖（证明辛 Schur 函数乘积公式猜想，建立开 GW 不变量的 KP 可积性）。
-  与唐乾合作。
-  
-  现职：武汉大学数学与统计学院 + 武汉数学与智能研究院，助理教授 / 博导 (2025.- 入职)
-  学历：北京理工大学学士 (2018) → 北大数学博士 (2018-2023, 导师刘小博)；博后于 AMSS (CAS) / 华罗庚数学中心
-  奖项：第 19 届钟家庆数学奖 (2025)
-  研究：Schur Q-多项式、Kontsevich-Witten tau、BGW、KP/BKP 层次
-  趣闻：钟家庆奖在 2025 中国数学会年会开幕式公布；与 Qian Tang、Ce Ji 合作 "Schröder Paths..."；与刘小博师承延续 BICMR 体系
+  刘小博学生，研究主线是 Schur Q-多项式、Kontsevich-Witten/BGW tau 函数、
+  KP/BKP 层级、Hurwitz 数和 open Gromov-Witten 不变量的可积性。
+  2025 年钟家庆数学奖报道中特别提到其证明辛 Schur 函数乘积公式猜想，
+  并与合作者建立 open Gromov-Witten 不变量的 KP 可积性。
+  与唐乾、季策、王知远、张庆生、郭帅、周坚等人的合作把组合恒等式、
+  topological vertex、Kac-Schwarz operator 和 integrable hierarchy 连成一个紧密圈层。
 sources:
   - label: '北理工报道：钟家庆数学奖'
     url: 'https://math.bit.edu.cn/zhxw/dcfb2dc3de9141d5a8fd1b058c53366b.htm'
+  - label: '南昌航空大学讲座预告'
+    url: 'https://www.nchu.edu.cn/xwzx/jzyg/content_189702'
+  - label: 'ORCID'
+    url: 'https://orcid.org/0000-0002-8511-4650'
   - label: 'OpenAlex'
     url: 'https://openalex.org/authors/A5030830237'
 tags:

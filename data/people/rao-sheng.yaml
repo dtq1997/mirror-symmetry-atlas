@@ -278,21 +278,53 @@ activity:
 external_ids: {}
 links:
   homepage: 'http://jszy.whu.edu.cn/raosheng'
+  faculty_page: 'http://jszy.whu.edu.cn/raosheng'
+  email: 'likeanyone@whu.edu.cn'
+known_emails:
+  - "likeanyone@zju.edu.cn"
+  - "likeanyone@whu.edu.cn"
+known_affiliations:
+  - "Center of Mathematical Sciences, Zhejiang University, Hangzhou 310027, China"
+  - "浙江大学数学科学研究中心"
+  - "武汉大学数学与统计学院"
+  - "Department of Mathematics, Wuhan University, Hubei, Wuhan 430074, China"
+  - "School of Mathematics and Statistics, Wuhan University, Wuhan 430072, People's Republic of China"
+online_traces:
+  - type: faculty
+    label: "武汉大学饶胜中文主页"
+    url: "http://jszy.whu.edu.cn/raosheng"
+    last_verified: "2026-05-15"
+    notes: "官方主页列出教授、博士生导师、数学与统计学院、2013-10-01 入职。"
+  - type: arxiv
+    label: "arXiv 2602.04158 TeX 署名"
+    url: "https://arxiv.org/abs/2602.04158"
+    last_verified: "2026-05-15"
+    notes: "TeX 源列出 Wuhan University 和 likeanyone@whu.edu.cn。"
+  - type: arxiv
+    label: "arXiv 2506.12670 TeX 署名"
+    url: "https://arxiv.org/abs/2506.12670"
+    last_verified: "2026-05-15"
+    notes: "TeX 源列出 Wuhan University 数学与统计学院和 likeanyone@whu.edu.cn。"
+  - type: arxiv
+    label: "arXiv 1207.5697 TeX 署名"
+    url: "https://arxiv.org/abs/1207.5697"
+    last_verified: "2026-05-15"
+    notes: "早期 TeX 源列出浙江大学数学科学研究中心和 likeanyone@zju.edu.cn。"
 personal_notes: |
-  武汉大学数学与统计学院教授(2019 起)、博士生导师。研究方向：多复变与复几何 (复几何、
-  Hodge 理论、变形理论、Moishezon 流形)。2011 年博士毕业后在浙大数学中心博士后
-  (2011.7-2013.9)，2013 年起在武大任职。
+  研究多复变与复几何，尤其是 Hodge 理论、变形理论、Moishezon 流形及相关稳定性问题。
   与 Kefeng Liu (刘克峰) 合作 4 篇，这可能指向博士师承 [待验证]。
   近年与 Christopher D. Hacon 等国际学者合作，研究 Kahler 族中的 adjoint classes。
   2026 年 HUST 数学物理与几何研讨会武大参会学者之一。
-  
-  现职：武汉大学数学与统计学院 教授 — https://www.researchgate.net/profile/Sheng-Rao-2
-  研究：复几何、形变理论、Hodge 理论、Moishezon 流形、CR 几何、∂∂̄-引理、对数微分形式
-  趣闻：2025-11 浙大 IASM 主讲 "A rough introduction to deformation theory" + "Several Rigidity Theorems under Smooth Deformations" — http://www.iasm.zju.edu.cn/iasm/2025/1209/c69188a3117328/page.htm
 sources:
   - label: '武汉大学教师主页 (饶胜)'
     url: 'http://jszy.whu.edu.cn/raosheng'
   - label: '武大数统学院专任教师'
     url: 'https://maths.whu.edu.cn/teacher/zrjs.htm'
+  - label: 'arXiv 2602.04158'
+    url: 'https://arxiv.org/abs/2602.04158'
+  - label: 'arXiv 2506.12670'
+    url: 'https://arxiv.org/abs/2506.12670'
+  - label: 'arXiv 1207.5697'
+    url: 'https://arxiv.org/abs/1207.5697'
 tags:
   - wuhan

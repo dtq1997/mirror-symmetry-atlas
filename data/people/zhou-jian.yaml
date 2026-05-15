@@ -114,20 +114,37 @@ activity:
 external_ids:
   mathgenealogy: "1264"
 links:
-  homepage: 'https://www.researchgate.net/scientific-contributions/Jian-Zhou-10709967'
+  homepage: 'https://www.math.tsinghua.edu.cn/info/1125/2623.htm'
+  faculty_page: 'https://www.math.tsinghua.edu.cn/info/1125/2623.htm'
+  researchgate: 'https://www.researchgate.net/scientific-contributions/Jian-Zhou-10709967'
+  email: 'jianzhou@mail.tsinghua.edu.cn'
+known_emails:
+  - "jianzhou@mail.tsinghua.edu.cn"
+known_affiliations:
+  - "Department of Mathematical Sciences, Tsinghua University"
+  - "Massachusetts Institute of Technology"
+  - "Department of Mathematics, Texas A&M University"
+  - "University of California, Santa Barbara"
+  - "Stony Brook University"
+online_traces:
+  - type: faculty
+    label: "清华大学数学科学系教师主页"
+    url: "https://www.math.tsinghua.edu.cn/info/1125/2623.htm"
+    last_verified: "2026-05-15"
+    notes: "页面列出邮箱、博士学位、清华及海外任职经历。"
+  - type: mathgenealogy
+    label: "Math Genealogy: Jian Zhou"
+    url: "https://www.mathgenealogy.org/id.php?id=1264"
+    last_verified: "2026-05-15"
+  - type: other
+    label: "ResearchGate: Jian Zhou"
+    url: "https://www.researchgate.net/scientific-contributions/Jian-Zhou-10709967"
+    last_verified: "2026-05-15"
 personal_notes: |
   2026 HUST 会议报告: From probability theory to Gromov-Witten theory, and back
   Extended matrix models, GW theory of the projective line.
   培养了郭帅、张庆生 [待验证]、王知远 [待验证] 等人，形成以 GW theory 和可积系统为核心的学术 cluster。
-  
-  现职：清华大学数学科学系基础数学研究所教授 (2001-)
-  履历：UCSB visiting AP (1995-1997) → Texas A&M visiting AP (1997-2000) → MIT visiting AP (2000-2001) → 清华 (2001-)
-  奖项：国家杰出青年基金；教育部长江学者特聘教授
-  研究：拓扑顶点数学理论 (Chern-Simons ↔ 3D CY GW 对偶), 椭圆亏格 LG/CY 对应 (启发 Hori GLSM), emergent geometry, Kepler 信息几何
-  现职：清华大学数学科学系/YMSC 教授
-  学历：博士 SUNY Stony Brook（与 Blaine Lawson；[待验证] — 也有说法 Jun Li 学派）
-  重要奖项：长江学者；NSFC 重点/重大项目；学生包括柯华忠、贺卫强等
-  趣闻：早年与 Mariño 合作的 topological vertex/Mariño-Vafa formula 工作奠定 GW/CS 对偶基础；近年专注 abstract QFT for fat graphs 框架；常在清华开 GW 理论课程
+  早年与 Mariño、刘秋菊、刘克峰等人的 topological vertex/Mariño-Vafa formula 工作奠定 GW/CS 对偶基础；近年专注 abstract QFT for fat graphs、KP/Toda hierarchy 与 emergent geometry。
 publications:
   - id: '2511.10082'
     title: 'Total partition function with fermionic number fluxes of local toric Calabi--Yau threefold and KP integrability'

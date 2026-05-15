@@ -27,10 +27,11 @@ from pathlib import Path
 
 import yaml
 
+from cache_paths import cache_dir
+
 ROOT = Path(__file__).parent.parent
 PEOPLE_DIR = ROOT / 'data/people'
-CACHE_DIR = ROOT / 'data/papers/_arxiv_author_search_cache'
-CACHE_DIR.mkdir(parents=True, exist_ok=True)
+CACHE_DIR = cache_dir('_arxiv_author_search_cache')
 OUT = ROOT / 'data/papers/_missing_paper_review.md'
 
 NS = {'a': 'http://www.w3.org/2005/Atom',

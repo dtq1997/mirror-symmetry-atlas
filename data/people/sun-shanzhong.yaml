@@ -44,7 +44,7 @@ identity_profile:
     - institution: 'capital-normal'
       period: '2003-present'
       role: '教授'
-  email_domains: [pku.edu.cn]
+  email_domains: [cnu.edu.cn, pku.edu.cn]
   coauthor_circle_extended_slugs: [li-ao]
   coauthor_circle_extended_names: ['Ao Li']
   research_keywords:
@@ -336,8 +336,30 @@ external_ids:
   openalex: A5102107859
 links:
   homepage: 'https://shanzhong-sun.github.io/ShanzhongSUN/'
+known_affiliations:
+  - 'Department of Mathematics, Capital Normal University'
+  - 'School of Mathematical Sciences, Peking University'
+  - 'Chern Institute of Mathematics, Nankai University'
+online_traces:
+  - type: homepage
+    label: '孙善忠个人主页'
+    url: 'https://shanzhong-sun.github.io/ShanzhongSUN/'
+    last_verified: '2026-05-16'
+    notes: '个人主页列出首都师范大学教授、南开博士、北大博后、研究方向和 CV 待补。'
+  - type: homepage
+    label: '孙善忠研究页面'
+    url: 'https://shanzhong-sun.github.io/ShanzhongSUN/research'
+    last_verified: '2026-05-16'
+  - type: other
+    label: 'ResearchGate'
+    url: 'https://www.researchgate.net/profile/Shanzhong-Sun'
+    last_verified: '2026-05-16'
+  - type: openalex
+    label: 'OpenAlex A5102107859'
+    url: 'https://openalex.org/authors/A5102107859'
+    last_verified: '2026-05-16'
+    notes: 'OpenAlex profile 显示 Capital Normal University 关联。'
 personal_notes: |
-  南开大学陈省身数学研究所博士 (2001) → 北大博后 → 首都师范大学教授。
   研究横跨三大领域：(1) 辛几何/拓扑 (Fukaya category, Floer homology)；
   (2) 天体力学 (N-body central configurations, Kepler problem, Maslov index)；
   (3) Resurgence 理论 (mould calculus, Moyal star product, topological string)。
@@ -349,18 +371,16 @@ personal_notes: |
   与龙以明 (Yiming Long) 合作过一篇 (2012)，龙以明是南开辛几何方向领军人物，
   但尚无直接证据确认龙以明是其博士导师。
   Math Genealogy 上未查到条目。
-  
-  现职：首都师范大学数学科学学院 教授
-  学历：南开大学陈省身数学所 PhD 2001；2001-2003 北大数院博后；2003- 首师大
-  研究：哈密顿动力系统、N 体问题、Fukaya 范畴、半经典迹公式、resurgence、辛几何/辛拓扑
-  奖项：[待补充]
-  趣闻：数学/物理交叉风格鲜明；与王方、魏巧玲长期联合组织 Hamiltonian Dynamical Systems Workshop
 sources:
   - label: 'Personal homepage'
     url: 'https://shanzhong-sun.github.io/ShanzhongSUN/'
+  - label: 'Research page'
+    url: 'https://shanzhong-sun.github.io/ShanzhongSUN/research'
   - label: 'ResearchGate'
     url: 'https://www.researchgate.net/profile/Shanzhong-Sun'
   - label: '信息源'
     url: 'https://math.cnu.edu.cn/RESEARCH/kytd2/tdfl2/848fc01cf2d54ff9b197aa0910b84fa7.htm'
+  - label: 'OpenAlex'
+    url: 'https://openalex.org/authors/A5102107859'
 tags:
   - capital-normal

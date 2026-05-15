@@ -52,6 +52,42 @@ CONN_DIR = ROOT / 'data/connections'
 PLACEHOLDER_RE = re.compile(r'^\s*\[(?:\?|待[^\]]*|todo|tbd)\]?\s*$', re.IGNORECASE)
 SLUG_RE = re.compile(r'^[a-z][a-z0-9-]*$')
 
+ALLOWED_PERSON_LINK_KEYS = {
+    'homepage',
+    'faculty_page',
+    'cv',
+    'google_scholar',
+    'mathscinet',
+    'arxiv_author',
+    'zbmath',
+    'researchgate',
+    'github',
+    'youtube',
+    'email',
+}
+
+ALLOWED_ONLINE_TRACE_TYPES = {
+    'homepage',
+    'faculty',
+    'cv',
+    'google_scholar',
+    'orcid',
+    'mathgenealogy',
+    'zbmath',
+    'mathscinet',
+    'arxiv',
+    'openalex',
+    'video',
+    'interview',
+    'lecture_notes',
+    'slides',
+    'news',
+    'blog',
+    'github',
+    'wayback',
+    'other',
+}
+
 from non_math_keywords import is_non_math
 
 
@@ -138,6 +174,29 @@ def lint(strict_pubs=False, only_slug=None):
         # nationality
         if not p.get('nationality') and 'tags' not in p:
             warn(slug, "nationality missing")
+
+        links = p.get('links') or {}
+        if not isinstance(links, dict):
+            err(slug, "links must be a mapping")
+            links = {}
+        for key, value in links.items():
+            if key not in ALLOWED_PERSON_LINK_KEYS:
+                warn(slug, f"links.{key!r} is not rendered by the person page; "
+                     f"move public traces to online_traces or a standard links key")
+            if isinstance(value, str) and value.strip().lower() in {'none', 'null'}:
+                warn(slug, f"links.{key!r} has placeholder string {value!r}; "
+                     f"remove it or replace with a real URL")
+
+        for i, trace in enumerate(p.get('online_traces') or []):
+            tag = f"online_traces[{i}]"
+            if not isinstance(trace, dict):
+                err(slug, f"{tag} must be a mapping")
+                continue
+            trace_type = trace.get('type')
+            if trace_type not in ALLOWED_ONLINE_TRACE_TYPES:
+                err(slug, f"{tag}.type {trace_type!r} is not in allowed set")
+            if not trace.get('url'):
+                err(slug, f"{tag}.url required")
 
         # advisor field (top-level)
         a = p.get('advisor')

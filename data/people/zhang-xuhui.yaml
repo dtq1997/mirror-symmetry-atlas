@@ -8,17 +8,17 @@ nationality: Chinese
 gender: null
 photo_url: null
 career_timeline:
+  - period: "[待验证]-2019"
+    type: education
+    institution: sun-yat-sen
+    role: "本科阶段 [待验证学位]"
+    notes: "清华数学科学系/YMSC 2019 年博士生首批招生复试通知列其“在读学校”为中山大学；具体专业与学位待补充。"
   - period: "2019-present"
     type: education
     institution: tsinghua
     role: "博士生"
     advisor: zhou-jian
     notes: "清华大学数学科学系博士生（2019 年入学，学号 zhangxh19），导师周坚。方向 integrable hierarchies / mathematical physics"
-  - period: "present"
-    type: position
-    institution: sun-yat-sen
-    role: "[待验证]"
-    notes: "2026 年 4 月 HUST 会议签到表列为中山大学参会人员，但 arXiv 论文 affiliation 为清华大学。可能是访问学者/短期交流/即将入职 [待验证]"
 research_areas:
   - bkp-hierarchy
   - kp-hierarchy
@@ -28,13 +28,13 @@ research_areas:
   - mathematical-physics
 identity_profile:
   affiliations:
+    - institution: 'sun-yat-sen'
+      period: '[待验证]-2019'
+      role: '本科阶段 [待验证学位]'
     - institution: 'tsinghua'
       period: '2019-present'
       role: '博士生'
-    - institution: 'sun-yat-sen'
-      period: 'present'
-      role: '[待验证]'
-  email_domains: [mail.sysu.edu.cn, tsinghua.edu.cn]
+  email_domains: [mails.tsinghua.edu.cn, tsinghua.edu.cn]
   coauthor_circle_core_slugs: [zhou-jian]
   coauthor_circle_core_names: ['Jian Zhou']
   research_keywords: [correspondence, fermion, hierarchies, hierarchy, integrable, mathematical, physics]
@@ -60,24 +60,43 @@ activity:
 external_ids: {}
 links:
   email: "zhangxh19@mails.tsinghua.edu.cn"
+known_emails:
+  - "zhangxh19@mails.tsinghua.edu.cn"
+known_affiliations:
+  - "中山大学"
+  - "Department of Mathematical Science, Tsinghua University"
+online_traces:
+  - type: arxiv
+    label: "arXiv 2506.00451 TeX 署名"
+    url: "https://arxiv.org/abs/2506.00451"
+    last_verified: "2026-05-15"
+    notes: "TeX 源列出 Department of Mathematical Science, Tsinghua University 和 zhangxh19@mails.tsinghua.edu.cn。"
+  - type: other
+    label: "清华数学科学系/YMSC 2019 年博士生首批招生复试通知"
+    url: "https://www.math.tsinghua.edu.cn/__local/E/D5/AE/9CB595DF5ACA3F652B5E2B4F722_15DA1583_3FDA0.pdf?e=.pdf"
+    last_verified: "2026-05-15"
+    notes: "通知列出张旭辉进入复试，所在/在读学校为中山大学。"
+  - type: other
+    label: "中山大学数学学院 2015 级本科生申请推免资格面试安排"
+    url: "https://math.sysu.edu.cn/article/783"
+    last_verified: "2026-05-15"
+    notes: "名单中有张旭辉；作为中山大学本科阶段线索，需与清华复试通知合并判断。"
 personal_notes: |
-  清华大学数学科学系博士生，2019 年入学（邮箱 zhangxh19 表明入学年份），导师周坚 (Jian Zhou)。
   方向 integrable hierarchies，聚焦 BKP/KP hierarchy 的 tau 函数 connected n-point 函数公式。
   唯一 arXiv 论文 (2506.00451) 将 BKP hierarchy 嵌入到 KP hierarchy，给出 connected bosonic n-point
   函数的新公式，并证明与 Wang-Yang 2022 年公式等价。
-  [待验证] 与中山大学的关系：可能是短期访问、合作研究或准备入职。HUST 签到表列其为 SYSU 参会人员，
-  但 arXiv 论文 (2025.6) affiliation 仍是清华。
+  中山大学关系目前只能确认到清华 2019 博士复试通知中的“在读学校”为中山大学；不应写成现职。
   研究生态与周坚一脉相承（KP 可积系统、Hodge 积分、拓扑递归），与 Frobenius 流形、Witten-Kontsevich
   tau 函数等主题关联。
-  SYSU 博导名单中有"张旭辉"但无超链接，可能是另一位同名或刚入职但主页未建。
-  注: SYSU 数学学院博导名单 (math.sysu.edu.cn/article/2971) 经核实**不含**"张旭辉"; 与 SYSU 的关联仍存疑, 需进一步证据。
 sources:
   - label: "arXiv 2506.00451"
     url: "https://arxiv.org/abs/2506.00451"
-  - label: "SYSU Math PhD advisors list"
-    url: "https://math.sysu.edu.cn/article/2971"
+  - label: "清华数学科学系/YMSC 2019 博士生首批招生复试通知"
+    url: "https://www.math.tsinghua.edu.cn/__local/E/D5/AE/9CB595DF5ACA3F652B5E2B4F722_15DA1583_3FDA0.pdf?e=.pdf"
+  - label: "中山大学数学学院 2015 级本科生申请推免资格面试安排"
+    url: "https://math.sysu.edu.cn/article/783"
 tags:
-  - sun-yat-sen
+  - tsinghua
   - tsinghua-student
   - student
   - integrable-systems

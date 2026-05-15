@@ -115,17 +115,43 @@ activity:
 external_ids: {}
 links:
   homepage: "http://faculty.hust.edu.cn/luwen/zh_CN/index.htm"
+  faculty_page: "http://faculty.hust.edu.cn/luwen/zh_CN/index.htm"
+  email: "wlu@hust.edu.cn"
+known_emails:
+  - "wlu@hust.edu.cn"
+known_affiliations:
+  - "华中科技大学数学与统计学院"
+  - "School of Mathematics and Statistics, Huazhong University of Science and Technology, Wuhan 430074, China"
+  - "School of Mathematics and Statistics, Huazhong University of Science and Technology, Wuhan, 430074, Hubei Province, China"
+online_traces:
+  - type: faculty
+    label: "华中科技大学卢文中文主页"
+    url: "http://faculty.hust.edu.cn/luwen/zh_CN/index.htm"
+    last_verified: "2026-05-15"
+    notes: "官方主页列出教授、数学与统计学院、理学博士、基础数学。"
+  - type: arxiv
+    label: "arXiv 2603.04842 TeX 署名"
+    url: "https://arxiv.org/abs/2603.04842"
+    last_verified: "2026-05-15"
+    notes: "TeX 源列出 HUST 数学与统计学院和 wlu@hust.edu.cn。"
+  - type: arxiv
+    label: "arXiv 1703.06420 TeX 署名"
+    url: "https://arxiv.org/abs/1703.06420"
+    last_verified: "2026-05-15"
+    notes: "TeX 源列出 HUST 数学与统计学院和 wlu@hust.edu.cn。"
 personal_notes: |
-  HUST 数学与统计学院教授，研究复几何、Bergman 核、指标定理。
   合作网络定位他为 Bismut-Ma 学派：主要合作者 Xiaonan Ma (IMJ-PRG)、George Marinescu (Cologne)、Louis Ioos。
   早期 2012 年系列单作 (Thom-Smale-Witten on manifolds with boundary, equivariant Morse, Bergman 核二阶系数)
   极可能是博士论文衍生工作，与 Xiaonan Ma 的合作从 2017 开始频繁。
-  [待验证] 博士学校 (Université Paris Diderot?) 与导师 (Xiaonan Ma?)。
-  HUST faculty 主页研究方向等字段尚未填写。
+  博士学校与导师仍缺公开来源；Université Paris Diderot / Xiaonan Ma 只能作为合作网络线索，暂不写入结构字段。
 sources:
   - label: "HUST faculty page"
     url: "http://faculty.hust.edu.cn/luwen/zh_CN/index.htm"
-  - label: "arXiv author search"
-    url: "https://arxiv.org/a/lu_w_1.html"
+  - label: "arXiv exact author search"
+    url: "https://arxiv.org/search/?query=au:%22Wen+Lu%22&searchtype=all"
+  - label: "arXiv 2603.04842"
+    url: "https://arxiv.org/abs/2603.04842"
+  - label: "arXiv 1703.06420"
+    url: "https://arxiv.org/abs/1703.06420"
 tags:
   - hust

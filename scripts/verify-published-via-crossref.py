@@ -13,7 +13,7 @@ Usage:
 Output:
   - Without --write: prints how many would be reclassified
   - With --write: updates each person YAML in place
-  - Caches Crossref responses in data/papers/_crossref_cache/{arxiv_id}.json
+  - Caches Crossref responses in .cache/msa/papers/_crossref_cache/{arxiv_id}.json
 
 Heuristic: a Crossref hit counts as "published" iff
   (a) result.score >= 50 AND
@@ -32,8 +32,10 @@ import time
 from urllib.parse import quote
 import yaml
 
+from cache_paths import cache_path
+
 PEOPLE_DIR = 'data/people'
-CACHE_DIR = 'data/papers/_crossref_cache'
+CACHE_DIR = cache_path('_crossref_cache')
 
 
 def normalize_title(s):

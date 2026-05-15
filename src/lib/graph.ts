@@ -7,6 +7,7 @@ import type {
   GraphData,
   ConnectionType,
   Difficulty,
+  LifeDateFact,
 } from "./types";
 
 // ===== Color constants =====
@@ -87,7 +88,7 @@ function awardTier(p: Person): 0 | 1 | 2 | 3 {
   const collected: string[] = [];
   for (const e of timeline) {
     if (e.type === "award") {
-      collected.push(((e.title || "") + " " + ((e as any).notes || "")).toLowerCase());
+      collected.push(`${e.title || ""} ${e.notes || ""}`.toLowerCase());
     }
   }
   const blob = collected.join(" | ") + " " + tags.join(" ").toLowerCase();
@@ -101,10 +102,10 @@ function personRadius(p: Person): number {
   const tags = p.tags || [];
 
   const a = p.activity ?? {};
-  const t1 = (a as any).t1_papers ?? 0;
-  const t2 = (a as any).t2_papers ?? 0;
-  const t3 = (a as any).t3_papers ?? 0;
-  const t4 = (a as any).t4_papers ?? 0;
+  const t1 = a.t1_papers ?? 0;
+  const t2 = a.t2_papers ?? 0;
+  const t3 = a.t3_papers ?? 0;
+  const t4 = a.t4_papers ?? 0;
   const qscore = t1 * 4 + t2 * 2 + t3 * 0.5 + t4 * 0.2;
 
   const pubs = p.publications?.length ?? 0;
@@ -149,8 +150,20 @@ function roleAgeOffset(role: string, type: string): number | null {
   return null;
 }
 
+function yearFromDateValue(value?: number | string | null): number | null {
+  if (typeof value === "number") return value;
+  if (typeof value !== "string") return null;
+  const match = value.match(/\b(1[6-9]\d{2}|20\d{2}|21\d{2})\b/);
+  return match ? parseInt(match[1], 10) : null;
+}
+
+function yearFromLifeDate(fact?: LifeDateFact, fallback?: number | string | null) {
+  return yearFromDateValue(fact?.date) ?? yearFromDateValue(fallback);
+}
+
 function estimateBirthYear(p: Person): number | null {
-  if (p.born) return p.born;
+  const explicitBorn = yearFromLifeDate(p.birth, p.born);
+  if (explicitBorn) return explicitBorn;
   const timeline = p.career_timeline || [];
   // 取所有能推断年龄的条目,取中位数以稳健
   const estimates: number[] = [];
@@ -167,7 +180,7 @@ function estimateBirthYear(p: Person): number | null {
 }
 
 function personColor(p: Person): string {
-  if (p.died) return "#777788";
+  if (yearFromLifeDate(p.death, p.died)) return "#777788";
 
   const birthYear = estimateBirthYear(p);
   if (!birthYear) return "#9ca3af"; // 未知年龄 → 中性灰蓝,避免误导
@@ -186,8 +199,7 @@ function personColor(p: Person): string {
 
 export function buildPeopleGraph(
   people: Person[],
-  connections: Connection[],
-  knownSlugs: Set<string>
+  connections: Connection[]
 ): GraphData {
   const nodes: GraphNode[] = [];
   const nodeIds = new Set<string>();
@@ -367,8 +379,8 @@ export function filterByYear(
     if (!p) return node;
 
     // Person must be born and alive in that year
-    const born = p.born ?? 0;
-    const died = p.died ?? 9999;
+    const born = yearFromLifeDate(p.birth, p.born) ?? 0;
+    const died = yearFromLifeDate(p.death, p.died) ?? 9999;
     const alive = born <= year && year <= died;
 
     // Check if they had any career activity by that year
@@ -426,8 +438,7 @@ function conceptRadius(c: Concept): number {
 }
 
 export function buildConceptGraph(
-  concepts: Concept[],
-  knownSlugs: Set<string>
+  concepts: Concept[]
 ): GraphData {
   const nodes: GraphNode[] = [];
   const nodeIds = new Set<string>();

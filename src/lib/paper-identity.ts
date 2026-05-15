@@ -28,7 +28,7 @@ export function canonicalDoi(d: string | undefined | null): string | null {
 
 export function canonicalArxivId(pid: string | undefined | null): string | null {
   if (!pid) return null;
-  let s = String(pid).trim().split("v")[0];
+  const s = String(pid).trim().split("v")[0];
   if (s.startsWith("doi:") || s.startsWith("openalex:") || s.startsWith("cr:")) return null;
   if (/^\d{4}\.\d{4,5}$|^\d{7}$|^[a-z-]+\/\d{7}$/.test(s)) return s;
   return null;

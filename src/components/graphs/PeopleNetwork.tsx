@@ -1,11 +1,17 @@
 "use client";
 
-import { useState, useMemo, useCallback, useEffect } from "react";
+import { useState, useMemo, useCallback } from "react";
 import ForceGraph from "./ForceGraph";
 import GraphControls from "./GraphControls";
 import GraphLegend from "./GraphLegend";
 import DetailSidebar from "../shared/DetailSidebar";
-import type { GraphData, GraphNode, ConnectionType, Person } from "@/lib/types";
+import type {
+  GraphData,
+  GraphLink,
+  GraphNode,
+  ConnectionType,
+  Person,
+} from "@/lib/types";
 import { filterByYear } from "@/lib/graph";
 
 interface PeopleNetworkProps {
@@ -34,6 +40,17 @@ function currentInstitutionOf(p: Person): string | null {
   return null;
 }
 
+type GraphEndpoint = GraphLink["source"] | { id?: string };
+
+function endpointId(endpoint: GraphEndpoint): string {
+  return typeof endpoint === "string" ? endpoint : endpoint.id ?? "";
+}
+
+function personEnglishName(node: GraphNode): string | undefined {
+  const data = node.data;
+  return data && "name" in data ? data.name.en : undefined;
+}
+
 export default function PeopleNetwork({ graphData, institutionNames }: PeopleNetworkProps) {
   const [selectedNode, setSelectedNode] = useState<GraphNode | null>(null);
   const [hoveredNode, setHoveredNode] = useState<GraphNode | null>(null);
@@ -51,7 +68,6 @@ export default function PeopleNetwork({ graphData, institutionNames }: PeopleNet
   const [timeFilter, setTimeFilter] = useState<number | null>(null);
   const [searchQuery, setSearchQuery] = useState("");
   const [institutionFilter, setInstitutionFilter] = useState<string>("all");
-  const [focusNodeId, setFocusNodeId] = useState<string | null>(null);
 
   // Distinct institutions present in the graph
   const institutionOptions = useMemo(() => {
@@ -83,7 +99,7 @@ export default function PeopleNetwork({ graphData, institutionNames }: PeopleNet
         nodes: filteredNodes,
         links: data.links.filter(
           (l) =>
-            nodeIds.has(l.source as string) && nodeIds.has(l.target as string)
+            nodeIds.has(endpointId(l.source)) && nodeIds.has(endpointId(l.target))
         ),
       };
     }
@@ -107,8 +123,8 @@ export default function PeopleNetwork({ graphData, institutionNames }: PeopleNet
           opacity: matched.has(n.id) ? (n.opacity ?? 1) : 0.1,
         })),
         links: data.links.map((l) => {
-          const s = typeof l.source === "string" ? l.source : (l.source as any).id;
-          const t = typeof l.target === "string" ? l.target : (l.target as any).id;
+          const s = endpointId(l.source);
+          const t = endpointId(l.target);
           const visible = matched.has(s) && matched.has(t);
           return { ...l, opacity: visible ? l.opacity : 0.05 };
         }),
@@ -130,8 +146,8 @@ export default function PeopleNetwork({ graphData, institutionNames }: PeopleNet
       }
       const neighbors = new Set<string>(matched);
       for (const l of data.links) {
-        const s = typeof l.source === "string" ? l.source : (l.source as any).id;
-        const t = typeof l.target === "string" ? l.target : (l.target as any).id;
+        const s = endpointId(l.source);
+        const t = endpointId(l.target);
         if (matched.has(s)) neighbors.add(t);
         if (matched.has(t)) neighbors.add(s);
       }
@@ -145,8 +161,8 @@ export default function PeopleNetwork({ graphData, institutionNames }: PeopleNet
               : 0.08,
         })),
         links: data.links.map((l) => {
-          const s = typeof l.source === "string" ? l.source : (l.source as any).id;
-          const t = typeof l.target === "string" ? l.target : (l.target as any).id;
+          const s = endpointId(l.source);
+          const t = endpointId(l.target);
           const bothMatch = matched.has(s) && matched.has(t);
           const oneMatch = matched.has(s) || matched.has(t);
           return {
@@ -160,13 +176,9 @@ export default function PeopleNetwork({ graphData, institutionNames }: PeopleNet
     return data;
   }, [graphData, edgeFilters, showGhosts, timeFilter, institutionFilter, searchQuery]);
 
-  // Focus first match on search
-  useEffect(() => {
+  const focusNodeId = useMemo(() => {
     const q = searchQuery.trim().toLowerCase();
-    if (!q) {
-      setFocusNodeId(null);
-      return;
-    }
+    if (!q) return null;
     const first = filteredData.nodes.find((n) => {
       const p = n.data as Person | undefined;
       return (
@@ -176,7 +188,7 @@ export default function PeopleNetwork({ graphData, institutionNames }: PeopleNet
         (p?.name.zh || "").includes(searchQuery.trim())
       );
     });
-    if (first) setFocusNodeId(first.id);
+    return first?.id ?? null;
   }, [searchQuery, filteredData.nodes]);
 
   const handleNodeClick = useCallback((node: GraphNode) => {
@@ -267,7 +279,7 @@ export default function PeopleNetwork({ graphData, institutionNames }: PeopleNet
           <span className="text-[#e8e8f0] font-medium">{hoveredNode.label}</span>
           {hoveredNode.data && "name" in hoveredNode.data && (
             <span className="text-[#8888a0] ml-2">
-              {(hoveredNode.data as any).name?.en}
+              {personEnglishName(hoveredNode)}
             </span>
           )}
         </div>

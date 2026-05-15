@@ -2,7 +2,7 @@
 
 Given a publication record (any combination of arxiv id, DOI, OpenAlex id),
 return the authoritative list of author names from the most reliable source.
-Cached on disk under data/papers/_*_authors_cache/.
+Cached on disk under .cache/msa/papers/_*_authors_cache/ by default.
 
 This is the SSOT for "who actually wrote this paper". Every cleanup script
 that decides whether a yaml's pub assignment is correct should consult this
@@ -15,10 +15,12 @@ import subprocess
 import time
 import xml.etree.ElementTree as ET
 
+from cache_paths import cache_path
+
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-ARXIV_CACHE = os.path.join(ROOT, 'data/papers/_arxiv_authors_cache')
-CROSSREF_CACHE = os.path.join(ROOT, 'data/papers/_crossref_authors_cache')
-OPENALEX_CACHE = os.path.join(ROOT, 'data/papers/_openalex_authors_cache')
+ARXIV_CACHE = cache_path('_arxiv_authors_cache')
+CROSSREF_CACHE = cache_path('_crossref_authors_cache')
+OPENALEX_CACHE = cache_path('_openalex_authors_cache')
 NS = {'a': 'http://www.w3.org/2005/Atom'}
 
 POLITE_EMAIL = 'mirror-symmetry-atlas@local'

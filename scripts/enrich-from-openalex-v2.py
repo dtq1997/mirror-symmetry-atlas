@@ -26,10 +26,11 @@ from copy import deepcopy
 import yaml
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from cache_paths import cache_path
 from lib_disambiguate_v2 import score_candidate
 
 PEOPLE_DIR = 'data/people'
-CACHE_DIR = 'data/papers/_openalex_cache'
+CACHE_DIR = cache_path('_openalex_cache')
 REVIEW_DIR = 'data/papers/_review_queue'
 MAILTO = 'qiantang@tsinghua.edu.cn'
 

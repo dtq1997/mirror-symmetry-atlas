@@ -3,11 +3,17 @@
 import { useState, useMemo, useCallback } from "react";
 import ForceGraph from "@/components/graphs/ForceGraph";
 import DetailSidebar from "@/components/shared/DetailSidebar";
-import type { GraphData, GraphNode, Person } from "@/lib/types";
+import type { GraphData, GraphLink, GraphNode } from "@/lib/types";
 
 interface Props {
   graphData: GraphData;
   peopleCount: number;
+}
+
+type GraphEndpoint = GraphLink["source"] | { id?: string };
+
+function endpointId(endpoint: GraphEndpoint): string {
+  return typeof endpoint === "string" ? endpoint : endpoint.id ?? "";
 }
 
 export default function AckNetworkClient({ graphData, peopleCount }: Props) {
@@ -17,7 +23,6 @@ export default function AckNetworkClient({ graphData, peopleCount }: Props) {
   const [showCoauthor, setShowCoauthor] = useState(true);
   const [showAck, setShowAck] = useState(true);
   const [minAckWeight, setMinAckWeight] = useState(2);
-  const [focusNodeId, setFocusNodeId] = useState<string | null>(null);
 
   const ackStats = useMemo(() => {
     const ackLinks = graphData.links.filter((l) => l.type === "acknowledgement");
@@ -38,8 +43,8 @@ export default function AckNetworkClient({ graphData, peopleCount }: Props) {
     // Drop isolated nodes
     const connected = new Set<string>();
     for (const l of links) {
-      const s = typeof l.source === "string" ? l.source : (l.source as any).id;
-      const t = typeof l.target === "string" ? l.target : (l.target as any).id;
+      const s = endpointId(l.source);
+      const t = endpointId(l.target);
       connected.add(s);
       connected.add(t);
     }
@@ -50,7 +55,7 @@ export default function AckNetworkClient({ graphData, peopleCount }: Props) {
     if (q) {
       const matched = new Set<string>();
       for (const n of nodes) {
-        const p = n.data as Person | undefined;
+        const p = n.data && "name" in n.data ? n.data : undefined;
         const hit =
           n.id.toLowerCase().includes(q) ||
           n.label.toLowerCase().includes(q) ||
@@ -60,8 +65,8 @@ export default function AckNetworkClient({ graphData, peopleCount }: Props) {
       }
       const neighbors = new Set<string>(matched);
       for (const l of links) {
-        const s = typeof l.source === "string" ? l.source : (l.source as any).id;
-        const t = typeof l.target === "string" ? l.target : (l.target as any).id;
+        const s = endpointId(l.source);
+        const t = endpointId(l.target);
         if (matched.has(s)) neighbors.add(t);
         if (matched.has(t)) neighbors.add(s);
       }
@@ -70,8 +75,8 @@ export default function AckNetworkClient({ graphData, peopleCount }: Props) {
         opacity: matched.has(n.id) ? 1 : neighbors.has(n.id) ? 0.5 : 0.08,
       }));
       links = links.map((l) => {
-        const s = typeof l.source === "string" ? l.source : (l.source as any).id;
-        const t = typeof l.target === "string" ? l.target : (l.target as any).id;
+        const s = endpointId(l.source);
+        const t = endpointId(l.target);
         const bothMatch = matched.has(s) && matched.has(t);
         const oneMatch = matched.has(s) || matched.has(t);
         return {
@@ -118,7 +123,6 @@ export default function AckNetworkClient({ graphData, peopleCount }: Props) {
           onNodeClick={handleNodeClick}
           onNodeHover={setHoveredNode}
           selectedNodeId={selectedNode?.id}
-          focusNodeId={focusNodeId}
         />
 
         {/* Top controls */}
@@ -182,7 +186,7 @@ export default function AckNetworkClient({ graphData, peopleCount }: Props) {
             <span className="text-[#e8e8f0] font-medium">{hoveredNode.label}</span>
             {hoveredNode.data && "name" in hoveredNode.data && (
               <span className="text-[#8888a0] ml-2">
-                {(hoveredNode.data as any).name?.en}
+                {hoveredNode.data.name.en}
               </span>
             )}
           </div>

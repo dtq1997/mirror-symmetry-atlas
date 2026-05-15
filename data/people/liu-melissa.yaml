@@ -7,6 +7,13 @@ died: null
 nationality: Taiwanese
 gender: female
 photo_url: null
+birth:
+  date: "1974-12-15"
+  precision: day
+  place: 台湾
+  sources:
+    - label: "Wikipedia"
+      url: "https://en.wikipedia.org/wiki/Chiu-Chu_Melissa_Liu"
 career_timeline:
   - period: "[?]-1996"
     type: education
@@ -44,7 +51,8 @@ career_timeline:
   - period: "2012"
     type: award
     title: "AMS Fellow (首届)"
-  - type: award
+  - period: "[待验证]"
+    type: award
     title: "Sloan Research Fellowship"
 research_areas:
   - gromov-witten-theory
@@ -156,18 +164,41 @@ external_ids:
   openalex: A5050554374
 links:
   homepage: 'https://www.math.columbia.edu/~ccliu/'
+  faculty_page: 'https://www.math.columbia.edu/~ccliu/'
+  cv: 'https://www.math.columbia.edu/~ccliu/Liu_CV_2605.pdf'
+  email: 'ccliu@math.columbia.edu'
+known_emails:
+  - "ccliu@math.columbia.edu"
+  - "ccl2121@columbia.edu"
+known_affiliations:
+  - "Department of Mathematics, Columbia University"
+  - "Department of Mathematics, Northwestern University"
+  - "Society of Fellows, Harvard University"
+  - "Department of Mathematics, Harvard University"
+  - "National Taiwan University"
+online_traces:
+  - type: homepage
+    label: "Columbia homepage"
+    url: "https://www.math.columbia.edu/~ccliu/"
+    last_verified: "2026-05-15"
+    notes: "页面列出邮箱、办公室、CV 和 seminar/conference 组织记录。"
+  - type: cv
+    label: "Columbia CV"
+    url: "https://www.math.columbia.edu/~ccliu/Liu_CV_2605.pdf"
+    last_verified: "2026-05-15"
+  - type: mathgenealogy
+    label: "Math Genealogy: Chiu-Chu Melissa Liu"
+    url: "https://www.mathgenealogy.org/id.php?id=69488"
+    last_verified: "2026-05-15"
+  - type: other
+    label: "OpenAlex: Chiu-Chu Melissa Liu"
+    url: "https://openalex.org/authors/A5050554374"
+    last_verified: "2026-05-15"
 personal_notes: |
-  1974.12.15 出生于台湾。台大 1996 → Harvard PhD 2002 (Yau)。
-  Harvard Society of Fellows → Northwestern → Columbia (2008 tenure, 2012 full)。
-  曾任 MSRI Chern Professor。AMS Fellow 2012 首届。
   与方博汉 (11 篇)、宗正宇 (6 篇) 形成 toric CY / remodeling conjecture 核心团队。
   Remodeling Conjecture (BKMP) 的主要推动者之一。
-  
-  现职：Columbia University 数学系教授
-  学历：哈佛大学博士 (2002, 导师丘成桐) [待验证 advisor]
-  研究：Topological Vertex 数学理论 (Li-Liu-Liu-Zhou 2004 经典); Remodeling Conjecture (BKMP); Eynard-Orantin topological recursion; open/closed Gromov-Witten correspondence
-  趣闻：1974.12.15 生, 台湾出身; 与 Jun Li, Kefeng Liu, Jian Zhou 合作的 topological vertex 数学化论文是开放 GW 的奠基性工作之一
-  媒体/社交：YouTube 上有其在 IAS 的 String Theory 系列讲座 (2024 "A-model: Topological String Theory")
+  与 Jun Li、Kefeng Liu、Jian Zhou 合作的 topological vertex 数学化论文是开放 GW 理论的奠基性工作之一。
+  Columbia 主页还显示她长期组织 Gromov-Witten theory、enumerative geometry 和 symplectic/gauge theory 相关 seminar。
 publications:
   - id: '2504.15696'
     title: 'Remodeling Conjecture with Descendants'
@@ -361,7 +392,7 @@ publications:
   - id: '1212.6073'
     title: 'Open-closed Gromov-Witten invariants of 3-dimensional Calabi-Yau smooth toric DM stacks'
     year: 2012
-    coauthors: [fang-bohan, 'Hsian-Hua Tseng']
+    coauthors: [fang-bohan, tseng-hsian-hua]
     doi: '10.1017/fms.2022.57'
     journal: 'Forum of Mathematics Sigma 10, e58 (2022)'
     primary_category: math.AG

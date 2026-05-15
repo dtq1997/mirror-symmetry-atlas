@@ -11,9 +11,8 @@ career_timeline:
   - period: "[待验证]-present"
     type: education
     institution: sun-yat-sen
-    role: "博士生"
-    advisor: li-changzheng
-    notes: "中山大学数学学院博士生，导师李长征。入学年份 [待验证]，从合作论文时间推测约 2021-2022 年入学"
+    role: "博士生 [待验证]"
+    notes: "中山大学数学学院。论文 TeX 源记录邮箱 songjy29@mail2.sysu.edu.cn；与李长征长期合作，师承关系待官方来源确认。"
 research_areas:
   - quantum-cohomology
   - quantum-k-theory
@@ -31,7 +30,7 @@ identity_profile:
   coauthor_circle_core_names: ['Changzheng Li', 'Huazhong Ke']
   research_keywords: [calculus, cohomology, gromov, quantum, representation, schubert, seidel, varieties, witten]
   known_arxiv_ids: [2509.17857, 2507.12351, 2507.12333, 2211.16902]
-advisor: li-changzheng
+advisor: null
 students: []
 key_collaborators:
   - person: li-changzheng
@@ -60,17 +59,20 @@ publications:
     year: 2025
     coauthors: [li-changzheng, 'Rui Xiong', 'Mingzhi Yang']
     primary_category: math.AG
+    sources: [arxiv]
   - id: '2507.12351'
     title: 'Toward quantum Pieri rule for $Fl_n$ via Seidel representation'
     year: 2025
     coauthors: [li-changzheng]
     journal: 'SCIENTIA SINICA Mathematica,2024, 54(12): 2009-2022'
     primary_category: math.AG
+    sources: [arxiv]
   - id: '2507.12333'
     title: 'Towards small quantum Chern character'
     year: 2025
     coauthors: [ke-huazhong, li-changzheng]
     primary_category: math.AG
+    sources: [arxiv]
   - id: 'doi:10.1360/ssm-2024-0112'
     title: 'Toward the quantum Pieri rule for'
     year: 2024
@@ -85,15 +87,38 @@ publications:
     coauthors: [li-changzheng, 'Zhaoyang Liu', 'Mingzhi Yang']
     journal: 'Sci. China Math. (2025)'
     primary_category: math.AG
+    sources: [arxiv]
 activity:
   total_papers: 5
   published_count: 3
   preprint_only_count: 2
   active_period: '2022-present'
 external_ids: {}
-links: {}
+links:
+  arxiv_author: 'https://arxiv.org/a/song_j_2.html'
+  email: 'songjy29@mail2.sysu.edu.cn'
+known_emails:
+  - "songjy29@mail2.sysu.edu.cn"
+known_affiliations:
+  - "School of Mathematics, Sun Yat-sen University, Guangzhou 510275, P.R. China"
+online_traces:
+  - type: arxiv
+    label: "arXiv author page: Jiayu Song"
+    url: "https://arxiv.org/a/song_j_2.html"
+    last_verified: "2026-05-15"
+    notes: "arXiv 作者页汇总其 quantum K-theory / quantum Schubert calculus 论文。"
+  - type: arxiv
+    label: "arXiv:2509.17857 TeX source"
+    url: "https://arxiv.org/e-print/2509.17857"
+    last_verified: "2026-05-15"
+    notes: "TeX 源记录中山大学数学学院署名单位和邮箱 songjy29@mail2.sysu.edu.cn。"
+  - type: homepage
+    label: "李长征主页论文列表"
+    url: "https://math.sysu.edu.cn/gagp/czli"
+    last_verified: "2026-05-15"
+    notes: "李长征主页列出与 Jiayu Song 合作的 quantum Chern character 和 quantum Schubert calculus 论文。"
 personal_notes: |
-  中山大学数学学院博士生，导师李长征，方向 quantum Schubert calculus / quantum K-theory。
+  中山大学数学学院博士生 [待验证]，方向 quantum Schubert calculus / quantum K-theory。
   从 2022 年起与李长征合作，累计 4 篇论文，主要方向：
   (1) Seidel representation 在 quantum K-theory 中的研究（博士论文主线）；
   (2) quantum Pieri rule for flag varieties via Seidel representation；
@@ -102,18 +127,18 @@ personal_notes: |
   2024 年在《中国科学: 数学》发表中文综述《李长征/宋家宇: Seidel 表示的量子 Pieri 公式》。
   是李长征组活跃的年轻合作者之一，与 Mingzhi Yang 经常合作。
   2026 年 4 月 HUST "数学物理与几何研讨会"参会人员之一。
-  [待验证] 博士入学具体年份。
-  
-  现职：中山大学数学学院博士生 (~2021/2022 入学，导师李长征)
-  学历：本科 [待补充]；目前博士在读
-  研究：quantum K-theory, Seidel 表示, quantum Schubert calculus, flag varieties
-  奖项：无
-  趣闻：既有 YAML 中文名记作"宋家宇"而非"宋家昱"——两个字均待与本人核实
+  博士入学具体年份和导师需官方来源确认；现有公开证据能确认中山大学数学学院署名、邮箱和李长征合作链。
 sources:
   - label: 'arXiv (all papers)'
-    url: 'https://arxiv.org/a/song_j_2'
+    url: 'https://arxiv.org/a/song_j_2.html'
   - label: '李长征主页 (合作者)'
     url: 'https://math.sysu.edu.cn/gagp/czli'
+  - label: 'arXiv TeX source 2509.17857'
+    url: 'https://arxiv.org/e-print/2509.17857'
+  - label: 'arXiv TeX source 2507.12333'
+    url: 'https://arxiv.org/e-print/2507.12333'
+  - label: 'arXiv TeX source 2507.12351'
+    url: 'https://arxiv.org/e-print/2507.12351'
   - label: 'ResearchGate'
     url: 'https://www.researchgate.net/scientific-contributions/Jiayu-Song-2237371125'
 tags:

@@ -30,6 +30,10 @@ export interface Collaborator {
 
 export interface Activity {
   total_papers?: number;
+  t1_papers?: number;
+  t2_papers?: number;
+  t3_papers?: number;
+  t4_papers?: number;
   /** Papers with a journal/DOI recorded — i.e. formally published. */
   published_count?: number;
   /** Papers that exist only on arXiv (no journal/DOI). */
@@ -54,14 +58,62 @@ export interface ExternalIds {
 
 export interface PersonLinks {
   homepage?: string;
+  faculty_page?: string;
+  cv?: string;
   google_scholar?: string;
   mathscinet?: string;
   arxiv_author?: string;
+  zbmath?: string;
+  researchgate?: string;
+  github?: string;
+  youtube?: string;
+  email?: string;
 }
 
 export interface SourceRef {
   label: string;
   url: string;
+}
+
+export type DatePrecision = "year" | "month" | "day" | "circa" | "unknown";
+
+export interface LifeDateFact {
+  /** ISO-like date string when known: YYYY, YYYY-MM, or YYYY-MM-DD. */
+  date?: string;
+  precision?: DatePrecision;
+  place?: string;
+  notes?: string;
+  sources?: SourceRef[];
+}
+
+export type OnlineTraceType =
+  | "homepage"
+  | "faculty"
+  | "cv"
+  | "google_scholar"
+  | "orcid"
+  | "mathgenealogy"
+  | "zbmath"
+  | "mathscinet"
+  | "arxiv"
+  | "openalex"
+  | "video"
+  | "interview"
+  | "lecture_notes"
+  | "slides"
+  | "news"
+  | "blog"
+  | "github"
+  | "wayback"
+  | "other";
+
+export interface OnlineTrace {
+  type: OnlineTraceType;
+  label?: string;
+  url: string;
+  archived_url?: string;
+  last_verified?: string;
+  notes?: string;
 }
 
 export interface Publication {
@@ -86,8 +138,12 @@ export interface Publication {
 export interface Person {
   slug: string;
   name: MultiLangName;
-  born?: number;
-  died?: number | null;
+  /** Legacy coarse field; prefer `birth` for new precise/sourceable data. */
+  born?: number | string | null;
+  /** Legacy coarse field; prefer `death` for new precise/sourceable data. */
+  died?: number | string | null;
+  birth?: LifeDateFact;
+  death?: LifeDateFact;
   nationality?: string;
   gender?: string;
   photo_url?: string | null;
@@ -99,6 +155,9 @@ export interface Person {
   activity: Activity;
   external_ids: ExternalIds;
   links: PersonLinks;
+  online_traces?: OnlineTrace[];
+  known_emails?: string[];
+  known_affiliations?: string[];
   publications?: Publication[];
   personal_notes?: string;
   sources?: SourceRef[];

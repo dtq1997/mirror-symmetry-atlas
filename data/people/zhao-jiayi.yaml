@@ -8,12 +8,11 @@ nationality: Chinese
 gender: null
 photo_url: null
 career_timeline:
-  - period: "present"
+  - period: "2025"
     type: education
     institution: ustc
-    role: "研究生 [待验证]"
-    advisor: yang-di
-    notes: "USTC 数学科学学院。邮箱 zhaojiayi616@mail.ustc.edu.cn（学生邮箱后缀）。单独署名论文方法直接承袭 Dubrovin-Yang 矩阵预解方法与郭晋东-杨迪的 psi-类大亏格渐近技术，推断为杨迪组研究生。[待验证]"
+    role: "硕士研究生拟录取；论文作者"
+    notes: "中国科大数学科学学院 2025 年硕士研究生建议录取名单含赵家艺；arXiv TeX 源署名单位为 School of Mathematical Sciences, USTC，并列出公开邮箱 zhaojiayi616@mail.ustc.edu.cn。论文致谢称部分工作在 USTC 本科期间完成。"
 research_areas:
   - gue-correlators
   - large-genus-asymptotics
@@ -23,14 +22,12 @@ research_areas:
 identity_profile:
   affiliations:
     - institution: 'ustc'
-      period: 'present'
-      role: '研究生 [待验证]'
+      period: '2025'
+      role: '数学科学学院硕士研究生拟录取；论文署名单位'
   email_domains: [ustc.edu.cn]
-  coauthor_circle_core_slugs: [yang-di]
-  coauthor_circle_core_names: ['Di Yang']
   research_keywords: [asymptotics, correlators, hierarchy, integrable, intersection, matrix, resolvent]
   known_arxiv_ids: [2510.26137]
-advisor: yang-di
+advisor: null
 students: []
 key_collaborators: []
 publications:
@@ -45,25 +42,53 @@ activity:
   preprint_only_count: 1
   active_period: '2025-present'
 external_ids: {}
-links: {}
+links:
+  email: "zhaojiayi616@mail.ustc.edu.cn"
+known_emails:
+  - "zhaojiayi616@mail.ustc.edu.cn"
+known_affiliations:
+  - "School of Mathematical Sciences, University of Science and Technology of China, 230026, P.R. China"
+online_traces:
+  - type: arxiv
+    label: "arXiv:2510.26137"
+    url: "https://arxiv.org/abs/2510.26137"
+    last_verified: "2026-05-15"
+    notes: "单独署名论文，arXiv 页面列出提交时间、分类 math-ph/math.CO 和作者提交记录。"
+  - type: arxiv
+    label: "arXiv TeX source:2510.26137"
+    url: "https://arxiv.org/e-print/2510.26137"
+    last_verified: "2026-05-15"
+    notes: "TeX 源记录 USTC 数学科学学院署名单位和公开邮箱。"
+  - type: news
+    label: "中国科大数学科学学院 2025 年硕士研究生建议录取名单"
+    url: "https://math.ustc.edu.cn/2025/0328/c18650a678578/pagem.htm"
+    last_verified: "2026-05-15"
+    notes: "学院公告名单中含赵家艺。"
 personal_notes: |
-  USTC 数学科学学院，推测为杨迪组研究生 [待验证]。
-  唯一 arXiv 论文 2510.26137 "GUE Correlators and Large Genus Asymptotics" 单独署名，
-  使用 Dubrovin-Yang 矩阵预解方法 [8]，结合 Guo-Yang [10] 的 psi-类交点数大亏格渐近技术，
-  推导具有 1 个 face 的普通图与 ribbon 图的大亏格渐近。
+  USTC 数学科学学院。2025 年中国科大数学科学学院硕士研究生建议录取名单含赵家艺；
+  其 2025 年 arXiv 论文 2510.26137 "GUE Correlators and Large Genus Asymptotics" 单独署名，
+  TeX 源署名单位为 School of Mathematical Sciences, University of Science and Technology of China，
+  并列出公开邮箱 zhaojiayi616@mail.ustc.edu.cn。
+  
+  论文使用 Dubrovin-Yang 矩阵预解方法，结合 Guo-Yang 的 psi-类交点数大亏格渐近技术，
+  推导具有 1 个 face 的普通图与 ribbon 图的大亏格渐近。论文致谢感谢 Di Yang 提出建议、
+  给出问题方向并参与讨论，也感谢 Jindong Guo 的讨论；并说明部分工作在作者 USTC 本科期间完成。
   方向完全对应杨迪近年在 GUE via Frobenius Manifolds 系列、BGW 大亏格渐近方面的工作。
   
   2026 HUST 会议参会者。
   
-  现职：中国科学技术大学数学科学学院研究生（杨迪组 [待验证]）
-  学历：USTC 在读 (邮箱 zhaojiayi616@mail.ustc.edu.cn)
+  现职：中国科学技术大学数学科学学院硕士研究生拟录取 / 在读状态待后续官方页面确认
+  学历：USTC 本科经历；2025 年中国科大数学科学学院硕士研究生建议录取
   研究：GUE 关联函数、大亏格渐近、矩阵预解方法 (matrix resolvent method)、可积层级、相交数
   奖项：无
-  趣闻：单独署名 arXiv 2510.26137 直接承袭 Dubrovin-Yang 矩阵预解 + 郭晋东-杨迪 ψ-类大亏格渐近技术
+  趣闻：单独署名 arXiv 2510.26137 直接承袭 Dubrovin-Yang 矩阵预解 + 郭晋东-杨迪 ψ-类大亏格渐近技术；TeX 源里留下了公开邮箱和 USTC 署名单位，是后续消歧的重要线索
 sources:
   - label: 'arXiv paper 2510.26137'
     url: 'https://arxiv.org/abs/2510.26137'
+  - label: 'arXiv TeX source 2510.26137'
+    url: 'https://arxiv.org/e-print/2510.26137'
+  - label: '中国科大数学科学学院 2025 年硕士研究生建议录取名单'
+    url: 'https://math.ustc.edu.cn/2025/0328/c18650a678578/pagem.htm'
 tags:
   - ustc
   - student
-  - stub

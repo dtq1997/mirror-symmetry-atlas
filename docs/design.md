@@ -29,7 +29,7 @@
 
 | 层 | 选型 | 理由 |
 |---|---|---|
-| 框架 | **Next.js 15** (App Router) + TypeScript | SSG 友好，Vercel 零配置部署 |
+| 框架 | **Next.js 16** (App Router) + TypeScript | 静态导出友好 |
 | 样式 | **Tailwind CSS v4** + `next-themes` | 暗色主题，快速迭代 |
 | 可视化 | **react-force-graph** (Three.js/WebGL) + Bloom | 发光效果 + 高性能，React 组件做信息面板 |
 | 地图 | **react-simple-maps** 或 D3-geo | 机构地图视图 |
@@ -37,7 +37,7 @@
 | 搜索 | **Fuse.js** | 客户端模糊搜索 |
 | YAML 解析 | **js-yaml** + **gray-matter** | Markdown frontmatter |
 | 数据格式 | YAML + Markdown | 人和 AI 都能编辑 |
-| 部署 | Vercel 或 `next export` 静态 | 分享方便 |
+| 部署 | GitHub Pages static export (`output: "export"`) | 分享方便 |
 
 ---
 
@@ -92,10 +92,10 @@ mirror-symmetry-atlas/
 │   └── concepts/frobenius-manifold.md # 概念详细说明
 │
 ├── scripts/
-│   ├── fetch-arxiv.ts                 # arXiv 每日抓取
-│   ├── fetch-conferences.ts           # 会议信息抓取
-│   ├── fetch-citations.ts             # Semantic Scholar 引用
-│   └── validate-data.ts              # 数据校验（slug 引用完整性）
+│   ├── fetch-arxiv-news.py            # arXiv 每日动态抓取
+│   ├── fetch-arxiv-by-author.py       # 按作者抓取 arXiv 论文
+│   ├── enrich-from-openalex-v2.py     # OpenAlex 富化 + 消歧
+│   └── lint-data.py                   # 数据校验
 │
 ├── src/
 │   ├── app/
@@ -293,6 +293,10 @@ name:
   zh: 杜布罗文
 born: 1950
 died: 2019                          # null if alive
+birth:                               # 新数据优先用结构化字段；born 只保留年份兼容
+  date: "1950-04-06"                 # YYYY / YYYY-MM / YYYY-MM-DD
+  precision: day                     # year | month | day | circa | unknown
+  place: "[待补充]"
 nationality: Russian
 gender: male
 photo_url: null                     # 相对路径 /photos/dubrovin.jpg 或外部 URL
@@ -374,9 +378,18 @@ external_ids:                        # ★ 实体消歧用 canonical IDs
   inspire: null
 links:
   homepage: null
+  faculty_page: null
+  cv: null
   google_scholar: null
   mathscinet: null
   arxiv_author: null
+  zbmath: null
+online_traces:
+  - type: faculty                    # homepage | faculty | cv | video | interview | lecture_notes | slides | news | wayback | other
+    label: "个人主页"
+    url: "https://..."
+    archived_url: "https://web.archive.org/..."
+    last_verified: "2026-05-15"
 
 # 轶事/非学术信息/私人生活
 personal_notes: |
@@ -753,11 +766,11 @@ API Key 统一存储：`~/ai/data/keys/api-keys.json`
 
 | 脚本 | 使用的 API | 输出 |
 |------|-----------|------|
-| `scripts/fetch-arxiv.ts` | arXiv Atom API | `data/papers/arxiv-YYYY-MM-DD.yaml` |
-| `scripts/fetch-citations.ts` | Semantic Scholar + OpenAlex | 补充 `data/papers/seminal.yaml` 的引用数据 |
-| `scripts/fetch-people.ts` | OpenAlex + zbMATH + Math Genealogy | 补充 `data/people/*.yaml` 的活跃度指标 |
-| `scripts/fetch-conferences.ts` | 网页抓取（国内数学会议网站） | `data/conferences/events-YYYY.yaml` |
-| `scripts/validate-data.ts` | 无（本地校验） | slug 引用完整性检查 |
+| `scripts/fetch-arxiv-news.py` | arXiv Atom API | `data/news/YYYY-MM-DD.yaml` |
+| `scripts/fetch-arxiv-by-author.py` | arXiv Atom API | YAML-ready publications |
+| `scripts/enrich-from-openalex-v2.py` | OpenAlex | 补充 `data/people/*.yaml`，边界结果进 `_review_queue` |
+| `scripts/crossref-supplementary-enrich.py` | Crossref | 补 DOI / journal |
+| `scripts/lint-data.py` | 无（本地校验） | schema、slug、消歧红线检查 |
 
 ### 数据丰富化流程
 
@@ -783,7 +796,7 @@ pnpm create next-app . --typescript --tailwind --app --src-dir --use-pnpm
 pnpm add react-force-graph-2d js-yaml gray-matter fuse.js katex next-themes rehype-katex
 pnpm add -D @types/js-yaml @types/katex
 ```
-- next.config.ts: SSG 为主，Dashboard 页面用 ISR (revalidate: 3600)
+- next.config.ts: 静态导出为主；GitHub Pages 下不使用 ISR
 - tailwind.config.ts: 自定义色值（Academic Blackboard 配色）
 - globals.css: 暗色主题 CSS 变量
 
@@ -869,9 +882,9 @@ pnpm add -D @types/js-yaml @types/katex
 
 ### Phase 4：arXiv 监控 + Dashboard 动态化
 
-1. `scripts/fetch-arxiv.ts` — 查询 arXiv Atom API
+1. `scripts/fetch-arxiv-news.py` — 查询 arXiv Atom API
    - 类别：math-ph, math.AG, math.QA, hep-th, math.DG, math.SG
-   - 输出：`data/papers/arxiv-YYYY-MM-DD.yaml`
+   - 输出：`data/news/YYYY-MM-DD.yaml`
 2. 相关度评分：
    - 关键词匹配 concepts 库 → 0-1 分
    - 作者匹配 people 库 → 加 0.3 分
@@ -887,7 +900,7 @@ pnpm add -D @types/js-yaml @types/katex
 
 1. 种子 30-50 篇经典论文到 `data/papers/seminal.yaml`（含手动标注的引用关系）
 2. **Paper 新增 semantic_relations 字段**：generalizes / corrects / alternative-proof / surveys
-3. `scripts/fetch-citations.ts` — Semantic Scholar API 补充引用数据
+3. `scripts/fetch-citations.py`（待实现）— Semantic Scholar API 补充引用数据
 4. `CitationNetwork.tsx` — ForceGraph 配置层
    - 节点大小 ∝ citations_count
    - 有向边 = 引用方向，颜色/样式按 relation_type 区分
@@ -1012,7 +1025,7 @@ Dashboard 首页不只是静态入口，而是领域动态快照：
 ## 关键架构决策
 
 1. **react-force-graph-2d + React 分工** [三模型对比]：力导向图用 `react-force-graph-2d`（WebGL canvas），React 管理控件/tooltip/面板/列表视图。所有图页面同步提供 Table/List 作为精确筛选替代。移动端直接 fallback 为列表。
-2. **SSG + ISR 混合部署** [GPT+Gemini 建议]：人物/概念等慢变数据用纯 SSG；Dashboard 的 arXiv Feed 和会议日历用 ISR（1h revalidate）或客户端 fetch 预生成 JSON。
+2. **静态导出部署**：人物、概念、会议、新闻等页面在 build 时生成；arXiv cron 写入 YAML 后 push 触发 GitHub Pages 重新部署。
 3. **KaTeX 服务端预渲染** [Gemini建议]：用 `rehype-katex` 在 build 时编译公式为 HTML+CSS，避免客户端渲染的布局跳动。
 4. **Ghost nodes**：引用了但尚未创建 YAML 文件的 slug 渲染为半透明"未记录"节点，不报错。支持渐进填充数据。
 5. **arXiv 是独立脚本**：cron 运行 → 写 YAML → git push → 触发重新部署。
@@ -1042,7 +1055,7 @@ Dashboard 首页不只是静态入口，而是领域动态快照：
 - 会议全球建模+中国筛选 (GPT)
 - "Edit on GitHub" 按钮 (Gemini)
 - 移动端降级为列表视图 (Gemini)
-- SSG + ISR 混合 (GPT+Gemini)
+- 静态导出 + cron 写 YAML 后重新部署 (当前实现)
 - 搜索升级路径 Fuse.js → Orama (GPT+Gemini)
 
 **不采纳：**
@@ -1087,7 +1100,9 @@ Dashboard 首页不只是静态入口，而是领域动态快照：
 ```bash
 pnpm dev          # 开发服务器 http://localhost:3000
 pnpm build        # 静态导出到 out/
-pnpm validate     # 数据校验：检查 slug 引用完整性、YAML 格式
+pnpm lint         # ESLint
+pnpm typecheck    # TypeScript 类型检查
+pnpm lint:data    # 数据校验：检查 slug 引用完整性、YAML 格式
 ```
 
 ## 验证清单
@@ -1107,6 +1122,6 @@ pnpm validate     # 数据校验：检查 slug 引用完整性、YAML 格式
 - [ ] 人物流动弧线正常渲染
 
 ### 全局完成标准
-- [ ] 所有 slug 交叉引用无断链（`pnpm validate`）
+- [ ] 所有 slug 交叉引用无断链（`pnpm lint:data`）
 - [ ] 每种图视图都支持 TimeSlider
 - [ ] Dashboard 展示实时动态信息

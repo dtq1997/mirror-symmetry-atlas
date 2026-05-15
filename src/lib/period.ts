@@ -26,13 +26,6 @@ export function parsePeriod(period: string | undefined | null): ParsedPeriod {
   const lower = s.toLowerCase();
   const ongoing = /present|至今|现在/.test(lower);
 
-  // Split on common range separators (hyphen, en/em dash, "to", "—", "–")
-  // but only if a separator clearly separates two sides.
-  const parts = s.split(/\s*(?:—|–|to|至)\s*|(?<=\d)\s*-\s*(?=[A-Za-z\[\d~?])/i);
-  // Fallback: also handle plain "YYYY-YYYY" (regex above misses this because
-  // the lookbehind requires non-digit after `-`). We'll just rely on findYears
-  // to recover both sides below.
-
   const allYears = findYears(s);
   let start = FAR_FUTURE;
   let end = FAR_FUTURE;

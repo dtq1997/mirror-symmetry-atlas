@@ -1,0 +1,25 @@
+slug: ohio-state
+name:
+  en: "The Ohio State University"
+  zh: "俄亥俄州立大学"
+type: university
+country: USA
+city: Columbus
+location:
+  lat: 40.0067
+  lng: -83.0305
+founded: 1870
+url: "https://www.osu.edu/"
+relevance: low
+research_groups:
+  - name: "Department of Mathematics"
+    topics:
+      - gromov-witten-theory
+      - algebraic-geometry
+      - mirror-symmetry
+    current_members: []
+    past_members:
+      - chao-qian
+events: []
+notes: |
+  钞乾在 Ohio State 数学系与 Hsian-Hua Tseng 合作 toric stack bundles 与 crepant transformation。

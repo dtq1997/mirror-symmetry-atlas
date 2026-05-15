@@ -1,36 +1,51 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Mirror Symmetry Atlas
 
-## Getting Started
+镜像对称及相关领域的交互式知识平台。项目核心是 YAML 数据真值、学术身份消歧和静态导出的 Next.js 前端。
 
-First, run the development server:
+## 技术栈
+
+- Next.js 16 App Router + TypeScript + React 19
+- Tailwind CSS v4
+- `react-force-graph-2d`
+- `js-yaml`
+- GitHub Pages static export (`next.config.ts` 使用 `output: "export"`)
+
+## 开发
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
+pnpm install
 pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+本地预览默认在 `http://localhost:3000`。
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 验证
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+pnpm lint
+pnpm typecheck
+pnpm lint:data
+pnpm build
+```
 
-## Learn More
+`pnpm build` 会先生成 `src/lib/people-names.json`、`src/lib/institution-names.json`，再跑 `scripts/lint-data.py`，最后静态导出到 `out/`。
 
-To learn more about Next.js, take a look at the following resources:
+## 数据维护
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- 人物、机构、概念、会议等真值放在 `data/`。
+- 论文身份、作者匹配、非数学污染等规则以 `scripts/` 内 SSOT 模块为准，尤其是 `name_match.py`、`paper_identity.py`、`lib_truth.py`、`non_math_keywords.py`。
+- 可再生成的 API cache、网页抓取缓存和 arXiv source 默认放在 `.cache/msa/papers/`，不进入 git。可用 `MSA_CACHE_DIR=/path/to/cache` 覆盖。
+- 改 `data/**` 前先读 `CONTRIBUTING.md`、`HANDOFF.md` 和项目入口规则。
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 部署
 
-## Deploy on Vercel
+push 到 `main` 后 `.github/workflows/deploy.yml` 会执行：
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```bash
+pnpm install --frozen-lockfile
+pnpm lint
+pnpm typecheck
+pnpm build
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+通过后上传 `out/` 到 GitHub Pages。

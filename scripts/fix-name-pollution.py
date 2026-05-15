@@ -13,7 +13,7 @@ Strategy:
 3. If not, look for a different slug whose en name DOES appear there → swap.
 4. If no slug fits, keep as raw name string.
 
-Cache arxiv responses to data/papers/_arxiv_cache/{id}.xml
+Cache arxiv responses to .cache/msa/papers/_arxiv_authors_cache/{id}.xml
 
 Usage: python3 scripts/fix-name-pollution.py [--dry-run]
 """
@@ -29,8 +29,10 @@ import xml.etree.ElementTree as ET
 from collections import defaultdict
 import yaml
 
+from cache_paths import cache_path
+
 PEOPLE_DIR = 'data/people'
-ARXIV_CACHE = 'data/papers/_arxiv_authors_cache'
+ARXIV_CACHE = cache_path('_arxiv_authors_cache')
 
 NS = {'a': 'http://www.w3.org/2005/Atom'}
 

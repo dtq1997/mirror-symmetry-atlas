@@ -60,6 +60,27 @@ activity:
 external_ids: {}
 links:
   email: "wangcyu@pku.edu.cn"
+known_emails:
+  - "wwccyy@pku.edu.cn"
+  - "wangcyu@pku.edu.cn"
+known_affiliations:
+  - "School of Mathematical Sciences, Peking University, Beijing, China"
+online_traces:
+  - type: arxiv
+    label: "arXiv:2402.14504"
+    url: "https://arxiv.org/abs/2402.14504"
+    last_verified: "2026-05-15"
+    notes: "与刘小博合著，TeX 源列出北京大学数学科学学院署名单位和邮箱 wwccyy@pku.edu.cn。"
+  - type: arxiv
+    label: "arXiv TeX source:2402.14504"
+    url: "https://arxiv.org/e-print/2402.14504"
+    last_verified: "2026-05-15"
+    notes: "源码末尾记录 Chongyu Wang 的 PKU 署名单位。"
+  - type: arxiv
+    label: "arXiv:2603.02736"
+    url: "https://arxiv.org/abs/2603.02736"
+    last_verified: "2026-05-15"
+    notes: "与刘小博合著，TeX 源列出北京大学数学科学学院署名单位和邮箱 wangcyu@pku.edu.cn。"
 personal_notes: |
   北京大学数学科学学院博士研究生，导师刘小博。
   与导师合作两篇 arXiv 论文：
@@ -67,12 +88,17 @@ personal_notes: |
   (2) 2026 年 Complexity of quantum cohomology (2D TQFT 的电路复杂度)。
   是刘小博在 GW theory / 量子上同调方向的现任博士生，研究主线接续王新、杨成浪等师兄的工作
   (tautological relations on $\overline{\mathcal{M}}_{g,n}$)。
+  公开邮箱在两篇论文 TeX 源中出现过 wwccyy@pku.edu.cn 与 wangcyu@pku.edu.cn，署名单位均为北京大学数学科学学院。
   2026 HUST 会议参会人员 (未做邀请报告)。
 sources:
   - label: "arXiv 2402.14504 (作者单位: 北京大学)"
     url: "https://arxiv.org/abs/2402.14504"
+  - label: "arXiv TeX source 2402.14504"
+    url: "https://arxiv.org/e-print/2402.14504"
   - label: "arXiv 2603.02736 (作者单位: 北京大学数学科学学院)"
     url: "https://arxiv.org/abs/2603.02736"
+  - label: "arXiv TeX source 2603.02736"
+    url: "https://arxiv.org/e-print/2603.02736"
 tags:
   - pku-bicmr
   - student

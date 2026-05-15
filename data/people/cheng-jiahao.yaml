@@ -12,8 +12,7 @@ career_timeline:
     type: education
     institution: pku
     role: "博士, 基础数学 (理学博士)"
-    advisor: "[待验证]"
-    notes: "北京大学基础数学理学博士。导师 [待验证]，可能与 Zhuo Chen (清华)、Ping Xu 学派相关，但具体导师未查到"
+    notes: "北京大学基础数学理学博士。导师未见公开来源；陈酌是高频合作者，不作为导师事实写入。"
   - period: "2021-01-present"
     type: position
     institution: nchu
@@ -37,7 +36,7 @@ identity_profile:
     - institution: 'nchu'
       period: '2021-01-present'
       role: '讲师 (副导师, 硕士生副导师)'
-  email_domains: [pku.edu.cn]
+  email_domains: [nchu.edu.cn, pku.edu.cn]
   coauthor_circle_core_slugs: [chen-zhuo, ni-dadi, xiang-maosong]
   coauthor_circle_core_names: ['Dadi Ni', 'Maosong Xiang', 'Zhuo Chen']
   research_keywords: [algebraic, algebroid, atiyah, geometry, groupoid, infinity, mathematical, physics, quantum]
@@ -107,14 +106,37 @@ activity:
 external_ids: {}
 links:
   homepage: 'https://sx.nchu.edu.cn/szdw/sssds/content_121119'
+  faculty_page: 'https://sx.nchu.edu.cn/szdw/sssds/content_121119'
   email: 'jiahaocheng@nchu.edu.cn'
+known_emails:
+  - "jiahaocheng@nchu.edu.cn"
+known_affiliations:
+  - "College of Mathematics and Information Science, Center for Mathematical Sciences, Nanchang Hangkong University, Nanchang, 330063, P.R. China"
+  - "南昌航空大学数学与信息科学学院"
+  - "北京大学基础数学"
+online_traces:
+  - type: faculty
+    label: "南昌航空大学数学与信息科学学院程家豪简历"
+    url: "https://sx.nchu.edu.cn/szdw/sssds/content_121119"
+    last_verified: "2026-05-15"
+    notes: "官方简历列出讲师、副导师、博士学位、邮箱、2021-01 起任职和研究方向。"
+  - type: arxiv
+    label: "arXiv:2508.02019 TeX source"
+    url: "https://arxiv.org/e-print/2508.02019"
+    last_verified: "2026-05-15"
+    notes: "TeX 源记录南昌航空大学署名单位和邮箱 jiahaocheng@nchu.edu.cn。"
+  - type: arxiv
+    label: "arXiv:2412.09039 TeX source"
+    url: "https://arxiv.org/e-print/2412.09039"
+    last_verified: "2026-05-15"
+    notes: "TeX 源记录南昌航空大学署名单位和邮箱 jiahaocheng@nchu.edu.cn。"
 personal_notes: |
   南昌航空大学数学与信息科学学院讲师 (2021.01 起)，北京大学基础数学博士。
   研究方向：数学物理与代数几何，具体是 Lie pair、dg manifold、
   Atiyah class、Hopf algebroid / quantum groupoid 与 brace B∞ algebras。
   
-  所有 4 篇论文均与 Zhuo Chen (陈酌, 清华) 合作——陈酌极可能是博士导师或
-  博士期间合作者 [待验证]。论文合作网络：
+  所有 4 篇论文均与 Zhuo Chen (陈酌, 清华) 合作；导师未见公开来源，暂不写入 advisor。
+  论文合作网络：
   - 与陈酌、倪大地 (ni-dadi, 河南大学) 2019/2022 两篇关于 Lie pair / L≤3
     algebra / Hopf algebra from dg manifold 的文章；
   - 与陈酌、乔雨 (yu-qiao)、Maosong Xiang 2024/2025 两篇 quantum groupoid
@@ -122,17 +144,14 @@ personal_notes: |
   
   博士毕业年份和确切博导 [待验证]。
   2026 HUST 数学物理与几何研讨会参会。
-  
-  现职：南昌航空大学数学与信息科学学院讲师（2021-01 起，硕士生副导师）；email jiahaocheng@nchu.edu.cn
-  学历：北京大学基础数学博士（具体年份与导师 [待验证]，与陈酌学派密切）
-  重要奖项：[待补]
-  趣闻：4 篇 arXiv 全部与陈酌（清华）合作——2019/2022 与陈酌+倪大地（河南大学）做 Hopf algebra from dg manifold；2024/25 与陈酌+乔雨+向茂松做 quantum groupoid 的动力学 twist 与 brace B∞ 同构。属"陈酌系"中坚青年。2026 HUST 会议参会
 sources:
   - label: 'NCHU faculty page'
     url: 'https://sx.nchu.edu.cn/szdw/sssds/content_121119'
-  - label: '信息源'
-    url: 'https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5056826'
-  - label: '信息源'
+  - label: 'arXiv paper 1911.01388'
     url: 'https://arxiv.org/abs/1911.01388'
+  - label: 'arXiv TeX source 2508.02019'
+    url: 'https://arxiv.org/e-print/2508.02019'
+  - label: 'arXiv TeX source 2412.09039'
+    url: 'https://arxiv.org/e-print/2412.09039'
 tags:
   - nchu

@@ -16,6 +16,8 @@ This version (Next.js 16, App Router) has breaking changes — APIs, conventions
 1. `CLAUDE.md`（项目规则全集，Codex/Claude 共享）
 2. `docs/enrichment-methodology.md`（人物充实 checklist + 防错规则）
 3. `docs/design.md`（schema、配色、阶段计划）
+4. 若改 `data/**`：再读 `CONTRIBUTING.md` 和 `HANDOFF.md`
+5. 若涉及人物论文/消歧：再读 `~/.claude/skills/academic-data-fetch/skill.md`
 
 ## 用户身份
 
@@ -41,6 +43,14 @@ This version (Next.js 16, App Router) has breaking changes — APIs, conventions
 ## 重名消歧（用户最高优先级诉求）
 
 历史教训：很多人物的论文计数错得离谱，根因都是重名混入。**每次涉及论文计数或合作者推断必须按以下顺序硬过：**
+
+### 0. 先用仓库 SSOT，不要另造匹配逻辑
+- 名字匹配：`scripts/name_match.py`，禁止 substring / prefix / initials-only 自动绑定
+- 论文身份：`scripts/paper_identity.py`，用 DOI/arXiv/title canonical keys，跨 YAML 合并用 union-find 思路
+- 作者真值：`scripts/lib_truth.py`，arXiv → Crossref → OpenAlex；legacy 7 位 arXiv id 必须带 `owner_hint`
+- 证据消歧：优先 `scripts/lib_disambiguate_v2.py` / `scripts/enrich-from-openalex-v2.py`
+- 非数学污染：`scripts/non_math_keywords.py` 是唯一关键词/期刊围栏来源，不要在别处复制一份
+- 前端显示名：`src/lib/name.ts` + `src/lib/people-names.json`，UI 渲染 person slug 必须走 `displayName()`
 
 ### 1. arXiv 类目硬限定
 - 调用 `scripts/fetch-arxiv-by-author.py "Firstname Lastname" --cats math-ph,math.AG,math.AT,nlin.SI,hep-th`
@@ -77,6 +87,7 @@ known_affiliations:
 - 看论文 tex 源的 `\acknowledgments` 提到的基金、合作者
 - 用论文里的导师/合作者反推（数学社群偏小，几篇就能锁定）
 - 实在不确定 → 论文进 `[待验证]` 池，不要瞎归到某个 slug
+- OpenAlex score 10-19 或证据单薄 → 写/保留 `data/papers/_review_queue/{slug}.yaml`，等人工核对
 
 ## 主动审计（用户明确要求）
 
@@ -95,6 +106,34 @@ known_affiliations:
 - 数据更新链：`.github/workflows/` 里有 `Daily arXiv News`（每天 UTC 08:00 跑 `fetch-arxiv-news.py`）
 - 排查时先看 https://github.com/dtq1997/mirror-symmetry-atlas/actions 最近的 run 是否失败、deploy workflow 触发条件、`pnpm build` 输出是否落到 `out/`
 - **不要自动修复 workflow**——先报告失败原因再请用户决定
+
+## Codex 接手操作规程
+
+### 当前理解
+- 这是数据真值工程，不只是 Next.js 前端。最大风险是学术身份污染、论文错挂、合作者计数漂移。
+- Claude 已把主要经验沉淀在 `HANDOFF.md`、`CONTRIBUTING.md`、`~/.claude/projects/-Users-dtq1997-ai-workspace-mirror-symmetry-atlas/memory/`、`~/.claude/skills/academic-data-fetch/skill.md`。Codex 需要读这些，不假设自己从零判断更准。
+- `HANDOFF.md` 里的数量可能过期；需要当场用 `find` / `python3 scripts/lint-data.py` 复核。
+
+### 每次数据改动前
+1. `git status --short`
+2. `python3 scripts/lint-data.py` 记录基线；当前允许有 warnings，但 errors 必须是 0
+3. 读要改的 YAML 全文；打开人物 YAML 时顺手扫 `publications` 标题/期刊是否跨领域
+4. 先确认 source URL，再写事实；无 source 的推测只能标 `[待验证]`
+
+### 每次数据改动后
+1. 若新增/改机构引用：`python3 scripts/build-missing-institution-stubs.py`
+2. 若改 person 名称/机构：`python3 scripts/build-people-names.py`、`python3 scripts/build-institution-names.py`
+3. 若改 publications/coauthors：视情况跑 `python3 scripts/canonicalize-publications.py --dry-run`、`python3 scripts/recompute-collaborator-counts.py`、`python3 scripts/sync-coauthored-publications.py`
+4. 必跑 `python3 scripts/lint-data.py`
+5. 提交前必跑 `pnpm build`
+6. 若已经 push 并影响线上：等 GitHub Actions，再 curl 线上 HTML 验证目标字符串
+
+### 典型禁区
+- 不手填 DOI；DOI 必须来自 Crossref/OpenAlex/论文自报，并标 `sources`
+- 不把 OpenAlex last_known_institution 当当前机构
+- 不把 OpenAlex total_papers 直接写入 `activity.total_papers`，除非 profile 已消歧/审计
+- 不在 `personal_notes` 写“OpenAlex 混入同名者”等数据质量说明
+- 不批量删除 ghost slug / 大规模改 schema / 写入 100+ 人，除非先和用户对齐
 
 ## 命令
 

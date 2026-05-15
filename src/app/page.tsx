@@ -3,7 +3,6 @@ import {
   getAllPeople,
   getAllConcepts,
   getAllConnections,
-  getAllInstitutions,
   getAllConferenceEvents,
   getAllTimelineEvents,
   getAllProblems,
@@ -14,7 +13,6 @@ export default function Dashboard() {
   const people = getAllPeople();
   const concepts = getAllConcepts();
   const connections = getAllConnections();
-  const institutions = getAllInstitutions();
   const conferences = getAllConferenceEvents();
   const timeline = getAllTimelineEvents();
   const problems = getAllProblems();
@@ -22,7 +20,7 @@ export default function Dashboard() {
   // Count total publications
   let totalPubs = 0;
   for (const p of people) {
-    totalPubs += ((p as any).publications || []).length;
+    totalPubs += p.publications?.length ?? 0;
   }
 
   const stats = [

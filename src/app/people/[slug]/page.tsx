@@ -4,6 +4,7 @@ import PersonTimeline from "@/components/person/PersonTimeline";
 import PersonStats from "@/components/person/PersonStats";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import type { LifeDateFact, OnlineTrace, Person, SourceRef } from "@/lib/types";
 
 export function generateStaticParams() {
   return getAllPeople().map((p) => ({ slug: p.slug }));
@@ -33,6 +34,7 @@ export default async function PersonPage({
   const acknowledgedBy = (ackMentions.byTarget.get(slug) ?? [])
     .slice()
     .sort((a, b) => b.papers.length - a.papers.length);
+  const lifespan = formatLifespan(person);
 
   return (
     <div className="max-w-4xl mx-auto px-6 py-10 w-full">
@@ -56,12 +58,7 @@ export default async function PersonPage({
         )}
         <div className="flex items-center gap-3 mt-2 text-sm text-[#8888a0]">
           {person.nationality && <span>{person.nationality}</span>}
-          {person.born && (
-            <span>
-              {person.born}
-              {person.died ? ` – ${person.died}` : ""}
-            </span>
-          )}
+          {lifespan && <span>{lifespan}</span>}
         </div>
 
         {/* Tags */}
@@ -78,6 +75,8 @@ export default async function PersonPage({
           </div>
         )}
       </div>
+
+      <IdentityEvidence person={person} lifespan={lifespan} />
 
       {/* Research areas */}
       {person.research_areas?.length > 0 && (
@@ -480,16 +479,8 @@ export default async function PersonPage({
       )}
 
       {/* Publications */}
-      {(person as any).publications?.length > 0 && (() => {
-        const pubs = (person as any).publications as Array<{
-          id: string;
-          title: string;
-          year: number;
-          coauthors?: string[];
-          doi?: string;
-          journal?: string;
-          primary_category?: string;
-        }>;
+      {(person.publications?.length ?? 0) > 0 && (() => {
+        const pubs = person.publications ?? [];
         const publishedCount = pubs.filter((p) => p.journal || p.doi).length;
         const preprintCount = pubs.length - publishedCount;
         return (
@@ -646,11 +637,33 @@ export default async function PersonPage({
           {person.links?.homepage && (
             <ExtLink href={person.links.homepage} label="主页" />
           )}
+          {person.links?.faculty_page && (
+            <ExtLink href={person.links.faculty_page} label="教师主页" />
+          )}
+          {person.links?.cv && <ExtLink href={person.links.cv} label="CV" />}
           {person.links?.google_scholar && (
             <ExtLink href={person.links.google_scholar} label="Google Scholar" />
           )}
           {person.links?.mathscinet && (
             <ExtLink href={person.links.mathscinet} label="MathSciNet" />
+          )}
+          {person.links?.arxiv_author && (
+            <ExtLink href={person.links.arxiv_author} label="arXiv author" />
+          )}
+          {person.links?.zbmath && (
+            <ExtLink href={person.links.zbmath} label="zbMATH" />
+          )}
+          {person.links?.researchgate && (
+            <ExtLink href={person.links.researchgate} label="ResearchGate" />
+          )}
+          {person.links?.github && (
+            <ExtLink href={person.links.github} label="GitHub" />
+          )}
+          {person.links?.youtube && (
+            <ExtLink href={person.links.youtube} label="公开视频" />
+          )}
+          {person.links?.email && (
+            <ExtLink href={`mailto:${person.links.email}`} label="Email" />
           )}
           {person.external_ids?.openalex && (
             <ExtLink
@@ -672,6 +685,17 @@ export default async function PersonPage({
           )}
         </div>
       </section>
+      {/* Online traces */}
+      {person.online_traces && person.online_traces.length > 0 && (
+        <section className="mb-8" id="online-traces">
+          <h2 className="text-lg font-semibold text-[#e8e8f0] mb-3">网上痕迹</h2>
+          <div className="space-y-2">
+            {person.online_traces.map((trace, i) => (
+              <OnlineTraceItem key={`${trace.url}-${i}`} trace={trace} />
+            ))}
+          </div>
+        </section>
+      )}
       {/* Sources */}
       {person.sources && person.sources.length > 0 && (
         <section className="mb-8">
@@ -691,6 +715,247 @@ export default async function PersonPage({
             ))}
           </div>
         </section>
+      )}
+    </div>
+  );
+}
+
+function formatLifeDate(fact?: LifeDateFact, fallback?: number | string | null) {
+  const raw = fact?.date ?? fallback;
+  if (raw === null || raw === undefined || raw === "") return "";
+  const place = fact?.place ? `（${fact.place}）` : "";
+  return `${raw}${place}`;
+}
+
+function formatLifespan(person: Person) {
+  const birth = formatLifeDate(person.birth, person.born);
+  const death = formatLifeDate(person.death, person.died);
+  if (birth && death) return `${birth} – ${death}`;
+  return birth || death;
+}
+
+function uniqueStrings(values: Array<string | undefined>) {
+  return Array.from(
+    new Set(values.filter((value): value is string => !!value && value.trim() !== ""))
+  );
+}
+
+function externalIdLinks(person: Person) {
+  const ids = person.external_ids;
+  if (!ids) return [];
+  return [
+    ids.openalex && {
+      label: "OpenAlex",
+      value: ids.openalex,
+      href: `https://openalex.org/authors/${ids.openalex}`,
+    },
+    ids.mathgenealogy && {
+      label: "Math Genealogy",
+      value: ids.mathgenealogy,
+      href: `https://www.mathgenealogy.org/id.php?id=${ids.mathgenealogy}`,
+    },
+    ids.orcid && {
+      label: "ORCID",
+      value: ids.orcid,
+      href: `https://orcid.org/${ids.orcid}`,
+    },
+    ids.zbmath && {
+      label: "zbMATH",
+      value: ids.zbmath,
+      href: `https://zbmath.org/authors/?q=${encodeURIComponent(ids.zbmath)}`,
+    },
+    ids.inspire && {
+      label: "INSPIRE",
+      value: ids.inspire,
+      href: `https://inspirehep.net/authors/${ids.inspire}`,
+    },
+  ].filter((item): item is { label: string; value: string; href: string } => !!item);
+}
+
+function sourceLinks(sources?: SourceRef[]) {
+  if (!sources?.length) return null;
+  return (
+    <div className="mt-1 flex flex-wrap gap-x-2 gap-y-1">
+      {sources.map((src, i) => (
+        <a
+          key={`${src.url}-${i}`}
+          href={src.url}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-[11px] text-[#6366f1] hover:text-[#818cf8]"
+        >
+          {src.label} ↗
+        </a>
+      ))}
+    </div>
+  );
+}
+
+function IdentityEvidence({
+  person,
+  lifespan,
+}: {
+  person: Person;
+  lifespan: string;
+}) {
+  const emails = uniqueStrings([person.links?.email, ...(person.known_emails ?? [])]);
+  const affiliations = uniqueStrings(person.known_affiliations ?? []);
+  const ids = externalIdLinks(person);
+  const hasLifeData = !!lifespan || !!person.birth?.notes || !!person.death?.notes;
+  const hasEvidence =
+    hasLifeData ||
+    emails.length > 0 ||
+    affiliations.length > 0 ||
+    ids.length > 0 ||
+    (person.online_traces?.length ?? 0) > 0;
+
+  if (!hasEvidence) return null;
+
+  return (
+    <section className="mb-8">
+      <h2 className="text-lg font-semibold text-[#e8e8f0] mb-3">身份线索</h2>
+      <div className="bg-[#14141f] rounded-xl p-5 border border-[#2a2a3a] space-y-4 text-sm">
+        {hasLifeData && (
+          <div>
+            <div className="text-xs text-[#8888a0] mb-1">生卒信息</div>
+            {lifespan && <div className="text-[#e8e8f0]">{lifespan}</div>}
+            {person.birth?.notes && (
+              <div className="text-xs text-[#8888a0] mt-1">{person.birth.notes}</div>
+            )}
+            {person.death?.notes && (
+              <div className="text-xs text-[#8888a0] mt-1">{person.death.notes}</div>
+            )}
+            {sourceLinks([...(person.birth?.sources ?? []), ...(person.death?.sources ?? [])])}
+          </div>
+        )}
+
+        {emails.length > 0 && (
+          <div>
+            <div className="text-xs text-[#8888a0] mb-1">公开邮箱</div>
+            <div className="flex flex-wrap gap-2">
+              {emails.map((email) => (
+                <a
+                  key={email}
+                  href={`mailto:${email}`}
+                  className="text-[#6366f1] hover:text-[#818cf8] font-mono text-xs"
+                >
+                  {email}
+                </a>
+              ))}
+            </div>
+          </div>
+        )}
+
+        {affiliations.length > 0 && (
+          <div>
+            <div className="text-xs text-[#8888a0] mb-1">论文署名/已知单位</div>
+            <div className="flex flex-wrap gap-2">
+              {affiliations.map((affiliation) => (
+                <span
+                  key={affiliation}
+                  className="px-2 py-1 rounded bg-[#2a2a3a] text-xs text-[#c8c8d8]"
+                >
+                  {affiliation}
+                </span>
+              ))}
+            </div>
+          </div>
+        )}
+
+        {ids.length > 0 && (
+          <div>
+            <div className="text-xs text-[#8888a0] mb-1">消歧 ID</div>
+            <div className="flex flex-wrap gap-2">
+              {ids.map((id) => (
+                <a
+                  key={`${id.label}-${id.value}`}
+                  href={id.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="px-2 py-1 rounded bg-[#2a2a3a] text-xs text-[#6366f1] hover:text-[#818cf8] font-mono"
+                >
+                  {id.label}: {id.value} ↗
+                </a>
+              ))}
+            </div>
+          </div>
+        )}
+
+        {(person.online_traces?.length ?? 0) > 0 && (
+          <div>
+            <div className="text-xs text-[#8888a0] mb-1">公开网上痕迹</div>
+            <a
+              href="#online-traces"
+              className="text-[#6366f1] hover:text-[#818cf8] text-sm"
+            >
+              {person.online_traces!.length} 条可复核记录
+            </a>
+          </div>
+        )}
+      </div>
+    </section>
+  );
+}
+
+function traceTypeLabel(type: OnlineTrace["type"]) {
+  const labels: Record<OnlineTrace["type"], string> = {
+    homepage: "主页",
+    faculty: "教师主页",
+    cv: "CV",
+    google_scholar: "Google Scholar",
+    orcid: "ORCID",
+    mathgenealogy: "Math Genealogy",
+    zbmath: "zbMATH",
+    mathscinet: "MathSciNet",
+    arxiv: "arXiv",
+    openalex: "OpenAlex",
+    video: "视频",
+    interview: "访谈",
+    lecture_notes: "讲义",
+    slides: "Slides",
+    news: "新闻",
+    blog: "博客",
+    github: "GitHub",
+    wayback: "Wayback",
+    other: "其他",
+  };
+  return labels[type];
+}
+
+function OnlineTraceItem({ trace }: { trace: OnlineTrace }) {
+  const label = trace.label || traceTypeLabel(trace.type);
+  return (
+    <div className="bg-[#14141f] rounded-lg p-3 border border-[#2a2a3a] text-sm">
+      <div className="flex flex-wrap items-center gap-2">
+        <span className="text-xs px-2 py-0.5 rounded bg-[#2a2a3a] text-[#8888a0]">
+          {traceTypeLabel(trace.type)}
+        </span>
+        <a
+          href={trace.url}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-[#6366f1] hover:text-[#818cf8] transition-colors"
+        >
+          {label} ↗
+        </a>
+        {trace.archived_url && (
+          <a
+            href={trace.archived_url}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-xs text-[#8888a0] hover:text-[#e8e8f0] transition-colors"
+          >
+            存档 ↗
+          </a>
+        )}
+        {trace.last_verified && (
+          <span className="text-xs text-[#8888a0]">
+            核验 {trace.last_verified}
+          </span>
+        )}
+      </div>
+      {trace.notes && (
+        <p className="text-xs text-[#8888a0] mt-2 leading-relaxed">{trace.notes}</p>
       )}
     </div>
   );

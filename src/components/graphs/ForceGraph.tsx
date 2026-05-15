@@ -1,9 +1,11 @@
 "use client";
 
 import { useRef, useCallback, useEffect, useState } from "react";
+import type { MutableRefObject, ReactElement } from "react";
 import dynamic from "next/dynamic";
 import type { GraphData, GraphNode, GraphLink } from "@/lib/types";
 import { getForceParams } from "@/lib/graph";
+import type { LinkObject, NodeObject } from "react-force-graph-2d";
 
 const ForceGraph2D = dynamic(() => import("react-force-graph-2d"), {
   ssr: false,
@@ -24,6 +26,66 @@ interface ForceGraphProps {
   focusNodeId?: string | null;
 }
 
+type ForceNode = NodeObject<GraphNode>;
+type ForceLink = LinkObject<GraphNode, GraphLink>;
+type ForceGraphCanvasData = {
+  nodes: ForceNode[];
+  links: ForceLink[];
+};
+
+interface ForceConfig {
+  strength?: (value: number) => ForceConfig;
+  distance?: (value: number) => ForceConfig;
+}
+
+interface ForceGraphHandle {
+  d3Force(name: string): ForceConfig | undefined;
+  d3Force(name: string, forceFn: unknown): unknown;
+  d3ReheatSimulation(): unknown;
+  centerAt(x?: number, y?: number, durationMs?: number): unknown;
+  zoom(scale?: number, durationMs?: number): unknown;
+}
+
+interface ForceGraphCanvasProps {
+  ref?: MutableRefObject<ForceGraphHandle | null>;
+  graphData: ForceGraphCanvasData;
+  width: number;
+  height: number;
+  backgroundColor: string;
+  nodeCanvasObject: (
+    node: ForceNode,
+    ctx: CanvasRenderingContext2D,
+    globalScale: number
+  ) => void;
+  nodePointerAreaPaint: (
+    node: ForceNode,
+    color: string,
+    ctx: CanvasRenderingContext2D,
+    globalScale: number
+  ) => void;
+  linkCanvasObject: (
+    link: ForceLink,
+    ctx: CanvasRenderingContext2D,
+    globalScale: number
+  ) => void;
+  onNodeClick: (node: ForceNode) => void;
+  onNodeHover: (node: ForceNode | null) => void;
+  enableNodeDrag: boolean;
+  enableZoomInteraction: boolean;
+  enablePanInteraction: boolean;
+  cooldownTicks: number;
+  minZoom: number;
+  maxZoom: number;
+}
+
+const ForceGraphCanvas = ForceGraph2D as unknown as (
+  props: ForceGraphCanvasProps
+) => ReactElement;
+
+function endpointNode(endpoint: ForceLink["source"]): ForceNode | null {
+  return typeof endpoint === "object" && endpoint !== null ? endpoint : null;
+}
+
 export default function ForceGraph({
   data,
   width,
@@ -33,7 +95,7 @@ export default function ForceGraph({
   selectedNodeId,
   focusNodeId,
 }: ForceGraphProps) {
-  const fgRef = useRef<any>(null);
+  const fgRef = useRef<ForceGraphHandle | null>(null);
   const containerRef = useRef<HTMLDivElement>(null);
   const [dimensions, setDimensions] = useState<{
     width: number;
@@ -84,14 +146,14 @@ export default function ForceGraph({
     if (!fg) return;
 
     const params = getForceParams(data.nodes.length);
-    fg.d3Force("charge")?.strength(params.chargeStrength);
-    fg.d3Force("link")?.distance(params.linkDistance);
-    fg.d3Force("center")?.strength(0.05);
+    fg.d3Force("charge")?.strength?.(params.chargeStrength);
+    fg.d3Force("link")?.distance?.(params.linkDistance);
+    fg.d3Force("center")?.strength?.(0.05);
     // Collision force: prevents node overlap, adds breathing room
     import("d3-force").then(({ forceCollide }) => {
       fg.d3Force(
         "collide",
-        forceCollide((n: any) => (n.radius ?? 5) + 6).strength(0.9)
+        forceCollide<ForceNode>((n) => (n.radius ?? 5) + 6).strength(0.9)
       );
       fg.d3ReheatSimulation();
     });
@@ -102,7 +164,7 @@ export default function ForceGraph({
     if (!focusNodeId) return;
     const fg = fgRef.current;
     if (!fg) return;
-    const node = data.nodes.find((n) => n.id === focusNodeId) as any;
+    const node = data.nodes.find((n) => n.id === focusNodeId);
     if (!node || node.x == null || node.y == null) return;
     fg.centerAt(node.x, node.y, 600);
     fg.zoom(2.8, 600);
@@ -110,8 +172,8 @@ export default function ForceGraph({
 
   // Custom node rendering
   const paintNode = useCallback(
-    (node: any, ctx: CanvasRenderingContext2D, globalScale: number) => {
-      const gNode = node as GraphNode;
+    (node: ForceNode, ctx: CanvasRenderingContext2D, globalScale: number) => {
+      const gNode = node;
       const x = node.x ?? 0;
       const y = node.y ?? 0;
       const r = gNode.radius;
@@ -158,12 +220,14 @@ export default function ForceGraph({
 
   // Custom link rendering
   const paintLink = useCallback(
-    (link: any, ctx: CanvasRenderingContext2D, globalScale: number) => {
-      const gLink = link as GraphLink & { source: any; target: any };
-      const sx = gLink.source.x ?? 0;
-      const sy = gLink.source.y ?? 0;
-      const tx = gLink.target.x ?? 0;
-      const ty = gLink.target.y ?? 0;
+    (link: ForceLink, ctx: CanvasRenderingContext2D, globalScale: number) => {
+      const gLink = link;
+      const source = endpointNode(gLink.source);
+      const target = endpointNode(gLink.target);
+      const sx = source?.x ?? 0;
+      const sy = source?.y ?? 0;
+      const tx = target?.x ?? 0;
+      const ty = target?.y ?? 0;
 
       if (gLink.opacity <= 0) return;
 
@@ -238,8 +302,8 @@ export default function ForceGraph({
   );
 
   const handleNodeClick = useCallback(
-    (node: any) => {
-      onNodeClick?.(node as GraphNode);
+    (node: ForceNode) => {
+      onNodeClick?.(node);
       fgRef.current?.centerAt(node.x, node.y, 500);
       fgRef.current?.zoom(2.5, 500);
     },
@@ -255,19 +319,19 @@ export default function ForceGraph({
       style={{ minHeight: 400 }}
     >
       {ready && (
-        <ForceGraph2D
+        <ForceGraphCanvas
           ref={fgRef}
-          graphData={data as any}
+          graphData={data as unknown as ForceGraphCanvasData}
           width={dimensions.width}
           height={dimensions.height}
           backgroundColor="#0a0a0f"
           nodeCanvasObject={paintNode}
           nodePointerAreaPaint={(
-            node: any,
+            node: ForceNode,
             color: string,
             ctx: CanvasRenderingContext2D
           ) => {
-            const r = (node as GraphNode).radius + 2;
+            const r = node.radius + 2;
             ctx.beginPath();
             ctx.arc(node.x ?? 0, node.y ?? 0, r, 0, 2 * Math.PI);
             ctx.fillStyle = color;
@@ -275,9 +339,7 @@ export default function ForceGraph({
           }}
           linkCanvasObject={paintLink}
           onNodeClick={handleNodeClick}
-          onNodeHover={(node: any) =>
-            onNodeHover?.(node as GraphNode | null)
-          }
+          onNodeHover={(node: ForceNode | null) => onNodeHover?.(node)}
           enableNodeDrag={true}
           enableZoomInteraction={true}
           enablePanInteraction={true}

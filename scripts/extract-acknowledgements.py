@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Extract Acknowledgements section and grant numbers from arXiv LaTeX sources.
 
-Reads data/papers/sources/{arxiv_id}/*.tex, writes
+Reads .cache/msa/papers/sources/{arxiv_id}/*.tex by default, writes
 data/derived/raw-acks.jsonl with one JSON per paper:
 {arxiv_id, ack_text, grants: [...], paper_authors: [...]}
 
@@ -11,7 +11,9 @@ index) — used later to know WHO is acknowledging.
 
 import os, re, json, yaml, glob, sys
 
-SOURCES_DIR = "data/papers/sources"
+from cache_paths import cache_path
+
+SOURCES_DIR = cache_path("sources")
 PEOPLE_DIR = "data/people"
 OUT_DIR = "data/derived"
 OUT_FILE = os.path.join(OUT_DIR, "raw-acks.jsonl")

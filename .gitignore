@@ -11,6 +11,8 @@
 !.yarn/versions
 # testing
 /coverage
+# local regenerable caches
+/.cache/
 # next.js
 /.next/
 /out/
@@ -28,12 +30,18 @@ yarn-error.log*
 .env*
 # vercel
 .vercel
-# LaTeX sources (too large for git, download locally via script)
-data/papers/sources/
+# Regenerable API and scrape caches. Keep curated review/data files in git.
+data/papers/_arxiv_author_search_cache/
+data/papers/_arxiv_authors_cache/
+data/papers/_crossref_authors_cache/
+data/papers/_crossref_cache/
+data/papers/_faculty_html_cache/
+data/papers/_openalex_authors_cache/
+data/papers/_openalex_cache/
 # typescript
 *.tsbuildinfo
 next-env.d.ts
 scripts/__pycache__/
 
-# arXiv LaTeX sources (large, regenerable)
+# Legacy arXiv LaTeX source location; current scripts default to .cache/msa/papers/sources/.
 /data/papers/sources/

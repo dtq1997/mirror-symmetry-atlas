@@ -1,0 +1,88 @@
+slug: tseng-hsian-hua
+name:
+  en: Hsian-Hua Tseng
+  zh: 曾显华
+born: null
+died: null
+nationality: Taiwanese-American
+gender: male
+photo_url: null
+career_timeline:
+  - period: "2005"
+    type: education
+    institution: uc-berkeley
+    role: Ph.D.
+    notes: "University of California at Berkeley；导师信息待从 Math Genealogy 进一步核对。"
+  - period: "present"
+    type: position
+    institution: ohio-state
+    role: Professor
+    notes: "The Ohio State University Department of Mathematics。"
+research_areas:
+  - algebraic-geometry
+  - enumerative-geometry
+  - symplectic-geometry
+  - mirror-symmetry
+  - gromov-witten-theory
+  - moduli-spaces
+identity_profile:
+  affiliations:
+    - institution: ohio-state
+      period: present
+      role: Professor
+  email_domains: [osu.edu]
+  research_keywords: [orbifold, gromov, witten, moduli, quantum, lefschetz, mirror]
+advisor: null
+students:
+  - chao-qian
+key_collaborators:
+  - person: chao-qian
+    since: 2024
+    topic: Toric stack bundles, crepant transformation, derived categories
+    papers_count: 2
+publications: []
+activity:
+  total_papers: 0
+  published_count: 0
+  preprint_only_count: 0
+  active_period: "2005-present"
+  confidence: "stub; profile facts from OSU official page and Math Genealogy"
+external_ids:
+  mathgenealogy: "93517"
+links:
+  faculty_page: "https://math.osu.edu/people/tseng.109"
+  homepage: "https://people.math.osu.edu/tseng.109/"
+  email: "tseng.109@osu.edu"
+known_emails:
+  - "tseng.109@osu.edu"
+known_affiliations:
+  - "The Ohio State University Department of Mathematics"
+online_traces:
+  - type: faculty
+    label: "OSU faculty page"
+    url: "https://math.osu.edu/people/tseng.109"
+    last_verified: "2026-05-16"
+    notes: "官方页列出 Professor、邮箱、Ph.D. UC Berkeley 2005 和研究方向。"
+  - type: homepage
+    label: "OSU professional website"
+    url: "https://people.math.osu.edu/tseng.109/"
+    last_verified: "2026-05-16"
+  - type: mathgenealogy
+    label: "Math Genealogy"
+    url: "https://genealogy.math.ndsu.nodak.edu/id.php?id=93517"
+    last_verified: "2026-05-16"
+personal_notes: |
+  Ohio State 数学系教授，研究方向包括代数几何、枚举几何、辛几何、mirror symmetry、
+  Gromov-Witten 理论和模空间。钞乾的 OSU 导师与 toric stack bundles 合作者。
+  这是为消除钞乾档案中的导师 ghost slug 建立的最小档案，后续应补全论文和学生列表。
+sources:
+  - label: "OSU faculty page"
+    url: "https://math.osu.edu/people/tseng.109"
+  - label: "OSU professional website"
+    url: "https://people.math.osu.edu/tseng.109/"
+  - label: "Math Genealogy"
+    url: "https://genealogy.math.ndsu.nodak.edu/id.php?id=93517"
+tags:
+  - stub
+  - ohio-state
+  - gromov-witten-theory

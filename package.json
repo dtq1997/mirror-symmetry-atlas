@@ -8,8 +8,11 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
+    "typecheck": "tsc --noEmit -p tsconfig.typecheck.json",
     "lint:data": "python3 scripts/lint-data.py",
-    "lint:data:strict": "python3 scripts/lint-data.py --strict-pubs"
+    "lint:data:strict": "python3 scripts/lint-data.py --strict-pubs",
+    "audit:profile": "python3 scripts/audit-profile-depth.py",
+    "audit:ssot-notes": "python3 scripts/audit-ssot-notes.py"
   },
   "dependencies": {
     "d3-force": "^3.0.0",

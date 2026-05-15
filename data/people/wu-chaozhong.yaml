@@ -239,8 +239,29 @@ external_ids: {}
 links:
   faculty_page: 'http://math.sysu.edu.cn/teacher/565'
   homepage: 'https://www.sciencedirect.com/author/8508248600/chaozhong-wu'
+  email: 'wuchaozhong@sysu.edu.cn'
+known_emails:
+  - 'wuchaozhong@sysu.edu.cn'
+known_affiliations:
+  - 'School of Mathematics, Sun Yat-sen University'
+  - 'SISSA'
+  - 'Department of Mathematical Sciences, Tsinghua University'
+online_traces:
+  - type: faculty
+    label: '中山大学数学学院吴朝中主页'
+    url: 'http://math.sysu.edu.cn/teacher/565'
+    last_verified: '2026-05-16'
+    notes: '官方主页列出教授、邮箱、研究方向、教育经历与工作经历。'
+  - type: homepage
+    label: 'GAGP 团队页面'
+    url: 'https://math.sysu.edu.cn/gagp/people'
+    last_verified: '2026-05-16'
+    notes: '中山大学 Algebraic Geometry/Symplectic Geometry/Mathematical Physics 团队成员列表。'
+  - type: arxiv
+    label: 'arXiv author search'
+    url: 'https://arxiv.org/search/?searchtype=author&query=Chao-Zhong+Wu'
+    last_verified: '2026-05-16'
 personal_notes: |
-  清华本硕博（导师张友金）→ SISSA 博后（Marie Curie Fellow，跟随 Dubrovin）→ 中山大学教授。
   与杨迪有平行的学术轨迹（同为张友金学生，同在 SISSA 做博后）。
   核心方向是可积系统层级的 tau 函数和 Virasoro 对称性。
   近年主攻 KP-mKP hierarchy（两个导数的伪微分算子框架），以及无穷维 Frobenius 流形。
@@ -249,12 +270,6 @@ personal_notes: |
   NSFC 青年基金、面上项目支持。
   在 Adv. Math、IMRN、CMP、JPA、Lett. Math. Phys. 等发表论文。
   Math Genealogy 上暂无条目。
-  
-  现职：中山大学数学学院 教授
-  学历：PhD 路径强烈指向 SISSA / Dubrovin 学派 [待验证具体年份]
-  研究：Drinfeld-Sokolov 层级 (D / E_6 / F_4 型)、tau 函数与 Virasoro 对称、Kac-Wakimoto 层级、KP-mKP、Frobenius manifold 中心不变量
-  奖项：NSFC 11601534, 11771461, 11831017
-  趣闻：与 Liu Si-Qi、Youjin Zhang、Mattia Cafasso、Jianxun Hu 长期合作；E_6^(1) 拓扑解给出 E6 简单奇点的 FJRW 不变量
 sources:
   - label: '中山大学数学学院教师页'
     url: 'http://math.sysu.edu.cn/teacher/565'

@@ -1,7 +1,6 @@
 import {
   getAllPeople,
   getAllConnections,
-  getAllKnownSlugs,
   getAllInstitutions,
 } from "@/lib/data";
 import { buildPeopleGraph } from "@/lib/graph";
@@ -10,9 +9,8 @@ import PeopleNetworkClient from "./PeopleNetworkClient";
 export default function PeoplePage() {
   const people = getAllPeople();
   const connections = getAllConnections();
-  const knownSlugs = getAllKnownSlugs();
   const institutions = getAllInstitutions();
-  const graphData = buildPeopleGraph(people, connections, knownSlugs);
+  const graphData = buildPeopleGraph(people, connections);
 
   const institutionNames: Record<string, string> = {};
   for (const inst of institutions) {

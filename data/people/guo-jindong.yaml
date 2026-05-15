@@ -11,9 +11,8 @@ career_timeline:
   - period: "present"
     type: education
     institution: ustc
-    role: "博士生 [待验证]"
-    advisor: yang-di
-    notes: "USTC 数学科学学院。合作论文 address 显示 guojindong@mail.ustc.edu.cn，学生邮箱后缀，推断为杨迪博士生。[待验证]"
+    role: "数学科学学院成员 [待验证学生身份]"
+    notes: "合作论文 TeX 源署名为 USTC 数学科学学院，邮箱 guojindong@mail.ustc.edu.cn；师承身份未见公开来源。"
 research_areas:
   - intersection-numbers
   - integrable-hierarchy
@@ -24,13 +23,13 @@ identity_profile:
   affiliations:
     - institution: 'ustc'
       period: 'present'
-      role: '博士生 [待验证]'
+      role: '数学科学学院成员 [待验证学生身份]'
   email_domains: [ustc.edu.cn]
   coauthor_circle_core_slugs: [yang-di, zagier]
   coauthor_circle_core_names: ['Di Yang', 'Don Zagier']
   research_keywords: [asymptotics, hierarchy, integrable, intersection]
   known_arxiv_ids: [2603.15233, 2412.20388, 2110.06774, 2102.10761]
-advisor: yang-di
+advisor: null
 students: []
 key_collaborators:
   - person: yang-di
@@ -77,8 +76,28 @@ activity:
 external_ids:
   openalex: A5100573087
 links: {}
+known_emails:
+  - "guojindong@mail.ustc.edu.cn"
+known_affiliations:
+  - "School of Mathematical Sciences, University of Science and Technology of China, 230026 Hefei, P.R. China"
+online_traces:
+  - type: arxiv
+    label: "arXiv:2603.15233"
+    url: "https://arxiv.org/abs/2603.15233"
+    last_verified: "2026-05-15"
+    notes: "与杨迪、Don Zagier 合作 Witten 交点数大亏格渐近论文。"
+  - type: arxiv
+    label: "arXiv:2603.15233 TeX source"
+    url: "https://arxiv.org/e-print/2603.15233"
+    last_verified: "2026-05-15"
+    notes: "TeX 源记录 USTC 数学科学学院署名单位和邮箱 guojindong@mail.ustc.edu.cn。"
+  - type: arxiv
+    label: "arXiv:2412.20388"
+    url: "https://arxiv.org/abs/2412.20388"
+    last_verified: "2026-05-15"
+    notes: "与 Norbury、杨迪、Zagier 合作 BGW 数大亏格渐近论文。"
 personal_notes: |
-  杨迪的合作者 (推测为博士生 [待验证])，USTC 数学科学学院。
+  杨迪的合作者，USTC 数学科学学院。公开 TeX 源能确认单位与邮箱；师承/学生身份仍待来源确认。
   共同署名 3 篇关于 Witten 交点数 / BGW 数大亏格渐近的论文：
   - 2110.06774 (2021, 与杨迪) — 首篇合作，psi-类交点数大亏格渐近
   - 2412.20388 (2024, 与 Norbury, 杨迪, Zagier) — BGW 数均匀大亏格渐近
@@ -87,11 +106,11 @@ personal_notes: |
   2026 HUST 会议上杨迪的报告明确点名郭晋东为矩阵预解方法关键技术合作者。
   代表性贡献：推导 KdV tau 函数的高阶对数导数恒等式，从中导出
   $C(4, \dd) \ge C(0^{12}, \dd)$ 等关键不等式，突破 Aggarwal 的 $n = o(\sqrt{g})$ 限制。
-  
-  现职：[待验证] — 公开信息极少
 sources:
   - label: 'arXiv paper 2603.15233'
     url: 'https://arxiv.org/abs/2603.15233'
+  - label: 'arXiv TeX source 2603.15233'
+    url: 'https://arxiv.org/e-print/2603.15233'
   - label: 'arXiv paper 2412.20388'
     url: 'https://arxiv.org/abs/2412.20388'
 tags:

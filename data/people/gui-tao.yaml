@@ -8,11 +8,11 @@ nationality: Chinese
 gender: null
 photo_url: null
 career_timeline:
-  - period: '[待补充]'
+  - period: '2025-present'
     type: position
-    institution: amss-cas
-    role: "研究人员 [待验证]"
-    notes: "ResearchGate profile 显示中科院数学与系统科学研究院 (AMSS/CAS)。与北大 BICMR 联系密切, 担任 PACE REU (高宜波发起) 项目导师"
+    institution: pku-bicmr
+    role: "研究人员 / 博士后 [待验证职级]"
+    notes: "arXiv:2512.06646 TeX 源署名为 Beijing International Center for Mathematical Research, Peking University；具体职级待官方主页确认。"
 research_areas:
   - algebraic-combinatorics
   - schubert-calculus
@@ -21,8 +21,12 @@ research_areas:
   - equivariant-cohomology
 identity_profile:
   affiliations:
+    - institution: 'pku-bicmr'
+      period: '2025-present'
+      role: '研究人员 / 博士后 [待验证职级]'
     - institution: 'amss-cas'
-      role: '研究人员 [待验证]'
+      role: '历史关联 [待验证]'
+  email_domains: [mails.ucas.ac.cn, pku.edu.cn]
   coauthor_circle_extended_slugs: [zeng-haozhi]
   coauthor_circle_extended_names: ['Haozhi Zeng']
   research_keywords: [algebraic, calculus, cohomology, combinatorics, coxeter, equivariant, peterson, schubert]
@@ -108,23 +112,42 @@ external_ids: {}
 links:
   researchgate: 'https://www.researchgate.net/profile/Tao-Gui-4'
   homepage: 'http://homepage.amss.ac.cn/research/homePage/de9e37f90a05435884569ccd82b40ac2/myHomePage.html'
+  email: 'guitao18@mails.ucas.ac.cn'
+known_emails:
+  - "guitao18@mails.ucas.ac.cn"
+known_affiliations:
+  - "Beijing International Center for Mathematical Research, Peking University, No. 5 Yiheyuan Road, Haidian District, Beijing 100871, P.R. China"
+online_traces:
+  - type: arxiv
+    label: "arXiv:2512.06646 TeX source"
+    url: "https://arxiv.org/e-print/2512.06646"
+    last_verified: "2026-05-15"
+    notes: "TeX 源记录 BICMR / 北京大学署名单位和邮箱 guitao18@mails.ucas.ac.cn。"
+  - type: homepage
+    label: "AMSS 个人主页"
+    url: "http://homepage.amss.ac.cn/research/homePage/de9e37f90a05435884569ccd82b40ac2/myHomePage.html"
+    last_verified: "2026-05-15"
+    notes: "AMSS 主页可作为历史公开痕迹；当前机构以最新论文署名为准。"
+  - type: other
+    label: "PACE REU at BICMR"
+    url: "http://faculty.bicmr.pku.edu.cn/~gaoyibo/reu.html"
+    last_verified: "2026-05-15"
+    notes: "公开项目页列出其与 BICMR/PACE REU 的联系。"
 personal_notes: |
   研究方向为代数组合 (algebraic combinatorics): Coxeter 群 Schubert 演算、Peterson Schubert
   calculus、等变上同调、Bott-Samelson 环、仿射 Weyl 群长度计数、主导权多胞形与 toric 簇。
   
-  与 BICMR 的高宜波长期合作, 担任 PACE REU 导师。当前机构 CAS 数学所 [待验证]。
+  与 BICMR 的高宜波长期合作, 担任 PACE REU 导师。最新论文署名显示其在 BICMR/北大。
   2026 HUST 数学物理与几何研讨会参会人员 (签到表手写补充)。方向与会议主线有距离。
-  
-  现职：清华大学 YMSC + BIMSA 博士后 [待验证当前主聘]
-  学历：PhD AMSS / 中国科学院数学与系统科学研究院
-  研究：表示论;参与 AMSS 表示论开问题列表 — http://tianyuan.amss.ac.cn/upload/fab78d36-bd52-42eb-84d3-ff99c953bb08/20250918/92771758196978735.pdf
 sources:
   - label: 'ResearchGate profile'
     url: 'https://www.researchgate.net/profile/Tao-Gui-4'
+  - label: 'arXiv TeX source 2512.06646'
+    url: 'https://arxiv.org/e-print/2512.06646'
   - label: 'arXiv 2408.10155'
     url: 'https://arxiv.org/abs/2408.10155'
   - label: 'PACE REU at BICMR (高宜波)'
     url: 'http://faculty.bicmr.pku.edu.cn/~gaoyibo/reu.html'
 tags:
-  - amss-cas
+  - pku-bicmr
   - algebraic-combinatorics
