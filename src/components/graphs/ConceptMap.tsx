@@ -107,13 +107,13 @@ export default function ConceptMap({ graphData, concepts }: ConceptMapProps) {
 
       {/* Learning path indicator */}
       {learningPathTarget && (
-        <div className="absolute top-4 left-1/2 -translate-x-1/2 z-10 bg-[#14141f]/90 backdrop-blur-sm rounded-lg border border-[#ef4444]/50 px-4 py-2 text-sm flex items-center gap-3">
+        <div className="absolute top-4 left-16 right-4 sm:left-1/2 sm:right-auto sm:-translate-x-1/2 sm:w-max max-w-[calc(100%_-_5rem)] z-10 bg-[#14141f]/90 backdrop-blur-sm rounded-lg border border-[#ef4444]/50 px-4 py-2 text-sm flex flex-wrap items-center gap-3">
           <span className="text-[#ef4444]">学习路径：</span>
           <span className="text-[#e8e8f0] font-medium">
-            {learningPathTarget}
+            {concepts.find((c) => c.slug === learningPathTarget)?.name.zh || concepts.find((c) => c.slug === learningPathTarget)?.name.en || learningPathTarget}
           </span>
           <span className="text-[#8888a0]">
-            （{pathChain?.size ?? 0} 个前置概念）
+            （含当前概念，共 {pathChain?.size ?? 0} 项）
           </span>
           <button
             onClick={() => setLearningPathTarget(null)}
@@ -127,7 +127,7 @@ export default function ConceptMap({ graphData, concepts }: ConceptMapProps) {
       {/* Sidebar */}
       {selectedNode && selectedNode.data && !selectedNode.isGhost && (
         <div
-          className="fixed top-[56px] right-0 w-[400px] h-[calc(100vh-56px)] bg-[#14141f] border-l border-[#2a2a3a] overflow-y-auto z-20 shadow-2xl"
+          className="fixed top-[56px] right-0 w-[400px] max-w-full h-[calc(100vh-56px)] bg-[#14141f] border-l border-[#2a2a3a] overflow-y-auto z-40 shadow-2xl"
           style={{ animation: "slideIn 0.2s ease-out" }}
         >
           <style jsx>{`
@@ -141,6 +141,7 @@ export default function ConceptMap({ graphData, concepts }: ConceptMapProps) {
             }
           `}</style>
           <button
+            aria-label="关闭概念详情"
             onClick={() => {
               setSelectedNode(null);
               setLearningPathTarget(null);

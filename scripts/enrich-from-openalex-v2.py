@@ -28,6 +28,7 @@ import yaml
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from cache_paths import cache_path
 from lib_disambiguate_v2 import score_candidate
+from publication_review import load_review, blocked_review, save_candidates
 
 PEOPLE_DIR = 'data/people'
 CACHE_DIR = cache_path('_openalex_cache')
@@ -338,25 +339,13 @@ def replace_block(text, name, new_block):
 
 
 def write_review(slug, items):
-    os.makedirs(REVIEW_DIR, exist_ok=True)
-    if not items:
-        path = os.path.join(REVIEW_DIR, f'{slug}.yaml')
-        if os.path.exists(path):
-            os.remove(path)
-        return
-    out = {
-        'slug': slug,
-        'count': len(items),
-        'note': '需要人工核对的候选论文。score 在 10-19 之间。要么补 ORCID 进 identity_profile, 要么明确标 accepted/rejected',
-        'candidates': items,
-    }
-    with open(os.path.join(REVIEW_DIR, f'{slug}.yaml'), 'w') as f:
-        yaml.dump(out, f, allow_unicode=True, default_flow_style=False, sort_keys=False)
+    save_candidates(os.path.join(REVIEW_DIR, f'{slug}.yaml'), slug, items)
 
 
 def process(slug, person, all_people, write=False):
     name_en = (person.get('name') or {}).get('en') or ''
     profile = person.get('identity_profile') or {}
+    existing_reviews = load_review(os.path.join(REVIEW_DIR, f'{slug}.yaml')).get('candidates', [])
 
     # Resolve OpenAlex id
     aid = profile.get('openalex_id') or (person.get('external_ids') or {}).get('openalex')
@@ -375,6 +364,10 @@ def process(slug, person, all_people, write=False):
     for w in works:
         pub = to_pub(w, name_en)
         if not pub:
+            continue
+        if prior := blocked_review(pub, existing_reviews):
+            rejected.append({'id': pub['id'], 'title': pub.get('title'),
+                             'evidence': f"explicit review: {prior['review_status']}"})
             continue
         # Build a paper representation that disambiguator can score
         paper = {
@@ -400,7 +393,8 @@ def process(slug, person, all_people, write=False):
                 'score': score, 'evidence': evidence,
             })
 
-    write_review(slug, review)
+    if write:
+        write_review(slug, review)
     merged = merge_pubs(arxiv_pubs, accepted)
     merged.sort(key=lambda p: -(p.get('year') or 0))
     pub_count = sum(1 for p in merged if p.get('journal') or p.get('doi'))

@@ -14,7 +14,7 @@
     "audit:profile": "python3 scripts/audit-profile-depth.py",
     "audit:ssot-notes": "python3 scripts/audit-ssot-notes.py",
     "audit:site": "python3 scripts/audit-site.py",
-    "test:site": "tsc src/lib/paper-identity.ts src/lib/entity-route.ts src/lib/publications.ts src/lib/source-url.ts src/lib/graph.ts --module commonjs --target es2022 --outDir .cache/msa/site-tests --esModuleInterop --resolveJsonModule --skipLibCheck && node --test scripts/site-regressions.mjs",
+    "test:site": "tsc src/lib/paper-identity.ts src/lib/entity-route.ts src/lib/publications.ts src/lib/source-url.ts src/lib/graph.ts src/lib/math-text.ts --module commonjs --target es2022 --outDir .cache/msa/site-tests --esModuleInterop --resolveJsonModule --skipLibCheck && node --test scripts/site-regressions.mjs",
     "postbuild": "python3 scripts/audit-site.py"
   },
   "dependencies": {

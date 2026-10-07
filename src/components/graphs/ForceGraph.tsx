@@ -1,8 +1,9 @@
 "use client";
 
 import { useRef, useCallback, useEffect, useState } from "react";
-import type { MutableRefObject, ReactElement } from "react";
+import type { RefCallback, ReactElement } from "react";
 import dynamic from "next/dynamic";
+import { forceCollide } from "d3-force";
 import type { GraphData, GraphNode, GraphLink } from "@/lib/types";
 import { getForceParams, simulationGraph } from "@/lib/graph";
 import type { LinkObject, NodeObject } from "react-force-graph-2d";
@@ -43,11 +44,13 @@ interface ForceGraphHandle {
   d3Force(name: string, forceFn: unknown): unknown;
   d3ReheatSimulation(): unknown;
   centerAt(x?: number, y?: number, durationMs?: number): unknown;
-  zoom(scale?: number, durationMs?: number): unknown;
+  zoom(): number;
+  zoom(scale: number, durationMs?: number): unknown;
+  zoomToFit(durationMs?: number, padding?: number): unknown;
 }
 
 interface ForceGraphCanvasProps {
-  ref?: MutableRefObject<ForceGraphHandle | null>;
+  ref?: RefCallback<ForceGraphHandle>;
   graphData: ForceGraphCanvasData;
   width: number;
   height: number;
@@ -70,6 +73,8 @@ interface ForceGraphCanvasProps {
   ) => void;
   onNodeClick: (node: ForceNode) => void;
   onNodeHover: (node: ForceNode | null) => void;
+  onZoom: (transform: { k: number }) => void;
+  onEngineStop: () => void;
   enableNodeDrag: boolean;
   enableZoomInteraction: boolean;
   enablePanInteraction: boolean;
@@ -96,21 +101,23 @@ export default function ForceGraph({
   focusNodeId,
 }: ForceGraphProps) {
   const fgRef = useRef<ForceGraphHandle | null>(null);
+  const [graphHandle, setGraphHandle] = useState<ForceGraphHandle | null>(null);
+  const [zoomScale, setZoomScale] = useState(1);
+  const viewAdjusted = useRef(false);
+  const attachGraph = useCallback((graph: ForceGraphHandle | null) => {
+    fgRef.current = graph;
+    setGraphHandle(graph);
+  }, []);
   const containerRef = useRef<HTMLDivElement>(null);
   const [dimensions, setDimensions] = useState<{
     width: number;
     height: number;
   } | null>(null);
-  const [mounted, setMounted] = useState(false);
-  const [canvasData, setCanvasData] = useState(() => simulationGraph(data));
-  useEffect(() => {
-    setCanvasData((previous) => simulationGraph(data, previous));
-  }, [data]);
-
-  // Track mount for SSR safety
-  useEffect(() => {
-    setMounted(true);
-  }, []);
+  const [simulation, setSimulation] = useState(() => ({ source: data, graph: simulationGraph(data) }));
+  if (simulation.source !== data) {
+    setSimulation({ source: data, graph: simulationGraph(data, simulation.graph) });
+  }
+  const canvasData = simulation.graph;
 
   // Use ResizeObserver for reliable dimension tracking
   useEffect(() => {
@@ -146,7 +153,7 @@ export default function ForceGraph({
 
   // Configure forces
   useEffect(() => {
-    const fg = fgRef.current;
+    const fg = graphHandle;
     if (!fg) return;
 
     const params = getForceParams(data.nodes.length);
@@ -154,14 +161,12 @@ export default function ForceGraph({
     fg.d3Force("link")?.distance?.(params.linkDistance);
     fg.d3Force("center")?.strength?.(0.05);
     // Collision force: prevents node overlap, adds breathing room
-    import("d3-force").then(({ forceCollide }) => {
-      fg.d3Force(
-        "collide",
-        forceCollide<ForceNode>((n) => (n.radius ?? 5) + 6).strength(0.9)
-      );
-      fg.d3ReheatSimulation();
-    });
-  }, [data.nodes.length]);
+    fg.d3Force(
+      "collide",
+      forceCollide<ForceNode>((n) => (n.radius ?? 5) + 6).strength(0.9)
+    );
+    fg.d3ReheatSimulation();
+  }, [graphHandle, data.nodes.length]);
 
   // Focus on external selection (e.g. search result)
   useEffect(() => {
@@ -172,7 +177,8 @@ export default function ForceGraph({
     if (!node || node.x == null || node.y == null) return;
     fg.centerAt(node.x, node.y, 600);
     fg.zoom(2.8, 600);
-  }, [focusNodeId, canvasData]);
+    viewAdjusted.current = true;
+  }, [focusNodeId, canvasData, graphHandle]);
 
   // Custom node rendering
   const paintNode = useCallback(
@@ -308,13 +314,14 @@ export default function ForceGraph({
   const handleNodeClick = useCallback(
     (node: ForceNode) => {
       onNodeClick?.(node);
+      viewAdjusted.current = true;
       fgRef.current?.centerAt(node.x, node.y, 500);
       fgRef.current?.zoom(2.5, 500);
     },
     [onNodeClick]
   );
 
-  const ready = mounted && dimensions !== null;
+  const ready = dimensions !== null;
 
   return (
     <div
@@ -324,7 +331,7 @@ export default function ForceGraph({
     >
       {ready && (
         <ForceGraphCanvas
-          ref={fgRef}
+          ref={attachGraph}
           graphData={canvasData as unknown as ForceGraphCanvasData}
           width={dimensions.width}
           height={dimensions.height}
@@ -344,14 +351,41 @@ export default function ForceGraph({
           linkCanvasObject={paintLink}
           onNodeClick={handleNodeClick}
           onNodeHover={(node: ForceNode | null) => onNodeHover?.(node)}
+          onZoom={({ k }) => setZoomScale(k)}
+          onEngineStop={() => {
+            if (!viewAdjusted.current && canvasData.nodes.length) {
+              viewAdjusted.current = true;
+              fgRef.current?.zoomToFit(400, 60);
+            }
+          }}
           enableNodeDrag={true}
           enableZoomInteraction={true}
           enablePanInteraction={true}
           cooldownTicks={100}
-          minZoom={0.3}
+          minZoom={0.05}
           maxZoom={8}
         />
       )}
+      <div className="absolute top-4 left-4 z-30 flex flex-col gap-1 bg-[#14141f]/95 rounded-lg border border-[#2a2a3a] p-1">
+        <button
+          aria-label="放大" title="放大" disabled={!graphHandle || zoomScale >= 8}
+          onClick={() => { viewAdjusted.current = true; graphHandle?.zoom(Math.min(8, graphHandle.zoom() * 1.4), 250); }}
+          className="w-8 h-8 rounded text-lg text-[#e8e8f0] hover:bg-[#2a2a3a] disabled:opacity-30"
+        >+</button>
+        <output aria-label="图谱缩放比例" className="text-[10px] text-center text-[#8888a0]">
+          {Math.round(zoomScale * 100)}%
+        </output>
+        <button
+          aria-label="缩小" title="缩小" disabled={!graphHandle || zoomScale <= 0.05}
+          onClick={() => { viewAdjusted.current = true; graphHandle?.zoom(Math.max(0.05, graphHandle.zoom() / 1.4), 250); }}
+          className="w-8 h-8 rounded text-lg text-[#e8e8f0] hover:bg-[#2a2a3a] disabled:opacity-30"
+        >−</button>
+        <button
+          aria-label="重置视图" title="适应当前全图" disabled={!graphHandle || !canvasData.nodes.length}
+          onClick={() => { viewAdjusted.current = true; graphHandle?.zoomToFit(400, 60); }}
+          className="w-8 h-8 rounded text-[#e8e8f0] hover:bg-[#2a2a3a] disabled:opacity-30"
+        >⟳</button>
+      </div>
     </div>
   );
 }

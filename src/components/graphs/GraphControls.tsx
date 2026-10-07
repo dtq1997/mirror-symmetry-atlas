@@ -4,9 +4,6 @@ import { useState } from "react";
 import type { ConnectionType } from "@/lib/types";
 
 interface GraphControlsProps {
-  onZoomIn?: () => void;
-  onZoomOut?: () => void;
-  onReset?: () => void;
   edgeFilters: Record<ConnectionType, boolean>;
   onEdgeFilterChange: (type: ConnectionType, enabled: boolean) => void;
   showGhosts: boolean;
@@ -25,9 +22,6 @@ const EDGE_LABELS: Record<ConnectionType, { label: string; color: string }> = {
 };
 
 export default function GraphControls({
-  onZoomIn,
-  onZoomOut,
-  onReset,
   edgeFilters,
   onEdgeFilterChange,
   showGhosts,
@@ -36,34 +30,7 @@ export default function GraphControls({
   const [expanded, setExpanded] = useState(false);
 
   return (
-    <div className="absolute top-4 left-4 z-10 flex flex-col gap-2">
-      {/* Zoom controls */}
-      <div className="flex flex-col gap-1 bg-[#14141f]/90 backdrop-blur-sm rounded-lg border border-[#2a2a3a] p-1">
-        <button
-          onClick={onZoomIn}
-          className="w-8 h-8 flex items-center justify-center text-[#e8e8f0] hover:bg-[#2a2a3a] rounded transition-colors text-lg"
-          title="放大"
-        >
-          +
-        </button>
-        <div className="w-full h-px bg-[#2a2a3a]" />
-        <button
-          onClick={onZoomOut}
-          className="w-8 h-8 flex items-center justify-center text-[#e8e8f0] hover:bg-[#2a2a3a] rounded transition-colors text-lg"
-          title="缩小"
-        >
-          -
-        </button>
-        <div className="w-full h-px bg-[#2a2a3a]" />
-        <button
-          onClick={onReset}
-          className="w-8 h-8 flex items-center justify-center text-[#8888a0] hover:bg-[#2a2a3a] hover:text-[#e8e8f0] rounded transition-colors text-xs"
-          title="重置视图"
-        >
-          ⟳
-        </button>
-      </div>
-
+    <div className="absolute top-40 left-4 z-30 flex flex-col gap-2">
       {/* Filter panel */}
       <div className="bg-[#14141f]/90 backdrop-blur-sm rounded-lg border border-[#2a2a3a]">
         <button

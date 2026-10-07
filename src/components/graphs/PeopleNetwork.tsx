@@ -213,7 +213,7 @@ export default function PeopleNetwork({ graphData, institutionNames }: PeopleNet
       />
 
       {/* Search + institution filter — top center */}
-      <div className="absolute top-4 left-1/2 -translate-x-1/2 z-20 flex flex-wrap justify-center gap-2 max-w-[calc(100%_-_2rem)] w-max items-center bg-[#14141f]/95 backdrop-blur-sm rounded-lg border border-[#2a2a3a] px-3 py-2 shadow-lg">
+      <div className="absolute top-4 left-16 right-4 sm:left-1/2 sm:right-auto sm:-translate-x-1/2 sm:w-max z-20 flex flex-wrap justify-center gap-2 max-w-[calc(100%_-_5rem)] items-center bg-[#14141f]/95 backdrop-blur-sm rounded-lg border border-[#2a2a3a] px-3 py-2 shadow-lg">
         <svg
           className="w-4 h-4 text-[#8888a0]"
           viewBox="0 0 20 20"
@@ -230,7 +230,7 @@ export default function PeopleNetwork({ graphData, institutionNames }: PeopleNet
           value={searchQuery}
           onChange={(e) => setSearchQuery(e.target.value)}
           placeholder="搜索人名或拼音..."
-          className="bg-transparent text-[#e8e8f0] placeholder-[#8888a0] text-sm outline-none w-52"
+          className="bg-transparent text-[#e8e8f0] placeholder-[#8888a0] text-sm outline-none min-w-0 w-40 sm:w-52"
         />
         {searchQuery && (
           <button

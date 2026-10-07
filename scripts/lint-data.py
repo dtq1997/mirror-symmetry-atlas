@@ -43,11 +43,13 @@ import yaml
 HERE = Path(__file__).parent
 sys.path.insert(0, str(HERE))
 from name_match import names_match, slug_for_author, is_slug
+from publication_review import load_review, blocked_review
 
 ROOT = HERE.parent
 PEOPLE_DIR = ROOT / 'data/people'
 INST_DIR = ROOT / 'data/institutions'
 CONN_DIR = ROOT / 'data/connections'
+REVIEW_DIR = ROOT / 'data/papers/_review_queue'
 
 PLACEHOLDER_RE = re.compile(r'^\s*\[(?:\?|待[^\]]*|todo|tbd)\]?\s*$', re.IGNORECASE)
 SLUG_RE = re.compile(r'^[a-z][a-z0-9-]*$')
@@ -164,6 +166,13 @@ def lint(strict_pubs=False, only_slug=None):
 
     # === per-person checks ===
     for slug, p in targets.items():
+        try:
+            reviews = load_review(REVIEW_DIR / f'{slug}.yaml').get('candidates', [])
+            for pub in p.get('publications') or []:
+                if isinstance(pub, dict) and (review := blocked_review(pub, reviews)):
+                    err(slug, f"publications {pub.get('id')!r}: blocked by explicit review {review.get('review_status')}; re-review sources before restoring")
+        except (ValueError, yaml.YAMLError, OSError) as exc:
+            err(slug, str(exc))
         if p.get('slug') != slug:
             err(slug, f"slug field {p.get('slug')!r} doesn't match filename")
 

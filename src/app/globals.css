@@ -60,6 +60,19 @@ body {
 }
 
 /* KaTeX */
+.math-expression {
+  display: inline-block;
+  max-width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  vertical-align: middle;
+  padding-block: 0.15em;
+}
+
+.math-display {
+  display: block;
+}
+
 .katex {
   font-size: 1em !important;
 }

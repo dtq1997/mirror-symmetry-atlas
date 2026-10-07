@@ -121,9 +121,9 @@ key_collaborators:
   topic: Painlevé equations, reflection groups
   papers_count: 7
 activity:
-  total_papers: 60
-  published_count: 51
-  preprint_only_count: 9
+  total_papers: 50
+  published_count: 42
+  preprint_only_count: 8
   h_index: 21
   active_period: '1998-present'
   phd_students: 4
@@ -258,15 +258,6 @@ publications:
     primary_category: math.AG
     openalex_id: W4243724386
     sources: [arxiv, openalex]
-  - id: 'doi:10.1088/1742-6596/863/1/012026'
-    title: '15O+α resonant elastic scattering to study cluster states in19Ne'
-    year: 2017
-    coauthors: ['D Torresi', 'C Wheldon', 'Tz Kokalova', 'S Bailey', 'A Boiano', 'C Boiano', 'M Cavallaro', 'S Cherubini', 'A Di Pietro', 'J P Fernandez Garcia', 'M Fisichella', 'T R Glodariu', 'J Grebosz', 'M La Cognata', 'M La Commara', 'M Lattuada', 'D Mengoni', 'C Parascandolo', 'D Pierroutsakou', 'G Pizzone', 'C Signorini', 'C Stefanini', 'L Stroe', 'C Spitaleri', 'E Strano', 'M Zadro']
-    doi: '10.1088/1742-6596/863/1/012026'
-    journal: 'Journal of Physics Conference Series'
-    openalex_id: W2725614385
-    sources: [openalex]
-    no_arxiv: true
   - id: 'doi:10.4213/rm9802'
     title: 'Пуассоново однородное пространство билинейных форм с действием Пуассона-Ли'
     year: 2017
@@ -283,15 +274,6 @@ publications:
     primary_category: math.RT
     openalex_id: W2298241412
     sources: [arxiv, openalex]
-  - id: 'doi:10.1103/physrevaccelbeams.19.079901'
-    title: 'Publisher’s Note: High intensity neutrino oscillation facilities in Europe [Phys. Rev. Accel. Beams16, 021002 (2013)]'
-    year: 2016
-    coauthors: ['T. R. Edgecock', 'O. Caretta', 'T. Davenne', 'C. Densam', 'M. Fitton', 'D. Kelliher', 'P. Loveridge', 'S. Machida', 'C. Prior', 'C. Rogers', 'M. Rooney', 'J. Thomason', 'D. Wilcox', 'E. Wildner', 'I. Efthymiopoulos', 'R. Garoby', 'S. Gilardoni', 'C. Hansen', 'E. Benedetto', 'E. Jensen', 'A. Kosmicki', 'M. Martini', 'J. Osborne', 'G. Prior', 'T. Stora', 'T. Melo Mendonca', 'V. Vlachoudis', 'C. Waaijer', 'P. Cupial', 'A. Chance', 'A. Longhin', 'J. Payet', 'M. Zito', 'E. Baussan', 'C. Bobeth', 'E. Bouquerel', 'M. Dracos', 'G. Gaudiot', 'B. Lepers', 'F. Osswald', 'P. Poussot', 'N. Vassilopoulos', 'J. Wurtz', 'V. Zeter', 'J. Bielski', 'M. Kozien', 'L. Lacny', 'B. Skoczen', 'B. Szybinski', 'A. Ustrzycka', 'A. Wroblewski', 'M. Marie-Jeanne', 'P. Balint', 'C. Fourel', 'J. Giraud', 'J. Jacob', 'T. Lamy', 'L. Latrasse', 'P. Sortais', 'T. Thuillier', 'S. Mitrofanov', 'M. Loiselet', 'Th. Keutgen', 'Th. Delbar', 'F. Debray', 'C. Trophine', 'S. Veys', 'C. Daversin', 'V. Zorin', 'I. Izotov', 'V. Skalyga', 'G. Burt', 'A. C. Dexter', 'V. L. Kravchuk', 'T. Marchi', 'M. Cinausero', 'F. Gramegna', 'G. De Angelis', 'G. Prete', 'G. Collazuol', 'M. Laveder', 'M. Mezzetto', 'C. Signorini', 'E. Vardaci', 'A. Di Nitto', 'A. Brondi', 'G. La Rana', 'P. Migliozzi', 'R. Moro', 'V. Palladino', 'N. Gelli', 'D. Berkovits', 'M. Hass', 'T. Y. Hirsh', 'M. Schaumann', 'A. Stahl', 'J. Wehner', 'A. Bross', 'J. Kopp', 'D. Neuffer', 'R. Wands', 'R. Bayes', 'A. Laing', 'P. Soler', 'S. K. Agarwalla', 'A. Cervera Villanueva', 'A. Donini', 'T. Ghosh', 'J. J. Gomez Cadenas', 'P. Hernandez', 'J. Martin-Albo', 'O. Mena', 'J. Burguet-Castell', 'L. Agostino', 'M. Buizza-Avanzini', 'M. Marafini', 'T. Patzak', 'A. Tonazzo', 'D. Duchesneau', 'L. Mosca', 'M. Bogomilov', 'Y. Karadzhov', 'R. Matev', 'R. Tsenov', 'E. Akhmedov', 'M. Blennow', 'M. Lindner', 'T. Schwetz', 'E. Fernandez Martinez', 'M. Maltoni', 'J. Menendez', 'C. Giunti', 'M. C. Gonzalez Garcia', 'J. Salvado', 'P. Coloma', 'P. Huber', 'T. Li', 'J. Lopez Pavon', 'C. Orme', 'S. Pascoli', 'D. Meloni', 'J. Tang', 'W. Winter', 'T. Ohlsson', 'H. Zhang', 'L. Scotto-Lavina', 'F. Terranova', 'M. Bonesini', 'L. Tortora', 'A. Alekou', 'M. Aslaninejad', 'C. Bontoiu', 'A. Kurup', 'L. J. Jenner', 'K. Long', 'J. Pasternak', 'J. Pozimski', 'J. J. Back', 'P. Harrison', 'K. Beard', 'A. Bogacz', 'J. S. Berg', 'D. Stratakis', 'H. Witte', 'P. Snopok', 'N. Bliss', 'M. Cordwell', 'A. Moss', 'S. Pattalwar', 'M. Apollonio']
-    doi: '10.1103/physrevaccelbeams.19.079901'
-    journal: 'Physical Review Accelerators and Beams'
-    openalex_id: W2460134574
-    sources: [openalex]
-    no_arxiv: true
   - id: 'openalex:W2963917450'
     title: '4 ON A POISSON HOMOGENEOUS SPACE OF BILINEAR FORMS WITH A POISSON LIE ACTION'
     year: 2016
@@ -316,15 +298,6 @@ publications:
     primary_category: math-ph
     openalex_id: W2213622588
     sources: [arxiv, openalex]
-  - id: 'doi:10.15120/gr-2015-1-mu-nustar-frs-12'
-    title: 'New results from combined isochronous mass spectrometry experiments with 238 U fission fragments at the FRS-ESR facility'
-    year: 2015
-    coauthors: ['M. Diwisch', 'R. Knöbel', 'H. Geißel', 'Z. Patyk', 'W. R. Plaß', 'C. Scheidenberger', 'H. Weick', 'K. Beckert', 'F. Bosch', 'D. Boutin', 'C. Brandau', 'L. Chen', 'D. M. Cullen', 'C. Dimopoulou', 'Oleksiy Dolinskyy', 'B. Fabian', 'Martin Hausmann', 'O. Klepper', 'C. Kozhuharov', 'J. Kurcewicz', 'N. Kuzminchuk-Feuerstein', 'S. Litvinov', 'Yu. A. Litvinov', 'Z. Liu', 'F. Montes', 'G. Münzenberg', 'A. Musumurra', 'S. Nakajima', 'C. Nociforo', 'F. Nolden', 'T. Ohtsubo', 'T. Ozawa', 'M. Steck', 'Bin Sun', 'T. Suzuki', 'P. M. Walker', 'N. Winckler', 'M. Winkler', 'Takayuki Yamaguchi']
-    doi: '10.15120/gr-2015-1-mu-nustar-frs-12'
-    journal: 'GSI Repository (German Federal Government)'
-    openalex_id: W2264288420
-    sources: [openalex]
-    no_arxiv: true
   - id: '1409.4287'
     title: 'Non-Symmetric Basic Hypergeometric Polynomials and Representation Theory for Confluent Cherednik Algebras'
     year: 2014
@@ -343,15 +316,6 @@ publications:
     primary_category: math.QA
     openalex_id: W2734989317
     sources: [arxiv, openalex]
-  - id: 'doi:10.1103/physrevstab.17.071002'
-    title: 'Design of a neutrino source based on beta beams'
-    year: 2014
-    coauthors: ['E. Wildner', 'C. Hansen', 'E. Benedetto', 'E. Jensen', 'T. Stora', 'T. Melo Mendonca', 'V. Vlachoudis', 'E. Bouquerel', 'M. Marie-Jeanne', 'P. Balint', 'C. Fourel', 'J. Giraud', 'J. Jacob', 'T. Lamy', 'L. Latrasse', 'P. Sortais', 'T. Thuillier', 'S. Mitrofanov', 'M. Loiselet', 'Th. Keutgen', 'Th. Delbar', 'F. Debray', 'C. Trophime', 'S. Veys', 'C. Daversin', 'V. Zorin', 'I. Izotov', 'V. Skalyga', 'A. Chancé', 'J. Payet', 'G. Burt', 'A. C. Dexter', 'V. L. Kravchuk', 'T. Marchi', 'M. Cinausero', 'F. Gramegna', 'G. De Angelis', 'G. Prete', 'G. Collazuol', 'M. Mezzetto', 'E. Vardaci', 'A. Di Nitto', 'A. Brondi', 'G. La Rana', 'R. Moro', 'V. Palladino', 'N. Gelli', 'C. Signorini', 'T. Y. Hirsh', 'M. Hass', 'D. Berkovits', 'A. Stahl', 'M. Schaumann', 'J. Wehner']
-    doi: '10.1103/physrevstab.17.071002'
-    journal: 'Physical Review Special Topics - Accelerators and Beams'
-    openalex_id: W1974054719
-    sources: [openalex]
-    no_arxiv: true
   - id: 'openalex:W2340152047'
     title: 'Non-Symmetric Basic Hypergeometric Polynomials and Representation Theory for Confluent'
     year: 2014
@@ -374,14 +338,6 @@ publications:
     primary_category: math.QA
     openalex_id: W2163493277
     sources: [arxiv, openalex]
-  - id: '1305.4067'
-    title: 'High intensity neutrino oscillation facilities in Europe'
-    year: 2013
-    coauthors: ['T. R. Edgecock', 'O. Caretta', 'T. Davenne', 'C. Densham', 'M. Fitton', 'D. Kelliher', 'P. Loveridge', 'S. Machida', 'C. Prior', 'C. Rogers', 'M. Rooney', 'J. Thomason', 'D. Wilcox', 'E. Wildner', 'I. Efthymiopoulos', 'R. Garoby', 'S. Gilardoni', 'C. Hansen', 'E. Benedetto', 'E. Jensen', 'A. Kosmicki', 'M. Martini', 'J. Osborne', 'G. Prior', 'T. Stora', 'T. Melo-Mendonca', 'V. Vlachoudis', 'C. Waaijer', 'P. Cupial', 'A. Chancé', 'A. Longhin', 'J. Payet', 'M. Zito', 'E. Baussan', 'C. Bobeth', 'E. Bouquerel', 'M. Dracos', 'G. Gaudiot', 'B. Lepers', 'F. Osswald', 'P. Poussot', 'N. Vassilopoulos', 'J. Wurtz', 'V. Zeter', 'J. Bielski', 'M. Kozien', 'L. Lacny', 'B. Skoczen', 'B. Szybinski', 'A. Ustrycka', 'A. Wroblewski', 'M. Marie-Jeanne', 'P. Balint', 'C. Fourel', 'J. Giraud', 'J. Jacob', 'T. Lamy', 'L. Latrasse', 'P. Sortais', 'T. Thuillier', 'S. Mitrofanov', 'M. Loiselet', 'Th. Keutgen', 'Th. Delbar', 'F. Debray', 'C. Trophine', 'S. Veys', 'C. Daversin', 'V. Zorin', 'I. Izotov', 'V. Skalyga', 'G. Burt', 'A. C. Dexter', 'V. L. Kravchuk', 'T. Marchi', 'M. Cinausero', 'F. Gramegna', 'G. De Angelis', 'G. Prete', 'G. Collazuol', 'M. Laveder', 'M. Mezzetto', 'C. Signorini', 'E. Vardaci', 'A. Di Nitto', 'A. Brondi', 'G. La Rana', 'P. Migliozzi', 'R. Moro', 'V. Palladino', 'N. Gelli', 'D. Berkovits', 'M. Hass', 'T. Y. Hirsh', 'M. Schaumann', 'A. Stahl', 'J. Wehner', 'A. Bross', 'J. Kopp', 'D. Neuffer', 'R. Wands', 'R. Bayes', 'A. Laing', 'P. Soler', 'S. K. Agarwalla', 'A. Cervera Villanueva', 'A. Donini', 'T. Ghosh', 'J. J. Gómez Cadenas', 'P. Hernández', 'J. Martín-Albo', 'O. Mena', 'J. Burguet-Castell', 'L. Agostino', 'M. Buizza-Avanzini', 'M. Marafini', 'T. Patzak', 'A. Tonazzo', 'D. Duchesneau', 'L. Mosca', 'M. Bogomilov', 'Y. Karadzhov', 'R. Matev', 'R. Tsenov', 'E. Akhmedov', 'M. Blennow', 'M. Lindner', 'T. Schwetz', 'E. Fernández Martinez', 'M. Maltoni', 'J. Menéndez', 'C. Giunti', 'M. C. González García', 'J. Salvado', 'P. Coloma', 'P. Huber', 'T. Li', 'J. López-Pavón', 'C. Orme', 'S. Pascoli', 'D. Meloni', 'J. Tang', 'W. Winter', 'T. Ohlsson', 'H. Zhang', 'L. Scotto-Lavina', 'F. Terranova', 'M. Bonesini', 'L. Tortora', 'A. Alekou', 'M. Aslaninejad', 'C. Bontoiu', 'A. Kurup', 'L. J. Jenner', 'K. Long', 'J. Pasternak', 'J. Pozimski', 'J. J. Back', 'P. Harrison', 'K. Beard', 'A. Bogacz', 'J. S. Berg', 'D. Stratakis', 'H. Witte', 'P. Snopok', 'N. Bliss', 'M. Cordwell', 'A. Moss', 'S. Pattalwar', 'M. Apollonio']
-    doi: '10.1103/physrevstab.16.021002'
-    journal: 'Physical Review Special Topics - Accelerators and Beams'
-    openalex_id: W2100148602
-    sources: [openalex]
   - id: '1212.6723'
     title: 'Confluence on the Painlevé Monodromy Manifolds, their Poisson Structure and Quantisation'
     year: 2012
@@ -406,13 +362,6 @@ publications:
     primary_category: math-ph
     openalex_id: W1980397913
     sources: [arxiv, openalex]
-  - id: 'openalex:W3169440756'
-    title: 'Penning trap-assisted decay spectroscopy at SHIPTRAP'
-    year: 2011
-    coauthors: ['C. Droese', 'G. Marx', 'D. Ackermann', 'M. Block', 'M. Dworschak', 'F. Herfurth', 'F. P. Heßberger', 'S. Hofmann', 'L. Schweikhard', 'L.-L. Andersson', 'K. Blaum', 'M. Eibach', 'S. Eliseev', 'J. Ketelaer', 'J. Ketter', 'U. Forsberg', 'D. Rudolph', 'E. Haettner', 'W. R. Plaß', 'C. Scheidenberger', 'E. Minaya Ramirez', 'D. A. Nesterenko', 'Yu. N. Novikov', 'S. Rahaman', 'S. Stolze', 'D. Rodrı́guez', 'P. Thirolf', 'Chris J. Benmore', 'G. Vorobjev']
-    openalex_id: W3169440756
-    sources: [openalex]
-    no_arxiv: true
   - id: '1012.5251'
     title: 'Poisson algebras of block-upper-triangular bilinear forms and braid group action'
     year: 2010
@@ -438,15 +387,6 @@ publications:
     doi: '10.1088/1751-8113/43/44/442002'
     primary_category: math-ph
     sources: [arxiv]
-  - id: 'doi:10.1016/j.physletb.2010.04.020'
-    title: 'Direct measurement of the 4.6 MeV isomer in stored bare 133Sb ions'
-    year: 2010
-    coauthors: ['B. Sun', 'R. Knöbel', 'H. Geissel', 'Yu.A. Litvinov', 'P.M. Walker', 'K. Blaum', 'F. Bosch', 'D. Boutin', 'C. Brandau', 'L. Chen', 'I.J. Cullen', 'A. Dolinskii', 'B. Fabian', 'M. Hausmann', 'C. Kozhuharov', 'J. Kurcewicz', 'S.A. Litvinov', 'Z. Liu', 'J. Meng', 'F. Montes', 'G. Münzenberg', 'A. Musumarra', 'S. Nakajima', 'C. Nociforo', 'F. Nolden', 'T. Ohtsubo', 'A. Ozawa', 'Z. Patyk', 'W.R. Plaß', 'C. Scheidenberger', 'M. Steck', 'T. Suzuki', 'H. Weick', 'N. Winckler', 'M. Winkler', 'T. Yamaguchi']
-    doi: '10.1016/j.physletb.2010.04.020'
-    journal: 'Physics Letters B'
-    openalex_id: W1992123734
-    sources: [openalex]
-    no_arxiv: true
   - id: 'doi:10.1088/1751-8121/43/43/430301'
     title: 'Integrability and nonlinear phenomena'
     year: 2010
@@ -454,15 +394,6 @@ publications:
     doi: '10.1088/1751-8121/43/43/430301'
     journal: 'Journal of Physics A Mathematical and Theoretical'
     openalex_id: W2015671666
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1007/s10751-010-0161-z'
-    title: 'Penning trap mass measurements of transfermium elements with SHIPTRAP'
-    year: 2010
-    coauthors: ['M. Block', 'D. Ackermann', 'K. Blaum', 'C. Droese', 'M. Dworschak', 'M. Eibach', 'S. Eliseev', 'T. Fleckenstein', 'E. Haettner', 'F. Herfurth', 'F. P. Heßberger', 'S. Hofmann', 'J. Ketelaer', 'J. Ketter', 'H. -J. Kluge', 'G. Marx', 'Yu. N. Novikov', 'W. R. Plaß', 'A. Popeko', 'S. Rahaman', 'D. Rodríguez', 'C. Scheidenberger', 'L. Schweikhard', 'P. G. Thirolf', 'G. K. Vorobyev', 'C. Weber']
-    doi: '10.1007/s10751-010-0161-z'
-    journal: 'Hyperfine Interactions'
-    openalex_id: W2073246351
     sources: [openalex]
     no_arxiv: true
   - id: '0909.5350'
@@ -499,15 +430,6 @@ publications:
     doi: '10.1088/1751-8113/40/42/s11'
     primary_category: nlin.SI
     sources: [arxiv]
-  - id: 'doi:10.1063/1.2713496'
-    title: 'Mass Measurements at SHIPTRAP'
-    year: 2007
-    coauthors: ['A. Martín', 'D. Ackermann', 'M. Block', 'A. Chaudhuri', 'Z. Di', 'S. Eliseev', 'D. Habs', 'F. Herfurth', 'F. Hessberger', 'S. Hofmann', 'H.-J. Kluge', 'G. Marx', 'M. Mukherjee', 'J. B. Neumayr', 'W. Plass', 'S. Rahaman', 'C. Rauth', 'D. Rodríguez', 'C. Scheidenberger', 'L. Schweikhard', 'P. G. Thirolf', 'G. Vorobjev', 'C. Weber']
-    doi: '10.1063/1.2713496'
-    journal: 'AIP conference proceedings'
-    openalex_id: W1508284647
-    sources: [openalex]
-    no_arxiv: true
   - id: 'openalex:W2128014837'
     title: 'Monodromy of certain Painlev e-VI transcendents and reection groups'
     year: 2006
@@ -531,15 +453,6 @@ publications:
     doi: '10.1088/0951-7715/20/12/006'
     primary_category: nlin.SI
     sources: [arxiv]
-  - id: 'doi:10.1007/s10751-007-9542-3'
-    title: 'Direct mass measurements of neutron-deficient 152Sm projectile fragments at the FRS-ESR facility'
-    year: 2006
-    coauthors: ['Yu. A. Litvinov', 'H. Geissel', 'K. Beckert', 'P. Beller', 'F. Bosch', 'D. Boutin', 'C. Brandau', 'L. Chen', 'R. Knöbel', 'C. Kozhuharov', 'J. Kurcewicz', 'S. A. Litvinov', 'G. Münzenberg', 'C. Nociforo', 'F. Nolden', 'W. R. Plaß', 'C. Scheidenberger', 'M. Steck', 'B. Sun', 'H. Weick', 'M. Winkler']
-    doi: '10.1007/s10751-007-9542-3'
-    journal: 'Hyperfine Interactions'
-    openalex_id: W2004056662
-    sources: [openalex]
-    no_arxiv: true
   - id: 'doi:10.1088/0305-4470/39/39/e01'
     title: 'One hundred years of PVI, the Fuchs–Painlevé equation'
     year: 2006
@@ -655,6 +568,10 @@ publications:
     sources: [openalex]
     no_arxiv: true
 sources:
+- label: "[Codex] 2026-10-08：本人主页（Marta 身份、ORCID及 arXiv 入口）"
+  url: https://sites.google.com/upc.edu/marta-mazzocco
+- label: "[Codex] 2026-10-08：核物理同名作者 Marco Mazzocco（错误归属已转审核记录）"
+  url: https://www.research.unipd.it/cris/rp/rp21136
 - label: Math Genealogy
   url: https://www.mathgenealogy.org/id.php?id=51294
 - label: OpenAlex

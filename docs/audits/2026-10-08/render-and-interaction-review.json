@@ -1,0 +1,31 @@
+{
+  "provider": "Codex",
+  "date": "2026-10-08",
+  "scope": "Rendering and UI behavior only; no assertion of mathematical correctness",
+  "concept_definitions_rendered": 61,
+  "katex_expressions": 127,
+  "detected_parse_errors": [],
+  "ui_checks": {
+    "people_zoom_in_out_fit": "clicked with scale changes",
+    "people_search_and_sidebar": "Zhang Youjin; recorded Liu40/Dubrovin12",
+    "mobile_people_width": 390,
+    "mobile_ack_width": 390,
+    "ack_empty_filter": "0+0 links; fit disabled; no console errors",
+    "mobile_concept_sidebar": "WDVV node clicked; sidebar within viewport",
+    "wdvv_mobile_math": "2 KaTeX expressions, no render errors; page fits390px"
+  },
+  "tests": {
+    "site": 19,
+    "author_sources": 14,
+    "review_persistence": 8
+  },
+  "build": {
+    "pages": 282,
+    "internal_links": 21036,
+    "broken_targets": 0
+  },
+  "data_lint": {
+    "errors": 0,
+    "warnings": 74
+  }
+}

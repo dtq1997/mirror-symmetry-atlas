@@ -43,6 +43,7 @@ jobs:
       - run: pnpm test:site
       - run: python3 scripts/test_arxiv_news.py
       - run: python3 scripts/test_lib_truth.py
+      - run: python3 scripts/test_publication_review.py
       - run: pnpm build
       - uses: actions/upload-pages-artifact@v3
         with:

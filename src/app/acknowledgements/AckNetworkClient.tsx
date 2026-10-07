@@ -127,7 +127,7 @@ export default function AckNetworkClient({ graphData, peopleCount }: Props) {
         />
 
         {/* Top controls */}
-        <div className="absolute top-4 left-1/2 -translate-x-1/2 z-20 flex flex-wrap justify-center gap-3 max-w-[calc(100%_-_2rem)] w-max items-center bg-[#14141f]/95 backdrop-blur-sm rounded-lg border border-[#2a2a3a] px-3 py-2 shadow-lg">
+        <div className="absolute top-4 left-16 right-4 sm:left-1/2 sm:right-auto sm:-translate-x-1/2 sm:w-max z-20 flex flex-wrap justify-center gap-3 max-w-[calc(100%_-_5rem)] items-center bg-[#14141f]/95 backdrop-blur-sm rounded-lg border border-[#2a2a3a] px-3 py-2 shadow-lg">
           <input
             type="text"
             value={searchQuery}

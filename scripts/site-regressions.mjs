@@ -6,6 +6,7 @@ import identity from '../.cache/msa/site-tests/paper-identity.js';
 import { entityRoute } from '../.cache/msa/site-tests/entity-route.js';
 import { buildPeopleGraph, simulationGraph } from '../.cache/msa/site-tests/graph.js';
 import { publicSourceUrl } from '../.cache/msa/site-tests/source-url.js';
+import { renderMathText } from '../.cache/msa/site-tests/math-text.js';
 import { collectPublications, collectCoauthorship, recordedPublicationStats } from '../.cache/msa/site-tests/publications.js';
 
 test('DOI and OpenAlex records never link to arXiv', () => {
@@ -146,4 +147,20 @@ test('simulation mutation cannot corrupt source data or filtered link endpoints'
   assert.equal(next.nodes[0].opacity, 0.5);
   assert.notEqual(next.nodes[0], first.nodes[0]);
   assert.equal(simulationGraph({ nodes: [source.nodes[0]], links: first.links }, first).links.length, 0);
+});
+
+test('multiline math renders without rewriting the generated MathML', () => {
+  const html = renderMathText('**说明**\n$F(t)$\n$\\frac{a}{b}\n= c$\n$$x^2\n+y^2$$');
+  assert.equal((html.match(/class="katex"/g) || []).length, 3);
+  assert.match(html, /<strong>说明<\/strong>/);
+  assert.match(html, /<annotation encoding="application\/x-tex">\\frac\{a\}\{b\}\n= c<\/annotation>/);
+  assert.doesNotMatch(html, /katex-error/);
+});
+
+test('math prose is escaped and untrusted TeX cannot inject links or HTML', () => {
+  const html = renderMathText('<img src=x onerror=alert(1)> \\$5 **safe** $\\href{javascript:alert(1)}{link}$');
+  assert.match(html, /&lt;img/);
+  assert.match(html, /\$5/);
+  assert.doesNotMatch(html, /<img|<a\s|href="javascript:/);
+  assert.match(renderMathText('$\\frac{$'), /katex-error/);
 });
