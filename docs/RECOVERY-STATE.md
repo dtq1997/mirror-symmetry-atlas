@@ -71,3 +71,21 @@
 - 手机新闻页面 390px 已目检，6 条旧记录作者与来源可见，无横向溢出；文章中自动推断的人物链接数为 0，error 日志为空。
 
 [Codex] 2026-10-08 第二批 commit `7b2e33fe0ea27cf0953d8c661c0569dbaf9a0342` 的部署 run `37696283404` 成功。GitHub workflow 当前读回为 active（修改 workflow 后已恢复），无需重复启用。自动条目仅公开题名、原始署名和来源，摘要全文只留原始响应缓存供筛选/审阅；发布页面通过原始链接阅读摘要。最后一次本地 lint/typecheck/build/282 页链接检查通过。准备真实手动抓取验收，不能把已提交代码当作整链已验收。
+
+[Codex] 2026-10-08 第三批进行中：论文身份的第一组实证纠错。
+
+- 全部 1237 个完整 arXiv 编号已从当前 API 取回元数据（13 批，无失败），覆盖原有 1567 条人物论文记录；52 条规范化题名不一致，先进入复核，不能一概当错。固定报告及只读采集脚本：`arxiv-metadata-audit.json`、`collect-arxiv-metadata.py`。收集成功不等于身份或发表情况已核实。
+- 已确认并修正 `2602.21532` / `2511.06984` 的 Si Li / Si-Qi Liu 混淆。两篇从 si-li 的论文列表移除，保留在真实作者档案；同步修复 liu-siqi、zhang-youjin、yang-di 的 coauthors，删掉 Zhang identity_profile 中由此污染的 Si Li 线索。论文 HTML 同时提供刘思齐的清华数学系署名和 liusq 邮箱；已补源。详见 `si-li-ownership-correction.json`。
+- 修改后逐个还原这两篇的作者集合，与当前 arXiv 名单一致；名字匹配新增 Si Li / Si-Qi Liu 负例，新闻测试 12 项通过。数据检查 0 errors / 74 warnings；生产构建及 282 页链接审计通过。原始人物论文记录目前 2242 条；这两篇仍在目录中，因此全站论文去重数不因移除错挂而减少。
+- 标识队列快照 `publication-audit-queue.json` 是修正前快照：1567 条有完整 arXiv，227 条旧七位号缺 archive，421 条 DOI、25 条 OpenAlex、4 条无可解析标识。不要把快照数量当后续实时数。
+- 重大待办：`lib_truth.fetch_arxiv_authors` 对上述两个有效 ID 读回 None，存在旧 miss/cache 的永久屏蔽问题；先修失败缓存与旧 ID 前缀消歧，再重用旧自动审计器。`detect-id-title-mismatch.py` 还会缓存空结果、用不安全 v 切分并把缺检当略过；暂勿运行其 --write。
+- 新红旗尚未判错：Mazzocco 的 1305.4067 是 neutrino/physics 大合作；liu-siqi 有 random geometric graphs、high-dimensional expanders、Goldbach 条目，需用本人主页/CV/论文单位排除同名；仅姓氏/全名相同不能放行。张友金某条 coauthors 竟有 `arXiv api core`，以及旧 DOI/编号错配，均待下一批来源修复。
+- 合著数仍有字段漂移（例 Zhang→Liu 手填1 vs当前带 slug 的记录43；Liu→Dubrovin、Yang→Dubrovin 也不同）。下一步先统一有冲突保护的目录归并与双边记录计数；不要把单方 raw 计数重新宣传为真实唯一论文数。
+
+[Codex] 新闻运行外部状态异常：代码部署 `37696562177` 成功；手动新闻 run `37696579573` 十余分钟无 jobs，GET 显示 queued，cancel API 返回409称尚未入队，CLI 又称已完成，尚未解释。显式 enable 已成功，已限一次重试 `37697928558`，禁止再无边界重复触发。没有成功取消任何远端任务；只停止了本轮自己的本地 watch 进程。自动抓取→提交→workflow_run 部署整链仍未验收，不宣称自动恢复。
+
+为避免网站继续停留旧数据，本地正常执行同一已测试程序，4 页取回604条，写入 `data/news/2026-10-07.yaml` 的66条自动候选（UTC文件日，北京时间2026-10-08）。只含来源署名、题名、日期、版本和候选标签，没有自动人物绑定、没有机器编造中文摘要；正准备随四个人物纠错一并发布。最新页面成功抓取时间只能说明实际本地抓取成功，不能替代 GitHub 自动运行验收。
+
+[Codex] 新闻链验收已有新结果：限次重试 `37697928558` 成功；GitHub runner 实际取回604条/4页，筛出66条，机器人提交 `a8ed377ec48553885236464945fe52e10ce46f8e`。它触发的 **workflow_run** 部署 `37697996080` 也成功。原始首次 run 的状态异常仍保留，不再因此阻塞正常工作。已把本地生成副本移到 `.cache/msa/site-recovery/news-local-generated.yaml`，fast-forward 合入机器人提交，保留较新的自动抓取时间，避免覆盖。接下来核对线上72条新闻及四个人物修正发布；定时配置为每日北京时间16:00，当前 workflow active。
+
+[Codex] 2026-10-08 线上新闻核验完成：浏览器实际显示72条（66条自动元数据、6条人工核查旧记录），最近完整抓取北京时间06:43:14；自动条目标明未人工审读，article 内人物推断链接为0。390px视口无横向溢出，error日志为空，截图 `news-live-mobile.jpg`。四个人物纠错与机器人最新新闻合并后的最终生产构建成功：282页、21385条链接、0问题目标。准备发布本批人物修正。

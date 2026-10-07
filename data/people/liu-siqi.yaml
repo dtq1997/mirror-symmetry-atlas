@@ -36,6 +36,8 @@ research_areas:
 - frobenius-manifolds
 - integrable-systems
 - wdvv-equations
+known_emails: [liusq@tsinghua.edu.cn]
+known_affiliations: ["Department of Mathematical Sciences, Tsinghua University"]
 identity_profile:
   openalex_id: 'A5110050043'
   affiliations:
@@ -120,13 +122,13 @@ publications:
   - id: '2602.21532'
     title: 'Generalized Frobenius Manifold Structures on the Orbit Spaces of Affine Weyl Groups II'
     year: 2026
-    coauthors: ['Lingrui Jiang', 'Yingchao Tian', zhang-youjin, si-li]
+    coauthors: ['Lingrui Jiang', 'Yingchao Tian', zhang-youjin]
     primary_category: math.DG
     sources: [arxiv]
   - id: '2511.06984'
     title: 'On a class of integrable deformations of the integrable hierarchy of topological type associated to a semisimple Frobenius manifold'
     year: 2025
-    coauthors: ['Paolo Rossi', yang-di, zhang-youjin, si-li]
+    coauthors: ['Paolo Rossi', yang-di, zhang-youjin]
     primary_category: math-ph
     sources: [arxiv]
   - id: '2506.13656'
@@ -519,6 +521,14 @@ personal_notes: |
   研究：可积 PDE 分类、Drinfeld-Sokolov、bihamiltonian 上同调、FJRW、Frobenius 流形；与 Dubrovin-Zhang 长期合作
   趣闻：搜狐有"青年数学家刘思齐：从高中到大学的转变"专访；带过的硕博生杨迪、周春辉 (Chunhui Zhou) 都已是独立学者
 sources:
+  - label: 'arXiv 2511.06984 署名核对 [Codex]'
+    url: 'https://arxiv.org/html/2511.06984v1'
+    last_verified: '2026-10-08'
+    notes: '仅核对作者及论文署名单位。作者为 Si-Qi Liu，不含 Si Li；未审计论文证明。'
+  - label: 'arXiv 2602.21532 署名核对 [Codex]'
+    url: 'https://arxiv.org/html/2602.21532v1'
+    last_verified: '2026-10-08'
+    notes: '仅核对作者及论文署名单位。作者为 Si-Qi Liu，不含 Si Li；未审计论文证明。'
   - label: 'OpenAlex'
     url: 'https://openalex.org/authors/A5110050043'
 tags:

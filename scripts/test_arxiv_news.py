@@ -96,6 +96,11 @@ class NewsTests(unittest.TestCase):
         self.assertEqual(entry['summary_zh'], '')
         self.assertNotIn('abstract', entry)
 
+    def test_si_li_and_siqi_liu_are_distinct_search_candidates(self):
+        people = {'si-li': {'name_en': 'Si Li'}, 'liu-siqi': {'name_en': 'Siqi Liu'}}
+        self.assertEqual(news.author_candidates('Si-Qi Liu', people), ['liu-siqi'])
+        self.assertEqual(news.author_candidates('Si Li', people), ['si-li'])
+
     def test_concept_substrings_and_unordered_words_do_not_match(self):
         self.assertEqual(news.match_concepts('External quantum effect', 'a cohomology course', {'rna', 'quantum-cohomology'}), [])
         self.assertEqual(news.match_concepts('Quantum cohomology and Gromov–Witten theory', '',

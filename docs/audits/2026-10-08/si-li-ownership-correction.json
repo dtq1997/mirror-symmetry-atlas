@@ -1,0 +1,130 @@
+{
+  "provider": "Codex",
+  "date": "2026-10-08",
+  "sources": [
+    "https://arxiv.org/html/2602.21532v1",
+    "https://arxiv.org/html/2511.06984v1"
+  ],
+  "evidence": "Full author lists plus Si-Qi Liu affiliation Tsinghua Department of Mathematical Sciences and liusq@tsinghua.edu.cn. No Si Li in either author list. Existing liu-siqi records already include both works.",
+  "changes": [
+    {
+      "file": "data/people/si-li.yaml",
+      "id": "2602.21532",
+      "action": "remove incorrect ownership",
+      "before": {
+        "id": "2602.21532",
+        "title": "Generalized Frobenius Manifold Structures on the Orbit Spaces of Affine Weyl Groups II",
+        "year": 2026,
+        "coauthors": [
+          "Lingrui Jiang",
+          "Yingchao Tian",
+          "zhang-youjin"
+        ],
+        "primary_category": "math.DG",
+        "sources": [
+          "arxiv"
+        ]
+      }
+    },
+    {
+      "file": "data/people/si-li.yaml",
+      "id": "2511.06984",
+      "action": "remove incorrect ownership",
+      "before": {
+        "id": "2511.06984",
+        "title": "On a class of integrable deformations of the integrable hierarchy of topological type associated to a semisimple Frobenius manifold",
+        "year": 2025,
+        "coauthors": [
+          "Paolo Rossi",
+          "yang-di",
+          "zhang-youjin",
+          "liu-siqi"
+        ],
+        "primary_category": "math-ph",
+        "sources": [
+          "arxiv"
+        ]
+      }
+    },
+    {
+      "file": "data/people/liu-siqi.yaml",
+      "id": "2602.21532",
+      "action": "correct coauthors",
+      "before": [
+        "Lingrui Jiang",
+        "Yingchao Tian",
+        "zhang-youjin",
+        "si-li"
+      ],
+      "after": [
+        "Lingrui Jiang",
+        "Yingchao Tian",
+        "zhang-youjin"
+      ]
+    },
+    {
+      "file": "data/people/liu-siqi.yaml",
+      "id": "2511.06984",
+      "action": "correct coauthors",
+      "before": [
+        "Paolo Rossi",
+        "yang-di",
+        "zhang-youjin",
+        "si-li"
+      ],
+      "after": [
+        "Paolo Rossi",
+        "yang-di",
+        "zhang-youjin"
+      ]
+    },
+    {
+      "file": "data/people/zhang-youjin.yaml",
+      "id": "2602.21532",
+      "action": "correct coauthors",
+      "before": [
+        "Lingrui Jiang",
+        "Yingchao Tian",
+        "si-li"
+      ],
+      "after": [
+        "Lingrui Jiang",
+        "Yingchao Tian",
+        "liu-siqi"
+      ]
+    },
+    {
+      "file": "data/people/zhang-youjin.yaml",
+      "id": "2511.06984",
+      "action": "correct coauthors",
+      "before": [
+        "Paolo Rossi",
+        "yang-di",
+        "si-li",
+        "liu-siqi"
+      ],
+      "after": [
+        "Paolo Rossi",
+        "yang-di",
+        "liu-siqi"
+      ]
+    },
+    {
+      "file": "data/people/yang-di.yaml",
+      "id": "2511.06984",
+      "action": "correct coauthors",
+      "before": [
+        "Paolo Rossi",
+        "zhang-youjin",
+        "si-li",
+        "liu-siqi"
+      ],
+      "after": [
+        "Paolo Rossi",
+        "zhang-youjin",
+        "liu-siqi"
+      ]
+    }
+  ],
+  "legacy_lookup_warning": "lib_truth.fetch_arxiv_authors returned None for both valid IDs due local lookup/cache state. Current API responses and HTML were read directly; no conclusion was based on the missing result."
+}

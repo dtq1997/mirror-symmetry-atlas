@@ -82,8 +82,8 @@ identity_profile:
   email_domains: [sissa.it, tsinghua.edu.cn, ustc.edu.cn]
   coauthor_circle_core_slugs: [dubrovin, liu-siqi, wu-chaozhong, yang-di]
   coauthor_circle_core_names: ['Boris Dubrovin', 'Chaozhong Wu', 'Di Yang', 'Siqi Liu']
-  coauthor_circle_extended_slugs: [qu-haonan, ruan-yongbin, si-li, xu-xu, zagier, zhou-chunhui, zhou-jian]
-  coauthor_circle_extended_names: ['Chunhui Zhou', 'Don Zagier', 'Haonan Qu', 'Jian Zhou', 'Si Li', 'Xu Xu', 'Yongbin Ruan']
+  coauthor_circle_extended_slugs: [qu-haonan, ruan-yongbin, xu-xu, zagier, zhou-chunhui, zhou-jian]
+  coauthor_circle_extended_names: ['Chunhui Zhou', 'Don Zagier', 'Haonan Qu', 'Jian Zhou', 'Xu Xu', 'Yongbin Ruan']
   research_keywords: [constraints, frobenius, integrable, virasoro]
   known_arxiv_ids:
     - '2602.21532'
@@ -184,13 +184,13 @@ publications:
   - id: '2602.21532'
     title: 'Generalized Frobenius Manifold Structures on the Orbit Spaces of Affine Weyl Groups II'
     year: 2026
-    coauthors: ['Lingrui Jiang', 'Yingchao Tian', si-li]
+    coauthors: ['Lingrui Jiang', 'Yingchao Tian', liu-siqi]
     primary_category: math.DG
     sources: [arxiv]
   - id: '2511.06984'
     title: 'On a class of integrable deformations of the integrable hierarchy of topological type associated to a semisimple Frobenius manifold'
     year: 2025
-    coauthors: ['Paolo Rossi', yang-di, si-li, liu-siqi]
+    coauthors: ['Paolo Rossi', yang-di, liu-siqi]
     primary_category: math-ph
     sources: [arxiv]
   - id: '2506.13656'
@@ -727,6 +727,14 @@ publications:
     sources: [openalex]
     no_arxiv: true
 sources:
+  - label: 'arXiv 2511.06984 署名核对 [Codex]'
+    url: 'https://arxiv.org/html/2511.06984v1'
+    last_verified: '2026-10-08'
+    notes: '仅核对作者及论文署名单位。作者为 Si-Qi Liu，不含 Si Li；未审计论文证明。'
+  - label: 'arXiv 2602.21532 署名核对 [Codex]'
+    url: 'https://arxiv.org/html/2602.21532v1'
+    last_verified: '2026-10-08'
+    notes: '仅核对作者及论文署名单位。作者为 Si-Qi Liu，不含 Si Li；未审计论文证明。'
   - label: 'OpenAlex'
     url: 'https://openalex.org/authors/A5076963789'
 tags:
