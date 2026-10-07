@@ -105,3 +105,11 @@
 - 17项网站回归、ESLint、TypeScript和最终构建通过；282页 / 21113条链接 / 0坏目标。数据lint仍0errors/74warnings。上批缓存修复已部署，run `37699035948` 成功。
 
 下一轮入口：先检查本批部署及工作区，继续既有 Goal。优先依据本人主页/CV/论文署名核查刘思齐的4篇理论计算机/数论候选及 Mazzocco neutrino 候选；复核52条题名差异、227条旧编号和其余 DOI/OpenAlex。机构当前/历史归属、概念定义与重复、时间线/开放问题、会议报告名单仍待逐项核查。未完成全内容审计，不得标 Goal complete。旧 validate-publications --apply 与 detect-id-title-mismatch --write 的自动身份/写入逻辑仍有风险，本次未运行。
+
+[Codex] 2026-10-08 第四批已部署：commit `8cb9f9f21c126875bcbf8fd93f234d25e8acb3e3`，run `37699970356` 成功；线上人物图已显示新图例，旧年龄推断图例消失。
+
+[Codex] 2026-10-08 第五批同名复核：刘思齐的 `2411.08839`、`2210.00158`、`2111.11316` 已确认属于另一位 Siqi Liu。原文分别署名IAS/UC Berkeley及 siqiliu@ias.edu / sliu18@berkeley.edu；IAS正式学者页记录2023年Berkeley博士并链接本人网页，网页列出三篇相同论文。清华正式教师页则为2007年清华博士、liusq@tsinghua.edu.cn。三篇从公开归属及known_arxiv_ids中移除，原记录/来源保存在 `data/papers/_review_queue/liu-siqi.yaml`，标 rejected-homonym。
+
+`2408.13458` 原文为南昌大学数学系、siqiliu463@gmail.com；尚不足以确证另一人的完整身份，也没有绑定清华刘思齐的证据，故移入同一待核实池并标 needs-review，没有称为已证伪。全文署名来源与去向见 `liu-siqi-homonym-review.json`。同类ID/DOI全数据搜索只有此人物档案；身份线索同步去掉四条。
+
+同一清华官方主页还查实四段任职起止月份，修正career_timeline及identity_profile，并补faculty_page与具名核查来源。现在刘思齐公开收录41条（34有发表信息/7发表待核实）；当前全站1833组、原始2238条。旧数量报告均为当时快照，不可用其旧数覆盖当前数据。其余论文、导师/学生关系与其他履历事实尚未全审。最后一次构建和出站前检查完成后发布本批。

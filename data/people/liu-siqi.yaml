@@ -14,20 +14,20 @@ career_timeline:
   role: 博士
   advisor: zhang-youjin
   notes: 2007年获博士学位 [导师待验证，极可能是张友金]
-- period: 2007-2009
+- period: 2007.07-2009.07
   type: position
   institution: tsinghua
   role: 助研
-- period: 2009-2011
+- period: 2009.07-2010.12
   type: position
   institution: tsinghua
   role: 讲师
-- period: 2011-2016
+- period: 2010.12-2015.12
   type: position
   institution: tsinghua
   role: 副教授
   notes: 2012年获优秀青年基金
-- period: 2016-present
+- period: 2015.12-present
   type: position
   institution: tsinghua
   role: 教授
@@ -45,16 +45,16 @@ identity_profile:
       period: '~2002-2007'
       role: '博士'
     - institution: 'tsinghua'
-      period: '2007-2009'
+      period: '2007.07-2009.07'
       role: '助研'
     - institution: 'tsinghua'
-      period: '2009-2011'
+      period: '2009.07-2010.12'
       role: '讲师'
     - institution: 'tsinghua'
-      period: '2011-2016'
+      period: '2010.12-2015.12'
       role: '副教授'
     - institution: 'tsinghua'
-      period: '2016-present'
+      period: '2015.12-present'
       role: '教授'
   email_domains: [tsinghua.edu.cn]
   coauthor_circle_core_slugs: [dubrovin, zhang-youjin]
@@ -66,17 +66,13 @@ identity_profile:
     - '2602.21532'
     - '2511.06984'
     - '2506.13656'
-    - '2411.08839'
-    - '2408.13458'
     - '2411.15496'
     - '2409.19530'
     - '2404.08895'
     - '2402.00373'
     - '2305.10851'
-    - '2210.00158'
     - '2209.00483'
     - '2203.16812'
-    - '2111.11316'
     - '2112.07526'
     - '2110.03317'
     - '2109.01846'
@@ -138,18 +134,6 @@ publications:
     primary_category: math.DG
     openalex_id: W4415109267
     sources: [arxiv, openalex]
-  - id: '2411.08839'
-    title: 'Sparser Abelian High Dimensional Expanders'
-    year: 2024
-    coauthors: ['Yotam Dikstein', 'Avi Wigderson']
-    primary_category: math.CO
-    sources: [arxiv]
-  - id: '2408.13458'
-    title: 'A pair of Goldbach-Linnik equations in unlike powers of primes and powers of two'
-    year: 2024
-    coauthors: ['Liqun Hu']
-    primary_category: math.NT
-    sources: [arxiv]
   - id: '2411.15496'
     title: 'Legendre transformations of a class of generalized Frobenius manifolds and the associated integrable hierarchies'
     year: 2024
@@ -193,14 +177,6 @@ publications:
     primary_category: nlin.SI
     openalex_id: W4385765342
     sources: [arxiv, openalex]
-  - id: '2210.00158'
-    title: 'Local and global expansion in random geometric graphs'
-    year: 2022
-    coauthors: ['Sidhanth Mohanty', 'Tselil Schramm', 'Elizabeth Yang']
-    doi: '10.1145/3564246.3585106'
-    journal: 'Proceedings of the 55th Annual ACM Symposium on Theory of Computing'
-    primary_category: math.CO
-    sources: [arxiv]
   - id: '2209.00483'
     title: 'Generalized Frobenius Manifolds with Non-flat Unity and Integrable Hierarchies'
     year: 2022
@@ -219,14 +195,6 @@ publications:
     primary_category: math-ph
     openalex_id: W4311779894
     sources: [arxiv, openalex]
-  - id: '2111.11316'
-    title: 'Testing thresholds for high-dimensional sparse random geometric graphs'
-    year: 2021
-    coauthors: ['Sidhanth Mohanty', 'Tselil Schramm', 'Elizabeth Yang']
-    doi: '10.1145/3519935.3519989'
-    journal: 'Proceedings of the 54th Annual ACM SIGACT Symposium on Theory of Computing'
-    primary_category: math.PR
-    sources: [arxiv]
   - id: '2112.07526'
     title: 'The Virasoro-like Algebra of a Frobenius Manifold'
     year: 2021
@@ -498,9 +466,9 @@ publications:
     openalex_id: W1626671567
     sources: [arxiv, openalex]
 activity:
-  total_papers: 45
-  published_count: 36
-  preprint_only_count: 9
+  total_papers: 41
+  published_count: 34
+  preprint_only_count: 7
   active_period: '2000-present'
   quality_source: 'openalex + ruirui-2026'
   t1_papers: 0
@@ -514,6 +482,7 @@ external_ids:
   openalex: A5110050043
 links:
   homepage: 'http://siqiliu.com/'
+  faculty_page: 'https://www.math.tsinghua.edu.cn/info/1284/2693.htm'
 personal_notes: |
   现职：清华大学数学科学系教授 (2015.12-)，PhD 2007 (清华，导师张友金)
   履历：助教研员 2007-2009 → 讲师 2009-2010 → 副教授 2010-2015 → 教授 2015-
@@ -521,6 +490,10 @@ personal_notes: |
   研究：可积 PDE 分类、Drinfeld-Sokolov、bihamiltonian 上同调、FJRW、Frobenius 流形；与 Dubrovin-Zhang 长期合作
   趣闻：搜狐有"青年数学家刘思齐：从高中到大学的转变"专访；带过的硕博生杨迪、周春辉 (Chunhui Zhou) 都已是独立学者
 sources:
+  - label: '清华数学系教师主页 [Codex]'
+    url: 'https://www.math.tsinghua.edu.cn/info/1284/2693.htm'
+    last_verified: '2026-10-08'
+    notes: '核对邮箱、2007年博士学位及四段任职起止月份；不是全部论文或导师关系的审核。'
   - label: 'arXiv 2511.06984 署名核对 [Codex]'
     url: 'https://arxiv.org/html/2511.06984v1'
     last_verified: '2026-10-08'

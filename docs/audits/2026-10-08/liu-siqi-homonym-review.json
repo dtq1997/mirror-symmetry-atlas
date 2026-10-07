@@ -1,0 +1,159 @@
+{
+  "date": "2026-10-08",
+  "provider": "Codex",
+  "target_person_source": "https://www.math.tsinghua.edu.cn/info/1284/2693.htm",
+  "identity_evidence": "清华教师页：2007年博士，liusq@tsinghua.edu.cn；IAS页：另一位同名者2023年Berkeley博士，链接到列出三篇论文的本人主页。论文署名邮箱分别形成交叉对照。",
+  "removed_publication_rows": [
+    {
+      "id": "2411.08839",
+      "title": "Sparser Abelian High Dimensional Expanders",
+      "year": 2024,
+      "coauthors": [
+        "Yotam Dikstein",
+        "Avi Wigderson"
+      ],
+      "primary_category": "math.CO",
+      "sources": [
+        "arxiv"
+      ]
+    },
+    {
+      "id": "2408.13458",
+      "title": "A pair of Goldbach-Linnik equations in unlike powers of primes and powers of two",
+      "year": 2024,
+      "coauthors": [
+        "Liqun Hu"
+      ],
+      "primary_category": "math.NT",
+      "sources": [
+        "arxiv"
+      ]
+    },
+    {
+      "id": "2210.00158",
+      "title": "Local and global expansion in random geometric graphs",
+      "year": 2022,
+      "coauthors": [
+        "Sidhanth Mohanty",
+        "Tselil Schramm",
+        "Elizabeth Yang"
+      ],
+      "doi": "10.1145/3564246.3585106",
+      "journal": "Proceedings of the 55th Annual ACM Symposium on Theory of Computing",
+      "primary_category": "math.CO",
+      "sources": [
+        "arxiv"
+      ]
+    },
+    {
+      "id": "2111.11316",
+      "title": "Testing thresholds for high-dimensional sparse random geometric graphs",
+      "year": 2021,
+      "coauthors": [
+        "Sidhanth Mohanty",
+        "Tselil Schramm",
+        "Elizabeth Yang"
+      ],
+      "doi": "10.1145/3519935.3519989",
+      "journal": "Proceedings of the 54th Annual ACM SIGACT Symposium on Theory of Computing",
+      "primary_category": "math.PR",
+      "sources": [
+        "arxiv"
+      ]
+    }
+  ],
+  "disposition": [
+    {
+      "id": "2411.08839",
+      "title": "Sparser Abelian High Dimensional Expanders",
+      "year": 2024,
+      "coauthors": [
+        "Yotam Dikstein",
+        "Avi Wigderson"
+      ],
+      "primary_category": "math.CO",
+      "sources": [
+        "arxiv"
+      ],
+      "review_status": "rejected-homonym",
+      "reviewed_by": "Codex",
+      "reviewed_on": "2026-10-08",
+      "review_reason": "另一位 Siqi Liu 的本人论文表列出此文；IAS履历记录 Berkeley 2023 博士，论文邮箱为 sliu18@berkeley.edu 或 siqiliu@ias.edu。与清华2007博士/liusq@tsinghua.edu.cn区分。",
+      "source_urls": [
+        "https://arxiv.org/html/2411.08839v1",
+        "https://siqi-l.github.io/",
+        "https://www.ias.edu/scholars/siqi-liu"
+      ]
+    },
+    {
+      "id": "2408.13458",
+      "title": "A pair of Goldbach-Linnik equations in unlike powers of primes and powers of two",
+      "year": 2024,
+      "coauthors": [
+        "Liqun Hu"
+      ],
+      "primary_category": "math.NT",
+      "sources": [
+        "arxiv"
+      ],
+      "review_status": "needs-review",
+      "reviewed_by": "Codex",
+      "reviewed_on": "2026-10-08",
+      "review_reason": "论文署名南昌大学，邮箱 siqiliu463@gmail.com；尚无证据绑定到清华刘思齐，转待核实池，不认定同一人或最终排除。",
+      "source_urls": [
+        "https://arxiv.org/html/2408.13458v1"
+      ]
+    },
+    {
+      "id": "2210.00158",
+      "title": "Local and global expansion in random geometric graphs",
+      "year": 2022,
+      "coauthors": [
+        "Sidhanth Mohanty",
+        "Tselil Schramm",
+        "Elizabeth Yang"
+      ],
+      "doi": "10.1145/3564246.3585106",
+      "journal": "Proceedings of the 55th Annual ACM Symposium on Theory of Computing",
+      "primary_category": "math.CO",
+      "sources": [
+        "arxiv"
+      ],
+      "review_status": "rejected-homonym",
+      "reviewed_by": "Codex",
+      "reviewed_on": "2026-10-08",
+      "review_reason": "另一位 Siqi Liu 的本人论文表列出此文；IAS履历记录 Berkeley 2023 博士，论文邮箱为 sliu18@berkeley.edu 或 siqiliu@ias.edu。与清华2007博士/liusq@tsinghua.edu.cn区分。",
+      "source_urls": [
+        "https://arxiv.org/html/2210.00158v1",
+        "https://siqi-l.github.io/",
+        "https://www.ias.edu/scholars/siqi-liu"
+      ]
+    },
+    {
+      "id": "2111.11316",
+      "title": "Testing thresholds for high-dimensional sparse random geometric graphs",
+      "year": 2021,
+      "coauthors": [
+        "Sidhanth Mohanty",
+        "Tselil Schramm",
+        "Elizabeth Yang"
+      ],
+      "doi": "10.1145/3519935.3519989",
+      "journal": "Proceedings of the 54th Annual ACM SIGACT Symposium on Theory of Computing",
+      "primary_category": "math.PR",
+      "sources": [
+        "arxiv"
+      ],
+      "review_status": "rejected-homonym",
+      "reviewed_by": "Codex",
+      "reviewed_on": "2026-10-08",
+      "review_reason": "另一位 Siqi Liu 的本人论文表列出此文；IAS履历记录 Berkeley 2023 博士，论文邮箱为 sliu18@berkeley.edu 或 siqiliu@ias.edu。与清华2007博士/liusq@tsinghua.edu.cn区分。",
+      "source_urls": [
+        "https://arxiv.org/html/2111.11316v1",
+        "https://siqi-l.github.io/",
+        "https://www.ias.edu/scholars/siqi-liu"
+      ]
+    }
+  ],
+  "scope": "Three confirmed homonym assignments removed; one Nanchang-affiliated assignment unconfirmed and quarantined. No mathematical claims or publication DOI correctness audited."
+}
