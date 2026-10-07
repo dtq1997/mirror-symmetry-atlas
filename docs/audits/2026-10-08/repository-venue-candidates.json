@@ -1,0 +1,381 @@
+{
+  "provider": "Codex",
+  "checked_on": "2026-10-08",
+  "scope": "Metadata classification candidates only; not publication-status verdict. No data modified.",
+  "raw_rows": 23,
+  "venue_counts": {
+    "arXiv (Cornell University)": 5,
+    "Repository for Publications and Research Data (ETH Zurich)": 2,
+    "ArXiv.org": 6,
+    "Institutional Repositories DataBase (IRDB)": 2,
+    "cIRcle (University of British Columbia)": 1,
+    "Kyoto University Research Information Repository (Kyoto University)": 2,
+    "Lecture Notes in mathematics vol. 2060, Springer Verlag, 2012. (Numbering 1.a, 1.b, etc. on the arXiv version changed to 1.1, 1.2, etc. in the published version)": 1,
+    "SSRN Electronic Journal": 3,
+    "Duke Math. J. 139 (2007), no. 2, 369-405 (section 6 of the published version \"Global moduli spaces\" is not in this 2002 arxiv version)": 1
+  },
+  "rows": [
+    {
+      "person": "yau-shingtung",
+      "id": "openalex:W2788597912",
+      "title": "New definition of quasilocal mass and its positivity",
+      "year": 2003,
+      "coauthors": [
+        "liu-melissa"
+      ],
+      "journal": "arXiv (Cornell University)",
+      "openalex_id": "W2788597912",
+      "sources": [
+        "openalex"
+      ],
+      "no_arxiv": true
+    },
+    {
+      "person": "guo-shuai",
+      "id": "2001.05347",
+      "title": "Holomorphic anomaly equation for $(\\mathbb{P}^2,E)$ and the Nekrasov-Shatashvili limit of local $\\mathbb{P}^2$",
+      "year": 2020,
+      "coauthors": [
+        "wu-longting",
+        "Pierrick Bousseau",
+        "Honglu Fan"
+      ],
+      "doi": "10.1017/fmp.2021.3",
+      "journal": "Repository for Publications and Research Data (ETH Zurich)",
+      "primary_category": "math.AG",
+      "openalex_id": "W3159918510",
+      "sources": [
+        "arxiv",
+        "openalex"
+      ]
+    },
+    {
+      "person": "li-qin",
+      "id": "2604.26292",
+      "title": "Brane quantization and SYZ mirror symmetry",
+      "year": 2026,
+      "coauthors": [
+        "leung-naichung",
+        "chan-kwokwai",
+        "Yat-Hin Suen",
+        "Yutung Yau"
+      ],
+      "journal": "ArXiv.org",
+      "primary_category": "math.DG",
+      "openalex_id": "W7158891686",
+      "sources": [
+        "arxiv",
+        "openalex"
+      ]
+    },
+    {
+      "person": "dubrovin",
+      "id": "9803106",
+      "title": "Flat pencils of metrics and Frobenius manifolds",
+      "year": 1998,
+      "coauthors": [],
+      "journal": "ArXiv.org",
+      "primary_category": "math.DG",
+      "sources": [
+        "arxiv"
+      ]
+    },
+    {
+      "person": "hertling",
+      "id": "2602.15748",
+      "title": "Conjugacy classes of regular integer matrices",
+      "year": 2026,
+      "coauthors": [
+        "Khadija Larabi"
+      ],
+      "journal": "arXiv (Cornell University)",
+      "primary_category": "math.RA",
+      "openalex_id": "W7130481930",
+      "sources": [
+        "arxiv",
+        "openalex"
+      ]
+    },
+    {
+      "person": "hertling",
+      "id": "2602.14973",
+      "title": "Semigroups from full lattices in commutative ${\\mathbb Q}$-algebras",
+      "year": 2026,
+      "coauthors": [
+        "Khadija Larabi"
+      ],
+      "journal": "ArXiv.org",
+      "primary_category": "math.RA",
+      "openalex_id": "W7130236994",
+      "sources": [
+        "arxiv",
+        "openalex"
+      ]
+    },
+    {
+      "person": "k-saito",
+      "id": "openalex:W7146056116",
+      "title": "FROM PRIMITIVE FORM TO MIRROR SYMMETRY (Aspects of Mirror Symmetry)",
+      "year": 2014,
+      "coauthors": [],
+      "journal": "Institutional Repositories DataBase (IRDB)",
+      "openalex_id": "W7146056116",
+      "sources": [
+        "openalex"
+      ],
+      "no_arxiv": true
+    },
+    {
+      "person": "chan-kwokwai",
+      "id": "2604.26292",
+      "title": "Brane quantization and SYZ mirror symmetry",
+      "year": 2026,
+      "coauthors": [
+        "leung-naichung",
+        "li-qin",
+        "Yat-Hin Suen",
+        "Yutung Yau"
+      ],
+      "journal": "ArXiv.org",
+      "primary_category": "math.DG",
+      "openalex_id": "W7158891686",
+      "sources": [
+        "arxiv",
+        "openalex"
+      ]
+    },
+    {
+      "person": "leung-naichung",
+      "id": "2604.26292",
+      "title": "Brane quantization and SYZ mirror symmetry",
+      "year": 2026,
+      "coauthors": [
+        "li-qin",
+        "chan-kwokwai",
+        "Yat-Hin Suen",
+        "Yutung Yau"
+      ],
+      "journal": "ArXiv.org",
+      "primary_category": "math.DG",
+      "openalex_id": "W7158891686",
+      "sources": [
+        "arxiv",
+        "openalex"
+      ]
+    },
+    {
+      "person": "mazzocco",
+      "id": "2603.18842",
+      "title": "Decorated Local Systems and Character Varieties",
+      "year": 2026,
+      "coauthors": [
+        "Benedetta Facciotti",
+        "Nikita Nikolaev"
+      ],
+      "journal": "ArXiv.org",
+      "primary_category": "math.AG",
+      "openalex_id": "W7139921749",
+      "sources": [
+        "arxiv",
+        "openalex"
+      ]
+    },
+    {
+      "person": "mazzocco",
+      "id": "doi:10.14288/1.0377037",
+      "title": "Quantum character varieties and $q$-Askey scheme",
+      "year": 2019,
+      "coauthors": [],
+      "doi": "10.14288/1.0377037",
+      "journal": "cIRcle (University of British Columbia)",
+      "openalex_id": "W3036431556",
+      "sources": [
+        "openalex"
+      ],
+      "no_arxiv": true
+    },
+    {
+      "person": "mazzocco",
+      "id": "doi:10.24546/81001100",
+      "title": "CLASSICAL AND KNOWN SOLUTIONS OF A SPECIAL CASE OF PAINLEVE VI EQUATION",
+      "year": 2000,
+      "coauthors": [],
+      "doi": "10.24546/81001100",
+      "journal": "Institutional Repositories DataBase (IRDB)",
+      "openalex_id": "W357671513",
+      "sources": [
+        "openalex"
+      ],
+      "no_arxiv": true
+    },
+    {
+      "person": "guzzetti",
+      "id": "openalex:W649627614",
+      "title": "Matching Procedure for the Sixth Painleve Equation(Algebraic, Analytic and Geometric Aspects of Complex Differential Equations and their Deformations. Painleve Hierarchies)",
+      "year": 2007,
+      "coauthors": [],
+      "journal": "Kyoto University Research Information Repository (Kyoto University)",
+      "openalex_id": "W649627614",
+      "sources": [
+        "openalex"
+      ],
+      "no_arxiv": true
+    },
+    {
+      "person": "guzzetti",
+      "id": "openalex:W1009919968",
+      "title": "The Elliptic Representation of the Painleve 6 Equation (Deformation of differential equations and asymptotic analysis)",
+      "year": 2002,
+      "coauthors": [],
+      "journal": "Kyoto University Research Information Repository (Kyoto University)",
+      "openalex_id": "W1009919968",
+      "sources": [
+        "openalex"
+      ],
+      "no_arxiv": true
+    },
+    {
+      "person": "liu-melissa",
+      "id": "openalex:W2788597912",
+      "title": "New definition of quasilocal mass and its positivity",
+      "year": 2003,
+      "coauthors": [
+        "yau-shingtung"
+      ],
+      "journal": "arXiv (Cornell University)",
+      "openalex_id": "W2788597912",
+      "sources": [
+        "openalex"
+      ],
+      "no_arxiv": true
+    },
+    {
+      "person": "ding-yanqiao",
+      "id": "2602.04191",
+      "title": "The uniform asymptotics for real double Hurwitz numbers with triple ramification II: lower bounds and asymptotics",
+      "year": 2026,
+      "coauthors": [
+        "Kui Li",
+        "Huan Liu",
+        "Dongfeng Yan"
+      ],
+      "journal": "arXiv (Cornell University)",
+      "primary_category": "math.CO",
+      "openalex_id": "W7127983477",
+      "sources": [
+        "arxiv",
+        "openalex"
+      ]
+    },
+    {
+      "person": "wu-longting",
+      "id": "2001.05347",
+      "title": "Holomorphic anomaly equation for $(\\mathbb{P}^2,E)$ and the Nekrasov-Shatashvili limit of local $\\mathbb{P}^2$",
+      "year": 2020,
+      "coauthors": [
+        "guo-shuai",
+        "Pierrick Bousseau",
+        "Honglu Fan"
+      ],
+      "doi": "10.1017/fmp.2021.3",
+      "journal": "Repository for Publications and Research Data (ETH Zurich)",
+      "primary_category": "math.AG",
+      "openalex_id": "W3159918510",
+      "sources": [
+        "arxiv",
+        "openalex"
+      ]
+    },
+    {
+      "person": "sabbah",
+      "id": "0912.2762",
+      "title": "Introduction to Stokes structures",
+      "year": 2009,
+      "coauthors": [],
+      "doi": "10.1007/978-3-642-31695-1",
+      "journal": "Lecture Notes in mathematics vol. 2060, Springer Verlag, 2012. (Numbering 1.a, 1.b, etc. on the arXiv version changed to 1.1, 1.2, etc. in the published version)",
+      "primary_category": "math.AG",
+      "openalex_id": "W1596283011",
+      "sources": [
+        "arxiv",
+        "openalex"
+      ]
+    },
+    {
+      "person": "zhao-qiulan",
+      "id": "doi:10.2139/ssrn.4516041",
+      "title": "Quasi-Periodic Solutions of a Discrete Integrable Equation with a Finite-Dimensional Integrable Symplectic Structure",
+      "year": 2023,
+      "coauthors": [
+        "Caixue Li",
+        "Xinyue Li"
+      ],
+      "doi": "10.2139/ssrn.4516041",
+      "journal": "SSRN Electronic Journal",
+      "sources": [
+        "openalex"
+      ],
+      "no_arxiv": true
+    },
+    {
+      "person": "zhao-qiulan",
+      "id": "doi:10.2139/ssrn.4118583",
+      "title": "Higher-Order Rogue Wave Solutions of (2+1)-Dimensional Fokas-Lenells Equation",
+      "year": 2022,
+      "coauthors": [
+        "Huijie Song",
+        "Xinyue Li"
+      ],
+      "doi": "10.2139/ssrn.4118583",
+      "journal": "SSRN Electronic Journal",
+      "sources": [
+        "openalex"
+      ],
+      "no_arxiv": true
+    },
+    {
+      "person": "zhao-qiulan",
+      "id": "doi:10.2139/ssrn.3964466",
+      "title": "Interactions of Localized Wave and Dynamics Analysis in Generalized Derivative Nonlinear Schrödinger Equation",
+      "year": 2021,
+      "coauthors": [
+        "Xinyue Li",
+        "Guangfu Han"
+      ],
+      "doi": "10.2139/ssrn.3964466",
+      "journal": "SSRN Electronic Journal",
+      "sources": [
+        "openalex"
+      ],
+      "no_arxiv": true
+    },
+    {
+      "person": "boalch",
+      "id": "1703.10376",
+      "title": "Wild character varieties, meromorphic Hitchin systems and Dynkin diagrams",
+      "year": 2017,
+      "coauthors": [],
+      "doi": "10.1093/oso/9780198802020.003.0017",
+      "journal": "arXiv (Cornell University)",
+      "primary_category": "math.AG",
+      "openalex_id": "W4297929940",
+      "sources": [
+        "arxiv",
+        "openalex"
+      ]
+    },
+    {
+      "person": "boalch",
+      "id": "0203161",
+      "title": "Quasi-Hamiltonian Geometry of Meromorphic Connections",
+      "year": 2002,
+      "coauthors": [],
+      "doi": "10.1215/s0012-7094-07-13924-3",
+      "journal": "Duke Math. J. 139 (2007), no. 2, 369-405 (section 6 of the published version \"Global moduli spaces\" is not in this 2002 arxiv version)",
+      "primary_category": "math.DG",
+      "sources": [
+        "arxiv"
+      ]
+    }
+  ]
+}

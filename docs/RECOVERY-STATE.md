@@ -2,6 +2,22 @@
 
 [Codex] 2026-10-08。Goal **active**，原目标见 `RECOVERY-PLAN.md`。这不是已完成的全库事实认证。
 
+## 当前恢复入口（2026-10-08，第七批线上验收后）
+
+[Codex] Goal仍active。以下是当前摘要；后面的早期“待发布/尚未恢复”是历史记录，不代表现在。
+
+- 原网站已连续发布七批修复。最近公开代码 commit `56159899e749d5a7c90b7e4650006197f24d9aa2`；Actions `37703966229` success，curl和浏览器线上核验已完成。后续仅报告/审核池提交可带skip ci，公开资产仍以上述commit为准。
+- 当前96人物、61概念、115机构；人物原始论文2228行，目录1823组。283个HTML，21054条站内链接检查无坏目标；data lint 0 errors / 74 warnings；22项网站回归及工作流的其他检查通过。这些不是全库事实认证。
+- 新闻抓取与自动部署已恢复，72篇新闻在线；作者只作原始署名，不按姓氏猜身份。完整arXiv元数据取回1237个ID，但不能据此称全部归属已核实。
+- 已移出11条确认错挂、隔离5条待核实归属，完整原始记录及来源留在按人物审核池；lint与OpenAlex v2写入器阻止已裁定条目自动回填。刘思齐41条、Mazzocco50条公开记录；两人的部分履历已据官方主页/CV修正，其他字段不能一并称已核。
+- 图谱空按钮、共享数据突变、布局持续散开、手机侧栏/搜索、公式跨行渲染已修；年份筛选现在是累计有日期记录，机构筛选是历史履历关联，不猜现职。小屏全图仍可能有标签局部重叠，可搜索放大。
+- 立即下一步：统一“出版信息”分类，避免把arXiv/机构仓库或仅有DOI当正式发表；`repository-venue-candidates.json`有23条候选，2条只是正常期刊备注提及arXiv，必须保留这类负例。随后审查Mazzocco的OA假合作者/重复版本、52条题名差异、227条旧编号、其余身份关系；61概念、机构、会议/历史/开放问题的一手来源仍待逐项审。
+- `content-inventory.json`是第一批的未核实基线快照，不能拿它的旧数量或全pending覆盖后续分项证据。分项完成范围见同目录具名报告；全库审核远未完成。
+- 不运行旧 `validate-publications.py --apply` / `detect-id-title-mismatch.py --write`；OpenAlex v2仍有未修HTTP/缓存/评分风险，不作无人审查全库写入器。
+- 继续只在本仓库；先查git状态，再沿此Goal推进。不要回到academic-formula-workbench，不启动无关数学campaign。
+
+## 以下为分批历史与证据记录
+
 ## 第一批修复
 
 - 所有实体链接按实际生成的路由判断；缺档对象保留文字并标“未建档”，不制造档案或猜名字绑定。
@@ -139,3 +155,7 @@
 Mazzocco履历依据ICREA提供的本人CV第1页修正：Padova1988—1994、MSRI1998.11—1999.06、Oxford1999.07—2002.06、补Cambridge2002.07—2004.12、Manchester2005.01—2008.09、Loughborough2008.10—2018.01及2014.05升教授。Birmingham只确认2018.02开始，旧CV的open ended不当成现职，结束年月标待核实；ICREA当前主页与本人主页确认2024转UPC及当前ICREA研究教授。同步身份线索并新增剑桥机构页，原50条论文和activity保持不变。报告 `mazzocco-career-review.json` 限定逐字段核查范围，未把其他信息一并标已核。
 
 [Codex] 第七批视觉修补：加入恢复力限制互不连通的节点持续散开；缩小后保留姓名与最低可见节点尺寸，触控命中区域至少8px半径。390px快速切到2000再复位，稳定后39%全图、姓名恢复显示；局部标签仍会重叠，可搜索放大查看。替换手机验收图。最终ESLint/TypeScript/build通过，283页、21054链接、0坏目标，data lint仍0errors/74warnings。
+
+[Codex] 第七批提交 `56159899e749d5a7c90b7e4650006197f24d9aa2` 已推送main，run `37703966229` 发布中。下一批已定位出版状态分类问题：`journal: ArXiv.org` 等仓库名被 `doi || journal` 视为“有发表信息”；23条候选保存在 `repository-venue-candidates.json`，其中2条只是正常期刊备注提及arXiv，绝不能关键词一刀切。入口为 `src/lib/publications.ts` 与 `src/app/people/[slug]/page.tsx` 的重复分类；先统一分类与边界用语，原始metadata保留。随后继续Mazzocco的OA假合作者“Cherednik Algebras”、俄文作者重复/版本归并、旧编号与52条题名差异；概念、机构、会议和开放问题仍未全审。
+
+[Codex] 第七批线上验收完成：Actions `37703966229` success；线上2000年筛选32节点/16边，桌面1280px无横向溢出，稳定复位92%，姓名显示正常。概念图和致谢开关同样检查，error日志为空。curl确认Mazzocco修正日期/未知结束年月/来源、剑桥新页面和新筛选控件。证据 `batch-seven-live-verification.json`，截图 `year-filter-live-desktop.jpg`。Goal仍active。

@@ -1,0 +1,40 @@
+{
+  "provider": "Codex",
+  "checked_at": "2026-10-07T23:46:47.297626+00:00",
+  "deployed_commit": "56159899e749d5a7c90b7e4650006197f24d9aa2",
+  "deploy_run": "37703966229",
+  "curl_checks": {
+    "people/mazzocco": {
+      "1999.07-2002.06": true,
+      "2002.07-2004.12": true,
+      "2008.10-2018.01": true,
+      "2018.02-[结束年月待核实]": true,
+      "ICREA提供的本人简历": true
+    },
+    "institutions/cambridge": {
+      "剑桥大学": true,
+      "Marta Mazzocco": true
+    },
+    "people": {
+      "截至年份": true,
+      "全部履历机构": true
+    }
+  },
+  "browser": {
+    "all": {
+      "nodes": 96,
+      "links": 235
+    },
+    "year2000": {
+      "nodes": 32,
+      "links": 16
+    },
+    "viewport": {
+      "scroll": 1274,
+      "width": 1280
+    },
+    "zoom": "92%",
+    "errors": [],
+    "shared_graph_errors": []
+  }
+}
