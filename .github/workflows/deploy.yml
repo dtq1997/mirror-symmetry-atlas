@@ -3,6 +3,11 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches: [main]
+  workflow_dispatch:
+  workflow_run:
+    workflows: [Daily arXiv News]
+    types: [completed]
+    branches: [main]
 
 permissions:
   contents: read
@@ -15,9 +20,16 @@ concurrency:
 
 jobs:
   build:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install pyyaml
       - uses: pnpm/action-setup@v4
         with:
           version: 10
@@ -28,6 +40,8 @@ jobs:
       - run: pnpm install --frozen-lockfile
       - run: pnpm lint
       - run: pnpm typecheck
+      - run: pnpm test:site
+      - run: python3 scripts/test_arxiv_news.py
       - run: pnpm build
       - uses: actions/upload-pages-artifact@v3
         with:

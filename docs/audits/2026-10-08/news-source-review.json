@@ -1,0 +1,196 @@
+{
+  "provider": "Codex",
+  "checked_at": "2026-10-07T22:25:03.875610+00:00",
+  "metadata_query": "https://export.arxiv.org/api/query?id_list=2603.02736%2C2601.07538%2C2601.19455%2C2602.15748%2C2602.14973&max_results=10",
+  "response_sha256": "b6e54c5cd18c38118fb383c551674b5d5763ed290049074d669a03952588e9f7",
+  "papers": [
+    {
+      "id": "2603.02736",
+      "source_url": "https://arxiv.org/abs/2603.02736",
+      "source_metadata": {
+        "title": "Complexity of quantum cohomology",
+        "authors_raw": [
+          "Xiaobo Liu",
+          "Chongyu Wang"
+        ],
+        "date": "2026-03-03",
+        "updated": "2026-09-15T07:13:17Z",
+        "category": "math.AG",
+        "source_version": "2603.02736v2"
+      },
+      "verified_fields": [
+        "title",
+        "authors_raw",
+        "date",
+        "category",
+        "source_version"
+      ],
+      "summary_review": "Chinese summary manually compared with the arXiv abstract; no independent theorem/proof verdict.",
+      "unit_sha256": "cdd5b5e1af81bcbc871f553715d77840816df13f743ff093946b0d137a357aa3"
+    },
+    {
+      "id": "2601.07538",
+      "source_url": "https://arxiv.org/abs/2601.07538",
+      "source_metadata": {
+        "title": "Non-commutative cluster Lagrangians",
+        "authors_raw": [
+          "Alexander B. Goncharov",
+          "Maxim Kontsevich"
+        ],
+        "date": "2026-01-12",
+        "updated": "2026-01-12T13:43:00Z",
+        "category": "math.AG",
+        "source_version": "2601.07538v1"
+      },
+      "verified_fields": [
+        "title",
+        "authors_raw",
+        "date",
+        "category",
+        "source_version"
+      ],
+      "summary_review": "Chinese summary manually compared with the arXiv abstract; no independent theorem/proof verdict.",
+      "unit_sha256": "526acf08a1b3a36db4472aa2ef675390d95a143e67271c76fff3170e37d195ae"
+    },
+    {
+      "id": "2601.19455",
+      "source_url": "https://arxiv.org/abs/2601.19455",
+      "source_metadata": {
+        "title": "The kernel of formal polylogarithms",
+        "authors_raw": [
+          "Anton Alekseev",
+          "Megan Howarth",
+          "Florian Naef",
+          "Muze Ren",
+          "Pavol Ševera"
+        ],
+        "date": "2026-01-27",
+        "updated": "2026-02-20T14:23:53Z",
+        "category": "math.QA",
+        "source_version": "2601.19455v2"
+      },
+      "verified_fields": [
+        "title",
+        "authors_raw",
+        "date",
+        "category",
+        "source_version"
+      ],
+      "summary_review": "Chinese summary manually compared with the arXiv abstract; no independent theorem/proof verdict.",
+      "unit_sha256": "2be2184cb11a4023b66093a8e5277cfd02e771b340566b6a37d6a1491a941fda"
+    },
+    {
+      "id": "2602.15748",
+      "source_url": "https://arxiv.org/abs/2602.15748",
+      "source_metadata": {
+        "title": "Conjugacy classes of regular integer matrices",
+        "authors_raw": [
+          "Claus Hertling",
+          "Khadija Larabi"
+        ],
+        "date": "2026-02-17",
+        "updated": "2026-02-17T17:24:16Z",
+        "category": "math.RA",
+        "source_version": "2602.15748v1"
+      },
+      "verified_fields": [
+        "title",
+        "authors_raw",
+        "date",
+        "category",
+        "source_version"
+      ],
+      "summary_review": "Chinese summary manually compared with the arXiv abstract; no independent theorem/proof verdict.",
+      "unit_sha256": "23380c24800c76225ce87d6fc922f7d764b638dad69f2112572cdbc92430ad70"
+    },
+    {
+      "id": "2602.14973",
+      "source_url": "https://arxiv.org/abs/2602.14973",
+      "source_metadata": {
+        "title": "Semigroups from full lattices in commutative ${\\mathbb Q}$-algebras",
+        "authors_raw": [
+          "Claus Hertling",
+          "Khadija Larabi"
+        ],
+        "date": "2026-02-16",
+        "updated": "2026-02-16T17:56:55Z",
+        "category": "math.RA",
+        "source_version": "2602.14973v1"
+      },
+      "verified_fields": [
+        "title",
+        "authors_raw",
+        "date",
+        "category",
+        "source_version"
+      ],
+      "summary_review": "Chinese summary manually compared with the arXiv abstract; no independent theorem/proof verdict.",
+      "unit_sha256": "9b0543732a79da9e94b50d49554a5b7e9e2b768fd5b7900cf4263a559baa0378"
+    }
+  ],
+  "conference": {
+    "source_url": "https://maths.hust.edu.cn/info/1293/12288.htm",
+    "verified_fields": [
+      "name",
+      "organizers",
+      "dates",
+      "venue"
+    ],
+    "not_reviewed": [
+      "speaker roster",
+      "attendance list",
+      "talk results"
+    ]
+  },
+  "live_fetch": {
+    "records": 604,
+    "selected": 66,
+    "evidence": {
+      "query": "(cat:math-ph OR cat:math.AG OR cat:math.QA OR cat:hep-th OR cat:math.DG OR cat:math.SG OR cat:nlin.SI) AND submittedDate:[202609302222 TO 202610072222]",
+      "categories": [
+        "math-ph",
+        "math.AG",
+        "math.QA",
+        "hep-th",
+        "math.DG",
+        "math.SG",
+        "nlin.SI"
+      ],
+      "window_start": "2026-09-30T22:22:45.915104+00:00",
+      "window_end": "2026-10-07T22:22:45.915104+00:00",
+      "total_fetched": 604,
+      "pages": [
+        {
+          "url": "https://export.arxiv.org/api/query?search_query=%28cat%3Amath-ph+OR+cat%3Amath.AG+OR+cat%3Amath.QA+OR+cat%3Ahep-th+OR+cat%3Amath.DG+OR+cat%3Amath.SG+OR+cat%3Anlin.SI%29+AND+submittedDate%3A%5B202609302222+TO+202610072222%5D&start=0&max_results=200&sortBy=submittedDate&sortOrder=descending",
+          "sha256": "c5c6e04401a2c8eb72cb54e596c35384dfd40712ac39fdad61fb50ac86b49ffa",
+          "start": 0,
+          "count": 200
+        },
+        {
+          "url": "https://export.arxiv.org/api/query?search_query=%28cat%3Amath-ph+OR+cat%3Amath.AG+OR+cat%3Amath.QA+OR+cat%3Ahep-th+OR+cat%3Amath.DG+OR+cat%3Amath.SG+OR+cat%3Anlin.SI%29+AND+submittedDate%3A%5B202609302222+TO+202610072222%5D&start=200&max_results=200&sortBy=submittedDate&sortOrder=descending",
+          "sha256": "68604dbf2fbb9aa75785df3ab9293b193b4112e9a52cc8b57c7cdf1026eb05f5",
+          "start": 200,
+          "count": 200
+        },
+        {
+          "url": "https://export.arxiv.org/api/query?search_query=%28cat%3Amath-ph+OR+cat%3Amath.AG+OR+cat%3Amath.QA+OR+cat%3Ahep-th+OR+cat%3Amath.DG+OR+cat%3Amath.SG+OR+cat%3Anlin.SI%29+AND+submittedDate%3A%5B202609302222+TO+202610072222%5D&start=400&max_results=200&sortBy=submittedDate&sortOrder=descending",
+          "sha256": "34db4ee7e9d9394d25152b472b3e4de6119f913e2cc9af82d8c34616e829c013",
+          "start": 400,
+          "count": 200
+        },
+        {
+          "url": "https://export.arxiv.org/api/query?search_query=%28cat%3Amath-ph+OR+cat%3Amath.AG+OR+cat%3Amath.QA+OR+cat%3Ahep-th+OR+cat%3Amath.DG+OR+cat%3Amath.SG+OR+cat%3Anlin.SI%29+AND+submittedDate%3A%5B202609302222+TO+202610072222%5D&start=600&max_results=200&sortBy=submittedDate&sortOrder=descending",
+          "sha256": "782aeb8dff92d42e80ce59db50ea9b99f5253d2fedf4c6022db6510f2eca7a70",
+          "start": 600,
+          "count": 4
+        }
+      ]
+    }
+  },
+  "identity_scope": "Names are original arXiv authors; no researcher identity inferred from name matching.",
+  "corrections": {
+    "2601.19455": "Added omitted authors Megan Howarth and Pavol Severa; removed unsupported KV historical attribution.",
+    "2602.15748": "Replaced Alexander Kroger with Khadija Larabi; primary category math.RA.",
+    "2602.14973": "Replaced sole-author claim with Claus Hertling and Khadija Larabi; primary category math.RA."
+  }
+}

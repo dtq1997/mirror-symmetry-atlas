@@ -2,218 +2,90 @@ import fs from "fs";
 import path from "path";
 import yaml from "js-yaml";
 import RichSummary from "@/components/shared/RichSummary";
-import { getPeopleMap, getConceptsMap } from "@/lib/data";
-import type { Concept, Person } from "@/lib/types";
+import { canonicalArxivId, publicationUrl } from "@/lib/paper-identity";
+import { publicSourceUrl } from "@/lib/source-url";
 
 interface NewsEntry {
   id: string;
   title: string;
   date: string;
-  authors_raw: string[];
-  matched_people: string[];
-  matched_concepts: string[];
-  category: string;
-  relevance_score: number;
-  summary_zh: string;
+  authors_raw?: string[];
+  summary_zh?: string;
+  abstract?: string;
+  source_url?: string;
+  source_version?: string;
+  review_status?: string;
+  reviewed_at?: string;
+  updated?: string;
+  category?: string;
 }
 
 interface NewsFile {
-  entries: NewsEntry[];
+  entries?: NewsEntry[];
+  last_success_at?: string;
 }
 
-function loadAllEntries(): NewsEntry[] {
+function loadNews() {
   const newsDir = path.join(process.cwd(), "data", "news");
-  if (!fs.existsSync(newsDir)) return [];
-
-  const entries: NewsEntry[] = [];
-  for (const f of fs.readdirSync(newsDir).filter((f) => f.endsWith(".yaml"))) {
-    const data = yaml.load(
-      fs.readFileSync(path.join(newsDir, f), "utf-8")
-    ) as NewsFile;
-    if (data.entries) entries.push(...data.entries);
-  }
-
-  // Deduplicate by id, keep highest relevance_score
   const byId = new Map<string, NewsEntry>();
-  for (const e of entries) {
-    const existing = byId.get(e.id);
-    if (!existing || e.relevance_score > existing.relevance_score) {
-      byId.set(e.id, e);
+  let lastSuccess = "";
+  if (fs.existsSync(newsDir)) {
+    for (const f of fs.readdirSync(newsDir).filter((f) => f.endsWith(".yaml") && !f.startsWith("_")).sort()) {
+      const data = yaml.load(fs.readFileSync(path.join(newsDir, f), "utf-8")) as NewsFile;
+      if (data.last_success_at && data.last_success_at > lastSuccess) lastSuccess = data.last_success_at;
+      for (const entry of data.entries || []) {
+        const key = canonicalArxivId(entry.id) || entry.id;
+        const old = byId.get(key);
+        // A newer automatic record cannot erase an editorial review.
+        if (!old || entry.reviewed_at || (!old.reviewed_at && (entry.updated || "") >= (old.updated || ""))) {
+          byId.set(key, entry);
+        }
+      }
     }
   }
-
-  // Sort by paper date descending
-  return [...byId.values()].sort((a, b) => b.date.localeCompare(a.date));
-}
-
-function getPersonHover(slug: string, people: Map<string, Person>) {
-  const p = people.get(slug);
-  if (!p) return undefined;
-  const name = p.name?.zh || p.name?.en || slug;
-  const career = (p.career_timeline || [])
-    .filter((e) => e.type === "position")
-    .pop();
-  const details: string[] = [];
-  if (career?.role) details.push(career.role);
-  if (career?.institution) details.push(career.institution);
-  if (p.activity?.total_papers) details.push(`${p.activity.total_papers} 篇论文`);
-  return { title: name, subtitle: p.name?.en !== name ? p.name?.en : undefined, details };
-}
-
-function getConceptHover(slug: string, concepts: Map<string, Concept>) {
-  const c = concepts.get(slug);
-  if (!c) return undefined;
-  const name = c.name?.zh || c.name?.en || slug;
-  const details: string[] = [];
-  if (c.difficulty) details.push(c.difficulty);
-  if (c.year_introduced) details.push(`${c.year_introduced} 年引入`);
-  return { title: name, subtitle: c.name?.en !== name ? c.name?.en : undefined, details };
-}
-
-function buildEntities(
-  entry: NewsEntry,
-  people: Map<string, Person>,
-  concepts: Map<string, Concept>
-) {
-  const entities: {
-    slug: string;
-    type: "person" | "concept";
-    displayName: string;
-    hoverTitle?: string;
-    hoverSubtitle?: string;
-    hoverDetails?: string[];
-  }[] = [];
-
-  const text = entry.summary_zh || "";
-
-  // Check all people — match zh name, en full name, or en last name
-  for (const [slug, p] of people) {
-    const zh = p.name?.zh;
-    const en = p.name?.en;
-    // Try: Chinese name, full English name, English last name (surname)
-    const enParts = en?.split(" ") || [];
-    const lastName = enParts.length > 1 ? enParts[enParts.length - 1] : null;
-    const matchName =
-      zh && text.includes(zh) ? zh
-      : en && text.includes(en) ? en
-      : lastName && lastName.length > 3 && text.includes(lastName) ? lastName
-      : null;
-    if (matchName) {
-      const hover = getPersonHover(slug, people);
-      entities.push({
-        slug,
-        type: "person",
-        displayName: matchName,
-        hoverTitle: hover?.title,
-        hoverSubtitle: hover?.subtitle,
-        hoverDetails: hover?.details,
-      });
-    }
-  }
-
-  // Check all concepts — match zh name, en name, or aliases
-  for (const [slug, c] of concepts) {
-    const zh = c.name?.zh;
-    const en = c.name?.en;
-    const aliases: string[] = c.aliases || [];
-    const allNames = [zh, en, ...aliases].filter(Boolean) as string[];
-    // Find longest matching name in text
-    const sorted = allNames.sort((a, b) => b.length - a.length);
-    const matchName = sorted.find((n) => text.includes(n)) || null;
-    if (matchName) {
-      const hover = getConceptHover(slug, concepts);
-      entities.push({
-        slug,
-        type: "concept",
-        displayName: matchName,
-        hoverTitle: hover?.title,
-        hoverSubtitle: hover?.subtitle,
-        hoverDetails: hover?.details,
-      });
-    }
-  }
-
-  return entities;
+  return { entries: [...byId.values()].sort((a, b) => b.date.localeCompare(a.date)), lastSuccess };
 }
 
 export default function NewsPage() {
-  const entries = loadAllEntries();
-  const people = getPeopleMap();
-  const concepts = getConceptsMap();
-
+  const { entries, lastSuccess } = loadNews();
   return (
-    <div className="max-w-4xl mx-auto px-6 py-10">
+    <div className="max-w-4xl mx-auto px-4 sm:px-6 py-10">
       <h1 className="text-2xl font-bold text-[#e8e8f0] mb-2">新闻</h1>
-      <p className="text-[#8888a0] mb-8">
-        领域动态：核心人物的新论文、学术会议、重要进展
-      </p>
-
-      {entries.length === 0 ? (
-        <div className="bg-[#14141f] rounded-xl p-8 border border-[#2a2a3a] text-center">
-          <p className="text-[#8888a0]">暂无论文动态</p>
-        </div>
-      ) : (
-        <div className="relative">
-          {/* Vertical timeline line */}
-          <div className="absolute left-[59px] top-0 bottom-0 w-px bg-[#2a2a3a]" />
-
-          <div className="space-y-6">
-            {entries.map((entry) => (
-              <div key={entry.id} className="flex gap-4">
-                {/* Date column */}
-                <div className="w-[52px] shrink-0 text-right pt-1">
-                  <span className="text-xs font-mono text-[#6366f1] leading-tight">
-                    {entry.date}
+      <p className="text-[#8888a0] mb-3">论文动态与会议记录。每条注明来源和核查范围。</p>
+      <div className="text-xs text-[#8888a0] leading-relaxed mb-8 space-y-1">
+        <p>{lastSuccess ? `最近完整抓取：${new Date(lastSuccess).toLocaleString("zh-CN", { timeZone: "Asia/Shanghai", hour12: false })}（北京时间）` : "自动抓取尚无可验证的成功记录；下方为已有记录的核查结果。"}</p>
+        <p>自动筛选覆盖 math-ph、math.AG、math.QA、hep-th、math.DG、math.SG、nlin.SI 的近期新提交；不代表领域全部论文，也不据姓名自动确认本站人物身份。</p>
+        <a className="underline" href="https://github.com/dtq1997/mirror-symmetry-atlas/actions/workflows/arxiv-news.yml" target="_blank" rel="noopener noreferrer">查看更新运行记录</a>
+      </div>
+      {entries.length === 0 ? <p className="text-[#8888a0]">暂未收录论文动态。</p> : (
+        <div className="space-y-5">
+          {entries.map((entry) => {
+            const source = publicSourceUrl(entry.source_url) || publicationUrl(entry);
+            const reviewed = entry.review_status === "abstract-reviewed" || entry.review_status === "source-reviewed";
+            return (
+              <article key={entry.id} className="min-w-0 bg-[#14141f] rounded-xl p-4 sm:p-5 border border-[#2a2a3a] break-words">
+                <div className="flex flex-wrap items-center gap-x-3 gap-y-1 text-xs text-[#8888a0] mb-2">
+                  <time dateTime={entry.date}>{entry.date}</time>
+                  <span>{entry.category}</span>
+                  <span className={reviewed ? "text-[#a5b4fc]" : "text-[#d4ad68]"}>
+                    {entry.review_status === "abstract-reviewed" ? "署名与摘要已对照来源" : entry.review_status === "source-reviewed" ? "已对照官方通知" : "自动收录 · 未人工审读"}
                   </span>
                 </div>
-
-                {/* Dot */}
-                <div className="relative pt-2">
-                  <div
-                    className="w-3 h-3 rounded-full relative z-10"
-                    style={{
-                      backgroundColor:
-                        entry.relevance_score >= 15
-                          ? "#f59e0b"
-                          : entry.relevance_score >= 10
-                            ? "#6366f1"
-                            : "#8888a0",
-                    }}
-                  />
-                </div>
-
-                {/* Content */}
-                <div className="flex-1 min-w-0 bg-[#14141f] rounded-lg p-4 border border-[#2a2a3a]">
-                  <div className="flex items-start justify-between gap-3 mb-2">
-                    {entry.id.match(/^\d/) ? (
-                      <a
-                        href={`https://arxiv.org/abs/${entry.id}`}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="text-sm text-[#e8e8f0] hover:text-[#6366f1] transition-colors leading-snug font-medium"
-                      >
-                        {entry.title}
-                      </a>
-                    ) : (
-                      <span className="text-sm text-[#e8e8f0] font-medium leading-snug">
-                        {entry.title}
-                      </span>
-                    )}
-                    <span className="text-[10px] font-mono text-[#8888a0] shrink-0">
-                      {entry.id.match(/^\d/) ? entry.id : ""}
-                    </span>
-                  </div>
-
-                  {/* Rich summary with inline entity links */}
-                  <RichSummary
-                    className="text-xs text-[#e8e8f0]/80 leading-relaxed"
-                    text={entry.summary_zh}
-                    entities={buildEntities(entry, people, concepts)}
-                  />
-                </div>
-              </div>
-            ))}
-          </div>
+                <h2 className="text-base font-medium leading-snug mb-2 text-[#e8e8f0]">
+                  {source ? <a href={source} target="_blank" rel="noopener noreferrer" className="hover:text-[#a5b4fc] underline decoration-[#55556b] underline-offset-4">{entry.title}</a> : entry.title}
+                </h2>
+                {!!entry.authors_raw?.length && <p className="text-sm text-[#b8b8cc] mb-3">作者：{entry.authors_raw.join("；")}</p>}
+                {/* No inferred entity links: surnames and shared full names do not prove identity. */}
+                {entry.summary_zh && <RichSummary className="text-sm text-[#e8e8f0]/80 leading-relaxed" text={entry.summary_zh} entities={[]} />}
+                {entry.abstract && <details className="text-sm text-[#b8b8cc] mt-3"><summary className="cursor-pointer">查看 arXiv 原文摘要</summary><RichSummary className="mt-2 leading-relaxed" text={entry.abstract} entities={[]} /></details>}
+                <p className="text-xs text-[#8888a0] mt-3">
+                  {entry.source_version && `来源版本：${entry.source_version}。`}
+                  {entry.reviewed_at && ` 核对日期：${entry.reviewed_at}。`}
+                  {!reviewed && " 主题由关键词筛选，作者保持来源原始署名。"}
+                </p>
+              </article>
+            );
+          })}
         </div>
       )}
     </div>

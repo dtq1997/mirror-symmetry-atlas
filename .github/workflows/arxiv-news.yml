@@ -2,56 +2,50 @@ name: Daily arXiv News
 
 on:
   schedule:
-    - cron: '0 8 * * *'  # UTC 08:00 = 北京时间 16:00，每天下午跑
-  workflow_dispatch:  # 也支持手动触发
+    - cron: '0 8 * * *' # UTC 08:00 = 北京时间 16:00
+  workflow_dispatch:
 
 permissions:
   contents: write
 
+concurrency:
+  group: arxiv-news
+  cancel-in-progress: false
+
 jobs:
   fetch-news:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
-
+        with:
+          ref: main
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-
       - name: Install PyYAML
         run: pip install pyyaml
-
+      - name: Test update failure and rerun handling
+        run: python3 scripts/test_arxiv_news.py
       - name: Fetch arXiv papers
         run: python3 scripts/fetch-arxiv-news.py --days 7 --dedup-window 14
-
-      - name: Check if new papers found
+      - name: Validate data
+        run: python3 scripts/lint-data.py
+      - name: Stage new files and updated success records
         id: check
         run: |
-          # Only commit if there are actual relevant papers (not just an empty fetch)
-          if git diff --quiet data/news/; then
-            echo "changed=false" >> $GITHUB_OUTPUT
+          git add data/news/
+          if git diff --cached --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
           else
-            relevant=$(python3 -c "
-          import yaml
-          with open('data/news/$(date +%Y-%m-%d).yaml') as f:
-            d = yaml.safe_load(f)
-          print(len(d.get('entries', [])))
-          " 2>/dev/null || echo "0")
-            if [ "$relevant" = "0" ]; then
-              echo "changed=false" >> $GITHUB_OUTPUT
-              git checkout -- data/news/  # revert empty file
-            else
-              echo "changed=true" >> $GITHUB_OUTPUT
-            fi
+            echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
-
       - name: Commit and push
         if: steps.check.outputs.changed == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/news/
-          git commit -m "arXiv 动态更新 $(date +%Y-%m-%d)"
-          git push
-
-  # Push to main will automatically trigger the deploy workflow
+          git commit -m "arXiv 动态更新 $(date -u +%Y-%m-%d)"
+          git push origin HEAD:main
+      # GITHUB_TOKEN pushes do not trigger push workflows. deploy.yml explicitly
+      # listens for this workflow's successful completion and checks out main.
