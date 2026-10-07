@@ -1,0 +1,18 @@
+{
+  "commit": "c4fa7a32b75869728d90789ecb6a8c097d7a1087",
+  "actions_run": 37694421829,
+  "checks": {
+    "home_new_statistics": true,
+    "home_fixed_date": true,
+    "papers_new_catalog_label": true,
+    "papers_doi_links": 2350,
+    "papers_no_misrouted_ids": true,
+    "ghost_not_clickable": true,
+    "ghost_label_visible": true
+  },
+  "html_sha256": {
+    "home": "7b47b27ad4a28bc4c5b7e0ab385bb03fa88feae6df4d3f9f9bfad2fcbc4b08f1",
+    "papers": "9242633aa181d8b0d5b136c26d98782613991217ae37c3c16726f0699ebef0ed",
+    "dubrovin": "6347598dee7e72614382d6b28413b9c03a1ee172ede7e0849389cfcf75df14a1"
+  }
+}
