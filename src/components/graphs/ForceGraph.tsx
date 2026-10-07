@@ -3,7 +3,7 @@
 import { useRef, useCallback, useEffect, useState } from "react";
 import type { RefCallback, ReactElement } from "react";
 import dynamic from "next/dynamic";
-import { forceCollide } from "d3-force";
+import { forceCollide, forceX, forceY } from "d3-force";
 import type { GraphData, GraphNode, GraphLink } from "@/lib/types";
 import { getForceParams, simulationGraph } from "@/lib/graph";
 import type { LinkObject, NodeObject } from "react-force-graph-2d";
@@ -160,6 +160,10 @@ export default function ForceGraph({
     fg.d3Force("charge")?.strength?.(params.chargeStrength);
     fg.d3Force("link")?.distance?.(params.linkDistance);
     fg.d3Force("center")?.strength?.(0.05);
+    // Disconnected components need a restoring force; center alone only moves
+    // their centroid and cannot stop unbounded expansion after repeated filters.
+    fg.d3Force("x", forceX<ForceNode>(0).strength(0.08));
+    fg.d3Force("y", forceY<ForceNode>(0).strength(0.08));
     // Collision force: prevents node overlap, adds breathing room
     fg.d3Force(
       "collide",
@@ -186,7 +190,7 @@ export default function ForceGraph({
       const gNode = node;
       const x = node.x ?? 0;
       const y = node.y ?? 0;
-      const r = gNode.radius;
+      const r = Math.max(gNode.radius, 2.5 / globalScale);
       const isSelected = gNode.id === selectedNodeId;
       const fontSize = Math.max(10 / globalScale, 2);
       const labelOffset = r + 2;
@@ -214,7 +218,7 @@ export default function ForceGraph({
       ctx.shadowColor = "transparent";
       ctx.shadowBlur = 0;
 
-      if (globalScale > 0.4) {
+      if (isSelected || gNode.opacity >= 0.3) {
         ctx.font = `${isSelected ? "bold " : ""}${fontSize}px Inter, PingFang SC, sans-serif`;
         ctx.textAlign = "center";
         ctx.textBaseline = "top";
@@ -326,6 +330,8 @@ export default function ForceGraph({
   return (
     <div
       ref={containerRef}
+      onPointerDownCapture={() => { viewAdjusted.current = true; }}
+      onWheelCapture={() => { viewAdjusted.current = true; }}
       className="absolute inset-0"
       style={{ minHeight: 400 }}
     >
@@ -340,9 +346,10 @@ export default function ForceGraph({
           nodePointerAreaPaint={(
             node: ForceNode,
             color: string,
-            ctx: CanvasRenderingContext2D
+            ctx: CanvasRenderingContext2D,
+            globalScale: number
           ) => {
-            const r = node.radius + 2;
+            const r = Math.max(node.radius + 2, 8 / globalScale);
             ctx.beginPath();
             ctx.arc(node.x ?? 0, node.y ?? 0, r, 0, 2 * Math.PI);
             ctx.fillStyle = color;
@@ -382,7 +389,7 @@ export default function ForceGraph({
         >−</button>
         <button
           aria-label="重置视图" title="适应当前全图" disabled={!graphHandle || !canvasData.nodes.length}
-          onClick={() => { viewAdjusted.current = true; graphHandle?.zoomToFit(400, 60); }}
+          onClick={() => { viewAdjusted.current = false; graphHandle?.zoomToFit(400, 60); }}
           className="w-8 h-8 rounded text-[#e8e8f0] hover:bg-[#2a2a3a] disabled:opacity-30"
         >⟳</button>
       </div>

@@ -1,0 +1,78 @@
+{
+  "provider": "Codex",
+  "date": "2026-10-08",
+  "meaning": "Recorded dated evidence through cutoff; not historical census or source audit",
+  "all": {
+    "nodes": 96,
+    "links": 235
+  },
+  "years": [
+    {
+      "year": 1950,
+      "nodes": 0,
+      "links": 0
+    },
+    {
+      "year": 1980,
+      "nodes": 13,
+      "links": 1
+    },
+    {
+      "year": 1990,
+      "nodes": 23,
+      "links": 2
+    },
+    {
+      "year": 2000,
+      "nodes": 32,
+      "links": 16
+    },
+    {
+      "year": 2010,
+      "nodes": 62,
+      "links": 48
+    },
+    {
+      "year": 2020,
+      "nodes": 84,
+      "links": 134
+    },
+    {
+      "year": 2026,
+      "nodes": 92,
+      "links": 187
+    }
+  ],
+  "checked_years": 77,
+  "browser_preview": {
+    "viewport": 390,
+    "scroll_width": 384,
+    "errors": [],
+    "year_1950": {
+      "nodes": 0,
+      "links": 0,
+      "empty_message": true,
+      "reset_disabled": true
+    },
+    "year_2000": {
+      "nodes": 32,
+      "links": 16
+    },
+    "year_2000_oxford": {
+      "nodes": 2,
+      "links": 0
+    },
+    "restored_all": {
+      "nodes": 96,
+      "links": 235
+    },
+    "absent_institution_option_retained": true,
+    "settled_zoom_after_fast_cutoff_reset": "39%",
+    "names_visible_at_fit": true
+  },
+  "build": {
+    "html_pages": 283,
+    "internal_links": 21054,
+    "bad_targets": 0
+  }
+}

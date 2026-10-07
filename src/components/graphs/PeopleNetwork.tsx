@@ -12,32 +12,11 @@ import type {
   ConnectionType,
   Person,
 } from "@/lib/types";
-import { filterByYear } from "@/lib/graph";
+import { filterByYear, recordedInstitutions } from "@/lib/graph";
 
 interface PeopleNetworkProps {
   graphData: GraphData;
   institutionNames?: Record<string, string>;
-}
-
-// Get current institution of a person (from latest position entry)
-function currentInstitutionOf(p: Person): string | null {
-  const tl = p.career_timeline || [];
-  // Prefer "present" position
-  for (let i = tl.length - 1; i >= 0; i--) {
-    const e = tl[i];
-    if (e.type === "position" && e.institution) {
-      const period = e.period || "";
-      if (period.toLowerCase().includes("present")) return e.institution;
-    }
-  }
-  // Else latest position or education
-  for (let i = tl.length - 1; i >= 0; i--) {
-    const e = tl[i];
-    if ((e.type === "position" || e.type === "education") && e.institution) {
-      return e.institution;
-    }
-  }
-  return null;
 }
 
 type GraphEndpoint = GraphLink["source"] | { id?: string };
@@ -65,6 +44,7 @@ export default function PeopleNetwork({ graphData, institutionNames }: PeopleNet
     acknowledgement: false,
   });
   const [showGhosts, setShowGhosts] = useState(false);
+  const [currentYear] = useState(() => new Date().getFullYear());
   const [timeFilter, setTimeFilter] = useState<number | null>(null);
   const [searchQuery, setSearchQuery] = useState("");
   const [institutionFilter, setInstitutionFilter] = useState<string>("all");
@@ -75,13 +55,14 @@ export default function PeopleNetwork({ graphData, institutionNames }: PeopleNet
     for (const n of graphData.nodes) {
       const p = n.data as Person | undefined;
       if (!p) continue;
-      const inst = currentInstitutionOf(p);
-      if (inst) counts.set(inst, (counts.get(inst) ?? 0) + 1);
+      for (const inst of recordedInstitutions(p, timeFilter)) {
+        counts.set(inst, (counts.get(inst) ?? 0) + 1);
+      }
     }
     return Array.from(counts.entries())
       .sort((a, b) => b[1] - a[1])
       .map(([slug, n]) => ({ slug, n }));
-  }, [graphData]);
+  }, [graphData, timeFilter]);
 
   // Apply filters
   const filteredData = useMemo(() => {
@@ -109,25 +90,17 @@ export default function PeopleNetwork({ graphData, institutionNames }: PeopleNet
       data = filterByYear(data, timeFilter);
     }
 
-    // Institution filter (dim non-matching)
+    // Keep recorded affiliations through the same cutoff; never infer a current employer.
     if (institutionFilter !== "all") {
       const matched = new Set<string>();
       for (const n of data.nodes) {
         const p = n.data as Person | undefined;
         if (!p) continue;
-        if (currentInstitutionOf(p) === institutionFilter) matched.add(n.id);
+        if (recordedInstitutions(p, timeFilter).includes(institutionFilter)) matched.add(n.id);
       }
       data = {
-        nodes: data.nodes.map((n) => ({
-          ...n,
-          opacity: matched.has(n.id) ? (n.opacity ?? 1) : 0.1,
-        })),
-        links: data.links.map((l) => {
-          const s = endpointId(l.source);
-          const t = endpointId(l.target);
-          const visible = matched.has(s) && matched.has(t);
-          return { ...l, opacity: visible ? l.opacity : 0.05 };
-        }),
+        nodes: data.nodes.filter((n) => matched.has(n.id)),
+        links: data.links.filter((l) => matched.has(endpointId(l.source)) && matched.has(endpointId(l.target))),
       };
     }
 
@@ -212,6 +185,12 @@ export default function PeopleNetwork({ graphData, institutionNames }: PeopleNet
         focusNodeId={focusNodeId}
       />
 
+      {filteredData.nodes.length === 0 && (
+        <p className="absolute inset-x-4 top-1/2 text-center text-sm text-[#8888a0] pointer-events-none">
+          此筛选下暂无可显示记录。可清除年份或选择全部履历机构。
+        </p>
+      )}
+
       {/* Search + institution filter — top center */}
       <div className="absolute top-4 left-16 right-4 sm:left-1/2 sm:right-auto sm:-translate-x-1/2 sm:w-max z-20 flex flex-wrap justify-center gap-2 max-w-[calc(100%_-_5rem)] items-center bg-[#14141f]/95 backdrop-blur-sm rounded-lg border border-[#2a2a3a] px-3 py-2 shadow-lg">
         <svg
@@ -246,9 +225,13 @@ export default function PeopleNetwork({ graphData, institutionNames }: PeopleNet
           value={institutionFilter}
           onChange={(e) => setInstitutionFilter(e.target.value)}
           className="bg-[#0a0a0f] text-[#e8e8f0] text-xs px-2 py-1 rounded border border-[#2a2a3a] outline-none max-w-[10rem]"
-          title="按机构过滤"
+          title="按履历中记载的机构过滤"
+          aria-label="履历机构"
         >
-          <option value="all">全部机构</option>
+          <option value="all">全部履历机构</option>
+          {institutionFilter !== "all" && !institutionOptions.some((option) => option.slug === institutionFilter) && (
+            <option value={institutionFilter}>{institutionNames?.[institutionFilter] || institutionFilter}（该年份无记录）</option>
+          )}
           {institutionOptions.map(({ slug, n }) => (
             <option key={slug} value={slug}>
               {institutionNames?.[slug] || slug} ({n})
@@ -288,7 +271,7 @@ export default function PeopleNetwork({ graphData, institutionNames }: PeopleNet
       {/* Time slider */}
       <div className="absolute bottom-4 right-4 z-10 bg-[#14141f]/90 backdrop-blur-sm rounded-lg border border-[#2a2a3a] p-3 w-72">
         <div className="flex items-center justify-between mb-1">
-          <span className="text-xs text-[#8888a0]">时间筛选</span>
+          <span className="text-xs text-[#8888a0]">截至年份</span>
           {timeFilter !== null ? (
             <div className="flex items-center gap-2">
               <span className="text-sm font-mono text-[#6366f1]">{timeFilter}</span>
@@ -305,12 +288,13 @@ export default function PeopleNetwork({ graphData, institutionNames }: PeopleNet
         </div>
         <input
           type="range"
+          aria-label="截至年份"
           min={1950}
-          max={2026}
-          value={timeFilter ?? 2026}
+          max={currentYear}
+          value={timeFilter ?? currentYear}
           onChange={(e) => {
             const val = parseInt(e.target.value);
-            setTimeFilter(val === 2026 ? null : val);
+            setTimeFilter(val);
           }}
           className="w-full h-1 bg-[#2a2a3a] rounded-lg appearance-none cursor-pointer accent-[#6366f1]"
         />
@@ -318,12 +302,18 @@ export default function PeopleNetwork({ graphData, institutionNames }: PeopleNet
           <span>1950</span>
           <span>1980</span>
           <span>2000</span>
-          <span>2026</span>
+          <span>{currentYear}</span>
         </div>
+        <p className="text-[10px] text-[#8888a0] mt-2" role="status" aria-label="图谱记录范围">
+          {filteredData.nodes.length}个人物节点 · {filteredData.links.length}条关系记录。
+          {timeFilter !== null ? "只含截至该年的有日期记录；缺年份不表示当时没有活动。" : "机构包含历史求学、任职与访问记录。"}
+        </p>
       </div>
 
       {/* Detail sidebar */}
-      <DetailSidebar node={selectedNode} onClose={() => setSelectedNode(null)}
+      <DetailSidebar node={filteredData.nodes.find((node) => node.id === selectedNode?.id) ?? null}
+        contextNote={timeFilter !== null ? "完整人物档案：下列履历、论文及合著总数不受图谱年份筛选限制。" : undefined}
+        onClose={() => setSelectedNode(null)}
         connections={graphData.links.flatMap((link) => link.data ? [link.data] : [])} />
     </div>
   );

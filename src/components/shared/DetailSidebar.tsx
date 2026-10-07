@@ -9,6 +9,7 @@ interface DetailSidebarProps {
   node: GraphNode | null;
   onClose: () => void;
   connections?: Connection[];
+  contextNote?: string;
 }
 
 function PersonDetail({ person, connections }: { person: Person; connections: Connection[] }) {
@@ -177,7 +178,7 @@ function Stat({ label, value }: { label: string; value: number }) {
   );
 }
 
-export default function DetailSidebar({ node, onClose, connections = [] }: DetailSidebarProps) {
+export default function DetailSidebar({ node, onClose, connections = [], contextNote }: DetailSidebarProps) {
   if (!node) return null;
 
   return (
@@ -204,6 +205,7 @@ export default function DetailSidebar({ node, onClose, connections = [] }: Detai
       </button>
 
       <div className="p-5">
+        {contextNote && <p className="text-xs text-[#8888a0] pr-6 mb-3">{contextNote}</p>}
         {node.type === "person" && node.data && (
           <PersonDetail person={node.data as Person} connections={connections} />
         )}

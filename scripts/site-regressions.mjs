@@ -4,7 +4,7 @@ import assert from 'node:assert/strict';
 import { spawnSync } from 'node:child_process';
 import identity from '../.cache/msa/site-tests/paper-identity.js';
 import { entityRoute } from '../.cache/msa/site-tests/entity-route.js';
-import { buildPeopleGraph, simulationGraph } from '../.cache/msa/site-tests/graph.js';
+import { buildPeopleGraph, simulationGraph, filterByYear, recordedStartYear, recordedInstitutions } from '../.cache/msa/site-tests/graph.js';
 import { publicSourceUrl } from '../.cache/msa/site-tests/source-url.js';
 import { renderMathText } from '../.cache/msa/site-tests/math-text.js';
 import { collectPublications, collectCoauthorship, recordedPublicationStats } from '../.cache/msa/site-tests/publications.js';
@@ -163,4 +163,64 @@ test('math prose is escaped and untrusted TeX cannot inject links or HTML', () =
   assert.match(html, /\$5/);
   assert.doesNotMatch(html, /<img|<a\s|href="javascript:/);
   assert.match(renderMathText('$\\frac{$'), /katex-error/);
+});
+
+
+test('year cutoff excludes unknown/future dates but retains historical records after death or departure', () => {
+  const person = (slug, extras = {}) => ({ slug, name: { en: slug }, publications: [], career_timeline: [], ...extras });
+  const people = [person('unknown', { born: 1900 }),
+    person('future', { career_timeline: [{ period: '2025-present' }] }),
+    person('past', { died: 1990, career_timeline: [{ period: '1970-1980' }] }),
+    person('paper-only', { publications: [{ id: 'math/9501001', title: 'Work', year: 1995 }] }),
+    person('edge-only'), person('missing-start', { career_timeline: [{ period: '[?]-1980' }] })];
+  const graph = buildPeopleGraph(people, [
+    { source: 'past', target: 'edge-only', type: 'advisor-student', period: '1980-1985' },
+    { source: 'unknown', target: 'past', type: 'grant' },
+    { source: 'past', target: 'future', type: 'co-student', year: 2025 },
+  ]);
+  const before = JSON.stringify(graph);
+  const cut = filterByYear(graph, 2000);
+  assert.deepEqual(cut.nodes.map(n => n.id).sort(), ['edge-only', 'paper-only', 'past']);
+  assert.equal(cut.links.length, 1);
+  assert.equal(cut.links[0].type, 'advisor-student');
+  assert.equal(JSON.stringify(graph), before);
+  assert.equal(filterByYear(graph, null), graph);
+  for (const value of [undefined, '[待核实]', '[?]-1980', 'nineteen eighty', 0, Infinity]) {
+    assert.equal(recordedStartYear(value), null);
+  }
+  for (const value of ['~1980-1990', 'circa 1980', '1980-05-01', 1980]) assert.equal(recordedStartYear(value), 1980);
+});
+
+test('historical graph counts and node sizes cannot contain future coauthored papers', () => {
+  const publications = [
+    { id: 'math/9901001', title: 'Earlier', year: 1999 },
+    { id: 'math/0001001', title: 'Cutoff', year: 2000, doi: '10.1000/cutoff' },
+    { id: '2501.12345', title: 'Future', year: 2025 },
+  ];
+  const people = ['a', 'b'].map(slug => ({ slug, name: { en: slug }, publications }));
+  const graph = buildPeopleGraph(people, collectCoauthorship(people));
+  assert.equal(graph.links[0].weight, 3);
+  const cut = filterByYear(graph, 2000);
+  assert.equal(cut.links[0].weight, 2);
+  assert.equal(cut.links[0].label, '2');
+  assert.equal(cut.links[0].data.coauthored_papers.published.length, 1);
+  assert.equal(cut.links[0].data.coauthored_papers.preprint.length, 1);
+  assert.equal(cut.links[0].data.period, '1999-2000');
+  assert.ok(cut.nodes[0].radius < graph.nodes[0].radius);
+  assert.equal(graph.links[0].weight, 3);
+  assert.equal(filterByYear(graph, 1998).nodes.length, 0);
+  assert.equal(filterByYear(graph, 1998).links.length, 0);
+});
+
+test('affiliation filters retain recorded past visits and education without guessing a current employer', () => {
+  const person = { career_timeline: [
+    { institution: 'old', type: 'education', period: '1990-1995' },
+    { institution: 'visit', type: 'visit', period: '1998' },
+    { institution: 'old', type: 'position', period: '2000-2010' },
+    { institution: 'future', type: 'position', period: '2025-present' },
+    { institution: 'unknown', type: 'position', period: '[待核实]' },
+  ] };
+  assert.deepEqual(recordedInstitutions(person), ['old', 'visit', 'future', 'unknown']);
+  assert.deepEqual(recordedInstitutions(person, 2000), ['old', 'visit']);
+  assert.deepEqual(recordedInstitutions(person, 1980), []);
 });

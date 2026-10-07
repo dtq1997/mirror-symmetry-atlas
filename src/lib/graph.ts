@@ -239,84 +239,73 @@ export function buildAckGraph(
 
 // ===== Time filter =====
 
-function periodContainsYear(period: string | undefined, year: number): boolean {
-  if (!period) return true;
-  const clean = period.replace(/~/g, "").replace(/circa /g, "");
-
-  // "present" → current year
-  const resolved = clean.replace(/present/gi, String(new Date().getFullYear()));
-
-  // Single year: "1998"
-  if (/^\d{4}$/.test(resolved)) {
-    return parseInt(resolved) <= year;
+/** Read the year actually recorded at the start of a period. Unknown dates
+ * stay unknown; no birthday, present-day position or fallback year is inferred. */
+export function recordedStartYear(value: unknown): number | null {
+  if (typeof value === "number") {
+    return Number.isInteger(value) && value >= 1600 && value <= 2199 ? value : null;
   }
-
-  // Range: "1993-2019"
-  const rangeMatch = resolved.match(/(\d{4})\s*[-–]\s*(\d{4})/);
-  if (rangeMatch) {
-    const start = parseInt(rangeMatch[1]);
-    const end = parseInt(rangeMatch[2]);
-    return start <= year && year <= end;
-  }
-
-  // Date: "2019-03-19"
-  const dateMatch = resolved.match(/^(\d{4})-/);
-  if (dateMatch) {
-    return parseInt(dateMatch[1]) <= year;
-  }
-
-  return true;
+  if (typeof value !== "string") return null;
+  const match = value.trim().match(/^(?:~|circa\s+|c\.\s*)?((?:1[6-9]|20|21)\d{2})(?=$|[-–—./\s])/i);
+  return match ? Number(match[1]) : null;
 }
 
-export function filterByYear(
-  data: GraphData,
-  year: number | null
-): GraphData {
+/** Recorded affiliations include education, visits and past positions. They
+ * are not a claim about the person's current employer. */
+export function recordedInstitutions(person: Person, throughYear: number | null = null): string[] {
+  return [...new Set((person.career_timeline ?? []).filter((entry) => {
+    if (!entry.institution) return false;
+    if (throughYear === null) return true;
+    const start = recordedStartYear(entry.period);
+    return start !== null && start <= throughYear;
+  }).map((entry) => entry.institution!))];
+}
+
+/** Cumulative dated records through a chosen year, not a historical census.
+ * Undated evidence is omitted. Past/deceased people and completed relations
+ * remain once recorded; coauthor weights use only papers through the cutoff. */
+export function filterByYear(data: GraphData, year: number | null): GraphData {
   if (year === null) return data;
-
-  const filteredNodes = data.nodes.map((node) => {
-    if (node.isGhost) return { ...node, opacity: 0.2 };
-
-    const p = node.data as Person | undefined;
-    if (!p) return node;
-
-    // Person must be born and alive in that year
-    const born = yearFromLifeDate(p.birth, p.born) ?? 0;
-    const died = yearFromLifeDate(p.death, p.died) ?? 9999;
-    const alive = born <= year && year <= died;
-
-    // Check if they had any career activity by that year
-    const hasActivity =
-      !p.career_timeline?.length ||
-      p.career_timeline.some((entry) => {
-        const periodStr = String(entry.period ?? "");
-        const startMatch = periodStr
-          .replace(/~/g, "")
-          .match(/^(\d{4})/);
-        if (!startMatch) return true;
-        return parseInt(startMatch[1]) <= year;
-      });
-
-    const visible = alive && hasActivity;
-    return { ...node, opacity: visible ? 1 : 0.05 };
-  });
-
-  const filteredLinks = data.links.map((link) => {
-    const conn = link.data as Connection | undefined;
-    if (!conn) return link;
-
-    // Check connection year/period
-    if (conn.year && conn.year > year) {
-      return { ...link, opacity: 0 };
+  const byCutoff = (value: unknown) => {
+    const start = recordedStartYear(value);
+    return start !== null && start <= year;
+  };
+  const links: GraphLink[] = [];
+  for (const link of data.links) {
+    const conn = link.data;
+    if (!conn) continue;
+    if (conn.type === "coauthor") {
+      if (!conn.coauthored_papers) continue;
+      const published = conn.coauthored_papers.published.filter((p) => byCutoff(p.year));
+      const preprint = conn.coauthored_papers.preprint.filter((p) => byCutoff(p.year));
+      const weight = published.length + preprint.length;
+      if (!weight) continue;
+      const years = [...published, ...preprint].map((p) => p.year);
+      links.push({ ...link, weight, label: weight > 1 ? String(weight) : undefined,
+        data: { ...conn, weight, period: `${Math.min(...years)}-${Math.max(...years)}`,
+          coauthored_papers: { published, preprint } } });
+    } else {
+      const starts = [recordedStartYear(conn.year), recordedStartYear(conn.period)]
+        .filter((start): start is number => start !== null);
+      if (starts.length && starts.every((start) => start <= year)) links.push({ ...link });
     }
-    if (conn.period && !periodContainsYear(conn.period, year)) {
-      return { ...link, opacity: 0 };
-    }
-
-    return { ...link, opacity: link.opacity };
+  }
+  const endpoint = (value: string | { id?: string }) => typeof value === "string" ? value : value.id ?? "";
+  const linked = new Set(links.flatMap((link) => [endpoint(link.source), endpoint(link.target)]));
+  const nodes = data.nodes.filter((node) => {
+    if (linked.has(node.id)) return true;
+    if (!node.data || node.type !== "person") return false;
+    const person = node.data as Person;
+    return (person.career_timeline ?? []).some((entry) => byCutoff(entry.period)) ||
+      (person.publications ?? []).some((paper) => byCutoff(paper.year));
+  }).map((node) => {
+    if (!node.data || node.type !== "person") return { ...node };
+    const person = node.data as Person;
+    return { ...node, radius: personRadius({ ...person,
+      publications: (person.publications ?? []).filter((paper) => byCutoff(paper.year)) }) };
   });
-
-  return { nodes: filteredNodes, links: filteredLinks };
+  const ids = new Set(nodes.map((node) => node.id));
+  return { nodes, links: links.filter((link) => ids.has(endpoint(link.source)) && ids.has(endpoint(link.target))) };
 }
 
 // ===== Concept graph =====

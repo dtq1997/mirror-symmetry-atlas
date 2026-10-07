@@ -8,41 +8,50 @@ nationality: Italian
 gender: female
 photo_url: null
 career_timeline:
-- period: ~1990-1994
+- period: 1988-1994
   type: education
   institution: padova
-  role: Theoretical Physics, University of Padova
+  role: 理论物理，本科与硕士
 - period: 1994-1998
   type: education
   institution: sissa
   role: 博士
   advisor: dubrovin
   notes: 1998年获博士学位
-- period: ~1998-1999
+- period: 1998.11-1999.06
   type: visit
   institution: msri
-  role: 博士后, MSRI Berkeley
-- period: ~2000-2005
+  role: 博士后
+- period: 1999.07-2002.06
   type: position
   institution: oxford
-  role: Postdoc
-  notes: under Nigel Hitchin
-- period: ~2005-2008
+  role: 研究助理（Research Assistant）
+  notes: 导师：Nigel Hitchin；兼任 Worcester College Junior Research Fellow。
+- period: 2002.07-2004.12
+  type: position
+  institution: cambridge
+  role: 临时讲师（Temporary Lecturer）
+  notes: 兼任 Jesus College 数学 Fellow。
+- period: 2005.01-2008.09
   type: position
   institution: manchester
-  role: Lecturer, Applied Mathematics
-- period: 2008-2014
+  role: 讲师，后任高级讲师
+  notes: 2008年6月升任 Senior Lecturer。
+- period: 2008.10-2018.01
   type: position
   institution: loughborough
-  role: Reader → Personal Chair
-- period: 2018-2024
+  role: Reader，后任教授
+  notes: 2014年5月升任 Full Professor。
+- period: 2018.02-[结束年月待核实]
   type: position
   institution: birmingham
-  role: Professor of Mathematics
+  role: 数学教授（Chair in Mathematics）
+  notes: 旧简历未记载结束时间。ICREA官方简介记载2024年转入UPC，尚未据此推定伯明翰职位的终止年月。
 - period: 2024-present
   type: position
   institution: upc-barcelona
-  role: ICREA Senior Research Professor
+  role: ICREA研究教授
+  notes: 2026-10-08核对ICREA当前人物页及本人主页；ICREA简介记载2024年到任。
 research_areas:
 - painleve-equations
 - quantum-cluster-algebras
@@ -53,30 +62,33 @@ identity_profile:
   openalex_id: 'A5037371489'
   mathgenealogy_id: '51294'
   affiliations:
-    - institution: 'padova'
-      period: '~1990-1994'
-      role: 'Theoretical Physics, University of Padova'
-    - institution: 'sissa'
-      period: '1994-1998'
-      role: '博士'
-    - institution: 'msri'
-      period: '~1998-1999'
-      role: '博士后, MSRI Berkeley'
-    - institution: 'oxford'
-      period: '~2000-2005'
-      role: 'Postdoc'
-    - institution: 'manchester'
-      period: '~2005-2008'
-      role: 'Lecturer, Applied Mathematics'
-    - institution: 'loughborough'
-      period: '2008-2014'
-      role: 'Reader → Personal Chair'
-    - institution: 'birmingham'
-      period: '2018-2024'
-      role: 'Professor of Mathematics'
-    - institution: 'upc-barcelona'
-      period: '2024-present'
-      role: 'ICREA Senior Research Professor'
+  - institution: padova
+    period: 1988-1994
+    role: 理论物理，本科与硕士
+  - institution: sissa
+    period: 1994-1998
+    role: 博士
+  - institution: msri
+    period: 1998.11-1999.06
+    role: 博士后
+  - institution: oxford
+    period: 1999.07-2002.06
+    role: 研究助理（Research Assistant）
+  - institution: cambridge
+    period: 2002.07-2004.12
+    role: 临时讲师（Temporary Lecturer）
+  - institution: manchester
+    period: 2005.01-2008.09
+    role: 讲师，后任高级讲师
+  - institution: loughborough
+    period: 2008.10-2018.01
+    role: Reader，后任教授
+  - institution: birmingham
+    period: 2018.02-[结束年月待核实]
+    role: 数学教授（Chair in Mathematics）
+  - institution: upc-barcelona
+    period: 2024-present
+    role: ICREA研究教授
   email_domains: [maths.ox.ac.uk, sissa.it]
   coauthor_circle_core_slugs: [dubrovin]
   coauthor_circle_core_names: ['Boris Dubrovin']
@@ -140,6 +152,8 @@ external_ids:
   mathgenealogy: '51294'
   orcid: 0000-0001-9917-2547
 links:
+  faculty_page: https://www.icrea.cat/community/icreas/33120/marta-mazzocco/
+  cv: https://www.icrea.cat/cvs/33120/marta-mazzocco/
   homepage: https://sites.google.com/upc.edu/marta-mazzocco
 personal_notes: 'Quantum cluster algebras + Painlevé 方向的专家。
 
@@ -568,6 +582,10 @@ publications:
     sources: [openalex]
     no_arxiv: true
 sources:
+- label: '[Codex] 2026-10-08：ICREA提供的本人简历，第1页（教育与历史任职；旧版现职不沿用）'
+  url: https://www.icrea.cat/cvs/33120/marta-mazzocco/
+- label: '[Codex] 2026-10-08：ICREA当前人物页（2024年转入UPC）'
+  url: https://www.icrea.cat/community/icreas/33120/marta-mazzocco/
 - label: "[Codex] 2026-10-08：本人主页（Marta 身份、ORCID及 arXiv 入口）"
   url: https://sites.google.com/upc.edu/marta-mazzocco
 - label: "[Codex] 2026-10-08：核物理同名作者 Marco Mazzocco（错误归属已转审核记录）"
