@@ -34,15 +34,15 @@ export default function PersonStats({ activity }: PersonStatsProps) {
           >
             {(activity.total_papers as number).toLocaleString()}
           </a>
-          <div className="text-xs text-[#8888a0] mt-1">论文数</div>
+          <div className="text-xs text-[#8888a0] mt-1">收录论文数</div>
           {(pub != null || pre != null) && (
             <div className="text-[10px] text-[#8888a0] mt-1 font-mono">
               {pub != null && (
-                <span className="text-[#22c55e]">{pub} 已发表</span>
+                <span className="text-[#22c55e]">{pub} 有发表信息</span>
               )}
               {pub != null && pre != null && <span className="mx-1">/</span>}
               {pre != null && (
-                <span className="text-[#f59e0b]">{pre} 仅预印</span>
+                <span className="text-[#f59e0b]">{pre} 发表待核实</span>
               )}
             </div>
           )}

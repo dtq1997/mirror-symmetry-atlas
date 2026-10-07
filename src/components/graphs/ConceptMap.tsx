@@ -4,7 +4,7 @@ import { useState, useMemo, useCallback } from "react";
 import ForceGraph from "./ForceGraph";
 import type { GraphData, GraphNode, Concept } from "@/lib/types";
 import { getPrerequisiteChain } from "@/lib/graph";
-import Link from "next/link";
+import Link from "@/components/shared/AtlasLink";
 import MathText from "../shared/MathText";
 import { displayName } from "@/lib/name";
 

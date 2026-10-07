@@ -1,5 +1,5 @@
 import { getAllInstitutions, getInstitutionsMap, getPeopleMap } from "@/lib/data";
-import Link from "next/link";
+import Link from "@/components/shared/AtlasLink";
 import { notFound } from "next/navigation";
 import { displayName } from "@/lib/name";
 

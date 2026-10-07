@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useRef } from "react";
-import Link from "next/link";
+import Link from "@/components/shared/AtlasLink";
 import { displayName } from "@/lib/name";
 
 interface SlugTagProps {

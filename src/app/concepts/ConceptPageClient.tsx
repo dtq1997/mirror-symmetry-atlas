@@ -3,7 +3,8 @@
 import { useState } from "react";
 import ConceptMap from "@/components/graphs/ConceptMap";
 import type { GraphData, Concept, Difficulty } from "@/lib/types";
-import Link from "next/link";
+import Link from "@/components/shared/AtlasLink";
+import { useMobile } from "@/lib/use-mobile";
 
 const DIFFICULTY_COLORS: Record<string, string> = {
   introductory: "#22c55e",
@@ -24,7 +25,12 @@ interface Props {
 }
 
 export default function ConceptPageClient({ graphData, concepts }: Props) {
-  const [viewMode, setViewMode] = useState<"graph" | "list">("graph");
+  const [selectedView, setViewMode] = useState<"graph" | "list" | null>(null);
+  const mobile = useMobile();
+  const viewMode = selectedView ?? (mobile ? "list" : "graph");
+  const [query, setQuery] = useState("");
+  const filteredConcepts = concepts.filter((c) => [c.slug, c.name.en, c.name.zh, ...(c.aliases ?? [])]
+    .some((name) => name?.toLocaleLowerCase().includes(query.trim().toLocaleLowerCase())));
 
   return (
     <div className="flex-1 flex flex-col">
@@ -70,8 +76,14 @@ export default function ConceptPageClient({ graphData, concepts }: Props) {
         </div>
       ) : (
         <div className="flex-1 overflow-auto px-6 py-4">
+          <label className="block text-sm text-[#8888a0] mb-3">
+            搜索概念
+            <input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="中文名、英文名、别名"
+              className="block mt-2 w-full max-w-md rounded-lg border border-[#2a2a3a] bg-[#14141f] p-3 text-[#e8e8f0]" />
+          </label>
+          <p className="text-xs text-[#8888a0] mb-3">{filteredConcepts.length} 个概念</p>
           <div className="space-y-3">
-            {concepts
+            {filteredConcepts
               .sort((a, b) => {
                 const order: Difficulty[] = [
                   "introductory",

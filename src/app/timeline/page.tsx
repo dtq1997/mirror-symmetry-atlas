@@ -1,5 +1,5 @@
 import { getAllTimelineEvents } from "@/lib/data";
-import Link from "next/link";
+import Link from "@/components/shared/AtlasLink";
 
 const ERA_LABELS: Record<string, { label: string; color: string }> = {
   prehistory: { label: "史前", color: "#8888a0" },

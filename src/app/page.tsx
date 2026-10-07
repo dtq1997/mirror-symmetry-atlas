@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from "@/components/shared/AtlasLink";
 import {
   getAllPeople,
   getAllConcepts,
@@ -8,6 +8,8 @@ import {
   getAllProblems,
 } from "@/lib/data";
 import { displayName, nameInfo } from "@/lib/name";
+import { collectPublications } from "@/lib/publications";
+import UpcomingConferences from "@/components/shared/UpcomingConferences";
 
 export default function Dashboard() {
   const people = getAllPeople();
@@ -17,32 +19,23 @@ export default function Dashboard() {
   const timeline = getAllTimelineEvents();
   const problems = getAllProblems();
 
-  // Count total publications
-  let totalPubs = 0;
-  for (const p of people) {
-    totalPubs += p.publications?.length ?? 0;
-  }
+  const totalPubs = collectPublications(people).length;
+  const today = new Intl.DateTimeFormat("en-CA", { timeZone: "Asia/Shanghai", year: "numeric", month: "2-digit", day: "2-digit" }).format(new Date());
 
   const stats = [
     { label: "人物", value: people.length, href: "/people", color: "#f59e0b" },
     { label: "概念", value: concepts.length, href: "/concepts", color: "#6366f1" },
     { label: "关系", value: connections.length, href: "/people", color: "#8b5cf6" },
-    { label: "论文", value: totalPubs, href: "/papers", color: "#10b981" },
+    { label: "论文条目", value: totalPubs, href: "/papers", color: "#10b981" },
   ];
 
   const recentPeople = people
-    .filter((p) => !p.died)
+    .slice()
     .sort(
       (a, b) =>
-        (b.activity?.total_papers ?? 0) - (a.activity?.total_papers ?? 0)
+        (b.publications?.length ?? 0) - (a.publications?.length ?? 0)
     )
     .slice(0, 8);
-
-  // Upcoming conferences
-  const upcomingConfs = conferences
-    .filter((c) => c.date_start >= "2026-04-14")
-    .sort((a, b) => a.date_start.localeCompare(b.date_start))
-    .slice(0, 3);
 
   return (
     <div className="max-w-6xl mx-auto px-6 py-10 w-full">
@@ -99,48 +92,13 @@ export default function Dashboard() {
       </div>
 
       <div className="grid md:grid-cols-2 gap-8 mb-10">
-        {/* Upcoming conferences */}
-        {upcomingConfs.length > 0 && (
-          <div>
-            <h2 className="text-xl font-semibold text-[#e8e8f0] mb-4 flex items-center justify-between">
-              即将到来的会议
-              <Link
-                href="/conferences"
-                className="text-sm text-[#6366f1] hover:text-[#818cf8] font-normal"
-              >
-                查看全部 →
-              </Link>
-            </h2>
-            <div className="space-y-3">
-              {upcomingConfs.map((conf) => (
-                <Link
-                  key={conf.slug}
-                  href="/conferences"
-                  className="block bg-[#14141f] rounded-lg p-4 border border-[#2a2a3a] hover:border-[#10b981]/50 transition-colors"
-                >
-                  <div className="text-sm font-medium text-[#e8e8f0]">
-                    {conf.name.zh || conf.name.en}
-                  </div>
-                  <div className="flex gap-3 mt-1 text-xs text-[#8888a0]">
-                    <span className="text-[#6366f1] font-mono">
-                      {conf.date_start}
-                    </span>
-                    {conf.location && <span>{conf.location}</span>}
-                    {conf.invited_speakers && (
-                      <span>{conf.invited_speakers.length} 位报告人</span>
-                    )}
-                  </div>
-                </Link>
-              ))}
-            </div>
-          </div>
-        )}
+        <UpcomingConferences events={conferences} initialDate={today} />
 
         {/* Open problems */}
         {problems.length > 0 && (
           <div>
             <h2 className="text-xl font-semibold text-[#e8e8f0] mb-4">
-              开放问题
+              问题条目（状态待复核）
             </h2>
             <div className="space-y-3">
               {problems.map((prob) => (
@@ -169,7 +127,7 @@ export default function Dashboard() {
                     </span>
                   </div>
                   <div className="text-xs text-[#8888a0] mt-1">
-                    {prob.importance} · {prob.year_proposed} 年提出
+                    原记录提出年份：{prob.year_proposed}
                   </div>
                 </div>
               ))}
@@ -181,7 +139,7 @@ export default function Dashboard() {
       {/* Active researchers */}
       <div>
         <h2 className="text-xl font-semibold text-[#e8e8f0] mb-4">
-          活跃研究者
+          收录论文较多的学者
         </h2>
         <div className="grid sm:grid-cols-2 md:grid-cols-4 gap-3">
           {recentPeople.map((p) => (
@@ -200,12 +158,12 @@ export default function Dashboard() {
                 <div className="text-xs mt-1 flex flex-wrap gap-1">
                   {p.activity.published_count != null && (
                     <span className="text-[#22c55e]">
-                      {p.activity.published_count} 已发表
+                      {p.activity.published_count} 有发表信息
                     </span>
                   )}
                   {p.activity.preprint_only_count != null && (
                     <span className="text-[#f59e0b]">
-                      {p.activity.preprint_only_count} 仅预印
+                      {p.activity.preprint_only_count} 发表待核实
                     </span>
                   )}
                   {p.activity.published_count == null &&

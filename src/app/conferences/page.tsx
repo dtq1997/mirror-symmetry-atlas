@@ -1,5 +1,5 @@
 import { getAllConferenceEvents, getPeopleMap } from "@/lib/data";
-import Link from "next/link";
+import Link from "@/components/shared/AtlasLink";
 import { displayName as personName } from "@/lib/name";
 import { institutionName } from "@/lib/inst";
 
@@ -50,6 +50,7 @@ export default function ConferencesPage() {
           {events.map((evt) => (
             <div
               key={evt.slug}
+              id={evt.slug}
               className="bg-[#14141f] rounded-xl border border-[#2a2a3a] overflow-hidden"
             >
               {/* Header */}

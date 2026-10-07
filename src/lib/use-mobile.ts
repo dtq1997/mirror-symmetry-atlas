@@ -1,0 +1,13 @@
+"use client";
+
+import { useSyncExternalStore } from "react";
+
+function subscribe(callback: () => void) {
+  const query = window.matchMedia("(max-width: 639px)");
+  query.addEventListener("change", callback);
+  return () => query.removeEventListener("change", callback);
+}
+
+export function useMobile() {
+  return useSyncExternalStore(subscribe, () => window.matchMedia("(max-width: 639px)").matches, () => false);
+}

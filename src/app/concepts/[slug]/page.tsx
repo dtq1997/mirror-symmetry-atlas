@@ -1,5 +1,5 @@
 import { getAllConcepts } from "@/lib/data";
-import Link from "next/link";
+import Link from "@/components/shared/AtlasLink";
 import { notFound } from "next/navigation";
 import MathText from "@/components/shared/MathText";
 import { displayName } from "@/lib/name";

@@ -1,7 +1,7 @@
 "use client";
 
 import type { Person, GraphNode } from "@/lib/types";
-import Link from "next/link";
+import Link from "@/components/shared/AtlasLink";
 import { displayName as displayNameOf } from "@/lib/name";
 import { institutionName as institutionNameOf } from "@/lib/inst";
 
@@ -72,10 +72,10 @@ function PersonDetail({ person }: { person: Person }) {
           <div className="text-xs text-[#8888a0] mb-2">学术活跃度</div>
           <div className="grid grid-cols-2 gap-2">
             {person.activity.published_count != null && (
-              <Stat label="已发表" value={person.activity.published_count} />
+              <Stat label="有发表信息" value={person.activity.published_count} />
             )}
             {person.activity.preprint_only_count != null && (
-              <Stat label="仅预印" value={person.activity.preprint_only_count} />
+              <Stat label="发表待核实" value={person.activity.preprint_only_count} />
             )}
             {person.activity.published_count == null &&
               person.activity.preprint_only_count == null &&

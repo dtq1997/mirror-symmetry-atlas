@@ -1,5 +1,5 @@
 import { getAllInstitutions, getAllPeople } from "@/lib/data";
-import Link from "next/link";
+import Link from "@/components/shared/AtlasLink";
 import { institutionName } from "@/lib/inst";
 
 export default function InstitutionsPage() {

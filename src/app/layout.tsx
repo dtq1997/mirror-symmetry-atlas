@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
-import Link from "next/link";
+import Link from "@/components/shared/AtlasLink";
 import "katex/dist/katex.min.css";
 import "./globals.css";
 
@@ -17,7 +17,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Mirror Symmetry Atlas",
   description:
-    "Interactive knowledge platform for the mirror symmetry community",
+    "镜像对称及相关领域的人物、论文、概念与学术活动资料库",
 };
 
 const NAV_ITEMS = [
@@ -29,6 +29,7 @@ const NAV_ITEMS = [
   { href: "/papers", label: "论文" },
   { href: "/news", label: "新闻" },
   { href: "/conferences", label: "会议" },
+  { href: "/institutions", label: "机构" },
 ];
 
 export default function RootLayout({
@@ -43,14 +44,15 @@ export default function RootLayout({
     >
       <body className="min-h-full flex flex-col bg-[#0a0a0f] text-[#e8e8f0]">
         {/* Navigation */}
-        <nav className="h-[56px] border-b border-[#2a2a3a] bg-[#14141f]/80 backdrop-blur-md sticky top-0 z-50 flex items-center px-6 shrink-0">
+        <nav aria-label="主导航" className="h-[56px] max-w-full overflow-x-auto border-b border-[#2a2a3a] bg-[#14141f]/80 backdrop-blur-md sticky top-0 z-50 flex items-center px-3 sm:px-6 shrink-0">
           <Link
             href="/"
-            className="font-semibold text-lg tracking-tight mr-8 text-[#e8e8f0] hover:text-[#6366f1] transition-colors"
+            className="shrink-0 whitespace-nowrap font-semibold text-lg tracking-tight mr-4 sm:mr-8 text-[#e8e8f0] hover:text-[#6366f1] transition-colors"
           >
-            Mirror Symmetry Atlas
+            <span className="hidden sm:inline">Mirror Symmetry Atlas</span>
+            <span className="sm:hidden">镜像对称图谱</span>
           </Link>
-          <div className="flex items-center gap-1">
+          <div className="flex items-center gap-1 shrink-0 whitespace-nowrap">
             {NAV_ITEMS.map((item) => (
               <Link
                 key={item.href}
@@ -64,7 +66,7 @@ export default function RootLayout({
         </nav>
 
         {/* Main content */}
-        <main className="flex-1 flex flex-col">{children}</main>
+        <main className="flex-1 flex flex-col min-w-0">{children}</main>
       </body>
     </html>
   );

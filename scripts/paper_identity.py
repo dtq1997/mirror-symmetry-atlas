@@ -54,6 +54,7 @@ def canonical_doi(d):
         return None
     s = str(d).lower().strip()
     s = re.sub(r'^https?://(dx\.)?doi\.org/', '', s)
+    s = re.sub(r'^doi:\s*', '', s)
     if not s or s.startswith('10.48550/arxiv.'):
         return None
     return s
@@ -63,10 +64,12 @@ def canonical_arxiv_id(pid):
     """If pid is an arxiv id (not doi:/openalex:/cr:), return it without v-suffix."""
     if not pid:
         return None
-    pid = str(pid).strip().split('v')[0]
+    pid = re.sub(r'^https?://(?:export\.)?arxiv\.org/abs/', '', str(pid).strip(), flags=re.I)
+    pid = re.sub(r'^arxiv:\s*', '', pid, flags=re.I)
+    pid = re.sub(r'v\d+$', '', pid)
     if pid.startswith(('doi:', 'openalex:', 'cr:')):
         return None
-    if re.match(r'^\d{4}\.\d{4,5}$|^\d{7}$|^[a-z-]+/\d{7}$', pid):
+    if re.fullmatch(r'\d{4}\.\d{4,5}|\d{7}|[a-z][a-z.-]*/\d{7}', pid, flags=re.I):
         return pid
     return None
 
@@ -76,7 +79,7 @@ def paper_identity_keys(pub):
     Each component can be None. Two pubs are 'same paper' iff ANY non-None
     pair of corresponding components is equal."""
     return (
-        canonical_doi(pub.get('doi')),
+        canonical_doi(pub.get('doi') or (pub.get('id', '')[4:] if pub.get('id', '').startswith('doi:') else None)),
         canonical_arxiv_id(pub.get('id', '')),
         canonical_title(pub.get('title') or ''),
     )

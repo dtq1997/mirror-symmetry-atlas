@@ -342,7 +342,7 @@ function periodContainsYear(period: string | undefined, year: number): boolean {
   const clean = period.replace(/~/g, "").replace(/circa /g, "");
 
   // "present" → current year
-  const resolved = clean.replace(/present/gi, "2026");
+  const resolved = clean.replace(/present/gi, String(new Date().getFullYear()));
 
   // Single year: "1998"
   if (/^\d{4}$/.test(resolved)) {
@@ -387,7 +387,7 @@ export function filterByYear(
     const hasActivity =
       !p.career_timeline?.length ||
       p.career_timeline.some((entry) => {
-        const periodStr = entry.period;
+        const periodStr = String(entry.period ?? "");
         const startMatch = periodStr
           .replace(/~/g, "")
           .match(/^(\d{4})/);

@@ -2,8 +2,10 @@ import { getAllPeople, getPerson, getAllConnections, getAckMentions } from "@/li
 import { displayName as nameOf, nameInfo } from "@/lib/name";
 import PersonTimeline from "@/components/person/PersonTimeline";
 import PersonStats from "@/components/person/PersonStats";
-import Link from "next/link";
+import Link from "@/components/shared/AtlasLink";
 import { notFound } from "next/navigation";
+import { publicationUrl } from "@/lib/paper-identity";
+import { publicSourceUrl } from "@/lib/source-url";
 import type { LifeDateFact, OnlineTrace, Person, SourceRef } from "@/lib/types";
 
 export function generateStaticParams() {
@@ -188,7 +190,7 @@ export default async function PersonPage({
                                 .map((p) => `${p.year} ${p.title}`)
                                 .join("\n")}
                             >
-                              {pubCount} 已发表
+                              {pubCount} 有发表信息
                             </span>
                           )}
                           {preCount > 0 && (
@@ -198,7 +200,7 @@ export default async function PersonPage({
                                 .map((p) => `${p.year} ${p.title}`)
                                 .join("\n")}
                             >
-                              {preCount} 仅预印
+                              {preCount} 发表待核实
                             </span>
                           )}
                         </>
@@ -230,9 +232,7 @@ export default async function PersonPage({
                             const isPub = "doi" in paper && (paper as { doi?: string; journal?: string }).doi;
                             const isPubByJournal = "journal" in paper && (paper as { journal?: string }).journal;
                             const published = isPub || isPubByJournal;
-                            const href = (paper as { doi?: string }).doi
-                              ? `https://doi.org/${(paper as { doi: string }).doi}`
-                              : `https://arxiv.org/abs/${paper.id}`;
+                            const href = publicationUrl(paper);
                             return (
                               <li key={paper.id} className="flex gap-2 items-baseline">
                                 <span className={`shrink-0 w-2 h-2 rounded-full mt-1 ${published ? "bg-[#22c55e]" : "bg-[#f59e0b]"}`} />
@@ -300,12 +300,12 @@ export default async function PersonPage({
                       <>
                         {pubCount > 0 && (
                           <span className="px-1.5 py-0.5 rounded bg-[#22c55e]/10 text-[#22c55e] border border-[#22c55e]/20 font-mono">
-                            {pubCount} 已发表
+                            {pubCount} 有发表信息
                           </span>
                         )}
                         {preCount > 0 && (
                           <span className="px-1.5 py-0.5 rounded bg-[#f59e0b]/10 text-[#f59e0b] border border-[#f59e0b]/20 font-mono">
-                            {preCount} 仅预印
+                            {preCount} 发表待核实
                           </span>
                         )}
                       </>
@@ -345,9 +345,7 @@ export default async function PersonPage({
                           const isPub = "doi" in paper && (paper as { doi?: string }).doi;
                           const isPubByJournal = "journal" in paper && (paper as { journal?: string }).journal;
                           const published = isPub || isPubByJournal;
-                          const href = (paper as { doi?: string }).doi
-                            ? `https://doi.org/${(paper as { doi: string }).doi}`
-                            : `https://arxiv.org/abs/${paper.id}`;
+                          const href = publicationUrl(paper);
                           return (
                             <li key={paper.id} className="flex gap-2 items-baseline">
                               <span className={`shrink-0 w-2 h-2 rounded-full mt-1 ${published ? "bg-[#22c55e]" : "bg-[#f59e0b]"}`} />
@@ -489,9 +487,9 @@ export default async function PersonPage({
             论文（{pubs.length}
             {publishedCount > 0 || preprintCount > 0 ? (
               <span className="text-xs font-normal text-[#8888a0] ml-2">
-                <span className="text-[#22c55e]">{publishedCount} 已发表</span>
+                <span className="text-[#22c55e]">{publishedCount} 有发表信息</span>
                 <span className="mx-1">/</span>
-                <span className="text-[#f59e0b]">{preprintCount} 仅预印</span>
+                <span className="text-[#f59e0b]">{preprintCount} 发表待核实</span>
               </span>
             ) : null}
             ）
@@ -503,24 +501,14 @@ export default async function PersonPage({
                 i
               ) => (
                 <div
-                  key={pub.id || i}
+                  key={`${pub.id || "unknown"}:${i}`}
                   className="bg-[#14141f] rounded-lg p-3 border border-[#2a2a3a] group"
                 >
                   {(() => {
                     const isDoiId = pub.id?.startsWith("doi:");
                     const isOaId = pub.id?.startsWith("openalex:");
-                    const titleHref = pub.doi
-                      ? `https://doi.org/${pub.doi}`
-                      : isDoiId
-                        ? `https://doi.org/${pub.id.slice(4)}`
-                        : isOaId
-                          ? `https://openalex.org/works/${pub.id.slice(9)}`
-                          : `https://arxiv.org/abs/${pub.id}`;
-                    const idHref = isDoiId
-                      ? `https://doi.org/${pub.id.slice(4)}`
-                      : isOaId
-                        ? `https://openalex.org/works/${pub.id.slice(9)}`
-                        : `https://arxiv.org/abs/${pub.id}`;
+                    const titleHref = publicationUrl(pub);
+                    const idHref = publicationUrl({ id: pub.id });
                     const idLabel = isDoiId
                       ? pub.id.slice(4)
                       : isOaId
@@ -539,7 +527,7 @@ export default async function PersonPage({
                       </a>
                       {pub.coauthors && pub.coauthors.length > 0 && (
                         <div className="text-xs text-[#8888a0] mt-1">
-                          with{" "}
+                          合作者：{" "}
                           {pub.coauthors.map((c: string, j: number) => {
                             const isSlug =
                               !c.includes(" ") && c === c.toLowerCase();
@@ -571,22 +559,22 @@ export default async function PersonPage({
                               className="px-1.5 py-0.5 rounded bg-[#22c55e]/10 text-[#22c55e] border border-[#22c55e]/20 hover:bg-[#22c55e]/20"
                               title={`DOI: ${pub.doi}${pub.journal ? `\n${pub.journal}` : ""}`}
                             >
-                              已发表{pub.journal ? `: ${pub.journal}` : ""}
+                              有发表信息{pub.journal ? `: ${pub.journal}` : ""}
                             </a>
                           ) : (
                             <span
                               className="px-1.5 py-0.5 rounded bg-[#22c55e]/10 text-[#22c55e] border border-[#22c55e]/20"
                               title={pub.journal}
                             >
-                              已发表{pub.journal ? `: ${pub.journal}` : ""}
+                              有发表信息{pub.journal ? `: ${pub.journal}` : ""}
                             </span>
                           )
                         ) : (
                           <span
                             className="px-1.5 py-0.5 rounded bg-[#f59e0b]/10 text-[#f59e0b] border border-[#f59e0b]/20"
-                            title="未在 arxiv journal_ref 或 Crossref 中找到正式发表记录"
+                            title="本站尚未记录发表信息；不代表未发表"
                           >
-                            仅预印
+                            发表待核实
                           </span>
                         )}
                         {pub.primary_category && (
@@ -619,6 +607,8 @@ export default async function PersonPage({
         </section>
         );
       })()}
+
+      {!person.publications?.length && <section id="publications" className="mb-8 text-sm text-[#8888a0]">暂未收录论文记录；不代表该学者没有论文。</section>}
 
       {/* Personal notes */}
       {person.personal_notes && (
@@ -704,7 +694,7 @@ export default async function PersonPage({
             {person.sources.map((src, i) => (
               <div key={i} className="text-xs">
                 <a
-                  href={src.url}
+                  href={publicSourceUrl(src.url)}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-[#6366f1] hover:text-[#818cf8] transition-colors"
@@ -779,7 +769,7 @@ function sourceLinks(sources?: SourceRef[]) {
       {sources.map((src, i) => (
         <a
           key={`${src.url}-${i}`}
-          href={src.url}
+          href={publicSourceUrl(src.url)}
           target="_blank"
           rel="noopener noreferrer"
           className="text-[11px] text-[#6366f1] hover:text-[#818cf8]"
@@ -931,7 +921,7 @@ function OnlineTraceItem({ trace }: { trace: OnlineTrace }) {
           {traceTypeLabel(trace.type)}
         </span>
         <a
-          href={trace.url}
+          href={publicSourceUrl(trace.url)}
           target="_blank"
           rel="noopener noreferrer"
           className="text-[#6366f1] hover:text-[#818cf8] transition-colors"
@@ -940,7 +930,7 @@ function OnlineTraceItem({ trace }: { trace: OnlineTrace }) {
         </a>
         {trace.archived_url && (
           <a
-            href={trace.archived_url}
+            href={publicSourceUrl(trace.archived_url)}
             target="_blank"
             rel="noopener noreferrer"
             className="text-xs text-[#8888a0] hover:text-[#e8e8f0] transition-colors"
@@ -962,6 +952,7 @@ function OnlineTraceItem({ trace }: { trace: OnlineTrace }) {
 }
 
 function ExtLink({ href, label }: { href: string; label: string }) {
+  if (!publicSourceUrl(href)) return <span className="text-xs text-[#8888a0]">{label}（链接待核实）</span>;
   return (
     <a
       href={href}
