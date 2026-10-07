@@ -129,3 +129,7 @@
 接续仍沿既有Goal，不能complete。待本批最终build、手机公式目检、Actions发布和线上验收后补commit/run。下一批优先：52条题名差异/227条旧编号/DOI与OpenAlex的真实归属；机构当前与历史区分；概念61项（含WDVV表述、Frobenius单复数重复、学习路径）的一手来源；时间滑块会把缺年份记录视为已活动且未按年份限制合著篇数，应修正语义；HUST报告名单与开放问题状态。Marta ICREA提供的CV入口是PDF（https://www.icrea.cat/cvs/33120/marta-mazzocco/），检索已发现任职日期可能与YAML有差异，正式修正前加载PDF/学术来源流程，当前未改这些日期。
 
 [Codex] 第六批最终本地验收：19项网站回归、14项作者来源回归、8项审核持久化回归通过；ESLint、TypeScript、生产构建通过，282页/21036链接/0坏目标，data lint 0errors/74warnings。61个概念定义共127段KaTeX表达式未检出解析错误；这是渲染检查，不是数学判决。390px WDVV页面实际恢复两段公式、无源码外露、无页面横向溢出。详见 `render-and-interaction-review.json`；手机截图 `wdvv-render-preview-mobile.jpg`，概念侧栏修复前公式截图明确保留为 `concept-sidebar-before-math-fix.jpg`。准备提交发布。
+
+[Codex] 防回填覆盖补齐：把之前已核实并发布的两条Si Li/Si-Qi Liu纠错（原始字段来自 `si-li-ownership-correction.json`）登记进 `data/papers/_review_queue/si-li.yaml`。与Liu4条、Mazzocco10条共同覆盖本轮转出的16条记录，未改公开人物内容。
+
+[Codex] 2026-10-08 第六批已上线：commit `e73165a48cb58a70da42e9b25fe0ef463606b360`，Actions run `37702343881` 成功。线上Mazzocco50/42/8、10个转出题名均不在公开页；首页1823；WDVV实际渲染2段KaTeX、0解析错误、无横向溢出；图谱放大按钮14%→20%，浏览器error日志为空。curl同时核对三页。证据 `batch-six-live-verification.json`，截图 `wdvv-render-live.jpg`、`graph-controls-live.jpg`。Goal仍active，全内容事实核查远未完成。
