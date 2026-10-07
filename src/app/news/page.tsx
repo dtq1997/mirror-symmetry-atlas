@@ -11,7 +11,6 @@ interface NewsEntry {
   date: string;
   authors_raw?: string[];
   summary_zh?: string;
-  abstract?: string;
   source_url?: string;
   source_version?: string;
   review_status?: string;
@@ -77,11 +76,10 @@ export default function NewsPage() {
                 {!!entry.authors_raw?.length && <p className="text-sm text-[#b8b8cc] mb-3">作者：{entry.authors_raw.join("；")}</p>}
                 {/* No inferred entity links: surnames and shared full names do not prove identity. */}
                 {entry.summary_zh && <RichSummary className="text-sm text-[#e8e8f0]/80 leading-relaxed" text={entry.summary_zh} entities={[]} />}
-                {entry.abstract && <details className="text-sm text-[#b8b8cc] mt-3"><summary className="cursor-pointer">查看 arXiv 原文摘要</summary><RichSummary className="mt-2 leading-relaxed" text={entry.abstract} entities={[]} /></details>}
                 <p className="text-xs text-[#8888a0] mt-3">
                   {entry.source_version && `来源版本：${entry.source_version}。`}
                   {entry.reviewed_at && ` 核对日期：${entry.reviewed_at}。`}
-                  {!reviewed && " 主题由关键词筛选，作者保持来源原始署名。"}
+                  {!reviewed && " 主题由关键词筛选；摘要与全文请查看原始来源。"}
                 </p>
               </article>
             );

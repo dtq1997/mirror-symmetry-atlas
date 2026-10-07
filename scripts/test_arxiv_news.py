@@ -94,6 +94,7 @@ class NewsTests(unittest.TestCase):
         self.assertEqual(entry['candidate_people'], ['first', 'second'])
         self.assertEqual(entry['authors_raw'], ['Ao Li'])
         self.assertEqual(entry['summary_zh'], '')
+        self.assertNotIn('abstract', entry)
 
     def test_concept_substrings_and_unordered_words_do_not_match(self):
         self.assertEqual(news.match_concepts('External quantum effect', 'a cohomology course', {'rna', 'quantum-cohomology'}), [])

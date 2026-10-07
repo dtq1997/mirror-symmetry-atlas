@@ -168,7 +168,10 @@ def news_entry(paper, people, concepts, retrieved_at, min_score):
     score = 10 * bool(candidates) + 3 * len(matched)
     if score < min_score:
         return None
-    return {**paper, 'matched_people': [], 'candidate_people': candidates,
+    # Keep the complete abstract in the response cache for selection/review.
+    # The public feed contains bibliographic facts and a link to the original.
+    metadata = {key: value for key, value in paper.items() if key != 'abstract'}
+    return {**metadata, 'matched_people': [], 'candidate_people': candidates,
             'matched_concepts': matched, 'relevance_score': score,
             'review_status': 'metadata-only', 'retrieved_at': retrieved_at,
             'summary_zh': ''}

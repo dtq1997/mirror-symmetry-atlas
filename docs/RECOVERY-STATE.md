@@ -69,3 +69,5 @@
 - 实际一周 API 查询 604 条，4 页取全，筛出 66 条候选；最近一天为 0。已知 ID 与最新 math.AG 查询正控成功。详见 `news-source-review.json`，原始响应在 `.cache/msa/site-recovery/` 与 `.cache/msa/arxiv-news/`。这些候选尚未逐条人工审读。
 - workflow 修复：先 stage 再检查新文件；任何失败不提交；成功（包括有效空结果）写运行记录；deploy 改由成功的 Daily arXiv News workflow_run 触发并检出 main。恢复定时任务前等本批构建、发布和真实手动运行。
 - 手机新闻页面 390px 已目检，6 条旧记录作者与来源可见，无横向溢出；文章中自动推断的人物链接数为 0，error 日志为空。
+
+[Codex] 2026-10-08 第二批 commit `7b2e33fe0ea27cf0953d8c661c0569dbaf9a0342` 的部署 run `37696283404` 成功。GitHub workflow 当前读回为 active（修改 workflow 后已恢复），无需重复启用。自动条目仅公开题名、原始署名和来源，摘要全文只留原始响应缓存供筛选/审阅；发布页面通过原始链接阅读摘要。最后一次本地 lint/typecheck/build/282 页链接检查通过。准备真实手动抓取验收，不能把已提交代码当作整链已验收。
