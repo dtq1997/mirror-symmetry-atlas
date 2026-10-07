@@ -20,8 +20,8 @@ Catches:
   6. nationality: required for any person.
   7. publications[].coauthors raw names: warn (not block) when they
      unambiguously match a slug.
-  8. publications[].id: if arxiv-style, ground-truth fetch must show the
-     yaml owner among real authors (skips when truth API has no record).
+  8. --strict-pubs compares names with exact-ID source author lists.
+     Unresolved lookups block this check; name compatibility is not identity proof.
      Skipped by default (slow) — pass --strict-pubs to enable.
 
 Exit code 0 = clean, 1 = violations.
@@ -353,7 +353,7 @@ def lint(strict_pubs=False, only_slug=None):
     if strict_pubs:
         try:
             from lib_truth import get_actual_authors
-            print("\n--- strict pubs check (slow, hits arxiv/Crossref) ---")
+            print("\n--- source-name compatibility check (not personal identity proof) ---")
             for slug, p in targets.items():
                 target_en = ((p.get('name') or {}).get('en') or '').strip()
                 if not target_en:
@@ -364,13 +364,14 @@ def lint(strict_pubs=False, only_slug=None):
                         continue
                     authors, src = get_actual_authors(pub, owner_hint=target_en)
                     if not authors:
+                        err(slug, f"publications {pub.get('id')!r}: unresolved source lookup; not checked")
                         continue
                     if not any(names_compatible(target_en, a) for a in authors):
                         err(slug, f"publications {pub.get('id')!r}: owner "
                             f"{target_en!r} not among real authors {authors!r} "
                             f"(source: {src})")
         except ImportError:
-            warn('-', 'lib_truth not importable, skipping strict pubs')
+            err('-', 'lib_truth not importable; strict source-name check incomplete')
 
     # === institution checks ===
     if only_slug is None:

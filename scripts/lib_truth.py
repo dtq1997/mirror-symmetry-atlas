@@ -1,289 +1,242 @@
-"""Unified ground-truth author list lookup.
+"""Source author lists for publication review (not personal identity proof).
 
-Given a publication record (any combination of arxiv id, DOI, OpenAlex id),
-return the authoritative list of author names from the most reliable source.
-Cached on disk under .cache/msa/papers/_*_authors_cache/ by default.
+Only a validated, exact source identifier may supply an author list. Same-name
+membership still needs independent affiliation/CV evidence. Missing responses
+are unresolved, never evidence that a person did not author a paper.
 
-This is the SSOT for "who actually wrote this paper". Every cleanup script
-that decides whether a yaml's pub assignment is correct should consult this
-module — never substring matching, never the yaml's own coauthor field.
+Old unversioned caches and permanent .miss files are retained for provenance
+but are not trusted. Successful, source-bound records expire after one day.
 """
+import hashlib
 import json
 import os
 import re
 import subprocess
+import tempfile
 import time
+import warnings
 import xml.etree.ElementTree as ET
+from urllib.parse import quote
 
 from cache_paths import cache_path
+from paper_identity import canonical_arxiv_id, canonical_doi
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 ARXIV_CACHE = cache_path('_arxiv_authors_cache')
 CROSSREF_CACHE = cache_path('_crossref_authors_cache')
 OPENALEX_CACHE = cache_path('_openalex_authors_cache')
 NS = {'a': 'http://www.w3.org/2005/Atom'}
-
-POLITE_EMAIL = 'mirror-symmetry-atlas@local'
-
-for d in (ARXIV_CACHE, CROSSREF_CACHE, OPENALEX_CACHE):
-    os.makedirs(d, exist_ok=True)
+CACHE_VERSION = 2
+CACHE_TTL = 24 * 60 * 60
+USER_AGENT = 'mirror-symmetry-atlas/1.0 (+https://dtq1997.github.io/mirror-symmetry-atlas)'
 
 
-def _curl(url, max_time=30):
-    r = subprocess.run(['curl', '-s', '--noproxy', '*', '--max-time', str(max_time),
-                        '-A', f'mirror-symmetry-atlas (mailto:{POLITE_EMAIL})', url],
-                       capture_output=True, text=True, encoding='utf-8', errors='replace')
-    return r.stdout
-
-
-# =================== arxiv ===================
-
-def _arxiv_archive_for_category(primary_category):
-    """Map modern category like 'math.AG' to legacy archive prefix used in
-    pre-2007 arXiv ids. Used to recover authors of 7-digit legacy ids."""
-    if not primary_category:
+def _curl(url, max_time=30, expected_type=None):
+    """HTTP failure/timeout is unresolved; respect the user's proxy settings."""
+    try:
+        result = subprocess.run(
+            ['curl', '--fail', '--silent', '--show-error', '--location',
+             '--max-time', str(max_time), '-A', USER_AGENT,
+             '--write-out', '\n%{http_code}\t%{content_type}', url],
+            capture_output=True, text=True, encoding='utf-8', errors='replace',
+            timeout=max_time + 5,
+        )
+    except subprocess.TimeoutExpired:
+        warnings.warn('Source lookup timed out; unresolved, not cached', RuntimeWarning)
         return None
-    pc = primary_category.lower()
-    if pc.startswith('math.ag') or pc.startswith('math-ag'):
-        return ['alg-geom', 'math']
-    if pc.startswith('math-ph') or pc.startswith('mathph'):
-        return ['math-ph', 'math', 'hep-th']
-    if pc.startswith('math.dg') or pc.startswith('math-dg'):
-        return ['dg-ga', 'math']
-    if pc.startswith('math.qa'):
-        return ['q-alg', 'math']
-    if pc.startswith('math.'):
-        return ['math']
-    if pc.startswith('hep-th') or pc.startswith('hept'):
-        return ['hep-th']
-    if pc.startswith('hep-ph'):
-        return ['hep-ph']
-    if pc.startswith('hep-lat'):
-        return ['hep-lat']
-    if pc.startswith('gr-qc'):
-        return ['gr-qc']
-    if pc.startswith('cond-mat'):
-        return ['cond-mat']
+    except OSError:
+        warnings.warn('Source lookup could not start curl; unresolved, not cached', RuntimeWarning)
+        return None
+    body, _, metadata = result.stdout.rpartition('\n')
+    status, _, content_type = metadata.partition('\t')
+    status = status if re.fullmatch(r'\d{3}', status) else 'unknown'
+    if result.returncode or not status.startswith('2'):
+        reason = 'HTTP error' if result.returncode == 22 else 'transport error'
+        if result.returncode == 28:
+            reason = 'timeout'
+        warnings.warn(f'Source lookup {reason} (HTTP {status}); unresolved, not cached', RuntimeWarning)
+        return None
+    mime = content_type.partition(';')[0].strip().lower()
+    allowed = {'xml': {'application/atom+xml', 'application/xml', 'text/xml'},
+               'json': {'application/json'}}
+    if expected_type and mime not in allowed[expected_type]:
+        warnings.warn('Source lookup returned unexpected content type; unresolved, not cached', RuntimeWarning)
+        return None
+    return body if body.strip() else None
+
+
+def _valid_authors(authors):
+    return (isinstance(authors, list) and bool(authors)
+            and all(isinstance(name, str) and bool(name.strip()) for name in authors))
+
+
+def _cache_file(folder, key):
+    return os.path.join(folder, 'v2', hashlib.sha256(key.encode()).hexdigest() + '.json')
+
+
+def _read_cache(folder, key, source):
+    try:
+        with open(_cache_file(folder, key), encoding='utf-8') as handle:
+            record = json.load(handle)
+        age = time.time() - record['retrieved_at']
+        if (record.get('schema_version') == CACHE_VERSION and record.get('source') == source
+                and record.get('key') == key and 0 <= age < CACHE_TTL
+                and _valid_authors(record.get('authors'))):
+            return record['authors']
+    except (OSError, ValueError, KeyError, TypeError):
+        pass
     return None
 
 
-def _arxiv_parse_authors(xml_text):
+def _save_authors(folder, key, source, url, body, authors):
+    """Atomic success-only cache; errors never poison future lookups."""
+    if not _valid_authors(authors):
+        return None
+    authors = [name.strip() for name in authors]
+    record = {'schema_version': CACHE_VERSION, 'source': source, 'key': key,
+              'source_url': url, 'retrieved_at': time.time(), 'authors': authors,
+              'response_sha256': hashlib.sha256(body.encode()).hexdigest()}
+    destination = _cache_file(folder, key)
+    os.makedirs(os.path.dirname(destination), exist_ok=True)
+    temp_path = None
+    try:
+        with tempfile.NamedTemporaryFile(mode='w', encoding='utf-8',
+                                         dir=os.path.dirname(destination), delete=False) as handle:
+            temp_path = handle.name
+            json.dump(record, handle, ensure_ascii=False, indent=2)
+        os.replace(temp_path, destination)
+    finally:
+        if temp_path and os.path.exists(temp_path):
+            os.unlink(temp_path)
+    return authors
+
+
+def _arxiv_parse_authors(xml_text, expected_id):
+    if not xml_text:
+        return None
     try:
         root = ET.fromstring(xml_text)
     except ET.ParseError:
         return None
+    if root.tag != f"{{{NS['a']}}}feed":
+        return None
     entries = root.findall('a:entry', NS)
-    if not entries:
+    if len(entries) != 1:
         return None
     entry = entries[0]
-    aid = entry.find('a:id', NS)
-    if aid is not None and '/errors' in (aid.text or ''):
+    source_id = entry.findtext('a:id', default='', namespaces=NS).strip()
+    if not re.match(r'^https?://arxiv\.org/abs/', source_id):
         return None
-    return [a.find('a:name', NS).text for a in entry.findall('a:author', NS)
-            if a.find('a:name', NS) is not None]
+    if canonical_arxiv_id(source_id) != expected_id:
+        return None
+    if not entry.findtext('a:title', default='', namespaces=NS).strip():
+        return None
+    authors = [author.findtext('a:name', default='', namespaces=NS)
+               for author in entry.findall('a:author', NS)]
+    return [name.strip() for name in authors] if _valid_authors(authors) else None
 
 
-def fetch_arxiv_authors(arxiv_id, primary_category=None, delay=1,
-                        owner_hint=None):
-    """Returns list of author names or None.
+def fetch_arxiv_authors(arxiv_id, primary_category=None, delay=3, owner_hint=None):
+    """Return exact-ID source authors, or None (unresolved).
 
-    For 7-digit legacy ids, the same number can resolve to DIFFERENT papers
-    under different archive prefixes (e.g. `hep-th/9602001` is by Jose Gaite,
-    `dg-ga/9602001` is by Anton Alekseev). We try ALL plausible archives and,
-    if `owner_hint` is given, return the variant whose author list contains
-    a compatible match for the hint. Without a hint we take the first hit
-    (legacy behavior, may be wrong for ambiguous ids).
+    Bare seven-digit IDs are ambiguous and never resolved from category/name
+    hints. The retained optional arguments keep older callers compatible; they
+    do not authorize guessing an archive or binding an author to a person.
     """
-    arxiv_id = arxiv_id.split('v')[0]
-    safe = arxiv_id.replace('/', '_')
-    cache = os.path.join(ARXIV_CACHE, f'{safe}.json')
-    miss_cache = cache + '.miss'
-    if os.path.exists(cache):
-        try:
-            return json.load(open(cache))
-        except json.JSONDecodeError:
-            pass
-    if os.path.exists(miss_cache):
-        return None  # known-bad id, don't retry
-    candidates = [arxiv_id]
-    is_legacy = bool(re.match(r'^\d{7}$', arxiv_id))
-    if is_legacy:
-        prefixes = _arxiv_archive_for_category(primary_category) or []
-        for arch in prefixes + ['hep-th', 'math', 'alg-geom', 'dg-ga',
-                                'math-ph', 'q-alg', 'gr-qc']:
-            qid = f'{arch}/{arxiv_id}'
-            if qid not in candidates:
-                candidates.append(qid)
-
-    hits = []  # (qid, authors)
-    for qid in candidates:
-        time.sleep(delay)
-        url = f'https://export.arxiv.org/api/query?id_list={qid}&max_results=1'
-        out = _curl(url, max_time=20)
-        authors = _arxiv_parse_authors(out)
-        if authors:
-            hits.append((qid, authors))
-            # For non-legacy (modern arxiv id), one hit is enough — they're
-            # globally unique.
-            if not is_legacy:
-                break
-
-    if not hits:
-        open(miss_cache, 'w').close()
+    aid = canonical_arxiv_id(arxiv_id)
+    if not aid or re.fullmatch(r'\d{7}', aid):
         return None
-
-    chosen = None
-    if owner_hint and len(hits) > 1:
-        # Import lazily to avoid circular at module load.
-        try:
-            from name_match import names_compatible
-            for qid, auths in hits:
-                if any(names_compatible(owner_hint, a) for a in auths):
-                    chosen = auths
-                    break
-        except Exception:
-            pass
-    if chosen is None:
-        chosen = hits[0][1]
-    with open(cache, 'w') as f:
-        json.dump(chosen, f, ensure_ascii=False)
-    return chosen
+    cached = _read_cache(ARXIV_CACHE, aid, 'arxiv')
+    if cached:
+        return cached
+    time.sleep(delay)
+    url = f'https://export.arxiv.org/api/query?id_list={quote(aid, safe="/")}&max_results=1'
+    body = _curl(url, expected_type='xml')
+    authors = _arxiv_parse_authors(body, aid)
+    if authors:
+        return _save_authors(ARXIV_CACHE, aid, 'arxiv', url, body, authors)
+    return None
 
 
-# =================== crossref ===================
+def _doi(value):
+    value = canonical_doi(value)
+    return value if value and re.fullmatch(r'10\.\d{4,9}/\S+', value) else None
+
 
 def fetch_crossref_authors(doi, delay=0.3):
+    doi = _doi(doi)
     if not doi:
         return None
-    doi = doi.lower().strip()
-    if doi.startswith('10.48550/arxiv.'):
-        return None
-    safe = re.sub(r'[^a-z0-9]', '_', doi)
-    cache = os.path.join(CROSSREF_CACHE, f'{safe}.json')
-    miss_cache = cache + '.miss'
-    if os.path.exists(cache):
-        try:
-            return json.load(open(cache))
-        except json.JSONDecodeError:
-            pass
-    if os.path.exists(miss_cache):
-        return None
+    cached = _read_cache(CROSSREF_CACHE, doi, 'crossref')
+    if cached:
+        return cached
     time.sleep(delay)
-    url = f'https://api.crossref.org/works/{doi}?mailto={POLITE_EMAIL}'
-    out = _curl(url, max_time=15)
-    if not out:
-        open(miss_cache, 'w').close()
-        return None
+    url = f'https://api.crossref.org/works/{quote(doi, safe="/")}'
+    body = _curl(url, expected_type='json')
     try:
-        data = json.loads(out)
-    except json.JSONDecodeError:
-        open(miss_cache, 'w').close()
+        data = json.loads(body or '')
+        message = data.get('message') or {}
+        if data.get('status') != 'ok' or _doi(message.get('DOI')) != doi:
+            return None
+        authors = [(' '.join(str(a.get(part) or '').strip() for part in ('given', 'family'))).strip()
+                   or a.get('name') or '' for a in message.get('author', [])]
+    except (ValueError, AttributeError, TypeError):
         return None
-    if data.get('status') != 'ok':
-        open(miss_cache, 'w').close()
-        return None
-    msg = data.get('message') or {}
-    authors = []
-    for a in (msg.get('author') or []):
-        given = a.get('given') or ''
-        family = a.get('family') or ''
-        n = (given + ' ' + family).strip()
-        if not n:
-            n = a.get('name') or ''
-        if n:
-            authors.append(n)
-    if authors:
-        with open(cache, 'w') as f:
-            json.dump(authors, f, ensure_ascii=False)
-        return authors
-    open(miss_cache, 'w').close()
-    return None
+    return _save_authors(CROSSREF_CACHE, doi, 'crossref', url, body, authors)
 
 
-# =================== openalex ===================
+def _openalex_key(value):
+    key = str(value or '').strip()
+    key = re.sub(r'^https?://(?:api\.)?openalex\.org/(?:works/)?', '', key, flags=re.I)
+    key = re.sub(r'^openalex:', '', key, flags=re.I)
+    if re.fullmatch(r'W\d+', key, re.I):
+        return key.upper()
+    return _doi(key)
+
 
 def fetch_openalex_authors(work_id_or_doi, delay=0.3):
-    if not work_id_or_doi:
+    key = _openalex_key(work_id_or_doi)
+    if not key:
         return None
-    key = str(work_id_or_doi).strip()
-    safe = re.sub(r'[^a-zA-Z0-9]', '_', key)
-    cache = os.path.join(OPENALEX_CACHE, f'{safe}.json')
-    miss_cache = cache + '.miss'
-    if os.path.exists(cache):
-        try:
-            return json.load(open(cache))
-        except json.JSONDecodeError:
-            pass
-    if os.path.exists(miss_cache):
-        return None
-    if key.startswith('W'):
-        url = f'https://api.openalex.org/works/{key}?mailto={POLITE_EMAIL}'
-    elif '/' in key or key.startswith('10.'):
-        url = f'https://api.openalex.org/works/doi:{key}?mailto={POLITE_EMAIL}'
-    else:
-        return None
+    cached = _read_cache(OPENALEX_CACHE, key, 'openalex')
+    if cached:
+        return cached
+    lookup = key if key.startswith('W') else 'doi:' + key
+    url = f'https://api.openalex.org/works/{quote(lookup, safe="/:")}'
     time.sleep(delay)
-    out = _curl(url, max_time=15)
-    if not out:
-        open(miss_cache, 'w').close()
-        return None
+    body = _curl(url, expected_type='json')
     try:
-        data = json.loads(out)
-    except json.JSONDecodeError:
-        open(miss_cache, 'w').close()
+        data = json.loads(body or '')
+        returned = _openalex_key(data.get('id')) if key.startswith('W') else _doi(data.get('doi'))
+        if returned != key:
+            return None
+        authors = [(a.get('author') or {}).get('display_name') or ''
+                   for a in data.get('authorships', [])]
+    except (ValueError, AttributeError, TypeError):
         return None
-    auths = []
-    for a in (data.get('authorships') or []):
-        n = (a.get('author') or {}).get('display_name')
-        if n:
-            auths.append(n)
-    if auths:
-        with open(cache, 'w') as f:
-            json.dump(auths, f, ensure_ascii=False)
-        return auths
-    open(miss_cache, 'w').close()
-    return None
+    return _save_authors(OPENALEX_CACHE, key, 'openalex', url, body, authors)
 
-
-# =================== unified ===================
 
 def get_actual_authors(pub, owner_hint=None):
-    """Return ground-truth author list for `pub` (yaml entry) or None.
+    """Return (source author names, source label), or (None, None).
 
-    Tries arxiv > Crossref > OpenAlex. arxiv is most reliable for math papers.
-    Returns None when no source can resolve.
+    This lookup does not verify the record's title, DOI/arXiv equivalence or
+    personal identity. Callers must not turn unresolved lookups into a verdict.
     """
-    pid = (pub.get('id') or '').strip()
-    pcat = pub.get('primary_category')
-    doi = (pub.get('doi') or '').strip()
-    oa = (pub.get('openalex_id') or '').strip()
-
-    # 1) arxiv id (modern or legacy)
-    arxiv_id = None
-    if pid and not pid.startswith(('doi:', 'openalex:', 'cr:')):
-        aid = pid.split('v')[0]
-        if re.match(r'^\d{4}\.\d{4,5}$|^\d{7}$|^[a-z-]+/\d{7}$', aid):
-            arxiv_id = aid
-    if arxiv_id:
-        a = fetch_arxiv_authors(arxiv_id, primary_category=pcat,
-                                owner_hint=owner_hint)
-        if a:
-            return a, 'arxiv'
-
-    # 2) DOI via Crossref
+    pid = str(pub.get('id') or '').strip()
+    doi = _doi(pub.get('doi') or (pid[4:] if pid.startswith('doi:') else None))
+    oa = pub.get('openalex_id') or (pid[9:] if pid.startswith('openalex:') else None)
+    aid = canonical_arxiv_id(pid)
+    if aid:
+        authors = fetch_arxiv_authors(aid, primary_category=pub.get('primary_category'), owner_hint=owner_hint)
+        if authors:
+            return authors, 'arxiv'
     if doi:
-        a = fetch_crossref_authors(doi)
-        if a:
-            return a, 'crossref'
-
-    # 3) OpenAlex (work id or doi)
-    if oa:
-        a = fetch_openalex_authors(oa)
-        if a:
-            return a, 'openalex'
-    if doi:
-        a = fetch_openalex_authors(doi)
-        if a:
-            return a, 'openalex'
-
+        authors = fetch_crossref_authors(doi)
+        if authors:
+            return authors, 'crossref'
+    for key in dict.fromkeys(key for key in (oa, doi) if key):
+        authors = fetch_openalex_authors(key)
+        if authors:
+            return authors, 'openalex'
     return None, None
