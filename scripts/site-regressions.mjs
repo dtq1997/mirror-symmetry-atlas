@@ -4,8 +4,9 @@ import assert from 'node:assert/strict';
 import { spawnSync } from 'node:child_process';
 import identity from '../.cache/msa/site-tests/paper-identity.js';
 import { entityRoute } from '../.cache/msa/site-tests/entity-route.js';
+import { buildPeopleGraph, simulationGraph } from '../.cache/msa/site-tests/graph.js';
 import { publicSourceUrl } from '../.cache/msa/site-tests/source-url.js';
-import { collectPublications } from '../.cache/msa/site-tests/publications.js';
+import { collectPublications, collectCoauthorship, recordedPublicationStats } from '../.cache/msa/site-tests/publications.js';
 
 test('DOI and OpenAlex records never link to arXiv', () => {
   assert.equal(identity.publicationUrl({ id: 'doi:10.1000/example' }), 'https://doi.org/10.1000/example');
@@ -80,4 +81,69 @@ test('existing routes resolve and ghosts do not masquerade as detail pages', () 
 test('local evidence paths and placeholders cannot be public links', () => {
   for (const input of ['None', 'file:../private.pdf', 'javascript:alert(1)', '']) assert.equal(publicSourceUrl(input), undefined);
   assert.equal(publicSourceUrl('https://arxiv.org/abs/2401.12345'), 'https://arxiv.org/abs/2401.12345');
+});
+
+test('archive-less legacy numbers cannot merge different papers', () => {
+  assert.equal(identity.groupPaperRecords([
+    { id: '9602001', title: 'Work in one archive' }, { id: '9602001', title: 'Different work elsewhere' },
+  ]).length, 2);
+});
+
+test('coauthor counts join DOI/arXiv bridges once and require two distinct owners', () => {
+  const a = { slug: 'a', publications: [
+    { id: 'doi:10.1000/shared', title: 'Published title', year: 2024 },
+    { id: '2401.12345', doi: '10.1000/shared', title: 'Revised title', year: 2024 },
+  ] };
+  const b = { slug: 'b', publications: [{ id: '2401.12345v1', title: 'Original title', year: 2024 }] };
+  assert.equal(collectCoauthorship([a]).length, 0);
+  const edges = collectCoauthorship([a, b]);
+  assert.equal(edges.length, 1);
+  assert.equal(edges[0].weight, 1);
+  assert.deepEqual([edges[0].source, edges[0].target], ['a', 'b']);
+});
+
+test('matching titles, raw names and ambiguous numbers cannot create coauthor edges', () => {
+  for (const ids of [['9602001', '9602001'], ['unknown-a', 'unknown-b'], ['2401.12345', '2401.54321']]) {
+    const people = ids.map((id, i) => ({ slug: String(i), publications: [
+      { id, title: 'Same title', year: 2024, coauthors: ['Same Name', String(1 - i)] },
+    ] }));
+    assert.equal(collectCoauthorship(people).length, 0);
+  }
+});
+
+test('live counts ignore stale manual totals and count duplicate records once', () => {
+  const person = { slug: 'a', activity: { total_papers: 999, published_count: 999 }, publications: [
+    { id: '2401.12345', title: 'Shared', year: 2024, doi: '10.1000/shared' },
+    { id: 'doi:10.1000/shared', title: 'Shared', year: 2024 },
+  ] };
+  assert.deepEqual(recordedPublicationStats(person), { total_papers: 1, published_count: 1, preprint_only_count: 0 });
+});
+
+test('graph does not invent age, prestige or manual coauthor counts', () => {
+  const person = (slug) => ({ slug, name: { en: slug }, publications: [], career_timeline: [] });
+  const a = { ...person('a'), tags: ['fields-medal'], activity: { total_papers: 999 },
+    career_timeline: [{ type: 'position', period: '1980', role: 'professor' }] };
+  const graph = buildPeopleGraph([a, person('b')], [{ source: 'a', target: 'b', type: 'coauthor', weight: 999 }]);
+  assert.equal(graph.links.length, 0);
+  assert.equal(graph.nodes[0].radius, graph.nodes[1].radius);
+  assert.equal(graph.nodes[0].color, graph.nodes[1].color);
+});
+
+test('simulation mutation cannot corrupt source data or filtered link endpoints', () => {
+  const source = { nodes: [{ id: 'a' }, { id: 'b' }], links: [{ source: 'a', target: 'b' }] };
+  const first = simulationGraph(source);
+  first.nodes[0].x = 17;
+  first.nodes[0].y = 23;
+  first.links[0].source = first.nodes[0];
+  first.links[0].target = first.nodes[1];
+  assert.equal(source.nodes[0].x, undefined);
+  assert.equal(source.links[0].source, 'a');
+  const filtered = { nodes: source.nodes.map(n => ({ ...n, opacity: 0.5 })), links: first.links };
+  const next = simulationGraph(filtered, first);
+  assert.equal(next.links[0].source, 'a');
+  assert.equal(next.links[0].target, 'b');
+  assert.equal(next.nodes[0].x, 17);
+  assert.equal(next.nodes[0].opacity, 0.5);
+  assert.notEqual(next.nodes[0], first.nodes[0]);
+  assert.equal(simulationGraph({ nodes: [source.nodes[0]], links: first.links }, first).links.length, 0);
 });

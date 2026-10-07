@@ -15,7 +15,7 @@ import type {
   DataStore,
   AckMention,
 } from "./types";
-import { canonicalPaperId } from "./paper-identity";
+import { collectCoauthorship, recordedPublicationStats } from "./publications";
 
 const DATA_DIR = path.join(process.cwd(), "data");
 
@@ -46,7 +46,7 @@ export function getAllPeople(): Person[] {
     research_areas: p.research_areas || [],
     students: p.students || [],
     key_collaborators: p.key_collaborators || [],
-    activity: p.activity || {},
+    activity: { ...p.activity, ...recordedPublicationStats(p) },
     external_ids: p.external_ids || {},
     links: p.links || {},
     tags: p.tags || [],
@@ -156,142 +156,31 @@ export function getAllConnections(): Connection[] {
     }
   }
 
-  // Auto-derive coauthor edges from key_collaborators when both endpoints are built.
-  // **Publications-derived edges OVERRIDE declared coauthor edges** because the
-  // declared yaml had hand-typed weights that drift out of sync with reality.
-  // We never trust hand-typed papers_count for the coauthor count.
-  const declaredCoauthor = new Set<string>();
-  // Build set of pairs declared in connections/coauthorship.yaml (so we
-  // can REMOVE them when we have a publications-derived alternative).
-  for (const c of connections) {
-    if (c.type !== "coauthor") continue;
-    const k = [c.source, c.target].sort().join("|");
-    declaredCoauthor.add(k);
-  }
-
   const people = getAllPeople();
   const builtSlugs = new Set(people.map((p) => p.slug));
-  const derivedSeen = new Set<string>();
-
-  // SSOT for coauthorship: a pair (a, b) shares a paper P **iff** P appears in
-  // BOTH a.publications AND b.publications (matched by canonical paper id —
-  // doi → arxiv-id → folded title). We do NOT infer slug membership from raw
-  // English names in coauthor fields; that produced massive false positives
-  // when distinct authors shared a name (e.g. multiple "Ao Li").
-  //
-  // If a paper is genuinely coauthored but only one side's yaml recorded it,
-  // there will be no edge — that's the correct fail-closed behavior. Fix it
-  // upstream by adding the paper to the other yaml.
-  type CoauthoredPaper = { id: string; title: string; year: number; doi?: string; journal?: string; primary_category?: string };
-  type PubRow = { id: string; title: string; year: number; coauthors?: string[]; doi?: string; journal?: string; primary_category?: string };
-  // canonical paper id → list of (slug, pub) that own this paper
-  const paperOwners = new Map<string, Array<{ slug: string; pub: PubRow }>>();
-  for (const p of people) {
-    const pubs = (p as unknown as { publications?: PubRow[] }).publications;
-    if (!pubs) continue;
-    for (const pub of pubs) {
-      const cid = canonicalPaperId({ id: pub.id, doi: pub.doi, title: pub.title });
-      if (!cid) continue;
-      const list = paperOwners.get(cid) ?? [];
-      list.push({ slug: p.slug, pub });
-      paperOwners.set(cid, list);
-    }
+  const pairKey = (a: string, b: string) => [a, b].sort().join("|");
+  const recorded = collectCoauthorship(people);
+  const recordedPairs = new Set(recorded.map((edge) => pairKey(edge.source, edge.target)));
+  // Keep unlinked declarations as explicitly unverified detail-page notes;
+  // they do not supply a paper count or a graph edge.
+  for (let i = connections.length - 1; i >= 0; i--) {
+    const edge = connections[i];
+    if (edge.type !== "coauthor") continue;
+    if (recordedPairs.has(pairKey(edge.source, edge.target))) connections.splice(i, 1);
+    else connections[i] = { ...edge, weight: undefined, derived: false, coauthored_papers: undefined };
   }
-
-  function pickRicher(a: PubRow, b: PubRow): PubRow {
-    // Prefer the side that has journal/doi (= "published" version).
-    const aPub = !!(a.journal || a.doi);
-    const bPub = !!(b.journal || b.doi);
-    if (aPub && !bPub) return a;
-    if (bPub && !aPub) return b;
-    return a;
-  }
-
-  const pairPapers = new Map<string, { published: CoauthoredPaper[]; preprint: CoauthoredPaper[] }>();
-  for (const owners of paperOwners.values()) {
-    if (owners.length < 2) continue; // need both sides
-    // Pick the richest record for the canonical view of this paper.
-    let canon = owners[0].pub;
-    for (let i = 1; i < owners.length; i++) canon = pickRicher(canon, owners[i].pub);
-    const isPub = !!(canon.journal || canon.doi);
-    const slugs = Array.from(new Set(owners.map((o) => o.slug)));
-    for (let i = 0; i < slugs.length; i++) {
-      for (let j = i + 1; j < slugs.length; j++) {
-        const key = [slugs[i], slugs[j]].sort().join("|");
-        const bucket = pairPapers.get(key) ?? { published: [], preprint: [] };
-        const existsPub = bucket.published.some((x) => x.id === canon.id);
-        const existsPre = bucket.preprint.some((x) => x.id === canon.id);
-        if (existsPub || existsPre) continue;
-        const row = {
-          id: canon.id,
-          title: canon.title,
-          year: canon.year,
-          doi: canon.doi,
-          journal: canon.journal,
-          primary_category: canon.primary_category,
-        };
-        if (isPub) bucket.published.push(row);
-        else bucket.preprint.push(row);
-        pairPapers.set(key, bucket);
-      }
-    }
-  }
-
-  // Emit a coauthor edge per pair with at least one shared paper.
-  // These edges OVERRIDE any declared coauthor edges for the same pair,
-  // because publications data is authoritative.
-  const overriddenDeclared = new Set<string>();
-  for (const [key, bucket] of pairPapers) {
-    const [a, b] = key.split("|");
-    if (derivedSeen.has(key)) continue;
-    derivedSeen.add(key);
-    const total = bucket.published.length + bucket.preprint.length;
-    if (total === 0) continue;
-    if (declaredCoauthor.has(key)) overriddenDeclared.add(key);
-    const allYears = [...bucket.published, ...bucket.preprint]
-      .map((p) => p.year).filter((y): y is number => typeof y === "number")
-      .sort((x, y) => x - y);
-    connections.push({
-      source: a,
-      target: b,
-      type: "coauthor",
-      weight: total,
-      period: allYears.length ? `${allYears[0]}-${allYears[allYears.length - 1]}` : undefined,
-      derived: true,
-      coauthored_papers: bucket,
-    } as Connection);
-  }
-
-  // Filter out the now-overridden declared coauthor edges to prevent duplicates.
-  if (overriddenDeclared.size > 0) {
-    for (let i = connections.length - 1; i >= 0; i--) {
-      const c = connections[i];
-      if (c.type !== "coauthor" || (c as Connection & {derived?: boolean}).derived) continue;
-      const k = [c.source, c.target].sort().join("|");
-      if (overriddenDeclared.has(k)) {
-        connections.splice(i, 1);
-      }
-    }
-  }
-
-  // Also keep declared key_collaborators that didn't show up in publications
-  // (rare: e.g. very old joint work pre-arXiv that we know about manually).
-  for (const p of people) {
-    for (const c of p.key_collaborators || []) {
-      const other = c.person;
-      if (!other || !builtSlugs.has(other) || other === p.slug) continue;
-      const key = [p.slug, other].sort().join("|");
-      if (declaredCoauthor.has(key) || derivedSeen.has(key)) continue;
-      derivedSeen.add(key);
-      connections.push({
-        source: p.slug,
-        target: other,
-        type: "coauthor",
-        weight: c.papers_count ?? 1,
-        period: c.since ? `${c.since}-present` : undefined,
-        notes: c.topic,
-        derived: true,
-      } as Connection);
+  connections.push(...recorded);
+  const declaredPairs = new Set(connections.filter((c) => c.type === "coauthor")
+    .map((c) => pairKey(c.source, c.target)));
+  for (const person of people) {
+    for (const collaborator of person.key_collaborators) {
+      const other = collaborator.person;
+      if (!other || !builtSlugs.has(other) || other === person.slug) continue;
+      const key = pairKey(person.slug, other);
+      if (declaredPairs.has(key)) continue;
+      declaredPairs.add(key);
+      connections.push({ source: person.slug, target: other, type: "coauthor",
+        notes: collaborator.topic, derived: false });
     }
   }
 

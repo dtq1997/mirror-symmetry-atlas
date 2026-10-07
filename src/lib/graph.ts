@@ -1,3 +1,4 @@
+import { collectPublications } from "./publications";
 import type {
   Person,
   Concept,
@@ -42,6 +43,21 @@ const EDGE_DASH: Record<ConnectionType, number[] | undefined> = {
   acknowledgement: [1, 3],
 };
 
+/** Force-graph mutates node coordinates and replaces link IDs with objects.
+ * Give it an owned copy and rebind links after every filter/search update. */
+export function simulationGraph(data: GraphData, previous?: GraphData): GraphData {
+  const positions = new Map(previous?.nodes.map((node) => [node.id, node]));
+  const endpoint = (value: string | { id?: string }) => typeof value === "string" ? value : value.id ?? "";
+  const nodes = data.nodes.map((node) => ({ ...node,
+    x: node.x ?? positions.get(node.id)?.x, y: node.y ?? positions.get(node.id)?.y,
+  }));
+  const ids = new Set(nodes.map((node) => node.id));
+  const links = data.links.map((link) => ({ ...link,
+    source: endpoint(link.source), target: endpoint(link.target),
+  })).filter((link) => ids.has(link.source) && ids.has(link.target));
+  return { nodes, links };
+}
+
 // ===== Adaptive force parameters =====
 
 export function getForceParams(nodeCount: number) {
@@ -60,94 +76,9 @@ export function getForceParams(nodeCount: number) {
   return { chargeStrength: -180, linkDistance: 80 };
 }
 
-// ===== Node radius by importance =====
-// 复合信号: publications 长度 + 奖项等级 + 分区论文 + descendants + senior tag.
-// 目标: 大佬 vs 青椒的半径差异应当显著 (例如 18 vs 4),而不是挤在 8-12 区间.
-
-const TOP_AWARD_KEYWORDS = [
-  "菲尔兹", "fields medal", "wolf prize", "abel prize",
-  "院士", "academician", "national academy",
-  "shaw prize", "crafoord", "veblen", "breakthrough prize",
-  "national medal of science", "macarthur",
-];
-const BIG_AWARD_KEYWORDS = [
-  "杰出青年", "jieqing", "长江学者", "changjiang",
-  "千人", "百千万", "national natural science award",
-  "国家自然科学奖", "chern medal", "ramanujan prize",
-  "salem prize", "sloan fellow", "packard fellow",
-];
-const MID_AWARD_KEYWORDS = [
-  "青年人才", "优青", "young scientist", "优秀青年",
-  "青年学者", "钟家庆", "iccm", "青年长江", "青年拔尖",
-  "新世纪人才", "young investigator",
-];
-
-function awardTier(p: Person): 0 | 1 | 2 | 3 {
-  const timeline = p.career_timeline || [];
-  const tags = p.tags || [];
-  const collected: string[] = [];
-  for (const e of timeline) {
-    if (e.type === "award") {
-      collected.push(`${e.title || ""} ${e.notes || ""}`.toLowerCase());
-    }
-  }
-  const blob = collected.join(" | ") + " " + tags.join(" ").toLowerCase();
-  if (TOP_AWARD_KEYWORDS.some((k) => blob.includes(k))) return 3;
-  if (BIG_AWARD_KEYWORDS.some((k) => blob.includes(k))) return 2;
-  if (MID_AWARD_KEYWORDS.some((k) => blob.includes(k))) return 1;
-  return 0;
-}
-
+// Node size shows catalog coverage, never inferred prestige or seniority.
 function personRadius(p: Person): number {
-  const tags = p.tags || [];
-
-  const a = p.activity ?? {};
-  const t1 = a.t1_papers ?? 0;
-  const t2 = a.t2_papers ?? 0;
-  const t3 = a.t3_papers ?? 0;
-  const t4 = a.t4_papers ?? 0;
-  const qscore = t1 * 4 + t2 * 2 + t3 * 0.5 + t4 * 0.2;
-
-  const pubs = p.publications?.length ?? 0;
-  const desc = a.academic_descendants ?? 0;
-  const papersTotal = Math.max(a.total_papers ?? 0, pubs);
-
-  // 始终综合三路信号: 分区论文权重 + descendants + 论文总量
-  const rawScore = qscore + desc * 0.8 + papersTotal * 0.6;
-
-  const tier = awardTier(p);
-  // 奖项等级直接给基础下限 (tier 3: 院士/菲尔兹级; tier 2: 杰青/长江; tier 1: 优青)
-  const awardFloor = tier === 3 ? 15 : tier === 2 ? 11 : tier === 1 ? 8 : 0;
-
-  const scoreRadius = rawScore > 0 ? 4 + Math.sqrt(rawScore) * 0.9 : 4;
-  let r = Math.max(scoreRadius, awardFloor);
-
-  // 顶级标签视为绝对优先 (即便数据 stub)
-  if (tags.includes("fields-medal")) r = Math.max(r, 18);
-  else if (tags.includes("important-person")) r = Math.max(r, 15);
-
-  // stub 只是资料不全,不一定是小人物;仅当无任何信号时压为 3.5
-  if (tags.includes("stub") && r <= 4.5 && tier === 0) return 3.5;
-
-  return Math.max(3.5, Math.min(r, 18));
-}
-
-// ===== Person color by age/status =====
-
-// 根据 role 文本推断该时间点的大致年龄,用于从 career_timeline 反推出生年
-function roleAgeOffset(role: string, type: string): number | null {
-  const r = (role || "").toLowerCase();
-  if (/本科|undergrad|b\.?s\.?c?\.?|学士/.test(r)) return 20;  // 本科开始约 20 岁前后的均值
-  if (/硕士|master|m\.?sc?\.?/.test(r)) return 23;
-  if (/博士后|post.?doc/.test(r)) return 29;
-  if (/博士|ph\.?d\.?|doctor/.test(r)) return 25;
-  if (/教授|professor|讲席|chair/.test(r)) return 38;
-  if (/副教授|associate/.test(r)) return 33;
-  if (/助理教授|assistant|lecturer|讲师|特聘/.test(r)) return 30;
-  if (type === "education") return 22;
-  if (type === "position") return 30;
-  if (type === "visit") return 30;
-  return null;
+  return Math.min(18, 4 + Math.sqrt(collectPublications([p]).length));
 }
 
 function yearFromDateValue(value?: number | string | null): number | null {
@@ -161,38 +92,8 @@ function yearFromLifeDate(fact?: LifeDateFact, fallback?: number | string | null
   return yearFromDateValue(fact?.date) ?? yearFromDateValue(fallback);
 }
 
-function estimateBirthYear(p: Person): number | null {
-  const explicitBorn = yearFromLifeDate(p.birth, p.born);
-  if (explicitBorn) return explicitBorn;
-  const timeline = p.career_timeline || [];
-  // 取所有能推断年龄的条目,取中位数以稳健
-  const estimates: number[] = [];
-  for (const entry of timeline) {
-    const match = entry.period?.replace(/~/g, "").match(/(\d{4})/);
-    if (!match) continue;
-    const year = parseInt(match[1]);
-    const offset = roleAgeOffset(entry.role || "", entry.type || "");
-    if (offset !== null) estimates.push(year - offset);
-  }
-  if (estimates.length === 0) return null;
-  estimates.sort((a, b) => a - b);
-  return estimates[Math.floor(estimates.length / 2)];
-}
-
 function personColor(p: Person): string {
-  if (yearFromLifeDate(p.death, p.died)) return "#777788";
-
-  const birthYear = estimateBirthYear(p);
-  if (!birthYear) return "#9ca3af"; // 未知年龄 → 中性灰蓝,避免误导
-
-  const age = 2026 - birthYear;
-
-  if (age >= 75) return "#92400e"; // 深棕 — 元老 (75+)
-  if (age >= 60) return "#b45309"; // 深琥珀 — 资深 (60-74)
-  if (age >= 50) return "#d97706"; // 中深琥珀 — 中坚 (50-59)
-  if (age >= 40) return "#f59e0b"; // 标准琥珀 — 壮年 (40-49)
-  if (age >= 32) return "#fbbf24"; // 亮琥珀 — 青年 PI (32-39)
-  return "#fde047";                // 亮金 — 新锐 (<32)
+  return yearFromLifeDate(p.death, p.died) ? "#777788" : COLORS.person;
 }
 
 // ===== Build people graph =====
@@ -201,6 +102,7 @@ export function buildPeopleGraph(
   people: Person[],
   connections: Connection[]
 ): GraphData {
+  connections = connections.filter((c) => c.type !== "coauthor" || c.coauthored_papers);
   const nodes: GraphNode[] = [];
   const nodeIds = new Set<string>();
 
@@ -272,7 +174,7 @@ export function buildAckGraph(
 ): GraphData {
   // Filter relevant connections
   const relevantLinks = connections.filter(
-    (c) => c.type === "coauthor" || c.type === "acknowledgement"
+    (c) => (c.type === "coauthor" && !!c.coauthored_papers) || c.type === "acknowledgement"
   );
 
   // Compute ack-weighted importance per person (in + out)
@@ -299,7 +201,7 @@ export function buildAckGraph(
   for (const p of people) {
     if (!kept.has(p.slug)) continue;
     const d = ackDegree.get(p.slug) ?? { inW: 0, outW: 0 };
-    // Radius = 4 + log2(1 + inW*2 + outW) * 1.4 (被致谢权重更高,代表影响力)
+    // Radius encodes extracted mentions only; it does not measure influence.
     const score = d.inW * 2 + d.outW;
     const r = score > 0 ? Math.min(4 + Math.log2(score + 1) * 1.4, 14) : 4;
     nodes.push({

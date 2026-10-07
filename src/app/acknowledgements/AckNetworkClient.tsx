@@ -108,8 +108,9 @@ export default function AckNetworkClient({ graphData, peopleCount }: Props) {
           <h1 className="text-lg font-semibold text-[#e8e8f0]">致谢网</h1>
           <p className="text-xs text-[#8888a0]">
             从 arXiv 论文致谢段抽取 · {peopleCount} 人 · {ackStats.ackCount} 条致谢边 ·{" "}
-            {ackStats.coauthorCount} 条合著边 · 当前显示 {visibleAckCount}+{visibleCoauthorCount} 条
+            {ackStats.coauthorCount} 条共同收录论文关系 · 当前显示 {visibleAckCount}+{visibleCoauthorCount} 条
           </p>
+          <p className="text-xs text-[#8888a0] mt-1">节点大小仅表示抽取到的致谢次数；署名与致谢对象仍在复核，不代表学术影响力。</p>
         </div>
       </div>
 
@@ -126,7 +127,7 @@ export default function AckNetworkClient({ graphData, peopleCount }: Props) {
         />
 
         {/* Top controls */}
-        <div className="absolute top-4 left-1/2 -translate-x-1/2 z-20 flex gap-3 items-center bg-[#14141f]/95 backdrop-blur-sm rounded-lg border border-[#2a2a3a] px-3 py-2 shadow-lg">
+        <div className="absolute top-4 left-1/2 -translate-x-1/2 z-20 flex flex-wrap justify-center gap-3 max-w-[calc(100%_-_2rem)] w-max items-center bg-[#14141f]/95 backdrop-blur-sm rounded-lg border border-[#2a2a3a] px-3 py-2 shadow-lg">
           <input
             type="text"
             value={searchQuery}
@@ -194,6 +195,7 @@ export default function AckNetworkClient({ graphData, peopleCount }: Props) {
 
         <DetailSidebar
           node={selectedNode}
+          connections={graphData.links.flatMap((link) => link.data ? [link.data] : [])}
           onClose={() => setSelectedNode(null)}
         />
       </div>

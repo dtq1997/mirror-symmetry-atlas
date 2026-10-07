@@ -4,6 +4,7 @@ import PersonTimeline from "@/components/person/PersonTimeline";
 import PersonStats from "@/components/person/PersonStats";
 import Link from "@/components/shared/AtlasLink";
 import { notFound } from "next/navigation";
+import { collectPublications } from "@/lib/publications";
 import { publicationUrl } from "@/lib/paper-identity";
 import { publicSourceUrl } from "@/lib/source-url";
 import type { LifeDateFact, OnlineTrace, Person, SourceRef } from "@/lib/types";
@@ -104,7 +105,7 @@ export default async function PersonPage({
       {person.activity && (
         <section className="mb-8">
           <h2 className="text-lg font-semibold text-[#e8e8f0] mb-3">
-            学术活跃度
+            收录论文与历史统计
           </h2>
           <PersonStats activity={person.activity} />
         </section>
@@ -159,8 +160,9 @@ export default async function PersonPage({
       {coauthors.length > 0 && (
         <section className="mb-8">
           <h2 className="text-lg font-semibold text-[#e8e8f0] mb-3">
-            合著者
+            合著记录
           </h2>
+          <p className="text-xs text-[#8888a0] mb-3">仅按双方档案的相同论文标识计数，身份归属仍在逐篇复核；未对照到论文的关系单列待核实。</p>
           <div className="space-y-2">
             {coauthors.map((c, i) => {
               const otherSlug = c.source === slug ? c.target : c.source;
@@ -205,17 +207,7 @@ export default async function PersonPage({
                           )}
                         </>
                       ) : (
-                        c.weight && (
-                          <a
-                            href={`https://arxiv.org/search/?searchtype=author&query=${encodeURIComponent(otherSlug.replace(/-/g, " "))}`}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="text-[#6366f1] font-mono hover:text-[#818cf8]"
-                            title="未在双方 publications 列表中找到合著记录，回退到 key_collaborators 字段"
-                          >
-                            {c.weight} 篇 (键值)
-                          </a>
-                        )
+                        <span className="text-[#8888a0]">关系待核实 · 暂无可对照论文</span>
                       )}
                       {c.period && <span>{c.period}</span>}
                     </div>
@@ -223,7 +215,7 @@ export default async function PersonPage({
                   {totalKnown > 0 && (
                     <details className="mt-2">
                       <summary className="text-[10px] text-[#8888a0] cursor-pointer hover:text-[#e8e8f0]">
-                        展开 {totalKnown} 篇合著论文
+                        展开 {totalKnown} 篇共同收录论文
                       </summary>
                       <ul className="mt-2 space-y-1 text-[11px]">
                         {[...(cp?.published ?? []), ...(cp?.preprint ?? [])]
@@ -268,7 +260,6 @@ export default async function PersonPage({
               const hasSlug = !!collab.person;
               const collabSlug = collab.person || "";
               const displayName = collabSlug ? nameOf(collabSlug) : ((collab as { name?: string }).name || "");
-              const searchName = (collabSlug || (collab as { name?: string }).name || "").replace(/-/g, " ");
               // Look up live coauthored_papers from publications-derived edge,
               // so the count + breakdown match the "合著者" panel exactly.
               const matchEdge = coauthors.find((c) => {
@@ -310,17 +301,7 @@ export default async function PersonPage({
                         )}
                       </>
                     ) : (
-                      collab.papers_count && (
-                        <a
-                          href={`https://arxiv.org/search/?searchtype=author&query=${encodeURIComponent(searchName)}`}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="text-[#6366f1] hover:text-[#818cf8] font-mono"
-                          title="未在双方 publications 列表中找到合著记录，显示的是 yaml 手填值"
-                        >
-                          {collab.papers_count} 篇 (键值)
-                        </a>
-                      )
+                      <span className="text-[#8888a0]">关系待核实 · 暂无可对照论文</span>
                     )}
                     {collab.since && <span>{collab.since} 起</span>}
                   </div>
@@ -336,7 +317,7 @@ export default async function PersonPage({
                 {totalKnown > 0 && cp && (
                   <details className="mt-2">
                     <summary className="text-[10px] text-[#8888a0] cursor-pointer hover:text-[#e8e8f0]">
-                      展开 {totalKnown} 篇合著论文
+                      展开 {totalKnown} 篇共同收录论文
                     </summary>
                     <ul className="mt-2 space-y-1 text-[11px]">
                       {[...cp.published, ...cp.preprint]
@@ -478,7 +459,7 @@ export default async function PersonPage({
 
       {/* Publications */}
       {(person.publications?.length ?? 0) > 0 && (() => {
-        const pubs = person.publications ?? [];
+        const pubs = collectPublications([person]);
         const publishedCount = pubs.filter((p) => p.journal || p.doi).length;
         const preprintCount = pubs.length - publishedCount;
         return (

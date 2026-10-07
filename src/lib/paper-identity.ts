@@ -71,9 +71,13 @@ type IdentityRecord = { id?: string; doi?: string; title?: string };
 
 /** Join shared identifiers transitively. Title-only joins cannot override
  * conflicting DOI/arXiv identifiers. Grouping does not verify authorship. */
-export function groupPaperRecords<T extends IdentityRecord>(records: T[]): T[][] {
+export function groupPaperRecords<T extends IdentityRecord>(records: T[], options: { matchTitles?: boolean } = {}): T[][] {
   const parent = records.map((_, i) => i);
-  const keys = records.map(paperIdentityKeys);
+  const keys = records.map((record) => {
+    const keys = paperIdentityKeys(record);
+    // Archive-less legacy numbers can name different papers in different archives.
+    return { ...keys, arxiv: keys.arxiv && !/^\d{7}$/.test(keys.arxiv) ? keys.arxiv : null };
+  });
   const ids = keys.map((k) => ({ doi: new Set(k.doi ? [k.doi] : []), arxiv: new Set(k.arxiv ? [k.arxiv] : []) }));
   const root = (i: number): number => {
     while (parent[i] !== i) { parent[i] = parent[parent[i]]; i = parent[i]; }
@@ -90,7 +94,8 @@ export function groupPaperRecords<T extends IdentityRecord>(records: T[]): T[][]
       for (const id of ids[b][kind]) ids[a][kind].add(id);
     }
   };
-  for (const kind of ["doi", "arxiv", "title"] as const) {
+  const kinds: Array<keyof PaperIdentityKeys> = options.matchTitles === false ? ["doi", "arxiv"] : ["doi", "arxiv", "title"];
+  for (const kind of kinds) {
     const seen = new Map<string, number[]>();
     keys.forEach((k, i) => {
       const key = k[kind];

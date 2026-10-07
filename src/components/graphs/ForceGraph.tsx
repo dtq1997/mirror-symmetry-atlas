@@ -4,7 +4,7 @@ import { useRef, useCallback, useEffect, useState } from "react";
 import type { MutableRefObject, ReactElement } from "react";
 import dynamic from "next/dynamic";
 import type { GraphData, GraphNode, GraphLink } from "@/lib/types";
-import { getForceParams } from "@/lib/graph";
+import { getForceParams, simulationGraph } from "@/lib/graph";
 import type { LinkObject, NodeObject } from "react-force-graph-2d";
 
 const ForceGraph2D = dynamic(() => import("react-force-graph-2d"), {
@@ -102,6 +102,10 @@ export default function ForceGraph({
     height: number;
   } | null>(null);
   const [mounted, setMounted] = useState(false);
+  const [canvasData, setCanvasData] = useState(() => simulationGraph(data));
+  useEffect(() => {
+    setCanvasData((previous) => simulationGraph(data, previous));
+  }, [data]);
 
   // Track mount for SSR safety
   useEffect(() => {
@@ -164,11 +168,11 @@ export default function ForceGraph({
     if (!focusNodeId) return;
     const fg = fgRef.current;
     if (!fg) return;
-    const node = data.nodes.find((n) => n.id === focusNodeId);
+    const node = canvasData.nodes.find((n) => n.id === focusNodeId);
     if (!node || node.x == null || node.y == null) return;
     fg.centerAt(node.x, node.y, 600);
     fg.zoom(2.8, 600);
-  }, [focusNodeId, data.nodes]);
+  }, [focusNodeId, canvasData]);
 
   // Custom node rendering
   const paintNode = useCallback(
@@ -232,7 +236,7 @@ export default function ForceGraph({
       if (gLink.opacity <= 0) return;
 
       // Weight-scaled line width (log scale so strong collabs stand out,
-      // weak ones don't disappear). Coauthor weight=papers_count.
+      // weak ones don't disappear). Coauthor weight counts shared recorded works.
       const w = Math.max(1, gLink.weight);
       const widthScaled =
         gLink.type === "coauthor"
@@ -321,7 +325,7 @@ export default function ForceGraph({
       {ready && (
         <ForceGraphCanvas
           ref={fgRef}
-          graphData={data as unknown as ForceGraphCanvasData}
+          graphData={canvasData as unknown as ForceGraphCanvasData}
           width={dimensions.width}
           height={dimensions.height}
           backgroundColor="#0a0a0f"

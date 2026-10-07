@@ -1,22 +1,21 @@
 "use client";
 
-const AGE_COLORS = [
-  { color: "#fcd34d", label: "新锐 (<35)" },
-  { color: "#fbbf24", label: "青年 (35-45)" },
-  { color: "#f59e0b", label: "中坚 (45-60)" },
-  { color: "#d97706", label: "资深 (60-80)" },
-  { color: "#b45309", label: "元老 (80+)" },
-  { color: "#777788", label: "已故" },
+import { useMobile } from "@/lib/use-mobile";
+
+const PERSON_COLORS = [
+  { color: "#f59e0b", label: "已建档人物" },
+  { color: "#777788", label: "有逝世记录" },
 ];
 
 export default function GraphLegend() {
+  const mobile = useMobile();
   return (
-    <div className="absolute bottom-4 left-4 z-10 bg-[#14141f]/90 backdrop-blur-sm rounded-lg border border-[#2a2a3a] p-3 text-xs">
-      <div className="text-[#8888a0] mb-2 font-medium">图例</div>
+    <details open={!mobile} className="absolute bottom-32 sm:bottom-4 left-4 z-10 bg-[#14141f]/90 backdrop-blur-sm rounded-lg border border-[#2a2a3a] p-3 text-xs">
+      <summary className="text-[#8888a0] mb-2 font-medium cursor-pointer">图例</summary>
 
-      {/* Person age colors */}
+      {/* Person record colors */}
       <div className="space-y-1 mb-3">
-        {AGE_COLORS.map(({ color, label }) => (
+        {PERSON_COLORS.map(({ color, label }) => (
           <div key={label} className="flex items-center gap-2">
             <span
               className="w-3 h-3 rounded-full inline-block shrink-0"
@@ -50,7 +49,7 @@ export default function GraphLegend() {
                 "repeating-linear-gradient(90deg, #6366f1 0, #6366f1 3px, transparent 3px, transparent 6px)",
             }}
           />
-          <span className="text-[#e8e8f0]">合著（宽度 = 论文数）</span>
+          <span className="text-[#e8e8f0]">共同收录论文（线越粗，篇数越多）</span>
         </div>
         <div className="flex items-center gap-2">
           <span
@@ -85,7 +84,8 @@ export default function GraphLegend() {
       </div>
 
       <div className="h-px bg-[#2a2a3a] my-2" />
-      <div className="text-[#8888a0]">节点大小 = 论文数/影响力</div>
-    </div>
+      <div className="text-[#8888a0]">节点越大，本站收录论文越多</div>
+      <div className="text-[#8888a0] mt-1 max-w-60">合著线仅据双方相同论文标识；身份仍在逐篇复核。</div>
+    </details>
   );
 }

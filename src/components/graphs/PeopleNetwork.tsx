@@ -213,7 +213,7 @@ export default function PeopleNetwork({ graphData, institutionNames }: PeopleNet
       />
 
       {/* Search + institution filter — top center */}
-      <div className="absolute top-4 left-1/2 -translate-x-1/2 z-20 flex gap-2 items-center bg-[#14141f]/95 backdrop-blur-sm rounded-lg border border-[#2a2a3a] px-3 py-2 shadow-lg">
+      <div className="absolute top-4 left-1/2 -translate-x-1/2 z-20 flex flex-wrap justify-center gap-2 max-w-[calc(100%_-_2rem)] w-max items-center bg-[#14141f]/95 backdrop-blur-sm rounded-lg border border-[#2a2a3a] px-3 py-2 shadow-lg">
         <svg
           className="w-4 h-4 text-[#8888a0]"
           viewBox="0 0 20 20"
@@ -323,7 +323,8 @@ export default function PeopleNetwork({ graphData, institutionNames }: PeopleNet
       </div>
 
       {/* Detail sidebar */}
-      <DetailSidebar node={selectedNode} onClose={() => setSelectedNode(null)} />
+      <DetailSidebar node={selectedNode} onClose={() => setSelectedNode(null)}
+        connections={graphData.links.flatMap((link) => link.data ? [link.data] : [])} />
     </div>
   );
 }

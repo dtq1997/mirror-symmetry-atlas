@@ -1,0 +1,2223 @@
+{
+  "date": "2026-10-08",
+  "scope": "Mechanical counts of recorded works with complete shared DOI/arXiv; title/name equality and archive-less IDs do not establish graph links. Not an authorship verification.",
+  "catalog": 1837,
+  "rawRecords": 2242,
+  "coauthorPairs": 122,
+  "selected": [
+    {
+      "source": "liu-siqi",
+      "target": "zhang-youjin",
+      "count": 40,
+      "ids": [
+        "2411.15496",
+        "2409.19530",
+        "2402.00373",
+        "2305.10851",
+        "2209.00483",
+        "2203.16812",
+        "2109.01846",
+        "2110.03317",
+        "2112.07526",
+        "2108.03447",
+        "2106.13038",
+        "2109.01845",
+        "2009.01143",
+        "1906.06860",
+        "1908.06707",
+        "1811.10137",
+        "1811.10234",
+        "1701.03222",
+        "1702.02840",
+        "1612.02333",
+        "1502.01774",
+        "1409.4616",
+        "1312.7227",
+        "1305.1008",
+        "1305.2593",
+        "1208.5847",
+        "1205.5990",
+        "1012.5708",
+        "doi:10.1016/j.geomphys.2009.06.001",
+        "0910.2085",
+        "0710.3115",
+        "0711.2599",
+        "0501028",
+        "0510019",
+        "2602.21532",
+        "2506.13656",
+        "2511.06984",
+        "2404.08895",
+        "0912.5273",
+        "0809.0397"
+      ]
+    },
+    {
+      "source": "liu-siqi",
+      "target": "yang-di",
+      "count": 8,
+      "ids": [
+        "2203.16812",
+        "2112.07526",
+        "1906.06860",
+        "1811.10234",
+        "1612.02333",
+        "1409.4616",
+        "1305.2593",
+        "2511.06984"
+      ]
+    },
+    {
+      "source": "yang-di",
+      "target": "zhang-youjin",
+      "count": 9,
+      "ids": [
+        "2203.16812",
+        "2112.07526",
+        "2005.02275",
+        "1906.06860",
+        "1811.10234",
+        "1612.02333",
+        "1409.4616",
+        "1305.2593",
+        "2511.06984"
+      ]
+    },
+    {
+      "source": "dubrovin",
+      "target": "yang-di",
+      "count": 14,
+      "ids": [
+        "2110.06655",
+        "2101.10924",
+        "1903.11578",
+        "1905.08106",
+        "1802.00711",
+        "1812.08488",
+        "1702.01669",
+        "1604.07628",
+        "1612.02333",
+        "1606.03720",
+        "1610.07534",
+        "1504.06452",
+        "1508.03750",
+        "1409.4616"
+      ]
+    },
+    {
+      "source": "dubrovin",
+      "target": "liu-siqi",
+      "count": 5,
+      "ids": [
+        "1701.03222",
+        "1612.02333",
+        "1409.4616",
+        "1205.5990",
+        "0710.3115"
+      ]
+    },
+    {
+      "source": "dubrovin",
+      "target": "zhang-youjin",
+      "count": 12,
+      "ids": [
+        "1701.03222",
+        "1612.02333",
+        "1510.08690",
+        "1409.4616",
+        "1205.5990",
+        "0710.3115",
+        "0502365",
+        "doi:10.1002/cpa.20111",
+        "0306060",
+        "0308152",
+        "9808048",
+        "9712232"
+      ]
+    }
+  ],
+  "manualCountDifferences": [
+    {
+      "person": "bi-yanhui",
+      "collaborator": "Tao Zhang",
+      "old_manual": 6,
+      "shared_recorded": null
+    },
+    {
+      "person": "bi-yanhui",
+      "collaborator": "Zhixiong Chen",
+      "old_manual": 4,
+      "shared_recorded": null
+    },
+    {
+      "person": "bi-yanhui",
+      "collaborator": "Yunhe Sheng (盛云和)",
+      "old_manual": 1,
+      "shared_recorded": null
+    },
+    {
+      "person": "bi-yanhui",
+      "collaborator": "Luca Vitagliano",
+      "old_manual": 1,
+      "shared_recorded": null
+    },
+    {
+      "person": "bi-yanhui",
+      "collaborator": "Bo Yuan",
+      "old_manual": 3,
+      "shared_recorded": null
+    },
+    {
+      "person": "bi-yanhui",
+      "collaborator": "Liqiang Cai",
+      "old_manual": 1,
+      "shared_recorded": null
+    },
+    {
+      "person": "chan-kwokwai",
+      "collaborator": "leung-naichung",
+      "old_manual": 20,
+      "shared_recorded": 21
+    },
+    {
+      "person": "chan-kwokwai",
+      "collaborator": null,
+      "old_manual": 3,
+      "shared_recorded": null
+    },
+    {
+      "person": "chao-qian",
+      "collaborator": "tseng-hsian-hua",
+      "old_manual": 2,
+      "shared_recorded": null
+    },
+    {
+      "person": "chao-qian",
+      "collaborator": "Jiun-Cheng Chen",
+      "old_manual": 2,
+      "shared_recorded": null
+    },
+    {
+      "person": "chen-zhuo",
+      "collaborator": "Ping Xu",
+      "old_manual": 10,
+      "shared_recorded": null
+    },
+    {
+      "person": "chen-zhuo",
+      "collaborator": "Mathieu Stiénon",
+      "old_manual": 8,
+      "shared_recorded": null
+    },
+    {
+      "person": "chen-zhuo",
+      "collaborator": "liu-zhangju",
+      "old_manual": 3,
+      "shared_recorded": 4
+    },
+    {
+      "person": "chen-zhuo",
+      "collaborator": "Ruggero Bandiera",
+      "old_manual": 2,
+      "shared_recorded": null
+    },
+    {
+      "person": "cheng-jiahao",
+      "collaborator": "Chen He",
+      "old_manual": 1,
+      "shared_recorded": null
+    },
+    {
+      "person": "cheng-jiahao",
+      "collaborator": "yu-qiao",
+      "old_manual": 2,
+      "shared_recorded": null
+    },
+    {
+      "person": "cheng-zhechi",
+      "collaborator": "Matthew Hedden",
+      "old_manual": 1,
+      "shared_recorded": null
+    },
+    {
+      "person": "cheng-zhechi",
+      "collaborator": "Sucharit Sarkar",
+      "old_manual": 1,
+      "shared_recorded": null
+    },
+    {
+      "person": "cotti",
+      "collaborator": "guzzetti",
+      "old_manual": 14,
+      "shared_recorded": 13
+    },
+    {
+      "person": "dai-bo",
+      "collaborator": "Chuu-Lian Terng",
+      "old_manual": 3,
+      "shared_recorded": null
+    },
+    {
+      "person": "dai-bo",
+      "collaborator": "Chung-I Ho",
+      "old_manual": 4,
+      "shared_recorded": null
+    },
+    {
+      "person": "dai-bo",
+      "collaborator": "Tian-Jun Li",
+      "old_manual": 2,
+      "shared_recorded": null
+    },
+    {
+      "person": "dai-bo",
+      "collaborator": "Ren Guan",
+      "old_manual": 2,
+      "shared_recorded": null
+    },
+    {
+      "person": "ding-yanqiao",
+      "collaborator": "li-kui",
+      "old_manual": 2,
+      "shared_recorded": null
+    },
+    {
+      "person": "ding-yanqiao",
+      "collaborator": "liu-huan",
+      "old_manual": 2,
+      "shared_recorded": null
+    },
+    {
+      "person": "ding-yanqiao",
+      "collaborator": "yan-dongfeng",
+      "old_manual": 2,
+      "shared_recorded": null
+    },
+    {
+      "person": "du-chengyong",
+      "collaborator": "Bohui Chen (陈柏辉)",
+      "old_manual": 12,
+      "shared_recorded": null
+    },
+    {
+      "person": "du-chengyong",
+      "collaborator": "Rui Wang",
+      "old_manual": 4,
+      "shared_recorded": null
+    },
+    {
+      "person": "du-chengyong",
+      "collaborator": "Tiyao Li",
+      "old_manual": 3,
+      "shared_recorded": null
+    },
+    {
+      "person": "du-chengyong",
+      "collaborator": "Lili Shen",
+      "old_manual": 3,
+      "shared_recorded": null
+    },
+    {
+      "person": "du-chengyong",
+      "collaborator": "A-Li Liao",
+      "old_manual": 2,
+      "shared_recorded": null
+    },
+    {
+      "person": "du-chengyong",
+      "collaborator": "Yu Wang",
+      "old_manual": 2,
+      "shared_recorded": null
+    },
+    {
+      "person": "du-chengyong",
+      "collaborator": "li-xiaobin",
+      "old_manual": 1,
+      "shared_recorded": null
+    },
+    {
+      "person": "dubrovin",
+      "collaborator": "zhang-youjin",
+      "old_manual": 15,
+      "shared_recorded": 12
+    },
+    {
+      "person": "dubrovin",
+      "collaborator": "liu-siqi",
+      "old_manual": 8,
+      "shared_recorded": 5
+    },
+    {
+      "person": "dubrovin",
+      "collaborator": "mazzocco",
+      "old_manual": 7,
+      "shared_recorded": 3
+    },
+    {
+      "person": "fan-huijun",
+      "collaborator": "Tyler J. Jarvis",
+      "old_manual": 7,
+      "shared_recorded": null
+    },
+    {
+      "person": "fan-huijun",
+      "collaborator": "Juergen Jost",
+      "old_manual": 2,
+      "shared_recorded": null
+    },
+    {
+      "person": "fan-huijun",
+      "collaborator": "Yefeng Shen",
+      "old_manual": 1,
+      "shared_recorded": null
+    },
+    {
+      "person": "fan-huijun",
+      "collaborator": "Tian Lan",
+      "old_manual": 2,
+      "shared_recorded": null
+    },
+    {
+      "person": "fan-huijun",
+      "collaborator": "Zongrui Yang",
+      "old_manual": 2,
+      "shared_recorded": null
+    },
+    {
+      "person": "fan-huijun",
+      "collaborator": "Amanda Francis",
+      "old_manual": 1,
+      "shared_recorded": null
+    },
+    {
+      "person": "fan-huijun",
+      "collaborator": "Weiyue Ding",
+      "old_manual": 1,
+      "shared_recorded": null
+    },
+    {
+      "person": "fan-huijun",
+      "collaborator": "Jiayu Li",
+      "old_manual": 1,
+      "shared_recorded": null
+    },
+    {
+      "person": "fang-bohan",
+      "collaborator": "liu-melissa",
+      "old_manual": 15,
+      "shared_recorded": 13
+    },
+    {
+      "person": "fang-bohan",
+      "collaborator": "zong-zhengyu",
+      "old_manual": 11,
+      "shared_recorded": 10
+    },
+    {
+      "person": "gui-tao",
+      "collaborator": null,
+      "old_manual": "[待验证]",
+      "shared_recorded": null
+    },
+    {
+      "person": "guo-shuai",
+      "collaborator": "zhang-qingsheng",
+      "old_manual": 2,
+      "shared_recorded": 4
+    },
+    {
+      "person": "guzzetti",
+      "collaborator": "cotti",
+      "old_manual": 14,
+      "shared_recorded": 13
+    },
+    {
+      "person": "he-weiqiang",
+      "collaborator": "si-li",
+      "old_manual": 5,
+      "shared_recorded": 4
+    },
+    {
+      "person": "he-weiqiang",
+      "collaborator": "Yefeng Shen",
+      "old_manual": 4,
+      "shared_recorded": null
+    },
+    {
+      "person": "he-weiqiang",
+      "collaborator": "Yifan Li",
+      "old_manual": 2,
+      "shared_recorded": null
+    },
+    {
+      "person": "he-weiqiang",
+      "collaborator": "hu-jianxun",
+      "old_manual": 4,
+      "shared_recorded": 3
+    },
+    {
+      "person": "he-weiqiang",
+      "collaborator": "Rachel Webb",
+      "old_manual": 1,
+      "shared_recorded": null
+    },
+    {
+      "person": "he-weiqiang",
+      "collaborator": "Yingchun Zhang",
+      "old_manual": 2,
+      "shared_recorded": null
+    },
+    {
+      "person": "he-weiqiang",
+      "collaborator": "Alexander Polishchuk",
+      "old_manual": 1,
+      "shared_recorded": null
+    },
+    {
+      "person": "hong-wei",
+      "collaborator": "xu-ping",
+      "old_manual": 1,
+      "shared_recorded": null
+    },
+    {
+      "person": "hong-wei",
+      "collaborator": "Mathieu Stiénon",
+      "old_manual": 1,
+      "shared_recorded": null
+    },
+    {
+      "person": "hong-wei",
+      "collaborator": "Yang Deng",
+      "old_manual": 1,
+      "shared_recorded": null
+    },
+    {
+      "person": "hu-chuangqiang",
+      "collaborator": "Stephen S.-T. Yau",
+      "old_manual": 3,
+      "shared_recorded": null
+    },
+    {
+      "person": "hu-chuangqiang",
+      "collaborator": "Huaiqing Zuo",
+      "old_manual": 2,
+      "shared_recorded": null
+    },
+    {
+      "person": "hu-chuangqiang",
+      "collaborator": "Shudi Yang",
+      "old_manual": 5,
+      "shared_recorded": null
+    },
+    {
+      "person": "hu-chuangqiang",
+      "collaborator": "Xiao-Min Huang",
+      "old_manual": 1,
+      "shared_recorded": null
+    },
+    {
+      "person": "hu-chuangqiang",
+      "collaborator": "Yixuan Ou-Yang",
+      "old_manual": 1,
+      "shared_recorded": null
+    },
+    {
+      "person": "hu-chuangqiang",
+      "collaborator": "Haojie Chen",
+      "old_manual": 1,
+      "shared_recorded": null
+    },
+    {
+      "person": "hu-chuangqiang",
+      "collaborator": "Xiuwu Zhu",
+      "old_manual": 1,
+      "shared_recorded": null
+    },
+    {
+      "person": "hu-jianxun",
+      "collaborator": "Tian-Jun Li",
+      "old_manual": 1,
+      "shared_recorded": null
+    },
+    {
+      "person": "hu-jianxun",
+      "collaborator": "Bohui Chen",
+      "old_manual": 1,
+      "shared_recorded": null
+    },
+    {
+      "person": "hu-jianxun",
+      "collaborator": "Hiroshi Iritani",
+      "old_manual": 1,
+      "shared_recorded": null
+    },
+    {
+      "person": "hu-jianxun",
+      "collaborator": "Sergey Galkin",
+      "old_manual": 1,
+      "shared_recorded": null
+    },
+    {
+      "person": "hu-jianxun",
+      "collaborator": "he-weiqiang",
+      "old_manual": 2,
+      "shared_recorded": 3
+    },
+    {
+      "person": "hu-jianxun",
+      "collaborator": "Lei Song",
+      "old_manual": 2,
+      "shared_recorded": null
+    },
+    {
+      "person": "huan-zhen",
+      "collaborator": null,
+      "old_manual": 1,
+      "shared_recorded": null
+    },
+    {
+      "person": "huan-zhen",
+      "collaborator": null,
+      "old_manual": 1,
+      "shared_recorded": null
+    },
+    {
+      "person": "huan-zhen",
+      "collaborator": null,
+      "old_manual": 1,
+      "shared_recorded": null
+    },
+    {
+      "person": "ji-ce",
+      "collaborator": "zhang-qingsheng",
+      "old_manual": 1,
+      "shared_recorded": 2
+    },
+    {
+      "person": "jin-xiaoshang",
+      "collaborator": "Sun-Yung A. Chang",
+      "old_manual": 1,
+      "shared_recorded": null
+    },
+    {
+      "person": "jin-xiaoshang",
+      "collaborator": "Jie Qing",
+      "old_manual": 1,
+      "shared_recorded": null
+    },
+    {
+      "person": "jin-xiaoshang",
+      "collaborator": "Yuxin Ge",
+      "old_manual": 1,
+      "shared_recorded": null
+    },
+    {
+      "person": "jin-xiaoshang",
+      "collaborator": "Jie Xiao",
+      "old_manual": 2,
+      "shared_recorded": null
+    },
+    {
+      "person": "jin-xiaoshang",
+      "collaborator": "Zhiwei Lü",
+      "old_manual": 2,
+      "shared_recorded": null
+    },
+    {
+      "person": "jin-xiaoshang",
+      "collaborator": "Jiabin Yin",
+      "old_manual": 2,
+      "shared_recorded": null
+    },
+    {
+      "person": "ke-huazhong",
+      "collaborator": "li-changzheng",
+      "old_manual": 7,
+      "shared_recorded": 6
+    },
+    {
+      "person": "ke-huazhong",
+      "collaborator": "hu-jianxun",
+      "old_manual": 9,
+      "shared_recorded": 6
+    },
+    {
+      "person": "lang-honglei",
+      "collaborator": "liu-zhangju",
+      "old_manual": 8,
+      "shared_recorded": 11
+    },
+    {
+      "person": "lang-honglei",
+      "collaborator": "Yunhe Sheng (盛云和)",
+      "old_manual": 6,
+      "shared_recorded": null
+    },
+    {
+      "person": "lang-honglei",
+      "collaborator": "yu-qiao",
+      "old_manual": 1,
+      "shared_recorded": null
+    },
+    {
+      "person": "lang-honglei",
+      "collaborator": "Li Guo",
+      "old_manual": 1,
+      "shared_recorded": null
+    },
+    {
+      "person": "lang-honglei",
+      "collaborator": "xiang-maosong",
+      "old_manual": 1,
+      "shared_recorded": 2
+    },
+    {
+      "person": "leung-naichung",
+      "collaborator": "chan-kwokwai",
+      "old_manual": 20,
+      "shared_recorded": 21
+    },
+    {
+      "person": "leung-naichung",
+      "collaborator": "li-changzheng",
+      "old_manual": 10,
+      "shared_recorded": 9
+    },
+    {
+      "person": "leung-naichung",
+      "collaborator": "yau-shingtung",
+      "old_manual": 4,
+      "shared_recorded": 1
+    },
+    {
+      "person": "li-changzheng",
+      "collaborator": "leung-naichung",
+      "old_manual": 8,
+      "shared_recorded": 9
+    },
+    {
+      "person": "li-changzheng",
+      "collaborator": "Leonardo C. Mihalcea",
+      "old_manual": 4,
+      "shared_recorded": null
+    },
+    {
+      "person": "li-changzheng",
+      "collaborator": "ke-huazhong",
+      "old_manual": 5,
+      "shared_recorded": 6
+    },
+    {
+      "person": "li-changzheng",
+      "collaborator": "Mingzhi Yang",
+      "old_manual": 5,
+      "shared_recorded": null
+    },
+    {
+      "person": "li-changzheng",
+      "collaborator": "Konstanze Rietsch",
+      "old_manual": 3,
+      "shared_recorded": null
+    },
+    {
+      "person": "li-changzheng",
+      "collaborator": "Sergey Galkin",
+      "old_manual": 2,
+      "shared_recorded": null
+    },
+    {
+      "person": "li-changzheng",
+      "collaborator": "Rui Xiong",
+      "old_manual": 2,
+      "shared_recorded": null
+    },
+    {
+      "person": "li-changzheng",
+      "collaborator": "Frank Sottile",
+      "old_manual": 2,
+      "shared_recorded": null
+    },
+    {
+      "person": "li-qin",
+      "collaborator": "Ryan E. Grady",
+      "old_manual": 1,
+      "shared_recorded": null
+    },
+    {
+      "person": "li-qin",
+      "collaborator": "Yutung Yau",
+      "old_manual": 1,
+      "shared_recorded": null
+    },
+    {
+      "person": "li-xiaobin",
+      "collaborator": "Futoshi Yagi",
+      "old_manual": 4,
+      "shared_recorded": null
+    },
+    {
+      "person": "li-xiaobin",
+      "collaborator": "Sung-Soo Kim",
+      "old_manual": 3,
+      "shared_recorded": null
+    },
+    {
+      "person": "li-xiaobin",
+      "collaborator": "Rui-Dong Zhu",
+      "old_manual": 2,
+      "shared_recorded": null
+    },
+    {
+      "person": "li-xiaobin",
+      "collaborator": "Satoshi Nawata",
+      "old_manual": 1,
+      "shared_recorded": null
+    },
+    {
+      "person": "li-xiaobin",
+      "collaborator": "Bohui Chen (陈柏辉)",
+      "old_manual": 1,
+      "shared_recorded": null
+    },
+    {
+      "person": "li-xiaobin",
+      "collaborator": "du-chengyong",
+      "old_manual": 1,
+      "shared_recorded": null
+    },
+    {
+      "person": "li-xiaobin",
+      "collaborator": "Anmin Li (李安民)",
+      "old_manual": 1,
+      "shared_recorded": null
+    },
+    {
+      "person": "li-yu",
+      "old_manual": 2,
+      "shared_recorded": null
+    },
+    {
+      "person": "li-yu",
+      "old_manual": 1,
+      "shared_recorded": null
+    },
+    {
+      "person": "li-yu",
+      "old_manual": 0,
+      "shared_recorded": null
+    },
+    {
+      "person": "li-yu",
+      "old_manual": 1,
+      "shared_recorded": null
+    },
+    {
+      "person": "li-yu",
+      "old_manual": 1,
+      "shared_recorded": null
+    },
+    {
+      "person": "li-yu",
+      "old_manual": 1,
+      "shared_recorded": null
+    },
+    {
+      "person": "li-yu",
+      "old_manual": 1,
+      "shared_recorded": null
+    },
+    {
+      "person": "li-yu",
+      "old_manual": 1,
+      "shared_recorded": null
+    },
+    {
+      "person": "li-yu",
+      "old_manual": 1,
+      "shared_recorded": null
+    },
+    {
+      "person": "liu-siqi",
+      "collaborator": "zhang-youjin",
+      "old_manual": 41,
+      "shared_recorded": 40
+    },
+    {
+      "person": "liu-siqi",
+      "collaborator": "dubrovin",
+      "old_manual": 8,
+      "shared_recorded": 5
+    },
+    {
+      "person": "liu-xiaobo",
+      "collaborator": "wang-xin",
+      "old_manual": 4,
+      "shared_recorded": 2
+    },
+    {
+      "person": "liu-zhangju",
+      "collaborator": null,
+      "old_manual": 3,
+      "shared_recorded": null
+    },
+    {
+      "person": "liu-zhangju",
+      "collaborator": null,
+      "old_manual": 4,
+      "shared_recorded": null
+    },
+    {
+      "person": "liu-zhangju",
+      "collaborator": "chen-zhuo",
+      "old_manual": 5,
+      "shared_recorded": 4
+    },
+    {
+      "person": "lu-wen",
+      "collaborator": "Xiaonan Ma",
+      "old_manual": 5,
+      "shared_recorded": null
+    },
+    {
+      "person": "lu-wen",
+      "collaborator": "George Marinescu",
+      "old_manual": 5,
+      "shared_recorded": null
+    },
+    {
+      "person": "lu-wen",
+      "collaborator": "Louis Ioos",
+      "old_manual": 2,
+      "shared_recorded": null
+    },
+    {
+      "person": "lu-wen",
+      "collaborator": "Dan Coman",
+      "old_manual": 1,
+      "shared_recorded": null
+    },
+    {
+      "person": "mazzocco",
+      "collaborator": "dubrovin",
+      "old_manual": 7,
+      "shared_recorded": 3
+    },
+    {
+      "person": "ni-dadi",
+      "collaborator": "Chen He",
+      "old_manual": 2,
+      "shared_recorded": null
+    },
+    {
+      "person": "ni-dadi",
+      "collaborator": "Kaichuan Qi",
+      "old_manual": 2,
+      "shared_recorded": null
+    },
+    {
+      "person": "qiao-yu",
+      "collaborator": "Catarina Carvalho",
+      "old_manual": 4,
+      "shared_recorded": null
+    },
+    {
+      "person": "qiao-yu",
+      "collaborator": "Victor Nistor",
+      "old_manual": 3,
+      "shared_recorded": null
+    },
+    {
+      "person": "qiao-yu",
+      "collaborator": "Bing Kwan So",
+      "old_manual": 2,
+      "shared_recorded": null
+    },
+    {
+      "person": "qiao-yu",
+      "collaborator": "Ivan Beschastnyi",
+      "old_manual": 2,
+      "shared_recorded": null
+    },
+    {
+      "person": "qiao-yu",
+      "collaborator": "Rémi Côme",
+      "old_manual": 1,
+      "shared_recorded": null
+    },
+    {
+      "person": "qiao-yu",
+      "collaborator": "jiahao-cheng",
+      "old_manual": 2,
+      "shared_recorded": null
+    },
+    {
+      "person": "qu-haonan",
+      "collaborator": "Shuangxing Li",
+      "old_manual": 1,
+      "shared_recorded": null
+    },
+    {
+      "person": "qu-haonan",
+      "collaborator": "Yuewei Wang",
+      "old_manual": 1,
+      "shared_recorded": null
+    },
+    {
+      "person": "rao-sheng",
+      "collaborator": "Kefeng Liu",
+      "old_manual": 4,
+      "shared_recorded": null
+    },
+    {
+      "person": "rao-sheng",
+      "collaborator": "Quanting Zhao",
+      "old_manual": 4,
+      "shared_recorded": null
+    },
+    {
+      "person": "rao-sheng",
+      "collaborator": "I-Hsun Tsai",
+      "old_manual": 3,
+      "shared_recorded": null
+    },
+    {
+      "person": "rao-sheng",
+      "collaborator": "Mu-Lin Li",
+      "old_manual": 3,
+      "shared_recorded": null
+    },
+    {
+      "person": "rao-sheng",
+      "collaborator": "Xueyuan Wan",
+      "old_manual": 2,
+      "shared_recorded": null
+    },
+    {
+      "person": "rao-sheng",
+      "collaborator": "Song Yang",
+      "old_manual": 3,
+      "shared_recorded": null
+    },
+    {
+      "person": "rao-sheng",
+      "collaborator": "Xiangdong Yang",
+      "old_manual": 3,
+      "shared_recorded": null
+    },
+    {
+      "person": "rao-sheng",
+      "collaborator": "Jian Chen",
+      "old_manual": 2,
+      "shared_recorded": null
+    },
+    {
+      "person": "rao-sheng",
+      "collaborator": "Christopher D. Hacon",
+      "old_manual": 1,
+      "shared_recorded": null
+    },
+    {
+      "person": "ruan-yongbin",
+      "collaborator": "Tyler J. Jarvis",
+      "old_manual": 3,
+      "shared_recorded": null
+    },
+    {
+      "person": "ruan-yongbin",
+      "collaborator": "fan-huijun",
+      "old_manual": 3,
+      "shared_recorded": 7
+    },
+    {
+      "person": "ryszard-nest",
+      "collaborator": "Boris Tsygan",
+      "old_manual": 7,
+      "shared_recorded": null
+    },
+    {
+      "person": "ryszard-nest",
+      "collaborator": "Paul Bressler",
+      "old_manual": 5,
+      "shared_recorded": null
+    },
+    {
+      "person": "ryszard-nest",
+      "collaborator": "Alexander Gorokhovsky",
+      "old_manual": 5,
+      "shared_recorded": null
+    },
+    {
+      "person": "ryszard-nest",
+      "collaborator": "Jens Kaad",
+      "old_manual": 4,
+      "shared_recorded": null
+    },
+    {
+      "person": "ryszard-nest",
+      "collaborator": "Chiara Esposito",
+      "old_manual": 3,
+      "shared_recorded": null
+    },
+    {
+      "person": "ryszard-nest",
+      "collaborator": "Siegfried Echterhoff",
+      "old_manual": 3,
+      "shared_recorded": null
+    },
+    {
+      "person": "si-li",
+      "collaborator": "Kevin Costello",
+      "old_manual": 3,
+      "shared_recorded": null
+    },
+    {
+      "person": "song-jiayu",
+      "collaborator": "Mingzhi Yang",
+      "old_manual": 2,
+      "shared_recorded": null
+    },
+    {
+      "person": "song-jiayu",
+      "collaborator": "Zhaoyang Liu",
+      "old_manual": 1,
+      "shared_recorded": null
+    },
+    {
+      "person": "song-jiayu",
+      "collaborator": "Rui Xiong",
+      "old_manual": 1,
+      "shared_recorded": null
+    },
+    {
+      "person": "sun-shanzhong",
+      "collaborator": "David Sauzin",
+      "old_manual": 7,
+      "shared_recorded": null
+    },
+    {
+      "person": "sun-shanzhong",
+      "collaborator": "Yong Li",
+      "old_manual": 7,
+      "shared_recorded": null
+    },
+    {
+      "person": "sun-shanzhong",
+      "collaborator": "Jørgen Ellegaard Andersen",
+      "old_manual": 1,
+      "shared_recorded": null
+    },
+    {
+      "person": "sun-shanzhong",
+      "collaborator": "Li Han",
+      "old_manual": 2,
+      "shared_recorded": null
+    },
+    {
+      "person": "sun-shanzhong",
+      "collaborator": "William Elbæk Mistegård",
+      "old_manual": 1,
+      "shared_recorded": null
+    },
+    {
+      "person": "sun-shanzhong",
+      "collaborator": "Peng You",
+      "old_manual": 3,
+      "shared_recorded": null
+    },
+    {
+      "person": "sun-shanzhong",
+      "collaborator": "Alain Chenciner",
+      "old_manual": 1,
+      "shared_recorded": null
+    },
+    {
+      "person": "sun-shanzhong",
+      "collaborator": "Xiaojun Chen",
+      "old_manual": 2,
+      "shared_recorded": null
+    },
+    {
+      "person": "sun-shanzhong",
+      "collaborator": "Xijun Hu",
+      "old_manual": 1,
+      "shared_recorded": null
+    },
+    {
+      "person": "tang-qian",
+      "collaborator": "xu-xiaomeng",
+      "old_manual": 2,
+      "shared_recorded": 4
+    },
+    {
+      "person": "tang-xinxing",
+      "collaborator": "Philsang Yoo",
+      "old_manual": 1,
+      "shared_recorded": null
+    },
+    {
+      "person": "tang-xinxing",
+      "collaborator": "Junrong Yan",
+      "old_manual": 1,
+      "shared_recorded": null
+    },
+    {
+      "person": "tang-xinxing",
+      "collaborator": "Zhengping Gui",
+      "old_manual": 1,
+      "shared_recorded": null
+    },
+    {
+      "person": "tang-xiudi",
+      "old_manual": 4,
+      "shared_recorded": null
+    },
+    {
+      "person": "tang-xiudi",
+      "old_manual": 1,
+      "shared_recorded": null
+    },
+    {
+      "person": "tang-xiudi",
+      "old_manual": 1,
+      "shared_recorded": null
+    },
+    {
+      "person": "tang-xiudi",
+      "old_manual": 1,
+      "shared_recorded": null
+    },
+    {
+      "person": "tang-xiudi",
+      "old_manual": 1,
+      "shared_recorded": null
+    },
+    {
+      "person": "tseng-hsian-hua",
+      "collaborator": "chao-qian",
+      "old_manual": 2,
+      "shared_recorded": null
+    },
+    {
+      "person": "wang-luyao",
+      "collaborator": "Ke Wu (吴可)",
+      "old_manual": 4,
+      "shared_recorded": null
+    },
+    {
+      "person": "wang-luyao",
+      "collaborator": "Wei-Zhong Zhao (赵伟忠)",
+      "old_manual": 4,
+      "shared_recorded": null
+    },
+    {
+      "person": "wang-luyao",
+      "collaborator": "Bei Kang (康蓓)",
+      "old_manual": 5,
+      "shared_recorded": null
+    },
+    {
+      "person": "wang-luyao",
+      "collaborator": "V. Mishnyakov",
+      "old_manual": 1,
+      "shared_recorded": null
+    },
+    {
+      "person": "wang-luyao",
+      "collaborator": "A. Popolitov",
+      "old_manual": 1,
+      "shared_recorded": null
+    },
+    {
+      "person": "wang-xin",
+      "collaborator": "Felix Janda",
+      "old_manual": 2,
+      "shared_recorded": null
+    },
+    {
+      "person": "wang-xin",
+      "collaborator": "Emily Clader",
+      "old_manual": 1,
+      "shared_recorded": null
+    },
+    {
+      "person": "wang-xin",
+      "collaborator": "Dmitry Zakharov",
+      "old_manual": 1,
+      "shared_recorded": null
+    },
+    {
+      "person": "wang-zhiyuan",
+      "collaborator": "yang-chenglang",
+      "old_manual": 8,
+      "shared_recorded": 9
+    },
+    {
+      "person": "wang-zhiyuan",
+      "collaborator": "zhang-qingsheng",
+      "old_manual": 1,
+      "shared_recorded": 2
+    },
+    {
+      "person": "wen-hao",
+      "collaborator": "ma-ziming-nikolas",
+      "old_manual": 1,
+      "shared_recorded": null
+    },
+    {
+      "person": "wu-chaozhong",
+      "collaborator": "Mattia Cafasso",
+      "old_manual": 2,
+      "shared_recorded": null
+    },
+    {
+      "person": "wu-chaozhong",
+      "collaborator": "Lumin Geng",
+      "old_manual": 3,
+      "shared_recorded": null
+    },
+    {
+      "person": "wu-chaozhong",
+      "collaborator": "Dafeng Zuo",
+      "old_manual": 3,
+      "shared_recorded": null
+    },
+    {
+      "person": "wu-chaozhong",
+      "collaborator": "Zongyao Feng",
+      "old_manual": 1,
+      "shared_recorded": null
+    },
+    {
+      "person": "wu-chaozhong",
+      "collaborator": "Xu Zhou",
+      "old_manual": 2,
+      "shared_recorded": null
+    },
+    {
+      "person": "wu-chaozhong",
+      "collaborator": "Liang Chang",
+      "old_manual": 1,
+      "shared_recorded": null
+    },
+    {
+      "person": "wu-longting",
+      "collaborator": "Pierrick Bousseau",
+      "old_manual": 2,
+      "shared_recorded": null
+    },
+    {
+      "person": "wu-longting",
+      "collaborator": "Honglu Fan",
+      "old_manual": 4,
+      "shared_recorded": null
+    },
+    {
+      "person": "wu-longting",
+      "collaborator": "Fenglong You",
+      "old_manual": 2,
+      "shared_recorded": null
+    },
+    {
+      "person": "wu-longting",
+      "collaborator": "Miguel Moreira",
+      "old_manual": 1,
+      "shared_recorded": null
+    },
+    {
+      "person": "wu-longting",
+      "collaborator": "Ajith Urundolil Kumaran",
+      "old_manual": 1,
+      "shared_recorded": null
+    },
+    {
+      "person": "xiang-maosong",
+      "collaborator": "chen-zhuo",
+      "old_manual": 12,
+      "shared_recorded": 11
+    },
+    {
+      "person": "xiang-maosong",
+      "collaborator": "Ping Xu",
+      "old_manual": 2,
+      "shared_recorded": null
+    },
+    {
+      "person": "xiang-maosong",
+      "collaborator": "Xiongwei Cai",
+      "old_manual": 2,
+      "shared_recorded": null
+    },
+    {
+      "person": "xiang-maosong",
+      "collaborator": "Tao Zhang",
+      "old_manual": 2,
+      "shared_recorded": null
+    },
+    {
+      "person": "xu-xiaomeng",
+      "collaborator": "alekseev",
+      "old_manual": 3,
+      "shared_recorded": 2
+    },
+    {
+      "person": "xu-xiaomeng",
+      "collaborator": "lin-jinghong",
+      "old_manual": 3,
+      "shared_recorded": null
+    },
+    {
+      "person": "xu-xiaomeng",
+      "collaborator": "sheng-yunhe",
+      "old_manual": 6,
+      "shared_recorded": null
+    },
+    {
+      "person": "xu-xu",
+      "collaborator": "zheng-chao",
+      "old_manual": 4,
+      "shared_recorded": null
+    },
+    {
+      "person": "xu-xu",
+      "collaborator": "Yanwen Luo",
+      "old_manual": 1,
+      "shared_recorded": null
+    },
+    {
+      "person": "yang-chenglang",
+      "collaborator": "zhang-qingsheng",
+      "old_manual": 1,
+      "shared_recorded": 3
+    },
+    {
+      "person": "yang-di",
+      "collaborator": "dubrovin",
+      "old_manual": 11,
+      "shared_recorded": 14
+    },
+    {
+      "person": "yang-yi",
+      "collaborator": null,
+      "old_manual": 3,
+      "shared_recorded": null
+    },
+    {
+      "person": "yang-yi",
+      "collaborator": null,
+      "old_manual": 2,
+      "shared_recorded": null
+    },
+    {
+      "person": "zeng-haozhi",
+      "collaborator": "Hiraku Abe",
+      "old_manual": 6,
+      "shared_recorded": null
+    },
+    {
+      "person": "zeng-haozhi",
+      "collaborator": "Mikiya Masuda",
+      "old_manual": 4,
+      "shared_recorded": null
+    },
+    {
+      "person": "zeng-haozhi",
+      "collaborator": "Tatsuya Horiguchi",
+      "old_manual": 2,
+      "shared_recorded": null
+    },
+    {
+      "person": "zeng-haozhi",
+      "collaborator": "Takashi Sato",
+      "old_manual": 2,
+      "shared_recorded": null
+    },
+    {
+      "person": "zeng-haozhi",
+      "collaborator": "Anton Ayzenberg",
+      "old_manual": 2,
+      "shared_recorded": null
+    },
+    {
+      "person": "zeng-haozhi",
+      "collaborator": "Naoki Fujita",
+      "old_manual": 2,
+      "shared_recorded": null
+    },
+    {
+      "person": "zhang-bin",
+      "collaborator": "guo-li",
+      "old_manual": 17,
+      "shared_recorded": null
+    },
+    {
+      "person": "zhang-bin",
+      "collaborator": "paycha-sylvie",
+      "old_manual": 11,
+      "shared_recorded": null
+    },
+    {
+      "person": "zhang-huailiang",
+      "collaborator": "li-jun",
+      "old_manual": 12,
+      "shared_recorded": null
+    },
+    {
+      "person": "zhang-huailiang",
+      "collaborator": "Wei-Ping Li",
+      "old_manual": 7,
+      "shared_recorded": null
+    },
+    {
+      "person": "zhang-huailiang",
+      "collaborator": "Young-Hoon Kiem",
+      "old_manual": 3,
+      "shared_recorded": null
+    },
+    {
+      "person": "zhang-huailiang",
+      "collaborator": "Jie Zhou",
+      "old_manual": 1,
+      "shared_recorded": null
+    },
+    {
+      "person": "zhang-huailiang",
+      "collaborator": "Mu-Lin Li",
+      "old_manual": 2,
+      "shared_recorded": null
+    },
+    {
+      "person": "zhang-ning",
+      "collaborator": "Elisabeth Werner",
+      "old_manual": 1,
+      "shared_recorded": null
+    },
+    {
+      "person": "zhang-ning",
+      "collaborator": "Deping Ye",
+      "old_manual": 2,
+      "shared_recorded": null
+    },
+    {
+      "person": "zhang-ning",
+      "collaborator": "Chunyan Liu",
+      "old_manual": 2,
+      "shared_recorded": null
+    },
+    {
+      "person": "zhang-ning",
+      "collaborator": "Jie Xiao",
+      "old_manual": 2,
+      "shared_recorded": null
+    },
+    {
+      "person": "zhang-ning",
+      "collaborator": "Vladyslav Yaskin",
+      "old_manual": 1,
+      "shared_recorded": null
+    },
+    {
+      "person": "zhang-qing",
+      "collaborator": "Clifton Cunningham",
+      "old_manual": 4,
+      "shared_recorded": null
+    },
+    {
+      "person": "zhang-qing",
+      "collaborator": "Andrew Fiori",
+      "old_manual": 4,
+      "shared_recorded": null
+    },
+    {
+      "person": "zhang-qing",
+      "collaborator": "Baiying Liu",
+      "old_manual": 3,
+      "shared_recorded": null
+    },
+    {
+      "person": "zhang-qing",
+      "collaborator": "Pan Yan",
+      "old_manual": 2,
+      "shared_recorded": null
+    },
+    {
+      "person": "zhang-qing",
+      "collaborator": "Dihua Jiang",
+      "old_manual": 2,
+      "shared_recorded": null
+    },
+    {
+      "person": "zhang-qing",
+      "collaborator": "Sarah Dijols",
+      "old_manual": 2,
+      "shared_recorded": null
+    },
+    {
+      "person": "zhang-qingsheng",
+      "collaborator": "zhou-jian",
+      "old_manual": 2,
+      "shared_recorded": 1
+    },
+    {
+      "person": "zhang-qingsheng",
+      "collaborator": "yang-chenglang",
+      "old_manual": 2,
+      "shared_recorded": 3
+    },
+    {
+      "person": "zhang-qingsheng",
+      "collaborator": "wang-zhiyuan",
+      "old_manual": 1,
+      "shared_recorded": 2
+    },
+    {
+      "person": "zhang-youjin",
+      "collaborator": "liu-siqi",
+      "old_manual": 1,
+      "shared_recorded": 40
+    },
+    {
+      "person": "zhang-youjin",
+      "collaborator": "dubrovin",
+      "old_manual": 15,
+      "shared_recorded": 12
+    },
+    {
+      "person": "zhao-qiulan",
+      "collaborator": "Xinyue Li",
+      "old_manual": 64,
+      "shared_recorded": null
+    },
+    {
+      "person": "zhao-qiulan",
+      "collaborator": "Yuxia Li",
+      "old_manual": 7,
+      "shared_recorded": null
+    },
+    {
+      "person": "zhao-qiulan",
+      "collaborator": "Caixue Li",
+      "old_manual": 6,
+      "shared_recorded": null
+    },
+    {
+      "person": "zhao-qiulan",
+      "collaborator": "Guangfu Han",
+      "old_manual": 5,
+      "shared_recorded": null
+    },
+    {
+      "person": "zhao-qiulan",
+      "collaborator": "Huanjin Wang",
+      "old_manual": 4,
+      "shared_recorded": null
+    },
+    {
+      "person": "zhao-qiulan",
+      "collaborator": "Qian Bai",
+      "old_manual": 4,
+      "shared_recorded": null
+    },
+    {
+      "person": "zhou-chunhui",
+      "collaborator": "yang-di",
+      "old_manual": 8,
+      "shared_recorded": 6
+    },
+    {
+      "person": "zhou-chunhui",
+      "collaborator": "liu-siqi",
+      "old_manual": 3,
+      "shared_recorded": 5
+    },
+    {
+      "person": "zhou-chunhui",
+      "collaborator": "zhang-youjin",
+      "old_manual": 6,
+      "shared_recorded": 5
+    },
+    {
+      "person": "zong-zhengyu",
+      "collaborator": "fang-bohan",
+      "old_manual": 11,
+      "shared_recorded": 10
+    }
+  ],
+  "personStats": [
+    {
+      "slug": "alekseev",
+      "total_papers": 68,
+      "published_count": 53,
+      "preprint_only_count": 15
+    },
+    {
+      "slug": "bi-yanhui",
+      "total_papers": 10,
+      "published_count": 5,
+      "preprint_only_count": 5
+    },
+    {
+      "slug": "boalch",
+      "total_papers": 34,
+      "published_count": 22,
+      "preprint_only_count": 12
+    },
+    {
+      "slug": "chan-kwokwai",
+      "total_papers": 49,
+      "published_count": 45,
+      "preprint_only_count": 4
+    },
+    {
+      "slug": "chao-qian",
+      "total_papers": 2,
+      "published_count": 2,
+      "preprint_only_count": 0
+    },
+    {
+      "slug": "chen-zhuo",
+      "total_papers": 39,
+      "published_count": 31,
+      "preprint_only_count": 8
+    },
+    {
+      "slug": "cheng-jiahao",
+      "total_papers": 4,
+      "published_count": 3,
+      "preprint_only_count": 1
+    },
+    {
+      "slug": "cheng-zhechi",
+      "total_papers": 4,
+      "published_count": 3,
+      "preprint_only_count": 1
+    },
+    {
+      "slug": "cotti",
+      "total_papers": 26,
+      "published_count": 22,
+      "preprint_only_count": 4
+    },
+    {
+      "slug": "dai-bo",
+      "total_papers": 9,
+      "published_count": 5,
+      "preprint_only_count": 4
+    },
+    {
+      "slug": "ding-yanqiao",
+      "total_papers": 15,
+      "published_count": 10,
+      "preprint_only_count": 5
+    },
+    {
+      "slug": "du-chengyong",
+      "total_papers": 22,
+      "published_count": 19,
+      "preprint_only_count": 3
+    },
+    {
+      "slug": "dubrovin",
+      "total_papers": 65,
+      "published_count": 59,
+      "preprint_only_count": 6
+    },
+    {
+      "slug": "faddeev",
+      "total_papers": 10,
+      "published_count": 10,
+      "preprint_only_count": 0
+    },
+    {
+      "slug": "fan-huijun",
+      "total_papers": 17,
+      "published_count": 8,
+      "preprint_only_count": 9
+    },
+    {
+      "slug": "fang-bohan",
+      "total_papers": 24,
+      "published_count": 19,
+      "preprint_only_count": 5
+    },
+    {
+      "slug": "gui-tao",
+      "total_papers": 10,
+      "published_count": 2,
+      "preprint_only_count": 8
+    },
+    {
+      "slug": "guo-jindong",
+      "total_papers": 4,
+      "published_count": 1,
+      "preprint_only_count": 3
+    },
+    {
+      "slug": "guo-shuai",
+      "total_papers": 26,
+      "published_count": 15,
+      "preprint_only_count": 11
+    },
+    {
+      "slug": "guzzetti",
+      "total_papers": 47,
+      "published_count": 42,
+      "preprint_only_count": 5
+    },
+    {
+      "slug": "he-weiqiang",
+      "total_papers": 15,
+      "published_count": 11,
+      "preprint_only_count": 4
+    },
+    {
+      "slug": "hertling",
+      "total_papers": 71,
+      "published_count": 58,
+      "preprint_only_count": 13
+    },
+    {
+      "slug": "hong-wei",
+      "total_papers": 6,
+      "published_count": 4,
+      "preprint_only_count": 2
+    },
+    {
+      "slug": "hu-chuangqiang",
+      "total_papers": 15,
+      "published_count": 5,
+      "preprint_only_count": 10
+    },
+    {
+      "slug": "hu-jianxun",
+      "total_papers": 26,
+      "published_count": 16,
+      "preprint_only_count": 10
+    },
+    {
+      "slug": "hu-xiaowen",
+      "total_papers": 16,
+      "published_count": 6,
+      "preprint_only_count": 10
+    },
+    {
+      "slug": "huan-zhen",
+      "total_papers": 13,
+      "published_count": 4,
+      "preprint_only_count": 9
+    },
+    {
+      "slug": "ji-ce",
+      "total_papers": 5,
+      "published_count": 1,
+      "preprint_only_count": 4
+    },
+    {
+      "slug": "jin-xiaoshang",
+      "total_papers": 14,
+      "published_count": 8,
+      "preprint_only_count": 6
+    },
+    {
+      "slug": "k-saito",
+      "total_papers": 48,
+      "published_count": 39,
+      "preprint_only_count": 9
+    },
+    {
+      "slug": "ke-huazhong",
+      "total_papers": 8,
+      "published_count": 3,
+      "preprint_only_count": 5
+    },
+    {
+      "slug": "kontsevich",
+      "total_papers": 61,
+      "published_count": 44,
+      "preprint_only_count": 17
+    },
+    {
+      "slug": "lang-honglei",
+      "total_papers": 25,
+      "published_count": 21,
+      "preprint_only_count": 4
+    },
+    {
+      "slug": "leung-naichung",
+      "total_papers": 52,
+      "published_count": 44,
+      "preprint_only_count": 8
+    },
+    {
+      "slug": "li-ao",
+      "total_papers": 0,
+      "published_count": 0,
+      "preprint_only_count": 0
+    },
+    {
+      "slug": "li-changzheng",
+      "total_papers": 38,
+      "published_count": 25,
+      "preprint_only_count": 13
+    },
+    {
+      "slug": "li-qin",
+      "total_papers": 17,
+      "published_count": 13,
+      "preprint_only_count": 4
+    },
+    {
+      "slug": "li-xiaobin",
+      "total_papers": 5,
+      "published_count": 5,
+      "preprint_only_count": 0
+    },
+    {
+      "slug": "li-yu",
+      "total_papers": 7,
+      "published_count": 1,
+      "preprint_only_count": 6
+    },
+    {
+      "slug": "liu-fangjun",
+      "total_papers": 0,
+      "published_count": 0,
+      "preprint_only_count": 0
+    },
+    {
+      "slug": "liu-melissa",
+      "total_papers": 59,
+      "published_count": 48,
+      "preprint_only_count": 11
+    },
+    {
+      "slug": "liu-siqi",
+      "total_papers": 45,
+      "published_count": 36,
+      "preprint_only_count": 9
+    },
+    {
+      "slug": "liu-xiaobo",
+      "total_papers": 35,
+      "published_count": 28,
+      "preprint_only_count": 7
+    },
+    {
+      "slug": "liu-zhangju",
+      "total_papers": 18,
+      "published_count": 15,
+      "preprint_only_count": 3
+    },
+    {
+      "slug": "lu-wen",
+      "total_papers": 8,
+      "published_count": 4,
+      "preprint_only_count": 4
+    },
+    {
+      "slug": "manin-yuri",
+      "total_papers": 40,
+      "published_count": 21,
+      "preprint_only_count": 19
+    },
+    {
+      "slug": "mazzocco",
+      "total_papers": 60,
+      "published_count": 51,
+      "preprint_only_count": 9
+    },
+    {
+      "slug": "ni-dadi",
+      "total_papers": 7,
+      "published_count": 4,
+      "preprint_only_count": 3
+    },
+    {
+      "slug": "novikov-sergei",
+      "total_papers": 1,
+      "published_count": 1,
+      "preprint_only_count": 0
+    },
+    {
+      "slug": "qiao-yu",
+      "total_papers": 21,
+      "published_count": 14,
+      "preprint_only_count": 7
+    },
+    {
+      "slug": "qu-haonan",
+      "total_papers": 5,
+      "published_count": 4,
+      "preprint_only_count": 1
+    },
+    {
+      "slug": "rao-sheng",
+      "total_papers": 21,
+      "published_count": 14,
+      "preprint_only_count": 7
+    },
+    {
+      "slug": "ruan-yongbin",
+      "total_papers": 72,
+      "published_count": 55,
+      "preprint_only_count": 17
+    },
+    {
+      "slug": "ryszard-nest",
+      "total_papers": 61,
+      "published_count": 52,
+      "preprint_only_count": 9
+    },
+    {
+      "slug": "sabbah",
+      "total_papers": 87,
+      "published_count": 79,
+      "preprint_only_count": 8
+    },
+    {
+      "slug": "si-li",
+      "total_papers": 40,
+      "published_count": 24,
+      "preprint_only_count": 16
+    },
+    {
+      "slug": "song-jiayu",
+      "total_papers": 5,
+      "published_count": 3,
+      "preprint_only_count": 2
+    },
+    {
+      "slug": "sun-shanzhong",
+      "total_papers": 26,
+      "published_count": 17,
+      "preprint_only_count": 9
+    },
+    {
+      "slug": "tan-timing",
+      "total_papers": 0,
+      "published_count": 0,
+      "preprint_only_count": 0
+    },
+    {
+      "slug": "tang-qian",
+      "total_papers": 6,
+      "published_count": 3,
+      "preprint_only_count": 3
+    },
+    {
+      "slug": "tang-xinxing",
+      "total_papers": 9,
+      "published_count": 6,
+      "preprint_only_count": 3
+    },
+    {
+      "slug": "tang-xiudi",
+      "total_papers": 9,
+      "published_count": 5,
+      "preprint_only_count": 4
+    },
+    {
+      "slug": "tian-gang",
+      "total_papers": 8,
+      "published_count": 8,
+      "preprint_only_count": 0
+    },
+    {
+      "slug": "tseng-hsian-hua",
+      "total_papers": 0,
+      "published_count": 0,
+      "preprint_only_count": 0
+    },
+    {
+      "slug": "tu-junwu",
+      "total_papers": 25,
+      "published_count": 12,
+      "preprint_only_count": 13
+    },
+    {
+      "slug": "wang-chongyu",
+      "total_papers": 2,
+      "published_count": 1,
+      "preprint_only_count": 1
+    },
+    {
+      "slug": "wang-luyao",
+      "total_papers": 8,
+      "published_count": 7,
+      "preprint_only_count": 1
+    },
+    {
+      "slug": "wang-xin",
+      "total_papers": 9,
+      "published_count": 8,
+      "preprint_only_count": 1
+    },
+    {
+      "slug": "wang-zhiyong",
+      "total_papers": 1,
+      "published_count": 1,
+      "preprint_only_count": 0
+    },
+    {
+      "slug": "wang-zhiyuan",
+      "total_papers": 16,
+      "published_count": 10,
+      "preprint_only_count": 6
+    },
+    {
+      "slug": "wen-hao",
+      "total_papers": 6,
+      "published_count": 3,
+      "preprint_only_count": 3
+    },
+    {
+      "slug": "wu-chaozhong",
+      "total_papers": 22,
+      "published_count": 4,
+      "preprint_only_count": 18
+    },
+    {
+      "slug": "wu-longting",
+      "total_papers": 10,
+      "published_count": 7,
+      "preprint_only_count": 3
+    },
+    {
+      "slug": "xiang-maosong",
+      "total_papers": 13,
+      "published_count": 11,
+      "preprint_only_count": 2
+    },
+    {
+      "slug": "xu-xiaomeng",
+      "total_papers": 35,
+      "published_count": 22,
+      "preprint_only_count": 13
+    },
+    {
+      "slug": "xu-xu",
+      "total_papers": 39,
+      "published_count": 6,
+      "preprint_only_count": 33
+    },
+    {
+      "slug": "yang-chenglang",
+      "total_papers": 22,
+      "published_count": 11,
+      "preprint_only_count": 11
+    },
+    {
+      "slug": "yang-di",
+      "total_papers": 54,
+      "published_count": 39,
+      "preprint_only_count": 15
+    },
+    {
+      "slug": "yang-yi",
+      "total_papers": 2,
+      "published_count": 0,
+      "preprint_only_count": 2
+    },
+    {
+      "slug": "yau-shingtung",
+      "total_papers": 42,
+      "published_count": 34,
+      "preprint_only_count": 8
+    },
+    {
+      "slug": "you-lei",
+      "total_papers": 0,
+      "published_count": 0,
+      "preprint_only_count": 0
+    },
+    {
+      "slug": "zagier",
+      "total_papers": 44,
+      "published_count": 32,
+      "preprint_only_count": 12
+    },
+    {
+      "slug": "zeng-haozhi",
+      "total_papers": 13,
+      "published_count": 8,
+      "preprint_only_count": 5
+    },
+    {
+      "slug": "zhang-bin",
+      "total_papers": 30,
+      "published_count": 20,
+      "preprint_only_count": 10
+    },
+    {
+      "slug": "zhang-huailiang",
+      "total_papers": 27,
+      "published_count": 18,
+      "preprint_only_count": 9
+    },
+    {
+      "slug": "zhang-ning",
+      "total_papers": 11,
+      "published_count": 3,
+      "preprint_only_count": 8
+    },
+    {
+      "slug": "zhang-qing",
+      "total_papers": 34,
+      "published_count": 23,
+      "preprint_only_count": 11
+    },
+    {
+      "slug": "zhang-qingsheng",
+      "total_papers": 9,
+      "published_count": 3,
+      "preprint_only_count": 6
+    },
+    {
+      "slug": "zhang-wei",
+      "total_papers": 0,
+      "published_count": 0,
+      "preprint_only_count": 0
+    },
+    {
+      "slug": "zhang-xuhui",
+      "total_papers": 1,
+      "published_count": 0,
+      "preprint_only_count": 1
+    },
+    {
+      "slug": "zhang-youjin",
+      "total_papers": 64,
+      "published_count": 54,
+      "preprint_only_count": 10
+    },
+    {
+      "slug": "zhao-jiayi",
+      "total_papers": 1,
+      "published_count": 0,
+      "preprint_only_count": 1
+    },
+    {
+      "slug": "zhao-qiulan",
+      "total_papers": 77,
+      "published_count": 75,
+      "preprint_only_count": 2
+    },
+    {
+      "slug": "zhou-chunhui",
+      "total_papers": 8,
+      "published_count": 7,
+      "preprint_only_count": 1
+    },
+    {
+      "slug": "zhou-jian",
+      "total_papers": 22,
+      "published_count": 17,
+      "preprint_only_count": 5
+    },
+    {
+      "slug": "zong-zhengyu",
+      "total_papers": 24,
+      "published_count": 16,
+      "preprint_only_count": 8
+    }
+  ]
+}

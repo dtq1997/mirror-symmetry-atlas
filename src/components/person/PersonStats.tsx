@@ -62,7 +62,7 @@ export default function PersonStats({ activity }: PersonStatsProps) {
               {(activity[key] as number).toLocaleString()}
             </div>
           )}
-          <div className="text-xs text-[#8888a0] mt-1">{label}</div>
+          <div className="text-xs text-[#8888a0] mt-1">{label}（待核实）</div>
         </div>
       ))}
       {activity.active_period && (
@@ -70,7 +70,7 @@ export default function PersonStats({ activity }: PersonStatsProps) {
           <div className="text-sm font-mono text-[#6366f1]">
             {activity.active_period}
           </div>
-          <div className="text-xs text-[#8888a0] mt-1">活跃期</div>
+          <div className="text-xs text-[#8888a0] mt-1">资料记载活跃期（待核实）</div>
         </div>
       )}
       {activity.peak_period && (
@@ -78,7 +78,7 @@ export default function PersonStats({ activity }: PersonStatsProps) {
           <div className="text-sm font-mono text-[#f59e0b]">
             {activity.peak_period}
           </div>
-          <div className="text-xs text-[#8888a0] mt-1">高峰期</div>
+          <div className="text-xs text-[#8888a0] mt-1">资料记载高峰期（待核实）</div>
         </div>
       )}
     </div>

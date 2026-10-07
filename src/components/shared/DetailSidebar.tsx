@@ -1,6 +1,6 @@
 "use client";
 
-import type { Person, GraphNode } from "@/lib/types";
+import type { Person, GraphNode, Connection } from "@/lib/types";
 import Link from "@/components/shared/AtlasLink";
 import { displayName as displayNameOf } from "@/lib/name";
 import { institutionName as institutionNameOf } from "@/lib/inst";
@@ -8,9 +8,10 @@ import { institutionName as institutionNameOf } from "@/lib/inst";
 interface DetailSidebarProps {
   node: GraphNode | null;
   onClose: () => void;
+  connections?: Connection[];
 }
 
-function PersonDetail({ person }: { person: Person }) {
+function PersonDetail({ person, connections }: { person: Person; connections: Connection[] }) {
   const currentPosition = person.career_timeline
     ?.filter((e) => e.type === "position")
     .pop();
@@ -38,7 +39,7 @@ function PersonDetail({ person }: { person: Person }) {
       {/* Current position */}
       {currentPosition && (
         <div className="bg-[#0a0a0f] rounded-lg p-3 border border-[#2a2a3a]">
-          <div className="text-xs text-[#8888a0] mb-1">当前/最近职位</div>
+          <div className="text-xs text-[#8888a0] mb-1">档案中的职位记录</div>
           <div className="text-sm text-[#e8e8f0]">{currentPosition.role}</div>
           {currentPosition.institution && (
             <div className="text-xs text-[#8888a0]">{institutionNameOf(currentPosition.institution)}</div>
@@ -69,7 +70,7 @@ function PersonDetail({ person }: { person: Person }) {
       {/* Activity stats */}
       {person.activity && (
         <div>
-          <div className="text-xs text-[#8888a0] mb-2">学术活跃度</div>
+          <div className="text-xs text-[#8888a0] mb-2">本站收录统计</div>
           <div className="grid grid-cols-2 gap-2">
             {person.activity.published_count != null && (
               <Stat label="有发表信息" value={person.activity.published_count} />
@@ -82,15 +83,7 @@ function PersonDetail({ person }: { person: Person }) {
               person.activity.total_papers != null && (
                 <Stat label="论文" value={person.activity.total_papers} />
               )}
-            {person.activity.h_index != null && (
-              <Stat label="h-index" value={person.activity.h_index} />
-            )}
-            {person.activity.phd_students != null && (
-              <Stat label="博士生" value={person.activity.phd_students} />
-            )}
-            {person.activity.academic_descendants != null && (
-              <Stat label="学术后代" value={person.activity.academic_descendants} />
-            )}
+
           </div>
         </div>
       )}
@@ -105,15 +98,19 @@ function PersonDetail({ person }: { person: Person }) {
               const displayName = collabSlug
                 ? displayNameOf(collabSlug)
                 : (collab as { name?: string }).name || "";
+              const edge = connections.find((c) => c.type === "coauthor" && (
+                (c.source === person.slug && c.target === collabSlug) ||
+                (c.target === person.slug && c.source === collabSlug)
+              ));
+              const papers = edge?.coauthored_papers;
+              const count = papers ? papers.published.length + papers.preprint.length : undefined;
               return (
               <div
                 key={collab.person || `${displayName}-${idx}`}
                 className="text-xs bg-[#0a0a0f] rounded p-2 border border-[#2a2a3a]"
               >
                 <span className="text-[#f59e0b]">{displayName}</span>
-                {collab.papers_count && (
-                  <span className="text-[#8888a0]"> · {collab.papers_count} 篇</span>
-                )}
+                <span className="text-[#8888a0]"> · {count === undefined ? "关系待核实" : `本站共同收录 ${count} 篇`}</span>
                 {collab.topic && (
                   <div className="text-[#8888a0] mt-0.5 truncate">{collab.topic}</div>
                 )}
@@ -180,12 +177,12 @@ function Stat({ label, value }: { label: string; value: number }) {
   );
 }
 
-export default function DetailSidebar({ node, onClose }: DetailSidebarProps) {
+export default function DetailSidebar({ node, onClose, connections = [] }: DetailSidebarProps) {
   if (!node) return null;
 
   return (
     <div
-      className="fixed top-[56px] right-0 w-[400px] h-[calc(100vh-56px)] bg-[#14141f] border-l border-[#2a2a3a] overflow-y-auto z-20 shadow-2xl animate-slide-in"
+      className="fixed top-[56px] right-0 w-[400px] max-w-full h-[calc(100vh-56px)] bg-[#14141f] border-l border-[#2a2a3a] overflow-y-auto z-20 shadow-2xl animate-slide-in"
       style={{
         animation: "slideIn 0.2s ease-out",
       }}
@@ -200,6 +197,7 @@ export default function DetailSidebar({ node, onClose }: DetailSidebarProps) {
       {/* Close button */}
       <button
         onClick={onClose}
+        aria-label="关闭人物资料"
         className="absolute top-3 right-3 w-8 h-8 flex items-center justify-center text-[#8888a0] hover:text-[#e8e8f0] hover:bg-[#2a2a3a] rounded transition-colors z-10"
       >
         ×
@@ -207,7 +205,7 @@ export default function DetailSidebar({ node, onClose }: DetailSidebarProps) {
 
       <div className="p-5">
         {node.type === "person" && node.data && (
-          <PersonDetail person={node.data as Person} />
+          <PersonDetail person={node.data as Person} connections={connections} />
         )}
         {!node.data && (
           <div className="text-[#8888a0] text-sm">
