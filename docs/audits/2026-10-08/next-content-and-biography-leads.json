@@ -1,0 +1,101 @@
+{
+  "reviewer": "Codex",
+  "date": "2026-10-08",
+  "scope": "Lead queue only; absence of source metadata does not mean a fact is false.",
+  "prior_batch_resolution": {
+    "chen_zhuo_six_candidates": "3 rejected-homonym; 1 needs-review; 2 retained with email/affiliation evidence.",
+    "institution_duplicates": "8 explicit aliases, 107 primary institutions, 115 routes preserved."
+  },
+  "priority_leads": [
+    {
+      "person": "hu-chuangqiang",
+      "fields": [
+        "career_timeline",
+        "personal_notes",
+        "links.homepage",
+        "identity_profile"
+      ],
+      "issue": "公开叙述同时称2025.04加入中山大学及现职BIMSA；学位/师承含未经来源支持的谱系猜测。先读当前官方个人页，不凭论文署名日期判断现职。",
+      "source_urls": [
+        "https://math.sysu.edu.cn/article/2971",
+        "https://maths.whu.edu.cn/info/1558/16830.htm",
+        "https://www.aimsciences.org/article/doi/10.3934/amc.2022066",
+        "https://www.bimsa.cn/research/course/2024sp/page_6.html",
+        "https://www.researchgate.net/publication/328598510"
+      ]
+    },
+    {
+      "person": "du-chengyong",
+      "fields": [
+        "publications"
+      ],
+      "issue": "对照新读到的官方履历论文表核对年份、题名、作者与缺编号；不要重跑已经完成的博士/任职修订。",
+      "source_urls": [
+        "http://139.155.71.72:81/HomePage.aspx?ID=80"
+      ]
+    },
+    {
+      "institutions": [
+        "leningrad-state",
+        "lgu"
+      ],
+      "issue": "两条列宁格勒大学记录的历史更名及主体连续性待核；不能仅凭近似名称自动合并。源文件已定位。"
+    },
+    {
+      "content_types": [
+        "concepts",
+        "timeline",
+        "conferences",
+        "problems"
+      ],
+      "issue": "继续扩大明确字段/命题的核查覆盖；已有界面测试不代表全部内容认证。"
+    }
+  ],
+  "institution_inventory": {
+    "primary_count": 107,
+    "records_with_sources": 10,
+    "records_with_notes": 46,
+    "notes_without_source_metadata": [
+      "snnu",
+      "cuhk",
+      "shandong",
+      "geneva",
+      "sun-yat-sen",
+      "sdust",
+      "sorbonne",
+      "ohio-state",
+      "steklov",
+      "hust",
+      "nankai",
+      "umich",
+      "ihes",
+      "siqse",
+      "birmingham",
+      "bimsa",
+      "hkust",
+      "cau",
+      "sichuan-u",
+      "moscow-state",
+      "harvard",
+      "zju-ims",
+      "capital-normal",
+      "columbia",
+      "gbu",
+      "penn-state",
+      "wuhan",
+      "bonn",
+      "oxford",
+      "sissa",
+      "nchu",
+      "rims-kyoto",
+      "mit",
+      "cambridge",
+      "zzu",
+      "tsinghua-ymsc",
+      "sustech",
+      "copenhagen",
+      "sicnu",
+      "tsinghua"
+    ]
+  }
+}

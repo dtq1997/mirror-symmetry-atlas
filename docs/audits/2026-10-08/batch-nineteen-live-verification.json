@@ -1,0 +1,312 @@
+{
+  "reviewer": "Codex",
+  "checked_at": "2026-10-08T04:01:04.718997+00:00",
+  "commit": "0a3105608073484404a67695f482fd54662ca474",
+  "deployment_run": 37725274272,
+  "scope": "21 pages: both URLs of eight alias pairs, aggregate list, people graph payload, Chen Zhuo and paper counts. Browser interaction recorded separately; no all-content truth claim.",
+  "http_checks": [
+    {
+      "url": "https://dtq1997.github.io/mirror-symmetry-atlas/",
+      "status": 200,
+      "sha256": "573bef29c622bfaaf26078e0a91caa0ef8069c6624847004da4c1a89bb82e96b",
+      "checks": {
+        "no_katex_errors": true,
+        "catalog_count": true
+      },
+      "passed": true
+    },
+    {
+      "url": "https://dtq1997.github.io/mirror-symmetry-atlas/people",
+      "status": 200,
+      "sha256": "969cac6e6142de76f5b2ad464acde3dff8ec80bb7158b2d8f1a4afadcc79789a",
+      "checks": {
+        "no_katex_errors": true
+      },
+      "passed": true
+    },
+    {
+      "url": "https://dtq1997.github.io/mirror-symmetry-atlas/papers",
+      "status": 200,
+      "sha256": "77d67995f1b314a89e6f2dba485ee8dc974dbfadb1a7e63b596459b076d405ae",
+      "checks": {
+        "no_katex_errors": true,
+        "catalog_count": true
+      },
+      "passed": true
+    },
+    {
+      "url": "https://dtq1997.github.io/mirror-symmetry-atlas/institutions",
+      "status": 200,
+      "sha256": "ed197b1ad2fc8b6ecfb012c1a8b47332606ce2dbb5eb9c53849e289dd44ce960",
+      "checks": {
+        "no_katex_errors": true,
+        "primary_count": true,
+        "canonical_cards": true,
+        "aliases_not_separate_cards": true
+      },
+      "passed": true
+    },
+    {
+      "url": "https://dtq1997.github.io/mirror-symmetry-atlas/people/chen-zhuo",
+      "status": 200,
+      "sha256": "ba303dd3a2daff5b435e3f570159e76d0b0cda3238496da7df8f9d0c6e406682",
+      "checks": {
+        "no_katex_errors": true,
+        "official_dates": true,
+        "official_homepage": true,
+        "positive_controls_retained": true,
+        "reviewed_records_absent": true,
+        "old_guesses_absent": true,
+        "source_notes_visible": true
+      },
+      "passed": true
+    },
+    {
+      "url": "https://dtq1997.github.io/mirror-symmetry-atlas/institutions/amss-cas",
+      "status": 200,
+      "sha256": "b48d5d99ca77c9271d1e668a80b7c37db1983eefb93d265e020bb54594b98124",
+      "checks": {
+        "no_katex_errors": true,
+        "canonical_heading": true,
+        "complete_unduplicated_members": true,
+        "visible_source_notes": true,
+        "alias_notice": true,
+        "primary_link": true
+      },
+      "passed": true
+    },
+    {
+      "url": "https://dtq1997.github.io/mirror-symmetry-atlas/institutions/amss",
+      "status": 200,
+      "sha256": "808b6cf7a80ab5ed3de475905f396189e89fad1b25863719c5bea4ed82e4aea7",
+      "checks": {
+        "no_katex_errors": true,
+        "canonical_heading": true,
+        "complete_unduplicated_members": true,
+        "visible_source_notes": true,
+        "alias_notice": true
+      },
+      "passed": true
+    },
+    {
+      "url": "https://dtq1997.github.io/mirror-symmetry-atlas/institutions/henan",
+      "status": 200,
+      "sha256": "4c274338f8627493b52f3525741e6a490d687df79f9cf79e343c561994975c8c",
+      "checks": {
+        "no_katex_errors": true,
+        "canonical_heading": true,
+        "complete_unduplicated_members": true,
+        "visible_source_notes": true,
+        "alias_notice": true,
+        "primary_link": true,
+        "unsupported_mentorship_absent": true
+      },
+      "passed": true
+    },
+    {
+      "url": "https://dtq1997.github.io/mirror-symmetry-atlas/institutions/henan-u",
+      "status": 200,
+      "sha256": "48364997de2b8f710a6c257bb39d60cfc86eebfc345cbfa74087b727d3979f79",
+      "checks": {
+        "no_katex_errors": true,
+        "canonical_heading": true,
+        "complete_unduplicated_members": true,
+        "visible_source_notes": true,
+        "alias_notice": true,
+        "unsupported_mentorship_absent": true
+      },
+      "passed": true
+    },
+    {
+      "url": "https://dtq1997.github.io/mirror-symmetry-atlas/institutions/kavli-ipmu",
+      "status": 200,
+      "sha256": "07d0bfa18efc1d8a8a13d69846e4caa4aac1807e3f5993257883ea96cd638dbb",
+      "checks": {
+        "no_katex_errors": true,
+        "canonical_heading": true,
+        "complete_unduplicated_members": true,
+        "visible_source_notes": true,
+        "alias_notice": true,
+        "primary_link": true
+      },
+      "passed": true
+    },
+    {
+      "url": "https://dtq1997.github.io/mirror-symmetry-atlas/institutions/ipmu",
+      "status": 200,
+      "sha256": "d97bbe371359a41967eee590b87f268dd17a72ae7504b8d70820120688fd3401",
+      "checks": {
+        "no_katex_errors": true,
+        "canonical_heading": true,
+        "complete_unduplicated_members": true,
+        "visible_source_notes": true,
+        "alias_notice": true
+      },
+      "passed": true
+    },
+    {
+      "url": "https://dtq1997.github.io/mirror-symmetry-atlas/institutions/lanzhou-university",
+      "status": 200,
+      "sha256": "3e7494947d6f8b1e1ecb0def31db5cee60a5de72822fbe77919b3810717e48d9",
+      "checks": {
+        "no_katex_errors": true,
+        "canonical_heading": true,
+        "complete_unduplicated_members": true,
+        "visible_source_notes": true,
+        "alias_notice": true,
+        "primary_link": true,
+        "unsupported_years_absent": true
+      },
+      "passed": true
+    },
+    {
+      "url": "https://dtq1997.github.io/mirror-symmetry-atlas/institutions/lanzhou-u",
+      "status": 200,
+      "sha256": "244fdaff211ef0d822fbffba8df5e1f3191ed64df003411215452ebe6844ff3f",
+      "checks": {
+        "no_katex_errors": true,
+        "canonical_heading": true,
+        "complete_unduplicated_members": true,
+        "visible_source_notes": true,
+        "alias_notice": true,
+        "unsupported_years_absent": true
+      },
+      "passed": true
+    },
+    {
+      "url": "https://dtq1997.github.io/mirror-symmetry-atlas/institutions/mpi-bonn",
+      "status": 200,
+      "sha256": "c351cd46be7dc58f57ea4032295c274220a5ac618ff8db02a581b151a903d2b5",
+      "checks": {
+        "no_katex_errors": true,
+        "canonical_heading": true,
+        "complete_unduplicated_members": true,
+        "visible_source_notes": true,
+        "alias_notice": true,
+        "primary_link": true
+      },
+      "passed": true
+    },
+    {
+      "url": "https://dtq1997.github.io/mirror-symmetry-atlas/institutions/mpim-bonn",
+      "status": 200,
+      "sha256": "b3335fabcd015c288ee6622dc1aa6abce2462443e2d05b322be2b2d5733fff81",
+      "checks": {
+        "no_katex_errors": true,
+        "canonical_heading": true,
+        "complete_unduplicated_members": true,
+        "visible_source_notes": true,
+        "alias_notice": true
+      },
+      "passed": true
+    },
+    {
+      "url": "https://dtq1997.github.io/mirror-symmetry-atlas/institutions/nanjing-u",
+      "status": 200,
+      "sha256": "5ee1697b65fbea3201d3c508b81d2420717ad2e35136cf750f78b898b4f9cbe5",
+      "checks": {
+        "no_katex_errors": true,
+        "canonical_heading": true,
+        "complete_unduplicated_members": true,
+        "visible_source_notes": true,
+        "alias_notice": true,
+        "primary_link": true
+      },
+      "passed": true
+    },
+    {
+      "url": "https://dtq1997.github.io/mirror-symmetry-atlas/institutions/nanjing",
+      "status": 200,
+      "sha256": "f8fa7fc252ae49f9dbe7dfb6052f62267298b223835b2634ce0896f691b16451",
+      "checks": {
+        "no_katex_errors": true,
+        "canonical_heading": true,
+        "complete_unduplicated_members": true,
+        "visible_source_notes": true,
+        "alias_notice": true
+      },
+      "passed": true
+    },
+    {
+      "url": "https://dtq1997.github.io/mirror-symmetry-atlas/institutions/ucberkeley",
+      "status": 200,
+      "sha256": "cf91e2a6d35d7d1ec132adfedfdb9a7c2360daa0dcff2d0d3358effc59bcae66",
+      "checks": {
+        "no_katex_errors": true,
+        "canonical_heading": true,
+        "complete_unduplicated_members": true,
+        "visible_source_notes": true,
+        "alias_notice": true,
+        "primary_link": true
+      },
+      "passed": true
+    },
+    {
+      "url": "https://dtq1997.github.io/mirror-symmetry-atlas/institutions/uc-berkeley",
+      "status": 200,
+      "sha256": "f0a403037234d71ee0d98350ead0ef946c2099eea4fa0b776de8e850920756d8",
+      "checks": {
+        "no_katex_errors": true,
+        "canonical_heading": true,
+        "complete_unduplicated_members": true,
+        "visible_source_notes": true,
+        "alias_notice": true
+      },
+      "passed": true
+    },
+    {
+      "url": "https://dtq1997.github.io/mirror-symmetry-atlas/institutions/wisconsin-madison",
+      "status": 200,
+      "sha256": "060561f48a80f95de4a734c6ca54d798ced734f59bac6a6656002f60b3855049",
+      "checks": {
+        "no_katex_errors": true,
+        "canonical_heading": true,
+        "complete_unduplicated_members": true,
+        "visible_source_notes": true,
+        "alias_notice": true,
+        "primary_link": true
+      },
+      "passed": true
+    },
+    {
+      "url": "https://dtq1997.github.io/mirror-symmetry-atlas/institutions/uw-madison",
+      "status": 200,
+      "sha256": "6128828d0b2d39e40f7b69eefa443c556bfe1d070947264f9901574746a217f4",
+      "checks": {
+        "no_katex_errors": true,
+        "canonical_heading": true,
+        "complete_unduplicated_members": true,
+        "visible_source_notes": true,
+        "alias_notice": true
+      },
+      "passed": true
+    }
+  ],
+  "browser_checks": [
+    {
+      "url": "https://dtq1997.github.io/mirror-symmetry-atlas/institutions/ucberkeley",
+      "viewport": {
+        "width": 608,
+        "height": 758
+      },
+      "document_width": 602,
+      "heading": "加州大学伯克利分校",
+      "recorded_heading": "本站关联记录（5 人）",
+      "alias_notice": true,
+      "screenshot": "institution-alias-live.png"
+    },
+    {
+      "url": "https://dtq1997.github.io/mirror-symmetry-atlas/people",
+      "viewport_width": 608,
+      "document_width": 602,
+      "berkeley_options": [
+        {
+          "label": "加州大学伯克利分校 (5)",
+          "value": "uc-berkeley"
+        }
+      ],
+      "selected_status": "5个人物节点 · 0条关系记录",
+      "console_errors": []
+    }
+  ]
+}

@@ -2,14 +2,14 @@
 
 [Codex] 2026-10-08。Goal **active**，原目标见 `RECOVERY-PLAN.md`。这不是已完成的全库事实认证。
 
-## 当前恢复入口（2026-10-08，第十八批线上验收后）
+## 当前恢复入口（2026-10-08，第十九批线上验收后）
 
 [Codex] Goal仍active。以下是当前摘要；后面的早期“待发布/尚未恢复”是历史记录，不代表现在。
 
-- 原网站已发布十八批修复。最近公开内容 commit `6cf622e161225a15472e097298fc668b73ec56c7`；Actions `37723497837` success，首页/人物列表/十个人物共12页HTTP核验；线上杜承勇履历、陈国威搜索已检查，390手机尺寸在同构本地版本通过。后续报告提交带skip ci，公开资产仍以上述commit为准。
-- 当前96人物、58主概念与3别名入口（61份原始记录）、115机构、3开放问题；人物原始论文2212行，目录1812组（包括书籍/章节及译版，不等于独立研究论文总数）。287HTML/22731站内链接/688公式实例，未检出坏目标或KaTeX解析错误；data lint 0errors/75warnings；41项网站回归及CI全部检查通过。这不是全库事实或数学认证。
+- 原网站已发布十九批修复。最近公开内容 commit `0a3105608073484404a67695f482fd54662ca474`；Actions `37725274272` success，21个公开页面逐项核对通过；线上机构别名页和人物图筛选实测，390手机尺寸在同构本地版本通过。后续报告提交带skip ci，公开资产仍以上述commit为准。
+- 当前96人物、58主概念与3别名入口（61份原始记录）、107主机构与8别名入口（115份原始记录）、3开放问题；人物原始论文2208行，目录1808组（包括书籍/章节及译版，不等于独立研究论文总数）。287HTML/22777站内链接/686公式实例，未检出坏目标或KaTeX解析错误；data lint 0errors/74warnings；44项网站回归及CI全部检查通过。这不是全库事实或数学认证。
 - 新闻链与定时部署已恢复，72篇新闻在线；作者保留原始署名，不按姓氏猜身份。1237个完整arXiv当前元数据已取回，但并非全部归属已核实。
-- 累计11条确认错挂、6条待核实归属已移出，1录像转网上痕迹，另23条来源确认的重复已合并。原始记录及来源分别保存在审核池或具名审计报告；身份排除受防回填检查保护，合并的有效DOI不能加入拒绝池。刘思齐41条、Mazzocco46条、Dubrovin64条。部分履历/论文修正不代表整个人物已核。
+- 累计14条确认错挂、7条待核实归属已移出，1录像转网上痕迹，另23条来源确认的重复已合并。原始记录及来源分别保存在审核池或具名审计报告；身份排除受防回填检查保护，合并的有效DOI不能加入拒绝池。刘思齐41条、Mazzocco46条、Dubrovin64条、陈酌35条（27有出版线索/8待补）。部分履历/论文修正不代表整个人物已核。
 - 图谱空按钮、共享数据突变、布局持续散开、手机侧栏/搜索、公式跨行渲染已修；年份筛选是累计有日期记录，机构筛选是历史履历关联，不猜现职。小屏全图仍可能局部标签重叠，可搜索放大。
 - 第八批统一出版线索口径；第九批修论文/新闻行内公式、重复与Hertling原刊标题；第十批修 Weyl 第一篇/续篇串接、1604.07123与1809.08806错题名，合并两组预印本/期刊重复。详见identifier-title-corrections.json、batch-ten-publication-counts.json、batch-ten-live-verification.json。Weyl续篇真实出版线索仍待补，不能说未发表。
 - 第十一批已上线：按CV修正Fang学历/任职/资助年份，补两篇2026年新作到三个作者的四行记录；会议邀请名单补Nest至18人，移除履历末项推断参会单位并展示官方来源。Fang24(18/6)、Liu61(47/14)、Zong24(15/9)，括号为出版线索/待补线索。见 profiles-new-papers-and-conference-review.json 与 batch-eleven-live-verification.json。
@@ -21,11 +21,13 @@
 - 第十六批已上线：HMS按2203.15482/2511.01656/2511.04498后续基础系列改为部分解决，保留具体定理条件及其他范畴比较问题；前一批待核结论已被本批来源跟进替代。两篇2026新作新增五条作者记录，郭帅2311.09804待核隔离，郭帅/张庆生的北大任职单位纠正。证据见hms-foundations-new-papers-review.json、batch-sixteen-live-verification.json。
 - 第十七批已上线：七组预印本/期刊版关联覆盖十人，合并15条冗余原始记录，保留arXiv、DOI及期刊信息；胡建勋学历官方来源冲突显式标注，撤去美国博士猜测，师生关系仅凭合著推断的胡—何条目转待核。人物来源中的84条说明、78个日期已显示；93个有sources的人物静态页面均核对。证据见biography-bibliography-and-source-notes-review.json、batch-seventeen-export-audit.json、batch-seventeen-live-verification.json。未核实整个人物档案。
 - 第十八批已上线：十个人物的有限履历/衍生叙述修订；陈国威中文名、宗正宇2015博士、杜承勇双导师/2023.03起教授均补明确来源；倪大地/张庆生两条未决师承及四条衍生关系移入审核池，合并两对重复，新增杜承勇联合导师。62条导师类记录；新闸阻止明确待核关系误回填。MGP记录不冒充原始博士论文；未核全体人物或关系。见biography-and-mentor-source-review.json、batch-eighteen-live-verification.json。
-- 下一步优先 `next-identity-and-content-leads.json`：陈酌档案的算术/GLSM/SCFT同名候选，杜承勇论文年份与缺编号、机构别名/重复；继续next-biography-and-relationship-leads.json其余内容。旧advisor-relationship-pending-inventory.json已追加第十八批处置，初始65条/两对重复/六条不确定是历史快照。
-- 全内容待办仍包括：人物公开叙述/履历/师生关系，Hertling整书/章节计数，58主概念的定义、年代、关系及引用，115机构、会议/时间线/3开放问题一手来源，论文目录查找体验。必须继续覆盖这些类型，不能把论文元数据清理当全站完成。
+- 第十九批已上线：八组机构别名统一档案/列表/历史关联人数/人物图筛选，旧115网址保留；陈酌3确认错挂与1待核隔离，两篇数论保留，官方学历/任职月份/现职/主页修订。河南大学与兰州大学两处旧推断同步撤下。见chen-zhuo-identity-and-career-review.json、institution-alias-source-review.json、batch-nineteen-live-verification.json。机构名称核对不认证旧名单、成立年或全部传记。
+- 下一步优先 `next-content-and-biography-leads.json`：胡创强现职/博士经历矛盾，杜承勇论文年份与缺编号，列宁格勒大学历史别名和其余机构叙述；继续next-biography-and-relationship-leads.json剩余项目。旧next-identity-and-content-leads.json已追加第十九批处置，不重做陈酌六篇或八组机构。胡创强两条旧官方入口当前分别无法访问/403，不把失败当成履历证据。
+- 全内容待办仍包括：人物公开叙述/履历/师生关系，Hertling整书/章节计数，58主概念的定义、年代、关系及引用，107主机构、会议/时间线/3开放问题一手来源，论文目录查找体验。必须继续覆盖这些类型，不能把论文元数据清理当全站完成。
 - content-inventory.json是第一批未核实基线，旧数量/全pending不覆盖后续分项证据。当前覆盖以具名审计的具体字段为准。
 - 不运行旧validate-publications.py --apply / detect-id-title-mismatch.py --write；OpenAlex v2仍有HTTP/缓存/评分风险，不能无人审查全库写入。
-- 继续只在本仓库；先查git状态，再沿此Goal推进。不要回academic-formula-workbench，不启动无关数学campaign。第十八批预览服务PID41597已核对身份并关闭，临时tab13已关闭，浏览器尺寸覆盖已清除；保留线上杜承勇履历页。
+- 继续只在本仓库；先查git状态，再沿此Goal推进。不要回academic-formula-workbench，不启动无关数学campaign。第十九批预览PID57455已核对身份并关闭，临时tab14关闭、viewport已reset；保留线上伯克利别名入口页（tab1）。
+
 
 ## 以下为分批历史与证据记录
 
@@ -322,3 +324,5 @@ Goal仍active，转向概念内容的一手来源核查而非继续把绘图通�
 - 八组机构别名显式合并，107主档案、115旧入口全部保留；机构列表/人数/图筛选使用同一身份，历史履历不改写。禁止链式别名、缺目标、循环及含未合并内容的别名。河南大学与兰州大学两处过期师承/学历推断同步撤下。AMSS、兰大官方站仅索引可读，直连失败已明示；成立年、坐标和旧名单不因此获认证。见institution-alias-source-review.json、batch-nineteen-record-counts.json。
 - 原始论文2208行、目录1808组；累计14确认错挂、7待核归属隔离，另1录像重分类、23重复原始行归并。44网站回归、ESLint、TypeScript、build通过；lint 0errors/74warnings；287HTML/22777链接/686公式实例/0坏目标。21页HTTP内容检查通过。390px旧机构入口跳转及1280px伯克利单一选项筛出5人，error日志为空。
 - Goal仍active；全内容核实未完。下一批需继续胡创强现职/博士经历矛盾、杜承勇论文年份与缺编号、历史机构名称及现有107机构叙述；概念/时间线/会议/公开问题仍需扩大逐项覆盖。
+
+[Codex] 2026-10-08 第十九批已上线：commit `0a3105608073484404a67695f482fd54662ca474`，Actions `37725274272` success。21页HTTP内容/成员集合核对通过，线上608px伯克利旧入口及5人筛选均确认，无横向溢出与console error。截图institution-alias-live.png。44回归检查与CI所有必需检查通过；这不认证全站内容。预览PID57455已核对并关闭，临时tab14关闭、viewport清除，保留tab1线上结果。Goal仍active；接续按顶部当前入口和next-content-and-biography-leads.json。
