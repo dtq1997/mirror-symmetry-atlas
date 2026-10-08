@@ -2,19 +2,21 @@
 
 [Codex] 2026-10-08。Goal **active**，原目标见 `RECOVERY-PLAN.md`。这不是已完成的全库事实认证。
 
-## 当前恢复入口（2026-10-08，第八批线上验收后）
+## 当前恢复入口（2026-10-08，第九批线上验收后）
 
 [Codex] Goal仍active。以下是当前摘要；后面的早期“待发布/尚未恢复”是历史记录，不代表现在。
 
-- 原网站已连续发布八批修复。最近公开代码 commit `98b75fd452d18e87b5387d8a256d3f9ded1afddd`；Actions `37705478583` success，curl和浏览器线上核验已完成。后续仅报告/审核池提交可带skip ci，公开资产仍以上述commit为准。
-- 当前96人物、61概念、115机构；人物原始论文2227行，目录1822组。283个HTML，22221条站内链接检查无坏目标；data lint 0 errors / 74 warnings；26项网站回归及工作流的其他检查通过。这些不是全库事实认证。
-- 新闻抓取与自动部署已恢复，72篇新闻在线；作者只作原始署名，不按姓氏猜身份。完整arXiv元数据取回1237个ID，但不能据此称全部归属已核实。
-- 已移出11条确认错挂、隔离5条待核实归属，完整原始记录及来源留在按人物审核池；lint与OpenAlex v2写入器阻止已裁定条目自动回填。另1条Mazzocco讲座录像已转网上痕迹；刘思齐41条、Mazzocco49条公开论文记录；两人的部分履历已据官方主页/CV修正，其他字段不能一并称已核。
-- 图谱空按钮、共享数据突变、布局持续散开、手机侧栏/搜索、公式跨行渲染已修；年份筛选现在是累计有日期记录，机构筛选是历史履历关联，不猜现职。小屏全图仍可能有标签局部重叠，可搜索放大。
-- 第八批已线上验收：出版分类已统一为“出版线索”，已识别资料库名称/DOI不单独计入；4条真实刊物补正，1条录像移出论文。详见 `publication-metadata-review.json`。下一步继续Mazzocco的OA假合作者/重复版本、52条题名差异、227条旧编号；新增候选为郭帅2311.09804归属、2312.11174的Open MIND刊名、邬龙挺1103.4695归属、Boalch W4307615951幻灯片类型（都还未裁定）。61概念、机构、会议/历史/开放问题的一手来源仍待逐项审。
-- `content-inventory.json`是第一批的未核实基线快照，不能拿它的旧数量或全pending覆盖后续分项证据。分项完成范围见同目录具名报告；全库审核远未完成。
-- 不运行旧 `validate-publications.py --apply` / `detect-id-title-mismatch.py --write`；OpenAlex v2仍有未修HTTP/缓存/评分风险，不作无人审查全库写入器。
-- 继续只在本仓库；先查git状态，再沿此Goal推进。不要回到academic-formula-workbench，不启动无关数学campaign。
+- 原网站已连续发布九批修复。最近公开代码 commit `f57da999c1d6e9cdd9a72a3f4d3c1ab1da640ecf`；Actions `37706915633` success，5页HTTP和浏览器手机线上核验完成。后续仅报告/审核池提交可带skip ci，公开资产仍以上述commit为准。
+- 当前96人物、61概念、115机构、3开放问题；人物原始论文2223行，目录1819组（包括书籍/章节及译版，不等于独立研究论文总数）。283HTML/22209站内链接/642公式实例，未检出坏目标或KaTeX解析错误；data lint 0errors/74warnings；28项网站回归及工作流其他检查通过。这不是全库事实或数学认证。
+- 新闻链与定时部署已恢复，72篇新闻在线；作者保留原始署名，不按姓氏猜身份。1237个完整arXiv的当前元数据已取回，但并非全部归属已核实。
+- 累计11条确认错挂、5条待核实归属已移出，1录像转网上痕迹，本批另合并4行来源确认的重复；完整原始记录及来源在按人物审核池，防止自动回填。刘思齐41条、Mazzocco46条、Dubrovin64条。部分履历/论文修正不代表整个人物已核。
+- 图谱空按钮、共享数据突变、布局持续散开、手机侧栏/搜索、公式跨行渲染已修；年份筛选是累计有日期记录，机构筛选是历史履历关联，不猜现职。小屏全图仍可能局部标签重叠，可搜索放大。
+- 第八批统一出版线索口径，资料库名称/DOI不单独计入；第九批修论文/新闻行内公式、安全转义，按SIGMA/arXiv/Manchester/SISSA/MathNet合并三组重复、恢复math/9806056、纠正假合作者/重复作者。两条Hertling标题据Springer原页修正；构建现拦截KaTeX解析失败。见publication-duplicates-review.json、paper-title-render-review.json、batch-nine-live-verification.json。
+- 下一步优先 `next-publication-source-leads.json`：hep-th/9611200的arXiv api core假作者；1604.07123在Fang/Liu/Zong下题名与当前原文不同；1809.08806在Guo/Chang下题名不同。先完整读对应YAML、核对DOI/版本及原题对应的另一篇作品，再修，不盲目覆盖。52条题名差异快照包含版本/拼写差别和已处理条目，不全是错；227条旧编号也为早期快照。
+- 另待：郭帅2311.09804归属、2312.11174 Open MIND刊名、邬龙挺1103.4695归属、Boalch W4307615951幻灯片类型；Hertling整书/章节类型与计数口径；61概念及概念图一侧related连线、机构履历、会议/历史/3开放问题的一手来源。全量事实审核远未完成。
+- content-inventory.json是第一批未核实基线，旧数量/全pending不覆盖后续分项证据。当前覆盖以具名审计的具体字段为准。
+- 不运行旧validate-publications.py --apply / detect-id-title-mismatch.py --write；OpenAlex v2仍有HTTP/缓存/评分风险，不能无人审查全库写入。
+- 继续只在本仓库；先查git状态，再沿此Goal推进。不要回academic-formula-workbench，不启动无关数学campaign。没有本轮预览服务遗留。
 
 ## 以下为分批历史与证据记录
 
@@ -183,3 +185,5 @@ Mazzocco的10.14288/1.0377037由DataCite明确登记为MovingImage/Audiovisual�
 - 全站公式扫描发现Hertling两个Springer章节标题的HTML转义和重复公式；据原刊citation_title及目录修正，补原书和页码，其他字段未动。详见paper-title-render-review.json。构建审计新增KaTeX解析失败拦截，错误公式负控exit1、正常/转义文字正控exit0。最终283HTML/22209链接/642公式实例/0问题；只验证显示，不验证数学。lint/typecheck/build通过，data lint仍0errors/74warnings。
 - 浏览器390px检查Mazzocco46条、5处公式及新闻17处标题公式，1280px目录1819组/151处公式；均无页面横向溢出、无解析/console错误。
 - 下一步已有一手确认线索：hep-th/9611200原页作者Boris Dubrovin、Youjin Zhang，期刊Compositio111(1998)167–219，两人当前旧9611200行却写arXiv api core；下批先完整读Zhang档案再修完整编号/作者，并找重复DOI。其余52题名差异、227缺archive旧号、郭帅/邬龙挺候选、概念/机构/会议/开放问题仍待审。Hertling同一本书和章节都计为记录，后续需要明确作品类型/计数口径，不能宣传为独立研究论文篇数。
+
+[Codex] 第九批已上线：commit `f57da999c1d6e9cdd9a72a3f4d3c1ab1da640ecf`，Actions `37706915633` success。Mazzocco/Dubrovin/Hertling/目录/新闻5页HTTP核对全部通过；手机390px实见46条、行内公式、恢复的math/9806056链接，无横向溢出/解析错误/console错误。截图paper-title-live-mobile.jpg；完整证据batch-nine-live-verification.json。Goal active，后续从当前恢复入口和next-publication-source-leads.json继续。

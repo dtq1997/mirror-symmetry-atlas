@@ -1,0 +1,79 @@
+{
+  "provider": "Codex",
+  "checked_on": "2026-10-08",
+  "commit": "f57da999c1d6e9cdd9a72a3f4d3c1ab1da640ecf",
+  "deploy_run": "37706915633",
+  "deploy_status": "success",
+  "http": [
+    {
+      "url": "https://dtq1997.github.io/mirror-symmetry-atlas/people/mazzocco",
+      "status": 200,
+      "sha256": "72e9eaaa85459cefee2b01affd3ae97216ba01587b80ab999c5b51ddf520d74f",
+      "formula_instances": 5,
+      "formula_errors": 0,
+      "checks": {
+        "math_id_restored": true,
+        "duplicate_oa_absent": true,
+        "count_46": true
+      }
+    },
+    {
+      "url": "https://dtq1997.github.io/mirror-symmetry-atlas/people/dubrovin",
+      "status": 200,
+      "sha256": "16c91ca9bcd62b901f2506275d2f5c6816d5b4bae7d89da70e4b67dccd3df794",
+      "formula_instances": 5,
+      "formula_errors": 0,
+      "checks": {
+        "math_id_restored": true,
+        "duplicate_oa_absent": true
+      }
+    },
+    {
+      "url": "https://dtq1997.github.io/mirror-symmetry-atlas/people/hertling",
+      "status": 200,
+      "sha256": "40af89c3cc7bc956104efe15c022361dc15ac596d77ae39593519df7fb46f709",
+      "formula_instances": 8,
+      "formula_errors": 0,
+      "checks": {
+        "encoded_math_absent": true,
+        "book_pages_present": true
+      }
+    },
+    {
+      "url": "https://dtq1997.github.io/mirror-symmetry-atlas/papers",
+      "status": 200,
+      "sha256": "1992c4dcf84e28fc34c96a18b77399f4da788d1178af022777d7b4477ee266f9",
+      "formula_instances": 151,
+      "formula_errors": 0,
+      "checks": {
+        "catalog_1819": true
+      }
+    },
+    {
+      "url": "https://dtq1997.github.io/mirror-symmetry-atlas/news",
+      "status": 200,
+      "sha256": "fa0f8779436d8e1f037d58a12e58583b1e255c02a362ccd557159bb169f422ea",
+      "formula_instances": 26,
+      "formula_errors": 0,
+      "checks": {}
+    }
+  ],
+  "browser": {
+    "url": "https://dtq1997.github.io/mirror-symmetry-atlas/people/mazzocco#publications",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "scrollWidth": 384,
+    "record_count": 46,
+    "publication_clues": 40,
+    "missing_clues": 6,
+    "formula_instances": 5,
+    "formula_errors": 0,
+    "fonts": "loaded",
+    "console_errors": [],
+    "restored_arxiv_link": "https://arxiv.org/abs/math/9806056",
+    "screenshot": "paper-title-live-mobile.jpg"
+  },
+  "limitation": "Live checks confirm this deployed batch; all-content factual review is incomplete."
+}

@@ -1,0 +1,57 @@
+{
+  "provider": "Codex",
+  "checked_on": "2026-10-08",
+  "scope": "Current primary-source metadata leads for the next correction batch. These rows have not yet been changed in public YAML. Source title conflicts require checking retained DOI/version relationships before repair.",
+  "leads": [
+    {
+      "id": "hep-th/9611200",
+      "source_url": "https://arxiv.org/abs/hep-th/9611200",
+      "source_title": "Extended affine Weyl groups and Frobenius manifolds",
+      "authors": [
+        "Boris Dubrovin",
+        "Youjin Zhang"
+      ],
+      "submitted": "1996-11-24",
+      "latest_version": "v2, 1998-05-20",
+      "journal": "Compositio Mathematica 111 (1998), 167–219",
+      "current_issue": "Two owners use ambiguous 9611200 and coauthors arXiv api core. Fix after full Zhang YAML read, check any existing DOI duplicate.",
+      "scope": "metadata, not mathematical conclusions"
+    },
+    {
+      "id": "1604.07123",
+      "source_url": "https://arxiv.org/abs/1604.07123",
+      "source_title": "On the Remodeling Conjecture for Toric Calabi-Yau 3-Orbifolds",
+      "authors": [
+        "Bohan Fang",
+        "Chiu-Chu Melissa Liu",
+        "Zhengyu Zong"
+      ],
+      "submitted": "2016-04-25",
+      "latest_version": "v5, 2019-10-20",
+      "journal": "J. Amer. Math. Soc. 33 (2020), no. 1, 135–222",
+      "current_issue": "Three owner records give The Eynard-Orantin Recursion and Equivariant Mirror Symmetry for P^1. Check whole records and source versions before deciding wrong ID versus title/DOI conflation."
+    },
+    {
+      "id": "1809.08806",
+      "source_url": "https://arxiv.org/abs/1809.08806",
+      "source_title": "The theory of N-Mixed-Spin-P fields",
+      "authors": [
+        "Huai-Liang Chang",
+        "Shuai Guo",
+        "Jun Li",
+        "Wei-Ping Li"
+      ],
+      "submitted": "2018-09-24",
+      "latest_version": "v2, 2019-08-21",
+      "journal": "Geom. Topol. 25 (2021), 775–811",
+      "doi": "10.2140/gt.2021.25.775",
+      "current_issue": "Two owner records use Polynomial Structure of GW Potential of Quintic. Check source versions and any separate true Polynomial Structure record before repair."
+    }
+  ],
+  "other_backlog": [
+    "Remaining normalized-title differences include cosmetic/version changes, not all false records.",
+    "Hertling records mix monograph and individual chapters; future UI should state record types and count scope clearly.",
+    "Concept graph related edges may drop one-sided links due to slug ordering; leads_to handling needs audit.",
+    "All 61 concept semantics, institutions, timeline and open-problem state still need primary-source review."
+  ]
+}
