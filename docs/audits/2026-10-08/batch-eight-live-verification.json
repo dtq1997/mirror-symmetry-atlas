@@ -1,0 +1,83 @@
+{
+  "provider": "Codex",
+  "checked_on": "2026-10-08",
+  "commit": "98b75fd452d18e87b5387d8a256d3f9ded1afddd",
+  "actions_run": 37705478583,
+  "curl_equivalent_http_checks": [
+    {
+      "url": "https://dtq1997.github.io/mirror-symmetry-atlas/people/mazzocco",
+      "status": 200,
+      "sha256": "6ef99714a113f967dd6f43d0c9551e20d0133ed7b73e421a96aa2702aec1ad88",
+      "expected": {
+        "论文（49）": true,
+        "40 有出版线索": true,
+        "9 待补出版线索": true,
+        "Rokko Lectures in Mathematics 7 (2000), 91–100": true,
+        "BIRS 讲座，2018-09-11": true
+      },
+      "old_label_present": false
+    },
+    {
+      "url": "https://dtq1997.github.io/mirror-symmetry-atlas/people/guo-shuai",
+      "status": 200,
+      "sha256": "1ea9ea6cf3870ccdc34533f75c03e40a8d634cb7f7768f3b064184597ea62d50",
+      "expected": {
+        "Forum of Mathematics, Pi 9 (2021), e3": true
+      },
+      "old_label_present": false
+    },
+    {
+      "url": "https://dtq1997.github.io/mirror-symmetry-atlas/people/wu-longting",
+      "status": 200,
+      "sha256": "90a105d06356bb6258cc7304ffc46e0691016cd03b6ba33796a9949e64735ebf",
+      "expected": {
+        "Forum of Mathematics, Pi 9 (2021), e3": true
+      },
+      "old_label_present": false
+    },
+    {
+      "url": "https://dtq1997.github.io/mirror-symmetry-atlas/people/boalch",
+      "status": 200,
+      "sha256": "510795b62ea9d65e12656bd4c1817e367a0e18aa49441a959c3d81e329db058e",
+      "expected": {
+        "Geometry and Physics: Volume II, Oxford University Press (2018), 433–454": true
+      },
+      "old_label_present": false
+    },
+    {
+      "url": "https://dtq1997.github.io/mirror-symmetry-atlas/people/zhao-qiulan",
+      "status": 200,
+      "sha256": "4cd853705c89ac357eb53d1fc340142453176e6cae8582eb30af1797cf8d60cc",
+      "expected": {
+        "SSRN Electronic Journal": true,
+        "资料库 DOI": true
+      },
+      "old_label_present": false
+    },
+    {
+      "url": "https://dtq1997.github.io/mirror-symmetry-atlas/papers",
+      "status": 200,
+      "sha256": "8c35219a27ff896a3dc617efa521b4d048f9b57e424c5b003e968389768beca9",
+      "expected": {
+        "1822 条论文记录": true,
+        "资料库 DOI": true,
+        "出版线索": true
+      },
+      "old_label_present": false
+    }
+  ],
+  "limitations": "Metadata and UI checks, not full factual verification.",
+  "browser": {
+    "url": "https://dtq1997.github.io/mirror-symmetry-atlas/people/mazzocco#publications",
+    "viewport_width": 390,
+    "scroll_width": 384,
+    "publication_heading": "论文（49）40 有出版线索/9 待补出版线索",
+    "heading_top": 72,
+    "nav_bottom": 56,
+    "video_not_in_publications": true,
+    "video_visible_in_online_traces": true,
+    "console_errors": [],
+    "screenshot": "publication-metadata-live-mobile.jpg"
+  },
+  "curl_check": "passed"
+}

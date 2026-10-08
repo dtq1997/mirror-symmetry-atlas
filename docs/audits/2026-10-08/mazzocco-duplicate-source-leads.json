@@ -1,0 +1,130 @@
+{
+  "provider": "Codex",
+  "checked_on": "2026-10-08",
+  "scope": "Next-step source leads. OpenAlex locations explicitly point two candidate records to existing complete arXiv IDs. The third needs PDF comparison. No public-data changes in this audit.",
+  "rows": [
+    {
+      "openalex_id": "W2340152047",
+      "candidate_existing_record": "1409.4287",
+      "source_url": "https://api.openalex.org/works/W2340152047",
+      "source_sha256": "4d7b0db6bc9ae2317e6fd773b0ac26df2e06350591b7f39d436acacff651d42d",
+      "locations": [
+        {
+          "id": "pmh:oai:CiteSeerX.psu:10.1.1.741.7277",
+          "is_oa": false,
+          "landing_page_url": "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.741.7277",
+          "pdf_url": null,
+          "source": null,
+          "license": null,
+          "license_id": null,
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": "http://arxiv.org/pdf/1409.4287.pdf",
+          "raw_type": "text"
+        },
+        {
+          "id": "mag:2340152047",
+          "is_oa": false,
+          "landing_page_url": "https://www.emis.de/journals/SIGMA/2014/116/sigma14-116.pdf",
+          "pdf_url": null,
+          "source": null,
+          "license": null,
+          "license_id": null,
+          "version": null,
+          "is_accepted": false,
+          "is_published": null,
+          "raw_source_name": null,
+          "raw_type": null
+        }
+      ],
+      "authors": [
+        "Cherednik Algebras",
+        "Marta Mazzocco"
+      ],
+      "primary_source_to_compare": "https://sigma-journal.com/2014/116/",
+      "status": "needs-record-review; no public data changed in this audit"
+    },
+    {
+      "openalex_id": "W2963917450",
+      "candidate_existing_record": "1404.0988",
+      "source_url": "https://api.openalex.org/works/W2963917450",
+      "source_sha256": "b47ca20fab78dd09938a535b61cb19e5d2c8b21c682e2b9482d74f729ac82671",
+      "locations": [
+        {
+          "id": "pmh:oai:CiteSeerX.psu:10.1.1.750.2483",
+          "is_oa": false,
+          "landing_page_url": "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.750.2483",
+          "pdf_url": null,
+          "source": null,
+          "license": null,
+          "license_id": null,
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": "http://arxiv.org/pdf/1404.0988.pdf",
+          "raw_type": "text"
+        }
+      ],
+      "authors": [
+        "Leonid Olegovich Chekhov",
+        "Marta Mazzocco"
+      ],
+      "primary_source_to_compare": "https://arxiv.org/abs/1404.0988",
+      "status": "needs-record-review; no public data changed in this audit"
+    },
+    {
+      "openalex_id": "W2128014837",
+      "candidate_existing_record": "doi:10.1007/pl00005790",
+      "source_url": "https://api.openalex.org/works/W2128014837",
+      "source_sha256": "a2f87b97576c137e13c41eaeb8371dd9e80d7712be5f10bce2f58157779a4459",
+      "locations": [
+        {
+          "id": "mag:2128014837",
+          "is_oa": false,
+          "landing_page_url": "http://eprints.ma.man.ac.uk/142/01/covered/MIMS_ep2006_6.pdf",
+          "pdf_url": null,
+          "source": null,
+          "license": null,
+          "license_id": null,
+          "version": null,
+          "is_accepted": false,
+          "is_published": null,
+          "raw_source_name": null,
+          "raw_type": null
+        }
+      ],
+      "authors": [
+        "Boris Anatol'evich Dubrovin",
+        "Marta Mazzocco"
+      ],
+      "primary_source_to_compare": "http://eprints.ma.man.ac.uk/142/01/covered/MIMS_ep2006_6.pdf",
+      "status": "needs-record-review; no public data changed in this audit"
+    }
+  ],
+  "sigma_checked": {
+    "url": "https://sigma-journal.com/2014/116/",
+    "title": "Non-Symmetric Basic Hypergeometric Polynomials and Representation Theory for Confluent Cherednik Algebras",
+    "author": "Marta Mazzocco",
+    "affiliation": "Loughborough University",
+    "arxiv": "1409.4287",
+    "doi": "10.3842/SIGMA.2014.116",
+    "note": "Cherednik Algebras is title text, not a second author."
+  },
+  "other_failure": {
+    "openalex_id": "W4307615951",
+    "status": 404,
+    "meaning": "Cannot infer absence/nonexistence of slides from OpenAlex lookup failure."
+  },
+  "arxiv_checked": {
+    "url": "https://arxiv.org/abs/1404.0988",
+    "title": "On a Poisson space of bilinear forms with a Poisson Lie action",
+    "authors": [
+      "Leonid Chekhov",
+      "Marta Mazzocco"
+    ],
+    "submitted": "2014-04-03",
+    "latest_version": "v3, 2015-03-20",
+    "scope": "metadata only; no theorem evaluation"
+  }
+}

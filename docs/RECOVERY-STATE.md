@@ -2,16 +2,16 @@
 
 [Codex] 2026-10-08。Goal **active**，原目标见 `RECOVERY-PLAN.md`。这不是已完成的全库事实认证。
 
-## 当前恢复入口（2026-10-08，第八批待发布）
+## 当前恢复入口（2026-10-08，第八批线上验收后）
 
 [Codex] Goal仍active。以下是当前摘要；后面的早期“待发布/尚未恢复”是历史记录，不代表现在。
 
-- 原网站已连续发布七批修复。最近公开代码 commit `56159899e749d5a7c90b7e4650006197f24d9aa2`；Actions `37703966229` success，curl和浏览器线上核验已完成。后续仅报告/审核池提交可带skip ci，公开资产仍以上述commit为准。
+- 原网站已连续发布八批修复。最近公开代码 commit `98b75fd452d18e87b5387d8a256d3f9ded1afddd`；Actions `37705478583` success，curl和浏览器线上核验已完成。后续仅报告/审核池提交可带skip ci，公开资产仍以上述commit为准。
 - 当前96人物、61概念、115机构；人物原始论文2227行，目录1822组。283个HTML，22221条站内链接检查无坏目标；data lint 0 errors / 74 warnings；26项网站回归及工作流的其他检查通过。这些不是全库事实认证。
 - 新闻抓取与自动部署已恢复，72篇新闻在线；作者只作原始署名，不按姓氏猜身份。完整arXiv元数据取回1237个ID，但不能据此称全部归属已核实。
 - 已移出11条确认错挂、隔离5条待核实归属，完整原始记录及来源留在按人物审核池；lint与OpenAlex v2写入器阻止已裁定条目自动回填。另1条Mazzocco讲座录像已转网上痕迹；刘思齐41条、Mazzocco49条公开论文记录；两人的部分履历已据官方主页/CV修正，其他字段不能一并称已核。
 - 图谱空按钮、共享数据突变、布局持续散开、手机侧栏/搜索、公式跨行渲染已修；年份筛选现在是累计有日期记录，机构筛选是历史履历关联，不猜现职。小屏全图仍可能有标签局部重叠，可搜索放大。
-- 第八批本地已通过，待发布验收：出版分类已统一为“出版线索”，已识别资料库名称/DOI不单独计入；4条真实刊物补正，1条录像移出论文。详见 `publication-metadata-review.json`。下一步继续Mazzocco的OA假合作者/重复版本、52条题名差异、227条旧编号；新增候选为郭帅2311.09804归属、2312.11174的Open MIND刊名、邬龙挺1103.4695归属、Boalch W4307615951幻灯片类型（都还未裁定）。61概念、机构、会议/历史/开放问题的一手来源仍待逐项审。
+- 第八批已线上验收：出版分类已统一为“出版线索”，已识别资料库名称/DOI不单独计入；4条真实刊物补正，1条录像移出论文。详见 `publication-metadata-review.json`。下一步继续Mazzocco的OA假合作者/重复版本、52条题名差异、227条旧编号；新增候选为郭帅2311.09804归属、2312.11174的Open MIND刊名、邬龙挺1103.4695归属、Boalch W4307615951幻灯片类型（都还未裁定）。61概念、机构、会议/历史/开放问题的一手来源仍待逐项审。
 - `content-inventory.json`是第一批的未核实基线快照，不能拿它的旧数量或全pending覆盖后续分项证据。分项完成范围见同目录具名报告；全库审核远未完成。
 - 不运行旧 `validate-publications.py --apply` / `detect-id-title-mismatch.py --write`；OpenAlex v2仍有未修HTTP/缓存/评分风险，不作无人审查全库写入器。
 - 继续只在本仓库；先查git状态，再沿此Goal推进。不要回到academic-formula-workbench，不启动无关数学campaign。
@@ -168,3 +168,8 @@ Mazzocco履历依据ICREA提供的本人CV第1页修正：Padova1988—1994、MS
 Mazzocco的10.14288/1.0377037由DataCite明确登记为MovingImage/Audiovisual，BIRS讲座页确认本人及2018-09-11日期；旧2019是资料库出版年。移至online_traces视频，原论文行完整进审核池，阻止自动回填但不否认Marta署名。当前Marta49条（40有出版线索/9待补）；全站2227原始行/1822目录组。累计11确认错挂+5待核实隔离+1媒体重分类，不能混称17篇同名错挂。
 
 26项网站回归、ESLint、TypeScript和最终build通过，data lint 0errors/74warnings，283HTML/22221链接/0坏目标。390px实际检查arXiv标签、录像不在论文区及锚点跳转；修复粘性导航挡住锚点标题，正常点击后标题在72px（导航56px）处。1280px三条SSRN均显示资料库和待补出版线索，无横向溢出、error日志为空。截图 `publication-metadata-preview-mobile.jpg`。论文题名中的TeX目前仍直接显示源码，列为后续渲染修复；尚未做其数学语义审查。Goal仍active。
+
+
+[Codex] 第八批已上线：commit `98b75fd452d18e87b5387d8a256d3f9ded1afddd`，Actions `37705478583` success。6个线上页面HTTP核对及Mazzocco的curl检查成功；浏览器390px宽度384无溢出，标题锚点72px、49/40/9、arXiv资料库标签、视频从论文移至网上痕迹均确认，error日志为空。证据 `batch-eight-live-verification.json`，截图 `publication-metadata-live-mobile.jpg`。临时预览已关闭，仅保留线上结果页。
+
+下一轮先继续精确重复/作者错误：`mazzocco-duplicate-source-leads.json` 保存当前OpenAlex位置字段、来源哈希与SIGMA/arXiv一手复核。W2340152047原始来源直接指1409.4287及SIGMA2014/116，错把题名末尾Cherednik Algebras当作者；W2963917450原始来源指1404.0988。现有公开行尚未改动，先核原记录与来源，再合并归属并完整存档防回填。W2128014837只有Manchester PDF来源，需要读原文；Boalch W4307615951 API404不能推断幻灯片不存在。接着修论文题名TeX源码显示、俄文作者重复/版本、52题名差异/227旧编号，以及概念、机构、开放问题等全内容审计。Goal仍active，不要重新建Goal或返回academic-formula-workbench。
