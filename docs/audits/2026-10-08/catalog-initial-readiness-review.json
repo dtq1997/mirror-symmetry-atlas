@@ -40,5 +40,20 @@
   ],
   "related_paths": "next-initial-interaction-leads.json",
   "resource_note": "Disk briefly filled and report/log writes failed. After completed build and verifying compiler PIDs had exited, removed only this task project’s untracked .next output (89MiB); out/ and evidence preserved. Later free-space reading1.3GiB is observation, not all attributable to this cleanup. Retried report writes.",
-  "deployment": "pending"
+  "deployment": "pending",
+  "aria_review": {
+    "source": "https://www.w3.org/TR/html-aria/#el-fieldset",
+    "correction": "Keep search landmark on an outer div; fieldset retains its native group semantics and a separate label. The initial candidate placed role=search on fieldset; corrected before final acceptance.",
+    "first_candidate_commit": "d147714942d975d078f6d90617384bbfac8e9bd4",
+    "first_candidate_run": 37745663412,
+    "final_local_check": {
+      "search_landmark_element": "DIV",
+      "fieldset_explicit_role": null,
+      "fieldset_accessible_name": "搜索与筛选",
+      "first_input_matches": 1,
+      "viewport": 1280,
+      "scrollWidth": 1274,
+      "console_errors": []
+    }
+  }
 }
