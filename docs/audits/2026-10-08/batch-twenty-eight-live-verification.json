@@ -1,0 +1,43 @@
+{
+  "reviewer": "Codex",
+  "date": "2026-10-08",
+  "commit": "60c2c594f6f8306fd6b4f727d257d33d0b144099",
+  "actions_run": 37746312586,
+  "actions_status": "success",
+  "public_url": "https://dtq1997.github.io/mirror-symmetry-atlas/papers",
+  "http_status": 200,
+  "sha256": "20a887931057b01cbe1119690091f2e8356257d849c32dd317b4b993b63075bf",
+  "static_readiness": {
+    "disabled_controls": 5,
+    "load_more_disabled": true,
+    "loading_message": true
+  },
+  "browser": {
+    "method": "Reload public page then immediately fill the observed searchbox; first input filters one record.",
+    "query": "2010.14339",
+    "identifier_target": "https://arxiv.org/abs/2010.14339",
+    "desktop": {
+      "articles": 1,
+      "fieldsetDisabled": false,
+      "fieldsetRole": null,
+      "height": 800,
+      "landmark": "DIV",
+      "scrollWidth": 1274,
+      "status": "匹配 1 条 · 已显示 1 条 · 全目录 1799 条",
+      "width": 1280
+    },
+    "mobile": {
+      "articles": 1,
+      "height": 844,
+      "scrollWidth": 384,
+      "status": "匹配 1 条 · 已显示 1 条 · 全目录 1799 条",
+      "width": 390
+    },
+    "console_errors": [],
+    "screenshots": [
+      "batch-twenty-eight-live-desktop.jpg",
+      "batch-twenty-eight-live-mobile.jpg"
+    ],
+    "cleanup": "Temporary local tab23 closed; browser viewport override reset; public tab1 retained."
+  }
+}

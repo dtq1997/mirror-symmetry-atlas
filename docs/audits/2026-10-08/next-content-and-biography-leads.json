@@ -12,20 +12,21 @@
     "batch_twenty_four": "Local and public validation passed; unsafe surname/initial binding and all-authors subject inference removed. 5 accepted paper claims (4 directed pairs), 4 false paper bindings rejected, 368 legacy paper claims retained pending. Threshold 1 now displays singles; arrows show direction. Actions 37736282862 succeeded for 1e14547; 7 public pages, actual 1280px/390px checks passed.",
     "batch_twenty_five": "Deployed121b6dd, Actions37739178616success;7publicpages and1280/390actualbrowserwidths verified. Old45fundingedges preserved;5individualrecipientclaims produce4pairs. Four literal-word grant IDs rejected,3oldpairs superseded by narrower evidence,38oldclaims pending. Public person/sidebar sources and reviewed-output build gate added. 58site checks include15grant tests.",
     "batch_twenty_six": "Deployed10929f6, Actions37742748997success;9public bibliographies matched,1280/390 actual browser checks passed. Seven publisher markup/entity residues corrected; PAMQ 2010.14339 journal association and quadric DOI added. Li Qin: 2 confirmed UW wrong-owner publications removed,1 identity-pending paper quarantined,2 additional Bao Qin Li identity-only IDs removed. Three historical CV entries corrected; current job unverified. Yang Di early mechanics paper retained through exact-email evidence. 60 site regressions; 287HTML/15264links/563formulas/0issues.",
-    "batch_twenty_seven": "Deployed7ba82a1,Actions37743988647success;3original static arXiv-to-DOI mismatches corrected,unknown placeholders no longer linked,identifier guard distinguishes legitimate HTML/PDF versions. 61site checks,287HTML/15263links/563formula instances/0issues;1280/390 public search/target checks passed. Separate initial-load input issue continues in batch28."
+    "batch_twenty_seven": "Deployed7ba82a1,Actions37743988647success;3original static arXiv-to-DOI mismatches corrected,unknown placeholders no longer linked,identifier guard distinguishes legitimate HTML/PDF versions. 61site checks,287HTML/15263links/563formula instances/0issues;1280/390 public search/target checks passed. Separate initial-load input issue continues in batch28.",
+    "batch_twenty_eight": "Deployed60c2c59, Actions37746312586success; server controls disabled until React attaches, native fieldset group and outer search landmark preserved. Public static boundary and first input verified; actual1280/390widths,1matching record,correctarXivtarget,no console errors.61regressions,287HTML/15263links/563formulas/0issues. Own preview stopped and rebuildable .next/out removed after acceptance."
   },
   "priority_leads": [
     {
       "content_types": [
         "catalog initial-load interaction"
       ],
-      "status": "in-progress-batch-28",
+      "status": "resolved-batch-28",
       "issue": "Public immediate input remained visible but results unchanged until another change after loading; exported controls enabled before hydration. Guard controls and load-more until input handlers are ready; verify static disabled boundary plus first-input browser behavior.",
       "entry_files": [
         "src/components/papers/PaperCatalog.tsx",
         "src/components/papers/CatalogControls.tsx"
       ],
-      "evidence": "batch-twenty-seven-live-verification.json"
+      "evidence": "catalog-initial-readiness-review.json"
     },
     {
       "content_types": [
