@@ -1,6 +1,6 @@
 slug: mazzocco
-count: 10
-note: '[Codex] 2026-10-08：6条已确认同名错挂，4条归属待核实。保留原记录，不得由自动姓名匹配回填。'
+count: 11
+note: '[Codex] 2026-10-08：6条已确认同名错挂，4条归属待核实，1条讲座录像移至网上痕迹。保留原记录，不得自动回填论文列表。'
 candidates:
 - id: doi:10.1088/1742-6596/863/1/012026
   title: 15O+α resonant elastic scattering to study cluster states in19Ne
@@ -775,3 +775,20 @@ candidates:
   - https://www.research.unipd.it/handle/11577/155676
   - https://www.research.unipd.it/cris/rp/rp21136
   - https://sites.google.com/upc.edu/marta-mazzocco
+- id: doi:10.14288/1.0377037
+  title: Quantum character varieties and $q$-Askey scheme
+  year: 2019
+  coauthors: []
+  doi: 10.14288/1.0377037
+  journal: cIRcle (University of British Columbia)
+  openalex_id: W3036431556
+  sources:
+  - openalex
+  no_arxiv: true
+  review_status: rejected
+  reviewed_by: Codex
+  reviewed_on: '2026-10-08'
+  review_reason: 资源类型误分类：同题讲座录像，不是论文记录；已移入人物 online_traces。Marta 署名不否定。
+  source_urls:
+  - https://api.datacite.org/dois/10.14288/1.0377037
+  - https://www.birs.ca/events/2018/5-day-workshops/18w5078/videos/watch/201809111330-Mazzocco.html

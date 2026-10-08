@@ -1,0 +1,704 @@
+{
+  "provider": "Codex",
+  "checked_on": "2026-10-08",
+  "scope": "Publication metadata classification and five raw-record corrections; not a full authorship or mathematical audit.",
+  "venue_corrections": [
+    {
+      "person": "guo-shuai",
+      "before": {
+        "id": "2001.05347",
+        "title": "Holomorphic anomaly equation for $(\\mathbb{P}^2,E)$ and the Nekrasov-Shatashvili limit of local $\\mathbb{P}^2$",
+        "year": 2020,
+        "coauthors": [
+          "wu-longting",
+          "Pierrick Bousseau",
+          "Honglu Fan"
+        ],
+        "doi": "10.1017/fmp.2021.3",
+        "journal": "Repository for Publications and Research Data (ETH Zurich)",
+        "primary_category": "math.AG",
+        "openalex_id": "W3159918510",
+        "sources": [
+          "arxiv",
+          "openalex"
+        ]
+      },
+      "after": {
+        "id": "2001.05347",
+        "title": "Holomorphic anomaly equation for $(\\mathbb{P}^2,E)$ and the Nekrasov-Shatashvili limit of local $\\mathbb{P}^2$",
+        "year": 2020,
+        "coauthors": [
+          "wu-longting",
+          "Pierrick Bousseau",
+          "Honglu Fan"
+        ],
+        "doi": "10.1017/fmp.2021.3",
+        "journal": "Forum of Mathematics, Pi 9 (2021), e3",
+        "primary_category": "math.AG",
+        "openalex_id": "W3159918510",
+        "sources": [
+          "arxiv",
+          "openalex",
+          "crossref"
+        ]
+      },
+      "source_url": "https://doi.org/10.1017/fmp.2021.3",
+      "scope": "journal/venue field only; no full identity or mathematical audit"
+    },
+    {
+      "person": "wu-longting",
+      "before": {
+        "id": "2001.05347",
+        "title": "Holomorphic anomaly equation for $(\\mathbb{P}^2,E)$ and the Nekrasov-Shatashvili limit of local $\\mathbb{P}^2$",
+        "year": 2020,
+        "coauthors": [
+          "guo-shuai",
+          "Pierrick Bousseau",
+          "Honglu Fan"
+        ],
+        "doi": "10.1017/fmp.2021.3",
+        "journal": "Repository for Publications and Research Data (ETH Zurich)",
+        "primary_category": "math.AG",
+        "openalex_id": "W3159918510",
+        "sources": [
+          "arxiv",
+          "openalex"
+        ]
+      },
+      "after": {
+        "id": "2001.05347",
+        "title": "Holomorphic anomaly equation for $(\\mathbb{P}^2,E)$ and the Nekrasov-Shatashvili limit of local $\\mathbb{P}^2$",
+        "year": 2020,
+        "coauthors": [
+          "guo-shuai",
+          "Pierrick Bousseau",
+          "Honglu Fan"
+        ],
+        "doi": "10.1017/fmp.2021.3",
+        "journal": "Forum of Mathematics, Pi 9 (2021), e3",
+        "primary_category": "math.AG",
+        "openalex_id": "W3159918510",
+        "sources": [
+          "arxiv",
+          "openalex",
+          "crossref"
+        ]
+      },
+      "source_url": "https://doi.org/10.1017/fmp.2021.3",
+      "scope": "journal/venue field only; no full identity or mathematical audit"
+    },
+    {
+      "person": "boalch",
+      "before": {
+        "id": "1703.10376",
+        "title": "Wild character varieties, meromorphic Hitchin systems and Dynkin diagrams",
+        "year": 2017,
+        "coauthors": [],
+        "doi": "10.1093/oso/9780198802020.003.0017",
+        "journal": "arXiv (Cornell University)",
+        "primary_category": "math.AG",
+        "openalex_id": "W4297929940",
+        "sources": [
+          "arxiv",
+          "openalex"
+        ]
+      },
+      "after": {
+        "id": "1703.10376",
+        "title": "Wild character varieties, meromorphic Hitchin systems and Dynkin diagrams",
+        "year": 2017,
+        "coauthors": [],
+        "doi": "10.1093/oso/9780198802020.003.0017",
+        "journal": "Geometry and Physics: Volume II, Oxford University Press (2018), 433–454",
+        "primary_category": "math.AG",
+        "openalex_id": "W4297929940",
+        "sources": [
+          "arxiv",
+          "openalex",
+          "crossref"
+        ]
+      },
+      "source_url": "https://doi.org/10.1093/oso/9780198802020.003.0017",
+      "scope": "journal/venue field only; no full identity or mathematical audit"
+    },
+    {
+      "person": "mazzocco",
+      "before": {
+        "id": "doi:10.24546/81001100",
+        "title": "CLASSICAL AND KNOWN SOLUTIONS OF A SPECIAL CASE OF PAINLEVE VI EQUATION",
+        "year": 2000,
+        "coauthors": [],
+        "doi": "10.24546/81001100",
+        "journal": "Institutional Repositories DataBase (IRDB)",
+        "openalex_id": "W357671513",
+        "sources": [
+          "openalex"
+        ],
+        "no_arxiv": true
+      },
+      "after": {
+        "id": "doi:10.24546/81001100",
+        "title": "CLASSICAL AND KNOWN SOLUTIONS OF A SPECIAL CASE OF PAINLEVE VI EQUATION",
+        "year": 2000,
+        "coauthors": [],
+        "doi": "10.24546/81001100",
+        "journal": "Rokko Lectures in Mathematics 7 (2000), 91–100",
+        "openalex_id": "W357671513",
+        "sources": [
+          "openalex",
+          "manual"
+        ],
+        "no_arxiv": true
+      },
+      "source_url": "https://da.lib.kobe-u.ac.jp/da/kernel/81001100/81001100.pdf",
+      "scope": "journal/venue field only; no full identity or mathematical audit"
+    }
+  ],
+  "media_reclassification": {
+    "person": "mazzocco",
+    "before": {
+      "id": "doi:10.14288/1.0377037",
+      "title": "Quantum character varieties and $q$-Askey scheme",
+      "year": 2019,
+      "coauthors": [],
+      "doi": "10.14288/1.0377037",
+      "journal": "cIRcle (University of British Columbia)",
+      "openalex_id": "W3036431556",
+      "sources": [
+        "openalex"
+      ],
+      "no_arxiv": true
+    },
+    "after_online_trace": {
+      "type": "video",
+      "label": "Quantum character varieties and q-Askey scheme（BIRS 讲座，2018-09-11）",
+      "url": "https://www.birs.ca/events/2018/5-day-workshops/18w5078/videos/watch/201809111330-Mazzocco.html",
+      "last_verified": "2026-10-08",
+      "notes": "讲者为 Marta Mazzocco。UBC 资料库 DOI 10.14288/1.0377037 的资源类型是 MovingImage / Audiovisual；2019 为资料库登记的出版年，不作为讲座日期。"
+    },
+    "source_urls": [
+      "https://api.datacite.org/dois/10.14288/1.0377037",
+      "https://www.birs.ca/events/2018/5-day-workshops/18w5078/videos/watch/201809111330-Mazzocco.html"
+    ],
+    "datacite_types": {
+      "ris": "MPCT",
+      "bibtex": "misc",
+      "citeproc": "article",
+      "schemaOrg": "MediaObject",
+      "resourceType": "MovingImage",
+      "resourceTypeGeneral": "Audiovisual"
+    }
+  },
+  "source_fetches": [
+    {
+      "path": "kobe-81001100.pdf",
+      "url": "https://da.lib.kobe-u.ac.jp/da/kernel/81001100/81001100.pdf",
+      "final_url": "https://da.lib.kobe-u.ac.jp/da/kernel/81001100/81001100.pdf",
+      "status": 200,
+      "bytes": 142994,
+      "sha256": "94bbb94aa877b4ad23b7ad456603a148df65dc80306a0f21dd18fc327f0ece0d"
+    },
+    {
+      "path": "mazzocco-birs.html",
+      "url": "https://www.birs.ca/events/2018/5-day-workshops/18w5078/videos/watch/201809111330-Mazzocco.html",
+      "final_url": "https://www.birs.ca/events/2018/5-day-workshops/18w5078/videos/watch/201809111330-Mazzocco.html",
+      "status": 200,
+      "bytes": 14456,
+      "sha256": "01edd76347a51b2b8ada969ccc6e372cb55820e9306c251b74e1596266d9b73f"
+    },
+    {
+      "path": "mazzocco-ubc.html",
+      "url": "https://doi.library.ubc.ca/10.14288/1.0377037",
+      "final_url": "https://open.library.ubc.ca/collections/48630/items/1.0377037",
+      "status": 200,
+      "bytes": 4935,
+      "sha256": "3b7a958e9cc1c4dcf5a247e6af8ad004c70d0d204072e3a8f4621a79d9d0a427"
+    },
+    {
+      "path": "crossref-fmp.json",
+      "url": "https://api.crossref.org/works/10.1017/fmp.2021.3",
+      "final_url": "https://api.crossref.org/works/10.1017/fmp.2021.3",
+      "status": 200,
+      "bytes": 21161,
+      "sha256": "500eb64fdd8652dcf8253f5fefc1e1e0d26aea806e93b6c5d7fd56887789fb7b"
+    },
+    {
+      "path": "crossref-boalch.json",
+      "url": "https://api.crossref.org/works/10.1093/oso/9780198802020.003.0017",
+      "final_url": "https://api.crossref.org/works/10.1093/oso/9780198802020.003.0017",
+      "status": 200,
+      "bytes": 20598,
+      "sha256": "3a0b3705581ac7fe64fac206f21d7085afb085fd4ee1e288ad9acbcfe9a1096e"
+    }
+  ],
+  "classification_references": [
+    "https://info.arxiv.org/help/doi.html",
+    "https://www.elsevier.support/ssrn/answer/doi",
+    "https://wiki.prod.apps.ctlt.ubc.ca/Library%3ACircle/FAQ",
+    "https://library.ethz.ch/en/researching-and-publishing/publishing-research/publishing-in-the-research-collection.html",
+    "https://www.kulib.kyoto-u.ac.jp/openaccess/1404333",
+    "https://irdb.nii.ac.jp/en"
+  ],
+  "limitations": [
+    "Only recognized repository names/DOI prefixes are excluded from publication clues; unknown values are clues, not confirmed publication status.",
+    "Other repository candidates require individual bibliographic review.",
+    "New leads: Guo 2311.09804 identity, Guo 2312.11174 Open MIND venue, Wu 1103.4695 identity, Boalch W4307615951 slides; not yet adjudicated."
+  ],
+  "current_counts": {
+    "people": 96,
+    "raw_publications": 2227,
+    "catalog_groups": 1822
+  },
+  "classification_impacts": [
+    {
+      "slug": "chan-kwokwai",
+      "old": {
+        "total_papers": 49,
+        "published_count": 45,
+        "preprint_only_count": 4
+      },
+      "current": {
+        "total_papers": 49,
+        "published_count": 44,
+        "preprint_only_count": 5
+      }
+    },
+    {
+      "slug": "ding-yanqiao",
+      "old": {
+        "total_papers": 15,
+        "published_count": 10,
+        "preprint_only_count": 5
+      },
+      "current": {
+        "total_papers": 15,
+        "published_count": 9,
+        "preprint_only_count": 6
+      }
+    },
+    {
+      "slug": "dubrovin",
+      "old": {
+        "total_papers": 65,
+        "published_count": 59,
+        "preprint_only_count": 6
+      },
+      "current": {
+        "total_papers": 65,
+        "published_count": 58,
+        "preprint_only_count": 7
+      }
+    },
+    {
+      "slug": "guzzetti",
+      "old": {
+        "total_papers": 47,
+        "published_count": 42,
+        "preprint_only_count": 5
+      },
+      "current": {
+        "total_papers": 47,
+        "published_count": 40,
+        "preprint_only_count": 7
+      }
+    },
+    {
+      "slug": "hertling",
+      "old": {
+        "total_papers": 71,
+        "published_count": 58,
+        "preprint_only_count": 13
+      },
+      "current": {
+        "total_papers": 71,
+        "published_count": 56,
+        "preprint_only_count": 15
+      }
+    },
+    {
+      "slug": "k-saito",
+      "old": {
+        "total_papers": 48,
+        "published_count": 39,
+        "preprint_only_count": 9
+      },
+      "current": {
+        "total_papers": 48,
+        "published_count": 38,
+        "preprint_only_count": 10
+      }
+    },
+    {
+      "slug": "leung-naichung",
+      "old": {
+        "total_papers": 52,
+        "published_count": 44,
+        "preprint_only_count": 8
+      },
+      "current": {
+        "total_papers": 52,
+        "published_count": 43,
+        "preprint_only_count": 9
+      }
+    },
+    {
+      "slug": "li-qin",
+      "old": {
+        "total_papers": 17,
+        "published_count": 13,
+        "preprint_only_count": 4
+      },
+      "current": {
+        "total_papers": 17,
+        "published_count": 12,
+        "preprint_only_count": 5
+      }
+    },
+    {
+      "slug": "liu-melissa",
+      "old": {
+        "total_papers": 59,
+        "published_count": 48,
+        "preprint_only_count": 11
+      },
+      "current": {
+        "total_papers": 59,
+        "published_count": 47,
+        "preprint_only_count": 12
+      }
+    },
+    {
+      "slug": "mazzocco",
+      "old": {
+        "total_papers": 50,
+        "published_count": 42,
+        "preprint_only_count": 8
+      },
+      "current": {
+        "total_papers": 49,
+        "published_count": 40,
+        "preprint_only_count": 9
+      }
+    },
+    {
+      "slug": "ni-dadi",
+      "old": {
+        "total_papers": 7,
+        "published_count": 4,
+        "preprint_only_count": 3
+      },
+      "current": {
+        "total_papers": 7,
+        "published_count": 3,
+        "preprint_only_count": 4
+      }
+    },
+    {
+      "slug": "yau-shingtung",
+      "old": {
+        "total_papers": 42,
+        "published_count": 34,
+        "preprint_only_count": 8
+      },
+      "current": {
+        "total_papers": 42,
+        "published_count": 33,
+        "preprint_only_count": 9
+      }
+    },
+    {
+      "slug": "zhao-qiulan",
+      "old": {
+        "total_papers": 77,
+        "published_count": 75,
+        "preprint_only_count": 2
+      },
+      "current": {
+        "total_papers": 77,
+        "published_count": 72,
+        "preprint_only_count": 5
+      }
+    }
+  ],
+  "repository_labeled_rows_remaining": [
+    {
+      "person": "chan-kwokwai",
+      "id": "2604.26292",
+      "title": "Brane quantization and SYZ mirror symmetry",
+      "year": 2026,
+      "coauthors": [
+        "leung-naichung",
+        "li-qin",
+        "Yat-Hin Suen",
+        "Yutung Yau"
+      ],
+      "journal": "ArXiv.org",
+      "primary_category": "math.DG",
+      "openalex_id": "W7158891686",
+      "sources": [
+        "arxiv",
+        "openalex"
+      ]
+    },
+    {
+      "person": "ding-yanqiao",
+      "id": "2602.04191",
+      "title": "The uniform asymptotics for real double Hurwitz numbers with triple ramification II: lower bounds and asymptotics",
+      "year": 2026,
+      "coauthors": [
+        "Kui Li",
+        "Huan Liu",
+        "Dongfeng Yan"
+      ],
+      "journal": "arXiv (Cornell University)",
+      "primary_category": "math.CO",
+      "openalex_id": "W7127983477",
+      "sources": [
+        "arxiv",
+        "openalex"
+      ]
+    },
+    {
+      "person": "dubrovin",
+      "id": "9803106",
+      "title": "Flat pencils of metrics and Frobenius manifolds",
+      "year": 1998,
+      "coauthors": [],
+      "journal": "ArXiv.org",
+      "primary_category": "math.DG",
+      "sources": [
+        "arxiv"
+      ]
+    },
+    {
+      "person": "guzzetti",
+      "id": "openalex:W649627614",
+      "title": "Matching Procedure for the Sixth Painleve Equation(Algebraic, Analytic and Geometric Aspects of Complex Differential Equations and their Deformations. Painleve Hierarchies)",
+      "year": 2007,
+      "coauthors": [],
+      "journal": "Kyoto University Research Information Repository (Kyoto University)",
+      "openalex_id": "W649627614",
+      "sources": [
+        "openalex"
+      ],
+      "no_arxiv": true
+    },
+    {
+      "person": "guzzetti",
+      "id": "openalex:W1009919968",
+      "title": "The Elliptic Representation of the Painleve 6 Equation (Deformation of differential equations and asymptotic analysis)",
+      "year": 2002,
+      "coauthors": [],
+      "journal": "Kyoto University Research Information Repository (Kyoto University)",
+      "openalex_id": "W1009919968",
+      "sources": [
+        "openalex"
+      ],
+      "no_arxiv": true
+    },
+    {
+      "person": "hertling",
+      "id": "2602.15748",
+      "title": "Conjugacy classes of regular integer matrices",
+      "year": 2026,
+      "coauthors": [
+        "Khadija Larabi"
+      ],
+      "journal": "arXiv (Cornell University)",
+      "primary_category": "math.RA",
+      "openalex_id": "W7130481930",
+      "sources": [
+        "arxiv",
+        "openalex"
+      ]
+    },
+    {
+      "person": "hertling",
+      "id": "2602.14973",
+      "title": "Semigroups from full lattices in commutative ${\\mathbb Q}$-algebras",
+      "year": 2026,
+      "coauthors": [
+        "Khadija Larabi"
+      ],
+      "journal": "ArXiv.org",
+      "primary_category": "math.RA",
+      "openalex_id": "W7130236994",
+      "sources": [
+        "arxiv",
+        "openalex"
+      ]
+    },
+    {
+      "person": "k-saito",
+      "id": "openalex:W7146056116",
+      "title": "FROM PRIMITIVE FORM TO MIRROR SYMMETRY (Aspects of Mirror Symmetry)",
+      "year": 2014,
+      "coauthors": [],
+      "journal": "Institutional Repositories DataBase (IRDB)",
+      "openalex_id": "W7146056116",
+      "sources": [
+        "openalex"
+      ],
+      "no_arxiv": true
+    },
+    {
+      "person": "leung-naichung",
+      "id": "2604.26292",
+      "title": "Brane quantization and SYZ mirror symmetry",
+      "year": 2026,
+      "coauthors": [
+        "li-qin",
+        "chan-kwokwai",
+        "Yat-Hin Suen",
+        "Yutung Yau"
+      ],
+      "journal": "ArXiv.org",
+      "primary_category": "math.DG",
+      "openalex_id": "W7158891686",
+      "sources": [
+        "arxiv",
+        "openalex"
+      ]
+    },
+    {
+      "person": "li-qin",
+      "id": "2604.26292",
+      "title": "Brane quantization and SYZ mirror symmetry",
+      "year": 2026,
+      "coauthors": [
+        "leung-naichung",
+        "chan-kwokwai",
+        "Yat-Hin Suen",
+        "Yutung Yau"
+      ],
+      "journal": "ArXiv.org",
+      "primary_category": "math.DG",
+      "openalex_id": "W7158891686",
+      "sources": [
+        "arxiv",
+        "openalex"
+      ]
+    },
+    {
+      "person": "liu-melissa",
+      "id": "openalex:W2788597912",
+      "title": "New definition of quasilocal mass and its positivity",
+      "year": 2003,
+      "coauthors": [
+        "yau-shingtung"
+      ],
+      "journal": "arXiv (Cornell University)",
+      "openalex_id": "W2788597912",
+      "sources": [
+        "openalex"
+      ],
+      "no_arxiv": true
+    },
+    {
+      "person": "mazzocco",
+      "id": "2603.18842",
+      "title": "Decorated Local Systems and Character Varieties",
+      "year": 2026,
+      "coauthors": [
+        "Benedetta Facciotti",
+        "Nikita Nikolaev"
+      ],
+      "journal": "ArXiv.org",
+      "primary_category": "math.AG",
+      "openalex_id": "W7139921749",
+      "sources": [
+        "arxiv",
+        "openalex"
+      ]
+    },
+    {
+      "person": "yau-shingtung",
+      "id": "openalex:W2788597912",
+      "title": "New definition of quasilocal mass and its positivity",
+      "year": 2003,
+      "coauthors": [
+        "liu-melissa"
+      ],
+      "journal": "arXiv (Cornell University)",
+      "openalex_id": "W2788597912",
+      "sources": [
+        "openalex"
+      ],
+      "no_arxiv": true
+    },
+    {
+      "person": "zhao-qiulan",
+      "id": "doi:10.2139/ssrn.4516041",
+      "title": "Quasi-Periodic Solutions of a Discrete Integrable Equation with a Finite-Dimensional Integrable Symplectic Structure",
+      "year": 2023,
+      "coauthors": [
+        "Caixue Li",
+        "Xinyue Li"
+      ],
+      "doi": "10.2139/ssrn.4516041",
+      "journal": "SSRN Electronic Journal",
+      "sources": [
+        "openalex"
+      ],
+      "no_arxiv": true
+    },
+    {
+      "person": "zhao-qiulan",
+      "id": "doi:10.2139/ssrn.4118583",
+      "title": "Higher-Order Rogue Wave Solutions of (2+1)-Dimensional Fokas-Lenells Equation",
+      "year": 2022,
+      "coauthors": [
+        "Huijie Song",
+        "Xinyue Li"
+      ],
+      "doi": "10.2139/ssrn.4118583",
+      "journal": "SSRN Electronic Journal",
+      "sources": [
+        "openalex"
+      ],
+      "no_arxiv": true
+    },
+    {
+      "person": "zhao-qiulan",
+      "id": "doi:10.2139/ssrn.3964466",
+      "title": "Interactions of Localized Wave and Dynamics Analysis in Generalized Derivative Nonlinear Schrödinger Equation",
+      "year": 2021,
+      "coauthors": [
+        "Xinyue Li",
+        "Guangfu Han"
+      ],
+      "doi": "10.2139/ssrn.3964466",
+      "journal": "SSRN Electronic Journal",
+      "sources": [
+        "openalex"
+      ],
+      "no_arxiv": true
+    }
+  ],
+  "validation": {
+    "site_regressions": 26,
+    "eslint": "passed",
+    "typescript": "passed",
+    "build": "passed",
+    "data_lint": {
+      "errors": 0,
+      "warnings": 74
+    },
+    "exported_html": 283,
+    "links_checked": 22221,
+    "bad_targets": 0,
+    "mobile": {
+      "viewport_width": 390,
+      "scroll_width": 384,
+      "anchor_heading_top": 72,
+      "nav_bottom": 56,
+      "video_not_in_publication_section": true
+    },
+    "desktop": {
+      "viewport_width": 1280,
+      "scroll_width": 1274,
+      "ssrn_rows_checked": 3,
+      "console_errors": []
+    }
+  }
+}

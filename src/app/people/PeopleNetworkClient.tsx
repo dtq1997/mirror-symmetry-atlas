@@ -78,8 +78,8 @@ export default function PeopleNetworkClient({ graphData, people, institutionName
               <tr className="text-left text-[#8888a0] border-b border-[#2a2a3a]">
                 <th className="py-2 pr-4">姓名</th>
                 <th className="hidden sm:table-cell py-2 pr-4">国籍</th>
-                <th className="py-2 pr-4">有发表信息</th>
-                <th className="py-2 pr-4">发表待核实</th>
+                <th className="py-2 pr-4">有出版线索</th>
+                <th className="py-2 pr-4">待补出版线索</th>
                 <th className="hidden sm:table-cell py-2 pr-4">学生</th>
                 <th className="hidden sm:table-cell py-2">状态</th>
               </tr>

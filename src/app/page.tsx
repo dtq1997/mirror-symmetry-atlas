@@ -158,12 +158,12 @@ export default function Dashboard() {
                 <div className="text-xs mt-1 flex flex-wrap gap-1">
                   {p.activity.published_count != null && (
                     <span className="text-[#22c55e]">
-                      {p.activity.published_count} 有发表信息
+                      {p.activity.published_count} 有出版线索
                     </span>
                   )}
                   {p.activity.preprint_only_count != null && (
                     <span className="text-[#f59e0b]">
-                      {p.activity.preprint_only_count} 发表待核实
+                      {p.activity.preprint_only_count} 待补出版线索
                     </span>
                   )}
                   {p.activity.published_count == null &&

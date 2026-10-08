@@ -239,15 +239,6 @@ publications:
     openalex_id: W2922107226
     sources: [openalex]
     no_arxiv: true
-  - id: 'doi:10.14288/1.0377037'
-    title: 'Quantum character varieties and $q$-Askey scheme'
-    year: 2019
-    coauthors: []
-    doi: '10.14288/1.0377037'
-    journal: 'cIRcle (University of British Columbia)'
-    openalex_id: W3036431556
-    sources: [openalex]
-    no_arxiv: true
   - id: '1803.02775'
     title: 'Dualities in the $q$-Askey scheme and degenerate DAHA'
     year: 2018
@@ -568,9 +559,9 @@ publications:
     year: 2000
     coauthors: []
     doi: '10.24546/81001100'
-    journal: 'Institutional Repositories DataBase (IRDB)'
+    journal: "Rokko Lectures in Mathematics 7 (2000), 91–100"
     openalex_id: W357671513
-    sources: [openalex]
+    sources: [openalex, manual]
     no_arxiv: true
   - id: 'doi:10.1007/pl00001474'
     title: 'KAM theorem for generic analytic perturbations of the Euler system'
@@ -582,6 +573,8 @@ publications:
     sources: [openalex]
     no_arxiv: true
 sources:
+- label: "[Codex] 2026-10-08：Classical and known solutions 的神户大学原文及书目信息，第1—2页"
+  url: https://da.lib.kobe-u.ac.jp/da/kernel/81001100/81001100.pdf
 - label: '[Codex] 2026-10-08：ICREA提供的本人简历，第1页（教育与历史任职；旧版现职不沿用）'
   url: https://www.icrea.cat/cvs/33120/marta-mazzocco/
 - label: '[Codex] 2026-10-08：ICREA当前人物页（2024年转入UPC）'
@@ -599,3 +592,10 @@ sources:
 tags:
 - sissa-school
 - dubrovin-student
+online_traces:
+- type: video
+  label: Quantum character varieties and q-Askey scheme（BIRS 讲座，2018-09-11）
+  url: https://www.birs.ca/events/2018/5-day-workshops/18w5078/videos/watch/201809111330-Mazzocco.html
+  last_verified: '2026-10-08'
+  notes: 讲者为 Marta Mazzocco。UBC 资料库 DOI 10.14288/1.0377037 的资源类型是 MovingImage / Audiovisual；2019
+    为资料库登记的出版年，不作为讲座日期。

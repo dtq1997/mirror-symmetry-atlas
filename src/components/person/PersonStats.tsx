@@ -38,11 +38,11 @@ export default function PersonStats({ activity }: PersonStatsProps) {
           {(pub != null || pre != null) && (
             <div className="text-[10px] text-[#8888a0] mt-1 font-mono">
               {pub != null && (
-                <span className="text-[#22c55e]">{pub} 有发表信息</span>
+                <span className="text-[#22c55e]">{pub} 有出版线索</span>
               )}
               {pub != null && pre != null && <span className="mx-1">/</span>}
               {pre != null && (
-                <span className="text-[#f59e0b]">{pre} 发表待核实</span>
+                <span className="text-[#f59e0b]">{pre} 待补出版线索</span>
               )}
             </div>
           )}

@@ -74,10 +74,10 @@ function PersonDetail({ person, connections }: { person: Person; connections: Co
           <div className="text-xs text-[#8888a0] mb-2">本站收录统计</div>
           <div className="grid grid-cols-2 gap-2">
             {person.activity.published_count != null && (
-              <Stat label="有发表信息" value={person.activity.published_count} />
+              <Stat label="有出版线索" value={person.activity.published_count} />
             )}
             {person.activity.preprint_only_count != null && (
-              <Stat label="发表待核实" value={person.activity.preprint_only_count} />
+              <Stat label="待补出版线索" value={person.activity.preprint_only_count} />
             )}
             {person.activity.published_count == null &&
               person.activity.preprint_only_count == null &&

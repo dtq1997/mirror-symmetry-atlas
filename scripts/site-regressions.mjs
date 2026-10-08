@@ -7,6 +7,7 @@ import { entityRoute } from '../.cache/msa/site-tests/entity-route.js';
 import { buildPeopleGraph, simulationGraph, filterByYear, recordedStartYear, recordedInstitutions } from '../.cache/msa/site-tests/graph.js';
 import { publicSourceUrl } from '../.cache/msa/site-tests/source-url.js';
 import { renderMathText } from '../.cache/msa/site-tests/math-text.js';
+import { publicationMetadata } from '../.cache/msa/site-tests/publication-metadata.js';
 import { collectPublications, collectCoauthorship, recordedPublicationStats } from '../.cache/msa/site-tests/publications.js';
 
 test('DOI and OpenAlex records never link to arXiv', () => {
@@ -223,4 +224,64 @@ test('affiliation filters retain recorded past visits and education without gues
   assert.deepEqual(recordedInstitutions(person), ['old', 'visit', 'future', 'unknown']);
   assert.deepEqual(recordedInstitutions(person, 2000), ['old', 'visit']);
   assert.deepEqual(recordedInstitutions(person, 1980), []);
+});
+
+
+test('repository records and DOI deposits are not themselves publication clues', () => {
+  for (const journal of ['arXiv (Cornell University)', 'ArXiv.org', 'SSRN Electronic Journal',
+    'cIRcle (University of British Columbia)', 'Institutional Repositories DataBase (IRDB)',
+    'Repository for Publications and Research Data (ETH Zurich)',
+    'Kyoto University Research Information Repository (Kyoto University)']) {
+    assert.equal(publicationMetadata({ journal }).hasPublicationClue, false, journal);
+  }
+  for (const doi of ['10.48550/arXiv.2601.12345', '10.2139/ssrn.4516041',
+    '10.14288/1.0377037', '10.24546/81001100', '10.3929/ethz-b-000482826']) {
+    const metadata = publicationMetadata({ doi });
+    assert.equal(metadata.hasPublicationClue, false, doi);
+    assert.equal(metadata.repositoryDoi, true);
+    assert.ok(metadata.doiUrl.startsWith('https://doi.org/'));
+  }
+});
+
+test('published citations mentioning arXiv and publisher DOIs with repository venues retain clues', () => {
+  for (const journal of [
+    'Duke Math. J. 139 (2007), no. 2, 369-405 (section 6 is not in this 2002 arxiv version)',
+    'Lecture Notes in mathematics vol. 2060, Springer Verlag, 2012. (Numbering on the arXiv version changed)',
+    'Rokko Lectures in Mathematics 7 (2000), 91-100',
+  ]) assert.equal(publicationMetadata({ journal }).hasPublicationClue, true);
+  for (const doi of ['10.1017/fmp.2021.3', '10.1093/oso/9780198802020.003.0017']) {
+    assert.equal(publicationMetadata({ doi, journal: 'ArXiv.org' }).hasPublicationClue, true);
+  }
+  assert.equal(publicationMetadata({ journal: 'Rokko Lectures in Mathematics 7', doi: '10.24546/81001100' }).hasPublicationClue, true);
+});
+
+test('empty or malformed metadata cannot create publication clues or invalid DOI links', () => {
+  for (const value of ['', 'None', 'null', 'N/A', '[待核实]']) {
+    assert.equal(publicationMetadata({ doi: value, journal: value }).hasPublicationClue, false);
+  }
+  for (const doi of ['garbage', 'javascript:alert(1)', '10.1000/with space', '10.1000/<tag>']) {
+    assert.equal(publicationMetadata({ doi }).doiUrl, undefined);
+  }
+  assert.equal(publicationMetadata({ doi: 'https://doi.org/10.1000/ABC' }).doiUrl, 'https://doi.org/10.1000/abc');
+  assert.equal(publicationMetadata({ id: 'doi:10.1000/test?x#y' }).doiUrl, 'https://doi.org/10.1000/test%3Fx%23y');
+});
+
+test('catalog selection, person totals and coauthor buckets use the same publication clues', () => {
+  const repository = { id: '2601.12345', title: 'Shared work', year: 2026, journal: 'ArXiv.org' };
+  const citation = { ...repository, journal: 'A real journal 12 (2026)' };
+  const a = { slug: 'a', publications: [repository, citation] };
+  const b = { slug: 'b', publications: [repository] };
+  for (const people of [[a, b], [b, a]]) {
+    const papers = collectPublications(people);
+    assert.equal(papers.length, 1);
+    assert.equal(papers[0].journal, citation.journal);
+    const edge = collectCoauthorship(people)[0];
+    assert.equal(edge.coauthored_papers.published.length, 1);
+    assert.equal(edge.coauthored_papers.preprint.length, 0);
+  }
+  assert.deepEqual(recordedPublicationStats(a), { total_papers: 1, published_count: 1, preprint_only_count: 0 });
+  assert.deepEqual(recordedPublicationStats(b), { total_papers: 1, published_count: 0, preprint_only_count: 1 });
+  const edge = collectCoauthorship([b, { ...b, slug: 'c' }])[0];
+  assert.equal(edge.coauthored_papers.published.length, 0);
+  assert.equal(edge.coauthored_papers.preprint.length, 1);
 });

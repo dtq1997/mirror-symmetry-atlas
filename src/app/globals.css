@@ -37,6 +37,10 @@
   --font-mono: var(--font-geist-mono);
 }
 
+html {
+  scroll-padding-top: calc(var(--nav-height) + 16px);
+}
+
 body {
   background: var(--bg-primary);
   color: var(--text-primary);

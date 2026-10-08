@@ -204,10 +204,10 @@ publications:
     year: 2020
     coauthors: [wu-longting, 'Pierrick Bousseau', 'Honglu Fan']
     doi: '10.1017/fmp.2021.3'
-    journal: 'Repository for Publications and Research Data (ETH Zurich)'
+    journal: "Forum of Mathematics, Pi 9 (2021), e3"
     primary_category: math.AG
     openalex_id: W3159918510
-    sources: [arxiv, openalex]
+    sources: [arxiv, openalex, crossref]
   - id: '1912.00558'
     title: 'Quantum curve and bilinear Fermionic form for the orbifold Gromov-Witten theory of $\mathbb{P}[r]$'
     year: 2019
@@ -370,6 +370,8 @@ personal_notes: |
   2026 HUST 会议报告: higher-genus GW Theory of O(p-1)⊕O(-p-1)。
   周坚学生圈在北大的关键承接者之一；季策由其指导后进入清华水木学者阶段，使 PKU/BICMR 与清华张友金、周坚方向继续连通。
 sources:
+  - label: "[Codex] 2026-10-08：Holomorphic anomaly equation 的正式刊物（出版社登记的 Crossref 元数据）"
+    url: https://doi.org/10.1017/fmp.2021.3
   - label: '北京大学数学科学学院'
     url: 'https://www.math.pku.edu.cn/jsdw/js_20180628175159671361/g_20180628175159671361/69922.htm'
   - label: 'Math Genealogy'

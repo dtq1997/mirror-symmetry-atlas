@@ -2,16 +2,16 @@
 
 [Codex] 2026-10-08。Goal **active**，原目标见 `RECOVERY-PLAN.md`。这不是已完成的全库事实认证。
 
-## 当前恢复入口（2026-10-08，第七批线上验收后）
+## 当前恢复入口（2026-10-08，第八批待发布）
 
 [Codex] Goal仍active。以下是当前摘要；后面的早期“待发布/尚未恢复”是历史记录，不代表现在。
 
 - 原网站已连续发布七批修复。最近公开代码 commit `56159899e749d5a7c90b7e4650006197f24d9aa2`；Actions `37703966229` success，curl和浏览器线上核验已完成。后续仅报告/审核池提交可带skip ci，公开资产仍以上述commit为准。
-- 当前96人物、61概念、115机构；人物原始论文2228行，目录1823组。283个HTML，21054条站内链接检查无坏目标；data lint 0 errors / 74 warnings；22项网站回归及工作流的其他检查通过。这些不是全库事实认证。
+- 当前96人物、61概念、115机构；人物原始论文2227行，目录1822组。283个HTML，22221条站内链接检查无坏目标；data lint 0 errors / 74 warnings；26项网站回归及工作流的其他检查通过。这些不是全库事实认证。
 - 新闻抓取与自动部署已恢复，72篇新闻在线；作者只作原始署名，不按姓氏猜身份。完整arXiv元数据取回1237个ID，但不能据此称全部归属已核实。
-- 已移出11条确认错挂、隔离5条待核实归属，完整原始记录及来源留在按人物审核池；lint与OpenAlex v2写入器阻止已裁定条目自动回填。刘思齐41条、Mazzocco50条公开记录；两人的部分履历已据官方主页/CV修正，其他字段不能一并称已核。
+- 已移出11条确认错挂、隔离5条待核实归属，完整原始记录及来源留在按人物审核池；lint与OpenAlex v2写入器阻止已裁定条目自动回填。另1条Mazzocco讲座录像已转网上痕迹；刘思齐41条、Mazzocco49条公开论文记录；两人的部分履历已据官方主页/CV修正，其他字段不能一并称已核。
 - 图谱空按钮、共享数据突变、布局持续散开、手机侧栏/搜索、公式跨行渲染已修；年份筛选现在是累计有日期记录，机构筛选是历史履历关联，不猜现职。小屏全图仍可能有标签局部重叠，可搜索放大。
-- 立即下一步：统一“出版信息”分类，避免把arXiv/机构仓库或仅有DOI当正式发表；`repository-venue-candidates.json`有23条候选，2条只是正常期刊备注提及arXiv，必须保留这类负例。随后审查Mazzocco的OA假合作者/重复版本、52条题名差异、227条旧编号、其余身份关系；61概念、机构、会议/历史/开放问题的一手来源仍待逐项审。
+- 第八批本地已通过，待发布验收：出版分类已统一为“出版线索”，已识别资料库名称/DOI不单独计入；4条真实刊物补正，1条录像移出论文。详见 `publication-metadata-review.json`。下一步继续Mazzocco的OA假合作者/重复版本、52条题名差异、227条旧编号；新增候选为郭帅2311.09804归属、2312.11174的Open MIND刊名、邬龙挺1103.4695归属、Boalch W4307615951幻灯片类型（都还未裁定）。61概念、机构、会议/历史/开放问题的一手来源仍待逐项审。
 - `content-inventory.json`是第一批的未核实基线快照，不能拿它的旧数量或全pending覆盖后续分项证据。分项完成范围见同目录具名报告；全库审核远未完成。
 - 不运行旧 `validate-publications.py --apply` / `detect-id-title-mismatch.py --write`；OpenAlex v2仍有未修HTTP/缓存/评分风险，不作无人审查全库写入器。
 - 继续只在本仓库；先查git状态，再沿此Goal推进。不要回到academic-formula-workbench，不启动无关数学campaign。
@@ -159,3 +159,12 @@ Mazzocco履历依据ICREA提供的本人CV第1页修正：Padova1988—1994、MS
 [Codex] 第七批提交 `56159899e749d5a7c90b7e4650006197f24d9aa2` 已推送main，run `37703966229` 发布中。下一批已定位出版状态分类问题：`journal: ArXiv.org` 等仓库名被 `doi || journal` 视为“有发表信息”；23条候选保存在 `repository-venue-candidates.json`，其中2条只是正常期刊备注提及arXiv，绝不能关键词一刀切。入口为 `src/lib/publications.ts` 与 `src/app/people/[slug]/page.tsx` 的重复分类；先统一分类与边界用语，原始metadata保留。随后继续Mazzocco的OA假合作者“Cherednik Algebras”、俄文作者重复/版本归并、旧编号与52条题名差异；概念、机构、会议和开放问题仍未全审。
 
 [Codex] 第七批线上验收完成：Actions `37703966229` success；线上2000年筛选32节点/16边，桌面1280px无横向溢出，稳定复位92%，姓名显示正常。概念图和致谢开关同样检查，error日志为空。curl确认Mazzocco修正日期/未知结束年月/来源、剑桥新页面和新筛选控件。证据 `batch-seven-live-verification.json`，截图 `year-filter-live-desktop.jpg`。Goal仍active。
+
+
+[Codex] 2026-10-08 第八批（本地验收完成，待发布）：统一人物列表、统计卡、侧栏、合著分组、详情及全站论文目录的出版线索分类。arXiv/SSRN/已识别机构库及对应资料库DOI本身不代表正式发表；未知非资料库DOI也只标线索，不授予已发表或同行评审结论。真实期刊备注提到arXiv仍保留；同ID优先选有真实刊物记录的一行。DOI标签规范前缀/大小写并拒绝无效值，保留资料库链接。16条剩余仓库刊名记录及13个人物统计变化在审计中保留；SSRN DOI-only 的倪大地条目也由共用分类器覆盖。
+
+据出版社登记的Crossref信息补正郭帅/邬龙挺2001.05347的Forum of Mathematics, Pi 9 (2021), e3（两行）；Boalch1703.10376的Geometry and Physics: Volume II (2018), 433–454。据神户原文封面与署名页补正Mazzocco10.24546/81001100的Rokko Lectures in Mathematics 7 (2000), 91–100。只核这些出版字段，不扩为整个人物身份认证。原metadata逐条保留在 `publication-metadata-review.json`。
+
+Mazzocco的10.14288/1.0377037由DataCite明确登记为MovingImage/Audiovisual，BIRS讲座页确认本人及2018-09-11日期；旧2019是资料库出版年。移至online_traces视频，原论文行完整进审核池，阻止自动回填但不否认Marta署名。当前Marta49条（40有出版线索/9待补）；全站2227原始行/1822目录组。累计11确认错挂+5待核实隔离+1媒体重分类，不能混称17篇同名错挂。
+
+26项网站回归、ESLint、TypeScript和最终build通过，data lint 0errors/74warnings，283HTML/22221链接/0坏目标。390px实际检查arXiv标签、录像不在论文区及锚点跳转；修复粘性导航挡住锚点标题，正常点击后标题在72px（导航56px）处。1280px三条SSRN均显示资料库和待补出版线索，无横向溢出、error日志为空。截图 `publication-metadata-preview-mobile.jpg`。论文题名中的TeX目前仍直接显示源码，列为后续渲染修复；尚未做其数学语义审查。Goal仍active。

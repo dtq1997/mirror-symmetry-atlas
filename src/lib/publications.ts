@@ -1,5 +1,6 @@
 import type { Connection, Person, Publication } from "./types";
 import { canonicalPaperId, groupPaperRecords } from "./paper-identity";
+import { publicationMetadata } from "./publication-metadata";
 
 export interface CatalogPublication extends Publication {
   catalogKey: string;
@@ -12,7 +13,7 @@ export function collectPublications(people: Person[], options: { matchTitles?: b
     ...pub, ownerSlug: person.slug,
   })));
   return groupPaperRecords(records, options).map((group, index) => {
-    const richest = [...group].sort((a, b) => Number(!!b.doi) - Number(!!a.doi) || Number(!!b.journal) - Number(!!a.journal))[0];
+    const richest = [...group].sort((a, b) => publicationMetadata(b).score - publicationMetadata(a).score)[0];
     return {
       ...richest,
       catalogKey: `${canonicalPaperId(richest) ?? "unknown"}:${index}`,
@@ -36,7 +37,7 @@ export function collectCoauthorship(people: Person[]): Connection[] {
           source: slugs[i], target: slugs[j], type: "coauthor", derived: true,
           coauthored_papers: { published: [], preprint: [] },
         };
-        const bucket = paper.doi || paper.journal ? "published" : "preprint";
+        const bucket = publicationMetadata(paper).hasPublicationClue ? "published" : "preprint";
         edge.coauthored_papers![bucket].push(paper);
         pairs.set(key, edge);
       }
@@ -52,7 +53,7 @@ export function collectCoauthorship(people: Person[]): Connection[] {
 
 export function recordedPublicationStats(person: Person) {
   const papers = collectPublications([person]);
-  const published = papers.filter((p) => p.doi || p.journal).length;
+  const published = papers.filter((p) => publicationMetadata(p).hasPublicationClue).length;
   return { total_papers: papers.length, published_count: published,
     preprint_only_count: papers.length - published };
 }

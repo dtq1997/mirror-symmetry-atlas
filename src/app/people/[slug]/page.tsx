@@ -5,6 +5,8 @@ import PersonStats from "@/components/person/PersonStats";
 import Link from "@/components/shared/AtlasLink";
 import { notFound } from "next/navigation";
 import { collectPublications } from "@/lib/publications";
+import { publicationMetadata, publicationMetadataNote } from "@/lib/publication-metadata";
+import PublicationMetadata from "@/components/shared/PublicationMetadata";
 import { publicationUrl } from "@/lib/paper-identity";
 import { publicSourceUrl } from "@/lib/source-url";
 import type { LifeDateFact, OnlineTrace, Person, SourceRef } from "@/lib/types";
@@ -192,7 +194,7 @@ export default async function PersonPage({
                                 .map((p) => `${p.year} ${p.title}`)
                                 .join("\n")}
                             >
-                              {pubCount} 有发表信息
+                              {pubCount} 有出版线索
                             </span>
                           )}
                           {preCount > 0 && (
@@ -202,7 +204,7 @@ export default async function PersonPage({
                                 .map((p) => `${p.year} ${p.title}`)
                                 .join("\n")}
                             >
-                              {preCount} 发表待核实
+                              {preCount} 待补出版线索
                             </span>
                           )}
                         </>
@@ -221,9 +223,7 @@ export default async function PersonPage({
                         {[...(cp?.published ?? []), ...(cp?.preprint ?? [])]
                           .sort((a, b) => (b.year ?? 0) - (a.year ?? 0))
                           .map((paper) => {
-                            const isPub = "doi" in paper && (paper as { doi?: string; journal?: string }).doi;
-                            const isPubByJournal = "journal" in paper && (paper as { journal?: string }).journal;
-                            const published = isPub || isPubByJournal;
+                            const published = publicationMetadata(paper).hasPublicationClue;
                             const href = publicationUrl(paper);
                             return (
                               <li key={paper.id} className="flex gap-2 items-baseline">
@@ -291,12 +291,12 @@ export default async function PersonPage({
                       <>
                         {pubCount > 0 && (
                           <span className="px-1.5 py-0.5 rounded bg-[#22c55e]/10 text-[#22c55e] border border-[#22c55e]/20 font-mono">
-                            {pubCount} 有发表信息
+                            {pubCount} 有出版线索
                           </span>
                         )}
                         {preCount > 0 && (
                           <span className="px-1.5 py-0.5 rounded bg-[#f59e0b]/10 text-[#f59e0b] border border-[#f59e0b]/20 font-mono">
-                            {preCount} 发表待核实
+                            {preCount} 待补出版线索
                           </span>
                         )}
                       </>
@@ -323,9 +323,7 @@ export default async function PersonPage({
                       {[...cp.published, ...cp.preprint]
                         .sort((a, b) => (b.year ?? 0) - (a.year ?? 0))
                         .map((paper) => {
-                          const isPub = "doi" in paper && (paper as { doi?: string }).doi;
-                          const isPubByJournal = "journal" in paper && (paper as { journal?: string }).journal;
-                          const published = isPub || isPubByJournal;
+                          const published = publicationMetadata(paper).hasPublicationClue;
                           const href = publicationUrl(paper);
                           return (
                             <li key={paper.id} className="flex gap-2 items-baseline">
@@ -460,21 +458,21 @@ export default async function PersonPage({
       {/* Publications */}
       {(person.publications?.length ?? 0) > 0 && (() => {
         const pubs = collectPublications([person]);
-        const publishedCount = pubs.filter((p) => p.journal || p.doi).length;
+        const publishedCount = pubs.filter((p) => publicationMetadata(p).hasPublicationClue).length;
         const preprintCount = pubs.length - publishedCount;
         return (
         <section className="mb-8" id="publications">
           <h2 className="text-lg font-semibold text-[#e8e8f0] mb-3">
-            论文（{pubs.length}
+            论文（{pubs.length}）
             {publishedCount > 0 || preprintCount > 0 ? (
               <span className="text-xs font-normal text-[#8888a0] ml-2">
-                <span className="text-[#22c55e]">{publishedCount} 有发表信息</span>
+                <span className="text-[#22c55e]">{publishedCount} 有出版线索</span>
                 <span className="mx-1">/</span>
-                <span className="text-[#f59e0b]">{preprintCount} 发表待核实</span>
+                <span className="text-[#f59e0b]">{preprintCount} 待补出版线索</span>
               </span>
             ) : null}
-            ）
           </h2>
+          <p className="text-xs text-[#8888a0] mb-3">{publicationMetadataNote}</p>
           <div className="space-y-2">
             {pubs.map(
               (
@@ -531,33 +529,7 @@ export default async function PersonPage({
                         </div>
                       )}
                       <div className="flex items-center gap-2 mt-1.5 text-[10px] font-mono flex-wrap">
-                        {pub.journal || pub.doi ? (
-                          pub.doi ? (
-                            <a
-                              href={`https://doi.org/${pub.doi}`}
-                              target="_blank"
-                              rel="noopener noreferrer"
-                              className="px-1.5 py-0.5 rounded bg-[#22c55e]/10 text-[#22c55e] border border-[#22c55e]/20 hover:bg-[#22c55e]/20"
-                              title={`DOI: ${pub.doi}${pub.journal ? `\n${pub.journal}` : ""}`}
-                            >
-                              有发表信息{pub.journal ? `: ${pub.journal}` : ""}
-                            </a>
-                          ) : (
-                            <span
-                              className="px-1.5 py-0.5 rounded bg-[#22c55e]/10 text-[#22c55e] border border-[#22c55e]/20"
-                              title={pub.journal}
-                            >
-                              有发表信息{pub.journal ? `: ${pub.journal}` : ""}
-                            </span>
-                          )
-                        ) : (
-                          <span
-                            className="px-1.5 py-0.5 rounded bg-[#f59e0b]/10 text-[#f59e0b] border border-[#f59e0b]/20"
-                            title="本站尚未记录发表信息；不代表未发表"
-                          >
-                            发表待核实
-                          </span>
-                        )}
+                        <PublicationMetadata paper={pub} />
                         {pub.primary_category && (
                           <span className="text-[#8888a0]" title="arXiv primary category">
                             {pub.primary_category}
@@ -565,7 +537,7 @@ export default async function PersonPage({
                         )}
                       </div>
                     </div>
-                    <div className="flex items-center gap-2 shrink-0">
+                    <div className="flex flex-wrap justify-end items-center gap-2 shrink-0 max-w-[35%] break-all">
                       <span className="text-xs font-mono text-[#6366f1]">
                         {pub.year}
                       </span>

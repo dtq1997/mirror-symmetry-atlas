@@ -2,6 +2,8 @@ import { getAllPeople, getAllPapers } from "@/lib/data";
 import Link from "@/components/shared/AtlasLink";
 import { displayName } from "@/lib/name";
 import { collectPublications } from "@/lib/publications";
+import PublicationMetadata from "@/components/shared/PublicationMetadata";
+import { publicationMetadataNote } from "@/lib/publication-metadata";
 import { publicationUrl } from "@/lib/paper-identity";
 
 export default function PapersPage() {
@@ -26,7 +28,7 @@ export default function PapersPage() {
         去重后保留 {allPubs.length} 条论文记录（{people.filter((p) => p.publications?.length).length} 位作者）
       </p>
 
-      <p className="text-sm text-[#8888a0] mb-6">列表按现有 DOI、arXiv 编号及标题归并；标识冲突的记录暂时分开保留，待逐项核实。本表不代表作者全部成果。</p>
+      <p className="text-sm text-[#8888a0] mb-6">列表按现有 DOI、arXiv 编号及标题归并；标识冲突的记录暂时分开保留，待逐项核实。本表不代表作者全部成果。{publicationMetadataNote}</p>
 
       {years.map((year) => {
         const pubs = byYear.get(year)!;
@@ -54,6 +56,7 @@ export default function PapersPage() {
                       >
                         {pub.title}
                       </a>
+                      <PublicationMetadata paper={pub} />
                       <div className="flex flex-wrap items-center gap-1 mt-1">
                         {pub.ownerSlugs.map((slug) => <Link
                           key={slug} href={`/people/${slug}`}

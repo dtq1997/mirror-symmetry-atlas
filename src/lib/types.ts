@@ -34,9 +34,9 @@ export interface Activity {
   t2_papers?: number;
   t3_papers?: number;
   t4_papers?: number;
-  /** Papers with a journal/DOI recorded — i.e. formally published. */
+  /** Legacy key: records with publication clues; not verified publication status. */
   published_count?: number;
-  /** Papers that exist only on arXiv (no journal/DOI). */
+  /** Legacy key: records lacking publication clues; not necessarily unpublished. */
   preprint_only_count?: number;
   h_index?: number;
   mathscinet_citations?: number;
@@ -323,7 +323,7 @@ export interface Connection {
   notes?: string;
   derived?: boolean;
   papers?: string[];  // for acknowledgement edges: list of arxiv ids
-  /** For coauthor edges, papers split by publication status. */
+  /** Legacy bucket names: with/without publication clues, not publication verdicts. */
   coauthored_papers?: {
     published: { id: string; title: string; year: number; doi?: string; journal?: string }[];
     preprint: { id: string; title: string; year: number; primary_category?: string }[];

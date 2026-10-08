@@ -114,10 +114,10 @@ publications:
     year: 2020
     coauthors: [guo-shuai, 'Pierrick Bousseau', 'Honglu Fan']
     doi: '10.1017/fmp.2021.3'
-    journal: 'Repository for Publications and Research Data (ETH Zurich)'
+    journal: "Forum of Mathematics, Pi 9 (2021), e3"
     primary_category: math.AG
     openalex_id: W3159918510
-    sources: [arxiv, openalex]
+    sources: [arxiv, openalex, crossref]
   - id: '1907.07133'
     title: 'Higher genus relative Gromov-Witten theory and double ramification cycles'
     year: 2019
@@ -190,6 +190,8 @@ personal_notes: |
   研究：GW 不变量 (quintic 三维); 相对 GW; Bousseau-Fan-Guo-Wu Holomorphic anomaly equation；ICCM 2019 邀请 45 分钟报告
   趣闻：自报 Erdős 数 5
 sources:
+  - label: "[Codex] 2026-10-08：Holomorphic anomaly equation 的正式刊物（出版社登记的 Crossref 元数据）"
+    url: https://doi.org/10.1017/fmp.2021.3
   - label: 'SUSTech faculty page'
     url: 'https://www.sustech.edu.cn/en/faculties/wulongting.html'
   - label: 'Personal homepage'
