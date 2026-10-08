@@ -11,6 +11,25 @@
   "priority_leads": [
     {
       "content_types": [
+        "papers usability"
+      ],
+      "issue": "论文页目前把1808条记录全部按年份展开，没有页内搜索、作者/年份/出版线索筛选或渐进展示；下一批做实际查找流程，保留归并和统计口径、未知出版状态与原始署名。",
+      "entry_files": [
+        "src/app/papers/page.tsx",
+        "src/lib/publications.ts",
+        "src/lib/paper-identity.ts",
+        "src/lib/publication-metadata.ts",
+        "src/lib/name.ts"
+      ],
+      "acceptance": [
+        "中英文作者、题名、完整arXiv/DOI能查找；不能因名字匹配新建身份绑定。",
+        "组合筛选、无结果、清除、分页或加载更多可用；显示总数与当前范围。",
+        "保留经典文献及其来源语义；手机/键盘和实际公网检查。",
+        "本机资源紧张时使用已核实Next实现支持的CIRCLE_NODE_TOTAL=3，仅本次命令环境，避免9workers重试。"
+      ]
+    },
+    {
+      "content_types": [
         "people.publications.coauthors",
         "identity_profile"
       ],

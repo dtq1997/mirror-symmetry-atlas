@@ -1,0 +1,96 @@
+{
+  "reviewer": "Codex",
+  "checked_at": "2026-10-08T04:53:25.129329+00:00",
+  "commit": "de5f65538fd429d5501b4963a6c55b60f12d8cbd",
+  "deployment_run": 37729394133,
+  "scope": "Six pages; two wrong coauthor links, explicit historical/current arXiv metadata, retained name spelling and corrected journal. No global factual certification.",
+  "http_checks": [
+    {
+      "url": "https://dtq1997.github.io/mirror-symmetry-atlas/",
+      "status": 200,
+      "sha256": "e19e0fde5d2a24c3b34e6d6000afef85a014ed8d171fc94928a9123d6de57701",
+      "checks": {
+        "no_katex_errors": true,
+        "catalog_count": true
+      },
+      "passed": true
+    },
+    {
+      "url": "https://dtq1997.github.io/mirror-symmetry-atlas/papers",
+      "status": 200,
+      "sha256": "e0fd54954540be10b30591bdfa744af12eb9152a103e28c7e182731339efe6ac",
+      "checks": {
+        "no_katex_errors": true,
+        "catalog_count": true,
+        "jianghao_xu_literal_name": true,
+        "false_xu_xu_binding_absent": true,
+        "current_v3_title": true,
+        "v3_coauthors": true,
+        "correct_journal_I": true,
+        "full_grimstrup_name_retained": true
+      },
+      "passed": true
+    },
+    {
+      "url": "https://dtq1997.github.io/mirror-symmetry-atlas/people/yang-di",
+      "status": 200,
+      "sha256": "cbe7374d60d0e2593e4cd9291a4e2e5d9d821663a440a7785a183463d265fa20",
+      "checks": {
+        "no_katex_errors": true,
+        "jianghao_xu_literal_name": true,
+        "false_xu_xu_binding_absent": true,
+        "reviewed_sources_visible": true
+      },
+      "passed": true
+    },
+    {
+      "url": "https://dtq1997.github.io/mirror-symmetry-atlas/people/zagier",
+      "status": 200,
+      "sha256": "6f263a77b337e8d2f6dd4331b52bcefdf9aee2160faff8165c0dd3ff0cb32bc7",
+      "checks": {
+        "no_katex_errors": true,
+        "jianghao_xu_literal_name": true,
+        "false_xu_xu_binding_absent": true,
+        "reviewed_sources_visible": true
+      },
+      "passed": true
+    },
+    {
+      "url": "https://dtq1997.github.io/mirror-symmetry-atlas/people/rao-sheng",
+      "status": 200,
+      "sha256": "e880275fe7caa13586648efc4ae3b9ec2f75bd3c93b94eab952c6a52078061e0",
+      "checks": {
+        "no_katex_errors": true,
+        "current_v3_title": true,
+        "v3_coauthors": true,
+        "historical_versions_preserved": true,
+        "dated_version_links": true,
+        "reviewed_sources_visible": true
+      },
+      "passed": true
+    },
+    {
+      "url": "https://dtq1997.github.io/mirror-symmetry-atlas/people/ryszard-nest",
+      "status": 200,
+      "sha256": "ec34a416d617d09b297f999d7997f55653e077712bed9562e60ea1c507263331",
+      "checks": {
+        "no_katex_errors": true,
+        "correct_journal_I": true,
+        "full_grimstrup_name_retained": true,
+        "reviewed_sources_visible": true
+      },
+      "passed": true
+    }
+  ],
+  "browser_checks": {
+    "url": "https://dtq1997.github.io/mirror-symmetry-atlas/people/rao-sheng#sources",
+    "viewport_width": 608,
+    "viewport_height": 758,
+    "scroll_width": 602,
+    "current_v3_title_and_no_coauthors_in_publication_card": true,
+    "historical_v1_v2_authors_visible_in_sources": true,
+    "console_errors": [],
+    "screenshot": "publication-versions-live.png",
+    "limitations": "This batch certifies these content/display checks only. The temporary mobile emulation/screenshot disagreement is preserved in preview verification; no mobile visual certification claimed."
+  }
+}
