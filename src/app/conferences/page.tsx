@@ -1,40 +1,16 @@
-import { getAllConferenceEvents, getPeopleMap } from "@/lib/data";
+import { getAllConferenceEvents, getConceptsMap } from "@/lib/data";
 import Link from "@/components/shared/AtlasLink";
 import { displayName as personName } from "@/lib/name";
 import { institutionName } from "@/lib/inst";
+import { publicSourceUrl } from "@/lib/source-url";
 
 export default function ConferencesPage() {
   const events = getAllConferenceEvents().slice().sort((a, b) =>
     b.date_start.localeCompare(a.date_start)
   );
-  const peopleMap = getPeopleMap();
+  const conceptsMap = getConceptsMap();
 
   const displayName = personName;
-
-  const groupByInstitution = (slugs: string[]): Array<{ inst: string; members: string[] }> => {
-    const groups = new Map<string, string[]>();
-    for (const slug of slugs) {
-      const p = peopleMap.get(slug);
-      const latest = p?.career_timeline
-        ?.slice()
-        .reverse()
-        .find((e) => (e.type === "position" || e.type === "education") && e.institution);
-      const key = latest?.institution || "_unknown";
-      if (!groups.has(key)) groups.set(key, []);
-      groups.get(key)!.push(slug);
-    }
-    return Array.from(groups.entries())
-      .map(([inst, members]) => ({
-        inst,
-        members,
-      }))
-      .sort((a, b) => b.members.length - a.members.length);
-  };
-
-  const institutionLabel = (slug: string): string => {
-    if (slug === "_unknown") return "其他";
-    return institutionName(slug);
-  };
 
   return (
     <div className="max-w-4xl mx-auto px-6 py-10">
@@ -72,8 +48,18 @@ export default function ConferencesPage() {
                       href={`/institutions/${evt.institution}`}
                       className="text-[#a78bfa] hover:text-[#c4b5fd] transition-colors"
                     >
-                      {institutionLabel(evt.institution)}
+                      {institutionName(evt.institution)}
                     </Link>
+                  )}
+                  {publicSourceUrl(evt.url) && (
+                    <a
+                      href={publicSourceUrl(evt.url)}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-[#818cf8] hover:underline"
+                    >
+                      会议官方来源 ↗
+                    </a>
                   )}
                 </div>
               </div>
@@ -98,30 +84,22 @@ export default function ConferencesPage() {
                 </div>
               )}
 
-              {/* Attendees — grouped by institution */}
+              {/* A person's career does not establish their affiliation at this event. */}
               {evt.attendees && evt.attendees.length > 0 && (
                 <div className="p-5 border-b border-[#2a2a3a]">
                   <h3 className="text-sm font-medium text-[#8888a0] mb-3">
-                    全体参会人员（{evt.attendees.length}）
+                    参会记录（{evt.attendees.length}）
                   </h3>
-                  <div className="space-y-3">
-                    {groupByInstitution(evt.attendees).map(({ inst, members }) => (
-                      <div key={inst} className="flex flex-wrap items-baseline gap-2">
-                        <span className="text-xs text-[#6366f1] font-medium min-w-[5rem]">
-                          {institutionLabel(inst)}（{members.length}）
-                        </span>
-                        <div className="flex flex-wrap gap-1.5">
-                          {members.map((s) => (
-                            <Link
-                              key={s}
-                              href={`/people/${s}`}
-                              className="px-2 py-0.5 text-xs rounded bg-[#2a2a3a] text-[#a0a0b8] hover:bg-[#3a3a4a] hover:text-[#e8e8f0] transition-colors"
-                            >
-                              {displayName(s)}
-                            </Link>
-                          ))}
-                        </div>
-                      </div>
+                  <p className="text-xs text-[#8888a0] mb-3">已录入名单，来源与核查范围见会议备注。</p>
+                  <div className="flex flex-wrap gap-1.5">
+                    {evt.attendees.map((s) => (
+                      <Link
+                        key={s}
+                        href={`/people/${s}`}
+                        className="px-2 py-0.5 text-xs rounded bg-[#2a2a3a] text-[#a0a0b8] hover:bg-[#3a3a4a] hover:text-[#e8e8f0] transition-colors"
+                      >
+                        {displayName(s)}
+                      </Link>
                     ))}
                   </div>
                 </div>
@@ -140,7 +118,7 @@ export default function ConferencesPage() {
                         href={`/concepts/${t}`}
                         className="px-2 py-1 text-xs rounded bg-[#6366f1]/15 text-[#818cf8] hover:bg-[#6366f1]/25 transition-colors"
                       >
-                        {t}
+                        {conceptsMap.get(t)?.name.zh || conceptsMap.get(t)?.name.en || t}
                       </Link>
                     ))}
                   </div>
@@ -148,6 +126,11 @@ export default function ConferencesPage() {
               )}
 
               {/* Notes */}
+              {evt.source && (
+                <p className="px-5 pt-5 text-xs text-[#8888a0] leading-relaxed break-words">
+                  记录来源：{evt.source}
+                </p>
+              )}
               {evt.notes && (
                 <div className="p-5">
                   <pre className="text-xs text-[#8888a0] whitespace-pre-wrap leading-relaxed">

@@ -88,6 +88,8 @@ identity_profile:
   coauthor_circle_extended_names: ['Huai-Liang Chang', 'Jian Zhou']
   research_keywords: [gromov, mirror, moduli, recursion, symmetry, topological, witten]
   known_arxiv_ids:
+    - '2609.12955'
+    - '2605.30223'
     - '2504.15696'
     - '2503.20948'
     - '2312.00973'
@@ -148,15 +150,15 @@ key_collaborators:
   - person: fang-bohan
     since: 2008
     topic: "Remodeling conjecture, open GW invariants, toric CY"
-    papers_count: 13
+    papers_count: 14
   - person: zong-zhengyu
     since: 2014
     topic: "Remodeling conjecture, toric CY 3-orbifolds"
-    papers_count: 6
+    papers_count: 7
 activity:
-  total_papers: 59
-  published_count: 48
-  preprint_only_count: 11
+  total_papers: 61
+  published_count: 47
+  preprint_only_count: 14
   active_period: '2002-present'
   confidence: 'has-9-review-pending'
 external_ids:
@@ -195,11 +197,23 @@ online_traces:
     url: "https://openalex.org/authors/A5050554374"
     last_verified: "2026-05-15"
 personal_notes: |
-  与方博汉 (11 篇)、宗正宇 (6 篇) 形成 toric CY / remodeling conjecture 核心团队。
+  与方博汉、宗正宇长期合作，研究 toric Calabi-Yau 空间的镜像对称与 Remodeling Conjecture。
   Remodeling Conjecture (BKMP) 的主要推动者之一。
   与 Jun Li、Kefeng Liu、Jian Zhou 合作的 topological vertex 数学化论文是开放 GW 理论的奠基性工作之一。
   Columbia 主页还显示她长期组织 Gromov-Witten theory、enumerative geometry 和 symplectic/gauge theory 相关 seminar。
 publications:
+  - id: '2609.12955'
+    title: 'All-Genus Open Mirror Symmetry for Toric Calabi-Yau 3-Orbifolds with Multiple Branes'
+    year: 2026
+    coauthors: [fang-bohan, 'Song Yu', zong-zhengyu]
+    primary_category: math.AG
+    sources: [arxiv, manual]
+  - id: '2605.30223'
+    title: 'Hodge numbers of moduli of principal bundles on a curve'
+    year: 2026
+    coauthors: ['Florent Schaffhauser']
+    primary_category: math.AG
+    sources: [arxiv, manual]
   - id: '2504.15696'
     title: 'Remodeling Conjecture with Descendants'
     year: 2025
@@ -690,5 +704,13 @@ sources:
   - label: '[Codex] 2026-10-08：Liu 本人2026年9月论文清单'
     url: https://www.math.columbia.edu/~ccliu/Liu_Publications_2609.pdf
     last_verified: '2026-10-08'
-    notes: 第37和45项分别为射影直线与 Remodeling；仅核这两篇作者及书目。
+    notes: 第37、45项对应射影直线与 Remodeling；第61、62项交叉确认2026年两篇新作的作者、题名及编号。
+  - label: '[Codex] 2026-10-08：新收录论文：Multiple Branes 的署名与单位'
+    url: https://arxiv.org/html/2609.12955v1
+    last_verified: '2026-10-08'
+    notes: 方博汉：北大 BICMR；Liu：Columbia；宗正宇：清华；另一位作者为 Song Yu（Caltech），保留原始姓名，不猜建档。
+  - label: '[Codex] 2026-10-08：新收录论文：Hodge numbers 的署名与单位'
+    url: https://arxiv.org/html/2605.30223v1
+    last_verified: '2026-10-08'
+    notes: Chiu-Chu Melissa Liu（Columbia）与 Florent Schaffhauser（Heidelberg），邮箱与本人主页一致。
 tags: []

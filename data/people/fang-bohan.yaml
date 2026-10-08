@@ -13,31 +13,43 @@ career_timeline:
     institution: pku
     role: "本科"
     notes: "北京大学数学系学士"
-  - period: "2005-2010"
+  - period: "[?]-2010"
     type: education
     institution: northwestern
     role: "PhD"
     advisor: zaslow-eric
-    notes: "Northwestern University, 导师 Eric Zaslow。博士论文 \"Mirror Symmetry, Constructible Sheaves And Toric Varieties\""
-  - period: "~2010-2014"
+    notes: "Northwestern University，2010 年获博士学位，导师 Eric Zaslow。博士论文 Mirror symmetry, constructible sheaves and toric varieties；入学年份待核实。"
+  - period: "2010-2014"
     type: position
     institution: columbia
-    role: "博士后"
+    role: "Ritt 助理教授"
     notes: "Columbia University, Department of Mathematics"
-  - period: "~2015-present"
+  - period: "2014-2020"
     type: position
     institution: pku-bicmr
-    role: "助理教授 → 长聘副教授 → 教授"
-    notes: "北京大学 BICMR。2015 年青年千人计划入选"
-  - period: "[待验证]"
+    role: "助理教授"
+  - period: "2017 春"
+    type: visit
+    institution: ias
+    role: "访问成员（Member）"
+  - period: "2020-2023"
+    type: position
+    institution: pku-bicmr
+    role: "副教授"
+  - period: "2023-present"
+    type: position
+    institution: pku-bicmr
+    role: "教授"
+  - period: "2021"
     type: award
     title: "国家杰出青年科学基金"
+    notes: "获资助年度为 2021；本人 CV 所列项目 12125101 执行期为 2022—2026。"
   - period: "2022"
     type: award
     title: "第十七届中国青年科技奖"
-  - period: "2015"
+  - period: "2015（待验证）"
     type: award
-    title: "中组部青年千人计划"
+    title: "中组部青年千人计划（入选情况及年份待核实）"
 research_areas:
   - mirror-symmetry
   - homological-mirror-symmetry
@@ -51,14 +63,23 @@ identity_profile:
       period: '2001-2005'
       role: '本科'
     - institution: 'northwestern'
-      period: '2005-2010'
+      period: '[?]-2010'
       role: 'PhD'
     - institution: 'columbia'
-      period: '~2010-2014'
-      role: '博士后'
+      period: '2010-2014'
+      role: 'Ritt 助理教授'
     - institution: 'pku-bicmr'
-      period: '~2015-present'
-      role: '助理教授 → 长聘副教授 → 教授'
+      period: '2014-2020'
+      role: '助理教授'
+    - institution: 'ias'
+      period: '2017 春'
+      role: '访问成员（Member）'
+    - institution: 'pku-bicmr'
+      period: '2020-2023'
+      role: '副教授'
+    - institution: 'pku-bicmr'
+      period: '2023-present'
+      role: '教授'
   email_domains: [bicmr.pku.edu.cn, columbia.edu, northwestern.edu, pku.edu.cn]
   coauthor_circle_core_slugs: [liu-melissa, zong-zhengyu]
   coauthor_circle_core_names: ['Chiu-Chu Melissa Liu', 'Zhengyu Zong']
@@ -66,6 +87,7 @@ identity_profile:
   coauthor_circle_extended_names: ['Yongbin Ruan']
   research_keywords: [conjecture, gromov, homological, mirror, symmetry, witten]
   known_arxiv_ids:
+    - '2609.12955'
     - '2504.15696'
     - '2501.14222'
     - '2309.02154'
@@ -96,12 +118,18 @@ key_collaborators:
   - person: liu-melissa
     since: 2008
     topic: "Remodeling conjecture, open GW invariants, toric CY"
-    papers_count: 15
+    papers_count: 14
   - person: zong-zhengyu
     since: 2014
     topic: "Remodeling conjecture, toric CY, Gamma conjecture"
-    papers_count: 11
+    papers_count: 10
 publications:
+  - id: '2609.12955'
+    title: 'All-Genus Open Mirror Symmetry for Toric Calabi-Yau 3-Orbifolds with Multiple Branes'
+    year: 2026
+    coauthors: [liu-melissa, 'Song Yu', zong-zhengyu]
+    primary_category: math.AG
+    sources: [arxiv, manual]
   - id: '2504.15696'
     title: 'Remodeling Conjecture with Descendants'
     year: 2025
@@ -293,8 +321,8 @@ publications:
     sources: [arxiv, openalex]
 activity:
   total_papers: 24
-  published_count: 19
-  preprint_only_count: 5
+  published_count: 18
+  preprint_only_count: 6
   active_period: '2010-present'
   confidence: 'has-7-review-pending'
 external_ids:
@@ -302,23 +330,24 @@ external_ids:
   openalex: A5102018397
 links:
   homepage: 'https://bohanfang.github.io/'
+  cv: 'https://bohanfang.github.io/cv.pdf'
+known_emails:
+  - 'bohanfang@gmail.com'
+known_affiliations:
+  - 'Beijing International Center for Mathematical Research, Peking University'
 personal_notes: |
-  北大 BICMR 教授 (2023 起)。2005 北大本科→2010 Northwestern 博士 (导师 Eric Zaslow)→
-  Columbia Ritt 助理教授 (2010-2014)→北大 BICMR (2014 起, 2015 青千)。
-  
-  与刘秋菊(Melissa Liu)长期合作(11篇), 与宗正宇合作(7篇), 三人形成 toric CY / remodeling
-  conjecture 核心团队。主要贡献: coherent sheaf-constructible sheaf 对应 (HMS 重要方法),
-  Remodeling Conjecture 的证明 (拓扑递归+枚举几何), 发表于 Invent. Math. 和 JAMS。
-  
-  2026 HUST 会议报告: Conic bundle and the mirror hypersurface for a toric CY n-fold
-  (with Yuze Sun, Peng Zhou)。HMS, Gamma classes, microlocal sheaves。
-  
-  承担 NSFC 杰青项目 12125101 "镜像对称" (2021-2026)。
-  
-  现职：北大 BICMR 教授；办公室静春园 78 号院 78407
-  学历：北大本科；哥伦比亚大学博士（D. H. Phong / Melissa Liu 学派，[待验证]）
-  重要奖项：NSF DMS-1206667 PI（赴美期间）；NSFC 项目（[待验证]）
-  趣闻：在 BICMR 开 "Mathematical Aspects of String Theory" 课；2025 新作 "Remodeling Conjecture with Descendants" (arXiv:2504.15696) 证明等变 Gamma Conjecture
+  北京大学 BICMR 教授（2023 年起）。2005 年获北大学士学位，2010 年获 Northwestern University 博士学位，导师 Eric Zaslow。
+  2010—2014 年任 Columbia Ritt 助理教授，2014 年入职北大；2020 年任副教授，2023 年任教授。
+  2017 年春为 IAS 访问成员。办公室：镜春园 78 号院 78407。
+
+  与 Chiu-Chu Melissa Liu、宗正宇长期合作，研究 toric Calabi-Yau 空间的镜像对称、开放 Gromov-Witten 理论及 Remodeling Conjecture。
+  与 Liu、Song Yu、宗正宇合著的 Remodeling Conjecture with Descendants（2025）研究半射影 toric Calabi-Yau 三维轨形的等变后裔镜像对称；作者摘要中的等变镜像 Gamma 猜想结论带有指定的整结构和层的支集条件。
+
+  2021 年获国家杰出青年科学基金资助；本人 CV 列出的项目 12125101“镜像对称”执行期为 2022—2026 年。
+  2022 年获第十七届中国青年科技奖。NSF DMS-1206667 是其 2012—2015 年主持的科研项目。
+
+  2026 年华中科技大学会议手册列出的报告为 Conic bundle and the mirror hypersurface for a toric Calabi-Yau n-fold，基于与 Yuze Sun、Peng Zhou 的合作。
+  本人 CV 记载其于 2024 年春讲授 Mathematical Aspects of String Theory。
 sources:
   - label: 'Personal homepage'
     url: 'https://bohanfang.github.io/'
@@ -343,6 +372,34 @@ sources:
   - label: '[Codex] 2026-10-08：Liu 本人2026年9月论文清单'
     url: https://www.math.columbia.edu/~ccliu/Liu_Publications_2609.pdf
     last_verified: '2026-10-08'
-    notes: 第37和45项分别为射影直线与 Remodeling；仅核这两篇作者及书目。
+    notes: 第37、45项对应射影直线与 Remodeling；第61、62项交叉确认2026年两篇新作的作者、题名及编号。
+  - label: '[Codex] 2026-10-08：新收录论文：Multiple Branes 的署名与单位'
+    url: https://arxiv.org/html/2609.12955v1
+    last_verified: '2026-10-08'
+    notes: 方博汉：北大 BICMR；Liu：Columbia；宗正宇：清华；另一位作者为 Song Yu（Caltech），保留原始姓名，不猜建档。
+  - label: '[Codex] 2026-10-08：本人 CV：学历、任职、项目执行期'
+    url: https://bohanfang.github.io/cv.pdf
+    last_verified: '2026-10-08'
+    notes: 第1页核对2010年博士、Eric Zaslow、各段职位、2017春IAS及项目12125101的2022—2026执行期；第3页课程。未载博士入学年份。
+  - label: '[Codex] 2026-10-08：北大数学学院：杰青获资助年度'
+    url: https://math.pku.edu.cn/jsdw/rcjh/index.htm
+    last_verified: '2026-10-08'
+    notes: 杰出青年基金获得者名单列方博汉（2021）。
+  - label: '[Codex] 2026-10-08：北大数学学院：2001级本科校友'
+    url: https://math.pku.edu.cn/mathalumni/yymd/yyw_bks/29148.htm
+    last_verified: '2026-10-08'
+    notes: 方博汉列于2001级；与本人CV的2005学士学位交叉核对。
+  - label: '[Codex] 2026-10-08：Remodeling with Descendants：作者摘要与适用范围'
+    url: https://arxiv.org/html/2504.15696v2
+    last_verified: '2026-10-08'
+    notes: 仅核摘要转述范围：半射影toric CY三维轨形、整结构及支集条件；不构成本站对证明的独立审查。
+  - label: '[Codex] 2026-10-08：华中科技大学：2026会议官方通知'
+    url: https://maths.hust.edu.cn/info/1293/12288.htm
+    last_verified: '2026-10-08'
+    notes: 通知确认日期和会场；报告题名及合作署名取仓库已有会议手册第3页。
+  - label: '[Codex] 2026-10-08：北大 BICMR 当前教师名单'
+    url: https://bicmr.pku.edu.cn/content/lists/11.html
+    last_verified: '2026-10-08'
+    notes: 当前教授及办公室78407；办公室完整地址另据本人主页。
 tags:
   - pku

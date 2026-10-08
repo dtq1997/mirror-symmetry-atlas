@@ -12,7 +12,7 @@
 - 累计11条确认错挂、5条待核实归属已移出，1录像转网上痕迹，另8条来源确认的重复已合并。原始记录及来源分别保存在审核池或具名审计报告；身份排除受防回填检查保护，合并的有效DOI不能加入拒绝池。刘思齐41条、Mazzocco46条、Dubrovin64条。部分履历/论文修正不代表整个人物已核。
 - 图谱空按钮、共享数据突变、布局持续散开、手机侧栏/搜索、公式跨行渲染已修；年份筛选是累计有日期记录，机构筛选是历史履历关联，不猜现职。小屏全图仍可能局部标签重叠，可搜索放大。
 - 第八批统一出版线索口径；第九批修论文/新闻行内公式、重复与Hertling原刊标题；第十批修 Weyl 第一篇/续篇串接、1604.07123与1809.08806错题名，合并两组预印本/期刊重复。详见identifier-title-corrections.json、batch-ten-publication-counts.json、batch-ten-live-verification.json。Weyl续篇真实出版线索仍待补，不能说未发表。
-- 下一步先看 `next-author-profile-leads.json`：Fang的Northwestern2010博士与笔记“Columbia博士”矛盾、NSFC12125101年份错写，CV原件已缓存。Liu2026年9月本人论文清单及arXiv确认2609.12955，尚未加入三位已建档作者。2504.15696v2摘要确实含有特定情形的equivariant mirror symmetric Gamma conjecture，不能当成虚构删除；应核scope并准确归因，尚未审证明。原PDF/提取文本及hash在.cache/msa/site-recovery与该报告。
+- 第十一批已完成本地核验、待发布：按CV修正Fang学历/任职/资助年份，补两篇2026年新作到三个作者的四行记录；会议邀请名单补Nest至18人，移除履历末项推断参会单位并展示官方来源。下方有本批范围及验证记录。
 - 继续复核52条题名差异和227条旧编号的早期快照（含已处理项/版本差异，不全是错）；郭帅2311.09804归属、2312.11174 Open MIND刊名、邬龙挺1103.4695归属、Boalch W4307615951幻灯片类型。旧 next-publication-source-leads.json 三组题名问题已由第十批处理，不重复修改。
 - 全内容待办仍包括：人物公开叙述/履历/师生关系，Hertling整书/章节计数，61概念及概念图一侧related连线，115机构、会议/时间线/3开放问题一手来源，论文目录查找体验。必须继续覆盖这些类型，不能把论文元数据清理当全站完成。
 - content-inventory.json是第一批未核实基线，旧数量/全pending不覆盖后续分项证据。当前覆盖以具名审计的具体字段为准。
@@ -203,3 +203,15 @@ Goal active；当前尚待本批 GitHub Pages 发布与线上验收。
 
 
 [Codex] 第十批已上线并完成验证：commit `1d002b0f288d4d37d1adb9be0c5b400d76e577e6`，Actions `37708026854` success。8页HTTP检查全部通过；张友金手机页两篇Weyl题名/作者/不同链接与不同出版状态正确，Fang手机页Remodeling仅一条，Guo桌面两篇NMSP题名/DOI/卷页分别正确；均无页面横向溢出、公式解析或console错误。截图weyl-identifiers-live-mobile.jpg，证据batch-ten-live-verification.json。Goal active，下一轮按当前恢复入口继续。补充：2504.15696v2摘要明确含相应Gamma结论，先前只是待核线索，不能自动当错误删除；应保留具体对象条件与文献归因。
+
+[Codex] 2026-10-08 第十一批本地核验完成，待提交部署：
+
+- 方博汉：本人CV确认Northwestern2010博士、Eric Zaslow导师、Columbia2010—2014 Ritt助理教授、北大2014—2020助理教授/2020—2023副教授/2023起教授、IAS2017春访问。北大校友记录确认2001级本科，人才计划页确认2021杰青；项目12125101执行期为2022—2026。删除笔记中相冲突的Columbia博士说法。博士入学年份与2015青年人才计划保持待核，不把未找到来源当证伪。
+- 新增2609.12955至Fang/Liu/Zong、2605.30223至Liu；本人2026年9月书目第61/62项与arXiv完整署名、单位及公开邮箱相合。Song Yu/Florent Schaffhauser保留原始作者名。未增加未经核实的DOI或期刊。旧论文行完全保留；三人手填缓存计数与共享收录统计同步。
+- Fang的2504.15696v2介绍按作者摘要限定半射影toric CY三维轨形、整结构和支集条件，明确归因；没有审查或宣称独立证明。全人物档案并未整体核准。
+- HUST已有会议手册第1页与日程确认18位邀请报告人，漏项为Ryszard Nest。官方通知当前可读，但附件下载要求验证码；没有声称重新下载了官方手册。65项原录入参会记录保持不变，签到姓名/单位/完整性待逐项核。会议页移除从个人履历末项推断会议单位的分组，改称参会记录，补官方来源链接与来源文字，主题显示中文名称。
+- 28项网站回归、ESLint、TypeScript、最终生产构建通过，data lint仍0errors/74warnings。283HTML/22271链接/642公式实例，无坏目标或KaTeX解析错误。第一次提前于构建结束运行导出审计遇到正在重建的文件缺失；构建结束后的postbuild和独立导出审计均通过，不把该竞态误报为站点缺页。
+- 本地390px会议页及Fang论文卡片、1280px Liu两篇新论文实际目检，无横向溢出，浏览器error日志为空。当前2223原始行/1819目录组；Fang24(18/6)、Liu61(47/14)、Zong24(15/9)，括号仍为出版线索/待补线索。
+- 证据：profiles-new-papers-and-conference-review.json、batch-eleven-publication-counts.json、batch-eleven-export-audit.json。源PDF哈希、逐字段前后记录和限制均入审计。
+
+下一步：待本批Actions与线上核验后，修机构页同类归属错误（列表倒序取履历、详情把present/末尾横线/旧current_members直接当现职），核BICMR条目的北大1898成立年份与中心自身年份混用。Fang导师显示为Zaslow Eric的未建档回退需查名字映射。继续全部人物、论文、61概念、115机构、会议签到、时间线、3开放问题与论文查找体验，不得以本批完成关闭Goal。

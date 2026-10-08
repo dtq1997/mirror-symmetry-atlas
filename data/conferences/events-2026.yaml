@@ -17,7 +17,7 @@ events:
       - ke-huazhong
       - li-changzheng
       - li-qin
-      # - ryszard-nest  # external
+      - ryszard-nest
       - sun-shanzhong
       - tu-junwu
       - wang-luyao
@@ -113,7 +113,7 @@ events:
       - moduli-spaces
       - gamma-conjecture
     url: "https://maths.hust.edu.cn/info/1293/12288.htm"
-    source: "会议手册 PDF (data/conferences/2026-hust-mathphys-geometry.pdf) + 签到表 (2026-04-17)"
+    source: "华中科技大学官方通知及会议手册；参会记录来自原录入的 2026-04-17 签到表，尚待逐项核对。"
     notes: |
       主办：华中科技大学数学与统计学院 + 数学中心
       会场：逸夫科技楼南楼702
@@ -131,4 +131,6 @@ events:
       - 涂君武: B-model categorical enumerative invariants, BCOV HAE
       - 邬龙挺: joint with 郭帅
 
-      签到表记录了全体参会人员（4 页手写签到），见 attendees 字段。
+      [Codex] 2026-10-08：会议手册列出 18 位邀请报告人，含 Ryszard Nest，日程为 4 月 19 日 10:40—11:20。
+      邀请名单和报告日程已与手册核对；不据此推断每位受邀者实际出席。
+      参会记录沿用原录入的四页手写签到表，尚未逐项复核姓名、单位及名单完整性。

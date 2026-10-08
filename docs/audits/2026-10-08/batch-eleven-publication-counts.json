@@ -1,0 +1,81 @@
+{
+  "reviewer": "Codex",
+  "date": "2026-10-08",
+  "scope": "Recorded works and shared full identifiers, not whole-career output or complete identity verification.",
+  "before": {
+    "raw_rows": 2219,
+    "catalog_groups": 1817,
+    "profiles": {
+      "fang-bohan": {
+        "total_papers": 23,
+        "published_count": 18,
+        "preprint_only_count": 5
+      },
+      "liu-melissa": {
+        "total_papers": 59,
+        "published_count": 47,
+        "preprint_only_count": 12
+      },
+      "zong-zhengyu": {
+        "total_papers": 23,
+        "published_count": 15,
+        "preprint_only_count": 8
+      }
+    },
+    "shared_pairs": [
+      {
+        "source": "fang-bohan",
+        "target": "liu-melissa",
+        "count": 13
+      },
+      {
+        "source": "fang-bohan",
+        "target": "zong-zhengyu",
+        "count": 9
+      },
+      {
+        "source": "liu-melissa",
+        "target": "zong-zhengyu",
+        "count": 6
+      }
+    ]
+  },
+  "after": {
+    "raw_rows": 2223,
+    "catalog_groups": 1819,
+    "profiles": {
+      "fang-bohan": {
+        "total_papers": 24,
+        "published_count": 18,
+        "preprint_only_count": 6
+      },
+      "liu-melissa": {
+        "total_papers": 61,
+        "published_count": 47,
+        "preprint_only_count": 14
+      },
+      "zong-zhengyu": {
+        "total_papers": 24,
+        "published_count": 15,
+        "preprint_only_count": 9
+      }
+    },
+    "shared_pairs": [
+      {
+        "source": "fang-bohan",
+        "target": "liu-melissa",
+        "count": 14
+      },
+      {
+        "source": "fang-bohan",
+        "target": "zong-zhengyu",
+        "count": 10
+      },
+      {
+        "source": "liu-melissa",
+        "target": "zong-zhengyu",
+        "count": 7
+      }
+    ]
+  }
+}

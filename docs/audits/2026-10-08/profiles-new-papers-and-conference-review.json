@@ -1,0 +1,1587 @@
+{
+  "reviewer": "Codex",
+  "date": "2026-10-08",
+  "baseline_commit": "8757d00a5364c4565e9e62695dc0f51b79f6ba35",
+  "scope": "Field-specific biography, paper metadata/ownership and conference-invitation review. Not full profiles, proof verification, actual attendance or complete bibliographies.",
+  "changes": [
+    {
+      "path": "data/people/fang-bohan.yaml",
+      "before_sha256": "59558b35fff8beb40f3884bca9158ee9f702a7b2233cd4f2ff686a40a380c4d9",
+      "after_sha256": "11aafbb17e4a85d4d3c891bedacf88e43673010733498291bf9d5a88103a3cec",
+      "fields": {
+        "known_affiliations": {
+          "before": null,
+          "after": [
+            "Beijing International Center for Mathematical Research, Peking University"
+          ]
+        },
+        "sources": {
+          "before": [
+            {
+              "label": "Personal homepage",
+              "url": "https://bohanfang.github.io/"
+            },
+            {
+              "label": "BICMR: 第十七届中国青年科技奖",
+              "url": "https://bicmr.pku.edu.cn/content/show/3-293.html"
+            },
+            {
+              "label": "Math Genealogy (id=150849)",
+              "url": "https://www.mathgenealogy.org/id.php?id=150849"
+            },
+            {
+              "label": "信息源",
+              "url": "http://faculty.bicmr.pku.edu.cn/~b-fang/"
+            },
+            {
+              "label": "信息源",
+              "url": "https://arxiv.org/abs/2504.15696"
+            },
+            {
+              "label": "信息源",
+              "url": "https://mathpicture.fas.harvard.edu/event/seminar-bohan-fang-pku-mirror-symmetry-toric-calabi-yau-3-folds"
+            },
+            {
+              "label": "[Codex] 2026-10-08：Remodeling 原始题名与署名",
+              "url": "https://arxiv.org/abs/1604.07123",
+              "last_verified": "2026-10-08",
+              "notes": "编号对应 Remodeling；射影直线论文是独立的1411.3557，保留。"
+            },
+            {
+              "label": "[Codex] 2026-10-08：Remodeling 出版社 DOI 登记",
+              "url": "https://api.crossref.org/works/10.1090/jams/934",
+              "last_verified": "2026-10-08",
+              "notes": "JAMS 33(1), 135–222；在线2019-11-01，卷期2020，预印本2016。"
+            },
+            {
+              "label": "[Codex] 2026-10-08：Liu 本人2026年9月论文清单",
+              "url": "https://www.math.columbia.edu/~ccliu/Liu_Publications_2609.pdf",
+              "last_verified": "2026-10-08",
+              "notes": "第37和45项分别为射影直线与 Remodeling；仅核这两篇作者及书目。"
+            }
+          ],
+          "after": [
+            {
+              "label": "Personal homepage",
+              "url": "https://bohanfang.github.io/"
+            },
+            {
+              "label": "BICMR: 第十七届中国青年科技奖",
+              "url": "https://bicmr.pku.edu.cn/content/show/3-293.html"
+            },
+            {
+              "label": "Math Genealogy (id=150849)",
+              "url": "https://www.mathgenealogy.org/id.php?id=150849"
+            },
+            {
+              "label": "信息源",
+              "url": "http://faculty.bicmr.pku.edu.cn/~b-fang/"
+            },
+            {
+              "label": "信息源",
+              "url": "https://arxiv.org/abs/2504.15696"
+            },
+            {
+              "label": "信息源",
+              "url": "https://mathpicture.fas.harvard.edu/event/seminar-bohan-fang-pku-mirror-symmetry-toric-calabi-yau-3-folds"
+            },
+            {
+              "label": "[Codex] 2026-10-08：Remodeling 原始题名与署名",
+              "url": "https://arxiv.org/abs/1604.07123",
+              "last_verified": "2026-10-08",
+              "notes": "编号对应 Remodeling；射影直线论文是独立的1411.3557，保留。"
+            },
+            {
+              "label": "[Codex] 2026-10-08：Remodeling 出版社 DOI 登记",
+              "url": "https://api.crossref.org/works/10.1090/jams/934",
+              "last_verified": "2026-10-08",
+              "notes": "JAMS 33(1), 135–222；在线2019-11-01，卷期2020，预印本2016。"
+            },
+            {
+              "label": "[Codex] 2026-10-08：Liu 本人2026年9月论文清单",
+              "url": "https://www.math.columbia.edu/~ccliu/Liu_Publications_2609.pdf",
+              "last_verified": "2026-10-08",
+              "notes": "第37、45项对应射影直线与 Remodeling；第61、62项交叉确认2026年两篇新作的作者、题名及编号。"
+            },
+            {
+              "label": "[Codex] 2026-10-08：新收录论文：Multiple Branes 的署名与单位",
+              "url": "https://arxiv.org/html/2609.12955v1",
+              "last_verified": "2026-10-08",
+              "notes": "方博汉：北大 BICMR；Liu：Columbia；宗正宇：清华；另一位作者为 Song Yu（Caltech），保留原始姓名，不猜建档。"
+            },
+            {
+              "label": "[Codex] 2026-10-08：本人 CV：学历、任职、项目执行期",
+              "url": "https://bohanfang.github.io/cv.pdf",
+              "last_verified": "2026-10-08",
+              "notes": "第1页核对2010年博士、Eric Zaslow、各段职位、2017春IAS及项目12125101的2022—2026执行期；第3页课程。未载博士入学年份。"
+            },
+            {
+              "label": "[Codex] 2026-10-08：北大数学学院：杰青获资助年度",
+              "url": "https://math.pku.edu.cn/jsdw/rcjh/index.htm",
+              "last_verified": "2026-10-08",
+              "notes": "杰出青年基金获得者名单列方博汉（2021）。"
+            },
+            {
+              "label": "[Codex] 2026-10-08：北大数学学院：2001级本科校友",
+              "url": "https://math.pku.edu.cn/mathalumni/yymd/yyw_bks/29148.htm",
+              "last_verified": "2026-10-08",
+              "notes": "方博汉列于2001级；与本人CV的2005学士学位交叉核对。"
+            },
+            {
+              "label": "[Codex] 2026-10-08：Remodeling with Descendants：作者摘要与适用范围",
+              "url": "https://arxiv.org/html/2504.15696v2",
+              "last_verified": "2026-10-08",
+              "notes": "仅核摘要转述范围：半射影toric CY三维轨形、整结构及支集条件；不构成本站对证明的独立审查。"
+            },
+            {
+              "label": "[Codex] 2026-10-08：华中科技大学：2026会议官方通知",
+              "url": "https://maths.hust.edu.cn/info/1293/12288.htm",
+              "last_verified": "2026-10-08",
+              "notes": "通知确认日期和会场；报告题名及合作署名取仓库已有会议手册第3页。"
+            },
+            {
+              "label": "[Codex] 2026-10-08：北大 BICMR 当前教师名单",
+              "url": "https://bicmr.pku.edu.cn/content/lists/11.html",
+              "last_verified": "2026-10-08",
+              "notes": "当前教授及办公室78407；办公室完整地址另据本人主页。"
+            }
+          ]
+        },
+        "links": {
+          "before": {
+            "homepage": "https://bohanfang.github.io/"
+          },
+          "after": {
+            "homepage": "https://bohanfang.github.io/",
+            "cv": "https://bohanfang.github.io/cv.pdf"
+          }
+        },
+        "personal_notes": {
+          "before": "北大 BICMR 教授 (2023 起)。2005 北大本科→2010 Northwestern 博士 (导师 Eric Zaslow)→\nColumbia Ritt 助理教授 (2010-2014)→北大 BICMR (2014 起, 2015 青千)。\n\n与刘秋菊(Melissa Liu)长期合作(11篇), 与宗正宇合作(7篇), 三人形成 toric CY / remodeling\nconjecture 核心团队。主要贡献: coherent sheaf-constructible sheaf 对应 (HMS 重要方法),\nRemodeling Conjecture 的证明 (拓扑递归+枚举几何), 发表于 Invent. Math. 和 JAMS。\n\n2026 HUST 会议报告: Conic bundle and the mirror hypersurface for a toric CY n-fold\n(with Yuze Sun, Peng Zhou)。HMS, Gamma classes, microlocal sheaves。\n\n承担 NSFC 杰青项目 12125101 \"镜像对称\" (2021-2026)。\n\n现职：北大 BICMR 教授；办公室静春园 78 号院 78407\n学历：北大本科；哥伦比亚大学博士（D. H. Phong / Melissa Liu 学派，[待验证]）\n重要奖项：NSF DMS-1206667 PI（赴美期间）；NSFC 项目（[待验证]）\n趣闻：在 BICMR 开 \"Mathematical Aspects of String Theory\" 课；2025 新作 \"Remodeling Conjecture with Descendants\" (arXiv:2504.15696) 证明等变 Gamma Conjecture\n",
+          "after": "北京大学 BICMR 教授（2023 年起）。2005 年获北大学士学位，2010 年获 Northwestern University 博士学位，导师 Eric Zaslow。\n2010—2014 年任 Columbia Ritt 助理教授，2014 年入职北大；2020 年任副教授，2023 年任教授。\n2017 年春为 IAS 访问成员。办公室：镜春园 78 号院 78407。\n\n与 Chiu-Chu Melissa Liu、宗正宇长期合作，研究 toric Calabi-Yau 空间的镜像对称、开放 Gromov-Witten 理论及 Remodeling Conjecture。\n与 Liu、Song Yu、宗正宇合著的 Remodeling Conjecture with Descendants（2025）研究半射影 toric Calabi-Yau 三维轨形的等变后裔镜像对称；作者摘要中的等变镜像 Gamma 猜想结论带有指定的整结构和层的支集条件。\n\n2021 年获国家杰出青年科学基金资助；本人 CV 列出的项目 12125101“镜像对称”执行期为 2022—2026 年。\n2022 年获第十七届中国青年科技奖。NSF DMS-1206667 是其 2012—2015 年主持的科研项目。\n\n2026 年华中科技大学会议手册列出的报告为 Conic bundle and the mirror hypersurface for a toric Calabi-Yau n-fold，基于与 Yuze Sun、Peng Zhou 的合作。\n本人 CV 记载其于 2024 年春讲授 Mathematical Aspects of String Theory。\n"
+        },
+        "known_emails": {
+          "before": null,
+          "after": [
+            "bohanfang@gmail.com"
+          ]
+        },
+        "identity_profile": {
+          "before": {
+            "openalex_id": "A5102018397",
+            "mathgenealogy_id": "150849",
+            "affiliations": [
+              {
+                "institution": "pku",
+                "period": "2001-2005",
+                "role": "本科"
+              },
+              {
+                "institution": "northwestern",
+                "period": "2005-2010",
+                "role": "PhD"
+              },
+              {
+                "institution": "columbia",
+                "period": "~2010-2014",
+                "role": "博士后"
+              },
+              {
+                "institution": "pku-bicmr",
+                "period": "~2015-present",
+                "role": "助理教授 → 长聘副教授 → 教授"
+              }
+            ],
+            "email_domains": [
+              "bicmr.pku.edu.cn",
+              "columbia.edu",
+              "northwestern.edu",
+              "pku.edu.cn"
+            ],
+            "coauthor_circle_core_slugs": [
+              "liu-melissa",
+              "zong-zhengyu"
+            ],
+            "coauthor_circle_core_names": [
+              "Chiu-Chu Melissa Liu",
+              "Zhengyu Zong"
+            ],
+            "coauthor_circle_extended_slugs": [
+              "ruan-yongbin"
+            ],
+            "coauthor_circle_extended_names": [
+              "Yongbin Ruan"
+            ],
+            "research_keywords": [
+              "conjecture",
+              "gromov",
+              "homological",
+              "mirror",
+              "symmetry",
+              "witten"
+            ],
+            "known_arxiv_ids": [
+              "2504.15696",
+              "2501.14222",
+              "2309.02154",
+              "2204.12483",
+              "2211.09203",
+              "2010.15403",
+              "1903.05300",
+              "1902.03697",
+              "1805.04894",
+              "1611.05153",
+              "1607.06935",
+              "1607.01208",
+              "1604.07123",
+              "1411.3557",
+              "1310.4818",
+              "1310.4812",
+              "1212.6073",
+              "1103.0693",
+              "1009.3506",
+              "1007.0053",
+              "0911.4711",
+              "0901.4276",
+              "0811.1228",
+              "0804.0646"
+            ]
+          },
+          "after": {
+            "openalex_id": "A5102018397",
+            "mathgenealogy_id": "150849",
+            "affiliations": [
+              {
+                "institution": "pku",
+                "period": "2001-2005",
+                "role": "本科"
+              },
+              {
+                "institution": "northwestern",
+                "period": "[?]-2010",
+                "role": "PhD"
+              },
+              {
+                "institution": "columbia",
+                "period": "2010-2014",
+                "role": "Ritt 助理教授"
+              },
+              {
+                "institution": "pku-bicmr",
+                "period": "2014-2020",
+                "role": "助理教授"
+              },
+              {
+                "institution": "ias",
+                "period": "2017 春",
+                "role": "访问成员（Member）"
+              },
+              {
+                "institution": "pku-bicmr",
+                "period": "2020-2023",
+                "role": "副教授"
+              },
+              {
+                "institution": "pku-bicmr",
+                "period": "2023-present",
+                "role": "教授"
+              }
+            ],
+            "email_domains": [
+              "bicmr.pku.edu.cn",
+              "columbia.edu",
+              "northwestern.edu",
+              "pku.edu.cn"
+            ],
+            "coauthor_circle_core_slugs": [
+              "liu-melissa",
+              "zong-zhengyu"
+            ],
+            "coauthor_circle_core_names": [
+              "Chiu-Chu Melissa Liu",
+              "Zhengyu Zong"
+            ],
+            "coauthor_circle_extended_slugs": [
+              "ruan-yongbin"
+            ],
+            "coauthor_circle_extended_names": [
+              "Yongbin Ruan"
+            ],
+            "research_keywords": [
+              "conjecture",
+              "gromov",
+              "homological",
+              "mirror",
+              "symmetry",
+              "witten"
+            ],
+            "known_arxiv_ids": [
+              "2609.12955",
+              "2504.15696",
+              "2501.14222",
+              "2309.02154",
+              "2204.12483",
+              "2211.09203",
+              "2010.15403",
+              "1903.05300",
+              "1902.03697",
+              "1805.04894",
+              "1611.05153",
+              "1607.06935",
+              "1607.01208",
+              "1604.07123",
+              "1411.3557",
+              "1310.4818",
+              "1310.4812",
+              "1212.6073",
+              "1103.0693",
+              "1009.3506",
+              "1007.0053",
+              "0911.4711",
+              "0901.4276",
+              "0811.1228",
+              "0804.0646"
+            ]
+          }
+        },
+        "activity": {
+          "before": {
+            "total_papers": 24,
+            "published_count": 19,
+            "preprint_only_count": 5,
+            "active_period": "2010-present",
+            "confidence": "has-7-review-pending"
+          },
+          "after": {
+            "total_papers": 24,
+            "published_count": 18,
+            "preprint_only_count": 6,
+            "active_period": "2010-present",
+            "confidence": "has-7-review-pending"
+          }
+        },
+        "key_collaborators": {
+          "before": [
+            {
+              "person": "liu-melissa",
+              "since": 2008,
+              "topic": "Remodeling conjecture, open GW invariants, toric CY",
+              "papers_count": 15
+            },
+            {
+              "person": "zong-zhengyu",
+              "since": 2014,
+              "topic": "Remodeling conjecture, toric CY, Gamma conjecture",
+              "papers_count": 11
+            }
+          ],
+          "after": [
+            {
+              "person": "liu-melissa",
+              "since": 2008,
+              "topic": "Remodeling conjecture, open GW invariants, toric CY",
+              "papers_count": 14
+            },
+            {
+              "person": "zong-zhengyu",
+              "since": 2014,
+              "topic": "Remodeling conjecture, toric CY, Gamma conjecture",
+              "papers_count": 10
+            }
+          ]
+        },
+        "publications": {
+          "action": "add",
+          "rows": [
+            {
+              "id": "2609.12955",
+              "title": "All-Genus Open Mirror Symmetry for Toric Calabi-Yau 3-Orbifolds with Multiple Branes",
+              "year": 2026,
+              "coauthors": [
+                "liu-melissa",
+                "Song Yu",
+                "zong-zhengyu"
+              ],
+              "primary_category": "math.AG",
+              "sources": [
+                "arxiv",
+                "manual"
+              ]
+            }
+          ],
+          "all_previous_rows_unchanged": true
+        },
+        "career_timeline": {
+          "before": [
+            {
+              "period": "2001-2005",
+              "type": "education",
+              "institution": "pku",
+              "role": "本科",
+              "notes": "北京大学数学系学士"
+            },
+            {
+              "period": "2005-2010",
+              "type": "education",
+              "institution": "northwestern",
+              "role": "PhD",
+              "advisor": "zaslow-eric",
+              "notes": "Northwestern University, 导师 Eric Zaslow。博士论文 \"Mirror Symmetry, Constructible Sheaves And Toric Varieties\""
+            },
+            {
+              "period": "~2010-2014",
+              "type": "position",
+              "institution": "columbia",
+              "role": "博士后",
+              "notes": "Columbia University, Department of Mathematics"
+            },
+            {
+              "period": "~2015-present",
+              "type": "position",
+              "institution": "pku-bicmr",
+              "role": "助理教授 → 长聘副教授 → 教授",
+              "notes": "北京大学 BICMR。2015 年青年千人计划入选"
+            },
+            {
+              "period": "[待验证]",
+              "type": "award",
+              "title": "国家杰出青年科学基金"
+            },
+            {
+              "period": "2022",
+              "type": "award",
+              "title": "第十七届中国青年科技奖"
+            },
+            {
+              "period": "2015",
+              "type": "award",
+              "title": "中组部青年千人计划"
+            }
+          ],
+          "after": [
+            {
+              "period": "2001-2005",
+              "type": "education",
+              "institution": "pku",
+              "role": "本科",
+              "notes": "北京大学数学系学士"
+            },
+            {
+              "period": "[?]-2010",
+              "type": "education",
+              "institution": "northwestern",
+              "role": "PhD",
+              "advisor": "zaslow-eric",
+              "notes": "Northwestern University，2010 年获博士学位，导师 Eric Zaslow。博士论文 Mirror symmetry, constructible sheaves and toric varieties；入学年份待核实。"
+            },
+            {
+              "period": "2010-2014",
+              "type": "position",
+              "institution": "columbia",
+              "role": "Ritt 助理教授",
+              "notes": "Columbia University, Department of Mathematics"
+            },
+            {
+              "period": "2014-2020",
+              "type": "position",
+              "institution": "pku-bicmr",
+              "role": "助理教授"
+            },
+            {
+              "period": "2017 春",
+              "type": "visit",
+              "institution": "ias",
+              "role": "访问成员（Member）"
+            },
+            {
+              "period": "2020-2023",
+              "type": "position",
+              "institution": "pku-bicmr",
+              "role": "副教授"
+            },
+            {
+              "period": "2023-present",
+              "type": "position",
+              "institution": "pku-bicmr",
+              "role": "教授"
+            },
+            {
+              "period": "2021",
+              "type": "award",
+              "title": "国家杰出青年科学基金",
+              "notes": "获资助年度为 2021；本人 CV 所列项目 12125101 执行期为 2022—2026。"
+            },
+            {
+              "period": "2022",
+              "type": "award",
+              "title": "第十七届中国青年科技奖"
+            },
+            {
+              "period": "2015（待验证）",
+              "type": "award",
+              "title": "中组部青年千人计划（入选情况及年份待核实）"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "path": "data/people/liu-melissa.yaml",
+      "before_sha256": "6c25414006257307835ebee5ab1fc018942264fb0e00afbc768aaa88d4b539ad",
+      "after_sha256": "4f5c6660c69e71887f35a295a07b189f9587996fc12d279bb7ad7bf2d54458a9",
+      "fields": {
+        "sources": {
+          "before": [
+            {
+              "label": "Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Chiu-Chu_Melissa_Liu"
+            },
+            {
+              "label": "Columbia homepage",
+              "url": "https://www.math.columbia.edu/~ccliu/"
+            },
+            {
+              "label": "Math Genealogy (id=69488)",
+              "url": "https://www.mathgenealogy.org/id.php?id=69488"
+            },
+            {
+              "label": "[Codex] 2026-10-08：Remodeling 原始题名与署名",
+              "url": "https://arxiv.org/abs/1604.07123",
+              "last_verified": "2026-10-08",
+              "notes": "编号对应 Remodeling；射影直线论文是独立的1411.3557，保留。"
+            },
+            {
+              "label": "[Codex] 2026-10-08：Remodeling 出版社 DOI 登记",
+              "url": "https://api.crossref.org/works/10.1090/jams/934",
+              "last_verified": "2026-10-08",
+              "notes": "JAMS 33(1), 135–222；在线2019-11-01，卷期2020，预印本2016。"
+            },
+            {
+              "label": "[Codex] 2026-10-08：Liu 本人2026年9月论文清单",
+              "url": "https://www.math.columbia.edu/~ccliu/Liu_Publications_2609.pdf",
+              "last_verified": "2026-10-08",
+              "notes": "第37和45项分别为射影直线与 Remodeling；仅核这两篇作者及书目。"
+            }
+          ],
+          "after": [
+            {
+              "label": "Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Chiu-Chu_Melissa_Liu"
+            },
+            {
+              "label": "Columbia homepage",
+              "url": "https://www.math.columbia.edu/~ccliu/"
+            },
+            {
+              "label": "Math Genealogy (id=69488)",
+              "url": "https://www.mathgenealogy.org/id.php?id=69488"
+            },
+            {
+              "label": "[Codex] 2026-10-08：Remodeling 原始题名与署名",
+              "url": "https://arxiv.org/abs/1604.07123",
+              "last_verified": "2026-10-08",
+              "notes": "编号对应 Remodeling；射影直线论文是独立的1411.3557，保留。"
+            },
+            {
+              "label": "[Codex] 2026-10-08：Remodeling 出版社 DOI 登记",
+              "url": "https://api.crossref.org/works/10.1090/jams/934",
+              "last_verified": "2026-10-08",
+              "notes": "JAMS 33(1), 135–222；在线2019-11-01，卷期2020，预印本2016。"
+            },
+            {
+              "label": "[Codex] 2026-10-08：Liu 本人2026年9月论文清单",
+              "url": "https://www.math.columbia.edu/~ccliu/Liu_Publications_2609.pdf",
+              "last_verified": "2026-10-08",
+              "notes": "第37、45项对应射影直线与 Remodeling；第61、62项交叉确认2026年两篇新作的作者、题名及编号。"
+            },
+            {
+              "label": "[Codex] 2026-10-08：新收录论文：Multiple Branes 的署名与单位",
+              "url": "https://arxiv.org/html/2609.12955v1",
+              "last_verified": "2026-10-08",
+              "notes": "方博汉：北大 BICMR；Liu：Columbia；宗正宇：清华；另一位作者为 Song Yu（Caltech），保留原始姓名，不猜建档。"
+            },
+            {
+              "label": "[Codex] 2026-10-08：新收录论文：Hodge numbers 的署名与单位",
+              "url": "https://arxiv.org/html/2605.30223v1",
+              "last_verified": "2026-10-08",
+              "notes": "Chiu-Chu Melissa Liu（Columbia）与 Florent Schaffhauser（Heidelberg），邮箱与本人主页一致。"
+            }
+          ]
+        },
+        "personal_notes": {
+          "before": "与方博汉 (11 篇)、宗正宇 (6 篇) 形成 toric CY / remodeling conjecture 核心团队。\nRemodeling Conjecture (BKMP) 的主要推动者之一。\n与 Jun Li、Kefeng Liu、Jian Zhou 合作的 topological vertex 数学化论文是开放 GW 理论的奠基性工作之一。\nColumbia 主页还显示她长期组织 Gromov-Witten theory、enumerative geometry 和 symplectic/gauge theory 相关 seminar。\n",
+          "after": "与方博汉、宗正宇长期合作，研究 toric Calabi-Yau 空间的镜像对称与 Remodeling Conjecture。\nRemodeling Conjecture (BKMP) 的主要推动者之一。\n与 Jun Li、Kefeng Liu、Jian Zhou 合作的 topological vertex 数学化论文是开放 GW 理论的奠基性工作之一。\nColumbia 主页还显示她长期组织 Gromov-Witten theory、enumerative geometry 和 symplectic/gauge theory 相关 seminar。\n"
+        },
+        "identity_profile": {
+          "before": {
+            "openalex_id": "A5050554374",
+            "mathgenealogy_id": "69488",
+            "affiliations": [
+              {
+                "institution": "ntu",
+                "period": "[?]-1996",
+                "role": "本科, 台湾大学"
+              },
+              {
+                "institution": "harvard",
+                "period": "1996-2002",
+                "role": "PhD"
+              },
+              {
+                "institution": "harvard",
+                "period": "2002-2005",
+                "role": "Junior Fellow, Society of Fellows"
+              },
+              {
+                "institution": "northwestern",
+                "period": "2005-2008",
+                "role": "助理→副教授 (tenured)"
+              },
+              {
+                "institution": "columbia",
+                "period": "2008-2012",
+                "role": "副教授 (tenured)"
+              },
+              {
+                "institution": "columbia",
+                "period": "2012-present",
+                "role": "正教授"
+              }
+            ],
+            "email_domains": [
+              "columbia.edu",
+              "harvard.edu",
+              "northwestern.edu"
+            ],
+            "coauthor_circle_core_slugs": [
+              "fang-bohan",
+              "yau-shingtung",
+              "zong-zhengyu"
+            ],
+            "coauthor_circle_core_names": [
+              "Bohan Fang",
+              "Shing-Tung Yau",
+              "Zhengyu Zong"
+            ],
+            "coauthor_circle_extended_slugs": [
+              "zhang-huailiang",
+              "zhou-jian"
+            ],
+            "coauthor_circle_extended_names": [
+              "Huai-Liang Chang",
+              "Jian Zhou"
+            ],
+            "research_keywords": [
+              "gromov",
+              "mirror",
+              "moduli",
+              "recursion",
+              "symmetry",
+              "topological",
+              "witten"
+            ],
+            "known_arxiv_ids": [
+              "2504.15696",
+              "2503.20948",
+              "2312.00973",
+              "2311.04143",
+              "2309.14628",
+              "2301.01266",
+              "2210.11721",
+              "2210.10315",
+              "2112.04418",
+              "2111.01068",
+              "1907.07705",
+              "1907.06152",
+              "1807.05697",
+              "1609.04363",
+              "1607.06935",
+              "1604.07123",
+              "1603.06184",
+              "1603.02092",
+              "1505.07532",
+              "1411.3557",
+              "1407.1370",
+              "1310.4818",
+              "1310.4812",
+              "1212.6073",
+              "1109.5164",
+              "1107.4712",
+              "1103.0693",
+              "1009.3506",
+              "1007.0053",
+              "1004.0853",
+              "0911.4711",
+              "0901.4276",
+              "0811.4703",
+              "0811.1228",
+              "0810.4882",
+              "0808.3974",
+              "0808.0884",
+              "0707.0258",
+              "0605587",
+              "0506488",
+              "0502430",
+              "0412292",
+              "0408426",
+              "0406069",
+              "0310272",
+              "0308015",
+              "0306434",
+              "0306257",
+              "0303255",
+              "0303019",
+              "0211388",
+              "0210257",
+              "0103074"
+            ]
+          },
+          "after": {
+            "openalex_id": "A5050554374",
+            "mathgenealogy_id": "69488",
+            "affiliations": [
+              {
+                "institution": "ntu",
+                "period": "[?]-1996",
+                "role": "本科, 台湾大学"
+              },
+              {
+                "institution": "harvard",
+                "period": "1996-2002",
+                "role": "PhD"
+              },
+              {
+                "institution": "harvard",
+                "period": "2002-2005",
+                "role": "Junior Fellow, Society of Fellows"
+              },
+              {
+                "institution": "northwestern",
+                "period": "2005-2008",
+                "role": "助理→副教授 (tenured)"
+              },
+              {
+                "institution": "columbia",
+                "period": "2008-2012",
+                "role": "副教授 (tenured)"
+              },
+              {
+                "institution": "columbia",
+                "period": "2012-present",
+                "role": "正教授"
+              }
+            ],
+            "email_domains": [
+              "columbia.edu",
+              "harvard.edu",
+              "northwestern.edu"
+            ],
+            "coauthor_circle_core_slugs": [
+              "fang-bohan",
+              "yau-shingtung",
+              "zong-zhengyu"
+            ],
+            "coauthor_circle_core_names": [
+              "Bohan Fang",
+              "Shing-Tung Yau",
+              "Zhengyu Zong"
+            ],
+            "coauthor_circle_extended_slugs": [
+              "zhang-huailiang",
+              "zhou-jian"
+            ],
+            "coauthor_circle_extended_names": [
+              "Huai-Liang Chang",
+              "Jian Zhou"
+            ],
+            "research_keywords": [
+              "gromov",
+              "mirror",
+              "moduli",
+              "recursion",
+              "symmetry",
+              "topological",
+              "witten"
+            ],
+            "known_arxiv_ids": [
+              "2609.12955",
+              "2605.30223",
+              "2504.15696",
+              "2503.20948",
+              "2312.00973",
+              "2311.04143",
+              "2309.14628",
+              "2301.01266",
+              "2210.11721",
+              "2210.10315",
+              "2112.04418",
+              "2111.01068",
+              "1907.07705",
+              "1907.06152",
+              "1807.05697",
+              "1609.04363",
+              "1607.06935",
+              "1604.07123",
+              "1603.06184",
+              "1603.02092",
+              "1505.07532",
+              "1411.3557",
+              "1407.1370",
+              "1310.4818",
+              "1310.4812",
+              "1212.6073",
+              "1109.5164",
+              "1107.4712",
+              "1103.0693",
+              "1009.3506",
+              "1007.0053",
+              "1004.0853",
+              "0911.4711",
+              "0901.4276",
+              "0811.4703",
+              "0811.1228",
+              "0810.4882",
+              "0808.3974",
+              "0808.0884",
+              "0707.0258",
+              "0605587",
+              "0506488",
+              "0502430",
+              "0412292",
+              "0408426",
+              "0406069",
+              "0310272",
+              "0308015",
+              "0306434",
+              "0306257",
+              "0303255",
+              "0303019",
+              "0211388",
+              "0210257",
+              "0103074"
+            ]
+          }
+        },
+        "activity": {
+          "before": {
+            "total_papers": 59,
+            "published_count": 48,
+            "preprint_only_count": 11,
+            "active_period": "2002-present",
+            "confidence": "has-9-review-pending"
+          },
+          "after": {
+            "total_papers": 61,
+            "published_count": 47,
+            "preprint_only_count": 14,
+            "active_period": "2002-present",
+            "confidence": "has-9-review-pending"
+          }
+        },
+        "key_collaborators": {
+          "before": [
+            {
+              "person": "fang-bohan",
+              "since": 2008,
+              "topic": "Remodeling conjecture, open GW invariants, toric CY",
+              "papers_count": 13
+            },
+            {
+              "person": "zong-zhengyu",
+              "since": 2014,
+              "topic": "Remodeling conjecture, toric CY 3-orbifolds",
+              "papers_count": 6
+            }
+          ],
+          "after": [
+            {
+              "person": "fang-bohan",
+              "since": 2008,
+              "topic": "Remodeling conjecture, open GW invariants, toric CY",
+              "papers_count": 14
+            },
+            {
+              "person": "zong-zhengyu",
+              "since": 2014,
+              "topic": "Remodeling conjecture, toric CY 3-orbifolds",
+              "papers_count": 7
+            }
+          ]
+        },
+        "publications": {
+          "action": "add",
+          "rows": [
+            {
+              "id": "2609.12955",
+              "title": "All-Genus Open Mirror Symmetry for Toric Calabi-Yau 3-Orbifolds with Multiple Branes",
+              "year": 2026,
+              "coauthors": [
+                "fang-bohan",
+                "Song Yu",
+                "zong-zhengyu"
+              ],
+              "primary_category": "math.AG",
+              "sources": [
+                "arxiv",
+                "manual"
+              ]
+            },
+            {
+              "id": "2605.30223",
+              "title": "Hodge numbers of moduli of principal bundles on a curve",
+              "year": 2026,
+              "coauthors": [
+                "Florent Schaffhauser"
+              ],
+              "primary_category": "math.AG",
+              "sources": [
+                "arxiv",
+                "manual"
+              ]
+            }
+          ],
+          "all_previous_rows_unchanged": true
+        }
+      }
+    },
+    {
+      "path": "data/people/zong-zhengyu.yaml",
+      "before_sha256": "266a37dd8d521de496b58890568f6b5cc18d88e55fee3699d570fae954f69928",
+      "after_sha256": "bf44a782ecb769a1fc6bc6adf17d51c8950868e2c22f89adac453edbe6b55207",
+      "fields": {
+        "sources": {
+          "before": [
+            {
+              "label": "清华大学数学科学系",
+              "url": "https://www.math.tsinghua.edu.cn/info/1298/2682.htm"
+            },
+            {
+              "label": "OpenAlex",
+              "url": "https://openalex.org/authors/A5048952159"
+            },
+            {
+              "label": "[Codex] 2026-10-08：Remodeling 原始题名与署名",
+              "url": "https://arxiv.org/abs/1604.07123",
+              "last_verified": "2026-10-08",
+              "notes": "编号对应 Remodeling；射影直线论文是独立的1411.3557，保留。"
+            },
+            {
+              "label": "[Codex] 2026-10-08：Remodeling 出版社 DOI 登记",
+              "url": "https://api.crossref.org/works/10.1090/jams/934",
+              "last_verified": "2026-10-08",
+              "notes": "JAMS 33(1), 135–222；在线2019-11-01，卷期2020，预印本2016。"
+            },
+            {
+              "label": "[Codex] 2026-10-08：Liu 本人2026年9月论文清单",
+              "url": "https://www.math.columbia.edu/~ccliu/Liu_Publications_2609.pdf",
+              "last_verified": "2026-10-08",
+              "notes": "第37和45项分别为射影直线与 Remodeling；仅核这两篇作者及书目。"
+            }
+          ],
+          "after": [
+            {
+              "label": "清华大学数学科学系",
+              "url": "https://www.math.tsinghua.edu.cn/info/1298/2682.htm"
+            },
+            {
+              "label": "OpenAlex",
+              "url": "https://openalex.org/authors/A5048952159"
+            },
+            {
+              "label": "[Codex] 2026-10-08：Remodeling 原始题名与署名",
+              "url": "https://arxiv.org/abs/1604.07123",
+              "last_verified": "2026-10-08",
+              "notes": "编号对应 Remodeling；射影直线论文是独立的1411.3557，保留。"
+            },
+            {
+              "label": "[Codex] 2026-10-08：Remodeling 出版社 DOI 登记",
+              "url": "https://api.crossref.org/works/10.1090/jams/934",
+              "last_verified": "2026-10-08",
+              "notes": "JAMS 33(1), 135–222；在线2019-11-01，卷期2020，预印本2016。"
+            },
+            {
+              "label": "[Codex] 2026-10-08：Liu 本人2026年9月论文清单",
+              "url": "https://www.math.columbia.edu/~ccliu/Liu_Publications_2609.pdf",
+              "last_verified": "2026-10-08",
+              "notes": "第37、45项对应射影直线与 Remodeling；第61、62项交叉确认2026年两篇新作的作者、题名及编号。"
+            },
+            {
+              "label": "[Codex] 2026-10-08：新收录论文：Multiple Branes 的署名与单位",
+              "url": "https://arxiv.org/html/2609.12955v1",
+              "last_verified": "2026-10-08",
+              "notes": "方博汉：北大 BICMR；Liu：Columbia；宗正宇：清华；另一位作者为 Song Yu（Caltech），保留原始姓名，不猜建档。"
+            }
+          ]
+        },
+        "personal_notes": {
+          "before": "与方博汉(7篇)密切合作，核心方向是 remodeling conjecture 和 toric CY 的 GW 理论。\n代表作：Open WDVV equations and Frobenius structures for toric CY 3-folds (2023)。\n2026 HUST 会议报告: All genus Crepant Transformation Conjecture for toric CY 3-orbifolds。\n与方博汉、Chiu-Chu Melissa Liu 合作完成 BKMP Remodeling Conjecture 的 toric CY3 orbifold 全亏格证明，是其身份和研究圈的重要锚点。\n",
+          "after": "与方博汉密切合作，核心方向是 Remodeling Conjecture 和 toric Calabi-Yau 空间的 Gromov-Witten 理论。\n代表作：Open WDVV equations and Frobenius structures for toric CY 3-folds (2023)。\n2026 HUST 会议报告: All genus Crepant Transformation Conjecture for toric CY 3-orbifolds。\n与方博汉、Chiu-Chu Melissa Liu 合作完成 BKMP Remodeling Conjecture 的 toric CY3 orbifold 全亏格证明，是其身份和研究圈的重要锚点。\n"
+        },
+        "known_emails": {
+          "before": [
+            "zyzong@tsinghua.edu.cn"
+          ],
+          "after": [
+            "zyzong@tsinghua.edu.cn",
+            "zyzong@mail.tsinghua.edu.cn"
+          ]
+        },
+        "identity_profile": {
+          "before": {
+            "openalex_id": "A5048952159",
+            "affiliations": [
+              {
+                "institution": "columbia",
+                "period": "[?]-2015",
+                "role": "博士"
+              },
+              {
+                "institution": "tsinghua-ymsc",
+                "period": "2015.7-2019.11",
+                "role": "Assistant Professor (tenure-track)"
+              },
+              {
+                "institution": "tsinghua",
+                "period": "2019.12-present",
+                "role": "副教授, 博导"
+              }
+            ],
+            "email_domains": [
+              "columbia.edu",
+              "tsinghua.edu.cn"
+            ],
+            "coauthor_circle_core_slugs": [
+              "fang-bohan",
+              "liu-melissa"
+            ],
+            "coauthor_circle_core_names": [
+              "Bohan Fang",
+              "Chiu-Chu Melissa Liu"
+            ],
+            "research_keywords": [
+              "frobenius",
+              "gromov",
+              "mirror",
+              "recursion",
+              "symmetry",
+              "topological",
+              "witten"
+            ],
+            "known_arxiv_ids": [
+              "2601.17321",
+              "2512.15074",
+              "2509.24727",
+              "2507.15187",
+              "2505.11222",
+              "2504.15696",
+              "2312.06160",
+              "2309.01473",
+              "2306.05326",
+              "2211.09203",
+              "2010.15403",
+              "1902.03697",
+              "1612.00652",
+              "1607.06935",
+              "1607.01208",
+              "1604.07270",
+              "1604.07123",
+              "1411.3557",
+              "1401.2217",
+              "1310.4818",
+              "1310.4812",
+              "1208.4342",
+              "1204.1753",
+              "1109.4992"
+            ]
+          },
+          "after": {
+            "openalex_id": "A5048952159",
+            "affiliations": [
+              {
+                "institution": "columbia",
+                "period": "[?]-2015",
+                "role": "博士"
+              },
+              {
+                "institution": "tsinghua-ymsc",
+                "period": "2015.7-2019.11",
+                "role": "Assistant Professor (tenure-track)"
+              },
+              {
+                "institution": "tsinghua",
+                "period": "2019.12-present",
+                "role": "副教授, 博导"
+              }
+            ],
+            "email_domains": [
+              "columbia.edu",
+              "tsinghua.edu.cn"
+            ],
+            "coauthor_circle_core_slugs": [
+              "fang-bohan",
+              "liu-melissa"
+            ],
+            "coauthor_circle_core_names": [
+              "Bohan Fang",
+              "Chiu-Chu Melissa Liu"
+            ],
+            "research_keywords": [
+              "frobenius",
+              "gromov",
+              "mirror",
+              "recursion",
+              "symmetry",
+              "topological",
+              "witten"
+            ],
+            "known_arxiv_ids": [
+              "2609.12955",
+              "2601.17321",
+              "2512.15074",
+              "2509.24727",
+              "2507.15187",
+              "2505.11222",
+              "2504.15696",
+              "2312.06160",
+              "2309.01473",
+              "2306.05326",
+              "2211.09203",
+              "2010.15403",
+              "1902.03697",
+              "1612.00652",
+              "1607.06935",
+              "1607.01208",
+              "1604.07270",
+              "1604.07123",
+              "1411.3557",
+              "1401.2217",
+              "1310.4818",
+              "1310.4812",
+              "1208.4342",
+              "1204.1753",
+              "1109.4992"
+            ]
+          }
+        },
+        "activity": {
+          "before": {
+            "total_papers": 24,
+            "published_count": 16,
+            "preprint_only_count": 8,
+            "active_period": "2014-present",
+            "confidence": "has-14-review-pending"
+          },
+          "after": {
+            "total_papers": 24,
+            "published_count": 15,
+            "preprint_only_count": 9,
+            "active_period": "2014-present",
+            "confidence": "has-14-review-pending"
+          }
+        },
+        "key_collaborators": {
+          "before": [
+            {
+              "person": "fang-bohan",
+              "since": 2014,
+              "topic": "Remodeling conjecture, toric CY, topological recursion",
+              "papers_count": 11
+            }
+          ],
+          "after": [
+            {
+              "person": "fang-bohan",
+              "since": 2014,
+              "topic": "Remodeling conjecture, toric CY, topological recursion",
+              "papers_count": 10
+            }
+          ]
+        },
+        "publications": {
+          "action": "add",
+          "rows": [
+            {
+              "id": "2609.12955",
+              "title": "All-Genus Open Mirror Symmetry for Toric Calabi-Yau 3-Orbifolds with Multiple Branes",
+              "year": 2026,
+              "coauthors": [
+                "fang-bohan",
+                "liu-melissa",
+                "Song Yu"
+              ],
+              "primary_category": "math.AG",
+              "sources": [
+                "arxiv",
+                "manual"
+              ]
+            }
+          ],
+          "all_previous_rows_unchanged": true
+        }
+      }
+    },
+    {
+      "path": "data/conferences/events-2026.yaml",
+      "before_sha256": "5ff1aee531ec1f6e40a989aa2b7ec22143cb36d7a62267836ac8bafd1f0b8698",
+      "after_sha256": "cadfbe77b1434af17f8f244428947714887b23c352e1e985f6050e9766fe428e",
+      "fields": {
+        "events": {
+          "before": [
+            {
+              "slug": "hust-mathphys-geometry-2026",
+              "series": null,
+              "name": {
+                "en": "Workshop on Mathematical Physics and Geometry",
+                "zh": "数学物理与几何研讨会"
+              },
+              "date_start": "2026-04-17",
+              "date_end": "2026-04-19",
+              "location": "武汉",
+              "institution": "hust",
+              "organizers": [],
+              "invited_speakers": [
+                "dai-bo",
+                "fang-bohan",
+                "guo-shuai",
+                "he-weiqiang",
+                "ke-huazhong",
+                "li-changzheng",
+                "li-qin",
+                "sun-shanzhong",
+                "tu-junwu",
+                "wang-luyao",
+                "wang-xin",
+                "wu-longting",
+                "wu-chaozhong",
+                "yang-di",
+                "zhou-chunhui",
+                "zhou-jian",
+                "zong-zhengyu"
+              ],
+              "attendees": [
+                "liu-xiaobo",
+                "fang-bohan",
+                "dai-bo",
+                "guo-shuai",
+                "you-lei",
+                "wang-chongyu",
+                "gui-tao",
+                "zhou-jian",
+                "zong-zhengyu",
+                "chen-zhuo",
+                "ji-ce",
+                "tang-qian",
+                "hu-jianxun",
+                "li-changzheng",
+                "wu-chaozhong",
+                "he-weiqiang",
+                "ke-huazhong",
+                "hu-chuangqiang",
+                "qu-haonan",
+                "zhang-xuhui",
+                "song-jiayu",
+                "yang-yi",
+                "li-qin",
+                "wu-longting",
+                "yang-di",
+                "zhou-chunhui",
+                "zhao-jiayi",
+                "zhang-bin",
+                "tu-junwu",
+                "sun-shanzhong",
+                "wang-xin",
+                "wen-hao",
+                "hu-xiaowen",
+                "ding-yanqiao",
+                "liu-fangjun",
+                "ryszard-nest",
+                "tang-xinxing",
+                "wang-luyao",
+                "lang-honglei",
+                "qiao-yu",
+                "bi-yanhui",
+                "cheng-jiahao",
+                "ni-dadi",
+                "li-xiaobin",
+                "du-chengyong",
+                "fan-huijun",
+                "zhang-huailiang",
+                "rao-sheng",
+                "xu-xu",
+                "hong-wei",
+                "cheng-zhechi",
+                "yang-chenglang",
+                "wang-zhiyong",
+                "chao-qian",
+                "xiang-maosong",
+                "lu-wen",
+                "huan-zhen",
+                "zhang-ning",
+                "jin-xiaoshang",
+                "zeng-haozhi",
+                "zhang-qing",
+                "wang-zhiyuan",
+                "li-ao",
+                "tan-timing",
+                "zhang-wei"
+              ],
+              "topics": [
+                "mirror-symmetry",
+                "gromov-witten-theory",
+                "integrable-systems",
+                "quantum-cohomology",
+                "moduli-spaces",
+                "gamma-conjecture"
+              ],
+              "url": "https://maths.hust.edu.cn/info/1293/12288.htm",
+              "source": "会议手册 PDF (data/conferences/2026-hust-mathphys-geometry.pdf) + 签到表 (2026-04-17)",
+              "notes": "主办：华中科技大学数学与统计学院 + 数学中心\n会场：逸夫科技楼南楼702\n住宿：国际学术交流服务中心8号楼\n联系人：王知远, 向茂松\n4/16 下午报到，4/18 晚宴在湖锦酒楼光谷店\n\n与本项目高度相关的报告：\n- 柯华忠: Gamma conjecture II via Gamma-I (Dubrovin connection 的渐近行为)\n- 郭帅: higher-genus GW theory, joint with 张庆生\n- 方博汉: HMS for toric CY, Gamma classes\n- 何伟强: LG mirror symmetry\n- 周春辉: Burgers-KdV, 明确使用 Dubrovin-Zhang theory\n- 宗正宇: Crepant Transformation Conjecture for toric CY 3-orbifolds\n- 涂君武: B-model categorical enumerative invariants, BCOV HAE\n- 邬龙挺: joint with 郭帅\n\n签到表记录了全体参会人员（4 页手写签到），见 attendees 字段。\n"
+            }
+          ],
+          "after": [
+            {
+              "slug": "hust-mathphys-geometry-2026",
+              "series": null,
+              "name": {
+                "en": "Workshop on Mathematical Physics and Geometry",
+                "zh": "数学物理与几何研讨会"
+              },
+              "date_start": "2026-04-17",
+              "date_end": "2026-04-19",
+              "location": "武汉",
+              "institution": "hust",
+              "organizers": [],
+              "invited_speakers": [
+                "dai-bo",
+                "fang-bohan",
+                "guo-shuai",
+                "he-weiqiang",
+                "ke-huazhong",
+                "li-changzheng",
+                "li-qin",
+                "ryszard-nest",
+                "sun-shanzhong",
+                "tu-junwu",
+                "wang-luyao",
+                "wang-xin",
+                "wu-longting",
+                "wu-chaozhong",
+                "yang-di",
+                "zhou-chunhui",
+                "zhou-jian",
+                "zong-zhengyu"
+              ],
+              "attendees": [
+                "liu-xiaobo",
+                "fang-bohan",
+                "dai-bo",
+                "guo-shuai",
+                "you-lei",
+                "wang-chongyu",
+                "gui-tao",
+                "zhou-jian",
+                "zong-zhengyu",
+                "chen-zhuo",
+                "ji-ce",
+                "tang-qian",
+                "hu-jianxun",
+                "li-changzheng",
+                "wu-chaozhong",
+                "he-weiqiang",
+                "ke-huazhong",
+                "hu-chuangqiang",
+                "qu-haonan",
+                "zhang-xuhui",
+                "song-jiayu",
+                "yang-yi",
+                "li-qin",
+                "wu-longting",
+                "yang-di",
+                "zhou-chunhui",
+                "zhao-jiayi",
+                "zhang-bin",
+                "tu-junwu",
+                "sun-shanzhong",
+                "wang-xin",
+                "wen-hao",
+                "hu-xiaowen",
+                "ding-yanqiao",
+                "liu-fangjun",
+                "ryszard-nest",
+                "tang-xinxing",
+                "wang-luyao",
+                "lang-honglei",
+                "qiao-yu",
+                "bi-yanhui",
+                "cheng-jiahao",
+                "ni-dadi",
+                "li-xiaobin",
+                "du-chengyong",
+                "fan-huijun",
+                "zhang-huailiang",
+                "rao-sheng",
+                "xu-xu",
+                "hong-wei",
+                "cheng-zhechi",
+                "yang-chenglang",
+                "wang-zhiyong",
+                "chao-qian",
+                "xiang-maosong",
+                "lu-wen",
+                "huan-zhen",
+                "zhang-ning",
+                "jin-xiaoshang",
+                "zeng-haozhi",
+                "zhang-qing",
+                "wang-zhiyuan",
+                "li-ao",
+                "tan-timing",
+                "zhang-wei"
+              ],
+              "topics": [
+                "mirror-symmetry",
+                "gromov-witten-theory",
+                "integrable-systems",
+                "quantum-cohomology",
+                "moduli-spaces",
+                "gamma-conjecture"
+              ],
+              "url": "https://maths.hust.edu.cn/info/1293/12288.htm",
+              "source": "华中科技大学官方通知及会议手册；参会记录来自原录入的 2026-04-17 签到表，尚待逐项核对。",
+              "notes": "主办：华中科技大学数学与统计学院 + 数学中心\n会场：逸夫科技楼南楼702\n住宿：国际学术交流服务中心8号楼\n联系人：王知远, 向茂松\n4/16 下午报到，4/18 晚宴在湖锦酒楼光谷店\n\n与本项目高度相关的报告：\n- 柯华忠: Gamma conjecture II via Gamma-I (Dubrovin connection 的渐近行为)\n- 郭帅: higher-genus GW theory, joint with 张庆生\n- 方博汉: HMS for toric CY, Gamma classes\n- 何伟强: LG mirror symmetry\n- 周春辉: Burgers-KdV, 明确使用 Dubrovin-Zhang theory\n- 宗正宇: Crepant Transformation Conjecture for toric CY 3-orbifolds\n- 涂君武: B-model categorical enumerative invariants, BCOV HAE\n- 邬龙挺: joint with 郭帅\n\n[Codex] 2026-10-08：会议手册列出 18 位邀请报告人，含 Ryszard Nest，日程为 4 月 19 日 10:40—11:20。\n邀请名单和报告日程已与手册核对；不据此推断每位受邀者实际出席。\n参会记录沿用原录入的四页手写签到表，尚未逐项复核姓名、单位及名单完整性。\n"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "sources": [
+    {
+      "label": "[Codex] 2026-10-08：Liu 本人2026年9月论文清单",
+      "url": "https://www.math.columbia.edu/~ccliu/Liu_Publications_2609.pdf",
+      "last_verified": "2026-10-08",
+      "notes": "第37、45项对应射影直线与 Remodeling；第61、62项交叉确认2026年两篇新作的作者、题名及编号。"
+    },
+    {
+      "label": "[Codex] 2026-10-08：新收录论文：Multiple Branes 的署名与单位",
+      "url": "https://arxiv.org/html/2609.12955v1",
+      "last_verified": "2026-10-08",
+      "notes": "方博汉：北大 BICMR；Liu：Columbia；宗正宇：清华；另一位作者为 Song Yu（Caltech），保留原始姓名，不猜建档。"
+    },
+    {
+      "label": "[Codex] 2026-10-08：本人 CV：学历、任职、项目执行期",
+      "url": "https://bohanfang.github.io/cv.pdf",
+      "last_verified": "2026-10-08",
+      "notes": "第1页核对2010年博士、Eric Zaslow、各段职位、2017春IAS及项目12125101的2022—2026执行期；第3页课程。未载博士入学年份。"
+    },
+    {
+      "label": "[Codex] 2026-10-08：北大数学学院：杰青获资助年度",
+      "url": "https://math.pku.edu.cn/jsdw/rcjh/index.htm",
+      "last_verified": "2026-10-08",
+      "notes": "杰出青年基金获得者名单列方博汉（2021）。"
+    },
+    {
+      "label": "[Codex] 2026-10-08：北大数学学院：2001级本科校友",
+      "url": "https://math.pku.edu.cn/mathalumni/yymd/yyw_bks/29148.htm",
+      "last_verified": "2026-10-08",
+      "notes": "方博汉列于2001级；与本人CV的2005学士学位交叉核对。"
+    },
+    {
+      "label": "[Codex] 2026-10-08：Remodeling with Descendants：作者摘要与适用范围",
+      "url": "https://arxiv.org/html/2504.15696v2",
+      "last_verified": "2026-10-08",
+      "notes": "仅核摘要转述范围：半射影toric CY三维轨形、整结构及支集条件；不构成本站对证明的独立审查。"
+    },
+    {
+      "label": "[Codex] 2026-10-08：华中科技大学：2026会议官方通知",
+      "url": "https://maths.hust.edu.cn/info/1293/12288.htm",
+      "last_verified": "2026-10-08",
+      "notes": "通知确认日期和会场；报告题名及合作署名取仓库已有会议手册第3页。"
+    },
+    {
+      "label": "[Codex] 2026-10-08：北大 BICMR 当前教师名单",
+      "url": "https://bicmr.pku.edu.cn/content/lists/11.html",
+      "last_verified": "2026-10-08",
+      "notes": "当前教授及办公室78407；办公室完整地址另据本人主页。"
+    },
+    {
+      "label": "[Codex] 2026-10-08：Liu 本人2026年9月论文清单",
+      "url": "https://www.math.columbia.edu/~ccliu/Liu_Publications_2609.pdf",
+      "last_verified": "2026-10-08",
+      "notes": "第37、45项对应射影直线与 Remodeling；第61、62项交叉确认2026年两篇新作的作者、题名及编号。"
+    },
+    {
+      "label": "[Codex] 2026-10-08：新收录论文：Multiple Branes 的署名与单位",
+      "url": "https://arxiv.org/html/2609.12955v1",
+      "last_verified": "2026-10-08",
+      "notes": "方博汉：北大 BICMR；Liu：Columbia；宗正宇：清华；另一位作者为 Song Yu（Caltech），保留原始姓名，不猜建档。"
+    },
+    {
+      "label": "[Codex] 2026-10-08：新收录论文：Hodge numbers 的署名与单位",
+      "url": "https://arxiv.org/html/2605.30223v1",
+      "last_verified": "2026-10-08",
+      "notes": "Chiu-Chu Melissa Liu（Columbia）与 Florent Schaffhauser（Heidelberg），邮箱与本人主页一致。"
+    },
+    {
+      "label": "[Codex] 2026-10-08：Liu 本人2026年9月论文清单",
+      "url": "https://www.math.columbia.edu/~ccliu/Liu_Publications_2609.pdf",
+      "last_verified": "2026-10-08",
+      "notes": "第37、45项对应射影直线与 Remodeling；第61、62项交叉确认2026年两篇新作的作者、题名及编号。"
+    },
+    {
+      "label": "[Codex] 2026-10-08：新收录论文：Multiple Branes 的署名与单位",
+      "url": "https://arxiv.org/html/2609.12955v1",
+      "last_verified": "2026-10-08",
+      "notes": "方博汉：北大 BICMR；Liu：Columbia；宗正宇：清华；另一位作者为 Song Yu（Caltech），保留原始姓名，不猜建档。"
+    }
+  ],
+  "limitations": [
+    "Fang PhD start year and claimed 2015 youth talent-program entry remain unverified and explicitly marked.",
+    "Gamma statement is attributed to 2504.15696v2 with restricted geometric/support setting; no independent proof review.",
+    "Conference official page has a booklet attachment, but the live download requires a CAPTCHA; roster checked against existing repository PDF, not claimed as a new official download.",
+    "Handwritten attendance sheets have not been individually rechecked; no institution-at-event inference remains on conference page.",
+    "Song Yu and Florent Schaffhauser remain literal author names, without guessed profile binding.",
+    "Other existing publication rows, biography statements and legacy confidence/metrics fields were not all checked."
+  ],
+  "pending_related_bug": {
+    "file": "src/app/institutions/page.tsx",
+    "issue": "Current membership counts still inferred from reversed career array; same failure mechanism, to address with institution data audit."
+  },
+  "cached_primary_documents": [
+    {
+      "path": ".cache/msa/site-recovery/fang-cv-2026-10-08.pdf",
+      "origin": "https://bohanfang.github.io/cv.pdf",
+      "sha256": "4959e9e180694c359b66d0ef8a95c2abfc06c76cfc930914410a083f5a1b5fd3"
+    },
+    {
+      "path": ".cache/msa/site-recovery/liu-publications-2609.pdf",
+      "origin": "https://www.math.columbia.edu/~ccliu/Liu_Publications_2609.pdf",
+      "sha256": "8127818ffefc0e9ed9487721079c91a1afe7092ab6a7d89511c87b5253c4421e"
+    },
+    {
+      "path": "data/conferences/2026-hust-mathphys-geometry.pdf",
+      "origin": "Existing repository booklet, official notice links a download requiring CAPTCHA",
+      "sha256": "a257b7da68cdc5c50d4ecd0e565f7b06c4a624e80cd9cb791993d69c60c912a0"
+    }
+  ],
+  "new_paper_identity": [
+    {
+      "arxiv": "2609.12955",
+      "owners": [
+        "fang-bohan",
+        "liu-melissa",
+        "zong-zhengyu"
+      ],
+      "independent_evidence": "Liu September2026 bibliography #62; full paper author names, BICMR/Columbia/Tsinghua affiliations and public emails agree with their profiles/homepages.",
+      "other_author": "Song Yu, Caltech"
+    },
+    {
+      "arxiv": "2605.30223",
+      "owners": [
+        "liu-melissa"
+      ],
+      "independent_evidence": "Liu September2026 bibliography #61; full paper identifies Columbia and ccliu@math.columbia.edu.",
+      "other_author": "Florent Schaffhauser, Heidelberg"
+    }
+  ]
+}
