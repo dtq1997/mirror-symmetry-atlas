@@ -97,6 +97,7 @@ identity_profile:
     - 'varieties'
     - 'witten'
   known_arxiv_ids:
+    - '2606.07418'
     - '2509.17857'
     - '2509.01101'
     - '2507.12351'
@@ -139,7 +140,7 @@ key_collaborators:
 - person: leung-naichung
   since: 2008
   topic: Quantum cohomology of flag varieties, Pieri rules, GW invariants
-  papers_count: 8
+  papers_count: 9
 - person: Leonardo C. Mihalcea
   since: 2012
   topic: K-theoretic GW invariants, Conjecture O, quantum K-theory
@@ -147,11 +148,11 @@ key_collaborators:
 - person: ke-huazhong
   since: 2019
   topic: Gamma conjecture, quantum cohomology, mirror symmetry for blowups
-  papers_count: 5
+  papers_count: 7
 - person: hu-jianxun
   since: 2019
   topic: Gamma conjecture, Galkin's conjecture, quantum cohomology of blowups
-  papers_count: 5
+  papers_count: 6
 - person: Mingzhi Yang
   since: 2019
   topic: Frobenius-Perron dimension, Seidel representation, quantum Schubert calculus
@@ -185,6 +186,12 @@ key_collaborators:
   topic: Equivariant Pieri rules, open Richardson varieties
   papers_count: 2
 publications:
+  - id: '2606.07418'
+    title: 'Gamma conjecture II via global Gamma-I'
+    year: 2026
+    coauthors: ['hu-jianxun', 'ke-huazhong', 'Zhitong Su']
+    primary_category: math.AG
+    sources: [arxiv, manual]
   - id: '2502.13558'
     title: 'On the quantum cohomology of blow-ups of four-dimensional quadrics'
     year: 2025
@@ -440,9 +447,9 @@ publications:
     openalex_id: W2072288325
     sources: [arxiv, openalex]
 activity:
-  total_papers: 38
+  total_papers: 39
   published_count: 25
-  preprint_only_count: 13
+  preprint_only_count: 14
   active_period: '2008-present'
 external_ids:
   mathgenealogy: "155889"
@@ -488,6 +495,10 @@ personal_notes: |
   2026 HUST 会议报告: Quantum Schubert calculus for smooth Schubert divisors in $Fl_n$。
   与 Leung 合作的 *Functorial relationships QH(G/B) ↔ QH(G/P)* (JDG 2010) 是 Peterson 同构方向的代表作。
 sources:
+  - label: "[Codex] 2026-10-08：新论文作者、署名单位与邮箱核对"
+    url: "https://arxiv.org/abs/2606.07418v1"
+    last_verified: "2026-10-08"
+    notes: "仅核对本篇论文归属；未据此认证全部论文或履历。"
   - label: '中山大学数学学院'
     url: 'https://math.sysu.edu.cn/teacher/504'
   - label: 'GAGP homepage'

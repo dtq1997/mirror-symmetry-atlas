@@ -1,0 +1,88 @@
+{
+  "reviewer": "Codex",
+  "date": "2026-10-08",
+  "status": "pending source leads, not adopted verdicts",
+  "prior_report": "hms-foundations-new-papers-review.json",
+  "priorities": [
+    {
+      "topic": "Hu Jianxun biography contradictions",
+      "file": "data/people/hu-jianxun.yaml",
+      "finding": "Current education years1979-83/1983-87/1987-93 and prose1983/1987/1993 conflict with official indexed2023DingYingnomination CV1983-87/1987-90/1990-93. Trailing speculative Wisconsin/StonyBrook doctorate line also contradicts Lanzhou paragraph. Full source download returned403 this batch; do not invent a reconciliation. Source source-lead below needs full readable copy.",
+      "source_lead": "https://math.sysu.edu.cn/node/484",
+      "pdf_search": "site:math.sysu.edu.cn 第十七届 广东省丁颖科技奖 胡建勋 2023",
+      "next_action": "Retrieve official CV/table via public accessible copy; correct with exact dates; remove speculative prose if unsupported. Do not copy personal phone number from nomination table."
+    },
+    {
+      "topic": "Bibliography metadata/duplicate leads",
+      "items": [
+        {
+          "owner": "hu-jianxun",
+          "ids": [
+            "1402.4221",
+            "1402.4221.",
+            "doi:10.1007/s00209-018-2043-z"
+          ],
+          "note": "Potential three records for same blow-up paper, verify primary source before merging."
+        },
+        {
+          "owner": "hu-jianxun",
+          "ids": [
+            "1406.2472",
+            "doi:10.1142/s0129167x15500093"
+          ]
+        },
+        {
+          "owner": "li-changzheng",
+          "ids": [
+            "1311.1660",
+            "doi:10.4310/ajm.2015.v19.n2.a1"
+          ]
+        },
+        {
+          "owner": "li-changzheng",
+          "ids": [
+            "1007.1683",
+            "doi:10.4310/jdg/1299766790"
+          ]
+        },
+        {
+          "owner": "zhang-qingsheng",
+          "ids": [
+            "2301.01131",
+            "doi:10.1016/j.aim.2024.110100"
+          ]
+        },
+        {
+          "owner": "guo-shuai",
+          "ids": [
+            "1810.00394",
+            "doi:10.1215/00127094-2025-0038",
+            "1711.10118",
+            "doi:10.1093/imrn/rny201"
+          ]
+        },
+        {
+          "owners": [
+            "guo-shuai",
+            "zhang-huailiang"
+          ],
+          "id": "2312.11174",
+          "note": "Open MIND venue remains unverified; verify primary journal record."
+        }
+      ]
+    },
+    {
+      "topic": "Missing authors",
+      "names": [
+        "Eric Zaslow",
+        "Zhitong Su",
+        "Yang Zhou (Fudan SCMS)"
+      ],
+      "note": "Before creating profiles check existing names/aliases and primary sources. English names in publications are allowed; do not guess Chinese spelling."
+    },
+    {
+      "topic": "Whole-site coverage",
+      "task": "Continue people biographies, ownership, concepts, institutions, conferences/timeline and publication search usability. These leads do not replace whole-site Goal. HMS current sources now supersede historical pending-foundation notice within the scoped relative-category setting."
+    }
+  ]
+}

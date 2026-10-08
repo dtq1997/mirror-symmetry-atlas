@@ -1,5 +1,5 @@
 slug: guo-shuai
-count: 14
+count: 15
 note: 需要人工核对的候选论文。score 在 10-19 之间。要么补 ORCID 进 identity_profile, 要么明确标 accepted/rejected
 candidates:
 - id: doi:10.4007/annals.2021.194.3.1
@@ -236,3 +236,23 @@ candidates:
     math_venue: arxiv (cornell university)
   doi: 10.48550/arxiv.2501.05622
   venue: null
+
+- id: '2311.09804'
+  title: Average Jaccard Index of Random Graphs
+  year: 2023
+  coauthors:
+  - Qunqiang Feng
+  - Zhishui Hu
+  doi: 10.1017/jpr.2023.112
+  journal: J. Appl. Probab. 61 (2024) 1139-1152
+  primary_category: math.PR
+  sources:
+  - arxiv
+  review_status: needs-review
+  reviewed_by: Codex
+  reviewed_on: '2026-10-08'
+  review_reason: 论文及出版社把该作者署为中科大管理学院统计与金融系；北大郭帅本人教师页列同期北大数学科学学院任职。姓名一致不足以绑定，缺乏邮箱或个人书目连接，先移出公开档案并保留待核。
+  review_sources:
+  - https://arxiv.org/abs/2311.09804v1
+  - https://www.cambridge.org/core/journals/journal-of-applied-probability/article/abs/average-jaccard-index-of-random-graphs/8A090EDB8ED4BF7E083F922ECAED6223
+  - https://www.math.pku.edu.cn/jsdw/js_20180628175159671361/g_20180628175159671361/69922.htm

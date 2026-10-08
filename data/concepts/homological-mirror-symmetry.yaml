@@ -15,7 +15,7 @@ definition: |
   左侧是凝聚层的有界导出范畴；右侧是 Fukaya 范畴的导出构造再取直和因子闭包。精确版本常在 dg 或 $A_\infty$ 增强的层面陈述，并可能需要 Novikov 系数、镜像参数变换和 bounding cochain 数据。
   这是猜想框架及已知特定情形的结论，不能对任意两流形直接套用。Fano／Landau–Ginzburg 情形需要相应的范畴版本。
 history_note: "Kontsevich 的 1994 年 ICM 稿第 18 页提出 Homological Mirror Conjecture；原文明确称其为尚较粗略的表述，并讨论扩大 Fukaya 范畴的可能性。本页公式使用后续文献常见的记号，不冒充原文逐字表述。"
-review_note: "2026-10-08：核对原始提出背景和范畴层次；指定镜像对的系数、参数及构造假设见各论文。已知具体结果和仍需核对的证明基础见问题条目，不能据本页公式认定一般情形已证。"
+review_note: "2026-10-08：核对原始提出背景和范畴层次，并追查至 2025 年的相对 Fukaya 基础系列。指定镜像对的系数、参数、几何条件与范畴版本仍须按各论文区分；具体结果和后续依赖见问题条目，不能据本页公式认定一般情形已证。"
 sources:
   - label: "Kontsevich：1994 ICM 稿，第 18 页 Homological Mirror Conjecture"
     url: "https://arxiv.org/abs/alg-geom/9411018"
@@ -23,6 +23,8 @@ sources:
     url: "https://arxiv.org/abs/1111.0632v4"
   - label: "Sheridan–Smith：第 1.6 节定理 C/D，分别列出低维和附带构造假设的版本"
     url: "https://arxiv.org/abs/1709.08937v2"
+  - label: "Ganatra–Sheridan：2025 年相对 Fukaya 基础的后续补齐及适用条件"
+    url: "https://arxiv.org/abs/2511.04498v1"
 dual_to: null
 prerequisites:
   - mirror-symmetry

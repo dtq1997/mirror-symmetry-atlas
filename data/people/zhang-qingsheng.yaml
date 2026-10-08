@@ -20,9 +20,9 @@ career_timeline:
     notes: "[待验证] 极可能师从周坚"
   - period: "2020-2024"
     type: position
-    institution: pku-bicmr
+    institution: pku
     role: "博士后"
-    notes: "北京大学"
+    notes: "北京大学数学学院；大湾区大学主页列 2020.11–2024.11。"
   - period: "2024-present"
     type: position
     institution: gbu
@@ -42,7 +42,7 @@ identity_profile:
     - institution: 'tsinghua'
       period: '2015-2020'
       role: '博士'
-    - institution: 'pku-bicmr'
+    - institution: 'pku'
       period: '2020-2024'
       role: '博士后'
     - institution: 'gbu'
@@ -55,6 +55,7 @@ identity_profile:
   coauthor_circle_extended_names: ['Ce Ji']
   research_keywords: [constraints, frobenius, gromov, hierarchy, integrable, recursion, topological, virasoro, witten]
   known_arxiv_ids:
+    - '2608.29870'
     - '2605.02643'
     - '2507.20151'
     - '2502.18895'
@@ -70,11 +71,11 @@ key_collaborators:
   - person: guo-shuai
     since: 2020
     topic: "Higher-genus GW theory, Virasoro constraints for CohFT"
-    papers_count: 4
+    papers_count: 5
   - person: zhou-jian
     since: 2019
     topic: "Itzykson-Zuber Ansatz"
-    papers_count: 2
+    papers_count: 1
   - person: yang-di
     since: 2022
     topic: "Hodge-BGW correspondence"
@@ -82,12 +83,18 @@ key_collaborators:
   - person: yang-chenglang
     since: 2023
     topic: "BKP-affine coordinates, emergent geometry"
-    papers_count: 2
+    papers_count: 3
   - person: wang-zhiyuan
     since: 2023
     topic: "BKP-affine coordinates"
-    papers_count: 1
+    papers_count: 2
 publications:
+  - id: '2608.29870'
+    title: 'Wall-crossing formula and genus-one Virasoro conjecture for Fano complete intersections'
+    year: 2026
+    coauthors: ['guo-shuai', 'Yang Zhou']
+    primary_category: math.AG
+    sources: [arxiv, manual]
   - id: '2605.02643'
     title: 'Generalized Kontsevich model, topological recursion, and $r$-spin theory'
     year: 2026
@@ -147,9 +154,9 @@ publications:
     doi: '10.1007/jhep09(2019)075'
     primary_category: math-ph
 activity:
-  total_papers: 9
+  total_papers: 10
   published_count: 3
-  preprint_only_count: 6
+  preprint_only_count: 7
   active_period: '2019-present'
 external_ids:
   orcid: "0000-0002-2777-8248"
@@ -191,6 +198,13 @@ personal_notes: |
   工作，把 Gromov-Witten 理论、Virasoro 约束、topological recursion 与 integrable hierarchy 连接起来。
   注意 PKU 数学院博后页面另有一位"张庆生"是丁剑组概率/随机游动方向，不是同一人，须按导师和研究方向消歧。
 sources:
+  - label: "[Codex] 2026-10-08：大湾区大学主页的历史工作单位"
+    url: "https://www.gbu.edu.cn/detail/article/1147"
+    notes: "页面明确列北京大学数学学院博士后；本轮不据此核实导师归属。"
+  - label: "[Codex] 2026-10-08：新论文作者、署名单位与邮箱核对"
+    url: "https://arxiv.org/abs/2608.29870v1"
+    last_verified: "2026-10-08"
+    notes: "仅核对本篇论文归属；未据此认证全部论文或履历。"
   - label: '大湾区大学张庆生主页'
     url: 'https://www.gbu.edu.cn/detail/article/1147'
   - label: 'ORCID'

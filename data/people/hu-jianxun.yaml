@@ -133,6 +133,7 @@ identity_profile:
     - 'topology'
     - 'witten'
   known_arxiv_ids:
+    - '2606.07418'
     - '2509.06004'
     - '2502.13558'
     - '2502.13545'
@@ -163,11 +164,11 @@ key_collaborators:
 - person: ke-huazhong
   since: 2014
   topic: Gromov-Witten blow-up, Gamma conjecture, quantum cohomology
-  papers_count: 6
+  papers_count: 7
 - person: li-changzheng
   since: 2019
   topic: Gamma conjecture, Galkin conjecture, mirror symmetry for blowups of Grassmannians
-  papers_count: 5
+  papers_count: 6
 - person: ruan-yongbin
   since: 2008
   topic: Birational cobordism invariance of uniruled symplectic manifolds
@@ -199,12 +200,18 @@ key_collaborators:
 - person: he-weiqiang
   since: 2013
   topic: Orbifold GW invariants of weighted blow-ups, high-genus GW blow-up formulae
-  papers_count: 2
+  papers_count: 3
 - person: Lei Song
   since: 2025
   topic: Quantum cohomology of blow-ups of quadrics, mirror symmetry for blowups of Grassmannians
   papers_count: 2
 publications:
+  - id: '2606.07418'
+    title: 'Gamma conjecture II via global Gamma-I'
+    year: 2026
+    coauthors: ['ke-huazhong', 'li-changzheng', 'Zhitong Su']
+    primary_category: math.AG
+    sources: [arxiv, manual]
   - id: '2509.06004'
     title: 'Refined floor diagrams relative to a conic and Caporaso-Harris type formula'
     year: 2025
@@ -390,14 +397,19 @@ publications:
     coauthors: ['Zhujun Zheng', 'Ke Wu', 'Shikun Wang']
     primary_category: hep-th
 activity:
-  total_papers: 26
+  total_papers: 27
   published_count: 16
-  preprint_only_count: 10
+  preprint_only_count: 11
   active_period: '1995-present'
 external_ids: {}
 links:
   homepage: 'https://math.sysu.edu.cn/teacher/484'
   email: 'stsjxhu@mail.sysu.edu.cn'
+known_emails:
+  - "stsjxhu@mail.sysu.edu.cn"
+  - "stsjxhu@sysu.edu.cn"
+known_affiliations:
+  - "School of Mathematics, Sun Yat-sen University"
 personal_notes: |
   中山大学数学学院教授、副院长，symplectic topology 和 Gromov-Witten 理论资深专家。
   兰州大学本硕博 (1983/1987/1993)，1993-1995 年在中山大学物理系做理论物理博士后，
@@ -423,6 +435,10 @@ personal_notes: |
   重要奖项：NSFC 11771460/11371381/11521101 等；与 Tian-Jun Li、Yongbin Ruan 合作 *Invent. Math.* 2008 论文 (Birational cobordism invariance of uniruled symplectic manifolds) 是该领域里程碑
   趣闻：与 SYSU 同事李长征、柯华忠形成稳定合作团队，共同攻克 Galkin 下界猜想、Gamma 猜想；编辑 Springer Proceedings *Schubert Calculus and Its Applications*
 sources:
+  - label: "[Codex] 2026-10-08：新论文作者、署名单位与邮箱核对"
+    url: "https://arxiv.org/abs/2606.07418v1"
+    last_verified: "2026-10-08"
+    notes: "仅核对本篇论文归属；未据此认证全部论文或履历。"
   - label: '中山大学数学学院 (个人主页)'
     url: 'https://math.sysu.edu.cn/teacher/484'
   - label: 'ResearchGate'

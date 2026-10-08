@@ -24,18 +24,18 @@ career_timeline:
   role: 博士后
 - period: 2013-2016
   type: position
-  institution: pku-bicmr
+  institution: pku
   role: 讲师
 - period: 2016-2023
   type: position
-  institution: pku-bicmr
+  institution: pku
   role: 副教授
 - period: '2019'
   type: award
   title: 求是杰出青年学者奖
 - period: 2023-present
   type: position
-  institution: pku-bicmr
+  institution: pku
   role: 教授
   notes: 智华楼318
 research_areas:
@@ -57,13 +57,13 @@ identity_profile:
     - institution: 'pku-bicmr'
       period: '2011-2013'
       role: '博士后'
-    - institution: 'pku-bicmr'
+    - institution: 'pku'
       period: '2013-2016'
       role: '讲师'
-    - institution: 'pku-bicmr'
+    - institution: 'pku'
       period: '2016-2023'
       role: '副教授'
-    - institution: 'pku-bicmr'
+    - institution: 'pku'
       period: '2023-present'
       role: '教授'
   email_domains: [bicmr.pku.edu.cn, tsinghua.edu.cn]
@@ -73,6 +73,7 @@ identity_profile:
   coauthor_circle_extended_names: ['Chenglang Yang', 'Huai-Liang Chang', 'Longting Wu', 'Qing Zhang', 'Yongbin Ruan']
   research_keywords: [calabi, gromov, hierarchy, integrable, mirror, moduli, symmetry, witten]
   known_arxiv_ids:
+    - '2608.29870'
     - '2605.02643'
     - '2507.20151'
     - '2502.18895'
@@ -80,7 +81,6 @@ identity_profile:
     - '2501.05622'
     - '2312.11197'
     - '2312.11174'
-    - '2311.09804'
     - '2309.12271'
     - '2308.06156'
     - '2208.08553'
@@ -110,7 +110,7 @@ key_collaborators:
 - person: zhang-qingsheng
   since: 2020
   topic: Higher-genus GW theory, Virasoro constraints
-  papers_count: 2
+  papers_count: 5
 - person: zhou-jian
   since: 2011
   topic: KKV conjecture, elliptic genera
@@ -120,6 +120,12 @@ key_collaborators:
   topic: KP/BKP hierarchies
   papers_count: 3
 publications:
+  - id: '2608.29870'
+    title: 'Wall-crossing formula and genus-one Virasoro conjecture for Fano complete intersections'
+    year: 2026
+    coauthors: ['zhang-qingsheng', 'Yang Zhou']
+    primary_category: math.AG
+    sources: [arxiv, manual]
   - id: '2605.02643'
     title: 'Generalized Kontsevich model, topological recursion, and $r$-spin theory'
     year: 2026
@@ -176,14 +182,6 @@ publications:
     primary_category: math.AG
     openalex_id: W4390040998
     sources: [arxiv, openalex]
-  - id: '2311.09804'
-    title: 'Average Jaccard Index of Random Graphs'
-    year: 2023
-    coauthors: ['Qunqiang Feng', 'Zhishui Hu']
-    doi: '10.1017/jpr.2023.112'
-    journal: 'J. Appl. Probab. 61 (2024) 1139-1152'
-    primary_category: math.PR
-    sources: [arxiv]
   - id: '2309.12271'
     title: 'A generalization of the Witten conjecture through spectral curve'
     year: 2023
@@ -310,9 +308,9 @@ publications:
     sources: [openalex]
     no_arxiv: true
 activity:
-  total_papers: 26
-  published_count: 15
-  preprint_only_count: 11
+  total_papers: 25
+  published_count: 13
+  preprint_only_count: 12
   h_index: 7
   active_period: '2011-present'
   peak_period: '2018-present'
@@ -362,6 +360,13 @@ personal_notes: |
   2026 HUST 会议报告: higher-genus GW Theory of O(p-1)⊕O(-p-1)。
   周坚学生圈在北大的关键承接者之一；季策由其指导后进入清华水木学者阶段，使 PKU/BICMR 与清华张友金、周坚方向继续连通。
 sources:
+  - label: "[Codex] 2026-10-08：北大教师页的任职单位与年份"
+    url: "https://www.math.pku.edu.cn/jsdw/js_20180628175159671361/g_20180628175159671361/69922.htm"
+    notes: "2011–2013 为 BICMR 博士后；2013 年起讲师、副教授、教授职位列在数学科学学院。"
+  - label: "[Codex] 2026-10-08：新论文作者、署名单位与邮箱核对"
+    url: "https://arxiv.org/abs/2608.29870v1"
+    last_verified: "2026-10-08"
+    notes: "仅核对本篇论文归属；未据此认证全部论文或履历。"
   - label: "[Codex] 2026-10-08：Holomorphic anomaly equation 的正式刊物（出版社登记的 Crossref 元数据）"
     url: https://doi.org/10.1017/fmp.2021.3
   - label: '北京大学数学科学学院'

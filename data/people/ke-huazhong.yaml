@@ -44,7 +44,7 @@ identity_profile:
   coauthor_circle_core_slugs: [hu-jianxun, li-changzheng, zhou-jian]
   coauthor_circle_core_names: ['Changzheng Li', 'Jian Zhou', 'Jianxun Hu']
   research_keywords: [cohomology, conjecture, derived, frobenius, quantum]
-  known_arxiv_ids: [2502.13558, 2502.13545, 2405.16987, 2405.16979]
+  known_arxiv_ids: ['2606.07418', 2502.13558, 2502.13545, 2405.16987, 2405.16979]
 advisor: zhou-jian
 students: []
 key_collaborators:
@@ -55,8 +55,14 @@ key_collaborators:
   - person: hu-jianxun
     since: 2024
     topic: "Gamma conjecture, quantum cohomology, Galkin's conjecture"
-    papers_count: 9
+    papers_count: 7
 publications:
+  - id: '2606.07418'
+    title: 'Gamma conjecture II via global Gamma-I'
+    year: 2026
+    coauthors: ['hu-jianxun', 'li-changzheng', 'Zhitong Su']
+    primary_category: math.AG
+    sources: [arxiv, manual]
   - id: '2502.13558'
     title: 'On the quantum cohomology of blow-ups of four-dimensional quadrics'
     year: 2025
@@ -110,9 +116,9 @@ publications:
     openalex_id: W4294150699
     sources: [arxiv, openalex]
 activity:
-  total_papers: 8
+  total_papers: 9
   published_count: 3
-  preprint_only_count: 5
+  preprint_only_count: 6
   active_period: '2015-present'
 external_ids:
   openalex: A5069945007
@@ -146,6 +152,10 @@ personal_notes: |
   直接研究 Dubrovin connection 的渐近行为、Gamma-integral structure 和量子上同调，与本项目核心高度相关。
   与 Galkin、Iritani、胡建勋、李长征、苏治铜合作的 "Revisiting Gamma Conjecture I" 给出 Gamma 猜想 I 的反例与修正版本，是近期重要进展。
 sources:
+  - label: "[Codex] 2026-10-08：新论文作者、署名单位与邮箱核对"
+    url: "https://arxiv.org/abs/2606.07418v1"
+    last_verified: "2026-10-08"
+    notes: "仅核对本篇论文归属；未据此认证全部论文或履历。"
   - label: '中山大学数学学院'
     url: 'https://math.sysu.edu.cn/teacher/644'
   - label: '信息源'
