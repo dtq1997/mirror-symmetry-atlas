@@ -1,0 +1,25 @@
+{
+  "reviewer": "Codex",
+  "date": "2026-10-08",
+  "scope": "Related path inspection after observed catalog initial-input loss; do not claim untested surfaces fixed.",
+  "catalog": "Batch28 handles observed catalog issue.",
+  "related_paths": [
+    {
+      "files": [
+        "src/components/graphs/PeopleNetwork.tsx",
+        "src/app/acknowledgements/AckNetworkClient.tsx"
+      ],
+      "finding": "Search inputs render with controlled values and handlers but no readiness guard in inspected code. Check whether pre-hydration input can become detached from filtering; no browser reproduction yet.",
+      "status": "needs-browser-check"
+    },
+    {
+      "files": [
+        "src/app/people/PeopleNetworkClient.tsx",
+        "src/app/concepts/ConceptPageClient.tsx",
+        "src/lib/use-mobile.ts"
+      ],
+      "finding": "List search is not in server snapshot: useMobile server snapshot isfalse so initial view isgraph. List inputs appear after client view resolution or toggle. Do not apply catalog verdict to these untested list paths. View-toggle/graph controls can be inspected separately.",
+      "status": "scope-distinguished-not-certified"
+    }
+  ]
+}

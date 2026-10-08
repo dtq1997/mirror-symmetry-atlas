@@ -4,6 +4,7 @@ import { fullName } from "@/lib/name";
 const inputClass = "block w-full min-w-0 mt-1.5 rounded-lg border border-[#3a3a50] bg-[#0a0a0f] px-3 py-2.5 text-sm text-[#e8e8f0] focus-visible:outline-2 focus-visible:outline-[#a5b4fc]";
 
 interface CatalogControlsProps {
+  disabled: boolean;
   filters: CatalogFilters;
   owners: string[];
   years: number[];
@@ -11,9 +12,9 @@ interface CatalogControlsProps {
   onReset: () => void;
 }
 
-export default function CatalogControls({ filters, owners, years, onChange, onReset }: CatalogControlsProps) {
+export default function CatalogControls({ disabled, filters, owners, years, onChange, onReset }: CatalogControlsProps) {
   return (
-    <div role="search" aria-label="论文目录" className="rounded-xl border border-[#2a2a3a] bg-[#14141f] p-4 mb-5">
+    <fieldset disabled={disabled} aria-busy={disabled} role="search" aria-label="论文目录" className="min-w-0 rounded-xl border border-[#2a2a3a] bg-[#14141f] p-4 mb-5">
       <label htmlFor="paper-search" className="block text-sm text-[#e8e8f0]">搜索论文
         <input id="paper-search" type="search" value={filters.query} onChange={(e) => onChange({ query: e.target.value })}
           placeholder="题名、中英文署名、期刊或完整 arXiv / DOI" aria-describedby="paper-search-help" className={inputClass} />
@@ -41,6 +42,6 @@ export default function CatalogControls({ filters, owners, years, onChange, onRe
         </label>
       </div>
       <button type="button" onClick={onReset} className="mt-3 min-h-11 px-3 rounded-lg text-sm text-[#a5b4fc] hover:bg-[#6366f1]/15 focus-visible:outline-2 focus-visible:outline-[#a5b4fc]">清除搜索与筛选</button>
-    </div>
+    </fieldset>
   );
 }

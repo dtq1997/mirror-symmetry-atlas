@@ -1,0 +1,44 @@
+{
+  "reviewer": "Codex",
+  "date": "2026-10-08",
+  "scope": "Catalog controls during initial load; no publication data, grouping or counts changed.",
+  "trigger": "Public immediate fill after navigation displayed2010.14339 but result remained1799/50; later input filtered normally. Server HTML initially exposed interactive-looking controls before handlers attached.",
+  "change": "Server/hydrating snapshot disables search,three selects,reset and load-more; loading message visible; browser snapshot enables them when React attaches. Existing records stay readable.",
+  "source": "https://react.dev/reference/react/useSyncExternalStore#adding-support-for-server-rendering",
+  "validation": {
+    "site_regressions": 61,
+    "eslint": "passed",
+    "typescript": "passed",
+    "data_lint": {
+      "errors": 0,
+      "warnings": 73
+    },
+    "production_build": "passed",
+    "export": "batch-twenty-eight-export-audit.json",
+    "static_readiness": "batch-twenty-eight-static-readiness.json",
+    "browser_negative_control": {
+      "method": "Only the temporary local test tab blocked local NextJS chunks.",
+      "disabled_controls": 5,
+      "load_more_disabled": true,
+      "rendered_articles": 50,
+      "status": "搜索与筛选加载中 · 匹配 1799 条 · 已显示 50 条 · 全目录 1799 条"
+    },
+    "browser_positive_control": {
+      "method": "Fresh local tab without request blocking; fill immediately after navigation.",
+      "input": "2010.14339",
+      "controls_disabled": false,
+      "matches": 1,
+      "identifier_target": "https://arxiv.org/abs/2010.14339",
+      "reset_then_load_more": 100,
+      "console_errors": [],
+      "screenshot": "batch-twenty-eight-preview.jpg"
+    }
+  },
+  "test_limitations": [
+    "Clearing the blocked-request test in the same tab left its controls inactive during the attempted test. Closed that temporary tab and verified a fresh tab without overrides; do not claim same-tab recovery from blocked scripts.",
+    "No blanket certification of other graph searches; inspected related paths are recorded separately."
+  ],
+  "related_paths": "next-initial-interaction-leads.json",
+  "resource_note": "Disk briefly filled and report/log writes failed. After completed build and verifying compiler PIDs had exited, removed only this task project’s untracked .next output (89MiB); out/ and evidence preserved. Later free-space reading1.3GiB is observation, not all attributable to this cleanup. Retried report writes.",
+  "deployment": "pending"
+}

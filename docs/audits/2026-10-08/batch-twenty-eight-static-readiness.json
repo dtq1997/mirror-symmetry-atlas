@@ -1,0 +1,38 @@
+{
+  "reviewer": "Codex",
+  "date": "2026-10-08",
+  "scope": "Static exported catalog form before browser handlers load; not hydrated interaction.",
+  "controls": [
+    {
+      "tag": "input",
+      "id": "paper-search",
+      "disabled": true
+    },
+    {
+      "tag": "select",
+      "id": "paper-owner",
+      "disabled": true
+    },
+    {
+      "tag": "select",
+      "id": "paper-year",
+      "disabled": true
+    },
+    {
+      "tag": "select",
+      "id": "paper-publication",
+      "disabled": true
+    },
+    {
+      "tag": "button",
+      "id": null,
+      "disabled": true
+    }
+  ],
+  "load_more_disabled": true,
+  "loading_message": true,
+  "negative_controls": [
+    "Removing fieldset disabled is rejected",
+    "Removing load-more disabled is rejected"
+  ]
+}
