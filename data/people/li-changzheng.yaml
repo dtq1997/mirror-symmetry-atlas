@@ -140,7 +140,7 @@ key_collaborators:
 - person: leung-naichung
   since: 2008
   topic: Quantum cohomology of flag varieties, Pieri rules, GW invariants
-  papers_count: 9
+  papers_count: 8
 - person: Leonardo C. Mihalcea
   since: 2012
   topic: K-theoretic GW invariants, Conjecture O, quantum K-theory
@@ -340,14 +340,6 @@ publications:
     coauthors: ['Yongdong Huang']
     journal: 'J. Algebra 441 (2015)'
     primary_category: math.AG
-  - id: 'doi:10.4310/ajm.2015.v19.n2.a1'
-    title: 'Functorial relationships between $QH* (G/B)$ and $QH* (G/P)$, II'
-    year: 2015
-    coauthors: []
-    doi: '10.4310/ajm.2015.v19.n2.a1'
-    journal: 'Asian Journal of Mathematics'
-    sources: [crossref]
-    no_arxiv: true
   - id: '1405.4530'
     title: 'Mirror symmetry for exceptional unimodular singularities'
     year: 2014
@@ -390,12 +382,14 @@ publications:
     primary_category: math.AG
     openalex_id: W2964161412
     sources: [arxiv, openalex]
-  - id: '1311.1660'
-    title: 'Functorial relationships between quantum cohomology of complete and partial flag varieties, (II)'
+  - id: "1311.1660"
+    title: "Functorial relationships between quantum cohomology of complete and partial flag varieties, (II)"
     year: 2013
     coauthors: []
-    journal: 'Asian J. Math. 19 (2014)'
-    primary_category: math.AG
+    journal: "Asian Journal of Mathematics 19 (2015), no. 2, 203–234"
+    primary_category: "math.AG"
+    doi: "10.4310/ajm.2015.v19.n2.a1"
+    sources: ["crossref", "arxiv", "manual"]
   - id: '0810.4859'
     title: 'Gromov-Witten invariants for $G/B$ and Pontryagin product for $ΩK$'
     year: 2012
@@ -420,23 +414,15 @@ publications:
     primary_category: math.AG
     openalex_id: W2962679992
     sources: [arxiv, openalex]
-  - id: '1007.1683'
-    title: 'Functorial relationships between quantum cohomology of complete and partial flag varieties'
+  - id: "1007.1683"
+    title: "Functorial relationships between quantum cohomology of complete and partial flag varieties"
     year: 2010
-    coauthors: [leung-naichung]
-    journal: 'J. Differential Geom. 86 (2010)'
-    primary_category: math.AG
-    openalex_id: W2104542334
-    sources: [arxiv, openalex]
-  - id: 'doi:10.4310/jdg/1299766790'
-    title: 'Functorial relationships between $QH*(G/B)$ and $QH*(G/P)$'
-    year: 2010
-    coauthors: [leung-naichung]
-    doi: '10.4310/jdg/1299766790'
-    journal: 'Journal of Differential Geometry'
-    openalex_id: W1545926607
-    sources: [openalex]
-    no_arxiv: true
+    coauthors: ["leung-naichung"]
+    journal: "Journal of Differential Geometry 86 (2010), no. 2"
+    primary_category: "math.AG"
+    openalex_id: "W2104542334"
+    sources: ["arxiv", "openalex", "crossref", "manual"]
+    doi: "10.4310/jdg/1299766790"
   - id: '0808.0393'
     title: 'Hard Lefschetz actions in Riemannian geometry with special holonomy'
     year: 2008
@@ -447,8 +433,8 @@ publications:
     openalex_id: W2072288325
     sources: [arxiv, openalex]
 activity:
-  total_papers: 39
-  published_count: 25
+  total_papers: 37
+  published_count: 23
   preprint_only_count: 14
   active_period: '2008-present'
 external_ids:
@@ -495,6 +481,22 @@ personal_notes: |
   2026 HUST 会议报告: Quantum Schubert calculus for smooth Schubert divisors in $Fl_n$。
   与 Leung 合作的 *Functorial relationships QH(G/B) ↔ QH(G/P)* (JDG 2010) 是 Peterson 同构方向的代表作。
 sources:
+  - label: '[Codex] 2026-10-08：预印本 1311.1660'
+    url: https://arxiv.org/abs/1311.1660
+    last_verified: '2026-10-08'
+    notes: 核对题名、作者与论文首末页；保留首次预印本年份，期刊年份另列。
+  - label: '[Codex] 2026-10-08：期刊版 10.4310/ajm.2015.v19.n2.a1'
+    url: https://doi.org/10.4310/ajm.2015.v19.n2.a1
+    last_verified: '2026-10-08'
+    notes: 与预印本的题名、完整作者及正文题首页或摘要对照；出版信息来自出版社登记的 Crossref 元数据。本项不认证整个人物档案。
+  - label: '[Codex] 2026-10-08：预印本 1007.1683'
+    url: https://arxiv.org/abs/1007.1683
+    last_verified: '2026-10-08'
+    notes: 核对题名、作者与论文首末页；保留首次预印本年份，期刊年份另列。
+  - label: '[Codex] 2026-10-08：期刊版 10.4310/jdg/1299766790'
+    url: https://doi.org/10.4310/jdg/1299766790
+    last_verified: '2026-10-08'
+    notes: 与预印本的题名、完整作者及正文题首页或摘要对照；出版信息来自出版社登记的 Crossref 元数据。本项不认证整个人物档案。
   - label: "[Codex] 2026-10-08：新论文作者、署名单位与邮箱核对"
     url: "https://arxiv.org/abs/2606.07418v1"
     last_verified: "2026-10-08"

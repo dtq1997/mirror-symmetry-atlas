@@ -90,5 +90,23 @@
     "source": "https://math.sysu.edu.cn/node/484",
     "evidence": "Web search indexed official faculty page says degree years1983/1987/1993, while indexed official2023nomination says attendance1983-1987/1987-1990/1990-1993. Both direct opens403. This is a conflict between official sources, not just a site transcription error. Full source reading remains pending; do not invent a resolution.",
     "next_action": "Represent conflict explicitly if primary full text remains unavailable; remove unsupported inferred starting years and Wisconsin/StonyBrook doctorate speculation. Do not claim corrected dates without resolving evidence."
+  },
+  "batch_seventeen_disposition": {
+    "reviewer": "Codex",
+    "date": "2026-10-08",
+    "review": "biography-bibliography-and-source-notes-review.json",
+    "merged_pairs": [
+      "1402.4221",
+      "1406.2472",
+      "1311.1660",
+      "1007.1683",
+      "2301.01131",
+      "1810.00394",
+      "1711.10118"
+    ],
+    "removed_redundant_rows": 15,
+    "hu_education_conflict": "Explicitly visible and unresolved; no guessed starting years or American PhD.",
+    "2312.11174": "Unsupported venue withheld, formal publication remains unresolved.",
+    "next_packet": "next-biography-and-relationship-leads.json"
   }
 }

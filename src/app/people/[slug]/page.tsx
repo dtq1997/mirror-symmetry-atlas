@@ -642,21 +642,30 @@ export default async function PersonPage({
       )}
       {/* Sources */}
       {person.sources && person.sources.length > 0 && (
-        <section className="mb-8">
+        <section className="mb-8" id="sources">
           <h2 className="text-lg font-semibold text-[#e8e8f0] mb-3">数据来源</h2>
-          <div className="space-y-1">
-            {person.sources.map((src, i) => (
-              <div key={i} className="text-xs">
-                <a
-                  href={publicSourceUrl(src.url)}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-[#6366f1] hover:text-[#818cf8] transition-colors"
-                >
-                  {src.label} ↗
-                </a>
-              </div>
-            ))}
+          <div className="space-y-3">
+            {person.sources.map((src, i) => {
+              const href = publicSourceUrl(src.url);
+              return (
+                <div key={i} className="text-xs leading-relaxed break-words">
+                  {href ? (
+                    <a
+                      href={href}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-[#6366f1] hover:text-[#818cf8] transition-colors"
+                    >
+                      {src.label} ↗
+                    </a>
+                  ) : <span className="text-[#8888aa]">{src.label}</span>}
+                  {src.notes && <p className="mt-1 text-[#8888aa]">{src.notes}</p>}
+                  {src.last_verified && (
+                    <p className="mt-1 text-[#8888aa]">本项核对：{src.last_verified}</p>
+                  )}
+                </div>
+              );
+            })}
           </div>
         </section>
       )}

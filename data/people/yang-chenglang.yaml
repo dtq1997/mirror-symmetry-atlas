@@ -91,7 +91,7 @@ key_collaborators:
 - person: wang-zhiyuan
   since: 2022
   topic: BKP hierarchy, affine coordinates, spin Hurwitz numbers
-  papers_count: 9
+  papers_count: 8
 - person: ji-ce
   since: 2023
   topic: Kac-Schwarz operators, KP/BKP hierarchies
@@ -99,7 +99,7 @@ key_collaborators:
 - person: zhang-qingsheng
   since: 2023
   topic: BKP-affine coordinates, emergent geometry
-  papers_count: 1
+  papers_count: 2
 publications:
   - id: '2605.02643'
     title: 'Generalized Kontsevich model, topological recursion, and $r$-spin theory'
@@ -135,15 +135,6 @@ publications:
     primary_category: math-ph
     openalex_id: W4416425862
     sources: [arxiv, openalex]
-  - id: 'doi:10.1016/j.aim.2024.110100'
-    title: 'BKP-affine coordinates and emergent geometry of generalized Brézin-Gross-Witten tau-functions'
-    year: 2025
-    coauthors: [zhang-qingsheng, wang-zhiyuan]
-    doi: '10.1016/j.aim.2024.110100'
-    journal: 'Advances in Mathematics'
-    openalex_id: W4406119208
-    sources: [crossref, openalex]
-    no_arxiv: true
   - id: '2503.01920'
     title: 'The structures of simple Hurwitz numbers and monotone Hurwitz numbers with varying genus'
     year: 2025
@@ -180,13 +171,15 @@ publications:
     primary_category: math.CO
     openalex_id: W4407450840
     sources: [arxiv, openalex]
-  - id: '2301.01131'
-    title: 'BKP-Affine Coordinates and Emergent Geometry of Generalized BGW Tau-Functions'
+  - id: "2301.01131"
+    title: "BKP-affine coordinates and emergent geometry of generalized Brézin-Gross-Witten tau-functions"
     year: 2023
-    coauthors: [zhang-qingsheng, wang-zhiyuan]
-    primary_category: math-ph
-    openalex_id: W4313533009
-    sources: [arxiv, openalex]
+    coauthors: ["zhang-qingsheng", "wang-zhiyuan"]
+    primary_category: "math-ph"
+    openalex_id: "W4313533009"
+    sources: ["crossref", "openalex", "arxiv", "manual"]
+    doi: "10.1016/j.aim.2024.110100"
+    journal: "Advances in Mathematics 462 (2025), 110100"
   - id: '2312.08218'
     title: 'On two families of Nekrasov-Okounkov type formulas'
     year: 2023
@@ -272,9 +265,9 @@ publications:
     openalex_id: W4366121889
     sources: [arxiv, openalex]
 activity:
-  total_papers: 22
+  total_papers: 21
   published_count: 11
-  preprint_only_count: 11
+  preprint_only_count: 10
   active_period: '2021-present'
   confidence: 'has-1-review-pending'
   quality_source: 'openalex + ruirui-2026'
@@ -325,6 +318,14 @@ personal_notes: |
   与唐乾、季策、王知远、张庆生、郭帅、周坚等人的合作把组合恒等式、
   topological vertex、Kac-Schwarz operator 和 integrable hierarchy 连成一个紧密圈层。
 sources:
+  - label: '[Codex] 2026-10-08：预印本 2301.01131'
+    url: https://arxiv.org/abs/2301.01131
+    last_verified: '2026-10-08'
+    notes: 核对题名、作者与论文首末页；保留首次预印本年份，期刊年份另列。
+  - label: '[Codex] 2026-10-08：期刊版 10.1016/j.aim.2024.110100'
+    url: https://doi.org/10.1016/j.aim.2024.110100
+    last_verified: '2026-10-08'
+    notes: 与预印本的题名、完整作者及正文题首页或摘要对照；出版信息来自出版社登记的 Crossref 元数据。本项不认证整个人物档案。
   - label: '北理工报道：钟家庆数学奖'
     url: 'https://math.bit.edu.cn/zhxw/dcfb2dc3de9141d5a8fd1b058c53366b.htm'
   - label: '南昌航空大学讲座预告'

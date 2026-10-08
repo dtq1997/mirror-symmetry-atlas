@@ -8,21 +8,21 @@ nationality: Chinese
 gender: male
 photo_url: null
 career_timeline:
-- period: 1979-1983
+- period: "[待验证]"
   type: education
   institution: lanzhou-university
   role: 本科
-  notes: 兰州大学数学系
-- period: 1983-1987
+  notes: "兰州大学数学系。本科年份有来源冲突：官方教师页索引列1983年获学士，2023年官方提名表索引列1983–1987年就读；两份正文目前均访问受限，待核。"
+- period: "[待验证]"
   type: education
   institution: lanzhou-university
   role: 硕士
-  notes: 兰州大学数学系
-- period: 1987-1993
+  notes: "兰州大学数学系。硕士年份有来源冲突：官方教师页索引列1987年获硕士，2023年官方提名表索引列1987–1990年就读；待核。"
+- period: "[?]-1993"
   type: education
   institution: lanzhou-university
   role: 博士
-  notes: 兰州大学数学系
+  notes: "兰州大学数学系，1993年获博士学位；入学年份待核。见中山大学2017年讲座简介和教师页索引。"
 - period: 1993-1995
   type: position
   institution: sun-yat-sen
@@ -52,7 +52,7 @@ career_timeline:
   type: position
   institution: sun-yat-sen
   role: 教授
-  notes: 中山大学数学学院教授、副院长；2003 年获博士生导师资格
+  notes: 中山大学数学学院教授；2003 年获博士生导师资格。副院长任期待核。
 - period: 2002-2003
   type: visit
   institution: hkust
@@ -82,13 +82,13 @@ research_areas:
 identity_profile:
   affiliations:
     - institution: 'lanzhou-university'
-      period: '1979-1983'
+      period: '[待验证]'
       role: '本科'
     - institution: 'lanzhou-university'
-      period: '1983-1987'
+      period: '[待验证]'
       role: '硕士'
     - institution: 'lanzhou-university'
-      period: '1987-1993'
+      period: '[?]-1993'
       role: '博士'
     - institution: 'sun-yat-sen'
       period: '1993-1995'
@@ -158,8 +158,7 @@ identity_profile:
     - '9810081'
     - '9612184'
 advisor: null
-students:
-  - he-weiqiang  # [待验证] 师承关系
+students: []
 key_collaborators:
 - person: ke-huazhong
   since: 2014
@@ -200,7 +199,7 @@ key_collaborators:
 - person: he-weiqiang
   since: 2013
   topic: Orbifold GW invariants of weighted blow-ups, high-genus GW blow-up formulae
-  papers_count: 3
+  papers_count: 2
 - person: Lei Song
   since: 2025
   topic: Quantum cohomology of blow-ups of quadrics, mirror symmetry for blowups of Grassmannians
@@ -266,15 +265,6 @@ publications:
     journal: 'Adv. Math. (2021)'
     primary_category: math.AG
     sources: [crossref]
-  - id: 'doi:10.1007/s00209-018-2043-z'
-    title: 'Blow-up formulae of high genus Gromov–Witten invariants for threefolds'
-    year: 2018
-    coauthors: [he-weiqiang, ke-huazhong, 'Xiaoxia Qi']
-    doi: '10.1007/s00209-018-2043-z'
-    journal: 'Mathematische Zeitschrift'
-    openalex_id: W2792779451
-    sources: [openalex]
-    no_arxiv: true
   - id: '1712.01478'
     title: 'Weighted blowup correspondence of orbifold Gromov-Witten invariants and applications'
     year: 2017
@@ -301,32 +291,23 @@ publications:
     primary_category: math.SG
     openalex_id: W1913596887
     sources: [arxiv, openalex]
-  - id: 'doi:10.1142/s0129167x15500093'
-    title: 'The Gromov–Witten invariants of the Hilbert schemes of points on surfaces with p<sub>g</sub> &gt; 0'
-    year: 2015
-    coauthors: ['Wei-Ping Li', 'Zhenbo Qin']
-    doi: '10.1142/s0129167x15500093'
-    journal: 'International Journal of Mathematics'
-    sources: [crossref]
-    no_arxiv: true
-  - id: '1402.4221'
-    title: 'Blow-up formulae of high genus Gromov-Witten invariants in dimension six'
+  - id: "1402.4221"
+    title: "Blow-up formulae of high genus Gromov-Witten invariants in dimension six"
     year: 2014
-    coauthors: [ke-huazhong, he-weiqiang, 'Xiaoxia Qi']
-    primary_category: math.AG
-    openalex_id: W4294150699
-    sources: [arxiv, openalex]
-  - id: '1402.4221.'
-    title: 'A Blowup formula of high genus Gromov-Witten invariants in dimensional six'
+    coauthors: ["ke-huazhong", "he-weiqiang", "Xiaoxia Qi"]
+    primary_category: "math.AG"
+    openalex_id: "W4294150699"
+    sources: ["openalex", "arxiv", "crossref", "manual"]
+    doi: "10.1007/s00209-018-2043-z"
+    journal: "Mathematische Zeitschrift 290 (2018), 857–872"
+  - id: "1406.2472"
+    title: "The Gromov-Witten invariants of the Hilbert schemes of points on surfaces with $p_g > 0$"
     year: 2014
-    coauthors: [he-weiqiang, ke-huazhong, 'Xiaoxia Qi']
-    openalex_id: W1771841147
-    sources: [openalex]
-  - id: '1406.2472'
-    title: 'The Gromov-Witten invariants of the Hilbert schemes of points on surfaces with $p_g > 0$'
-    year: 2014
-    coauthors: ['Wei-Ping Li', 'Zhenbo Qin']
-    primary_category: math.AG
+    coauthors: ["Wei-Ping Li", "Zhenbo Qin"]
+    primary_category: "math.AG"
+    doi: "10.1142/s0129167x15500093"
+    journal: "International Journal of Mathematics 26 (2015), 1550009"
+    sources: ["crossref", "arxiv", "manual"]
   - id: '1308.3634'
     title: 'Orbifold Gromov-Witten invariants of weighted blow-up at smooth points'
     year: 2013
@@ -397,9 +378,9 @@ publications:
     coauthors: ['Zhujun Zheng', 'Ke Wu', 'Shikun Wang']
     primary_category: hep-th
 activity:
-  total_papers: 27
+  total_papers: 24
   published_count: 16
-  preprint_only_count: 11
+  preprint_only_count: 8
   active_period: '1995-present'
 external_ids: {}
 links:
@@ -411,8 +392,8 @@ known_emails:
 known_affiliations:
   - "School of Mathematics, Sun Yat-sen University"
 personal_notes: |
-  中山大学数学学院教授、副院长，symplectic topology 和 Gromov-Witten 理论资深专家。
-  兰州大学本硕博 (1983/1987/1993)，1993-1995 年在中山大学物理系做理论物理博士后，
+  中山大学数学学院教授，研究辛拓扑与 Gromov-Witten 理论。
+  1993 年于兰州大学数学系获博士学位；本科、硕士年份待核。1993-1995 年在中山大学物理系做理论物理博士后，
   1995 年起在中山大学数学系任教，2002 年晋升教授，2003 年获博士生导师资格。
   2008 年获国家杰出青年科学基金（杰青）支持。
   国际访学经历丰富：Wisconsin, MPIM Bonn, HKUST, UC Berkeley MSRI, 密歇根大学, KIAS 等。
@@ -423,7 +404,7 @@ personal_notes: |
   (4) Donaldson-Thomas 不变量的 blow-up 公式；
   (5) 2019 年起与柯华忠、李长征合作推进 Gamma conjecture / Conjecture O 方向，2024 年发现 Gamma conjecture I 反例并修正 (与 Galkin, Iritani, 柯华忠, 李长征, Su) — 重要进展；
   (6) 近年与 Ding Yanqiao 合作 refined floor diagrams 和 Welschinger invariants。
-  何伟强（SYSU 副教授）可能师承 [待验证]。
+  与何伟强合作研究 Gromov-Witten 不变量的 blow-up 公式。
   注：柯华忠是清华周坚博士毕业后回 SYSU，非胡建勋学生，属同事关系。
   奖项还包括：2000 年广东省"南粤优秀教师（教坛新秀）"称号、2002 年广东省"千百十工程"培养对象、
   2003 年广东省自然科学优秀学术论文一等奖、2004 年教育部新世纪优秀人才。
@@ -431,10 +412,38 @@ personal_notes: |
   2026 年 4 月 HUST "数学物理与几何研讨会"参会人员之一。
   
   现职：中山大学数学学院教授；email stsjxhu@mail.sysu.edu.cn
-  学历：博士（[待验证]，可能 Wisconsin 或 Stony Brook 体系）
-  重要奖项：NSFC 11771460/11371381/11521101 等；与 Tian-Jun Li、Yongbin Ruan 合作 *Invent. Math.* 2008 论文 (Birational cobordism invariance of uniruled symplectic manifolds) 是该领域里程碑
-  趣闻：与 SYSU 同事李长征、柯华忠形成稳定合作团队，共同攻克 Galkin 下界猜想、Gamma 猜想；编辑 Springer Proceedings *Schubert Calculus and Its Applications*
+  学历：兰州大学数学系博士（1993）。
+  项目资助包括 NSFC 11771460、11371381、11521101（见2018年 blow-up 论文致谢）；与 Tian-Jun Li、Yongbin Ruan 合作 *Invent. Math.* 2008 论文 (Birational cobordism invariance of uniruled symplectic manifolds) 是该领域里程碑
+  合作与编著：与 SYSU 同事李长征、柯华忠合作研究 Galkin 下界猜想和 Gamma 猜想；编辑 Springer Proceedings *Schubert Calculus and Its Applications*
 sources:
+  - label: '[Codex] 2026-10-08：学历年份的官方来源冲突'
+    url: https://math.sysu.edu.cn/node/484
+    notes: 教师页搜索索引与2023年广东省丁颖科技奖提名表搜索索引的本科、硕士年份不一致；两份直接访问均403，尚未解决冲突。撤去原先倒推的入学年份，不按其中一份索引擅定结论。
+  - label: '[Codex] 2026-10-08：2017年官方讲座简介'
+    url: https://mathzh.sysu.edu.cn/zh-hans/article/1338
+    notes: 目前可读的搜索索引记载1993年兰州大学数学系博士、1995年中山大学任教、2002年晋升教授。正文直接访问403；不支持此前 Wisconsin/Stony Brook 博士来源猜测。
+  - label: '[Codex] 2026-10-08：与何伟强的合作记录'
+    url: https://arxiv.org/abs/1402.4221v2
+    notes: 论文证明合作关系；原档案的师生关系明确写作从合作论文推测，尚缺独立导师证据，已从确定关系图撤下并保留待核记录。这不表示已判定两人不是师生。
+  - label: 2023年广东省丁颖科技奖申报公示（学历年份待核）
+    url: https://math.sysu.edu.cn/sites/default/files/2023-02/广东省数学会关于公示申报第十七届广东省丁颖科技奖项目的通知.pdf
+    notes: 仅取得搜索索引，未读到完整PDF；不采用其中与教师页冲突的本科、硕士年份。
+  - label: '[Codex] 2026-10-08：预印本 1402.4221'
+    url: https://arxiv.org/abs/1402.4221
+    last_verified: '2026-10-08'
+    notes: 核对题名、作者与论文首末页；保留首次预印本年份，期刊年份另列。
+  - label: '[Codex] 2026-10-08：期刊版 10.1007/s00209-018-2043-z'
+    url: https://doi.org/10.1007/s00209-018-2043-z
+    last_verified: '2026-10-08'
+    notes: 与预印本的题名、完整作者及正文题首页或摘要对照；出版信息来自出版社登记的 Crossref 元数据。本项不认证整个人物档案。
+  - label: '[Codex] 2026-10-08：预印本 1406.2472'
+    url: https://arxiv.org/abs/1406.2472
+    last_verified: '2026-10-08'
+    notes: 核对题名、作者与论文首末页；保留首次预印本年份，期刊年份另列。
+  - label: '[Codex] 2026-10-08：期刊版 10.1142/s0129167x15500093'
+    url: https://doi.org/10.1142/s0129167x15500093
+    last_verified: '2026-10-08'
+    notes: 与预印本的题名、完整作者及正文题首页或摘要对照；出版信息来自出版社登记的 Crossref 元数据。本项不认证整个人物档案。
   - label: "[Codex] 2026-10-08：新论文作者、署名单位与邮箱核对"
     url: "https://arxiv.org/abs/2606.07418v1"
     last_verified: "2026-10-08"

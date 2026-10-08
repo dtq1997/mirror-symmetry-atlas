@@ -123,15 +123,6 @@ publications:
     primary_category: math-ph
     openalex_id: W4407196408
     sources: [arxiv, openalex]
-  - id: 'doi:10.1016/j.aim.2024.110100'
-    title: 'BKP-affine coordinates and emergent geometry of generalized Brézin-Gross-Witten tau-functions'
-    year: 2025
-    coauthors: [zhang-qingsheng, yang-chenglang]
-    doi: '10.1016/j.aim.2024.110100'
-    journal: 'Advances in Mathematics'
-    openalex_id: W4406119208
-    sources: [crossref, openalex]
-    no_arxiv: true
   - id: '2408.03212'
     title: 'On N-Coefficient Binomial Polynomiality of Hurwitz Numbers and Generalized Dessin Counting'
     year: 2024
@@ -155,13 +146,15 @@ publications:
     primary_category: math.CO
     openalex_id: W7131865136
     sources: [arxiv, openalex]
-  - id: '2301.01131'
-    title: 'BKP-Affine Coordinates and Emergent Geometry of Generalized BGW Tau-Functions'
+  - id: "2301.01131"
+    title: "BKP-affine coordinates and emergent geometry of generalized Brézin-Gross-Witten tau-functions"
     year: 2023
-    coauthors: [yang-chenglang, zhang-qingsheng]
-    primary_category: math-ph
-    openalex_id: W4313533009
-    sources: [arxiv, openalex]
+    coauthors: ["yang-chenglang", "zhang-qingsheng"]
+    primary_category: "math-ph"
+    openalex_id: "W4313533009"
+    sources: ["crossref", "openalex", "arxiv", "manual"]
+    doi: "10.1016/j.aim.2024.110100"
+    journal: "Advances in Mathematics 462 (2025), 110100"
   - id: '2211.08687'
     title: 'Kac-Schwarz Operators of Type B, Quantum Spectral Curves, and Spin Hurwitz Numbers'
     year: 2022
@@ -229,9 +222,9 @@ publications:
     openalex_id: W2885419658
     sources: [arxiv, openalex]
 activity:
-  total_papers: 16
+  total_papers: 15
   published_count: 10
-  preprint_only_count: 6
+  preprint_only_count: 5
   active_period: '2018-present'
   confidence: 'has-17-review-pending'
   quality_source: 'openalex + ruirui-2026'
@@ -276,6 +269,14 @@ personal_notes: |
   与周坚、杨成浪、季策、张庆生形成以 tau functions、Kac-Schwarz operators、Hurwitz numbers 和拓扑递归为核心的合作圈。
   论文脉络集中在 "fermionic / Sato Grassmannian / W-约束 → 拓扑递归" 工序，与周坚组的 GW theory、KP/BKP hierarchy 方向连续。
 sources:
+  - label: '[Codex] 2026-10-08：预印本 2301.01131'
+    url: https://arxiv.org/abs/2301.01131
+    last_verified: '2026-10-08'
+    notes: 核对题名、作者与论文首末页；保留首次预印本年份，期刊年份另列。
+  - label: '[Codex] 2026-10-08：期刊版 10.1016/j.aim.2024.110100'
+    url: https://doi.org/10.1016/j.aim.2024.110100
+    last_verified: '2026-10-08'
+    notes: 与预印本的题名、完整作者及正文题首页或摘要对照；出版信息来自出版社登记的 Crossref 元数据。本项不认证整个人物档案。
   - label: 'HUST 教师主页'
     url: 'http://faculty.hust.edu.cn/WangZhiyuan/zh_CN/index.htm'
   - label: '信息源'

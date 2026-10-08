@@ -132,15 +132,6 @@ publications:
     coauthors: [ji-ce, yang-chenglang, zhang-qingsheng]
     primary_category: math-ph
     sources: [arxiv]
-  - id: 'doi:10.1215/00127094-2025-0038'
-    title: 'BCOV Feynman rule of the quintic threefold'
-    year: 2026
-    coauthors: [zhang-huailiang, 'Jun Li']
-    doi: '10.1215/00127094-2025-0038'
-    journal: 'Duke Mathematical Journal'
-    openalex_id: W7147670578
-    sources: [openalex]
-    no_arxiv: true
   - id: '2507.20151'
     title: 'Virasoro constraints for topological recursion'
     year: 2025
@@ -174,14 +165,13 @@ publications:
     primary_category: math.AG
     openalex_id: W4390041030
     sources: [arxiv, openalex]
-  - id: '2312.11174'
-    title: 'Stability conditions in the mathematical Gauged Linear Sigma Model'
+  - id: "2312.11174"
+    title: "Stability conditions in the mathematical Gauged Linear Sigma Model"
     year: 2023
-    coauthors: [zhang-huailiang, 'Jun Li', 'Wei-Ping Li', 'Yang Zhou']
-    journal: 'Open MIND'
-    primary_category: math.AG
-    openalex_id: W4390040998
-    sources: [arxiv, openalex]
+    coauthors: ["zhang-huailiang", "Jun Li", "Wei-Ping Li", "Yang Zhou"]
+    primary_category: "math.AG"
+    openalex_id: "W4390040998"
+    sources: ["arxiv", "openalex", "manual"]
   - id: '2309.12271'
     title: 'A generalization of the Witten conjecture through spectral curve'
     year: 2023
@@ -210,13 +200,15 @@ publications:
     coauthors: [ruan-yongbin, 'Felix Janda']
     primary_category: math.AG
     sources: [arxiv]
-  - id: '1810.00394'
-    title: 'BCOV''s Feynman rule of quintic $3$-folds'
+  - id: "1810.00394"
+    title: "BCOV's Feynman rule of quintic $3$-folds"
     year: 2018
-    coauthors: [zhang-huailiang, 'Jun Li']
-    primary_category: math.AG
-    openalex_id: W2920263040
-    sources: [arxiv, openalex]
+    coauthors: ["zhang-huailiang", "Jun Li"]
+    primary_category: "math.AG"
+    openalex_id: "W2920263040"
+    sources: ["openalex", "arxiv", "crossref", "manual"]
+    doi: "10.1215/00127094-2025-0038"
+    journal: "Duke Mathematical Journal 175 (2026), no. 4, 607–675"
   - id: '1809.11058'
     title: 'Polynomial structure of Gromov-Witten potential of quintic $3$-folds via NMSP'
     year: 2018
@@ -234,23 +226,15 @@ publications:
     journal: 'Geom. Topol. 25 (2021) 775-811'
     primary_category: 'math.AG'
     sources: ['arxiv', 'manual']
-  - id: 'doi:10.1093/imrn/rny201'
-    title: 'Genus-One Gromov–Witten Invariants of Quintic Three-folds via MSP Localization'
-    year: 2018
-    coauthors: [zhang-huailiang, 'Wei-Ping Li', 'Jie Zhou']
-    doi: '10.1093/imrn/rny201'
-    journal: 'International Mathematics Research Notices'
-    openalex_id: W2976868130
-    sources: [openalex]
-    no_arxiv: true
-  - id: '1711.10118'
-    title: 'Genus one GW invariants of quintic threefolds via MSP localization'
+  - id: "1711.10118"
+    title: "Genus one GW invariants of quintic threefolds via MSP localization"
     year: 2017
-    coauthors: [zhang-huailiang, 'Wei-Ping Li', 'Jie Zhou']
-    journal: 'International Mathematics Research Notices, Volume 2020, Issue 19, October 2020, Pages 6421-6462'
-    primary_category: math.AG
-    openalex_id: W2770763159
-    sources: [arxiv, openalex]
+    coauthors: ["zhang-huailiang", "Wei-Ping Li", "Jie Zhou"]
+    journal: "International Mathematics Research Notices 2020, no. 19, 6421–6462"
+    primary_category: "math.AG"
+    openalex_id: "W2770763159"
+    sources: ["openalex", "arxiv", "crossref", "manual"]
+    doi: "10.1093/imrn/rny201"
   - id: '1709.07392'
     title: 'A mirror theorem for genus two Gromov-Witten invariants of quintic threefolds'
     year: 2017
@@ -308,8 +292,8 @@ publications:
     sources: [openalex]
     no_arxiv: true
 activity:
-  total_papers: 25
-  published_count: 13
+  total_papers: 23
+  published_count: 11
   preprint_only_count: 12
   h_index: 7
   active_period: '2011-present'
@@ -360,6 +344,26 @@ personal_notes: |
   2026 HUST 会议报告: higher-genus GW Theory of O(p-1)⊕O(-p-1)。
   周坚学生圈在北大的关键承接者之一；季策由其指导后进入清华水木学者阶段，使 PKU/BICMR 与清华张友金、周坚方向继续连通。
 sources:
+  - label: '[Codex] 2026-10-08：预印本 1810.00394'
+    url: https://arxiv.org/abs/1810.00394
+    last_verified: '2026-10-08'
+    notes: 核对题名、作者与论文首末页；保留首次预印本年份，期刊年份另列。
+  - label: '[Codex] 2026-10-08：期刊版 10.1215/00127094-2025-0038'
+    url: https://doi.org/10.1215/00127094-2025-0038
+    last_verified: '2026-10-08'
+    notes: 与预印本的题名、完整作者及正文题首页或摘要对照；出版信息来自出版社登记的 Crossref 元数据。本项不认证整个人物档案。
+  - label: '[Codex] 2026-10-08：预印本 1711.10118'
+    url: https://arxiv.org/abs/1711.10118
+    last_verified: '2026-10-08'
+    notes: 核对题名、作者与论文首末页；保留首次预印本年份，期刊年份另列。
+  - label: '[Codex] 2026-10-08：期刊版 10.1093/imrn/rny201'
+    url: https://doi.org/10.1093/imrn/rny201
+    last_verified: '2026-10-08'
+    notes: 与预印本的题名、完整作者及正文题首页或摘要对照；出版信息来自出版社登记的 Crossref 元数据。本项不认证整个人物档案。
+  - label: '[Codex] 2026-10-08：GLSM 论文的刊物信息待核'
+    url: https://arxiv.org/abs/2312.11174v5
+    last_verified: '2026-10-08'
+    notes: 本轮核对 v5 正文与 arXiv 页面；原有 Open MIND 刊名缺少一手出版依据，暂不采用。这不表示已确认该论文未发表。
   - label: "[Codex] 2026-10-08：北大教师页的任职单位与年份"
     url: "https://www.math.pku.edu.cn/jsdw/js_20180628175159671361/g_20180628175159671361/69922.htm"
     notes: "2011–2013 为 BICMR 博士后；2013 年起讲师、副教授、教授职位列在数学科学学院。"

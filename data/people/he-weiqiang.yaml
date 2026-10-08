@@ -13,7 +13,7 @@ career_timeline:
     institution: null
     role: "博士"
     advisor: null
-    notes: "博士学位，具体学校和导师 [待验证]。可能师从胡建勋(Jianxun Hu)于中山大学"
+    notes: "博士学校、年份与导师尚待独立来源核实；不从合作论文推断师承。"
   - period: "[待验证]"
     type: position
     institution: tsinghua-ymsc
@@ -82,7 +82,7 @@ key_collaborators:
   - person: si-li
     since: 2015
     topic: "LG mirror symmetry conjecture, orbifold LG B-models, G-twisted braces, Kodaira-Spencer gravity"
-    papers_count: 5
+    papers_count: 4
   - person: "Yefeng Shen"
     since: 2015
     topic: "LG mirror symmetry, FJRW theory, Virasoro constraints, semisimple FJRW"
@@ -94,7 +94,7 @@ key_collaborators:
   - person: hu-jianxun
     since: 2013
     topic: "Gromov-Witten invariants, blow-up formulae"
-    papers_count: 4
+    papers_count: 2
   - person: "Rachel Webb"
     since: 2015
     topic: "LG mirror symmetry conjecture"
@@ -187,15 +187,6 @@ publications:
     journal: 'Commun. Math. Phys. (2020)'
     primary_category: math.QA
     sources: [arxiv]
-  - id: 'doi:10.1007/s00209-018-2043-z'
-    title: 'Blow-up formulae of high genus Gromov–Witten invariants for threefolds'
-    year: 2018
-    coauthors: [hu-jianxun, ke-huazhong, 'Xiaoxia Qi']
-    doi: '10.1007/s00209-018-2043-z'
-    journal: 'Mathematische Zeitschrift'
-    openalex_id: W2792779451
-    sources: [openalex]
-    no_arxiv: true
   - id: '1503.01757'
     title: 'Landau-Ginzburg mirror symmetry conjecture'
     year: 2015
@@ -205,19 +196,15 @@ publications:
     primary_category: math.AG
     openalex_id: W3213938361
     sources: [arxiv, openalex]
-  - id: '1402.4221'
-    title: 'Blow-up formulae of high genus Gromov-Witten invariants in dimension six'
+  - id: "1402.4221"
+    title: "Blow-up formulae of high genus Gromov-Witten invariants in dimension six"
     year: 2014
-    coauthors: [hu-jianxun, ke-huazhong, 'Xiaoxia Qi']
-    primary_category: math.AG
-    openalex_id: W4294150699
-    sources: [arxiv, openalex]
-  - id: '1402.4221.'
-    title: 'A Blowup formula of high genus Gromov-Witten invariants in dimensional six'
-    year: 2014
-    coauthors: [hu-jianxun, ke-huazhong, 'Xiaoxia Qi']
-    openalex_id: W1771841147
-    sources: [openalex]
+    coauthors: ["hu-jianxun", "ke-huazhong", "Xiaoxia Qi"]
+    primary_category: "math.AG"
+    openalex_id: "W4294150699"
+    sources: ["openalex", "arxiv", "crossref", "manual"]
+    doi: "10.1007/s00209-018-2043-z"
+    journal: "Mathematische Zeitschrift 290 (2018), 857–872"
   - id: '1308.3634'
     title: 'Orbifold Gromov-Witten invariants of weighted blow-up at smooth points'
     year: 2013
@@ -228,9 +215,9 @@ publications:
     openalex_id: W2950035906
     sources: [arxiv, openalex]
 activity:
-  total_papers: 15
+  total_papers: 13
   published_count: 11
-  preprint_only_count: 4
+  preprint_only_count: 2
   active_period: '2013-present'
   confidence: 'has-3-review-pending'
 external_ids:
@@ -239,8 +226,7 @@ links:
   homepage: 'https://math.sysu.edu.cn/teacher/2906'
 personal_notes: |
   中山大学数学学院副教授。曾在清华大学丘成桐中心做博士后（受 Tsinghua Postdoc Grant 资助）。
-  博士学位来源和导师尚未查明。早期与胡建勋(Jianxun Hu)合作 GW blow-up 公式 (2013-2014)，
-  可能博士师从胡建勋 [待验证]。
+  博士学位来源和导师尚待核实。早期与胡建勋(Jianxun Hu)合作 GW blow-up 公式 (2013-2014)。
   核心成果：与 Si Li, Yefeng Shen, Rachel Webb 合作证明 LG mirror symmetry conjecture (JEMS 2022)，
   这是该方向的里程碑式结果。
   研究方向涵盖：(1) FJRW theory 和 LG mirror symmetry (核心方向);
@@ -253,6 +239,14 @@ personal_notes: |
   研究：orbifold Landau–Ginzburg B-models, G-Frobenius 代数, BCOV / Kodaira–Spencer 引力, BV 形式化, Hochschild 上同调
   趣闻：在中山大学珠海校区代数几何/数学物理小组,与 Changzheng Li、Lei Song、Heng Xie 等同事
 sources:
+  - label: '[Codex] 2026-10-08：预印本 1402.4221'
+    url: https://arxiv.org/abs/1402.4221
+    last_verified: '2026-10-08'
+    notes: 核对题名、作者与论文首末页；保留首次预印本年份，期刊年份另列。
+  - label: '[Codex] 2026-10-08：期刊版 10.1007/s00209-018-2043-z'
+    url: https://doi.org/10.1007/s00209-018-2043-z
+    last_verified: '2026-10-08'
+    notes: 与预印本的题名、完整作者及正文题首页或摘要对照；出版信息来自出版社登记的 Crossref 元数据。本项不认证整个人物档案。
   - label: '中山大学数学学院'
     url: 'https://math.sysu.edu.cn/teacher/2906'
   - label: 'ResearchGate'

@@ -104,7 +104,7 @@ key_collaborators:
   - person: chan-kwokwai
     since: 2010
     topic: "SYZ mirror symmetry, quantization, toric CY"
-    papers_count: 20
+    papers_count: 21
   - person: li-qin
     since: 2015
     topic: "Quantization of Kähler manifolds, Bargmann-Fock sheaves"
@@ -112,11 +112,11 @@ key_collaborators:
   - person: li-changzheng
     since: 2008
     topic: "Quantum Pieri rules, quantum cohomology of flag varieties"
-    papers_count: 10
+    papers_count: 8
   - person: yau-shingtung
     since: 2001
     topic: "Special Lagrangian, Hermitian-Yang-Mills, Fourier-Mukai"
-    papers_count: 4
+    papers_count: 1
 publications:
   - id: '2604.26292'
     title: 'Brane quantization and SYZ mirror symmetry'
@@ -403,14 +403,15 @@ publications:
     journal: 'Bulletin of the London Mathematical Society'
     primary_category: math.SG
     sources: [arxiv]
-  - id: '1007.1683'
-    title: 'Functorial relationships between quantum cohomology of complete and partial flag varieties'
+  - id: "1007.1683"
+    title: "Functorial relationships between quantum cohomology of complete and partial flag varieties"
     year: 2010
-    coauthors: [li-changzheng]
-    journal: 'J. Differential Geom. 86 (2010)'
-    primary_category: math.AG
-    openalex_id: W2104542334
-    sources: [arxiv, openalex]
+    coauthors: ["li-changzheng"]
+    journal: "Journal of Differential Geometry 86 (2010), no. 2"
+    primary_category: "math.AG"
+    openalex_id: "W2104542334"
+    sources: ["arxiv", "openalex", "crossref", "manual"]
+    doi: "10.4310/jdg/1299766790"
   - id: '1006.3828'
     title: 'A relation for Gromov-Witten invariants of local Calabi-Yau threefolds'
     year: 2010
@@ -426,15 +427,6 @@ publications:
     doi: '10.4310/jsg.2010.v8.n2.a2'
     journal: 'Journal of Symplectic Geometry'
     openalex_id: W2069308153
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.4310/jdg/1299766790'
-    title: 'Functorial relationships between $QH*(G/B)$ and $QH*(G/P)$'
-    year: 2010
-    coauthors: [li-changzheng]
-    doi: '10.4310/jdg/1299766790'
-    journal: 'Journal of Differential Geometry'
-    openalex_id: W1545926607
     sources: [openalex]
     no_arxiv: true
   - id: '0808.1551'
@@ -551,9 +543,9 @@ publications:
     sources: [openalex]
     no_arxiv: true
 activity:
-  total_papers: 52
-  published_count: 44
-  preprint_only_count: 8
+  total_papers: 51
+  published_count: 42
+  preprint_only_count: 9
   active_period: '1993-present'
   confidence: 'has-7-review-pending'
   notes: 'ICCM Best Paper Award 多项'
@@ -586,6 +578,14 @@ personal_notes: |
   奖项：2010 ICCM **陈省身奖** — https://www.cpr.cuhk.edu.hk/en/press/cuhk-mathematics-talents-win-prominent-awards/
   趣闻：与 Yau 长期合作;学生 Kwok-wai Chan 凭博士论文获 New World Mathematics Awards 银奖,现 CUHK 同事兼合作者
 sources:
+  - label: '[Codex] 2026-10-08：预印本 1007.1683'
+    url: https://arxiv.org/abs/1007.1683
+    last_verified: '2026-10-08'
+    notes: 核对题名、作者与论文首末页；保留首次预印本年份，期刊年份另列。
+  - label: '[Codex] 2026-10-08：期刊版 10.4310/jdg/1299766790'
+    url: https://doi.org/10.4310/jdg/1299766790
+    last_verified: '2026-10-08'
+    notes: 与预印本的题名、完整作者及正文题首页或摘要对照；出版信息来自出版社登记的 Crossref 元数据。本项不认证整个人物档案。
   - label: 'CUHK 数学系主页'
     url: 'https://www.math.cuhk.edu.hk/people/academic-staff/leung'
   - label: '个人主页 (IMS)'

@@ -1,0 +1,52 @@
+{
+  "reviewer": "Codex",
+  "date": "2026-10-08",
+  "status": "Pending source leads, not adopted facts",
+  "prior_report": "biography-bibliography-and-source-notes-review.json",
+  "items": [
+    {
+      "topic": "Official Hu/He education, appointments and mentorship",
+      "files": [
+        "data/people/hu-jianxun.yaml",
+        "data/people/he-weiqiang.yaml"
+      ],
+      "source_leads": [
+        "https://math.sysu.edu.cn/node/484",
+        "https://math.sysu.edu.cn/teacher/2906",
+        "https://ceremony.sysu.edu.cn/news/138553.htm",
+        "https://math.sysu.edu.cn/event/3546"
+      ],
+      "action": "Read accessible primary sources; graduation story same name is only a lead until identity and dates are bridged. Resolve official degree-year conflict without exposing private phone. Audit remaining prizes, book-editorship and conference claims."
+    },
+    {
+      "topic": "Advisor relationships inferred from coauthorship",
+      "file": "data/connections/advisor-student.yaml",
+      "action": "Inventory uncertainty markers and duplicate source-target pairs; verify with thesis/CV. Keep unresolved relationships separate from confirmed graph. Do not infer mentorship or lack of mentorship from coauthorship."
+    },
+    {
+      "topic": "Wang/Yang/Leung biography",
+      "files": [
+        "data/people/wang-zhiyuan.yaml",
+        "data/people/yang-chenglang.yaml",
+        "data/people/leung-naichung.yaml"
+      ],
+      "action": "Check BICMR versus PKU School appointments/degrees, current roles and Leung doctoral timeline/mentor against primary source. Stale OpenAlex quality tiers do not establish accuracy."
+    },
+    {
+      "topic": "Remaining bibliography leads",
+      "items": [
+        "2312.11174 formal publication unresolved",
+        "Wu Longting1103.4695 identity",
+        "BoalchW4307615951 slides type",
+        "Ke Huazhong2605.16051 indexed candidate",
+        "Hu2501.04984/2311.07341 verify author identity from paper, not title or name alone",
+        "All legacy identifiers and remaining title differences"
+      ],
+      "action": "Continue bounded primary-source review. Same-name or topic mismatch alone is not a final verdict."
+    },
+    {
+      "topic": "Whole-site coverage and usability",
+      "action": "Continue58mainconcepts,115institutions,conferences,timeline,relationships and all person prose; test paper finding/search usability. These leads do not replace the original whole-site Goal."
+    }
+  ]
+}

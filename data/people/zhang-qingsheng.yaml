@@ -83,11 +83,11 @@ key_collaborators:
   - person: yang-chenglang
     since: 2023
     topic: "BKP-affine coordinates, emergent geometry"
-    papers_count: 3
+    papers_count: 2
   - person: wang-zhiyuan
     since: 2023
     topic: "BKP-affine coordinates"
-    papers_count: 2
+    papers_count: 1
 publications:
   - id: '2608.29870'
     title: 'Wall-crossing formula and genus-one Virasoro conjecture for Fano complete intersections'
@@ -113,28 +113,21 @@ publications:
     coauthors: [guo-shuai]
     primary_category: math-ph
     sources: [arxiv]
-  - id: 'doi:10.1016/j.aim.2024.110100'
-    title: 'BKP-affine coordinates and emergent geometry of generalized Brézin-Gross-Witten tau-functions'
-    year: 2025
-    coauthors: [wang-zhiyuan, yang-chenglang]
-    doi: '10.1016/j.aim.2024.110100'
-    journal: 'Advances in Mathematics'
-    openalex_id: W4406119208
-    sources: [crossref, openalex]
-    no_arxiv: true
   - id: '2309.12271'
     title: 'A generalization of the Witten conjecture through spectral curve'
     year: 2023
     coauthors: [ji-ce, guo-shuai]
     primary_category: math-ph
     sources: [arxiv]
-  - id: '2301.01131'
-    title: 'BKP-Affine Coordinates and Emergent Geometry of Generalized BGW Tau-Functions'
+  - id: "2301.01131"
+    title: "BKP-affine coordinates and emergent geometry of generalized Brézin-Gross-Witten tau-functions"
     year: 2023
-    coauthors: [yang-chenglang, wang-zhiyuan]
-    primary_category: math-ph
-    openalex_id: W4313533009
-    sources: [arxiv, openalex]
+    coauthors: ["yang-chenglang", "wang-zhiyuan"]
+    primary_category: "math-ph"
+    openalex_id: "W4313533009"
+    sources: ["crossref", "openalex", "arxiv", "manual"]
+    doi: "10.1016/j.aim.2024.110100"
+    journal: "Advances in Mathematics 462 (2025), 110100"
   - id: '2303.09243'
     title: 'On a new proof of the Okuyama--Sakai conjecture'
     year: 2023
@@ -154,9 +147,9 @@ publications:
     doi: '10.1007/jhep09(2019)075'
     primary_category: math-ph
 activity:
-  total_papers: 10
+  total_papers: 9
   published_count: 3
-  preprint_only_count: 7
+  preprint_only_count: 6
   active_period: '2019-present'
 external_ids:
   orcid: "0000-0002-2777-8248"
@@ -198,6 +191,14 @@ personal_notes: |
   工作，把 Gromov-Witten 理论、Virasoro 约束、topological recursion 与 integrable hierarchy 连接起来。
   注意 PKU 数学院博后页面另有一位"张庆生"是丁剑组概率/随机游动方向，不是同一人，须按导师和研究方向消歧。
 sources:
+  - label: '[Codex] 2026-10-08：预印本 2301.01131'
+    url: https://arxiv.org/abs/2301.01131
+    last_verified: '2026-10-08'
+    notes: 核对题名、作者与论文首末页；保留首次预印本年份，期刊年份另列。
+  - label: '[Codex] 2026-10-08：期刊版 10.1016/j.aim.2024.110100'
+    url: https://doi.org/10.1016/j.aim.2024.110100
+    last_verified: '2026-10-08'
+    notes: 与预印本的题名、完整作者及正文题首页或摘要对照；出版信息来自出版社登记的 Crossref 元数据。本项不认证整个人物档案。
   - label: "[Codex] 2026-10-08：大湾区大学主页的历史工作单位"
     url: "https://www.gbu.edu.cn/detail/article/1147"
     notes: "页面明确列北京大学数学学院博士后；本轮不据此核实导师归属。"

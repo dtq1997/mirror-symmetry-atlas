@@ -128,7 +128,7 @@ key_collaborators:
 - person: guo-shuai
   since: 2017
   topic: NMSP, BCOV Feynman rule, polynomial structure of GW potential of quintic
-  papers_count: 9
+  papers_count: 6
 - person: liu-melissa
   since: 2015
   topic: MSP fields of Fermat quintic, effective theory of GW and FJRW
@@ -146,15 +146,6 @@ key_collaborators:
   topic: Virtual residue, quasimaps with fields
   papers_count: 2
 publications:
-  - id: 'doi:10.1215/00127094-2025-0038'
-    title: 'BCOV Feynman rule of the quintic threefold'
-    year: 2026
-    coauthors: [guo-shuai, 'Jun Li']
-    doi: '10.1215/00127094-2025-0038'
-    journal: 'Duke Mathematical Journal'
-    openalex_id: W7147670578
-    sources: [openalex]
-    no_arxiv: true
   - id: '2504.09552'
     title: 'Irregular vanishing on P^2 × P^2'
     year: 2025
@@ -168,14 +159,13 @@ publications:
     primary_category: math.AG
     openalex_id: W4390041030
     sources: [arxiv, openalex]
-  - id: '2312.11174'
-    title: 'Stability conditions in the mathematical Gauged Linear Sigma Model'
+  - id: "2312.11174"
+    title: "Stability conditions in the mathematical Gauged Linear Sigma Model"
     year: 2023
-    coauthors: [guo-shuai, 'Jun Li', 'Wei-Ping Li', 'Yang Zhou']
-    journal: 'Open MIND'
-    primary_category: math.AG
-    openalex_id: W4390040998
-    sources: [arxiv, openalex]
+    coauthors: ["guo-shuai", "Jun Li", "Wei-Ping Li", "Yang Zhou"]
+    primary_category: "math.AG"
+    openalex_id: "W4390040998"
+    sources: ["arxiv", "openalex", "manual"]
   - id: '1907.06152'
     title: 'On the mathematics and physics of Mixed Spin P-Fields'
     year: 2019
@@ -184,13 +174,15 @@ publications:
     journal: 'Proceedings of Symposia in Pure Mathematics, Vol 96, 2017'
     primary_category: math.AG
     sources: [arxiv]
-  - id: '1810.00394'
-    title: 'BCOV''s Feynman rule of quintic $3$-folds'
+  - id: "1810.00394"
+    title: "BCOV's Feynman rule of quintic $3$-folds"
     year: 2018
-    coauthors: [guo-shuai, 'Jun Li']
-    primary_category: math.AG
-    openalex_id: W2920263040
-    sources: [arxiv, openalex]
+    coauthors: ["guo-shuai", "Jun Li"]
+    primary_category: "math.AG"
+    openalex_id: "W2920263040"
+    sources: ["openalex", "arxiv", "crossref", "manual"]
+    doi: "10.1215/00127094-2025-0038"
+    journal: "Duke Mathematical Journal 175 (2026), no. 4, 607–675"
   - id: '1809.11058'
     title: 'Polynomial structure of Gromov-Witten potential of quintic $3$-folds via NMSP'
     year: 2018
@@ -208,15 +200,6 @@ publications:
     journal: 'Geom. Topol. 25 (2021) 775-811'
     primary_category: 'math.AG'
     sources: ['arxiv', 'manual']
-  - id: 'doi:10.1093/imrn/rny201'
-    title: 'Genus-One Gromov–Witten Invariants of Quintic Three-folds via MSP Localization'
-    year: 2018
-    coauthors: [guo-shuai, 'Wei-Ping Li', 'Jie Zhou']
-    doi: '10.1093/imrn/rny201'
-    journal: 'International Mathematics Research Notices'
-    openalex_id: W2976868130
-    sources: [openalex]
-    no_arxiv: true
   - id: '1806.00216'
     title: 'Algebraic virtual cycles for quantum singularity theories'
     year: 2018
@@ -233,14 +216,15 @@ publications:
     journal: 'Transactions of the American Mathematical Society'
     primary_category: math.AG
     sources: [arxiv]
-  - id: '1711.10118'
-    title: 'Genus one GW invariants of quintic threefolds via MSP localization'
+  - id: "1711.10118"
+    title: "Genus one GW invariants of quintic threefolds via MSP localization"
     year: 2017
-    coauthors: [guo-shuai, 'Wei-Ping Li', 'Jie Zhou']
-    journal: 'International Mathematics Research Notices, Volume 2020, Issue 19, October 2020, Pages 6421-6462'
-    primary_category: math.AG
-    openalex_id: W2770763159
-    sources: [arxiv, openalex]
+    coauthors: ["guo-shuai", "Wei-Ping Li", "Jie Zhou"]
+    journal: "International Mathematics Research Notices 2020, no. 19, 6421–6462"
+    primary_category: "math.AG"
+    openalex_id: "W2770763159"
+    sources: ["openalex", "arxiv", "crossref", "manual"]
+    doi: "10.1093/imrn/rny201"
   - id: '1708.02902'
     title: 'A vanishing associated with irregular MSP fields'
     year: 2017
@@ -345,8 +329,8 @@ publications:
     primary_category: math.AG
     sources: [arxiv]
 activity:
-  total_papers: 27
-  published_count: 18
+  total_papers: 24
+  published_count: 15
   preprint_only_count: 9
   active_period: '2007-present'
   confidence: 'has-37-review-pending'
@@ -371,6 +355,26 @@ personal_notes: |
   趣闻：注意用户写"Huailiang Zhang"，**实为 Chang 张怀良**(姓 Chang/張) — 普通话拼音常被搞混. MSP 项目是 quintic CY 高亏格 GW 理论的重大进展之一
   媒体/社交：学界低调
 sources:
+  - label: '[Codex] 2026-10-08：预印本 1810.00394'
+    url: https://arxiv.org/abs/1810.00394
+    last_verified: '2026-10-08'
+    notes: 核对题名、作者与论文首末页；保留首次预印本年份，期刊年份另列。
+  - label: '[Codex] 2026-10-08：期刊版 10.1215/00127094-2025-0038'
+    url: https://doi.org/10.1215/00127094-2025-0038
+    last_verified: '2026-10-08'
+    notes: 与预印本的题名、完整作者及正文题首页或摘要对照；出版信息来自出版社登记的 Crossref 元数据。本项不认证整个人物档案。
+  - label: '[Codex] 2026-10-08：预印本 1711.10118'
+    url: https://arxiv.org/abs/1711.10118
+    last_verified: '2026-10-08'
+    notes: 核对题名、作者与论文首末页；保留首次预印本年份，期刊年份另列。
+  - label: '[Codex] 2026-10-08：期刊版 10.1093/imrn/rny201'
+    url: https://doi.org/10.1093/imrn/rny201
+    last_verified: '2026-10-08'
+    notes: 与预印本的题名、完整作者及正文题首页或摘要对照；出版信息来自出版社登记的 Crossref 元数据。本项不认证整个人物档案。
+  - label: '[Codex] 2026-10-08：GLSM 论文的刊物信息待核'
+    url: https://arxiv.org/abs/2312.11174v5
+    last_verified: '2026-10-08'
+    notes: 本轮核对 v5 正文与 arXiv 页面；原有 Open MIND 刊名缺少一手出版依据，暂不采用。这不表示已确认该论文未发表。
   - label: 'HKUST Math Faculty'
     url: 'https://www.math.hkust.edu.hk/~mahlchang/'
   - label: 'HKUST Faculty Profile'

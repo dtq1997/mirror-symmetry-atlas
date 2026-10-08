@@ -73,6 +73,8 @@ export interface PersonLinks {
 export interface SourceRef {
   label: string;
   url: string;
+  notes?: string;
+  last_verified?: string;
 }
 
 export type DatePrecision = "year" | "month" | "day" | "circa" | "unknown";
