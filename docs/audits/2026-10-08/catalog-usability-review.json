@@ -1,0 +1,49 @@
+{
+  "reviewer": "Codex",
+  "date": "2026-10-08",
+  "scope": "Paper catalog view, search, filters and progressive rendering. No factual certification or source-data modifications.",
+  "counts": {
+    "people": 96,
+    "raw_publication_rows": 2208,
+    "catalog_groups": 1808,
+    "owners": 90,
+    "with_publication_clues": 1278,
+    "initial_cards": 50,
+    "classic_items": 12
+  },
+  "source_data": {
+    "yaml_files_unchanged": 326,
+    "all_hashes_match": true,
+    "manifest_sha256": "2b199fe81ed25c18bbc51d7ce8c2fe193ee525726819dfa928e0191f73601786"
+  },
+  "full_catalog_checks": {
+    "title_render_and_search": 1808,
+    "identifier_queries": 2934,
+    "owner_routes": 2207,
+    "title_parse_errors": 0,
+    "scope_note": "These checks cover all catalog titles, normalized identifiers and owner routes, including records outside the first 50 rendered cards. Export audit alone only covers initial HTML."
+  },
+  "html_bytes": {
+    "before": 6579151,
+    "after": 943240,
+    "scope_note": "Uncompressed exported papers.html only; not total network transfer or measured load time."
+  },
+  "verification": {
+    "site_regressions": 55,
+    "eslint": "passed",
+    "typecheck": "passed including final Next build",
+    "production_build": "passed with 2 workers; CIRCLE_NODE_TOTAL=3 for this command only",
+    "data_lint": {
+      "errors": 0,
+      "warnings": 73
+    },
+    "export_audit": "batch-twenty-two-export-audit.json",
+    "browser": "batch-twenty-two-preview-verification.json"
+  },
+  "limitations": [
+    "Search matches are not personal identity evidence. Author/owner/metadata fields retain existing uncertainties.",
+    "Classic works are a separate hand-picked list and are not controlled by catalog filters.",
+    "All records are available after hydration; without JavaScript the initial 50 records and classic works remain, and person profiles expose their full recorded lists.",
+    "No source YAML was changed, and no previous identity exclusion or unresolved factual lead was closed."
+  ]
+}

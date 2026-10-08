@@ -6,6 +6,7 @@
 
 [Codex] Goal仍active。以下是当前摘要；后面的早期“待发布/尚未恢复”是历史记录，不代表现在。
 
+- 第二十二批本地完成、待本批公开部署：论文目录加入中英文/题名/完整编号检索、收录人物/年份/出版线索组合筛选及每次50条渐进展示。1808组、2208原始行与326份YAML均未改变。55项回归；全目录1808题名/2934编号查询另行覆盖；静态首屏减少后导出为287HTML/16141链接/556公式实例，0问题。1280桌面及390×844手机实际检查、键盘/空结果/重置/100条增量检查通过；详见catalog-usability-review.json与batch-twenty-two-preview-verification.json。此项不认证论文归属或数据真值。
 - 原网站已发布二十一批修复。最近公开内容 commit `de5f65538fd429d5501b4963a6c55b60f12d8cbd`；Actions `37729394133` success，6个公开页面内容逐项核对通过；线上608×758当前论文与历史版本来源说明已实际查看，无横向溢出或console error。后续报告提交带skip ci，公开资产仍以上述commit为准。
 - 当前96人物、58主概念与3别名入口（61份原始记录）、107主机构与8别名入口（115份原始记录）、3开放问题；人物原始论文2208行，目录1808组（包括书籍/章节及译版，不等于独立研究论文总数）。287HTML/22809站内链接/691公式实例，未检出坏目标或KaTeX解析错误；data lint 0errors/73warnings；48项网站回归及CI全部检查通过。这不是全库事实或数学认证。
 - 新闻链与定时部署已恢复，72篇新闻在线；作者保留原始署名，不按姓氏猜身份。1237个完整arXiv当前元数据已取回，但并非全部归属已核实。
@@ -341,3 +342,5 @@ Goal仍active，转向概念内容的一手来源核查而非继续把绘图通�
 [Codex] 2026-10-08 第二十一批线上验收完成：commit `de5f65538fd429d5501b4963a6c55b60f12d8cbd`，Actions `37729394133` success。6页HTTP检查通过；公开饶胜页608×758实际查看当前卡片与历史版本说明，scrollWidth602，console error为空。截图publication-versions-live.png。预览PID76142已核对身份后SIGINT退出，tab15/16关闭，尺寸模拟已清除。Goal仍active。下一轮从论文目录查找体验及next-content-and-biography-leads.json接续；完整内容审计尚未完成。
 
 [Codex] 下一轮开场：继续 mirror-symmetry-atlas 全站整治 Goal。先读 docs/RECOVERY-STATE.md 并查git与最新部署；第二十一批已上线。优先完成论文目录中英文题名/作者/编号查找、组合筛选及渐进展示，复用collectPublications、paper-identity和出版线索口径；再沿next-content-and-biography-leads.json继续来源核实。未核事实保持待核，作者名单须比较版本，不把旧版本有效署名判错挂。本机资源仍需谨慎，必要时CIRCLE_NODE_TOTAL=3限制Next构建并发，只操作本仓库及本轮进程。
+
+[Codex] 2026-10-08 第二十二批待发布：新增搜索只作视图，不按名称合并身份；英文姓名词边界已用Qian/Weiqiang反例修正。全体来源编号留在归并对象的identifiers供搜索，原归并规则、代表记录及出版线索口径不变。论文页未压缩HTML从6579151降至943240字节，不冒充网络总量或加载时间测量。经典12条独立保留；无JavaScript时显示前50条及经典文献，可转人物档案查看完整收录。

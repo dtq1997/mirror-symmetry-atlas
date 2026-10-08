@@ -5,6 +5,8 @@ import { publicationMetadata } from "./publication-metadata";
 export interface CatalogPublication extends Publication {
   catalogKey: string;
   ownerSlugs: string[];
+  /** Keep searchable identifiers from every row without changing the display record. */
+  identifiers: string[];
 }
 
 /** Catalog counts refer to recorded works, not a person's complete output. */
@@ -18,6 +20,7 @@ export function collectPublications(people: Person[], options: { matchTitles?: b
       ...richest,
       catalogKey: `${canonicalPaperId(richest) ?? "unknown"}:${index}`,
       ownerSlugs: [...new Set(group.map((pub) => pub.ownerSlug))],
+      identifiers: [...new Set(group.flatMap((pub) => [pub.id, ...(pub.doi ? [pub.doi] : [])]))],
       // Other records can contain ambiguous name bindings; preserve the chosen record.
       coauthors: richest.coauthors ?? [],
     };

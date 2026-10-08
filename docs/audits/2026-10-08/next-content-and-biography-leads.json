@@ -26,7 +26,23 @@
         "组合筛选、无结果、清除、分页或加载更多可用；显示总数与当前范围。",
         "保留经典文献及其来源语义；手机/键盘和实际公网检查。",
         "本机资源紧张时使用已核实Next实现支持的CIRCLE_NODE_TOTAL=3，仅本次命令环境，避免9workers重试。"
-      ]
+      ],
+      "status": "implemented-local-awaiting-public",
+      "evidence": "catalog-usability-review.json"
+    },
+    {
+      "content_types": [
+        "people.publications identity",
+        "paper title encoding"
+      ],
+      "issue": "第二十二批目录实测发现两类未核实线索：丁岩峭名下10.1002/adom.202503766光学材料论文的作者身份；梁乃聪/李勤名下10.4310/pamq.260122023941题名显示K&amp;auml;hler，另有sup/sub原文标签。需回出版社/机构/作者来源逐条核对；跨主题本身不能判错挂，修转义不能直接把外来HTML当可信内容执行。",
+      "entry_files": [
+        "data/people/ding-yanqiao.yaml",
+        "data/people/leung-naichung.yaml",
+        "data/people/li-qin.yaml",
+        "src/lib/math-text.ts"
+      ],
+      "status": "unreviewed-leads-only"
     },
     {
       "content_types": [

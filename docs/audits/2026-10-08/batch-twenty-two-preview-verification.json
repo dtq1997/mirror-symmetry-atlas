@@ -1,0 +1,172 @@
+{
+  "reviewer": "Codex",
+  "date": "2026-10-08",
+  "url": "http://127.0.0.1:3847/mirror-symmetry-atlas/papers",
+  "checks": [
+    {
+      "case": "initial",
+      "cards": 50,
+      "classic": "经典文献手工精选，独立于上方筛选",
+      "height": 720,
+      "scrollWidth": 1274,
+      "status": "匹配 1808 条 · 已显示 50 条 · 全目录 1808 条",
+      "width": 1280
+    },
+    {
+      "case": "Chinese-name",
+      "status": "匹配 6 条 · 已显示 6 条 · 全目录 1808 条",
+      "titles": [
+        "Stokes Phenomenon and Yangians",
+        "Schröder Paths, Their Generalizations and Knot Invariants",
+        "The Boundary Condition for Some Isomonodromy Equations",
+        "On Some Developments of the Stokes Phenomenon",
+        "Stokes phenomenon and Poisson brackets in r-matrix form",
+        "A Characterization of Umbral Calculus Inspired by Fractional Sums"
+      ]
+    },
+    {
+      "case": "English-name",
+      "status": "匹配 7 条 · 已显示 7 条 · 全目录 1808 条",
+      "titles": [
+        "Stokes Phenomenon and Yangians",
+        "Schröder Paths, Their Generalizations and Knot Invariants",
+        "The Boundary Condition for Some Isomonodromy Equations",
+        "On Some Developments of the Stokes Phenomenon",
+        "Stokes phenomenon and Poisson brackets in r-matrix form",
+        "A Characterization of Umbral Calculus Inspired by Fractional Sums",
+        "Dispersionless integrable hierarchy via Kodaira-Spencer gravity"
+      ]
+    },
+    {
+      "case": "full-arxiv-version",
+      "status": "匹配 1 条 · 已显示 1 条 · 全目录 1808 条",
+      "titles": [
+        "Upper semicontinuity of algebraic dimension"
+      ]
+    },
+    {
+      "case": "English-name-corrected",
+      "status": "匹配 6 条 · 已显示 6 条 · 全目录 1808 条",
+      "titles": [
+        "Stokes Phenomenon and Yangians",
+        "Schröder Paths, Their Generalizations and Knot Invariants",
+        "The Boundary Condition for Some Isomonodromy Equations",
+        "On Some Developments of the Stokes Phenomenon",
+        "Stokes phenomenon and Poisson brackets in r-matrix form",
+        "A Characterization of Umbral Calculus Inspired by Fractional Sums"
+      ]
+    },
+    {
+      "case": "full-doi",
+      "status": "匹配 1 条 · 已显示 1 条 · 全目录 1808 条",
+      "titles": [
+        "Correlation Function of Self-Conjugate Partitions: q-Difference Equation and Q-Schur Expansion"
+      ]
+    },
+    {
+      "case": "reset-after-id-search",
+      "cards": 50,
+      "query": "",
+      "status": "匹配 1808 条 · 已显示 50 条 · 全目录 1808 条"
+    },
+    {
+      "case": "load-next",
+      "cards": 100,
+      "status": "匹配 1808 条 · 已显示 100 条 · 全目录 1808 条",
+      "unique": 100
+    },
+    {
+      "case": "owner-and-clues",
+      "cards": 27,
+      "status": "匹配 27 条 · 已显示 27 条 · 全目录 1808 条",
+      "unexpected": 0
+    },
+    {
+      "case": "combined-empty",
+      "classic": "经典文献手工精选，独立于上方筛选",
+      "empty": true,
+      "more": false,
+      "status": "匹配 0 条 · 已显示 0 条 · 全目录 1808 条"
+    },
+    {
+      "case": "reset-all",
+      "filters": [
+        "",
+        "",
+        "",
+        "all"
+      ],
+      "status": "匹配 1808 条 · 已显示 50 条 · 全目录 1808 条"
+    },
+    {
+      "case": "keyboard-search-to-owner",
+      "focused": "paper-owner"
+    },
+    {
+      "case": "keyboard-owner-to-year",
+      "focused": "paper-year"
+    },
+    {
+      "case": "keyboard-reset",
+      "status": "匹配 1808 条 · 已显示 50 条 · 全目录 1808 条"
+    },
+    {
+      "case": "viewport-capability-request",
+      "height": 844,
+      "scrollWidth": 384,
+      "width": 390
+    },
+    {
+      "case": "mobile-390-layout",
+      "controls": [
+        {
+          "height": 42,
+          "id": "paper-search",
+          "width": 302,
+          "x": 41
+        },
+        {
+          "height": 42,
+          "id": "paper-owner",
+          "width": 302,
+          "x": 41
+        },
+        {
+          "height": 42,
+          "id": "paper-year",
+          "width": 302,
+          "x": 41
+        },
+        {
+          "height": 42,
+          "id": "paper-publication",
+          "width": 302,
+          "x": 41
+        },
+        {
+          "height": 44,
+          "id": "清除搜索与筛选",
+          "width": 122,
+          "x": 41
+        }
+      ],
+      "errors": 0,
+      "height": 844,
+      "scrollWidth": 384,
+      "width": 390
+    },
+    {
+      "case": "mobile-search-and-owner",
+      "cards": 6,
+      "scrollWidth": 384,
+      "status": "匹配 6 条 · 已显示 6 条 · 全目录 1808 条",
+      "width": 390
+    }
+  ],
+  "consoleErrors": [],
+  "notes": [
+    "An intermediate substring search returned Weiqiang for Qian; corrected, new negative regression added and rechecked.",
+    "getByLabel exact selector did not resolve wrapped select in this browser adapter; role/name controls and keyboard operated correctly.",
+    "390x844 viewport and actual screenshot both verified; all temporary overrides reset."
+  ]
+}
