@@ -2,23 +2,24 @@
 
 [Codex] 2026-10-08。Goal **active**，原目标见 `RECOVERY-PLAN.md`。这不是已完成的全库事实认证。
 
-## 当前恢复入口（2026-10-08，第十一批线上验收后）
+## 当前恢复入口（2026-10-08，第十二批线上验收后）
 
 [Codex] Goal仍active。以下是当前摘要；后面的早期“待发布/尚未恢复”是历史记录，不代表现在。
 
-- 原网站已发布十一批修复。最近公开内容 commit `894494f1ecdd09fe87105c994053f0aec38c200e`；Actions `37709620184` success，首页/会议/三个人物/论文目录共6页HTTP核验，390px会议与Fang页、1280px Liu页实际核验完成。后续报告提交带skip ci，公开资产仍以上述commit为准。
-- 当前96人物、61概念、115机构、3开放问题；人物原始论文2223行，目录1819组（包括书籍/章节及译版，不等于独立研究论文总数）。283HTML/22271站内链接/642公式实例，未检出坏目标或KaTeX解析错误；data lint 0errors/74warnings；28项网站回归及CI全部检查通过。这不是全库事实或数学认证。
+- 原网站已发布十二批修复。最近公开内容 commit `025624331483b5063f797aecc87ae46f7b4ad741`；Actions `37711391648` success，首页/机构列表/六个机构详情共8页HTTP核验，115列表计数一致；390px BICMR和1280px IAS实际核验完成。后续报告提交带skip ci，公开资产仍以上述commit为准。
+- 当前96人物、61概念、115机构、3开放问题；人物原始论文2223行，目录1819组（包括书籍/章节及译版，不等于独立研究论文总数）。283HTML/22279站内链接/642公式实例，未检出坏目标或KaTeX解析错误；data lint 0errors/74warnings；31项网站回归及CI全部检查通过。这不是全库事实或数学认证。
 - 新闻链与定时部署已恢复，72篇新闻在线；作者保留原始署名，不按姓氏猜身份。1237个完整arXiv当前元数据已取回，但并非全部归属已核实。
 - 累计11条确认错挂、5条待核实归属已移出，1录像转网上痕迹，另8条来源确认的重复已合并。原始记录及来源分别保存在审核池或具名审计报告；身份排除受防回填检查保护，合并的有效DOI不能加入拒绝池。刘思齐41条、Mazzocco46条、Dubrovin64条。部分履历/论文修正不代表整个人物已核。
 - 图谱空按钮、共享数据突变、布局持续散开、手机侧栏/搜索、公式跨行渲染已修；年份筛选是累计有日期记录，机构筛选是历史履历关联，不猜现职。小屏全图仍可能局部标签重叠，可搜索放大。
 - 第八批统一出版线索口径；第九批修论文/新闻行内公式、重复与Hertling原刊标题；第十批修 Weyl 第一篇/续篇串接、1604.07123与1809.08806错题名，合并两组预印本/期刊重复。详见identifier-title-corrections.json、batch-ten-publication-counts.json、batch-ten-live-verification.json。Weyl续篇真实出版线索仍待补，不能说未发表。
 - 第十一批已上线：按CV修正Fang学历/任职/资助年份，补两篇2026年新作到三个作者的四行记录；会议邀请名单补Nest至18人，移除履历末项推断参会单位并展示官方来源。Fang24(18/6)、Liu61(47/14)、Zong24(15/9)，括号为出版线索/待补线索。见 profiles-new-papers-and-conference-review.json 与 batch-eleven-live-verification.json。
 - 继续复核52条题名差异和227条旧编号的早期快照（含已处理项/版本差异，不全是错）；郭帅2311.09804归属、2312.11174 Open MIND刊名、邬龙挺1103.4695归属、Boalch W4307615951幻灯片类型。旧 next-publication-source-leads.json 三组题名问题已由第十批处理，不重复修改。
-- 下一步看 `next-institution-and-name-leads.json`：机构列表与详情仍把履历末项/开放结束日期/旧current_members误当当前成员；BICMR成立年份1898错用北大年份，中心官方简介确认2005。缺档zaslow-eric机械显示为Zaslow Eric，Northwestern官方确认Eric Zaslow。来源已取，尚未修改这些文件；需完整阅读目标YAML并保留旧字段证据。
+- 第十二批已上线：115机构区分字面关联记录与带日期的任职来源；BICMR名称/性质/2005成立年已按官方简介修正，三条任职观察已附官方名单。不代表三个人物或全部机构事实已审完。旧字段完整保存在 institution-membership-and-bicmr-review.json；记录汇总见 institution-record-counts.json；线上验收见 batch-twelve-live-verification.json。
+- 下一步优先 `next-concept-graph-leads.json`：61概念的103对唯一related关系只画出61对，漏42对；81条leads_to无独立渲染。修绘图时保留关系类型，不把后续方向当必需前置，更不能据此确认数学关系。另见 `next-institution-and-name-leads.json`，Eric Zaslow缺档名称仍待修；Northwestern官方姓名和履历已取，尚未新建人物档案。
 - 全内容待办仍包括：人物公开叙述/履历/师生关系，Hertling整书/章节计数，61概念及概念图一侧related连线，115机构、会议/时间线/3开放问题一手来源，论文目录查找体验。必须继续覆盖这些类型，不能把论文元数据清理当全站完成。
 - content-inventory.json是第一批未核实基线，旧数量/全pending不覆盖后续分项证据。当前覆盖以具名审计的具体字段为准。
 - 不运行旧validate-publications.py --apply / detect-id-title-mismatch.py --write；OpenAlex v2仍有HTTP/缓存/评分风险，不能无人审查全库写入。
-- 继续只在本仓库；先查git状态，再沿此Goal推进。不要回academic-formula-workbench，不启动无关数学campaign。本轮没有启动预览服务；浏览器尺寸已复原。
+- 继续只在本仓库；先查git状态，再沿此Goal推进。不要回academic-formula-workbench，不启动无关数学campaign。本轮预览服务PID49353已核对身份并关闭，临时tab7已关闭；浏览器尺寸已复原，保留线上BICMR页。
 
 ## 以下为分批历史与证据记录
 
@@ -229,3 +230,8 @@ Goal仍active。继续本仓库全站审核；下一批优先机构归属模型�
 - 官方中心简介确认BICMR成立于2005，属北京大学独立教学科研单位。纠正名称、机构类型和1898误用，撤下未经独立核对的精确坐标；北大条目只修隶属关系。旧“建立方向/学派/7人代表团”等叙述没有得到本轮来源支持，从确定性简介撤下并完整保存在institution-membership-and-bicmr-review.json，不宣称已证伪。
 - 31项网站回归、ESLint、TypeScript、构建通过；lint仍0errors/74warnings。283HTML/22279链接/642公式实例未检出坏目标。institution-record-counts.json覆盖115机构的记录汇总，不是115机构事实已核准。人物96/概念61/机构115/原始论文2223/目录1819不变。
 - 390px检查BICMR、机构列表、列表到详情导航及旧记录展开；1280px检查IAS访问、SISSA历史和空记录页面，未见横向溢出或浏览器error。Eric Zaslow缺档名称、机构其余事实及各类内容审核继续待办。
+
+
+[Codex] 2026-10-08 第十二批线上验收完成：commit `025624331483b5063f797aecc87ae46f7b4ad741`，Actions `37711391648` success。八页HTTP全部符合本批预期，115机构列表数字与记录汇总一致；390px BICMR三条任职来源、20条人物关联及1280px IAS访问/历史任职均实际确认，未见横向溢出或error。截图 `bicmr-live-mobile.png`；证据 `batch-twelve-live-verification.json`。首张截图在绘制前截取，已用页面可见后的截图替换；没有把空画面当验收结果。仅本轮启动的预览PID49353经核对关闭，tab7关闭，尺寸复原。
+
+Goal仍active，完整内容核查未完成。下一步优先修概念图42对漏线及81条leads_to未独立处理（详见next-concept-graph-leads.json）；不得把YAML关系作为数学已证实的依据，不得将leads_to直接改成prerequisite。随后继续人物/论文来源、机构与会议、概念语义/时间线/开放问题。Eric Zaslow官方faculty页确认姓名、1995年Harvard物理博士、1998年入Northwestern、2022年Noyes冠名讲席，但仍未添加档案，不能称已修显示。

@@ -1,0 +1,177 @@
+{
+  "reviewer": "Codex",
+  "checked_at": "2026-10-08T01:12:07.852130+00:00",
+  "commit": "025624331483b5063f797aecc87ae46f7b4ad741",
+  "deployment_run": 37711391648,
+  "http_checks": [
+    {
+      "url": "https://dtq1997.github.io/mirror-symmetry-atlas/",
+      "status": 200,
+      "sha256": "92af1625fdb9fc98a5f68c78c3563d86dc01eff1bea9769719e0086bb327d2e2",
+      "checks": {
+        "catalog_1819": true
+      },
+      "passed": true
+    },
+    {
+      "url": "https://dtq1997.github.io/mirror-symmetry-atlas/institutions",
+      "status": 200,
+      "sha256": "8a3a4c6e533024b664bc7d2547bd9fca1beb1dd8c77071f316431fa37dede8b4",
+      "checks": {
+        "all115_counts": true,
+        "record_count_not_staff_total": true
+      },
+      "passed": true
+    },
+    {
+      "url": "https://dtq1997.github.io/mirror-symmetry-atlas/institutions/pku-bicmr",
+      "status": 200,
+      "sha256": "5043581d4608f888edc5e31ad8c50a74d83525838d40e8c59132d8ca4fe9c6fa",
+      "checks": {
+        "shared_count": true,
+        "no_current_members_heading": true,
+        "dating_limit": true,
+        "appointment_section": true,
+        "founding_correct": true,
+        "three_citations": true,
+        "checked_date": true,
+        "source_roles": true,
+        "old_claims_qualified": true,
+        "intro_source": true,
+        "unsupported_delegation_absent": true
+      },
+      "passed": true
+    },
+    {
+      "url": "https://dtq1997.github.io/mirror-symmetry-atlas/institutions/pku",
+      "status": 200,
+      "sha256": "643efaaa51cab58919644dcc1313c2c3974f654716eedf2cb8af26fbc4588d1a",
+      "checks": {
+        "shared_count": true,
+        "no_current_members_heading": true,
+        "dating_limit": true,
+        "appointment_section": true,
+        "unchecked_appointments_explicit": true
+      },
+      "passed": true
+    },
+    {
+      "url": "https://dtq1997.github.io/mirror-symmetry-atlas/institutions/ias",
+      "status": 200,
+      "sha256": "65f21ccc6d9201ccf4405212546895b96d9dffb97210204c3039129cb9b1743d",
+      "checks": {
+        "shared_count": true,
+        "no_current_members_heading": true,
+        "dating_limit": true,
+        "appointment_section": true,
+        "unchecked_appointments_explicit": true,
+        "dated_visit_retained": true
+      },
+      "passed": true
+    },
+    {
+      "url": "https://dtq1997.github.io/mirror-symmetry-atlas/institutions/sissa",
+      "status": 200,
+      "sha256": "b94219d3f946e9f4226136ea528fdca060c55983dcfa0b3327d07fed74968a21",
+      "checks": {
+        "shared_count": true,
+        "no_current_members_heading": true,
+        "dating_limit": true,
+        "appointment_section": true,
+        "unchecked_appointments_explicit": true,
+        "historical_dubrovin_retained": true
+      },
+      "passed": true
+    },
+    {
+      "url": "https://dtq1997.github.io/mirror-symmetry-atlas/institutions/notre-dame",
+      "status": 200,
+      "sha256": "783dc3406731ec36166bccc0bf8f38bb5c9ff21074c122988cfb37f15dbd1854",
+      "checks": {
+        "shared_count": true,
+        "no_current_members_heading": true,
+        "dating_limit": true,
+        "appointment_section": true,
+        "unchecked_appointments_explicit": true
+      },
+      "passed": true
+    },
+    {
+      "url": "https://dtq1997.github.io/mirror-symmetry-atlas/institutions/memorial-university",
+      "status": 200,
+      "sha256": "ef9c0f9e1f8bc978de868d30e8258795f6614ac27eb67f09809276231b020a16",
+      "checks": {
+        "shared_count": true,
+        "no_current_members_heading": true,
+        "dating_limit": true,
+        "appointment_section": true,
+        "unchecked_appointments_explicit": true,
+        "empty_records_explicit": true
+      },
+      "passed": true
+    }
+  ],
+  "preview": {
+    "checks": [
+      {
+        "page": "institutions/pku-bicmr",
+        "viewport": "390x844",
+        "overflow": false,
+        "checkedPeople": 3,
+        "recordedPeople": 20,
+        "oldGroupDisclosure": "expanded and shows unverified original current claim"
+      },
+      {
+        "page": "institutions",
+        "viewport": "390x844",
+        "overflow": false,
+        "bicmrCount": 20,
+        "clientNavigationToBicmr": "passed"
+      },
+      {
+        "page": "institutions/ias",
+        "viewport": "1280x900",
+        "recordedPeople": 2,
+        "fangVisit": "2017 春",
+        "currentAppointmentClaim": false
+      },
+      {
+        "page": "institutions/sissa",
+        "viewport": "1280x900",
+        "appointment": "任职来源核对\n\n本机构尚未录入逐项核对的任职来源；下方历史记录不代表现任名单。",
+        "heading": "国际高等研究院",
+        "overflow": false,
+        "records": "本站关联记录（14 人）\n\n按已有档案列出求学、任职、访问和组别记录，尚未逐项核实。时段沿用原记载，“至今”也不自动视为当前仍在任。\n\nBertola（未建档）\n组别旧记录（归属及时段待核实）\nBrini（未建档）\n组别旧记录（归属及时段待核实）\nCafasso（未建档）\n组别旧记录（归属及时段待核实）\nCarlet（未建档）\n组别旧记录（归属及时段待核实）\nGiordano Cotti\n求学 · 2012-2017 · MSc + PhD in Geometry and Mathematical Physics\n组别旧记录（归属及时段待核实）\n杜布罗文\n任职 · 1993-2019 · 正教授\n组别旧记录（归属及时段待核实）\nGrava（未建档）\n组别旧记录（归属及时段待核实）\nDavide Guzzetti\n求学 · 1995-2000 · 博士\n任职 · 2011-2017 · Assistant Professor\n任职 · 2018-present · Associate Professor\n组别旧记录（归属及时段待核实）\nLorenzoni（未建档）\n组别旧记录（归属及时段待核实）\nMarta Mazzocco\n求学 · 1994-1998 · 博士\n组别旧记录（归属及时段待核实）\n吴朝中\n任职 · 2010-2014 · 博士后, Marie Curie Fellow (INdAM)\n杨迪\n任职 · 2013-2016 · 博士后\n張懷良\n任职 · 2007-2009 · 数学物理博士后\n张友金\n访问 · 1996-1998 · 博士后"
+      },
+      {
+        "page": "institutions/memorial-university",
+        "viewport": "1280x900",
+        "appointment": "任职来源核对\n\n本机构尚未录入逐项核对的任职来源；下方历史记录不代表现任名单。",
+        "heading": "纽芬兰纪念大学",
+        "overflow": false,
+        "records": "本站关联记录（0 人）\n\n按已有档案列出求学、任职、访问和组别记录，尚未逐项核实。时段沿用原记载，“至今”也不自动视为当前仍在任。\n\n暂无关联记录。"
+      }
+    ],
+    "errorLogs": [],
+    "scope": "Bounded local UI checks; not full factual review"
+  },
+  "scope": "Eight live HTML pages including115 list counts; bounded browser views. Does not certify all institution facts.",
+  "live_browser": {
+    "mobile_bicmr": {
+      "viewport": "390x844",
+      "checkedAppointmentPeople": 3,
+      "recordedPeople": 20,
+      "overflow": false,
+      "screenshot": "bicmr-live-mobile.png"
+    },
+    "desktop_ias": {
+      "viewport": "1280x900",
+      "recordedPeople": 2,
+      "visit": "2017 春",
+      "noCurrentStaffClaim": true,
+      "overflow": false
+    },
+    "errorLogs": [],
+    "viewportRestored": true
+  }
+}

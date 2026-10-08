@@ -1,0 +1,519 @@
+{
+  "reviewer": "Codex",
+  "date": "2026-10-08",
+  "baseline_commit": "025624331483b5063f797aecc87ae46f7b4ad741",
+  "status": "Confirmed implementation gaps; no concept-data or graph edits applied in batch twelve",
+  "scope": "Literal YAML references and current graph implementation only, not correctness of mathematical relationships",
+  "concepts": 61,
+  "related_raw_rows": 112,
+  "related_unique_pairs": 103,
+  "old_drawn_pairs": 61,
+  "missing_related_pairs": [
+    [
+      "algebraic-geometry",
+      "complex-geometry"
+    ],
+    [
+      "algebraic-geometry",
+      "k-theory"
+    ],
+    [
+      "algebraic-geometry",
+      "number-theory"
+    ],
+    [
+      "algebraic-topology",
+      "homotopy-theory"
+    ],
+    [
+      "calabi-yau",
+      "crepant-transformation"
+    ],
+    [
+      "calabi-yau",
+      "hodge-theory"
+    ],
+    [
+      "calabi-yau",
+      "homological-mirror-symmetry"
+    ],
+    [
+      "calabi-yau",
+      "mirror-symmetry"
+    ],
+    [
+      "courant-algebroid",
+      "lie-2-algebra"
+    ],
+    [
+      "derived-category",
+      "homotopy-algebra"
+    ],
+    [
+      "derived-category",
+      "landau-ginzburg"
+    ],
+    [
+      "fjrw-theory",
+      "singularity-theory"
+    ],
+    [
+      "frobenius-manifold",
+      "frobenius-manifolds"
+    ],
+    [
+      "frobenius-manifold",
+      "painleve-equations"
+    ],
+    [
+      "frobenius-manifold",
+      "poisson-geometry"
+    ],
+    [
+      "frobenius-manifold",
+      "quantum-groups"
+    ],
+    [
+      "frobenius-manifold",
+      "stokes-phenomenon"
+    ],
+    [
+      "frobenius-manifold",
+      "twistor-structures"
+    ],
+    [
+      "fukaya-category",
+      "microlocal-sheaf"
+    ],
+    [
+      "gamma-conjecture",
+      "k-theory"
+    ],
+    [
+      "gromov-witten-theory",
+      "intersection-numbers"
+    ],
+    [
+      "gromov-witten-theory",
+      "symplectic-geometry"
+    ],
+    [
+      "gromov-witten-theory",
+      "tau-function"
+    ],
+    [
+      "homological-mirror-symmetry",
+      "landau-ginzburg"
+    ],
+    [
+      "integrable-hierarchy",
+      "moduli-spaces"
+    ],
+    [
+      "integrable-hierarchy",
+      "virasoro-constraints"
+    ],
+    [
+      "k-saito",
+      "primitive-forms"
+    ],
+    [
+      "mathematical-physics",
+      "noncommutative-geometry"
+    ],
+    [
+      "mathematical-physics",
+      "number-theory"
+    ],
+    [
+      "mirror-symmetry",
+      "primitive-forms"
+    ],
+    [
+      "mirror-symmetry",
+      "quantum-cohomology"
+    ],
+    [
+      "mirror-symmetry",
+      "singularity-theory"
+    ],
+    [
+      "mirror-symmetry",
+      "symplectic-topology"
+    ],
+    [
+      "mirror-symmetry",
+      "tau-function"
+    ],
+    [
+      "mirror-symmetry",
+      "topological-recursion"
+    ],
+    [
+      "mirror-symmetry",
+      "tqft"
+    ],
+    [
+      "painleve-equations",
+      "quantum-cluster-algebras"
+    ],
+    [
+      "poisson-geometry",
+      "quantum-groups"
+    ],
+    [
+      "quantum-groups",
+      "stokes-phenomenon"
+    ],
+    [
+      "singularity-theory",
+      "twistor-structures"
+    ],
+    [
+      "tau-function",
+      "topological-recursion"
+    ],
+    [
+      "topological-field-theory",
+      "wdvv-equations"
+    ]
+  ],
+  "leads_to_raw_rows": 81,
+  "leads_to_rows_without_dedicated_rendering": [
+    {
+      "from": "algebraic-geometry",
+      "to": "moduli-spaces"
+    },
+    {
+      "from": "algebraic-geometry",
+      "to": "derived-category"
+    },
+    {
+      "from": "algebraic-geometry",
+      "to": "gromov-witten-theory"
+    },
+    {
+      "from": "algebraic-topology",
+      "to": "k-theory"
+    },
+    {
+      "from": "algebraic-topology",
+      "to": "tqft"
+    },
+    {
+      "from": "calabi-yau",
+      "to": "mirror-symmetry"
+    },
+    {
+      "from": "calabi-yau",
+      "to": "homological-mirror-symmetry"
+    },
+    {
+      "from": "calabi-yau",
+      "to": "gromov-witten-theory"
+    },
+    {
+      "from": "complex-geometry",
+      "to": "calabi-yau"
+    },
+    {
+      "from": "complex-geometry",
+      "to": "mirror-symmetry"
+    },
+    {
+      "from": "derived-category",
+      "to": "homological-mirror-symmetry"
+    },
+    {
+      "from": "derived-category",
+      "to": "gamma-conjecture"
+    },
+    {
+      "from": "differential-geometry",
+      "to": "symplectic-geometry"
+    },
+    {
+      "from": "differential-geometry",
+      "to": "poisson-geometry"
+    },
+    {
+      "from": "differential-geometry",
+      "to": "flat-connection"
+    },
+    {
+      "from": "dubrovin-connection",
+      "to": "gamma-conjecture"
+    },
+    {
+      "from": "dubrovin-connection",
+      "to": "stokes-phenomenon"
+    },
+    {
+      "from": "enumerative-geometry",
+      "to": "gromov-witten-theory"
+    },
+    {
+      "from": "enumerative-geometry",
+      "to": "fjrw-theory"
+    },
+    {
+      "from": "fjrw-theory",
+      "to": "mirror-symmetry"
+    },
+    {
+      "from": "flat-connection",
+      "to": "frobenius-manifold"
+    },
+    {
+      "from": "flat-connection",
+      "to": "isomonodromy"
+    },
+    {
+      "from": "flat-connection",
+      "to": "stokes-phenomenon"
+    },
+    {
+      "from": "frobenius-manifold",
+      "to": "dubrovin-connection"
+    },
+    {
+      "from": "frobenius-manifold",
+      "to": "quantum-cohomology"
+    },
+    {
+      "from": "frobenius-manifold",
+      "to": "tt-star-geometry"
+    },
+    {
+      "from": "frobenius-manifold",
+      "to": "integrable-hierarchy"
+    },
+    {
+      "from": "fukaya-category",
+      "to": "homological-mirror-symmetry"
+    },
+    {
+      "from": "gromov-witten-theory",
+      "to": "quantum-cohomology"
+    },
+    {
+      "from": "gromov-witten-theory",
+      "to": "virasoro-constraints"
+    },
+    {
+      "from": "gromov-witten-theory",
+      "to": "mirror-symmetry"
+    },
+    {
+      "from": "hodge-theory",
+      "to": "tt-star-geometry"
+    },
+    {
+      "from": "homotopy-algebra",
+      "to": "deformation-quantization"
+    },
+    {
+      "from": "homotopy-theory",
+      "to": "k-theory"
+    },
+    {
+      "from": "homotopy-theory",
+      "to": "elliptic-cohomology"
+    },
+    {
+      "from": "integrable-hierarchy",
+      "to": "virasoro-constraints"
+    },
+    {
+      "from": "integrable-systems",
+      "to": "integrable-hierarchy"
+    },
+    {
+      "from": "integrable-systems",
+      "to": "frobenius-manifold"
+    },
+    {
+      "from": "integrable-systems",
+      "to": "painleve-equations"
+    },
+    {
+      "from": "intersection-numbers",
+      "to": "tau-function"
+    },
+    {
+      "from": "intersection-numbers",
+      "to": "topological-recursion"
+    },
+    {
+      "from": "isomonodromy",
+      "to": "painleve-equations"
+    },
+    {
+      "from": "isomonodromy",
+      "to": "frobenius-manifold"
+    },
+    {
+      "from": "landau-ginzburg",
+      "to": "fjrw-theory"
+    },
+    {
+      "from": "landau-ginzburg",
+      "to": "primitive-forms"
+    },
+    {
+      "from": "landau-ginzburg",
+      "to": "mirror-symmetry"
+    },
+    {
+      "from": "lie-algebroid",
+      "to": "courant-algebroid"
+    },
+    {
+      "from": "mathematical-physics",
+      "to": "integrable-hierarchy"
+    },
+    {
+      "from": "mathematical-physics",
+      "to": "frobenius-manifold"
+    },
+    {
+      "from": "mathematical-physics",
+      "to": "gromov-witten-theory"
+    },
+    {
+      "from": "mathematical-physics",
+      "to": "quantum-groups"
+    },
+    {
+      "from": "mathematical-physics",
+      "to": "tqft"
+    },
+    {
+      "from": "microlocal-sheaf",
+      "to": "homological-mirror-symmetry"
+    },
+    {
+      "from": "mirror-symmetry",
+      "to": "homological-mirror-symmetry"
+    },
+    {
+      "from": "mirror-symmetry",
+      "to": "syz-conjecture"
+    },
+    {
+      "from": "mirror-symmetry",
+      "to": "quantum-cohomology"
+    },
+    {
+      "from": "mirror-symmetry",
+      "to": "gromov-witten-theory"
+    },
+    {
+      "from": "moduli-spaces",
+      "to": "gromov-witten-theory"
+    },
+    {
+      "from": "poisson-geometry",
+      "to": "quantum-groups"
+    },
+    {
+      "from": "primitive-forms",
+      "to": "frobenius-manifold"
+    },
+    {
+      "from": "primitive-forms",
+      "to": "landau-ginzburg"
+    },
+    {
+      "from": "quantum-cohomology",
+      "to": "frobenius-manifold"
+    },
+    {
+      "from": "quantum-cohomology",
+      "to": "homological-mirror-symmetry"
+    },
+    {
+      "from": "quantum-groups",
+      "to": "stokes-phenomenon"
+    },
+    {
+      "from": "singularity-theory",
+      "to": "landau-ginzburg"
+    },
+    {
+      "from": "singularity-theory",
+      "to": "primitive-forms"
+    },
+    {
+      "from": "stokes-phenomenon",
+      "to": "isomonodromy"
+    },
+    {
+      "from": "stokes-phenomenon",
+      "to": "wild-character-varieties"
+    },
+    {
+      "from": "symplectic-geometry",
+      "to": "fukaya-category"
+    },
+    {
+      "from": "symplectic-geometry",
+      "to": "mirror-symmetry"
+    },
+    {
+      "from": "symplectic-geometry",
+      "to": "poisson-geometry"
+    },
+    {
+      "from": "symplectic-topology",
+      "to": "gromov-witten-theory"
+    },
+    {
+      "from": "symplectic-topology",
+      "to": "fukaya-category"
+    },
+    {
+      "from": "tau-function",
+      "to": "topological-recursion"
+    },
+    {
+      "from": "tau-function",
+      "to": "intersection-numbers"
+    },
+    {
+      "from": "topological-recursion",
+      "to": "intersection-numbers"
+    },
+    {
+      "from": "tqft",
+      "to": "frobenius-manifold"
+    },
+    {
+      "from": "tqft",
+      "to": "gromov-witten-theory"
+    },
+    {
+      "from": "wdvv-equations",
+      "to": "frobenius-manifold"
+    },
+    {
+      "from": "wdvv-equations",
+      "to": "integrable-hierarchy"
+    },
+    {
+      "from": "wdvv-equations",
+      "to": "virasoro-constraints"
+    }
+  ],
+  "referenced_unknown_related_slugs": [
+    "k-saito",
+    "quantum-cluster-algebras"
+  ],
+  "next_constraints": [
+    "Deduplicate unordered related pairs by a set, not by requiring the only stored direction to be lexicographically ascending.",
+    "Render leads_to with its own meaning; do not silently reclassify further-study suggestions as mandatory prerequisites.",
+    "Missing related targets need the same explicit unrecorded treatment as other missing concept references.",
+    "Preserve literal YAML and evidence uncertainty; mathematics, chronology and duplicate-concept review are separate pending work.",
+    "Test one-sided/reversed/duplicate references, cycles and missing nodes; check UI legend, filtering and mobile sidebar."
+  ]
+}
