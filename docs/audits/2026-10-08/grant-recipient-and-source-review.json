@@ -1,7 +1,7 @@
 {
   "reviewed_by": "Codex",
   "date": "2026-10-08",
-  "status": "local-validation-complete-awaiting-deployment",
+  "status": "deployed-and-publicly-verified",
   "scope": "Grant recipient binding; no project leadership or duration inference",
   "before_files": {
     "data/connections/grant.yaml": {
@@ -1031,5 +1031,25 @@
         }
       ]
     }
-  ]
+  ],
+  "related_failure_scan": {
+    "paths": [
+      "data/people",
+      "data/institutions",
+      "data/conferences"
+    ],
+    "query": "11771238|11831017|12171006|12271529|共享基金|共同.*基金|基金.*合作|刘小博主持|张友金主持",
+    "finding": "Only a Zeng Haozhi personal NSFC11901218 note matched broad cooperation words; none of the withdrawn manual PI/shared-grant phrases found in those paths. This is a targeted text scan, not all grant biography validation."
+  },
+  "deployment": {
+    "commit": "121b6dd33ad594dafe56f2406cfd601725b4b29f",
+    "actions_run": 37739178616,
+    "conclusion": "success",
+    "http_pages": 7,
+    "actual_browser_widths": [
+      1280,
+      390
+    ],
+    "report": "batch-twenty-five-live-verification.json"
+  }
 }
