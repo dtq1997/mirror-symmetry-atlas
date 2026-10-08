@@ -8,17 +8,34 @@ nationality: Chinese
 gender: male
 photo_url: null
 career_timeline:
-- period: '[待验证]'
+- period: 2004.09-2008.06
   type: education
   institution: sichuan-u
-  role: 博士, 数学
-  advisor: Bohui Chen (陈柏辉) [几乎确定]
-  notes: 博士机构和年份 [待验证]，但所有早期论文 (2014-2020) 几乎均与陈柏辉合作，陈柏辉几乎确定为博导
-- period: present
+  role: 理学学士
+- period: 2008.09-2011.06
+  type: education
+  institution: sichuan-u
+  role: 理学硕士
+  advisor: 陈柏辉
+- period: 2011.09-2014.06
+  type: education
+  institution: sichuan-u
+  role: 理学博士
+  advisor: 李安民、陈柏辉
+  notes: 本人官方主页明确列两位博士导师。
+- period: 2014.07-2017.12
   type: position
   institution: sicnu
-  role: 副教授 (Associate Professor), 硕士生导师
-  notes: 四川师范大学数学科学学院 + 可视化计算与虚拟现实四川省重点实验室 (V. C. & V. R. Key Lab)。地址成都锦江区静安路 5 号 610068
+  role: 讲师
+- period: 2018.01-2023.02
+  type: position
+  institution: sicnu
+  role: 副教授
+- period: 2023.03-present
+  type: position
+  institution: sicnu
+  role: 教授
+  notes: 2018.12起任硕士生导师，2021.12起任博士生导师。
 research_areas:
 - orbifold-gromov-witten
 - chen-ruan-cohomology
@@ -32,70 +49,92 @@ research_areas:
 - equivariant-cohomology
 - differential-character
 identity_profile:
-  openalex_id: 'A5013132093'
+  openalex_id: A5013132093
   affiliations:
-    - institution: 'sichuan-u'
-      period: '[待验证]'
-      role: '博士, 数学'
-    - institution: 'sicnu'
-      period: 'present'
-      role: '副教授 (Associate Professor), 硕士生导师'
-  coauthor_circle_core_slugs: [li-xiaobin]
-  coauthor_circle_core_names: ['Xiaobin Li']
-  coauthor_circle_extended_slugs: [hu-jianxun, li-ao, xu-xu]
-  coauthor_circle_extended_names: ['Ao Li', 'Jianxun Hu', 'Xu Xu']
+  - institution: sichuan-u
+    period: 2004.09-2008.06
+    role: 理学学士
+  - institution: sichuan-u
+    period: 2008.09-2011.06
+    role: 理学硕士
+  - institution: sichuan-u
+    period: 2011.09-2014.06
+    role: 理学博士
+  - institution: sicnu
+    period: 2014.07-2017.12
+    role: 讲师
+  - institution: sicnu
+    period: 2018.01-2023.02
+    role: 副教授
+  - institution: sicnu
+    period: 2023.03-present
+    role: 教授
+  coauthor_circle_core_slugs:
+  - li-xiaobin
+  coauthor_circle_core_names:
+  - Xiaobin Li
+  coauthor_circle_extended_slugs:
+  - hu-jianxun
+  - li-ao
+  - xu-xu
+  coauthor_circle_extended_names:
+  - Ao Li
+  - Jianxun Hu
+  - Xu Xu
   research_keywords:
-    - 'algebraic'
-    - 'blowup'
-    - 'character'
-    - 'cohomology'
-    - 'differential'
-    - 'equivariant'
-    - 'geometry'
-    - 'gromov'
-    - 'groupoid'
-    - 'mirror'
-    - 'morphism'
-    - 'orbifold'
-    - 'stringy'
-    - 'symmetry'
-    - 'symplectic'
-    - 'weighted'
-    - 'witten'
+  - algebraic
+  - blowup
+  - character
+  - cohomology
+  - differential
+  - equivariant
+  - geometry
+  - gromov
+  - groupoid
+  - mirror
+  - morphism
+  - orbifold
+  - stringy
+  - symmetry
+  - symplectic
+  - weighted
+  - witten
   known_arxiv_ids:
-    - '[待补充]'
-    - '[待补充]'
-    - '[待补充]'
-    - '[待补充]'
-    - '[待补充]'
-    - '[待补充]'
-    - '[待补充]'
-    - '2009.06144'
-    - '2008.06484'
-    - '[待补充]'
-    - '[待补充]'
-    - '1903.01607'
-    - '[待补充]'
-    - '1812.05432'
-    - '1811.11506'
-    - '1712.05094'
-    - '1712.04121'
-    - '1712.01478'
-    - '1708.07551'
-    - '[待补充]'
-    - '[待补充]'
-    - '[待补充]'
+  - '[待补充]'
+  - '[待补充]'
+  - '[待补充]'
+  - '[待补充]'
+  - '[待补充]'
+  - '[待补充]'
+  - '[待补充]'
+  - '2009.06144'
+  - '2008.06484'
+  - '[待补充]'
+  - '[待补充]'
+  - '1903.01607'
+  - '[待补充]'
+  - '1812.05432'
+  - '1811.11506'
+  - '1712.05094'
+  - '1712.04121'
+  - '1712.01478'
+  - '1708.07551'
+  - '[待补充]'
+  - '[待补充]'
+  - '[待补充]'
 advisor: null
 students: []
 key_collaborators:
 - person: Bohui Chen (陈柏辉)
   since: 2014
-  topic: Weighted blowup, orbifold GW theory, Ruan cohomology, relative GW, groupoid morphism, Banach orbifold, double ramification cycles
+  topic: Weighted blowup, orbifold GW theory, Ruan cohomology, relative GW, groupoid morphism, Banach orbifold,
+    double ramification cycles
   papers_count: 12
-  notes: 四川大学。博导 [几乎确定]。最核心合作者
+  notes: 四川大学；本人主页确认其为硕士导师及两位博士导师之一。
 - person: Rui Wang
   since: 2017
-  topic: Orbifold Gromov-Witten theory of weighted blowups, groupoid structure of groupoid morphisms, double ramification cycles
+  topic: Orbifold Gromov-Witten theory of weighted blowups, groupoid structure of groupoid morphisms, double
+    ramification cycles
   papers_count: 4
 - person: Tiyao Li
   since: 2018
@@ -109,7 +148,7 @@ key_collaborators:
   since: 2017
   topic: Weighted blowup correspondence of orbifold Gromov-Witten invariants
   papers_count: 1
-  notes: 中山大学。与 Weiqiang He (中大) 曾是同门师兄弟
+  notes: 中山大学；合作论文的作者之一。
 - person: A-Li Liao
   since: 2020
   topic: Morse-Smale-Witten cohomologies for orbifolds, Banach orbifold structure on groupoid morphisms
@@ -286,45 +325,40 @@ activity:
 external_ids:
   openalex: A5013132093
 links:
-  xmol: 'https://www.x-mol.com/university/faculty/142917'
-  institution_url: 'https://msi.sicnu.edu.cn/'
-  homepage: 'https://msi.sicnu.edu.cn/;X-MOL'
-personal_notes: |
-  四川师范大学数学科学学院副教授，硕士生导师。同时任职于可视化计算
-  与虚拟现实四川省重点实验室。地址成都锦江区静安路 5 号。
-  
-  核心方向：orbifold Gromov-Witten theory, Chen-Ruan 上同调,
-  stringy orbifold K-theory, Ruan cohomology, 轨形几何, 权重吹胀
-  (weighted blowup), Banach orbifold, 相对 GW 不变量, 双 ramification
-  cycles。近年扩展到 Lie groupoid morphism、differential character。
-  
-  学术谱系：几乎确定为四川大学陈柏辉 (Bohui Chen) 的学生或长期
-  合作者——从 2014 至今持续合作 12+ 篇，且早期是川大团队的重要
-  成员。陈柏辉是 Yongbin Ruan (阮勇斌) 和 Weimin Chen (陈伟民)
-  orbifold GW 学派的川大代表。
-  
-  与本项目其他人物连接：
-  - 李晓斌 (li-xiaobin, SWJTU): 2016 年合作 Ruan cohomology paper，
-    两人均为川大体系外围成员；
-  - 何伟强 (he-weiqiang, 中山大学): 共同合作者 Jianxun Hu (胡建勋,
-    中山大学) 既是 Weiqiang He 的早期合作者，也是杜承勇 Math. Ann.
-    2019 的合作者——川大、中大 GW 圈有交叉。
-  
-  2026 HUST 数学物理与几何研讨会参会。
-  
-  现职：四川师范大学数学科学学院 副教授、硕导
-  研究：辛几何、orbifold Gromov–Witten 理论 (与四川大学 Bohui Chen 合作)
-  趣闻：与川大 Bohui Chen (MIT Moore Instructor 2001–2004) 长期合作 — https://www.mathgenealogy.org/id.php?id=59753
+  xmol: https://www.x-mol.com/university/faculty/142917
+  institution_url: https://msi.sicnu.edu.cn/
+  homepage: http://139.155.71.72:81/HomePage.aspx?ID=80
+personal_notes: '四川师范大学数学科学学院教授，2023年3月起任教授；2021年12月起任博士生导师。此前于2014年7月至2017年12月任讲师，2018年1月至2023年2月任副教授。
+
+
+  2004–2014年在四川大学先后取得学士、硕士和博士学位。硕士导师为陈柏辉，博士由李安民、陈柏辉联合指导；学位起止年月见履历。
+
+
+  主要研究辛几何，尤其是辛流形与orbifold的Gromov–Witten理论、微分上同调及辛双有理几何。
+
+  '
 sources:
-  - label: 'x-mol faculty page'
-    url: 'https://www.x-mol.com/university/faculty/142917'
-  - label: 'SICNU School of Math Sciences'
-    url: 'https://msi.sicnu.edu.cn/'
-  - label: 'OpenAlex profile'
-    url: 'https://openalex.org/authors/A5013132093'
-  - label: 'Chen-Ruan Cohomology paper (CAMB)'
-    url: 'https://link.springer.com/article/10.1007/s11401-020-0231-8'
-  - label: 'Math. Ann. 2019 paper'
-    url: 'https://link.springer.com/content/pdf/10.1007/s00208-019-01850-3.pdf'
+- label: '[Codex] 2026-10-08：四川师范大学本人主页'
+  url: http://139.155.71.72:81/HomePage.aspx?ID=80
+  last_verified: '2026-10-08'
+  notes: 从学院官网“师资队伍”入口进入个人主页ID=80，姓名、研究方向与论文线索一致。明确列2004–2014三段学历、两位博士导师、2014起任职及2023.03晋升教授。
+- label: '[Codex] 2026-10-08：官方教师主页入口来源'
+  url: https://msi.sicnu.edu.cn/
+  last_verified: '2026-10-08'
+  notes: 学院首页的“师资队伍”链接指向139.155.71.72:81公开教师主页平台；不是搜索到的未经确认同名页面。
+- label: '[Codex] 2026-10-08：2026年天津大学报告'
+  url: https://cam.tju.edu.cn/en/newsDetail.php?id=449
+  last_verified: '2026-10-08'
+  notes: 官方报告海报列杜承勇教授、四川师范大学；与本人履历交叉确认2026年单位和职级，不作为晋升年月来源。
+- label: x-mol faculty page
+  url: https://www.x-mol.com/university/faculty/142917
+- label: SICNU School of Math Sciences
+  url: https://msi.sicnu.edu.cn/
+- label: OpenAlex profile
+  url: https://openalex.org/authors/A5013132093
+- label: Chen-Ruan Cohomology paper (CAMB)
+  url: https://link.springer.com/article/10.1007/s11401-020-0231-8
+- label: Math. Ann. 2019 paper
+  url: https://link.springer.com/content/pdf/10.1007/s00208-019-01850-3.pdf
 tags:
 - sicnu

@@ -8,26 +8,28 @@ nationality: Chinese
 gender: male
 photo_url: null
 career_timeline:
-  - period: "1988-1993"
-    type: education
-    institution: mit
-    role: "PhD"
-    advisor: singer-im
-    notes: "MIT PhD 1993, 主导师 Isadore M. Singer, 联合导师 Shing-Tung Yau。博士论文 \"Differential Geometric and Symplectic Interpretations of Stability in the Sense of Gieseker\""
-  - period: "~1993-early 1990s"
-    type: position
-    institution: mit
-    role: "Moore Instructor"
-  - period: '[待补充]'
-    type: position
-    institution: minnesota
-    role: "Assistant/Associate Professor"
-    notes: "University of Minnesota"
-  - period: '[待补充]'
-    type: position
-    institution: cuhk
-    role: "讲座教授 / IMS 主任"
-    notes: "香港中文大学数学系教授、数学科学研究所 (IMS) 主任"
+- period: '1993'
+  type: education
+  institution: mit
+  role: PhD
+  advisor: singer-im
+  notes: MGP记录MIT博士1993，导师为Isadore Manuel Singer和Shing-Tung Yau；不据编号1、2推定主次。博士论文题名：Differential Geometric and
+    Symplectic Interpretations of Stability in the Sense of Gieseker。
+- period: '[待验证]'
+  type: position
+  institution: mit
+  role: Moore Instructor
+  notes: 任职起止年月待一手履历确认。
+- period: '[待补充]'
+  type: position
+  institution: minnesota
+  role: Assistant/Associate Professor
+  notes: University of Minnesota
+- period: present
+  type: position
+  institution: cuhk
+  role: 教授
+  notes: 香港中文大学数学系官方当前教师页列Professor；此前IMS主任及讲座教授称谓待专门来源确认。
 research_areas:
   - mirror-symmetry
   - calabi-yau
@@ -37,64 +39,84 @@ research_areas:
   - gromov-witten-theory
   - witten-morse-theory
 identity_profile:
-  openalex_id: 'A5103819085'
+  openalex_id: A5103819085
   mathgenealogy_id: '53342'
   affiliations:
-    - institution: 'mit'
-      period: '1988-1993'
-      role: 'PhD'
-    - institution: 'mit'
-      period: '~1993-early 1990s'
-      role: 'Moore Instructor'
-    - institution: 'minnesota'
-      role: 'Assistant/Associate Professor'
-    - institution: 'cuhk'
-      role: '讲座教授 / IMS 主任'
-  email_domains: [math.cuhk.edu.hk, mit.edu]
-  coauthor_circle_core_slugs: [chan-kwokwai, li-changzheng, li-qin, yau-shingtung]
-  coauthor_circle_core_names: ['Changzheng Li', 'Kwokwai Chan', 'Qin Li', 'Shing-Tung Yau']
-  research_keywords: [calabi, gromov, holonomy, hyperkahler, mirror, special, symmetry, witten]
+  - institution: mit
+    period: '1993'
+    role: PhD
+  - institution: mit
+    period: '[待验证]'
+    role: Moore Instructor
+  - institution: minnesota
+    period: '[待补充]'
+    role: Assistant/Associate Professor
+  - institution: cuhk
+    period: present
+    role: 教授
+  email_domains:
+  - math.cuhk.edu.hk
+  - mit.edu
+  coauthor_circle_core_slugs:
+  - chan-kwokwai
+  - li-changzheng
+  - li-qin
+  - yau-shingtung
+  coauthor_circle_core_names:
+  - Changzheng Li
+  - Kwokwai Chan
+  - Qin Li
+  - Shing-Tung Yau
+  research_keywords:
+  - calabi
+  - gromov
+  - holonomy
+  - hyperkahler
+  - mirror
+  - special
+  - symmetry
+  - witten
   known_arxiv_ids:
-    - '2604.26292'
-    - '2511.16889'
-    - '2509.01101'
-    - '2410.11311'
-    - '2410.03611'
-    - '2408.09479'
-    - '2210.02008'
-    - '2205.09926'
-    - '2010.14339'
-    - '2009.03690'
-    - '2008.11496'
-    - '2008.07057'
-    - '2004.10366'
-    - '2001.10869'
-    - '1902.11174'
-    - '1902.05904'
-    - '1811.09774'
-    - '1807.08145'
-    - '1506.04625'
-    - '1506.04218'
-    - '1502.03510'
-    - '1407.5905'
-    - '1308.4298'
-    - '1209.6119'
-    - '1006.3830'
-    - '1112.0388'
-    - '1107.4744'
-    - '1009.5040'
-    - '1008.4753'
-    - '1007.1683'
-    - '1006.3832'
-    - '1006.3828'
-    - '0810.4859'
-    - '0808.1551'
-    - '0808.0393'
-    - '0801.2830'
-    - '0204168'
-    - '0009235'
-    - '0005118'
-    - 'math/0009235'
+  - '2604.26292'
+  - '2511.16889'
+  - '2509.01101'
+  - '2410.11311'
+  - '2410.03611'
+  - '2408.09479'
+  - '2210.02008'
+  - '2205.09926'
+  - '2010.14339'
+  - '2009.03690'
+  - '2008.11496'
+  - '2008.07057'
+  - '2004.10366'
+  - '2001.10869'
+  - '1902.11174'
+  - '1902.05904'
+  - '1811.09774'
+  - '1807.08145'
+  - '1506.04625'
+  - '1506.04218'
+  - '1502.03510'
+  - '1407.5905'
+  - '1308.4298'
+  - '1209.6119'
+  - '1006.3830'
+  - '1112.0388'
+  - '1107.4744'
+  - '1009.5040'
+  - '1008.4753'
+  - '1007.1683'
+  - '1006.3832'
+  - '1006.3828'
+  - '0810.4859'
+  - '0808.1551'
+  - '0808.0393'
+  - '0801.2830'
+  - 0204168
+  - 0009235
+  - 0005118
+  - math/0009235
 advisor: singer-im
 students:
   - chan-kwokwai  # CUHK 2008
@@ -556,44 +578,40 @@ external_ids:
 links:
   homepage: 'http://www.ims.cuhk.edu.hk/~leung/'
   cuhk: 'https://www.math.cuhk.edu.hk/people/academic-staff/leung'
-personal_notes: |
-  香港中文大学讲座教授, IMS (数学科学研究所) 主任。
-  
-  MIT PhD 1993, 主导师为 Isadore Singer (Fields 奖级别, 早期与 Atiyah 合作 index theorem),
-  联合指导为 Shing-Tung Yau。博士论文 "Differential Geometric and Symplectic Interpretations
-  of Stability in the Sense of Gieseker"。早期任 MIT Moore Instructor, 后在 Minnesota 任教,
-  加入 CUHK 后建立 SYZ / mirror symmetry 研究中心。
-  
-  主要贡献: SYZ 猜想的 "no corrections" 版本 (2000 Adv. Math.),
-  special Lagrangian vs. Hermitian-Yang-Mills 通过 Fourier-Mukai 变换对应 (与 Yau, Zaslow 2001),
-  toric CY 的 SYZ 镜像对称 (与 Kwokwai Chan, Siu-Cheong Lau, JDG 2012)。
-  方向还涉及 G2/Spin(7) special holonomy, hyperkähler, Rozansky-Witten, Witten-Morse theory, ADE bundles。
-  
-  培养 PhD: Kwokwai Chan (2008, SYZ), Siu-Cheong Lau (2011), Li Changzheng 等,
-  成为华人几何/镜像对称圈重要节点。
-  
-  现职：香港中文大学数学系 教授 + 数学科学研究所
-  学历：MSc UCSD;PhD MIT
-  研究：Calabi–Yau 几何、SYZ 镜像对称猜想、Gromov–Witten、Witten–Morse 理论、量子化、Rozansky–Witten、超-Kähler、特殊和乐
-  奖项：2010 ICCM **陈省身奖** — https://www.cpr.cuhk.edu.hk/en/press/cuhk-mathematics-talents-win-prominent-awards/
-  趣闻：与 Yau 长期合作;学生 Kwok-wai Chan 凭博士论文获 New World Mathematics Awards 银奖,现 CUHK 同事兼合作者
+personal_notes: '香港中文大学数学系教授。官方教师页列加州大学圣迭戈分校硕士、麻省理工学院博士；MGP记录博士年份为1993，列出Isadore Manuel Singer和Shing-Tung Yau两位导师。更早的入学、MIT与Minnesota任职起止年月仍待一手履历确认。
+
+
+  研究涉及Calabi–Yau几何、开闭Gromov–Witten不变量、SYZ镜像对称、Witten–Morse理论、量子化、Rozansky–Witten不变量、超Kähler几何与特殊和乐。
+
+
+  陈国威的本人简历明确列梁乃聪为其2008年博士导师。其他学生与历史任职信息仍按各自来源继续核查。
+
+  '
 sources:
-  - label: '[Codex] 2026-10-08：预印本 1007.1683'
-    url: https://arxiv.org/abs/1007.1683
-    last_verified: '2026-10-08'
-    notes: 核对题名、作者与论文首末页；保留首次预印本年份，期刊年份另列。
-  - label: '[Codex] 2026-10-08：期刊版 10.4310/jdg/1299766790'
-    url: https://doi.org/10.4310/jdg/1299766790
-    last_verified: '2026-10-08'
-    notes: 与预印本的题名、完整作者及正文题首页或摘要对照；出版信息来自出版社登记的 Crossref 元数据。本项不认证整个人物档案。
-  - label: 'CUHK 数学系主页'
-    url: 'https://www.math.cuhk.edu.hk/people/academic-staff/leung'
-  - label: '个人主页 (IMS)'
-    url: 'http://www.ims.cuhk.edu.hk/~leung/'
-  - label: 'Math Genealogy 53342'
-    url: 'https://www.mathgenealogy.org/id.php?id=53342'
-  - label: 'Wikidata Q102225287'
-    url: 'https://www.wikidata.org/wiki/Q102225287'
+- label: '[Codex] 2026-10-08：香港中文大学当前教师页'
+  url: https://www.math.cuhk.edu.hk/people/academic-staff/leung
+  last_verified: '2026-10-08'
+  notes: 核对现职Professor及MSc UCSD、PhD MIT；页面不支持此前自动写入的现任IMS主任或讲座教授称谓。
+- label: '[Codex] 2026-10-08：MGP博士及导师记录'
+  url: https://www.mathgenealogy.org/id.php?id=53342
+  last_verified: '2026-10-08'
+  notes: 记录MIT PhD 1993及Singer、Yau两位导师；这是MGP数据库记录，本轮未取得原始学位论文，不额外判断主导师与联合导师的排序。
+- label: '[Codex] 2026-10-08：预印本 1007.1683'
+  url: https://arxiv.org/abs/1007.1683
+  last_verified: '2026-10-08'
+  notes: 核对题名、作者与论文首末页；保留首次预印本年份，期刊年份另列。
+- label: '[Codex] 2026-10-08：期刊版 10.4310/jdg/1299766790'
+  url: https://doi.org/10.4310/jdg/1299766790
+  last_verified: '2026-10-08'
+  notes: 与预印本的题名、完整作者及正文题首页或摘要对照；出版信息来自出版社登记的 Crossref 元数据。本项不认证整个人物档案。
+- label: CUHK 数学系主页
+  url: https://www.math.cuhk.edu.hk/people/academic-staff/leung
+- label: 个人主页 (IMS)
+  url: http://www.ims.cuhk.edu.hk/~leung/
+- label: Math Genealogy 53342
+  url: https://www.mathgenealogy.org/id.php?id=53342
+- label: Wikidata Q102225287
+  url: https://www.wikidata.org/wiki/Q102225287
 tags:
   - cuhk
   - important-person

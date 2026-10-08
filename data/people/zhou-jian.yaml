@@ -101,10 +101,9 @@ identity_profile:
     - '1208.3270'
 advisor: lebrun-claude
 students:
-  - guo-shuai
-  - zhang-qingsheng
-  - wang-zhiyuan
-  - ke-huazhong
+- guo-shuai
+- wang-zhiyuan
+- ke-huazhong
 key_collaborators: []
 activity:
   total_papers: 22
@@ -140,11 +139,16 @@ online_traces:
     label: "ResearchGate: Jian Zhou"
     url: "https://www.researchgate.net/scientific-contributions/Jian-Zhou-10709967"
     last_verified: "2026-05-15"
-personal_notes: |
-  2026 HUST 会议报告: From probability theory to Gromov-Witten theory, and back
+personal_notes: '2026 HUST 会议报告: From probability theory to Gromov-Witten theory, and back
+
   Extended matrix models, GW theory of the projective line.
-  培养了郭帅、张庆生 [待验证]、王知远 [待验证] 等人，形成以 GW theory 和可积系统为核心的学术 cluster。
-  早年与 Mariño、刘秋菊、刘克峰等人的 topological vertex/Mariño-Vafa formula 工作奠定 GW/CS 对偶基础；近年专注 abstract QFT for fat graphs、KP/Toda hierarchy 与 emergent geometry。
+
+  张庆生的师承关系待独立来源确认；不从合著论文反推博士导师。
+
+  早年与 Mariño、刘秋菊、刘克峰等人的 topological vertex/Mariño-Vafa formula 工作奠定 GW/CS 对偶基础；近年专注 abstract QFT for fat graphs、KP/Toda
+  hierarchy 与 emergent geometry。
+
+  '
 publications:
   - id: '2511.10082'
     title: 'Total partition function with fermionic number fluxes of local toric Calabi--Yau threefold and KP integrability'

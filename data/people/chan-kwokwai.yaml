@@ -1,71 +1,71 @@
 slug: chan-kwokwai
 name:
   en: Kwokwai Chan
-  zh: 陈国荣
+  zh: 陈国威
 born: null
 died: null
 nationality: Chinese
 gender: male
 photo_url: null
 career_timeline:
-  - period: "1999-2002"
-    type: education
-    institution: cuhk
-    role: "BSc (First Class Honors)"
-    notes: "香港中文大学数学系学士"
-  - period: "2002-2004"
-    type: education
-    institution: cuhk
-    role: "MPhil"
-    advisor: zuo-kang
-    notes: "CUHK 硕士, 导师 Kang Zuo。学位论文 \"On Some Constructions of Calabi-Yau Manifolds\""
-  - period: "2004-2008"
-    type: education
-    institution: cuhk
-    role: "PhD"
-    advisor: leung-naichung
-    notes: "CUHK PhD 2008, 导师 Naichung Conan Leung。博士论文 \"Strominger-Yau-Zaslow Transformations in Mirror Symmetry\""
-  - period: "2008-08 — 2010-07"
-    type: position
-    institution: harvard
-    role: "Croucher Postdoctoral Fellow"
-    notes: "哈佛大学, 合作导师 Shing-Tung Yau"
-  - period: "2010-08 — 2011-07"
-    type: position
-    institution: ihes
-    role: "William Hodge Fellow"
-  - period: "2011-01 — 2011-07"
-    type: position
-    institution: ipmu
-    role: "Project Researcher"
-    notes: "IPMU, University of Tokyo"
-  - period: "2011-08 — 2017-07"
-    type: position
-    institution: cuhk
-    role: "Assistant Professor"
-  - period: "2017-08 — 2023-07"
-    type: position
-    institution: cuhk
-    role: "Associate Professor"
-  - period: "2023-08 — present"
-    type: position
-    institution: cuhk
-    role: "Professor"
-  - period: "2010"
-    type: award
-    title: "New World Mathematics Awards — Silver Medal (PhD Thesis, 5th ICCM)"
-  - period: "2017"
-    type: award
-    title: "ICCM Best Paper Award (Silver) - SYZ mirror symmetry for toric CY"
-  - period: "2019"
-    type: award
-    title: "ICCM Best Paper Award - Open GW, mirror maps, Seidel representations"
-  - period: "2020"
-    type: award
-    title: "HKMS Young Scholar Award"
-  - period: "2017"
-    type: award
-    title: "CUHK Vice-Chancellor's Exemplary Teaching Award"
+- period: '2002'
+  type: education
+  institution: cuhk
+  role: BSc (First Class Honors)
+  notes: 香港中文大学数学系学士
+- period: '2004'
+  type: education
+  institution: cuhk
+  role: MPhil
+  advisor: zuo-kang
+  notes: CUHK 硕士, 导师 Kang Zuo。学位论文 "On Some Constructions of Calabi-Yau Manifolds"
+- period: '2008'
+  type: education
+  institution: cuhk
+  role: PhD
+  advisor: leung-naichung
+  notes: CUHK PhD 2008, 导师 Naichung Conan Leung。博士论文 "Strominger-Yau-Zaslow Transformations in Mirror Symmetry"
+- period: 2008-08 — 2010-07
+  type: position
+  institution: harvard
+  role: Croucher Postdoctoral Fellow
+  notes: 哈佛大学, 合作导师 Shing-Tung Yau
+- period: 2010-08 — 2011-07
+  type: position
+  institution: ihes
+  role: William Hodge Fellow
+- period: 2011-01 — 2011-07
+  type: position
+  institution: ipmu
+  role: Project Researcher
+  notes: IPMU, University of Tokyo
+- period: 2011-08 — 2017-07
+  type: position
+  institution: cuhk
+  role: Assistant Professor
+- period: 2017-08 — 2023-07
+  type: position
+  institution: cuhk
+  role: Associate Professor
+- period: 2023-08 — present
+  type: position
+  institution: cuhk
+  role: Professor
+- period: '2010'
+  type: award
+  title: New World Mathematics Awards — Silver Medal (PhD Thesis, 5th ICCM)
+- period: '2017'
+  type: award
+  title: ICCM Best Paper Award (Silver) - SYZ mirror symmetry for toric CY
+- period: '2019'
+  type: award
+  title: ICCM Best Paper Award - Open GW, mirror maps, Seidel representations
+- period: '2020'
+  type: award
+  title: HKMS Young Scholar Award
+- period: '2017'
+  type: award
+  title: CUHK Vice-Chancellor's Exemplary Teaching Award
 research_areas:
   - syz-mirror-symmetry
   - open-gromov-witten-theory
@@ -74,89 +74,111 @@ research_areas:
   - wall-crossing
   - deformation-quantization
 identity_profile:
-  openalex_id: 'A5077398474'
+  openalex_id: A5077398474
   mathgenealogy_id: '[待验证]'
   affiliations:
-    - institution: 'cuhk'
-      period: '1999-2002'
-      role: 'BSc (First Class Honors)'
-    - institution: 'cuhk'
-      period: '2002-2004'
-      role: 'MPhil'
-    - institution: 'cuhk'
-      period: '2004-2008'
-      role: 'PhD'
-    - institution: 'harvard'
-      period: '2008-08 — 2010-07'
-      role: 'Croucher Postdoctoral Fellow'
-    - institution: 'ihes'
-      period: '2010-08 — 2011-07'
-      role: 'William Hodge Fellow'
-    - institution: 'ipmu'
-      period: '2011-01 — 2011-07'
-      role: 'Project Researcher'
-    - institution: 'cuhk'
-      period: '2011-08 — 2017-07'
-      role: 'Assistant Professor'
-    - institution: 'cuhk'
-      period: '2017-08 — 2023-07'
-      role: 'Associate Professor'
-    - institution: 'cuhk'
-      period: '2023-08 — present'
-      role: 'Professor'
-  email_domains: [harvard.edu, ihes.fr, math.cuhk.edu.hk]
-  coauthor_circle_core_slugs: [leung-naichung, li-qin, yau-shingtung]
-  coauthor_circle_core_names: ['Naichung Conan Leung', 'Qin Li', 'Shing-Tung Yau']
-  coauthor_circle_extended_slugs: [li-changzheng, wen-hao]
-  coauthor_circle_extended_names: ['Changzheng Li', 'Hao Wen']
-  research_keywords: [calabi, crossing, deformation, gromov, homological, mirror, quantization, symmetry, witten]
+  - institution: cuhk
+    period: '2002'
+    role: BSc (First Class Honors)
+  - institution: cuhk
+    period: '2004'
+    role: MPhil
+  - institution: cuhk
+    period: '2008'
+    role: PhD
+  - institution: harvard
+    period: 2008-08 — 2010-07
+    role: Croucher Postdoctoral Fellow
+  - institution: ihes
+    period: 2010-08 — 2011-07
+    role: William Hodge Fellow
+  - institution: ipmu
+    period: 2011-01 — 2011-07
+    role: Project Researcher
+  - institution: cuhk
+    period: 2011-08 — 2017-07
+    role: Assistant Professor
+  - institution: cuhk
+    period: 2017-08 — 2023-07
+    role: Associate Professor
+  - institution: cuhk
+    period: 2023-08 — present
+    role: Professor
+  email_domains:
+  - harvard.edu
+  - ihes.fr
+  - math.cuhk.edu.hk
+  coauthor_circle_core_slugs:
+  - leung-naichung
+  - li-qin
+  - yau-shingtung
+  coauthor_circle_core_names:
+  - Naichung Conan Leung
+  - Qin Li
+  - Shing-Tung Yau
+  coauthor_circle_extended_slugs:
+  - li-changzheng
+  - wen-hao
+  coauthor_circle_extended_names:
+  - Changzheng Li
+  - Hao Wen
+  research_keywords:
+  - calabi
+  - crossing
+  - deformation
+  - gromov
+  - homological
+  - mirror
+  - quantization
+  - symmetry
+  - witten
   known_arxiv_ids:
-    - '2604.26292'
-    - '2601.19691'
-    - '2511.16889'
-    - '2505.23340'
-    - '2312.04239'
-    - '2210.02008'
-    - '2205.09926'
-    - '2205.01394'
-    - '2009.03690'
-    - '2008.11496'
-    - '2008.07057'
-    - '2004.00523'
-    - '2001.10869'
-    - '1910.08256'
-    - '1902.11174'
-    - '1902.05904'
-    - '1811.09774'
-    - '1808.07305'
-    - '1807.08159'
-    - '1807.08145'
-    - '1712.02586'
-    - '1704.01730'
-    - '1607.07127'
-    - '1602.07075'
-    - '1601.06472'
-    - '1502.03510'
-    - '1412.7231'
-    - '1408.6062'
-    - '1406.6753'
-    - '1403.1682'
-    - '1306.0437'
-    - '1305.0968'
-    - '1210.0652'
-    - '1209.6119'
-    - '1208.5282'
-    - '1006.3830'
-    - '1112.0844'
-    - '1112.0388'
-    - '1110.4439'
-    - '1010.5287'
-    - '1006.3832'
-    - '1006.3827'
-    - '0909.3608'
-    - '0903.1164'
-    - '0808.1551'
-    - '0801.2830'
+  - '2604.26292'
+  - '2601.19691'
+  - '2511.16889'
+  - '2505.23340'
+  - '2312.04239'
+  - '2210.02008'
+  - '2205.09926'
+  - '2205.01394'
+  - '2009.03690'
+  - '2008.11496'
+  - '2008.07057'
+  - '2004.00523'
+  - '2001.10869'
+  - '1910.08256'
+  - '1902.11174'
+  - '1902.05904'
+  - '1811.09774'
+  - '1808.07305'
+  - '1807.08159'
+  - '1807.08145'
+  - '1712.02586'
+  - '1704.01730'
+  - '1607.07127'
+  - '1602.07075'
+  - '1601.06472'
+  - '1502.03510'
+  - '1412.7231'
+  - '1408.6062'
+  - '1406.6753'
+  - '1403.1682'
+  - '1306.0437'
+  - '1305.0968'
+  - '1210.0652'
+  - '1209.6119'
+  - '1208.5282'
+  - '1006.3830'
+  - '1112.0844'
+  - '1112.0388'
+  - '1110.4439'
+  - '1010.5287'
+  - '1006.3832'
+  - '1006.3827'
+  - '0909.3608'
+  - '0903.1164'
+  - '0808.1551'
+  - '0801.2830'
 advisor: leung-naichung
 mentors:
   - yau-shingtung
@@ -603,11 +625,19 @@ personal_notes: |
 
   注: Harvard 是博后 (2008-2010) 不是 PhD。PhD 是 CUHK 本校培养。
 sources:
-  - label: "CUHK 数学系主页"
-    url: "https://www.math.cuhk.edu.hk/~kwchan/"
-  - label: "CV (brief)"
-    url: "https://www.math.cuhk.edu.hk/~kwchan/cv_brief.html"
-  - label: "Publications"
-    url: "https://www.math.cuhk.edu.hk/~kwchan/papers.html"
+- label: '[Codex] 2026-10-08：香港中文大学中文姓名'
+  url: https://www.cpr.cuhk.edu.hk/sc/expert/chan-kwok-wai/
+  last_verified: '2026-10-08'
+  notes: 校方中文专家页写作陈国威；与英文名、数学系和邮箱对照。
+- label: '[Codex] 2026-10-08：本人简历的学位、导师及任职'
+  url: https://www.math.cuhk.edu.hk/~kwchan/cv_brief.html
+  last_verified: '2026-10-08'
+  notes: 2002学士、2004硕士、2008博士；硕士导师左康，博士导师梁乃聪。博士后合作导师丘成桐；2010–2011的IHES与IPMU任职时间按本人履历保留重叠。该页只列学位完成年，不据此倒推出入学年。
+- label: CUHK 数学系主页
+  url: https://www.math.cuhk.edu.hk/~kwchan/
+- label: CV (brief)
+  url: https://www.math.cuhk.edu.hk/~kwchan/cv_brief.html
+- label: Publications
+  url: https://www.math.cuhk.edu.hk/~kwchan/papers.html
 tags:
   - cuhk

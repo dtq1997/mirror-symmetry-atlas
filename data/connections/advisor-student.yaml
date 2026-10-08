@@ -82,12 +82,6 @@ edges:
     year: 2011
     institution: tsinghua
   - source: zhou-jian
-    target: zhang-qingsheng
-    type: advisor-student
-    year: 2020
-    institution: tsinghua
-    notes: "[待验证]"
-  - source: zhou-jian
     target: wang-zhiyuan
     type: advisor-student
     year: 2019
@@ -101,9 +95,12 @@ edges:
   - source: liu-melissa
     target: zong-zhengyu
     type: advisor-student
-    year: 2017
+    year: 2015
     institution: columbia
-    notes: "[待验证] PhD year approximate"
+    notes: 清华本人英文履历：Columbia博士2010.09–2015.02，论文导师Chiu-Chu Melissa Liu。
+    sources:
+    - label: 清华英文履历
+      url: https://math.tsinghua.edu.cn/mathen/info/1312/3472.htm
   - source: zhang-youjin
     target: yang-di
     type: advisor-student
@@ -120,7 +117,12 @@ edges:
     type: advisor-student
     year: 2010
     institution: tsinghua
-    notes: "博士毕业年份 [待验证]，之后赴 SISSA 跟随 Dubrovin 做博后"
+    notes: 华南理工大学2015年报告简介明确博士导师为张友金；INdAM履历列清华博士学习2005–2010。
+    sources:
+    - label: 官方报告简介
+      url: https://www2.scut.edu.cn/math/2015/0925/c10160a242952/page.htm
+    - label: INdAM履历
+      url: https://www.altamatematica.it/indam-cofund/cofund2008/chaozhong-wu/
   - source: leung-naichung
     target: li-changzheng
     type: advisor-student
@@ -176,13 +178,19 @@ edges:
     type: advisor-student
     year: 1993
     institution: mit
-    notes: "MIT PhD"
+    notes: MGP记录MIT博士1993，导师Singer与Yau；本轮未从学位论文确认主次。
+    sources:
+    - label: MGP 53342
+      url: https://www.mathgenealogy.org/id.php?id=53342
   - source: leung-naichung
     target: chan-kwokwai
     type: advisor-student
     year: 2008
     institution: cuhk
-    notes: "[待验证] CUHK PhD"
+    notes: 本人简历明确列CUHK PhD 2008，导师Naichung Conan Leung。
+    sources:
+    - label: 本人简历
+      url: https://www.math.cuhk.edu.hk/~kwchan/cv_brief.html
   # === 批次 B: PKU/清华 ===
   - source: liu-zhangju
     target: chen-zhuo
@@ -222,12 +230,6 @@ edges:
     year: 2018
     institution: pku-bicmr
     notes: "北大 BICMR 博士 2013-2018。BIMSA profile 明确"
-  - source: chen-zhuo
-    target: ni-dadi
-    type: advisor-student
-    year: 2023
-    institution: tsinghua
-    notes: "清华博士 2018-2023 [几乎确定]，所有早期论文与陈酌合著"
   - source: elliott-george
     target: ryszard-nest
     type: advisor-student
@@ -240,12 +242,15 @@ edges:
     year: 1987
     institution: copenhagen
     notes: "co-advisor。MGP #43937"
-  - source: chen-bohui
+  - source: 陈柏辉
     target: du-chengyong
     type: advisor-student
-    year: null
+    year: 2014
     institution: sichuan-u
-    notes: "[待验证] 博导推测，依据 2014 至今 12+ 篇合作，几乎确定"
+    notes: 本人官方主页列2011.09–2014.06四川大学博士，两位导师为李安民、陈柏辉。
+    sources:
+    - label: 本人官方主页
+      url: http://139.155.71.72:81/HomePage.aspx?ID=80
   - source: zaslow-eric
     target: fang-bohan
     type: advisor-student
@@ -261,17 +266,6 @@ edges:
     type: advisor-student
     year: 2002
     institution: harvard
-  - source: yau-shingtung
-    target: leung-naichung
-    type: advisor-student
-    year: 1993
-    institution: mit
-    notes: "联合指导, 主导师 Singer"
-  - source: leung-naichung
-    target: chan-kwokwai
-    type: advisor-student
-    year: 2008
-    institution: cuhk
   - source: xiang-maosong
     target: li-ao
     type: advisor-student
@@ -374,3 +368,14 @@ edges:
     year: 1996
     institution: sissa
     notes: "SISSA 博后 1996-1998, 与 Dubrovin 开始长期合作"
+
+  # [Codex] 2026-10-08：按本人官方履历补联合导师，姓名保留原文；未建独立人物档案。
+  - source: 李安民
+    target: du-chengyong
+    type: advisor-student
+    year: 2014
+    institution: sichuan-u
+    notes: 本人官方主页明确列李安民、陈柏辉两位博士导师。
+    sources:
+    - label: 本人官方主页
+      url: http://139.155.71.72:81/HomePage.aspx?ID=80

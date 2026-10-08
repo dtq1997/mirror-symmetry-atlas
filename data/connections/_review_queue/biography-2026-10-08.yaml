@@ -1,0 +1,73 @@
+# [Codex] Original claims preserved; not loaded into the public relationship graph.
+candidates:
+- record:
+    source: zhou-jian
+    target: zhang-qingsheng
+    type: advisor-student
+    year: 2020
+    institution: tsinghua
+    notes: '[待验证]'
+  original_file: data/connections/advisor-student.yaml
+  review_status: needs-review
+  reviewed_on: '2026-10-08'
+  reviewed_by: Codex
+  reason: 原条目标待验证，未找到本人履历或学位论文明确导师关系。
+- record:
+    source: chen-zhuo
+    target: ni-dadi
+    type: advisor-student
+    year: 2023
+    institution: tsinghua
+    notes: 清华博士 2018-2023 [几乎确定]，所有早期论文与陈酌合著
+  original_file: data/connections/advisor-student.yaml
+  review_status: needs-review
+  reviewed_on: '2026-10-08'
+  reviewed_by: Codex
+  reason: 合著不能证明师承；河南大学本人履历明确学历但未列导师。
+- record:
+    source: wang-zhiyuan
+    target: zhang-qingsheng
+    type: co-student
+    period: 2015-2019
+    notes: 清华同期博士。王知远(周坚门下)与张庆生(周坚门下[待验证])重叠4年
+  original_file: data/connections/co-student.yaml
+  review_status: needs-review
+  reviewed_on: '2026-10-08'
+  reviewed_by: Codex
+  reason: 张庆生师承未确认，不能由合著关系推出同门。
+- record:
+    source: ni-dadi
+    target: cheng-jiahao
+    type: co-student
+    period: 2018-2021
+    notes: 倪大地(清华博士 2018-2023, 陈酌门下) 与 程家豪(北大博士, 方向数学物理与代数几何, 与陈酌合作)在陈酌 Lie pair/dg manifold 学派共同活跃。4
+      篇 dg manifold / L≤3 algebra / Hopf algebra 合作论文支持这一关系
+  original_file: data/connections/co-student.yaml
+  review_status: needs-review
+  reviewed_on: '2026-10-08'
+  reviewed_by: Codex
+  reason: 原记录仅以合作论文和共同研究方向推断同门。
+- record:
+    source: du-chengyong
+    target: Bohui Chen
+    type: institutional
+    institution: sichuan-u
+    period: ~2010-present
+    notes: 与陈柏辉（川大）长期合作，博士期间在川大 [待验证]
+  original_file: data/connections/institutional.yaml
+  review_status: needs-review
+  reviewed_on: '2026-10-08'
+  reviewed_by: Codex
+  reason: 本人主页确认2011–2014博士及陈柏辉导师身份，但不支持该边约2010至今的机构共属时期。
+- record:
+    source: li-xiaobin
+    target: du-chengyong
+    type: institutional
+    institution: sichuan-u
+    period: ~2014-2016
+    notes: 两人均与川大陈柏辉团队合作 orbifold GW；2016 年合作 Ruan cohomology 论文
+  original_file: data/connections/institutional.yaml
+  review_status: needs-review
+  reviewed_on: '2026-10-08'
+  reviewed_by: Codex
+  reason: 杜承勇本人履历2014.07起在四川师范大学；共同署名不证明两人2014–2016同属四川大学。

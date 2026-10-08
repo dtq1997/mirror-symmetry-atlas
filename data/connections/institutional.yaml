@@ -286,8 +286,8 @@ edges:
     target: zhang-qingsheng
     type: institutional
     institution: gbu
-    period: "2024-present"
-    notes: "大湾区大学同事。同为周坚门下弟子（虽博士期间不重叠），2024 年起在 GBU 再会"
+    period: 2024-present
+    notes: 大湾区大学同事；张庆生的博士导师关系待核实。
   # 郑大胡建勋学派扩展
   - source: ding-yanqiao
     target: hu-jianxun
@@ -341,22 +341,10 @@ edges:
     target: chen-zhuo
     type: institutional
     institution: tsinghua
-    period: "2018-2023"
-    notes: "倪大地清华博士（陈酌门下）"
+    period: 2018-2023
+    notes: 倪大地2018.09–2023.06在清华读博士；师承关系待核实。
   # 杜承勇-四川大学 (博士/合作期)
-  - source: du-chengyong
-    target: "Bohui Chen"
-    type: institutional
-    institution: sichuan-u
-    period: "~2010-present"
-    notes: "与陈柏辉（川大）长期合作，博士期间在川大 [待验证]"
   # SWJTU / SICNU 成都数学圈
-  - source: li-xiaobin
-    target: du-chengyong
-    type: institutional
-    institution: sichuan-u
-    period: "~2014-2016"
-    notes: "两人均与川大陈柏辉团队合作 orbifold GW；2016 年合作 Ruan cohomology 论文"
   # 郎红蕾-徐晓濛 北大重叠
   - source: lang-honglei
     target: xu-xiaomeng

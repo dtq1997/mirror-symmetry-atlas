@@ -161,5 +161,28 @@
       ]
     }
   ],
-  "next_action": "Audit independent thesis/CV/official mentor sources. Separate uncertainty about year from uncertainty about relationship; do not hide a verified relationship merely because year remains unknown."
+  "next_action": "Audit independent thesis/CV/official mentor sources. Separate uncertainty about year from uncertainty about relationship; do not hide a verified relationship merely because year remains unknown.",
+  "batch_eighteen_resolution": {
+    "reviewed_on": "2026-10-08",
+    "source_report": "biography-and-mentor-source-review.json",
+    "before_count": 65,
+    "after_count": 62,
+    "after_type_counts": {
+      "advisor-student": 49,
+      "postdoc-mentor": 12,
+      "postdoc-group": 1
+    },
+    "resolved_initial_uncertainties": [
+      "chan-kwokwai: advisor and PhD 2008 from personal CV",
+      "zong-zhengyu: advisor and PhD 2015 from Tsinghua",
+      "wu-chaozhong: advisor from official talk and 2010 year from INdAM",
+      "du-chengyong: 2014 doctorate and two advisors from official personal page"
+    ],
+    "withheld_initial_uncertainties": [
+      "ni-dadi: mentor not established by coauthorship",
+      "zhang-qingsheng: mentor not established by coauthorship"
+    ],
+    "two_duplicate_pairs_merged": true,
+    "remaining_scope": "Other source-free relationships and biography assertions remain unaudited."
+  }
 }

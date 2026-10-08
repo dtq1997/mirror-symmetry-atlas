@@ -8,27 +8,27 @@ nationality: Chinese
 gender: male
 photo_url: null
 career_timeline:
-  - period: "2001-2005"
-    type: education
-    institution: tsinghua
-    role: "本科"
-    notes: "清华大学数学科学系"
-  - period: "2005-2010"
-    type: education
-    institution: tsinghua
-    role: "博士"
-    advisor: zhang-youjin
-    notes: "清华大学数学科学系，导师张友金"
-  - period: "2010-2014"
-    type: position
-    institution: sissa
-    role: "博士后, Marie Curie Fellow (INdAM)"
-    notes: "跟随 Dubrovin，研究 Drinfeld-Sokolov hierarchy 和 Frobenius manifold"
-  - period: "2014-present"
-    type: position
-    institution: sun-yat-sen
-    role: "副教授 → 教授"
-    notes: "中山大学数学学院，博士生导师。GAGP 团队成员"
+- period: 2001-2005
+  type: education
+  institution: tsinghua
+  role: 本科
+  notes: 清华大学数学科学系
+- period: 2005-2010
+  type: education
+  institution: tsinghua
+  role: 博士
+  advisor: zhang-youjin
+  notes: 清华大学数学科学系，导师张友金
+- period: 2010-2014
+  type: position
+  institution: sissa
+  role: 博士后, Marie Curie Fellow (INdAM)
+  notes: SISSA博士后2010.10–2012.01；INdAM-COFUND Incoming Fellow为2012.01.10–2014.01.09。博士后跟随Dubrovin见华南理工大学报告简介。
+- period: 2014-present
+  type: position
+  institution: sun-yat-sen
+  role: 副教授 → 教授
+  notes: 中山大学数学学院，博士生导师。GAGP 团队成员
 research_areas:
   - integrable-hierarchy
   - tau-function
@@ -39,45 +39,65 @@ research_areas:
   - mathematical-physics
 identity_profile:
   affiliations:
-    - institution: 'tsinghua'
-      period: '2001-2005'
-      role: '本科'
-    - institution: 'tsinghua'
-      period: '2005-2010'
-      role: '博士'
-    - institution: 'sissa'
-      period: '2010-2014'
-      role: '博士后, Marie Curie Fellow (INdAM)'
-    - institution: 'sun-yat-sen'
-      period: '2014-present'
-      role: '副教授 → 教授'
-  email_domains: [mail.sysu.edu.cn, sissa.it, tsinghua.edu.cn]
-  coauthor_circle_core_slugs: [dubrovin, hu-jianxun, liu-siqi, zhang-youjin]
-  coauthor_circle_core_names: ['Boris Dubrovin', 'Jianxun Hu', 'Siqi Liu', 'Youjin Zhang']
-  research_keywords: [constraints, drinfeld, frobenius, hierarchy, integrable, mathematical, physics, sokolov, virasoro]
+  - institution: tsinghua
+    period: 2001-2005
+    role: 本科
+  - institution: tsinghua
+    period: 2005-2010
+    role: 博士
+  - institution: sissa
+    period: 2010-2014
+    role: 博士后, Marie Curie Fellow (INdAM)
+  - institution: sun-yat-sen
+    period: 2014-present
+    role: 副教授 → 教授
+  email_domains:
+  - mail.sysu.edu.cn
+  - sissa.it
+  - tsinghua.edu.cn
+  coauthor_circle_core_slugs:
+  - dubrovin
+  - hu-jianxun
+  - liu-siqi
+  - zhang-youjin
+  coauthor_circle_core_names:
+  - Boris Dubrovin
+  - Jianxun Hu
+  - Siqi Liu
+  - Youjin Zhang
+  research_keywords:
+  - constraints
+  - drinfeld
+  - frobenius
+  - hierarchy
+  - integrable
+  - mathematical
+  - physics
+  - sokolov
+  - virasoro
   known_arxiv_ids:
-    - '2603.01354'
-    - '2501.04984'
-    - '2408.07376'
-    - '2406.08239'
-    - '2311.07341'
-    - '2005.05204'
-    - '1911.12727'
-    - '1908.06707'
-    - '1811.10137'
-    - '1505.00556'
-    - '1502.04787'
-    - '1404.5149'
-    - '1305.1030'
-    - '1208.1374'
-    - '1203.5750'
-    - '1112.0246'
-    - '1103.4048'
-    - '1012.5245'
-    - '1001.4126'
-    - '0912.5273'
-    - '0906.5360'
-    - '0711.2599'
+  - '2603.01354'
+  - '2501.04984'
+  - '2408.07376'
+  - '2406.08239'
+  - '2311.07341'
+  - '2005.05204'
+  - '1911.12727'
+  - '1908.06707'
+  - '1811.10137'
+  - '1505.00556'
+  - '1502.04787'
+  - '1404.5149'
+  - '1305.1030'
+  - '1208.1374'
+  - '1203.5750'
+  - '1112.0246'
+  - '1103.4048'
+  - '1012.5245'
+  - '1001.4126'
+  - '0912.5273'
+  - '0906.5360'
+  - '0711.2599'
 advisor: zhang-youjin
 mentors:
   - dubrovin
@@ -271,15 +291,23 @@ personal_notes: |
   在 Adv. Math、IMRN、CMP、JPA、Lett. Math. Phys. 等发表论文。
   Math Genealogy 上暂无条目。
 sources:
-  - label: '中山大学数学学院教师页'
-    url: 'http://math.sysu.edu.cn/teacher/565'
-  - label: 'GAGP 团队'
-    url: 'https://math.sysu.edu.cn/gagp/people'
-  - label: '华南理工大学学术报告通知'
-    url: 'https://www2.scut.edu.cn/math/2015/0925/c10160a242952/page.htm'
-  - label: 'arXiv'
-    url: 'https://arxiv.org/search/?searchtype=author&query=Chao-Zhong+Wu'
-  - label: '信息源'
-    url: 'https://link.springer.com/article/10.1007/s11425-018-9568-x'
+- label: '[Codex] 2026-10-08：INdAM本人项目履历'
+  url: https://www.altamatematica.it/indam-cofund/cofund2008/chaozhong-wu/
+  last_verified: '2026-10-08'
+  notes: 清华博士学习2005.09.01–2010.07.20；区分2010–2012博士后与2012–2014 INdAM资助期。
+- label: '[Codex] 2026-10-08：华南理工大学报告人简介'
+  url: https://www2.scut.edu.cn/math/2015/0925/c10160a242952/page.htm
+  last_verified: '2026-10-08'
+  notes: 2015年官方通知明确写博士师从张友金，后赴SISSA跟随Dubrovin；此来源用于导师关系，不作为2026年职级的依据。
+- label: 中山大学数学学院教师页
+  url: http://math.sysu.edu.cn/teacher/565
+- label: GAGP 团队
+  url: https://math.sysu.edu.cn/gagp/people
+- label: 华南理工大学学术报告通知
+  url: https://www2.scut.edu.cn/math/2015/0925/c10160a242952/page.htm
+- label: arXiv
+  url: https://arxiv.org/search/?searchtype=author&query=Chao-Zhong+Wu
+- label: 信息源
+  url: https://link.springer.com/article/10.1007/s11425-018-9568-x
 tags:
   - sun-yat-sen

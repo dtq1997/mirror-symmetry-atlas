@@ -501,3 +501,37 @@ test('inline title rendering keeps HTML and TeX links untrusted', () => {
   assert.match(html, /&lt;script&gt;/);
   assert.doesNotMatch(html, /<script|<a\s|href="javascript:/);
 });
+
+
+test('mentor duplicates and explicit pending relationships cannot silently return through graph data', () => {
+  const code = `import sys,tempfile,pathlib,yaml
+sys.path.insert(0,'scripts')
+from relationship_review import relationship_errors
+with tempfile.TemporaryDirectory(dir='.cache/msa/site-tests') as directory:
+ p=pathlib.Path(directory)/'review.yaml'
+ edge={'source':'mentor','target':'student','type':'advisor-student','year':2015,'institution':'u'}
+ check=lambda rows: relationship_errors(list(enumerate(rows)),directory)
+ assert not check([edge])
+ assert check([edge,{**edge,'notes':'different wording'}])
+ assert not check([edge,{**edge,'source':'co-advisor'}])
+ assert not check([edge,{**edge,'year':2008}])
+ assert not check([edge,{**edge,'institution':'another university'}])
+ assert not check([{**edge,'year':None}])
+ p.write_text(yaml.safe_dump({'candidates':[{'record':edge,'review_status':'needs-review'}]}))
+ assert check([edge])
+ assert check([{'source':'mentor','target':'student','type':'advisor-student'}])
+ assert not check([{**edge,'source':'student','target':'mentor'}])
+ p.write_text(yaml.safe_dump({'candidates':[{'record':edge,'review_status':'accepted'}]}))
+ assert not check([edge])
+ co={'source':'a','target':'b','type':'co-student'}
+ p.write_text(yaml.safe_dump({'candidates':[{'record':co,'review_status':'needs-review'}]}))
+ assert check([{**co,'source':'b','target':'a'}])
+ p.write_text(yaml.safe_dump({'candidates':[{'record':edge,'review_status':'typo'}]}))
+ assert check([])
+ p.unlink()
+ for invalid in [None,{}, {'source':[],'target':'student','type':'advisor-student'}]:
+  assert check([invalid])
+print('structural gate only, not source verification')`;
+  const result = spawnSync('python3', ['-c', code], { encoding: 'utf8' });
+  assert.equal(result.status, 0, result.stdout + result.stderr);
+});

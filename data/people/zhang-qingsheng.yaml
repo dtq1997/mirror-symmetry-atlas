@@ -8,26 +8,25 @@ nationality: Chinese
 gender: male
 photo_url: null
 career_timeline:
-  - period: "2011-2015"
-    type: education
-    institution: ustc
-    role: "理学学士, 华罗庚班 (少年班学院)"
-  - period: "2015-2020"
-    type: education
-    institution: tsinghua
-    role: "博士"
-    advisor: zhou-jian
-    notes: "[待验证] 极可能师从周坚"
-  - period: "2020-2024"
-    type: position
-    institution: pku
-    role: "博士后"
-    notes: "北京大学数学学院；大湾区大学主页列 2020.11–2024.11。"
-  - period: "2024-present"
-    type: position
-    institution: gbu
-    role: "助理教授"
-    notes: "大湾区大学, 东莞"
+- period: 2011-2015
+  type: education
+  institution: ustc
+  role: 理学学士, 华罗庚班 (少年班学院)
+- period: 2015-2020
+  type: education
+  institution: tsinghua
+  role: 博士
+  notes: 博士导师待核实；不根据与周坚的合著关系确定师承。
+- period: 2020-2024
+  type: position
+  institution: pku
+  role: 博士后
+  notes: 北京大学数学学院；大湾区大学主页列 2020.11–2024.11。
+- period: 2024-present
+  type: position
+  institution: gbu
+  role: 助理教授
+  notes: 大湾区大学, 东莞
 research_areas:
   - gromov-witten-theory
   - virasoro-constraints
@@ -65,7 +64,7 @@ identity_profile:
     - '2112.12736'
     - '1904.09071'
     - '1909.10544'
-advisor: zhou-jian
+advisor: null
 students: []
 key_collaborators:
   - person: guo-shuai
@@ -191,28 +190,31 @@ personal_notes: |
   工作，把 Gromov-Witten 理论、Virasoro 约束、topological recursion 与 integrable hierarchy 连接起来。
   注意 PKU 数学院博后页面另有一位"张庆生"是丁剑组概率/随机游动方向，不是同一人，须按导师和研究方向消歧。
 sources:
-  - label: '[Codex] 2026-10-08：预印本 2301.01131'
-    url: https://arxiv.org/abs/2301.01131
-    last_verified: '2026-10-08'
-    notes: 核对题名、作者与论文首末页；保留首次预印本年份，期刊年份另列。
-  - label: '[Codex] 2026-10-08：期刊版 10.1016/j.aim.2024.110100'
-    url: https://doi.org/10.1016/j.aim.2024.110100
-    last_verified: '2026-10-08'
-    notes: 与预印本的题名、完整作者及正文题首页或摘要对照；出版信息来自出版社登记的 Crossref 元数据。本项不认证整个人物档案。
-  - label: "[Codex] 2026-10-08：大湾区大学主页的历史工作单位"
-    url: "https://www.gbu.edu.cn/detail/article/1147"
-    notes: "页面明确列北京大学数学学院博士后；本轮不据此核实导师归属。"
-  - label: "[Codex] 2026-10-08：新论文作者、署名单位与邮箱核对"
-    url: "https://arxiv.org/abs/2608.29870v1"
-    last_verified: "2026-10-08"
-    notes: "仅核对本篇论文归属；未据此认证全部论文或履历。"
-  - label: '大湾区大学张庆生主页'
-    url: 'https://www.gbu.edu.cn/detail/article/1147'
-  - label: 'ORCID'
-    url: 'https://orcid.org/0000-0002-2777-8248'
-  - label: '大湾区大学 Adv. Math. 论文新闻'
-    url: 'https://www.gbu.edu.cn/detail/article/1360'
-  - label: '大湾区大学博士后招聘公告'
-    url: 'https://www.gbu.edu.cn/detail/article/1230'
+- label: '[Codex] 2026-10-08：博士导师待核实'
+  url: https://www.gbu.edu.cn/detail/article/1147
+  notes: 此前导师字段写“极可能师从周坚”，尚缺本人履历或学位论文的明确记载。暂不绘制师承或同门连线；本轮该网页直连403，沿用先前已读取的学历信息，不把请求失败当反证。
+- label: '[Codex] 2026-10-08：预印本 2301.01131'
+  url: https://arxiv.org/abs/2301.01131
+  last_verified: '2026-10-08'
+  notes: 核对题名、作者与论文首末页；保留首次预印本年份，期刊年份另列。
+- label: '[Codex] 2026-10-08：期刊版 10.1016/j.aim.2024.110100'
+  url: https://doi.org/10.1016/j.aim.2024.110100
+  last_verified: '2026-10-08'
+  notes: 与预印本的题名、完整作者及正文题首页或摘要对照；出版信息来自出版社登记的 Crossref 元数据。本项不认证整个人物档案。
+- label: '[Codex] 2026-10-08：大湾区大学主页的历史工作单位'
+  url: https://www.gbu.edu.cn/detail/article/1147
+  notes: 页面明确列北京大学数学学院博士后；本轮不据此核实导师归属。
+- label: '[Codex] 2026-10-08：新论文作者、署名单位与邮箱核对'
+  url: https://arxiv.org/abs/2608.29870v1
+  last_verified: '2026-10-08'
+  notes: 仅核对本篇论文归属；未据此认证全部论文或履历。
+- label: 大湾区大学张庆生主页
+  url: https://www.gbu.edu.cn/detail/article/1147
+- label: ORCID
+  url: https://orcid.org/0000-0002-2777-8248
+- label: 大湾区大学 Adv. Math. 论文新闻
+  url: https://www.gbu.edu.cn/detail/article/1360
+- label: 大湾区大学博士后招聘公告
+  url: https://www.gbu.edu.cn/detail/article/1230
 tags:
   - important-person

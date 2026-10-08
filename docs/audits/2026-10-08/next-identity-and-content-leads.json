@@ -1,0 +1,87 @@
+{
+  "reviewer": "Codex",
+  "reviewed_on": "2026-10-08",
+  "source_batch": 18,
+  "not_verdicts": true,
+  "priorities": [
+    {
+      "topic": "chen-zhuo-publication-identity",
+      "reason": "Opening the profile for reciprocal mentor cleanup exposed possible same-name papers in arithmetic and GLSM/SCFT. Do not classify by topic alone.",
+      "candidates": [
+        {
+          "id": "2309.00432",
+          "title": "Drinfeld Modular Curves Subordinate to Conjugacy Classes of Nilpotent Upper-Triangular Matrices",
+          "coauthors": [
+            "hu-chuangqiang",
+            "Tao Zhang",
+            "Xiaopeng Zheng"
+          ],
+          "doi": null
+        },
+        {
+          "id": "2211.06943",
+          "title": "MSW-type compactifications of 6d $(1,0)$ SCFTs on 4-manifolds",
+          "coauthors": [
+            "Jin Chen",
+            "Wei Cui",
+            "Babak Haghighat"
+          ],
+          "doi": "10.4310/atmp.2023.v27.n6.a5"
+        },
+        {
+          "id": "2012.14109",
+          "title": "A GLSM view on Homological Projective Duality",
+          "coauthors": [
+            "Jirui Guo",
+            "Mauricio Romo"
+          ],
+          "doi": "10.1007/s00220-022-04401-1"
+        },
+        {
+          "id": "1912.02668",
+          "title": "A Modular Interpretation of BBGS Towers",
+          "coauthors": [
+            "hu-chuangqiang",
+            "Rui Chen"
+          ],
+          "doi": "10.1016/j.jnt.2020.06.006"
+        },
+        {
+          "id": "1806.01283",
+          "title": "Landau-Ginzburg models for certain fiber products with curves",
+          "coauthors": [
+            "Tony Pantev",
+            "Eric Sharpe"
+          ],
+          "doi": "10.1016/j.geomphys.2018.11.012"
+        },
+        {
+          "id": "1603.09634",
+          "title": "Toda-like (0,2) mirrors to products of projective spaces",
+          "coauthors": [
+            "Eric Sharpe",
+            "Ruoxu Wu"
+          ],
+          "doi": "10.1007/jhep08(2016)093"
+        }
+      ],
+      "next_action": "Retrieve primary paper author affiliations/emails and independent researcher profiles; compare with Tsinghua Zhuo Chen. Preserve records before any move."
+    },
+    {
+      "topic": "du-chengyong-publication-years-and-unknown-ids",
+      "reason": "Lefschetz paper has year 2016 but journal says 2014; several complete coauthored works lack identifiers. Confirm publisher metadata and identity before edits."
+    },
+    {
+      "topic": "institution-aliases",
+      "reason": "Browser filter lists duplicate-looking universities: Henan, Berkeley, SISSA/IPMU, Lanzhou etc. Distinguish genuine separate institutions from explicit aliases before any merge."
+    },
+    {
+      "topic": "remaining-biographies",
+      "reason": "Continue next-biography-and-relationship-leads.json, especially remaining inferred mentor edges, Leung career dates and Ji Ce current affiliation lead. Do not recopy unsupported sources."
+    },
+    {
+      "topic": "non-person-coverage",
+      "reason": "Continue 58 concepts, 115 institutions, timeline, conference and problem evidence. This batch does not finish full-site factual audit."
+    }
+  ]
+}

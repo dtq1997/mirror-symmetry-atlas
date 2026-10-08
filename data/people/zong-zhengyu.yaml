@@ -8,69 +8,89 @@ nationality: Chinese
 gender: male
 photo_url: null
 career_timeline:
-  - period: "[?]-2015"
-    type: education
-    institution: columbia
-    role: "博士"
-    advisor: liu-melissa
-    notes: "Columbia University, 导师 Chiu-Chu Melissa Liu [导师待进一步来源确认]"
-  - period: "2015.7-2019.11"
-    type: position
-    institution: tsinghua-ymsc
-    role: "Assistant Professor (tenure-track)"
-    notes: "Yau Mathematical Sciences Center, Tsinghua University"
-  - period: "2019.12-present"
-    type: position
-    institution: tsinghua
-    role: "副教授, 博导"
-    notes: "清华大学数学科学系"
+- period: 2006.08-2010.06
+  type: education
+  institution: tsinghua
+  role: 学士, 数学与物理
+- period: 2010.09-2015.02
+  type: education
+  institution: columbia
+  role: 博士
+  advisor: liu-melissa
+  notes: Columbia University；本人清华英文履历明确列博士论文导师 Chiu-Chu Melissa Liu。
+- period: 2015.7-2019.11
+  type: position
+  institution: tsinghua-ymsc
+  role: Assistant Professor (tenure-track)
+  notes: Yau Mathematical Sciences Center, Tsinghua University
+- period: 2019.12-present
+  type: position
+  institution: tsinghua
+  role: 副教授, 博导
+  notes: 清华大学数学科学系
 research_areas:
   - gromov-witten-theory
   - mirror-symmetry
   - topological-recursion
   - frobenius-manifold
 identity_profile:
-  openalex_id: 'A5048952159'
+  openalex_id: A5048952159
   affiliations:
-    - institution: 'columbia'
-      period: '[?]-2015'
-      role: '博士'
-    - institution: 'tsinghua-ymsc'
-      period: '2015.7-2019.11'
-      role: 'Assistant Professor (tenure-track)'
-    - institution: 'tsinghua'
-      period: '2019.12-present'
-      role: '副教授, 博导'
-  email_domains: [columbia.edu, tsinghua.edu.cn]
-  coauthor_circle_core_slugs: [fang-bohan, liu-melissa]
-  coauthor_circle_core_names: ['Bohan Fang', 'Chiu-Chu Melissa Liu']
-  research_keywords: [frobenius, gromov, mirror, recursion, symmetry, topological, witten]
+  - institution: tsinghua
+    period: 2006.08-2010.06
+    role: 学士, 数学与物理
+  - institution: columbia
+    period: 2010.09-2015.02
+    role: 博士
+  - institution: tsinghua-ymsc
+    period: 2015.7-2019.11
+    role: Assistant Professor (tenure-track)
+  - institution: tsinghua
+    period: 2019.12-present
+    role: 副教授, 博导
+  email_domains:
+  - columbia.edu
+  - tsinghua.edu.cn
+  coauthor_circle_core_slugs:
+  - fang-bohan
+  - liu-melissa
+  coauthor_circle_core_names:
+  - Bohan Fang
+  - Chiu-Chu Melissa Liu
+  research_keywords:
+  - frobenius
+  - gromov
+  - mirror
+  - recursion
+  - symmetry
+  - topological
+  - witten
   known_arxiv_ids:
-    - '2609.12955'
-    - '2601.17321'
-    - '2512.15074'
-    - '2509.24727'
-    - '2507.15187'
-    - '2505.11222'
-    - '2504.15696'
-    - '2312.06160'
-    - '2309.01473'
-    - '2306.05326'
-    - '2211.09203'
-    - '2010.15403'
-    - '1902.03697'
-    - '1612.00652'
-    - '1607.06935'
-    - '1607.01208'
-    - '1604.07270'
-    - '1604.07123'
-    - '1411.3557'
-    - '1401.2217'
-    - '1310.4818'
-    - '1310.4812'
-    - '1208.4342'
-    - '1204.1753'
-    - '1109.4992'
+  - '2609.12955'
+  - '2601.17321'
+  - '2512.15074'
+  - '2509.24727'
+  - '2507.15187'
+  - '2505.11222'
+  - '2504.15696'
+  - '2312.06160'
+  - '2309.01473'
+  - '2306.05326'
+  - '2211.09203'
+  - '2010.15403'
+  - '1902.03697'
+  - '1612.00652'
+  - '1607.06935'
+  - '1607.01208'
+  - '1604.07270'
+  - '1604.07123'
+  - '1411.3557'
+  - '1401.2217'
+  - '1310.4818'
+  - '1310.4812'
+  - '1208.4342'
+  - '1204.1753'
+  - '1109.4992'
 advisor: liu-melissa
 students: []
 key_collaborators:
@@ -275,8 +295,8 @@ links:
   faculty_page: 'https://www.math.tsinghua.edu.cn/info/1298/2682.htm'
   email: 'zyzong@tsinghua.edu.cn'
 known_emails:
-  - "zyzong@tsinghua.edu.cn"
-  - "zyzong@mail.tsinghua.edu.cn"
+- zyzong@tsinghua.edu.cn
+- zyzong@mail.tsinghua.edu.cn
 known_affiliations:
   - "Department of Mathematical Sciences, Tsinghua University"
   - "Yau Mathematical Sciences Center, Tsinghua University"
@@ -301,25 +321,29 @@ personal_notes: |
   2026 HUST 会议报告: All genus Crepant Transformation Conjecture for toric CY 3-orbifolds。
   与方博汉、Chiu-Chu Melissa Liu 合作完成 BKMP Remodeling Conjecture 的 toric CY3 orbifold 全亏格证明，是其身份和研究圈的重要锚点。
 sources:
-  - label: '清华大学数学科学系'
-    url: 'https://www.math.tsinghua.edu.cn/info/1298/2682.htm'
-  - label: 'OpenAlex'
-    url: 'https://openalex.org/authors/A5048952159'
-  - label: '[Codex] 2026-10-08：Remodeling 原始题名与署名'
-    url: https://arxiv.org/abs/1604.07123
-    last_verified: '2026-10-08'
-    notes: 编号对应 Remodeling；射影直线论文是独立的1411.3557，保留。
-  - label: '[Codex] 2026-10-08：Remodeling 出版社 DOI 登记'
-    url: https://api.crossref.org/works/10.1090/jams/934
-    last_verified: '2026-10-08'
-    notes: JAMS 33(1), 135–222；在线2019-11-01，卷期2020，预印本2016。
-  - label: '[Codex] 2026-10-08：Liu 本人2026年9月论文清单'
-    url: https://www.math.columbia.edu/~ccliu/Liu_Publications_2609.pdf
-    last_verified: '2026-10-08'
-    notes: 第37、45项对应射影直线与 Remodeling；第61、62项交叉确认2026年两篇新作的作者、题名及编号。
-  - label: '[Codex] 2026-10-08：新收录论文：Multiple Branes 的署名与单位'
-    url: https://arxiv.org/html/2609.12955v1
-    last_verified: '2026-10-08'
-    notes: 方博汉：北大 BICMR；Liu：Columbia；宗正宇：清华；另一位作者为 Song Yu（Caltech），保留原始姓名，不猜建档。
+- label: '[Codex] 2026-10-08：清华英文履历：学位与博士导师'
+  url: https://math.tsinghua.edu.cn/mathen/info/1312/3472.htm
+  last_verified: '2026-10-08'
+  notes: 本科2006.08–2010.06，Columbia博士2010.09–2015.02；导师Chiu-Chu Melissa Liu。亦列2015.07–2019.11丘成桐中心任职、2019.12起数学系副教授。
+- label: 清华大学数学科学系
+  url: https://www.math.tsinghua.edu.cn/info/1298/2682.htm
+- label: OpenAlex
+  url: https://openalex.org/authors/A5048952159
+- label: '[Codex] 2026-10-08：Remodeling 原始题名与署名'
+  url: https://arxiv.org/abs/1604.07123
+  last_verified: '2026-10-08'
+  notes: 编号对应 Remodeling；射影直线论文是独立的1411.3557，保留。
+- label: '[Codex] 2026-10-08：Remodeling 出版社 DOI 登记'
+  url: https://api.crossref.org/works/10.1090/jams/934
+  last_verified: '2026-10-08'
+  notes: JAMS 33(1), 135–222；在线2019-11-01，卷期2020，预印本2016。
+- label: '[Codex] 2026-10-08：Liu 本人2026年9月论文清单'
+  url: https://www.math.columbia.edu/~ccliu/Liu_Publications_2609.pdf
+  last_verified: '2026-10-08'
+  notes: 第37、45项对应射影直线与 Remodeling；第61、62项交叉确认2026年两篇新作的作者、题名及编号。
+- label: '[Codex] 2026-10-08：新收录论文：Multiple Branes 的署名与单位'
+  url: https://arxiv.org/html/2609.12955v1
+  last_verified: '2026-10-08'
+  notes: 方博汉：北大 BICMR；Liu：Columbia；宗正宇：清华；另一位作者为 Song Yu（Caltech），保留原始姓名，不猜建档。
 tags:
   - tsinghua

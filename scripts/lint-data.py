@@ -47,6 +47,7 @@ from publication_review import load_review, blocked_review
 from institution_sources import appointment_errors
 from concept_references import concept_reference_errors, concept_content_errors
 from problem_content import problem_errors
+from relationship_review import relationship_errors
 
 ROOT = HERE.parent
 PEOPLE_DIR = ROOT / 'data/people'
@@ -387,6 +388,27 @@ def lint(strict_pubs=False, only_slug=None):
 
     # === institution checks ===
     if only_slug is None:
+        named_edges = []
+        for path in sorted(CONN_DIR.glob('*.yaml')):
+            records = yaml.safe_load(path.read_text()) or {}
+            for i, edge in enumerate(records.get('edges', [])):
+                named_edges.append((f'{path.name}[{i}]', edge))
+        # Person fields can also expose a withheld relationship without a graph row.
+        declared_mentors = []
+        for slug, person in people.items():
+            if person.get('advisor'):
+                declared_mentors.append((f'{slug}.advisor', {'source': person['advisor'], 'target': slug, 'type': 'advisor-student'}))
+            for episode in person.get('career_timeline') or []:
+                if episode.get('advisor'):
+                    declared_mentors.append((f'{slug}.career_timeline.advisor', {'source': episode['advisor'], 'target': slug, 'type': 'advisor-student'}))
+            for student in person.get('students') or []:
+                declared_mentors.append((f'{slug}.students', {'source': slug, 'target': student, 'type': 'advisor-student'}))
+        for message in relationship_errors(named_edges, CONN_DIR / '_review_queue'):
+            err('connections', message)
+        # Check each derived declaration individually: reciprocal fields are not duplicate graph episodes.
+        for declaration in declared_mentors:
+            for message in relationship_errors([declaration], CONN_DIR / '_review_queue'):
+                err('connections', message)
         concepts = load_yaml_dir(ROOT / 'data/concepts')
         problems = load_yaml_dir(ROOT / 'data/problems')
         for slug, problem in problems.items():
