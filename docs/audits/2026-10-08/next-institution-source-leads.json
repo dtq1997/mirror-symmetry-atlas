@@ -1,0 +1,59 @@
+{
+  "reviewer": "Codex",
+  "date": "2026-10-08",
+  "status": "read-only-reconnaissance; no institution data changes or verdict",
+  "leads": [
+    {
+      "files": [
+        "data/institutions/lgu.yaml",
+        "data/institutions/leningrad-state.yaml"
+      ],
+      "issue": "Both records name Leningrad State University. Verify historical continuity and rename date before explicit alias; preserve historical labels.",
+      "primary_leads": [
+        {
+          "url": "https://spbarchives.ru/infres/-/archive/cga/R-7240",
+          "read_status": "search extract only; full page timeout/SSL EOF",
+          "note": "Archive catalogue search extract cites1992-02-11order50 for university renaming; do not copy the city1991rename year without checking."
+        },
+        {
+          "url": "https://guide-en.spbu.ru/university",
+          "read_status": "full page read",
+          "note": "Current official university guide readable, but historical event text is not present in extracted timeline; source links to english.spbu.ru/history returned403."
+        }
+      ]
+    },
+    {
+      "files": [
+        "data/institutions/steklov.yaml",
+        "data/people/faddeev.yaml",
+        "data/people/alekseev.yaml"
+      ],
+      "issue": "Moscow Steklov institution record includes Faddeev/Alekseev and doctoral assertion. Must distinguish PDMI/LOMI in StPetersburg from Moscow institution before assigning people, dates or merging. Person files have not yet been reviewed in this batch.",
+      "primary_leads": [
+        {
+          "url": "https://www.pdmi.ras.ru/pdmi/node/12",
+          "read_status": "search extract only; full page timeout, normal TLS fetch unable to verify certificate",
+          "note": "Official indexed history describes PDMI as established1940 and Faddeev director1976–2000; needs full-source reading and independent person records before edits."
+        },
+        {
+          "url": "https://pdmi.ras.ru/eng/institut/institut.php",
+          "read_status": "search extract only; direct502",
+          "note": "Indexed English history explicitly describes present administrative independence despite historical department name; current director line appears stale relative to Russian page."
+        }
+      ]
+    }
+  ],
+  "fetch_failures": [
+    {
+      "name": "pdmi-history",
+      "url": "https://www.pdmi.ras.ru/pdmi/node/12",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)>"
+    },
+    {
+      "name": "spbu-archive",
+      "url": "https://spbarchives.ru/infres/-/archive/cga/R-7240",
+      "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1081)>"
+    }
+  ],
+  "next_action": "Read affected person and institution files, current data rules, then access authoritative history/CV evidence. Keep snippet-only leads unresolved; do not bypass certificate failures or equate common names with same administrative body."
+}

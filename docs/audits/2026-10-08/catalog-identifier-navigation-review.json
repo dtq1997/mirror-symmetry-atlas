@@ -49,7 +49,13 @@
   },
   "limitations": [
     "Export audit covers initial HTML; the catalog progressively reveals other cards using the same component.",
-    "No full bibliography identity or scholarly accuracy certification."
+    "No full bibliography identity or scholarly accuracy certification.",
+    "Separate initial-load input issue discovered during public verification; follow-up batch28, not hidden by the identifier fix."
   ],
-  "deployment": "pending"
+  "deployment": {
+    "commit": "7ba82a1619f78e68f3633409b8d6b5e120277ac1",
+    "run": 37743988647,
+    "status": "success",
+    "live_evidence": "batch-twenty-seven-live-verification.json"
+  }
 }

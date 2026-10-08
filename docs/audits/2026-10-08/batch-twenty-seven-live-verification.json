@@ -1,0 +1,40 @@
+{
+  "reviewer": "Codex",
+  "verified_at": "2026-10-08T07:34:44.321378+00:00",
+  "commit": "7ba82a1619f78e68f3633409b8d6b5e120277ac1",
+  "actions_run": 37743988647,
+  "actions_status": "success",
+  "url": "https://dtq1997.github.io/mirror-symmetry-atlas/papers",
+  "http_status": 200,
+  "sha256": "a84b6c80dfb7557346add8bf892ea7f24a2d35de525482404ac4772ef733ba68",
+  "checks": {
+    "arxiv_label_target_mismatches": [],
+    "three_original_wrong_targets_corrected": true,
+    "catalog_count": 1799
+  },
+  "scope": "Public initial exported HTML; dynamic search and browser layout checks recorded separately.",
+  "browser": {
+    "desktop": {
+      "viewport": [
+        1280,
+        800
+      ],
+      "scrollWidth": 1274,
+      "screenshot": "batch-twenty-seven-live-desktop.jpg"
+    },
+    "mobile": {
+      "viewport": [
+        390,
+        844
+      ],
+      "scrollWidth": 384,
+      "screenshot": "batch-twenty-seven-live-mobile.jpg"
+    },
+    "query": "2010.14339",
+    "result_count": 1,
+    "identifier_target": "https://arxiv.org/abs/2010.14339",
+    "title_target": "https://doi.org/10.4310/pamq.260122023941",
+    "console_errors": []
+  },
+  "new_issue": "Immediate fill after navigation left input2010.14339 but results1799/50; subsequent input after loading filtered correctly. Server controls are currently enabled before handlers attach. Batch28 adds an explicit readiness boundary."
+}

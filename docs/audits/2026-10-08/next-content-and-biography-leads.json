@@ -11,20 +11,21 @@
     "batch_twenty_three": "Ding: 1 confirmed wrong-owner and 2 pending-ownership rows moved to review pool; 2 preprint/journal pairs merged; wrong Yiwen Ding author link, overstated DYZ scope and JLMS year corrected. Early education and adviser remain pending. Six public pages and actual 608px/390px browser checks passed; Actions 37733967538 succeeded for 5c5e792. Pending adviser has a restoration guard; coauthorship and documented institutional overlap remain separate.",
     "batch_twenty_four": "Local and public validation passed; unsafe surname/initial binding and all-authors subject inference removed. 5 accepted paper claims (4 directed pairs), 4 false paper bindings rejected, 368 legacy paper claims retained pending. Threshold 1 now displays singles; arrows show direction. Actions 37736282862 succeeded for 1e14547; 7 public pages, actual 1280px/390px checks passed.",
     "batch_twenty_five": "Deployed121b6dd, Actions37739178616success;7publicpages and1280/390actualbrowserwidths verified. Old45fundingedges preserved;5individualrecipientclaims produce4pairs. Four literal-word grant IDs rejected,3oldpairs superseded by narrower evidence,38oldclaims pending. Public person/sidebar sources and reviewed-output build gate added. 58site checks include15grant tests.",
-    "batch_twenty_six": "Deployed10929f6, Actions37742748997success;9public bibliographies matched,1280/390 actual browser checks passed. Seven publisher markup/entity residues corrected; PAMQ 2010.14339 journal association and quadric DOI added. Li Qin: 2 confirmed UW wrong-owner publications removed,1 identity-pending paper quarantined,2 additional Bao Qin Li identity-only IDs removed. Three historical CV entries corrected; current job unverified. Yang Di early mechanics paper retained through exact-email evidence. 60 site regressions; 287HTML/15264links/563formulas/0issues."
+    "batch_twenty_six": "Deployed10929f6, Actions37742748997success;9public bibliographies matched,1280/390 actual browser checks passed. Seven publisher markup/entity residues corrected; PAMQ 2010.14339 journal association and quadric DOI added. Li Qin: 2 confirmed UW wrong-owner publications removed,1 identity-pending paper quarantined,2 additional Bao Qin Li identity-only IDs removed. Three historical CV entries corrected; current job unverified. Yang Di early mechanics paper retained through exact-email evidence. 60 site regressions; 287HTML/15264links/563formulas/0issues.",
+    "batch_twenty_seven": "Deployed7ba82a1,Actions37743988647success;3original static arXiv-to-DOI mismatches corrected,unknown placeholders no longer linked,identifier guard distinguishes legitimate HTML/PDF versions. 61site checks,287HTML/15263links/563formula instances/0issues;1280/390 public search/target checks passed. Separate initial-load input issue continues in batch28."
   },
   "priority_leads": [
     {
       "content_types": [
-        "catalog identifier navigation"
+        "catalog initial-load interaction"
       ],
-      "status": "confirmed-bug",
-      "issue": "论文目录卡片arXiv编号链接错误复用首选DOI；例如2010.14339显示编号却跳DOI。人物详情中的编号正确。下一批修链接对应关系并加负例，不改归并。",
+      "status": "in-progress-batch-28",
+      "issue": "Public immediate input remained visible but results unchanged until another change after loading; exported controls enabled before hydration. Guard controls and load-more until input handlers are ready; verify static disabled boundary plus first-input browser behavior.",
       "entry_files": [
-        "src/components/papers/PublicationCard.tsx",
-        "src/lib/publications.ts"
+        "src/components/papers/PaperCatalog.tsx",
+        "src/components/papers/CatalogControls.tsx"
       ],
-      "evidence": "batch-twenty-six-preview-verification.json"
+      "evidence": "batch-twenty-seven-live-verification.json"
     },
     {
       "content_types": [
@@ -127,7 +128,8 @@
         "leningrad-state",
         "lgu"
       ],
-      "issue": "两条列宁格勒大学记录的历史更名及主体连续性待核；不能仅凭近似名称自动合并。源文件已定位。"
+      "issue": "两条列宁格勒大学记录的历史更名及主体连续性待核；另需区分莫斯科Steklov与圣彼得堡PDMI，不能仅凭名称合并。官方搜索摘录有关键线索，但完整页访问失败，仍不作为改数据依据。",
+      "evidence": "next-institution-source-leads.json"
     },
     {
       "content_types": [
@@ -247,6 +249,20 @@
       ],
       "verified_source": "https://actamath.cjoe.ac.cn/Jwk_sxxb_en/CN/10.1007/s10114-024-2236-9",
       "evidence": "publication-text-and-qin-identity-review.json"
+    }
+  ],
+  "resolved_usability_leads": [
+    {
+      "content_types": [
+        "catalog identifier navigation"
+      ],
+      "status": "deployed-and-publicly-verified-batch-27",
+      "issue": "论文目录卡片arXiv编号链接错误复用首选DOI；例如2010.14339显示编号却跳DOI。人物详情中的编号正确。下一批修链接对应关系并加负例，不改归并。",
+      "entry_files": [
+        "src/components/papers/PublicationCard.tsx",
+        "src/lib/publications.ts"
+      ],
+      "evidence": "catalog-identifier-navigation-review.json"
     }
   ]
 }
