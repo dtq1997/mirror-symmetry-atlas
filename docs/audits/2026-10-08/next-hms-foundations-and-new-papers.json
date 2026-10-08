@@ -1,0 +1,70 @@
+{
+  "reviewer": "Codex",
+  "date": "2026-10-08",
+  "status": "pending; source leads are not adopted verdicts",
+  "prior_report": "conjectures-and-problem-pages-review.json",
+  "priorities": [
+    {
+      "topic": "HMS current foundation and scope",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/1111.0632v4",
+          "locator": "Theorem 1.2.7, following paragraph, Theorem 8.2.2"
+        },
+        {
+          "url": "https://arxiv.org/abs/1709.08937v2",
+          "locator": "section 1.6 Theorems C/D; section 2.5 Fukaya properties"
+        }
+      ],
+      "task": "Trace later primary work supplying the specific full/relative Fukaya construction and split-generation bridges. Do not infer current unproved status from a historical in-preparation citation. Preserve coefficient/Novikov, bounding-cochain, embeddedness/MPCS and dimension scope. Current problem status needs-review is not refutation."
+    },
+    {
+      "topic": "New Gamma II paper ownership",
+      "arxiv": "2606.07418",
+      "source": "https://arxiv.org/abs/2606.07418v1",
+      "authors": [
+        "Jianxun Hu",
+        "Hua-Zhong Ke",
+        "Changzheng Li",
+        "Zhitong Su"
+      ],
+      "existing_candidate_profiles": [
+        "hu-jianxun",
+        "ke-huazhong",
+        "li-changzheng"
+      ],
+      "missing_profile_names": [
+        "Zhitong Su"
+      ],
+      "evidence": "PDF last page has author-ordered Sun Yat-sen affiliations and matching emails, then Hunan Normal University for Zhitong Su. Profile-specific evidence and current metadata still required before adding records. Do not create guessed person slugs."
+    },
+    {
+      "topic": "New Virasoro paper ownership",
+      "arxiv": "2608.29870",
+      "source": "https://arxiv.org/abs/2608.29870v1",
+      "authors": [
+        "Shuai Guo",
+        "Qingsheng Zhang",
+        "Yang Zhou"
+      ],
+      "existing_candidate_profiles": [
+        "guo-shuai",
+        "zhang-qingsheng"
+      ],
+      "missing_profile_names": [
+        "Yang Zhou (Fudan SCMS; check other existing slugs before creating)"
+      ],
+      "evidence": "PDF author-ordered affiliations/emails at end; current profiles and metadata to compare. Scope is genus one and ambient cohomology of smooth Fano complete intersections, not all genus/all insertions."
+    },
+    {
+      "topic": "Remaining content classes",
+      "task": "Continue all 96 people, 58 canonical concepts, 115 institutions, conferences/timeline, bibliography ownership and paper search. Do not treat this packet as replacement for whole-site Goal."
+    }
+  ],
+  "local_sources": [
+    ".cache/msa/site-recovery/gamma-global-i.pdf",
+    ".cache/msa/site-recovery/virasoro-gzz.pdf",
+    ".cache/msa/site-recovery/hms-sheridan.pdf",
+    ".cache/msa/site-recovery/hms-sheridan-smith.pdf"
+  ]
+}

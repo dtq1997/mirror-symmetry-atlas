@@ -1,0 +1,171 @@
+{
+  "reviewer": "Codex",
+  "checked_at": "2026-10-08T02:21:03.322608+00:00",
+  "commit": "31c4fa436865ba315250e67ba77d119a52d8aab9",
+  "deployment_run": 37717219842,
+  "http_checks": [
+    {
+      "url": "https://dtq1997.github.io/mirror-symmetry-atlas/",
+      "status": 200,
+      "sha256": "7d8c88b2c2461c549801542fb1491590ac87d5449de043a6fcced29c868e38ac",
+      "checks": {
+        "no_katex_errors": true,
+        "all_problem_links": true,
+        "scoped_status_labels": true,
+        "catalog_retained": true
+      },
+      "passed": true
+    },
+    {
+      "url": "https://dtq1997.github.io/mirror-symmetry-atlas/problems",
+      "status": 200,
+      "sha256": "93b72aed90cc188b6873c81d4194cb5ea1b945f38c1a489a53c64f15da4eb65a",
+      "checks": {
+        "no_katex_errors": true,
+        "all_problem_links": true,
+        "scoped_status_labels": true
+      },
+      "passed": true
+    },
+    {
+      "url": "https://dtq1997.github.io/mirror-symmetry-atlas/papers",
+      "status": 200,
+      "sha256": "912a227bf2dd0021bbc7aae07dd1cf2b5763a3fec9bd1dbf5a63dedfc08b77c4",
+      "checks": {
+        "no_katex_errors": true,
+        "helix_correct_link": true,
+        "no_wrong_helix_link": true,
+        "book_publication": true
+      },
+      "passed": true
+    },
+    {
+      "url": "https://dtq1997.github.io/mirror-symmetry-atlas/concepts/gamma-conjecture",
+      "status": 200,
+      "sha256": "7503a5040388953d8ab5db068a21cf36756afd29b495a76064b151d20cbd21cc",
+      "checks": {
+        "no_katex_errors": true,
+        "sources_present": true,
+        "review_scope": true,
+        "heading": true,
+        "literal_rendered_tex": true,
+        "counterexample_scope": true
+      },
+      "passed": true
+    },
+    {
+      "url": "https://dtq1997.github.io/mirror-symmetry-atlas/concepts/homological-mirror-symmetry",
+      "status": 200,
+      "sha256": "420ac7adb8c706d58be2e512efc943c8b725d4a66f5ee726e69631e4fbab87ff",
+      "checks": {
+        "no_katex_errors": true,
+        "sources_present": true,
+        "review_scope": true,
+        "heading": true,
+        "literal_rendered_tex": true
+      },
+      "passed": true
+    },
+    {
+      "url": "https://dtq1997.github.io/mirror-symmetry-atlas/concepts/fukaya-category",
+      "status": 200,
+      "sha256": "d292cedf1499f934133891de5f72f023e4dc520307c6ae4acd7abd57d298888f",
+      "checks": {
+        "no_katex_errors": true,
+        "sources_present": true,
+        "review_scope": true,
+        "heading": true,
+        "literal_rendered_tex": true,
+        "no_unconditional_duality": true
+      },
+      "passed": true
+    },
+    {
+      "url": "https://dtq1997.github.io/mirror-symmetry-atlas/concepts/virasoro-constraints",
+      "status": 200,
+      "sha256": "8be0fa28ad84575c56f63c2a1a6cceb97554e3089f0edfd881907f76d08a50fe",
+      "checks": {
+        "no_katex_errors": true,
+        "sources_present": true,
+        "review_scope": true,
+        "heading": true,
+        "literal_rendered_tex": true
+      },
+      "passed": true
+    },
+    {
+      "url": "https://dtq1997.github.io/mirror-symmetry-atlas/problems/gamma-conjecture-proof",
+      "status": 200,
+      "sha256": "ea4075d26800bc5d56b18462f225f21b36f4bbd306407d8e5f2afabca60bc2ec",
+      "checks": {
+        "no_katex_errors": true,
+        "sources_present": true,
+        "review_scope": true,
+        "heading": true,
+        "literal_rendered_tex": true,
+        "status_note": true,
+        "dated_review": true,
+        "progress_links": true,
+        "four_authors_and_paper": true
+      },
+      "passed": true
+    },
+    {
+      "url": "https://dtq1997.github.io/mirror-symmetry-atlas/problems/hms-general-cy",
+      "status": 200,
+      "sha256": "a28e3d174e4712418f716f667fc9fee1b514e4017df78e9900447eed0e750daa",
+      "checks": {
+        "no_katex_errors": true,
+        "sources_present": true,
+        "review_scope": true,
+        "heading": true,
+        "literal_rendered_tex": true,
+        "status_note": true,
+        "dated_review": true,
+        "progress_links": true,
+        "pending_foundations": true
+      },
+      "passed": true
+    },
+    {
+      "url": "https://dtq1997.github.io/mirror-symmetry-atlas/problems/virasoro-conjecture",
+      "status": 200,
+      "sha256": "83fb7e255e8d6db4d75e1e4c65dec0f04c41e2f41040c0fad9215e3d827768b9",
+      "checks": {
+        "no_katex_errors": true,
+        "sources_present": true,
+        "review_scope": true,
+        "heading": true,
+        "literal_rendered_tex": true,
+        "status_note": true,
+        "dated_review": true,
+        "progress_links": true,
+        "ambient_genus_one": true
+      },
+      "passed": true
+    }
+  ],
+  "scope": "Ten live pages: routes, scope notes, source URLs, literal rendered TeX, corrected Helix metadata. Delivery checks, not independent mathematical proofs.",
+  "browser_checks": {
+    "mobile": {
+      "viewport": "390x844",
+      "problem_directory": "3 usable links and scoped status labels",
+      "navigation": "directory -> Gamma II detail -> Gamma concept -> problem directory",
+      "detail_math_instances": 2,
+      "concept_math_instances": 17,
+      "horizontal_overflow": false,
+      "katex_parse_errors": 0
+    },
+    "desktop": {
+      "viewport": "1280x900; final screenshot 1280x720",
+      "navigation": "problem directory -> Virasoro detail -> directory",
+      "latest_result": "2608.29870, 3 authors, ambient cohomology and genus-one restriction visible",
+      "horizontal_overflow": false,
+      "katex_parse_errors": 0
+    },
+    "browser_error_logs": [],
+    "screenshot": "problems-live.png",
+    "cleanup": "Own preview PID95019 stopped after verifying current command; temporary tab10 closed; viewport reset; public problem directory kept."
+  },
+  "check_script_note": "Local dry run first exposed a requests text-decoding default; parser now explicitly uses UTF-8. Not a website defect. All 10 public checks subsequently passed."
+}

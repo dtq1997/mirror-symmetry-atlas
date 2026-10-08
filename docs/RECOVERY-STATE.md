@@ -2,12 +2,12 @@
 
 [Codex] 2026-10-08。Goal **active**，原目标见 `RECOVERY-PLAN.md`。这不是已完成的全库事实认证。
 
-## 当前恢复入口（2026-10-08，第十四批线上验收后）
+## 当前恢复入口（2026-10-08，第十五批线上验收后）
 
 [Codex] Goal仍active。以下是当前摘要；后面的早期“待发布/尚未恢复”是历史记录，不代表现在。
 
-- 原网站已发布十四批修复。最近公开内容 commit `1fc640488d1602e349ac94744a58a99ba37cc1e4`；Actions `37714931087` success，首页/概念图/四个主概念/三个别名/原初形式共10页HTTP核验；线上手机搜索及桌面图谱侧栏、公式与来源目检完成。后续报告提交带skip ci，公开资产仍以上述commit为准。
-- 当前96人物、58主概念与3别名入口（61份原始记录）、115机构、3开放问题；人物原始论文2223行，目录1819组（包括书籍/章节及译版，不等于独立研究论文总数）。283HTML/22324站内链接/682公式实例，未检出坏目标或KaTeX解析错误；data lint 0errors/74warnings；38项网站回归及CI全部检查通过。这不是全库事实或数学认证。
+- 原网站已发布十五批修复。最近公开内容 commit `31c4fa436865ba315250e67ba77d119a52d8aab9`；Actions `37717219842` success，首页/问题目录/3问题详情/4概念/论文页共10页HTTP核验；线上手机目录→Gamma详情→概念与桌面Virasoro详情已实际点击。后续报告提交带skip ci，公开资产仍以上述commit为准。
+- 当前96人物、58主概念与3别名入口（61份原始记录）、115机构、3开放问题；人物原始论文2223行，目录1819组（包括书籍/章节及译版，不等于独立研究论文总数）。287HTML/22736站内链接/706公式实例，未检出坏目标或KaTeX解析错误；data lint 0errors/74warnings；40项网站回归及CI全部检查通过。这不是全库事实或数学认证。
 - 新闻链与定时部署已恢复，72篇新闻在线；作者保留原始署名，不按姓氏猜身份。1237个完整arXiv当前元数据已取回，但并非全部归属已核实。
 - 累计11条确认错挂、5条待核实归属已移出，1录像转网上痕迹，另8条来源确认的重复已合并。原始记录及来源分别保存在审核池或具名审计报告；身份排除受防回填检查保护，合并的有效DOI不能加入拒绝池。刘思齐41条、Mazzocco46条、Dubrovin64条。部分履历/论文修正不代表整个人物已核。
 - 图谱空按钮、共享数据突变、布局持续散开、手机侧栏/搜索、公式跨行渲染已修；年份筛选是累计有日期记录，机构筛选是历史履历关联，不猜现职。小屏全图仍可能局部标签重叠，可搜索放大。
@@ -17,11 +17,12 @@
 - 第十二批已上线：115机构区分字面关联记录与带日期的任职来源；BICMR名称/性质/2005成立年已按官方简介修正，三条任职观察已附官方名单。不代表三个人物或全部机构事实已审完。旧字段完整保存在 institution-membership-and-bicmr-review.json；记录汇总见 institution-record-counts.json；线上验收见 batch-twelve-live-verification.json。
 - 第十三批已上线：概念图当时48前置/81后续/102相关=231条关系，三类保留独立语义、可筛选、多关系分弧线。旧42对漏线中41对有效引用恢复，另1对是primitive-forms误把人物k-saito作概念，已撤去错类型引用而保留人物关联。64节点含3缺档；数据事实、定义和学习关系仍未全核。见concept-graph-relation-review.json、primitive-forms-reference-review.json及batch-thirteen-live-verification.json。
 - 第十四批已上线：四个主条目按一手定义补公式条件、历史界限和来源；撤销Frobenius“1994首次引入”、一般导出范畴无条件Fukaya对偶及无条件Dubrovin–Zhang对应。三组显式别名统一内容/搜索/计数，旧61入口均保留；当前图61节点含3缺档，45前置/81后续/99相关=225条记录。见concept-definitions-and-alias-review.json、batch-fourteen-live-verification.json；三条人物贡献、学习关系与最早历史归属仍待核。
-- 下一步优先 `next-conjecture-content-leads.json`：按一手文献核对Gamma I/II、refined Dubrovin、HMS/Fukaya与Virasoro及三个开放问题的字面条件/年代/状态。旧Gamma II页面以无论文的会议线索声称del Pezzo情形已有证明，仅为待查记录，不能采纳。旧next-concept-content-leads.json已追加本批处置，不重复从零。Eric Zaslow缺档仍见next-institution-and-name-leads.json。
+- 第十五批已上线：新增问题目录/3详情并核对4概念；Gamma I原版反例与Gamma II分开，del Pezzo II已找到2606.07418四作者预印本，Virasoro补半单全亏格及2608.29870环境genus-one结果；经典Helix错号及专著年份也已修。HMS一般状态改为待核，已知具体定理及历史构造依赖明确列出，不能凭旧稿缺口推断今天没有证明。见conjectures-and-problem-pages-review.json与batch-fifteen-live-verification.json。
+- 下一步优先 `next-hms-foundations-and-new-papers.json`：追查HMS历史构造依赖的后续补齐，逐作者核实后补2606.07418/2608.29870到人物论文库。旧next-conjecture-content-leads.json已追加第十五批处置；新packet不替代全站范围。Eric Zaslow缺档仍见next-institution-and-name-leads.json。
 - 全内容待办仍包括：人物公开叙述/履历/师生关系，Hertling整书/章节计数，58主概念的定义、年代、关系及引用，115机构、会议/时间线/3开放问题一手来源，论文目录查找体验。必须继续覆盖这些类型，不能把论文元数据清理当全站完成。
 - content-inventory.json是第一批未核实基线，旧数量/全pending不覆盖后续分项证据。当前覆盖以具名审计的具体字段为准。
 - 不运行旧validate-publications.py --apply / detect-id-title-mismatch.py --write；OpenAlex v2仍有HTTP/缓存/评分风险，不能无人审查全库写入。
-- 继续只在本仓库；先查git状态，再沿此Goal推进。不要回academic-formula-workbench，不启动无关数学campaign。本批预览服务PID77725已核对身份并关闭，临时tab9已关闭；浏览器尺寸已复原，保留线上WDVV详情页。
+- 继续只在本仓库；先查git状态，再沿此Goal推进。不要回academic-formula-workbench，不启动无关数学campaign。本批预览服务PID95019已核对身份并关闭，临时tab10已关闭；浏览器尺寸已复原，保留线上问题目录。
 
 ## 以下为分批历史与证据记录
 
@@ -276,3 +277,6 @@ Goal仍active，转向概念内容的一手来源核查而非继续把绘图通�
 - Virasoro补半单全亏格结果；Liu–Tian定理0.2按原文保留偶插入范围；Guo–Zhang TR日期改2025，不能自动外推所有几何GW。新增2608.29870v1：郭帅、张庆生、周扬的Fano完全交环境上同调genus-one定理，不能去掉环境或亏格限制。
 - 证据：conjectures-and-problem-pages-review.json保留8文件完整前后版本、17份一手PDF哈希、定理定位和未核事项。40项网站回归、lint/typecheck/build通过；0errors/74warnings；287HTML/22736链接/706公式实例，0坏目标/解析错。手机目录→Gamma详情→概念及桌面HMS/Virasoro跳转检查通过，未见横向溢出，浏览器error日志为空。数学原文陈述核对不是独立证明认证。
 - Goal仍active。待本批部署后继续：HMS基础依赖的后续文献；2606.07418与2608.29870补入人物论文库前逐作者核实；其余人物、概念、机构、会议/时间线与论文查找体验。预览PID95019由本轮启动，尚待关闭。
+
+
+[Codex] 2026-10-08 第十五批已上线并完成验收：commit `31c4fa436865ba315250e67ba77d119a52d8aab9`，Actions `37717219842` success。10个线上页面HTTP核对来源链接、字面TeX、状态范围与Helix条目均通过；390px实际目录→Gamma II→Gamma概念（17公式）跳转无解析错/横向溢出；1280px Virasoro详情新结果限制可见，error日志为空。截图 `problems-live.png`。临时预览PID95019已身份核对后SIGINT关闭，tab10已关闭，尺寸复原。Goal继续active。下一轮按 `next-hms-foundations-and-new-papers.json` 接续，先查Git状态，不回其他研究仓库，不用摘要或自动校验冒充数学证明。

@@ -352,5 +352,16 @@
     "A meeting title is not evidence that a theorem was proved.",
     "Do not infer one Gamma conjecture from a nearby result about the other.",
     "Do not launch an unrelated original-proof campaign; this Goal audits public site content."
-  ]
+  ],
+  "batch_fifteen_resolution": {
+    "reviewer": "Codex",
+    "date": "2026-10-08",
+    "report": "conjectures-and-problem-pages-review.json",
+    "status": "All 7 snapshot targets received scoped source-statement review; previous raw fields are preserved history, not current verdicts. HMS global/foundational status remains needs-review.",
+    "new_papers": [
+      "2606.07418v1",
+      "2608.29870v1"
+    ],
+    "next_packet": "next-hms-foundations-and-new-papers.json"
+  }
 }
