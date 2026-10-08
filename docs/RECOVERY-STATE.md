@@ -2,12 +2,12 @@
 
 [Codex] 2026-10-08。Goal **active**，原目标见 `RECOVERY-PLAN.md`。这不是已完成的全库事实认证。
 
-## 当前恢复入口（2026-10-08，第十三批线上验收后）
+## 当前恢复入口（2026-10-08，第十四批线上验收后）
 
 [Codex] Goal仍active。以下是当前摘要；后面的早期“待发布/尚未恢复”是历史记录，不代表现在。
 
-- 原网站已发布十三批修复。最近公开内容 commit `4e650b58098226c8957149e2e075412027849417`；Actions `37713164901` success，首页/概念图/原初形式/人物图/BICMR共5页HTTP核验；桌面概念筛选与人物缩放、手机初始列表和侧栏实际核验完成。后续报告提交带skip ci，公开资产仍以上述commit为准。
-- 当前96人物、61概念、115机构、3开放问题；人物原始论文2223行，目录1819组（包括书籍/章节及译版，不等于独立研究论文总数）。283HTML/22279站内链接/642公式实例，未检出坏目标或KaTeX解析错误；data lint 0errors/74warnings；35项网站回归及CI全部检查通过。这不是全库事实或数学认证。
+- 原网站已发布十四批修复。最近公开内容 commit `1fc640488d1602e349ac94744a58a99ba37cc1e4`；Actions `37714931087` success，首页/概念图/四个主概念/三个别名/原初形式共10页HTTP核验；线上手机搜索及桌面图谱侧栏、公式与来源目检完成。后续报告提交带skip ci，公开资产仍以上述commit为准。
+- 当前96人物、58主概念与3别名入口（61份原始记录）、115机构、3开放问题；人物原始论文2223行，目录1819组（包括书籍/章节及译版，不等于独立研究论文总数）。283HTML/22324站内链接/682公式实例，未检出坏目标或KaTeX解析错误；data lint 0errors/74warnings；38项网站回归及CI全部检查通过。这不是全库事实或数学认证。
 - 新闻链与定时部署已恢复，72篇新闻在线；作者保留原始署名，不按姓氏猜身份。1237个完整arXiv当前元数据已取回，但并非全部归属已核实。
 - 累计11条确认错挂、5条待核实归属已移出，1录像转网上痕迹，另8条来源确认的重复已合并。原始记录及来源分别保存在审核池或具名审计报告；身份排除受防回填检查保护，合并的有效DOI不能加入拒绝池。刘思齐41条、Mazzocco46条、Dubrovin64条。部分履历/论文修正不代表整个人物已核。
 - 图谱空按钮、共享数据突变、布局持续散开、手机侧栏/搜索、公式跨行渲染已修；年份筛选是累计有日期记录，机构筛选是历史履历关联，不猜现职。小屏全图仍可能局部标签重叠，可搜索放大。
@@ -15,12 +15,13 @@
 - 第十一批已上线：按CV修正Fang学历/任职/资助年份，补两篇2026年新作到三个作者的四行记录；会议邀请名单补Nest至18人，移除履历末项推断参会单位并展示官方来源。Fang24(18/6)、Liu61(47/14)、Zong24(15/9)，括号为出版线索/待补线索。见 profiles-new-papers-and-conference-review.json 与 batch-eleven-live-verification.json。
 - 继续复核52条题名差异和227条旧编号的早期快照（含已处理项/版本差异，不全是错）；郭帅2311.09804归属、2312.11174 Open MIND刊名、邬龙挺1103.4695归属、Boalch W4307615951幻灯片类型。旧 next-publication-source-leads.json 三组题名问题已由第十批处理，不重复修改。
 - 第十二批已上线：115机构区分字面关联记录与带日期的任职来源；BICMR名称/性质/2005成立年已按官方简介修正，三条任职观察已附官方名单。不代表三个人物或全部机构事实已审完。旧字段完整保存在 institution-membership-and-bicmr-review.json；记录汇总见 institution-record-counts.json；线上验收见 batch-twelve-live-verification.json。
-- 第十三批已上线：概念图现48前置/81后续/102相关=231条关系，三类保留独立语义、可筛选、多关系分弧线。旧42对漏线中41对有效引用恢复，另1对是primitive-forms误把人物k-saito作概念，已撤去错类型引用而保留人物关联。64节点含3缺档；数据事实、定义和学习关系仍未全核。见concept-graph-relation-review.json、primitive-forms-reference-review.json及batch-thirteen-live-verification.json。
-- 下一步优先 `next-concept-content-leads.json`：逐字按一手定义核对WDVV、Frobenius流形及同名单复数条目；同时处理derived-category/categories、integrable-hierarchy/hierarchies的边界和重复，保留入口及原始证据。不凭相近名称自动合并。`next-institution-and-name-leads.json`中的Eric Zaslow缺档名称仍待修；Northwestern官方姓名和履历已取，尚未新建人物档案。
-- 全内容待办仍包括：人物公开叙述/履历/师生关系，Hertling整书/章节计数，61概念的定义、年代、关系及引用，115机构、会议/时间线/3开放问题一手来源，论文目录查找体验。必须继续覆盖这些类型，不能把论文元数据清理当全站完成。
+- 第十三批已上线：概念图当时48前置/81后续/102相关=231条关系，三类保留独立语义、可筛选、多关系分弧线。旧42对漏线中41对有效引用恢复，另1对是primitive-forms误把人物k-saito作概念，已撤去错类型引用而保留人物关联。64节点含3缺档；数据事实、定义和学习关系仍未全核。见concept-graph-relation-review.json、primitive-forms-reference-review.json及batch-thirteen-live-verification.json。
+- 第十四批已上线：四个主条目按一手定义补公式条件、历史界限和来源；撤销Frobenius“1994首次引入”、一般导出范畴无条件Fukaya对偶及无条件Dubrovin–Zhang对应。三组显式别名统一内容/搜索/计数，旧61入口均保留；当前图61节点含3缺档，45前置/81后续/99相关=225条记录。见concept-definitions-and-alias-review.json、batch-fourteen-live-verification.json；三条人物贡献、学习关系与最早历史归属仍待核。
+- 下一步优先 `next-conjecture-content-leads.json`：按一手文献核对Gamma I/II、refined Dubrovin、HMS/Fukaya与Virasoro及三个开放问题的字面条件/年代/状态。旧Gamma II页面以无论文的会议线索声称del Pezzo情形已有证明，仅为待查记录，不能采纳。旧next-concept-content-leads.json已追加本批处置，不重复从零。Eric Zaslow缺档仍见next-institution-and-name-leads.json。
+- 全内容待办仍包括：人物公开叙述/履历/师生关系，Hertling整书/章节计数，58主概念的定义、年代、关系及引用，115机构、会议/时间线/3开放问题一手来源，论文目录查找体验。必须继续覆盖这些类型，不能把论文元数据清理当全站完成。
 - content-inventory.json是第一批未核实基线，旧数量/全pending不覆盖后续分项证据。当前覆盖以具名审计的具体字段为准。
 - 不运行旧validate-publications.py --apply / detect-id-title-mismatch.py --write；OpenAlex v2仍有HTTP/缓存/评分风险，不能无人审查全库写入。
-- 继续只在本仓库；先查git状态，再沿此Goal推进。不要回academic-formula-workbench，不启动无关数学campaign。本轮预览服务PID62797已核对身份并关闭，临时tab8已关闭；浏览器尺寸和临时缓存设置已复原，保留线上概念页。
+- 继续只在本仓库；先查git状态，再沿此Goal推进。不要回academic-formula-workbench，不启动无关数学campaign。本批预览服务PID77725已核对身份并关闭，临时tab9已关闭；浏览器尺寸已复原，保留线上WDVV详情页。
 
 ## 以下为分批历史与证据记录
 
@@ -260,3 +261,7 @@ Goal仍active，转向概念内容的一手来源核查而非继续把绘图通�
 - 三个已有明确alias标记的复数条目改为显式alias_of，保留全部61旧入口但只显示/计数58个概念；引用、图谱、列表和旧详情共用主条目，不凭名称相近自动合并。alias目标、环、链和冲突内容受结构检查保护。图现61节点（含3缺档）、45前置/81后续/99相关=225条记录。
 - 38项程序回归、lint/typecheck、最终生产构建通过；数据0errors/74warnings；283HTML/22324链接/682公式实例，0坏目标/解析错误。手机三组搜索均1条、WDVV公式与旧Frobenius入口实测；桌面图谱计数/定位实测。
 - 具名证据 concept-definitions-and-alias-review.json 保存7份全文前后记录、当前PDF/HTML哈希与未核边界；本地两份Dubrovin原文与本次从arXiv/SISSA取回版本逐字节相同。next-concept-content-leads.json 保留原快照并追加本批处置，不再把7项全当未动。
+
+[Codex] 2026-10-08 第十四批线上验收完成：commit `1fc640488d1602e349ac94744a58a99ba37cc1e4`，Actions `37714931087` success。10页HTTP检查覆盖全部4主条目与3别名、首页、概念图和未核内容提示；逐条比对行内/行间TeX与来源链接。手机Frobenius搜索仅1条，前置概念显示中文；桌面图谱定位、侧栏核对范围及来源入口正常，error日志为空。截图concept-definitions-live.png。全Goal仍active。
+
+[Codex] 下一轮开场：继续 mirror-symmetry-atlas 全站整治 Goal。先读 docs/RECOVERY-STATE.md 并检查git；第十四批已上线，从 docs/audits/2026-10-08/next-conjecture-content-leads.json 审核Gamma I/II、HMS/Fukaya和Virasoro及3个问题的来源/量词/状态。旧字段是待审原文，不是数学结论。保持逐批证据、构建、部署和线上验收；不回academic-formula-workbench，不运行旧不安全自动归属写入器。

@@ -1,0 +1,175 @@
+{
+  "reviewer": "Codex",
+  "checked_at": "2026-10-08T01:54:06.888199+00:00",
+  "commit": "1fc640488d1602e349ac94744a58a99ba37cc1e4",
+  "deployment_run": 37714931087,
+  "http_checks": [
+    {
+      "url": "https://dtq1997.github.io/mirror-symmetry-atlas/",
+      "status": 200,
+      "sha256": "51693a0e91f448f74b27fee738d6901badd757a1dabdd0e51046f074d1372b36",
+      "checks": {
+        "catalog_retained": true,
+        "canonical_count": true
+      },
+      "passed": true
+    },
+    {
+      "url": "https://dtq1997.github.io/mirror-symmetry-atlas/concepts",
+      "status": 200,
+      "sha256": "ad7b3158cbd0f0c3fe27fcd1dd7f16d4d6127e35fbbd1388d535ba5a0c9973ca",
+      "checks": {
+        "canonical_count": true,
+        "relation_counts": true,
+        "no_duplicate_frobenius": true,
+        "no_alias_nodes": true
+      },
+      "passed": true
+    },
+    {
+      "url": "https://dtq1997.github.io/mirror-symmetry-atlas/concepts/wdvv-equations",
+      "status": 200,
+      "sha256": "65195b17d9471a5bdc8c244e09613b86d14a5ca1c8b351d0455e9ea04b6ff2af",
+      "checks": {
+        "no_katex_errors": true,
+        "literal_math": true,
+        "source_links": true,
+        "review_note": true,
+        "no_invented_intro_year": true
+      },
+      "passed": true
+    },
+    {
+      "url": "https://dtq1997.github.io/mirror-symmetry-atlas/concepts/frobenius-manifold",
+      "status": 200,
+      "sha256": "dc4c587e4304aa248f441579a718d1856109439765235a9f2845e4ccf576bfb2",
+      "checks": {
+        "no_katex_errors": true,
+        "literal_math": true,
+        "source_links": true,
+        "review_note": true,
+        "no_invented_intro_year": true,
+        "historical_correction": true
+      },
+      "passed": true
+    },
+    {
+      "url": "https://dtq1997.github.io/mirror-symmetry-atlas/concepts/integrable-hierarchy",
+      "status": 200,
+      "sha256": "2fb77fc9aea852c30df787c8acac7573094eceb99c307933037fc13293d361a8",
+      "checks": {
+        "no_katex_errors": true,
+        "literal_math": true,
+        "source_links": true,
+        "review_note": true,
+        "no_invented_intro_year": true,
+        "scope_distinction": true
+      },
+      "passed": true
+    },
+    {
+      "url": "https://dtq1997.github.io/mirror-symmetry-atlas/concepts/derived-category",
+      "status": 200,
+      "sha256": "5d11fe6b0c0c4e3fd347985bcecae9edfe1bb72a945a8cd576806e6edb6e4b6b",
+      "checks": {
+        "no_katex_errors": true,
+        "literal_math": true,
+        "source_links": true,
+        "review_note": true,
+        "no_invented_intro_year": true,
+        "general_definition": true
+      },
+      "passed": true
+    },
+    {
+      "url": "https://dtq1997.github.io/mirror-symmetry-atlas/concepts/frobenius-manifolds",
+      "status": 200,
+      "sha256": "200fd6ed6706995c1f6c39a05e40f3a388cfc79918e8c602f9ecf577f9d99255",
+      "checks": {
+        "no_katex_errors": true,
+        "literal_math": true,
+        "source_links": true,
+        "review_note": true,
+        "no_invented_intro_year": true,
+        "alias_notice": true,
+        "canonical_link": true,
+        "historical_correction": true
+      },
+      "passed": true
+    },
+    {
+      "url": "https://dtq1997.github.io/mirror-symmetry-atlas/concepts/integrable-hierarchies",
+      "status": 200,
+      "sha256": "0dd6a1f6f43a7d2070545f239c5f6f8596904df88cb165037df59df2df88ebc1",
+      "checks": {
+        "no_katex_errors": true,
+        "literal_math": true,
+        "source_links": true,
+        "review_note": true,
+        "no_invented_intro_year": true,
+        "alias_notice": true,
+        "canonical_link": true,
+        "scope_distinction": true
+      },
+      "passed": true
+    },
+    {
+      "url": "https://dtq1997.github.io/mirror-symmetry-atlas/concepts/derived-categories",
+      "status": 200,
+      "sha256": "0395ee6e2ce28551169e05a14d4553bdf15521efc7ae867a04b0bbc58126f80b",
+      "checks": {
+        "no_katex_errors": true,
+        "literal_math": true,
+        "source_links": true,
+        "review_note": true,
+        "no_invented_intro_year": true,
+        "alias_notice": true,
+        "canonical_link": true,
+        "general_definition": true
+      },
+      "passed": true
+    },
+    {
+      "url": "https://dtq1997.github.io/mirror-symmetry-atlas/concepts/primitive-forms",
+      "status": 200,
+      "sha256": "3258a4e7bb3d657e3c739b04741480dc96eda6230ef2ed19bfdb0fb12c970886",
+      "checks": {
+        "no_katex_errors": true,
+        "unreviewed_note": true
+      },
+      "passed": true
+    }
+  ],
+  "scope": "Ten live pages; exact rendered TeX/source links compared to reviewed YAML, legacy routes and counts. These delivery checks do not prove mathematical statements or certify unreviewed content.",
+  "browser": {
+    "desktop": {
+      "viewport": [
+        1280,
+        900
+      ],
+      "wdvv_definition_and_sources_visible": true,
+      "graph_frobenius_selection": true,
+      "sidebar_review_scope_and_chinese_roles": true,
+      "detail_source_link": "/mirror-symmetry-atlas/concepts/frobenius-manifold"
+    },
+    "mobile": {
+      "viewport": [
+        390,
+        844
+      ],
+      "frobenius_search_result_count": 1,
+      "canonical_href": "/mirror-symmetry-atlas/concepts/frobenius-manifold",
+      "page_scroll_width": 390,
+      "prerequisite_names_in_chinese": true
+    },
+    "error_logs": [],
+    "screenshot": "concept-definitions-live.png",
+    "screenshot_viewport": [
+      1280,
+      1050
+    ],
+    "viewport_reset": true,
+    "preview_tab_closed": true,
+    "owned_preview_pid_stopped": 77725
+  }
+}
