@@ -2,12 +2,12 @@
 
 [Codex] 2026-10-08。Goal **active**，原目标见 `RECOVERY-PLAN.md`。这不是已完成的全库事实认证。
 
-## 当前恢复入口（2026-10-08，第十二批线上验收后）
+## 当前恢复入口（2026-10-08，第十三批线上验收后）
 
 [Codex] Goal仍active。以下是当前摘要；后面的早期“待发布/尚未恢复”是历史记录，不代表现在。
 
-- 原网站已发布十二批修复。最近公开内容 commit `025624331483b5063f797aecc87ae46f7b4ad741`；Actions `37711391648` success，首页/机构列表/六个机构详情共8页HTTP核验，115列表计数一致；390px BICMR和1280px IAS实际核验完成。后续报告提交带skip ci，公开资产仍以上述commit为准。
-- 当前96人物、61概念、115机构、3开放问题；人物原始论文2223行，目录1819组（包括书籍/章节及译版，不等于独立研究论文总数）。283HTML/22279站内链接/642公式实例，未检出坏目标或KaTeX解析错误；data lint 0errors/74warnings；31项网站回归及CI全部检查通过。这不是全库事实或数学认证。
+- 原网站已发布十三批修复。最近公开内容 commit `4e650b58098226c8957149e2e075412027849417`；Actions `37713164901` success，首页/概念图/原初形式/人物图/BICMR共5页HTTP核验；桌面概念筛选与人物缩放、手机初始列表和侧栏实际核验完成。后续报告提交带skip ci，公开资产仍以上述commit为准。
+- 当前96人物、61概念、115机构、3开放问题；人物原始论文2223行，目录1819组（包括书籍/章节及译版，不等于独立研究论文总数）。283HTML/22279站内链接/642公式实例，未检出坏目标或KaTeX解析错误；data lint 0errors/74warnings；35项网站回归及CI全部检查通过。这不是全库事实或数学认证。
 - 新闻链与定时部署已恢复，72篇新闻在线；作者保留原始署名，不按姓氏猜身份。1237个完整arXiv当前元数据已取回，但并非全部归属已核实。
 - 累计11条确认错挂、5条待核实归属已移出，1录像转网上痕迹，另8条来源确认的重复已合并。原始记录及来源分别保存在审核池或具名审计报告；身份排除受防回填检查保护，合并的有效DOI不能加入拒绝池。刘思齐41条、Mazzocco46条、Dubrovin64条。部分履历/论文修正不代表整个人物已核。
 - 图谱空按钮、共享数据突变、布局持续散开、手机侧栏/搜索、公式跨行渲染已修；年份筛选是累计有日期记录，机构筛选是历史履历关联，不猜现职。小屏全图仍可能局部标签重叠，可搜索放大。
@@ -15,11 +15,12 @@
 - 第十一批已上线：按CV修正Fang学历/任职/资助年份，补两篇2026年新作到三个作者的四行记录；会议邀请名单补Nest至18人，移除履历末项推断参会单位并展示官方来源。Fang24(18/6)、Liu61(47/14)、Zong24(15/9)，括号为出版线索/待补线索。见 profiles-new-papers-and-conference-review.json 与 batch-eleven-live-verification.json。
 - 继续复核52条题名差异和227条旧编号的早期快照（含已处理项/版本差异，不全是错）；郭帅2311.09804归属、2312.11174 Open MIND刊名、邬龙挺1103.4695归属、Boalch W4307615951幻灯片类型。旧 next-publication-source-leads.json 三组题名问题已由第十批处理，不重复修改。
 - 第十二批已上线：115机构区分字面关联记录与带日期的任职来源；BICMR名称/性质/2005成立年已按官方简介修正，三条任职观察已附官方名单。不代表三个人物或全部机构事实已审完。旧字段完整保存在 institution-membership-and-bicmr-review.json；记录汇总见 institution-record-counts.json；线上验收见 batch-twelve-live-verification.json。
-- 下一步优先 `next-concept-graph-leads.json`：61概念的103对唯一related关系只画出61对，漏42对；81条leads_to无独立渲染。修绘图时保留关系类型，不把后续方向当必需前置，更不能据此确认数学关系。另见 `next-institution-and-name-leads.json`，Eric Zaslow缺档名称仍待修；Northwestern官方姓名和履历已取，尚未新建人物档案。
-- 全内容待办仍包括：人物公开叙述/履历/师生关系，Hertling整书/章节计数，61概念及概念图一侧related连线，115机构、会议/时间线/3开放问题一手来源，论文目录查找体验。必须继续覆盖这些类型，不能把论文元数据清理当全站完成。
+- 第十三批已上线：概念图现48前置/81后续/102相关=231条关系，三类保留独立语义、可筛选、多关系分弧线。旧42对漏线中41对有效引用恢复，另1对是primitive-forms误把人物k-saito作概念，已撤去错类型引用而保留人物关联。64节点含3缺档；数据事实、定义和学习关系仍未全核。见concept-graph-relation-review.json、primitive-forms-reference-review.json及batch-thirteen-live-verification.json。
+- 下一步优先 `next-concept-content-leads.json`：逐字按一手定义核对WDVV、Frobenius流形及同名单复数条目；同时处理derived-category/categories、integrable-hierarchy/hierarchies的边界和重复，保留入口及原始证据。不凭相近名称自动合并。`next-institution-and-name-leads.json`中的Eric Zaslow缺档名称仍待修；Northwestern官方姓名和履历已取，尚未新建人物档案。
+- 全内容待办仍包括：人物公开叙述/履历/师生关系，Hertling整书/章节计数，61概念的定义、年代、关系及引用，115机构、会议/时间线/3开放问题一手来源，论文目录查找体验。必须继续覆盖这些类型，不能把论文元数据清理当全站完成。
 - content-inventory.json是第一批未核实基线，旧数量/全pending不覆盖后续分项证据。当前覆盖以具名审计的具体字段为准。
 - 不运行旧validate-publications.py --apply / detect-id-title-mismatch.py --write；OpenAlex v2仍有HTTP/缓存/评分风险，不能无人审查全库写入。
-- 继续只在本仓库；先查git状态，再沿此Goal推进。不要回academic-formula-workbench，不启动无关数学campaign。本轮预览服务PID49353已核对身份并关闭，临时tab7已关闭；浏览器尺寸已复原，保留线上BICMR页。
+- 继续只在本仓库；先查git状态，再沿此Goal推进。不要回academic-formula-workbench，不启动无关数学campaign。本轮预览服务PID62797已核对身份并关闭，临时tab8已关闭；浏览器尺寸和临时缓存设置已复原，保留线上概念页。
 
 ## 以下为分批历史与证据记录
 
@@ -245,3 +246,8 @@ Goal仍active，完整内容核查未完成。下一步优先修概念图42对�
 - 61概念最终48前置/81后续/102唯一相关=231条关系；64节点含3个缺档引用。原103对related中1对错类型撤下，其余42对旧漏线中的41对有效引用补回。全字段汇总见concept-graph-relation-review.json。
 - 35项回归、ESLint、TypeScript、生产构建通过，lint0errors/74warnings，283HTML/22279链接/642公式实例无目标/解析错误。桌面筛选231→129→0、定位和手机默认列表、缺档无伪详情、侧栏关闭均检查。
 - 本地人物页一次缓存加载停在SSR；无console error，CDP见304。仅该预览tab临时绕过缓存后资源200、画布和缩放/视图切换正常；设置已恢复。尚不能确定缓存问题根因，线上必须正常加载复查，不称此问题已修。
+
+
+[Codex] 2026-10-08 第十三批线上验收完成：commit `4e650b58098226c8957149e2e075412027849417`，Actions `37713164901` success。五页HTTP符合预期；正常缓存下人物图有画布、缩放63%→88%，未复现本地SSR停留。概念图231→129关系筛选、缺档提示、原初形式2项前置追溯、390px首次列表及侧栏关闭边界372px均实际通过，error日志为空。截图concept-graph-live-desktop.png，报告batch-thirteen-live-verification.json。预览PID62797和tab8已关闭；尺寸及临时缓存设置已恢复。
+
+Goal仍active，转向概念内容的一手来源核查而非继续把绘图通过当事实通过。入口next-concept-content-leads.json保存七条原文待核记录；WDVV、Frobenius定义、年份及单复数档案应优先。人物/论文/机构/会议/时间线/开放问题等全范围仍保留，不缩减为图谱修复。

@@ -1,0 +1,149 @@
+{
+  "reviewer": "Codex",
+  "date": "2026-10-08",
+  "status": "Next source review, not mathematical verdict",
+  "scope": "Literal local content in seven related entries. Similar names are duplicate candidates, not automatic proof that their scopes coincide.",
+  "entries": [
+    {
+      "path": "data/concepts/wdvv-equations.yaml",
+      "name": {
+        "en": "WDVV Equations",
+        "zh": "WDVV 方程"
+      },
+      "definition": "关于函数 $F(t)$ 的非线性偏微分方程组：\n$\\frac{\\partial^3 F}{\\partial t^\\alpha \\partial t^\\beta \\partial t^\\mu} \\eta^{\\mu\\nu}\n\\frac{\\partial^3 F}{\\partial t_\\nu \\partial t^\\gamma \\partial t^\\delta}\n= \\frac{\\partial^3 F}{\\partial t^\\delta \\partial t^\\beta \\partial t^\\mu} \\eta^{\\mu\\nu}\n\\frac{\\partial^3 F}{\\partial t_\\nu \\partial t^\\gamma \\partial t^\\alpha}$\n表达量子乘积的结合律。\n",
+      "year_introduced": 1990,
+      "introduced_by": [
+        "witten",
+        "dijkgraaf"
+      ],
+      "key_papers": [],
+      "sources": null,
+      "prerequisites": [
+        "flat-connection"
+      ],
+      "leads_to": [
+        "frobenius-manifold",
+        "integrable-hierarchy",
+        "virasoro-constraints"
+      ]
+    },
+    {
+      "path": "data/concepts/frobenius-manifold.yaml",
+      "name": {
+        "en": "Frobenius Manifold",
+        "zh": "Frobenius 流形"
+      },
+      "definition": "复流形 $M$ 上配备平坦度量 $\\eta$、切丛上满足\n$\\eta(X \\circ Y, Z) = \\eta(X, Y \\circ Z)$ 的交换结合乘法 $\\circ$、\n单位向量场 $e$ 和 Euler 向量场 $E$ 的结构。\n",
+      "year_introduced": 1994,
+      "introduced_by": [
+        "dubrovin"
+      ],
+      "key_papers": [
+        "hep-th/9407018"
+      ],
+      "sources": null,
+      "prerequisites": [
+        "flat-connection",
+        "wdvv-equations"
+      ],
+      "leads_to": [
+        "dubrovin-connection",
+        "quantum-cohomology",
+        "tt-star-geometry",
+        "integrable-hierarchy"
+      ]
+    },
+    {
+      "path": "data/concepts/frobenius-manifolds.yaml",
+      "name": {
+        "en": "Frobenius Manifolds",
+        "zh": "Frobenius 流形"
+      },
+      "definition": "复数形版本，等同于 `frobenius-manifold`。详见\n[frobenius-manifold](frobenius-manifold)。\n",
+      "year_introduced": 1994,
+      "introduced_by": [
+        "dubrovin"
+      ],
+      "key_papers": [],
+      "sources": null,
+      "prerequisites": [
+        "frobenius-manifold"
+      ],
+      "leads_to": []
+    },
+    {
+      "path": "data/concepts/derived-category.yaml",
+      "name": {
+        "en": "Derived Category",
+        "zh": "导出范畴"
+      },
+      "definition": "代数簇 $X$ 上凝聚层的有界导出范畴 $D^b\\mathrm{Coh}(X)$。是同调镜像对称和\nexceptional collection 研究的核心对象。\n",
+      "year_introduced": 1967,
+      "introduced_by": [],
+      "key_papers": [],
+      "sources": null,
+      "prerequisites": [],
+      "leads_to": [
+        "homological-mirror-symmetry",
+        "gamma-conjecture"
+      ]
+    },
+    {
+      "path": "data/concepts/derived-categories.yaml",
+      "name": {
+        "en": "Derived Categories",
+        "zh": "导出范畴"
+      },
+      "definition": "复数形版本，等同于 `derived-category`。\n",
+      "year_introduced": null,
+      "introduced_by": [],
+      "key_papers": [],
+      "sources": null,
+      "prerequisites": [
+        "derived-category"
+      ],
+      "leads_to": []
+    },
+    {
+      "path": "data/concepts/integrable-hierarchy.yaml",
+      "name": {
+        "en": "Integrable Hierarchy",
+        "zh": "可积层级"
+      },
+      "definition": "一族相容的演化偏微分方程，例如 KdV 层级\n$u_t = u_{xxx} + 6uu_x, \\ldots$。每个 Frobenius 流形对应一个双 Hamilton\n可积层级（Dubrovin-Zhang 层级）。\n",
+      "year_introduced": null,
+      "introduced_by": [],
+      "key_papers": [],
+      "sources": null,
+      "prerequisites": [
+        "frobenius-manifold"
+      ],
+      "leads_to": [
+        "virasoro-constraints"
+      ]
+    },
+    {
+      "path": "data/concepts/integrable-hierarchies.yaml",
+      "name": {
+        "en": "Integrable Hierarchies",
+        "zh": "可积 Hierarchy"
+      },
+      "definition": "复数形版本，等同于 `integrable-hierarchy`。\n",
+      "year_introduced": null,
+      "introduced_by": [],
+      "key_papers": [],
+      "sources": null,
+      "prerequisites": [
+        "integrable-hierarchy"
+      ],
+      "leads_to": []
+    }
+  ],
+  "next_steps": [
+    "Read the cited primary definitions with their conventions before modifying WDVV or Frobenius statements.",
+    "Check whether singular/plural records intentionally differ; preserve any distinct evidence when consolidating and keep incoming routes working.",
+    "Verify introduction dates separately from preprint/publication years.",
+    "Separate conceptual prerequisites from later developments and cycles; rendering repair did not certify those relationships.",
+    "Re-audit other61 concept entries and all remaining data classes; these seven are only the next source batch."
+  ]
+}

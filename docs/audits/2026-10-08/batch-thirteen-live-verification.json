@@ -1,0 +1,121 @@
+{
+  "reviewer": "Codex",
+  "checked_at": "2026-10-08T01:31:32.931514+00:00",
+  "commit": "4e650b58098226c8957149e2e075412027849417",
+  "deployment_run": 37713164901,
+  "http_checks": [
+    {
+      "url": "https://dtq1997.github.io/mirror-symmetry-atlas/",
+      "status": 200,
+      "sha256": "cc2b2665ab919b1799b33bf3c09ad5dfffaa3340a6ce6ff8d12dc5bbc0f0b158",
+      "checks": {
+        "catalog_1819": true
+      },
+      "passed": true
+    },
+    {
+      "url": "https://dtq1997.github.io/mirror-symmetry-atlas/concepts",
+      "status": 200,
+      "sha256": "767dd280b98cd54b9254f66964b3737b2ec5fcab90924e2d5d7841b0be134c76",
+      "checks": {
+        "relation_controls": true,
+        "selection_control": true,
+        "unverified_relation_note": true,
+        "no_saito_ghost": true,
+        "three_unrecorded": true,
+        "duplicate_names_distinguished": true
+      },
+      "passed": true
+    },
+    {
+      "url": "https://dtq1997.github.io/mirror-symmetry-atlas/concepts/primitive-forms",
+      "status": 200,
+      "sha256": "ee6642bbbf7293f2f89bee4e6a4e4c39af3b804d5be0f1dfc305d2b825a016a8",
+      "checks": {
+        "person_not_concept": true,
+        "person_still_present": true,
+        "mirror_related_retained": true
+      },
+      "passed": true
+    },
+    {
+      "url": "https://dtq1997.github.io/mirror-symmetry-atlas/people",
+      "status": 200,
+      "sha256": "1d500037674716d395be4d8b16e6799050d5790f2f3302a44c2e5e63c6cb5163",
+      "checks": {
+        "people_96": true
+      },
+      "passed": true
+    },
+    {
+      "url": "https://dtq1997.github.io/mirror-symmetry-atlas/institutions/pku-bicmr",
+      "status": 200,
+      "sha256": "09ff0714425674093bbe8e9a55c9de1433c8fa851e41ec7c66841b98b4a52644",
+      "checks": {
+        "prior_batch_retained": true
+      },
+      "passed": true
+    }
+  ],
+  "preview": {
+    "desktop": {
+      "viewport": "1280x900",
+      "relationCounts": {
+        "prerequisite": 48,
+        "leadsTo": 81,
+        "related": 102
+      },
+      "all": 231,
+      "withoutRelated": 129,
+      "allHidden": 0,
+      "primitiveFormsTraceCount": 2,
+      "sourceTypesSeparate": true
+    },
+    "mobile": {
+      "viewport": "390x844",
+      "defaultList": true,
+      "noOverflow": true,
+      "ghostSelectionShowsUnrecorded": true,
+      "ghostHasNoDetailSidebar": true,
+      "primitiveFormsSidebarFitsAfterAnimation": true,
+      "closeButtonRight": 372,
+      "duplicateNameOptionsDistinguishedByEnglish": true
+    },
+    "errorLogs": [],
+    "people_graph": {
+      "viewport": "1280x900",
+      "initial_cached_load": "SSR visible but no hydration/canvas; no error log. Local responses304.",
+      "cache_bypass": "Temporary CDP cacheDisabled true: all script responses200, canvas mounted, zoom and list/graph toggle worked.",
+      "cache_setting_restored": true,
+      "limitation": "Exact cache-load cause not established; ordinary live load must be checked after deployment."
+    }
+  },
+  "scope": "Five public HTML pages and separately recorded browser checks. Graph relation coverage was compared with all61 literal YAML inputs; not factual certification of those concepts.",
+  "live_browser": {
+    "ordinaryCache": true,
+    "people": {
+      "viewport": "1280x900",
+      "canvasCount": 1,
+      "zoomBefore": "63%",
+      "zoomAfter": "88%",
+      "errorLogs": [],
+      "localPreviewFailureNotReproduced": true
+    },
+    "concept": {
+      "desktop": "1280x900",
+      "allRelationCount": 231,
+      "withoutRelated": 129,
+      "ghostNotice": true,
+      "primitiveFormsTraceCount": 2,
+      "screenshot": "concept-graph-live-desktop.png"
+    },
+    "mobile": {
+      "viewport": "390x844",
+      "freshLoadDefaultsToList": true,
+      "sidebarCloseRight": 372,
+      "noOverflow": true
+    },
+    "errorLogs": [],
+    "viewportRestored": true
+  }
+}

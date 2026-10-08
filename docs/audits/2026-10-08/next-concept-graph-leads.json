@@ -515,5 +515,11 @@
     "Missing related targets need the same explicit unrecorded treatment as other missing concept references.",
     "Preserve literal YAML and evidence uncertainty; mathematics, chronology and duplicate-concept review are separate pending work.",
     "Test one-sided/reversed/duplicate references, cycles and missing nodes; check UI legend, filtering and mobile sidebar."
-  ]
+  ],
+  "resolution": {
+    "batch": 13,
+    "commit": "4e650b58098226c8957149e2e075412027849417",
+    "evidence": "concept-graph-relation-review.json",
+    "note": "41 valid missing related pairs recovered; one wrong-namespace person pair removed.81 follow-up arrows have a distinct type. Original batch12 counts above remain historical."
+  }
 }
