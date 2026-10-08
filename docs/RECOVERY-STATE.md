@@ -332,3 +332,7 @@ Goal仍active，转向概念内容的一手来源核查而非继续把绘图通�
 [Codex] 2026-10-08 第二十批准备发布：13条时间线全部补入一手来源、日期依据和核对范围，区分Witten讲座与出版、WDVV文献时段、1991 tt*与1993分类、1994讲义与1992定义、2017徐晓濛v1与后续版本、2019 CDG条件、2020奖章双得主与2021仪式。胡创强现职矛盾和无据师承猜测撤去；2604.04124的Yixuan Ou-Yang错绑徐旭已纠正。博士/BIMSA任职边界未知，15篇仅全查作者名单而非全身份认证。48回归、lint/typecheck/build通过，lint 0errors/73warnings；287HTML/22806links/691公式实例/0问题。手机390与桌面1280已实测。待本批CI及线上验收，Goal active。报告见 timeline-primary-source-review.json、hu-chuangqiang-biography-and-coauthor-review.json 及 batch-twenty-*。
 
 [Codex] 2026-10-08 第二十批已上线并验收：commit `e046a843185c748d207593e0c1a1e4dada45589a`，Actions `37727384213` success。10页HTTP及13条时间线检查通过；线上608px来源展开、时间顺序、4处KaTeX、无横向溢出及console error均已查看。截图timeline-live.png。390手机/1280桌面检查为相同本地生产构建，未冒充公网尺寸测试。Goal仍active；全内容审计尚未完成。
+
+[Codex] 2026-10-08 第二十一批本地完成，待发布：对照1237项缓存来源，覆盖当前1555条论文中的2404个合作者字段，7条不相容线索全部逐项核查。2604.26354在杨迪与Zagier两页错绑徐旭，改为原署名Jianghao Xu并清理衍生身份圈；饶胜2407.02022的三个旧合作者有v1/v2来源，并非误挂，论文区按v3新题名/独著更新，历史署名保留在来源说明；两处Grimstrup全名获机构同DOI记录支持而保留，Nest的I篇刊名改为Classical and Quantum Gravity。未删任何论文，仍2208行/1808组。653条未被此快照覆盖；兼容姓名不等于身份认证。
+
+48网站回归、ESLint、类型检查及最终构建通过，lint 0errors/73warnings；287HTML/22809链接/691公式实例/0坏目标，6页本地HTTP检查通过。首次构建遇磁盘满，清理本网站闲置.next/dev约430MB后重试成功；过程中静态页曾超时重试，最终全部生成，不宣称系统资源已恢复。以后本机压力大可用本安装已核实的CIRCLE_NODE_TOTAL=3临时限制Next到2workers；不修改provider或其他项目。桌面1280实际来源说明/无溢出已查看，手机模拟截图与报告尺寸不一致，本批不宣称手机视觉验收。Goal仍active。报告coauthor-name-source-leads.json、coauthor-versions-and-venue-review.json及batch-twenty-one-*。

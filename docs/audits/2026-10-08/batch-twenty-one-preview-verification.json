@@ -1,0 +1,98 @@
+{
+  "reviewer": "Codex",
+  "checked_at": "2026-10-08T04:46:57.059528+00:00",
+  "commit": "pending-batch-twenty-one",
+  "deployment_run": 0,
+  "scope": "Six pages; two wrong coauthor links, explicit historical/current arXiv metadata, retained name spelling and corrected journal. No global factual certification.",
+  "http_checks": [
+    {
+      "url": "http://127.0.0.1:3847/mirror-symmetry-atlas/",
+      "status": 200,
+      "sha256": "a194c257a2e0055e1835513274e102685be5637f5db584914bf8024db2da2767",
+      "checks": {
+        "no_katex_errors": true,
+        "catalog_count": true
+      },
+      "passed": true
+    },
+    {
+      "url": "http://127.0.0.1:3847/mirror-symmetry-atlas/papers",
+      "status": 200,
+      "sha256": "176bc494e58f26082f73fb833cb0c7f3adfee424d02c0bef07c9953ec96dd1a0",
+      "checks": {
+        "no_katex_errors": true,
+        "catalog_count": true,
+        "jianghao_xu_literal_name": true,
+        "false_xu_xu_binding_absent": true,
+        "current_v3_title": true,
+        "v3_coauthors": true,
+        "correct_journal_I": true,
+        "full_grimstrup_name_retained": true
+      },
+      "passed": true
+    },
+    {
+      "url": "http://127.0.0.1:3847/mirror-symmetry-atlas/people/yang-di",
+      "status": 200,
+      "sha256": "636b1bbdf09b7b3f29997ac56aa635515720cc240b07a51b5d6acfb6fbf87710",
+      "checks": {
+        "no_katex_errors": true,
+        "jianghao_xu_literal_name": true,
+        "false_xu_xu_binding_absent": true,
+        "reviewed_sources_visible": true
+      },
+      "passed": true
+    },
+    {
+      "url": "http://127.0.0.1:3847/mirror-symmetry-atlas/people/zagier",
+      "status": 200,
+      "sha256": "15902970cbdaae6f88d9101f0c724a765a1040a936ff0b3e6970a1f9aca5eacf",
+      "checks": {
+        "no_katex_errors": true,
+        "jianghao_xu_literal_name": true,
+        "false_xu_xu_binding_absent": true,
+        "reviewed_sources_visible": true
+      },
+      "passed": true
+    },
+    {
+      "url": "http://127.0.0.1:3847/mirror-symmetry-atlas/people/rao-sheng",
+      "status": 200,
+      "sha256": "c2dec450bf835b35aca21f106d6a9a402b8a9dea3b88f20cf10f0f6e04f4a251",
+      "checks": {
+        "no_katex_errors": true,
+        "current_v3_title": true,
+        "v3_coauthors": true,
+        "historical_versions_preserved": true,
+        "dated_version_links": true,
+        "reviewed_sources_visible": true
+      },
+      "passed": true
+    },
+    {
+      "url": "http://127.0.0.1:3847/mirror-symmetry-atlas/people/ryszard-nest",
+      "status": 200,
+      "sha256": "b7f2a64e5f26f4b1cdfb18f5f0c8c1fd40605b846dd40b1078a3b67094294a42",
+      "checks": {
+        "no_katex_errors": true,
+        "correct_journal_I": true,
+        "full_grimstrup_name_retained": true,
+        "reviewed_sources_visible": true
+      },
+      "passed": true
+    }
+  ],
+  "browser_checks": {
+    "source_notes_and_current_title_read": true,
+    "desktop_width": 1280,
+    "desktop_scroll_width": 1274,
+    "console_errors": [],
+    "mobile_attempt": {
+      "requested_width": 390,
+      "reported_width": 390,
+      "reported_scroll_width": 384,
+      "visual_verdict": "not-certified: viewport emulation and screenshot output disagreed; temporary overrides cleared"
+    },
+    "scope": "Actual desktop source text and no horizontal overflow checked. Mobile visual verification is not claimed."
+  }
+}

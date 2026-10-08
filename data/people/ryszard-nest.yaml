@@ -377,7 +377,7 @@ publications:
     year: 2008
     coauthors: ['Johannes Aastrup', 'Jesper Møller Grimstrup']
     doi: '10.1088/0264-9381/26/6/065011'
-    journal: 'Journal of Noncommutative Geometry'
+    journal: 'Classical and Quantum Gravity 26(6) (2009), 065011'
     primary_category: hep-th
     sources: [arxiv]
   - id: '0802.1784'
@@ -670,6 +670,14 @@ personal_notes: |
   与 Boris Tsygan 长期搭档，2025 年仍合著 Encyclopedia of Mathematical Physics 第 2 版
   "Noncommutative Calculus"。
 sources:
+  - label: '哥本哈根大学：On spectral triples in quantum gravity I [Codex]'
+    url: 'https://researchprofiles.ku.dk/en/publications/on-spectral-triples-in-quantum-gravity-i-2/'
+    last_verified: '2026-10-08'
+    notes: '核对 10.1088/0264-9381/26/6/065011 的刊名、卷期、文章号与作者。I 刊于 Classical and Quantum Gravity；不能与 II 的 Journal of Noncommutative Geometry 混同。Jesper Møller Grimstrup 是该机构记录的完整写法，arXiv 使用 Jesper M. Grimstrup，原合作者姓名保留。'
+  - label: '哥本哈根大学：A new spectral triple over a space of connections [Codex]'
+    url: 'https://researchprofiles.ku.dk/en/publications/a-new-spectral-triple-over-a-space-of-connections/'
+    last_verified: '2026-10-08'
+    notes: '同一 DOI 10.1007/s00220-009-0758-8 的作者记录写 Jesper Møller Grimstrup，arXiv 0807.3664 写 Jesper M. Grimstrup。确认是这两条来源的写法差别，不据自动姓名差异移除合作者。'
   - label: 'Math Genealogy'
     url: 'https://www.mathgenealogy.org/id.php?id=43937'
   - label: 'University of Copenhagen staff profile'

@@ -161,9 +161,9 @@ publications:
     coauthors: ['Jian Chen', 'I-Hsun Tsai']
     primary_category: math.AG
   - id: '2407.02022'
-    title: 'Smooth deformation limit of Moishezon manifolds is Moishezon'
+    title: 'Upper semicontinuity of algebraic dimension'
     year: 2024
-    coauthors: ['Mu-Lin Li', 'Kai Wang', 'Meng-jiao Wang']
+    coauthors: []
     primary_category: math.CV
   - id: '2204.06870'
     title: 'On extension of closed complex (basic) differential forms: (basic) Hodge numbers and (transversely) p-Kähler structures'
@@ -316,6 +316,14 @@ personal_notes: |
   近年与 Christopher D. Hacon 等国际学者合作，研究 Kahler 族中的 adjoint classes。
   2026 年 HUST 数学物理与几何研讨会武大参会学者之一。
 sources:
+  - label: 'arXiv 2407.02022v3：当前题名与署名 [Codex]'
+    url: 'https://arxiv.org/abs/2407.02022v3'
+    last_verified: '2026-10-08'
+    notes: '2026-09-13 的 v3 题为 Upper semicontinuity of algebraic dimension，仅署名 Sheng Rao。论文区按本次核对的 v3 展示；年份 2024 表示该 arXiv 记录首次提交年。这里只核对版本与书目信息，未审计证明。'
+  - label: 'arXiv 2407.02022v2：保留历史署名依据 [Codex]'
+    url: 'https://arxiv.org/abs/2407.02022v2'
+    last_verified: '2026-10-08'
+    notes: 'v1（2024-07-02）和 v2（2025-03-24）原题为 Smooth deformation limit of Moishezon manifolds is Moishezon，署名 Mu-Lin Li、Sheng Rao、Kai Wang、Meng-jiao Wang。旧合作者有版本依据，不应判作错挂；本页来源区保留这段历史，不推测变更原因。'
   - label: '武汉大学教师主页 (饶胜)'
     url: 'http://jszy.whu.edu.cn/raosheng'
   - label: '武大数统学院专任教师'

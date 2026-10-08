@@ -60,8 +60,8 @@ identity_profile:
   email_domains: [sissa.it, tsinghua.edu.cn, ustc.edu.cn]
   coauthor_circle_core_slugs: [dubrovin, liu-siqi, zagier, zhang-qingsheng, zhang-youjin, zhou-chunhui]
   coauthor_circle_core_names: ['Boris Dubrovin', 'Chunhui Zhou', 'Don Zagier', 'Qingsheng Zhang', 'Siqi Liu', 'Youjin Zhang']
-  coauthor_circle_extended_slugs: [huan-zhen, xu-xu, zhou-jian]
-  coauthor_circle_extended_names: ['Jian Zhou', 'Xu Xu', 'Zhen Huan']
+  coauthor_circle_extended_slugs: [huan-zhen, zhou-jian]
+  coauthor_circle_extended_names: ['Jian Zhou', 'Jianghao Xu', 'Zhen Huan']
   research_keywords: [frobenius, gromov, hierarchy, integrable, intersection, painleve, witten]
   known_arxiv_ids:
     - '2604.26354'
@@ -154,7 +154,7 @@ publications:
   - id: '2604.26354'
     title: 'On enumeration of $b$-angulations of surfaces from an integrability perspective'
     year: 2026
-    coauthors: ['Elba Garcia-Failde', zagier, xu-xu]
+    coauthors: ['Elba Garcia-Failde', 'Jianghao Xu', zagier]
     primary_category: math-ph
   - id: '2603.24956'
     title: 'KdV integrability in GUE correlators'
@@ -541,6 +541,10 @@ personal_notes: |
   学历：清华博士 (2008-2013, 导师张友金) → SISSA + MPIM 博后 (2013-2018, 合作导师 Dubrovin、Zagier)
   研究：KdV tau 函数、Hodge 积分、Frobenius 流形、Dubrovin-Frobenius minicourse (IASM 2024)
 sources:
+  - label: 'arXiv 2604.26354v1 署名核对 [Codex]'
+    url: 'https://arxiv.org/html/2604.26354v1'
+    last_verified: '2026-10-08'
+    notes: '本文四位作者为 Elba Garcia-Failde、Jianghao Xu、Di Yang、Don Zagier；原文署名及单位已核对。Jianghao Xu 保留原始姓名，不绑定徐旭；这不认证其他论文或整份人物档案。'
   - label: 'arXiv 2511.06984 署名核对 [Codex]'
     url: 'https://arxiv.org/html/2511.06984v1'
     last_verified: '2026-10-08'

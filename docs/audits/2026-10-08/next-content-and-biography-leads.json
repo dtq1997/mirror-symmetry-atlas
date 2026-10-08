@@ -5,7 +5,8 @@
   "prior_batch_resolution": {
     "chen_zhuo_six_candidates": "3 rejected-homonym; 1 needs-review; 2 retained with email/affiliation evidence.",
     "institution_duplicates": "8 explicit aliases, 107 primary institutions, 115 routes preserved.",
-    "batch_twenty": "All 13 existing timeline records now have primary sources and explicit date/scope notes; tt-star origin and conservative introduction corrected. Hu Chuangqiang dated biography and 15 author lists reviewed; one wrong coauthor binding fixed, degree/BIMSA employment boundaries remain unverified."
+    "batch_twenty": "All 13 existing timeline records now have primary sources and explicit date/scope notes; tt-star origin and conservative introduction corrected. Hu Chuangqiang dated biography and 15 author lists reviewed; one wrong coauthor binding fixed, degree/BIMSA employment boundaries remain unverified.",
+    "batch_twenty_one": "Coauthor incompatibility inventory: 2404 fields in 1555 rows, 7 leads; 2 wrong Xu Xu bindings corrected, 3 historically valid coauthors retained in Rao version notes while current metadata updated, 2 Grimstrup full-name differences retained. Nest journal I corrected. 653 rows outside selected snapshot remain uncovered."
   },
   "priority_leads": [
     {
@@ -13,7 +14,7 @@
         "people.publications.coauthors",
         "identity_profile"
       ],
-      "issue": "胡创强2604.04124把Yixuan Ou-Yang绑成xu-xu，提示历史合作者字段可能有更多污染。先对已有1237条原始arXiv作者数据与人物论文的coauthors逐条比对，列姓名不相容的候选；名字相容不等于身份已核。只读列队，不自动改同名身份。",
+      "issue": "第一次缓存署名不相容盘点已处理：见coauthor-name-source-leads.json逐条处置。接着查653条无完整arXiv快照的记录、漏列作者和同名身份。任何作者差异先比较字面版本，不把后来版本作者减少说成早期误挂。",
       "resolved_example": "docs/audits/2026-10-08/hu-chuangqiang-biography-and-coauthor-review.json"
     },
     {
@@ -41,6 +42,15 @@
         "problems"
       ],
       "issue": "时间线原有13条已逐条核对日期与简述来源，历史选录仍不完整，引用的数学证明及概念/人物关系不因此认证。继续扩大其他概念、会议和问题条目的具体命题覆盖。"
+    },
+    {
+      "people": [
+        "rao-sheng",
+        "yang-di",
+        "zagier",
+        "ryszard-nest"
+      ],
+      "issue": "本批只核具体书目字段。饶胜履历与personal_notes仍有由合著推断刘克峰师承的待核说法；Nest任职与online_traces描述冲突；杨迪1006.5241的机械学工作需独立身份来源，不能仅因跨主题删除；Zagier学历/师生细节需一手来源。"
     }
   ],
   "institution_inventory": {

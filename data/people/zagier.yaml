@@ -77,8 +77,8 @@ identity_profile:
   email_domains: [maths.ox.ac.uk]
   coauthor_circle_core_slugs: [kontsevich, yang-di]
   coauthor_circle_core_names: ['Di Yang', 'Maxim Kontsevich']
-  coauthor_circle_extended_slugs: [dubrovin, guo-jindong, xu-xu, zhang-youjin]
-  coauthor_circle_extended_names: ['Boris Dubrovin', 'Jindong Guo', 'Xu Xu', 'Youjin Zhang']
+  coauthor_circle_extended_slugs: [dubrovin, guo-jindong, zhang-youjin]
+  coauthor_circle_extended_names: ['Boris Dubrovin', 'Jindong Guo', 'Jianghao Xu', 'Youjin Zhang']
   research_keywords: [hierarchy, integrable, mathematical, modular, number, physics]
   known_arxiv_ids:
     - '2604.26354'
@@ -150,7 +150,7 @@ publications:
   - id: '2604.26354'
     title: 'On enumeration of $b$-angulations of surfaces from an integrability perspective'
     year: 2026
-    coauthors: ['Elba Garcia-Failde', yang-di, xu-xu]
+    coauthors: ['Elba Garcia-Failde', 'Jianghao Xu', yang-di]
     primary_category: math-ph
   - id: '2412.20388'
     title: 'Combinatorics and large genus asymptotics of the Brézin--Gross--Witten numbers'
@@ -435,6 +435,10 @@ publications:
     journal: 'Selecta Mathematica'
     primary_category: math.AG
 sources:
+  - label: 'arXiv 2604.26354v1 署名核对 [Codex]'
+    url: 'https://arxiv.org/html/2604.26354v1'
+    last_verified: '2026-10-08'
+    notes: '本文四位作者为 Elba Garcia-Failde、Jianghao Xu、Di Yang、Don Zagier；原文署名及单位已核对。Jianghao Xu 保留原始姓名，不绑定徐旭；这不认证其他论文或整份人物档案。'
   - label: "Wikipedia: Don Zagier"
     url: "https://en.wikipedia.org/wiki/Don_Zagier"
   - label: "MPIM page"
