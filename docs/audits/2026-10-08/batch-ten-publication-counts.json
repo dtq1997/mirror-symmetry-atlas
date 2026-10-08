@@ -1,0 +1,288 @@
+{
+  "before": {
+    "raw": 2223,
+    "catalog": 1819,
+    "coauthorEdges": 122,
+    "people": [
+      {
+        "slug": "dubrovin",
+        "total_papers": 64,
+        "published_count": 58,
+        "preprint_only_count": 6
+      },
+      {
+        "slug": "fang-bohan",
+        "total_papers": 24,
+        "published_count": 19,
+        "preprint_only_count": 5
+      },
+      {
+        "slug": "guo-shuai",
+        "total_papers": 26,
+        "published_count": 15,
+        "preprint_only_count": 11
+      },
+      {
+        "slug": "liu-melissa",
+        "total_papers": 59,
+        "published_count": 47,
+        "preprint_only_count": 12
+      },
+      {
+        "slug": "zhang-huailiang",
+        "total_papers": 27,
+        "published_count": 18,
+        "preprint_only_count": 9
+      },
+      {
+        "slug": "zhang-youjin",
+        "total_papers": 64,
+        "published_count": 54,
+        "preprint_only_count": 10
+      },
+      {
+        "slug": "zong-zhengyu",
+        "total_papers": 24,
+        "published_count": 16,
+        "preprint_only_count": 8
+      }
+    ],
+    "keyWorks": [
+      {
+        "id": "1809.11058",
+        "title": "Polynomial structure of Gromov-Witten potential of quintic $3$-folds via NMSP",
+        "year": 2018,
+        "coauthors": [
+          "zhang-huailiang",
+          "Jun Li"
+        ],
+        "journal": "Ann. of Math. 194 (2021)",
+        "primary_category": "math.AG",
+        "openalex_id": "W2892497092",
+        "sources": [
+          "arxiv",
+          "openalex"
+        ],
+        "ownerSlug": "guo-shuai",
+        "catalogKey": "arxiv:1809.11058:410",
+        "ownerSlugs": [
+          "guo-shuai",
+          "zhang-huailiang"
+        ]
+      },
+      {
+        "id": "1809.08806",
+        "title": "Polynomial Structure of GW Potential of Quintic",
+        "year": 2018,
+        "coauthors": [
+          "zhang-huailiang",
+          "Jun Li",
+          "Wei-Ping Li"
+        ],
+        "doi": "10.2140/gt.2021.25.775",
+        "journal": "Geom. Topol. 25 (2021) 775-811",
+        "primary_category": "math.AG",
+        "sources": [
+          "arxiv"
+        ],
+        "ownerSlug": "guo-shuai",
+        "catalogKey": "doi:10.2140/gt.2021.25.775:411",
+        "ownerSlugs": [
+          "guo-shuai",
+          "zhang-huailiang"
+        ]
+      },
+      {
+        "id": "1604.07123",
+        "title": "The Eynard-Orantin Recursion and Equivariant Mirror Symmetry for P^1",
+        "year": 2016,
+        "coauthors": [
+          "liu-melissa",
+          "zong-zhengyu"
+        ],
+        "journal": "J. Amer. Math. Soc. 33 (2020), no. 1, 135-222",
+        "primary_category": "math.AG",
+        "openalex_id": "W2344238614",
+        "sources": [
+          "arxiv",
+          "openalex"
+        ],
+        "ownerSlug": "fang-bohan",
+        "catalogKey": "arxiv:1604.07123:368",
+        "ownerSlugs": [
+          "fang-bohan",
+          "liu-melissa",
+          "zong-zhengyu"
+        ]
+      }
+    ]
+  },
+  "after": {
+    "raw": 2219,
+    "catalog": 1817,
+    "coauthorEdges": 122,
+    "people": [
+      {
+        "slug": "dubrovin",
+        "total_papers": 64,
+        "published_count": 57,
+        "preprint_only_count": 7
+      },
+      {
+        "slug": "fang-bohan",
+        "total_papers": 23,
+        "published_count": 18,
+        "preprint_only_count": 5
+      },
+      {
+        "slug": "guo-shuai",
+        "total_papers": 25,
+        "published_count": 14,
+        "preprint_only_count": 11
+      },
+      {
+        "slug": "liu-melissa",
+        "total_papers": 59,
+        "published_count": 47,
+        "preprint_only_count": 12
+      },
+      {
+        "slug": "zhang-huailiang",
+        "total_papers": 26,
+        "published_count": 17,
+        "preprint_only_count": 9
+      },
+      {
+        "slug": "zhang-youjin",
+        "total_papers": 64,
+        "published_count": 53,
+        "preprint_only_count": 11
+      },
+      {
+        "slug": "zong-zhengyu",
+        "total_papers": 23,
+        "published_count": 15,
+        "preprint_only_count": 8
+      }
+    ],
+    "keyWorks": [
+      {
+        "id": "1809.11058",
+        "title": "Polynomial structure of Gromov-Witten potential of quintic $3$-folds via NMSP",
+        "year": 2018,
+        "coauthors": [
+          "zhang-huailiang",
+          "Jun Li"
+        ],
+        "journal": "Annals of Mathematics 194 (2021), no. 3, 585–645",
+        "primary_category": "math.AG",
+        "openalex_id": "W3209265925",
+        "sources": [
+          "arxiv",
+          "openalex",
+          "manual"
+        ],
+        "doi": "10.4007/annals.2021.194.3.1",
+        "ownerSlug": "guo-shuai",
+        "catalogKey": "doi:10.4007/annals.2021.194.3.1:408",
+        "ownerSlugs": [
+          "guo-shuai",
+          "zhang-huailiang"
+        ]
+      },
+      {
+        "id": "1809.08806",
+        "title": "The theory of N-Mixed-Spin-P fields",
+        "year": 2018,
+        "coauthors": [
+          "zhang-huailiang",
+          "Jun Li",
+          "Wei-Ping Li"
+        ],
+        "doi": "10.2140/gt.2021.25.775",
+        "journal": "Geom. Topol. 25 (2021) 775-811",
+        "primary_category": "math.AG",
+        "sources": [
+          "arxiv",
+          "manual"
+        ],
+        "ownerSlug": "guo-shuai",
+        "catalogKey": "doi:10.2140/gt.2021.25.775:409",
+        "ownerSlugs": [
+          "guo-shuai",
+          "zhang-huailiang"
+        ]
+      },
+      {
+        "id": "1604.07123",
+        "title": "On the Remodeling Conjecture for Toric Calabi-Yau 3-Orbifolds",
+        "year": 2016,
+        "coauthors": [
+          "liu-melissa",
+          "zong-zhengyu"
+        ],
+        "journal": "J. Amer. Math. Soc. 33 (2020), no. 1, 135-222",
+        "primary_category": "math.AG",
+        "openalex_id": "W2965670976",
+        "sources": [
+          "arxiv",
+          "openalex",
+          "crossref",
+          "manual"
+        ],
+        "doi": "10.1090/jams/934",
+        "ownerSlug": "fang-bohan",
+        "catalogKey": "doi:10.1090/jams/934:367",
+        "ownerSlugs": [
+          "fang-bohan",
+          "liu-melissa",
+          "zong-zhengyu"
+        ]
+      },
+      {
+        "id": "math/0502365",
+        "title": "Extended affine Weyl groups and Frobenius manifolds -- II",
+        "year": 2005,
+        "coauthors": [
+          "zhang-youjin",
+          "Dafeng Zuo"
+        ],
+        "primary_category": "math.DG",
+        "sources": [
+          "arxiv",
+          "manual"
+        ],
+        "ownerSlug": "dubrovin",
+        "catalogKey": "arxiv:math/0502365:310",
+        "ownerSlugs": [
+          "dubrovin",
+          "zhang-youjin"
+        ]
+      },
+      {
+        "id": "hep-th/9611200",
+        "title": "Extended affine Weyl groups and Frobenius manifolds",
+        "year": 1996,
+        "coauthors": [
+          "zhang-youjin"
+        ],
+        "journal": "Compositio Mathematica 111 (1998), 167--219",
+        "primary_category": "hep-th",
+        "sources": [
+          "arxiv",
+          "openalex",
+          "crossref",
+          "manual"
+        ],
+        "doi": "10.1023/a:1000258122329",
+        "openalex_id": "W1829033056",
+        "ownerSlug": "dubrovin",
+        "catalogKey": "doi:10.1023/a:1000258122329:324",
+        "ownerSlugs": [
+          "dubrovin",
+          "zhang-youjin"
+        ]
+      }
+    ]
+  }
+}

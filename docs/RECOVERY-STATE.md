@@ -187,3 +187,15 @@ Mazzocco的10.14288/1.0377037由DataCite明确登记为MovingImage/Audiovisual�
 - 下一步已有一手确认线索：hep-th/9611200原页作者Boris Dubrovin、Youjin Zhang，期刊Compositio111(1998)167–219，两人当前旧9611200行却写arXiv api core；下批先完整读Zhang档案再修完整编号/作者，并找重复DOI。其余52题名差异、227缺archive旧号、郭帅/邬龙挺候选、概念/机构/会议/开放问题仍待审。Hertling同一本书和章节都计为记录，后续需要明确作品类型/计数口径，不能宣传为独立研究论文篇数。
 
 [Codex] 第九批已上线：commit `f57da999c1d6e9cdd9a72a3f4d3c1ab1da640ecf`，Actions `37706915633` success。Mazzocco/Dubrovin/Hertling/目录/新闻5页HTTP核对全部通过；手机390px实见46条、行内公式、恢复的math/9806056链接，无横向溢出/解析错误/console错误。截图paper-title-live-mobile.jpg；完整证据batch-nine-live-verification.json。Goal active，后续从当前恢复入口和next-publication-source-leads.json继续。
+
+
+[Codex] 2026-10-08 第十批本地验收完成，待发布：
+
+- 一手 arXiv、作者论文清单及出版社元数据确认三组题名/编号串接；7个人物档案共纠正11行，合并4行重复。完整前后记录在 identifier-title-corrections.json。没有把有效的合并 DOI 加入拒绝池，以免误封保留记录。
+- Dubrovin/张友金：第一篇恢复 hep-th/9611200 和双方署名，10.1023/a:1000258122329 与 W1829033056 从续篇移回第一篇；续篇恢复 math/0502365 并补 Dafeng Zuo。续篇真实出版线索仍待补，未宣称未发表。
+- Fang/Liu/Zong：1604.07123恢复 Remodeling 正确题名，补 JAMS DOI，Fang/Zong各合并一条DOI重复；1411.3557射影直线论文保持独立。Guo/Chang：1809.08806恢复 N-Mixed-Spin-P fields 题名；1809.11058补 Annals DOI/卷页，并各合并一条DOI重复，保留预印本题名/年份。在线年、卷期年与预印本年不同，不另算作品。
+- 当前2219原始行/1817目录组；Dubrovin64(57有出版线索/7待补)、张友金64(53/11)、Fang23(18/5)、Liu59(47/12)、Zong23(15/8)、Guo25(14/11)、Chang26(17/9)。论文归并数变化不代表新增身份纠错；累计仍11确认错挂+5归属隔离+1媒体重分类，另8条重复已合并。
+- 28项网站回归、生产构建通过；data lint 0errors/74warnings，283HTML/22222链接/642公式实例/0问题目标。报告 batch-ten-publication-counts.json 和 batch-ten-export-audit.json。源代码未改，本批不声称已完成其他人物或数学内容审核。
+- 本轮附带得到两份作者原始材料：Liu_Publications_2609.pdf（2026年9月，含2609.12955等新条目）、Fang本人cv.pdf。Fang现有personal_notes仍有“哥伦比亚博士”与Northwestern博士互相矛盾，原CV明确Northwestern2010、Eric Zaslow；NSFC12125101年份原CV为2022—2026，现笔记2021—2026。下一批先据此完整核相关字段，再处理其余题名差异/归属候选；不能把新发现只当已修。
+
+Goal active；当前尚待本批 GitHub Pages 发布与线上验收。

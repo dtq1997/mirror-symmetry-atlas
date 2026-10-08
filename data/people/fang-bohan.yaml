@@ -141,15 +141,6 @@ publications:
     primary_category: math.AG
     openalex_id: W2919128252
     sources: [arxiv, openalex]
-  - id: 'doi:10.1090/jams/934'
-    title: 'On the remodeling conjecture for toric Calabi-Yau 3-orbifolds'
-    year: 2019
-    coauthors: [zong-zhengyu, 'Chiu-Chu Liu']
-    doi: '10.1090/jams/934'
-    journal: 'Journal of the American Mathematical Society'
-    openalex_id: W2965670976
-    sources: [openalex]
-    no_arxiv: true
   - id: '1805.04894'
     title: 'Open Gromov-Witten Theory of $K_{\mathbb P^2}, K_{{\mathbb P^1}\times {\mathbb P^1}}, K_{W\mathbb P[1,1,2]}, K_{\mathbb F_1}$ and Jacobi Forms'
     year: 2018
@@ -185,13 +176,14 @@ publications:
     openalex_id: W2964222327
     sources: [arxiv, openalex]
   - id: '1604.07123'
-    title: 'The Eynard-Orantin Recursion and Equivariant Mirror Symmetry for P^1'
+    title: 'On the Remodeling Conjecture for Toric Calabi-Yau 3-Orbifolds'
     year: 2016
-    coauthors: [liu-melissa, zong-zhengyu]
+    coauthors: ['liu-melissa', 'zong-zhengyu']
     journal: 'J. Amer. Math. Soc. 33 (2020), no. 1, 135-222'
-    primary_category: math.AG
-    openalex_id: W2344238614
-    sources: [arxiv, openalex]
+    primary_category: 'math.AG'
+    openalex_id: 'W2965670976'
+    sources: ['arxiv', 'openalex', 'crossref', 'manual']
+    doi: '10.1090/jams/934'
   - id: 'doi:10.1090/pspum/093/01588'
     title: 'All genus mirror symmetry for toric Calabi-Yau 3-orbifolds'
     year: 2016
@@ -340,5 +332,17 @@ sources:
     url: 'https://arxiv.org/abs/2504.15696'
   - label: '信息源'
     url: 'https://mathpicture.fas.harvard.edu/event/seminar-bohan-fang-pku-mirror-symmetry-toric-calabi-yau-3-folds'
+  - label: '[Codex] 2026-10-08：Remodeling 原始题名与署名'
+    url: https://arxiv.org/abs/1604.07123
+    last_verified: '2026-10-08'
+    notes: 编号对应 Remodeling；射影直线论文是独立的1411.3557，保留。
+  - label: '[Codex] 2026-10-08：Remodeling 出版社 DOI 登记'
+    url: https://api.crossref.org/works/10.1090/jams/934
+    last_verified: '2026-10-08'
+    notes: JAMS 33(1), 135–222；在线2019-11-01，卷期2020，预印本2016。
+  - label: '[Codex] 2026-10-08：Liu 本人2026年9月论文清单'
+    url: https://www.math.columbia.edu/~ccliu/Liu_Publications_2609.pdf
+    last_verified: '2026-10-08'
+    notes: 第37和45项分别为射影直线与 Remodeling；仅核这两篇作者及书目。
 tags:
   - pku

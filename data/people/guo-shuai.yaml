@@ -190,15 +190,6 @@ publications:
     coauthors: [ji-ce, zhang-qingsheng]
     primary_category: math-ph
     sources: [arxiv]
-  - id: 'doi:10.4007/annals.2021.194.3.1'
-    title: 'Polynomial structure of Gromov–Witten potential of quintic 3-folds'
-    year: 2021
-    coauthors: [zhang-huailiang, 'Jun Li']
-    doi: '10.4007/annals.2021.194.3.1'
-    journal: 'Annals of Mathematics'
-    openalex_id: W3209265925
-    sources: [openalex]
-    no_arxiv: true
   - id: '2001.05347'
     title: 'Holomorphic anomaly equation for $(\mathbb{P}^2,E)$ and the Nekrasov-Shatashvili limit of local $\mathbb{P}^2$'
     year: 2020
@@ -231,19 +222,20 @@ publications:
   - id: '1809.11058'
     title: 'Polynomial structure of Gromov-Witten potential of quintic $3$-folds via NMSP'
     year: 2018
-    coauthors: [zhang-huailiang, 'Jun Li']
-    journal: 'Ann. of Math. 194 (2021)'
-    primary_category: math.AG
-    openalex_id: W2892497092
-    sources: [arxiv, openalex]
+    coauthors: ['zhang-huailiang', 'Jun Li']
+    journal: 'Annals of Mathematics 194 (2021), no. 3, 585–645'
+    primary_category: 'math.AG'
+    openalex_id: 'W3209265925'
+    sources: ['arxiv', 'openalex', 'manual']
+    doi: '10.4007/annals.2021.194.3.1'
   - id: '1809.08806'
-    title: 'Polynomial Structure of GW Potential of Quintic'
+    title: 'The theory of N-Mixed-Spin-P fields'
     year: 2018
-    coauthors: [zhang-huailiang, 'Jun Li', 'Wei-Ping Li']
+    coauthors: ['zhang-huailiang', 'Jun Li', 'Wei-Ping Li']
     doi: '10.2140/gt.2021.25.775'
     journal: 'Geom. Topol. 25 (2021) 775-811'
-    primary_category: math.AG
-    sources: [arxiv]
+    primary_category: 'math.AG'
+    sources: ['arxiv', 'manual']
   - id: 'doi:10.1093/imrn/rny201'
     title: 'Genus-One Gromov–Witten Invariants of Quintic Three-folds via MSP Localization'
     year: 2018
@@ -378,6 +370,22 @@ sources:
     url: 'https://www.mathgenealogy.org/id.php?id=275155'
   - label: 'OpenAlex'
     url: 'https://openalex.org/authors/A5015466098'
+  - label: '[Codex] 2026-10-08：N-Mixed-Spin-P fields 原始题名与 DOI'
+    url: https://arxiv.org/abs/1809.08806
+    last_verified: '2026-10-08'
+    notes: 四位作者；不是三位作者的 Polynomial structure。
+  - label: '[Codex] 2026-10-08：Polynomial structure 预印本'
+    url: https://arxiv.org/abs/1809.11058
+    last_verified: '2026-10-08'
+    notes: 保留预印本题名和2018年；发表题名不带 via NMSP。
+  - label: '[Codex] 2026-10-08：Polynomial structure 原刊'
+    url: https://annals.math.princeton.edu/2021/194-3/p01
+    last_verified: '2026-10-08'
+    notes: 作者、题名、DOI与194(3), 585–645；2021-11-02在线。
+  - label: '[Codex] 2026-10-08：郭帅本人书目对照'
+    url: https://sites.google.com/site/guoshuaimath/
+    last_verified: '2026-10-08'
+    notes: 本人列出不带 via NMSP 的 Polynomial structure 题名及1809.11058，与1809.08806分列；不据旧主页推断现职。
 tags:
 - important-person
 - pku

@@ -1,0 +1,1242 @@
+{
+  "reviewer": "Codex",
+  "reviewed_at": "2026-10-08",
+  "scope": "Bibliographic metadata and duplicate consolidation only; no proof review or full-person verification.",
+  "changes": [
+    {
+      "owner": "dubrovin",
+      "action": "correct",
+      "before": {
+        "id": "9611200",
+        "title": "Extended affine Weyl groups and Frobenius manifolds",
+        "year": 1996,
+        "coauthors": [
+          "arXiv api core"
+        ],
+        "journal": "Compositio Mathematica 111 (1998), 167--219",
+        "primary_category": "hep-th",
+        "sources": [
+          "arxiv"
+        ]
+      },
+      "after": {
+        "id": "hep-th/9611200",
+        "title": "Extended affine Weyl groups and Frobenius manifolds",
+        "year": 1996,
+        "coauthors": [
+          "zhang-youjin"
+        ],
+        "journal": "Compositio Mathematica 111 (1998), 167--219",
+        "primary_category": "hep-th",
+        "sources": [
+          "arxiv",
+          "openalex",
+          "crossref",
+          "manual"
+        ],
+        "doi": "10.1023/a:1000258122329",
+        "openalex_id": "W1829033056"
+      }
+    },
+    {
+      "owner": "dubrovin",
+      "action": "correct",
+      "before": {
+        "id": "0502365",
+        "title": "Extended affine Weyl groups and Frobenius manifolds -- II",
+        "year": 2005,
+        "coauthors": [
+          "zhang-youjin"
+        ],
+        "doi": "10.1023/a:1000258122329",
+        "journal": "Compositio Mathematica",
+        "primary_category": "math.DG",
+        "openalex_id": "W1829033056",
+        "sources": [
+          "arxiv",
+          "openalex"
+        ]
+      },
+      "after": {
+        "id": "math/0502365",
+        "title": "Extended affine Weyl groups and Frobenius manifolds -- II",
+        "year": 2005,
+        "coauthors": [
+          "zhang-youjin",
+          "Dafeng Zuo"
+        ],
+        "primary_category": "math.DG",
+        "sources": [
+          "arxiv",
+          "manual"
+        ]
+      }
+    },
+    {
+      "owner": "zhang-youjin",
+      "action": "correct",
+      "before": {
+        "id": "9611200",
+        "title": "Extended affine Weyl groups and Frobenius manifolds",
+        "year": 1996,
+        "coauthors": [
+          "arXiv api core"
+        ],
+        "journal": "Compositio Mathematica 111 (1998), 167--219",
+        "primary_category": "hep-th",
+        "sources": [
+          "arxiv"
+        ]
+      },
+      "after": {
+        "id": "hep-th/9611200",
+        "title": "Extended affine Weyl groups and Frobenius manifolds",
+        "year": 1996,
+        "coauthors": [
+          "dubrovin"
+        ],
+        "journal": "Compositio Mathematica 111 (1998), 167--219",
+        "primary_category": "hep-th",
+        "sources": [
+          "arxiv",
+          "openalex",
+          "crossref",
+          "manual"
+        ],
+        "doi": "10.1023/a:1000258122329",
+        "openalex_id": "W1829033056"
+      }
+    },
+    {
+      "owner": "zhang-youjin",
+      "action": "correct",
+      "before": {
+        "id": "0502365",
+        "title": "Extended affine Weyl groups and Frobenius manifolds -- II",
+        "year": 2005,
+        "coauthors": [
+          "dubrovin"
+        ],
+        "doi": "10.1023/a:1000258122329",
+        "journal": "Compositio Mathematica",
+        "primary_category": "math.DG",
+        "openalex_id": "W1829033056",
+        "sources": [
+          "arxiv",
+          "openalex"
+        ]
+      },
+      "after": {
+        "id": "math/0502365",
+        "title": "Extended affine Weyl groups and Frobenius manifolds -- II",
+        "year": 2005,
+        "coauthors": [
+          "dubrovin",
+          "Dafeng Zuo"
+        ],
+        "primary_category": "math.DG",
+        "sources": [
+          "arxiv",
+          "manual"
+        ]
+      }
+    },
+    {
+      "owner": "fang-bohan",
+      "action": "correct",
+      "before": {
+        "id": "1604.07123",
+        "title": "The Eynard-Orantin Recursion and Equivariant Mirror Symmetry for P^1",
+        "year": 2016,
+        "coauthors": [
+          "liu-melissa",
+          "zong-zhengyu"
+        ],
+        "journal": "J. Amer. Math. Soc. 33 (2020), no. 1, 135-222",
+        "primary_category": "math.AG",
+        "openalex_id": "W2344238614",
+        "sources": [
+          "arxiv",
+          "openalex"
+        ]
+      },
+      "after": {
+        "id": "1604.07123",
+        "title": "On the Remodeling Conjecture for Toric Calabi-Yau 3-Orbifolds",
+        "year": 2016,
+        "coauthors": [
+          "liu-melissa",
+          "zong-zhengyu"
+        ],
+        "journal": "J. Amer. Math. Soc. 33 (2020), no. 1, 135-222",
+        "primary_category": "math.AG",
+        "openalex_id": "W2965670976",
+        "sources": [
+          "arxiv",
+          "openalex",
+          "crossref",
+          "manual"
+        ],
+        "doi": "10.1090/jams/934"
+      }
+    },
+    {
+      "owner": "fang-bohan",
+      "action": "merge_duplicate",
+      "before": {
+        "id": "doi:10.1090/jams/934",
+        "title": "On the remodeling conjecture for toric Calabi-Yau 3-orbifolds",
+        "year": 2019,
+        "coauthors": [
+          "zong-zhengyu",
+          "Chiu-Chu Liu"
+        ],
+        "doi": "10.1090/jams/934",
+        "journal": "Journal of the American Mathematical Society",
+        "openalex_id": "W2965670976",
+        "sources": [
+          "openalex"
+        ],
+        "no_arxiv": true
+      },
+      "retained_id": "1604.07123",
+      "reason": "Primary author bibliography, arXiv record and journal volume/pages identify the preprint and published record as one work."
+    },
+    {
+      "owner": "liu-melissa",
+      "action": "correct",
+      "before": {
+        "id": "1604.07123",
+        "title": "The Eynard-Orantin Recursion and Equivariant Mirror Symmetry for P^1",
+        "year": 2016,
+        "coauthors": [
+          "zong-zhengyu",
+          "fang-bohan"
+        ],
+        "journal": "J. Amer. Math. Soc. 33 (2020), no. 1, 135-222",
+        "primary_category": "math.AG",
+        "openalex_id": "W2344238614",
+        "sources": [
+          "arxiv",
+          "openalex"
+        ]
+      },
+      "after": {
+        "id": "1604.07123",
+        "title": "On the Remodeling Conjecture for Toric Calabi-Yau 3-Orbifolds",
+        "year": 2016,
+        "coauthors": [
+          "zong-zhengyu",
+          "fang-bohan"
+        ],
+        "journal": "J. Amer. Math. Soc. 33 (2020), no. 1, 135-222",
+        "primary_category": "math.AG",
+        "openalex_id": "W2965670976",
+        "sources": [
+          "arxiv",
+          "openalex",
+          "crossref",
+          "manual"
+        ],
+        "doi": "10.1090/jams/934"
+      }
+    },
+    {
+      "owner": "zong-zhengyu",
+      "action": "correct",
+      "before": {
+        "id": "1604.07123",
+        "title": "The Eynard-Orantin Recursion and Equivariant Mirror Symmetry for P^1",
+        "year": 2016,
+        "coauthors": [
+          "liu-melissa",
+          "fang-bohan"
+        ],
+        "journal": "J. Amer. Math. Soc. 33 (2020), no. 1, 135-222",
+        "primary_category": "math.AG",
+        "openalex_id": "W2344238614",
+        "sources": [
+          "arxiv",
+          "openalex"
+        ]
+      },
+      "after": {
+        "id": "1604.07123",
+        "title": "On the Remodeling Conjecture for Toric Calabi-Yau 3-Orbifolds",
+        "year": 2016,
+        "coauthors": [
+          "liu-melissa",
+          "fang-bohan"
+        ],
+        "journal": "J. Amer. Math. Soc. 33 (2020), no. 1, 135-222",
+        "primary_category": "math.AG",
+        "openalex_id": "W2965670976",
+        "sources": [
+          "arxiv",
+          "openalex",
+          "crossref",
+          "manual"
+        ],
+        "doi": "10.1090/jams/934"
+      }
+    },
+    {
+      "owner": "zong-zhengyu",
+      "action": "merge_duplicate",
+      "before": {
+        "id": "doi:10.1090/jams/934",
+        "title": "On the remodeling conjecture for toric Calabi-Yau 3-orbifolds",
+        "year": 2019,
+        "coauthors": [
+          "fang-bohan",
+          "Chiu-Chu Liu"
+        ],
+        "doi": "10.1090/jams/934",
+        "journal": "Journal of the American Mathematical Society",
+        "openalex_id": "W2965670976",
+        "sources": [
+          "openalex"
+        ],
+        "no_arxiv": true
+      },
+      "retained_id": "1604.07123",
+      "reason": "Primary author bibliography, arXiv record and journal volume/pages identify the preprint and published record as one work."
+    },
+    {
+      "owner": "guo-shuai",
+      "action": "correct",
+      "before": {
+        "id": "1809.08806",
+        "title": "Polynomial Structure of GW Potential of Quintic",
+        "year": 2018,
+        "coauthors": [
+          "zhang-huailiang",
+          "Jun Li",
+          "Wei-Ping Li"
+        ],
+        "doi": "10.2140/gt.2021.25.775",
+        "journal": "Geom. Topol. 25 (2021) 775-811",
+        "primary_category": "math.AG",
+        "sources": [
+          "arxiv"
+        ]
+      },
+      "after": {
+        "id": "1809.08806",
+        "title": "The theory of N-Mixed-Spin-P fields",
+        "year": 2018,
+        "coauthors": [
+          "zhang-huailiang",
+          "Jun Li",
+          "Wei-Ping Li"
+        ],
+        "doi": "10.2140/gt.2021.25.775",
+        "journal": "Geom. Topol. 25 (2021) 775-811",
+        "primary_category": "math.AG",
+        "sources": [
+          "arxiv",
+          "manual"
+        ]
+      }
+    },
+    {
+      "owner": "guo-shuai",
+      "action": "correct",
+      "before": {
+        "id": "1809.11058",
+        "title": "Polynomial structure of Gromov-Witten potential of quintic $3$-folds via NMSP",
+        "year": 2018,
+        "coauthors": [
+          "zhang-huailiang",
+          "Jun Li"
+        ],
+        "journal": "Ann. of Math. 194 (2021)",
+        "primary_category": "math.AG",
+        "openalex_id": "W2892497092",
+        "sources": [
+          "arxiv",
+          "openalex"
+        ]
+      },
+      "after": {
+        "id": "1809.11058",
+        "title": "Polynomial structure of Gromov-Witten potential of quintic $3$-folds via NMSP",
+        "year": 2018,
+        "coauthors": [
+          "zhang-huailiang",
+          "Jun Li"
+        ],
+        "journal": "Annals of Mathematics 194 (2021), no. 3, 585–645",
+        "primary_category": "math.AG",
+        "openalex_id": "W3209265925",
+        "sources": [
+          "arxiv",
+          "openalex",
+          "manual"
+        ],
+        "doi": "10.4007/annals.2021.194.3.1"
+      }
+    },
+    {
+      "owner": "guo-shuai",
+      "action": "merge_duplicate",
+      "before": {
+        "id": "doi:10.4007/annals.2021.194.3.1",
+        "title": "Polynomial structure of Gromov–Witten potential of quintic 3-folds",
+        "year": 2021,
+        "coauthors": [
+          "zhang-huailiang",
+          "Jun Li"
+        ],
+        "doi": "10.4007/annals.2021.194.3.1",
+        "journal": "Annals of Mathematics",
+        "openalex_id": "W3209265925",
+        "sources": [
+          "openalex"
+        ],
+        "no_arxiv": true
+      },
+      "retained_id": "1809.11058",
+      "reason": "Primary author bibliography, arXiv record and journal volume/pages identify the preprint and published record as one work."
+    },
+    {
+      "owner": "zhang-huailiang",
+      "action": "correct",
+      "before": {
+        "id": "1809.08806",
+        "title": "Polynomial Structure of GW Potential of Quintic",
+        "year": 2018,
+        "coauthors": [
+          "guo-shuai",
+          "Jun Li",
+          "Wei-Ping Li"
+        ],
+        "doi": "10.2140/gt.2021.25.775",
+        "journal": "Geom. Topol. 25 (2021) 775-811",
+        "primary_category": "math.AG",
+        "sources": [
+          "arxiv"
+        ]
+      },
+      "after": {
+        "id": "1809.08806",
+        "title": "The theory of N-Mixed-Spin-P fields",
+        "year": 2018,
+        "coauthors": [
+          "guo-shuai",
+          "Jun Li",
+          "Wei-Ping Li"
+        ],
+        "doi": "10.2140/gt.2021.25.775",
+        "journal": "Geom. Topol. 25 (2021) 775-811",
+        "primary_category": "math.AG",
+        "sources": [
+          "arxiv",
+          "manual"
+        ]
+      }
+    },
+    {
+      "owner": "zhang-huailiang",
+      "action": "correct",
+      "before": {
+        "id": "1809.11058",
+        "title": "Polynomial structure of Gromov-Witten potential of quintic $3$-folds via NMSP",
+        "year": 2018,
+        "coauthors": [
+          "guo-shuai",
+          "Jun Li"
+        ],
+        "journal": "Ann. of Math. 194 (2021)",
+        "primary_category": "math.AG",
+        "openalex_id": "W2892497092",
+        "sources": [
+          "arxiv",
+          "openalex"
+        ]
+      },
+      "after": {
+        "id": "1809.11058",
+        "title": "Polynomial structure of Gromov-Witten potential of quintic $3$-folds via NMSP",
+        "year": 2018,
+        "coauthors": [
+          "guo-shuai",
+          "Jun Li"
+        ],
+        "journal": "Annals of Mathematics 194 (2021), no. 3, 585–645",
+        "primary_category": "math.AG",
+        "openalex_id": "W3209265925",
+        "sources": [
+          "arxiv",
+          "openalex",
+          "manual"
+        ],
+        "doi": "10.4007/annals.2021.194.3.1"
+      }
+    },
+    {
+      "owner": "zhang-huailiang",
+      "action": "merge_duplicate",
+      "before": {
+        "id": "doi:10.4007/annals.2021.194.3.1",
+        "title": "Polynomial structure of Gromov–Witten potential of quintic 3-folds",
+        "year": 2021,
+        "coauthors": [
+          "guo-shuai",
+          "Jun Li"
+        ],
+        "doi": "10.4007/annals.2021.194.3.1",
+        "journal": "Annals of Mathematics",
+        "openalex_id": "W3209265925",
+        "sources": [
+          "openalex"
+        ],
+        "no_arxiv": true
+      },
+      "retained_id": "1809.11058",
+      "reason": "Primary author bibliography, arXiv record and journal volume/pages identify the preprint and published record as one work."
+    }
+  ],
+  "sources": [
+    {
+      "label": "[Codex] 2026-10-08：Weyl 第一篇编号与作者",
+      "url": "https://arxiv.org/abs/hep-th/9611200",
+      "last_verified": "2026-10-08",
+      "notes": "仅核书目；Compositio 111 (1998), 167–219。"
+    },
+    {
+      "label": "[Codex] 2026-10-08：Weyl 续篇编号与三位作者",
+      "url": "https://arxiv.org/abs/math/0502365",
+      "last_verified": "2026-10-08",
+      "notes": "补 Dafeng Zuo；原挂 DOI 和刊名属于第一篇，续篇出版线索待补。"
+    },
+    {
+      "label": "[Codex] 2026-10-08：Weyl 第一篇出版社 DOI 登记",
+      "url": "https://api.crossref.org/works/10.1023/A:1000258122329",
+      "last_verified": "2026-10-08",
+      "notes": "题名、作者、卷页对应 hep-th/9611200，不是 math/0502365。"
+    },
+    {
+      "label": "[Codex] 2026-10-08：Dubrovin 本人论文清单",
+      "url": "https://people.sissa.it/~dubrovin/bd_papers.html",
+      "last_verified": "2026-10-08",
+      "notes": "第39与51项分别为续篇（三位作者）和第一篇（两位作者及刊物）。"
+    },
+    {
+      "label": "[Codex] 2026-10-08：Remodeling 原始题名与署名",
+      "url": "https://arxiv.org/abs/1604.07123",
+      "last_verified": "2026-10-08",
+      "notes": "编号对应 Remodeling；射影直线论文是独立的1411.3557，保留。"
+    },
+    {
+      "label": "[Codex] 2026-10-08：Remodeling 出版社 DOI 登记",
+      "url": "https://api.crossref.org/works/10.1090/jams/934",
+      "last_verified": "2026-10-08",
+      "notes": "JAMS 33(1), 135–222；在线2019-11-01，卷期2020，预印本2016。"
+    },
+    {
+      "label": "[Codex] 2026-10-08：Liu 本人2026年9月论文清单",
+      "url": "https://www.math.columbia.edu/~ccliu/Liu_Publications_2609.pdf",
+      "last_verified": "2026-10-08",
+      "notes": "第37和45项分别为射影直线与 Remodeling；仅核这两篇作者及书目。"
+    },
+    {
+      "label": "[Codex] 2026-10-08：N-Mixed-Spin-P fields 原始题名与 DOI",
+      "url": "https://arxiv.org/abs/1809.08806",
+      "last_verified": "2026-10-08",
+      "notes": "四位作者；不是三位作者的 Polynomial structure。"
+    },
+    {
+      "label": "[Codex] 2026-10-08：Polynomial structure 预印本",
+      "url": "https://arxiv.org/abs/1809.11058",
+      "last_verified": "2026-10-08",
+      "notes": "保留预印本题名和2018年；发表题名不带 via NMSP。"
+    },
+    {
+      "label": "[Codex] 2026-10-08：Polynomial structure 原刊",
+      "url": "https://annals.math.princeton.edu/2021/194-3/p01",
+      "last_verified": "2026-10-08",
+      "notes": "作者、题名、DOI与194(3), 585–645；2021-11-02在线。"
+    },
+    {
+      "label": "[Codex] 2026-10-08：郭帅本人书目对照",
+      "url": "https://sites.google.com/site/guoshuaimath/",
+      "last_verified": "2026-10-08",
+      "notes": "本人列出不带 via NMSP 的 Polynomial structure 题名及1809.11058，与1809.08806分列；不据旧主页推断现职。"
+    }
+  ],
+  "limitations": [
+    "AMS returned403; Crossref publisher deposit and author publications lists supply journal evidence.",
+    "Annals Crossref returned429; primary Annals page and author bibliography used instead.",
+    "Valid merged DOI/arXiv identifiers must remain admissible; no rejection keys added. Malformed original combinations are archived here, not classified as homonyms.",
+    "Weyl II publication information remains unconfirmed; removing an incorrect DOI does not establish nonpublication."
+  ],
+  "before_hashes": {
+    "dubrovin": "1af6b442f1d40af26af97eaa5e8fe56ce3e36b2cda0dc943d9a0f9ab7b4df2a0",
+    "zhang-youjin": "1e258df629376710dd06c74422e0434a896735ca1b2876686fa056d58af5f93a",
+    "fang-bohan": "10d974efc8d632421185b206a5989257890cc8e68557aeb0721b11dacfacfc69",
+    "liu-melissa": "02f1d3fd99bb70c45b2df1690585be89eab480ce07d2c04e74a63b64e4bcaa33",
+    "zong-zhengyu": "cc22f0f3e49dff265b760d4088c20d9b9405d5e263f15fcfd9cb7d6c4896ec36",
+    "guo-shuai": "d3bf2c9fa6e90a0dc6bf442899046b0abc83c10ef0ffba54a5784c4a0ee5423d",
+    "zhang-huailiang": "903db15a48d841686d33a8f62ff03fd7cf68e9cfcf4c8be0b6d52823ff0746c2"
+  },
+  "fetches": [
+    {
+      "name": "weyl-crossref",
+      "url": "https://api.crossref.org/works/10.1023/A:1000258122329",
+      "status": 200,
+      "sha256": "c7f03106a38fdcfa9242ffae3f6a893db89926837cd41667cd7c47ab507bf367",
+      "source": {
+        "DOI": "10.1023/a:1000258122329",
+        "title": [
+          "Extended affine Weyl groups and Frobenius manifolds"
+        ],
+        "author": [
+          {
+            "given": "BORIS",
+            "family": "DUBROVIN",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "SISSA"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Youjin",
+            "family": "ZHANG",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "SISSA University of Science and Technology of China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              1998,
+              4
+            ]
+          ]
+        },
+        "container-title": [
+          "Compositio Mathematica"
+        ],
+        "volume": "111",
+        "issue": "2",
+        "page": "167-219"
+      }
+    },
+    {
+      "name": "weyl-openalex",
+      "url": "https://api.openalex.org/works/W1829033056",
+      "status": 200,
+      "sha256": "6c5ba0ae8244eee79ab25e86807f94337e37a89268bebebd83b01ac0c181ed02",
+      "source": {
+        "id": "https://openalex.org/W1829033056",
+        "title": "Extended affine Weyl groups and Frobenius manifolds",
+        "doi": "https://doi.org/10.1023/a:1000258122329",
+        "publication_year": 1998,
+        "locations": [
+          {
+            "id": "doi:10.1023/a:1000258122329",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.1023/a:1000258122329",
+            "pdf_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/BFC58B63C5C8F4734848FF911015C80C/S0010437X98000220a.pdf/div-class-title-extended-affine-weyl-groups-and-frobenius-manifolds-div.pdf",
+            "source": {
+              "id": "https://openalex.org/S66563395",
+              "display_name": "Compositio Mathematica",
+              "issn_l": "0010-437X",
+              "issn": [
+                "0010-437X",
+                "1570-5846"
+              ],
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": true,
+              "listed_in": [
+                "cwts-core",
+                "jufo-2",
+                "norway-2"
+              ],
+              "host_organization": "https://openalex.org/P4310311721",
+              "host_organization_name": "Cambridge University Press",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310311721",
+                "https://openalex.org/P4310311702"
+              ],
+              "host_organization_lineage_names": [
+                "Cambridge University Press",
+                "University of Cambridge"
+              ],
+              "type": "journal"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "Compositio Mathematica",
+            "raw_type": "journal-article"
+          },
+          {
+            "id": "pmh:oai:iris.sissa.it:20.500.11767/13915",
+            "is_oa": false,
+            "landing_page_url": "http://hdl.handle.net/20.500.11767/13915",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S7407055192",
+              "display_name": "SDL",
+              "issn_l": null,
+              "issn": null,
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": null,
+              "host_organization_name": null,
+              "host_organization_lineage": [],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "submittedVersion",
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": null,
+            "raw_type": "info:eu-repo/semantics/article"
+          }
+        ],
+        "authors": [
+          "Boris Anatol'evich Dubrovin",
+          "Youjin Zhang"
+        ]
+      }
+    },
+    {
+      "key": "remodeling-crossref",
+      "url": "https://api.crossref.org/works/10.1090/jams/934",
+      "status": 200,
+      "sha256": "0d3b195e64ff5b35aa167533dc9e3fdcf2d805771e4fd78c7c6ee3fa5e6a1bf8",
+      "summary": {
+        "DOI": "10.1090/jams/934",
+        "title": [
+          "On the remodeling conjecture for toric Calabi-Yau 3-orbifolds"
+        ],
+        "author": [
+          {
+            "given": "Bohan",
+            "family": "Fang",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Chiu-Chu",
+            "family": "Liu",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Zhengyu",
+            "family": "Zong",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Journal of the American Mathematical Society"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2019,
+              11,
+              1
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2019,
+              11,
+              1
+            ]
+          ]
+        },
+        "published-print": null,
+        "volume": "33",
+        "issue": "1",
+        "page": "135-222",
+        "link": [
+          {
+            "URL": "https://www.ams.org/jams/2020-33-01/S0894-0347-2019-00934-3/jams934_AM.pdf",
+            "content-type": "application/pdf",
+            "content-version": "am",
+            "intended-application": "syndication"
+          },
+          {
+            "URL": "http://www.ams.org/jams/2020-33-01/S0894-0347-2019-00934-3/S0894-0347-2019-00934-3.pdf",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          },
+          {
+            "URL": "https://www.ams.org/jams/2020-33-01/S0894-0347-2019-00934-3/S0894-0347-2019-00934-3.pdf",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "relation": {},
+        "resource": {
+          "primary": {
+            "URL": "https://www.ams.org/jams/2020-33-01/S0894-0347-2019-00934-3/"
+          }
+        }
+      }
+    },
+    {
+      "key": "polynomial-crossref",
+      "url": "https://api.crossref.org/works/10.4007/annals.2021.194.3.1",
+      "error": "429 Client Error: Too Many Requests for url: https://api.crossref.org/works/10.4007/annals.2021.194.3.1"
+    },
+    {
+      "key": "remodeling-preprint-oa",
+      "url": "https://api.openalex.org/works/W2344238614",
+      "status": 200,
+      "sha256": "780f0a99c618a915085bbd4c5a4ddcf56e026b058b9a23f8bc757711318a7eec",
+      "summary": {
+        "id": "https://openalex.org/W2344238614",
+        "doi": "https://doi.org/10.48550/arxiv.1604.07123",
+        "title": "On the Remodeling Conjecture for Toric Calabi-Yau 3-Orbifolds",
+        "publication_year": 2016,
+        "locations": [
+          {
+            "id": "pmh:oai:arXiv.org:1604.07123",
+            "is_oa": true,
+            "landing_page_url": "http://arxiv.org/abs/1604.07123",
+            "pdf_url": "https://arxiv.org/pdf/1604.07123",
+            "source": {
+              "id": "https://openalex.org/S4306400194",
+              "display_name": "arXiv (Cornell University)",
+              "issn_l": "2331-8422",
+              "issn": [
+                "2331-8422"
+              ],
+              "is_oa": true,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": "https://openalex.org/I205783295",
+              "host_organization_name": "Cornell University",
+              "host_organization_lineage": [
+                "https://openalex.org/I205783295"
+              ],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "submittedVersion",
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": null,
+            "raw_type": "text"
+          },
+          {
+            "id": "doi:10.48550/arxiv.1604.07123",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.48550/arxiv.1604.07123",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4306400194",
+              "display_name": "arXiv (Cornell University)",
+              "issn_l": "2331-8422",
+              "issn": [
+                "2331-8422"
+              ],
+              "is_oa": true,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": "https://openalex.org/I205783295",
+              "host_organization_name": "Cornell University",
+              "host_organization_lineage": [
+                "https://openalex.org/I205783295"
+              ],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": null,
+            "license_id": null,
+            "version": null,
+            "is_accepted": false,
+            "is_published": null,
+            "raw_source_name": null,
+            "raw_type": "article-journal"
+          }
+        ],
+        "authors": [
+          "Bohan Fang",
+          "Chiu-Chu Melissa Liu",
+          "Zhengyu Zong"
+        ]
+      }
+    },
+    {
+      "key": "remodeling-journal-oa",
+      "url": "https://api.openalex.org/works/W2965670976",
+      "status": 200,
+      "sha256": "64e22161dc94b7ac08bdc37ccc4ac078e152b7db2d6801c84ee224207790cc81",
+      "summary": {
+        "id": "https://openalex.org/W2965670976",
+        "doi": "https://doi.org/10.1090/jams/934",
+        "title": "On the remodeling conjecture for toric Calabi-Yau 3-orbifolds",
+        "publication_year": 2019,
+        "locations": [
+          {
+            "id": "doi:10.1090/jams/934",
+            "is_oa": false,
+            "landing_page_url": "https://doi.org/10.1090/jams/934",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S130224168",
+              "display_name": "Journal of the American Mathematical Society",
+              "issn_l": "0894-0347",
+              "issn": [
+                "0894-0347",
+                "1088-6834"
+              ],
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": true,
+              "listed_in": [
+                "cwts-core",
+                "jufo-3",
+                "norway-2"
+              ],
+              "host_organization": "https://openalex.org/P4310315719",
+              "host_organization_name": "American Mathematical Society",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310315719"
+              ],
+              "host_organization_lineage_names": [
+                "American Mathematical Society"
+              ],
+              "type": "journal"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "Journal of the American Mathematical Society",
+            "raw_type": "journal-article"
+          }
+        ],
+        "authors": [
+          "Bohan Fang",
+          "Chiu-Chu Melissa Liu",
+          "Zhengyu Zong"
+        ]
+      }
+    },
+    {
+      "key": "polynomial-preprint-oa",
+      "url": "https://api.openalex.org/works/W2892497092",
+      "status": 200,
+      "sha256": "26b6a4cd85f326c0f98a1e2322aae696f4b53e0cdbf44b39f75d0d7ab79e9f25",
+      "summary": {
+        "id": "https://openalex.org/W2892497092",
+        "doi": "https://doi.org/10.48550/arxiv.1809.11058",
+        "title": "Polynomial structure of Gromov-Witten potential of quintic $3$-folds via NMSP",
+        "publication_year": 2018,
+        "locations": [
+          {
+            "id": "pmh:oai:arXiv.org:1809.11058",
+            "is_oa": true,
+            "landing_page_url": "http://arxiv.org/abs/1809.11058",
+            "pdf_url": "https://arxiv.org/pdf/1809.11058",
+            "source": {
+              "id": "https://openalex.org/S4306400194",
+              "display_name": "arXiv (Cornell University)",
+              "issn_l": "2331-8422",
+              "issn": [
+                "2331-8422"
+              ],
+              "is_oa": true,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": "https://openalex.org/I205783295",
+              "host_organization_name": "Cornell University",
+              "host_organization_lineage": [
+                "https://openalex.org/I205783295"
+              ],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "submittedVersion",
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": null,
+            "raw_type": "text"
+          },
+          {
+            "id": "pmh:oai:repository.ust.hk:1783.1-100338",
+            "is_oa": false,
+            "landing_page_url": "http://arxiv.org/abs/1809.11058",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4306401796",
+              "display_name": "Rare & Special e-Zone (The Hong Kong University of Science and Technology)",
+              "issn_l": null,
+              "issn": null,
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": "https://openalex.org/I200769079",
+              "host_organization_name": "Hong Kong University of Science and Technology",
+              "host_organization_lineage": [
+                "https://openalex.org/I200769079"
+              ],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "submittedVersion",
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": "",
+            "raw_type": "Preprint"
+          },
+          {
+            "id": "pmh:oai:repository.hkust.edu.hk:1783.1-100338",
+            "is_oa": false,
+            "landing_page_url": "http://lbdiscover.ust.hk/uresolver?url_ver=Z39.88-2004&rft_val_fmt=info:ofi/fmt:kev:mtx:journal&rfr_id=info:sid/HKUST:SPI&rft.genre=article&rft.issn=&rft.volume=&rft.issue=&rft.date=2018&rft.spage=&rft.aulast=Chang&rft.aufirst=&rft.atitle=Polynomial%20structure%20of%20Gromov-Witten%20potential%20of%20quintic%203-folds%20via%20NMSP&rft.title=arXiv",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4306401796",
+              "display_name": "Rare & Special e-Zone (The Hong Kong University of Science and Technology)",
+              "issn_l": null,
+              "issn": null,
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": "https://openalex.org/I200769079",
+              "host_organization_name": "Hong Kong University of Science and Technology",
+              "host_organization_lineage": [
+                "https://openalex.org/I200769079"
+              ],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "submittedVersion",
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": null,
+            "raw_type": "Preprint"
+          },
+          {
+            "id": "doi:10.48550/arxiv.1809.11058",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.48550/arxiv.1809.11058",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4306400194",
+              "display_name": "arXiv (Cornell University)",
+              "issn_l": "2331-8422",
+              "issn": [
+                "2331-8422"
+              ],
+              "is_oa": true,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": "https://openalex.org/I205783295",
+              "host_organization_name": "Cornell University",
+              "host_organization_lineage": [
+                "https://openalex.org/I205783295"
+              ],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": null,
+            "license_id": null,
+            "version": null,
+            "is_accepted": false,
+            "is_published": null,
+            "raw_source_name": null,
+            "raw_type": "Preprint"
+          }
+        ],
+        "authors": [
+          "Huai-Liang Chang",
+          "Shuai Guo",
+          "Li, Jun"
+        ]
+      }
+    },
+    {
+      "key": "polynomial-journal-oa",
+      "url": "https://api.openalex.org/works/W3209265925",
+      "status": 200,
+      "sha256": "c349d72594f7470eedf9c33eb04a765263a0d2928bd012b4aaf17e32f2c8ce8c",
+      "summary": {
+        "id": "https://openalex.org/W3209265925",
+        "doi": "https://doi.org/10.4007/annals.2021.194.3.1",
+        "title": "Polynomial structure of Gromov–Witten potential of quintic 3-folds",
+        "publication_year": 2021,
+        "locations": [
+          {
+            "id": "doi:10.4007/annals.2021.194.3.1",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.4007/annals.2021.194.3.1",
+            "pdf_url": "https://projecteuclid.org/journals/annals-of-mathematics/volume-194/issue-3/Polynomial-structure-of-GromovWitten-potential-of-quintic-3-folds/10.4007/annals.2021.194.3.1.pdf",
+            "source": {
+              "id": "https://openalex.org/S45918994",
+              "display_name": "Annals of Mathematics",
+              "issn_l": "0003-486X",
+              "issn": [
+                "0003-486X",
+                "1939-8980"
+              ],
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": true,
+              "listed_in": [
+                "cwts-core",
+                "jufo-3",
+                "norway-2"
+              ],
+              "host_organization": "https://openalex.org/P4310316273",
+              "host_organization_name": "Princeton University",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310316273"
+              ],
+              "host_organization_lineage_names": [
+                "Princeton University"
+              ],
+              "type": "journal"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "Annals of Mathematics",
+            "raw_type": "journal-article"
+          },
+          {
+            "id": "pmh:oai:repository.hkust.edu.hk:1783.1-114470",
+            "is_oa": false,
+            "landing_page_url": "http://lbdiscover.ust.hk/uresolver?url_ver=Z39.88-2004&rft_val_fmt=info:ofi/fmt:kev:mtx:journal&rfr_id=info:sid/HKUST:SPI&rft.genre=article&rft.issn=0003-486X&rft.volume=v. 194&rft.issue=(3)&rft.date=2021&rft.spage=585&rft.aulast=Chang&rft.aufirst=Huai-Liang&rft.atitle=Polynomial%20structure%20of%20Gromov-Witten%20potential%20of%20quintic%203-folds&rft.title=ANNALS%20OF%20MATHEMATICS",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4306401796",
+              "display_name": "Rare & Special e-Zone (The Hong Kong University of Science and Technology)",
+              "issn_l": null,
+              "issn": null,
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": "https://openalex.org/I200769079",
+              "host_organization_name": "Hong Kong University of Science and Technology",
+              "host_organization_lineage": [
+                "https://openalex.org/I200769079"
+              ],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "submittedVersion",
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": "",
+            "raw_type": "Article"
+          },
+          {
+            "id": "pmh:oai:repository.ust.hk:1783.1-114470",
+            "is_oa": false,
+            "landing_page_url": "http://repository.ust.hk/ir/Record/1783.1-114470",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4306401796",
+              "display_name": "Rare & Special e-Zone (The Hong Kong University of Science and Technology)",
+              "issn_l": null,
+              "issn": null,
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": "https://openalex.org/I200769079",
+              "host_organization_name": "Hong Kong University of Science and Technology",
+              "host_organization_lineage": [
+                "https://openalex.org/I200769079"
+              ],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "submittedVersion",
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": "",
+            "raw_type": "Article"
+          }
+        ],
+        "authors": [
+          "Huai-Liang Chang",
+          "Shuai Guo",
+          "Jun Li"
+        ]
+      }
+    }
+  ],
+  "raw_rows_before": 2223,
+  "raw_rows_after": 2219
+}

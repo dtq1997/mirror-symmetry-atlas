@@ -1,0 +1,14 @@
+{
+  "scope": "Exported HTML links and KaTeX parse errors; not mathematical correctness, source accuracy or client-only interactions.",
+  "pages": 283,
+  "links": 22222,
+  "formula_instances": 642,
+  "issues": [],
+  "reviewed_at": "2026-10-08",
+  "checks": {
+    "site_regressions": 28,
+    "data_lint_errors": 0,
+    "data_lint_warnings": 74,
+    "build_exit_code": 0
+  }
+}

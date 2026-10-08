@@ -128,7 +128,7 @@ identity_profile:
     - '0710.3115'
     - '0510250'
     - '0510019'
-    - '0502365'
+    - 'math/0502365'
     - '0501028'
     - '0410027'
     - '0406626'
@@ -138,7 +138,7 @@ identity_profile:
     - '0108160'
     - '9808048'
     - '9712232'
-    - '9611200'
+    - 'hep-th/9611200'
 advisor: null
 mentors:
   - dubrovin
@@ -540,15 +540,12 @@ publications:
     primary_category: nlin.SI
     openalex_id: W2131168379
     sources: [arxiv, openalex]
-  - id: '0502365'
+  - id: 'math/0502365'
     title: 'Extended affine Weyl groups and Frobenius manifolds -- II'
     year: 2005
-    coauthors: [dubrovin]
-    doi: '10.1023/a:1000258122329'
-    journal: 'Compositio Mathematica'
-    primary_category: math.DG
-    openalex_id: W1829033056
-    sources: [arxiv, openalex]
+    coauthors: ['dubrovin', 'Dafeng Zuo']
+    primary_category: 'math.DG'
+    sources: ['arxiv', 'manual']
   - id: 'doi:10.1002/cpa.20111'
     title: 'On Hamiltonian perturbations of hyperbolic systems of conservation laws I: Quasi‐Triviality of bi‐Hamiltonian perturbations'
     year: 2005
@@ -674,13 +671,15 @@ publications:
     journal: 'Commun.Math.Phys. 198 (1998) 311-361'
     primary_category: hep-th
     sources: [arxiv]
-  - id: '9611200'
+  - id: 'hep-th/9611200'
     title: 'Extended affine Weyl groups and Frobenius manifolds'
     year: 1996
-    coauthors: ['arXiv api core']
+    coauthors: ['dubrovin']
     journal: 'Compositio Mathematica 111 (1998), 167--219'
-    primary_category: hep-th
-    sources: [arxiv]
+    primary_category: 'hep-th'
+    sources: ['arxiv', 'openalex', 'crossref', 'manual']
+    doi: '10.1023/a:1000258122329'
+    openalex_id: 'W1829033056'
   - id: 'doi:10.1088/0305-4470/29/10/037'
     title: 'Wronskian-type solutions for the vectork-constrained KP hierarchy'
     year: 1996
@@ -737,5 +736,21 @@ sources:
     notes: '仅核对作者及论文署名单位。作者为 Si-Qi Liu，不含 Si Li；未审计论文证明。'
   - label: 'OpenAlex'
     url: 'https://openalex.org/authors/A5076963789'
+  - label: '[Codex] 2026-10-08：Weyl 第一篇编号与作者'
+    url: https://arxiv.org/abs/hep-th/9611200
+    last_verified: '2026-10-08'
+    notes: 仅核书目；Compositio 111 (1998), 167–219。
+  - label: '[Codex] 2026-10-08：Weyl 续篇编号与三位作者'
+    url: https://arxiv.org/abs/math/0502365
+    last_verified: '2026-10-08'
+    notes: 补 Dafeng Zuo；原挂 DOI 和刊名属于第一篇，续篇出版线索待补。
+  - label: '[Codex] 2026-10-08：Weyl 第一篇出版社 DOI 登记'
+    url: https://api.crossref.org/works/10.1023/A:1000258122329
+    last_verified: '2026-10-08'
+    notes: 题名、作者、卷页对应 hep-th/9611200，不是 math/0502365。
+  - label: '[Codex] 2026-10-08：Dubrovin 本人论文清单'
+    url: https://people.sissa.it/~dubrovin/bd_papers.html
+    last_verified: '2026-10-08'
+    notes: 第39与51项分别为续篇（三位作者）和第一篇（两位作者及刊物）。
 tags:
 - tsinghua
