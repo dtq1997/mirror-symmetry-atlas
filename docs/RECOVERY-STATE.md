@@ -345,4 +345,4 @@ Goal仍active，转向概念内容的一手来源核查而非继续把绘图通�
 
 [Codex] 2026-10-08 第二十二批待发布：新增搜索只作视图，不按名称合并身份；英文姓名词边界已用Qian/Weiqiang反例修正。全体来源编号留在归并对象的identifiers供搜索，原归并规则、代表记录及出版线索口径不变。论文页未压缩HTML从6579151降至943240字节，不冒充网络总量或加载时间测量。经典12条独立保留；无JavaScript时显示前50条及经典文献，可转人物档案查看完整收录。
 
-[Codex] 2026-10-08 第二十二批已公开验收：commit `ed6acad79c2f7586bc26970dbdc0e05deeb5c4e3`，Actions `37731404888` success。四个线上页面HTTP/内容核对及桌面/手机交互通过；证据batch-twenty-two-live-verification.json，截图catalog-search-live.png与catalog-search-mobile-live.png。本批全部326份YAML哈希相同；55项回归另覆盖首屏以外1808题名/2934编号查询。Goal继续active。等部署时已读丁岩峭15条书目及官网，下一批线索另存next-ding-identity-leads.json；未凭跨主题或作者近似姓名作最终归属。
+[Codex] 2026-10-08 第二十二批已公开验收：commit `ed6acad79c2f7586bc26970dbdc0e05deeb5c4e3`，Actions `37731404888` success。四个线上页面HTTP/内容核对及桌面/手机交互通过；证据batch-twenty-two-live-verification.json，截图catalog-search-live.jpg与catalog-search-mobile-live.jpg。本批全部326份YAML哈希相同；55项回归另覆盖首屏以外1808题名/2934编号查询。Goal继续active。等部署时已读丁岩峭15条书目及官网，下一批线索另存next-ding-identity-leads.json；未凭跨主题或作者近似姓名作最终归属。
