@@ -8,7 +8,8 @@
     "batch_twenty": "All 13 existing timeline records now have primary sources and explicit date/scope notes; tt-star origin and conservative introduction corrected. Hu Chuangqiang dated biography and 15 author lists reviewed; one wrong coauthor binding fixed, degree/BIMSA employment boundaries remain unverified.",
     "batch_twenty_one": "Coauthor incompatibility inventory: 2404 fields in 1555 rows, 7 leads; 2 wrong Xu Xu bindings corrected, 3 historically valid coauthors retained in Rao version notes while current metadata updated, 2 Grimstrup full-name differences retained. Nest journal I corrected. 653 rows outside selected snapshot remain uncovered.",
     "batch_twenty_two": "Paper catalog now supports bilingual/title/full-ID queries, combined owner/year/publication-clue filters and 50-record progressive rendering. 1808 groups/2208 rows and all 326 YAML files unchanged. 55 regressions plus desktop/mobile public interactions verified.",
-    "batch_twenty_three": "Ding: 1 confirmed wrong-owner and 2 pending-ownership rows moved to review pool; 2 preprint/journal pairs merged; wrong Yiwen Ding author link, overstated DYZ scope and JLMS year corrected. Early education and adviser remain pending. Six public pages and actual 608px/390px browser checks passed; Actions 37733967538 succeeded for 5c5e792. Pending adviser has a restoration guard; coauthorship and documented institutional overlap remain separate."
+    "batch_twenty_three": "Ding: 1 confirmed wrong-owner and 2 pending-ownership rows moved to review pool; 2 preprint/journal pairs merged; wrong Yiwen Ding author link, overstated DYZ scope and JLMS year corrected. Early education and adviser remain pending. Six public pages and actual 608px/390px browser checks passed; Actions 37733967538 succeeded for 5c5e792. Pending adviser has a restoration guard; coauthorship and documented institutional overlap remain separate.",
+    "batch_twenty_four": "Local validation passed; unsafe surname/initial binding and all-authors subject inference removed. 5 accepted paper claims (4 directed pairs), 4 false paper bindings rejected, 368 legacy paper claims retained pending. Threshold 1 now displays singles; arrows show direction. Live pending."
   },
   "priority_leads": [
     {
@@ -16,14 +17,17 @@
         "acknowledgement identity",
         "person Chinese name"
       ],
-      "issue": "0712.4021原文致谢Weiyue Ding、Bohui Chen、K. C. Chang，网站分别连到丁岩峭、陈酌、張懷良；只读复现发现三者均未命中全名或首字母，只因本地注册表姓氏唯一而命中surname-only分支。该规则必须优先修复并扫描所有致谢关系；还须区分文中the first author等致谢主体。范辉军中文名已获武汉大学官方报道支持，保留，不凭近似记忆改名。",
+      "issue": "同姓自动绑定与致谢主体推断机制已修；0712.4021三处错误、1107.1290把Alice Chang绑为張懷良均拒绝。5条逐篇记录已核，368条旧候选保留待核；继续按原文、作者顺序与明确主语逐条审查，不能仅凭完整姓名就通过。范辉军中文名已获武汉大学官方报道支持。",
       "entry_files": [
         "data/derived/acknowledgements.yaml",
         "data/derived/raw-acks.jsonl",
         "scripts/match-acks-to-people.py",
-        "data/people/fan-huijun.yaml"
+        "data/people/fan-huijun.yaml",
+        "data/derived/ack-reviews.yaml",
+        "data/derived/ack-legacy-review.yaml",
+        "data/derived/ack-candidates.yaml"
       ],
-      "status": "priority-source-lead",
+      "status": "mechanism-fixed-batch-24; remaining-claims-needs-review",
       "local_source": ".cache/msa/papers/sources/0712.4021/FJR-WEMSQS.tex",
       "source_url": "https://arxiv.org/abs/0712.4021",
       "matching_probe": {
@@ -58,7 +62,8 @@
       },
       "additional_biography_lead": "同一官方报道列2017国家自然科学奖二等奖，人物旧notes写2016，需回奖项公告核对。",
       "tex_sha256": "2ee9e49e273e2fc5295d57655b3d5f235800cd6e409f65f1ca2070197dd9a5c1",
-      "source_version": "Current arXiv abstract page read: latest v4, 2012-07-26. Cached TeX acknowledgement read; fresh source hash comparison remains to do."
+      "source_version": "Current arXiv abstract page read: latest v4, 2012-07-26. Cached TeX acknowledgement read; fresh source hash comparison remains to do.",
+      "review_evidence": "acknowledgement-identity-and-subject-review.json"
     },
     {
       "content_types": [
@@ -117,6 +122,17 @@
         "ryszard-nest"
       ],
       "issue": "本批只核具体书目字段。饶胜履历与personal_notes仍有由合著推断刘克峰师承的待核说法；Nest任职与online_traces描述冲突；杨迪1006.5241的机械学工作需独立身份来源，不能仅因跨主题删除；Zagier学历/师生细节需一手来源。"
+    },
+    {
+      "content_types": [
+        "funding relationship attribution"
+      ],
+      "status": "unverified-code-lead",
+      "issue": "derive-grant-edges.py也使用raw-acks中按书目得到的paper_authors；需检查逐作者资助语句是否被赋给全部作者。这里只记录潜在同类机制，尚未判定具体基金关系错误。",
+      "entry_files": [
+        "scripts/derive-grant-edges.py",
+        "data/derived/grant-edges.yaml"
+      ]
     }
   ],
   "institution_inventory": {

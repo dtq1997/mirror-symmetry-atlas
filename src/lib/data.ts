@@ -186,18 +186,19 @@ export function getAllConnections(): Connection[] {
     }
   }
 
-  // Load acknowledgement edges (strong, ≥2) from derived/
+  // Include reviewed singles so the graph's threshold 1 is meaningful.
   const ackFile = path.join(DATA_DIR, "derived", "acknowledgements.yaml");
   if (fs.existsSync(ackFile)) {
-    const data = readYaml<{ edges?: Connection[] }>(ackFile);
-    if (data.edges) {
-      for (const e of data.edges) {
+    const data = readYaml<{ edges?: Connection[]; single_mentions?: Connection[] }>(ackFile);
+    for (const e of [...(data.edges || []), ...(data.single_mentions || [])]) {
+      if (e.review_status === "accepted") {
         connections.push({
           source: e.source,
           target: e.target,
           type: "acknowledgement",
           weight: e.weight ?? 1,
           papers: e.papers,
+          review_status: e.review_status,
           derived: true,
         } as Connection);
       }
@@ -253,11 +254,12 @@ export function getAckMentions(): {
     return ackCache;
   }
   const data = readYaml<{
-    edges?: Array<{ source: string; target: string; papers: string[] }>;
-    single_mentions?: Array<{ source: string; target: string; papers: string[] }>;
+    edges?: Array<AckMention & { review_status?: string }>;
+    single_mentions?: Array<AckMention & { review_status?: string }>;
   }>(file);
   const all = [...(data.edges || []), ...(data.single_mentions || [])];
   for (const m of all) {
+    if (m.review_status !== "accepted") continue;
     const mention: AckMention = { source: m.source, target: m.target, papers: m.papers };
     const srcList = bySource.get(m.source) ?? [];
     srcList.push(mention);

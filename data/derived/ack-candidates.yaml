@@ -1,340 +1,2598 @@
 meta:
-  note: External full-name mentions in ack sections, frequency ≥3. Candidates for
-    future slug registration.
-  total: 50
-candidates:
-- name: Kevin Costello
-  count: 9
-  papers:
-  - '1311.1659'
-  - '1311.4073'
-  - '1402.7000'
-  - '1507.01812'
-  - '1706.09912'
-  - '1810.05179'
-  - '2009.06673'
-  - '2103.01383'
-  - '2404.01499'
-- name: Jim Stasheff
-  count: 7
-  papers:
-  - '0909.0319'
-  - '1202.0079'
-  - '1204.1075'
-  - '1312.4609'
-  - '1712.00665'
-  - '2008.01747'
-- name: Pavel Etingof
-  count: 7
-  papers:
-  - '1507.07149'
-  - '1701.08113'
-  - '1801.00123'
-  - '1808.07654'
-  - '1907.13417'
-  - '1912.07196'
-  - '2304.07173'
-- name: Nick Sheridan
-  count: 7
-  papers:
-  - '1706.09912'
-  - '1902.04596'
-  - '1909.05319'
-  - '1910.00037'
-  - '2009.06673'
-  - '2404.01499'
-- name: Valerio Toledano
-  count: 6
-  papers:
-  - '1507.07149'
-  - '1701.08113'
-  - '1801.00123'
-  - '1808.07654'
-  - '1912.07196'
-  - '2403.17906'
-- name: Ping Xu
-  count: 6
-  papers:
-  - '1507.07149'
-  - '1911.01388'
-  - '2105.15019'
-  - '2110.04720'
-  - '2502.08979'
-  - '2512.03860'
-- name: Sasha Polishchuk
-  count: 6
-  papers:
-  - '1810.05179'
-  - '1902.04596'
-  - '1910.00037'
-  - '2209.02744'
-  - '2404.13805'
-- name: Thomas Lam
-  count: 5
-  papers:
-  - '0810.4859'
-  - '1007.1683'
-  - '1506.00872'
-  - '2512.06646'
-- name: Alan Weinstein
-  count: 5
-  papers:
-  - '0904.4062'
-  - '0909.0319'
-  - '1202.0079'
-  - '1204.1075'
-  - '1507.07149'
-- name: Cheol-Hyun Cho
-  count: 5
-  papers:
-  - '1006.3830'
-  - '1909.05319'
-  - '2106.08716'
-  - '2209.02744'
-- name: Bumsig Kim
-  count: 5
-  papers:
-  - '1007.1683'
-  - '1107.4744'
-  - '2211.16902'
-  - '2404.13805'
-- name: Marco Bertola
-  count: 5
-  papers:
-  - '1412.4419'
-  - '1709.07309'
-  - '1712.08575'
-  - '2101.10924'
-  - '2311.06506'
-- name: Camille Laurent-Gengoux
-  count: 4
-  papers:
-  - '0904.4062'
-  - '0909.0319'
-  - '1204.1075'
-  - '1712.00665'
-- name: Giovanni Felder
-  count: 4
-  papers:
-  - '0904.4062'
-  - '1507.07149'
-  - '1701.00959'
-  - '1912.07196'
-- name: Chenchang Zhu
-  count: 4
-  papers:
-  - '1003.1350'
-  - '1312.4609'
-  - '1507.07149'
-  - '1805.06305'
-- name: Damien Calaque
-  count: 4
-  papers:
-  - '1009.4151'
-  - '1010.0985'
-  - '1204.1075'
-- name: Hiroshi Iritani
-  count: 4
-  papers:
-  - '1311.1659'
-  - '2312.04239'
-  - '2405.16987'
-  - '2509.01101'
-- name: Rahul Pandharipande
-  count: 4
-  papers:
-  - '1705.06402'
-  - '1810.06952'
-  - '1902.04596'
-  - '1910.00037'
-- name: Leonardo Mihalcea
-  count: 4
-  papers:
-  - '2106.08716'
-  - '2211.16902'
-  - '2304.07173'
-  - '2502.13545'
-- name: Heng Xie
-  count: 4
-  papers:
-  - '2311.06793'
-  - '2405.16979'
-  - '2502.13545'
-  - '2502.13558'
-- name: Yassir Dinar
-  count: 3
-  papers:
-  - '0710.3115'
-  - '1508.03750'
-  - '1610.07534'
-- name: Xiaowei Wang
-  count: 3
-  papers:
-  - '0810.4859'
-  - '2405.16979'
-  - '2405.16987'
-- name: Pavol Severa
-  count: 3
-  papers:
-  - '0909.0319'
-  - '1308.0100'
-  - '1712.00665'
-- name: Tony Pantev
-  count: 3
-  papers:
-  - '1001.1082'
-  - '1007.2679'
-  - '1009.4151'
-- name: Mark Gross
-  count: 3
-  papers:
-  - '1006.3830'
-  - '1810.06952'
-- name: Special Administrative
-  count: 3
-  papers:
-  - '1006.3830'
-  - '1107.4744'
-  - '2509.01101'
-- name: Leonardo Constantin
-  count: 3
-  papers:
-  - '1007.1683'
-  - '1107.4744'
-  - '1506.00872'
-- name: Ionut Ciocan-Fontanine
-  count: 3
-  papers:
-  - '1107.4744'
-  - '1506.00872'
-  - '1804.05310'
-- name: Beijing International
-  count: 3
-  papers:
-  - '1202.0079'
-  - '1204.1075'
-  - '2408.02278'
-- name: Istituto Nazionale
-  count: 3
-  papers:
-  - '1203.5750'
-  - '2111.02969'
-  - '2310.19739'
-- name: Jun Li
-  count: 3
-  papers:
-  - '1205.0848'
-  - '1705.06402'
-  - '1804.05310'
-- name: Jianghua Lu
-  count: 3
-  papers:
-  - '1301.4805'
-  - '1407.2071'
-  - '1701.08113'
-- name: Alexander Polishchuk
-  count: 3
-  papers:
-  - '1306.5260'
-  - '1411.5115'
-  - '1706.09912'
-- name: Marco Zambon
-  count: 3
-  papers:
-  - '1312.4609'
-  - '1701.00959'
-  - '2601.05183'
-- name: John Harnad
-  count: 3
-  papers:
-  - '1412.4419'
-  - '1709.07309'
-  - '2002.00052'
-- name: Lino Amorim
-  count: 3
-  papers:
-  - '1512.02322'
-  - '1910.00037'
-  - '2103.01383'
-- name: Motohico Mulase
-  count: 3
-  papers:
-  - '1604.07123'
-  - '2005.02275'
-  - '2008.11496'
-- name: Maxim Smirnov
-  count: 3
-  papers:
-  - '1702.01669'
-  - '1712.08575'
-  - '2101.10924'
-- name: Dima Arinkin
-  count: 3
-  papers:
-  - '1706.09912'
-  - '2009.06673'
-  - '2404.01499'
-- name: Jinxing Xu
-  count: 3
-  papers:
-  - '1805.04050'
-  - '2311.06793'
-  - '2502.13545'
-- name: Chiu-Chu Melissa
-  count: 3
-  papers:
-  - '1809.11058'
-  - '2312.06160'
-  - '2601.17321'
-- name: Scholars No
-  count: 3
-  papers:
-  - '1811.10137'
-  - '1811.10234'
-  - '1908.06707'
-- name: Xiang Tang
-  count: 3
-  papers:
-  - '1812.05432'
-  - '1904.09426'
-  - '2304.13345'
-- name: Guangdong Basic
-  count: 3
-  papers:
-  - '2008.11496'
-  - '2410.11311'
-  - '2502.13558'
-- name: Mikiya Masuda
-  count: 3
-  papers:
-  - '2203.02629'
-  - '2310.02818'
-  - '2310.02819'
-- name: Tatsuya Horiguchi
-  count: 3
-  papers:
-  - '2203.02629'
-  - '2310.02818'
-  - '2310.02819'
-- name: Joint Usage
-  count: 3
-  papers:
-  - '2203.02629'
-  - '2310.02818'
-  - '2310.02819'
-- name: Konstanze Rietsch
-  count: 3
-  papers:
-  - '2310.02818'
-  - '2310.02819'
-  - '2512.06646'
-- name: Zhe Wang
-  count: 3
-  papers:
-  - '2402.00373'
-  - '2404.08895'
-  - '2411.15496'
-- name: See Section
-  count: 3
-  papers:
-  - '2504.15696'
+  note: 候选姓名与旧自动连线均待逐篇核对；不作为确定关系展示。
+  pending_legacy_paper_claims: 368
+pending_legacy_claims:
+- source: boalch
+  target: sabbah
+  paper: '1003.3177'
+  status: needs-review
+- source: boalch
+  target: sabbah
+  paper: '2002.00052'
+  status: needs-review
+- source: cotti
+  target: dubrovin
+  paper: '2005.08262'
+  status: needs-review
+- source: cotti
+  target: guzzetti
+  paper: '2005.08262'
+  status: needs-review
+- source: cotti
+  target: guzzetti
+  paper: '2011.04498'
+  status: needs-review
+- source: cotti
+  target: guzzetti
+  paper: '2105.06329'
+  status: needs-review
+- source: cotti
+  target: guzzetti
+  paper: '2112.14577'
+  status: needs-review
+- source: cotti
+  target: guzzetti
+  paper: '2210.05445'
+  status: needs-review
+- source: cotti
+  target: hertling
+  paper: '1712.08575'
+  status: needs-review
+- source: cotti
+  target: hertling
+  paper: '1811.09235'
+  status: needs-review
+- source: cotti
+  target: hertling
+  paper: '2005.08262'
+  status: needs-review
+- source: cotti
+  target: hertling
+  paper: '2011.04498'
+  status: needs-review
+- source: cotti
+  target: hertling
+  paper: '2105.06329'
+  status: needs-review
+- source: cotti
+  target: hertling
+  paper: '2112.14577'
+  status: needs-review
+- source: cotti
+  target: hertling
+  paper: '2210.05445'
+  status: needs-review
+- source: cotti
+  target: hertling
+  paper: '2506.18033'
+  status: needs-review
+- source: cotti
+  target: sabbah
+  paper: '1712.08575'
+  status: needs-review
+- source: cotti
+  target: sabbah
+  paper: '1811.09235'
+  status: needs-review
+- source: cotti
+  target: sabbah
+  paper: '2011.04498'
+  status: needs-review
+- source: cotti
+  target: sabbah
+  paper: '2105.06329'
+  status: needs-review
+- source: cotti
+  target: sabbah
+  paper: '2112.14577'
+  status: needs-review
+- source: cotti
+  target: sabbah
+  paper: '2210.05445'
+  status: needs-review
+- source: cotti
+  target: sabbah
+  paper: '2506.18033'
+  status: needs-review
+- source: cotti
+  target: sabbah
+  paper: '2510.05500'
+  status: needs-review
+- source: fang-bohan
+  target: ruan-yongbin
+  paper: '1604.07123'
+  status: needs-review
+- source: fang-bohan
+  target: ruan-yongbin
+  paper: '2504.15696'
+  status: needs-review
+- source: guzzetti
+  target: boalch
+  paper: '2108.07003'
+  status: needs-review
+- source: guzzetti
+  target: boalch
+  paper: '2111.02969'
+  status: needs-review
+- source: guzzetti
+  target: dubrovin
+  paper: '1010.1330'
+  status: needs-review
+- source: guzzetti
+  target: dubrovin
+  paper: '2101.03397'
+  status: needs-review
+- source: guzzetti
+  target: hertling
+  paper: '1712.08575'
+  status: needs-review
+- source: guzzetti
+  target: hertling
+  paper: '1811.09235'
+  status: needs-review
+- source: guzzetti
+  target: mazzocco
+  paper: '1010.1330'
+  status: needs-review
+- source: guzzetti
+  target: mazzocco
+  paper: '1010.1895'
+  status: needs-review
+- source: guzzetti
+  target: mazzocco
+  paper: '1104.5066'
+  status: needs-review
+- source: guzzetti
+  target: mazzocco
+  paper: '2108.07003'
+  status: needs-review
+- source: guzzetti
+  target: sabbah
+  paper: '1712.08575'
+  status: needs-review
+- source: guzzetti
+  target: sabbah
+  paper: '1811.09235'
+  status: needs-review
+- source: guzzetti
+  target: sabbah
+  paper: '2101.03397'
+  status: needs-review
+- source: hu-jianxun
+  target: chan-kwokwai
+  paper: '2405.16979'
+  status: needs-review
+- source: hu-jianxun
+  target: chan-kwokwai
+  paper: '2502.13558'
+  status: needs-review
+- source: hu-jianxun
+  target: ruan-yongbin
+  paper: '1108.5892'
+  status: needs-review
+- source: hu-jianxun
+  target: ruan-yongbin
+  paper: '1402.4221'
+  status: needs-review
+- source: hu-jianxun
+  target: song-jiayu
+  paper: '2405.16979'
+  status: needs-review
+- source: hu-jianxun
+  target: song-jiayu
+  paper: '2502.13545'
+  status: needs-review
+- source: hu-jianxun
+  target: song-jiayu
+  paper: '2502.13558'
+  status: needs-review
+- source: hu-xiaowen
+  target: song-jiayu
+  paper: '1805.04050'
+  status: needs-review
+- source: hu-xiaowen
+  target: song-jiayu
+  paper: '2101.05236'
+  status: needs-review
+- source: ke-huazhong
+  target: chan-kwokwai
+  paper: '2405.16979'
+  status: needs-review
+- source: ke-huazhong
+  target: chan-kwokwai
+  paper: '2502.13558'
+  status: needs-review
+- source: ke-huazhong
+  target: song-jiayu
+  paper: '2405.16979'
+  status: needs-review
+- source: ke-huazhong
+  target: song-jiayu
+  paper: '2502.13545'
+  status: needs-review
+- source: ke-huazhong
+  target: song-jiayu
+  paper: '2502.13558'
+  status: needs-review
+- source: li-changzheng
+  target: chan-kwokwai
+  paper: '1311.1659'
+  status: needs-review
+- source: li-changzheng
+  target: chan-kwokwai
+  paper: '2405.16979'
+  status: needs-review
+- source: li-changzheng
+  target: chan-kwokwai
+  paper: '2502.13558'
+  status: needs-review
+- source: li-changzheng
+  target: hong-wei
+  paper: '0808.0393'
+  status: needs-review
+- source: li-changzheng
+  target: hong-wei
+  paper: '0810.4859'
+  status: needs-review
+- source: li-changzheng
+  target: hong-wei
+  paper: '1107.4744'
+  status: needs-review
+- source: li-changzheng
+  target: hong-wei
+  paper: '2509.01101'
+  status: needs-review
+- source: li-changzheng
+  target: leung-naichung
+  paper: '1506.00872'
+  status: needs-review
+- source: li-changzheng
+  target: leung-naichung
+  paper: '2405.16979'
+  status: needs-review
+- source: li-changzheng
+  target: leung-naichung
+  paper: '2509.01101'
+  status: needs-review
+- source: li-changzheng
+  target: song-jiayu
+  paper: '2405.16979'
+  status: needs-review
+- source: li-changzheng
+  target: song-jiayu
+  paper: '2502.13545'
+  status: needs-review
+- source: li-changzheng
+  target: song-jiayu
+  paper: '2502.13558'
+  status: needs-review
+- source: li-changzheng
+  target: song-jiayu
+  paper: '2509.01101'
+  status: needs-review
+- source: li-qin
+  target: hong-wei
+  paper: '2008.11496'
+  status: needs-review
+- source: li-qin
+  target: hong-wei
+  paper: '2410.11311'
+  status: needs-review
+- source: li-qin
+  target: leung-naichung
+  paper: '2008.11496'
+  status: needs-review
+- source: li-qin
+  target: leung-naichung
+  paper: '2410.11311'
+  status: needs-review
+- source: liu-siqi
+  target: dubrovin
+  paper: '0710.3115'
+  status: needs-review
+- source: liu-siqi
+  target: dubrovin
+  paper: '0711.2599'
+  status: needs-review
+- source: liu-siqi
+  target: dubrovin
+  paper: '0910.2085'
+  status: needs-review
+- source: liu-siqi
+  target: dubrovin
+  paper: '0912.5273'
+  status: needs-review
+- source: liu-siqi
+  target: dubrovin
+  paper: '1012.5708'
+  status: needs-review
+- source: liu-siqi
+  target: dubrovin
+  paper: '1208.5847'
+  status: needs-review
+- source: liu-siqi
+  target: dubrovin
+  paper: '1305.1008'
+  status: needs-review
+- source: liu-siqi
+  target: dubrovin
+  paper: '1305.2593'
+  status: needs-review
+- source: liu-siqi
+  target: dubrovin
+  paper: '1702.02840'
+  status: needs-review
+- source: liu-siqi
+  target: dubrovin
+  paper: '1811.10234'
+  status: needs-review
+- source: liu-siqi
+  target: dubrovin
+  paper: '1906.06860'
+  status: needs-review
+- source: liu-siqi
+  target: dubrovin
+  paper: '2009.01143'
+  status: needs-review
+- source: liu-siqi
+  target: dubrovin
+  paper: '2112.07526'
+  status: needs-review
+- source: liu-siqi
+  target: dubrovin
+  paper: '2511.06984'
+  status: needs-review
+- source: liu-siqi
+  target: guo-shuai
+  paper: '1811.10234'
+  status: needs-review
+- source: liu-siqi
+  target: guo-shuai
+  paper: '1906.06860'
+  status: needs-review
+- source: liu-siqi
+  target: ruan-yongbin
+  paper: '1811.10137'
+  status: needs-review
+- source: liu-siqi
+  target: ruan-yongbin
+  paper: '1811.10234'
+  status: needs-review
+- source: liu-siqi
+  target: ruan-yongbin
+  paper: '1906.06860'
+  status: needs-review
+- source: liu-siqi
+  target: ruan-yongbin
+  paper: '1908.06707'
+  status: needs-review
+- source: liu-siqi
+  target: yang-di
+  paper: '1702.02840'
+  status: needs-review
+- source: liu-siqi
+  target: yang-di
+  paper: '2402.00373'
+  status: needs-review
+- source: liu-siqi
+  target: yang-di
+  paper: '2404.08895'
+  status: needs-review
+- source: liu-siqi
+  target: yang-di
+  paper: '2411.15496'
+  status: needs-review
+- source: liu-siqi
+  target: zagier
+  paper: '1612.02333'
+  status: needs-review
+- source: liu-siqi
+  target: zagier
+  paper: '1811.10234'
+  status: needs-review
+- source: liu-siqi
+  target: zagier
+  paper: '1906.06860'
+  status: needs-review
+- source: liu-siqi
+  target: zhou-jian
+  paper: '1409.4616'
+  status: needs-review
+- source: liu-siqi
+  target: zhou-jian
+  paper: '1612.02333'
+  status: needs-review
+- source: liu-xiaobo
+  target: kontsevich
+  paper: '2103.14318'
+  status: needs-review
+- source: liu-xiaobo
+  target: kontsevich
+  paper: '2206.01066'
+  status: needs-review
+- source: qu-haonan
+  target: yang-di
+  paper: '2402.00373'
+  status: needs-review
+- source: qu-haonan
+  target: yang-di
+  paper: '2411.15496'
+  status: needs-review
+- source: tu-junwu
+  target: si-li
+  paper: '1706.09912'
+  status: needs-review
+- source: tu-junwu
+  target: si-li
+  paper: '1909.05319'
+  status: needs-review
+- source: tu-junwu
+  target: si-li
+  paper: '1910.00037'
+  status: needs-review
+- source: tu-junwu
+  target: si-li
+  paper: '2009.06673'
+  status: needs-review
+- source: tu-junwu
+  target: si-li
+  paper: '2404.01499'
+  status: needs-review
+- source: wang-zhiyuan
+  target: liu-xiaobo
+  paper: '2210.08712'
+  status: needs-review
+- source: wang-zhiyuan
+  target: liu-xiaobo
+  paper: '2408.03212'
+  status: needs-review
+- source: wang-zhiyuan
+  target: zhou-jian
+  paper: '2210.08712'
+  status: needs-review
+- source: wang-zhiyuan
+  target: zhou-jian
+  paper: '2408.03212'
+  status: needs-review
+- source: wu-chaozhong
+  target: dubrovin
+  paper: '0711.2599'
+  status: needs-review
+- source: wu-chaozhong
+  target: dubrovin
+  paper: '0906.5360'
+  status: needs-review
+- source: wu-chaozhong
+  target: dubrovin
+  paper: '0912.5273'
+  status: needs-review
+- source: wu-chaozhong
+  target: dubrovin
+  paper: '1012.5245'
+  status: needs-review
+- source: wu-chaozhong
+  target: dubrovin
+  paper: '1103.4048'
+  status: needs-review
+- source: wu-chaozhong
+  target: dubrovin
+  paper: '1112.0246'
+  status: needs-review
+- source: wu-chaozhong
+  target: dubrovin
+  paper: '1203.5750'
+  status: needs-review
+- source: wu-chaozhong
+  target: dubrovin
+  paper: '1305.1030'
+  status: needs-review
+- source: wu-chaozhong
+  target: ruan-yongbin
+  paper: '1811.10137'
+  status: needs-review
+- source: wu-chaozhong
+  target: ruan-yongbin
+  paper: '1908.06707'
+  status: needs-review
+- source: wu-chaozhong
+  target: zhang-youjin
+  paper: '0906.5360'
+  status: needs-review
+- source: wu-chaozhong
+  target: zhang-youjin
+  paper: '1001.4126'
+  status: needs-review
+- source: wu-chaozhong
+  target: zhang-youjin
+  paper: '1012.5245'
+  status: needs-review
+- source: wu-chaozhong
+  target: zhang-youjin
+  paper: '1103.4048'
+  status: needs-review
+- source: wu-chaozhong
+  target: zhang-youjin
+  paper: '1112.0246'
+  status: needs-review
+- source: wu-chaozhong
+  target: zhang-youjin
+  paper: '1203.5750'
+  status: needs-review
+- source: wu-chaozhong
+  target: zhang-youjin
+  paper: '1208.1374'
+  status: needs-review
+- source: wu-chaozhong
+  target: zhang-youjin
+  paper: '1305.1030'
+  status: needs-review
+- source: xiang-maosong
+  target: chen-zhuo
+  paper: '2003.03553'
+  status: needs-review
+- source: xiang-maosong
+  target: chen-zhuo
+  paper: '2110.04720'
+  status: needs-review
+- source: xu-xiaomeng
+  target: alekseev
+  paper: '1308.0100'
+  status: needs-review
+- source: xu-xiaomeng
+  target: alekseev
+  paper: '1407.2071'
+  status: needs-review
+- source: xu-xiaomeng
+  target: alekseev
+  paper: '1507.07149'
+  status: needs-review
+- source: xu-xiaomeng
+  target: alekseev
+  paper: '1701.00959'
+  status: needs-review
+- source: xu-xiaomeng
+  target: alekseev
+  paper: '1701.08113'
+  status: needs-review
+- source: xu-xiaomeng
+  target: alekseev
+  paper: '1801.00123'
+  status: needs-review
+- source: xu-xiaomeng
+  target: alekseev
+  paper: '1808.07654'
+  status: needs-review
+- source: xu-xiaomeng
+  target: alekseev
+  paper: '1912.07196'
+  status: needs-review
+- source: xu-xiaomeng
+  target: alekseev
+  paper: '2012.15673'
+  status: needs-review
+- source: xu-xiaomeng
+  target: alekseev
+  paper: '2401.12792'
+  status: needs-review
+- source: xu-xiaomeng
+  target: boalch
+  paper: '1507.07149'
+  status: needs-review
+- source: xu-xiaomeng
+  target: boalch
+  paper: '1701.08113'
+  status: needs-review
+- source: xu-xiaomeng
+  target: boalch
+  paper: '1801.00123'
+  status: needs-review
+- source: xu-xiaomeng
+  target: boalch
+  paper: '1808.07654'
+  status: needs-review
+- source: xu-xiaomeng
+  target: boalch
+  paper: '1912.07196'
+  status: needs-review
+- source: xu-xiaomeng
+  target: hong-wei
+  paper: '1301.4805'
+  status: needs-review
+- source: xu-xiaomeng
+  target: hong-wei
+  paper: '2402.07269'
+  status: needs-review
+- source: xu-xiaomeng
+  target: tang-qian
+  paper: '1912.07196'
+  status: needs-review
+- source: xu-xiaomeng
+  target: tang-qian
+  paper: '2401.13911'
+  status: needs-review
+- source: yang-chenglang
+  target: kontsevich
+  paper: '2103.14318'
+  status: needs-review
+- source: yang-chenglang
+  target: kontsevich
+  paper: '2206.01066'
+  status: needs-review
+- source: yang-chenglang
+  target: liu-xiaobo
+  paper: '2210.08712'
+  status: needs-review
+- source: yang-chenglang
+  target: liu-xiaobo
+  paper: '2408.03212'
+  status: needs-review
+- source: yang-chenglang
+  target: zhou-jian
+  paper: '2210.08712'
+  status: needs-review
+- source: yang-chenglang
+  target: zhou-jian
+  paper: '2408.03212'
+  status: needs-review
+- source: yang-di
+  target: chao-qian
+  paper: '1610.07534'
+  status: needs-review
+- source: yang-di
+  target: chao-qian
+  paper: '1709.07309'
+  status: needs-review
+- source: yang-di
+  target: dubrovin
+  paper: '1305.2593'
+  status: needs-review
+- source: yang-di
+  target: dubrovin
+  paper: '1411.5717'
+  status: needs-review
+- source: yang-di
+  target: dubrovin
+  paper: '1412.4419'
+  status: needs-review
+- source: yang-di
+  target: dubrovin
+  paper: '1709.07309'
+  status: needs-review
+- source: yang-di
+  target: dubrovin
+  paper: '1811.10234'
+  status: needs-review
+- source: yang-di
+  target: dubrovin
+  paper: '1905.08140'
+  status: needs-review
+- source: yang-di
+  target: dubrovin
+  paper: '1906.06860'
+  status: needs-review
+- source: yang-di
+  target: dubrovin
+  paper: '2010.00436'
+  status: needs-review
+- source: yang-di
+  target: dubrovin
+  paper: '2110.06655'
+  status: needs-review
+- source: yang-di
+  target: dubrovin
+  paper: '2112.07526'
+  status: needs-review
+- source: yang-di
+  target: dubrovin
+  paper: '2112.14202'
+  status: needs-review
+- source: yang-di
+  target: dubrovin
+  paper: '2205.01618'
+  status: needs-review
+- source: yang-di
+  target: dubrovin
+  paper: '2308.03568'
+  status: needs-review
+- source: yang-di
+  target: dubrovin
+  paper: '2311.04200'
+  status: needs-review
+- source: yang-di
+  target: dubrovin
+  paper: '2311.06506'
+  status: needs-review
+- source: yang-di
+  target: dubrovin
+  paper: '2312.16575'
+  status: needs-review
+- source: yang-di
+  target: dubrovin
+  paper: '2511.06984'
+  status: needs-review
+- source: yang-di
+  target: guo-shuai
+  paper: '1811.10234'
+  status: needs-review
+- source: yang-di
+  target: guo-shuai
+  paper: '1906.06860'
+  status: needs-review
+- source: yang-di
+  target: guo-shuai
+  paper: '2112.12736'
+  status: needs-review
+- source: yang-di
+  target: ruan-yongbin
+  paper: '1811.10234'
+  status: needs-review
+- source: yang-di
+  target: ruan-yongbin
+  paper: '1906.06860'
+  status: needs-review
+- source: yang-di
+  target: zagier
+  paper: '1612.02333'
+  status: needs-review
+- source: yang-di
+  target: zagier
+  paper: '1811.10234'
+  status: needs-review
+- source: yang-di
+  target: zagier
+  paper: '1903.11578'
+  status: needs-review
+- source: yang-di
+  target: zagier
+  paper: '1905.08140'
+  status: needs-review
+- source: yang-di
+  target: zagier
+  paper: '1906.06860'
+  status: needs-review
+- source: yang-di
+  target: zagier
+  paper: '2010.00436'
+  status: needs-review
+- source: yang-di
+  target: zagier
+  paper: '2110.06774'
+  status: needs-review
+- source: yang-di
+  target: zagier
+  paper: '2205.01618'
+  status: needs-review
+- source: yang-di
+  target: zagier
+  paper: '2311.04200'
+  status: needs-review
+- source: yang-di
+  target: zagier
+  paper: '2311.06506'
+  status: needs-review
+- source: yang-di
+  target: zagier
+  paper: '2603.24956'
+  status: needs-review
+- source: yang-di
+  target: zhang-youjin
+  paper: '1411.5717'
+  status: needs-review
+- source: yang-di
+  target: zhang-youjin
+  paper: '1412.4419'
+  status: needs-review
+- source: yang-di
+  target: zhang-youjin
+  paper: '1504.06452'
+  status: needs-review
+- source: yang-di
+  target: zhang-youjin
+  paper: '1508.03750'
+  status: needs-review
+- source: yang-di
+  target: zhang-youjin
+  paper: '1606.03720'
+  status: needs-review
+- source: yang-di
+  target: zhang-youjin
+  paper: '1610.07534'
+  status: needs-review
+- source: yang-di
+  target: zhang-youjin
+  paper: '1702.01669'
+  status: needs-review
+- source: yang-di
+  target: zhang-youjin
+  paper: '1709.07309'
+  status: needs-review
+- source: yang-di
+  target: zhang-youjin
+  paper: '1802.00711'
+  status: needs-review
+- source: yang-di
+  target: zhang-youjin
+  paper: '1812.08488'
+  status: needs-review
+- source: yang-di
+  target: zhang-youjin
+  paper: '1903.11578'
+  status: needs-review
+- source: yang-di
+  target: zhang-youjin
+  paper: '1905.08106'
+  status: needs-review
+- source: yang-di
+  target: zhang-youjin
+  paper: '1905.08140'
+  status: needs-review
+- source: yang-di
+  target: zhang-youjin
+  paper: '2010.00436'
+  status: needs-review
+- source: yang-di
+  target: zhang-youjin
+  paper: '2101.10924'
+  status: needs-review
+- source: yang-di
+  target: zhang-youjin
+  paper: '2205.01618'
+  status: needs-review
+- source: yang-di
+  target: zhang-youjin
+  paper: '2306.09115'
+  status: needs-review
+- source: yang-di
+  target: zhang-youjin
+  paper: '2308.03568'
+  status: needs-review
+- source: yang-di
+  target: zhang-youjin
+  paper: '2311.04200'
+  status: needs-review
+- source: yang-di
+  target: zhang-youjin
+  paper: '2311.06506'
+  status: needs-review
+- source: yang-di
+  target: zhang-youjin
+  paper: '2409.12529'
+  status: needs-review
+- source: yang-di
+  target: zhou-jian
+  paper: '1409.4616'
+  status: needs-review
+- source: yang-di
+  target: zhou-jian
+  paper: '1504.06452'
+  status: needs-review
+- source: yang-di
+  target: zhou-jian
+  paper: '1508.03750'
+  status: needs-review
+- source: yang-di
+  target: zhou-jian
+  paper: '1612.02333'
+  status: needs-review
+- source: yang-di
+  target: zhou-jian
+  paper: '1709.07309'
+  status: needs-review
+- source: yang-di
+  target: zhou-jian
+  paper: '1905.08140'
+  status: needs-review
+- source: yang-di
+  target: zhou-jian
+  paper: '2101.10924'
+  status: needs-review
+- source: yang-di
+  target: zhou-jian
+  paper: '2112.12736'
+  status: needs-review
+- source: yang-di
+  target: zhou-jian
+  paper: '2205.01618'
+  status: needs-review
+- source: zeng-haozhi
+  target: li-changzheng
+  paper: '2310.02818'
+  status: needs-review
+- source: zeng-haozhi
+  target: li-changzheng
+  paper: '2310.02819'
+  status: needs-review
+- source: zeng-haozhi
+  target: li-changzheng
+  paper: '2512.06646'
+  status: needs-review
+- source: zeng-haozhi
+  target: zhang-bin
+  paper: '2310.02818'
+  status: needs-review
+- source: zeng-haozhi
+  target: zhang-bin
+  paper: '2310.02819'
+  status: needs-review
+- source: zhang-huailiang
+  target: hong-wei
+  paper: '1105.3261'
+  status: needs-review
+- source: zhang-huailiang
+  target: hong-wei
+  paper: '1206.5390'
+  status: needs-review
+- source: zhang-huailiang
+  target: hong-wei
+  paper: '2312.11197'
+  status: needs-review
+- source: zhang-huailiang
+  target: ruan-yongbin
+  paper: '1101.0914'
+  status: needs-review
+- source: zhang-huailiang
+  target: ruan-yongbin
+  paper: '1206.5390'
+  status: needs-review
+- source: zhang-huailiang
+  target: ruan-yongbin
+  paper: '1508.02769'
+  status: needs-review
+- source: zhang-huailiang
+  target: ruan-yongbin
+  paper: '1804.05310'
+  status: needs-review
+- source: zhang-huailiang
+  target: ruan-yongbin
+  paper: '1809.08806'
+  status: needs-review
+- source: zhang-huailiang
+  target: ruan-yongbin
+  paper: '1809.11058'
+  status: needs-review
+- source: zhang-huailiang
+  target: ruan-yongbin
+  paper: '2312.11197'
+  status: needs-review
+- source: zhang-qingsheng
+  target: zhou-jian
+  paper: '2112.12736'
+  status: needs-review
+- source: zhang-qingsheng
+  target: zhou-jian
+  paper: '2309.12271'
+  status: needs-review
+- source: zhou-chunhui
+  target: dubrovin
+  paper: '1702.02840'
+  status: needs-review
+- source: zhou-chunhui
+  target: dubrovin
+  paper: '1906.06860'
+  status: needs-review
+- source: zong-zhengyu
+  target: fang-bohan
+  paper: '2312.06160'
+  status: needs-review
+- source: zong-zhengyu
+  target: fang-bohan
+  paper: '2601.17321'
+  status: needs-review
+- source: zong-zhengyu
+  target: ruan-yongbin
+  paper: '1604.07123'
+  status: needs-review
+- source: zong-zhengyu
+  target: ruan-yongbin
+  paper: '2504.15696'
+  status: needs-review
+- source: boalch
+  target: dubrovin
+  paper: '2002.00052'
+  status: needs-review
+- source: chan-kwokwai
+  target: hong-wei
+  paper: '1006.3830'
+  status: needs-review
+- source: chan-kwokwai
+  target: yau-shingtung
+  paper: '1006.3830'
+  status: needs-review
+- source: chen-zhuo
+  target: alekseev
+  paper: '1202.0079'
+  status: needs-review
+- source: chen-zhuo
+  target: cheng-jiahao
+  paper: '2105.15019'
+  status: needs-review
+- source: chen-zhuo
+  target: liu-zhangju
+  paper: '0909.0319'
+  status: needs-review
+- source: cotti
+  target: kontsevich
+  paper: '1811.09235'
+  status: needs-review
+- source: cotti
+  target: mazzocco
+  paper: '2005.08262'
+  status: needs-review
+- source: cotti
+  target: yang-di
+  paper: '1712.08575'
+  status: needs-review
+- source: ding-yanqiao
+  target: wang-zhiyuan
+  paper: '2602.04191'
+  status: needs-review
+- source: ding-yanqiao
+  target: yang-chenglang
+  paper: '2602.04191'
+  status: needs-review
+- source: ding-yanqiao
+  target: yang-di
+  paper: '2602.04191'
+  status: needs-review
+- source: du-chengyong
+  target: xiang-maosong
+  paper: '1812.05432'
+  status: needs-review
+- source: fan-huijun
+  target: hertling
+  paper: '1107.1290'
+  status: needs-review
+- source: fan-huijun
+  target: k-saito
+  paper: '1107.1290'
+  status: needs-review
+- source: fan-huijun
+  target: ruan-yongbin
+  paper: '1107.1290'
+  status: needs-review
+- source: fan-huijun
+  target: si-li
+  paper: '2210.16747'
+  status: needs-review
+- source: fan-huijun
+  target: tian-gang
+  paper: '1107.1290'
+  status: needs-review
+- source: fan-huijun
+  target: yang-di
+  paper: '1008.0927'
+  status: needs-review
+- source: fan-huijun
+  target: zhang-youjin
+  paper: '1008.0927'
+  status: needs-review
+- source: fang-bohan
+  target: chen-zhuo
+  paper: '2504.15696'
+  status: needs-review
+- source: fang-bohan
+  target: yau-shingtung
+  paper: '0901.4276'
+  status: needs-review
+- source: guo-jindong
+  target: zagier
+  paper: '2110.06774'
+  status: needs-review
+- source: guo-shuai
+  target: ruan-yongbin
+  paper: '1809.08806'
+  status: needs-review
+- source: guo-shuai
+  target: yang-chenglang
+  paper: '2309.12271'
+  status: needs-review
+- source: guo-shuai
+  target: zhou-jian
+  paper: '2309.12271'
+  status: needs-review
+- source: guo-shuai
+  target: zong-zhengyu
+  paper: '2309.12271'
+  status: needs-review
+- source: guzzetti
+  target: cotti
+  paper: '2101.03397'
+  status: needs-review
+- source: guzzetti
+  target: kontsevich
+  paper: '1811.09235'
+  status: needs-review
+- source: guzzetti
+  target: yang-di
+  paper: '1712.08575'
+  status: needs-review
+- source: he-weiqiang
+  target: hu-xiaowen
+  paper: '1402.4221'
+  status: needs-review
+- source: he-weiqiang
+  target: ruan-yongbin
+  paper: '1402.4221'
+  status: needs-review
+- source: he-weiqiang
+  target: tu-junwu
+  paper: '1904.09426'
+  status: needs-review
+- source: he-weiqiang
+  target: xiang-maosong
+  paper: '1904.09426'
+  status: needs-review
+- source: he-weiqiang
+  target: zhou-jian
+  paper: '1402.4221'
+  status: needs-review
+- source: hu-chuangqiang
+  target: yau-shingtung
+  paper: '1810.11969'
+  status: needs-review
+- source: hu-jianxun
+  target: chen-zhuo
+  paper: '2405.16979'
+  status: needs-review
+- source: hu-jianxun
+  target: fang-bohan
+  paper: '2405.16979'
+  status: needs-review
+- source: hu-jianxun
+  target: hu-xiaowen
+  paper: '1402.4221'
+  status: needs-review
+- source: hu-jianxun
+  target: leung-naichung
+  paper: '2405.16979'
+  status: needs-review
+- source: hu-jianxun
+  target: zhou-jian
+  paper: '1402.4221'
+  status: needs-review
+- source: hu-xiaowen
+  target: chen-zhuo
+  paper: '1805.04050'
+  status: needs-review
+- source: hu-xiaowen
+  target: fang-bohan
+  paper: '2101.05236'
+  status: needs-review
+- source: hu-xiaowen
+  target: tian-gang
+  paper: '1805.04050'
+  status: needs-review
+- source: hu-xiaowen
+  target: zhao-jiayi
+  paper: '2101.05236'
+  status: needs-review
+- source: hu-xiaowen
+  target: zhou-jian
+  paper: '2101.05236'
+  status: needs-review
+- source: ji-ce
+  target: yang-chenglang
+  paper: '2309.12271'
+  status: needs-review
+- source: ji-ce
+  target: zhou-jian
+  paper: '2309.12271'
+  status: needs-review
+- source: ji-ce
+  target: zong-zhengyu
+  paper: '2309.12271'
+  status: needs-review
+- source: jin-xiaoshang
+  target: chen-zhuo
+  paper: '2402.02465'
+  status: needs-review
+- source: ke-huazhong
+  target: chen-zhuo
+  paper: '2405.16979'
+  status: needs-review
+- source: ke-huazhong
+  target: fang-bohan
+  paper: '2405.16979'
+  status: needs-review
+- source: ke-huazhong
+  target: leung-naichung
+  paper: '2405.16979'
+  status: needs-review
+- source: leung-naichung
+  target: hong-wei
+  paper: '1006.3830'
+  status: needs-review
+- source: leung-naichung
+  target: yau-shingtung
+  paper: '1006.3830'
+  status: needs-review
+- source: li-changzheng
+  target: chen-zhuo
+  paper: '2405.16979'
+  status: needs-review
+- source: li-changzheng
+  target: fang-bohan
+  paper: '2405.16979'
+  status: needs-review
+- source: li-changzheng
+  target: hertling
+  paper: '1311.1659'
+  status: needs-review
+- source: li-changzheng
+  target: hu-jianxun
+  paper: '2509.01101'
+  status: needs-review
+- source: li-changzheng
+  target: hu-xiaowen
+  paper: '2509.01101'
+  status: needs-review
+- source: li-changzheng
+  target: k-saito
+  paper: '1311.1659'
+  status: needs-review
+- source: li-changzheng
+  target: ruan-yongbin
+  paper: '1311.1659'
+  status: needs-review
+- source: li-changzheng
+  target: zhang-huailiang
+  paper: '1311.1659'
+  status: needs-review
+- source: li-qin
+  target: alekseev
+  paper: '1507.01812'
+  status: needs-review
+- source: li-qin
+  target: chan-kwokwai
+  paper: '2008.11496'
+  status: needs-review
+- source: li-qin
+  target: kontsevich
+  paper: '1507.01812'
+  status: needs-review
+- source: li-qin
+  target: si-li
+  paper: '2008.11496'
+  status: needs-review
+- source: liu-siqi
+  target: chao-qian
+  paper: '1502.01774'
+  status: needs-review
+- source: liu-siqi
+  target: zhou-chunhui
+  paper: '2402.00373'
+  status: needs-review
+- source: ni-dadi
+  target: alekseev
+  paper: '2601.05183'
+  status: needs-review
+- source: ni-dadi
+  target: chen-zhuo
+  paper: '2601.05183'
+  status: needs-review
+- source: ni-dadi
+  target: zhang-bin
+  paper: '2601.05183'
+  status: needs-review
+- source: qiao-yu
+  target: xiang-maosong
+  paper: '2304.13345'
+  status: needs-review
+- source: qu-haonan
+  target: zhou-chunhui
+  paper: '2402.00373'
+  status: needs-review
+- source: rao-sheng
+  target: hong-wei
+  paper: '1609.05637'
+  status: needs-review
+- source: sun-shanzhong
+  target: chen-zhuo
+  paper: '1206.6162'
+  status: needs-review
+- source: sun-shanzhong
+  target: zhang-huailiang
+  paper: '1206.6162'
+  status: needs-review
+- source: tang-qian
+  target: hong-wei
+  paper: '2402.07269'
+  status: needs-review
+- source: tu-junwu
+  target: kontsevich
+  paper: '1311.4073'
+  status: needs-review
+- source: wang-luyao
+  target: tang-xinxing
+  paper: '2602.04779'
+  status: needs-review
+- source: wang-luyao
+  target: zhao-jiayi
+  paper: '2602.04779'
+  status: needs-review
+- source: wang-xin
+  target: liu-xiaobo
+  paper: '1608.08854'
+  status: needs-review
+- source: wang-zhiyuan
+  target: fan-huijun
+  paper: '2210.08712'
+  status: needs-review
+- source: wang-zhiyuan
+  target: yang-di
+  paper: '1812.10638'
+  status: needs-review
+- source: wen-hao
+  target: chan-kwokwai
+  paper: '2312.04239'
+  status: needs-review
+- source: wen-hao
+  target: hong-wei
+  paper: '2312.04239'
+  status: needs-review
+- source: wen-hao
+  target: li-changzheng
+  paper: '2312.04239'
+  status: needs-review
+- source: wen-hao
+  target: si-li
+  paper: '2312.04239'
+  status: needs-review
+- source: wen-hao
+  target: tu-junwu
+  paper: '2312.04239'
+  status: needs-review
+- source: wu-chaozhong
+  target: chen-zhuo
+  paper: '1305.1030'
+  status: needs-review
+- source: wu-longting
+  target: chen-zhuo
+  paper: '1810.06952'
+  status: needs-review
+- source: wu-longting
+  target: liu-xiaobo
+  paper: '1705.06402'
+  status: needs-review
+- source: wu-longting
+  target: zhang-huailiang
+  paper: '1705.06402'
+  status: needs-review
+- source: xiang-maosong
+  target: cheng-jiahao
+  paper: '2105.15019'
+  status: needs-review
+- source: xiang-maosong
+  target: qiao-yu
+  paper: '2110.04720'
+  status: needs-review
+- source: xu-xiaomeng
+  target: chen-zhuo
+  paper: '1701.00959'
+  status: needs-review
+- source: xu-xiaomeng
+  target: fan-huijun
+  paper: '1801.00123'
+  status: needs-review
+- source: xu-xiaomeng
+  target: guzzetti
+  paper: '2202.08054'
+  status: needs-review
+- source: xu-xiaomeng
+  target: si-li
+  paper: '1801.00123'
+  status: needs-review
+- source: xu-xu
+  target: chao-qian
+  paper: '2511.09983'
+  status: needs-review
+- source: yang-chenglang
+  target: fan-huijun
+  paper: '2210.08712'
+  status: needs-review
+- source: yang-di
+  target: chen-zhuo
+  paper: '2005.02275'
+  status: needs-review
+- source: yang-di
+  target: cotti
+  paper: '2101.10924'
+  status: needs-review
+- source: yang-di
+  target: guo-jindong
+  paper: '1709.07309'
+  status: needs-review
+- source: yang-di
+  target: manin-yuri
+  paper: '2101.10924'
+  status: needs-review
+- source: yang-di
+  target: zhang-huailiang
+  paper: '1812.08488'
+  status: needs-review
+- source: zhang-huailiang
+  target: chen-zhuo
+  paper: '1508.02769'
+  status: needs-review
+- source: zhang-huailiang
+  target: fan-huijun
+  paper: '1508.02769'
+  status: needs-review
+- source: zhang-huailiang
+  target: si-li
+  paper: '1508.02769'
+  status: needs-review
+- source: zhang-qingsheng
+  target: guo-shuai
+  paper: '2112.12736'
+  status: needs-review
+- source: zhang-qingsheng
+  target: yang-chenglang
+  paper: '2309.12271'
+  status: needs-review
+- source: zhang-qingsheng
+  target: zong-zhengyu
+  paper: '2309.12271'
+  status: needs-review
+- source: zhao-jiayi
+  target: guo-jindong
+  paper: '2510.26137'
+  status: needs-review
+- source: zhao-jiayi
+  target: yang-di
+  paper: '2510.26137'
+  status: needs-review
+- source: zhou-chunhui
+  target: guo-shuai
+  paper: '1906.06860'
+  status: needs-review
+- source: zhou-chunhui
+  target: ruan-yongbin
+  paper: '1906.06860'
+  status: needs-review
+- source: zhou-chunhui
+  target: yang-di
+  paper: '1702.02840'
+  status: needs-review
+- source: zhou-chunhui
+  target: zagier
+  paper: '1906.06860'
+  status: needs-review
+- source: zhou-chunhui
+  target: zhang-youjin
+  paper: '2409.12529'
+  status: needs-review
+- source: zong-zhengyu
+  target: chen-zhuo
+  paper: '2504.15696'
+  status: needs-review
+- source: zong-zhengyu
+  target: song-jiayu
+  paper: '2601.17321'
+  status: needs-review
+- source: zong-zhengyu
+  target: tu-junwu
+  paper: '2312.06160'
+  status: needs-review
+name_mentions:
+- paper: '0711.2599'
+  full_name_leads:
+    dubrovin:
+    - Boris Dubrovin
+  recorded_owners_not_ack_subjects:
+  - liu-siqi
+  - wu-chaozhong
+  status: needs-review
+- paper: '0906.5360'
+  full_name_leads:
+    dubrovin:
+    - Boris Dubrovin
+    liu-siqi:
+    - Si-Qi Liu
+    zhang-youjin:
+    - Youjin Zhang
+  recorded_owners_not_ack_subjects:
+  - wu-chaozhong
+  status: needs-review
+- paper: '0909.0319'
+  full_name_leads:
+    liu-zhangju:
+    - Zhang-Ju Liu
+  recorded_owners_not_ack_subjects:
+  - chen-zhuo
+  status: needs-review
+- paper: '0910.2085'
+  full_name_leads:
+    dubrovin:
+    - Boris Dubrovin
+  recorded_owners_not_ack_subjects:
+  - liu-siqi
+  status: needs-review
+- paper: '0912.5273'
+  full_name_leads:
+    dubrovin:
+    - Boris Dubrovin
+  recorded_owners_not_ack_subjects:
+  - liu-siqi
+  - wu-chaozhong
+  status: needs-review
+- paper: '1001.4126'
+  full_name_leads:
+    liu-siqi:
+    - Si-Qi Liu
+    zhang-youjin:
+    - Youjin Zhang
+  recorded_owners_not_ack_subjects:
+  - wu-chaozhong
+  status: needs-review
+- paper: '1003.1350'
+  full_name_leads:
+    liu-zhangju:
+    - Zhangju Liu
+  recorded_owners_not_ack_subjects:
+  - bi-yanhui
+  status: needs-review
+- paper: '1006.3830'
+  full_name_leads:
+    yau-shingtung:
+    - Shing-Tung Yau
+  recorded_owners_not_ack_subjects:
+  - chan-kwokwai
+  - leung-naichung
+  status: needs-review
+- paper: '1008.0927'
+  full_name_leads:
+    yang-di:
+    - Di Yang
+    zhang-youjin:
+    - Youjin Zhang
+  recorded_owners_not_ack_subjects:
+  - fan-huijun
+  status: needs-review
+- paper: '1010.0985'
+  full_name_leads:
+    tu-junwu:
+    - Junwu Tu
+  recorded_owners_not_ack_subjects:
+  - tu-junwu
+  status: needs-review
+- paper: '1012.5245'
+  full_name_leads:
+    dubrovin:
+    - Boris Dubrovin
+    liu-siqi:
+    - Si-Qi Liu
+    zhang-youjin:
+    - Youjin Zhang
+  recorded_owners_not_ack_subjects:
+  - wu-chaozhong
+  status: needs-review
+- paper: '1012.5708'
+  full_name_leads:
+    dubrovin:
+    - Boris Dubrovin
+  recorded_owners_not_ack_subjects:
+  - liu-siqi
+  status: needs-review
+- paper: '1103.4048'
+  full_name_leads:
+    dubrovin:
+    - Boris Dubrovin
+    liu-siqi:
+    - Si-Qi Liu
+    zhang-youjin:
+    - Youjin Zhang
+  recorded_owners_not_ack_subjects:
+  - wu-chaozhong
+  status: needs-review
+- paper: '1108.5892'
+  full_name_leads:
+    ruan-yongbin:
+    - Yongbin Ruan
+  recorded_owners_not_ack_subjects:
+  - hu-jianxun
+  status: needs-review
+- paper: '1112.0246'
+  full_name_leads:
+    dubrovin:
+    - Boris Dubrovin
+    liu-siqi:
+    - Si-Qi Liu
+    zhang-youjin:
+    - Youjin Zhang
+  recorded_owners_not_ack_subjects:
+  - wu-chaozhong
+  status: needs-review
+- paper: '1202.0079'
+  full_name_leads:
+    alekseev:
+    - Anton Alekseev
+  recorded_owners_not_ack_subjects:
+  - chen-zhuo
+  status: needs-review
+- paper: '1203.5750'
+  full_name_leads:
+    liu-siqi:
+    - Si-Qi Liu
+  recorded_owners_not_ack_subjects:
+  - wu-chaozhong
+  status: needs-review
+- paper: '1208.1374'
+  full_name_leads:
+    zhang-youjin:
+    - Youjin Zhang
+  recorded_owners_not_ack_subjects:
+  - wu-chaozhong
+  status: needs-review
+- paper: '1208.5847'
+  full_name_leads:
+    dubrovin:
+    - Boris Dubrovin
+  recorded_owners_not_ack_subjects:
+  - liu-siqi
+  status: needs-review
+- paper: '1208.5912'
+  full_name_leads:
+    tu-junwu:
+    - Junwu Tu
+  recorded_owners_not_ack_subjects:
+  - tu-junwu
+  status: needs-review
+- paper: '1301.4805'
+  full_name_leads:
+    liu-zhangju:
+    - Zhangju Liu
+  recorded_owners_not_ack_subjects:
+  - xu-xiaomeng
+  status: needs-review
+- paper: '1305.1008'
+  full_name_leads:
+    dubrovin:
+    - Boris Dubrovin
+  recorded_owners_not_ack_subjects:
+  - liu-siqi
+  status: needs-review
+- paper: '1305.1030'
+  full_name_leads:
+    zhang-youjin:
+    - Youjin Zhang
+  recorded_owners_not_ack_subjects:
+  - wu-chaozhong
+  status: needs-review
+- paper: '1305.2593'
+  full_name_leads:
+    dubrovin:
+    - Boris Dubrovin
+  recorded_owners_not_ack_subjects:
+  - liu-siqi
+  - yang-di
+  status: needs-review
+- paper: '1308.0100'
+  full_name_leads:
+    alekseev:
+    - Anton Alekseev
+  recorded_owners_not_ack_subjects:
+  - xu-xiaomeng
+  status: needs-review
+- paper: '1311.1659'
+  full_name_leads:
+    chan-kwokwai:
+    - Kwok-Wai Chan
+    hertling:
+    - Claus Hertling
+    ruan-yongbin:
+    - Yongbin Ruan
+    zhang-huailiang:
+    - Huai-Liang Chang
+  recorded_owners_not_ack_subjects:
+  - li-changzheng
+  status: needs-review
+- paper: '1312.4609'
+  full_name_leads:
+    liu-zhangju:
+    - Zhangju Liu
+  recorded_owners_not_ack_subjects:
+  - lang-honglei
+  - xu-xiaomeng
+  status: needs-review
+- paper: '1402.4221'
+  full_name_leads:
+    hu-xiaowen:
+    - Xiaowen Hu
+    ruan-yongbin:
+    - Yongbin Ruan
+    zhou-jian:
+    - Jian Zhou
+  recorded_owners_not_ack_subjects:
+  - he-weiqiang
+  - hu-jianxun
+  status: needs-review
+- paper: '1407.2071'
+  full_name_leads:
+    alekseev:
+    - Anton Alekseev
+  recorded_owners_not_ack_subjects:
+  - xu-xiaomeng
+  status: needs-review
+- paper: '1409.4616'
+  full_name_leads:
+    zhou-jian:
+    - Jian Zhou
+  recorded_owners_not_ack_subjects:
+  - liu-siqi
+  - yang-di
+  status: needs-review
+- paper: '1411.5717'
+  full_name_leads:
+    dubrovin:
+    - Boris Dubrovin
+    zhang-youjin:
+    - Youjin Zhang
+  recorded_owners_not_ack_subjects:
+  - yang-di
+  status: needs-review
+- paper: '1412.4419'
+  full_name_leads:
+    dubrovin:
+    - Boris Dubrovin
+    zhang-youjin:
+    - Youjin Zhang
+  recorded_owners_not_ack_subjects:
+  - yang-di
+  status: needs-review
+- paper: '1502.01774'
+  full_name_leads:
+    wu-chaozhong:
+    - Chao-Zhong Wu
+  recorded_owners_not_ack_subjects:
+  - liu-siqi
+  status: needs-review
+- paper: '1504.06452'
+  full_name_leads:
+    zhang-youjin:
+    - Youjin Zhang
+    zhou-jian:
+    - Jian Zhou
+  recorded_owners_not_ack_subjects:
+  - yang-di
+  status: needs-review
+- paper: '1507.07149'
+  full_name_leads:
+    alekseev:
+    - Anton Alekseev
+    boalch:
+    - Philip Boalch
+  recorded_owners_not_ack_subjects:
+  - xu-xiaomeng
+  status: needs-review
+- paper: '1508.02769'
+  full_name_leads:
+    fan-huijun:
+    - Huijun Fan
+    ruan-yongbin:
+    - Yongbin Ruan
+    si-li:
+    - Si Li
+  recorded_owners_not_ack_subjects:
+  - zhang-huailiang
+  status: needs-review
+- paper: '1508.03750'
+  full_name_leads:
+    liu-siqi:
+    - Si-Qi Liu
+    zhang-youjin:
+    - Youjin Zhang
+    zhou-jian:
+    - Jian Zhou
+  recorded_owners_not_ack_subjects:
+  - yang-di
+  status: needs-review
+- paper: '1604.07123'
+  full_name_leads:
+    ruan-yongbin:
+    - Yongbin Ruan
+  recorded_owners_not_ack_subjects:
+  - fang-bohan
+  - zong-zhengyu
+  status: needs-review
+- paper: '1606.03720'
+  full_name_leads:
+    liu-siqi:
+    - Si-Qi Liu
+    zhang-youjin:
+    - Youjin Zhang
+  recorded_owners_not_ack_subjects:
+  - yang-di
+  status: needs-review
+- paper: '1608.06868'
+  full_name_leads:
+    dubrovin:
+    - Boris Dubrovin
+    guzzetti:
+    - Davide Guzzetti
+    zagier:
+    - Don Zagier
+  recorded_owners_not_ack_subjects:
+  - cotti
+  status: needs-review
+- paper: '1608.08854'
+  full_name_leads:
+    liu-xiaobo:
+    - Xiaobo Liu
+  recorded_owners_not_ack_subjects:
+  - wang-xin
+  status: needs-review
+- paper: '1610.07534'
+  full_name_leads:
+    wu-chaozhong:
+    - Chao-Zhong Wu
+    zhang-youjin:
+    - Youjin Zhang
+  recorded_owners_not_ack_subjects:
+  - yang-di
+  status: needs-review
+- paper: '1612.02333'
+  full_name_leads:
+    zagier:
+    - Don Zagier
+    zhou-jian:
+    - Jian Zhou
+  recorded_owners_not_ack_subjects:
+  - liu-siqi
+  - yang-di
+  status: needs-review
+- paper: '1701.00959'
+  full_name_leads:
+    alekseev:
+    - Anton Alekseev
+    chen-zhuo:
+    - Zhuo Chen
+  recorded_owners_not_ack_subjects:
+  - xu-xiaomeng
+  status: needs-review
+- paper: '1701.08113'
+  full_name_leads:
+    alekseev:
+    - Anton Alekseev
+    boalch:
+    - Philip Boalch
+  recorded_owners_not_ack_subjects:
+  - xu-xiaomeng
+  status: needs-review
+- paper: '1702.01669'
+  full_name_leads:
+    zhang-youjin:
+    - Youjin Zhang
+  recorded_owners_not_ack_subjects:
+  - yang-di
+  status: needs-review
+- paper: '1702.02840'
+  full_name_leads:
+    dubrovin:
+    - Boris Dubrovin
+    yang-di:
+    - Di Yang
+  recorded_owners_not_ack_subjects:
+  - liu-siqi
+  - zhou-chunhui
+  status: needs-review
+- paper: '1705.06402'
+  full_name_leads:
+    liu-xiaobo:
+    - Xiaobo Liu
+    zhang-huailiang:
+    - Huai-Liang Chang
+  recorded_owners_not_ack_subjects:
+  - wu-longting
+  status: needs-review
+- paper: '1706.09912'
+  full_name_leads:
+    si-li:
+    - Si Li
+  recorded_owners_not_ack_subjects:
+  - tu-junwu
+  status: needs-review
+- paper: '1709.07309'
+  full_name_leads:
+    dubrovin:
+    - Boris Dubrovin
+    guo-jindong:
+    - Jindong Guo
+    wu-chaozhong:
+    - Chao-Zhong Wu
+    zhang-youjin:
+    - Youjin Zhang
+    zhou-jian:
+    - Jian Zhou
+  recorded_owners_not_ack_subjects:
+  - yang-di
+  status: needs-review
+- paper: '1710.03603'
+  full_name_leads:
+    hu-jianxun:
+    - Jianxun Hu
+  recorded_owners_not_ack_subjects:
+  - ding-yanqiao
+  status: needs-review
+- paper: '1712.08575'
+  full_name_leads:
+    hertling:
+    - Claus Hertling
+    sabbah:
+    - Claude Sabbah
+    yang-di:
+    - Di Yang
+  recorded_owners_not_ack_subjects:
+  - cotti
+  - guzzetti
+  status: needs-review
+- paper: '1801.00123'
+  full_name_leads:
+    alekseev:
+    - Anton Alekseev
+    boalch:
+    - Philip Boalch
+    fan-huijun:
+    - Huijun Fan
+    si-li:
+    - Si Li
+  recorded_owners_not_ack_subjects:
+  - xu-xiaomeng
+  status: needs-review
+- paper: '1802.00711'
+  full_name_leads:
+    zhang-youjin:
+    - Youjin Zhang
+  recorded_owners_not_ack_subjects:
+  - yang-di
+  status: needs-review
+- paper: '1804.05310'
+  full_name_leads:
+    ruan-yongbin:
+    - Yongbin Ruan
+  recorded_owners_not_ack_subjects:
+  - zhang-huailiang
+  status: needs-review
+- paper: '1808.07654'
+  full_name_leads:
+    alekseev:
+    - Anton Alekseev
+    boalch:
+    - Philip Boalch
+  recorded_owners_not_ack_subjects:
+  - xu-xiaomeng
+  status: needs-review
+- paper: '1809.08806'
+  full_name_leads:
+    ruan-yongbin:
+    - Yongbin Ruan
+  recorded_owners_not_ack_subjects:
+  - guo-shuai
+  - zhang-huailiang
+  status: needs-review
+- paper: '1809.11058'
+  full_name_leads:
+    ruan-yongbin:
+    - Yongbin Ruan
+    tseng-hsian-hua:
+    - Hsian-Hua Tseng
+  recorded_owners_not_ack_subjects:
+  - zhang-huailiang
+  status: needs-review
+- paper: '1810.06952'
+  full_name_leads:
+    tseng-hsian-hua:
+    - Hsian-Hua Tseng
+  recorded_owners_not_ack_subjects:
+  - wu-longting
+  status: needs-review
+- paper: '1811.10137'
+  full_name_leads:
+    ruan-yongbin:
+    - Yongbin Ruan
+  recorded_owners_not_ack_subjects:
+  - liu-siqi
+  - wu-chaozhong
+  status: needs-review
+- paper: '1811.10234'
+  full_name_leads:
+    dubrovin:
+    - Boris Dubrovin
+    guo-shuai:
+    - Shuai Guo
+    ruan-yongbin:
+    - Yongbin Ruan
+    zagier:
+    - Don Zagier
+  recorded_owners_not_ack_subjects:
+  - liu-siqi
+  - yang-di
+  status: needs-review
+- paper: '1812.08488'
+  full_name_leads:
+    zhang-youjin:
+    - Youjin Zhang
+  recorded_owners_not_ack_subjects:
+  - yang-di
+  status: needs-review
+- paper: '1902.07486'
+  full_name_leads:
+    hu-jianxun:
+    - Jianxun Hu
+  recorded_owners_not_ack_subjects:
+  - ding-yanqiao
+  status: needs-review
+- paper: '1903.11578'
+  full_name_leads:
+    zagier:
+    - Don Zagier
+    zhang-youjin:
+    - Youjin Zhang
+  recorded_owners_not_ack_subjects:
+  - yang-di
+  status: needs-review
+- paper: '1904.09426'
+  full_name_leads:
+    tu-junwu:
+    - Junwu Tu
+  recorded_owners_not_ack_subjects:
+  - he-weiqiang
+  status: needs-review
+- paper: '1905.08106'
+  full_name_leads:
+    zhang-youjin:
+    - Youjin Zhang
+  recorded_owners_not_ack_subjects:
+  - yang-di
+  status: needs-review
+- paper: '1905.08140'
+  full_name_leads:
+    dubrovin:
+    - Boris Dubrovin
+    liu-siqi:
+    - Si-Qi Liu
+    zagier:
+    - Don Zagier
+    zhang-youjin:
+    - Youjin Zhang
+    zhou-jian:
+    - Jian Zhou
+  recorded_owners_not_ack_subjects:
+  - yang-di
+  status: needs-review
+- paper: '1906.06860'
+  full_name_leads:
+    dubrovin:
+    - Boris Dubrovin
+    guo-shuai:
+    - Shuai Guo
+    ruan-yongbin:
+    - Yongbin Ruan
+    zagier:
+    - Don Zagier
+  recorded_owners_not_ack_subjects:
+  - liu-siqi
+  - yang-di
+  - zhou-chunhui
+  status: needs-review
+- paper: '1908.06707'
+  full_name_leads:
+    ruan-yongbin:
+    - Yongbin Ruan
+  recorded_owners_not_ack_subjects:
+  - liu-siqi
+  - wu-chaozhong
+  status: needs-review
+- paper: '1909.05319'
+  full_name_leads:
+    si-li:
+    - Si Li
+  recorded_owners_not_ack_subjects:
+  - tu-junwu
+  status: needs-review
+- paper: '1910.00037'
+  full_name_leads:
+    si-li:
+    - Si Li
+  recorded_owners_not_ack_subjects:
+  - tu-junwu
+  status: needs-review
+- paper: '1912.07196'
+  full_name_leads:
+    alekseev:
+    - Anton Alekseev
+    boalch:
+    - Philip Boalch
+    tang-qian:
+    - Qian Tang
+  recorded_owners_not_ack_subjects:
+  - xu-xiaomeng
+  status: needs-review
+- paper: '2002.00052'
+  full_name_leads:
+    dubrovin:
+    - Boris Dubrovin
+    sabbah:
+    - Claude Sabbah
+  recorded_owners_not_ack_subjects:
+  - boalch
+  status: needs-review
+- paper: '2002.03656'
+  full_name_leads:
+    liu-zhangju:
+    - Zhangju Liu
+  recorded_owners_not_ack_subjects:
+  - lang-honglei
+  status: needs-review
+- paper: '2003.03553'
+  full_name_leads:
+    chen-zhuo:
+    - Zhuo Chen
+  recorded_owners_not_ack_subjects:
+  - xiang-maosong
+  status: needs-review
+- paper: '2008.11496'
+  full_name_leads:
+    si-li:
+    - Si Li
+  recorded_owners_not_ack_subjects:
+  - li-qin
+  status: needs-review
+- paper: '2009.01143'
+  full_name_leads:
+    dubrovin:
+    - Boris Dubrovin
+  recorded_owners_not_ack_subjects:
+  - liu-siqi
+  status: needs-review
+- paper: '2009.06673'
+  full_name_leads:
+    si-li:
+    - Si Li
+  recorded_owners_not_ack_subjects:
+  - tu-junwu
+  status: needs-review
+- paper: '2010.00436'
+  full_name_leads:
+    dubrovin:
+    - Boris Dubrovin
+    liu-siqi:
+    - Si-Qi Liu
+    zagier:
+    - Don Zagier
+    zhang-youjin:
+    - Youjin Zhang
+  recorded_owners_not_ack_subjects:
+  - yang-di
+  status: needs-review
+- paper: '2012.15673'
+  full_name_leads:
+    alekseev:
+    - Anton Alekseev
+  recorded_owners_not_ack_subjects:
+  - xu-xiaomeng
+  status: needs-review
+- paper: '2101.05236'
+  full_name_leads:
+    zhou-jian:
+    - Jian Zhou
+  recorded_owners_not_ack_subjects:
+  - hu-xiaowen
+  status: needs-review
+- paper: '2101.10924'
+  full_name_leads:
+    cotti:
+    - Giordano Cotti
+    manin-yuri:
+    - Yuri Manin
+    zhang-youjin:
+    - Youjin Zhang
+    zhou-jian:
+    - Jian Zhou
+  recorded_owners_not_ack_subjects:
+  - yang-di
+  status: needs-review
+- paper: '2103.14318'
+  full_name_leads:
+    yang-chenglang:
+    - Chenglang Yang
+  recorded_owners_not_ack_subjects:
+  - liu-xiaobo
+  - yang-chenglang
+  status: needs-review
+- paper: '2104.01357'
+  full_name_leads:
+    liu-xiaobo:
+    - Xiaobo Liu
+    yang-chenglang:
+    - Chenglang Yang
+  recorded_owners_not_ack_subjects:
+  - liu-xiaobo
+  - yang-chenglang
+  status: needs-review
+- paper: '2105.15019'
+  full_name_leads:
+    cheng-jiahao:
+    - Jiahao Cheng
+  recorded_owners_not_ack_subjects:
+  - chen-zhuo
+  - xiang-maosong
+  status: needs-review
+- paper: '2107.10472'
+  full_name_leads:
+    liu-xiaobo:
+    - Xiaobo Liu
+    yang-chenglang:
+    - Chenglang Yang
+  recorded_owners_not_ack_subjects:
+  - liu-xiaobo
+  - yang-chenglang
+  status: needs-review
+- paper: '2110.04720'
+  full_name_leads:
+    chen-zhuo:
+    - Zhuo Chen
+    qiao-yu:
+    - Yu Qiao
+  recorded_owners_not_ack_subjects:
+  - xiang-maosong
+  status: needs-review
+- paper: '2110.06655'
+  full_name_leads:
+    dubrovin:
+    - Boris Dubrovin
+  recorded_owners_not_ack_subjects:
+  - yang-di
+  status: needs-review
+- paper: '2110.06774'
+  full_name_leads:
+    zagier:
+    - Don Zagier
+  recorded_owners_not_ack_subjects:
+  - guo-jindong
+  - yang-di
+  status: needs-review
+- paper: '2112.07526'
+  full_name_leads:
+    dubrovin:
+    - Boris Dubrovin
+  recorded_owners_not_ack_subjects:
+  - liu-siqi
+  - yang-di
+  status: needs-review
+- paper: '2112.12736'
+  full_name_leads:
+    guo-shuai:
+    - Shuai Guo
+    zhou-jian:
+    - Jian Zhou
+  recorded_owners_not_ack_subjects:
+  - yang-di
+  - zhang-qingsheng
+  status: needs-review
+- paper: '2112.14202'
+  full_name_leads:
+    dubrovin:
+    - Boris Dubrovin
+  recorded_owners_not_ack_subjects:
+  - yang-di
+  status: needs-review
+- paper: '2202.08054'
+  full_name_leads:
+    guzzetti:
+    - Davide Guzzetti
+  recorded_owners_not_ack_subjects:
+  - xu-xiaomeng
+  status: needs-review
+- paper: '2205.01618'
+  full_name_leads:
+    dubrovin:
+    - Boris Dubrovin
+    zagier:
+    - Don Zagier
+    zhang-youjin:
+    - Youjin Zhang
+    zhou-jian:
+    - Jian Zhou
+  recorded_owners_not_ack_subjects:
+  - yang-di
+  status: needs-review
+- paper: '2206.01066'
+  full_name_leads:
+    liu-xiaobo:
+    - Xiaobo Liu
+    yang-chenglang:
+    - Chenglang Yang
+  recorded_owners_not_ack_subjects:
+  - liu-xiaobo
+  - yang-chenglang
+  status: needs-review
+- paper: '2210.16747'
+  full_name_leads:
+    si-li:
+    - Si Li
+  recorded_owners_not_ack_subjects:
+  - fan-huijun
+  status: needs-review
+- paper: '2306.09115'
+  full_name_leads:
+    zhang-youjin:
+    - Youjin Zhang
+  recorded_owners_not_ack_subjects:
+  - yang-di
+  status: needs-review
+- paper: '2308.03568'
+  full_name_leads:
+    dubrovin:
+    - Boris Dubrovin
+    zhang-youjin:
+    - Youjin Zhang
+  recorded_owners_not_ack_subjects:
+  - yang-di
+  status: needs-review
+- paper: '2309.12271'
+  full_name_leads:
+    yang-chenglang:
+    - Chenglang Yang
+    zhou-jian:
+    - Jian Zhou
+    zong-zhengyu:
+    - Zhengyu Zong
+  recorded_owners_not_ack_subjects:
+  - guo-shuai
+  - ji-ce
+  - zhang-qingsheng
+  status: needs-review
+- paper: '2310.02818'
+  full_name_leads:
+    li-changzheng:
+    - Changzheng Li
+    zhang-bin:
+    - Bin Zhang
+  recorded_owners_not_ack_subjects:
+  - zeng-haozhi
+  status: needs-review
+- paper: '2310.02819'
+  full_name_leads:
+    li-changzheng:
+    - Changzheng Li
+    zhang-bin:
+    - Bin Zhang
+  recorded_owners_not_ack_subjects:
+  - zeng-haozhi
+  status: needs-review
+- paper: '2311.04200'
+  full_name_leads:
+    dubrovin:
+    - Boris Dubrovin
+    zagier:
+    - Don Zagier
+    zhang-youjin:
+    - Youjin Zhang
+  recorded_owners_not_ack_subjects:
+  - yang-di
+  status: needs-review
+- paper: '2311.06506'
+  full_name_leads:
+    dubrovin:
+    - Boris Dubrovin
+    zagier:
+    - Don Zagier
+    zhang-youjin:
+    - Youjin Zhang
+  recorded_owners_not_ack_subjects:
+  - yang-di
+  status: needs-review
+- paper: '2312.04239'
+  full_name_leads:
+    li-changzheng:
+    - Changzheng Li
+    si-li:
+    - Si Li
+    tu-junwu:
+    - Junwu Tu
+  recorded_owners_not_ack_subjects:
+  - wen-hao
+  status: needs-review
+- paper: '2312.06160'
+  full_name_leads:
+    fang-bohan:
+    - Bohan Fang
+    tu-junwu:
+    - Junwu Tu
+  recorded_owners_not_ack_subjects:
+  - zong-zhengyu
+  status: needs-review
+- paper: '2312.11197'
+  full_name_leads:
+    ruan-yongbin:
+    - Yongbin Ruan
+  recorded_owners_not_ack_subjects:
+  - zhang-huailiang
+  status: needs-review
+- paper: '2312.16575'
+  full_name_leads:
+    dubrovin:
+    - Boris Dubrovin
+  recorded_owners_not_ack_subjects:
+  - yang-di
+  status: needs-review
+- paper: '2401.12792'
+  full_name_leads:
+    alekseev:
+    - Anton Alekseev
+  recorded_owners_not_ack_subjects:
+  - xu-xiaomeng
+  status: needs-review
+- paper: '2401.13911'
+  full_name_leads:
+    tang-qian:
+    - Qian Tang
+  recorded_owners_not_ack_subjects:
+  - xu-xiaomeng
+  status: needs-review
+- paper: '2402.00373'
+  full_name_leads:
+    yang-di:
+    - Di Yang
+    zhou-chunhui:
+    - Chunhui Zhou
+  recorded_owners_not_ack_subjects:
+  - liu-siqi
+  - qu-haonan
+  status: needs-review
+- paper: '2402.07269'
+  full_name_leads:
+    tang-qian:
+    - Qian Tang
+    xu-xiaomeng:
+    - Xiaomeng Xu
+  recorded_owners_not_ack_subjects:
+  - tang-qian
+  - xu-xiaomeng
+  status: needs-review
+- paper: '2404.01499'
+  full_name_leads:
+    si-li:
+    - Si Li
+    tu-junwu:
+    - Junwu Tu
+  recorded_owners_not_ack_subjects:
+  - tu-junwu
+  status: needs-review
+- paper: '2404.08895'
+  full_name_leads:
+    yang-di:
+    - Di Yang
+  recorded_owners_not_ack_subjects:
+  - liu-siqi
+  status: needs-review
+- paper: '2405.16979'
+  full_name_leads:
+    fang-bohan:
+    - Bohan Fang
+    song-jiayu:
+    - Jiayu Song
+  recorded_owners_not_ack_subjects:
+  - hu-jianxun
+  - ke-huazhong
+  - li-changzheng
+  status: needs-review
+- paper: '2411.15496'
+  full_name_leads:
+    yang-di:
+    - Di Yang
+  recorded_owners_not_ack_subjects:
+  - liu-siqi
+  - qu-haonan
+  status: needs-review
+- paper: '2502.13558'
+  full_name_leads:
+    chan-kwokwai:
+    - Kwokwai Chan
+  recorded_owners_not_ack_subjects:
+  - hu-jianxun
+  - ke-huazhong
+  - li-changzheng
+  status: needs-review
+- paper: '2504.13005'
+  full_name_leads:
+    cheng-zhechi:
+    - Zhechi Cheng
+  recorded_owners_not_ack_subjects:
+  - cheng-zhechi
+  status: needs-review
+- paper: '2504.16375'
+  full_name_leads:
+    ke-huazhong:
+    - Hua-Zhong Ke
+  recorded_owners_not_ack_subjects:
+  - yang-di
+  status: needs-review
+- paper: '2509.01101'
+  full_name_leads:
+    hu-jianxun:
+    - Jianxun Hu
+    hu-xiaowen:
+    - Xiaowen Hu
+    ke-huazhong:
+    - Hua-Zhong Ke
+    song-jiayu:
+    - Jiayu Song
+  recorded_owners_not_ack_subjects:
+  - li-changzheng
+  status: needs-review
+- paper: '2510.26137'
+  full_name_leads:
+    guo-jindong:
+    - Jindong Guo
+    yang-di:
+    - Di Yang
+  recorded_owners_not_ack_subjects:
+  - zhao-jiayi
+  status: needs-review
+- paper: '2511.06984'
+  full_name_leads:
+    dubrovin:
+    - Boris Dubrovin
+  recorded_owners_not_ack_subjects:
+  - liu-siqi
+  - yang-di
+  status: needs-review
+- paper: '2511.09983'
+  full_name_leads:
+    xu-xu:
+    - Xu Xu
+  recorded_owners_not_ack_subjects:
+  - xu-xu
+  status: needs-review
+- paper: '2512.06646'
+  full_name_leads:
+    li-changzheng:
+    - Changzheng Li
+  recorded_owners_not_ack_subjects:
+  - zeng-haozhi
+  status: needs-review
+- paper: '2601.05183'
+  full_name_leads:
+    chen-zhuo:
+    - Zhuo Chen
+    liu-zhangju:
+    - Zhangju Liu
+    zhang-bin:
+    - Bin Zhang
+  recorded_owners_not_ack_subjects:
+  - ni-dadi
+  status: needs-review
+- paper: '2601.17321'
+  full_name_leads:
+    fang-bohan:
+    - Bohan Fang
+  recorded_owners_not_ack_subjects:
+  - zong-zhengyu
+  status: needs-review
+- paper: '2602.04191'
+  full_name_leads:
+    wang-zhiyuan:
+    - Zhiyuan Wang
+    yang-chenglang:
+    - Chenglang Yang
+    yang-di:
+    - Di Yang
+  recorded_owners_not_ack_subjects:
+  - ding-yanqiao
+  status: needs-review
+- paper: '2602.04779'
+  full_name_leads:
+    tang-xinxing:
+    - Xinxing Tang
+  recorded_owners_not_ack_subjects:
+  - wang-luyao
+  status: needs-review
+- paper: '2603.24956'
+  full_name_leads:
+    zagier:
+    - Don Zagier
+  recorded_owners_not_ack_subjects:
+  - yang-di
+  status: needs-review

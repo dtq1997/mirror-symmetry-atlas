@@ -1,0 +1,24 @@
+{
+  "reviewer": "Codex",
+  "date": "2026-10-08",
+  "base": "http://127.0.0.1:3847/mirror-symmetry-atlas",
+  "desktop": {
+    "width": 1280,
+    "height": 800,
+    "scrollWidth": 1280,
+    "threshold_1_only_ack": 4,
+    "threshold_2_only_ack": 1,
+    "name_search": "丁岩峭",
+    "console_errors": [],
+    "screenshot": "acknowledgement-reviewed-preview.jpg"
+  },
+  "mobile": {
+    "width": 390,
+    "height": 844,
+    "scrollWidth": 390,
+    "threshold_1_only_ack": 4,
+    "arrow_directions": "visually inspected; arrows point to acknowledged people",
+    "screenshot": "acknowledgement-reviewed-mobile-preview.jpg"
+  },
+  "scope": "Graph UI, not full-corpus identity certification."
+}

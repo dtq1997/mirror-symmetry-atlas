@@ -107,10 +107,10 @@ export default function AckNetworkClient({ graphData, peopleCount }: Props) {
         <div>
           <h1 className="text-lg font-semibold text-[#e8e8f0]">致谢网</h1>
           <p className="text-xs text-[#8888a0]">
-            从 arXiv 论文致谢段抽取 · {peopleCount} 人 · {ackStats.ackCount} 条致谢边 ·{" "}
+            {peopleCount} 人物档案 · {ackStats.ackCount} 条已核对致谢关系 ·{" "}
             {ackStats.coauthorCount} 条共同收录论文关系 · 当前显示 {visibleAckCount}+{visibleCoauthorCount} 条
           </p>
-          <p className="text-xs text-[#8888a0] mt-1">节点大小仅表示抽取到的致谢次数；署名与致谢对象仍在复核，不代表学术影响力。</p>
+          <p className="text-xs text-[#8888a0] mt-1">致谢连线仅显示已核对姓名和主体的记录，其余记录待核实。箭头指向被致谢者；节点大小按已核对论文数计算，不表示学术影响力。</p>
         </div>
       </div>
 
@@ -133,11 +133,13 @@ export default function AckNetworkClient({ graphData, peopleCount }: Props) {
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
             placeholder="搜索人名..."
+            aria-label="搜索致谢网人物"
             className="bg-transparent text-[#e8e8f0] placeholder-[#8888a0] text-sm outline-none w-40"
           />
           {searchQuery && (
             <button
               onClick={() => setSearchQuery("")}
+              aria-label="清空致谢网搜索"
               className="text-[#8888a0] hover:text-[#e8e8f0] text-sm"
             >
               ×
@@ -169,6 +171,7 @@ export default function AckNetworkClient({ graphData, peopleCount }: Props) {
             <span className="text-[#8888a0]">致谢阈值 ≥</span>
             <input
               type="number"
+              aria-label="最低致谢论文数"
               min={1}
               max={10}
               value={minAckWeight}

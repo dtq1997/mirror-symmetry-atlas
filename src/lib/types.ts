@@ -335,6 +335,7 @@ export interface Connection {
   notes?: string;
   derived?: boolean;
   papers?: string[];  // for acknowledgement edges: list of arxiv ids
+  review_status?: "accepted"; // acknowledgement identity and subject reviewed per paper
   /** Legacy bucket names: with/without publication clues, not publication verdicts. */
   coauthored_papers?: {
     published: { id: string; title: string; year: number; doi?: string; journal?: string }[];

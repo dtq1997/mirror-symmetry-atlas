@@ -50,6 +50,7 @@ from concept_references import concept_reference_errors, concept_content_errors
 from problem_content import problem_errors
 from relationship_review import relationship_errors
 from timeline_content import timeline_errors
+from acknowledgement_review import acknowledgement_errors
 
 ROOT = HERE.parent
 PEOPLE_DIR = ROOT / 'data/people'
@@ -396,7 +397,11 @@ def lint(strict_pubs=False, only_slug=None):
         for path in sorted(CONN_DIR.glob('*.yaml')):
             records = yaml.safe_load(path.read_text()) or {}
             for i, edge in enumerate(records.get('edges', [])):
+                if edge.get('type') == 'acknowledgement':
+                    err('connections', f'{path.name}[{i}]: acknowledgement must use the per-paper review ledger')
                 named_edges.append((f'{path.name}[{i}]', edge))
+        for message in acknowledgement_errors(ROOT, people):
+            err('acknowledgements', message)
         # Person fields can also expose a withheld relationship without a graph row.
         declared_mentors = []
         for slug, person in people.items():

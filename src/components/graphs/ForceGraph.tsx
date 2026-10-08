@@ -263,6 +263,8 @@ export default function ForceGraph({
       const widthScaled =
         gLink.type === "coauthor"
           ? Math.max(0.3, Math.min(0.4 + Math.log2(w) * 0.8, 4))
+          : gLink.type === "acknowledgement"
+          ? Math.max(1, Math.min(w * 0.4, 3))
           : Math.max(0.5, Math.min(w * 0.3, 3));
       // Dim weak coauthor edges to reduce clutter; emphasize strong ones
       let alpha = gLink.opacity;
@@ -291,13 +293,13 @@ export default function ForceGraph({
       ctx.stroke();
 
       // A quadratic curve's midpoint tangent follows target minus source.
-      if (["advisor-student", "prerequisite", "leads-to"].includes(gLink.type)) {
+      if (["advisor-student", "prerequisite", "leads-to", "acknowledgement"].includes(gLink.type)) {
         paintArrow(ctx, (sx + 2 * cx + tx) / 4, (sy + 2 * cy + ty) / 4,
           Math.atan2(ty - sy, tx - sx), globalScale);
       }
 
-      // Weight label for coauthor
-      if (gLink.label && gLink.type === "coauthor" && globalScale > 1.2) {
+      // Labels are recorded paper counts, including reviewed acknowledgements.
+      if (gLink.label && ["coauthor", "acknowledgement"].includes(gLink.type) && globalScale > 1.2) {
         const mx = (sx + tx) / 2;
         const my = (sy + ty) / 2;
         const fontSize = Math.max(8 / globalScale, 2);

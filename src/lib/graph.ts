@@ -230,7 +230,7 @@ export function buildAckGraph(
       weight: w,
       color: EDGE_COLORS[c.type],
       dash: EDGE_DASH[c.type],
-      opacity: c.type === "acknowledgement" ? Math.min(0.3 + w * 0.15, 0.85) : 0.6,
+      opacity: c.type === "acknowledgement" ? Math.min(0.6 + w * 0.1, 0.9) : 0.6,
       label: c.type === "acknowledgement" && w > 1 ? `${w}` : undefined,
       data: c,
     });

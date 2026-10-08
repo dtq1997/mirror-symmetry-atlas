@@ -356,7 +356,7 @@ export default async function PersonPage({
           <h2 className="text-lg font-semibold text-[#e8e8f0] mb-3">
             致谢网
             <span className="text-xs text-[#8888a0] font-normal ml-2">
-              从 arXiv 论文致谢段抽取
+              已核对所列论文的姓名与致谢主体；不代表完整致谢记录
             </span>
           </h2>
           <div className="grid md:grid-cols-2 gap-4">

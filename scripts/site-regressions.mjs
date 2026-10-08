@@ -18,6 +18,11 @@ import { sortTimelineEvents } from '../.cache/msa/site-tests/timeline.js';
 import { readFileSync } from 'node:fs';
 import yaml from 'js-yaml';
 
+test('acknowledgement identity, subject, evidence and count guards', () => {
+  const result = spawnSync('python3', ['scripts/test_acknowledgement_review.py'], { encoding: 'utf8' });
+  assert.equal(result.status, 0, result.stdout + result.stderr);
+});
+
 test('timeline sorts month/day within a year while preserving precision, ties and original input', () => {
   const rows = [
     { slug: 'late', date: '1994-11-30' }, { slug: 'year', date: '1994' },

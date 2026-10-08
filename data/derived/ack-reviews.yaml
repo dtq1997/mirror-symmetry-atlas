@@ -1,0 +1,103 @@
+reviewer: Codex
+note: 每条决定绑定所读致谢原文；自动校验不代替人工来源判断。
+reviews:
+- source: ding-yanqiao
+  target: hu-jianxun
+  paper: '1710.03603'
+  status: accepted
+  ack_sha256: 7a1267346b8672120f5c0226f8adb48cdb35b671c1861e17a1197ce77747d39b
+  reviewed_on: '2026-10-08'
+  reviewed_by: Codex
+  quote: The author is particularly grateful to Prof. Jianxun Hu
+  reason: 只确认论文中的致谢，不据此判断导师关系。
+  source_url: https://arxiv.org/html/1710.03603v2
+  identity_note: 作者为Yanqiao Ding，本文及已核对共著1504.07111中的Jianxun Hu、单位和邮箱相互印证；全文明确姓名，未仅用姓氏绑定。
+  subject_note: arXiv当前作者栏与全文均为Yanqiao Ding独著；The author指该作者。
+- source: ding-yanqiao
+  target: hu-jianxun
+  paper: '1902.07486'
+  status: accepted
+  ack_sha256: 38bdab2425374e53a522cc2580b3f4cd8252fae5f77c4a3f172a8753ce9317b3
+  reviewed_on: '2026-10-08'
+  reviewed_by: Codex
+  quote: The author would like to thank Jianxun Hu
+  reason: 只确认论文中的致谢，不据此判断导师关系。
+  source_url: https://arxiv.org/html/1902.07486v1
+  identity_note: 作者为Yanqiao Ding，本文及已核对共著1504.07111中的Jianxun Hu、单位和邮箱相互印证；全文明确姓名，未仅用姓氏绑定。
+  subject_note: arXiv当前作者栏与全文均为Yanqiao Ding独著；The author指该作者。
+- source: cotti
+  target: dubrovin
+  paper: '1608.06868'
+  status: accepted
+  ack_sha256: 9a588168e141410c5291eef4dbe6c113e6a463298aaf8361903c2d2a885d5f55
+  reviewed_on: '2026-10-08'
+  reviewed_by: Codex
+  quote: The author is grateful to Boris Dubrovin
+  reason: 一手全文的明确致谢；只覆盖该篇。
+  source_url: https://arxiv.org/html/1608.06868v2
+  identity_note: Giordano Cotti的SISSA单位及gcotti@sissa.it与作者署名一致；完整姓名及文中引用/共同研究语境相符，逐项人工核对，不由姓名命中自动通过。
+  subject_note: arXiv当前作者栏与全文为Giordano Cotti独著；The author的指代明确。
+- source: cotti
+  target: guzzetti
+  paper: '1608.06868'
+  status: accepted
+  ack_sha256: 9a588168e141410c5291eef4dbe6c113e6a463298aaf8361903c2d2a885d5f55
+  reviewed_on: '2026-10-08'
+  reviewed_by: Codex
+  quote: Boris Dubrovin and Davide Guzzetti for useful discussions and encouragement
+  reason: 一手全文的明确致谢；只覆盖该篇。
+  source_url: https://arxiv.org/html/1608.06868v2
+  identity_note: Giordano Cotti的SISSA单位及gcotti@sissa.it与作者署名一致；完整姓名及文中引用/共同研究语境相符，逐项人工核对，不由姓名命中自动通过。
+  subject_note: arXiv当前作者栏与全文为Giordano Cotti独著；The author的指代明确。
+- source: cotti
+  target: zagier
+  paper: '1608.06868'
+  status: accepted
+  ack_sha256: 9a588168e141410c5291eef4dbe6c113e6a463298aaf8361903c2d2a885d5f55
+  reviewed_on: '2026-10-08'
+  reviewed_by: Codex
+  quote: to Don Zagier for critical comments
+  reason: 一手全文的明确致谢；只覆盖该篇。
+  source_url: https://arxiv.org/html/1608.06868v2
+  identity_note: Giordano Cotti的SISSA单位及gcotti@sissa.it与作者署名一致；完整姓名及文中引用/共同研究语境相符，逐项人工核对，不由姓名命中自动通过。
+  subject_note: arXiv当前作者栏与全文为Giordano Cotti独著；The author的指代明确。
+- source: fan-huijun
+  target: ding-yanqiao
+  paper: '0712.4021'
+  status: rejected
+  ack_sha256: 7c11f844da88d029ac66a56c753aa72224c427b207ac98adcc0838d959279e6d
+  reviewed_on: '2026-10-08'
+  reviewed_by: Codex
+  quote: K.~C.~Chang, Weiyue Ding, and J.~Jost
+  reason: 原文为Weiyue Ding；不能只凭Ding绑定Yanqiao Ding。
+  source_url: https://arxiv.org/abs/0712.4021
+- source: fan-huijun
+  target: chen-zhuo
+  paper: '0712.4021'
+  status: rejected
+  ack_sha256: 7c11f844da88d029ac66a56c753aa72224c427b207ac98adcc0838d959279e6d
+  reviewed_on: '2026-10-08'
+  reviewed_by: Codex
+  quote: He also thanks Bohui Chen
+  reason: 原文为Bohui Chen，并非Zhuo Chen。
+  source_url: https://arxiv.org/abs/0712.4021
+- source: fan-huijun
+  target: zhang-huailiang
+  paper: '0712.4021'
+  status: rejected
+  ack_sha256: 7c11f844da88d029ac66a56c753aa72224c427b207ac98adcc0838d959279e6d
+  reviewed_on: '2026-10-08'
+  reviewed_by: Codex
+  quote: K.~C.~Chang, Weiyue Ding, and J.~Jost
+  reason: 原文K.C.Chang与Huai-Liang Chang姓名不相符；同姓不构成身份。
+  source_url: https://arxiv.org/abs/0712.4021
+- source: fan-huijun
+  target: zhang-huailiang
+  paper: '1107.1290'
+  status: rejected
+  ack_sha256: 50a10b5407fbe112f9b044b8d6d4cd6571ced4f2001c4b923add02ae28ec8d59
+  reviewed_on: '2026-10-08'
+  reviewed_by: Codex
+  quote: Prof. Alice Chang
+  reason: 原文是Alice Chang，不是Huai-Liang Chang。
+  source_url: https://arxiv.org/abs/1107.1290

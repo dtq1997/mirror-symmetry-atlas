@@ -5,8 +5,8 @@ Reads .cache/msa/papers/sources/{arxiv_id}/*.tex by default, writes
 data/derived/raw-acks.jsonl with one JSON per paper:
 {arxiv_id, ack_text, grants: [...], paper_authors: [...]}
 
-paper_authors are slug(s) of YAML-registered authors (based on publications
-index) — used later to know WHO is acknowledging.
+paper_authors are registered bibliography owners, not the complete author list
+or the grammatical subject of a particular acknowledgement sentence.
 """
 
 import os, re, json, yaml, glob, sys
