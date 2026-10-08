@@ -324,13 +324,13 @@ publications:
     sources: [openalex]
     no_arxiv: true
   - id: 'doi:10.1007/978-3-319-66526-9_15'
-    title: 'Three Families of Solutions on $$\mathbb{R}_{&gt;0}$$'
+    title: Three Families of Solutions on $$\mathbb{R}_{>0}$$
     year: 2017
     coauthors: ['Martin A. Guest']
     doi: '10.1007/978-3-319-66526-9_15'
-    journal: 'Lecture notes in mathematics'
+    journal: 'Painlevé III: A Case Study in the Geometry of Meromorphic Connections, LNM 2198 (2017), 151–159'
     openalex_id: W2761498568
-    sources: [openalex]
+    sources: [openalex, manual]
     no_arxiv: true
   - id: 'doi:10.1007/978-3-319-66526-9_5'
     title: 'Useful Formulae: Three 2 × 2 Matrices'
@@ -387,13 +387,13 @@ publications:
     sources: [openalex]
     no_arxiv: true
   - id: 'doi:10.1007/978-3-319-66526-9_18'
-    title: 'Real Solutions of P III (0, 0, 4, −4) on ℝ &gt; 0 $$\mathbb{R}_{&gt;0}$$'
+    title: Real Solutions of P III (0, 0, 4, −4) on $$\mathbb{R}_{>0}$$
     year: 2017
     coauthors: ['Martin A. Guest']
     doi: '10.1007/978-3-319-66526-9_18'
-    journal: 'Lecture notes in mathematics'
+    journal: 'Painlevé III: A Case Study in the Geometry of Meromorphic Connections, LNM 2198 (2017), 181–196'
     openalex_id: W2763592587
-    sources: [openalex]
+    sources: [openalex, manual]
     no_arxiv: true
   - id: 'doi:10.1007/978-3-319-66526-9_14'
     title: 'Symmetries of the Universal Family of Solutions of P III (0, 0, 4, −4)'
@@ -692,6 +692,8 @@ publications:
     sources: [openalex]
     no_arxiv: true
 sources:
+- label: '[Codex] 2026-10-08：Springer原刊目录（第15、18章题名与页码，修正转义及重复公式）'
+  url: https://link.springer.com/book/10.1007/978-3-319-66526-9
 - label: Math Genealogy
   url: https://www.mathgenealogy.org/id.php?id=27291
 - label: OpenAlex

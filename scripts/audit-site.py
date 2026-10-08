@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""[Codex] Audit every exported HTML link; this is not factual verification."""
+"""[Codex] Audit exported HTML links and formula rendering, not factual accuracy."""
 import argparse
 import collections
 import json
@@ -13,9 +13,16 @@ class Document(HTMLParser):
         super().__init__()
         self.links = []
         self.ids = set()
+        self.formula_count = 0
+        self.formula_errors = []
 
     def handle_starttag(self, tag, attrs):
         attrs = dict(attrs)
+        classes = attrs.get('class', '').split()
+        if 'katex' in classes:
+            self.formula_count += 1
+        if 'katex-error' in classes:
+            self.formula_errors.append(attrs.get('title') or 'Unspecified KaTeX error')
         if attrs.get('id'):
             self.ids.add(attrs['id'])
         if tag == 'a' and attrs.get('href'):
@@ -39,6 +46,8 @@ def audit(root, base):
     issues = collections.defaultdict(set)
     count = 0
     for page, document in documents.items():
+        for error in document.formula_errors:
+            issues[('formula-render-error', error)].add(str(page.relative_to(root)))
         for href in document.links:
             count += 1
             url = urlsplit(href)
@@ -63,8 +72,9 @@ def audit(root, base):
             elif url.fragment and target in documents and unquote(url.fragment) not in documents[target].ids:
                 issues[('missing-anchor', href)].add(str(page.relative_to(root)))
     return {
-        'scope': 'Exported HTML links only; not source accuracy or client-only interactions.',
+        'scope': 'Exported HTML links and KaTeX parse errors; not mathematical correctness, source accuracy or client-only interactions.',
         'pages': len(documents), 'links': count,
+        'formula_instances': sum(d.formula_count for d in documents.values()),
         'issues': [{'type': kind, 'target': target, 'pages': sorted(pages)}
                    for (kind, target), pages in sorted(issues.items())],
     }
@@ -83,7 +93,7 @@ def main():
         args.output.parent.mkdir(parents=True, exist_ok=True)
         args.output.write_text(json.dumps(report, ensure_ascii=False, indent=2) + '\n')
     counts = collections.Counter(issue['type'] for issue in report['issues'])
-    print(json.dumps({'pages': report['pages'], 'links': report['links'], 'issue_targets': dict(counts)}, ensure_ascii=False))
+    print(json.dumps({'pages': report['pages'], 'links': report['links'], 'formula_instances': report['formula_instances'], 'issue_targets': dict(counts)}, ensure_ascii=False))
     return 1 if report['issues'] else 0
 
 

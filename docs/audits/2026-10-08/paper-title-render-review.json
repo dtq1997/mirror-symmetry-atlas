@@ -1,0 +1,153 @@
+{
+  "provider": "Codex",
+  "checked_on": "2026-10-08",
+  "scope": "Two publisher chapter titles and book/page metadata, plus rendering on publication/person/news pages. No theorem audit.",
+  "changes": [
+    {
+      "before": {
+        "id": "doi:10.1007/978-3-319-66526-9_15",
+        "title": "Three Families of Solutions on $$\\mathbb{R}_{&gt;0}$$",
+        "year": 2017,
+        "coauthors": [
+          "Martin A. Guest"
+        ],
+        "doi": "10.1007/978-3-319-66526-9_15",
+        "journal": "Lecture notes in mathematics",
+        "openalex_id": "W2761498568",
+        "sources": [
+          "openalex"
+        ],
+        "no_arxiv": true
+      },
+      "after": {
+        "id": "doi:10.1007/978-3-319-66526-9_15",
+        "title": "Three Families of Solutions on $$\\mathbb{R}_{>0}$$",
+        "year": 2017,
+        "coauthors": [
+          "Martin A. Guest"
+        ],
+        "doi": "10.1007/978-3-319-66526-9_15",
+        "journal": "Painlevé III: A Case Study in the Geometry of Meromorphic Connections, LNM 2198 (2017), 151–159",
+        "openalex_id": "W2761498568",
+        "sources": [
+          "openalex",
+          "manual"
+        ],
+        "no_arxiv": true
+      },
+      "source_url": "https://link.springer.com/chapter/10.1007/978-3-319-66526-9_15",
+      "source_sha256": "16cdbe6498a80b6bd354b91815f23a663873b6c0cd257b91b5cd392172fe9a8f",
+      "evidence": {
+        "citation_inbook_title": "Painlevé III: A Case Study in the Geometry of Meromorphic Connections",
+        "citation_title": "Three Families of Solutions on $$\\mathbb{R}_{>0}$$",
+        "citation_publication_date": "2017",
+        "citation_firstpage": "151",
+        "citation_lastpage": "159",
+        "citation_doi": "10.1007/978-3-319-66526-9_15"
+      }
+    },
+    {
+      "before": {
+        "id": "doi:10.1007/978-3-319-66526-9_18",
+        "title": "Real Solutions of P III (0, 0, 4, −4) on ℝ &gt; 0 $$\\mathbb{R}_{&gt;0}$$",
+        "year": 2017,
+        "coauthors": [
+          "Martin A. Guest"
+        ],
+        "doi": "10.1007/978-3-319-66526-9_18",
+        "journal": "Lecture notes in mathematics",
+        "openalex_id": "W2763592587",
+        "sources": [
+          "openalex"
+        ],
+        "no_arxiv": true
+      },
+      "after": {
+        "id": "doi:10.1007/978-3-319-66526-9_18",
+        "title": "Real Solutions of P III (0, 0, 4, −4) on $$\\mathbb{R}_{>0}$$",
+        "year": 2017,
+        "coauthors": [
+          "Martin A. Guest"
+        ],
+        "doi": "10.1007/978-3-319-66526-9_18",
+        "journal": "Painlevé III: A Case Study in the Geometry of Meromorphic Connections, LNM 2198 (2017), 181–196",
+        "openalex_id": "W2763592587",
+        "sources": [
+          "openalex",
+          "manual"
+        ],
+        "no_arxiv": true
+      },
+      "source_url": "https://link.springer.com/chapter/10.1007/978-3-319-66526-9_18",
+      "source_sha256": "df78af46312dbb5e61cb91a1e6a1fa238fbdc42d2f0523978d4c8128d1d6f89a",
+      "evidence": {
+        "citation_inbook_title": "Painlevé III: A Case Study in the Geometry of Meromorphic Connections",
+        "citation_title": "Real Solutions of P III (0, 0, 4, −4) on $$\\mathbb{R}_{>0}$$",
+        "citation_publication_date": "2017",
+        "citation_firstpage": "181",
+        "citation_lastpage": "196",
+        "citation_doi": "10.1007/978-3-319-66526-9_18"
+      }
+    }
+  ],
+  "prior_render_errors": 4,
+  "validation": {
+    "site_regressions": 28,
+    "lint": "passed",
+    "typecheck": "passed",
+    "build": "passed",
+    "export_audit": {
+      "scope": "Exported HTML links and KaTeX parse errors; not mathematical correctness, source accuracy or client-only interactions.",
+      "pages": 283,
+      "links": 22209,
+      "formula_instances": 642,
+      "issues": []
+    },
+    "render_audit_controls": {
+      "negative_control": {
+        "exit": 1,
+        "report": {
+          "pages": 1,
+          "links": 0,
+          "formula_instances": 0,
+          "issue_targets": {
+            "formula-render-error": 1
+          }
+        }
+      },
+      "positive_control": {
+        "exit": 0,
+        "report": {
+          "pages": 1,
+          "links": 0,
+          "formula_instances": 1,
+          "issue_targets": {}
+        }
+      }
+    },
+    "browser": {
+      "mazzocco_mobile": {
+        "width": 390,
+        "scrollWidth": 384,
+        "records": 46,
+        "formula_instances": 5,
+        "parse_errors": 0
+      },
+      "news_mobile": {
+        "width": 390,
+        "scrollWidth": 384,
+        "title_formula_instances": 17,
+        "parse_errors": 0
+      },
+      "catalog_desktop": {
+        "width": 1280,
+        "scrollWidth": 1274,
+        "groups": 1819,
+        "formula_instances": 151,
+        "parse_errors": 0
+      },
+      "console_errors": []
+    },
+    "scope_note": "Rendering and record consistency only; no mathematical correctness claim."
+  }
+}

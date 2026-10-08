@@ -285,3 +285,19 @@ test('catalog selection, person totals and coauthor buckets use the same publica
   assert.equal(edge.coauthored_papers.published.length, 0);
   assert.equal(edge.coauthored_papers.preprint.length, 1);
 });
+
+
+test('paper-title math remains inline inside links, including display delimiters', () => {
+  const source = String.raw`DAHA of type $\check{C_1}C_1$ and $$\mathbb{P}^2$$`;
+  const html = renderMathText(source, { inline: true });
+  assert.equal((html.match(/class="katex"/g) || []).length, 2);
+  assert.doesNotMatch(html, /<div|katex-display|katex-error/);
+  assert.match(html, /DAHA of type/);
+  assert.match(renderMathText('$$x^2$$'), /katex-display/);
+});
+
+test('inline title rendering keeps HTML and TeX links untrusted', () => {
+  const html = renderMathText(String.raw`<script>alert(1)</script> $\href{javascript:alert(2)}{x}$`, { inline: true });
+  assert.match(html, /&lt;script&gt;/);
+  assert.doesNotMatch(html, /<script|<a\s|href="javascript:/);
+});

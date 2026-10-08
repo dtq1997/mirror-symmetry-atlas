@@ -1,3 +1,4 @@
+import MathText from "@/components/shared/MathText";
 import { getAllPeople, getPerson, getAllConnections, getAckMentions } from "@/lib/data";
 import { displayName as nameOf, nameInfo } from "@/lib/name";
 import PersonTimeline from "@/components/person/PersonTimeline";
@@ -234,7 +235,7 @@ export default async function PersonPage({
                                   rel="noopener noreferrer"
                                   className="text-[#a8a8b8] hover:text-[#e8e8f0]"
                                 >
-                                  [{paper.year}] {paper.title}
+                                  [{paper.year}] <MathText inline>{paper.title}</MathText>
                                 </a>
                               </li>
                             );
@@ -334,7 +335,7 @@ export default async function PersonPage({
                                 rel="noopener noreferrer"
                                 className="text-[#a8a8b8] hover:text-[#e8e8f0]"
                               >
-                                [{paper.year}] {paper.title}
+                                [{paper.year}] <MathText inline>{paper.title}</MathText>
                               </a>
                             </li>
                           );
@@ -502,7 +503,7 @@ export default async function PersonPage({
                         rel="noopener noreferrer"
                         className="text-sm text-[#e8e8f0] hover:text-[#6366f1] transition-colors leading-snug"
                       >
-                        {pub.title}
+                        <MathText inline>{pub.title}</MathText>
                       </a>
                       {pub.coauthors && pub.coauthors.length > 0 && (
                         <div className="text-xs text-[#8888a0] mt-1">

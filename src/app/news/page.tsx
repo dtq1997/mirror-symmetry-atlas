@@ -1,3 +1,4 @@
+import MathText from "@/components/shared/MathText";
 import fs from "fs";
 import path from "path";
 import yaml from "js-yaml";
@@ -71,7 +72,7 @@ export default function NewsPage() {
                   </span>
                 </div>
                 <h2 className="text-base font-medium leading-snug mb-2 text-[#e8e8f0]">
-                  {source ? <a href={source} target="_blank" rel="noopener noreferrer" className="hover:text-[#a5b4fc] underline decoration-[#55556b] underline-offset-4">{entry.title}</a> : entry.title}
+                  {source ? <a href={source} target="_blank" rel="noopener noreferrer" className="hover:text-[#a5b4fc] underline decoration-[#55556b] underline-offset-4"><MathText inline>{entry.title}</MathText></a> : <MathText inline>{entry.title}</MathText>}
                 </h2>
                 {!!entry.authors_raw?.length && <p className="text-sm text-[#b8b8cc] mb-3">作者：{entry.authors_raw.join("；")}</p>}
                 {/* No inferred entity links: surnames and shared full names do not prove identity. */}

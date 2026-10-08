@@ -13,13 +13,13 @@ function renderProse(text: string): string {
 }
 
 /** Parse source once: prose formatting must never rewrite KaTeX's HTML/MathML. */
-export function renderMathText(text: string): string {
+export function renderMathText(text: string, options: { inline?: boolean } = {}): string {
   const math = /(?<!\\)(\$\$|\$)(?!\$)([\s\S]*?)(?<!\\)\1(?!\$)/g;
   let output = "";
   let cursor = 0;
   for (const match of text.matchAll(math)) {
     output += renderProse(text.slice(cursor, match.index));
-    const displayMode = match[1] === "$$";
+    const displayMode = match[1] === "$$" && !options.inline;
     const tag = displayMode ? "div" : "span";
     const tex = match[2].trim();
     try {

@@ -1,5 +1,5 @@
 slug: dubrovin
-count: 57
+count: 58
 note: 需要人工核对的候选论文。score 在 10-19 之间。要么补 ORCID 进 identity_profile, 要么明确标 accepted/rejected
 candidates:
 - id: doi:10.1007/bfb0094793
@@ -841,3 +841,23 @@ candidates:
     math_venue: encyclopedia of mathematical physics
   doi: 10.1016/b978-0-323-95703-8.00156-7
   venue: Encyclopedia of Mathematical Physics
+# [Codex] 2026-10-08：追加出处确认的重复记录；先前候选和审查逐条保留。
+- id: openalex:W2128014837
+  title: Monodromy of certain Painlev e-VI transcendents and reection groups
+  year: 2006
+  coauthors:
+  - mazzocco
+  openalex_id: W2128014837
+  sources:
+  - openalex
+  no_arxiv: true
+  review_status: rejected
+  reviewed_by: Codex
+  reviewed_on: '2026-10-08'
+  review_reason: Manchester资料库PDF封面记2000年，正文第一页记math.AG/9806056及两位作者；SISSA记录将同篇Inventiones论文DOI与math/9806056相连。2006是MIMS存档编号年份，不另算一篇论文。
+  replacement_id: math/9806056
+  source_urls:
+  - https://api.openalex.org/works/W2128014837
+  - https://eprints.maths.manchester.ac.uk/142/1/covered/MIMS_ep2006_6.pdf
+  - https://iris.sissa.it/handle/20.500.11767/17270
+  - https://arxiv.org/abs/math/9806056

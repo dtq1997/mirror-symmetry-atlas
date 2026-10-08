@@ -1,5 +1,5 @@
 slug: mazzocco
-count: 11
+count: 14
 note: '[Codex] 2026-10-08：6条已确认同名错挂，4条归属待核实，1条讲座录像移至网上痕迹。保留原记录，不得自动回填论文列表。'
 candidates:
 - id: doi:10.1088/1742-6596/863/1/012026
@@ -792,3 +792,60 @@ candidates:
   source_urls:
   - https://api.datacite.org/dois/10.14288/1.0377037
   - https://www.birs.ca/events/2018/5-day-workshops/18w5078/videos/watch/201809111330-Mazzocco.html
+# [Codex] 2026-10-08：追加出处确认的重复记录；先前候选和审查逐条保留。
+- id: openalex:W2340152047
+  title: Non-Symmetric Basic Hypergeometric Polynomials and Representation Theory
+    for Confluent
+  year: 2014
+  coauthors:
+  - Cherednik Algebras
+  openalex_id: W2340152047
+  sources:
+  - openalex
+  no_arxiv: true
+  review_status: rejected
+  reviewed_by: Codex
+  reviewed_on: '2026-10-08'
+  review_reason: SIGMA期刊页确认完整题名、Marta独著、arXiv和DOI；OpenAlex原记录的PDF地址指向同一arXiv。Cherednik
+    Algebras是题名末尾，不是合作者。
+  replacement_id: '1409.4287'
+  source_urls:
+  - https://api.openalex.org/works/W2340152047
+  - https://sigma-journal.com/2014/116/
+  - https://arxiv.org/abs/1409.4287
+- id: openalex:W2963917450
+  title: 4 ON A POISSON HOMOGENEOUS SPACE OF BILINEAR FORMS WITH A POISSON LIE ACTION
+  year: 2016
+  coauthors:
+  - Leonid Chekhov
+  openalex_id: W2963917450
+  sources:
+  - openalex
+  no_arxiv: true
+  review_status: rejected
+  reviewed_by: Codex
+  reviewed_on: '2026-10-08'
+  review_reason: OpenAlex原记录的PDF地址明确指向1404.0988；arXiv原页确认题名与Chekhov、Mazzocco两位作者。移除重复OCR记录，保留完整arXiv记录。
+  replacement_id: '1404.0988'
+  source_urls:
+  - https://api.openalex.org/works/W2963917450
+  - https://arxiv.org/abs/1404.0988
+- id: openalex:W2128014837
+  title: Monodromy of certain Painlev e-VI transcendents and reection groups
+  year: 2006
+  coauthors:
+  - dubrovin
+  openalex_id: W2128014837
+  sources:
+  - openalex
+  no_arxiv: true
+  review_status: rejected
+  reviewed_by: Codex
+  reviewed_on: '2026-10-08'
+  review_reason: Manchester资料库PDF封面记2000年，正文第一页记math.AG/9806056及两位作者；SISSA记录将同篇Inventiones论文DOI与math/9806056相连。2006是MIMS存档编号年份，不另算一篇论文。
+  replacement_id: math/9806056
+  source_urls:
+  - https://api.openalex.org/works/W2128014837
+  - https://eprints.maths.manchester.ac.uk/142/1/covered/MIMS_ep2006_6.pdf
+  - https://iris.sissa.it/handle/20.500.11767/17270
+  - https://arxiv.org/abs/math/9806056

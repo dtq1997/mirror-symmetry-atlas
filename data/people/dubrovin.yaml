@@ -65,6 +65,7 @@ identity_profile:
   coauthor_circle_extended_names: ['Di Yang', 'Don Zagier', 'Si Li']
   research_keywords: [frobenius, integrable, isomonodromy, painleve, topological]
   known_arxiv_ids:
+    - 'math/9806056'
     - '2110.06655'
     - '2101.10924'
     - '1905.08106'
@@ -530,13 +531,6 @@ publications:
     primary_category: math.DG
     openalex_id: W2103255893
     sources: [arxiv, openalex]
-  - id: 'openalex:W2128014837'
-    title: 'Monodromy of certain Painlev e-VI transcendents and reection groups'
-    year: 2006
-    coauthors: [mazzocco]
-    openalex_id: W2128014837
-    sources: [openalex]
-    no_arxiv: true
   - id: 'doi:10.4171/020-1/8'
     title: 'On the reductions and classical solutions of the Schlesinger equations'
     year: 2006
@@ -617,15 +611,15 @@ publications:
     primary_category: math.DG
     openalex_id: W1634975405
     sources: [arxiv, openalex]
-  - id: 'doi:10.1007/pl00005790'
+  - id: 'math/9806056'
     title: 'Monodromy of certain Painlevé–VI transcendents and reflection groups'
     year: 2000
-    coauthors: ['M. Mazzocco']
+    coauthors: [mazzocco]
     doi: '10.1007/pl00005790'
-    journal: 'Inventiones mathematicae'
+    journal: 'Inventiones mathematicae 141 (2000), 55–147'
     openalex_id: W2002372149
-    sources: [openalex]
-    no_arxiv: true
+    primary_category: math.AG
+    sources: [openalex, arxiv, crossref, manual]
   - id: '9808048'
     title: 'Frobenius Manifolds And Virasoro Constraints'
     year: 1998
@@ -713,6 +707,8 @@ publications:
     primary_category: hep-th
     sources: [arxiv]
 sources:
+- label: '[Codex] 2026-10-08：Monodromy 论文的SISSA书目记录（期刊、作者、DOI与arXiv对应）'
+  url: https://iris.sissa.it/handle/20.500.11767/17270
 - label: Math Genealogy
   url: https://www.mathgenealogy.org/id.php?id=83136
 - label: OpenAlex

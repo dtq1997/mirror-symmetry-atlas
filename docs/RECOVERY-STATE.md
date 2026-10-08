@@ -173,3 +173,13 @@ Mazzocco的10.14288/1.0377037由DataCite明确登记为MovingImage/Audiovisual�
 [Codex] 第八批已上线：commit `98b75fd452d18e87b5387d8a256d3f9ded1afddd`，Actions `37705478583` success。6个线上页面HTTP核对及Mazzocco的curl检查成功；浏览器390px宽度384无溢出，标题锚点72px、49/40/9、arXiv资料库标签、视频从论文移至网上痕迹均确认，error日志为空。证据 `batch-eight-live-verification.json`，截图 `publication-metadata-live-mobile.jpg`。临时预览已关闭，仅保留线上结果页。
 
 下一轮先继续精确重复/作者错误：`mazzocco-duplicate-source-leads.json` 保存当前OpenAlex位置字段、来源哈希与SIGMA/arXiv一手复核。W2340152047原始来源直接指1409.4287及SIGMA2014/116，错把题名末尾Cherednik Algebras当作者；W2963917450原始来源指1404.0988。现有公开行尚未改动，先核原记录与来源，再合并归属并完整存档防回填。W2128014837只有Manchester PDF来源，需要读原文；Boalch W4307615951 API404不能推断幻灯片不存在。接着修论文题名TeX源码显示、俄文作者重复/版本、52题名差异/227旧编号，以及概念、机构、开放问题等全内容审计。Goal仍active，不要重新建Goal或返回academic-formula-workbench。
+
+
+[Codex] 2026-10-08 第九批本地验收完成，待发布：
+
+- 论文总目录、人物论文/展开合著列表、新闻标题现在使用安全的行内公式渲染；标题中双美元也不产生块级标签。默认正文显示公式不变，HTML/TeX链接仍不受信任。28项网站回归通过。
+- Mazzocco的W2340152047、W2963917450和W2128014837由来源确认是已有记录的OCR/资料库重复；最后一条也在Dubrovin档案，合计移出4行，原行保留在审核池并按OA标识阻止回填。Cherednik Algebras是假合作者（题名末尾）。保留的Monodromy DOI记录补入完整math/9806056和期刊卷页，两位作者互用真实slug。Manchester封面记2000年、正文记1998预印本；2006是MIMS存档号，不能另算作品年份。
+- MathNet原刊作者行修正rm9331的本人/重复合作者；俄文原版与英文译版仍保留不同DOI，不按相似题名强制合并。完整前后数据与来源见publication-duplicates-review.json。Mazzocco46条（40/6），Dubrovin64条（58/6），全库2223原始行/1819目录组；累计身份纠错数仍11确认+5隔离，另1录像和本批4重复，不能混算同名错挂。
+- 全站公式扫描发现Hertling两个Springer章节标题的HTML转义和重复公式；据原刊citation_title及目录修正，补原书和页码，其他字段未动。详见paper-title-render-review.json。构建审计新增KaTeX解析失败拦截，错误公式负控exit1、正常/转义文字正控exit0。最终283HTML/22209链接/642公式实例/0问题；只验证显示，不验证数学。lint/typecheck/build通过，data lint仍0errors/74warnings。
+- 浏览器390px检查Mazzocco46条、5处公式及新闻17处标题公式，1280px目录1819组/151处公式；均无页面横向溢出、无解析/console错误。
+- 下一步已有一手确认线索：hep-th/9611200原页作者Boris Dubrovin、Youjin Zhang，期刊Compositio111(1998)167–219，两人当前旧9611200行却写arXiv api core；下批先完整读Zhang档案再修完整编号/作者，并找重复DOI。其余52题名差异、227缺archive旧号、郭帅/邬龙挺候选、概念/机构/会议/开放问题仍待审。Hertling同一本书和章节都计为记录，后续需要明确作品类型/计数口径，不能宣传为独立研究论文篇数。

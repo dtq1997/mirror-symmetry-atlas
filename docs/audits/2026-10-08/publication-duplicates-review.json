@@ -1,0 +1,297 @@
+{
+  "provider": "Codex",
+  "checked_on": "2026-10-08",
+  "scope": "Source-backed duplicate metadata and author-list corrections; not a theorem audit or a certification of all remaining publications.",
+  "changes": [
+    {
+      "owner": "mazzocco",
+      "action": "merge-source-confirmed-duplicate",
+      "before": {
+        "id": "openalex:W2340152047",
+        "title": "Non-Symmetric Basic Hypergeometric Polynomials and Representation Theory for Confluent",
+        "year": 2014,
+        "coauthors": [
+          "Cherednik Algebras"
+        ],
+        "openalex_id": "W2340152047",
+        "sources": [
+          "openalex"
+        ],
+        "no_arxiv": true
+      },
+      "retained_id": "1409.4287",
+      "reason": "SIGMA期刊页确认完整题名、Marta独著、arXiv和DOI；OpenAlex原记录的PDF地址指向同一arXiv。Cherednik Algebras是题名末尾，不是合作者。",
+      "source_urls": [
+        "https://api.openalex.org/works/W2340152047",
+        "https://sigma-journal.com/2014/116/",
+        "https://arxiv.org/abs/1409.4287"
+      ]
+    },
+    {
+      "owner": "mazzocco",
+      "action": "merge-source-confirmed-duplicate",
+      "before": {
+        "id": "openalex:W2963917450",
+        "title": "4 ON A POISSON HOMOGENEOUS SPACE OF BILINEAR FORMS WITH A POISSON LIE ACTION",
+        "year": 2016,
+        "coauthors": [
+          "Leonid Chekhov"
+        ],
+        "openalex_id": "W2963917450",
+        "sources": [
+          "openalex"
+        ],
+        "no_arxiv": true
+      },
+      "retained_id": "1404.0988",
+      "reason": "OpenAlex原记录的PDF地址明确指向1404.0988；arXiv原页确认题名与Chekhov、Mazzocco两位作者。移除重复OCR记录，保留完整arXiv记录。",
+      "source_urls": [
+        "https://api.openalex.org/works/W2963917450",
+        "https://arxiv.org/abs/1404.0988"
+      ]
+    },
+    {
+      "owner": "mazzocco",
+      "action": "merge-source-confirmed-duplicate",
+      "before": {
+        "id": "openalex:W2128014837",
+        "title": "Monodromy of certain Painlev e-VI transcendents and reection groups",
+        "year": 2006,
+        "coauthors": [
+          "dubrovin"
+        ],
+        "openalex_id": "W2128014837",
+        "sources": [
+          "openalex"
+        ],
+        "no_arxiv": true
+      },
+      "retained_id": "math/9806056",
+      "reason": "Manchester资料库PDF封面记2000年，正文第一页记math.AG/9806056及两位作者；SISSA记录将同篇Inventiones论文DOI与math/9806056相连。2006是MIMS存档编号年份，不另算一篇论文。",
+      "source_urls": [
+        "https://api.openalex.org/works/W2128014837",
+        "https://eprints.maths.manchester.ac.uk/142/1/covered/MIMS_ep2006_6.pdf",
+        "https://iris.sissa.it/handle/20.500.11767/17270",
+        "https://arxiv.org/abs/math/9806056"
+      ]
+    },
+    {
+      "owner": "mazzocco",
+      "action": "restore-complete-arxiv-identity-and-citation",
+      "before": {
+        "id": "doi:10.1007/pl00005790",
+        "title": "Monodromy of certain Painlevé–VI transcendents and reflection groups",
+        "year": 2000,
+        "coauthors": [
+          "B. Dubrovin"
+        ],
+        "doi": "10.1007/pl00005790",
+        "journal": "Inventiones mathematicae",
+        "openalex_id": "W2002372149",
+        "sources": [
+          "openalex"
+        ],
+        "no_arxiv": true
+      },
+      "after": {
+        "id": "math/9806056",
+        "title": "Monodromy of certain Painlevé–VI transcendents and reflection groups",
+        "year": 2000,
+        "coauthors": [
+          "dubrovin"
+        ],
+        "doi": "10.1007/pl00005790",
+        "journal": "Inventiones mathematicae 141 (2000), 55–147",
+        "openalex_id": "W2002372149",
+        "primary_category": "math.AG",
+        "sources": [
+          "openalex",
+          "arxiv",
+          "crossref",
+          "manual"
+        ]
+      },
+      "source_urls": [
+        "https://eprints.maths.manchester.ac.uk/142/1/covered/MIMS_ep2006_6.pdf",
+        "https://iris.sissa.it/handle/20.500.11767/17270",
+        "https://arxiv.org/abs/math/9806056"
+      ],
+      "year_note": "Retain existing 2000 journal publication year. Preprint first submitted 1998-06-10; 2006 MIMS deposit is not publication year."
+    },
+    {
+      "owner": "mazzocco",
+      "action": "correct-duplicated-authors-and-self-coauthor",
+      "before": {
+        "id": "doi:10.4213/rm9331",
+        "title": "Орбифолдные римановы поверхности: пространства Тейхмюллера и алгебры геодезических функций",
+        "year": 2009,
+        "coauthors": [
+          "Марта Маззокко",
+          "Леонид Олегович Чехов",
+          "Leonid Olegovich Chekhov",
+          "Леонид Олегович Чехов",
+          "Leonid Olegovich Chekhov",
+          "Леонид Олегович Чехов",
+          "Leonid Olegovich Chekhov"
+        ],
+        "doi": "10.4213/rm9331",
+        "journal": "Успехи математических наук",
+        "openalex_id": "W2325245736",
+        "sources": [
+          "openalex"
+        ],
+        "no_arxiv": true
+      },
+      "after": {
+        "id": "doi:10.4213/rm9331",
+        "title": "Орбифолдные римановы поверхности: пространства Тейхмюллера и алгебры геодезических функций",
+        "year": 2009,
+        "coauthors": [
+          "Л. О. Чехов"
+        ],
+        "doi": "10.4213/rm9331",
+        "journal": "Успехи математических наук 64:6(390) (2009), 117–168",
+        "openalex_id": "W2325245736",
+        "sources": [
+          "openalex",
+          "manual"
+        ],
+        "no_arxiv": true
+      },
+      "source_urls": [
+        "https://www.mathnet.ru/php/archive.phtml?jrnid=rm&option_lang=rus&paperid=9331&wshow=paper"
+      ],
+      "source_access": "Primary MathNet indexed full page; direct page fetch timed out. Indexed author line and AMSBIB both name exactly M. Mazzocco and L. O. Chekhov.",
+      "version_note": "Russian DOI 10.4213/rm9331 and English translation DOI 10.1070/RM2009v064n06ABEH004653 retained separately. Catalog groups are identifier groups, not a claim of distinct intellectual works."
+    },
+    {
+      "owner": "dubrovin",
+      "action": "merge-source-confirmed-duplicate",
+      "before": {
+        "id": "openalex:W2128014837",
+        "title": "Monodromy of certain Painlev e-VI transcendents and reection groups",
+        "year": 2006,
+        "coauthors": [
+          "mazzocco"
+        ],
+        "openalex_id": "W2128014837",
+        "sources": [
+          "openalex"
+        ],
+        "no_arxiv": true
+      },
+      "retained_id": "math/9806056",
+      "reason": "Manchester资料库PDF封面记2000年，正文第一页记math.AG/9806056及两位作者；SISSA记录将同篇Inventiones论文DOI与math/9806056相连。2006是MIMS存档编号年份，不另算一篇论文。",
+      "source_urls": [
+        "https://api.openalex.org/works/W2128014837",
+        "https://eprints.maths.manchester.ac.uk/142/1/covered/MIMS_ep2006_6.pdf",
+        "https://iris.sissa.it/handle/20.500.11767/17270",
+        "https://arxiv.org/abs/math/9806056"
+      ]
+    },
+    {
+      "owner": "dubrovin",
+      "action": "restore-complete-arxiv-identity-and-citation",
+      "before": {
+        "id": "doi:10.1007/pl00005790",
+        "title": "Monodromy of certain Painlevé–VI transcendents and reflection groups",
+        "year": 2000,
+        "coauthors": [
+          "M. Mazzocco"
+        ],
+        "doi": "10.1007/pl00005790",
+        "journal": "Inventiones mathematicae",
+        "openalex_id": "W2002372149",
+        "sources": [
+          "openalex"
+        ],
+        "no_arxiv": true
+      },
+      "after": {
+        "id": "math/9806056",
+        "title": "Monodromy of certain Painlevé–VI transcendents and reflection groups",
+        "year": 2000,
+        "coauthors": [
+          "mazzocco"
+        ],
+        "doi": "10.1007/pl00005790",
+        "journal": "Inventiones mathematicae 141 (2000), 55–147",
+        "openalex_id": "W2002372149",
+        "primary_category": "math.AG",
+        "sources": [
+          "openalex",
+          "arxiv",
+          "crossref",
+          "manual"
+        ]
+      },
+      "source_urls": [
+        "https://eprints.maths.manchester.ac.uk/142/1/covered/MIMS_ep2006_6.pdf",
+        "https://iris.sissa.it/handle/20.500.11767/17270",
+        "https://arxiv.org/abs/math/9806056"
+      ],
+      "year_note": "Retain existing 2000 journal publication year. Preprint first submitted 1998-06-10; 2006 MIMS deposit is not publication year."
+    }
+  ],
+  "source_fetches": [
+    {
+      "file": ".cache/msa/site-recovery/mims-monodromy.pdf",
+      "url": "https://eprints.maths.manchester.ac.uk/142/1/covered/MIMS_ep2006_6.pdf",
+      "final_url": "https://eprints.maths.manchester.ac.uk/142/1/covered/MIMS_ep2006_6.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "sha256": "daa95f141f682aac2874fc9ec4478bcbe28b70f76fea4a5ddb7470d38298b563"
+    },
+    {
+      "url": "https://doi.org/10.4213/rm9331",
+      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+    },
+    {
+      "url": "https://doi.org/10.4213/rm9802",
+      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+    },
+    {
+      "file": ".cache/msa/site-recovery/monodromy-crossref.json",
+      "url": "https://api.crossref.org/works/10.1007/pl00005790",
+      "final_url": "https://api.crossref.org/works/10.1007/pl00005790",
+      "status": 200,
+      "content_type": "application/json",
+      "sha256": "fa032ee363925d8a6491931288648f32259bfb3cc3e96c47933c2e30b3172bcd"
+    }
+  ],
+  "counts": {
+    "mazzocco": {
+      "before": 49,
+      "after": 46,
+      "review_before": 11,
+      "review_after": 14
+    },
+    "dubrovin": {
+      "before": 65,
+      "after": 64,
+      "review_before": 57,
+      "review_after": 58
+    }
+  },
+  "limitations": [
+    "Other publications and biographies remain under audit.",
+    "Russian/English translation pairs are preserved, not silently merged solely by title.",
+    "Primary-source metadata establishes these record identities; no mathematical statement has been verified here."
+  ],
+  "review_gate_validation": {
+    "raw_publications": 2223,
+    "checks": [
+      {
+        "owner": "mazzocco",
+        "retained_allowed": 46,
+        "removed_source_ids_blocked": 3
+      },
+      {
+        "owner": "dubrovin",
+        "retained_allowed": 64,
+        "removed_source_ids_blocked": 1
+      }
+    ]
+  },
+  "catalog_after": 1819
+}

@@ -1,3 +1,4 @@
+import MathText from "@/components/shared/MathText";
 import { getAllPeople, getAllPapers } from "@/lib/data";
 import Link from "@/components/shared/AtlasLink";
 import { displayName } from "@/lib/name";
@@ -54,7 +55,7 @@ export default function PapersPage() {
                         rel="noopener noreferrer"
                         className="text-sm text-[#e8e8f0] hover:text-[#6366f1] transition-colors leading-snug"
                       >
-                        {pub.title}
+                        <MathText inline>{pub.title}</MathText>
                       </a>
                       <PublicationMetadata paper={pub} />
                       <div className="flex flex-wrap items-center gap-1 mt-1">
@@ -127,11 +128,11 @@ export default function PapersPage() {
                           rel="noopener noreferrer"
                           className="text-sm text-[#e8e8f0] hover:text-[#6366f1] transition-colors"
                         >
-                          {paper.title}
+                          <MathText inline>{paper.title}</MathText>
                         </a>
                       ) : (
                         <span className="text-sm text-[#e8e8f0]">
-                          {paper.title}
+                          <MathText inline>{paper.title}</MathText>
                         </span>
                       )}
                       <div className="text-xs text-[#8888a0] mt-1">
