@@ -8,7 +8,7 @@
     "batch_twenty": "All 13 existing timeline records now have primary sources and explicit date/scope notes; tt-star origin and conservative introduction corrected. Hu Chuangqiang dated biography and 15 author lists reviewed; one wrong coauthor binding fixed, degree/BIMSA employment boundaries remain unverified.",
     "batch_twenty_one": "Coauthor incompatibility inventory: 2404 fields in 1555 rows, 7 leads; 2 wrong Xu Xu bindings corrected, 3 historically valid coauthors retained in Rao version notes while current metadata updated, 2 Grimstrup full-name differences retained. Nest journal I corrected. 653 rows outside selected snapshot remain uncovered.",
     "batch_twenty_two": "Paper catalog now supports bilingual/title/full-ID queries, combined owner/year/publication-clue filters and 50-record progressive rendering. 1808 groups/2208 rows and all 326 YAML files unchanged. 55 regressions plus desktop/mobile public interactions verified.",
-    "batch_twenty_three": "Ding: 1 confirmed wrong-owner and 2 pending-ownership rows moved to review pool; 2 preprint/journal pairs merged; wrong Yiwen Ding author link, overstated DYZ scope and JLMS year corrected. Early education and adviser remain pending. Local checks passed; live verification pending."
+    "batch_twenty_three": "Ding: 1 confirmed wrong-owner and 2 pending-ownership rows moved to review pool; 2 preprint/journal pairs merged; wrong Yiwen Ding author link, overstated DYZ scope and JLMS year corrected. Early education and adviser remain pending. Six public pages and actual 608px/390px browser checks passed; Actions 37733967538 succeeded for 5c5e792. Pending adviser has a restoration guard; coauthorship and documented institutional overlap remain separate."
   },
   "priority_leads": [
     {
@@ -16,7 +16,7 @@
         "acknowledgement identity",
         "person Chinese name"
       ],
-      "issue": "人物页验收发现0712.4021致谢链把Weiyue Ding连到ding-yanqiao，把Bohui Chen可能连到chen-zhuo；原TeX致谢段554–573已读，下一步当前源复核、检查提取/匹配根因及同类记录，保留原文。fan-huijun显示范辉军，中文姓名亦应回学校官方主页核查。当前尚未修改这些字段，不认证致谢网。",
+      "issue": "0712.4021原文致谢Weiyue Ding、Bohui Chen、K. C. Chang，网站分别连到丁岩峭、陈酌、張懷良；只读复现发现三者均未命中全名或首字母，只因本地注册表姓氏唯一而命中surname-only分支。该规则必须优先修复并扫描所有致谢关系；还须区分文中the first author等致谢主体。范辉军中文名已获武汉大学官方报道支持，保留，不凭近似记忆改名。",
       "entry_files": [
         "data/derived/acknowledgements.yaml",
         "data/derived/raw-acks.jsonl",
@@ -25,7 +25,40 @@
       ],
       "status": "priority-source-lead",
       "local_source": ".cache/msa/papers/sources/0712.4021/FJR-WEMSQS.tex",
-      "source_url": "https://arxiv.org/abs/0712.4021"
+      "source_url": "https://arxiv.org/abs/0712.4021",
+      "matching_probe": {
+        "source": "scripts/match-acks-to-people.py",
+        "mode": "read-only import; main not called; no derived data changed",
+        "matches": [
+          {
+            "target": "ding-yanqiao",
+            "full": false,
+            "initial": false,
+            "surname_only": true
+          },
+          {
+            "target": "chen-zhuo",
+            "full": false,
+            "initial": false,
+            "surname_only": true
+          },
+          {
+            "target": "zhang-huailiang",
+            "full": false,
+            "initial": false,
+            "surname_only": true
+          }
+        ]
+      },
+      "name_check": {
+        "status": "retain",
+        "name": "范辉军",
+        "source": "https://news.whu.edu.cn/info/1015/470797.htm",
+        "note": "官方2024-11-19聘任仪式报道全文可读，明确此名及FJRW工作；不据此认证现在全部职务或其他履历。"
+      },
+      "additional_biography_lead": "同一官方报道列2017国家自然科学奖二等奖，人物旧notes写2016，需回奖项公告核对。",
+      "tex_sha256": "2ee9e49e273e2fc5295d57655b3d5f235800cd6e409f65f1ca2070197dd9a5c1",
+      "source_version": "Current arXiv abstract page read: latest v4, 2012-07-26. Cached TeX acknowledgement read; fresh source hash comparison remains to do."
     },
     {
       "content_types": [

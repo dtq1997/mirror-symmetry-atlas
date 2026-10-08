@@ -1,0 +1,20 @@
+# [Codex] Withheld claim; coauthorship and acknowledgements do not prove advisership.
+candidates:
+- record:
+    source: hu-jianxun
+    target: ding-yanqiao
+    type: advisor-student
+    year: 2016
+    institution: sun-yat-sen
+    notes: 中山大学博士 2013-2016，博士期间合作 Welschinger 不变量 2 篇
+  original_file: data/connections/advisor-student.yaml
+  review_status: needs-review
+  reviewed_on: '2026-10-08'
+  reviewed_by: Codex
+  reason: 原依据为合著；当前本人简历及两份论文致谢未明确博士导师。待直接来源核实，不是否定师承；保留有独立依据的合著及2015年机构共署关系。
+  sources:
+  - https://www5.zzu.edu.cn/math/info/1179/4671.htm
+  - https://arxiv.org/abs/1504.07111
+  - https://arxiv.org/abs/1710.03603
+  - https://arxiv.org/abs/1902.07486
+  audit: docs/audits/2026-10-08/ding-publications-and-biography-review.json

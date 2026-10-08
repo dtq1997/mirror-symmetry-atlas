@@ -2,17 +2,17 @@
 
 [Codex] 2026-10-08。Goal **active**，原目标见 `RECOVERY-PLAN.md`。这不是已完成的全库事实认证。
 
-## 当前恢复入口（2026-10-08，第二十三批待发布）
+## 当前恢复入口（2026-10-08，第二十三批已上线）
 
 [Codex] Goal仍active。以下是当前摘要；后面的早期“待发布/尚未恢复”是历史记录，不代表现在。
 
-- 第二十三批本地验收完成、待发布：丁岩峭15→10条，1错挂移出/2归属待核隔离/2重复合并；错误arXiv作者主页、JLMS年份、DYZ“直接回答”夸大措辞已改。导师、早期学历与职称没有当前直接依据，保留待核，不作否定结论。机构说明和关系图同步。55网站回归+8审查保护测试；0errors/73warnings；287HTML/16140链接/555公式实例，0问题；桌面和手机验收完成。报告ding-publications-and-biography-review.json。
+- 第二十三批已上线并验收：丁岩峭15→10条，1错挂移出/2归属待核隔离/2重复合并；错误arXiv作者主页、JLMS年份、DYZ“直接回答”夸大措辞已改。导师、早期学历与职称没有当前直接依据，保留待核，不作否定结论。机构说明和关系图同步。55网站回归+8审查保护测试；0errors/73warnings；287HTML/16140链接/555公式实例，0问题；桌面和手机验收完成。报告ding-publications-and-biography-review.json。
 
 - 第二十二批已上线并公开核验：论文目录加入中英文/题名/完整编号检索、收录人物/年份/出版线索组合筛选及每次50条渐进展示。1808组、2208原始行与326份YAML均未改变。55项回归；全目录1808题名/2934编号查询另行覆盖；静态首屏减少后导出为287HTML/16141链接/556公式实例，0问题。本地1280桌面/390×844手机及公开1280×800桌面/390×844手机实际检查、键盘/空结果/重置/100条增量检查通过；详见catalog-usability-review.json与batch-twenty-two-preview-verification.json、batch-twenty-two-live-verification.json。此项不认证论文归属或数据真值。
-- 原网站已发布二十二批修复。最近公开内容 commit `ed6acad79c2f7586bc26970dbdc0e05deeb5c4e3`；Actions `37731404888` success，4个公开页面内容核对通过；线上英文姓名/四条件筛选/完整arXiv版本号实际操作通过，无横向溢出或console error。后续报告提交带skip ci，公开资产仍以上述commit为准。
-- 当前96人物、58主概念与3别名入口（61份原始记录）、107主机构与8别名入口（115份原始记录）、3开放问题；人物原始论文2203行，目录1803组（包括书籍/章节及译版，不等于独立研究论文总数）。287HTML/16141站内链接/556公式实例（导出首屏口径；全部1803条题名及编号另有完整测试），未检出坏目标或KaTeX解析错误；data lint 0errors/73warnings；55项网站回归及CI全部检查通过。这不是全库事实或数学认证。
+- 原网站已发布二十三批修复。最近公开内容 commit `5c5e792f78d9572e222b0b097c3807589fc4702c`；Actions `37733967538` success，6个公开页面内容核对通过；实际608px与390px公开人物页无横向溢出或console error。后续报告提交带skip ci，公开资产仍以上述commit为准。
+- 当前96人物、58主概念与3别名入口（61份原始记录）、107主机构与8别名入口（115份原始记录）、3开放问题；人物原始论文2203行，目录1803组（包括书籍/章节及译版，不等于独立研究论文总数）。287HTML/16140站内链接/555公式实例（导出首屏口径；全部1803条题名及编号另有完整测试），未检出坏目标或KaTeX解析错误；data lint 0errors/73warnings；55项网站回归及CI全部检查通过。这不是全库事实或数学认证。
 - 新闻链与定时部署已恢复，72篇新闻在线；作者保留原始署名，不按姓氏猜身份。1237个完整arXiv当前元数据已取回，但并非全部归属已核实。
-- 累计14条确认错挂、7条待核实归属已移出，1录像转网上痕迹，另23条来源确认的重复已合并。原始记录及来源分别保存在审核池或具名审计报告；身份排除受防回填检查保护，合并的有效DOI不能加入拒绝池。刘思齐41条、Mazzocco46条、Dubrovin64条、陈酌35条（27有出版线索/8待补）。部分履历/论文修正不代表整个人物已核。
+- 累计15条确认错挂、9条待核实归属已移出，1录像转网上痕迹，另25条来源确认的重复已合并。原始记录及来源分别保存在审核池或具名审计报告；身份排除受防回填检查保护，合并的有效DOI不能加入拒绝池。刘思齐41条、Mazzocco46条、Dubrovin64条、陈酌35条（27有出版线索/8待补）。部分履历/论文修正不代表整个人物已核。
 - 图谱空按钮、共享数据突变、布局持续散开、手机侧栏/搜索、公式跨行渲染已修；年份筛选是累计有日期记录，机构筛选是历史履历关联，不猜现职。小屏全图仍可能局部标签重叠，可搜索放大。
 - 第八批统一出版线索口径；第九批修论文/新闻行内公式、重复与Hertling原刊标题；第十批修 Weyl 第一篇/续篇串接、1604.07123与1809.08806错题名，合并两组预印本/期刊重复。详见identifier-title-corrections.json、batch-ten-publication-counts.json、batch-ten-live-verification.json。Weyl续篇真实出版线索仍待补，不能说未发表。
 - 第十一批已上线：按CV修正Fang学历/任职/资助年份，补两篇2026年新作到三个作者的四行记录；会议邀请名单补Nest至18人，移除履历末项推断参会单位并展示官方来源。Fang24(18/6)、Liu61(47/14)、Zong24(15/9)，括号为出版线索/待补线索。见 profiles-new-papers-and-conference-review.json 与 batch-eleven-live-verification.json。
@@ -27,11 +27,11 @@
 - 第十九批已上线：八组机构别名统一档案/列表/历史关联人数/人物图筛选，旧115网址保留；陈酌3确认错挂与1待核隔离，两篇数论保留，官方学历/任职月份/现职/主页修订。河南大学与兰州大学两处旧推断同步撤下。见chen-zhuo-identity-and-career-review.json、institution-alias-source-review.json、batch-nineteen-live-verification.json。机构名称核对不认证旧名单、成立年或全部传记。
 - 第二十批已上线：全部13条时间线核对日期、出处与陈述范围；tt*概念年份改为1991，首届Dubrovin奖章补Buryak共同得主。胡创强现职按中大/河北师大官方资料修订，博士与BIMSA任职边界仍未知；2604.04124的Yixuan Ou-Yang错绑徐旭已纠正。核对15篇当前作者名单不等于15篇身份全部认证。见timeline-primary-source-review.json、hu-chuangqiang-biography-and-coauthor-review.json、batch-twenty-live-verification.json。
 - 第二十一批已上线：2处Jianghao Xu错绑徐旭已纠正并清理身份圈；饶胜2407.02022按v3更新题名/独著，v1/v2三个历史合作者有一手依据，明确保留且不判错挂；Grimstrup的2处全名差异经同DOI机构记录确认而保留；Nest的I篇刊名纠正。7处自动姓名差异全部有逐条处置，兼容姓名不产生身份认证，653条仍未被所选arXiv快照覆盖。未移出论文、未新增归属拒绝；1808组/2208行不变。见coauthor-name-source-leads.json、coauthor-versions-and-venue-review.json、batch-twenty-one-live-verification.json。
-- 下一步优先致谢身份核查：0712.4021原文Weiyue Ding/Bohui Chen与网站人物绑定可能错误，并核对fan-huijun中文名；入口next-content-and-biography-leads.json。随后修梁乃聪/李勤题名实体转义，接杜承勇书目、历史机构、其余人物/关系核查。丁岩峭剩余身份/履历待核已单列。
+- 下一步优先致谢身份与主体核查：0712.4021原文Weiyue Ding/Bohui Chen/K.C.Chang被同姓规则错绑到丁岩峭/陈酌/张怀亮，且脚本把各作者专属致谢分给全部作者。范辉军中文名已由武汉大学官方新闻确认，不能凭记忆改名；入口next-content-and-biography-leads.json。随后修梁乃聪/李勤题名实体转义，接杜承勇书目、历史机构、其余人物/关系核查。丁岩峭剩余身份/履历待核已单列。
 - 全内容待办仍包括：人物公开叙述/履历/师生关系，Hertling整书/章节计数，58主概念的定义、年代、关系及引用，107主机构、会议/3开放问题的一手来源及时间线新增覆盖，其余页面的检索与可访问性。必须继续覆盖这些类型，不能把论文元数据清理当全站完成。
 - content-inventory.json是第一批未核实基线，旧数量/全pending不覆盖后续分项证据。当前覆盖以具名审计的具体字段为准。
 - 不运行旧validate-publications.py --apply / detect-id-title-mismatch.py --write；OpenAlex v2仍有HTTP/缓存/评分风险，不能无人审查全库写入。
-- 继续只在本仓库；先查git状态，再沿此Goal推进。不要回academic-formula-workbench，不启动无关数学campaign。本批预览PID6138已核对命令与端口并关闭，临时tab17关闭，viewport覆盖已清除；保留tab1线上论文目录。
+- 继续只在本仓库；先查git状态，再沿此Goal推进。不要回academic-formula-workbench，不启动无关数学campaign。第二十三批预览PID23978已核对命令与端口并SIGINT退出，临时tab18关闭，viewport覆盖已清除；保留tab1线上丁岩峭人物页。
 
 
 ## 以下为分批历史与证据记录
@@ -350,3 +350,5 @@ Goal仍active，转向概念内容的一手来源核查而非继续把绘图通�
 [Codex] 2026-10-08 第二十二批已公开验收：commit `ed6acad79c2f7586bc26970dbdc0e05deeb5c4e3`，Actions `37731404888` success。四个线上页面HTTP/内容核对及桌面/手机交互通过；证据batch-twenty-two-live-verification.json，截图catalog-search-live.jpg与catalog-search-mobile-live.jpg。本批全部326份YAML哈希相同；55项回归另覆盖首屏以外1808题名/2934编号查询。Goal继续active。等部署时已读丁岩峭15条书目及官网，下一批线索另存next-ding-identity-leads.json；未凭跨主题或作者近似姓名作最终归属。
 
 [Codex] 2026-10-08 第二十三批本地验收：15→10条书目不等于完整成果清单认证。数学类限定、精确引号作者查询当前返回10条，与保留的10个arXiv ID一致；这是候选覆盖检查，不能单独证明身份或非arXiv成果无遗漏。当前官网只列简历摘要，早期工作笔记声称完整学位日期已证实的说法未获保存正文支持，已撤回认证；旧记录完整存档并明确待核。公开部署仍待本批Actions和实际线上检查。
+
+[Codex] 2026-10-08 第二十三批公开验收：commit `5c5e792f78d9572e222b0b097c3807589fc4702c`，Actions `37733967538` success。6页HTTP与实际608px/390px浏览器检查通过，证据batch-twenty-three-live-verification.json及ding-publications-live.jpg。待核胡—丁师承补入关系审核池，恢复负控拦截、独立合著/机构共署正控不受影响。公开论文2203行/1803组/1276有出版线索；328份YAML含新增私有审核记录，不能把其结构检查当全站内容核实。Goal仍active。

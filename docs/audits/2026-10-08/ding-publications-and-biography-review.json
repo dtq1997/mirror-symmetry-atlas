@@ -262,7 +262,8 @@
   "mentor_disposition": {
     "status": "needs-review",
     "raw_removed_edge": "  - source: hu-jianxun\n    target: ding-yanqiao\n    type: advisor-student\n    year: 2016\n    institution: sun-yat-sen\n    notes: \"中山大学博士 2013-2016，博士期间合作 Welschinger 不变量 2 篇\"\n",
-    "reason": "Original evidence was coauthorship. Current faculty text and two acknowledgements do not explicitly identify a doctoral supervisor; this does not disprove Hu as supervisor. Remove affirmative graph edge pending direct evidence; retain source-backed 2015 institutional co-signature and coauthor links."
+    "reason": "Original evidence was coauthorship. Current faculty text and two acknowledgements do not explicitly identify a doctoral supervisor; this does not disprove Hu as supervisor. Remove affirmative graph edge pending direct evidence; retain source-backed 2015 institutional co-signature and coauthor links.",
+    "review_guard_file": "data/connections/_review_queue/ding-yanqiao-2026-10-08.yaml"
   },
   "source_link_disposition": {
     "removed": "https://arxiv.org/a/ding_y_2",
@@ -1153,11 +1154,26 @@
       "warnings": 73
     },
     "build": "CIRCLE_NODE_TOTAL=3 pnpm build succeeded with two static generation workers; TypeScript and postbuild passed",
-    "live": "pending",
+    "live": {
+      "status": "passed",
+      "report": "batch-twenty-three-live-verification.json",
+      "commit": "5c5e792f78d9572e222b0b097c3807589fc4702c",
+      "actions_run_id": 37733967538
+    },
     "site_regressions": 55,
     "review_gate_regressions": 8,
     "collaborator_count_dry_run": "0 changes",
-    "export_audit": "batch-twenty-three-export-audit.json"
+    "export_audit": "batch-twenty-three-export-audit.json",
+    "relationship_guard": {
+      "reviewer": "Codex",
+      "restoration_mutation": [
+        "mutation: restore unsupported adviser: relationship is withheld by ding-yanqiao-2026-10-08.yaml; review sources before restoring"
+      ],
+      "allowed_independent_relationships": [],
+      "status": "passed",
+      "post_guard_build": "CIRCLE_NODE_TOTAL=3 pnpm build passed; 287 pages, 16140 links, 555 formulas, no export issues; lint 0 errors/73 warnings.",
+      "public_data_scope": "Review files under data/connections/_review_queue are excluded by the nonrecursive *.yaml public connection loader (src/lib/data.ts). This archive adds a private restoration guard; public data and rendered source remain the deployed 5c5e792 commit."
+    }
   },
   "author_candidate_search": {
     "url": "https://export.arxiv.org/api/query?search_query=au%3A%22Yanqiao+Ding%22+AND+%28cat%3Amath.%2A+OR+cat%3Amath-ph+OR+cat%3Anlin.SI+OR+cat%3Ahep-th%29&start=0&max_results=200&sortBy=submittedDate&sortOrder=descending",

@@ -1,0 +1,113 @@
+{
+  "reviewer": "Codex",
+  "verified_at": "2026-10-08T05:48:32.316751+00:00",
+  "code_commit": "5c5e792f78d9572e222b0b097c3807589fc4702c",
+  "actions_conclusion": "success",
+  "pages": [
+    {
+      "url": "https://dtq1997.github.io/mirror-symmetry-atlas/people/ding-yanqiao",
+      "http_status": "200",
+      "bytes": 118299,
+      "sha256": "11dbc94bf3e67819d1555ae9d4bf6381d470bf48de1d9193128b22439f5d65ba",
+      "checks": {
+        "html_received": true,
+        "ten_papers": true,
+        "partial_answer": true,
+        "early_education_pending": true,
+        "advisor_pending": true,
+        "correct_jlms_year": true,
+        "merged_journal_links": true,
+        "wrong_author_link_absent": true,
+        "quarantined_records_absent": true
+      }
+    },
+    {
+      "url": "https://dtq1997.github.io/mirror-symmetry-atlas/institutions/zzu",
+      "http_status": "200",
+      "bytes": 25260,
+      "sha256": "96dd800ac318faab67851e5f3fde8985932de3990ddee7422bfcdf9ac8f28bab",
+      "checks": {
+        "html_received": true,
+        "source_checked_biography": true
+      }
+    },
+    {
+      "url": "https://dtq1997.github.io/mirror-symmetry-atlas/institutions/lanzhou-u",
+      "http_status": "200",
+      "bytes": 26613,
+      "sha256": "8ca5cb04bd98a6946bb012296cd43b04097f996ee36a19a9d3b9e5c5b89bc87e",
+      "checks": {
+        "html_received": true,
+        "early_degree_pending": true
+      }
+    },
+    {
+      "url": "https://dtq1997.github.io/mirror-symmetry-atlas/institutions/sorbonne",
+      "http_status": "200",
+      "bytes": 22599,
+      "sha256": "1a4436918c647937d596f58d2957122fd24894a04d9e52dab9df1ee4c7066581",
+      "checks": {
+        "html_received": true,
+        "dated_postdoc": true
+      }
+    },
+    {
+      "url": "https://dtq1997.github.io/mirror-symmetry-atlas/papers",
+      "http_status": "200",
+      "bytes": 939543,
+      "sha256": "ea47ac30481fa2ceadd07e5837d09212d88463e67e77736b17ebefdada863335",
+      "checks": {
+        "html_received": true,
+        "updated_catalog_count": true
+      }
+    },
+    {
+      "url": "https://dtq1997.github.io/mirror-symmetry-atlas/",
+      "http_status": "200",
+      "bytes": 38944,
+      "sha256": "e69f49b05fb711042444edb2eb40a720965ea2c28c471273915015536a2d65a2",
+      "checks": {
+        "html_received": true,
+        "updated_catalog_count": true
+      }
+    }
+  ],
+  "scope": "Actual public HTTP and rendered-content checks after matching Actions run succeeds; browser checks added separately. Not whole-person factual certification.",
+  "actions_run_id": 37733967538,
+  "browser": {
+    "public_default_viewport": {
+      "width": 608,
+      "height": 758,
+      "scroll_width": 602,
+      "console_errors": 0,
+      "katex_errors": 0,
+      "screenshot": "ding-publications-live.jpg"
+    },
+    "public_mobile": {
+      "width": 390,
+      "height": 844,
+      "scroll_width": 384,
+      "console_errors": 0,
+      "katex_errors": 0,
+      "screenshot": "ding-publications-mobile-live.jpg"
+    },
+    "checks": [
+      "10 publication records shown",
+      "partial-answer wording shown",
+      "unconfirmed adviser marked pending",
+      "quarantined titles absent",
+      "wrong arXiv author link absent",
+      "six DOI links present"
+    ],
+    "scope": "Actual browser checks recorded before this archive; 608px default viewport is not labelled as a 1280px desktop test."
+  },
+  "cleanup": {
+    "preview_pid": 23978,
+    "verified_command": "python3 .cache/msa/site-recovery/preview.py",
+    "verified_port": "127.0.0.1:3847",
+    "termination": "SIGINT, exit 130",
+    "temporary_tab_closed": 18,
+    "viewport_override": "reset",
+    "retained_tab": 1
+  }
+}
