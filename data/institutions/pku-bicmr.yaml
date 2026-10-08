@@ -1,16 +1,32 @@
 slug: pku-bicmr
 name:
-  en: "Peking University / Beijing International Center for Mathematical Research"
-  zh: "北京大学 / 北京国际数学研究中心 (BICMR)"
-type: university
+  en: "Beijing International Center for Mathematical Research, Peking University"
+  zh: "北京国际数学研究中心（北京大学 BICMR）"
+type: center
 country: China
 city: Beijing
-location:
-  lat: 39.9929
-  lng: 116.3058
-founded: 1898
+founded: 2005
 url: "https://bicmr.pku.edu.cn/"
 relevance: high
+appointment_checks:
+  - person: fang-bohan
+    role: "教授"
+    checked_on: "2026-10-08"
+    source:
+      label: "BICMR 官方教研人员名单"
+      url: "https://bicmr.pku.edu.cn/cn/content/lists/11.html"
+  - person: liu-xiaobo
+    role: "教授"
+    checked_on: "2026-10-08"
+    source:
+      label: "BICMR 官方教研人员名单（英文，第3页）"
+      url: "https://bicmr.pku.edu.cn/content/lists/11_catid74_3.html"
+  - person: xu-xiaomeng
+    role: "副教授（官方名单所列称谓）"
+    checked_on: "2026-10-08"
+    source:
+      label: "BICMR 官方教研人员名单（第4页）"
+      url: "https://bicmr.pku.edu.cn/cn/content/lists/11_catid74_4.html"
 research_groups:
   - name: "Algebraic Geometry & Mathematical Physics"
     topics:
@@ -38,8 +54,8 @@ research_groups:
       - tang-xinxing
 events: []
 notes: |
-  BICMR 是北大数学的国际研究中心。
-  徐晓濛在此建立了 Stokes phenomenon / quantum groups 研究方向。
-  刘小博培养的 GW 理论群体（王新、杨成浪、邬龙挺、王崇宇 [待验证]）
-  是国内该方向的重要学派。
-  2026 HUST 会议北大派出 7 人代表团。
+  中心于 2005 年设立，隶属北京大学，并作为独立教学科研单位运行。
+  办公地点分布在镜春园、朗润园。该条目记录 BICMR，学校整体另见北京大学条目。
+sources:
+  - label: "中心简介：成立年份、机构性质及办公区域（2026-10-08 核对）"
+    url: "https://bicmr.pku.edu.cn/cn/content/page/8.html"

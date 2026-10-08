@@ -1,0 +1,199 @@
+{
+  "reviewer": "Codex",
+  "date": "2026-10-08",
+  "baseline_commit": "2e3b2dda3ad1b65c9445447f300b3236631d20cf",
+  "scope": "Field-specific BICMR identity/founding/parent relationship and three dated appointment citations. Shared display fix across all 115 institution pages; not verification of all institutional histories or personnel.",
+  "sources": [
+    {
+      "key": "introduction",
+      "url": "https://bicmr.pku.edu.cn/cn/content/page/8.html",
+      "response_url": "https://bicmr.pku.edu.cn/cn/content/page/8.html",
+      "status": 200,
+      "retrieved_at": "2026-10-08T01:05:54.297080+00:00",
+      "sha256": "13ae4a132fbd4078fe2ed653d41c45b15f859b6a656f5de5a98bec640885e245",
+      "bytes": 10514
+    },
+    {
+      "key": "fang",
+      "url": "https://bicmr.pku.edu.cn/cn/content/lists/11.html",
+      "response_url": "https://bicmr.pku.edu.cn/cn/content/lists/11.html",
+      "status": 200,
+      "retrieved_at": "2026-10-08T01:05:54.304900+00:00",
+      "sha256": "7f7bd5696591768f13ec4741603b0d0148934bee00a1ba88c2b86e2e374eb843",
+      "bytes": 23738
+    },
+    {
+      "key": "liu",
+      "url": "https://bicmr.pku.edu.cn/content/lists/11_catid74_3.html",
+      "response_url": "https://bicmr.pku.edu.cn/content/lists/11_catid74_3.html",
+      "status": 200,
+      "retrieved_at": "2026-10-08T01:05:54.347266+00:00",
+      "sha256": "70aa433343fe289de297093628335c35a185925ca98c1a3e7da1d4c2c6d121e3",
+      "bytes": 20533
+    },
+    {
+      "key": "xu",
+      "url": "https://bicmr.pku.edu.cn/cn/content/lists/11_catid74_4.html",
+      "response_url": "https://bicmr.pku.edu.cn/cn/content/lists/11_catid74_4.html",
+      "status": 200,
+      "retrieved_at": "2026-10-08T01:05:54.356963+00:00",
+      "sha256": "e72e97de938b25c663bf290510ff6ce3b8733e36986619c00b08a532a0cab790",
+      "bytes": 23356
+    }
+  ],
+  "findings": [
+    {
+      "status": "corrected",
+      "fields": [
+        "pku-bicmr.name",
+        "pku-bicmr.type",
+        "pku-bicmr.founded"
+      ],
+      "evidence": "Official center introduction says established in 2005 as an independently constituted teaching and research unit of Peking University. The former 1898 university identity conflated parent and center."
+    },
+    {
+      "status": "removed-unsupported-coordinate",
+      "field": "pku-bicmr.location",
+      "evidence": "Official introduction identifies Jingchun Garden and Langrun Garden, not the precise point previously copied into this center record. Old coordinates are preserved below; not asserted to be disproved."
+    },
+    {
+      "status": "source-observation",
+      "fields": [
+        "pku-bicmr.appointment_checks"
+      ],
+      "evidence": "Official faculty listings identify Fang Bohan as Professor, Xiaobo Liu as Professor, and Xu Xiaomeng as 副教授. Names matched their public institutional email/homepage and research areas. Read 2026-10-08; this is a dated source observation, not a guarantee of ongoing employment or a complete faculty roster."
+    },
+    {
+      "status": "removed-unverified-narrative",
+      "fields": [
+        "pku-bicmr.notes",
+        "pku.notes"
+      ],
+      "evidence": "Unsupported claims about who established a research direction, a school of thought and a seven-person HUST delegation are preserved verbatim below, without asserting their truth or falsity. Parent/center relationship now follows the official center introduction."
+    },
+    {
+      "status": "display-corrected",
+      "fields": [
+        "institution list counts",
+        "institution detail people"
+      ],
+      "evidence": "Counts share unique literal references from education, position, visit, group claims and dated citations. Last career rows, open-ended dates and old current_members cannot establish current appointments. Existing group lists remain unchanged and are shown as undated unverified records."
+    }
+  ],
+  "changes": [
+    {
+      "path": "data/institutions/pku-bicmr.yaml",
+      "before_sha256": "bcbc4267b998fe155011ae182bccadfc0fe16ef39007edad045d0aa55e5f3629",
+      "after_sha256": "d385bd00dcc1ccc10c2251e3546198b131c64dd1662a5292167556e83862f3be",
+      "changed_fields": {
+        "appointment_checks": {
+          "before": null,
+          "after": [
+            {
+              "person": "fang-bohan",
+              "role": "教授",
+              "checked_on": "2026-10-08",
+              "source": {
+                "label": "BICMR 官方教研人员名单",
+                "url": "https://bicmr.pku.edu.cn/cn/content/lists/11.html"
+              }
+            },
+            {
+              "person": "liu-xiaobo",
+              "role": "教授",
+              "checked_on": "2026-10-08",
+              "source": {
+                "label": "BICMR 官方教研人员名单（英文，第3页）",
+                "url": "https://bicmr.pku.edu.cn/content/lists/11_catid74_3.html"
+              }
+            },
+            {
+              "person": "xu-xiaomeng",
+              "role": "副教授（官方名单所列称谓）",
+              "checked_on": "2026-10-08",
+              "source": {
+                "label": "BICMR 官方教研人员名单（第4页）",
+                "url": "https://bicmr.pku.edu.cn/cn/content/lists/11_catid74_4.html"
+              }
+            }
+          ]
+        },
+        "founded": {
+          "before": 1898,
+          "after": 2005
+        },
+        "location": {
+          "before": {
+            "lat": 39.9929,
+            "lng": 116.3058
+          },
+          "after": null
+        },
+        "name": {
+          "before": {
+            "en": "Peking University / Beijing International Center for Mathematical Research",
+            "zh": "北京大学 / 北京国际数学研究中心 (BICMR)"
+          },
+          "after": {
+            "en": "Beijing International Center for Mathematical Research, Peking University",
+            "zh": "北京国际数学研究中心（北京大学 BICMR）"
+          }
+        },
+        "notes": {
+          "before": "BICMR 是北大数学的国际研究中心。\n徐晓濛在此建立了 Stokes phenomenon / quantum groups 研究方向。\n刘小博培养的 GW 理论群体（王新、杨成浪、邬龙挺、王崇宇 [待验证]）\n是国内该方向的重要学派。\n2026 HUST 会议北大派出 7 人代表团。\n",
+          "after": "中心于 2005 年设立，隶属北京大学，并作为独立教学科研单位运行。\n办公地点分布在镜春园、朗润园。该条目记录 BICMR，学校整体另见北京大学条目。\n"
+        },
+        "sources": {
+          "before": null,
+          "after": [
+            {
+              "label": "中心简介：成立年份、机构性质及办公区域（2026-10-08 核对）",
+              "url": "https://bicmr.pku.edu.cn/cn/content/page/8.html"
+            }
+          ]
+        },
+        "type": {
+          "before": "university",
+          "after": "center"
+        }
+      }
+    },
+    {
+      "path": "data/institutions/pku.yaml",
+      "before_sha256": "01b7cc5a27df2b58e69f27eff88445b72390d6f5bd08db1b452885e6b56c7e38",
+      "after_sha256": "5104119cb724519939510f31a1208179289de1805b3f59e02280aee6a000186b",
+      "changed_fields": {
+        "notes": {
+          "before": "北京大学数学科学学院是国内数学研究的顶级机构之一。\nBICMR（北京国际数学研究中心）是其国际化研究平台，单独建档 pku-bicmr。\n刘小博的 Gromov-Witten 学派（王新、杨成浪、邬龙挺等）是本平台核心追踪对象。\n",
+          "after": "该条目对应北京大学整体。北京国际数学研究中心（BICMR）是北京大学独立设置的教学科研单位，另有独立条目。\n学校、数学科学学院和 BICMR 的人员名单需要分别核对，不能直接相互替代。\n"
+        },
+        "sources": {
+          "before": null,
+          "after": [
+            {
+              "label": "BICMR 中心简介：与北京大学的隶属关系（2026-10-08 核对）",
+              "url": "https://bicmr.pku.edu.cn/cn/content/page/8.html"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "validation": {
+    "site_regressions": 31,
+    "data_lint_errors": 0,
+    "data_lint_warnings": 74,
+    "eslint": "passed",
+    "typescript": "passed",
+    "production_build": "passed",
+    "export_audit": "batch-twelve-export-audit.json",
+    "all_institution_record_aggregation": "institution-record-counts.json"
+  },
+  "limits": [
+    "113 other institution records have not been source-corrected by this batch. PKU revision only covers the BICMR relationship.",
+    "Person career records, including differing role names, are preserved and marked as old records; they are not silently overwritten using a faculty-list snapshot.",
+    "Empty appointment checks mean no individually checked citations stored, not that an institution has no current staff.",
+    "No new person, paper, concept, conference attendance or mathematical result has been certified.",
+    "A structurally valid citation does not prove its primary-source status, identity match, completeness or truth."
+  ]
+}

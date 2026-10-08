@@ -1,7 +1,10 @@
-import { getAllInstitutions, getInstitutionsMap, getPeopleMap } from "@/lib/data";
+import { getAllInstitutions, getInstitutionsMap, getPeopleMap, getConceptsMap } from "@/lib/data";
 import Link from "@/components/shared/AtlasLink";
 import { notFound } from "next/navigation";
-import { displayName } from "@/lib/name";
+import { relevanceLabel } from "@/lib/inst";
+import { recordedAffiliations } from "@/lib/institution-affiliations";
+import { publicSourceUrl } from "@/lib/source-url";
+import InstitutionPeople from "@/components/institution/InstitutionPeople";
 
 export function generateStaticParams() {
   return getAllInstitutions().map((i) => ({ slug: i.slug }));
@@ -17,41 +20,11 @@ export default async function InstitutionPage({
   if (!inst) notFound();
 
   const peopleMap = getPeopleMap();
-  // SSOT: use displayName from name.ts so we never drift between pages.
-  const personName = displayName;
-
-  // Gather all people whose career_timeline references this institution
-  const affiliated = new Set<string>();
-  const pastAffiliated = new Set<string>();
-  for (const p of peopleMap.values()) {
-    for (const e of p.career_timeline || []) {
-      if (e.institution !== slug) continue;
-      const period = e.period || "";
-      const isPresent =
-        period.toLowerCase().includes("present") || period.endsWith("-");
-      if (isPresent || e.type === "position") {
-        if (isPresent) affiliated.add(p.slug);
-        else pastAffiliated.add(p.slug);
-      } else {
-        pastAffiliated.add(p.slug);
-      }
-    }
-  }
-  // Unify with research_groups members
-  for (const g of inst.research_groups || []) {
-    for (const m of g.current_members || []) affiliated.add(m);
-    for (const m of g.past_members || []) {
-      if (!affiliated.has(m)) pastAffiliated.add(m);
-    }
-  }
-  // Remove overlap
-  for (const s of affiliated) pastAffiliated.delete(s);
-
-  const currentList = Array.from(affiliated).sort();
-  const pastList = Array.from(pastAffiliated).sort();
+  const records = recordedAffiliations(inst, [...peopleMap.values()]);
+  const concepts = getConceptsMap();
 
   return (
-    <div className="max-w-4xl mx-auto px-6 py-10 w-full">
+    <div className="max-w-4xl mx-auto px-6 py-10 w-full min-w-0 break-words">
       {/* Breadcrumb */}
       <div className="text-sm text-[#8888a0] mb-6">
         <Link href="/institutions" className="hover:text-[#e8e8f0] transition-colors">
@@ -86,15 +59,19 @@ export default async function InstitutionPage({
                   : "bg-[#2a2a3a] text-[#8888a0]"
             }`}
           >
-            relevance: {inst.relevance}
+            {relevanceLabel(inst.relevance)}
           </span>
         </div>
       </div>
 
+      <p className="text-sm text-[#a0a0b8] mb-6">机构资料正在逐项核对，已核对的字段见所附来源；旧名单和履历不能直接作为现任名单。</p>
+
+      <InstitutionPeople records={records} />
+
       {/* Research groups */}
       {inst.research_groups && inst.research_groups.length > 0 && (
         <section className="mb-8">
-          <h2 className="text-lg font-semibold text-[#e8e8f0] mb-3">研究方向</h2>
+          <h2 className="text-lg font-semibold text-[#e8e8f0] mb-3">研究分组记录（待核实）</h2>
           <div className="space-y-4">
             {inst.research_groups.map((g, i) => (
               <div
@@ -112,52 +89,12 @@ export default async function InstitutionPage({
                         href={`/concepts/${t}`}
                         className="px-2 py-0.5 text-xs rounded bg-[#6366f1]/15 text-[#818cf8] hover:bg-[#6366f1]/25 transition-colors"
                       >
-                        {t}
+                        {concepts.get(t)?.name.zh || concepts.get(t)?.name.en || t}
                       </Link>
                     ))}
                   </div>
                 )}
               </div>
-            ))}
-          </div>
-        </section>
-      )}
-
-      {/* Current members */}
-      {currentList.length > 0 && (
-        <section className="mb-8">
-          <h2 className="text-lg font-semibold text-[#e8e8f0] mb-3">
-            现任成员（{currentList.length}）
-          </h2>
-          <div className="flex flex-wrap gap-2">
-            {currentList.map((s) => (
-              <Link
-                key={s}
-                href={`/people/${s}`}
-                className="px-3 py-1 text-sm rounded-full bg-[#f59e0b]/15 text-[#fbbf24] hover:bg-[#f59e0b]/25 transition-colors"
-              >
-                {personName(s)}
-              </Link>
-            ))}
-          </div>
-        </section>
-      )}
-
-      {/* Past members */}
-      {pastList.length > 0 && (
-        <section className="mb-8">
-          <h2 className="text-lg font-semibold text-[#e8e8f0] mb-3">
-            过往成员（{pastList.length}）
-          </h2>
-          <div className="flex flex-wrap gap-2">
-            {pastList.map((s) => (
-              <Link
-                key={s}
-                href={`/people/${s}`}
-                className="px-3 py-1 text-sm rounded-full bg-[#2a2a3a] text-[#a0a0b8] hover:bg-[#3a3a4a] hover:text-[#e8e8f0] transition-colors"
-              >
-                {personName(s)}
-              </Link>
             ))}
           </div>
         </section>
@@ -194,10 +131,18 @@ export default async function InstitutionPage({
       )}
 
       {/* External link */}
-      {inst.url && (
+      {(inst.sources?.length ?? 0) > 0 && <section className="mb-8">
+        <h2 className="text-lg font-semibold text-[#e8e8f0] mb-3">资料来源</h2>
+        <ul className="space-y-2 text-sm">
+          {inst.sources!.map((source, index) => <li key={index}>
+            {publicSourceUrl(source.url) ? <a href={publicSourceUrl(source.url)} target="_blank" rel="noopener noreferrer" className="text-[#818cf8] hover:underline">{source.label} ↗</a> : <span>{source.label}（链接待补）</span>}
+          </li>)}
+        </ul>
+      </section>}
+      {publicSourceUrl(inst.url) && (
         <section className="mb-8">
           <a
-            href={inst.url}
+            href={publicSourceUrl(inst.url)}
             target="_blank"
             rel="noopener noreferrer"
             className="px-4 py-2 text-sm bg-[#14141f] rounded-lg border border-[#2a2a3a] text-[#6366f1] hover:bg-[#2a2a3a] transition-colors inline-block"

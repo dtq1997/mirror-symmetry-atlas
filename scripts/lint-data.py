@@ -44,6 +44,7 @@ HERE = Path(__file__).parent
 sys.path.insert(0, str(HERE))
 from name_match import names_match, slug_for_author, is_slug
 from publication_review import load_review, blocked_review
+from institution_sources import appointment_errors
 
 ROOT = HERE.parent
 PEOPLE_DIR = ROOT / 'data/people'
@@ -385,6 +386,8 @@ def lint(strict_pubs=False, only_slug=None):
     # === institution checks ===
     if only_slug is None:
         for slug, inst in institutions.items():
+            for message in appointment_errors(inst, people):
+                err(f'inst:{slug}', message)
             name = inst.get('name')
             if not name or not (
                 (isinstance(name, dict) and (name.get('en') or name.get('zh'))) or

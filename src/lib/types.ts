@@ -351,6 +351,15 @@ export interface InstitutionEvent {
   description: string;
 }
 
+/** A dated reading of an identified person's appointment in a primary source.
+ * Does not certify continued employment after the observation date. */
+export interface AppointmentCheck {
+  person: string;
+  role: string;
+  checked_on: string;
+  source: SourceRef;
+}
+
 export interface Institution {
   slug: string;
   name: MultiLangName;
@@ -362,6 +371,8 @@ export interface Institution {
   url?: string;
   relevance: "high" | "medium" | "low";
   research_groups: ResearchGroup[];
+  appointment_checks?: AppointmentCheck[];
+  sources?: SourceRef[];
   events?: InstitutionEvent[];
   notes?: string;
 }

@@ -16,3 +16,7 @@ export function institutionName(slug: string | undefined | null): string {
 export function institutionInfo(slug: string): InstEntry | undefined {
   return TABLE[slug];
 }
+
+export function relevanceLabel(value: string): string {
+  return ({ high: "重点收录", medium: "相关收录", low: "补充收录" } as Record<string, string>)[value] ?? "待分类";
+}

@@ -9,6 +9,58 @@ import { publicSourceUrl } from '../.cache/msa/site-tests/source-url.js';
 import { renderMathText } from '../.cache/msa/site-tests/math-text.js';
 import { publicationMetadata } from '../.cache/msa/site-tests/publication-metadata.js';
 import { collectPublications, collectCoauthorship, recordedPublicationStats } from '../.cache/msa/site-tests/publications.js';
+import { recordedAffiliations } from '../.cache/msa/site-tests/institution-affiliations.js';
+
+test('institution records retain historical study, work and visits without inventing current appointments', () => {
+  const inst = { slug: 'a', research_groups: [] };
+  const people = [{ slug: 'old', died: 2005, career_timeline: [
+    { institution: 'a', type: 'position', period: '1980-present' },
+    { institution: 'a', type: 'education', period: '1960-1964' },
+    { institution: 'a', type: 'visit', period: '2000-' },
+    { institution: 'b', type: 'position', period: '2001-present' },
+    { institution: 'a', type: 'award', period: '1990' },
+  ] }];
+  const rows = recordedAffiliations(inst, people);
+  assert.deepEqual(rows[0].career.map(e => e.type), ['position', 'education', 'visit']);
+  assert.deepEqual(rows[0].appointmentChecks, []);
+  assert.equal(rows.length, 1);
+  assert.deepEqual(recordedAffiliations(inst, [{ ...people[0], career_timeline: [...people[0].career_timeline].reverse() }])[0].appointmentChecks, []);
+});
+
+test('institution counts deduplicate people but preserve contradictory group claims and independent dated citations', () => {
+  const inst = { slug: 'a', research_groups: [{ name: 'Old list', current_members: ['x', 'x', 'ghost'], past_members: ['x'] }],
+    appointment_checks: [{ person: 'y', role: 'Professor', checked_on: '2026-10-08', source: { label: 'Faculty', url: 'https://example.edu/faculty' } }] };
+  const people = [{ slug: 'x', career_timeline: [{ institution: 'a', type: 'visit' }] }];
+  const before = structuredClone({ inst, people });
+  const rows = recordedAffiliations(inst, people);
+  assert.deepEqual(rows.map(r => r.person), ['ghost', 'x', 'y']);
+  assert.deepEqual(rows.find(r => r.person === 'x').groupClaims.map(g => g.recordedAs), ['current', 'past']);
+  assert.equal(rows.find(r => r.person === 'ghost').appointmentChecks.length, 0);
+  assert.equal(rows.find(r => r.person === 'y').appointmentChecks.length, 1);
+  rows.find(r => r.person === 'x').career[0].period = 'mutated';
+  rows.find(r => r.person === 'y').appointmentChecks[0].source.label = 'mutated';
+  assert.deepEqual({ inst, people }, before);
+  assert.deepEqual(recordedAffiliations({ slug: 'empty' }, []), []);
+});
+
+test('appointment citation gate rejects missing identity, role, date or source URL metadata', () => {
+  const code = `import sys,copy,datetime
+sys.path.insert(0,'scripts')
+from institution_sources import appointment_errors
+good={'person':'x','role':'Professor','checked_on':'2026-10-08','source':{'label':'Faculty','url':'https://example.edu/faculty'}}
+check=lambda rows: appointment_errors({'appointment_checks':rows},{'x'},datetime.date(2026,10,8))
+assert not check([good])
+assert not appointment_errors({}, {'x'})
+for field,value in [('person','ghost'),('person',[]),('role',''),('role','待核实'),('checked_on','2026-02-30'),('checked_on','2027-01-01'),('source',{'label':'Faculty','url':'javascript:alert(1)'}),('source',{'url':'https://example.edu'})]:
+ row=copy.deepcopy(good);row[field]=value;assert check([row]),(field,value)
+assert check([good,good])
+assert check([None])
+assert check({})
+print('citation-schema-only')`;
+  const result = spawnSync('python3', ['-c', code], { encoding: 'utf8' });
+  assert.equal(result.status, 0, result.stderr);
+  assert.match(result.stdout, /citation-schema-only/);
+});
 
 test('DOI and OpenAlex records never link to arXiv', () => {
   assert.equal(identity.publicationUrl({ id: 'doi:10.1000/example' }), 'https://doi.org/10.1000/example');
