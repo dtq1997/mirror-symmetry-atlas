@@ -2,21 +2,22 @@
 
 [Codex] 2026-10-08。Goal **active**，原目标见 `RECOVERY-PLAN.md`。这不是已完成的全库事实认证。
 
-## 当前恢复入口（2026-10-08，第九批线上验收后）
+## 当前恢复入口（2026-10-08，第十批线上验收后）
 
 [Codex] Goal仍active。以下是当前摘要；后面的早期“待发布/尚未恢复”是历史记录，不代表现在。
 
-- 原网站已连续发布九批修复。最近公开代码 commit `f57da999c1d6e9cdd9a72a3f4d3c1ab1da640ecf`；Actions `37706915633` success，5页HTTP和浏览器手机线上核验完成。后续仅报告/审核池提交可带skip ci，公开资产仍以上述commit为准。
-- 当前96人物、61概念、115机构、3开放问题；人物原始论文2223行，目录1819组（包括书籍/章节及译版，不等于独立研究论文总数）。283HTML/22209站内链接/642公式实例，未检出坏目标或KaTeX解析错误；data lint 0errors/74warnings；28项网站回归及工作流其他检查通过。这不是全库事实或数学认证。
-- 新闻链与定时部署已恢复，72篇新闻在线；作者保留原始署名，不按姓氏猜身份。1237个完整arXiv的当前元数据已取回，但并非全部归属已核实。
-- 累计11条确认错挂、5条待核实归属已移出，1录像转网上痕迹，本批另合并4行来源确认的重复；完整原始记录及来源在按人物审核池，防止自动回填。刘思齐41条、Mazzocco46条、Dubrovin64条。部分履历/论文修正不代表整个人物已核。
+- 原网站已发布十批修复。最近公开内容 commit `1d002b0f288d4d37d1adb9be0c5b400d76e577e6`；Actions `37708026854` success，7个人物页及论文目录共8页HTTP核验，手机/桌面三组论文卡片实际核验完成。后续报告提交带skip ci，公开资产仍以上述commit为准。
+- 当前96人物、61概念、115机构、3开放问题；人物原始论文2219行，目录1817组（包括书籍/章节及译版，不等于独立研究论文总数）。283HTML/22222站内链接/642公式实例，未检出坏目标或KaTeX解析错误；data lint 0errors/74warnings；28项网站回归及CI全部检查通过。这不是全库事实或数学认证。
+- 新闻链与定时部署已恢复，72篇新闻在线；作者保留原始署名，不按姓氏猜身份。1237个完整arXiv当前元数据已取回，但并非全部归属已核实。
+- 累计11条确认错挂、5条待核实归属已移出，1录像转网上痕迹，另8条来源确认的重复已合并。原始记录及来源分别保存在审核池或具名审计报告；身份排除受防回填检查保护，合并的有效DOI不能加入拒绝池。刘思齐41条、Mazzocco46条、Dubrovin64条。部分履历/论文修正不代表整个人物已核。
 - 图谱空按钮、共享数据突变、布局持续散开、手机侧栏/搜索、公式跨行渲染已修；年份筛选是累计有日期记录，机构筛选是历史履历关联，不猜现职。小屏全图仍可能局部标签重叠，可搜索放大。
-- 第八批统一出版线索口径，资料库名称/DOI不单独计入；第九批修论文/新闻行内公式、安全转义，按SIGMA/arXiv/Manchester/SISSA/MathNet合并三组重复、恢复math/9806056、纠正假合作者/重复作者。两条Hertling标题据Springer原页修正；构建现拦截KaTeX解析失败。见publication-duplicates-review.json、paper-title-render-review.json、batch-nine-live-verification.json。
-- 下一步优先 `next-publication-source-leads.json`：hep-th/9611200的arXiv api core假作者；1604.07123在Fang/Liu/Zong下题名与当前原文不同；1809.08806在Guo/Chang下题名不同。先完整读对应YAML、核对DOI/版本及原题对应的另一篇作品，再修，不盲目覆盖。52条题名差异快照包含版本/拼写差别和已处理条目，不全是错；227条旧编号也为早期快照。
-- 另待：郭帅2311.09804归属、2312.11174 Open MIND刊名、邬龙挺1103.4695归属、Boalch W4307615951幻灯片类型；Hertling整书/章节类型与计数口径；61概念及概念图一侧related连线、机构履历、会议/历史/3开放问题的一手来源。全量事实审核远未完成。
+- 第八批统一出版线索口径；第九批修论文/新闻行内公式、重复与Hertling原刊标题；第十批修 Weyl 第一篇/续篇串接、1604.07123与1809.08806错题名，合并两组预印本/期刊重复。详见identifier-title-corrections.json、batch-ten-publication-counts.json、batch-ten-live-verification.json。Weyl续篇真实出版线索仍待补，不能说未发表。
+- 下一步先看 `next-author-profile-leads.json`：Fang的Northwestern2010博士与笔记“Columbia博士”矛盾、NSFC12125101年份错写，CV原件已缓存。Liu2026年9月本人论文清单及arXiv确认2609.12955，尚未加入三位已建档作者。2504.15696v2摘要确实含有特定情形的equivariant mirror symmetric Gamma conjecture，不能当成虚构删除；应核scope并准确归因，尚未审证明。原PDF/提取文本及hash在.cache/msa/site-recovery与该报告。
+- 继续复核52条题名差异和227条旧编号的早期快照（含已处理项/版本差异，不全是错）；郭帅2311.09804归属、2312.11174 Open MIND刊名、邬龙挺1103.4695归属、Boalch W4307615951幻灯片类型。旧 next-publication-source-leads.json 三组题名问题已由第十批处理，不重复修改。
+- 全内容待办仍包括：人物公开叙述/履历/师生关系，Hertling整书/章节计数，61概念及概念图一侧related连线，115机构、会议/时间线/3开放问题一手来源，论文目录查找体验。必须继续覆盖这些类型，不能把论文元数据清理当全站完成。
 - content-inventory.json是第一批未核实基线，旧数量/全pending不覆盖后续分项证据。当前覆盖以具名审计的具体字段为准。
 - 不运行旧validate-publications.py --apply / detect-id-title-mismatch.py --write；OpenAlex v2仍有HTTP/缓存/评分风险，不能无人审查全库写入。
-- 继续只在本仓库；先查git状态，再沿此Goal推进。不要回academic-formula-workbench，不启动无关数学campaign。没有本轮预览服务遗留。
+- 继续只在本仓库；先查git状态，再沿此Goal推进。不要回academic-formula-workbench，不启动无关数学campaign。本轮没有启动预览服务；浏览器尺寸已复原。
 
 ## 以下为分批历史与证据记录
 
@@ -199,3 +200,6 @@ Mazzocco的10.14288/1.0377037由DataCite明确登记为MovingImage/Audiovisual�
 - 本轮附带得到两份作者原始材料：Liu_Publications_2609.pdf（2026年9月，含2609.12955等新条目）、Fang本人cv.pdf。Fang现有personal_notes仍有“哥伦比亚博士”与Northwestern博士互相矛盾，原CV明确Northwestern2010、Eric Zaslow；NSFC12125101年份原CV为2022—2026，现笔记2021—2026。下一批先据此完整核相关字段，再处理其余题名差异/归属候选；不能把新发现只当已修。
 
 Goal active；当前尚待本批 GitHub Pages 发布与线上验收。
+
+
+[Codex] 第十批已上线并完成验证：commit `1d002b0f288d4d37d1adb9be0c5b400d76e577e6`，Actions `37708026854` success。8页HTTP检查全部通过；张友金手机页两篇Weyl题名/作者/不同链接与不同出版状态正确，Fang手机页Remodeling仅一条，Guo桌面两篇NMSP题名/DOI/卷页分别正确；均无页面横向溢出、公式解析或console错误。截图weyl-identifiers-live-mobile.jpg，证据batch-ten-live-verification.json。Goal active，下一轮按当前恢复入口继续。补充：2504.15696v2摘要明确含相应Gamma结论，先前只是待核线索，不能自动当错误删除；应保留具体对象条件与文献归因。

@@ -1,0 +1,72 @@
+{
+  "reviewer": "Codex",
+  "date": "2026-10-08",
+  "status": "source-confirmed leads; NOT yet edited into profiles",
+  "files": [
+    {
+      "url": "https://www.math.columbia.edu/~ccliu/Liu_Publications_2609.pdf",
+      "path": ".cache/msa/site-recovery/liu-publications-2609.pdf",
+      "status": 200,
+      "sha256": "8127818ffefc0e9ed9487721079c91a1afe7092ab6a7d89511c87b5253c4421e"
+    },
+    {
+      "url": "https://bohanfang.github.io/cv.pdf",
+      "path": ".cache/msa/site-recovery/fang-cv-2026-10-08.pdf",
+      "status": 200,
+      "sha256": "4959e9e180694c359b66d0ef8a95c2abfc06c76cfc930914410a083f5a1b5fd3"
+    }
+  ],
+  "leads": [
+    {
+      "owner": "fang-bohan",
+      "field": "personal_notes / education / identity_profile",
+      "source": "https://bohanfang.github.io/cv.pdf",
+      "page": 1,
+      "confirmed": "PhD Northwestern 2010; advisor Eric Zaslow; Columbia Ritt Assistant Professor 2010–2014.",
+      "problem": "Existing personal_notes includes a second, contradictory Columbia PhD statement; inspect full current profile before correction."
+    },
+    {
+      "owner": "fang-bohan",
+      "field": "personal_notes / grants",
+      "source": "https://bohanfang.github.io/cv.pdf",
+      "page": 1,
+      "confirmed": "NSFC 12125101, PI, Mirror symmetry, 2022–2026.",
+      "problem": "Existing personal_notes says2021–2026; classify awards separately from grant support and review all duplicates."
+    },
+    {
+      "owners": [
+        "fang-bohan",
+        "liu-melissa",
+        "zong-zhengyu"
+      ],
+      "field": "publication completeness",
+      "source": "https://www.math.columbia.edu/~ccliu/Liu_Publications_2609.pdf",
+      "page": 4,
+      "confirmed": "Author list dated September2026 contains 2609.12955 with Bohan Fang, Chiu-Chu Melissa Liu, Song Yu, Zhengyu Zong.",
+      "problem": "Check current arXiv and all existing owner profiles before adding; do not treat absence of a DOI as unpublished.",
+      "arxiv_check": {
+        "url": "https://arxiv.org/abs/2609.12955",
+        "submitted": "2026-09-11",
+        "authors": [
+          "Bohan Fang",
+          "Chiu-Chu Melissa Liu",
+          "Song Yu",
+          "Zhengyu Zong"
+        ],
+        "title": "All-Genus Open Mirror Symmetry for Toric Calabi-Yau 3-Orbifolds with Multiple Branes",
+        "primary_category": "math.AG",
+        "version": "v1",
+        "status": "Metadata agrees with Liu author bibliography; not yet added."
+      }
+    },
+    {
+      "owner": "fang-bohan",
+      "field": "personal_notes mathematical claim",
+      "source": "https://arxiv.org/abs/2504.15696",
+      "status": "abstract supports related claim; scope refinement still needed",
+      "problem": "Do not delete as an invented Gamma claim. Public prose should attribute the result and preserve the restricted setting; no proof has been audited.",
+      "confirmed": "Current 2504.15696v2 abstract explicitly includes an equivariant mirror symmetric Gamma conjecture for semi-projective toric Calabi-Yau3-orbifolds with specified integral structures and support."
+    }
+  ],
+  "broad_priority": "Audit public prose and contradictory biographies alongside paper metadata; institutional, concept, conference, timeline and open-problem audit remains pending."
+}

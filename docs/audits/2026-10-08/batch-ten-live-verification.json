@@ -1,0 +1,147 @@
+{
+  "provider": "Codex",
+  "checked_on": "2026-10-08",
+  "commit": "1d002b0f288d4d37d1adb9be0c5b400d76e577e6",
+  "deploy_run": "37708026854",
+  "deploy_status": "success",
+  "http": [
+    {
+      "url": "https://dtq1997.github.io/mirror-symmetry-atlas/people/dubrovin",
+      "status": 200,
+      "sha256": "55ca03e80c23a4f85db8ee348531cfdf2ef7a25dcef9b042a1017f54b1ac42dd",
+      "checks": {
+        "core_not_author": true,
+        "first_id": true,
+        "second_id": true,
+        "first_doi": true,
+        "dafeng_present": true
+      }
+    },
+    {
+      "url": "https://dtq1997.github.io/mirror-symmetry-atlas/people/zhang-youjin",
+      "status": 200,
+      "sha256": "342d306d2b30df66f1464314dc33d18b5aa84df8ed0edbed43206dc08228256c",
+      "checks": {
+        "core_not_author": true,
+        "first_id": true,
+        "second_id": true,
+        "first_doi": true,
+        "dafeng_present": true
+      }
+    },
+    {
+      "url": "https://dtq1997.github.io/mirror-symmetry-atlas/people/fang-bohan",
+      "status": 200,
+      "sha256": "42b89a245b9763557590fe2ffe4970e993ddb44612d1e17e4eb0190f7b00b83d",
+      "checks": {
+        "remodeling_title": true,
+        "wrong_title_removed": true,
+        "jams_doi": true,
+        "projective_line_preserved": true
+      }
+    },
+    {
+      "url": "https://dtq1997.github.io/mirror-symmetry-atlas/people/liu-melissa",
+      "status": 200,
+      "sha256": "d746eb040e19f4d7bda0f9c5b6ee8dd08e7a23ae3bf6ff2e283e1756e05e2051",
+      "checks": {
+        "remodeling_title": true,
+        "wrong_title_removed": true,
+        "jams_doi": true,
+        "projective_line_preserved": true
+      }
+    },
+    {
+      "url": "https://dtq1997.github.io/mirror-symmetry-atlas/people/zong-zhengyu",
+      "status": 200,
+      "sha256": "689da1a2630a7aced0e2442d207960987942fc5119f70cf09578116093ba41ef",
+      "checks": {
+        "remodeling_title": true,
+        "wrong_title_removed": true,
+        "jams_doi": true,
+        "projective_line_preserved": true
+      }
+    },
+    {
+      "url": "https://dtq1997.github.io/mirror-symmetry-atlas/people/guo-shuai",
+      "status": 200,
+      "sha256": "32b64a2d472a79e4a7af8b0e69fbe54cf574e2d860fbc2d59621ad3cff0b8b84",
+      "checks": {
+        "nmsp_title": true,
+        "wrong_title_removed": true,
+        "annals_doi": true,
+        "volume_pages": true
+      }
+    },
+    {
+      "url": "https://dtq1997.github.io/mirror-symmetry-atlas/people/zhang-huailiang",
+      "status": 200,
+      "sha256": "0b8955df1f2ef892f5901ca5d1f83ae44119cce4bcab6a14611d6bf143a03d19",
+      "checks": {
+        "nmsp_title": true,
+        "wrong_title_removed": true,
+        "annals_doi": true,
+        "volume_pages": true
+      }
+    },
+    {
+      "url": "https://dtq1997.github.io/mirror-symmetry-atlas/papers",
+      "status": 200,
+      "sha256": "feb3ca910dbffb6d5c9c61ae34afeb1480c8f2645ad505aa405bc7cdd13c5019",
+      "checks": {
+        "catalog_1817": true,
+        "no_fake_author": true
+      }
+    }
+  ],
+  "browser": {
+    "weyl": {
+      "first": {
+        "href": "https://doi.org/10.1023/a:1000258122329",
+        "text": "Extended affine Weyl groups and Frobenius manifolds\n合作者： 杜布罗文\n有出版线索\n期刊/书籍记录：Compositio Mathematica 111 (1998), 167--219\nDOI ↗\nhep-th\n1996\nhep-th/9611200"
+      },
+      "second": {
+        "href": "https://arxiv.org/abs/math/0502365",
+        "text": "Extended affine Weyl groups and Frobenius manifolds -- II\n合作者： 杜布罗文, Dafeng Zuo\n待补出版线索\nmath.DG\n2005\nmath/0502365"
+      },
+      "view": {
+        "fonts": "loaded",
+        "formulaErrors": 0,
+        "scrollWidth": 384,
+        "width": 390
+      },
+      "errors": []
+    },
+    "remodeling": {
+      "count": 1,
+      "record": {
+        "href": "https://doi.org/10.1090/jams/934",
+        "text": "On the Remodeling Conjecture for Toric Calabi-Yau 3-Orbifolds\n合作者： 刘秋菊, 宗正宇\n有出版线索\n期刊/书籍记录：J. Amer. Math. Soc. 33 (2020), no. 1, 135-222\nDOI ↗\nmath.AG\n2016\n1604.07123"
+      },
+      "view": {
+        "formulaErrors": 0,
+        "scrollWidth": 384,
+        "width": 390
+      },
+      "errors": []
+    },
+    "nmsp": {
+      "nmsp": {
+        "href": "https://doi.org/10.2140/gt.2021.25.775",
+        "text": "The theory of N-Mixed-Spin-P fields\n合作者： 張懷良, Jun Li, Wei-Ping Li\n有出版线索\n期刊/书籍记录：Geom. Topol. 25 (2021) 775-811\nDOI ↗\nmath.AG\n2018\n1809.08806"
+      },
+      "polynomial": {
+        "href": "https://doi.org/10.4007/annals.2021.194.3.1",
+        "text": "Polynomial structure of Gromov-Witten potential of quintic \n3\n3-folds via NMSP\n合作者： 張懷良, Jun Li\n有出版线索\n期刊/书籍记录：Annals of Mathematics 194 (2021), no. 3, 585–645\nDOI ↗\nmath.AG\n2018\n1809.11058"
+      },
+      "view": {
+        "formulaErrors": 0,
+        "scrollWidth": 1274,
+        "width": 1280
+      },
+      "errors": []
+    }
+  },
+  "screenshot": "weyl-identifiers-live-mobile.jpg",
+  "limitation": "Live checks cover this deployed batch only; full content and mathematical review remain incomplete."
+}
