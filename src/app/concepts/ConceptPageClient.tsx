@@ -40,7 +40,7 @@ export default function ConceptPageClient({ graphData, concepts }: Props) {
             概念知识图谱
           </h1>
           <p className="text-xs text-[#8888a0]">
-            {concepts.length} 个概念 · 点击节点查看学习路径
+            {concepts.length} 个概念 · 选择节点追溯前置记录
           </p>
         </div>
         <div className="flex items-center gap-1 bg-[#0a0a0f] rounded-lg p-1 border border-[#2a2a3a]">

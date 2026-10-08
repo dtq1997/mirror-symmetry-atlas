@@ -2,23 +2,17 @@
 
 import { useState, useMemo, useCallback } from "react";
 import ForceGraph from "./ForceGraph";
-import type { GraphData, GraphNode, Concept } from "@/lib/types";
-import { getPrerequisiteChain } from "@/lib/graph";
+import type { GraphData, GraphNode, Concept, ConceptRelationType } from "@/lib/types";
+import { getPrerequisiteChain, highlightConceptPrerequisites } from "@/lib/graph";
 import Link from "@/components/shared/AtlasLink";
 import MathText from "../shared/MathText";
 import { displayName } from "@/lib/name";
+import ConceptGraphLegend, { DIFFICULTY_LABELS } from "./ConceptGraphLegend";
 
 interface ConceptMapProps {
   graphData: GraphData;
   concepts: Concept[];
 }
-
-const DIFFICULTY_LABELS: Record<string, { label: string; color: string }> = {
-  introductory: { label: "入门", color: "#22c55e" },
-  intermediate: { label: "中级", color: "#3b82f6" },
-  advanced: { label: "进阶", color: "#a855f7" },
-  "research-frontier": { label: "前沿", color: "#ef4444" },
-};
 
 export default function ConceptMap({ graphData, concepts }: ConceptMapProps) {
   const [selectedNode, setSelectedNode] = useState<GraphNode | null>(null);
@@ -26,7 +20,16 @@ export default function ConceptMap({ graphData, concepts }: ConceptMapProps) {
     null
   );
 
-  // Compute learning path chain
+  const [hidden, setHidden] = useState<Set<ConceptRelationType>>(new Set());
+  const optionLabels = useMemo(() => {
+    const counts = new Map<string, number>();
+    for (const node of graphData.nodes) counts.set(node.label, (counts.get(node.label) ?? 0) + 1);
+    return new Map(graphData.nodes.map((node) => [node.id,
+      (counts.get(node.label) ?? 0) > 1 && node.data && "name" in node.data
+        ? `${node.label} · ${node.data.name.en}` : node.label]));
+  }, [graphData.nodes]);
+
+  // Trace only literal prerequisite records, not further-study suggestions.
   const pathChain = useMemo(() => {
     if (!learningPathTarget) return null;
     return getPrerequisiteChain(learningPathTarget, concepts);
@@ -34,25 +37,19 @@ export default function ConceptMap({ graphData, concepts }: ConceptMapProps) {
 
   // Highlight learning path
   const displayData = useMemo(() => {
-    if (!pathChain) return graphData;
+    const base = pathChain ? highlightConceptPrerequisites(graphData, pathChain) : graphData;
+    return { ...base, links: base.links.filter((link) => !hidden.has(link.type as ConceptRelationType)) };
+  }, [graphData, pathChain, hidden]);
 
-    const highlightedNodes = graphData.nodes.map((n) => ({
-      ...n,
-      opacity: pathChain.has(n.id) ? 1 : 0.15,
-    }));
-    const highlightedLinks = graphData.links.map((l) => ({
-      ...l,
-      opacity:
-        pathChain.has(l.source as string) && pathChain.has(l.target as string)
-          ? 0.8
-          : 0.05,
-    }));
-    return { nodes: highlightedNodes, links: highlightedLinks };
-  }, [graphData, pathChain]);
+  const toggleRelation = (type: ConceptRelationType) => setHidden((old) => {
+    const next = new Set(old);
+    if (next.has(type)) next.delete(type); else next.add(type);
+    return next;
+  });
 
   const handleNodeClick = useCallback(
     (node: GraphNode) => {
-      if (learningPathTarget === node.id) {
+      if (node.isGhost || learningPathTarget === node.id) {
         setLearningPathTarget(null);
       } else {
         setLearningPathTarget(node.id);
@@ -68,61 +65,25 @@ export default function ConceptMap({ graphData, concepts }: ConceptMapProps) {
         data={displayData}
         onNodeClick={handleNodeClick}
         selectedNodeId={selectedNode?.id}
+        focusNodeId={selectedNode?.id}
       />
 
-      {/* Legend */}
-      <div className="absolute bottom-4 left-4 z-10 bg-[#14141f]/90 backdrop-blur-sm rounded-lg border border-[#2a2a3a] p-3 text-xs">
-        <div className="text-[#8888a0] mb-2 font-medium">图例（难度）</div>
-        <div className="space-y-1 mb-3">
-          {Object.entries(DIFFICULTY_LABELS).map(([key, { label, color }]) => (
-            <div key={key} className="flex items-center gap-2">
-              <span
-                className="w-3 h-3 rounded-full inline-block shrink-0"
-                style={{ backgroundColor: color }}
-              />
-              <span className="text-[#e8e8f0]">{label}</span>
-            </div>
-          ))}
-        </div>
-        <div className="h-px bg-[#2a2a3a] mb-2" />
-        <div className="space-y-1">
-          <div className="flex items-center gap-2">
-            <span className="w-6 h-0.5 bg-[#ef4444] inline-block" />
-            <span className="text-[#e8e8f0]">前置依赖（有向）</span>
-          </div>
-          <div className="flex items-center gap-2">
-            <span
-              className="w-6 h-0.5 inline-block"
-              style={{
-                backgroundImage:
-                  "repeating-linear-gradient(90deg, #8888a0 0, #8888a0 2px, transparent 2px, transparent 5px)",
-              }}
-            />
-            <span className="text-[#e8e8f0]">相关</span>
-          </div>
-        </div>
-        <div className="h-px bg-[#2a2a3a] my-2" />
-        <div className="text-[#8888a0]">点击节点 → 显示学习路径</div>
+      <div className="absolute top-4 left-16 right-4 sm:right-auto z-10">
+        <select aria-label="选择图中概念" value={selectedNode?.id ?? ""}
+          onChange={(event) => {
+            const node = graphData.nodes.find((n) => n.id === event.target.value);
+            if (node) handleNodeClick(node);
+            else { setSelectedNode(null); setLearningPathTarget(null); }
+          }}
+          className="w-full sm:w-64 max-w-full rounded-lg border border-[#2a2a3a] bg-[#14141f] p-2 text-sm text-[#e8e8f0]">
+          <option value="">选择概念并定位</option>
+          {graphData.nodes.map((node) => <option key={node.id} value={node.id}>{optionLabels.get(node.id)}</option>)}
+        </select>
       </div>
-
-      {/* Learning path indicator */}
-      {learningPathTarget && (
-        <div className="absolute top-4 left-16 right-4 sm:left-1/2 sm:right-auto sm:-translate-x-1/2 sm:w-max max-w-[calc(100%_-_5rem)] z-10 bg-[#14141f]/90 backdrop-blur-sm rounded-lg border border-[#ef4444]/50 px-4 py-2 text-sm flex flex-wrap items-center gap-3">
-          <span className="text-[#ef4444]">学习路径：</span>
-          <span className="text-[#e8e8f0] font-medium">
-            {concepts.find((c) => c.slug === learningPathTarget)?.name.zh || concepts.find((c) => c.slug === learningPathTarget)?.name.en || learningPathTarget}
-          </span>
-          <span className="text-[#8888a0]">
-            （含当前概念，共 {pathChain?.size ?? 0} 项）
-          </span>
-          <button
-            onClick={() => setLearningPathTarget(null)}
-            className="text-[#8888a0] hover:text-[#e8e8f0] ml-2"
-          >
-            清除
-          </button>
-        </div>
-      )}
+      <ConceptGraphLegend graph={graphData} hidden={hidden} onToggle={toggleRelation} visibleCount={displayData.links.length} />
+      <ConceptTraceNotice selected={selectedNode}
+        target={graphData.nodes.find((node) => node.id === learningPathTarget)}
+        count={pathChain?.size ?? 0} onClear={() => setLearningPathTarget(null)} />
 
       {/* Sidebar */}
       {selectedNode && selectedNode.data && !selectedNode.isGhost && (
@@ -155,6 +116,22 @@ export default function ConceptMap({ graphData, concepts }: ConceptMapProps) {
       )}
     </div>
   );
+}
+
+function ConceptTraceNotice({ selected, target, count, onClear }: {
+  selected: GraphNode | null; target?: GraphNode; count: number; onClear: () => void;
+}) {
+  if (!target && !selected?.isGhost) return null;
+  return <div className="absolute top-16 left-16 right-4 sm:max-w-md z-10 bg-[#14141f]/95 rounded-lg border border-[#ef4444]/50 px-3 py-2 text-sm flex flex-wrap items-center gap-2">
+    {selected?.isGhost ? <p role="status" className="text-[#a0a0b8]">
+      {selected.label}：目前只有引用记录，暂无定义及来源档案。
+    </p> : <>
+      <span className="text-[#ef4444]">前置追溯：</span>
+      <span className="text-[#e8e8f0]">{target?.label}</span>
+      <span className="text-[#8888a0]">（含当前概念，共 {count} 项）</span>
+      <button onClick={onClear} className="text-[#a0a0b8] hover:text-[#e8e8f0]">清除</button>
+    </>}
+  </div>;
 }
 
 function ConceptSidebar({ concept }: { concept: Concept }) {
@@ -196,7 +173,7 @@ function ConceptSidebar({ concept }: { concept: Concept }) {
 
       {concept.prerequisites?.length > 0 && (
         <div>
-          <div className="text-xs text-[#8888a0] mb-2">前置概念</div>
+          <div className="text-xs text-[#8888a0] mb-2">前置概念记录</div>
           <div className="flex flex-wrap gap-1">
             {concept.prerequisites.map((p) => (
               <Link
@@ -213,7 +190,7 @@ function ConceptSidebar({ concept }: { concept: Concept }) {
 
       {concept.leads_to?.length > 0 && (
         <div>
-          <div className="text-xs text-[#8888a0] mb-2">后续概念</div>
+          <div className="text-xs text-[#8888a0] mb-2">后续方向记录</div>
           <div className="flex flex-wrap gap-1">
             {concept.leads_to.map((l) => (
               <Link
@@ -227,6 +204,15 @@ function ConceptSidebar({ concept }: { concept: Concept }) {
           </div>
         </div>
       )}
+
+      {concept.related?.length > 0 && <div>
+        <div className="text-xs text-[#8888a0] mb-2">相关概念记录</div>
+        <div className="flex flex-wrap gap-1">
+          {concept.related.map((slug) => <Link key={slug} href={`/concepts/${slug}`}
+            className="px-2 py-0.5 text-xs rounded-full bg-[#2a2a3a] text-[#c4b5fd]">{slug}</Link>)}
+        </div>
+      </div>}
+      <p className="text-xs text-[#8888a0]">以上沿用本站概念记录，定义、关系与历史归属仍待逐项核实；前置追溯不代表唯一或严格的学习顺序。</p>
 
       {concept.key_people?.length > 0 && (
         <div>

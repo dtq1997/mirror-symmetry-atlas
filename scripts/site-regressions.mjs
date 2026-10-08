@@ -4,12 +4,72 @@ import assert from 'node:assert/strict';
 import { spawnSync } from 'node:child_process';
 import identity from '../.cache/msa/site-tests/paper-identity.js';
 import { entityRoute } from '../.cache/msa/site-tests/entity-route.js';
-import { buildPeopleGraph, simulationGraph, filterByYear, recordedStartYear, recordedInstitutions } from '../.cache/msa/site-tests/graph.js';
+import { buildPeopleGraph, buildConceptGraph, getPrerequisiteChain, highlightConceptPrerequisites, simulationGraph, filterByYear, recordedStartYear, recordedInstitutions } from '../.cache/msa/site-tests/graph.js';
 import { publicSourceUrl } from '../.cache/msa/site-tests/source-url.js';
 import { renderMathText } from '../.cache/msa/site-tests/math-text.js';
 import { publicationMetadata } from '../.cache/msa/site-tests/publication-metadata.js';
 import { collectPublications, collectCoauthorship, recordedPublicationStats } from '../.cache/msa/site-tests/publications.js';
 import { recordedAffiliations } from '../.cache/msa/site-tests/institution-affiliations.js';
+
+const conceptFixture = (slug, fields = {}) => ({ slug, name: { en: slug }, difficulty: 'advanced', ...fields });
+
+test('concept reference gate catches a person or institution used as a concept without banning unknown concepts', () => {
+  const code = `import sys
+sys.path.insert(0,'scripts')
+from concept_references import concept_reference_errors
+check=lambda c: concept_reference_errors(c, {'real','shared'}, {'person','shared'}, {'university'})
+assert not check({'related':['real','unknown','shared'], 'key_people':['person']})
+for field in ['prerequisites','leads_to','related']:
+ for value in [['person'],['university'],[None],[''],'wrong scalar','',0,{}]:
+  assert check({field:value}),(field,value)
+print('namespace-only')`;
+  const result = spawnSync('python3', ['-c', code], { encoding: 'utf8' });
+  assert.equal(result.status, 0, result.stderr);
+});
+
+test('concept graph retains one-sided reversed and missing related references without duplicate pairs', () => {
+  const input = [conceptFixture('z', { related: ['a', 'a', 'missing', 'z'] }), conceptFixture('a')];
+  const before = structuredClone(input);
+  const graph = buildConceptGraph(input);
+  assert.deepEqual(graph.links.map(l => [l.type, l.source, l.target]), [
+    ['related', 'a', 'z'], ['related', 'missing', 'z'],
+  ]);
+  assert.equal(graph.nodes.find(n => n.id === 'missing').isGhost, true);
+  const reciprocal = buildConceptGraph([input[0], conceptFixture('a', { related: ['z'] })]);
+  assert.equal(reciprocal.links.length, 2);
+  graph.links[0].dash[0] = 99;
+  assert.deepEqual(input, before);
+  assert.deepEqual(buildConceptGraph(input).links[0].dash, [3, 4]);
+});
+
+test('concept direction and relation types survive duplicate citations, reverse arrows and parallel paths', () => {
+  const concepts = [conceptFixture('a', { prerequisites: ['b', 'b'], leads_to: ['b', 'b'], related: ['b'] }),
+    conceptFixture('b', { prerequisites: ['a'], leads_to: ['a'] })];
+  const graph = buildConceptGraph(concepts);
+  assert.equal(graph.links.length, 5);
+  assert.deepEqual(new Set(graph.links.map(l => `${l.type}:${l.source}>${l.target}`)), new Set([
+    'prerequisite:b>a', 'prerequisite:a>b', 'leads-to:a>b', 'leads-to:b>a', 'related:a>b',
+  ]));
+  const physicalOffsets = graph.links.map(l => (l.source < l.target ? 1 : -1) * l.curve);
+  assert.equal(new Set(physicalOffsets).size, 5);
+  const curves = (g) => Object.fromEntries(g.links.map(l => [`${l.type}:${l.source}`, l.curve]));
+  assert.deepEqual(curves(graph), curves(buildConceptGraph([...concepts].reverse())));
+  assert.deepEqual(buildConceptGraph([]), { nodes: [], links: [] });
+});
+
+test('prerequisite tracing terminates on cycles and never promotes related or further-study records', () => {
+  const concepts = [conceptFixture('a', { prerequisites: ['b'], leads_to: ['c'], related: ['d', 'b'] }),
+    conceptFixture('b', { prerequisites: ['a', 'missing'], leads_to: ['a'] }), conceptFixture('c'), conceptFixture('d')];
+  const chain = getPrerequisiteChain('a', concepts);
+  assert.deepEqual([...chain].sort(), ['a', 'b', 'missing']);
+  const graph = buildConceptGraph(concepts), before = structuredClone(graph);
+  const highlighted = highlightConceptPrerequisites(graph, chain);
+  assert.ok(highlighted.links.filter(l => l.opacity > 0.5).every(l => l.type === 'prerequisite'));
+  assert.equal(highlighted.links.find(l => l.type === 'related' && l.target === 'b').opacity, 0.06);
+  assert.equal(highlighted.nodes.find(n => n.id === 'c').opacity, 0.15);
+  assert.deepEqual(graph, before);
+  assert.deepEqual([...getPrerequisiteChain('unknown', concepts)], ['unknown']);
+});
 
 test('institution records retain historical study, work and visits without inventing current appointments', () => {
   const inst = { slug: 'a', research_groups: [] };

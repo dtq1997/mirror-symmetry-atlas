@@ -235,3 +235,13 @@ Goal仍active。继续本仓库全站审核；下一批优先机构归属模型�
 [Codex] 2026-10-08 第十二批线上验收完成：commit `025624331483b5063f797aecc87ae46f7b4ad741`，Actions `37711391648` success。八页HTTP全部符合本批预期，115机构列表数字与记录汇总一致；390px BICMR三条任职来源、20条人物关联及1280px IAS访问/历史任职均实际确认，未见横向溢出或error。截图 `bicmr-live-mobile.png`；证据 `batch-twelve-live-verification.json`。首张截图在绘制前截取，已用页面可见后的截图替换；没有把空画面当验收结果。仅本轮启动的预览PID49353经核对关闭，tab7关闭，尺寸复原。
 
 Goal仍active，完整内容核查未完成。下一步优先修概念图42对漏线及81条leads_to未独立处理（详见next-concept-graph-leads.json）；不得把YAML关系作为数学已证实的依据，不得将leads_to直接改成prerequisite。随后继续人物/论文来源、机构与会议、概念语义/时间线/开放问题。Eric Zaslow官方faculty页确认姓名、1995年Harvard物理博士、1998年入Northwestern、2022年Noyes冠名讲席，但仍未添加档案，不能称已修显示。
+
+
+[Codex] 2026-10-08 第十三批（本地核验完成，待部署）：
+
+- 概念图按关系类型和端点去重，补原来由字母顺序条件漏掉的单边related，新增leads_to独立箭头。前置/后续/相关不再冒用师生或合著类型；同一对概念的多种或反向关系分开曲线显示。前置追溯只高亮前置边，循环引用能终止。
+- 新增关系开关、可直接定位的概念选择框、缺档提示，手机图例可折叠。相同中文名的两个既有条目在选择框补英文名区分；没有据此合并或确认它们的内容。
+- primitive-forms.related误放人物k-saito，已移除；key_people和introduced_by仍保留此人。原始全文、修后全文及IPMU官方身份来源在primitive-forms-reference-review.json。不借此确认原初形式定义、年份或Saito其他档案。新增concept_reference_errors阻止人物/机构误作概念以及坏数组字段；未知概念仍显式保留。
+- 61概念最终48前置/81后续/102唯一相关=231条关系；64节点含3个缺档引用。原103对related中1对错类型撤下，其余42对旧漏线中的41对有效引用补回。全字段汇总见concept-graph-relation-review.json。
+- 35项回归、ESLint、TypeScript、生产构建通过，lint0errors/74warnings，283HTML/22279链接/642公式实例无目标/解析错误。桌面筛选231→129→0、定位和手机默认列表、缺档无伪详情、侧栏关闭均检查。
+- 本地人物页一次缓存加载停在SSR；无console error，CDP见304。仅该预览tab临时绕过缓存后资源200、画布和缩放/视图切换正常；设置已恢复。尚不能确定缓存问题根因，线上必须正常加载复查，不称此问题已修。

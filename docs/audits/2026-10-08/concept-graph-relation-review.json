@@ -1,0 +1,1496 @@
+{
+  "reviewer": "Codex",
+  "date": "2026-10-08",
+  "baseline_commit": "43494e40d69c8998a3d18244cbab32acdd9115a5",
+  "scope": "Literal coverage of all61 concept YAML relation fields by graph transformation; no mathematical or pedagogical certification",
+  "raw_rows": {
+    "prerequisite": 48,
+    "leads-to": 81,
+    "related": 111
+  },
+  "unique_rendered": {
+    "prerequisite": 48,
+    "leads-to": 81,
+    "related": 102
+  },
+  "known_concepts": 61,
+  "total_nodes": 64,
+  "ghost_slugs": [
+    "syz-conjecture",
+    "quantum-cluster-algebras",
+    "wild-character-varieties"
+  ],
+  "self_references_omitted": [],
+  "source_sha256": {
+    "algebraic-geometry.yaml": "a99b4997955c48110d9e5fd15899477f74d086e02c74859593fce418d33bc18c",
+    "algebraic-topology.yaml": "2e64cee76c96c22368eef19a118cda0de00af9236d935f47749a2f5920836a06",
+    "atiyah-class.yaml": "0ff0bc37d4104a5818d9877fcf98c7bf0781be3dbd81504a35eaa650fb55fb5d",
+    "calabi-yau.yaml": "0903c30605b1510e47a0cf301096abb15ba15cc7edde07039ebf45b972fc3bab",
+    "cluster-algebra.yaml": "304b5b636390c932afd66f1c38644e9e38bd5d65f934b93acd6362d2e829d757",
+    "complex-geometry.yaml": "e9b54c9f1f3ce2a597d18c0856629dbd2d47c4cebebd57b73cfdc070bf1e3cc2",
+    "courant-algebroid.yaml": "f4e36bd6eb3f7f344a7c71d9a6e215ad4d993009c2c78e4ed21fa949dee36607",
+    "crepant-transformation.yaml": "311e5599bd809f0716e90df51f15259fc78719f14771be20c97335e01e3486c8",
+    "deformation-quantization.yaml": "3a87a09703618d367946f7ff7cc2de8c68ba85a60d051a1a8292d5a4f8d79bb7",
+    "derived-categories.yaml": "b85ddf8559fb74f490ddd96680b929932b85ce23b898c227430fbc37705b72ed",
+    "derived-category.yaml": "de3e2620f9b3d8b1855cb00b77b18f5e2d81bb6a36737005b8803d1d488e95ca",
+    "differential-geometry.yaml": "0192b243a2353f6d48c8093834be26135b6edb1712aae7cb5ca3a3842ae6cd99",
+    "dubrovin-connection.yaml": "5e0bb717f3a317097160ecd959356c3042fd46d839a3c29be44767a9d241f06e",
+    "elliptic-cohomology.yaml": "edd1d66068ff9ded3c7b0ac0f62340588f4cbaf18bab60bf8ca7b94187de640f",
+    "enumerative-geometry.yaml": "07702bee1e9217f2352aebdc76f912b7de9c5f8b4d9f8cd6dbffd5d44b48844f",
+    "fjrw-theory.yaml": "cdaa4aa0005adb3ca301cd51ef1f51168bdca0eee3d48f41b4e3b3358868b90b",
+    "flat-connection.yaml": "08b361467b116116abd01aa01e31c54910884c45e4aa3b8d6a8cdb9d6d8a10de",
+    "frobenius-manifold.yaml": "0a34c10db0009c97d7fb0e2d49ca4ac27625fbd14d0cc900a4762667cc396834",
+    "frobenius-manifolds.yaml": "122158713e62baa52329de8467a63e0b1d1fc028b0e5659c516af58c437e03e1",
+    "fukaya-category.yaml": "0d34b51126a3c48357329112c549688a1386ca7cb399dffd558e8d3b51ac3a89",
+    "gamma-conjecture.yaml": "2f329270657245905f36a7a584313b0df1760b0647493216ce367fa24355785b",
+    "geometric-quantization.yaml": "b6bfb312340a89f054ab0fe95f5e3f7cfc35c4238df74777168c42feba6cdaec",
+    "gromov-witten-theory.yaml": "b9ca61b95860609fa9413b457e161d113b865e257a0eb87bf3f3f9601490194b",
+    "hodge-theory.yaml": "1d110633c7b5cdd5aa83efe1950af7308e737dcc0ad1704029cf29a2f312230c",
+    "homological-mirror-symmetry.yaml": "a1fffb122fe0b7f188b6f0c2a81b5f3705035dbc23d11ae158c4d3b7a9d3fa50",
+    "homotopy-algebra.yaml": "08cd886aa241dc4c3e433c02852fca2c85f24532dc074a5e498313c304e9e8de",
+    "homotopy-theory.yaml": "586e65519e41f7ada9bca7130a83cf1324c0168b2d8c3852668a382b599fe2a5",
+    "index-theory.yaml": "e93551769d94005943be8a77ce660fed978fefad9894526ab1666ebba0b1c56a",
+    "integrable-hierarchies.yaml": "ac06411edcaf9bfaba9b76e309f9572d629d9ae1c04e6f79bea35b3a790d8858",
+    "integrable-hierarchy.yaml": "b851881ca9d756b21dcb7e0a7e154b8f6cdb2c30a62d55fc272715c1dd999963",
+    "integrable-systems.yaml": "96f6e8410270a086a9c96faac95d12431f7e9edf262b179bcc9fd6d7dd96267e",
+    "intersection-numbers.yaml": "6242407b6fc67349145d5583655421af9bd63dd557a3813a386125e2a0052424",
+    "isomonodromy.yaml": "5d2504d0468fd0baa7a71da162fc8a4f59b3edda8fb1277ba8b6185049057f8b",
+    "k-theory.yaml": "ee26fe2c47e4ef5187e37bc63a3f1e4c39b58dccf492c2d21a5f4c5536d9b150",
+    "kashiwara-vergne.yaml": "cfe1b4cf1bca66adec20ad98ed4d84ac318c745f18147c6478fd68c9b0b58469",
+    "landau-ginzburg.yaml": "61e7c197a3e737a23a8f9eae4be3821e265dd84888a4fae1c16ba4f651f73656",
+    "lie-2-algebra.yaml": "15c3850ed2ddbaf9ffa9ed8e731af0927393e5a455a9e2d0775008f9e8589cd8",
+    "lie-algebroid.yaml": "69394bb2766c580f26f9b8ac66151838186423c524c8fefdf4e18bbcc61db0f3",
+    "mathematical-physics.yaml": "43a85a657993f4b06e0269ee4aa7c7d27ca0673c9924dba71f696382974e4a89",
+    "microlocal-sheaf.yaml": "b238e17fae0ad7ffaa8836e39cc67aece643054c55bfd8d2028bdb67016ce6e1",
+    "mirror-symmetry.yaml": "cc53cb8a1de41a0c7a9eea0df85c0e49c75c5de94e85505e0f79bba4100e9c82",
+    "moduli-spaces.yaml": "d8e04f864ee8d5ed9869500b74efd747f0d667e0c3307138976498763a911651",
+    "noncommutative-geometry.yaml": "36c4ae827145ef773cd65299da92d0ddf61e2dd96e19da07bf070dd92e09ccbc",
+    "number-theory.yaml": "b3216cdc27f92c4919546d8dcd918b8407d43d4645484b6e03fbc71b03720dd3",
+    "painleve-equations.yaml": "22bf3022f15f9dfb15e336f07cf277bb7215126d0d243a59cc4e9289a4f25318",
+    "poisson-geometry.yaml": "d4cdb9325ec4cc2e10cdf8385e47b16289b6025e44c84e31bfba18244af6000d",
+    "primitive-forms.yaml": "7382df1fdd554c95bf1f8a5a2322704b7b855dc89e70ac8ec4f42b96892c5ffc",
+    "quantum-cohomology.yaml": "50968a71bf5cdca08796adb7a6f3877abcc03de82accbe3b56576a05ce52fbda",
+    "quantum-groups.yaml": "28e01c57dab0bc565bb96aeeb9a692fd5cdce8ca8aa81c7debaa0c74fcf06648",
+    "singularity-theory.yaml": "18c543a54a0aac287b546a3468de18498543d31ad08716ee7c75cfd11b71f93f",
+    "stokes-phenomenon.yaml": "32eec3dc98a014d3547d2112b9d8ea61f375a41421d7f28a387a717894c06182",
+    "symplectic-geometry.yaml": "fa3fce0e07e2a751f6c5ad98a7a9fedff121e0b5bbd01674a4fa17ccf670b427",
+    "symplectic-topology.yaml": "7d97a90a2efe68d969b87b9ec35969c60da126f6d22fe5f40353a0f7a257f2de",
+    "tau-function.yaml": "0d21bf5f692a14057d056c4aaaec9e443c23dacf18e00b3168d0b2a9de36f6dc",
+    "topological-field-theory.yaml": "ef3c4895e0ccbb5c2f2d9da2e8d2de871c93fc5cb6a57f35db0dd5145159b0ae",
+    "topological-recursion.yaml": "5ba5a861d4489e133788ffe11054ea5447bd79cde82d37504e9fdd5f8545c1af",
+    "tqft.yaml": "e5286bb5923bf99d5889ddae654809cce6cdf97ec3cf500fed967eef22b59dae",
+    "tt-star-geometry.yaml": "4c78f337815ddad108eb7b2ac7e8dbba29b21222f1955dc606c314e8e794d244",
+    "twistor-structures.yaml": "7189125542a6cc69ec1b49f0e1d15ee61768ded86ea507a437bde879a1f6514d",
+    "virasoro-constraints.yaml": "369a8490f962c8d8d763fd1aaa4499edb8755cb053b16b10154dd3bfb736eca4",
+    "wdvv-equations.yaml": "9787eb474d6df2013ca703095d944352a2785cc03935d91336aa5f0fef226e7d"
+  },
+  "links": [
+    {
+      "type": "leads-to",
+      "source": "algebraic-geometry",
+      "target": "moduli-spaces",
+      "curve": 0
+    },
+    {
+      "type": "leads-to",
+      "source": "algebraic-geometry",
+      "target": "derived-category",
+      "curve": 0
+    },
+    {
+      "type": "leads-to",
+      "source": "algebraic-geometry",
+      "target": "gromov-witten-theory",
+      "curve": 0
+    },
+    {
+      "type": "related",
+      "source": "algebraic-geometry",
+      "target": "mirror-symmetry",
+      "curve": 0
+    },
+    {
+      "type": "related",
+      "source": "algebraic-geometry",
+      "target": "calabi-yau",
+      "curve": 0
+    },
+    {
+      "type": "leads-to",
+      "source": "algebraic-topology",
+      "target": "k-theory",
+      "curve": 0
+    },
+    {
+      "type": "leads-to",
+      "source": "algebraic-topology",
+      "target": "tqft",
+      "curve": 0
+    },
+    {
+      "type": "related",
+      "source": "algebraic-topology",
+      "target": "mathematical-physics",
+      "curve": 0
+    },
+    {
+      "type": "prerequisite",
+      "source": "derived-category",
+      "target": "atiyah-class",
+      "curve": 0
+    },
+    {
+      "type": "related",
+      "source": "atiyah-class",
+      "target": "lie-algebroid",
+      "curve": 0
+    },
+    {
+      "type": "related",
+      "source": "atiyah-class",
+      "target": "deformation-quantization",
+      "curve": 0
+    },
+    {
+      "type": "prerequisite",
+      "source": "symplectic-geometry",
+      "target": "calabi-yau",
+      "curve": 0
+    },
+    {
+      "type": "leads-to",
+      "source": "calabi-yau",
+      "target": "mirror-symmetry",
+      "curve": -0.12
+    },
+    {
+      "type": "leads-to",
+      "source": "calabi-yau",
+      "target": "homological-mirror-symmetry",
+      "curve": -0.12
+    },
+    {
+      "type": "leads-to",
+      "source": "calabi-yau",
+      "target": "gromov-witten-theory",
+      "curve": 0
+    },
+    {
+      "type": "related",
+      "source": "calabi-yau",
+      "target": "moduli-spaces",
+      "curve": 0
+    },
+    {
+      "type": "related",
+      "source": "calabi-yau",
+      "target": "derived-category",
+      "curve": 0
+    },
+    {
+      "type": "related",
+      "source": "cluster-algebra",
+      "target": "poisson-geometry",
+      "curve": 0
+    },
+    {
+      "type": "related",
+      "source": "cluster-algebra",
+      "target": "quantum-groups",
+      "curve": 0
+    },
+    {
+      "type": "related",
+      "source": "cluster-algebra",
+      "target": "mirror-symmetry",
+      "curve": 0
+    },
+    {
+      "type": "prerequisite",
+      "source": "differential-geometry",
+      "target": "complex-geometry",
+      "curve": 0
+    },
+    {
+      "type": "leads-to",
+      "source": "complex-geometry",
+      "target": "calabi-yau",
+      "curve": 0
+    },
+    {
+      "type": "leads-to",
+      "source": "complex-geometry",
+      "target": "mirror-symmetry",
+      "curve": 0
+    },
+    {
+      "type": "related",
+      "source": "algebraic-geometry",
+      "target": "complex-geometry",
+      "curve": 0
+    },
+    {
+      "type": "prerequisite",
+      "source": "lie-algebroid",
+      "target": "courant-algebroid",
+      "curve": -0.12
+    },
+    {
+      "type": "related",
+      "source": "courant-algebroid",
+      "target": "poisson-geometry",
+      "curve": 0
+    },
+    {
+      "type": "prerequisite",
+      "source": "gromov-witten-theory",
+      "target": "crepant-transformation",
+      "curve": 0
+    },
+    {
+      "type": "related",
+      "source": "crepant-transformation",
+      "target": "mirror-symmetry",
+      "curve": 0
+    },
+    {
+      "type": "related",
+      "source": "calabi-yau",
+      "target": "crepant-transformation",
+      "curve": 0
+    },
+    {
+      "type": "prerequisite",
+      "source": "poisson-geometry",
+      "target": "deformation-quantization",
+      "curve": 0
+    },
+    {
+      "type": "related",
+      "source": "deformation-quantization",
+      "target": "geometric-quantization",
+      "curve": 0
+    },
+    {
+      "type": "related",
+      "source": "deformation-quantization",
+      "target": "mathematical-physics",
+      "curve": 0
+    },
+    {
+      "type": "prerequisite",
+      "source": "derived-category",
+      "target": "derived-categories",
+      "curve": 0.12
+    },
+    {
+      "type": "related",
+      "source": "derived-categories",
+      "target": "derived-category",
+      "curve": 0.12
+    },
+    {
+      "type": "leads-to",
+      "source": "derived-category",
+      "target": "homological-mirror-symmetry",
+      "curve": -0.12
+    },
+    {
+      "type": "leads-to",
+      "source": "derived-category",
+      "target": "gamma-conjecture",
+      "curve": -0.12
+    },
+    {
+      "type": "leads-to",
+      "source": "differential-geometry",
+      "target": "symplectic-geometry",
+      "curve": 0
+    },
+    {
+      "type": "leads-to",
+      "source": "differential-geometry",
+      "target": "poisson-geometry",
+      "curve": 0
+    },
+    {
+      "type": "leads-to",
+      "source": "differential-geometry",
+      "target": "flat-connection",
+      "curve": 0
+    },
+    {
+      "type": "related",
+      "source": "differential-geometry",
+      "target": "mirror-symmetry",
+      "curve": 0
+    },
+    {
+      "type": "related",
+      "source": "differential-geometry",
+      "target": "mathematical-physics",
+      "curve": 0
+    },
+    {
+      "type": "prerequisite",
+      "source": "frobenius-manifold",
+      "target": "dubrovin-connection",
+      "curve": -0.12
+    },
+    {
+      "type": "prerequisite",
+      "source": "flat-connection",
+      "target": "dubrovin-connection",
+      "curve": 0
+    },
+    {
+      "type": "leads-to",
+      "source": "dubrovin-connection",
+      "target": "gamma-conjecture",
+      "curve": 0
+    },
+    {
+      "type": "leads-to",
+      "source": "dubrovin-connection",
+      "target": "stokes-phenomenon",
+      "curve": 0
+    },
+    {
+      "type": "related",
+      "source": "dubrovin-connection",
+      "target": "isomonodromy",
+      "curve": 0
+    },
+    {
+      "type": "related",
+      "source": "dubrovin-connection",
+      "target": "tt-star-geometry",
+      "curve": 0
+    },
+    {
+      "type": "prerequisite",
+      "source": "algebraic-topology",
+      "target": "elliptic-cohomology",
+      "curve": 0
+    },
+    {
+      "type": "prerequisite",
+      "source": "k-theory",
+      "target": "elliptic-cohomology",
+      "curve": 0
+    },
+    {
+      "type": "related",
+      "source": "elliptic-cohomology",
+      "target": "mathematical-physics",
+      "curve": 0
+    },
+    {
+      "type": "related",
+      "source": "elliptic-cohomology",
+      "target": "number-theory",
+      "curve": 0
+    },
+    {
+      "type": "leads-to",
+      "source": "enumerative-geometry",
+      "target": "gromov-witten-theory",
+      "curve": 0
+    },
+    {
+      "type": "leads-to",
+      "source": "enumerative-geometry",
+      "target": "fjrw-theory",
+      "curve": 0
+    },
+    {
+      "type": "related",
+      "source": "enumerative-geometry",
+      "target": "mirror-symmetry",
+      "curve": 0
+    },
+    {
+      "type": "related",
+      "source": "enumerative-geometry",
+      "target": "moduli-spaces",
+      "curve": 0
+    },
+    {
+      "type": "prerequisite",
+      "source": "landau-ginzburg",
+      "target": "fjrw-theory",
+      "curve": -0.12
+    },
+    {
+      "type": "prerequisite",
+      "source": "singularity-theory",
+      "target": "fjrw-theory",
+      "curve": 0.12
+    },
+    {
+      "type": "leads-to",
+      "source": "fjrw-theory",
+      "target": "mirror-symmetry",
+      "curve": 0
+    },
+    {
+      "type": "related",
+      "source": "fjrw-theory",
+      "target": "gromov-witten-theory",
+      "curve": 0
+    },
+    {
+      "type": "related",
+      "source": "fjrw-theory",
+      "target": "virasoro-constraints",
+      "curve": 0
+    },
+    {
+      "type": "leads-to",
+      "source": "flat-connection",
+      "target": "frobenius-manifold",
+      "curve": -0.12
+    },
+    {
+      "type": "leads-to",
+      "source": "flat-connection",
+      "target": "isomonodromy",
+      "curve": -0.12
+    },
+    {
+      "type": "leads-to",
+      "source": "flat-connection",
+      "target": "stokes-phenomenon",
+      "curve": -0.12
+    },
+    {
+      "type": "prerequisite",
+      "source": "flat-connection",
+      "target": "frobenius-manifold",
+      "curve": 0.12
+    },
+    {
+      "type": "prerequisite",
+      "source": "wdvv-equations",
+      "target": "frobenius-manifold",
+      "curve": -0.12
+    },
+    {
+      "type": "leads-to",
+      "source": "frobenius-manifold",
+      "target": "dubrovin-connection",
+      "curve": 0.12
+    },
+    {
+      "type": "leads-to",
+      "source": "frobenius-manifold",
+      "target": "quantum-cohomology",
+      "curve": -0.12
+    },
+    {
+      "type": "leads-to",
+      "source": "frobenius-manifold",
+      "target": "tt-star-geometry",
+      "curve": -0.12
+    },
+    {
+      "type": "leads-to",
+      "source": "frobenius-manifold",
+      "target": "integrable-hierarchy",
+      "curve": -0.12
+    },
+    {
+      "type": "related",
+      "source": "frobenius-manifold",
+      "target": "mirror-symmetry",
+      "curve": 0
+    },
+    {
+      "type": "related",
+      "source": "frobenius-manifold",
+      "target": "topological-field-theory",
+      "curve": 0
+    },
+    {
+      "type": "prerequisite",
+      "source": "frobenius-manifold",
+      "target": "frobenius-manifolds",
+      "curve": -0.12
+    },
+    {
+      "type": "related",
+      "source": "frobenius-manifold",
+      "target": "frobenius-manifolds",
+      "curve": 0.12
+    },
+    {
+      "type": "prerequisite",
+      "source": "mirror-symmetry",
+      "target": "fukaya-category",
+      "curve": 0
+    },
+    {
+      "type": "leads-to",
+      "source": "fukaya-category",
+      "target": "homological-mirror-symmetry",
+      "curve": -0.12
+    },
+    {
+      "type": "prerequisite",
+      "source": "frobenius-manifold",
+      "target": "gamma-conjecture",
+      "curve": 0
+    },
+    {
+      "type": "prerequisite",
+      "source": "quantum-cohomology",
+      "target": "gamma-conjecture",
+      "curve": 0
+    },
+    {
+      "type": "prerequisite",
+      "source": "derived-category",
+      "target": "gamma-conjecture",
+      "curve": 0.12
+    },
+    {
+      "type": "prerequisite",
+      "source": "stokes-phenomenon",
+      "target": "gamma-conjecture",
+      "curve": 0
+    },
+    {
+      "type": "related",
+      "source": "gamma-conjecture",
+      "target": "homological-mirror-symmetry",
+      "curve": 0
+    },
+    {
+      "type": "prerequisite",
+      "source": "symplectic-geometry",
+      "target": "geometric-quantization",
+      "curve": 0
+    },
+    {
+      "type": "related",
+      "source": "geometric-quantization",
+      "target": "poisson-geometry",
+      "curve": 0
+    },
+    {
+      "type": "related",
+      "source": "geometric-quantization",
+      "target": "mathematical-physics",
+      "curve": 0
+    },
+    {
+      "type": "leads-to",
+      "source": "gromov-witten-theory",
+      "target": "quantum-cohomology",
+      "curve": -0.12
+    },
+    {
+      "type": "leads-to",
+      "source": "gromov-witten-theory",
+      "target": "virasoro-constraints",
+      "curve": -0.12
+    },
+    {
+      "type": "leads-to",
+      "source": "gromov-witten-theory",
+      "target": "mirror-symmetry",
+      "curve": -0.12
+    },
+    {
+      "type": "related",
+      "source": "gromov-witten-theory",
+      "target": "integrable-hierarchy",
+      "curve": 0
+    },
+    {
+      "type": "related",
+      "source": "gromov-witten-theory",
+      "target": "moduli-spaces",
+      "curve": 0.12
+    },
+    {
+      "type": "leads-to",
+      "source": "hodge-theory",
+      "target": "tt-star-geometry",
+      "curve": 0
+    },
+    {
+      "type": "related",
+      "source": "calabi-yau",
+      "target": "hodge-theory",
+      "curve": 0
+    },
+    {
+      "type": "related",
+      "source": "hodge-theory",
+      "target": "mirror-symmetry",
+      "curve": 0
+    },
+    {
+      "type": "prerequisite",
+      "source": "mirror-symmetry",
+      "target": "homological-mirror-symmetry",
+      "curve": -0.12
+    },
+    {
+      "type": "prerequisite",
+      "source": "derived-category",
+      "target": "homological-mirror-symmetry",
+      "curve": 0.12
+    },
+    {
+      "type": "prerequisite",
+      "source": "fukaya-category",
+      "target": "homological-mirror-symmetry",
+      "curve": 0.12
+    },
+    {
+      "type": "related",
+      "source": "homological-mirror-symmetry",
+      "target": "quantum-cohomology",
+      "curve": 0.12
+    },
+    {
+      "type": "related",
+      "source": "calabi-yau",
+      "target": "homological-mirror-symmetry",
+      "curve": 0.12
+    },
+    {
+      "type": "leads-to",
+      "source": "homotopy-algebra",
+      "target": "deformation-quantization",
+      "curve": 0
+    },
+    {
+      "type": "related",
+      "source": "homotopy-algebra",
+      "target": "poisson-geometry",
+      "curve": 0
+    },
+    {
+      "type": "related",
+      "source": "derived-category",
+      "target": "homotopy-algebra",
+      "curve": 0
+    },
+    {
+      "type": "leads-to",
+      "source": "homotopy-theory",
+      "target": "k-theory",
+      "curve": 0
+    },
+    {
+      "type": "leads-to",
+      "source": "homotopy-theory",
+      "target": "elliptic-cohomology",
+      "curve": 0
+    },
+    {
+      "type": "related",
+      "source": "algebraic-topology",
+      "target": "homotopy-theory",
+      "curve": 0
+    },
+    {
+      "type": "related",
+      "source": "index-theory",
+      "target": "noncommutative-geometry",
+      "curve": 0
+    },
+    {
+      "type": "related",
+      "source": "index-theory",
+      "target": "k-theory",
+      "curve": 0
+    },
+    {
+      "type": "prerequisite",
+      "source": "integrable-hierarchy",
+      "target": "integrable-hierarchies",
+      "curve": 0.12
+    },
+    {
+      "type": "related",
+      "source": "integrable-hierarchies",
+      "target": "integrable-hierarchy",
+      "curve": 0.12
+    },
+    {
+      "type": "related",
+      "source": "integrable-hierarchies",
+      "target": "tau-function",
+      "curve": 0
+    },
+    {
+      "type": "prerequisite",
+      "source": "frobenius-manifold",
+      "target": "integrable-hierarchy",
+      "curve": 0.12
+    },
+    {
+      "type": "leads-to",
+      "source": "integrable-hierarchy",
+      "target": "virasoro-constraints",
+      "curve": -0.12
+    },
+    {
+      "type": "related",
+      "source": "integrable-hierarchy",
+      "target": "wdvv-equations",
+      "curve": 0.12
+    },
+    {
+      "type": "related",
+      "source": "integrable-hierarchy",
+      "target": "tau-function",
+      "curve": 0.12
+    },
+    {
+      "type": "leads-to",
+      "source": "integrable-systems",
+      "target": "integrable-hierarchy",
+      "curve": 0
+    },
+    {
+      "type": "leads-to",
+      "source": "integrable-systems",
+      "target": "frobenius-manifold",
+      "curve": 0
+    },
+    {
+      "type": "leads-to",
+      "source": "integrable-systems",
+      "target": "painleve-equations",
+      "curve": 0
+    },
+    {
+      "type": "related",
+      "source": "integrable-systems",
+      "target": "tau-function",
+      "curve": 0
+    },
+    {
+      "type": "related",
+      "source": "integrable-systems",
+      "target": "mathematical-physics",
+      "curve": 0
+    },
+    {
+      "type": "related",
+      "source": "integrable-systems",
+      "target": "virasoro-constraints",
+      "curve": 0
+    },
+    {
+      "type": "prerequisite",
+      "source": "moduli-spaces",
+      "target": "intersection-numbers",
+      "curve": 0
+    },
+    {
+      "type": "leads-to",
+      "source": "intersection-numbers",
+      "target": "tau-function",
+      "curve": -0.12
+    },
+    {
+      "type": "leads-to",
+      "source": "intersection-numbers",
+      "target": "topological-recursion",
+      "curve": -0.12
+    },
+    {
+      "type": "related",
+      "source": "gromov-witten-theory",
+      "target": "intersection-numbers",
+      "curve": 0
+    },
+    {
+      "type": "related",
+      "source": "intersection-numbers",
+      "target": "virasoro-constraints",
+      "curve": 0
+    },
+    {
+      "type": "prerequisite",
+      "source": "flat-connection",
+      "target": "isomonodromy",
+      "curve": 0.12
+    },
+    {
+      "type": "prerequisite",
+      "source": "stokes-phenomenon",
+      "target": "isomonodromy",
+      "curve": -0.12
+    },
+    {
+      "type": "leads-to",
+      "source": "isomonodromy",
+      "target": "painleve-equations",
+      "curve": -0.12
+    },
+    {
+      "type": "leads-to",
+      "source": "isomonodromy",
+      "target": "frobenius-manifold",
+      "curve": 0
+    },
+    {
+      "type": "related",
+      "source": "isomonodromy",
+      "target": "quantum-groups",
+      "curve": 0
+    },
+    {
+      "type": "related",
+      "source": "isomonodromy",
+      "target": "tt-star-geometry",
+      "curve": 0
+    },
+    {
+      "type": "related",
+      "source": "k-theory",
+      "target": "noncommutative-geometry",
+      "curve": 0
+    },
+    {
+      "type": "related",
+      "source": "gamma-conjecture",
+      "target": "k-theory",
+      "curve": 0
+    },
+    {
+      "type": "related",
+      "source": "algebraic-geometry",
+      "target": "k-theory",
+      "curve": 0
+    },
+    {
+      "type": "prerequisite",
+      "source": "quantum-groups",
+      "target": "kashiwara-vergne",
+      "curve": 0
+    },
+    {
+      "type": "related",
+      "source": "kashiwara-vergne",
+      "target": "poisson-geometry",
+      "curve": 0
+    },
+    {
+      "type": "prerequisite",
+      "source": "singularity-theory",
+      "target": "landau-ginzburg",
+      "curve": -0.12
+    },
+    {
+      "type": "leads-to",
+      "source": "landau-ginzburg",
+      "target": "fjrw-theory",
+      "curve": 0.12
+    },
+    {
+      "type": "leads-to",
+      "source": "landau-ginzburg",
+      "target": "primitive-forms",
+      "curve": -0.12
+    },
+    {
+      "type": "leads-to",
+      "source": "landau-ginzburg",
+      "target": "mirror-symmetry",
+      "curve": 0
+    },
+    {
+      "type": "related",
+      "source": "homological-mirror-symmetry",
+      "target": "landau-ginzburg",
+      "curve": 0
+    },
+    {
+      "type": "related",
+      "source": "derived-category",
+      "target": "landau-ginzburg",
+      "curve": 0
+    },
+    {
+      "type": "prerequisite",
+      "source": "homotopy-algebra",
+      "target": "lie-2-algebra",
+      "curve": 0
+    },
+    {
+      "type": "prerequisite",
+      "source": "lie-algebroid",
+      "target": "lie-2-algebra",
+      "curve": 0
+    },
+    {
+      "type": "related",
+      "source": "courant-algebroid",
+      "target": "lie-2-algebra",
+      "curve": 0
+    },
+    {
+      "type": "leads-to",
+      "source": "lie-algebroid",
+      "target": "courant-algebroid",
+      "curve": 0.12
+    },
+    {
+      "type": "related",
+      "source": "lie-algebroid",
+      "target": "poisson-geometry",
+      "curve": 0
+    },
+    {
+      "type": "leads-to",
+      "source": "mathematical-physics",
+      "target": "integrable-hierarchy",
+      "curve": 0
+    },
+    {
+      "type": "leads-to",
+      "source": "mathematical-physics",
+      "target": "frobenius-manifold",
+      "curve": 0
+    },
+    {
+      "type": "leads-to",
+      "source": "mathematical-physics",
+      "target": "gromov-witten-theory",
+      "curve": 0
+    },
+    {
+      "type": "leads-to",
+      "source": "mathematical-physics",
+      "target": "quantum-groups",
+      "curve": 0
+    },
+    {
+      "type": "leads-to",
+      "source": "mathematical-physics",
+      "target": "tqft",
+      "curve": 0
+    },
+    {
+      "type": "related",
+      "source": "mathematical-physics",
+      "target": "mirror-symmetry",
+      "curve": 0
+    },
+    {
+      "type": "related",
+      "source": "mathematical-physics",
+      "target": "topological-field-theory",
+      "curve": 0
+    },
+    {
+      "type": "prerequisite",
+      "source": "derived-category",
+      "target": "microlocal-sheaf",
+      "curve": 0
+    },
+    {
+      "type": "leads-to",
+      "source": "microlocal-sheaf",
+      "target": "homological-mirror-symmetry",
+      "curve": 0
+    },
+    {
+      "type": "related",
+      "source": "microlocal-sheaf",
+      "target": "symplectic-geometry",
+      "curve": 0
+    },
+    {
+      "type": "related",
+      "source": "fukaya-category",
+      "target": "microlocal-sheaf",
+      "curve": 0
+    },
+    {
+      "type": "leads-to",
+      "source": "mirror-symmetry",
+      "target": "homological-mirror-symmetry",
+      "curve": 0.12
+    },
+    {
+      "type": "leads-to",
+      "source": "mirror-symmetry",
+      "target": "syz-conjecture",
+      "curve": 0
+    },
+    {
+      "type": "leads-to",
+      "source": "mirror-symmetry",
+      "target": "quantum-cohomology",
+      "curve": -0.12
+    },
+    {
+      "type": "leads-to",
+      "source": "mirror-symmetry",
+      "target": "gromov-witten-theory",
+      "curve": -0.12
+    },
+    {
+      "type": "related",
+      "source": "mirror-symmetry",
+      "target": "topological-field-theory",
+      "curve": 0
+    },
+    {
+      "type": "related",
+      "source": "calabi-yau",
+      "target": "mirror-symmetry",
+      "curve": 0.12
+    },
+    {
+      "type": "leads-to",
+      "source": "moduli-spaces",
+      "target": "gromov-witten-theory",
+      "curve": 0.12
+    },
+    {
+      "type": "related",
+      "source": "integrable-hierarchy",
+      "target": "moduli-spaces",
+      "curve": 0
+    },
+    {
+      "type": "related",
+      "source": "mathematical-physics",
+      "target": "noncommutative-geometry",
+      "curve": 0
+    },
+    {
+      "type": "related",
+      "source": "algebraic-geometry",
+      "target": "number-theory",
+      "curve": 0
+    },
+    {
+      "type": "related",
+      "source": "mathematical-physics",
+      "target": "number-theory",
+      "curve": 0
+    },
+    {
+      "type": "prerequisite",
+      "source": "isomonodromy",
+      "target": "painleve-equations",
+      "curve": 0.12
+    },
+    {
+      "type": "related",
+      "source": "frobenius-manifold",
+      "target": "painleve-equations",
+      "curve": 0
+    },
+    {
+      "type": "related",
+      "source": "painleve-equations",
+      "target": "stokes-phenomenon",
+      "curve": 0
+    },
+    {
+      "type": "related",
+      "source": "painleve-equations",
+      "target": "quantum-cluster-algebras",
+      "curve": 0
+    },
+    {
+      "type": "leads-to",
+      "source": "poisson-geometry",
+      "target": "quantum-groups",
+      "curve": -0.12
+    },
+    {
+      "type": "related",
+      "source": "poisson-geometry",
+      "target": "stokes-phenomenon",
+      "curve": 0
+    },
+    {
+      "type": "related",
+      "source": "frobenius-manifold",
+      "target": "poisson-geometry",
+      "curve": 0
+    },
+    {
+      "type": "prerequisite",
+      "source": "singularity-theory",
+      "target": "primitive-forms",
+      "curve": -0.12
+    },
+    {
+      "type": "leads-to",
+      "source": "primitive-forms",
+      "target": "frobenius-manifold",
+      "curve": 0
+    },
+    {
+      "type": "leads-to",
+      "source": "primitive-forms",
+      "target": "landau-ginzburg",
+      "curve": -0.12
+    },
+    {
+      "type": "related",
+      "source": "mirror-symmetry",
+      "target": "primitive-forms",
+      "curve": 0
+    },
+    {
+      "type": "prerequisite",
+      "source": "gromov-witten-theory",
+      "target": "quantum-cohomology",
+      "curve": 0.12
+    },
+    {
+      "type": "leads-to",
+      "source": "quantum-cohomology",
+      "target": "frobenius-manifold",
+      "curve": -0.12
+    },
+    {
+      "type": "leads-to",
+      "source": "quantum-cohomology",
+      "target": "homological-mirror-symmetry",
+      "curve": 0.12
+    },
+    {
+      "type": "related",
+      "source": "mirror-symmetry",
+      "target": "quantum-cohomology",
+      "curve": 0.12
+    },
+    {
+      "type": "related",
+      "source": "quantum-cohomology",
+      "target": "wdvv-equations",
+      "curve": 0
+    },
+    {
+      "type": "leads-to",
+      "source": "quantum-groups",
+      "target": "stokes-phenomenon",
+      "curve": -0.12
+    },
+    {
+      "type": "related",
+      "source": "poisson-geometry",
+      "target": "quantum-groups",
+      "curve": 0.12
+    },
+    {
+      "type": "related",
+      "source": "frobenius-manifold",
+      "target": "quantum-groups",
+      "curve": 0
+    },
+    {
+      "type": "leads-to",
+      "source": "singularity-theory",
+      "target": "landau-ginzburg",
+      "curve": 0.12
+    },
+    {
+      "type": "leads-to",
+      "source": "singularity-theory",
+      "target": "primitive-forms",
+      "curve": 0.12
+    },
+    {
+      "type": "related",
+      "source": "mirror-symmetry",
+      "target": "singularity-theory",
+      "curve": 0
+    },
+    {
+      "type": "related",
+      "source": "fjrw-theory",
+      "target": "singularity-theory",
+      "curve": 0.12
+    },
+    {
+      "type": "prerequisite",
+      "source": "flat-connection",
+      "target": "stokes-phenomenon",
+      "curve": 0.12
+    },
+    {
+      "type": "leads-to",
+      "source": "stokes-phenomenon",
+      "target": "isomonodromy",
+      "curve": 0.12
+    },
+    {
+      "type": "leads-to",
+      "source": "stokes-phenomenon",
+      "target": "wild-character-varieties",
+      "curve": 0
+    },
+    {
+      "type": "related",
+      "source": "frobenius-manifold",
+      "target": "stokes-phenomenon",
+      "curve": 0
+    },
+    {
+      "type": "related",
+      "source": "quantum-groups",
+      "target": "stokes-phenomenon",
+      "curve": 0.12
+    },
+    {
+      "type": "leads-to",
+      "source": "symplectic-geometry",
+      "target": "fukaya-category",
+      "curve": 0
+    },
+    {
+      "type": "leads-to",
+      "source": "symplectic-geometry",
+      "target": "mirror-symmetry",
+      "curve": 0
+    },
+    {
+      "type": "leads-to",
+      "source": "symplectic-geometry",
+      "target": "poisson-geometry",
+      "curve": 0
+    },
+    {
+      "type": "related",
+      "source": "gromov-witten-theory",
+      "target": "symplectic-geometry",
+      "curve": 0
+    },
+    {
+      "type": "prerequisite",
+      "source": "symplectic-geometry",
+      "target": "symplectic-topology",
+      "curve": 0
+    },
+    {
+      "type": "leads-to",
+      "source": "symplectic-topology",
+      "target": "gromov-witten-theory",
+      "curve": 0
+    },
+    {
+      "type": "leads-to",
+      "source": "symplectic-topology",
+      "target": "fukaya-category",
+      "curve": 0
+    },
+    {
+      "type": "related",
+      "source": "mirror-symmetry",
+      "target": "symplectic-topology",
+      "curve": 0
+    },
+    {
+      "type": "prerequisite",
+      "source": "integrable-hierarchy",
+      "target": "tau-function",
+      "curve": -0.12
+    },
+    {
+      "type": "leads-to",
+      "source": "tau-function",
+      "target": "topological-recursion",
+      "curve": -0.12
+    },
+    {
+      "type": "leads-to",
+      "source": "tau-function",
+      "target": "intersection-numbers",
+      "curve": -0.12
+    },
+    {
+      "type": "related",
+      "source": "tau-function",
+      "target": "virasoro-constraints",
+      "curve": 0
+    },
+    {
+      "type": "related",
+      "source": "mirror-symmetry",
+      "target": "tau-function",
+      "curve": 0
+    },
+    {
+      "type": "related",
+      "source": "gromov-witten-theory",
+      "target": "tau-function",
+      "curve": 0
+    },
+    {
+      "type": "prerequisite",
+      "source": "tqft",
+      "target": "topological-field-theory",
+      "curve": 0.12
+    },
+    {
+      "type": "related",
+      "source": "topological-field-theory",
+      "target": "tqft",
+      "curve": 0.12
+    },
+    {
+      "type": "prerequisite",
+      "source": "moduli-spaces",
+      "target": "topological-recursion",
+      "curve": 0
+    },
+    {
+      "type": "leads-to",
+      "source": "topological-recursion",
+      "target": "intersection-numbers",
+      "curve": -0.12
+    },
+    {
+      "type": "related",
+      "source": "mirror-symmetry",
+      "target": "topological-recursion",
+      "curve": 0
+    },
+    {
+      "type": "related",
+      "source": "tau-function",
+      "target": "topological-recursion",
+      "curve": 0.12
+    },
+    {
+      "type": "leads-to",
+      "source": "tqft",
+      "target": "frobenius-manifold",
+      "curve": 0
+    },
+    {
+      "type": "leads-to",
+      "source": "tqft",
+      "target": "gromov-witten-theory",
+      "curve": 0
+    },
+    {
+      "type": "related",
+      "source": "mirror-symmetry",
+      "target": "tqft",
+      "curve": 0
+    },
+    {
+      "type": "prerequisite",
+      "source": "frobenius-manifold",
+      "target": "tt-star-geometry",
+      "curve": 0.12
+    },
+    {
+      "type": "prerequisite",
+      "source": "stokes-phenomenon",
+      "target": "tt-star-geometry",
+      "curve": 0
+    },
+    {
+      "type": "related",
+      "source": "tt-star-geometry",
+      "target": "twistor-structures",
+      "curve": 0.12
+    },
+    {
+      "type": "prerequisite",
+      "source": "tt-star-geometry",
+      "target": "twistor-structures",
+      "curve": -0.12
+    },
+    {
+      "type": "related",
+      "source": "singularity-theory",
+      "target": "twistor-structures",
+      "curve": 0
+    },
+    {
+      "type": "related",
+      "source": "frobenius-manifold",
+      "target": "twistor-structures",
+      "curve": 0
+    },
+    {
+      "type": "prerequisite",
+      "source": "gromov-witten-theory",
+      "target": "virasoro-constraints",
+      "curve": 0.12
+    },
+    {
+      "type": "related",
+      "source": "integrable-hierarchy",
+      "target": "virasoro-constraints",
+      "curve": 0.12
+    },
+    {
+      "type": "related",
+      "source": "virasoro-constraints",
+      "target": "wdvv-equations",
+      "curve": 0.12
+    },
+    {
+      "type": "prerequisite",
+      "source": "flat-connection",
+      "target": "wdvv-equations",
+      "curve": 0
+    },
+    {
+      "type": "leads-to",
+      "source": "wdvv-equations",
+      "target": "frobenius-manifold",
+      "curve": 0.12
+    },
+    {
+      "type": "leads-to",
+      "source": "wdvv-equations",
+      "target": "integrable-hierarchy",
+      "curve": 0.12
+    },
+    {
+      "type": "leads-to",
+      "source": "wdvv-equations",
+      "target": "virasoro-constraints",
+      "curve": 0.12
+    },
+    {
+      "type": "related",
+      "source": "topological-field-theory",
+      "target": "wdvv-equations",
+      "curve": 0
+    }
+  ],
+  "limitations": [
+    "Only primitive-forms.related lost one wrong-namespace person reference, independently archived with its source; all other concept content is unchanged and not fully reviewed.",
+    "Further-study arrows remain distinct from prerequisites even where both connect the same pair.",
+    "Prerequisite tracing is a cycle-safe record traversal, not a certified learning order.",
+    "Related reciprocal references are one undirected pair; opposite directed records remain separate."
+  ],
+  "related_before": {
+    "unique": 103,
+    "rendered": 61,
+    "missing": 42
+  },
+  "related_after": {
+    "unique": 102,
+    "rendered": 102,
+    "recovered_valid_pairs": 41,
+    "removed_wrong_namespace_pair": [
+      "k-saito",
+      "primitive-forms"
+    ]
+  },
+  "correction_evidence": "primitive-forms-reference-review.json"
+}

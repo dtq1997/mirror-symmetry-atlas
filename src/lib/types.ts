@@ -421,6 +421,7 @@ export interface Seminar {
 // ===== Graph =====
 
 export type EntityType = "person" | "concept" | "paper" | "institution";
+export type ConceptRelationType = "prerequisite" | "leads-to" | "related";
 
 export interface GraphNode {
   id: string;
@@ -440,10 +441,11 @@ export interface GraphNode {
 export interface GraphLink {
   source: string;
   target: string;
-  type: ConnectionType;
+  type: ConnectionType | ConceptRelationType;
   weight: number;
   color: string;
   dash?: number[];
+  curve?: number;
   opacity: number;
   label?: string;
   data?: Connection;

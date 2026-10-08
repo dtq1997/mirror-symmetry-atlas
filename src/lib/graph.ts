@@ -9,6 +9,7 @@ import type {
   ConnectionType,
   Difficulty,
   LifeDateFact,
+  ConceptRelationType,
 } from "./types";
 
 // ===== Color constants =====
@@ -328,6 +329,59 @@ function conceptRadius(c: Concept): number {
   return 5;
 }
 
+export const CONCEPT_RELATIONS: Record<ConceptRelationType, {
+  label: string; color: string; dash?: number[];
+}> = {
+  prerequisite: { label: "前置记录", color: "#ef4444" },
+  "leads-to": { label: "后续方向", color: "#38bdf8", dash: [7, 3] },
+  related: { label: "相关记录", color: "#a1a1b8", dash: [3, 4] },
+};
+
+function conceptLinks(concepts: Concept[]): GraphLink[] {
+  const links = new Map<string, GraphLink>();
+  for (const c of concepts) {
+    const fields = [
+      ["prerequisite", c.prerequisites], ["leads-to", c.leads_to], ["related", c.related],
+    ] as const;
+    for (const [type, refs] of fields) {
+      for (const ref of refs ?? []) {
+        if (ref === c.slug) continue;
+        let [source, target] = type === "prerequisite" ? [ref, c.slug] : [c.slug, ref];
+        if (type === "related") [source, target] = [source, target].sort();
+        const style = CONCEPT_RELATIONS[type];
+        links.set(JSON.stringify([type, source, target]), {
+          source, target, type, weight: 1, ...style,
+          dash: style.dash?.slice(), opacity: type === "related" ? 0.4 : 0.65,
+        });
+      }
+    }
+  }
+  const pairs = new Map<string, GraphLink[]>();
+  for (const link of links.values()) {
+    const key = JSON.stringify([link.source, link.target].sort());
+    const group = pairs.get(key) ?? [];
+    group.push(link);
+    pairs.set(key, group);
+  }
+  // Distinct relation types and reverse arrows must not paint over each other.
+  for (const group of pairs.values()) {
+    group.sort((a, b) => `${a.type}:${a.source}`.localeCompare(`${b.type}:${b.source}`));
+    group.forEach((link, index) => {
+      const direction = link.source < link.target ? 1 : -1;
+      link.curve = direction * 0.24 * (index - (group.length - 1) / 2);
+    });
+  }
+  return [...links.values()];
+}
+
+export function highlightConceptPrerequisites(graph: GraphData, chain: Set<string>): GraphData {
+  return {
+    nodes: graph.nodes.map((node) => ({ ...node, opacity: chain.has(node.id) ? 1 : 0.15 })),
+    links: graph.links.map((link) => ({ ...link, opacity:
+      link.type === "prerequisite" && chain.has(link.source) && chain.has(link.target) ? 0.85 : 0.06 })),
+  };
+}
+
 export function buildConceptGraph(
   concepts: Concept[]
 ): GraphData {
@@ -348,12 +402,9 @@ export function buildConceptGraph(
     nodeIds.add(c.slug);
   }
 
-  // Ghost nodes for referenced but missing concepts
-  const referenced = new Set<string>();
-  for (const c of concepts) {
-    for (const p of c.prerequisites || []) referenced.add(p);
-    for (const l of c.leads_to || []) referenced.add(l);
-  }
+  const links = conceptLinks(concepts);
+  // Every relation retains missing targets as explicit, non-clickable records.
+  const referenced = new Set(links.flatMap((link) => [link.source, link.target]));
   for (const slug of referenced) {
     if (!nodeIds.has(slug)) {
       nodes.push({
@@ -366,39 +417,6 @@ export function buildConceptGraph(
         isGhost: true,
       });
       nodeIds.add(slug);
-    }
-  }
-
-  // Directed edges: prerequisites → concept
-  const links: GraphLink[] = [];
-  for (const c of concepts) {
-    for (const prereq of c.prerequisites || []) {
-      if (nodeIds.has(prereq)) {
-        links.push({
-          source: prereq,
-          target: c.slug,
-          type: "advisor-student", // reuse for arrow rendering
-          weight: 1,
-          color: "#ef4444",
-          opacity: 0.6,
-          label: undefined,
-        });
-      }
-    }
-    // Also add "related" edges (undirected, dashed)
-    for (const rel of c.related || []) {
-      if (nodeIds.has(rel) && c.slug < rel) {
-        // avoid duplicates
-        links.push({
-          source: c.slug,
-          target: rel,
-          type: "coauthor", // reuse for dashed rendering
-          weight: 1,
-          color: "#8888a0",
-          dash: [3, 4],
-          opacity: 0.3,
-        });
-      }
     }
   }
 

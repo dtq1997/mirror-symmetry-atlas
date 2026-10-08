@@ -69,7 +69,7 @@ export default function PeopleNetwork({ graphData, institutionNames }: PeopleNet
     let data = graphData;
 
     // Edge type filter
-    const filteredLinks = data.links.filter((l) => edgeFilters[l.type]);
+    const filteredLinks = data.links.filter((l) => Object.hasOwn(edgeFilters, l.type) && edgeFilters[l.type as ConnectionType]);
     data = { ...data, links: filteredLinks };
 
     // Ghost filter

@@ -1,0 +1,94 @@
+{
+  "reviewer": "Codex",
+  "date": "2026-10-08",
+  "path": "data/concepts/primitive-forms.yaml",
+  "scope": "Remove a person reference from concept-only related; preserve existing key_people and introduced_by. Not an audit of primitive-form axioms, classification, chronology or all Saito publications.",
+  "before": {
+    "slug": "primitive-forms",
+    "name": {
+      "en": "Primitive Forms",
+      "zh": "原初形式"
+    },
+    "aliases": [
+      "primitive form"
+    ],
+    "category": "equation",
+    "difficulty": "research-frontier",
+    "discipline": "math",
+    "year_introduced": 1983,
+    "introduced_by": [
+      "k-saito"
+    ],
+    "definition": "Kyoji Saito 引入的原初形式 $\\zeta$：孤立超曲面奇点 $W$ 的\n半泛形变上，$\\zeta \\in \\Omega^n(\\mathcal{X}/S)$ 满足若干\n公理，诱导出 $S$ 上的 flat structure（即 Saito 结构，\n也称 flat Frobenius 结构）。为 mirror symmetry 中 B-侧\nLandau-Ginzburg 模型提供核心技术。\n",
+    "dual_to": null,
+    "prerequisites": [
+      "singularity-theory"
+    ],
+    "leads_to": [
+      "frobenius-manifold",
+      "landau-ginzburg"
+    ],
+    "related": [
+      "mirror-symmetry",
+      "k-saito"
+    ],
+    "key_people": [
+      "k-saito",
+      "li-changzheng",
+      "si-li"
+    ],
+    "key_papers": [],
+    "tags": [
+      "layer-1"
+    ]
+  },
+  "after": {
+    "slug": "primitive-forms",
+    "name": {
+      "en": "Primitive Forms",
+      "zh": "原初形式"
+    },
+    "aliases": [
+      "primitive form"
+    ],
+    "category": "equation",
+    "difficulty": "research-frontier",
+    "discipline": "math",
+    "year_introduced": 1983,
+    "introduced_by": [
+      "k-saito"
+    ],
+    "definition": "Kyoji Saito 引入的原初形式 $\\zeta$：孤立超曲面奇点 $W$ 的\n半泛形变上，$\\zeta \\in \\Omega^n(\\mathcal{X}/S)$ 满足若干\n公理，诱导出 $S$ 上的 flat structure（即 Saito 结构，\n也称 flat Frobenius 结构）。为 mirror symmetry 中 B-侧\nLandau-Ginzburg 模型提供核心技术。\n",
+    "dual_to": null,
+    "prerequisites": [
+      "singularity-theory"
+    ],
+    "leads_to": [
+      "frobenius-manifold",
+      "landau-ginzburg"
+    ],
+    "related": [
+      "mirror-symmetry"
+    ],
+    "key_people": [
+      "k-saito",
+      "li-changzheng",
+      "si-li"
+    ],
+    "key_papers": [],
+    "tags": [
+      "layer-1"
+    ]
+  },
+  "source": {
+    "url": "https://www.ipmu.jp/en/content/cb5905bd-be6f-4b53-b0e4-1db0e8afa3de",
+    "sha256": "ab6e138d9ba051fd279fdb551e906bda9072ac95e8085a1920eb9daa8954bdb9",
+    "status": 200,
+    "supports": "The official2016 award announcement identifies Kyoji Saito as a person. No present-day appointment claim inferred."
+  },
+  "local_evidence": [
+    "data/people/k-saito.yaml identifies the same person; data/concepts/k-saito.yaml does not exist.",
+    "primitive-forms already records k-saito in key_people and introduced_by; those fields remain unchanged."
+  ],
+  "publication_scan": "Saito existing titles/venues scanned for obvious non-mathematical contamination. No ownership certification performed; possible duplicates and bibliographic issues remain for later source review."
+}

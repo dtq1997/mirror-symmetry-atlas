@@ -91,6 +91,18 @@ function endpointNode(endpoint: ForceLink["source"]): ForceNode | null {
   return typeof endpoint === "object" && endpoint !== null ? endpoint : null;
 }
 
+function paintArrow(ctx: CanvasRenderingContext2D, x: number, y: number, angle: number, scale: number) {
+  const length = 6 / scale;
+  ctx.setLineDash([]);
+  ctx.beginPath();
+  for (const side of [-1, 1]) {
+    ctx.moveTo(x, y);
+    ctx.lineTo(x - length * Math.cos(angle + side * Math.PI / 6),
+      y - length * Math.sin(angle + side * Math.PI / 6));
+  }
+  ctx.stroke();
+}
+
 export default function ForceGraph({
   data,
   width,
@@ -271,29 +283,17 @@ export default function ForceGraph({
 
       ctx.beginPath();
       ctx.moveTo(sx, sy);
-      ctx.lineTo(tx, ty);
+      const curve = gLink.curve ?? 0;
+      const cx = (sx + tx) / 2 - (ty - sy) * curve;
+      const cy = (sy + ty) / 2 + (tx - sx) * curve;
+      if (curve) ctx.quadraticCurveTo(cx, cy, tx, ty);
+      else ctx.lineTo(tx, ty);
       ctx.stroke();
 
-      // Arrow for advisor-student
-      if (gLink.type === "advisor-student") {
-        const angle = Math.atan2(ty - sy, tx - sx);
-        const arrowLen = 6 / globalScale;
-        const mx = (sx + tx) / 2;
-        const my = (sy + ty) / 2;
-
-        ctx.setLineDash([]);
-        ctx.beginPath();
-        ctx.moveTo(mx, my);
-        ctx.lineTo(
-          mx - arrowLen * Math.cos(angle - Math.PI / 6),
-          my - arrowLen * Math.sin(angle - Math.PI / 6)
-        );
-        ctx.moveTo(mx, my);
-        ctx.lineTo(
-          mx - arrowLen * Math.cos(angle + Math.PI / 6),
-          my - arrowLen * Math.sin(angle + Math.PI / 6)
-        );
-        ctx.stroke();
+      // A quadratic curve's midpoint tangent follows target minus source.
+      if (["advisor-student", "prerequisite", "leads-to"].includes(gLink.type)) {
+        paintArrow(ctx, (sx + 2 * cx + tx) / 4, (sy + 2 * cy + ty) / 4,
+          Math.atan2(ty - sy, tx - sx), globalScale);
       }
 
       // Weight label for coauthor
