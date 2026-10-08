@@ -8,15 +8,18 @@ aliases:
 category: equation
 difficulty: advanced
 discipline: both
-year_introduced: 1990
+year_introduced: null
 introduced_by: [witten, dijkgraaf]
 definition: |
-  关于函数 $F(t)$ 的非线性偏微分方程组：
-  $\frac{\partial^3 F}{\partial t^\alpha \partial t^\beta \partial t^\mu} \eta^{\mu\nu}
-  \frac{\partial^3 F}{\partial t_\nu \partial t^\gamma \partial t^\delta}
-  = \frac{\partial^3 F}{\partial t^\delta \partial t^\beta \partial t^\mu} \eta^{\mu\nu}
-  \frac{\partial^3 F}{\partial t_\nu \partial t^\gamma \partial t^\alpha}$
-  表达量子乘积的结合律。
+  设 $F$ 是坐标 $t^1,\ldots,t^n$ 的局部势函数，$\eta=(\eta_{\alpha\beta})$ 是常数、对称、非退化矩阵，$(\eta^{\alpha\beta})$ 是其逆矩阵。结合律方程为
+  $$\sum_{\lambda,\mu=1}^{n} F_{\alpha\beta\lambda}\eta^{\lambda\mu}F_{\gamma\delta\mu}
+  =\sum_{\lambda,\mu=1}^{n} F_{\gamma\beta\lambda}\eta^{\lambda\mu}F_{\alpha\delta\mu}.$$
+  这里 $F_{\alpha\beta\gamma}=\partial^3F/(\partial t^\alpha\partial t^\beta\partial t^\gamma)$，方程对所有 $\alpha,\beta,\gamma,\delta\in\{1,\ldots,n\}$ 成立。
+  取结构常数 $c^\gamma_{\alpha\beta}=\sum_{\epsilon=1}^{n}\eta^{\gamma\epsilon}F_{\epsilon\alpha\beta}$，上述方程表达相应乘法的结合律。
+  在 Dubrovin 的带单位、带 Euler 场的 WDVV 系统中，还须加上 $F_{1\alpha\beta}=\eta_{\alpha\beta}$ 的单位归一化及拟齐次条件；单独的结合律方程不包含这两项要求。
+history_note: |
+  WDVV 以 Witten、Dijkgraaf、Erik Verlinde 和 Herman Verlinde 命名。Dubrovin 的讲义将其来源追溯到 Witten 的 1990 年论文与 Dijkgraaf、E. Verlinde、H. Verlinde 的 1990—1991 年工作；不把这一组文献压成唯一的提出日期。
+review_note: "2026-10-08：按原文核对公式、记号、单位与拟齐次条件及文献年代线索。图中的学习关系仍待逐条核对；下列人物仅为本站已建档的部分相关学者。"
 dual_to: null
 prerequisites:
   - flat-connection
@@ -28,13 +31,18 @@ related:
   - topological-field-theory
   - quantum-cohomology
 key_people: [dubrovin, zhang-youjin, liu-siqi]
-key_papers: []
+key_papers: ["hep-th/9407018", "1701.03222"]
 contributions:
   - person: dubrovin
     role: major
-    description: "证明 WDVV 解空间即 Frobenius 流形"
+    description: "给出带单位归一化、拟齐次条件的 WDVV 解与 Frobenius 流形的局部对应（1994 年讲义，Lemma 1.2）。"
   - person: zhang-youjin
     role: major
-    description: "与 Dubrovin 和 Liu 合作研究 WDVV 与可积层级的联系"
+    description: "与 Dubrovin、刘思齐研究平坦、正合、半单的流体型双 Hamilton 结构及主层级的 tau 结构（1701.03222）。"
+sources:
+  - label: "Dubrovin：Geometry of 2d topological field theories，§1，式 (1.1)、(1.9)、(1.14)，Lemma 1.2；参考文献 39、148"
+    url: https://arxiv.org/abs/hep-th/9407018v1
+  - label: "Dubrovin–Liu–Zhang：Bihamiltonian Cohomologies and Integrable Hierarchies II，摘要与 §2、§6"
+    url: https://arxiv.org/abs/1701.03222v1
 tags:
   - layer-2

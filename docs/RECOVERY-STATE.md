@@ -251,3 +251,12 @@ Goal仍active，完整内容核查未完成。下一步优先修概念图42对�
 [Codex] 2026-10-08 第十三批线上验收完成：commit `4e650b58098226c8957149e2e075412027849417`，Actions `37713164901` success。五页HTTP符合预期；正常缓存下人物图有画布、缩放63%→88%，未复现本地SSR停留。概念图231→129关系筛选、缺档提示、原初形式2项前置追溯、390px首次列表及侧栏关闭边界372px均实际通过，error日志为空。截图concept-graph-live-desktop.png，报告batch-thirteen-live-verification.json。预览PID62797和tab8已关闭；尺寸及临时缓存设置已恢复。
 
 Goal仍active，转向概念内容的一手来源核查而非继续把绘图通过当事实通过。入口next-concept-content-leads.json保存七条原文待核记录；WDVV、Frobenius定义、年份及单复数档案应优先。人物/论文/机构/会议/时间线/开放问题等全范围仍保留，不缩减为图谱修复。
+
+[Codex] 2026-10-08 第十四批（本地验收完成，待发布）：
+
+- 按 Dubrovin 1994 §1 校正 WDVV 公式上下标与求和，补 metric/inverse、单位归一化与拟齐次条件边界；Frobenius 定义补平坦单位、势性与 Euler 条件。1992 原论文第637页已有定义，撤销1994首次引入说法，不把1991收稿日当唯一发明日期。
+- 区分无色散主层级与半单背景下的 Dubrovin–Zhang 拓扑型变形；按 Stacks Project 05RR补一般导出范畴/有界版本，撤去无条件 Fukaya 对偶及未核年代。三条未核人物贡献仍显式待核。
+- 四个主条目公开来源、页码和本次核对范围；其他概念统一显示未完成逐项核对。此为定义/文献核查，不是新数学证明，也不认证学习关系。
+- 三个已有明确alias标记的复数条目改为显式alias_of，保留全部61旧入口但只显示/计数58个概念；引用、图谱、列表和旧详情共用主条目，不凭名称相近自动合并。alias目标、环、链和冲突内容受结构检查保护。图现61节点（含3缺档）、45前置/81后续/99相关=225条记录。
+- 38项程序回归、lint/typecheck、最终生产构建通过；数据0errors/74warnings；283HTML/22324链接/682公式实例，0坏目标/解析错误。手机三组搜索均1条、WDVV公式与旧Frobenius入口实测；桌面图谱计数/定位实测。
+- 具名证据 concept-definitions-and-alias-review.json 保存7份全文前后记录、当前PDF/HTML哈希与未核边界；本地两份Dubrovin原文与本次从arXiv/SISSA取回版本逐字节相同。next-concept-content-leads.json 保留原快照并追加本批处置，不再把7项全当未动。

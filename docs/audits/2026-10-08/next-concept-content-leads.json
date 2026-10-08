@@ -1,7 +1,7 @@
 {
   "reviewer": "Codex",
   "date": "2026-10-08",
-  "status": "Next source review, not mathematical verdict",
+  "status": "Historical batch-13 lead snapshot; batch-14 resolution below",
   "scope": "Literal local content in seven related entries. Similar names are duplicate candidates, not automatic proof that their scopes coincide.",
   "entries": [
     {
@@ -145,5 +145,11 @@
     "Verify introduction dates separately from preprint/publication years.",
     "Separate conceptual prerequisites from later developments and cycles; rendering repair did not certify those relationships.",
     "Re-audit other61 concept entries and all remaining data classes; these seven are only the next source batch."
-  ]
+  ],
+  "batch_fourteen_resolution": {
+    "review": "concept-definitions-and-alias-review.json",
+    "canonical_count": 58,
+    "alias_routes_preserved": 3,
+    "remaining": "Full historical priority, three Frobenius contributor summaries and graph relationships remain pending."
+  }
 }

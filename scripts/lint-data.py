@@ -45,7 +45,7 @@ sys.path.insert(0, str(HERE))
 from name_match import names_match, slug_for_author, is_slug
 from publication_review import load_review, blocked_review
 from institution_sources import appointment_errors
-from concept_references import concept_reference_errors
+from concept_references import concept_reference_errors, concept_content_errors
 
 ROOT = HERE.parent
 PEOPLE_DIR = ROOT / 'data/people'
@@ -388,6 +388,8 @@ def lint(strict_pubs=False, only_slug=None):
     if only_slug is None:
         concepts = load_yaml_dir(ROOT / 'data/concepts')
         for slug, concept in concepts.items():
+            for message in concept_content_errors(concept, concepts):
+                err(f'concept:{slug}', message)
             for message in concept_reference_errors(concept, concepts, people, institutions):
                 err(f'concept:{slug}', message)
         for slug, inst in institutions.items():

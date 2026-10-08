@@ -10,8 +10,61 @@ import { renderMathText } from '../.cache/msa/site-tests/math-text.js';
 import { publicationMetadata } from '../.cache/msa/site-tests/publication-metadata.js';
 import { collectPublications, collectCoauthorship, recordedPublicationStats } from '../.cache/msa/site-tests/publications.js';
 import { recordedAffiliations } from '../.cache/msa/site-tests/institution-affiliations.js';
+import { canonicalConcepts, conceptLookup } from '../.cache/msa/site-tests/concepts.js';
 
 const conceptFixture = (slug, fields = {}) => ({ slug, name: { en: slug }, difficulty: 'advanced', ...fields });
+
+test('explicit concept aliases share content and references without duplicate nodes or input mutation', () => {
+  const input = [conceptFixture('a', { related: ['a-plural', 'b', 'b-plural', 'missing'], sources: [{ label: 'primary', url: 'https://example.org' }] }),
+    conceptFixture('a-plural', { alias_of: 'a', name: { en: 'A plural' } }),
+    conceptFixture('b', { prerequisites: ['a-plural'], leads_to: ['a-plural'], dual_to: 'a-plural' }),
+    conceptFixture('b-plural', { alias_of: 'b' }), conceptFixture('similar-name')];
+  const before = structuredClone(input);
+  const canonical = canonicalConcepts(input), lookup = conceptLookup(input);
+  assert.equal(canonical.length, 3);
+  assert.deepEqual(canonical[0].related, ['b', 'missing']);
+  assert.ok(canonical[0].aliases.includes('A plural'));
+  assert.deepEqual(canonical[1].prerequisites, ['a']);
+  assert.deepEqual(canonical[1].leads_to, ['a']);
+  assert.equal(canonical[1].dual_to, 'a');
+  assert.equal(lookup.get('a-plural'), lookup.get('a'));
+  assert.notEqual(lookup.get('similar-name'), lookup.get('a'));
+  assert.ok(!buildConceptGraph(canonical).nodes.some(n => n.id.endsWith('plural')));
+  canonical[0].sources[0].label = 'changed';
+  assert.deepEqual(input, before);
+});
+
+test('concept aliases fail on absent targets, chains, cycles and duplicate slugs', () => {
+  const a = conceptFixture('a');
+  for (const records of [[a, a], [conceptFixture('a', { alias_of: 'a' })],
+    [conceptFixture('a', { alias_of: 'missing' })],
+    [a, conceptFixture('b', { alias_of: 'a' }), conceptFixture('c', { alias_of: 'b' })],
+    [conceptFixture('a', { alias_of: 'b' }), conceptFixture('b', { alias_of: 'a' })]]) {
+    assert.throws(() => canonicalConcepts(records));
+  }
+  assert.deepEqual(canonicalConcepts([]), []);
+});
+
+test('concept citation and alias lint rejects conflicting content and invalid sources', () => {
+  const code = `import sys,copy
+sys.path.insert(0,'scripts')
+from concept_references import concept_content_errors
+canonical={'slug':'a'}
+alias={'slug':'b','alias_of':'a'}
+pool={'a':canonical,'b':alias}
+check=lambda c: concept_content_errors(c,pool)
+assert not check(alias)
+assert not check({'sources':[{'label':'Definition 1','url':'https://example.org'}]})
+for value in ['b','missing','',None,[],{}]:
+ assert check({'slug':'b','alias_of':value})
+for field in ['definition','sources','related','year_introduced','dual_to']:
+ assert check({**alias,field:'conflicting'})
+for value in [None,{},'bad',[None],[{}],[{'label':'','url':'https://example.org'}],[{'label':'x','url':'javascript:alert(1)'}],[{'label':'x','url':[]}],[{'label':'x','url':'https://['}]]:
+ assert check({'sources':value}),value
+print('schema-only')`;
+  const result = spawnSync('python3', ['-c', code], { encoding: 'utf8' });
+  assert.equal(result.status, 0, result.stderr);
+});
 
 test('concept reference gate catches a person or institution used as a concept without banning unknown concepts', () => {
   const code = `import sys

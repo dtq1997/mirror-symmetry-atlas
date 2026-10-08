@@ -187,6 +187,8 @@ export interface ConceptContribution {
 
 export interface Concept {
   slug: string;
+  /** Explicit alias entry; never inferred from similar names. */
+  alias_of?: string;
   name: MultiLangName;
   aliases?: string[];
   category: ConceptCategory;
@@ -195,6 +197,9 @@ export interface Concept {
   year_introduced?: number;
   introduced_by: string[];
   definition?: string;
+  history_note?: string;
+  review_note?: string;
+  sources?: SourceRef[];
   dual_to?: string | null;
   notation_variants?: string | null;
   prerequisites: string[];

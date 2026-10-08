@@ -3,22 +3,25 @@ name:
   en: Derived Category
   zh: 导出范畴
 aliases:
-  - bounded derived category
-  - $D^b(\mathrm{Coh})$
+  - derived categories
 category: algebraic-structure
 difficulty: advanced
 discipline: math
-year_introduced: 1967
+year_introduced: null
 introduced_by: []
 definition: |
-  代数簇 $X$ 上凝聚层的有界导出范畴 $D^b\mathrm{Coh}(X)$。是同调镜像对称和
-  exceptional collection 研究的核心对象。
-dual_to: fukaya-category
+  对阿贝尔范畴 $\mathcal A$，导出范畴 $D(\mathcal A)$ 是将复形的同伦范畴 $K(\mathcal A)$ 中所有拟同构变为可逆态射后得到的范畴。拟同构是对每个上同调对象都诱导同构的复形态射。
+  有界导出范畴 $D^b(\mathcal A)$ 对应上同调只在有限多个次数非零的对象。代数簇 $X$ 上凝聚层的有界导出范畴 $D^b(\operatorname{Coh}X)$ 是一个重要特例，不是一般导出范畴的定义。
+review_note: "2026-10-08：按 Stacks Project 核对一般定义与有界版本。首次提出的年代、人物归属，以及具体镜像对称中的范畴对应仍待专门核对；不把一般导出范畴与 Fukaya 范畴无条件标成对偶。"
+dual_to: null
 prerequisites: []
 leads_to:
   - homological-mirror-symmetry
   - gamma-conjecture
-related: []
+related: [fukaya-category]
 key_people: [kontsevich, cotti]
 key_papers: []
+sources:
+  - label: "Stacks Project，§13.11，Definition 13.11.3：导出范畴与有界版本"
+    url: https://stacks.math.columbia.edu/tag/05RR
 tags: []

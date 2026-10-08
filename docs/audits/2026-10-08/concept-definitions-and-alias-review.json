@@ -1,0 +1,843 @@
+{
+  "reviewer": "Codex",
+  "date": "2026-10-08",
+  "scope": "Four concept definitions/history boundaries and three explicitly declared aliases. Literature-backed transcription and editorial corrections, not a new proof or full concept/relationship certification.",
+  "mathematical_evidence": "Direct reading of cited statements and rendered source pages; no numerical experiment or finite CAS probe is used as proof.",
+  "baseline_commit": "eeb0c701d884344515e131ac620ef9ae2b4a0ee9",
+  "entries": [
+    {
+      "path": "data/concepts/wdvv-equations.yaml",
+      "before": {
+        "path": "data/concepts/wdvv-equations.yaml",
+        "sha256": "9787eb474d6df2013ca703095d944352a2785cc03935d91336aa5f0fef226e7d",
+        "raw": "slug: wdvv-equations\nname:\n  en: WDVV Equations\n  zh: WDVV 方程\naliases:\n  - Witten-Dijkgraaf-Verlinde-Verlinde equations\n  - associativity equations\ncategory: equation\ndifficulty: advanced\ndiscipline: both\nyear_introduced: 1990\nintroduced_by: [witten, dijkgraaf]\ndefinition: |\n  关于函数 $F(t)$ 的非线性偏微分方程组：\n  $\\frac{\\partial^3 F}{\\partial t^\\alpha \\partial t^\\beta \\partial t^\\mu} \\eta^{\\mu\\nu}\n  \\frac{\\partial^3 F}{\\partial t_\\nu \\partial t^\\gamma \\partial t^\\delta}\n  = \\frac{\\partial^3 F}{\\partial t^\\delta \\partial t^\\beta \\partial t^\\mu} \\eta^{\\mu\\nu}\n  \\frac{\\partial^3 F}{\\partial t_\\nu \\partial t^\\gamma \\partial t^\\alpha}$\n  表达量子乘积的结合律。\ndual_to: null\nprerequisites:\n  - flat-connection\nleads_to:\n  - frobenius-manifold\n  - integrable-hierarchy\n  - virasoro-constraints\nrelated:\n  - topological-field-theory\n  - quantum-cohomology\nkey_people: [dubrovin, zhang-youjin, liu-siqi]\nkey_papers: []\ncontributions:\n  - person: dubrovin\n    role: major\n    description: \"证明 WDVV 解空间即 Frobenius 流形\"\n  - person: zhang-youjin\n    role: major\n    description: \"与 Dubrovin 和 Liu 合作研究 WDVV 与可积层级的联系\"\ntags:\n  - layer-2\n",
+        "data": {
+          "slug": "wdvv-equations",
+          "name": {
+            "en": "WDVV Equations",
+            "zh": "WDVV 方程"
+          },
+          "aliases": [
+            "Witten-Dijkgraaf-Verlinde-Verlinde equations",
+            "associativity equations"
+          ],
+          "category": "equation",
+          "difficulty": "advanced",
+          "discipline": "both",
+          "year_introduced": 1990,
+          "introduced_by": [
+            "witten",
+            "dijkgraaf"
+          ],
+          "definition": "关于函数 $F(t)$ 的非线性偏微分方程组：\n$\\frac{\\partial^3 F}{\\partial t^\\alpha \\partial t^\\beta \\partial t^\\mu} \\eta^{\\mu\\nu}\n\\frac{\\partial^3 F}{\\partial t_\\nu \\partial t^\\gamma \\partial t^\\delta}\n= \\frac{\\partial^3 F}{\\partial t^\\delta \\partial t^\\beta \\partial t^\\mu} \\eta^{\\mu\\nu}\n\\frac{\\partial^3 F}{\\partial t_\\nu \\partial t^\\gamma \\partial t^\\alpha}$\n表达量子乘积的结合律。\n",
+          "dual_to": null,
+          "prerequisites": [
+            "flat-connection"
+          ],
+          "leads_to": [
+            "frobenius-manifold",
+            "integrable-hierarchy",
+            "virasoro-constraints"
+          ],
+          "related": [
+            "topological-field-theory",
+            "quantum-cohomology"
+          ],
+          "key_people": [
+            "dubrovin",
+            "zhang-youjin",
+            "liu-siqi"
+          ],
+          "key_papers": [],
+          "contributions": [
+            {
+              "person": "dubrovin",
+              "role": "major",
+              "description": "证明 WDVV 解空间即 Frobenius 流形"
+            },
+            {
+              "person": "zhang-youjin",
+              "role": "major",
+              "description": "与 Dubrovin 和 Liu 合作研究 WDVV 与可积层级的联系"
+            }
+          ],
+          "tags": [
+            "layer-2"
+          ]
+        }
+      },
+      "after": {
+        "raw": "slug: wdvv-equations\nname:\n  en: WDVV Equations\n  zh: WDVV 方程\naliases:\n  - Witten-Dijkgraaf-Verlinde-Verlinde equations\n  - associativity equations\ncategory: equation\ndifficulty: advanced\ndiscipline: both\nyear_introduced: null\nintroduced_by: [witten, dijkgraaf]\ndefinition: |\n  设 $F$ 是坐标 $t^1,\\ldots,t^n$ 的局部势函数，$\\eta=(\\eta_{\\alpha\\beta})$ 是常数、对称、非退化矩阵，$(\\eta^{\\alpha\\beta})$ 是其逆矩阵。结合律方程为\n  $$\\sum_{\\lambda,\\mu=1}^{n} F_{\\alpha\\beta\\lambda}\\eta^{\\lambda\\mu}F_{\\gamma\\delta\\mu}\n  =\\sum_{\\lambda,\\mu=1}^{n} F_{\\gamma\\beta\\lambda}\\eta^{\\lambda\\mu}F_{\\alpha\\delta\\mu}.$$\n  这里 $F_{\\alpha\\beta\\gamma}=\\partial^3F/(\\partial t^\\alpha\\partial t^\\beta\\partial t^\\gamma)$，方程对所有 $\\alpha,\\beta,\\gamma,\\delta\\in\\{1,\\ldots,n\\}$ 成立。\n  取结构常数 $c^\\gamma_{\\alpha\\beta}=\\sum_{\\epsilon=1}^{n}\\eta^{\\gamma\\epsilon}F_{\\epsilon\\alpha\\beta}$，上述方程表达相应乘法的结合律。\n  在 Dubrovin 的带单位、带 Euler 场的 WDVV 系统中，还须加上 $F_{1\\alpha\\beta}=\\eta_{\\alpha\\beta}$ 的单位归一化及拟齐次条件；单独的结合律方程不包含这两项要求。\nhistory_note: |\n  WDVV 以 Witten、Dijkgraaf、Erik Verlinde 和 Herman Verlinde 命名。Dubrovin 的讲义将其来源追溯到 Witten 的 1990 年论文与 Dijkgraaf、E. Verlinde、H. Verlinde 的 1990—1991 年工作；不把这一组文献压成唯一的提出日期。\nreview_note: \"2026-10-08：按原文核对公式、记号、单位与拟齐次条件及文献年代线索。图中的学习关系仍待逐条核对；下列人物仅为本站已建档的部分相关学者。\"\ndual_to: null\nprerequisites:\n  - flat-connection\nleads_to:\n  - frobenius-manifold\n  - integrable-hierarchy\n  - virasoro-constraints\nrelated:\n  - topological-field-theory\n  - quantum-cohomology\nkey_people: [dubrovin, zhang-youjin, liu-siqi]\nkey_papers: [\"hep-th/9407018\", \"1701.03222\"]\ncontributions:\n  - person: dubrovin\n    role: major\n    description: \"给出带单位归一化、拟齐次条件的 WDVV 解与 Frobenius 流形的局部对应（1994 年讲义，Lemma 1.2）。\"\n  - person: zhang-youjin\n    role: major\n    description: \"与 Dubrovin、刘思齐研究平坦、正合、半单的流体型双 Hamilton 结构及主层级的 tau 结构（1701.03222）。\"\nsources:\n  - label: \"Dubrovin：Geometry of 2d topological field theories，§1，式 (1.1)、(1.9)、(1.14)，Lemma 1.2；参考文献 39、148\"\n    url: https://arxiv.org/abs/hep-th/9407018v1\n  - label: \"Dubrovin–Liu–Zhang：Bihamiltonian Cohomologies and Integrable Hierarchies II，摘要与 §2、§6\"\n    url: https://arxiv.org/abs/1701.03222v1\ntags:\n  - layer-2\n",
+        "sha256": "fadd04b02ede2ee279c7e859f7494bef41b46bbdc757b0dea5fba93d8c94f7bd",
+        "data": {
+          "slug": "wdvv-equations",
+          "name": {
+            "en": "WDVV Equations",
+            "zh": "WDVV 方程"
+          },
+          "aliases": [
+            "Witten-Dijkgraaf-Verlinde-Verlinde equations",
+            "associativity equations"
+          ],
+          "category": "equation",
+          "difficulty": "advanced",
+          "discipline": "both",
+          "year_introduced": null,
+          "introduced_by": [
+            "witten",
+            "dijkgraaf"
+          ],
+          "definition": "设 $F$ 是坐标 $t^1,\\ldots,t^n$ 的局部势函数，$\\eta=(\\eta_{\\alpha\\beta})$ 是常数、对称、非退化矩阵，$(\\eta^{\\alpha\\beta})$ 是其逆矩阵。结合律方程为\n$$\\sum_{\\lambda,\\mu=1}^{n} F_{\\alpha\\beta\\lambda}\\eta^{\\lambda\\mu}F_{\\gamma\\delta\\mu}\n=\\sum_{\\lambda,\\mu=1}^{n} F_{\\gamma\\beta\\lambda}\\eta^{\\lambda\\mu}F_{\\alpha\\delta\\mu}.$$\n这里 $F_{\\alpha\\beta\\gamma}=\\partial^3F/(\\partial t^\\alpha\\partial t^\\beta\\partial t^\\gamma)$，方程对所有 $\\alpha,\\beta,\\gamma,\\delta\\in\\{1,\\ldots,n\\}$ 成立。\n取结构常数 $c^\\gamma_{\\alpha\\beta}=\\sum_{\\epsilon=1}^{n}\\eta^{\\gamma\\epsilon}F_{\\epsilon\\alpha\\beta}$，上述方程表达相应乘法的结合律。\n在 Dubrovin 的带单位、带 Euler 场的 WDVV 系统中，还须加上 $F_{1\\alpha\\beta}=\\eta_{\\alpha\\beta}$ 的单位归一化及拟齐次条件；单独的结合律方程不包含这两项要求。\n",
+          "history_note": "WDVV 以 Witten、Dijkgraaf、Erik Verlinde 和 Herman Verlinde 命名。Dubrovin 的讲义将其来源追溯到 Witten 的 1990 年论文与 Dijkgraaf、E. Verlinde、H. Verlinde 的 1990—1991 年工作；不把这一组文献压成唯一的提出日期。\n",
+          "review_note": "2026-10-08：按原文核对公式、记号、单位与拟齐次条件及文献年代线索。图中的学习关系仍待逐条核对；下列人物仅为本站已建档的部分相关学者。",
+          "dual_to": null,
+          "prerequisites": [
+            "flat-connection"
+          ],
+          "leads_to": [
+            "frobenius-manifold",
+            "integrable-hierarchy",
+            "virasoro-constraints"
+          ],
+          "related": [
+            "topological-field-theory",
+            "quantum-cohomology"
+          ],
+          "key_people": [
+            "dubrovin",
+            "zhang-youjin",
+            "liu-siqi"
+          ],
+          "key_papers": [
+            "hep-th/9407018",
+            "1701.03222"
+          ],
+          "contributions": [
+            {
+              "person": "dubrovin",
+              "role": "major",
+              "description": "给出带单位归一化、拟齐次条件的 WDVV 解与 Frobenius 流形的局部对应（1994 年讲义，Lemma 1.2）。"
+            },
+            {
+              "person": "zhang-youjin",
+              "role": "major",
+              "description": "与 Dubrovin、刘思齐研究平坦、正合、半单的流体型双 Hamilton 结构及主层级的 tau 结构（1701.03222）。"
+            }
+          ],
+          "sources": [
+            {
+              "label": "Dubrovin：Geometry of 2d topological field theories，§1，式 (1.1)、(1.9)、(1.14)，Lemma 1.2；参考文献 39、148",
+              "url": "https://arxiv.org/abs/hep-th/9407018v1"
+            },
+            {
+              "label": "Dubrovin–Liu–Zhang：Bihamiltonian Cohomologies and Integrable Hierarchies II，摘要与 §2、§6",
+              "url": "https://arxiv.org/abs/1701.03222v1"
+            }
+          ],
+          "tags": [
+            "layer-2"
+          ]
+        }
+      },
+      "reviewed": [
+        "definition: source Eq. (1.14), all four free indices and two summed indices",
+        "constant symmetric nondegenerate metric and its inverse",
+        "unit normalization and quasihomogeneity distinguished from associativity alone",
+        "full WDVV eponym and 1990-1991 references",
+        "two contribution descriptions narrowed to cited works"
+      ],
+      "pending": [
+        "priority audit of original Witten/DVV publications",
+        "learning/prerequisite relationships",
+        "complete list of contributors"
+      ]
+    },
+    {
+      "path": "data/concepts/frobenius-manifold.yaml",
+      "before": {
+        "path": "data/concepts/frobenius-manifold.yaml",
+        "sha256": "0a34c10db0009c97d7fb0e2d49ca4ac27625fbd14d0cc900a4762667cc396834",
+        "raw": "slug: frobenius-manifold\nname:\n  en: Frobenius Manifold\n  zh: Frobenius 流形\naliases:\n  - Dubrovin-Frobenius manifold\ncategory: algebraic-structure\ndifficulty: advanced\ndiscipline: math\nyear_introduced: 1994\nintroduced_by: [dubrovin]\ndefinition: |\n  复流形 $M$ 上配备平坦度量 $\\eta$、切丛上满足\n  $\\eta(X \\circ Y, Z) = \\eta(X, Y \\circ Z)$ 的交换结合乘法 $\\circ$、\n  单位向量场 $e$ 和 Euler 向量场 $E$ 的结构。\ndual_to: null\nprerequisites:\n  - flat-connection\n  - wdvv-equations\nleads_to:\n  - dubrovin-connection\n  - quantum-cohomology\n  - tt-star-geometry\n  - integrable-hierarchy\nrelated:\n  - mirror-symmetry\n  - topological-field-theory\nkey_people: [dubrovin, manin-yuri, hertling, k-saito]\nkey_papers: [\"hep-th/9407018\"]\ncontributions:\n  - person: dubrovin\n    role: founder\n    description: \"1994年引入概念，229 页奠基论文\"\n  - person: manin-yuri\n    role: promoter\n    description: \"推广到量子上同调框架\"\n  - person: hertling\n    role: major\n    description: \"从奇异点理论角度发展\"\n  - person: k-saito\n    role: major\n    description: \"Primitive forms 和 flat structures，独立发展类似结构\"\ntags:\n  - layer-1\n",
+        "data": {
+          "slug": "frobenius-manifold",
+          "name": {
+            "en": "Frobenius Manifold",
+            "zh": "Frobenius 流形"
+          },
+          "aliases": [
+            "Dubrovin-Frobenius manifold"
+          ],
+          "category": "algebraic-structure",
+          "difficulty": "advanced",
+          "discipline": "math",
+          "year_introduced": 1994,
+          "introduced_by": [
+            "dubrovin"
+          ],
+          "definition": "复流形 $M$ 上配备平坦度量 $\\eta$、切丛上满足\n$\\eta(X \\circ Y, Z) = \\eta(X, Y \\circ Z)$ 的交换结合乘法 $\\circ$、\n单位向量场 $e$ 和 Euler 向量场 $E$ 的结构。\n",
+          "dual_to": null,
+          "prerequisites": [
+            "flat-connection",
+            "wdvv-equations"
+          ],
+          "leads_to": [
+            "dubrovin-connection",
+            "quantum-cohomology",
+            "tt-star-geometry",
+            "integrable-hierarchy"
+          ],
+          "related": [
+            "mirror-symmetry",
+            "topological-field-theory"
+          ],
+          "key_people": [
+            "dubrovin",
+            "manin-yuri",
+            "hertling",
+            "k-saito"
+          ],
+          "key_papers": [
+            "hep-th/9407018"
+          ],
+          "contributions": [
+            {
+              "person": "dubrovin",
+              "role": "founder",
+              "description": "1994年引入概念，229 页奠基论文"
+            },
+            {
+              "person": "manin-yuri",
+              "role": "promoter",
+              "description": "推广到量子上同调框架"
+            },
+            {
+              "person": "hertling",
+              "role": "major",
+              "description": "从奇异点理论角度发展"
+            },
+            {
+              "person": "k-saito",
+              "role": "major",
+              "description": "Primitive forms 和 flat structures，独立发展类似结构"
+            }
+          ],
+          "tags": [
+            "layer-1"
+          ]
+        }
+      },
+      "after": {
+        "raw": "slug: frobenius-manifold\nname:\n  en: Frobenius Manifold\n  zh: Frobenius 流形\naliases:\n  - Dubrovin-Frobenius manifold\ncategory: geometric-structure\ndifficulty: advanced\ndiscipline: math\nyear_introduced: null\nintroduced_by: [dubrovin]\ndefinition: |\n  本条采用 Dubrovin 1994 年讲义中带 Euler 场的约定。复流形 $M$ 的全纯切丛配备交换、结合、有单位的 $\\mathcal O_M$-双线性乘法 $\\circ$，以及非退化、对称、复双线性的平坦度量 $\\eta$。\n  乘法与度量满足 $\\eta(X\\circ Y,Z)=\\eta(X,Y\\circ Z)$。若 $\\nabla$ 是 $\\eta$ 的 Levi-Civita 联络，则单位场须满足 $\\nabla e=0$；令 $c(X,Y,Z)=\\eta(X\\circ Y,Z)$，四阶张量 $\\nabla c$ 须完全对称。\n  Euler 场还须满足 $\\nabla\\nabla E=0$、$\\mathcal L_E(\\circ)=\\circ$、$\\mathcal L_Ee=-e$ 和 $\\mathcal L_E\\eta=(2-d)\\eta$，其中 $d$ 为常数。\n  有些文献使用不要求 Euler 场的约定；阅读具体结果时须核对采用哪一种定义。\nhistory_note: |\n  Dubrovin 的 1992 年论文第 637 页已明确给出 Frobenius 流形的定义；该文于 1991 年 12 月收稿。1994 年是相关讲义的 arXiv 提交年份，讲义于 1996 年出版，不能据此写成“1994 年首次引入”。本条暂不判定最早提出的唯一日期。\nreview_note: \"2026-10-08：核对定义的完整条件及上述年代证据；Manin、Hertling、Saito 的贡献概述和图中学习关系尚未在本批逐项核对。\"\ndual_to: null\nprerequisites:\n  - flat-connection\n  - wdvv-equations\nleads_to:\n  - dubrovin-connection\n  - quantum-cohomology\n  - tt-star-geometry\n  - integrable-hierarchy\nrelated:\n  - mirror-symmetry\n  - topological-field-theory\nkey_people: [dubrovin, manin-yuri, hertling, k-saito]\nkey_papers: [\"hep-th/9407018\"]\ncontributions:\n  - person: dubrovin\n    role: founder\n    description: \"1992 年论文给出定义与 WDVV 的几何表述；1994 年讲义系统发展理论（1996 年出版）。\"\n  - person: manin-yuri\n    role: promoter\n    description: \"[待核实] 推广到量子上同调框架\"\n  - person: hertling\n    role: major\n    description: \"[待核实] 从奇异点理论角度发展\"\n  - person: k-saito\n    role: major\n    description: \"[待核实] Primitive forms 和 flat structures，独立发展类似结构\"\nsources:\n  - label: \"Dubrovin：Geometry of 2d topological field theories，Definition 1.2、式 (1.50)、Lemma 1.2（预印本第 12—15 页）\"\n    url: https://arxiv.org/abs/hep-th/9407018v1\n  - label: \"Dubrovin：Integrable systems in topological field theory（1992），第 627 页收稿信息、第 637 页 Definition 2.2（未要求 Euler 场）\"\n    url: https://people.sissa.it/~dubrovin/Papers/1992/dubrovin_1992_npb.pdf\n  - label: \"Dubrovin 本人论文目录：1994 年预印本与 1996 年出版信息\"\n    url: https://people.sissa.it/~dubrovin/bd_papers.html\ntags:\n  - layer-1\n",
+        "sha256": "f081837f1c9a310eafca21e1c026f28c9d7fa6e119901016aacebeda67872317",
+        "data": {
+          "slug": "frobenius-manifold",
+          "name": {
+            "en": "Frobenius Manifold",
+            "zh": "Frobenius 流形"
+          },
+          "aliases": [
+            "Dubrovin-Frobenius manifold"
+          ],
+          "category": "geometric-structure",
+          "difficulty": "advanced",
+          "discipline": "math",
+          "year_introduced": null,
+          "introduced_by": [
+            "dubrovin"
+          ],
+          "definition": "本条采用 Dubrovin 1994 年讲义中带 Euler 场的约定。复流形 $M$ 的全纯切丛配备交换、结合、有单位的 $\\mathcal O_M$-双线性乘法 $\\circ$，以及非退化、对称、复双线性的平坦度量 $\\eta$。\n乘法与度量满足 $\\eta(X\\circ Y,Z)=\\eta(X,Y\\circ Z)$。若 $\\nabla$ 是 $\\eta$ 的 Levi-Civita 联络，则单位场须满足 $\\nabla e=0$；令 $c(X,Y,Z)=\\eta(X\\circ Y,Z)$，四阶张量 $\\nabla c$ 须完全对称。\nEuler 场还须满足 $\\nabla\\nabla E=0$、$\\mathcal L_E(\\circ)=\\circ$、$\\mathcal L_Ee=-e$ 和 $\\mathcal L_E\\eta=(2-d)\\eta$，其中 $d$ 为常数。\n有些文献使用不要求 Euler 场的约定；阅读具体结果时须核对采用哪一种定义。\n",
+          "history_note": "Dubrovin 的 1992 年论文第 637 页已明确给出 Frobenius 流形的定义；该文于 1991 年 12 月收稿。1994 年是相关讲义的 arXiv 提交年份，讲义于 1996 年出版，不能据此写成“1994 年首次引入”。本条暂不判定最早提出的唯一日期。\n",
+          "review_note": "2026-10-08：核对定义的完整条件及上述年代证据；Manin、Hertling、Saito 的贡献概述和图中学习关系尚未在本批逐项核对。",
+          "dual_to": null,
+          "prerequisites": [
+            "flat-connection",
+            "wdvv-equations"
+          ],
+          "leads_to": [
+            "dubrovin-connection",
+            "quantum-cohomology",
+            "tt-star-geometry",
+            "integrable-hierarchy"
+          ],
+          "related": [
+            "mirror-symmetry",
+            "topological-field-theory"
+          ],
+          "key_people": [
+            "dubrovin",
+            "manin-yuri",
+            "hertling",
+            "k-saito"
+          ],
+          "key_papers": [
+            "hep-th/9407018"
+          ],
+          "contributions": [
+            {
+              "person": "dubrovin",
+              "role": "founder",
+              "description": "1992 年论文给出定义与 WDVV 的几何表述；1994 年讲义系统发展理论（1996 年出版）。"
+            },
+            {
+              "person": "manin-yuri",
+              "role": "promoter",
+              "description": "[待核实] 推广到量子上同调框架"
+            },
+            {
+              "person": "hertling",
+              "role": "major",
+              "description": "[待核实] 从奇异点理论角度发展"
+            },
+            {
+              "person": "k-saito",
+              "role": "major",
+              "description": "[待核实] Primitive forms 和 flat structures，独立发展类似结构"
+            }
+          ],
+          "sources": [
+            {
+              "label": "Dubrovin：Geometry of 2d topological field theories，Definition 1.2、式 (1.50)、Lemma 1.2（预印本第 12—15 页）",
+              "url": "https://arxiv.org/abs/hep-th/9407018v1"
+            },
+            {
+              "label": "Dubrovin：Integrable systems in topological field theory（1992），第 627 页收稿信息、第 637 页 Definition 2.2（未要求 Euler 场）",
+              "url": "https://people.sissa.it/~dubrovin/Papers/1992/dubrovin_1992_npb.pdf"
+            },
+            {
+              "label": "Dubrovin 本人论文目录：1994 年预印本与 1996 年出版信息",
+              "url": "https://people.sissa.it/~dubrovin/bd_papers.html"
+            }
+          ],
+          "tags": [
+            "layer-1"
+          ]
+        }
+      },
+      "reviewed": [
+        "Dubrovin 1994 Definition 1.2 and Eqs. (1.50): flat invariant complex bilinear metric, flat unit, symmetric covariant derivative of c, Euler conditions",
+        "1992 Definition 2.2 on journal page 637 excludes a 1994-first-introduction claim",
+        "1991 receipt date is not claimed to prove earliest invention",
+        "1994 arXiv upload and 1996 publication separated"
+      ],
+      "pending": [
+        "earliest priority including 1991 Pisa preprint",
+        "Manin/Hertling/Saito contribution statements now visibly pending",
+        "learning/prerequisite relationships"
+      ]
+    },
+    {
+      "path": "data/concepts/frobenius-manifolds.yaml",
+      "before": {
+        "path": "data/concepts/frobenius-manifolds.yaml",
+        "sha256": "122158713e62baa52329de8467a63e0b1d1fc028b0e5659c516af58c437e03e1",
+        "raw": "slug: frobenius-manifolds\nname:\n  en: Frobenius Manifolds\n  zh: Frobenius 流形\naliases:\n  - Frobenius manifold\n  - Dubrovin-Frobenius manifold\ncategory: algebraic-structure\ndifficulty: advanced\ndiscipline: math\nyear_introduced: 1994\nintroduced_by: [dubrovin]\ndefinition: |\n  复数形版本，等同于 `frobenius-manifold`。详见\n  [frobenius-manifold](frobenius-manifold)。\ndual_to: null\nprerequisites:\n  - frobenius-manifold\nleads_to: []\nrelated:\n  - frobenius-manifold\nkey_people:\n  - dubrovin\n  - hertling\n  - manin-yuri\n  - k-saito\nkey_papers: []\ntags:\n  - alias\n",
+        "data": {
+          "slug": "frobenius-manifolds",
+          "name": {
+            "en": "Frobenius Manifolds",
+            "zh": "Frobenius 流形"
+          },
+          "aliases": [
+            "Frobenius manifold",
+            "Dubrovin-Frobenius manifold"
+          ],
+          "category": "algebraic-structure",
+          "difficulty": "advanced",
+          "discipline": "math",
+          "year_introduced": 1994,
+          "introduced_by": [
+            "dubrovin"
+          ],
+          "definition": "复数形版本，等同于 `frobenius-manifold`。详见\n[frobenius-manifold](frobenius-manifold)。\n",
+          "dual_to": null,
+          "prerequisites": [
+            "frobenius-manifold"
+          ],
+          "leads_to": [],
+          "related": [
+            "frobenius-manifold"
+          ],
+          "key_people": [
+            "dubrovin",
+            "hertling",
+            "manin-yuri",
+            "k-saito"
+          ],
+          "key_papers": [],
+          "tags": [
+            "alias"
+          ]
+        }
+      },
+      "after": {
+        "raw": "slug: frobenius-manifolds\nalias_of: frobenius-manifold\nname:\n  en: Frobenius Manifolds\n  zh: Frobenius 流形\naliases:\n- Frobenius manifold\n- Dubrovin-Frobenius manifold\ncategory: geometric-structure\ndifficulty: advanced\ndiscipline: math\ntags:\n- alias\n",
+        "sha256": "4996e5d60f1bc1479ad10be58b39de185e3532f61cfdceb5fb5059d002b0de42",
+        "data": {
+          "slug": "frobenius-manifolds",
+          "alias_of": "frobenius-manifold",
+          "name": {
+            "en": "Frobenius Manifolds",
+            "zh": "Frobenius 流形"
+          },
+          "aliases": [
+            "Frobenius manifold",
+            "Dubrovin-Frobenius manifold"
+          ],
+          "category": "geometric-structure",
+          "difficulty": "advanced",
+          "discipline": "math",
+          "tags": [
+            "alias"
+          ]
+        }
+      },
+      "reviewed": [
+        "explicit existing alias tag and literal same-as description, not inferred from similar names",
+        "old route retained; canonical definition, evidence and references reused"
+      ],
+      "pending": []
+    },
+    {
+      "path": "data/concepts/integrable-hierarchy.yaml",
+      "before": {
+        "path": "data/concepts/integrable-hierarchy.yaml",
+        "sha256": "b851881ca9d756b21dcb7e0a7e154b8f6cdb2c30a62d55fc272715c1dd999963",
+        "raw": "slug: integrable-hierarchy\nname:\n  en: Integrable Hierarchy\n  zh: 可积层级\naliases:\n  - integrable systems\n  - KdV hierarchy\n  - KP hierarchy\n  - Dubrovin-Zhang hierarchy\ncategory: algebraic-structure\ndifficulty: advanced\ndiscipline: math\nyear_introduced: null\nintroduced_by: []\ndefinition: |\n  一族相容的演化偏微分方程，例如 KdV 层级\n  $u_t = u_{xxx} + 6uu_x, \\ldots$。每个 Frobenius 流形对应一个双 Hamilton\n  可积层级（Dubrovin-Zhang 层级）。\ndual_to: null\nprerequisites:\n  - frobenius-manifold\nleads_to:\n  - virasoro-constraints\nrelated:\n  - wdvv-equations\n  - gromov-witten-theory\n  - tau-function\nkey_people: [dubrovin, zhang-youjin, liu-siqi, novikov-sergei]\nkey_papers: []\ncontributions:\n  - person: zhang-youjin\n    role: major\n    description: \"与 Dubrovin 建立 Frobenius 流形到可积层级的对应\"\n  - person: liu-siqi\n    role: major\n    description: \"WDVV 方程与 tau 函数的对称性\"\ntags:\n  - layer-2\n",
+        "data": {
+          "slug": "integrable-hierarchy",
+          "name": {
+            "en": "Integrable Hierarchy",
+            "zh": "可积层级"
+          },
+          "aliases": [
+            "integrable systems",
+            "KdV hierarchy",
+            "KP hierarchy",
+            "Dubrovin-Zhang hierarchy"
+          ],
+          "category": "algebraic-structure",
+          "difficulty": "advanced",
+          "discipline": "math",
+          "year_introduced": null,
+          "introduced_by": [],
+          "definition": "一族相容的演化偏微分方程，例如 KdV 层级\n$u_t = u_{xxx} + 6uu_x, \\ldots$。每个 Frobenius 流形对应一个双 Hamilton\n可积层级（Dubrovin-Zhang 层级）。\n",
+          "dual_to": null,
+          "prerequisites": [
+            "frobenius-manifold"
+          ],
+          "leads_to": [
+            "virasoro-constraints"
+          ],
+          "related": [
+            "wdvv-equations",
+            "gromov-witten-theory",
+            "tau-function"
+          ],
+          "key_people": [
+            "dubrovin",
+            "zhang-youjin",
+            "liu-siqi",
+            "novikov-sergei"
+          ],
+          "key_papers": [],
+          "contributions": [
+            {
+              "person": "zhang-youjin",
+              "role": "major",
+              "description": "与 Dubrovin 建立 Frobenius 流形到可积层级的对应"
+            },
+            {
+              "person": "liu-siqi",
+              "role": "major",
+              "description": "WDVV 方程与 tau 函数的对称性"
+            }
+          ],
+          "tags": [
+            "layer-2"
+          ]
+        }
+      },
+      "after": {
+        "raw": "slug: integrable-hierarchy\nname:\n  en: Integrable Hierarchy\n  zh: 可积层级\naliases:\n  - integrable hierarchies\ncategory: equation\ndifficulty: advanced\ndiscipline: math\nyear_introduced: null\nintroduced_by: []\ndefinition: |\n  在本条讨论的演化偏微分方程语境中，可积层级是一族彼此相容、流相互交换的演化方程，通常还带有 Hamilton 结构及守恒量等结构。KdV、KP 是具体例子，不是“可积层级”的同义词。\n  Frobenius 流形可局部构造相应的主层级（principal hierarchy）：它由一阶拟线性的无色散方程组成，构造需选择归一化的变形平坦坐标。\n  Dubrovin–Zhang 层级涉及主层级的拓扑型色散变形，其经典构造以半单 Frobenius 流形为背景。它与无色散主层级须区分；具体的双 Hamilton 递推、tau 结构及变形结论，应按所引文献核对条件。\nreview_note: \"2026-10-08：核对主层级与拓扑型色散变形的区别，以及所列合作论文的研究范围。本条不声称所有 Frobenius 流形都无条件对应同一种 Dubrovin–Zhang 层级；图中学习关系仍待核对。\"\ndual_to: null\nprerequisites:\n  - frobenius-manifold\nleads_to:\n  - virasoro-constraints\nrelated:\n  - wdvv-equations\n  - gromov-witten-theory\n  - tau-function\nkey_people: [dubrovin, zhang-youjin, liu-siqi, novikov-sergei]\nkey_papers: [\"math/0108160\", \"1701.03222\"]\ncontributions:\n  - person: zhang-youjin\n    role: major\n    description: \"与 Dubrovin 研究主层级、双 Hamilton 结构及半单 Frobenius 流形上的拓扑型变形（math/0108160）。\"\n  - person: liu-siqi\n    role: major\n    description: \"与 Dubrovin、张友金研究平坦、正合、半单的流体型双 Hamilton 结构，以及保持 tau 结构的主层级变形（1701.03222）。\"\nsources:\n  - label: \"Dubrovin–Zhang：Normal forms of hierarchies…，§3.1、§3.6（主层级、局部平坦坐标与递推条件），§3.10（半单情形的拓扑型变形）\"\n    url: https://arxiv.org/abs/math/0108160v1\n  - label: \"Dubrovin–Liu–Zhang：Bihamiltonian Cohomologies and Integrable Hierarchies II，§2、§6，尤其第 44 页\"\n    url: https://arxiv.org/abs/1701.03222v1\ntags:\n  - layer-2\n",
+        "sha256": "dafee194d7b097cb231437e32db246a6533d658ee68c828c14fe501b1f72a622",
+        "data": {
+          "slug": "integrable-hierarchy",
+          "name": {
+            "en": "Integrable Hierarchy",
+            "zh": "可积层级"
+          },
+          "aliases": [
+            "integrable hierarchies"
+          ],
+          "category": "equation",
+          "difficulty": "advanced",
+          "discipline": "math",
+          "year_introduced": null,
+          "introduced_by": [],
+          "definition": "在本条讨论的演化偏微分方程语境中，可积层级是一族彼此相容、流相互交换的演化方程，通常还带有 Hamilton 结构及守恒量等结构。KdV、KP 是具体例子，不是“可积层级”的同义词。\nFrobenius 流形可局部构造相应的主层级（principal hierarchy）：它由一阶拟线性的无色散方程组成，构造需选择归一化的变形平坦坐标。\nDubrovin–Zhang 层级涉及主层级的拓扑型色散变形，其经典构造以半单 Frobenius 流形为背景。它与无色散主层级须区分；具体的双 Hamilton 递推、tau 结构及变形结论，应按所引文献核对条件。\n",
+          "review_note": "2026-10-08：核对主层级与拓扑型色散变形的区别，以及所列合作论文的研究范围。本条不声称所有 Frobenius 流形都无条件对应同一种 Dubrovin–Zhang 层级；图中学习关系仍待核对。",
+          "dual_to": null,
+          "prerequisites": [
+            "frobenius-manifold"
+          ],
+          "leads_to": [
+            "virasoro-constraints"
+          ],
+          "related": [
+            "wdvv-equations",
+            "gromov-witten-theory",
+            "tau-function"
+          ],
+          "key_people": [
+            "dubrovin",
+            "zhang-youjin",
+            "liu-siqi",
+            "novikov-sergei"
+          ],
+          "key_papers": [
+            "math/0108160",
+            "1701.03222"
+          ],
+          "contributions": [
+            {
+              "person": "zhang-youjin",
+              "role": "major",
+              "description": "与 Dubrovin 研究主层级、双 Hamilton 结构及半单 Frobenius 流形上的拓扑型变形（math/0108160）。"
+            },
+            {
+              "person": "liu-siqi",
+              "role": "major",
+              "description": "与 Dubrovin、张友金研究平坦、正合、半单的流体型双 Hamilton 结构，以及保持 tau 结构的主层级变形（1701.03222）。"
+            }
+          ],
+          "sources": [
+            {
+              "label": "Dubrovin–Zhang：Normal forms of hierarchies…，§3.1、§3.6（主层级、局部平坦坐标与递推条件），§3.10（半单情形的拓扑型变形）",
+              "url": "https://arxiv.org/abs/math/0108160v1"
+            },
+            {
+              "label": "Dubrovin–Liu–Zhang：Bihamiltonian Cohomologies and Integrable Hierarchies II，§2、§6，尤其第 44 页",
+              "url": "https://arxiv.org/abs/1701.03222v1"
+            }
+          ],
+          "tags": [
+            "layer-2"
+          ]
+        }
+      },
+      "reviewed": [
+        "general commuting evolutionary hierarchy versus named examples",
+        "Dubrovin-Zhang 2001 section 3.6: local normalized deformed-flat coordinates and dispersionless principal hierarchy",
+        "semisimple setting for topological deformation; no blanket all-Frobenius assertion",
+        "Dubrovin-Liu-Zhang 2017 abstract, section 2 and section 6 including page 44"
+      ],
+      "pending": [
+        "all theorem-strength bihamiltonian/deformation hypotheses across all variants",
+        "learning/prerequisite relationships"
+      ]
+    },
+    {
+      "path": "data/concepts/integrable-hierarchies.yaml",
+      "before": {
+        "path": "data/concepts/integrable-hierarchies.yaml",
+        "sha256": "ac06411edcaf9bfaba9b76e309f9572d629d9ae1c04e6f79bea35b3a790d8858",
+        "raw": "slug: integrable-hierarchies\nname:\n  en: Integrable Hierarchies\n  zh: 可积 Hierarchy\naliases:\n  - integrable hierarchy\ncategory: equation\ndifficulty: advanced\ndiscipline: both\nyear_introduced: null\nintroduced_by: []\ndefinition: |\n  复数形版本，等同于 `integrable-hierarchy`。\ndual_to: null\nprerequisites:\n  - integrable-hierarchy\nleads_to: []\nrelated:\n  - integrable-hierarchy\n  - tau-function\nkey_people: []\nkey_papers: []\ntags:\n  - alias\n",
+        "data": {
+          "slug": "integrable-hierarchies",
+          "name": {
+            "en": "Integrable Hierarchies",
+            "zh": "可积 Hierarchy"
+          },
+          "aliases": [
+            "integrable hierarchy"
+          ],
+          "category": "equation",
+          "difficulty": "advanced",
+          "discipline": "both",
+          "year_introduced": null,
+          "introduced_by": [],
+          "definition": "复数形版本，等同于 `integrable-hierarchy`。\n",
+          "dual_to": null,
+          "prerequisites": [
+            "integrable-hierarchy"
+          ],
+          "leads_to": [],
+          "related": [
+            "integrable-hierarchy",
+            "tau-function"
+          ],
+          "key_people": [],
+          "key_papers": [],
+          "tags": [
+            "alias"
+          ]
+        }
+      },
+      "after": {
+        "raw": "slug: integrable-hierarchies\nalias_of: integrable-hierarchy\nname:\n  en: Integrable Hierarchies\n  zh: 可积层级\naliases:\n- integrable hierarchy\ncategory: equation\ndifficulty: advanced\ndiscipline: math\ntags:\n- alias\n",
+        "sha256": "886e1ef72099ac0877ea3bd87e3cef8e16e517675332b0b0794621f0044e68fc",
+        "data": {
+          "slug": "integrable-hierarchies",
+          "alias_of": "integrable-hierarchy",
+          "name": {
+            "en": "Integrable Hierarchies",
+            "zh": "可积层级"
+          },
+          "aliases": [
+            "integrable hierarchy"
+          ],
+          "category": "equation",
+          "difficulty": "advanced",
+          "discipline": "math",
+          "tags": [
+            "alias"
+          ]
+        }
+      },
+      "reviewed": [
+        "explicit existing alias tag and literal same-as description, not inferred from similar names",
+        "old route retained; canonical definition, evidence and references reused"
+      ],
+      "pending": []
+    },
+    {
+      "path": "data/concepts/derived-category.yaml",
+      "before": {
+        "path": "data/concepts/derived-category.yaml",
+        "sha256": "de3e2620f9b3d8b1855cb00b77b18f5e2d81bb6a36737005b8803d1d488e95ca",
+        "raw": "slug: derived-category\nname:\n  en: Derived Category\n  zh: 导出范畴\naliases:\n  - bounded derived category\n  - $D^b(\\mathrm{Coh})$\ncategory: algebraic-structure\ndifficulty: advanced\ndiscipline: math\nyear_introduced: 1967\nintroduced_by: []\ndefinition: |\n  代数簇 $X$ 上凝聚层的有界导出范畴 $D^b\\mathrm{Coh}(X)$。是同调镜像对称和\n  exceptional collection 研究的核心对象。\ndual_to: fukaya-category\nprerequisites: []\nleads_to:\n  - homological-mirror-symmetry\n  - gamma-conjecture\nrelated: []\nkey_people: [kontsevich, cotti]\nkey_papers: []\ntags: []\n",
+        "data": {
+          "slug": "derived-category",
+          "name": {
+            "en": "Derived Category",
+            "zh": "导出范畴"
+          },
+          "aliases": [
+            "bounded derived category",
+            "$D^b(\\mathrm{Coh})$"
+          ],
+          "category": "algebraic-structure",
+          "difficulty": "advanced",
+          "discipline": "math",
+          "year_introduced": 1967,
+          "introduced_by": [],
+          "definition": "代数簇 $X$ 上凝聚层的有界导出范畴 $D^b\\mathrm{Coh}(X)$。是同调镜像对称和\nexceptional collection 研究的核心对象。\n",
+          "dual_to": "fukaya-category",
+          "prerequisites": [],
+          "leads_to": [
+            "homological-mirror-symmetry",
+            "gamma-conjecture"
+          ],
+          "related": [],
+          "key_people": [
+            "kontsevich",
+            "cotti"
+          ],
+          "key_papers": [],
+          "tags": []
+        }
+      },
+      "after": {
+        "raw": "slug: derived-category\nname:\n  en: Derived Category\n  zh: 导出范畴\naliases:\n  - derived categories\ncategory: algebraic-structure\ndifficulty: advanced\ndiscipline: math\nyear_introduced: null\nintroduced_by: []\ndefinition: |\n  对阿贝尔范畴 $\\mathcal A$，导出范畴 $D(\\mathcal A)$ 是将复形的同伦范畴 $K(\\mathcal A)$ 中所有拟同构变为可逆态射后得到的范畴。拟同构是对每个上同调对象都诱导同构的复形态射。\n  有界导出范畴 $D^b(\\mathcal A)$ 对应上同调只在有限多个次数非零的对象。代数簇 $X$ 上凝聚层的有界导出范畴 $D^b(\\operatorname{Coh}X)$ 是一个重要特例，不是一般导出范畴的定义。\nreview_note: \"2026-10-08：按 Stacks Project 核对一般定义与有界版本。首次提出的年代、人物归属，以及具体镜像对称中的范畴对应仍待专门核对；不把一般导出范畴与 Fukaya 范畴无条件标成对偶。\"\ndual_to: null\nprerequisites: []\nleads_to:\n  - homological-mirror-symmetry\n  - gamma-conjecture\nrelated: [fukaya-category]\nkey_people: [kontsevich, cotti]\nkey_papers: []\nsources:\n  - label: \"Stacks Project，§13.11，Definition 13.11.3：导出范畴与有界版本\"\n    url: https://stacks.math.columbia.edu/tag/05RR\ntags: []\n",
+        "sha256": "383f4acbb985b5db4f639d89b7cebbee680bddc5f260eee2dff585d3b2a5e5ea",
+        "data": {
+          "slug": "derived-category",
+          "name": {
+            "en": "Derived Category",
+            "zh": "导出范畴"
+          },
+          "aliases": [
+            "derived categories"
+          ],
+          "category": "algebraic-structure",
+          "difficulty": "advanced",
+          "discipline": "math",
+          "year_introduced": null,
+          "introduced_by": [],
+          "definition": "对阿贝尔范畴 $\\mathcal A$，导出范畴 $D(\\mathcal A)$ 是将复形的同伦范畴 $K(\\mathcal A)$ 中所有拟同构变为可逆态射后得到的范畴。拟同构是对每个上同调对象都诱导同构的复形态射。\n有界导出范畴 $D^b(\\mathcal A)$ 对应上同调只在有限多个次数非零的对象。代数簇 $X$ 上凝聚层的有界导出范畴 $D^b(\\operatorname{Coh}X)$ 是一个重要特例，不是一般导出范畴的定义。\n",
+          "review_note": "2026-10-08：按 Stacks Project 核对一般定义与有界版本。首次提出的年代、人物归属，以及具体镜像对称中的范畴对应仍待专门核对；不把一般导出范畴与 Fukaya 范畴无条件标成对偶。",
+          "dual_to": null,
+          "prerequisites": [],
+          "leads_to": [
+            "homological-mirror-symmetry",
+            "gamma-conjecture"
+          ],
+          "related": [
+            "fukaya-category"
+          ],
+          "key_people": [
+            "kontsevich",
+            "cotti"
+          ],
+          "key_papers": [],
+          "sources": [
+            {
+              "label": "Stacks Project，§13.11，Definition 13.11.3：导出范畴与有界版本",
+              "url": "https://stacks.math.columbia.edu/tag/05RR"
+            }
+          ],
+          "tags": []
+        }
+      },
+      "reviewed": [
+        "Stacks Project 05RR Definition 13.11.3: localization at quasi-isomorphisms",
+        "bounded cohomology and coherent-sheaf special case distinguished from general definition",
+        "unqualified Fukaya duality removed, related-concept navigation retained"
+      ],
+      "pending": [
+        "historical priority/year",
+        "hypotheses and proved scope of concrete HMS correspondences",
+        "key people and learning relationships"
+      ]
+    },
+    {
+      "path": "data/concepts/derived-categories.yaml",
+      "before": {
+        "path": "data/concepts/derived-categories.yaml",
+        "sha256": "b85ddf8559fb74f490ddd96680b929932b85ce23b898c227430fbc37705b72ed",
+        "raw": "slug: derived-categories\nname:\n  en: Derived Categories\n  zh: 导出范畴\naliases:\n  - derived category\ncategory: algebraic-structure\ndifficulty: advanced\ndiscipline: math\nyear_introduced: null\nintroduced_by: []\ndefinition: |\n  复数形版本，等同于 `derived-category`。\ndual_to: null\nprerequisites:\n  - derived-category\nleads_to: []\nrelated:\n  - derived-category\nkey_people: []\nkey_papers: []\ntags:\n  - alias\n",
+        "data": {
+          "slug": "derived-categories",
+          "name": {
+            "en": "Derived Categories",
+            "zh": "导出范畴"
+          },
+          "aliases": [
+            "derived category"
+          ],
+          "category": "algebraic-structure",
+          "difficulty": "advanced",
+          "discipline": "math",
+          "year_introduced": null,
+          "introduced_by": [],
+          "definition": "复数形版本，等同于 `derived-category`。\n",
+          "dual_to": null,
+          "prerequisites": [
+            "derived-category"
+          ],
+          "leads_to": [],
+          "related": [
+            "derived-category"
+          ],
+          "key_people": [],
+          "key_papers": [],
+          "tags": [
+            "alias"
+          ]
+        }
+      },
+      "after": {
+        "raw": "slug: derived-categories\nalias_of: derived-category\nname:\n  en: Derived Categories\n  zh: 导出范畴\naliases:\n- derived category\ncategory: algebraic-structure\ndifficulty: advanced\ndiscipline: math\ntags:\n- alias\n",
+        "sha256": "063bef33983ed6e7e0173a0e53729500fbd6780e4652f66c1855d6c694cc1eb1",
+        "data": {
+          "slug": "derived-categories",
+          "alias_of": "derived-category",
+          "name": {
+            "en": "Derived Categories",
+            "zh": "导出范畴"
+          },
+          "aliases": [
+            "derived category"
+          ],
+          "category": "algebraic-structure",
+          "difficulty": "advanced",
+          "discipline": "math",
+          "tags": [
+            "alias"
+          ]
+        }
+      },
+      "reviewed": [
+        "explicit existing alias tag and literal same-as description, not inferred from similar names",
+        "old route retained; canonical definition, evidence and references reused"
+      ],
+      "pending": []
+    }
+  ],
+  "sources": [
+    {
+      "name": "dz-2001.pdf",
+      "url": "https://arxiv.org/pdf/math/0108160",
+      "status": 200,
+      "content_type": "application/pdf",
+      "sha256": "f160b12184cd6dd9eea53f35a940abb63d55f6abe6140747c2370337bb595c9c",
+      "bytes": 1340373
+    },
+    {
+      "name": "dlz-2017.pdf",
+      "url": "https://arxiv.org/pdf/1701.03222",
+      "status": 200,
+      "content_type": "application/pdf",
+      "sha256": "c7e13559fb123a1dae3b86fa5c497bcfa6c19772e5c094206d3cec82aa50224f",
+      "bytes": 425480
+    },
+    {
+      "name": "derived-stacks.html",
+      "url": "https://stacks.math.columbia.edu/tag/05RR",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "53695b26a40028bc5e259d52d2355cbacb46a9db580f37105b4a95bbefd0ab54",
+      "bytes": 26243
+    },
+    {
+      "name": "dubrovin-papers.html",
+      "url": "https://people.sissa.it/~dubrovin/bd_papers.html",
+      "status": 200,
+      "content_type": "text/html",
+      "sha256": "b3a5032e21a801e19f685284252484803f542d080f84cf397dbf40ac19f564dc",
+      "bytes": 25746
+    },
+    {
+      "name": "dubrovin-1992-current.pdf",
+      "url": "https://people.sissa.it/~dubrovin/Papers/1992/dubrovin_1992_npb.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "sha256": "7517d5ddf9b6fcf0cb33d25a539d6bf7247cbfd2e446601b3d5b40f1d3823fb9",
+      "bytes": 2696879
+    },
+    {
+      "name": "dubrovin-1994-current.pdf",
+      "url": "https://arxiv.org/pdf/hep-th/9407018v1",
+      "status": 200,
+      "content_type": "application/pdf",
+      "sha256": "eedb9ced48fdfbde428831ee40240a2d43ce98636b736971fff69fad5953c302",
+      "bytes": 1170970
+    }
+  ],
+  "local_primary_check": "The two Zotero PDFs actually read and visually inspected are byte-identical to the freshly fetched 1992 SISSA PDF and 1994 arXiv v1 PDF.",
+  "priority_limit": "1991 Pisa PDF was linked from author list but web tool rejected its size; not downloaded/read, no earliest-priority verdict from that file.",
+  "counts": {
+    "raw_records": 61,
+    "canonical_concepts": 58,
+    "aliases": [
+      {
+        "slug": "derived-categories",
+        "alias_of": "derived-category"
+      },
+      {
+        "slug": "frobenius-manifolds",
+        "alias_of": "frobenius-manifold"
+      },
+      {
+        "slug": "integrable-hierarchies",
+        "alias_of": "integrable-hierarchy"
+      }
+    ],
+    "graph_nodes": 61,
+    "ghosts": [
+      "syz-conjecture",
+      "quantum-cluster-algebras",
+      "wild-character-varieties"
+    ],
+    "relation_counts": {
+      "prerequisite": 45,
+      "leads-to": 81,
+      "related": 99
+    }
+  },
+  "browser_preview": {
+    "mobile": "390x844: WDVV formula visually inspected, no horizontal page overflow or KaTeX errors; all three alias searches give one canonical concept; Frobenius legacy URL links to canonical page.",
+    "desktop": "1280x900: graph shows 45 prerequisite, 81 leads-to, 99 related =225 records; Frobenius selection gives chain size3; no browser errors.",
+    "limit": "Preview observations preceded final label-only cleanup; final version also requires live deployment verification."
+  }
+}

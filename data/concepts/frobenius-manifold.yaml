@@ -4,15 +4,19 @@ name:
   zh: Frobenius 流形
 aliases:
   - Dubrovin-Frobenius manifold
-category: algebraic-structure
+category: geometric-structure
 difficulty: advanced
 discipline: math
-year_introduced: 1994
+year_introduced: null
 introduced_by: [dubrovin]
 definition: |
-  复流形 $M$ 上配备平坦度量 $\eta$、切丛上满足
-  $\eta(X \circ Y, Z) = \eta(X, Y \circ Z)$ 的交换结合乘法 $\circ$、
-  单位向量场 $e$ 和 Euler 向量场 $E$ 的结构。
+  本条采用 Dubrovin 1994 年讲义中带 Euler 场的约定。复流形 $M$ 的全纯切丛配备交换、结合、有单位的 $\mathcal O_M$-双线性乘法 $\circ$，以及非退化、对称、复双线性的平坦度量 $\eta$。
+  乘法与度量满足 $\eta(X\circ Y,Z)=\eta(X,Y\circ Z)$。若 $\nabla$ 是 $\eta$ 的 Levi-Civita 联络，则单位场须满足 $\nabla e=0$；令 $c(X,Y,Z)=\eta(X\circ Y,Z)$，四阶张量 $\nabla c$ 须完全对称。
+  Euler 场还须满足 $\nabla\nabla E=0$、$\mathcal L_E(\circ)=\circ$、$\mathcal L_Ee=-e$ 和 $\mathcal L_E\eta=(2-d)\eta$，其中 $d$ 为常数。
+  有些文献使用不要求 Euler 场的约定；阅读具体结果时须核对采用哪一种定义。
+history_note: |
+  Dubrovin 的 1992 年论文第 637 页已明确给出 Frobenius 流形的定义；该文于 1991 年 12 月收稿。1994 年是相关讲义的 arXiv 提交年份，讲义于 1996 年出版，不能据此写成“1994 年首次引入”。本条暂不判定最早提出的唯一日期。
+review_note: "2026-10-08：核对定义的完整条件及上述年代证据；Manin、Hertling、Saito 的贡献概述和图中学习关系尚未在本批逐项核对。"
 dual_to: null
 prerequisites:
   - flat-connection
@@ -30,15 +34,22 @@ key_papers: ["hep-th/9407018"]
 contributions:
   - person: dubrovin
     role: founder
-    description: "1994年引入概念，229 页奠基论文"
+    description: "1992 年论文给出定义与 WDVV 的几何表述；1994 年讲义系统发展理论（1996 年出版）。"
   - person: manin-yuri
     role: promoter
-    description: "推广到量子上同调框架"
+    description: "[待核实] 推广到量子上同调框架"
   - person: hertling
     role: major
-    description: "从奇异点理论角度发展"
+    description: "[待核实] 从奇异点理论角度发展"
   - person: k-saito
     role: major
-    description: "Primitive forms 和 flat structures，独立发展类似结构"
+    description: "[待核实] Primitive forms 和 flat structures，独立发展类似结构"
+sources:
+  - label: "Dubrovin：Geometry of 2d topological field theories，Definition 1.2、式 (1.50)、Lemma 1.2（预印本第 12—15 页）"
+    url: https://arxiv.org/abs/hep-th/9407018v1
+  - label: "Dubrovin：Integrable systems in topological field theory（1992），第 627 页收稿信息、第 637 页 Definition 2.2（未要求 Euler 场）"
+    url: https://people.sissa.it/~dubrovin/Papers/1992/dubrovin_1992_npb.pdf
+  - label: "Dubrovin 本人论文目录：1994 年预印本与 1996 年出版信息"
+    url: https://people.sissa.it/~dubrovin/bd_papers.html
 tags:
   - layer-1

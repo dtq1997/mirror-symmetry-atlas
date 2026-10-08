@@ -5,6 +5,7 @@ import ConceptMap from "@/components/graphs/ConceptMap";
 import type { GraphData, Concept, Difficulty } from "@/lib/types";
 import Link from "@/components/shared/AtlasLink";
 import { useMobile } from "@/lib/use-mobile";
+import { entityRoute } from "@/lib/entity-route";
 
 const DIFFICULTY_COLORS: Record<string, string> = {
   introductory: "#22c55e",
@@ -127,7 +128,7 @@ export default function ConceptPageClient({ graphData, concepts }: Props) {
                   </div>
                   {c.prerequisites?.length > 0 && (
                     <div className="text-xs text-[#8888a0] mt-1">
-                      前置：{c.prerequisites.join(", ")}
+                      前置：{c.prerequisites.map((slug) => entityRoute(`/concepts/${slug}`)?.label || slug).join("、")}
                     </div>
                   )}
                 </Link>

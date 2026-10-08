@@ -1,8 +1,10 @@
-import { getAllConcepts } from "@/lib/data";
+import { getConceptRecords, getConceptsMap } from "@/lib/data";
 import Link from "@/components/shared/AtlasLink";
 import { notFound } from "next/navigation";
 import MathText from "@/components/shared/MathText";
 import { displayName } from "@/lib/name";
+import ConceptEvidence from "@/components/concepts/ConceptEvidence";
+import { CONCEPT_ROLE_LABELS } from "@/lib/concepts";
 
 const DIFFICULTY_COLORS: Record<string, string> = {
   introductory: "#22c55e",
@@ -16,9 +18,14 @@ const DIFFICULTY_LABELS: Record<string, string> = {
   advanced: "进阶",
   "research-frontier": "前沿",
 };
+const CATEGORY_LABELS: Record<string, string> = {
+  "algebraic-structure": "代数结构", "geometric-structure": "几何结构",
+  equation: "方程", conjecture: "猜想", technique: "方法",
+};
+const DISCIPLINE_LABELS: Record<string, string> = { math: "数学", physics: "物理", both: "数学与物理" };
 
 export function generateStaticParams() {
-  return getAllConcepts().map((c) => ({ slug: c.slug }));
+  return getConceptRecords().map((c) => ({ slug: c.slug }));
 }
 
 export default async function ConceptPage({
@@ -27,8 +34,7 @@ export default async function ConceptPage({
   params: Promise<{ slug: string }>;
 }) {
   const { slug } = await params;
-  const concepts = getAllConcepts();
-  const concept = concepts.find((c) => c.slug === slug);
+  const concept = getConceptsMap().get(slug);
   if (!concept) notFound();
 
   const diffColor = DIFFICULTY_COLORS[concept.difficulty] || "#6366f1";
@@ -47,6 +53,11 @@ export default async function ConceptPage({
         <span className="text-[#e8e8f0]">{concept.name.en}</span>
       </div>
 
+      {slug !== concept.slug && <p className="mb-6 rounded-lg border border-[#6366f1]/40 p-4 text-sm text-[#aaaac0]">
+        这是英文复数别名的旧入口，以下显示主条目的内容。
+        <Link href={`/concepts/${concept.slug}`} className="ml-2 text-[#818cf8] hover:underline">打开主条目</Link>
+      </p>}
+
       {/* Header */}
       <div className="mb-8">
         <h1 className="text-3xl font-bold text-[#e8e8f0] mb-1">
@@ -60,7 +71,7 @@ export default async function ConceptPage({
             又名：{concept.aliases.join(", ")}
           </p>
         )}
-        <div className="flex items-center gap-3 mt-3">
+        <div className="flex flex-wrap items-center gap-3 mt-3">
           <span
             className="px-2 py-0.5 text-xs rounded-full"
             style={{
@@ -71,10 +82,10 @@ export default async function ConceptPage({
             {DIFFICULTY_LABELS[concept.difficulty]}
           </span>
           {concept.category && (
-            <span className="text-xs text-[#8888a0]">{concept.category}</span>
+            <span className="text-xs text-[#8888a0]">{CATEGORY_LABELS[concept.category] || concept.category}</span>
           )}
           {concept.discipline && (
-            <span className="text-xs text-[#8888a0]">{concept.discipline}</span>
+            <span className="text-xs text-[#8888a0]">{DISCIPLINE_LABELS[concept.discipline] || concept.discipline}</span>
           )}
           {concept.year_introduced && (
             <span className="text-xs text-[#6366f1]">
@@ -93,6 +104,8 @@ export default async function ConceptPage({
           </MathText>
         </section>
       )}
+
+      <ConceptEvidence concept={concept} />
 
       {/* Dependencies */}
       <div className="grid md:grid-cols-2 gap-4 mb-8">
@@ -180,7 +193,7 @@ export default async function ConceptPage({
                   )}
                 </div>
                 <span className="text-xs text-[#8888a0] bg-[#2a2a3a] px-2 py-0.5 rounded shrink-0 ml-3">
-                  {ct.role}
+                  {CONCEPT_ROLE_LABELS[ct.role] || ct.role}
                 </span>
               </div>
             ))}

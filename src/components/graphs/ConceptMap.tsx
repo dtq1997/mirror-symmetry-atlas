@@ -8,6 +8,7 @@ import Link from "@/components/shared/AtlasLink";
 import MathText from "../shared/MathText";
 import { displayName } from "@/lib/name";
 import ConceptGraphLegend, { DIFFICULTY_LABELS } from "./ConceptGraphLegend";
+import { CONCEPT_ROLE_LABELS } from "@/lib/concepts";
 
 interface ConceptMapProps {
   graphData: GraphData;
@@ -212,7 +213,7 @@ function ConceptSidebar({ concept }: { concept: Concept }) {
             className="px-2 py-0.5 text-xs rounded-full bg-[#2a2a3a] text-[#c4b5fd]">{slug}</Link>)}
         </div>
       </div>}
-      <p className="text-xs text-[#8888a0]">以上沿用本站概念记录，定义、关系与历史归属仍待逐项核实；前置追溯不代表唯一或严格的学习顺序。</p>
+      <p className="text-xs text-[#8888a0]">{concept.review_note || "以上沿用本站概念记录，定义、关系与历史归属仍待逐项核实；前置追溯不代表唯一或严格的学习顺序。"}</p>
 
       {concept.key_people?.length > 0 && (
         <div>
@@ -246,7 +247,7 @@ function ConceptSidebar({ concept }: { concept: Concept }) {
                 >
                   {displayName(ct.person)}
                 </Link>
-                <span className="text-[#8888a0] ml-2">({ct.role})</span>
+                <span className="text-[#8888a0] ml-2">（{CONCEPT_ROLE_LABELS[ct.role] || ct.role}）</span>
                 {ct.description && (
                   <div className="text-[#8888a0] mt-0.5">{ct.description}</div>
                 )}
@@ -261,7 +262,7 @@ function ConceptSidebar({ concept }: { concept: Concept }) {
           href={`/concepts/${concept.slug}`}
           className="text-sm text-[#6366f1] hover:text-[#818cf8]"
         >
-          查看详情 →
+          查看详情与来源 →
         </Link>
       </div>
     </div>

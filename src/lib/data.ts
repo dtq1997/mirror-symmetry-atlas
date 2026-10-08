@@ -16,6 +16,7 @@ import type {
   AckMention,
 } from "./types";
 import { collectCoauthorship, recordedPublicationStats } from "./publications";
+import { canonicalConcepts, conceptLookup } from "./concepts";
 
 const DATA_DIR = path.join(process.cwd(), "data");
 
@@ -67,7 +68,7 @@ export function getPerson(slug: string): Person | undefined {
 
 // ===== Concepts =====
 
-export function getAllConcepts(): Concept[] {
+export function getConceptRecords(): Concept[] {
   return readYamlDir<Concept>("concepts").map((c) => ({
     ...c,
     introduced_by: c.introduced_by || [],
@@ -79,12 +80,12 @@ export function getAllConcepts(): Concept[] {
   }));
 }
 
+export function getAllConcepts(): Concept[] {
+  return canonicalConcepts(getConceptRecords());
+}
+
 export function getConceptsMap(): Map<string, Concept> {
-  const map = new Map<string, Concept>();
-  for (const c of getAllConcepts()) {
-    map.set(c.slug, c);
-  }
-  return map;
+  return conceptLookup(getConceptRecords());
 }
 
 // ===== Papers =====
@@ -333,7 +334,7 @@ export function loadAllData(): DataStore {
 export function getAllKnownSlugs(): Set<string> {
   const slugs = new Set<string>();
   for (const p of getAllPeople()) slugs.add(p.slug);
-  for (const c of getAllConcepts()) slugs.add(c.slug);
+  for (const c of getConceptRecords()) slugs.add(c.slug);
   for (const i of getAllInstitutions()) slugs.add(i.slug);
   return slugs;
 }

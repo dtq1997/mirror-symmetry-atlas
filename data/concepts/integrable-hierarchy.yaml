@@ -3,19 +3,17 @@ name:
   en: Integrable Hierarchy
   zh: 可积层级
 aliases:
-  - integrable systems
-  - KdV hierarchy
-  - KP hierarchy
-  - Dubrovin-Zhang hierarchy
-category: algebraic-structure
+  - integrable hierarchies
+category: equation
 difficulty: advanced
 discipline: math
 year_introduced: null
 introduced_by: []
 definition: |
-  一族相容的演化偏微分方程，例如 KdV 层级
-  $u_t = u_{xxx} + 6uu_x, \ldots$。每个 Frobenius 流形对应一个双 Hamilton
-  可积层级（Dubrovin-Zhang 层级）。
+  在本条讨论的演化偏微分方程语境中，可积层级是一族彼此相容、流相互交换的演化方程，通常还带有 Hamilton 结构及守恒量等结构。KdV、KP 是具体例子，不是“可积层级”的同义词。
+  Frobenius 流形可局部构造相应的主层级（principal hierarchy）：它由一阶拟线性的无色散方程组成，构造需选择归一化的变形平坦坐标。
+  Dubrovin–Zhang 层级涉及主层级的拓扑型色散变形，其经典构造以半单 Frobenius 流形为背景。它与无色散主层级须区分；具体的双 Hamilton 递推、tau 结构及变形结论，应按所引文献核对条件。
+review_note: "2026-10-08：核对主层级与拓扑型色散变形的区别，以及所列合作论文的研究范围。本条不声称所有 Frobenius 流形都无条件对应同一种 Dubrovin–Zhang 层级；图中学习关系仍待核对。"
 dual_to: null
 prerequisites:
   - frobenius-manifold
@@ -26,13 +24,18 @@ related:
   - gromov-witten-theory
   - tau-function
 key_people: [dubrovin, zhang-youjin, liu-siqi, novikov-sergei]
-key_papers: []
+key_papers: ["math/0108160", "1701.03222"]
 contributions:
   - person: zhang-youjin
     role: major
-    description: "与 Dubrovin 建立 Frobenius 流形到可积层级的对应"
+    description: "与 Dubrovin 研究主层级、双 Hamilton 结构及半单 Frobenius 流形上的拓扑型变形（math/0108160）。"
   - person: liu-siqi
     role: major
-    description: "WDVV 方程与 tau 函数的对称性"
+    description: "与 Dubrovin、张友金研究平坦、正合、半单的流体型双 Hamilton 结构，以及保持 tau 结构的主层级变形（1701.03222）。"
+sources:
+  - label: "Dubrovin–Zhang：Normal forms of hierarchies…，§3.1、§3.6（主层级、局部平坦坐标与递推条件），§3.10（半单情形的拓扑型变形）"
+    url: https://arxiv.org/abs/math/0108160v1
+  - label: "Dubrovin–Liu–Zhang：Bihamiltonian Cohomologies and Integrable Hierarchies II，§2、§6，尤其第 44 页"
+    url: https://arxiv.org/abs/1701.03222v1
 tags:
   - layer-2
