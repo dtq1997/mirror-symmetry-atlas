@@ -2,18 +2,19 @@
 
 [Codex] 2026-10-08。Goal **active**，原目标见 `RECOVERY-PLAN.md`。这不是已完成的全库事实认证。
 
-## 当前恢复入口（2026-10-08，第十批线上验收后）
+## 当前恢复入口（2026-10-08，第十一批线上验收后）
 
 [Codex] Goal仍active。以下是当前摘要；后面的早期“待发布/尚未恢复”是历史记录，不代表现在。
 
-- 原网站已发布十批修复。最近公开内容 commit `1d002b0f288d4d37d1adb9be0c5b400d76e577e6`；Actions `37708026854` success，7个人物页及论文目录共8页HTTP核验，手机/桌面三组论文卡片实际核验完成。后续报告提交带skip ci，公开资产仍以上述commit为准。
-- 当前96人物、61概念、115机构、3开放问题；人物原始论文2219行，目录1817组（包括书籍/章节及译版，不等于独立研究论文总数）。283HTML/22222站内链接/642公式实例，未检出坏目标或KaTeX解析错误；data lint 0errors/74warnings；28项网站回归及CI全部检查通过。这不是全库事实或数学认证。
+- 原网站已发布十一批修复。最近公开内容 commit `894494f1ecdd09fe87105c994053f0aec38c200e`；Actions `37709620184` success，首页/会议/三个人物/论文目录共6页HTTP核验，390px会议与Fang页、1280px Liu页实际核验完成。后续报告提交带skip ci，公开资产仍以上述commit为准。
+- 当前96人物、61概念、115机构、3开放问题；人物原始论文2223行，目录1819组（包括书籍/章节及译版，不等于独立研究论文总数）。283HTML/22271站内链接/642公式实例，未检出坏目标或KaTeX解析错误；data lint 0errors/74warnings；28项网站回归及CI全部检查通过。这不是全库事实或数学认证。
 - 新闻链与定时部署已恢复，72篇新闻在线；作者保留原始署名，不按姓氏猜身份。1237个完整arXiv当前元数据已取回，但并非全部归属已核实。
 - 累计11条确认错挂、5条待核实归属已移出，1录像转网上痕迹，另8条来源确认的重复已合并。原始记录及来源分别保存在审核池或具名审计报告；身份排除受防回填检查保护，合并的有效DOI不能加入拒绝池。刘思齐41条、Mazzocco46条、Dubrovin64条。部分履历/论文修正不代表整个人物已核。
 - 图谱空按钮、共享数据突变、布局持续散开、手机侧栏/搜索、公式跨行渲染已修；年份筛选是累计有日期记录，机构筛选是历史履历关联，不猜现职。小屏全图仍可能局部标签重叠，可搜索放大。
 - 第八批统一出版线索口径；第九批修论文/新闻行内公式、重复与Hertling原刊标题；第十批修 Weyl 第一篇/续篇串接、1604.07123与1809.08806错题名，合并两组预印本/期刊重复。详见identifier-title-corrections.json、batch-ten-publication-counts.json、batch-ten-live-verification.json。Weyl续篇真实出版线索仍待补，不能说未发表。
-- 第十一批已完成本地核验、待发布：按CV修正Fang学历/任职/资助年份，补两篇2026年新作到三个作者的四行记录；会议邀请名单补Nest至18人，移除履历末项推断参会单位并展示官方来源。下方有本批范围及验证记录。
+- 第十一批已上线：按CV修正Fang学历/任职/资助年份，补两篇2026年新作到三个作者的四行记录；会议邀请名单补Nest至18人，移除履历末项推断参会单位并展示官方来源。Fang24(18/6)、Liu61(47/14)、Zong24(15/9)，括号为出版线索/待补线索。见 profiles-new-papers-and-conference-review.json 与 batch-eleven-live-verification.json。
 - 继续复核52条题名差异和227条旧编号的早期快照（含已处理项/版本差异，不全是错）；郭帅2311.09804归属、2312.11174 Open MIND刊名、邬龙挺1103.4695归属、Boalch W4307615951幻灯片类型。旧 next-publication-source-leads.json 三组题名问题已由第十批处理，不重复修改。
+- 下一步看 `next-institution-and-name-leads.json`：机构列表与详情仍把履历末项/开放结束日期/旧current_members误当当前成员；BICMR成立年份1898错用北大年份，中心官方简介确认2005。缺档zaslow-eric机械显示为Zaslow Eric，Northwestern官方确认Eric Zaslow。来源已取，尚未修改这些文件；需完整阅读目标YAML并保留旧字段证据。
 - 全内容待办仍包括：人物公开叙述/履历/师生关系，Hertling整书/章节计数，61概念及概念图一侧related连线，115机构、会议/时间线/3开放问题一手来源，论文目录查找体验。必须继续覆盖这些类型，不能把论文元数据清理当全站完成。
 - content-inventory.json是第一批未核实基线，旧数量/全pending不覆盖后续分项证据。当前覆盖以具名审计的具体字段为准。
 - 不运行旧validate-publications.py --apply / detect-id-title-mismatch.py --write；OpenAlex v2仍有HTTP/缓存/评分风险，不能无人审查全库写入。
@@ -215,3 +216,7 @@ Goal active；当前尚待本批 GitHub Pages 发布与线上验收。
 - 证据：profiles-new-papers-and-conference-review.json、batch-eleven-publication-counts.json、batch-eleven-export-audit.json。源PDF哈希、逐字段前后记录和限制均入审计。
 
 下一步：待本批Actions与线上核验后，修机构页同类归属错误（列表倒序取履历、详情把present/末尾横线/旧current_members直接当现职），核BICMR条目的北大1898成立年份与中心自身年份混用。Fang导师显示为Zaslow Eric的未建档回退需查名字映射。继续全部人物、论文、61概念、115机构、会议签到、时间线、3开放问题与论文查找体验，不得以本批完成关闭Goal。
+
+[Codex] 2026-10-08 第十一批线上验收完成：commit `894494f1ecdd09fe87105c994053f0aec38c200e`，Actions `37709620184` success。六页HTTP全部符合本批预期；浏览器390px会议18/65、Fang24及履历修正、1280px Liu61和两篇新作均实际确认，无横向溢出，error日志为空。截图 `conference-live-mobile.png`；证据 `batch-eleven-live-verification.json`。预览服务PID34136已按本轮启动身份核对并关闭，临时预览tab6已关闭，浏览器尺寸已恢复。
+
+Goal仍active。继续本仓库全站审核；下一批优先机构归属模型、BICMR对象/年份和缺档名字错误，不重做已上线的第十一批。部署警告：旧Actions版本Node20弃用、ubuntu-latest将于2026-10-19迁移；本次CI实际成功，后续单独按官方版本说明处理，勿把警告当失败。

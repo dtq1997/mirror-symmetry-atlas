@@ -1,0 +1,187 @@
+{
+  "reviewer": "Codex",
+  "checked_at": "2026-10-08T00:50:53.199545+00:00",
+  "commit": "894494f1ecdd09fe87105c994053f0aec38c200e",
+  "deployment_run": 37709620184,
+  "http_checks": [
+    {
+      "url": "https://dtq1997.github.io/mirror-symmetry-atlas/",
+      "status": 200,
+      "sha256": "1f2259e363a122ed2d462bcb02008f1134aeaaa9a7a91afe509094d280a3d714",
+      "checks": {
+        "catalog_1819": true
+      },
+      "passed": true
+    },
+    {
+      "url": "https://dtq1997.github.io/mirror-symmetry-atlas/conferences",
+      "status": 200,
+      "sha256": "497d3a64917537e930f7c4e7b607c0840c37611fa6d28160831c33d2902da6e0",
+      "checks": {
+        "invited_18": true,
+        "nest_invited": true,
+        "attendance_65": true,
+        "no_complete_attendance_claim": true,
+        "official_source": true,
+        "attendance_review_limit": true,
+        "chinese_topic": true
+      },
+      "passed": true
+    },
+    {
+      "url": "https://dtq1997.github.io/mirror-symmetry-atlas/people/fang-bohan",
+      "status": 200,
+      "sha256": "36cf3496ab6ce32c9610b19254f9f913d727435825ff6ecaf72520a9c18f7463",
+      "checks": {
+        "count": true,
+        "paper:2609.12955": true,
+        "old_wrong_degree_absent": true,
+        "ritt_title": true,
+        "correct_grant": true,
+        "unknown_start_explicit": true,
+        "current_professor": true
+      },
+      "passed": true
+    },
+    {
+      "url": "https://dtq1997.github.io/mirror-symmetry-atlas/people/liu-melissa",
+      "status": 200,
+      "sha256": "e4e0a83485cb09925603914acaf153aacd55b4d285c361178e126721695e9931",
+      "checks": {
+        "count": true,
+        "paper:2609.12955": true,
+        "paper:2605.30223": true
+      },
+      "passed": true
+    },
+    {
+      "url": "https://dtq1997.github.io/mirror-symmetry-atlas/people/zong-zhengyu",
+      "status": 200,
+      "sha256": "d0a46683e2982c4761fe502a5cb9f99cf1353508a5e01669faa1faf6e7fbf63a",
+      "checks": {
+        "count": true,
+        "paper:2609.12955": true
+      },
+      "passed": true
+    },
+    {
+      "url": "https://dtq1997.github.io/mirror-symmetry-atlas/papers",
+      "status": 200,
+      "sha256": "96b23c4487bd226e19003814d2705018aef405c842e7212ee8afcf90632ce62f",
+      "checks": {
+        "catalog_1819": true,
+        "paper:2609.12955": true,
+        "paper:2605.30223": true
+      },
+      "passed": true
+    }
+  ],
+  "preview": {
+    "checks": [
+      {
+        "stage": "preview",
+        "page": "fang-bohan",
+        "correctGrant": true,
+        "newPaperLinks": 2,
+        "newRole": true,
+        "oldWrongDegree": false,
+        "scrollWidth": 384,
+        "width": 390
+      },
+      {
+        "stage": "preview",
+        "page": "liu-melissa",
+        "newPapers": [
+          {
+            "href": "https://arxiv.org/abs/2609.12955",
+            "text": "All-Genus Open Mirror Symmetry for Toric Calabi-Yau 3-Orbifolds with Multiple Branes"
+          },
+          {
+            "href": "https://arxiv.org/abs/2609.12955",
+            "text": "2609.12955"
+          },
+          {
+            "href": "https://arxiv.org/abs/2605.30223",
+            "text": "Hodge numbers of moduli of principal bundles on a curve"
+          },
+          {
+            "href": "https://arxiv.org/abs/2605.30223",
+            "text": "2605.30223"
+          }
+        ],
+        "scrollWidth": 1274,
+        "width": 1280
+      }
+    ],
+    "conference": {
+      "width": 390,
+      "scrollWidth": 384,
+      "invitedHeading": "邀请报告人（18）",
+      "attendanceHeading": "参会记录（65）",
+      "officialSource": "https://maths.hust.edu.cn/info/1293/12288.htm"
+    },
+    "consoleErrors": []
+  },
+  "scope": "Six live HTML pages plus bounded browser views; not all content verification.",
+  "browser": {
+    "checks": [
+      {
+        "page": "conferences",
+        "width": 390,
+        "scrollWidth": 384,
+        "invited": 18,
+        "recordedAttendance": 65,
+        "officialSource": "https://maths.hust.edu.cn/info/1293/12288.htm"
+      },
+      {
+        "page": "fang-bohan",
+        "heading": "方博汉",
+        "oldWrongDegree": false,
+        "publicationHeader": "论文（24）18 有出版线索/6 待补出版线索",
+        "ritt": true,
+        "scrollWidth": 384,
+        "unknownStart": true,
+        "width": 390
+      },
+      {
+        "page": "liu-melissa",
+        "newPapers": [
+          {
+            "href": "https://arxiv.org/abs/2609.12955",
+            "text": "All-Genus Open Mirror Symmetry for Toric Calabi-Yau 3-Orbifolds with Multiple Branes"
+          },
+          {
+            "href": "https://arxiv.org/abs/2609.12955",
+            "text": "2609.12955"
+          },
+          {
+            "href": "https://arxiv.org/abs/2605.30223",
+            "text": "Hodge numbers of moduli of principal bundles on a curve"
+          },
+          {
+            "href": "https://arxiv.org/abs/2605.30223",
+            "text": "2605.30223"
+          }
+        ],
+        "publicationHeader": "论文（61）47 有出版线索/14 待补出版线索",
+        "scrollWidth": 1274,
+        "width": 1280
+      }
+    ],
+    "consoleErrors": []
+  },
+  "deployment_conclusion": "success",
+  "screenshot": {
+    "path": "docs/audits/2026-10-08/conference-live-mobile.png",
+    "sha256": "67700ea46e50f9ef2e202fa8e2304bc22075b3c42aa7dc4c68749b40c7e5f917"
+  },
+  "local_validation": {
+    "site_tests": 28,
+    "eslint": "passed",
+    "typecheck": "passed",
+    "build": "passed",
+    "lint_errors": 0,
+    "lint_warnings": 74,
+    "export_audit": "batch-eleven-export-audit.json"
+  }
+}

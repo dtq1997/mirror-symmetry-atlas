@@ -1,0 +1,32 @@
+{
+  "reviewer": "Codex",
+  "date": "2026-10-08",
+  "status": "Source-confirmed follow-up leads; no batch-twelve changes applied",
+  "leads": [
+    {
+      "path": "data/institutions/pku-bicmr.yaml",
+      "issue": "founded1898 belongs to parent university, while this entry describes BICMR; type university and combined name also need separation.",
+      "primary_source": "https://bicmr.pku.edu.cn/cn/content/page/8.html",
+      "source_statement": "BICMR established2005; independently administered teaching/research unit within Peking University.",
+      "pending": "Review all fields and preserve historical original data; do not certify unsourced group membership or HUST delegation claim."
+    },
+    {
+      "paths": [
+        "src/app/institutions/page.tsx",
+        "src/app/institutions/[slug]/page.tsx"
+      ],
+      "issue": "List count uses last career position regardless date, detail labels present/open-ended/history and unverified current_members as current people.",
+      "pending": "Use a shared recorded-affiliation model distinguishing dated education, employment, visit and undated group claims; one-sided profile data must not certify current membership."
+    },
+    {
+      "paths": [
+        "scripts/build-people-names.py",
+        "data/people/fang-bohan.yaml"
+      ],
+      "issue": "Missing zaslow-eric profile creates mechanical display Zaslow Eric; primary page confirms Eric Zaslow.",
+      "primary_source": "https://www.math.northwestern.edu/people/faculty/eric-zaslow.html",
+      "pending": "A bounded sourced profile or source-backed display correction; do not change all43ghost names by heuristic."
+    }
+  ],
+  "institution_count": 115
+}
