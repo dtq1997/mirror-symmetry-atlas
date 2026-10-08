@@ -221,12 +221,19 @@ publications:
     openalex_id: W7139068513
     sources: [arxiv, openalex]
   - id: '2502.13558'
-    title: 'On the quantum cohomology of blow-ups of four-dimensional quadrics'
+    title: On the quantum cohomology of blow-ups of four-dimensional quadrics
     year: 2025
-    coauthors: [ke-huazhong, li-changzheng, 'Lei Song']
-    journal: 'Acta Math. Sin. (Engl. Ser.) 40 (2024), no. 1, 313-328'
+    coauthors:
+    - ke-huazhong
+    - li-changzheng
+    - Lei Song
+    journal: Acta Math. Sin. (Engl. Ser.) 40 (2024), no. 1, 313-328
     primary_category: math.AG
-    sources: [arxiv]
+    sources:
+    - arxiv
+    - crossref
+    - manual
+    doi: 10.1007/s10114-024-2236-9
   - id: '2502.13545'
     title: 'Mirror symmetry for certain blowups of Grassmannians'
     year: 2025
@@ -416,6 +423,10 @@ personal_notes: |
   项目资助包括 NSFC 11771460、11371381、11521101（见2018年 blow-up 论文致谢）；与 Tian-Jun Li、Yongbin Ruan 合作 *Invent. Math.* 2008 论文 (Birational cobordism invariance of uniruled symplectic manifolds) 是该领域里程碑
   合作与编著：与 SYSU 同事李长征、柯华忠合作研究 Galkin 下界猜想和 Gamma 猜想；编辑 Springer Proceedings *Schubert Calculus and Its Applications*
 sources:
+  - label: '[Codex] 2026-10-08：四维二次曲面blow-up论文期刊DOI'
+    url: https://api.crossref.org/works/10.1007/s10114-024-2236-9
+    last_verified: '2026-10-08'
+    notes: 出版社登记与期刊官方页面确认同题名、Hu/Ke/Li/Lei Song四位作者及40(1),313–328(2024)。预印本于2025年首次上传且自报2024年卷页，两个年份各有含义；本次补DOI，不改首次预印本年份。Lei Song不绑定宋家宇。
   - label: '[Codex] 2026-10-08：学历年份的官方来源冲突'
     url: https://math.sysu.edu.cn/node/484
     notes: 教师页搜索索引与2023年广东省丁颖科技奖提名表搜索索引的本科、硕士年份不一致；两份直接访问均403，尚未解决冲突。撤去原先倒推的入学年份，不按其中一份索引擅定结论。

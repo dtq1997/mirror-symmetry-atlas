@@ -1,0 +1,38 @@
+{
+  "reviewer": "Codex",
+  "date": "2026-10-08",
+  "scope": "Local production export, focused batch26 bibliography checks; not whole-site or scholarly verification.",
+  "desktop": {
+    "page": "people/li-qin#publications",
+    "viewport": [
+      1280,
+      800
+    ],
+    "scrollWidth": 1274,
+    "heading": "论文（14）11 有出版线索/3 待补出版线索",
+    "katex_errors": 0,
+    "screenshot": "batch-twenty-six-preview-desktop.jpg"
+  },
+  "mobile": {
+    "page": "papers",
+    "viewport": [
+      390,
+      844
+    ],
+    "scrollWidth": 384,
+    "query": "2010.14339",
+    "result_count": 1,
+    "catalog_count": 1799,
+    "result_year": 2020,
+    "journal": "Pure and Applied Mathematics Quarterly 22 (2026), no. 3, 789–802",
+    "doi": "10.4310/pamq.260122023941",
+    "authors": [
+      "leung-naichung",
+      "li-qin",
+      "Ziming Nikolas Ma"
+    ],
+    "screenshot": "batch-twenty-six-preview-mobile.jpg"
+  },
+  "console_errors": [],
+  "new_issue_for_next_batch": "Catalog card labels arXiv ID 2010.14339 but links it to preferred DOI. Person bibliography ID link correctly uses arXiv. Fix catalog ID link labeling/target separately; search/merge check passed, this navigation mismatch remains."
+}

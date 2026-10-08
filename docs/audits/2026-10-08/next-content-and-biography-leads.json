@@ -10,23 +10,21 @@
     "batch_twenty_two": "Paper catalog now supports bilingual/title/full-ID queries, combined owner/year/publication-clue filters and 50-record progressive rendering. 1808 groups/2208 rows and all 326 YAML files unchanged. 55 regressions plus desktop/mobile public interactions verified.",
     "batch_twenty_three": "Ding: 1 confirmed wrong-owner and 2 pending-ownership rows moved to review pool; 2 preprint/journal pairs merged; wrong Yiwen Ding author link, overstated DYZ scope and JLMS year corrected. Early education and adviser remain pending. Six public pages and actual 608px/390px browser checks passed; Actions 37733967538 succeeded for 5c5e792. Pending adviser has a restoration guard; coauthorship and documented institutional overlap remain separate.",
     "batch_twenty_four": "Local and public validation passed; unsafe surname/initial binding and all-authors subject inference removed. 5 accepted paper claims (4 directed pairs), 4 false paper bindings rejected, 368 legacy paper claims retained pending. Threshold 1 now displays singles; arrows show direction. Actions 37736282862 succeeded for 1e14547; 7 public pages, actual 1280px/390px checks passed.",
-    "batch_twenty_five": "Deployed121b6dd, Actions37739178616success;7publicpages and1280/390actualbrowserwidths verified. Old45fundingedges preserved;5individualrecipientclaims produce4pairs. Four literal-word grant IDs rejected,3oldpairs superseded by narrower evidence,38oldclaims pending. Public person/sidebar sources and reviewed-output build gate added. 58site checks include15grant tests."
+    "batch_twenty_five": "Deployed121b6dd, Actions37739178616success;7publicpages and1280/390actualbrowserwidths verified. Old45fundingedges preserved;5individualrecipientclaims produce4pairs. Four literal-word grant IDs rejected,3oldpairs superseded by narrower evidence,38oldclaims pending. Public person/sidebar sources and reviewed-output build gate added. 58site checks include15grant tests.",
+    "batch_twenty_six": "Local checks complete; deployment pending. Seven publisher markup/entity residues corrected; PAMQ 2010.14339 journal association and quadric DOI added. Li Qin: 2 confirmed UW wrong-owner publications removed,1 identity-pending paper quarantined,2 additional Bao Qin Li identity-only IDs removed. Three historical CV entries corrected; current job unverified. Yang Di early mechanics paper retained through exact-email evidence. 60 site regressions; 287HTML/15264links/563formulas/0issues."
   },
   "priority_leads": [
     {
       "content_types": [
-        "publication metadata"
+        "catalog identifier navigation"
       ],
-      "status": "journal-volume-confirmed; metadata-enrichment-pending",
-      "issue": "2502.13558的2024卷页已获期刊官方页面直接确认（40(1):313–328，DOI10.1007/s10114-024-2236-9）；并非年份错误。下一批可按来源补DOI及来源，先核三人既有行避免重复。另有2010.14339与PAMQ2026 DOI关联及K&amp;auml;hler题名实体待核。",
+      "status": "confirmed-bug",
+      "issue": "论文目录卡片arXiv编号链接错误复用首选DOI；例如2010.14339显示编号却跳DOI。人物详情中的编号正确。下一批修链接对应关系并加负例，不改归并。",
       "entry_files": [
-        "data/people/hu-jianxun.yaml",
-        "data/people/ke-huazhong.yaml",
-        "data/people/li-changzheng.yaml",
-        "data/people/leung-naichung.yaml",
-        "data/people/li-qin.yaml"
+        "src/components/papers/PublicationCard.tsx",
+        "src/lib/publications.ts"
       ],
-      "verified_source": "https://actamath.cjoe.ac.cn/Jwk_sxxb_en/CN/10.1007/s10114-024-2236-9"
+      "evidence": "batch-twenty-six-preview-verification.json"
     },
     {
       "content_types": [
@@ -96,15 +94,11 @@
     },
     {
       "content_types": [
-        "people.publications identity",
-        "paper title encoding"
+        "people.publications identity"
       ],
-      "issue": "丁岩峭本批书目与部分履历处置见ding-publications-and-biography-review.json，早期学历/导师及两条材料论文仍待核。梁乃聪/李勤10.4310/pamq.260122023941题名K&amp;auml;hler和其他原始HTML实体仍待核查修正。",
+      "issue": "丁岩峭书目与部分履历处置见ding-publications-and-biography-review.json；早期学历/导师及两条材料论文仍待核。原HTML实体与PAMQ关联已由第二十六批处理，不重复修改。",
       "entry_files": [
-        "data/people/ding-yanqiao.yaml",
-        "data/people/leung-naichung.yaml",
-        "data/people/li-qin.yaml",
-        "src/lib/math-text.ts"
+        "data/people/ding-yanqiao.yaml"
       ],
       "status": "partly-resolved-batch-23",
       "evidence": "ding-publications-and-biography-review.json",
@@ -151,7 +145,7 @@
         "zagier",
         "ryszard-nest"
       ],
-      "issue": "本批只核具体书目字段。饶胜履历与personal_notes仍有由合著推断刘克峰师承的待核说法；Nest任职与online_traces描述冲突；杨迪1006.5241的机械学工作需独立身份来源，不能仅因跨主题删除；Zagier学历/师生细节需一手来源。"
+      "issue": "饶胜履历与personal_notes仍有由合著推断刘克峰师承的待核说法；Nest任职与online_traces描述冲突；Zagier学历/师生细节需一手来源。杨迪1006.5241已由两篇原文的相同邮箱及1009.5125的张友金致谢链支持保留，非整个人物档案认证。"
     }
   ],
   "institution_inventory": {
@@ -206,6 +200,11 @@
       "person": "hu-chuangqiang",
       "issue": "博士院校、年份和导师未知；BIMSA实际起止与职级仍未知。2020拟聘不等于到岗，2025加入描述不表示此前从未在SYSU工作。",
       "evidence": "hu-chuangqiang-biography-and-coauthor-review.json"
+    },
+    {
+      "person": "li-qin",
+      "issue": "本人旧CV支持已修正的2011–2015历史条目，不能认证2021起SIQSE现职。当前两个人员页均显示内容更新中，继续找当前官方来源；履历其他条目与个人备注未全核。",
+      "evidence": "publication-text-and-qin-identity-review.json"
     }
   ],
   "completed_usability_items": [
@@ -230,6 +229,24 @@
       "status": "deployed-and-publicly-verified",
       "evidence": "catalog-usability-review.json",
       "live_evidence": "batch-twenty-two-live-verification.json"
+    }
+  ],
+  "resolved_metadata_leads": [
+    {
+      "content_types": [
+        "publication metadata"
+      ],
+      "status": "resolved-batch-26-specific-fields",
+      "issue": "2502.13558的2024卷页已获期刊官方页面直接确认（40(1):313–328，DOI10.1007/s10114-024-2236-9）；并非年份错误。下一批可按来源补DOI及来源，先核三人既有行避免重复。另有2010.14339与PAMQ2026 DOI关联及K&amp;auml;hler题名实体待核。",
+      "entry_files": [
+        "data/people/hu-jianxun.yaml",
+        "data/people/ke-huazhong.yaml",
+        "data/people/li-changzheng.yaml",
+        "data/people/leung-naichung.yaml",
+        "data/people/li-qin.yaml"
+      ],
+      "verified_source": "https://actamath.cjoe.ac.cn/Jwk_sxxb_en/CN/10.1007/s10114-024-2236-9",
+      "evidence": "publication-text-and-qin-identity-review.json"
     }
   ]
 }

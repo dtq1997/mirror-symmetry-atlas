@@ -127,7 +127,7 @@ key_collaborators:
   - person: dubrovin
     since: 2013
     topic: "KdV hierarchy tau-functions, integrable hierarchies, Frobenius manifolds"
-    papers_count: 11
+    papers_count: 14
   - person: zhang-youjin
     since: 2014
     topic: "Hodge integrals, tau-symmetric integrable hierarchies"
@@ -249,13 +249,17 @@ publications:
     journal: 'Reviews in Mathematical Physics'
     primary_category: math-ph
   - id: '2112.14595'
-    title: 'Gelfand–Dickey hierarchy, generalized BGW tau-function, and <i>W</i>-constraints'
+    title: Gelfand–Dickey hierarchy, generalized BGW tau-function, and $W$-constraints
     year: 2023
-    coauthors: [zhou-chunhui]
-    doi: '10.1088/1361-6544/acb62c'
-    journal: 'Nonlinearity'
+    coauthors:
+    - zhou-chunhui
+    doi: 10.1088/1361-6544/acb62c
+    journal: Nonlinearity
     primary_category: math-ph
-    sources: [crossref]
+    sources:
+    - crossref
+    - arxiv
+    - manual
   - id: '2203.16812'
     title: 'On Equivariant Gromov--Witten Invariants of Resolved Conifold with Diagonal and Anti-Diagonal Actions'
     year: 2022
@@ -511,12 +515,16 @@ publications:
     primary_category: math.QA
     sources: [arxiv]
   - id: '1006.5241'
-    title: 'Start-up flow of a viscoelastic fluid in a pipe with fractional Maxwell''s model'
+    title: Start-up flow of a viscoelastic fluid in a pipe with fractional Maxwell's model
     year: 2010
-    coauthors: ['Ke-Qin Zhu']
-    doi: '10.1016/j.camwa.2010.08.013'
-    journal: 'Computers &amp; Mathematics with Applications'
+    coauthors:
+    - Ke-Qin Zhu
+    doi: 10.1016/j.camwa.2010.08.013
+    journal: Computers & Mathematics with Applications
     primary_category: math-ph
+    sources:
+    - arxiv
+    - manual
 activity:
   total_papers: 54
   published_count: 39
@@ -541,6 +549,18 @@ personal_notes: |
   学历：清华博士 (2008-2013, 导师张友金) → SISSA + MPIM 博后 (2013-2018, 合作导师 Dubrovin、Zagier)
   研究：KdV tau 函数、Hodge 积分、Frobenius 流形、Dubrovin-Frobenius minicourse (IASM 2024)
 sources:
+  - label: '[Codex] 2026-10-08：早期Painlevé论文的邮箱与经历'
+    url: https://arxiv.org/pdf/1009.5125v1
+    last_verified: '2026-10-08'
+    notes: 核对第1页作者邮箱与第14–15页致谢；作为1006.5241身份对照，不据此推断所有同名论文归属。
+  - label: '[Codex] 2026-10-08：早期流体论文身份线索核对'
+    url: https://arxiv.org/pdf/1006.5241v1
+    last_verified: '2026-10-08'
+    notes: 首页署名Di Yang、清华工程力学系，邮箱yangd04@mails.tsinghua.edu.cn。该邮箱与1009.5125v1的D. Yang相同；后者署名清华数学系和剑桥，并在致谢中明确提及张友金及剑桥联合博士经历。本次据这些相互支持的身份线索保留，不能仅因题材跨领域删除；并非全部书目认证。
+  - label: '[Codex] 2026-10-08：BGW论文题名排版核对'
+    url: https://arxiv.org/abs/2112.14595
+    last_verified: '2026-10-08'
+    notes: 按预印本题名将出版元数据残留的W斜体标签改为行内数学排版；不改论文的数学内容。
   - label: 'arXiv 2604.26354v1 署名核对 [Codex]'
     url: 'https://arxiv.org/html/2604.26354v1'
     last_verified: '2026-10-08'

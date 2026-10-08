@@ -44,6 +44,7 @@ HERE = Path(__file__).parent
 sys.path.insert(0, str(HERE))
 from name_match import names_match, slug_for_author, is_slug
 from publication_review import load_review, blocked_review
+from publication_text import publication_text_errors
 from institution_sources import appointment_errors
 from institution_aliases import alias_errors
 from concept_references import concept_reference_errors, concept_content_errors
@@ -179,6 +180,9 @@ def lint(strict_pubs=False, only_slug=None):
             for pub in p.get('publications') or []:
                 if isinstance(pub, dict) and (review := blocked_review(pub, reviews)):
                     err(slug, f"publications {pub.get('id')!r}: blocked by explicit review {review.get('review_status')}; re-review sources before restoring")
+            for aid in (p.get('identity_profile') or {}).get('known_arxiv_ids') or []:
+                if review := blocked_review({'id': aid}, reviews):
+                    err(slug, f"identity_profile.known_arxiv_ids {aid!r}: blocked by explicit review {review.get('review_status')}; re-review sources before restoring")
         except (ValueError, yaml.YAMLError, OSError) as exc:
             err(slug, str(exc))
         if p.get('slug') != slug:
@@ -330,6 +334,8 @@ def lint(strict_pubs=False, only_slug=None):
                 err(slug, f"publications[{i}] not a dict")
                 continue
             tag = f"publications[{i}] (id={pub.get('id')!r})"
+            for issue in publication_text_errors(pub):
+                err(slug, f"{tag}.{issue}")
             # Non-math topic OR venue check (hard block — 99% homonym pollution)
             kw = is_non_math(title=pub.get('title'), journal=pub.get('journal'))
             if kw:

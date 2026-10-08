@@ -1,0 +1,80 @@
+slug: li-qin
+count: 5
+note: '[Codex] 2026-10-08：2条公开书目确认UW同名错挂、1条归属待核，另2条仅在身份列表中的Bao Qin Li错绑；完整保存，禁止自动回填。'
+candidates:
+- id: '2012.13833'
+  title: Semi-classical limit of an inverse problem for the Schrödinger equation
+  year: 2020
+  coauthors:
+  - Shi Chen
+  primary_category: math-ph
+  review_status: rejected-homonym
+  reviewed_by: Codex
+  reviewed_on: '2026-10-08'
+  review_reason: 论文原文中Qin Li署名威斯康星大学，邮箱qinli@math.wisc.edu；该作者本人官网的履历为2013年UW博士、导师Shi Jin。南科大李勤本人CV则列2011年Berkeley博士、导师Peter
+    Teichner，且其量子化论文邮箱为liqin@sustech.edu.cn。由作者原文、本人履历与邮箱的组合排除此条错挂，不是根据研究题材排除。
+  source_urls:
+  - https://arxiv.org/pdf/2012.13833
+  - https://math.sustech.edu.cn/media/files/LI_Qin_CV.pdf
+  - https://people.math.wisc.edu/~qli36/cv/index.html
+  - https://people.math.wisc.edu/~qli36/research/topic.html
+  - https://arxiv.org/html/2010.14339v1
+- id: '2201.03494'
+  title: 'High-frequency limit of the inverse scattering problem: asymptotic convergence from inverse Helmholtz to inverse
+    Liouville'
+  year: 2022
+  coauthors:
+  - Shi Chen
+  - Zhiyan Ding
+  - Leonardo Zepeda-Núñez
+  doi: 10.1137/22m147075x
+  journal: SIAM Journal on Imaging Sciences
+  primary_category: math.NA
+  review_status: rejected-homonym
+  reviewed_by: Codex
+  reviewed_on: '2026-10-08'
+  review_reason: 论文原文中Qin Li署名威斯康星大学，邮箱qinli@math.wisc.edu；该作者本人官网的履历为2013年UW博士、导师Shi Jin。南科大李勤本人CV则列2011年Berkeley博士、导师Peter
+    Teichner，且其量子化论文邮箱为liqin@sustech.edu.cn。由作者原文、本人履历与邮箱的组合排除此条错挂，不是根据研究题材排除。
+  source_urls:
+  - https://arxiv.org/pdf/2201.03494
+  - https://math.sustech.edu.cn/media/files/LI_Qin_CV.pdf
+  - https://people.math.wisc.edu/~qli36/cv/index.html
+  - https://people.math.wisc.edu/~qli36/research/topic.html
+  - https://arxiv.org/html/2010.14339v1
+- id: '1505.06399'
+  title: On some 1/4 BPS Wilson-'t Hooft loops
+  year: 2015
+  coauthors:
+  - Chang-Yong Liu
+  doi: 10.1007/jhep10(2015)102
+  journal: Journal of High Energy Physics
+  primary_category: hep-th
+  review_status: needs-review
+  reviewed_by: Codex
+  reviewed_on: '2026-10-08'
+  review_reason: 原文及出版社列作者Li Qin（规范引文Qin, L.），署名西北农林科技大学理学院；李勤本人南科大旧CV列Berkeley博士及CUHK/USTC经历。没有足够独立依据将该作者对应到本人物，先移出公开书目待核；不单凭姓名顺序或不同单位宣布其必为另一人。
+  source_urls:
+  - https://arxiv.org/pdf/1505.06399
+  - https://math.sustech.edu.cn/media/files/LI_Qin_CV.pdf
+  - https://link.springer.com/article/10.1007/JHEP10(2015)102
+- id: '2407.18406'
+  title: A form of refined Roth's theorem and its application to the $abc$-conjecture
+  review_status: rejected-homonym
+  reviewed_by: Codex
+  reviewed_on: '2026-10-08'
+  source_origin: identity_profile.known_arxiv_ids only; not a removed public publication
+  original_identity_entry: '2407.18406'
+  review_reason: arXiv完整作者表为Pei-Chu Hu和Bao Qin Li，不是南科大的Qin Li。撤去身份列表中的错误编号，禁止自动回填；不因Qin Li是Bao Qin Li的姓名子串就认作同一人。
+  source_urls:
+  - https://arxiv.org/abs/2407.18406
+  source_note: arXiv v2标为withdrawn，作者自报Theorem 1.6有错误；只记录来源状态，不审判该数学命题。
+- id: '1610.01583'
+  title: A Connection between the Riemann Hypothesis and Uniqueness of the Riemann zeta function
+  review_status: rejected-homonym
+  reviewed_by: Codex
+  reviewed_on: '2026-10-08'
+  source_origin: identity_profile.known_arxiv_ids only; not a removed public publication
+  original_identity_entry: '1610.01583'
+  review_reason: arXiv完整作者表为Pei-Chu Hu和Bao Qin Li，不是南科大的Qin Li。撤去身份列表中的错误编号，禁止自动回填；不因Qin Li是Bao Qin Li的姓名子串就认作同一人。
+  source_urls:
+  - https://arxiv.org/abs/1610.01583

@@ -77,15 +77,15 @@ key_collaborators:
   - person: yang-di
     since: 2019
     topic: "Loop equations, BGW tau-functions, Volterra hierarchy"
-    papers_count: 8
+    papers_count: 6
   - person: liu-siqi
     since: 2017
     topic: "Fractional Volterra hierarchy, Hodge integrals"
-    papers_count: 3
+    papers_count: 5
   - person: zhang-youjin
     since: 2017
     topic: "Fractional Volterra hierarchy, Hodge integrals"
-    papers_count: 6
+    papers_count: 5
 publications:
   - id: '2409.12529'
     title: 'The loop equation for the Burgers--KdV hierarchy'
@@ -93,13 +93,17 @@ publications:
     coauthors: [yang-di]
     primary_category: math-ph
   - id: '2112.14595'
-    title: 'Gelfand–Dickey hierarchy, generalized BGW tau-function, and <i>W</i>-constraints'
+    title: Gelfand–Dickey hierarchy, generalized BGW tau-function, and $W$-constraints
     year: 2023
-    coauthors: [yang-di]
-    doi: '10.1088/1361-6544/acb62c'
-    journal: 'Nonlinearity'
+    coauthors:
+    - yang-di
+    doi: 10.1088/1361-6544/acb62c
+    journal: Nonlinearity
     primary_category: math-ph
-    sources: [crossref]
+    sources:
+    - crossref
+    - arxiv
+    - manual
   - id: '2203.16812'
     title: 'On Equivariant Gromov--Witten Invariants of Resolved Conifold with Diagonal and Anti-Diagonal Actions'
     year: 2022
@@ -188,6 +192,10 @@ personal_notes: |
   arXiv 13 篇中 7 篇是可积系统方向（另 6 篇是流体力学的同名者）。
   2026 HUST 会议报告: Burgers-KdV hierarchy and tau-function，明确使用 Dubrovin-Zhang theory。
 sources:
+  - label: '[Codex] 2026-10-08：BGW论文题名排版核对'
+    url: https://arxiv.org/abs/2112.14595
+    last_verified: '2026-10-08'
+    notes: 按预印本题名将出版元数据残留的W斜体标签改为行内数学排版；不改论文的数学内容。
   - label: 'USTC faculty page'
     url: 'https://faculty.ustc.edu.cn/zhouchunhui/zh_CN/index.htm'
   - label: 'USTC IGP profile'

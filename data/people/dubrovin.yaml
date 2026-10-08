@@ -132,11 +132,11 @@ key_collaborators:
   since: 2001
   met_context: 可能通过 SISSA/ICTP 访问认识
   topic: Frobenius manifolds & integrable hierarchies
-  papers_count: 15
+  papers_count: 13
 - person: liu-siqi
   since: 2003
   topic: WDVV equations, integrable systems
-  papers_count: 8
+  papers_count: 6
 - person: cotti
   since: 2014
   met_context: SISSA 博士生
@@ -151,11 +151,11 @@ key_collaborators:
   since: 1995
   met_context: SISSA 博士生
   topic: Painlevé equations, reflection groups
-  papers_count: 7
+  papers_count: 3
 activity:
-  total_papers: 65
-  published_count: 59
-  preprint_only_count: 6
+  total_papers: 64
+  published_count: 57
+  preprint_only_count: 7
   h_index: 45
   mathscinet_citations: 5000
   active_period: '1974-2019'
@@ -328,14 +328,18 @@ publications:
     journal: 'Pure and Applied Mathematics Quarterly'
     primary_category: math.AG
     sources: [arxiv]
-  - id: 'doi:10.1063/1.5031769'
-    title: 'Separation of variables for linear Lax algebras and classical <i>r</i>-matrices'
+  - id: doi:10.1063/1.5031769
+    title: Separation of variables for linear Lax algebras and classical $r$-matrices
     year: 2018
-    coauthors: ['T. Skrypnyk']
-    doi: '10.1063/1.5031769'
-    journal: 'Journal of Mathematical Physics'
+    coauthors:
+    - T. Skrypnyk
+    doi: 10.1063/1.5031769
+    journal: Journal of Mathematical Physics
     openalex_id: W2884515883
-    sources: [openalex]
+    sources:
+    - openalex
+    - crossref
+    - manual
     no_arxiv: true
   - id: '1712.08575'
     title: 'Local Moduli of Semisimple Frobenius Coalescent Structures'
@@ -706,6 +710,10 @@ publications:
     primary_category: hep-th
     sources: [arxiv]
 sources:
+- label: '[Codex] 2026-10-08：Lax论文题名排版核对'
+  url: https://api.crossref.org/works/10.1063/1.5031769
+  last_verified: '2026-10-08'
+  notes: 出版社登记的题名中r以斜体标签编码；转为行内数学排版，未改变题名或作数学判断。
 - label: '[Codex] 2026-10-08：Monodromy 论文的SISSA书目记录（期刊、作者、DOI与arXiv对应）'
   url: https://iris.sissa.it/handle/20.500.11767/17270
 - label: Math Genealogy

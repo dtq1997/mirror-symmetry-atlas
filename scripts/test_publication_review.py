@@ -110,6 +110,27 @@ class ReviewTests(unittest.TestCase):
             self.assertEqual(enrich.process('example', person, {}, write=False)['oa_review'], 1)
         self.assertEqual(self.path.read_bytes(), before)
 
+    def test_identity_whitelist_cannot_restore_blocked_records(self):
+        lint = module('identity_review_lint', 'lint-data.py')
+        for slug, aid, status, expected in [
+            ('example', '2401.12345v2', 'rejected-homonym', 1),
+            ('example', '2401.12345', 'needs-review', 1),
+            ('example', '2401.12345', 'accepted', 0),
+            ('other', '2401.12345', 'rejected-homonym', 0),
+            ('example', '2401.54321', 'rejected-homonym', 0),
+        ]:
+            self.path.write_text(yaml.safe_dump({'candidates': [dict(self.review, review_status=status)]}))
+            person = {'slug': slug, 'name': {'en': 'Example'}, 'nationality': 'Unknown',
+                      'publications': [], 'identity_profile': {'known_arxiv_ids': [aid]}}
+            output = io.StringIO()
+            with self.subTest(slug=slug, aid=aid, status=status), \
+                 patch.object(lint, 'REVIEW_DIR', self.folder), \
+                 patch.object(lint, 'load_yaml_dir', side_effect=[{slug: person}, {}]), \
+                 contextlib.redirect_stdout(output):
+                self.assertEqual(lint.lint(only_slug=slug), expected)
+            if expected:
+                self.assertIn('identity_profile.known_arxiv_ids', output.getvalue())
+
 
 if __name__ == '__main__':
     unittest.main()

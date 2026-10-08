@@ -148,14 +148,6 @@ publications:
     primary_category: math.DG
     openalex_id: W7158891686
     sources: [arxiv, openalex]
-  - id: 'doi:10.4310/pamq.260122023941'
-    title: 'Geometric quantization and quantum moment maps on coadjoint orbits and K&amp;auml;hler-Einstein manifolds'
-    year: 2026
-    coauthors: [li-qin, 'Ziming Nikolas Ma']
-    doi: '10.4310/pamq.260122023941'
-    journal: 'Pure and Applied Mathematics Quarterly'
-    sources: [crossref]
-    no_arxiv: true
   - id: '2511.16889'
     title: 'Berezin-Toeplitz quantization revisited'
     year: 2025
@@ -246,12 +238,20 @@ publications:
     openalex_id: W4307407143
     sources: [arxiv, openalex]
   - id: '2010.14339'
-    title: 'Geometric quantization and quantum moment maps on coadjoint orbits and Kähler-Einstein manifolds'
+    title: Geometric quantization and quantum moment maps on coadjoint orbits and Kähler-Einstein manifolds
     year: 2020
-    coauthors: [li-qin, 'Ziming Nikolas Ma']
+    coauthors:
+    - li-qin
+    - Ziming Nikolas Ma
     primary_category: math.DG
     openalex_id: W3095778521
-    sources: [arxiv, openalex]
+    sources:
+    - arxiv
+    - openalex
+    - crossref
+    - manual
+    doi: 10.4310/pamq.260122023941
+    journal: Pure and Applied Mathematics Quarterly 22 (2026), no. 3, 789–802
   - id: '2004.10366'
     title: 'Cyclic group actions on Fukaya categories and mirror symmetry'
     year: 2020
@@ -565,9 +565,9 @@ publications:
     sources: [openalex]
     no_arxiv: true
 activity:
-  total_papers: 51
+  total_papers: 50
   published_count: 42
-  preprint_only_count: 9
+  preprint_only_count: 8
   active_period: '1993-present'
   confidence: 'has-7-review-pending'
   notes: 'ICCM Best Paper Award 多项'
@@ -588,6 +588,14 @@ personal_notes: '香港中文大学数学系教授。官方教师页列加州大
 
   '
 sources:
+- label: '[Codex] 2026-10-08：几何量子化预印本的作者与单位'
+  url: https://arxiv.org/html/2010.14339v1
+  last_verified: '2026-10-08'
+  notes: 原文列Leung、Qin Li、Ziming Nikolas Ma；Qin Li署名南方科技大学，邮箱liqin@sustech.edu.cn。仅核本篇及期刊版关联。
+- label: '[Codex] 2026-10-08：几何量子化论文的期刊版'
+  url: https://research.cuhk.edu.hk/en/publications/geometric-quantization-and-quantum-moment-maps-on-coadjoint-orbit/
+  last_verified: '2026-10-08'
+  notes: 香港中文大学研究记录与出版社Crossref登记列同题名、完整三位作者、摘要及DOI，卷页为22(3),789–802，2026年7月出版。与2010.14339的题名、作者、摘要及署名单位对照后人工关联；保留2020年首次预印本年份，不把期刊年份覆盖到预印本。
 - label: '[Codex] 2026-10-08：香港中文大学当前教师页'
   url: https://www.math.cuhk.edu.hk/people/academic-staff/leung
   last_verified: '2026-10-08'

@@ -193,12 +193,19 @@ publications:
     primary_category: math.AG
     sources: [arxiv, manual]
   - id: '2502.13558'
-    title: 'On the quantum cohomology of blow-ups of four-dimensional quadrics'
+    title: On the quantum cohomology of blow-ups of four-dimensional quadrics
     year: 2025
-    coauthors: [ke-huazhong, hu-jianxun, 'Lei Song']
-    journal: 'Acta Math. Sin. (Engl. Ser.) 40 (2024), no. 1, 313-328'
+    coauthors:
+    - ke-huazhong
+    - hu-jianxun
+    - Lei Song
+    journal: Acta Math. Sin. (Engl. Ser.) 40 (2024), no. 1, 313-328
     primary_category: math.AG
-    sources: [arxiv]
+    sources:
+    - arxiv
+    - crossref
+    - manual
+    doi: 10.1007/s10114-024-2236-9
   - id: '2502.13545'
     title: 'Mirror symmetry for certain blowups of Grassmannians'
     year: 2025
@@ -481,6 +488,10 @@ personal_notes: |
   2026 HUST 会议报告: Quantum Schubert calculus for smooth Schubert divisors in $Fl_n$。
   与 Leung 合作的 *Functorial relationships QH(G/B) ↔ QH(G/P)* (JDG 2010) 是 Peterson 同构方向的代表作。
 sources:
+  - label: '[Codex] 2026-10-08：四维二次曲面blow-up论文期刊DOI'
+    url: https://api.crossref.org/works/10.1007/s10114-024-2236-9
+    last_verified: '2026-10-08'
+    notes: 出版社登记与期刊官方页面确认同题名、Hu/Ke/Li/Lei Song四位作者及40(1),313–328(2024)。预印本于2025年首次上传且自报2024年卷页，两个年份各有含义；本次补DOI，不改首次预印本年份。Lei Song不绑定宋家宇。
   - label: '[Codex] 2026-10-08：预印本 1311.1660'
     url: https://arxiv.org/abs/1311.1660
     last_verified: '2026-10-08'

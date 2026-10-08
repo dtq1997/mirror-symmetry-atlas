@@ -771,14 +771,19 @@ publications:
     journal: 'Proceedings of the International Conference in Honor of Frédéric Pham (Nice, 2002). Ann. Inst. Fourier (Grenoble) 53 (2003), no. 4, 1055--1116'
     primary_category: math.AG
     sources: [arxiv]
-  - id: 'doi:10.1007/s002080000113'
-    title: 'Dwork cohomology and algebraic ${\Cal D}$ -modules'
+  - id: doi:10.1007/s002080000113
+    title: Dwork cohomology and algebraic ${\Cal D}$ -modules
     year: 2000
-    coauthors: ['Alexandru Dimca', 'Fay&#x000E7;al Maaref', 'Morihiko Saito']
-    doi: '10.1007/s002080000113'
-    journal: 'Mathematische Annalen'
+    coauthors:
+    - Alexandru Dimca
+    - Fayçal Maaref
+    - Morihiko Saito
+    doi: 10.1007/s002080000113
+    journal: Mathematische Annalen
     openalex_id: W2145040383
-    sources: [openalex]
+    sources:
+    - openalex
+    - manual
     no_arxiv: true
   - id: '9910156'
     title: 'Vanishing cycles and Hermitian duality'
@@ -829,14 +834,17 @@ publications:
     openalex_id: W2066065031
     sources: [openalex]
     no_arxiv: true
-  - id: 'doi:10.1017/s0027763000005547'
-    title: 'On the comparison theorem for elementary irregular <i>D</i>-modules'
+  - id: doi:10.1017/s0027763000005547
+    title: On the comparison theorem for elementary irregular $D$-modules
     year: 1996
     coauthors: []
-    doi: '10.1017/s0027763000005547'
-    journal: 'Nagoya Mathematical Journal'
+    doi: 10.1017/s0027763000005547
+    journal: Nagoya Mathematical Journal
     openalex_id: W1895410196
-    sources: [openalex]
+    sources:
+    - openalex
+    - crossref
+    - manual
     no_arxiv: true
   - id: 'doi:10.1007/bf01445242'
     title: 'Moduli ofD-modules, perverse sheaves and the Riemann-Hilbert morphism?I'
@@ -863,6 +871,14 @@ publications:
     sources: [openalex]
     no_arxiv: true
 sources:
+- label: '[Codex] 2026-10-08：comparison论文题名排版核对'
+  url: https://api.crossref.org/works/10.1017/s0027763000005547
+  last_verified: '2026-10-08'
+  notes: 出版社登记的题名中D以斜体标签编码；仅改为行内数学排版。
+- label: '[Codex] 2026-10-08：Dwork论文作者姓名核对'
+  url: https://link.springer.com/article/10.1007/s002080000113
+  last_verified: '2026-10-08'
+  notes: 出版社作者栏明确写Fayçal Maaref；修正数值字符实体残留，不按姓名新建人物绑定。
 - label: Math Genealogy
   url: https://www.mathgenealogy.org/id.php?id=76381
 - label: OpenAlex

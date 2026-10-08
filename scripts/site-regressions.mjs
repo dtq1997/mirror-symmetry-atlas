@@ -18,6 +18,16 @@ import { sortTimelineEvents } from '../.cache/msa/site-tests/timeline.js';
 import { readFileSync } from 'node:fs';
 import yaml from 'js-yaml';
 
+test('publisher entities and markup cannot leak into bibliographic text', () => {
+  const result = spawnSync('python3', ['scripts/test_publication_text.py'], { encoding: 'utf8' });
+  assert.equal(result.status, 0, result.stdout + result.stderr);
+});
+
+test('publication ownership reviews protect records and identity whitelists', () => {
+  const result = spawnSync('python3', ['scripts/test_publication_review.py'], { encoding: 'utf8' });
+  assert.equal(result.status, 0, result.stdout + result.stderr);
+});
+
 test('acknowledgement identity, subject, evidence and count guards', () => {
   const result = spawnSync('python3', ['scripts/test_acknowledgement_review.py'], { encoding: 'utf8' });
   assert.equal(result.status, 0, result.stdout + result.stderr);
