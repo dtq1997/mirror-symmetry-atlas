@@ -288,13 +288,16 @@ edges:
     institution: gbu
     period: 2024-present
     notes: 大湾区大学同事；张庆生的博士导师关系待核实。
-  # 郑大胡建勋学派扩展
+  # [Codex] 同单位署名，不据此认定师承或完整共处时间。
   - source: ding-yanqiao
     target: hu-jianxun
     type: institutional
     institution: sun-yat-sen
-    period: "2013-2016"
-    notes: "丁岩峭在中山大学读博期间师从胡建勋"
+    period: "2015"
+    notes: "arXiv:1504.07111 两位作者同署中山大学；博士导师关系待核实。"
+    sources:
+      - label: "arXiv:1504.07111 题首页"
+        url: "https://arxiv.org/abs/1504.07111"
   # === HUST 2026 新人机构关系 ===
   # BIMSA 同事
   - source: tang-xinxing

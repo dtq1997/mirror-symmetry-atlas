@@ -1,0 +1,34 @@
+{
+  "reviewer": "Codex",
+  "date": "2026-10-08",
+  "base": "http://127.0.0.1:3847/mirror-symmetry-atlas",
+  "checks": {
+    "desktop_1280x800": {
+      "publications_heading": "论文（10）7 有出版线索/3 待补出版线索",
+      "width": 1280,
+      "scrollWidth": 1274,
+      "six_journal_doi_links": true,
+      "partial_answer_text": true,
+      "three_removed_titles_absent": true,
+      "wrong_author_link_absent": true
+    },
+    "mobile_390x844": {
+      "width": 390,
+      "scrollWidth": 384,
+      "katex_errors": 0,
+      "visual_inspection": "pass"
+    },
+    "catalog_owner_filter": {
+      "records": 10,
+      "total": 1803
+    },
+    "catalog_merged_doi_query": {
+      "query": "10.1007/s00209-020-02458-z",
+      "records": 1,
+      "arxiv": "1710.03603"
+    },
+    "console_errors": []
+  },
+  "screenshot": "ding-publications-preview.jpg",
+  "scope": "Rendering, content checks and retrieval. Not a complete factual certification."
+}

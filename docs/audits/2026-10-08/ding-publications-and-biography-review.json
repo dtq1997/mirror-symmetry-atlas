@@ -1,0 +1,1280 @@
+{
+  "reviewer": "Codex",
+  "date": "2026-10-08",
+  "scope": "Ding Yanqiao: five publication-row dispositions, source-link and selected biography review; not whole-person or whole-corpus certification.",
+  "before_commit": "1da3766bc267dc1883c1e835e2f5077402ba0a75",
+  "files": [
+    {
+      "path": "data/people/ding-yanqiao.yaml",
+      "sha256_before": "131246280d3f2874b8188327db596b68e0bc9512cc620533f2b2c86f3eeb8bd0",
+      "raw_before": "slug: ding-yanqiao\nname:\n  en: Yanqiao Ding\n  zh: 丁岩峭\nborn: null\ndied: null\nnationality: Chinese\ngender: male\nphoto_url: null\ncareer_timeline:\n  - period: \"2006-2010\"\n    type: education\n    institution: zzu\n    role: \"本科\"\n  - period: \"2010-2013\"\n    type: education\n    institution: lanzhou-u\n    role: \"硕士\"\n    notes: \"兰州大学，获硕士学位。[机构 slug lanzhou-u 暂不存在]\"\n  - period: \"2013-2016\"\n    type: education\n    institution: sun-yat-sen\n    role: \"博士\"\n    advisor: hu-jianxun\n    notes: \"中山大学，2016.6 获博士学位。导师为 Jianxun Hu（博士期间合作 Welschinger 不变量方向论文 2 篇）。\"\n  - period: \"2016.7-2023.12\"\n    type: position\n    institution: zzu\n    role: \"讲师\"\n  - period: \"2019.9-2020.8\"\n    type: position\n    institution: sorbonne\n    role: \"博士后\"\n    notes: \"巴黎索邦大学 (国家留学基金委资助)。[机构 slug sorbonne 暂不存在]\"\n  - period: \"2024.1-present\"\n    type: position\n    institution: zzu\n    role: \"副教授\"\n    notes: \"郑州大学数学与统计学院。Email: yqding@zzu.edu.cn\"\nresearch_areas:\n  - enumerative-geometry\n  - welschinger-invariants\n  - real-hurwitz-numbers\n  - tropical-geometry\n  - symplectic-topology\n  - algebraic-geometry\n  - mirror-symmetry\nidentity_profile:\n  orcid: '0000-0003-1233-991X'\n  openalex_id: 'A5101982641'\n  affiliations:\n    - institution: 'zzu'\n      period: '2006-2010'\n      role: '本科'\n    - institution: 'lanzhou-u'\n      period: '2010-2013'\n      role: '硕士'\n    - institution: 'sun-yat-sen'\n      period: '2013-2016'\n      role: '博士'\n    - institution: 'zzu'\n      period: '2016.7-2023.12'\n      role: '讲师'\n    - institution: 'sorbonne'\n      period: '2019.9-2020.8'\n      role: '博士后'\n    - institution: 'zzu'\n      period: '2024.1-present'\n      role: '副教授'\n  email_domains: [mail.sysu.edu.cn, sorbonne-universite.fr]\n  coauthor_circle_core_slugs: [hu-jianxun]\n  coauthor_circle_core_names: ['Jianxun Hu']\n  research_keywords:\n    - 'algebraic'\n    - 'enumerative'\n    - 'geometry'\n    - 'hurwitz'\n    - 'invariants'\n    - 'mirror'\n    - 'symmetry'\n    - 'symplectic'\n    - 'topology'\n    - 'tropical'\n    - 'welschinger'\n  known_arxiv_ids:\n    - '2602.04191'\n    - '2509.06004'\n    - '2506.16879'\n    - '2303.03671'\n    - '2210.06880'\n    - '2010.00899'\n    - '1902.07486'\n    - '1710.03603'\n    - '1609.05655'\n    - '1504.07111'\nadvisor: hu-jianxun\nstudents: []\nkey_collaborators:\n  - person: hu-jianxun\n    since: 2015\n    topic: \"Welschinger invariants of symplectic 4-manifolds, Weinstein conjecture, refined floor diagrams\"\n    papers_count: 3\n  - person: li-kui\n    since: 2023\n    topic: \"Uniform asymptotics for real double Hurwitz numbers with triple ramification\"\n    papers_count: 2\n  - person: liu-huan\n    since: 2023\n    topic: \"Uniform asymptotics for real double Hurwitz numbers\"\n    papers_count: 2\n  - person: yan-dongfeng\n    since: 2023\n    topic: \"Uniform asymptotics for real double Hurwitz numbers\"\n    papers_count: 2\ngrants:\n  - \"国家自然科学基金青年项目 (2022.01-2024.12, 主持)\"\n  - \"河南省自然科学基金青年项目 (2021.01-2022.12, 主持)\"\npublications:\n  - id: '2602.04191'\n    title: 'The uniform asymptotics for real double Hurwitz numbers with triple ramification II: lower bounds and asymptotics'\n    year: 2026\n    coauthors: ['Kui Li', 'Huan Liu', 'Dongfeng Yan']\n    journal: 'arXiv (Cornell University)'\n    primary_category: math.CO\n    openalex_id: W7127983477\n    sources: [arxiv, openalex]\n  - id: 'doi:10.1002/adom.202503766'\n    title: 'Efficient Blue‐Emitting Rb <sup>+</sup> ‐doped Cs <sub>3</sub> Cu <sub>2</sub> I <sub>5</sub> via Solvent Evaporation Crystallization for White LEDs'\n    year: 2026\n    coauthors: ['Xuanming Zhang', 'Ronggan Lu', 'Xiaochen Fang', 'Chenfeng Lin', 'Yongfeng Liu', 'Dongdong Yan', 'Xiaoyu Wang', 'Hao Xie', 'Cheng Wang', 'Weixiang Ye']\n    doi: '10.1002/adom.202503766'\n    journal: 'Advanced Optical Materials'\n    openalex_id: W7126247967\n    sources: [openalex]\n    no_arxiv: true\n  - id: '2509.06004'\n    title: 'Refined floor diagrams relative to a conic and Caporaso-Harris type formula'\n    year: 2025\n    coauthors: [hu-jianxun]\n    doi: '10.1112/jlms.70514'\n    journal: 'Journal of the London Mathematical Society'\n    primary_category: math.AG\n    openalex_id: W7139068513\n    sources: [arxiv, openalex]\n  - id: '2506.16879'\n    title: 'Real polynomial Hurwitz numbers'\n    year: 2025\n    coauthors: []\n    primary_category: math.AG\n    sources: [arxiv]\n  - id: 'doi:10.1021/acsanm.4c06383'\n    title: 'Nickel-Doped Tin Selenide Nanosheets for Detection of NO<sub>2</sub> at pbb Levels with Fast Response and Recovery at Room Temperature'\n    year: 2025\n    coauthors: ['Yingchun Dong', 'Jiongyue Hao', 'Yijie Shi', 'Wen Niu', 'Yuanting Yu', 'Hangyu Liu', 'Chun Huang', 'Yuhui He', 'Xiangshui Miao', 'Wei Hu', 'Yong He']\n    doi: '10.1021/acsanm.4c06383'\n    journal: 'ACS Applied Nano Materials'\n    openalex_id: W4406156844\n    sources: [openalex]\n    no_arxiv: true\n  - id: '2303.03671'\n    title: 'The uniform asymptotics for real double Hurwitz numbers with triple ramification I: the tropical correspondence'\n    year: 2023\n    coauthors: ['Kui Li', 'Huan Liu', 'Dongfeng Yan']\n    primary_category: math.AG\n    openalex_id: W4323650706\n    sources: [arxiv, openalex]\n  - id: '2210.06880'\n    title: 'Asymptotics for real monotone double Hurwitz numbers'\n    year: 2022\n    coauthors: ['Qinhao He']\n    journal: 'Journal of Combinatorial Theory Series A'\n    primary_category: math.AG\n    openalex_id: W4306309377\n    sources: [arxiv, openalex]\n  - id: '2010.00899'\n    title: 'On the lower bounds for real double Hurwitz numbers'\n    year: 2020\n    coauthors: []\n    doi: '10.1007/s10801-022-01213-3'\n    journal: 'Journal of Algebraic Combinatorics'\n    primary_category: math.AG\n    openalex_id: W3090865687\n    sources: [arxiv, openalex]\n  - id: 'doi:10.1007/s00209-020-02458-z'\n    title: 'Genus decreasing formula for higher genus Welschinger invariants'\n    year: 2020\n    coauthors: []\n    doi: '10.1007/s00209-020-02458-z'\n    journal: 'Mathematische Zeitschrift'\n    openalex_id: W3004272000\n    sources: [openalex]\n    no_arxiv: true\n  - id: 'doi:10.1134/s000143462005003x'\n    title: 'A Remark on the Gromov–Witten–Welschinger Invariants of $${ℂP^3}\\# {\\overline {ℂP} ^{{3_*}}}$$'\n    year: 2020\n    coauthors: []\n    doi: '10.1134/s000143462005003x'\n    journal: 'Mathematical Notes'\n    openalex_id: W3045388428\n    sources: [openalex]\n    no_arxiv: true\n  - id: '1902.07486'\n    title: 'A remark on Gromov-Witten-Welschinger invariants of $\\mathbb{C}P^3\\#\\overline{\\mathbb{C}P}^3$'\n    year: 2019\n    coauthors: []\n    primary_category: math.AG\n    openalex_id: W2922454283\n    sources: [arxiv, openalex]\n  - id: '1710.03603'\n    title: 'Higher genus Welschinger invariants under real surgeries (Genus decreasing formula)'\n    year: 2017\n    coauthors: []\n    primary_category: math.SG\n    openalex_id: W2760887666\n    sources: [arxiv, openalex]\n  - id: '1609.05655'\n    title: 'Welschinger invariants of Blow-ups of symplectic 4-manifolds'\n    year: 2016\n    coauthors: [hu-jianxun]\n    doi: '10.1216/rmj-2018-48-4-1105'\n    journal: 'Rocky Mountain Journal of Mathematics'\n    primary_category: math.SG\n    openalex_id: W2964106939\n    sources: [arxiv, openalex]\n  - id: '1504.07111'\n    title: 'The Weinstein Conjecture in Product of Symplectic Manifolds'\n    year: 2015\n    coauthors: [hu-jianxun]\n    doi: '10.1016/s0252-9602(16)30067-4'\n    journal: 'Acta Mathematica Scientia'\n    primary_category: math.SG\n    openalex_id: W1913596887\n    sources: [arxiv, openalex]\n  - id: 'openalex:W4289950356'\n    title: 'Definition of Multi-State Weighted k-out-of-n: F System'\n    year: 2012\n    coauthors: ['Enrico Zio', 'Yan‐Fu Li', 'Lin Cheng', 'Qiuwei Wu']\n    openalex_id: W4289950356\n    sources: [openalex]\n    no_arxiv: true\nactivity:\n  total_papers: 15\n  published_count: 10\n  preprint_only_count: 5\n  active_period: '2015-present'\n  peak_period: '2023-present'\nexternal_ids:\n  orcid: \"0000-0003-1233-991X\"\n  openalex: A5101982641\nlinks: {}\npersonal_notes: |\n  郑大本硕毕业生（某种意义上）→ 中大博士（Jianxun Hu 组，2013-2016）→ 郑大讲师 →\n  索邦博后（2019-2020，国家公派）→ 郑大副教授（2024.1-）。\n  \n  方向：**实枚举几何的严格渐近分析**，特别是：\n  - Welschinger 不变量（辛 4-流形的实 GW 不变量）\n  - 实 double Hurwitz 数的 tropical 对应与渐近分析\n  - Caporaso-Harris 型递推公式与 floor diagrams\n  \n  **关键连接：** 2026 年新论文 2602.04191 直接回答 Dubrovin-Yang-Zagier 关于 simple Hurwitz 数\n  一致上界的 open question（见该论文 Abstract）——这正是本项目 ustc 杨迪组核心工作的方向。\n  与 HUST 会议核心议题高度契合。\n  \n  2025 年 \"Refined floor diagrams relative to a conic...\" (与 Jianxun Hu) 发表在 J. London Math. Soc.，\n  献给吴可教授八十寿辰；证明在 P² blow-up 上 higher genus 相对 GW 不变量（带 Lambda class 插入）\n  的 q-refined 对应定理。\n  \n  代表发表期刊：J. Combin. Theory Ser. A, J. Algebraic Combin., Math. Z., Math. Notes, J. London Math. Soc.\n  \n  2026 HUST 会议参会者。\n  \n  现职：郑州大学数学与统计学院 — yqding@zzu.edu.cn\n  研究：辛拓扑、Weinstein 猜想、Welschinger 不变量、实枚举几何、Gromov–Witten\n  趣闻：2021 访问浙大 IASM — http://www.iasm.zju.edu.cn/iasm/2021_visitors/list.htm\nsources:\n  - label: '郑州大学数学与统计学院 faculty page'\n    url: 'https://www5.zzu.edu.cn/math/info/1088/2587.htm'\n  - label: 'arXiv author listing'\n    url: 'https://arxiv.org/a/ding_y_2'\n  - label: 'Refined floor diagrams (J. London Math. Soc. 2026)'\n    url: 'https://londmathsoc.onlinelibrary.wiley.com/doi/10.1112/jlms.70514'\n  - label: '浙大高研院 IASM 访问学者名单'\n    url: 'http://www.iasm.zju.edu.cn/iasm/2021_visitors/list.htm'\ntags:\n  - zzu\n",
+      "raw_after": "slug: ding-yanqiao\nname:\n  en: Yanqiao Ding\n  zh: 丁岩峭\nborn: null\ndied: null\nnationality: Chinese\ngender: male\nphoto_url: null\ncareer_timeline:\n  - period: \"[待验证]\"\n    type: education\n    institution: zzu\n    role: \"本科（待核实）\"\n    notes: \"旧记录为郑州大学2006–2010年本科；当前官网简历未列本科学历，保留为待核实经历。\"\n  - period: \"[待验证]\"\n    type: education\n    institution: lanzhou-u\n    role: \"硕士（待核实）\"\n    notes: \"旧记录为兰州大学2010–2013年硕士；当前官网简历未列硕士学历，保留为待核实经历。\"\n  - period: \"[?]-2016.6\"\n    type: education\n    institution: sun-yat-sen\n    role: \"博士\"\n    notes: \"官网确认2016年6月获中山大学理学博士；入学时间和博士导师待核实。与胡建勋的合著及致谢不能单独确认师承。\"\n  - period: \"2016.7-2023.12\"\n    type: position\n    institution: zzu\n    role: \"任职（早期职称待核实）\"\n    notes: \"官网确认2016年7月入职；未列升任副教授前的具体职称。\"\n  - period: \"2019.9-2020\"\n    type: position\n    institution: sorbonne\n    role: \"博士后\"\n    notes: \"官网列2019年9月起赴法国索邦大学开展为期一年的博士后研究，国家留学基金委资助；未列结束月份。\"\n  - period: \"2024.1-present\"\n    type: position\n    institution: zzu\n    role: \"副教授\"\n    notes: \"郑州大学数学与统计学院。Email: yqding@zzu.edu.cn\"\nresearch_areas:\n  - enumerative-geometry\n  - welschinger-invariants\n  - real-hurwitz-numbers\n  - tropical-geometry\n  - symplectic-topology\n  - algebraic-geometry\n  - mirror-symmetry\nidentity_profile:\n  orcid: '0000-0003-1233-991X'\n  openalex_id: 'A5101982641'\n  affiliations:\n    - institution: 'sun-yat-sen'\n      period: '[?]-2016.6'\n      role: '博士'\n    - institution: 'zzu'\n      period: '2016.7-2023.12'\n      role: '任职（早期职称待核实）'\n    - institution: 'sorbonne'\n      period: '2019.9-2020'\n      role: '博士后'\n    - institution: 'zzu'\n      period: '2024.1-present'\n      role: '副教授'\n  email_domains: [zzu.edu.cn, mail2.sysu.edu.cn]\n  coauthor_circle_core_slugs: [hu-jianxun]\n  coauthor_circle_core_names: ['Jianxun Hu']\n  research_keywords:\n    - 'algebraic'\n    - 'enumerative'\n    - 'geometry'\n    - 'hurwitz'\n    - 'invariants'\n    - 'mirror'\n    - 'symmetry'\n    - 'symplectic'\n    - 'topology'\n    - 'tropical'\n    - 'welschinger'\n  known_arxiv_ids:\n    - '2602.04191'\n    - '2509.06004'\n    - '2506.16879'\n    - '2303.03671'\n    - '2210.06880'\n    - '2010.00899'\n    - '1902.07486'\n    - '1710.03603'\n    - '1609.05655'\n    - '1504.07111'\nadvisor: null\nstudents: []\nkey_collaborators:\n  - person: hu-jianxun\n    since: 2015\n    topic: \"Welschinger invariants of symplectic 4-manifolds, Weinstein conjecture, refined floor diagrams\"\n    papers_count: 3\n  - person: li-kui\n    since: 2023\n    topic: \"Uniform asymptotics for real double Hurwitz numbers with triple ramification\"\n    papers_count: 2\n  - person: liu-huan\n    since: 2023\n    topic: \"Uniform asymptotics for real double Hurwitz numbers\"\n    papers_count: 2\n  - person: yan-dongfeng\n    since: 2023\n    topic: \"Uniform asymptotics for real double Hurwitz numbers\"\n    papers_count: 2\ngrants:\n  - \"河南省自然科学基金面上项目 (2026.01-2027.12, 主持)\"\n  - \"国家自然科学基金青年项目 (2022.01-2024.12, 主持)\"\n  - \"河南省自然科学基金青年项目 (2021.01-2022.12, 主持)\"\npublications:\n  - id: '2602.04191'\n    title: 'The uniform asymptotics for real double Hurwitz numbers with triple ramification II: lower bounds and asymptotics'\n    year: 2026\n    coauthors: ['Kui Li', 'Huan Liu', 'Dongfeng Yan']\n    journal: 'arXiv (Cornell University)'\n    primary_category: math.CO\n    openalex_id: W7127983477\n    sources: [arxiv, openalex]\n  - id: '2509.06004'\n    title: 'Refined floor diagrams relative to a conic and Caporaso-Harris type formula'\n    year: 2025\n    coauthors: [hu-jianxun]\n    doi: '10.1112/jlms.70514'\n    journal: 'Journal of the London Mathematical Society 113 (2026), no. 3, e70514'\n    primary_category: math.AG\n    openalex_id: W7139068513\n    sources: [arxiv, openalex]\n  - id: '2506.16879'\n    title: 'Real polynomial Hurwitz numbers'\n    year: 2025\n    coauthors: []\n    primary_category: math.AG\n    sources: [arxiv]\n  - id: '2303.03671'\n    title: 'The uniform asymptotics for real double Hurwitz numbers with triple ramification I: the tropical correspondence'\n    year: 2023\n    coauthors: ['Kui Li', 'Huan Liu', 'Dongfeng Yan']\n    primary_category: math.AG\n    openalex_id: W4323650706\n    sources: [arxiv, openalex]\n  - id: '2210.06880'\n    title: 'Asymptotics for real monotone double Hurwitz numbers'\n    year: 2022\n    coauthors: ['Qinhao He']\n    journal: 'Journal of Combinatorial Theory Series A'\n    primary_category: math.AG\n    openalex_id: W4306309377\n    sources: [arxiv, openalex]\n  - id: '2010.00899'\n    title: 'On the lower bounds for real double Hurwitz numbers'\n    year: 2020\n    coauthors: []\n    doi: '10.1007/s10801-022-01213-3'\n    journal: 'Journal of Algebraic Combinatorics'\n    primary_category: math.AG\n    openalex_id: W3090865687\n    sources: [arxiv, openalex]\n  - id: '1902.07486'\n    title: 'A remark on Gromov-Witten-Welschinger invariants of $\\mathbb{C}P^3\\#\\overline{\\mathbb{C}P}^3$'\n    year: 2019\n    coauthors: []\n    primary_category: math.AG\n    openalex_id: W2922454283\n    sources: [arxiv, openalex, crossref, manual]\n    doi: '10.1134/s000143462005003x'\n    journal: 'Mathematical Notes 107 (2020), 727–739'\n  - id: '1710.03603'\n    title: 'Higher genus Welschinger invariants under real surgeries'\n    year: 2017\n    coauthors: []\n    primary_category: math.SG\n    openalex_id: W2760887666\n    sources: [arxiv, openalex, crossref, manual]\n    doi: '10.1007/s00209-020-02458-z'\n    journal: 'Mathematische Zeitschrift 296 (2020), 969–985'\n  - id: '1609.05655'\n    title: 'Welschinger invariants of Blow-ups of symplectic 4-manifolds'\n    year: 2016\n    coauthors: [hu-jianxun]\n    doi: '10.1216/rmj-2018-48-4-1105'\n    journal: 'Rocky Mountain Journal of Mathematics'\n    primary_category: math.SG\n    openalex_id: W2964106939\n    sources: [arxiv, openalex]\n  - id: '1504.07111'\n    title: 'The Weinstein Conjecture in Product of Symplectic Manifolds'\n    year: 2015\n    coauthors: [hu-jianxun]\n    doi: '10.1016/s0252-9602(16)30067-4'\n    journal: 'Acta Mathematica Scientia'\n    primary_category: math.SG\n    openalex_id: W1913596887\n    sources: [arxiv, openalex]\nactivity:\n  total_papers: 10\n  published_count: 7\n  preprint_only_count: 3\n  active_period: '2015-present'\n  peak_period: '2023-present'\nexternal_ids:\n  orcid: \"0000-0003-1233-991X\"\n  openalex: A5101982641\nlinks:\n  faculty_page: \"https://www5.zzu.edu.cn/math/info/1179/4671.htm\"\n  email: \"yqding@zzu.edu.cn\"\nknown_emails:\n  - \"yqding@zzu.edu.cn\"\n  - \"dingyq6@mail2.sysu.edu.cn\"\nknown_affiliations:\n  - \"School of Mathematics and Statistics, Zhengzhou University\"\n  - \"Department of Mathematics, Sun Yat-Sen University\"\npersonal_notes: |\n  2016年6月获中山大学理学博士，同年7月入职郑州大学数学与统计学院。\n  2019年9月起在国家留学基金委资助下赴法国索邦大学开展为期一年的博士后研究；\n  2024年1月起任郑州大学副教授。官网列研究领域为代数几何、辛几何与数学物理。\n\n  与胡建勋合著的 Refined floor diagrams relative to a conic and Caporaso-Harris type formula\n  于2025年首次提交 arXiv，2026年发表于 Journal of the London Mathematical Society。\n  论文摘要讨论二次曲线上若干点的平面吹起的相对 Gromov–Witten 不变量与加细 floor diagrams 的对应。\n\n  2026年预印本 arXiv:2602.04191 研究实双 Hurwitz 数的一致渐近。\n  作者在摘要中称其对 Dubrovin、Yang、Zagier 提出的 simple Hurwitz 数一致界问题给出了部分回答；\n  不能据此称该开放问题已被完整解决。\nsources:\n  - label: \"[Codex] 2026-10-08：郑州大学教师主页：现职、博士毕业、任职与访学时间及代表论文\"\n    url: \"https://www5.zzu.edu.cn/math/info/1179/4671.htm\"\n    last_verified: \"2026-10-08\"\n    notes: \"核对正文；该页未列本科、硕士、博士入学时间或博士导师。\"\n  - label: \"[Codex] 2026-10-08：arXiv:2602.04191 当前摘要\"\n    url: \"https://arxiv.org/abs/2602.04191\"\n    last_verified: \"2026-10-08\"\n    notes: \"摘要明确为对所述开放问题的部分回答；未据此认证完整解决或独立核验数学证明。\"\n  - label: \"[Codex] 2026-10-08：arXiv:2509.06004\"\n    url: \"https://arxiv.org/abs/2509.06004\"\n    last_verified: \"2026-10-08\"\n    notes: \"核对首次提交年份、题名、两位作者及摘要范围。\"\n  - label: \"[Codex] 2026-10-08：出版社登记的JLMS书目及作者ORCID\"\n    url: \"https://api.crossref.org/works/10.1112/jlms.70514\"\n    last_verified: \"2026-10-08\"\n    notes: \"Crossref列Yanqiao Ding、郑州大学及ORCID 0000-0003-1233-991X；authenticated-orcid为false，未称其经过作者登录认证。\"\n  - label: \"[Codex] 2026-10-08：Mathematische Zeitschrift 期刊版\"\n    url: \"https://link.springer.com/article/10.1007/s00209-020-02458-z\"\n    last_verified: \"2026-10-08\"\n    notes: \"核对题名、作者、郑州大学邮箱及摘要；与预印本1710.03603合并保留两种链接。\"\n  - label: \"[Codex] 2026-10-08：Mathematical Notes 期刊版及参考文献17\"\n    url: \"https://link.springer.com/article/10.1134/S000143462005003X\"\n    last_verified: \"2026-10-08\"\n    notes: \"核对作者、邮箱及摘要，与1902.07486对应；参考文献17将Genus Decreasing Formula题名明确对应arXiv:1710.03603。\"\n  - label: \"[Codex] 2026-10-08：arXiv:1902.07486 预印本\"\n    url: \"https://arxiv.org/abs/1902.07486\"\n    last_verified: \"2026-10-08\"\n    notes: \"题名、摘要、作者、单位及邮箱与期刊版对照；保留初次提交年份2019。\"\n  - label: \"[Codex] 2026-10-08：arXiv:1710.03603 预印本\"\n    url: \"https://arxiv.org/abs/1710.03603\"\n    last_verified: \"2026-10-08\"\n    notes: \"保留预印本原题及初次提交年份2017。\"\n  - label: \"[Codex] 2026-10-08：arXiv:1504.07111 署名信息\"\n    url: \"https://arxiv.org/abs/1504.07111\"\n    last_verified: \"2026-10-08\"\n    notes: \"TeX题首页中两位作者同署中山大学，丁岩峭邮箱为dingyq6@mail2.sysu.edu.cn；这不是博士导师的证据。\"\n  - label: '郑州大学数学与统计学院 faculty page'\n    url: 'https://www5.zzu.edu.cn/math/info/1088/2587.htm'\n  - label: 'Refined floor diagrams (J. London Math. Soc. 2026)'\n    url: 'https://londmathsoc.onlinelibrary.wiley.com/doi/10.1112/jlms.70514'\ntags:\n  - zzu\n"
+    },
+    {
+      "path": "data/connections/advisor-student.yaml",
+      "sha256_before": "8f67fbf5a02fb5fa104576af15a267b33c5b01ef2eefdeb96b32bcb117541beb",
+      "raw_before": "edges:\n  - source: novikov-sergei\n    target: dubrovin\n    type: advisor-student\n    year: 1976\n    institution: moscow-state\n  - source: dubrovin\n    target: guzzetti\n    type: advisor-student\n    year: 2000\n    institution: sissa\n  - source: dubrovin\n    target: cotti\n    type: advisor-student\n    year: 2017\n    institution: sissa\n  - source: dubrovin\n    target: mazzocco\n    type: advisor-student\n    year: 1998\n    institution: sissa\n  - source: guzzetti\n    target: cotti\n    type: advisor-student\n    year: 2017\n    institution: sissa\n    notes: \"co-advisor\"\n  - source: brieskorn\n    target: hertling\n    type: advisor-student\n    year: 1992\n    institution: bonn\n  - source: brieskorn\n    target: k-saito\n    type: advisor-student\n    year: 1971\n    institution: gottingen\n  - source: hitchin\n    target: boalch\n    type: advisor-student\n    year: 1999\n    institution: oxford\n  - source: le-dung-trang\n    target: sabbah\n    type: advisor-student\n    year: 1976\n    institution: paris-vii\n  - source: alekseev\n    target: xu-xiaomeng\n    type: advisor-student\n    year: 2016\n    institution: geneva\n  - source: xu-xiaomeng\n    target: tang-qian\n    type: advisor-student\n    year: 2023\n    institution: pku-bicmr\n  - source: shafarevich\n    target: manin-yuri\n    type: advisor-student\n    year: 1961\n    institution: moscow-state\n  - source: zagier\n    target: kontsevich\n    type: advisor-student\n    year: 1992\n    institution: bonn\n    notes: \"Kontsevich 的 Bonn 博士导师是 Don Zagier (MPIM)，Manin 是其 Moscow 合作者/伯乐而非博导\"\n  - source: liu-xiaobo\n    target: yang-chenglang\n    type: advisor-student\n    year: 2023\n    institution: pku-bicmr\n  - source: guo-shuai\n    target: ji-ce\n    type: advisor-student\n    year: 2024\n    institution: pku-bicmr\n  - source: zhou-jian\n    target: guo-shuai\n    type: advisor-student\n    year: 2011\n    institution: tsinghua\n  - source: zhou-jian\n    target: wang-zhiyuan\n    type: advisor-student\n    year: 2019\n    institution: tsinghua\n    notes: \"MGP 确认\"\n  - source: faddeev\n    target: alekseev\n    type: advisor-student\n    year: 1991\n    institution: steklov\n  - source: liu-melissa\n    target: zong-zhengyu\n    type: advisor-student\n    year: 2015\n    institution: columbia\n    notes: 清华本人英文履历：Columbia博士2010.09–2015.02，论文导师Chiu-Chu Melissa Liu。\n    sources:\n    - label: 清华英文履历\n      url: https://math.tsinghua.edu.cn/mathen/info/1312/3472.htm\n  - source: zhang-youjin\n    target: yang-di\n    type: advisor-student\n    year: 2013\n    institution: tsinghua\n  - source: zhou-jian\n    target: ke-huazhong\n    type: advisor-student\n    year: 2013\n    institution: tsinghua\n  # === HUST 2026 新增 ===\n  - source: zhang-youjin\n    target: wu-chaozhong\n    type: advisor-student\n    year: 2010\n    institution: tsinghua\n    notes: 华南理工大学2015年报告简介明确博士导师为张友金；INdAM履历列清华博士学习2005–2010。\n    sources:\n    - label: 官方报告简介\n      url: https://www2.scut.edu.cn/math/2015/0925/c10160a242952/page.htm\n    - label: INdAM履历\n      url: https://www.altamatematica.it/indam-cofund/cofund2008/chaozhong-wu/\n  - source: leung-naichung\n    target: li-changzheng\n    type: advisor-student\n    year: 2009\n    institution: cuhk\n    notes: \"香港中文大学 PhD\"\n  - source: liu-xiaobo\n    target: wang-xin\n    type: advisor-student\n    year: 2015\n    institution: pku\n    notes: \"北京大学基础数学博士\"\n  - source: \"Peter Teichner\"\n    target: li-qin\n    type: advisor-student\n    year: 2011\n    institution: uc-berkeley\n    notes: \"UC Berkeley PhD, 论文: Pontrjagin forms on certain string homogeneous spaces. MGP #219800\"\n  # === HUST 2026 会议后新增 (批次 A: 中山大学) ===\n  - source: li-changzheng\n    target: song-jiayu\n    type: advisor-student\n    year: null\n    institution: sun-yat-sen\n    notes: \"中山大学，方向 quantum Schubert calculus / quantum K-theory\"\n  - source: zhou-jian\n    target: zhang-xuhui\n    type: advisor-student\n    year: 2019\n    institution: tsinghua\n    notes: \"清华大学博士生，2019 入学，方向 BKP hierarchy\"\n  - source: zhang-youjin\n    target: qu-haonan\n    type: advisor-student\n    year: null\n    institution: tsinghua\n    notes: \"清华博士，导师张友金+刘思齐（唐乾同门）\"\n  - source: liu-siqi\n    target: qu-haonan\n    type: advisor-student\n    year: null\n    institution: tsinghua\n    notes: \"co-advisor 刘思齐\"\n  # Shing-Tung Yau 的中国学生\n  - source: yau-shingtung\n    target: si-li\n    type: advisor-student\n    year: 2011\n    institution: harvard\n    notes: \"Harvard PhD\"\n  - source: yau-shingtung\n    target: leung-naichung\n    type: advisor-student\n    year: 1993\n    institution: mit\n    notes: MGP记录MIT博士1993，导师Singer与Yau；本轮未从学位论文确认主次。\n    sources:\n    - label: MGP 53342\n      url: https://www.mathgenealogy.org/id.php?id=53342\n  - source: leung-naichung\n    target: chan-kwokwai\n    type: advisor-student\n    year: 2008\n    institution: cuhk\n    notes: 本人简历明确列CUHK PhD 2008，导师Naichung Conan Leung。\n    sources:\n    - label: 本人简历\n      url: https://www.math.cuhk.edu.hk/~kwchan/cv_brief.html\n  # === 批次 B: PKU/清华 ===\n  - source: liu-zhangju\n    target: chen-zhuo\n    type: advisor-student\n    year: 2004\n    institution: pku\n    notes: \"北大博士，导师刘张炬。MGP ID 176253\"\n  - source: liu-xiaobo\n    target: wang-chongyu\n    type: advisor-student\n    year: null\n    institution: pku\n    notes: \"现任博士生（2024-）方向 quantum cohomology complexity, Buryak-Shadrin conjecture\"\n  # === 批次 C: USTC+川大+南开+大湾区+郑大 ===\n  - source: si-li\n    target: wen-hao\n    type: advisor-student\n    year: 2019\n    institution: tsinghua\n    notes: \"清华博士 2016-2019，Si Li CV 明确列出\"\n  - source: zhou-jian\n    target: hu-xiaowen\n    type: advisor-student\n    year: 2014\n    institution: tsinghua\n    notes: \"清华数学系博士 2006-2014，方向 GW 理论 / 量子 McKay 对应\"\n  - source: hu-jianxun\n    target: ding-yanqiao\n    type: advisor-student\n    year: 2016\n    institution: sun-yat-sen\n    notes: \"中山大学博士 2013-2016，博士期间合作 Welschinger 不变量 2 篇\"\n  # === 批次 D: HUST 2026 会议外省/外校 ===\n  - source: fan-huijun\n    target: tang-xinxing\n    type: advisor-student\n    year: 2018\n    institution: pku-bicmr\n    notes: \"北大 BICMR 博士 2013-2018。BIMSA profile 明确\"\n  - source: elliott-george\n    target: ryszard-nest\n    type: advisor-student\n    year: 1987\n    institution: copenhagen\n    notes: \"UCPH PhD 1987，论文 Cyclic Cohomology of Crossed Products with Z。MGP #43937\"\n  - source: pedersen-gert\n    target: ryszard-nest\n    type: advisor-student\n    year: 1987\n    institution: copenhagen\n    notes: \"co-advisor。MGP #43937\"\n  - source: 陈柏辉\n    target: du-chengyong\n    type: advisor-student\n    year: 2014\n    institution: sichuan-u\n    notes: 本人官方主页列2011.09–2014.06四川大学博士，两位导师为李安民、陈柏辉。\n    sources:\n    - label: 本人官方主页\n      url: http://139.155.71.72:81/HomePage.aspx?ID=80\n  - source: zaslow-eric\n    target: fang-bohan\n    type: advisor-student\n    year: 2010\n    institution: northwestern\n  - source: yau-shingtung\n    target: tian-gang\n    type: advisor-student\n    year: 1988\n    institution: harvard\n  - source: yau-shingtung\n    target: liu-melissa\n    type: advisor-student\n    year: 2002\n    institution: harvard\n  - source: xiang-maosong\n    target: li-ao\n    type: advisor-student\n    year: 2023\n    institution: hust\n    notes: \"硕士\"\n  - source: lebrun-claude\n    target: zhou-jian\n    type: advisor-student\n    year: 1995\n    institution: stony-brook\n  - source: abouzaid-mohammed\n    target: cheng-zhechi\n    type: advisor-student\n    year: 2020\n    institution: columbia\n  - source: xu-ping\n    target: hong-wei\n    type: advisor-student\n    year: 2013\n    institution: penn-state\n\n  # ======== 清华博后 / 合作导师 mentor 关系 ========\n  - source: liu-siqi\n    target: tang-qian\n    type: postdoc-mentor\n    year: 2023\n    institution: tsinghua\n    notes: \"唐乾清华博后合作导师 (张友金 & 刘思齐组)\"\n  - source: zhang-youjin\n    target: tang-qian\n    type: postdoc-group\n    year: 2023\n    institution: tsinghua\n    notes: \"唐乾身处张友金 & 刘思齐联合组\"\n  - source: guo-shuai\n    target: wang-zhiyong\n    type: postdoc-mentor\n    year: 2022\n    institution: pku-bicmr\n    notes: \"王智勇北大博后 mentor (arXiv:2409.14124 acknowledgement 致谢郭帅)\"\n\n  # 博后合作导师批量补全 (2026-04)\n  - source: yau-shingtung\n    target: chan-kwokwai\n    type: postdoc-mentor\n    year: 2008\n    institution: harvard\n    notes: \"Croucher Postdoctoral Fellow 2008-2010 at Harvard, mentor Yau\"\n  - source: manin-yuri\n    target: cotti\n    type: postdoc-mentor\n    year: 2017\n    institution: mpim-bonn\n    notes: \"MPIM Bonn 博后 2017-2019, mentor Manin\"\n  - source: mazzocco\n    target: cotti\n    type: postdoc-mentor\n    year: 2019\n    institution: birmingham\n    notes: \"Birmingham PDRA 2019-2020, mentor Mazzocco\"\n  - source: si-li\n    target: he-weiqiang\n    type: postdoc-mentor\n    institution: tsinghua-ymsc\n    notes: \"清华 YMSC 博后合作导师 Si Li (Tsinghua Postdoc Grant 100410019)\"\n  - source: zhang-youjin\n    target: ji-ce\n    type: postdoc-mentor\n    year: 2024\n    institution: tsinghua\n    notes: \"清华水木学者博后, 在张友金组\"\n  - source: si-li\n    target: tang-xinxing\n    type: postdoc-mentor\n    year: 2018\n    institution: tsinghua-ymsc\n    notes: \"清华 YMSC 博后 2018-2021, mentor Si Li\"\n  - source: dubrovin\n    target: wu-chaozhong\n    type: postdoc-mentor\n    year: 2010\n    institution: sissa\n    notes: \"SISSA 博后 2010-2014, Marie Curie Fellow, mentor Dubrovin\"\n  - source: dubrovin\n    target: yang-di\n    type: postdoc-mentor\n    year: 2013\n    institution: sissa\n    notes: \"SISSA 博后 2013-2016, mentor Dubrovin (合作 11 篇)\"\n  - source: zagier\n    target: yang-di\n    type: postdoc-mentor\n    year: 2016\n    institution: mpim-bonn\n    notes: \"MPIM Bonn 博后 2016-2018, mentor Zagier (合作 5 篇)\"\n  - source: dubrovin\n    target: zhang-youjin\n    type: postdoc-mentor\n    year: 1996\n    institution: sissa\n    notes: \"SISSA 博后 1996-1998, 与 Dubrovin 开始长期合作\"\n\n  # [Codex] 2026-10-08：按本人官方履历补联合导师，姓名保留原文；未建独立人物档案。\n  - source: 李安民\n    target: du-chengyong\n    type: advisor-student\n    year: 2014\n    institution: sichuan-u\n    notes: 本人官方主页明确列李安民、陈柏辉两位博士导师。\n    sources:\n    - label: 本人官方主页\n      url: http://139.155.71.72:81/HomePage.aspx?ID=80\n",
+      "raw_after": "edges:\n  - source: novikov-sergei\n    target: dubrovin\n    type: advisor-student\n    year: 1976\n    institution: moscow-state\n  - source: dubrovin\n    target: guzzetti\n    type: advisor-student\n    year: 2000\n    institution: sissa\n  - source: dubrovin\n    target: cotti\n    type: advisor-student\n    year: 2017\n    institution: sissa\n  - source: dubrovin\n    target: mazzocco\n    type: advisor-student\n    year: 1998\n    institution: sissa\n  - source: guzzetti\n    target: cotti\n    type: advisor-student\n    year: 2017\n    institution: sissa\n    notes: \"co-advisor\"\n  - source: brieskorn\n    target: hertling\n    type: advisor-student\n    year: 1992\n    institution: bonn\n  - source: brieskorn\n    target: k-saito\n    type: advisor-student\n    year: 1971\n    institution: gottingen\n  - source: hitchin\n    target: boalch\n    type: advisor-student\n    year: 1999\n    institution: oxford\n  - source: le-dung-trang\n    target: sabbah\n    type: advisor-student\n    year: 1976\n    institution: paris-vii\n  - source: alekseev\n    target: xu-xiaomeng\n    type: advisor-student\n    year: 2016\n    institution: geneva\n  - source: xu-xiaomeng\n    target: tang-qian\n    type: advisor-student\n    year: 2023\n    institution: pku-bicmr\n  - source: shafarevich\n    target: manin-yuri\n    type: advisor-student\n    year: 1961\n    institution: moscow-state\n  - source: zagier\n    target: kontsevich\n    type: advisor-student\n    year: 1992\n    institution: bonn\n    notes: \"Kontsevich 的 Bonn 博士导师是 Don Zagier (MPIM)，Manin 是其 Moscow 合作者/伯乐而非博导\"\n  - source: liu-xiaobo\n    target: yang-chenglang\n    type: advisor-student\n    year: 2023\n    institution: pku-bicmr\n  - source: guo-shuai\n    target: ji-ce\n    type: advisor-student\n    year: 2024\n    institution: pku-bicmr\n  - source: zhou-jian\n    target: guo-shuai\n    type: advisor-student\n    year: 2011\n    institution: tsinghua\n  - source: zhou-jian\n    target: wang-zhiyuan\n    type: advisor-student\n    year: 2019\n    institution: tsinghua\n    notes: \"MGP 确认\"\n  - source: faddeev\n    target: alekseev\n    type: advisor-student\n    year: 1991\n    institution: steklov\n  - source: liu-melissa\n    target: zong-zhengyu\n    type: advisor-student\n    year: 2015\n    institution: columbia\n    notes: 清华本人英文履历：Columbia博士2010.09–2015.02，论文导师Chiu-Chu Melissa Liu。\n    sources:\n    - label: 清华英文履历\n      url: https://math.tsinghua.edu.cn/mathen/info/1312/3472.htm\n  - source: zhang-youjin\n    target: yang-di\n    type: advisor-student\n    year: 2013\n    institution: tsinghua\n  - source: zhou-jian\n    target: ke-huazhong\n    type: advisor-student\n    year: 2013\n    institution: tsinghua\n  # === HUST 2026 新增 ===\n  - source: zhang-youjin\n    target: wu-chaozhong\n    type: advisor-student\n    year: 2010\n    institution: tsinghua\n    notes: 华南理工大学2015年报告简介明确博士导师为张友金；INdAM履历列清华博士学习2005–2010。\n    sources:\n    - label: 官方报告简介\n      url: https://www2.scut.edu.cn/math/2015/0925/c10160a242952/page.htm\n    - label: INdAM履历\n      url: https://www.altamatematica.it/indam-cofund/cofund2008/chaozhong-wu/\n  - source: leung-naichung\n    target: li-changzheng\n    type: advisor-student\n    year: 2009\n    institution: cuhk\n    notes: \"香港中文大学 PhD\"\n  - source: liu-xiaobo\n    target: wang-xin\n    type: advisor-student\n    year: 2015\n    institution: pku\n    notes: \"北京大学基础数学博士\"\n  - source: \"Peter Teichner\"\n    target: li-qin\n    type: advisor-student\n    year: 2011\n    institution: uc-berkeley\n    notes: \"UC Berkeley PhD, 论文: Pontrjagin forms on certain string homogeneous spaces. MGP #219800\"\n  # === HUST 2026 会议后新增 (批次 A: 中山大学) ===\n  - source: li-changzheng\n    target: song-jiayu\n    type: advisor-student\n    year: null\n    institution: sun-yat-sen\n    notes: \"中山大学，方向 quantum Schubert calculus / quantum K-theory\"\n  - source: zhou-jian\n    target: zhang-xuhui\n    type: advisor-student\n    year: 2019\n    institution: tsinghua\n    notes: \"清华大学博士生，2019 入学，方向 BKP hierarchy\"\n  - source: zhang-youjin\n    target: qu-haonan\n    type: advisor-student\n    year: null\n    institution: tsinghua\n    notes: \"清华博士，导师张友金+刘思齐（唐乾同门）\"\n  - source: liu-siqi\n    target: qu-haonan\n    type: advisor-student\n    year: null\n    institution: tsinghua\n    notes: \"co-advisor 刘思齐\"\n  # Shing-Tung Yau 的中国学生\n  - source: yau-shingtung\n    target: si-li\n    type: advisor-student\n    year: 2011\n    institution: harvard\n    notes: \"Harvard PhD\"\n  - source: yau-shingtung\n    target: leung-naichung\n    type: advisor-student\n    year: 1993\n    institution: mit\n    notes: MGP记录MIT博士1993，导师Singer与Yau；本轮未从学位论文确认主次。\n    sources:\n    - label: MGP 53342\n      url: https://www.mathgenealogy.org/id.php?id=53342\n  - source: leung-naichung\n    target: chan-kwokwai\n    type: advisor-student\n    year: 2008\n    institution: cuhk\n    notes: 本人简历明确列CUHK PhD 2008，导师Naichung Conan Leung。\n    sources:\n    - label: 本人简历\n      url: https://www.math.cuhk.edu.hk/~kwchan/cv_brief.html\n  # === 批次 B: PKU/清华 ===\n  - source: liu-zhangju\n    target: chen-zhuo\n    type: advisor-student\n    year: 2004\n    institution: pku\n    notes: \"北大博士，导师刘张炬。MGP ID 176253\"\n  - source: liu-xiaobo\n    target: wang-chongyu\n    type: advisor-student\n    year: null\n    institution: pku\n    notes: \"现任博士生（2024-）方向 quantum cohomology complexity, Buryak-Shadrin conjecture\"\n  # === 批次 C: USTC+川大+南开+大湾区+郑大 ===\n  - source: si-li\n    target: wen-hao\n    type: advisor-student\n    year: 2019\n    institution: tsinghua\n    notes: \"清华博士 2016-2019，Si Li CV 明确列出\"\n  - source: zhou-jian\n    target: hu-xiaowen\n    type: advisor-student\n    year: 2014\n    institution: tsinghua\n    notes: \"清华数学系博士 2006-2014，方向 GW 理论 / 量子 McKay 对应\"\n  # === 批次 D: HUST 2026 会议外省/外校 ===\n  - source: fan-huijun\n    target: tang-xinxing\n    type: advisor-student\n    year: 2018\n    institution: pku-bicmr\n    notes: \"北大 BICMR 博士 2013-2018。BIMSA profile 明确\"\n  - source: elliott-george\n    target: ryszard-nest\n    type: advisor-student\n    year: 1987\n    institution: copenhagen\n    notes: \"UCPH PhD 1987，论文 Cyclic Cohomology of Crossed Products with Z。MGP #43937\"\n  - source: pedersen-gert\n    target: ryszard-nest\n    type: advisor-student\n    year: 1987\n    institution: copenhagen\n    notes: \"co-advisor。MGP #43937\"\n  - source: 陈柏辉\n    target: du-chengyong\n    type: advisor-student\n    year: 2014\n    institution: sichuan-u\n    notes: 本人官方主页列2011.09–2014.06四川大学博士，两位导师为李安民、陈柏辉。\n    sources:\n    - label: 本人官方主页\n      url: http://139.155.71.72:81/HomePage.aspx?ID=80\n  - source: zaslow-eric\n    target: fang-bohan\n    type: advisor-student\n    year: 2010\n    institution: northwestern\n  - source: yau-shingtung\n    target: tian-gang\n    type: advisor-student\n    year: 1988\n    institution: harvard\n  - source: yau-shingtung\n    target: liu-melissa\n    type: advisor-student\n    year: 2002\n    institution: harvard\n  - source: xiang-maosong\n    target: li-ao\n    type: advisor-student\n    year: 2023\n    institution: hust\n    notes: \"硕士\"\n  - source: lebrun-claude\n    target: zhou-jian\n    type: advisor-student\n    year: 1995\n    institution: stony-brook\n  - source: abouzaid-mohammed\n    target: cheng-zhechi\n    type: advisor-student\n    year: 2020\n    institution: columbia\n  - source: xu-ping\n    target: hong-wei\n    type: advisor-student\n    year: 2013\n    institution: penn-state\n\n  # ======== 清华博后 / 合作导师 mentor 关系 ========\n  - source: liu-siqi\n    target: tang-qian\n    type: postdoc-mentor\n    year: 2023\n    institution: tsinghua\n    notes: \"唐乾清华博后合作导师 (张友金 & 刘思齐组)\"\n  - source: zhang-youjin\n    target: tang-qian\n    type: postdoc-group\n    year: 2023\n    institution: tsinghua\n    notes: \"唐乾身处张友金 & 刘思齐联合组\"\n  - source: guo-shuai\n    target: wang-zhiyong\n    type: postdoc-mentor\n    year: 2022\n    institution: pku-bicmr\n    notes: \"王智勇北大博后 mentor (arXiv:2409.14124 acknowledgement 致谢郭帅)\"\n\n  # 博后合作导师批量补全 (2026-04)\n  - source: yau-shingtung\n    target: chan-kwokwai\n    type: postdoc-mentor\n    year: 2008\n    institution: harvard\n    notes: \"Croucher Postdoctoral Fellow 2008-2010 at Harvard, mentor Yau\"\n  - source: manin-yuri\n    target: cotti\n    type: postdoc-mentor\n    year: 2017\n    institution: mpim-bonn\n    notes: \"MPIM Bonn 博后 2017-2019, mentor Manin\"\n  - source: mazzocco\n    target: cotti\n    type: postdoc-mentor\n    year: 2019\n    institution: birmingham\n    notes: \"Birmingham PDRA 2019-2020, mentor Mazzocco\"\n  - source: si-li\n    target: he-weiqiang\n    type: postdoc-mentor\n    institution: tsinghua-ymsc\n    notes: \"清华 YMSC 博后合作导师 Si Li (Tsinghua Postdoc Grant 100410019)\"\n  - source: zhang-youjin\n    target: ji-ce\n    type: postdoc-mentor\n    year: 2024\n    institution: tsinghua\n    notes: \"清华水木学者博后, 在张友金组\"\n  - source: si-li\n    target: tang-xinxing\n    type: postdoc-mentor\n    year: 2018\n    institution: tsinghua-ymsc\n    notes: \"清华 YMSC 博后 2018-2021, mentor Si Li\"\n  - source: dubrovin\n    target: wu-chaozhong\n    type: postdoc-mentor\n    year: 2010\n    institution: sissa\n    notes: \"SISSA 博后 2010-2014, Marie Curie Fellow, mentor Dubrovin\"\n  - source: dubrovin\n    target: yang-di\n    type: postdoc-mentor\n    year: 2013\n    institution: sissa\n    notes: \"SISSA 博后 2013-2016, mentor Dubrovin (合作 11 篇)\"\n  - source: zagier\n    target: yang-di\n    type: postdoc-mentor\n    year: 2016\n    institution: mpim-bonn\n    notes: \"MPIM Bonn 博后 2016-2018, mentor Zagier (合作 5 篇)\"\n  - source: dubrovin\n    target: zhang-youjin\n    type: postdoc-mentor\n    year: 1996\n    institution: sissa\n    notes: \"SISSA 博后 1996-1998, 与 Dubrovin 开始长期合作\"\n\n  # [Codex] 2026-10-08：按本人官方履历补联合导师，姓名保留原文；未建独立人物档案。\n  - source: 李安民\n    target: du-chengyong\n    type: advisor-student\n    year: 2014\n    institution: sichuan-u\n    notes: 本人官方主页明确列李安民、陈柏辉两位博士导师。\n    sources:\n    - label: 本人官方主页\n      url: http://139.155.71.72:81/HomePage.aspx?ID=80\n"
+    },
+    {
+      "path": "data/connections/institutional.yaml",
+      "sha256_before": "52b561b0b331dd47d257061f30d20aee75af6f728af35bdea6804fcef5f6b1af",
+      "raw_before": "edges:\n  - source: dubrovin\n    target: guzzetti\n    type: institutional\n    institution: sissa\n    period: \"1996-2019\"\n  - source: dubrovin\n    target: cotti\n    type: institutional\n    institution: sissa\n    period: \"2013-2017\"\n  - source: dubrovin\n    target: mazzocco\n    type: institutional\n    institution: sissa\n    period: \"1994-1998\"\n  - source: zhang-youjin\n    target: liu-siqi\n    type: institutional\n    institution: tsinghua\n    period: \"2000-present\"\n  - source: tang-qian\n    target: zhang-youjin\n    type: institutional\n    institution: tsinghua\n    period: \"2023-present\"\n  - source: tang-qian\n    target: liu-siqi\n    type: institutional\n    institution: tsinghua\n    period: \"2023-present\"\n  - source: xu-xiaomeng\n    target: tang-qian\n    type: institutional\n    institution: pku-bicmr\n    period: \"2019-2023\"\n  - source: xu-xiaomeng\n    target: alekseev\n    type: institutional\n    institution: geneva\n    period: \"2010-2016\"\n  - source: hertling\n    target: k-saito\n    type: institutional\n    institution: bonn\n    period: \"~1988\"\n    notes: \"同门 (Brieskorn students), 不一定同时在 Bonn\"\n  # === 时空共处分析发现的隐藏关系 ===\n  - source: zhang-youjin\n    target: dubrovin\n    type: institutional\n    institution: sissa\n    period: \"1996-1998\"\n    notes: \"张友金 SISSA 博后期间与 Dubrovin 同事，合作由此开始\"\n  - source: zhang-youjin\n    target: mazzocco\n    type: institutional\n    institution: sissa\n    period: \"1996-1998\"\n    notes: \"同时在 SISSA (Mazzocco 读博, 张友金博后)\"\n  - source: zhang-youjin\n    target: guzzetti\n    type: institutional\n    institution: sissa\n    period: \"1996-1998\"\n    notes: \"同时在 SISSA\"\n  - source: guzzetti\n    target: k-saito\n    type: institutional\n    institution: rims-kyoto\n    period: \"2001-2008\"\n    notes: \"Guzzetti 做博后时与 K. Saito 在 RIMS 重叠 7 年\"\n  - source: zhang-youjin\n    target: zhou-jian\n    type: institutional\n    institution: tsinghua\n    period: \"2000-present\"\n    notes: \"同系 26 年但合著为零——平行独立运作\"\n  - source: cotti\n    target: mazzocco\n    type: institutional\n    institution: birmingham\n    period: \"2019-2020\"\n    notes: \"Cotti 在 Mazzocco 组做博后\"\n  - source: cotti\n    target: manin-yuri\n    type: institutional\n    institution: mpim-bonn\n    period: \"2017-2019\"\n    notes: \"Cotti 在 MPI Bonn 做博后，Manin 为 mentor\"\n  # === PKU/BICMR 超级交汇 ===\n  - source: xu-xiaomeng\n    target: liu-xiaobo\n    type: institutional\n    institution: pku-bicmr\n    period: \"2019-present\"\n    notes: \"同在 BICMR\"\n  - source: xu-xiaomeng\n    target: guo-shuai\n    type: institutional\n    institution: pku-bicmr\n    period: \"2019-present\"\n  - source: xu-xiaomeng\n    target: fang-bohan\n    type: institutional\n    institution: pku-bicmr\n    period: \"2020-present\"\n  - source: tang-qian\n    target: ji-ce\n    type: institutional\n    institution: tsinghua\n    period: \"2024-present\"\n    notes: \"同在清华：唐乾博后, 季策水木博后\"\n  # === USTC ===\n  - source: yang-di\n    target: zhou-chunhui\n    type: institutional\n    institution: ustc\n    period: \"2020-present\"\n  # === HUST 2026 新增 ===\n  # 吴朝中与 SISSA/清华的关系\n  - source: wu-chaozhong\n    target: dubrovin\n    type: institutional\n    institution: sissa\n    period: \"~2010-2014\"\n    notes: \"吴朝中在 SISSA 做博后期间与 Dubrovin 同事\"\n  - source: wu-chaozhong\n    target: yang-di\n    type: institutional\n    institution: sissa\n    period: \"~2013-2014\"\n    notes: \"杨迪和吴朝中在 SISSA 时间重叠（同为张友金学生，先后在 Dubrovin 组）\"\n  # 中山大学集群\n  - source: wu-chaozhong\n    target: ke-huazhong\n    type: institutional\n    institution: sun-yat-sen\n    period: \"2014-present\"\n    notes: \"同在中山大学数学学院\"\n  - source: wu-chaozhong\n    target: li-changzheng\n    type: institutional\n    institution: sun-yat-sen\n    period: \"2014-present\"\n    notes: \"同在中山大学数学学院\"\n  - source: wu-chaozhong\n    target: he-weiqiang\n    type: institutional\n    institution: sun-yat-sen\n    period: \"2014-present\"\n    notes: \"同在中山大学数学学院\"\n  - source: ke-huazhong\n    target: li-changzheng\n    type: institutional\n    institution: sun-yat-sen\n    period: \"2014-present\"\n    notes: \"Gamma conjecture 团队核心\"\n  - source: ke-huazhong\n    target: he-weiqiang\n    type: institutional\n    institution: sun-yat-sen\n    period: \"2014-present\"\n  # 南科大集群\n  - source: wu-longting\n    target: li-qin\n    type: institutional\n    institution: sustech\n    period: \"2021-present\"\n    notes: \"同在南方科技大学数学系\"\n  # PKU/BICMR 师生\n  - source: wu-longting\n    target: liu-xiaobo\n    type: institutional\n    institution: pku-bicmr\n    period: \"~2012-2017\"\n    notes: \"邬龙挺在 BICMR 读博，导师刘小博\"\n  - source: wang-xin\n    target: liu-xiaobo\n    type: institutional\n    institution: pku\n    period: \"2010-2015\"\n    notes: \"王新在北大读博，导师刘小博\"\n  - source: wu-longting\n    target: wang-xin\n    type: institutional\n    institution: pku\n    period: \"~2012-2015\"\n    notes: \"刘小博的两位博士生，在北大时间重叠\"\n  # 北大集群\n  - source: dai-bo\n    target: liu-xiaobo\n    type: institutional\n    institution: pku\n    period: \"present\"\n    notes: \"同在北大数学科学学院 / BICMR\"\n  # 李长征-CUHK 导师\n  - source: li-changzheng\n    target: li-qin\n    type: institutional\n    institution: ustc\n    period: \"2001-2003\"\n    notes: \"USTC 本科同学。李长征(1999-2003)与李勤(2001-2005)重叠2年。后两人共享 CUHK/Leung 学术网络\"\n  # 何伟强-清华博后\n  - source: he-weiqiang\n    target: si-li\n    type: institutional\n    institution: tsinghua-ymsc\n    period: \"[待验证]\"\n    notes: \"何伟强在清华丘成桐中心做博后，与 Si Li 密切合作 (5 篇)\"\n  # 何伟强-柯华忠-中山大学 GW 方向\n  - source: he-weiqiang\n    target: ke-huazhong\n    type: institutional\n    institution: sun-yat-sen\n    period: \"present\"\n    notes: \"同在中山大学数学学院 GAGP 团队\"\n  # 何伟强-李长征-吴朝中 GAGP 团队\n  - source: he-weiqiang\n    target: li-changzheng\n    type: institutional\n    institution: sun-yat-sen\n    period: \"present\"\n    notes: \"同在中山大学 GAGP 团队\"\n  - source: he-weiqiang\n    target: wu-chaozhong\n    type: institutional\n    institution: sun-yat-sen\n    period: \"present\"\n    notes: \"同在中山大学 GAGP 团队\"\n  # === 清华博士同期重叠（非同门但同系）===\n  - source: wu-chaozhong\n    target: guo-shuai\n    type: institutional\n    institution: tsinghua\n    period: \"2002-2010\"\n    notes: \"清华数学系同期博士生。吴朝中(张友金门下)与郭帅(周坚门下)高度重叠8年\"\n  - source: wu-chaozhong\n    target: ke-huazhong\n    type: institutional\n    institution: tsinghua\n    period: \"2008-2010\"\n    notes: \"清华数学系同期博士生。吴朝中与柯华忠重叠2年\"\n  - source: yang-di\n    target: guo-shuai\n    type: institutional\n    institution: tsinghua\n    period: \"2004-2011\"\n    notes: \"清华数学系同期。杨迪与郭帅重叠7年\"\n  - source: yang-di\n    target: ke-huazhong\n    type: institutional\n    institution: tsinghua\n    period: \"2008-2013\"\n    notes: \"清华数学系同期博士生。完全重叠5年\"\n  # Cotti-杨迪 MPIM-Bonn 重叠\n  - source: cotti\n    target: yang-di\n    type: institutional\n    institution: mpim-bonn\n    period: \"2017-2018\"\n    notes: \"两人先后从 SISSA 去 MPIM 做博后，在 Bonn 重叠1年\"\n  # 戴波-郭帅 北大同事\n  - source: dai-bo\n    target: guo-shuai\n    type: institutional\n    institution: pku\n    period: \"2011-present\"\n    notes: \"同在北大数学科学学院超过15年\"\n  # 戴波-方博汉 北大同事\n  - source: dai-bo\n    target: fang-bohan\n    type: institutional\n    institution: pku\n    period: \"2015-present\"\n    notes: \"同在北大\"\n  # 戴波-徐晓濛 北大\n  - source: dai-bo\n    target: xu-xiaomeng\n    type: institutional\n    institution: pku-bicmr\n    period: \"2019-present\"\n    notes: \"同在北大/BICMR\"\n  # === 批次 C: GBU 周坚同门再会 ===\n  - source: hu-xiaowen\n    target: zhang-qingsheng\n    type: institutional\n    institution: gbu\n    period: 2024-present\n    notes: 大湾区大学同事；张庆生的博士导师关系待核实。\n  # 郑大胡建勋学派扩展\n  - source: ding-yanqiao\n    target: hu-jianxun\n    type: institutional\n    institution: sun-yat-sen\n    period: \"2013-2016\"\n    notes: \"丁岩峭在中山大学读博期间师从胡建勋\"\n  # === HUST 2026 新人机构关系 ===\n  # BIMSA 同事\n  - source: tang-xinxing\n    target: wang-luyao\n    type: institutional\n    institution: bimsa\n    period: \"2021-present\"\n    notes: \"BIMSA 数学物理组同事\"\n  - source: tang-xinxing\n    target: ryszard-nest\n    type: institutional\n    institution: bimsa\n    period: \"present\"\n    notes: \"BIMSA 兼职 [待验证]\"\n  # 唐鑫星-李思 清华 YMSC 博后期\n  - source: tang-xinxing\n    target: si-li\n    type: institutional\n    institution: tsinghua-ymsc\n    period: \"2018-2021\"\n    notes: \"唐鑫星清华 YMSC 博后 (2018-2021)，与 Si Li 合作\"\n  - source: tang-xinxing\n    target: he-weiqiang\n    type: institutional\n    institution: tsinghua-ymsc\n    period: \"~2019\"\n    notes: \"两人都在 YMSC 与 Si Li 工作，合作 Kodaira-Spencer gravity 论文\"\n  # 唐鑫星-BICMR 博士期\n  - source: tang-xinxing\n    target: fan-huijun\n    type: institutional\n    institution: pku-bicmr\n    period: \"2013-2018\"\n    notes: \"唐鑫星 BICMR 博士，导师樊慧君\"\n  # NCHU 同事\n  - source: bi-yanhui\n    target: cheng-jiahao\n    type: institutional\n    institution: nchu\n    period: \"2021-present\"\n    notes: \"南昌航空大学数学与信息科学学院同事\"\n  # Lie pair / dg manifold 陈酌学派机构重叠\n  - source: ni-dadi\n    target: chen-zhuo\n    type: institutional\n    institution: tsinghua\n    period: 2018-2023\n    notes: 倪大地2018.09–2023.06在清华读博士；师承关系待核实。\n  # 杜承勇-四川大学 (博士/合作期)\n  # SWJTU / SICNU 成都数学圈\n  # 郎红蕾-徐晓濛 北大重叠\n  - source: lang-honglei\n    target: xu-xiaomeng\n    type: institutional\n    institution: pku\n    period: \"~2011-2013\"\n    notes: \"郎红蕾北大博士期间（2011-2016），徐晓濛 2011 年本科毕业、2013-2015 在北大/Geneva。两人 2012/2013 合作\"\n",
+      "raw_after": "edges:\n  - source: dubrovin\n    target: guzzetti\n    type: institutional\n    institution: sissa\n    period: \"1996-2019\"\n  - source: dubrovin\n    target: cotti\n    type: institutional\n    institution: sissa\n    period: \"2013-2017\"\n  - source: dubrovin\n    target: mazzocco\n    type: institutional\n    institution: sissa\n    period: \"1994-1998\"\n  - source: zhang-youjin\n    target: liu-siqi\n    type: institutional\n    institution: tsinghua\n    period: \"2000-present\"\n  - source: tang-qian\n    target: zhang-youjin\n    type: institutional\n    institution: tsinghua\n    period: \"2023-present\"\n  - source: tang-qian\n    target: liu-siqi\n    type: institutional\n    institution: tsinghua\n    period: \"2023-present\"\n  - source: xu-xiaomeng\n    target: tang-qian\n    type: institutional\n    institution: pku-bicmr\n    period: \"2019-2023\"\n  - source: xu-xiaomeng\n    target: alekseev\n    type: institutional\n    institution: geneva\n    period: \"2010-2016\"\n  - source: hertling\n    target: k-saito\n    type: institutional\n    institution: bonn\n    period: \"~1988\"\n    notes: \"同门 (Brieskorn students), 不一定同时在 Bonn\"\n  # === 时空共处分析发现的隐藏关系 ===\n  - source: zhang-youjin\n    target: dubrovin\n    type: institutional\n    institution: sissa\n    period: \"1996-1998\"\n    notes: \"张友金 SISSA 博后期间与 Dubrovin 同事，合作由此开始\"\n  - source: zhang-youjin\n    target: mazzocco\n    type: institutional\n    institution: sissa\n    period: \"1996-1998\"\n    notes: \"同时在 SISSA (Mazzocco 读博, 张友金博后)\"\n  - source: zhang-youjin\n    target: guzzetti\n    type: institutional\n    institution: sissa\n    period: \"1996-1998\"\n    notes: \"同时在 SISSA\"\n  - source: guzzetti\n    target: k-saito\n    type: institutional\n    institution: rims-kyoto\n    period: \"2001-2008\"\n    notes: \"Guzzetti 做博后时与 K. Saito 在 RIMS 重叠 7 年\"\n  - source: zhang-youjin\n    target: zhou-jian\n    type: institutional\n    institution: tsinghua\n    period: \"2000-present\"\n    notes: \"同系 26 年但合著为零——平行独立运作\"\n  - source: cotti\n    target: mazzocco\n    type: institutional\n    institution: birmingham\n    period: \"2019-2020\"\n    notes: \"Cotti 在 Mazzocco 组做博后\"\n  - source: cotti\n    target: manin-yuri\n    type: institutional\n    institution: mpim-bonn\n    period: \"2017-2019\"\n    notes: \"Cotti 在 MPI Bonn 做博后，Manin 为 mentor\"\n  # === PKU/BICMR 超级交汇 ===\n  - source: xu-xiaomeng\n    target: liu-xiaobo\n    type: institutional\n    institution: pku-bicmr\n    period: \"2019-present\"\n    notes: \"同在 BICMR\"\n  - source: xu-xiaomeng\n    target: guo-shuai\n    type: institutional\n    institution: pku-bicmr\n    period: \"2019-present\"\n  - source: xu-xiaomeng\n    target: fang-bohan\n    type: institutional\n    institution: pku-bicmr\n    period: \"2020-present\"\n  - source: tang-qian\n    target: ji-ce\n    type: institutional\n    institution: tsinghua\n    period: \"2024-present\"\n    notes: \"同在清华：唐乾博后, 季策水木博后\"\n  # === USTC ===\n  - source: yang-di\n    target: zhou-chunhui\n    type: institutional\n    institution: ustc\n    period: \"2020-present\"\n  # === HUST 2026 新增 ===\n  # 吴朝中与 SISSA/清华的关系\n  - source: wu-chaozhong\n    target: dubrovin\n    type: institutional\n    institution: sissa\n    period: \"~2010-2014\"\n    notes: \"吴朝中在 SISSA 做博后期间与 Dubrovin 同事\"\n  - source: wu-chaozhong\n    target: yang-di\n    type: institutional\n    institution: sissa\n    period: \"~2013-2014\"\n    notes: \"杨迪和吴朝中在 SISSA 时间重叠（同为张友金学生，先后在 Dubrovin 组）\"\n  # 中山大学集群\n  - source: wu-chaozhong\n    target: ke-huazhong\n    type: institutional\n    institution: sun-yat-sen\n    period: \"2014-present\"\n    notes: \"同在中山大学数学学院\"\n  - source: wu-chaozhong\n    target: li-changzheng\n    type: institutional\n    institution: sun-yat-sen\n    period: \"2014-present\"\n    notes: \"同在中山大学数学学院\"\n  - source: wu-chaozhong\n    target: he-weiqiang\n    type: institutional\n    institution: sun-yat-sen\n    period: \"2014-present\"\n    notes: \"同在中山大学数学学院\"\n  - source: ke-huazhong\n    target: li-changzheng\n    type: institutional\n    institution: sun-yat-sen\n    period: \"2014-present\"\n    notes: \"Gamma conjecture 团队核心\"\n  - source: ke-huazhong\n    target: he-weiqiang\n    type: institutional\n    institution: sun-yat-sen\n    period: \"2014-present\"\n  # 南科大集群\n  - source: wu-longting\n    target: li-qin\n    type: institutional\n    institution: sustech\n    period: \"2021-present\"\n    notes: \"同在南方科技大学数学系\"\n  # PKU/BICMR 师生\n  - source: wu-longting\n    target: liu-xiaobo\n    type: institutional\n    institution: pku-bicmr\n    period: \"~2012-2017\"\n    notes: \"邬龙挺在 BICMR 读博，导师刘小博\"\n  - source: wang-xin\n    target: liu-xiaobo\n    type: institutional\n    institution: pku\n    period: \"2010-2015\"\n    notes: \"王新在北大读博，导师刘小博\"\n  - source: wu-longting\n    target: wang-xin\n    type: institutional\n    institution: pku\n    period: \"~2012-2015\"\n    notes: \"刘小博的两位博士生，在北大时间重叠\"\n  # 北大集群\n  - source: dai-bo\n    target: liu-xiaobo\n    type: institutional\n    institution: pku\n    period: \"present\"\n    notes: \"同在北大数学科学学院 / BICMR\"\n  # 李长征-CUHK 导师\n  - source: li-changzheng\n    target: li-qin\n    type: institutional\n    institution: ustc\n    period: \"2001-2003\"\n    notes: \"USTC 本科同学。李长征(1999-2003)与李勤(2001-2005)重叠2年。后两人共享 CUHK/Leung 学术网络\"\n  # 何伟强-清华博后\n  - source: he-weiqiang\n    target: si-li\n    type: institutional\n    institution: tsinghua-ymsc\n    period: \"[待验证]\"\n    notes: \"何伟强在清华丘成桐中心做博后，与 Si Li 密切合作 (5 篇)\"\n  # 何伟强-柯华忠-中山大学 GW 方向\n  - source: he-weiqiang\n    target: ke-huazhong\n    type: institutional\n    institution: sun-yat-sen\n    period: \"present\"\n    notes: \"同在中山大学数学学院 GAGP 团队\"\n  # 何伟强-李长征-吴朝中 GAGP 团队\n  - source: he-weiqiang\n    target: li-changzheng\n    type: institutional\n    institution: sun-yat-sen\n    period: \"present\"\n    notes: \"同在中山大学 GAGP 团队\"\n  - source: he-weiqiang\n    target: wu-chaozhong\n    type: institutional\n    institution: sun-yat-sen\n    period: \"present\"\n    notes: \"同在中山大学 GAGP 团队\"\n  # === 清华博士同期重叠（非同门但同系）===\n  - source: wu-chaozhong\n    target: guo-shuai\n    type: institutional\n    institution: tsinghua\n    period: \"2002-2010\"\n    notes: \"清华数学系同期博士生。吴朝中(张友金门下)与郭帅(周坚门下)高度重叠8年\"\n  - source: wu-chaozhong\n    target: ke-huazhong\n    type: institutional\n    institution: tsinghua\n    period: \"2008-2010\"\n    notes: \"清华数学系同期博士生。吴朝中与柯华忠重叠2年\"\n  - source: yang-di\n    target: guo-shuai\n    type: institutional\n    institution: tsinghua\n    period: \"2004-2011\"\n    notes: \"清华数学系同期。杨迪与郭帅重叠7年\"\n  - source: yang-di\n    target: ke-huazhong\n    type: institutional\n    institution: tsinghua\n    period: \"2008-2013\"\n    notes: \"清华数学系同期博士生。完全重叠5年\"\n  # Cotti-杨迪 MPIM-Bonn 重叠\n  - source: cotti\n    target: yang-di\n    type: institutional\n    institution: mpim-bonn\n    period: \"2017-2018\"\n    notes: \"两人先后从 SISSA 去 MPIM 做博后，在 Bonn 重叠1年\"\n  # 戴波-郭帅 北大同事\n  - source: dai-bo\n    target: guo-shuai\n    type: institutional\n    institution: pku\n    period: \"2011-present\"\n    notes: \"同在北大数学科学学院超过15年\"\n  # 戴波-方博汉 北大同事\n  - source: dai-bo\n    target: fang-bohan\n    type: institutional\n    institution: pku\n    period: \"2015-present\"\n    notes: \"同在北大\"\n  # 戴波-徐晓濛 北大\n  - source: dai-bo\n    target: xu-xiaomeng\n    type: institutional\n    institution: pku-bicmr\n    period: \"2019-present\"\n    notes: \"同在北大/BICMR\"\n  # === 批次 C: GBU 周坚同门再会 ===\n  - source: hu-xiaowen\n    target: zhang-qingsheng\n    type: institutional\n    institution: gbu\n    period: 2024-present\n    notes: 大湾区大学同事；张庆生的博士导师关系待核实。\n  # [Codex] 同单位署名，不据此认定师承或完整共处时间。\n  - source: ding-yanqiao\n    target: hu-jianxun\n    type: institutional\n    institution: sun-yat-sen\n    period: \"2015\"\n    notes: \"arXiv:1504.07111 两位作者同署中山大学；博士导师关系待核实。\"\n    sources:\n      - label: \"arXiv:1504.07111 题首页\"\n        url: \"https://arxiv.org/abs/1504.07111\"\n  # === HUST 2026 新人机构关系 ===\n  # BIMSA 同事\n  - source: tang-xinxing\n    target: wang-luyao\n    type: institutional\n    institution: bimsa\n    period: \"2021-present\"\n    notes: \"BIMSA 数学物理组同事\"\n  - source: tang-xinxing\n    target: ryszard-nest\n    type: institutional\n    institution: bimsa\n    period: \"present\"\n    notes: \"BIMSA 兼职 [待验证]\"\n  # 唐鑫星-李思 清华 YMSC 博后期\n  - source: tang-xinxing\n    target: si-li\n    type: institutional\n    institution: tsinghua-ymsc\n    period: \"2018-2021\"\n    notes: \"唐鑫星清华 YMSC 博后 (2018-2021)，与 Si Li 合作\"\n  - source: tang-xinxing\n    target: he-weiqiang\n    type: institutional\n    institution: tsinghua-ymsc\n    period: \"~2019\"\n    notes: \"两人都在 YMSC 与 Si Li 工作，合作 Kodaira-Spencer gravity 论文\"\n  # 唐鑫星-BICMR 博士期\n  - source: tang-xinxing\n    target: fan-huijun\n    type: institutional\n    institution: pku-bicmr\n    period: \"2013-2018\"\n    notes: \"唐鑫星 BICMR 博士，导师樊慧君\"\n  # NCHU 同事\n  - source: bi-yanhui\n    target: cheng-jiahao\n    type: institutional\n    institution: nchu\n    period: \"2021-present\"\n    notes: \"南昌航空大学数学与信息科学学院同事\"\n  # Lie pair / dg manifold 陈酌学派机构重叠\n  - source: ni-dadi\n    target: chen-zhuo\n    type: institutional\n    institution: tsinghua\n    period: 2018-2023\n    notes: 倪大地2018.09–2023.06在清华读博士；师承关系待核实。\n  # 杜承勇-四川大学 (博士/合作期)\n  # SWJTU / SICNU 成都数学圈\n  # 郎红蕾-徐晓濛 北大重叠\n  - source: lang-honglei\n    target: xu-xiaomeng\n    type: institutional\n    institution: pku\n    period: \"~2011-2013\"\n    notes: \"郎红蕾北大博士期间（2011-2016），徐晓濛 2011 年本科毕业、2013-2015 在北大/Geneva。两人 2012/2013 合作\"\n"
+    },
+    {
+      "path": "data/institutions/zzu.yaml",
+      "sha256_before": "581f8a42bd269b202cc2bb6715103fa923aabe5f382e7cd877f450630d50404f",
+      "raw_before": "slug: zzu\nname:\n  en: \"Zhengzhou University\"\n  zh: \"郑州大学\"\ntype: university\ncountry: China\ncity: Zhengzhou\nlocation:\n  lat: 34.8181\n  lng: 113.5294\nfounded: 1956\nurl: \"https://www.zzu.edu.cn/\"\nrelevance: low\nresearch_groups:\n  - name: \"数学与统计学院\"\n    topics: []\n    current_members:\n      - ding-yanqiao\n      - liu-fangjun\n    past_members: []\nevents: []\nnotes: |\n  丁岩峭：郑大本科 → 兰大硕士 → 中大博士 (胡建勋, 2016) → 郑大讲师/副教授。\n  2026 HUST 会议郑大代表 2 人。\n",
+      "raw_after": "slug: zzu\nname:\n  en: \"Zhengzhou University\"\n  zh: \"郑州大学\"\ntype: university\ncountry: China\ncity: Zhengzhou\nlocation:\n  lat: 34.8181\n  lng: 113.5294\nfounded: 1956\nurl: \"https://www.zzu.edu.cn/\"\nrelevance: low\nresearch_groups:\n  - name: \"数学与统计学院\"\n    topics: []\n    current_members:\n      - ding-yanqiao\n      - liu-fangjun\n    past_members: []\nevents: []\nnotes: |\n  丁岩峭于2016年6月获中山大学博士，同年7月入职郑州大学，2024年1月起任副教授。\n  其本科、硕士经历及博士导师待核实；会议参会记录仍待逐项核对。\n\nsources:\n  - label: \"[Codex] 2026-10-08：丁岩峭任职经历\"\n    url: \"https://www5.zzu.edu.cn/math/info/1179/4671.htm\"\n    notes: \"仅核对丁岩峭的上述博士毕业、入职与现职信息；不认证机构其他字段。\"\n"
+    },
+    {
+      "path": "data/institutions/lanzhou-u.yaml",
+      "sha256_before": "8b2c3e615966d3760e3d452598a7d0e7c07c967d5889aa144cf752fca68f7715",
+      "raw_before": "slug: lanzhou-u\nname:\n  en: \"Lanzhou University\"\n  zh: \"兰州大学\"\ntype: university\ncountry: China\ncity: Lanzhou\nlocation:\n  lat: 36.0486\n  lng: 103.8611\nfounded: 1909\nurl: \"https://www.lzu.edu.cn/\"\nrelevance: low\nresearch_groups:\n  - name: \"数学与统计学院\"\n    topics: []\n    current_members: []\n    past_members:\n      - hu-jianxun\n      - ding-yanqiao\nevents: []\nnotes: \"胡建勋的本科、硕士年份存在官方来源冲突，待核；不得沿用推算的1979年入学。丁岩峭的硕士求学记录见人物履历，年份仍待逐项核对。\"\n\nsources:\n- label: '[Codex] 机构官方站：名称与重复入口核对'\n  url: https://global.lzu.edu.cn/index.htm\n  last_verified: '2026-10-08'\n  notes: 仅核对机构名称与别名指向；原有成立年、地点坐标、人员名单及其他叙述并未由此一并认证。官方站搜索索引可读，正文直连返回412；未把失败响应当作正文证据。\n- label: '[Codex] 2026-10-08：学历年份的官方来源冲突'\n  url: https://math.sysu.edu.cn/node/484\n  notes: 教师页搜索索引与2023年广东省丁颖科技奖提名表搜索索引的本科、硕士年份不一致；两份直接访问均403，尚未解决冲突。撤去原先倒推的入学年份，不按其中一份索引擅定结论。\n",
+      "raw_after": "slug: lanzhou-u\nname:\n  en: \"Lanzhou University\"\n  zh: \"兰州大学\"\ntype: university\ncountry: China\ncity: Lanzhou\nlocation:\n  lat: 36.0486\n  lng: 103.8611\nfounded: 1909\nurl: \"https://www.lzu.edu.cn/\"\nrelevance: low\nresearch_groups:\n  - name: \"数学与统计学院\"\n    topics: []\n    current_members: []\n    past_members:\n      - hu-jianxun\n      - ding-yanqiao\nevents: []\nnotes: \"胡建勋的本科、硕士年份存在官方来源冲突，待核；不得沿用推算的1979年入学。丁岩峭的硕士求学经历与年份尚待一手来源核实。\"\n\nsources:\n- label: '[Codex] 机构官方站：名称与重复入口核对'\n  url: https://global.lzu.edu.cn/index.htm\n  last_verified: '2026-10-08'\n  notes: 仅核对机构名称与别名指向；原有成立年、地点坐标、人员名单及其他叙述并未由此一并认证。官方站搜索索引可读，正文直连返回412；未把失败响应当作正文证据。\n- label: '[Codex] 2026-10-08：学历年份的官方来源冲突'\n  url: https://math.sysu.edu.cn/node/484\n  notes: 教师页搜索索引与2023年广东省丁颖科技奖提名表搜索索引的本科、硕士年份不一致；两份直接访问均403，尚未解决冲突。撤去原先倒推的入学年份，不按其中一份索引擅定结论。\n"
+    },
+    {
+      "path": "data/institutions/sorbonne.yaml",
+      "sha256_before": "0c3b0bfc3773b1c357a737fe5bc7cb9e4b0ee1f7f3c24e53de876c562eab03cc",
+      "raw_before": "slug: sorbonne\nname:\n  en: \"Sorbonne University\"\n  zh: \"巴黎索邦大学\"\n  local: \"Sorbonne Université\"\ntype: university\ncountry: France\ncity: Paris\nlocation:\n  lat: 48.8470\n  lng: 2.3550\nfounded: 2018\nurl: \"https://www.sorbonne-universite.fr/\"\nrelevance: low\nresearch_groups:\n  - name: \"IMJ-PRG (Institut de Mathématiques de Jussieu–PRG)\"\n    topics: []\n    current_members: []\n    past_members: []\nevents: []\nnotes: \"丁岩峭 2019-2020 博后。\"\n",
+      "raw_after": "slug: sorbonne\nname:\n  en: \"Sorbonne University\"\n  zh: \"巴黎索邦大学\"\n  local: \"Sorbonne Université\"\ntype: university\ncountry: France\ncity: Paris\nlocation:\n  lat: 48.8470\n  lng: 2.3550\nfounded: 2018\nurl: \"https://www.sorbonne-universite.fr/\"\nrelevance: low\nresearch_groups:\n  - name: \"IMJ-PRG (Institut de Mathématiques de Jussieu–PRG)\"\n    topics: []\n    current_members: []\n    past_members: []\nevents: []\nnotes: \"郑州大学官网列丁岩峭2019年9月起赴法国索邦大学开展为期一年的博士后研究，国家留学基金委资助；未列具体结束月份。\"\n\nsources:\n  - label: \"[Codex] 2026-10-08：丁岩峭博士后经历\"\n    url: \"https://www5.zzu.edu.cn/math/info/1179/4671.htm\"\n    notes: \"仅核对该段博士后经历；不据此认证所属研究组或其他机构字段。\"\n"
+    }
+  ],
+  "removed_publication_rows": [
+    {
+      "id": "doi:10.1002/adom.202503766",
+      "raw": "  - id: 'doi:10.1002/adom.202503766'\n    title: 'Efficient Blue‐Emitting Rb <sup>+</sup> ‐doped Cs <sub>3</sub> Cu <sub>2</sub> I <sub>5</sub> via Solvent Evaporation Crystallization for White LEDs'\n    year: 2026\n    coauthors: ['Xuanming Zhang', 'Ronggan Lu', 'Xiaochen Fang', 'Chenfeng Lin', 'Yongfeng Liu', 'Dongdong Yan', 'Xiaoyu Wang', 'Hao Xie', 'Cheng Wang', 'Weixiang Ye']\n    doi: '10.1002/adom.202503766'\n    journal: 'Advanced Optical Materials'\n    openalex_id: W7126247967\n    sources: [openalex]\n    no_arxiv: true\n",
+      "record": {
+        "id": "doi:10.1002/adom.202503766",
+        "title": "Efficient Blue‐Emitting Rb <sup>+</sup> ‐doped Cs <sub>3</sub> Cu <sub>2</sub> I <sub>5</sub> via Solvent Evaporation Crystallization for White LEDs",
+        "year": 2026,
+        "coauthors": [
+          "Xuanming Zhang",
+          "Ronggan Lu",
+          "Xiaochen Fang",
+          "Chenfeng Lin",
+          "Yongfeng Liu",
+          "Dongdong Yan",
+          "Xiaoyu Wang",
+          "Hao Xie",
+          "Cheng Wang",
+          "Weixiang Ye"
+        ],
+        "doi": "10.1002/adom.202503766",
+        "journal": "Advanced Optical Materials",
+        "openalex_id": "W7126247967",
+        "sources": [
+          "openalex"
+        ],
+        "no_arxiv": true
+      }
+    },
+    {
+      "id": "doi:10.1021/acsanm.4c06383",
+      "raw": "  - id: 'doi:10.1021/acsanm.4c06383'\n    title: 'Nickel-Doped Tin Selenide Nanosheets for Detection of NO<sub>2</sub> at pbb Levels with Fast Response and Recovery at Room Temperature'\n    year: 2025\n    coauthors: ['Yingchun Dong', 'Jiongyue Hao', 'Yijie Shi', 'Wen Niu', 'Yuanting Yu', 'Hangyu Liu', 'Chun Huang', 'Yuhui He', 'Xiangshui Miao', 'Wei Hu', 'Yong He']\n    doi: '10.1021/acsanm.4c06383'\n    journal: 'ACS Applied Nano Materials'\n    openalex_id: W4406156844\n    sources: [openalex]\n    no_arxiv: true\n",
+      "record": {
+        "id": "doi:10.1021/acsanm.4c06383",
+        "title": "Nickel-Doped Tin Selenide Nanosheets for Detection of NO<sub>2</sub> at pbb Levels with Fast Response and Recovery at Room Temperature",
+        "year": 2025,
+        "coauthors": [
+          "Yingchun Dong",
+          "Jiongyue Hao",
+          "Yijie Shi",
+          "Wen Niu",
+          "Yuanting Yu",
+          "Hangyu Liu",
+          "Chun Huang",
+          "Yuhui He",
+          "Xiangshui Miao",
+          "Wei Hu",
+          "Yong He"
+        ],
+        "doi": "10.1021/acsanm.4c06383",
+        "journal": "ACS Applied Nano Materials",
+        "openalex_id": "W4406156844",
+        "sources": [
+          "openalex"
+        ],
+        "no_arxiv": true
+      }
+    },
+    {
+      "id": "openalex:W4289950356",
+      "raw": "  - id: 'openalex:W4289950356'\n    title: 'Definition of Multi-State Weighted k-out-of-n: F System'\n    year: 2012\n    coauthors: ['Enrico Zio', 'Yan‐Fu Li', 'Lin Cheng', 'Qiuwei Wu']\n    openalex_id: W4289950356\n    sources: [openalex]\n    no_arxiv: true\n",
+      "record": {
+        "id": "openalex:W4289950356",
+        "title": "Definition of Multi-State Weighted k-out-of-n: F System",
+        "year": 2012,
+        "coauthors": [
+          "Enrico Zio",
+          "Yan‐Fu Li",
+          "Lin Cheng",
+          "Qiuwei Wu"
+        ],
+        "openalex_id": "W4289950356",
+        "sources": [
+          "openalex"
+        ],
+        "no_arxiv": true
+      }
+    },
+    {
+      "id": "doi:10.1007/s00209-020-02458-z",
+      "raw": "  - id: 'doi:10.1007/s00209-020-02458-z'\n    title: 'Genus decreasing formula for higher genus Welschinger invariants'\n    year: 2020\n    coauthors: []\n    doi: '10.1007/s00209-020-02458-z'\n    journal: 'Mathematische Zeitschrift'\n    openalex_id: W3004272000\n    sources: [openalex]\n    no_arxiv: true\n",
+      "record": {
+        "id": "doi:10.1007/s00209-020-02458-z",
+        "title": "Genus decreasing formula for higher genus Welschinger invariants",
+        "year": 2020,
+        "coauthors": [],
+        "doi": "10.1007/s00209-020-02458-z",
+        "journal": "Mathematische Zeitschrift",
+        "openalex_id": "W3004272000",
+        "sources": [
+          "openalex"
+        ],
+        "no_arxiv": true
+      }
+    },
+    {
+      "id": "doi:10.1134/s000143462005003x",
+      "raw": "  - id: 'doi:10.1134/s000143462005003x'\n    title: 'A Remark on the Gromov–Witten–Welschinger Invariants of $${ℂP^3}\\# {\\overline {ℂP} ^{{3_*}}}$$'\n    year: 2020\n    coauthors: []\n    doi: '10.1134/s000143462005003x'\n    journal: 'Mathematical Notes'\n    openalex_id: W3045388428\n    sources: [openalex]\n    no_arxiv: true\n",
+      "record": {
+        "id": "doi:10.1134/s000143462005003x",
+        "title": "A Remark on the Gromov–Witten–Welschinger Invariants of $${ℂP^3}\\# {\\overline {ℂP} ^{{3_*}}}$$",
+        "year": 2020,
+        "coauthors": [],
+        "doi": "10.1134/s000143462005003x",
+        "journal": "Mathematical Notes",
+        "openalex_id": "W3045388428",
+        "sources": [
+          "openalex"
+        ],
+        "no_arxiv": true
+      }
+    }
+  ],
+  "review_candidates": [
+    {
+      "id": "doi:10.1002/adom.202503766",
+      "title": "Efficient Blue‐Emitting Rb <sup>+</sup> ‐doped Cs <sub>3</sub> Cu <sub>2</sub> I <sub>5</sub> via Solvent Evaporation Crystallization for White LEDs",
+      "year": 2026,
+      "coauthors": [
+        "Xuanming Zhang",
+        "Ronggan Lu",
+        "Xiaochen Fang",
+        "Chenfeng Lin",
+        "Yongfeng Liu",
+        "Dongdong Yan",
+        "Xiaoyu Wang",
+        "Hao Xie",
+        "Cheng Wang",
+        "Weixiang Ye"
+      ],
+      "doi": "10.1002/adom.202503766",
+      "journal": "Advanced Optical Materials",
+      "openalex_id": "W7126247967",
+      "sources": [
+        "openalex"
+      ],
+      "no_arxiv": true,
+      "review_status": "needs-review",
+      "reviewed_by": "Codex",
+      "reviewed_on": "2026-10-08",
+      "review_reason": "出版社作者栏及其Crossref登记均列Yanqiao Ding，单位为西华大学电气与电子信息学院；数学人物官网列郑州大学数学与统计学院。尚缺能把这位同名作者与数学人物对应的独立身份依据，先移出公开书目待核，未判定为同名错挂。",
+      "source_urls": [
+        "https://advanced.onlinelibrary.wiley.com/doi/10.1002/adom.202503766?af=R",
+        "https://api.crossref.org/works/10.1002/adom.202503766",
+        "https://www5.zzu.edu.cn/math/info/1179/4671.htm"
+      ]
+    },
+    {
+      "id": "doi:10.1021/acsanm.4c06383",
+      "title": "Nickel-Doped Tin Selenide Nanosheets for Detection of NO<sub>2</sub> at pbb Levels with Fast Response and Recovery at Room Temperature",
+      "year": 2025,
+      "coauthors": [
+        "Yingchun Dong",
+        "Jiongyue Hao",
+        "Yijie Shi",
+        "Wen Niu",
+        "Yuanting Yu",
+        "Hangyu Liu",
+        "Chun Huang",
+        "Yuhui He",
+        "Xiangshui Miao",
+        "Wei Hu",
+        "Yong He"
+      ],
+      "doi": "10.1021/acsanm.4c06383",
+      "journal": "ACS Applied Nano Materials",
+      "openalex_id": "W4406156844",
+      "sources": [
+        "openalex"
+      ],
+      "no_arxiv": true,
+      "review_status": "needs-review",
+      "reviewed_by": "Codex",
+      "reviewed_on": "2026-10-08",
+      "review_reason": "出版社提交的Crossref完整作者表确实包含Yanqiao Ding，署名重庆大学光电工程学院及西华大学电气与电子信息学院。尚缺与郑州大学数学人物相连的独立身份依据；不能因主题不同或作者同名作最终归属判断，保留待核。",
+      "source_urls": [
+        "https://api.crossref.org/works/10.1021/acsanm.4c06383",
+        "https://pubs.acs.org/doi/10.1021/acsanm.4c06383",
+        "https://www5.zzu.edu.cn/math/info/1179/4671.htm"
+      ]
+    },
+    {
+      "id": "openalex:W4289950356",
+      "title": "Definition of Multi-State Weighted k-out-of-n: F System",
+      "year": 2012,
+      "coauthors": [
+        "Enrico Zio",
+        "Yan‐Fu Li",
+        "Lin Cheng",
+        "Qiuwei Wu"
+      ],
+      "openalex_id": "W4289950356",
+      "sources": [
+        "openalex"
+      ],
+      "no_arxiv": true,
+      "review_status": "rejected-homonym",
+      "reviewed_by": "Codex",
+      "reviewed_on": "2026-10-08",
+      "review_reason": "IJPE出版社文章页的完整作者表为Yi Ding、Enrico Zio、Yanfu Li、Lin Cheng、Qiuwei Wu；Yi Ding署名丹麦技术大学电气工程系，并非Yanqiao Ding。按作者全名及单位排除这条错挂，原记录完整保留。",
+      "source_urls": [
+        "https://www.ijpe-online.com/EN/10.23940/ijpe.12.2.p217.mag",
+        "https://www5.zzu.edu.cn/math/info/1179/4671.htm"
+      ]
+    }
+  ],
+  "duplicate_pairs": [
+    {
+      "keep": "1710.03603",
+      "merge": "doi:10.1007/s00209-020-02458-z",
+      "basis": "Publisher-authored reference 17 in DOI 10.1134/S000143462005003X explicitly binds the journal title Genus Decreasing Formula for Higher Genus Welschinger Invariants to arXiv:1710.03603; MZ and arXiv also share sole author, ZZU email, subject and matching acknowledgements. No claim of textual equivalence of all versions."
+    },
+    {
+      "keep": "1902.07486",
+      "merge": "doi:10.1134/s000143462005003x",
+      "basis": "Manual bibliographic match using title apart from publisher footnote markup, sole author, exact ZZU email/affiliation, and the specific abstract construction (pencils of quadrics and blow-up at two real points). Exact journal metadata from Crossref; official faculty selected-publication list confirms journal record. Not an automatic title-only merge."
+    }
+  ],
+  "mentor_disposition": {
+    "status": "needs-review",
+    "raw_removed_edge": "  - source: hu-jianxun\n    target: ding-yanqiao\n    type: advisor-student\n    year: 2016\n    institution: sun-yat-sen\n    notes: \"中山大学博士 2013-2016，博士期间合作 Welschinger 不变量 2 篇\"\n",
+    "reason": "Original evidence was coauthorship. Current faculty text and two acknowledgements do not explicitly identify a doctoral supervisor; this does not disprove Hu as supervisor. Remove affirmative graph edge pending direct evidence; retain source-backed 2015 institutional co-signature and coauthor links."
+  },
+  "source_link_disposition": {
+    "removed": "https://arxiv.org/a/ding_y_2",
+    "reason": "Current page explicitly identifies Yiwen Ding, not Yanqiao Ding; use exact verified paper pages instead."
+  },
+  "biography_boundaries": [
+    "Current exact GET of both official URLs returns a brief profile. An earlier working summary claimed detailed BSc/MSc dates, but no saved body supports that claim; current repeat checks supersede it. Original education records are preserved and visibly marked pending.",
+    "Official page confirms doctorate June 2016, ZZU employment July 2016, Sorbonne one-year postdoc from September 2019, associate professor January 2024; it does not state early appointment title, doctoral start, adviser, BSc/MSc.",
+    "Historical 2021 IASM visit and 2026 HUST attendance sentence removed from biography pending source verification; no negative claim made; original text and conference attendance data retained.",
+    "Article 2602.04191 claims only a partial answer, not resolution of the DYZ question. This is a source-attributed scope correction, not a fresh proof audit.",
+    "ORCID retained from publisher-deposited Crossref author metadata (authenticated-orcid false). OpenAlex author profile has not been certified."
+  ],
+  "source_urls": [
+    {
+      "label": "郑州大学教师主页：现职、博士毕业、任职与访学时间及代表论文",
+      "url": "https://www5.zzu.edu.cn/math/info/1179/4671.htm",
+      "note": "核对正文；该页未列本科、硕士、博士入学时间或博士导师。"
+    },
+    {
+      "label": "arXiv:2602.04191 当前摘要",
+      "url": "https://arxiv.org/abs/2602.04191",
+      "note": "摘要明确为对所述开放问题的部分回答；未据此认证完整解决或独立核验数学证明。"
+    },
+    {
+      "label": "arXiv:2509.06004",
+      "url": "https://arxiv.org/abs/2509.06004",
+      "note": "核对首次提交年份、题名、两位作者及摘要范围。"
+    },
+    {
+      "label": "出版社登记的JLMS书目及作者ORCID",
+      "url": "https://api.crossref.org/works/10.1112/jlms.70514",
+      "note": "Crossref列Yanqiao Ding、郑州大学及ORCID 0000-0003-1233-991X；authenticated-orcid为false，未称其经过作者登录认证。"
+    },
+    {
+      "label": "Mathematische Zeitschrift 期刊版",
+      "url": "https://link.springer.com/article/10.1007/s00209-020-02458-z",
+      "note": "核对题名、作者、郑州大学邮箱及摘要；与预印本1710.03603合并保留两种链接。"
+    },
+    {
+      "label": "Mathematical Notes 期刊版及参考文献17",
+      "url": "https://link.springer.com/article/10.1134/S000143462005003X",
+      "note": "核对作者、邮箱及摘要，与1902.07486对应；参考文献17将Genus Decreasing Formula题名明确对应arXiv:1710.03603。"
+    },
+    {
+      "label": "arXiv:1902.07486 预印本",
+      "url": "https://arxiv.org/abs/1902.07486",
+      "note": "题名、摘要、作者、单位及邮箱与期刊版对照；保留初次提交年份2019。"
+    },
+    {
+      "label": "arXiv:1710.03603 预印本",
+      "url": "https://arxiv.org/abs/1710.03603",
+      "note": "保留预印本原题及初次提交年份2017。"
+    },
+    {
+      "label": "arXiv:1504.07111 署名信息",
+      "url": "https://arxiv.org/abs/1504.07111",
+      "note": "TeX题首页中两位作者同署中山大学，丁岩峭邮箱为dingyq6@mail2.sysu.edu.cn；这不是博士导师的证据。"
+    }
+  ],
+  "crossref_fetches": [
+    {
+      "doi": "10.1002/adom.202503766",
+      "url": "https://api.crossref.org/works/10.1002/adom.202503766",
+      "status": "source-id-verified",
+      "path": ".cache/msa/site-recovery/batch23-crossref-10.1002_adom.202503766.json",
+      "sha256": "8168d731ea239eeb90036c0ea0d66cd829b14dc0855a93298c81bfc4120d0de4",
+      "selected": {
+        "DOI": "10.1002/adom.202503766",
+        "title": [
+          "Efficient Blue‐Emitting Rb\n                    <sup>+</sup>\n                    ‐doped Cs\n                    <sub>3</sub>\n                    Cu\n                    <sub>2</sub>\n                    I\n                    <sub>5</sub>\n                    via Solvent Evaporation Crystallization for White LEDs"
+        ],
+        "author": [
+          {
+            "given": "Xuanming",
+            "family": "Zhang",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "School of Physics and Optoelectronic Engineering Hainan University  Haikou China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Ronggan",
+            "family": "Lu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Physics and Optoelectronic Engineering Hainan University  Haikou China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Xiaochen",
+            "family": "Fang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Physics and Optoelectronic Engineering Hainan University  Haikou China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Chenfeng",
+            "family": "Lin",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Physics and Optoelectronic Engineering Hainan University  Haikou China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Yongfeng",
+            "family": "Liu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "College of Physical Science and Technology &amp; Microelectronics Industry Research Institute Yangzhou University  Yangzhou China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Yanqiao",
+            "family": "Ding",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Electrical Engineering and Electronic Information Xihua University  Chengdu Sichuan China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0001-1788-4426",
+            "authenticated-orcid": false,
+            "given": "Dongdong",
+            "family": "Yan",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Physics and Optoelectronic Engineering Hainan University  Haikou China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Xiaoyu",
+            "family": "Wang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Physics and Optoelectronic Engineering Hainan University  Haikou China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Hao",
+            "family": "Xie",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Physics and Optoelectronic Engineering Hainan University  Haikou China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Cheng",
+            "family": "Wang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Tianjin Key Laboratory of Wireless Mobile Communications and Power Transmission College of Electronic and Communication Engineering Tianjin Normal University  Tianjin China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-4621-785X",
+            "authenticated-orcid": false,
+            "given": "Weixiang",
+            "family": "Ye",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Physics and Optoelectronic Engineering Hainan University  Haikou China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              1,
+              30
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2026,
+              3
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2026,
+              1,
+              30
+            ]
+          ]
+        },
+        "container-title": [
+          "Advanced Optical Materials"
+        ],
+        "volume": "14",
+        "issue": "9",
+        "page": null,
+        "article-number": "e03766",
+        "link": [
+          {
+            "URL": "https://advanced.onlinelibrary.wiley.com/doi/pdf/10.1002/adom.202503766",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://advanced.onlinelibrary.wiley.com/doi/full-xml/10.1002/adom.202503766",
+            "content-type": "application/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://advanced.onlinelibrary.wiley.com/doi/pdf/10.1002/adom.202503766",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "resource": {
+          "primary": {
+            "URL": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/adom.202503766"
+          }
+        },
+        "relation": {}
+      }
+    },
+    {
+      "doi": "10.1021/acsanm.4c06383",
+      "url": "https://api.crossref.org/works/10.1021/acsanm.4c06383",
+      "status": "source-id-verified",
+      "path": ".cache/msa/site-recovery/batch23-crossref-10.1021_acsanm.4c06383.json",
+      "sha256": "d57efa355190bce206b3a4ca73f4dccb5f3d6cca45c442fdc684fb4e31b7c068",
+      "selected": {
+        "DOI": "10.1021/acsanm.4c06383",
+        "title": [
+          "Nickel-Doped Tin Selenide Nanosheets for Detection of NO<sub>2</sub> at pbb Levels with Fast Response and Recovery at Room Temperature"
+        ],
+        "author": [
+          {
+            "given": "Yingchun",
+            "family": "Dong",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "State Key Laboratory of Coal Mine Disaster Dynamic and Control, Chongqing University, Chongqing 400044, China"
+              },
+              {
+                "name": "Key Laboratory of Optoelectronic Technology and Systems of the Education Ministry of China, College of Optoelectronic Engineering, Chongqing University, Chongqing 400044, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Jiongyue",
+            "family": "Hao",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "State Key Laboratory of Coal Mine Disaster Dynamic and Control, Chongqing University, Chongqing 400044, China"
+              },
+              {
+                "name": "Key Laboratory of Optoelectronic Technology and Systems of the Education Ministry of China, College of Optoelectronic Engineering, Chongqing University, Chongqing 400044, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Yijie",
+            "family": "Shi",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Key Laboratory of Optoelectronic Technology and Systems of the Education Ministry of China, College of Optoelectronic Engineering, Chongqing University, Chongqing 400044, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Yanqiao",
+            "family": "Ding",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Key Laboratory of Optoelectronic Technology and Systems of the Education Ministry of China, College of Optoelectronic Engineering, Chongqing University, Chongqing 400044, China"
+              },
+              {
+                "name": "School of Electrical Engineering and Electronic Information, Xihua University, Chengdu, Sichuan 610039, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-7194-8235",
+            "authenticated-orcid": true,
+            "given": "Wen",
+            "family": "Niu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Key Laboratory of Optoelectronic Technology and Systems of the Education Ministry of China, College of Optoelectronic Engineering, Chongqing University, Chongqing 400044, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Yuanting",
+            "family": "Yu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Key Laboratory of Optoelectronic Technology and Systems of the Education Ministry of China, College of Optoelectronic Engineering, Chongqing University, Chongqing 400044, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Hangyu",
+            "family": "Liu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Key Laboratory of Optoelectronic Technology and Systems of the Education Ministry of China, College of Optoelectronic Engineering, Chongqing University, Chongqing 400044, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Chun",
+            "family": "Huang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Key Laboratory of Optoelectronic Technology and Systems of the Education Ministry of China, College of Optoelectronic Engineering, Chongqing University, Chongqing 400044, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Yuhui",
+            "family": "He",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Integrated Circuits, Huazhong University of Science and Technology, Wuhan 430074, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Xiangshui",
+            "family": "Miao",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Integrated Circuits, Huazhong University of Science and Technology, Wuhan 430074, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Wei",
+            "family": "Hu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Key Laboratory of Optoelectronic Technology and Systems of the Education Ministry of China, College of Optoelectronic Engineering, Chongqing University, Chongqing 400044, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-5340-4952",
+            "authenticated-orcid": true,
+            "given": "Yong",
+            "family": "He",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "State Key Laboratory of Coal Mine Disaster Dynamic and Control, Chongqing University, Chongqing 400044, China"
+              },
+              {
+                "name": "Key Laboratory of Optoelectronic Technology and Systems of the Education Ministry of China, College of Optoelectronic Engineering, Chongqing University, Chongqing 400044, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              1,
+              8
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2025,
+              1,
+              17
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2025,
+              1,
+              8
+            ]
+          ]
+        },
+        "container-title": [
+          "ACS Applied Nano Materials"
+        ],
+        "volume": "8",
+        "issue": "2",
+        "page": "1266-1276",
+        "article-number": null,
+        "link": [
+          {
+            "URL": "https://pubs.acs.org/doi/pdf/10.1021/acsanm.4c06383",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "unspecified"
+          },
+          {
+            "URL": "https://pubs.acs.org/doi/pdf/10.1021/acsanm.4c06383",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "resource": {
+          "primary": {
+            "URL": "https://pubs.acs.org/doi/10.1021/acsanm.4c06383"
+          }
+        },
+        "relation": {}
+      }
+    },
+    {
+      "doi": "10.23940/ijpe.12.2.p217.mag",
+      "url": "https://api.crossref.org/works/10.23940/ijpe.12.2.p217.mag",
+      "status": "unresolved"
+    },
+    {
+      "doi": "10.1007/s00209-020-02458-z",
+      "url": "https://api.crossref.org/works/10.1007/s00209-020-02458-z",
+      "status": "source-id-verified",
+      "path": ".cache/msa/site-recovery/batch23-crossref-10.1007_s00209-020-02458-z.json",
+      "sha256": "577a12d0e3045703d8f0dcb7c71a1e4ba2f852d5006e7b68ea58d53212f2c401",
+      "selected": {
+        "DOI": "10.1007/s00209-020-02458-z",
+        "title": [
+          "Genus decreasing formula for higher genus Welschinger invariants"
+        ],
+        "author": [
+          {
+            "given": "Yanqiao",
+            "family": "Ding",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2020,
+              1,
+              31
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2020,
+              12
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2020,
+              1,
+              31
+            ]
+          ]
+        },
+        "container-title": [
+          "Mathematische Zeitschrift"
+        ],
+        "volume": "296",
+        "issue": "3-4",
+        "page": "969-985",
+        "article-number": null,
+        "link": [
+          {
+            "URL": "http://link.springer.com/content/pdf/10.1007/s00209-020-02458-z.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "http://link.springer.com/article/10.1007/s00209-020-02458-z/fulltext.html",
+            "content-type": "text/html",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "http://link.springer.com/content/pdf/10.1007/s00209-020-02458-z.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "resource": {
+          "primary": {
+            "URL": "http://link.springer.com/10.1007/s00209-020-02458-z"
+          }
+        },
+        "relation": {}
+      }
+    },
+    {
+      "doi": "10.1134/s000143462005003x",
+      "url": "https://api.crossref.org/works/10.1134/s000143462005003x",
+      "status": "source-id-verified",
+      "path": ".cache/msa/site-recovery/batch23-crossref-10.1134_s000143462005003x.json",
+      "sha256": "68f94e2ee191c16d996d36853df3f924464cd0db79034e1b64bd49c429dfb381",
+      "selected": {
+        "DOI": "10.1134/s000143462005003x",
+        "title": [
+          "A Remark on the Gromov–Witten–Welschinger Invariants of $${ℂP^3}\\# {\\overline {ℂP} ^{{3_*}}}$$"
+        ],
+        "author": [
+          {
+            "given": "Yanqiao",
+            "family": "Ding",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2020,
+              5
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2020,
+              5
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2020,
+              6,
+              24
+            ]
+          ]
+        },
+        "container-title": [
+          "Mathematical Notes"
+        ],
+        "volume": "107",
+        "issue": "5-6",
+        "page": "727-739",
+        "article-number": null,
+        "link": [
+          {
+            "URL": "https://link.springer.com/content/pdf/10.1134/S000143462005003X.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://link.springer.com/article/10.1134/S000143462005003X",
+            "content-type": "text/html",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://link.springer.com/content/pdf/10.1134/S000143462005003X.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "resource": {
+          "primary": {
+            "URL": "https://link.springer.com/10.1134/S000143462005003X"
+          }
+        },
+        "relation": {}
+      }
+    },
+    {
+      "doi": "10.1112/jlms.70514",
+      "url": "https://api.crossref.org/works/10.1112/jlms.70514",
+      "status": "source-id-verified",
+      "path": ".cache/msa/site-recovery/batch23-crossref-10.1112_jlms.70514.json",
+      "sha256": "6628b83778df717eca32614958fa43f78e81c416c174a71c0849025eb29fac4a",
+      "selected": {
+        "DOI": "10.1112/jlms.70514",
+        "title": [
+          "Refined floor diagrams relative to a conic and Caporaso–Harris‐type formula"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0003-1233-991X",
+            "authenticated-orcid": false,
+            "given": "Yanqiao",
+            "family": "Ding",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "School of Mathematics and Statistics Zhengzhou University Zhengzhou China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Jianxun",
+            "family": "Hu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Mathematics Sun Yat‐sen University Guangzhou China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              3
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2026,
+              3
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2026,
+              3,
+              18
+            ]
+          ]
+        },
+        "container-title": [
+          "Journal of the London Mathematical Society"
+        ],
+        "volume": "113",
+        "issue": "3",
+        "page": null,
+        "article-number": "e70514",
+        "link": [
+          {
+            "URL": "https://londmathsoc.onlinelibrary.wiley.com/doi/pdf/10.1112/jlms.70514",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://londmathsoc.onlinelibrary.wiley.com/doi/full-xml/10.1112/jlms.70514",
+            "content-type": "application/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://londmathsoc.onlinelibrary.wiley.com/doi/pdf/10.1112/jlms.70514",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "resource": {
+          "primary": {
+            "URL": "https://londmathsoc.onlinelibrary.wiley.com/doi/10.1112/jlms.70514"
+          }
+        },
+        "relation": {}
+      }
+    }
+  ],
+  "official_page_fetch": {
+    "url": "https://www5.zzu.edu.cn/math/info/1088/2587.htm",
+    "result": "200 https://www5.zzu.edu.cn/math/info/1088/2587.htm",
+    "exit": 0,
+    "bytes": 36069,
+    "sha256": "5505577bc057414d53c849c8d106bb645be8a8fabb2f8b2d391301290144bece",
+    "fetched_at": "2026-10-08T05:34:56.472296+00:00"
+  },
+  "validation": {
+    "data_shape_and_review_gate": "passed",
+    "lint": {
+      "errors": 0,
+      "warnings": 73
+    },
+    "build": "CIRCLE_NODE_TOTAL=3 pnpm build succeeded with two static generation workers; TypeScript and postbuild passed",
+    "live": "pending",
+    "site_regressions": 55,
+    "review_gate_regressions": 8,
+    "collaborator_count_dry_run": "0 changes",
+    "export_audit": "batch-twenty-three-export-audit.json"
+  },
+  "author_candidate_search": {
+    "url": "https://export.arxiv.org/api/query?search_query=au%3A%22Yanqiao+Ding%22+AND+%28cat%3Amath.%2A+OR+cat%3Amath-ph+OR+cat%3Anlin.SI+OR+cat%3Ahep-th%29&start=0&max_results=200&sortBy=submittedDate&sortOrder=descending",
+    "scope": "Exact quoted-name, mathematical-category candidate search; not author identity proof.",
+    "status": "response-parsed",
+    "sha256": "d9450e07dbde7776cf8dfa840f930083c7017213fff0db0fdfb5352a129960b1",
+    "total": "10",
+    "entries": [
+      {
+        "id": "http://arxiv.org/abs/2602.04191v1",
+        "title": "The uniform asymptotics for real double Hurwitz numbers with triple ramification II: lower bounds and asymptotics",
+        "authors": [
+          "Yanqiao Ding",
+          "Kui Li",
+          "Huan Liu",
+          "Dongfeng Yan"
+        ]
+      },
+      {
+        "id": "http://arxiv.org/abs/2509.06004v2",
+        "title": "Refined floor diagrams relative to a conic and Caporaso-Harris type formula",
+        "authors": [
+          "Yanqiao Ding",
+          "Jianxun Hu"
+        ]
+      },
+      {
+        "id": "http://arxiv.org/abs/2506.16879v1",
+        "title": "Real polynomial Hurwitz numbers",
+        "authors": [
+          "Yanqiao Ding"
+        ]
+      },
+      {
+        "id": "http://arxiv.org/abs/2303.03671v4",
+        "title": "The uniform asymptotics for real double Hurwitz numbers with triple ramification I: the tropical correspondence",
+        "authors": [
+          "Yanqiao Ding",
+          "Kui Li",
+          "Huan Liu",
+          "Dongfeng Yan"
+        ]
+      },
+      {
+        "id": "http://arxiv.org/abs/2210.06880v1",
+        "title": "Asymptotics for real monotone double Hurwitz numbers",
+        "authors": [
+          "Yanqiao Ding",
+          "Qinhao He"
+        ]
+      },
+      {
+        "id": "http://arxiv.org/abs/2010.00899v3",
+        "title": "On the lower bounds for real double Hurwitz numbers",
+        "authors": [
+          "Yanqiao Ding"
+        ]
+      },
+      {
+        "id": "http://arxiv.org/abs/1902.07486v1",
+        "title": "A remark on Gromov-Witten-Welschinger invariants of $\\mathbb{C} P^3\\#\\overline{\\mathbb{C} P}^3$",
+        "authors": [
+          "Yanqiao Ding"
+        ]
+      },
+      {
+        "id": "http://arxiv.org/abs/1710.03603v2",
+        "title": "Higher genus Welschinger invariants under real surgeries",
+        "authors": [
+          "Yanqiao Ding"
+        ]
+      },
+      {
+        "id": "http://arxiv.org/abs/1609.05655v1",
+        "title": "Welschinger invariants of Blow-ups of symplectic 4-manifolds",
+        "authors": [
+          "Yanqiao Ding",
+          "Jianxun Hu"
+        ]
+      },
+      {
+        "id": "http://arxiv.org/abs/1504.07111v1",
+        "title": "The Weinstein Conjecture in Product of Symplectic Manifolds",
+        "authors": [
+          "Yanqiao Ding",
+          "Jianxun Hu"
+        ]
+      }
+    ],
+    "not_in_publications": []
+  },
+  "counts_after": {
+    "people": 96,
+    "rawRows": 2203,
+    "catalog": 1803,
+    "publicationClues": 1276
+  },
+  "same_issue_scan": {
+    "removed_identifiers": "Only found in the explicit review queue after edit. No other active person YAML contains the three removed strong IDs.",
+    "wrong_author_profile": "No active data YAML retains arxiv.org/a/ding_y_2.",
+    "other_unreviewed_author_pages": "Not certified by this bounded scan."
+  },
+  "tex_sources_read": [
+    {
+      "path": ".cache/msa/papers/sources/1504.07111/main.tex",
+      "sha256": "4fc78575c49978dcd0d52f83bd393858851f68060fd6ffa8f9d77baa2046366f",
+      "scope": "Existing source body read locally; current arXiv metadata checked, no fresh source-download claim."
+    },
+    {
+      "path": ".cache/msa/papers/sources/1710.03603/arXiv-180114.tex",
+      "sha256": "29b4d39bc84a3e81ce93550dbf02a5f70b85160be8671c3896f03b9de7c3b68d",
+      "scope": "Existing source body read locally; current arXiv metadata checked, no fresh source-download claim."
+    },
+    {
+      "path": ".cache/msa/papers/sources/1902.07486/W-invariants-dim3.tex",
+      "sha256": "0a278982d8f0e475135439b4dda8ddffb4e4ee53f7471a7ab059b43ae6d0e8e8",
+      "scope": "Existing source body read locally; current arXiv metadata checked, no fresh source-download claim."
+    }
+  ]
+}

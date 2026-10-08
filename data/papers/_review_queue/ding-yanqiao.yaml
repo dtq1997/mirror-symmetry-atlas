@@ -1,0 +1,83 @@
+slug: ding-yanqiao
+count: 3
+note: '[Codex] 2026-10-08：1条确认错挂、2条归属待核；完整保留原记录，自动富化不能覆盖审查。'
+candidates:
+- id: doi:10.1002/adom.202503766
+  title: Efficient Blue‐Emitting Rb <sup>+</sup> ‐doped Cs <sub>3</sub> Cu <sub>2</sub>
+    I <sub>5</sub> via Solvent Evaporation Crystallization for White LEDs
+  year: 2026
+  coauthors:
+  - Xuanming Zhang
+  - Ronggan Lu
+  - Xiaochen Fang
+  - Chenfeng Lin
+  - Yongfeng Liu
+  - Dongdong Yan
+  - Xiaoyu Wang
+  - Hao Xie
+  - Cheng Wang
+  - Weixiang Ye
+  doi: 10.1002/adom.202503766
+  journal: Advanced Optical Materials
+  openalex_id: W7126247967
+  sources:
+  - openalex
+  no_arxiv: true
+  review_status: needs-review
+  reviewed_by: Codex
+  reviewed_on: '2026-10-08'
+  review_reason: 出版社作者栏及其Crossref登记均列Yanqiao Ding，单位为西华大学电气与电子信息学院；数学人物官网列郑州大学数学与统计学院。尚缺能把这位同名作者与数学人物对应的独立身份依据，先移出公开书目待核，未判定为同名错挂。
+  source_urls:
+  - https://advanced.onlinelibrary.wiley.com/doi/10.1002/adom.202503766?af=R
+  - https://api.crossref.org/works/10.1002/adom.202503766
+  - https://www5.zzu.edu.cn/math/info/1179/4671.htm
+- id: doi:10.1021/acsanm.4c06383
+  title: Nickel-Doped Tin Selenide Nanosheets for Detection of NO<sub>2</sub> at pbb
+    Levels with Fast Response and Recovery at Room Temperature
+  year: 2025
+  coauthors:
+  - Yingchun Dong
+  - Jiongyue Hao
+  - Yijie Shi
+  - Wen Niu
+  - Yuanting Yu
+  - Hangyu Liu
+  - Chun Huang
+  - Yuhui He
+  - Xiangshui Miao
+  - Wei Hu
+  - Yong He
+  doi: 10.1021/acsanm.4c06383
+  journal: ACS Applied Nano Materials
+  openalex_id: W4406156844
+  sources:
+  - openalex
+  no_arxiv: true
+  review_status: needs-review
+  reviewed_by: Codex
+  reviewed_on: '2026-10-08'
+  review_reason: 出版社提交的Crossref完整作者表确实包含Yanqiao Ding，署名重庆大学光电工程学院及西华大学电气与电子信息学院。尚缺与郑州大学数学人物相连的独立身份依据；不能因主题不同或作者同名作最终归属判断，保留待核。
+  source_urls:
+  - https://api.crossref.org/works/10.1021/acsanm.4c06383
+  - https://pubs.acs.org/doi/10.1021/acsanm.4c06383
+  - https://www5.zzu.edu.cn/math/info/1179/4671.htm
+- id: openalex:W4289950356
+  title: 'Definition of Multi-State Weighted k-out-of-n: F System'
+  year: 2012
+  coauthors:
+  - Enrico Zio
+  - Yan‐Fu Li
+  - Lin Cheng
+  - Qiuwei Wu
+  openalex_id: W4289950356
+  sources:
+  - openalex
+  no_arxiv: true
+  review_status: rejected-homonym
+  reviewed_by: Codex
+  reviewed_on: '2026-10-08'
+  review_reason: IJPE出版社文章页的完整作者表为Yi Ding、Enrico Zio、Yanfu Li、Lin Cheng、Qiuwei Wu；Yi
+    Ding署名丹麦技术大学电气工程系，并非Yanqiao Ding。按作者全名及单位排除这条错挂，原记录完整保留。
+  source_urls:
+  - https://www.ijpe-online.com/EN/10.23940/ijpe.12.2.p217.mag
+  - https://www5.zzu.edu.cn/math/info/1179/4671.htm

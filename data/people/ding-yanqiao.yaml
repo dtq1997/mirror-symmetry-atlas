@@ -8,30 +8,31 @@ nationality: Chinese
 gender: male
 photo_url: null
 career_timeline:
-  - period: "2006-2010"
+  - period: "[待验证]"
     type: education
     institution: zzu
-    role: "本科"
-  - period: "2010-2013"
+    role: "本科（待核实）"
+    notes: "旧记录为郑州大学2006–2010年本科；当前官网简历未列本科学历，保留为待核实经历。"
+  - period: "[待验证]"
     type: education
     institution: lanzhou-u
-    role: "硕士"
-    notes: "兰州大学，获硕士学位。[机构 slug lanzhou-u 暂不存在]"
-  - period: "2013-2016"
+    role: "硕士（待核实）"
+    notes: "旧记录为兰州大学2010–2013年硕士；当前官网简历未列硕士学历，保留为待核实经历。"
+  - period: "[?]-2016.6"
     type: education
     institution: sun-yat-sen
     role: "博士"
-    advisor: hu-jianxun
-    notes: "中山大学，2016.6 获博士学位。导师为 Jianxun Hu（博士期间合作 Welschinger 不变量方向论文 2 篇）。"
+    notes: "官网确认2016年6月获中山大学理学博士；入学时间和博士导师待核实。与胡建勋的合著及致谢不能单独确认师承。"
   - period: "2016.7-2023.12"
     type: position
     institution: zzu
-    role: "讲师"
-  - period: "2019.9-2020.8"
+    role: "任职（早期职称待核实）"
+    notes: "官网确认2016年7月入职；未列升任副教授前的具体职称。"
+  - period: "2019.9-2020"
     type: position
     institution: sorbonne
     role: "博士后"
-    notes: "巴黎索邦大学 (国家留学基金委资助)。[机构 slug sorbonne 暂不存在]"
+    notes: "官网列2019年9月起赴法国索邦大学开展为期一年的博士后研究，国家留学基金委资助；未列结束月份。"
   - period: "2024.1-present"
     type: position
     institution: zzu
@@ -49,25 +50,19 @@ identity_profile:
   orcid: '0000-0003-1233-991X'
   openalex_id: 'A5101982641'
   affiliations:
-    - institution: 'zzu'
-      period: '2006-2010'
-      role: '本科'
-    - institution: 'lanzhou-u'
-      period: '2010-2013'
-      role: '硕士'
     - institution: 'sun-yat-sen'
-      period: '2013-2016'
+      period: '[?]-2016.6'
       role: '博士'
     - institution: 'zzu'
       period: '2016.7-2023.12'
-      role: '讲师'
+      role: '任职（早期职称待核实）'
     - institution: 'sorbonne'
-      period: '2019.9-2020.8'
+      period: '2019.9-2020'
       role: '博士后'
     - institution: 'zzu'
       period: '2024.1-present'
       role: '副教授'
-  email_domains: [mail.sysu.edu.cn, sorbonne-universite.fr]
+  email_domains: [zzu.edu.cn, mail2.sysu.edu.cn]
   coauthor_circle_core_slugs: [hu-jianxun]
   coauthor_circle_core_names: ['Jianxun Hu']
   research_keywords:
@@ -93,7 +88,7 @@ identity_profile:
     - '1710.03603'
     - '1609.05655'
     - '1504.07111'
-advisor: hu-jianxun
+advisor: null
 students: []
 key_collaborators:
   - person: hu-jianxun
@@ -113,6 +108,7 @@ key_collaborators:
     topic: "Uniform asymptotics for real double Hurwitz numbers"
     papers_count: 2
 grants:
+  - "河南省自然科学基金面上项目 (2026.01-2027.12, 主持)"
   - "国家自然科学基金青年项目 (2022.01-2024.12, 主持)"
   - "河南省自然科学基金青年项目 (2021.01-2022.12, 主持)"
 publications:
@@ -124,21 +120,12 @@ publications:
     primary_category: math.CO
     openalex_id: W7127983477
     sources: [arxiv, openalex]
-  - id: 'doi:10.1002/adom.202503766'
-    title: 'Efficient Blue‐Emitting Rb <sup>+</sup> ‐doped Cs <sub>3</sub> Cu <sub>2</sub> I <sub>5</sub> via Solvent Evaporation Crystallization for White LEDs'
-    year: 2026
-    coauthors: ['Xuanming Zhang', 'Ronggan Lu', 'Xiaochen Fang', 'Chenfeng Lin', 'Yongfeng Liu', 'Dongdong Yan', 'Xiaoyu Wang', 'Hao Xie', 'Cheng Wang', 'Weixiang Ye']
-    doi: '10.1002/adom.202503766'
-    journal: 'Advanced Optical Materials'
-    openalex_id: W7126247967
-    sources: [openalex]
-    no_arxiv: true
   - id: '2509.06004'
     title: 'Refined floor diagrams relative to a conic and Caporaso-Harris type formula'
     year: 2025
     coauthors: [hu-jianxun]
     doi: '10.1112/jlms.70514'
-    journal: 'Journal of the London Mathematical Society'
+    journal: 'Journal of the London Mathematical Society 113 (2026), no. 3, e70514'
     primary_category: math.AG
     openalex_id: W7139068513
     sources: [arxiv, openalex]
@@ -148,15 +135,6 @@ publications:
     coauthors: []
     primary_category: math.AG
     sources: [arxiv]
-  - id: 'doi:10.1021/acsanm.4c06383'
-    title: 'Nickel-Doped Tin Selenide Nanosheets for Detection of NO<sub>2</sub> at pbb Levels with Fast Response and Recovery at Room Temperature'
-    year: 2025
-    coauthors: ['Yingchun Dong', 'Jiongyue Hao', 'Yijie Shi', 'Wen Niu', 'Yuanting Yu', 'Hangyu Liu', 'Chun Huang', 'Yuhui He', 'Xiangshui Miao', 'Wei Hu', 'Yong He']
-    doi: '10.1021/acsanm.4c06383'
-    journal: 'ACS Applied Nano Materials'
-    openalex_id: W4406156844
-    sources: [openalex]
-    no_arxiv: true
   - id: '2303.03671'
     title: 'The uniform asymptotics for real double Hurwitz numbers with triple ramification I: the tropical correspondence'
     year: 2023
@@ -181,38 +159,24 @@ publications:
     primary_category: math.AG
     openalex_id: W3090865687
     sources: [arxiv, openalex]
-  - id: 'doi:10.1007/s00209-020-02458-z'
-    title: 'Genus decreasing formula for higher genus Welschinger invariants'
-    year: 2020
-    coauthors: []
-    doi: '10.1007/s00209-020-02458-z'
-    journal: 'Mathematische Zeitschrift'
-    openalex_id: W3004272000
-    sources: [openalex]
-    no_arxiv: true
-  - id: 'doi:10.1134/s000143462005003x'
-    title: 'A Remark on the Gromov–Witten–Welschinger Invariants of $${ℂP^3}\# {\overline {ℂP} ^{{3_*}}}$$'
-    year: 2020
-    coauthors: []
-    doi: '10.1134/s000143462005003x'
-    journal: 'Mathematical Notes'
-    openalex_id: W3045388428
-    sources: [openalex]
-    no_arxiv: true
   - id: '1902.07486'
     title: 'A remark on Gromov-Witten-Welschinger invariants of $\mathbb{C}P^3\#\overline{\mathbb{C}P}^3$'
     year: 2019
     coauthors: []
     primary_category: math.AG
     openalex_id: W2922454283
-    sources: [arxiv, openalex]
+    sources: [arxiv, openalex, crossref, manual]
+    doi: '10.1134/s000143462005003x'
+    journal: 'Mathematical Notes 107 (2020), 727–739'
   - id: '1710.03603'
-    title: 'Higher genus Welschinger invariants under real surgeries (Genus decreasing formula)'
+    title: 'Higher genus Welschinger invariants under real surgeries'
     year: 2017
     coauthors: []
     primary_category: math.SG
     openalex_id: W2760887666
-    sources: [arxiv, openalex]
+    sources: [arxiv, openalex, crossref, manual]
+    doi: '10.1007/s00209-020-02458-z'
+    journal: 'Mathematische Zeitschrift 296 (2020), 969–985'
   - id: '1609.05655'
     title: 'Welschinger invariants of Blow-ups of symplectic 4-manifolds'
     year: 2016
@@ -231,55 +195,76 @@ publications:
     primary_category: math.SG
     openalex_id: W1913596887
     sources: [arxiv, openalex]
-  - id: 'openalex:W4289950356'
-    title: 'Definition of Multi-State Weighted k-out-of-n: F System'
-    year: 2012
-    coauthors: ['Enrico Zio', 'Yan‐Fu Li', 'Lin Cheng', 'Qiuwei Wu']
-    openalex_id: W4289950356
-    sources: [openalex]
-    no_arxiv: true
 activity:
-  total_papers: 15
-  published_count: 10
-  preprint_only_count: 5
+  total_papers: 10
+  published_count: 7
+  preprint_only_count: 3
   active_period: '2015-present'
   peak_period: '2023-present'
 external_ids:
   orcid: "0000-0003-1233-991X"
   openalex: A5101982641
-links: {}
+links:
+  faculty_page: "https://www5.zzu.edu.cn/math/info/1179/4671.htm"
+  email: "yqding@zzu.edu.cn"
+known_emails:
+  - "yqding@zzu.edu.cn"
+  - "dingyq6@mail2.sysu.edu.cn"
+known_affiliations:
+  - "School of Mathematics and Statistics, Zhengzhou University"
+  - "Department of Mathematics, Sun Yat-Sen University"
 personal_notes: |
-  郑大本硕毕业生（某种意义上）→ 中大博士（Jianxun Hu 组，2013-2016）→ 郑大讲师 →
-  索邦博后（2019-2020，国家公派）→ 郑大副教授（2024.1-）。
-  
-  方向：**实枚举几何的严格渐近分析**，特别是：
-  - Welschinger 不变量（辛 4-流形的实 GW 不变量）
-  - 实 double Hurwitz 数的 tropical 对应与渐近分析
-  - Caporaso-Harris 型递推公式与 floor diagrams
-  
-  **关键连接：** 2026 年新论文 2602.04191 直接回答 Dubrovin-Yang-Zagier 关于 simple Hurwitz 数
-  一致上界的 open question（见该论文 Abstract）——这正是本项目 ustc 杨迪组核心工作的方向。
-  与 HUST 会议核心议题高度契合。
-  
-  2025 年 "Refined floor diagrams relative to a conic..." (与 Jianxun Hu) 发表在 J. London Math. Soc.，
-  献给吴可教授八十寿辰；证明在 P² blow-up 上 higher genus 相对 GW 不变量（带 Lambda class 插入）
-  的 q-refined 对应定理。
-  
-  代表发表期刊：J. Combin. Theory Ser. A, J. Algebraic Combin., Math. Z., Math. Notes, J. London Math. Soc.
-  
-  2026 HUST 会议参会者。
-  
-  现职：郑州大学数学与统计学院 — yqding@zzu.edu.cn
-  研究：辛拓扑、Weinstein 猜想、Welschinger 不变量、实枚举几何、Gromov–Witten
-  趣闻：2021 访问浙大 IASM — http://www.iasm.zju.edu.cn/iasm/2021_visitors/list.htm
+  2016年6月获中山大学理学博士，同年7月入职郑州大学数学与统计学院。
+  2019年9月起在国家留学基金委资助下赴法国索邦大学开展为期一年的博士后研究；
+  2024年1月起任郑州大学副教授。官网列研究领域为代数几何、辛几何与数学物理。
+
+  与胡建勋合著的 Refined floor diagrams relative to a conic and Caporaso-Harris type formula
+  于2025年首次提交 arXiv，2026年发表于 Journal of the London Mathematical Society。
+  论文摘要讨论二次曲线上若干点的平面吹起的相对 Gromov–Witten 不变量与加细 floor diagrams 的对应。
+
+  2026年预印本 arXiv:2602.04191 研究实双 Hurwitz 数的一致渐近。
+  作者在摘要中称其对 Dubrovin、Yang、Zagier 提出的 simple Hurwitz 数一致界问题给出了部分回答；
+  不能据此称该开放问题已被完整解决。
 sources:
+  - label: "[Codex] 2026-10-08：郑州大学教师主页：现职、博士毕业、任职与访学时间及代表论文"
+    url: "https://www5.zzu.edu.cn/math/info/1179/4671.htm"
+    last_verified: "2026-10-08"
+    notes: "核对正文；该页未列本科、硕士、博士入学时间或博士导师。"
+  - label: "[Codex] 2026-10-08：arXiv:2602.04191 当前摘要"
+    url: "https://arxiv.org/abs/2602.04191"
+    last_verified: "2026-10-08"
+    notes: "摘要明确为对所述开放问题的部分回答；未据此认证完整解决或独立核验数学证明。"
+  - label: "[Codex] 2026-10-08：arXiv:2509.06004"
+    url: "https://arxiv.org/abs/2509.06004"
+    last_verified: "2026-10-08"
+    notes: "核对首次提交年份、题名、两位作者及摘要范围。"
+  - label: "[Codex] 2026-10-08：出版社登记的JLMS书目及作者ORCID"
+    url: "https://api.crossref.org/works/10.1112/jlms.70514"
+    last_verified: "2026-10-08"
+    notes: "Crossref列Yanqiao Ding、郑州大学及ORCID 0000-0003-1233-991X；authenticated-orcid为false，未称其经过作者登录认证。"
+  - label: "[Codex] 2026-10-08：Mathematische Zeitschrift 期刊版"
+    url: "https://link.springer.com/article/10.1007/s00209-020-02458-z"
+    last_verified: "2026-10-08"
+    notes: "核对题名、作者、郑州大学邮箱及摘要；与预印本1710.03603合并保留两种链接。"
+  - label: "[Codex] 2026-10-08：Mathematical Notes 期刊版及参考文献17"
+    url: "https://link.springer.com/article/10.1134/S000143462005003X"
+    last_verified: "2026-10-08"
+    notes: "核对作者、邮箱及摘要，与1902.07486对应；参考文献17将Genus Decreasing Formula题名明确对应arXiv:1710.03603。"
+  - label: "[Codex] 2026-10-08：arXiv:1902.07486 预印本"
+    url: "https://arxiv.org/abs/1902.07486"
+    last_verified: "2026-10-08"
+    notes: "题名、摘要、作者、单位及邮箱与期刊版对照；保留初次提交年份2019。"
+  - label: "[Codex] 2026-10-08：arXiv:1710.03603 预印本"
+    url: "https://arxiv.org/abs/1710.03603"
+    last_verified: "2026-10-08"
+    notes: "保留预印本原题及初次提交年份2017。"
+  - label: "[Codex] 2026-10-08：arXiv:1504.07111 署名信息"
+    url: "https://arxiv.org/abs/1504.07111"
+    last_verified: "2026-10-08"
+    notes: "TeX题首页中两位作者同署中山大学，丁岩峭邮箱为dingyq6@mail2.sysu.edu.cn；这不是博士导师的证据。"
   - label: '郑州大学数学与统计学院 faculty page'
     url: 'https://www5.zzu.edu.cn/math/info/1088/2587.htm'
-  - label: 'arXiv author listing'
-    url: 'https://arxiv.org/a/ding_y_2'
   - label: 'Refined floor diagrams (J. London Math. Soc. 2026)'
     url: 'https://londmathsoc.onlinelibrary.wiley.com/doi/10.1112/jlms.70514'
-  - label: '浙大高研院 IASM 访问学者名单'
-    url: 'http://www.iasm.zju.edu.cn/iasm/2021_visitors/list.htm'
 tags:
   - zzu
