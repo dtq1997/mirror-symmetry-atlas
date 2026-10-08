@@ -1,0 +1,209 @@
+fetch_date: '2026-10-08'
+period_days: 7
+last_success_at: '2026-10-08T14:58:43.754218+00:00'
+total_fetched: 660
+relevant_count: 9
+fetch_evidence:
+  query: (cat:math-ph OR cat:math.AG OR cat:math.QA OR cat:hep-th OR cat:math.DG OR
+    cat:math.SG OR cat:nlin.SI) AND submittedDate:[202610011458 TO 202610081458]
+  categories:
+  - math-ph
+  - math.AG
+  - math.QA
+  - hep-th
+  - math.DG
+  - math.SG
+  - nlin.SI
+  window_start: '2026-10-01T14:58:43.754218+00:00'
+  window_end: '2026-10-08T14:58:43.754218+00:00'
+  total_fetched: 660
+  pages:
+  - url: https://export.arxiv.org/api/query?search_query=%28cat%3Amath-ph+OR+cat%3Amath.AG+OR+cat%3Amath.QA+OR+cat%3Ahep-th+OR+cat%3Amath.DG+OR+cat%3Amath.SG+OR+cat%3Anlin.SI%29+AND+submittedDate%3A%5B202610011458+TO+202610081458%5D&start=0&max_results=200&sortBy=submittedDate&sortOrder=descending
+    sha256: cfae6412bb26d0a7cf245e27dc3adcf03f9991730dac90a4880b6cf8da9342da
+    start: 0
+    count: 200
+  - url: https://export.arxiv.org/api/query?search_query=%28cat%3Amath-ph+OR+cat%3Amath.AG+OR+cat%3Amath.QA+OR+cat%3Ahep-th+OR+cat%3Amath.DG+OR+cat%3Amath.SG+OR+cat%3Anlin.SI%29+AND+submittedDate%3A%5B202610011458+TO+202610081458%5D&start=200&max_results=200&sortBy=submittedDate&sortOrder=descending
+    sha256: fa94fd26b28a4b12b16cb62ae6e6a27058048de145b14a883dcfb4aba0f4a6bd
+    start: 200
+    count: 200
+  - url: https://export.arxiv.org/api/query?search_query=%28cat%3Amath-ph+OR+cat%3Amath.AG+OR+cat%3Amath.QA+OR+cat%3Ahep-th+OR+cat%3Amath.DG+OR+cat%3Amath.SG+OR+cat%3Anlin.SI%29+AND+submittedDate%3A%5B202610011458+TO+202610081458%5D&start=400&max_results=200&sortBy=submittedDate&sortOrder=descending
+    sha256: 3fe98d3ebc1a130ed9eca8719b5b93d4670bad72d86cefae5c4c6b411caee642
+    start: 400
+    count: 200
+  - url: https://export.arxiv.org/api/query?search_query=%28cat%3Amath-ph+OR+cat%3Amath.AG+OR+cat%3Amath.QA+OR+cat%3Ahep-th+OR+cat%3Amath.DG+OR+cat%3Amath.SG+OR+cat%3Anlin.SI%29+AND+submittedDate%3A%5B202610011458+TO+202610081458%5D&start=600&max_results=200&sortBy=submittedDate&sortOrder=descending
+    sha256: aee362383abd7d8ddcaff7dfdfd205e4a0936ca4ea790aae6d53ce27d61e45a1
+    start: 600
+    count: 60
+entries:
+- id: '2610.10425'
+  title: Compact toric Einstein four-manifolds
+  authors_raw:
+  - Mingyang Li
+  - Song Sun
+  date: '2026-10-07'
+  published: '2026-10-07T17:06:08Z'
+  updated: '2026-10-07T17:06:08Z'
+  category: math.DG
+  source_url: https://arxiv.org/abs/2610.10425
+  source_version: 2610.10425v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - moduli-spaces
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-10-08T14:58:43.754218+00:00'
+  summary_zh: ''
+- id: '2610.10202'
+  title: Chiral Extensions of Cotangent Yangian
+  authors_raw:
+  - Keyou Zeng
+  date: '2026-10-07'
+  published: '2026-10-07T15:02:13Z'
+  updated: '2026-10-07T15:02:13Z'
+  category: math.QA
+  source_url: https://arxiv.org/abs/2610.10202
+  source_version: 2610.10202v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - lie-algebroid
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-10-08T14:58:43.754218+00:00'
+  summary_zh: ''
+- id: '2610.10151'
+  title: Integration and quantization of 1-shifted coisotropics
+  authors_raw:
+  - Yassine Ait Mohamed
+  - Maxence Mayrand
+  date: '2026-10-07'
+  published: '2026-10-07T14:27:32Z'
+  updated: '2026-10-07T14:27:32Z'
+  category: math.SG
+  source_url: https://arxiv.org/abs/2610.10151
+  source_version: 2610.10151v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - deformation-quantization
+  - lie-algebroid
+  - symplectic-geometry
+  relevance_score: 9
+  review_status: metadata-only
+  retrieved_at: '2026-10-08T14:58:43.754218+00:00'
+  summary_zh: ''
+- id: '2610.10147'
+  title: Counterexamples to the Polishchuk--Van den Bergh conjecture on curves
+  authors_raw:
+  - Shengyong Pan
+  date: '2026-10-07'
+  published: '2026-10-07T14:25:19Z'
+  updated: '2026-10-07T14:25:19Z'
+  category: math.AG
+  source_url: https://arxiv.org/abs/2610.10147
+  source_version: 2610.10147v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - derived-category
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-10-08T14:58:43.754218+00:00'
+  summary_zh: ''
+- id: '2610.10078'
+  title: Exact fillings using universal covers in Floer theory
+  authors_raw:
+  - Shahnaz Shamim Shahul
+  date: '2026-10-07'
+  published: '2026-10-07T13:43:07Z'
+  updated: '2026-10-07T13:43:07Z'
+  category: math.SG
+  source_url: https://arxiv.org/abs/2610.10078
+  source_version: 2610.10078v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - tqft
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-10-08T14:58:43.754218+00:00'
+  summary_zh: ''
+- id: '2610.09694'
+  title: Motivic Euler characteristics of moduli spaces of curves
+  authors_raw:
+  - Jonas Bergström
+  - Samir Canning
+  - Dan Petersen
+  - Johannes Schmitt
+  date: '2026-10-07'
+  published: '2026-10-07T08:53:08Z'
+  updated: '2026-10-07T08:53:08Z'
+  category: math.AG
+  source_url: https://arxiv.org/abs/2610.09694
+  source_version: 2610.09694v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - moduli-spaces
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-10-08T14:58:43.754218+00:00'
+  summary_zh: ''
+- id: '2610.09437'
+  title: Construction of log Calabi--Yau boundaries from int-amplified endomorphisms
+  authors_raw:
+  - Shou Yoshikawa
+  date: '2026-10-07'
+  published: '2026-10-07T04:49:14Z'
+  updated: '2026-10-07T04:49:14Z'
+  category: math.AG
+  source_url: https://arxiv.org/abs/2610.09437
+  source_version: 2610.09437v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - calabi-yau
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-10-08T14:58:43.754218+00:00'
+  summary_zh: ''
+- id: '2610.09269'
+  title: Fundamental groups of Calabi-Yau spaces
+  authors_raw:
+  - Xin Fu
+  - Bin Guo
+  - Jian Song
+  - Juanyong Wang
+  date: '2026-10-07'
+  published: '2026-10-07T01:10:59Z'
+  updated: '2026-10-07T01:10:59Z'
+  category: math.DG
+  source_url: https://arxiv.org/abs/2610.09269
+  source_version: 2610.09269v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - calabi-yau
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-10-08T14:58:43.754218+00:00'
+  summary_zh: ''
+- id: '2610.08913'
+  title: 'Worldsheets reconstructed: Duals to two-cut matrix models'
+  authors_raw:
+  - Sounak Pal
+  date: '2026-10-06'
+  published: '2026-10-06T18:00:03Z'
+  updated: '2026-10-06T18:00:03Z'
+  category: hep-th
+  source_url: https://arxiv.org/abs/2610.08913
+  source_version: 2610.08913v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - landau-ginzburg
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-10-08T14:58:43.754218+00:00'
+  summary_zh: ''
