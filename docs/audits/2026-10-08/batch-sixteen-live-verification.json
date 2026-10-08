@@ -1,0 +1,184 @@
+{
+  "reviewer": "Codex",
+  "checked_at": "2026-10-08T02:46:12.857680+00:00",
+  "commit": "ffb17f3302986648e82b81a02fafc954fce99ae6",
+  "deployment_run": 37719321838,
+  "http_checks": [
+    {
+      "url": "https://dtq1997.github.io/mirror-symmetry-atlas/",
+      "status": 200,
+      "sha256": "bfdfcc5d2dcf0296e0c0de73d3f87227cbb64f0a9b4ab041a93a08f3ab975cf2",
+      "checks": {
+        "no_katex_errors": true,
+        "hms_scoped_status": true,
+        "catalog_updated": true
+      },
+      "passed": true
+    },
+    {
+      "url": "https://dtq1997.github.io/mirror-symmetry-atlas/problems",
+      "status": 200,
+      "sha256": "4095b7ba669281bf38863cf9ebac5c956593469a86c0b6738b07ea89d4a5bcb0",
+      "checks": {
+        "no_katex_errors": true,
+        "hms_scoped_status": true
+      },
+      "passed": true
+    },
+    {
+      "url": "https://dtq1997.github.io/mirror-symmetry-atlas/problems/hms-general-cy",
+      "status": 200,
+      "sha256": "902be743a16e0fe6b7b34b270baa9eb5ff93324d8ffb2dee48e6fa46dc376ef3",
+      "checks": {
+        "no_katex_errors": true,
+        "review_scope": true,
+        "sources_present": true,
+        "status": true,
+        "progress_sources": true,
+        "conditions": true,
+        "old_pending_removed": true
+      },
+      "passed": true
+    },
+    {
+      "url": "https://dtq1997.github.io/mirror-symmetry-atlas/concepts/homological-mirror-symmetry",
+      "status": 200,
+      "sha256": "3eeb6fe5a85d3d3122a56c6894cb9df4c675ea81c3cd045ac1c782878e6bb3a0",
+      "checks": {
+        "no_katex_errors": true,
+        "review_scope": true,
+        "sources_present": true
+      },
+      "passed": true
+    },
+    {
+      "url": "https://dtq1997.github.io/mirror-symmetry-atlas/papers",
+      "status": 200,
+      "sha256": "0b627a8f7afc178af99df1ff8cebbc9d69834a17495cad02cb461709089ca4f9",
+      "checks": {
+        "no_katex_errors": true,
+        "two_new_works": true,
+        "quarantined_work_absent": true
+      },
+      "passed": true
+    },
+    {
+      "url": "https://dtq1997.github.io/mirror-symmetry-atlas/people/hu-jianxun",
+      "status": 200,
+      "sha256": "d5e00b49bc0dfed11804cbc160d3333826911ed72f8c47fdc3c36a280aeb40da",
+      "checks": {
+        "no_katex_errors": true,
+        "paper_link_and_title": true,
+        "attribution_source": true,
+        "person_heading": true
+      },
+      "passed": true
+    },
+    {
+      "url": "https://dtq1997.github.io/mirror-symmetry-atlas/people/ke-huazhong",
+      "status": 200,
+      "sha256": "eb93dcedfa5fc3e85512089c21e82537cda36ba444cff41c119a92b5b320cc73",
+      "checks": {
+        "no_katex_errors": true,
+        "paper_link_and_title": true,
+        "attribution_source": true,
+        "person_heading": true
+      },
+      "passed": true
+    },
+    {
+      "url": "https://dtq1997.github.io/mirror-symmetry-atlas/people/li-changzheng",
+      "status": 200,
+      "sha256": "a9d8698461a73bce68c581e32e87adf9f82c4f4ad3652f009fa893e1e1da60c3",
+      "checks": {
+        "no_katex_errors": true,
+        "paper_link_and_title": true,
+        "attribution_source": true,
+        "person_heading": true
+      },
+      "passed": true
+    },
+    {
+      "url": "https://dtq1997.github.io/mirror-symmetry-atlas/people/guo-shuai",
+      "status": 200,
+      "sha256": "a9e981c919f2677282eda3a4a92c8f635202d22f4e3192a211a8b24a96c6c41f",
+      "checks": {
+        "no_katex_errors": true,
+        "paper_link_and_title": true,
+        "attribution_source": true,
+        "person_heading": true,
+        "quarantined_work_absent": true,
+        "pku_school_source": true
+      },
+      "passed": true
+    },
+    {
+      "url": "https://dtq1997.github.io/mirror-symmetry-atlas/people/zhang-qingsheng",
+      "status": 200,
+      "sha256": "f28b85c444c33c5b5a7a737278fd153618536a47f33aa252930c41538ab551de",
+      "checks": {
+        "no_katex_errors": true,
+        "paper_link_and_title": true,
+        "attribution_source": true,
+        "person_heading": true,
+        "pku_school_source": true
+      },
+      "passed": true
+    }
+  ],
+  "scope": "Ten HTTP pages: rendered content, sources, scoped HMS status, five new owner records, one attribution quarantine. Not independent proof or whole-site factual certification.",
+  "browser_checks": [
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "page": "problems/hms-general-cy",
+      "partial_status": true,
+      "document_width": 384,
+      "katex_errors": 0
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "action": "Click 同调镜像对称 prerequisite and wait for target heading",
+      "destination": "concepts/homological-mirror-symmetry",
+      "document_width": 384,
+      "formulas": 2,
+      "katex_errors": 0,
+      "new_foundations_source_present": true
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "page": "people/guo-shuai",
+      "new_work_present": true,
+      "quarantined_title_absent": true,
+      "document_width": 384,
+      "katex_errors": 0
+    },
+    {
+      "viewport": [
+        1280,
+        900
+      ],
+      "page": "problems/hms-general-cy",
+      "document_width": 1274,
+      "partial_status": true,
+      "screenshot": "hms-foundations-live.png"
+    }
+  ],
+  "browser_error_logs": [],
+  "cleanup": {
+    "own_preview_pid": 8868,
+    "identity_verified_before_sigint": true,
+    "closed_preview_tab": "11",
+    "viewport_reset": true,
+    "retained_public_tab": "1"
+  },
+  "screenshot_sha256": "48bd6fff4f12cbe786708b300c972de3146a1b79db7dc88dcbaaf95801a02b7a"
+}
