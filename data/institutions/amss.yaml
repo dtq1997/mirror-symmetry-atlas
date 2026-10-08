@@ -21,3 +21,9 @@ research_groups:
       - yang-chenglang
 events: []
 notes: null
+
+sources:
+- label: '[Codex] 机构官方站：名称与重复入口核对'
+  url: https://english.amss.cas.cn/
+  last_verified: '2026-10-08'
+  notes: 仅核对机构名称与别名指向；原有成立年、地点坐标、人员名单及其他叙述并未由此一并认证。官方站搜索索引可读，正文直连遇证书校验失败；未把失败响应当作正文证据。

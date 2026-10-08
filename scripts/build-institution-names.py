@@ -7,6 +7,7 @@ institution slug MUST go through institutionName(slug).
 import json
 import os
 import yaml
+from institution_aliases import alias_errors
 
 INST_DIR = 'data/institutions'
 OUT = 'src/lib/institution-names.json'
@@ -17,12 +18,22 @@ def main():
     if not os.path.isdir(INST_DIR):
         print(f'No institutions dir at {INST_DIR}')
         return
+    records = {}
     for f in sorted(os.listdir(INST_DIR)):
         if not f.endswith('.yaml') or f.startswith('_'):
             continue
         slug = f.replace('.yaml', '')
         with open(os.path.join(INST_DIR, f)) as fh:
             d = yaml.safe_load(fh) or {}
+        if d.get('slug') != slug:
+            raise ValueError(f'{f}: slug does not match filename')
+        records[slug] = d
+    errors = alias_errors(records)
+    if errors:
+        raise ValueError('\n'.join(errors))
+    for slug, record in records.items():
+        canonical = record.get('alias_of', slug)
+        d = records[canonical]
         name = d.get('name') or {}
         if isinstance(name, str):
             zh = name; en = name
@@ -31,6 +42,7 @@ def main():
             zh = name.get('zh') or ''
         use_zh = bool(zh) and not str(zh).startswith('[') and not str(zh).startswith('待')
         table[slug] = {
+            'canonicalSlug': canonical,
             'displayName': zh if use_zh else en,
             'en': en,
             'zh': zh if use_zh else None,

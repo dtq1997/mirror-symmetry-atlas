@@ -369,6 +369,7 @@ export interface AppointmentCheck {
 
 export interface Institution {
   slug: string;
+  alias_of?: string;
   name: MultiLangName;
   type: "university" | "research-institute" | "center";
   country: string;

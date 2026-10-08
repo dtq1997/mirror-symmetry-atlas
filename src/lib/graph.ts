@@ -1,4 +1,5 @@
 import { collectPublications } from "./publications";
+import { institutionSlug } from "./inst";
 import type {
   Person,
   Concept,
@@ -259,7 +260,7 @@ export function recordedInstitutions(person: Person, throughYear: number | null 
     if (throughYear === null) return true;
     const start = recordedStartYear(entry.period);
     return start !== null && start <= throughYear;
-  }).map((entry) => entry.institution!))];
+  }).map((entry) => institutionSlug(entry.institution!)))];
 }
 
 /** Cumulative dated records through a chosen year, not a historical census.

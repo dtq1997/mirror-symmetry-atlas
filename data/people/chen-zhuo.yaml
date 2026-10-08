@@ -8,31 +8,31 @@ nationality: Chinese
 gender: male
 photo_url: null
 career_timeline:
-  - period: "~2000-2004"
+  - period: "2004"
     type: education
     institution: pku
     role: "博士, 基础数学"
     advisor: liu-zhangju
-    notes: "北京大学数学科学学院，导师刘张炬 (Zhang-Ju Liu)，学位论文 On transitive Lie bialgebroids and Poisson groupoids"
-  - period: "2004-2006"
+    notes: "2004年获北京大学博士，入学年份待核。导师与论文题名沿用MGP记录：刘张炬 (Zhang-Ju Liu)，On transitive Lie bialgebroids and Poisson groupoids；本批未核原始博士论文。"
+  - period: "2004.07-2006.07"
     type: position
     institution: capital-normal
     role: "博士后"
     notes: "首都师范大学数学科学学院"
-  - period: "2006-2008"
+  - period: "2006.07-2008.07"
     type: position
     institution: pku
     role: "博士后"
     notes: "北京大学数学科学学院"
-  - period: "2008-2009"
+  - period: "2008.08-2009.05"
     type: position
     institution: penn-state
     role: "讲师 (Lecturer)"
     notes: "美国宾夕法尼亚州立大学数学系，与 Ping Xu / Mathieu Stiénon 合作"
-  - period: "2009-present"
+  - period: "2009.05-present"
     type: position
     institution: tsinghua
-    role: "讲师 → 副教授 (长聘)"
+    role: "讲师、副教授（现列副教授）"
     notes: "清华大学数学科学系，博士生导师，微分几何与几何分析团队"
   - period: "2013"
     type: award
@@ -47,24 +47,29 @@ research_areas:
   - atiyah-class
   - deformation-quantization
   - homotopy-algebra
+known_emails:
+  - chenzhuo@tsinghua.edu.cn
+  - chenzhuo@mail.tsinghua.edu.cn
+known_affiliations:
+  - Department of Mathematical Sciences, Tsinghua University
 identity_profile:
   mathgenealogy_id: '176253'
   affiliations:
     - institution: 'pku'
-      period: '~2000-2004'
+      period: '2004'
       role: '博士, 基础数学'
     - institution: 'capital-normal'
-      period: '2004-2006'
+      period: '2004.07-2006.07'
       role: '博士后'
     - institution: 'pku'
-      period: '2006-2008'
+      period: '2006.07-2008.07'
       role: '博士后'
     - institution: 'penn-state'
-      period: '2008-2009'
+      period: '2008.08-2009.05'
       role: '讲师 (Lecturer)'
     - institution: 'tsinghua'
-      period: '2009-present'
-      role: '讲师 → 副教授 (长聘)'
+      period: '2009.05-present'
+      role: '讲师、副教授（现列副教授）'
   email_domains: [pku.edu.cn, tsinghua.edu.cn]
   coauthor_circle_core_slugs: [liu-zhangju]
   coauthor_circle_core_names: ['Zhang-Ju Liu']
@@ -88,7 +93,6 @@ identity_profile:
     - '2309.04180'
     - '2309.00432'
     - '2302.01294'
-    - '2211.06943'
     - '2210.01999'
     - '2206.10091'
     - '2201.13068'
@@ -96,16 +100,13 @@ identity_profile:
     - '2110.11623'
     - '2105.15019'
     - '2103.08096'
-    - '2012.14109'
     - '2003.13384'
     - '1912.02668'
     - '1911.01388'
     - '1808.08576'
-    - '1806.01283'
     - '1712.00665'
     - '1711.11253'
     - '1609.00984'
-    - '1603.09634'
     - '1509.01115'
     - '1409.6803'
     - '1408.0448'
@@ -198,13 +199,6 @@ publications:
     journal: 'Communications in Mathematical Physics'
     primary_category: math.DG
     sources: [arxiv]
-  - id: '2211.06943'
-    title: 'MSW-type compactifications of 6d $(1,0)$ SCFTs on 4-manifolds'
-    year: 2022
-    coauthors: ['Jin Chen', 'Wei Cui', 'Babak Haghighat']
-    doi: '10.4310/atmp.2023.v27.n6.a5'
-    journal: 'Advances in Theoretical and Mathematical Physics'
-    primary_category: hep-th
   - id: '2210.01999'
     title: 'Locally finite infinity-modules and weak Loday-Pirashvili modules over differential graded Lie algebras'
     year: 2022
@@ -264,13 +258,6 @@ publications:
     primary_category: math.DG
     openalex_id: W3138327821
     sources: [arxiv, openalex]
-  - id: '2012.14109'
-    title: 'A GLSM view on Homological Projective Duality'
-    year: 2020
-    coauthors: ['Jirui Guo', 'Mauricio Romo']
-    doi: '10.1007/s00220-022-04401-1'
-    journal: 'Communications in Mathematical Physics'
-    primary_category: hep-th
   - id: '2003.13384'
     title: 'On the reduced space of multiplicative multivectors'
     year: 2020
@@ -303,12 +290,6 @@ publications:
     primary_category: math.QA
     openalex_id: W2888283784
     sources: [arxiv, openalex]
-  - id: '1806.01283'
-    title: 'Landau-Ginzburg models for certain fiber products with curves'
-    year: 2018
-    coauthors: ['Tony Pantev', 'Eric Sharpe']
-    doi: '10.1016/j.geomphys.2018.11.012'
-    primary_category: hep-th
   - id: '1712.00665'
     title: 'Shifted derived Poisson manifolds associated with Lie pairs'
     year: 2017
@@ -334,13 +315,6 @@ publications:
     primary_category: math.QA
     openalex_id: W2512825295
     sources: [arxiv, openalex]
-  - id: '1603.09634'
-    title: 'Toda-like (0,2) mirrors to products of projective spaces'
-    year: 2016
-    coauthors: ['Eric Sharpe', 'Ruoxu Wu']
-    doi: '10.1007/jhep08(2016)093'
-    journal: 'JHEP 1608 (2016) 093'
-    primary_category: hep-th
   - id: '1509.01115'
     title: 'Holomorphic Poisson Structures and its Cohomology on Nilmanifolds'
     year: 2015
@@ -429,17 +403,17 @@ publications:
     coauthors: [liu-zhangju, 'Yunhe Sheng']
     primary_category: math.DG
 activity:
-  total_papers: 39
-  published_count: 31
+  total_papers: 35
+  published_count: 27
   preprint_only_count: 8
   active_period: '2005-present'
   peak_period: '2020-present'
 external_ids:
   mathgenealogy: "176253"
 links:
-  homepage: 'None'
+  homepage: https://math.tsinghua.edu.cn/info/1125/2644.htm
   freekaoyan: 'http://school.freekaoyan.com/bj/tsinghua/daoshi/2020/04-16/15870262981089851.shtml'
-personal_notes: '北大博士（2004, 导师刘张炬）→ 首师大博后 → 北大博后 → Penn State 讲师 → 清华副教授 (2009-)。
+personal_notes: '北大博士（2004, 导师刘张炬）→ 首师大博后 → 北大博后 → Penn State 讲师 → 2009.05起在清华任讲师、副教授（现列副教授）。
 
   核心研究：Poisson 几何、Lie algebroid / Courant algebroid、Atiyah class、形变量子化。
 
@@ -456,9 +430,9 @@ personal_notes: '北大博士（2004, 导师刘张炬）→ 首师大博后 → 
   2026 HUST 会议参会人员 (未做邀请报告)。
 
 
-  现职：清华大学数学科学系副教授/教授（[待验证职级]）
+  现职：清华大学数学科学系副教授（2026-10-08核对官方教师页）
 
-  学历：北大数学博士（[待验证]，与 Ping Xu/Zhang-Ju Liu 学派密切）
+  学历：2004年北京大学博士（入学年份待核）
 
   重要奖项：NSFC 多项；与 Stiénon-Xu 长期合作（Penn State 学派）
 
@@ -466,6 +440,19 @@ personal_notes: '北大博士（2004, 导师刘张炬）→ 首师大博后 → 
 
   '
 sources:
+  - label: '[Codex] 清华数学系官方教师页：陈酌'
+    url: https://math.tsinghua.edu.cn/info/1125/2644.htm
+    last_verified: '2026-10-08'
+    notes: 核对2004博士学位、四段任职起止月份、当前副教授、公开邮箱及两项既有奖项；博士入学年与晋升副教授日期未列，不倒推。
+  - label: '[Codex] 2309.00432：作者单位与邮箱'
+    url: https://arxiv.org/pdf/2309.00432v1
+    last_verified: '2026-10-08'
+    notes: 末页陈酌署名清华数学系，chenzhuo@tsinghua.edu.cn与官方教师页一致；数论方向不构成同名排除理由。
+  - label: '[Codex] 1912.02668：作者单位与邮箱'
+    url: https://arxiv.org/pdf/1912.02668v2
+    last_verified: '2026-10-08'
+    notes: 末页Zhuo Chen署名清华数学系、chenzhuo@mail.tsinghua.edu.cn；与2309.00432共享Chuangqiang
+      Hu合著及单位线索，保留归属。
   - label: 'Math Genealogy'
     url: 'https://www.mathgenealogy.org/id.php?id=176253'
   - label: '清华数学系教师信息 (freekaoyan 转载)'

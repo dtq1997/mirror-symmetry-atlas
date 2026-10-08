@@ -1,4 +1,4 @@
-import { getAllInstitutions, getInstitutionsMap, getPeopleMap, getConceptsMap } from "@/lib/data";
+import { getInstitutionRecords, getInstitutionsMap, getPeopleMap, getConceptsMap } from "@/lib/data";
 import Link from "@/components/shared/AtlasLink";
 import { notFound } from "next/navigation";
 import { relevanceLabel } from "@/lib/inst";
@@ -7,7 +7,7 @@ import { publicSourceUrl } from "@/lib/source-url";
 import InstitutionPeople from "@/components/institution/InstitutionPeople";
 
 export function generateStaticParams() {
-  return getAllInstitutions().map((i) => ({ slug: i.slug }));
+  return getInstitutionRecords().map((i) => ({ slug: i.slug }));
 }
 
 export default async function InstitutionPage({
@@ -65,6 +65,10 @@ export default async function InstitutionPage({
       </div>
 
       <p className="text-sm text-[#a0a0b8] mb-6">机构资料正在逐项核对，已核对的字段见所附来源；旧名单和履历不能直接作为现任名单。</p>
+
+      {slug !== inst.slug && <p className="text-sm text-[#a0a0b8] mb-6">
+        此旧入口已合并至 <Link href={`/institutions/${inst.slug}`} className="text-[#818cf8] hover:underline">{inst.name.zh || inst.name.en}</Link>，以下显示同一份档案。
+      </p>}
 
       <InstitutionPeople records={records} />
 
@@ -136,6 +140,8 @@ export default async function InstitutionPage({
         <ul className="space-y-2 text-sm">
           {inst.sources!.map((source, index) => <li key={index}>
             {publicSourceUrl(source.url) ? <a href={publicSourceUrl(source.url)} target="_blank" rel="noopener noreferrer" className="text-[#818cf8] hover:underline">{source.label} ↗</a> : <span>{source.label}（链接待补）</span>}
+            {source.last_verified && <span className="ml-2 text-[#8888a0]">核对日期：{source.last_verified}</span>}
+            {source.notes && <p className="mt-1 text-[#a0a0b8]">{source.notes}</p>}
           </li>)}
         </ul>
       </section>}

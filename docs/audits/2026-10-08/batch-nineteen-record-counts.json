@@ -1,0 +1,103 @@
+{
+  "reviewer": "Codex",
+  "scope": "All eight declared aliases: old references resolve, record-based membership union has no duplicate people, graph filters use one canonical slug; not an audit of truth of individual affiliations.",
+  "raw_institutions": 115,
+  "primary_institutions": 107,
+  "aliasPairs": [
+    {
+      "alias": "amss-cas",
+      "primary": "amss",
+      "people": [
+        "dai-bo",
+        "fan-huijun",
+        "xu-xu",
+        "yang-chenglang",
+        "zhang-qing"
+      ],
+      "count": 5
+    },
+    {
+      "alias": "henan",
+      "primary": "henan-u",
+      "people": [
+        "ni-dadi",
+        "xu-xiaomeng"
+      ],
+      "count": 2
+    },
+    {
+      "alias": "kavli-ipmu",
+      "primary": "ipmu",
+      "people": [
+        "chan-kwokwai",
+        "k-saito",
+        "li-changzheng"
+      ],
+      "count": 3
+    },
+    {
+      "alias": "lanzhou-university",
+      "primary": "lanzhou-u",
+      "people": [
+        "ding-yanqiao",
+        "hu-jianxun"
+      ],
+      "count": 2
+    },
+    {
+      "alias": "mpi-bonn",
+      "primary": "mpim-bonn",
+      "people": [
+        "cotti",
+        "hu-jianxun",
+        "lang-honglei",
+        "li-qin",
+        "li-yu",
+        "manin-yuri",
+        "yang-di",
+        "zagier"
+      ],
+      "count": 8
+    },
+    {
+      "alias": "nanjing-u",
+      "primary": "nanjing",
+      "people": [
+        "jin-xiaoshang",
+        "tian-gang",
+        "tu-junwu"
+      ],
+      "count": 3
+    },
+    {
+      "alias": "ucberkeley",
+      "primary": "uc-berkeley",
+      "people": [
+        "li-qin",
+        "liu-zhangju",
+        "ruan-yongbin",
+        "tseng-hsian-hua",
+        "yau-shingtung"
+      ],
+      "count": 5
+    },
+    {
+      "alias": "wisconsin-madison",
+      "primary": "uw-madison",
+      "people": [
+        "hu-jianxun",
+        "ruan-yongbin",
+        "tu-junwu"
+      ],
+      "count": 3
+    }
+  ],
+  "people": 96,
+  "raw_publication_rows": 2208,
+  "catalog_groups": 1808,
+  "chen_stats": {
+    "total_papers": 35,
+    "published_count": 27,
+    "preprint_only_count": 8
+  }
+}

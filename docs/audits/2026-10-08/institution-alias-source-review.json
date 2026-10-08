@@ -1,0 +1,397 @@
+{
+  "reviewer": "Codex",
+  "reviewed_on": "2026-10-08",
+  "scope": "Eight explicit duplicate/alias identities and propagation of two already-withheld biography claims. No fuzzy-name inference, no canonical record deleted; all 115 routes retained.",
+  "aliases": {
+    "amss-cas": "amss",
+    "henan": "henan-u",
+    "lanzhou-university": "lanzhou-u",
+    "nanjing-u": "nanjing",
+    "ucberkeley": "uc-berkeley",
+    "wisconsin-madison": "uw-madison",
+    "kavli-ipmu": "ipmu",
+    "mpi-bonn": "mpim-bonn"
+  },
+  "changes": [
+    {
+      "path": "data/institutions/amss-cas.yaml",
+      "original_sha256": "7b6e10bb02fff6d32e34020d5411e8c2b13f484a71aeace7aa57f1ef4a9e1e0f",
+      "original_raw": "slug: amss-cas\nname:\n  zh: '中国科学院数学与系统科学研究院'\n  en: 'Academy of Mathematics and Systems Science, CAS'\ncity: Beijing\ncountry: China\nrelevance: low\ntags:\n  - stub\n",
+      "field_changes": {
+        "alias_of": {
+          "before": null,
+          "after": "amss"
+        }
+      }
+    },
+    {
+      "path": "data/institutions/amss.yaml",
+      "original_sha256": "125cc84e4b5fc27764b88012a77ec8fc1f03b483ddbf2c6937142ee518c22eca",
+      "original_raw": "slug: amss\nname:\n  en: \"Academy of Mathematics and Systems Science, CAS\"\n  zh: \"中国科学院数学与系统科学研究院\"\ntype: research-institute\ncountry: China\ncity: Beijing\nlocation:\n  lat: 39.9775\n  lng: 116.3281\nfounded: 1998\nurl: \"http://www.amss.ac.cn/\"\nrelevance: medium\nresearch_groups:\n  - name: \"华罗庚数学中心\"\n    topics:\n      - integrable-hierarchy\n      - mathematical-physics\n    current_members: []\n    past_members:\n      - yang-chenglang\nevents: []\nnotes: null\n",
+      "field_changes": {
+        "sources": {
+          "before": null,
+          "after": [
+            {
+              "label": "[Codex] 机构官方站：名称与重复入口核对",
+              "url": "https://english.amss.cas.cn/",
+              "last_verified": "2026-10-08",
+              "notes": "仅核对机构名称与别名指向；原有成立年、地点坐标、人员名单及其他叙述并未由此一并认证。官方站搜索索引可读，正文直连遇证书校验失败；未把失败响应当作正文证据。"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "path": "data/institutions/henan-u.yaml",
+      "original_sha256": "f34410744a16fcaa97b425e941807af2bca602b245a6f9cb7d5931b5ce92d823",
+      "original_raw": "slug: henan-u\nname:\n  en: \"Henan University\"\n  zh: \"河南大学\"\ntype: university\ncountry: China\ncity: Kaifeng\nlocation:\n  lat: 34.8063\n  lng: 114.3080\nfounded: 1912\nurl: \"https://www.henu.edu.cn/\"\nrelevance: low\nresearch_groups:\n  - name: \"数学与统计学院\"\n    topics:\n      - lie-algebroid\n      - differential-geometry\n    current_members:\n      - ni-dadi\n    past_members: []\nevents: []\nnotes: \"倪大地在此任教（清华陈酌博士毕业）。\"\n",
+      "field_changes": {
+        "sources": {
+          "before": null,
+          "after": [
+            {
+              "label": "[Codex] 机构官方站：名称与重复入口核对",
+              "url": "https://www.henu.edu.cn/",
+              "last_verified": "2026-10-08",
+              "notes": "仅核对机构名称与别名指向；原有成立年、地点坐标、人员名单及其他叙述并未由此一并认证。"
+            },
+            {
+              "label": "[Codex] 2026-10-08：河南大学官方履历与现职",
+              "url": "https://maths.henu.edu.cn/info/1205/9836.htm",
+              "last_verified": "2026-10-08",
+              "notes": "明确列学士、博士起止年月及2023.07起讲师任职；未列博士导师，不根据共同署名补导师。"
+            }
+          ]
+        },
+        "notes": {
+          "before": "倪大地在此任教（清华陈酌博士毕业）。",
+          "after": "倪大地自2023.07起在数学与统计学院任讲师；博士导师尚未核实，不能由合著关系认定。"
+        }
+      }
+    },
+    {
+      "path": "data/institutions/henan.yaml",
+      "original_sha256": "55e2f17f1b886347bcddd8873e3d7b9c15c5e272cc9ad0ac3b977f2fde271e5f",
+      "original_raw": "slug: henan\nname:\n  zh: '河南大学'\n  en: 'Henan University'\ncity: Kaifeng\ncountry: China\nrelevance: low\ntags:\n  - stub\n",
+      "field_changes": {
+        "alias_of": {
+          "before": null,
+          "after": "henan-u"
+        }
+      }
+    },
+    {
+      "path": "data/institutions/ipmu.yaml",
+      "original_sha256": "6048180e94920747eafdc04265408515723d291bee20239e6d022ebfae9c59cf",
+      "original_raw": "slug: ipmu\nname:\n  zh: 'Kavli IPMU'\n  en: 'Kavli Institute for the Physics and Mathematics of the Universe'\ncity: Kashiwa\ncountry: Japan\nrelevance: low\ntags:\n  - stub\n",
+      "field_changes": {
+        "sources": {
+          "before": null,
+          "after": [
+            {
+              "label": "[Codex] 机构官方站：名称与重复入口核对",
+              "url": "https://www.ipmu.jp/en",
+              "last_verified": "2026-10-08",
+              "notes": "仅核对机构名称与别名指向；原有成立年、地点坐标、人员名单及其他叙述并未由此一并认证。"
+            }
+          ]
+        },
+        "url": {
+          "before": null,
+          "after": "https://www.ipmu.jp/en"
+        }
+      }
+    },
+    {
+      "path": "data/institutions/kavli-ipmu.yaml",
+      "original_sha256": "66c1b2370192fdb083946287e4f514101c419a2628baf23763368ce21cbc86a4",
+      "original_raw": "slug: kavli-ipmu\nname:\n  zh: 'Kavli IPMU (东京大学)'\n  en: 'Kavli IPMU, University of Tokyo'\ncity: Kashiwa\ncountry: Japan\nrelevance: low\ntags:\n  - stub\n",
+      "field_changes": {
+        "alias_of": {
+          "before": null,
+          "after": "ipmu"
+        }
+      }
+    },
+    {
+      "path": "data/institutions/lanzhou-u.yaml",
+      "original_sha256": "d1f530ed31529d8f020bcf4b5758c305d175e46a005ba224f038b8c74da57846",
+      "original_raw": "slug: lanzhou-u\nname:\n  en: \"Lanzhou University\"\n  zh: \"兰州大学\"\ntype: university\ncountry: China\ncity: Lanzhou\nlocation:\n  lat: 36.0486\n  lng: 103.8611\nfounded: 1909\nurl: \"https://www.lzu.edu.cn/\"\nrelevance: low\nresearch_groups:\n  - name: \"数学与统计学院\"\n    topics: []\n    current_members: []\n    past_members:\n      - hu-jianxun\n      - ding-yanqiao\nevents: []\nnotes: \"胡建勋本硕博（1979-1993）；丁岩峭硕士（2010-2013）。\"\n",
+      "field_changes": {
+        "sources": {
+          "before": null,
+          "after": [
+            {
+              "label": "[Codex] 机构官方站：名称与重复入口核对",
+              "url": "https://global.lzu.edu.cn/index.htm",
+              "last_verified": "2026-10-08",
+              "notes": "仅核对机构名称与别名指向；原有成立年、地点坐标、人员名单及其他叙述并未由此一并认证。官方站搜索索引可读，正文直连返回412；未把失败响应当作正文证据。"
+            },
+            {
+              "label": "[Codex] 2026-10-08：学历年份的官方来源冲突",
+              "url": "https://math.sysu.edu.cn/node/484",
+              "notes": "教师页搜索索引与2023年广东省丁颖科技奖提名表搜索索引的本科、硕士年份不一致；两份直接访问均403，尚未解决冲突。撤去原先倒推的入学年份，不按其中一份索引擅定结论。"
+            }
+          ]
+        },
+        "notes": {
+          "before": "胡建勋本硕博（1979-1993）；丁岩峭硕士（2010-2013）。",
+          "after": "胡建勋的本科、硕士年份存在官方来源冲突，待核；不得沿用推算的1979年入学。丁岩峭的硕士求学记录见人物履历，年份仍待逐项核对。"
+        }
+      }
+    },
+    {
+      "path": "data/institutions/lanzhou-university.yaml",
+      "original_sha256": "f29166d9a5f6c164e17211acb851c1e2ae3b1ab71feca8252ac753a9c94a4944",
+      "original_raw": "slug: lanzhou-university\nname:\n  zh: '兰州大学'\n  en: 'Lanzhou University'\ncity: Lanzhou\ncountry: China\nrelevance: low\ntags:\n  - stub\n",
+      "field_changes": {
+        "alias_of": {
+          "before": null,
+          "after": "lanzhou-u"
+        }
+      }
+    },
+    {
+      "path": "data/institutions/mpi-bonn.yaml",
+      "original_sha256": "47f7057572e2c11b05a6505dedf7091d70709a9d812597664e17c00efd1b3358",
+      "original_raw": "slug: mpi-bonn\nname:\n  zh: '波恩马普数学所'\n  en: 'Max Planck Institute for Mathematics, Bonn'\ncity: Bonn\ncountry: Germany\nrelevance: low\ntags:\n  - stub\n",
+      "field_changes": {
+        "alias_of": {
+          "before": null,
+          "after": "mpim-bonn"
+        }
+      }
+    },
+    {
+      "path": "data/institutions/mpim-bonn.yaml",
+      "original_sha256": "aef558d82b0ee6e42251f56b4a1c37fe0bee08129bf0dcea40cdadc8f437582b",
+      "original_raw": "slug: mpim-bonn\nname:\n  en: \"Max Planck Institute for Mathematics\"\n  zh: \"马克斯·普朗克数学研究所\"\n  local: \"Max-Planck-Institut für Mathematik\"\ntype: research-institute\ncountry: Germany\ncity: Bonn\nlocation:\n  lat: 50.7271\n  lng: 7.0920\nfounded: 1980\nurl: \"https://www.mpim-bonn.mpg.de/\"\nrelevance: high\nresearch_groups:\n  - name: \"Mathematics\"\n    topics:\n      - algebraic-geometry\n      - number-theory\n      - mathematical-physics\n    current_members:\n      - zagier\n      - manin-yuri\n    past_members:\n      - yang-di\n      - cotti\nevents: []\nnotes: |\n  Zagier 长期任 director。曾培养 Kontsevich、Cotti、Yang Di 等博后。\n  国际数学家流动的核心节点。\n",
+      "field_changes": {
+        "sources": {
+          "before": null,
+          "after": [
+            {
+              "label": "[Codex] 机构官方站：名称与重复入口核对",
+              "url": "https://www.mpim-bonn.mpg.de/",
+              "last_verified": "2026-10-08",
+              "notes": "仅核对机构名称与别名指向；原有成立年、地点坐标、人员名单及其他叙述并未由此一并认证。"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "path": "data/institutions/nanjing-u.yaml",
+      "original_sha256": "e954638303e02542ba3f5c0c3c1dcc76b166c1ab9729ca0521519275355454af",
+      "original_raw": "slug: nanjing-u\nname:\n  zh: '南京大学'\n  en: 'Nanjing University'\ncity: Nanjing\ncountry: China\nrelevance: low\ntags:\n  - stub\n",
+      "field_changes": {
+        "alias_of": {
+          "before": null,
+          "after": "nanjing"
+        }
+      }
+    },
+    {
+      "path": "data/institutions/nanjing.yaml",
+      "original_sha256": "b70073fe8f26b33d54d5dabf093d7ed958cd6ae2f0522c7c7cea033e161b601a",
+      "original_raw": "slug: nanjing\nname:\n  zh: '南京大学'\n  en: 'Nanjing University'\ncity: Nanjing\ncountry: China\nrelevance: low\ntags:\n  - stub\n",
+      "field_changes": {
+        "sources": {
+          "before": null,
+          "after": [
+            {
+              "label": "[Codex] 机构官方站：名称与重复入口核对",
+              "url": "https://www.nju.edu.cn/",
+              "last_verified": "2026-10-08",
+              "notes": "仅核对机构名称与别名指向；原有成立年、地点坐标、人员名单及其他叙述并未由此一并认证。"
+            }
+          ]
+        },
+        "url": {
+          "before": null,
+          "after": "https://www.nju.edu.cn/"
+        }
+      }
+    },
+    {
+      "path": "data/institutions/uc-berkeley.yaml",
+      "original_sha256": "edfefd5ad1f160e16058e54eceda7e0291ef705b8be887db340fbc339dd93903",
+      "original_raw": "slug: uc-berkeley\nname:\n  en: \"University of California, Berkeley\"\n  zh: \"加州大学伯克利分校\"\ntype: university\ncountry: USA\ncity: Berkeley\nlocation:\n  lat: 37.8719\n  lng: -122.2585\nfounded: 1868\nurl: \"https://math.berkeley.edu/\"\nrelevance: medium\nresearch_groups:\n  - name: \"Department of Mathematics\"\n    topics:\n      - topology\n      - geometric-topology\n      - mathematical-physics\n    current_members: []\n    past_members:\n      - li-qin\n      - yau-shingtung\n      - ruan-yongbin\nevents: []\nnotes: |\n  陈省身长期任教。丘成桐 1971 年在此获博士（Chern 指导）。\n  阮勇斌 1991 年 PhD (Kirby)。李勤 2011 年 PhD (Teichner)。\n",
+      "field_changes": {
+        "sources": {
+          "before": null,
+          "after": [
+            {
+              "label": "[Codex] 机构官方站：名称与重复入口核对",
+              "url": "https://math.berkeley.edu/",
+              "last_verified": "2026-10-08",
+              "notes": "仅核对机构名称与别名指向；原有成立年、地点坐标、人员名单及其他叙述并未由此一并认证。"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "path": "data/institutions/ucberkeley.yaml",
+      "original_sha256": "78b08657710886164b38895a25667e6f1a4a816837fe52acb8be884aebd4e17a",
+      "original_raw": "slug: ucberkeley\nname:\n  zh: '加州大学伯克利分校'\n  en: 'University of California, Berkeley'\ncity: Berkeley\ncountry: USA\nrelevance: low\ntags:\n  - stub\n",
+      "field_changes": {
+        "alias_of": {
+          "before": null,
+          "after": "uc-berkeley"
+        }
+      }
+    },
+    {
+      "path": "data/institutions/uw-madison.yaml",
+      "original_sha256": "acf26427cc9bc9fe7730a21bc34f557d68c52929abc34b54ba0c619d98841119",
+      "original_raw": "slug: uw-madison\nname:\n  en: \"University of Wisconsin-Madison\"\n  zh: \"威斯康星大学麦迪逊分校\"\ntype: university\ncountry: USA\ncity: Madison\nlocation:\n  lat: 43.0750\n  lng: -89.4030\nfounded: 1848\nurl: \"https://www.wisc.edu/\"\nrelevance: low\nresearch_groups:\n  - name: \"Department of Mathematics\"\n    topics: []\n    current_members: []\n    past_members: []\nevents: []\nnotes: null\n",
+      "field_changes": {
+        "sources": {
+          "before": null,
+          "after": [
+            {
+              "label": "[Codex] 机构官方站：名称与重复入口核对",
+              "url": "https://www.wisc.edu/",
+              "last_verified": "2026-10-08",
+              "notes": "仅核对机构名称与别名指向；原有成立年、地点坐标、人员名单及其他叙述并未由此一并认证。"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "path": "data/institutions/wisconsin-madison.yaml",
+      "original_sha256": "850a344b827c9e7bdc08051618452f2fc192ec73271b9a9c0f05066b18d92e0c",
+      "original_raw": "slug: wisconsin-madison\nname:\n  zh: '威斯康星大学麦迪逊分校'\n  en: 'University of Wisconsin–Madison'\ncity: Madison\ncountry: USA\nrelevance: low\ntags:\n  - stub\n",
+      "field_changes": {
+        "alias_of": {
+          "before": null,
+          "after": "uw-madison"
+        }
+      }
+    }
+  ],
+  "source_fetches": {
+    "amss": {
+      "url": "https://www.amss.ac.cn/",
+      "transport": "000\nhttps://www.amss.ac.cn/",
+      "exit": 60,
+      "checked_at": "2026-10-08T03:49:41.399584+00:00",
+      "error": "curl: (60) SSL certificate problem: self signed certificate\nMore details here: https://curl.se/docs/sslcerts.html\n\ncurl failed to verify the legitimacy of the server and therefore could not\nestablish a secure connection to it. To learn more about this situation and\nhow to fix it, please visit the web page mentioned above.\n"
+    },
+    "henan-u": {
+      "url": "https://www.henu.edu.cn/",
+      "transport": "200\nhttps://www.henu.edu.cn/",
+      "exit": 0,
+      "checked_at": "2026-10-08T03:49:41.664344+00:00",
+      "error": "",
+      "sha256": "a7599644bcf07b27fde9659a37bb10760df41bd0e8ec44bc51eeaf9f574c20d8",
+      "bytes": 125074,
+      "text_path": ".cache/msa/site-recovery/nineteen-extra-henan-u.txt",
+      "title_or_start": "﻿\n河南大学\nEnglish\n|\n校历\n|\n邮箱\n|\n校史馆\n办公系统\n|\n信息公开\n|\n河大快办\n|\n网上办事大厅\n学生\n|\n教职工\n|\n校友\n|\n访客\n首页\n学校概况\n河大概况\n现任领导\n历任领导\n机构设置\n党政机构\n直属附属机构\n院系部门\n人才培养\n本科生教育\n研究生教育\n留学生教育\n继续教育\n师资队伍\n院士风采\n学部委员\n国家杰青\n国家优青\n百千万人"
+    },
+    "lanzhou-u": {
+      "url": "https://www.lzu.edu.cn/",
+      "transport": "412\nhttps://www.lzu.edu.cn/",
+      "exit": 0,
+      "checked_at": "2026-10-08T03:49:41.943131+00:00",
+      "error": "",
+      "sha256": "d7b7b6e5490d5b41e30b360e91af223c59a5d68b6404bd98def440719bcb919b",
+      "bytes": 2501,
+      "text_path": ".cache/msa/site-recovery/nineteen-extra-lanzhou-u.txt",
+      "title_or_start": ""
+    },
+    "nanjing": {
+      "url": "https://www.nju.edu.cn/",
+      "transport": "200\nhttps://www.nju.edu.cn/",
+      "exit": 0,
+      "checked_at": "2026-10-08T03:49:42.618699+00:00",
+      "error": "",
+      "sha256": "5fda51a94c402a6fba02c2d1023d57fe89c4a18f9d9955ec7cca878a79031b22",
+      "bytes": 311733,
+      "text_path": ".cache/msa/site-recovery/nineteen-extra-nanjing.txt",
+      "title_or_start": "﻿\n南京大学\n关闭\n学习教育\n|\n电子邮箱\n|\n信息公开\n|\n捐赠\n|\n网上办事服务大厅\n|\nOA\n|\nEnglish\n南大概况\n南大简介\n现任领导\n历任领导\n南大校史\n南大标识\n南大新闻\n学院部门\n招生就业\n招生\n奖助学金\n就业指导\n人才招聘\n教育教学\n本科生\n研究生\n留学生\n非学历教育\n远程教育\n学生交流\n科学研究\n科技动态\n社科动态\n科研机构\n成果查询"
+    },
+    "uc-berkeley": {
+      "url": "https://math.berkeley.edu/",
+      "transport": "200\nhttps://math.berkeley.edu/",
+      "exit": 0,
+      "checked_at": "2026-10-08T03:49:42.420645+00:00",
+      "error": "",
+      "sha256": "59fd996cb04f19121e7db6c22f2026f0787fe125738487c1eaae6031db0c3576",
+      "bytes": 57217,
+      "text_path": ".cache/msa/site-recovery/nineteen-extra-uc-berkeley.txt",
+      "title_or_start": "Home | Department of Mathematics\nSkip to main content\nToggle navigation\nDepartment of Mathematics\nSearch Terms\nSubmit Search\nAbout\nContact\nNews & Announcements\nNewsletter\nUpcoming "
+    },
+    "uw-madison": {
+      "url": "https://www.wisc.edu/",
+      "transport": "200\nhttps://www.wisc.edu/",
+      "exit": 0,
+      "checked_at": "2026-10-08T03:49:43.591208+00:00",
+      "error": "",
+      "sha256": "09483fb3e40da2690ecf039b01a213683949c047413379d8814232005bfc7809",
+      "bytes": 83288,
+      "text_path": ".cache/msa/site-recovery/nineteen-extra-uw-madison.txt",
+      "title_or_start": "University of Wisconsin–Madison\nSkip to main content\nUniversity of Wisconsin–Madison\nMenu\nmenu\nclose\nSearch People and Pages\nsearch\nclose\nOpen search\nThis search returns up to five"
+    },
+    "ipmu": {
+      "url": "https://www.ipmu.jp/en",
+      "transport": "200\nhttps://www.ipmu.jp/en",
+      "exit": 0,
+      "checked_at": "2026-10-08T03:49:43.695832+00:00",
+      "error": "",
+      "sha256": "411afce8e554d64ebff37f4cdccf79a250e7790ecedcce217fc010e9e02890a8",
+      "bytes": 53299,
+      "text_path": ".cache/msa/site-recovery/nineteen-extra-ipmu.txt",
+      "title_or_start": "Kavli IPMU-カブリ数物連携宇宙研究機構 | Kavli Institute for the Physics and Mathematics of the Universe\nSkip to main content\nheader_main_menu_contact\nAbout\nOur People\nResearch\nNews\nOutreach\nJob"
+    },
+    "mpim-bonn": {
+      "url": "https://www.mpim-bonn.mpg.de/",
+      "transport": "200\nhttps://www.mpim-bonn.mpg.de/",
+      "exit": 0,
+      "checked_at": "2026-10-08T03:49:45.258468+00:00",
+      "error": "",
+      "sha256": "f7dc1c96ac061fbe0d8248b65f74808e5c815d2e1ea6579f1b0473d578153d25",
+      "bytes": 30962,
+      "text_path": ".cache/msa/site-recovery/nineteen-extra-mpim-bonn.txt",
+      "title_or_start": "Max Planck Institute for Mathematics\nSkip to main content\nSearch this site:\nCalendar\nWeekly Program\nConferences & Activities\nArchive\nMathematics in Bonn\nBonn Math Calendar\nManifold"
+    },
+    "amss-alt": {
+      "url": "https://english.amss.cas.cn/",
+      "transport": "000\nhttps://english.amss.cas.cn/",
+      "exit": 60,
+      "checked_at": "2026-10-08T03:50:33.713203+00:00",
+      "error": "curl: (60) SSL certificate problem: self signed certificate\nMore details here: https://curl.se/docs/sslcerts.html\n\ncurl failed to verify the legitimacy of the server and therefore could not\nestablish a secure connection to it. To learn more about this situation and\nhow to fix it, please visit the web page mentioned above.\n"
+    },
+    "lanzhou-alt": {
+      "url": "https://global.lzu.edu.cn/index.htm",
+      "transport": "412\nhttps://global.lzu.edu.cn/index.htm",
+      "exit": 0,
+      "checked_at": "2026-10-08T03:50:33.571599+00:00",
+      "error": "",
+      "sha256": "53cddc91f98703bb69d2b124096815b2f1a61e190963e5e13ceb314dec7c71a0",
+      "bytes": 2537,
+      "text_path": ".cache/msa/site-recovery/nineteen-extra-lanzhou-alt.txt",
+      "title_or_start": ""
+    }
+  },
+  "indexed_primary_evidence": {
+    "amss": "https://english.amss.cas.cn/ search result names Academy of Mathematics and Systems Science of CAS; direct reading unavailable due TLS validation failure.",
+    "lanzhou-u": "https://global.lzu.edu.cn/index.htm search result identifies 兰州大学国际处 / Lanzhou University; direct reading returns 412."
+  },
+  "identity_reason": "Six pairs have identical English/Chinese names and matching city/country. MPIM and Kavli IPMU spelling variants match full official institutional names and site identities. Names alone do not authorize merging people.",
+  "not_certified": [
+    "institution coordinates and founding dates except previously scoped BICMR evidence",
+    "current/past group membership truth",
+    "all biographical assertions in existing notes",
+    "other possible historical-institution aliases"
+  ],
+  "checks": [
+    "44 site regression tests",
+    "Data lint 0 errors / 74 warnings",
+    "ESLint, TypeScript, production build passed",
+    "287 exported pages / 22777 links / 686 rendered formula instances / zero bad targets"
+  ]
+}

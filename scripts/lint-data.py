@@ -45,6 +45,7 @@ sys.path.insert(0, str(HERE))
 from name_match import names_match, slug_for_author, is_slug
 from publication_review import load_review, blocked_review
 from institution_sources import appointment_errors
+from institution_aliases import alias_errors
 from concept_references import concept_reference_errors, concept_content_errors
 from problem_content import problem_errors
 from relationship_review import relationship_errors
@@ -388,6 +389,8 @@ def lint(strict_pubs=False, only_slug=None):
 
     # === institution checks ===
     if only_slug is None:
+        for message in alias_errors(institutions):
+            err('institutions', message)
         named_edges = []
         for path in sorted(CONN_DIR.glob('*.yaml')):
             records = yaml.safe_load(path.read_text()) or {}

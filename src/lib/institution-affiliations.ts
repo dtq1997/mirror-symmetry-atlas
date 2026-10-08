@@ -1,4 +1,5 @@
 import type { AppointmentCheck, CareerEntry, Institution, Person } from "./types";
+import { institutionSlug } from "./inst";
 
 export interface RecordedAffiliation {
   person: string;
@@ -21,7 +22,8 @@ export function recordedAffiliations(institution: Institution, people: Person[])
   };
   for (const person of people) {
     const career = (person.career_timeline ?? []).filter((e) =>
-      e.institution === institution.slug && ["education", "position", "visit"].includes(e.type));
+      e.institution && institutionSlug(e.institution) === institutionSlug(institution.slug)
+      && ["education", "position", "visit"].includes(e.type));
     if (career.length) entry(person.slug).career = career.map((e) => ({ ...e }));
   }
   for (const group of institution.research_groups ?? []) {

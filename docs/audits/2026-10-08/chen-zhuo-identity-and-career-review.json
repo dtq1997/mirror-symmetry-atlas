@@ -1,0 +1,1824 @@
+{
+  "reviewer": "Codex",
+  "reviewed_on": "2026-10-08",
+  "base_commit": "824b88b195e4f6c437816ca698fff774a93032c8",
+  "scope": "Six named publication candidates and specific Chen Zhuo biography fields; not a full-profile or full-bibliography certification.",
+  "decisions": [
+    {
+      "id": "2211.06943",
+      "title": "MSW-type compactifications of 6d $(1,0)$ SCFTs on 4-manifolds",
+      "year": 2022,
+      "coauthors": [
+        "Jin Chen",
+        "Wei Cui",
+        "Babak Haghighat"
+      ],
+      "doi": "10.4310/atmp.2023.v27.n6.a5",
+      "journal": "Advances in Theoretical and Mathematical Physics",
+      "primary_category": "hep-th",
+      "review_status": "rejected-homonym",
+      "reviewed_by": "Codex",
+      "reviewed_on": "2026-10-08",
+      "review_reason": "原文Zhuo Chen使用zhuo2012@vt.edu；2019年Virginia Tech物理博士论文明确将1603.09634、1806.01283作为本人工作，导师Eric Sharpe；与数学系陈酌2004年北大博士、2009.05起清华任职及chenzhuo@tsinghua.edu.cn区分。2211.06943延用同一vt.edu邮箱，署名BIMSA。",
+      "source_urls": [
+        "https://arxiv.org/pdf/2211.06943",
+        "https://math.tsinghua.edu.cn/info/1125/2644.htm",
+        "https://vtechworks.lib.vt.edu/bitstreams/276afab9-aa3b-46d6-9380-c1a25b1ee2e1/download"
+      ]
+    },
+    {
+      "id": "2012.14109",
+      "title": "A GLSM view on Homological Projective Duality",
+      "year": 2020,
+      "coauthors": [
+        "Jirui Guo",
+        "Mauricio Romo"
+      ],
+      "doi": "10.1007/s00220-022-04401-1",
+      "journal": "Communications in Mathematical Physics",
+      "primary_category": "hep-th",
+      "review_status": "needs-review",
+      "reviewed_by": "Codex",
+      "reviewed_on": "2026-10-08",
+      "review_reason": "原文署名YMSC、邮箱zhuochen2019@mail.tsinghua.edu.cn；弦论组前博士后目录直接链接此文，与数学系陈酌的官方职务及邮箱不同。另有同名者个人公开履历列此文，但尚缺将该邮箱与Virginia Tech博士直接对应的机构履历，保留待核，不作最终同名排除。",
+      "source_urls": [
+        "https://arxiv.org/pdf/2012.14109",
+        "https://math.tsinghua.edu.cn/info/1125/2644.htm",
+        "https://ymsc-strings.github.io/people-postdoc.html"
+      ]
+    },
+    {
+      "id": "1806.01283",
+      "title": "Landau-Ginzburg models for certain fiber products with curves",
+      "year": 2018,
+      "coauthors": [
+        "Tony Pantev",
+        "Eric Sharpe"
+      ],
+      "doi": "10.1016/j.geomphys.2018.11.012",
+      "primary_category": "hep-th",
+      "review_status": "rejected-homonym",
+      "reviewed_by": "Codex",
+      "reviewed_on": "2026-10-08",
+      "review_reason": "原文Zhuo Chen使用zhuo2012@vt.edu；2019年Virginia Tech物理博士论文明确将1603.09634、1806.01283作为本人工作，导师Eric Sharpe；与数学系陈酌2004年北大博士、2009.05起清华任职及chenzhuo@tsinghua.edu.cn区分。2211.06943延用同一vt.edu邮箱，署名BIMSA。",
+      "source_urls": [
+        "https://arxiv.org/pdf/1806.01283",
+        "https://math.tsinghua.edu.cn/info/1125/2644.htm",
+        "https://vtechworks.lib.vt.edu/bitstreams/276afab9-aa3b-46d6-9380-c1a25b1ee2e1/download"
+      ]
+    },
+    {
+      "id": "1603.09634",
+      "title": "Toda-like (0,2) mirrors to products of projective spaces",
+      "year": 2016,
+      "coauthors": [
+        "Eric Sharpe",
+        "Ruoxu Wu"
+      ],
+      "doi": "10.1007/jhep08(2016)093",
+      "journal": "JHEP 1608 (2016) 093",
+      "primary_category": "hep-th",
+      "review_status": "rejected-homonym",
+      "reviewed_by": "Codex",
+      "reviewed_on": "2026-10-08",
+      "review_reason": "原文Zhuo Chen使用zhuo2012@vt.edu；2019年Virginia Tech物理博士论文明确将1603.09634、1806.01283作为本人工作，导师Eric Sharpe；与数学系陈酌2004年北大博士、2009.05起清华任职及chenzhuo@tsinghua.edu.cn区分。2211.06943延用同一vt.edu邮箱，署名BIMSA。",
+      "source_urls": [
+        "https://arxiv.org/pdf/1603.09634",
+        "https://math.tsinghua.edu.cn/info/1125/2644.htm",
+        "https://vtechworks.lib.vt.edu/bitstreams/276afab9-aa3b-46d6-9380-c1a25b1ee2e1/download"
+      ]
+    }
+  ],
+  "kept_candidates": [
+    "2309.00432",
+    "1912.02668"
+  ],
+  "retention_reason": "2309.00432 exact official email and Tsinghua math affiliation; 1912.02668 same email local-part with historical mail subdomain, same math department and Chuangqiang Hu coauthor. Research-topic difference alone is not a homonym criterion.",
+  "original_raw_sha256": "00e7fca19762d2f264249fa2969f6eb95377db31c29dbfc72993c3c7d6bbf3ae",
+  "original_raw": "slug: chen-zhuo\nname:\n  en: Zhuo Chen\n  zh: 陈酌\nborn: null\ndied: null\nnationality: Chinese\ngender: male\nphoto_url: null\ncareer_timeline:\n  - period: \"~2000-2004\"\n    type: education\n    institution: pku\n    role: \"博士, 基础数学\"\n    advisor: liu-zhangju\n    notes: \"北京大学数学科学学院，导师刘张炬 (Zhang-Ju Liu)，学位论文 On transitive Lie bialgebroids and Poisson groupoids\"\n  - period: \"2004-2006\"\n    type: position\n    institution: capital-normal\n    role: \"博士后\"\n    notes: \"首都师范大学数学科学学院\"\n  - period: \"2006-2008\"\n    type: position\n    institution: pku\n    role: \"博士后\"\n    notes: \"北京大学数学科学学院\"\n  - period: \"2008-2009\"\n    type: position\n    institution: penn-state\n    role: \"讲师 (Lecturer)\"\n    notes: \"美国宾夕法尼亚州立大学数学系，与 Ping Xu / Mathieu Stiénon 合作\"\n  - period: \"2009-present\"\n    type: position\n    institution: tsinghua\n    role: \"讲师 → 副教授 (长聘)\"\n    notes: \"清华大学数学科学系，博士生导师，微分几何与几何分析团队\"\n  - period: \"2013\"\n    type: award\n    title: \"北京市科协青年优秀科技论文一等奖\"\n  - period: \"2014\"\n    type: award\n    title: \"清华大学学术新人奖\"\nresearch_areas:\n  - poisson-geometry\n  - lie-algebroid\n  - courant-algebroid\n  - atiyah-class\n  - deformation-quantization\n  - homotopy-algebra\nidentity_profile:\n  mathgenealogy_id: '176253'\n  affiliations:\n    - institution: 'pku'\n      period: '~2000-2004'\n      role: '博士, 基础数学'\n    - institution: 'capital-normal'\n      period: '2004-2006'\n      role: '博士后'\n    - institution: 'pku'\n      period: '2006-2008'\n      role: '博士后'\n    - institution: 'penn-state'\n      period: '2008-2009'\n      role: '讲师 (Lecturer)'\n    - institution: 'tsinghua'\n      period: '2009-present'\n      role: '讲师 → 副教授 (长聘)'\n  email_domains: [pku.edu.cn, tsinghua.edu.cn]\n  coauthor_circle_core_slugs: [liu-zhangju]\n  coauthor_circle_core_names: ['Zhang-Ju Liu']\n  coauthor_circle_extended_slugs: [bi-yanhui, cheng-jiahao, hu-chuangqiang, lang-honglei, ni-dadi, qiao-yu, xiang-maosong, xu-xu]\n  coauthor_circle_extended_names:\n    - 'Chuangqiang Hu'\n    - 'Dadi Ni'\n    - 'Honglei Lang'\n    - 'Jiahao Cheng'\n    - 'Maosong Xiang'\n    - 'Xu Xu'\n    - 'Yanhui Bi'\n    - 'Yu Qiao'\n  research_keywords: [algebroid, atiyah, courant, deformation, geometry, homotopy, poisson, quantization]\n  known_arxiv_ids:\n    - '2512.03860'\n    - '2512.03391'\n    - '2508.02019'\n    - '2506.18360'\n    - '2412.09039'\n    - '2309.04180'\n    - '2309.00432'\n    - '2302.01294'\n    - '2211.06943'\n    - '2210.01999'\n    - '2206.10091'\n    - '2201.13068'\n    - '2201.06242'\n    - '2110.11623'\n    - '2105.15019'\n    - '2103.08096'\n    - '2012.14109'\n    - '2003.13384'\n    - '1912.02668'\n    - '1911.01388'\n    - '1808.08576'\n    - '1806.01283'\n    - '1712.00665'\n    - '1711.11253'\n    - '1609.00984'\n    - '1603.09634'\n    - '1509.01115'\n    - '1409.6803'\n    - '1408.0448'\n    - '1204.1075'\n    - '1202.0079'\n    - '1109.2290'\n    - '1103.0866'\n    - '0909.0319'\n    - '0904.4062'\n    - '0812.0422'\n    - '0805.4093'\n    - '0803.2376'\n    - '0802.3819'\nadvisor: liu-zhangju\nstudents: []\nkey_collaborators:\n  - person: \"Ping Xu\"\n    since: 2008\n    topic: \"Lie bialgebroids, Courant algebroids, Atiyah classes, dynamical twists\"\n    papers_count: 10\n    notes: \"Penn State 长期合作者\"\n  - person: \"Mathieu Stiénon\"\n    since: 2008\n    topic: \"Regular Courant algebroids, Atiyah classes, Lie pairs, homotopy Leibniz algebras\"\n    papers_count: 8\n    notes: \"Penn State 长期合作者\"\n  - person: liu-zhangju\n    since: 2005\n    topic: \"Transitive Lie bialgebroids, Poisson groupoids, Courant algebroids\"\n    papers_count: 3\n    notes: \"博士导师\"\n  - person: \"Ruggero Bandiera\"\n    since: 2017\n    topic: \"Shifted derived Poisson manifolds, Lie pairs\"\n    papers_count: 2\npublications:\n  - id: '2512.03391'\n    title: 'From n-systems to Lie and Courant algebroids'\n    year: 2025\n    coauthors: [bi-yanhui, 'Liqiang Cai', 'Zhixiong Chen']\n    primary_category: math.DG\n    sources: [arxiv]\n  - id: '2512.03860'\n    title: 'Infinitesimal deformations of Lie algebroid pairs'\n    year: 2025\n    coauthors: [ni-dadi, hu-chuangqiang, xiang-maosong]\n    primary_category: math.DG\n    openalex_id: W4417032814\n    sources: [arxiv, openalex]\n  - id: '2508.02019'\n    title: 'Brace $B_{\\infty}$ algebras associated with Hopf algebroids'\n    year: 2025\n    coauthors: [cheng-jiahao, qiao-yu]\n    primary_category: math.QA\n  - id: '2506.18360'\n    title: 'Atiyah constructions for Lie algebroid connections on fiber bundles'\n    year: 2025\n    coauthors: [ni-dadi, 'Chen He']\n    primary_category: math.DG\n    sources: [arxiv]\n  - id: '2412.09039'\n    title: 'From smooth dynamical twists to twistors of quantum groupoids'\n    year: 2024\n    coauthors: [cheng-jiahao, qiao-yu, xiang-maosong]\n    journal: 'Journal of Geometry and Physics, 219 (2026)'\n    primary_category: math.QA\n    openalex_id: W4405354862\n    sources: [arxiv, openalex]\n  - id: '2309.04180'\n    title: 'The geometric constraints on Filippov algebroids'\n    year: 2023\n    coauthors: [xiang-maosong, bi-yanhui, 'Zhixiong Chen']\n    doi: '10.3934/math.2024539'\n    journal: 'AIMS Mathematics, 2024, 9(5):11007-11023'\n    primary_category: math.RA\n    openalex_id: W4393003592\n    sources: [arxiv, openalex]\n  - id: '2309.00432'\n    title: 'Drinfeld Modular Curves Subordinate to Conjugacy Classes of Nilpotent Upper-Triangular Matrices'\n    year: 2023\n    coauthors: [hu-chuangqiang, 'Tao Zhang', 'Xiaopeng Zheng']\n    primary_category: math.NT\n    openalex_id: W4386436307\n    sources: [arxiv, openalex]\n  - id: '2302.01294'\n    title: 'The weak Lie 2-algebra of multiplicative forms on a quasi-Poisson groupoid'\n    year: 2023\n    coauthors: [lang-honglei, liu-zhangju]\n    doi: '10.1007/s00220-024-05015-5'\n    journal: 'Communications in Mathematical Physics'\n    primary_category: math.DG\n    sources: [arxiv]\n  - id: '2211.06943'\n    title: 'MSW-type compactifications of 6d $(1,0)$ SCFTs on 4-manifolds'\n    year: 2022\n    coauthors: ['Jin Chen', 'Wei Cui', 'Babak Haghighat']\n    doi: '10.4310/atmp.2023.v27.n6.a5'\n    journal: 'Advances in Theoretical and Mathematical Physics'\n    primary_category: hep-th\n  - id: '2210.01999'\n    title: 'Locally finite infinity-modules and weak Loday-Pirashvili modules over differential graded Lie algebras'\n    year: 2022\n    coauthors: [qiao-yu, xiang-maosong, 'Tao Zhang']\n    primary_category: math.RT\n    openalex_id: W4303449718\n    sources: [arxiv, openalex]\n  - id: '2206.10091'\n    title: 'Dirac generating operators of split Courant algebroids'\n    year: 2022\n    coauthors: [lang-honglei, xiang-maosong, 'Liqiang Cai']\n    journal: 'Journal of Geometry and Physics'\n    primary_category: math.DG\n    openalex_id: W4283317662\n    sources: [arxiv, openalex]\n  - id: '2201.13068'\n    title: 'Internal symmetry of the $L_{\\leqslant 3}$ algebra arising from a Lie pair'\n    year: 2022\n    coauthors: [ni-dadi, cheng-jiahao, 'Chen He']\n    doi: '10.4310/pamq.2023.v19.n4.a16'\n    journal: 'Pure Appl. Math. Q., Vol. 19 (2023) No. 4, 2195-2234'\n    primary_category: math.DG\n    openalex_id: W4221152106\n    sources: [arxiv, openalex]\n  - id: '2201.06242'\n    title: 'Multiplicative forms on Poisson groupoids'\n    year: 2022\n    coauthors: [lang-honglei, liu-zhangju]\n    doi: '10.1007/s11425-023-2231-1'\n    journal: 'Science China Mathematics'\n    primary_category: math.DG\n    sources: [arxiv]\n  - id: '2110.11623'\n    title: 'Dg Loday-Pirashvili modules over Lie algebras'\n    year: 2021\n    coauthors: [qiao-yu, xiang-maosong, 'Tao Zhang']\n    doi: '10.1007/s40062-024-00361-6'\n    journal: 'Journal of Homotopy and Related Structures, 2025'\n    primary_category: math.RA\n    openalex_id: W3208496323\n    sources: [arxiv, openalex]\n  - id: '2105.15019'\n    title: 'The standard cohomology of regular Courant algebroids'\n    year: 2021\n    coauthors: [xiang-maosong, 'Xiongwei Cai']\n    doi: '10.1016/j.aim.2022.108776'\n    journal: 'Adv. Math. 411 (2022)'\n    primary_category: math.DG\n    openalex_id: W3171040318\n    sources: [arxiv, openalex]\n  - id: '2103.08096'\n    title: 'Hochschild cohomology of dg manifolds associated to integrable distributions'\n    year: 2021\n    coauthors: [xiang-maosong, 'Ping Xu']\n    doi: '10.1007/s00220-022-04473-z'\n    journal: 'Communications in Mathematical Physics'\n    primary_category: math.DG\n    openalex_id: W3138327821\n    sources: [arxiv, openalex]\n  - id: '2012.14109'\n    title: 'A GLSM view on Homological Projective Duality'\n    year: 2020\n    coauthors: ['Jirui Guo', 'Mauricio Romo']\n    doi: '10.1007/s00220-022-04401-1'\n    journal: 'Communications in Mathematical Physics'\n    primary_category: hep-th\n  - id: '2003.13384'\n    title: 'On the reduced space of multiplicative multivectors'\n    year: 2020\n    coauthors: [lang-honglei, liu-zhangju]\n    primary_category: math.AG\n    sources: [arxiv]\n  - id: '1912.02668'\n    title: 'A Modular Interpretation of BBGS Towers'\n    year: 2019\n    coauthors: [hu-chuangqiang, 'Rui Chen']\n    doi: '10.1016/j.jnt.2020.06.006'\n    journal: 'Journal of Number Theory'\n    primary_category: math.NT\n    sources: [arxiv]\n  - id: '1911.01388'\n    title: 'Hopf algebras arising from dg manifolds'\n    year: 2019\n    coauthors: [cheng-jiahao, ni-dadi]\n    doi: '10.1016/j.jalgebra.2021.05.004'\n    journal: 'J. Algebra 584 (2021)'\n    primary_category: math.DG\n    openalex_id: W2984093544\n    sources: [arxiv, openalex]\n  - id: '1808.08576'\n    title: 'Kapranov''s construction of sh Leibniz algebras'\n    year: 2018\n    coauthors: [xiang-maosong, liu-zhangju]\n    doi: '10.4310/hha.2020.v22.n1.a9'\n    journal: 'Homology, Homotopy and Applications, vol.22(1), 2020'\n    primary_category: math.QA\n    openalex_id: W2888283784\n    sources: [arxiv, openalex]\n  - id: '1806.01283'\n    title: 'Landau-Ginzburg models for certain fiber products with curves'\n    year: 2018\n    coauthors: ['Tony Pantev', 'Eric Sharpe']\n    doi: '10.1016/j.geomphys.2018.11.012'\n    primary_category: hep-th\n  - id: '1712.00665'\n    title: 'Shifted derived Poisson manifolds associated with Lie pairs'\n    year: 2017\n    coauthors: ['Ruggero Bandiera', 'Mathieu Stiénon', 'Ping Xu']\n    doi: '10.1007/s00220-019-03457-w'\n    journal: 'Comm. Math. Phys. 375.3 (2020), pp. 1717-1760'\n    primary_category: math.QA\n  - id: '1711.11253'\n    title: 'Atiyah and Todd classes arising from integrable distributions'\n    year: 2017\n    coauthors: [xiang-maosong, 'Ping Xu']\n    doi: '10.1016/j.geomphys.2018.10.011'\n    journal: 'Journal of Geometry and Physics 136 (2019)'\n    primary_category: math.DG\n    openalex_id: W2771361481\n    sources: [arxiv, openalex]\n  - id: '1609.00984'\n    title: 'Atiyah classes of strongly homotopy Lie pairs'\n    year: 2016\n    coauthors: [lang-honglei, xiang-maosong]\n    doi: '10.1142/s1005386719000178'\n    journal: 'Algebra Colloquium 2019'\n    primary_category: math.QA\n    openalex_id: W2512825295\n    sources: [arxiv, openalex]\n  - id: '1603.09634'\n    title: 'Toda-like (0,2) mirrors to products of projective spaces'\n    year: 2016\n    coauthors: ['Eric Sharpe', 'Ruoxu Wu']\n    doi: '10.1007/jhep08(2016)093'\n    journal: 'JHEP 1608 (2016) 093'\n    primary_category: hep-th\n  - id: '1509.01115'\n    title: 'Holomorphic Poisson Structures and its Cohomology on Nilmanifolds'\n    year: 2015\n    coauthors: ['Anna Fino', 'Yat-Sun Poon']\n    journal: 'Differential Geometry and its Applications;44(2016);144-160'\n    primary_category: math.DG\n  - id: '1409.6803'\n    title: 'A Hopf algebra associated to a Lie pair'\n    year: 2014\n    coauthors: ['Mathieu Stiénon', 'Ping Xu']\n    doi: '10.1016/j.crma.2014.09.010'\n    journal: 'C. R. Math. Acad. Sci. Paris 352 (2014), no. 11, 929-933'\n    primary_category: math.AG\n  - id: '1408.0448'\n    title: 'Holomorphic Poisson Cohomology'\n    year: 2014\n    coauthors: ['Daniele Grandini', 'Yat-Sun Poon']\n    doi: '10.1515/coma-2015-0005'\n    journal: 'Complex Manifolds'\n    primary_category: math.DG\n  - id: '1204.1075'\n    title: 'From Atiyah Classes to Homotopy Leibniz Algebras'\n    year: 2012\n    coauthors: ['Mathieu Stiénon', 'Ping Xu']\n    doi: '10.1007/s00220-015-2494-6'\n    journal: 'Comm. Math. Phys. 341 (2016), no. 1, 309-349'\n    primary_category: math.DG\n  - id: '1202.0079'\n    title: 'Poisson 2-groups'\n    year: 2012\n    coauthors: ['Mathieu Stienon', 'Ping Xu']\n    doi: '10.4310/jdg/1367438648'\n    journal: 'J. Differential Geom. 94 (2013), no. 2, 209-240'\n    primary_category: math.DG\n  - id: '1109.2290'\n    title: 'Weak Lie 2-bialgebra'\n    year: 2011\n    coauthors: ['Mathieu Stienon', 'Ping Xu']\n    doi: '10.1016/j.geomphys.2013.01.006'\n    journal: 'Journal of Geometry and Physics 68 (2013) 59--68'\n    primary_category: math-ph\n  - id: '1103.0866'\n    title: 'On Double Vector Bundles'\n    year: 2011\n    coauthors: [liu-zhangju, 'Yunhe Sheng']\n    journal: 'Acta. Math. Sinica, 30 (10), (2014), 1655-1673'\n    primary_category: math.DG\n  - id: '0909.0319'\n    title: 'On Regular Courant Algebroids'\n    year: 2009\n    coauthors: ['Mathieu Stienon', 'Ping Xu']\n    doi: '10.4310/jsg.2013.v11.n1.a1'\n    journal: 'Journal of Symplectic Geometry 11 (2013), no. 1, 1-24'\n    primary_category: math.DG\n  - id: '0904.4062'\n    title: 'Geometry of Maurer-Cartan Elements on Complex Manifolds'\n    year: 2009\n    coauthors: ['Mathieu Stienon', 'Ping Xu']\n    doi: '10.1007/s00220-010-1029-4'\n    journal: 'Comm. Math. Phys. 297 (2010), no. 1, 169-187'\n    primary_category: math.DG\n  - id: '0812.0422'\n    title: 'On the $\\pd$- and $\\barpd$-Operators of a Generalized Complex Structure'\n    year: 2008\n    coauthors: []\n    doi: '10.2140/pjm.2009.242.53'\n    journal: 'Pacific Journal of Mathematics'\n    primary_category: math.DG\n  - id: '0805.4093'\n    title: 'E-Courant algebroids'\n    year: 2008\n    coauthors: [liu-zhangju, 'Yunhe Sheng']\n    doi: '10.1093/imrn/rnq053'\n    journal: 'Int.Math.Res.Not.2010:4334-4376,2010'\n    primary_category: math.DG\n  - id: '0803.2376'\n    title: 'Dirac generating operators and Manin triples'\n    year: 2008\n    coauthors: ['Mathieu Stienon']\n    doi: '10.1112/jlms/jdn084'\n    journal: 'J. Lond. Math. Soc. (2) 79 (2009), 399-421'\n    primary_category: math.DG\n  - id: '0802.3819'\n    title: 'Dirac structures of omni-Lie algebroids'\n    year: 2008\n    coauthors: [liu-zhangju, 'Yunhe Sheng']\n    primary_category: math.DG\nactivity:\n  total_papers: 39\n  published_count: 31\n  preprint_only_count: 8\n  active_period: '2005-present'\n  peak_period: '2020-present'\nexternal_ids:\n  mathgenealogy: \"176253\"\nlinks:\n  homepage: 'None'\n  freekaoyan: 'http://school.freekaoyan.com/bj/tsinghua/daoshi/2020/04-16/15870262981089851.shtml'\npersonal_notes: '北大博士（2004, 导师刘张炬）→ 首师大博后 → 北大博后 → Penn State 讲师 → 清华副教授 (2009-)。\n\n  核心研究：Poisson 几何、Lie algebroid / Courant algebroid、Atiyah class、形变量子化。\n\n  与 Penn State 的 Ping Xu、Mathieu Stiénon 长期合作，代表作包括 Atiyah Classes to Homotopy\n\n  Leibniz Algebras (CMP 2016)、Regular Courant Algebroids (J. Symplectic Geom. 2013)、\n\n  Poisson 2-groups 等。\n\n  2013 北京市科协青年优秀科技论文一等奖；2014 清华大学学术新人奖。\n\n  师承路径: 刘张炬 (PKU) → 陈酌 (Tsinghua)。刘张炬是中国 Poisson 几何学派的代表人物。\n\n  2026 HUST 会议参会人员 (未做邀请报告)。\n\n\n  现职：清华大学数学科学系副教授/教授（[待验证职级]）\n\n  学历：北大数学博士（[待验证]，与 Ping Xu/Zhang-Ju Liu 学派密切）\n\n  重要奖项：NSFC 多项；与 Stiénon-Xu 长期合作（Penn State 学派）\n\n  与倪大地、向茂松、程家豪等有合著论文；本轮未据合著关系认定师承。\n\n  '\nsources:\n  - label: 'Math Genealogy'\n    url: 'https://www.mathgenealogy.org/id.php?id=176253'\n  - label: '清华数学系教师信息 (freekaoyan 转载)'\n    url: 'http://school.freekaoyan.com/bj/tsinghua/daoshi/2020/04-16/15870262981089851.shtml'\n  - label: '清华数学系微分几何与几何分析团队介绍'\n    url: 'https://www.math.tsinghua.edu.cn/info/1013/1639.htm'\n  - label: '信息源'\n    url: 'https://arxiv.org/abs/2201.06242'\n  - label: '信息源'\n    url: 'https://arxiv.org/abs/1202.0079'\n  - label: '信息源'\n    url: 'https://arxiv.org/abs/1712.00665'\ntags:\n  - tsinghua\n",
+  "field_changes": {
+    "activity": {
+      "before": {
+        "total_papers": 39,
+        "published_count": 31,
+        "preprint_only_count": 8,
+        "active_period": "2005-present",
+        "peak_period": "2020-present"
+      },
+      "after": {
+        "total_papers": 35,
+        "published_count": 27,
+        "preprint_only_count": 8,
+        "active_period": "2005-present",
+        "peak_period": "2020-present"
+      }
+    },
+    "sources": {
+      "before": [
+        {
+          "label": "Math Genealogy",
+          "url": "https://www.mathgenealogy.org/id.php?id=176253"
+        },
+        {
+          "label": "清华数学系教师信息 (freekaoyan 转载)",
+          "url": "http://school.freekaoyan.com/bj/tsinghua/daoshi/2020/04-16/15870262981089851.shtml"
+        },
+        {
+          "label": "清华数学系微分几何与几何分析团队介绍",
+          "url": "https://www.math.tsinghua.edu.cn/info/1013/1639.htm"
+        },
+        {
+          "label": "信息源",
+          "url": "https://arxiv.org/abs/2201.06242"
+        },
+        {
+          "label": "信息源",
+          "url": "https://arxiv.org/abs/1202.0079"
+        },
+        {
+          "label": "信息源",
+          "url": "https://arxiv.org/abs/1712.00665"
+        }
+      ],
+      "after": [
+        {
+          "label": "[Codex] 清华数学系官方教师页：陈酌",
+          "url": "https://math.tsinghua.edu.cn/info/1125/2644.htm",
+          "last_verified": "2026-10-08",
+          "notes": "核对2004博士学位、四段任职起止月份、当前副教授、公开邮箱及两项既有奖项；博士入学年与晋升副教授日期未列，不倒推。"
+        },
+        {
+          "label": "[Codex] 2309.00432：作者单位与邮箱",
+          "url": "https://arxiv.org/pdf/2309.00432v1",
+          "last_verified": "2026-10-08",
+          "notes": "末页陈酌署名清华数学系，chenzhuo@tsinghua.edu.cn与官方教师页一致；数论方向不构成同名排除理由。"
+        },
+        {
+          "label": "[Codex] 1912.02668：作者单位与邮箱",
+          "url": "https://arxiv.org/pdf/1912.02668v2",
+          "last_verified": "2026-10-08",
+          "notes": "末页Zhuo Chen署名清华数学系、chenzhuo@mail.tsinghua.edu.cn；与2309.00432共享Chuangqiang Hu合著及单位线索，保留归属。"
+        },
+        {
+          "label": "Math Genealogy",
+          "url": "https://www.mathgenealogy.org/id.php?id=176253"
+        },
+        {
+          "label": "清华数学系教师信息 (freekaoyan 转载)",
+          "url": "http://school.freekaoyan.com/bj/tsinghua/daoshi/2020/04-16/15870262981089851.shtml"
+        },
+        {
+          "label": "清华数学系微分几何与几何分析团队介绍",
+          "url": "https://www.math.tsinghua.edu.cn/info/1013/1639.htm"
+        },
+        {
+          "label": "信息源",
+          "url": "https://arxiv.org/abs/2201.06242"
+        },
+        {
+          "label": "信息源",
+          "url": "https://arxiv.org/abs/1202.0079"
+        },
+        {
+          "label": "信息源",
+          "url": "https://arxiv.org/abs/1712.00665"
+        }
+      ]
+    },
+    "known_emails": {
+      "before": null,
+      "after": [
+        "chenzhuo@tsinghua.edu.cn",
+        "chenzhuo@mail.tsinghua.edu.cn"
+      ]
+    },
+    "career_timeline": {
+      "before": [
+        {
+          "period": "~2000-2004",
+          "type": "education",
+          "institution": "pku",
+          "role": "博士, 基础数学",
+          "advisor": "liu-zhangju",
+          "notes": "北京大学数学科学学院，导师刘张炬 (Zhang-Ju Liu)，学位论文 On transitive Lie bialgebroids and Poisson groupoids"
+        },
+        {
+          "period": "2004-2006",
+          "type": "position",
+          "institution": "capital-normal",
+          "role": "博士后",
+          "notes": "首都师范大学数学科学学院"
+        },
+        {
+          "period": "2006-2008",
+          "type": "position",
+          "institution": "pku",
+          "role": "博士后",
+          "notes": "北京大学数学科学学院"
+        },
+        {
+          "period": "2008-2009",
+          "type": "position",
+          "institution": "penn-state",
+          "role": "讲师 (Lecturer)",
+          "notes": "美国宾夕法尼亚州立大学数学系，与 Ping Xu / Mathieu Stiénon 合作"
+        },
+        {
+          "period": "2009-present",
+          "type": "position",
+          "institution": "tsinghua",
+          "role": "讲师 → 副教授 (长聘)",
+          "notes": "清华大学数学科学系，博士生导师，微分几何与几何分析团队"
+        },
+        {
+          "period": "2013",
+          "type": "award",
+          "title": "北京市科协青年优秀科技论文一等奖"
+        },
+        {
+          "period": "2014",
+          "type": "award",
+          "title": "清华大学学术新人奖"
+        }
+      ],
+      "after": [
+        {
+          "period": "2004",
+          "type": "education",
+          "institution": "pku",
+          "role": "博士, 基础数学",
+          "advisor": "liu-zhangju",
+          "notes": "2004年获北京大学博士，入学年份待核。导师与论文题名沿用MGP记录：刘张炬 (Zhang-Ju Liu)，On transitive Lie bialgebroids and Poisson groupoids；本批未核原始博士论文。"
+        },
+        {
+          "period": "2004.07-2006.07",
+          "type": "position",
+          "institution": "capital-normal",
+          "role": "博士后",
+          "notes": "首都师范大学数学科学学院"
+        },
+        {
+          "period": "2006.07-2008.07",
+          "type": "position",
+          "institution": "pku",
+          "role": "博士后",
+          "notes": "北京大学数学科学学院"
+        },
+        {
+          "period": "2008.08-2009.05",
+          "type": "position",
+          "institution": "penn-state",
+          "role": "讲师 (Lecturer)",
+          "notes": "美国宾夕法尼亚州立大学数学系，与 Ping Xu / Mathieu Stiénon 合作"
+        },
+        {
+          "period": "2009.05-present",
+          "type": "position",
+          "institution": "tsinghua",
+          "role": "讲师、副教授（现列副教授）",
+          "notes": "清华大学数学科学系，博士生导师，微分几何与几何分析团队"
+        },
+        {
+          "period": "2013",
+          "type": "award",
+          "title": "北京市科协青年优秀科技论文一等奖"
+        },
+        {
+          "period": "2014",
+          "type": "award",
+          "title": "清华大学学术新人奖"
+        }
+      ]
+    },
+    "known_affiliations": {
+      "before": null,
+      "after": [
+        "Department of Mathematical Sciences, Tsinghua University"
+      ]
+    },
+    "publications": {
+      "before": [
+        {
+          "id": "2512.03391",
+          "title": "From n-systems to Lie and Courant algebroids",
+          "year": 2025,
+          "coauthors": [
+            "bi-yanhui",
+            "Liqiang Cai",
+            "Zhixiong Chen"
+          ],
+          "primary_category": "math.DG",
+          "sources": [
+            "arxiv"
+          ]
+        },
+        {
+          "id": "2512.03860",
+          "title": "Infinitesimal deformations of Lie algebroid pairs",
+          "year": 2025,
+          "coauthors": [
+            "ni-dadi",
+            "hu-chuangqiang",
+            "xiang-maosong"
+          ],
+          "primary_category": "math.DG",
+          "openalex_id": "W4417032814",
+          "sources": [
+            "arxiv",
+            "openalex"
+          ]
+        },
+        {
+          "id": "2508.02019",
+          "title": "Brace $B_{\\infty}$ algebras associated with Hopf algebroids",
+          "year": 2025,
+          "coauthors": [
+            "cheng-jiahao",
+            "qiao-yu"
+          ],
+          "primary_category": "math.QA"
+        },
+        {
+          "id": "2506.18360",
+          "title": "Atiyah constructions for Lie algebroid connections on fiber bundles",
+          "year": 2025,
+          "coauthors": [
+            "ni-dadi",
+            "Chen He"
+          ],
+          "primary_category": "math.DG",
+          "sources": [
+            "arxiv"
+          ]
+        },
+        {
+          "id": "2412.09039",
+          "title": "From smooth dynamical twists to twistors of quantum groupoids",
+          "year": 2024,
+          "coauthors": [
+            "cheng-jiahao",
+            "qiao-yu",
+            "xiang-maosong"
+          ],
+          "journal": "Journal of Geometry and Physics, 219 (2026)",
+          "primary_category": "math.QA",
+          "openalex_id": "W4405354862",
+          "sources": [
+            "arxiv",
+            "openalex"
+          ]
+        },
+        {
+          "id": "2309.04180",
+          "title": "The geometric constraints on Filippov algebroids",
+          "year": 2023,
+          "coauthors": [
+            "xiang-maosong",
+            "bi-yanhui",
+            "Zhixiong Chen"
+          ],
+          "doi": "10.3934/math.2024539",
+          "journal": "AIMS Mathematics, 2024, 9(5):11007-11023",
+          "primary_category": "math.RA",
+          "openalex_id": "W4393003592",
+          "sources": [
+            "arxiv",
+            "openalex"
+          ]
+        },
+        {
+          "id": "2309.00432",
+          "title": "Drinfeld Modular Curves Subordinate to Conjugacy Classes of Nilpotent Upper-Triangular Matrices",
+          "year": 2023,
+          "coauthors": [
+            "hu-chuangqiang",
+            "Tao Zhang",
+            "Xiaopeng Zheng"
+          ],
+          "primary_category": "math.NT",
+          "openalex_id": "W4386436307",
+          "sources": [
+            "arxiv",
+            "openalex"
+          ]
+        },
+        {
+          "id": "2302.01294",
+          "title": "The weak Lie 2-algebra of multiplicative forms on a quasi-Poisson groupoid",
+          "year": 2023,
+          "coauthors": [
+            "lang-honglei",
+            "liu-zhangju"
+          ],
+          "doi": "10.1007/s00220-024-05015-5",
+          "journal": "Communications in Mathematical Physics",
+          "primary_category": "math.DG",
+          "sources": [
+            "arxiv"
+          ]
+        },
+        {
+          "id": "2211.06943",
+          "title": "MSW-type compactifications of 6d $(1,0)$ SCFTs on 4-manifolds",
+          "year": 2022,
+          "coauthors": [
+            "Jin Chen",
+            "Wei Cui",
+            "Babak Haghighat"
+          ],
+          "doi": "10.4310/atmp.2023.v27.n6.a5",
+          "journal": "Advances in Theoretical and Mathematical Physics",
+          "primary_category": "hep-th"
+        },
+        {
+          "id": "2210.01999",
+          "title": "Locally finite infinity-modules and weak Loday-Pirashvili modules over differential graded Lie algebras",
+          "year": 2022,
+          "coauthors": [
+            "qiao-yu",
+            "xiang-maosong",
+            "Tao Zhang"
+          ],
+          "primary_category": "math.RT",
+          "openalex_id": "W4303449718",
+          "sources": [
+            "arxiv",
+            "openalex"
+          ]
+        },
+        {
+          "id": "2206.10091",
+          "title": "Dirac generating operators of split Courant algebroids",
+          "year": 2022,
+          "coauthors": [
+            "lang-honglei",
+            "xiang-maosong",
+            "Liqiang Cai"
+          ],
+          "journal": "Journal of Geometry and Physics",
+          "primary_category": "math.DG",
+          "openalex_id": "W4283317662",
+          "sources": [
+            "arxiv",
+            "openalex"
+          ]
+        },
+        {
+          "id": "2201.13068",
+          "title": "Internal symmetry of the $L_{\\leqslant 3}$ algebra arising from a Lie pair",
+          "year": 2022,
+          "coauthors": [
+            "ni-dadi",
+            "cheng-jiahao",
+            "Chen He"
+          ],
+          "doi": "10.4310/pamq.2023.v19.n4.a16",
+          "journal": "Pure Appl. Math. Q., Vol. 19 (2023) No. 4, 2195-2234",
+          "primary_category": "math.DG",
+          "openalex_id": "W4221152106",
+          "sources": [
+            "arxiv",
+            "openalex"
+          ]
+        },
+        {
+          "id": "2201.06242",
+          "title": "Multiplicative forms on Poisson groupoids",
+          "year": 2022,
+          "coauthors": [
+            "lang-honglei",
+            "liu-zhangju"
+          ],
+          "doi": "10.1007/s11425-023-2231-1",
+          "journal": "Science China Mathematics",
+          "primary_category": "math.DG",
+          "sources": [
+            "arxiv"
+          ]
+        },
+        {
+          "id": "2110.11623",
+          "title": "Dg Loday-Pirashvili modules over Lie algebras",
+          "year": 2021,
+          "coauthors": [
+            "qiao-yu",
+            "xiang-maosong",
+            "Tao Zhang"
+          ],
+          "doi": "10.1007/s40062-024-00361-6",
+          "journal": "Journal of Homotopy and Related Structures, 2025",
+          "primary_category": "math.RA",
+          "openalex_id": "W3208496323",
+          "sources": [
+            "arxiv",
+            "openalex"
+          ]
+        },
+        {
+          "id": "2105.15019",
+          "title": "The standard cohomology of regular Courant algebroids",
+          "year": 2021,
+          "coauthors": [
+            "xiang-maosong",
+            "Xiongwei Cai"
+          ],
+          "doi": "10.1016/j.aim.2022.108776",
+          "journal": "Adv. Math. 411 (2022)",
+          "primary_category": "math.DG",
+          "openalex_id": "W3171040318",
+          "sources": [
+            "arxiv",
+            "openalex"
+          ]
+        },
+        {
+          "id": "2103.08096",
+          "title": "Hochschild cohomology of dg manifolds associated to integrable distributions",
+          "year": 2021,
+          "coauthors": [
+            "xiang-maosong",
+            "Ping Xu"
+          ],
+          "doi": "10.1007/s00220-022-04473-z",
+          "journal": "Communications in Mathematical Physics",
+          "primary_category": "math.DG",
+          "openalex_id": "W3138327821",
+          "sources": [
+            "arxiv",
+            "openalex"
+          ]
+        },
+        {
+          "id": "2012.14109",
+          "title": "A GLSM view on Homological Projective Duality",
+          "year": 2020,
+          "coauthors": [
+            "Jirui Guo",
+            "Mauricio Romo"
+          ],
+          "doi": "10.1007/s00220-022-04401-1",
+          "journal": "Communications in Mathematical Physics",
+          "primary_category": "hep-th"
+        },
+        {
+          "id": "2003.13384",
+          "title": "On the reduced space of multiplicative multivectors",
+          "year": 2020,
+          "coauthors": [
+            "lang-honglei",
+            "liu-zhangju"
+          ],
+          "primary_category": "math.AG",
+          "sources": [
+            "arxiv"
+          ]
+        },
+        {
+          "id": "1912.02668",
+          "title": "A Modular Interpretation of BBGS Towers",
+          "year": 2019,
+          "coauthors": [
+            "hu-chuangqiang",
+            "Rui Chen"
+          ],
+          "doi": "10.1016/j.jnt.2020.06.006",
+          "journal": "Journal of Number Theory",
+          "primary_category": "math.NT",
+          "sources": [
+            "arxiv"
+          ]
+        },
+        {
+          "id": "1911.01388",
+          "title": "Hopf algebras arising from dg manifolds",
+          "year": 2019,
+          "coauthors": [
+            "cheng-jiahao",
+            "ni-dadi"
+          ],
+          "doi": "10.1016/j.jalgebra.2021.05.004",
+          "journal": "J. Algebra 584 (2021)",
+          "primary_category": "math.DG",
+          "openalex_id": "W2984093544",
+          "sources": [
+            "arxiv",
+            "openalex"
+          ]
+        },
+        {
+          "id": "1808.08576",
+          "title": "Kapranov's construction of sh Leibniz algebras",
+          "year": 2018,
+          "coauthors": [
+            "xiang-maosong",
+            "liu-zhangju"
+          ],
+          "doi": "10.4310/hha.2020.v22.n1.a9",
+          "journal": "Homology, Homotopy and Applications, vol.22(1), 2020",
+          "primary_category": "math.QA",
+          "openalex_id": "W2888283784",
+          "sources": [
+            "arxiv",
+            "openalex"
+          ]
+        },
+        {
+          "id": "1806.01283",
+          "title": "Landau-Ginzburg models for certain fiber products with curves",
+          "year": 2018,
+          "coauthors": [
+            "Tony Pantev",
+            "Eric Sharpe"
+          ],
+          "doi": "10.1016/j.geomphys.2018.11.012",
+          "primary_category": "hep-th"
+        },
+        {
+          "id": "1712.00665",
+          "title": "Shifted derived Poisson manifolds associated with Lie pairs",
+          "year": 2017,
+          "coauthors": [
+            "Ruggero Bandiera",
+            "Mathieu Stiénon",
+            "Ping Xu"
+          ],
+          "doi": "10.1007/s00220-019-03457-w",
+          "journal": "Comm. Math. Phys. 375.3 (2020), pp. 1717-1760",
+          "primary_category": "math.QA"
+        },
+        {
+          "id": "1711.11253",
+          "title": "Atiyah and Todd classes arising from integrable distributions",
+          "year": 2017,
+          "coauthors": [
+            "xiang-maosong",
+            "Ping Xu"
+          ],
+          "doi": "10.1016/j.geomphys.2018.10.011",
+          "journal": "Journal of Geometry and Physics 136 (2019)",
+          "primary_category": "math.DG",
+          "openalex_id": "W2771361481",
+          "sources": [
+            "arxiv",
+            "openalex"
+          ]
+        },
+        {
+          "id": "1609.00984",
+          "title": "Atiyah classes of strongly homotopy Lie pairs",
+          "year": 2016,
+          "coauthors": [
+            "lang-honglei",
+            "xiang-maosong"
+          ],
+          "doi": "10.1142/s1005386719000178",
+          "journal": "Algebra Colloquium 2019",
+          "primary_category": "math.QA",
+          "openalex_id": "W2512825295",
+          "sources": [
+            "arxiv",
+            "openalex"
+          ]
+        },
+        {
+          "id": "1603.09634",
+          "title": "Toda-like (0,2) mirrors to products of projective spaces",
+          "year": 2016,
+          "coauthors": [
+            "Eric Sharpe",
+            "Ruoxu Wu"
+          ],
+          "doi": "10.1007/jhep08(2016)093",
+          "journal": "JHEP 1608 (2016) 093",
+          "primary_category": "hep-th"
+        },
+        {
+          "id": "1509.01115",
+          "title": "Holomorphic Poisson Structures and its Cohomology on Nilmanifolds",
+          "year": 2015,
+          "coauthors": [
+            "Anna Fino",
+            "Yat-Sun Poon"
+          ],
+          "journal": "Differential Geometry and its Applications;44(2016);144-160",
+          "primary_category": "math.DG"
+        },
+        {
+          "id": "1409.6803",
+          "title": "A Hopf algebra associated to a Lie pair",
+          "year": 2014,
+          "coauthors": [
+            "Mathieu Stiénon",
+            "Ping Xu"
+          ],
+          "doi": "10.1016/j.crma.2014.09.010",
+          "journal": "C. R. Math. Acad. Sci. Paris 352 (2014), no. 11, 929-933",
+          "primary_category": "math.AG"
+        },
+        {
+          "id": "1408.0448",
+          "title": "Holomorphic Poisson Cohomology",
+          "year": 2014,
+          "coauthors": [
+            "Daniele Grandini",
+            "Yat-Sun Poon"
+          ],
+          "doi": "10.1515/coma-2015-0005",
+          "journal": "Complex Manifolds",
+          "primary_category": "math.DG"
+        },
+        {
+          "id": "1204.1075",
+          "title": "From Atiyah Classes to Homotopy Leibniz Algebras",
+          "year": 2012,
+          "coauthors": [
+            "Mathieu Stiénon",
+            "Ping Xu"
+          ],
+          "doi": "10.1007/s00220-015-2494-6",
+          "journal": "Comm. Math. Phys. 341 (2016), no. 1, 309-349",
+          "primary_category": "math.DG"
+        },
+        {
+          "id": "1202.0079",
+          "title": "Poisson 2-groups",
+          "year": 2012,
+          "coauthors": [
+            "Mathieu Stienon",
+            "Ping Xu"
+          ],
+          "doi": "10.4310/jdg/1367438648",
+          "journal": "J. Differential Geom. 94 (2013), no. 2, 209-240",
+          "primary_category": "math.DG"
+        },
+        {
+          "id": "1109.2290",
+          "title": "Weak Lie 2-bialgebra",
+          "year": 2011,
+          "coauthors": [
+            "Mathieu Stienon",
+            "Ping Xu"
+          ],
+          "doi": "10.1016/j.geomphys.2013.01.006",
+          "journal": "Journal of Geometry and Physics 68 (2013) 59--68",
+          "primary_category": "math-ph"
+        },
+        {
+          "id": "1103.0866",
+          "title": "On Double Vector Bundles",
+          "year": 2011,
+          "coauthors": [
+            "liu-zhangju",
+            "Yunhe Sheng"
+          ],
+          "journal": "Acta. Math. Sinica, 30 (10), (2014), 1655-1673",
+          "primary_category": "math.DG"
+        },
+        {
+          "id": "0909.0319",
+          "title": "On Regular Courant Algebroids",
+          "year": 2009,
+          "coauthors": [
+            "Mathieu Stienon",
+            "Ping Xu"
+          ],
+          "doi": "10.4310/jsg.2013.v11.n1.a1",
+          "journal": "Journal of Symplectic Geometry 11 (2013), no. 1, 1-24",
+          "primary_category": "math.DG"
+        },
+        {
+          "id": "0904.4062",
+          "title": "Geometry of Maurer-Cartan Elements on Complex Manifolds",
+          "year": 2009,
+          "coauthors": [
+            "Mathieu Stienon",
+            "Ping Xu"
+          ],
+          "doi": "10.1007/s00220-010-1029-4",
+          "journal": "Comm. Math. Phys. 297 (2010), no. 1, 169-187",
+          "primary_category": "math.DG"
+        },
+        {
+          "id": "0812.0422",
+          "title": "On the $\\pd$- and $\\barpd$-Operators of a Generalized Complex Structure",
+          "year": 2008,
+          "coauthors": [],
+          "doi": "10.2140/pjm.2009.242.53",
+          "journal": "Pacific Journal of Mathematics",
+          "primary_category": "math.DG"
+        },
+        {
+          "id": "0805.4093",
+          "title": "E-Courant algebroids",
+          "year": 2008,
+          "coauthors": [
+            "liu-zhangju",
+            "Yunhe Sheng"
+          ],
+          "doi": "10.1093/imrn/rnq053",
+          "journal": "Int.Math.Res.Not.2010:4334-4376,2010",
+          "primary_category": "math.DG"
+        },
+        {
+          "id": "0803.2376",
+          "title": "Dirac generating operators and Manin triples",
+          "year": 2008,
+          "coauthors": [
+            "Mathieu Stienon"
+          ],
+          "doi": "10.1112/jlms/jdn084",
+          "journal": "J. Lond. Math. Soc. (2) 79 (2009), 399-421",
+          "primary_category": "math.DG"
+        },
+        {
+          "id": "0802.3819",
+          "title": "Dirac structures of omni-Lie algebroids",
+          "year": 2008,
+          "coauthors": [
+            "liu-zhangju",
+            "Yunhe Sheng"
+          ],
+          "primary_category": "math.DG"
+        }
+      ],
+      "after": [
+        {
+          "id": "2512.03391",
+          "title": "From n-systems to Lie and Courant algebroids",
+          "year": 2025,
+          "coauthors": [
+            "bi-yanhui",
+            "Liqiang Cai",
+            "Zhixiong Chen"
+          ],
+          "primary_category": "math.DG",
+          "sources": [
+            "arxiv"
+          ]
+        },
+        {
+          "id": "2512.03860",
+          "title": "Infinitesimal deformations of Lie algebroid pairs",
+          "year": 2025,
+          "coauthors": [
+            "ni-dadi",
+            "hu-chuangqiang",
+            "xiang-maosong"
+          ],
+          "primary_category": "math.DG",
+          "openalex_id": "W4417032814",
+          "sources": [
+            "arxiv",
+            "openalex"
+          ]
+        },
+        {
+          "id": "2508.02019",
+          "title": "Brace $B_{\\infty}$ algebras associated with Hopf algebroids",
+          "year": 2025,
+          "coauthors": [
+            "cheng-jiahao",
+            "qiao-yu"
+          ],
+          "primary_category": "math.QA"
+        },
+        {
+          "id": "2506.18360",
+          "title": "Atiyah constructions for Lie algebroid connections on fiber bundles",
+          "year": 2025,
+          "coauthors": [
+            "ni-dadi",
+            "Chen He"
+          ],
+          "primary_category": "math.DG",
+          "sources": [
+            "arxiv"
+          ]
+        },
+        {
+          "id": "2412.09039",
+          "title": "From smooth dynamical twists to twistors of quantum groupoids",
+          "year": 2024,
+          "coauthors": [
+            "cheng-jiahao",
+            "qiao-yu",
+            "xiang-maosong"
+          ],
+          "journal": "Journal of Geometry and Physics, 219 (2026)",
+          "primary_category": "math.QA",
+          "openalex_id": "W4405354862",
+          "sources": [
+            "arxiv",
+            "openalex"
+          ]
+        },
+        {
+          "id": "2309.04180",
+          "title": "The geometric constraints on Filippov algebroids",
+          "year": 2023,
+          "coauthors": [
+            "xiang-maosong",
+            "bi-yanhui",
+            "Zhixiong Chen"
+          ],
+          "doi": "10.3934/math.2024539",
+          "journal": "AIMS Mathematics, 2024, 9(5):11007-11023",
+          "primary_category": "math.RA",
+          "openalex_id": "W4393003592",
+          "sources": [
+            "arxiv",
+            "openalex"
+          ]
+        },
+        {
+          "id": "2309.00432",
+          "title": "Drinfeld Modular Curves Subordinate to Conjugacy Classes of Nilpotent Upper-Triangular Matrices",
+          "year": 2023,
+          "coauthors": [
+            "hu-chuangqiang",
+            "Tao Zhang",
+            "Xiaopeng Zheng"
+          ],
+          "primary_category": "math.NT",
+          "openalex_id": "W4386436307",
+          "sources": [
+            "arxiv",
+            "openalex"
+          ]
+        },
+        {
+          "id": "2302.01294",
+          "title": "The weak Lie 2-algebra of multiplicative forms on a quasi-Poisson groupoid",
+          "year": 2023,
+          "coauthors": [
+            "lang-honglei",
+            "liu-zhangju"
+          ],
+          "doi": "10.1007/s00220-024-05015-5",
+          "journal": "Communications in Mathematical Physics",
+          "primary_category": "math.DG",
+          "sources": [
+            "arxiv"
+          ]
+        },
+        {
+          "id": "2210.01999",
+          "title": "Locally finite infinity-modules and weak Loday-Pirashvili modules over differential graded Lie algebras",
+          "year": 2022,
+          "coauthors": [
+            "qiao-yu",
+            "xiang-maosong",
+            "Tao Zhang"
+          ],
+          "primary_category": "math.RT",
+          "openalex_id": "W4303449718",
+          "sources": [
+            "arxiv",
+            "openalex"
+          ]
+        },
+        {
+          "id": "2206.10091",
+          "title": "Dirac generating operators of split Courant algebroids",
+          "year": 2022,
+          "coauthors": [
+            "lang-honglei",
+            "xiang-maosong",
+            "Liqiang Cai"
+          ],
+          "journal": "Journal of Geometry and Physics",
+          "primary_category": "math.DG",
+          "openalex_id": "W4283317662",
+          "sources": [
+            "arxiv",
+            "openalex"
+          ]
+        },
+        {
+          "id": "2201.13068",
+          "title": "Internal symmetry of the $L_{\\leqslant 3}$ algebra arising from a Lie pair",
+          "year": 2022,
+          "coauthors": [
+            "ni-dadi",
+            "cheng-jiahao",
+            "Chen He"
+          ],
+          "doi": "10.4310/pamq.2023.v19.n4.a16",
+          "journal": "Pure Appl. Math. Q., Vol. 19 (2023) No. 4, 2195-2234",
+          "primary_category": "math.DG",
+          "openalex_id": "W4221152106",
+          "sources": [
+            "arxiv",
+            "openalex"
+          ]
+        },
+        {
+          "id": "2201.06242",
+          "title": "Multiplicative forms on Poisson groupoids",
+          "year": 2022,
+          "coauthors": [
+            "lang-honglei",
+            "liu-zhangju"
+          ],
+          "doi": "10.1007/s11425-023-2231-1",
+          "journal": "Science China Mathematics",
+          "primary_category": "math.DG",
+          "sources": [
+            "arxiv"
+          ]
+        },
+        {
+          "id": "2110.11623",
+          "title": "Dg Loday-Pirashvili modules over Lie algebras",
+          "year": 2021,
+          "coauthors": [
+            "qiao-yu",
+            "xiang-maosong",
+            "Tao Zhang"
+          ],
+          "doi": "10.1007/s40062-024-00361-6",
+          "journal": "Journal of Homotopy and Related Structures, 2025",
+          "primary_category": "math.RA",
+          "openalex_id": "W3208496323",
+          "sources": [
+            "arxiv",
+            "openalex"
+          ]
+        },
+        {
+          "id": "2105.15019",
+          "title": "The standard cohomology of regular Courant algebroids",
+          "year": 2021,
+          "coauthors": [
+            "xiang-maosong",
+            "Xiongwei Cai"
+          ],
+          "doi": "10.1016/j.aim.2022.108776",
+          "journal": "Adv. Math. 411 (2022)",
+          "primary_category": "math.DG",
+          "openalex_id": "W3171040318",
+          "sources": [
+            "arxiv",
+            "openalex"
+          ]
+        },
+        {
+          "id": "2103.08096",
+          "title": "Hochschild cohomology of dg manifolds associated to integrable distributions",
+          "year": 2021,
+          "coauthors": [
+            "xiang-maosong",
+            "Ping Xu"
+          ],
+          "doi": "10.1007/s00220-022-04473-z",
+          "journal": "Communications in Mathematical Physics",
+          "primary_category": "math.DG",
+          "openalex_id": "W3138327821",
+          "sources": [
+            "arxiv",
+            "openalex"
+          ]
+        },
+        {
+          "id": "2003.13384",
+          "title": "On the reduced space of multiplicative multivectors",
+          "year": 2020,
+          "coauthors": [
+            "lang-honglei",
+            "liu-zhangju"
+          ],
+          "primary_category": "math.AG",
+          "sources": [
+            "arxiv"
+          ]
+        },
+        {
+          "id": "1912.02668",
+          "title": "A Modular Interpretation of BBGS Towers",
+          "year": 2019,
+          "coauthors": [
+            "hu-chuangqiang",
+            "Rui Chen"
+          ],
+          "doi": "10.1016/j.jnt.2020.06.006",
+          "journal": "Journal of Number Theory",
+          "primary_category": "math.NT",
+          "sources": [
+            "arxiv"
+          ]
+        },
+        {
+          "id": "1911.01388",
+          "title": "Hopf algebras arising from dg manifolds",
+          "year": 2019,
+          "coauthors": [
+            "cheng-jiahao",
+            "ni-dadi"
+          ],
+          "doi": "10.1016/j.jalgebra.2021.05.004",
+          "journal": "J. Algebra 584 (2021)",
+          "primary_category": "math.DG",
+          "openalex_id": "W2984093544",
+          "sources": [
+            "arxiv",
+            "openalex"
+          ]
+        },
+        {
+          "id": "1808.08576",
+          "title": "Kapranov's construction of sh Leibniz algebras",
+          "year": 2018,
+          "coauthors": [
+            "xiang-maosong",
+            "liu-zhangju"
+          ],
+          "doi": "10.4310/hha.2020.v22.n1.a9",
+          "journal": "Homology, Homotopy and Applications, vol.22(1), 2020",
+          "primary_category": "math.QA",
+          "openalex_id": "W2888283784",
+          "sources": [
+            "arxiv",
+            "openalex"
+          ]
+        },
+        {
+          "id": "1712.00665",
+          "title": "Shifted derived Poisson manifolds associated with Lie pairs",
+          "year": 2017,
+          "coauthors": [
+            "Ruggero Bandiera",
+            "Mathieu Stiénon",
+            "Ping Xu"
+          ],
+          "doi": "10.1007/s00220-019-03457-w",
+          "journal": "Comm. Math. Phys. 375.3 (2020), pp. 1717-1760",
+          "primary_category": "math.QA"
+        },
+        {
+          "id": "1711.11253",
+          "title": "Atiyah and Todd classes arising from integrable distributions",
+          "year": 2017,
+          "coauthors": [
+            "xiang-maosong",
+            "Ping Xu"
+          ],
+          "doi": "10.1016/j.geomphys.2018.10.011",
+          "journal": "Journal of Geometry and Physics 136 (2019)",
+          "primary_category": "math.DG",
+          "openalex_id": "W2771361481",
+          "sources": [
+            "arxiv",
+            "openalex"
+          ]
+        },
+        {
+          "id": "1609.00984",
+          "title": "Atiyah classes of strongly homotopy Lie pairs",
+          "year": 2016,
+          "coauthors": [
+            "lang-honglei",
+            "xiang-maosong"
+          ],
+          "doi": "10.1142/s1005386719000178",
+          "journal": "Algebra Colloquium 2019",
+          "primary_category": "math.QA",
+          "openalex_id": "W2512825295",
+          "sources": [
+            "arxiv",
+            "openalex"
+          ]
+        },
+        {
+          "id": "1509.01115",
+          "title": "Holomorphic Poisson Structures and its Cohomology on Nilmanifolds",
+          "year": 2015,
+          "coauthors": [
+            "Anna Fino",
+            "Yat-Sun Poon"
+          ],
+          "journal": "Differential Geometry and its Applications;44(2016);144-160",
+          "primary_category": "math.DG"
+        },
+        {
+          "id": "1409.6803",
+          "title": "A Hopf algebra associated to a Lie pair",
+          "year": 2014,
+          "coauthors": [
+            "Mathieu Stiénon",
+            "Ping Xu"
+          ],
+          "doi": "10.1016/j.crma.2014.09.010",
+          "journal": "C. R. Math. Acad. Sci. Paris 352 (2014), no. 11, 929-933",
+          "primary_category": "math.AG"
+        },
+        {
+          "id": "1408.0448",
+          "title": "Holomorphic Poisson Cohomology",
+          "year": 2014,
+          "coauthors": [
+            "Daniele Grandini",
+            "Yat-Sun Poon"
+          ],
+          "doi": "10.1515/coma-2015-0005",
+          "journal": "Complex Manifolds",
+          "primary_category": "math.DG"
+        },
+        {
+          "id": "1204.1075",
+          "title": "From Atiyah Classes to Homotopy Leibniz Algebras",
+          "year": 2012,
+          "coauthors": [
+            "Mathieu Stiénon",
+            "Ping Xu"
+          ],
+          "doi": "10.1007/s00220-015-2494-6",
+          "journal": "Comm. Math. Phys. 341 (2016), no. 1, 309-349",
+          "primary_category": "math.DG"
+        },
+        {
+          "id": "1202.0079",
+          "title": "Poisson 2-groups",
+          "year": 2012,
+          "coauthors": [
+            "Mathieu Stienon",
+            "Ping Xu"
+          ],
+          "doi": "10.4310/jdg/1367438648",
+          "journal": "J. Differential Geom. 94 (2013), no. 2, 209-240",
+          "primary_category": "math.DG"
+        },
+        {
+          "id": "1109.2290",
+          "title": "Weak Lie 2-bialgebra",
+          "year": 2011,
+          "coauthors": [
+            "Mathieu Stienon",
+            "Ping Xu"
+          ],
+          "doi": "10.1016/j.geomphys.2013.01.006",
+          "journal": "Journal of Geometry and Physics 68 (2013) 59--68",
+          "primary_category": "math-ph"
+        },
+        {
+          "id": "1103.0866",
+          "title": "On Double Vector Bundles",
+          "year": 2011,
+          "coauthors": [
+            "liu-zhangju",
+            "Yunhe Sheng"
+          ],
+          "journal": "Acta. Math. Sinica, 30 (10), (2014), 1655-1673",
+          "primary_category": "math.DG"
+        },
+        {
+          "id": "0909.0319",
+          "title": "On Regular Courant Algebroids",
+          "year": 2009,
+          "coauthors": [
+            "Mathieu Stienon",
+            "Ping Xu"
+          ],
+          "doi": "10.4310/jsg.2013.v11.n1.a1",
+          "journal": "Journal of Symplectic Geometry 11 (2013), no. 1, 1-24",
+          "primary_category": "math.DG"
+        },
+        {
+          "id": "0904.4062",
+          "title": "Geometry of Maurer-Cartan Elements on Complex Manifolds",
+          "year": 2009,
+          "coauthors": [
+            "Mathieu Stienon",
+            "Ping Xu"
+          ],
+          "doi": "10.1007/s00220-010-1029-4",
+          "journal": "Comm. Math. Phys. 297 (2010), no. 1, 169-187",
+          "primary_category": "math.DG"
+        },
+        {
+          "id": "0812.0422",
+          "title": "On the $\\pd$- and $\\barpd$-Operators of a Generalized Complex Structure",
+          "year": 2008,
+          "coauthors": [],
+          "doi": "10.2140/pjm.2009.242.53",
+          "journal": "Pacific Journal of Mathematics",
+          "primary_category": "math.DG"
+        },
+        {
+          "id": "0805.4093",
+          "title": "E-Courant algebroids",
+          "year": 2008,
+          "coauthors": [
+            "liu-zhangju",
+            "Yunhe Sheng"
+          ],
+          "doi": "10.1093/imrn/rnq053",
+          "journal": "Int.Math.Res.Not.2010:4334-4376,2010",
+          "primary_category": "math.DG"
+        },
+        {
+          "id": "0803.2376",
+          "title": "Dirac generating operators and Manin triples",
+          "year": 2008,
+          "coauthors": [
+            "Mathieu Stienon"
+          ],
+          "doi": "10.1112/jlms/jdn084",
+          "journal": "J. Lond. Math. Soc. (2) 79 (2009), 399-421",
+          "primary_category": "math.DG"
+        },
+        {
+          "id": "0802.3819",
+          "title": "Dirac structures of omni-Lie algebroids",
+          "year": 2008,
+          "coauthors": [
+            "liu-zhangju",
+            "Yunhe Sheng"
+          ],
+          "primary_category": "math.DG"
+        }
+      ]
+    },
+    "links": {
+      "before": {
+        "homepage": "None",
+        "freekaoyan": "http://school.freekaoyan.com/bj/tsinghua/daoshi/2020/04-16/15870262981089851.shtml"
+      },
+      "after": {
+        "homepage": "https://math.tsinghua.edu.cn/info/1125/2644.htm",
+        "freekaoyan": "http://school.freekaoyan.com/bj/tsinghua/daoshi/2020/04-16/15870262981089851.shtml"
+      }
+    },
+    "identity_profile": {
+      "before": {
+        "mathgenealogy_id": "176253",
+        "affiliations": [
+          {
+            "institution": "pku",
+            "period": "~2000-2004",
+            "role": "博士, 基础数学"
+          },
+          {
+            "institution": "capital-normal",
+            "period": "2004-2006",
+            "role": "博士后"
+          },
+          {
+            "institution": "pku",
+            "period": "2006-2008",
+            "role": "博士后"
+          },
+          {
+            "institution": "penn-state",
+            "period": "2008-2009",
+            "role": "讲师 (Lecturer)"
+          },
+          {
+            "institution": "tsinghua",
+            "period": "2009-present",
+            "role": "讲师 → 副教授 (长聘)"
+          }
+        ],
+        "email_domains": [
+          "pku.edu.cn",
+          "tsinghua.edu.cn"
+        ],
+        "coauthor_circle_core_slugs": [
+          "liu-zhangju"
+        ],
+        "coauthor_circle_core_names": [
+          "Zhang-Ju Liu"
+        ],
+        "coauthor_circle_extended_slugs": [
+          "bi-yanhui",
+          "cheng-jiahao",
+          "hu-chuangqiang",
+          "lang-honglei",
+          "ni-dadi",
+          "qiao-yu",
+          "xiang-maosong",
+          "xu-xu"
+        ],
+        "coauthor_circle_extended_names": [
+          "Chuangqiang Hu",
+          "Dadi Ni",
+          "Honglei Lang",
+          "Jiahao Cheng",
+          "Maosong Xiang",
+          "Xu Xu",
+          "Yanhui Bi",
+          "Yu Qiao"
+        ],
+        "research_keywords": [
+          "algebroid",
+          "atiyah",
+          "courant",
+          "deformation",
+          "geometry",
+          "homotopy",
+          "poisson",
+          "quantization"
+        ],
+        "known_arxiv_ids": [
+          "2512.03860",
+          "2512.03391",
+          "2508.02019",
+          "2506.18360",
+          "2412.09039",
+          "2309.04180",
+          "2309.00432",
+          "2302.01294",
+          "2211.06943",
+          "2210.01999",
+          "2206.10091",
+          "2201.13068",
+          "2201.06242",
+          "2110.11623",
+          "2105.15019",
+          "2103.08096",
+          "2012.14109",
+          "2003.13384",
+          "1912.02668",
+          "1911.01388",
+          "1808.08576",
+          "1806.01283",
+          "1712.00665",
+          "1711.11253",
+          "1609.00984",
+          "1603.09634",
+          "1509.01115",
+          "1409.6803",
+          "1408.0448",
+          "1204.1075",
+          "1202.0079",
+          "1109.2290",
+          "1103.0866",
+          "0909.0319",
+          "0904.4062",
+          "0812.0422",
+          "0805.4093",
+          "0803.2376",
+          "0802.3819"
+        ]
+      },
+      "after": {
+        "mathgenealogy_id": "176253",
+        "affiliations": [
+          {
+            "institution": "pku",
+            "period": "2004",
+            "role": "博士, 基础数学"
+          },
+          {
+            "institution": "capital-normal",
+            "period": "2004.07-2006.07",
+            "role": "博士后"
+          },
+          {
+            "institution": "pku",
+            "period": "2006.07-2008.07",
+            "role": "博士后"
+          },
+          {
+            "institution": "penn-state",
+            "period": "2008.08-2009.05",
+            "role": "讲师 (Lecturer)"
+          },
+          {
+            "institution": "tsinghua",
+            "period": "2009.05-present",
+            "role": "讲师、副教授（现列副教授）"
+          }
+        ],
+        "email_domains": [
+          "pku.edu.cn",
+          "tsinghua.edu.cn"
+        ],
+        "coauthor_circle_core_slugs": [
+          "liu-zhangju"
+        ],
+        "coauthor_circle_core_names": [
+          "Zhang-Ju Liu"
+        ],
+        "coauthor_circle_extended_slugs": [
+          "bi-yanhui",
+          "cheng-jiahao",
+          "hu-chuangqiang",
+          "lang-honglei",
+          "ni-dadi",
+          "qiao-yu",
+          "xiang-maosong",
+          "xu-xu"
+        ],
+        "coauthor_circle_extended_names": [
+          "Chuangqiang Hu",
+          "Dadi Ni",
+          "Honglei Lang",
+          "Jiahao Cheng",
+          "Maosong Xiang",
+          "Xu Xu",
+          "Yanhui Bi",
+          "Yu Qiao"
+        ],
+        "research_keywords": [
+          "algebroid",
+          "atiyah",
+          "courant",
+          "deformation",
+          "geometry",
+          "homotopy",
+          "poisson",
+          "quantization"
+        ],
+        "known_arxiv_ids": [
+          "2512.03860",
+          "2512.03391",
+          "2508.02019",
+          "2506.18360",
+          "2412.09039",
+          "2309.04180",
+          "2309.00432",
+          "2302.01294",
+          "2210.01999",
+          "2206.10091",
+          "2201.13068",
+          "2201.06242",
+          "2110.11623",
+          "2105.15019",
+          "2103.08096",
+          "2003.13384",
+          "1912.02668",
+          "1911.01388",
+          "1808.08576",
+          "1712.00665",
+          "1711.11253",
+          "1609.00984",
+          "1509.01115",
+          "1409.6803",
+          "1408.0448",
+          "1204.1075",
+          "1202.0079",
+          "1109.2290",
+          "1103.0866",
+          "0909.0319",
+          "0904.4062",
+          "0812.0422",
+          "0805.4093",
+          "0803.2376",
+          "0802.3819"
+        ]
+      }
+    },
+    "personal_notes": {
+      "before": "北大博士（2004, 导师刘张炬）→ 首师大博后 → 北大博后 → Penn State 讲师 → 清华副教授 (2009-)。\n核心研究：Poisson 几何、Lie algebroid / Courant algebroid、Atiyah class、形变量子化。\n与 Penn State 的 Ping Xu、Mathieu Stiénon 长期合作，代表作包括 Atiyah Classes to Homotopy\nLeibniz Algebras (CMP 2016)、Regular Courant Algebroids (J. Symplectic Geom. 2013)、\nPoisson 2-groups 等。\n2013 北京市科协青年优秀科技论文一等奖；2014 清华大学学术新人奖。\n师承路径: 刘张炬 (PKU) → 陈酌 (Tsinghua)。刘张炬是中国 Poisson 几何学派的代表人物。\n2026 HUST 会议参会人员 (未做邀请报告)。\n\n现职：清华大学数学科学系副教授/教授（[待验证职级]）\n学历：北大数学博士（[待验证]，与 Ping Xu/Zhang-Ju Liu 学派密切）\n重要奖项：NSFC 多项；与 Stiénon-Xu 长期合作（Penn State 学派）\n与倪大地、向茂松、程家豪等有合著论文；本轮未据合著关系认定师承。\n",
+      "after": "北大博士（2004, 导师刘张炬）→ 首师大博后 → 北大博后 → Penn State 讲师 → 2009.05起在清华任讲师、副教授（现列副教授）。\n核心研究：Poisson 几何、Lie algebroid / Courant algebroid、Atiyah class、形变量子化。\n与 Penn State 的 Ping Xu、Mathieu Stiénon 长期合作，代表作包括 Atiyah Classes to Homotopy\nLeibniz Algebras (CMP 2016)、Regular Courant Algebroids (J. Symplectic Geom. 2013)、\nPoisson 2-groups 等。\n2013 北京市科协青年优秀科技论文一等奖；2014 清华大学学术新人奖。\n师承路径: 刘张炬 (PKU) → 陈酌 (Tsinghua)。刘张炬是中国 Poisson 几何学派的代表人物。\n2026 HUST 会议参会人员 (未做邀请报告)。\n\n现职：清华大学数学科学系副教授（2026-10-08核对官方教师页）\n学历：2004年北京大学博士（入学年份待核）\n重要奖项：NSFC 多项；与 Stiénon-Xu 长期合作（Penn State 学派）\n与倪大地、向茂松、程家豪等有合著论文；本轮未据合著关系认定师承。\n"
+    }
+  },
+  "paper_sources": [
+    {
+      "id": "2309.00432",
+      "url": "https://arxiv.org/pdf/2309.00432",
+      "checked_at": "2026-10-08T03:44:01.453465+00:00",
+      "status": 200,
+      "sha256": "58cb12dda0c4af5b73de5a1e65de01ab4e28a11f7cadbd3dd705ad9e0876df78",
+      "bytes": 551457,
+      "identity_lines": [
+        {
+          "line": 2531,
+          "text": "   Department of Mathematical Sciences, Tsinghua University, Beijing, China"
+        },
+        {
+          "line": 2532,
+          "text": "   Email address: chenzhuo@tsinghua.edu.cn"
+        },
+        {
+          "line": 2534,
+          "text": "   Yanqi Lake Beijing Institute of Mathematical Sciences and Applications, Beijing, China"
+        },
+        {
+          "line": 2535,
+          "text": "   Email address: huchq@bimsa.cn"
+        },
+        {
+          "line": 2538,
+          "text": "   Email address: zhangtao@htu.edu.cn"
+        },
+        {
+          "line": 2541,
+          "text": "   Email address: zhengxiaopeng@amss.ac.cn"
+        }
+      ],
+      "opening": "                                               DRINFELD MODULAR CURVES SUBORDINATE TO CONJUGACY\n                                                 CLASSES OF NILPOTENT UPPER-TRIANGULAR MATRICES\n\n                                                       ZHUO CHEN∗ , CHUANGQIANG HU, TAO ZHANG, AND XIAOPENG ZHENG\n\n\n                                                  Abstract. We introduce normalized Drinfeld modular curves that parameterize rank m Drin-\n                                                  feld modules compatible with a T -torsion structure arising from a given conjugacy class of\n                                                  nilpotent upper-triangular n × n matrices with rank ⩾ n − m over a finite field Fq . This\n\n\n\n\narXiv:2309.00432v1 [math.NT] 1 Sep 2023\n                                                  creates a deep link connecting the classification of nilpotent upper-triangular matrices and the\n                                                  decomposition of Drinfeld modular curves. The conjugacy classes of nilpotent upper-triangular\n                                                  matrices one-to-one corresponds to certain T -torsion flags, and form a tree structure. As a\n                                                  result, the associated Drinfeld modular curves are organized in the same tree. This generalizes\n                                                  the tower structure introduced by Bassa, Beelen, Garcia, Stichtenoth, and others. Addition-\n    ",
+      "ending": ".\n[13]         , Towers of GL(r)-type of modular curves, J. Reine Angew. Math. 350 (2019). MR4000571\n[14] David Goss, Basic structures of function field arithmetic, Springer, Berlin Heidelberg, 1996. MR1423131\n[15] Graham Higman, Enumerating p-groups. I. Inequalities, Proc. London Math. Soc. (3) 10 (1960), 24–30.\n     MR113948\n[16]         , Enumerating p-groups. II. Problems whose solution is PORC, Proc. London Math. Soc. (3) 10\n     (1960), 566–582. MR123605\n[17] Eliakim Hastings Moore, A two-fold generalization of Fermat’s theorem, Bull. Amer. Math. Soc. 2 (1896),\n     no. 7, 189–199. MR1557441\n[18] Oystein Ore, Theory of non-commutative polynomials, Ann. of Math. (2) 34 (1933), no. 3, 480–508.\n     MR1503119\n[19] Moshe Roitman, A problem on conjugacy of matrices, Linear Algebra Appl. 19 (1978), no. 1, 87–89.\n     MR470098\n[20] Andreas Schweizer, On the Drinfeld modular polynomial ΦT (X, Y ), J. Number Theory 52 (1995), no. 1,\n     53–68. MR1331765\n[21] Henning Stichtenoth, Algebraic function fields and codes, Second, Graduate Texts in Mathematics, vol. 254,\n     Springer-Verlag, Berlin, 2009. MR2464941\n[22] Philip Thijsse, Upper triangular similarity of upper triangular matrices, Linear Algebra Appl. 260 (1997),\n     119–149. MR1448353\n[23] Antonio Vera López and Jesus Maria Arregi, Conjugacy classes in Sylow p-subgroups of GL(n, q), J. Algebra\n     152 (1992), no. 1, 1–19. MR1190401\n[24]         , Conjugacy classes in Sylow p-subgroups of GL(n, q). IV, Glasgow Math. J. 36 (1994), no. 1, 91–96.\n     MR1260823\n[25] Gabriel Daniel Villa Salvador, Topics in the theory of algebraic function fields, Mathematics (Boston, Mass.),\n     Birkhäuser Boston, 2005.\n\n   Department of Mathematical Sciences, Tsinghua University, Beijing, China\n   Email address: chenzhuo@tsinghua.edu.cn\n\n   Yanqi Lake Beijing Institute of Mathematical Sciences and Applications, Beijing, China\n   Email address: huchq@bimsa.cn\n\n   College of Mathmatics and Information Science, Henan Normal University, Xinxiang, China\n   Email address: zhangtao@htu.edu.cn\n\n   School of Mathematical Sciences, University of Chinese Academy of Sciences, Beijing, China\n   Email address: zhengxiaopeng@amss.ac.cn\n\f"
+    },
+    {
+      "id": "1912.02668",
+      "url": "https://arxiv.org/pdf/1912.02668",
+      "checked_at": "2026-10-08T03:44:01.453679+00:00",
+      "status": 200,
+      "sha256": "01902774862ac388a6a1dcf13bd8ef1b7d3c59091844f306cdde005aaff5ff07",
+      "bytes": 327845,
+      "identity_lines": [
+        {
+          "line": 1291,
+          "text": "   Yau Mathematical Sciences Center, Tsinghua University, Beijing, China"
+        },
+        {
+          "line": 1292,
+          "text": "   E-mail address: chen-r15@mails.tsinghua.edu.cn"
+        },
+        {
+          "line": 1294,
+          "text": "   Department of Mathematical Sciences, Tsinghua University, Beijing, China"
+        },
+        {
+          "line": 1295,
+          "text": "   E-mail address: chenzhuo@mail.tsinghua.edu.cn"
+        },
+        {
+          "line": 1297,
+          "text": "   Yau Mathematical Sciences Center, Tsinghua University, Beijing, China"
+        },
+        {
+          "line": 1298,
+          "text": "   E-mail address: huchq@tsinghua.edu.cn"
+        }
+      ],
+      "opening": "                                                        A MODULAR INTERPRETATION OF BBGS TOWERS\n\n                                                                    RUI CHEN, ZHUO CHEN, AND CHUANGQIANG HU\n\n\n                                                  Abstract. In 2000, based on his procedure for constructing explicit towers of modular curves,\n                                                  Elkies deduced explicit equations of rank-2 Drinfeld modular curves which coincide with the\n                                                  asymptotically optimal towers of curves constructed by Garcia and Stichtenoth. In 2015,\n                                                  Bassa, Beelen, Garcia, and Stichtenoth constructed a celebrated (recursive and good) tower\n\n\n\n\narXiv:1912.02668v2 [math.NT] 2 May 2020\n                                                  (BBGS-tower for short) of curves and outlined a modular interpretation of the defining equa-\n                                                  tions. Soon after that, Gekeler studied in depth the modular curves coming from sparse\n                                                  Drinfeld modules. In this paper, to establish a link between these existing results, we pro-\n                                                  pose and prove a generalized Elkies’ Theorem which tells in detail how to directly describe a\n                                                  modular interpretation of the equations of rank-m Drinfeld modular ",
+      "ending": "s dune courbe algbrique sur un corps fini, C. R. Acad. Sci. Paris\n     296 (1984), 397402.\n[43] Dane C. Skabelund, New maximal curves as ray class fields over deligne-lusztig curves, Proc. Amer. Math.\n     Soc. 146 (2018), no. 2, 525–540. MR3731688\n[44] Henning Stichtenoth, Algebraic function fields and codes, Second, Graduate Texts in Mathematics, vol. 254,\n     Springer-Verlag, Berlin, 2009. MR2464941\n[45] Mikhail Anatolievich Tsfasman, Sergei G. Vlăduţ, and Thomas Zink, Modular curves, Shimura curves,\n     and Goppa codes, better than Varshamov-Gilbert bound, Mathematische Nachrichten 109(1) (1982), 2128.\n     MR0705893\n[46] Gabriel Daniel Villa Salvador, Topics in the theory of algebraic function fields, 2006. MR2241963\n[47] Sergei G. Vldu and Vladimir Gershonovich Drinfeld, The number of points of an algebraic curve, Funktsional.\n     Anal. i Prilozhen. 17 (1983), no. 1, 68–69. MR0695100\n[48] Conny Voss and Tom Høholdt, An explicit construction of a sequence of codes attaining the Tsfasman-Vldu-\n     Zink bound: the first steps, IEEE Trans. Inform. Theory 43 (1997), no. 1, 128135. MR1426240\n[49] André Weil, Courbes algbriques et varits abliennes, Herman, Paris, 1971.\n[50] Chaoping Xing and Sze Ling Yeo, Algebraic curves with many points over the binary field, J. Algebra 311\n     (2007), 775780. MR2314733\n\f                            A MODULAR INTERPRETATION OF BBGS TOWERS                                         23\n\n\n[51] Shudi Yang and Chuangqiang Hu, Weierstrass semigroups from a tower of function fields attaining the\n     Drinfeld-Vldu bound, arXiv:1911.04269 [math.NT] (2019).\n[52] Thomas Zink, Degeneration of Shimura surfaces and a problem in coding theory, Fundamentals of computa-\n     tion theory (Cottbus, 1985), 503511, Lecture Notes in Comput. Sci., 199, Springer, Berlin, 1985. MR0821267\n\n   Yau Mathematical Sciences Center, Tsinghua University, Beijing, China\n   E-mail address: chen-r15@mails.tsinghua.edu.cn\n\n   Department of Mathematical Sciences, Tsinghua University, Beijing, China\n   E-mail address: chenzhuo@mail.tsinghua.edu.cn\n\n   Yau Mathematical Sciences Center, Tsinghua University, Beijing, China\n   E-mail address: huchq@tsinghua.edu.cn\n\f"
+    },
+    {
+      "id": "2012.14109",
+      "url": "https://arxiv.org/pdf/2012.14109",
+      "checked_at": "2026-10-08T03:44:01.453749+00:00",
+      "status": 200,
+      "sha256": "347920a81e2b72f37bc854799e897c49916c255a47b0831a1925f0b252f4d716",
+      "bytes": 555141,
+      "identity_lines": [
+        {
+          "line": 15,
+          "text": "                                              Yau Mathematical Sciences Center, Tsinghua University, Beijing, 100084, China"
+        },
+        {
+          "line": 39,
+          "text": "                                            zhuochen2019@mail.tsinghua.edu.cn"
+        },
+        {
+          "line": 41,
+          "text": "                                            jrguo@mail.tsinghua.edu.cn"
+        },
+        {
+          "line": 43,
+          "text": "                                            mromoj@tsinghua.edu.cn"
+        },
+        {
+          "line": 3117,
+          "text": "     models,” Proceedings of the Steklov Institute of Mathematics 3 (2004) 227–248."
+        }
+      ],
+      "opening": "                                                                                                                                       preprint\n\n\n\n\n                                          A GLSM view on Homological Projective Duality\n\n\n                                                                Zhuo Chen1 , Jirui Guo2 and Mauricio Romo3\n\n\n\n\narXiv:2012.14109v2 [hep-th] 22 Apr 2022\n                                              Yau Mathematical Sciences Center, Tsinghua University, Beijing, 100084, China\n\n\n\n\n                                                                                      Abstract\n                                              Given a gauged linear sigma model (GLSM) TX realizing a projective variety X in one\n                                              of its phases, i.e. its quantum Kähler moduli has a geometric point, we propose an\n                                              extended GLSM TX realizing the homological projective dual category C to Db Coh(X) as\n                                              the category of B-branes of the Higgs branch of one of its phases. In most of the cases, the\n                                              models TX and TX are anomalous and the analysis of their Coulomb and mixed Coulomb-\n                                              Higgs branches gives information on the semiorthogonal/Lefschetz decompositions of C\n                                              and Db Coh(X). We also study the models TXL and TX",
+      "ending": "fians,” JHEP 04 (2018) 119, 1711.00047.\n[33] A. Kapustin and Y. Li, “D branes in Landau-Ginzburg models and algebraic\n     geometry,” JHEP 12 (2003) 005, hep-th/0210296.\n[34] G. Ottaviani, “Spinor bundles on quadrics,” Transactions of the American\n     mathematical society 307 (1988), no. 1, 301–316.\n[35] A. Langer, “D-affinity and frobenius morphism on quadrics,” International\n     Mathematics Research Notices 2008 (2008), no. 9, rnm145–rnm145.\n[36] M. Kapranov, “The derived category of coherent sheaves on the square,” Functional\n     Analysis and Its Applications 20 (1986), no. 2, 141–142.\n[37] N. Addington, “Spinor sheaves on singular quadrics,” Proceedings of the American\n     Mathematical Society 139 (2011), no. 11, 3867–3879.\n[38] J. Halverson, V. Kumar, and D. R. Morrison, “New Methods for Characterizing Phases\n     of 2D Supersymmetric Gauge Theories,” JHEP 09 (2013) 143, 1305.3278.\n[39] E. Sharpe, “A few Ricci-flat stacks as phases of exotic GLSM’s,” Phys. Lett. B 726\n     (2013) 390–395, 1306.5440.\n[40] A. Kuznetsov, “Homological projective duality for grassmannians of lines,” arXiv\n     preprint math/0610957 (2006).\n[41] D. Deliu, “Homological projective duality for gr (3, 6),” Dissertation for the degree of\n     Doctor in Philosophy at the University of Pennsylvania.\n[42] M. Bernardara, M. Bolognesi, and D. Faenzi, “Homological projective duality for\n     determinantal varieties,” Advances in Mathematics 296 (2016) 181–209.\n[43] D. R. Morrison and M. Plesser, “Towards mirror symmetry as duality for\n     two-dimensional abelian gauge theories,” Nucl. Phys. B Proc. Suppl. 46 (1996)\n     177–186, hep-th/9508107.\n[44] K. Hori and C. Vafa, “Mirror symmetry,” hep-th/0002222.\n[45] W. Gu and E. Sharpe, “A proposal for nonabelian mirrors,” 1806.04678.\n[46] W. Gu, J. Guo, and E. Sharpe, “A proposal for nonabelian (0,2) mirrors,” 1908.06036.\n[47] A. Adem, J. Leida, and Y. Ruan, Orbifolds and Stringy Topology. Cambridge Tracts in\n     Mathematics. Cambridge University Press, 2007.\n[48] S. Katz, T. Pantev, and E. Sharpe, “D-branes, orbifolds, and ext groups,” Nuclear\n     Physics B 673 (2003), no. 1-2, 263–300.\n\n\n                                              53\n\f"
+    },
+    {
+      "id": "2211.06943",
+      "url": "https://arxiv.org/pdf/2211.06943",
+      "checked_at": "2026-10-08T03:44:02.335554+00:00",
+      "status": 200,
+      "sha256": "3e87d63c5ee83c84b02dc7cb65b5865923a41c0d38ea9fe119ab23eb390b0503",
+      "bytes": 763574,
+      "identity_lines": [
+        {
+          "line": 15,
+          "text": "                                           Yanqi Lake Beijing Institute of Mathematical Sciences and Applications (BIMSA), Huairou Dis-"
+        },
+        {
+          "line": 18,
+          "text": "                                           Yau Mathematical Sciences Center, Tsinghua University, Beijing, 100084, China"
+        },
+        {
+          "line": 20,
+          "text": "                                           Department of Physics, Xiamen University, Xiamen, 361005, China"
+        },
+        {
+          "line": 21,
+          "text": "                                             E-mail: zenofox@gmail.com, zhuo2012@vt.edu, cwei@bimsa.cn,"
+        },
+        {
+          "line": 22,
+          "text": "                                             babakhaghighat@tsinghua.edu.cn"
+        },
+        {
+          "line": 1871,
+          "text": "Tsinghua Sanya International Mathematics Forum (TSIMF) for hospitality where part of"
+        }
+      ],
+      "opening": "                                         Prepared for submission to JHEP\n\n\n\n\n                                         MSW-type compactifications of 6d (1, 0) SCFTs on\n                                         4-manifolds\n\n\n\n\narXiv:2211.06943v3 [hep-th] 9 Oct 2024\n                                         Jin Chen,‡ Zhuo Chen,∗ Wei Cui,∗,† Babak Haghighat†,∗\n                                         ∗\n                                           Yanqi Lake Beijing Institute of Mathematical Sciences and Applications (BIMSA), Huairou Dis-\n                                           trict, Beijing 101408, P. R. China\n                                         †\n                                           Yau Mathematical Sciences Center, Tsinghua University, Beijing, 100084, China\n                                         ‡\n                                           Department of Physics, Xiamen University, Xiamen, 361005, China\n                                             E-mail: zenofox@gmail.com, zhuo2012@vt.edu, cwei@bimsa.cn,\n                                             babakhaghighat@tsinghua.edu.cn\n\n                                         Abstract: In this work, we study compactifications of 6d (1, 0) SCFTs, in particular those\n                                         of conformal matter type, on Kähler 4-manifolds. We show how this can be realized via\n                                         wrapping M5 branes on 4-cycles of non-compact Calabi-Yau fourfolds with ADE singularity\n ",
+      "ending": "r Gauge Theories on A-type\n     ALE Spaces. Lett. Math. Phys., 105(3):401–445, 2015.\n[80] Aditya Bawane, Giulio Bonelli, Massimiliano Ronzani, and Alessandro Tanzini. N = 2\n     supersymmetric gauge theories on S 2 × S 2 and Liouville Gravity. JHEP, 07:054, 2015.\n\n\n\n\n                                             – 43 –\n\f[81] Mikhail Bershtein, Giulio Bonelli, Massimiliano Ronzani, and Alessandro Tanzini. Exact\n     results for N = 2 supersymmetric gauge theories on compact toric manifolds and equivariant\n     Donaldson invariants. JHEP, 07:023, 2016.\n[82] Mikhail Bershtein, Giulio Bonelli, Massimiliano Ronzani, and Alessandro Tanzini. Gauge\n     theories on compact toric surfaces, conformal field theories and equivariant Donaldson\n     invariants. J. Geom. Phys., 118:40–50, 2017.\n[83] Seyed Morteza Hosseini, Kiril Hristov, Yuji Tachikawa, and Alberto Zaffaroni. Anomalies,\n     Black strings and the charged Cardy formula. JHEP, 09:167, 2020.\n[84] Cumrun Vafa. Fractional Quantum Hall Effect and M-Theory. 11 2015.\n[85] M. N. Alfimov, A. A. Belavin, and G. M. Tarnopolsky. Coset conformal field theory and\n     instanton counting on C 2 /Zp . JHEP, 08:134, 2013.\n[86] Chi-Ming Chang and Xi Yin. Correlators in WN Minimal Model Revisited. JHEP, 10:050,\n     2012.\n[87] Vladimir Mitev and Elli Pomoni. 2D CFT blocks for the 4D class Sk theories. JHEP, 08:009,\n     2017.\n[88] Tatsuma Nishioka and Yuji Tachikawa. Central charges of para-Liouville and Toda theories\n     from M-5-branes. Phys. Rev. D, 84:046009, 2011.\n[89] Clay Cordova and Daniel L. Jafferis. Five-Dimensional Maximally Supersymmetric\n     Yang-Mills in Supergravity Backgrounds. JHEP, 10:003, 2017.\n[90] Stefan Cordes, Gregory W. Moore, and Sanjaye Ramgoolam. Lectures on 2-d Yang-Mills\n     theory, equivariant cohomology and topological field theories. Nucl. Phys. B Proc. Suppl.,\n     41:184–244, 1995.\n[91] Vasily Pestun et al. Localization techniques in quantum field theories. J. Phys. A,\n     50(44):440301, 2017.\n[92] Ibrahima Bah, Federico Bonetti, Ruben Minasian, and Emily Nardoni. Anomalies of QFTs\n     from M-theory and Holography. JHEP, 01:125, 2020.\n\n\n\n\n                                             – 44 –\n\f"
+    },
+    {
+      "id": "1806.01283",
+      "url": "https://arxiv.org/pdf/1806.01283",
+      "checked_at": "2026-10-08T03:44:02.379556+00:00",
+      "status": 200,
+      "sha256": "1f70988c279f399008cbb23a2dd6f43c6b50e05e35f0367ec00f45d415041f11",
+      "bytes": 166119,
+      "identity_lines": [
+        {
+          "line": 13,
+          "text": "                                                      Virginia Tech"
+        },
+        {
+          "line": 19,
+          "text": "                                              zhuo2012@vt.edu, tpantev@math.upenn.edu, ersharpe@vt.edu"
+        }
+      ],
+      "opening": "                                                              Landau-Ginzburg models for\n                                                           certain fiber products with curves\n\n\n\n\narXiv:1806.01283v1 [hep-th] 4 Jun 2018\n                                                             Zhuo Chen1 , Tony Pantev2 , Eric Sharpe3\n                                                                                    2\n                                                     1,3                      Dep’t of Mathematics\n                                                      Dep’t of Physics\n                                                                           University of Pennsylvania\n                                                      Virginia Tech\n                                                                            David Rittenhouse Lab.\n                                                  850 West Campus Dr.\n                                                                             209 South 33rd Street\n                                                  Blacksburg, VA 24061\n                                                                          Philadelphia, PA 19104-6395\n                                              zhuo2012@vt.edu, tpantev@math.upenn.edu, ersharpe@vt.edu\n\n\n                                             In this paper we describe a physical realization of a family of non-compact\n                                         Kähler threefolds with trivial canoni",
+      "ending": "a generic projection from some point not in the image,\none will get a morphism Σ → P1 which has the desired property. Thus, for\ng ≥ 10, there is a 3g −9-dimensional space of pairs with the desired property.\n    So far we have discussed conditions for the fiber product Z to have holo-\nmorphically trivial canonical bundle. Next, let us turn to the question of\nwhen Z is Kähler. Since Z is a finite cover of X, Z is Kähler if and only if\nX is Kähler.\n\n                                      16\n\fReferences\n [1] A. Strominger, “Superstrings with Torsion,” Nucl. Phys. B 274 (1986)\n     253-284.\n\n [2] T. Fei, Z. Huang and S. Picard, “A Construction of Infinitely Many\n     Solutions to the Strominger System,” [arXiv:1703.10067 [math.DG]].\n\n [3] A. Caldararu, J. Distler, S. Hellerman, T. Pantev and E. Sharpe, “Non-\n     birational twisted derived equivalences in abelian GLSMs,” Commun.\n     Math. Phys. 294 (2010) 605-645, [arXiv:0709.3855 [hep-th]].\n\n [4] P. Gao, S.-T. Yau, W. Zhou, “Nonexistence for complete Kähler Einstein\n     metrics on some noncompact manifolds,” arXiv: 1603.09135.\n\n [5] S. Hellerman, A. Henriques, T. Pantev, E. Sharpe and M. Ando, “Clus-\n     ter decomposition, T-duality, and gerby CFT’s,” Adv. Theor. Math.\n     Phys. 11 (2007) 751-818, [hep-th/0606034].\n\n [6] T. Pantev and E. Sharpe, “GLSM’s for Gerbes (and other toric stacks),”\n     Adv. Theor. Math. Phys. 10 (2006) 77-121, [hep-th/0502053].\n\n [7] L. B. Anderson, B. Jia, R. Manion, B. Ovrut and E. Sharpe, “General\n     aspects of heterotic string compactifications on stacks and gerbes,” Adv.\n     Theor. Math. Phys. 19 (2015) 531-611, [arXiv:1307.2269 [hep-th]].\n\n [8] N. Hitchin, “Twistor construction of Einstein metrics,” in Global Rie-\n     mannian geometry (Durham, 1983), 1984, pp. 115-125.\n\n [9] N. Hitchin, “Polygons and gravitons,” Math. Proc. Cambridge Phil.\n     Soc. 85 (1979) 465-476.\n\n[10] J. Harris, “Theta-characteristics on algebraic curves,” Trans. Amer.\n     Math. Soc. 271 (1982) 611-638.\n\n[11] G. Farkas, “Gaussian maps, Gieseker-Petri loci and large theta-\n     characteristics,” J. Reine Angew. Math. 581 (2005) 151-173,\n     math/0402042.\n\n\n\n\n                                     17\n\f"
+    },
+    {
+      "id": "1603.09634",
+      "url": "https://arxiv.org/pdf/1603.09634",
+      "checked_at": "2026-10-08T03:44:02.442116+00:00",
+      "status": 200,
+      "sha256": "28a686d685571a1d34ffbad1fe76f83f2625cdff791791efb13d98c924b9f064",
+      "bytes": 265550,
+      "identity_lines": [
+        {
+          "line": 9,
+          "text": "                                                                  Physics Department"
+        },
+        {
+          "line": 11,
+          "text": "                                                                 Virginia Tech"
+        },
+        {
+          "line": 13,
+          "text": "                                                    zhuo2012@vt.edu, ersharpe@vt.edu, ronwu@vt.edu"
+        }
+      ],
+      "opening": "                                         Toda-like (0,2) mirrors to products of projective spaces\n\n\n\n\narXiv:1603.09634v3 [hep-th] 9 Aug 2016\n                                                           Zhuo Chen1 , Eric Sharpe1 , Ruoxu Wu1\n                                                                    1\n                                                                  Physics Department\n                                                                 Robeson Hall (0435)\n                                                                 Virginia Tech\n                                                                 Blacksburg, VA 24061\n                                                    zhuo2012@vt.edu, ersharpe@vt.edu, ronwu@vt.edu\n\n\n                                             One of the open problems in understanding (0,2) mirror symmetry con-\n                                         cerns the construction of Toda-like Landau-Ginzburg mirrors to (0,2) theories\n                                         on Fano spaces. In this paper, we begin to fill this gap by making an ansatz\n                                         for (0,2) Toda-like theories mirror to (0,2) supersymmetric nonlinear sigma\n                                         models on products of projective spaces, with deformations of the tangent\n                                         bundle, generalizing a special case previously worked out for P1 × P1 . We\n                                         check this ansat",
+      "ending": " (0,2) correlation functions,” Adv.\n     Theor. Math. Phys. 13 (2009) 33-70, hep-th/0605005.\n\n[19] M.-C. Tan, “Two-dimensional twisted sigma models and the theory of\n     chiral differential operators,” Adv. Theor. Math. Phys. 10 (2006) 759-\n     851, hep-th/0604179.\n\n\n\n                                     34\n\f[20] M.-C. Tan, “Two-dimensional twisted sigma models, the mirror chiral\n     de Rham complex, and twisted generalised mirror symmetry,” JHEP\n     0707 (2007) 013, arXiv:0705.0790.\n\n[21] J. Guffin, E. Sharpe, “A-twisted heterotic Landau-Ginzburg models,” J.\n     Geom. Phys. 59 (2009) 1581-1596, hep-th/0801.3955.\n\n[22] C. Closset, W. Gu, B. Jia, E. Sharpe, “Localization of twisted N=(0,2)\n     gauged linear sigma models in two dimensions,” arXiv: 1512.08058.\n\n[23] J. Guo, Z. Lu, E. Sharpe, “Quantum sheaf cohomology on Grassmanni-\n     ans,” arXiv: 1512.08586.\n\n[24] I. Melnikov, S. Sethi, “Half-twisted (0,2) Landau-Ginzburg models,”\n     JHEP 0803 (2008) 040, arXiv: 0712.1058.\n\n[25] J. McOrist, I. Melnikov, “Summing the instantons in half-twisted linear\n     sigma models,” JHEP 0902 (2009) 026, arXiv: 0810.0012.\n\n[26] E. Sharpe, “An introduction to quantum sheaf cohomology,” PoS\n     ICMP2012 (2012) 026.\n\n[27] R. Donagi, Z. Lu, I. Melnikov, “Global aspects of (0,2) moduli space:\n     toric varieties and tangent bundles,” arXiv: 1409.4353.\n\n[28] C. Vafa, “Topological Landau-Ginzburg models,” Mod. Phys. Lett. A6\n     (1991) 337-346.\n\n[29] J. Guffin, E. Sharpe, “A-twisted Landau-Ginzburg models,” J. Geom.\n     Phys. 59 (2009) 1547-1580, arXiv: 0801.3836.\n\n[30] T. Pantev, E. Sharpe, “GLSM’s for gerbes (and other toric stacks),”\n     Adv. Theor. Math. Phys. 10 (2006) 77-121, hep-th/0502053.\n\n[31] S. Katz, private communication.\n\n[32] H. Iritani, “A mirror construction for the big equivariant quantum co-\n     homology of toric manifolds,” arXiv: 1503.02919.\n\n[33] C. Okonek, M. Schneider, H. Spindler, Vector bundles on complex pro-\n     jective spaces, Birkhäuser, Boston, 1980.\n\n\n                                    35\n\f[34] R. Friedman, Algebraic surfaces and holomorphic vector bundles,\n     Springer-Verlag, New York, 1998.\n\n\n\n\n                                36\n\f"
+    }
+  ],
+  "profile_sources": {
+    "chen-official": {
+      "url": "https://math.tsinghua.edu.cn/info/1125/2644.htm",
+      "transport": "200\nhttps://math.tsinghua.edu.cn/info/1125/2644.htm",
+      "exit": 0,
+      "checked_at": "2026-10-08T03:49:40.093806+00:00",
+      "error": "",
+      "sha256": "9bb3287043e570c26b8253872017fc70241c0376fc4096a26c64efd97311e374",
+      "bytes": 24197,
+      "text_path": ".cache/msa/site-recovery/nineteen-extra-chen-official.txt",
+      "title_or_start": "﻿\n陈酌-清华大学数学科学系\nEnglish\n清华大学\n人才招聘\n院系概况\n主任致辞\n历史沿革\n现任领导\n历任领导\n机构设置\n教师队伍\n教师\n博士后\n教辅行政\n教育培养\n本科生教学\n研究生教学\n招生就业\n科学研究\n科研团队\n学科资源\n新闻公告\n党团建设\n师生之家\n招聘信息\n院系概况\n主任致辞\n历史沿革\n现任领导\n历任领导\n机构设置\n教师队伍\n教师\n博士后\n教",
+      "evidence_summary": "Chen Zhuo / 陈酌, associate professor, chenzhuo@tsinghua.edu.cn; 2004 Peking University PhD; four dated positions from 2004.07 to present. No doctoral entry year or associate-professor promotion year supplied."
+    },
+    "chen-vt-thesis": {
+      "url": "https://vtechworks.lib.vt.edu/bitstreams/276afab9-aa3b-46d6-9380-c1a25b1ee2e1/download",
+      "transport": "200\nhttps://vtechworks.lib.vt.edu/server/api/core/bitstreams/276afab9-aa3b-46d6-9380-c1a25b1ee2e1/content",
+      "exit": 0,
+      "checked_at": "2026-10-08T03:49:42.667145+00:00",
+      "error": "",
+      "sha256": "31df142f81e262ab5b222ac73b8e3961f2561f4389feb34f21d0270cd9f0ce75",
+      "bytes": 511624,
+      "text_path": ".cache/msa/site-recovery/nineteen-extra-chen-vt-thesis.txt",
+      "title_or_start": "            Applications of gauged linear sigma models\n\n\n                                     Zhuo Chen\n\n\n\n\n                    Dissertation submitted to the Faculty of the\n       ",
+      "evidence_summary": "Title page: Physics PhD, Virginia Tech, 26 March 2019, Eric Sharpe as chair. Chapter 2 describes [1,2] as our publications; chapter 4 describes [3] as our publication. Bibliography [1] is 1603.09634; [3] is 1806.01283."
+    },
+    "chen-vt-graduation": {
+      "url": "https://www.phys.vt.edu/Newsandevents/Articles/2019/2019-Spring-Graduating-Class.html",
+      "transport": "200\nhttps://www.phys.vt.edu/Newsandevents/Articles/2019/2019-Spring-Graduating-Class.html",
+      "exit": 0,
+      "checked_at": "2026-10-08T03:49:41.839677+00:00",
+      "error": "",
+      "sha256": "72a9d527eb49e6b528e05964b6a698a3cf5c600622fe4a42c77f72dd8a3d5410",
+      "bytes": 79658,
+      "text_path": ".cache/msa/site-recovery/nineteen-extra-chen-vt-graduation.txt",
+      "title_or_start": "2019 Physics Graduating Class  | Department of Physics | Virginia Tech\nSkip to main content\nSkip to search\nVirginia Tech®\nhome\nUniversal Access Toggle\nUniversal Access\nClose Univer"
+    },
+    "chen-ymsc-postdocs": {
+      "url": "https://ymsc-strings.github.io/people-postdoc.html",
+      "transport": "200\nhttps://ymsc-strings.github.io/people-postdoc.html",
+      "exit": 0,
+      "checked_at": "2026-10-08T03:49:40.575261+00:00",
+      "error": "",
+      "sha256": "4a49e534a5a7f212b490745088e88a07cf28f46c98b92a4d618a3440fd00fce9",
+      "bytes": 19565,
+      "text_path": ".cache/msa/site-recovery/nineteen-extra-chen-ymsc-postdocs.txt",
+      "title_or_start": "YMSC String Group | Postdocs\nString Theory Group at YMSC\nHome\nPeople\nResearch\nSeminars\nPublications\nOpportunities\nVisitor Info\nEN\n中文\nPostdocs\nString / HEP-th Postdocs\nRelated Mathe",
+      "evidence_summary": "Former postdoc Zhuo Chen; GLSMs / HPD / two-dimensional supersymmetric gauge theory; direct profile link points to the 2012.14109 institutional archive. Dates TBA; not treated as a dated CV."
+    },
+    "chen-linkedin": {
+      "url": "https://www.linkedin.com/in/zhuo-chen-33397721b",
+      "transport": "999\nhttps://www.linkedin.com/in/zhuo-chen-33397721b",
+      "exit": 0,
+      "checked_at": "2026-10-08T03:49:41.032917+00:00",
+      "error": "",
+      "sha256": "644031a68bde879af85bcc9cb3e6fa1e9a6b0f61d49307581974b5dbc09d3de8",
+      "bytes": 1530,
+      "text_path": ".cache/msa/site-recovery/nineteen-extra-chen-linkedin.txt",
+      "title_or_start": "",
+      "evidence_summary": "Direct request returned 999. Search index listed all four theoretical-physics titles and 2012-2019 Virginia Tech education. Used only as an additional lead, not a primary source for final exclusion."
+    }
+  },
+  "remaining": "2012.14109 remains needs-review. Other 33 retained works not independently re-audited here; original doctoral thesis and MGP mentorship not re-certified. Hu Chuangqiang profile remains untouched and contains unresolved biographical contradictions."
+}

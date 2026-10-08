@@ -12,6 +12,69 @@ import { collectPublications, collectCoauthorship, recordedPublicationStats } fr
 import { recordedAffiliations } from '../.cache/msa/site-tests/institution-affiliations.js';
 import { canonicalConcepts, conceptLookup } from '../.cache/msa/site-tests/concepts.js';
 import { problemStatus } from '../.cache/msa/site-tests/problems.js';
+import { canonicalInstitutions, institutionLookup } from '../.cache/msa/site-tests/institutions.js';
+import { institutionSlug, institutionName } from '../.cache/msa/site-tests/inst.js';
+
+test('explicit institution aliases share one profile but preserve legacy routes and source input', () => {
+  const primary = { slug: 'university', name: { en: 'University' }, research_groups: [{ name: 'Math' }], sources: [{ url: 'https://example.org' }] };
+  const alias = { slug: 'old', alias_of: 'university', name: { en: 'Old University' } };
+  const similar = { slug: 'different', name: { en: 'University' } };
+  const records = [primary, alias, similar], before = structuredClone(records);
+  const lookup = institutionLookup(records);
+  assert.equal(canonicalInstitutions(records).length, 2);
+  assert.equal(lookup.get('old'), lookup.get('university'));
+  assert.notEqual(lookup.get('different'), lookup.get('university'));
+  lookup.get('old').research_groups[0].name = 'changed';
+  assert.deepEqual(records, before);
+  assert.equal(entityRoute('/institutions/ucberkeley').exists, true);
+  assert.equal(institutionSlug('ucberkeley'), 'uc-berkeley');
+  assert.equal(institutionName('ucberkeley'), institutionName('uc-berkeley'));
+  assert.equal(institutionSlug('unknown-institution'), 'unknown-institution');
+});
+
+test('invalid institution aliases and aliases hiding independent content fail closed', () => {
+  const a = { slug: 'a' }, b = { slug: 'b', alias_of: 'a' };
+  for (const rows of [[a,a], [{ slug: 'b', alias_of: 'missing' }], [{ slug: 'a', alias_of: 'a' }],
+    [a,b,{ slug: 'c', alias_of: 'b' }], [{ slug: 'a', alias_of: 'b' },b],
+    [a,{ ...b, alias_of: null }], [a,{ ...b, notes: 'not merged yet' }],
+    [a,{ ...b, research_groups: [{ name: 'unmerged group' }] }],
+    [a,{ ...b, appointment_checks: [{ person: 'p' }] }], [a,{ ...b, events: [{ year: 2026 }] }]]) {
+    assert.throws(() => institutionLookup(rows));
+  }
+  const code = `import sys
+sys.path.insert(0,'scripts')
+from institution_aliases import alias_errors
+a={'slug':'a'};b={'slug':'b','alias_of':'a'}
+assert not alias_errors({'a':a,'b':b})
+for target in [None,[],{},'','a','missing']:
+ assert alias_errors({'a':{**a,'alias_of':target}})
+assert alias_errors({'a':a,'b':b,'c':{'alias_of':'b'}})
+for field in ['notes','research_groups','appointment_checks','events']:
+ assert alias_errors({'a':a,'b':{**b,field:'unmerged content'}})
+print('alias validation only')`;
+  const result = spawnSync('python3', ['-c', code], { encoding: 'utf8' });
+  assert.equal(result.status, 0, result.stderr);
+});
+
+test('institution aliases combine people and dated graph filters without counting people twice', () => {
+  const people = [
+    { slug: 'p', career_timeline: [
+      { institution: 'ucberkeley', type: 'education', period: '2000-2004' },
+      { institution: 'uc-berkeley', type: 'visit', period: '2010' },
+    ] },
+    { slug: 'q', career_timeline: [{ institution: 'uc-berkeley', type: 'position', period: '2020' }] },
+    { slug: 'other', career_timeline: [{ institution: 'other-campus', type: 'position', period: '2000' }] },
+  ];
+  const inst = { slug: 'uc-berkeley', research_groups: [{ name: 'Math', current_members: ['q'], past_members: ['p'] }] };
+  const before = structuredClone({ people, inst });
+  const rows = recordedAffiliations(inst, people);
+  assert.deepEqual(rows.map((r) => r.person), ['p','q']);
+  assert.equal(rows[0].career.length, 2);
+  assert.deepEqual(recordedInstitutions(people[0]), ['uc-berkeley']);
+  assert.deepEqual(recordedInstitutions(people[0], 1999), []);
+  assert.deepEqual(recordedInstitutions(people[0], 2001), ['uc-berkeley']);
+  assert.deepEqual({ people, inst }, before);
+});
 
 test('problem status does not convert unknown, unreviewed or abandoned records into solved claims', () => {
   const evidence = { reviewed_on: '2026-10-08', review_note: 'statement review', status_note: 'scope', sources: [{ label: 'source', url: 'https://example.org' }] };

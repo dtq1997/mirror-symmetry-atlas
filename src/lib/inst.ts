@@ -4,7 +4,7 @@
  */
 import names from "./institution-names.json";
 
-type InstEntry = { displayName: string; en: string; zh: string | null };
+type InstEntry = { displayName: string; en: string; zh: string | null; canonicalSlug: string };
 const TABLE = names as Record<string, InstEntry>;
 
 /** Preferred display: Chinese when available, else English, else slug. */
@@ -15,6 +15,11 @@ export function institutionName(slug: string | undefined | null): string {
 
 export function institutionInfo(slug: string): InstEntry | undefined {
   return TABLE[slug];
+}
+
+/** Unknown references remain unknown; aliases come only from reviewed YAML. */
+export function institutionSlug(slug: string): string {
+  return TABLE[slug]?.canonicalSlug ?? slug;
 }
 
 export function relevanceLabel(value: string): string {

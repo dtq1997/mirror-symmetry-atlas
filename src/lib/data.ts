@@ -17,6 +17,7 @@ import type {
 } from "./types";
 import { collectCoauthorship, recordedPublicationStats } from "./publications";
 import { canonicalConcepts, conceptLookup } from "./concepts";
+import { canonicalInstitutions, institutionLookup } from "./institutions";
 
 const DATA_DIR = path.join(process.cwd(), "data");
 
@@ -271,7 +272,7 @@ export function getAckMentions(): {
 
 // ===== Institutions =====
 
-export function getAllInstitutions(): Institution[] {
+export function getInstitutionRecords(): Institution[] {
   return readYamlDir<Institution>("institutions").map((i) => ({
     ...i,
     research_groups: i.research_groups || [],
@@ -279,12 +280,12 @@ export function getAllInstitutions(): Institution[] {
   }));
 }
 
+export function getAllInstitutions(): Institution[] {
+  return canonicalInstitutions(getInstitutionRecords());
+}
+
 export function getInstitutionsMap(): Map<string, Institution> {
-  const map = new Map<string, Institution>();
-  for (const i of getAllInstitutions()) {
-    map.set(i.slug, i);
-  }
-  return map;
+  return institutionLookup(getInstitutionRecords());
 }
 
 // ===== Open Problems =====
@@ -335,7 +336,7 @@ export function getAllKnownSlugs(): Set<string> {
   const slugs = new Set<string>();
   for (const p of getAllPeople()) slugs.add(p.slug);
   for (const c of getConceptRecords()) slugs.add(c.slug);
-  for (const i of getAllInstitutions()) slugs.add(i.slug);
+  for (const i of getInstitutionRecords()) slugs.add(i.slug);
   return slugs;
 }
 
