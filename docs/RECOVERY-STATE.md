@@ -265,3 +265,14 @@ Goal仍active，转向概念内容的一手来源核查而非继续把绘图通�
 [Codex] 2026-10-08 第十四批线上验收完成：commit `1fc640488d1602e349ac94744a58a99ba37cc1e4`，Actions `37714931087` success。10页HTTP检查覆盖全部4主条目与3别名、首页、概念图和未核内容提示；逐条比对行内/行间TeX与来源链接。手机Frobenius搜索仅1条，前置概念显示中文；桌面图谱定位、侧栏核对范围及来源入口正常，error日志为空。截图concept-definitions-live.png。全Goal仍active。
 
 [Codex] 下一轮开场：继续 mirror-symmetry-atlas 全站整治 Goal。先读 docs/RECOVERY-STATE.md 并检查git；第十四批已上线，从 docs/audits/2026-10-08/next-conjecture-content-leads.json 审核Gamma I/II、HMS/Fukaya和Virasoro及3个问题的来源/量词/状态。旧字段是待审原文，不是数学结论。保持逐批证据、构建、部署和线上验收；不回academic-formula-workbench，不运行旧不安全自动归属写入器。
+
+
+[Codex] 2026-10-08 第十五批（本地验收完成，待发布）：
+
+- 新增问题目录与3个详情页，首页、导航、前置概念可进入。展示条件、文献进展、来源和核对范围；旧页面的未知/abandoned状态不能再误显示为已解决。无核对元数据的记录默认状态待核，结构检查不能代替数学判断。
+- Gamma I 补 Property O、归一化和原版反例（2405.16979v3 定理1.1，偶数n>=4）；Gamma II 保留收敛/半单/已有满例外集前提及修改Ch约定，不能混作整个Dubrovin猜想。纠正问题与经典文献中Helix的错号1508.00719→1811.09235；专著按Springer记录为2024/LNM2356/DOI10.1007/978-3-031-69067-9。
+- 重要澄清：2026 HUST del Pezzo Gamma II线索已找到后续正式预印本2606.07418v1，定理1.4陈述所有del Pezzo情形；四位作者胡建勋、柯华忠、李长征、苏志同，不能只归柯一人，也不能用Gamma I论文1901.01748代替。2026条目仍明确为预印本，不冒充本站独立重证。
+- Fukaya修正CF复形与HF上同调层次，去掉导出范畴同义词和无条件对偶。HMS补系数、参数与构造条件，Sheridan日期改2011预印本/2015期刊。一般HMS状态改为待核，保留具体文献结果：1111.0632v4明确有当时在准备中的构造依赖；1709.08937v2定理C/D有不同假设。后续是否已补齐仍待查，不能用旧稿缺口推断今天没有证明。
+- Virasoro补半单全亏格结果；Liu–Tian定理0.2按原文保留偶插入范围；Guo–Zhang TR日期改2025，不能自动外推所有几何GW。新增2608.29870v1：郭帅、张庆生、周扬的Fano完全交环境上同调genus-one定理，不能去掉环境或亏格限制。
+- 证据：conjectures-and-problem-pages-review.json保留8文件完整前后版本、17份一手PDF哈希、定理定位和未核事项。40项网站回归、lint/typecheck/build通过；0errors/74warnings；287HTML/22736链接/706公式实例，0坏目标/解析错。手机目录→Gamma详情→概念及桌面HMS/Virasoro跳转检查通过，未见横向溢出，浏览器error日志为空。数学原文陈述核对不是独立证明认证。
+- Goal仍active。待本批部署后继续：HMS基础依赖的后续文献；2606.07418与2608.29870补入人物论文库前逐作者核实；其余人物、概念、机构、会议/时间线与论文查找体验。预览PID95019由本轮启动，尚待关闭。

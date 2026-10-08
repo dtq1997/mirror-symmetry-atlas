@@ -1,4 +1,4 @@
-import { getConceptRecords, getConceptsMap } from "@/lib/data";
+import { getConceptRecords, getConceptsMap, getAllProblems } from "@/lib/data";
 import Link from "@/components/shared/AtlasLink";
 import { notFound } from "next/navigation";
 import MathText from "@/components/shared/MathText";
@@ -36,6 +36,7 @@ export default async function ConceptPage({
   const { slug } = await params;
   const concept = getConceptsMap().get(slug);
   if (!concept) notFound();
+  const problems = getAllProblems().filter(p => p.prerequisites.includes(concept.slug));
 
   const diffColor = DIFFICULTY_COLORS[concept.difficulty] || "#6366f1";
 
@@ -106,6 +107,13 @@ export default async function ConceptPage({
       )}
 
       <ConceptEvidence concept={concept} />
+
+      {problems.length > 0 && <section className="mb-8">
+        <h2 className="text-lg font-semibold mb-3">相关问题与进展</h2>
+        <div className="flex flex-wrap gap-3 text-sm text-[#818cf8]">
+          {problems.map(problem => <Link key={problem.slug} href={`/problems/${problem.slug}`} className="hover:underline">{problem.name.zh || problem.name.en} →</Link>)}
+        </div>
+      </section>}
 
       {/* Dependencies */}
       <div className="grid md:grid-cols-2 gap-4 mb-8">

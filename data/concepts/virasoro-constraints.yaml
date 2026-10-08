@@ -6,11 +6,20 @@ aliases: []
 category: equation
 difficulty: advanced
 discipline: both
-year_introduced: 1990
 introduced_by: []
 definition: |
-  拓扑场论/矩阵模型的配分函数 $Z$ 满足的一列微分方程 $L_n Z = 0$（$n \geq -1$），
-  其中 $L_n$ 构成 Virasoro 代数（的一半）的表示。
+  对指定理论的配分函数或生成函数 $Z$，Virasoro 约束通常指 $L_nZ=0$（$n\geq-1$）这一列方程，其中微分算子 $L_n$ 实现相应的半支 Virasoro 代数作用。
+  算子、变量和归一化由理论决定，不能只凭名称把不同模型的约束互换。在 Gromov–Witten 理论中，通常讨论后裔不变量的全亏格生成函数；每个亏格的约束是全式展开后的相应部分。
+  拓扑递归中的祖先／后裔生成函数也有 Virasoro 约束，但将它们认作几何 Gromov–Witten 约束需要额外的对应定理。
+history_note: "Virasoro 约束出现在多个理论中，不能用单一年份代替各版本的历史。Eguchi–Hori–Xiong 的量子上同调论文于 1997 年提交；更早的矩阵模型和二维引力背景尚待分别核对。"
+review_note: "2026-10-08：核对量子上同调与拓扑递归文献的约束对象、祖先／后裔区别。这里未逐式抄录各套算子；具体已知结果见 Virasoro 猜想问题条目。"
+sources:
+  - label: "Eguchi–Hori–Xiong：Quantum Cohomology and Virasoro Algebra，式 (1)"
+    url: "https://arxiv.org/abs/hep-th/9703086v2"
+  - label: "Getzler：The Virasoro conjecture for Gromov-Witten invariants"
+    url: "https://arxiv.org/abs/math/9812026"
+  - label: "Guo–Zhang：Virasoro constraints for topological recursion，定理 1 及引言"
+    url: "https://arxiv.org/abs/2507.20151v1"
 dual_to: null
 prerequisites:
   - gromov-witten-theory
@@ -20,6 +29,6 @@ related:
   - wdvv-equations
   - tau-function
 key_people: [zhang-youjin, dubrovin]
-key_papers: []
+key_papers: ["hep-th/9703086", "math/9812026", "2507.20151"]
 tags:
   - layer-2

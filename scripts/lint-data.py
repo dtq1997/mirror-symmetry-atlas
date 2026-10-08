@@ -46,6 +46,7 @@ from name_match import names_match, slug_for_author, is_slug
 from publication_review import load_review, blocked_review
 from institution_sources import appointment_errors
 from concept_references import concept_reference_errors, concept_content_errors
+from problem_content import problem_errors
 
 ROOT = HERE.parent
 PEOPLE_DIR = ROOT / 'data/people'
@@ -387,6 +388,10 @@ def lint(strict_pubs=False, only_slug=None):
     # === institution checks ===
     if only_slug is None:
         concepts = load_yaml_dir(ROOT / 'data/concepts')
+        problems = load_yaml_dir(ROOT / 'data/problems')
+        for slug, problem in problems.items():
+            for message in problem_errors(problem, problems):
+                err(f'problem:{slug}', message)
         for slug, concept in concepts.items():
             for message in concept_content_errors(concept, concepts):
                 err(f'concept:{slug}', message)

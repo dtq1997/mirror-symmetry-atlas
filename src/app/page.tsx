@@ -10,6 +10,7 @@ import {
 import { displayName, nameInfo } from "@/lib/name";
 import { collectPublications } from "@/lib/publications";
 import UpcomingConferences from "@/components/shared/UpcomingConferences";
+import ProblemCards from "@/components/problems/ProblemCards";
 
 export default function Dashboard() {
   const people = getAllPeople();
@@ -98,40 +99,9 @@ export default function Dashboard() {
         {problems.length > 0 && (
           <div>
             <h2 className="text-xl font-semibold text-[#e8e8f0] mb-4">
-              问题条目（状态待复核）
+              <Link href="/problems" className="hover:text-[#818cf8]">问题与进展 →</Link>
             </h2>
-            <div className="space-y-3">
-              {problems.map((prob) => (
-                <div
-                  key={prob.slug}
-                  className="bg-[#14141f] rounded-lg p-4 border border-[#2a2a3a]"
-                >
-                  <div className="flex items-center justify-between">
-                    <span className="text-sm font-medium text-[#e8e8f0]">
-                      {prob.name.zh || prob.name.en}
-                    </span>
-                    <span
-                      className={`text-[10px] px-2 py-0.5 rounded-full ${
-                        prob.status === "open"
-                          ? "bg-[#ef4444]/15 text-[#f87171]"
-                          : prob.status === "partially-solved"
-                            ? "bg-[#f59e0b]/15 text-[#fbbf24]"
-                            : "bg-[#10b981]/15 text-[#34d399]"
-                      }`}
-                    >
-                      {prob.status === "open"
-                        ? "开放"
-                        : prob.status === "partially-solved"
-                          ? "部分解决"
-                          : "已解决"}
-                    </span>
-                  </div>
-                  <div className="text-xs text-[#8888a0] mt-1">
-                    原记录提出年份：{prob.year_proposed}
-                  </div>
-                </div>
-              ))}
-            </div>
+            <ProblemCards problems={problems} />
           </div>
         )}
       </div>

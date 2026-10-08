@@ -393,7 +393,7 @@ export interface ProblemProgress {
 export interface OpenProblem {
   slug: string;
   name: MultiLangName;
-  status: "open" | "partially-solved" | "solved" | "abandoned";
+  status: "open" | "partially-solved" | "solved" | "abandoned" | "needs-review";
   importance: "millennium" | "major" | "significant" | "niche";
   year_proposed?: number;
   proposed_by: string[];
@@ -403,6 +403,10 @@ export interface OpenProblem {
   key_people: string[];
   progress: ProblemProgress[];
   current_approaches?: string[];
+  status_note?: string;
+  reviewed_on?: string;
+  review_note?: string;
+  sources?: SourceRef[];
   notes?: string;
 }
 

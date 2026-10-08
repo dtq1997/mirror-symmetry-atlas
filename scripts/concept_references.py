@@ -16,7 +16,13 @@ def concept_content_errors(concept, concepts):
                       'key_papers', 'contributions', 'dual_to'):
             if concept.get(field):
                 errors.append(f'alias entry must keep {field} on its canonical concept')
-    sources = concept.get('sources', [])
+    return errors + source_errors(concept)
+
+
+def source_errors(record):
+    """Validate public citation shape without asserting accuracy of its contents."""
+    errors = []
+    sources = record.get('sources', [])
     if not isinstance(sources, list):
         return errors + ['sources must be a list']
     for index, source in enumerate(sources):

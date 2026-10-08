@@ -6,7 +6,7 @@ const table: Record<string, string> = routes;
 
 export function entityRoute(href: string) {
   const path = href.split(/[?#]/)[0].replace(/\/$/, "");
-  const match = /^\/(people|concepts|institutions)\/([^/]+)$/.exec(path);
+  const match = /^\/(people|concepts|institutions|problems)\/([^/]+)$/.exec(path);
   if (!match) return null;
   const [, kind, slug] = match;
   const exists = Object.hasOwn(table, path);

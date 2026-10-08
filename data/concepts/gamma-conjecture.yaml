@@ -1,23 +1,33 @@
 slug: gamma-conjecture
 name:
-  en: Gamma Conjecture
-  zh: Gamma 猜想
+  en: Gamma Conjectures
+  zh: Gamma 猜想 I 与 II
 aliases:
-  - Gamma conjecture I
-  - Gamma conjecture II
-  - Dubrovin conjecture
+  - Gamma Conjecture
 category: conjecture
 difficulty: research-frontier
 discipline: math
-year_introduced: 2016
+year_introduced: 2014
 introduced_by: []
 definition: |
-  对 Fano 流形 $X$：
-  - **Gamma I**：Dubrovin 联络的主渐近类等于
-    $\hat{\Gamma}_X \cdot \mathrm{ch}(\mathcal{O})$，将平坦截面与
-    Gamma 整结构联系起来。
-  - **Gamma II**（假设半单性）：full exceptional collection 对应于渐近指数基本解。
-  精化了 Dubrovin 关于量子上同调与导出范畴关系的原始猜想。
+  这是两个相关但不同的猜想。以下采用 Galkin–Golyshev–Iritani 的约定。
+  对复 Fano 流形 $X$，Gamma 类为 $\widehat{\Gamma}_X=\prod_j\Gamma(1+\delta_j)$，其中 $\delta_j$ 是切丛的 Chern 根。
+
+  **原版 Gamma I** 假设小量子上同调在原点满足 Property O：$c_1(X)\star_0$ 的谱半径 $T$ 是单特征值，其他模为 $T$ 的特征值满足 $u^r=T^r$，其中 $r$ 是 Fano 指数。在原文固定的基本解下，沿正实轴趋于 $z=0$ 的最快衰减平坦截面确定主渐近类 $A_X$（起初只确定到非零常数）。猜想断言该类可归一化为 $A_X=\widehat{\Gamma}_X$。
+
+  **Gamma II** 假设大量子乘法在某点收敛且半单，并且 $D^b\mathrm{Coh}(X)$ 已有满例外集。对一个容许相位，猜想存在合适的满例外集 $(E_1,\ldots,E_N)$，使渐近基满足 $A_i=\widehat{\Gamma}_X\mathrm{Ch}(E_i)$。这里使用修改后的 Chern 特征 $\mathrm{Ch}(E)=\sum_p(2\pi i)^p\mathrm{ch}_p(E)$；基本解、排序和相位均按原文选定。
+
+  **原版 Gamma I 已有反例。** 2405.16979v3 的定理 1.1 给出 $X_n=\mathbb{P}_{\mathbb{P}^n}(\mathcal{O}\oplus\mathcal{O}(n))$：当 $n\geq4$ 为偶数时满足 Property O，却不满足原版 Gamma I。该文另提出修改版本；此反例不能直接用作 Gamma II 的反例。
+history_note: |
+  Galkin、Golyshev、Iritani 于 2014 年发布预印本，2016 年发表于 Duke Mathematical Journal。Gamma II 精化 Dubrovin 猜想的定量部分，不是整个 Dubrovin 猜想的别名。Cotti、Dubrovin、Guzzetti 的另一套精化表述见 1811.09235，第 5.6 节比较两者的归一化与关系。
+review_note: "2026-10-08：核对原文定义 3.4.2、猜想 3.4.3/4.6.1，以及反例论文定理 1.1。这里转述文献陈述，不是本站独立重证；图中学习关系与最早历史归属尚未逐项审定。"
+sources:
+  - label: "Galkin–Golyshev–Iritani：Gamma I/II 的原始表述，1404.6407v4"
+    url: "https://arxiv.org/abs/1404.6407v4"
+  - label: "Galkin、Hu、Iritani、Ke、Li、Su：原版 Gamma I 的反例与修改，定理 1.1，2405.16979v3"
+    url: "https://arxiv.org/abs/2405.16979v3"
+  - label: "Cotti–Dubrovin–Guzzetti：Helix Structures，第 5.6 节，1811.09235v2"
+    url: "https://arxiv.org/abs/1811.09235v2"
 dual_to: null
 prerequisites:
   - frobenius-manifold
@@ -28,10 +38,10 @@ leads_to: []
 related:
   - homological-mirror-symmetry
 key_people: [dubrovin, cotti, guzzetti]
-key_papers: []
+key_papers: ["1404.6407", "1811.09235", "2405.16979"]
 contributions:
   - person: cotti
     role: major
-    description: "Refined Dubrovin Conjecture, helix structures"
+    description: "与 Boris Dubrovin、Davide Guzzetti 合作研究 Dubrovin 猜想的精化及 helix 结构（1811.09235）。"
 tags:
   - layer-4.5

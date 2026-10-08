@@ -7,27 +7,45 @@ importance: major
 year_proposed: 1997
 proposed_by: []
 description: |
-  GW 不变量的生成函数满足 Virasoro 约束 $L_n Z = 0$ ($n \geq -1$)。
-  genus 0 已证（刘小博-田刚 1998），genus 1 和 genus 2 部分结果，
-  完整猜想仍开放。
+  对光滑射影簇 $X$ 的 Gromov–Witten 后裔不变量，猜想其全亏格生成函数 $Z_X$ 满足相应几何 Virasoro 算子的约束 $L_n^X Z_X=0$（$n\geq-1$）。算子由目标几何数据确定，具体定义与归一化见所引文献。
+  半单量子上同调情形已有全亏格结果；一般非半单情形仍有开放问题。2026 年的新结果只涉及 Fano 完全交的环境上同调上的 genus one，不能扩为全部上同调或全亏格。
+status_note: "泛半单量子上同调情形有全亏格结果；一般非半单情形仍有开放问题。新特例须分别注明亏格与插入类的范围。"
+reviewed_on: "2026-10-08"
+review_note: "核对下列原文的陈述与范围，尤其是 Liu–Tian 的偶上同调表述、Teleman 的半单前提、Guo–Zhang 的拓扑递归条件和 2026 年预印本的环境上同调限制。未独立重证，也未穷尽全部已知特例。"
 prerequisites: [virasoro-constraints, gromov-witten-theory, quantum-cohomology]
 related_problems: []
 key_people: [liu-xiaobo, guo-shuai, zhang-qingsheng]
 progress:
   - date: "1997"
-    description: "Eguchi-Hori-Xiong 和 S. Katz 独立提出"
-    papers: []
+    description: "Eguchi–Hori–Xiong 的论文提出量子上同调的 Virasoro 约束；后续 Liu–Tian 与 Getzler 文献也将猜想归于 S. Katz。未据此判定精确的独立提出先后。"
+    papers: ["hep-th/9703086", "math/9812026"]
   - date: "1998"
-    description: "刘小博-田刚 证明 genus 0 情形"
-    papers: []
-  - date: "~2002"
-    description: "刘小博 证明 genus 2 semisimple 情形"
-    papers: []
-  - date: "~2022"
-    description: "郭帅-张庆生: Virasoro constraints for topological recursion"
-    papers: []
+    description: "刘小博、田刚：genus zero 的 Virasoro 约束。定理 0.2 按偶上同调或只考虑偶插入陈述；注 (4) 说明一般情形可用相同方法处理，但该稿为简化只写这一情形。"
+    papers: ["math/9806028"]
+  - date: "2007（预印本）；2012（v3）"
+    description: "Teleman 的半单场论分类结合 Givental 量子化给出具有泛半单量子上同调的流形的全亏格 Virasoro 结论，见第 0.6 节；半单前提不可删去。"
+    papers: ["0712.0160"]
+  - date: "2025-07-27（预印本）"
+    description: "郭帅、张庆生：Virasoro constraints for topological recursion。定理 1 的后裔约束要求谱曲线的相应极点条件；这不能自动证明任意几何 GW 理论的猜想。"
+    papers: ["2507.20151"]
+  - date: "2026-08-30（预印本）"
+    description: "郭帅、张庆生、周扬：定理 1 给出光滑 Fano 完全交的环境上同调上的 genus-one Virasoro 约束。环境上同调指射影空间上同调限制到完全交所得的部分，不包含所有原始上同调插入。"
+    papers: ["2608.29870"]
 current_approaches:
-  - "Topological recursion (郭帅-张庆生)"
-  - "Matrix-resolvent method"
-  - "CohFT framework"
-notes: null
+  - "半单情形使用 Givental–Teleman 重构；适用性依赖半单假设。"
+  - "2608.29870 通过 quasimap 墙穿越和 genus-one quantum Lefschetz 处理指定的 Fano 完全交范围。"
+  - "拓扑递归给出另一类约束；连接到几何后裔不变量时仍须核实对应关系。"
+notes: "本页的 2026 年结果按 arXiv v1 记录，不将预印本转述称为本站证明或默认视为已同行评审。"
+sources:
+  - label: "Eguchi–Hori–Xiong：1997 年原文，式 (1)"
+    url: "https://arxiv.org/abs/hep-th/9703086v2"
+  - label: "Liu–Tian：Virasoro Constraints For Quantum Cohomology，定理 0.2 及注"
+    url: "https://arxiv.org/abs/math/9806028"
+  - label: "Getzler：猜想及 genus-zero 综述"
+    url: "https://arxiv.org/abs/math/9812026"
+  - label: "Teleman：The structure of 2D semi-simple field theories，第 0.6 节"
+    url: "https://arxiv.org/abs/0712.0160v3"
+  - label: "Guo–Zhang：Virasoro constraints for topological recursion，定理 1"
+    url: "https://arxiv.org/abs/2507.20151v1"
+  - label: "Guo–Zhang–Zhou：Fano 完全交的 genus-one 结果，定理 1，2026 预印本"
+    url: "https://arxiv.org/abs/2608.29870v1"

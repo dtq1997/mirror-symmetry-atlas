@@ -7,7 +7,7 @@ import yaml
 
 def main():
     routes = {}
-    for kind in ('people', 'concepts', 'institutions'):
+    for kind in ('people', 'concepts', 'institutions', 'problems'):
         for path in sorted((Path('data') / kind).glob('*.yaml')):
             if path.name.startswith('_'):
                 continue

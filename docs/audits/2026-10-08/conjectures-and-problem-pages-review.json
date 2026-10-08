@@ -1,0 +1,1680 @@
+{
+  "reviewer": "Codex",
+  "checked_at": "2026-10-08T02:13:39.498418+00:00",
+  "scope": "Source statements, bibliographic fields, conditions and delivery; no independent mathematical proof verification. Status is scoped, not whole-profile/site certification.",
+  "records": [
+    {
+      "path": "data/concepts/gamma-conjecture.yaml",
+      "before_raw": "slug: gamma-conjecture\nname:\n  en: Gamma Conjecture\n  zh: Gamma 猜想\naliases:\n  - Gamma conjecture I\n  - Gamma conjecture II\n  - Dubrovin conjecture\ncategory: conjecture\ndifficulty: research-frontier\ndiscipline: math\nyear_introduced: 2016\nintroduced_by: []\ndefinition: |\n  对 Fano 流形 $X$：\n  - **Gamma I**：Dubrovin 联络的主渐近类等于\n    $\\hat{\\Gamma}_X \\cdot \\mathrm{ch}(\\mathcal{O})$，将平坦截面与\n    Gamma 整结构联系起来。\n  - **Gamma II**（假设半单性）：full exceptional collection 对应于渐近指数基本解。\n  精化了 Dubrovin 关于量子上同调与导出范畴关系的原始猜想。\ndual_to: null\nprerequisites:\n  - frobenius-manifold\n  - quantum-cohomology\n  - derived-category\n  - stokes-phenomenon\nleads_to: []\nrelated:\n  - homological-mirror-symmetry\nkey_people: [dubrovin, cotti, guzzetti]\nkey_papers: []\ncontributions:\n  - person: cotti\n    role: major\n    description: \"Refined Dubrovin Conjecture, helix structures\"\ntags:\n  - layer-4.5\n",
+      "before": {
+        "slug": "gamma-conjecture",
+        "name": {
+          "en": "Gamma Conjecture",
+          "zh": "Gamma 猜想"
+        },
+        "aliases": [
+          "Gamma conjecture I",
+          "Gamma conjecture II",
+          "Dubrovin conjecture"
+        ],
+        "category": "conjecture",
+        "difficulty": "research-frontier",
+        "discipline": "math",
+        "year_introduced": 2016,
+        "introduced_by": [],
+        "definition": "对 Fano 流形 $X$：\n- **Gamma I**：Dubrovin 联络的主渐近类等于\n  $\\hat{\\Gamma}_X \\cdot \\mathrm{ch}(\\mathcal{O})$，将平坦截面与\n  Gamma 整结构联系起来。\n- **Gamma II**（假设半单性）：full exceptional collection 对应于渐近指数基本解。\n精化了 Dubrovin 关于量子上同调与导出范畴关系的原始猜想。\n",
+        "dual_to": null,
+        "prerequisites": [
+          "frobenius-manifold",
+          "quantum-cohomology",
+          "derived-category",
+          "stokes-phenomenon"
+        ],
+        "leads_to": [],
+        "related": [
+          "homological-mirror-symmetry"
+        ],
+        "key_people": [
+          "dubrovin",
+          "cotti",
+          "guzzetti"
+        ],
+        "key_papers": [],
+        "contributions": [
+          {
+            "person": "cotti",
+            "role": "major",
+            "description": "Refined Dubrovin Conjecture, helix structures"
+          }
+        ],
+        "tags": [
+          "layer-4.5"
+        ]
+      },
+      "before_sha256": "2f329270657245905f36a7a584313b0df1760b0647493216ce367fa24355785b",
+      "after_raw": "slug: gamma-conjecture\nname:\n  en: Gamma Conjectures\n  zh: Gamma 猜想 I 与 II\naliases:\n  - Gamma Conjecture\ncategory: conjecture\ndifficulty: research-frontier\ndiscipline: math\nyear_introduced: 2014\nintroduced_by: []\ndefinition: |\n  这是两个相关但不同的猜想。以下采用 Galkin–Golyshev–Iritani 的约定。\n  对复 Fano 流形 $X$，Gamma 类为 $\\widehat{\\Gamma}_X=\\prod_j\\Gamma(1+\\delta_j)$，其中 $\\delta_j$ 是切丛的 Chern 根。\n\n  **原版 Gamma I** 假设小量子上同调在原点满足 Property O：$c_1(X)\\star_0$ 的谱半径 $T$ 是单特征值，其他模为 $T$ 的特征值满足 $u^r=T^r$，其中 $r$ 是 Fano 指数。在原文固定的基本解下，沿正实轴趋于 $z=0$ 的最快衰减平坦截面确定主渐近类 $A_X$（起初只确定到非零常数）。猜想断言该类可归一化为 $A_X=\\widehat{\\Gamma}_X$。\n\n  **Gamma II** 假设大量子乘法在某点收敛且半单，并且 $D^b\\mathrm{Coh}(X)$ 已有满例外集。对一个容许相位，猜想存在合适的满例外集 $(E_1,\\ldots,E_N)$，使渐近基满足 $A_i=\\widehat{\\Gamma}_X\\mathrm{Ch}(E_i)$。这里使用修改后的 Chern 特征 $\\mathrm{Ch}(E)=\\sum_p(2\\pi i)^p\\mathrm{ch}_p(E)$；基本解、排序和相位均按原文选定。\n\n  **原版 Gamma I 已有反例。** 2405.16979v3 的定理 1.1 给出 $X_n=\\mathbb{P}_{\\mathbb{P}^n}(\\mathcal{O}\\oplus\\mathcal{O}(n))$：当 $n\\geq4$ 为偶数时满足 Property O，却不满足原版 Gamma I。该文另提出修改版本；此反例不能直接用作 Gamma II 的反例。\nhistory_note: |\n  Galkin、Golyshev、Iritani 于 2014 年发布预印本，2016 年发表于 Duke Mathematical Journal。Gamma II 精化 Dubrovin 猜想的定量部分，不是整个 Dubrovin 猜想的别名。Cotti、Dubrovin、Guzzetti 的另一套精化表述见 1811.09235，第 5.6 节比较两者的归一化与关系。\nreview_note: \"2026-10-08：核对原文定义 3.4.2、猜想 3.4.3/4.6.1，以及反例论文定理 1.1。这里转述文献陈述，不是本站独立重证；图中学习关系与最早历史归属尚未逐项审定。\"\nsources:\n  - label: \"Galkin–Golyshev–Iritani：Gamma I/II 的原始表述，1404.6407v4\"\n    url: \"https://arxiv.org/abs/1404.6407v4\"\n  - label: \"Galkin、Hu、Iritani、Ke、Li、Su：原版 Gamma I 的反例与修改，定理 1.1，2405.16979v3\"\n    url: \"https://arxiv.org/abs/2405.16979v3\"\n  - label: \"Cotti–Dubrovin–Guzzetti：Helix Structures，第 5.6 节，1811.09235v2\"\n    url: \"https://arxiv.org/abs/1811.09235v2\"\ndual_to: null\nprerequisites:\n  - frobenius-manifold\n  - quantum-cohomology\n  - derived-category\n  - stokes-phenomenon\nleads_to: []\nrelated:\n  - homological-mirror-symmetry\nkey_people: [dubrovin, cotti, guzzetti]\nkey_papers: [\"1404.6407\", \"1811.09235\", \"2405.16979\"]\ncontributions:\n  - person: cotti\n    role: major\n    description: \"与 Boris Dubrovin、Davide Guzzetti 合作研究 Dubrovin 猜想的精化及 helix 结构（1811.09235）。\"\ntags:\n  - layer-4.5\n",
+      "after": {
+        "slug": "gamma-conjecture",
+        "name": {
+          "en": "Gamma Conjectures",
+          "zh": "Gamma 猜想 I 与 II"
+        },
+        "aliases": [
+          "Gamma Conjecture"
+        ],
+        "category": "conjecture",
+        "difficulty": "research-frontier",
+        "discipline": "math",
+        "year_introduced": 2014,
+        "introduced_by": [],
+        "definition": "这是两个相关但不同的猜想。以下采用 Galkin–Golyshev–Iritani 的约定。\n对复 Fano 流形 $X$，Gamma 类为 $\\widehat{\\Gamma}_X=\\prod_j\\Gamma(1+\\delta_j)$，其中 $\\delta_j$ 是切丛的 Chern 根。\n\n**原版 Gamma I** 假设小量子上同调在原点满足 Property O：$c_1(X)\\star_0$ 的谱半径 $T$ 是单特征值，其他模为 $T$ 的特征值满足 $u^r=T^r$，其中 $r$ 是 Fano 指数。在原文固定的基本解下，沿正实轴趋于 $z=0$ 的最快衰减平坦截面确定主渐近类 $A_X$（起初只确定到非零常数）。猜想断言该类可归一化为 $A_X=\\widehat{\\Gamma}_X$。\n\n**Gamma II** 假设大量子乘法在某点收敛且半单，并且 $D^b\\mathrm{Coh}(X)$ 已有满例外集。对一个容许相位，猜想存在合适的满例外集 $(E_1,\\ldots,E_N)$，使渐近基满足 $A_i=\\widehat{\\Gamma}_X\\mathrm{Ch}(E_i)$。这里使用修改后的 Chern 特征 $\\mathrm{Ch}(E)=\\sum_p(2\\pi i)^p\\mathrm{ch}_p(E)$；基本解、排序和相位均按原文选定。\n\n**原版 Gamma I 已有反例。** 2405.16979v3 的定理 1.1 给出 $X_n=\\mathbb{P}_{\\mathbb{P}^n}(\\mathcal{O}\\oplus\\mathcal{O}(n))$：当 $n\\geq4$ 为偶数时满足 Property O，却不满足原版 Gamma I。该文另提出修改版本；此反例不能直接用作 Gamma II 的反例。\n",
+        "history_note": "Galkin、Golyshev、Iritani 于 2014 年发布预印本，2016 年发表于 Duke Mathematical Journal。Gamma II 精化 Dubrovin 猜想的定量部分，不是整个 Dubrovin 猜想的别名。Cotti、Dubrovin、Guzzetti 的另一套精化表述见 1811.09235，第 5.6 节比较两者的归一化与关系。\n",
+        "review_note": "2026-10-08：核对原文定义 3.4.2、猜想 3.4.3/4.6.1，以及反例论文定理 1.1。这里转述文献陈述，不是本站独立重证；图中学习关系与最早历史归属尚未逐项审定。",
+        "sources": [
+          {
+            "label": "Galkin–Golyshev–Iritani：Gamma I/II 的原始表述，1404.6407v4",
+            "url": "https://arxiv.org/abs/1404.6407v4"
+          },
+          {
+            "label": "Galkin、Hu、Iritani、Ke、Li、Su：原版 Gamma I 的反例与修改，定理 1.1，2405.16979v3",
+            "url": "https://arxiv.org/abs/2405.16979v3"
+          },
+          {
+            "label": "Cotti–Dubrovin–Guzzetti：Helix Structures，第 5.6 节，1811.09235v2",
+            "url": "https://arxiv.org/abs/1811.09235v2"
+          }
+        ],
+        "dual_to": null,
+        "prerequisites": [
+          "frobenius-manifold",
+          "quantum-cohomology",
+          "derived-category",
+          "stokes-phenomenon"
+        ],
+        "leads_to": [],
+        "related": [
+          "homological-mirror-symmetry"
+        ],
+        "key_people": [
+          "dubrovin",
+          "cotti",
+          "guzzetti"
+        ],
+        "key_papers": [
+          "1404.6407",
+          "1811.09235",
+          "2405.16979"
+        ],
+        "contributions": [
+          {
+            "person": "cotti",
+            "role": "major",
+            "description": "与 Boris Dubrovin、Davide Guzzetti 合作研究 Dubrovin 猜想的精化及 helix 结构（1811.09235）。"
+          }
+        ],
+        "tags": [
+          "layer-4.5"
+        ]
+      },
+      "after_sha256": "7e5dbaa4b8e6a7ce78034dc455841e59f8406b7dd09bb16eb2107b7129b47f04",
+      "reviewed_scope": [
+        "Gamma I Property O and scalar normalization; Gamma II convergence, semisimplicity, existing full exceptional collection, modified Ch convention",
+        "2014 preprint vs 2016 publication; not an alias of the whole Dubrovin conjecture",
+        "2405.16979v3 Theorem 1.1: even n>=4 counterexamples to original Gamma I, not Gamma II"
+      ]
+    },
+    {
+      "path": "data/concepts/homological-mirror-symmetry.yaml",
+      "before_raw": "slug: homological-mirror-symmetry\nname:\n  en: Homological Mirror Symmetry\n  zh: 同调镜像对称\naliases:\n  - HMS\ncategory: conjecture\ndifficulty: research-frontier\ndiscipline: math\nyear_introduced: 1994\nintroduced_by: [kontsevich]\ndefinition: |\n  对镜像对 $(X, \\check{X})$：\n  $D^b\\mathrm{Coh}(X) \\cong D^\\pi\\mathrm{Fuk}(\\check{X})$\n  即 $X$ 上凝聚层的导出范畴等价于 $\\check{X}$ 的导出 Fukaya 范畴。\ndual_to: null\nprerequisites:\n  - mirror-symmetry\n  - derived-category\n  - fukaya-category\nleads_to: []\nrelated:\n  - quantum-cohomology\n  - calabi-yau\nkey_people: [kontsevich]\nkey_papers: [\"alg-geom/9411018\"]\ncontributions:\n  - person: kontsevich\n    role: founder\n    description: \"1994 ICM 报告提出猜想\"\ntags: []\n",
+      "before": {
+        "slug": "homological-mirror-symmetry",
+        "name": {
+          "en": "Homological Mirror Symmetry",
+          "zh": "同调镜像对称"
+        },
+        "aliases": [
+          "HMS"
+        ],
+        "category": "conjecture",
+        "difficulty": "research-frontier",
+        "discipline": "math",
+        "year_introduced": 1994,
+        "introduced_by": [
+          "kontsevich"
+        ],
+        "definition": "对镜像对 $(X, \\check{X})$：\n$D^b\\mathrm{Coh}(X) \\cong D^\\pi\\mathrm{Fuk}(\\check{X})$\n即 $X$ 上凝聚层的导出范畴等价于 $\\check{X}$ 的导出 Fukaya 范畴。\n",
+        "dual_to": null,
+        "prerequisites": [
+          "mirror-symmetry",
+          "derived-category",
+          "fukaya-category"
+        ],
+        "leads_to": [],
+        "related": [
+          "quantum-cohomology",
+          "calabi-yau"
+        ],
+        "key_people": [
+          "kontsevich"
+        ],
+        "key_papers": [
+          "alg-geom/9411018"
+        ],
+        "contributions": [
+          {
+            "person": "kontsevich",
+            "role": "founder",
+            "description": "1994 ICM 报告提出猜想"
+          }
+        ],
+        "tags": []
+      },
+      "before_sha256": "a1fffb122fe0b7f188b6f0c2a81b5f3705035dbc23d11ae158c4d3b7a9d3fa50",
+      "after_raw": "slug: homological-mirror-symmetry\nname:\n  en: Homological Mirror Symmetry\n  zh: 同调镜像对称\naliases:\n  - HMS\ncategory: conjecture\ndifficulty: research-frontier\ndiscipline: math\nyear_introduced: 1994\nintroduced_by: [kontsevich]\ndefinition: |\n  同调镜像对称把镜像关系表达为范畴之间的等价。在常见的紧致 Calabi–Yau 版本中，对指定镜像对、辛形式及兼容的系数域，预期有\n  $$D^b\\mathrm{Coh}(X)\\simeq D^\\pi\\mathrm{Fuk}(\\check{X}).$$\n  左侧是凝聚层的有界导出范畴；右侧是 Fukaya 范畴的导出构造再取直和因子闭包。精确版本常在 dg 或 $A_\\infty$ 增强的层面陈述，并可能需要 Novikov 系数、镜像参数变换和 bounding cochain 数据。\n  这是猜想框架及已知特定情形的结论，不能对任意两流形直接套用。Fano／Landau–Ginzburg 情形需要相应的范畴版本。\nhistory_note: \"Kontsevich 的 1994 年 ICM 稿第 18 页提出 Homological Mirror Conjecture；原文明确称其为尚较粗略的表述，并讨论扩大 Fukaya 范畴的可能性。本页公式使用后续文献常见的记号，不冒充原文逐字表述。\"\nreview_note: \"2026-10-08：核对原始提出背景和范畴层次；指定镜像对的系数、参数及构造假设见各论文。已知具体结果和仍需核对的证明基础见问题条目，不能据本页公式认定一般情形已证。\"\nsources:\n  - label: \"Kontsevich：1994 ICM 稿，第 18 页 Homological Mirror Conjecture\"\n    url: \"https://arxiv.org/abs/alg-geom/9411018\"\n  - label: \"Sheridan：定义 1.2.5–1.2.6、定理 1.2.7 及其后的构造依赖说明\"\n    url: \"https://arxiv.org/abs/1111.0632v4\"\n  - label: \"Sheridan–Smith：第 1.6 节定理 C/D，分别列出低维和附带构造假设的版本\"\n    url: \"https://arxiv.org/abs/1709.08937v2\"\ndual_to: null\nprerequisites:\n  - mirror-symmetry\n  - derived-category\n  - fukaya-category\nleads_to: []\nrelated:\n  - quantum-cohomology\n  - calabi-yau\nkey_people: [kontsevich]\nkey_papers: [\"alg-geom/9411018\"]\ncontributions:\n  - person: kontsevich\n    role: founder\n    description: \"1994 ICM 报告提出猜想\"\ntags: []\n",
+      "after": {
+        "slug": "homological-mirror-symmetry",
+        "name": {
+          "en": "Homological Mirror Symmetry",
+          "zh": "同调镜像对称"
+        },
+        "aliases": [
+          "HMS"
+        ],
+        "category": "conjecture",
+        "difficulty": "research-frontier",
+        "discipline": "math",
+        "year_introduced": 1994,
+        "introduced_by": [
+          "kontsevich"
+        ],
+        "definition": "同调镜像对称把镜像关系表达为范畴之间的等价。在常见的紧致 Calabi–Yau 版本中，对指定镜像对、辛形式及兼容的系数域，预期有\n$$D^b\\mathrm{Coh}(X)\\simeq D^\\pi\\mathrm{Fuk}(\\check{X}).$$\n左侧是凝聚层的有界导出范畴；右侧是 Fukaya 范畴的导出构造再取直和因子闭包。精确版本常在 dg 或 $A_\\infty$ 增强的层面陈述，并可能需要 Novikov 系数、镜像参数变换和 bounding cochain 数据。\n这是猜想框架及已知特定情形的结论，不能对任意两流形直接套用。Fano／Landau–Ginzburg 情形需要相应的范畴版本。\n",
+        "history_note": "Kontsevich 的 1994 年 ICM 稿第 18 页提出 Homological Mirror Conjecture；原文明确称其为尚较粗略的表述，并讨论扩大 Fukaya 范畴的可能性。本页公式使用后续文献常见的记号，不冒充原文逐字表述。",
+        "review_note": "2026-10-08：核对原始提出背景和范畴层次；指定镜像对的系数、参数及构造假设见各论文。已知具体结果和仍需核对的证明基础见问题条目，不能据本页公式认定一般情形已证。",
+        "sources": [
+          {
+            "label": "Kontsevich：1994 ICM 稿，第 18 页 Homological Mirror Conjecture",
+            "url": "https://arxiv.org/abs/alg-geom/9411018"
+          },
+          {
+            "label": "Sheridan：定义 1.2.5–1.2.6、定理 1.2.7 及其后的构造依赖说明",
+            "url": "https://arxiv.org/abs/1111.0632v4"
+          },
+          {
+            "label": "Sheridan–Smith：第 1.6 节定理 C/D，分别列出低维和附带构造假设的版本",
+            "url": "https://arxiv.org/abs/1709.08937v2"
+          }
+        ],
+        "dual_to": null,
+        "prerequisites": [
+          "mirror-symmetry",
+          "derived-category",
+          "fukaya-category"
+        ],
+        "leads_to": [],
+        "related": [
+          "quantum-cohomology",
+          "calabi-yau"
+        ],
+        "key_people": [
+          "kontsevich"
+        ],
+        "key_papers": [
+          "alg-geom/9411018"
+        ],
+        "contributions": [
+          {
+            "person": "kontsevich",
+            "role": "founder",
+            "description": "1994 ICM 报告提出猜想"
+          }
+        ],
+        "tags": []
+      },
+      "after_sha256": "4a70c0ac9c802ea912e50d368f7348ba2881c50b2d8dc562eb5302858527cf60",
+      "reviewed_scope": [
+        "Kontsevich 1994 p18 deliberately incomplete framework; later notation not a literal quotation",
+        "Coefficient, category enhancement and construction conditions retained"
+      ]
+    },
+    {
+      "path": "data/concepts/fukaya-category.yaml",
+      "before_raw": "slug: fukaya-category\nname:\n  en: Fukaya Category\n  zh: Fukaya 范畴\naliases:\n  - derived Fukaya category\ncategory: algebraic-structure\ndifficulty: research-frontier\ndiscipline: math\nyear_introduced: 1993\nintroduced_by: []\ndefinition: |\n  辛流形上的 $A_\\infty$ 范畴，对象是 Lagrangian 子流形，态射由 Floer 上同调给出。\n  是同调镜像对称的 A-model 一侧。\ndual_to: derived-category\nprerequisites:\n  - mirror-symmetry\nleads_to:\n  - homological-mirror-symmetry\nrelated: []\nkey_people: [kontsevich]\nkey_papers: []\ntags: []\n",
+      "before": {
+        "slug": "fukaya-category",
+        "name": {
+          "en": "Fukaya Category",
+          "zh": "Fukaya 范畴"
+        },
+        "aliases": [
+          "derived Fukaya category"
+        ],
+        "category": "algebraic-structure",
+        "difficulty": "research-frontier",
+        "discipline": "math",
+        "year_introduced": 1993,
+        "introduced_by": [],
+        "definition": "辛流形上的 $A_\\infty$ 范畴，对象是 Lagrangian 子流形，态射由 Floer 上同调给出。\n是同调镜像对称的 A-model 一侧。\n",
+        "dual_to": "derived-category",
+        "prerequisites": [
+          "mirror-symmetry"
+        ],
+        "leads_to": [
+          "homological-mirror-symmetry"
+        ],
+        "related": [],
+        "key_people": [
+          "kontsevich"
+        ],
+        "key_papers": [],
+        "tags": []
+      },
+      "before_sha256": "0d34b51126a3c48357329112c549688a1386ca7cb399dffd558e8d3b51ac3a89",
+      "after_raw": "slug: fukaya-category\nname:\n  en: Fukaya Category\n  zh: Fukaya 范畴\naliases: []\ncategory: algebraic-structure\ndifficulty: research-frontier\ndiscipline: math\nintroduced_by: []\ndefinition: |\n  辛几何中的 $A_\\infty$ 范畴，其具体版本取决于辛流形、系数和允许的 Lagrangian 对象。对象需要合适的附加结构与条件，例如分次、spin 结构；更一般的版本还涉及局部系统和消除障碍的数据，不能把任意 Lagrangian 子流形直接当对象。\n  在通常的链模型中，态射是 Floer 复形 $CF^*(L_0,L_1)$，$\\mu^1$ 是微分，$\\mu^2$ 是乘法，较高运算由伪全纯多边形计数给出。取态射上同调后才得到以 $HF^*(L_0,L_1)$ 为态射的上同调范畴。\n  导出 Fukaya 范畴还需加入移位、锥等构造；$D^\\pi\\mathrm{Fuk}$ 进一步包含直和因子闭包。它与凝聚层导出范畴的联系属于指定镜像对的同调镜像对称陈述，不是一般辛流形上无条件的对偶。\nhistory_note: \"本条采用 Auroux 综述第 2.3 节及第 3 节的层次区分；最初提出的年代尚待历史来源核对。\"\nreview_note: \"2026-10-08：核对链级态射、上同调范畴及导出构造的区别。不同版本所需的解析、障碍与系数条件须查相应构造；本页不是一个覆盖所有辛流形的完整定义。\"\nsources:\n  - label: \"Auroux：A beginner's introduction to Fukaya categories，第 2.3 节（定义 2.9、注 2.10）及第 3 节\"\n    url: \"https://arxiv.org/abs/1301.7056\"\ndual_to: null\nprerequisites:\n  - mirror-symmetry\nleads_to:\n  - homological-mirror-symmetry\nrelated: []\nkey_people: [kontsevich]\nkey_papers: [\"1301.7056\"]\ntags: []\n",
+      "after": {
+        "slug": "fukaya-category",
+        "name": {
+          "en": "Fukaya Category",
+          "zh": "Fukaya 范畴"
+        },
+        "aliases": [],
+        "category": "algebraic-structure",
+        "difficulty": "research-frontier",
+        "discipline": "math",
+        "introduced_by": [],
+        "definition": "辛几何中的 $A_\\infty$ 范畴，其具体版本取决于辛流形、系数和允许的 Lagrangian 对象。对象需要合适的附加结构与条件，例如分次、spin 结构；更一般的版本还涉及局部系统和消除障碍的数据，不能把任意 Lagrangian 子流形直接当对象。\n在通常的链模型中，态射是 Floer 复形 $CF^*(L_0,L_1)$，$\\mu^1$ 是微分，$\\mu^2$ 是乘法，较高运算由伪全纯多边形计数给出。取态射上同调后才得到以 $HF^*(L_0,L_1)$ 为态射的上同调范畴。\n导出 Fukaya 范畴还需加入移位、锥等构造；$D^\\pi\\mathrm{Fuk}$ 进一步包含直和因子闭包。它与凝聚层导出范畴的联系属于指定镜像对的同调镜像对称陈述，不是一般辛流形上无条件的对偶。\n",
+        "history_note": "本条采用 Auroux 综述第 2.3 节及第 3 节的层次区分；最初提出的年代尚待历史来源核对。",
+        "review_note": "2026-10-08：核对链级态射、上同调范畴及导出构造的区别。不同版本所需的解析、障碍与系数条件须查相应构造；本页不是一个覆盖所有辛流形的完整定义。",
+        "sources": [
+          {
+            "label": "Auroux：A beginner's introduction to Fukaya categories，第 2.3 节（定义 2.9、注 2.10）及第 3 节",
+            "url": "https://arxiv.org/abs/1301.7056"
+          }
+        ],
+        "dual_to": null,
+        "prerequisites": [
+          "mirror-symmetry"
+        ],
+        "leads_to": [
+          "homological-mirror-symmetry"
+        ],
+        "related": [],
+        "key_people": [
+          "kontsevich"
+        ],
+        "key_papers": [
+          "1301.7056"
+        ],
+        "tags": []
+      },
+      "after_sha256": "847a28a5377830bbfa2c3d2ff8880a6b78d59955fffa06c4a4b15d39ab135f47",
+      "reviewed_scope": [
+        "1301.7056 section 2.3, Definition 2.9 and Remark 2.10: CF vs HF and extra object data",
+        "derived/split closure is not a synonym; no unconditional derived-category duality"
+      ]
+    },
+    {
+      "path": "data/concepts/virasoro-constraints.yaml",
+      "before_raw": "slug: virasoro-constraints\nname:\n  en: Virasoro Constraints\n  zh: Virasoro 约束\naliases: []\ncategory: equation\ndifficulty: advanced\ndiscipline: both\nyear_introduced: 1990\nintroduced_by: []\ndefinition: |\n  拓扑场论/矩阵模型的配分函数 $Z$ 满足的一列微分方程 $L_n Z = 0$（$n \\geq -1$），\n  其中 $L_n$ 构成 Virasoro 代数（的一半）的表示。\ndual_to: null\nprerequisites:\n  - gromov-witten-theory\nleads_to: []\nrelated:\n  - integrable-hierarchy\n  - wdvv-equations\n  - tau-function\nkey_people: [zhang-youjin, dubrovin]\nkey_papers: []\ntags:\n  - layer-2\n",
+      "before": {
+        "slug": "virasoro-constraints",
+        "name": {
+          "en": "Virasoro Constraints",
+          "zh": "Virasoro 约束"
+        },
+        "aliases": [],
+        "category": "equation",
+        "difficulty": "advanced",
+        "discipline": "both",
+        "year_introduced": 1990,
+        "introduced_by": [],
+        "definition": "拓扑场论/矩阵模型的配分函数 $Z$ 满足的一列微分方程 $L_n Z = 0$（$n \\geq -1$），\n其中 $L_n$ 构成 Virasoro 代数（的一半）的表示。\n",
+        "dual_to": null,
+        "prerequisites": [
+          "gromov-witten-theory"
+        ],
+        "leads_to": [],
+        "related": [
+          "integrable-hierarchy",
+          "wdvv-equations",
+          "tau-function"
+        ],
+        "key_people": [
+          "zhang-youjin",
+          "dubrovin"
+        ],
+        "key_papers": [],
+        "tags": [
+          "layer-2"
+        ]
+      },
+      "before_sha256": "369a8490f962c8d8d763fd1aaa4499edb8755cb053b16b10154dd3bfb736eca4",
+      "after_raw": "slug: virasoro-constraints\nname:\n  en: Virasoro Constraints\n  zh: Virasoro 约束\naliases: []\ncategory: equation\ndifficulty: advanced\ndiscipline: both\nintroduced_by: []\ndefinition: |\n  对指定理论的配分函数或生成函数 $Z$，Virasoro 约束通常指 $L_nZ=0$（$n\\geq-1$）这一列方程，其中微分算子 $L_n$ 实现相应的半支 Virasoro 代数作用。\n  算子、变量和归一化由理论决定，不能只凭名称把不同模型的约束互换。在 Gromov–Witten 理论中，通常讨论后裔不变量的全亏格生成函数；每个亏格的约束是全式展开后的相应部分。\n  拓扑递归中的祖先／后裔生成函数也有 Virasoro 约束，但将它们认作几何 Gromov–Witten 约束需要额外的对应定理。\nhistory_note: \"Virasoro 约束出现在多个理论中，不能用单一年份代替各版本的历史。Eguchi–Hori–Xiong 的量子上同调论文于 1997 年提交；更早的矩阵模型和二维引力背景尚待分别核对。\"\nreview_note: \"2026-10-08：核对量子上同调与拓扑递归文献的约束对象、祖先／后裔区别。这里未逐式抄录各套算子；具体已知结果见 Virasoro 猜想问题条目。\"\nsources:\n  - label: \"Eguchi–Hori–Xiong：Quantum Cohomology and Virasoro Algebra，式 (1)\"\n    url: \"https://arxiv.org/abs/hep-th/9703086v2\"\n  - label: \"Getzler：The Virasoro conjecture for Gromov-Witten invariants\"\n    url: \"https://arxiv.org/abs/math/9812026\"\n  - label: \"Guo–Zhang：Virasoro constraints for topological recursion，定理 1 及引言\"\n    url: \"https://arxiv.org/abs/2507.20151v1\"\ndual_to: null\nprerequisites:\n  - gromov-witten-theory\nleads_to: []\nrelated:\n  - integrable-hierarchy\n  - wdvv-equations\n  - tau-function\nkey_people: [zhang-youjin, dubrovin]\nkey_papers: [\"hep-th/9703086\", \"math/9812026\", \"2507.20151\"]\ntags:\n  - layer-2\n",
+      "after": {
+        "slug": "virasoro-constraints",
+        "name": {
+          "en": "Virasoro Constraints",
+          "zh": "Virasoro 约束"
+        },
+        "aliases": [],
+        "category": "equation",
+        "difficulty": "advanced",
+        "discipline": "both",
+        "introduced_by": [],
+        "definition": "对指定理论的配分函数或生成函数 $Z$，Virasoro 约束通常指 $L_nZ=0$（$n\\geq-1$）这一列方程，其中微分算子 $L_n$ 实现相应的半支 Virasoro 代数作用。\n算子、变量和归一化由理论决定，不能只凭名称把不同模型的约束互换。在 Gromov–Witten 理论中，通常讨论后裔不变量的全亏格生成函数；每个亏格的约束是全式展开后的相应部分。\n拓扑递归中的祖先／后裔生成函数也有 Virasoro 约束，但将它们认作几何 Gromov–Witten 约束需要额外的对应定理。\n",
+        "history_note": "Virasoro 约束出现在多个理论中，不能用单一年份代替各版本的历史。Eguchi–Hori–Xiong 的量子上同调论文于 1997 年提交；更早的矩阵模型和二维引力背景尚待分别核对。",
+        "review_note": "2026-10-08：核对量子上同调与拓扑递归文献的约束对象、祖先／后裔区别。这里未逐式抄录各套算子；具体已知结果见 Virasoro 猜想问题条目。",
+        "sources": [
+          {
+            "label": "Eguchi–Hori–Xiong：Quantum Cohomology and Virasoro Algebra，式 (1)",
+            "url": "https://arxiv.org/abs/hep-th/9703086v2"
+          },
+          {
+            "label": "Getzler：The Virasoro conjecture for Gromov-Witten invariants",
+            "url": "https://arxiv.org/abs/math/9812026"
+          },
+          {
+            "label": "Guo–Zhang：Virasoro constraints for topological recursion，定理 1 及引言",
+            "url": "https://arxiv.org/abs/2507.20151v1"
+          }
+        ],
+        "dual_to": null,
+        "prerequisites": [
+          "gromov-witten-theory"
+        ],
+        "leads_to": [],
+        "related": [
+          "integrable-hierarchy",
+          "wdvv-equations",
+          "tau-function"
+        ],
+        "key_people": [
+          "zhang-youjin",
+          "dubrovin"
+        ],
+        "key_papers": [
+          "hep-th/9703086",
+          "math/9812026",
+          "2507.20151"
+        ],
+        "tags": [
+          "layer-2"
+        ]
+      },
+      "after_sha256": "3a95073ff50bdafa8eddeaf9c4329182b0397b6393caae6afdb159607ae833c7",
+      "reviewed_scope": [
+        "Theory-dependent operators and normalization; ancestor/descendent and geometric/TR distinction",
+        "No unverified universal first-introduction year"
+      ]
+    },
+    {
+      "path": "data/problems/gamma-conjecture-proof.yaml",
+      "before_raw": "slug: gamma-conjecture-proof\nname:\n  en: \"Gamma Conjecture II for general Fano manifolds\"\n  zh: \"一般 Fano 流形的 Gamma 猜想 II\"\nstatus: open\nimportance: major\nyear_proposed: 2016\nproposed_by: []\ndescription: |\n  对一般 Fano 流形证明 Gamma 猜想 II：semisimple 量子上同调的\n  Dubrovin connection 的渐近展开与导出范畴的 full exceptional collection 对应。\n  已在 del Pezzo surface (柯华忠 2026)、Grassmannians 等特殊情形验证。\nprerequisites: [gamma-conjecture, quantum-cohomology, derived-category, stokes-phenomenon]\nrelated_problems: [hms-general-cy]\nkey_people: [cotti, guzzetti, ke-huazhong]\nprogress:\n  - date: \"2016\"\n    description: \"Galkin-Golyshev-Iritani 提出猜想\"\n    papers: [\"1404.6407\"]\n  - date: \"2018\"\n    description: \"Cotti-Dubrovin-Guzzetti: helix structures, Refined Dubrovin Conjecture\"\n    papers: [\"1508.00719\"]\n  - date: \"2026\"\n    description: \"柯华忠: del Pezzo surface 情形 via Gamma-I\"\n    papers: []\ncurrent_approaches:\n  - \"Via Gamma-I (柯华忠的方法)\"\n  - \"Reflection vectors (Cruz Morales-Milanov)\"\nnotes: \"2026 HUST 会议上柯华忠有相关报告\"\n",
+      "before": {
+        "slug": "gamma-conjecture-proof",
+        "name": {
+          "en": "Gamma Conjecture II for general Fano manifolds",
+          "zh": "一般 Fano 流形的 Gamma 猜想 II"
+        },
+        "status": "open",
+        "importance": "major",
+        "year_proposed": 2016,
+        "proposed_by": [],
+        "description": "对一般 Fano 流形证明 Gamma 猜想 II：semisimple 量子上同调的\nDubrovin connection 的渐近展开与导出范畴的 full exceptional collection 对应。\n已在 del Pezzo surface (柯华忠 2026)、Grassmannians 等特殊情形验证。\n",
+        "prerequisites": [
+          "gamma-conjecture",
+          "quantum-cohomology",
+          "derived-category",
+          "stokes-phenomenon"
+        ],
+        "related_problems": [
+          "hms-general-cy"
+        ],
+        "key_people": [
+          "cotti",
+          "guzzetti",
+          "ke-huazhong"
+        ],
+        "progress": [
+          {
+            "date": "2016",
+            "description": "Galkin-Golyshev-Iritani 提出猜想",
+            "papers": [
+              "1404.6407"
+            ]
+          },
+          {
+            "date": "2018",
+            "description": "Cotti-Dubrovin-Guzzetti: helix structures, Refined Dubrovin Conjecture",
+            "papers": [
+              "1508.00719"
+            ]
+          },
+          {
+            "date": "2026",
+            "description": "柯华忠: del Pezzo surface 情形 via Gamma-I",
+            "papers": []
+          }
+        ],
+        "current_approaches": [
+          "Via Gamma-I (柯华忠的方法)",
+          "Reflection vectors (Cruz Morales-Milanov)"
+        ],
+        "notes": "2026 HUST 会议上柯华忠有相关报告"
+      },
+      "before_sha256": "e01c470dd3207b2465b04e65c698c00bce00775a4973a0c362ab88378e48402b",
+      "after_raw": "slug: gamma-conjecture-proof\nname:\n  en: \"Gamma Conjecture II for general Fano manifolds\"\n  zh: \"一般 Fano 流形的 Gamma 猜想 II\"\nstatus: open\nimportance: major\nyear_proposed: 2014\nproposed_by: []\ndescription: |\n  按 Galkin–Golyshev–Iritani 的版本，设 Fano 流形 $X$ 的大量子乘法在某点收敛且半单，并且 $D^b\\mathrm{Coh}(X)$ 存在满例外集。对指定容许相位，是否存在合适的满例外集，使其修改后的 Chern 特征乘 Gamma 类给出量子联络的渐近基？具体归一化见 Gamma 猜想概念页和原文猜想 4.6.1。\n  这里的目标是满足这些前提的一般 Fano 流形，不是断言所有 Fano 流形都有半单量子上同调。\nstatus_note: \"一般版本仍开放；下列已知情形是文献定理的转述。2026 年的新结果覆盖所有 del Pezzo 曲面，不覆盖任意维 Fano 流形。\"\nreviewed_on: \"2026-10-08\"\nreview_note: \"核对原始猜想、Grassmannian／quadric／del Pezzo 相关正文和定理陈述。未独立重证这些论文，也未穷尽全部特例；2026 年条目注明预印本版本。\"\nprerequisites: [gamma-conjecture, quantum-cohomology, derived-category, stokes-phenomenon]\nrelated_problems: [hms-general-cy]\nkey_people: [cotti, guzzetti, ke-huazhong]\nprogress:\n  - date: \"2014（预印本）；2016（期刊）\"\n    description: \"Galkin、Golyshev、Iritani 提出 Gamma I/II；定理 1.3.1–1.3.2 给出复射影空间与普通复 Grassmannian 情形。\"\n    papers: [\"1404.6407\"]\n  - date: \"2018（预印本）；2024（专著）\"\n    description: \"Cotti、Dubrovin、Guzzetti 的 Helix Structures 讨论 Dubrovin 猜想的另一精化；预印本第 5.6 节比较 Gamma II。专著发表于 Springer 的 Lecture Notes in Mathematics 2356。\"\n    papers: [\"1811.09235\"]\n  - date: \"2021（预印本）\"\n    description: \"Xiaowen Hu、Hua-Zhong Ke 的定理 1.1：射影空间中的光滑二次超曲面满足 Gamma II。\"\n    papers: [\"2103.15143\"]\n  - date: \"2026-06-05（预印本）\"\n    description: \"胡建勋、柯华忠、李长征、苏志同：Gamma conjecture II via global Gamma-I，定理 1.4 给出所有 del Pezzo 曲面情形。方法使用满足 (SR) 条件区域上的 Gamma-I 性质、Galois 作用及例外集操作；不是由原版 Gamma I 无条件推出一般 Gamma II。\"\n    papers: [\"2606.07418\"]\ncurrent_approaches:\n  - \"2606.07418 的 Strategy-Theorem：须逐一满足收敛、(SR) 区域、谱与例外集条件，不能省去这些前提。\"\nnotes: \"原版 Gamma I 已有反例，但那不能直接反驳 Gamma II。del Pezzo 的 Gamma I 论文 1901.01748 与 Gamma II 论文 2606.07418 是不同结果。2026 HUST 会议报告现已有后续预印本可查。\"\nsources:\n  - label: \"Galkin–Golyshev–Iritani：猜想 4.6.1，定理 1.3.1–1.3.2\"\n    url: \"https://arxiv.org/abs/1404.6407v4\"\n  - label: \"Cotti–Dubrovin–Guzzetti：Helix Structures，第 5.6 节\"\n    url: \"https://arxiv.org/abs/1811.09235v2\"\n  - label: \"Springer：Helix Structures 专著出版信息，2024，LNM 2356\"\n    url: \"https://link.springer.com/book/10.1007/978-3-031-69067-9\"\n  - label: \"Hu–Ke：Gamma conjecture II for quadrics，定理 1.1\"\n    url: \"https://arxiv.org/abs/2103.15143v1\"\n  - label: \"Hu–Ke–Li–Su：Gamma conjecture II via global Gamma-I，定理 1.4，2026 预印本\"\n    url: \"https://arxiv.org/abs/2606.07418v1\"\n  - label: \"Hu–Ke–Li–Yang：del Pezzo 的 Gamma I（不是 Gamma II），定理 1.2\"\n    url: \"https://arxiv.org/abs/1901.01748\"\n",
+      "after": {
+        "slug": "gamma-conjecture-proof",
+        "name": {
+          "en": "Gamma Conjecture II for general Fano manifolds",
+          "zh": "一般 Fano 流形的 Gamma 猜想 II"
+        },
+        "status": "open",
+        "importance": "major",
+        "year_proposed": 2014,
+        "proposed_by": [],
+        "description": "按 Galkin–Golyshev–Iritani 的版本，设 Fano 流形 $X$ 的大量子乘法在某点收敛且半单，并且 $D^b\\mathrm{Coh}(X)$ 存在满例外集。对指定容许相位，是否存在合适的满例外集，使其修改后的 Chern 特征乘 Gamma 类给出量子联络的渐近基？具体归一化见 Gamma 猜想概念页和原文猜想 4.6.1。\n这里的目标是满足这些前提的一般 Fano 流形，不是断言所有 Fano 流形都有半单量子上同调。\n",
+        "status_note": "一般版本仍开放；下列已知情形是文献定理的转述。2026 年的新结果覆盖所有 del Pezzo 曲面，不覆盖任意维 Fano 流形。",
+        "reviewed_on": "2026-10-08",
+        "review_note": "核对原始猜想、Grassmannian／quadric／del Pezzo 相关正文和定理陈述。未独立重证这些论文，也未穷尽全部特例；2026 年条目注明预印本版本。",
+        "prerequisites": [
+          "gamma-conjecture",
+          "quantum-cohomology",
+          "derived-category",
+          "stokes-phenomenon"
+        ],
+        "related_problems": [
+          "hms-general-cy"
+        ],
+        "key_people": [
+          "cotti",
+          "guzzetti",
+          "ke-huazhong"
+        ],
+        "progress": [
+          {
+            "date": "2014（预印本）；2016（期刊）",
+            "description": "Galkin、Golyshev、Iritani 提出 Gamma I/II；定理 1.3.1–1.3.2 给出复射影空间与普通复 Grassmannian 情形。",
+            "papers": [
+              "1404.6407"
+            ]
+          },
+          {
+            "date": "2018（预印本）；2024（专著）",
+            "description": "Cotti、Dubrovin、Guzzetti 的 Helix Structures 讨论 Dubrovin 猜想的另一精化；预印本第 5.6 节比较 Gamma II。专著发表于 Springer 的 Lecture Notes in Mathematics 2356。",
+            "papers": [
+              "1811.09235"
+            ]
+          },
+          {
+            "date": "2021（预印本）",
+            "description": "Xiaowen Hu、Hua-Zhong Ke 的定理 1.1：射影空间中的光滑二次超曲面满足 Gamma II。",
+            "papers": [
+              "2103.15143"
+            ]
+          },
+          {
+            "date": "2026-06-05（预印本）",
+            "description": "胡建勋、柯华忠、李长征、苏志同：Gamma conjecture II via global Gamma-I，定理 1.4 给出所有 del Pezzo 曲面情形。方法使用满足 (SR) 条件区域上的 Gamma-I 性质、Galois 作用及例外集操作；不是由原版 Gamma I 无条件推出一般 Gamma II。",
+            "papers": [
+              "2606.07418"
+            ]
+          }
+        ],
+        "current_approaches": [
+          "2606.07418 的 Strategy-Theorem：须逐一满足收敛、(SR) 区域、谱与例外集条件，不能省去这些前提。"
+        ],
+        "notes": "原版 Gamma I 已有反例，但那不能直接反驳 Gamma II。del Pezzo 的 Gamma I 论文 1901.01748 与 Gamma II 论文 2606.07418 是不同结果。2026 HUST 会议报告现已有后续预印本可查。",
+        "sources": [
+          {
+            "label": "Galkin–Golyshev–Iritani：猜想 4.6.1，定理 1.3.1–1.3.2",
+            "url": "https://arxiv.org/abs/1404.6407v4"
+          },
+          {
+            "label": "Cotti–Dubrovin–Guzzetti：Helix Structures，第 5.6 节",
+            "url": "https://arxiv.org/abs/1811.09235v2"
+          },
+          {
+            "label": "Springer：Helix Structures 专著出版信息，2024，LNM 2356",
+            "url": "https://link.springer.com/book/10.1007/978-3-031-69067-9"
+          },
+          {
+            "label": "Hu–Ke：Gamma conjecture II for quadrics，定理 1.1",
+            "url": "https://arxiv.org/abs/2103.15143v1"
+          },
+          {
+            "label": "Hu–Ke–Li–Su：Gamma conjecture II via global Gamma-I，定理 1.4，2026 预印本",
+            "url": "https://arxiv.org/abs/2606.07418v1"
+          },
+          {
+            "label": "Hu–Ke–Li–Yang：del Pezzo 的 Gamma I（不是 Gamma II），定理 1.2",
+            "url": "https://arxiv.org/abs/1901.01748"
+          }
+        ]
+      },
+      "after_sha256": "46301df84b2a9bef5f0b5704365c1749e69131d232b65c115c6ca87552dcd9e7",
+      "reviewed_scope": [
+        "1404.6407v4 Conjecture 4.6.1 and Theorems 1.3.1/1.3.2",
+        "Wrong 1508.00719 link corrected to 1811.09235; quadrics Theorem 1.1",
+        "2606.07418v1 Theorem 1.4 gives all del Pezzo; all four authors, not sole Ke attribution",
+        "Global Gamma-I Strategy-Theorem has hypotheses, not an unconditional implication"
+      ]
+    },
+    {
+      "path": "data/problems/hms-general-cy.yaml",
+      "before_raw": "slug: hms-general-cy\nname:\n  en: \"Homological Mirror Symmetry for general Calabi-Yau manifolds\"\n  zh: \"一般 Calabi-Yau 流形的同调镜像对称\"\nstatus: open\nimportance: millennium\nyear_proposed: 1994\nproposed_by: [kontsevich]\ndescription: |\n  Kontsevich 1994 年 ICM 报告提出的猜想完整版本。\n  已在特殊情形证明（toric, abelian varieties, quartic surface），\n  一般情形仍然开放。\nprerequisites: [homological-mirror-symmetry, derived-category]\nrelated_problems: [gamma-conjecture-proof]\nkey_people: [kontsevich]\nprogress:\n  - date: \"1994\"\n    description: \"Kontsevich 提出猜想\"\n    papers: [\"alg-geom/9411018\"]\n  - date: \"2003\"\n    description: \"Seidel 证明 quartic surface 情形\"\n    papers: []\n  - date: \"2009\"\n    description: \"Sheridan 证明 Fermat hypersurface\"\n    papers: []\ncurrent_approaches:\n  - \"SYZ + family Floer cohomology\"\n  - \"Categorical formal geometry\"\nnotes: null\n",
+      "before": {
+        "slug": "hms-general-cy",
+        "name": {
+          "en": "Homological Mirror Symmetry for general Calabi-Yau manifolds",
+          "zh": "一般 Calabi-Yau 流形的同调镜像对称"
+        },
+        "status": "open",
+        "importance": "millennium",
+        "year_proposed": 1994,
+        "proposed_by": [
+          "kontsevich"
+        ],
+        "description": "Kontsevich 1994 年 ICM 报告提出的猜想完整版本。\n已在特殊情形证明（toric, abelian varieties, quartic surface），\n一般情形仍然开放。\n",
+        "prerequisites": [
+          "homological-mirror-symmetry",
+          "derived-category"
+        ],
+        "related_problems": [
+          "gamma-conjecture-proof"
+        ],
+        "key_people": [
+          "kontsevich"
+        ],
+        "progress": [
+          {
+            "date": "1994",
+            "description": "Kontsevich 提出猜想",
+            "papers": [
+              "alg-geom/9411018"
+            ]
+          },
+          {
+            "date": "2003",
+            "description": "Seidel 证明 quartic surface 情形",
+            "papers": []
+          },
+          {
+            "date": "2009",
+            "description": "Sheridan 证明 Fermat hypersurface",
+            "papers": []
+          }
+        ],
+        "current_approaches": [
+          "SYZ + family Floer cohomology",
+          "Categorical formal geometry"
+        ],
+        "notes": null
+      },
+      "before_sha256": "8ec9fb16ce735db79bd0d85d406707578ab8ed5b2a411b8beb68decfe09fcf52",
+      "after_raw": "slug: hms-general-cy\nname:\n  en: \"Homological Mirror Symmetry for general Calabi-Yau manifolds\"\n  zh: \"一般 Calabi-Yau 流形的同调镜像对称\"\nstatus: needs-review\nimportance: major\nyear_proposed: 1994\nproposed_by: [kontsevich]\ndescription: |\n  寻找并建立 Calabi–Yau 镜像对之间的同调镜像对称。每个精确问题须指定镜像对象、辛形式、系数域、范畴版本与参数变换；“一般 Calabi–Yau”本身还不是一条条件完全确定的定理陈述。\n  下列文献研究具体镜像对。不能由它们概括为“所有 toric、所有 abelian varieties 或所有 Calabi–Yau 均已解决”。\nstatus_note: \"本条收录的具体文献已核对；一般框架的最新覆盖范围、历史论文所依赖的范畴构造是否已由后续文献完全补齐，仍待专项复核。\"\nreviewed_on: \"2026-10-08\"\nreview_note: \"核对 1994 原文、Seidel 定理 1.3、Sheridan 定理 1.2.7 及依赖说明、Sheridan–Smith 定理 C/D。这里按正文保留系数、参数和范畴构造假设，不把摘要中的概括升级为无条件证明。\"\nprerequisites: [homological-mirror-symmetry, derived-category]\nrelated_problems: [gamma-conjecture-proof]\nkey_people: [kontsevich]\nprogress:\n  - date: \"1994\"\n    description: \"Kontsevich 在 ICM 稿第 18 页提出 Homological Mirror Conjecture；原文明确保留范畴扩充等细节。\"\n    papers: [\"alg-geom/9411018\"]\n  - date: \"2003（预印本）\"\n    description: \"Seidel 的 quartic surface 工作：定理 1.3 给出指定四次曲面与镜像的三角范畴等价，包括系数域及参数重定；核对版本为 2013 年 v4。\"\n    papers: [\"math/0310414\"]\n  - date: \"2011（预印本）；2015（期刊）\"\n    description: \"Sheridan 研究射影空间中复维数大于 2 的光滑 Calabi–Yau 超曲面。v4 定理 1.2.7 在 Novikov 系数和参数变换下陈述等价；其后明确说明完整 Fukaya 范畴及相关生成结果依赖当时仍在准备中的文献。后续基础补齐情况待核。\"\n    papers: [\"1111.0632\"]\n  - date: \"2017（预印本）；2020（v2）\"\n    description: \"Sheridan–Smith 研究 generalized Greene–Plesser 镜像。第 1.6 节定理 C 的低维版本有 embeddedness 和 MPCS 条件；定理 D 还假设第 2.5 节列出的 Fukaya 范畴性质，不应省略为全部高维情形的无条件定理。\"\n    papers: [\"1709.08937\"]\ncurrent_approaches:\n  - \"上述论文使用相对 Fukaya 范畴、变形与生成方法；具体范围和解析前提随镜像对而变。\"\nnotes: \"这是一组相关问题的入口，状态待核不意味着所有已知特例均未证明。这里的文献表尚不完整，不能用它判断其他特例是否已有证明。\"\nsources:\n  - label: \"Kontsevich：1994 ICM 稿，第 18 页\"\n    url: \"https://arxiv.org/abs/alg-geom/9411018\"\n  - label: \"Seidel：Homological mirror symmetry for the quartic surface，定理 1.3\"\n    url: \"https://arxiv.org/abs/math/0310414v4\"\n  - label: \"Sheridan：定理 1.2.7 及其后的依赖说明\"\n    url: \"https://arxiv.org/abs/1111.0632v4\"\n  - label: \"Sheridan–Smith：第 1.6 节定理 C/D 与第 2.5 节假设\"\n    url: \"https://arxiv.org/abs/1709.08937v2\"\n",
+      "after": {
+        "slug": "hms-general-cy",
+        "name": {
+          "en": "Homological Mirror Symmetry for general Calabi-Yau manifolds",
+          "zh": "一般 Calabi-Yau 流形的同调镜像对称"
+        },
+        "status": "needs-review",
+        "importance": "major",
+        "year_proposed": 1994,
+        "proposed_by": [
+          "kontsevich"
+        ],
+        "description": "寻找并建立 Calabi–Yau 镜像对之间的同调镜像对称。每个精确问题须指定镜像对象、辛形式、系数域、范畴版本与参数变换；“一般 Calabi–Yau”本身还不是一条条件完全确定的定理陈述。\n下列文献研究具体镜像对。不能由它们概括为“所有 toric、所有 abelian varieties 或所有 Calabi–Yau 均已解决”。\n",
+        "status_note": "本条收录的具体文献已核对；一般框架的最新覆盖范围、历史论文所依赖的范畴构造是否已由后续文献完全补齐，仍待专项复核。",
+        "reviewed_on": "2026-10-08",
+        "review_note": "核对 1994 原文、Seidel 定理 1.3、Sheridan 定理 1.2.7 及依赖说明、Sheridan–Smith 定理 C/D。这里按正文保留系数、参数和范畴构造假设，不把摘要中的概括升级为无条件证明。",
+        "prerequisites": [
+          "homological-mirror-symmetry",
+          "derived-category"
+        ],
+        "related_problems": [
+          "gamma-conjecture-proof"
+        ],
+        "key_people": [
+          "kontsevich"
+        ],
+        "progress": [
+          {
+            "date": "1994",
+            "description": "Kontsevich 在 ICM 稿第 18 页提出 Homological Mirror Conjecture；原文明确保留范畴扩充等细节。",
+            "papers": [
+              "alg-geom/9411018"
+            ]
+          },
+          {
+            "date": "2003（预印本）",
+            "description": "Seidel 的 quartic surface 工作：定理 1.3 给出指定四次曲面与镜像的三角范畴等价，包括系数域及参数重定；核对版本为 2013 年 v4。",
+            "papers": [
+              "math/0310414"
+            ]
+          },
+          {
+            "date": "2011（预印本）；2015（期刊）",
+            "description": "Sheridan 研究射影空间中复维数大于 2 的光滑 Calabi–Yau 超曲面。v4 定理 1.2.7 在 Novikov 系数和参数变换下陈述等价；其后明确说明完整 Fukaya 范畴及相关生成结果依赖当时仍在准备中的文献。后续基础补齐情况待核。",
+            "papers": [
+              "1111.0632"
+            ]
+          },
+          {
+            "date": "2017（预印本）；2020（v2）",
+            "description": "Sheridan–Smith 研究 generalized Greene–Plesser 镜像。第 1.6 节定理 C 的低维版本有 embeddedness 和 MPCS 条件；定理 D 还假设第 2.5 节列出的 Fukaya 范畴性质，不应省略为全部高维情形的无条件定理。",
+            "papers": [
+              "1709.08937"
+            ]
+          }
+        ],
+        "current_approaches": [
+          "上述论文使用相对 Fukaya 范畴、变形与生成方法；具体范围和解析前提随镜像对而变。"
+        ],
+        "notes": "这是一组相关问题的入口，状态待核不意味着所有已知特例均未证明。这里的文献表尚不完整，不能用它判断其他特例是否已有证明。",
+        "sources": [
+          {
+            "label": "Kontsevich：1994 ICM 稿，第 18 页",
+            "url": "https://arxiv.org/abs/alg-geom/9411018"
+          },
+          {
+            "label": "Seidel：Homological mirror symmetry for the quartic surface，定理 1.3",
+            "url": "https://arxiv.org/abs/math/0310414v4"
+          },
+          {
+            "label": "Sheridan：定理 1.2.7 及其后的依赖说明",
+            "url": "https://arxiv.org/abs/1111.0632v4"
+          },
+          {
+            "label": "Sheridan–Smith：第 1.6 节定理 C/D 与第 2.5 节假设",
+            "url": "https://arxiv.org/abs/1709.08937v2"
+          }
+        ]
+      },
+      "after_sha256": "6cac050a3c15b37dbaf89af823b3e5297eef68a131c7573ebaddc58064e5be4e",
+      "reviewed_scope": [
+        "math/0310414v4 Theorem 1.3 parameter change and coefficient field",
+        "1111.0632v4 Theorem 1.2.7 and subsequent explicit dependency paragraph; 2011/2015 instead of 2009",
+        "1709.08937v2 section 1.6 Theorems C/D conditions; no blanket toric/abelian statement",
+        "millennium classification removed per Clay list; overall current coverage needs review rather than falsely certified"
+      ]
+    },
+    {
+      "path": "data/problems/virasoro-conjecture.yaml",
+      "before_raw": "slug: virasoro-conjecture\nname:\n  en: \"Virasoro Conjecture\"\n  zh: \"Virasoro 猜想\"\nstatus: partially-solved\nimportance: major\nyear_proposed: 1997\nproposed_by: []\ndescription: |\n  GW 不变量的生成函数满足 Virasoro 约束 $L_n Z = 0$ ($n \\geq -1$)。\n  genus 0 已证（刘小博-田刚 1998），genus 1 和 genus 2 部分结果，\n  完整猜想仍开放。\nprerequisites: [virasoro-constraints, gromov-witten-theory, quantum-cohomology]\nrelated_problems: []\nkey_people: [liu-xiaobo, guo-shuai, zhang-qingsheng]\nprogress:\n  - date: \"1997\"\n    description: \"Eguchi-Hori-Xiong 和 S. Katz 独立提出\"\n    papers: []\n  - date: \"1998\"\n    description: \"刘小博-田刚 证明 genus 0 情形\"\n    papers: []\n  - date: \"~2002\"\n    description: \"刘小博 证明 genus 2 semisimple 情形\"\n    papers: []\n  - date: \"~2022\"\n    description: \"郭帅-张庆生: Virasoro constraints for topological recursion\"\n    papers: []\ncurrent_approaches:\n  - \"Topological recursion (郭帅-张庆生)\"\n  - \"Matrix-resolvent method\"\n  - \"CohFT framework\"\nnotes: null\n",
+      "before": {
+        "slug": "virasoro-conjecture",
+        "name": {
+          "en": "Virasoro Conjecture",
+          "zh": "Virasoro 猜想"
+        },
+        "status": "partially-solved",
+        "importance": "major",
+        "year_proposed": 1997,
+        "proposed_by": [],
+        "description": "GW 不变量的生成函数满足 Virasoro 约束 $L_n Z = 0$ ($n \\geq -1$)。\ngenus 0 已证（刘小博-田刚 1998），genus 1 和 genus 2 部分结果，\n完整猜想仍开放。\n",
+        "prerequisites": [
+          "virasoro-constraints",
+          "gromov-witten-theory",
+          "quantum-cohomology"
+        ],
+        "related_problems": [],
+        "key_people": [
+          "liu-xiaobo",
+          "guo-shuai",
+          "zhang-qingsheng"
+        ],
+        "progress": [
+          {
+            "date": "1997",
+            "description": "Eguchi-Hori-Xiong 和 S. Katz 独立提出",
+            "papers": []
+          },
+          {
+            "date": "1998",
+            "description": "刘小博-田刚 证明 genus 0 情形",
+            "papers": []
+          },
+          {
+            "date": "~2002",
+            "description": "刘小博 证明 genus 2 semisimple 情形",
+            "papers": []
+          },
+          {
+            "date": "~2022",
+            "description": "郭帅-张庆生: Virasoro constraints for topological recursion",
+            "papers": []
+          }
+        ],
+        "current_approaches": [
+          "Topological recursion (郭帅-张庆生)",
+          "Matrix-resolvent method",
+          "CohFT framework"
+        ],
+        "notes": null
+      },
+      "before_sha256": "06eb64151e16a0bba38b9885c6a1a0c04496a3564c1e38a4cde937d8bccf4928",
+      "after_raw": "slug: virasoro-conjecture\nname:\n  en: \"Virasoro Conjecture\"\n  zh: \"Virasoro 猜想\"\nstatus: partially-solved\nimportance: major\nyear_proposed: 1997\nproposed_by: []\ndescription: |\n  对光滑射影簇 $X$ 的 Gromov–Witten 后裔不变量，猜想其全亏格生成函数 $Z_X$ 满足相应几何 Virasoro 算子的约束 $L_n^X Z_X=0$（$n\\geq-1$）。算子由目标几何数据确定，具体定义与归一化见所引文献。\n  半单量子上同调情形已有全亏格结果；一般非半单情形仍有开放问题。2026 年的新结果只涉及 Fano 完全交的环境上同调上的 genus one，不能扩为全部上同调或全亏格。\nstatus_note: \"泛半单量子上同调情形有全亏格结果；一般非半单情形仍有开放问题。新特例须分别注明亏格与插入类的范围。\"\nreviewed_on: \"2026-10-08\"\nreview_note: \"核对下列原文的陈述与范围，尤其是 Liu–Tian 的偶上同调表述、Teleman 的半单前提、Guo–Zhang 的拓扑递归条件和 2026 年预印本的环境上同调限制。未独立重证，也未穷尽全部已知特例。\"\nprerequisites: [virasoro-constraints, gromov-witten-theory, quantum-cohomology]\nrelated_problems: []\nkey_people: [liu-xiaobo, guo-shuai, zhang-qingsheng]\nprogress:\n  - date: \"1997\"\n    description: \"Eguchi–Hori–Xiong 的论文提出量子上同调的 Virasoro 约束；后续 Liu–Tian 与 Getzler 文献也将猜想归于 S. Katz。未据此判定精确的独立提出先后。\"\n    papers: [\"hep-th/9703086\", \"math/9812026\"]\n  - date: \"1998\"\n    description: \"刘小博、田刚：genus zero 的 Virasoro 约束。定理 0.2 按偶上同调或只考虑偶插入陈述；注 (4) 说明一般情形可用相同方法处理，但该稿为简化只写这一情形。\"\n    papers: [\"math/9806028\"]\n  - date: \"2007（预印本）；2012（v3）\"\n    description: \"Teleman 的半单场论分类结合 Givental 量子化给出具有泛半单量子上同调的流形的全亏格 Virasoro 结论，见第 0.6 节；半单前提不可删去。\"\n    papers: [\"0712.0160\"]\n  - date: \"2025-07-27（预印本）\"\n    description: \"郭帅、张庆生：Virasoro constraints for topological recursion。定理 1 的后裔约束要求谱曲线的相应极点条件；这不能自动证明任意几何 GW 理论的猜想。\"\n    papers: [\"2507.20151\"]\n  - date: \"2026-08-30（预印本）\"\n    description: \"郭帅、张庆生、周扬：定理 1 给出光滑 Fano 完全交的环境上同调上的 genus-one Virasoro 约束。环境上同调指射影空间上同调限制到完全交所得的部分，不包含所有原始上同调插入。\"\n    papers: [\"2608.29870\"]\ncurrent_approaches:\n  - \"半单情形使用 Givental–Teleman 重构；适用性依赖半单假设。\"\n  - \"2608.29870 通过 quasimap 墙穿越和 genus-one quantum Lefschetz 处理指定的 Fano 完全交范围。\"\n  - \"拓扑递归给出另一类约束；连接到几何后裔不变量时仍须核实对应关系。\"\nnotes: \"本页的 2026 年结果按 arXiv v1 记录，不将预印本转述称为本站证明或默认视为已同行评审。\"\nsources:\n  - label: \"Eguchi–Hori–Xiong：1997 年原文，式 (1)\"\n    url: \"https://arxiv.org/abs/hep-th/9703086v2\"\n  - label: \"Liu–Tian：Virasoro Constraints For Quantum Cohomology，定理 0.2 及注\"\n    url: \"https://arxiv.org/abs/math/9806028\"\n  - label: \"Getzler：猜想及 genus-zero 综述\"\n    url: \"https://arxiv.org/abs/math/9812026\"\n  - label: \"Teleman：The structure of 2D semi-simple field theories，第 0.6 节\"\n    url: \"https://arxiv.org/abs/0712.0160v3\"\n  - label: \"Guo–Zhang：Virasoro constraints for topological recursion，定理 1\"\n    url: \"https://arxiv.org/abs/2507.20151v1\"\n  - label: \"Guo–Zhang–Zhou：Fano 完全交的 genus-one 结果，定理 1，2026 预印本\"\n    url: \"https://arxiv.org/abs/2608.29870v1\"\n",
+      "after": {
+        "slug": "virasoro-conjecture",
+        "name": {
+          "en": "Virasoro Conjecture",
+          "zh": "Virasoro 猜想"
+        },
+        "status": "partially-solved",
+        "importance": "major",
+        "year_proposed": 1997,
+        "proposed_by": [],
+        "description": "对光滑射影簇 $X$ 的 Gromov–Witten 后裔不变量，猜想其全亏格生成函数 $Z_X$ 满足相应几何 Virasoro 算子的约束 $L_n^X Z_X=0$（$n\\geq-1$）。算子由目标几何数据确定，具体定义与归一化见所引文献。\n半单量子上同调情形已有全亏格结果；一般非半单情形仍有开放问题。2026 年的新结果只涉及 Fano 完全交的环境上同调上的 genus one，不能扩为全部上同调或全亏格。\n",
+        "status_note": "泛半单量子上同调情形有全亏格结果；一般非半单情形仍有开放问题。新特例须分别注明亏格与插入类的范围。",
+        "reviewed_on": "2026-10-08",
+        "review_note": "核对下列原文的陈述与范围，尤其是 Liu–Tian 的偶上同调表述、Teleman 的半单前提、Guo–Zhang 的拓扑递归条件和 2026 年预印本的环境上同调限制。未独立重证，也未穷尽全部已知特例。",
+        "prerequisites": [
+          "virasoro-constraints",
+          "gromov-witten-theory",
+          "quantum-cohomology"
+        ],
+        "related_problems": [],
+        "key_people": [
+          "liu-xiaobo",
+          "guo-shuai",
+          "zhang-qingsheng"
+        ],
+        "progress": [
+          {
+            "date": "1997",
+            "description": "Eguchi–Hori–Xiong 的论文提出量子上同调的 Virasoro 约束；后续 Liu–Tian 与 Getzler 文献也将猜想归于 S. Katz。未据此判定精确的独立提出先后。",
+            "papers": [
+              "hep-th/9703086",
+              "math/9812026"
+            ]
+          },
+          {
+            "date": "1998",
+            "description": "刘小博、田刚：genus zero 的 Virasoro 约束。定理 0.2 按偶上同调或只考虑偶插入陈述；注 (4) 说明一般情形可用相同方法处理，但该稿为简化只写这一情形。",
+            "papers": [
+              "math/9806028"
+            ]
+          },
+          {
+            "date": "2007（预印本）；2012（v3）",
+            "description": "Teleman 的半单场论分类结合 Givental 量子化给出具有泛半单量子上同调的流形的全亏格 Virasoro 结论，见第 0.6 节；半单前提不可删去。",
+            "papers": [
+              "0712.0160"
+            ]
+          },
+          {
+            "date": "2025-07-27（预印本）",
+            "description": "郭帅、张庆生：Virasoro constraints for topological recursion。定理 1 的后裔约束要求谱曲线的相应极点条件；这不能自动证明任意几何 GW 理论的猜想。",
+            "papers": [
+              "2507.20151"
+            ]
+          },
+          {
+            "date": "2026-08-30（预印本）",
+            "description": "郭帅、张庆生、周扬：定理 1 给出光滑 Fano 完全交的环境上同调上的 genus-one Virasoro 约束。环境上同调指射影空间上同调限制到完全交所得的部分，不包含所有原始上同调插入。",
+            "papers": [
+              "2608.29870"
+            ]
+          }
+        ],
+        "current_approaches": [
+          "半单情形使用 Givental–Teleman 重构；适用性依赖半单假设。",
+          "2608.29870 通过 quasimap 墙穿越和 genus-one quantum Lefschetz 处理指定的 Fano 完全交范围。",
+          "拓扑递归给出另一类约束；连接到几何后裔不变量时仍须核实对应关系。"
+        ],
+        "notes": "本页的 2026 年结果按 arXiv v1 记录，不将预印本转述称为本站证明或默认视为已同行评审。",
+        "sources": [
+          {
+            "label": "Eguchi–Hori–Xiong：1997 年原文，式 (1)",
+            "url": "https://arxiv.org/abs/hep-th/9703086v2"
+          },
+          {
+            "label": "Liu–Tian：Virasoro Constraints For Quantum Cohomology，定理 0.2 及注",
+            "url": "https://arxiv.org/abs/math/9806028"
+          },
+          {
+            "label": "Getzler：猜想及 genus-zero 综述",
+            "url": "https://arxiv.org/abs/math/9812026"
+          },
+          {
+            "label": "Teleman：The structure of 2D semi-simple field theories，第 0.6 节",
+            "url": "https://arxiv.org/abs/0712.0160v3"
+          },
+          {
+            "label": "Guo–Zhang：Virasoro constraints for topological recursion，定理 1",
+            "url": "https://arxiv.org/abs/2507.20151v1"
+          },
+          {
+            "label": "Guo–Zhang–Zhou：Fano 完全交的 genus-one 结果，定理 1，2026 预印本",
+            "url": "https://arxiv.org/abs/2608.29870v1"
+          }
+        ]
+      },
+      "after_sha256": "cd419602ec2ddfffad397c3bc6d164797535576545a36175eaa17d8b9c0f2fff",
+      "reviewed_scope": [
+        "math/9806028 Theorem 0.2 and Remark (4): explicit even-cohomology scope",
+        "0712.0160v3 section 0.6: generically semisimple all-genus GW consequence",
+        "2507.20151v1 Theorem 1: TR descendent pole condition, correct 2025 date",
+        "2608.29870v1 Theorem 1: genus one, ambient state space of smooth Fano complete intersections, three authors"
+      ]
+    },
+    {
+      "path": "data/papers/seminal.yaml",
+      "before_raw": "papers:\n  # === 第一层：Frobenius 流形基础 ===\n  - arxiv_id: \"hep-th/9407018\"\n    title: \"Geometry of 2D topological field theories\"\n    authors: [dubrovin]\n    authors_raw: [\"Boris Dubrovin\"]\n    year: 1996\n    journal: \"LNM 1620, Springer\"\n    type: lecture_notes\n    discipline: math\n    categories: [hep-th, math-ph]\n    concepts: [frobenius-manifold, wdvv-equations, flat-connection, integrable-hierarchy]\n    importance: seminal\n    notes: \"229 页，Frobenius 流形理论的圣经级参考\"\n    source: manual\n    last_verified: \"2026-04-14\"\n\n  - arxiv_id: null\n    doi: null\n    title: \"Geometry and Analytic Theory of Frobenius Manifolds\"\n    authors: [dubrovin]\n    authors_raw: [\"Boris Dubrovin\"]\n    year: 1998\n    journal: \"Proceedings ICM Berlin 1998\"\n    type: published\n    discipline: math\n    concepts: [frobenius-manifold, quantum-cohomology]\n    importance: major\n    notes: \"ICM 邀请报告，综述性\"\n    source: manual\n    last_verified: \"2026-04-14\"\n\n  - arxiv_id: null\n    doi: null\n    title: \"Isomonodromic Deformations and Frobenius Manifolds: an Introduction\"\n    authors: [sabbah]\n    authors_raw: [\"Claude Sabbah\"]\n    year: 2007\n    type: published\n    discipline: math\n    concepts: [frobenius-manifold, isomonodromy, flat-connection]\n    importance: major\n    notes: \"教科书\"\n    source: manual\n    last_verified: \"2026-04-14\"\n\n  # === 第二层：WDVV 与可积系统 ===\n  - arxiv_id: null\n    title: \"Integrable Systems in Topological Field Theory\"\n    authors: [dubrovin]\n    authors_raw: [\"Boris Dubrovin\"]\n    year: 1992\n    type: published\n    discipline: both\n    concepts: [integrable-hierarchy, topological-field-theory]\n    importance: major\n    source: manual\n\n  - arxiv_id: \"math/9905015\"\n    title: \"Frobenius manifolds and Virasoro constraints\"\n    authors: [dubrovin, zhang-youjin]\n    authors_raw: [\"Boris Dubrovin\", \"Youjin Zhang\"]\n    year: 1999\n    type: preprint\n    discipline: math\n    concepts: [frobenius-manifold, virasoro-constraints, integrable-hierarchy]\n    importance: major\n    source: manual\n\n  # === 第三层：tt* 与 Stokes ===\n  - arxiv_id: \"hep-th/9211097\"\n    title: \"On Classification of N=2 Supersymmetric Theories\"\n    authors: []\n    authors_raw: [\"Sergio Cecotti\", \"Cumrun Vafa\"]\n    year: 1993\n    type: published\n    discipline: physics\n    concepts: [tt-star-geometry, stokes-phenomenon]\n    importance: seminal\n    notes: \"tt* geometry 奠基\"\n    source: manual\n\n  - arxiv_id: null\n    title: \"Painlevé transcendents in two-dimensional topological field theory\"\n    authors: [dubrovin]\n    authors_raw: [\"Boris Dubrovin\"]\n    year: 1999\n    type: lecture_notes\n    discipline: math\n    concepts: [painleve-equations, frobenius-manifold, isomonodromy]\n    importance: major\n    notes: \"99 页\"\n    source: manual\n\n  # === 第四层：Stokes 矩阵与量子群 ===\n  - arxiv_id: \"1706.09466\"\n    title: \"Frobenius Manifolds and Quantum Groups\"\n    authors: [xu-xiaomeng]\n    authors_raw: [\"Xiaomeng Xu\"]\n    year: 2017\n    type: preprint\n    discipline: math\n    concepts: [frobenius-manifold, quantum-groups, stokes-phenomenon]\n    importance: major\n    notes: \"两组交叉的关键文献：连接经典 Frobenius 流形与量子群\"\n    source: manual\n\n  - arxiv_id: \"1706.04808\"\n    title: \"Isomonodromy deformations at an irregular singularity with coalescing eigenvalues\"\n    authors: [cotti, dubrovin, guzzetti]\n    authors_raw: [\"Giordano Cotti\", \"Boris Dubrovin\", \"Davide Guzzetti\"]\n    year: 2019\n    type: published\n    discipline: math\n    concepts: [isomonodromy, stokes-phenomenon, frobenius-manifold]\n    importance: major\n    notes: \"85 页，解决 coalescence 问题\"\n    source: manual\n\n  # === 第 4.5 层：Gamma 猜想 ===\n  - arxiv_id: \"1404.6407\"\n    title: \"Gamma classes and quantum cohomology of Fano manifolds: Gamma conjectures\"\n    authors: []\n    authors_raw: [\"Sergey Galkin\", \"Vasily Golyshev\", \"Hiroshi Iritani\"]\n    year: 2016\n    type: published\n    discipline: math\n    concepts: [gamma-conjecture, quantum-cohomology, frobenius-manifold]\n    importance: seminal\n    notes: \"Gamma 猜想 I & II 的原始文献\"\n    source: manual\n\n  - arxiv_id: \"1508.00719\"\n    title: \"Helix structures in quantum cohomology of Fano varieties\"\n    authors: [cotti, dubrovin, guzzetti]\n    authors_raw: [\"Giordano Cotti\", \"Boris Dubrovin\", \"Davide Guzzetti\"]\n    year: 2018\n    type: published\n    discipline: math\n    concepts: [gamma-conjecture, quantum-cohomology, derived-category]\n    importance: major\n    notes: \"Refined Dubrovin Conjecture\"\n    source: manual\n\n  # === 第五层：计算与分类 ===\n  - arxiv_id: \"math/9904126\"\n    title: \"Stokes Matrices and Monodromy of the Quantum Cohomology of Projective Spaces\"\n    authors: [guzzetti]\n    authors_raw: [\"Davide Guzzetti\"]\n    year: 1999\n    type: published\n    discipline: math\n    concepts: [stokes-phenomenon, quantum-cohomology, frobenius-manifold]\n    importance: notable\n    source: manual\n\n  # === 镜像对称里程碑 ===\n  - arxiv_id: \"alg-geom/9411018\"\n    title: \"Homological algebra of mirror symmetry\"\n    authors: [kontsevich]\n    authors_raw: [\"Maxim Kontsevich\"]\n    year: 1994\n    type: published\n    discipline: math\n    concepts: [homological-mirror-symmetry, mirror-symmetry, derived-category]\n    importance: seminal\n    notes: \"ICM Zurich 1994，提出 HMS 猜想\"\n    source: manual\n\n  - arxiv_id: null\n    title: \"Monodromy of Certain Painlevé VI Transcendents and Reflection Groups\"\n    authors: [dubrovin]\n    authors_raw: [\"Boris Dubrovin\", \"Marta Mazzocco\"]\n    year: 2000\n    type: published\n    discipline: math\n    concepts: [painleve-equations, isomonodromy]\n    importance: notable\n    source: manual\n",
+      "before": {
+        "papers": [
+          {
+            "arxiv_id": "hep-th/9407018",
+            "title": "Geometry of 2D topological field theories",
+            "authors": [
+              "dubrovin"
+            ],
+            "authors_raw": [
+              "Boris Dubrovin"
+            ],
+            "year": 1996,
+            "journal": "LNM 1620, Springer",
+            "type": "lecture_notes",
+            "discipline": "math",
+            "categories": [
+              "hep-th",
+              "math-ph"
+            ],
+            "concepts": [
+              "frobenius-manifold",
+              "wdvv-equations",
+              "flat-connection",
+              "integrable-hierarchy"
+            ],
+            "importance": "seminal",
+            "notes": "229 页，Frobenius 流形理论的圣经级参考",
+            "source": "manual",
+            "last_verified": "2026-04-14"
+          },
+          {
+            "arxiv_id": null,
+            "doi": null,
+            "title": "Geometry and Analytic Theory of Frobenius Manifolds",
+            "authors": [
+              "dubrovin"
+            ],
+            "authors_raw": [
+              "Boris Dubrovin"
+            ],
+            "year": 1998,
+            "journal": "Proceedings ICM Berlin 1998",
+            "type": "published",
+            "discipline": "math",
+            "concepts": [
+              "frobenius-manifold",
+              "quantum-cohomology"
+            ],
+            "importance": "major",
+            "notes": "ICM 邀请报告，综述性",
+            "source": "manual",
+            "last_verified": "2026-04-14"
+          },
+          {
+            "arxiv_id": null,
+            "doi": null,
+            "title": "Isomonodromic Deformations and Frobenius Manifolds: an Introduction",
+            "authors": [
+              "sabbah"
+            ],
+            "authors_raw": [
+              "Claude Sabbah"
+            ],
+            "year": 2007,
+            "type": "published",
+            "discipline": "math",
+            "concepts": [
+              "frobenius-manifold",
+              "isomonodromy",
+              "flat-connection"
+            ],
+            "importance": "major",
+            "notes": "教科书",
+            "source": "manual",
+            "last_verified": "2026-04-14"
+          },
+          {
+            "arxiv_id": null,
+            "title": "Integrable Systems in Topological Field Theory",
+            "authors": [
+              "dubrovin"
+            ],
+            "authors_raw": [
+              "Boris Dubrovin"
+            ],
+            "year": 1992,
+            "type": "published",
+            "discipline": "both",
+            "concepts": [
+              "integrable-hierarchy",
+              "topological-field-theory"
+            ],
+            "importance": "major",
+            "source": "manual"
+          },
+          {
+            "arxiv_id": "math/9905015",
+            "title": "Frobenius manifolds and Virasoro constraints",
+            "authors": [
+              "dubrovin",
+              "zhang-youjin"
+            ],
+            "authors_raw": [
+              "Boris Dubrovin",
+              "Youjin Zhang"
+            ],
+            "year": 1999,
+            "type": "preprint",
+            "discipline": "math",
+            "concepts": [
+              "frobenius-manifold",
+              "virasoro-constraints",
+              "integrable-hierarchy"
+            ],
+            "importance": "major",
+            "source": "manual"
+          },
+          {
+            "arxiv_id": "hep-th/9211097",
+            "title": "On Classification of N=2 Supersymmetric Theories",
+            "authors": [],
+            "authors_raw": [
+              "Sergio Cecotti",
+              "Cumrun Vafa"
+            ],
+            "year": 1993,
+            "type": "published",
+            "discipline": "physics",
+            "concepts": [
+              "tt-star-geometry",
+              "stokes-phenomenon"
+            ],
+            "importance": "seminal",
+            "notes": "tt* geometry 奠基",
+            "source": "manual"
+          },
+          {
+            "arxiv_id": null,
+            "title": "Painlevé transcendents in two-dimensional topological field theory",
+            "authors": [
+              "dubrovin"
+            ],
+            "authors_raw": [
+              "Boris Dubrovin"
+            ],
+            "year": 1999,
+            "type": "lecture_notes",
+            "discipline": "math",
+            "concepts": [
+              "painleve-equations",
+              "frobenius-manifold",
+              "isomonodromy"
+            ],
+            "importance": "major",
+            "notes": "99 页",
+            "source": "manual"
+          },
+          {
+            "arxiv_id": "1706.09466",
+            "title": "Frobenius Manifolds and Quantum Groups",
+            "authors": [
+              "xu-xiaomeng"
+            ],
+            "authors_raw": [
+              "Xiaomeng Xu"
+            ],
+            "year": 2017,
+            "type": "preprint",
+            "discipline": "math",
+            "concepts": [
+              "frobenius-manifold",
+              "quantum-groups",
+              "stokes-phenomenon"
+            ],
+            "importance": "major",
+            "notes": "两组交叉的关键文献：连接经典 Frobenius 流形与量子群",
+            "source": "manual"
+          },
+          {
+            "arxiv_id": "1706.04808",
+            "title": "Isomonodromy deformations at an irregular singularity with coalescing eigenvalues",
+            "authors": [
+              "cotti",
+              "dubrovin",
+              "guzzetti"
+            ],
+            "authors_raw": [
+              "Giordano Cotti",
+              "Boris Dubrovin",
+              "Davide Guzzetti"
+            ],
+            "year": 2019,
+            "type": "published",
+            "discipline": "math",
+            "concepts": [
+              "isomonodromy",
+              "stokes-phenomenon",
+              "frobenius-manifold"
+            ],
+            "importance": "major",
+            "notes": "85 页，解决 coalescence 问题",
+            "source": "manual"
+          },
+          {
+            "arxiv_id": "1404.6407",
+            "title": "Gamma classes and quantum cohomology of Fano manifolds: Gamma conjectures",
+            "authors": [],
+            "authors_raw": [
+              "Sergey Galkin",
+              "Vasily Golyshev",
+              "Hiroshi Iritani"
+            ],
+            "year": 2016,
+            "type": "published",
+            "discipline": "math",
+            "concepts": [
+              "gamma-conjecture",
+              "quantum-cohomology",
+              "frobenius-manifold"
+            ],
+            "importance": "seminal",
+            "notes": "Gamma 猜想 I & II 的原始文献",
+            "source": "manual"
+          },
+          {
+            "arxiv_id": "1508.00719",
+            "title": "Helix structures in quantum cohomology of Fano varieties",
+            "authors": [
+              "cotti",
+              "dubrovin",
+              "guzzetti"
+            ],
+            "authors_raw": [
+              "Giordano Cotti",
+              "Boris Dubrovin",
+              "Davide Guzzetti"
+            ],
+            "year": 2018,
+            "type": "published",
+            "discipline": "math",
+            "concepts": [
+              "gamma-conjecture",
+              "quantum-cohomology",
+              "derived-category"
+            ],
+            "importance": "major",
+            "notes": "Refined Dubrovin Conjecture",
+            "source": "manual"
+          },
+          {
+            "arxiv_id": "math/9904126",
+            "title": "Stokes Matrices and Monodromy of the Quantum Cohomology of Projective Spaces",
+            "authors": [
+              "guzzetti"
+            ],
+            "authors_raw": [
+              "Davide Guzzetti"
+            ],
+            "year": 1999,
+            "type": "published",
+            "discipline": "math",
+            "concepts": [
+              "stokes-phenomenon",
+              "quantum-cohomology",
+              "frobenius-manifold"
+            ],
+            "importance": "notable",
+            "source": "manual"
+          },
+          {
+            "arxiv_id": "alg-geom/9411018",
+            "title": "Homological algebra of mirror symmetry",
+            "authors": [
+              "kontsevich"
+            ],
+            "authors_raw": [
+              "Maxim Kontsevich"
+            ],
+            "year": 1994,
+            "type": "published",
+            "discipline": "math",
+            "concepts": [
+              "homological-mirror-symmetry",
+              "mirror-symmetry",
+              "derived-category"
+            ],
+            "importance": "seminal",
+            "notes": "ICM Zurich 1994，提出 HMS 猜想",
+            "source": "manual"
+          },
+          {
+            "arxiv_id": null,
+            "title": "Monodromy of Certain Painlevé VI Transcendents and Reflection Groups",
+            "authors": [
+              "dubrovin"
+            ],
+            "authors_raw": [
+              "Boris Dubrovin",
+              "Marta Mazzocco"
+            ],
+            "year": 2000,
+            "type": "published",
+            "discipline": "math",
+            "concepts": [
+              "painleve-equations",
+              "isomonodromy"
+            ],
+            "importance": "notable",
+            "source": "manual"
+          }
+        ]
+      },
+      "before_sha256": "5a72ad980ece0a6db3f0f11d27e2d7c7b43981b9d4adb34d3fa1607be39fa37a",
+      "after_raw": "papers:\n  # === 第一层：Frobenius 流形基础 ===\n  - arxiv_id: \"hep-th/9407018\"\n    title: \"Geometry of 2D topological field theories\"\n    authors: [dubrovin]\n    authors_raw: [\"Boris Dubrovin\"]\n    year: 1996\n    journal: \"LNM 1620, Springer\"\n    type: lecture_notes\n    discipline: math\n    categories: [hep-th, math-ph]\n    concepts: [frobenius-manifold, wdvv-equations, flat-connection, integrable-hierarchy]\n    importance: seminal\n    notes: \"229 页，Frobenius 流形理论的圣经级参考\"\n    source: manual\n    last_verified: \"2026-04-14\"\n\n  - arxiv_id: null\n    doi: null\n    title: \"Geometry and Analytic Theory of Frobenius Manifolds\"\n    authors: [dubrovin]\n    authors_raw: [\"Boris Dubrovin\"]\n    year: 1998\n    journal: \"Proceedings ICM Berlin 1998\"\n    type: published\n    discipline: math\n    concepts: [frobenius-manifold, quantum-cohomology]\n    importance: major\n    notes: \"ICM 邀请报告，综述性\"\n    source: manual\n    last_verified: \"2026-04-14\"\n\n  - arxiv_id: null\n    doi: null\n    title: \"Isomonodromic Deformations and Frobenius Manifolds: an Introduction\"\n    authors: [sabbah]\n    authors_raw: [\"Claude Sabbah\"]\n    year: 2007\n    type: published\n    discipline: math\n    concepts: [frobenius-manifold, isomonodromy, flat-connection]\n    importance: major\n    notes: \"教科书\"\n    source: manual\n    last_verified: \"2026-04-14\"\n\n  # === 第二层：WDVV 与可积系统 ===\n  - arxiv_id: null\n    title: \"Integrable Systems in Topological Field Theory\"\n    authors: [dubrovin]\n    authors_raw: [\"Boris Dubrovin\"]\n    year: 1992\n    type: published\n    discipline: both\n    concepts: [integrable-hierarchy, topological-field-theory]\n    importance: major\n    source: manual\n\n  - arxiv_id: \"math/9905015\"\n    title: \"Frobenius manifolds and Virasoro constraints\"\n    authors: [dubrovin, zhang-youjin]\n    authors_raw: [\"Boris Dubrovin\", \"Youjin Zhang\"]\n    year: 1999\n    type: preprint\n    discipline: math\n    concepts: [frobenius-manifold, virasoro-constraints, integrable-hierarchy]\n    importance: major\n    source: manual\n\n  # === 第三层：tt* 与 Stokes ===\n  - arxiv_id: \"hep-th/9211097\"\n    title: \"On Classification of N=2 Supersymmetric Theories\"\n    authors: []\n    authors_raw: [\"Sergio Cecotti\", \"Cumrun Vafa\"]\n    year: 1993\n    type: published\n    discipline: physics\n    concepts: [tt-star-geometry, stokes-phenomenon]\n    importance: seminal\n    notes: \"tt* geometry 奠基\"\n    source: manual\n\n  - arxiv_id: null\n    title: \"Painlevé transcendents in two-dimensional topological field theory\"\n    authors: [dubrovin]\n    authors_raw: [\"Boris Dubrovin\"]\n    year: 1999\n    type: lecture_notes\n    discipline: math\n    concepts: [painleve-equations, frobenius-manifold, isomonodromy]\n    importance: major\n    notes: \"99 页\"\n    source: manual\n\n  # === 第四层：Stokes 矩阵与量子群 ===\n  - arxiv_id: \"1706.09466\"\n    title: \"Frobenius Manifolds and Quantum Groups\"\n    authors: [xu-xiaomeng]\n    authors_raw: [\"Xiaomeng Xu\"]\n    year: 2017\n    type: preprint\n    discipline: math\n    concepts: [frobenius-manifold, quantum-groups, stokes-phenomenon]\n    importance: major\n    notes: \"两组交叉的关键文献：连接经典 Frobenius 流形与量子群\"\n    source: manual\n\n  - arxiv_id: \"1706.04808\"\n    title: \"Isomonodromy deformations at an irregular singularity with coalescing eigenvalues\"\n    authors: [cotti, dubrovin, guzzetti]\n    authors_raw: [\"Giordano Cotti\", \"Boris Dubrovin\", \"Davide Guzzetti\"]\n    year: 2019\n    type: published\n    discipline: math\n    concepts: [isomonodromy, stokes-phenomenon, frobenius-manifold]\n    importance: major\n    notes: \"85 页，解决 coalescence 问题\"\n    source: manual\n\n  # === 第 4.5 层：Gamma 猜想 ===\n  - arxiv_id: \"1404.6407\"\n    title: \"Gamma classes and quantum cohomology of Fano manifolds: Gamma conjectures\"\n    authors: []\n    authors_raw: [\"Sergey Galkin\", \"Vasily Golyshev\", \"Hiroshi Iritani\"]\n    year: 2016\n    type: published\n    discipline: math\n    concepts: [gamma-conjecture, quantum-cohomology, frobenius-manifold]\n    importance: seminal\n    notes: \"Gamma 猜想 I & II 的原始文献\"\n    source: manual\n\n  - arxiv_id: \"1811.09235\"\n    doi: \"10.1007/978-3-031-69067-9\"\n    title: \"Helix structures in quantum cohomology of Fano varieties\"\n    authors: [cotti, dubrovin, guzzetti]\n    authors_raw: [\"Giordano Cotti\", \"Boris Dubrovin\", \"Davide Guzzetti\"]\n    year: 2024\n    journal: \"Lecture Notes in Mathematics 2356, Springer（专著；预印本首次提交于 2018 年）\"\n    type: published\n    discipline: math\n    concepts: [gamma-conjecture, quantum-cohomology, derived-category]\n    importance: major\n    notes: \"Dubrovin 猜想的精化；本次核对限于题名、作者、标识和出版信息，不是整部专著的证明审核。\"\n    source: manual\n    source_url: \"https://link.springer.com/book/10.1007/978-3-031-69067-9\"\n    last_verified: \"2026-10-08\"\n\n  # === 第五层：计算与分类 ===\n  - arxiv_id: \"math/9904126\"\n    title: \"Stokes Matrices and Monodromy of the Quantum Cohomology of Projective Spaces\"\n    authors: [guzzetti]\n    authors_raw: [\"Davide Guzzetti\"]\n    year: 1999\n    type: published\n    discipline: math\n    concepts: [stokes-phenomenon, quantum-cohomology, frobenius-manifold]\n    importance: notable\n    source: manual\n\n  # === 镜像对称里程碑 ===\n  - arxiv_id: \"alg-geom/9411018\"\n    title: \"Homological algebra of mirror symmetry\"\n    authors: [kontsevich]\n    authors_raw: [\"Maxim Kontsevich\"]\n    year: 1994\n    type: published\n    discipline: math\n    concepts: [homological-mirror-symmetry, mirror-symmetry, derived-category]\n    importance: seminal\n    notes: \"ICM Zurich 1994，提出 HMS 猜想\"\n    source: manual\n\n  - arxiv_id: null\n    title: \"Monodromy of Certain Painlevé VI Transcendents and Reflection Groups\"\n    authors: [dubrovin]\n    authors_raw: [\"Boris Dubrovin\", \"Marta Mazzocco\"]\n    year: 2000\n    type: published\n    discipline: math\n    concepts: [painleve-equations, isomonodromy]\n    importance: notable\n    source: manual\n",
+      "after": {
+        "papers": [
+          {
+            "arxiv_id": "hep-th/9407018",
+            "title": "Geometry of 2D topological field theories",
+            "authors": [
+              "dubrovin"
+            ],
+            "authors_raw": [
+              "Boris Dubrovin"
+            ],
+            "year": 1996,
+            "journal": "LNM 1620, Springer",
+            "type": "lecture_notes",
+            "discipline": "math",
+            "categories": [
+              "hep-th",
+              "math-ph"
+            ],
+            "concepts": [
+              "frobenius-manifold",
+              "wdvv-equations",
+              "flat-connection",
+              "integrable-hierarchy"
+            ],
+            "importance": "seminal",
+            "notes": "229 页，Frobenius 流形理论的圣经级参考",
+            "source": "manual",
+            "last_verified": "2026-04-14"
+          },
+          {
+            "arxiv_id": null,
+            "doi": null,
+            "title": "Geometry and Analytic Theory of Frobenius Manifolds",
+            "authors": [
+              "dubrovin"
+            ],
+            "authors_raw": [
+              "Boris Dubrovin"
+            ],
+            "year": 1998,
+            "journal": "Proceedings ICM Berlin 1998",
+            "type": "published",
+            "discipline": "math",
+            "concepts": [
+              "frobenius-manifold",
+              "quantum-cohomology"
+            ],
+            "importance": "major",
+            "notes": "ICM 邀请报告，综述性",
+            "source": "manual",
+            "last_verified": "2026-04-14"
+          },
+          {
+            "arxiv_id": null,
+            "doi": null,
+            "title": "Isomonodromic Deformations and Frobenius Manifolds: an Introduction",
+            "authors": [
+              "sabbah"
+            ],
+            "authors_raw": [
+              "Claude Sabbah"
+            ],
+            "year": 2007,
+            "type": "published",
+            "discipline": "math",
+            "concepts": [
+              "frobenius-manifold",
+              "isomonodromy",
+              "flat-connection"
+            ],
+            "importance": "major",
+            "notes": "教科书",
+            "source": "manual",
+            "last_verified": "2026-04-14"
+          },
+          {
+            "arxiv_id": null,
+            "title": "Integrable Systems in Topological Field Theory",
+            "authors": [
+              "dubrovin"
+            ],
+            "authors_raw": [
+              "Boris Dubrovin"
+            ],
+            "year": 1992,
+            "type": "published",
+            "discipline": "both",
+            "concepts": [
+              "integrable-hierarchy",
+              "topological-field-theory"
+            ],
+            "importance": "major",
+            "source": "manual"
+          },
+          {
+            "arxiv_id": "math/9905015",
+            "title": "Frobenius manifolds and Virasoro constraints",
+            "authors": [
+              "dubrovin",
+              "zhang-youjin"
+            ],
+            "authors_raw": [
+              "Boris Dubrovin",
+              "Youjin Zhang"
+            ],
+            "year": 1999,
+            "type": "preprint",
+            "discipline": "math",
+            "concepts": [
+              "frobenius-manifold",
+              "virasoro-constraints",
+              "integrable-hierarchy"
+            ],
+            "importance": "major",
+            "source": "manual"
+          },
+          {
+            "arxiv_id": "hep-th/9211097",
+            "title": "On Classification of N=2 Supersymmetric Theories",
+            "authors": [],
+            "authors_raw": [
+              "Sergio Cecotti",
+              "Cumrun Vafa"
+            ],
+            "year": 1993,
+            "type": "published",
+            "discipline": "physics",
+            "concepts": [
+              "tt-star-geometry",
+              "stokes-phenomenon"
+            ],
+            "importance": "seminal",
+            "notes": "tt* geometry 奠基",
+            "source": "manual"
+          },
+          {
+            "arxiv_id": null,
+            "title": "Painlevé transcendents in two-dimensional topological field theory",
+            "authors": [
+              "dubrovin"
+            ],
+            "authors_raw": [
+              "Boris Dubrovin"
+            ],
+            "year": 1999,
+            "type": "lecture_notes",
+            "discipline": "math",
+            "concepts": [
+              "painleve-equations",
+              "frobenius-manifold",
+              "isomonodromy"
+            ],
+            "importance": "major",
+            "notes": "99 页",
+            "source": "manual"
+          },
+          {
+            "arxiv_id": "1706.09466",
+            "title": "Frobenius Manifolds and Quantum Groups",
+            "authors": [
+              "xu-xiaomeng"
+            ],
+            "authors_raw": [
+              "Xiaomeng Xu"
+            ],
+            "year": 2017,
+            "type": "preprint",
+            "discipline": "math",
+            "concepts": [
+              "frobenius-manifold",
+              "quantum-groups",
+              "stokes-phenomenon"
+            ],
+            "importance": "major",
+            "notes": "两组交叉的关键文献：连接经典 Frobenius 流形与量子群",
+            "source": "manual"
+          },
+          {
+            "arxiv_id": "1706.04808",
+            "title": "Isomonodromy deformations at an irregular singularity with coalescing eigenvalues",
+            "authors": [
+              "cotti",
+              "dubrovin",
+              "guzzetti"
+            ],
+            "authors_raw": [
+              "Giordano Cotti",
+              "Boris Dubrovin",
+              "Davide Guzzetti"
+            ],
+            "year": 2019,
+            "type": "published",
+            "discipline": "math",
+            "concepts": [
+              "isomonodromy",
+              "stokes-phenomenon",
+              "frobenius-manifold"
+            ],
+            "importance": "major",
+            "notes": "85 页，解决 coalescence 问题",
+            "source": "manual"
+          },
+          {
+            "arxiv_id": "1404.6407",
+            "title": "Gamma classes and quantum cohomology of Fano manifolds: Gamma conjectures",
+            "authors": [],
+            "authors_raw": [
+              "Sergey Galkin",
+              "Vasily Golyshev",
+              "Hiroshi Iritani"
+            ],
+            "year": 2016,
+            "type": "published",
+            "discipline": "math",
+            "concepts": [
+              "gamma-conjecture",
+              "quantum-cohomology",
+              "frobenius-manifold"
+            ],
+            "importance": "seminal",
+            "notes": "Gamma 猜想 I & II 的原始文献",
+            "source": "manual"
+          },
+          {
+            "arxiv_id": "1811.09235",
+            "doi": "10.1007/978-3-031-69067-9",
+            "title": "Helix structures in quantum cohomology of Fano varieties",
+            "authors": [
+              "cotti",
+              "dubrovin",
+              "guzzetti"
+            ],
+            "authors_raw": [
+              "Giordano Cotti",
+              "Boris Dubrovin",
+              "Davide Guzzetti"
+            ],
+            "year": 2024,
+            "journal": "Lecture Notes in Mathematics 2356, Springer（专著；预印本首次提交于 2018 年）",
+            "type": "published",
+            "discipline": "math",
+            "concepts": [
+              "gamma-conjecture",
+              "quantum-cohomology",
+              "derived-category"
+            ],
+            "importance": "major",
+            "notes": "Dubrovin 猜想的精化；本次核对限于题名、作者、标识和出版信息，不是整部专著的证明审核。",
+            "source": "manual",
+            "source_url": "https://link.springer.com/book/10.1007/978-3-031-69067-9",
+            "last_verified": "2026-10-08"
+          },
+          {
+            "arxiv_id": "math/9904126",
+            "title": "Stokes Matrices and Monodromy of the Quantum Cohomology of Projective Spaces",
+            "authors": [
+              "guzzetti"
+            ],
+            "authors_raw": [
+              "Davide Guzzetti"
+            ],
+            "year": 1999,
+            "type": "published",
+            "discipline": "math",
+            "concepts": [
+              "stokes-phenomenon",
+              "quantum-cohomology",
+              "frobenius-manifold"
+            ],
+            "importance": "notable",
+            "source": "manual"
+          },
+          {
+            "arxiv_id": "alg-geom/9411018",
+            "title": "Homological algebra of mirror symmetry",
+            "authors": [
+              "kontsevich"
+            ],
+            "authors_raw": [
+              "Maxim Kontsevich"
+            ],
+            "year": 1994,
+            "type": "published",
+            "discipline": "math",
+            "concepts": [
+              "homological-mirror-symmetry",
+              "mirror-symmetry",
+              "derived-category"
+            ],
+            "importance": "seminal",
+            "notes": "ICM Zurich 1994，提出 HMS 猜想",
+            "source": "manual"
+          },
+          {
+            "arxiv_id": null,
+            "title": "Monodromy of Certain Painlevé VI Transcendents and Reflection Groups",
+            "authors": [
+              "dubrovin"
+            ],
+            "authors_raw": [
+              "Boris Dubrovin",
+              "Marta Mazzocco"
+            ],
+            "year": 2000,
+            "type": "published",
+            "discipline": "math",
+            "concepts": [
+              "painleve-equations",
+              "isomonodromy"
+            ],
+            "importance": "notable",
+            "source": "manual"
+          }
+        ]
+      },
+      "after_sha256": "1931612ae481ec6d2aa3f130dfa948f6cd3763cafaa3974e13f03df45a773477",
+      "reviewed_scope": [
+        "Only Helix row: wrong arXiv, 2024 book metadata from Springer; no certification of other rows"
+      ],
+      "changed_row_indices": [
+        10
+      ]
+    }
+  ],
+  "primary_documents": [
+    {
+      "name": "ggi-2014",
+      "url": "https://arxiv.org/pdf/1404.6407v4",
+      "sha256": "1da84b21c82ceb89b2c4e5a02dc99943513f63f85ec75ea54d5d4678741ac014",
+      "bytes": 1230913,
+      "local_text_path": ".cache/msa/site-recovery/ggi-2014.txt",
+      "version_header": "arXiv:1404.6407v4 [math.AG] 19 Oct 2015"
+    },
+    {
+      "name": "gamma-counterexamples",
+      "url": "https://arxiv.org/pdf/2405.16979v3",
+      "sha256": "c4941d7aa0a8023ae907816b5ea374c64dd7e48e1c5fa3cc6fbfacc1e27f8b78",
+      "bytes": 907373,
+      "local_text_path": ".cache/msa/site-recovery/gamma-counterexamples.txt",
+      "version_header": "arXiv:2405.16979v3 [math.AG] 15 Jan 2025"
+    },
+    {
+      "name": "gamma-quadrics",
+      "url": "https://arxiv.org/pdf/2103.15143v1",
+      "sha256": "cd470c120a1d393f045175c405706dc9b816c47f55fa30b9b6b16ccdebd4335e",
+      "bytes": 435473,
+      "local_text_path": ".cache/msa/site-recovery/gamma-quadrics.txt",
+      "version_header": "arXiv:2103.15143v1 [math.AG] 28 Mar 2021"
+    },
+    {
+      "name": "gamma-delpezzo-i",
+      "url": "https://arxiv.org/pdf/1901.01748",
+      "sha256": "3fc84ab69dbcf21683bd86092da805ad382f7756d5afa4da607efdfa8af531fa",
+      "bytes": 401033,
+      "local_text_path": ".cache/msa/site-recovery/gamma-delpezzo-i.txt",
+      "version_header": "arXiv:1901.01748v1 [math.AG] 7 Jan 2019"
+    },
+    {
+      "name": "gamma-helix",
+      "url": "https://arxiv.org/pdf/1811.09235v2",
+      "sha256": "9ab044e8b74bd7e758fb941b4263462b2819b499578395ba1637fb742943f371",
+      "bytes": 2092577,
+      "local_text_path": ".cache/msa/site-recovery/gamma-helix.txt",
+      "version_header": "arXiv:1811.09235v2 [math.AG] 8 May 2019"
+    },
+    {
+      "name": "gamma-global-i",
+      "url": "https://arxiv.org/pdf/2606.07418",
+      "sha256": "0d5d4099b41a5dbbf4107edba85943ee420ae7f866ac0a21dae058fcd5bf666e",
+      "bytes": 657665,
+      "local_text_path": ".cache/msa/site-recovery/gamma-global-i.txt",
+      "version_header": "arXiv:2606.07418v1 [math.AG] 5 Jun 2026"
+    },
+    {
+      "name": "hms-kontsevich",
+      "url": "https://arxiv.org/pdf/alg-geom/9411018",
+      "sha256": "557a9d1d2eece915b271a8a381967d76911cfd999ebac45965c74e2d26675bea",
+      "bytes": 229010,
+      "local_text_path": ".cache/msa/site-recovery/hms-kontsevich.txt",
+      "version_header": "arXiv:alg-geom/9411018v1 30 Nov 1994"
+    },
+    {
+      "name": "hms-seidel",
+      "url": "https://arxiv.org/pdf/math/0310414",
+      "sha256": "2932bac3c07c123118b0da104508a4118d89f2212e358438f5cf609c231a8da8",
+      "bytes": 1243395,
+      "local_text_path": ".cache/msa/site-recovery/hms-seidel.txt",
+      "version_header": "arXiv:math/0310414v4 [math.SG] 6 Aug 2013"
+    },
+    {
+      "name": "hms-sheridan",
+      "url": "https://arxiv.org/pdf/1111.0632",
+      "sha256": "215a88acf0ca1f564ad99462371c8178baf3f0517fbd10d94ac041f94818ad61",
+      "bytes": 1973422,
+      "local_text_path": ".cache/msa/site-recovery/hms-sheridan.txt",
+      "version_header": "arXiv:1111.0632v4 [math.SG] 13 Jan 2014"
+    },
+    {
+      "name": "fukaya-auroux",
+      "url": "https://arxiv.org/pdf/1301.7056",
+      "sha256": "c7e3face8d51e54f0cf8dc1dbaaa368574a724a24f4929761cf5594d59cdcdf8",
+      "bytes": 497661,
+      "local_text_path": ".cache/msa/site-recovery/fukaya-auroux.txt",
+      "version_header": "arXiv:1301.7056v1 [math.SG] 29 Jan 2013"
+    },
+    {
+      "name": "virasoro-getzler",
+      "url": "https://arxiv.org/pdf/math/9812026",
+      "sha256": "df265e86a0f3060fe6e3ccf544d6f5442ab9b415b146609ec6bf2e2a422e0fd3",
+      "bytes": 351734,
+      "local_text_path": ".cache/msa/site-recovery/virasoro-getzler.txt",
+      "version_header": "arXiv:math/9812026v4 [math.AG] 6 Apr 1999"
+    },
+    {
+      "name": "virasoro-liutian",
+      "url": "https://arxiv.org/pdf/math/9806028",
+      "sha256": "e2046f3ec7aed115bb209e7ea4768eb82eb22f780b9718d16facc0043e75c8de",
+      "bytes": 289099,
+      "local_text_path": ".cache/msa/site-recovery/virasoro-liutian.txt",
+      "version_header": "arXiv:math/9806028v2 [math.AG] 20 Oct 1998"
+    },
+    {
+      "name": "virasoro-teleman",
+      "url": "https://arxiv.org/pdf/0712.0160",
+      "sha256": "aa12cf7158eedf0d821c5f08c8f86b34e78049d55030e94e9409ab2a53eb7a2d",
+      "bytes": 479219,
+      "local_text_path": ".cache/msa/site-recovery/virasoro-teleman.txt",
+      "version_header": "arXiv:0712.0160v3 [math.AT] 17 Feb 2012"
+    },
+    {
+      "name": "virasoro-guozhang",
+      "url": "https://arxiv.org/pdf/2507.20151",
+      "sha256": "282f1db6d4a85e5d6de7bec4eef9a5cc8924a99c7116145f328dfd727e158056",
+      "bytes": 574723,
+      "local_text_path": ".cache/msa/site-recovery/virasoro-guozhang.txt",
+      "version_header": "arXiv:2507.20151v1 [math-ph] 27 Jul 2025"
+    },
+    {
+      "name": "virasoro-gzz",
+      "url": "https://arxiv.org/pdf/2608.29870",
+      "sha256": "fb431b85eb95ca56ffaf6fc14df722c52ab2ca9e2bea33af77d0bfc1baa89120",
+      "bytes": 549984,
+      "local_text_path": ".cache/msa/site-recovery/virasoro-gzz.txt",
+      "version_header": "arXiv:2608.29870v1 [math.AG] 30 Aug 2026"
+    },
+    {
+      "name": "hms-sheridan-smith",
+      "url": "https://arxiv.org/pdf/1709.08937v2",
+      "sha256": "f332449b6bed2c8b03cc7d58184209ad65c27b8bfbe4ef5b5f6b56c3ff3dbcc5",
+      "bytes": 720612,
+      "local_text_path": ".cache/msa/site-recovery/hms-sheridan-smith.txt",
+      "version_header": "arXiv:1709.08937v2 [math.SG] 30 Oct 2020"
+    },
+    {
+      "name": "virasoro-ehx",
+      "url": "https://arxiv.org/pdf/hep-th/9703086v2",
+      "sha256": "5cf8dbcf2de4fb2053b8a26041f5b4c4b0169be79d1583787d52f16a0f9fed8a",
+      "bytes": 131477,
+      "local_text_path": ".cache/msa/site-recovery/virasoro-ehx.txt",
+      "version_header": "arXiv:hep-th/9703086v2 20 Apr 1997"
+    }
+  ],
+  "additional_sources": [
+    {
+      "url": "https://link.springer.com/book/10.1007/978-3-031-69067-9",
+      "scope": "Helix book metadata, 2024, LNM2356, authors and DOI"
+    },
+    {
+      "url": "https://www.claymath.org/millennium-problems/",
+      "scope": "Official seven-problem list; HMS not present"
+    },
+    {
+      "url": "https://arxiv.org/abs/1508.00719",
+      "scope": "Galkin-Iritani Gamma conjecture via mirror symmetry; not Helix Structures"
+    }
+  ],
+  "pending": [
+    "HMS current global coverage and later resolution of explicitly cited foundational dependencies",
+    "Unaudited concept relations, contributor completeness and original-priority history",
+    "New 2606.07418 and 2608.29870 papers not yet merged into person catalog: requires owner-specific checks",
+    "Old unsourced ~2002 Liu attribution and reflection-vectors route retained in before snapshot, not silently promoted",
+    "Other seminal-paper rows were read for context only and remain unreviewed"
+  ],
+  "delivery_checks": {
+    "site_regressions": 40,
+    "lint": "passed",
+    "typecheck": "passed",
+    "build": "passed",
+    "data_lint": {
+      "errors": 0,
+      "warnings": 74
+    },
+    "export_audit": "batch-fifteen-export-audit.json",
+    "browser": {
+      "local_mobile": "390x844 directory to Gamma II to concept; no horizontal overflow, 0 KaTeX parse errors",
+      "local_desktop": "1280x1000 HMS and Virasoro; directory navigation and 2026 ambient genus-one limitation visible; error logs empty",
+      "screenshot": "problems-preview-desktop.png"
+    }
+  }
+}

@@ -25,6 +25,7 @@ const NAV_ITEMS = [
   { href: "/people", label: "人物" },
   { href: "/acknowledgements", label: "致谢网" },
   { href: "/concepts", label: "概念" },
+  { href: "/problems", label: "问题" },
   { href: "/timeline", label: "时间线" },
   { href: "/papers", label: "论文" },
   { href: "/news", label: "新闻" },

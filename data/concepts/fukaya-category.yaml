@@ -2,22 +2,26 @@ slug: fukaya-category
 name:
   en: Fukaya Category
   zh: Fukaya 范畴
-aliases:
-  - derived Fukaya category
+aliases: []
 category: algebraic-structure
 difficulty: research-frontier
 discipline: math
-year_introduced: 1993
 introduced_by: []
 definition: |
-  辛流形上的 $A_\infty$ 范畴，对象是 Lagrangian 子流形，态射由 Floer 上同调给出。
-  是同调镜像对称的 A-model 一侧。
-dual_to: derived-category
+  辛几何中的 $A_\infty$ 范畴，其具体版本取决于辛流形、系数和允许的 Lagrangian 对象。对象需要合适的附加结构与条件，例如分次、spin 结构；更一般的版本还涉及局部系统和消除障碍的数据，不能把任意 Lagrangian 子流形直接当对象。
+  在通常的链模型中，态射是 Floer 复形 $CF^*(L_0,L_1)$，$\mu^1$ 是微分，$\mu^2$ 是乘法，较高运算由伪全纯多边形计数给出。取态射上同调后才得到以 $HF^*(L_0,L_1)$ 为态射的上同调范畴。
+  导出 Fukaya 范畴还需加入移位、锥等构造；$D^\pi\mathrm{Fuk}$ 进一步包含直和因子闭包。它与凝聚层导出范畴的联系属于指定镜像对的同调镜像对称陈述，不是一般辛流形上无条件的对偶。
+history_note: "本条采用 Auroux 综述第 2.3 节及第 3 节的层次区分；最初提出的年代尚待历史来源核对。"
+review_note: "2026-10-08：核对链级态射、上同调范畴及导出构造的区别。不同版本所需的解析、障碍与系数条件须查相应构造；本页不是一个覆盖所有辛流形的完整定义。"
+sources:
+  - label: "Auroux：A beginner's introduction to Fukaya categories，第 2.3 节（定义 2.9、注 2.10）及第 3 节"
+    url: "https://arxiv.org/abs/1301.7056"
+dual_to: null
 prerequisites:
   - mirror-symmetry
 leads_to:
   - homological-mirror-symmetry
 related: []
 key_people: [kontsevich]
-key_papers: []
+key_papers: ["1301.7056"]
 tags: []

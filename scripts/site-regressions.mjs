@@ -11,6 +11,41 @@ import { publicationMetadata } from '../.cache/msa/site-tests/publication-metada
 import { collectPublications, collectCoauthorship, recordedPublicationStats } from '../.cache/msa/site-tests/publications.js';
 import { recordedAffiliations } from '../.cache/msa/site-tests/institution-affiliations.js';
 import { canonicalConcepts, conceptLookup } from '../.cache/msa/site-tests/concepts.js';
+import { problemStatus } from '../.cache/msa/site-tests/problems.js';
+
+test('problem status does not convert unknown, unreviewed or abandoned records into solved claims', () => {
+  const evidence = { reviewed_on: '2026-10-08', review_note: 'statement review', status_note: 'scope', sources: [{ label: 'source', url: 'https://example.org' }] };
+  const input = { ...evidence, status: 'solved' }, before = structuredClone(input);
+  assert.equal(problemStatus(input).label, '已解决');
+  assert.equal(problemStatus({ ...evidence, status: 'abandoned' }).label, '已停止追踪');
+  for (const status of ['missing', 'needs-review', '__proto__', 'constructor']) {
+    assert.equal(problemStatus({ ...evidence, status }).label, '状态待核');
+  }
+  for (const field of ['reviewed_on', 'review_note', 'status_note', 'sources']) {
+    assert.equal(problemStatus({ ...input, [field]: undefined }).label, '状态待核');
+  }
+  assert.equal(problemStatus({ ...input, sources: [{ label: 'unsafe', url: 'javascript:alert(1)' }] }).label, '状态待核');
+  assert.deepEqual(input, before);
+  assert.equal(entityRoute('/problems/hms-general-cy').exists, true);
+  assert.equal(entityRoute('/problems/not-catalogued').exists, false);
+});
+
+test('problem input gate catches incomplete review provenance, malformed progress and missing related pages', () => {
+  const code = `import sys
+sys.path.insert(0,'scripts')
+from problem_content import problem_errors
+base={'status':'needs-review','related_problems':[],'progress':[]}
+valid={**base,'reviewed_on':'2026-10-08','review_note':'scope','status_note':'scope','sources':[{'label':'source','url':'https://example.org'}]}
+check=lambda p: problem_errors(p,{'real':base})
+assert not check(base)
+assert not check(valid)
+for patch in [{'status':'bad'},{'reviewed_on':'2026-02-30'},{'sources':[]},{'review_note':''},{'sources':[{'label':'x','url':'javascript:x'}]},{'related_problems':['missing']},{'progress':[None]},{'progress':[{'date':2026,'description':'x','papers':'not-list'}]}]:
+ assert check({**valid,**patch}),patch
+assert check({**base,'reviewed_on':'2026-10-08'})
+print('schema-only')`;
+  const result = spawnSync('python3', ['-c', code], { encoding: 'utf8' });
+  assert.equal(result.status, 0, result.stderr);
+});
 
 const conceptFixture = (slug, fields = {}) => ({ slug, name: { en: slug }, difficulty: 'advanced', ...fields });
 

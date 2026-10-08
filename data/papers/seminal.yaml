@@ -130,17 +130,21 @@ papers:
     notes: "Gamma 猜想 I & II 的原始文献"
     source: manual
 
-  - arxiv_id: "1508.00719"
+  - arxiv_id: "1811.09235"
+    doi: "10.1007/978-3-031-69067-9"
     title: "Helix structures in quantum cohomology of Fano varieties"
     authors: [cotti, dubrovin, guzzetti]
     authors_raw: ["Giordano Cotti", "Boris Dubrovin", "Davide Guzzetti"]
-    year: 2018
+    year: 2024
+    journal: "Lecture Notes in Mathematics 2356, Springer（专著；预印本首次提交于 2018 年）"
     type: published
     discipline: math
     concepts: [gamma-conjecture, quantum-cohomology, derived-category]
     importance: major
-    notes: "Refined Dubrovin Conjecture"
+    notes: "Dubrovin 猜想的精化；本次核对限于题名、作者、标识和出版信息，不是整部专著的证明审核。"
     source: manual
+    source_url: "https://link.springer.com/book/10.1007/978-3-031-69067-9"
+    last_verified: "2026-10-08"
 
   # === 第五层：计算与分类 ===
   - arxiv_id: "math/9904126"
