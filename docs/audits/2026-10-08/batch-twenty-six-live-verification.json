@@ -1,0 +1,94 @@
+{
+  "reviewer": "Codex",
+  "verified_at": "2026-10-08T07:24:00.335935+00:00",
+  "commit": "10929f6a7e24ea16a6d7ba23f48c6d2ca684d00c",
+  "run": 37742748997,
+  "scope": "Nine changed public bibliography sections compared with locally checked export; not all page content or external facts.",
+  "pages": [
+    {
+      "slug": "dubrovin",
+      "url": "https://dtq1997.github.io/mirror-symmetry-atlas/people/dubrovin",
+      "http_status": 200,
+      "publications_equal_local_export": true,
+      "sha256": "e26cc67066da936505966f3a99c112710800caedcc1fa8f56ad7f4a1ecd421ea"
+    },
+    {
+      "slug": "hu-jianxun",
+      "url": "https://dtq1997.github.io/mirror-symmetry-atlas/people/hu-jianxun",
+      "http_status": 200,
+      "publications_equal_local_export": true,
+      "sha256": "0f22192b8b91b07a8bba686e228817d46e153c1e1d0e4083f2ac525cb148daa1"
+    },
+    {
+      "slug": "ke-huazhong",
+      "url": "https://dtq1997.github.io/mirror-symmetry-atlas/people/ke-huazhong",
+      "http_status": 200,
+      "publications_equal_local_export": true,
+      "sha256": "1f7edd6fa02b4e3ea759df5ff21c7390e91bf3f118c1feebd4038781ee972ae0"
+    },
+    {
+      "slug": "leung-naichung",
+      "url": "https://dtq1997.github.io/mirror-symmetry-atlas/people/leung-naichung",
+      "http_status": 200,
+      "publications_equal_local_export": true,
+      "sha256": "d7d52efd969554e51acec66e829883c4566b2f1e82c3ee356ac1bd6eec75b6d2"
+    },
+    {
+      "slug": "li-changzheng",
+      "url": "https://dtq1997.github.io/mirror-symmetry-atlas/people/li-changzheng",
+      "http_status": 200,
+      "publications_equal_local_export": true,
+      "sha256": "b7e2526fc3e0465008a068ccb194e5fabe881f11c33c8d7b0949470e9dd848db"
+    },
+    {
+      "slug": "li-qin",
+      "url": "https://dtq1997.github.io/mirror-symmetry-atlas/people/li-qin",
+      "http_status": 200,
+      "publications_equal_local_export": true,
+      "sha256": "9df32257a50a1b89769855c4e3a2fba33536e0bb15410d80dac7055eea794cfa"
+    },
+    {
+      "slug": "sabbah",
+      "url": "https://dtq1997.github.io/mirror-symmetry-atlas/people/sabbah",
+      "http_status": 200,
+      "publications_equal_local_export": true,
+      "sha256": "2eb3b74ade9e34aa6a1510923d02549d645a4ece793d8b582d0dd3db8ccdb598"
+    },
+    {
+      "slug": "yang-di",
+      "url": "https://dtq1997.github.io/mirror-symmetry-atlas/people/yang-di",
+      "http_status": 200,
+      "publications_equal_local_export": true,
+      "sha256": "d00b6882eaaca11c833b29028525f30d8bbe5821d23539ec84659f1564997e39"
+    },
+    {
+      "slug": "zhou-chunhui",
+      "url": "https://dtq1997.github.io/mirror-symmetry-atlas/people/zhou-chunhui",
+      "http_status": 200,
+      "publications_equal_local_export": true,
+      "sha256": "0f28c7f1696946e02ed27dec1b48cfd4adfbb093ce7033d1de1f62be27ca9033"
+    }
+  ],
+  "actions_status": "success",
+  "browser": {
+    "page": "people/li-qin#publications",
+    "desktop": {
+      "viewport": [
+        1280,
+        800
+      ],
+      "scrollWidth": 1274,
+      "screenshot": "batch-twenty-six-live-desktop.jpg"
+    },
+    "mobile": {
+      "viewport": [
+        390,
+        844
+      ],
+      "scrollWidth": 384,
+      "screenshot": "batch-twenty-six-live-mobile.jpg"
+    },
+    "removed_publication_ids_absent": true,
+    "console_errors": []
+  }
+}
