@@ -2,12 +2,12 @@
 
 [Codex] 2026-10-08。Goal **active**，原目标见 `RECOVERY-PLAN.md`。这不是已完成的全库事实认证。
 
-## 当前恢复入口（2026-10-08，第十七批线上验收后）
+## 当前恢复入口（2026-10-08，第十八批线上验收后）
 
 [Codex] Goal仍active。以下是当前摘要；后面的早期“待发布/尚未恢复”是历史记录，不代表现在。
 
-- 原网站已发布十七批修复。最近公开内容 commit `bc99ce749e81b06db5ff3e0f004ec4c54295f98f`；Actions `37721369483` success，首页/论文页/十个人物共12页HTTP核验；胡建勋来源说明与郭帅论文区已作手机/桌面检查。后续报告提交带skip ci，公开资产仍以上述commit为准。
-- 当前96人物、58主概念与3别名入口（61份原始记录）、115机构、3开放问题；人物原始论文2212行，目录1812组（包括书籍/章节及译版，不等于独立研究论文总数）。287HTML/22722站内链接/688公式实例，未检出坏目标或KaTeX解析错误；data lint 0errors/74warnings；40项网站回归及CI全部检查通过。这不是全库事实或数学认证。
+- 原网站已发布十八批修复。最近公开内容 commit `6cf622e161225a15472e097298fc668b73ec56c7`；Actions `37723497837` success，首页/人物列表/十个人物共12页HTTP核验；线上杜承勇履历、陈国威搜索已检查，390手机尺寸在同构本地版本通过。后续报告提交带skip ci，公开资产仍以上述commit为准。
+- 当前96人物、58主概念与3别名入口（61份原始记录）、115机构、3开放问题；人物原始论文2212行，目录1812组（包括书籍/章节及译版，不等于独立研究论文总数）。287HTML/22731站内链接/688公式实例，未检出坏目标或KaTeX解析错误；data lint 0errors/75warnings；41项网站回归及CI全部检查通过。这不是全库事实或数学认证。
 - 新闻链与定时部署已恢复，72篇新闻在线；作者保留原始署名，不按姓氏猜身份。1237个完整arXiv当前元数据已取回，但并非全部归属已核实。
 - 累计11条确认错挂、6条待核实归属已移出，1录像转网上痕迹，另23条来源确认的重复已合并。原始记录及来源分别保存在审核池或具名审计报告；身份排除受防回填检查保护，合并的有效DOI不能加入拒绝池。刘思齐41条、Mazzocco46条、Dubrovin64条。部分履历/论文修正不代表整个人物已核。
 - 图谱空按钮、共享数据突变、布局持续散开、手机侧栏/搜索、公式跨行渲染已修；年份筛选是累计有日期记录，机构筛选是历史履历关联，不猜现职。小屏全图仍可能局部标签重叠，可搜索放大。
@@ -20,11 +20,12 @@
 - 第十五批已上线：新增问题目录/3详情并核对4概念；Gamma I原版反例与Gamma II分开，del Pezzo II已找到2606.07418四作者预印本，Virasoro补半单全亏格及2608.29870环境genus-one结果；经典Helix错号及专著年份也已修。HMS一般状态改为待核，已知具体定理及历史构造依赖明确列出，不能凭旧稿缺口推断今天没有证明。见conjectures-and-problem-pages-review.json与batch-fifteen-live-verification.json。
 - 第十六批已上线：HMS按2203.15482/2511.01656/2511.04498后续基础系列改为部分解决，保留具体定理条件及其他范畴比较问题；前一批待核结论已被本批来源跟进替代。两篇2026新作新增五条作者记录，郭帅2311.09804待核隔离，郭帅/张庆生的北大任职单位纠正。证据见hms-foundations-new-papers-review.json、batch-sixteen-live-verification.json。
 - 第十七批已上线：七组预印本/期刊版关联覆盖十人，合并15条冗余原始记录，保留arXiv、DOI及期刊信息；胡建勋学历官方来源冲突显式标注，撤去美国博士猜测，师生关系仅凭合著推断的胡—何条目转待核。人物来源中的84条说明、78个日期已显示；93个有sources的人物静态页面均核对。证据见biography-bibliography-and-source-notes-review.json、batch-seventeen-export-audit.json、batch-seventeen-live-verification.json。未核实整个人物档案。
-- 下一步优先 `next-biography-and-relationship-leads.json`：胡/何完整官方履历、其余师生关系的推测/重复、王/杨/梁的单位与学历；advisor-relationship-pending-inventory.json已盘点65条关系中的2对重复、6条明确不确定记录，须区分年份未知与关系未证；并持续覆盖其他内容类型。旧next-profile-and-bibliography-leads.json已追加本批处置，不能重复合并。
+- 第十八批已上线：十个人物的有限履历/衍生叙述修订；陈国威中文名、宗正宇2015博士、杜承勇双导师/2023.03起教授均补明确来源；倪大地/张庆生两条未决师承及四条衍生关系移入审核池，合并两对重复，新增杜承勇联合导师。62条导师类记录；新闸阻止明确待核关系误回填。MGP记录不冒充原始博士论文；未核全体人物或关系。见biography-and-mentor-source-review.json、batch-eighteen-live-verification.json。
+- 下一步优先 `next-identity-and-content-leads.json`：陈酌档案的算术/GLSM/SCFT同名候选，杜承勇论文年份与缺编号、机构别名/重复；继续next-biography-and-relationship-leads.json其余内容。旧advisor-relationship-pending-inventory.json已追加第十八批处置，初始65条/两对重复/六条不确定是历史快照。
 - 全内容待办仍包括：人物公开叙述/履历/师生关系，Hertling整书/章节计数，58主概念的定义、年代、关系及引用，115机构、会议/时间线/3开放问题一手来源，论文目录查找体验。必须继续覆盖这些类型，不能把论文元数据清理当全站完成。
 - content-inventory.json是第一批未核实基线，旧数量/全pending不覆盖后续分项证据。当前覆盖以具名审计的具体字段为准。
 - 不运行旧validate-publications.py --apply / detect-id-title-mismatch.py --write；OpenAlex v2仍有HTTP/缓存/评分风险，不能无人审查全库写入。
-- 继续只在本仓库；先查git状态，再沿此Goal推进。不要回academic-formula-workbench，不启动无关数学campaign。第十七批预览服务PID27327已核对身份并关闭，临时tab12已关闭，浏览器尺寸已复原；保留线上胡建勋来源说明页。
+- 继续只在本仓库；先查git状态，再沿此Goal推进。不要回academic-formula-workbench，不启动无关数学campaign。第十八批预览服务PID41597已核对身份并关闭，临时tab13已关闭，浏览器尺寸覆盖已清除；保留线上杜承勇履历页。
 
 ## 以下为分批历史与证据记录
 
@@ -310,3 +311,6 @@ Goal仍active，转向概念内容的一手来源核查而非继续把绘图通�
 - advisor-student.yaml当前62行：49师生、12博士后导师、1博士后团队。新增预构建闸拦截同一导师经历重复，以及审核池中未决关系通过边/人物导师/履历导师/学生字段重新回填。它仅检查结构与明确审核处置，不认证所有关系。
 - 论文原始2212行、目录1812组均未变。41项网站回归、ESLint、TypeScript、生产构建通过；287HTML/22731链接/688公式实例，0坏目标；数据0errors/75warnings，新增1项为联合导师原文姓名未建人物档案。12页本地HTTP核查；手机搜索陈国威返回1人、桌面图谱姓名正确、无观察到的浏览器error。
 - 证据 `biography-and-mentor-source-review.json`；后续入口 `next-identity-and-content-leads.json`。陈酌档案出现的算术/GLSM/SCFT论文仅为待消歧候选，尚未认定错挂。全站Goal仍active。
+
+
+[Codex] 2026-10-08 第十八批线上验收完成：commit `6cf622e161225a15472e097298fc668b73ec56c7`，Actions `37723497837` build/deploy均success。12页HTTP断言通过；线上杜承勇双导师/教授履历和陈国威搜索已查看，无观察到的console error或横向溢出。截图 `du-biography-live.png`；实际公开视口为608×758和1280×900，390×844手机搜索验证在相同本地构建完成，不把未生效的线上视口请求说成通过。自建预览PID41597已关闭，临时tab13已关闭，尺寸覆盖清除。Goal仍active，下一入口为next-identity-and-content-leads.json。

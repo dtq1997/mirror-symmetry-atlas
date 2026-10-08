@@ -1,0 +1,205 @@
+{
+  "reviewer": "Codex",
+  "checked_at": "2026-10-08T03:38:38.485957+00:00",
+  "commit": "6cf622e161225a15472e097298fc668b73ec56c7",
+  "deployment_run": 37723497837,
+  "http_checks": [
+    {
+      "url": "https://dtq1997.github.io/mirror-symmetry-atlas/people",
+      "status": 200,
+      "sha256": "2c843bcf9370cf537be6196a7dbc54076dd3e38c6b1d9c5f9fe1e2e64f7ee15d",
+      "checks": {
+        "no_katex_errors": true,
+        "correct_name_in_page_or_payload": true,
+        "incorrect_name_absent": true
+      },
+      "passed": true
+    },
+    {
+      "url": "https://dtq1997.github.io/mirror-symmetry-atlas/",
+      "status": 200,
+      "sha256": "428da31b5695cbbf8912740826482fb51986e4e6cd2a8aa26ca9cf104bab11f5",
+      "checks": {
+        "no_katex_errors": true,
+        "catalog_count": true
+      },
+      "passed": true
+    },
+    {
+      "url": "https://dtq1997.github.io/mirror-symmetry-atlas/people/chan-kwokwai",
+      "status": 200,
+      "sha256": "ef9c1486075b2f8d4920f3ce38434438046716717159ef99fced6c7af586a3fb",
+      "checks": {
+        "no_katex_errors": true,
+        "correct_heading": true,
+        "source_notes_visible": true,
+        "wrong_name_absent": true
+      },
+      "passed": true
+    },
+    {
+      "url": "https://dtq1997.github.io/mirror-symmetry-atlas/people/zong-zhengyu",
+      "status": 200,
+      "sha256": "719240a4be8e1f5ad49e92c1f1621e44d4ecd722ccc36eadc962bbbb27e9f4fd",
+      "checks": {
+        "no_katex_errors": true,
+        "correct_heading": true,
+        "source_notes_visible": true,
+        "phd_dates": true
+      },
+      "passed": true
+    },
+    {
+      "url": "https://dtq1997.github.io/mirror-symmetry-atlas/people/du-chengyong",
+      "status": 200,
+      "sha256": "bb15123e860a1f4abf1ec67ffa14fd7a12d93b77d15b3eb3cbdec48fba9a4211",
+      "checks": {
+        "no_katex_errors": true,
+        "correct_heading": true,
+        "source_notes_visible": true,
+        "dated_professorship": true,
+        "two_doctoral_advisors": true,
+        "phd_dates": true,
+        "official_homepage_link": true,
+        "old_inference_removed": true
+      },
+      "passed": true
+    },
+    {
+      "url": "https://dtq1997.github.io/mirror-symmetry-atlas/people/wu-chaozhong",
+      "status": 200,
+      "sha256": "b20bf93da287ac71f8b10a1ce8158bc0ae6835e67ed10d237179e8b8683b8a07",
+      "checks": {
+        "no_katex_errors": true,
+        "correct_heading": true,
+        "source_notes_visible": true,
+        "fellowship_dates": true
+      },
+      "passed": true
+    },
+    {
+      "url": "https://dtq1997.github.io/mirror-symmetry-atlas/people/ni-dadi",
+      "status": 200,
+      "sha256": "e2fa39c2e0aeaa9db46acaf1312cb3066efb80f344cb4b2fbb52ea72a0a721f9",
+      "checks": {
+        "no_katex_errors": true,
+        "correct_heading": true,
+        "source_notes_visible": true,
+        "advisor_unresolved": true,
+        "no_confirmed_advisor_heading": true,
+        "guess_not_asserted": true,
+        "lecturer_current": true
+      },
+      "passed": true
+    },
+    {
+      "url": "https://dtq1997.github.io/mirror-symmetry-atlas/people/zhang-qingsheng",
+      "status": 200,
+      "sha256": "23c3ba521b753839b2f077b51dbeed00dc79bdc42569c233883e3c9735e13324",
+      "checks": {
+        "no_katex_errors": true,
+        "correct_heading": true,
+        "source_notes_visible": true,
+        "advisor_unresolved": true,
+        "no_confirmed_advisor_heading": true,
+        "guess_not_asserted": true
+      },
+      "passed": true
+    },
+    {
+      "url": "https://dtq1997.github.io/mirror-symmetry-atlas/people/leung-naichung",
+      "status": 200,
+      "sha256": "928b6fe0b5f3f24bb3acd743377cd13bd5786fa5efacc6df96ee4f695cb8ec3f",
+      "checks": {
+        "no_katex_errors": true,
+        "correct_heading": true,
+        "source_notes_visible": true
+      },
+      "passed": true
+    },
+    {
+      "url": "https://dtq1997.github.io/mirror-symmetry-atlas/people/zhou-jian",
+      "status": 200,
+      "sha256": "88ae83ded3b0ded72a4226f527ff5117258ec799f2b84986a746f284ba602c9f",
+      "checks": {
+        "no_katex_errors": true,
+        "correct_heading": true,
+        "source_notes_visible": true
+      },
+      "passed": true
+    },
+    {
+      "url": "https://dtq1997.github.io/mirror-symmetry-atlas/people/chen-zhuo",
+      "status": 200,
+      "sha256": "322405bea86df0f9a07df560492b9d3cbef3ce020f7e1a5e71ea3adae522abfc",
+      "checks": {
+        "no_katex_errors": true,
+        "correct_heading": true,
+        "source_notes_visible": true
+      },
+      "passed": true
+    },
+    {
+      "url": "https://dtq1997.github.io/mirror-symmetry-atlas/people/hu-xiaowen",
+      "status": 200,
+      "sha256": "a0e12e85a2c8171d2d6acbfe03647c9d26aafe1a6b7fb90300994467050ac442",
+      "checks": {
+        "no_katex_errors": true,
+        "correct_heading": true,
+        "source_notes_visible": true
+      },
+      "passed": true
+    }
+  ],
+  "scope": "Twelve pages with specific displayed biography and source-note checks. Not certification of entire profiles, bibliography or all relationships.",
+  "ci": {
+    "run": 37723497837,
+    "commit": "6cf622e161225a15472e097298fc668b73ec56c7",
+    "build": "success",
+    "deploy": "success"
+  },
+  "browser": {
+    "public_du_page": {
+      "url": "https://dtq1997.github.io/mirror-symmetry-atlas/people/du-chengyong",
+      "actual_viewport": {
+        "width": 608,
+        "height": 758
+      },
+      "doctoral_advisors": "李安民、陈柏辉",
+      "professor_period": "2023.03-present",
+      "horizontal_overflow": false,
+      "console_errors": [],
+      "screenshot": "du-biography-live.png"
+    },
+    "public_person_search": {
+      "url": "https://dtq1997.github.io/mirror-symmetry-atlas/people",
+      "actual_viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "query": "陈国威",
+      "results": 1,
+      "result": "陈国威 / Kwokwai Chan",
+      "horizontal_overflow": false,
+      "console_errors": []
+    },
+    "local_same_build_responsive": {
+      "mobile_width": 390,
+      "mobile_height": 844,
+      "search_results": 1,
+      "horizontal_overflow": false,
+      "desktop_width": 1280,
+      "desktop_height": 900,
+      "graph_name": "陈国威",
+      "console_errors": []
+    },
+    "scope_note": "Public search viewport stayed at 1280 despite an attempted 390 override after navigation; report actual dimensions only. The 390 mobile check was completed against the identical local build. Temporary tabs closed and viewport overrides reset."
+  },
+  "cleanup": {
+    "own_preview_pid": 41597,
+    "identity_checked": true,
+    "signal": "SIGTERM",
+    "temporary_tab_closed": "13",
+    "public_deliverable_kept": true
+  }
+}
