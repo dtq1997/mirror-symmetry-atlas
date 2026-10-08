@@ -1,0 +1,117 @@
+{
+  "reviewer": "Codex",
+  "verified_at": "2026-10-08T06:14:14.439842+00:00",
+  "code_commit": "1e14547aec933dd0e88b46a5bbeb8b0e1c71ee76",
+  "actions_run_id": 37736282862,
+  "actions_conclusion": "success",
+  "pages": [
+    {
+      "url": "https://dtq1997.github.io/mirror-symmetry-atlas/acknowledgements",
+      "http_status": "200",
+      "bytes": 1183082,
+      "sha256": "b2bfb9e8964facc1a17a11758c60940f6ba9a029ace350502497da276dcee357",
+      "checks": {
+        "html_received": true,
+        "reviewed_count": true,
+        "direction_note": true,
+        "pending_note": true
+      }
+    },
+    {
+      "url": "https://dtq1997.github.io/mirror-symmetry-atlas/people/fan-huijun",
+      "http_status": "200",
+      "bytes": 152525,
+      "sha256": "27d288a449ca5f1d7f875ab9ba80645952178df00fdca6d2529ede4b169d9558",
+      "checks": {
+        "html_received": true,
+        "section_scope_correct": true
+      }
+    },
+    {
+      "url": "https://dtq1997.github.io/mirror-symmetry-atlas/people/ding-yanqiao",
+      "http_status": "200",
+      "bytes": 112613,
+      "sha256": "a3379d78215b4782cf7b71ef24aa956a52d840f49daadbfd37a78fa2ed8b5602",
+      "checks": {
+        "html_received": true,
+        "section_scope_correct": true,
+        "exact_reviewed_neighbors": true,
+        "exact_reviewed_papers": true
+      }
+    },
+    {
+      "url": "https://dtq1997.github.io/mirror-symmetry-atlas/people/cotti",
+      "http_status": "200",
+      "bytes": 207416,
+      "sha256": "c48bc7d8e5f8fe8b26aefebe67a407706c83bb90e09d9150ae35b40398b2f4ff",
+      "checks": {
+        "html_received": true,
+        "section_scope_correct": true,
+        "exact_reviewed_neighbors": true,
+        "exact_reviewed_papers": true
+      }
+    },
+    {
+      "url": "https://dtq1997.github.io/mirror-symmetry-atlas/people/hu-jianxun",
+      "http_status": "200",
+      "bytes": 241051,
+      "sha256": "d2ecedbb932c49caecefee0daf0689b8b973d3a19668f42c0b957c29ec1661bc",
+      "checks": {
+        "html_received": true,
+        "section_scope_correct": true,
+        "exact_reviewed_neighbors": true,
+        "exact_reviewed_papers": true
+      }
+    },
+    {
+      "url": "https://dtq1997.github.io/mirror-symmetry-atlas/people/chen-zhuo",
+      "http_status": "200",
+      "bytes": 267869,
+      "sha256": "460932cfe818d67fccb6630ade1426196bdced47ea2b3733a039337c630d788b",
+      "checks": {
+        "html_received": true,
+        "section_scope_correct": true
+      }
+    },
+    {
+      "url": "https://dtq1997.github.io/mirror-symmetry-atlas/people/zhang-huailiang",
+      "http_status": "200",
+      "bytes": 190684,
+      "sha256": "bdeefdb49fd320c52d04e7dcc080e15038ee294f57ac87aac9164f79a2d6f2b0",
+      "checks": {
+        "html_received": true,
+        "section_scope_correct": true
+      }
+    }
+  ],
+  "scope": "Public HTTP/rendered-content verification. Unreviewed claims are withheld, not refuted.",
+  "browser": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "scrollWidth": 1280,
+      "screenshot": "acknowledgement-reviewed-live.jpg"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "scrollWidth": 390,
+      "screenshot": "acknowledgement-reviewed-mobile-live.jpg"
+    },
+    "threshold_1_only_ack": 4,
+    "threshold_2_only_ack": 1,
+    "search": "丁岩峭, then clear",
+    "arrow_direction": "visually inspected",
+    "console_errors": [],
+    "viewport_note": "First public capture measured 608px despite requested override; it was replaced after closing the active local preview. Final captures were verified at the reported actual dimensions."
+  },
+  "cleanup": {
+    "preview_pid": 37249,
+    "verified_command": "python3 .cache/msa/site-recovery/preview.py",
+    "verified_listener": "127.0.0.1:3847",
+    "stop": "SIGINT, exit 130 and KeyboardInterrupt confirmed for this turn’s preview only",
+    "temporary_tab_closed": 19,
+    "viewport_override": "reset",
+    "deliverable_tab": 1
+  }
+}

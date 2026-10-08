@@ -1,0 +1,264 @@
+{
+  "reviewer": "Codex",
+  "date": "2026-10-08",
+  "scope": "Read-only next-batch leads; no grant or publication YAML changed.",
+  "funding": {
+    "derived_edge_count": 39,
+    "mechanism": "derive-grant-edges.py adds every registered bibliography owner to every extracted grant. paper_authors is neither a full ordered author list nor a grant-recipient list.",
+    "literal_subject_leads": [
+      {
+        "arxiv_id": "1604.07123",
+        "paper_authors": [
+          "fang-bohan",
+          "zong-zhengyu"
+        ],
+        "ack_text": "We wish to thank Charles Doran, Bertrand Eynard, and Nicolas Orantin for helpful conversations. We wish to thank Motohico Mulase and Yongbin Ruan for encouragement.\nWe wish to thank Sheldon Katz, Jie Zhou, and Shengmao Zhu for their comments on earlier versions of this paper.\nThe first author is partially supported by a start-up grant at\nPeking University. The second author is partially supported by NSF grants DMS-1206667 and DMS-1159416. The third author is partially supported by the start-up grant at Tsinghua University.",
+        "grants": [
+          {
+            "agency": "NSF",
+            "number": "DMS-1206667"
+          }
+        ]
+      },
+      {
+        "arxiv_id": "2211.16902",
+        "paper_authors": [
+          "li-changzheng",
+          "song-jiayu"
+        ],
+        "ack_text": "The authors would like to thank    Prakash Belkale, Boris Shapiro, Michael Shapiro and Lei Song for helpful discussions.  The authors are extremely grateful to    Leonardo C. Mihalcea\n for his valuable comments. The authors would also like to thank the anonymous reviewers for the careful reading of our manuscript and  their valuable  comments.\n\nThe first author would like to express the deepest gratitude to Prof. Bumsig Kim (1968-2021) for his mentorship. As suggested by Prof. Bumsig Kim, the first author learned  both quantum K-theory and Seidel elements for the first time, while he was a postdoc at KIAS.\nThe first author  was  supported by   the National Key Research and Development Program of China No.~2023YFA100980001 and NSFC Grant 12271529.",
+        "grants": [
+          {
+            "agency": "NSFC",
+            "number": "12271529"
+          }
+        ]
+      },
+      {
+        "arxiv_id": "2504.15696",
+        "paper_authors": [
+          "fang-bohan",
+          "zong-zhengyu"
+        ],
+        "ack_text": "The authors would like to thank Simons Center for Geometry and Physics (2023 Simons Math Summer Workshop and Recent Developments in Higher Genus Curve Counting in 2025), and Les Houches School of Physics (Quantum Geometry in August 2024) for their support and hospitality, where important progress of this work was made during these programs.\n\nThe work of the first author is partially supported by National Key R\\&D Program of China 2023YFA1009803, NSFC 12125101, NSFC 11890661 and NSFC 11831017. The work of the fourth author is partially supported by the Natural Science Foundation of Beijing, China grant No. 1252008 and NSFC grant No. 11701315.\n\n\n\n\\begin{comment}\n\n\n\n\\subsection{Historical background and motivation}\n\n\n\\subsection{Statement of the main results}\\label{sec:main result}\nLet $\\cX$ be a semi-projective toric Calabi-Yau 3-orbifold and $\\bT\\cong (\\bC^*)^3$ be the algebraic 3-torus embedded in $\\cX$ as a dense open subset. Let $\\bT' \\cong (\\bC^*)^2$ be the Calabi-Yau $2$-subtorus of $\\bT$ which acts trivially on the canonical bundle of $\\cX$. (See Section \\ref*{sect:Prelim} for more details.) In this paper, we prove the all genus mirror symmetry for the  $\\bT'$-equivariant descendant Gromov-Witten theory of $\\cX$. \n\nOn the A-model side, consider the generating function of genus-$g$, $\\bT'$-equivariant descendant Gromov-Witten invariants of $\\cX$\n$$\n\\llangle \\frac{\\gamma_1}{z_1-\\hat{\\psi}_1},\\ldots, \\frac{\\gamma_n}{z_n-\\hat{\\psi}_n}\\rrangle^{\\cX,\\bT'}_{g,n}\n=\\sum_{a_1,\\ldots,a_n\\in \\bZ_{\\geq 0}}\n\\llangle \\gamma_1 \\hat{\\psi}^{a_1} ,\\ldots, \\gamma_n \\hat{\\psi}^{a_n} \\rrangle^{\\cX,\\bT'}_{g,n}\\prod_{j=1}^n z_j^{-a_j-1},\n$$\nwhere $z_1,\\cdots,z_n$ are formal variables, $\\gamma_1,\\ldots,\\gamma_n$ are $\\bT'$-equivariant Chen-Ruan cohomology classes of $\\cX$, and $\\hat{\\psi}_i$ is the $i-$th descendant class. (See Section \\ref*{sect:genfun} for more details.)\n\nOn the B-model side, the mirror of the Calabi-Yau $3$-orbifold $\\cX$ is an affine curve $C_q\\subset (\\bC^*)^2$. Let $\\omega_{g,n}$ be defined recursively by the Eynard-Orantin topological recursion \\cite{EO07}. (See Section \\ref*{sec:mirrorcurve} for more details.) The main result of this paper is the identification of the generating function $\\llangle \\frac{\\gamma_1}{z_1-\\hat{\\psi}_1},\\ldots, \\frac{\\gamma_n}{z_n-\\hat{\\psi}_n}\\rrangle^{\\cX,\\bT'}_{g,n}$ to certain oscillatory integral of $\\omega_{g,n}$ on the mirror curve $C_q$.\n\nMore precisely in Section \\ref{sect:Sheaves}, we will consider the bounded derived category $D_{\\bT'}(\\cX) := D^b(\\Coh_{\\bT'}(\\cX))$ of $\\bT'$-equivariant coherent sheaves on $\\cX$ and the corresponding Grothendieck group  $K_{\\bT'}(\\cX) := K_0(D_{\\bT'}(\\cX))$. There is a natural action of the lattice $M'=\\Hom(\\bT', \\bC^*)$ on $K_{\\bT'}(\\cX)$ given by tensoring with characters of $\\bT'$. For $\\cE \\in K_{\\bT'}(\\cX)$,  we will define a characteristic class $\\kappa_{\\bT'}(\\cE)$ called the $\\bT'$-equivariant \\emph{$K$-theoretic framing} of $\\cE$, which lies in the $\\bT'$-equi",
+        "grants": [
+          {
+            "agency": "NSFC",
+            "number": "12125101"
+          },
+          {
+            "agency": "NSFC",
+            "number": "11890661"
+          },
+          {
+            "agency": "NSFC",
+            "number": "11831017"
+          },
+          {
+            "agency": "NSFC",
+            "number": "11701315"
+          }
+        ]
+      }
+    ],
+    "affected_examples": [
+      {
+        "source": "fang-bohan",
+        "target": "zong-zhengyu",
+        "type": "grant",
+        "derived": true,
+        "notes": "共享基金: NSF DMS-1206667; NSFC 11701315; NSFC 11831017; NSFC 12125101; NSFC 11890661"
+      },
+      {
+        "source": "li-changzheng",
+        "target": "song-jiayu",
+        "type": "grant",
+        "derived": true,
+        "notes": "共享基金: NSFC 12271529"
+      }
+    ],
+    "next_action": "Check full current primary texts and author order, preserve originals, distinguish work funding from individual grant ownership; do not automatically infer shared PI/recipient status."
+  },
+  "title": {
+    "doi": "10.4310/pamq.260122023941",
+    "crossref_fetch": "HTTP 200 from official API via system curl; web connector could not access it.",
+    "crossref_file": ".cache/msa/site-recovery/batch25-pamq-crossref.json",
+    "sha256": "5cfc3c921671b49f42b953a07c3dcbcaa01874dbcd57842e16717a453e18ebd0",
+    "crossref": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            23
+          ]
+        ],
+        "date-time": "2026-07-23T15:04:12Z",
+        "timestamp": 1784819052809,
+        "version": "3.55.0"
+      },
+      "reference-count": 0,
+      "publisher": "International Press of Boston",
+      "issue": "3",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "short-container-title": [],
+      "published-print": {
+        "date-parts": [
+          [
+            2026
+          ]
+        ]
+      },
+      "DOI": "10.4310/pamq.260122023941",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            2,
+            24
+          ]
+        ],
+        "date-time": "2026-02-24T16:27:11Z",
+        "timestamp": 1771950431000
+      },
+      "page": "789-802",
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Geometric quantization and quantum moment maps on coadjoint orbits and K&amp;auml;hler-Einstein manifolds"
+      ],
+      "prefix": "10.4310",
+      "volume": "22",
+      "author": [
+        {
+          "given": "Naichung Conan",
+          "family": "Leung",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "The Institute of Mathematical Sciences and Department of Mathematics, The Chinese University of Hong Kong, Shatin, Hong Kong"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Qin",
+          "family": "Li",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Institute for Quantum Science and Engineering, Southern University of Science and Technology, Shenzhen, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Ziming Nikolas",
+          "family": "Ma",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Mathematics, Southern University of Science and Technology, Shenzhen, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "2902",
+      "container-title": [
+        "Pure and Applied Mathematics Quarterly"
+      ],
+      "original-title": [],
+      "language": "en",
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            23
+          ]
+        ],
+        "date-time": "2026-07-23T14:32:13Z",
+        "timestamp": 1784817133000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://link.intlpress.com/JDetail/2014045430992703490"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2026
+          ]
+        ]
+      },
+      "references-count": 0,
+      "journal-issue": {
+        "issue": "3",
+        "published-print": {
+          "date-parts": [
+            [
+              2026
+            ]
+          ]
+        }
+      },
+      "URL": "https://doi.org/10.4310/pamq.260122023941",
+      "relation": {},
+      "ISSN": [
+        "1558-8599",
+        "1558-8602"
+      ],
+      "issn-type": [
+        {
+          "value": "1558-8599",
+          "type": "print"
+        },
+        {
+          "value": "1558-8602",
+          "type": "electronic"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2026
+          ]
+        ]
+      }
+    },
+    "arxiv_lead": "2010.14339",
+    "arxiv_url": "https://arxiv.org/abs/2010.14339",
+    "arxiv_authors": [
+      "Naichung Conan Leung",
+      "Qin Li",
+      "Ziming Nikolas Ma"
+    ],
+    "arxiv_title": "Geometric quantization and quantum moment maps on coadjoint orbits and Kähler-Einstein manifolds",
+    "boundary": "Leung has both a DOI row with literal double-escaped entity and an arXiv row; Li has only the arXiv row. Source matching/merge still needs completed publication review. Publisher URL returned inaccessible via web; do not claim its body was read."
+  }
+}

@@ -61,7 +61,13 @@
   },
   "remaining": "All other legacy paper claims retained as needs-review, not refuted; full-name leads are not identity or grammatical-subject verdicts.",
   "validation": {
-    "live": "pending",
+    "live": {
+      "status": "passed",
+      "report": "batch-twenty-four-live-verification.json",
+      "actions_run_id": 37736282862,
+      "commit": "1e14547aec933dd0e88b46a5bbeb8b0e1c71ee76",
+      "pages_checked": 7
+    },
     "default_is_read_only": true,
     "write_is_idempotent": true,
     "derived_hashes": {
@@ -92,5 +98,10 @@
     "rejected_paper_claims": 4,
     "pending_legacy_paper_claims": 368,
     "papers_with_full_name_leads": 128
-  }
+  },
+  "pipeline_limits": [
+    "Candidate extraction still does not recognize every spelling/accent; missing candidates are not proof of no acknowledgement.",
+    "Old external-name candidates are preserved verbatim in before_files; the regenerated queue prioritizes existing-registry and legacy-edge review leads.",
+    "Raw extraction may include comment environments or truncated sections; accepted reviews bind explicit quoted source passages, and all remaining leads stay pending."
+  ]
 }
