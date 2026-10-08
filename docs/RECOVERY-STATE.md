@@ -2,11 +2,11 @@
 
 [Codex] 2026-10-08。Goal **active**，原目标见 `RECOVERY-PLAN.md`。这不是已完成的全库事实认证。
 
-## 当前恢复入口（2026-10-08，第十七批本地验收后，待发布）
+## 当前恢复入口（2026-10-08，第十七批线上验收后）
 
 [Codex] Goal仍active。以下是当前摘要；后面的早期“待发布/尚未恢复”是历史记录，不代表现在。
 
-- 原网站已发布十六批修复。最近公开内容 commit `ffb17f3302986648e82b81a02fafc954fce99ae6`；Actions `37719321838` success，首页/问题目录/HMS详情/HMS概念/论文页/五位作者共10页HTTP核验；手机HMS→概念与郭帅新论文、桌面HMS详情已实际核查。后续报告提交带skip ci，公开资产仍以上述commit为准。
+- 原网站已发布十七批修复。最近公开内容 commit `bc99ce749e81b06db5ff3e0f004ec4c54295f98f`；Actions `37721369483` success，首页/论文页/十个人物共12页HTTP核验；胡建勋来源说明与郭帅论文区已作手机/桌面检查。后续报告提交带skip ci，公开资产仍以上述commit为准。
 - 当前96人物、58主概念与3别名入口（61份原始记录）、115机构、3开放问题；人物原始论文2212行，目录1812组（包括书籍/章节及译版，不等于独立研究论文总数）。287HTML/22722站内链接/688公式实例，未检出坏目标或KaTeX解析错误；data lint 0errors/74warnings；40项网站回归及CI全部检查通过。这不是全库事实或数学认证。
 - 新闻链与定时部署已恢复，72篇新闻在线；作者保留原始署名，不按姓氏猜身份。1237个完整arXiv当前元数据已取回，但并非全部归属已核实。
 - 累计11条确认错挂、6条待核实归属已移出，1录像转网上痕迹，另23条来源确认的重复已合并。原始记录及来源分别保存在审核池或具名审计报告；身份排除受防回填检查保护，合并的有效DOI不能加入拒绝池。刘思齐41条、Mazzocco46条、Dubrovin64条。部分履历/论文修正不代表整个人物已核。
@@ -19,12 +19,12 @@
 - 第十四批已上线：四个主条目按一手定义补公式条件、历史界限和来源；撤销Frobenius“1994首次引入”、一般导出范畴无条件Fukaya对偶及无条件Dubrovin–Zhang对应。三组显式别名统一内容/搜索/计数，旧61入口均保留；当前图61节点含3缺档，45前置/81后续/99相关=225条记录。见concept-definitions-and-alias-review.json、batch-fourteen-live-verification.json；三条人物贡献、学习关系与最早历史归属仍待核。
 - 第十五批已上线：新增问题目录/3详情并核对4概念；Gamma I原版反例与Gamma II分开，del Pezzo II已找到2606.07418四作者预印本，Virasoro补半单全亏格及2608.29870环境genus-one结果；经典Helix错号及专著年份也已修。HMS一般状态改为待核，已知具体定理及历史构造依赖明确列出，不能凭旧稿缺口推断今天没有证明。见conjectures-and-problem-pages-review.json与batch-fifteen-live-verification.json。
 - 第十六批已上线：HMS按2203.15482/2511.01656/2511.04498后续基础系列改为部分解决，保留具体定理条件及其他范畴比较问题；前一批待核结论已被本批来源跟进替代。两篇2026新作新增五条作者记录，郭帅2311.09804待核隔离，郭帅/张庆生的北大任职单位纠正。证据见hms-foundations-new-papers-review.json、batch-sixteen-live-verification.json。
-- 第十七批本地验收通过，待发布：七组预印本/期刊版关联覆盖十人，合并15条冗余原始记录，保留arXiv、DOI及期刊信息；胡建勋学历官方来源冲突显式标注，撤去美国博士猜测，师生关系仅凭合著推断的胡—何条目转待核。人物来源中的84条说明、78个日期已显示；93个有sources的人物静态页面均核对。证据见biography-bibliography-and-source-notes-review.json、batch-seventeen-export-audit.json。未核实整个人物档案。
-- 下一步优先 `next-biography-and-relationship-leads.json`：胡/何完整官方履历、其余师生关系的推测/重复、王/杨/梁的单位与学历；并持续覆盖其他内容类型。旧next-profile-and-bibliography-leads.json已追加本批处置，不能重复合并。
+- 第十七批已上线：七组预印本/期刊版关联覆盖十人，合并15条冗余原始记录，保留arXiv、DOI及期刊信息；胡建勋学历官方来源冲突显式标注，撤去美国博士猜测，师生关系仅凭合著推断的胡—何条目转待核。人物来源中的84条说明、78个日期已显示；93个有sources的人物静态页面均核对。证据见biography-bibliography-and-source-notes-review.json、batch-seventeen-export-audit.json、batch-seventeen-live-verification.json。未核实整个人物档案。
+- 下一步优先 `next-biography-and-relationship-leads.json`：胡/何完整官方履历、其余师生关系的推测/重复、王/杨/梁的单位与学历；advisor-relationship-pending-inventory.json已盘点65条关系中的2对重复、6条明确不确定记录，须区分年份未知与关系未证；并持续覆盖其他内容类型。旧next-profile-and-bibliography-leads.json已追加本批处置，不能重复合并。
 - 全内容待办仍包括：人物公开叙述/履历/师生关系，Hertling整书/章节计数，58主概念的定义、年代、关系及引用，115机构、会议/时间线/3开放问题一手来源，论文目录查找体验。必须继续覆盖这些类型，不能把论文元数据清理当全站完成。
 - content-inventory.json是第一批未核实基线，旧数量/全pending不覆盖后续分项证据。当前覆盖以具名审计的具体字段为准。
 - 不运行旧validate-publications.py --apply / detect-id-title-mismatch.py --write；OpenAlex v2仍有HTTP/缓存/评分风险，不能无人审查全库写入。
-- 继续只在本仓库；先查git状态，再沿此Goal推进。不要回academic-formula-workbench，不启动无关数学campaign。第十七批自己的预览服务PID27327仍运行，tab12用于本地验收；发布后核对身份再关闭，复原浏览器尺寸。
+- 继续只在本仓库；先查git状态，再沿此Goal推进。不要回academic-formula-workbench，不启动无关数学campaign。第十七批预览服务PID27327已核对身份并关闭，临时tab12已关闭，浏览器尺寸已复原；保留线上胡建勋来源说明页。
 
 ## 以下为分批历史与证据记录
 
@@ -299,3 +299,5 @@ Goal仍active，转向概念内容的一手来源核查而非继续把绘图通�
 
 
 [Codex] 2026-10-08 第十七批本地完成，待发布：七组书目版本合并、十个人物15条冗余记录、GLSM错误刊名撤下；胡建勋学历冲突与何伟强师生线索按证据边界呈现。所有人物来源说明可见，84条说明/78个日期均静态核对。40网站回归、8论文审核测试、lint/typecheck/build通过；287HTML/22722links/688formula实例无坏目标。手机来源区与桌面论文区已查看，12个本地页面HTTP核验通过。公开资产仍为第十六批，待Actions与线上核查后更新。
+
+[Codex] 2026-10-08 第十七批线上验收完成：commit `bc99ce749e81b06db5ff3e0f004ec4c54295f98f`，Actions `37721369483` success。12个线上页面核对通过，手机390×844/桌面1280×900来源与论文区无横向溢出，观察期error日志为空；截图source-notes-live.png。自己的PID27327和临时tab12已关闭，浏览器尺寸已复原。下一批沿next-biography-and-relationship-leads.json和advisor-relationship-pending-inventory.json核查关系/人物，并继续全内容覆盖，Goal仍active。

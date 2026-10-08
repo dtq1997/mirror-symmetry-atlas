@@ -3512,7 +3512,7 @@
       "warnings": 74
     },
     "export_audit": "batch-seventeen-export-audit.json",
-    "browser": "Mobile390×844 Hu sources: no horizontal overflow. Desktop1280×900 Guo publication list: merged versions, revised counts and scoped metadata visible; error logs empty. Public verification pending.",
+    "browser": "Local and public Hu sources / Guo publication sections checked on mobile390×844 and desktop1280×900. No horizontal overflow, observed error logs empty. Full twelve-page HTTP checks passed.",
     "all_person_source_rendering": {
       "profiles_with_sources": 93,
       "notes_rendered": 84,
@@ -3522,6 +3522,12 @@
       "empty_source_href_anchors": 0,
       "scope": "All current person root sources in static export; no synthetic person data or source truth verdict."
     },
-    "local_http_pages": 12
+    "local_http_pages": 12,
+    "deployment": {
+      "commit": "bc99ce749e81b06db5ff3e0f004ec4c54295f98f",
+      "run": 37721369483,
+      "conclusion": "success",
+      "live_report": "batch-seventeen-live-verification.json"
+    }
   }
 }

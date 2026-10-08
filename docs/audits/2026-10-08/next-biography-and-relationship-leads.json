@@ -21,7 +21,9 @@
     {
       "topic": "Advisor relationships inferred from coauthorship",
       "file": "data/connections/advisor-student.yaml",
-      "action": "Inventory uncertainty markers and duplicate source-target pairs; verify with thesis/CV. Keep unresolved relationships separate from confirmed graph. Do not infer mentorship or lack of mentorship from coauthorship."
+      "action": "Inventory uncertainty markers and duplicate source-target pairs; verify with thesis/CV. Keep unresolved relationships separate from confirmed graph. Do not infer mentorship or lack of mentorship from coauthorship.",
+      "inventory": "advisor-relationship-pending-inventory.json",
+      "inventory_summary": "65 rows, 2 duplicate source-target/type pairs, 6 explicitly uncertain records. Some uncertainty concerns only year; classify before withholding relationship."
     },
     {
       "topic": "Wang/Yang/Leung biography",

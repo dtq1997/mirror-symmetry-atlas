@@ -1,0 +1,165 @@
+{
+  "reviewer": "Codex",
+  "date": "2026-10-08",
+  "status": "Inventory of existing uncertainty and duplicates only; not validation or rejection of any relationship.",
+  "file": "data/connections/advisor-student.yaml",
+  "rows": 65,
+  "types": {
+    "advisor-student": 52,
+    "postdoc-mentor": 12,
+    "postdoc-group": 1
+  },
+  "duplicate_pairs": [
+    {
+      "key": [
+        "advisor-student",
+        "yau-shingtung",
+        "leung-naichung"
+      ],
+      "rows": [
+        {
+          "row": 31,
+          "record": {
+            "source": "yau-shingtung",
+            "target": "leung-naichung",
+            "type": "advisor-student",
+            "year": 1993,
+            "institution": "mit",
+            "notes": "MIT PhD"
+          }
+        },
+        {
+          "row": 46,
+          "record": {
+            "source": "yau-shingtung",
+            "target": "leung-naichung",
+            "type": "advisor-student",
+            "year": 1993,
+            "institution": "mit",
+            "notes": "联合指导, 主导师 Singer"
+          }
+        }
+      ]
+    },
+    {
+      "key": [
+        "advisor-student",
+        "leung-naichung",
+        "chan-kwokwai"
+      ],
+      "rows": [
+        {
+          "row": 32,
+          "record": {
+            "source": "leung-naichung",
+            "target": "chan-kwokwai",
+            "type": "advisor-student",
+            "year": 2008,
+            "institution": "cuhk",
+            "notes": "[待验证] CUHK PhD"
+          }
+        },
+        {
+          "row": 47,
+          "record": {
+            "source": "leung-naichung",
+            "target": "chan-kwokwai",
+            "type": "advisor-student",
+            "year": 2008,
+            "institution": "cuhk"
+          }
+        }
+      ]
+    }
+  ],
+  "explicit_uncertainty": [
+    {
+      "row": 16,
+      "record": {
+        "source": "zhou-jian",
+        "target": "zhang-qingsheng",
+        "type": "advisor-student",
+        "year": 2020,
+        "institution": "tsinghua",
+        "notes": "[待验证]"
+      },
+      "markers": [
+        "待验证"
+      ]
+    },
+    {
+      "row": 19,
+      "record": {
+        "source": "liu-melissa",
+        "target": "zong-zhengyu",
+        "type": "advisor-student",
+        "year": 2017,
+        "institution": "columbia",
+        "notes": "[待验证] PhD year approximate"
+      },
+      "markers": [
+        "待验证",
+        "approximate"
+      ]
+    },
+    {
+      "row": 22,
+      "record": {
+        "source": "zhang-youjin",
+        "target": "wu-chaozhong",
+        "type": "advisor-student",
+        "year": 2010,
+        "institution": "tsinghua",
+        "notes": "博士毕业年份 [待验证]，之后赴 SISSA 跟随 Dubrovin 做博后"
+      },
+      "markers": [
+        "待验证"
+      ]
+    },
+    {
+      "row": 32,
+      "record": {
+        "source": "leung-naichung",
+        "target": "chan-kwokwai",
+        "type": "advisor-student",
+        "year": 2008,
+        "institution": "cuhk",
+        "notes": "[待验证] CUHK PhD"
+      },
+      "markers": [
+        "待验证"
+      ]
+    },
+    {
+      "row": 39,
+      "record": {
+        "source": "chen-zhuo",
+        "target": "ni-dadi",
+        "type": "advisor-student",
+        "year": 2023,
+        "institution": "tsinghua",
+        "notes": "清华博士 2018-2023 [几乎确定]，所有早期论文与陈酌合著"
+      },
+      "markers": [
+        "几乎确定"
+      ]
+    },
+    {
+      "row": 42,
+      "record": {
+        "source": "chen-bohui",
+        "target": "du-chengyong",
+        "type": "advisor-student",
+        "year": null,
+        "institution": "sichuan-u",
+        "notes": "[待验证] 博导推测，依据 2014 至今 12+ 篇合作，几乎确定"
+      },
+      "markers": [
+        "待验证",
+        "几乎确定",
+        "推测"
+      ]
+    }
+  ],
+  "next_action": "Audit independent thesis/CV/official mentor sources. Separate uncertainty about year from uncertainty about relationship; do not hide a verified relationship merely because year remains unknown."
+}

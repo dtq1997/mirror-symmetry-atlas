@@ -1,0 +1,241 @@
+{
+  "reviewer": "Codex",
+  "checked_at": "2026-10-08T03:11:43.410471+00:00",
+  "commit": "bc99ce749e81b06db5ff3e0f004ec4c54295f98f",
+  "deployment_run": 37721369483,
+  "http_checks": [
+    {
+      "url": "https://dtq1997.github.io/mirror-symmetry-atlas/",
+      "status": 200,
+      "sha256": "9dc37efbac6ea0c58840c35d8558632356247d5e6741894f0418de7b05af52ef",
+      "checks": {
+        "no_katex_errors": true,
+        "catalog_updated": true
+      },
+      "passed": true
+    },
+    {
+      "url": "https://dtq1997.github.io/mirror-symmetry-atlas/papers",
+      "status": 200,
+      "sha256": "e69da533854ef994fe1b916214678e1f1c9b67aecae75a286d29381640cef4d7",
+      "checks": {
+        "no_katex_errors": true,
+        "catalog_updated": true,
+        "one_title_per_merged_work": true,
+        "unsupported_venue_absent": true
+      },
+      "passed": true
+    },
+    {
+      "url": "https://dtq1997.github.io/mirror-symmetry-atlas/people/hu-jianxun",
+      "status": 200,
+      "sha256": "128826cade20da0095ef09efbd28a0a4138251a06ba4d766f4357658dba3c81a",
+      "checks": {
+        "no_katex_errors": true,
+        "person_heading": true,
+        "recorded_count": true,
+        "source_notes_visible": true,
+        "dates_scoped": true,
+        "source_anchors_have_href": true,
+        "arxiv_1402.4221": true,
+        "doi_title_1402.4221": true,
+        "arxiv_1406.2472": true,
+        "doi_title_1406.2472": true,
+        "education_conflict_visible": true,
+        "doctoral_speculation_removed": true,
+        "student_not_asserted": true
+      },
+      "passed": true
+    },
+    {
+      "url": "https://dtq1997.github.io/mirror-symmetry-atlas/people/he-weiqiang",
+      "status": 200,
+      "sha256": "7c5530b6782da1e4cad319a30e26064d25f7fef56fb312bd145341c8afa8d48c",
+      "checks": {
+        "no_katex_errors": true,
+        "person_heading": true,
+        "recorded_count": true,
+        "source_notes_visible": true,
+        "dates_scoped": true,
+        "source_anchors_have_href": true,
+        "arxiv_1402.4221": true,
+        "doi_title_1402.4221": true,
+        "no_speculative_advisor": true
+      },
+      "passed": true
+    },
+    {
+      "url": "https://dtq1997.github.io/mirror-symmetry-atlas/people/ke-huazhong",
+      "status": 200,
+      "sha256": "d6767615d0546027540bc79089b9121e1bf8c188051d257bde63c0b0514e3c52",
+      "checks": {
+        "no_katex_errors": true,
+        "person_heading": true,
+        "recorded_count": true,
+        "source_notes_visible": true,
+        "dates_scoped": true,
+        "source_anchors_have_href": true,
+        "arxiv_1402.4221": true,
+        "doi_title_1402.4221": true
+      },
+      "passed": true
+    },
+    {
+      "url": "https://dtq1997.github.io/mirror-symmetry-atlas/people/li-changzheng",
+      "status": 200,
+      "sha256": "7e5c129c8f0051d6a9f7f0d8e8e2dc8fcde3cd8762bc638c1dfab49ce80fed49",
+      "checks": {
+        "no_katex_errors": true,
+        "person_heading": true,
+        "recorded_count": true,
+        "source_notes_visible": true,
+        "dates_scoped": true,
+        "source_anchors_have_href": true,
+        "arxiv_1311.1660": true,
+        "doi_title_1311.1660": true,
+        "arxiv_1007.1683": true,
+        "doi_title_1007.1683": true
+      },
+      "passed": true
+    },
+    {
+      "url": "https://dtq1997.github.io/mirror-symmetry-atlas/people/leung-naichung",
+      "status": 200,
+      "sha256": "2c4b3c985156f977bf3c5fc5de48cee31796a164f87ed3e1fb97852c971717d6",
+      "checks": {
+        "no_katex_errors": true,
+        "person_heading": true,
+        "recorded_count": true,
+        "source_notes_visible": true,
+        "dates_scoped": true,
+        "source_anchors_have_href": true,
+        "arxiv_1007.1683": true,
+        "doi_title_1007.1683": true
+      },
+      "passed": true
+    },
+    {
+      "url": "https://dtq1997.github.io/mirror-symmetry-atlas/people/zhang-qingsheng",
+      "status": 200,
+      "sha256": "f34638599fc0e17cf3ccf4b550966c6cacd653904825381d925ee8576a66314d",
+      "checks": {
+        "no_katex_errors": true,
+        "person_heading": true,
+        "recorded_count": true,
+        "source_notes_visible": true,
+        "dates_scoped": true,
+        "source_anchors_have_href": true,
+        "arxiv_2301.01131": true,
+        "doi_title_2301.01131": true
+      },
+      "passed": true
+    },
+    {
+      "url": "https://dtq1997.github.io/mirror-symmetry-atlas/people/wang-zhiyuan",
+      "status": 200,
+      "sha256": "7564fa23bb84c10a3f2d747c6c9dc39b5a7568361ec5e059b43eff91f8bc09cd",
+      "checks": {
+        "no_katex_errors": true,
+        "person_heading": true,
+        "recorded_count": true,
+        "source_notes_visible": true,
+        "dates_scoped": true,
+        "source_anchors_have_href": true,
+        "arxiv_2301.01131": true,
+        "doi_title_2301.01131": true
+      },
+      "passed": true
+    },
+    {
+      "url": "https://dtq1997.github.io/mirror-symmetry-atlas/people/yang-chenglang",
+      "status": 200,
+      "sha256": "ac73a9da15ed544bf357be2cf379e070e27e7e785e4121e1bd257cd4cf5ffc5e",
+      "checks": {
+        "no_katex_errors": true,
+        "person_heading": true,
+        "recorded_count": true,
+        "source_notes_visible": true,
+        "dates_scoped": true,
+        "source_anchors_have_href": true,
+        "arxiv_2301.01131": true,
+        "doi_title_2301.01131": true
+      },
+      "passed": true
+    },
+    {
+      "url": "https://dtq1997.github.io/mirror-symmetry-atlas/people/guo-shuai",
+      "status": 200,
+      "sha256": "c787825455f88e1dbf9a59247795507ec5076a0ed5247283cf2f49b835085c86",
+      "checks": {
+        "no_katex_errors": true,
+        "person_heading": true,
+        "recorded_count": true,
+        "source_notes_visible": true,
+        "dates_scoped": true,
+        "source_anchors_have_href": true,
+        "arxiv_1810.00394": true,
+        "doi_title_1810.00394": true,
+        "arxiv_1711.10118": true,
+        "doi_title_1711.10118": true,
+        "unsupported_venue_not_in_publications": true,
+        "publication_unresolved_note": true
+      },
+      "passed": true
+    },
+    {
+      "url": "https://dtq1997.github.io/mirror-symmetry-atlas/people/zhang-huailiang",
+      "status": 200,
+      "sha256": "d9baa22750c25b8ea35340f0e0f48f28c4020b123a3480c32c5de888e6e5369c",
+      "checks": {
+        "no_katex_errors": true,
+        "person_heading": true,
+        "recorded_count": true,
+        "source_notes_visible": true,
+        "dates_scoped": true,
+        "source_anchors_have_href": true,
+        "arxiv_1810.00394": true,
+        "doi_title_1810.00394": true,
+        "arxiv_1711.10118": true,
+        "doi_title_1711.10118": true,
+        "unsupported_venue_not_in_publications": true,
+        "publication_unresolved_note": true
+      },
+      "passed": true
+    }
+  ],
+  "scope": "Twelve pages: rendered source notes and dates, merged title counts, arXiv/DOI links, recorded counts and uncertainty labels. Not whole-site factual certification or independent theorem audit.",
+  "browser_checks": {
+    "desktop": {
+      "viewport": [
+        1280,
+        900
+      ],
+      "page": "people/hu-jianxun#sources",
+      "source_scope_and_dates_visible": true,
+      "horizontal_overflow": false,
+      "screenshot": "source-notes-live.png"
+    },
+    "mobile": {
+      "viewport": [
+        390,
+        844
+      ],
+      "pages": [
+        "people/hu-jianxun#sources",
+        "people/guo-shuai#publications"
+      ],
+      "horizontal_overflow": false,
+      "guo_recorded_count": 23,
+      "bcov_doi_title_count": 1,
+      "unsupported_venue_in_papers": false,
+      "error_logs": []
+    },
+    "cleanup": {
+      "own_preview_pid": 27327,
+      "stopped_after_identity_check": true,
+      "temporary_tab_12_closed": true,
+      "viewport_restored": true,
+      "retained_tab": "public Hu sources"
+    }
+  }
+}
