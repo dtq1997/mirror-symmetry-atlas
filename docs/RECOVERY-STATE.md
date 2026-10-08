@@ -326,3 +326,6 @@ Goal仍active，转向概念内容的一手来源核查而非继续把绘图通�
 - Goal仍active；全内容核实未完。下一批需继续胡创强现职/博士经历矛盾、杜承勇论文年份与缺编号、历史机构名称及现有107机构叙述；概念/时间线/会议/公开问题仍需扩大逐项覆盖。
 
 [Codex] 2026-10-08 第十九批已上线：commit `0a3105608073484404a67695f482fd54662ca474`，Actions `37725274272` success。21页HTTP内容/成员集合核对通过，线上608px伯克利旧入口及5人筛选均确认，无横向溢出与console error。截图institution-alias-live.png。44回归检查与CI所有必需检查通过；这不认证全站内容。预览PID57455已核对并关闭，临时tab14关闭、viewport清除，保留tab1线上结果。Goal仍active；接续按顶部当前入口和next-content-and-biography-leads.json。
+
+
+[Codex] 2026-10-08 第二十批准备发布：13条时间线全部补入一手来源、日期依据和核对范围，区分Witten讲座与出版、WDVV文献时段、1991 tt*与1993分类、1994讲义与1992定义、2017徐晓濛v1与后续版本、2019 CDG条件、2020奖章双得主与2021仪式。胡创强现职矛盾和无据师承猜测撤去；2604.04124的Yixuan Ou-Yang错绑徐旭已纠正。博士/BIMSA任职边界未知，15篇仅全查作者名单而非全身份认证。48回归、lint/typecheck/build通过，lint 0errors/73warnings；287HTML/22806links/691公式实例/0问题。手机390与桌面1280已实测。待本批CI及线上验收，Goal active。报告见 timeline-primary-source-review.json、hu-chuangqiang-biography-and-coauthor-review.json 及 batch-twenty-*。

@@ -1,0 +1,254 @@
+{
+  "reviewer": "Codex",
+  "checked_at": "2026-10-08T04:23:32.459187+00:00",
+  "commit": "working-tree",
+  "deployment_run": 0,
+  "scope": "Ten pages; all 13 timeline cards, source/date/scope text, current Hu fields and tt-star correction. Browser actions recorded separately; not an all-content certification.",
+  "http_checks": [
+    {
+      "url": "http://127.0.0.1:3847/mirror-symmetry-atlas/",
+      "status": 200,
+      "sha256": "192f41cd7dab601a398e1706c6aad6f07d4b5cedaca5e9e3d16682779336d48d",
+      "checks": {
+        "no_katex_errors": true,
+        "catalog_count": true
+      },
+      "passed": true
+    },
+    {
+      "url": "http://127.0.0.1:3847/mirror-symmetry-atlas/timeline",
+      "status": 200,
+      "sha256": "db46f1cc9dbb1fd9a0e05e0dc1aaae690f4243bd901ec0fa080d5e5bbd32e01c",
+      "checks": {
+        "no_katex_errors": true,
+        "all_13_events_in_date_order": true,
+        "all_date_bases_and_sources": true,
+        "borot_and_buryak": true,
+        "fuchs_condition_in_cdg": true,
+        "math_rendered": true,
+        "removed_claims_absent": true
+      },
+      "passed": true,
+      "events": [
+        {
+          "slug": "witten-2dtft-1990",
+          "title": true,
+          "literal_date": true,
+          "date_basis": true,
+          "review_scope": true,
+          "all_sources": true
+        },
+        {
+          "slug": "wdvv-equations-1990",
+          "title": true,
+          "literal_date": true,
+          "date_basis": true,
+          "review_scope": true,
+          "all_sources": true
+        },
+        {
+          "slug": "kontsevich-witten-1992",
+          "title": true,
+          "literal_date": true,
+          "date_basis": true,
+          "review_scope": true,
+          "all_sources": true
+        },
+        {
+          "slug": "cecotti-vafa-tt-star-1993",
+          "title": true,
+          "literal_date": true,
+          "date_basis": true,
+          "review_scope": true,
+          "all_sources": true
+        },
+        {
+          "slug": "dubrovin-frobenius-1994",
+          "title": true,
+          "literal_date": true,
+          "date_basis": true,
+          "review_scope": true,
+          "all_sources": true
+        },
+        {
+          "slug": "kontsevich-hms-1994",
+          "title": true,
+          "literal_date": true,
+          "date_basis": true,
+          "review_scope": true,
+          "all_sources": true
+        },
+        {
+          "slug": "dubrovin-icm-1998",
+          "title": true,
+          "literal_date": true,
+          "date_basis": true,
+          "review_scope": true,
+          "all_sources": true
+        },
+        {
+          "slug": "kontsevich-fields-1998",
+          "title": true,
+          "literal_date": true,
+          "date_basis": true,
+          "review_scope": true,
+          "all_sources": true
+        },
+        {
+          "slug": "xu-quantum-groups-2017",
+          "title": true,
+          "literal_date": true,
+          "date_basis": true,
+          "review_scope": true,
+          "all_sources": true
+        },
+        {
+          "slug": "cotti-coalescence-2019",
+          "title": true,
+          "literal_date": true,
+          "date_basis": true,
+          "review_scope": true,
+          "all_sources": true
+        },
+        {
+          "slug": "dubrovin-death-2019",
+          "title": true,
+          "literal_date": true,
+          "date_basis": true,
+          "review_scope": true,
+          "all_sources": true
+        },
+        {
+          "slug": "dubrovin-medal-2020",
+          "title": true,
+          "literal_date": true,
+          "date_basis": true,
+          "review_scope": true,
+          "all_sources": true
+        },
+        {
+          "slug": "novikov-death-2024",
+          "title": true,
+          "literal_date": true,
+          "date_basis": true,
+          "review_scope": true,
+          "all_sources": true
+        }
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:3847/mirror-symmetry-atlas/people/hu-chuangqiang",
+      "status": 200,
+      "sha256": "4475eceb48ce56d984dc5dfa0ed45a7bde525816890c9e8c7dfacacd323c26f4",
+      "checks": {
+        "no_katex_errors": true,
+        "dated_career": true,
+        "no_false_xu_link": true,
+        "source_backed_email": true,
+        "old_speculation_absent": true,
+        "seven_primary_sources": true
+      },
+      "passed": true
+    },
+    {
+      "url": "http://127.0.0.1:3847/mirror-symmetry-atlas/concepts/tt-star-geometry",
+      "status": 200,
+      "sha256": "125e726ca98fb3f89837b90dabbbec70918b2154ecfdeff14e8fd4ac1419d4a6",
+      "checks": {
+        "no_katex_errors": true,
+        "1991_origin": true,
+        "explicit_review_scope": true,
+        "unsupported_identification_absent": true
+      },
+      "passed": true
+    },
+    {
+      "url": "http://127.0.0.1:3847/mirror-symmetry-atlas/concepts/frobenius-manifold",
+      "status": 200,
+      "sha256": "942b09eff01c1a083c6b9fb2636b4b2ae962af995bb5a72b2248233b24f05250",
+      "checks": {
+        "no_katex_errors": true
+      },
+      "passed": true
+    },
+    {
+      "url": "http://127.0.0.1:3847/mirror-symmetry-atlas/people/dubrovin",
+      "status": 200,
+      "sha256": "af235aadad54f4e1e7d9d2dfa4987aa4ab4ffbc3abc1a61edb8cdfde5061a787",
+      "checks": {
+        "no_katex_errors": true
+      },
+      "passed": true
+    },
+    {
+      "url": "http://127.0.0.1:3847/mirror-symmetry-atlas/people/xu-xiaomeng",
+      "status": 200,
+      "sha256": "b107ce024450cf50bf4dffd18e25a8f2036c12de91039ccfc0a2d5896c5cb3dd",
+      "checks": {
+        "no_katex_errors": true
+      },
+      "passed": true
+    },
+    {
+      "url": "http://127.0.0.1:3847/mirror-symmetry-atlas/institutions/bimsa",
+      "status": 200,
+      "sha256": "351b49b0cd82e73a7721614281c21fbc25e8d6d57bc4c455e6f72fbadc68a0b2",
+      "checks": {
+        "no_katex_errors": true
+      },
+      "passed": true
+    },
+    {
+      "url": "http://127.0.0.1:3847/mirror-symmetry-atlas/institutions/sun-yat-sen",
+      "status": 200,
+      "sha256": "238c23bc8ed2608ae23486776aeae7afdb338b7fbd41d60e0f27080eae970fc5",
+      "checks": {
+        "no_katex_errors": true
+      },
+      "passed": true
+    },
+    {
+      "url": "http://127.0.0.1:3847/mirror-symmetry-atlas/papers",
+      "status": 200,
+      "sha256": "96d403c2be6e84b7747f0eb1a805a6842669f7e347990fdeebc811f5f3a9f2d3",
+      "checks": {
+        "no_katex_errors": true,
+        "catalog_count": true
+      },
+      "passed": true
+    }
+  ],
+  "browser_checks": {
+    "timeline_mobile": {
+      "viewport": [
+        390,
+        844
+      ],
+      "document_width": 384,
+      "events": 13,
+      "source_disclosure_opens": true,
+      "screenshot": ".cache/msa/site-recovery/twenty-timeline-mobile.png"
+    },
+    "timeline_desktop": {
+      "viewport": [
+        1280,
+        900
+      ],
+      "document_width": 1274,
+      "date_labels_do_not_overlap_cards": true
+    },
+    "timeline_to_tt_star_navigation": true,
+    "final_build_reloaded_and_fuchs_condition_visible": true,
+    "hu_mobile": {
+      "viewport": [
+        390,
+        844
+      ],
+      "document_width": 384,
+      "false_xu_xu_links": 0,
+      "source_backed_mailto": true
+    },
+    "console_errors": [],
+    "viewport_override_reset": true
+  }
+}

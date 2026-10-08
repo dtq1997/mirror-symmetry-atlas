@@ -14,6 +14,59 @@ import { canonicalConcepts, conceptLookup } from '../.cache/msa/site-tests/conce
 import { problemStatus } from '../.cache/msa/site-tests/problems.js';
 import { canonicalInstitutions, institutionLookup } from '../.cache/msa/site-tests/institutions.js';
 import { institutionSlug, institutionName } from '../.cache/msa/site-tests/inst.js';
+import { sortTimelineEvents } from '../.cache/msa/site-tests/timeline.js';
+import { readFileSync } from 'node:fs';
+import yaml from 'js-yaml';
+
+test('timeline sorts month/day within a year while preserving precision, ties and original input', () => {
+  const rows = [
+    { slug: 'late', date: '1994-11-30' }, { slug: 'year', date: '1994' },
+    { slug: 'early', date: '1994-07-04' }, { slug: 'month', date: '1994-07' },
+    { slug: 'same-day', date: '1994-07-04' }, { slug: 'prior', date: '1993-12-31' },
+  ];
+  const before = structuredClone(rows);
+  assert.deepEqual(sortTimelineEvents(rows).map((x) => x.slug), ['prior','year','month','early','same-day','late']);
+  assert.deepEqual(rows, before);
+});
+
+test('timeline gate catches impossible dates, lost events, invalid references and unsupported source claims', () => {
+  const code = `import sys,copy,yaml
+sys.path.insert(0,'scripts')
+from timeline_content import timeline_errors
+e={'slug':'sample','date':'2024-02-29','precision':'day','title':{'en':'Event'},'era':'modern','importance':'major','people':['p'],'concepts':['c'],'papers':['hep-th/9407018','doi:10.1007/BF02099526'],'review_note':'scope','date_note':'publication','reviewed_on':'2026-10-08','sources':[{'label':'Primary','url':'https://example.org'}]}
+def check(rows):return timeline_errors(rows,{'p':{}},{'c':{}})
+assert not check([e])
+for key,value in [('date','2025-02-29'),('date','2024-13-01'),('date','2024-04-31'),('date','0000'),('precision','month'),('precision',[]),('era','unknown'),('importance','unrecognized'),('people',['missing']),('concepts',['p']),('papers',['9407018']),('papers',['invented:paper']),('sources',[{'label':'Bad','url':'javascript:alert(1)'}]),('sources',[]),('sources',None),('reviewed_on','2026-02-30'),('date_note','')]:
+ assert check([{**e,key:value}]),(key,value)
+assert check([e,e])
+assert check([None])
+assert check({})
+for value,precision in [('1990','year'),('1990-04','month'),('2000-02-29','day')]:
+ assert not check([{**e,'date':value,'precision':precision}])
+print('schema and calendar checks only; not historical proof')`;
+  const result = spawnSync('python3', ['-c', code], { encoding: 'utf8' });
+  assert.equal(result.status, 0, result.stderr);
+});
+
+test('audited timeline retains explicit scope and renders its mathematical notation', () => {
+  const events = yaml.load(readFileSync('data/timeline/events.yaml', 'utf8')).events;
+  assert.equal(new Set(events.map((e) => e.slug)).size, events.length);
+  for (const event of events) {
+    assert.ok(event.sources?.length && event.date_note && event.review_note);
+    assert.doesNotMatch(renderMathText(event.description), /katex-error/);
+    for (const paper of event.papers) assert.ok(identity.publicationUrl({ id: paper }));
+  }
+  assert.match(events.find((e) => e.slug === 'dubrovin-medal-2020').description, /Borot.*Buryak/);
+  assert.match(renderMathText(events.find((e) => e.slug === 'kontsevich-hms-1994').description), /class="katex"/);
+});
+
+test('Hu’s Anderson generating-functions paper does not restore the unrelated Xu Xu identity', () => {
+  const hu = yaml.load(readFileSync('data/people/hu-chuangqiang.yaml', 'utf8'));
+  const paper = hu.publications.find((p) => p.id === '2604.04124');
+  // Primary author list: arXiv:2604.04124v2, read 2026-10-08.
+  assert.deepEqual(paper.coauthors, ['Yixuan Ou-Yang']);
+  assert.equal(hu.identity_profile.coauthor_circle_extended_slugs.includes('xu-xu'), false);
+});
 
 test('explicit institution aliases share one profile but preserve legacy routes and source input', () => {
   const primary = { slug: 'university', name: { en: 'University' }, research_groups: [{ name: 'Math' }], sources: [{ url: 'https://example.org' }] };

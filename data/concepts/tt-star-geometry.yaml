@@ -8,11 +8,13 @@ aliases:
 category: geometric-structure
 difficulty: research-frontier
 discipline: both
-year_introduced: 1993
+year_introduced: 1991
 introduced_by: []
-definition: |
-  N=2 超对称理论基态空间上的实结构，结合拓扑与反拓扑数据。数学上是 Frobenius
-  流形模空间上的 twistor 结构变分 / 调和丛。
+definition: Cecotti–Vafa 的 1991 年论文研究二维 $N=2$ 超对称场论的基态度量，将其理解为拓扑理论与其共轭理论的融合。论文在一些特定形变中把基态度量随参数的变化联系到 Toda 或仿射
+  Toda 方程。
+history_note: 奠基论文 Topological—anti-topological fusion 刊于 Nuclear Physics B 367（1991），359–461。1993 年的 On Classification
+  of N=2 Supersymmetric Theories 是后续分类论文，不能据其年份把起点定为 1993。
+review_note: 2026-10-08：按 1991 年原刊摘要修正简介与年代；未在此认证各种数学化定义、与 Frobenius 流形或调和丛的精确对应、图中学习关系。原条目无条件的等同表述已撤去。
 dual_to: null
 prerequisites:
   - frobenius-manifold
@@ -22,6 +24,13 @@ related:
   - isomonodromy
   - twistor-structures
 key_people: [dubrovin, hertling, sabbah]
-key_papers: []
+key_papers: ['hep-th/9211097']
+sources:
+- label: Cecotti–Vafa（1991）：作者机构库原刊记录与摘要
+  url: https://dash.harvard.edu/entities/publication/15e6ad16-7a9f-41cf-9b2f-3015c80c1ff4
+  last_verified: '2026-10-08'
+- label: Cecotti–Vafa（1993）：分类论文及期刊信息
+  url: https://arxiv.org/abs/hep-th/9211097v2
+  last_verified: '2026-10-08'
 tags:
   - layer-3

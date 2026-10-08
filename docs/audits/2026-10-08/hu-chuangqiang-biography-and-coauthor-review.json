@@ -1,0 +1,1372 @@
+{
+  "reviewer": "Codex",
+  "reviewed_on": "2026-10-08",
+  "base_commit": "78ee31119aec4d5b9151c54cb23bc5a11be02e52",
+  "scope": "Hu Chuangqiang’s dated institutional evidence, removal of unsupported education/attendance speculation, and source author lists for 15 existing publications. Names in metadata alone do not establish homonym identity or bibliography completeness.",
+  "changes": {
+    "path": "data/people/hu-chuangqiang.yaml",
+    "original_raw_sha256": "2c43f7ab48c202d201cbecc000e3f336486754e239fb4ef5807697171f9e18b3",
+    "original_raw": "slug: hu-chuangqiang\nname:\n  en: Chuangqiang Hu\n  zh: 胡创强\nborn: null\ndied: null\nnationality: Chinese\ngender: male\nphoto_url: null\ncareer_timeline:\n  - period: \"[待验证]\"\n    type: education\n    institution: null\n    role: \"博士\"\n    notes: \"博士学位具体学校和导师 [待验证]。早期与曲阜师范大学、清华大学丘成桐中心 (与 Stephen S.-T. Yau, 左怀青合作) 关系密切\"\n  - period: \"[待验证]-2025\"\n    type: position\n    institution: bimsa\n    role: \"研究员\"\n    notes: \"燕园北京数学科学与应用研究院 (BIMSA) — [待验证] 具体起止年份\"\n  - period: \"2025-present\"\n    type: position\n    institution: sun-yat-sen\n    role: \"博士生导师\"\n    notes: \"中山大学数学学院；2025 年 4 月加入\"\nresearch_areas:\n  - function-fields\n  - drinfeld-modules\n  - algebraic-geometry-codes\n  - coding-theory\n  - singularity-theory\n  - yau-algebra\n  - number-theory\nidentity_profile:\n  openalex_id: 'A5109468244'\n  affiliations:\n    - institution: 'bimsa'\n      period: '[待验证]-2025'\n      role: '研究员'\n    - institution: 'sun-yat-sen'\n      period: '2025-present'\n      role: '博士生导师'\n  email_domains: [bimsa.cn, mail.sysu.edu.cn]\n  coauthor_circle_core_slugs: [chen-zhuo]\n  coauthor_circle_core_names: ['Zhuo Chen']\n  coauthor_circle_extended_slugs: [ni-dadi, xiang-maosong, xu-xu, yang-di]\n  coauthor_circle_extended_names: ['Dadi Ni', 'Di Yang', 'Maosong Xiang', 'Xu Xu']\n  research_keywords: [algebraic, coding, drinfeld, fields, geometry, modules, number, singularity]\n  known_arxiv_ids:\n    - '2604.04124'\n    - '2603.23930'\n    - '2512.03860'\n    - '2510.27159'\n    - '2410.10124'\n    - '2409.09384'\n    - '2312.16919'\n    - '2309.00432'\n    - '1912.02668'\n    - '1911.04269'\n    - '1810.11969'\n    - '1706.00313'\n    - '1705.05213'\n    - '1607.05887'\n    - '1607.05462'\nadvisor: null\nstudents: []\nkey_collaborators:\n  - person: \"Stephen S.-T. Yau\"\n    since: 2018\n    topic: \"Quantum codes, weighted homogeneous singularities, k-th Tjurina algebra, simple elliptic singularities\"\n    papers_count: 3\n  - person: \"Huaiqing Zuo\"\n    since: 2024\n    topic: \"Simple elliptic singularities, k-th Tjurina numbers, Yau algebra\"\n    papers_count: 2\n  - person: \"Shudi Yang\"\n    since: 2016\n    topic: \"Weierstrass semigroups, Kummer extensions, multi-point AG codes\"\n    papers_count: 5\n  - person: chen-zhuo\n    since: 2019\n    topic: \"Drinfeld modular curves, BBGS towers, Lie algebroid pairs\"\n    papers_count: 3\n  - person: \"Xiao-Min Huang\"\n    since: 2023\n    topic: \"Drinfeld modules over Dedekind domain of class number two, Weil pairing\"\n    papers_count: 1\n  - person: \"Yixuan Ou-Yang\"\n    since: 2026\n    topic: \"Anderson generating functions, Weil pairing\"\n    papers_count: 1\n  - person: \"Haojie Chen\"\n    since: 2026\n    topic: \"Cyclotomic function fields with quadratic modulus\"\n    papers_count: 1\n  - person: \"Xiuwu Zhu\"\n    since: 2025\n    topic: \"Optimal function field towers, Drinfeld modular curves\"\n    papers_count: 1\npublications:\n  - id: '2604.04124'\n    title: 'Relation between Anderson Generating Functions and Weil Pairing'\n    year: 2026\n    coauthors: [xu-xu]\n    primary_category: math.NT\n    sources: [arxiv]\n  - id: '2603.23930'\n    title: 'A Note on Cyclotomic Function Fields with Quadratic Modulus'\n    year: 2026\n    coauthors: ['Haojie Chen']\n    primary_category: math.NT\n    sources: [arxiv]\n  - id: '2512.03860'\n    title: 'Infinitesimal deformations of Lie algebroid pairs'\n    year: 2025\n    coauthors: [ni-dadi, xiang-maosong, chen-zhuo]\n    primary_category: math.DG\n    openalex_id: W4417032814\n    sources: [arxiv, openalex]\n  - id: '2510.27159'\n    title: 'New optimal function field towers over finite fields of quartic power'\n    year: 2025\n    coauthors: ['Xiuwu Zhu']\n    primary_category: math.NT\n    sources: [arxiv]\n  - id: '2410.10124'\n    title: 'Groupoids derived from the simple elliptic singularities'\n    year: 2024\n    coauthors: ['Stephen S. -T. Yau', 'Huaiqing Zuo']\n    primary_category: math.AG\n    sources: [arxiv]\n  - id: '2409.09384'\n    title: 'On the k-th Tjurina number of weighted homogeneous singularities'\n    year: 2024\n    coauthors: ['Stephen S. -T. Yau', 'Huaiqing Zuo']\n    primary_category: math.AG\n    sources: [arxiv]\n  - id: '2309.00432'\n    title: 'Drinfeld Modular Curves Subordinate to Conjugacy Classes of Nilpotent Upper-Triangular Matrices'\n    year: 2023\n    coauthors: [chen-zhuo, 'Tao Zhang', 'Xiaopeng Zheng']\n    primary_category: math.NT\n    openalex_id: W4386436307\n    sources: [arxiv, openalex]\n  - id: '2312.16919'\n    title: 'Drinfeld Module and Weil pairing over Dedekind domain of class number two'\n    year: 2023\n    coauthors: ['Xiao-Min Huang']\n    doi: '10.1016/j.ffa.2024.102516'\n    journal: 'Finite Fields and Their Applications'\n    primary_category: math.NT\n    sources: [arxiv]\n  - id: '1912.02668'\n    title: 'A Modular Interpretation of BBGS Towers'\n    year: 2019\n    coauthors: [chen-zhuo, 'Rui Chen']\n    doi: '10.1016/j.jnt.2020.06.006'\n    journal: 'Journal of Number Theory'\n    primary_category: math.NT\n    sources: [arxiv]\n  - id: '1911.04269'\n    title: 'Weierstrass Semigroups From a Tower of Function Fields Attaining the Drinfeld-Vladut Bound'\n    year: 2019\n    coauthors: ['Shudi Yang']\n    primary_category: math.NT\n    sources: [arxiv]\n  - id: '1810.11969'\n    title: 'Complete Weight Distribution and MacWilliams Identities for Asymmetric Quantum Codes'\n    year: 2018\n    coauthors: ['Shudi Yang', 'Stephen S. -T. Yau']\n    sources: [arxiv]\n  - id: '1706.00313'\n    title: 'Multi-point Codes from the GGS Curves'\n    year: 2017\n    coauthors: ['Shudi Yang']\n    sources: [arxiv]\n  - id: '1705.05213'\n    title: 'Weierstrass Pure Gaps From a Quotient of the Hermitian Curve'\n    year: 2017\n    coauthors: ['Shudi Yang']\n    doi: '10.1016/j.ffa.2017.12.002'\n    journal: 'Finite Fields and Their Applications'\n    sources: [arxiv]\n  - id: '1607.05887'\n    title: 'Weierstrass Semigroups from Kummer Extensions'\n    year: 2016\n    coauthors: ['Shudi Yang']\n    doi: '10.1016/j.ffa.2016.12.005'\n    journal: 'Finite Fields and Their Applications'\n    sources: [arxiv]\n  - id: '1607.05462'\n    title: 'Multi-point Codes over Kummer Extensions'\n    year: 2016\n    coauthors: ['Shudi Yang']\n    doi: '10.1007/s10623-017-0335-7'\n    journal: 'Designs, Codes and Cryptography'\n    sources: [arxiv]\nactivity:\n  total_papers: 15\n  published_count: 5\n  preprint_only_count: 10\n  active_period: '2016-present'\n  confidence: 'has-2-review-pending'\nexternal_ids:\n  openalex: A5109468244\nlinks:\n  sysu_announcement: 'https://math.sysu.edu.cn/'\n  homepage: 'https://www.bimsa.cn/research/course/2024sp/page_6.html'\npersonal_notes: |\n  中山大学数学学院博士生导师（2025 年 4 月加入）。此前在燕园北京数学科学与应用研究院 (BIMSA) 任研究员。\n  研究领域横跨多个方向：\n  (1) 编码理论（量子码、代数几何码、多点码）；\n  (2) 函数域和 Drinfeld 模理论（Drinfeld modular curves, BBGS towers, Weil pairing）；\n  (3) 奇点理论（K. Saito j-functions, Tjurina algebra, 与 Stephen S.-T. Yau 合作）；\n  (4) Lie 代数胚对的变形 (2025)。\n  与 Stephen S.-T. Yau (清华丘成桐中心) 长期合作，方向包括量子码 (2018) 和简单椭圆奇点分类 (2024)。\n  2025 年与 Xiuwu Zhu 在 Drinfeld 模曲线塔方向获得 Ihara quantity 的新最优结果。\n  研究成果在 IEEE IT, Finite Fields, DCC 等期刊发表。\n  博士学位及师承信息 [待验证]。\n  2026 年 4 月 HUST \"数学物理与几何研讨会\"参会人员之一。\n  此次会议方向与其主研究（函数域/编码理论）跨度较大，可能是代表中山大学参会或对会议主题（数学物理）有兴趣。\n  \n  现职：北京雁栖湖应用数学研究院 (BIMSA) 助理研究员（[待验证职级]）\n  学历：博士（[待验证]，研究方向偏代数几何编码与函数域，类型典型为中科大/南开/清华谱系）\n  趣闻：在 BIMSA 开\"Simplicial homotopy theory and model category\"（2024 春）和\"Introduction to Drinfeld Module\"（2024 秋）两门相对纯抽象的课程，研究兴趣明显从应用编码转向更基础的代数几何/同伦论\nsources:\n  - label: 'SYSU 数学学院博导名单'\n    url: 'https://math.sysu.edu.cn/article/2971'\n  - label: '武汉大学数学院介绍 (SYSU 简介)'\n    url: 'https://maths.whu.edu.cn/info/1558/16830.htm'\n  - label: 'AIMS Weierstrass semigroups paper (BIMSA affiliation)'\n    url: 'https://www.aimsciences.org/article/doi/10.3934/amc.2022066'\n  - label: '信息源'\n    url: 'https://www.bimsa.cn/research/course/2024sp/page_6.html'\n  - label: '信息源'\n    url: 'https://www.researchgate.net/publication/328598510'\ntags:\n  - sun-yat-sen\n  - number-theory\n  - coding-theory\n  - drinfeld-modules\n  - singularity-theory\n",
+    "field_changes": {
+      "career_timeline": {
+        "before": [
+          {
+            "period": "[待验证]",
+            "type": "education",
+            "institution": null,
+            "role": "博士",
+            "notes": "博士学位具体学校和导师 [待验证]。早期与曲阜师范大学、清华大学丘成桐中心 (与 Stephen S.-T. Yau, 左怀青合作) 关系密切"
+          },
+          {
+            "period": "[待验证]-2025",
+            "type": "position",
+            "institution": "bimsa",
+            "role": "研究员",
+            "notes": "燕园北京数学科学与应用研究院 (BIMSA) — [待验证] 具体起止年份"
+          },
+          {
+            "period": "2025-present",
+            "type": "position",
+            "institution": "sun-yat-sen",
+            "role": "博士生导师",
+            "notes": "中山大学数学学院；2025 年 4 月加入"
+          }
+        ],
+        "after": [
+          {
+            "period": "[待验证]",
+            "type": "education",
+            "institution": null,
+            "role": "博士（学位与师承待核实）",
+            "notes": "本轮未找到可核实博士院校、年份与导师的本人履历；不根据合著或研究方向推断。"
+          },
+          {
+            "period": "2020-11-02",
+            "type": "event",
+            "institution": "sun-yat-sen",
+            "role": "专职科研人员拟聘公示",
+            "notes": "学院公示列为赵昌安团队拟聘人选；拟聘公示不能证明当时实际到岗，也不证明此后连续任职。"
+          },
+          {
+            "period": "2022–2024（有记录年份）",
+            "type": "event",
+            "institution": "bimsa",
+            "role": "论文署名与会议组织记录",
+            "notes": "2022 年 AIMS 论文记录和 2024 年清华会议通知分别列 BIMSA 单位；实际任职起止与职级仍待核实。"
+          },
+          {
+            "period": "2025.04-present",
+            "type": "position",
+            "institution": "sun-yat-sen",
+            "role": "副教授、博士生导师",
+            "notes": "河北师大 2025-12-25 讲座介绍记载 2025 年 4 月加入，并标副教授；中山数学学院 2026-09-11 博导名单列其姓名。上述记录不意味着此前从未在中山工作。"
+          }
+        ]
+      },
+      "links": {
+        "before": {
+          "sysu_announcement": "https://math.sysu.edu.cn/",
+          "homepage": "https://www.bimsa.cn/research/course/2024sp/page_6.html"
+        },
+        "after": {
+          "email": "huchq@mail2.sysu.edu.cn"
+        }
+      },
+      "personal_notes": {
+        "before": "中山大学数学学院博士生导师（2025 年 4 月加入）。此前在燕园北京数学科学与应用研究院 (BIMSA) 任研究员。\n研究领域横跨多个方向：\n(1) 编码理论（量子码、代数几何码、多点码）；\n(2) 函数域和 Drinfeld 模理论（Drinfeld modular curves, BBGS towers, Weil pairing）；\n(3) 奇点理论（K. Saito j-functions, Tjurina algebra, 与 Stephen S.-T. Yau 合作）；\n(4) Lie 代数胚对的变形 (2025)。\n与 Stephen S.-T. Yau (清华丘成桐中心) 长期合作，方向包括量子码 (2018) 和简单椭圆奇点分类 (2024)。\n2025 年与 Xiuwu Zhu 在 Drinfeld 模曲线塔方向获得 Ihara quantity 的新最优结果。\n研究成果在 IEEE IT, Finite Fields, DCC 等期刊发表。\n博士学位及师承信息 [待验证]。\n2026 年 4 月 HUST \"数学物理与几何研讨会\"参会人员之一。\n此次会议方向与其主研究（函数域/编码理论）跨度较大，可能是代表中山大学参会或对会议主题（数学物理）有兴趣。\n\n现职：北京雁栖湖应用数学研究院 (BIMSA) 助理研究员（[待验证职级]）\n学历：博士（[待验证]，研究方向偏代数几何编码与函数域，类型典型为中科大/南开/清华谱系）\n趣闻：在 BIMSA 开\"Simplicial homotopy theory and model category\"（2024 春）和\"Introduction to Drinfeld Module\"（2024 秋）两门相对纯抽象的课程，研究兴趣明显从应用编码转向更基础的代数几何/同伦论\n",
+        "after": "中山大学数学学院副教授、博士生导师。河北师大 2025 年 12 月讲座介绍记载其于 2025 年 4 月加入；中山数学学院 2026 年 9 月博导名单列其姓名。\n2020 年学院已有专职科研人员拟聘公示；这一历史记录不能据以确定实际到岗或连续任职。2022 年论文与 2024 年会议记录列 BIMSA 单位，具体任职起止及职级待核实。\n研究涉及函数域、Drinfeld 模、编码理论和奇点理论。博士院校、年份和导师尚未核实；不由论文合作者反推师承。\n2026-10-08 核对本站 15 条论文的 arXiv 原始作者名单；2604.04124 的合作者为 Yixuan Ou-Yang，原先链接到徐旭是错误的。该论文 v2 给出双方中山大学数学学院单位及作者邮箱。\n这次核对覆盖署名和上述履历事实；不保证论文清单完整，也不代表全部出版信息、研究结果或他人身份已核实。\n"
+      },
+      "identity_profile": {
+        "before": {
+          "openalex_id": "A5109468244",
+          "affiliations": [
+            {
+              "institution": "bimsa",
+              "period": "[待验证]-2025",
+              "role": "研究员"
+            },
+            {
+              "institution": "sun-yat-sen",
+              "period": "2025-present",
+              "role": "博士生导师"
+            }
+          ],
+          "email_domains": [
+            "bimsa.cn",
+            "mail.sysu.edu.cn"
+          ],
+          "coauthor_circle_core_slugs": [
+            "chen-zhuo"
+          ],
+          "coauthor_circle_core_names": [
+            "Zhuo Chen"
+          ],
+          "coauthor_circle_extended_slugs": [
+            "ni-dadi",
+            "xiang-maosong",
+            "xu-xu",
+            "yang-di"
+          ],
+          "coauthor_circle_extended_names": [
+            "Dadi Ni",
+            "Di Yang",
+            "Maosong Xiang",
+            "Xu Xu"
+          ],
+          "research_keywords": [
+            "algebraic",
+            "coding",
+            "drinfeld",
+            "fields",
+            "geometry",
+            "modules",
+            "number",
+            "singularity"
+          ],
+          "known_arxiv_ids": [
+            "2604.04124",
+            "2603.23930",
+            "2512.03860",
+            "2510.27159",
+            "2410.10124",
+            "2409.09384",
+            "2312.16919",
+            "2309.00432",
+            "1912.02668",
+            "1911.04269",
+            "1810.11969",
+            "1706.00313",
+            "1705.05213",
+            "1607.05887",
+            "1607.05462"
+          ]
+        },
+        "after": {
+          "openalex_id": "A5109468244",
+          "affiliations": [
+            {
+              "institution": "bimsa",
+              "period": "2022–2024（有记录年份）",
+              "role": "论文署名与会议组织记录；职级待核实"
+            },
+            {
+              "institution": "sun-yat-sen",
+              "period": "2025.04-present",
+              "role": "副教授、博士生导师"
+            }
+          ],
+          "email_domains": [
+            "bimsa.cn",
+            "mail2.sysu.edu.cn"
+          ],
+          "coauthor_circle_core_slugs": [
+            "chen-zhuo"
+          ],
+          "coauthor_circle_core_names": [
+            "Zhuo Chen"
+          ],
+          "coauthor_circle_extended_slugs": [
+            "ni-dadi",
+            "xiang-maosong"
+          ],
+          "coauthor_circle_extended_names": [
+            "Dadi Ni",
+            "Maosong Xiang",
+            "Yixuan Ou-Yang"
+          ],
+          "research_keywords": [
+            "algebraic",
+            "coding",
+            "drinfeld",
+            "fields",
+            "geometry",
+            "modules",
+            "number",
+            "singularity"
+          ],
+          "known_arxiv_ids": [
+            "2604.04124",
+            "2603.23930",
+            "2512.03860",
+            "2510.27159",
+            "2410.10124",
+            "2409.09384",
+            "2312.16919",
+            "2309.00432",
+            "1912.02668",
+            "1911.04269",
+            "1810.11969",
+            "1706.00313",
+            "1705.05213",
+            "1607.05887",
+            "1607.05462"
+          ]
+        }
+      },
+      "publications": {
+        "before": [
+          {
+            "id": "2604.04124",
+            "title": "Relation between Anderson Generating Functions and Weil Pairing",
+            "year": 2026,
+            "coauthors": [
+              "xu-xu"
+            ],
+            "primary_category": "math.NT",
+            "sources": [
+              "arxiv"
+            ]
+          },
+          {
+            "id": "2603.23930",
+            "title": "A Note on Cyclotomic Function Fields with Quadratic Modulus",
+            "year": 2026,
+            "coauthors": [
+              "Haojie Chen"
+            ],
+            "primary_category": "math.NT",
+            "sources": [
+              "arxiv"
+            ]
+          },
+          {
+            "id": "2512.03860",
+            "title": "Infinitesimal deformations of Lie algebroid pairs",
+            "year": 2025,
+            "coauthors": [
+              "ni-dadi",
+              "xiang-maosong",
+              "chen-zhuo"
+            ],
+            "primary_category": "math.DG",
+            "openalex_id": "W4417032814",
+            "sources": [
+              "arxiv",
+              "openalex"
+            ]
+          },
+          {
+            "id": "2510.27159",
+            "title": "New optimal function field towers over finite fields of quartic power",
+            "year": 2025,
+            "coauthors": [
+              "Xiuwu Zhu"
+            ],
+            "primary_category": "math.NT",
+            "sources": [
+              "arxiv"
+            ]
+          },
+          {
+            "id": "2410.10124",
+            "title": "Groupoids derived from the simple elliptic singularities",
+            "year": 2024,
+            "coauthors": [
+              "Stephen S. -T. Yau",
+              "Huaiqing Zuo"
+            ],
+            "primary_category": "math.AG",
+            "sources": [
+              "arxiv"
+            ]
+          },
+          {
+            "id": "2409.09384",
+            "title": "On the k-th Tjurina number of weighted homogeneous singularities",
+            "year": 2024,
+            "coauthors": [
+              "Stephen S. -T. Yau",
+              "Huaiqing Zuo"
+            ],
+            "primary_category": "math.AG",
+            "sources": [
+              "arxiv"
+            ]
+          },
+          {
+            "id": "2309.00432",
+            "title": "Drinfeld Modular Curves Subordinate to Conjugacy Classes of Nilpotent Upper-Triangular Matrices",
+            "year": 2023,
+            "coauthors": [
+              "chen-zhuo",
+              "Tao Zhang",
+              "Xiaopeng Zheng"
+            ],
+            "primary_category": "math.NT",
+            "openalex_id": "W4386436307",
+            "sources": [
+              "arxiv",
+              "openalex"
+            ]
+          },
+          {
+            "id": "2312.16919",
+            "title": "Drinfeld Module and Weil pairing over Dedekind domain of class number two",
+            "year": 2023,
+            "coauthors": [
+              "Xiao-Min Huang"
+            ],
+            "doi": "10.1016/j.ffa.2024.102516",
+            "journal": "Finite Fields and Their Applications",
+            "primary_category": "math.NT",
+            "sources": [
+              "arxiv"
+            ]
+          },
+          {
+            "id": "1912.02668",
+            "title": "A Modular Interpretation of BBGS Towers",
+            "year": 2019,
+            "coauthors": [
+              "chen-zhuo",
+              "Rui Chen"
+            ],
+            "doi": "10.1016/j.jnt.2020.06.006",
+            "journal": "Journal of Number Theory",
+            "primary_category": "math.NT",
+            "sources": [
+              "arxiv"
+            ]
+          },
+          {
+            "id": "1911.04269",
+            "title": "Weierstrass Semigroups From a Tower of Function Fields Attaining the Drinfeld-Vladut Bound",
+            "year": 2019,
+            "coauthors": [
+              "Shudi Yang"
+            ],
+            "primary_category": "math.NT",
+            "sources": [
+              "arxiv"
+            ]
+          },
+          {
+            "id": "1810.11969",
+            "title": "Complete Weight Distribution and MacWilliams Identities for Asymmetric Quantum Codes",
+            "year": 2018,
+            "coauthors": [
+              "Shudi Yang",
+              "Stephen S. -T. Yau"
+            ],
+            "sources": [
+              "arxiv"
+            ]
+          },
+          {
+            "id": "1706.00313",
+            "title": "Multi-point Codes from the GGS Curves",
+            "year": 2017,
+            "coauthors": [
+              "Shudi Yang"
+            ],
+            "sources": [
+              "arxiv"
+            ]
+          },
+          {
+            "id": "1705.05213",
+            "title": "Weierstrass Pure Gaps From a Quotient of the Hermitian Curve",
+            "year": 2017,
+            "coauthors": [
+              "Shudi Yang"
+            ],
+            "doi": "10.1016/j.ffa.2017.12.002",
+            "journal": "Finite Fields and Their Applications",
+            "sources": [
+              "arxiv"
+            ]
+          },
+          {
+            "id": "1607.05887",
+            "title": "Weierstrass Semigroups from Kummer Extensions",
+            "year": 2016,
+            "coauthors": [
+              "Shudi Yang"
+            ],
+            "doi": "10.1016/j.ffa.2016.12.005",
+            "journal": "Finite Fields and Their Applications",
+            "sources": [
+              "arxiv"
+            ]
+          },
+          {
+            "id": "1607.05462",
+            "title": "Multi-point Codes over Kummer Extensions",
+            "year": 2016,
+            "coauthors": [
+              "Shudi Yang"
+            ],
+            "doi": "10.1007/s10623-017-0335-7",
+            "journal": "Designs, Codes and Cryptography",
+            "sources": [
+              "arxiv"
+            ]
+          }
+        ],
+        "after": [
+          {
+            "id": "2604.04124",
+            "title": "Relation between Anderson Generating Functions and Weil Pairing",
+            "year": 2026,
+            "coauthors": [
+              "Yixuan Ou-Yang"
+            ],
+            "primary_category": "math.NT",
+            "sources": [
+              "arxiv"
+            ]
+          },
+          {
+            "id": "2603.23930",
+            "title": "A Note on Cyclotomic Function Fields with Quadratic Modulus",
+            "year": 2026,
+            "coauthors": [
+              "Haojie Chen"
+            ],
+            "primary_category": "math.NT",
+            "sources": [
+              "arxiv"
+            ]
+          },
+          {
+            "id": "2512.03860",
+            "title": "Infinitesimal deformations of Lie algebroid pairs",
+            "year": 2025,
+            "coauthors": [
+              "ni-dadi",
+              "xiang-maosong",
+              "chen-zhuo"
+            ],
+            "primary_category": "math.DG",
+            "openalex_id": "W4417032814",
+            "sources": [
+              "arxiv",
+              "openalex"
+            ]
+          },
+          {
+            "id": "2510.27159",
+            "title": "New optimal function field towers over finite fields of quartic power",
+            "year": 2025,
+            "coauthors": [
+              "Xiuwu Zhu"
+            ],
+            "primary_category": "math.NT",
+            "sources": [
+              "arxiv"
+            ]
+          },
+          {
+            "id": "2410.10124",
+            "title": "Groupoids derived from the simple elliptic singularities",
+            "year": 2024,
+            "coauthors": [
+              "Stephen S. -T. Yau",
+              "Huaiqing Zuo"
+            ],
+            "primary_category": "math.AG",
+            "sources": [
+              "arxiv"
+            ]
+          },
+          {
+            "id": "2409.09384",
+            "title": "On the k-th Tjurina number of weighted homogeneous singularities",
+            "year": 2024,
+            "coauthors": [
+              "Stephen S. -T. Yau",
+              "Huaiqing Zuo"
+            ],
+            "primary_category": "math.AG",
+            "sources": [
+              "arxiv"
+            ]
+          },
+          {
+            "id": "2309.00432",
+            "title": "Drinfeld Modular Curves Subordinate to Conjugacy Classes of Nilpotent Upper-Triangular Matrices",
+            "year": 2023,
+            "coauthors": [
+              "chen-zhuo",
+              "Tao Zhang",
+              "Xiaopeng Zheng"
+            ],
+            "primary_category": "math.NT",
+            "openalex_id": "W4386436307",
+            "sources": [
+              "arxiv",
+              "openalex"
+            ]
+          },
+          {
+            "id": "2312.16919",
+            "title": "Drinfeld Module and Weil pairing over Dedekind domain of class number two",
+            "year": 2023,
+            "coauthors": [
+              "Xiao-Min Huang"
+            ],
+            "doi": "10.1016/j.ffa.2024.102516",
+            "journal": "Finite Fields and Their Applications",
+            "primary_category": "math.NT",
+            "sources": [
+              "arxiv"
+            ]
+          },
+          {
+            "id": "1912.02668",
+            "title": "A Modular Interpretation of BBGS Towers",
+            "year": 2019,
+            "coauthors": [
+              "chen-zhuo",
+              "Rui Chen"
+            ],
+            "doi": "10.1016/j.jnt.2020.06.006",
+            "journal": "Journal of Number Theory",
+            "primary_category": "math.NT",
+            "sources": [
+              "arxiv"
+            ]
+          },
+          {
+            "id": "1911.04269",
+            "title": "Weierstrass Semigroups From a Tower of Function Fields Attaining the Drinfeld-Vladut Bound",
+            "year": 2019,
+            "coauthors": [
+              "Shudi Yang"
+            ],
+            "primary_category": "math.NT",
+            "sources": [
+              "arxiv"
+            ]
+          },
+          {
+            "id": "1810.11969",
+            "title": "Complete Weight Distribution and MacWilliams Identities for Asymmetric Quantum Codes",
+            "year": 2018,
+            "coauthors": [
+              "Shudi Yang",
+              "Stephen S. -T. Yau"
+            ],
+            "sources": [
+              "arxiv"
+            ]
+          },
+          {
+            "id": "1706.00313",
+            "title": "Multi-point Codes from the GGS Curves",
+            "year": 2017,
+            "coauthors": [
+              "Shudi Yang"
+            ],
+            "sources": [
+              "arxiv"
+            ]
+          },
+          {
+            "id": "1705.05213",
+            "title": "Weierstrass Pure Gaps From a Quotient of the Hermitian Curve",
+            "year": 2017,
+            "coauthors": [
+              "Shudi Yang"
+            ],
+            "doi": "10.1016/j.ffa.2017.12.002",
+            "journal": "Finite Fields and Their Applications",
+            "sources": [
+              "arxiv"
+            ]
+          },
+          {
+            "id": "1607.05887",
+            "title": "Weierstrass Semigroups from Kummer Extensions",
+            "year": 2016,
+            "coauthors": [
+              "Shudi Yang"
+            ],
+            "doi": "10.1016/j.ffa.2016.12.005",
+            "journal": "Finite Fields and Their Applications",
+            "sources": [
+              "arxiv"
+            ]
+          },
+          {
+            "id": "1607.05462",
+            "title": "Multi-point Codes over Kummer Extensions",
+            "year": 2016,
+            "coauthors": [
+              "Shudi Yang"
+            ],
+            "doi": "10.1007/s10623-017-0335-7",
+            "journal": "Designs, Codes and Cryptography",
+            "sources": [
+              "arxiv"
+            ]
+          }
+        ]
+      },
+      "sources": {
+        "before": [
+          {
+            "label": "SYSU 数学学院博导名单",
+            "url": "https://math.sysu.edu.cn/article/2971"
+          },
+          {
+            "label": "武汉大学数学院介绍 (SYSU 简介)",
+            "url": "https://maths.whu.edu.cn/info/1558/16830.htm"
+          },
+          {
+            "label": "AIMS Weierstrass semigroups paper (BIMSA affiliation)",
+            "url": "https://www.aimsciences.org/article/doi/10.3934/amc.2022066"
+          },
+          {
+            "label": "信息源",
+            "url": "https://www.bimsa.cn/research/course/2024sp/page_6.html"
+          },
+          {
+            "label": "信息源",
+            "url": "https://www.researchgate.net/publication/328598510"
+          }
+        ],
+        "after": [
+          {
+            "label": "中山数学学院：博士研究生导师名单（2026-09-11）",
+            "url": "https://math.sysu.edu.cn/article/2971",
+            "last_verified": "2026-10-08"
+          },
+          {
+            "label": "河北师大：几何拓扑系列讲座（2025-12-25）",
+            "url": "https://sxxy.hebtu.edu.cn/a/2025/12/25/79CE33A6FC8D43C99B2A08C84296FD75.html",
+            "last_verified": "2026-10-08",
+            "notes": "支持副教授称谓与 2025 年 4 月加入的记载。"
+          },
+          {
+            "label": "中山数学学院：2020-11-02 专职科研人员拟聘公示",
+            "url": "https://math.sysu.edu.cn/article/2534",
+            "last_verified": "2026-10-08",
+            "notes": "仅为拟聘记录，不认定实际入职。"
+          },
+          {
+            "label": "清华求真书院：2024 年研讨会组织者胡创强（BIMSA）",
+            "url": "https://qzc.tsinghua.edu.cn/en/info/1125/3953.htm",
+            "last_verified": "2026-10-08"
+          },
+          {
+            "label": "AIMS 原刊：Weierstrass semigroups on the third function field in a tower attaining the Drinfeld–Vlăduţ bound",
+            "url": "https://www.aimsciences.org/article/doi/10.3934/amc.2022066",
+            "last_verified": "2026-10-08",
+            "notes": "2022 年在线发表记录列 Chuangqiang Hu 的 BIMSA 单位，不提供职级。"
+          },
+          {
+            "label": "2604.04124v2：两位作者、单位及邮箱",
+            "url": "https://arxiv.org/html/2604.04124v2",
+            "last_verified": "2026-10-08"
+          },
+          {
+            "label": "2309.00432v1：BIMSA 署名及 huchq 邮箱",
+            "url": "https://arxiv.org/abs/2309.00432v1",
+            "last_verified": "2026-10-08"
+          }
+        ]
+      },
+      "activity": {
+        "before": {
+          "total_papers": 15,
+          "published_count": 5,
+          "preprint_only_count": 10,
+          "active_period": "2016-present",
+          "confidence": "has-2-review-pending"
+        },
+        "after": {
+          "total_papers": 15,
+          "published_count": 5,
+          "preprint_only_count": 10,
+          "active_period": "2016-present",
+          "confidence": "partially-reviewed"
+        }
+      }
+    }
+  },
+  "sources": {
+    "hu-hebei": {
+      "url": "https://sxxy.hebtu.edu.cn/a/2025/12/25/79CE33A6FC8D43C99B2A08C84296FD75.html",
+      "transport": "200\nhttps://sxxy.hebtu.edu.cn/a/2025/12/25/79CE33A6FC8D43C99B2A08C84296FD75.html",
+      "exit": 0,
+      "checked_at": "2026-10-08T04:09:07.285697+00:00",
+      "error": "",
+      "sha256": "ab911ada886b11ecb9ac065782df6e284d386016a08488f3ccc129fc13c7cbdc",
+      "bytes": 26489,
+      "path": ".cache/msa/site-recovery/twenty-source-hu-hebei.html",
+      "text_path": ".cache/msa/site-recovery/twenty-source-hu-hebei.txt",
+      "reading_scope": "HTML text or PDF selected passages inspected; transport status alone is not verification."
+    },
+    "hu-sysu": {
+      "url": "https://math.sysu.edu.cn/article/2971",
+      "transport": "200\nhttps://math.sysu.edu.cn/article/2971",
+      "exit": 0,
+      "checked_at": "2026-10-08T04:09:07.473874+00:00",
+      "error": "",
+      "sha256": "fdf4844662111f34dd1561de1ac4c2c032ad5f2fa3dbce9da35c4072d815ad14",
+      "bytes": 47993,
+      "path": ".cache/msa/site-recovery/twenty-source-hu-sysu.html",
+      "text_path": ".cache/msa/site-recovery/twenty-source-hu-sysu.txt",
+      "reading_scope": "HTML text or PDF selected passages inspected; transport status alone is not verification."
+    },
+    "hu-sysu2020": {
+      "url": "https://math.sysu.edu.cn/article/2534",
+      "transport": "200\nhttps://math.sysu.edu.cn/article/2534",
+      "exit": 0,
+      "checked_at": "2026-10-08T04:09:07.498210+00:00",
+      "error": "",
+      "sha256": "ea4f6b9879a45f32ef30436876e0314d63b226d8a96052828586721c9916a26a",
+      "bytes": 41333,
+      "path": ".cache/msa/site-recovery/twenty-source-hu-sysu2020.html",
+      "text_path": ".cache/msa/site-recovery/twenty-source-hu-sysu2020.txt",
+      "reading_scope": "HTML text or PDF selected passages inspected; transport status alone is not verification."
+    },
+    "hu-bimsa": {
+      "url": "https://www.bimsa.cn/research/course/2024sp/page_6.html",
+      "transport": "200\nhttps://www.bimsa.cn/research/course/2024sp/page_6.html",
+      "exit": 0,
+      "checked_at": "2026-10-08T04:09:08.345753+00:00",
+      "error": "",
+      "sha256": "9885cf58de8de821dd22613fb8556c62f45bca34fe208078ae917c5ffe3900e8",
+      "bytes": 105435,
+      "path": ".cache/msa/site-recovery/twenty-source-hu-bimsa.html",
+      "text_path": ".cache/msa/site-recovery/twenty-source-hu-bimsa.txt",
+      "reading_scope": "Old course URL now returns a generic Courses page; it does not corroborate the old course or employment claims."
+    },
+    "hu-paper": {
+      "url": "https://arxiv.org/html/2604.04124v2",
+      "transport": "200\nhttps://arxiv.org/html/2604.04124v2",
+      "exit": 0,
+      "checked_at": "2026-10-08T04:09:08.303192+00:00",
+      "error": "",
+      "sha256": "b21cfcc35c9057b9e935e06deff2de289177e4385b44d9014e2ba2435fe4a701",
+      "bytes": 959035,
+      "path": ".cache/msa/site-recovery/twenty-source-hu-paper.html",
+      "text_path": ".cache/msa/site-recovery/twenty-source-hu-paper.txt",
+      "reading_scope": "HTML text or PDF selected passages inspected; transport status alone is not verification."
+    },
+    "hu-arxiv-2604.04124": {
+      "url": "https://arxiv.org/abs/2604.04124",
+      "transport": "200\nhttps://arxiv.org/abs/2604.04124",
+      "exit": 0,
+      "checked_at": "2026-10-08T04:09:19.826367+00:00",
+      "error": "",
+      "sha256": "962c5a99851519ba1994a40786b18fb1651e1837c4cb26181f77c483b3f371e3",
+      "bytes": 40475,
+      "path": ".cache/msa/site-recovery/twenty-source-hu-arxiv-2604.04124.html",
+      "text_path": ".cache/msa/site-recovery/twenty-source-hu-arxiv-2604.04124.txt",
+      "reading_scope": "HTML text or PDF selected passages inspected; transport status alone is not verification."
+    },
+    "hu-arxiv-2603.23930": {
+      "url": "https://arxiv.org/abs/2603.23930",
+      "transport": "200\nhttps://arxiv.org/abs/2603.23930",
+      "exit": 0,
+      "checked_at": "2026-10-08T04:09:19.821445+00:00",
+      "error": "",
+      "sha256": "deffbc7a02b0a4c6fe03599464bc5e1e636edcd069666ad6531c98a4d0da1286",
+      "bytes": 40299,
+      "path": ".cache/msa/site-recovery/twenty-source-hu-arxiv-2603.23930.html",
+      "text_path": ".cache/msa/site-recovery/twenty-source-hu-arxiv-2603.23930.txt",
+      "reading_scope": "HTML text or PDF selected passages inspected; transport status alone is not verification."
+    },
+    "hu-arxiv-2512.03860": {
+      "url": "https://arxiv.org/abs/2512.03860",
+      "transport": "200\nhttps://arxiv.org/abs/2512.03860",
+      "exit": 0,
+      "checked_at": "2026-10-08T04:09:20.390883+00:00",
+      "error": "",
+      "sha256": "e1019340ae3a6a2171c964b49d5be70a8bcf934df23fce84c06f1003f0dcc7b6",
+      "bytes": 41085,
+      "path": ".cache/msa/site-recovery/twenty-source-hu-arxiv-2512.03860.html",
+      "text_path": ".cache/msa/site-recovery/twenty-source-hu-arxiv-2512.03860.txt",
+      "reading_scope": "HTML text or PDF selected passages inspected; transport status alone is not verification."
+    },
+    "hu-arxiv-2510.27159": {
+      "url": "https://arxiv.org/abs/2510.27159",
+      "transport": "200\nhttps://arxiv.org/abs/2510.27159",
+      "exit": 0,
+      "checked_at": "2026-10-08T04:09:20.347824+00:00",
+      "error": "",
+      "sha256": "f2407667fd6236257f04362ee8d8813a8c9b71f18c7c93434944a922dca2ee32",
+      "bytes": 38985,
+      "path": ".cache/msa/site-recovery/twenty-source-hu-arxiv-2510.27159.html",
+      "text_path": ".cache/msa/site-recovery/twenty-source-hu-arxiv-2510.27159.txt",
+      "reading_scope": "HTML text or PDF selected passages inspected; transport status alone is not verification."
+    },
+    "hu-arxiv-2410.10124": {
+      "url": "https://arxiv.org/abs/2410.10124",
+      "transport": "200\nhttps://arxiv.org/abs/2410.10124",
+      "exit": 0,
+      "checked_at": "2026-10-08T04:09:21.165123+00:00",
+      "error": "",
+      "sha256": "c536235baf0a7eefc23ee3801fe8c2824969d39a34f768be89f831533fc64e71",
+      "bytes": 42199,
+      "path": ".cache/msa/site-recovery/twenty-source-hu-arxiv-2410.10124.html",
+      "text_path": ".cache/msa/site-recovery/twenty-source-hu-arxiv-2410.10124.txt",
+      "reading_scope": "HTML text or PDF selected passages inspected; transport status alone is not verification."
+    },
+    "hu-arxiv-2409.09384": {
+      "url": "https://arxiv.org/abs/2409.09384",
+      "transport": "200\nhttps://arxiv.org/abs/2409.09384",
+      "exit": 0,
+      "checked_at": "2026-10-08T04:09:20.972214+00:00",
+      "error": "",
+      "sha256": "24864cb51a0445bf1d6771dfb955978fb76b4c26e25359ff40d9c053caaa82c1",
+      "bytes": 42802,
+      "path": ".cache/msa/site-recovery/twenty-source-hu-arxiv-2409.09384.html",
+      "text_path": ".cache/msa/site-recovery/twenty-source-hu-arxiv-2409.09384.txt",
+      "reading_scope": "HTML text or PDF selected passages inspected; transport status alone is not verification."
+    },
+    "hu-arxiv-2309.00432": {
+      "url": "https://arxiv.org/abs/2309.00432",
+      "transport": "200\nhttps://arxiv.org/abs/2309.00432",
+      "exit": 0,
+      "checked_at": "2026-10-08T04:09:21.511194+00:00",
+      "error": "",
+      "sha256": "61aee33f08f64fa4f0d11bc363c1964741565ba85f6a478dfee94e37bc7d408b",
+      "bytes": 41052,
+      "path": ".cache/msa/site-recovery/twenty-source-hu-arxiv-2309.00432.html",
+      "text_path": ".cache/msa/site-recovery/twenty-source-hu-arxiv-2309.00432.txt",
+      "reading_scope": "HTML text or PDF selected passages inspected; transport status alone is not verification."
+    },
+    "hu-arxiv-2312.16919": {
+      "url": "https://arxiv.org/abs/2312.16919",
+      "transport": "200\nhttps://arxiv.org/abs/2312.16919",
+      "exit": 0,
+      "checked_at": "2026-10-08T04:09:21.708951+00:00",
+      "error": "",
+      "sha256": "aaab4b05e50d51ec73dee0543424741509e947469a3d4924390accd018cfd406",
+      "bytes": 41897,
+      "path": ".cache/msa/site-recovery/twenty-source-hu-arxiv-2312.16919.html",
+      "text_path": ".cache/msa/site-recovery/twenty-source-hu-arxiv-2312.16919.txt",
+      "reading_scope": "HTML text or PDF selected passages inspected; transport status alone is not verification."
+    },
+    "hu-arxiv-1912.02668": {
+      "url": "https://arxiv.org/abs/1912.02668",
+      "transport": "200\nhttps://arxiv.org/abs/1912.02668",
+      "exit": 0,
+      "checked_at": "2026-10-08T04:09:21.989569+00:00",
+      "error": "",
+      "sha256": "7ef10d71a3a2282dbdbebbda2365ff4e0a526441fd641a4965c093198d20f695",
+      "bytes": 39794,
+      "path": ".cache/msa/site-recovery/twenty-source-hu-arxiv-1912.02668.html",
+      "text_path": ".cache/msa/site-recovery/twenty-source-hu-arxiv-1912.02668.txt",
+      "reading_scope": "HTML text or PDF selected passages inspected; transport status alone is not verification."
+    },
+    "hu-arxiv-1911.04269": {
+      "url": "https://arxiv.org/abs/1911.04269",
+      "transport": "200\nhttps://arxiv.org/abs/1911.04269",
+      "exit": 0,
+      "checked_at": "2026-10-08T04:09:22.520741+00:00",
+      "error": "",
+      "sha256": "1ec5181af7094538c8f25ea9a8839149098b840b5967d9486db43207114538a3",
+      "bytes": 40091,
+      "path": ".cache/msa/site-recovery/twenty-source-hu-arxiv-1911.04269.html",
+      "text_path": ".cache/msa/site-recovery/twenty-source-hu-arxiv-1911.04269.txt",
+      "reading_scope": "HTML text or PDF selected passages inspected; transport status alone is not verification."
+    },
+    "hu-arxiv-1810.11969": {
+      "url": "https://arxiv.org/abs/1810.11969",
+      "transport": "200\nhttps://arxiv.org/abs/1810.11969",
+      "exit": 0,
+      "checked_at": "2026-10-08T04:09:22.784721+00:00",
+      "error": "",
+      "sha256": "962e94d1841263fafce62ceeca9db6d468bf3a66e7420b1427f9f7d2ab0cc5f7",
+      "bytes": 39962,
+      "path": ".cache/msa/site-recovery/twenty-source-hu-arxiv-1810.11969.html",
+      "text_path": ".cache/msa/site-recovery/twenty-source-hu-arxiv-1810.11969.txt",
+      "reading_scope": "HTML text or PDF selected passages inspected; transport status alone is not verification."
+    },
+    "hu-arxiv-1706.00313": {
+      "url": "https://arxiv.org/abs/1706.00313",
+      "transport": "200\nhttps://arxiv.org/abs/1706.00313",
+      "exit": 0,
+      "checked_at": "2026-10-08T04:09:23.016677+00:00",
+      "error": "",
+      "sha256": "2adb65cf2c01dc1891c44961c613233932e8bb8bd2675638bcc52c63747a87f0",
+      "bytes": 40433,
+      "path": ".cache/msa/site-recovery/twenty-source-hu-arxiv-1706.00313.html",
+      "text_path": ".cache/msa/site-recovery/twenty-source-hu-arxiv-1706.00313.txt",
+      "reading_scope": "HTML text or PDF selected passages inspected; transport status alone is not verification."
+    },
+    "hu-arxiv-1705.05213": {
+      "url": "https://arxiv.org/abs/1705.05213",
+      "transport": "200\nhttps://arxiv.org/abs/1705.05213",
+      "exit": 0,
+      "checked_at": "2026-10-08T04:09:23.334398+00:00",
+      "error": "",
+      "sha256": "6890877f2d31fa7369bd978abe505578553ba7ed75e9104d8869d65f8a5cb4ae",
+      "bytes": 39986,
+      "path": ".cache/msa/site-recovery/twenty-source-hu-arxiv-1705.05213.html",
+      "text_path": ".cache/msa/site-recovery/twenty-source-hu-arxiv-1705.05213.txt",
+      "reading_scope": "HTML text or PDF selected passages inspected; transport status alone is not verification."
+    },
+    "hu-arxiv-1607.05887": {
+      "url": "https://arxiv.org/abs/1607.05887",
+      "transport": "200\nhttps://arxiv.org/abs/1607.05887",
+      "exit": 0,
+      "checked_at": "2026-10-08T04:09:23.421196+00:00",
+      "error": "",
+      "sha256": "e8b98a6fa693a52e4fa28623591c8e81f5dfa88c76a9d9b0931892c60260ef95",
+      "bytes": 41011,
+      "path": ".cache/msa/site-recovery/twenty-source-hu-arxiv-1607.05887.html",
+      "text_path": ".cache/msa/site-recovery/twenty-source-hu-arxiv-1607.05887.txt",
+      "reading_scope": "HTML text or PDF selected passages inspected; transport status alone is not verification."
+    },
+    "hu-arxiv-1607.05462": {
+      "url": "https://arxiv.org/abs/1607.05462",
+      "transport": "200\nhttps://arxiv.org/abs/1607.05462",
+      "exit": 0,
+      "checked_at": "2026-10-08T04:09:23.561381+00:00",
+      "error": "",
+      "sha256": "d2dae2ad239ba49a046dff0be2b808dd6475363c66e5bd08e54ac7a7847b3919",
+      "bytes": 41497,
+      "path": ".cache/msa/site-recovery/twenty-source-hu-arxiv-1607.05462.html",
+      "text_path": ".cache/msa/site-recovery/twenty-source-hu-arxiv-1607.05462.txt",
+      "reading_scope": "HTML text or PDF selected passages inspected; transport status alone is not verification."
+    },
+    "hu-faculty": {
+      "url": "https://math.sysu.edu.cn/teacher/2496",
+      "transport": "200\nhttps://math.sysu.edu.cn/teacher/2496",
+      "exit": 0,
+      "checked_at": "2026-10-08T04:10:23.796654+00:00",
+      "error": "",
+      "sha256": "103a8a158f7bbbe32c0a3cd9705971a86338698771ed49c91042cfed2e43cd5e",
+      "bytes": 60109,
+      "path": ".cache/msa/site-recovery/twenty-source-hu-faculty.html",
+      "text_path": ".cache/msa/site-recovery/twenty-source-hu-faculty.txt",
+      "reading_scope": "Rejected navigation lead: page belongs to Hong Liu, not Hu Chuangqiang. On the supervisor list, Hu appears as plain text after Hong Liu’s link. No Hong Liu data copied into Hu’s record."
+    },
+    "hu-ymsc2024": {
+      "url": "https://qzc.tsinghua.edu.cn/en/info/1125/3953.htm",
+      "transport": "200\nhttps://qzc.tsinghua.edu.cn/en/info/1125/3953.htm",
+      "exit": 0,
+      "checked_at": "2026-10-08T04:10:23.558487+00:00",
+      "error": "",
+      "sha256": "91b6e6de79053c22c505139a8077033980aa7a8ceb7961afa41ea8574c4afac4",
+      "bytes": 28279,
+      "path": ".cache/msa/site-recovery/twenty-source-hu-ymsc2024.html",
+      "text_path": ".cache/msa/site-recovery/twenty-source-hu-ymsc2024.txt",
+      "reading_scope": "HTML text or PDF selected passages inspected; transport status alone is not verification."
+    },
+    "hu-aims": {
+      "url": "https://www.aimsciences.org/article/doi/10.3934/amc.2022066",
+      "transport": "200\nhttps://www.aimsciences.org/article/doi/10.3934/amc.2022066",
+      "exit": 0,
+      "checked_at": "2026-10-08T04:10:26.197330+00:00",
+      "error": "",
+      "sha256": "52f55e7237652bff7aa4feb01586b418c608dd572e54684b5fdbea965ce22390",
+      "bytes": 107948,
+      "path": ".cache/msa/site-recovery/twenty-source-hu-aims.html",
+      "text_path": ".cache/msa/site-recovery/twenty-source-hu-aims.txt",
+      "reading_scope": "HTML text or PDF selected passages inspected; transport status alone is not verification."
+    }
+  },
+  "source_author_metadata": {
+    "1607.05462": {
+      "citation_title": [
+        "Multi-point Codes over Kummer Extensions"
+      ],
+      "citation_author": [
+        "Hu, Chuangqiang",
+        "Yang, Shudi"
+      ],
+      "citation_doi": [
+        "10.1007/s10623-017-0335-7"
+      ],
+      "citation_date": [
+        "2016/07/19"
+      ],
+      "citation_online_date": [
+        "2016/07/19"
+      ],
+      "citation_pdf_url": [
+        "https://arxiv.org/pdf/1607.05462"
+      ],
+      "citation_arxiv_id": [
+        "1607.05462"
+      ],
+      "citation_abstract": [
+        "This paper is concerned with the construction of algebraic geometric codes defined from Kummer extensions. It plays a significant role in the study of such codes to describe bases for the Riemann-Roch spaces associated with totally ramified places. Along this line, we give an explicit characterization of Weierstrass semigroups and pure gaps. Additionally, we determine the floor of a certain type of divisor introduced by Maharaj, Matthews and Pirsic. Finally, we apply these results to find multi-point codes with good parameters. As one of the examples, a presented code with parameters $ [254,228,\\geqslant 16] $ over $ \\mathbb{F}_{64} $ yields a new record."
+      ]
+    },
+    "1607.05887": {
+      "citation_title": [
+        "Weierstrass Semigroups from Kummer Extensions"
+      ],
+      "citation_author": [
+        "Yang, Shudi",
+        "Hu, Chuangqiang"
+      ],
+      "citation_doi": [
+        "10.1016/j.ffa.2016.12.005"
+      ],
+      "citation_date": [
+        "2016/07/20"
+      ],
+      "citation_online_date": [
+        "2016/07/20"
+      ],
+      "citation_pdf_url": [
+        "https://arxiv.org/pdf/1607.05887"
+      ],
+      "citation_arxiv_id": [
+        "1607.05887"
+      ],
+      "citation_abstract": [
+        "The Weierstrass semigroups and pure gaps can be helpful in constructing codes with better parameters. In this paper, we investigate explicitly the minimal generating set of the Weierstrass semigroups associated with several totally ramified places over arbitrary Kummer extensions. Applying the techniques provided by Matthews in her previous work, we extend the results of specific Kummer extensions studied in the literature. Some examples are included to illustrate our results."
+      ]
+    },
+    "1705.05213": {
+      "citation_title": [
+        "Weierstrass Pure Gaps From a Quotient of the Hermitian Curve"
+      ],
+      "citation_author": [
+        "Yang, Shudi",
+        "Hu, Chuangqiang"
+      ],
+      "citation_date": [
+        "2017/04/11"
+      ],
+      "citation_online_date": [
+        "2017/04/11"
+      ],
+      "citation_pdf_url": [
+        "https://arxiv.org/pdf/1705.05213"
+      ],
+      "citation_arxiv_id": [
+        "1705.05213"
+      ],
+      "citation_abstract": [
+        "In this paper, by employing the results over Kummer extensions, we give an arithmetic characterization of pure gaps at many totally ramified places over the quotients of Hermitian curves, including the well-studied Hermitian curves as special cases. The cardinality of these pure gaps is explicitly investigated. In particular, the numbers of gaps and pure gaps at a pair of distinct places are determined precisely, which can be regarded as an extension of the previous work by Matthews (2001) considered Hermitian curves. Additionally, some concrete examples are provided to illustrate our results."
+      ]
+    },
+    "1706.00313": {
+      "citation_title": [
+        "Multi-point Codes from the GGS Curves"
+      ],
+      "citation_author": [
+        "Hu, Chuangqiang",
+        "Yang, Shudi"
+      ],
+      "citation_date": [
+        "2017/06/01"
+      ],
+      "citation_online_date": [
+        "2019/02/22"
+      ],
+      "citation_pdf_url": [
+        "https://arxiv.org/pdf/1706.00313"
+      ],
+      "citation_arxiv_id": [
+        "1706.00313"
+      ],
+      "citation_abstract": [
+        "This paper is concerned with the construction of algebraic geometric codes defined from GGS curves. It is of significant use to describe bases for the Riemann-Roch spaces associated with totally ramified places, which enables us to study multi-point AG codes. Along this line, we characterize explicitly the Weierstrass semigroups and pure gaps. Additionally, we determine the floor of a certain type of divisor and investigate the properties of AG codes from GGS curves. Finally, we apply these results to find multi-point codes with excellent parameters. As one of the examples, a presented code with parameters $ [216,190,\\geqslant 18] $ over $ \\mathbb{F}_{64} $ yields a new record."
+      ]
+    },
+    "1810.11969": {
+      "citation_title": [
+        "Complete Weight Distribution and MacWilliams Identities for Asymmetric Quantum Codes"
+      ],
+      "citation_author": [
+        "Hu, Chuangqiang",
+        "Yang, Shudi",
+        "Yau, Stephen S. -T."
+      ],
+      "citation_date": [
+        "2018/10/29"
+      ],
+      "citation_online_date": [
+        "2018/10/29"
+      ],
+      "citation_pdf_url": [
+        "https://arxiv.org/pdf/1810.11969"
+      ],
+      "citation_arxiv_id": [
+        "1810.11969"
+      ],
+      "citation_abstract": [
+        "In 1997, Shor and Laflamme defined the weight enumerators for quantum error-correcting codes and derived a MacWilliams identity. We extend their work by introducing our double weight enumerators and complete weight enumerators. The MacWilliams identities for these enumerators can be obtained similarly. With the help of MacWilliams identities, we obtain various bounds for asymmetric quantum codes."
+      ]
+    },
+    "1911.04269": {
+      "citation_title": [
+        "Weierstrass Semigroups From a Tower of Function Fields Attaining the Drinfeld-Vladut Bound"
+      ],
+      "citation_author": [
+        "Yang, Shudi",
+        "Hu, Chuangqiang"
+      ],
+      "citation_date": [
+        "2019/11/07"
+      ],
+      "citation_online_date": [
+        "2019/11/07"
+      ],
+      "citation_pdf_url": [
+        "https://arxiv.org/pdf/1911.04269"
+      ],
+      "citation_arxiv_id": [
+        "1911.04269"
+      ],
+      "citation_abstract": [
+        "For applications in algebraic geometric codes, an explicit description of bases of Riemann-Roch spaces of divisors on function fields over finite fields is needed. We investigate the third function field $ F^{(3)} $ in a tower of Artin-Schreier extensions described by Garcia and Stichtenoth reaching the Drinfeld-Vl{\\u{a}}du{\\c{t}} bound. We construct bases for the related Riemann-Roch spaces on $ F^{(3)} $ and present some basic properties of divisors on a line. From the bases, we explicitly calculate the Weierstrass semigroups and pure gaps at several places on $ F^{(3)} $. All of these results can be viewed as a generalization of the previous work done by Voss and H\\o{}holdt (1997)."
+      ]
+    },
+    "1912.02668": {
+      "citation_title": [
+        "A Modular Interpretation of BBGS Towers"
+      ],
+      "citation_author": [
+        "Chen, Rui",
+        "Chen, Zhuo",
+        "Hu, Chuangqiang"
+      ],
+      "citation_date": [
+        "2019/12/05"
+      ],
+      "citation_online_date": [
+        "2020/05/02"
+      ],
+      "citation_pdf_url": [
+        "https://arxiv.org/pdf/1912.02668"
+      ],
+      "citation_arxiv_id": [
+        "1912.02668"
+      ],
+      "citation_abstract": [
+        "In 2000, based on his procedure for constructing explicit towers of modular curves, Elkies deduced explicit equations of rank-2 Drinfeld modular curves which coincide with the asymptotically optimal towers of curves constructed by Garcia and Stichtenoth. In 2015, Bassa, Beelen, Garcia, and Stichtenoth constructed a celebrated (recursive and good) tower (BBGS-tower for short) of curves and outlined a modular interpretation of the defining equations. Soon after that, Gekeler studied in depth the modular curves coming from sparse Drinfeld modules. In this paper, to establish a link between these existing results, we propose and prove a generalized Elkies' Theorem which tells in detail how to directly describe a modular interpretation of the equations of rank-m Drinfeld modular curves with m>=2."
+      ]
+    },
+    "2309.00432": {
+      "citation_title": [
+        "Drinfeld Modular Curves Subordinate to Conjugacy Classes of Nilpotent Upper-Triangular Matrices"
+      ],
+      "citation_author": [
+        "Chen, Zhuo",
+        "Hu, Chuangqiang",
+        "Zhang, Tao",
+        "Zheng, Xiaopeng"
+      ],
+      "citation_date": [
+        "2023/09/01"
+      ],
+      "citation_online_date": [
+        "2023/09/01"
+      ],
+      "citation_pdf_url": [
+        "https://arxiv.org/pdf/2309.00432"
+      ],
+      "citation_arxiv_id": [
+        "2309.00432"
+      ],
+      "citation_abstract": [
+        "We introduce normalized Drinfeld modular curves that parameterize rank $m$ Drinfeld modules compatible with a $T$-torsion structure arising from a given conjugacy class of nilpotent upper-triangular $n\\times n$ matrices with rank $\\geqslant n-m$ over a finite field $\\mathbb{F}_q$. This creates a deep link connecting the classification of nilpotent upper-triangular matrices and the decomposition of Drinfeld modular curves. The conjugacy classes of nilpotent upper-triangular matrices one-to-one corresponds to certain $T$-torsion flags, and form a tree structure. As a result, the associated Drinfeld modular curves are organized in the same tree. This generalizes the tower structure introduced by Bassa, Beelen, Garcia, Stichtenoth, and others. Additionally,we prove the geometric irreducibility of $(3,2)$-type normalized Drinfeld modular curves, and characterize their associated function fields."
+      ]
+    },
+    "2312.16919": {
+      "citation_title": [
+        "Drinfeld Module and Weil pairing over Dedekind domain of class number two"
+      ],
+      "citation_author": [
+        "Hu, Chuangqiang",
+        "Huang, Xiao-Min"
+      ],
+      "citation_date": [
+        "2023/12/28"
+      ],
+      "citation_online_date": [
+        "2024/10/10"
+      ],
+      "citation_pdf_url": [
+        "https://arxiv.org/pdf/2312.16919"
+      ],
+      "citation_arxiv_id": [
+        "2312.16919"
+      ],
+      "citation_abstract": [
+        "The primary objective of this paper is to derive explicit formulas for rank one and rank two Drinfeld modules over a specific domain denoted by A. This domain corresponds to the projective line associated with an infinite place of degree two. To achieve the goals, we construct a pair of standard Drinfeld modules whose coefficients are in the Hilbert class field of A. We demonstrate that the period lattice of the exponential functions corresponding to both modules behaves similarly to the period lattice of the Carlitz module, the standard rank one Drinfeld module defined over rational function field. Moreover, we employ Andersons t-motive to obtain the complete family of rank two Drinfeld modules. This family is parameterized by the invariant J = \\lambda^{q^2+1} which effectively serves as the counterpart of the j-invariant for elliptic curves. Building upon the concepts introduced by van~der~Heiden, particularly with regard to rank two Drinfeld modules, we are able to reformulate the Weil pairing of Drinfeld modules of any rank using a specialized polynomial in multiple variables known as the Weil operator. As an illustrative example, we provide a detailed examination of a more explicit formula for the Weil pairing and the Weil operator of rank two Drinfeld modules over the domain A."
+      ]
+    },
+    "2409.09384": {
+      "citation_title": [
+        "On the $k$-th Tjurina number of weighted homogeneous singularities"
+      ],
+      "citation_author": [
+        "Hu, Chuangqiang",
+        "Yau, Stephen S. -T.",
+        "Zuo, Huaiqing"
+      ],
+      "citation_date": [
+        "2024/09/14"
+      ],
+      "citation_online_date": [
+        "2025/11/24"
+      ],
+      "citation_pdf_url": [
+        "https://arxiv.org/pdf/2409.09384"
+      ],
+      "citation_arxiv_id": [
+        "2409.09384"
+      ],
+      "citation_abstract": [
+        "Let $ (X,0) $ denote an isolated singularity defined by a weighted homogeneous polynomial $ f $. Let $ \\mathcal{O}$ be the local algebra of holomorphic function germs at the origin, with the maximal ideal $m $. We study the $k$-th Tjurina algebra, defined by $ A_k(f): = \\mathcal{O} / \\left( f , m^k J(f) \\right) $, where $J(f)$ denotes the Jacobian ideal of $ f $. The zeroth Tjurina algebra is well known to represent the tangent space of the base space of the semi-universal deformation of $(X, 0)$. Motivated by this observation, we explore the deformation of $(X,0)$ with respect to a fixed $k$-residue point. We show that the tangent space of the corresponding deformation functor is a subspace of the $k$-th Tjurina algebra. Explicit calculation of the $k$-th Tjurina numbers, which correspond to the dimensions of the $k$-th Tjurina algebras, plays a crucial role in understanding these deformations. According to the results of Milnor and Orlik, the zeroth Tjurina number can be expressed explicitly in terms of the weights of the variables in $f$. However, we observe that for values of $k$ exceeding the multiplicity of $X$, the $k$-th Tjurina number becomes more intricate and is not solely determined by the weights of the variables. In this paper, we introduce a novel complex derived from the classical Koszul complex and obtain a computable formula for the $k$-th Tjurina numbers for all $ k \\geqslant 0 $. As an application, we calculate the $k$-th Tjurina numbers for all weighted homogeneous singularities in three variables."
+      ]
+    },
+    "2410.10124": {
+      "citation_title": [
+        "Groupoids derived from the simple elliptic singularities"
+      ],
+      "citation_author": [
+        "Hu, Chuangqiang",
+        "Yau, Stephen S. -T.",
+        "Zuo, Huaiqing"
+      ],
+      "citation_date": [
+        "2024/10/14"
+      ],
+      "citation_online_date": [
+        "2024/10/14"
+      ],
+      "citation_pdf_url": [
+        "https://arxiv.org/pdf/2410.10124"
+      ],
+      "citation_arxiv_id": [
+        "2410.10124"
+      ],
+      "citation_abstract": [
+        "K. Saito's classification of simple elliptic singularities includes three families of weighted homogeneous singularities: $ \\tilde{E}_{6}, \\tilde{E}_7$, and $ \\tilde{E}_8 $. For each family, the isomorphism classes can be distinguished by K. Saito's $j$-functions. By applying the Mather-Yau theorem, which states that the isomorphism class of an isolated hypersurface singularity is completely determined by its $k$-th moduli algebra, M. Eastwood demonstrated explicitly that one can directly recover K. Saito's $j$-functions from the zeroth moduli algebras. This research aims to generalize M. Eastwood's result through meticulous computation of the groupoids associated with simple elliptic singularities. We not only directly retrieve K. Saito's $j$-functions from the $k$-th moduli algebras but also elucidate the automorphism structure within the $k$-th moduli algebras. We derive the automorphisms using the methodology of the $k$-th Yau algebra and establish a Torelli-type theorem for the $\\tilde{E}_7 $-family when $k=1$. In contrast, we find that the Torelli-type theorem is inapplicable for the first Yau algebra in the $ \\tilde{E}_6 $-family. By considering the first Yau algebra as a module rather than solely as a Lie algebra, we can impose constraints on the coefficients of the transformation matrices, which facilitates a straightforward identification of all isomorphisms. Our new approach also provides a simple verification of the result by Chen, Seeley, and Yau concerning the zeroth moduli algebras."
+      ]
+    },
+    "2510.27159": {
+      "citation_title": [
+        "New optimal function field towers over finite fields of quartic power"
+      ],
+      "citation_author": [
+        "Hu, Chuangqiang",
+        "Zhu, Xiuwu"
+      ],
+      "citation_date": [
+        "2025/10/31"
+      ],
+      "citation_online_date": [
+        "2025/10/31"
+      ],
+      "citation_pdf_url": [
+        "https://arxiv.org/pdf/2510.27159"
+      ],
+      "citation_arxiv_id": [
+        "2510.27159"
+      ],
+      "citation_abstract": [
+        "We introduce two new types of towers of Drinfeld modular curves. These towers originate from a specific domain $\\mathcal{A} $ and are analogous to the towers of rank-two Drinfeld modular curves over the polynomial ring. Specifically, the domain $\\mathcal{A} $ corresponds to the projective line over the finite field $ \\mathbb{F}_q $, equipped with an infinite place of degree two. We select an arbitrary non-zero principal $\\mathcal{A} $-ideal $ I_{\\eta} $ of degree two. Notably, the $ I_{\\eta} $-reduction of the tower of minimal Drinfeld modular curves is asymptotically optimal over the finite field $ \\mathbb{F}_{q^4} $."
+      ]
+    },
+    "2512.03860": {
+      "citation_title": [
+        "Infinitesimal deformations of Lie algebroid pairs"
+      ],
+      "citation_author": [
+        "Ni, Dadi",
+        "Chen, Zhuo",
+        "Hu, Chuangqiang",
+        "Xiang, Maosong"
+      ],
+      "citation_date": [
+        "2025/12/03"
+      ],
+      "citation_online_date": [
+        "2025/12/03"
+      ],
+      "citation_pdf_url": [
+        "https://arxiv.org/pdf/2512.03860"
+      ],
+      "citation_arxiv_id": [
+        "2512.03860"
+      ],
+      "citation_abstract": [
+        "We study infinitesimal deformations of Lie algebroid pairs in the category of smooth manifolds enriched with a local Artinian algebra. Given a Lie algebroid pair $(L,A)$, i.e. a Lie algebroid $L$ together with a Lie subalgebroid $A$, we investigate isomorphism classes of infinitesimal deformations of $(L,A)$ modulo automorphisms from exponentials of derivations of $L$ and those from the exponentials of inner derivations of $L$, respectively. For the associated two deformation functors, we find the associated governing $L_\\infty$-algebras in the sense of extended deformation theory. Furthermore, when $(L,A)$ is a matched Lie pair, i.e. the quotient $L/A$ is also a Lie subalgebroid of $L$, we investigate isomorphism classes of infinitesimal deformations modulo automorphisms from exponentials of derivations along the normal direction $L/A$. The extended deformation theory of the associated deformation functor recovers the formal deformation theory of complex structures and that of transversely holomorphic foliations."
+      ]
+    },
+    "2603.23930": {
+      "citation_title": [
+        "A Note on Cyclotomic Function Fields with Quadratic Modulus"
+      ],
+      "citation_author": [
+        "Chen, Haojie",
+        "Hu, Chuangqiang"
+      ],
+      "citation_date": [
+        "2026/03/25"
+      ],
+      "citation_online_date": [
+        "2026/04/04"
+      ],
+      "citation_pdf_url": [
+        "https://arxiv.org/pdf/2603.23930"
+      ],
+      "citation_arxiv_id": [
+        "2603.23930"
+      ],
+      "citation_abstract": [
+        "A longstanding and important problem in algebraic geometry is the characterization of algebraic function fields. In this paper, we focus on the characterization problem for cyclotomic function field $L(\\Lambda_M)$, which is an important class of explicit function fields with applications in number theory and coding theory. Motivated by Arakelian and Quoos' classification of $L(\\Lambda_M)$ with an irreducible quadratic modulus, we provide a complete characterization of the cyclotomic function field $L(\\Lambda_M)$ with modulus $M = x^2$. More precisely, we prove that a function field $\\mathcal{F}$ over $\\mathbb{F}_q$ is $\\mathbb{F}_q$-isomorphic to $L(\\Lambda_{x^2})$ if and only if it satisfies the following three conditions: (i) $\\mathcal{F}$ has a subgroup $G$ isomorphic to the direct product $(\\mathbb{F}_q,+) \\times \\mathbb{F}_q^*$; (ii) its genus is $g(\\mathcal{F}) = 1 + q(q-3)/2$; and (iii) the cardinality of $\\mathbb{F}_q$-rational places is exactly $q+1$."
+      ]
+    },
+    "2604.04124": {
+      "citation_title": [
+        "Relation between Anderson Generating Functions and Weil Pairing"
+      ],
+      "citation_author": [
+        "Hu, Chuangqiang",
+        "Ou-Yang, Yixuan"
+      ],
+      "citation_date": [
+        "2026/04/05"
+      ],
+      "citation_online_date": [
+        "2026/05/28"
+      ],
+      "citation_pdf_url": [
+        "https://arxiv.org/pdf/2604.04124"
+      ],
+      "citation_arxiv_id": [
+        "2604.04124"
+      ],
+      "citation_abstract": [
+        "The existence of the Weil pairing for Drinfeld modules was proved by van~der~Heiden using the Anderson $t$-motive. Papikian's note provided the explicit formula for the rank-two Weil pairing that avoids Anderson motives. Following this approach, Katen extended the formula to higher ranks. As Papikian observed, this method is more elementary than the approach using Anderson motives, but it is less conceptual. This paper is devoted to a new insight into Katen's formula motivated by the Moore determinant coming from Hamahata's tensor product of Drinfeld modules and the basis of torsion modules found by Maurischat and Perkins. We investigate the Weil operator, establish its connection with the remainder polynomial of Anderson generating functions modulo a fixed polynomial $\\mathfrak{f}$, and finally derive an extremely simple interpretation: the value of the rank-$r$ Weil pairing is essentially the specific coefficient in the Moore determinant of certain Anderson generating functions."
+      ]
+    }
+  },
+  "decisions": [
+    {
+      "field": "2604.04124.coauthors",
+      "before": [
+        "xu-xu"
+      ],
+      "after": [
+        "Yixuan Ou-Yang"
+      ],
+      "evidence": "Current v2 title block and arXiv author metadata list Hu and Ou-Yang; v2 gives both Sun Yat-Sen mathematics affiliations. Hu’s huchq local-part matches the earlier BIMSA huchq address read in 2309.00432v1."
+    },
+    {
+      "field": "identity_profile.coauthor_circle_extended",
+      "decision": "Remove Xu Xu false lead and Di Yang unsupported lead. No Di Yang among these 15 source author lists; absence does not prove they never collaborated elsewhere."
+    },
+    {
+      "field": "BIMSA career",
+      "decision": "Use 2022/2024 dated source observations as events, not fabricated employment boundaries or a rank. Retained institution group past-members record not re-certified as an exact appointment."
+    },
+    {
+      "field": "SYSU career",
+      "decision": "2025.04 joining and associate-professor title supported by host university 2025.12.25 introduction; 2026.09.11 current home-institution doctoral supervisor roster confirms listed affiliation. Earlier 2020.11.02 proposed-hire notice explicitly separated from employment."
+    }
+  ],
+  "remaining": [
+    "Doctoral institution, year and advisor still unknown.",
+    "Exact BIMSA rank and start/end dates unverified.",
+    "Not a complete primary identity audit of all 15 works; only author-list compatibility checked for all, with identity/affiliation anchors on specified papers.",
+    "No new publication added. Five existing publication clues retained; actual publication status of other rows not judged."
+  ]
+}

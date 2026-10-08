@@ -1,0 +1,1029 @@
+{
+  "reviewer": "Codex",
+  "reviewed_on": "2026-10-08",
+  "base_commit": "78ee31119aec4d5b9151c54cb23bc5a11be02e52",
+  "scope": "All 13 existing timeline events: date basis, concise historical narrative, citation support and paper identifiers. This does not certify the proofs in cited papers or completeness of the historical selection.",
+  "original_raw_sha256": "d6a452368dab9363a8f8eb88515e92ba0d108d67a31751cf8cdd0f6a2a921107",
+  "original_raw": "events:\n  - slug: witten-2dtft-1990\n    date: \"1990\"\n    precision: year\n    title:\n      en: \"Witten's 2D topological gravity and intersection numbers\"\n      zh: \"Witten 提出二维拓扑引力与交叉数猜想\"\n    description: |\n      Witten conjecture: the generating function of intersection numbers\n      on $\\overline{M}_{g,n}$ is a tau-function of the KdV hierarchy.\n    people: []\n    concepts: [gromov-witten-theory, integrable-hierarchy]\n    papers: []\n    era: modern\n    importance: milestone\n\n  - slug: wdvv-equations-1990\n    date: \"1990\"\n    precision: year\n    title:\n      en: \"WDVV equations discovered\"\n      zh: \"WDVV 方程被发现\"\n    description: |\n      Witten, Dijkgraaf, Verlinde & Verlinde 发现了拓扑场论中的结合性方程。\n    people: []\n    concepts: [wdvv-equations, topological-field-theory]\n    papers: []\n    era: modern\n    importance: milestone\n\n  - slug: kontsevich-witten-1992\n    date: \"1992\"\n    precision: year\n    title:\n      en: \"Kontsevich proves Witten conjecture\"\n      zh: \"Kontsevich 证明 Witten 猜想\"\n    description: |\n      Kontsevich 用矩阵积分方法证明了 Witten 猜想。\n    people: [kontsevich]\n    concepts: [gromov-witten-theory, integrable-hierarchy]\n    papers: []\n    era: modern\n    importance: milestone\n\n  - slug: cecotti-vafa-tt-star-1993\n    date: \"1993\"\n    precision: year\n    title:\n      en: \"Cecotti-Vafa classification of N=2 theories\"\n      zh: \"Cecotti-Vafa N=2 理论分类\"\n    description: |\n      tt* geometry 的奠基工作。将拓扑-反拓扑融合与 Stokes 现象联系起来。\n    people: []\n    concepts: [tt-star-geometry, stokes-phenomenon]\n    papers: []\n    era: modern\n    importance: major\n\n  - slug: dubrovin-frobenius-1994\n    date: \"1994\"\n    precision: year\n    title:\n      en: \"Dubrovin introduces Frobenius manifolds\"\n      zh: \"Dubrovin 引入 Frobenius 流形\"\n    description: |\n      229 页的 \"Geometry of 2D topological field theories\" 奠定了\n      Frobenius 流形理论的基础，统一了 WDVV 方程、量子上同调和可积系统。\n    people: [dubrovin]\n    concepts: [frobenius-manifold, wdvv-equations, quantum-cohomology]\n    papers: [\"hep-th/9407018\"]\n    era: modern\n    importance: milestone\n\n  - slug: kontsevich-hms-1994\n    date: \"1994-08\"\n    precision: month\n    title:\n      en: \"Kontsevich proposes Homological Mirror Symmetry\"\n      zh: \"Kontsevich 提出同调镜像对称猜想\"\n    description: |\n      ICM Zurich 报告，提出 HMS：\n      $D^b\\mathrm{Coh}(X) \\cong D^\\pi\\mathrm{Fuk}(\\check{X})$\n    people: [kontsevich]\n    concepts: [homological-mirror-symmetry, mirror-symmetry]\n    papers: [\"alg-geom/9411018\"]\n    era: modern\n    importance: milestone\n\n  - slug: dubrovin-icm-1998\n    date: \"1998\"\n    precision: year\n    title:\n      en: \"Dubrovin's ICM talk on Frobenius manifolds\"\n      zh: \"Dubrovin 在 ICM 做 Frobenius 流形报告\"\n    description: |\n      Berlin ICM 邀请报告，综述 Frobenius 流形与可积系统。\n    people: [dubrovin]\n    concepts: [frobenius-manifold]\n    papers: []\n    era: modern\n    importance: major\n\n  - slug: kontsevich-fields-1998\n    date: \"1998\"\n    precision: year\n    title:\n      en: \"Kontsevich receives Fields Medal\"\n      zh: \"Kontsevich 获 Fields 奖\"\n    description: |\n      因在代数几何、拓扑和数学物理方面的贡献获奖。\n    people: [kontsevich]\n    concepts: []\n    papers: []\n    era: modern\n    importance: milestone\n\n  - slug: xu-quantum-groups-2017\n    date: \"2017\"\n    precision: year\n    title:\n      en: \"Xu connects Frobenius manifolds and quantum groups\"\n      zh: \"徐晓濛建立 Frobenius 流形与量子群的联系\"\n    description: |\n      \"Frobenius Manifolds and Quantum Groups\" 将两个几乎不相交的领域\n      （经典 Frobenius 流形理论和量子群/Poisson 几何）桥接起来。\n    people: [xu-xiaomeng]\n    concepts: [frobenius-manifold, quantum-groups, stokes-phenomenon]\n    papers: []\n    era: contemporary\n    importance: major\n\n  - slug: cotti-coalescence-2019\n    date: \"2019\"\n    precision: year\n    title:\n      en: \"Cotti-Dubrovin-Guzzetti: isomonodromy with coalescing eigenvalues\"\n      zh: \"Cotti-Dubrovin-Guzzetti：特征值合并时的等单值变形\"\n    description: |\n      解决了 Frobenius 流形理论中长期悬而未决的 coalescence 问题。\n      Dubrovin 生前最后的重要合作成果之一。\n    people: [cotti, dubrovin, guzzetti]\n    concepts: [isomonodromy, frobenius-manifold, stokes-phenomenon]\n    papers: []\n    era: contemporary\n    importance: major\n\n  - slug: dubrovin-death-2019\n    date: \"2019-03-19\"\n    precision: day\n    title:\n      en: \"Boris Dubrovin passes away\"\n      zh: \"Boris Dubrovin 去世\"\n    description: |\n      Frobenius 流形理论的创始人因 ALS 在 SISSA 去世。\n    people: [dubrovin]\n    concepts: []\n    papers: []\n    era: contemporary\n    importance: milestone\n\n  - slug: dubrovin-medal-2020\n    date: \"2020\"\n    precision: year\n    title:\n      en: \"First Boris Dubrovin Medal awarded\"\n      zh: \"首届 Boris Dubrovin Medal 颁发\"\n    description: |\n      SISSA 设立，Moscow Math Society + INdAM 支持，每两年颁发，\n      表彰数学物理杰出年轻研究者。首届得主：Gaetan Borot。\n    people: [dubrovin]\n    concepts: []\n    papers: []\n    era: contemporary\n    importance: notable\n\n  - slug: novikov-death-2024\n    date: \"2024-06-06\"\n    precision: day\n    title:\n      en: \"Sergei Novikov passes away\"\n      zh: \"Sergei Novikov（诺维科夫）去世\"\n    description: |\n      Fields Medal 1970 得主，Dubrovin 的导师，代数拓扑和可积系统巨匠。\n    people: [novikov-sergei]\n    concepts: []\n    papers: []\n    era: contemporary\n    importance: major\n",
+  "events": [
+    {
+      "slug": "witten-2dtft-1990",
+      "before": {
+        "slug": "witten-2dtft-1990",
+        "date": "1990",
+        "precision": "year",
+        "title": {
+          "en": "Witten's 2D topological gravity and intersection numbers",
+          "zh": "Witten 提出二维拓扑引力与交叉数猜想"
+        },
+        "description": "Witten conjecture: the generating function of intersection numbers\non $\\overline{M}_{g,n}$ is a tau-function of the KdV hierarchy.\n",
+        "people": [],
+        "concepts": [
+          "gromov-witten-theory",
+          "integrable-hierarchy"
+        ],
+        "papers": [],
+        "era": "modern",
+        "importance": "milestone"
+      },
+      "after": {
+        "slug": "witten-2dtft-1990",
+        "date": "1990-04",
+        "precision": "month",
+        "title": {
+          "en": "Witten lectures on intersection numbers and KdV",
+          "zh": "Witten 在哈佛讲述交叉数与 KdV 的猜想"
+        },
+        "description": "Witten 在哈佛的几何与拓扑会议讲座中讨论稳定曲线模空间的交叉理论与 KdV 层级的联系。相关讲义《Two-dimensional gravity and intersection theory on moduli space》的摘要明确记载了这两次讲座。",
+        "people": [],
+        "concepts": [
+          "gromov-witten-theory",
+          "integrable-hierarchy"
+        ],
+        "papers": [],
+        "era": "modern",
+        "importance": "milestone",
+        "date_note": "按讲义摘要所记的 1990 年 4 月讲座日期。PDF 卷首印为 1991 年，出版平台的卷号/DOI 标记为 1990；此处不以平台年份替代讲座日期。",
+        "sources": [
+          {
+            "label": "Witten 讲义：第一页摘要、卷首及收稿日期",
+            "url": "https://archive.intlpress.com/site/pub/files/_fulltext/journals/sdg/1990/0001/0001/SDG-1990-0001-0001-a005.pdf",
+            "last_verified": "2026-10-08"
+          }
+        ],
+        "reviewed_on": "2026-10-08",
+        "review_note": "已核对下列一手来源支持的日期、人物与本文概述；不构成对引用论文证明的独立审计。"
+      }
+    },
+    {
+      "slug": "wdvv-equations-1990",
+      "before": {
+        "slug": "wdvv-equations-1990",
+        "date": "1990",
+        "precision": "year",
+        "title": {
+          "en": "WDVV equations discovered",
+          "zh": "WDVV 方程被发现"
+        },
+        "description": "Witten, Dijkgraaf, Verlinde & Verlinde 发现了拓扑场论中的结合性方程。\n",
+        "people": [],
+        "concepts": [
+          "wdvv-equations",
+          "topological-field-theory"
+        ],
+        "papers": [],
+        "era": "modern",
+        "importance": "milestone"
+      },
+      "after": {
+        "slug": "wdvv-equations-1990",
+        "date": "1990",
+        "precision": "year",
+        "title": {
+          "en": "Early literature on WDVV associativity equations",
+          "zh": "WDVV 结合律方程的早期文献（1990—1991）"
+        },
+        "description": "WDVV 的名称来自 Witten、Dijkgraaf、Erik Verlinde 和 Herman Verlinde。Dubrovin 的 1992 年论文将两种主场时的结合律方程追溯到 Witten，将相关条件追溯到 Dijkgraaf 与两位 Verlinde 的工作。",
+        "people": [],
+        "concepts": [
+          "wdvv-equations",
+          "topological-field-theory"
+        ],
+        "papers": [],
+        "era": "modern",
+        "importance": "milestone",
+        "date_note": "以这组 1990—1991 年文献的起点排序；不认定唯一的“发现年”。",
+        "sources": [
+          {
+            "label": "Dubrovin（1992）：第 629、635—636 页及参考文献 [2]、[10]",
+            "url": "https://people.sissa.it/~dubrovin/Papers/1992/dubrovin_1992_npb.pdf",
+            "last_verified": "2026-10-08"
+          }
+        ],
+        "reviewed_on": "2026-10-08",
+        "review_note": "已核对下列一手来源支持的日期、人物与本文概述；不构成对引用论文证明的独立审计。"
+      }
+    },
+    {
+      "slug": "kontsevich-witten-1992",
+      "before": {
+        "slug": "kontsevich-witten-1992",
+        "date": "1992",
+        "precision": "year",
+        "title": {
+          "en": "Kontsevich proves Witten conjecture",
+          "zh": "Kontsevich 证明 Witten 猜想"
+        },
+        "description": "Kontsevich 用矩阵积分方法证明了 Witten 猜想。\n",
+        "people": [
+          "kontsevich"
+        ],
+        "concepts": [
+          "gromov-witten-theory",
+          "integrable-hierarchy"
+        ],
+        "papers": [],
+        "era": "modern",
+        "importance": "milestone"
+      },
+      "after": {
+        "slug": "kontsevich-witten-1992",
+        "date": "1992-06",
+        "precision": "month",
+        "title": {
+          "en": "Kontsevich’s proof of Witten’s conjecture is published",
+          "zh": "Kontsevich 的 Witten 猜想证明论文出版"
+        },
+        "description": "《Intersection theory on the moduli space of curves and the matrix Airy function》通过矩阵积分研究曲线模空间的交叉数，证明 Witten 猜想。论文刊于 Communications in Mathematical Physics 147，1–23。",
+        "people": [
+          "kontsevich"
+        ],
+        "concepts": [
+          "gromov-witten-theory",
+          "integrable-hierarchy"
+        ],
+        "papers": [],
+        "era": "modern",
+        "importance": "milestone",
+        "date_note": "期刊页面记载 1992 年 6 月出版；MPIM 已保存 MPI/91-77 预印本，因此不把 1992 年写成工作首次公开之年。",
+        "sources": [
+          {
+            "label": "Springer 原刊记录：出版月、卷页与摘要",
+            "url": "https://link.springer.com/article/10.1007/BF02099526",
+            "last_verified": "2026-10-08"
+          },
+          {
+            "label": "MPIM 原始预印本 MPI/91-77：Introduction",
+            "url": "https://archive.mpim-bonn.mpg.de/2283/1/preprint_1991_77.pdf",
+            "last_verified": "2026-10-08"
+          }
+        ],
+        "reviewed_on": "2026-10-08",
+        "review_note": "已核对下列一手来源支持的日期、人物与本文概述；不构成对引用论文证明的独立审计。"
+      }
+    },
+    {
+      "slug": "cecotti-vafa-tt-star-1993",
+      "before": {
+        "slug": "cecotti-vafa-tt-star-1993",
+        "date": "1993",
+        "precision": "year",
+        "title": {
+          "en": "Cecotti-Vafa classification of N=2 theories",
+          "zh": "Cecotti-Vafa N=2 理论分类"
+        },
+        "description": "tt* geometry 的奠基工作。将拓扑-反拓扑融合与 Stokes 现象联系起来。\n",
+        "people": [],
+        "concepts": [
+          "tt-star-geometry",
+          "stokes-phenomenon"
+        ],
+        "papers": [],
+        "era": "modern",
+        "importance": "major"
+      },
+      "after": {
+        "slug": "cecotti-vafa-tt-star-1993",
+        "date": "1993",
+        "precision": "year",
+        "title": {
+          "en": "Cecotti–Vafa publish On Classification of N=2 Supersymmetric Theories",
+          "zh": "Cecotti–Vafa 的 N=2 理论分类论文出版"
+        },
+        "description": "这篇论文把二维 $N=2$ 理论的孤子谱与共形点手征场的标度维数联系起来，并讨论分类方案。它是继 1991 年《Topological—anti-topological fusion》之后的工作；不能把 1993 年当作 $tt^*$ 几何的起始年份。",
+        "people": [],
+        "concepts": [
+          "tt-star-geometry",
+          "stokes-phenomenon"
+        ],
+        "papers": [
+          "hep-th/9211097"
+        ],
+        "era": "modern",
+        "importance": "major",
+        "date_note": "按 CMP 158（1993），569–644 的出版年份；arXiv 现存正文版本为 1992 年 11 月 24 日的 v2。",
+        "sources": [
+          {
+            "label": "Cecotti–Vafa 分类论文：v2 摘要和期刊信息",
+            "url": "https://arxiv.org/abs/hep-th/9211097v2",
+            "last_verified": "2026-10-08"
+          },
+          {
+            "label": "1991 年 Topological—anti-topological fusion：作者机构库原刊记录",
+            "url": "https://dash.harvard.edu/entities/publication/15e6ad16-7a9f-41cf-9b2f-3015c80c1ff4",
+            "last_verified": "2026-10-08"
+          }
+        ],
+        "reviewed_on": "2026-10-08",
+        "review_note": "已核对下列一手来源支持的日期、人物与本文概述；不构成对引用论文证明的独立审计。"
+      }
+    },
+    {
+      "slug": "dubrovin-frobenius-1994",
+      "before": {
+        "slug": "dubrovin-frobenius-1994",
+        "date": "1994",
+        "precision": "year",
+        "title": {
+          "en": "Dubrovin introduces Frobenius manifolds",
+          "zh": "Dubrovin 引入 Frobenius 流形"
+        },
+        "description": "229 页的 \"Geometry of 2D topological field theories\" 奠定了\nFrobenius 流形理论的基础，统一了 WDVV 方程、量子上同调和可积系统。\n",
+        "people": [
+          "dubrovin"
+        ],
+        "concepts": [
+          "frobenius-manifold",
+          "wdvv-equations",
+          "quantum-cohomology"
+        ],
+        "papers": [
+          "hep-th/9407018"
+        ],
+        "era": "modern",
+        "importance": "milestone"
+      },
+      "after": {
+        "slug": "dubrovin-frobenius-1994",
+        "date": "1994-07-04",
+        "precision": "day",
+        "title": {
+          "en": "Dubrovin posts Geometry of 2d topological field theories",
+          "zh": "Dubrovin 公开 Frobenius 流形讲义预印本"
+        },
+        "description": "《Geometry of 2d topological field theories》系统讨论 WDVV、Frobenius 流形、等单值变形与可积层级。Dubrovin 的 1992 年论文第 637 页已给出 Frobenius 流形定义，因此这份讲义的上传时间不是该概念的首次提出时间。",
+        "people": [
+          "dubrovin"
+        ],
+        "concepts": [
+          "frobenius-manifold",
+          "wdvv-equations",
+          "quantum-cohomology"
+        ],
+        "papers": [
+          "hep-th/9407018"
+        ],
+        "era": "modern",
+        "importance": "milestone",
+        "date_note": "1994 年 7 月 4 日为 arXiv v1 提交日期；讲义后来于 1996 年出版。",
+        "sources": [
+          {
+            "label": "Dubrovin 讲义：arXiv v1 提交记录",
+            "url": "https://arxiv.org/abs/hep-th/9407018v1",
+            "last_verified": "2026-10-08"
+          },
+          {
+            "label": "Dubrovin（1992）：第 637 页 Definition 2.2",
+            "url": "https://people.sissa.it/~dubrovin/Papers/1992/dubrovin_1992_npb.pdf",
+            "last_verified": "2026-10-08"
+          },
+          {
+            "label": "Dubrovin 本人论文目录：讲义 1996 年出版记录",
+            "url": "https://people.sissa.it/~dubrovin/bd_papers.html",
+            "last_verified": "2026-10-08"
+          }
+        ],
+        "reviewed_on": "2026-10-08",
+        "review_note": "已核对下列一手来源支持的日期、人物与本文概述；不构成对引用论文证明的独立审计。"
+      }
+    },
+    {
+      "slug": "kontsevich-hms-1994",
+      "before": {
+        "slug": "kontsevich-hms-1994",
+        "date": "1994-08",
+        "precision": "month",
+        "title": {
+          "en": "Kontsevich proposes Homological Mirror Symmetry",
+          "zh": "Kontsevich 提出同调镜像对称猜想"
+        },
+        "description": "ICM Zurich 报告，提出 HMS：\n$D^b\\mathrm{Coh}(X) \\cong D^\\pi\\mathrm{Fuk}(\\check{X})$\n",
+        "people": [
+          "kontsevich"
+        ],
+        "concepts": [
+          "homological-mirror-symmetry",
+          "mirror-symmetry"
+        ],
+        "papers": [
+          "alg-geom/9411018"
+        ],
+        "era": "modern",
+        "importance": "milestone"
+      },
+      "after": {
+        "slug": "kontsevich-hms-1994",
+        "date": "1994",
+        "precision": "year",
+        "title": {
+          "en": "Kontsevich proposes Homological Mirror Symmetry at ICM",
+          "zh": "Kontsevich 在 ICM 提出同调镜像对称猜想"
+        },
+        "description": "苏黎世 ICM 报告《Homological Algebra of Mirror Symmetry》提出用同调代数表述镜像对称。报告第 18 页讨论 $c_1(V)=0$ 的辛流形及其镜像代数流形，联系 Fukaya 范畴所构造的导出范畴与凝聚层导出范畴；原文同时保留适当扩大范畴等构造限定。",
+        "people": [
+          "kontsevich"
+        ],
+        "concepts": [
+          "homological-mirror-symmetry",
+          "mirror-symmetry"
+        ],
+        "papers": [
+          "alg-geom/9411018"
+        ],
+        "era": "modern",
+        "importance": "milestone",
+        "date_note": "按报告所记的 ICM 1994 会议年份；arXiv v1 于 1994 年 11 月 30 日提交。",
+        "sources": [
+          {
+            "label": "Kontsevich 原报告：arXiv 记录及第 18 页 Homological Mirror Conjecture",
+            "url": "https://arxiv.org/abs/alg-geom/9411018v1",
+            "last_verified": "2026-10-08"
+          }
+        ],
+        "reviewed_on": "2026-10-08",
+        "review_note": "核对报告身份、年份和第 18 页原始猜想措辞。此条记载历史提议；具体空间上今天的证明进展另见开放问题页。"
+      }
+    },
+    {
+      "slug": "dubrovin-icm-1998",
+      "before": {
+        "slug": "dubrovin-icm-1998",
+        "date": "1998",
+        "precision": "year",
+        "title": {
+          "en": "Dubrovin's ICM talk on Frobenius manifolds",
+          "zh": "Dubrovin 在 ICM 做 Frobenius 流形报告"
+        },
+        "description": "Berlin ICM 邀请报告，综述 Frobenius 流形与可积系统。\n",
+        "people": [
+          "dubrovin"
+        ],
+        "concepts": [
+          "frobenius-manifold"
+        ],
+        "papers": [],
+        "era": "modern",
+        "importance": "major"
+      },
+      "after": {
+        "slug": "dubrovin-icm-1998",
+        "date": "1998",
+        "precision": "year",
+        "title": {
+          "en": "Dubrovin speaks on Frobenius manifolds at ICM Berlin",
+          "zh": "Dubrovin 在柏林 ICM 报告 Frobenius 流形"
+        },
+        "description": "报告题为《Geometry and Analytic Theory of Frobenius Manifolds》，刊于 ICM 1998 论文集第二卷第 315–326 页，介绍 Frobenius 流形及其与 Gromov–Witten 理论、奇点、反射群和可积层级的联系。",
+        "people": [
+          "dubrovin"
+        ],
+        "concepts": [
+          "frobenius-manifold"
+        ],
+        "papers": [
+          "math/9807034"
+        ],
+        "era": "modern",
+        "importance": "major",
+        "date_note": "按 ICM 1998 会议与论文集年份；本人主页将其列入微分几何与整体分析分会场。",
+        "sources": [
+          {
+            "label": "Dubrovin 原报告：标题、摘要、页码及论文集页脚",
+            "url": "https://people.sissa.it/~dubrovin/Papers/1998/icm98.pdf",
+            "last_verified": "2026-10-08"
+          },
+          {
+            "label": "Dubrovin 本人主页：Selected Invited Talks",
+            "url": "https://people.sissa.it/~dubrovin/",
+            "last_verified": "2026-10-08"
+          }
+        ],
+        "reviewed_on": "2026-10-08",
+        "review_note": "已核对下列一手来源支持的日期、人物与本文概述；不构成对引用论文证明的独立审计。"
+      }
+    },
+    {
+      "slug": "kontsevich-fields-1998",
+      "before": {
+        "slug": "kontsevich-fields-1998",
+        "date": "1998",
+        "precision": "year",
+        "title": {
+          "en": "Kontsevich receives Fields Medal",
+          "zh": "Kontsevich 获 Fields 奖"
+        },
+        "description": "因在代数几何、拓扑和数学物理方面的贡献获奖。\n",
+        "people": [
+          "kontsevich"
+        ],
+        "concepts": [],
+        "papers": [],
+        "era": "modern",
+        "importance": "milestone"
+      },
+      "after": {
+        "slug": "kontsevich-fields-1998",
+        "date": "1998-08-18",
+        "precision": "day",
+        "title": {
+          "en": "Kontsevich receives the Fields Medal",
+          "zh": "Kontsevich 获 Fields 奖"
+        },
+        "description": "Kontsevich 在柏林 ICM 开幕式获 Fields 奖。主办方获奖页面列出的相关领域为数学物理、代数几何和拓扑。",
+        "people": [
+          "kontsevich"
+        ],
+        "concepts": [],
+        "papers": [],
+        "era": "modern",
+        "importance": "milestone",
+        "date_note": "按 ICM 开幕式及 1998 年 8 月 18 日获奖公告；不与其获奖演讲日期混同。",
+        "sources": [
+          {
+            "label": "ICM 1998 官方获奖页面",
+            "url": "https://www.mathunion.org/fileadmin/IMU/ICM1998/Berlin/ICM98/prizes/index.html",
+            "last_verified": "2026-10-08"
+          }
+        ],
+        "reviewed_on": "2026-10-08",
+        "review_note": "已核对下列一手来源支持的日期、人物与本文概述；不构成对引用论文证明的独立审计。"
+      }
+    },
+    {
+      "slug": "xu-quantum-groups-2017",
+      "before": {
+        "slug": "xu-quantum-groups-2017",
+        "date": "2017",
+        "precision": "year",
+        "title": {
+          "en": "Xu connects Frobenius manifolds and quantum groups",
+          "zh": "徐晓濛建立 Frobenius 流形与量子群的联系"
+        },
+        "description": "\"Frobenius Manifolds and Quantum Groups\" 将两个几乎不相交的领域\n（经典 Frobenius 流形理论和量子群/Poisson 几何）桥接起来。\n",
+        "people": [
+          "xu-xiaomeng"
+        ],
+        "concepts": [
+          "frobenius-manifold",
+          "quantum-groups",
+          "stokes-phenomenon"
+        ],
+        "papers": [],
+        "era": "contemporary",
+        "importance": "major"
+      },
+      "after": {
+        "slug": "xu-quantum-groups-2017",
+        "date": "2017-12-30",
+        "precision": "day",
+        "title": {
+          "en": "Xiaomeng Xu submits Frobenius manifolds and quantum groups",
+          "zh": "徐晓濛提交 Frobenius 流形与量子群预印本"
+        },
+        "description": "《Frobenius manifolds and quantum groups》的 v1 摘要介绍关于量子 Stokes 矩阵的等单值 KZ 联络，并讨论其半经典极限与半单 Frobenius 流形的 Dubrovin 联络。v1 中关于 Givental 圈空间变换量子化的表述仍是猜想。",
+        "people": [
+          "xu-xiaomeng"
+        ],
+        "concepts": [
+          "frobenius-manifold",
+          "quantum-groups",
+          "stokes-phenomenon"
+        ],
+        "papers": [
+          "1801.00123"
+        ],
+        "era": "contemporary",
+        "importance": "major",
+        "date_note": "按 arXiv v1 的 2017 年 12 月 30 日提交日期；编号 1801.00123 不表示首次提交一定发生在 2018 年。",
+        "sources": [
+          {
+            "label": "徐晓濛原文 v1：摘要、版本日期及猜想限定",
+            "url": "https://arxiv.org/abs/1801.00123v1",
+            "last_verified": "2026-10-08"
+          }
+        ],
+        "reviewed_on": "2026-10-08",
+        "review_note": "核对 2017 年 v1 摘要范围；2020 年 v2 摘要还涉及 flat F-manifolds，未将后续版本内容倒填为 2017 年成果。"
+      }
+    },
+    {
+      "slug": "cotti-coalescence-2019",
+      "before": {
+        "slug": "cotti-coalescence-2019",
+        "date": "2019",
+        "precision": "year",
+        "title": {
+          "en": "Cotti-Dubrovin-Guzzetti: isomonodromy with coalescing eigenvalues",
+          "zh": "Cotti-Dubrovin-Guzzetti：特征值合并时的等单值变形"
+        },
+        "description": "解决了 Frobenius 流形理论中长期悬而未决的 coalescence 问题。\nDubrovin 生前最后的重要合作成果之一。\n",
+        "people": [
+          "cotti",
+          "dubrovin",
+          "guzzetti"
+        ],
+        "concepts": [
+          "isomonodromy",
+          "frobenius-manifold",
+          "stokes-phenomenon"
+        ],
+        "papers": [],
+        "era": "contemporary",
+        "importance": "major"
+      },
+      "after": {
+        "slug": "cotti-coalescence-2019",
+        "date": "2019",
+        "precision": "year",
+        "title": {
+          "en": "Cotti–Dubrovin–Guzzetti publish on coalescing eigenvalues",
+          "zh": "Cotti–Dubrovin–Guzzetti 的特征值合并论文出版"
+        },
+        "description": "《Isomonodromy Deformations at an Irregular Singularity with Coalescing Eigenvalues》刊于 Duke Mathematical Journal 168(6)，967–1108。论文研究 Poincaré 秩为 1、首项矩阵在合并处仍可对角化的系统；在另有 $z=0$ 处的 Fuchs 奇点及相应留数消失条件下，讨论等单值变形跨越合并轨迹的延拓。",
+        "people": [
+          "cotti",
+          "dubrovin",
+          "guzzetti"
+        ],
+        "concepts": [
+          "isomonodromy",
+          "frobenius-manifold",
+          "stokes-phenomenon"
+        ],
+        "papers": [
+          "1706.04808"
+        ],
+        "era": "contemporary",
+        "importance": "major",
+        "date_note": "按 2019 年期刊出版年份；arXiv 预印本已于 2017 年 6 月 15 日提交。",
+        "sources": [
+          {
+            "label": "作者原预印本：研究对象、假设与提交日期",
+            "url": "https://arxiv.org/abs/1706.04808",
+            "last_verified": "2026-10-08"
+          },
+          {
+            "label": "SISSA 机构库：Duke 2019 原刊元数据",
+            "url": "https://iris.sissa.it/handle/20.500.11767/90494",
+            "last_verified": "2026-10-08"
+          }
+        ],
+        "reviewed_on": "2026-10-08",
+        "review_note": "核对原文摘要中的限定与原刊信息；未将其扩大成“所有特征值合并问题已解决”，也不作“最后的重要成果”等评价。"
+      }
+    },
+    {
+      "slug": "dubrovin-death-2019",
+      "before": {
+        "slug": "dubrovin-death-2019",
+        "date": "2019-03-19",
+        "precision": "day",
+        "title": {
+          "en": "Boris Dubrovin passes away",
+          "zh": "Boris Dubrovin 去世"
+        },
+        "description": "Frobenius 流形理论的创始人因 ALS 在 SISSA 去世。\n",
+        "people": [
+          "dubrovin"
+        ],
+        "concepts": [],
+        "papers": [],
+        "era": "contemporary",
+        "importance": "milestone"
+      },
+      "after": {
+        "slug": "dubrovin-death-2019",
+        "date": "2019-03-19",
+        "precision": "day",
+        "title": {
+          "en": "Boris Dubrovin passes away",
+          "zh": "Boris Dubrovin 去世"
+        },
+        "description": "SISSA 讣告记载 Dubrovin 于 2019 年 3 月 19 日去世，享年 68 岁；他自 1993 年起在 SISSA 任教。",
+        "people": [
+          "dubrovin"
+        ],
+        "concepts": [],
+        "papers": [],
+        "era": "contemporary",
+        "importance": "milestone",
+        "date_note": "采用讣告正文的去世日期；讣告发布于 2019 年 3 月 22 日。",
+        "sources": [
+          {
+            "label": "SISSA：Remembering Boris Dubrovin",
+            "url": "https://www.sissa.it/news/remembering-boris-dubrovin",
+            "last_verified": "2026-10-08"
+          }
+        ],
+        "reviewed_on": "2026-10-08",
+        "review_note": "核对讣告日期、年龄及任职起年。撤去原条目无来源支持的“在 SISSA 去世”地点说法。"
+      }
+    },
+    {
+      "slug": "dubrovin-medal-2020",
+      "before": {
+        "slug": "dubrovin-medal-2020",
+        "date": "2020",
+        "precision": "year",
+        "title": {
+          "en": "First Boris Dubrovin Medal awarded",
+          "zh": "首届 Boris Dubrovin Medal 颁发"
+        },
+        "description": "SISSA 设立，Moscow Math Society + INdAM 支持，每两年颁发，\n表彰数学物理杰出年轻研究者。首届得主：Gaetan Borot。\n",
+        "people": [
+          "dubrovin"
+        ],
+        "concepts": [],
+        "papers": [],
+        "era": "contemporary",
+        "importance": "notable"
+      },
+      "after": {
+        "slug": "dubrovin-medal-2020",
+        "date": "2020-07-14",
+        "precision": "day",
+        "title": {
+          "en": "First Dubrovin Medal winners announced",
+          "zh": "首届 Dubrovin 奖章公布两位共同得主"
+        },
+        "description": "SISSA 宣布 Gaëtan Borot 与 Alexandr Buryak 共同获得 2020 年首届 Boris Dubrovin Medal。奖章由 SISSA 设立，获得莫斯科数学会与 INdAM 下属 GNFM、GNSAGA 支持。官方会议网站把本届颁奖仪式安排在 2021 年 7 月 1 日。",
+        "people": [
+          "dubrovin"
+        ],
+        "concepts": [],
+        "papers": [],
+        "era": "contemporary",
+        "importance": "notable",
+        "date_note": "2020 年 7 月 14 日是得主公告日期；2021 年 7 月 1 日是后续颁奖仪式日期。",
+        "sources": [
+          {
+            "label": "SISSA：Dubrovin medal winners 2020（两位共同得主）",
+            "url": "https://www.sissa.it/news/dubrovin-medal-winners-2020",
+            "last_verified": "2026-10-08"
+          },
+          {
+            "label": "SISSA 纪念会议：2020 奖章的 2021 年颁奖仪式",
+            "url": "https://indico.sissa.it/e/41",
+            "last_verified": "2026-10-08"
+          }
+        ],
+        "reviewed_on": "2026-10-08",
+        "review_note": "核对两位得主、主办与支持机构、公告和仪式日期；修正原条目漏列 Buryak 的错误。"
+      }
+    },
+    {
+      "slug": "novikov-death-2024",
+      "before": {
+        "slug": "novikov-death-2024",
+        "date": "2024-06-06",
+        "precision": "day",
+        "title": {
+          "en": "Sergei Novikov passes away",
+          "zh": "Sergei Novikov（诺维科夫）去世"
+        },
+        "description": "Fields Medal 1970 得主，Dubrovin 的导师，代数拓扑和可积系统巨匠。\n",
+        "people": [
+          "novikov-sergei"
+        ],
+        "concepts": [],
+        "papers": [],
+        "era": "contemporary",
+        "importance": "major"
+      },
+      "after": {
+        "slug": "novikov-death-2024",
+        "date": "2024-06-06",
+        "precision": "day",
+        "title": {
+          "en": "Sergei Novikov passes away",
+          "zh": "Sergei Novikov（诺维科夫）去世"
+        },
+        "description": "美国国家科学院会员档案记载 Sergei P. Novikov 于 2024 年 6 月 6 日去世。IMU 官方获奖名单将他列为 1970 年 Fields 奖得主。",
+        "people": [
+          "novikov-sergei"
+        ],
+        "concepts": [],
+        "papers": [],
+        "era": "contemporary",
+        "importance": "major",
+        "date_note": "按 NAS 会员档案的去世日期。",
+        "sources": [
+          {
+            "label": "NAS：Sergei P. Novikov 会员档案",
+            "url": "https://www.nasonline.org/directory-entry/sergei-p-novikov-uy0k4r/",
+            "last_verified": "2026-10-08"
+          },
+          {
+            "label": "IMU：Fields Medal 历届名单（1970）",
+            "url": "https://www.mathunion.org/imu-awards/fields-medal",
+            "last_verified": "2026-10-08"
+          }
+        ],
+        "reviewed_on": "2026-10-08",
+        "review_note": "核对去世日期与获奖年份；本条不重新认证人物详情页的师承关系。"
+      }
+    }
+  ],
+  "related_concept_change": {
+    "path": "data/concepts/tt-star-geometry.yaml",
+    "original_raw_sha256": "4c78f337815ddad108eb7b2ac7e8dbba29b21222f1955dc606c314e8e794d244",
+    "original_raw": "slug: tt-star-geometry\nname:\n  en: tt* Geometry\n  zh: tt* 几何\naliases:\n  - topological-antitopological fusion\n  - tt*-structures\ncategory: geometric-structure\ndifficulty: research-frontier\ndiscipline: both\nyear_introduced: 1993\nintroduced_by: []\ndefinition: |\n  N=2 超对称理论基态空间上的实结构，结合拓扑与反拓扑数据。数学上是 Frobenius\n  流形模空间上的 twistor 结构变分 / 调和丛。\ndual_to: null\nprerequisites:\n  - frobenius-manifold\n  - stokes-phenomenon\nleads_to: []\nrelated:\n  - isomonodromy\n  - twistor-structures\nkey_people: [dubrovin, hertling, sabbah]\nkey_papers: []\ntags:\n  - layer-3\n",
+    "field_changes": {
+      "review_note": {
+        "before": null,
+        "after": "2026-10-08：按 1991 年原刊摘要修正简介与年代；未在此认证各种数学化定义、与 Frobenius 流形或调和丛的精确对应、图中学习关系。原条目无条件的等同表述已撤去。"
+      },
+      "key_papers": {
+        "before": [],
+        "after": [
+          "hep-th/9211097"
+        ]
+      },
+      "definition": {
+        "before": "N=2 超对称理论基态空间上的实结构，结合拓扑与反拓扑数据。数学上是 Frobenius\n流形模空间上的 twistor 结构变分 / 调和丛。\n",
+        "after": "Cecotti–Vafa 的 1991 年论文研究二维 $N=2$ 超对称场论的基态度量，将其理解为拓扑理论与其共轭理论的融合。论文在一些特定形变中把基态度量随参数的变化联系到 Toda 或仿射 Toda 方程。"
+      },
+      "sources": {
+        "before": null,
+        "after": [
+          {
+            "label": "Cecotti–Vafa（1991）：作者机构库原刊记录与摘要",
+            "url": "https://dash.harvard.edu/entities/publication/15e6ad16-7a9f-41cf-9b2f-3015c80c1ff4",
+            "last_verified": "2026-10-08"
+          },
+          {
+            "label": "Cecotti–Vafa（1993）：分类论文及期刊信息",
+            "url": "https://arxiv.org/abs/hep-th/9211097v2",
+            "last_verified": "2026-10-08"
+          }
+        ]
+      },
+      "year_introduced": {
+        "before": 1993,
+        "after": 1991
+      },
+      "history_note": {
+        "before": null,
+        "after": "奠基论文 Topological—anti-topological fusion 刊于 Nuclear Physics B 367（1991），359–461。1993 年的 On Classification of N=2 Supersymmetric Theories 是后续分类论文，不能据其年份把起点定为 1993。"
+      }
+    }
+  },
+  "source_fetches": {
+    "witten": {
+      "url": "https://archive.intlpress.com/site/pub/files/_fulltext/journals/sdg/1990/0001/0001/SDG-1990-0001-0001-a005.pdf",
+      "transport": "200\nhttps://archive.intlpress.com/site/pub/files/_fulltext/journals/sdg/1990/0001/0001/SDG-1990-0001-0001-a005.pdf",
+      "exit": 0,
+      "checked_at": "2026-10-08T04:09:10.953186+00:00",
+      "error": "",
+      "sha256": "5091712f88023a65e1cb656835d25a7d27af28223840387d813d556566232ddd",
+      "bytes": 3583609,
+      "path": ".cache/msa/site-recovery/twenty-source-witten.pdf",
+      "text_path": ".cache/msa/site-recovery/twenty-source-witten.txt",
+      "reading_scope": "PDF is scanned and pdftotext was blank; page 1 was rendered and visually read: Harvard April 1990 lectures, printed 1 (1991), received June 14, 1990."
+    },
+    "dubrovin1992": {
+      "url": "https://people.sissa.it/~dubrovin/Papers/1992/dubrovin_1992_npb.pdf",
+      "transport": "200\nhttps://people.sissa.it/~dubrovin/Papers/1992/dubrovin_1992_npb.pdf",
+      "exit": 0,
+      "checked_at": "2026-10-08T04:09:11.982213+00:00",
+      "error": "",
+      "sha256": "7517d5ddf9b6fcf0cb33d25a539d6bf7247cbfd2e446601b3d5b40f1d3823fb9",
+      "bytes": 2696879,
+      "path": ".cache/msa/site-recovery/twenty-source-dubrovin1992.pdf",
+      "text_path": ".cache/msa/site-recovery/twenty-source-dubrovin1992.txt",
+      "reading_scope": "HTML text or PDF selected passages inspected; transport status alone is not verification."
+    },
+    "dubrovin1994": {
+      "url": "https://arxiv.org/abs/hep-th/9407018",
+      "transport": "200\nhttps://arxiv.org/abs/hep-th/9407018",
+      "exit": 0,
+      "checked_at": "2026-10-08T04:09:08.938046+00:00",
+      "error": "",
+      "sha256": "2cfb63a82eb7b85a91d39d1ac9ab23e849fbad1a3024b93d1dc36b1f0a3eff76",
+      "bytes": 41979,
+      "path": ".cache/msa/site-recovery/twenty-source-dubrovin1994.html",
+      "text_path": ".cache/msa/site-recovery/twenty-source-dubrovin1994.txt",
+      "reading_scope": "HTML text or PDF selected passages inspected; transport status alone is not verification."
+    },
+    "dubrovin1998": {
+      "url": "https://people.sissa.it/~dubrovin/Papers/1998/icm98.pdf",
+      "transport": "200\nhttps://people.sissa.it/~dubrovin/Papers/1998/icm98.pdf",
+      "exit": 0,
+      "checked_at": "2026-10-08T04:09:10.766472+00:00",
+      "error": "",
+      "sha256": "d6abd32c9031aa11d32bcd392eeecb61a617950e143cda2f05fed31995cb779a",
+      "bytes": 184775,
+      "path": ".cache/msa/site-recovery/twenty-source-dubrovin1998.pdf",
+      "text_path": ".cache/msa/site-recovery/twenty-source-dubrovin1998.txt",
+      "reading_scope": "HTML text or PDF selected passages inspected; transport status alone is not verification."
+    },
+    "cecotti1991": {
+      "url": "https://dash.harvard.edu/entities/publication/15e6ad16-7a9f-41cf-9b2f-3015c80c1ff4",
+      "transport": "200\nhttps://dash.harvard.edu/entities/publication/15e6ad16-7a9f-41cf-9b2f-3015c80c1ff4",
+      "exit": 0,
+      "checked_at": "2026-10-08T04:09:12.398278+00:00",
+      "error": "",
+      "sha256": "a4b86db6f3cc9f80b140793ba5b44fcc3d637fb9c21dbde7f45a0f67ef1158c1",
+      "bytes": 461333,
+      "path": ".cache/msa/site-recovery/twenty-source-cecotti1991.html",
+      "text_path": ".cache/msa/site-recovery/twenty-source-cecotti1991.txt",
+      "reading_scope": "HTML text or PDF selected passages inspected; transport status alone is not verification."
+    },
+    "cecotti1993": {
+      "url": "https://arxiv.org/abs/hep-th/9211097",
+      "transport": "200\nhttps://arxiv.org/abs/hep-th/9211097",
+      "exit": 0,
+      "checked_at": "2026-10-08T04:09:11.849896+00:00",
+      "error": "",
+      "sha256": "b500fc8de68b5ae766a713f77b32d840e9d7ae8395ea5f856685b311dd7d5219",
+      "bytes": 42453,
+      "path": ".cache/msa/site-recovery/twenty-source-cecotti1993.html",
+      "text_path": ".cache/msa/site-recovery/twenty-source-cecotti1993.txt",
+      "reading_scope": "HTML text or PDF selected passages inspected; transport status alone is not verification."
+    },
+    "xu2017": {
+      "url": "https://arxiv.org/abs/1801.00123v1",
+      "transport": "200\nhttps://arxiv.org/abs/1801.00123v1",
+      "exit": 0,
+      "checked_at": "2026-10-08T04:09:12.339850+00:00",
+      "error": "",
+      "sha256": "acd0e53670f0a0c923265996d369942437a747d12fad87c77d13a1ab441fa8af",
+      "bytes": 39033,
+      "path": ".cache/msa/site-recovery/twenty-source-xu2017.html",
+      "text_path": ".cache/msa/site-recovery/twenty-source-xu2017.txt",
+      "reading_scope": "HTML text or PDF selected passages inspected; transport status alone is not verification."
+    },
+    "cdg2019": {
+      "url": "https://arxiv.org/abs/1706.04808",
+      "transport": "200\nhttps://arxiv.org/abs/1706.04808",
+      "exit": 0,
+      "checked_at": "2026-10-08T04:09:12.622854+00:00",
+      "error": "",
+      "sha256": "4b7518acc9164cfe509c450231b5ce3d48f7c7c7c028be43b89bb34dc9ddb992",
+      "bytes": 44476,
+      "path": ".cache/msa/site-recovery/twenty-source-cdg2019.html",
+      "text_path": ".cache/msa/site-recovery/twenty-source-cdg2019.txt",
+      "reading_scope": "HTML text or PDF selected passages inspected; transport status alone is not verification."
+    },
+    "cdg2019-journal": {
+      "url": "https://iris.sissa.it/handle/20.500.11767/90494",
+      "transport": "200\nhttps://iris.sissa.it/handle/20.500.11767/90494",
+      "exit": 0,
+      "checked_at": "2026-10-08T04:09:15.776013+00:00",
+      "error": "",
+      "sha256": "0e21e7e731cb18f9a49ab133147f6490183e8643242c065104151a041d97dcd4",
+      "bytes": 55853,
+      "path": ".cache/msa/site-recovery/twenty-source-cdg2019-journal.html",
+      "text_path": ".cache/msa/site-recovery/twenty-source-cdg2019-journal.txt",
+      "reading_scope": "HTML text or PDF selected passages inspected; transport status alone is not verification."
+    },
+    "dubrovin-obituary": {
+      "url": "https://www.sissa.it/news/remembering-boris-dubrovin",
+      "transport": "200\nhttps://www.sissa.it/news/remembering-boris-dubrovin",
+      "exit": 0,
+      "checked_at": "2026-10-08T04:09:16.449388+00:00",
+      "error": "",
+      "sha256": "47779ff0da66ff349712f49ec9506643856158f6d532b70a649e6a803ec67475",
+      "bytes": 80530,
+      "path": ".cache/msa/site-recovery/twenty-source-dubrovin-obituary.html",
+      "text_path": ".cache/msa/site-recovery/twenty-source-dubrovin-obituary.txt",
+      "reading_scope": "HTML text or PDF selected passages inspected; transport status alone is not verification."
+    },
+    "dubrovin-medal": {
+      "url": "https://www.sissa.it/news/dubrovin-medal-winners-2020",
+      "transport": "200\nhttps://www.sissa.it/news/dubrovin-medal-winners-2020",
+      "exit": 0,
+      "checked_at": "2026-10-08T04:09:16.440722+00:00",
+      "error": "",
+      "sha256": "a65d93d3bb15a4ce17ac20859e4f98732c71a316af0ec53245e90e3e496cb09c",
+      "bytes": 79130,
+      "path": ".cache/msa/site-recovery/twenty-source-dubrovin-medal.html",
+      "text_path": ".cache/msa/site-recovery/twenty-source-dubrovin-medal.txt",
+      "reading_scope": "HTML text or PDF selected passages inspected; transport status alone is not verification."
+    },
+    "dubrovin-medal-ceremony": {
+      "url": "https://indico.sissa.it/e/41",
+      "transport": "200\nhttps://indico.sissa.it/event/41/",
+      "exit": 0,
+      "checked_at": "2026-10-08T04:09:19.254502+00:00",
+      "error": "",
+      "sha256": "2ef6fad6f249bfd2fc7cfa70071af1ac956b0dd9c8dbc138931618c08e4d120e",
+      "bytes": 111509,
+      "path": ".cache/msa/site-recovery/twenty-source-dubrovin-medal-ceremony.html",
+      "text_path": ".cache/msa/site-recovery/twenty-source-dubrovin-medal-ceremony.txt",
+      "reading_scope": "HTML text or PDF selected passages inspected; transport status alone is not verification."
+    },
+    "fields1998": {
+      "url": "https://www.mathunion.org/fileadmin/IMU/ICM1998/Berlin/ICM98/prizes/index.html",
+      "transport": "200\nhttps://www.mathunion.org/fileadmin/IMU/ICM1998/Berlin/ICM98/prizes/index.html",
+      "exit": 0,
+      "checked_at": "2026-10-08T04:09:18.736298+00:00",
+      "error": "",
+      "sha256": "7ccde928308cd6d3a4843c902e76d36b87e22114e2dfdb8f6aabcae26f5b1553",
+      "bytes": 5265,
+      "path": ".cache/msa/site-recovery/twenty-source-fields1998.html",
+      "text_path": ".cache/msa/site-recovery/twenty-source-fields1998.txt",
+      "reading_scope": "HTML text or PDF selected passages inspected; transport status alone is not verification."
+    },
+    "fields-all": {
+      "url": "https://www.mathunion.org/imu-awards/fields-medal",
+      "transport": "200\nhttps://www.mathunion.org/imu-awards/fields-medal",
+      "exit": 0,
+      "checked_at": "2026-10-08T04:09:19.236070+00:00",
+      "error": "",
+      "sha256": "72deb36b684962c00e7d33ce5b0c74bacbc81f117c86754852a70330e870591c",
+      "bytes": 58506,
+      "path": ".cache/msa/site-recovery/twenty-source-fields-all.html",
+      "text_path": ".cache/msa/site-recovery/twenty-source-fields-all.txt",
+      "reading_scope": "HTML text or PDF selected passages inspected; transport status alone is not verification."
+    },
+    "kontsevich-hms": {
+      "url": "https://arxiv.org/abs/alg-geom/9411018",
+      "transport": "200\nhttps://arxiv.org/abs/alg-geom/9411018",
+      "exit": 0,
+      "checked_at": "2026-10-08T04:09:19.254463+00:00",
+      "error": "",
+      "sha256": "21747ee5a066841bafbc60d62e2fa3a599c09e084590df02474e3f07f0a6e38c",
+      "bytes": 37813,
+      "path": ".cache/msa/site-recovery/twenty-source-kontsevich-hms.html",
+      "text_path": ".cache/msa/site-recovery/twenty-source-kontsevich-hms.txt",
+      "reading_scope": "HTML text or PDF selected passages inspected; transport status alone is not verification."
+    },
+    "kontsevich-witten": {
+      "url": "https://archive.mpim-bonn.mpg.de/2283/1/preprint_1991_77.pdf",
+      "transport": "200\nhttps://archive.mpim-bonn.mpg.de/id/eprint/2283/1/preprint_1991_77.pdf",
+      "exit": 0,
+      "checked_at": "2026-10-08T04:09:22.759998+00:00",
+      "error": "",
+      "sha256": "3ffde27dd248b11364d90c946d98c3858770a5f6cfad8261b9ccb5f6b6b7b5f7",
+      "bytes": 792612,
+      "path": ".cache/msa/site-recovery/twenty-source-kontsevich-witten.pdf",
+      "text_path": ".cache/msa/site-recovery/twenty-source-kontsevich-witten.txt",
+      "reading_scope": "HTML text or PDF selected passages inspected; transport status alone is not verification."
+    },
+    "novikov": {
+      "url": "https://www-math.umd.edu/people/staff/itemlist/user/44-aaronmcqueen.html?start=30",
+      "transport": "404\nhttps://www-math.umd.edu/people/staff/itemlist/user/44-aaronmcqueen.html?start=30",
+      "exit": 0,
+      "checked_at": "2026-10-08T04:10:25.762513+00:00",
+      "error": "",
+      "sha256": "38d4079cc61a86182d563cec05c2b1d778c03f3837fd6bb982bc273dcba83f5a",
+      "bytes": 66898,
+      "path": ".cache/msa/site-recovery/twenty-source-novikov.html",
+      "text_path": ".cache/msa/site-recovery/twenty-source-novikov.txt",
+      "reading_scope": "Direct URL returned 404. Web service exposed the historical Maryland obituary body, but NAS is the citation used in the event."
+    },
+    "kontsevich-journal": {
+      "url": "https://link.springer.com/article/10.1007/BF02099526",
+      "transport": "200\nhttps://link.springer.com/article/10.1007/BF02099526?error=cookies_not_supported&code=3b6bc0fb-1d9c-4ed8-a599-1a9aed5d34d0",
+      "exit": 0,
+      "checked_at": "2026-10-08T04:10:26.446880+00:00",
+      "error": "",
+      "sha256": "7255d8883453420309b1668baa750644c691328116ac2f75b0ab1b8e7285743a",
+      "bytes": 261619,
+      "path": ".cache/msa/site-recovery/twenty-source-kontsevich-journal.html",
+      "text_path": ".cache/msa/site-recovery/twenty-source-kontsevich-journal.txt",
+      "reading_scope": "HTML text or PDF selected passages inspected; transport status alone is not verification."
+    },
+    "dubrovin-home": {
+      "url": "https://people.sissa.it/~dubrovin/",
+      "transport": "200\nhttps://people.sissa.it/~dubrovin/",
+      "exit": 0,
+      "checked_at": "2026-10-08T04:10:25.016511+00:00",
+      "error": "",
+      "sha256": "9152ecc63c5d072a78d8411a013e9ed2d3429dc8507b4ce752b37513865fa40c",
+      "bytes": 2525,
+      "path": ".cache/msa/site-recovery/twenty-source-dubrovin-home.html",
+      "text_path": ".cache/msa/site-recovery/twenty-source-dubrovin-home.txt",
+      "reading_scope": "HTML text or PDF selected passages inspected; transport status alone is not verification."
+    },
+    "novikov-nas": {
+      "url": "https://www.nasonline.org/directory-entry/sergei-p-novikov-uy0k4r/",
+      "transport": "403\nhttps://www.nasonline.org/directory-entry/sergei-p-novikov-uy0k4r/",
+      "exit": 0,
+      "checked_at": "2026-10-08T04:11:28.500318+00:00",
+      "error": "",
+      "sha256": "bf304f99aaed7283d1f89a736db8a622437408684e90246712e2aba07766701b",
+      "bytes": 1535,
+      "path": ".cache/msa/site-recovery/twenty-source-novikov-nas.html",
+      "text_path": ".cache/msa/site-recovery/twenty-source-novikov-nas.txt",
+      "reading_scope": "web.run opened and read the primary NAS member profile, including March 20, 1938 - June 6, 2024. Direct curl returned a 403 challenge and is not a second successful body reading."
+    }
+  },
+  "reused_primary_readings": [
+    {
+      "url": "https://arxiv.org/abs/alg-geom/9411018v1",
+      "local_path": ".cache/msa/site-recovery/hms-kontsevich.txt",
+      "scope": "Original page 18 Homological Mirror Conjecture re-read; no replacement by a modern unqualified equivalence."
+    },
+    {
+      "url": "https://people.sissa.it/~dubrovin/bd_papers.html",
+      "scope": "Author publication-list reading from the earlier Dubrovin/concept batches: 1994 preprint versus 1996 LNM publication."
+    }
+  ],
+  "remaining": [
+    "Not an exhaustive historical timeline.",
+    "The graph/learning relations attached to events or tt-star geometry were not independently re-certified.",
+    "Original 1992 Cecotti–Vafa v1 was withdrawn as a corrupted email version; surviving v2 and journal reference used, not a claim the published work was retracted."
+  ]
+}

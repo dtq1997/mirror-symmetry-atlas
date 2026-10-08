@@ -4,25 +4,17 @@
   "scope": "Lead queue only; absence of source metadata does not mean a fact is false.",
   "prior_batch_resolution": {
     "chen_zhuo_six_candidates": "3 rejected-homonym; 1 needs-review; 2 retained with email/affiliation evidence.",
-    "institution_duplicates": "8 explicit aliases, 107 primary institutions, 115 routes preserved."
+    "institution_duplicates": "8 explicit aliases, 107 primary institutions, 115 routes preserved.",
+    "batch_twenty": "All 13 existing timeline records now have primary sources and explicit date/scope notes; tt-star origin and conservative introduction corrected. Hu Chuangqiang dated biography and 15 author lists reviewed; one wrong coauthor binding fixed, degree/BIMSA employment boundaries remain unverified."
   },
   "priority_leads": [
     {
-      "person": "hu-chuangqiang",
-      "fields": [
-        "career_timeline",
-        "personal_notes",
-        "links.homepage",
+      "content_types": [
+        "people.publications.coauthors",
         "identity_profile"
       ],
-      "issue": "公开叙述同时称2025.04加入中山大学及现职BIMSA；学位/师承含未经来源支持的谱系猜测。先读当前官方个人页，不凭论文署名日期判断现职。",
-      "source_urls": [
-        "https://math.sysu.edu.cn/article/2971",
-        "https://maths.whu.edu.cn/info/1558/16830.htm",
-        "https://www.aimsciences.org/article/doi/10.3934/amc.2022066",
-        "https://www.bimsa.cn/research/course/2024sp/page_6.html",
-        "https://www.researchgate.net/publication/328598510"
-      ]
+      "issue": "胡创强2604.04124把Yixuan Ou-Yang绑成xu-xu，提示历史合作者字段可能有更多污染。先对已有1237条原始arXiv作者数据与人物论文的coauthors逐条比对，列姓名不相容的候选；名字相容不等于身份已核。只读列队，不自动改同名身份。",
+      "resolved_example": "docs/audits/2026-10-08/hu-chuangqiang-biography-and-coauthor-review.json"
     },
     {
       "person": "du-chengyong",
@@ -48,7 +40,7 @@
         "conferences",
         "problems"
       ],
-      "issue": "继续扩大明确字段/命题的核查覆盖；已有界面测试不代表全部内容认证。"
+      "issue": "时间线原有13条已逐条核对日期与简述来源，历史选录仍不完整，引用的数学证明及概念/人物关系不因此认证。继续扩大其他概念、会议和问题条目的具体命题覆盖。"
     }
   ],
   "institution_inventory": {
@@ -97,5 +89,12 @@
       "sicnu",
       "tsinghua"
     ]
-  }
+  },
+  "remaining_biography_uncertainties": [
+    {
+      "person": "hu-chuangqiang",
+      "issue": "博士院校、年份和导师未知；BIMSA实际起止与职级仍未知。2020拟聘不等于到岗，2025加入描述不表示此前从未在SYSU工作。",
+      "evidence": "hu-chuangqiang-biography-and-coauthor-review.json"
+    }
+  ]
 }

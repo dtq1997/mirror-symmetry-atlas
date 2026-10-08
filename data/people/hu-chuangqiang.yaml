@@ -11,18 +11,23 @@ career_timeline:
   - period: "[待验证]"
     type: education
     institution: null
-    role: "博士"
-    notes: "博士学位具体学校和导师 [待验证]。早期与曲阜师范大学、清华大学丘成桐中心 (与 Stephen S.-T. Yau, 左怀青合作) 关系密切"
-  - period: "[待验证]-2025"
-    type: position
+    role: "博士（学位与师承待核实）"
+    notes: "本轮未找到可核实博士院校、年份与导师的本人履历；不根据合著或研究方向推断。"
+  - period: "2020-11-02"
+    type: event
+    institution: sun-yat-sen
+    role: "专职科研人员拟聘公示"
+    notes: "学院公示列为赵昌安团队拟聘人选；拟聘公示不能证明当时实际到岗，也不证明此后连续任职。"
+  - period: "2022–2024（有记录年份）"
+    type: event
     institution: bimsa
-    role: "研究员"
-    notes: "燕园北京数学科学与应用研究院 (BIMSA) — [待验证] 具体起止年份"
-  - period: "2025-present"
+    role: "论文署名与会议组织记录"
+    notes: "2022 年 AIMS 论文记录和 2024 年清华会议通知分别列 BIMSA 单位；实际任职起止与职级仍待核实。"
+  - period: "2025.04-present"
     type: position
     institution: sun-yat-sen
-    role: "博士生导师"
-    notes: "中山大学数学学院；2025 年 4 月加入"
+    role: "副教授、博士生导师"
+    notes: "河北师大 2025-12-25 讲座介绍记载 2025 年 4 月加入，并标副教授；中山数学学院 2026-09-11 博导名单列其姓名。上述记录不意味着此前从未在中山工作。"
 research_areas:
   - function-fields
   - drinfeld-modules
@@ -34,17 +39,17 @@ research_areas:
 identity_profile:
   openalex_id: 'A5109468244'
   affiliations:
-    - institution: 'bimsa'
-      period: '[待验证]-2025'
-      role: '研究员'
-    - institution: 'sun-yat-sen'
-      period: '2025-present'
-      role: '博士生导师'
-  email_domains: [bimsa.cn, mail.sysu.edu.cn]
+    - institution: bimsa
+      period: '2022–2024（有记录年份）'
+      role: '论文署名与会议组织记录；职级待核实'
+    - institution: sun-yat-sen
+      period: '2025.04-present'
+      role: '副教授、博士生导师'
+  email_domains: [bimsa.cn, mail2.sysu.edu.cn]
   coauthor_circle_core_slugs: [chen-zhuo]
   coauthor_circle_core_names: ['Zhuo Chen']
-  coauthor_circle_extended_slugs: [ni-dadi, xiang-maosong, xu-xu, yang-di]
-  coauthor_circle_extended_names: ['Dadi Ni', 'Di Yang', 'Maosong Xiang', 'Xu Xu']
+  coauthor_circle_extended_slugs: [ni-dadi, xiang-maosong]
+  coauthor_circle_extended_names: ['Dadi Ni', 'Maosong Xiang', 'Yixuan Ou-Yang']
   research_keywords: [algebraic, coding, drinfeld, fields, geometry, modules, number, singularity]
   known_arxiv_ids:
     - '2604.04124'
@@ -101,7 +106,7 @@ publications:
   - id: '2604.04124'
     title: 'Relation between Anderson Generating Functions and Weil Pairing'
     year: 2026
-    coauthors: [xu-xu]
+    coauthors: ['Yixuan Ou-Yang']
     primary_category: math.NT
     sources: [arxiv]
   - id: '2603.23930'
@@ -200,40 +205,48 @@ activity:
   published_count: 5
   preprint_only_count: 10
   active_period: '2016-present'
-  confidence: 'has-2-review-pending'
+  confidence: 'partially-reviewed'
 external_ids:
   openalex: A5109468244
 links:
-  sysu_announcement: 'https://math.sysu.edu.cn/'
-  homepage: 'https://www.bimsa.cn/research/course/2024sp/page_6.html'
-personal_notes: |
-  中山大学数学学院博士生导师（2025 年 4 月加入）。此前在燕园北京数学科学与应用研究院 (BIMSA) 任研究员。
-  研究领域横跨多个方向：
-  (1) 编码理论（量子码、代数几何码、多点码）；
-  (2) 函数域和 Drinfeld 模理论（Drinfeld modular curves, BBGS towers, Weil pairing）；
-  (3) 奇点理论（K. Saito j-functions, Tjurina algebra, 与 Stephen S.-T. Yau 合作）；
-  (4) Lie 代数胚对的变形 (2025)。
-  与 Stephen S.-T. Yau (清华丘成桐中心) 长期合作，方向包括量子码 (2018) 和简单椭圆奇点分类 (2024)。
-  2025 年与 Xiuwu Zhu 在 Drinfeld 模曲线塔方向获得 Ihara quantity 的新最优结果。
-  研究成果在 IEEE IT, Finite Fields, DCC 等期刊发表。
-  博士学位及师承信息 [待验证]。
-  2026 年 4 月 HUST "数学物理与几何研讨会"参会人员之一。
-  此次会议方向与其主研究（函数域/编码理论）跨度较大，可能是代表中山大学参会或对会议主题（数学物理）有兴趣。
-  
-  现职：北京雁栖湖应用数学研究院 (BIMSA) 助理研究员（[待验证职级]）
-  学历：博士（[待验证]，研究方向偏代数几何编码与函数域，类型典型为中科大/南开/清华谱系）
-  趣闻：在 BIMSA 开"Simplicial homotopy theory and model category"（2024 春）和"Introduction to Drinfeld Module"（2024 秋）两门相对纯抽象的课程，研究兴趣明显从应用编码转向更基础的代数几何/同伦论
+  email: huchq@mail2.sysu.edu.cn
+personal_notes: '中山大学数学学院副教授、博士生导师。河北师大 2025 年 12 月讲座介绍记载其于 2025 年 4 月加入；中山数学学院 2026 年 9 月博导名单列其姓名。
+
+  2020 年学院已有专职科研人员拟聘公示；这一历史记录不能据以确定实际到岗或连续任职。2022 年论文与 2024 年会议记录列 BIMSA 单位，具体任职起止及职级待核实。
+
+  研究涉及函数域、Drinfeld 模、编码理论和奇点理论。博士院校、年份和导师尚未核实；不由论文合作者反推师承。
+
+  2026-10-08 核对本站 15 条论文的 arXiv 原始作者名单；2604.04124 的合作者为 Yixuan Ou-Yang，原先链接到徐旭是错误的。该论文 v2 给出双方中山大学数学学院单位及作者邮箱。
+
+  这次核对覆盖署名和上述履历事实；不保证论文清单完整，也不代表全部出版信息、研究结果或他人身份已核实。
+
+  '
 sources:
-  - label: 'SYSU 数学学院博导名单'
-    url: 'https://math.sysu.edu.cn/article/2971'
-  - label: '武汉大学数学院介绍 (SYSU 简介)'
-    url: 'https://maths.whu.edu.cn/info/1558/16830.htm'
-  - label: 'AIMS Weierstrass semigroups paper (BIMSA affiliation)'
-    url: 'https://www.aimsciences.org/article/doi/10.3934/amc.2022066'
-  - label: '信息源'
-    url: 'https://www.bimsa.cn/research/course/2024sp/page_6.html'
-  - label: '信息源'
-    url: 'https://www.researchgate.net/publication/328598510'
+- label: 中山数学学院：博士研究生导师名单（2026-09-11）
+  url: https://math.sysu.edu.cn/article/2971
+  last_verified: '2026-10-08'
+- label: 河北师大：几何拓扑系列讲座（2025-12-25）
+  url: https://sxxy.hebtu.edu.cn/a/2025/12/25/79CE33A6FC8D43C99B2A08C84296FD75.html
+  last_verified: '2026-10-08'
+  notes: 支持副教授称谓与 2025 年 4 月加入的记载。
+- label: 中山数学学院：2020-11-02 专职科研人员拟聘公示
+  url: https://math.sysu.edu.cn/article/2534
+  last_verified: '2026-10-08'
+  notes: 仅为拟聘记录，不认定实际入职。
+- label: 清华求真书院：2024 年研讨会组织者胡创强（BIMSA）
+  url: https://qzc.tsinghua.edu.cn/en/info/1125/3953.htm
+  last_verified: '2026-10-08'
+- label: AIMS 原刊：Weierstrass semigroups on the third function field in a tower attaining the Drinfeld–Vlăduţ
+    bound
+  url: https://www.aimsciences.org/article/doi/10.3934/amc.2022066
+  last_verified: '2026-10-08'
+  notes: 2022 年在线发表记录列 Chuangqiang Hu 的 BIMSA 单位，不提供职级。
+- label: 2604.04124v2：两位作者、单位及邮箱
+  url: https://arxiv.org/html/2604.04124v2
+  last_verified: '2026-10-08'
+- label: 2309.00432v1：BIMSA 署名及 huchq 邮箱
+  url: https://arxiv.org/abs/2309.00432v1
+  last_verified: '2026-10-08'
 tags:
   - sun-yat-sen
   - number-theory

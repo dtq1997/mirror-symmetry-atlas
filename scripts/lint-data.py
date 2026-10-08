@@ -49,6 +49,7 @@ from institution_aliases import alias_errors
 from concept_references import concept_reference_errors, concept_content_errors
 from problem_content import problem_errors
 from relationship_review import relationship_errors
+from timeline_content import timeline_errors
 
 ROOT = HERE.parent
 PEOPLE_DIR = ROOT / 'data/people'
@@ -413,6 +414,9 @@ def lint(strict_pubs=False, only_slug=None):
             for message in relationship_errors([declaration], CONN_DIR / '_review_queue'):
                 err('connections', message)
         concepts = load_yaml_dir(ROOT / 'data/concepts')
+        timeline = yaml.safe_load((ROOT / 'data/timeline/events.yaml').read_text()) or {}
+        for message in timeline_errors(timeline.get('events', []), people, concepts):
+            err('timeline', message)
         problems = load_yaml_dir(ROOT / 'data/problems')
         for slug, problem in problems.items():
             for message in problem_errors(problem, problems):

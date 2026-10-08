@@ -271,6 +271,11 @@ export interface TimelineEvent {
   papers: string[];
   era: Era;
   importance: EventImportance;
+  /** What the date refers to: lecture, first submission, publication or announcement. */
+  date_note?: string;
+  review_note?: string;
+  reviewed_on?: string;
+  sources?: SourceRef[];
 }
 
 // ===== Conference =====
