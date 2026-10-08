@@ -1,0 +1,27 @@
+{
+  "reviewer": "Codex",
+  "date": "2026-10-08",
+  "scope": "Funding component and graph filters, not whole-person facts",
+  "desktop": {
+    "width": 1280,
+    "height": 800,
+    "scrollWidth": 1274,
+    "person": "hu-jianxun",
+    "funding_pairs": 2,
+    "graph_only_grant": 4,
+    "graph_all_off": 0,
+    "graph_sidebar_opened": true,
+    "source": "https://arxiv.org/html/2502.13558v1",
+    "screenshot": "funding-reviewed-preview.jpg",
+    "sidebar_screenshot": "funding-sidebar-preview.jpg"
+  },
+  "mobile": {
+    "width": 390,
+    "height": 844,
+    "scrollWidth": 384,
+    "person_funding_pairs": 2,
+    "screenshot": "funding-reviewed-mobile-preview.jpg",
+    "graph_sidebar": "not checked; resizing resets unselected desktop default graph to mobile default list"
+  },
+  "console_errors": []
+}

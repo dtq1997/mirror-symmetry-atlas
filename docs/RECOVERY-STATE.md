@@ -2,9 +2,11 @@
 
 [Codex] 2026-10-08。Goal **active**，原目标见 `RECOVERY-PLAN.md`。这不是已完成的全库事实认证。
 
-## 当前恢复入口（2026-10-08，第二十四批已上线）
+## 当前恢复入口（2026-10-08，第二十五批本地验收完成）
 
 [Codex] Goal仍active。以下是当前摘要；后面的早期“待发布/尚未恢复”是历史记录，不代表现在。
+
+- 第二十五批本地验收完成，待发布：修复基金编号误抽取及所有书目作者被自动判为受资助者。45条旧关系完整归档（4条普通词伪编号、3条由精确的新依据替代、38条待核）；公开改为5条逐人声明支持4对关系。人物页与图谱侧栏显示逐人的论文来源和范围，不推断项目负责人/期限/直接合作。新增受资助审查门禁；两类抽取/生成脚本默认只读。58项网站回归含15基金检查、lint 0errors/73warnings、ESLint/typecheck/build通过；287HTML/15254链接/555公式实例/0问题，96人物基金区逐个对照。详见grant-recipient-and-source-review.json。
 
 - 第二十四批已上线并公开验收：撤销“本地同姓唯一即可认人”和“合著论文全部作者共同致谢”的自动推断。旧187条边/377条逐篇记录完整保留；5条逐篇致谢获一手正文核对，合为4条关系，4条同姓错绑被否定，其余368条待核不作确定关系。图谱补单篇阈值、方向箭头和可见线条；96个人物页只载入已核条目。56网站回归（含11致谢检查）、lint 0errors/73warnings、最终build通过；287HTML/15230链接/555公式实例/0问题。桌面1280与手机390实际检查完成。报告acknowledgement-identity-and-subject-review.json。
 
@@ -29,7 +31,7 @@
 - 第十九批已上线：八组机构别名统一档案/列表/历史关联人数/人物图筛选，旧115网址保留；陈酌3确认错挂与1待核隔离，两篇数论保留，官方学历/任职月份/现职/主页修订。河南大学与兰州大学两处旧推断同步撤下。见chen-zhuo-identity-and-career-review.json、institution-alias-source-review.json、batch-nineteen-live-verification.json。机构名称核对不认证旧名单、成立年或全部传记。
 - 第二十批已上线：全部13条时间线核对日期、出处与陈述范围；tt*概念年份改为1991，首届Dubrovin奖章补Buryak共同得主。胡创强现职按中大/河北师大官方资料修订，博士与BIMSA任职边界仍未知；2604.04124的Yixuan Ou-Yang错绑徐旭已纠正。核对15篇当前作者名单不等于15篇身份全部认证。见timeline-primary-source-review.json、hu-chuangqiang-biography-and-coauthor-review.json、batch-twenty-live-verification.json。
 - 第二十一批已上线：2处Jianghao Xu错绑徐旭已纠正并清理身份圈；饶胜2407.02022按v3更新题名/独著，v1/v2三个历史合作者有一手依据，明确保留且不判错挂；Grimstrup的2处全名差异经同DOI机构记录确认而保留；Nest的I篇刊名纠正。7处自动姓名差异全部有逐条处置，兼容姓名不产生身份认证，653条仍未被所选arXiv快照覆盖。未移出论文、未新增归属拒绝；1808组/2208行不变。见coauthor-name-source-leads.json、coauthor-versions-and-venue-review.json、batch-twenty-one-live-verification.json。
-- 下一步先核共享基金的同类主体错误：39条衍生边及三篇逐作者资助线索见next-grant-and-title-leads.json；再继续368条待核致谢、题名实体与2010.14339期刊版关联、杜承勇书目、历史机构及其他内容。致谢同姓规则已修；范辉军中文名已由武汉大学官方新闻确认。丁岩峭剩余身份/履历仍待核。
+- 下一步先核题名实体与2010.14339期刊版关联、2502.13558的期刊卷页/年份与身份来源；继续38条待核旧基金关系及已恢复对中尚未获认证的其他旧号码、368条待核致谢、杜承勇书目、历史机构及其他内容。基金审查账本与62篇旧原文线索见grant-recipient-and-source-review.json；旧lead仅作历史快照。致谢同姓规则已修；范辉军中文名已由武汉大学官方新闻确认。丁岩峭剩余身份/履历仍待核。
 - 全内容待办仍包括：人物公开叙述/履历/师生关系，Hertling整书/章节计数，58主概念的定义、年代、关系及引用，107主机构、会议/3开放问题的一手来源及时间线新增覆盖，其余页面的检索与可访问性。必须继续覆盖这些类型，不能把论文元数据清理当全站完成。
 - content-inventory.json是第一批未核实基线，旧数量/全pending不覆盖后续分项证据。当前覆盖以具名审计的具体字段为准。
 - 不运行旧validate-publications.py --apply / detect-id-title-mismatch.py --write；OpenAlex v2仍有HTTP/缓存/评分风险，不能无人审查全库写入。

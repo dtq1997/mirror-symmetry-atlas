@@ -79,7 +79,7 @@ export default function GraphLegend() {
                 "repeating-linear-gradient(90deg, #ec4899 0, #ec4899 2px, transparent 2px, transparent 5px)",
             }}
           />
-          <span className="text-[#e8e8f0]">基金合作</span>
+          <span className="text-[#e8e8f0]">同号基金资助（来源见人物资料）</span>
         </div>
       </div>
 

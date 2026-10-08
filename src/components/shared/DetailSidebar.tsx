@@ -4,6 +4,7 @@ import type { Person, GraphNode, Connection } from "@/lib/types";
 import Link from "@/components/shared/AtlasLink";
 import { displayName as displayNameOf } from "@/lib/name";
 import { institutionName as institutionNameOf } from "@/lib/inst";
+import FundingEvidence from "@/components/shared/FundingEvidence";
 
 interface DetailSidebarProps {
   node: GraphNode | null;
@@ -121,6 +122,8 @@ function PersonDetail({ person, connections }: { person: Person; connections: Co
           </div>
         </div>
       )}
+
+      <FundingEvidence slug={person.slug} connections={connections} />
 
       {/* Career timeline preview */}
       {person.career_timeline?.length > 0 && (

@@ -154,7 +154,7 @@ export function getAllConnections(): Connection[] {
   if (fs.existsSync(connDir)) {
     for (const f of fs.readdirSync(connDir).filter((f) => f.endsWith(".yaml"))) {
       const data = readYaml<{ edges?: Connection[] }>(path.join(connDir, f));
-      if (data.edges) connections.push(...data.edges);
+      if (data.edges) connections.push(...data.edges.filter((e) => e.type !== "grant" && e.type !== "acknowledgement"));
     }
   }
 
@@ -205,28 +205,13 @@ export function getAllConnections(): Connection[] {
     }
   }
 
-  // Load derived grant edges (去重 source/target pair)
+  // Only reviewed recipients can supply a public funding relationship.
   const grantFile = path.join(DATA_DIR, "derived", "grant-edges.yaml");
   if (fs.existsSync(grantFile)) {
     const data = readYaml<{ edges?: Connection[] }>(grantFile);
-    const seen = new Set<string>();
-    for (const c of connections) {
-      if (c.type === "grant") {
-        seen.add([c.source, c.target].sort().join("|"));
-      }
-    }
     if (data.edges) {
       for (const e of data.edges) {
-        const key = [e.source, e.target].sort().join("|");
-        if (seen.has(key)) continue;
-        seen.add(key);
-        connections.push({
-          source: e.source,
-          target: e.target,
-          type: "grant",
-          notes: e.notes,
-          derived: true,
-        } as Connection);
+        if (e.review_status === "accepted" && e.funding_evidence?.length) connections.push(e);
       }
     }
   }

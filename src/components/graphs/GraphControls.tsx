@@ -17,7 +17,7 @@ const EDGE_LABELS: Record<ConnectionType, { label: string; color: string }> = {
   coauthor: { label: "合著", color: "#6366f1" },
   institutional: { label: "同机构", color: "#8b5cf6" },
   "co-student": { label: "同门", color: "#10b981" },
-  grant: { label: "基金", color: "#ec4899" },
+  grant: { label: "同号基金资助", color: "#ec4899" },
   acknowledgement: { label: "致谢", color: "#a8a29e" },
 };
 

@@ -1,15 +1,19 @@
 #!/usr/bin/env python3
 """Extract Acknowledgements section and grant numbers from arXiv LaTeX sources.
 
-Reads .cache/msa/papers/sources/{arxiv_id}/*.tex by default, writes
-data/derived/raw-acks.jsonl with one JSON per paper:
+Reads .cache/msa/papers/sources/{arxiv_id}/*.tex by default; --write replaces
+data/derived/raw-acks.jsonl (invalidating changed text reviews). Default is read-only.
+Grant matches are candidates, never recipient evidence. One JSON per paper:
 {arxiv_id, ack_text, grants: [...], paper_authors: [...]}
 
 paper_authors are registered bibliography owners, not the complete author list
 or the grammatical subject of a particular acknowledgement sentence.
 """
 
+import argparse
 import os, re, json, yaml, glob, sys
+
+from grant_review import valid_grant_number
 
 from cache_paths import cache_path
 
@@ -40,7 +44,9 @@ ACK_HEADER_RE = re.compile(
 END_RE = re.compile(
     r"""
     (?:
-        \\section\*?\s*\{
+        \\(?:sub)*section\*?\s*\{
+      | \\paragraph\*?\s*\{
+      | \\input\b
       | \\chapter\*?\s*\{
       | \\bibliographystyle\b
       | \\bibliography\b
@@ -58,7 +64,7 @@ GRANT_PATTERNS = [
     # NSFC: 8-digit numbers (11931009, 12171254, etc.); historical 5-7 digit too
     (r"\b(?:NSFC|National\s+Natural\s+Science\s+Foundation(?:\s+of\s+China)?)[^\.;]{0,200}?\b(?:No\.?|Grant(?:s)?|#)?\s*([0-9]{5,13})", "NSFC"),
     # China Postdoctoral Science Foundation
-    (r"\bChina\s+Postdoctoral\s+Science\s+Foundation[^\.;]{0,200}?\b(?:No\.?|Grant(?:s)?)?\s*([0-9A-Z]{6,15})", "CPSF"),
+    (r"\bChina\s+Postdoctoral\s+Science\s+Foundation[^\.;]{0,200}?\b(?:No\.?|Grant(?:s)?)?\s*\b((?=[A-Z0-9]*[0-9])[A-Z0-9]{6,15})\b", "CPSF"),
     # Tsinghua Postdoc
     (r"\bTsinghua\s+(?:University\s+)?(?:Initiative\s+Scientific\s+Research\s+Program|Dushi\s+Program|Postdoctoral?)[^\.;]{0,200}?([0-9]{5,15})", "Tsinghua"),
     # DFG
@@ -66,15 +72,15 @@ GRANT_PATTERNS = [
     # ERC
     (r"\bERC\s+(?:Advanced|Starting|Consolidator|Synergy)?\s*(?:Grant)?[^\.;]{0,100}?(?:No\.?|#)?\s*([0-9]{5,10})", "ERC"),
     # NSF (US)
-    (r"\bNSF\s+(?:DMS|grant|Grant|No\.?|#)?[^\.;]{0,80}?([A-Z]{0,4}[\-\s]?[0-9]{5,10})", "NSF"),
+    (r"\bNSF\b[^\.;]{0,80}?\b((?:DMS[- ]?)?[0-9]{5,10})\b", "NSF"),
     # Simons Foundation
     (r"\bSimons\s+(?:Foundation|Collaboration|Fellowship)[^\.;]{0,200}?(?:No\.?|#|Grant)?\s*([0-9]{5,10})", "Simons"),
     # JSPS
-    (r"\bJSPS\s+(?:KAKENHI|Grant)[^\.;]{0,100}?([A-Z0-9]{5,15})", "JSPS"),
+    (r"\bJSPS\s+(?:KAKENHI|Grant)[^\.;]{0,100}?\b((?=[A-Z0-9]*[0-9])[A-Z0-9]{5,15})\b", "JSPS"),
     # 973/863 计划
-    (r"\b(?:973|863)\s+Program[^\.;]{0,100}?(?:No\.?)?\s*([A-Z0-9]{5,15})", "China973"),
+    (r"\b(?:973|863)\s+Program[^\.;]{0,100}?(?:No\.?)?\s*\b((?=[A-Z0-9]*[0-9])[A-Z0-9]{5,15})\b", "China973"),
     # Fundamental Research Funds (中央高校基本科研业务费)
-    (r"\bFundamental\s+Research\s+Funds[^\.;]{0,200}?([A-Z0-9]{5,20})", "FundResFunds"),
+    (r"\bFundamental\s+Research\s+Funds[^\.;]{0,200}?\b((?=[A-Z0-9]*[0-9])[A-Z0-9]{5,20})\b", "FundResFunds"),
 ]
 
 
@@ -105,6 +111,9 @@ def strip_comments(text):
 def extract_ack(text):
     """Find the ack section; return string or None."""
     text = strip_comments(text)
+    text = re.sub(r"\\begin\{comment\}.*?\\end\{comment\}", "", text, flags=re.DOTALL)
+    if r"\begin{document}" in text:
+        text = text.split(r"\begin{document}", 1)[1]
     m = ACK_HEADER_RE.search(text)
     if not m:
         return None
@@ -126,7 +135,7 @@ def extract_grants(ack_text):
         for m in re.finditer(pat, ack_text, flags=re.IGNORECASE | re.DOTALL):
             num = m.group(1) if m.groups() else m.group(0)
             num = re.sub(r"\s+", "", num)
-            if num:
+            if valid_grant_number(num):
                 found.append({"agency": kind, "number": num})
     # Dedupe
     seen = set()
@@ -159,6 +168,9 @@ def build_paper_author_index():
 
 
 def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--write", action="store_true")
+    args = parser.parse_args()
     os.makedirs(OUT_DIR, exist_ok=True)
     author_idx = build_paper_author_index()
     dirs = sorted(os.listdir(SOURCES_DIR))
@@ -188,14 +200,21 @@ def main():
             "grants": grants,
         })
 
-    with open(OUT_FILE, "w") as fh:
-        for r in records:
-            fh.write(json.dumps(r, ensure_ascii=False) + "\n")
+    if args.write:
+        pending = OUT_FILE + ".pending"
+        try:
+            with open(pending, "w") as fh:
+                for r in records:
+                    fh.write(json.dumps(r, ensure_ascii=False) + "\n")
+            os.replace(pending, OUT_FILE)
+        finally:
+            if os.path.exists(pending):
+                os.unlink(pending)
 
     print(f"Processed {total} papers")
     print(f"  with ack section: {with_ack}")
     print(f"  with grant info:  {with_grant}")
-    print(f"Wrote {OUT_FILE}")
+    print(f"Wrote {OUT_FILE}" if args.write else "Read-only preview; raw records and reviews unchanged")
 
 
 if __name__ == "__main__":

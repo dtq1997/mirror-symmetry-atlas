@@ -1,0 +1,1035 @@
+{
+  "reviewed_by": "Codex",
+  "date": "2026-10-08",
+  "status": "local-validation-complete-awaiting-deployment",
+  "scope": "Grant recipient binding; no project leadership or duration inference",
+  "before_files": {
+    "data/connections/grant.yaml": {
+      "sha256": "3d07549392efd180e0974ca9beb2d89530019756a36ca762f0333e5d6849cfd5",
+      "text": "# 基金合作：参与同一 NSFC 项目\nedges:\n  - source: dai-bo\n    target: liu-xiaobo\n    type: grant\n    period: \"2015-2019\"\n    notes: \"NSFC 重点项目：辛拓扑与规范场理论中的数学不变量。刘小博主持，戴波参与\"\n  # === 张友金-刘思齐-吴朝中 共享基金 ===\n  - source: zhang-youjin\n    target: liu-siqi\n    type: grant\n    period: \"2014-2018\"\n    notes: \"NSFC 11771238 (Frobenius 流形及相关问题)。张友金主持，刘思齐参与\"\n  - source: zhang-youjin\n    target: wu-chaozhong\n    type: grant\n    period: \"2019-2023\"\n    notes: \"NSFC 11831017 (可积系统及相关问题)。张友金主持，吴朝中参与\"\n  - source: liu-siqi\n    target: wu-chaozhong\n    type: grant\n    period: \"2019-2023\"\n    notes: \"NSFC 11831017 共同参与（张友金主持）\"\n  # === 中山大学 GAGP 团队基金 ===\n  - source: li-changzheng\n    target: ke-huazhong\n    type: grant\n    period: \"2020-2024\"\n    notes: \"NSFC 面上项目合作：Gamma conjecture 相关。中山大学团队\"\n  - source: li-changzheng\n    target: he-weiqiang\n    type: grant\n    period: \"2020-2024\"\n    notes: \"中山大学 GW/Gamma 方向团队基金合作\"\n"
+    },
+    "data/derived/grant-edges.yaml": {
+      "sha256": "e9fe920388b51e25522402695c47756423a735726d75eed9bbef05e48280b54e",
+      "text": "# 自动推导的共享基金边 (从致谢段基金号聚合)\n# 仅包含已建档学者之间的配对,且不与 data/connections/grant.yaml 重复\nedges:\n  - source: hu-jianxun\n    target: ke-huazhong\n    type: grant\n    derived: true\n    notes: \"共享基金: NSFC 11890662; NSFC 12271529; NSFC 12271532; JSPS 21H04994; NSFC 12471043; NSFC 11831017\"\n\n  - source: hu-jianxun\n    target: li-changzheng\n    type: grant\n    derived: true\n    notes: \"共享基金: NSFC 11890662; NSFC 12271529; NSFC 12271532; JSPS 21H04994; NSFC 12471043; NSFC 11831017\"\n\n  - source: fang-bohan\n    target: zong-zhengyu\n    type: grant\n    derived: true\n    notes: \"共享基金: NSF DMS-1206667; NSFC 11701315; NSFC 11831017; NSFC 12125101; NSFC 11890661\"\n\n  - source: liu-siqi\n    target: yang-di\n    type: grant\n    derived: true\n    notes: \"共享基金: NSFC 11071135; NSFC 11171176; NSFC 11725104\"\n\n  - source: liu-xiaobo\n    target: yang-chenglang\n    type: grant\n    derived: true\n    notes: \"共享基金: NSFC 11890662; NSFC 12288201\"\n\n  - source: guo-jindong\n    target: yang-di\n    type: grant\n    derived: true\n    notes: \"共享基金: NSFC 12061131014; NSFC 12371254\"\n\n  - source: guo-jindong\n    target: zhou-chunhui\n    type: grant\n    derived: true\n    notes: \"共享基金: NSFC 12061131014; NSFC 12371254\"\n\n  - source: yang-di\n    target: zhou-chunhui\n    type: grant\n    derived: true\n    notes: \"共享基金: NSFC 12061131014; NSFC 12371254\"\n\n  - source: wang-zhiyuan\n    target: yang-chenglang\n    type: grant\n    derived: true\n    notes: \"共享基金: NSFC 12288201; CPSF 2023M743717\"\n\n  - source: liu-siqi\n    target: zhang-bin\n    type: grant\n    derived: true\n    notes: \"共享基金: NSFC 10631050\"\n\n  - source: wu-chaozhong\n    target: zhang-bin\n    type: grant\n    derived: true\n    notes: \"共享基金: NSFC 10631050\"\n\n  - source: li-changzheng\n    target: xu-xiaomeng\n    type: grant\n    derived: true\n    notes: \"共享基金: JSPS Scientific\"\n\n  - source: li-changzheng\n    target: zeng-haozhi\n    type: grant\n    derived: true\n    notes: \"共享基金: JSPS Scientific\"\n\n  - source: xu-xiaomeng\n    target: zeng-haozhi\n    type: grant\n    derived: true\n    notes: \"共享基金: JSPS Scientific\"\n\n  - source: li-changzheng\n    target: li-qin\n    type: grant\n    derived: true\n    notes: \"共享基金: NSF -1309118\"\n\n  - source: boalch\n    target: zeng-haozhi\n    type: grant\n    derived: true\n    notes: \"共享基金: JSPS Grant\"\n\n  - source: liu-siqi\n    target: zhou-chunhui\n    type: grant\n    derived: true\n    notes: \"共享基金: NSFC 11371214\"\n\n  - source: du-chengyong\n    target: guo-shuai\n    type: grant\n    derived: true\n    notes: \"共享基金: NSFC 11431001\"\n\n  - source: wang-zhiyuan\n    target: yang-di\n    type: grant\n    derived: true\n    notes: \"共享基金: NSFC 11661131005\"\n\n  - source: tang-qian\n    target: xu-xiaomeng\n    type: grant\n    derived: true\n    notes: \"共享基金: NSFC 12171006\"\n\n  - source: hu-jianxun\n    target: liu-xiaobo\n    type: grant\n    derived: true\n    notes: \"共享基金: NSFC 11890662\"\n\n  - source: hu-jianxun\n    target: yang-chenglang\n    type: grant\n    derived: true\n    notes: \"共享基金: NSFC 11890662\"\n\n  - source: ke-huazhong\n    target: liu-xiaobo\n    type: grant\n    derived: true\n    notes: \"共享基金: NSFC 11890662\"\n\n  - source: ke-huazhong\n    target: yang-chenglang\n    type: grant\n    derived: true\n    notes: \"共享基金: NSFC 11890662\"\n\n  - source: li-changzheng\n    target: liu-xiaobo\n    type: grant\n    derived: true\n    notes: \"共享基金: NSFC 11890662\"\n\n  - source: li-changzheng\n    target: yang-chenglang\n    type: grant\n    derived: true\n    notes: \"共享基金: NSFC 11890662\"\n\n  - source: liu-xiaobo\n    target: wang-zhiyuan\n    type: grant\n    derived: true\n    notes: \"共享基金: NSFC 12288201\"\n\n  - source: hu-jianxun\n    target: song-jiayu\n    type: grant\n    derived: true\n    notes: \"共享基金: NSFC 12271529\"\n\n  - source: ke-huazhong\n    target: song-jiayu\n    type: grant\n    derived: true\n    notes: \"共享基金: NSFC 12271529\"\n\n  - source: li-changzheng\n    target: song-jiayu\n    type: grant\n    derived: true\n    notes: \"共享基金: NSFC 12271529\"\n\n  - source: guo-shuai\n    target: zhang-huailiang\n    type: grant\n    derived: true\n    notes: \"共享基金: NSFC 12225101\"\n\n  - source: guo-shuai\n    target: zhang-qingsheng\n    type: grant\n    derived: true\n    notes: \"共享基金: NSFC 12225101\"\n\n  - source: zhang-huailiang\n    target: zhang-qingsheng\n    type: grant\n    derived: true\n    notes: \"共享基金: NSFC 12225101\"\n\n  - source: fang-bohan\n    target: hu-jianxun\n    type: grant\n    derived: true\n    notes: \"共享基金: NSFC 11831017\"\n\n  - source: fang-bohan\n    target: ke-huazhong\n    type: grant\n    derived: true\n    notes: \"共享基金: NSFC 11831017\"\n\n  - source: fang-bohan\n    target: li-changzheng\n    type: grant\n    derived: true\n    notes: \"共享基金: NSFC 11831017\"\n\n  - source: hu-jianxun\n    target: zong-zhengyu\n    type: grant\n    derived: true\n    notes: \"共享基金: NSFC 11831017\"\n\n  - source: ke-huazhong\n    target: zong-zhengyu\n    type: grant\n    derived: true\n    notes: \"共享基金: NSFC 11831017\"\n\n  - source: li-changzheng\n    target: zong-zhengyu\n    type: grant\n    derived: true\n    notes: \"共享基金: NSFC 11831017\"\n"
+    },
+    "scripts/derive-grant-edges.py": {
+      "sha256": "69d085b87d42d76dc9455ac899084c5088ecb6acc6f7ff9f24749683352bb35c",
+      "text": "#!/usr/bin/env python3\n\"\"\"从 raw-acks.jsonl 按 (agency, number) 聚合,生成多人共享基金的边,写入 data/derived/grant-edges.yaml\"\"\"\nimport json\nfrom pathlib import Path\nfrom collections import defaultdict\nfrom itertools import combinations\n\nROOT = Path(__file__).resolve().parent.parent\nRAW = ROOT / \"data/derived/raw-acks.jsonl\"\nOUT = ROOT / \"data/derived/grant-edges.yaml\"\nEXISTING = ROOT / \"data/connections/grant.yaml\"\n\ndef main():\n    # (agency, number) -> {author_slugs}, [arxiv_ids]\n    grant_authors = defaultdict(lambda: {\"authors\": set(), \"papers\": set()})\n    with open(RAW) as f:\n        for line in f:\n            rec = json.loads(line)\n            authors = [a for a in rec[\"paper_authors\"] if a]\n            for g in rec.get(\"grants\", []):\n                key = (g[\"agency\"], g[\"number\"])\n                grant_authors[key][\"authors\"].update(authors)\n                grant_authors[key][\"papers\"].add(rec[\"arxiv_id\"])\n\n    # 已有边去重键\n    existing_pairs = set()\n    if EXISTING.exists():\n        import yaml\n        with open(EXISTING) as f:\n            data = yaml.safe_load(f) or {}\n        for e in data.get(\"edges\", []):\n            s, t = e.get(\"source\"), e.get(\"target\")\n            if s and t:\n                existing_pairs.add(frozenset([s, t]))\n\n    # 聚合每对学者共享的基金\n    pair_grants = defaultdict(list)  # frozenset({a,b}) -> [(agency, number, [papers])]\n    for (agency, number), info in grant_authors.items():\n        authors = sorted(info[\"authors\"])\n        if len(authors) < 2:\n            continue\n        for a, b in combinations(authors, 2):\n            pair_grants[frozenset([a, b])].append({\n                \"agency\": agency,\n                \"number\": number,\n                \"papers\": sorted(info[\"papers\"]),\n            })\n\n    edges = []\n    for pair, grants in sorted(pair_grants.items(), key=lambda x: -len(x[1])):\n        if pair in existing_pairs:\n            continue\n        a, b = sorted(pair)\n        grant_strs = [f\"{g['agency']} {g['number']}\" for g in grants]\n        edges.append({\n            \"source\": a,\n            \"target\": b,\n            \"type\": \"grant\",\n            \"notes\": \"共享基金: \" + \"; \".join(grant_strs),\n            \"grants\": [{\"agency\": g[\"agency\"], \"number\": g[\"number\"]} for g in grants],\n            \"derived\": True,\n        })\n\n    OUT.write_text(\n        \"# 自动推导的共享基金边 (从致谢段基金号聚合)\\n\"\n        \"# 仅包含已建档学者之间的配对,且不与 data/connections/grant.yaml 重复\\n\"\n        \"edges:\\n\" +\n        \"\\n\".join(\n            f\"  - source: {e['source']}\\n\"\n            f\"    target: {e['target']}\\n\"\n            f\"    type: grant\\n\"\n            f\"    derived: true\\n\"\n            f\"    notes: \\\"{e['notes']}\\\"\\n\"\n            for e in edges\n        )\n    )\n    print(f\"写入 {len(edges)} 条共享基金边 → {OUT}\")\n    for e in edges[:10]:\n        print(f\"  {e['source']} ↔ {e['target']}: {e['notes'][:80]}\")\n\nif __name__ == \"__main__\":\n    main()\n"
+    },
+    "scripts/extract-acknowledgements.py": {
+      "sha256": "d8d2432187338a3845da79f46c4c7f4df2d6222f2150d6c9b8d9260e5d3f93f4",
+      "text": "#!/usr/bin/env python3\n\"\"\"Extract Acknowledgements section and grant numbers from arXiv LaTeX sources.\n\nReads .cache/msa/papers/sources/{arxiv_id}/*.tex by default, writes\ndata/derived/raw-acks.jsonl with one JSON per paper:\n{arxiv_id, ack_text, grants: [...], paper_authors: [...]}\n\npaper_authors are registered bibliography owners, not the complete author list\nor the grammatical subject of a particular acknowledgement sentence.\n\"\"\"\n\nimport os, re, json, yaml, glob, sys\n\nfrom cache_paths import cache_path\n\nSOURCES_DIR = cache_path(\"sources\")\nPEOPLE_DIR = \"data/people\"\nOUT_DIR = \"data/derived\"\nOUT_FILE = os.path.join(OUT_DIR, \"raw-acks.jsonl\")\n\n# Section headers that usually mark the ack block.\nACK_HEADER_RE = re.compile(\n    r\"\"\"\n    (?:\n        \\\\section\\*?\\s*\\{\\s*Acknowledg(?:e?)ment(?:s)?[^}]*\\}\n      | \\\\subsection\\*?\\s*\\{\\s*Acknowledg(?:e?)ment(?:s)?[^}]*\\}\n      | \\\\paragraph\\s*\\{\\s*Acknowledg(?:e?)ment(?:s)?[^}]*\\}\n      | \\\\chapter\\*?\\s*\\{\\s*Acknowledg(?:e?)ment(?:s)?[^}]*\\}\n      | \\{\\s*\\\\bf\\s+Acknowledg(?:e?)ment(?:s)?[^}]*\\}\n      | \\{\\s*\\\\sc\\s+Acknowledg(?:e?)ment(?:s)?[^}]*\\}\n      | \\\\noindent\\s*\\\\textbf\\s*\\{\\s*Acknowledg(?:e?)ment(?:s)?[^}]*\\}\n      | \\\\textbf\\s*\\{\\s*Acknowledg(?:e?)ment(?:s)?[^}]*\\}\n      | \\\\begin\\{acknowledg(?:e?)ments?\\}\n    )\n    \"\"\",\n    re.IGNORECASE | re.VERBOSE,\n)\n\n# Where the ack section ends\nEND_RE = re.compile(\n    r\"\"\"\n    (?:\n        \\\\section\\*?\\s*\\{\n      | \\\\chapter\\*?\\s*\\{\n      | \\\\bibliographystyle\\b\n      | \\\\bibliography\\b\n      | \\\\begin\\{thebibliography\\}\n      | \\\\end\\{document\\}\n      | \\\\appendix\\b\n      | \\\\end\\{acknowledg(?:e?)ments?\\}\n    )\n    \"\"\",\n    re.IGNORECASE | re.VERBOSE,\n)\n\n# Grant patterns\nGRANT_PATTERNS = [\n    # NSFC: 8-digit numbers (11931009, 12171254, etc.); historical 5-7 digit too\n    (r\"\\b(?:NSFC|National\\s+Natural\\s+Science\\s+Foundation(?:\\s+of\\s+China)?)[^\\.;]{0,200}?\\b(?:No\\.?|Grant(?:s)?|#)?\\s*([0-9]{5,13})\", \"NSFC\"),\n    # China Postdoctoral Science Foundation\n    (r\"\\bChina\\s+Postdoctoral\\s+Science\\s+Foundation[^\\.;]{0,200}?\\b(?:No\\.?|Grant(?:s)?)?\\s*([0-9A-Z]{6,15})\", \"CPSF\"),\n    # Tsinghua Postdoc\n    (r\"\\bTsinghua\\s+(?:University\\s+)?(?:Initiative\\s+Scientific\\s+Research\\s+Program|Dushi\\s+Program|Postdoctoral?)[^\\.;]{0,200}?([0-9]{5,15})\", \"Tsinghua\"),\n    # DFG\n    (r\"\\bDFG[^\\.;]{0,200}?\\b(?:CRC|SFB|TRR|GRK)?\\s*([A-Z]{0,4}[\\-\\s]?[0-9]{3,8})\", \"DFG\"),\n    # ERC\n    (r\"\\bERC\\s+(?:Advanced|Starting|Consolidator|Synergy)?\\s*(?:Grant)?[^\\.;]{0,100}?(?:No\\.?|#)?\\s*([0-9]{5,10})\", \"ERC\"),\n    # NSF (US)\n    (r\"\\bNSF\\s+(?:DMS|grant|Grant|No\\.?|#)?[^\\.;]{0,80}?([A-Z]{0,4}[\\-\\s]?[0-9]{5,10})\", \"NSF\"),\n    # Simons Foundation\n    (r\"\\bSimons\\s+(?:Foundation|Collaboration|Fellowship)[^\\.;]{0,200}?(?:No\\.?|#|Grant)?\\s*([0-9]{5,10})\", \"Simons\"),\n    # JSPS\n    (r\"\\bJSPS\\s+(?:KAKENHI|Grant)[^\\.;]{0,100}?([A-Z0-9]{5,15})\", \"JSPS\"),\n    # 973/863 计划\n    (r\"\\b(?:973|863)\\s+Program[^\\.;]{0,100}?(?:No\\.?)?\\s*([A-Z0-9]{5,15})\", \"China973\"),\n    # Fundamental Research Funds (中央高校基本科研业务费)\n    (r\"\\bFundamental\\s+Research\\s+Funds[^\\.;]{0,200}?([A-Z0-9]{5,20})\", \"FundResFunds\"),\n]\n\n\ndef read_tex_files(paper_dir):\n    \"\"\"Concatenate all .tex files in a paper directory.\"\"\"\n    chunks = []\n    for f in sorted(os.listdir(paper_dir)):\n        if not f.endswith(\".tex\"):\n            continue\n        path = os.path.join(paper_dir, f)\n        try:\n            with open(path, \"r\", encoding=\"utf-8\", errors=\"replace\") as fh:\n                content = fh.read()\n            # Skip HTML error pages\n            if content.lstrip().startswith((\"<!DOCTYPE\", \"<html\")):\n                continue\n            chunks.append(content)\n        except Exception:\n            pass\n    return \"\\n\".join(chunks)\n\n\ndef strip_comments(text):\n    \"\"\"Remove LaTeX line comments (% not preceded by \\\\).\"\"\"\n    return re.sub(r\"(?<!\\\\)%.*\", \"\", text)\n\n\ndef extract_ack(text):\n    \"\"\"Find the ack section; return string or None.\"\"\"\n    text = strip_comments(text)\n    m = ACK_HEADER_RE.search(text)\n    if not m:\n        return None\n    start = m.end()\n    # Find the end\n    end_match = END_RE.search(text, start)\n    end = end_match.start() if end_match else min(len(text), start + 5000)\n    ack = text[start:end].strip()\n    # Cap at 3000 chars — long \"acks\" are likely false positives\n    return ack[:3000] if ack else None\n\n\ndef extract_grants(ack_text):\n    \"\"\"Find grant references within the ack.\"\"\"\n    found = []\n    if not ack_text:\n        return found\n    for pat, kind in GRANT_PATTERNS:\n        for m in re.finditer(pat, ack_text, flags=re.IGNORECASE | re.DOTALL):\n            num = m.group(1) if m.groups() else m.group(0)\n            num = re.sub(r\"\\s+\", \"\", num)\n            if num:\n                found.append({\"agency\": kind, \"number\": num})\n    # Dedupe\n    seen = set()\n    uniq = []\n    for g in found:\n        k = (g[\"agency\"], g[\"number\"])\n        if k not in seen:\n            seen.add(k)\n            uniq.append(g)\n    return uniq\n\n\ndef build_paper_author_index():\n    \"\"\"arxiv_id → list of slugs (authors registered in YAML).\"\"\"\n    idx = {}\n    for f in sorted(os.listdir(PEOPLE_DIR)):\n        if not f.endswith(\".yaml\"):\n            continue\n        slug = f[:-5]\n        with open(os.path.join(PEOPLE_DIR, f)) as fh:\n            try:\n                p = yaml.safe_load(fh) or {}\n            except Exception:\n                continue\n        for pub in p.get(\"publications\") or []:\n            aid = (pub.get(\"id\") or \"\").strip()\n            if aid and not aid.startswith(\"[\"):\n                idx.setdefault(aid, []).append(slug)\n    return idx\n\n\ndef main():\n    os.makedirs(OUT_DIR, exist_ok=True)\n    author_idx = build_paper_author_index()\n    dirs = sorted(os.listdir(SOURCES_DIR))\n    total = 0\n    with_ack = 0\n    with_grant = 0\n    records = []\n    for arxiv_id in dirs:\n        paper_dir = os.path.join(SOURCES_DIR, arxiv_id)\n        if not os.path.isdir(paper_dir):\n            continue\n        total += 1\n        text = read_tex_files(paper_dir)\n        if not text:\n            continue\n        ack = extract_ack(text)\n        if not ack:\n            continue\n        with_ack += 1\n        grants = extract_grants(ack)\n        if grants:\n            with_grant += 1\n        records.append({\n            \"arxiv_id\": arxiv_id,\n            \"paper_authors\": author_idx.get(arxiv_id, []),\n            \"ack_text\": ack,\n            \"grants\": grants,\n        })\n\n    with open(OUT_FILE, \"w\") as fh:\n        for r in records:\n            fh.write(json.dumps(r, ensure_ascii=False) + \"\\n\")\n\n    print(f\"Processed {total} papers\")\n    print(f\"  with ack section: {with_ack}\")\n    print(f\"  with grant info:  {with_grant}\")\n    print(f\"Wrote {OUT_FILE}\")\n\n\nif __name__ == \"__main__\":\n    main()\n"
+    }
+  },
+  "old_edge_count": 45,
+  "old_derived": 39,
+  "old_manual": 6,
+  "legacy_dispositions": {
+    "needs-review": 38,
+    "superseded-by-reviewed-evidence": 3,
+    "rejected-invalid-number": 4
+  },
+  "accepted_recipient_claims": 5,
+  "public_pairs": 4,
+  "accepted_grant_numbers": [
+    "NSFC 11831017",
+    "NSFC 12171006"
+  ],
+  "source_scope": "Paper acknowledgement recipient statements only; project titles, leadership, membership periods and completeness not established",
+  "sources": [
+    {
+      "url": "https://arxiv.org/html/2501.17516v1",
+      "checked": "current abstract version v1; full author list and acknowledgement read live",
+      "finding": "The authors explicitly includes Qian Tang and Xiaomeng Xu for NSFC 12171006."
+    },
+    {
+      "url": "https://arxiv.org/html/2502.13558v1",
+      "checked": "v1 HTML full author names, SYSU addresses/emails and acknowledgement read live",
+      "finding": "Hu, Ke and Li each explicitly have 11831017. Other numbers cannot be spread to all three. Fourth author is Lei Song, not Jiayu Song."
+    },
+    {
+      "url": "https://arxiv.org/html/2211.16902v2",
+      "checked": "v2 full author order, SYSU emails and acknowledgement read live",
+      "finding": "First author Changzheng Li receives 12271529 in this text; this clause does not assign it to Jiayu Song."
+    }
+  ],
+  "limitations": [
+    "Other old edges remain pending, not disproved merely by incomplete evidence.",
+    "The first-paper claim for Tang/Xu in 2402.07269 does not support both recipients, but 2501.17516 does; do not delete a pair solely because an earlier source fails.",
+    "1604.07123 current abstract author order was checked; body HTML failed, cached source assigns NSF DMS-1206667 to the second author. This is a source-specific lead, not complete funding history.",
+    "2504.15696 body retrieval was inconsistent; cached first-author vs fourth-author funding remains a review lead.",
+    "Extraction regex is candidate-only and may still omit grant numbers/blocks; no completeness claim.",
+    "Readonly extraction now sees 310 blocks/101 with candidate grants among513 source directories; archived299 raw records unchanged to preserve existing reviews."
+  ],
+  "validation": {
+    "site_regressions": 58,
+    "grant_tests": 15,
+    "lint_errors": 0,
+    "lint_warnings": 73,
+    "eslint": "pass",
+    "typecheck": "pass",
+    "production_build": "pass; CIRCLE_NODE_TOTAL=3 / 2workers",
+    "export_pages": 287,
+    "export_links": 15254,
+    "export_formula_instances": 555,
+    "export_issues": 0,
+    "profile_funding_sections": 96
+  },
+  "next_source_records": [
+    {
+      "arxiv_id": "0710.3115",
+      "paper_authors": [
+        "liu-siqi"
+      ],
+      "ack_text": "The authors thank Yassir Dinar for fruitful discussions.\nThe work of Dubrovin is\npartially supported by European Science Foundation Programme ``Methods of\nIntegrable Systems, Geometry, Applied Mathematics\" (MISGAM), Marie Curie RTN ``European Network in\nGeometry, Mathematical Physics and Applications\"  (ENIGMA),\nand by Italian Ministry of Universities and Researches (MUR) research grant PRIN 2006\n``Geometric methods in the theory of nonlinear waves and their applications\".\nHe also thanks for hospitality and support the Department of Mathematics of Tsinghua University\nwhere part of this work was done.\nThe work of Zhang is partially supported by NSFC No.10631050 and the\nNational Basic Research Program of China (973 Program) No.2007CB814800. He also thanks SISSA,\nwhere part of this work was done, for\nhospitality and support.",
+      "grants": [
+        {
+          "agency": "NSFC",
+          "number": "10631050"
+        },
+        {
+          "agency": "China973",
+          "number": "2007CB814800"
+        }
+      ]
+    },
+    {
+      "arxiv_id": "0711.2599",
+      "paper_authors": [
+        "liu-siqi",
+        "wu-chaozhong"
+      ],
+      "ack_text": "The authors thank Boris Dubrovin and Daniel Sternheimer for helpful discussions and\nsuggestive comments on the subject of the paper.\nThis work is partially supported by NSFC No.10631050 and the\nNational Basic Research Program of China (973 Program) No.2007CB814800.",
+      "grants": [
+        {
+          "agency": "NSFC",
+          "number": "10631050"
+        },
+        {
+          "agency": "China973",
+          "number": "2007CB814800"
+        }
+      ]
+    },
+    {
+      "arxiv_id": "0809.0397",
+      "paper_authors": [
+        "liu-siqi"
+      ],
+      "ack_text": "The work is partially supported by the\nNational Basic Research Program of China (973 Program)  No.2007CB814800\nand the NSFC No.10631050.",
+      "grants": [
+        {
+          "agency": "NSFC",
+          "number": "10631050"
+        },
+        {
+          "agency": "China973",
+          "number": "2007CB814800"
+        }
+      ]
+    },
+    {
+      "arxiv_id": "0906.0092",
+      "paper_authors": [
+        "zhang-bin"
+      ],
+      "ack_text": "L. Guo acknowledges the support from NSF grant DMS-0505643 and thanks JAMI at Johns Hopkins University for its hospitality. S. Paycha is grateful to D. Manchon for his comments on a preliminary version of part of this paper. B. Zhang acknowledges the support from NSFC grant 10631050.",
+      "grants": [
+        {
+          "agency": "NSFC",
+          "number": "10631050"
+        },
+        {
+          "agency": "NSF",
+          "number": "DMS-0505643"
+        }
+      ]
+    },
+    {
+      "arxiv_id": "0906.5360",
+      "paper_authors": [
+        "wu-chaozhong"
+      ],
+      "ack_text": "The author would like to thank\nBoris Dubrovin, Si-Qi Liu and Youjin Zhang for advises, he would also like to\nthank Todor Milanov for helpful comments.\nThis work is partially supported by the National Basic Research Program of China (973 Program)  No.2007CB814800.",
+      "grants": [
+        {
+          "agency": "China973",
+          "number": "2007CB814800"
+        }
+      ]
+    },
+    {
+      "arxiv_id": "0910.2085",
+      "paper_authors": [
+        "liu-siqi"
+      ],
+      "ack_text": "The authors thank Boris Dubrovin for his interests in and advises on the work of the paper.\nPart of the work was done in SISSA during the authors' visit to it, they thank its hospitality and financial support.\nThe work is partially supported by the National Basic Research Program of China (973 Program)  No.2007CB814800, the NSFC No.10631050 and No.10801084.",
+      "grants": [
+        {
+          "agency": "NSFC",
+          "number": "10631050"
+        },
+        {
+          "agency": "China973",
+          "number": "2007CB814800"
+        }
+      ]
+    },
+    {
+      "arxiv_id": "0912.5273",
+      "paper_authors": [
+        "liu-siqi",
+        "wu-chaozhong"
+      ],
+      "ack_text": "The authors thank Boris\nDubrovin for his interest in this work and for his advices, they also thank for the\nhospitality of  SISSA where part of the work was done. This work is\npartially supported by the National Basic Research Program of China\n(973 Program) No.2007CB814800, the NSFC No.10631050 and No.10801084.",
+      "grants": [
+        {
+          "agency": "NSFC",
+          "number": "10631050"
+        },
+        {
+          "agency": "China973",
+          "number": "2007CB814800"
+        }
+      ]
+    },
+    {
+      "arxiv_id": "1001.4126",
+      "paper_authors": [
+        "wu-chaozhong"
+      ],
+      "ack_text": "The authors thank Si-Qi Liu and\nYoujin Zhang for their advice, and thank Yang Shi for her comment.\nThey are also grateful to the referee for the helpful suggestions.\nThis work is partially supported by the National Basic Research\nProgram of China (973 Program) No.2007CB814800 and the NSFC\nNo.10801084.",
+      "grants": [
+        {
+          "agency": "NSFC",
+          "number": "10801084"
+        },
+        {
+          "agency": "China973",
+          "number": "2007CB814800"
+        }
+      ]
+    },
+    {
+      "arxiv_id": "1012.5708",
+      "paper_authors": [
+        "liu-siqi"
+      ],
+      "ack_text": "The authors thank Boris Dubrovin for helpful discussions and comments.\nThe work is partially supported by the National Basic Research Program of China (973 Program) No.2007CB814800,\nthe NSFC No. 10801084, 11071135 and 11171176, and the Marie Curie IRSES project RIMMP.",
+      "grants": [
+        {
+          "agency": "NSFC",
+          "number": "10801084"
+        },
+        {
+          "agency": "China973",
+          "number": "2007CB814800"
+        }
+      ]
+    },
+    {
+      "arxiv_id": "1103.4048",
+      "paper_authors": [
+        "wu-chaozhong"
+      ],
+      "ack_text": "The authors are\ngrateful to Guido Carlet, Boris Dubrovin, Si-Qi Liu and Youjin Zhang\nfor helpful discussions. The first named author acknowledges the\nsupport of the Young SISSA Scientist Grant ``FIMA.645''. The second\nnamed author is partially supported by the National Basic Research\nProgram of China (973 Program)  No.2007CB814800, the NSFC\nNo.10801084 and 11071135; he is also supported by the State\nScholarship Fund of China No.2010621203 and would like to express\nthanks for the hospitality of SISSA where part of the work was done.\n\n\n\n\n\\begin{appendices}\n\\renewcommand{\\thesection}{A\\Alph{section}}",
+      "grants": [
+        {
+          "agency": "NSFC",
+          "number": "10801084"
+        },
+        {
+          "agency": "China973",
+          "number": "2007CB814800"
+        }
+      ]
+    },
+    {
+      "arxiv_id": "1305.2593",
+      "paper_authors": [
+        "liu-siqi",
+        "yang-di"
+      ],
+      "ack_text": "The authors thank Boris Dubrovin for his encouragement and many helpful discussions. \nThis work is partially supported by the NSFC No. 11071135, No. 11171176 and No. 11222108, and by the Marie Curie IRSES project\nRIMMP.",
+      "grants": [
+        {
+          "agency": "NSFC",
+          "number": "11071135"
+        }
+      ]
+    },
+    {
+      "arxiv_id": "1308.0100",
+      "paper_authors": [
+        "xu-xiaomeng"
+      ],
+      "ack_text": "\\noindent\nWe would like to thank Pavol \\v{S}evera for useful comments on the preliminary version of the manuscript. X.X.~is especially grateful to Anton Alekseev for inspiring conversations and helpful suggestions in writing this paper.\nN.I.~is supported by the grant of Maskawa Institute and by JSPS Grants-in-Aid for Scientific Research Number 22K03323.\nX.X.~is supported by the grant PDFMP$2_{-}$141756 \nof the Swiss National Science Foundation.\n\n\n\n\n\n\\subsection*{Data Availability}\n\\noindent\nThe data that supports the findings of this study are available within the article.",
+      "grants": [
+        {
+          "agency": "JSPS",
+          "number": "Scientific"
+        }
+      ]
+    },
+    {
+      "arxiv_id": "1311.1659",
+      "paper_authors": [
+        "li-changzheng"
+      ],
+      "ack_text": ": The authors would like to thank   Alexey Bondal, Kwok-Wai Chan,  Kentaro Hori, Hiroshi Iritani, Todor Eliseev Milanov, Hiroshi Ohta, Mauricio Andres Romo Jorquera, Yefeng Shen, and especially, Claus Hertling,  Morihiko Saito and Atsushi Takahashi    for valuable comments and inspiring  discussions.\n   The second author would like to thank in addition Huai-Liang Chang,\n  Kevin Costello,  Yongbin Ruan, and Cumrun Vafa, for various communications on Landau-Ginzburg theory. Part of the work was done while the second author was visiting Kavli IPMU at University of Tokyo   and MSC at Tsinghua University, and he thanks for their hospitality.\n The first author is partially supported by JSPS Grant-in-Aid for Young Scientists (B) No. 25870175. The second author is partially supported by NSF DMS-1309118. The third author is partially supported by  JSPS Grant-in-Aid for Scientific Research (A) No. 25247004.",
+      "grants": [
+        {
+          "agency": "NSF",
+          "number": "-1309118"
+        },
+        {
+          "agency": "JSPS",
+          "number": "Young"
+        },
+        {
+          "agency": "JSPS",
+          "number": "Scientific"
+        }
+      ]
+    },
+    {
+      "arxiv_id": "1402.7000",
+      "paper_authors": [
+        "li-qin"
+      ],
+      "ack_text": ": The authors would like to thank Kevin Costello, Ryan Grady, Owen Gwilliam and Yuan Shen for valuable discussions\non quantum field theories. Part of the work was done while the authors were visiting MSC at Tsinghua University in the summer of 2012 and 2013, and the first author\nwas visiting Boston University in 2012 and 2013. We would like to thank for their hospitality. The first author is partially supported by Chinese Universities\nScientific\nFund WK0010000030. The second author is partially supported by NSF DMS-1309118.",
+      "grants": [
+        {
+          "agency": "NSF",
+          "number": "-1309118"
+        }
+      ]
+    },
+    {
+      "arxiv_id": "1409.4616",
+      "paper_authors": [
+        "liu-siqi",
+        "yang-di"
+      ],
+      "ack_text": "This work  is partially supported by PRIN 2010-11 Grant ``Geometric and analytic theory of Hamiltonian systems in finite and infinite dimensions'' of Italian Ministry of Universities and Researches and by the Russian Federation Government Grant No. 2010-220-01-077.\nIt is also supported by NSFC No. 11171176, No. 11222108, No. 11371214 and by the Marie Curie IRSES project RIMMP. The authors would like to thank Jian Zhou for helpful discussions.",
+      "grants": [
+        {
+          "agency": "NSFC",
+          "number": "11171176"
+        }
+      ]
+    },
+    {
+      "arxiv_id": "1512.08091",
+      "paper_authors": [
+        "boalch"
+      ],
+      "ack_text": "The first named author is grateful to Jochen Heinloth for useful conversations, and \nis partly supported by grants\nANR-13-BS01-0001-01 (Vari\\'et\\'es de caract\\`eres et g\\'en\\'eralisations) \nand ANR-13-IS01-0001-01/02 \n(Sym\\'etrie miroir et singularit\\'es irr\\'eguli\\`eres provenant de la physique).\nThe second named author is supported by JSPS KAKENHI Grant Number 15K17552.",
+      "grants": [
+        {
+          "agency": "JSPS",
+          "number": "Grant"
+        }
+      ]
+    },
+    {
+      "arxiv_id": "1604.07123",
+      "paper_authors": [
+        "fang-bohan",
+        "zong-zhengyu"
+      ],
+      "ack_text": "We wish to thank Charles Doran, Bertrand Eynard, and Nicolas Orantin for helpful conversations. We wish to thank Motohico Mulase and Yongbin Ruan for encouragement.\nWe wish to thank Sheldon Katz, Jie Zhou, and Shengmao Zhu for their comments on earlier versions of this paper.\nThe first author is partially supported by a start-up grant at\nPeking University. The second author is partially supported by NSF grants DMS-1206667 and DMS-1159416. The third author is partially supported by the start-up grant at Tsinghua University.",
+      "grants": [
+        {
+          "agency": "NSF",
+          "number": "DMS-1206667"
+        }
+      ]
+    },
+    {
+      "arxiv_id": "1702.02840",
+      "paper_authors": [
+        "liu-siqi",
+        "zhou-chunhui"
+      ],
+      "ack_text": "We are grateful to Boris Dubrovin and Di Yang for sharing with us\ntheir discovery of the relation of special cubic Hodge integrals with the equation \\eqref{new-hie-1} and for helpful discussions. We would also like to thank\nFedor Petrov and Vladimir Dotsenko for their proof of the four identities given in the end of Sect.\\,\\ref{sec-3}.\nThis work is supported by NSFC No. 11371214 and No.11471182.",
+      "grants": [
+        {
+          "agency": "NSFC",
+          "number": "11371214"
+        }
+      ]
+    },
+    {
+      "arxiv_id": "1812.05432",
+      "paper_authors": [
+        "du-chengyong"
+      ],
+      "ack_text": "We would like to thank Rui Wang and Xiang Tang for useful discussions. This work was supported by the National Natural Science Foundation of China (No. 11431001, No. 11890663, No. 11501393, No. 11501390, No. 11701397), by Sichuan Science and Technology Program (No. 2019YJ0509, No. 2019YJ0456), by Sichuan University (No. 1082204112190).",
+      "grants": [
+        {
+          "agency": "NSFC",
+          "number": "11431001"
+        }
+      ]
+    },
+    {
+      "arxiv_id": "1812.10638",
+      "paper_authors": [
+        "wang-zhiyuan"
+      ],
+      "ack_text": ".\nThe authors thank Professor Di Yang for helpful discussions.\nThe second author is partly supported by NSFC grant 11661131005 and 11890662.\n\n\n\n\n\\begin{appendices}",
+      "grants": [
+        {
+          "agency": "NSFC",
+          "number": "11661131005"
+        }
+      ]
+    },
+    {
+      "arxiv_id": "1812.11908",
+      "paper_authors": [
+        "guo-shuai"
+      ],
+      "ack_text": "Our program (including the results of the current paper) to the higher\ngenus theory was first announced in a workshop in Zurich in January\n2018.\nA special thanks to R.~Pandharipande for the opportunity to present\nour program and his constant support.\nWe thank D.~Maulik, A.~Pixton, G.~Oberdieck and X.~Wang for\ninteresting discussions.\nThe third author would like to thank S.~Donaldson, H.~Ogouri and\nC.~Vafa for valuable discussions regarding the program.\n\n\n\nThe first author was partially supported by supported by NSFC grants\n11431001 and 11501013.\nThe second author was partially supported by an AMS/Simons Travel\nGrant.\nThe third author was partially supported by NSF grant DMS 1405245 and\nNSF FRG grant DMS 1159265.\nPart of the work was done during last two authors' visit to the MSRI,\nwhich was supported by NSF grant DMS-1440140.",
+      "grants": [
+        {
+          "agency": "NSFC",
+          "number": "11431001"
+        },
+        {
+          "agency": "NSF",
+          "number": "DMS1405245"
+        },
+        {
+          "agency": "NSF",
+          "number": "DMS1159265"
+        },
+        {
+          "agency": "NSF",
+          "number": "DMS-1440140"
+        }
+      ]
+    },
+    {
+      "arxiv_id": "1907.11149",
+      "paper_authors": [
+        "boalch"
+      ],
+      "ack_text": "The second named author was supported by JSPS KAKENHI Grant Number 18K03256.\n\n\\renewcommand{\\baselinestretch}{1}              \n\\normalsize",
+      "grants": [
+        {
+          "agency": "JSPS",
+          "number": "Grant"
+        }
+      ]
+    },
+    {
+      "arxiv_id": "1912.07196",
+      "paper_authors": [
+        "xu-xiaomeng"
+      ],
+      "ack_text": "\\noindent\nWe would like to thank Anton Alekseev, Roman Bezrukavnikov, Philip Boalch, Pavel Etingof, Giovanni Felder, Michio Jimbo, Alexander Its, Yanpeng Li, Leonid Rybnikov, Qian Tang and Valerio Toledano Laredo for their interests and valuable feedback on the paper. The author is supported by the National Key Research and Development Program of China (No. 2021YFA1002000) and by the National Natural Science Foundation of China (No. 12171006).",
+      "grants": [
+        {
+          "agency": "NSFC",
+          "number": "12171006"
+        }
+      ]
+    },
+    {
+      "arxiv_id": "2012.15673",
+      "paper_authors": [
+        "xu-xiaomeng"
+      ],
+      "ack_text": "\\noindent We would like to thank Anton Alekseev for useful comments. The author is supported by the National Key Research and Development Program of China (No. 2021YFA1002000) and by the National Natural Science Foundation of China (No. 12171006).",
+      "grants": [
+        {
+          "agency": "NSFC",
+          "number": "12171006"
+        }
+      ]
+    },
+    {
+      "arxiv_id": "2103.14318",
+      "paper_authors": [
+        "liu-xiaobo",
+        "yang-chenglang"
+      ],
+      "ack_text": ".}\n\n\n\n\\title{Schur Q-Polynomials and Kontsevich-Witten Tau Function}\n\n\\author{Xiaobo Liu \\thanks{Research was partially supported by NSFC grants 11890662 and 11890660.}, Chenglang Yang}\n\n\n\n\\date{}\n\n\\begin{document}\n\n\n\n\\maketitle\n\n\n\\begin{abstract}\n\tUsing matrix model, Mironov and Morozov recently gave a formula which represents Kontsevich-Witten tau-function as a linear expansion of Schur Q-polynomials.  In this paper, we will show directly that the Q-polynomial expansion in this formula satisfies the Virasoro constraints, and consequently obtain a proof of this formula without using matrix model. We also give a proof for Alexandrov's conjecture that  Kontsevich-Witten tau-function is a hypergeometric tau-function of the BKP hierarchy after re-scaling.\n\\end{abstract}",
+      "grants": [
+        {
+          "agency": "NSFC",
+          "number": "11890662"
+        }
+      ]
+    },
+    {
+      "arxiv_id": "2104.01357",
+      "paper_authors": [
+        "liu-xiaobo",
+        "yang-chenglang"
+      ],
+      "ack_text": ".}\n\n\n\\title{Q-polynomial expansion for Br\\'{e}zin-Gross-Witten tau-function}\n\\author{Xiaobo Liu \\thanks{Research was partially supported by NSFC grants 11890662 and 11890660.}, Chenglang Yang}\n\\date{}\n\n\\begin{document}\n\\maketitle\n\n\\begin{abstract}\n\tIn this paper, we prove a conjecture of Alexandrov that the generalized Br\\'{e}zin-Gross-Witten tau-functions are hypergeometric\ntau functions of BKP hierarchy after re-scaling. In particular, this shows that the original BGW tau-function, which has enumerative geometric interpretations, can be represented as a linear combination of Schur Q-polynomials with simple coefficients.\n\\end{abstract}",
+      "grants": [
+        {
+          "agency": "NSFC",
+          "number": "11890662"
+        }
+      ]
+    },
+    {
+      "arxiv_id": "2107.10472",
+      "paper_authors": [
+        "liu-xiaobo",
+        "yang-chenglang"
+      ],
+      "ack_text": ".}\n\n\\title{Action of Virasoro operators on Hall-Littlewood polynomials}\n\n\\author{Xiaobo Liu \\thanks{Research was partially supported by NSFC grants 11890662 and 11890660.}, Chenglang Yang}\n\n\\date{}\n\n\\begin{document}\n\\maketitle\n\n\n\\begin{abstract}\nIn this paper, we prove formulas for the action of Virasoro operators on Hall-Littlewood polynomials at roots of unity.\n\\end{abstract}",
+      "grants": [
+        {
+          "agency": "NSFC",
+          "number": "11890662"
+        }
+      ]
+    },
+    {
+      "arxiv_id": "2108.10498",
+      "paper_authors": [
+        "wang-zhiyuan"
+      ],
+      "ack_text": ".\nThe second author is partly supported by NSFC grant 11661131005 and 11890662.",
+      "grants": [
+        {
+          "agency": "NSFC",
+          "number": "11661131005"
+        }
+      ]
+    },
+    {
+      "arxiv_id": "2110.06655",
+      "paper_authors": [
+        "yang-di"
+      ],
+      "ack_text": "Part of the work of D.V.~and D.Y.~was done during their visits to SISSA and Tsinghua University during the years 2017 and 2018; they thank both\nSISSA and Tsinghua for warm hospitality and financial support.\nD.V.~acknowledges the financial support of the\nproject MMNLP (Mathematical Methods in Non Linear Physics) of the\nINFN.\nThe work of D.Y.~was partially supported by the National Key R and D Program of China 2020YFA0713100, and by NSFC 12061131014.\n\n\\subsection*{Note added}\nThe collaborative research of our project aiming at generalizing\n the results in~\\cite{BDY21} to twisted affine Kac--Moody algebras\nstarted in 2017.\n\nThe three authors communicated by email and also in person during several visits\nof D.V.~and D.Y.~to Trieste to meet with B.D.~at SISSA.\nDuring these periods, we achieved the extension of the matrix-resolvent method to\nthe DS hierarchies associated to affine Kac--Moody algebras,\nand a draft containing the main results of what are now Sections \\ref{section1}--\\ref{sec:exa} was written by the three of us,\nwhile Section~\\ref{sec:Ham} contains further results found\nby D.V.~and D.Y.~after Boris Dubrovin passed away in March of 2019.\n\n\n\n\n\\pdfbookmark[1]{References}{ref}",
+      "grants": [
+        {
+          "agency": "NSFC",
+          "number": "12061131014"
+        }
+      ]
+    },
+    {
+      "arxiv_id": "2110.06774",
+      "paper_authors": [
+        "guo-jindong",
+        "yang-di"
+      ],
+      "ack_text": "We are grateful to Don Zagier for several very helpful suggestions. \nWe also thank the anonymous referee for very helpful comments that improve the presentation of the paper.\nThe work is partially supported by \nthe National Key R and D Program of China 2020YFA0713100 (``Analysis and Geometry on Bundles\") \nand NSFC 12061131014.",
+      "grants": [
+        {
+          "agency": "NSFC",
+          "number": "12061131014"
+        }
+      ]
+    },
+    {
+      "arxiv_id": "2112.07526",
+      "paper_authors": [
+        "liu-siqi",
+        "yang-di"
+      ],
+      "ack_text": "We wish to thank Boris Dubrovin for valuable suggestions.\nPart of the work of D.Y. was done during his PhD studies at Tsinghua University;\nhe thanks Tsinghua for excellent working conditions and financial support. \nThe work is partially supported by the National Key R and D Program of China 2020YFA0713100, \nand by NSFC grants 11725104, 12171268, 11661131005, 11890662.",
+      "grants": [
+        {
+          "agency": "NSFC",
+          "number": "11725104"
+        }
+      ]
+    },
+    {
+      "arxiv_id": "2112.14202",
+      "paper_authors": [
+        "yang-di"
+      ],
+      "ack_text": "We are grateful to our teacher and friend Boris Dubrovin, \nwho initiated this project.\nM.C. acknowledges the support\nof the H2020-MSCA-RISE-2017 PROJECT No. 778010 IPaDEGAN and the International Research\nProject PIICQ, funded by CNRS. D.Y. acknowledges the support of the National Key R and D Program of China 2020YFA0713100 and NSFC 12061131014.",
+      "grants": [
+        {
+          "agency": "NSFC",
+          "number": "12061131014"
+        }
+      ]
+    },
+    {
+      "arxiv_id": "2112.14595",
+      "paper_authors": [
+        "yang-di",
+        "zhou-chunhui"
+      ],
+      "ack_text": "We thank Ga\\\"etan Borot and Xingjun Lin for helpful suggestions. The work is partially supported by \n NSFC 12061131014.",
+      "grants": [
+        {
+          "agency": "NSFC",
+          "number": "12061131014"
+        }
+      ]
+    },
+    {
+      "arxiv_id": "2201.11020",
+      "paper_authors": [
+        "yang-di"
+      ],
+      "ack_text": "We would like to thank Professors Mattia Cafasso, Xian Liao, Dangzheng Liu for helpful suggestions. \nThe work is supported by the National Key R \nand D Program of China 2020YFA0713100 \nand NSFC 12061131014.\n\n\\begin{appendix}",
+      "grants": [
+        {
+          "agency": "NSFC",
+          "number": "12061131014"
+        }
+      ]
+    },
+    {
+      "arxiv_id": "2202.08054",
+      "paper_authors": [
+        "xu-xiaomeng"
+      ],
+      "ack_text": "\\noindent We would like to thank Davide Guzzetti for useful comments. The author is supported by the National Key Research and Development Program of China (No. 2021YFA1002000) and by the National Natural Science Foundation of China (No. 12171006).",
+      "grants": [
+        {
+          "agency": "NSFC",
+          "number": "12171006"
+        }
+      ]
+    },
+    {
+      "arxiv_id": "2204.11074",
+      "paper_authors": [
+        "yang-di"
+      ],
+      "ack_text": ".\nThe second-named author is partly supported by NSFC grants 11661131005\nand 11890662.",
+      "grants": [
+        {
+          "agency": "NSFC",
+          "number": "11661131005"
+        }
+      ]
+    },
+    {
+      "arxiv_id": "2206.01066",
+      "paper_authors": [
+        "liu-xiaobo",
+        "yang-chenglang"
+      ],
+      "ack_text": ".}\n\n\\author{Xiaobo Liu \\thanks{Research was partially supported by NSFC grants 11890662 and 12341105.},\n\tChenglang Yang \\thanks{Research was partially supported by NSFC grants 12288201, 12401079 and PSFC grants 2023M743717, BX20240407.}}\n\n\\date{}\n\n\\begin{document}\n\\title{Action of $W$-type operators on Schur functions and Schur Q-functions}\n\n\\maketitle\n\n\\begin{abstract}\nIn this paper, we investigate a series of W-type differential operators, which appear naturally in the symmetry algebras of\nKP and BKP hierarchies. In particular, they include all operators in the W-constraints for tau-functions of higher KdV hierarchies which satisfy the string equation. We will give simple uniform formulas for actions of these operators on all ordinary Schur functions and Schur Q-functions.\nAs applications of such formulas, we will give new simple proofs for Alexandrov's conjecture and Mironov-Morozov's formula, which express the Br\\'{e}zin-Gross-Witten and Kontsevich-Witten tau-functions as linear combinations of Q-functions with simple coefficients respectively.\n\\end{abstract}\n\n\n\n\\renewcommand{\\thefootnote}{\\fnsymbol{footnote}} \n\\footnotetext{\\emph{2020 Mathematics Subject Classification:} 05E05, 81R10, 37K10.}     \n\\renewcommand{\\thefootnote}{\\arabic{footnote}}",
+      "grants": [
+        {
+          "agency": "NSFC",
+          "number": "11890662"
+        },
+        {
+          "agency": "NSFC",
+          "number": "12288201"
+        }
+      ]
+    },
+    {
+      "arxiv_id": "2211.16902",
+      "paper_authors": [
+        "li-changzheng",
+        "song-jiayu"
+      ],
+      "ack_text": "The authors would like to thank    Prakash Belkale, Boris Shapiro, Michael Shapiro and Lei Song for helpful discussions.  The authors are extremely grateful to    Leonardo C. Mihalcea\n for his valuable comments. The authors would also like to thank the anonymous reviewers for the careful reading of our manuscript and  their valuable  comments.\n\nThe first author would like to express the deepest gratitude to Prof. Bumsig Kim (1968-2021) for his mentorship. As suggested by Prof. Bumsig Kim, the first author learned  both quantum K-theory and Seidel elements for the first time, while he was a postdoc at KIAS.\nThe first author  was  supported by   the National Key Research and Development Program of China No.~2023YFA100980001 and NSFC Grant 12271529.",
+      "grants": [
+        {
+          "agency": "NSFC",
+          "number": "12271529"
+        }
+      ]
+    },
+    {
+      "arxiv_id": "2301.09067",
+      "paper_authors": [
+        "boalch"
+      ],
+      "ack_text": "\\parskip=0pt \nThese results were completed in 2019 before the first named author moved departments and then \nlearnt of the thesis work leading to \n\\cite{cheng23}, that has some \noverlap with this paper in the tame setting with interior twists, \nalthough expressed in a slightly different language.  \nIn the intervening years we have not yet managed to \nincorporate possible simplifications suggested by \\cite{cheng23} but thought it reasonable to release our original approach anyway since the scope is larger.\n\nThe second named author was supported by JSPS KAKENHI Grant Number 18K03256.\n\n}",
+      "grants": [
+        {
+          "agency": "JSPS",
+          "number": "Grant"
+        }
+      ]
+    },
+    {
+      "arxiv_id": "2304.07173",
+      "paper_authors": [
+        "li-changzheng"
+      ],
+      "ack_text": "The authors would like to thank \nPavel Etingof, Michael Finkelberg, Michael McBreen, Leonardo C. Mihalcea, Andrei Okounkov, Nicholas Proudfoot, Peng Shan, Kirill Zainouline, and Yehao Zhou for helpful discussions and valuable comments.\nC. Li is partially supported by NSFC Grants 12271529 and 11831017. C. Su is partially supported {by a startup grant from YMSC, Tsinghua University.}\nR. Xiong is partially supported by the NSERC Discovery grant RGPIN-2015-04469, Canada.",
+      "grants": [
+        {
+          "agency": "NSFC",
+          "number": "12271529"
+        }
+      ]
+    },
+    {
+      "arxiv_id": "2310.02818",
+      "paper_authors": [
+        "zeng-haozhi"
+      ],
+      "ack_text": ".\n\n\nWe are grateful to Konstanze Rietsch, Bin Zhang, Changzheng Li, Naoki Fujita, Mikiya Masuda, Takashi Sato, and Tatsuya Horiguchi for valuable discussions. This research is supported in part by Osaka Central Advanced Mathematical Institute (MEXT Joint Usage/Research Center on Mathematics and Theoretical Physics): Geometry and combinatorics of Hessenberg varieties. The first author is supported in part by JSPS Grant-in-Aid for Scientific Research(C): 23K03102. The second author is supported in part by NSFC: 11901218.\n\n\n\\vspace{20pt}",
+      "grants": [
+        {
+          "agency": "NSFC",
+          "number": "11901218"
+        },
+        {
+          "agency": "JSPS",
+          "number": "Scientific"
+        }
+      ]
+    },
+    {
+      "arxiv_id": "2310.02819",
+      "paper_authors": [
+        "zeng-haozhi"
+      ],
+      "ack_text": ".\n\n\nWe are grateful to Konstanze Rietsch, Bin Zhang, Changzheng Li, Naoki Fujita, Mikiya Masuda, Takashi Sato, and Tatsuya Horiguchi for valuable discussions. This research is supported in part by Osaka Central Advanced Mathematical Institute (MEXT Joint Usage/Research Center on Mathematics and Theoretical Physics): Geometry and combinatorics of Hessenberg varieties. The first author is supported in part by JSPS Grant-in-Aid for Scientific Research(C): 23K03102. The second author is supported in part by NSFC: 11901218.\n\n\n\\vspace{20pt}",
+      "grants": [
+        {
+          "agency": "NSFC",
+          "number": "11901218"
+        },
+        {
+          "agency": "JSPS",
+          "number": "Scientific"
+        }
+      ]
+    },
+    {
+      "arxiv_id": "2312.06160",
+      "paper_authors": [
+        "zong-zhengyu"
+      ],
+      "ack_text": "The authors wish to thank Alexandr Buryak, Bohan Fang, Sheel Ganatra, Chiu-Chu Melissa Liu, Jake Solomon, Junwu Tu, Ke Zhang, and Yang Zhou for useful discussions and constructive feedback. The authors also wish to thank the hospitality of the Simons Center for Geometry and Physics during the 2023 Simons Math Summer Workshop where part of this work was completed. The work of the second named author is partially supported by NSFC grant No. 11701315.",
+      "grants": [
+        {
+          "agency": "NSFC",
+          "number": "11701315"
+        }
+      ]
+    },
+    {
+      "arxiv_id": "2312.11197",
+      "paper_authors": [
+        "zhang-huailiang"
+      ],
+      "ack_text": "We would like to thank Professors Bumsig Kim, Yongbin Ruan, Jun Yu,\nRachel Webb, Dingxin Zhang for their valuable discussion with the authors.\n\nBoth\nJ.~Li and Y.~Zhou are partially supported by the National Key Res.\\ and\nDevelop.\\ Program of China \\#2020YFA0713200.\nH.-L.~Chang is partially supported by grants Hong Kong GRF16300720 and\nGRF16303122. S.~Guo is partially supported by NSFC 12225101 and 11890660.  J.~Li is also partially\nsupported by NSFC 12071079 and\nby Shanghai SF grants 22YS1400100. W.-P.~Li is partially supported by grants\nHong Kong GRF16304119, GRF16306222 and GRF16305125.\nY.~Zhou is also partially supported by Shanghai Sci.\\ and Tech.\\ Develop.\\ Funds\n\\#22QA1400800 and\nShanghai Pilot Program for Basic Research-Fudan Univ.\\ 21TQ1400100 (22TQ001).\nY.~Zhou would also like to thank the\nsupport of Alibaba Group as a DAMO Academy Young Fellow, and would like to\nthank the support of Xiaomi Corporation as a Xiaomi Young Fellow.\n\n\\iffalse",
+      "grants": [
+        {
+          "agency": "NSFC",
+          "number": "12225101"
+        },
+        {
+          "agency": "NSFC",
+          "number": "12071079"
+        }
+      ]
+    },
+    {
+      "arxiv_id": "2401.12792",
+      "paper_authors": [
+        "xu-xiaomeng"
+      ],
+      "ack_text": "\\noindent\nWe would like to thank Anton Alekseev and Eckhard Meinrenken for their discussion and encouragement. The author is supported by the National Key Research and Development Program of China (No. 2021YFA1002000) and by the National Natural Science Foundation of China (No. 12171006).",
+      "grants": [
+        {
+          "agency": "NSFC",
+          "number": "12171006"
+        }
+      ]
+    },
+    {
+      "arxiv_id": "2401.13911",
+      "paper_authors": [
+        "xu-xiaomeng"
+      ],
+      "ack_text": "\\noindent\nWe would like to thank Yiming Ma and Qian Tang for their discussion and valuable feedback on the paper. The authors are supported by the National Key Research and Development Program of China (No. 2021YFA1002000) and by the National Natural Science Foundation of China (No. 12171006).",
+      "grants": [
+        {
+          "agency": "NSFC",
+          "number": "12171006"
+        }
+      ]
+    },
+    {
+      "arxiv_id": "2402.07269",
+      "paper_authors": [
+        "tang-qian",
+        "xu-xiaomeng"
+      ],
+      "ack_text": "\\noindent\n\nXiaomeng Xu is supported by the National Key Research and Development Program of China (No. 2021YFA1002000) and by the National Natural Science Foundation of China (No. 12171006).\nQian Tang is supported by the GRF grant no. 17303420 of the University Grants Committee of the Hong Kong SAR, China.\n\n  \\input{Sect_Series}\n\n\n  \\input{Section4}\n  \\input{Section5}\n  \\input{Sect_ExAp}\n\n\\begin{appendices}\n   \\input{Sect_Diag}\n\\end{appendices}\n\n\\normalem",
+      "grants": [
+        {
+          "agency": "NSFC",
+          "number": "12171006"
+        }
+      ]
+    },
+    {
+      "arxiv_id": "2403.04631",
+      "paper_authors": [
+        "yang-di"
+      ],
+      "ack_text": "The work is partially supported by NSFC No. 12371254 and CAS No. YSBR-032.",
+      "grants": [
+        {
+          "agency": "NSFC",
+          "number": "12371254"
+        }
+      ]
+    },
+    {
+      "arxiv_id": "2403.17906",
+      "paper_authors": [
+        "xu-xiaomeng"
+      ],
+      "ack_text": "\\noindent The authors would like to thank Alexander Goncharov, Nikita Nikolaev, Alexander Shapiro, and Valerio Toledano Laredo for interesting and productive discussions. \nThe research of A.A. was supported in part by grants 208235 and 200400 and by the National Center for Competence in Research (NCCR) SwissMAP of the Swiss National Science Foundation, and by the award of the Simons Foundation to the Hamilton Mathematics Institute of the Trinity College Dublin under the program “Targeted Grants to Institutes”.\nThe research of A.N. was supported by the National Science Foundation\ngrant 2005312 and by a Simons Fellowship in Mathematics.\nXu is supported by the National Key Research and Development Program of China (No. 2021YFA1002000) and by the National Natural Science Foundation of China (No. 12171006).",
+      "grants": [
+        {
+          "agency": "NSFC",
+          "number": "12171006"
+        }
+      ]
+    },
+    {
+      "arxiv_id": "2405.16979",
+      "paper_authors": [
+        "hu-jianxun",
+        "ke-huazhong",
+        "li-changzheng"
+      ],
+      "ack_text": "The authors would like to thank Kai Hugtenburg for very helpful discussions on modified Gamma conjecture I. The definition of the A-model conifold value, which emerged from our discussions with him, is key to the formulation of modified Gamma conjecture I.\nThe authors would also like to thank Kwok Wai Chan, Bohan Fang, ChunYin Hau, King-Leung Lee, Jiayu Song and Heng Xie for helpful discussions, and to thank Zhi Chen for collecting the toric data from \\cite{Obro2} for toric Fano manifolds of dimensions less than 7.\nZ.~Su  would like to thank Xiaowei Wang for constant encouragement. J.~Hu, C.~Li and H.~Ke are  supported in part by the National Key R \\&  D Program of China No.~2023YFA1009801.\nS.~Galkin is supported by CNPq grant PQ 315747, and Coordena\\c{c}\\~{a}o de Aperfei\\c{c}oamento de Pessoal de N\\'{i}vel Superior-Brasil (CAPES)-Finance Code 001.\nH.~Iritani is supported by JSPS grant 21H04994 and 23H01073.\nH.~Ke is also supported in part by NSFC Grant 12271532.",
+      "grants": [
+        {
+          "agency": "NSFC",
+          "number": "12271532"
+        },
+        {
+          "agency": "JSPS",
+          "number": "21H04994"
+        }
+      ]
+    },
+    {
+      "arxiv_id": "2405.16987",
+      "paper_authors": [
+        "hu-jianxun",
+        "ke-huazhong",
+        "li-changzheng"
+      ],
+      "ack_text": "The authors would like to thank Sergey Galkin and Hiroshi Iritani   for  helpful discussions. Z. Su would like to thank   Xiaowei Wang for constant encouragement.\n The authors are  supported   in part by the National Key Research and Development Program of China No. 2023YFA100980001.\nH. Ke is also supported in part by   NSFC Grant 12271532.",
+      "grants": [
+        {
+          "agency": "NSFC",
+          "number": "12271532"
+        }
+      ]
+    },
+    {
+      "arxiv_id": "2408.03212",
+      "paper_authors": [
+        "wang-zhiyuan",
+        "yang-chenglang"
+      ],
+      "ack_text": ".\nThe authors would like to thank Professor Maciej Dołęga for telling us\nthe relation between our work and the $b$-deformed Hurwitz numbers,\nand thank an anonymous referee for pointing out that\nthe polynomiality of the generalized dessin partition function\ncan be derived from the topological recursion.\nThe authors would also like to thank Professor Xiaobo Liu and Professor Jian Zhou for helpful discussions and encouragement.\nThe second-named author is supported by the NSFC grant (No. 12288201, 12401079),\nthe China Postdoctoral Science Foundation (No. 2023M743717),\nand the China National Postdoctoral Program for Innovative Talents (No. BX20240407).\n\n\n\n\n\n\n\n\\begin{appendix}",
+      "grants": [
+        {
+          "agency": "NSFC",
+          "number": "12288201"
+        },
+        {
+          "agency": "CPSF",
+          "number": "2023M743717"
+        }
+      ]
+    },
+    {
+      "arxiv_id": "2409.12529",
+      "paper_authors": [
+        "yang-di",
+        "zhou-chunhui"
+      ],
+      "ack_text": "We are grateful to Professor Youjin Zhang his advice and for suggesting this project. We also thank Professor Si-Qi Liu for helpful discussions. The work is partially supported by NSFC grants (No. 12371254, No. 12322111), by National Key R and D Program of China 2020YFA0713100, and by CAS No. YSBR-032.",
+      "grants": [
+        {
+          "agency": "NSFC",
+          "number": "12371254"
+        }
+      ]
+    },
+    {
+      "arxiv_id": "2501.17516",
+      "paper_authors": [
+        "tang-qian",
+        "xu-xiaomeng"
+      ],
+      "ack_text": "\\noindent The authors are supported by the National Natural Science Foundation of China (No. 12171006) and by the National Key Research and Development Program of China (No. 2021YFA1002000).",
+      "grants": [
+        {
+          "agency": "NSFC",
+          "number": "12171006"
+        }
+      ]
+    },
+    {
+      "arxiv_id": "2502.13545",
+      "paper_authors": [
+        "hu-jianxun",
+        "ke-huazhong",
+        "li-changzheng"
+      ],
+      "ack_text": "The authors would like to thank  Rong Du, Elana Kalashnikov, Zhan Li, Leonardo Mihalcea, Heng Xie, Jinxing Xu and Weihong Xu for helpful discussions. The authors are  supported   by the National Key R \\& D Program of China No.~2023YFA1009801.\nH.~Ke is also supported in part by NSFC Grant 12271532.\nC.~Li is also supported in part by NSFC Grant  12271529.\nL.~Song is also supported in part by NSFC Grant 12471043.",
+      "grants": [
+        {
+          "agency": "NSFC",
+          "number": "12271532"
+        },
+        {
+          "agency": "NSFC",
+          "number": "12271529"
+        },
+        {
+          "agency": "NSFC",
+          "number": "12471043"
+        }
+      ]
+    },
+    {
+      "arxiv_id": "2502.13558",
+      "paper_authors": [
+        "hu-jianxun",
+        "ke-huazhong",
+        "li-changzheng"
+      ],
+      "ack_text": "The authors would like to thank Kwokwai Chan  and Heng Xie   for  useful discussions.\n Hu is partially supported by NSFC Grants  11890662 and 11831017. Ke is partially supported by NSFC Grants 12271532 and  11831017. Li  is partially supported by NSFC Grant   11831017 and Guangdong Introducing Innovative and Enterpreneurial Teams No. 2017ZT07X355. Song is partially supported by Guangdong Basic and Applied Basic Research Foundation No. 2020A1515010876.",
+      "grants": [
+        {
+          "agency": "NSFC",
+          "number": "11890662"
+        },
+        {
+          "agency": "NSFC",
+          "number": "12271532"
+        },
+        {
+          "agency": "NSFC",
+          "number": "11831017"
+        }
+      ]
+    },
+    {
+      "arxiv_id": "2504.15696",
+      "paper_authors": [
+        "fang-bohan",
+        "zong-zhengyu"
+      ],
+      "ack_text": "The authors would like to thank Simons Center for Geometry and Physics (2023 Simons Math Summer Workshop and Recent Developments in Higher Genus Curve Counting in 2025), and Les Houches School of Physics (Quantum Geometry in August 2024) for their support and hospitality, where important progress of this work was made during these programs.\n\nThe work of the first author is partially supported by National Key R\\&D Program of China 2023YFA1009803, NSFC 12125101, NSFC 11890661 and NSFC 11831017. The work of the fourth author is partially supported by the Natural Science Foundation of Beijing, China grant No. 1252008 and NSFC grant No. 11701315.\n\n\n\n\\begin{comment}\n\n\n\n\\subsection{Historical background and motivation}\n\n\n\\subsection{Statement of the main results}\\label{sec:main result}\nLet $\\cX$ be a semi-projective toric Calabi-Yau 3-orbifold and $\\bT\\cong (\\bC^*)^3$ be the algebraic 3-torus embedded in $\\cX$ as a dense open subset. Let $\\bT' \\cong (\\bC^*)^2$ be the Calabi-Yau $2$-subtorus of $\\bT$ which acts trivially on the canonical bundle of $\\cX$. (See Section \\ref*{sect:Prelim} for more details.) In this paper, we prove the all genus mirror symmetry for the  $\\bT'$-equivariant descendant Gromov-Witten theory of $\\cX$. \n\nOn the A-model side, consider the generating function of genus-$g$, $\\bT'$-equivariant descendant Gromov-Witten invariants of $\\cX$\n$$\n\\llangle \\frac{\\gamma_1}{z_1-\\hat{\\psi}_1},\\ldots, \\frac{\\gamma_n}{z_n-\\hat{\\psi}_n}\\rrangle^{\\cX,\\bT'}_{g,n}\n=\\sum_{a_1,\\ldots,a_n\\in \\bZ_{\\geq 0}}\n\\llangle \\gamma_1 \\hat{\\psi}^{a_1} ,\\ldots, \\gamma_n \\hat{\\psi}^{a_n} \\rrangle^{\\cX,\\bT'}_{g,n}\\prod_{j=1}^n z_j^{-a_j-1},\n$$\nwhere $z_1,\\cdots,z_n$ are formal variables, $\\gamma_1,\\ldots,\\gamma_n$ are $\\bT'$-equivariant Chen-Ruan cohomology classes of $\\cX$, and $\\hat{\\psi}_i$ is the $i-$th descendant class. (See Section \\ref*{sect:genfun} for more details.)\n\nOn the B-model side, the mirror of the Calabi-Yau $3$-orbifold $\\cX$ is an affine curve $C_q\\subset (\\bC^*)^2$. Let $\\omega_{g,n}$ be defined recursively by the Eynard-Orantin topological recursion \\cite{EO07}. (See Section \\ref*{sec:mirrorcurve} for more details.) The main result of this paper is the identification of the generating function $\\llangle \\frac{\\gamma_1}{z_1-\\hat{\\psi}_1},\\ldots, \\frac{\\gamma_n}{z_n-\\hat{\\psi}_n}\\rrangle^{\\cX,\\bT'}_{g,n}$ to certain oscillatory integral of $\\omega_{g,n}$ on the mirror curve $C_q$.\n\nMore precisely in Section \\ref{sect:Sheaves}, we will consider the bounded derived category $D_{\\bT'}(\\cX) := D^b(\\Coh_{\\bT'}(\\cX))$ of $\\bT'$-equivariant coherent sheaves on $\\cX$ and the corresponding Grothendieck group  $K_{\\bT'}(\\cX) := K_0(D_{\\bT'}(\\cX))$. There is a natural action of the lattice $M'=\\Hom(\\bT', \\bC^*)$ on $K_{\\bT'}(\\cX)$ given by tensoring with characters of $\\bT'$. For $\\cE \\in K_{\\bT'}(\\cX)$,  we will define a characteristic class $\\kappa_{\\bT'}(\\cE)$ called the $\\bT'$-equivariant \\emph{$K$-theoretic framing} of $\\cE$, which lies in the $\\bT'$-equi",
+      "grants": [
+        {
+          "agency": "NSFC",
+          "number": "12125101"
+        },
+        {
+          "agency": "NSFC",
+          "number": "11890661"
+        },
+        {
+          "agency": "NSFC",
+          "number": "11831017"
+        },
+        {
+          "agency": "NSFC",
+          "number": "11701315"
+        }
+      ]
+    },
+    {
+      "arxiv_id": "2507.20151",
+      "paper_authors": [
+        "guo-shuai",
+        "zhang-qingsheng"
+      ],
+      "ack_text": "This work is partially supported by the National Key Research and Development Program of China 2023YFA1009802 and the National Natural Science Foundation of China 12225101.",
+      "grants": [
+        {
+          "agency": "NSFC",
+          "number": "12225101"
+        }
+      ]
+    },
+    {
+      "arxiv_id": "2507.23259",
+      "paper_authors": [
+        "zeng-haozhi"
+      ],
+      "ack_text": "The first author is supported in part by JSPS KAKENHI Grant-in-Aid for Early-Career Scientists: 23K12981.\nThe second author is supported in part by JSPS KAKENHI Grant-in-Aid for Scientific Research (C): 25K07007.\nThe third author is supported in part by JSPS KAKENHI Grant-in-Aid for Scientific Research (C): 25K00205.\nThe fourth author is supported in part by NSFC: 11901218.",
+      "grants": [
+        {
+          "agency": "NSFC",
+          "number": "11901218"
+        },
+        {
+          "agency": "JSPS",
+          "number": "Grant"
+        }
+      ]
+    },
+    {
+      "arxiv_id": "2512.06646",
+      "paper_authors": [
+        "zeng-haozhi"
+      ],
+      "ack_text": "We are grateful to Thomas Lam, Changzheng Li, and Zhi L$\\ddot{\\text{u}}$ for valuable discussions. We would particularly like to thank Konstanze Rietsch for telling us her conjecture. This research was partially done while the authors were visiting the  school of Mathematical Sciences in Fudan University.\nThe first author is supported in part by JSPS Grant-in-Aid for Scientific Research(C): 23K03102. \nThe second author is supported in part by NSFC:  12471309.\nThe third author is supported in part by NSFC:  11901218.\n\n\\vspace{30pt}",
+      "grants": [
+        {
+          "agency": "NSFC",
+          "number": "12471309"
+        },
+        {
+          "agency": "NSFC",
+          "number": "11901218"
+        },
+        {
+          "agency": "JSPS",
+          "number": "Scientific"
+        }
+      ]
+    },
+    {
+      "arxiv_id": "2603.15233",
+      "paper_authors": [
+        "guo-jindong",
+        "yang-di"
+      ],
+      "ack_text": "The work is supported by NSFC 12371254 and CAS YSBR-032.\nPart of the work was done during visits of J.G. and D.Y. to MPIM, Bonn and visits of D.Z. to USTC; the authors thank both institutions for excellent working conditions.",
+      "grants": [
+        {
+          "agency": "NSFC",
+          "number": "12371254"
+        }
+      ]
+    },
+    {
+      "arxiv_id": "2603.24956",
+      "paper_authors": [
+        "yang-di"
+      ],
+      "ack_text": "I would like to thank Alessandro Giacchetto for stimulating lectures given \n at MATRIX, Australia. Part of the work was done during my visit at ICTP, Italy; I thank ICTP for \n warm hospitality. I also thank Don Zagier for several helpful suggestions that improve a lot the \n presentation of the paper. The work is supported by NSFC 12371254 and CAS YSBR-032.",
+      "grants": [
+        {
+          "agency": "NSFC",
+          "number": "12371254"
+        }
+      ]
+    }
+  ]
+}

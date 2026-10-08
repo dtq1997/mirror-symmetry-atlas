@@ -1,0 +1,412 @@
+reviewed_by: Codex
+reviewed_on: '2026-10-08'
+note: 完整保留45条旧连线。关系是否有其他证据与旧推导是否成立分开判断。
+records:
+- origin: data/connections/grant.yaml
+  record:
+    source: dai-bo
+    target: liu-xiaobo
+    type: grant
+    period: 2015-2019
+    notes: NSFC 重点项目：辛拓扑与规范场理论中的数学不变量。刘小博主持，戴波参与
+  review_status: needs-review
+  reason: 旧手填项目名称、主持/参与角色或期限没有直接来源；保留待核。新的论文资助声明不支付这些旧字段。
+- origin: data/connections/grant.yaml
+  record:
+    source: zhang-youjin
+    target: liu-siqi
+    type: grant
+    period: 2014-2018
+    notes: NSFC 11771238 (Frobenius 流形及相关问题)。张友金主持，刘思齐参与
+  review_status: needs-review
+  reason: 旧手填项目名称、主持/参与角色或期限没有直接来源；保留待核。新的论文资助声明不支付这些旧字段。
+- origin: data/connections/grant.yaml
+  record:
+    source: zhang-youjin
+    target: wu-chaozhong
+    type: grant
+    period: 2019-2023
+    notes: NSFC 11831017 (可积系统及相关问题)。张友金主持，吴朝中参与
+  review_status: needs-review
+  reason: 旧手填项目名称、主持/参与角色或期限没有直接来源；保留待核。新的论文资助声明不支付这些旧字段。
+- origin: data/connections/grant.yaml
+  record:
+    source: liu-siqi
+    target: wu-chaozhong
+    type: grant
+    period: 2019-2023
+    notes: NSFC 11831017 共同参与（张友金主持）
+  review_status: needs-review
+  reason: 旧手填项目名称、主持/参与角色或期限没有直接来源；保留待核。新的论文资助声明不支付这些旧字段。
+- origin: data/connections/grant.yaml
+  record:
+    source: li-changzheng
+    target: ke-huazhong
+    type: grant
+    period: 2020-2024
+    notes: NSFC 面上项目合作：Gamma conjecture 相关。中山大学团队
+  review_status: needs-review
+  reason: 旧手填项目名称、主持/参与角色或期限没有直接来源；保留待核。新的论文资助声明不支付这些旧字段。
+- origin: data/connections/grant.yaml
+  record:
+    source: li-changzheng
+    target: he-weiqiang
+    type: grant
+    period: 2020-2024
+    notes: 中山大学 GW/Gamma 方向团队基金合作
+  review_status: needs-review
+  reason: 旧手填项目名称、主持/参与角色或期限没有直接来源；保留待核。新的论文资助声明不支付这些旧字段。
+- origin: data/derived/grant-edges.yaml
+  record:
+    source: hu-jianxun
+    target: ke-huazhong
+    type: grant
+    derived: true
+    notes: '共享基金: NSFC 11890662; NSFC 12271529; NSFC 12271532; JSPS 21H04994; NSFC
+      12471043; NSFC 11831017'
+  review_status: superseded-by-reviewed-evidence
+  reason: 仅恢复新账本逐项核对的号码与来源；旧条目的其他号码和推断仍未获认证。
+- origin: data/derived/grant-edges.yaml
+  record:
+    source: hu-jianxun
+    target: li-changzheng
+    type: grant
+    derived: true
+    notes: '共享基金: NSFC 11890662; NSFC 12271529; NSFC 12271532; JSPS 21H04994; NSFC
+      12471043; NSFC 11831017'
+  review_status: superseded-by-reviewed-evidence
+  reason: 仅恢复新账本逐项核对的号码与来源；旧条目的其他号码和推断仍未获认证。
+- origin: data/derived/grant-edges.yaml
+  record:
+    source: fang-bohan
+    target: zong-zhengyu
+    type: grant
+    derived: true
+    notes: '共享基金: NSF DMS-1206667; NSFC 11701315; NSFC 11831017; NSFC 12125101; NSFC
+      11890661'
+  review_status: needs-review
+  reason: 旧记录未保存逐人受资助依据；论文作者或This work不自动代表个人受资助。
+- origin: data/derived/grant-edges.yaml
+  record:
+    source: liu-siqi
+    target: yang-di
+    type: grant
+    derived: true
+    notes: '共享基金: NSFC 11071135; NSFC 11171176; NSFC 11725104'
+  review_status: needs-review
+  reason: 旧记录未保存逐人受资助依据；论文作者或This work不自动代表个人受资助。
+- origin: data/derived/grant-edges.yaml
+  record:
+    source: liu-xiaobo
+    target: yang-chenglang
+    type: grant
+    derived: true
+    notes: '共享基金: NSFC 11890662; NSFC 12288201'
+  review_status: needs-review
+  reason: 旧记录未保存逐人受资助依据；论文作者或This work不自动代表个人受资助。
+- origin: data/derived/grant-edges.yaml
+  record:
+    source: guo-jindong
+    target: yang-di
+    type: grant
+    derived: true
+    notes: '共享基金: NSFC 12061131014; NSFC 12371254'
+  review_status: needs-review
+  reason: 旧记录未保存逐人受资助依据；论文作者或This work不自动代表个人受资助。
+- origin: data/derived/grant-edges.yaml
+  record:
+    source: guo-jindong
+    target: zhou-chunhui
+    type: grant
+    derived: true
+    notes: '共享基金: NSFC 12061131014; NSFC 12371254'
+  review_status: needs-review
+  reason: 旧记录未保存逐人受资助依据；论文作者或This work不自动代表个人受资助。
+- origin: data/derived/grant-edges.yaml
+  record:
+    source: yang-di
+    target: zhou-chunhui
+    type: grant
+    derived: true
+    notes: '共享基金: NSFC 12061131014; NSFC 12371254'
+  review_status: needs-review
+  reason: 旧记录未保存逐人受资助依据；论文作者或This work不自动代表个人受资助。
+- origin: data/derived/grant-edges.yaml
+  record:
+    source: wang-zhiyuan
+    target: yang-chenglang
+    type: grant
+    derived: true
+    notes: '共享基金: NSFC 12288201; CPSF 2023M743717'
+  review_status: needs-review
+  reason: 旧记录未保存逐人受资助依据；论文作者或This work不自动代表个人受资助。
+- origin: data/derived/grant-edges.yaml
+  record:
+    source: liu-siqi
+    target: zhang-bin
+    type: grant
+    derived: true
+    notes: '共享基金: NSFC 10631050'
+  review_status: needs-review
+  reason: 旧记录未保存逐人受资助依据；论文作者或This work不自动代表个人受资助。
+- origin: data/derived/grant-edges.yaml
+  record:
+    source: wu-chaozhong
+    target: zhang-bin
+    type: grant
+    derived: true
+    notes: '共享基金: NSFC 10631050'
+  review_status: needs-review
+  reason: 旧记录未保存逐人受资助依据；论文作者或This work不自动代表个人受资助。
+- origin: data/derived/grant-edges.yaml
+  record:
+    source: li-changzheng
+    target: xu-xiaomeng
+    type: grant
+    derived: true
+    notes: '共享基金: JSPS Scientific'
+  review_status: rejected-invalid-number
+  reason: Scientific/Grant是普通单词，不能作为同一基金编号连接作者；不否定两人可能有其他资助关系。
+- origin: data/derived/grant-edges.yaml
+  record:
+    source: li-changzheng
+    target: zeng-haozhi
+    type: grant
+    derived: true
+    notes: '共享基金: JSPS Scientific'
+  review_status: rejected-invalid-number
+  reason: Scientific/Grant是普通单词，不能作为同一基金编号连接作者；不否定两人可能有其他资助关系。
+- origin: data/derived/grant-edges.yaml
+  record:
+    source: xu-xiaomeng
+    target: zeng-haozhi
+    type: grant
+    derived: true
+    notes: '共享基金: JSPS Scientific'
+  review_status: rejected-invalid-number
+  reason: Scientific/Grant是普通单词，不能作为同一基金编号连接作者；不否定两人可能有其他资助关系。
+- origin: data/derived/grant-edges.yaml
+  record:
+    source: li-changzheng
+    target: li-qin
+    type: grant
+    derived: true
+    notes: '共享基金: NSF -1309118'
+  review_status: needs-review
+  reason: 旧记录未保存逐人受资助依据；论文作者或This work不自动代表个人受资助。
+- origin: data/derived/grant-edges.yaml
+  record:
+    source: boalch
+    target: zeng-haozhi
+    type: grant
+    derived: true
+    notes: '共享基金: JSPS Grant'
+  review_status: rejected-invalid-number
+  reason: Scientific/Grant是普通单词，不能作为同一基金编号连接作者；不否定两人可能有其他资助关系。
+- origin: data/derived/grant-edges.yaml
+  record:
+    source: liu-siqi
+    target: zhou-chunhui
+    type: grant
+    derived: true
+    notes: '共享基金: NSFC 11371214'
+  review_status: needs-review
+  reason: 旧记录未保存逐人受资助依据；论文作者或This work不自动代表个人受资助。
+- origin: data/derived/grant-edges.yaml
+  record:
+    source: du-chengyong
+    target: guo-shuai
+    type: grant
+    derived: true
+    notes: '共享基金: NSFC 11431001'
+  review_status: needs-review
+  reason: 旧记录未保存逐人受资助依据；论文作者或This work不自动代表个人受资助。
+- origin: data/derived/grant-edges.yaml
+  record:
+    source: wang-zhiyuan
+    target: yang-di
+    type: grant
+    derived: true
+    notes: '共享基金: NSFC 11661131005'
+  review_status: needs-review
+  reason: 旧记录未保存逐人受资助依据；论文作者或This work不自动代表个人受资助。
+- origin: data/derived/grant-edges.yaml
+  record:
+    source: tang-qian
+    target: xu-xiaomeng
+    type: grant
+    derived: true
+    notes: '共享基金: NSFC 12171006'
+  review_status: superseded-by-reviewed-evidence
+  reason: 仅恢复新账本逐项核对的号码与来源；旧条目的其他号码和推断仍未获认证。
+- origin: data/derived/grant-edges.yaml
+  record:
+    source: hu-jianxun
+    target: liu-xiaobo
+    type: grant
+    derived: true
+    notes: '共享基金: NSFC 11890662'
+  review_status: needs-review
+  reason: 旧记录未保存逐人受资助依据；论文作者或This work不自动代表个人受资助。
+- origin: data/derived/grant-edges.yaml
+  record:
+    source: hu-jianxun
+    target: yang-chenglang
+    type: grant
+    derived: true
+    notes: '共享基金: NSFC 11890662'
+  review_status: needs-review
+  reason: 旧记录未保存逐人受资助依据；论文作者或This work不自动代表个人受资助。
+- origin: data/derived/grant-edges.yaml
+  record:
+    source: ke-huazhong
+    target: liu-xiaobo
+    type: grant
+    derived: true
+    notes: '共享基金: NSFC 11890662'
+  review_status: needs-review
+  reason: 旧记录未保存逐人受资助依据；论文作者或This work不自动代表个人受资助。
+- origin: data/derived/grant-edges.yaml
+  record:
+    source: ke-huazhong
+    target: yang-chenglang
+    type: grant
+    derived: true
+    notes: '共享基金: NSFC 11890662'
+  review_status: needs-review
+  reason: 旧记录未保存逐人受资助依据；论文作者或This work不自动代表个人受资助。
+- origin: data/derived/grant-edges.yaml
+  record:
+    source: li-changzheng
+    target: liu-xiaobo
+    type: grant
+    derived: true
+    notes: '共享基金: NSFC 11890662'
+  review_status: needs-review
+  reason: 旧记录未保存逐人受资助依据；论文作者或This work不自动代表个人受资助。
+- origin: data/derived/grant-edges.yaml
+  record:
+    source: li-changzheng
+    target: yang-chenglang
+    type: grant
+    derived: true
+    notes: '共享基金: NSFC 11890662'
+  review_status: needs-review
+  reason: 旧记录未保存逐人受资助依据；论文作者或This work不自动代表个人受资助。
+- origin: data/derived/grant-edges.yaml
+  record:
+    source: liu-xiaobo
+    target: wang-zhiyuan
+    type: grant
+    derived: true
+    notes: '共享基金: NSFC 12288201'
+  review_status: needs-review
+  reason: 旧记录未保存逐人受资助依据；论文作者或This work不自动代表个人受资助。
+- origin: data/derived/grant-edges.yaml
+  record:
+    source: hu-jianxun
+    target: song-jiayu
+    type: grant
+    derived: true
+    notes: '共享基金: NSFC 12271529'
+  review_status: needs-review
+  reason: 旧记录未保存逐人受资助依据；论文作者或This work不自动代表个人受资助。
+- origin: data/derived/grant-edges.yaml
+  record:
+    source: ke-huazhong
+    target: song-jiayu
+    type: grant
+    derived: true
+    notes: '共享基金: NSFC 12271529'
+  review_status: needs-review
+  reason: 旧记录未保存逐人受资助依据；论文作者或This work不自动代表个人受资助。
+- origin: data/derived/grant-edges.yaml
+  record:
+    source: li-changzheng
+    target: song-jiayu
+    type: grant
+    derived: true
+    notes: '共享基金: NSFC 12271529'
+  review_status: needs-review
+  reason: 旧记录未保存逐人受资助依据；论文作者或This work不自动代表个人受资助。
+- origin: data/derived/grant-edges.yaml
+  record:
+    source: guo-shuai
+    target: zhang-huailiang
+    type: grant
+    derived: true
+    notes: '共享基金: NSFC 12225101'
+  review_status: needs-review
+  reason: 旧记录未保存逐人受资助依据；论文作者或This work不自动代表个人受资助。
+- origin: data/derived/grant-edges.yaml
+  record:
+    source: guo-shuai
+    target: zhang-qingsheng
+    type: grant
+    derived: true
+    notes: '共享基金: NSFC 12225101'
+  review_status: needs-review
+  reason: 旧记录未保存逐人受资助依据；论文作者或This work不自动代表个人受资助。
+- origin: data/derived/grant-edges.yaml
+  record:
+    source: zhang-huailiang
+    target: zhang-qingsheng
+    type: grant
+    derived: true
+    notes: '共享基金: NSFC 12225101'
+  review_status: needs-review
+  reason: 旧记录未保存逐人受资助依据；论文作者或This work不自动代表个人受资助。
+- origin: data/derived/grant-edges.yaml
+  record:
+    source: fang-bohan
+    target: hu-jianxun
+    type: grant
+    derived: true
+    notes: '共享基金: NSFC 11831017'
+  review_status: needs-review
+  reason: 旧记录未保存逐人受资助依据；论文作者或This work不自动代表个人受资助。
+- origin: data/derived/grant-edges.yaml
+  record:
+    source: fang-bohan
+    target: ke-huazhong
+    type: grant
+    derived: true
+    notes: '共享基金: NSFC 11831017'
+  review_status: needs-review
+  reason: 旧记录未保存逐人受资助依据；论文作者或This work不自动代表个人受资助。
+- origin: data/derived/grant-edges.yaml
+  record:
+    source: fang-bohan
+    target: li-changzheng
+    type: grant
+    derived: true
+    notes: '共享基金: NSFC 11831017'
+  review_status: needs-review
+  reason: 旧记录未保存逐人受资助依据；论文作者或This work不自动代表个人受资助。
+- origin: data/derived/grant-edges.yaml
+  record:
+    source: hu-jianxun
+    target: zong-zhengyu
+    type: grant
+    derived: true
+    notes: '共享基金: NSFC 11831017'
+  review_status: needs-review
+  reason: 旧记录未保存逐人受资助依据；论文作者或This work不自动代表个人受资助。
+- origin: data/derived/grant-edges.yaml
+  record:
+    source: ke-huazhong
+    target: zong-zhengyu
+    type: grant
+    derived: true
+    notes: '共享基金: NSFC 11831017'
+  review_status: needs-review
+  reason: 旧记录未保存逐人受资助依据；论文作者或This work不自动代表个人受资助。
+- origin: data/derived/grant-edges.yaml
+  record:
+    source: li-changzheng
+    target: zong-zhengyu
+    type: grant
+    derived: true
+    notes: '共享基金: NSFC 11831017'
+  review_status: needs-review
+  reason: 旧记录未保存逐人受资助依据；论文作者或This work不自动代表个人受资助。

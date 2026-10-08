@@ -105,6 +105,7 @@ export function buildPeopleGraph(
   connections: Connection[]
 ): GraphData {
   connections = connections.filter((c) => c.type !== "coauthor" || c.coauthored_papers);
+  connections = connections.filter((c) => c.type !== "grant" || (c.review_status === "accepted" && c.funding_evidence?.length));
   const nodes: GraphNode[] = [];
   const nodeIds = new Set<string>();
 

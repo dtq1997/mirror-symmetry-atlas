@@ -1,0 +1,94 @@
+reviewer: Codex
+note: 逐人逐篇核对受资助主体；静态校验不代替来源审读。
+reviews:
+- person: tang-qian
+  paper: '2501.17516'
+  agency: NSFC
+  number: '12171006'
+  status: accepted
+  ack_sha256: 7b8f7fdc6319623dc71377f7b099bd8dfaaf49fd380d19c0331ccd4a569a1f08
+  reviewed_on: '2026-10-08'
+  reviewed_by: Codex
+  source_url: https://arxiv.org/html/2501.17516v1
+  author_name: Qian Tang
+  full_author_order: &id001
+  - Qian Tang
+  - Xiaomeng Xu
+  quote: The authors are supported by the National Natural Science Foundation of China
+    (No. 12171006)
+  subject_scope: all-authors
+  identity_note: 当前arXiv署名为Qian Tang、Xiaomeng Xu，提交人为Qian Tang；本文与两人既有Stokes/Yangian书目及用户说明的研究合作对应。并非按同姓或编号自动认人。
+  subject_note: 完整作者栏只有这两人；The authors明确包含两人，不等同于This work。
+  reason: 仅登记本文明确的受资助声明；不推断负责人、期限或成员名单。
+- person: xu-xiaomeng
+  paper: '2501.17516'
+  agency: NSFC
+  number: '12171006'
+  status: accepted
+  ack_sha256: 7b8f7fdc6319623dc71377f7b099bd8dfaaf49fd380d19c0331ccd4a569a1f08
+  reviewed_on: '2026-10-08'
+  reviewed_by: Codex
+  source_url: https://arxiv.org/html/2501.17516v1
+  author_name: Xiaomeng Xu
+  full_author_order: *id001
+  quote: The authors are supported by the National Natural Science Foundation of China
+    (No. 12171006)
+  subject_scope: all-authors
+  identity_note: 当前arXiv署名为Qian Tang、Xiaomeng Xu，提交人为Qian Tang；本文与两人既有Stokes/Yangian书目及用户说明的研究合作对应。并非按同姓或编号自动认人。
+  subject_note: 完整作者栏只有这两人；The authors明确包含两人，不等同于This work。
+  reason: 仅登记本文明确的受资助声明；不推断负责人、期限或成员名单。
+- person: hu-jianxun
+  paper: '2502.13558'
+  agency: NSFC
+  number: '11831017'
+  status: accepted
+  ack_sha256: 4ba828302d51c19ce45da5dda37d1de46e2e7980032b7d844e05e7610bfd01ee
+  reviewed_on: '2026-10-08'
+  reviewed_by: Codex
+  source_url: https://arxiv.org/html/2502.13558v1
+  author_name: Jianxun Hu
+  full_author_order: &id002
+  - Jianxun Hu
+  - Hua-Zhong Ke
+  - Changzheng Li
+  - Lei Song
+  quote: Hu is partially supported by NSFC Grants 11890662 and 11831017.
+  subject_scope: named-recipient
+  identity_note: 全文完整署名、School of Mathematics, Sun Yat-sen University及邮箱stsjxhu@mail.sysu.edu.cn与档案相符；第四作者Lei
+    Song不是宋家宇。
+  subject_note: 句子逐个点名Hu、Ke、Li；只把该句的11831017归给相应作者，不把其他人的号码扩散到全体作者。
+  reason: 仅登记本文明确的受资助声明；不推断负责人、期限或成员名单。
+- person: ke-huazhong
+  paper: '2502.13558'
+  agency: NSFC
+  number: '11831017'
+  status: accepted
+  ack_sha256: 4ba828302d51c19ce45da5dda37d1de46e2e7980032b7d844e05e7610bfd01ee
+  reviewed_on: '2026-10-08'
+  reviewed_by: Codex
+  source_url: https://arxiv.org/html/2502.13558v1
+  author_name: Hua-Zhong Ke
+  full_author_order: *id002
+  quote: Ke is partially supported by NSFC Grants 12271532 and 11831017.
+  subject_scope: named-recipient
+  identity_note: 全文完整署名、School of Mathematics, Sun Yat-sen University及邮箱kehuazh@mail.sysu.edu.cn与档案相符；第四作者Lei
+    Song不是宋家宇。
+  subject_note: 句子逐个点名Hu、Ke、Li；只把该句的11831017归给相应作者，不把其他人的号码扩散到全体作者。
+  reason: 仅登记本文明确的受资助声明；不推断负责人、期限或成员名单。
+- person: li-changzheng
+  paper: '2502.13558'
+  agency: NSFC
+  number: '11831017'
+  status: accepted
+  ack_sha256: 4ba828302d51c19ce45da5dda37d1de46e2e7980032b7d844e05e7610bfd01ee
+  reviewed_on: '2026-10-08'
+  reviewed_by: Codex
+  source_url: https://arxiv.org/html/2502.13558v1
+  author_name: Changzheng Li
+  full_author_order: *id002
+  quote: Li is partially supported by NSFC Grant 11831017
+  subject_scope: named-recipient
+  identity_note: 全文完整署名、School of Mathematics, Sun Yat-sen University及邮箱lichangzh@mail.sysu.edu.cn与档案相符；第四作者Lei
+    Song不是宋家宇。
+  subject_note: 句子逐个点名Hu、Ke、Li；只把该句的11831017归给相应作者，不把其他人的号码扩散到全体作者。
+  reason: 仅登记本文明确的受资助声明；不推断负责人、期限或成员名单。

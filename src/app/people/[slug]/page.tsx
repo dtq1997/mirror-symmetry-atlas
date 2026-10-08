@@ -1,4 +1,5 @@
 import MathText from "@/components/shared/MathText";
+import FundingEvidence from "@/components/shared/FundingEvidence";
 import { getAllPeople, getPerson, getAllConnections, getAckMentions } from "@/lib/data";
 import { displayName as nameOf, nameInfo } from "@/lib/name";
 import PersonTimeline from "@/components/person/PersonTimeline";
@@ -349,6 +350,8 @@ export default async function PersonPage({
           </div>
         </section>
       )}
+
+      <FundingEvidence slug={slug} connections={connections} />
 
       {/* Acknowledgement network */}
       {(acknowledges.length > 0 || acknowledgedBy.length > 0) && (

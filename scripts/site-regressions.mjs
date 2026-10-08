@@ -23,6 +23,20 @@ test('acknowledgement identity, subject, evidence and count guards', () => {
   assert.equal(result.status, 0, result.stdout + result.stderr);
 });
 
+test('funding recipient reviews, source changes and extraction negatives', () => {
+  const result = spawnSync('python3', ['scripts/test_grant_review.py'], { encoding: 'utf8' });
+  assert.equal(result.status, 0, result.stdout + result.stderr);
+});
+
+test('people graph never draws unreviewed funding declarations', () => {
+  const people = ['a', 'b'].map((slug) => ({ slug, name: { en: slug }, publications: [], career_timeline: [], key_collaborators: [] }));
+  const edge = { source: 'a', target: 'b', type: 'grant' };
+  assert.equal(buildPeopleGraph(people, [edge]).links.length, 0);
+  assert.equal(buildPeopleGraph(people, [{ ...edge, review_status: 'accepted' }]).links.length, 0);
+  const reviewed = { ...edge, review_status: 'accepted', funding_evidence: [{ agency: 'NSFC', number: '12345678', recipients: [] }] };
+  assert.equal(buildPeopleGraph(people, [reviewed]).links.length, 1);
+});
+
 test('timeline sorts month/day within a year while preserving precision, ties and original input', () => {
   const rows = [
     { slug: 'late', date: '1994-11-30' }, { slug: 'year', date: '1994' },
