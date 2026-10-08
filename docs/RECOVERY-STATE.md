@@ -2,13 +2,13 @@
 
 [Codex] 2026-10-08。Goal **active**，原目标见 `RECOVERY-PLAN.md`。这不是已完成的全库事实认证。
 
-## 当前恢复入口（2026-10-08，第二十一批线上验收后）
+## 当前恢复入口（2026-10-08，第二十二批线上验收后）
 
 [Codex] Goal仍active。以下是当前摘要；后面的早期“待发布/尚未恢复”是历史记录，不代表现在。
 
-- 第二十二批本地完成、待本批公开部署：论文目录加入中英文/题名/完整编号检索、收录人物/年份/出版线索组合筛选及每次50条渐进展示。1808组、2208原始行与326份YAML均未改变。55项回归；全目录1808题名/2934编号查询另行覆盖；静态首屏减少后导出为287HTML/16141链接/556公式实例，0问题。1280桌面及390×844手机实际检查、键盘/空结果/重置/100条增量检查通过；详见catalog-usability-review.json与batch-twenty-two-preview-verification.json。此项不认证论文归属或数据真值。
-- 原网站已发布二十一批修复。最近公开内容 commit `de5f65538fd429d5501b4963a6c55b60f12d8cbd`；Actions `37729394133` success，6个公开页面内容逐项核对通过；线上608×758当前论文与历史版本来源说明已实际查看，无横向溢出或console error。后续报告提交带skip ci，公开资产仍以上述commit为准。
-- 当前96人物、58主概念与3别名入口（61份原始记录）、107主机构与8别名入口（115份原始记录）、3开放问题；人物原始论文2208行，目录1808组（包括书籍/章节及译版，不等于独立研究论文总数）。287HTML/22809站内链接/691公式实例，未检出坏目标或KaTeX解析错误；data lint 0errors/73warnings；48项网站回归及CI全部检查通过。这不是全库事实或数学认证。
+- 第二十二批已上线并公开核验：论文目录加入中英文/题名/完整编号检索、收录人物/年份/出版线索组合筛选及每次50条渐进展示。1808组、2208原始行与326份YAML均未改变。55项回归；全目录1808题名/2934编号查询另行覆盖；静态首屏减少后导出为287HTML/16141链接/556公式实例，0问题。本地1280桌面/390×844手机及公开1280×800桌面/390×844手机实际检查、键盘/空结果/重置/100条增量检查通过；详见catalog-usability-review.json与batch-twenty-two-preview-verification.json、batch-twenty-two-live-verification.json。此项不认证论文归属或数据真值。
+- 原网站已发布二十二批修复。最近公开内容 commit `ed6acad79c2f7586bc26970dbdc0e05deeb5c4e3`；Actions `37731404888` success，4个公开页面内容核对通过；线上英文姓名/四条件筛选/完整arXiv版本号实际操作通过，无横向溢出或console error。后续报告提交带skip ci，公开资产仍以上述commit为准。
+- 当前96人物、58主概念与3别名入口（61份原始记录）、107主机构与8别名入口（115份原始记录）、3开放问题；人物原始论文2208行，目录1808组（包括书籍/章节及译版，不等于独立研究论文总数）。287HTML/16141站内链接/556公式实例（导出首屏口径；全部1808条题名及编号另有完整测试），未检出坏目标或KaTeX解析错误；data lint 0errors/73warnings；55项网站回归及CI全部检查通过。这不是全库事实或数学认证。
 - 新闻链与定时部署已恢复，72篇新闻在线；作者保留原始署名，不按姓氏猜身份。1237个完整arXiv当前元数据已取回，但并非全部归属已核实。
 - 累计14条确认错挂、7条待核实归属已移出，1录像转网上痕迹，另23条来源确认的重复已合并。原始记录及来源分别保存在审核池或具名审计报告；身份排除受防回填检查保护，合并的有效DOI不能加入拒绝池。刘思齐41条、Mazzocco46条、Dubrovin64条、陈酌35条（27有出版线索/8待补）。部分履历/论文修正不代表整个人物已核。
 - 图谱空按钮、共享数据突变、布局持续散开、手机侧栏/搜索、公式跨行渲染已修；年份筛选是累计有日期记录，机构筛选是历史履历关联，不猜现职。小屏全图仍可能局部标签重叠，可搜索放大。
@@ -25,11 +25,11 @@
 - 第十九批已上线：八组机构别名统一档案/列表/历史关联人数/人物图筛选，旧115网址保留；陈酌3确认错挂与1待核隔离，两篇数论保留，官方学历/任职月份/现职/主页修订。河南大学与兰州大学两处旧推断同步撤下。见chen-zhuo-identity-and-career-review.json、institution-alias-source-review.json、batch-nineteen-live-verification.json。机构名称核对不认证旧名单、成立年或全部传记。
 - 第二十批已上线：全部13条时间线核对日期、出处与陈述范围；tt*概念年份改为1991，首届Dubrovin奖章补Buryak共同得主。胡创强现职按中大/河北师大官方资料修订，博士与BIMSA任职边界仍未知；2604.04124的Yixuan Ou-Yang错绑徐旭已纠正。核对15篇当前作者名单不等于15篇身份全部认证。见timeline-primary-source-review.json、hu-chuangqiang-biography-and-coauthor-review.json、batch-twenty-live-verification.json。
 - 第二十一批已上线：2处Jianghao Xu错绑徐旭已纠正并清理身份圈；饶胜2407.02022按v3更新题名/独著，v1/v2三个历史合作者有一手依据，明确保留且不判错挂；Grimstrup的2处全名差异经同DOI机构记录确认而保留；Nest的I篇刊名纠正。7处自动姓名差异全部有逐条处置，兼容姓名不产生身份认证，653条仍未被所选arXiv快照覆盖。未移出论文、未新增归属拒绝；1808组/2208行不变。见coauthor-name-source-leads.json、coauthor-versions-and-venue-review.json、batch-twenty-one-live-verification.json。
-- 下一步优先 `next-content-and-biography-leads.json`：论文目录的搜索/筛选/渐进展示，当前1808条全部铺开且无页内查找；同时继续杜承勇书目、历史机构、其余人物/关系核查。饶胜由合著推断师承、Nest当前任职冲突、杨迪1006.5241的身份来源、Zagier传记等仍需一手资料，不因本批修几项就认证整个人物。
-- 全内容待办仍包括：人物公开叙述/履历/师生关系，Hertling整书/章节计数，58主概念的定义、年代、关系及引用，107主机构、会议/3开放问题的一手来源及时间线新增覆盖，论文目录查找体验。必须继续覆盖这些类型，不能把论文元数据清理当全站完成。
+- 下一步优先 `next-content-and-biography-leads.json` 与 `next-ding-identity-leads.json`：丁岩峭三条工程/材料论文归属、两对可能重复、部分履历与身份来源；梁乃聪/李勤题名实体转义；再接杜承勇书目、历史机构、其余人物/关系核查。饶胜师承、Nest现职冲突、杨迪1006.5241身份、Zagier传记仍待核。论文目录查找已完成本批验收。
+- 全内容待办仍包括：人物公开叙述/履历/师生关系，Hertling整书/章节计数，58主概念的定义、年代、关系及引用，107主机构、会议/3开放问题的一手来源及时间线新增覆盖，其余页面的检索与可访问性。必须继续覆盖这些类型，不能把论文元数据清理当全站完成。
 - content-inventory.json是第一批未核实基线，旧数量/全pending不覆盖后续分项证据。当前覆盖以具名审计的具体字段为准。
 - 不运行旧validate-publications.py --apply / detect-id-title-mismatch.py --write；OpenAlex v2仍有HTTP/缓存/评分风险，不能无人审查全库写入。
-- 继续只在本仓库；先查git状态，再沿此Goal推进。不要回academic-formula-workbench，不启动无关数学campaign。预览PID76142已核对并关闭，临时tab15/16关闭，viewport/CDP覆盖已清除；保留tab1线上饶胜版本来源。
+- 继续只在本仓库；先查git状态，再沿此Goal推进。不要回academic-formula-workbench，不启动无关数学campaign。本批预览PID6138已核对命令与端口并关闭，临时tab17关闭，viewport覆盖已清除；保留tab1线上论文目录。
 
 
 ## 以下为分批历史与证据记录
@@ -344,3 +344,5 @@ Goal仍active，转向概念内容的一手来源核查而非继续把绘图通�
 [Codex] 下一轮开场：继续 mirror-symmetry-atlas 全站整治 Goal。先读 docs/RECOVERY-STATE.md 并查git与最新部署；第二十一批已上线。优先完成论文目录中英文题名/作者/编号查找、组合筛选及渐进展示，复用collectPublications、paper-identity和出版线索口径；再沿next-content-and-biography-leads.json继续来源核实。未核事实保持待核，作者名单须比较版本，不把旧版本有效署名判错挂。本机资源仍需谨慎，必要时CIRCLE_NODE_TOTAL=3限制Next构建并发，只操作本仓库及本轮进程。
 
 [Codex] 2026-10-08 第二十二批待发布：新增搜索只作视图，不按名称合并身份；英文姓名词边界已用Qian/Weiqiang反例修正。全体来源编号留在归并对象的identifiers供搜索，原归并规则、代表记录及出版线索口径不变。论文页未压缩HTML从6579151降至943240字节，不冒充网络总量或加载时间测量。经典12条独立保留；无JavaScript时显示前50条及经典文献，可转人物档案查看完整收录。
+
+[Codex] 2026-10-08 第二十二批已公开验收：commit `ed6acad79c2f7586bc26970dbdc0e05deeb5c4e3`，Actions `37731404888` success。四个线上页面HTTP/内容核对及桌面/手机交互通过；证据batch-twenty-two-live-verification.json，截图catalog-search-live.png与catalog-search-mobile-live.png。本批全部326份YAML哈希相同；55项回归另覆盖首屏以外1808题名/2934编号查询。Goal继续active。等部署时已读丁岩峭15条书目及官网，下一批线索另存next-ding-identity-leads.json；未凭跨主题或作者近似姓名作最终归属。

@@ -6,43 +6,24 @@
     "chen_zhuo_six_candidates": "3 rejected-homonym; 1 needs-review; 2 retained with email/affiliation evidence.",
     "institution_duplicates": "8 explicit aliases, 107 primary institutions, 115 routes preserved.",
     "batch_twenty": "All 13 existing timeline records now have primary sources and explicit date/scope notes; tt-star origin and conservative introduction corrected. Hu Chuangqiang dated biography and 15 author lists reviewed; one wrong coauthor binding fixed, degree/BIMSA employment boundaries remain unverified.",
-    "batch_twenty_one": "Coauthor incompatibility inventory: 2404 fields in 1555 rows, 7 leads; 2 wrong Xu Xu bindings corrected, 3 historically valid coauthors retained in Rao version notes while current metadata updated, 2 Grimstrup full-name differences retained. Nest journal I corrected. 653 rows outside selected snapshot remain uncovered."
+    "batch_twenty_one": "Coauthor incompatibility inventory: 2404 fields in 1555 rows, 7 leads; 2 wrong Xu Xu bindings corrected, 3 historically valid coauthors retained in Rao version notes while current metadata updated, 2 Grimstrup full-name differences retained. Nest journal I corrected. 653 rows outside selected snapshot remain uncovered.",
+    "batch_twenty_two": "Paper catalog now supports bilingual/title/full-ID queries, combined owner/year/publication-clue filters and 50-record progressive rendering. 1808 groups/2208 rows and all 326 YAML files unchanged. 55 regressions plus desktop/mobile public interactions verified."
   },
   "priority_leads": [
-    {
-      "content_types": [
-        "papers usability"
-      ],
-      "issue": "论文页目前把1808条记录全部按年份展开，没有页内搜索、作者/年份/出版线索筛选或渐进展示；下一批做实际查找流程，保留归并和统计口径、未知出版状态与原始署名。",
-      "entry_files": [
-        "src/app/papers/page.tsx",
-        "src/lib/publications.ts",
-        "src/lib/paper-identity.ts",
-        "src/lib/publication-metadata.ts",
-        "src/lib/name.ts"
-      ],
-      "acceptance": [
-        "中英文作者、题名、完整arXiv/DOI能查找；不能因名字匹配新建身份绑定。",
-        "组合筛选、无结果、清除、分页或加载更多可用；显示总数与当前范围。",
-        "保留经典文献及其来源语义；手机/键盘和实际公网检查。",
-        "本机资源紧张时使用已核实Next实现支持的CIRCLE_NODE_TOTAL=3，仅本次命令环境，避免9workers重试。"
-      ],
-      "status": "implemented-local-awaiting-public",
-      "evidence": "catalog-usability-review.json"
-    },
     {
       "content_types": [
         "people.publications identity",
         "paper title encoding"
       ],
-      "issue": "第二十二批目录实测发现两类未核实线索：丁岩峭名下10.1002/adom.202503766光学材料论文的作者身份；梁乃聪/李勤名下10.4310/pamq.260122023941题名显示K&amp;auml;hler，另有sup/sub原文标签。需回出版社/机构/作者来源逐条核对；跨主题本身不能判错挂，修转义不能直接把外来HTML当可信内容执行。",
+      "issue": "第二十二批目录实测发现两类未核实线索：丁岩峭名下10.1002/adom.202503766光学材料论文的作者身份；梁乃聪/李勤名下10.4310/pamq.260122023941题名显示K&amp;auml;hler，另有sup/sub原文标签。需回出版社/机构/作者来源逐条核对；跨主题本身不能判错挂，修转义不能直接把外来HTML当可信内容执行。 已继续只读核查丁岩峭全文，新增另两条工程/材料论文及两对可能重复；官网一手履历已读。详见next-ding-identity-leads.json，尚未改YAML、尚未下归属结论。",
       "entry_files": [
         "data/people/ding-yanqiao.yaml",
         "data/people/leung-naichung.yaml",
         "data/people/li-qin.yaml",
         "src/lib/math-text.ts"
       ],
-      "status": "unreviewed-leads-only"
+      "status": "unreviewed-leads-only",
+      "evidence": "next-ding-identity-leads.json"
     },
     {
       "content_types": [
@@ -140,6 +121,30 @@
       "person": "hu-chuangqiang",
       "issue": "博士院校、年份和导师未知；BIMSA实际起止与职级仍未知。2020拟聘不等于到岗，2025加入描述不表示此前从未在SYSU工作。",
       "evidence": "hu-chuangqiang-biography-and-coauthor-review.json"
+    }
+  ],
+  "completed_usability_items": [
+    {
+      "content_types": [
+        "papers usability"
+      ],
+      "issue": "论文页目前把1808条记录全部按年份展开，没有页内搜索、作者/年份/出版线索筛选或渐进展示；下一批做实际查找流程，保留归并和统计口径、未知出版状态与原始署名。",
+      "entry_files": [
+        "src/app/papers/page.tsx",
+        "src/lib/publications.ts",
+        "src/lib/paper-identity.ts",
+        "src/lib/publication-metadata.ts",
+        "src/lib/name.ts"
+      ],
+      "acceptance": [
+        "中英文作者、题名、完整arXiv/DOI能查找；不能因名字匹配新建身份绑定。",
+        "组合筛选、无结果、清除、分页或加载更多可用；显示总数与当前范围。",
+        "保留经典文献及其来源语义；手机/键盘和实际公网检查。",
+        "本机资源紧张时使用已核实Next实现支持的CIRCLE_NODE_TOTAL=3，仅本次命令环境，避免9workers重试。"
+      ],
+      "status": "deployed-and-publicly-verified",
+      "evidence": "catalog-usability-review.json",
+      "live_evidence": "batch-twenty-two-live-verification.json"
     }
   ]
 }

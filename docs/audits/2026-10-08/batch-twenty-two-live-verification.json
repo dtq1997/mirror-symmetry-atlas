@@ -1,0 +1,97 @@
+{
+  "reviewer": "Codex",
+  "verified_at": "2026-10-08T05:18:02.257687+00:00",
+  "code_commit": "ed6acad79c2f7586bc26970dbdc0e05deeb5c4e3",
+  "actions_run": 37731404888,
+  "actions_conclusion": "success",
+  "pages": [
+    {
+      "url": "https://dtq1997.github.io/mirror-symmetry-atlas/papers",
+      "http_status": "200",
+      "bytes": 943240,
+      "sha256": "1f27ec162d3e3f89eb5a11dca2e6aae7f4b87cc7ea403f48b721e391c2f68d7d",
+      "checks": {
+        "html_received": true,
+        "controls": true,
+        "first_50": true,
+        "total_count": true,
+        "classic": true,
+        "publication_uncertainty": true
+      }
+    },
+    {
+      "url": "https://dtq1997.github.io/mirror-symmetry-atlas/",
+      "http_status": "200",
+      "bytes": 38944,
+      "sha256": "e6c84898fc30df4e03033f9bc044d3eea7fe2554809c4a8ee34e12ee9590d5c1",
+      "checks": {
+        "html_received": true,
+        "catalog_count": true
+      }
+    },
+    {
+      "url": "https://dtq1997.github.io/mirror-symmetry-atlas/people/chen-zhuo",
+      "http_status": "200",
+      "bytes": 295353,
+      "sha256": "f513b77c912680c3ff1bf71ef2e1256df769670ce023c446b83fec084ee5b711",
+      "checks": {
+        "html_received": true,
+        "profile_retained": true
+      }
+    },
+    {
+      "url": "https://dtq1997.github.io/mirror-symmetry-atlas/people/rao-sheng",
+      "http_status": "200",
+      "bytes": 154769,
+      "sha256": "61877f1182d42d7a02218f697755a666b24a888d7b43bdbd54c17d5e15d2e873",
+      "checks": {
+        "html_received": true,
+        "current_title_retained": true
+      }
+    }
+  ],
+  "scope": "HTTP and exported-content checks; browser interactions recorded separately. No factual certification.",
+  "browser": {
+    "checks": [
+      {
+        "case": "public-English-name",
+        "status": "匹配 6 条 · 已显示 6 条 · 全目录 1808 条"
+      },
+      {
+        "case": "public-name-and-owner",
+        "cards": 6,
+        "status": "匹配 6 条 · 已显示 6 条 · 全目录 1808 条",
+        "unexpected": 0
+      },
+      {
+        "case": "public-desktop-layout",
+        "height": 800,
+        "scrollWidth": 1274,
+        "width": 1280
+      },
+      {
+        "case": "public-four-criteria",
+        "status": "匹配 1 条 · 已显示 1 条 · 全目录 1808 条",
+        "titles": [
+          "Stokes Phenomenon and Yangians"
+        ]
+      },
+      {
+        "case": "public-mobile-arxiv",
+        "cards": 1,
+        "height": 844,
+        "scrollWidth": 384,
+        "status": "匹配 1 条 · 已显示 1 条 · 全目录 1808 条",
+        "titles": [
+          "Upper semicontinuity of algebraic dimension"
+        ],
+        "width": 390
+      }
+    ],
+    "consoleErrors": [],
+    "screenshots": [
+      "catalog-search-live.png",
+      "catalog-search-mobile-live.png"
+    ]
+  }
+}

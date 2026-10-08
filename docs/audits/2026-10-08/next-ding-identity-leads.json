@@ -1,0 +1,81 @@
+{
+  "reviewer": "Codex",
+  "date": "2026-10-08",
+  "scope": "Read-only source reconnaissance for the next content batch. No YAML changed and no ownership disposition made in batch 22.",
+  "person": "ding-yanqiao",
+  "source_file": "data/people/ding-yanqiao.yaml",
+  "current_raw_rows": 15,
+  "primary_sources": [
+    {
+      "url": "https://www5.zzu.edu.cn/math/info/1179/4671.htm",
+      "access": "HTTP 200, local HTML body parsed and read; also web text retrieved",
+      "observations": "Official mathematics profile identifies the subject as 丁岩峭, associate professor from January 2024, doctorate from Sun Yat-sen in June 2016 and Zhengzhou employment from July 2016; Sorbonne postdoc began September 2019 for one year. Lists five selected mathematics publications. This does not verify omitted degrees, adviser, ORCID or every paper."
+    },
+    {
+      "url": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/adom.202503766?af=R",
+      "access": "Web tool retrieved article text; direct local curl returned HTTP 403 and is not article-body evidence",
+      "observations": "The publisher assigns Yanqiao Ding to Xihua University electrical/electronic engineering in this paper. This differs from the recorded mathematics profile and calls for identity review; institutional difference alone is not a final rejection."
+    },
+    {
+      "url": "https://pubs.acs.org/doi/10.1021/acsanm.4c06383",
+      "access": "Primary publisher search record found; complete relevant author block not verified. Local curl HTTP 403; web find returned no matching text, which is not proof of absence.",
+      "observations": "Second materials-science record in this person file requires complete author, affiliation and identity evidence."
+    },
+    {
+      "url": "https://www.ijpe-online.com/EN/volumn/volumn_155.shtml",
+      "access": "Primary issue listing returned by web search/open; local curl HTTP 403",
+      "observations": "Publisher listing names Yi Ding for the 2012 systems paper, with DOI 10.23940/ijpe.12.2.p217.mag. Inspect its article/front matter before recording a disposition. DTU institutional metadata also names Yi Ding but duplicates Enrico Zio, so do not copy its whole author list unchecked."
+    }
+  ],
+  "local_fetches": {
+    "fetched_at": "2026-10-08T05:16:43.677566+00:00",
+    "sources": [
+      {
+        "name": "ding-zzu-current",
+        "url": "https://www5.zzu.edu.cn/math/info/1179/4671.htm",
+        "status": "200",
+        "exit": 0,
+        "bytes": 36101,
+        "sha256": "6472f56e939d363581c6a293a7b7990929b62384b7743d5b23bbe7fa5ccaab5f",
+        "path": ".cache/msa/site-recovery/ding-zzu-current.html",
+        "note": "Fetch only; inspect the body before treating as primary evidence."
+      },
+      {
+        "name": "ding-optical-wiley",
+        "url": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/adom.202503766?af=R",
+        "status": "403",
+        "exit": 0,
+        "bytes": 5595,
+        "sha256": "5d641ad6ee65fe4ef0f04a92fa524dc6124f4734025cae336001305b8eb8b8df",
+        "path": ".cache/msa/site-recovery/ding-optical-wiley.html",
+        "note": "Fetch only; inspect the body before treating as primary evidence."
+      },
+      {
+        "name": "ding-nano-acs",
+        "url": "https://pubs.acs.org/doi/10.1021/acsanm.4c06383",
+        "status": "403",
+        "exit": 0,
+        "bytes": 5438,
+        "sha256": "b620ad185a2e07c2a15b322eb966b9c15e825d8a4f87a6f9c8f00b3fd1931e6e",
+        "path": ".cache/msa/site-recovery/ding-nano-acs.html",
+        "note": "Fetch only; inspect the body before treating as primary evidence."
+      },
+      {
+        "name": "ding-engineering-ijpe",
+        "url": "https://www.ijpe-online.com/EN/volumn/volumn_155.shtml",
+        "status": "403",
+        "exit": 0,
+        "bytes": 162,
+        "sha256": "1d08335e65da7cf40d1c4a7ba0088e0f39b9c5a4b2e42de95fc9ffa69fb96c7a",
+        "path": ".cache/msa/site-recovery/ding-engineering-ijpe.html",
+        "note": "Fetch only; inspect the body before treating as primary evidence."
+      }
+    ]
+  },
+  "next_actions": [
+    "Review the three engineering/materials records, with complete primary author evidence and a preserved pre-edit YAML snapshot.",
+    "Check possible preprint/journal duplicate pairs 1902.07486 versus 10.1134/s000143462005003x, and 1710.03603 versus 10.1007/s00209-020-02458-z.",
+    "Review biography conflicts, adviser inference, ORCID/OpenAlex provenance, stale missing-institution notes and the old faculty URL; do not certify the entire biography from the selected official profile.",
+    "Retain all unresolved candidates and provenance. Cross-topic papers are not automatically wrong-owner papers."
+  ]
+}
