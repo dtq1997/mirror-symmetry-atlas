@@ -23,6 +23,11 @@ test('publisher entities and markup cannot leak into bibliographic text', () => 
   assert.equal(result.status, 0, result.stdout + result.stderr);
 });
 
+test('export audit rejects arXiv labels pointing at DOI or another paper', () => {
+  const result = spawnSync('python3', ['scripts/test_site_audit.py'], { encoding: 'utf8' });
+  assert.equal(result.status, 0, result.stdout + result.stderr);
+});
+
 test('publication ownership reviews protect records and identity whitelists', () => {
   const result = spawnSync('python3', ['scripts/test_publication_review.py'], { encoding: 'utf8' });
   assert.equal(result.status, 0, result.stdout + result.stderr);

@@ -7,6 +7,7 @@ import type { CatalogPublication } from "@/lib/publications";
 
 export default function PublicationCard({ paper }: { paper: CatalogPublication }) {
   const url = publicationUrl(paper);
+  const idUrl = publicationUrl({ id: paper.id });
   return (
     <article data-catalog-record={paper.catalogKey} className="bg-[#14141f] rounded-lg p-4 border border-[#2a2a3a] min-w-0">
       <div className="flex items-start gap-3">
@@ -30,7 +31,7 @@ export default function PublicationCard({ paper }: { paper: CatalogPublication }
         ))}
       </div>
       <div className="text-xs font-mono text-[#8888a0] break-all mt-2">
-        {url ? <a href={url} target="_blank" rel="noopener noreferrer" className="hover:text-[#e8e8f0]">{paper.id} ↗</a> : paper.id}
+        {idUrl ? <a href={idUrl} target="_blank" rel="noopener noreferrer" className="hover:text-[#e8e8f0]">{paper.id} ↗</a> : paper.id}
       </div>
     </article>
   );

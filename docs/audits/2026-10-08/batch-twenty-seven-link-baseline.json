@@ -1,0 +1,54 @@
+{
+  "scope": "Exported HTML links and KaTeX parse errors; not mathematical correctness, source accuracy or client-only interactions.",
+  "pages": 287,
+  "links": 15264,
+  "formula_instances": 563,
+  "issues": [
+    {
+      "type": "arxiv-label-target-mismatch",
+      "target": "2409.14124 -> https://doi.org/10.1007/s00208-026-03476-8",
+      "pages": [
+        "papers.html"
+      ],
+      "disposition": "confirmed-label-target-mismatch"
+    },
+    {
+      "type": "arxiv-label-target-mismatch",
+      "target": "2410.22665 -> https://doi.org/10.4208/cmr.2025-0027",
+      "pages": [
+        "papers.html"
+      ],
+      "disposition": "confirmed-label-target-mismatch"
+    },
+    {
+      "type": "arxiv-label-target-mismatch",
+      "target": "2601.20673 -> https://doi.org/10.1090/btran/238",
+      "pages": [
+        "papers.html"
+      ],
+      "disposition": "confirmed-label-target-mismatch"
+    },
+    {
+      "type": "arxiv-label-target-mismatch",
+      "target": "arXiv:2501.17516 -> https://arxiv.org/html/2501.17516v1",
+      "pages": [
+        "people/tang-qian.html",
+        "people/xu-xiaomeng.html"
+      ],
+      "disposition": "detector-false-positive-valid-arxiv-html"
+    },
+    {
+      "type": "arxiv-label-target-mismatch",
+      "target": "arXiv:2502.13558 -> https://arxiv.org/html/2502.13558v1",
+      "pages": [
+        "people/hu-jianxun.html",
+        "people/ke-huazhong.html",
+        "people/li-changzheng.html"
+      ],
+      "disposition": "detector-false-positive-valid-arxiv-html"
+    }
+  ],
+  "scope_note": "Initial detector snapshot before allowing legitimate arXiv HTML targets: three DOI misdirections are genuine; two matching HTML targets are false positives. The detector was corrected and has HTML/PDF/abs/version controls before release.",
+  "confirmed_issue_targets": 3,
+  "detector_false_positives": 2
+}

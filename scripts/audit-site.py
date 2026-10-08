@@ -3,9 +3,12 @@
 import argparse
 import collections
 import json
+import re
 from html.parser import HTMLParser
 from pathlib import Path
 from urllib.parse import unquote, urljoin, urlsplit
+
+from paper_identity import canonical_arxiv_id
 
 
 class Document(HTMLParser):
@@ -15,6 +18,8 @@ class Document(HTMLParser):
         self.ids = set()
         self.formula_count = 0
         self.formula_errors = []
+        self.arxiv_label_errors = []
+        self.anchor = None
 
     def handle_starttag(self, tag, attrs):
         attrs = dict(attrs)
@@ -27,6 +32,31 @@ class Document(HTMLParser):
             self.ids.add(attrs['id'])
         if tag == 'a' and attrs.get('href'):
             self.links.append(attrs['href'])
+            self.anchor = {'href': attrs['href'], 'text': ''}
+
+    def handle_data(self, data):
+        if self.anchor is not None:
+            self.anchor['text'] += data
+
+    def handle_endtag(self, tag):
+        if tag != 'a' or self.anchor is None:
+            return
+        label = self.anchor['text'].strip().removesuffix('↗').strip()
+        aid = canonical_arxiv_id(label)
+        if aid and not re.fullmatch(r'\d{7}', aid):
+            url = urlsplit(self.anchor['href'])
+            path = unquote(url.path)
+            target = None
+            if url.hostname in ('arxiv.org', 'export.arxiv.org'):
+                if path.startswith('/abs/'):
+                    target = canonical_arxiv_id(path[5:])
+                elif path.startswith('/html/'):
+                    target = canonical_arxiv_id(path[6:])
+                elif path.startswith('/pdf/'):
+                    target = canonical_arxiv_id(path[5:].removesuffix('.pdf'))
+            if target != aid:
+                self.arxiv_label_errors.append(f"{label} -> {self.anchor['href']}")
+        self.anchor = None
 
 
 def exported_path(root, route):
@@ -48,6 +78,8 @@ def audit(root, base):
     for page, document in documents.items():
         for error in document.formula_errors:
             issues[('formula-render-error', error)].add(str(page.relative_to(root)))
+        for error in document.arxiv_label_errors:
+            issues[('arxiv-label-target-mismatch', error)].add(str(page.relative_to(root)))
         for href in document.links:
             count += 1
             url = urlsplit(href)

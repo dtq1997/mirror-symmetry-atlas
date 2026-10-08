@@ -1,0 +1,55 @@
+{
+  "reviewer": "Codex",
+  "date": "2026-10-08",
+  "scope": "Catalog identifier navigation and repeatable exported-link validation. No data facts, counts or grouping changed.",
+  "before_commit": "332a869",
+  "trigger": "Catalog arXiv label 2010.14339 linked to DOI10.4310/pamq.260122023941.",
+  "change": "Title keeps preferred publication URL; displayed ID resolves from that ID alone. Unknown placeholders are text, not DOI links.",
+  "related_paths_reviewed": [
+    "src/components/papers/PublicationCard.tsx",
+    "src/app/people/[slug]/page.tsx",
+    "src/lib/paper-identity.ts"
+  ],
+  "root_cause": "Catalog card reused the whole-publication preferred URL for the raw ID label; person page already resolved these separately.",
+  "regression_gate": "Export auditor compares complete arXiv label with arXiv abstract/HTML/PDF target identity; retains legacy archive prefixes and allows version changes. Titles and ambiguous archive-less seven-digit IDs are excluded.",
+  "baseline": "batch-twenty-seven-link-baseline.json",
+  "baseline_scope": "3 confirmed initial catalog errors in the first50 cards. Detector initially also rejected2 legitimate HTML targets; fixed and retained in baseline provenance.",
+  "validation": {
+    "site_regressions": 61,
+    "new_audit_unit_cases": 3,
+    "data_lint": {
+      "errors": 0,
+      "warnings": 73
+    },
+    "eslint": "passed",
+    "typescript": "passed",
+    "production_build": "passed",
+    "export": {
+      "html": 287,
+      "links": 15263,
+      "formula_instances": 563,
+      "issues": 0
+    }
+  },
+  "browser_preview": {
+    "desktop_viewport": [
+      1280,
+      800
+    ],
+    "scrollWidth": 1274,
+    "query": "2010.14339",
+    "matches": 1,
+    "title_target": "https://doi.org/10.4310/pamq.260122023941",
+    "identifier_target": "https://arxiv.org/abs/2010.14339",
+    "placeholder_query": "10.1016/j.geomphys.2026.105803",
+    "placeholder_result": "One result, title/DOI remain linked; [待补充] is plain text.",
+    "console_errors": [],
+    "screenshot": "batch-twenty-seven-preview-desktop.jpg",
+    "mobile": "Tab-scoped emulation reported390x844 and scrollWidth384, but screenshot transport was unreliable. Override cleared. Public mobile visual acceptance remains pending."
+  },
+  "limitations": [
+    "Export audit covers initial HTML; the catalog progressively reveals other cards using the same component.",
+    "No full bibliography identity or scholarly accuracy certification."
+  ],
+  "deployment": "pending"
+}
