@@ -1,0 +1,352 @@
+fetch_date: '2026-10-09'
+period_days: 7
+last_success_at: '2026-10-09T14:43:29.726276+00:00'
+total_fetched: 697
+relevant_count: 16
+fetch_evidence:
+  query: (cat:math-ph OR cat:math.AG OR cat:math.QA OR cat:hep-th OR cat:math.DG OR
+    cat:math.SG OR cat:nlin.SI) AND submittedDate:[202610021443 TO 202610091443]
+  categories:
+  - math-ph
+  - math.AG
+  - math.QA
+  - hep-th
+  - math.DG
+  - math.SG
+  - nlin.SI
+  window_start: '2026-10-02T14:43:29.726276+00:00'
+  window_end: '2026-10-09T14:43:29.726276+00:00'
+  total_fetched: 697
+  pages:
+  - url: https://export.arxiv.org/api/query?search_query=%28cat%3Amath-ph+OR+cat%3Amath.AG+OR+cat%3Amath.QA+OR+cat%3Ahep-th+OR+cat%3Amath.DG+OR+cat%3Amath.SG+OR+cat%3Anlin.SI%29+AND+submittedDate%3A%5B202610021443+TO+202610091443%5D&start=0&max_results=200&sortBy=submittedDate&sortOrder=descending
+    sha256: 91d0f6cbc00c9279cc2e0c305fbb4df991174961f3292a12487ba6209a85412a
+    start: 0
+    count: 200
+  - url: https://export.arxiv.org/api/query?search_query=%28cat%3Amath-ph+OR+cat%3Amath.AG+OR+cat%3Amath.QA+OR+cat%3Ahep-th+OR+cat%3Amath.DG+OR+cat%3Amath.SG+OR+cat%3Anlin.SI%29+AND+submittedDate%3A%5B202610021443+TO+202610091443%5D&start=200&max_results=200&sortBy=submittedDate&sortOrder=descending
+    sha256: 5d0dd5ffe6d1c7f59b49aa02005e1d759a240a4eee391c4cf7f266249a5a8101
+    start: 200
+    count: 200
+  - url: https://export.arxiv.org/api/query?search_query=%28cat%3Amath-ph+OR+cat%3Amath.AG+OR+cat%3Amath.QA+OR+cat%3Ahep-th+OR+cat%3Amath.DG+OR+cat%3Amath.SG+OR+cat%3Anlin.SI%29+AND+submittedDate%3A%5B202610021443+TO+202610091443%5D&start=400&max_results=200&sortBy=submittedDate&sortOrder=descending
+    sha256: e9d66b245f436141c7fd2f4bae761eb4ed4096c85ae8eaab43d7afc829867d38
+    start: 400
+    count: 200
+  - url: https://export.arxiv.org/api/query?search_query=%28cat%3Amath-ph+OR+cat%3Amath.AG+OR+cat%3Amath.QA+OR+cat%3Ahep-th+OR+cat%3Amath.DG+OR+cat%3Amath.SG+OR+cat%3Anlin.SI%29+AND+submittedDate%3A%5B202610021443+TO+202610091443%5D&start=600&max_results=200&sortBy=submittedDate&sortOrder=descending
+    sha256: 98869d9fb92fbf6372b0afd79cb4f2f9be7bfd22f6edc7b46d36be59e1d571b3
+    start: 600
+    count: 97
+entries:
+- id: '2610.12331'
+  title: Wave packets asymptotics in $κ$-minkowski space
+  authors_raw:
+  - Adith A
+  - A. Bhagwat
+  date: '2026-10-08'
+  published: '2026-10-08T17:10:54Z'
+  updated: '2026-10-08T17:10:54Z'
+  category: math-ph
+  source_url: https://arxiv.org/abs/2610.12331
+  source_version: 2610.12331v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - singularity-theory
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-10-09T14:43:29.726276+00:00'
+  summary_zh: ''
+- id: '2610.12279'
+  title: Invariant sets and spectral rigidity of Hamiltonian diffeomorphisms
+  authors_raw:
+  - Habib Alizadeh
+  - Egor Shelukhin
+  date: '2026-10-08'
+  published: '2026-10-08T16:38:20Z'
+  updated: '2026-10-08T16:38:20Z'
+  category: math.SG
+  source_url: https://arxiv.org/abs/2610.12279
+  source_version: 2610.12279v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - symplectic-topology
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-10-09T14:43:29.726276+00:00'
+  summary_zh: ''
+- id: '2610.12175'
+  title: Atiyah classes and ellipticity of Oka manifolds
+  authors_raw:
+  - Yuta Kusakabe
+  - Shin-ichi Matsumura
+  date: '2026-10-08'
+  published: '2026-10-08T15:43:56Z'
+  updated: '2026-10-08T15:43:56Z'
+  category: math.CV
+  source_url: https://arxiv.org/abs/2610.12175
+  source_version: 2610.12175v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - atiyah-class
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-10-09T14:43:29.726276+00:00'
+  summary_zh: ''
+- id: '2610.11925'
+  title: On Calabi-Yau varieties that are linear sections of Grassmannians of lines
+  authors_raw:
+  - Michele Bolognesi
+  - Ciro Ciliberto
+  - Alessandro Verra
+  date: '2026-10-08'
+  published: '2026-10-08T13:22:17Z'
+  updated: '2026-10-08T13:22:17Z'
+  category: math.AG
+  source_url: https://arxiv.org/abs/2610.11925
+  source_version: 2610.11925v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - calabi-yau
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-10-09T14:43:29.726276+00:00'
+  summary_zh: ''
+- id: '2610.11844'
+  title: Einstein-Cartan and Palatini-Cartan Gravity from Graded Poisson Geometry
+  authors_raw:
+  - Johannes Moerland
+  - Peter Schupp
+  date: '2026-10-08'
+  published: '2026-10-08T12:32:25Z'
+  updated: '2026-10-08T12:32:25Z'
+  category: hep-th
+  source_url: https://arxiv.org/abs/2610.11844
+  source_version: 2610.11844v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - poisson-geometry
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-10-09T14:43:29.726276+00:00'
+  summary_zh: ''
+- id: '2610.11802'
+  title: Loyalty of the affine line in motivic homotopy theory
+  authors_raw:
+  - Viktor Burghardt
+  date: '2026-10-08'
+  published: '2026-10-08T12:11:16Z'
+  updated: '2026-10-08T12:11:16Z'
+  category: math.AG
+  source_url: https://arxiv.org/abs/2610.11802
+  source_version: 2610.11802v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - homotopy-theory
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-10-09T14:43:29.726276+00:00'
+  summary_zh: ''
+- id: '2610.11427'
+  title: Categorified Cluster Structures on Coulomb Branches of Certain Star-Shaped
+    Quivers
+  authors_raw:
+  - Tianle Liu
+  date: '2026-10-08'
+  published: '2026-10-08T07:52:35Z'
+  updated: '2026-10-08T07:52:35Z'
+  category: math.RT
+  source_url: https://arxiv.org/abs/2610.11427
+  source_version: 2610.11427v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - cluster-algebra
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-10-09T14:43:29.726276+00:00'
+  summary_zh: ''
+- id: '2610.11077'
+  title: Explicit Ricci-flat Metrics on Kummer K3 Surfaces
+  authors_raw:
+  - Jixiang Fu
+  - Yunyang Xiao
+  - Shing-Tung Yau
+  date: '2026-10-08'
+  published: '2026-10-08T01:37:39Z'
+  updated: '2026-10-08T01:37:39Z'
+  category: math.DG
+  source_url: https://arxiv.org/abs/2610.11077
+  source_version: 2610.11077v1
+  matched_people: []
+  candidate_people:
+  - yau-shingtung
+  matched_concepts:
+  - calabi-yau
+  relevance_score: 13
+  review_status: metadata-only
+  retrieved_at: '2026-10-09T14:43:29.726276+00:00'
+  summary_zh: ''
+- id: '2610.10940'
+  title: 'Quantum geometry at arbitrary genus - I: Anharmonic potentials'
+  authors_raw:
+  - Mustafa Türe
+  - Mithat Ünsal
+  date: '2026-10-07'
+  published: '2026-10-07T21:43:55Z'
+  updated: '2026-10-07T21:43:55Z'
+  category: hep-th
+  source_url: https://arxiv.org/abs/2610.10940
+  source_version: 2610.10940v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - algebraic-geometry
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-10-09T14:43:29.726276+00:00'
+  summary_zh: ''
+- id: '2610.10902'
+  title: A description of the canonical symplectic form of the cotangent bundle of
+    a generalized flag manifold
+  authors_raw:
+  - Juan Fervenza
+  - Lino Grama
+  - Luiz A. B. San Martin
+  date: '2026-10-07'
+  published: '2026-10-07T21:00:07Z'
+  updated: '2026-10-07T21:00:07Z'
+  category: math.DG
+  source_url: https://arxiv.org/abs/2610.10902
+  source_version: 2610.10902v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - symplectic-geometry
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-10-09T14:43:29.726276+00:00'
+  summary_zh: ''
+- id: '2610.10828'
+  title: Equal-mass sunset integrals and genus-zero local Gromov--Witten theory of
+    Calabi--Yau $n$-folds
+  authors_raw:
+  - Hartmut Maennel
+  - Pierre Vanhove
+  date: '2026-10-07'
+  published: '2026-10-07T19:31:52Z'
+  updated: '2026-10-07T19:31:52Z'
+  category: math.AG
+  source_url: https://arxiv.org/abs/2610.10828
+  source_version: 2610.10828v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - calabi-yau
+  - gromov-witten-theory
+  relevance_score: 6
+  review_status: metadata-only
+  retrieved_at: '2026-10-09T14:43:29.726276+00:00'
+  summary_zh: ''
+- id: '2610.10821'
+  title: The three- and four-loop equal-mass sunset integrals and local Calabi--Yau
+    fourfolds and fivefolds
+  authors_raw:
+  - Hartmut Maennel
+  - Pierre Vanhove
+  date: '2026-10-07'
+  published: '2026-10-07T19:25:06Z'
+  updated: '2026-10-07T19:25:06Z'
+  category: hep-th
+  source_url: https://arxiv.org/abs/2610.10821
+  source_version: 2610.10821v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - calabi-yau
+  - gromov-witten-theory
+  - moduli-spaces
+  relevance_score: 9
+  review_status: metadata-only
+  retrieved_at: '2026-10-09T14:43:29.726276+00:00'
+  summary_zh: ''
+- id: '2610.10784'
+  title: K-moduli wall crossing for quasimaps to a projective variety
+  authors_raw:
+  - Masafumi Hattori
+  - Yota Maeda
+  date: '2026-10-07'
+  published: '2026-10-07T18:40:15Z'
+  updated: '2026-10-07T18:40:15Z'
+  category: math.AG
+  source_url: https://arxiv.org/abs/2610.10784
+  source_version: 2610.10784v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - calabi-yau
+  - moduli-spaces
+  relevance_score: 6
+  review_status: metadata-only
+  retrieved_at: '2026-10-09T14:43:29.726276+00:00'
+  summary_zh: ''
+- id: '2610.10777'
+  title: K-Moduli Wall Crossing and Automorphic Forms for the Moduli Space of Rational
+    Elliptic Surfaces
+  authors_raw:
+  - Masafumi Hattori
+  - Yota Maeda
+  date: '2026-10-07'
+  published: '2026-10-07T18:32:58Z'
+  updated: '2026-10-07T18:32:58Z'
+  category: math.AG
+  source_url: https://arxiv.org/abs/2610.10777
+  source_version: 2610.10777v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - moduli-spaces
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-10-09T14:43:29.726276+00:00'
+  summary_zh: ''
+- id: '2610.10775'
+  title: The rational homology of quotients of the curve complex
+  authors_raw:
+  - Andrew Putman
+  date: '2026-10-07'
+  published: '2026-10-07T18:31:53Z'
+  updated: '2026-10-07T18:31:53Z'
+  category: math.GT
+  source_url: https://arxiv.org/abs/2610.10775
+  source_version: 2610.10775v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - hodge-theory
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-10-09T14:43:29.726276+00:00'
+  summary_zh: ''
+- id: '2610.10708'
+  title: Embeddings of Derived Categories of Moduli Spaces into Symmetric Powers
+  authors_raw:
+  - Andreas Krug
+  date: '2026-10-07'
+  published: '2026-10-07T18:00:21Z'
+  updated: '2026-10-07T18:00:21Z'
+  category: math.AG
+  source_url: https://arxiv.org/abs/2610.10708
+  source_version: 2610.10708v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - derived-categories
+  - derived-category
+  - moduli-spaces
+  relevance_score: 9
+  review_status: metadata-only
+  retrieved_at: '2026-10-09T14:43:29.726276+00:00'
+  summary_zh: ''
