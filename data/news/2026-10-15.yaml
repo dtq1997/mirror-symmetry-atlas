@@ -1,0 +1,272 @@
+fetch_date: '2026-10-15'
+period_days: 7
+last_success_at: '2026-10-15T12:53:46.991132+00:00'
+total_fetched: 651
+relevant_count: 12
+fetch_evidence:
+  query: (cat:math-ph OR cat:math.AG OR cat:math.QA OR cat:hep-th OR cat:math.DG OR
+    cat:math.SG OR cat:nlin.SI) AND submittedDate:[202610081253 TO 202610151253]
+  categories:
+  - math-ph
+  - math.AG
+  - math.QA
+  - hep-th
+  - math.DG
+  - math.SG
+  - nlin.SI
+  window_start: '2026-10-08T12:53:46.991132+00:00'
+  window_end: '2026-10-15T12:53:46.991132+00:00'
+  total_fetched: 651
+  pages:
+  - url: https://export.arxiv.org/api/query?search_query=%28cat%3Amath-ph+OR+cat%3Amath.AG+OR+cat%3Amath.QA+OR+cat%3Ahep-th+OR+cat%3Amath.DG+OR+cat%3Amath.SG+OR+cat%3Anlin.SI%29+AND+submittedDate%3A%5B202610081253+TO+202610151253%5D&start=0&max_results=200&sortBy=submittedDate&sortOrder=descending
+    sha256: 3bbca358fe78611e84e2e0b44c4db0a88f3693835fb554e9634d26e19c442614
+    start: 0
+    count: 200
+  - url: https://export.arxiv.org/api/query?search_query=%28cat%3Amath-ph+OR+cat%3Amath.AG+OR+cat%3Amath.QA+OR+cat%3Ahep-th+OR+cat%3Amath.DG+OR+cat%3Amath.SG+OR+cat%3Anlin.SI%29+AND+submittedDate%3A%5B202610081253+TO+202610151253%5D&start=200&max_results=200&sortBy=submittedDate&sortOrder=descending
+    sha256: 0c9064494acdf7d8e7ded4b15c1bbcb38f6eeaa51ce02ee9cbb74d977a5c6b69
+    start: 200
+    count: 200
+  - url: https://export.arxiv.org/api/query?search_query=%28cat%3Amath-ph+OR+cat%3Amath.AG+OR+cat%3Amath.QA+OR+cat%3Ahep-th+OR+cat%3Amath.DG+OR+cat%3Amath.SG+OR+cat%3Anlin.SI%29+AND+submittedDate%3A%5B202610081253+TO+202610151253%5D&start=400&max_results=200&sortBy=submittedDate&sortOrder=descending
+    sha256: 670539843571616119bf43875683641031e61c64fbf13e254eb207e6507a6a13
+    start: 400
+    count: 200
+  - url: https://export.arxiv.org/api/query?search_query=%28cat%3Amath-ph+OR+cat%3Amath.AG+OR+cat%3Amath.QA+OR+cat%3Ahep-th+OR+cat%3Amath.DG+OR+cat%3Amath.SG+OR+cat%3Anlin.SI%29+AND+submittedDate%3A%5B202610081253+TO+202610151253%5D&start=600&max_results=200&sortBy=submittedDate&sortOrder=descending
+    sha256: d6d08b82e8e07321a29802c0cdae47f8d12a89a3860050924fa02b1dd53352b2
+    start: 600
+    count: 51
+entries:
+- id: '2610.20558'
+  title: Minimal $\mathfrak{sl}_N$ Complexes of Rational Tangles via the Fukaya Category
+  authors_raw:
+  - Jonathan A. Higgins
+  date: '2026-10-14'
+  published: '2026-10-14T17:46:20Z'
+  updated: '2026-10-14T17:46:20Z'
+  category: math.GT
+  source_url: https://arxiv.org/abs/2610.20558
+  source_version: 2610.20558v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - fukaya-category
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-10-15T12:53:46.991132+00:00'
+  summary_zh: ''
+- id: '2610.20464'
+  title: Topological recursion for spin enumeration of hypermaps
+  authors_raw:
+  - Alexander Alexandrov
+  - Boris Bychkov
+  - Petr Dunin-Barkowski
+  - Maxim Kazarian
+  - Sergey Shadrin
+  date: '2026-10-14'
+  published: '2026-10-14T16:45:42Z'
+  updated: '2026-10-14T16:45:42Z'
+  category: math-ph
+  source_url: https://arxiv.org/abs/2610.20464
+  source_version: 2610.20464v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - topological-recursion
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-10-15T12:53:46.991132+00:00'
+  summary_zh: ''
+- id: '2610.20406'
+  title: CMC foliations on Euclidean spaces are minimal foliations
+  authors_raw:
+  - José Edson Sampaio
+  - Euripedes Carvalho da Silva
+  date: '2026-10-14'
+  published: '2026-10-14T16:07:37Z'
+  updated: '2026-10-14T16:07:37Z'
+  category: math.DG
+  source_url: https://arxiv.org/abs/2610.20406
+  source_version: 2610.20406v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - differential-geometry
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-10-15T12:53:46.991132+00:00'
+  summary_zh: ''
+- id: '2610.20212'
+  title: $χ$-Independence for BPS Invariants of Warped Local Curves
+  authors_raw:
+  - Ana Pavlaković
+  date: '2026-10-14'
+  published: '2026-10-14T13:54:07Z'
+  updated: '2026-10-14T13:54:07Z'
+  category: math.AG
+  source_url: https://arxiv.org/abs/2610.20212
+  source_version: 2610.20212v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - calabi-yau
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-10-15T12:53:46.991132+00:00'
+  summary_zh: ''
+- id: '2610.20177'
+  title: Quantization of positive Lagrangians
+  authors_raw:
+  - Jake P. Solomon
+  - Bentzion Yavetz
+  date: '2026-10-14'
+  published: '2026-10-14T13:21:45Z'
+  updated: '2026-10-14T13:21:45Z'
+  category: math.SG
+  source_url: https://arxiv.org/abs/2610.20177
+  source_version: 2610.20177v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - calabi-yau
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-10-15T12:53:46.991132+00:00'
+  summary_zh: ''
+- id: '2610.19634'
+  title: Catalan polynomials for the Wishart-Laguerre $β$-ensemble
+  authors_raw:
+  - Bei Kang
+  - Lu-Yao Wang
+  - Ke Wu
+  - Wei-Zhong Zhao
+  date: '2026-10-14'
+  published: '2026-10-14T06:04:03Z'
+  updated: '2026-10-14T06:04:03Z'
+  category: hep-th
+  source_url: https://arxiv.org/abs/2610.19634
+  source_version: 2610.19634v1
+  matched_people: []
+  candidate_people:
+  - wang-luyao
+  matched_concepts: []
+  relevance_score: 10
+  review_status: metadata-only
+  retrieved_at: '2026-10-15T12:53:46.991132+00:00'
+  summary_zh: ''
+- id: '2610.19437'
+  title: Birational maps of moduli spaces of stable sheaves on a K3 surface induced
+    by Fourier-Mukai transforms
+  authors_raw:
+  - Kota Yoshioka
+  date: '2026-10-14'
+  published: '2026-10-14T02:29:04Z'
+  updated: '2026-10-14T02:29:04Z'
+  category: math.AG
+  source_url: https://arxiv.org/abs/2610.19437
+  source_version: 2610.19437v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - moduli-spaces
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-10-15T12:53:46.991132+00:00'
+  summary_zh: ''
+- id: '2610.19192'
+  title: Symmetries, Lax pair, and nilpotent Darboux transformation for the KdV-ghost
+    system
+  authors_raw:
+  - A. Restuccia
+  - J. Rosales-Gómez
+  - A. Sotomayor
+  date: '2026-10-13'
+  published: '2026-10-13T20:57:00Z'
+  updated: '2026-10-13T20:57:00Z'
+  category: nlin.SI
+  source_url: https://arxiv.org/abs/2610.19192
+  source_version: 2610.19192v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - topological-field-theory
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-10-15T12:53:46.991132+00:00'
+  summary_zh: ''
+- id: '2610.19170'
+  title: Homological reduction of Courant algebroids
+  authors_raw:
+  - Henrique Bursztyn
+  - Pedro H. Carvalho
+  date: '2026-10-13'
+  published: '2026-10-13T20:34:37Z'
+  updated: '2026-10-13T20:34:37Z'
+  category: math.SG
+  source_url: https://arxiv.org/abs/2610.19170
+  source_version: 2610.19170v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - courant-algebroid
+  - symplectic-geometry
+  relevance_score: 6
+  review_status: metadata-only
+  retrieved_at: '2026-10-15T12:53:46.991132+00:00'
+  summary_zh: ''
+- id: '2610.19004'
+  title: 'Anomalies, higher symmetries, and homotopy theory I: crossed precosheaves
+    and a nonabelian Cech construction'
+  authors_raw:
+  - Anton Kapustin
+  - Shixiong Xu
+  date: '2026-10-13'
+  published: '2026-10-13T18:05:14Z'
+  updated: '2026-10-13T18:05:14Z'
+  category: math-ph
+  source_url: https://arxiv.org/abs/2610.19004
+  source_version: 2610.19004v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - homotopy-theory
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-10-15T12:53:46.991132+00:00'
+  summary_zh: ''
+- id: '2610.18993'
+  title: Monopoles on the edge
+  authors_raw:
+  - Stefan A. Kurlyand
+  date: '2026-10-13'
+  published: '2026-10-13T18:01:02Z'
+  updated: '2026-10-13T18:01:02Z'
+  category: hep-th
+  source_url: https://arxiv.org/abs/2610.18993
+  source_version: 2610.18993v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - calabi-yau
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-10-15T12:53:46.991132+00:00'
+  summary_zh: ''
+- id: '2610.18940'
+  title: Index for a mutation loop
+  authors_raw:
+  - Tsukasa Ishibashi
+  - Yuji Terashima
+  date: '2026-10-13'
+  published: '2026-10-13T13:44:54Z'
+  updated: '2026-10-13T13:44:54Z'
+  category: math.RT
+  source_url: https://arxiv.org/abs/2610.18940
+  source_version: 2610.18940v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - cluster-algebra
+  - tqft
+  relevance_score: 6
+  review_status: metadata-only
+  retrieved_at: '2026-10-15T12:53:46.991132+00:00'
+  summary_zh: ''
