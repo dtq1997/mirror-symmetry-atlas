@@ -1,0 +1,33 @@
+fetch_date: '2026-10-18'
+period_days: 7
+last_success_at: '2026-10-18T12:12:43.453431+00:00'
+total_fetched: 514
+relevant_count: 0
+fetch_evidence:
+  query: (cat:math-ph OR cat:math.AG OR cat:math.QA OR cat:hep-th OR cat:math.DG OR
+    cat:math.SG OR cat:nlin.SI) AND submittedDate:[202610111212 TO 202610181212]
+  categories:
+  - math-ph
+  - math.AG
+  - math.QA
+  - hep-th
+  - math.DG
+  - math.SG
+  - nlin.SI
+  window_start: '2026-10-11T12:12:43.453431+00:00'
+  window_end: '2026-10-18T12:12:43.453431+00:00'
+  total_fetched: 514
+  pages:
+  - url: https://export.arxiv.org/api/query?search_query=%28cat%3Amath-ph+OR+cat%3Amath.AG+OR+cat%3Amath.QA+OR+cat%3Ahep-th+OR+cat%3Amath.DG+OR+cat%3Amath.SG+OR+cat%3Anlin.SI%29+AND+submittedDate%3A%5B202610111212+TO+202610181212%5D&start=0&max_results=200&sortBy=submittedDate&sortOrder=descending
+    sha256: 1c5a6fca61a0dbf4f195b43ff4c64c5757a3a91063612f80ec09f434781da33c
+    start: 0
+    count: 200
+  - url: https://export.arxiv.org/api/query?search_query=%28cat%3Amath-ph+OR+cat%3Amath.AG+OR+cat%3Amath.QA+OR+cat%3Ahep-th+OR+cat%3Amath.DG+OR+cat%3Amath.SG+OR+cat%3Anlin.SI%29+AND+submittedDate%3A%5B202610111212+TO+202610181212%5D&start=200&max_results=200&sortBy=submittedDate&sortOrder=descending
+    sha256: ca7acdaf4ee5b2e8312c7d1d89b6e8b3981d2c7bb994a2c04ee742b6da5cb499
+    start: 200
+    count: 200
+  - url: https://export.arxiv.org/api/query?search_query=%28cat%3Amath-ph+OR+cat%3Amath.AG+OR+cat%3Amath.QA+OR+cat%3Ahep-th+OR+cat%3Amath.DG+OR+cat%3Amath.SG+OR+cat%3Anlin.SI%29+AND+submittedDate%3A%5B202610111212+TO+202610181212%5D&start=400&max_results=200&sortBy=submittedDate&sortOrder=descending
+    sha256: 1dab49188fc1cb1988f0abc642567f6ff6b7f36fccce13d75f767c4e2e894adc
+    start: 400
+    count: 114
+entries: []
