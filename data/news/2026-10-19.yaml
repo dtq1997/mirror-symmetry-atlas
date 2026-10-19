@@ -1,0 +1,249 @@
+fetch_date: '2026-10-19'
+period_days: 7
+last_success_at: '2026-10-19T15:01:57.236705+00:00'
+total_fetched: 531
+relevant_count: 11
+fetch_evidence:
+  query: (cat:math-ph OR cat:math.AG OR cat:math.QA OR cat:hep-th OR cat:math.DG OR
+    cat:math.SG OR cat:nlin.SI) AND submittedDate:[202610121501 TO 202610191501]
+  categories:
+  - math-ph
+  - math.AG
+  - math.QA
+  - hep-th
+  - math.DG
+  - math.SG
+  - nlin.SI
+  window_start: '2026-10-12T15:01:57.236705+00:00'
+  window_end: '2026-10-19T15:01:57.236705+00:00'
+  total_fetched: 531
+  pages:
+  - url: https://export.arxiv.org/api/query?search_query=%28cat%3Amath-ph+OR+cat%3Amath.AG+OR+cat%3Amath.QA+OR+cat%3Ahep-th+OR+cat%3Amath.DG+OR+cat%3Amath.SG+OR+cat%3Anlin.SI%29+AND+submittedDate%3A%5B202610121501+TO+202610191501%5D&start=0&max_results=200&sortBy=submittedDate&sortOrder=descending
+    sha256: 1269624b610c44be200a326b980a4d26739c5ae3ca3e2930a73eba2e5962562a
+    start: 0
+    count: 200
+  - url: https://export.arxiv.org/api/query?search_query=%28cat%3Amath-ph+OR+cat%3Amath.AG+OR+cat%3Amath.QA+OR+cat%3Ahep-th+OR+cat%3Amath.DG+OR+cat%3Amath.SG+OR+cat%3Anlin.SI%29+AND+submittedDate%3A%5B202610121501+TO+202610191501%5D&start=200&max_results=200&sortBy=submittedDate&sortOrder=descending
+    sha256: e1917a5c4f09349679aff42e81061bbc6b514337a1f772799acbb6f945e1c64e
+    start: 200
+    count: 200
+  - url: https://export.arxiv.org/api/query?search_query=%28cat%3Amath-ph+OR+cat%3Amath.AG+OR+cat%3Amath.QA+OR+cat%3Ahep-th+OR+cat%3Amath.DG+OR+cat%3Amath.SG+OR+cat%3Anlin.SI%29+AND+submittedDate%3A%5B202610121501+TO+202610191501%5D&start=400&max_results=200&sortBy=submittedDate&sortOrder=descending
+    sha256: 1c392a206f1f19463ffc89c2ce85a9aa79fbfbf494b6194300f7bd4854419182
+    start: 400
+    count: 131
+entries:
+- id: '2610.23836'
+  title: Uniform restriction lower bounds and nongeodesic common nodal curves in integrable
+    systems
+  authors_raw:
+  - Xianchao Wu
+  - Xiao Xiao
+  date: '2026-10-16'
+  published: '2026-10-16T17:53:48Z'
+  updated: '2026-10-16T17:53:48Z'
+  category: math.AP
+  source_url: https://arxiv.org/abs/2610.23836
+  source_version: 2610.23836v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - integrable-systems
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-10-19T15:01:57.236705+00:00'
+  summary_zh: ''
+- id: '2610.23816'
+  title: Twisted $\mathbb{A}^1$-degrees of Wronski maps
+  authors_raw:
+  - Thomas Brazelton
+  - Jake Levinson
+  date: '2026-10-16'
+  published: '2026-10-16T17:39:08Z'
+  updated: '2026-10-16T17:39:08Z'
+  category: math.AG
+  source_url: https://arxiv.org/abs/2610.23816
+  source_version: 2610.23816v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - algebraic-geometry
+  - enumerative-geometry
+  relevance_score: 6
+  review_status: metadata-only
+  retrieved_at: '2026-10-19T15:01:57.236705+00:00'
+  summary_zh: ''
+- id: '2610.23803'
+  title: Deligne--Faltings Logarithmic Derived Geometry with a View towards Logarithmic
+    GLSM
+  authors_raw:
+  - Felix Janda
+  - Ruoxi Li
+  date: '2026-10-16'
+  published: '2026-10-16T17:28:17Z'
+  updated: '2026-10-16T17:28:17Z'
+  category: math.AG
+  source_url: https://arxiv.org/abs/2610.23803
+  source_version: 2610.23803v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - enumerative-geometry
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-10-19T15:01:57.236705+00:00'
+  summary_zh: ''
+- id: '2610.23778'
+  title: Dg models for derived differential operators
+  authors_raw:
+  - Jack Jeffries
+  - Devlin Mallory
+  - Claudia Miller
+  - Josh Pollitz
+  - Eamon Quinlan-Gallego
+  date: '2026-10-16'
+  published: '2026-10-16T17:12:36Z'
+  updated: '2026-10-16T17:12:36Z'
+  category: math.AC
+  source_url: https://arxiv.org/abs/2610.23778
+  source_version: 2610.23778v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - derived-category
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-10-19T15:01:57.236705+00:00'
+  summary_zh: ''
+- id: '2610.23712'
+  title: Involutions on $(\infty,n)$-categories of bordisms and reflection TQFTs
+  authors_raw:
+  - Pedro Brunialti
+  date: '2026-10-16'
+  published: '2026-10-16T16:33:54Z'
+  updated: '2026-10-16T16:33:54Z'
+  category: math.AT
+  source_url: https://arxiv.org/abs/2610.23712
+  source_version: 2610.23712v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - tqft
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-10-19T15:01:57.236705+00:00'
+  summary_zh: ''
+- id: '2610.23644'
+  title: A Topological Quantum Field Theory for Representation Varieties of Torus
+    Links
+  authors_raw:
+  - Enrique Aycart-Maldonado
+  - Alejandro Calleja
+  date: '2026-10-16'
+  published: '2026-10-16T15:44:18Z'
+  updated: '2026-10-16T15:44:18Z'
+  category: math.GT
+  source_url: https://arxiv.org/abs/2610.23644
+  source_version: 2610.23644v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - tqft
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-10-19T15:01:57.236705+00:00'
+  summary_zh: ''
+- id: '2610.23320'
+  title: Folding to the Bessel-Clifford system, and Equivariant Topological Recursion
+  authors_raw:
+  - Mohamad Alameddine
+  - Alexander Hock
+  date: '2026-10-16'
+  published: '2026-10-16T11:25:58Z'
+  updated: '2026-10-16T11:25:58Z'
+  category: math-ph
+  source_url: https://arxiv.org/abs/2610.23320
+  source_version: 2610.23320v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - integrable-systems
+  - topological-recursion
+  relevance_score: 6
+  review_status: metadata-only
+  retrieved_at: '2026-10-19T15:01:57.236705+00:00'
+  summary_zh: ''
+- id: '2610.23236'
+  title: On the complexification of $ q $-deformations of compact semisimple Lie groups
+  authors_raw:
+  - Heon Lee
+  - Christian Voigt
+  date: '2026-10-16'
+  published: '2026-10-16T10:04:15Z'
+  updated: '2026-10-16T10:04:15Z'
+  category: math.QA
+  source_url: https://arxiv.org/abs/2610.23236
+  source_version: 2610.23236v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - quantum-groups
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-10-19T15:01:57.236705+00:00'
+  summary_zh: ''
+- id: '2610.23171'
+  title: Point Modules of Non-Connected Graded Algebras
+  authors_raw:
+  - Thomas Lamkin
+  date: '2026-10-16'
+  published: '2026-10-16T09:09:28Z'
+  updated: '2026-10-16T09:09:28Z'
+  category: math.RA
+  source_url: https://arxiv.org/abs/2610.23171
+  source_version: 2610.23171v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - calabi-yau
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-10-19T15:01:57.236705+00:00'
+  summary_zh: ''
+- id: '2610.23008'
+  title: Classification of real Lie algebras of dimension four
+  authors_raw:
+  - Mehdi Nadjafikhah
+  date: '2026-10-16'
+  published: '2026-10-16T06:37:42Z'
+  updated: '2026-10-16T06:37:42Z'
+  category: math.DG
+  source_url: https://arxiv.org/abs/2610.23008
+  source_version: 2610.23008v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - mathematical-physics
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-10-19T15:01:57.236705+00:00'
+  summary_zh: ''
+- id: '2610.22753'
+  title: Realization of several related $(2+1)$-dimensional integrable systems via
+    an anti-self-dual Yang--Mills reduction
+  authors_raw:
+  - Shangshuai Li
+  - Ken-ichi Maruno
+  - Da-jun Zhang
+  date: '2026-10-15'
+  published: '2026-10-15T23:42:24Z'
+  updated: '2026-10-15T23:42:24Z'
+  category: nlin.SI
+  source_url: https://arxiv.org/abs/2610.22753
+  source_version: 2610.22753v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - integrable-systems
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-10-19T15:01:57.236705+00:00'
+  summary_zh: ''
