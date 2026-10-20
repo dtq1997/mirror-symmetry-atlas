@@ -1,0 +1,505 @@
+fetch_date: '2026-10-20'
+period_days: 7
+last_success_at: '2026-10-20T13:04:18.553175+00:00'
+total_fetched: 669
+relevant_count: 24
+fetch_evidence:
+  query: (cat:math-ph OR cat:math.AG OR cat:math.QA OR cat:hep-th OR cat:math.DG OR
+    cat:math.SG OR cat:nlin.SI) AND submittedDate:[202610131304 TO 202610201304]
+  categories:
+  - math-ph
+  - math.AG
+  - math.QA
+  - hep-th
+  - math.DG
+  - math.SG
+  - nlin.SI
+  window_start: '2026-10-13T13:04:18.553175+00:00'
+  window_end: '2026-10-20T13:04:18.553175+00:00'
+  total_fetched: 669
+  pages:
+  - url: https://export.arxiv.org/api/query?search_query=%28cat%3Amath-ph+OR+cat%3Amath.AG+OR+cat%3Amath.QA+OR+cat%3Ahep-th+OR+cat%3Amath.DG+OR+cat%3Amath.SG+OR+cat%3Anlin.SI%29+AND+submittedDate%3A%5B202610131304+TO+202610201304%5D&start=0&max_results=200&sortBy=submittedDate&sortOrder=descending
+    sha256: ca09d8b3d8bf4238a382afea2e19b6f818fadeac898d5b4b0ef575b07074f52e
+    start: 0
+    count: 200
+  - url: https://export.arxiv.org/api/query?search_query=%28cat%3Amath-ph+OR+cat%3Amath.AG+OR+cat%3Amath.QA+OR+cat%3Ahep-th+OR+cat%3Amath.DG+OR+cat%3Amath.SG+OR+cat%3Anlin.SI%29+AND+submittedDate%3A%5B202610131304+TO+202610201304%5D&start=200&max_results=200&sortBy=submittedDate&sortOrder=descending
+    sha256: d682364633a938bd2fdeb51310b425c821d8a1eb3f53b3d9b43120b9be17ded5
+    start: 200
+    count: 200
+  - url: https://export.arxiv.org/api/query?search_query=%28cat%3Amath-ph+OR+cat%3Amath.AG+OR+cat%3Amath.QA+OR+cat%3Ahep-th+OR+cat%3Amath.DG+OR+cat%3Amath.SG+OR+cat%3Anlin.SI%29+AND+submittedDate%3A%5B202610131304+TO+202610201304%5D&start=400&max_results=200&sortBy=submittedDate&sortOrder=descending
+    sha256: b10d5e2ebe6a1f93c0a5033c2dad7495f89e22f160aae3a5b648b7cce0b672f2
+    start: 400
+    count: 200
+  - url: https://export.arxiv.org/api/query?search_query=%28cat%3Amath-ph+OR+cat%3Amath.AG+OR+cat%3Amath.QA+OR+cat%3Ahep-th+OR+cat%3Amath.DG+OR+cat%3Amath.SG+OR+cat%3Anlin.SI%29+AND+submittedDate%3A%5B202610131304+TO+202610201304%5D&start=600&max_results=200&sortBy=submittedDate&sortOrder=descending
+    sha256: ae75d08c2eee859e31abf0f343a59d47b668df3d3f02603d5b18dae07597f1d8
+    start: 600
+    count: 69
+entries:
+- id: '2610.26774'
+  title: Weights of KZ motives and quantum groups
+  authors_raw:
+  - Prakash Belkale
+  - Najmuddin Fakhruddin
+  date: '2026-10-19'
+  published: '2026-10-19T17:29:27Z'
+  updated: '2026-10-19T17:29:27Z'
+  category: math.AG
+  source_url: https://arxiv.org/abs/2610.26774
+  source_version: 2610.26774v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - quantum-groups
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-10-20T13:04:18.553175+00:00'
+  summary_zh: ''
+- id: '2610.26768'
+  title: Meromorphic modular differential equations for the elliptic genus of Calabi--Yau
+    varieties
+  authors_raw:
+  - Dmitrii Adler
+  - Valery Gritsenko
+  date: '2026-10-19'
+  published: '2026-10-19T17:27:30Z'
+  updated: '2026-10-19T17:27:30Z'
+  category: math.AG
+  source_url: https://arxiv.org/abs/2610.26768
+  source_version: 2610.26768v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - calabi-yau
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-10-20T13:04:18.553175+00:00'
+  summary_zh: ''
+- id: '2610.26649'
+  title: A study of the $m$th relative Feng-Rao distances with a special emphasis
+    on $C_{ab}$ curves
+  authors_raw:
+  - Eduardo Camps-Moreno
+  - Olav Geil
+  - Hiram H. López
+  - Gretchen L. Matthews
+  - Rodrigo San-José
+  date: '2026-10-19'
+  published: '2026-10-19T16:08:09Z'
+  updated: '2026-10-19T16:08:09Z'
+  category: cs.IT
+  source_url: https://arxiv.org/abs/2610.26649
+  source_version: 2610.26649v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - algebraic-geometry
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-10-20T13:04:18.553175+00:00'
+  summary_zh: ''
+- id: '2610.26580'
+  title: Mellin transformed exponential volumes and probabilistic moduli spaces
+  authors_raw:
+  - Alexander B. Goncharov
+  - Zhe Sun
+  date: '2026-10-19'
+  published: '2026-10-19T15:31:39Z'
+  updated: '2026-10-19T15:31:39Z'
+  category: math.AG
+  source_url: https://arxiv.org/abs/2610.26580
+  source_version: 2610.26580v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - moduli-spaces
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-10-20T13:04:18.553175+00:00'
+  summary_zh: ''
+- id: '2610.26348'
+  title: Generating integrable systems from an autonomous ordinary differential equation
+  authors_raw:
+  - Graham Hesketh
+  date: '2026-10-19'
+  published: '2026-10-19T13:14:17Z'
+  updated: '2026-10-19T13:14:17Z'
+  category: nlin.SI
+  source_url: https://arxiv.org/abs/2610.26348
+  source_version: 2610.26348v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - integrable-systems
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-10-20T13:04:18.553175+00:00'
+  summary_zh: ''
+- id: '2610.26302'
+  title: Additive invariants of Finite-dimensional DG-algebras
+  authors_raw:
+  - Isambard Goodbody
+  date: '2026-10-19'
+  published: '2026-10-19T12:51:04Z'
+  updated: '2026-10-19T12:51:04Z'
+  category: math.KT
+  source_url: https://arxiv.org/abs/2610.26302
+  source_version: 2610.26302v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - k-theory
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-10-20T13:04:18.553175+00:00'
+  summary_zh: ''
+- id: '2610.26235'
+  title: The resource cost of cooperative invasion
+  authors_raw:
+  - Abhishek Chowdhury
+  date: '2026-10-19'
+  published: '2026-10-19T12:00:54Z'
+  updated: '2026-10-19T12:00:54Z'
+  category: q-bio.PE
+  source_url: https://arxiv.org/abs/2610.26235
+  source_version: 2610.26235v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - mirror-symmetry
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-10-20T13:04:18.553175+00:00'
+  summary_zh: ''
+- id: '2610.26191'
+  title: Pellarin Values from Cauchy Coordinates on Arbitrary Curves
+  authors_raw:
+  - Chuangqiang Hu
+  - Stephen S. -T. Yau
+  - Lishan Yu
+  date: '2026-10-19'
+  published: '2026-10-19T11:19:55Z'
+  updated: '2026-10-19T11:19:55Z'
+  category: math.NT
+  source_url: https://arxiv.org/abs/2610.26191
+  source_version: 2610.26191v1
+  matched_people: []
+  candidate_people:
+  - hu-chuangqiang
+  matched_concepts: []
+  relevance_score: 10
+  review_status: metadata-only
+  retrieved_at: '2026-10-20T13:04:18.553175+00:00'
+  summary_zh: ''
+- id: '2610.26186'
+  title: On the hyperplane conjecture
+  authors_raw:
+  - Tsung-Ju Lee
+  date: '2026-10-19'
+  published: '2026-10-19T11:17:09Z'
+  updated: '2026-10-19T11:17:09Z'
+  category: math.AG
+  source_url: https://arxiv.org/abs/2610.26186
+  source_version: 2610.26186v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - calabi-yau
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-10-20T13:04:18.553175+00:00'
+  summary_zh: ''
+- id: '2610.26037'
+  title: MONODROMY AND BIG QUANTUM COHOMOLOGY OF HYPERPLANE SECTIONS OF (CO)ADJOINT
+    VARIETIES
+  authors_raw:
+  - Vladimiro Benedetti
+  - Simone Billi
+  - Nicolas Perrin
+  date: '2026-10-19'
+  published: '2026-10-19T08:58:28Z'
+  updated: '2026-10-19T08:58:28Z'
+  category: math.AG
+  source_url: https://arxiv.org/abs/2610.26037
+  source_version: 2610.26037v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - quantum-cohomology
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-10-20T13:04:18.553175+00:00'
+  summary_zh: ''
+- id: '2610.25878'
+  title: Non-planar contact structures with Calabi-Yau Fillings and topological quantum
+    computation
+  authors_raw:
+  - Atsuhide Mori
+  date: '2026-10-19'
+  published: '2026-10-19T06:37:39Z'
+  updated: '2026-10-19T06:37:39Z'
+  category: math.GT
+  source_url: https://arxiv.org/abs/2610.25878
+  source_version: 2610.25878v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - calabi-yau
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-10-20T13:04:18.553175+00:00'
+  summary_zh: ''
+- id: '2610.25825'
+  title: Cohomological Milnor Fibrations of Landau--Ginzburg Models
+  authors_raw:
+  - Huijun Fan
+  - Jieran Wang
+  date: '2026-10-19'
+  published: '2026-10-19T05:43:02Z'
+  updated: '2026-10-19T05:43:02Z'
+  category: math.AG
+  source_url: https://arxiv.org/abs/2610.25825
+  source_version: 2610.25825v1
+  matched_people: []
+  candidate_people:
+  - fan-huijun
+  matched_concepts:
+  - landau-ginzburg
+  relevance_score: 13
+  review_status: metadata-only
+  retrieved_at: '2026-10-20T13:04:18.553175+00:00'
+  summary_zh: ''
+- id: '2610.25778'
+  title: Free abelian group actions on projective fibered varieties
+  authors_raw:
+  - Sichen Li
+  date: '2026-10-19'
+  published: '2026-10-19T04:45:49Z'
+  updated: '2026-10-19T04:45:49Z'
+  category: math.AG
+  source_url: https://arxiv.org/abs/2610.25778
+  source_version: 2610.25778v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - calabi-yau
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-10-20T13:04:18.553175+00:00'
+  summary_zh: ''
+- id: '2610.25772'
+  title: A Fourier expansion principle for coherent cohomology of powers of Tate curves
+  authors_raw:
+  - Kenz Kallal
+  date: '2026-10-19'
+  published: '2026-10-19T04:37:41Z'
+  updated: '2026-10-19T04:37:41Z'
+  category: math.NT
+  source_url: https://arxiv.org/abs/2610.25772
+  source_version: 2610.25772v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - moduli-spaces
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-10-20T13:04:18.553175+00:00'
+  summary_zh: ''
+- id: '2610.25745'
+  title: Combinatorial Calabi flows on infinitely triangulated surfaces
+  authors_raw:
+  - Yuerong Bian
+  - Xu Xu
+  date: '2026-10-19'
+  published: '2026-10-19T03:55:40Z'
+  updated: '2026-10-19T03:55:40Z'
+  category: math.DG
+  source_url: https://arxiv.org/abs/2610.25745
+  source_version: 2610.25745v1
+  matched_people: []
+  candidate_people:
+  - xu-xu
+  matched_concepts: []
+  relevance_score: 10
+  review_status: metadata-only
+  retrieved_at: '2026-10-20T13:04:18.553175+00:00'
+  summary_zh: ''
+- id: '2610.25602'
+  title: On solutions to tropical Monge-Ampère equations
+  authors_raw:
+  - Omid Amini
+  - Matthieu Piquerez
+  - Lyuhui Wu
+  date: '2026-10-19'
+  published: '2026-10-19T00:08:24Z'
+  updated: '2026-10-19T00:08:24Z'
+  category: math.AG
+  source_url: https://arxiv.org/abs/2610.25602
+  source_version: 2610.25602v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - calabi-yau
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-10-20T13:04:18.553175+00:00'
+  summary_zh: ''
+- id: '2610.25500'
+  title: Torelli theorem for the moduli spaces of twisted vector bundles on smooth
+    projective curves
+  authors_raw:
+  - Soham Ghosh
+  - Ting Gong
+  - Max Lieblich
+  date: '2026-10-18'
+  published: '2026-10-18T19:39:28Z'
+  updated: '2026-10-18T19:39:28Z'
+  category: math.AG
+  source_url: https://arxiv.org/abs/2610.25500
+  source_version: 2610.25500v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - moduli-spaces
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-10-20T13:04:18.553175+00:00'
+  summary_zh: ''
+- id: '2610.25232'
+  title: Classification of Isometric Immersions of Spherical and HCMU Footballs into
+    $\E^{3}$
+  authors_raw:
+  - Zhiqiang Wei
+  date: '2026-10-18'
+  published: '2026-10-18T12:53:19Z'
+  updated: '2026-10-18T12:53:19Z'
+  category: math.DG
+  source_url: https://arxiv.org/abs/2610.25232
+  source_version: 2610.25232v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - singularity-theory
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-10-20T13:04:18.553175+00:00'
+  summary_zh: ''
+- id: '2610.25065'
+  title: The genus of a curve on Calabi-Yau threefolds
+  authors_raw:
+  - Vincenzo Di Gennaro
+  - Antonio Rapagnetta
+  - Pietro Sabatino
+  date: '2026-10-18'
+  published: '2026-10-18T07:12:22Z'
+  updated: '2026-10-18T07:12:22Z'
+  category: math.AG
+  source_url: https://arxiv.org/abs/2610.25065
+  source_version: 2610.25065v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - calabi-yau
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-10-20T13:04:18.553175+00:00'
+  summary_zh: ''
+- id: '2610.24985'
+  title: Spectral Curves for Semisimple Conformal Frobenius Manifolds
+  authors_raw:
+  - Dingkang Xiong
+  - Jian Zhou
+  date: '2026-10-18'
+  published: '2026-10-18T03:35:25Z'
+  updated: '2026-10-18T03:35:25Z'
+  category: math-ph
+  source_url: https://arxiv.org/abs/2610.24985
+  source_version: 2610.24985v1
+  matched_people: []
+  candidate_people:
+  - zhou-jian
+  matched_concepts:
+  - frobenius-manifolds
+  - quantum-cohomology
+  - topological-recursion
+  relevance_score: 19
+  review_status: metadata-only
+  retrieved_at: '2026-10-20T13:04:18.553175+00:00'
+  summary_zh: ''
+- id: '2610.24980'
+  title: Eynard-Orantin Topological Recursion, Moduli-Space Virasoro Constraints,
+    and Semisimple CohFTs
+  authors_raw:
+  - Dingkang Xiong
+  - Jian Zhou
+  date: '2026-10-18'
+  published: '2026-10-18T03:24:16Z'
+  updated: '2026-10-18T03:24:16Z'
+  category: math-ph
+  source_url: https://arxiv.org/abs/2610.24980
+  source_version: 2610.24980v1
+  matched_people: []
+  candidate_people:
+  - zhou-jian
+  matched_concepts:
+  - topological-recursion
+  - virasoro-constraints
+  relevance_score: 16
+  review_status: metadata-only
+  retrieved_at: '2026-10-20T13:04:18.553175+00:00'
+  summary_zh: ''
+- id: '2610.24496'
+  title: 'Gravity as Large Scale Structure: Families of CFTs and the Higher-Spin Gap'
+  authors_raw:
+  - Eric Perlmutter
+  date: '2026-10-17'
+  published: '2026-10-17T06:37:27Z'
+  updated: '2026-10-17T06:37:27Z'
+  category: hep-th
+  source_url: https://arxiv.org/abs/2610.24496
+  source_version: 2610.24496v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - number-theory
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-10-20T13:04:18.553175+00:00'
+  summary_zh: ''
+- id: '2610.24406'
+  title: Coactions of weak multiplier Hopf algebras
+  authors_raw:
+  - Nan Zhou
+  date: '2026-10-17'
+  published: '2026-10-17T03:16:48Z'
+  updated: '2026-10-17T03:16:48Z'
+  category: math.QA
+  source_url: https://arxiv.org/abs/2610.24406
+  source_version: 2610.24406v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - quantum-groups
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-10-20T13:04:18.553175+00:00'
+  summary_zh: ''
+- id: '2610.24062'
+  title: Light EFT Strings and Asymptotic Accelerated Expansion
+  authors_raw:
+  - Veronica Collazuol
+  - Alessandra Grieco
+  - Irene Valenzuela
+  date: '2026-10-16'
+  published: '2026-10-16T18:00:00Z'
+  updated: '2026-10-16T18:00:00Z'
+  category: hep-th
+  source_url: https://arxiv.org/abs/2610.24062
+  source_version: 2610.24062v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - calabi-yau
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-10-20T13:04:18.553175+00:00'
+  summary_zh: ''
