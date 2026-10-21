@@ -1,0 +1,296 @@
+fetch_date: '2026-10-21'
+period_days: 7
+last_success_at: '2026-10-21T13:16:04.317209+00:00'
+total_fetched: 678
+relevant_count: 13
+fetch_evidence:
+  query: (cat:math-ph OR cat:math.AG OR cat:math.QA OR cat:hep-th OR cat:math.DG OR
+    cat:math.SG OR cat:nlin.SI) AND submittedDate:[202610141316 TO 202610211316]
+  categories:
+  - math-ph
+  - math.AG
+  - math.QA
+  - hep-th
+  - math.DG
+  - math.SG
+  - nlin.SI
+  window_start: '2026-10-14T13:16:04.317209+00:00'
+  window_end: '2026-10-21T13:16:04.317209+00:00'
+  total_fetched: 678
+  pages:
+  - url: https://export.arxiv.org/api/query?search_query=%28cat%3Amath-ph+OR+cat%3Amath.AG+OR+cat%3Amath.QA+OR+cat%3Ahep-th+OR+cat%3Amath.DG+OR+cat%3Amath.SG+OR+cat%3Anlin.SI%29+AND+submittedDate%3A%5B202610141316+TO+202610211316%5D&start=0&max_results=200&sortBy=submittedDate&sortOrder=descending
+    sha256: f681dcda08a00a2301ab57d104677a43222a65b8c2cd62556612cfaac6c253b2
+    start: 0
+    count: 200
+  - url: https://export.arxiv.org/api/query?search_query=%28cat%3Amath-ph+OR+cat%3Amath.AG+OR+cat%3Amath.QA+OR+cat%3Ahep-th+OR+cat%3Amath.DG+OR+cat%3Amath.SG+OR+cat%3Anlin.SI%29+AND+submittedDate%3A%5B202610141316+TO+202610211316%5D&start=200&max_results=200&sortBy=submittedDate&sortOrder=descending
+    sha256: 8659e5857a10b1c9d42ddbb00256476465e8d48405d0db5490405ea67bef5005
+    start: 200
+    count: 200
+  - url: https://export.arxiv.org/api/query?search_query=%28cat%3Amath-ph+OR+cat%3Amath.AG+OR+cat%3Amath.QA+OR+cat%3Ahep-th+OR+cat%3Amath.DG+OR+cat%3Amath.SG+OR+cat%3Anlin.SI%29+AND+submittedDate%3A%5B202610141316+TO+202610211316%5D&start=400&max_results=200&sortBy=submittedDate&sortOrder=descending
+    sha256: d5c76ec49b72a31ed1169c4d42e82dae2268dc5581ef3ac3185904be9695761c
+    start: 400
+    count: 200
+  - url: https://export.arxiv.org/api/query?search_query=%28cat%3Amath-ph+OR+cat%3Amath.AG+OR+cat%3Amath.QA+OR+cat%3Ahep-th+OR+cat%3Amath.DG+OR+cat%3Amath.SG+OR+cat%3Anlin.SI%29+AND+submittedDate%3A%5B202610141316+TO+202610211316%5D&start=600&max_results=200&sortBy=submittedDate&sortOrder=descending
+    sha256: a113ff37d138ab7ffc3602c8b1cb11d5ae23330fb2b3712c6b3abe00b1dac4cc
+    start: 600
+    count: 78
+entries:
+- id: '2610.28520'
+  title: The $λ>0$ case for $Δu=λ-c e^u$ type equation on high dimensional spheres
+  authors_raw:
+  - Yuxuan Li
+  - Qiang Niu
+  - Wubin Zhou
+  date: '2026-10-20'
+  published: '2026-10-20T16:56:59Z'
+  updated: '2026-10-20T16:56:59Z'
+  category: math.DG
+  source_url: https://arxiv.org/abs/2610.28520
+  source_version: 2610.28520v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - complex-geometry
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-10-21T13:16:04.317209+00:00'
+  summary_zh: ''
+- id: '2610.28418'
+  title: Convergence and semisimplicity of big quantum cohomology of flag varieties
+  authors_raw:
+  - Changzheng Li
+  - Zhaoyang Liu
+  - Tony Yue Yu
+  - Chi Zhang
+  date: '2026-10-20'
+  published: '2026-10-20T15:53:02Z'
+  updated: '2026-10-20T15:53:02Z'
+  category: math.AG
+  source_url: https://arxiv.org/abs/2610.28418
+  source_version: 2610.28418v1
+  matched_people: []
+  candidate_people:
+  - li-changzheng
+  matched_concepts:
+  - mirror-symmetry
+  - quantum-cohomology
+  relevance_score: 16
+  review_status: metadata-only
+  retrieved_at: '2026-10-21T13:16:04.317209+00:00'
+  summary_zh: ''
+- id: '2610.28253'
+  title: Proliferation Transitions for Quantum Doubles of Groups
+  authors_raw:
+  - Yuhan Gai
+  - Sakura Schafer-Nameki
+  date: '2026-10-20'
+  published: '2026-10-20T14:12:07Z'
+  updated: '2026-10-20T14:12:07Z'
+  category: cond-mat.str-el
+  source_url: https://arxiv.org/abs/2610.28253
+  source_version: 2610.28253v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - landau-ginzburg
+  - topological-field-theory
+  relevance_score: 6
+  review_status: metadata-only
+  retrieved_at: '2026-10-21T13:16:04.317209+00:00'
+  summary_zh: ''
+- id: '2610.28233'
+  title: A twisted Marchenko lemma and applications
+  authors_raw:
+  - Jun-Yang Zhang
+  - Shi-Hao Li
+  - Shou-Feng Shen
+  date: '2026-10-20'
+  published: '2026-10-20T13:59:23Z'
+  updated: '2026-10-20T13:59:23Z'
+  category: nlin.SI
+  source_url: https://arxiv.org/abs/2610.28233
+  source_version: 2610.28233v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - integrable-systems
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-10-21T13:16:04.317209+00:00'
+  summary_zh: ''
+- id: '2610.28227'
+  title: Painlevé II connection problem revisited
+  authors_raw:
+  - Nikolai Iorgov
+  - Oleg Lisovyy
+  - Noam Tamarin
+  - Yurii Zhuravlov
+  date: '2026-10-20'
+  published: '2026-10-20T13:57:30Z'
+  updated: '2026-10-20T13:57:30Z'
+  category: nlin.SI
+  source_url: https://arxiv.org/abs/2610.28227
+  source_version: 2610.28227v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - tau-function
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-10-21T13:16:04.317209+00:00'
+  summary_zh: ''
+- id: '2610.28165'
+  title: Surface defects on lens space and transfer matrices
+  authors_raw:
+  - Kazunobu Maruyoshi
+  - Toshihiro Ota
+  - Masahito Yamazaki
+  date: '2026-10-20'
+  published: '2026-10-20T13:08:14Z'
+  updated: '2026-10-20T13:08:14Z'
+  category: hep-th
+  source_url: https://arxiv.org/abs/2610.28165
+  source_version: 2610.28165v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - tqft
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-10-21T13:16:04.317209+00:00'
+  summary_zh: ''
+- id: '2610.28114'
+  title: Divisors on regular Hessenberg varieties for h=(2,3,4,...,n,n) associated
+    to lower subsets
+  authors_raw:
+  - Hiraku Abe
+  - Haozhi Zeng
+  date: '2026-10-20'
+  published: '2026-10-20T12:25:11Z'
+  updated: '2026-10-20T12:25:11Z'
+  category: math.AG
+  source_url: https://arxiv.org/abs/2610.28114
+  source_version: 2610.28114v1
+  matched_people: []
+  candidate_people:
+  - zeng-haozhi
+  matched_concepts: []
+  relevance_score: 10
+  review_status: metadata-only
+  retrieved_at: '2026-10-21T13:16:04.317209+00:00'
+  summary_zh: ''
+- id: '2610.28113'
+  title: Real Nullstellensatz for nilpotent Lie algebras
+  authors_raw:
+  - Philipp Schmitt
+  - Matthias Schötz
+  date: '2026-10-20'
+  published: '2026-10-20T12:23:34Z'
+  updated: '2026-10-20T12:23:34Z'
+  category: math.AG
+  source_url: https://arxiv.org/abs/2610.28113
+  source_version: 2610.28113v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - algebraic-geometry
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-10-21T13:16:04.317209+00:00'
+  summary_zh: ''
+- id: '2610.27723'
+  title: Lattice Moduli and Residual Atoms
+  authors_raw:
+  - Mauricio Corrêa
+  date: '2026-10-20'
+  published: '2026-10-20T06:40:51Z'
+  updated: '2026-10-20T06:40:51Z'
+  category: math.AG
+  source_url: https://arxiv.org/abs/2610.27723
+  source_version: 2610.27723v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - calabi-yau
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-10-21T13:16:04.317209+00:00'
+  summary_zh: ''
+- id: '2610.27676'
+  title: 'Nef complexity of klt Fano varieties: the full spectrum and classification
+    below two'
+  authors_raw:
+  - Kiwamu Watanabe
+  date: '2026-10-20'
+  published: '2026-10-20T05:46:35Z'
+  updated: '2026-10-20T05:46:35Z'
+  category: math.AG
+  source_url: https://arxiv.org/abs/2610.27676
+  source_version: 2610.27676v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - calabi-yau
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-10-21T13:16:04.317209+00:00'
+  summary_zh: ''
+- id: '2610.27517'
+  title: Hodge Theory of Novikov Type Landau--Ginzburg Models
+  authors_raw:
+  - Huijun Fan
+  - Jieran Wang
+  date: '2026-10-20'
+  published: '2026-10-20T02:31:42Z'
+  updated: '2026-10-20T02:31:42Z'
+  category: math.AG
+  source_url: https://arxiv.org/abs/2610.27517
+  source_version: 2610.27517v1
+  matched_people: []
+  candidate_people:
+  - fan-huijun
+  matched_concepts:
+  - hodge-theory
+  - landau-ginzburg
+  relevance_score: 16
+  review_status: metadata-only
+  retrieved_at: '2026-10-21T13:16:04.317209+00:00'
+  summary_zh: ''
+- id: '2610.27263'
+  title: Soft elasticity of soft shells
+  authors_raw:
+  - Andre M. Sonnet
+  - Epifanio G. Virga
+  date: '2026-10-19'
+  published: '2026-10-19T20:36:18Z'
+  updated: '2026-10-19T20:36:18Z'
+  category: cond-mat.soft
+  source_url: https://arxiv.org/abs/2610.27263
+  source_version: 2610.27263v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - differential-geometry
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-10-21T13:16:04.317209+00:00'
+  summary_zh: ''
+- id: '2610.27077'
+  title: Flux Vacua, Asymptotic Periods, and Relatively Anosov Representations
+  authors_raw:
+  - Paul Balavoine
+  - Severin Lüst
+  date: '2026-10-19'
+  published: '2026-10-19T18:00:03Z'
+  updated: '2026-10-19T18:00:03Z'
+  category: hep-th
+  source_url: https://arxiv.org/abs/2610.27077
+  source_version: 2610.27077v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - calabi-yau
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-10-21T13:16:04.317209+00:00'
+  summary_zh: ''
