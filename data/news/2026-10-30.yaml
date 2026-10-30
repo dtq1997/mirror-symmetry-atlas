@@ -1,0 +1,715 @@
+fetch_date: '2026-10-30'
+period_days: 7
+last_success_at: '2026-10-30T14:37:23.782027+00:00'
+total_fetched: 703
+relevant_count: 35
+fetch_evidence:
+  query: (cat:math-ph OR cat:math.AG OR cat:math.QA OR cat:hep-th OR cat:math.DG OR
+    cat:math.SG OR cat:nlin.SI) AND submittedDate:[202610231437 TO 202610301437]
+  categories:
+  - math-ph
+  - math.AG
+  - math.QA
+  - hep-th
+  - math.DG
+  - math.SG
+  - nlin.SI
+  window_start: '2026-10-23T14:37:23.782027+00:00'
+  window_end: '2026-10-30T14:37:23.782027+00:00'
+  total_fetched: 703
+  pages:
+  - url: https://export.arxiv.org/api/query?search_query=%28cat%3Amath-ph+OR+cat%3Amath.AG+OR+cat%3Amath.QA+OR+cat%3Ahep-th+OR+cat%3Amath.DG+OR+cat%3Amath.SG+OR+cat%3Anlin.SI%29+AND+submittedDate%3A%5B202610231437+TO+202610301437%5D&start=0&max_results=200&sortBy=submittedDate&sortOrder=descending
+    sha256: 87564f50904450620d9f5f45e95f3dc4955cb21a5581ad09e4c5d5362e1e9d98
+    start: 0
+    count: 200
+  - url: https://export.arxiv.org/api/query?search_query=%28cat%3Amath-ph+OR+cat%3Amath.AG+OR+cat%3Amath.QA+OR+cat%3Ahep-th+OR+cat%3Amath.DG+OR+cat%3Amath.SG+OR+cat%3Anlin.SI%29+AND+submittedDate%3A%5B202610231437+TO+202610301437%5D&start=200&max_results=200&sortBy=submittedDate&sortOrder=descending
+    sha256: 535570710811b3560fe9884d2c77a865b5370e55bccbba188e1983d693d3bfe2
+    start: 200
+    count: 200
+  - url: https://export.arxiv.org/api/query?search_query=%28cat%3Amath-ph+OR+cat%3Amath.AG+OR+cat%3Amath.QA+OR+cat%3Ahep-th+OR+cat%3Amath.DG+OR+cat%3Amath.SG+OR+cat%3Anlin.SI%29+AND+submittedDate%3A%5B202610231437+TO+202610301437%5D&start=400&max_results=200&sortBy=submittedDate&sortOrder=descending
+    sha256: 2b56656215d2a13d29a5668ef647bf78904d693f6de0aa752a670627ded09860
+    start: 400
+    count: 200
+  - url: https://export.arxiv.org/api/query?search_query=%28cat%3Amath-ph+OR+cat%3Amath.AG+OR+cat%3Amath.QA+OR+cat%3Ahep-th+OR+cat%3Amath.DG+OR+cat%3Amath.SG+OR+cat%3Anlin.SI%29+AND+submittedDate%3A%5B202610231437+TO+202610301437%5D&start=600&max_results=200&sortBy=submittedDate&sortOrder=descending
+    sha256: da00959eecffa7730974ff554365467dbb5f5cc7837c18c178473471c7886336
+    start: 600
+    count: 103
+entries:
+- id: '2610.40639'
+  title: 'Multicomplexes in Action: Strong Formality of Compact Hyperkähler Manifolds'
+  authors_raw:
+  - Antonio Pio Contrò
+  date: '2026-10-29'
+  published: '2026-10-29T17:58:39Z'
+  updated: '2026-10-29T17:58:39Z'
+  category: math.AT
+  source_url: https://arxiv.org/abs/2610.40639
+  source_version: 2610.40639v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - homotopy-theory
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-10-30T14:37:23.782027+00:00'
+  summary_zh: ''
+- id: '2610.40602'
+  title: Permutation twisted cohomology, reduced and immersed
+  authors_raw:
+  - Juan Omar Gómez
+  - Sam K. Miller
+  date: '2026-10-29'
+  published: '2026-10-29T17:52:14Z'
+  updated: '2026-10-29T17:52:14Z'
+  category: math.RT
+  source_url: https://arxiv.org/abs/2610.40602
+  source_version: 2610.40602v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - derived-category
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-10-30T14:37:23.782027+00:00'
+  summary_zh: ''
+- id: '2610.40336'
+  title: Degeneration of (-1)-shifted symplectic stacks and categorification of Donaldson-Thomas
+    invariants
+  authors_raw:
+  - Artan Sheshmani
+  date: '2026-10-29'
+  published: '2026-10-29T16:01:16Z'
+  updated: '2026-10-29T16:01:16Z'
+  category: math.AG
+  source_url: https://arxiv.org/abs/2610.40336
+  source_version: 2610.40336v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - calabi-yau
+  - geometric-quantization
+  relevance_score: 6
+  review_status: metadata-only
+  retrieved_at: '2026-10-30T14:37:23.782027+00:00'
+  summary_zh: ''
+- id: '2610.40203'
+  title: Quantum curves of 6d SCFTs on a -3 curve
+  authors_raw:
+  - Minsung Kim
+  - Sung-Soo Kim
+  - Xin Wang
+  date: '2026-10-29'
+  published: '2026-10-29T14:54:31Z'
+  updated: '2026-10-29T14:54:31Z'
+  category: hep-th
+  source_url: https://arxiv.org/abs/2610.40203
+  source_version: 2610.40203v1
+  matched_people: []
+  candidate_people:
+  - wang-xin
+  matched_concepts: []
+  relevance_score: 10
+  review_status: metadata-only
+  retrieved_at: '2026-10-30T14:37:23.782027+00:00'
+  summary_zh: ''
+- id: '2610.40076'
+  title: A Dolbeault complex for the contact quantised flag manifolds of type $\mathrm{C}_{2}$
+    and $\mathrm{D}_{4}$
+  authors_raw:
+  - Antonio Del Donno
+  date: '2026-10-29'
+  published: '2026-10-29T13:53:14Z'
+  updated: '2026-10-29T13:53:14Z'
+  category: math.QA
+  source_url: https://arxiv.org/abs/2610.40076
+  source_version: 2610.40076v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - differential-geometry
+  - quantum-groups
+  relevance_score: 6
+  review_status: metadata-only
+  retrieved_at: '2026-10-30T14:37:23.782027+00:00'
+  summary_zh: ''
+- id: '2610.40058'
+  title: Quantum cluster structures on bosonic extensions
+  authors_raw:
+  - Yingjin Bi
+  date: '2026-10-29'
+  published: '2026-10-29T13:48:11Z'
+  updated: '2026-10-29T13:48:11Z'
+  category: math.QA
+  source_url: https://arxiv.org/abs/2610.40058
+  source_version: 2610.40058v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - cluster-algebra
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-10-30T14:37:23.782027+00:00'
+  summary_zh: ''
+- id: '2610.40041'
+  title: G-equivariant Alterfold TQFT in any dimension
+  authors_raw:
+  - Zixuan Feng
+  - Zhengwei Liu
+  date: '2026-10-29'
+  published: '2026-10-29T13:40:16Z'
+  updated: '2026-10-29T13:40:16Z'
+  category: math.QA
+  source_url: https://arxiv.org/abs/2610.40041
+  source_version: 2610.40041v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - tqft
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-10-30T14:37:23.782027+00:00'
+  summary_zh: ''
+- id: '2610.40035'
+  title: Degenerate complex structures on surfaces and stability conditions
+  authors_raw:
+  - Antonios-Alexandros Robotis
+  - Nicolás Vilches
+  date: '2026-10-29'
+  published: '2026-10-29T13:36:54Z'
+  updated: '2026-10-29T13:36:54Z'
+  category: math.AG
+  source_url: https://arxiv.org/abs/2610.40035
+  source_version: 2610.40035v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - calabi-yau
+  - derived-categories
+  relevance_score: 6
+  review_status: metadata-only
+  retrieved_at: '2026-10-30T14:37:23.782027+00:00'
+  summary_zh: ''
+- id: '2610.40028'
+  title: On Terao's conjecture for at most nine planes
+  authors_raw:
+  - Bartosz Jarosławski
+  date: '2026-10-29'
+  published: '2026-10-29T13:35:37Z'
+  updated: '2026-10-29T13:35:37Z'
+  category: math.AG
+  source_url: https://arxiv.org/abs/2610.40028
+  source_version: 2610.40028v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - calabi-yau
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-10-30T14:37:23.782027+00:00'
+  summary_zh: ''
+- id: '2610.39838'
+  title: The Kawatani--Okawa conjecture in dimensions three and four
+  authors_raw:
+  - Dongjian Wu
+  - Nantao Zhang
+  date: '2026-10-29'
+  published: '2026-10-29T11:16:35Z'
+  updated: '2026-10-29T11:16:35Z'
+  category: math.AG
+  source_url: https://arxiv.org/abs/2610.39838
+  source_version: 2610.39838v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - derived-category
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-10-30T14:37:23.782027+00:00'
+  summary_zh: ''
+- id: '2610.39814'
+  title: 'On the geometry of asymptotically conical Ricci shrinkers (I): weighted
+    analysis'
+  authors_raw:
+  - Yu Li
+  - Longhuan Yan
+  - Wenjia Zhang
+  date: '2026-10-29'
+  published: '2026-10-29T10:55:55Z'
+  updated: '2026-10-29T10:55:55Z'
+  category: math.DG
+  source_url: https://arxiv.org/abs/2610.39814
+  source_version: 2610.39814v1
+  matched_people: []
+  candidate_people:
+  - li-yu
+  matched_concepts: []
+  relevance_score: 10
+  review_status: metadata-only
+  retrieved_at: '2026-10-30T14:37:23.782027+00:00'
+  summary_zh: ''
+- id: '2610.39799'
+  title: Solid Arithmetic D-modules
+  authors_raw:
+  - Kolar David
+  date: '2026-10-29'
+  published: '2026-10-29T10:44:59Z'
+  updated: '2026-10-29T10:44:59Z'
+  category: math.AG
+  source_url: https://arxiv.org/abs/2610.39799
+  source_version: 2610.39799v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - derived-category
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-10-30T14:37:23.782027+00:00'
+  summary_zh: ''
+- id: '2610.39583'
+  title: On equivariant affineness in elliptic cohomology
+  authors_raw:
+  - Jack Morgan Davies
+  - Sil Linskens
+  - Leonard Tokic
+  date: '2026-10-29'
+  published: '2026-10-29T08:24:27Z'
+  updated: '2026-10-29T08:24:27Z'
+  category: math.AT
+  source_url: https://arxiv.org/abs/2610.39583
+  source_version: 2610.39583v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - algebraic-geometry
+  - elliptic-cohomology
+  relevance_score: 6
+  review_status: metadata-only
+  retrieved_at: '2026-10-30T14:37:23.782027+00:00'
+  summary_zh: ''
+- id: '2610.39462'
+  title: Balancing tautological intersection numbers
+  authors_raw:
+  - Kefeng Liu
+  - Hao Xu
+  date: '2026-10-29'
+  published: '2026-10-29T06:34:32Z'
+  updated: '2026-10-29T06:34:32Z'
+  category: math.AG
+  source_url: https://arxiv.org/abs/2610.39462
+  source_version: 2610.39462v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - intersection-numbers
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-10-30T14:37:23.782027+00:00'
+  summary_zh: ''
+- id: '2610.39411'
+  title: Generalized Frobenius Structures on Hurwitz Spaces, Their Open Extensions
+    and Associated Principal Hierarchies
+  authors_raw:
+  - Shilin Ma
+  date: '2026-10-29'
+  published: '2026-10-29T05:50:44Z'
+  updated: '2026-10-29T05:50:44Z'
+  category: math-ph
+  source_url: https://arxiv.org/abs/2610.39411
+  source_version: 2610.39411v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - wdvv-equations
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-10-30T14:37:23.782027+00:00'
+  summary_zh: ''
+- id: '2610.39364'
+  title: A Uniform Upper Bound on the Length of MDS Codes from Genus-Two Curves
+  authors_raw:
+  - Haojie Chen
+  date: '2026-10-29'
+  published: '2026-10-29T04:56:43Z'
+  updated: '2026-10-29T04:56:43Z'
+  category: cs.IT
+  source_url: https://arxiv.org/abs/2610.39364
+  source_version: 2610.39364v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - algebraic-geometry
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-10-30T14:37:23.782027+00:00'
+  summary_zh: ''
+- id: '2610.39127'
+  title: The inverse local-relative correspondence and the Nekrasov--Shatashvili vanishing
+    blowup equation
+  authors_raw:
+  - Jianjun Fu
+  - Shuai Guo
+  - Qingsheng Zhang
+  date: '2026-10-29'
+  published: '2026-10-29T01:18:35Z'
+  updated: '2026-10-29T01:18:35Z'
+  category: math.AG
+  source_url: https://arxiv.org/abs/2610.39127
+  source_version: 2610.39127v1
+  matched_people: []
+  candidate_people:
+  - guo-shuai
+  - zhang-qingsheng
+  matched_concepts:
+  - gromov-witten-theory
+  relevance_score: 13
+  review_status: metadata-only
+  retrieved_at: '2026-10-30T14:37:23.782027+00:00'
+  summary_zh: ''
+- id: '2610.39035'
+  title: Comparing metric completions of triangulated categories with Verdier quotients
+  authors_raw:
+  - Cyril Matoušek
+  date: '2026-10-28'
+  published: '2026-10-28T23:08:35Z'
+  updated: '2026-10-28T23:08:35Z'
+  category: math.RT
+  source_url: https://arxiv.org/abs/2610.39035
+  source_version: 2610.39035v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - derived-categories
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-10-30T14:37:23.782027+00:00'
+  summary_zh: ''
+- id: '2610.39010'
+  title: Positivity of the Mirabolic Quantum Groups
+  authors_raw:
+  - Zhaobing Fan
+  - Haitao Ma
+  - Zhicheng Zhang
+  date: '2026-10-28'
+  published: '2026-10-28T22:41:18Z'
+  updated: '2026-10-28T22:41:18Z'
+  category: math.RT
+  source_url: https://arxiv.org/abs/2610.39010
+  source_version: 2610.39010v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - quantum-groups
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-10-30T14:37:23.782027+00:00'
+  summary_zh: ''
+- id: '2610.38958'
+  title: Compactification of parabolic Hermitian--Einstein moduli spaces on complex
+    surfaces
+  authors_raw:
+  - Xilun Li
+  - Gang Tian
+  date: '2026-10-28'
+  published: '2026-10-28T21:40:57Z'
+  updated: '2026-10-28T21:40:57Z'
+  category: math.DG
+  source_url: https://arxiv.org/abs/2610.38958
+  source_version: 2610.38958v1
+  matched_people: []
+  candidate_people:
+  - tian-gang
+  matched_concepts:
+  - moduli-spaces
+  relevance_score: 13
+  review_status: metadata-only
+  retrieved_at: '2026-10-30T14:37:23.782027+00:00'
+  summary_zh: ''
+- id: '2610.38907'
+  title: Generalized Symmetries of QED$_4$ on Non-Spin Manifolds
+  authors_raw:
+  - Michele Del Zotto
+  - Vivek Saxena
+  date: '2026-10-28'
+  published: '2026-10-28T21:01:01Z'
+  updated: '2026-10-28T21:01:01Z'
+  category: hep-th
+  source_url: https://arxiv.org/abs/2610.38907
+  source_version: 2610.38907v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - topological-field-theory
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-10-30T14:37:23.782027+00:00'
+  summary_zh: ''
+- id: '2610.38837'
+  title: Intrinsic Non-Reductive Geometric Invariant Theory and Moduli Spaces of Principal
+    Bundles with Non-Reductive Structure Groups
+  authors_raw:
+  - George Cooper
+  - Ludvig Modin
+  date: '2026-10-28'
+  published: '2026-10-28T20:25:59Z'
+  updated: '2026-10-28T20:25:59Z'
+  category: math.AG
+  source_url: https://arxiv.org/abs/2610.38837
+  source_version: 2610.38837v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - moduli-spaces
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-10-30T14:37:23.782027+00:00'
+  summary_zh: ''
+- id: '2610.38751'
+  title: Examples of rigid Twistor D-modules
+  authors_raw:
+  - Patrik Hammer
+  date: '2026-10-28'
+  published: '2026-10-28T19:34:44Z'
+  updated: '2026-10-28T19:34:44Z'
+  category: math.AG
+  source_url: https://arxiv.org/abs/2610.38751
+  source_version: 2610.38751v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - algebraic-geometry
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-10-30T14:37:23.782027+00:00'
+  summary_zh: ''
+- id: '2610.38727'
+  title: Existence of weak Landau-Ginzburg models for weighted complete intersections
+  authors_raw:
+  - Victor Przyjalkowski
+  - Constantin Shramov
+  date: '2026-10-28'
+  published: '2026-10-28T19:24:00Z'
+  updated: '2026-10-28T19:24:00Z'
+  category: math.AG
+  source_url: https://arxiv.org/abs/2610.38727
+  source_version: 2610.38727v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - calabi-yau
+  - landau-ginzburg
+  relevance_score: 6
+  review_status: metadata-only
+  retrieved_at: '2026-10-30T14:37:23.782027+00:00'
+  summary_zh: ''
+- id: '2610.38584'
+  title: Resurgence and Modularity in the First Painlevé Equation
+  authors_raw:
+  - Kohei Iwaki
+  - Noam Tamarin
+  date: '2026-10-28'
+  published: '2026-10-28T10:14:54Z'
+  updated: '2026-10-28T10:14:54Z'
+  category: hep-th
+  source_url: https://arxiv.org/abs/2610.38584
+  source_version: 2610.38584v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - isomonodromy
+  - tau-function
+  - topological-recursion
+  relevance_score: 9
+  review_status: metadata-only
+  retrieved_at: '2026-10-30T14:37:23.782027+00:00'
+  summary_zh: ''
+- id: '2610.38456'
+  title: Sheaves on quoric manifolds
+  authors_raw:
+  - Christos Aravanis
+  - Ioannis Gkeneralis
+  date: '2026-10-28'
+  published: '2026-10-28T08:34:19Z'
+  updated: '2026-10-28T08:34:19Z'
+  category: math.AG
+  source_url: https://arxiv.org/abs/2610.38456
+  source_version: 2610.38456v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - derived-category
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-10-30T14:37:23.782027+00:00'
+  summary_zh: ''
+- id: '2610.38427'
+  title: On the Witt liftability of quasi-F-split Calabi--Yau varieties
+  authors_raw:
+  - Teppei Takamatsu
+  date: '2026-10-28'
+  published: '2026-10-28T08:11:09Z'
+  updated: '2026-10-28T08:11:09Z'
+  category: math.AG
+  source_url: https://arxiv.org/abs/2610.38427
+  source_version: 2610.38427v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - calabi-yau
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-10-30T14:37:23.782027+00:00'
+  summary_zh: ''
+- id: '2610.38298'
+  title: Stability conditions on Calabi-Yau threefolds of type K
+  authors_raw:
+  - Uttaran Dutta
+  date: '2026-10-28'
+  published: '2026-10-28T05:33:35Z'
+  updated: '2026-10-28T05:33:35Z'
+  category: math.AG
+  source_url: https://arxiv.org/abs/2610.38298
+  source_version: 2610.38298v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - calabi-yau
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-10-30T14:37:23.782027+00:00'
+  summary_zh: ''
+- id: '2610.38260'
+  title: A Physics-Informed Neural Network for Geodesic Computation and Visualization
+    of Geodesic Spheres on Riemannian Manifolds
+  authors_raw:
+  - Sujit Bhattacharyya
+  date: '2026-10-28'
+  published: '2026-10-28T04:20:35Z'
+  updated: '2026-10-28T04:20:35Z'
+  category: math.DG
+  source_url: https://arxiv.org/abs/2610.38260
+  source_version: 2610.38260v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - differential-geometry
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-10-30T14:37:23.782027+00:00'
+  summary_zh: ''
+- id: '2610.38161'
+  title: Asymptotic distributions of the Betti and Hodge numbers of $\overline{\mathcal
+    M}_{g,n}$
+  authors_raw:
+  - Jinwon Choi
+  - Young-Hoon Kiem
+  date: '2026-10-28'
+  published: '2026-10-28T02:03:28Z'
+  updated: '2026-10-28T02:03:28Z'
+  category: math.AG
+  source_url: https://arxiv.org/abs/2610.38161
+  source_version: 2610.38161v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - moduli-spaces
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-10-30T14:37:23.782027+00:00'
+  summary_zh: ''
+- id: '2610.38129'
+  title: Graph-diameter criteria and sharp dissipation in discrete Wasserstein-Fisher
+    geometry
+  authors_raw:
+  - Rubin Zhang
+  - Ning Zhang
+  date: '2026-10-28'
+  published: '2026-10-28T01:07:10Z'
+  updated: '2026-10-28T01:07:10Z'
+  category: math.PR
+  source_url: https://arxiv.org/abs/2610.38129
+  source_version: 2610.38129v1
+  matched_people: []
+  candidate_people:
+  - zhang-ning
+  matched_concepts: []
+  relevance_score: 10
+  review_status: metadata-only
+  retrieved_at: '2026-10-30T14:37:23.782027+00:00'
+  summary_zh: ''
+- id: '2610.37996'
+  title: Calabi-Yau Hyperbolicity
+  authors_raw:
+  - Abdelouahab Khelifati
+  date: '2026-10-27'
+  published: '2026-10-27T21:45:00Z'
+  updated: '2026-10-27T21:45:00Z'
+  category: math.AG
+  source_url: https://arxiv.org/abs/2610.37996
+  source_version: 2610.37996v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - calabi-yau
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-10-30T14:37:23.782027+00:00'
+  summary_zh: ''
+- id: '2610.37861'
+  title: The Geometry of Quantum Teleportation in Phase Space
+  authors_raw:
+  - Jasel Berra-Montiel
+  - Alberto Molgado
+  - Mar Sánchez-Córdova
+  date: '2026-10-27'
+  published: '2026-10-27T19:05:36Z'
+  updated: '2026-10-27T19:05:36Z'
+  category: quant-ph
+  source_url: https://arxiv.org/abs/2610.37861
+  source_version: 2610.37861v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - deformation-quantization
+  - symplectic-geometry
+  relevance_score: 6
+  review_status: metadata-only
+  retrieved_at: '2026-10-30T14:37:23.782027+00:00'
+  summary_zh: ''
+- id: '2610.37808'
+  title: Symplectomorphism invariance of the wrapped Fukaya category
+  authors_raw:
+  - Mingyuan Hu
+  - Vivek Shende
+  date: '2026-10-27'
+  published: '2026-10-27T18:26:21Z'
+  updated: '2026-10-27T18:26:21Z'
+  category: math.SG
+  source_url: https://arxiv.org/abs/2610.37808
+  source_version: 2610.37808v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - fukaya-category
+  - mirror-symmetry
+  relevance_score: 6
+  review_status: metadata-only
+  retrieved_at: '2026-10-30T14:37:23.782027+00:00'
+  summary_zh: ''
+- id: '2610.37766'
+  title: Quiver Lab -- A Computing Tool for Quiver Gauge Theories
+  authors_raw:
+  - Zhenghao Zhong
+  date: '2026-10-27'
+  published: '2026-10-27T18:00:04Z'
+  updated: '2026-10-27T18:00:04Z'
+  category: hep-th
+  source_url: https://arxiv.org/abs/2610.37766
+  source_version: 2610.37766v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - moduli-spaces
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-10-30T14:37:23.782027+00:00'
+  summary_zh: ''
