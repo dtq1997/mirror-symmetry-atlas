@@ -1,0 +1,257 @@
+fetch_date: '2026-11-04'
+period_days: 7
+last_success_at: '2026-11-04T15:48:23.304475+00:00'
+total_fetched: 745
+relevant_count: 11
+fetch_evidence:
+  query: (cat:math-ph OR cat:math.AG OR cat:math.QA OR cat:hep-th OR cat:math.DG OR
+    cat:math.SG OR cat:nlin.SI) AND submittedDate:[202610281548 TO 202611041548]
+  categories:
+  - math-ph
+  - math.AG
+  - math.QA
+  - hep-th
+  - math.DG
+  - math.SG
+  - nlin.SI
+  window_start: '2026-10-28T15:48:23.304475+00:00'
+  window_end: '2026-11-04T15:48:23.304475+00:00'
+  total_fetched: 745
+  pages:
+  - url: https://export.arxiv.org/api/query?search_query=%28cat%3Amath-ph+OR+cat%3Amath.AG+OR+cat%3Amath.QA+OR+cat%3Ahep-th+OR+cat%3Amath.DG+OR+cat%3Amath.SG+OR+cat%3Anlin.SI%29+AND+submittedDate%3A%5B202610281548+TO+202611041548%5D&start=0&max_results=200&sortBy=submittedDate&sortOrder=descending
+    sha256: 9a8d147f05cfe5daa6f5b38f59cf0c387f4ee2017b7f51aa0e48672b88524000
+    start: 0
+    count: 200
+  - url: https://export.arxiv.org/api/query?search_query=%28cat%3Amath-ph+OR+cat%3Amath.AG+OR+cat%3Amath.QA+OR+cat%3Ahep-th+OR+cat%3Amath.DG+OR+cat%3Amath.SG+OR+cat%3Anlin.SI%29+AND+submittedDate%3A%5B202610281548+TO+202611041548%5D&start=200&max_results=200&sortBy=submittedDate&sortOrder=descending
+    sha256: 2a704323a4360855ca01340c671852abbcdd0745061d80da9e046229c53d0602
+    start: 200
+    count: 200
+  - url: https://export.arxiv.org/api/query?search_query=%28cat%3Amath-ph+OR+cat%3Amath.AG+OR+cat%3Amath.QA+OR+cat%3Ahep-th+OR+cat%3Amath.DG+OR+cat%3Amath.SG+OR+cat%3Anlin.SI%29+AND+submittedDate%3A%5B202610281548+TO+202611041548%5D&start=400&max_results=200&sortBy=submittedDate&sortOrder=descending
+    sha256: 2213a4863b13005ae24ddb222ffed0fdb8cc44ee355095decd197e08385ff902
+    start: 400
+    count: 200
+  - url: https://export.arxiv.org/api/query?search_query=%28cat%3Amath-ph+OR+cat%3Amath.AG+OR+cat%3Amath.QA+OR+cat%3Ahep-th+OR+cat%3Amath.DG+OR+cat%3Amath.SG+OR+cat%3Anlin.SI%29+AND+submittedDate%3A%5B202610281548+TO+202611041548%5D&start=600&max_results=200&sortBy=submittedDate&sortOrder=descending
+    sha256: 5bb88c059f53df5fbc41fcfcaba87a9d034de60ff530378db4197f09b3669832
+    start: 600
+    count: 145
+entries:
+- id: '2611.05350'
+  title: Gepner stability conditions on hypersurface categories
+  authors_raw:
+  - Anibal Aravena
+  - Peize Liu
+  - Jenia Tevelev
+  date: '2026-11-03'
+  published: '2026-11-03T18:51:13Z'
+  updated: '2026-11-03T18:51:13Z'
+  category: math.AG
+  source_url: https://arxiv.org/abs/2611.05350
+  source_version: 2611.05350v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - calabi-yau
+  - moduli-spaces
+  relevance_score: 6
+  review_status: metadata-only
+  retrieved_at: '2026-11-04T15:48:23.304475+00:00'
+  summary_zh: ''
+- id: '2611.05111'
+  title: Algebraic $\mathbb{A}^{1}$-invariance of K-theory for affinoid Tate adic
+    spaces of good reduction
+  authors_raw:
+  - Hyungseop Kim
+  date: '2026-11-03'
+  published: '2026-11-03T16:03:01Z'
+  updated: '2026-11-03T16:03:01Z'
+  category: math.KT
+  source_url: https://arxiv.org/abs/2611.05111
+  source_version: 2611.05111v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - k-theory
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-11-04T15:48:23.304475+00:00'
+  summary_zh: ''
+- id: '2611.04862'
+  title: On Douglas' conjecture for $m$-Kronecker quivers
+  authors_raw:
+  - So Okada
+  date: '2026-11-03'
+  published: '2026-11-03T13:22:21Z'
+  updated: '2026-11-03T13:22:21Z'
+  category: math.RT
+  source_url: https://arxiv.org/abs/2611.04862
+  source_version: 2611.04862v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - moduli-spaces
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-11-04T15:48:23.304475+00:00'
+  summary_zh: ''
+- id: '2611.04856'
+  title: Boundary determination from the anisotropic elastic Dirichlet-to-Neumann
+    map
+  authors_raw:
+  - Joonas Ilmavirta
+  - Mikko Salo
+  - Hjørdis Schlüter
+  - Daniel Windisch
+  date: '2026-11-03'
+  published: '2026-11-03T13:17:58Z'
+  updated: '2026-11-03T13:17:58Z'
+  category: math.AP
+  source_url: https://arxiv.org/abs/2611.04856
+  source_version: 2611.04856v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - algebraic-geometry
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-11-04T15:48:23.304475+00:00'
+  summary_zh: ''
+- id: '2611.04837'
+  title: Enumerative geometry of conics and double covers on projective complete intersections
+  authors_raw:
+  - Dang Tuan Hiep
+  - Ha Thi Thao Tram
+  date: '2026-11-03'
+  published: '2026-11-03T13:06:28Z'
+  updated: '2026-11-03T13:06:28Z'
+  category: math.AG
+  source_url: https://arxiv.org/abs/2611.04837
+  source_version: 2611.04837v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - enumerative-geometry
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-11-04T15:48:23.304475+00:00'
+  summary_zh: ''
+- id: '2611.04478'
+  title: Prescribed combinatorial curvature beyond positivity for spherical vertex
+    scalings on the sphere
+  authors_raw:
+  - Chen Liu
+  - Xu Xu
+  date: '2026-11-03'
+  published: '2026-11-03T08:11:08Z'
+  updated: '2026-11-03T08:11:08Z'
+  category: math.DG
+  source_url: https://arxiv.org/abs/2611.04478
+  source_version: 2611.04478v1
+  matched_people: []
+  candidate_people:
+  - xu-xu
+  matched_concepts: []
+  relevance_score: 10
+  review_status: metadata-only
+  retrieved_at: '2026-11-04T15:48:23.304475+00:00'
+  summary_zh: ''
+- id: '2611.04460'
+  title: 'Strong $G_2$-structures with torsion: a survey and new examples'
+  authors_raw:
+  - Anna Fino
+  - Udhav Fowdar
+  date: '2026-11-03'
+  published: '2026-11-03T07:49:01Z'
+  updated: '2026-11-03T07:49:01Z'
+  category: math.DG
+  source_url: https://arxiv.org/abs/2611.04460
+  source_version: 2611.04460v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - calabi-yau
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-11-04T15:48:23.304475+00:00'
+  summary_zh: ''
+- id: '2611.04258'
+  title: A note on the BRST-BV Formalism Explanation of Deformation Quantization and
+    Algebraic Index Theorem
+  authors_raw:
+  - Lihao Zhao
+  date: '2026-11-03'
+  published: '2026-11-03T03:50:15Z'
+  updated: '2026-11-03T03:50:15Z'
+  category: math.DG
+  source_url: https://arxiv.org/abs/2611.04258
+  source_version: 2611.04258v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - deformation-quantization
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-11-04T15:48:23.304475+00:00'
+  summary_zh: ''
+- id: '2611.04210'
+  title: Rational points on loxodromic K3 surfaces and complex dynamics
+  authors_raw:
+  - Damián Gvirtz-Chen
+  - Zhizhong Huang
+  - Zhuchao Ji
+  - Junyi Xie
+  date: '2026-11-03'
+  published: '2026-11-03T02:51:04Z'
+  updated: '2026-11-03T02:51:04Z'
+  category: math.NT
+  source_url: https://arxiv.org/abs/2611.04210
+  source_version: 2611.04210v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - algebraic-geometry
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-11-04T15:48:23.304475+00:00'
+  summary_zh: ''
+- id: '2611.04130'
+  title: Global vector fields and the automorphism group of regular semisimple Hessenberg
+    varieties
+  authors_raw:
+  - Mikiya Masuda
+  - Takashi Sato
+  - Haozhi Zeng
+  date: '2026-11-03'
+  published: '2026-11-03T01:13:16Z'
+  updated: '2026-11-03T01:13:16Z'
+  category: math.AG
+  source_url: https://arxiv.org/abs/2611.04130
+  source_version: 2611.04130v1
+  matched_people: []
+  candidate_people:
+  - zeng-haozhi
+  matched_concepts: []
+  relevance_score: 10
+  review_status: metadata-only
+  retrieved_at: '2026-11-04T15:48:23.304475+00:00'
+  summary_zh: ''
+- id: '2611.04118'
+  title: D-equivalence conjecture for hyperkähler varieties of generalized Kummer
+    type
+  authors_raw:
+  - Will Donovan
+  - Chengxi Wang
+  - Nantao Zhang
+  date: '2026-11-03'
+  published: '2026-11-03T00:51:28Z'
+  updated: '2026-11-03T00:51:28Z'
+  category: math.AG
+  source_url: https://arxiv.org/abs/2611.04118
+  source_version: 2611.04118v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - derived-category
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-11-04T15:48:23.304475+00:00'
+  summary_zh: ''
