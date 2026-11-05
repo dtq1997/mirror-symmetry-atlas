@@ -1,0 +1,273 @@
+fetch_date: '2026-11-05'
+period_days: 7
+last_success_at: '2026-11-05T15:50:57.192341+00:00'
+total_fetched: 702
+relevant_count: 12
+fetch_evidence:
+  query: (cat:math-ph OR cat:math.AG OR cat:math.QA OR cat:hep-th OR cat:math.DG OR
+    cat:math.SG OR cat:nlin.SI) AND submittedDate:[202610291550 TO 202611051550]
+  categories:
+  - math-ph
+  - math.AG
+  - math.QA
+  - hep-th
+  - math.DG
+  - math.SG
+  - nlin.SI
+  window_start: '2026-10-29T15:50:57.192341+00:00'
+  window_end: '2026-11-05T15:50:57.192341+00:00'
+  total_fetched: 702
+  pages:
+  - url: https://export.arxiv.org/api/query?search_query=%28cat%3Amath-ph+OR+cat%3Amath.AG+OR+cat%3Amath.QA+OR+cat%3Ahep-th+OR+cat%3Amath.DG+OR+cat%3Amath.SG+OR+cat%3Anlin.SI%29+AND+submittedDate%3A%5B202610291550+TO+202611051550%5D&start=0&max_results=200&sortBy=submittedDate&sortOrder=descending
+    sha256: d4caaf281e86c434e42040dfd1259c2ba0308c30d037bdb5c21934b60dfcbab8
+    start: 0
+    count: 200
+  - url: https://export.arxiv.org/api/query?search_query=%28cat%3Amath-ph+OR+cat%3Amath.AG+OR+cat%3Amath.QA+OR+cat%3Ahep-th+OR+cat%3Amath.DG+OR+cat%3Amath.SG+OR+cat%3Anlin.SI%29+AND+submittedDate%3A%5B202610291550+TO+202611051550%5D&start=200&max_results=200&sortBy=submittedDate&sortOrder=descending
+    sha256: 7c554b3613bd0d3e81e0592d4cdf1452555d7b4ceb8e055d9ca3cbf4eeea21ec
+    start: 200
+    count: 200
+  - url: https://export.arxiv.org/api/query?search_query=%28cat%3Amath-ph+OR+cat%3Amath.AG+OR+cat%3Amath.QA+OR+cat%3Ahep-th+OR+cat%3Amath.DG+OR+cat%3Amath.SG+OR+cat%3Anlin.SI%29+AND+submittedDate%3A%5B202610291550+TO+202611051550%5D&start=400&max_results=200&sortBy=submittedDate&sortOrder=descending
+    sha256: 7dda46e28dc36c36058a29651c66abbe8b4e49ba7ee6a14a53a837e635145dbe
+    start: 400
+    count: 200
+  - url: https://export.arxiv.org/api/query?search_query=%28cat%3Amath-ph+OR+cat%3Amath.AG+OR+cat%3Amath.QA+OR+cat%3Ahep-th+OR+cat%3Amath.DG+OR+cat%3Amath.SG+OR+cat%3Anlin.SI%29+AND+submittedDate%3A%5B202610291550+TO+202611051550%5D&start=600&max_results=200&sortBy=submittedDate&sortOrder=descending
+    sha256: f7457c50de2ea64b492df5a6b6101decb148eb4820abf51cea118e048585f94a
+    start: 600
+    count: 102
+entries:
+- id: '2611.06907'
+  title: Conformal field theory from automorphic forms on a quantum group
+  authors_raw:
+  - Dalimil Mazac
+  date: '2026-11-04'
+  published: '2026-11-04T18:55:13Z'
+  updated: '2026-11-04T18:55:13Z'
+  category: hep-th
+  source_url: https://arxiv.org/abs/2611.06907
+  source_version: 2611.06907v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - noncommutative-geometry
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-11-05T15:50:57.192341+00:00'
+  summary_zh: ''
+- id: '2611.06862'
+  title: 'Heavy-Light Wall Crossings and Motivic Asymptotics of Moduli Spaces of Curves.
+    Part I: Stabilization Graphs and Euler Characteristics'
+  authors_raw:
+  - Giordano Cotti
+  date: '2026-11-04'
+  published: '2026-11-04T18:17:49Z'
+  updated: '2026-11-04T18:17:49Z'
+  category: math.AG
+  source_url: https://arxiv.org/abs/2611.06862
+  source_version: 2611.06862v1
+  matched_people: []
+  candidate_people:
+  - cotti
+  matched_concepts:
+  - moduli-spaces
+  relevance_score: 13
+  review_status: metadata-only
+  retrieved_at: '2026-11-05T15:50:57.192341+00:00'
+  summary_zh: ''
+- id: '2611.06675'
+  title: Concavity of Normalized Generalized Brézin--Gross--Witten Correlators and
+    Its Applications
+  authors_raw:
+  - Chenglang Yang
+  - Xuhui Zhang
+  date: '2026-11-04'
+  published: '2026-11-04T15:46:24Z'
+  updated: '2026-11-04T15:46:24Z'
+  category: math-ph
+  source_url: https://arxiv.org/abs/2611.06675
+  source_version: 2611.06675v1
+  matched_people: []
+  candidate_people:
+  - yang-chenglang
+  - zhang-xuhui
+  matched_concepts: []
+  relevance_score: 10
+  review_status: metadata-only
+  retrieved_at: '2026-11-05T15:50:57.192341+00:00'
+  summary_zh: ''
+- id: '2611.06621'
+  title: The super Weil-Petersson asymptotic expansion and the coefficients
+  authors_raw:
+  - Xuanyu Huang
+  - Kefeng Liu
+  - Hao Xu
+  date: '2026-11-04'
+  published: '2026-11-04T15:07:31Z'
+  updated: '2026-11-04T15:07:31Z'
+  category: math.AG
+  source_url: https://arxiv.org/abs/2611.06621
+  source_version: 2611.06621v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - intersection-numbers
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-11-05T15:50:57.192341+00:00'
+  summary_zh: ''
+- id: '2611.06256'
+  title: From the quantum group $U_{q^{1/2}}( {\widehat {\mathfrak{sl}}}_2 )$ to the
+    Kronecker quantum cluster algebra
+  authors_raw:
+  - Junyuan Huang
+  - Xueqing Chen
+  - Ming Ding
+  - Fan Xu
+  date: '2026-11-04'
+  published: '2026-11-04T10:06:59Z'
+  updated: '2026-11-04T10:06:59Z'
+  category: math.QA
+  source_url: https://arxiv.org/abs/2611.06256
+  source_version: 2611.06256v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - cluster-algebra
+  - quantum-groups
+  relevance_score: 6
+  review_status: metadata-only
+  retrieved_at: '2026-11-05T15:50:57.192341+00:00'
+  summary_zh: ''
+- id: '2611.06031'
+  title: 'Toward Shifted symplectic Chiralization: Deformation of Courant Algebroids'
+  authors_raw:
+  - Wenda Fang
+  - Noriaki Ikeda
+  date: '2026-11-04'
+  published: '2026-11-04T06:35:14Z'
+  updated: '2026-11-04T06:35:14Z'
+  category: math.QA
+  source_url: https://arxiv.org/abs/2611.06031
+  source_version: 2611.06031v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - integrable-hierarchies
+  - symplectic-geometry
+  relevance_score: 6
+  review_status: metadata-only
+  retrieved_at: '2026-11-05T15:50:57.192341+00:00'
+  summary_zh: ''
+- id: '2611.05915'
+  title: Categorical Torelli and Fourier-Mukai partners of hypersurfaces
+  authors_raw:
+  - Xun Lin
+  - Shizhuo Zhang
+  date: '2026-11-04'
+  published: '2026-11-04T04:08:44Z'
+  updated: '2026-11-04T04:08:44Z'
+  category: math.AG
+  source_url: https://arxiv.org/abs/2611.05915
+  source_version: 2611.05915v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - calabi-yau
+  - derived-category
+  relevance_score: 6
+  review_status: metadata-only
+  retrieved_at: '2026-11-05T15:50:57.192341+00:00'
+  summary_zh: ''
+- id: '2611.05809'
+  title: On rational curves relative to a divisor
+  authors_raw:
+  - Jiun-Cheng Chen
+  - Hsian-Hua Tseng
+  date: '2026-11-04'
+  published: '2026-11-04T01:34:51Z'
+  updated: '2026-11-04T01:34:51Z'
+  category: math.AG
+  source_url: https://arxiv.org/abs/2611.05809
+  source_version: 2611.05809v1
+  matched_people: []
+  candidate_people:
+  - tseng-hsian-hua
+  matched_concepts: []
+  relevance_score: 10
+  review_status: metadata-only
+  retrieved_at: '2026-11-05T15:50:57.192341+00:00'
+  summary_zh: ''
+- id: '2611.05745'
+  title: A toric approach to social choice theory
+  authors_raw:
+  - Ata Poyraz Turna
+  - Ben Y. Wormleighton
+  date: '2026-11-03'
+  published: '2026-11-03T23:33:12Z'
+  updated: '2026-11-03T23:33:12Z'
+  category: math.CO
+  source_url: https://arxiv.org/abs/2611.05745
+  source_version: 2611.05745v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - algebraic-geometry
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-11-05T15:50:57.192341+00:00'
+  summary_zh: ''
+- id: '2611.05707'
+  title: Equivariant elliptic cohomology via loop spaces
+  authors_raw:
+  - Emile Bouaziz
+  - Adeel A. Khan
+  date: '2026-11-03'
+  published: '2026-11-03T22:34:47Z'
+  updated: '2026-11-03T22:34:47Z'
+  category: math.AG
+  source_url: https://arxiv.org/abs/2611.05707
+  source_version: 2611.05707v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - elliptic-cohomology
+  - k-theory
+  relevance_score: 6
+  review_status: metadata-only
+  retrieved_at: '2026-11-05T15:50:57.192341+00:00'
+  summary_zh: ''
+- id: '2611.05663'
+  title: Chiral edge modes from lattice Chern-Simons theory
+  authors_raw:
+  - Gordon W. Semenoff
+  date: '2026-11-03'
+  published: '2026-11-03T21:48:29Z'
+  updated: '2026-11-03T21:48:29Z'
+  category: hep-th
+  source_url: https://arxiv.org/abs/2611.05663
+  source_version: 2611.05663v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - topological-field-theory
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-11-05T15:50:57.192341+00:00'
+  summary_zh: ''
+- id: '2611.05480'
+  title: Satisfying Freed--Witten quantization on smooth divisors in Calabi--Yau orientifolds
+  authors_raw:
+  - Mudit Jain
+  date: '2026-11-03'
+  published: '2026-11-03T19:00:02Z'
+  updated: '2026-11-03T19:00:02Z'
+  category: hep-th
+  source_url: https://arxiv.org/abs/2611.05480
+  source_version: 2611.05480v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - calabi-yau
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-11-05T15:50:57.192341+00:00'
+  summary_zh: ''
