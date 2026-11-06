@@ -1,0 +1,369 @@
+fetch_date: '2026-11-06'
+period_days: 7
+last_success_at: '2026-11-06T15:25:56.489428+00:00'
+total_fetched: 710
+relevant_count: 17
+fetch_evidence:
+  query: (cat:math-ph OR cat:math.AG OR cat:math.QA OR cat:hep-th OR cat:math.DG OR
+    cat:math.SG OR cat:nlin.SI) AND submittedDate:[202610301525 TO 202611061525]
+  categories:
+  - math-ph
+  - math.AG
+  - math.QA
+  - hep-th
+  - math.DG
+  - math.SG
+  - nlin.SI
+  window_start: '2026-10-30T15:25:56.489428+00:00'
+  window_end: '2026-11-06T15:25:56.489428+00:00'
+  total_fetched: 710
+  pages:
+  - url: https://export.arxiv.org/api/query?search_query=%28cat%3Amath-ph+OR+cat%3Amath.AG+OR+cat%3Amath.QA+OR+cat%3Ahep-th+OR+cat%3Amath.DG+OR+cat%3Amath.SG+OR+cat%3Anlin.SI%29+AND+submittedDate%3A%5B202610301525+TO+202611061525%5D&start=0&max_results=200&sortBy=submittedDate&sortOrder=descending
+    sha256: bedc66875bac038cbe5151592464d5cb7ec9519fecd4b538f23f9bcfbf368568
+    start: 0
+    count: 200
+  - url: https://export.arxiv.org/api/query?search_query=%28cat%3Amath-ph+OR+cat%3Amath.AG+OR+cat%3Amath.QA+OR+cat%3Ahep-th+OR+cat%3Amath.DG+OR+cat%3Amath.SG+OR+cat%3Anlin.SI%29+AND+submittedDate%3A%5B202610301525+TO+202611061525%5D&start=200&max_results=200&sortBy=submittedDate&sortOrder=descending
+    sha256: 6b36217c2b31c7bf7c4ef889b683f793f1285f46e7cd49b8003d56cb990388f9
+    start: 200
+    count: 200
+  - url: https://export.arxiv.org/api/query?search_query=%28cat%3Amath-ph+OR+cat%3Amath.AG+OR+cat%3Amath.QA+OR+cat%3Ahep-th+OR+cat%3Amath.DG+OR+cat%3Amath.SG+OR+cat%3Anlin.SI%29+AND+submittedDate%3A%5B202610301525+TO+202611061525%5D&start=400&max_results=200&sortBy=submittedDate&sortOrder=descending
+    sha256: 764b851c1980389f4decb287bfc0ed3cdf012fc2ae91e299723249a2d3084990
+    start: 400
+    count: 200
+  - url: https://export.arxiv.org/api/query?search_query=%28cat%3Amath-ph+OR+cat%3Amath.AG+OR+cat%3Amath.QA+OR+cat%3Ahep-th+OR+cat%3Amath.DG+OR+cat%3Amath.SG+OR+cat%3Anlin.SI%29+AND+submittedDate%3A%5B202610301525+TO+202611061525%5D&start=600&max_results=200&sortBy=submittedDate&sortOrder=descending
+    sha256: a58dd5d34f7caddb054fa1be485c9929fa0af374d1856878be2807440a5c8bed
+    start: 600
+    count: 110
+entries:
+- id: '2611.08337'
+  title: Kappa Classes on the KSBA Space of Stable Toric Pairs
+  authors_raw:
+  - Byeol Han
+  date: '2026-11-05'
+  published: '2026-11-05T17:24:18Z'
+  updated: '2026-11-05T17:24:18Z'
+  category: math.AG
+  source_url: https://arxiv.org/abs/2611.08337
+  source_version: 2611.08337v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - intersection-numbers
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-11-06T15:25:56.489428+00:00'
+  summary_zh: ''
+- id: '2611.08326'
+  title: Oriented V-systems
+  authors_raw:
+  - Maali Alkadhem
+  - Misha Feigin
+  date: '2026-11-05'
+  published: '2026-11-05T17:19:32Z'
+  updated: '2026-11-05T17:19:32Z'
+  category: math-ph
+  source_url: https://arxiv.org/abs/2611.08326
+  source_version: 2611.08326v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - wdvv-equations
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-11-06T15:25:56.489428+00:00'
+  summary_zh: ''
+- id: '2611.08172'
+  title: Uniform Three-Fold Product Expansion of Algebraic-Geometry Codes over a Fixed
+    Field
+  authors_raw:
+  - Cassie Ding
+  - Min-Hsiu Hsieh
+  date: '2026-11-05'
+  published: '2026-11-05T15:29:09Z'
+  updated: '2026-11-05T15:29:09Z'
+  category: cs.IT
+  source_url: https://arxiv.org/abs/2611.08172
+  source_version: 2611.08172v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - algebraic-geometry
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-11-06T15:25:56.489428+00:00'
+  summary_zh: ''
+- id: '2611.08018'
+  title: Universal $x$-$y$ duality in equivariant topological recursion and quartic
+    Kontsevich model
+  authors_raw:
+  - Alexander Hock
+  - Jakob Lindner
+  - Raimar Wulkenhaar
+  date: '2026-11-05'
+  published: '2026-11-05T13:39:28Z'
+  updated: '2026-11-05T13:39:28Z'
+  category: math-ph
+  source_url: https://arxiv.org/abs/2611.08018
+  source_version: 2611.08018v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - topological-recursion
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-11-06T15:25:56.489428+00:00'
+  summary_zh: ''
+- id: '2611.07943'
+  title: P-curvature from a TQFT viewpoint
+  authors_raw:
+  - Paul Seidel
+  date: '2026-11-05'
+  published: '2026-11-05T12:42:30Z'
+  updated: '2026-11-05T12:42:30Z'
+  category: math.SG
+  source_url: https://arxiv.org/abs/2611.07943
+  source_version: 2611.07943v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - symplectic-topology
+  - tqft
+  relevance_score: 6
+  review_status: metadata-only
+  retrieved_at: '2026-11-06T15:25:56.489428+00:00'
+  summary_zh: ''
+- id: '2611.07907'
+  title: Log-concavity and level set curvature estimates for the first Dirichlet eigenfunction
+    in hyperbolic space
+  authors_raw:
+  - Wei Zhang
+  - Qi Zhou
+  date: '2026-11-05'
+  published: '2026-11-05T12:24:18Z'
+  updated: '2026-11-05T12:24:18Z'
+  category: math.AP
+  source_url: https://arxiv.org/abs/2611.07907
+  source_version: 2611.07907v1
+  matched_people: []
+  candidate_people:
+  - zhang-wei
+  matched_concepts: []
+  relevance_score: 10
+  review_status: metadata-only
+  retrieved_at: '2026-11-06T15:25:56.489428+00:00'
+  summary_zh: ''
+- id: '2611.07499'
+  title: The residual map as a stratified fibration over the resonance arrangement
+  authors_raw:
+  - Dawei Chen
+  - Scott Mullane
+  - Nick Salter
+  - Guillaume Tahar
+  date: '2026-11-05'
+  published: '2026-11-05T06:03:18Z'
+  updated: '2026-11-05T06:03:18Z'
+  category: math.GT
+  source_url: https://arxiv.org/abs/2611.07499
+  source_version: 2611.07499v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - moduli-spaces
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-11-06T15:25:56.489428+00:00'
+  summary_zh: ''
+- id: '2611.07351'
+  title: Two-row Schur times Schubert via parallel classes of positroid varieties
+  authors_raw:
+  - Tianyi Yu
+  date: '2026-11-05'
+  published: '2026-11-05T02:39:18Z'
+  updated: '2026-11-05T02:39:18Z'
+  category: math.CO
+  source_url: https://arxiv.org/abs/2611.07351
+  source_version: 2611.07351v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - intersection-numbers
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-11-06T15:25:56.489428+00:00'
+  summary_zh: ''
+- id: '2611.07202'
+  title: Local Homological Mirror Symmetry
+  authors_raw:
+  - Si-Yang Liu
+  - Kyungmin Rho
+  date: '2026-11-04'
+  published: '2026-11-04T22:44:22Z'
+  updated: '2026-11-04T22:44:22Z'
+  category: math.SG
+  source_url: https://arxiv.org/abs/2611.07202
+  source_version: 2611.07202v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - homological-mirror-symmetry
+  - mirror-symmetry
+  relevance_score: 6
+  review_status: metadata-only
+  retrieved_at: '2026-11-06T15:25:56.489428+00:00'
+  summary_zh: ''
+- id: '2611.07186'
+  title: Instantons from geometry in M2-brane sphere partition functions
+  authors_raw:
+  - Kiril Hristov
+  - Ali Mert Yetkin
+  date: '2026-11-04'
+  published: '2026-11-04T22:21:17Z'
+  updated: '2026-11-04T22:21:17Z'
+  category: hep-th
+  source_url: https://arxiv.org/abs/2611.07186
+  source_version: 2611.07186v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - calabi-yau
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-11-06T15:25:56.489428+00:00'
+  summary_zh: ''
+- id: '2611.07178'
+  title: On a Dual Heterotic Kodaira-Spencer Theory
+  authors_raw:
+  - Siddhartha Mangamuri
+  - Eirik Eik Svanes
+  - Anuthi Tiwary
+  date: '2026-11-04'
+  published: '2026-11-04T22:04:52Z'
+  updated: '2026-11-04T22:04:52Z'
+  category: hep-th
+  source_url: https://arxiv.org/abs/2611.07178
+  source_version: 2611.07178v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - calabi-yau
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-11-06T15:25:56.489428+00:00'
+  summary_zh: ''
+- id: '2611.07079'
+  title: The odd biisotropic symplectic Grassmannian $\operatorname{S_2Gr}(3,7)$
+  authors_raw:
+  - Alexander Kuznetsov
+  date: '2026-11-04'
+  published: '2026-11-04T19:35:43Z'
+  updated: '2026-11-04T19:35:43Z'
+  category: math.AG
+  source_url: https://arxiv.org/abs/2611.07079
+  source_version: 2611.07079v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - derived-category
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-11-06T15:25:56.489428+00:00'
+  summary_zh: ''
+- id: '2611.07046'
+  title: Tangle Invariants Valued in Derived Categories of Sheaves and the Rouquier
+    Complex
+  authors_raw:
+  - Jian Qiu
+  - Alex Takeda
+  date: '2026-11-04'
+  published: '2026-11-04T19:06:15Z'
+  updated: '2026-11-04T19:06:15Z'
+  category: math.AG
+  source_url: https://arxiv.org/abs/2611.07046
+  source_version: 2611.07046v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - derived-categories
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-11-06T15:25:56.489428+00:00'
+  summary_zh: ''
+- id: '2611.07012'
+  title: Chern-Simons Interfaces and Minimal Models from Quantum Groups
+  authors_raw:
+  - Suriyah Rajalingam Kannagi
+  - Sergio Sanjurjo
+  date: '2026-11-04'
+  published: '2026-11-04T19:00:02Z'
+  updated: '2026-11-04T19:00:02Z'
+  category: hep-th
+  source_url: https://arxiv.org/abs/2611.07012
+  source_version: 2611.07012v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - quantum-groups
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-11-06T15:25:56.489428+00:00'
+  summary_zh: ''
+- id: '2611.07005'
+  title: 'To Infinity and Beyond: Maximizing Entanglement and Emergent Symmetries
+    in $N$ Higgs Doublet Models'
+  authors_raw:
+  - Spencer Chang
+  - Gabriel Jacobo
+  date: '2026-11-04'
+  published: '2026-11-04T19:00:01Z'
+  updated: '2026-11-04T19:00:01Z'
+  category: hep-ph
+  source_url: https://arxiv.org/abs/2611.07005
+  source_version: 2611.07005v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - mirror-symmetry
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-11-06T15:25:56.489428+00:00'
+  summary_zh: ''
+- id: '2611.07000'
+  title: Multipartite Entanglement, TQFT Partition Functions and PL Bordism
+  authors_raw:
+  - Michele Del Zotto
+  - Abhijit Gadde
+  - Pavel Putrov
+  date: '2026-11-04'
+  published: '2026-11-04T19:00:01Z'
+  updated: '2026-11-04T19:00:01Z'
+  category: hep-th
+  source_url: https://arxiv.org/abs/2611.07000
+  source_version: 2611.07000v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - tqft
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-11-06T15:25:56.489428+00:00'
+  summary_zh: ''
+- id: '2611.06999'
+  title: 'Matrix Theory from Holography II: Beyond Counting'
+  authors_raw:
+  - Shota Komatsu
+  - Eunwoo Lee
+  - Chintan Patel
+  date: '2026-11-04'
+  published: '2026-11-04T19:00:01Z'
+  updated: '2026-11-04T19:00:01Z'
+  category: hep-th
+  source_url: https://arxiv.org/abs/2611.06999
+  source_version: 2611.06999v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - mirror-symmetry
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-11-06T15:25:56.489428+00:00'
+  summary_zh: ''
