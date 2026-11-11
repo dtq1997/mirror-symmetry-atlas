@@ -1,0 +1,374 @@
+fetch_date: '2026-11-11'
+period_days: 7
+last_success_at: '2026-11-11T15:40:07.310957+00:00'
+total_fetched: 656
+relevant_count: 17
+fetch_evidence:
+  query: (cat:math-ph OR cat:math.AG OR cat:math.QA OR cat:hep-th OR cat:math.DG OR
+    cat:math.SG OR cat:nlin.SI) AND submittedDate:[202611041540 TO 202611111540]
+  categories:
+  - math-ph
+  - math.AG
+  - math.QA
+  - hep-th
+  - math.DG
+  - math.SG
+  - nlin.SI
+  window_start: '2026-11-04T15:40:07.310957+00:00'
+  window_end: '2026-11-11T15:40:07.310957+00:00'
+  total_fetched: 656
+  pages:
+  - url: https://export.arxiv.org/api/query?search_query=%28cat%3Amath-ph+OR+cat%3Amath.AG+OR+cat%3Amath.QA+OR+cat%3Ahep-th+OR+cat%3Amath.DG+OR+cat%3Amath.SG+OR+cat%3Anlin.SI%29+AND+submittedDate%3A%5B202611041540+TO+202611111540%5D&start=0&max_results=200&sortBy=submittedDate&sortOrder=descending
+    sha256: 884d3a41c203ca28226e9e87dd316b39deffeef47874bd366753cecf39ed8e4e
+    start: 0
+    count: 200
+  - url: https://export.arxiv.org/api/query?search_query=%28cat%3Amath-ph+OR+cat%3Amath.AG+OR+cat%3Amath.QA+OR+cat%3Ahep-th+OR+cat%3Amath.DG+OR+cat%3Amath.SG+OR+cat%3Anlin.SI%29+AND+submittedDate%3A%5B202611041540+TO+202611111540%5D&start=200&max_results=200&sortBy=submittedDate&sortOrder=descending
+    sha256: 898fcb36239d93bab7009dd759001319ecd9656cb02a255cf47562de24e7148f
+    start: 200
+    count: 200
+  - url: https://export.arxiv.org/api/query?search_query=%28cat%3Amath-ph+OR+cat%3Amath.AG+OR+cat%3Amath.QA+OR+cat%3Ahep-th+OR+cat%3Amath.DG+OR+cat%3Amath.SG+OR+cat%3Anlin.SI%29+AND+submittedDate%3A%5B202611041540+TO+202611111540%5D&start=400&max_results=200&sortBy=submittedDate&sortOrder=descending
+    sha256: e27b761c16c8f217134882cf22833539c25964fff4eb329150f1ceec15b3439f
+    start: 400
+    count: 200
+  - url: https://export.arxiv.org/api/query?search_query=%28cat%3Amath-ph+OR+cat%3Amath.AG+OR+cat%3Amath.QA+OR+cat%3Ahep-th+OR+cat%3Amath.DG+OR+cat%3Amath.SG+OR+cat%3Anlin.SI%29+AND+submittedDate%3A%5B202611041540+TO+202611111540%5D&start=600&max_results=200&sortBy=submittedDate&sortOrder=descending
+    sha256: 5af441da6cbc6c0653881ca006cca5eb2a409cd1c4312f1f61663e1dbc063daf
+    start: 600
+    count: 56
+entries:
+- id: '2611.14453'
+  title: Shifted Lagrangian structures and syzygies on Calabi--Yau varieties
+  authors_raw:
+  - Enrico Lampetti
+  - Luca Morstabilini
+  date: '2026-11-10'
+  published: '2026-11-10T18:20:48Z'
+  updated: '2026-11-10T18:20:48Z'
+  category: math.AG
+  source_url: https://arxiv.org/abs/2611.14453
+  source_version: 2611.14453v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - algebraic-geometry
+  - calabi-yau
+  relevance_score: 6
+  review_status: metadata-only
+  retrieved_at: '2026-11-11T15:40:07.310957+00:00'
+  summary_zh: ''
+- id: '2611.14310'
+  title: Examples of homological mirror symmetry via Zariski descent
+  authors_raw:
+  - James Pascaleff
+  date: '2026-11-10'
+  published: '2026-11-10T16:41:42Z'
+  updated: '2026-11-10T16:41:42Z'
+  category: math.SG
+  source_url: https://arxiv.org/abs/2611.14310
+  source_version: 2611.14310v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - calabi-yau
+  - fukaya-category
+  - homological-mirror-symmetry
+  - mirror-symmetry
+  relevance_score: 12
+  review_status: metadata-only
+  retrieved_at: '2026-11-11T15:40:07.310957+00:00'
+  summary_zh: ''
+- id: '2611.14190'
+  title: 'Affine Springer fibers, Cherednik algebra modules and Hilbert schemes: torus
+    link case'
+  authors_raw:
+  - Pablo Boixeda Alvarez
+  - Thomas Hameister
+  - Xinchun Ma
+  date: '2026-11-10'
+  published: '2026-11-10T15:12:19Z'
+  updated: '2026-11-10T15:12:19Z'
+  category: math.AG
+  source_url: https://arxiv.org/abs/2611.14190
+  source_version: 2611.14190v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - k-theory
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-11-11T15:40:07.310957+00:00'
+  summary_zh: ''
+- id: '2611.14172'
+  title: Generalizations of Courant brackets in the T-dual description of a weakly
+    curved string background
+  authors_raw:
+  - Ilija Ivanišević
+  date: '2026-11-10'
+  published: '2026-11-10T15:00:41Z'
+  updated: '2026-11-10T15:00:41Z'
+  category: hep-th
+  source_url: https://arxiv.org/abs/2611.14172
+  source_version: 2611.14172v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - courant-algebroid
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-11-11T15:40:07.310957+00:00'
+  summary_zh: ''
+- id: '2611.14110'
+  title: Loops and mirrors
+  authors_raw:
+  - Nero Budur
+  date: '2026-11-10'
+  published: '2026-11-10T14:02:13Z'
+  updated: '2026-11-10T14:02:13Z'
+  category: math.AG
+  source_url: https://arxiv.org/abs/2611.14110
+  source_version: 2611.14110v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - calabi-yau
+  - mirror-symmetry
+  relevance_score: 6
+  review_status: metadata-only
+  retrieved_at: '2026-11-11T15:40:07.310957+00:00'
+  summary_zh: ''
+- id: '2611.14020'
+  title: Hamiltonian GKM spaces via Gromov-Witten theory
+  authors_raw:
+  - Daniel Holmes
+  date: '2026-11-10'
+  published: '2026-11-10T12:53:26Z'
+  updated: '2026-11-10T12:53:26Z'
+  category: math.SG
+  source_url: https://arxiv.org/abs/2611.14020
+  source_version: 2611.14020v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - gromov-witten-theory
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-11-11T15:40:07.310957+00:00'
+  summary_zh: ''
+- id: '2611.13974'
+  title: 'Two-parameter versus one-parameter quantum groups: structural differences
+    arising from the type~$D$ phenomenon'
+  authors_raw:
+  - Naihong Hu
+  - Marc Rosso
+  - Xiao Xu
+  date: '2026-11-10'
+  published: '2026-11-10T12:12:05Z'
+  updated: '2026-11-10T12:12:05Z'
+  category: math.QA
+  source_url: https://arxiv.org/abs/2611.13974
+  source_version: 2611.13974v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - quantum-groups
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-11-11T15:40:07.310957+00:00'
+  summary_zh: ''
+- id: '2611.13918'
+  title: 'Generalized Frobenius manifolds: symmetries and their classification in
+    2-dimensions'
+  authors_raw:
+  - Andre Bedell
+  - Misha Feigin
+  - Leo Kaminski
+  - Alessandro Proserpio
+  - Ian A. B. Strachan
+  date: '2026-11-10'
+  published: '2026-11-10T11:06:35Z'
+  updated: '2026-11-10T11:06:35Z'
+  category: math.DG
+  source_url: https://arxiv.org/abs/2611.13918
+  source_version: 2611.13918v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - frobenius-manifold
+  - frobenius-manifolds
+  relevance_score: 6
+  review_status: metadata-only
+  retrieved_at: '2026-11-11T15:40:07.310957+00:00'
+  summary_zh: ''
+- id: '2611.13877'
+  title: Non-abelian $p$-adic Hodge theory and stacks
+  authors_raw:
+  - Bhargav Bhatt
+  date: '2026-11-10'
+  published: '2026-11-10T10:37:13Z'
+  updated: '2026-11-10T10:37:13Z'
+  category: math.AG
+  source_url: https://arxiv.org/abs/2611.13877
+  source_version: 2611.13877v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - hodge-theory
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-11-11T15:40:07.310957+00:00'
+  summary_zh: ''
+- id: '2611.13812'
+  title: Combinatorial curvature flows for spherical vertex scalings on infinitely
+    triangulated surfaces
+  authors_raw:
+  - Yuerong Bian
+  - Xu Xu
+  date: '2026-11-10'
+  published: '2026-11-10T09:42:05Z'
+  updated: '2026-11-10T09:42:05Z'
+  category: math.DG
+  source_url: https://arxiv.org/abs/2611.13812
+  source_version: 2611.13812v1
+  matched_people: []
+  candidate_people:
+  - xu-xu
+  matched_concepts: []
+  relevance_score: 10
+  review_status: metadata-only
+  retrieved_at: '2026-11-11T15:40:07.310957+00:00'
+  summary_zh: ''
+- id: '2611.13639'
+  title: Quantum Langlands correspondence for Painlevé II
+  authors_raw:
+  - Sibasish Banerjee
+  - Babak Haghighat
+  - Jie Sun
+  date: '2026-11-10'
+  published: '2026-11-10T06:29:50Z'
+  updated: '2026-11-10T06:29:50Z'
+  category: hep-th
+  source_url: https://arxiv.org/abs/2611.13639
+  source_version: 2611.13639v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - isomonodromy
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-11-11T15:40:07.310957+00:00'
+  summary_zh: ''
+- id: '2611.13591'
+  title: Topological flat bands from nonlinear periodic motion
+  authors_raw:
+  - Urei Miura
+  - Hisao Hayakawa
+  date: '2026-11-10'
+  published: '2026-11-10T05:02:46Z'
+  updated: '2026-11-10T05:02:46Z'
+  category: cond-mat.mes-hall
+  source_url: https://arxiv.org/abs/2611.13591
+  source_version: 2611.13591v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - integrable-systems
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-11-11T15:40:07.310957+00:00'
+  summary_zh: ''
+- id: '2611.13484'
+  title: Boundary dualities of symplectic Chern-Simons theories and minimal models
+  authors_raw:
+  - Yu Nakayama
+  - Tadashi Okazaki
+  date: '2026-11-10'
+  published: '2026-11-10T02:44:22Z'
+  updated: '2026-11-10T02:44:22Z'
+  category: hep-th
+  source_url: https://arxiv.org/abs/2611.13484
+  source_version: 2611.13484v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - mirror-symmetry
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-11-11T15:40:07.310957+00:00'
+  summary_zh: ''
+- id: '2611.13422'
+  title: Gromov-Witten Nonvanishing and Symplectic Deformations of Toric Varieties
+  authors_raw:
+  - Nathan Tausik
+  date: '2026-11-10'
+  published: '2026-11-10T01:05:46Z'
+  updated: '2026-11-10T01:05:46Z'
+  category: math.AG
+  source_url: https://arxiv.org/abs/2611.13422
+  source_version: 2611.13422v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - quantum-cohomology
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-11-11T15:40:07.310957+00:00'
+  summary_zh: ''
+- id: '2611.13126'
+  title: Reciprocal mirror map derivatives, euler-twisted Gromov-Witten invariants,
+    and instanton counts via quantum Serre duality
+  authors_raw:
+  - Irit Huq-Kuruvilla
+  - Michael T. Schultz
+  date: '2026-11-09'
+  published: '2026-11-09T19:12:52Z'
+  updated: '2026-11-09T19:12:52Z'
+  category: math.AG
+  source_url: https://arxiv.org/abs/2611.13126
+  source_version: 2611.13126v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - calabi-yau
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-11-11T15:40:07.310957+00:00'
+  summary_zh: ''
+- id: '2611.13092'
+  title: 'Moduli spaces in CFT: vortex defects'
+  authors_raw:
+  - Gabriel Cuomo
+  - Adar Sharon
+  date: '2026-11-09'
+  published: '2026-11-09T19:00:02Z'
+  updated: '2026-11-09T19:00:02Z'
+  category: hep-th
+  source_url: https://arxiv.org/abs/2611.13092
+  source_version: 2611.13092v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - moduli-spaces
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-11-11T15:40:07.310957+00:00'
+  summary_zh: ''
+- id: '2611.13078'
+  title: 'More physics at the entangling surface: boundary conditions and entanglement
+    in 2d TQFT'
+  authors_raw:
+  - Jackson R. Fliss
+  - Alan Rios Fukelman
+  - Stathis Vitouladitis
+  date: '2026-11-09'
+  published: '2026-11-09T19:00:01Z'
+  updated: '2026-11-09T19:00:01Z'
+  category: hep-th
+  source_url: https://arxiv.org/abs/2611.13078
+  source_version: 2611.13078v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - tqft
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-11-11T15:40:07.310957+00:00'
+  summary_zh: ''
