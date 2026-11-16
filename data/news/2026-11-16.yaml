@@ -1,0 +1,342 @@
+fetch_date: '2026-11-16'
+period_days: 7
+last_success_at: '2026-11-16T17:31:48.790091+00:00'
+total_fetched: 550
+relevant_count: 16
+fetch_evidence:
+  query: (cat:math-ph OR cat:math.AG OR cat:math.QA OR cat:hep-th OR cat:math.DG OR
+    cat:math.SG OR cat:nlin.SI) AND submittedDate:[202611091731 TO 202611161731]
+  categories:
+  - math-ph
+  - math.AG
+  - math.QA
+  - hep-th
+  - math.DG
+  - math.SG
+  - nlin.SI
+  window_start: '2026-11-09T17:31:48.790091+00:00'
+  window_end: '2026-11-16T17:31:48.790091+00:00'
+  total_fetched: 550
+  pages:
+  - url: https://export.arxiv.org/api/query?search_query=%28cat%3Amath-ph+OR+cat%3Amath.AG+OR+cat%3Amath.QA+OR+cat%3Ahep-th+OR+cat%3Amath.DG+OR+cat%3Amath.SG+OR+cat%3Anlin.SI%29+AND+submittedDate%3A%5B202611091731+TO+202611161731%5D&start=0&max_results=200&sortBy=submittedDate&sortOrder=descending
+    sha256: 9a6d96173bbbef26ba2b0a3a69538f17aa44a21c44a2d5d4dca348611a027d05
+    start: 0
+    count: 200
+  - url: https://export.arxiv.org/api/query?search_query=%28cat%3Amath-ph+OR+cat%3Amath.AG+OR+cat%3Amath.QA+OR+cat%3Ahep-th+OR+cat%3Amath.DG+OR+cat%3Amath.SG+OR+cat%3Anlin.SI%29+AND+submittedDate%3A%5B202611091731+TO+202611161731%5D&start=200&max_results=200&sortBy=submittedDate&sortOrder=descending
+    sha256: 83b9fb815e2afc5db0295349ecbc4c2d7b9cdfd11a0f7151251c0e9c084970e7
+    start: 200
+    count: 200
+  - url: https://export.arxiv.org/api/query?search_query=%28cat%3Amath-ph+OR+cat%3Amath.AG+OR+cat%3Amath.QA+OR+cat%3Ahep-th+OR+cat%3Amath.DG+OR+cat%3Amath.SG+OR+cat%3Anlin.SI%29+AND+submittedDate%3A%5B202611091731+TO+202611161731%5D&start=400&max_results=200&sortBy=submittedDate&sortOrder=descending
+    sha256: c6ef757826185a5d287c091f4dc6b08e4152146c90559dda0819bfb7e695f214
+    start: 400
+    count: 150
+entries:
+- id: '2611.18555'
+  title: Towards invertibility of derived categories of sheaf-theoretic line operators
+  authors_raw:
+  - Claudia Scheimbauer
+  - Jackson Van Dyke
+  date: '2026-11-13'
+  published: '2026-11-13T18:58:35Z'
+  updated: '2026-11-13T18:58:35Z'
+  category: math.QA
+  source_url: https://arxiv.org/abs/2611.18555
+  source_version: 2611.18555v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - derived-categories
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-11-16T17:31:48.790091+00:00'
+  summary_zh: ''
+- id: '2611.18539'
+  title: Geometric Quantization of the Giant Graviton Master Moduli Space
+  authors_raw:
+  - Kasia Budzik
+  - Davide Gaiotto
+  date: '2026-11-13'
+  published: '2026-11-13T18:48:14Z'
+  updated: '2026-11-13T18:48:14Z'
+  category: hep-th
+  source_url: https://arxiv.org/abs/2611.18539
+  source_version: 2611.18539v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - geometric-quantization
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-11-16T17:31:48.790091+00:00'
+  summary_zh: ''
+- id: '2611.18432'
+  title: A quotient formula for the Behrend function
+  authors_raw:
+  - Fatemeh Rezaee
+  date: '2026-11-13'
+  published: '2026-11-13T17:11:39Z'
+  updated: '2026-11-13T17:11:39Z'
+  category: math.AG
+  source_url: https://arxiv.org/abs/2611.18432
+  source_version: 2611.18432v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - enumerative-geometry
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-11-16T17:31:48.790091+00:00'
+  summary_zh: ''
+- id: '2611.18374'
+  title: The $\operatorname{Proj}$ construction for pro-graded Huber pairs
+  authors_raw:
+  - Dimitri Dine
+  date: '2026-11-13'
+  published: '2026-11-13T16:19:28Z'
+  updated: '2026-11-13T16:19:28Z'
+  category: math.AG
+  source_url: https://arxiv.org/abs/2611.18374
+  source_version: 2611.18374v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - algebraic-geometry
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-11-16T17:31:48.790091+00:00'
+  summary_zh: ''
+- id: '2611.18160'
+  title: Holonomy groupoids of singular subalgebroids in the non-integrable case
+  authors_raw:
+  - Nicolas Tribouillard
+  - Marco Zambon
+  date: '2026-11-13'
+  published: '2026-11-13T13:36:18Z'
+  updated: '2026-11-13T13:36:18Z'
+  category: math.DG
+  source_url: https://arxiv.org/abs/2611.18160
+  source_version: 2611.18160v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - lie-algebroid
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-11-16T17:31:48.790091+00:00'
+  summary_zh: ''
+- id: '2611.18118'
+  title: Mirror symmetry of $\mathcal{N}=(0,4)$ boundary conditions with Nahm poles
+  authors_raw:
+  - Tadashi Okazaki
+  date: '2026-11-13'
+  published: '2026-11-13T12:43:29Z'
+  updated: '2026-11-13T12:43:29Z'
+  category: hep-th
+  source_url: https://arxiv.org/abs/2611.18118
+  source_version: 2611.18118v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - mirror-symmetry
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-11-16T17:31:48.790091+00:00'
+  summary_zh: ''
+- id: '2611.17841'
+  title: Inequalities for intersection numbers from Hodge-Riemann relations
+  authors_raw:
+  - Xiangru Zeng
+  date: '2026-11-13'
+  published: '2026-11-13T07:23:06Z'
+  updated: '2026-11-13T07:23:06Z'
+  category: math.AG
+  source_url: https://arxiv.org/abs/2611.17841
+  source_version: 2611.17841v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - intersection-numbers
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-11-16T17:31:48.790091+00:00'
+  summary_zh: ''
+- id: '2611.17783'
+  title: Entire curves in surface bundles over tori
+  authors_raw:
+  - Anthony Nguyen
+  date: '2026-11-13'
+  published: '2026-11-13T05:52:54Z'
+  updated: '2026-11-13T05:52:54Z'
+  category: math.SG
+  source_url: https://arxiv.org/abs/2611.17783
+  source_version: 2611.17783v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - symplectic-topology
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-11-16T17:31:48.790091+00:00'
+  summary_zh: ''
+- id: '2611.17719'
+  title: The non-stationary $\widehat{\mathfrak{gl}}_N$ affine Laumon function and
+    its difference equation
+  authors_raw:
+  - Philippe Di Francesco
+  - Rinat Kedem
+  date: '2026-11-13'
+  published: '2026-11-13T03:54:58Z'
+  updated: '2026-11-13T03:54:58Z'
+  category: math-ph
+  source_url: https://arxiv.org/abs/2611.17719
+  source_version: 2611.17719v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - cluster-algebra
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-11-16T17:31:48.790091+00:00'
+  summary_zh: ''
+- id: '2611.17716'
+  title: Cubic local observability of Gaussian-blind sources in thermal $φ^4_2$ fields
+  authors_raw:
+  - Rubin Zhang
+  - Ning Zhang
+  date: '2026-11-13'
+  published: '2026-11-13T03:51:23Z'
+  updated: '2026-11-13T03:51:23Z'
+  category: math.PR
+  source_url: https://arxiv.org/abs/2611.17716
+  source_version: 2611.17716v1
+  matched_people: []
+  candidate_people:
+  - zhang-ning
+  matched_concepts: []
+  relevance_score: 10
+  review_status: metadata-only
+  retrieved_at: '2026-11-16T17:31:48.790091+00:00'
+  summary_zh: ''
+- id: '2611.17536'
+  title: A new tautological relation on $\overline{\mathcal{M}}_{2,14}$ in cohomology
+  authors_raw:
+  - Samir Canning
+  - Bochao Kong
+  - Rahul Pandharipande
+  - Dan Petersen
+  - Aaron Pixton
+  - Johannes Schmitt
+  date: '2026-11-12'
+  published: '2026-11-12T21:44:44Z'
+  updated: '2026-11-12T21:44:44Z'
+  category: math.AG
+  source_url: https://arxiv.org/abs/2611.17536
+  source_version: 2611.17536v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - moduli-spaces
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-11-16T17:31:48.790091+00:00'
+  summary_zh: ''
+- id: '2611.17533'
+  title: Extrinsic Representation of the Partial Ricci Flow
+  authors_raw:
+  - Vladimir Rovenski
+  - Sergey Liflandsky
+  date: '2026-11-12'
+  published: '2026-11-12T21:35:46Z'
+  updated: '2026-11-12T21:35:46Z'
+  category: math.DG
+  source_url: https://arxiv.org/abs/2611.17533
+  source_version: 2611.17533v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - mathematical-physics
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-11-16T17:31:48.790091+00:00'
+  summary_zh: ''
+- id: '2611.17485'
+  title: Quantum Fundamental Groups of Spaces with Finite-Sheeted Universal Covers
+  authors_raw:
+  - Shuzhou Wang
+  - Zhenhua Wang
+  - Matthew Zediker
+  date: '2026-11-12'
+  published: '2026-11-12T20:15:51Z'
+  updated: '2026-11-12T20:15:51Z'
+  category: math.QA
+  source_url: https://arxiv.org/abs/2611.17485
+  source_version: 2611.17485v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - quantum-groups
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-11-16T17:31:48.790091+00:00'
+  summary_zh: ''
+- id: '2611.17467'
+  title: Geometric Bounds on Axion-Photon Couplings in Non-Supersymmetric Heterotic
+    Compactifications
+  authors_raw:
+  - Yuichi Koga
+  - Hajime Otsuka
+  date: '2026-11-12'
+  published: '2026-11-12T19:51:57Z'
+  updated: '2026-11-12T19:51:57Z'
+  category: hep-ph
+  source_url: https://arxiv.org/abs/2611.17467
+  source_version: 2611.17467v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - calabi-yau
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-11-16T17:31:48.790091+00:00'
+  summary_zh: ''
+- id: '2611.17419'
+  title: Sasakian Hodge Numbers of Calabi-Yau Links
+  authors_raw:
+  - Edward Hirst
+  - Henrique N. Sá Earp
+  - Tomás S. R. Silva
+  date: '2026-11-12'
+  published: '2026-11-12T19:00:07Z'
+  updated: '2026-11-12T19:00:07Z'
+  category: math.AG
+  source_url: https://arxiv.org/abs/2611.17419
+  source_version: 2611.17419v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - calabi-yau
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-11-16T17:31:48.790091+00:00'
+  summary_zh: ''
+- id: '2611.17413'
+  title: Black Hole Probes under T-duality
+  authors_raw:
+  - Matilda Delgado
+  - Dieter Lüst
+  - Giulia Tazzoli
+  - Matteo Zatti
+  date: '2026-11-12'
+  published: '2026-11-12T19:00:04Z'
+  updated: '2026-11-12T19:00:04Z'
+  category: hep-th
+  source_url: https://arxiv.org/abs/2611.17413
+  source_version: 2611.17413v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - calabi-yau
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-11-16T17:31:48.790091+00:00'
+  summary_zh: ''
