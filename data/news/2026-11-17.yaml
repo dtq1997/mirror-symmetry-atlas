@@ -1,0 +1,445 @@
+fetch_date: '2026-11-17'
+period_days: 7
+last_success_at: '2026-11-17T17:07:37.658660+00:00'
+total_fetched: 662
+relevant_count: 21
+fetch_evidence:
+  query: (cat:math-ph OR cat:math.AG OR cat:math.QA OR cat:hep-th OR cat:math.DG OR
+    cat:math.SG OR cat:nlin.SI) AND submittedDate:[202611101707 TO 202611171707]
+  categories:
+  - math-ph
+  - math.AG
+  - math.QA
+  - hep-th
+  - math.DG
+  - math.SG
+  - nlin.SI
+  window_start: '2026-11-10T17:07:37.658660+00:00'
+  window_end: '2026-11-17T17:07:37.658660+00:00'
+  total_fetched: 662
+  pages:
+  - url: https://export.arxiv.org/api/query?search_query=%28cat%3Amath-ph+OR+cat%3Amath.AG+OR+cat%3Amath.QA+OR+cat%3Ahep-th+OR+cat%3Amath.DG+OR+cat%3Amath.SG+OR+cat%3Anlin.SI%29+AND+submittedDate%3A%5B202611101707+TO+202611171707%5D&start=0&max_results=200&sortBy=submittedDate&sortOrder=descending
+    sha256: 8902c87e673533df3b178a390b7eefa2f4bc026fc932ecb3bd177c18bdf6f7a7
+    start: 0
+    count: 200
+  - url: https://export.arxiv.org/api/query?search_query=%28cat%3Amath-ph+OR+cat%3Amath.AG+OR+cat%3Amath.QA+OR+cat%3Ahep-th+OR+cat%3Amath.DG+OR+cat%3Amath.SG+OR+cat%3Anlin.SI%29+AND+submittedDate%3A%5B202611101707+TO+202611171707%5D&start=200&max_results=200&sortBy=submittedDate&sortOrder=descending
+    sha256: 4dcc4f5b85f6210af8fd7c5d0f9357080612194a5dbe98000138508d7e65ce3d
+    start: 200
+    count: 200
+  - url: https://export.arxiv.org/api/query?search_query=%28cat%3Amath-ph+OR+cat%3Amath.AG+OR+cat%3Amath.QA+OR+cat%3Ahep-th+OR+cat%3Amath.DG+OR+cat%3Amath.SG+OR+cat%3Anlin.SI%29+AND+submittedDate%3A%5B202611101707+TO+202611171707%5D&start=400&max_results=200&sortBy=submittedDate&sortOrder=descending
+    sha256: ee8afc9e1d5bc0e7743a3932b13877f80796fca1d3c1f2ed605cff223e8589f8
+    start: 400
+    count: 200
+  - url: https://export.arxiv.org/api/query?search_query=%28cat%3Amath-ph+OR+cat%3Amath.AG+OR+cat%3Amath.QA+OR+cat%3Ahep-th+OR+cat%3Amath.DG+OR+cat%3Amath.SG+OR+cat%3Anlin.SI%29+AND+submittedDate%3A%5B202611101707+TO+202611171707%5D&start=600&max_results=200&sortBy=submittedDate&sortOrder=descending
+    sha256: 550621b342f1977b6111226adfcd976125fe89fdcb985cf0d9f89f5a5fe68be0
+    start: 600
+    count: 62
+entries:
+- id: '2611.21576'
+  title: Quantum Cohomology and irrationality of Küchle fourfolds
+  authors_raw:
+  - Aideen Fay
+  date: '2026-11-16'
+  published: '2026-11-16T18:49:08Z'
+  updated: '2026-11-16T18:49:08Z'
+  category: math.AG
+  source_url: https://arxiv.org/abs/2611.21576
+  source_version: 2611.21576v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - quantum-cohomology
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-11-17T17:07:37.658660+00:00'
+  summary_zh: ''
+- id: '2611.21569'
+  title: 'Heavy-Light Wall Crossings and Motivic Asymptotics of Moduli Spaces of Curves.
+    Part II: Tameness of Motivic Measures'
+  authors_raw:
+  - Giordano Cotti
+  date: '2026-11-16'
+  published: '2026-11-16T18:42:43Z'
+  updated: '2026-11-16T18:42:43Z'
+  category: math.AG
+  source_url: https://arxiv.org/abs/2611.21569
+  source_version: 2611.21569v1
+  matched_people: []
+  candidate_people:
+  - cotti
+  matched_concepts:
+  - moduli-spaces
+  relevance_score: 13
+  review_status: metadata-only
+  retrieved_at: '2026-11-17T17:07:37.658660+00:00'
+  summary_zh: ''
+- id: '2611.21484'
+  title: Ice and mirrors
+  authors_raw:
+  - Mingyuan Hu
+  - Vivek Shende
+  date: '2026-11-16'
+  published: '2026-11-16T17:53:46Z'
+  updated: '2026-11-16T17:53:46Z'
+  category: math.SG
+  source_url: https://arxiv.org/abs/2611.21484
+  source_version: 2611.21484v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - homological-mirror-symmetry
+  - mirror-symmetry
+  relevance_score: 6
+  review_status: metadata-only
+  retrieved_at: '2026-11-17T17:07:37.658660+00:00'
+  summary_zh: ''
+- id: '2611.21437'
+  title: P = W conjectures for varieties with nilpotent fundamental group
+  authors_raw:
+  - Barbara Bolognese
+  - Camilla Felisetti
+  - Andreas Gross
+  - Alex Küronya
+  - GyeongHyeon Nam
+  - Martin Ulirsch
+  date: '2026-11-16'
+  published: '2026-11-16T17:24:54Z'
+  updated: '2026-11-16T17:24:54Z'
+  category: math.AG
+  source_url: https://arxiv.org/abs/2611.21437
+  source_version: 2611.21437v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - moduli-spaces
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-11-17T17:07:37.658660+00:00'
+  summary_zh: ''
+- id: '2611.21173'
+  title: Elliptic Gromov-Witten Invariants of Instanton Moduli
+  authors_raw:
+  - Hsian-Hua Tseng
+  - Xiaohan Yan
+  date: '2026-11-16'
+  published: '2026-11-16T14:33:44Z'
+  updated: '2026-11-16T14:33:44Z'
+  category: math.AG
+  source_url: https://arxiv.org/abs/2611.21173
+  source_version: 2611.21173v1
+  matched_people: []
+  candidate_people:
+  - tseng-hsian-hua
+  matched_concepts: []
+  relevance_score: 10
+  review_status: metadata-only
+  retrieved_at: '2026-11-17T17:07:37.658660+00:00'
+  summary_zh: ''
+- id: '2611.21010'
+  title: 'The Singular LeBrun Transform: Complex Conformal and Contact Geometry'
+  authors_raw:
+  - Yun-Gang Ye
+  date: '2026-11-16'
+  published: '2026-11-16T12:33:35Z'
+  updated: '2026-11-16T12:33:35Z'
+  category: math.DG
+  source_url: https://arxiv.org/abs/2611.21010
+  source_version: 2611.21010v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - moduli-spaces
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-11-17T17:07:37.658660+00:00'
+  summary_zh: ''
+- id: '2611.20892'
+  title: Resurgent Analysis of the Single-Orbit Term in the Selberg Trace Formula
+  authors_raw:
+  - Wen Shen
+  date: '2026-11-16'
+  published: '2026-11-16T11:00:55Z'
+  updated: '2026-11-16T11:00:55Z'
+  category: math-ph
+  source_url: https://arxiv.org/abs/2611.20892
+  source_version: 2611.20892v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - stokes-phenomenon
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-11-17T17:07:37.658660+00:00'
+  summary_zh: ''
+- id: '2611.20760'
+  title: Deformation Quantization of Coisotropic A-branes
+  authors_raw:
+  - Conan Naichung Leung
+  - YuTung Yau
+  - Zhenyu Ye
+  date: '2026-11-16'
+  published: '2026-11-16T09:10:57Z'
+  updated: '2026-11-16T09:10:57Z'
+  category: math.DG
+  source_url: https://arxiv.org/abs/2611.20760
+  source_version: 2611.20760v1
+  matched_people: []
+  candidate_people:
+  - leung-naichung
+  matched_concepts:
+  - atiyah-class
+  - deformation-quantization
+  - symplectic-geometry
+  relevance_score: 19
+  review_status: metadata-only
+  retrieved_at: '2026-11-17T17:07:37.658660+00:00'
+  summary_zh: ''
+- id: '2611.20615'
+  title: Hyperbolic string vertices as geometric chains
+  authors_raw:
+  - Hao Yu
+  date: '2026-11-16'
+  published: '2026-11-16T06:38:53Z'
+  updated: '2026-11-16T06:38:53Z'
+  category: math.GT
+  source_url: https://arxiv.org/abs/2611.20615
+  source_version: 2611.20615v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - moduli-spaces
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-11-17T17:07:37.658660+00:00'
+  summary_zh: ''
+- id: '2611.20424'
+  title: Quasi-F-split heights and derived Morita invariance
+  authors_raw:
+  - Keiho Matsumoto
+  date: '2026-11-16'
+  published: '2026-11-16T02:38:21Z'
+  updated: '2026-11-16T02:38:21Z'
+  category: math.AG
+  source_url: https://arxiv.org/abs/2611.20424
+  source_version: 2611.20424v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - algebraic-geometry
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-11-17T17:07:37.658660+00:00'
+  summary_zh: ''
+- id: '2611.20282'
+  title: 'Canonical metrics on punctured spheres, II: compactified moduli spaces of
+    black holes'
+  authors_raw:
+  - Boris Botvinnik
+  date: '2026-11-15'
+  published: '2026-11-15T22:24:26Z'
+  updated: '2026-11-15T22:24:26Z'
+  category: gr-qc
+  source_url: https://arxiv.org/abs/2611.20282
+  source_version: 2611.20282v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - moduli-spaces
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-11-17T17:07:37.658660+00:00'
+  summary_zh: ''
+- id: '2611.19950'
+  title: Towards a foundation model for Type IIB flux vacua
+  authors_raw:
+  - Sven Krippendorf
+  - Magdalena Larfors
+  - Zhimei Liu
+  - Andreas Schachner
+  - Moritz Walden
+  date: '2026-11-15'
+  published: '2026-11-15T11:44:14Z'
+  updated: '2026-11-15T11:44:14Z'
+  category: hep-th
+  source_url: https://arxiv.org/abs/2611.19950
+  source_version: 2611.19950v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - calabi-yau
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-11-17T17:07:37.658660+00:00'
+  summary_zh: ''
+- id: '2611.19855'
+  title: Scaling Fourier Inequalities for Locally Compact Quantum Groups
+  authors_raw:
+  - Jinsong Wu
+  - Fulin Yang
+  date: '2026-11-15'
+  published: '2026-11-15T07:37:38Z'
+  updated: '2026-11-15T07:37:38Z'
+  category: math.OA
+  source_url: https://arxiv.org/abs/2611.19855
+  source_version: 2611.19855v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - quantum-groups
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-11-17T17:07:37.658660+00:00'
+  summary_zh: ''
+- id: '2611.19797'
+  title: Stability of the tangent bundle on del Pezzo surfaces
+  authors_raw:
+  - Tristan Collins
+  - Jason Lo
+  - Yun Shi
+  - Shing-Tung Yau
+  date: '2026-11-15'
+  published: '2026-11-15T05:07:58Z'
+  updated: '2026-11-15T05:07:58Z'
+  category: math.AG
+  source_url: https://arxiv.org/abs/2611.19797
+  source_version: 2611.19797v1
+  matched_people: []
+  candidate_people:
+  - yau-shingtung
+  matched_concepts: []
+  relevance_score: 10
+  review_status: metadata-only
+  retrieved_at: '2026-11-17T17:07:37.658660+00:00'
+  summary_zh: ''
+- id: '2611.19580'
+  title: Log Hodge-de Rham degeneration beyond the toroidal case
+  authors_raw:
+  - Simon Felten
+  - Matthias Zach
+  date: '2026-11-14'
+  published: '2026-11-14T19:24:12Z'
+  updated: '2026-11-14T19:24:12Z'
+  category: math.AG
+  source_url: https://arxiv.org/abs/2611.19580
+  source_version: 2611.19580v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - calabi-yau
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-11-17T17:07:37.658660+00:00'
+  summary_zh: ''
+- id: '2611.19506'
+  title: Quantum periods and threefold flips
+  authors_raw:
+  - Yang He
+  - Artan Sheshmani
+  - Shing-Tung Yau
+  date: '2026-11-14'
+  published: '2026-11-14T16:56:24Z'
+  updated: '2026-11-14T16:56:24Z'
+  category: math.AG
+  source_url: https://arxiv.org/abs/2611.19506
+  source_version: 2611.19506v1
+  matched_people: []
+  candidate_people:
+  - yau-shingtung
+  matched_concepts: []
+  relevance_score: 10
+  review_status: metadata-only
+  retrieved_at: '2026-11-17T17:07:37.658660+00:00'
+  summary_zh: ''
+- id: '2611.19450'
+  title: Counting real meromorphic differentials on $\mathbb{CP}^1$
+  authors_raw:
+  - Alexandr Buryak
+  - Guillaume Tahar
+  date: '2026-11-14'
+  published: '2026-11-14T15:15:35Z'
+  updated: '2026-11-14T15:15:35Z'
+  category: math.AG
+  source_url: https://arxiv.org/abs/2611.19450
+  source_version: 2611.19450v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - wdvv-equations
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-11-17T17:07:37.658660+00:00'
+  summary_zh: ''
+- id: '2611.19436'
+  title: $Q$-operators, cluster mutations, and flavored Toda chain
+  authors_raw:
+  - Saebyeok Jeong
+  - Taro Kimura
+  - Norton Lee
+  date: '2026-11-14'
+  published: '2026-11-14T14:41:29Z'
+  updated: '2026-11-14T14:41:29Z'
+  category: math-ph
+  source_url: https://arxiv.org/abs/2611.19436
+  source_version: 2611.19436v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - integrable-systems
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-11-17T17:07:37.658660+00:00'
+  summary_zh: ''
+- id: '2611.19346'
+  title: Motivic Borel-Moore Homology is Borel-Moore Motivic Homology
+  authors_raw:
+  - Spencer G. Taylor
+  date: '2026-11-14'
+  published: '2026-11-14T11:34:07Z'
+  updated: '2026-11-14T11:34:07Z'
+  category: math.AG
+  source_url: https://arxiv.org/abs/2611.19346
+  source_version: 2611.19346v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - homotopy-theory
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-11-17T17:07:37.658660+00:00'
+  summary_zh: ''
+- id: '2611.18921'
+  title: Odd-degree cycles and rationality of Peskine sixfolds of discriminant 24
+  authors_raw:
+  - Yusuke Ohmiya
+  date: '2026-11-13'
+  published: '2026-11-13T20:24:44Z'
+  updated: '2026-11-13T20:24:44Z'
+  category: math.AG
+  source_url: https://arxiv.org/abs/2611.18921
+  source_version: 2611.18921v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - derived-category
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-11-17T17:07:37.658660+00:00'
+  summary_zh: ''
+- id: '2611.18852'
+  title: A toric construction of the spectral Tate curve
+  authors_raw:
+  - Laurent Smits
+  date: '2026-11-13'
+  published: '2026-11-13T19:05:45Z'
+  updated: '2026-11-13T19:05:45Z'
+  category: math.AT
+  source_url: https://arxiv.org/abs/2611.18852
+  source_version: 2611.18852v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - algebraic-geometry
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-11-17T17:07:37.658660+00:00'
+  summary_zh: ''
