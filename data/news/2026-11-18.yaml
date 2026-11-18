@@ -1,0 +1,191 @@
+fetch_date: '2026-11-18'
+period_days: 7
+last_success_at: '2026-11-18T16:44:53.065015+00:00'
+total_fetched: 675
+relevant_count: 8
+fetch_evidence:
+  query: (cat:math-ph OR cat:math.AG OR cat:math.QA OR cat:hep-th OR cat:math.DG OR
+    cat:math.SG OR cat:nlin.SI) AND submittedDate:[202611111644 TO 202611181644]
+  categories:
+  - math-ph
+  - math.AG
+  - math.QA
+  - hep-th
+  - math.DG
+  - math.SG
+  - nlin.SI
+  window_start: '2026-11-11T16:44:53.065015+00:00'
+  window_end: '2026-11-18T16:44:53.065015+00:00'
+  total_fetched: 675
+  pages:
+  - url: https://export.arxiv.org/api/query?search_query=%28cat%3Amath-ph+OR+cat%3Amath.AG+OR+cat%3Amath.QA+OR+cat%3Ahep-th+OR+cat%3Amath.DG+OR+cat%3Amath.SG+OR+cat%3Anlin.SI%29+AND+submittedDate%3A%5B202611111644+TO+202611181644%5D&start=0&max_results=200&sortBy=submittedDate&sortOrder=descending
+    sha256: 3e4e84a6da9a9380b0a20273b6cce17c9a3f8aad7756ec2064217cfa690ea0a9
+    start: 0
+    count: 200
+  - url: https://export.arxiv.org/api/query?search_query=%28cat%3Amath-ph+OR+cat%3Amath.AG+OR+cat%3Amath.QA+OR+cat%3Ahep-th+OR+cat%3Amath.DG+OR+cat%3Amath.SG+OR+cat%3Anlin.SI%29+AND+submittedDate%3A%5B202611111644+TO+202611181644%5D&start=200&max_results=200&sortBy=submittedDate&sortOrder=descending
+    sha256: a527dd246674da4654c30b03aedd864c46850a0523c3af2b75e8b1b3a1df1a5a
+    start: 200
+    count: 200
+  - url: https://export.arxiv.org/api/query?search_query=%28cat%3Amath-ph+OR+cat%3Amath.AG+OR+cat%3Amath.QA+OR+cat%3Ahep-th+OR+cat%3Amath.DG+OR+cat%3Amath.SG+OR+cat%3Anlin.SI%29+AND+submittedDate%3A%5B202611111644+TO+202611181644%5D&start=400&max_results=200&sortBy=submittedDate&sortOrder=descending
+    sha256: 202eed64573e998461b2da24800a0590c154480fda5bb4a07ec48c823cc3c284
+    start: 400
+    count: 200
+  - url: https://export.arxiv.org/api/query?search_query=%28cat%3Amath-ph+OR+cat%3Amath.AG+OR+cat%3Amath.QA+OR+cat%3Ahep-th+OR+cat%3Amath.DG+OR+cat%3Amath.SG+OR+cat%3Anlin.SI%29+AND+submittedDate%3A%5B202611111644+TO+202611181644%5D&start=600&max_results=200&sortBy=submittedDate&sortOrder=descending
+    sha256: 0f8e7b69ae38390d4a3562a6fb85aa5a8c3a7cff19b02c94a738fc63207c7bb2
+    start: 600
+    count: 75
+entries:
+- id: '2611.23163'
+  title: Calabi--Yau dimensions of monotone Fukaya summands from infinitesimal gradings
+  authors_raw:
+  - Yonghwan Kim
+  date: '2026-11-17'
+  published: '2026-11-17T18:16:39Z'
+  updated: '2026-11-17T18:16:39Z'
+  category: math.SG
+  source_url: https://arxiv.org/abs/2611.23163
+  source_version: 2611.23163v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - calabi-yau
+  - quantum-cohomology
+  relevance_score: 6
+  review_status: metadata-only
+  retrieved_at: '2026-11-18T16:44:53.065015+00:00'
+  summary_zh: ''
+- id: '2611.22992'
+  title: Generators of derived category and toric Frobenius morphism
+  authors_raw:
+  - Rinat Dosaev
+  date: '2026-11-17'
+  published: '2026-11-17T16:07:36Z'
+  updated: '2026-11-17T16:07:36Z'
+  category: math.AG
+  source_url: https://arxiv.org/abs/2611.22992
+  source_version: 2611.22992v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - derived-category
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-11-18T16:44:53.065015+00:00'
+  summary_zh: ''
+- id: '2611.22928'
+  title: 'Non-Invertible Quantum Cellular Automata I: Microscopic Definition of Non-Invertible
+    Symmetries'
+  authors_raw:
+  - Sahand Seifnashri
+  - Shu-Heng Shao
+  date: '2026-11-17'
+  published: '2026-11-17T15:27:31Z'
+  updated: '2026-11-17T15:27:31Z'
+  category: cond-mat.str-el
+  source_url: https://arxiv.org/abs/2611.22928
+  source_version: 2611.22928v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - index-theory
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-11-18T16:44:53.065015+00:00'
+  summary_zh: ''
+- id: '2611.22832'
+  title: Lagrangian structures, $r$-matrices and Poisson brackets
+  authors_raw:
+  - Daniel Álvarez
+  date: '2026-11-17'
+  published: '2026-11-17T14:16:06Z'
+  updated: '2026-11-17T14:16:06Z'
+  category: math.SG
+  source_url: https://arxiv.org/abs/2611.22832
+  source_version: 2611.22832v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - moduli-spaces
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-11-18T16:44:53.065015+00:00'
+  summary_zh: ''
+- id: '2611.22785'
+  title: 'Toric Calabi-Yau orientifolds: constructions, fixed loci and O-plane charges'
+  authors_raw:
+  - Xu Cao
+  - Xin Gao
+  date: '2026-11-17'
+  published: '2026-11-17T13:49:45Z'
+  updated: '2026-11-17T13:49:45Z'
+  category: hep-th
+  source_url: https://arxiv.org/abs/2611.22785
+  source_version: 2611.22785v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - calabi-yau
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-11-18T16:44:53.065015+00:00'
+  summary_zh: ''
+- id: '2611.21990'
+  title: Hyperkähler Periods in Families of Parabolic Higgs Bundle Moduli Spaces
+  authors_raw:
+  - Panagiotis Dimakis
+  - Laura Fredrickson
+  - Arya Yae
+  date: '2026-11-16'
+  published: '2026-11-16T23:16:57Z'
+  updated: '2026-11-16T23:16:57Z'
+  category: math.DG
+  source_url: https://arxiv.org/abs/2611.21990
+  source_version: 2611.21990v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - moduli-spaces
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-11-18T16:44:53.065015+00:00'
+  summary_zh: ''
+- id: '2611.21751'
+  title: 'From Top to Bottom: Quark Mass Hierarchies in Heterotic String Theory'
+  authors_raw:
+  - Yuri Chervonyi
+  - Fabian Ruehle
+  - Nenad Tomasev
+  date: '2026-11-16'
+  published: '2026-11-16T19:00:23Z'
+  updated: '2026-11-16T19:00:23Z'
+  category: hep-th
+  source_url: https://arxiv.org/abs/2611.21751
+  source_version: 2611.21751v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - calabi-yau
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-11-18T16:44:53.065015+00:00'
+  summary_zh: ''
+- id: '2611.21715'
+  title: The SymTFT and Quantum Phases of Matter
+  authors_raw:
+  - Salvatore D. Pace
+  - Sakura Schafer-Nameki
+  - Carolyn Zhang
+  date: '2026-11-16'
+  published: '2026-11-16T19:00:01Z'
+  updated: '2026-11-16T19:00:01Z'
+  category: cond-mat.str-el
+  source_url: https://arxiv.org/abs/2611.21715
+  source_version: 2611.21715v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - topological-field-theory
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-11-18T16:44:53.065015+00:00'
+  summary_zh: ''
