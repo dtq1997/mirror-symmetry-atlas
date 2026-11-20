@@ -1,0 +1,306 @@
+fetch_date: '2026-11-20'
+period_days: 7
+last_success_at: '2026-11-20T16:26:37.172138+00:00'
+total_fetched: 689
+relevant_count: 14
+fetch_evidence:
+  query: (cat:math-ph OR cat:math.AG OR cat:math.QA OR cat:hep-th OR cat:math.DG OR
+    cat:math.SG OR cat:nlin.SI) AND submittedDate:[202611131626 TO 202611201626]
+  categories:
+  - math-ph
+  - math.AG
+  - math.QA
+  - hep-th
+  - math.DG
+  - math.SG
+  - nlin.SI
+  window_start: '2026-11-13T16:26:37.172138+00:00'
+  window_end: '2026-11-20T16:26:37.172138+00:00'
+  total_fetched: 689
+  pages:
+  - url: https://export.arxiv.org/api/query?search_query=%28cat%3Amath-ph+OR+cat%3Amath.AG+OR+cat%3Amath.QA+OR+cat%3Ahep-th+OR+cat%3Amath.DG+OR+cat%3Amath.SG+OR+cat%3Anlin.SI%29+AND+submittedDate%3A%5B202611131626+TO+202611201626%5D&start=0&max_results=200&sortBy=submittedDate&sortOrder=descending
+    sha256: 28b5d1fbaaed368c77374a381c40a92cc79afa264e6619f18168db024eb42fea
+    start: 0
+    count: 200
+  - url: https://export.arxiv.org/api/query?search_query=%28cat%3Amath-ph+OR+cat%3Amath.AG+OR+cat%3Amath.QA+OR+cat%3Ahep-th+OR+cat%3Amath.DG+OR+cat%3Amath.SG+OR+cat%3Anlin.SI%29+AND+submittedDate%3A%5B202611131626+TO+202611201626%5D&start=200&max_results=200&sortBy=submittedDate&sortOrder=descending
+    sha256: 01281d671a9b8d8d37123bff617ed060cc3b7eb5cd60a2b0823c6eb8354115a5
+    start: 200
+    count: 200
+  - url: https://export.arxiv.org/api/query?search_query=%28cat%3Amath-ph+OR+cat%3Amath.AG+OR+cat%3Amath.QA+OR+cat%3Ahep-th+OR+cat%3Amath.DG+OR+cat%3Amath.SG+OR+cat%3Anlin.SI%29+AND+submittedDate%3A%5B202611131626+TO+202611201626%5D&start=400&max_results=200&sortBy=submittedDate&sortOrder=descending
+    sha256: 0c23f19885d7ff381895760a34137b39ad93757340eb00c2512560e7780dd2b8
+    start: 400
+    count: 200
+  - url: https://export.arxiv.org/api/query?search_query=%28cat%3Amath-ph+OR+cat%3Amath.AG+OR+cat%3Amath.QA+OR+cat%3Ahep-th+OR+cat%3Amath.DG+OR+cat%3Amath.SG+OR+cat%3Anlin.SI%29+AND+submittedDate%3A%5B202611131626+TO+202611201626%5D&start=600&max_results=200&sortBy=submittedDate&sortOrder=descending
+    sha256: 2c14c5e0e49309a61c7a19e1bbee202f661bcea3b6b90d628fa93002a739031f
+    start: 600
+    count: 89
+entries:
+- id: '2611.26505'
+  title: Super quantum groups of divided powers à la Lusztig
+  authors_raw:
+  - Iván Angiono
+  - Cristian Vay
+  date: '2026-11-19'
+  published: '2026-11-19T17:54:38Z'
+  updated: '2026-11-19T17:54:38Z'
+  category: math.QA
+  source_url: https://arxiv.org/abs/2611.26505
+  source_version: 2611.26505v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - quantum-groups
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-11-20T16:26:37.172138+00:00'
+  summary_zh: ''
+- id: '2611.26354'
+  title: Elliptic analogues of KP and BKP hierarchies and their tau functions
+  authors_raw:
+  - Changyan Shi
+  - Bao-Feng Feng
+  date: '2026-11-19'
+  published: '2026-11-19T16:25:15Z'
+  updated: '2026-11-19T16:25:15Z'
+  category: nlin.SI
+  source_url: https://arxiv.org/abs/2611.26354
+  source_version: 2611.26354v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - tau-function
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-11-20T16:26:37.172138+00:00'
+  summary_zh: ''
+- id: '2611.26207'
+  title: Surface sheaves on the quintic I. Expanded degenerations and virtual gluing
+  authors_raw:
+  - Artan Sheshmani
+  date: '2026-11-19'
+  published: '2026-11-19T14:48:17Z'
+  updated: '2026-11-19T14:48:17Z'
+  category: math.AG
+  source_url: https://arxiv.org/abs/2611.26207
+  source_version: 2611.26207v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - calabi-yau
+  - moduli-spaces
+  relevance_score: 6
+  review_status: metadata-only
+  retrieved_at: '2026-11-20T16:26:37.172138+00:00'
+  summary_zh: ''
+- id: '2611.26001'
+  title: Moduli spaces of $(3,6)$-$K3$ surfaces and cubic surfaces
+  authors_raw:
+  - Yota Maeda
+  - Atsuhira Nagano
+  date: '2026-11-19'
+  published: '2026-11-19T12:21:08Z'
+  updated: '2026-11-19T12:21:08Z'
+  category: math.AG
+  source_url: https://arxiv.org/abs/2611.26001
+  source_version: 2611.26001v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - moduli-spaces
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-11-20T16:26:37.172138+00:00'
+  summary_zh: ''
+- id: '2611.25737'
+  title: Supersymmetric Hilbert complexes and Witten deformation on stratified pseudomanifolds
+  authors_raw:
+  - Gayana Jayasinghe
+  - Manousos Maridakis
+  - Hadrian Quan
+  - Alex R. Taylor
+  - Xinran Yu
+  date: '2026-11-19'
+  published: '2026-11-19T08:47:51Z'
+  updated: '2026-11-19T08:47:51Z'
+  category: math.DG
+  source_url: https://arxiv.org/abs/2611.25737
+  source_version: 2611.25737v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - index-theory
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-11-20T16:26:37.172138+00:00'
+  summary_zh: ''
+- id: '2611.25693'
+  title: Constructible properties of minimal models
+  authors_raw:
+  - Daniil Serebrennikov
+  date: '2026-11-19'
+  published: '2026-11-19T08:08:36Z'
+  updated: '2026-11-19T08:08:36Z'
+  category: math.AG
+  source_url: https://arxiv.org/abs/2611.25693
+  source_version: 2611.25693v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - calabi-yau
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-11-20T16:26:37.172138+00:00'
+  summary_zh: ''
+- id: '2611.25655'
+  title: Asymptotics of Hitchin metrics and modularity of exceptional ALG gravitational
+    instantons
+  authors_raw:
+  - Shiyu Cao
+  date: '2026-11-19'
+  published: '2026-11-19T07:38:23Z'
+  updated: '2026-11-19T07:38:23Z'
+  category: math.DG
+  source_url: https://arxiv.org/abs/2611.25655
+  source_version: 2611.25655v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - moduli-spaces
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-11-20T16:26:37.172138+00:00'
+  summary_zh: ''
+- id: '2611.25623'
+  title: Periods, isomonodromy, and modularity of ALG/ALG$^*$ gravitational instantons
+  authors_raw:
+  - Shiyu Cao
+  date: '2026-11-19'
+  published: '2026-11-19T07:08:01Z'
+  updated: '2026-11-19T07:08:01Z'
+  category: math.DG
+  source_url: https://arxiv.org/abs/2611.25623
+  source_version: 2611.25623v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - isomonodromy
+  - moduli-spaces
+  relevance_score: 6
+  review_status: metadata-only
+  retrieved_at: '2026-11-20T16:26:37.172138+00:00'
+  summary_zh: ''
+- id: '2611.25501'
+  title: Stein degree on birational log Calabi-Yau fibrations
+  authors_raw:
+  - Xintong Jiang
+  - Santai Qu
+  date: '2026-11-19'
+  published: '2026-11-19T04:47:11Z'
+  updated: '2026-11-19T04:47:11Z'
+  category: math.AG
+  source_url: https://arxiv.org/abs/2611.25501
+  source_version: 2611.25501v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - calabi-yau
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-11-20T16:26:37.172138+00:00'
+  summary_zh: ''
+- id: '2611.25183'
+  title: The rational points of the non-split Cartan modular curve of level 121
+  authors_raw:
+  - Manvir Jaswal
+  date: '2026-11-18'
+  published: '2026-11-18T21:07:06Z'
+  updated: '2026-11-18T21:07:06Z'
+  category: math.NT
+  source_url: https://arxiv.org/abs/2611.25183
+  source_version: 2611.25183v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - intersection-numbers
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-11-20T16:26:37.172138+00:00'
+  summary_zh: ''
+- id: '2611.25101'
+  title: Calabi-Yau linear models with abelian bundles
+  authors_raw:
+  - Yann Proto
+  date: '2026-11-18'
+  published: '2026-11-18T19:37:01Z'
+  updated: '2026-11-18T19:37:01Z'
+  category: hep-th
+  source_url: https://arxiv.org/abs/2611.25101
+  source_version: 2611.25101v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - calabi-yau
+  - landau-ginzburg
+  relevance_score: 6
+  review_status: metadata-only
+  retrieved_at: '2026-11-20T16:26:37.172138+00:00'
+  summary_zh: ''
+- id: '2611.25026'
+  title: Actionless Branes on Axion Wormholes
+  authors_raw:
+  - A. Ramesh Chandra
+  date: '2026-11-18'
+  published: '2026-11-18T19:00:02Z'
+  updated: '2026-11-18T19:00:02Z'
+  category: hep-th
+  source_url: https://arxiv.org/abs/2611.25026
+  source_version: 2611.25026v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - calabi-yau
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-11-20T16:26:37.172138+00:00'
+  summary_zh: ''
+- id: '2611.25017'
+  title: Quiver-Invariant Triality between Brane Brick Models
+  authors_raw:
+  - Dongwook Ghim
+  - Juno Kwon
+  - Rak-Kyeong Seong
+  date: '2026-11-18'
+  published: '2026-11-18T19:00:01Z'
+  updated: '2026-11-18T19:00:01Z'
+  category: hep-th
+  source_url: https://arxiv.org/abs/2611.25017
+  source_version: 2611.25017v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - calabi-yau
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-11-20T16:26:37.172138+00:00'
+  summary_zh: ''
+- id: '2611.25012'
+  title: Coupling of TQFTs to QFTs and SymTFT interfaces from bordisms
+  authors_raw:
+  - Max Hübner
+  - Ling Lin
+  - Daniel Robbins
+  - Subham Roy
+  date: '2026-11-18'
+  published: '2026-11-18T19:00:00Z'
+  updated: '2026-11-18T19:00:00Z'
+  category: hep-th
+  source_url: https://arxiv.org/abs/2611.25012
+  source_version: 2611.25012v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - topological-field-theory
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-11-20T16:26:37.172138+00:00'
+  summary_zh: ''
