@@ -1,0 +1,37 @@
+fetch_date: '2026-11-21'
+period_days: 7
+last_success_at: '2026-11-21T15:41:36.962908+00:00'
+total_fetched: 611
+relevant_count: 0
+fetch_evidence:
+  query: (cat:math-ph OR cat:math.AG OR cat:math.QA OR cat:hep-th OR cat:math.DG OR
+    cat:math.SG OR cat:nlin.SI) AND submittedDate:[202611141541 TO 202611211541]
+  categories:
+  - math-ph
+  - math.AG
+  - math.QA
+  - hep-th
+  - math.DG
+  - math.SG
+  - nlin.SI
+  window_start: '2026-11-14T15:41:36.962908+00:00'
+  window_end: '2026-11-21T15:41:36.962908+00:00'
+  total_fetched: 611
+  pages:
+  - url: https://export.arxiv.org/api/query?search_query=%28cat%3Amath-ph+OR+cat%3Amath.AG+OR+cat%3Amath.QA+OR+cat%3Ahep-th+OR+cat%3Amath.DG+OR+cat%3Amath.SG+OR+cat%3Anlin.SI%29+AND+submittedDate%3A%5B202611141541+TO+202611211541%5D&start=0&max_results=200&sortBy=submittedDate&sortOrder=descending
+    sha256: a034f19f38f59a30b61cd30ad78e19670dd842303d33e11b386e5338f6280438
+    start: 0
+    count: 200
+  - url: https://export.arxiv.org/api/query?search_query=%28cat%3Amath-ph+OR+cat%3Amath.AG+OR+cat%3Amath.QA+OR+cat%3Ahep-th+OR+cat%3Amath.DG+OR+cat%3Amath.SG+OR+cat%3Anlin.SI%29+AND+submittedDate%3A%5B202611141541+TO+202611211541%5D&start=200&max_results=200&sortBy=submittedDate&sortOrder=descending
+    sha256: 01996e85ad0efaf332b6621a48ee5723ea17cda503b8cb14f77b737cde57a3bc
+    start: 200
+    count: 200
+  - url: https://export.arxiv.org/api/query?search_query=%28cat%3Amath-ph+OR+cat%3Amath.AG+OR+cat%3Amath.QA+OR+cat%3Ahep-th+OR+cat%3Amath.DG+OR+cat%3Amath.SG+OR+cat%3Anlin.SI%29+AND+submittedDate%3A%5B202611141541+TO+202611211541%5D&start=400&max_results=200&sortBy=submittedDate&sortOrder=descending
+    sha256: a15b9aa8a47c8cf8576a290b410e88f7731a7aaf2b8ee868738de6ebdb8214b5
+    start: 400
+    count: 200
+  - url: https://export.arxiv.org/api/query?search_query=%28cat%3Amath-ph+OR+cat%3Amath.AG+OR+cat%3Amath.QA+OR+cat%3Ahep-th+OR+cat%3Amath.DG+OR+cat%3Amath.SG+OR+cat%3Anlin.SI%29+AND+submittedDate%3A%5B202611141541+TO+202611211541%5D&start=600&max_results=200&sortBy=submittedDate&sortOrder=descending
+    sha256: 336821d0f24a1abac655cefa1a4b564d1143e85498bf2e4e684d9c5885a47846
+    start: 600
+    count: 11
+entries: []
