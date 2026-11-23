@@ -1,0 +1,206 @@
+fetch_date: '2026-11-23'
+period_days: 7
+last_success_at: '2026-11-23T19:32:21.066991+00:00'
+total_fetched: 498
+relevant_count: 9
+fetch_evidence:
+  query: (cat:math-ph OR cat:math.AG OR cat:math.QA OR cat:hep-th OR cat:math.DG OR
+    cat:math.SG OR cat:nlin.SI) AND submittedDate:[202611161932 TO 202611231932]
+  categories:
+  - math-ph
+  - math.AG
+  - math.QA
+  - hep-th
+  - math.DG
+  - math.SG
+  - nlin.SI
+  window_start: '2026-11-16T19:32:21.066991+00:00'
+  window_end: '2026-11-23T19:32:21.066991+00:00'
+  total_fetched: 498
+  pages:
+  - url: https://export.arxiv.org/api/query?search_query=%28cat%3Amath-ph+OR+cat%3Amath.AG+OR+cat%3Amath.QA+OR+cat%3Ahep-th+OR+cat%3Amath.DG+OR+cat%3Amath.SG+OR+cat%3Anlin.SI%29+AND+submittedDate%3A%5B202611161932+TO+202611231932%5D&start=0&max_results=200&sortBy=submittedDate&sortOrder=descending
+    sha256: 19256b7efc896aba8fc5f9cc8636910a07b87f97e3f1953f3408d325678c04e3
+    start: 0
+    count: 200
+  - url: https://export.arxiv.org/api/query?search_query=%28cat%3Amath-ph+OR+cat%3Amath.AG+OR+cat%3Amath.QA+OR+cat%3Ahep-th+OR+cat%3Amath.DG+OR+cat%3Amath.SG+OR+cat%3Anlin.SI%29+AND+submittedDate%3A%5B202611161932+TO+202611231932%5D&start=200&max_results=200&sortBy=submittedDate&sortOrder=descending
+    sha256: b1112791fb7ef96fd1f4db2a6b12bf33444bf1d2c33da8dd1481addc202b98cb
+    start: 200
+    count: 200
+  - url: https://export.arxiv.org/api/query?search_query=%28cat%3Amath-ph+OR+cat%3Amath.AG+OR+cat%3Amath.QA+OR+cat%3Ahep-th+OR+cat%3Amath.DG+OR+cat%3Amath.SG+OR+cat%3Anlin.SI%29+AND+submittedDate%3A%5B202611161932+TO+202611231932%5D&start=400&max_results=200&sortBy=submittedDate&sortOrder=descending
+    sha256: ff26e70c3abdec5d57cb4354789064433987d8bf39ff28b8fff35be960c39b1a
+    start: 400
+    count: 98
+entries:
+- id: '2611.27879'
+  title: On the chromatic splitting conjecture in coheight $1$
+  authors_raw:
+  - Tobias Barthel
+  - Lucas Mann
+  - Rin Ray
+  - Tomer M. Schlank
+  - Andrew Senger
+  - Jared Weinstein
+  - Xinyu Zhou
+  date: '2026-11-20'
+  published: '2026-11-20T17:24:12Z'
+  updated: '2026-11-20T17:24:12Z'
+  category: math.AT
+  source_url: https://arxiv.org/abs/2611.27879
+  source_version: 2611.27879v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - homotopy-theory
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-11-23T19:32:21.066991+00:00'
+  summary_zh: ''
+- id: '2611.27861'
+  title: Brane Tilings and Polygons with Two Interior Points
+  authors_raw:
+  - Rak-Kyeong Seong
+  date: '2026-11-20'
+  published: '2026-11-20T17:09:47Z'
+  updated: '2026-11-20T17:09:47Z'
+  category: hep-th
+  source_url: https://arxiv.org/abs/2611.27861
+  source_version: 2611.27861v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - calabi-yau
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-11-23T19:32:21.066991+00:00'
+  summary_zh: ''
+- id: '2611.27727'
+  title: Calabi-Yau fibrations and orbifold Mordell
+  authors_raw:
+  - Ariyan Javanpeykar
+  date: '2026-11-20'
+  published: '2026-11-20T15:25:49Z'
+  updated: '2026-11-20T15:25:49Z'
+  category: math.AG
+  source_url: https://arxiv.org/abs/2611.27727
+  source_version: 2611.27727v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - calabi-yau
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-11-23T19:32:21.066991+00:00'
+  summary_zh: ''
+- id: '2611.27706'
+  title: Projectivized ASEP-Bethe system and counting solutions
+  authors_raw:
+  - Shinsuke Iwao
+  date: '2026-11-20'
+  published: '2026-11-20T15:11:30Z'
+  updated: '2026-11-20T15:11:30Z'
+  category: math.AG
+  source_url: https://arxiv.org/abs/2611.27706
+  source_version: 2611.27706v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - algebraic-geometry
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-11-23T19:32:21.066991+00:00'
+  summary_zh: ''
+- id: '2611.27466'
+  title: Diameter Growth of $\mathrm{U}(2^N)$ under Cliff Metrics
+  authors_raw:
+  - Xiaobo Liu
+  - Lei Zheng
+  date: '2026-11-20'
+  published: '2026-11-20T11:16:49Z'
+  updated: '2026-11-20T11:16:49Z'
+  category: math.DG
+  source_url: https://arxiv.org/abs/2611.27466
+  source_version: 2611.27466v1
+  matched_people: []
+  candidate_people:
+  - liu-xiaobo
+  matched_concepts: []
+  relevance_score: 10
+  review_status: metadata-only
+  retrieved_at: '2026-11-23T19:32:21.066991+00:00'
+  summary_zh: ''
+- id: '2611.27378'
+  title: 'Pairing and modular: Generalized electrons and quasiholes inside the $\boxtimes$
+    of topological orders'
+  authors_raw:
+  - Yoshiki Fukusumi
+  - Yuma Furuta
+  date: '2026-11-20'
+  published: '2026-11-20T09:43:29Z'
+  updated: '2026-11-20T09:43:29Z'
+  category: hep-th
+  source_url: https://arxiv.org/abs/2611.27378
+  source_version: 2611.27378v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - topological-field-theory
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-11-23T19:32:21.066991+00:00'
+  summary_zh: ''
+- id: '2611.27238'
+  title: Combinatorial relative orientability for toric and tropical geometry
+  authors_raw:
+  - Nathan Tiggemann
+  date: '2026-11-20'
+  published: '2026-11-20T07:39:41Z'
+  updated: '2026-11-20T07:39:41Z'
+  category: math.AG
+  source_url: https://arxiv.org/abs/2611.27238
+  source_version: 2611.27238v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - enumerative-geometry
+  - homotopy-theory
+  relevance_score: 6
+  review_status: metadata-only
+  retrieved_at: '2026-11-23T19:32:21.066991+00:00'
+  summary_zh: ''
+- id: '2611.26974'
+  title: 'Calabi-Yau at 50: mathematical discovery in the age of AI'
+  authors_raw:
+  - Yang-Hui He
+  date: '2026-11-20'
+  published: '2026-11-20T01:51:40Z'
+  updated: '2026-11-20T01:51:40Z'
+  category: math.AG
+  source_url: https://arxiv.org/abs/2611.26974
+  source_version: 2611.26974v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - calabi-yau
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-11-23T19:32:21.066991+00:00'
+  summary_zh: ''
+- id: '2611.26922'
+  title: Categorification of the reduced stated ${\rm SL}_n$-skein algebras of polygons
+  authors_raw:
+  - Min Huang
+  - Zhihao Wang
+  date: '2026-11-20'
+  published: '2026-11-20T00:19:51Z'
+  updated: '2026-11-20T00:19:51Z'
+  category: math.QA
+  source_url: https://arxiv.org/abs/2611.26922
+  source_version: 2611.26922v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - cluster-algebra
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-11-23T19:32:21.066991+00:00'
+  summary_zh: ''
