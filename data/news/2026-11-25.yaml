@@ -1,0 +1,278 @@
+fetch_date: '2026-11-25'
+period_days: 7
+last_success_at: '2026-11-25T18:13:06.729160+00:00'
+total_fetched: 701
+relevant_count: 12
+fetch_evidence:
+  query: (cat:math-ph OR cat:math.AG OR cat:math.QA OR cat:hep-th OR cat:math.DG OR
+    cat:math.SG OR cat:nlin.SI) AND submittedDate:[202611181813 TO 202611251813]
+  categories:
+  - math-ph
+  - math.AG
+  - math.QA
+  - hep-th
+  - math.DG
+  - math.SG
+  - nlin.SI
+  window_start: '2026-11-18T18:13:06.729160+00:00'
+  window_end: '2026-11-25T18:13:06.729160+00:00'
+  total_fetched: 701
+  pages:
+  - url: https://export.arxiv.org/api/query?search_query=%28cat%3Amath-ph+OR+cat%3Amath.AG+OR+cat%3Amath.QA+OR+cat%3Ahep-th+OR+cat%3Amath.DG+OR+cat%3Amath.SG+OR+cat%3Anlin.SI%29+AND+submittedDate%3A%5B202611181813+TO+202611251813%5D&start=0&max_results=200&sortBy=submittedDate&sortOrder=descending
+    sha256: e36c9df74b330c113451adf6cf66d7743abf653a3076269008b359805442b45b
+    start: 0
+    count: 200
+  - url: https://export.arxiv.org/api/query?search_query=%28cat%3Amath-ph+OR+cat%3Amath.AG+OR+cat%3Amath.QA+OR+cat%3Ahep-th+OR+cat%3Amath.DG+OR+cat%3Amath.SG+OR+cat%3Anlin.SI%29+AND+submittedDate%3A%5B202611181813+TO+202611251813%5D&start=200&max_results=200&sortBy=submittedDate&sortOrder=descending
+    sha256: 2465243dae1c087435e4d15da1968dac1ae61efdf8f4c86455f481acbab69faa
+    start: 200
+    count: 200
+  - url: https://export.arxiv.org/api/query?search_query=%28cat%3Amath-ph+OR+cat%3Amath.AG+OR+cat%3Amath.QA+OR+cat%3Ahep-th+OR+cat%3Amath.DG+OR+cat%3Amath.SG+OR+cat%3Anlin.SI%29+AND+submittedDate%3A%5B202611181813+TO+202611251813%5D&start=400&max_results=200&sortBy=submittedDate&sortOrder=descending
+    sha256: 83cc2ce4490775047c393a9701ef7128e53599cd426637d8073d0cbb9a0ff5fd
+    start: 400
+    count: 200
+  - url: https://export.arxiv.org/api/query?search_query=%28cat%3Amath-ph+OR+cat%3Amath.AG+OR+cat%3Amath.QA+OR+cat%3Ahep-th+OR+cat%3Amath.DG+OR+cat%3Amath.SG+OR+cat%3Anlin.SI%29+AND+submittedDate%3A%5B202611181813+TO+202611251813%5D&start=600&max_results=200&sortBy=submittedDate&sortOrder=descending
+    sha256: 6620f01e6c7343f76eaf9cb5e8717ac5c71dad43b25eea9aab5da0f686382600
+    start: 600
+    count: 101
+entries:
+- id: '2611.33152'
+  title: Abelian envelopes and quantum groups in Knop's interpolation categories
+  authors_raw:
+  - Johannes Flake
+  - Peter Mader
+  date: '2026-11-24'
+  published: '2026-11-24T18:59:07Z'
+  updated: '2026-11-24T18:59:07Z'
+  category: math.CT
+  source_url: https://arxiv.org/abs/2611.33152
+  source_version: 2611.33152v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - quantum-groups
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-11-25T18:13:06.729160+00:00'
+  summary_zh: ''
+- id: '2611.33025'
+  title: Bloch Discriminants of Discrete Periodic Operators
+  authors_raw:
+  - Margaret H. Regan
+  - Frank Sottile
+  - Simon Telen
+  date: '2026-11-24'
+  published: '2026-11-24T17:40:18Z'
+  updated: '2026-11-24T17:40:18Z'
+  category: math.AG
+  source_url: https://arxiv.org/abs/2611.33025
+  source_version: 2611.33025v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - algebraic-geometry
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-11-25T18:13:06.729160+00:00'
+  summary_zh: ''
+- id: '2611.32901'
+  title: Fisher information in the flux landscape
+  authors_raw:
+  - Martin Carrascal
+  - Radu Tatar
+  date: '2026-11-24'
+  published: '2026-11-24T16:25:59Z'
+  updated: '2026-11-24T16:25:59Z'
+  category: hep-th
+  source_url: https://arxiv.org/abs/2611.32901
+  source_version: 2611.32901v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - calabi-yau
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-11-25T18:13:06.729160+00:00'
+  summary_zh: ''
+- id: '2611.32854'
+  title: The Four-Loop Ladder Integral Family for the QED Electron Self-Energy
+  authors_raw:
+  - Felix Forner
+  - Andreas von Manteuffel
+  - Christoph Nega
+  - Lorenzo Tancredi
+  date: '2026-11-24'
+  published: '2026-11-24T15:57:07Z'
+  updated: '2026-11-24T15:57:07Z'
+  category: hep-th
+  source_url: https://arxiv.org/abs/2611.32854
+  source_version: 2611.32854v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - calabi-yau
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-11-25T18:13:06.729160+00:00'
+  summary_zh: ''
+- id: '2611.32721'
+  title: Quasifibrations in étale homotopy theory
+  authors_raw:
+  - Tim Holzschuh
+  - Alexander Schmidt
+  - Jakob Stix
+  date: '2026-11-24'
+  published: '2026-11-24T14:41:17Z'
+  updated: '2026-11-24T14:41:17Z'
+  category: math.AG
+  source_url: https://arxiv.org/abs/2611.32721
+  source_version: 2611.32721v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - homotopy-theory
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-11-25T18:13:06.729160+00:00'
+  summary_zh: ''
+- id: '2611.32644'
+  title: Teichmüller spaces with conical singularities and Virasoro coadjoint orbits
+  authors_raw:
+  - Anton Alekseev
+  - Rea Dalipi
+  - Samson Shatashvili
+  date: '2026-11-24'
+  published: '2026-11-24T14:03:45Z'
+  updated: '2026-11-24T14:03:45Z'
+  category: math.DG
+  source_url: https://arxiv.org/abs/2611.32644
+  source_version: 2611.32644v1
+  matched_people: []
+  candidate_people:
+  - alekseev
+  matched_concepts: []
+  relevance_score: 10
+  review_status: metadata-only
+  retrieved_at: '2026-11-25T18:13:06.729160+00:00'
+  summary_zh: ''
+- id: '2611.32612'
+  title: 'Inflation at strong mixing as a connection problem: effective field theory,
+    Stokes phenomenon and the cosmological collider'
+  authors_raw:
+  - Sebastian Garcia-Saenz
+  - Yizhou Lu
+  - Sébastien Renaux-Petel
+  date: '2026-11-24'
+  published: '2026-11-24T13:44:10Z'
+  updated: '2026-11-24T13:44:10Z'
+  category: hep-th
+  source_url: https://arxiv.org/abs/2611.32612
+  source_version: 2611.32612v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - stokes-phenomenon
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-11-25T18:13:06.729160+00:00'
+  summary_zh: ''
+- id: '2611.32570'
+  title: Arithmetic Siegel-Weil formulas for unitary Shimura varieties with Iwahori
+    levels
+  authors_raw:
+  - Sungyoon Cho
+  - Qiao He
+  - Chul-hee Lee
+  - Zhiyu Zhang
+  date: '2026-11-24'
+  published: '2026-11-24T13:15:32Z'
+  updated: '2026-11-24T13:15:32Z'
+  category: math.NT
+  source_url: https://arxiv.org/abs/2611.32570
+  source_version: 2611.32570v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - intersection-numbers
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-11-25T18:13:06.729160+00:00'
+  summary_zh: ''
+- id: '2611.32544'
+  title: Differential Equations for Feynman Integrals from Higher Residue Pairings
+  authors_raw:
+  - Giacomo Brunello
+  - Vsevolod Chestnov
+  - Ben Page
+  date: '2026-11-24'
+  published: '2026-11-24T13:02:49Z'
+  updated: '2026-11-24T13:02:49Z'
+  category: hep-th
+  source_url: https://arxiv.org/abs/2611.32544
+  source_version: 2611.32544v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - intersection-numbers
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-11-25T18:13:06.729160+00:00'
+  summary_zh: ''
+- id: '2611.32437'
+  title: Romans Mass from a $\mathrm{GL}(1,\mathbb{R})$ Topological Field Theory with
+    Boundary
+  authors_raw:
+  - Euihun Joung
+  - J. A. Rosabal
+  date: '2026-11-24'
+  published: '2026-11-24T11:35:54Z'
+  updated: '2026-11-24T11:35:54Z'
+  category: hep-th
+  source_url: https://arxiv.org/abs/2611.32437
+  source_version: 2611.32437v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - flat-connection
+  - topological-field-theory
+  relevance_score: 6
+  review_status: metadata-only
+  retrieved_at: '2026-11-25T18:13:06.729160+00:00'
+  summary_zh: ''
+- id: '2611.32150'
+  title: 'Resolvent reconstruction of minimal strings beyond KdV II: D series models'
+  authors_raw:
+  - Wasif Ahmed
+  - Joydeep Naskar
+  date: '2026-11-24'
+  published: '2026-11-24T08:04:55Z'
+  updated: '2026-11-24T08:04:55Z'
+  category: hep-th
+  source_url: https://arxiv.org/abs/2611.32150
+  source_version: 2611.32150v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - tau-function
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-11-25T18:13:06.729160+00:00'
+  summary_zh: ''
+- id: '2611.31507'
+  title: 'Irrationality and differential equations: the work of Calegari, Dimitrov,
+    and Tang'
+  authors_raw:
+  - Daniel Litt
+  date: '2026-11-23'
+  published: '2026-11-23T20:14:32Z'
+  updated: '2026-11-23T20:14:32Z'
+  category: math.NT
+  source_url: https://arxiv.org/abs/2611.31507
+  source_version: 2611.31507v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - algebraic-geometry
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-11-25T18:13:06.729160+00:00'
+  summary_zh: ''
