@@ -1,0 +1,191 @@
+fetch_date: '2026-11-26'
+period_days: 7
+last_success_at: '2026-11-26T17:55:21.380008+00:00'
+total_fetched: 693
+relevant_count: 8
+fetch_evidence:
+  query: (cat:math-ph OR cat:math.AG OR cat:math.QA OR cat:hep-th OR cat:math.DG OR
+    cat:math.SG OR cat:nlin.SI) AND submittedDate:[202611191755 TO 202611261755]
+  categories:
+  - math-ph
+  - math.AG
+  - math.QA
+  - hep-th
+  - math.DG
+  - math.SG
+  - nlin.SI
+  window_start: '2026-11-19T17:55:21.380008+00:00'
+  window_end: '2026-11-26T17:55:21.380008+00:00'
+  total_fetched: 693
+  pages:
+  - url: https://export.arxiv.org/api/query?search_query=%28cat%3Amath-ph+OR+cat%3Amath.AG+OR+cat%3Amath.QA+OR+cat%3Ahep-th+OR+cat%3Amath.DG+OR+cat%3Amath.SG+OR+cat%3Anlin.SI%29+AND+submittedDate%3A%5B202611191755+TO+202611261755%5D&start=0&max_results=200&sortBy=submittedDate&sortOrder=descending
+    sha256: 02b5c0d21ec4d2e91dd0d30b3af026f26dd797b2bbdc865444044cff1baaa050
+    start: 0
+    count: 200
+  - url: https://export.arxiv.org/api/query?search_query=%28cat%3Amath-ph+OR+cat%3Amath.AG+OR+cat%3Amath.QA+OR+cat%3Ahep-th+OR+cat%3Amath.DG+OR+cat%3Amath.SG+OR+cat%3Anlin.SI%29+AND+submittedDate%3A%5B202611191755+TO+202611261755%5D&start=200&max_results=200&sortBy=submittedDate&sortOrder=descending
+    sha256: c6fb19ed66ba7023b6068eb7ac645a0bd6691c256d2d0bb92c04c59054e8ff21
+    start: 200
+    count: 200
+  - url: https://export.arxiv.org/api/query?search_query=%28cat%3Amath-ph+OR+cat%3Amath.AG+OR+cat%3Amath.QA+OR+cat%3Ahep-th+OR+cat%3Amath.DG+OR+cat%3Amath.SG+OR+cat%3Anlin.SI%29+AND+submittedDate%3A%5B202611191755+TO+202611261755%5D&start=400&max_results=200&sortBy=submittedDate&sortOrder=descending
+    sha256: 6c0cddcb3cbc13db99493c297dd8479408fc4652d8cc367703aca2fc71401789
+    start: 400
+    count: 200
+  - url: https://export.arxiv.org/api/query?search_query=%28cat%3Amath-ph+OR+cat%3Amath.AG+OR+cat%3Amath.QA+OR+cat%3Ahep-th+OR+cat%3Amath.DG+OR+cat%3Amath.SG+OR+cat%3Anlin.SI%29+AND+submittedDate%3A%5B202611191755+TO+202611261755%5D&start=600&max_results=200&sortBy=submittedDate&sortOrder=descending
+    sha256: 46f42ff3691de0acbb216432dc85862ef00953c999154ff9469d9e36983f4012
+    start: 600
+    count: 93
+entries:
+- id: '2611.34594'
+  title: Genus one mirror symmetry and surfaces with trivial first Chern class
+  authors_raw:
+  - Gabriel Abánades-Joglar
+  - Dennis Eriksson
+  date: '2026-11-25'
+  published: '2026-11-25T15:52:24Z'
+  updated: '2026-11-25T15:52:24Z'
+  category: math.AG
+  source_url: https://arxiv.org/abs/2611.34594
+  source_version: 2611.34594v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - mirror-symmetry
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-11-26T17:55:21.380008+00:00'
+  summary_zh: ''
+- id: '2611.34487'
+  title: Superconformal Index Identities for Dual Gauge Theories
+  authors_raw:
+  - Min-xin Huang
+  - Gao-fu Ren
+  - Xin Wang
+  date: '2026-11-25'
+  published: '2026-11-25T14:47:45Z'
+  updated: '2026-11-25T14:47:45Z'
+  category: hep-th
+  source_url: https://arxiv.org/abs/2611.34487
+  source_version: 2611.34487v1
+  matched_people: []
+  candidate_people:
+  - wang-xin
+  matched_concepts: []
+  relevance_score: 10
+  review_status: metadata-only
+  retrieved_at: '2026-11-26T17:55:21.380008+00:00'
+  summary_zh: ''
+- id: '2611.34110'
+  title: Colored Jones polynomial of figure eight knot and non-perturbative topological
+    recursion
+  authors_raw:
+  - Alexander Hock
+  - Sergey Shadrin
+  date: '2026-11-25'
+  published: '2026-11-25T10:13:46Z'
+  updated: '2026-11-25T10:13:46Z'
+  category: math-ph
+  source_url: https://arxiv.org/abs/2611.34110
+  source_version: 2611.34110v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - topological-recursion
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-11-26T17:55:21.380008+00:00'
+  summary_zh: ''
+- id: '2611.33778'
+  title: The Dolbeault geometric Langlands-type conjecture for smooth surfaces
+  authors_raw:
+  - Yukinobu Toda
+  date: '2026-11-25'
+  published: '2026-11-25T05:02:08Z'
+  updated: '2026-11-25T05:02:08Z'
+  category: math.AG
+  source_url: https://arxiv.org/abs/2611.33778
+  source_version: 2611.33778v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - calabi-yau
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-11-26T17:55:21.380008+00:00'
+  summary_zh: ''
+- id: '2611.33641'
+  title: On the rigidity of generalized cylinders
+  authors_raw:
+  - Hanbing Fang
+  - Yu Li
+  date: '2026-11-25'
+  published: '2026-11-25T02:08:54Z'
+  updated: '2026-11-25T02:08:54Z'
+  category: math.DG
+  source_url: https://arxiv.org/abs/2611.33641
+  source_version: 2611.33641v1
+  matched_people: []
+  candidate_people:
+  - li-yu
+  matched_concepts: []
+  relevance_score: 10
+  review_status: metadata-only
+  retrieved_at: '2026-11-26T17:55:21.380008+00:00'
+  summary_zh: ''
+- id: '2611.33609'
+  title: Reeb stability for singular Riemannian foliations
+  authors_raw:
+  - Mateus de Melo
+  - Laura Ribeiro dos Santos
+  - Ivan Struchiner
+  date: '2026-11-25'
+  published: '2026-11-25T01:32:44Z'
+  updated: '2026-11-25T01:32:44Z'
+  category: math.DG
+  source_url: https://arxiv.org/abs/2611.33609
+  source_version: 2611.33609v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - lie-algebroid
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-11-26T17:55:21.380008+00:00'
+  summary_zh: ''
+- id: '2611.33491'
+  title: Primitive Collections for Klyachko Varieties
+  authors_raw:
+  - Nicole Lemire
+  - Jason Palombaro
+  date: '2026-11-24'
+  published: '2026-11-24T22:14:47Z'
+  updated: '2026-11-24T22:14:47Z'
+  category: math.AG
+  source_url: https://arxiv.org/abs/2611.33491
+  source_version: 2611.33491v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - derived-category
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-11-26T17:55:21.380008+00:00'
+  summary_zh: ''
+- id: '2611.33311'
+  title: Machine Learning for Calabi--Yau Geometry and Heterotic Compactification
+  authors_raw:
+  - Vishnu Jejjala
+  - Damian Mayorga Pena
+  date: '2026-11-24'
+  published: '2026-11-24T19:03:46Z'
+  updated: '2026-11-24T19:03:46Z'
+  category: hep-th
+  source_url: https://arxiv.org/abs/2611.33311
+  source_version: 2611.33311v1
+  matched_people: []
+  candidate_people: []
+  matched_concepts:
+  - calabi-yau
+  relevance_score: 3
+  review_status: metadata-only
+  retrieved_at: '2026-11-26T17:55:21.380008+00:00'
+  summary_zh: ''
